@@ -19,10 +19,7 @@ import { registerSkillsRoutes } from "./skills.routes";
 import { registerChatGroupsRoutes } from "./chatgroups.routes";
 import { registerLighthouseRoutes } from "./lighthouse.routes";
 import { registerTrustTransportRoutes } from "./trusttransport.routes";
-import { registerMechanicMatchRoutes } from "./mechanicmatch.routes";
-import { registerResearchRoutes } from "./research.routes";
 import { registerGentlePulseRoutes } from "./gentlepulse.routes";
-import { registerLostMailRoutes } from "./lostmail.routes";
 import { registerChymeRoutes } from "./chyme.routes";
 import { registerChymeRoomsRoutes } from "./chyme-rooms.routes";
 import { registerWorkforceRecruiterRoutes } from "./workforce-recruiter.routes";
@@ -47,10 +44,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
   registerChatGroupsRoutes(app);
   registerLighthouseRoutes(app);
   registerTrustTransportRoutes(app);
-  registerMechanicMatchRoutes(app);
-  registerResearchRoutes(app);
   registerGentlePulseRoutes(app);
-  registerLostMailRoutes(app);
   registerChymeRoutes(app);
   registerChymeRoomsRoutes(app);
   registerWorkforceRecruiterRoutes(app);
@@ -60,4 +54,3 @@ export async function registerRoutes(app: Express): Promise<Server> {
   const httpServer = createServer(app);
   return httpServer;
 }
-

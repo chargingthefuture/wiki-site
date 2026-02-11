@@ -76,7 +76,7 @@ export function HeroSection() {
                 START NOW
               </Button>
             </a>
-            <a
+            {/* <a
               href={config.links.townhall}
               target="_blank"
               rel="noopener noreferrer"
@@ -89,7 +89,7 @@ export function HeroSection() {
               >
                 JOIN TOWN HALL
               </Button>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
