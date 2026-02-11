@@ -56,11 +56,6 @@ const seedScripts = [
     description: "TrustTransport - Ride sharing",
   },
   {
-    name: "MechanicMatch",
-    script: "seedMechanicMatch.ts",
-    description: "MechanicMatch - Vehicle repair services",
-  },
-  {
     name: "GentlePulse",
     script: "seedGentlePulse.ts",
     description: "GentlePulse - Meditation library",

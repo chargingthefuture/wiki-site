@@ -51,25 +51,6 @@ import TrustTransportMyClaimed from "@/pages/trusttransport/my-claimed";
 import TrustTransportAnnouncements from "@/pages/trusttransport/announcements";
 import TrustTransportAdmin from "@/pages/trusttransport/admin";
 import TrustTransportAdminAnnouncements from "@/pages/trusttransport/admin-announcements";
-import MechanicMatchDashboard from "@/pages/mechanicmatch/dashboard";
-import MechanicMatchProfile from "@/pages/mechanicmatch/profile";
-import MechanicMatchVehicles from "@/pages/mechanicmatch/vehicles";
-import MechanicMatchVehicleNew from "@/pages/mechanicmatch/vehicle-new";
-import MechanicMatchVehicleEdit from "@/pages/mechanicmatch/vehicle-edit";
-import MechanicMatchRequestNew from "@/pages/mechanicmatch/request-new";
-import MechanicMatchBrowseMechanics from "@/pages/mechanicmatch/browse-mechanics";
-import MechanicMatchAvailability from "@/pages/mechanicmatch/availability";
-import MechanicMatchAdmin from "@/pages/mechanicmatch/admin";
-import MechanicMatchAdminProfiles from "@/pages/mechanicmatch/admin-profiles";
-import MechanicMatchAdminAnnouncements from "@/pages/mechanicmatch/admin-announcements";
-import MechanicMatchAnnouncements from "@/pages/mechanicmatch/announcements";
-import LostMailDashboard from "@/pages/lostmail/dashboard";
-import LostMailReport from "@/pages/lostmail/report";
-import LostMailIncidentDetail from "@/pages/lostmail/incident-detail";
-import LostMailAdmin from "@/pages/lostmail/admin";
-import LostMailAdminAnnouncements from "@/pages/lostmail/admin-announcements";
-import LostMailAdminIncidentDetail from "@/pages/lostmail/admin-incident-detail";
-import LostMailAnnouncements from "@/pages/lostmail/announcements";
 import GentlePulseLibrary from "@/pages/gentlepulse/library";
 import GentlePulseSupport from "@/pages/gentlepulse/support";
 import GentlePulseSettings from "@/pages/gentlepulse/settings";
@@ -350,105 +331,6 @@ export function MiniAppRoutes() {
       <Route path="/apps/trusttransport/admin/announcements">
         <ProtectedRoute>
           <TrustTransportAdminAnnouncements />
-        </ProtectedRoute>
-      </Route>
-
-      {/* MechanicMatch routes */}
-      <Route path="/apps/mechanicmatch">
-        <ProtectedRoute>
-          <MechanicMatchDashboard />
-        </ProtectedRoute>
-      </Route>
-      <Route path="/apps/mechanicmatch/profile">
-        <ProtectedRoute>
-          <MechanicMatchProfile />
-        </ProtectedRoute>
-      </Route>
-      <Route path="/apps/mechanicmatch/vehicles">
-        <ProtectedRoute>
-          <MechanicMatchVehicles />
-        </ProtectedRoute>
-      </Route>
-      <Route path="/apps/mechanicmatch/vehicles/new">
-        <ProtectedRoute>
-          <MechanicMatchVehicleNew />
-        </ProtectedRoute>
-      </Route>
-      <Route path="/apps/mechanicmatch/vehicles/:id/edit">
-        <ProtectedRoute>
-          <MechanicMatchVehicleEdit />
-        </ProtectedRoute>
-      </Route>
-      <Route path="/apps/mechanicmatch/request-new">
-        <ProtectedRoute>
-          <MechanicMatchRequestNew />
-        </ProtectedRoute>
-      </Route>
-      <Route path="/apps/mechanicmatch/browse-mechanics">
-        <ProtectedRoute>
-          <MechanicMatchBrowseMechanics />
-        </ProtectedRoute>
-      </Route>
-      <Route path="/apps/mechanicmatch/availability">
-        <ProtectedRoute>
-          <MechanicMatchAvailability />
-        </ProtectedRoute>
-      </Route>
-      <Route path="/apps/mechanicmatch/admin">
-        <ProtectedRoute>
-          <MechanicMatchAdmin />
-        </ProtectedRoute>
-      </Route>
-      <Route path="/apps/mechanicmatch/admin/profiles">
-        <ProtectedRoute>
-          <MechanicMatchAdminProfiles />
-        </ProtectedRoute>
-      </Route>
-      <Route path="/apps/mechanicmatch/admin/announcements">
-        <ProtectedRoute>
-          <MechanicMatchAdminAnnouncements />
-        </ProtectedRoute>
-      </Route>
-      <Route path="/apps/mechanicmatch/announcements">
-        <ProtectedRoute>
-          <MechanicMatchAnnouncements />
-        </ProtectedRoute>
-      </Route>
-
-      {/* LostMail routes */}
-      <Route path="/apps/lostmail">
-        <ProtectedRoute>
-          <LostMailDashboard />
-        </ProtectedRoute>
-      </Route>
-      <Route path="/apps/lostmail/report">
-        <ProtectedRoute>
-          <LostMailReport />
-        </ProtectedRoute>
-      </Route>
-      <Route path="/apps/lostmail/incident/:id">
-        <ProtectedRoute>
-          <LostMailIncidentDetail />
-        </ProtectedRoute>
-      </Route>
-      <Route path="/apps/lostmail/admin">
-        <ProtectedRoute>
-          <LostMailAdmin />
-        </ProtectedRoute>
-      </Route>
-      <Route path="/apps/lostmail/admin/announcements">
-        <ProtectedRoute>
-          <LostMailAdminAnnouncements />
-        </ProtectedRoute>
-      </Route>
-      <Route path="/apps/lostmail/admin/incident/:id">
-        <ProtectedRoute>
-          <LostMailAdminIncidentDetail />
-        </ProtectedRoute>
-      </Route>
-      <Route path="/apps/lostmail/announcements">
-        <ProtectedRoute>
-          <LostMailAnnouncements />
         </ProtectedRoute>
       </Route>
 

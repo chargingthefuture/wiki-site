@@ -100,32 +100,8 @@ DELETE FROM directory_profiles WHERE user_id = :'USER_ID';
 DELETE FROM trusttransport_ride_requests WHERE rider_id = :'USER_ID';
 DELETE FROM trusttransport_profiles WHERE user_id = :'USER_ID';
 
--- MechanicMatch - All owner_id, reviewer_id, sender_id, recipient_id reference users.id directly
--- Delete messages first
-DELETE FROM mechanicmatch_messages WHERE sender_id = :'USER_ID';
-DELETE FROM mechanicmatch_messages WHERE recipient_id = :'USER_ID';
--- Delete reviews (reviewer_id references users.id directly)
-DELETE FROM mechanicmatch_reviews WHERE reviewer_id = :'USER_ID';
--- Delete reviews where this user's mechanic profile was reviewed (reviewee_id references mechanicmatch_profiles.id)
-DELETE FROM mechanicmatch_reviews WHERE reviewee_id IN (
-  SELECT id FROM mechanicmatch_profiles WHERE user_id = :'USER_ID'
-);
--- Delete jobs where this user is the car owner (owner_id references users.id directly)
-DELETE FROM mechanicmatch_jobs WHERE owner_id = :'USER_ID';
--- Delete jobs where this user is the mechanic (mechanic_id references mechanicmatch_profiles.id)
-DELETE FROM mechanicmatch_jobs WHERE mechanic_id IN (
-  SELECT id FROM mechanicmatch_profiles WHERE user_id = :'USER_ID'
-);
--- Delete service requests (owner_id references users.id directly)
-DELETE FROM mechanicmatch_service_requests WHERE owner_id = :'USER_ID';
--- Delete vehicles (owner_id references users.id directly)
-DELETE FROM mechanicmatch_vehicles WHERE owner_id = :'USER_ID';
--- Finally delete the profile
-DELETE FROM mechanicmatch_profiles WHERE user_id = :'USER_ID';
-
 -- NPS Responses (user_id references users.id directly)
 DELETE FROM nps_responses WHERE user_id = :'USER_ID';
-
 
 -- GentlePulse
 -- Note: GentlePulse tables use a client-scoped identifier (client_id), not users.id,

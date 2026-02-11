@@ -281,57 +281,6 @@ export class DatabaseStorage implements IStorage {
   getAllSkillsFlattened = delegate(() => this.miniAppsStorageComposed, 'getAllSkillsFlattened');
 
   // ========================================
-  // MECHANICMATCH OPERATIONS
-  // ========================================
-
-  getMechanicmatchProfile = delegate(() => this.miniAppsStorageComposed, 'getMechanicmatchProfile');
-  getMechanicmatchProfileById = delegate(() => this.miniAppsStorageComposed, 'getMechanicmatchProfileById');
-  listMechanicmatchProfiles = delegate(() => this.miniAppsStorageComposed, 'listMechanicmatchProfiles');
-  listPublicMechanicmatchProfiles = delegate(() => this.miniAppsStorageComposed, 'listPublicMechanicmatchProfiles');
-  createMechanicmatchProfile = delegate(() => this.miniAppsStorageComposed, 'createMechanicmatchProfile');
-  updateMechanicmatchProfile = delegate(() => this.miniAppsStorageComposed, 'updateMechanicmatchProfile');
-  updateMechanicmatchProfileById = delegate(() => this.miniAppsStorageComposed, 'updateMechanicmatchProfileById');
-  deleteMechanicmatchProfile = delegate(() => this.miniAppsStorageComposed, 'deleteMechanicmatchProfile');
-  deleteMechanicmatchProfileById = delegate(() => this.miniAppsStorageComposed, 'deleteMechanicmatchProfileById');
-  getMechanicmatchVehiclesByOwner = delegate(() => this.miniAppsStorageComposed, 'getMechanicmatchVehiclesByOwner');
-  getMechanicmatchVehicleById = delegate(() => this.miniAppsStorageComposed, 'getMechanicmatchVehicleById');
-  createMechanicmatchVehicle = delegate(() => this.miniAppsStorageComposed, 'createMechanicmatchVehicle');
-  updateMechanicmatchVehicle = delegate(() => this.miniAppsStorageComposed, 'updateMechanicmatchVehicle');
-  deleteMechanicmatchVehicle = delegate(() => this.miniAppsStorageComposed, 'deleteMechanicmatchVehicle');
-  createMechanicmatchServiceRequest = delegate(() => this.miniAppsStorageComposed, 'createMechanicmatchServiceRequest');
-  getMechanicmatchServiceRequestById = delegate(() => this.miniAppsStorageComposed, 'getMechanicmatchServiceRequestById');
-  getMechanicmatchServiceRequestsByOwner = delegate(() => this.miniAppsStorageComposed, 'getMechanicmatchServiceRequestsByOwner');
-  getMechanicmatchServiceRequestsByOwnerPaginated = delegate(() => this.miniAppsStorageComposed, 'getMechanicmatchServiceRequestsByOwnerPaginated');
-  getOpenMechanicmatchServiceRequests = delegate(() => this.miniAppsStorageComposed, 'getOpenMechanicmatchServiceRequests');
-  updateMechanicmatchServiceRequest = delegate(() => this.miniAppsStorageComposed, 'updateMechanicmatchServiceRequest');
-  createMechanicmatchJob = delegate(() => this.miniAppsStorageComposed, 'createMechanicmatchJob');
-  getMechanicmatchJobById = delegate(() => this.miniAppsStorageComposed, 'getMechanicmatchJobById');
-  getMechanicmatchJobsByOwner = delegate(() => this.miniAppsStorageComposed, 'getMechanicmatchJobsByOwner');
-  getMechanicmatchJobsByMechanic = delegate(() => this.miniAppsStorageComposed, 'getMechanicmatchJobsByMechanic');
-  updateMechanicmatchJob = delegate(() => this.miniAppsStorageComposed, 'updateMechanicmatchJob');
-  acceptMechanicmatchJob = delegate(() => this.miniAppsStorageComposed, 'acceptMechanicmatchJob');
-  getMechanicmatchAvailabilityByMechanic = delegate(() => this.miniAppsStorageComposed, 'getMechanicmatchAvailabilityByMechanic');
-  createMechanicmatchAvailability = delegate(() => this.miniAppsStorageComposed, 'createMechanicmatchAvailability');
-  updateMechanicmatchAvailability = delegate(() => this.miniAppsStorageComposed, 'updateMechanicmatchAvailability');
-  deleteMechanicmatchAvailability = delegate(() => this.miniAppsStorageComposed, 'deleteMechanicmatchAvailability');
-  createMechanicmatchReview = delegate(() => this.miniAppsStorageComposed, 'createMechanicmatchReview');
-  getMechanicmatchReviewById = delegate(() => this.miniAppsStorageComposed, 'getMechanicmatchReviewById');
-  getMechanicmatchReviewsByReviewee = delegate(() => this.miniAppsStorageComposed, 'getMechanicmatchReviewsByReviewee');
-  getMechanicmatchReviewsByReviewer = delegate(() => this.miniAppsStorageComposed, 'getMechanicmatchReviewsByReviewer');
-  getMechanicmatchReviewsByJob = delegate(() => this.miniAppsStorageComposed, 'getMechanicmatchReviewsByJob');
-  createMechanicmatchMessage = delegate(() => this.miniAppsStorageComposed, 'createMechanicmatchMessage');
-  getMechanicmatchMessagesByJob = delegate(() => this.miniAppsStorageComposed, 'getMechanicmatchMessagesByJob');
-  getMechanicmatchMessagesBetweenUsers = delegate(() => this.miniAppsStorageComposed, 'getMechanicmatchMessagesBetweenUsers');
-  markMechanicmatchMessageAsRead = delegate(() => this.miniAppsStorageComposed, 'markMechanicmatchMessageAsRead');
-  getUnreadMechanicmatchMessages = delegate(() => this.miniAppsStorageComposed, 'getUnreadMechanicmatchMessages');
-  searchMechanicmatchMechanics = delegate(() => this.miniAppsStorageComposed, 'searchMechanicmatchMechanics');
-  createMechanicmatchAnnouncement = delegate(() => this.miniAppsStorageComposed, 'createMechanicmatchAnnouncement');
-  getActiveMechanicmatchAnnouncements = delegate(() => this.miniAppsStorageComposed, 'getActiveMechanicmatchAnnouncements');
-  getAllMechanicmatchAnnouncements = delegate(() => this.miniAppsStorageComposed, 'getAllMechanicmatchAnnouncements');
-  updateMechanicmatchAnnouncement = delegate(() => this.miniAppsStorageComposed, 'updateMechanicmatchAnnouncement');
-  deactivateMechanicmatchAnnouncement = delegate(() => this.miniAppsStorageComposed, 'deactivateMechanicmatchAnnouncement');
-
-  // ========================================
   // CHATGROUPS OPERATIONS (delegated to MiniAppsStorageComposed)
   // ========================================
 
@@ -464,23 +413,6 @@ export class DatabaseStorage implements IStorage {
   deactivateWorkforceRecruiterAnnouncement = delegate(() => this.miniAppsStorageComposed, 'deactivateWorkforceRecruiterAnnouncement');
 
   // ========================================
-  // BLOG OPERATIONS
-  // ========================================
-
-  getPublishedBlogPosts = delegate(() => this.miniAppsStorageComposed, 'getPublishedBlogPosts');
-  getBlogPostBySlug = delegate(() => this.miniAppsStorageComposed, 'getBlogPostBySlug');
-  getAllBlogPosts = delegate(() => this.miniAppsStorageComposed, 'getAllBlogPosts');
-  createBlogPost = delegate(() => this.miniAppsStorageComposed, 'createBlogPost');
-  updateBlogPost = delegate(() => this.miniAppsStorageComposed, 'updateBlogPost');
-  deleteBlogPost = delegate(() => this.miniAppsStorageComposed, 'deleteBlogPost');
-  getBlogCommentsForTopic = delegate(() => this.miniAppsStorageComposed, 'getBlogCommentsForTopic');
-  createBlogAnnouncement = delegate(() => this.miniAppsStorageComposed, 'createBlogAnnouncement');
-  getActiveBlogAnnouncements = delegate(() => this.miniAppsStorageComposed, 'getActiveBlogAnnouncements');
-  getAllBlogAnnouncements = delegate(() => this.miniAppsStorageComposed, 'getAllBlogAnnouncements');
-  updateBlogAnnouncement = delegate(() => this.miniAppsStorageComposed, 'updateBlogAnnouncement');
-  deactivateBlogAnnouncement = delegate(() => this.miniAppsStorageComposed, 'deactivateBlogAnnouncement');
-
-  // ========================================
   // DEFAULT ALIVE OR DEAD OPERATIONS
   // ========================================
 
@@ -528,7 +460,6 @@ export class DatabaseStorage implements IStorage {
       { name: "SocketRelay", deleteFn: () => this.deleteSocketrelayProfile(userId, reason) },
       { name: "Directory", deleteFn: () => this.deleteDirectoryProfileWithCascade(userId, reason) },
       { name: "TrustTransport", deleteFn: () => this.deleteTrusttransportProfile(userId, reason) },
-      { name: "MechanicMatch", deleteFn: () => this.deleteMechanicmatchProfile(userId, reason) },
       { name: "WorkforceRecruiter", deleteFn: () => this.deleteWorkforceRecruiterProfile(userId, reason) },
     ];
 

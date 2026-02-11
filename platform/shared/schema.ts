@@ -294,57 +294,6 @@ export {
 } from "./schema/core/profile-deletion";
 
 // ========================================
-// MECHANICMATCH APP TABLES - Re-exported from module
-// ========================================
-
-export {
-  mechanicmatchProfiles,
-  mechanicmatchProfilesRelations,
-  mechanicmatchVehicles,
-  mechanicmatchVehiclesRelations,
-  mechanicmatchServiceRequests,
-  mechanicmatchServiceRequestsRelations,
-  mechanicmatchJobs,
-  mechanicmatchJobsRelations,
-  mechanicmatchAvailability,
-  mechanicmatchAvailabilityRelations,
-  mechanicmatchReviews,
-  mechanicmatchReviewsRelations,
-  mechanicmatchMessages,
-  mechanicmatchMessagesRelations,
-  mechanicmatchAnnouncements,
-  mechanicmatchBlocks,
-  mechanicmatchBlocksRelations,
-  insertMechanicmatchProfileSchema,
-  insertMechanicmatchVehicleSchema,
-  insertMechanicmatchServiceRequestSchema,
-  insertMechanicmatchJobSchema,
-  insertMechanicmatchAvailabilitySchema,
-  insertMechanicmatchReviewSchema,
-  insertMechanicmatchMessageSchema,
-  insertMechanicmatchAnnouncementSchema,
-  insertMechanicmatchBlockSchema,
-  type InsertMechanicmatchProfile,
-  type MechanicmatchProfile,
-  type InsertMechanicmatchVehicle,
-  type MechanicmatchVehicle,
-  type InsertMechanicmatchServiceRequest,
-  type MechanicmatchServiceRequest,
-  type InsertMechanicmatchJob,
-  type MechanicmatchJob,
-  type InsertMechanicmatchAvailability,
-  type MechanicmatchAvailability,
-  type InsertMechanicmatchReview,
-  type MechanicmatchReview,
-  type InsertMechanicmatchMessage,
-  type MechanicmatchMessage,
-  type InsertMechanicmatchAnnouncement,
-  type MechanicmatchAnnouncement,
-  type InsertMechanicmatchBlock,
-  type MechanicmatchBlock,
-} from "./schema/mechanicmatch";
-
-// ========================================
 // GENTLEPULSE APP TABLES - Re-exported from module
 // ========================================
 

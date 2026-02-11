@@ -120,24 +120,6 @@ const baseAdminMenuItems = [
     testId: "link-trusttransport-admin",
   },
   {
-    title: "MechanicMatch Admin",
-    url: "/apps/mechanicmatch/admin",
-    icon: Wrench,
-    testId: "link-mechanicmatch-admin",
-  },
-  {
-    title: "LostMail Admin",
-    url: "/apps/lostmail/admin",
-    icon: Mail,
-    testId: "link-lostmail-admin",
-  },
-  {
-    title: "CompareNotes Admin",
-    url: "/apps/comparenotes/admin",
-    icon: Search,
-    testId: "link-research-admin",
-  },
-  {
     title: "GentlePulse Admin",
     url: "/apps/gentlepulse/admin",
     icon: HeartPulse,
@@ -189,12 +171,6 @@ const pinnedUserMenuItems = [
     icon: Home,
     testId: "link-home",
   },
-  {
-    title: "My Payments",
-    url: "/payments",
-    icon: DollarSign,
-    testId: "link-payments",
-  },
 ];
 
 // Mini-apps that will be sorted alphabetically
@@ -237,26 +213,6 @@ const miniAppMenuItems = [
     testId: "link-lighthouse",
   },
   {
-    title: "LostMail",
-    url: "/apps/lostmail",
-    icon: Mail,
-    testId: "link-lostmail",
-    showBeta: true,
-  },
-  {
-    title: "MechanicMatch",
-    url: "/apps/mechanicmatch",
-    icon: Wrench,
-    testId: "link-mechanicmatch",
-  },
-  {
-    title: "CompareNotes",
-    url: "/apps/comparenotes",
-    icon: Search,
-    testId: "link-research",
-    showBeta: true,
-  },
-  {
     title: "SocketRelay",
     url: "/apps/socketrelay",
     icon: Radio,
@@ -273,13 +229,6 @@ const miniAppMenuItems = [
     url: "/apps/trusttransport",
     icon: Car,
     testId: "link-trusttransport",
-  },
-  {
-    title: "Blog",
-    url: "/blog",
-    icon: PenSquare,
-    testId: "link-blog",
-    showBeta: true,
   },
 ];
 

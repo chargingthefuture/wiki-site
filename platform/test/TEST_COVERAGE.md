@@ -25,15 +25,6 @@ This document lists all tests created for the application.
 ### TrustTransport
 - ✅ `test/api/trusttransport.test.ts` - Profile CRUD, ride requests, announcements, admin
 
-### MechanicMatch
-- ✅ `test/api/mechanicmatch.test.ts` - Profile CRUD, vehicles, service requests, jobs, reviews, admin
-
-### LostMail
-- ✅ `test/api/lostmail.test.ts` - Incident reports, announcements, admin
-
-### Research
-- ✅ `test/api/research.test.ts` - Research items, answers, comments, votes, bookmarks, timeline, admin
-
 ### GentlePulse
 - ✅ `test/api/gentlepulse.test.ts` - Meditations, favorites, progress, announcements, admin
 
@@ -76,7 +67,6 @@ This document lists all tests created for the application.
 - ✅ `test/client/pages/socketrelay/profile.test.tsx` - SocketRelay profile page
 - ✅ `test/client/pages/directory/profile.test.tsx` - Directory profile page
 - ✅ `test/client/pages/trusttransport/profile.test.tsx` - TrustTransport profile page
-- ✅ `test/client/pages/mechanicmatch/profile.test.tsx` - MechanicMatch profile page
 - ✅ `test/client/pages/chyme/profile.test.tsx` - Chyme profile page
 - ✅ `test/client/pages/workforce-recruiter/profile.test.tsx` - Workforce Recruiter profile page
 
@@ -96,9 +86,6 @@ This document lists all tests created for the application.
 - ✅ `test/e2e/socketrelay.spec.ts` - SocketRelay profile, requests, fulfillments, chat, and admin
 - ✅ `test/e2e/supportmatch.spec.ts` - SupportMatch profile, partnerships, messaging, safety, and admin
 - ✅ `test/e2e/trusttransport.spec.ts` - TrustTransport profile and ride request flows
-- ✅ `test/e2e/mechanicmatch.spec.ts` - MechanicMatch profile, vehicles, and service requests
-- ✅ `test/e2e/lostmail.spec.ts` - LostMail incident reporting flows
-- ✅ `test/e2e/research.spec.ts` - Research items, answers, comments, and interactions
 - ✅ `test/e2e/gentlepulse.spec.ts` - GentlePulse library, favorites, and progress tracking
 - ✅ `test/e2e/workforce-recruiter.spec.ts` - Workforce Recruiter profile, occupations, and meetup events
 - ✅ `test/e2e/chyme.spec.ts` - Chyme dashboard and admin announcements
@@ -147,44 +134,21 @@ This document lists all tests created for the application.
    - Group listing
    - Admin management
 
-8. **TrustTransport Mini-App**
+7. **TrustTransport Mini-App**
    - Profile CRUD
    - Ride request/fulfillment system
    - Driver/rider management
    - Announcements
    - Admin management
 
-9. **MechanicMatch Mini-App**
-   - Profile CRUD
-   - Vehicle management
-   - Service requests
-   - Job management
-   - Reviews
-   - Announcements
-   - Admin management
-
-10. **LostMail Mini-App**
-    - Incident reporting
-    - Announcements
-    - Admin management
-
-11. **Research Mini-App**
-    - Research items/questions
-    - Answers and comments
-    - Voting system
-    - Bookmarks
-    - Timeline
-    - Announcements
-    - Admin management
-
-12. **GentlePulse Mini-App**
+8. **GentlePulse Mini-App**
     - Meditation library
     - Favorites
     - Progress tracking
     - Announcements
     - Admin management
 
-13. **Workforce Recruiter Mini-App**
+9. **Workforce Recruiter Mini-App**
     - Profile CRUD
     - Occupations tracking
     - Meetup events
@@ -193,7 +157,7 @@ This document lists all tests created for the application.
     - Announcements
     - Admin management
 
-14. **Chyme Mini-App**
+10. **Chyme Mini-App**
     - Profile CRUD
     - Audio rooms
     - Room participants
@@ -202,27 +166,27 @@ This document lists all tests created for the application.
     - Announcements
     - Admin management
 
-15. **Admin Features**
+11. **Admin Features**
     - Stats dashboard
     - User management (approval/revocation)
     - Payment management
     - Anti-scraping monitoring
     - Activity logs
 
-16. **Core Pages**
+12. **Core Pages**
     - Home dashboard
     - Landing/login page
     - Services listing
     - User payments
     - Account management
 
-17. **Shared Components**
+13. **Shared Components**
     - Announcement banner
     - Pagination controls
     - Login form
     - Delete profile dialog
 
-18. **Security**
+14. **Security**
    - SQL injection prevention
    - XSS prevention
    - Authorization bypass prevention
@@ -230,7 +194,7 @@ This document lists all tests created for the application.
    - Rate limiting
    - Bot detection
 
-19. **Public Endpoints**
+15. **Public Endpoints**
     - Rate limiting
     - Request fingerprinting
     - Bot detection

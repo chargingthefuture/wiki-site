@@ -40,27 +40,6 @@ const services = [
     testId: "card-service-supportmatch",
   },
   {
-    title: "MechanicMatch",
-    description: "Connect with trusted mechanics when your car breaks down or is tampered with",
-    icon: Wrench,
-    href: "/apps/mechanicmatch",
-    testId: "card-service-mechanicmatch",
-  },
-  {
-    title: "LostMail",
-    description: "Track mail tampering, loss, and delays with detailed incident reports.",
-    icon: Mail,
-    href: "/apps/lostmail",
-    testId: "card-service-lostmail",
-  },
-  {
-    title: "CompareNotes",
-    description: "Document patterns, incidents, and share evidence with the community.",
-    icon: Search,
-    href: "/apps/comparenotes",
-    testId: "card-service-research",
-  },
-  {
     title: "GentlePulse",
     description: "Manage stress, anxiety, and wellness when dealing with constant harassment.",
     icon: HeartPulse,
