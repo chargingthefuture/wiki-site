@@ -156,7 +156,7 @@ export const insertTrusttransportProfileSchema = createInsertSchema(trusttranspo
   isDriver: z.boolean().default(false),
   isRider: z.boolean().default(true),
   city: z.string().min(1, "City is required").max(100, "City must be 100 characters or less"),
-  state: z.string().min(1, "State is required").max(100, "State must be 100 characters or less"),
+  state: z.string().max(100).optional().nullable() or state: z.string().max(100).optional(),
   country: z.string().min(1, "Country is required").max(100, "Country must be 100 characters or less"),
   vehicleYear: z.number().int().min(1900).max(new Date().getFullYear() + 1).optional().nullable(),
   phoneNumber: z.string().max(20).optional().nullable(),
@@ -210,4 +210,3 @@ export const insertTrusttransportBlockSchema = createInsertSchema(trusttransport
 
 export type InsertTrusttransportBlock = z.infer<typeof insertTrusttransportBlockSchema>;
 export type TrusttransportBlock = typeof trusttransportBlocks.$inferSelect;
-
