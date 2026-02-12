@@ -23,6 +23,8 @@ import {
   Activity,
   PenSquare,
   BookOpen,
+  CodeXml,
+  MessageCircleMore,
 } from "lucide-react";
 import { Link, useLocation } from "wouter";
 import { useClerk } from "@clerk/clerk-react";
@@ -351,8 +353,8 @@ export function AppSidebar() {
           onClick={() => openExternal(chatsUrl)}
           data-testid="link-chats"
         >
-          <BookOpen className="w-4 h-4 mr-2" />
-          Blog
+          <MessageCircleMore className="w-4 h-4 mr-2" />
+          Group Chats
         </Button>
         <Button
           variant="outline"
@@ -369,7 +371,7 @@ export function AppSidebar() {
           onClick={() => openExternal(codeUrl)}
           data-testid="link-code"
         >
-          <ExternalLink className="w-4 h-4 mr-2" />
+          <CodeXml className="w-4 h-4 mr-2" />
           Code
         </Button>
         <Button
