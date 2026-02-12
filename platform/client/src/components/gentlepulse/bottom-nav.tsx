@@ -1,5 +1,5 @@
 import { Link, useLocation } from "wouter";
-import { Home, HelpCircle, Settings } from "lucide-react";
+import { Home, HelpCircle, Settings, Bell } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export function GentlePulseBottomNav() {
@@ -9,6 +9,7 @@ export function GentlePulseBottomNav() {
     { icon: Home, label: "Library", path: "/apps/gentlepulse", testId: "nav-library" },
     { icon: HelpCircle, label: "Support", path: "/apps/gentlepulse/support", testId: "nav-support" },
     { icon: Settings, label: "Settings", path: "/apps/gentlepulse/settings", testId: "nav-settings" },
+    { icon: Bell, label: "Annoucements", path: "/apps/gentlepulse/annoucements", testId: "nav-annoucements" },
   ];
 
   return (
