@@ -249,6 +249,7 @@ export function AppSidebar() {
 
   const blogUrl = "https://github.com/chargingthefuture/mono/wiki";
   const codeUrl = "https://github.com/chargingthefuture";
+  const chatsUrl = "https://github.com/chargingthefuture/mono/wiki/Signal-Groups";
 
   // Close sidebar on mobile when navigation link is clicked
   const handleNavClick = () => {
@@ -344,6 +345,15 @@ export function AppSidebar() {
         )}
       </SidebarContent>
       <SidebarFooter className="p-4 border-t space-y-2">
+        <Button
+          variant="outline"
+          className="w-full justify-start"
+          onClick={() => openExternal(chatsUrl)}
+          data-testid="link-chats"
+        >
+          <BookOpen className="w-4 h-4 mr-2" />
+          Blog
+        </Button>
         <Button
           variant="outline"
           className="w-full justify-start"

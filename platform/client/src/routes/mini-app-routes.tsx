@@ -459,11 +459,6 @@ export function MiniAppRoutes() {
           <WorkforceRecruiterAdminOccupations />
         </ProtectedRoute>
       </Route>
-      <Route path="/apps/workforce-recruiter/admin/meetup-events">
-        <ProtectedRoute>
-          <WorkforceRecruiterAdminMeetupEvents />
-        </ProtectedRoute>
-      </Route>
 
       {/* Default Alive or Dead routes */}
       <Route path="/apps/default-alive-or-dead">
