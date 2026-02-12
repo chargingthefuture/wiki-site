@@ -8,7 +8,7 @@ import { ArrowLeft, Calendar } from "lucide-react";
 import { AnnouncementBanner } from "@/components/announcement-banner";
 import { PaginationControls } from "@/components/pagination-controls";
 import { format } from "date-fns";
-import type { WorkforceRecruiterOccupation, WorkforceRecruiterMeetupEvent } from "@shared/schema";
+import type { WorkforceRecruiterOccupation } from "@shared/schema";
 
 export default function WorkforceRecruiterOccupationDetail() {
   const params = useParams();
@@ -20,17 +20,6 @@ export default function WorkforceRecruiterOccupationDetail() {
     queryKey: [`/api/workforce-recruiter/occupations/${occupationId}`],
     enabled: !!occupationId,
   });
-
-  const { data: eventsData, isLoading: eventsLoading } = useQuery<{
-    events: WorkforceRecruiterMeetupEvent[];
-    total: number;
-  }>({
-    queryKey: [`/api/workforce-recruiter/meetup-events?occupationId=${occupationId}&limit=${eventsLimit}&offset=${eventsPage * eventsLimit}`],
-    enabled: !!occupationId,
-  });
-
-  const events = eventsData?.events || [];
-  const eventsTotal = eventsData?.total || 0;
 
   if (isLoading) {
     return (

@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Link } from "wouter";
 import { Users, TrendingUp, Target, AlertCircle, BarChart3, Briefcase, Bell, Calendar, ChevronDown, ChevronRight } from "lucide-react";
 import { AnnouncementBanner } from "@/components/announcement-banner";
-import type { WorkforceRecruiterConfig, WorkforceRecruiterOccupation, WorkforceRecruiterMeetupEvent } from "@shared/schema";
+import type { WorkforceRecruiterConfig, WorkforceRecruiterOccupation } from "@shared/schema";
 import { Progress } from "@/components/ui/progress";
 import { SectorDetailsDialog } from "@/components/sector-details-dialog";
 import { useState } from "react";
@@ -125,13 +125,6 @@ export default function WorkforceRecruiterDashboard() {
     total: number;
   }>({
     queryKey: ["/api/workforce-recruiter/occupations?limit=10&offset=0"],
-  });
-
-  const { data: meetupEventsData, isLoading: meetupEventsLoading } = useQuery<{
-    events: WorkforceRecruiterMeetupEvent[];
-    total: number;
-  }>({
-    queryKey: ["/api/workforce-recruiter/meetup-events?isActive=true&limit=10&offset=0"],
   });
 
   // Get signup counts for all events

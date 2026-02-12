@@ -403,15 +403,6 @@ export default function WorkforceRecruiterAdminOccupations() {
                           <Button
                             variant="ghost"
                             size="sm"
-                            onClick={() => handleCreateMeetupEvent(occupation)}
-                            data-testid={`button-create-meetup-event-${occupation.id}`}
-                            title="Create in-person meetup event for this occupation"
-                          >
-                            <UserPlus className="w-4 h-4" />
-                          </Button>
-                          <Button
-                            variant="ghost"
-                            size="sm"
                             onClick={() => handleDelete(occupation)}
                             data-testid={`button-delete-${occupation.id}`}
                             title="Delete occupation"
@@ -467,69 +458,6 @@ export default function WorkforceRecruiterAdminOccupations() {
               data-testid="button-confirm-delete"
             >
               {deleteMutation.isPending ? "Deleting..." : "Delete"}
-            </Button>
-          </DialogFooter>
-        </DialogContent>
-      </Dialog>
-
-      {/* Meetup Event Dialog */}
-      <Dialog open={meetupEventDialogOpen} onOpenChange={setMeetupEventDialogOpen}>
-        <DialogContent>
-          <DialogHeader>
-            <DialogTitle>Create In-Person Meetup Event</DialogTitle>
-            <DialogDescription>
-              Create an in-person meetup event for <strong>{selectedOccupation?.occupationTitle}</strong>. This will allow community members to sign up and meet to discuss this occupation, share experiences, and explore opportunities in this role.
-            </DialogDescription>
-          </DialogHeader>
-          <div className="space-y-4">
-            <div>
-              <Label htmlFor="event-title">Event Title <span className="text-red-600">*</span></Label>
-              <Input
-                id="event-title"
-                value={eventTitle}
-                onChange={(e) => setEventTitle(e.target.value)}
-                placeholder="e.g., Meetup for Software Engineers"
-                data-testid="input-event-title"
-                maxLength={200}
-              />
-              <p className="text-xs text-muted-foreground mt-1">
-                A clear title for the meetup event
-              </p>
-            </div>
-            <div>
-              <Label htmlFor="event-description">Description (Optional)</Label>
-              <Textarea
-                id="event-description"
-                value={eventDescription}
-                onChange={(e) => setEventDescription(e.target.value)}
-                placeholder="Additional details about the meetup event..."
-                data-testid="textarea-event-description"
-                rows={4}
-              />
-              <p className="text-xs text-muted-foreground mt-1">
-                Provide more context about what will be discussed at the meetup
-              </p>
-            </div>
-          </div>
-          <DialogFooter>
-            <Button
-              variant="outline"
-              onClick={() => {
-                setMeetupEventDialogOpen(false);
-                setEventTitle("");
-                setEventDescription("");
-                setSelectedOccupation(null);
-              }}
-              data-testid="button-cancel-meetup-event"
-            >
-              Cancel
-            </Button>
-            <Button
-              onClick={handleSubmitMeetupEvent}
-              disabled={meetupEventMutation.isPending || !eventTitle.trim()}
-              data-testid="button-submit-meetup-event"
-            >
-              {meetupEventMutation.isPending ? "Creating..." : "Create Event"}
             </Button>
           </DialogFooter>
         </DialogContent>
