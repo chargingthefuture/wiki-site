@@ -70,7 +70,7 @@ export function DirectoryAdminProfileList({
             <Input
               id="search-profiles"
               type="text"
-              placeholder="Search by description, name, city, state, or country..."
+              placeholder="Type to start a search"
               value={searchTerm}
               onChange={(e) => {
                 onSearchChange(e.target.value);
