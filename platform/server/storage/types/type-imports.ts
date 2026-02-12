@@ -114,7 +114,5 @@ export type {
   InsertDefaultAliveOrDeadEbitdaSnapshot,
   ProfileDeletionLog,
   InsertProfileDeletionLog,
-  NpsResponse,
-  InsertNpsResponse,
 } from "@shared/schema";
 

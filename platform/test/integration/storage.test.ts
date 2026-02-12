@@ -1,7 +1,7 @@
 import { describe, it, expect, beforeAll, afterAll, beforeEach } from 'vitest';
-import { users, supportMatchProfiles, lighthouseProfiles, socketrelayProfiles, directoryProfiles, workforceRecruiterProfiles, trusttransportProfiles, mechanicmatchProfiles } from '@shared/schema';
+import { users, supportMatchProfiles, lighthouseProfiles, socketrelayProfiles, directoryProfiles, workforceRecruiterProfiles, trusttransportProfiles } from '@shared/schema';
 import { eq } from 'drizzle-orm';
-import { generateTestUserId, createTestSupportMatchProfile, createTestLighthouseProfile, createTestSocketrelayProfile, createTestDirectoryProfile, createTestWorkforceRecruiterProfile, createTestTrusttransportProfile, createTestMechanicmatchProfile } from '../fixtures/testData';
+import { generateTestUserId, createTestSupportMatchProfile, createTestLighthouseProfile, createTestSocketrelayProfile, createTestDirectoryProfile, createTestWorkforceRecruiterProfile, createTestTrusttransportProfile } from '../fixtures/testData';
 
 /**
  * Integration tests for storage layer
@@ -442,67 +442,4 @@ describe.skipIf(!hasDatabaseUrl)('Storage Layer - TrustTransport Profile Operati
     expect(retrieved).toBeUndefined();
   });
 });
-
-describe.skipIf(!hasDatabaseUrl)('Storage Layer - MechanicMatch Profile Operations', () => {
-  let testUserId: string;
-
-  beforeEach(async () => {
-    testUserId = generateTestUserId();
-    await storage.upsertUser({
-      id: testUserId,
-      email: `test-${Date.now()}@example.com`,
-      firstName: 'Test',
-      lastName: 'User',
-    });
-  });
-
-  afterAll(async () => {
-    try {
-      await db.delete(mechanicmatchProfiles).where(eq(mechanicmatchProfiles.userId, testUserId));
-      await db.delete(users).where(eq(users.id, testUserId));
-    } catch (error) {
-      // Ignore cleanup errors
-    }
-  });
-
-  it.skipIf(!canConnectToDatabase)('should create a MechanicMatch profile', async () => {
-    const profileData = createTestMechanicmatchProfile(testUserId);
-    const created = await storage.createMechanicmatchProfile(profileData);
-
-    expect(created).toBeDefined();
-    expect(created.userId).toBe(testUserId);
-    expect(created.isCarOwner).toBe(true);
-  });
-
-  it.skipIf(!canConnectToDatabase)('should retrieve a MechanicMatch profile by userId', async () => {
-    const profileData = createTestMechanicmatchProfile(testUserId);
-    await storage.createMechanicmatchProfile(profileData);
-
-    const retrieved = await storage.getMechanicmatchProfile(testUserId);
-    expect(retrieved).toBeDefined();
-    expect(retrieved?.userId).toBe(testUserId);
-  });
-
-  it.skipIf(!canConnectToDatabase)('should update a MechanicMatch profile', async () => {
-    const profileData = createTestMechanicmatchProfile(testUserId);
-    await storage.createMechanicmatchProfile(profileData);
-
-    const updated = await storage.updateMechanicmatchProfile(testUserId, {
-      ownerBio: 'Updated bio',
-    });
-
-    expect(updated.ownerBio).toBe('Updated bio');
-  });
-
-  it.skipIf(!canConnectToDatabase)('should delete MechanicMatch profile with cascade anonymization', async () => {
-    const profileData = createTestMechanicmatchProfile(testUserId);
-    await storage.createMechanicmatchProfile(profileData);
-
-    await storage.deleteMechanicmatchProfile(testUserId, 'Test deletion');
-
-    const retrieved = await storage.getMechanicmatchProfile(testUserId);
-    expect(retrieved).toBeUndefined();
-  });
-});
-
 

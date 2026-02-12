@@ -10,7 +10,6 @@ import {
   payments,
   loginEvents,
   gentlepulseMoodChecks,
-  type NpsResponse,
 } from "@shared/schema";
 import { db } from "../../db";
 import { eq, and, desc, gte, lte } from "drizzle-orm";
@@ -69,7 +68,6 @@ function isTestUser(user: { id?: string; email: string | null; firstName?: strin
 export class AnalyticsStorage {
   async getWeeklyPerformanceReview(
     weekStart: Date,
-    getNpsResponsesForWeekFn: (weekStart: Date, weekEnd: Date) => Promise<NpsResponse[]>,
     getDefaultAliveOrDeadEbitdaSnapshotFn?: (weekStart: Date) => Promise<any>
   ): Promise<{
     currentWeek: {
@@ -112,9 +110,6 @@ export class AnalyticsStorage {
       churnRate: number;
       clv: number;
       retentionRate: number;
-      nps: number;
-      npsChange: number;
-      npsResponses: number;
       verifiedUsersPercentage: number;
       verifiedUsersPercentageChange: number;
       averageMood: number;
@@ -606,46 +601,6 @@ export class AnalyticsStorage {
       logError(normalized, { path: 'calculateWeeklyPerformanceMetrics' } as any);
     }
 
-    // Calculate NPS (excluding test users)
-    let nps = 0;
-    let npsChange = 0;
-    let npsResponsesCount = 0;
-    
-    try {
-      const currentWeekNpsResponsesRaw = await getNpsResponsesForWeekFn(currentWeekStart, currentWeekEnd);
-      const previousWeekNpsResponsesRaw = await getNpsResponsesForWeekFn(previousWeekStart, previousWeekEnd);
-      
-      // Filter out test users from NPS responses
-      const currentWeekNpsResponses = currentWeekNpsResponsesRaw.filter(r => !testUserIds.has(r.userId));
-      const previousWeekNpsResponses = previousWeekNpsResponsesRaw.filter(r => !testUserIds.has(r.userId));
-      
-      if (currentWeekNpsResponses.length > 0) {
-        // Invert scores because the question is "How would you feel if this app no longer existed?"
-        const promoters = currentWeekNpsResponses.filter(r => (10 - r.score) >= 9).length;
-        const detractors = currentWeekNpsResponses.filter(r => (10 - r.score) <= 6).length;
-        const total = currentWeekNpsResponses.length;
-        const promoterPercent = (promoters / total) * 100;
-        const detractorPercent = (detractors / total) * 100;
-        nps = Math.round(promoterPercent - detractorPercent);
-        npsResponsesCount = total;
-      }
-      
-      if (previousWeekNpsResponses.length > 0 && currentWeekNpsResponses.length > 0) {
-        const prevPromoters = previousWeekNpsResponses.filter(r => (10 - r.score) >= 9).length;
-        const prevDetractors = previousWeekNpsResponses.filter(r => (10 - r.score) <= 6).length;
-        const prevTotal = previousWeekNpsResponses.length;
-        const prevPromoterPercent = (prevPromoters / prevTotal) * 100;
-        const prevDetractorPercent = (prevDetractors / prevTotal) * 100;
-        const prevNps = Math.round(prevPromoterPercent - prevDetractorPercent);
-        npsChange = nps - prevNps;
-      } else if (previousWeekNpsResponses.length === 0 && currentWeekNpsResponses.length > 0) {
-        npsChange = nps;
-      }
-    } catch (error) {
-      const normalized = normalizeError(error);
-      logError(normalized, { path: 'calculateWeeklyPerformanceMetrics' } as any);
-    }
-
     // Calculate GentlePulse Mood Check statistics
     let averageMood = 0;
     let moodChange = 0;
@@ -820,9 +775,6 @@ export class AnalyticsStorage {
         churnRate: parseFloat(churnRate.toFixed(2)),
         clv: parseFloat(clv.toFixed(2)),
         retentionRate: parseFloat(retentionRate.toFixed(2)),
-        nps: nps,
-        npsChange: npsChange,
-        npsResponses: npsResponsesCount,
         verifiedUsersPercentage: verifiedUsersPercentage,
         verifiedUsersPercentageChange: parseFloat(verifiedUsersPercentageChange.toFixed(2)),
         averageMood: averageMood,

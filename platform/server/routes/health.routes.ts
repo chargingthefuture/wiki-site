@@ -56,16 +56,6 @@ export function registerHealthRoutes(app: Express) {
     await handleHealthCheck(req, res, "lostmail");
   }));
 
-  // MechanicMatch health
-  app.get("/api/health/mechanicmatch", healthCheckLimiter, asyncHandler(async (req, res) => {
-    await handleHealthCheck(req, res, "mechanicmatch");
-  }));
-
-  // CompareNotes / Research health
-  app.get("/api/health/research", healthCheckLimiter, asyncHandler(async (req, res) => {
-    await handleHealthCheck(req, res, "research");
-  }));
-
   // SocketRelay health
   app.get("/api/health/socketrelay", healthCheckLimiter, asyncHandler(async (req, res) => {
     await handleHealthCheck(req, res, "socketrelay");
@@ -126,9 +116,6 @@ export function registerHealthRoutes(app: Express) {
         { name: "default-alive-or-dead", endpoint: "/api/health/default-alive-or-dead" },
         { name: "workforce-recruiter", endpoint: "/api/health/workforce-recruiter" },
         { name: "lighthouse", endpoint: "/api/health/lighthouse" },
-        { name: "lostmail", endpoint: "/api/health/lostmail" },
-        { name: "mechanicmatch", endpoint: "/api/health/mechanicmatch" },
-        { name: "research", endpoint: "/api/health/research" },
         { name: "socketrelay", endpoint: "/api/health/socketrelay" },
         { name: "supportmatch", endpoint: "/api/health/supportmatch" },
         { name: "trusttransport", endpoint: "/api/health/trusttransport" },

@@ -132,107 +132,6 @@ describe('Admin Profile First Name Tests - ALL Mini-Apps', () => {
     });
   });
 
-  describe('MechanicMatch Admin Profiles - GET /api/mechanicmatch/admin/profiles', () => {
-    it('should return firstName for claimed profiles from user data', async () => {
-      const claimedProfile = {
-        id: 'profile-1',
-        userId: 'user-1',
-        isClaimed: true,
-      };
-
-      const mockUser = {
-        id: 'user-1',
-        firstName: 'Jane',
-        lastName: 'Doe',
-      };
-
-      // Simulate the enrichment logic from the endpoint
-      let userFirstName: string | null = null;
-      
-      if (claimedProfile.userId) {
-        userFirstName = (mockUser.firstName && mockUser.firstName.trim()) || null;
-      } else {
-        // For unclaimed profiles, use profile's own firstName field
-        userFirstName = ((claimedProfile as any).firstName && (claimedProfile as any).firstName.trim()) || null;
-      }
-
-      const enrichedProfile = {
-        ...claimedProfile,
-        firstName: userFirstName || null,
-      };
-
-      // Claimed profiles MUST have firstName
-      expect(enrichedProfile.firstName).toBe('Jane');
-      expect(enrichedProfile.firstName).not.toBeNull();
-    });
-
-    it('should return firstName for unclaimed profiles from profile data', async () => {
-      const unclaimedProfile = {
-        id: 'profile-2',
-        userId: null,
-        isClaimed: false,
-        firstName: 'MechanicFirstName',
-      };
-
-      // Simulate the enrichment logic from the endpoint
-      let userFirstName: string | null = null;
-      
-      if (unclaimedProfile.userId) {
-        // This branch should NOT execute
-      } else {
-        // For unclaimed profiles, use profile's own firstName field
-        userFirstName = ((unclaimedProfile as any).firstName && (unclaimedProfile as any).firstName.trim()) || null;
-      }
-
-      const enrichedProfile = {
-        ...unclaimedProfile,
-        firstName: userFirstName || null,
-      };
-
-      // Unclaimed profiles MUST have firstName
-      expect(enrichedProfile.firstName).toBe('MechanicFirstName');
-      expect(enrichedProfile.firstName).not.toBeNull();
-    });
-
-    it('should ALWAYS return firstName for both claimed and unclaimed profiles', async () => {
-      const claimedProfile = {
-        id: 'profile-1',
-        userId: 'user-1',
-        isClaimed: true,
-      };
-
-      const unclaimedProfile = {
-        id: 'profile-2',
-        userId: null,
-        isClaimed: false,
-        firstName: 'UnclaimedMechanic',
-      };
-
-      const mockUser = {
-        id: 'user-1',
-        firstName: 'ClaimedMechanic',
-      };
-
-      // Enrich both profiles
-      const enrichedClaimed = {
-        ...claimedProfile,
-        firstName: claimedProfile.userId ? ((mockUser.firstName && mockUser.firstName.trim()) || null) : (((claimedProfile as any).firstName && (claimedProfile as any).firstName.trim()) || null),
-      };
-
-      const enrichedUnclaimed = {
-        ...unclaimedProfile,
-        firstName: unclaimedProfile.userId ? null : (((unclaimedProfile as any).firstName && (unclaimedProfile as any).firstName.trim()) || null),
-      };
-
-      // BOTH profiles MUST have firstName
-      expect(enrichedClaimed.firstName).toBe('ClaimedMechanic');
-      expect(enrichedClaimed.firstName).not.toBeNull();
-      
-      expect(enrichedUnclaimed.firstName).toBe('UnclaimedMechanic');
-      expect(enrichedUnclaimed.firstName).not.toBeNull();
-    });
-  });
-
   describe('SupportMatch Admin Profiles - GET /api/supportmatch/admin/profiles', () => {
     it('should return firstName for claimed profiles from user data', async () => {
       const claimedProfile = {
@@ -494,7 +393,6 @@ describe('Admin Profile First Name Tests - ALL Mini-Apps', () => {
     it('should verify that ALL admin profile endpoints return firstName for claimed profiles', () => {
       const miniApps = [
         'Directory',
-        'MechanicMatch',
         'SupportMatch',
         'Lighthouse',
       ];
@@ -511,7 +409,6 @@ describe('Admin Profile First Name Tests - ALL Mini-Apps', () => {
     it('should verify that ALL admin profile endpoints return firstName for unclaimed profiles', () => {
       const miniApps = [
         'Directory',
-        'MechanicMatch',
         'SupportMatch',
         'Lighthouse',
       ];

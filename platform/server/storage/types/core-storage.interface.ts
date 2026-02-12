@@ -15,8 +15,6 @@ import type {
   InsertPayment,
   AdminActionLog,
   InsertAdminActionLog,
-  NpsResponse,
-  InsertNpsResponse,
 } from "@shared/schema";
 
 export interface ICoreStorage {
@@ -115,9 +113,6 @@ export interface ICoreStorage {
       churnRate: number;
       clv: number;
       retentionRate: number;
-      nps: number;
-      npsChange: number;
-      npsResponses: number;
       verifiedUsersPercentage: number;
       verifiedUsersPercentageChange: number;
       averageMood: number;
@@ -125,12 +120,6 @@ export interface ICoreStorage {
       moodResponses: number;
     };
   }>;
-  
-  // NPS (Net Promoter Score) operations
-  createNpsResponse(response: InsertNpsResponse): Promise<NpsResponse>;
-  getUserLastNpsResponse(userId: string): Promise<NpsResponse | undefined>;
-  getNpsResponsesForWeek(weekStart: Date, weekEnd: Date): Promise<NpsResponse[]>;
-  getAllNpsResponses(): Promise<NpsResponse[]>;
   
   // User deletion operations
   anonymizeUserData(userId: string): Promise<void>;

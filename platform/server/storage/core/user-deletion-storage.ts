@@ -11,7 +11,6 @@ import {
   authTokens,
   payments,
   adminActionLogs,
-  npsResponses,
   gentlepulseMoodChecks,
 } from "@shared/schema";
 import { db } from "../../db";
@@ -55,12 +54,6 @@ export class UserDeletionStorage {
         .update(adminActionLogs)
         .set({ adminId: anonymizedUserId })
         .where(eq(adminActionLogs.adminId, userId));
-
-      // Anonymize NPS responses
-      await db
-        .update(npsResponses)
-        .set({ userId: anonymizedUserId })
-        .where(eq(npsResponses.userId, userId));
 
       // Anonymize GentlePulse mood checks (uses clientId field)
       await db

@@ -17,7 +17,6 @@ ROUTE_SECTIONS = [
     (1624, 2126, "chatgroups.routes.ts", "ChatGroups"),
     (2127, 3334, "lighthouse.routes.ts", "Lighthouse"),
     (3335, 3670, "trusttransport.routes.ts", "TrustTransport"),
-    (3671, 4475, "mechanicmatch.routes.ts", "MechanicMatch"),
     (4476, 5105, "research.routes.ts", "Research"),
     (5106, 5296, "gentlepulse.routes.ts", "GentlePulse"),
     (5297, 5613, "blog.routes.ts", "Blog"),

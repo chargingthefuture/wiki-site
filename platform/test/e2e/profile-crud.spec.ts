@@ -10,7 +10,6 @@ import { test, expect } from '@playwright/test';
  * - socketrelay.spec.ts
  * - directory.spec.ts
  * - trusttransport.spec.ts
- * - mechanicmatch.spec.ts
  * - chyme.spec.ts
  * - workforce-recruiter.spec.ts
  */
@@ -24,7 +23,6 @@ test.describe('Profile CRUD Patterns', () => {
       '/apps/socketrelay/profile',
       '/apps/directory/profile',
       '/apps/trusttransport/profile',
-      '/apps/mechanicmatch/profile',
       '/apps/workforce-recruiter/profile',
     ];
 

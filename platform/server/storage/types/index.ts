@@ -36,7 +36,7 @@ export interface IStorage
    * Weekly Performance Review
    * 
    * Generates a comprehensive performance report comparing the current week
-   * with the previous week, including user metrics, revenue, NPS, and more.
+   * with the previous week, including user metrics, revenue, and more.
    */
   getWeeklyPerformanceReview(weekStart: Date): Promise<{
     currentWeek: {
@@ -79,9 +79,6 @@ export interface IStorage
       churnRate: number;
       clv: number;
       retentionRate: number;
-      nps: number;
-      npsChange: number;
-      npsResponses: number;
       verifiedUsersPercentage: number;
       verifiedUsersPercentageChange: number;
       averageMood: number;

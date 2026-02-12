@@ -281,12 +281,9 @@ describe('User-Facing Profile First Name Display Tests', () => {
   describe('Summary: ALL User-Facing Pages MUST Display First Names', () => {
     it('should verify test coverage for all mini-apps', () => {
       const testedApps = [
-        'MechanicMatch Profile',
         'SupportMatch Profile',
         'Lighthouse Profile',
-        'MechanicMatch Public',
         'Directory Public',
-        'MechanicMatch Public List',
         'Directory Public List',
       ];
 

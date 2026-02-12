@@ -135,26 +135,8 @@ export class CoreStorageComposed implements ICoreStorage {
   async getWeeklyPerformanceReview(weekStart: Date) {
     return this.coreStorage.getWeeklyPerformanceReview(
       weekStart,
-      (weekStart: Date, weekEnd: Date) => this.getNpsResponsesForWeek(weekStart, weekEnd),
       (weekStart: Date) => this.getDefaultAliveOrDeadEbitdaSnapshot(weekStart)
     );
-  }
-
-  // NPS operations
-  async createNpsResponse(response: any) {
-    return this.coreStorage.createNpsResponse(response);
-  }
-
-  async getUserLastNpsResponse(userId: string) {
-    return this.coreStorage.getUserLastNpsResponse(userId);
-  }
-
-  async getNpsResponsesForWeek(weekStart: Date, weekEnd: Date) {
-    return this.coreStorage.getNpsResponsesForWeek(weekStart, weekEnd);
-  }
-
-  async getAllNpsResponses() {
-    return this.coreStorage.getAllNpsResponses();
   }
 
   // User deletion operations

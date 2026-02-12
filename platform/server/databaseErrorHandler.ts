@@ -207,7 +207,7 @@ export function handleDatabaseError(error: any, context?: string): DatabaseError
       if (error.column) {
         columnName = error.column;
       } else if (constraint) {
-        // Try to extract column from constraint name (e.g., "mechanicmatch_profiles_display_name_not_null" -> "display_name")
+        // Try to extract column from constraint name (e.g., "supportmatch_profiles_display_name_not_null" -> "display_name")
         const match = constraint.match(/_([a-z_]+)_not_null$/i) || constraint.match(/_([a-z_]+)$/i);
         if (match) {
           columnName = match[1].replace(/_/g, ' ');

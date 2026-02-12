@@ -1,5 +1,5 @@
 /**
- * Admin logs and NPS responses
+ * Admin logs
  */
 
 import { sql } from 'drizzle-orm';
@@ -41,32 +41,4 @@ export const insertAdminActionLogSchema = createInsertSchema(adminActionLogs).om
 
 export type InsertAdminActionLog = z.infer<typeof insertAdminActionLogSchema>;
 export type AdminActionLog = typeof adminActionLogs.$inferSelect;
-
-// NPS Responses table
-export const npsResponses = pgTable("nps_responses", {
-  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
-  userId: varchar("user_id").notNull().references(() => users.id),
-  score: integer("score").notNull(), // 0-10
-  feedback: text("feedback"),
-  responseMonth: varchar("response_month", { length: 7 }).notNull(), // YYYY-MM format
-  createdAt: timestamp("created_at").defaultNow().notNull(),
-});
-
-export const npsResponsesRelations = relations(npsResponses, ({ one }) => ({
-  user: one(users, {
-    fields: [npsResponses.userId],
-    references: [users.id],
-  }),
-}));
-
-export const insertNpsResponseSchema = createInsertSchema(npsResponses).omit({
-  id: true,
-  createdAt: true,
-}).extend({
-  score: z.number().int().min(0).max(10),
-  responseMonth: z.string().regex(/^\d{4}-\d{2}$/, "Must be in YYYY-MM format"),
-});
-
-export type InsertNpsResponse = z.infer<typeof insertNpsResponseSchema>;
-export type NpsResponse = typeof npsResponses.$inferSelect;
 

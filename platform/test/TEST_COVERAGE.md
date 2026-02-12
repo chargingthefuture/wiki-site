@@ -222,11 +222,11 @@ npm run test:e2e
 ## Test Statistics
 
 - **Total Test Files**: 52
-- **API Test Files**: 15 (auth, supportmatch, lighthouse, socketrelay, directory, chatgroups, trusttransport, mechanicmatch, lostmail, research, gentlepulse, chyme, workforce-recruiter, admin, public-endpoints)
+- **API Test Files**: 15 (auth, supportmatch, lighthouse, socketrelay, directory, chatgroups, trusttransport, gentlepulse, chyme, workforce-recruiter, admin, public-endpoints)
 - **Integration Test Files**: 1
 - **Security Test Files**: 1
 - **Component Test Files**: 18 (8 profile pages, 5 core pages, 4 shared components, 4 hooks)
-- **E2E Test Files**: 14 (auth, profile-crud, chatgroups, directory, lighthouse, socketrelay, supportmatch, trusttransport, mechanicmatch, lostmail, research, gentlepulse, workforce-recruiter, chyme)
+- **E2E Test Files**: 14 (auth, profile-crud, chatgroups, directory, lighthouse, socketrelay, supportmatch, trusttransport, gentlepulse, workforce-recruiter, chyme)
 - **Smoke Test Files**: 1
 
 ## Coverage Goals

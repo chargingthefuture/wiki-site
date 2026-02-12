@@ -17,13 +17,11 @@ import {
   insertTrusttransportProfileSchema,
   insertTrusttransportRideRequestSchema,
   insertTrusttransportAnnouncementSchema,
-  insertNpsResponseSchema,
   type InsertTrusttransportRideRequest,
   type TrusttransportProfile,
   type TrusttransportAnnouncement,
   type TrusttransportRideRequest,
   type User,
-  type NpsResponse,
 } from "@shared/schema";
 
 export function registerTrustTransportRoutes(app: Express) {
@@ -294,69 +292,6 @@ export function registerTrustTransportRoutes(app: Express) {
     );
 
     res.json(announcement);
-  }));
-
-  // NPS (Net Promoter Score) Routes
-
-  // Check if user should see the NPS survey
-  app.get('/api/nps/should-show', isAuthenticated, asyncHandler(async (req: any, res) => {
-    const userId = getUserId(req);
-    const lastResponse = await withDatabaseErrorHandling(
-      () => storage.getUserLastNpsResponse(userId),
-      'getUserLastNpsResponse'
-    ) as NpsResponse | undefined;
-    
-    // Get current month in YYYY-MM format
-    const now = new Date();
-    const currentMonth = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}`;
-    
-    // Check if user has already responded this month
-    const hasRespondedThisMonth = lastResponse?.responseMonth === currentMonth;
-    
-    res.json({
-      shouldShow: !hasRespondedThisMonth,
-      lastResponseMonth: lastResponse?.responseMonth || null,
-    });
-  }));
-
-  // Submit NPS response
-  app.post('/api/nps/response', isAuthenticated, asyncHandler(async (req: any, res) => {
-    const userId = getUserId(req);
-    const now = new Date();
-    const responseMonth = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}`;
-    
-    const validatedData = validateWithZod(insertNpsResponseSchema, {
-      ...req.body,
-      userId,
-      responseMonth,
-    }, 'Invalid NPS response data');
-    
-    const response = await withDatabaseErrorHandling(
-      () => storage.createNpsResponse(validatedData),
-      'createNpsResponse'
-    );
-    res.json(response);
-  }));
-
-  // Get NPS responses for admin (Weekly Performance dashboard)
-  app.get('/api/admin/nps-responses', isAuthenticated, isAdmin, asyncHandler(async (req: any, res) => {
-    const weekStart = req.query.weekStart ? new Date(req.query.weekStart as string) : undefined;
-    const weekEnd = req.query.weekEnd ? new Date(req.query.weekEnd as string) : undefined;
-    
-    let responses;
-    if (weekStart && weekEnd) {
-      responses = await withDatabaseErrorHandling(
-        () => storage.getNpsResponsesForWeek(weekStart, weekEnd),
-        'getNpsResponsesForWeek'
-      );
-    } else {
-      responses = await withDatabaseErrorHandling(
-        () => storage.getAllNpsResponses(),
-        'getAllNpsResponses'
-      );
-    }
-    
-    res.json(responses);
   }));
 
 

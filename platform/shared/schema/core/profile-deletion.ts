@@ -21,7 +21,7 @@ import { users } from "./users";
 export const profileDeletionLogs = pgTable("profile_deletion_logs", {
   id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
   userId: varchar("user_id").notNull().references(() => users.id), // Original user ID before deletion
-  appName: varchar("app_name", { length: 50 }).notNull(), // supportmatch, lighthouse, socketrelay, directory, trusttransport, mechanicmatch
+  appName: varchar("app_name", { length: 50 }).notNull(), // supportmatch, lighthouse, socketrelay, directory, trusttransport
   deletedAt: timestamp("deleted_at").defaultNow().notNull(),
   reason: text("reason"), // Optional reason provided by user
   createdAt: timestamp("created_at").defaultNow().notNull(),

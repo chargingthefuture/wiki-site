@@ -5,7 +5,6 @@ import type { InsertSocketrelayProfile } from '@shared/schema';
 import type { InsertDirectoryProfile } from '@shared/schema';
 import type { InsertWorkforceRecruiterProfile } from '@shared/schema';
 import type { InsertTrusttransportProfile } from '@shared/schema';
-import type { InsertMechanicmatchProfile } from '@shared/schema';
 
 /**
  * Test data fixtures for creating consistent test data
@@ -104,21 +103,6 @@ export const createTestTrusttransportProfile = (
   country: 'United States',
   ...overrides,
 });
-
-export const createTestMechanicmatchProfile = (
-  userId: string,
-  overrides: Partial<InsertMechanicmatchProfile> = {}
-): InsertMechanicmatchProfile => ({
-  userId,
-  isCarOwner: true,
-  isMechanic: false,
-  city: 'New York',
-  state: 'NY',
-  country: 'United States',
-  isClaimed: true,
-  ...overrides,
-});
-
 
 /**
  * Generate a unique test user ID

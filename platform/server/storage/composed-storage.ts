@@ -103,17 +103,10 @@ export class DatabaseStorage implements IStorage {
   async getWeeklyPerformanceReview(weekStart: Date) {
     return this.coreStorage.getWeeklyPerformanceReview(
       weekStart,
-      (weekStart: Date, weekEnd: Date) => this.getNpsResponsesForWeek(weekStart, weekEnd),
       (weekStart: Date) => this.getDefaultAliveOrDeadEbitdaSnapshot(weekStart)
     );
   }
-
-  // NPS operations
-  createNpsResponse = delegate(() => this.coreStorageComposed, 'createNpsResponse');
-  getUserLastNpsResponse = delegate(() => this.coreStorageComposed, 'getUserLastNpsResponse');
-  getNpsResponsesForWeek = delegate(() => this.coreStorageComposed, 'getNpsResponsesForWeek');
-  getAllNpsResponses = delegate(() => this.coreStorageComposed, 'getAllNpsResponses');
-
+  
   // User deletion operations
   // Explicitly declare methods to satisfy IStorage interface
   async anonymizeUserData(userId: string): Promise<void> {

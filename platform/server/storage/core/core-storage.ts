@@ -2,7 +2,7 @@
  * Core Storage Module
  * 
  * Composes domain-specific storage modules for core app operations.
- * This class aggregates user, auth, pricing, payment, admin, NPS, analytics, and deletion operations.
+ * This class aggregates user, auth, pricing, payment, admin, analytics, and deletion operations.
  */
 
 import { UserStorage } from "./user-storage";
@@ -10,7 +10,6 @@ import { AuthStorage } from "./auth-storage";
 import { PricingStorage } from "./pricing-storage";
 import { PaymentStorage } from "./payment-storage";
 import { AdminStorage } from "./admin-storage";
-import { NpsStorage } from "./nps-storage";
 import { AnalyticsStorage } from "./analytics-storage";
 import { UserDeletionStorage } from "./user-deletion-storage";
 import type {
@@ -26,8 +25,6 @@ import type {
   InsertPayment,
   AdminActionLog,
   InsertAdminActionLog,
-  NpsResponse,
-  InsertNpsResponse,
 } from "@shared/schema";
 
 export class CoreStorage {
@@ -36,7 +33,6 @@ export class CoreStorage {
   private pricingStorage: PricingStorage;
   private paymentStorage: PaymentStorage;
   private adminStorage: AdminStorage;
-  private npsStorage: NpsStorage;
   private analyticsStorage: AnalyticsStorage;
   private userDeletionStorage: UserDeletionStorage;
 
@@ -49,7 +45,6 @@ export class CoreStorage {
       () => this.userStorage.getAllUsers()
     );
     this.adminStorage = new AdminStorage();
-    this.npsStorage = new NpsStorage();
     this.analyticsStorage = new AnalyticsStorage();
     this.userDeletionStorage = new UserDeletionStorage();
   }
@@ -205,32 +200,11 @@ export class CoreStorage {
   }
 
   // ========================================
-  // NPS OPERATIONS (delegated to NpsStorage)
-  // ========================================
-
-  async createNpsResponse(response: InsertNpsResponse): Promise<NpsResponse> {
-    return this.npsStorage.createNpsResponse(response);
-  }
-
-  async getUserLastNpsResponse(userId: string): Promise<NpsResponse | undefined> {
-    return this.npsStorage.getUserLastNpsResponse(userId);
-  }
-
-  async getNpsResponsesForWeek(weekStart: Date, weekEnd: Date): Promise<NpsResponse[]> {
-    return this.npsStorage.getNpsResponsesForWeek(weekStart, weekEnd);
-  }
-
-  async getAllNpsResponses(): Promise<NpsResponse[]> {
-    return this.npsStorage.getAllNpsResponses();
-  }
-
-  // ========================================
   // WEEKLY PERFORMANCE REVIEW (delegated to AnalyticsStorage)
   // ========================================
 
   async getWeeklyPerformanceReview(
     weekStart: Date,
-    getNpsResponsesForWeekFn: (weekStart: Date, weekEnd: Date) => Promise<NpsResponse[]>,
     getDefaultAliveOrDeadEbitdaSnapshotFn?: (weekStart: Date) => Promise<any>
   ): Promise<{
     currentWeek: {
@@ -273,9 +247,6 @@ export class CoreStorage {
       churnRate: number;
       clv: number;
       retentionRate: number;
-      nps: number;
-      npsChange: number;
-      npsResponses: number;
       verifiedUsersPercentage: number;
       verifiedUsersPercentageChange: number;
       averageMood: number;
@@ -283,15 +254,12 @@ export class CoreStorage {
       moodResponses: number;
     };
   }> {
-    // Use the NPS storage method for the callback
-    const npsCallback = (weekStart: Date, weekEnd: Date) => 
-      this.npsStorage.getNpsResponsesForWeek(weekStart, weekEnd);
     
     return this.analyticsStorage.getWeeklyPerformanceReview(
       weekStart,
-      npsCallback,
       getDefaultAliveOrDeadEbitdaSnapshotFn
     );
+    
   }
 
   // ========================================

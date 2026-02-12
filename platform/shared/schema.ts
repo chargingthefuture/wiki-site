@@ -86,14 +86,9 @@ export {
 export {
   adminActionLogs,
   adminActionLogsRelations,
-  npsResponses,
-  npsResponsesRelations,
   insertAdminActionLogSchema,
-  insertNpsResponseSchema,
   type InsertAdminActionLog,
   type AdminActionLog,
-  type InsertNpsResponse,
-  type NpsResponse,
 } from "./schema/core/admin";
 
 
