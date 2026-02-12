@@ -50,7 +50,7 @@ export function HeroSection() {
           <div className="flex flex-wrap gap-3 sm:gap-4 md:gap-6 mb-4 sm:mb-6 md:mb-10" role="list" aria-label="Platform features">
             <div className="flex items-center gap-2 sm:gap-2.5 text-muted-foreground" role="listitem">
               <Shield className="w-4 h-4 sm:w-5 sm:h-5 text-accent flex-shrink-0" aria-hidden="true" />
-              <span className="font-[var(--font-bangers)] text-sm sm:text-base md:text-lg lg:text-xl">12+ SERVICES</span>
+              <span className="font-[var(--font-bangers)] text-sm sm:text-base md:text-lg lg:text-xl">8+ SERVICES</span>
             </div>
             <div className="flex items-center gap-2 sm:gap-2.5 text-muted-foreground" role="listitem">
               <Lock className="w-4 h-4 sm:w-5 sm:h-5 text-accent flex-shrink-0" aria-hidden="true" />

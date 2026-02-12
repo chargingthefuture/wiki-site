@@ -20,7 +20,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Psyop-Free Economy | Survivor Support Platform",
   description:
-    "Secure, invite-only platform for human trafficking survivors. Access 12+ essential services including housing, transportation, job search, and community support in one unified app.",
+    "Secure, invite-only platform for human trafficking survivors. Access 8+ essential services including housing, transportation, job search, and community support in one unified app.",
   icons: {
     icon: [
       { url: '/icon.svg', type: 'image/svg+xml' },

@@ -29,7 +29,7 @@ const features = [
   {
     icon: Smartphone,
     title: "ALL-IN-ONE PLATFORM",
-    description: "12+ essential services accessible through a single secure account.",
+    description: "8+ essential services accessible through a single secure account.",
   },
 ]
 
