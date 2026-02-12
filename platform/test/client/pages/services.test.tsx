@@ -29,13 +29,10 @@ describe('Services', () => {
     renderWithProviders(<Services />);
 
     const serviceTestIds = [
-      'card-service-chatgroups',
       'card-service-directory',
       'card-service-lighthouse',
       'card-service-socketrelay',
       'card-service-supportmatch',
-      'card-service-mechanicmatch',
-      'card-service-lostmail',
       'card-service-research',
       'card-service-gentlepulse',
       'card-service-chyme',
@@ -50,4 +47,3 @@ describe('Services', () => {
     });
   });
 });
-

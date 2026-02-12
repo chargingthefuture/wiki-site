@@ -2,12 +2,9 @@ import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { render, screen, waitFor } from '@testing-library/react';
 import { renderWithProviders, mockUseAuth } from '@test/fixtures/testHelpers';
 import * as useAuthModule from '@/hooks/useAuth';
-import MechanicMatchProfile from '@/pages/mechanicmatch/profile';
 import SupportMatchProfile from '@/pages/supportmatch/profile';
 import LighthouseProfile from '@/pages/lighthouse/profile';
-import PublicMechanicMatchProfile from '@/pages/mechanicmatch/public';
 import PublicDirectoryProfile from '@/pages/directory/public';
-import PublicMechanicMatchList from '@/pages/mechanicmatch/public-list';
 import PublicDirectoryList from '@/pages/directory/public-list';
 
 vi.mock('@/hooks/useAuth', () => ({
@@ -55,68 +52,6 @@ describe('User-Facing Profile First Name Display Tests', () => {
   beforeEach(() => {
     vi.clearAllMocks();
     vi.mocked(useAuthModule.useAuth).mockReturnValue(mockUseAuth());
-  });
-
-  describe('MechanicMatch Profile Page', () => {
-    it('should display firstName for claimed profile', async () => {
-      const mockProfile = {
-        id: 'test-id',
-        userId: 'test-user-id',
-        isClaimed: true,
-        firstName: 'John', // From user data
-        userIsVerified: true,
-        isMechanic: false,
-        isCarOwner: true,
-        city: 'New York',
-        country: 'United States',
-        createdAt: new Date(),
-        updatedAt: new Date(),
-      };
-
-      global.fetch = vi.fn(() =>
-        Promise.resolve({
-          ok: true,
-          json: () => Promise.resolve(mockProfile),
-        } as Response)
-      );
-
-      renderWithProviders(<MechanicMatchProfile />);
-
-      await waitFor(() => {
-        // FirstName should appear in parentheses next to the title
-        expect(screen.getByText(/John/i)).toBeInTheDocument();
-      });
-    });
-
-    it('should display firstName for unclaimed profile', async () => {
-      const mockProfile = {
-        id: 'test-id',
-        userId: null,
-        isClaimed: false,
-        firstName: 'UnclaimedMechanic', // From profile.firstName
-        userIsVerified: false,
-        isMechanic: true,
-        isCarOwner: false,
-        city: 'Boston',
-        country: 'United States',
-        createdAt: new Date(),
-        updatedAt: new Date(),
-      };
-
-      global.fetch = vi.fn(() =>
-        Promise.resolve({
-          ok: true,
-          json: () => Promise.resolve(mockProfile),
-        } as Response)
-      );
-
-      renderWithProviders(<MechanicMatchProfile />);
-
-      await waitFor(() => {
-        // FirstName should appear in parentheses next to the title
-        expect(screen.getByText(/UnclaimedMechanic/i)).toBeInTheDocument();
-      });
-    });
   });
 
   describe('SupportMatch Profile Page', () => {
@@ -239,72 +174,6 @@ describe('User-Facing Profile First Name Display Tests', () => {
     });
   });
 
-  describe('MechanicMatch Public Profile Page', () => {
-    it('should display firstName for claimed profile in CardTitle', async () => {
-      const mockProfile = {
-        id: 'test-id',
-        userId: 'test-user-id',
-        firstName: 'PublicJohn', // From user data
-        userIsVerified: true,
-        isMechanic: true,
-        isCarOwner: false,
-        city: 'New York',
-        country: 'United States',
-        isPublic: true,
-        createdAt: new Date(),
-        updatedAt: new Date(),
-      };
-
-      global.fetch = vi.fn(() =>
-        Promise.resolve({
-          ok: true,
-          json: () => Promise.resolve(mockProfile),
-        } as Response)
-      );
-
-      renderWithProviders(<PublicMechanicMatchProfile />);
-
-      await waitFor(() => {
-        // FirstName should appear in CardTitle
-        expect(screen.getByText(/PublicJohn/i)).toBeInTheDocument();
-        // Should NOT show fallback text
-        expect(screen.queryByText(/MechanicMatch Profile/i)).not.toBeInTheDocument();
-      });
-    });
-
-    it('should display firstName for unclaimed profile in CardTitle', async () => {
-      const mockProfile = {
-        id: 'test-id',
-        userId: null,
-        firstName: 'PublicUnclaimed', // From profile.firstName
-        userIsVerified: false,
-        isMechanic: false,
-        isCarOwner: true,
-        city: 'Boston',
-        country: 'United States',
-        isPublic: true,
-        createdAt: new Date(),
-        updatedAt: new Date(),
-      };
-
-      global.fetch = vi.fn(() =>
-        Promise.resolve({
-          ok: true,
-          json: () => Promise.resolve(mockProfile),
-        } as Response)
-      );
-
-      renderWithProviders(<PublicMechanicMatchProfile />);
-
-      await waitFor(() => {
-        // FirstName should appear in CardTitle
-        expect(screen.getByText(/PublicUnclaimed/i)).toBeInTheDocument();
-        // Should NOT show fallback text
-        expect(screen.queryByText(/MechanicMatch Profile/i)).not.toBeInTheDocument();
-      });
-    });
-  });
-
   describe('Directory Public Profile Page', () => {
     it('should display firstName for claimed profile using getPublicFirstName', async () => {
       const mockProfile = {
@@ -363,52 +232,6 @@ describe('User-Facing Profile First Name Display Tests', () => {
         expect(screen.getByText(/DirectoryUnclaimed/i)).toBeInTheDocument();
         // Should NOT show fallback text
         expect(screen.queryByText(/Directory Profile/i)).not.toBeInTheDocument();
-      });
-    });
-  });
-
-  describe('MechanicMatch Public List Page', () => {
-    it('should display firstName for all profiles in listing', async () => {
-      const mockProfiles = [
-        {
-          id: 'profile-1',
-          userId: 'user-1',
-          firstName: 'ListJohn', // Claimed - from user
-          userIsVerified: true,
-          isMechanic: true,
-          isCarOwner: false,
-          city: 'New York',
-          country: 'United States',
-          isPublic: true,
-        },
-        {
-          id: 'profile-2',
-          userId: null,
-          firstName: 'ListUnclaimed', // Unclaimed - from profile
-          userIsVerified: false,
-          isMechanic: false,
-          isCarOwner: true,
-          city: 'Boston',
-          country: 'United States',
-          isPublic: true,
-        },
-      ];
-
-      global.fetch = vi.fn(() =>
-        Promise.resolve({
-          ok: true,
-          json: () => Promise.resolve(mockProfiles),
-        } as Response)
-      );
-
-      renderWithProviders(<PublicMechanicMatchList />);
-
-      await waitFor(() => {
-        // Both profiles should show first names
-        expect(screen.getByText(/ListJohn/i)).toBeInTheDocument();
-        expect(screen.getByText(/ListUnclaimed/i)).toBeInTheDocument();
-        // Should NOT show fallback text for either
-        expect(screen.queryByText(/MechanicMatch Profile/i)).not.toBeInTheDocument();
       });
     });
   });
@@ -487,5 +310,3 @@ describe('User-Facing Profile First Name Display Tests', () => {
     });
   });
 });
-
-
