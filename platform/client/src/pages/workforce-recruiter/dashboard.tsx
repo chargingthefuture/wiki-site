@@ -127,41 +127,6 @@ export default function WorkforceRecruiterDashboard() {
     queryKey: ["/api/workforce-recruiter/occupations?limit=10&offset=0"],
   });
 
-  // Get signup counts for all events
-  const { data: signupCounts } = useQuery<Record<string, number>>({
-    queryKey: ["/api/workforce-recruiter/meetup-events-signup-counts"],
-    queryFn: async () => {
-      const counts: Record<string, number> = {};
-      const events = meetupEventsData?.events || [];
-      for (const event of events) {
-        try {
-          const response = await fetch(`/api/workforce-recruiter/meetup-events/${event.id}/signup-count`);
-          const data = await response.json();
-          counts[event.id] = data.count || 0;
-        } catch (error) {
-          counts[event.id] = 0;
-        }
-      }
-      return counts;
-    },
-    enabled: (meetupEventsData?.events.length || 0) > 0,
-  });
-
-  const totalSignups = signupCounts ? Object.values(signupCounts).reduce((sum, count) => sum + count, 0) : 0;
-
-  const [selectedSector, setSelectedSector] = useState<string | null>(null);
-  const [sectorDialogOpen, setSectorDialogOpen] = useState(false);
-
-  if (configLoading || reportLoading || occupationsLoading || meetupEventsLoading) {
-    return (
-      <div className="p-4 sm:p-6 md:p-8">
-        <div className="text-center py-12">
-          <p className="text-muted-foreground">Loading...</p>
-        </div>
-      </div>
-    );
-  }
-
   const workforceTotal = config
     ? Math.round(config.population * parseFloat(config.workforceParticipationRate))
     : 2500000;
@@ -173,7 +138,7 @@ export default function WorkforceRecruiterDashboard() {
     <div className="p-4 sm:p-6 md:p-8 space-y-6 max-w-full overflow-x-hidden">
       <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
         <div className="flex-1 min-w-0">
-          <h1 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-2">Workforce Recruiter Tracker</h1>
+          <h1 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-2">Workforce Recruiter</h1>
           <p className="text-sm sm:text-base text-muted-foreground">
             Track recruitment and distribution of workforce for a community of {config?.population.toLocaleString() || "5,000,000"}
           </p>
@@ -190,13 +155,6 @@ export default function WorkforceRecruiterDashboard() {
             <Button variant="outline" data-testid="button-view-reports" className="w-full sm:w-auto text-xs sm:text-sm">
               <BarChart3 className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
               Reports
-            </Button>
-          </Link>
-          <Link href="/apps/workforce-recruiter/meetup-events" className="w-full sm:w-auto">
-            <Button variant="outline" data-testid="button-view-meetup-events" className="w-full sm:w-auto text-xs sm:text-sm">
-              <Calendar className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
-              <span className="hidden sm:inline">Meetup Events</span>
-              <span className="sm:hidden">Events</span>
             </Button>
           </Link>
         </div>
@@ -322,6 +280,7 @@ export default function WorkforceRecruiterDashboard() {
       </Card>
 
       <div className="grid md:grid-cols-2 gap-6">
+        
         {/* Sector Breakdown */}
         <Card>
           <CardHeader>
@@ -381,61 +340,6 @@ export default function WorkforceRecruiterDashboard() {
           </CardContent>
         </Card>
       </div>
-
-      {/* Meetup Events Widget */}
-      {meetupEventsData && meetupEventsData.events.length > 0 && (
-        <Card>
-          <CardHeader>
-            <div className="flex items-center justify-between">
-              <div>
-                <CardTitle>Meetup Events</CardTitle>
-                <CardDescription>Active meetup events and participant signups</CardDescription>
-              </div>
-              <Link href="/apps/workforce-recruiter/meetup-events">
-                <Button variant="outline" size="sm" data-testid="button-view-all-meetup-events">
-                  View All
-                </Button>
-              </Link>
-            </div>
-          </CardHeader>
-          <CardContent>
-            <div className="space-y-4">
-              {meetupEventsData.events.slice(0, 5).map((event) => {
-                const signupCount = signupCounts?.[event.id] || 0;
-                return (
-                  <div key={event.id} className="border-b pb-3 last:border-0">
-                    <div className="flex justify-between items-start mb-1">
-                      <div className="flex-1">
-                        <p className="text-sm font-medium">{event.title}</p>
-                        {event.description && (
-                          <p className="text-xs text-muted-foreground line-clamp-1">{event.description}</p>
-                        )}
-                      </div>
-                      <Badge variant="secondary" className="ml-2">
-                        <Users className="w-3 h-3 mr-1" />
-                        {signupCount} {signupCount === 1 ? "participant" : "participants"}
-                      </Badge>
-                    </div>
-                  </div>
-                );
-              })}
-              {meetupEventsData.total > 5 && (
-                <Link href="/apps/workforce-recruiter/meetup-events">
-                  <Button variant="outline" className="w-full" size="sm">
-                    View All {meetupEventsData.total} Events
-                  </Button>
-                </Link>
-              )}
-            </div>
-            <div className="mt-4 pt-4 border-t">
-              <div className="flex items-center justify-between">
-                <span className="text-sm text-muted-foreground">Total Signups</span>
-                <span className="text-lg font-semibold">{totalSignups}</span>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
-      )}
 
       {/* Announcements Section */}
       <div className="grid md:grid-cols-3 gap-4">
