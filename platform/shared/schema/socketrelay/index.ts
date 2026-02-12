@@ -159,7 +159,7 @@ export const insertSocketrelayProfileSchema = createInsertSchema(socketrelayProf
   updatedAt: true,
 }).extend({
   city: z.string().min(1, "City is required").max(100, "City must be 100 characters or less"),
-  state: z.string().min(1, "State is optional").max(100, "State must be 100 characters or less").nullable(),
+  state: z.string().max(100, "State must be 100 characters or less").optional(),
   country: z.string().min(1, "Country is required").max(100, "Country must be 100 characters or less"),
 });
 
@@ -176,4 +176,3 @@ export const insertSocketrelayAnnouncementSchema = createInsertSchema(socketrela
 
 export type InsertSocketrelayAnnouncement = z.infer<typeof insertSocketrelayAnnouncementSchema>;
 export type SocketrelayAnnouncement = typeof socketrelayAnnouncements.$inferSelect;
-

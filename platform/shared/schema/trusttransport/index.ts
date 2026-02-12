@@ -26,7 +26,7 @@ export const trusttransportProfiles = pgTable("trusttransport_profiles", {
   isDriver: boolean("is_driver").notNull().default(false),
   isRider: boolean("is_rider").notNull().default(true),
   city: varchar("city", { length: 100 }).notNull(),
-  state: varchar("state", { length: 100 }).notNull(),
+  state: varchar("state", { length: 100 }),
   country: varchar("country", { length: 100 }).notNull(),
   
   // Vehicle information
