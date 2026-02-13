@@ -1,5 +1,16 @@
 {
   "build": {
-    "outputDirectory": "build"
+    "env": {
+      "NODE_ENV": "production"
+    },
+    "commands": {
+      "build": "npm run build"
+    },
+    "outputDirectory": "dist"
+  },
+  "functions": {
+    "api/**/*.ts": {
+      "runtime": "nodejs20.x"
+    }
   }
 }
