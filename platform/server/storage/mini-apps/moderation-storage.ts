@@ -1,4 +1,4 @@
-import { db } from '../../core/db';
+import { db } from '../../db';
 import { moderationReports } from '@shared/schema';
 import { eq, desc } from 'drizzle-orm';
 import type { InsertModerationReport, ModerationReport } from '@shared/schema';
