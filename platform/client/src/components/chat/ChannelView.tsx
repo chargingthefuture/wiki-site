@@ -124,7 +124,7 @@ export default function ChannelView() {
 
   return (
     <Channel channel={channel} doAutoConnect>
-      <div className="flex flex-col h-[60vh] md:h-[70vh]">
+      <div className="chat-shell-body flex flex-col h-[60vh] md:h-[70vh]">
         <ChannelHeader />
         <div className="flex-1 overflow-auto">
           <MessageList />
