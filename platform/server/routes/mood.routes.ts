@@ -71,14 +71,27 @@ export function registerMoodRoutes(app: Express) {
     const recentMoods = await withDatabaseErrorHandling(
       () => storage.getMoodChecksByClientId(clientId, 7),
       'getMoodChecksByClientId'
-    ) as MoodCheck[];
-    const lastMood = recentMoods[0];
+    );
+    
+    // Ensure recentMoods is an array
+    const moodsArray = Array.isArray(recentMoods) ? recentMoods : [];
+    const lastMood = moodsArray.length > 0 ? moodsArray[0] : null;
     
     if (!lastMood) {
       return res.json({ eligible: true });
     }
 
-    const daysSinceLastMood = (Date.now() - new Date(lastMood.createdAt).getTime()) / (1000 * 60 * 60 * 24);
+    // Safely parse the createdAt date
+    const lastMoodDate = lastMood.createdAt instanceof Date 
+      ? lastMood.createdAt 
+      : new Date(lastMood.createdAt);
+    
+    if (isNaN(lastMoodDate.getTime())) {
+      // If date parsing fails, consider them eligible to be safe
+      return res.json({ eligible: true });
+    }
+
+    const daysSinceLastMood = (Date.now() - lastMoodDate.getTime()) / (1000 * 60 * 60 * 24);
     res.json({ eligible: daysSinceLastMood >= 7 });
   }));
 

@@ -309,6 +309,13 @@ export function MiniAppRoutes() {
       </Route>
 
       {/* GentlePulse routes */}
+      <Route path="/apps/gentlepulse">
+        <ProtectedRoute>
+          <>
+            <GentlePulseLibrary />
+          </>
+        </ProtectedRoute>
+      </Route>
       <Route path="/apps/gentlepulse/support">
         <ProtectedRoute>
           <>

@@ -48,7 +48,7 @@ export class MoodStorage {
           gte(moodChecks.date, startDate.toISOString().split('T')[0])
         )
       )
-      .orderBy(desc(moodChecks.date));
+      .orderBy(desc(moodChecks.createdAt));
   }
 
   async getMoodChecksByDateRange(startDate: Date, endDate: Date): Promise<MoodCheck[]> {
