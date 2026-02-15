@@ -74,6 +74,10 @@ export default function ChannelView() {
     return client.channel('messaging', 'community-support', { name: 'Community Support' });
   }, [client]);
 
+  // Debug state: expose messages count and last message for troubleshooting
+  const [debugMessagesCount, setDebugMessagesCount] = React.useState<number | null>(null);
+  const [debugLastMessage, setDebugLastMessage] = React.useState<any>(null);
+
   // Ensure user is added to the channel server-side before connecting
   useEffect(() => {
     let mounted = true;
@@ -86,6 +90,27 @@ export default function ChannelView() {
           await channel.watch();
         } catch (watchErr) {
           console.warn('channel.watch() failed:', watchErr);
+        }
+        // set up event listeners to surface incoming messages
+        try {
+          const handleNew = (event: any) => {
+            try {
+              const msgs = channel.state?.messages || [];
+              setDebugMessagesCount(msgs.length);
+              setDebugLastMessage(msgs[msgs.length - 1] || null);
+              console.debug('stream:event message.new', event, msgs[msgs.length - 1]);
+            } catch (e) {
+              console.error('debug handleNew error', e);
+            }
+          };
+
+          channel.on && channel.on('message.new', handleNew);
+          // also seed initial state
+          const initialMsgs = channel.state?.messages || [];
+          setDebugMessagesCount(initialMsgs.length);
+          setDebugLastMessage(initialMsgs[initialMsgs.length - 1] || null);
+        } catch (e) {
+          console.warn('failed to attach message listeners', e);
         }
       } catch (err) {
         if (mounted) console.warn('Failed to join community channel via server:', err);
@@ -102,6 +127,11 @@ export default function ChannelView() {
         <ChannelHeader />
         <div className="flex-1 overflow-auto">
           <MessageList Message={CustomMessage} />
+        </div>
+        {/* Debug panel (temporary) */}
+        <div className="px-2 py-1 text-xs text-muted-foreground bg-slate-900 border-t border-slate-800">
+          <div>Messages in channel: {debugMessagesCount ?? '—'}</div>
+          <div className="truncate">Last message: {debugLastMessage ? JSON.stringify({ id: debugLastMessage.id, text: debugLastMessage.text, userId: debugLastMessage.user?.id }).slice(0, 200) : '—'}</div>
         </div>
         <div className="px-2 pb-2">
           <MessageInput focus />
