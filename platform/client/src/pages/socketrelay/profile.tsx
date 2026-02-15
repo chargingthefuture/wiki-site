@@ -297,7 +297,6 @@ export default function SocketRelayProfile() {
                             {country}
                           </SelectItem>
                         ))}
-                        <SelectItem value="Other">Other</SelectItem>
                       </SelectContent>
                     </Select>
                     <FormMessage />

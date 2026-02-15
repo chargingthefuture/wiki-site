@@ -362,7 +362,6 @@ export default function SupportMatchProfile() {
                               {country}
                             </SelectItem>
                           ))}
-                          <SelectItem value="Other">Other</SelectItem>
                         </SelectContent>
                       </Select>
                       <FormMessage />
