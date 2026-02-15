@@ -9,6 +9,9 @@ import React, { useEffect, useState, useRef } from 'react';
 import { useAuth } from '@/hooks/useAuth';
 import type { ChatMessage } from '@shared/schema';
 import * as Sentry from '@sentry/react';
+import { Info } from 'lucide-react';
+import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
+import { format } from 'date-fns';
 
 interface Message extends ChatMessage {
   isSending?: boolean;
@@ -20,6 +23,7 @@ export default function SupabaseChat() {
   const [messageText, setMessageText] = useState('');
   const [loading, setLoading] = useState(true);
   const [sending, setSending] = useState(false);
+  const [infoOpen, setInfoOpen] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   // Load initial messages
@@ -129,6 +133,27 @@ export default function SupabaseChat() {
 
   return (
     <div className="flex flex-col h-[60vh] md:h-[70vh] bg-slate-800 text-slate-300">
+      {/* Header */}
+      <div className="border-b border-slate-700 bg-slate-900 p-3 flex-shrink-0">
+        <div className="flex items-center gap-2">
+          <h2 className="text-lg font-semibold text-slate-100">Community Support Live Chat</h2>
+          <Popover open={infoOpen} onOpenChange={setInfoOpen}>
+            <PopoverTrigger asChild>
+              <button
+                type="button"
+                className="text-slate-400 hover:text-slate-300 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-slate-900 rounded-sm"
+                aria-label="Learn more about the chat"
+              >
+                <Info className="w-4 h-4" />
+              </button>
+            </PopoverTrigger>
+            <PopoverContent className="w-80">
+              <p className="text-sm leading-relaxed">Use this chat to receive live assistance from the community.</p>
+            </PopoverContent>
+          </Popover>
+        </div>
+      </div>
+
       {/* Messages List */}
       <div className="flex-1 overflow-y-auto p-3 space-y-3 min-h-0">
         {messages.length === 0 ? (
@@ -157,7 +182,7 @@ export default function SupabaseChat() {
                 )}
                 <p className="text-sm break-words">{msg.text}</p>
                 <p className="text-xs mt-1 opacity-70">
-                  {new Date(msg.createdAt).toLocaleTimeString()}
+                  {format(new Date(msg.createdAt), 'MMM d, yyyy')} {new Date(msg.createdAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
                 </p>
               </div>
             </div>
