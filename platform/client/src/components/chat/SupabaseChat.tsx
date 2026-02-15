@@ -85,6 +85,7 @@ export default function SupabaseChat() {
     };
 
     // Optimistic update
+    const messageToSend = messageText.trim();
     setMessages(prev => [...prev, tempMessage]);
     setMessageText('');
     setSending(true);
@@ -94,7 +95,7 @@ export default function SupabaseChat() {
         method: 'POST',
         credentials: 'same-origin',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ text: messageText.trim() }),
+        body: JSON.stringify({ text: messageToSend }),
       });
 
       if (!resp.ok) {
@@ -129,10 +130,10 @@ export default function SupabaseChat() {
   return (
     <div className="flex flex-col h-[60vh] md:h-[70vh] bg-slate-800 text-slate-300">
       {/* Messages List */}
-      <div className="flex-1 overflow-y-auto p-4 space-y-4">
+      <div className="flex-1 overflow-y-auto p-3 space-y-3 min-h-0">
         {messages.length === 0 ? (
-          <div className="h-full flex items-center justify-center text-slate-500">
-            <p>No messages yet. Start the conversation!</p>
+          <div className="flex items-center justify-center text-slate-500 h-full">
+            <p className="text-sm">No messages yet. Start the conversation!</p>
           </div>
         ) : (
           messages.map(msg => (
@@ -168,21 +169,21 @@ export default function SupabaseChat() {
       {/* Message Input */}
       <form
         onSubmit={handleSendMessage}
-        className="border-t border-slate-700 bg-slate-900 p-4"
+        className="border-t border-slate-700 bg-slate-900 p-3 flex-shrink-0"
       >
         <div className="flex gap-2">
           <input
             type="text"
-            placeholder="Type your message…"
+            placeholder="Type message…"
             value={messageText}
             onChange={e => setMessageText(e.target.value)}
             disabled={sending}
-            className="flex-1 bg-slate-700 text-slate-100 placeholder-slate-500 rounded-lg px-4 py-2 outline-none focus:ring-2 focus:ring-blue-500 disabled:opacity-50"
+            className="flex-1 min-w-0 bg-slate-700 text-slate-100 placeholder-slate-500 rounded px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-blue-500 disabled:opacity-50"
           />
           <button
             type="submit"
             disabled={!messageText.trim() || sending}
-            className="bg-blue-600 hover:bg-blue-700 disabled:bg-slate-600 text-white px-4 py-2 rounded-lg font-medium transition-colors"
+            className="flex-shrink-0 bg-blue-600 hover:bg-blue-700 disabled:bg-slate-600 text-white px-3 py-2 rounded text-sm font-medium whitespace-nowrap transition-colors"
           >
             {sending ? '…' : 'Send'}
           </button>

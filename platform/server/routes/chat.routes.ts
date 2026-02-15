@@ -15,10 +15,10 @@ export function registerChatRoutes(app: Express) {
     try {
       const { text } = req.body;
 
-      // Get user info from Clerk
-      const userId = req.session?.userId;
-      const userName = req.session?.user?.username || req.session?.user?.firstName || 'Anonymous';
-      const userImage = req.session?.user?.profileImageUrl || undefined;
+      // Get user info from Clerk auth object
+      const userId = req.auth?.userId;
+      const userName = req.auth?.firstName || req.auth?.username || 'Anonymous';
+      const userImage = req.auth?.imageUrl || undefined;
 
       if (!userId) {
         return res.status(401).json({ error: 'User not authenticated' });

@@ -456,6 +456,14 @@ export class DatabaseStorage implements IStorage {
     // Finally, delete the user account from users table
     await this.coreStorageComposed.deleteUser(userId);
   }
+
+  // ========================================
+  // CHAT OPERATIONS (delegated)
+  // ========================================
+
+  createChatMessage = delegate(() => this.miniAppsStorageComposed, 'createChatMessage');
+  getChannelMessages = delegate(() => this.miniAppsStorageComposed, 'getChannelMessages');
+  getCommunityMessages = delegate(() => this.miniAppsStorageComposed, 'getCommunityMessages');
 }
 
 // Export singleton instance for backward compatibility
