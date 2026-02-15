@@ -9,7 +9,6 @@ import AdminPayments from "@/pages/admin/payments";
 import AdminActivity from "@/pages/admin/activity";
 import AdminPricingTiers from "@/pages/admin/pricing-tiers";
 import AdminWeeklyPerformance from "@/pages/admin/weekly-performance";
-import ConversionCalculator from "@/pages/admin/conversion-calculator";
 import AdminSkills from "@/pages/admin/skills";
 
 export function AdminRoutes() {
@@ -43,11 +42,6 @@ export function AdminRoutes() {
       <Route path="/admin/weekly-performance">
         <AdminRoute>
           <AdminWeeklyPerformance />
-        </AdminRoute>
-      </Route>
-      <Route path="/admin/conversion-calculator">
-        <AdminRoute>
-          <ConversionCalculator />
         </AdminRoute>
       </Route>
     </>

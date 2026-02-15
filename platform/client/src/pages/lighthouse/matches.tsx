@@ -2,15 +2,24 @@ import { useQuery, useMutation, useQueries } from "@tanstack/react-query";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { Textarea } from "@/components/ui/textarea";
+import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
 import { queryClient, apiRequest } from "@/lib/queryClient";
 import { Users, Calendar, MapPin, Home, ExternalLink } from "lucide-react";
 import { Link } from "wouter";
-import { useMemo } from "react";
-import type { LighthouseMatch, LighthouseProperty } from "@shared/schema";
+import { useMemo, useState } from "react";
+import type { LighthouseMatch, LighthouseProperty, LighthouseProfile } from "@shared/schema";
 
 export default function MatchesPage() {
   const { toast } = useToast();
+  const [editingMatchId, setEditingMatchId] = useState<string | null>(null);
+  const [responseMessages, setResponseMessages] = useState<Record<string, string>>({});
+
+  const { data: profile } = useQuery<LighthouseProfile | null>({
+    queryKey: ["/api/lighthouse/profile"],
+  });
+
   const { data: matches, isLoading } = useQuery<LighthouseMatch[]>({
     queryKey: ["/api/lighthouse/matches"],
   });
@@ -36,10 +45,20 @@ export default function MatchesPage() {
   }, [propertyQueries, matches]);
 
   const updateMatchMutation = useMutation({
-    mutationFn: async ({ id, status }: { id: string; status: string }) => 
-      apiRequest("PUT", `/api/lighthouse/matches/${id}`, { status }),
+    mutationFn: async ({ 
+      id, 
+      status, 
+      hostResponse 
+    }: { 
+      id: string; 
+      status: string; 
+      hostResponse?: string;
+    }) => 
+      apiRequest("PUT", `/api/lighthouse/matches/${id}`, { status, hostResponse }),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["/api/lighthouse/matches"] });
+      setEditingMatchId(null);
+      setResponseMessages({});
       toast({
         title: "Success",
         description: "Match updated successfully",
@@ -179,16 +198,62 @@ export default function MatchesPage() {
                 )}
 
                 {match.status === "pending" && (
-                  <div className="flex gap-2">
-                    <Button 
-                      variant="outline" 
-                      size="sm"
-                      onClick={() => updateMatchMutation.mutate({ id: match.id, status: "cancelled" })}
-                      disabled={updateMatchMutation.isPending}
-                      data-testid={`button-cancel-${match.id}`}
-                    >
-                      Cancel Request
-                    </Button>
+                  <div className="space-y-4">
+                    {property && profile && profile.profileType === "host" && property.hostId === (profile as any).id && (
+                      <>
+                        <div>
+                          <Label htmlFor={`response-${match.id}`}>Response Message (Optional)</Label>
+                          <Textarea
+                            id={`response-${match.id}`}
+                            value={responseMessages[match.id] || ""}
+                            onChange={(e) => setResponseMessages({ ...responseMessages, [match.id]: e.target.value })}
+                            placeholder="Add a response message to the seeker..."
+                            rows={3}
+                            data-testid={`input-response-${match.id}`}
+                          />
+                        </div>
+                        <div className="flex gap-2">
+                          <Button 
+                            size="sm"
+                            onClick={() => updateMatchMutation.mutate({ 
+                              id: match.id, 
+                              status: "accepted",
+                              hostResponse: responseMessages[match.id] || undefined
+                            })}
+                            disabled={updateMatchMutation.isPending}
+                            data-testid={`button-accept-${match.id}`}
+                          >
+                            Accept Request
+                          </Button>
+                          <Button 
+                            variant="outline" 
+                            size="sm"
+                            onClick={() => updateMatchMutation.mutate({ 
+                              id: match.id, 
+                              status: "rejected",
+                              hostResponse: responseMessages[match.id] || undefined
+                            })}
+                            disabled={updateMatchMutation.isPending}
+                            data-testid={`button-reject-${match.id}`}
+                          >
+                            Reject Request
+                          </Button>
+                        </div>
+                      </>
+                    )}
+                    {(!property || !profile || profile.profileType !== "host" || property.hostId !== (profile as any).id) && (
+                      <div className="flex gap-2">
+                        <Button 
+                          variant="outline" 
+                          size="sm"
+                          onClick={() => updateMatchMutation.mutate({ id: match.id, status: "cancelled" })}
+                          disabled={updateMatchMutation.isPending}
+                          data-testid={`button-cancel-${match.id}`}
+                        >
+                          Cancel Request
+                        </Button>
+                      </div>
+                    )}
                   </div>
                 )}
 

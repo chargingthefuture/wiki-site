@@ -115,6 +115,34 @@ export function registerLighthousePropertyRoutes(app: Express) {
     
     res.json(updated);
   }));
+
+  app.delete('/api/lighthouse/properties/:id', isAuthenticated, asyncHandler(async (req: any, res) => {
+    const userId = getUserId(req);
+    const profile = await withDatabaseErrorHandling(
+      () => storage.getLighthouseProfileByUserId(userId),
+      'getLighthouseProfileByUserId'
+    ) as LighthouseProfile | undefined;
+    const property = await withDatabaseErrorHandling(
+      () => storage.getLighthousePropertyById(req.params.id),
+      'getLighthousePropertyById'
+    ) as LighthouseProperty | undefined;
+    
+    if (!property) {
+      return res.status(404).json({ message: "Property not found" });
+    }
+    
+    if (!profile || property.hostId !== profile.id) {
+      return res.status(403).json({ message: "You can only delete your own properties" });
+    }
+
+    // Delete property
+    await withDatabaseErrorHandling(
+      () => storage.deleteLighthouseProperty(req.params.id),
+      'deleteLighthouseProperty'
+    );
+    
+    res.json({ message: "Property deleted successfully" });
+  }));
 }
 
 
