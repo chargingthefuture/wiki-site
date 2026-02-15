@@ -3,6 +3,7 @@ import { asyncHandler } from '../errorHandler';
 import { isAuthenticated, getUserId } from '../auth';
 import { storage } from '../storage';
 import { insertChatMessageSchema } from '@shared/schema';
+import type { User } from '@shared/schema';
 import * as Sentry from '@sentry/node';
 import { withDatabaseErrorHandling } from '../databaseErrorHandler';
 
@@ -27,7 +28,7 @@ export function registerChatRoutes(app: Express) {
       const user = await withDatabaseErrorHandling(
         () => storage.getUser(userId),
         'getUserForChat'
-      );
+      ) as User | undefined;
 
       if (!user) {
         return res.status(404).json({ error: 'User not found' });
