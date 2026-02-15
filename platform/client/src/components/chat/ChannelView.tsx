@@ -12,11 +12,17 @@ import 'stream-chat-react/dist/css/index.css';
 
 function ModerationActions({ message }: any) {
   const handleReport = async () => {
+    const messageId = message?.id;
+    if (!messageId) {
+      alert('Unable to report: message not available.');
+      return;
+    }
+
     try {
       await fetch('/api/stream/report', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ messageId: message.id, reason: 'user_report' }),
+        body: JSON.stringify({ messageId, reason: 'user_report' }),
       });
       alert('Message reported. Moderators will review.');
     } catch (err) {
@@ -32,24 +38,27 @@ function ModerationActions({ message }: any) {
   );
 }
 
-function CustomMessage({ message, additionalMessageInputProps }: any) {
-  const blocked = typeof window !== 'undefined' && !!localStorage.getItem(`blocked_${message.user?.id}`);
+function CustomMessage({ message, ...props }: any) {
+  if (!message) return null;
+
+  const userId = message?.user?.id;
+  const blocked = typeof window !== 'undefined' && userId ? !!localStorage.getItem(`blocked_${userId}`) : false;
 
   const handleBlock = () => {
-    if (!message.user?.id) return;
-    localStorage.setItem(`blocked_${message.user.id}`, '1');
+    if (!userId) return;
+    localStorage.setItem(`blocked_${userId}`, '1');
     window.location.reload();
   };
 
   if (blocked) {
     return (
-      <div className="p-2 text-sm italic text-muted-foreground">Message hidden. <button onClick={() => { localStorage.removeItem(`blocked_${message.user.id}`); window.location.reload(); }} className="underline">Unmute</button></div>
+      <div className="p-2 text-sm italic text-muted-foreground">Message hidden. <button onClick={() => { localStorage.removeItem(`blocked_${userId}`); window.location.reload(); }} className="underline">Unmute</button></div>
     );
   }
 
   return (
     <div className="p-2">
-      <div className="text-sm">{message.text}</div>
+      <div className="text-sm">{message?.text}</div>
       <div className="mt-1 flex items-center justify-between">
         <ModerationActions message={message} />
         <button onClick={handleBlock} className="text-xs text-muted-foreground">Block</button>
