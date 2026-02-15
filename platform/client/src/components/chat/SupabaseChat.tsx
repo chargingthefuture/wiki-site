@@ -120,10 +120,10 @@ export default function SupabaseChat() {
 
   if (loading) {
     return (
-      <div className="flex flex-col h-[60vh] md:h-[70vh] bg-slate-800 text-slate-300">
+      <div className="flex flex-col h-[60vh] md:h-[70vh] bg-card text-foreground">
         <div className="flex-1 flex items-center justify-center">
           <div className="text-center">
-            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500 mx-auto mb-2"></div>
+            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mx-auto mb-2"></div>
             <p>Loading chat…</p>
           </div>
         </div>
@@ -132,11 +132,11 @@ export default function SupabaseChat() {
   }
 
   return (
-    <div className="flex flex-col h-[60vh] md:h-[70vh] bg-slate-800 text-slate-300">
+    <div className="flex flex-col h-[60vh] md:h-[70vh] bg-card text-foreground">
       {/* Header */}
-      <div className="border-b border-slate-700 bg-slate-900 p-3 flex-shrink-0">
+      <div className="border-b border-border bg-background p-3 flex-shrink-0">
         <div className="flex items-center gap-2">
-          <h2 className="text-lg font-semibold text-slate-100">Community Support Live Chat</h2>
+          <h2 className="text-lg font-semibold text-foreground">Community Support Live Chat</h2>
           <ChatBadge testId="chat" />
         </div>
       </div>
@@ -144,7 +144,7 @@ export default function SupabaseChat() {
       {/* Messages List */}
       <div className="flex-1 overflow-y-auto p-3 space-y-3 min-h-0">
         {messages.length === 0 ? (
-          <div className="flex items-center justify-center text-slate-500 h-full">
+          <div className="flex items-center justify-center text-muted-foreground h-full">
             <p className="text-sm">No messages yet. Start the conversation!</p>
           </div>
         ) : (
@@ -158,11 +158,11 @@ export default function SupabaseChat() {
               <div
                 className={`rounded-lg p-3 max-w-xs lg:max-w-md ${
                   msg.userId === user?.id
-                    ? 'bg-blue-600 text-white'
-                    : 'bg-slate-700 text-slate-100'
+                    ? 'bg-primary text-primary-foreground'
+                    : 'bg-muted text-foreground'
                 } ${msg.isSending ? 'opacity-50' : ''}`}
               >
-                <p className="text-xs font-semibold text-slate-300 mb-1">
+                <p className="text-xs font-semibold mb-1">
                   {formatChatName(msg.firstName, msg.lastName)}
                 </p>
                 <p className="text-sm break-words">{msg.text}</p>
@@ -179,7 +179,7 @@ export default function SupabaseChat() {
       {/* Message Input */}
       <form
         onSubmit={handleSendMessage}
-        className="border-t border-slate-700 bg-slate-900 p-3 flex-shrink-0"
+        className="border-t border-border bg-background p-3 flex-shrink-0"
       >
         <div className="flex gap-2">
           <input
@@ -188,12 +188,12 @@ export default function SupabaseChat() {
             value={messageText}
             onChange={e => setMessageText(e.target.value)}
             disabled={sending}
-            className="flex-1 min-w-0 bg-slate-700 text-slate-100 placeholder-slate-500 rounded px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-blue-500 disabled:opacity-50"
+            className="flex-1 min-w-0 bg-muted text-foreground placeholder-muted-foreground rounded px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-primary disabled:opacity-50"
           />
           <button
             type="submit"
             disabled={!messageText.trim() || sending}
-            className="flex-shrink-0 bg-blue-600 hover:bg-blue-700 disabled:bg-slate-600 text-white px-3 py-2 rounded text-sm font-medium whitespace-nowrap transition-colors"
+            className="flex-shrink-0 bg-primary hover:bg-primary/90 disabled:bg-muted text-primary-foreground px-3 py-2 rounded text-sm font-medium whitespace-nowrap transition-colors"
           >
             {sending ? '…' : 'Send'}
           </button>
