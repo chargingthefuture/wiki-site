@@ -1,4 +1,5 @@
 import React, { type ReactNode, useEffect, useMemo, useState } from 'react';
+import * as Sentry from '@sentry/react';
 import { StreamChat } from 'stream-chat';
 import { Chat } from 'stream-chat-react';
 
@@ -29,7 +30,7 @@ export function StreamChatProvider({ children }: Props) {
           setReady(true);
         }
       } catch (err) {
-        console.error('Stream init error', err);
+        Sentry.captureException(err);
       }
     }
 

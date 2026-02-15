@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo } from 'react';
+import * as Sentry from '@sentry/react';
 import './stream-overrides.css';
 import {
   Channel,
@@ -27,7 +28,7 @@ function ModerationActions({ message }: any) {
       });
       alert('Message reported. Moderators will review.');
     } catch (err) {
-      console.error(err);
+      Sentry.captureException(err);
       alert('Failed to report message.');
     }
   };
@@ -90,7 +91,7 @@ export default function ChannelView() {
         try {
           await channel.watch();
         } catch (watchErr) {
-          console.warn('channel.watch() failed:', watchErr);
+          Sentry.captureException(watchErr);
         }
         // set up event listeners to surface incoming messages
         try {
@@ -99,9 +100,8 @@ export default function ChannelView() {
               const msgs = channel.state?.messages || [];
               setDebugMessagesCount(msgs.length);
               setDebugLastMessage(msgs[msgs.length - 1] || null);
-              console.debug('stream:event message.new', event, msgs[msgs.length - 1]);
             } catch (e) {
-              console.error('debug handleNew error', e);
+              Sentry.captureException(e);
             }
           };
 
@@ -111,10 +111,10 @@ export default function ChannelView() {
           setDebugMessagesCount(initialMsgs.length);
           setDebugLastMessage(initialMsgs[initialMsgs.length - 1] || null);
         } catch (e) {
-          console.warn('failed to attach message listeners', e);
+          Sentry.captureException(e);
         }
       } catch (err) {
-        if (mounted) console.warn('Failed to join community channel via server:', err);
+        if (mounted) Sentry.captureException(err);
       }
     })();
     return () => { mounted = false; };
