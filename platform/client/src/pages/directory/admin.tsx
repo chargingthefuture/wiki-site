@@ -50,11 +50,34 @@ export default function AdminDirectoryPage() {
     queryKey: ["/api/directory/admin/profiles"],
   });
 
-  // Client-side fuzzy search on all profiles
-  const filteredProfiles = useFuzzySearch(profiles, searchTerm, {
-    searchFields: ["description", "firstName", "city", "state", "country"],
+  // Build searchable combined text for each profile, then fuzzy-search that text
+  const profileToSearchText = (p: DirectoryProfileWithUser) =>
+    [
+      p.displayName,
+      p.firstName,
+      p.lastName,
+      p.description,
+      p.city,
+      p.state,
+      p.country,
+      // join arrays if they exist
+      Array.isArray((p as any).skills) ? (p as any).skills.join(" ") : (p as any).skills,
+      Array.isArray((p as any).jobTitles) ? (p as any).jobTitles.join(" ") : (p as any).jobTitles,
+      Array.isArray((p as any).sectors) ? (p as any).sectors.join(" ") : (p as any).sectors,
+    ]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
+
+  const searchable = profiles.map((p) => ({ original: p, text: profileToSearchText(p) }));
+
+  const matches = useFuzzySearch(searchable, searchTerm, {
+    searchFields: ["text"],
     threshold: 0.3,
   });
+
+  // Client-side fuzzy search on all profiles
+  const filteredProfiles = (matches || []).map((m: any) => m.original);
 
   // Client-side pagination on filtered results
   const total = filteredProfiles.length;

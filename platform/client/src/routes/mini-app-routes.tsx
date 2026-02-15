@@ -53,7 +53,6 @@ import GentlePulseSettings from "@/pages/gentlepulse/settings";
 import GentlePulseAdmin from "@/pages/gentlepulse/admin";
 import GentlePulseAdminAnnouncements from "@/pages/gentlepulse/admin-announcements";
 import GentlePulseAnnouncements from "@/pages/gentlepulse/announcements";
-import { GentlePulseBottomNav } from "@/components/gentlepulse/bottom-nav";
 import ChymeDashboard from "@/pages/chyme/dashboard";
 import ChymeAdmin from "@/pages/chyme/admin";
 import ChymeAdminAnnouncements from "@/pages/chyme/admin-announcements";
