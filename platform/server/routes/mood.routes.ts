@@ -10,7 +10,7 @@ import { asyncHandler } from "../errorHandler";
 import { validateWithZod } from "../validationErrorFormatter";
 import { withDatabaseErrorHandling } from "../databaseErrorHandler";
 import { ValidationError } from "../errors";
-import { logInfo, logAdminAction } from "../errorLogger";
+import { logInfo } from "../errorLogger";
 import { z } from "zod";
 import {
   insertMoodCheckSchema,
@@ -98,7 +98,7 @@ export function registerMoodRoutes(app: Express) {
       () => storage.createMoodAnnouncement(validatedData),
       'createMoodAnnouncement'
     );
-    logAdminAction(`Created mood announcement: ${validatedData.title}`, req);
+    logInfo(`Created mood announcement: ${validatedData.title}`, req);
     res.json(announcement);
   }));
 
@@ -120,7 +120,7 @@ export function registerMoodRoutes(app: Express) {
       () => storage.updateMoodAnnouncement(req.params.id, validatedData),
       'updateMoodAnnouncement'
     );
-    logAdminAction(`Updated mood announcement: ${req.params.id}`, req);
+    logInfo(`Updated mood announcement: ${req.params.id}`, req);
     res.json(announcement);
   }));
 
@@ -129,7 +129,7 @@ export function registerMoodRoutes(app: Express) {
       () => storage.deactivateMoodAnnouncement(req.params.id),
       'deactivateMoodAnnouncement'
     );
-    logAdminAction(`Deactivated mood announcement: ${req.params.id}`, req);
+    logInfo(`Deactivated mood announcement: ${req.params.id}`, req);
     res.json(announcement);
   }));
 }
