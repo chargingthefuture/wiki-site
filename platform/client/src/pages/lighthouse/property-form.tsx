@@ -15,6 +15,7 @@ import { useEffect, useState } from "react";
 import { Home, Plus, X, Check as CheckIcon } from "lucide-react";
 import { z } from "zod";
 import { US_STATES } from "@/lib/usStates";
+import { COUNTRIES } from "@/lib/countries";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem } from "@/components/ui/command";
 
@@ -56,6 +57,7 @@ export default function PropertyFormPage() {
       address: "",
       city: "",
       state: undefined,
+      country: undefined,
       zipCode: "",
       bedrooms: undefined,
       bathrooms: undefined,
@@ -76,6 +78,7 @@ export default function PropertyFormPage() {
         address: property.address,
         city: property.city,
         state: property.state ?? undefined,
+        country: property.country ?? undefined,
         zipCode: property.zipCode ?? "",
         bedrooms: property.bedrooms != null ? property.bedrooms.toString() : undefined,
         bathrooms: property.bathrooms != null ? property.bathrooms.toString() : undefined,
@@ -391,6 +394,31 @@ export default function PropertyFormPage() {
                           </Command>
                         </PopoverContent>
                       </Popover>
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
+
+                <FormField
+                  control={form.control}
+                  name="country"
+                  render={({ field }) => (
+                    <FormItem>
+                      <FormLabel>Country</FormLabel>
+                      <Select onValueChange={field.onChange} value={field.value || ""}>
+                        <FormControl>
+                          <SelectTrigger data-testid="select-country">
+                            <SelectValue placeholder="Select your country" />
+                          </SelectTrigger>
+                        </FormControl>
+                        <SelectContent>
+                          {COUNTRIES.map((country) => (
+                            <SelectItem key={country} value={country}>
+                              {country}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
                       <FormMessage />
                     </FormItem>
                   )}
