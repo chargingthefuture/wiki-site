@@ -172,7 +172,7 @@ export default function PropertyDetailPage() {
           <div className="grid md:grid-cols-2 gap-4">
             <div className="flex items-center gap-2 text-muted-foreground">
               <MapPin className="w-5 h-5" />
-              <span>{property.address}, {property.city}, {property.state} {property.zipCode}</span>
+              <span>{property.address}, {property.city}, {property.state}, {property.country}  {property.zipCode}</span>
             </div>
             {property.bedrooms && (
               <div className="flex items-center gap-2 text-muted-foreground">

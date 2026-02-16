@@ -101,7 +101,7 @@ export default function BrowsePropertiesPage() {
                   </CardDescription>
                   <div className="flex items-center gap-1 text-sm text-muted-foreground">
                     <MapPin className="w-4 h-4" />
-                    {property.city}, {property.state}
+                    {property.city}, {property.state}, {property.country}
                   </div>
                   {property.bedrooms && (
                     <div className="flex items-center gap-1 text-sm text-muted-foreground">

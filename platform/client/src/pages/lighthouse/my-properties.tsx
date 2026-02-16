@@ -113,7 +113,7 @@ export default function MyPropertiesPage() {
               <CardContent className="space-y-3">
                 <div className="flex items-center gap-1 text-sm text-muted-foreground">
                   <MapPin className="w-4 h-4" />
-                  {property.city}, {property.state}
+                  {property.city}, {property.state}, {property.country}
                 </div>
                 <div className="flex gap-2">
                   <Link href={`/apps/lighthouse/property/edit/${property.id}`}>

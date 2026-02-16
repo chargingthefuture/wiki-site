@@ -59,6 +59,7 @@ export const lighthouseProperties = pgTable("lighthouse_properties", {
   address: text("address").notNull(),
   city: varchar("city", { length: 100 }).notNull(),
   state: varchar("state", { length: 50 }),
+  country: varchar("country", { length: 100 }),
   zipCode: varchar("zip_code", { length: 10 }).notNull(),
   
   // Details
