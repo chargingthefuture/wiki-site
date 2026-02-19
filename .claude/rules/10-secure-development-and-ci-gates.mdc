@@ -1,0 +1,20 @@
+# 10 Secure Development and CI Gates
+
+## Intent
+Make privacy and security controls enforceable in daily engineering workflow.
+
+## CI Platform
+- GitHub Actions is the required CI system for the rewrite product.
+
+## Mandatory
+- CI must run secrets scanning, dependency scanning, and static analysis.
+- Enforce tests for consent checks, access controls, and deletion/export workflows.
+- Block merges/releases when critical compliance gates fail.
+- Maintain patch/vulnerability remediation SLAs by severity.
+
+## Tooling Rules
+- Add lint/test checks preventing raw personal data logging.
+- Include schema/policy validation for data classification and retention tags.
+
+## Prohibited
+- Manual gate bypass without documented emergency approval.

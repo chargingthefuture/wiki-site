@@ -1,0 +1,20 @@
+# Platform Architecture Rules
+
+## Intent
+Define the structural rules for the rewrite product so chat and plugin systems remain modular, safe, and maintainable.
+
+## Mandatory
+- Treat chat as the core product surface; all service capabilities are invoked as plugin actions or commands.
+- Keep plugin execution behind a centralized policy and permission layer.
+- Use shared contracts for web/mobile/backend payloads and command schemas.
+- Isolate plugin domains to avoid cross-service coupling and unintended data sharing.
+- Enforce explicit ownership for each bounded context and service.
+
+## Integration Rules
+- No plugin may directly bypass core chat policy middleware.
+- No plugin may access another plugin's sensitive storage without an approved shared contract.
+- Introduce adapters at boundaries when integrating legacy concepts.
+
+## Release Blockers
+- New service path that is not represented as a plugin contract.
+- Feature architecture that bypasses centralized auth, policy, or audit hooks.

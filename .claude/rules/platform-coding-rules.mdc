@@ -1,0 +1,22 @@
+# Platform Coding Rules
+
+## Intent
+Set implementation standards for readability, modularity, and safe feature delivery across Next.js, React Native, and shared services.
+
+## Mandatory
+- Keep modules small and focused; one responsibility per component/service.
+- Define typed contracts for API inputs/outputs and plugin command payloads.
+- Validate all external input at boundaries (API, command bus, webhooks, queues).
+- Use explicit error categories and structured error responses.
+- Prefer configuration-driven behavior over hard-coded branching for plugin policies.
+
+## Code Quality Rules
+- Avoid hidden side effects in shared utilities.
+- Avoid duplicate business logic across web/mobile; extract shared domain logic.
+- Add migration-safe changes only; include backward compatibility behavior when needed.
+- Ensure code files end with exactly one trailing newline (no missing newline, no extra blank lines at EOF).
+
+## Prohibited
+- Unbounded dynamic command execution.
+- Direct secret access from client code.
+- Silent catch-and-ignore error handling.

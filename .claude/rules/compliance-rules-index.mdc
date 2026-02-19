@@ -1,0 +1,38 @@
+# Compliance Rules Index (HIPAA + GDPR Baseline)
+
+## Scope
+- These rules apply to the rewrite codebase under `ctf/`.
+- Legacy folders are reference-only during migration unless explicitly opted in.
+
+## Regulatory Baseline
+- Enforce strict covered-entity HIPAA posture by default.
+- Enforce GDPR baseline across all personal data processing.
+- Allow global transfers only with documented safeguards and approved mechanisms.
+
+## Rule Precedence
+1. `00-baseline.mdc`
+2. Topic modules `01` through `12`
+3. `99-rule-authoring-and-change-control.mdc`
+
+If two rules conflict, the stricter privacy/security requirement wins.
+
+## Required Modules
+- [00-baseline.mdc](00-baseline.mdc)
+- [01-data-inventory-and-lawful-basis.mdc](01-data-inventory-and-lawful-basis.mdc)
+- [02-consent-and-dsar.mdc](02-consent-and-dsar.mdc)
+- [03-authz-authn-and-admin-controls.mdc](03-authz-authn-and-admin-controls.mdc)
+- [04-encryption-and-key-management.mdc](04-encryption-and-key-management.mdc)
+- [05-data-segregation-and-high-risk-isolation.mdc](05-data-segregation-and-high-risk-isolation.mdc)
+- [06-audit-logging-and-monitoring.mdc](06-audit-logging-and-monitoring.mdc)
+- [07-retention-deletion-and-backups.mdc](07-retention-deletion-and-backups.mdc)
+- [08-vendors-and-cross-border-transfers.mdc](08-vendors-and-cross-border-transfers.mdc)
+- [09-incident-response-and-breach-notification.mdc](09-incident-response-and-breach-notification.mdc)
+- [10-secure-development-and-ci-gates.mdc](10-secure-development-and-ci-gates.mdc)
+- [11-nextjs-react-native-implementation-overlays.mdc](11-nextjs-react-native-implementation-overlays.mdc)
+- [12-audit-evidence-and-documentation.mdc](12-audit-evidence-and-documentation.mdc)
+- [99-rule-authoring-and-change-control.mdc](99-rule-authoring-and-change-control.mdc)
+
+## Usage Contract
+- Before shipping any feature, confirm all relevant modules are satisfied.
+- For new chat plugins/services, apply baseline plus plugin-specific overlays.
+- Missing policy metadata, legal basis, retention class, or audit path is a release blocker.

@@ -1,0 +1,21 @@
+# Platform Testing and Release Rules
+
+## Intent
+Define minimum quality and safety gates before code reaches users.
+
+## Mandatory
+- Every feature must include automated tests at the right layer (unit/integration/e2e as applicable).
+- Plugin commands and permission checks must have positive and negative tests.
+- Critical chat workflows must have regression coverage on web and mobile clients.
+- Security/privacy gates must run in GitHub Actions and block promotion on failure.
+- Rollout plans must include monitoring, rollback criteria, and owner assignment.
+
+## Release Readiness
+- Confirm contract compatibility for web/mobile/backend versions.
+- Confirm observability dashboards and alerting exist for new critical paths.
+- Confirm changelog/operational notes for support and incident responders.
+
+## Prohibited
+- Shipping untested critical-path changes.
+- Enabling production-only behavior without feature flag or rollback strategy.
+- Deploying to production outside approved GitHub Actions workflows.

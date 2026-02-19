@@ -1,0 +1,27 @@
+# Web and Android Feature Parity Rules
+
+## Intent
+Ensure every user-facing feature implemented in web is also implemented in Android with equivalent core behavior and safety.
+
+## Scope
+- Applies to `packages/web` and `packages/mobile`.
+- iOS is explicitly out of scope for delivery and parity requirements.
+
+## Mandatory
+- Any new web user-facing feature must include an Android implementation plan before merge.
+- Any new Android user-facing feature must include a web implementation plan before merge.
+- Core functional parity is required for chat, commands/plugins, account settings, consent/privacy controls, and safety-critical flows.
+- Differences in UI layout are allowed when platform conventions require it, but behavior and outcomes must match.
+
+## Delivery Rules
+- PR descriptions must state parity status: `web+android complete` or `follow-up parity ticket linked`.
+- If parity is deferred, create a tracked parity ticket with owner, deadline, and risk note.
+- No production release may leave safety/privacy/compliance features platform-incomplete.
+
+## Testing Rules
+- Add parity acceptance criteria for critical paths in test plans.
+- Validate both web and Android for accessibility and trauma-informed constraints when introducing new user workflows.
+
+## Prohibited
+- Shipping web-only or Android-only experiences for critical user journeys without explicit approved exception.
+- Marking parity complete when only UI shell exists and core behavior is missing.

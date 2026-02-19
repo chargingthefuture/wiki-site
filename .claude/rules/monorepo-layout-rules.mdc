@@ -1,0 +1,27 @@
+# Monorepo Layout Rules
+
+## Intent
+Define the required repository structure for the rewrite monorepo under `ctf/`.
+
+## Required Root Shape
+- `ctf/package.json`
+- `ctf/pnpm-workspace.yaml`
+- `ctf/tsconfig.base.json`
+- `ctf/packages/shared`
+- `ctf/packages/web`
+- `ctf/packages/mobile`
+- `ctf/scripts`
+
+## Workspace Rules
+- Use `pnpm` as the default package manager for deterministic workspace installs.
+- Use TypeScript project references so shared types are consumed without ad-hoc duplication.
+- Keep all cross-package imports through package entry points, not deep relative paths.
+- Preserve clear ownership boundaries: each package has explicit maintainers and README contract.
+
+## Script Contract
+- Root scripts must include `lint`, `typecheck`, `test`, `build` orchestrating workspace packages.
+- `scripts/` contains operational helpers only; business logic remains inside packages.
+
+## Prohibited
+- Creating app code outside `ctf/packages/*`.
+- Mixing platform-specific code into root scripts.

@@ -1,0 +1,45 @@
+# Chat Plugin Permissions Schema Template
+
+## Intent
+Define explicit authorization, consent, and policy requirements per plugin command.
+
+## Required Fields
+- `pluginId`
+- `command`
+- `version`
+- `requiredRoles`: RBAC requirements.
+- `attributePolicies`: ABAC constraints.
+- `consentRequirements`: required consent scopes and fallback lawful basis.
+- `regionRestrictions`: geographic processing restrictions.
+- `highRiskFlags`: PHI/high-risk categories and extra controls.
+- `denyConditions`: explicit deny scenarios.
+
+## Enforcement Rules
+- Evaluate permissions server-side before command execution.
+- Deny execution when consent or legal basis prerequisites are absent.
+- Deny cross-tenant or cross-domain access unless explicitly allowed.
+
+## Example Shape
+```yaml
+pluginId: mood-insights
+command: summarize_thread_mood
+version: 1.0.0
+requiredRoles:
+  - member
+attributePolicies:
+  tenancy: same_workspace
+  channelVisibility: allowed
+consentRequirements:
+  scopes:
+    - mood_processing
+  fallbackLawfulBasis: none
+regionRestrictions:
+  allowedTransferMechanisms:
+    - scc
+highRiskFlags:
+  containsPHI: true
+  requiresAdditionalAudit: true
+denyConditions:
+  - missing_consent
+  - restricted_channel
+```

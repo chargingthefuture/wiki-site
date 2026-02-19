@@ -1,0 +1,87 @@
+name: Expo Android Release
+
+on:
+  push:
+    tags:
+      - "mobile-v*"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release-android-apk:
+    name: Build and Release Android APK
+    runs-on: ubuntu-latest
+    if: ${{ secrets.EXPO_TOKEN != '' }}
+    defaults:
+      run:
+        working-directory: ctf
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Install workspace dependencies
+        run: |
+          set -euo pipefail
+          if [ -f pnpm-lock.yaml ]; then
+            pnpm install --frozen-lockfile
+          else
+            pnpm install --no-frozen-lockfile
+          fi
+
+      - name: Validate mobile Expo config exists
+        run: |
+          set -euo pipefail
+          test -f packages/mobile/eas.json
+          test -f packages/mobile/app.config.ts
+
+      - name: Build Android APK with EAS
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+        run: |
+          set -euo pipefail
+          cd packages/mobile
+          pnpm dlx eas-cli@latest build --platform android --profile production --non-interactive --wait --json > ../../android-build.json
+
+      - name: Resolve APK URL
+        run: |
+          set -euo pipefail
+          cd ..
+          BUILD_URL=$(node -e "const fs=require('fs'); const j=JSON.parse(fs.readFileSync('android-build.json','utf8')); const arr=Array.isArray(j)?j:[j]; const candidate=arr.find(x=>x?.platform==='ANDROID'||x?.platform==='android')||arr[0]; const url=candidate?.artifacts?.buildUrl||candidate?.artifacts?.applicationArchiveUrl||''; if(!url){process.exit(1);} process.stdout.write(url);")
+          echo "BUILD_URL=$BUILD_URL" >> "$GITHUB_ENV"
+
+      - name: Download APK artifact
+        run: |
+          set -euo pipefail
+          cd ..
+          curl -fsSL "$BUILD_URL" -o ti-skills-economy-android.apk
+
+      - name: Upload APK artifact to workflow
+        uses: actions/upload-artifact@v4
+        with:
+          name: ti-skills-economy-android-apk
+          path: ti-skills-economy-android.apk
+
+      - name: Publish GitHub Release (tag builds)
+        if: startsWith(github.ref, 'refs/tags/mobile-v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ti-skills-economy-android.apk
+          generate_release_notes: true
+
+  release-skipped:
+    name: Release Skipped (Missing EXPO_TOKEN)
+    runs-on: ubuntu-latest
+    if: ${{ secrets.EXPO_TOKEN == '' }}
+    steps:
+      - name: Explain skip
+        run: echo "EXPO_TOKEN secret is not configured. Expo Android release build was skipped."

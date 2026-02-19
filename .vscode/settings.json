@@ -12,23 +12,23 @@
     "workbench.colorCustomizations": {
       // Ensure strong contrast for editor background and foreground
       "editor.background": "#000000",
-      "editor.foreground": "#FFFFFF",
       "editorLineNumber.foreground": "#8A8A8A",
       "editorLineNumber.activeForeground": "#FFFFFF",
       "editorCursor.foreground": "#FFFFFF",
       "editor.selectionBackground": "#264F78",
       "editor.linkedEditingBackground": "#003A6D33",
-      "editorIndentGuide.background": "#404040",
-      "editorIndentGuide.activeBackground": "#707070",
-      "sideBar.background": "#0B0B0B",
-      "sideBar.foreground": "#FFFFFF",
-      "activityBar.background": "#111111",
-      "statusBar.background": "#000000",
-      "statusBar.foreground": "#FFFFFF",
-      "titleBar.activeBackground": "#000000",
-      "titleBar.activeForeground": "#FFFFFF"
+     // Dark gray instead of pure black
+"editor.foreground": "#e0e0e0",        // Off-white instead of pure white
+"statusBar.background": "#1e1e1e",
+"statusBar.foreground": "#e0e0e0",
+"titleBar.activeBackground": "#1e1e1e",
+"titleBar.activeForeground": "#e0e0e0",
+"sideBar.background": "#1b1616",
+"sideBar.foreground": "#e0e0e0",
+"activityBar.background": "#121010",
+"terminal.integrated.background": "#1e1e1e",
+"terminal.integrated.foreground": "#d0d0d0"
     },
-  
     // High contrast editor token colors (improves syntax readability)
     "editor.tokenColorCustomizations": {
       "textMateRules": [

@@ -1,0 +1,71 @@
+name: Deploy Web to Vercel
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "ctf/packages/web/**"
+      - "ctf/packages/shared/**"
+      - "ctf/pnpm-workspace.yaml"
+      - "ctf/package.json"
+      - ".github/workflows/deploy-web-vercel.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-web-vercel-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  vercel-deploy:
+    name: Vercel Deploy
+    runs-on: ubuntu-latest
+    if: ${{ secrets.VERCEL_TOKEN != '' && secrets.VERCEL_ORG_ID != '' && secrets.VERCEL_PROJECT_ID != '' }}
+    defaults:
+      run:
+        working-directory: ctf
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Install dependencies
+        run: |
+          set -euo pipefail
+          if [ -f pnpm-lock.yaml ]; then
+            pnpm install --frozen-lockfile
+          else
+            pnpm install --no-frozen-lockfile
+          fi
+
+      - name: Pull Vercel environment
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: pnpm dlx vercel pull --yes --environment=production --token="$VERCEL_TOKEN"
+
+      - name: Build web app on Vercel
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: pnpm dlx vercel build --token="$VERCEL_TOKEN"
+
+      - name: Deploy prebuilt artifact to Vercel
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: pnpm dlx vercel deploy --prebuilt --token="$VERCEL_TOKEN"
+
+  vercel-deploy-skipped:
+    name: Vercel Deploy Skipped (Missing Secrets)
+    runs-on: ubuntu-latest
+    if: ${{ secrets.VERCEL_TOKEN == '' || secrets.VERCEL_ORG_ID == '' || secrets.VERCEL_PROJECT_ID == '' }}
+    steps:
+      - name: Explain skip
+        run: echo "Vercel secrets are not fully configured. Deployment skipped."

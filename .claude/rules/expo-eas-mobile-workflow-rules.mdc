@@ -1,0 +1,50 @@
+# Expo and EAS Mobile Workflow Rules
+
+## Intent
+Enable reliable React Native Android development without Android Studio or local emulator dependency.
+
+## Operating Assumption
+- Primary mobile workflow is cloud-first using Expo + EAS.
+- Local machine may be low-power and used mainly for code edits, commits, and basic checks.
+
+## Mandatory Platform Strategy
+- Use Expo-managed workflow by default for `packages/mobile`.
+- Use EAS Build for all installable Android builds (preview, staging, production).
+- Use EAS Update for JavaScript/asset-only updates.
+- Any native dependency/config change requires a new EAS build before validation.
+
+## Required Environments and Channels
+- Define build profiles at minimum: `preview`, `staging`, `production`.
+- Define update channels at minimum: `preview`, `staging`, `production`.
+- Map Git branches to update channels explicitly; avoid implicit branch/channel drift.
+
+## Release and Testing Flow
+- For pull requests affecting mobile code, generate a preview Android APK via EAS Build.
+- Test preview build on physical Android devices before merge for critical journeys.
+- Production release must generate signed APK and publish via GitHub Releases.
+- Keep AAB optional; APK remains mandatory for user distribution.
+
+## OTA Update Safety Rules
+- Use runtime version policy so incompatible native/runtime updates are blocked.
+- Use code signing for EAS updates.
+- Require rollback path for every production update.
+- Do not ship OTA updates that change behavior requiring new native permissions/config.
+
+## Configuration and Secrets
+- Keep Expo config in source control with environment-specific configuration.
+- Store signing credentials and secrets in secure managed stores (EAS/GitHub environments).
+- Never commit signing keys or raw secret values.
+
+## CI Integration Requirements
+- GitHub Actions must orchestrate EAS preview and release builds.
+- CI must annotate PRs with install links or artifact locations for preview builds.
+- CI must block release if preview/staging validation rules fail.
+
+## Performance and Reliability
+- Enable instrumentation early for startup time, navigation latency, JS thread load, and memory.
+- Set practical asset-size budgets and image optimization to reduce low-end device pressure.
+
+## Prohibited
+- Requiring Android Studio/local emulator as the only validation path.
+- Shipping mobile changes without a device-testable build artifact.
+- Using unmanaged ad-hoc OTA pushes without channel and rollback discipline.

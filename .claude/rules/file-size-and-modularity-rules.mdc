@@ -1,0 +1,25 @@
+# File Size and Modularity Rules
+
+## Intent
+Prevent oversized files, reduce refactor risk, and keep implementation units easy to reason about.
+
+## Mandatory Line Budget
+- Default maximum size for source files is 300 lines.
+- Applies to `*.ts`, `*.tsx`, `*.js`, `*.jsx` in `ctf/packages/**`.
+- If a file exceeds 300 lines, split it by responsibility before merge.
+
+## Allowed Exceptions
+- Generated files.
+- Framework/build outputs.
+- Native platform directories (`android`, `ios`) where generated/boilerplate content may be larger.
+- Temporary exceptions must be listed in `ctf/config/file-size-exceptions.txt`.
+- Exception usage must be documented in PR description with reason and split follow-up plan.
+
+## Splitting Guidance
+- Extract by domain responsibility, not arbitrary line counts.
+- Keep public interfaces stable while moving internals into focused modules.
+- Prefer composition over large monolithic utility or service files.
+
+## Prohibited
+- Adding new features to files already over line budget without first splitting.
+- Creating god files that mix UI, data access, and policy logic.

@@ -1,0 +1,76 @@
+# Stream Maker Tier Rules
+
+## Intent
+Design Stream usage for current Maker-tier hard limits while preserving good UX and upgrade-ready modularity.
+
+## Hard Limits (Current Plan)
+- Chat: 2,000 MAU per month.
+- Activity Feeds: 125,000 API calls per month.
+- Video: 333,000 participant minutes per month.
+- AI Moderation: $100 monthly credits.
+
+These are hard limits and must be treated as non-burstable ceilings in feature design.
+
+## Architecture Rules
+- All Stream interactions must go through shared wrappers/adapters in `packages/shared`.
+- Never call Stream SDKs directly from feature UI modules.
+- Centralize usage metering hooks (MAU, API calls, participant minutes, moderation usage) in shared integration layer.
+- Keep Stream capabilities behind feature flags and policy switches for progressive enablement.
+- Apply Stream React Native performance guidance defaults for interval tuning and heavy-feature controls.
+
+## Budgeting and Threshold Rules
+- Define monthly budgets per capability and reserve headroom for critical chat paths.
+- Implement threshold states for each meter:
+  - Green: 0–70% budget used.
+  - Yellow: 70–85% budget used.
+  - Orange: 85–95% budget used.
+  - Red: 95–100% budget used.
+- At Yellow and above, reduce non-essential traffic (polling frequency, background refresh, non-critical feed enrichment).
+- At Orange and above, disable or queue non-critical plugin actions that consume Stream quotas.
+- At Red, preserve baseline chat reliability first; non-core features must degrade gracefully.
+
+## UX Degradation Rules
+- Always prioritize send/receive/read chat flows over optional enhancements.
+- Show clear user messaging when optional features are temporarily limited.
+- Prefer temporary deferral/queueing over hard failure where possible.
+- Do not expose internal quota details that could reveal security-sensitive operational posture.
+
+## Feature Design Constraints
+- New features must include estimated monthly Stream cost impact before implementation.
+- Video features must include minute-budget controls (duration caps, participant caps, quality fallback policy).
+- Activity Feed usage must be batched and deduplicated; avoid noisy event fan-out.
+- AI moderation usage must apply scoped policies and avoid duplicate evaluations.
+- For high media/voice/video usage paths, plan native or cloud offloading from initial design.
+
+## Upgrade-Ready Modularity Rules
+- Use a provider interface so Stream limits and behavior can be adjusted by config, not rewrites.
+- Keep quota thresholds and kill switches in environment/config control, not hard-coded.
+- Preserve compatibility for future paid-tier expansion by avoiding assumptions tied to Maker limits.
+
+## Observability and Alerting
+- Emit usage metrics and alerts at threshold transitions (70/85/95/100).
+- Track feature-level contribution to quota consumption.
+- Keep monthly usage dashboards for product and engineering planning.
+- Add early instrumentation for end-to-end latency, JS thread load, and memory usage on mobile chat surfaces.
+
+## CI and Release Gates
+- Any Stream-consuming feature must include:
+  - quota impact notes,
+  - fallback UX behavior,
+  - feature flag/kill switch,
+  - integration tests for degraded-mode behavior.
+- Block merge when Stream fallback behavior is not tested.
+- For pull requests modifying Stream-related code, require an updated markdown note in `ctf/docs/quota-impact/`.
+- Quota impact notes must include these sections:
+  - `## Summary`
+  - `## Stream Surfaces Affected`
+  - `## Estimated Monthly Impact`
+  - `## Budget Threshold Risk`
+  - `## Fallback and Degradation Plan`
+  - `## Observability`
+  - `## Validation`
+
+## Prohibited
+- Launching Stream-dependent features without budget allocation.
+- Allowing optional plugin automations to consume quotas without rate limits.
+- Coupling critical authentication or authorization flows to non-critical Stream features.

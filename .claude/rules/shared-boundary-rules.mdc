@@ -1,0 +1,24 @@
+# Shared Boundary Rules
+
+## Intent
+Keep `packages/shared` as platform-agnostic domain logic consumed by web and mobile.
+
+## Shared Package Must Include
+- API clients/wrappers (GetStream wrappers, HTTP client abstractions).
+- Domain models, DTOs, validation, serialization, constants, error codes.
+- Platform-agnostic state/domain logic.
+- Reusable hooks that do not depend on DOM or React Native APIs.
+
+## Boundary Rules
+- No `window`, `document`, or React Native module imports in `packages/shared`.
+- Put side effects behind adapter interfaces (storage, notifications, device capabilities).
+- Export public API only from package entry points (`src/index.ts` style boundary).
+- Shared package must not import from web or mobile packages.
+
+## Testing Rules
+- Shared logic requires unit tests.
+- Adapter contracts require integration tests in consuming packages.
+
+## Prohibited
+- UI components in `packages/shared`.
+- Leaking platform-specific dependencies into shared transitive graph.

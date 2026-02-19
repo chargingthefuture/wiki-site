@@ -1,0 +1,21 @@
+{
+  "name": "ti-skills-economy",
+  "private": true,
+  "packageManager": "pnpm@9.12.0",
+  "scripts": {
+    "build": "pnpm -r --if-present run build",
+    "lint": "pnpm -r --if-present run lint",
+    "typecheck": "pnpm -r --if-present run typecheck",
+    "test": "pnpm -r --if-present run test",
+    "format:check": "bash ./scripts/check-eof-format.sh",
+    "filesize:check": "bash ./scripts/check-file-size-budget.sh",
+    "dev:web": "pnpm --filter @ctf/web run dev",
+    "dev:mobile": "pnpm --filter @ctf/mobile run start"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "eslint": "^9.20.1",
+    "prettier": "^3.5.0",
+    "typescript": "^5.7.3"
+  }
+}

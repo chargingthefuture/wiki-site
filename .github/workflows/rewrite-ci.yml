@@ -1,0 +1,327 @@
+name: Rewrite CI
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "ctf/**"
+      - ".claude/rules/**"
+      - ".github/workflows/**"
+  push:
+    branches: [main]
+    paths:
+      - "ctf/**"
+      - ".claude/rules/**"
+      - ".github/workflows/**"
+
+concurrency:
+  group: rewrite-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  rules-integrity:
+    name: Rules Integrity
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate required rule files
+        run: |
+          set -euo pipefail
+          required=(
+            ".claude/rules/index.mdc"
+            ".claude/rules/product-context-and-experience-rules.mdc"
+            ".claude/rules/compliance-rules-index.mdc"
+            ".claude/rules/monorepo-layout-rules.mdc"
+            ".claude/rules/shared-boundary-rules.mdc"
+            ".claude/rules/web-nextjs-structure-rules.mdc"
+            ".claude/rules/mobile-react-native-android-rules.mdc"
+            ".claude/rules/web-android-feature-parity-rules.mdc"
+            ".claude/rules/expo-eas-mobile-workflow-rules.mdc"
+            ".claude/rules/platform-architecture-rules.mdc"
+            ".claude/rules/platform-coding-rules.mdc"
+            ".claude/rules/file-size-and-modularity-rules.mdc"
+            ".claude/rules/agent-readability-and-cost-rules.mdc"
+            ".claude/rules/platform-testing-and-release-rules.mdc"
+            ".claude/rules/github-actions-ci-rules.mdc"
+            ".claude/rules/integration-stack-rules.mdc"
+            ".claude/rules/observability-provider-abstraction-rules.mdc"
+            ".claude/rules/sentry-implementation-rules.mdc"
+            ".claude/rules/stream-maker-tier-rules.mdc"
+            ".claude/rules/deployment-topology-rules.mdc"
+            ".claude/rules/chat-plugin-contract-templates.mdc"
+            ".claude/rules/chat-plugin-command-schema-template.mdc"
+            ".claude/rules/chat-plugin-permissions-schema-template.mdc"
+            ".claude/rules/chat-plugin-audit-schema-template.mdc"
+          )
+
+          for file in "${required[@]}"; do
+            if [ ! -f "$file" ]; then
+              echo "Missing required rules file: $file"
+              exit 1
+            fi
+          done
+
+  plugin-contract-templates:
+    name: Plugin Contract Templates
+    runs-on: ubuntu-latest
+    needs: rules-integrity
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate template required keys
+        run: |
+          set -euo pipefail
+
+          grep -q "pluginId" .claude/rules/chat-plugin-command-schema-template.mdc
+          grep -q "inputSchema" .claude/rules/chat-plugin-command-schema-template.mdc
+          grep -q "requiredRoles" .claude/rules/chat-plugin-permissions-schema-template.mdc
+          grep -q "consentRequirements" .claude/rules/chat-plugin-permissions-schema-template.mdc
+          grep -q "eventId" .claude/rules/chat-plugin-audit-schema-template.mdc
+          grep -q "policyDecision" .claude/rules/chat-plugin-audit-schema-template.mdc
+
+  formatting-eof:
+    name: Formatting EOF
+    runs-on: ubuntu-latest
+    needs: rules-integrity
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate single trailing newline
+        run: |
+          set -euo pipefail
+
+          failed=0
+          while IFS= read -r -d '' file; do
+            python3 - <<'PY' "$file" || failed=1
+import pathlib
+import re
+import sys
+
+path = pathlib.Path(sys.argv[1])
+data = path.read_bytes()
+
+if not data:
+    sys.exit(0)
+
+if not data.endswith(b"\n"):
+    print(f"Missing final newline: {path}")
+    sys.exit(1)
+
+if re.search(br"\n\n+$", data):
+    print(f"Multiple trailing blank lines at EOF: {path}")
+    sys.exit(1)
+
+sys.exit(0)
+PY
+          done < <(find ctf -type f \( -name "*.ts" -o -name "*.tsx" -o -name "*.js" -o -name "*.jsx" -o -name "*.mjs" -o -name "*.cjs" -o -name "*.json" -o -name "*.css" -o -name "*.yml" -o -name "*.yaml" \) -print0)
+
+          if [ "$failed" -ne 0 ]; then
+            exit 1
+          fi
+
+  file-size-budget:
+    name: File Size Budget
+    runs-on: ubuntu-latest
+    needs: rules-integrity
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Enforce 300-line source file budget
+        run: |
+          set -euo pipefail
+          bash ctf/scripts/check-file-size-budget.sh
+
+  stream-quota-policy:
+    name: Stream Quota Policy
+    runs-on: ubuntu-latest
+    needs: rules-integrity
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate Stream Maker tier policy coverage
+        run: |
+          set -euo pipefail
+
+          file=".claude/rules/stream-maker-tier-rules.mdc"
+
+          test -f "$file"
+          grep -q "Chat: 2,000 MAU per month" "$file"
+          grep -q "Activity Feeds: 125,000 API calls per month" "$file"
+          grep -q "Video: 333,000 participant minutes per month" "$file"
+          grep -q "AI Moderation: \$100 monthly credits" "$file"
+          grep -q "Green: 0–70% budget used" "$file"
+          grep -q "Yellow: 70–85% budget used" "$file"
+          grep -q "Orange: 85–95% budget used" "$file"
+          grep -q "Red: 95–100% budget used" "$file"
+          grep -q "fallback UX behavior" "$file"
+          grep -q "feature flag/kill switch" "$file"
+
+  stream-quota-impact-note:
+    name: Stream Quota Impact Note
+    runs-on: ubuntu-latest
+    needs: rules-integrity
+    if: github.event_name == 'pull_request'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Require quota-impact note for Stream-related changes
+        run: |
+          set -euo pipefail
+
+          base_sha="${{ github.event.pull_request.base.sha }}"
+          head_sha="${{ github.event.pull_request.head.sha }}"
+
+          changed_files=$(git diff --name-only "$base_sha" "$head_sha")
+
+          if echo "$changed_files" | grep -Eiq '^ctf/.*(stream|getstream)'; then
+            echo "Detected Stream-related code changes in this PR."
+
+            quota_notes=$(echo "$changed_files" | grep -E '^ctf/docs/quota-impact/.+\.md$' | grep -Ev '^ctf/docs/quota-impact/TEMPLATE\.md$' || true)
+
+            if [ -z "$quota_notes" ]; then
+              echo "Missing required quota impact note."
+              echo "Add or update a file under ctf/docs/quota-impact/, e.g.:"
+              echo "ctf/docs/quota-impact/2026-02-19-stream-feature-name.md"
+              exit 1
+            fi
+
+            required_headings=(
+              "## Summary"
+              "## Stream Surfaces Affected"
+              "## Estimated Monthly Impact"
+              "## Budget Threshold Risk"
+              "## Fallback and Degradation Plan"
+              "## Observability"
+              "## Validation"
+            )
+
+            while IFS= read -r note_file; do
+              [ -z "$note_file" ] && continue
+              echo "Validating quota note headings in $note_file"
+              for heading in "${required_headings[@]}"; do
+                if ! grep -Fq "$heading" "$note_file"; then
+                  echo "Missing required heading '$heading' in $note_file"
+                  exit 1
+                fi
+              done
+            done <<< "$quota_notes"
+          else
+            echo "No Stream-related code changes detected; quota impact note not required."
+          fi
+
+  pr-parity-status:
+    name: PR Parity Status
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    steps:
+      - name: Validate parity status in PR description
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = context.payload.pull_request.body || '';
+            const hasComplete = /Parity Status:\s*web\+android complete/i.test(body);
+            const hasTicket = /Parity Ticket:\s*https?:\/\//i.test(body) || /Parity Ticket:\s*#\d+/i.test(body);
+
+            if (!hasComplete && !hasTicket) {
+              core.setFailed(
+                'PR description must include either "Parity Status: web+android complete" or "Parity Ticket: <link-or-issue>".'
+              );
+            }
+
+  rewrite-quality:
+    name: Rewrite Quality Gates
+    runs-on: ubuntu-latest
+    needs:
+      - plugin-contract-templates
+      - formatting-eof
+      - file-size-budget
+      - stream-quota-policy
+      - stream-quota-impact-note
+      - pr-parity-status
+    if: |
+      always() &&
+      needs.plugin-contract-templates.result == 'success' &&
+      needs.formatting-eof.result == 'success' &&
+      needs.file-size-budget.result == 'success' &&
+      needs.stream-quota-policy.result == 'success' &&
+      (needs.stream-quota-impact-note.result == 'success' || needs.stream-quota-impact-note.result == 'skipped') &&
+      (needs.pr-parity-status.result == 'success' || needs.pr-parity-status.result == 'skipped')
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Detect package manager
+        id: pkg
+        run: |
+          set -euo pipefail
+          if [ ! -f ctf/package.json ]; then
+            echo "manager=none" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          if [ -f ctf/pnpm-lock.yaml ]; then
+            echo "manager=pnpm" >> "$GITHUB_OUTPUT"
+          elif [ -f ctf/yarn.lock ]; then
+            echo "manager=yarn" >> "$GITHUB_OUTPUT"
+          elif [ -f ctf/package-lock.json ]; then
+            echo "manager=npm" >> "$GITHUB_OUTPUT"
+          else
+            echo "manager=none" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Install dependencies (pnpm)
+        if: steps.pkg.outputs.manager == 'pnpm'
+        run: pnpm install --frozen-lockfile --dir ctf
+
+      - name: Install dependencies (yarn)
+        if: steps.pkg.outputs.manager == 'yarn'
+        run: yarn --cwd ctf install --frozen-lockfile
+
+      - name: Install dependencies (npm)
+        if: steps.pkg.outputs.manager == 'npm'
+        run: npm ci --prefix ctf
+
+      - name: Lint, type-check, test when scripts exist
+        if: steps.pkg.outputs.manager != 'none'
+        run: |
+          set -euo pipefail
+
+          run_script() {
+            local script_name="$1"
+            local exists
+            exists=$(node -e "const p=require('./ctf/package.json'); process.stdout.write(p.scripts && p.scripts['${script_name}'] ? 'yes' : 'no')")
+            if [ "$exists" = "yes" ]; then
+              case "${{ steps.pkg.outputs.manager }}" in
+                pnpm) pnpm --dir ctf run "$script_name" ;;
+                yarn) yarn --cwd ctf "$script_name" ;;
+                npm) npm --prefix ctf run "$script_name" ;;
+              esac
+            else
+              echo "Skipping '$script_name' (not defined in ctf/package.json)"
+            fi
+          }
+
+          run_script lint
+          run_script typecheck
+          run_script test
+
+      - name: No rewrite package yet
+        if: steps.pkg.outputs.manager == 'none'
+        run: echo "No ctf package manager lockfile/package.json detected yet; quality gates skipped until scaffold exists."

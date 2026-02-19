@@ -1,0 +1,34 @@
+# Mobile React Native Android Rules
+
+## Intent
+Standardize `packages/mobile` for React Native with Android production focus.
+
+## Workflow Alignment
+- Follow cloud-first build/update constraints from `expo-eas-mobile-workflow-rules.mdc`.
+
+## Structure Rules
+- Keep mobile-only UI in `packages/mobile/src/components` and `packages/mobile/src/screens`.
+- Keep platform service wiring in `packages/mobile/src/services`.
+- Keep native bridges/modules in `packages/mobile/src/native`.
+- iOS project may exist for parity, but production release target is Android APK/AAB only.
+- Keep architecture modular so high-load paths can be replaced with native modules without large rewrites.
+
+## Performance Rules
+- Use optimized list rendering patterns for chat timelines (`FlatList` tuning or equivalent virtualization strategy).
+- Keep message row components lightweight and avoid expensive re-renders in long conversation threads.
+- Apply throttling/debouncing and interval controls for realtime updates to protect JS thread performance.
+
+## Security Rules
+- Use secure OS-backed storage for tokens and sensitive session material.
+- Do not emit PHI/PII to device logs, analytics payloads, or crash breadcrumbs.
+- Use TLS pinning strategy and hardened networking in production builds.
+
+## Release Rules
+- GitHub Actions must produce signed Android release artifacts.
+- Publish signed Android APK through GitHub Releases with changelog and build metadata.
+- AAB is optional and may be published as a companion artifact, but APK is mandatory.
+- Block Android release if lint/type/test/security/compliance gates fail.
+
+## Prohibited
+- Direct use of shared secrets in client source.
+- Shipping debug logging in production flavor.

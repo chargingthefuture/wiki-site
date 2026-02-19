@@ -1,0 +1,41 @@
+# Chat Plugin Command Schema Template
+
+## Intent
+Standardize command definitions so plugin execution is predictable, safe, and policy-enforceable.
+
+## Required Fields
+- `pluginId`: stable unique plugin identifier.
+- `command`: stable command name.
+- `version`: semantic contract version.
+- `description`: concise user-facing purpose.
+- `inputSchema`: typed input payload schema.
+- `outputSchema`: typed response payload schema.
+- `dataAccess`: declared data classes accessed.
+- `purpose`: purpose code aligned to policy metadata.
+- `retentionClass`: retention policy class for generated artifacts.
+- `idempotency`: idempotent behavior declaration.
+
+## Validation Rules
+- Reject unknown fields and invalid payload types.
+- Enforce bounded input sizes and strict parsing.
+- Disallow dynamic code execution paths.
+
+## Example Shape
+```yaml
+pluginId: mood-insights
+command: summarize_thread_mood
+version: 1.0.0
+description: Summarize emotional trend of a thread
+inputSchema:
+  threadId: string
+  windowDays: number
+outputSchema:
+  summary: string
+  confidence: number
+dataAccess:
+  - message_content
+  - user_reaction_metadata
+purpose: conversation_support
+retentionClass: derived_short_lived
+idempotency: true
+```

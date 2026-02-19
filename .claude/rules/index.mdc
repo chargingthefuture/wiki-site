@@ -1,0 +1,45 @@
+# Product Rules Index
+
+## Scope
+- Applies to the rewrite product under `ctf/`.
+- Legacy folders are reference-only during migration.
+- Governs architecture, coding standards, delivery quality, and compliance.
+
+## Product Rule Modules
+- [product-context-and-experience-rules.mdc](product-context-and-experience-rules.mdc)
+- [monorepo-layout-rules.mdc](monorepo-layout-rules.mdc)
+- [shared-boundary-rules.mdc](shared-boundary-rules.mdc)
+- [web-nextjs-structure-rules.mdc](web-nextjs-structure-rules.mdc)
+- [mobile-react-native-android-rules.mdc](mobile-react-native-android-rules.mdc)
+- [web-android-feature-parity-rules.mdc](web-android-feature-parity-rules.mdc)
+- [expo-eas-mobile-workflow-rules.mdc](expo-eas-mobile-workflow-rules.mdc)
+- [integration-stack-rules.mdc](integration-stack-rules.mdc)
+- [observability-provider-abstraction-rules.mdc](observability-provider-abstraction-rules.mdc)
+- [sentry-implementation-rules.mdc](sentry-implementation-rules.mdc)
+- [stream-maker-tier-rules.mdc](stream-maker-tier-rules.mdc)
+- [deployment-topology-rules.mdc](deployment-topology-rules.mdc)
+- [platform-architecture-rules.mdc](platform-architecture-rules.mdc)
+- [platform-coding-rules.mdc](platform-coding-rules.mdc)
+- [file-size-and-modularity-rules.mdc](file-size-and-modularity-rules.mdc)
+- [agent-readability-and-cost-rules.mdc](agent-readability-and-cost-rules.mdc)
+- [platform-testing-and-release-rules.mdc](platform-testing-and-release-rules.mdc)
+- [github-actions-ci-rules.mdc](github-actions-ci-rules.mdc)
+- [chat-plugin-contract-templates.mdc](chat-plugin-contract-templates.mdc)
+- [compliance-rules-index.mdc](compliance-rules-index.mdc)
+
+## Precedence
+1. Product safety/compliance constraints
+2. Monorepo and boundary rules
+3. Platform architecture rules
+4. Platform coding rules
+5. Testing and release rules
+6. GitHub Actions CI rules
+7. Service/plugin-level feature rules
+
+If two rules conflict, choose the stricter rule and document the decision.
+
+## Platform Contract
+- Build chat-first user flows as the baseline UX.
+- Implement services as plugins that execute through policy-controlled command/action interfaces.
+- Keep web and mobile behavior parity through shared contracts and shared compliance controls.
+- Block release when architecture, quality, or compliance rules are unmet.

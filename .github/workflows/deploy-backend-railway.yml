@@ -1,0 +1,71 @@
+name: Deploy Backend to Railway
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "ctf/packages/api/**"
+      - "ctf/packages/shared/**"
+      - "ctf/pnpm-workspace.yaml"
+      - "ctf/package.json"
+      - ".github/workflows/deploy-backend-railway.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-backend-railway-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  railway-deploy:
+    name: Railway Deploy
+    runs-on: ubuntu-latest
+    if: ${{ secrets.RAILWAY_TOKEN != '' }}
+    defaults:
+      run:
+        working-directory: ctf
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Install dependencies
+        run: |
+          set -euo pipefail
+          if [ -f pnpm-lock.yaml ]; then
+            pnpm install --frozen-lockfile
+          else
+            pnpm install --no-frozen-lockfile
+          fi
+
+      - name: Install Railway CLI
+        run: pnpm dlx @railway/cli@latest --version
+
+      - name: Deploy to Railway
+        env:
+          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [ -d packages/api ]; then
+            cd packages/api
+            pnpm dlx @railway/cli@latest up --ci
+          else
+            echo "packages/api does not exist yet. Skipping Railway deploy."
+          fi
+
+  railway-deploy-skipped:
+    name: Railway Deploy Skipped (Missing Token)
+    runs-on: ubuntu-latest
+    if: ${{ secrets.RAILWAY_TOKEN == '' }}
+    steps:
+      - name: Explain skip
+        run: echo "RAILWAY_TOKEN secret is not configured. Deployment skipped."
