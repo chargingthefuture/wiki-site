@@ -7,6 +7,7 @@ Apply Sentry correctly for the rewrite while keeping provider abstraction intact
 - Applies when `OBSERVABILITY_PROVIDER` resolves to `sentry`.
 - Web runtime uses `@sentry/nextjs`.
 - Mobile runtime uses `@sentry/react-native`.
+- Web and mobile should use separate Sentry projects/DSNs for signal isolation and quota control.
 
 ## Initialization Rules
 - Initialize Sentry once per runtime boundary.
@@ -47,6 +48,7 @@ Apply Sentry correctly for the rewrite while keeping provider abstraction intact
 - `sendDefaultPii` must remain `false` unless explicitly approved.
 - Never hardcode DSNs in source files.
 - DSNs must come from rewrite environment variables only.
+- Do not share a single DSN across web and mobile in production.
 - All span attributes and logs must comply with HIPAA/GDPR and trauma-informed safety constraints.
 
 ## Provider-Abstraction Compatibility

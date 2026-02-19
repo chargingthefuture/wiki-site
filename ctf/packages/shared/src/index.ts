@@ -2,6 +2,7 @@ export * from "./types";
 export * from "./models/user";
 export * from "./models/message";
 export * from "./models/channel";
+export * from "./models/miniAppProfile";
 export * from "./api/httpClient";
 export * from "./api/streamClient";
 export * from "./hooks/useAuth";

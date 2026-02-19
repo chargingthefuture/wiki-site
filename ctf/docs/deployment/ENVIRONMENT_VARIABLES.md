@@ -50,4 +50,5 @@ This rewrite must use its own environment configuration and observability DSNs, 
 
 - Do not reuse legacy `VITE_*` variables in rewrite packages.
 - Keep rewrite DSNs and API keys isolated from legacy projects.
+- Use separate Sentry projects/DSNs for web and mobile to avoid mixed noise and preserve free-tier quotas.
 - Never commit raw secrets.

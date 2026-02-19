@@ -1,4 +1,5 @@
 import { defaultMakerTierBudget } from "@ctf/shared";
+import { AppShell } from "../components/layout/AppShell";
 import { webErrorReporter, webObservabilityProvider } from "../lib/observability";
 
 webErrorReporter.capture({
@@ -12,11 +13,9 @@ webErrorReporter.capture({
 
 export default function HomePage() {
   return (
-    <main>
-      <h1>TI Skills Economy</h1>
-      <p>Chat-first survivor support platform scaffold.</p>
-      <p>Stream Chat MAU budget: {defaultMakerTierBudget.monthlyChatMauLimit}</p>
-      <p>Observability provider: {webObservabilityProvider}</p>
-    </main>
+    <AppShell
+      streamChatMauLimit={defaultMakerTierBudget.monthlyChatMauLimit}
+      observabilityProvider={webObservabilityProvider}
+    />
   );
 }
