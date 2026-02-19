@@ -1,0 +1,41 @@
+# Single Profile and Mini-App Extension Rules
+
+## Intent
+Use one canonical user profile across the product and model mini-app data as scoped extensions/domains to prevent profile conflicts and schema drift.
+
+## Mandatory Architecture
+- Maintain one canonical profile per user (`user_profile` equivalent in implementation).
+- Shared identity and cross-app settings must live in canonical profile only.
+- Mini-app-specific fields must not create separate full profile tables per app.
+- Mini-app-specific fields must be represented as extension data linked to `user_id`.
+
+## Data Modeling Pattern
+- Canonical profile: identity/preferences/safety controls reused by all mini-apps.
+- Extension layer: per-mini-app extension table or scoped JSON field for optional app data.
+- Domain records: transactional entities (rides, stays, bookings, messages, payments, etc.) in dedicated domain tables keyed by `user_id`.
+- Deletion events: centralized deletion audit/event table with `scope` and `service_name`.
+
+## Service Deletion Behavior (Mini-App Only)
+- Service-scoped deletion must remove or anonymize:
+  - mini-app extension fields,
+  - mini-app domain records that are deletable by policy.
+- Canonical profile and other mini-app data must remain intact.
+- Minimal compliance evidence of deletion request may be retained (request id, scope, timestamp, actor/system source).
+- Re-enabling a mini-app after service deletion must recreate extension state from defaults.
+
+## Full Account Deletion Behavior
+- Full account deletion must execute deletion workflows across all mini-app extensions and domain records according to compliance retention requirements.
+- Full account deletion must be distinguishable from service-scoped deletion in audit records.
+
+## Required Delivery for Any New Mini-App
+- Include a completed mini-app profile/deletion contract from:
+  - `ctf/docs/templates/MINI_APP_PROFILE_AND_DELETION_CONTRACT_TEMPLATE.md`
+- Include migration SQL for any schema changes under `ctf/migrations/`.
+- Include explicit PR section:
+  - `Profile Extension Contract: <path or PR section>`
+  - `Deletion Scope: service-only and full-account behavior`
+
+## Prohibited
+- Adding a new standalone profile table that duplicates canonical identity fields.
+- Deleting canonical profile fields during service-scoped mini-app deletion.
+- Shipping new mini-app schema without clear deletion scope documentation.

@@ -17,8 +17,10 @@ This opens a pre-filled template whenever you run `git commit` without `-m`.
 
 1. Make small focused commits (message can be short but formatted).
 2. Run quick local checks before commit:
-  - `pnpm run format:check`
-  - `pnpm run filesize:check`
+
+- `pnpm run format:check`
+- `pnpm run filesize:check`
+
 2. Open a pull request with semantic title, for example:
    - `feat(chat): add thread summary command`
    - `fix(mobile): handle offline reconnect`

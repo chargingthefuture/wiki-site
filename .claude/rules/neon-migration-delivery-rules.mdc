@@ -1,0 +1,29 @@
+# Neon Migration Delivery Rules
+
+## Intent
+Ensure every database schema/data change in the rewrite includes executable SQL migration steps for Neon.
+
+## Mandatory
+- Any change that affects database schema, constraints, indexes, or data transformations must include a SQL migration.
+- Migration SQL must be ready to paste into Neon SQL console without extra editing.
+- Migration artifacts must be checked in under `ctf/migrations/`.
+- Migration files must use sortable timestamped names, for example `YYYY-MM-DD-short-description.sql`.
+
+## Delivery Requirements
+- PR description must include a `Migration` section when DB changes are present.
+- `Migration` section must include:
+  - file path under `ctf/migrations/`,
+  - purpose summary,
+  - rollback strategy (or explicit note when not safely reversible).
+- If no DB change is made, PR should state `Migration: none`.
+
+## SQL Safety Rules
+- Prefer additive changes first (new columns/tables/indexes), then backfill, then enforcement.
+- Avoid destructive operations without explicit backup/rollback notes.
+- Include transactional boundaries where supported.
+- Use idempotent guards where practical (`IF EXISTS`, `IF NOT EXISTS`).
+
+## Prohibited
+- Shipping DB-impacting code without migration SQL.
+- Requiring manual guesswork to execute migration steps.
+- Bundling unrelated schema changes in one migration without rationale.

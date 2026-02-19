@@ -41,6 +41,7 @@ jobs:
             ".claude/rules/expo-eas-mobile-workflow-rules.mdc"
             ".claude/rules/platform-architecture-rules.mdc"
             ".claude/rules/platform-coding-rules.mdc"
+            ".claude/rules/neon-migration-delivery-rules.mdc"
             ".claude/rules/file-size-and-modularity-rules.mdc"
             ".claude/rules/agent-readability-and-cost-rules.mdc"
             ".claude/rules/platform-testing-and-release-rules.mdc"

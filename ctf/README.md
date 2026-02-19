@@ -1,6 +1,7 @@
 # TI Skills Economy Monorepo (ctf)
 
 This folder contains the rewrite monorepo scaffold for:
+
 - Next.js web application (`packages/web`)
 - React Native mobile application (`packages/mobile`)
 - Shared platform-agnostic logic (`packages/shared`)

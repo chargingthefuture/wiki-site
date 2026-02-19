@@ -46,6 +46,34 @@ body {
   font-size: 0.9rem;
 }
 
+.left-nav-user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #d9d9dc;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.left-nav-user p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.left-nav-user-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  object-fit: cover;
+}
+
+.left-nav-user-avatar.placeholder {
+  background: #ededf0;
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+}
+
 .left-nav-list {
   margin: 0;
   padding: 0;
@@ -106,6 +134,12 @@ body {
   color: #4b4b55;
 }
 
+.workspace-status {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #2f4f2f;
+}
+
 .join-call-button {
   border: 1px solid #1f1f24;
   background: #1f1f24;
@@ -156,6 +190,31 @@ body {
   font-size: 0.85rem;
 }
 
+.workspace-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.danger-secondary,
+.danger-primary {
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 0.85rem;
+}
+
+.danger-secondary {
+  background: #ffffff;
+  border: 1px solid #8c8c94;
+}
+
+.danger-primary {
+  background: #3d1212;
+  color: #ffffff;
+  border: 1px solid #3d1212;
+}
+
 .chat-panel {
   display: flex;
   flex-direction: column;
@@ -172,6 +231,12 @@ body {
   margin: 4px 0 0;
   color: #4b4b55;
   font-size: 0.9rem;
+}
+
+.chat-status {
+  margin: 10px 0 0;
+  font-size: 0.9rem;
+  color: #6b2e2e;
 }
 
 .chat-message-list {

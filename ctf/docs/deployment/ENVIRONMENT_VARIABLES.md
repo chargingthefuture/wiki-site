@@ -21,6 +21,7 @@ This rewrite must use its own environment configuration and observability DSNs, 
 
 - `NEXT_PUBLIC_APP_URL`
 - `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`
+- `NEXT_PUBLIC_STREAM_API_KEY`
 - `NEXT_PUBLIC_SENTRY_DSN` (rewrite-specific DSN)
 - `NEXT_PUBLIC_SENTRY_TRACES_SAMPLE_RATE` (optional, default `0.02`)
 - `NEXT_PUBLIC_SENTRY_ROUTE_ALLOWLIST_MODE` (optional, `true`/`false`, default `false`)
