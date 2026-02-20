@@ -5,9 +5,19 @@ module.exports = {
     es2022: true,
     node: true,
   },
+  parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  extends: ["eslint:recommended"],
+  plugins: ["@typescript-eslint"],
+  extends: ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  overrides: [
+    {
+      files: ["**/*.ts", "**/*.tsx"],
+      env: {
+        browser: true,
+      },
+    },
+  ],
 };

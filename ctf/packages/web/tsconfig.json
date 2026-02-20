@@ -8,7 +8,13 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "noEmit": true
   },
   "include": [
     "next-env.d.ts",
@@ -16,5 +22,7 @@
     "src/**/*.tsx",
     ".next/types/**/*.ts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }

@@ -11,6 +11,13 @@ pnpm-lock.yaml
 # Platform build output
 platform/dist/
 
+# ctf rewrite build artifacts and local env
+ctf/packages/web/.next/
+ctf/packages/web/.env.local
+ctf/packages/mobile/.expo/
+ctf/packages/mobile/.env
+ctf/packages/mobile/.env.local
+
 # OS / editor junk
 .DS_Store
 *.log

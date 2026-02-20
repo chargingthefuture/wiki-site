@@ -24,7 +24,7 @@ export function SocialAudioWorkspace(props: SocialAudioWorkspaceProps) {
         if (mounted) {
           setRoomState(room);
         }
-      } catch (error) {
+      } catch {
         if (mounted) {
           setJoinStatus("Unable to load room state.");
         }
