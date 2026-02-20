@@ -1,0 +1,49 @@
+# Mini-App Audit Schema Template
+
+## Intent
+Standardize audit records for mini-app command execution and policy decisions.
+
+## Required Fields
+- `eventId`: unique immutable identifier.
+- `timestamp`: RFC3339 timestamp.
+- `actorId`: user or service principal.
+- `miniAppId`
+- `command`
+- `commandVersion`
+- `purpose`
+- `policyDecision`: allow/deny plus reason code.
+- `dataClassesAccessed`: categories only, no raw values.
+- `targetContext`: workspace/channel/thread identifiers.
+- `requestId` and `traceId` for correlation.
+- `result`: success/failure plus error category.
+
+## Integrity Rules
+- Audit events must be append-only.
+- Sensitive payload values must be redacted or tokenized.
+- Denied executions must be logged with reason.
+
+## Example Shape
+```yaml
+eventId: 6f2f5ec1-8d3a-4bd6-a566-4f3b9180358f
+timestamp: 2026-02-19T12:04:26Z
+actorId: user_123
+miniAppId: chyme
+command: summarize_thread_mood
+commandVersion: 1.0.0
+purpose: conversation_support
+policyDecision:
+  status: allow
+  reason: consent_valid
+dataClassesAccessed:
+  - message_content
+  - reaction_metadata
+targetContext:
+  workspaceId: ws_001
+  channelId: ch_001
+  threadId: th_001
+requestId: req_abc
+traceId: trc_xyz
+result:
+  status: success
+  errorCategory: none
+```

@@ -21,3 +21,6 @@ ctf/packages/mobile/.env.local
 # OS / editor junk
 .DS_Store
 *.log
+
+# Local AI prompt scratch notes
+.ai/

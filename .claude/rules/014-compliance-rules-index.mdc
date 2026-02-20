@@ -1,0 +1,38 @@
+# Compliance Rules Index (HIPAA + GDPR Baseline)
+
+## Scope
+- These rules apply to the rewrite codebase under `ctf/`.
+- Legacy folders are reference-only during migration unless explicitly opted in.
+
+## Regulatory Baseline
+- Enforce strict covered-entity HIPAA posture by default.
+- Enforce GDPR baseline across all personal data processing.
+- Allow global transfers only with documented safeguards and approved mechanisms.
+
+## Rule Precedence
+1. `001-baseline.mdc`
+2. Topic modules `002` through `013`
+3. `099-rule-authoring-and-change-control.mdc`
+
+If two rules conflict, the stricter privacy/security requirement wins.
+
+## Required Modules
+- [001-baseline.mdc](001-baseline.mdc)
+- [002-data-inventory-and-lawful-basis.mdc](002-data-inventory-and-lawful-basis.mdc)
+- [003-consent-and-dsar.mdc](003-consent-and-dsar.mdc)
+- [004-authz-authn-and-admin-controls.mdc](004-authz-authn-and-admin-controls.mdc)
+- [005-encryption-and-key-management.mdc](005-encryption-and-key-management.mdc)
+- [006-data-segregation-and-high-risk-isolation.mdc](006-data-segregation-and-high-risk-isolation.mdc)
+- [007-audit-logging-and-monitoring.mdc](007-audit-logging-and-monitoring.mdc)
+- [008-retention-deletion-and-backups.mdc](008-retention-deletion-and-backups.mdc)
+- [009-vendors-and-cross-border-transfers.mdc](009-vendors-and-cross-border-transfers.mdc)
+- [010-incident-response-and-breach-notification.mdc](010-incident-response-and-breach-notification.mdc)
+- [011-secure-development-and-ci-gates.mdc](011-secure-development-and-ci-gates.mdc)
+- [012-nextjs-react-native-implementation-overlays.mdc](012-nextjs-react-native-implementation-overlays.mdc)
+- [013-audit-evidence-and-documentation.mdc](013-audit-evidence-and-documentation.mdc)
+- [099-rule-authoring-and-change-control.mdc](099-rule-authoring-and-change-control.mdc)
+
+## Usage Contract
+- Before shipping any feature, confirm all relevant modules are satisfied.
+- For new mini-app capabilities (including messaging modules such as Chyme chat), apply baseline plus mini-app command overlays.
+- Missing policy metadata, legal basis, retention class, or audit path is a release blocker.

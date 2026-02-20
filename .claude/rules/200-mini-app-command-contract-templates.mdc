@@ -1,0 +1,18 @@
+# Mini-App Command Contract Templates
+
+## Intent
+Provide enforceable templates for mini-app command contracts, access policies, and audit events.
+
+## Required Template Set
+- [201-mini-app-command-schema-template.mdc](201-mini-app-command-schema-template.mdc)
+- [202-mini-app-access-policy-schema-template.mdc](202-mini-app-access-policy-schema-template.mdc)
+- [203-mini-app-audit-schema-template.mdc](203-mini-app-audit-schema-template.mdc)
+
+## Mandatory Usage
+- Every mini-app command surface must implement all three templates before release.
+- Contract versions must be explicit and backward compatibility documented.
+- Contract validation must run in CI before merge.
+
+## Release Blockers
+- Missing template implementation for any mini-app command surface.
+- Missing contract versioning or migration notes.
