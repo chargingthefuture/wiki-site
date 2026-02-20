@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { UserButton } from "@clerk/nextjs";
 import { useCallback, useEffect, useState } from "react";
 
@@ -27,6 +29,7 @@ const displayNameFor = (user: AccessUser): string => {
 };
 
 export default function AdminUsersPage() {
+  const hasClerkProvider = Boolean(process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY);
   const [users, setUsers] = useState<AccessUser[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [isCheckingAccess, setIsCheckingAccess] = useState(true);
@@ -144,7 +147,7 @@ export default function AdminUsersPage() {
           <a href="/" className="admin-link-button">
             Back to app
           </a>
-          <UserButton afterSignOutUrl="/" />
+          {hasClerkProvider ? <UserButton afterSignOutUrl="/" /> : null}
         </div>
       </header>
 

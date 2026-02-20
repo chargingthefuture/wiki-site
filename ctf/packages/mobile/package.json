@@ -12,6 +12,7 @@
     "test": "node --test"
   },
   "dependencies": {
+    "@clerk/clerk-expo": "^2.14.11",
     "@ctf/shared": "workspace:*",
     "@sentry/react-native": "^6.19.0",
     "expo": "~52.0.33",

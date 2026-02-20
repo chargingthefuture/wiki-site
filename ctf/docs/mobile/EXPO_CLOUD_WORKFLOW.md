@@ -33,3 +33,30 @@ Configure in repository settings:
 
 - Use **EAS Build** for native dependency/configuration changes.
 - Use **EAS Update** for JavaScript and asset-only changes compatible with current runtime version.
+
+## Deployment Readiness Checklist (Current Rewrite)
+
+Before shipping additional features, verify these first:
+
+1. **Environment variables** are configured for mobile runtime:
+
+- `MOBILE_CLERK_PUBLISHABLE_KEY`
+- `MOBILE_APP_URL` (base URL of the deployed web/API host, no trailing slash)
+- `MOBILE_OBSERVABILITY_PROVIDER`
+- `MOBILE_SENTRY_DSN` (when using Sentry)
+
+2. **Type safety** passes:
+
+- `pnpm --filter @ctf/mobile typecheck`
+
+3. **Invite-only flow smoke test** on a preview APK:
+
+- Signed-out user sees sign-in form.
+- Signed-in, unapproved user is prompted for Quora URL.
+- After saving Quora URL, user sees pending approval state.
+- After admin approval (`users.is_approved = true`), user can access approved app shell.
+
+4. **Cloud build path** succeeds:
+
+- `preview` build via `.github/workflows/expo-preview.yml`
+- install and launch generated APK on Android device.
