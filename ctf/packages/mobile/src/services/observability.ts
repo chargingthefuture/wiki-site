@@ -7,13 +7,13 @@ import {
 } from "@ctf/shared";
 import * as Sentry from "@sentry/react-native";
 
-const rawProvider = process.env.MOBILE_OBSERVABILITY_PROVIDER;
+const rawProvider = process.env.OBSERVABILITY_PROVIDER;
 
 export const mobileObservabilityProvider = resolveObservabilityProvider(rawProvider);
 
 if (mobileObservabilityProvider === "sentry") {
 	Sentry.init({
-		dsn: process.env.MOBILE_SENTRY_DSN,
+		dsn: process.env.EXPO_SENTRY_DSN,
 		tracesSampleRate: 0.1,
 		sendDefaultPii: false,
 	});

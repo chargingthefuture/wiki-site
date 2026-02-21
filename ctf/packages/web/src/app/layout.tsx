@@ -1,7 +1,5 @@
 import { ClerkProvider } from "@clerk/nextjs";
 import type { Metadata } from "next";
-import { headers } from "next/headers";
-import { getClerkRoutingForHost } from "../lib/clerkEnvironment";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -11,28 +9,40 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const publishableKey = process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY;
-  const requestHeaders = await headers();
-  const requestHost =
-    requestHeaders.get("x-forwarded-host") ??
-    requestHeaders.get("host") ??
-    process.env.NEXT_PUBLIC_APP_URL;
-  const clerkRouting = getClerkRoutingForHost(requestHost);
+  const signInUrl = process.env.NEXT_PUBLIC_CLERK_SIGN_IN_URL;
+  const appUrl = process.env.NEXT_PUBLIC_APP_URL;
 
   return (
     <html lang="en">
       <body>
-        {publishableKey ? (
+        {publishableKey && signInUrl && appUrl ? (
           <ClerkProvider
             publishableKey={publishableKey}
-            signInUrl={clerkRouting.signInUrl}
-            signUpUrl={clerkRouting.signUpUrl}
-            afterSignOutUrl={clerkRouting.afterSignOutUrl}
-            signInFallbackRedirectUrl={clerkRouting.signInFallbackRedirectUrl}
+            signInUrl={signInUrl}
+            afterSignOutUrl={signInUrl}
+            signInFallbackRedirectUrl={`${appUrl}/`}
           >
             {children}
           </ClerkProvider>
         ) : (
-          children
+          <main className="access-center" aria-label="Authentication configuration required">
+            <div className="access-card">
+              <h1>Authentication configuration required</h1>
+              <p>
+                Clerk routing is not configured for this deployment. Set
+                {" "}
+                <strong>NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY</strong>,
+                {" "}
+                <strong>NEXT_PUBLIC_CLERK_SIGN_IN_URL</strong>,
+                {" "}
+                and
+                {" "}
+                <strong>NEXT_PUBLIC_APP_URL</strong>
+                {" "}
+                and redeploy.
+              </p>
+            </div>
+          </main>
         )}
       </body>
     </html>

@@ -52,7 +52,7 @@ const buildQuoraUrl = (handle: string): string | null => {
 };
 
 const getMobileAppUrl = (): string | null => {
-  const configured = process.env.MOBILE_APP_URL?.trim();
+  const configured = process.env.RAILWAY_NEXT_PUBLIC_APP_URL?.trim();
   if (!configured) {
     return null;
   }
@@ -75,7 +75,7 @@ export function InviteOnlyView(props: InviteOnlyViewProps) {
 
   const loadStatus = useCallback(async () => {
     if (!appUrl) {
-      setStatusError("MOBILE_APP_URL is missing.");
+      setStatusError("RAILWAY_NEXT_PUBLIC_APP_URL is missing.");
       return;
     }
 
@@ -131,7 +131,7 @@ export function InviteOnlyView(props: InviteOnlyViewProps) {
     const quoraProfileUrl = buildQuoraUrl(quoraHandle);
 
     if (!appUrl) {
-      setStatusError("MOBILE_APP_URL is missing.");
+      setStatusError("RAILWAY_NEXT_PUBLIC_APP_URL is missing.");
       return;
     }
 
@@ -189,7 +189,7 @@ export function InviteOnlyView(props: InviteOnlyViewProps) {
           </Pressable>
         </View>
 
-        {!appUrl ? <Text style={styles.error}>Set MOBILE_APP_URL to enable API access.</Text> : null}
+        {!appUrl ? <Text style={styles.error}>Set RAILWAY_NEXT_PUBLIC_APP_URL to enable API access.</Text> : null}
 
         {isLoading ? <ActivityIndicator /> : null}
         {statusError ? <Text style={styles.error}>{statusError}</Text> : null}

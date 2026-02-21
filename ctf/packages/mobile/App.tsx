@@ -41,15 +41,8 @@ const tokenCache = {
 };
 
 export default function App() {
-  const isDevelopmentRuntime = __DEV__;
-  const keySource = isDevelopmentRuntime ? "staging-runtime" : "production-runtime";
-  const publishableKey = isDevelopmentRuntime
-    ? process.env.MOBILE_CLERK_PUBLISHABLE_KEY_STAGING ||
-      process.env.MOBILE_CLERK_PUBLISHABLE_KEY ||
-      process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY
-    : process.env.MOBILE_CLERK_PUBLISHABLE_KEY_PRODUCTION ||
-      process.env.MOBILE_CLERK_PUBLISHABLE_KEY ||
-      process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY;
+  const keySource = "railway-shared";
+  const publishableKey = process.env.RAILWAY_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY;
   const didReportClerkConfigRef = useRef(false);
 
   useEffect(() => {
@@ -77,7 +70,7 @@ export default function App() {
         <View style={styles.card}>
           <Text style={styles.title}>TI Skills Economy</Text>
           <Text style={styles.error}>
-            Set mobile Clerk key variables (staging for Expo Go/dev, production for APK/release).
+            Set RAILWAY_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY for mobile runtime.
           </Text>
         </View>
       </SafeAreaView>

@@ -7,8 +7,7 @@ import {
 } from "@ctf/shared";
 import * as Sentry from "@sentry/nextjs";
 
-const rawProvider =
-  process.env.NEXT_PUBLIC_OBSERVABILITY_PROVIDER ?? process.env.OBSERVABILITY_PROVIDER;
+const rawProvider = process.env.NEXT_PUBLIC_OBSERVABILITY_PROVIDER;
 
 export const webObservabilityProvider = resolveObservabilityProvider(rawProvider);
 

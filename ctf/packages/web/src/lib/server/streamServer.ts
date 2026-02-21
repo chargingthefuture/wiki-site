@@ -1,14 +1,11 @@
 import { StreamChat } from "stream-chat";
+import { getRequiredServerEnv } from "./providerEnv";
 
 let cachedServerClient: StreamChat | null = null;
 
 export const getStreamServerClient = () => {
-  const apiKey = process.env.STREAM_API_KEY;
-  const apiSecret = process.env.STREAM_API_SECRET;
-
-  if (!apiKey || !apiSecret) {
-    return null;
-  }
+  const apiKey = getRequiredServerEnv("STREAM_API_KEY");
+  const apiSecret = getRequiredServerEnv("STREAM_API_SECRET");
 
   if (!cachedServerClient) {
     cachedServerClient = StreamChat.getInstance(apiKey, apiSecret);
@@ -18,10 +15,10 @@ export const getStreamServerClient = () => {
 };
 
 export const createStreamUserToken = (userId: string): { apiKey: string; token: string } | null => {
-  const apiKey = process.env.STREAM_API_KEY;
+  const apiKey = getRequiredServerEnv("STREAM_API_KEY");
   const client = getStreamServerClient();
 
-  if (!client || !apiKey) {
+  if (!client) {
     return null;
   }
 

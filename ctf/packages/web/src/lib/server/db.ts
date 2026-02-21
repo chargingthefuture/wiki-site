@@ -1,4 +1,5 @@
 import { Pool } from "pg";
+import { getRequiredServerEnv } from "./providerEnv";
 
 let pool: Pool | null = null;
 
@@ -7,10 +8,7 @@ export const getDbPool = () => {
     return pool;
   }
 
-  const connectionString = process.env.DATABASE_URL;
-  if (!connectionString) {
-    throw new Error("DATABASE_URL is not configured");
-  }
+  const connectionString = getRequiredServerEnv("DATABASE_URL");
 
   pool = new Pool({
     connectionString,

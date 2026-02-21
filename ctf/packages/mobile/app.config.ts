@@ -11,7 +11,7 @@ const config: ExpoConfig = {
   orientation: "portrait",
   platforms: ["android"],
   updates: {
-    url: process.env.MOBILE_UPDATES_URL,
+    url: process.env.EXPO_MOBILE_UPDATES_URL,
   },
   runtimeVersion: {
     policy: "appVersion",
@@ -21,7 +21,7 @@ const config: ExpoConfig = {
   },
   extra: {
     eas: {
-      projectId: process.env.MOBILE_PROJECT_ID,
+      projectId: process.env.EXPO_MOBILE_PROJECT_ID,
     },
   },
 };

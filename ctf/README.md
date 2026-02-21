@@ -33,10 +33,6 @@ This folder contains the rewrite monorepo scaffold for:
 - `packages/web`: Next.js web application
 - `packages/mobile`: Expo + React Native Android application
 
-## Deployment Configuration
-
-- Environment variable mapping and naming rules: `docs/deployment/ENVIRONMENT_VARIABLES.md`
-
 ## Invite-Only Access Flow (Rewrite)
 
 - Users sign in with Clerk on the web app root page.
