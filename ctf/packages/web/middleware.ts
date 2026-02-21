@@ -1,4 +1,5 @@
 import type { NextRequest } from "next/server";
+import { clerkMiddleware } from "@clerk/nextjs/server";
 import { NextResponse } from "next/server";
 
 const scannerPathPattern =
@@ -7,7 +8,7 @@ const scannerPathPattern =
 const scannerUserAgentPattern =
   /(python-requests|curl|wget|sqlmap|nikto|nmap|masscan|zgrab|go-http-client|scrapy|crawler|scanner|bot)/i;
 
-export function middleware(request: NextRequest) {
+const scannerProtectionMiddleware = (request: NextRequest) => {
   const pathname = request.nextUrl.pathname;
   const userAgent = request.headers.get("user-agent") ?? "";
 
@@ -16,7 +17,11 @@ export function middleware(request: NextRequest) {
   }
 
   return NextResponse.next();
-}
+};
+
+export default clerkMiddleware((auth, request) => {
+  return scannerProtectionMiddleware(request);
+});
 
 export const config = {
   matcher: ["/((?!_next/static|_next/image|favicon.ico).*)"],

@@ -1,7 +1,5 @@
 # Rewrite Environment Variables (ctf)
 
-Related runbook: [Vercel Design Deployment (Separate Clerk Instance)](./VERCEL_DESIGN_DEPLOYMENT.md)
-
 This rewrite must use its own environment configuration and observability DSNs, separate from legacy projects.
 
 ## Deployment Topology (Current)
@@ -59,7 +57,21 @@ Mobile Clerk key note:
 - `MOBILE_PROJECT_ID`
 - `MOBILE_UPDATES_URL`
 
-## Vercel (web preview/design workflow)
+## Vercel (design workflow)
+
+- `VERCEL_TOKEN`
+- `VERCEL_ORG_ID`
+- `VERCEL_PROJECT_ID`
+- `VERCEL_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`
+- `VERCEL_CLERK_SECRET_KEY`
+
+### GitHub Actions environment
+
+Use GitHub Actions environment:
+
+- `vercel-design`
+
+Configure these secrets in that environment:
 
 - `VERCEL_TOKEN`
 - `VERCEL_ORG_ID`
@@ -76,8 +88,5 @@ These are for Vercel CLI/API usage in CI or local automation, not Railway runtim
 
 ## Rules
 
-- Do not reuse legacy `VITE_*` variables in rewrite packages.
-- Keep rewrite DSNs and API keys isolated from legacy projects.
 - Use separate Sentry projects/DSNs for web and mobile to avoid mixed noise and preserve free-tier quotas.
-- Never commit raw secrets.
 - Keep Railway as the runtime secret authority for deployed app services in this topology.

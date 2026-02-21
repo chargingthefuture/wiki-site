@@ -2,6 +2,13 @@ import { withSentryConfig } from "@sentry/nextjs";
 
 const isVercelBuild = process.env.VERCEL === "1";
 
+if (isVercelBuild && !process.env.VERCEL_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY) {
+  throw new Error(
+    "Missing VERCEL_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY for Vercel build. " +
+      "Vercel deployments must use dedicated Vercel Clerk keys and must not fall back to Railway keys.",
+  );
+}
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
