@@ -1,5 +1,7 @@
 # Rewrite Environment Variables (ctf)
 
+Related runbook: [Vercel Design Deployment (Separate Clerk Instance)](./VERCEL_DESIGN_DEPLOYMENT.md)
+
 This rewrite must use its own environment configuration and observability DSNs, separate from legacy projects.
 
 ## Deployment Topology (Current)
