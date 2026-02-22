@@ -79,20 +79,6 @@ function ensureStagedChanges() {
   }
 }
 
-function buildBody(why, what) {
-  const sections = [];
-
-  if (why) {
-    sections.push(`Why:\n- ${why}`);
-  }
-
-  if (what) {
-    sections.push(`What:\n- ${what}`);
-  }
-
-  return sections.join('\n\n');
-}
-
 function confirmYes(value) {
   const normalized = value.trim().toLowerCase();
   return normalized === '' || normalized === 'y' || normalized === 'yes';
@@ -104,19 +90,11 @@ async function main() {
 
     const type = await askType();
     const summary = await askRequiredSummary();
-    const why = (await rl.question('Why (optional): ')).trim();
-    const what = (await rl.question('What (optional): ')).trim();
 
     const header = `${type}: ${summary}`;
-    const body = buildBody(why, what);
 
     console.log('\nPreview:');
     console.log(header);
-
-    if (body) {
-      console.log('');
-      console.log(body);
-    }
 
     const confirm = await rl.question('\nCreate commit? (Y/n): ');
 
@@ -126,10 +104,6 @@ async function main() {
     }
 
     const args = ['commit', '-m', header];
-
-    if (body) {
-      args.push('-m', body);
-    }
 
     const result = spawnSync('git', args, {
       stdio: 'inherit',
