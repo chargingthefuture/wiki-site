@@ -1,7 +1,8 @@
 import type { NextRequest } from "next/server";
 import { clerkMiddleware } from "@clerk/nextjs/server";
 import { NextResponse } from "next/server";
-import { resolveClerkRuntimeConfig } from "./src/lib/server/clerkHostConfig";
+import type { NextFetchEvent } from "next/server";
+import { resolveClerkRuntimeConfig } from "./lib/server/clerkHostConfig";
 
 const scannerPathPattern =
   /(wp-admin|wp-login|xmlrpc\.php|phpmyadmin|\.env|\.git|cgi-bin|boaform|hnap1|vendor\/phpunit|\.aws|id_rsa|autodiscover|\.svn|\.DS_Store|\.php$|\.asp$|\.aspx$)/i;
@@ -20,7 +21,7 @@ const scannerProtectionMiddleware = (request: NextRequest) => {
   return NextResponse.next();
 };
 
-const clerkHostMiddleware = (request: NextRequest) => {
+const clerkHostMiddleware = (request: NextRequest, event: NextFetchEvent) => {
   let clerkConfig;
 
   try {
@@ -38,7 +39,7 @@ const clerkHostMiddleware = (request: NextRequest) => {
     },
   );
 
-  return middleware(request);
+  return middleware(request, event);
 };
 
 export default clerkHostMiddleware;
