@@ -1,5 +1,7 @@
 import { ClerkProvider } from "@clerk/nextjs";
+import { headers } from "next/headers";
 import type { Metadata } from "next";
+import { resolveClerkRuntimeConfig } from "../lib/server/clerkHostConfig";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -8,42 +10,21 @@ export const metadata: Metadata = {
 };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
-  const publishableKey = process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY;
-  const signInUrl = process.env.NEXT_PUBLIC_CLERK_SIGN_IN_URL;
-  const appUrl = process.env.NEXT_PUBLIC_APP_URL;
+  const requestHeaders = await headers();
+  const { host, publishableKey, signInUrl } = resolveClerkRuntimeConfig(requestHeaders);
+  const appUrl = `https://${host}`;
 
   return (
     <html lang="en">
       <body>
-        {publishableKey && signInUrl && appUrl ? (
-          <ClerkProvider
-            publishableKey={publishableKey}
-            signInUrl={signInUrl}
-            afterSignOutUrl={signInUrl}
-            signInFallbackRedirectUrl={`${appUrl}/`}
-          >
-            {children}
-          </ClerkProvider>
-        ) : (
-          <main className="access-center" aria-label="Authentication configuration required">
-            <div className="access-card">
-              <h1>Authentication configuration required</h1>
-              <p>
-                Clerk routing is not configured for this deployment. Set
-                {" "}
-                <strong>NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY</strong>,
-                {" "}
-                <strong>NEXT_PUBLIC_CLERK_SIGN_IN_URL</strong>,
-                {" "}
-                and
-                {" "}
-                <strong>NEXT_PUBLIC_APP_URL</strong>
-                {" "}
-                and redeploy.
-              </p>
-            </div>
-          </main>
-        )}
+        <ClerkProvider
+          publishableKey={publishableKey}
+          signInUrl={signInUrl}
+          afterSignOutUrl={signInUrl}
+          signInFallbackRedirectUrl={`${appUrl}/`}
+        >
+          {children}
+        </ClerkProvider>
       </body>
     </html>
   );

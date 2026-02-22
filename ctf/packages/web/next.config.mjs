@@ -24,9 +24,6 @@ const requiredProviderEnv = (suffix) => {
   return value.trim();
 };
 
-const nextPublicClerkPublishableKey = requiredProviderEnv("NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY");
-const clerkSecretKey = requiredProviderEnv("CLERK_SECRET_KEY");
-const clerkSignInUrl = requiredProviderEnv("CLERK_SIGN_IN_URL");
 const nextPublicAppUrl = requiredProviderEnv("NEXT_PUBLIC_APP_URL");
 const sentryDsn = requiredProviderEnv("SENTRY_DSN");
 
@@ -35,8 +32,6 @@ const streamApiKey = requiredUniversalEnv("STREAM_API_KEY");
 const streamApiSecret = requiredUniversalEnv("STREAM_API_SECRET");
 const observabilityProvider = requiredUniversalEnv("OBSERVABILITY_PROVIDER");
 
-process.env.CLERK_SECRET_KEY = clerkSecretKey;
-process.env.CLERK_SIGN_IN_URL = clerkSignInUrl;
 process.env.SENTRY_DSN = sentryDsn;
 process.env.DATABASE_URL = databaseUrl;
 process.env.STREAM_API_KEY = streamApiKey;
@@ -50,8 +45,6 @@ const nextConfig = {
     typedRoutes: true,
   },
   env: {
-    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: nextPublicClerkPublishableKey,
-    NEXT_PUBLIC_CLERK_SIGN_IN_URL: clerkSignInUrl,
     NEXT_PUBLIC_APP_URL: nextPublicAppUrl,
     NEXT_PUBLIC_STREAM_API_KEY: streamApiKey,
     NEXT_PUBLIC_SENTRY_DSN: sentryDsn,

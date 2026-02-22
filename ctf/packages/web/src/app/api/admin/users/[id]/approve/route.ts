@@ -9,7 +9,7 @@ export async function PUT(
   request: Request,
   context: { params: Promise<{ id: string }> },
 ) {
-  const { auth, currentUser } = await getClerkServerModule();
+  const { auth, currentUser } = await getClerkServerModule(request);
   const { userId } = await auth();
   if (!userId) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });

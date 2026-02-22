@@ -1,22 +1,7 @@
 import type { NextRequest } from "next/server";
 import { clerkMiddleware } from "@clerk/nextjs/server";
 import { NextResponse } from "next/server";
-
-const webProvider = process.env.VERCEL === "1" ? "VERCEL" : "RAILWAY";
-
-const requiredProviderEnv = (suffix: string): string => {
-  const key = `${webProvider}_${suffix}`;
-  const value = process.env[key];
-
-  if (!value || !value.trim()) {
-    throw new Error(`${key} is not configured`);
-  }
-
-  return value.trim();
-};
-
-const clerkSecretKey = requiredProviderEnv("CLERK_SECRET_KEY");
-const clerkPublishableKey = requiredProviderEnv("NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY");
+import { resolveClerkRuntimeConfig } from "./src/lib/server/clerkHostConfig";
 
 const scannerPathPattern =
   /(wp-admin|wp-login|xmlrpc\.php|phpmyadmin|\.env|\.git|cgi-bin|boaform|hnap1|vendor\/phpunit|\.aws|id_rsa|autodiscover|\.svn|\.DS_Store|\.php$|\.asp$|\.aspx$)/i;
@@ -35,13 +20,28 @@ const scannerProtectionMiddleware = (request: NextRequest) => {
   return NextResponse.next();
 };
 
-export default clerkMiddleware(
-  (_auth, request) => scannerProtectionMiddleware(request),
-  {
-    secretKey: clerkSecretKey,
-    publishableKey: clerkPublishableKey,
-  },
-);
+const clerkHostMiddleware = (request: NextRequest) => {
+  let clerkConfig;
+
+  try {
+    clerkConfig = resolveClerkRuntimeConfig(request.headers);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : "Clerk host mapping error";
+    return new NextResponse(message, { status: 500 });
+  }
+
+  const middleware = clerkMiddleware(
+    (_auth, innerRequest) => scannerProtectionMiddleware(innerRequest),
+    {
+      secretKey: clerkConfig.secretKey,
+      publishableKey: clerkConfig.publishableKey,
+    },
+  );
+
+  return middleware(request);
+};
+
+export default clerkHostMiddleware;
 
 export const config = {
   matcher: ["/((?!_next/static|_next/image|favicon.ico).*)"],

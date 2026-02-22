@@ -3,8 +3,8 @@ import { NextResponse } from "next/server";
 import { deleteChymeProfileData } from "../../../../lib/server/chymeRepository";
 import { getClerkServerModule } from "../../../../lib/server/clerkServer";
 
-export async function DELETE() {
-  const { auth } = await getClerkServerModule();
+export async function DELETE(request: Request) {
+  const { auth } = await getClerkServerModule(request);
   const { userId } = await auth();
   if (!userId) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });

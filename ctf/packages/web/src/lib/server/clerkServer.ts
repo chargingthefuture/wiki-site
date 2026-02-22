@@ -1,21 +1,16 @@
-const webProvider = process.env.VERCEL === "1" ? "VERCEL" : "RAILWAY";
+import { headers } from "next/headers";
+import { resolveClerkRuntimeConfig } from "./clerkHostConfig";
 
-const hydrateClerkServerEnv = () => {
-  const providerSecretKey = process.env[`${webProvider}_CLERK_SECRET_KEY`];
+const hydrateClerkServerEnv = async (request?: Request) => {
+  const headerReader = request?.headers ?? (await headers());
+  const { secretKey } = resolveClerkRuntimeConfig(headerReader);
 
-  if (!process.env.CLERK_SECRET_KEY && providerSecretKey?.trim()) {
-    process.env.CLERK_SECRET_KEY = providerSecretKey.trim();
+  if (process.env.CLERK_SECRET_KEY !== secretKey) {
+    process.env.CLERK_SECRET_KEY = secretKey;
   }
 };
 
-let clerkServerModulePromise: Promise<typeof import("@clerk/nextjs/server")> | null = null;
-
-export const getClerkServerModule = async () => {
-  hydrateClerkServerEnv();
-
-  if (!clerkServerModulePromise) {
-    clerkServerModulePromise = import("@clerk/nextjs/server");
-  }
-
-  return clerkServerModulePromise;
+export const getClerkServerModule = async (request?: Request) => {
+  await hydrateClerkServerEnv(request);
+  return import("@clerk/nextjs/server");
 };

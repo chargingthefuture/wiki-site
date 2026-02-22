@@ -28,7 +28,7 @@ const normalizeQuoraUrl = (value: unknown): string | null => {
 };
 
 export async function PUT(request: Request) {
-  const { auth, currentUser } = await getClerkServerModule();
+  const { auth, currentUser } = await getClerkServerModule(request);
   const { userId } = await auth();
   if (!userId) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });

@@ -41,8 +41,12 @@ const tokenCache = {
 };
 
 export default function App() {
-  const keySource = "railway-shared";
-  const publishableKey = process.env.RAILWAY_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY;
+  const buildProfile = process.env.EAS_BUILD_PROFILE?.trim().toLowerCase();
+  const shouldUseProductionKey = buildProfile === "production" || (!buildProfile && !__DEV__);
+  const keySource = shouldUseProductionKey ? "railway-prod" : "railway-staging";
+  const publishableKey = shouldUseProductionKey
+    ? process.env.RAILWAY_PROD_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY
+    : process.env.RAILWAY_STAGING_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY;
   const didReportClerkConfigRef = useRef(false);
 
   useEffect(() => {
@@ -70,7 +74,7 @@ export default function App() {
         <View style={styles.card}>
           <Text style={styles.title}>TI Skills Economy</Text>
           <Text style={styles.error}>
-            Set RAILWAY_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY for mobile runtime.
+            Set RAILWAY_STAGING_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY or RAILWAY_PROD_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY for mobile runtime.
           </Text>
         </View>
       </SafeAreaView>

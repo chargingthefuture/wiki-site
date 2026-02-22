@@ -47,22 +47,6 @@ const buildQuoraUrl = (handle: string): string | null => {
 };
 
 export function AccessGate(props: AccessGateProps) {
-  const hasClerkProvider = Boolean(process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY);
-
-  if (!hasClerkProvider) {
-    return (
-      <main className="access-center" aria-label="Authentication configuration required">
-        <div className="access-card">
-          <h1>Authentication configuration required</h1>
-          <p>
-            Clerk is not configured for this deployment. Set <strong>NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY</strong>
-            and redeploy.
-          </p>
-        </div>
-      </main>
-    );
-  }
-
   return <AccessGateWithClerk {...props} />;
 }
 
