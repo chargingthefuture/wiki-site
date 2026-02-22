@@ -1,6 +1,7 @@
 # Directory Mini-App Feature Inventory (Legacy Reference)
 
 ## Scope
+
 - **Source analyzed (reference-only):** `platform/`
 - **Rewrite target:** `ctf/`
 - **Mini-app name to retain:** `Directory`
@@ -9,7 +10,9 @@
 ---
 
 ## Executive Summary
+
 `Directory` is a profile-and-discovery mini-app for skill exchange. It supports:
+
 - authenticated profile CRUD,
 - public profile discovery,
 - admin management for unclaimed/claimed profiles,
@@ -25,11 +28,14 @@ This document lists **all discovered implemented features** from legacy code and
 ## 1) User-Facing Features
 
 ### 1.1 Authenticated Directory Dashboard
+
 Evidence:
+
 - `platform/client/src/pages/directory/dashboard.tsx`
 - `platform/server/routes/directory.routes.ts` (`GET /api/directory/profile`, `GET /api/directory/list`)
 
 Features:
+
 1. Landing state when no profile exists (“Welcome to Directory”).
 2. “Create Your Profile” CTA to profile form.
 3. Public directory URL display + clipboard copy.
@@ -44,12 +50,15 @@ Features:
    - edit profile CTA.
 
 ### 1.2 Authenticated Profile Create/Edit/Delete
+
 Evidence:
+
 - `platform/client/src/pages/directory/profile.tsx`
 - `platform/server/routes/directory.routes.ts`
 - `platform/shared/schema/directory/index.ts`
 
 Features:
+
 1. Create profile (`POST /api/directory/profile`) with duplicate prevention.
 2. Edit existing profile (`PUT /api/directory/profile`).
 3. Delete profile (`DELETE /api/directory/profile`) with reason support and cascade deletion path.
@@ -65,6 +74,7 @@ Features:
 13. Announcement banner in profile page.
 
 Validation and constraints:
+
 - Skills min 1, max 3.
 - Sectors max 3.
 - Job titles max 3.
@@ -73,12 +83,15 @@ Validation and constraints:
 - URL format validation for Signal/Quora.
 
 ### 1.3 Public Directory List (Unauthenticated)
+
 Evidence:
+
 - `platform/client/src/pages/directory/public-list.tsx`
 - `platform/client/src/routes/public-routes.tsx`
 - `platform/server/routes/directory.routes.ts` (`GET /api/directory/public`)
 
 Features:
+
 1. Public route: `/apps/directory/public`.
 2. Profile card listing for all public profiles.
 3. Privacy behavior: display **first name only** on list cards.
@@ -88,12 +101,15 @@ Features:
 7. Empty-state CTA and top/bottom sign-up CTAs.
 
 ### 1.4 Public Individual Profile (Unauthenticated)
+
 Evidence:
+
 - `platform/client/src/pages/directory/public.tsx`
 - `platform/client/src/routes/public-routes.tsx`
 - `platform/server/routes/directory.routes.ts` (`GET /api/directory/public/:id`)
 
 Features:
+
 1. Public route: `/apps/directory/public/:id`.
 2. Returns 404/“not found” for non-public profiles.
 3. Displays first-name-only public identity.
@@ -103,13 +119,16 @@ Features:
 7. Provides public directory URL copy/open controls.
 
 ### 1.5 Directory Announcements (User View)
+
 Evidence:
+
 - `platform/client/src/pages/directory/announcements.tsx`
 - `platform/client/src/pages/directory/dashboard.tsx`
 - `platform/client/src/pages/directory/profile.tsx`
 - `platform/server/routes/socketrelay.routes.ts` (`GET /api/directory/announcements`)
 
 Features:
+
 1. Authenticated announcements page: `/apps/directory/announcements`.
 2. Announcement banner shown on dashboard and profile.
 3. Displays active, non-expired announcements with type and expiry metadata.
@@ -119,13 +138,16 @@ Features:
 ## 2) Admin Features
 
 ### 2.1 Directory Admin Dashboard
+
 Evidence:
+
 - `platform/client/src/pages/directory/admin.tsx`
 - `platform/client/src/pages/directory/admin/components/*`
 - `platform/client/src/pages/directory/admin/hooks/*`
 - `platform/server/routes/directory.routes.ts`
 
 Features:
+
 1. Admin route: `/apps/directory/admin`.
 2. List all profiles (claimed + unclaimed).
 3. Client-side fuzzy search on profile fields.
@@ -138,11 +160,14 @@ Features:
 10. Verified badge rendering.
 
 ### 2.2 Admin Profile Create/Edit Rules
+
 Evidence:
+
 - `platform/server/routes/directory.routes.ts`
 - `platform/client/src/pages/directory/admin/components/DirectoryAdminProfileForm.tsx`
 
 Features:
+
 1. Create admin profile endpoint with optional `userId`.
 2. `isClaimed` set true only when assigned to a user.
 3. Editable fields mirror user form plus admin `firstName` for unclaimed entries.
@@ -150,29 +175,36 @@ Features:
 5. Country required.
 
 Security controls:
+
 - Auth required.
 - Admin role required.
 - CSRF validation on write endpoints.
 - Admin action logging for create/update/assign/delete.
 
 ### 2.3 Admin Skill Operations (Directory Compatibility)
+
 Evidence:
+
 - `platform/client/src/pages/directory/admin/components/DirectoryAdminSkillsSelector.tsx`
 - `platform/client/src/pages/directory/admin/hooks/useDirectoryAdminSkills.ts`
 - `platform/server/routes/directory.routes.ts` (`GET /api/directory/admin/skills`)
 - `platform/server/routes/skills.routes.ts` (`DELETE /api/skills/skills/:id`)
 
 Features:
+
 1. Admin reads flattened skill list for Directory UI compatibility.
 2. Admin can delete underlying shared skill entries via skills API.
 3. Delete warning notes that existing profiles are not retroactively cleaned in UI workflow.
 
 ### 2.4 Admin Announcement Management
+
 Evidence:
+
 - `platform/client/src/pages/directory/admin-announcements.tsx`
 - `platform/server/routes/socketrelay.routes.ts` (Directory announcement admin endpoints)
 
 Features:
+
 1. Admin route: `/apps/directory/admin/announcements`.
 2. Create announcement (title/content/type/expiresAt).
 3. Edit announcement.
@@ -186,43 +218,46 @@ Features:
 ## 3) API Surface (Discovered)
 
 ### 3.1 Profile + Directory APIs
+
 Evidence: `platform/server/routes/directory.routes.ts`
 
-| Endpoint | Auth | Admin | CSRF | Purpose |
-|---|---|---|---|---|
-| `GET /api/directory/profile` | Yes | No | No | Current user profile with enriched name/verification |
-| `POST /api/directory/profile` | Yes | No | No | Create current user profile |
-| `PUT /api/directory/profile` | Yes | No | No | Update current user profile |
-| `DELETE /api/directory/profile` | Yes | No | No | Delete current user profile with cascade path |
-| `GET /api/directory/skills` | Yes | No | No | Flattened skills for form selectors |
-| `GET /api/directory/sectors` | Yes | No | No | Sector options |
-| `GET /api/directory/job-titles` | Yes | No | No | Job title options |
-| `GET /api/directory/public` | No | No | No | Public list (rate-limited, anti-scraping delay, rotated order) |
-| `GET /api/directory/public/:id` | No | No | No | Public profile by id (public-only) |
-| `GET /api/directory/list` | Yes | No | No | Authenticated profile listing |
-| `GET /api/directory/admin/profiles` | Yes | Yes | No | Admin list all profiles |
-| `POST /api/directory/admin/profiles` | Yes | Yes | Yes | Admin create claimed/unclaimed profile |
-| `PUT /api/directory/admin/profiles/:id/assign` | Yes | Yes | Yes | Assign unclaimed profile to user |
-| `PUT /api/directory/admin/profiles/:id` | Yes | Yes | Yes | Admin edit profile |
-| `DELETE /api/directory/admin/profiles/:id` | Yes | Yes | Yes | Admin hard-delete unclaimed profile only |
-| `GET /api/directory/admin/skills` | Yes | Yes | No | Admin flattened skills list |
+| Endpoint                                       | Auth | Admin | CSRF | Purpose                                                        |
+| ---------------------------------------------- | ---- | ----- | ---- | -------------------------------------------------------------- |
+| `GET /api/directory/profile`                   | Yes  | No    | No   | Current user profile with enriched name/verification           |
+| `POST /api/directory/profile`                  | Yes  | No    | No   | Create current user profile                                    |
+| `PUT /api/directory/profile`                   | Yes  | No    | No   | Update current user profile                                    |
+| `DELETE /api/directory/profile`                | Yes  | No    | No   | Delete current user profile with cascade path                  |
+| `GET /api/directory/skills`                    | Yes  | No    | No   | Flattened skills for form selectors                            |
+| `GET /api/directory/sectors`                   | Yes  | No    | No   | Sector options                                                 |
+| `GET /api/directory/job-titles`                | Yes  | No    | No   | Job title options                                              |
+| `GET /api/directory/public`                    | No   | No    | No   | Public list (rate-limited, anti-scraping delay, rotated order) |
+| `GET /api/directory/public/:id`                | No   | No    | No   | Public profile by id (public-only)                             |
+| `GET /api/directory/list`                      | Yes  | No    | No   | Authenticated profile listing                                  |
+| `GET /api/directory/admin/profiles`            | Yes  | Yes   | No   | Admin list all profiles                                        |
+| `POST /api/directory/admin/profiles`           | Yes  | Yes   | Yes  | Admin create claimed/unclaimed profile                         |
+| `PUT /api/directory/admin/profiles/:id/assign` | Yes  | Yes   | Yes  | Assign unclaimed profile to user                               |
+| `PUT /api/directory/admin/profiles/:id`        | Yes  | Yes   | Yes  | Admin edit profile                                             |
+| `DELETE /api/directory/admin/profiles/:id`     | Yes  | Yes   | Yes  | Admin hard-delete unclaimed profile only                       |
+| `GET /api/directory/admin/skills`              | Yes  | Yes   | No   | Admin flattened skills list                                    |
 
 ### 3.2 Announcement APIs
+
 Evidence: `platform/server/routes/socketrelay.routes.ts`
 
-| Endpoint | Auth | Admin | CSRF | Purpose |
-|---|---|---|---|---|
-| `GET /api/directory/announcements` | Yes | No | No | Active, non-expired announcements |
-| `GET /api/directory/admin/announcements` | Yes | Yes | No | All announcements |
-| `POST /api/directory/admin/announcements` | Yes | Yes | Yes | Create announcement |
-| `PUT /api/directory/admin/announcements/:id` | Yes | Yes | Yes | Update announcement |
-| `DELETE /api/directory/admin/announcements/:id` | Yes | Yes | Yes | Deactivate announcement |
+| Endpoint                                        | Auth | Admin | CSRF | Purpose                           |
+| ----------------------------------------------- | ---- | ----- | ---- | --------------------------------- |
+| `GET /api/directory/announcements`              | Yes  | No    | No   | Active, non-expired announcements |
+| `GET /api/directory/admin/announcements`        | Yes  | Yes   | No   | All announcements                 |
+| `POST /api/directory/admin/announcements`       | Yes  | Yes   | Yes  | Create announcement               |
+| `PUT /api/directory/admin/announcements/:id`    | Yes  | Yes   | Yes  | Update announcement               |
+| `DELETE /api/directory/admin/announcements/:id` | Yes  | Yes   | Yes  | Deactivate announcement           |
 
 ---
 
 ## 4) Security, Privacy, and Anti-Scraping Features
 
 Evidence:
+
 - `platform/server/rateLimiter.ts`
 - `platform/server/antiScraping.ts`
 - `platform/server/dataObfuscation.ts`
@@ -230,6 +265,7 @@ Evidence:
 - `platform/server/routes/directory.routes.ts`
 
 Features:
+
 1. Request fingerprinting middleware applied globally before routes.
 2. Public listing rate limit: 10 requests / 15 min / IP.
 3. Public item rate limit: 50 requests / 15 min / IP.
@@ -248,11 +284,13 @@ Features:
 ## 5) Data Model and Persistence Features
 
 Evidence:
+
 - `platform/shared/schema/directory/index.ts`
 - `platform/server/storage/mini-apps/directory-storage.ts`
 - `platform/schema.sql`
 
 ### 5.1 Directory Profile Fields
+
 - Primary id (uuid), optional unique `userId`.
 - `description` (140 max), arrays for `skills`, `sectors`, `jobTitles`.
 - Contact links: `signalUrl`, `quoraUrl`.
@@ -262,9 +300,11 @@ Evidence:
 - `createdAt`, `updatedAt` timestamps.
 
 ### 5.2 Announcement Fields
+
 - `title`, `content`, `type`, `isActive`, `expiresAt`, created/updated timestamps.
 
 ### 5.3 Storage-layer Behaviors
+
 1. Geocoding on create/update when location changes.
 2. Coordinates persisted as numeric strings for DB columns.
 3. Defense-in-depth slicing of skills/sectors/job titles to max 3.
@@ -277,11 +317,13 @@ Evidence:
 ## 6) Operational and Maintenance Features
 
 Evidence:
+
 - `platform/scripts/seedDirectory.ts`
 - `platform/scripts/backfillDirectoryCoordinates.ts`
 - `platform/scripts/seedAllMiniApps.ts`
 
 Features:
+
 1. Directory seed script for profiles, skills table, and announcements.
 2. Coordinates backfill script for existing profiles lacking lat/long.
 3. Multi-mini-app seeding includes Directory.
@@ -291,7 +333,9 @@ Features:
 ## 7) Route and UI Inventory
 
 ### 7.1 Authenticated UI Routes
+
 Evidence: `platform/client/src/routes/mini-app-routes.tsx`
+
 - `/apps/directory`
 - `/apps/directory/profile`
 - `/apps/directory/announcements`
@@ -299,7 +343,9 @@ Evidence: `platform/client/src/routes/mini-app-routes.tsx`
 - `/apps/directory/admin/announcements`
 
 ### 7.2 Public UI Routes
+
 Evidence: `platform/client/src/routes/public-routes.tsx`
+
 - `/apps/directory/public`
 - `/apps/directory/public/:id`
 
@@ -308,12 +354,14 @@ Evidence: `platform/client/src/routes/public-routes.tsx`
 ## 8) Test Evidence for Implemented Behaviors
 
 Evidence:
+
 - `platform/test/api/directory.test.ts`
 - `platform/test/e2e/directory.spec.ts`
 - `platform/test/client/pages/directory/profile.test.tsx`
 - `platform/guides/TESTING.md`
 
 Covered/indicated behaviors:
+
 1. Profile CRUD intent and route coverage scaffolding.
 2. Public endpoint privacy/rate-limit expectations.
 3. Admin profile list expectations for claimed/unclaimed first-name handling.
@@ -353,6 +401,7 @@ Covered/indicated behaviors:
 ## 10) Rewrite Boundary Guidance (for ctf)
 
 Per `.claude/rules/index.mdc`:
+
 1. Keep `Directory` as mini-app-first flow with shared contracts and web/mobile parity.
 2. Treat `platform/` behavior as reference baseline, not direct copy target.
 3. Re-implement with explicit command/policy contracts under ctf architecture.
@@ -370,6 +419,7 @@ Per `.claude/rules/index.mdc`:
 ## 11) Source File Index (Primary Evidence)
 
 ### Server
+
 - `platform/server/routes/directory.routes.ts`
 - `platform/server/routes/socketrelay.routes.ts`
 - `platform/server/routes/index.ts`
@@ -379,10 +429,12 @@ Per `.claude/rules/index.mdc`:
 - `platform/server/storage/mini-apps/directory-storage.ts`
 
 ### Shared/Data
+
 - `platform/shared/schema/directory/index.ts`
 - `platform/schema.sql`
 
 ### Client
+
 - `platform/client/src/pages/directory/dashboard.tsx`
 - `platform/client/src/pages/directory/profile.tsx`
 - `platform/client/src/pages/directory/public-list.tsx`
@@ -401,6 +453,7 @@ Per `.claude/rules/index.mdc`:
 - `platform/client/src/routes/public-routes.tsx`
 
 ### Scripts/Tests/Guides
+
 - `platform/scripts/seedDirectory.ts`
 - `platform/scripts/backfillDirectoryCoordinates.ts`
 - `platform/scripts/seedAllMiniApps.ts`

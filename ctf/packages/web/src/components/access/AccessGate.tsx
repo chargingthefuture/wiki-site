@@ -69,7 +69,7 @@ class AccessGateErrorBoundary extends Component<AccessGateBoundaryProps, AccessG
     this.state = { hasError: false };
   }
 
-  static getDerivedStateFromError(_: Error): AccessGateBoundaryState {
+  static getDerivedStateFromError(): AccessGateBoundaryState {
     return { hasError: true };
   }
 
