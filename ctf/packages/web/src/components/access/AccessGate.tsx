@@ -1,7 +1,8 @@
 "use client";
 
 import { SignInButton, UserButton, useAuth } from "@clerk/nextjs";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { Component, type ErrorInfo, type ReactNode, useCallback, useEffect, useMemo, useState } from "react";
+import { webErrorReporter } from "../../lib/observability";
 import { AppShell } from "../layout/AppShell";
 
 interface AccessGateProps {
@@ -18,6 +19,14 @@ interface AccessUser {
   quoraProfileUrl: string | null;
   isApproved: boolean;
   isAdmin: boolean;
+}
+
+interface AccessGateBoundaryProps {
+  children: ReactNode;
+}
+
+interface AccessGateBoundaryState {
+  hasError: boolean;
 }
 
 const QUORA_PROFILE_PREFIX = "https://quora.com/profile/";
@@ -47,7 +56,57 @@ const buildQuoraUrl = (handle: string): string | null => {
 };
 
 export function AccessGate(props: AccessGateProps) {
-  return <AccessGateWithClerk {...props} />;
+  return (
+    <AccessGateErrorBoundary>
+      <AccessGateWithClerk {...props} />
+    </AccessGateErrorBoundary>
+  );
+}
+
+class AccessGateErrorBoundary extends Component<AccessGateBoundaryProps, AccessGateBoundaryState> {
+  constructor(props: AccessGateBoundaryProps) {
+    super(props);
+    this.state = { hasError: false };
+  }
+
+  static getDerivedStateFromError(_: Error): AccessGateBoundaryState {
+    return { hasError: true };
+  }
+
+  override componentDidCatch(error: Error, errorInfo: ErrorInfo): void {
+    webErrorReporter.capture({
+      message: error.message,
+      level: "error",
+      tags: {
+        component: "AccessGate",
+        source: "access_gate_boundary",
+      },
+      context: {
+        stack: error.stack,
+        componentStack: errorInfo.componentStack,
+      },
+      fingerprint: ["web", "access-gate", "clerk-provider-missing"],
+      timestampIso: new Date().toISOString(),
+    });
+  }
+
+  override render() {
+    if (this.state.hasError) {
+      return (
+        <main className="access-center" aria-label="Authentication configuration error">
+          <div className="access-card">
+            <h1>Authentication unavailable</h1>
+            <p>
+              Clerk provider is not available for this page. Check your domain and environment configuration,
+              then reload.
+            </p>
+          </div>
+        </main>
+      );
+    }
+
+    return this.props.children;
+  }
 }
 
 function AccessGateWithClerk(props: AccessGateProps) {
