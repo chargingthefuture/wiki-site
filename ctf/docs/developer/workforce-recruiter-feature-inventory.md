@@ -4,7 +4,7 @@
 
 - Source analyzed (reference-only): `platform/`
 - Rewrite target: `ctf/`
-- Mini-app name to retain: `Workforce Recruiter`
+- Mini-app name to retain: `Workforce`
 - Guardrail honored: no edits in `platform/`
 
 ---
