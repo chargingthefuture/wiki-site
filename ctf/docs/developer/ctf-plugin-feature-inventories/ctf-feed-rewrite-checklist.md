@@ -25,7 +25,7 @@
     - Audit events conform to `.claude/rules/203-plugin-audit-schema-template.mdc` with allow/deny parity.
 - [ ] Normalize Announcements spelling across new docs and APIs where feasible.
   - Acceptance criteria:
-    - New implementation uses **Announcements** naming; legacy typo alias note included where compatibility is needed.
+    - New implementation removes legacy typo
 
 ## Phase 1 — Schema and Migration Readiness
 
