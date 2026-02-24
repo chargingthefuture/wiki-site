@@ -1,0 +1,290 @@
+policies:
+  - pluginId: peer-programming
+    command: cohort.weekly.select
+    version: 1.0.0
+    requiredRoles:
+      - system
+      - admin
+    attributePolicies:
+      tenancy: same_workspace
+      loginActivityWindowDays: 7
+      targetCohortSize: 5
+      assignmentWindowOpen: true
+    consentRequirements:
+      scopes:
+        - peer_programming_cohort_manage
+      fallbackLawfulBasis: legitimate_interest
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - assignment_window_closed
+      - invalid_activity_window
+      - invalid_target_cohort_size
+      - insufficient_role
+
+  - pluginId: peer-programming
+    command: cohort.assignment.notify
+    version: 1.0.0
+    requiredRoles:
+      - system
+      - admin
+    attributePolicies:
+      tenancy: same_workspace
+      cohortAssignmentRunRequired: true
+      inAppChannelOnly: true
+    consentRequirements:
+      scopes:
+        - peer_programming_notifications
+      fallbackLawfulBasis: legitimate_interest
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - assignment_run_not_found
+      - notification_template_missing
+      - cross_workspace_access
+      - insufficient_role
+
+  - pluginId: peer-programming
+    command: cohort.fallback.open
+    version: 1.0.0
+    requiredRoles:
+      - system
+      - moderator
+      - admin
+    attributePolicies:
+      tenancy: same_workspace
+      minimumObservedMemberCountThreshold: 2
+      fallbackActivationAllowed: true
+    consentRequirements:
+      scopes:
+        - peer_programming_cohort_manage
+      fallbackLawfulBasis: legitimate_interest
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - cohort_not_found
+      - fallback_threshold_not_met
+      - fallback_already_open
+      - insufficient_role
+
+  - pluginId: peer-programming
+    command: room.state.get
+    version: 1.0.0
+    requiredRoles:
+      - member
+      - guest
+      - unauthenticated
+    attributePolicies:
+      tenancy: same_workspace_or_public_audience
+      roomVisibilityAllowedByTier: true
+    consentRequirements:
+      scopes: []
+      fallbackLawfulBasis: contract_performance
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: false
+    denyConditions:
+      - room_not_found
+      - tier_visibility_restricted
+
+  - pluginId: peer-programming
+    command: thread.post.create
+    version: 1.0.0
+    requiredRoles:
+      - member
+    attributePolicies:
+      tenancy: same_workspace
+      cohortMembershipRequired: true
+      roomWriteEnabled: true
+    consentRequirements:
+      scopes:
+        - peer_programming_room_write
+      fallbackLawfulBasis: contract_performance
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - room_not_found
+      - not_in_cohort
+      - room_write_disabled
+      - insufficient_role
+
+  - pluginId: peer-programming
+    command: thread.reply.create
+    version: 1.0.0
+    requiredRoles:
+      - member
+    attributePolicies:
+      tenancy: same_workspace
+      cohortMembershipRequired: true
+      parentThreadRequired: true
+    consentRequirements:
+      scopes:
+        - peer_programming_room_write
+      fallbackLawfulBasis: contract_performance
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - thread_not_found
+      - not_in_cohort
+      - room_write_disabled
+      - insufficient_role
+
+  - pluginId: peer-programming
+    command: thread.list
+    version: 1.0.0
+    requiredRoles:
+      - member
+      - guest
+      - unauthenticated
+    attributePolicies:
+      tenancy: same_workspace_or_public_audience
+      tierVisibilityPolicy: enforced
+      persistentHistoryEnabled: true
+    consentRequirements:
+      scopes: []
+      fallbackLawfulBasis: contract_performance
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: false
+    denyConditions:
+      - room_not_found
+      - tier_visibility_restricted
+
+  - pluginId: peer-programming
+    command: participation.tier.resolve
+    version: 1.0.0
+    requiredRoles:
+      - member
+      - guest
+      - unauthenticated
+      - system
+    attributePolicies:
+      tenancy: same_workspace_or_public_audience
+      authStateRequired: true
+      cohortMembershipResolutionRequired: true
+    consentRequirements:
+      scopes: []
+      fallbackLawfulBasis: legitimate_interest
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: false
+    denyConditions:
+      - room_not_found
+      - user_context_invalid
+      - tier_resolution_failed
+
+  - pluginId: peer-programming
+    command: feedback.submit
+    version: 1.0.0
+    requiredRoles:
+      - member
+      - guest
+    attributePolicies:
+      tenancy: same_workspace
+      feedbackChannelOpen: true
+      releaseSurfaceEnumEnforced: true
+    consentRequirements:
+      scopes:
+        - peer_programming_feedback
+      fallbackLawfulBasis: legitimate_interest
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - feedback_channel_closed
+      - invalid_release_surface
+      - room_not_found
+      - insufficient_role
+
+  - pluginId: peer-programming
+    command: admin.topic-guidance.set
+    version: 1.0.0
+    requiredRoles:
+      - admin
+      - moderator
+    attributePolicies:
+      tenancy: same_workspace
+      topicGovernanceWriteAllowed: true
+      weekScopeRequired: true
+    consentRequirements:
+      scopes:
+        - peer_programming_topic_governance
+      fallbackLawfulBasis: legal_obligation
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - invalid_week_key
+      - governance_lock_active
+      - insufficient_role
+
+  - pluginId: peer-programming
+    command: admin.topic-guidance.get
+    version: 1.0.0
+    requiredRoles:
+      - admin
+      - moderator
+      - member
+    attributePolicies:
+      tenancy: same_workspace
+      topicGovernanceReadAllowed: true
+    consentRequirements:
+      scopes:
+        - peer_programming_topic_read
+      fallbackLawfulBasis: contract_performance
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: false
+    denyConditions:
+      - guidance_not_found
+      - cross_workspace_access
+      - insufficient_role

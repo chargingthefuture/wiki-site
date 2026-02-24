@@ -8,7 +8,7 @@
     "typecheck": "pnpm -r --if-present run typecheck",
     "test": "pnpm -r --if-present run test",
     "format:check": "bash ./scripts/check-eof-format.sh",
-    "filesize:check": "bash ./scripts/check-file-size-budget.sh",
+    "governance:check": "bash ./scripts/check-modularity-governance.sh",
     "dev:web": "pnpm --filter @ctf/web run dev",
     "dev:mobile": "pnpm --filter @ctf/mobile run start"
   },

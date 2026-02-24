@@ -11,7 +11,7 @@ Examples:
 
 - `ctf-directory-feature-inventory.md`
 - `ctf-socketrelay-feature-inventory.md`
-- `ctf-workforce-recruiter-feature-inventory.md`
+- `ctf-workforce-feature-inventory.md`
 
 ## Current CTF rewrite inventories
 
@@ -21,7 +21,17 @@ Examples:
 - [Feed rewrite checklist](./ctf-feed-rewrite-checklist.md)
 - [Announcements feature inventory](./ctf-announcements-feature-inventory.md)
 - [Announcements rewrite checklist](./ctf-announcements-rewrite-checklist.md)
+- [Foundation feature inventory](./ctf-foundation-feature-inventory.md)
+- [Foundation rewrite checklist](./ctf-foundation-rewrite-checklist.md)
+- [Peer Programming feature inventory](./ctf-peer-programming-feature-inventory.md)
+- [Peer Programming rewrite checklist](./ctf-peer-programming-rewrite-checklist.md)
 - [Gross Domestic Product feature inventory](./ctf-gross-domestic-product-feature-inventory.md)
 - [Gross Domestic Product rewrite checklist](./ctf-gross-domestic-product-rewrite-checklist.md)
+- [Service Credits feature inventory](./ctf-service-credits-feature-inventory.md)
+- [Service Credits rewrite checklist](./ctf-service-credits-rewrite-checklist.md)
+- [Skills Hunt feature inventory](./ctf-skills-hunt-feature-inventory.md)
+- [Skills Hunt rewrite checklist](./ctf-skills-hunt-rewrite-checklist.md)
+- [Workforce feature inventory](./ctf-workforce-feature-inventory.md)
+- [Workforce rewrite checklist](./ctf-workforce-rewrite-checklist.md)
 
 Legacy reference inventories remain in `ctf/docs/developer/` and should include `(Legacy Reference)` in the title.

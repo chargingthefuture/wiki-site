@@ -669,3 +669,448 @@ canonical_metrics:
     retention: 120 months
     allowed_thresholds:
       min: 0
+
+  - id: service_credits_total_supply
+    name: Service Credits Total Supply
+    description: Net Service Credits in circulation calculated as minted minus burned credits.
+    owner: service-credits-governance@chargingthefuture.org
+    data_type: integer
+    unit: SC
+    calculation: |
+      SELECT COALESCE(SUM(CASE WHEN event_type = 'mint' THEN amount_units ELSE 0 END), 0)
+           - COALESCE(SUM(CASE WHEN event_type = 'burn' THEN amount_units ELSE 0 END), 0)
+           AS service_credits_total_supply
+      FROM service_credits_governance_events
+      WHERE occurred_at <= :as_of;
+    inputs:
+      - name: service_credits_governance_events.event_type
+        type: string
+      - name: service_credits_governance_events.amount_units
+        type: integer
+      - name: service_credits_governance_events.occurred_at
+        type: datetime
+    example_values:
+      - 125000000
+      - 127500000
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: hourly
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+      alert_rules:
+        - "alert_if_24h_growth_percent >= 10"
+
+  - id: service_credits_minted_total
+    name: Service Credits Minted Total
+    description: Cumulative credits minted through governance-approved issuance events.
+    owner: service-credits-governance@chargingthefuture.org
+    data_type: integer
+    unit: SC
+    calculation: |
+      SELECT COALESCE(SUM(amount_units), 0) AS service_credits_minted_total
+      FROM service_credits_governance_events
+      WHERE event_type = 'mint'
+        AND occurred_at <= :as_of;
+    inputs:
+      - name: service_credits_governance_events.event_type
+        type: string
+      - name: service_credits_governance_events.amount_units
+        type: integer
+      - name: service_credits_governance_events.occurred_at
+        type: datetime
+    example_values:
+      - 154000000
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: hourly
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: service_credits_burned_total
+    name: Service Credits Burned Total
+    description: Cumulative credits burned through governance-approved burn events.
+    owner: service-credits-governance@chargingthefuture.org
+    data_type: integer
+    unit: SC
+    calculation: |
+      SELECT COALESCE(SUM(amount_units), 0) AS service_credits_burned_total
+      FROM service_credits_governance_events
+      WHERE event_type = 'burn'
+        AND occurred_at <= :as_of;
+    inputs:
+      - name: service_credits_governance_events.event_type
+        type: string
+      - name: service_credits_governance_events.amount_units
+        type: integer
+      - name: service_credits_governance_events.occurred_at
+        type: datetime
+    example_values:
+      - 26500000
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: hourly
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: service_credits_marketplace_gdp_total
+    name: Service Credits Marketplace GDP Total
+    description: Total settled marketplace value measured in Service Credits for the selected reporting window.
+    owner: economics-team@chargingthefuture.org
+    data_type: integer
+    unit: SC
+    calculation: |
+      SELECT COALESCE(SUM(amount_units), 0) AS service_credits_marketplace_gdp_total
+      FROM service_credits_transfers
+      WHERE transfer_type = 'settlement'
+        AND settled_at >= :window_start
+        AND settled_at < :window_end;
+    inputs:
+      - name: service_credits_transfers.transfer_type
+        type: string
+      - name: service_credits_transfers.amount_units
+        type: integer
+      - name: service_credits_transfers.settled_at
+        type: datetime
+    example_values:
+      - 42000000
+      - 51000000
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: daily
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: service_credits_avg_provider_monthly_earnings
+    name: Service Credits Average Provider Monthly Earnings
+    description: Average monthly settled earnings in Service Credits per active provider.
+    owner: marketplace-ops@chargingthefuture.org
+    data_type: float
+    unit: SC_per_provider_month
+    calculation: |
+      WITH provider_monthly AS (
+        SELECT recipient_user_id,
+               DATE_TRUNC('month', settled_at) AS month_bucket,
+               SUM(amount_units) AS monthly_earnings
+        FROM service_credits_transfers
+        WHERE transfer_type = 'settlement'
+          AND settled_at >= :window_start
+          AND settled_at < :window_end
+        GROUP BY recipient_user_id, DATE_TRUNC('month', settled_at)
+      )
+      SELECT COALESCE(AVG(monthly_earnings), 0) AS service_credits_avg_provider_monthly_earnings
+      FROM provider_monthly;
+    inputs:
+      - name: service_credits_transfers.recipient_user_id
+        type: uuid
+      - name: service_credits_transfers.transfer_type
+        type: string
+      - name: service_credits_transfers.amount_units
+        type: integer
+      - name: service_credits_transfers.settled_at
+        type: datetime
+    example_values:
+      - 8900
+      - 10450
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: monthly
+    retention: 60 months
+    allowed_thresholds:
+      min: 0
+
+  - id: service_credits_active_providers_count
+    name: Service Credits Active Providers Count
+    description: Count of distinct providers with at least one settled Service Credits earning in the reporting window.
+    owner: marketplace-ops@chargingthefuture.org
+    data_type: integer
+    unit: providers
+    calculation: |
+      SELECT COUNT(DISTINCT recipient_user_id) AS service_credits_active_providers_count
+      FROM service_credits_transfers
+      WHERE transfer_type = 'settlement'
+        AND settled_at >= :window_start
+        AND settled_at < :window_end;
+    inputs:
+      - name: service_credits_transfers.recipient_user_id
+        type: uuid
+      - name: service_credits_transfers.transfer_type
+        type: string
+      - name: service_credits_transfers.settled_at
+        type: datetime
+    example_values:
+      - 185000
+      - 221500
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: daily
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: service_credits_platform_fee_revenue
+    name: Service Credits Platform Fee Revenue
+    description: Total platform fee credits collected into treasury within the reporting window.
+    owner: treasury-ops@chargingthefuture.org
+    data_type: integer
+    unit: SC
+    calculation: |
+      SELECT COALESCE(SUM(amount_units), 0) AS service_credits_platform_fee_revenue
+      FROM service_credits_treasury_events
+      WHERE event_type = 'fee_collect'
+        AND occurred_at >= :window_start
+        AND occurred_at < :window_end;
+    inputs:
+      - name: service_credits_treasury_events.event_type
+        type: string
+      - name: service_credits_treasury_events.amount_units
+        type: integer
+      - name: service_credits_treasury_events.occurred_at
+        type: datetime
+    example_values:
+      - 2100000
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: daily
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: service_credits_treasury_balance
+    name: Service Credits Treasury Balance
+    description: Current treasury wallet balance available for grants, subsidies, and stabilization policy actions.
+    owner: treasury-ops@chargingthefuture.org
+    data_type: integer
+    unit: SC
+    calculation: |
+      SELECT COALESCE(available_balance_units, 0) AS service_credits_treasury_balance
+      FROM service_credits_wallets
+      WHERE wallet_type = 'treasury'
+        AND status = 'active'
+      ORDER BY updated_at DESC
+      LIMIT 1;
+    inputs:
+      - name: service_credits_wallets.wallet_type
+        type: string
+      - name: service_credits_wallets.status
+        type: string
+      - name: service_credits_wallets.available_balance_units
+        type: integer
+      - name: service_credits_wallets.updated_at
+        type: datetime
+    example_values:
+      - 38000000
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: hourly
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+      alert_rules:
+        - "alert_if_value < 1000000"
+
+  - id: service_credits_starter_grant_uptake_rate
+    name: Service Credits Starter Grant Uptake Rate
+    description: Percentage of newly eligible users who receive their starter grant within the onboarding window.
+    owner: onboarding-ops@chargingthefuture.org
+    data_type: percent
+    unit: percent
+    calculation: |
+      WITH eligible AS (
+        SELECT COUNT(*) AS total_eligible
+        FROM service_credits_eligibility_events
+        WHERE became_eligible_at >= :window_start
+          AND became_eligible_at < :window_end
+      ),
+      granted AS (
+        SELECT COUNT(DISTINCT target_user_id) AS total_granted
+        FROM service_credits_governance_events
+        WHERE event_type = 'mint'
+          AND reason_code = 'starter_grant'
+          AND occurred_at >= :window_start
+          AND occurred_at < :window_end
+      )
+      SELECT CASE
+               WHEN eligible.total_eligible = 0 THEN 0
+               ELSE (granted.total_granted::float / eligible.total_eligible::float) * 100
+             END AS service_credits_starter_grant_uptake_rate
+      FROM eligible, granted;
+    inputs:
+      - name: service_credits_eligibility_events.became_eligible_at
+        type: datetime
+      - name: service_credits_governance_events.event_type
+        type: string
+      - name: service_credits_governance_events.reason_code
+        type: string
+      - name: service_credits_governance_events.target_user_id
+        type: uuid
+      - name: service_credits_governance_events.occurred_at
+        type: datetime
+    example_values:
+      - 82.5
+      - 90.3
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: weekly
+    retention: 60 months
+    allowed_thresholds:
+      min: 0
+      max: 100
+
+  - id: service_credits_loan_default_rate
+    name: Service Credits Loan Default Rate
+    description: Percentage of originated Service Credits loans considered in default status within the reporting window.
+    owner: treasury-ops@chargingthefuture.org
+    data_type: percent
+    unit: percent
+    calculation: |
+      WITH originated AS (
+        SELECT COUNT(*) AS total_originated
+        FROM service_credits_loans
+        WHERE originated_at >= :window_start
+          AND originated_at < :window_end
+      ),
+      defaults AS (
+        SELECT COUNT(*) AS total_defaulted
+        FROM service_credits_loans
+        WHERE originated_at >= :window_start
+          AND originated_at < :window_end
+          AND status = 'defaulted'
+      )
+      SELECT CASE
+               WHEN originated.total_originated = 0 THEN 0
+               ELSE (defaults.total_defaulted::float / originated.total_originated::float) * 100
+             END AS service_credits_loan_default_rate
+      FROM originated, defaults;
+    inputs:
+      - name: service_credits_loans.originated_at
+        type: datetime
+      - name: service_credits_loans.status
+        type: string
+    example_values:
+      - 3.2
+      - 4.8
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: monthly
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+      max: 100
+      alert_rules:
+        - "alert_if_value >= 8"
+
+  - id: service_credits_dispute_rate
+    name: Service Credits Dispute Rate
+    description: Ratio of disputed settled transactions to total settled transactions in the reporting window.
+    owner: trust-safety@chargingthefuture.org
+    data_type: percent
+    unit: percent
+    calculation: |
+      WITH settled AS (
+        SELECT COUNT(*) AS total_settled
+        FROM service_credits_transfers
+        WHERE transfer_type = 'settlement'
+          AND settled_at >= :window_start
+          AND settled_at < :window_end
+      ),
+      disputed AS (
+        SELECT COUNT(DISTINCT transfer_id) AS total_disputed
+        FROM service_credits_dispute_adjustments
+        WHERE created_at >= :window_start
+          AND created_at < :window_end
+      )
+      SELECT CASE
+               WHEN settled.total_settled = 0 THEN 0
+               ELSE (disputed.total_disputed::float / settled.total_settled::float) * 100
+             END AS service_credits_dispute_rate
+      FROM settled, disputed;
+    inputs:
+      - name: service_credits_transfers.transfer_type
+        type: string
+      - name: service_credits_transfers.settled_at
+        type: datetime
+      - name: service_credits_dispute_adjustments.transfer_id
+        type: string
+      - name: service_credits_dispute_adjustments.created_at
+        type: datetime
+    example_values:
+      - 1.4
+      - 2.1
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: daily
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+      max: 100
+      alert_rules:
+        - "alert_if_value >= 5"
+
+  - id: service_credits_dispute_resolution_time_hours
+    name: Service Credits Dispute Resolution Time Hours
+    description: Average elapsed time in hours from dispute creation to closure for Service Credits disputes.
+    owner: trust-safety@chargingthefuture.org
+    data_type: float
+    unit: hours
+    calculation: |
+      SELECT COALESCE(AVG(EXTRACT(EPOCH FROM (resolved_at - created_at)) / 3600), 0)
+             AS service_credits_dispute_resolution_time_hours
+      FROM service_credits_dispute_adjustments
+      WHERE created_at >= :window_start
+        AND created_at < :window_end
+        AND status = 'resolved'
+        AND resolved_at IS NOT NULL;
+    inputs:
+      - name: service_credits_dispute_adjustments.created_at
+        type: datetime
+      - name: service_credits_dispute_adjustments.resolved_at
+        type: datetime|null
+      - name: service_credits_dispute_adjustments.status
+        type: string
+    example_values:
+      - 22.4
+      - 17.8
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: daily
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+      alert_rules:
+        - "alert_if_value >= 72"
+
+  - id: workforce_recruited_current_count
+    name: Workforce Recruited (Current)
+    description: Count of users whose latest inferred workforce recruited state is true, derived only from Directory profile create/update writes.
+    owner: marketplace-ops@chargingthefuture.org
+    data_type: integer
+    unit: users
+    calculation: |
+      WITH latest_inferred_state AS (
+        SELECT DISTINCT ON (user_id)
+               user_id,
+               resolved_recruited_state,
+               event_occurred_at
+        FROM workforce_recruited_events
+        WHERE source_event_type IN ('directory_profile_created', 'directory_profile_updated')
+          AND deleted_at IS NULL
+        ORDER BY user_id, event_occurred_at DESC, created_at DESC
+      )
+      SELECT COUNT(*)
+      FROM latest_inferred_state
+      WHERE resolved_recruited_state = TRUE;
+    inputs:
+      - name: workforce_recruited_events.user_id
+        type: uuid
+      - name: workforce_recruited_events.source_event_type
+        type: string
+      - name: workforce_recruited_events.resolved_recruited_state
+        type: boolean
+      - name: workforce_recruited_events.event_occurred_at
+        type: datetime
+      - name: workforce_recruited_events.inference_dedupe_key
+        type: string
+      - name: workforce_recruited_events.deleted_at
+        type: datetime|null
+    example_values:
+      - 12034
+      - 12110
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: hourly
+    retention: 60 months
+    allowed_thresholds:
+      min: 0
+      alert_rules:
+        - "alert_if_7d_drop_percent >= 20"

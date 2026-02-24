@@ -1,0 +1,417 @@
+contracts:
+  - pluginId: foundation
+    command: foundation.search.providers
+    version: 1.0.0
+    description: Search survivor-safe provider options using Directory read-only projections, with trauma-informed and accessibility-aware ranking.
+    inputSchema:
+      query:
+        type: string
+        required: true
+      filters:
+        type: object
+        required: false
+      location:
+        type: object
+        required: false
+      page:
+        type: integer
+        required: false
+      pageSize:
+        type: integer
+        required: false
+      accessibilityNeeds:
+        type: array
+        required: false
+    outputSchema:
+      providers:
+        type: array
+      total:
+        type: integer
+      nextCursor:
+        type: string
+      rankingSignals:
+        type: object
+    dataAccess:
+      - foundation_provider_search_index
+      - directory_provider_profiles_read_model
+      - directory_service_regions_read_model
+    purpose: survivor_provider_matching
+    retentionClass: derived_short_lived
+    idempotency: true
+
+  - pluginId: foundation
+    command: foundation.connection.thread.create
+    version: 1.0.0
+    description: Create or return the survivor-provider 1:1 Stream text channel for initial connection handoff.
+    inputSchema:
+      providerId:
+        type: string
+        required: true
+      initialContext:
+        type: object
+        required: false
+      idempotencyKey:
+        type: string
+        required: true
+    outputSchema:
+      threadId:
+        type: string
+      streamChannelId:
+        type: string
+      state:
+        type: string
+    dataAccess:
+      - foundation_connection_threads
+      - foundation_thread_participants
+      - stream_chat_channel_metadata
+      - directory_provider_profiles_read_model
+    purpose: secure_initial_connection
+    retentionClass: communication_medium_lived
+    idempotency: true
+
+  - pluginId: foundation
+    command: foundation.connection.message.send
+    version: 1.0.0
+    description: Send a 1:1 text message in a Foundation connection thread through shared Stream adapters.
+    inputSchema:
+      threadId:
+        type: string
+        required: true
+      messageText:
+        type: string
+        required: true
+      attachments:
+        type: array
+        required: false
+      clientMessageId:
+        type: string
+        required: true
+    outputSchema:
+      messageId:
+        type: string
+      sentAt:
+        type: string
+      moderationStatus:
+        type: string
+    dataAccess:
+      - foundation_connection_threads
+      - foundation_message_metadata
+      - stream_chat_messages
+      - stream_moderation_metadata
+    purpose: survivor_provider_communication
+    retentionClass: communication_medium_lived
+    idempotency: true
+
+  - pluginId: foundation
+    command: foundation.connection.call.session.create
+    version: 1.0.0
+    description: Create a 1:1 voice or video call session token and metadata for survivor-provider communication.
+    inputSchema:
+      threadId:
+        type: string
+        required: true
+      modality:
+        type: string
+        required: true
+        enum:
+          - voice
+          - video
+      requestedDurationMinutes:
+        type: integer
+        required: false
+      idempotencyKey:
+        type: string
+        required: true
+    outputSchema:
+      callSessionId:
+        type: string
+      streamCallId:
+        type: string
+      joinToken:
+        type: string
+      expiresAt:
+        type: string
+    dataAccess:
+      - foundation_connection_threads
+      - foundation_call_sessions
+      - stream_video_call_metadata
+      - stream_participant_minute_meter
+    purpose: survivor_provider_communication
+    retentionClass: communication_short_lived
+    idempotency: true
+
+  - pluginId: foundation
+    command: foundation.quote.request.create
+    version: 1.0.0
+    description: Create a quote request in requested state for survivor-selected providers.
+    inputSchema:
+      threadId:
+        type: string
+        required: true
+      serviceType:
+        type: string
+        required: true
+      requestDetails:
+        type: object
+        required: true
+      maxProviders:
+        type: integer
+        required: false
+      idempotencyKey:
+        type: string
+        required: true
+    outputSchema:
+      quoteRequestId:
+        type: string
+      lifecycleState:
+        type: string
+      sentProviderCount:
+        type: integer
+      createdAt:
+        type: string
+    dataAccess:
+      - foundation_quote_requests
+      - foundation_quote_request_provider_links
+      - foundation_rate_limit_counters
+    purpose: quote_lifecycle_management
+    retentionClass: transactional_long_lived
+    idempotency: true
+
+  - pluginId: foundation
+    command: foundation.quote.request.state.update
+    version: 1.0.0
+    description: Move quote request lifecycle between requested, provider_responded, and closed with policy and audit enforcement.
+    inputSchema:
+      quoteRequestId:
+        type: string
+        required: true
+      transitionTo:
+        type: string
+        required: true
+        enum:
+          - requested
+          - provider_responded
+          - closed
+      transitionReason:
+        type: string
+        required: false
+      idempotencyKey:
+        type: string
+        required: true
+    outputSchema:
+      quoteRequestId:
+        type: string
+      previousState:
+        type: string
+      currentState:
+        type: string
+      transitionedAt:
+        type: string
+    dataAccess:
+      - foundation_quote_requests
+      - foundation_quote_status_events
+      - foundation_notification_jobs
+    purpose: quote_lifecycle_management
+    retentionClass: transactional_long_lived
+    idempotency: true
+
+  - pluginId: foundation
+    command: foundation.quote.request.history.list
+    version: 1.0.0
+    description: List survivor and provider quote history with lifecycle transitions and response metadata.
+    inputSchema:
+      actorScope:
+        type: string
+        required: true
+        enum:
+          - survivor
+          - provider
+      statusFilter:
+        type: array
+        required: false
+      cursor:
+        type: string
+        required: false
+      pageSize:
+        type: integer
+        required: false
+    outputSchema:
+      items:
+        type: array
+      nextCursor:
+        type: string
+      summary:
+        type: object
+    dataAccess:
+      - foundation_quote_requests
+      - foundation_quote_status_events
+      - foundation_provider_response_summaries
+    purpose: quote_history_review
+    retentionClass: transactional_long_lived
+    idempotency: true
+
+  - pluginId: foundation
+    command: foundation.connection.history.list
+    version: 1.0.0
+    description: Retrieve survivor-provider 1:1 connection history for text, voice, and video sessions.
+    inputSchema:
+      includeMessages:
+        type: boolean
+        required: false
+      includeCalls:
+        type: boolean
+        required: false
+      cursor:
+        type: string
+        required: false
+      pageSize:
+        type: integer
+        required: false
+    outputSchema:
+      threads:
+        type: array
+      callSummaries:
+        type: array
+      nextCursor:
+        type: string
+    dataAccess:
+      - foundation_connection_threads
+      - foundation_message_metadata
+      - foundation_call_sessions
+      - stream_chat_messages
+      - stream_video_call_metadata
+    purpose: survivor_support_continuity
+    retentionClass: communication_medium_lived
+    idempotency: true
+
+  - pluginId: foundation
+    command: foundation.notification.preferences.update
+    version: 1.0.0
+    description: Update notification channels and quiet-hour preferences for Foundation alerts.
+    inputSchema:
+      inAppEnabled:
+        type: boolean
+        required: true
+      pushEnabled:
+        type: boolean
+        required: true
+      emailEnabled:
+        type: boolean
+        required: false
+      quietHours:
+        type: object
+        required: false
+    outputSchema:
+      notificationPreferenceId:
+        type: string
+      updatedAt:
+        type: string
+      effectiveChannels:
+        type: array
+    dataAccess:
+      - foundation_notification_preferences
+      - foundation_user_extension
+    purpose: notification_preference_management
+    retentionClass: profile_long_lived
+    idempotency: true
+
+  - pluginId: foundation
+    command: foundation.notification.event.ack
+    version: 1.0.0
+    description: Mark in-app Foundation notifications as seen or acknowledged to reduce repeat alerting.
+    inputSchema:
+      notificationEventId:
+        type: string
+        required: true
+      status:
+        type: string
+        required: true
+        enum:
+          - seen
+          - acknowledged
+      acknowledgedAt:
+        type: string
+        required: false
+    outputSchema:
+      notificationEventId:
+        type: string
+      status:
+        type: string
+      updatedAt:
+        type: string
+    dataAccess:
+      - foundation_notification_events
+      - foundation_notification_delivery_log
+    purpose: notification_delivery_management
+    retentionClass: derived_short_lived
+    idempotency: true
+
+  - pluginId: foundation
+    command: foundation.safeguards.rate_limit.evaluate
+    version: 1.0.0
+    description: Evaluate command-specific rate limits and return throttle/degrade directives for resilient operation.
+    inputSchema:
+      actorId:
+        type: string
+        required: true
+      commandName:
+        type: string
+        required: true
+      scope:
+        type: string
+        required: true
+      requestWeight:
+        type: integer
+        required: false
+    outputSchema:
+      decision:
+        type: string
+      nextAllowedAt:
+        type: string
+      activeThreshold:
+        type: string
+      degradeMode:
+        type: string
+    dataAccess:
+      - foundation_rate_limit_counters
+      - foundation_quota_threshold_states
+      - stream_quota_usage_rollups
+    purpose: reliability_protection
+    retentionClass: derived_short_lived
+    idempotency: true
+
+  - pluginId: foundation
+    command: foundation.admin.capacity.policy.update
+    version: 1.0.0
+    description: Update Foundation operational capacity thresholds and graceful degradation rules for Stream Maker-tier usage.
+    inputSchema:
+      monthlyBudgets:
+        type: object
+        required: true
+      thresholdBands:
+        type: object
+        required: true
+      nonCriticalFeatureDegradePolicy:
+        type: object
+        required: true
+      effectiveFrom:
+        type: string
+        required: true
+    outputSchema:
+      policyVersion:
+        type: string
+      status:
+        type: string
+      activatedAt:
+        type: string
+    dataAccess:
+      - foundation_capacity_policies
+      - foundation_capacity_policy_events
+      - foundation_admin_audit_trail
+    purpose: operational_governance
+    retentionClass: audit_long_lived
+    idempotency: false
+
+changelog:
+  - date: 2026-02-24
+    change: Initial Foundation v1 command contracts added for provider search, 1:1 text/voice/video, quote lifecycle, history, notifications, rate limiting, and capacity governance.

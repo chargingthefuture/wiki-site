@@ -1,4 +1,0 @@
-# Temporary, justified exceptions to 300-line file limit.
-# One relative file path per line from ctf/ root.
-# Example:
-# packages/web/src/app/legacy-page.tsx

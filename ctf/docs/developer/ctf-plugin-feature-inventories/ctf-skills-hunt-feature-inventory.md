@@ -1,0 +1,206 @@
+# Skills Hunt Plugin Feature Inventory (CTF Rewrite)
+
+## Scope and Boundary
+
+- Rewrite target only: `ctf/`
+- Legacy `platform/` is reference-only and must not be modified.
+- Plugin name: `Skills Hunt`
+- Plugin slug / service key: `skills-hunt`
+- This document is the planning inventory required before implementation.
+
+## Intent and Outcome
+
+Skills Hunt is planned as a community-sourced skill-discovery and profile-seeding plugin that rewards high-quality submissions and safely generates unclaimed Directory profiles.
+
+This plugin must:
+
+1. run round-based skill discovery campaigns,
+2. support contributor submissions with strict validation and anti-spam safeguards,
+3. enable moderator/admin review with deterministic scoring,
+4. publish individual and team leaderboards,
+5. award achievements and user notifications,
+6. generate unclaimed Directory profiles from accepted entries,
+7. expose a configurable feature reward card,
+8. enforce compliance and auditable review decisions.
+
+Planning constraints applied:
+
+1. Inventory/checklist lifecycle follows `.claude/rules/120-plugin-feature-inventory-lifecycle-rules.mdc`.
+2. Command/access/audit design follows `.claude/rules/200-plugin-command-contract-templates.mdc` and templates `201`/`202`/`203`.
+3. Canonical profile and plugin-extension boundaries follow `.claude/rules/114-single-profile-and-plugin-extension-rules.mdc`.
+
+---
+
+## 1) Planned User Features
+
+### 1.1 Round Discovery and Participation
+
+1. List active, upcoming, and closed Skills Hunt rounds.
+2. View round details including scoring config, rules, and dates.
+3. Submit entries only during active windows.
+
+### 1.2 Entry Submission Experience
+
+1. Submit `displayName`, `bio`, Quora profile URL, skills, and claimed professions.
+2. Enforce URL normalization and Quora profile pattern validation.
+3. Prevent duplicate submissions in a round by normalized URL + skills signature.
+4. Enforce rolling submission cap per user.
+
+### 1.3 Quality and Safety Validation
+
+1. Reject HTML/script-like payloads in free text fields.
+2. Enforce bounded lengths and allowed character sets.
+3. Verify profile URL liveness where available.
+4. Auto-reject patterns that cross policy thresholds.
+
+### 1.4 Leaderboard and Progress
+
+1. Show individual leaderboard by accepted points.
+2. Show team leaderboard by claimed profession aggregates.
+3. Surface rank, accepted count, and rare-skill bonus impact.
+4. Refresh leaderboard deterministically after review outcomes.
+
+### 1.5 Rewards, Achievements, and Notifications
+
+1. Award achievements for notable contribution milestones.
+2. Send in-app notifications for status transitions and awards.
+3. Display a configurable feature reward card in plugin surfaces.
+4. Let users mark notifications as read.
+
+## 2) Planned Admin and Moderator Features
+
+### 2.1 Round Management
+
+1. Create and update rounds, schedule windows, and scoring config.
+2. Set round status (`draft`, `active`, `closed`, `archived`).
+3. Track round-level review throughput and acceptance quality.
+
+### 2.2 Submission Review and Moderation
+
+1. Review submissions with actions: accept, reject, edit, flag.
+2. Capture review notes and reviewer attribution.
+3. Apply scoring breakdown (match, first-match, stack, rare-skill, quality bonus).
+4. Enforce rejection-rate guardrails for submitters.
+
+### 2.3 Directory Seeding Governance
+
+1. Generate unclaimed Directory profile projections from accepted submissions.
+2. Tag generated records as community-generated with invite attribution.
+3. Preserve clear ownership boundary: generated profile is unclaimed until verified owner claims.
+
+## 3) API Surface and Route Map (Planned)
+
+### 3.1 Plugin Command Surface (Authoritative)
+
+All command contracts conform to:
+
+- `.claude/rules/201-plugin-command-schema-template.mdc`
+- `.claude/rules/202-plugin-access-policy-schema-template.mdc`
+- `.claude/rules/203-plugin-audit-schema-template.mdc`
+
+Planned command groups:
+
+1. `skills-hunt.round.create`
+2. `skills-hunt.round.update`
+3. `skills-hunt.round.list`
+4. `skills-hunt.submission.create`
+5. `skills-hunt.submission.list`
+6. `skills-hunt.submission.review`
+7. `skills-hunt.leaderboard.list`
+8. `skills-hunt.achievement.list`
+9. `skills-hunt.notification.list`
+10. `skills-hunt.notification.ack`
+11. `skills-hunt.feature-reward-card.get`
+12. `skills-hunt.feature-reward-card.update`
+13. `skills-hunt.directory-profile.generate`
+
+### 3.2 HTTP Projection Routes (Planned)
+
+User routes:
+
+- `GET /api/skills-hunt/rounds`
+- `POST /api/skills-hunt/rounds/:roundId/submissions`
+- `GET /api/skills-hunt/rounds/:roundId/leaderboard?mode=individual|team`
+- `GET /api/skills-hunt/achievements`
+- `GET /api/skills-hunt/notifications`
+- `POST /api/skills-hunt/notifications/:notificationId/read`
+- `GET /api/skills-hunt/feature-reward-card`
+
+Admin/moderator routes:
+
+- `POST /api/skills-hunt/admin/rounds`
+- `PUT /api/skills-hunt/admin/rounds/:roundId`
+- `GET /api/skills-hunt/admin/rounds/:roundId/submissions`
+- `POST /api/skills-hunt/admin/submissions/:submissionId/review`
+- `PUT /api/skills-hunt/admin/feature-reward-card`
+- `POST /api/skills-hunt/admin/submissions/:submissionId/generate-directory-profile`
+
+## 4) Data Model and Storage Contracts (Planned)
+
+### 4.1 Canonical Identity and Extension Strategy
+
+1. Reuse canonical profile for identity and permission context.
+2. Use plugin extension/domain tables for Skills Hunt-specific state.
+3. Do not duplicate canonical profile tables.
+
+### 4.2 Planned Domain Entities
+
+1. `skills_hunt_rounds`
+2. `skills_hunt_submissions`
+3. `skills_hunt_leaderboard`
+4. `skills_hunt_achievements`
+5. `skills_hunt_notifications`
+6. `skills_hunt_feature_reward_card`
+7. `skills_hunt_audit_log`
+8. `skills_hunt_directory_profiles`
+9. `skills_hunt_rare_skills_lookup`
+
+### 4.3 Directory Integration Boundary
+
+1. Skills Hunt may generate unclaimed Directory profile records through governed adapter commands only.
+2. Skills Hunt MUST NOT bypass Directory policy controls.
+3. Ownership claim lifecycle remains Directory-authoritative.
+
+## 5) Security, Privacy, and Compliance Controls (Planned)
+
+1. Deny-by-default policy checks on all mutation commands.
+2. Role separation for contributor, moderator, and admin operations.
+3. Anti-spam/rate-limit controls for submission creation.
+4. Audit trails for allow/deny and review decisions.
+5. Sensitive-content minimization in logs and notifications.
+6. Distinct plugin deletion and full-account deletion behavior.
+
+## 6) Web and Android Delivery Strategy (Planned)
+
+1. Web-first initial delivery for round, submission, and leaderboard flows.
+2. Android parity follows via checklist-tracked milestones.
+3. Review semantics and scoring outcomes must remain cross-platform consistent.
+
+## 7) Test and Seed Coverage Status (Planned)
+
+Current status: **Planned (not implemented)**
+
+Planned test layers:
+
+1. Contract tests for command/access/audit parity.
+2. API tests for submission validation and duplicate blocking.
+3. Integration tests for review scoring and leaderboard rebuild behavior.
+4. Integration tests for directory-profile generation policy checks.
+5. E2E tests for contributor and moderator critical paths.
+
+Planned seed scope:
+
+1. Deterministic rounds and scoring configs.
+2. Deterministic accepted/rejected/flagged submission fixtures.
+3. Deterministic leaderboard and rare-skill fixtures.
+
+## 8) Gaps, Ambiguities, and Known Debt (Planning)
+
+1. Final policy for admin preapproval semantics requires product/compliance lock.
+2. URL liveness verification fallback behavior needs final SLO decision.
+3. Team leaderboard aggregation by profession taxonomy needs taxonomy owner sign-off.
+4. Android parity schedule and owner assignments must be locked before GA.
+
+## 9) Change Log
+
+- 2026-02-24: Created initial Skills Hunt CTF rewrite inventory with round lifecycle, validated submissions, moderation scoring, leaderboards, achievements, notifications, feature reward card, and Directory unclaimed-profile generation scope.

@@ -27,20 +27,24 @@ pnpm commit
 ```
 
 4. Answer the repo custom prompt script fields:
-  - `type`: choose the change kind by number or name (`feat`, `fix`, `docs`, etc.)
-  - `summary`: short, clear description (required)
-  - `Why` (optional): what problem this change solves
-  - `What` (optional): what you changed
-  - `confirm`: press Enter to create the commit by default, or type `n` to cancel
+
+- `type`: choose the change kind by number or name (`feat`, `fix`, `docs`, etc.)
+- `summary`: short, clear description (required)
+- `Why` (optional): what problem this change solves
+- `What` (optional): what you changed
+- `confirm`: press Enter to create the commit by default, or type `n` to cancel
 
 5. Open a pull request with a semantic title, for example:
-  - `feat(chat): add thread summary command`
-  - `fix(mobile): handle offline reconnect`
+
+- `feat(chat): add thread summary command`
+- `fix(mobile): handle offline reconnect`
+
 6. Use **Squash and merge** so history stays clean even with frequent incremental commits.
 
 ## 3) Required CI checks
 
 - PR title must be semantic (`PR Title Semantic` workflow).
+- Modularity/complexity governance must pass (`Modularity and Complexity Governance` in rewrite CI).
 - Parity status line must be present in PR description:
   - `Parity Status: web+android complete`
   - or `Parity Ticket: <issue-or-link>`

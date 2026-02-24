@@ -1,27 +1,26 @@
 # File Size and Modularity Rules
 
 ## Intent
-Prevent oversized files, reduce refactor risk, and keep implementation units easy to reason about.
+Keep implementation units easy to reason about by enforcing responsibility boundaries and measurable complexity limits.
 
-## Mandatory Line Budget
-- Default maximum size for source files is 300 lines.
-- Applies to `*.ts`, `*.tsx`, `*.js`, `*.jsx` in `ctf/packages/**`.
-- If a file exceeds 300 lines, split it by responsibility before merge.
+## Responsibility-First Rules
+- Keep one primary React component or one primary hook per file.
+- Small private helpers are allowed in the same file only when they are tightly coupled to that primary component or hook.
+- Split by clear responsibility boundaries: rendering, state/effects, data-fetching, utility logic, and styles.
+
+## Mandatory Governance Gates
+- Automated gate: cyclomatic complexity must be <= 10 per function.
+- Automated gate: max lines per function must be <= 200, excluding blank lines and comments.
+- These gates are enforced through ESLint for changed source files in `ctf/packages/**` (`*.ts`, `*.tsx`, `*.js`, `*.jsx`) in CI and local governance checks.
+- Cognitive complexity should be reviewed as part of code review; if no cognitive complexity plugin is available, treat elevated cognitive load as a review-level warning and refactor before merge when practical.
+- Tests and stories are excluded from these size/complexity expectations in policy terms.
 
 ## Immediate Refactoring Indicators
-- File is more than 300 lines long.
-- Multiple responsibilities in a single file.
-- Difficulty understanding the file's purpose at a glance.
-- More than 5-7 function/method definitions.
-- Excessive nested conditionals.
-- Multiple import groups with many dependencies.
-
-## Allowed Exceptions
-- Generated files.
-- Framework/build outputs.
-- Native platform directories (`android`, `ios`) where generated/boilerplate content may be larger.
-- Temporary exceptions must be listed in `ctf/config/file-size-exceptions.txt`.
-- Exception usage must be documented in PR description with reason and split follow-up plan.
+- One file is handling multiple responsibility boundaries.
+- A function exceeds complexity or max-lines governance gates.
+- Reviewers cannot describe the file's primary purpose in one sentence.
+- Frequent edits across unrelated concerns in the same file.
+- Growing conditional branches or side effects that obscure behavior.
 
 ## Splitting Guidance
 - Extract by domain responsibility, not arbitrary line counts.
@@ -29,5 +28,6 @@ Prevent oversized files, reduce refactor risk, and keep implementation units eas
 - Prefer composition over large monolithic utility or service files.
 
 ## Prohibited
-- Adding new features to files already over line budget without first splitting.
-- Creating god files that mix UI, data access, and policy logic.
+- Shipping files that mix UI, data access, state orchestration, and policy logic without clear boundaries.
+- Keeping unrelated responsibilities together to avoid modularization work.
+- Ignoring complexity gate failures without an approved remediation plan.

@@ -17,6 +17,7 @@ Use this checklist to configure repository branch protection for `main` so CI an
 - [ ] Add these required checks from workflow [rewrite-ci.yml](workflows/rewrite-ci.yml):
   - `Rules Integrity`
   - `Plugin Contract Templates`
+  - `Modularity and Complexity Governance`
   - `Stream Quota Policy`
   - `Stream Quota Impact Note`
   - `Rewrite Quality Gates`

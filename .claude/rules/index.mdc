@@ -50,7 +50,7 @@ If two rules conflict, choose the stricter rule and document the decision.
 ## Agent Startup Read Order
 - On each new task, read this `index.mdc` first.
 - Then read directly relevant modules before editing code (architecture, coding, testing/release, and domain-specific rules).
-- For file maintainability checks, consult `116-file-size-and-modularity-rules.mdc`, including its Immediate Refactoring Indicators.
+- For modularity governance checks, consult `116-file-size-and-modularity-rules.mdc`, including responsibility boundaries and complexity indicators.
 - When unclear, prefer broader safety/compliance and boundary rules over feature-level rules.
 
 ## CTF Contract

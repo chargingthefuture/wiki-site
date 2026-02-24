@@ -4,6 +4,7 @@ export * from "./models/message";
 export * from "./models/channel";
 export * from "./models/pluginProfile";
 export * from "./models/chyme";
+export * from "./models/skillsHunt";
 export * from "./api/httpClient";
 export * from "./api/streamClient";
 export * from "./api/chymeClient";
