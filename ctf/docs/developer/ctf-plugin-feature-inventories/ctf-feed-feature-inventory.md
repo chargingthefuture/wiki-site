@@ -22,7 +22,7 @@ Approved architecture decisions:
 Approved suggestions incorporated into this plan:
 
 1. Normalize product/documentation naming to **Announcements**.
-2. Preserve a legacy typo alias note for backward compatibility where old naming appears in code/history.
+2. Do not preserve a legacy typo alias note for backward compatibility where old naming appears in code/history.
 3. Introduce plugin membership event stream for join/leave and visibility recalculation events.
 4. Optional toast is supported as a Feed rendering mode under Feed controls.
 
