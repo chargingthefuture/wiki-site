@@ -1,6 +1,6 @@
 # Chyme Profile and Deletion Contract (Draft)
 
-This is the first completed draft using `MINI_APP_PROFILE_AND_DELETION_CONTRACT_TEMPLATE.md`.
+This is the first completed draft using `PLUGIN_PROFILE_AND_DELETION_CONTRACT_TEMPLATE.md`.
 
 ## 1) Plugin Metadata
 

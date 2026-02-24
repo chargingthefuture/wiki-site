@@ -1,0 +1,185 @@
+contracts:
+  - pluginId: gross-domestic-product
+    command: metrics.list
+    version: 1.0.0
+    description: List GDP canonical metrics available for public transparency views.
+    inputSchema:
+      period:
+        type: string
+        required: false
+        enum:
+          - year
+          - quarter
+          - month
+      year:
+        type: integer
+        required: false
+      includeDefinitions:
+        type: boolean
+        required: false
+    outputSchema:
+      metrics:
+        type: array
+      snapshotVersion:
+        type: string
+      generatedAt:
+        type: string
+    dataAccess:
+      - gdp_metric_snapshots
+      - canonical_metrics_registry
+    purpose: transparency_reporting
+    retentionClass: derived_medium_lived
+    idempotency: true
+
+  - pluginId: gross-domestic-product
+    command: metrics.get
+    version: 1.0.0
+    description: Retrieve a specific GDP metric time series and metadata.
+    inputSchema:
+      metricId:
+        type: string
+        required: true
+      startDate:
+        type: string
+        required: false
+      endDate:
+        type: string
+        required: false
+    outputSchema:
+      metric:
+        type: object
+      points:
+        type: array
+    dataAccess:
+      - gdp_metric_snapshots
+      - canonical_metrics_registry
+    purpose: transparency_reporting
+    retentionClass: derived_medium_lived
+    idempotency: true
+
+  - pluginId: gross-domestic-product
+    command: dashboard.snapshot.get
+    version: 1.0.0
+    description: Get aggregate GDP dashboard snapshot for survivor-facing public view.
+    inputSchema:
+      year:
+        type: integer
+        required: true
+      includeRolloutProgress:
+        type: boolean
+        required: false
+    outputSchema:
+      totalGDP:
+        type: number
+      serviceGDP:
+        type: number
+      goodsGDP:
+        type: number
+      perCapita:
+        type: number
+      categoryBreakdown:
+        type: array
+      providerTierBreakdown:
+        type: array
+      rolloutProgress:
+        type: object
+    dataAccess:
+      - gdp_metric_snapshots
+      - gdp_category_breakdowns
+      - gdp_provider_tier_snapshots
+      - gdp_rollout_actuals
+    purpose: transparency_reporting
+    retentionClass: derived_medium_lived
+    idempotency: true
+
+  - pluginId: gross-domestic-product
+    command: admin.metric.propose
+    version: 1.0.0
+    description: Propose a new canonical GDP metric definition or revision.
+    inputSchema:
+      proposedMetric:
+        type: object
+        required: true
+      justification:
+        type: string
+        required: true
+      changeType:
+        type: string
+        required: true
+        enum:
+          - add
+          - revise
+          - deprecate
+    outputSchema:
+      proposalId:
+        type: string
+      status:
+        type: string
+    dataAccess:
+      - canonical_metrics_registry
+      - gdp_metric_definition_events
+    purpose: metric_governance
+    retentionClass: audit_long_lived
+    idempotency: false
+
+  - pluginId: gross-domestic-product
+    command: admin.metric.approve
+    version: 1.0.0
+    description: Approve a metric proposal and publish definition changes.
+    inputSchema:
+      proposalId:
+        type: string
+        required: true
+      decision:
+        type: string
+        required: true
+        enum:
+          - approve
+          - reject
+      decisionNote:
+        type: string
+        required: false
+    outputSchema:
+      metricId:
+        type: string
+      status:
+        type: string
+      publishedVersion:
+        type: string
+    dataAccess:
+      - canonical_metrics_registry
+      - gdp_metric_definition_events
+      - gdp_publish_events
+    purpose: metric_governance
+    retentionClass: audit_long_lived
+    idempotency: false
+
+  - pluginId: gross-domestic-product
+    command: admin.snapshot.publish
+    version: 1.0.0
+    description: Publish an approved GDP snapshot for public survivor access.
+    inputSchema:
+      year:
+        type: integer
+        required: true
+      snapshotPayload:
+        type: object
+        required: true
+      sourceRunId:
+        type: string
+        required: true
+    outputSchema:
+      snapshotId:
+        type: string
+      status:
+        type: string
+      publishedAt:
+        type: string
+    dataAccess:
+      - gdp_metric_snapshots
+      - gdp_category_breakdowns
+      - gdp_provider_tier_snapshots
+      - gdp_publish_events
+    purpose: publication_governance
+    retentionClass: audit_long_lived
+    idempotency: false

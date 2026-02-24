@@ -60,10 +60,29 @@ jobs:
           run_script typecheck
           run_script test
 
+  schema-drift-gate:
+    name: Schema Drift Gate
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Enforce schema drift policy
+        run: |
+          set -euo pipefail
+
+          if [ "${{ github.event_name }}" = "push" ] && [ "${{ github.event.before }}" != "0000000000000000000000000000000000000000" ]; then
+            bash ctf/scripts/check-schema-drift.sh --ref-range "${{ github.event.before }}...${{ github.sha }}"
+          else
+            bash ctf/scripts/check-schema-drift.sh --all
+          fi
+
   vercel-deploy:
     name: Vercel Deploy
     runs-on: ubuntu-latest
-    needs: [quality-gate]
+    needs: [quality-gate, schema-drift-gate]
     environment: vercel-design
     # Required secrets in GitHub environment `vercel-design`:
     # - VERCEL_TOKEN

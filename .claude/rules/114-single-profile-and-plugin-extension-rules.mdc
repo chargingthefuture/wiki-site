@@ -29,7 +29,7 @@ Use one canonical user profile across the product and model plugin data as scope
 
 ## Required Delivery for Any New Plugin
 - Include a completed plugin profile/deletion contract from:
-  - `ctf/docs/templates/MINI_APP_PROFILE_AND_DELETION_CONTRACT_TEMPLATE.md`
+  - `ctf/docs/templates/PLUGIN_PROFILE_AND_DELETION_CONTRACT_TEMPLATE.md`
 - Include migration SQL for any schema changes under `ctf/migrations/`.
 - Include explicit PR section:
   - `Profile Extension Contract: <path or PR section>`

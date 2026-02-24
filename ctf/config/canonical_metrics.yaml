@@ -67,3 +67,605 @@ canonical_metrics:
       max: 100
       alert_rules:
         - "alert_if_value < -2"
+
+  - id: gdp_population_total
+    name: GDP Model Population Total
+    description: Population baseline used for GDP per-capita calculations.
+    owner: econ-metrics@chargingthefuture.org
+    data_type: integer
+    unit: people
+    calculation: |
+      SELECT population
+      FROM gdp_rollout_assumptions
+      WHERE scenario = :scenario
+        AND year = :year;
+    inputs:
+      - name: gdp_rollout_assumptions.population
+        type: integer
+      - name: gdp_rollout_assumptions.scenario
+        type: string
+      - name: gdp_rollout_assumptions.year
+        type: integer
+    example_values:
+      - 5000000
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: annual
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: gdp_total_revenue
+    name: GDP Total Revenue
+    description: Total annual GDP revenue (services plus goods/local economy).
+    owner: economics-team@chargingthefuture.org
+    data_type: currency
+    unit: USD
+    calculation: |
+      SELECT service_gdp_target + goods_revenue AS gdp_total_revenue
+      FROM gdp_yearly_projection
+      WHERE year = :year;
+    inputs:
+      - name: gdp_yearly_projection.service_gdp_target
+        type: currency
+      - name: gdp_yearly_projection.goods_revenue
+        type: currency
+      - name: gdp_yearly_projection.year
+        type: integer
+    example_values:
+      - 300000000000
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: annual
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+      alert_rules:
+        - "alert_if_annual_value < 250000000000"
+
+  - id: gdp_service_revenue_target
+    name: GDP Service Revenue Target
+    description: Annual service-sector GDP target value.
+    owner: economics-team@chargingthefuture.org
+    data_type: currency
+    unit: USD
+    calculation: |
+      SELECT service_gdp_target
+      FROM gdp_yearly_projection
+      WHERE year = :year;
+    inputs:
+      - name: gdp_yearly_projection.service_gdp_target
+        type: currency
+      - name: gdp_yearly_projection.year
+        type: integer
+    example_values:
+      - 210000000000
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: annual
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: gdp_services_per_capita
+    name: GDP Services Per Capita
+    description: Annual service GDP divided by population.
+    owner: economics-team@chargingthefuture.org
+    data_type: currency
+    unit: USD
+    calculation: |
+      SELECT service_gdp_target / NULLIF(population, 0) AS gdp_services_per_capita
+      FROM gdp_yearly_projection
+      WHERE year = :year;
+    inputs:
+      - name: gdp_yearly_projection.service_gdp_target
+        type: currency
+      - name: gdp_yearly_projection.population
+        type: integer
+      - name: gdp_yearly_projection.year
+        type: integer
+    example_values:
+      - 42000
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: annual
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: gdp_active_providers_count
+    name: GDP Active Providers Count
+    description: Annual count of active service providers participating in the GDP model.
+    owner: platform-ops@chargingthefuture.org
+    data_type: integer
+    unit: providers
+    calculation: |
+      SELECT active_providers
+      FROM gdp_yearly_projection
+      WHERE year = :year;
+    inputs:
+      - name: gdp_yearly_projection.active_providers
+        type: integer
+      - name: gdp_yearly_projection.year
+        type: integer
+    example_values:
+      - 4375000
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: annual
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: gdp_high_value_provider_count
+    name: GDP High-Value Provider Count
+    description: Number of high-value specialist providers.
+    owner: platform-ops@chargingthefuture.org
+    data_type: integer
+    unit: providers
+    calculation: |
+      SELECT high_value_count
+      FROM gdp_yearly_projection
+      WHERE year = :year;
+    inputs:
+      - name: gdp_yearly_projection.high_value_count
+        type: integer
+      - name: gdp_yearly_projection.year
+        type: integer
+    example_values:
+      - 500000
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: annual
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: gdp_high_value_hourly_rate
+    name: GDP High-Value Hourly Rate
+    description: Average hourly rate for high-value specialist providers.
+    owner: economics-team@chargingthefuture.org
+    data_type: currency
+    unit: USD_per_hour
+    calculation: |
+      SELECT high_value_rate
+      FROM gdp_yearly_projection
+      WHERE year = :year;
+    inputs:
+      - name: gdp_yearly_projection.high_value_rate
+        type: currency
+      - name: gdp_yearly_projection.year
+        type: integer
+    example_values:
+      - 144
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: annual
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: gdp_high_value_billable_hours
+    name: GDP High-Value Billable Hours
+    description: Average annual billable hours per high-value specialist.
+    owner: economics-team@chargingthefuture.org
+    data_type: float
+    unit: hours
+    calculation: |
+      SELECT high_value_hours
+      FROM gdp_yearly_projection
+      WHERE year = :year;
+    inputs:
+      - name: gdp_yearly_projection.high_value_hours
+        type: float
+      - name: gdp_yearly_projection.year
+        type: integer
+    example_values:
+      - 1200
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: annual
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: gdp_high_value_revenue
+    name: GDP High-Value Revenue
+    description: Annual total revenue from high-value specialist providers.
+    owner: economics-team@chargingthefuture.org
+    data_type: currency
+    unit: USD
+    calculation: |
+      SELECT high_value_count * high_value_rate * high_value_hours AS gdp_high_value_revenue
+      FROM gdp_yearly_projection
+      WHERE year = :year;
+    inputs:
+      - name: gdp_yearly_projection.high_value_count
+        type: integer
+      - name: gdp_yearly_projection.high_value_rate
+        type: currency
+      - name: gdp_yearly_projection.high_value_hours
+        type: float
+      - name: gdp_yearly_projection.year
+        type: integer
+    example_values:
+      - 86400000000
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: annual
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: gdp_mid_value_provider_count
+    name: GDP Mid-Value Provider Count
+    description: Number of mid-value professional providers.
+    owner: platform-ops@chargingthefuture.org
+    data_type: integer
+    unit: providers
+    calculation: |
+      SELECT mid_value_count
+      FROM gdp_yearly_projection
+      WHERE year = :year;
+    inputs:
+      - name: gdp_yearly_projection.mid_value_count
+        type: integer
+      - name: gdp_yearly_projection.year
+        type: integer
+    example_values:
+      - 1250000
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: annual
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: gdp_mid_value_hourly_rate
+    name: GDP Mid-Value Hourly Rate
+    description: Average hourly rate for mid-value professional providers.
+    owner: economics-team@chargingthefuture.org
+    data_type: currency
+    unit: USD_per_hour
+    calculation: |
+      SELECT mid_value_rate
+      FROM gdp_yearly_projection
+      WHERE year = :year;
+    inputs:
+      - name: gdp_yearly_projection.mid_value_rate
+        type: currency
+      - name: gdp_yearly_projection.year
+        type: integer
+    example_values:
+      - 70
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: annual
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: gdp_mid_value_billable_hours
+    name: GDP Mid-Value Billable Hours
+    description: Average annual billable hours per mid-value provider.
+    owner: economics-team@chargingthefuture.org
+    data_type: float
+    unit: hours
+    calculation: |
+      SELECT mid_value_hours
+      FROM gdp_yearly_projection
+      WHERE year = :year;
+    inputs:
+      - name: gdp_yearly_projection.mid_value_hours
+        type: float
+      - name: gdp_yearly_projection.year
+        type: integer
+    example_values:
+      - 1100
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: annual
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: gdp_mid_value_revenue
+    name: GDP Mid-Value Revenue
+    description: Annual total revenue from mid-value professional providers.
+    owner: economics-team@chargingthefuture.org
+    data_type: currency
+    unit: USD
+    calculation: |
+      SELECT mid_value_count * mid_value_rate * mid_value_hours AS gdp_mid_value_revenue
+      FROM gdp_yearly_projection
+      WHERE year = :year;
+    inputs:
+      - name: gdp_yearly_projection.mid_value_count
+        type: integer
+      - name: gdp_yearly_projection.mid_value_rate
+        type: currency
+      - name: gdp_yearly_projection.mid_value_hours
+        type: float
+      - name: gdp_yearly_projection.year
+        type: integer
+    example_values:
+      - 96250000000
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: annual
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: gdp_low_value_provider_count
+    name: GDP Low-Value Provider Count
+    description: Number of low-value or microservice providers.
+    owner: platform-ops@chargingthefuture.org
+    data_type: integer
+    unit: providers
+    calculation: |
+      SELECT low_value_count
+      FROM gdp_yearly_projection
+      WHERE year = :year;
+    inputs:
+      - name: gdp_yearly_projection.low_value_count
+        type: integer
+      - name: gdp_yearly_projection.year
+        type: integer
+    example_values:
+      - 2625000
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: annual
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: gdp_low_value_hourly_rate
+    name: GDP Low-Value Hourly Rate
+    description: Average hourly rate for low-value or microservice providers.
+    owner: economics-team@chargingthefuture.org
+    data_type: currency
+    unit: USD_per_hour
+    calculation: |
+      SELECT low_value_rate
+      FROM gdp_yearly_projection
+      WHERE year = :year;
+    inputs:
+      - name: gdp_yearly_projection.low_value_rate
+        type: currency
+      - name: gdp_yearly_projection.year
+        type: integer
+    example_values:
+      - 18
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: annual
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: gdp_low_value_billable_hours
+    name: GDP Low-Value Billable Hours
+    description: Average annual billable hours per low-value provider.
+    owner: economics-team@chargingthefuture.org
+    data_type: float
+    unit: hours
+    calculation: |
+      SELECT low_value_hours
+      FROM gdp_yearly_projection
+      WHERE year = :year;
+    inputs:
+      - name: gdp_yearly_projection.low_value_hours
+        type: float
+      - name: gdp_yearly_projection.year
+        type: integer
+    example_values:
+      - 600
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: annual
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: gdp_low_value_revenue
+    name: GDP Low-Value Revenue
+    description: Annual total revenue from low-value or microservice providers.
+    owner: economics-team@chargingthefuture.org
+    data_type: currency
+    unit: USD
+    calculation: |
+      SELECT low_value_count * low_value_rate * low_value_hours AS gdp_low_value_revenue
+      FROM gdp_yearly_projection
+      WHERE year = :year;
+    inputs:
+      - name: gdp_yearly_projection.low_value_count
+        type: integer
+      - name: gdp_yearly_projection.low_value_rate
+        type: currency
+      - name: gdp_yearly_projection.low_value_hours
+        type: float
+      - name: gdp_yearly_projection.year
+        type: integer
+    example_values:
+      - 28350000000
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: annual
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: gdp_platform_other_revenue
+    name: GDP Platform and Other Revenue
+    description: Platform fees, subscriptions, and pooled institutional services revenue.
+    owner: finance@chargingthefuture.org
+    data_type: currency
+    unit: USD
+    calculation: |
+      SELECT platform_other_revenue
+      FROM gdp_yearly_projection
+      WHERE year = :year;
+    inputs:
+      - name: gdp_yearly_projection.platform_other_revenue
+        type: currency
+      - name: gdp_yearly_projection.year
+        type: integer
+    example_values:
+      - 79500000000
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: annual
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: gdp_total_service_revenue
+    name: GDP Total Service Revenue
+    description: Sum of high/mid/low provider revenues plus platform and other service revenue.
+    owner: economics-team@chargingthefuture.org
+    data_type: currency
+    unit: USD
+    calculation: |
+      SELECT high_value_revenue + mid_value_revenue + low_value_revenue + platform_other_revenue AS gdp_total_service_revenue
+      FROM gdp_yearly_projection
+      WHERE year = :year;
+    inputs:
+      - name: gdp_yearly_projection.high_value_revenue
+        type: currency
+      - name: gdp_yearly_projection.mid_value_revenue
+        type: currency
+      - name: gdp_yearly_projection.low_value_revenue
+        type: currency
+      - name: gdp_yearly_projection.platform_other_revenue
+        type: currency
+      - name: gdp_yearly_projection.year
+        type: integer
+    example_values:
+      - 210000000000
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: annual
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: gdp_goods_revenue
+    name: GDP Goods and Local Revenue
+    description: Annual goods and local economy revenue component.
+    owner: economics-team@chargingthefuture.org
+    data_type: currency
+    unit: USD
+    calculation: |
+      SELECT goods_revenue
+      FROM gdp_yearly_projection
+      WHERE year = :year;
+    inputs:
+      - name: gdp_yearly_projection.goods_revenue
+        type: currency
+      - name: gdp_yearly_projection.year
+        type: integer
+    example_values:
+      - 90000000000
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: annual
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: gdp_services_personal_social_revenue
+    name: GDP Services Personal and Social Care Revenue
+    description: Revenue attributed to personal and social care services.
+    owner: economics-team@chargingthefuture.org
+    data_type: currency
+    unit: USD
+    calculation: |
+      SELECT gdp_total_service_revenue * 0.30 AS gdp_services_personal_social_revenue
+      FROM gdp_snapshots
+      WHERE year = :year;
+    inputs:
+      - name: gdp_snapshots.gdp_total_service_revenue
+        type: currency
+      - name: gdp_snapshots.year
+        type: integer
+    example_values:
+      - 63000000000
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: annual
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: gdp_services_professional_knowledge_revenue
+    name: GDP Services Professional and Knowledge Revenue
+    description: Revenue attributed to professional and knowledge services.
+    owner: economics-team@chargingthefuture.org
+    data_type: currency
+    unit: USD
+    calculation: |
+      SELECT gdp_total_service_revenue * 0.30 AS gdp_services_professional_knowledge_revenue
+      FROM gdp_snapshots
+      WHERE year = :year;
+    inputs:
+      - name: gdp_snapshots.gdp_total_service_revenue
+        type: currency
+      - name: gdp_snapshots.year
+        type: integer
+    example_values:
+      - 63000000000
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: annual
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: gdp_services_platform_marketplace_revenue
+    name: GDP Services Platform and Marketplace Revenue
+    description: Revenue attributed to platform and marketplace services.
+    owner: economics-team@chargingthefuture.org
+    data_type: currency
+    unit: USD
+    calculation: |
+      SELECT gdp_total_service_revenue * 0.15 AS gdp_services_platform_marketplace_revenue
+      FROM gdp_snapshots
+      WHERE year = :year;
+    inputs:
+      - name: gdp_snapshots.gdp_total_service_revenue
+        type: currency
+      - name: gdp_snapshots.year
+        type: integer
+    example_values:
+      - 31500000000
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: annual
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: gdp_services_creative_cultural_revenue
+    name: GDP Services Creative and Cultural Revenue
+    description: Revenue attributed to creative and cultural services.
+    owner: economics-team@chargingthefuture.org
+    data_type: currency
+    unit: USD
+    calculation: |
+      SELECT gdp_total_service_revenue * 0.10 AS gdp_services_creative_cultural_revenue
+      FROM gdp_snapshots
+      WHERE year = :year;
+    inputs:
+      - name: gdp_snapshots.gdp_total_service_revenue
+        type: currency
+      - name: gdp_snapshots.year
+        type: integer
+    example_values:
+      - 21000000000
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: annual
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: gdp_services_maintenance_utilities_revenue
+    name: GDP Services Maintenance and Utilities Revenue
+    description: Revenue attributed to maintenance and local utilities services.
+    owner: economics-team@chargingthefuture.org
+    data_type: currency
+    unit: USD
+    calculation: |
+      SELECT gdp_total_service_revenue * 0.15 AS gdp_services_maintenance_utilities_revenue
+      FROM gdp_snapshots
+      WHERE year = :year;
+    inputs:
+      - name: gdp_snapshots.gdp_total_service_revenue
+        type: currency
+      - name: gdp_snapshots.year
+        type: integer
+    example_values:
+      - 31500000000
+    last_updated: "2026-02-24T00:00:00Z"
+    update_cadence: annual
+    retention: 120 months
+    allowed_thresholds:
+      min: 0

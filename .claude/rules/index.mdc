@@ -29,6 +29,7 @@
 - [119-github-actions-ci-rules.mdc](119-github-actions-ci-rules.mdc)
 - [120-plugin-feature-inventory-lifecycle-rules.mdc](120-plugin-feature-inventory-lifecycle-rules.mdc)
 - [121-canonical-metric-registry-rules.mdc](121-canonical-metric-registry-rules.mdc)
+- [122-schema-drift-predeployment-rules.mdc](122-schema-drift-predeployment-rules.mdc)
 - [200-plugin-command-contract-templates.mdc](200-plugin-command-contract-templates.mdc)
 - [201-plugin-command-schema-template.mdc](201-plugin-command-schema-template.mdc)
 - [202-plugin-access-policy-schema-template.mdc](202-plugin-access-policy-schema-template.mdc)
