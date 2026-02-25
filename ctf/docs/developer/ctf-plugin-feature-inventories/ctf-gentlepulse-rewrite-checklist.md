@@ -55,7 +55,7 @@
     - Meditations/play/ratings/favorites routes are versioned and documented.
 - [ ] Add regression guard for excluded scopes.
   - Acceptance criteria:
-    - Tests or lint/contract checks fail if excluded route groups are introduced.
+    - Validation gate or lint/contract checks fail if excluded route groups are introduced.
 
 ## Phase 3 — Security and Compliance Gates
 
@@ -78,17 +78,17 @@
   - Acceptance criteria:
     - GentlePulse clients consume app-level settings contracts rather than plugin-local settings logic.
 
-## Phase 5 — Testing, Seeds, and Release Evidence
+## Phase 5 — Validation, Seeds, and Release Evidence
 
-- [ ] Add API/integration tests for retained feature scope.
+- [ ] Validate API/integration behavior manually for retained feature scope.
   - Acceptance criteria:
     - Meditations, play count, ratings, and favorites are covered.
 - [ ] Add deterministic seed fixtures for retained domain entities.
   - Acceptance criteria:
-    - Meditation and interaction fixtures are deterministic and schema-compatible.
+    - Meditation and interaction fixtures are deterministic, schema-compatible, and ready for local/dev manual validation.
 - [ ] Include parity and scope evidence in PRs.
   - Acceptance criteria:
-    - Each completed checklist item references implementation/test/doc evidence.
+    - Each completed checklist item references implementation/validation/doc evidence.
     - CTF inventory + checklist are updated in same PR as feature-scope changes.
 
 ## Change Log

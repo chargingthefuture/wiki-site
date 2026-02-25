@@ -21,7 +21,7 @@
     - Included enhancements: deterministic recruited inference, canonical metric lock, recompute controls, and standardized audit-events route.
 - [ ] Confirm mobile admin is in v1 scope.
   - Acceptance criteria:
-    - Admin capabilities included in web and mobile parity contract/test scope.
+    - Admin capabilities included in web and mobile parity contract/validation scope.
 
 ## Phase 0 — Legacy Review and Contract Lock
 
@@ -103,7 +103,7 @@
     - Only Directory create/update writes can produce recruited inference events.
 - [ ] Add regression guard against manual recruited event mutation paths.
   - Acceptance criteria:
-    - Tests fail if user/admin-triggered recruited event creation is introduced.
+    - Validation gate fails if user/admin-triggered recruited event creation is introduced.
 
 ## Phase 4 — Security and Compliance Gates
 
@@ -121,15 +121,15 @@
   - Acceptance criteria:
     - Audit contract evidence includes both success and denied operation cases.
 
-## Phase 5 — Testing, Seed, and Non-Regression Gates
+## Phase 5 — Validation, Seeds, and Non-Regression Gates
 
-- [ ] Add contract tests for command/policy/audit schemas.
+- [ ] Validate command/policy/audit schema behavior manually.
   - Acceptance criteria:
-    - Tests cover valid and invalid payload paths for all core commands.
-- [ ] Add integration tests for recruited derivation and dashboard semantics.
+    - Manual validation covers valid and invalid payload paths for all core commands.
+- [ ] Validate recruited derivation and dashboard semantics manually.
   - Acceptance criteria:
-    - Tests verify live current-state and historical weekly-bucket behavior.
-- [ ] Add integration tests for parity user/admin flows.
+    - Manual validation verifies live current-state and historical weekly-bucket behavior.
+- [ ] Validate parity user/admin flows manually.
   - Acceptance criteria:
     - Profile, occupations, announcements, report drilldowns, and async export job flows are covered.
     - Mobile admin parity scenarios are covered for in-scope operations.
@@ -138,7 +138,7 @@
     - Seed outputs are deterministic and schema-compatible.
 - [ ] Add non-regression guard for accidental legacy event artifacts.
   - Acceptance criteria:
-    - Test and/or lint gate fails if legacy accidental event artifact patterns are reintroduced.
+    - Validation and/or lint gate fails if legacy accidental event artifact patterns are reintroduced.
 
 ## Phase 6 — PR Evidence and Release Readiness
 
@@ -147,7 +147,7 @@
     - PR includes drift check output, migration replay evidence, rollback notes, and compatibility decision.
 - [ ] Include checklist evidence links for each completed item.
   - Acceptance criteria:
-    - Each checked item links to implementation/test/doc artifacts.
+    - Each checked item links to implementation/validation/doc artifacts.
 - [ ] Confirm inventory + checklist lifecycle compliance.
   - Acceptance criteria:
     - `ctf-workforce-feature-inventory.md` and this checklist are updated in the same PR as behavior/contract changes.

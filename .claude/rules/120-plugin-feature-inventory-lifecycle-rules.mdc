@@ -14,7 +14,7 @@ Require a living feature inventory artifact for every plugin implemented in `ctf
 
 ## Mandatory Folder and Naming Convention
 - **Legacy reference inventories** remain in:
-  - `ctf/docs/developer/*-feature-inventory.md`
+  - `ctf/docs/developer/legacy-inventories/*-feature-inventory.md`
   - Titles should include `(Legacy Reference)`.
 - **CTF rewrite inventories** must be created in a distinct folder:
   - `ctf/docs/developer/ctf-plugin-feature-inventories/`
@@ -39,7 +39,7 @@ Require a living feature inventory artifact for every plugin implemented in `ctf
 - API surface and route map.
 - Data model and storage contracts.
 - Security/compliance controls.
-- Test and seed coverage status.
+- Seed coverage status with deterministic plugin seed script requirement for manual plugin validation in dev environments.
 - Gaps/ambiguities and known technical debt.
 - Change log section with date-stamped entries.
 

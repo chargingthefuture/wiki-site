@@ -99,12 +99,12 @@
   - Acceptance criteria:
     - Blocks lifecycle and enforcement behavior mirror shared contract outcomes.
 
-## Phase 5 — Security, Testing, and Release Gates
+## Phase 5 — Security, Validation, Seeds, and Release Gates
 
-- [ ] Add API contract tests for all route families.
+- [ ] Validate API contracts manually for all route families.
   - Acceptance criteria:
     - Profile/property/match/announcement/admin/blocks endpoints cover success and deny cases.
-- [ ] Add security tests for policy-critical controls.
+- [ ] Validate policy-critical security controls manually.
   - Acceptance criteria:
     - Authz, CSRF, role, ownership, and block-policy denials are covered.
 - [ ] Add end-to-end coverage for critical LightHouse journeys.
@@ -124,8 +124,8 @@
     - `ctf-lighthouse-feature-inventory.md` and this checklist are updated in the same PR when behavior/contracts change.
 - [ ] Add evidence links when checklist items are completed.
   - Acceptance criteria:
-    - Checked items include references to implementation/tests/docs proving completion.
+    - Checked items include references to implementation/validation/docs proving completion.
 
 ## Change Log
 
-- 2026-02-25: Created initial LightHouse CTF rewrite checklist aligned to parity inventory scope, with v1 blocks inclusion, web+android parity gates, schema/deletion decision locks, and security/policy test requirements.
+- 2026-02-25: Created initial LightHouse CTF rewrite checklist aligned to parity inventory scope, with v1 blocks inclusion, web+android parity gates, schema/deletion decision locks, and security/policy validation requirements.

@@ -128,21 +128,9 @@ Consumer routes:
 3. Full mobile admin CRUD parity remains an explicit open decision.
 4. Read-model semantics must remain consistent across web and Android consumers.
 
-## 8) Test and Seed Coverage Status (Planned)
+## 8) Seed Coverage Status (Planned)
 
-Current status: **Planned (not implemented)**
-
-Planned test layers:
-
-1. Contract tests for command/access/audit alignment.
-2. API tests for hierarchy CRUD validation and parent-child constraints.
-3. Integration tests for dependency-impact checks and destructive-delete policy gates.
-4. Cross-app compatibility tests for hierarchy/flattened read-model consumers.
-
-Planned seed scope:
-
-1. Deterministic taxonomy tree fixtures (sector/job-title/skill).
-2. Deterministic dependency reference fixtures for delete-impact scenarios.
+Seed script requirement: Provide a deterministic plugin seed script with dummy development data for manual plugin validation in dev environments.
 
 ## 9) Open Decisions
 

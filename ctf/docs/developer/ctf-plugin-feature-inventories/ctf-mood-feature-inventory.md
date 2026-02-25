@@ -80,19 +80,9 @@ Excluded route groups:
 2. Cooldown and validation semantics must match between web and Android.
 3. No Mood admin parity obligations in web/mobile for this rewrite scope.
 
-## 7) Test and Seed Coverage Status (Planned)
+## 7) Seed Coverage Status (Planned)
 
-Current status: **Planned (not implemented)**
-
-Planned test layers:
-
-1. API tests for submit and eligibility endpoints.
-2. Integration tests for cooldown gating and validation edge cases.
-3. Web/mobile parity acceptance checks for mood submission and eligibility states.
-
-Planned seed scope:
-
-1. Deterministic mood-check fixtures for cooldown/eligibility scenarios.
+Seed script requirement: Provide a deterministic plugin seed script with dummy development data for manual plugin validation in dev environments.
 
 ## 8) Gaps, Ambiguities, and Known Debt (Planning)
 

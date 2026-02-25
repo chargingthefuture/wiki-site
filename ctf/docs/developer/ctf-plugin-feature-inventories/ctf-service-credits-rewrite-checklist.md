@@ -114,23 +114,23 @@
   - Acceptance criteria:
     - Account-deletion treasury returns are recorded as reserve reallocations and excluded from GDP recognition metrics.
 
-## Phase 6 — Tests and Release
+## Phase 6 — Validation, Seeds, and Release Gates
 
-- [ ] Add command schema validation tests.
+- [ ] Validate command schema behavior manually.
   - Acceptance criteria:
     - Unknown fields/invalid types/bounds failures are covered.
-- [ ] Add access policy enforcement tests.
+- [ ] Validate access policy enforcement manually.
   - Acceptance criteria:
     - Missing scope, wrong role, cross-tenant, invalid plugin-path, and no-fiat violations are denied.
-- [ ] Add audit integrity tests.
+- [ ] Validate audit integrity manually.
   - Acceptance criteria:
     - Allow + deny events are append-only and include request/trace correlation fields.
-- [ ] Add integration tests for adapter seam and failure recovery.
+- [ ] Validate adapter seam and failure recovery manually.
   - Acceptance criteria:
     - Adapter timeout/retry/failure classes produce deterministic command outcomes.
 - [ ] Add deterministic seed checks for financial scenarios.
   - Acceptance criteria:
-    - Wallet/transfer/escrow/treasury/dispute seed scenarios are reproducible in local/dev/test/CI.
+    - Wallet/transfer/escrow/treasury/dispute seed scenarios are reproducible via deterministic seed scripts/data for local/dev manual validation and CI.
 
 ## Phase 7 — Docs Lifecycle
 

@@ -154,7 +154,6 @@ Planned extension entity:
   - `user_id`
   - display preferences for GDP views,
   - locale/unit preferences,
-  - accessibility preferences,
   - notification preferences for GDP update events.
 
 ### 4.2 Domain Entities
@@ -240,7 +239,7 @@ Planned domain tables (initial set):
 
 ### 5.5 Governance and Survivor Safety Review (Required)
 
-1. Conduct adversarial re-identification testing before each major GDP release and remediate all high-severity findings.
+1. Conduct adversarial re-identification assessments before each major GDP release and remediate all high-severity findings.
 2. Require independent ethics review and survivor-safety consultation checkpoints for high-impact metric changes.
 3. Keep dashboard/source code open, while treating raw datasets and high-risk intermediate outputs as controlled data assets.
 4. Publish a plain-language privacy risk statement describing controls, limitations, and known residual risk.
@@ -256,24 +255,9 @@ Planned domain tables (initial set):
 
 ---
 
-## 7) UX Direction and Interaction Notes (Planned)
+## 8) Seed Coverage Status (Planned)
 
-1. Data-dense but plain-language economics UI for broad accessibility.
-2. High contrast, low-cognitive-load visual hierarchy.
-3. No manipulative urgency patterns or scarcity framing.
-4. Transparent assumptions and caveats near every high-impact figure.
-
----
-
-## 8) Test and Seed Coverage Status (Planned)
-
-1. Contract tests for GDP command schemas.
-2. Access policy tests for admin vs authenticated-read command surfaces.
-3. Audit integrity tests for all GDP mutation commands.
-4. Integration tests for snapshot publish + retrieval flows.
-5. Deterministic seed scenarios for 5-year GDP rollout examples.
-6. Re-identification and differencing-resistance tests for sensitive aggregate outputs.
-7. DP parameter validation tests (`epsilon`, `delta`, sensitivity assumptions, budget accounting).
+Seed script requirement: Provide a deterministic plugin seed script with dummy development data for manual plugin validation in dev environments.
 
 ### 8.1 Release-Blocking Privacy Evidence (Required)
 

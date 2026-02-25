@@ -176,24 +176,9 @@ Planned domain tables (initial set):
 
 ---
 
-## 8) Test and Seed Coverage Status
+## 8) Seed Coverage Status (Planned)
 
-Current status: **Planned (not yet implemented)**
-
-Planned tests:
-
-1. Command schema + policy + audit contract tests.
-2. API tests for draft/publish/archive/read/dismiss behaviors.
-3. Integration tests for targeting resolution and membership event recalculation.
-4. Integration tests for Postgres canonical state + Stream projection consistency.
-5. Web E2E tests for announcement lifecycle and rendering in Feed.
-6. Android follow-up validation tests tracked by deferred parity ticket.
-
-Planned seeds:
-
-1. Draft/scheduled/published/archived announcement fixtures.
-2. Target segment fixtures and membership events.
-3. Read/acknowledged/dismissed user-state fixtures.
+Seed script requirement: Provide a deterministic plugin seed script with dummy development data for manual plugin validation in dev environments.
 
 ---
 

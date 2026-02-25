@@ -86,21 +86,9 @@ Admin routes:
 3. Week-selector behavior, current-week polling policy, and empty/error semantics must remain cross-platform consistent.
 4. Metric definitions, formatting semantics, and deny reasons must remain cross-platform consistent.
 
-## 6) Test and Seed Coverage Status (Planned)
+## 6) Seed Coverage Status (Planned)
 
-Current status: **Planned (not implemented)**
-
-Planned test layers:
-
-1. Command/access/audit contract parity tests.
-2. API contract tests for week selection and required metrics fields.
-3. Integration tests for week-over-week calculations and fallback semantics.
-4. E2E tests for admin weekly review critical path.
-
-Planned seed scope:
-
-1. Deterministic week windows with baseline and comparison fixtures.
-2. Deterministic user/payment/engagement aggregates for reproducible assertions.
+Seed script requirement: Provide a deterministic plugin seed script with dummy development data for manual plugin validation in dev environments.
 
 ## 7) Open Decisions
 

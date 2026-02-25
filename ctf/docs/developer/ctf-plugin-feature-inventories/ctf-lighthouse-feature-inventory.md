@@ -213,24 +213,9 @@ Contract expectations:
 3. UI layout may differ by platform conventions, but functional outcomes must match.
 4. Safety/privacy/compliance-critical controls cannot be platform-incomplete at release.
 
-## 7) Test and Seed Coverage Status (Planned)
+## 7) Seed Coverage Status (Planned)
 
-Current status: **Planned (not implemented)**
-
-Planned test layers:
-
-1. API contract tests for profile/property/match/announcement/blocks route families.
-2. Security tests for authz, CSRF, ownership, and role-gate denials.
-3. End-to-end tests for seeker and host journeys, including admin moderation paths.
-4. Web and Android parity acceptance checks for critical user/admin flows.
-5. Regression tests for duplicate match prevention and block interaction impacts.
-
-Planned seed scope:
-
-1. Deterministic seeker/host profiles.
-2. Deterministic property/match fixtures.
-3. Deterministic announcement fixtures (active/expired/deactivated).
-4. Deterministic blocks fixtures for policy behavior verification.
+Seed script requirement: Provide a deterministic plugin seed script with dummy development data for manual plugin validation in dev environments.
 
 ## 8) Design References (Inventory Phase)
 
@@ -240,16 +225,13 @@ User-provided references are accepted now for inventory direction and should gui
 2. Property details visual hierarchy and card-system references.
 3. Mobile-first listing and dashboard concepts.
 
-Inventory constraint:
-
-- These references inform UX direction only in this phase; implementation contracts remain governed by plugin parity and policy rules.
 
 ## 9) Open Decisions, Ambiguities, and Migration Risks
 
 1. Canonical schema lock across migrations/shared contracts must be confirmed before implementation starts.
 2. Host-profile deletion semantics for linked properties/matches require explicit FK-safe contract decisions.
 3. Blocks route contract and policy error taxonomy need final lock before endpoint implementation.
-4. Legacy test reliability drift indicates parity acceptance must rely on refreshed selectors and contract-level coverage.
+4. Legacy reliability drift indicates parity acceptance must rely on refreshed selectors and contract-level coverage.
 5. Rate-limiting/anti-scraping strategy for LightHouse endpoints should be finalized as part of rewrite hardening.
 
 ## 10) Change Log

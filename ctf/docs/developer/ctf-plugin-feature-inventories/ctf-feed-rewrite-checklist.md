@@ -93,17 +93,17 @@
   - Acceptance criteria:
     - Logs omit sensitive payload details while preserving operational/audit fields.
 
-## Testing and Seed Gates
+## Validation, Seeds, and Release Gates
 
-- [ ] Add command contract tests.
+- [ ] Validate command contracts manually.
   - Acceptance criteria:
-    - Schema, policy, and audit validation tests cover rejection paths.
-- [ ] Add integration tests for Postgres + Stream consistency.
+    - Schema, policy, and audit manual validation covers rejection paths.
+- [ ] Validate Postgres + Stream consistency manually.
   - Acceptance criteria:
     - Canonical-write-before-fan-out invariant is verified.
-- [ ] Add web E2E tests for timeline and optional toast mode.
+- [ ] Run manual end-to-end walkthrough for web timeline and optional toast mode.
   - Acceptance criteria:
-    - Rendering mode toggles and fallbacks are tested.
+    - Rendering mode toggles and fallbacks are manually validated.
 - [ ] Add deterministic seed scenarios.
   - Acceptance criteria:
     - Seed set includes feed items, announcements, membership events, and read/dismiss states.
@@ -118,7 +118,7 @@
     - PR includes command output/screenshots/logs proving drift check completion and migration verification.
 - [ ] Include implementation evidence for completed checklist items.
   - Acceptance criteria:
-    - Each checked item references PR/commit/test artifacts.
+    - Each checked item references PR/commit/validation artifacts.
 
 ## Change Log
 

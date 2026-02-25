@@ -50,7 +50,7 @@
     - `mood.check.submit` and `mood.check.eligibility.fetch` are represented in command-contract artifacts.
 - [ ] Add regression guard for excluded scopes.
   - Acceptance criteria:
-    - Tests or lint/contract checks fail if announcements/admin/safety-trigger surface is introduced.
+    - Validation gate or lint/contract checks fail if announcements/admin/safety-trigger surface is introduced.
 
 ## Phase 3 — Security and Compliance Gates
 
@@ -76,17 +76,17 @@
   - Acceptance criteria:
     - No Mood admin or announcements parity tasks are required because these are out of scope.
 
-## Phase 5 — Testing, Seeds, and Release Evidence
+## Phase 5 — Validation, Seeds, and Release Evidence
 
-- [ ] Add API/integration tests for retained feature scope.
+- [ ] Validate API/integration behavior manually for retained feature scope.
   - Acceptance criteria:
     - Submit and eligibility behaviors are covered, including cooldown edges.
 - [ ] Add deterministic seed fixtures for retained domain entities.
   - Acceptance criteria:
-    - Mood-check fixtures support repeatable eligibility test scenarios.
+    - Mood-check fixtures use deterministic seed scripts/data to support repeatable local/dev manual validation scenarios.
 - [ ] Include parity and scope evidence in PRs.
   - Acceptance criteria:
-    - Each completed checklist item references implementation/test/doc evidence.
+    - Each completed checklist item references implementation/validation/doc evidence.
     - CTF inventory + checklist are updated in same PR as feature-scope changes.
 
 ## Change Log

@@ -218,24 +218,9 @@ Planned canonical definition notes for `recruited`:
 5. Data minimization and sensitive-field redaction in logs/diagnostics.
 6. Plugin deletion/profile handling aligns to `ctf/docs/templates/PLUGIN_PROFILE_AND_DELETION_CONTRACT_TEMPLATE.md`.
 
-## 7) Test and Seed Coverage Status (Planned)
+## 7) Seed Coverage Status (Planned)
 
-Current status: **Planned (not implemented)**
-
-Planned test layers:
-
-1. Contract tests for command, access policy, and audit schemas.
-2. API tests for dashboard/profile/occupations/reports/announcements/export/admin mutation paths.
-3. Integration tests for Directory-write-driven recruited inference.
-4. Integration tests for live vs historical dashboard parity rules.
-5. E2E tests for key user/admin workforce flows.
-6. Mobile parity tests for user + admin Workforce surfaces in v1 scope.
-
-Planned seed scope:
-
-1. Deterministic Directory create/update fixtures for recruited derivation.
-2. Deterministic workforce config/report fixtures.
-3. Deterministic append-only inferred event fixtures for historical trend validation.
+Seed script requirement: Provide a deterministic plugin seed script with dummy development data for manual plugin validation in dev environments.
 
 ## 8) Gaps, Ambiguities, and Known Debt (Planning)
 

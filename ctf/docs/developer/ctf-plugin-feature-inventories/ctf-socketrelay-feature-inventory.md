@@ -137,18 +137,9 @@ Admin routes:
 3. Android gaps are tracked as explicit deferrals with owner, due date, and risk note.
 4. Deferred Android items do not block MVP release unless explicitly escalated.
 
-## 7) Test and Seed Coverage Status (Planned)
+## 7) Seed Coverage Status (Planned)
 
-Current status: **Planned (not implemented)**
-
-Planned coverage:
-
-1. Contract tests for all user/public/admin route groups.
-2. Policy tests for authz, ownership checks, and CSRF-protected writes.
-3. Privacy tests for public DTO projection constraints.
-4. Abuse-control tests for anti-scraping/rate-limit behaviors.
-5. Lifecycle integration tests for request → fulfillment → close and chat access control.
-6. Deterministic seed checks for profile/request/fulfillment/announcement baselines.
+Seed script requirement: Provide a deterministic plugin seed script with dummy development data for manual plugin validation in dev environments.
 
 ## 8) Gaps, Ambiguities, and Known Technical Debt
 
@@ -157,7 +148,7 @@ Known risks carried from legacy inventory:
 1. **Schema drift** risk across shared schema, SQL migrations, and seed assumptions.
 2. **Public DTO privacy mismatch** risk between intended projection and actual exposed fields.
 3. **Cross-module boundary bleed** risk in route/module ownership.
-4. **Test weakness** risk for lifecycle, policy denial, and regression paths.
+4. **Coverage weakness** risk for lifecycle, policy denial, and regression paths.
 5. **CSRF consistency ambiguity** risk on admin write protections.
 
 Open planning decisions:

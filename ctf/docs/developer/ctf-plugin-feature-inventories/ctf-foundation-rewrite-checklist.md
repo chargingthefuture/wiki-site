@@ -95,7 +95,7 @@
 
 - [ ] Create parity tracking table for all web-delivered Foundation capabilities.
   - Acceptance criteria:
-    - Each capability includes owner, target sprint/date, risk, and parity test status.
+    - Each capability includes owner, target sprint/date, risk, and parity validation status.
 - [ ] Implement Android parity for provider search and selection.
   - Acceptance criteria:
     - Android outcomes match web command semantics and policy decisions.
@@ -134,24 +134,24 @@
     - Plugin-scoped deletion preserves canonical profile and Directory data.
     - Full-account flow removes Foundation user-scoped data per orchestrator policy.
 
-## Testing and Release Gates
+## Validation, Seeds, and Release Gates
 
-- [ ] Add command schema validation tests.
+- [ ] Validate command schema behavior manually.
   - Acceptance criteria:
     - Unknown fields, type errors, bounds violations, and invalid enum values fail.
-- [ ] Add access policy enforcement tests.
+- [ ] Validate access policy enforcement manually.
   - Acceptance criteria:
     - Missing consent, wrong role, region restrictions, cross-tenant access, and deny conditions are covered.
-- [ ] Add audit contract tests.
+- [ ] Validate audit contract behavior manually.
   - Acceptance criteria:
     - Allow and deny outcomes include expected evidence fields and request/trace correlations.
-- [ ] Add integration tests for quote lifecycle and history.
+- [ ] Validate quote lifecycle and history behavior manually.
   - Acceptance criteria:
     - Requested/provider_responded/closed transitions and read permissions are deterministic.
-- [ ] Add integration tests for Stream degradation behavior.
+- [ ] Validate Stream degradation behavior manually.
   - Acceptance criteria:
     - Yellow/orange/red threshold behavior aligns with Maker-tier rules.
-- [ ] Add web + Android parity acceptance tests.
+- [ ] Run web + Android parity manual validation walkthroughs.
   - Acceptance criteria:
     - Parity-required flows pass with equivalent outcomes.
 
@@ -165,7 +165,7 @@
     - Command/policy/audit changes include migration impact notes when relevant.
 - [ ] Capture checklist evidence links for completed items.
   - Acceptance criteria:
-    - Each completed checkbox references PR/commit/test/document evidence.
+    - Each completed checkbox references PR/commit/validation/document evidence.
 
 ## Change Log
 

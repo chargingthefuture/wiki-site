@@ -222,27 +222,9 @@ Planned domain tables (initial set):
 
 ---
 
-## 7) UX Direction and Interaction Notes (Planned)
+## 8) Seed Coverage Status (Planned)
 
-1. Credits-first language must avoid fiat framing (no "cash out" or currency equivalence promises).
-2. High-risk mutation confirmations should be clear, concise, and reversible where policy permits.
-3. User-facing transaction states should prioritize clarity over financial jargon.
-4. Denied command messages should include non-sensitive reason categories and next-step guidance.
-5. Full account deletion flow should notify users of reclaim-window timing, escrow-hold blockers, and treasury return completion.
-
----
-
-## 8) Test and Seed Coverage Status (Planned)
-
-1. Contract tests for all Service Credits command schemas.
-2. Access policy tests for role, tenancy, consent/legal basis, and deny conditions.
-3. Audit integrity tests for allow + deny outcomes on each command.
-4. Integration tests for adapter seam behavior with deterministic failure classes.
-5. Seed scenarios for wallet lifecycle, escrow release/refund, treasury fee collection, and dispute adjustment.
-6. Lifecycle tests for deletion reclaim timing (7-day window), escrow-block behavior, and eventual treasury transfer.
-7. Idempotency tests validating replay safety on (`account_id`, `deletion_request_id`).
-8. Transactional integrity tests validating atomic treasury transfer + wallet tombstone creation.
-9. Event-contract tests for immutable `account_deleted_and_returned_to_treasury` emission with correlation fields.
+Seed script requirement: Provide a deterministic plugin seed script with dummy development data for manual plugin validation in dev environments.
 
 ---
 

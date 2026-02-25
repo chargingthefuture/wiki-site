@@ -100,7 +100,7 @@
 - [ ] Validate audit integrity.
   - Acceptance criteria:
     - Allow and deny outcomes are captured with request/trace correlation for each command.
-- [ ] Add contract tests and integration tests.
+- [ ] Validate contract and integration behavior manually.
   - Acceptance criteria:
     - Command schema and policy/audit behavior are covered for positive and negative paths.
 - [ ] Keep inventory and checklist synchronized with behavior changes.

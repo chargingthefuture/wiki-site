@@ -102,18 +102,18 @@
   - Acceptance criteria:
     - GDP extension and domain data deletion contracts are documented and policy-aligned.
 
-## Testing and Release Gates
+## Validation, Seeds, and Release Gates
 
-- [ ] Add command schema validation tests.
+- [ ] Validate command schema behavior manually.
   - Acceptance criteria:
     - Unknown fields/invalid types/bounds failures are covered.
-- [ ] Add access policy enforcement tests.
+- [ ] Validate access policy enforcement manually.
   - Acceptance criteria:
     - Unauthorized role and deny-condition scenarios are blocked deterministically.
-- [ ] Add audit integrity tests.
+- [ ] Validate audit integrity manually.
   - Acceptance criteria:
     - Allow + deny events are append-only and correlation fields are present.
-- [ ] Add integration tests for snapshot publish/retrieval and model rollup calculations.
+- [ ] Validate snapshot publish/retrieval and model rollup calculations manually.
   - Acceptance criteria:
     - Core read/mutate paths are deterministic across web and mobile clients.
 - [ ] Add schema-drift pre-deploy checks.

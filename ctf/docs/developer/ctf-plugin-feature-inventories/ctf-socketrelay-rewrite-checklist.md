@@ -91,26 +91,26 @@
     - CI gates detect drift across shared schema, migrations, and seeds.
 - [ ] Mitigate **public DTO privacy mismatch** risk.
   - Acceptance criteria:
-    - Contract and tests fail on non-approved public field exposure.
+    - Contract and validation gate fail on non-approved public field exposure.
 - [ ] Mitigate **cross-module boundary bleed** risk.
   - Acceptance criteria:
     - Route-to-module ownership map is explicit and validated.
-- [ ] Mitigate **test weakness** risk.
+- [ ] Mitigate **validation weakness** risk.
   - Acceptance criteria:
-    - Critical lifecycle and policy-negative paths are covered by automated tests.
+    - Critical lifecycle and policy-negative paths are covered by manual validation walkthroughs.
 - [ ] Mitigate **CSRF consistency ambiguity** risk.
   - Acceptance criteria:
     - One uniform CSRF policy contract is enforced and verified for admin writes.
 
-## Phase 6 — Tests and Release
+## Phase 6 — Validation, Seeds, and Release Gates
 
-- [ ] Add contract tests for all API groups.
+- [ ] Validate all API groups manually against contracts.
   - Acceptance criteria:
     - Success, validation, unauthorized, forbidden, and not-found paths are covered.
-- [ ] Add lifecycle integration tests.
+- [ ] Validate lifecycle integration behavior manually.
   - Acceptance criteria:
-    - Request → fulfillment → close and chat access constraints are tested end-to-end.
-- [ ] Add privacy and abuse-control tests for public routes.
+    - Request → fulfillment → close and chat access constraints are validated in a manual end-to-end walkthrough.
+- [ ] Validate privacy and abuse-control behavior manually for public routes.
   - Acceptance criteria:
     - DTO projection and anti-scraping/rate-limit behavior are CI-gated.
 - [ ] Add release readiness checks.
@@ -124,7 +124,7 @@
     - Feature add/remove/behavioral changes update both docs in the same PR.
 - [ ] Record evidence links when checklist items are completed.
   - Acceptance criteria:
-    - Each checked item references implementation/test evidence.
+    - Each checked item references implementation/validation evidence.
 - [ ] Track removals in inventory changelog/deprecations notes.
   - Acceptance criteria:
     - Removed scope is date-stamped and not silently deleted.

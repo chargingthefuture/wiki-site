@@ -184,23 +184,9 @@ Planned domain tables (initial set):
 
 ---
 
-## 8) Test and Seed Coverage Status
+## 8) Seed Coverage Status (Planned)
 
-Current status: **Planned (not yet implemented)**
-
-Planned test layers:
-
-1. Command contract tests for schema/policy/audit templates.
-2. API tests for timeline/read-state/admin mutation paths.
-3. Integration tests for DB canonical write + Stream fan-out consistency.
-4. Web E2E tests for timeline rendering, announcement visibility, and toast mode behavior.
-5. Android follow-up test plan to be attached to parity ticket.
-
-Planned seed scope:
-
-1. Deterministic feed item and announcement fixtures.
-2. Membership event fixtures for visibility recalculation paths.
-3. Read/unread and dismissal state fixtures.
+Seed script requirement: Provide a deterministic plugin seed script with dummy development data for manual plugin validation in dev environments.
 
 ---
 

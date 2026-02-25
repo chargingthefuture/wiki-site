@@ -99,26 +99,26 @@
   - Acceptance criteria:
     - Plugin-scoped deletion preserves canonical profile and other plugin data; full-account flow executes cross-plugin deletion policy.
 
-## Testing and Release Gates
+## Validation, Seeds, and Release Gates
 
-- [ ] Add command schema validation tests.
+- [ ] Validate command schema behavior manually.
   - Acceptance criteria:
     - Unknown fields/invalid types/bounds failures are covered.
-- [ ] Add access policy enforcement tests.
+- [ ] Validate access policy enforcement manually.
   - Acceptance criteria:
     - Missing consent, wrong role, cross-tenant, and region restriction cases are denied.
-- [ ] Add audit integrity tests.
+- [ ] Validate audit integrity manually.
   - Acceptance criteria:
     - Allow + deny events are append-only and correlation fields are present.
-- [ ] Add integration tests for lifecycle/disputes/payouts.
+- [ ] Validate lifecycle/disputes/payouts behavior manually.
   - Acceptance criteria:
     - Core transactional paths and failure recovery are deterministic.
-- [ ] Add web and Android parity acceptance tests.
+- [ ] Run web and Android parity manual validation walkthroughs.
   - Acceptance criteria:
     - Critical journeys pass on both platforms with equivalent outcomes.
 - [ ] Add deterministic seed checks.
   - Acceptance criteria:
-    - Seeded scenarios are reproducible in local/dev/test/CI.
+    - Seeded scenarios are reproducible via deterministic seed scripts/data for local/dev manual validation and CI.
 
 ## Documentation and Inventory Lifecycle
 

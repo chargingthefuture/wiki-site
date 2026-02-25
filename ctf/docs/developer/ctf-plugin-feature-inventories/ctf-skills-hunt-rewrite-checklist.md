@@ -96,20 +96,20 @@
   - Acceptance criteria:
     - Plugin deletion removes user-scoped plugin records while preserving required audit evidence and Directory ownership boundaries.
 
-## Phase 7 — Testing and Release Gates
+## Phase 7 — Validation, Seeds, and Release Gates
 
-- [ ] Add command schema validation tests.
+- [ ] Validate command schema behavior manually.
   - Acceptance criteria:
     - Unknown/invalid fields and enum/bounds violations are covered.
-- [ ] Add access policy and audit contract tests.
+- [ ] Validate access policy and audit contract behavior manually.
   - Acceptance criteria:
     - Missing role/scope, invalid region, rate-limit, and policy-deny cases are covered.
-- [ ] Add integration tests for scoring and leaderboard behavior.
+- [ ] Validate scoring and leaderboard behavior manually.
   - Acceptance criteria:
     - Review transitions and leaderboard recompute outcomes are deterministic.
 - [ ] Add seed fixtures for rounds/submissions/reviews.
   - Acceptance criteria:
-    - Seed scenarios are reproducible for local/dev/test environments.
+    - Seed scenarios are reproducible via deterministic seed scripts/data for local/dev manual validation and CI.
 
 ## Open Decisions Tracker
 

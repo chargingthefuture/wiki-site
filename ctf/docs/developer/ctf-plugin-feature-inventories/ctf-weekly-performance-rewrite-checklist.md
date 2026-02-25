@@ -75,18 +75,18 @@
   - Acceptance criteria:
     - Allow/deny outcomes and report exports are captured with actor/action/outcome/timestamp correlation fields.
 
-## Phase 5 — Testing and Release Gates
+## Phase 5 — Validation, Seeds, and Release Gates
 
-- [ ] Add contract tests for command/access/audit parity.
+- [ ] Validate command/access/audit parity manually.
   - Acceptance criteria:
     - Command names and required fields match across contract files.
-- [ ] Add integration tests for week selection and comparison correctness.
+- [ ] Validate week selection and comparison correctness manually.
   - Acceptance criteria:
     - Current/previous week calculations remain deterministic.
-    - Current-week-only polling and focus-refetch behavior are covered.
+    - Current-week-only polling and focus-refetch behavior are included in manual validation walkthrough.
 - [ ] Add deterministic seed fixtures for weekly metrics scenarios.
   - Acceptance criteria:
-    - Seeded week datasets are reproducible in local/dev/test environments.
+    - Seeded week datasets are reproducible via deterministic seed scripts/data for local/dev manual validation and CI.
 - [ ] Complete release gate review.
   - Acceptance criteria:
     - Inventory + checklist are updated in the same PR as accepted scope changes.
@@ -100,5 +100,5 @@
 
 ## Change Log
 
-- 2026-02-25: Created initial Weekly Performance rewrite checklist with contract, schema, API/policy, parity, security/compliance, and testing/release phases.
+- 2026-02-25: Created initial Weekly Performance rewrite checklist with contract, schema, API/policy, parity, security/compliance, and validation/release phases.
 - 2026-02-25: Updated checklist scope to enforce non-financial weekly metric parity for v1 dashboard reporting.

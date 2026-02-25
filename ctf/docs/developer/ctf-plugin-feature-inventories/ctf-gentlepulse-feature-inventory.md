@@ -10,7 +10,7 @@
 
 Scope decisions locked for this rewrite:
 
-1. `Settings and Accessibility Personalization` is moved to app-level non-plugin ownership.
+1. `Settings and Personalization` is moved to app-level non-plugin ownership.
 2. GentlePulse has no in-app admin page in CTF.
 3. GentlePulse plugin announcements are removed from plugin scope and owned by app-wide Announcements/Feed surfaces.
 4. GentlePulse API posture is authenticated-user-only.
@@ -103,7 +103,7 @@ Excluded route groups:
 ### 4.3 Favorites
 
 1. Favorites keyed per user + meditation.
-2. Favorite add/remove/list/status endpoints support deterministic UX state hydration.
+2. Favorite add/remove/list/status endpoints support deterministic interface-state hydration.
 
 ## 5) Planned Security, Privacy, and Compliance Controls
 
@@ -116,23 +116,11 @@ Excluded route groups:
 
 1. Core library/filter/sort/favorite/rating/play behaviors must match between web and Android.
 2. No GentlePulse admin parity obligations in web/mobile for this rewrite scope.
-3. App-level settings/accessibility parity is tracked in non-plugin inventory.
+3. App-level settings parity is tracked in non-plugin inventory.
 
-## 7) Test and Seed Coverage Status (Planned)
+## 7) Seed Coverage Status (Planned)
 
-Current status: **Planned (not implemented)**
-
-Planned test layers:
-
-1. API tests for meditations, play tracking, ratings, and favorites.
-2. Integration tests for rating aggregate recomputation and favorites consistency.
-3. E2E tests for primary user journey (browse → play → rate → favorite).
-4. Web/mobile parity acceptance checks for user-facing journeys.
-
-Planned seed scope:
-
-1. Deterministic meditation catalog fixtures.
-2. Deterministic rating and favorite fixtures under authenticated model.
+Seed script requirement: Provide a deterministic plugin seed script with dummy development data for manual plugin validation in dev environments.
 
 ## 8) Gaps, Ambiguities, and Known Debt (Planning)
 
@@ -141,5 +129,5 @@ Planned seed scope:
 
 ## 9) Change Log
 
-- 2026-02-25: Created initial GentlePulse CTF rewrite inventory with locked scope decisions: app-level settings/accessibility ownership, no in-app admin surface, no plugin announcements scope, authenticated API posture, and no dedicated progress endpoint scope.
+- 2026-02-25: Created initial GentlePulse CTF rewrite inventory with locked scope decisions: app-level settings ownership, no in-app admin surface, no plugin announcements scope, authenticated API posture, and no dedicated progress endpoint scope.
 - 2026-02-25: Removed Mood integration from GentlePulse parity scope; GentlePulse and Mood are documented as separate plugins.

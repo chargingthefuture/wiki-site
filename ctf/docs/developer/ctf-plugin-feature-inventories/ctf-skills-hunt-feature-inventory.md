@@ -176,23 +176,9 @@ Admin/moderator routes:
 2. Android parity follows via checklist-tracked milestones.
 3. Review semantics and scoring outcomes must remain cross-platform consistent.
 
-## 7) Test and Seed Coverage Status (Planned)
+## 7) Seed Coverage Status (Planned)
 
-Current status: **Planned (not implemented)**
-
-Planned test layers:
-
-1. Contract tests for command/access/audit parity.
-2. API tests for submission validation and duplicate blocking.
-3. Integration tests for review scoring and leaderboard rebuild behavior.
-4. Integration tests for directory-profile generation policy checks.
-5. E2E tests for contributor and moderator critical paths.
-
-Planned seed scope:
-
-1. Deterministic rounds and scoring configs.
-2. Deterministic accepted/rejected/flagged submission fixtures.
-3. Deterministic leaderboard and rare-skill fixtures.
+Seed script requirement: Provide a deterministic plugin seed script with dummy development data for manual plugin validation in dev environments.
 
 ## 8) Gaps, Ambiguities, and Known Debt (Planning)
 

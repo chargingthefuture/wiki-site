@@ -10,7 +10,7 @@
 
 ## Intent and Outcome
 
-Foundation delivers trauma-informed, accessibility-first survivor-provider connection workflows that are policy-controlled, auditable, and scalable under current Stream Maker-tier constraints.
+Foundation delivers trauma-informed survivor-provider connection workflows that are policy-controlled, auditable, and scalable under current Stream Maker-tier constraints.
 
 Planning constraints applied:
 
@@ -25,10 +25,10 @@ Planning constraints applied:
 
 ### 1.1 Provider Discovery and Search
 
-1. Survivor search for providers by service type, location, language, accessibility fit, and availability.
+1. Survivor search for providers by service type, location, language, and availability.
 2. Filter and ranking support for trauma-informed criteria (for example: communication style tags, support modality, scheduling flexibility).
 3. Read-only ingestion of Directory provider projections for search cards and provider details.
-4. Clear empty-state and no-match guidance without coercive UX patterns.
+4. Clear empty-state and no-match guidance without coercive interaction patterns.
 
 ### 1.2 Survivor-Provider 1:1 Text Connection
 
@@ -64,16 +64,10 @@ Planning constraints applied:
 ### 1.6 Notifications
 
 1. In-app notifications for new messages, quote state changes, and missed call events.
-2. Push/email channel support where user has opted in.
+2. Push channel support where user has opted in.
 3. Quiet-hour and notification preference controls.
 4. Notification acknowledgment and deduplicated delivery behavior.
 
-### 1.7 Trauma-Informed and Accessibility Constraints
-
-1. Plain-language labels and state messaging (no punitive framing).
-2. Reduced cognitive load defaults and optional low-stimulus mode.
-3. Keyboard/screen-reader compatibility and strong contrast requirements.
-4. Safety-aware interaction pacing (no manipulative urgency patterns).
 
 ## 2) Planned Admin Features
 
@@ -145,7 +139,7 @@ Admin routes:
 
 ### 4.1 Canonical Profile and Extension Strategy
 
-1. Reuse canonical profile for identity, consent pointering, and accessibility defaults.
+1. Reuse canonical profile for identity, consent pointering, and baseline defaults.
 2. Use Foundation extension data keyed by canonical `user_id`.
 3. No duplicate standalone identity table for Foundation.
 
@@ -198,28 +192,14 @@ Admin routes:
 3. Policy behavior, consent enforcement, and deletion behavior cannot be permanently platform-divergent.
 4. Any temporary parity deferment must include risk note and mitigation timeline.
 
-## 7) Test and Seed Coverage Status (Planned)
+## 7) Seed Coverage Status (Planned)
 
-Current status: **Planned (not implemented)**
-
-Planned test layers:
-
-1. Contract tests for command/access/audit schema validity and rejection cases.
-2. API tests for search, thread creation, messaging, call session creation, quote lifecycle, and notifications.
-3. Integration tests for rate limiting, threshold degradation behavior, and Stream fallback rules.
-4. Web E2E tests for full survivor-provider connection journey.
-5. Android parity tests for equivalent outcomes on scoped follow-up milestones.
-
-Planned seed scope:
-
-1. Deterministic provider projection fixtures from Directory read-only views.
-2. Deterministic connection, quote lifecycle, and notification event fixtures.
-3. Deterministic quota-usage fixtures for threshold transition testing.
+Seed script requirement: Provide a deterministic plugin seed script with dummy development data for manual plugin validation in dev environments.
 
 ## 8) Gaps, Ambiguities, and Known Technical Debt (Planning)
 
 1. Final quote payload schema by service category needs product + compliance sign-off.
-2. Voice/video fallback UX copy requires survivor-advisory review.
+2. Voice/video fallback interaction copy requires survivor-advisory review.
 3. Notification channel rollout order by region needs operations decision.
 4. Capacity policy defaults need validated monthly demand assumptions.
 5. Android parity execution windows and owners need milestone lock.
@@ -234,19 +214,19 @@ Planned seed scope:
    - thread/message/call/quote/notification primitives,
    - rate limiting + threshold logic,
    - audit instrumentation.
-3. Phase 2 — Web full-v1 UX:
+3. Phase 2 — Web full-v1 experience:
    - search,
    - 1:1 messaging/calls,
    - quote lifecycle and history,
    - notification settings.
 4. Phase 3 — Android parity follow-up:
    - parity tracking closure items from rewrite checklist,
-   - accessibility and trauma-informed validation.
+   - trauma-informed validation.
 5. Phase 4 — Hardening and release readiness:
    - quota-impact docs,
    - observability thresholds,
-   - release-gate tests.
+   - release gates.
 
 ## 10) Change Log
 
-- 2026-02-24: Created initial Foundation CTF rewrite inventory with full-v1 scope for search, 1:1 text/voice/video, quote lifecycle, history, notifications, rate limiting, scalability controls, and trauma-informed accessibility constraints.
+- 2026-02-24: Created initial Foundation CTF rewrite inventory with full-v1 scope for search, 1:1 text/voice/video, quote lifecycle, history, notifications, rate limiting, scalability controls, and trauma-informed constraints.

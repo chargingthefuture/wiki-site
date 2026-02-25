@@ -75,15 +75,15 @@
   - Acceptance criteria:
     - Delete allow/deny outcomes include actor, purpose, target class, and timestamp metadata.
 
-## Phase 5 — Testing and Release Gates
+## Phase 5 — Validation, Seeds, and Release Gates
 
-- [ ] Add contract tests for command/access/audit parity.
+- [ ] Validate command/access/audit parity manually.
   - Acceptance criteria:
     - Command names and required fields match across contract files.
-- [ ] Add integration tests for dependency safeguards.
+- [ ] Validate dependency safeguards manually.
   - Acceptance criteria:
     - Destructive-delete policy and dependency warnings are validated with deterministic fixtures.
-- [ ] Add cross-app compatibility tests.
+- [ ] Validate cross-app compatibility manually.
   - Acceptance criteria:
     - Directory/Workforce (and approved dependents) remain compatible with hierarchy/flattened outputs.
 - [ ] Add deterministic seed fixtures for taxonomy scenarios.
@@ -101,4 +101,4 @@
 
 ## Change Log
 
-- 2026-02-25: Created initial Skills Taxonomy rewrite checklist with contract, schema, API/policy, parity, security/compliance, destructive-delete safeguards, dependency-impact checks, and cross-app compatibility test gates.
+- 2026-02-25: Created initial Skills Taxonomy rewrite checklist with contract, schema, API/policy, parity, security/compliance, destructive-delete safeguards, dependency-impact checks, and cross-app compatibility validation gates.

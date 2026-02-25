@@ -90,18 +90,18 @@
   - Acceptance criteria:
     - Operational logs are safe; required audit fields are complete.
 
-## Testing and Seed Gates
+## Validation, Seeds, and Release Gates
 
-- [ ] Add command schema/policy/audit tests.
+- [ ] Validate command schema/policy/audit behavior manually.
   - Acceptance criteria:
     - Invalid payloads and unauthorized requests are covered.
-- [ ] Add integration tests for targeting + membership event recalculation.
+- [ ] Validate targeting + membership event recalculation manually.
   - Acceptance criteria:
     - Membership updates produce correct audience changes.
-- [ ] Add integration tests for Postgres + Stream consistency.
+- [ ] Validate Postgres + Stream consistency manually.
   - Acceptance criteria:
     - Canonical-write-before-fan-out invariant is verified.
-- [ ] Add web E2E tests for admin lifecycle and user rendering.
+- [ ] Run manual end-to-end walkthrough for admin lifecycle and user rendering on web.
   - Acceptance criteria:
     - Draft-to-publish lifecycle and user visibility paths pass.
 - [ ] Add deterministic seed scenarios.
@@ -118,7 +118,7 @@
     - PR includes drift-check output and migration verification artifacts.
 - [ ] Include PR evidence for completed checklist items.
   - Acceptance criteria:
-    - Every checked item links to PR/commit/test evidence.
+    - Every checked item links to PR/commit/validation evidence.
 
 ## Change Log
 

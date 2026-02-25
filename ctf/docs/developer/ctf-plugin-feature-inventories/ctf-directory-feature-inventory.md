@@ -49,7 +49,7 @@ Decision locks for rewrite planning:
 2. User sections are always available to authenticated users.
 3. Admin sections render only for authorized admin roles.
 4. Unauthorized users must not discover admin action controls in normal UI paths.
-5. Frontend hiding is UX-only; server authorization remains the source of truth.
+5. Frontend hiding is presentation-only; server authorization remains the source of truth.
 6. Public routes remain separate projection endpoints for unauthenticated consumption.
 
 ## API Surface and Route Map (planned)
@@ -84,7 +84,7 @@ Planned route families:
 Route ownership policy (planned):
 
 1. Directory announcement routes are owned by Directory rewrite boundaries.
-2. Route ownership must be explicit and testable per module boundaries.
+2. Route ownership must be explicit and enforceable per module boundaries.
 
 ## Data Model and Storage Contracts (planned)
 
@@ -94,11 +94,11 @@ Route ownership policy (planned):
 4. Profile contracts preserve claimed/unclaimed state and assignment constraints.
 5. Public projection contracts preserve privacy-filtered output shape.
 6. Audit storage contracts capture sensitive admin mutation outcomes.
-7. Seed contracts remain deterministic across local/dev/test environments.
+7. Seed contracts remain deterministic across local/dev environments.
 
 ## Security, Privacy, and Compliance Controls
 
-1. Frontend hiding of admin controls is UX-only and is never treated as authorization.
+1. Frontend hiding of admin controls is presentation-only and is never treated as authorization.
 2. Server-side authorization is required on every admin endpoint.
 3. CSRF protection is required on every admin write endpoint.
 4. Audit logging is required for admin write attempts (allow and deny outcomes).
@@ -114,23 +114,9 @@ Route ownership policy (planned):
 4. Server policy outcomes and deny taxonomy are identical for web and Android clients.
 5. Unified UI contract governs both clients, with platform-specific presentation only.
 
-## Test and Seed Coverage Status (planned)
+## Seed Coverage Status (Planned)
 
-Current status: **Planned (not implemented)**
-
-Planned test layers:
-
-1. Contract tests for route ownership, policy gates, and response projection shape.
-2. API tests for user profile, admin profile, and announcement mutation flows.
-3. Security tests for unauthorized admin attempts, CSRF failures, and claimed/unclaimed constraints.
-4. Privacy and anti-scraping tests for public projection controls.
-5. Web + Android parity tests for user and admin flows.
-
-Planned seed scope:
-
-1. Deterministic claimed/unclaimed profile fixtures.
-2. Deterministic announcement fixtures (active/expired/deactivated).
-3. Deterministic shared-skills fixtures for selector consistency tests.
+Seed script requirement: Provide a deterministic plugin seed script with dummy development data for manual plugin validation in dev environments.
 
 ## Open Decisions, Ambiguities, and Migration Risks
 
@@ -144,7 +130,7 @@ Planned seed scope:
 
 1. Confirm final admin skills compatibility strategy when shared skill deletions affect historical profile data.
 2. Confirm final admin list pagination/search model and performance thresholds.
-3. Confirm final assignment UX wording and validation outcomes for claimed/unclaimed transitions.
+3. Confirm final assignment wording and validation outcomes for claimed/unclaimed transitions.
 4. Confirm final admin toast/message contract for post-create public URL display-only parity.
 
 ### C) Migration risks
@@ -161,7 +147,7 @@ Planned seed scope:
 2. Phase 1: Contract-first implementation for API routes, authz, CSRF, and audit events.
 3. Phase 2: Unified UI implementation with role-gated controls on one Directory surface.
 4. Phase 3: Web + Android parity completion for user and admin flows.
-5. Phase 4: Security/privacy/non-regression test gates and seed consistency validation.
+5. Phase 4: Security/privacy/non-regression gates and seed consistency validation.
 6. Phase 5: Release readiness evidence and lifecycle documentation updates.
 
 ## Change Log

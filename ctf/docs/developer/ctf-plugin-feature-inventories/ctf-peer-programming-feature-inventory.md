@@ -165,20 +165,9 @@ System/admin routes:
 3. Assignment notification semantics and tier visibility must remain behaviorally consistent across platforms.
 4. Any deferred Android capability requires documented risk and closure criteria.
 
-## 7) UX Direction and Interaction Notes
+## 8) Seed Coverage Status (Planned)
 
-1. Room UX is text-first and async-first; no synchronous video dependency in MVP.
-2. Threaded replies are first-class within each room timeline entry.
-3. Fallback-open states use clear language to explain low-attendance mode.
-4. Topic guidance remains visible and pinned for the active week.
-
-## 8) Test and Seed Coverage Status (Planned)
-
-1. Contract tests for all command/policy/audit YAML entries.
-2. Integration tests for weekly active-user selection and 5-user cohort sizing behavior.
-3. Integration tests for fallback-open activation when fewer than 2 cohort members show.
-4. Integration tests for tiered audience visibility and mutation restrictions.
-5. Seed fixtures for weekly topic guidance, assignment notifications, and threaded room activity.
+Seed script requirement: Provide a deterministic plugin seed script with dummy development data for manual plugin validation in dev environments.
 
 ## 9) Gaps, Ambiguities, and Known Debt
 

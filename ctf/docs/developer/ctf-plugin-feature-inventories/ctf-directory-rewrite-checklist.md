@@ -52,19 +52,19 @@
 - [ ] Enforce server-side authz on every admin endpoint.
   - Acceptance criteria:
     - Unauthorized admin API attempts return deny outcomes.
-    - Deny outcomes are covered by automated tests.
+    - Deny outcomes are covered by manual validation walkthroughs.
 - [ ] Enforce CSRF protection on every admin write endpoint.
   - Acceptance criteria:
     - Missing/invalid CSRF tokens are rejected for admin writes.
-    - CSRF failure paths are covered by automated tests.
+    - CSRF failure paths are covered by manual validation walkthroughs.
 - [ ] Enforce claimed/unclaimed guardrails.
   - Acceptance criteria:
     - Unclaimed-only delete behavior is preserved.
     - Assignment transition constraints are validated server-side.
-    - Guardrail violation paths are covered by automated tests.
+    - Guardrail violation paths are covered by manual validation walkthroughs.
 - [ ] Enforce route ownership constraints.
   - Acceptance criteria:
-    - Route-to-module ownership map is documented and validated in tests/lint gates.
+    - Route-to-module ownership map is documented and validated in validation/lint gates.
 
 ## Phase 3 — Privacy and Anti-Scraping Controls
 
@@ -102,23 +102,23 @@
     - Android and web share equivalent server deny/allow outcomes.
 - [ ] Validate parity with automated coverage.
   - Acceptance criteria:
-    - Cross-client parity tests cover user and admin critical paths.
+    - Cross-client parity manual validation walkthrough covers user and admin critical paths.
 
-## Phase 6 — Test and Release Gates
+## Phase 6 — Validation, Seeds, and Release Gates
 
-- [ ] Add tests for unauthorized admin API attempts.
+- [ ] Validate unauthorized admin API attempts manually.
   - Acceptance criteria:
-    - All admin endpoints include negative authz test coverage.
-- [ ] Add tests for CSRF protection on admin writes.
+    - All admin endpoints include negative authz manual validation coverage.
+- [ ] Validate CSRF protection on admin writes manually.
   - Acceptance criteria:
-    - Each admin write route has missing/invalid token test coverage.
-- [ ] Add tests for claimed/unclaimed guardrails.
+    - Each admin write route has missing/invalid token manual validation coverage.
+- [ ] Validate claimed/unclaimed guardrails manually.
   - Acceptance criteria:
     - Assignment and unclaimed-delete constraints are fully exercised.
-- [ ] Add tests for public projection privacy and anti-scraping controls.
+- [ ] Validate public projection privacy and anti-scraping controls manually.
   - Acceptance criteria:
     - Public response field exposure and anti-scraping behavior are validated.
-- [ ] Add tests/gates for schema/seed consistency and route ownership.
+- [ ] Add validation gates for schema/seed consistency and route ownership.
   - Acceptance criteria:
     - CI gates fail when schema/seed or route ownership contracts drift.
 
@@ -129,8 +129,8 @@
     - `ctf-directory-feature-inventory.md` and this checklist are updated in the same PR as behavior or contract changes.
 - [ ] Record implementation evidence links for completed checklist items.
   - Acceptance criteria:
-    - Each checked item references code/tests/docs proving completion.
+    - Each checked item references code/validation/docs proving completion.
 
 ## Change Log
 
-- 2026-02-25: Created initial Directory rewrite checklist with unified UI scope, backend policy gates, open-decision resolution requirements, security/privacy test gates, schema/seed consistency checks, and required Android admin parity in v1.
+- 2026-02-25: Created initial Directory rewrite checklist with unified UI scope, backend policy gates, open-decision resolution requirements, security/privacy validation gates, schema/seed consistency checks, and required Android admin parity in v1.

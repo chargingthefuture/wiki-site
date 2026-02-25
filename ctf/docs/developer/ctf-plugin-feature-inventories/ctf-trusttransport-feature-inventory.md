@@ -34,7 +34,6 @@ The plugin must provide equivalent core behavior across web and Android.
    - Food.
 2. Structured origin/destination/location input with map and list fallbacks.
 3. Real-time quote previews (eta/price ranges) before submission.
-4. Accessibility-first controls for low-literacy and assistive-device users.
 
 ### 1.2 Ride Marketplace
 
@@ -243,36 +242,9 @@ Planned domain tables (initial set):
 
 ---
 
-## 7) UX Direction and Interaction Notes (Planned)
+## 8) Seed Coverage Status (Planned)
 
-Reference inspirations supplied by product owner:
-
-1. segmented mode navigation patterns,
-2. clear progression from overview to features to call-to-action,
-3. map + list hybrid logistics views,
-4. dense but readable status and shipment detail panels.
-
-Translation for TrustTransport:
-
-1. mobile-first predictable navigation,
-2. minimal motion and no manipulative urgency,
-3. high-contrast controls for key decisions,
-4. plain-language states and errors.
-
----
-
-## 8) Test and Seed Coverage Status
-
-Current status: **Planned (not yet implemented)**
-
-Planned test layers:
-
-1. Contract tests for command schema + policy schema + audit schema.
-2. API tests for happy path + authz/consent/validation failures.
-3. Integration tests for matching, status lifecycle, dispute flow, payout flow.
-4. Web E2E tests for ride/package/food primary journeys.
-5. Android E2E/integration parity tests for same primary journeys.
-6. Deterministic seed datasets for local/dev/test/CI.
+Seed script requirement: Provide a deterministic plugin seed script with dummy development data for manual plugin validation in dev environments.
 
 ---
 
@@ -313,10 +285,10 @@ Potential technical debt to monitor:
 4. Phase 3 — Admin and hardening:
    - disputes/risk/ops surfaces,
    - observability and audit exports,
-   - release-gate tests and rollout controls.
+   - release-gate checks and rollout controls.
 
 ---
 
 ## 11) Change Log
 
-- 2026-02-24: Created initial CTF rewrite inventory for TrustTransport (net-new plugin plan) with user/admin/API/data/security/parity/testing scope.
+- 2026-02-24: Created initial CTF rewrite inventory for TrustTransport (net-new plugin plan) with user/admin/API/data/security/parity scope.
