@@ -30,8 +30,6 @@ pnpm commit
 
 - `type`: choose the change kind by number or name (`feat`, `fix`, `docs`, etc.)
 - `summary`: short, clear description (required)
-- `Why` (optional): what problem this change solves
-- `What` (optional): what you changed
 - `confirm`: press Enter to create the commit by default, or type `n` to cancel
 
 5. Open a pull request with a semantic title, for example:
