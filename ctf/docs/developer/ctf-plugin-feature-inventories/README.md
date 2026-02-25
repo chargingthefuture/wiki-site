@@ -15,6 +15,8 @@ Examples:
 
 ## Current CTF rewrite inventories
 
+- [CTF plugin coding readiness matrix](./ctf-plugin-coding-readiness-matrix.md)
+
 - [TrustTransport feature inventory](./ctf-trusttransport-feature-inventory.md)
 - [TrustTransport rewrite checklist](./ctf-trusttransport-rewrite-checklist.md)
 - [Feed feature inventory](./ctf-feed-feature-inventory.md)

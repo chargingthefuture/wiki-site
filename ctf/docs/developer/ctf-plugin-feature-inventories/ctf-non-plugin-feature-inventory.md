@@ -68,6 +68,7 @@
    - Keeps rewrite scope in `ctf/`, preserves plugin-first ownership boundaries, and treats legacy as reference-only.
 2. `.claude/rules/120-plugin-feature-inventory-lifecycle-rules.mdc`
    - Requires plugin-owned capabilities (weekly-performance, skills-taxonomy) to move into dedicated plugin inventory/checklist docs.
+   - This non-plugin inventory is explicitly exempt from Rule 120 plugin-required content sections and uses alternate non-plugin capability criteria.
 3. `.claude/rules/004-authz-authn-and-admin-controls.mdc`
    - Requires server-side authz/authn hardening for retained non-plugin auth/account and privileged contract surfaces.
 4. `.claude/rules/007-audit-logging-and-monitoring.mdc`
@@ -84,7 +85,16 @@
 
 ---
 
+## 6) Governance Note (Rule 120 Exemption)
+
+1. Plugin-first ownership rules still apply to plugin-owned capabilities and must be implemented through plugin inventory/checklist artifacts.
+2. This non-plugin inventory remains an exempt parity/governance document under alternate non-plugin capability criteria.
+3. This document is not a blocker for plugin coding readiness when plugin-owned requirements are satisfied in their plugin inventories.
+
+---
+
 ## 5) Change Log
 
 - 2026-02-25: Expanded CTF non-plugin parity inventory to full retained/excluded scope; marked weekly performance and skills taxonomy as plugin-owned; removed generic chat/admin activity feed carryover requirements; documented compliance position for audit-evidence-first admin activity feed removal.
 - 2026-02-25: Removed weekly-performance legacy-evidence pointer so weekly rewrite parity remains sourced from plugin-inventory documents.
+- 2026-02-25: Added Rule 120 non-plugin exemption governance note and clarified non-blocking status for plugin coding readiness.

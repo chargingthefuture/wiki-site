@@ -190,6 +190,17 @@ Seed script requirement: Provide a deterministic plugin seed script with dummy d
 
 ---
 
-## 10) Change Log
+## 10) Gaps, Ambiguities, and Known Technical Debt (Current)
+
+- Command/access/audit YAML contracts pending.
+- Profile/deletion contract pending.
+- Migration SQL pending.
+- Android parity ticket pending.
+- Stream quota-impact note pending.
+
+---
+
+## 11) Change Log
 
 - 2026-02-24: Created initial CTF rewrite Announcements inventory with approved centralized admin surface, web-first delivery policy, Postgres source-of-truth + Stream fan-out architecture, naming normalization/legacy alias guidance, quota-impact gates, and schema drift predeployment evidence requirements.
+- 2026-02-25: Added Rule 120 gaps/ambiguities/known technical debt section.

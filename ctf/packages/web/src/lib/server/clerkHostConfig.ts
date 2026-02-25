@@ -3,6 +3,9 @@ export interface ClerkRuntimeConfig {
   publishableKey: string;
   secretKey: string;
   signInUrl: string;
+  publishableKeyEnv: string;
+  secretKeyEnv: string;
+  signInUrlEnv: string;
 }
 
 type HeaderReader = Pick<Headers, "get">;
@@ -112,5 +115,8 @@ export const resolveClerkRuntimeConfig = (reader: HeaderReader): ClerkRuntimeCon
     publishableKey: publishable.value,
     secretKey: secret.value,
     signInUrl: signInUrl.value,
+    publishableKeyEnv: publishable.name,
+    secretKeyEnv: secret.name,
+    signInUrlEnv: signInUrl.name,
   };
 };
