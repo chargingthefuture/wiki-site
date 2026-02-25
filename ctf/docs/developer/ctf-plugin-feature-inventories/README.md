@@ -51,4 +51,4 @@ Examples:
 - [Skills Taxonomy feature inventory](./ctf-skills-taxonomy-feature-inventory.md)
 - [Skills Taxonomy rewrite checklist](./ctf-skills-taxonomy-rewrite-checklist.md)
 
-Legacy reference inventories remain in `ctf/docs/developer/` and should include `(Legacy Reference)` in the title.
+Legacy reference inventories remain in `ctf/docs/developer/legacy-inventories` and should include `(Legacy Reference)` in the title.
