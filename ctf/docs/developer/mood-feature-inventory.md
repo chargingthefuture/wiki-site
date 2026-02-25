@@ -1,5 +1,10 @@
 # Mood Plugin Feature Inventory (Legacy Reference)
 
+> Canonical CTF rewrite source of truth moved to:
+>
+> - `ctf/docs/developer/ctf-plugin-feature-inventories/ctf-mood-feature-inventory.md`
+> - `ctf/docs/developer/ctf-plugin-feature-inventories/ctf-mood-rewrite-checklist.md`
+
 ## Scope
 
 - Source analyzed (reference-only): `platform/`
@@ -231,3 +236,8 @@ Before implementing ctf Mood, lock these decisions:
 3. Analytics scope: actual in-app metrics vs announcements-only admin screen.
 4. Test baseline: add dedicated API + E2E coverage for mood checks and announcement admin flows.
 5. Seed baseline: include Mood in master seed workflow or explicitly document exclusion.
+
+---
+Legacy note:
+
+- This document remains for historical `platform/` reference and is not the authoritative parity contract for CTF implementation.

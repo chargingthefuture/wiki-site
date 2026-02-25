@@ -35,5 +35,9 @@ Examples:
 - [Skills Hunt rewrite checklist](./ctf-skills-hunt-rewrite-checklist.md)
 - [Workforce feature inventory](./ctf-workforce-feature-inventory.md)
 - [Workforce rewrite checklist](./ctf-workforce-rewrite-checklist.md)
+- [GentlePulse feature inventory](./ctf-gentlepulse-feature-inventory.md)
+- [GentlePulse rewrite checklist](./ctf-gentlepulse-rewrite-checklist.md)
+- [Mood feature inventory](./ctf-mood-feature-inventory.md)
+- [Mood rewrite checklist](./ctf-mood-rewrite-checklist.md)
 
 Legacy reference inventories remain in `ctf/docs/developer/` and should include `(Legacy Reference)` in the title.
