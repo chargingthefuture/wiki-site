@@ -30,7 +30,7 @@ The plugin must provide equivalent core behavior across web and Android, with ph
 
 ### 1.1 GDP Transparency Overview
 
-1. Public survivor-facing GDP summary dashboard.
+1. Authenticated survivor-facing GDP summary dashboard.
 2. Current annual `Total GDP`, `Service GDP`, `Goods/Local GDP` with plain-language explanations.
 3. Per-capita indicators based on population baseline and selected period.
 4. Progress-to-target indicators for $300B total and $210B services goals.
@@ -121,6 +121,7 @@ Planned command groups:
 
 User routes:
 
+- All user routes are authenticated-only and deny unauthenticated access by default.
 - `GET /api/gross-domestic-product/metrics`
 - `GET /api/gross-domestic-product/metrics/:metricId`
 - `GET /api/gross-domestic-product/dashboard/snapshot`
@@ -174,6 +175,21 @@ Planned domain tables (initial set):
 2. Versioned metric definition changes with compatibility notes.
 3. Deterministic source links from dashboard tiles to canonical metric IDs.
 4. Retention metadata captured per domain entity.
+5. Entity retention classes (initial proposal):
+  - `gdp_metric_snapshots`: aggregate reporting record, retained per compliance baseline with legal-hold override.
+  - `gdp_category_breakdowns`: aggregate reporting record, retained per compliance baseline with suppression metadata.
+  - `gdp_provider_tier_snapshots`: higher re-identification-risk aggregate, shorter default retention and stricter access class.
+  - `gdp_rollout_targets`: planning/governance record, retained for auditability of commitments.
+  - `gdp_rollout_actuals`: aggregate historical accountability record, retained for longitudinal governance.
+  - `gdp_metric_definition_events`: immutable governance audit trail; retention aligned to compliance audit minimums.
+  - `gdp_publish_events`: immutable publication audit trail; retention aligned to compliance audit minimums.
+6. DSAR and deletion handling must align with `ctf/docs/contracts/GDP_PROFILE_AND_DELETION_CONTRACT.md` and plugin-scoped deletion boundaries.
+
+### 4.4 Metrics and Accounting Semantics
+
+1. Account-deletion treasury returns are reserve reallocations and MUST NOT be recognized as GDP.
+2. GDP recognition occurs on eligible spend events only, per canonical metric definitions.
+3. Reclaim/finalization events from deletion workflows are excluded from GDP numerator calculations and tracked as accounting-state movements.
 
 ---
 
@@ -185,6 +201,49 @@ Planned domain tables (initial set):
 4. Audit events for allow + deny decisions on GDP admin commands.
 5. No sensitive raw payload values in audit logs.
 6. Explicit versioning for breaking metric/schema changes.
+
+### 5.1 Privacy Threat Model and Harm Controls (Required)
+
+1. Re-identification risk is treated as a release-blocking threat for any output with small cells, unique timestamp patterns, or high-dimensional attribute combinations.
+2. Secondary harms (targeting by traffickers, stigmatization, legal retaliation, coercion) are first-class safety risks and must be reviewed before any endpoint is enabled.
+3. Contributor/source-data provenance is mandatory; no dataset is accepted without attestation of lawful and ethical collection scope.
+4. Consent scope and lawful basis must be documented for each GDP processing surface; unresolved lawful-basis metadata blocks release.
+
+### 5.2 Public/Restricted Release Posture (Required)
+
+1. GDP reporting endpoints are authenticated-only in v1; unauthenticated public API access is not permitted.
+2. No raw transactional logs, exact event timestamps, precise locations, free-text notes, or small-cell tables are exposed through user-facing views.
+3. Region and time are coarsened by default (coarse geographic bins + rolling windows) to reduce singling-out risk.
+4. Programmatic access is policy-scoped, rate-limited, and audit-logged with purpose metadata.
+
+### 5.3 Statistical Disclosure Controls (DP-First Baseline)
+
+1. Differential privacy (DP) is the default publication mechanism for sensitive aggregate KPIs, with documented mechanism, epsilon/delta, and budget reset cadence.
+2. Minimum cell-size thresholds and suppression rules are mandatory even when DP is applied.
+3. Secondary suppression is required where one suppressed cell can be reconstructed from row/column totals.
+4. Output transformations include rounding/binning/top-bottom coding where needed to prevent differencing attacks.
+5. Any temporary non-DP exception requires written risk acceptance, expiry date, owner, and mitigation plan.
+
+### 5.4 Command-Level Data Protection Matrix (Required)
+
+| Command | Access posture | Data class/output level | Required privacy controls | Required audit event(s) |
+| --- | --- | --- | --- | --- |
+| `gross-domestic-product.metrics.list` | Authenticated read | Aggregate KPI catalog + metadata | Canonical metric validation, coarse dimensions only, no direct identifiers | `gdp.metrics.list.allowed` / `gdp.metrics.list.denied` |
+| `gross-domestic-product.metrics.get` | Authenticated read | Aggregate metric details | DP where sensitive aggregates appear, cell threshold checks, suppression fallback | `gdp.metrics.get.allowed` / `gdp.metrics.get.denied` |
+| `gross-domestic-product.dashboard.snapshot.get` | Authenticated read | Dashboard aggregate snapshot | DP-first release path, anti-differencing constraints, coarse region/time bins | `gdp.dashboard.snapshot.get.allowed` / `gdp.dashboard.snapshot.get.denied` |
+| `gross-domestic-product.rollout.progress.get` | Authenticated read | Year-level aggregate rollout progress | Minimum cohort thresholds, suppression + secondary suppression, no pinpoint geography | `gdp.rollout.progress.get.allowed` / `gdp.rollout.progress.get.denied` |
+| `gross-domestic-product.scenario.assumptions.get` | Authenticated read | Assumption metadata + model notes | No user-level source rows, disclose caveats and uncertainty bounds, no raw contributor identifiers | `gdp.scenario.assumptions.get.allowed` / `gdp.scenario.assumptions.get.denied` |
+| `gross-domestic-product.admin.metric.propose` | Restricted admin mutate | KPI definition proposal metadata | Role-gated mutation, provenance attestation, schema validation, canonical metric precheck | `gdp.admin.metric.propose.allowed` / `gdp.admin.metric.propose.denied` |
+| `gross-domestic-product.admin.metric.approve` | Restricted admin mutate | KPI approval/activation action | Four-eyes approval policy, immutable audit chain, deny on unresolved lawful basis or consent scope | `gdp.admin.metric.approve.allowed` / `gdp.admin.metric.approve.denied` |
+| `gross-domestic-product.admin.snapshot.publish` | Restricted admin mutate | Snapshot publication event | Release gate on DP/suppression pass, policy check, retention tagging, no raw payload in logs | `gdp.admin.snapshot.publish.allowed` / `gdp.admin.snapshot.publish.denied` |
+| `gross-domestic-product.admin.backfill.run` | Restricted admin mutate | Historical aggregate recomputation | Controlled execution scope, replay isolation, red-team reviewed before publish exposure | `gdp.admin.backfill.run.allowed` / `gdp.admin.backfill.run.denied` |
+
+### 5.5 Governance and Survivor Safety Review (Required)
+
+1. Conduct adversarial re-identification testing before each major GDP release and remediate all high-severity findings.
+2. Require independent ethics review and survivor-safety consultation checkpoints for high-impact metric changes.
+3. Keep dashboard/source code open, while treating raw datasets and high-risk intermediate outputs as controlled data assets.
+4. Publish a plain-language privacy risk statement describing controls, limitations, and known residual risk.
 
 ---
 
@@ -209,22 +268,42 @@ Planned domain tables (initial set):
 ## 8) Test and Seed Coverage Status (Planned)
 
 1. Contract tests for GDP command schemas.
-2. Access policy tests for admin vs public command surfaces.
+2. Access policy tests for admin vs authenticated-read command surfaces.
 3. Audit integrity tests for all GDP mutation commands.
 4. Integration tests for snapshot publish + retrieval flows.
 5. Deterministic seed scenarios for 5-year GDP rollout examples.
+6. Re-identification and differencing-resistance tests for sensitive aggregate outputs.
+7. DP parameter validation tests (`epsilon`, `delta`, sensitivity assumptions, budget accounting).
+
+### 8.1 Release-Blocking Privacy Evidence (Required)
+
+Before GA, evidence artifacts must include:
+
+1. Completed command/access/audit contract parity for all 9 planned commands across:
+  - `ctf/docs/contracts/GDP_PLUGIN_COMMAND_CONTRACTS.yaml`
+  - `ctf/docs/contracts/GDP_PLUGIN_ACCESS_POLICY_CONTRACTS.yaml`
+  - `ctf/docs/contracts/GDP_PLUGIN_AUDIT_CONTRACTS.yaml`
+2. DP parameter register and publication policy (or formally approved temporary exception with expiry).
+3. Cell-threshold + suppression policy with secondary-suppression proof cases.
+4. Audit samples showing both allow and deny decisions without sensitive raw payload leakage.
+5. Threat-model and red-team re-identification report with remediation closure.
+6. Lawful-basis/consent-scope mapping for GDP data classes and processing purposes.
+7. DSAR/deletion conformance evidence aligned with `ctf/docs/contracts/GDP_PROFILE_AND_DELETION_CONTRACT.md`.
+8. Schema/contract drift check evidence from CI pre-deployment gates.
 
 ---
 
 ## 9) Gaps, Ambiguities, and Technical Debt (Current)
 
 1. Final ownership assignments for economics metrics are pending.
-2. Regional/legal constraints for public GDP publication need confirmation.
+2. Regional/legal constraints for authenticated cross-region GDP publication and transfer controls need confirmation.
 3. Snapshot publication SLA and freeze windows are not finalized.
 4. Migration/version strategy for metric definition evolution requires first implementation RFC.
+5. Contract parity gaps remain until all 9 planned commands are represented in command/access/audit artifacts.
 
 ---
 
 ## 10) Change Log
 
 - 2026-02-24: Initial GDP CTF rewrite inventory created.
+- 2026-02-25: Added DP-first privacy controls, authenticated-only reporting posture, command-level protection matrix, retention/deletion refinements, and GA privacy evidence blockers.

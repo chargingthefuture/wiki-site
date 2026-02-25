@@ -26,6 +26,33 @@ auditEvents:
     timestamp: rfc3339
     actorId: principal
     pluginId: service-credits
+    command: account.deletion.reclaim.execute
+    commandVersion: 1.0.0
+    purpose: account_deletion_reclaim
+    policyDecision:
+      status: allow_or_deny
+      reason: policy_reason_code
+    dataClassesAccessed:
+      - wallet_balance_state
+      - escrow_hold_state
+      - treasury_reclaim_record
+      - wallet_tombstone_record
+    targetContext:
+      workspaceId: workspace_identifier
+      accountId: account_identifier
+      deletionRequestId: deletion_request_identifier
+      treasuryEventId: treasury_event_identifier
+      transferId: transfer_identifier
+    requestId: request_identifier
+    traceId: trace_identifier
+    result:
+      status: success_or_failure
+      errorCategory: none_or_error_class
+
+  - eventId: uuid
+    timestamp: rfc3339
+    actorId: principal
+    pluginId: service-credits
     command: wallet.balance.get
     commandVersion: 1.0.0
     purpose: balance_visibility

@@ -21,6 +21,8 @@ Examples:
 - [Feed rewrite checklist](./ctf-feed-rewrite-checklist.md)
 - [Announcements feature inventory](./ctf-announcements-feature-inventory.md)
 - [Announcements rewrite checklist](./ctf-announcements-rewrite-checklist.md)
+- [Directory feature inventory](./ctf-directory-feature-inventory.md)
+- [Directory rewrite checklist](./ctf-directory-rewrite-checklist.md)
 - [Foundation feature inventory](./ctf-foundation-feature-inventory.md)
 - [Foundation rewrite checklist](./ctf-foundation-rewrite-checklist.md)
 - [Peer Programming feature inventory](./ctf-peer-programming-feature-inventory.md)

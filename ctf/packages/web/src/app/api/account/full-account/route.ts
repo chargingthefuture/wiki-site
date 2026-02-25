@@ -1,7 +1,9 @@
 import type { ServiceDeletionResponse } from "@ctf/shared";
+import { randomUUID } from "crypto";
 import { NextResponse } from "next/server";
 import { recordFullAccountDeletionRequest } from "../../../../lib/server/chymeRepository";
 import { getClerkServerModule } from "../../../../lib/server/clerkServer";
+import { enqueueServiceCreditsAccountDeletionReclaim } from "../../../../lib/server/serviceCreditsRepository";
 
 export async function DELETE(request: Request) {
   const { auth } = await getClerkServerModule(request);
@@ -10,7 +12,10 @@ export async function DELETE(request: Request) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
+  const deletionRequestId = randomUUID();
+
   await recordFullAccountDeletionRequest(userId);
+  await enqueueServiceCreditsAccountDeletionReclaim({ userId, deletionRequestId });
 
   const response: ServiceDeletionResponse = {
     ok: true,

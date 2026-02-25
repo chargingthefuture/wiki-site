@@ -22,9 +22,12 @@ It must:
 2. support deterministic wallet balance checks and transfers,
 3. support escrow hold/release/refund for transactional safety,
 4. support governance-controlled mint/burn operations,
-5. support treasury fee collection and dispute adjustments with full auditability.
+5. support treasury fee collection and dispute adjustments with full auditability,
+6. on full account deletion, transfer remaining user credits to treasury after a 7-day reclaim window (no burn, no external withdrawal), only after active escrow holds involving the wallet are resolved.
 
 Cross-plugin usage is mandatory for any CTF flow that transfers economic value, and fiat redemption paths are out of scope and explicitly denied.
+
+For GDP/accounting semantics, deletion-based treasury reclaim is reserve reallocation and not GDP recognition.
 
 The plugin must provide equivalent core behavior across web and Android, with phased parity tracked and closed before GA.
 
@@ -56,6 +59,12 @@ The plugin must provide equivalent core behavior across web and Android, with ph
 2. Deterministic status and outcome surfaces for adjusted transactions.
 3. User-readable guidance when commands are denied by policy.
 
+### 1.5 Account Deletion Reclaim Experience
+
+1. User-visible notice that a 7-day reclaim window applies after full account deletion request.
+2. Clear messaging that credits are returned to treasury after the reclaim window and are not withdrawable externally.
+3. Reclaim status messaging when deletion reclaim is blocked by active escrow holds.
+
 ---
 
 ## 2) Planned Admin Features
@@ -77,6 +86,12 @@ The plugin must provide equivalent core behavior across web and Android, with ph
 1. Dispute adjustment commands with strict role + evidence gate.
 2. Auditable allow/deny decisions for every sensitive command.
 3. Region and tenancy boundary checks on all mutation commands.
+
+### 2.4 Account Deletion Reclaim Operations
+
+1. Internal role-gated execution of deletion reclaim after reclaim-window expiry.
+2. Replay-safe/idempotent reclaim execution keyed by `account_id` + `deletion_request_id`.
+3. Immutable audit/event emission for `account_deleted_and_returned_to_treasury` with correlation fields.
 
 ---
 
@@ -102,6 +117,7 @@ Planned command groups:
 8. `service-credits.governance.burn`
 9. `service-credits.treasury.fee.collect`
 10. `service-credits.dispute.adjustment.apply`
+11. `service-credits.account.deletion.reclaim.execute`
 
 ### 3.2 HTTP Projection Routes (Planned)
 
@@ -121,6 +137,10 @@ Admin routes:
 - `POST /api/service-credits/admin/treasury/fees/collect`
 - `POST /api/service-credits/admin/disputes/adjustments`
 - `GET /api/service-credits/admin/audit-events`
+
+Internal routes:
+
+- `POST /api/internal/service-credits/accounts/:accountId/deletion-reclaims/:deletionRequestId/execute`
 
 ### 3.3 Formance-First Adapter Seam Notes
 
@@ -162,6 +182,8 @@ Planned domain tables (initial set):
 6. `service_credits_dispute_adjustments`
 7. `service_credits_command_idempotency`
 8. `service_credits_adapter_outbox`
+9. `service_credits_account_deletion_reclaims`
+10. `service_credits_wallet_tombstones`
 
 ### 4.3 Lifecycle and Storage Constraints
 
@@ -169,6 +191,11 @@ Planned domain tables (initial set):
 2. Idempotency-key replay protection for mutation commands.
 3. Explicit storage of cross-plugin origin context for every non-read command.
 4. Retention metadata captured per domain entity and audit stream.
+5. Deletion reclaim execution must be idempotent on (`account_id`, `deletion_request_id`).
+6. Deletion reclaim execution is blocked while active escrow holds exist for the source wallet.
+7. Treasury transfer and wallet tombstone creation for deletion reclaim must commit atomically.
+8. Deletion reclaim emits immutable `account_deleted_and_returned_to_treasury` event with request/trace/correlation fields.
+9. Deletion reclaim ledger classification is treasury reserve reallocation (non-GDP-recognition event).
 
 ---
 
@@ -180,6 +207,9 @@ Planned domain tables (initial set):
 4. Workspace tenancy and region transfer restrictions for wallet and ledger actions.
 5. Audit events for allow + deny decisions with request/trace correlation fields.
 6. External ledger adapter calls execute only after policy decision capture and idempotency checks.
+7. No external withdrawal path is permitted for deletion reclaim outcomes.
+8. Deletion reclaim commands are denied until escrow-hold resolution checks pass.
+9. Deletion reclaim event records are immutable and tamper-evident in audit storage.
 
 ---
 
@@ -198,6 +228,7 @@ Planned domain tables (initial set):
 2. High-risk mutation confirmations should be clear, concise, and reversible where policy permits.
 3. User-facing transaction states should prioritize clarity over financial jargon.
 4. Denied command messages should include non-sensitive reason categories and next-step guidance.
+5. Full account deletion flow should notify users of reclaim-window timing, escrow-hold blockers, and treasury return completion.
 
 ---
 
@@ -208,6 +239,10 @@ Planned domain tables (initial set):
 3. Audit integrity tests for allow + deny outcomes on each command.
 4. Integration tests for adapter seam behavior with deterministic failure classes.
 5. Seed scenarios for wallet lifecycle, escrow release/refund, treasury fee collection, and dispute adjustment.
+6. Lifecycle tests for deletion reclaim timing (7-day window), escrow-block behavior, and eventual treasury transfer.
+7. Idempotency tests validating replay safety on (`account_id`, `deletion_request_id`).
+8. Transactional integrity tests validating atomic treasury transfer + wallet tombstone creation.
+9. Event-contract tests for immutable `account_deleted_and_returned_to_treasury` emission with correlation fields.
 
 ---
 
@@ -224,3 +259,4 @@ Planned domain tables (initial set):
 ## 10) Change Log
 
 - 2026-02-24: Initial Service Credits CTF rewrite inventory created.
+- 2026-02-25: Added approved account-deletion treasury reclaim policy (7-day window, escrow-blocked reclaim, idempotent atomic transfer+tombstone, immutable reclaim event, non-GDP accounting semantics).

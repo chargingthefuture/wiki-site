@@ -92,6 +92,27 @@
 - [ ] Validate deletion behavior for plugin-scoped and full-account flows.
   - Acceptance criteria:
     - Service Credits extension/domain deletion behavior is documented and compliant.
+- [ ] Define full-account deletion reclaim entry criteria (`pending_deletion`) for Service Credits balances.
+  - Acceptance criteria:
+    - Reclaim flow only executes for accounts in `pending_deletion` state and rejects non-pending states deterministically.
+- [ ] Enforce 7-day full-account deletion reclaim window.
+  - Acceptance criteria:
+    - Reclaim eligibility checks include deletion-request timestamp validation against a 7-day window.
+- [ ] Enforce escrow-block rule before reclaim finalization.
+  - Acceptance criteria:
+    - Reclaim finalization is denied while any active escrow hold exists for the account.
+- [ ] Implement idempotent reclaim keyed by (`account_id`, `deletion_request_id`).
+  - Acceptance criteria:
+    - Retries/replays with the same key produce the same terminal outcome with no double-transfer.
+- [ ] Implement atomic treasury transfer plus account-balance tombstone write.
+  - Acceptance criteria:
+    - Treasury return and user-balance tombstone are committed as one atomic unit or both rolled back.
+- [ ] Emit immutable reclaim finalization event.
+  - Acceptance criteria:
+    - Reclaim completion writes append-only event evidence with request/trace correlation and no mutation path.
+- [ ] Enforce metrics semantics for reclaim events (no-GDP recognition).
+  - Acceptance criteria:
+    - Account-deletion treasury returns are recorded as reserve reallocations and excluded from GDP recognition metrics.
 
 ## Phase 6 — Tests and Release
 

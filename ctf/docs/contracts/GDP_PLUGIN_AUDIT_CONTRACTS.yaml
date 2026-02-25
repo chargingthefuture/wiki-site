@@ -72,6 +72,52 @@ auditEvents:
     timestamp: rfc3339
     actorId: principal
     pluginId: gross-domestic-product
+    command: rollout.progress.get
+    commandVersion: 1.0.0
+    purpose: transparency_reporting
+    policyDecision:
+      status: allow_or_deny
+      reason: policy_reason_code
+    dataClassesAccessed:
+      - rollout_target_values
+      - rollout_actual_values
+      - aggregate_gap_analysis
+    targetContext:
+      workspaceId: workspace_identifier
+      startYear: reporting_start_year
+      endYear: reporting_end_year
+    requestId: request_identifier
+    traceId: trace_identifier
+    result:
+      status: success_or_failure
+      errorCategory: none_or_error_class
+
+  - eventId: uuid
+    timestamp: rfc3339
+    actorId: principal
+    pluginId: gross-domestic-product
+    command: scenario.assumptions.get
+    commandVersion: 1.0.0
+    purpose: transparency_reporting
+    policyDecision:
+      status: allow_or_deny
+      reason: policy_reason_code
+    dataClassesAccessed:
+      - scenario_assumption_metadata
+      - canonical_metric_definition
+    targetContext:
+      workspaceId: workspace_identifier
+      scenarioId: scenario_identifier_or_default
+    requestId: request_identifier
+    traceId: trace_identifier
+    result:
+      status: success_or_failure
+      errorCategory: none_or_error_class
+
+  - eventId: uuid
+    timestamp: rfc3339
+    actorId: principal
+    pluginId: gross-domestic-product
     command: admin.metric.propose
     commandVersion: 1.0.0
     purpose: metric_governance
@@ -133,6 +179,33 @@ auditEvents:
       workspaceId: workspace_identifier
       snapshotId: snapshot_identifier
       year: reporting_year
+    requestId: request_identifier
+    traceId: trace_identifier
+    result:
+      status: success_or_failure
+      errorCategory: none_or_error_class
+
+  - eventId: uuid
+    timestamp: rfc3339
+    actorId: principal
+    pluginId: gross-domestic-product
+    command: admin.backfill.run
+    commandVersion: 1.0.0
+    purpose: publication_governance
+    policyDecision:
+      status: allow_or_deny
+      reason: policy_reason_code
+    dataClassesAccessed:
+      - aggregate_metric_values
+      - category_breakdown
+      - provider_tier_breakdown
+      - rollout_progress
+      - publication_event_log
+    targetContext:
+      workspaceId: workspace_identifier
+      backfillRunId: backfill_run_identifier
+      startYear: reporting_start_year
+      endYear: reporting_end_year
     requestId: request_identifier
     traceId: trace_identifier
     result:

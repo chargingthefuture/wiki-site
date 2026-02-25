@@ -872,6 +872,85 @@ canonical_metrics:
     allowed_thresholds:
       min: 0
 
+  - id: service_credits_account_deletion_returned_to_treasury_total
+    name: Service Credits Account Deletion Returned to Treasury Total
+    description: Total credits returned to treasury from account deletion reclaim events in the reporting window; this is a reserve reallocation and is excluded from GDP recognition.
+    owner: treasury-ops@chargingthefuture.org
+    data_type: integer
+    unit: SC
+    calculation: |
+      SELECT COALESCE(SUM(amount_units), 0) AS service_credits_account_deletion_returned_to_treasury_total
+      FROM service_credits_treasury_events
+      WHERE event_type = 'account_deletion_reclaim'
+        AND occurred_at >= :window_start
+        AND occurred_at < :window_end;
+    inputs:
+      - name: service_credits_treasury_events.event_type
+        type: string
+      - name: service_credits_treasury_events.amount_units
+        type: integer
+      - name: service_credits_treasury_events.occurred_at
+        type: datetime
+    example_values:
+      - 340000
+      - 615000
+    last_updated: "2026-02-25T00:00:00Z"
+    update_cadence: daily
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: service_credits_account_deletion_returned_to_treasury_count
+    name: Service Credits Account Deletion Returned to Treasury Count
+    description: Count of account deletion reclaim treasury events in the reporting window; these are reserve reallocations and are excluded from GDP recognition.
+    owner: treasury-ops@chargingthefuture.org
+    data_type: integer
+    unit: reclaims
+    calculation: |
+      SELECT COUNT(*) AS service_credits_account_deletion_returned_to_treasury_count
+      FROM service_credits_treasury_events
+      WHERE event_type = 'account_deletion_reclaim'
+        AND occurred_at >= :window_start
+        AND occurred_at < :window_end;
+    inputs:
+      - name: service_credits_treasury_events.event_type
+        type: string
+      - name: service_credits_treasury_events.occurred_at
+        type: datetime
+    example_values:
+      - 118
+      - 205
+    last_updated: "2026-02-25T00:00:00Z"
+    update_cadence: daily
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
+  - id: service_credits_account_deletion_reclaim_pending_count
+    name: Service Credits Account Deletion Reclaim Pending Count
+    description: Count of account deletion reclaim records still pending completion; these pending reserve reallocations are excluded from GDP recognition.
+    owner: treasury-ops@chargingthefuture.org
+    data_type: integer
+    unit: reclaims
+    calculation: |
+      SELECT COUNT(*) AS service_credits_account_deletion_reclaim_pending_count
+      FROM service_credits_account_deletion_reclaims
+      WHERE reclaim_status IN ('pending_window', 'blocked_escrow')
+        AND created_at <= :as_of;
+    inputs:
+      - name: service_credits_account_deletion_reclaims.reclaim_status
+        type: string
+      - name: service_credits_account_deletion_reclaims.created_at
+        type: datetime
+    example_values:
+      - 74
+      - 39
+    last_updated: "2026-02-25T00:00:00Z"
+    update_cadence: hourly
+    retention: 120 months
+    allowed_thresholds:
+      min: 0
+
   - id: service_credits_treasury_balance
     name: Service Credits Treasury Balance
     description: Current treasury wallet balance available for grants, subsidies, and stabilization policy actions.

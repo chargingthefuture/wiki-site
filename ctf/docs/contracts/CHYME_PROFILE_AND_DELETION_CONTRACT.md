@@ -78,6 +78,7 @@ When user requests full account deletion (`DELETE /api/account/full-account`):
   - currently none immediately; request is recorded only
 - Cross-service dependencies:
   - requires global account deletion orchestrator across all plugin domains
+  - Service Credits reclaim/finalization is required before account deletion can be marked `completed`
 - Final expected state:
   - target state (TBD in orchestrator): account and all plugin data deleted/anonymized per policy
 
