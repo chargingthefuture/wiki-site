@@ -5,7 +5,7 @@ import { recordFullAccountDeletionRequest } from "../../../../lib/server/chymeRe
 import { getClerkServerModule } from "../../../../lib/server/clerkServer";
 import { enqueueServiceCreditsAccountDeletionReclaim } from "../../../../lib/server/serviceCreditsRepository";
 
-export async function DELETE(request: Request) {
+export async function DELETE() {
   const { auth } = await getClerkServerModule();
   const { userId } = await auth();
   if (!userId) {

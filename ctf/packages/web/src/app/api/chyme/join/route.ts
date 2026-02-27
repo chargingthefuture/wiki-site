@@ -8,7 +8,7 @@ import {
 } from "../../../../lib/server/streamServer";
 import { getClerkServerModule } from "../../../../lib/server/clerkServer";
 
-export async function POST(request: Request) {
+export async function POST() {
   const { auth, currentUser } = await getClerkServerModule();
   const { userId } = await auth();
   if (!userId) {

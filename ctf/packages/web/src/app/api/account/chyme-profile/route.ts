@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 import { deleteChymeProfileData } from "../../../../lib/server/chymeRepository";
 import { getClerkServerModule } from "../../../../lib/server/clerkServer";
 
-export async function DELETE(request: Request) {
+export async function DELETE() {
   const { auth } = await getClerkServerModule();
   const { userId } = await auth();
   if (!userId) {

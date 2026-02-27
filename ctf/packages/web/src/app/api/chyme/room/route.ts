@@ -4,7 +4,7 @@ import { upsertAccessUserFromClerk } from "../../../../lib/server/accessReposito
 import { getChymeRoomState, upsertChymeProfileAndMember } from "../../../../lib/server/chymeRepository";
 import { getClerkServerModule } from "../../../../lib/server/clerkServer";
 
-export async function GET(request: Request) {
+export async function GET() {
   const { auth, currentUser } = await getClerkServerModule();
   const { userId } = await auth();
   if (!userId) {
