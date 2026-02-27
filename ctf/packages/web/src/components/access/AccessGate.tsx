@@ -5,10 +5,7 @@ import { Component, type ErrorInfo, type ReactNode, useCallback, useEffect, useM
 import { webErrorReporter } from "../../lib/observability";
 import { AppShell } from "../layout/AppShell";
 
-interface AccessGateProps {
-  streamChatMauLimit: number;
-  observabilityProvider: string;
-}
+interface AccessGateProps {}
 
 interface AccessUser {
   userId: string;
@@ -323,8 +320,6 @@ function AccessGateWithClerk(props: AccessGateProps) {
 
   return (
     <AppShell
-      streamChatMauLimit={props.streamChatMauLimit}
-      observabilityProvider={props.observabilityProvider}
       isAdmin={accessUser.isAdmin}
     />
   );

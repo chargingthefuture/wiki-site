@@ -1,4 +1,4 @@
-import { defaultMakerTierBudget } from "@ctf/shared";
+
 import {
   ClerkLoaded,
   ClerkProvider,
@@ -88,9 +88,7 @@ export default function App() {
           <SignedOutView />
         </SignedOut>
         <SignedIn>
-          <InviteOnlyView
-            streamChatMauLimit={defaultMakerTierBudget.monthlyChatMauLimit}
-          />
+          <InviteOnlyView />
         </SignedIn>
       </ClerkLoaded>
     </ClerkProvider>

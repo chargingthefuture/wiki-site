@@ -8,7 +8,7 @@ import {
   TextInput,
   View,
 } from "react-native";
-import { mobileObservabilityProvider } from "../services/observability";
+
 import { inviteOnlyStyles as styles } from "./InviteOnlyStyles";
 
 const QUORA_PROFILE_PREFIX = "https://quora.com/profile/";
@@ -23,9 +23,7 @@ interface AccessStatus {
   isAdmin: boolean;
 }
 
-interface InviteOnlyViewProps {
-  streamChatMauLimit: number;
-}
+interface InviteOnlyViewProps {}
 
 const extractHandle = (url: string | null | undefined): string => {
   if (!url) {
@@ -233,8 +231,6 @@ export function InviteOnlyView(props: InviteOnlyViewProps) {
         {!needsApproval && accessStatus ? (
           <>
             <Text style={styles.subtitle}>Access approved</Text>
-            <Text>Stream Chat MAU budget: {props.streamChatMauLimit}</Text>
-            <Text>Observability provider: {mobileObservabilityProvider}</Text>
           </>
         ) : null}
       </View>

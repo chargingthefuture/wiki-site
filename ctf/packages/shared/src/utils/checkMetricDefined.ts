@@ -179,7 +179,6 @@ const emitAuditLog = async (
   options?: MetricCheckOptions
 ): Promise<void> => {
   const payload = JSON.stringify(log);
-  console.log(payload);
 
   const auditFilePath = options?.auditFilePath ?? process.env.MDC_AUDIT_LOG_PATH;
   if (auditFilePath) {

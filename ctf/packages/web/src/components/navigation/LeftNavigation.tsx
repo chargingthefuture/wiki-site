@@ -2,11 +2,15 @@
 
 import { useUser } from "@clerk/nextjs";
 
+interface LeftNavigationProps {
+  isAdmin?: boolean;
+}
+
 const navItems = [
   { key: "home", label: "Home" },
 ];
 
-export function LeftNavigation() {
+export function LeftNavigation(props: LeftNavigationProps) {
   const { user, isLoaded } = useUser();
   const displayName = user?.firstName ?? user?.username ?? "Member";
 

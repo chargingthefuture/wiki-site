@@ -2,7 +2,7 @@ import type { ErrorEvent, ErrorReporter } from "./errorReporter";
 
 export const createSentryReporter = (
   capture: (event: ErrorEvent) => void = (event) => {
-    console.error("Sentry reporter capture", event);
+    // Fallback capture implementation
   },
 ): ErrorReporter => {
   return {
