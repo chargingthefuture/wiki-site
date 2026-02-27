@@ -23,9 +23,9 @@
     "test:e2e:ui": "playwright test --ui"
   },
   "dependencies": {
-    "@clerk/clerk-react": "latest",
-    "@clerk/clerk-sdk-node": "latest",
-    "@clerk/express": "latest",
+    "@clerk/clerk-react": "^5",
+    "@clerk/clerk-sdk-node": "^5",
+    "@clerk/express": "^1",
     "@ffmpeg/ffmpeg": "^0.12.15",
     "@ffmpeg/util": "^0.12.2",
     "@hookform/resolvers": "^3.10.0",
