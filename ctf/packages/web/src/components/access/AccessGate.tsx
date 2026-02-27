@@ -5,8 +5,6 @@ import { Component, type ErrorInfo, type ReactNode, useCallback, useEffect, useM
 import { webErrorReporter } from "../../lib/observability";
 import { AppShell } from "../layout/AppShell";
 
-interface AccessGateProps {}
-
 interface AccessUser {
   userId: string;
   email: string | null;
@@ -52,10 +50,10 @@ const buildQuoraUrl = (handle: string): string | null => {
   return `${QUORA_PROFILE_PREFIX}${cleanHandle}`;
 };
 
-export function AccessGate(props: AccessGateProps) {
+export function AccessGate() {
   return (
     <AccessGateErrorBoundary>
-      <AccessGateWithClerk {...props} />
+      <AccessGateWithClerk />
     </AccessGateErrorBoundary>
   );
 }
@@ -106,7 +104,7 @@ class AccessGateErrorBoundary extends Component<AccessGateBoundaryProps, AccessG
   }
 }
 
-function AccessGateWithClerk(props: AccessGateProps) {
+function AccessGateWithClerk() {
   const { isLoaded, isSignedIn } = useAuth();
   const [accessUser, setAccessUser] = useState<AccessUser | null>(null);
   const [isFetching, setIsFetching] = useState(false);

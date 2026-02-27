@@ -8,7 +8,7 @@ export function AppShell(props: AppShellProps) {
   return (
     <main className="shell" aria-label="TI Skills Economy application shell">
       <section className="shell-nav" aria-label="Primary navigation">
-        <LeftNavigation isAdmin={Boolean(props.isAdmin)} />
+        <LeftNavigation />
       </section>
     </main>
   );
