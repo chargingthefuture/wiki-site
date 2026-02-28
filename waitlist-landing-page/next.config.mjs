@@ -1,5 +1,6 @@
 
-const { withSentryConfig } = require('@sentry/nextjs')
+
+import { withSentryConfig } from '@sentry/nextjs'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
