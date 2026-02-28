@@ -1,9 +1,0 @@
-[build]
-builder = "NIXPACKS"
-buildCommand = "pnpm install --frozen-lockfile --prod=false && pnpm --filter @ctf/web run build"
-
-[deploy]
-startCommand = "pnpm --filter @ctf/web run start"
-restartPolicyType = "ON_FAILURE"
-restartPolicyMaxRetries = 10
-
