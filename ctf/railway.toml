@@ -1,0 +1,10 @@
+[build]
+# Set the working directory for build and start commands
+workdir = "./packages/web"
+
+# Build command for Next.js app
+command = "pnpm install --frozen-lockfile --prod=false && pnpm build"
+
+[start]
+# Start command for Next.js app
+command = "pnpm start"
