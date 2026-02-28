@@ -57,9 +57,40 @@ function UrgencyBanner() {
         <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-vibrant-coral" />
       </span>
       <span className="font-[var(--font-inter)] text-xs sm:text-sm text-vibrant-coral font-semibold">
-        Only {spotsLeft} pilot spots remaining
+        60 spots already filled
       </span>
     </div>
+  )
+}
+
+function WaitlistCount() {
+  const [count, setCount] = useState<number | null>(null)
+
+  useEffect(() => {
+    let cancelled = false
+    async function fetchCount() {
+      try {
+        const res = await fetch("/api/waitlist/count", { next: { revalidate: 3600 } })
+        if (!res.ok) throw new Error("Failed to fetch count")
+        const data = await res.json()
+        if (!cancelled) setCount(data.count)
+      } catch {
+        if (!cancelled) setCount(null)
+      }
+    }
+    fetchCount()
+    // Optionally, refresh every hour
+    const interval = setInterval(fetchCount, 3600 * 1000)
+    return () => {
+      cancelled = true
+      clearInterval(interval)
+    }
+  }, [])
+
+  return (
+    <span className="font-[var(--font-inter)] text-xs sm:text-sm text-vibrant-mint font-medium">
+      {count !== null ? `${count.toLocaleString()} people on the waitlist` : "Waitlist loading..."}
+    </span>
   )
 }
 
@@ -108,9 +139,7 @@ export function HeroSection() {
             <div className="bg-[#0a0a0a]/90 backdrop-blur-sm rounded-xl p-3 sm:p-4 flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 rounded-full bg-vibrant-mint animate-pulse" />
-                <span className="font-[var(--font-inter)] text-xs sm:text-sm text-vibrant-mint font-medium">
-                  4,821 people on the waitlist
-                </span>
+                <WaitlistCount />
               </div>
               <span className="font-[var(--font-inter)] text-[10px] sm:text-xs text-muted-foreground">
                 Updated live
