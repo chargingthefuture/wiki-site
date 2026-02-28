@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Lock, Shield, Eye, Zap, CheckCircle2, ArrowRight } from "lucide-react"
+import { COUNTRIES } from "@/lib/countries"
 
 export function WaitlistCTA() {
   const [formState, setFormState] = useState<"idle" | "submitting" | "success">("idle")
@@ -17,17 +18,36 @@ export function WaitlistCTA() {
     quoraUrl: "",
   })
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setFormState("submitting")
-    // Simulate submission
-    setTimeout(() => {
-      setFormState("success")
-    }, 1500)
+    try {
+      const res = await fetch("/api/waitlist", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      })
+      if (res.ok) {
+        setFormState("success")
+      } else {
+        // Optionally handle error state
+        setFormState("idle")
+        // Optionally show error message
+      }
+    } catch (err) {
+      setFormState("idle")
+      // Optionally show error message
+    }
   }
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }))
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+    const { name, value } = e.target
+    setFormData((prev) => {
+      if (name === "skills") {
+        return { ...prev, [name]: value.slice(0, 240) }
+      }
+      return { ...prev, [name]: value }
+    })
   }
 
   return (
@@ -134,33 +154,40 @@ export function WaitlistCTA() {
 
                 <div className="flex flex-col gap-1.5">
                   <label htmlFor="skills" className="font-[var(--font-inter)] text-xs sm:text-sm text-muted-foreground">
-                    Skills
+                    Skills <span className="text-vibrant-coral">*</span>
                   </label>
                   <input
                     type="text"
                     id="skills"
                     name="skills"
+                    required
+                    maxLength={240}
                     value={formData.skills}
                     onChange={handleChange}
                     className="bg-secondary border border-border rounded-xl px-4 py-3 font-[var(--font-inter)] text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-vibrant-lime/50 focus:border-vibrant-lime transition-all"
                     placeholder="e.g., counseling, design, coding"
                   />
+                  <span className="text-xs text-muted-foreground self-end">{formData.skills.length}/240</span>
                 </div>
 
                 <div className="grid sm:grid-cols-3 gap-4">
                   <div className="flex flex-col gap-1.5">
                     <label htmlFor="country" className="font-[var(--font-inter)] text-xs sm:text-sm text-muted-foreground">
-                      Country
+                      Country <span className="text-vibrant-coral">*</span>
                     </label>
-                    <input
-                      type="text"
+                    <select
                       id="country"
                       name="country"
+                      required
                       value={formData.country}
                       onChange={handleChange}
-                      className="bg-secondary border border-border rounded-xl px-4 py-3 font-[var(--font-inter)] text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-vibrant-lime/50 focus:border-vibrant-lime transition-all"
-                      placeholder="Country"
-                    />
+                      className="bg-secondary border border-border rounded-xl px-4 py-3 font-[var(--font-inter)] text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-vibrant-lime/50 focus:border-vibrant-lime transition-all"
+                    >
+                      <option value="" disabled>Select your country</option>
+                      {COUNTRIES.map((country) => (
+                        <option key={country} value={country}>{country}</option>
+                      ))}
+                    </select>
                   </div>
                   <div className="flex flex-col gap-1.5">
                     <label htmlFor="state" className="font-[var(--font-inter)] text-xs sm:text-sm text-muted-foreground">
@@ -194,12 +221,13 @@ export function WaitlistCTA() {
 
                 <div className="flex flex-col gap-1.5">
                   <label htmlFor="quoraUrl" className="font-[var(--font-inter)] text-xs sm:text-sm text-muted-foreground">
-                    Quora Profile URL
+                    Quora Profile URL <span className="text-vibrant-coral">*</span>
                   </label>
                   <input
                     type="url"
                     id="quoraUrl"
                     name="quoraUrl"
+                    required
                     value={formData.quoraUrl}
                     onChange={handleChange}
                     className="bg-secondary border border-border rounded-xl px-4 py-3 font-[var(--font-inter)] text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-vibrant-lime/50 focus:border-vibrant-lime transition-all"
