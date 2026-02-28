@@ -85,7 +85,7 @@ export function HeroSection() {
         {/* Left panel - Hero image with vibrant overlay */}
         <div className="relative h-[40vh] sm:h-[50vh] lg:h-auto overflow-hidden bg-secondary">
           <Image
-            src="/images/dara014634-comic-book-panel-in-robert-kirkmans-walking-dead-s-81524c71-3ea6-4499-a1b8-6b92cf353928-0.png"
+            src="/images/panel-2.png"
             alt="Comic book panel illustration representing survivor resilience"
             fill
             className="object-cover"
