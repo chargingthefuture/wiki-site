@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "debugId": "4a70f5d6-67b5-89c6-0096-6771ae9e55fb",
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["../../../../../waitlist-landing-page/node_modules/.pnpm/next%4016.1.6_%40babel%2Bcore%407.29.0_%40opentelemetry%2Bapi%401.9.0_react-dom%4019.2.1_react%4019.2.1__react%4019.2.1/node_modules/next/src/server/route-modules/app-page/vendored/ssr/react-dom.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-ssr']!.ReactDOM\n"],"names":["module","exports","require","vendored","ReactDOM"],"mappings":"6CAAAA,EAAOC,OAAO,CACZC,EAAQ,CAAA,CAAA,IAAA,GACRC,QAAQ,CAAC,YAAY,CAAEC,QAAQ","ignoreList":[0]}}]
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "debugId": "0330871a-4700-ec8e-1f40-50d100efab96",
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["../../../../../waitlist-landing-page/node_modules/.pnpm/next%4016.1.6_%40babel%2Bcore%407.29.0_%40opentelemetry%2Bapi%401.9.0_react-dom%4019.2.1_react%4019.2.1__react%4019.2.1/node_modules/next/src/server/route-modules/app-page/vendored/ssr/react-dom.ts","../../../../../waitlist-landing-page/node_modules/.pnpm/next%4016.1.6_%40babel%2Bcore%407.29.0_%40opentelemetry%2Bapi%401.9.0_react-dom%4019.2.1_react%4019.2.1__react%4019.2.1/node_modules/next/src/server/route-modules/app-page/vendored/ssr/react-server-dom-turbopack-client.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-ssr']!.ReactDOM\n","module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-ssr']!.ReactServerDOMTurbopackClient\n"],"names":["module","exports","require","vendored","ReactDOM","ReactServerDOMTurbopackClient"],"mappings":"6CAAAA,EAAOC,OAAO,CACZC,EAAQ,CAAA,CAAA,IAAA,GACRC,QAAQ,CAAC,YAAY,CAAEC,QAAQ,+BCFjCJ,EAAOC,OAAO,CACZC,EAAQ,CAAA,CAAA,IAAA,GACRC,QAAQ,CAAC,YAAY,CAAEE,6BAA6B","ignoreList":[0,1]}}]
-}

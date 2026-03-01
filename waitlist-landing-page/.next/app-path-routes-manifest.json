@@ -1,8 +1,0 @@
-{
-  "/_global-error/page": "/_global-error",
-  "/_not-found/page": "/_not-found",
-  "/api/waitlist/count/route": "/api/waitlist/count",
-  "/api/waitlist/route": "/api/waitlist",
-  "/look-ma-i-fixed-it/page": "/look-ma-i-fixed-it",
-  "/page": "/"
-}

@@ -1,9 +1,7 @@
 
 import { NextRequest, NextResponse } from "next/server"
-import { Pool } from "pg"
 import * as Sentry from "@sentry/nextjs"
-
-const pool = new Pool({ connectionString: process.env.DATABASE_URL })
+import { pool } from "@/lib/db"
 
 export async function POST(req: NextRequest) {
   try {

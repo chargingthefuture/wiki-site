@@ -1,5 +1,0 @@
-;!function(){try { var e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof global?global:"undefined"!=typeof window?window:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&((e._debugIds|| (e._debugIds={}))[n]="047b7eb9-651e-b6d3-df33-735f8cc9e50b")}catch(e){}}();
-(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,85354,(e,t,o)=>{"use strict";Object.defineProperty(o,"__esModule",{value:!0}),Object.defineProperty(o,"warnOnce",{enumerable:!0,get:function(){return r}});let r=e=>{}},16046,(e,t,o)=>{"use strict";function r(e,t={}){if(t.onlyHashChange)return void e();let o=document.documentElement;if("smooth"!==o.dataset.scrollBehavior)return void e();let n=o.style.scrollBehavior;o.style.scrollBehavior="auto",t.dontForceLayout||o.getClientRects(),e(),o.style.scrollBehavior=n}Object.defineProperty(o,"__esModule",{value:!0}),Object.defineProperty(o,"disableSmoothScrollDuringRouteTransition",{enumerable:!0,get:function(){return r}}),e.r(85354)}]);
-
-//# debugId=047b7eb9-651e-b6d3-df33-735f8cc9e50b
-//# sourceMappingURL=2ca8a8a2d931bff4.js.map
