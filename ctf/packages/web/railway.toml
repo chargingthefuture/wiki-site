@@ -1,0 +1,6 @@
+[build]
+# Supports Railway services configured with root directory = ctf/packages/web.
+command = "corepack enable && corepack prepare pnpm@9.12.0 --activate && pnpm install --no-frozen-lockfile --prod=false && pnpm build"
+
+[start]
+command = "corepack enable && corepack prepare pnpm@9.12.0 --activate && pnpm start"

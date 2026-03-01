@@ -2,13 +2,23 @@
   "name": "@ctf/mobile",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
-  "main": "src/index.ts",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "echo \"@ctf/mobile start placeholder\"",
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
     "build": "echo \"@ctf/mobile build ok\"",
     "lint": "echo \"@ctf/mobile lint ok\"",
     "typecheck": "echo \"@ctf/mobile typecheck ok\"",
     "test": "echo \"@ctf/mobile test ok\""
+  },
+  "dependencies": {
+    "expo": "^55.0.4",
+    "expo-status-bar": "^55.0.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-native": "^0.84.1",
+    "react-native-web": "^0.21.2"
   }
 }
