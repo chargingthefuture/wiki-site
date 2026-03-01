@@ -1,12 +1,14 @@
 import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
+import { getClerkRuntimeOptions } from './lib/auth/clerk-env';
 
 const isProtectedWebRoute = createRouteMatcher(['/plugin(.*)', '/admin(.*)']);
+const clerkRuntimeOptions = getClerkRuntimeOptions();
 
 export default clerkMiddleware((auth, req) => {
   if (isProtectedWebRoute(req)) {
     auth().protect();
   }
-});
+}, clerkRuntimeOptions);
 
 export const config = {
   matcher: [

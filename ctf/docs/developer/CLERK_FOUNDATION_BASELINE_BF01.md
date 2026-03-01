@@ -49,6 +49,16 @@ From `ctf/packages/web`:
 - Fails fast if required Clerk keys are missing for the selected deployment target.
 - Meant for CI pre-deploy gates and deploy-time smoke checks.
 
+### Runtime fallback behavior
+- Web runtime resolves Clerk keys from both unprefixed and environment-prefixed names.
+- This prevents middleware startup failures when deployment uses Rule-123 prefixed keys.
+
+Resolution order per key family:
+1. Unprefixed (`NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`, `CLERK_SECRET_KEY`, `CLERK_SIGN_IN_URL`)
+2. Railway staging prefixed
+3. Vercel staging prefixed
+4. Railway production prefixed
+
 ## Deny Taxonomy Baseline
 - Canonical deny taxonomy doc:
   - `ctf/docs/contracts/PLUGIN_AUTH_DENY_TAXONOMY_BASELINE.md`
@@ -78,3 +88,10 @@ From `ctf/packages/web`:
 2. Production key naming preference:
    - Validation script currently expects unprefixed production Clerk keys.
    - If `RAILWAY_PROD_*` keys are preferred, update contract by explicit approval only.
+
+## Troubleshooting: `MIDDLEWARE_INVOCATION_FAILED`
+If Railway returns `500` with code `MIDDLEWARE_INVOCATION_FAILED`:
+1. Run `CLERK_ENV_TARGET=railway-staging pnpm run check:clerk-env` in `ctf/packages/web`.
+2. Add missing Clerk env keys in Railway service Variables.
+3. Confirm domain-specific Clerk instance matches deployed frontend domain.
+4. Redeploy and re-check `/` and `/api/plugin/policy-probe`.
