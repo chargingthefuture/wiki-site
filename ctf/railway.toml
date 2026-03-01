@@ -1,6 +1,6 @@
 [build]
 # Single deploy entry point for Railway service rooted at ctf/packages/web.
-buildCommand = "corepack enable && corepack prepare pnpm@9.12.0 --activate && pnpm install --no-frozen-lockfile --prod=false --filter @ctf/web... && pnpm --filter @ctf/web build"
+buildCommand = "corepack enable && corepack prepare pnpm@9.12.0 --activate && corepack pnpm install --no-frozen-lockfile --prod=false --filter @ctf/web... && corepack pnpm --filter @ctf/web build"
 
 [deploy]
-startCommand = "corepack enable && corepack prepare pnpm@9.12.0 --activate && pnpm --filter @ctf/web start"
+startCommand = "corepack enable && corepack prepare pnpm@9.12.0 --activate && corepack pnpm --filter @ctf/web start"
