@@ -20,11 +20,13 @@ The rewrite baseline sequence is now in place across identity, Railway runtime, 
 ## BF-01 Clerk Foundation
 
 ### Implemented
+
 - App Router Clerk provider and middleware baseline for protected web routes.
 - Server-side authz adapter and deny taxonomy baseline (`401`/`403` with stable deny codes).
 - Env contract file and Clerk env check script for deterministic validation.
 
 ### Primary artifacts
+
 - `ctf/packages/web/src/middleware.ts`
 - `ctf/packages/web/src/lib/auth/deny-taxonomy.ts`
 - `ctf/packages/web/src/lib/auth/server-authz.ts`
@@ -33,10 +35,12 @@ The rewrite baseline sequence is now in place across identity, Railway runtime, 
 - `ctf/docs/developer/CLERK_FOUNDATION_BASELINE_BF01.md`
 
 ### Validation evidence
+
 - Web lint/build passed.
 - Clerk env validation passes for configured target environments.
 
 ### Remaining decisions
+
 - Final role-claim source-of-truth shape in Clerk session claims.
 
 ---
@@ -44,21 +48,25 @@ The rewrite baseline sequence is now in place across identity, Railway runtime, 
 ## BF-02 Railway Baseline
 
 ### Implemented
+
 - Railway startup now runs Clerk/env preflight before app start.
 - Env checker auto-infers Railway staging/production targets when possible.
 - Domain mismatch errors (apex vs `www`) fail fast with explicit diagnostics.
 
 ### Primary artifacts
+
 - `ctf/railway.toml`
 - `ctf/packages/web/scripts/check-clerk-env.mjs`
 - `.github/workflows/deploy-backend-railway.yml`
 - `ctf/docs/developer/RAILWAY_BASELINE_BF02.md`
 
 ### Validation evidence
+
 - Railway-focused env checks pass for correct settings.
 - Host mismatch simulation fails with explicit error message.
 
 ### Remaining risks
+
 - DNS/redirect consistency for active Railway domain.
 - Clerk dashboard domain/redirect settings must exactly match deployed host.
 
@@ -67,21 +75,25 @@ The rewrite baseline sequence is now in place across identity, Railway runtime, 
 ## BF-03 Vercel Integration
 
 ### Implemented
+
 - Added Vercel project config for web package with env preflight in build path.
 - Added Vercel staging env-check command and automatic target inference in checker.
 - Preserved deployment topology: Vercel frontend staging, Railway backend canonical.
 
 ### Primary artifacts
+
 - `ctf/packages/web/vercel.json`
 - `ctf/packages/web/package.json`
 - `ctf/packages/web/scripts/check-clerk-env.mjs`
 - `ctf/docs/developer/VERCEL_INTEGRATION_BASELINE_BF03.md`
 
 ### Validation evidence
+
 - Web lint/build passed post-change.
 - Vercel-mode env simulation passed for `vercel-staging`.
 
 ### Remaining risks
+
 - Vercel custom domain must be configured in Clerk redirect URIs.
 - Railway backend CORS must allow Vercel staging origin where required.
 
@@ -90,11 +102,13 @@ The rewrite baseline sequence is now in place across identity, Railway runtime, 
 ## BF-04 Expo Baseline
 
 ### Implemented
+
 - Added `eas.json` with required `preview`, `staging`, `production` build profiles and channels.
 - Added `app.config.ts` with env-driven mobile configuration.
 - Added mobile env preflight checker and wired it into Expo preview/update/release workflows.
 
 ### Primary artifacts
+
 - `ctf/packages/mobile/eas.json`
 - `ctf/packages/mobile/app.config.ts`
 - `ctf/packages/mobile/scripts/check-mobile-env.mjs`
@@ -105,10 +119,12 @@ The rewrite baseline sequence is now in place across identity, Railway runtime, 
 - `ctf/docs/developer/EXPO_BASELINE_BF04.md`
 
 ### Validation evidence
+
 - Mobile env preflight passed for preview and production profile simulations.
 - Required CI-expected Expo files now exist.
 
 ### Remaining blockers
+
 - Required mobile GitHub `vars`/`secrets` must be configured for each target profile.
 - EAS ownership (`EXPO_OWNER`) and `EXPO_TOKEN` must match target Expo project.
 

@@ -94,5 +94,7 @@ Temporary emergency bypass (documented/approved use only):
 - Automated reminder workflow: `.github/workflows/github-actions-billing-token-reminder.yml`.
    - Runs weekly.
    - Opens issue `Rotate GH_ACTIONS_BILLING_TOKEN` when no reminder has been created in the last 45 days.
+- Auto-close behavior:
+   - `.github/workflows/github-actions-budget-monitor.yml` closes open `Rotate GH_ACTIONS_BILLING_TOKEN` issues when monitor status is healthy (not `degraded-auth`).
 - Optional: keep a personal/team calendar reminder as backup.
 - Keep two maintainers listed as backup owners for token rotation.

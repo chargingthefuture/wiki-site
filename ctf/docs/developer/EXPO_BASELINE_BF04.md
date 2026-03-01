@@ -29,17 +29,20 @@ Scope: Expo/EAS Android deployment baseline for `ctf/packages/mobile`
 ## Mobile env contract alignment (Railway/Vercel/Clerk)
 
 ### Canonical Expo vars
+
 - `EXPO_MOBILE_PROJECT_ID`
 - `EXPO_MOBILE_UPDATES_URL`
 - `EXPO_SENTRY_DSN`
 
 ### Mobile runtime vars
+
 - `MOBILE_APP_URL` (points to canonical backend/runtime host, typically Railway)
 - `MOBILE_CLERK_PUBLISHABLE_KEY_STAGING`
 - `MOBILE_CLERK_PUBLISHABLE_KEY_PRODUCTION`
 - `MOBILE_OBSERVABILITY_PROVIDER`
 
 ### Compatibility fallback support
+
 - `MOBILE_PROJECT_ID` and `MOBILE_UPDATES_URL` still resolve if canonical `EXPO_MOBILE_*` vars are absent.
 
 ## CI/manual workflow alignment notes
