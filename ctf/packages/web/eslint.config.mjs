@@ -1,35 +1,21 @@
-import nextPlugin from '@next/eslint-plugin-next';
-import tsParser from '@typescript-eslint/parser';
-import tsPlugin from '@typescript-eslint/eslint-plugin';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { FlatCompat } from '@eslint/eslintrc';
 
-const nextRecommendedRules = nextPlugin.configs.recommended.rules;
-const nextCoreWebVitalsRules = nextPlugin.configs['core-web-vitals'].rules;
-const tsRecommendedRules = tsPlugin.configs.recommended.rules;
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const compat = new FlatCompat({
+  baseDirectory: __dirname,
+});
 
 export default [
+  ...compat.extends('next/core-web-vitals', 'next/typescript'),
   {
     ignores: ['**/dist/**', '**/.next/**', '**/.expo/**', '**/node_modules/**'],
   },
   {
     files: ['src/**/*.{js,jsx,ts,tsx}'],
-    languageOptions: {
-      parser: tsParser,
-      parserOptions: {
-        ecmaVersion: 'latest',
-        sourceType: 'module',
-        ecmaFeatures: {
-          jsx: true,
-        },
-      },
-    },
-    plugins: {
-      '@next/next': nextPlugin,
-      '@typescript-eslint': tsPlugin,
-    },
     rules: {
-      ...nextRecommendedRules,
-      ...nextCoreWebVitalsRules,
-      ...tsRecommendedRules,
       complexity: ['warn', 10],
       'max-lines-per-function': [
         'warn',
