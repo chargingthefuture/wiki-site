@@ -14,13 +14,21 @@ This is the first completed draft using `PLUGIN_PROFILE_AND_DELETION_CONTRACT_TE
 Current implementation reads user identity from Clerk server user context.
 
 - Read fields:
-  - display name fallback (`firstName`, `username`)
+  - canonical handle (`username`) for `@mention`/identity-handle consistency
+  - display fallback (`firstName`, `lastName`) when username is unavailable
   - avatar (`imageUrl`)
 - Write fields:
   - none currently written to canonical profile by Chyme routes
 - Why canonical fields are needed:
   - show consistent participant identity in room roster/chat
   - avoid separate plugin identity records
+  - enforce shared handle contract with other plugins per `ctf/docs/contracts/PLUGIN_IDENTITY_HANDLE_BASELINE.md`
+
+Chyme handle contract decision:
+
+- Canonical handle is Clerk `username`.
+- Chyme must not create plugin-local username ownership fields.
+- If Clerk `username` is missing, Chyme must show non-handle display fallback and treat `@mention` targeting as unavailable.
 
 ## 3) Plugin Extension Fields
 

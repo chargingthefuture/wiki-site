@@ -357,6 +357,7 @@ contracts:
       invitedByUsername:
         type: string
         required: true
+        description: Clerk `username` handle of the inviter; must not be a plugin-local username or display-name surrogate.
     outputSchema:
       generatedProfileId:
         type: string

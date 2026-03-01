@@ -17,7 +17,20 @@ function inferRailwayTarget() {
   return 'railway-staging';
 }
 
-const ENV_TARGET = process.env.CLERK_ENV_TARGET || inferRailwayTarget();
+function inferVercelTarget() {
+  const isVercel =
+    process.env.VERCEL === '1'
+    || typeof process.env.VERCEL_ENV === 'string'
+    || typeof process.env.VERCEL_URL === 'string';
+
+  if (!isVercel) {
+    return null;
+  }
+
+  return 'vercel-staging';
+}
+
+const ENV_TARGET = process.env.CLERK_ENV_TARGET || inferRailwayTarget() || inferVercelTarget();
 
 const targetDefinitions = {
   'railway-staging': [
@@ -51,7 +64,7 @@ const targetDefinitions = {
 
 if (!ENV_TARGET || !(ENV_TARGET in targetDefinitions)) {
   console.error(
-    'Missing or invalid CLERK_ENV_TARGET. Use one of: railway-staging, vercel-staging, railway-production. On Railway, this is auto-inferred from RAILWAY_ENVIRONMENT_NAME when available.',
+    'Missing or invalid CLERK_ENV_TARGET. Use one of: railway-staging, vercel-staging, railway-production. On Railway, this is auto-inferred from RAILWAY_ENVIRONMENT_NAME when available. On Vercel, this defaults to vercel-staging.',
   );
   process.exit(1);
 }

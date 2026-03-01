@@ -65,6 +65,16 @@ Resolution order per key family:
 - Implemented in web code:
   - `ctf/packages/web/src/lib/auth/deny-taxonomy.ts`
 
+## Canonical Username Handle Baseline
+
+- Canonical handle source for plugin username/`@mention` semantics is Clerk `username`.
+- Shared contract doc:
+   - `ctf/docs/contracts/PLUGIN_IDENTITY_HANDLE_BASELINE.md`
+- Plugin implications:
+   - do not create plugin-specific username ownership fields,
+   - use Clerk `username` for handle semantics,
+   - if username is missing, use non-handle display fallback and avoid synthetic `@username` creation.
+
 ## Validation Evidence
 
 ### Automated

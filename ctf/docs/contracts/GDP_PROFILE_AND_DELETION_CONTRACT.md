@@ -22,6 +22,13 @@ GDP uses canonical profile fields only for personalization, access context, and 
 - Why canonical fields are needed:
   - provide localized, accessible GDP transparency views without duplicating identity state
 
+## Identity Handle Baseline
+
+- Canonical handle source: Clerk `username` (see `ctf/docs/contracts/PLUGIN_IDENTITY_HANDLE_BASELINE.md`).
+- Plugin must not create plugin-local username ownership models.
+- If Clerk `username` is missing, use non-handle display fallback and treat `@mention` targeting as unavailable.
+- Any persisted username snapshot fields must be derived from Clerk `username` at write time.
+
 ## 3) Plugin Extension Fields
 
 - Storage location (table or json path): `gdp_user_extension`

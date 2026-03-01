@@ -72,9 +72,10 @@ Canonical migration target: Chyme core tables under `ctf/migrations/` aligned to
 
 1. Clerk-authenticated access is required on Chyme routes; unauthenticated requests are denied (`401`).
 2. Access gate enforces approved-user or admin eligibility (`403` for non-approved non-admin users).
-3. Message payloads are trimmed server-side and rejected when empty.
-4. Service deletion runs in transaction and records deletion event for audit trail.
-5. Full-account endpoint currently records request and enqueues Service Credits reclaim dependency.
+3. Identity handle source is Clerk `username` for username/`@mention` semantics, aligned to `ctf/docs/contracts/PLUGIN_IDENTITY_HANDLE_BASELINE.md`.
+4. Message payloads are trimmed server-side and rejected when empty.
+5. Service deletion runs in transaction and records deletion event for audit trail.
+6. Full-account endpoint currently records request and enqueues Service Credits reclaim dependency.
 
 ## Web and Android Delivery Status
 
@@ -115,3 +116,4 @@ Current status:
 - 2026-02-25: Created initial Chyme CTF rewrite inventory and documented governance/parity requirements.
 - 2026-02-25: Added Chyme command/access/audit YAML triplet references and removed contract-triplet gap from known technical debt.
 - 2026-03-01: Reframed inventory for fresh-start implementation sequencing and removed implemented-baseline assumptions.
+- 2026-03-01: Added canonical Clerk username handle decision for Chyme/plugin identity parity.

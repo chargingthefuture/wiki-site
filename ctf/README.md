@@ -44,6 +44,7 @@ This folder contains the rewrite monorepo scaffold for:
 
 - Clerk foundation implementation notes: `ctf/docs/developer/CLERK_FOUNDATION_BASELINE_BF01.md`
 - Plugin deny taxonomy baseline: `ctf/docs/contracts/PLUGIN_AUTH_DENY_TAXONOMY_BASELINE.md`
+- Clerk username rollout plan (legacy user backfill + migration): `ctf/docs/developer/CLERK_USERNAME_ROLLOUT_PLAN.md`
 
 ## Prompt Leak Protection
 

@@ -21,6 +21,13 @@ Rule 114 baseline: Weekly Performance uses canonical identity and plugin extensi
 - Why canonical fields are needed:
   - weekly metric ownership and policy-scoped access control
 
+## Identity Handle Baseline
+
+- Canonical handle source: Clerk `username` (see `ctf/docs/contracts/PLUGIN_IDENTITY_HANDLE_BASELINE.md`).
+- Plugin must not create plugin-local username ownership models.
+- If Clerk `username` is missing, use non-handle display fallback and treat `@mention` targeting as unavailable.
+- Any persisted username snapshot fields must be derived from Clerk `username` at write time.
+
 ## 3) Plugin Extension Fields
 
 - Storage location (table or json path): `weekly_performance_user_extension`

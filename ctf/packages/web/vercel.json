@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "corepack enable && corepack prepare pnpm@9.12.0 --activate && corepack pnpm --filter @ctf/web run check:vercel-staging && corepack pnpm --filter @ctf/web build",
+  "installCommand": "corepack enable && corepack prepare pnpm@9.12.0 --activate && corepack pnpm install --no-frozen-lockfile --prod=false --filter @ctf/web...",
+  "framework": "nextjs",
+  "git": {
+    "deploymentEnabled": {
+      "main": true,
+      "*": true
+    }
+  }
+}

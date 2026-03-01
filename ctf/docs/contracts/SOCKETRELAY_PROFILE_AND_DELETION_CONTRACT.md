@@ -20,6 +20,13 @@ Rule 114 baseline: SocketRelay uses canonical identity and plugin extension rows
 - Why canonical fields are needed:
   - authenticated relay authorization and channel membership ownership
 
+## Identity Handle Baseline
+
+- Canonical handle source: Clerk `username` (see `ctf/docs/contracts/PLUGIN_IDENTITY_HANDLE_BASELINE.md`).
+- Plugin must not create plugin-local username ownership models.
+- If Clerk `username` is missing, use non-handle display fallback and treat `@mention` targeting as unavailable.
+- Any persisted username snapshot fields must be derived from Clerk `username` at write time.
+
 ## 3) Plugin Extension Fields
 
 - Storage location (table or json path): `socketrelay_user_extension`
