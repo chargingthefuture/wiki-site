@@ -1,16 +1,164 @@
 # CTF Plugin Agent Task Briefs (Copy-Paste Prompts)
 
-Date: 2026-02-25
+Date: 2026-03-01
 
 Use these prompts to dispatch background agents.
 
 Dispatch note:
-- Use `Prompt 00 — agent-00-chyme-hardening` only for missing-work validation/hardening on already-implemented Chyme.
-- Do not dispatch a full implementation pass for Chyme unless a specific missing capability is first confirmed.
+- This repository is a fresh-start rewrite from boilerplate. Do not assume prior plugin implementation exists unless explicitly stated in a prompt.
+- Baseline foundation prompts are mandatory before broad plugin parallelization.
+- Required baseline order: Clerk integration → Railway deployment baseline → Vercel deployment integration → Expo deployment baseline.
 
 ---
 
-## Prompt 00 — `agent-00-chyme-hardening`
+## Prompt BF-01 — `agent-bf-01-clerk-foundation`
+
+```text
+Read this first: #file:index.mdc
+Then read:
+- #file:.github/instructions/107-integration-stack-rules.mdc
+- #file:.github/instructions/111-deployment-topology-rules.mdc
+- #file:.github/instructions/123-environment-configuration-rules.mdc
+- #file:.github/instructions/103-web-nextjs-structure-rules.mdc
+- #file:ctf/README.md
+
+You are `agent-bf-01-clerk-foundation` working only under `ctf/`.
+Start gate:
+- Baseline Phase -1A — start immediately.
+
+Scope:
+- Implement Clerk as the sole identity provider baseline for web (App Router structure + server-side authz checks).
+- Establish deterministic environment contract documentation for local, Railway staging/production, and Vercel staging frontend integration.
+- Ensure protected route policy behavior and deny taxonomy are documented for plugin routes to consume.
+
+Must follow:
+- Rule precedence from #file:index.mdc.
+- Environment/auth constraints in Rule 123; do not rename env variables without explicit approval.
+
+Deliverables:
+1) Clerk foundation integration notes + env contract updates
+2) Web auth middleware/server-side guardrails evidence
+3) Deny taxonomy baseline for unauthorized/forbidden scenarios
+4) CI/config notes for Clerk-dependent checks
+5) Validation evidence (manual + automated where available)
+
+Handoff output:
+- List changed files
+- Clerk domain/key assumptions by environment
+- Open auth decisions/blockers
+```
+
+## Prompt BF-02 — `agent-bf-02-railway-baseline`
+
+```text
+Read this first: #file:index.mdc
+Then read:
+- #file:.github/instructions/111-deployment-topology-rules.mdc
+- #file:.github/instructions/123-environment-configuration-rules.mdc
+- #file:.github/instructions/119-github-actions-ci-rules.mdc
+- #file:ctf/railway.toml
+
+You are `agent-bf-02-railway-baseline` working only under `ctf/`.
+Start gate:
+- Baseline Phase -1B — start after BF-01 Clerk foundation is complete.
+
+Scope:
+- Establish Railway as canonical full-stack runtime baseline (frontend + backend path for CTF).
+- Validate build/start/runtime expectations, environment injection, and health-check/deploy readiness.
+- Produce deployment evidence that downstream plugin agents can rely on.
+
+Must follow:
+- Rule precedence from #file:index.mdc.
+- Deployment topology constraints from Rule 111 and env constraints from Rule 123.
+
+Deliverables:
+1) Railway baseline deployment/config updates
+2) Runtime environment and secrets mapping evidence
+3) CI/deploy pipeline alignment notes
+4) Known gaps/blockers with owner recommendation
+5) Validation evidence (logs/checks/screens)
+
+Handoff output:
+- List changed files
+- Railway deployment assumptions and unresolved risks
+- What plugin teams can now assume as stable
+```
+
+## Prompt BF-03 — `agent-bf-03-vercel-integration`
+
+```text
+Read this first: #file:index.mdc
+Then read:
+- #file:.github/instructions/111-deployment-topology-rules.mdc
+- #file:.github/instructions/123-environment-configuration-rules.mdc
+- #file:.github/instructions/119-github-actions-ci-rules.mdc
+- #file:ctf/packages/web/vercel.json
+
+You are `agent-bf-03-vercel-integration` working only under `ctf/`.
+Start gate:
+- Baseline Phase -1C — start after BF-02 Railway baseline is complete.
+
+Scope:
+- Implement Vercel staging frontend integration against Railway-backed APIs.
+- Validate environment isolation and Clerk domain/key separation for Vercel staging.
+- Ensure deployment docs and route/proxy assumptions are explicit for plugin teams.
+
+Must follow:
+- Rule precedence from #file:index.mdc.
+- Keep backend runtime canonical on Railway and avoid Vercel backend drift.
+
+Deliverables:
+1) Vercel staging integration/config updates
+2) Clerk + env isolation validation notes
+3) API origin/routing assumptions documentation
+4) CI/staging check updates
+5) Validation evidence (preview + smoke checks)
+
+Handoff output:
+- List changed files
+- Vercel-to-Railway integration decisions
+- Remaining staging risks
+```
+
+## Prompt BF-04 — `agent-bf-04-expo-baseline`
+
+```text
+Read this first: #file:index.mdc
+Then read:
+- #file:.github/instructions/104-mobile-react-native-android-rules.mdc
+- #file:.github/instructions/106-expo-eas-mobile-workflow-rules.mdc
+- #file:.github/instructions/111-deployment-topology-rules.mdc
+- #file:.github/instructions/123-environment-configuration-rules.mdc
+- #file:.github/instructions/119-github-actions-ci-rules.mdc
+- #file:ctf/docs/mobile/EXPO_CLOUD_WORKFLOW.md
+
+You are `agent-bf-04-expo-baseline` working only under `ctf/`.
+Start gate:
+- Baseline Phase -1D — start after BF-03 Vercel integration is complete.
+
+Scope:
+- Establish Expo/EAS Android deployment baseline (preview + production profile readiness).
+- Validate env propagation and endpoint/domain contracts for mobile clients.
+- Produce baseline parity and release workflow evidence for later plugin mobile parity work.
+
+Must follow:
+- Rule precedence from #file:index.mdc.
+- Expo channel/profile governance and CI requirements.
+
+Deliverables:
+1) Expo/EAS baseline config + workflow updates
+2) Android build profile and release-path notes
+3) Mobile env contract alignment with Railway/Vercel/Clerk
+4) CI pipeline or manual workflow alignment notes
+5) Validation evidence (preview/build/test runs)
+
+Handoff output:
+- List changed files
+- Expo deployment assumptions and remaining blockers
+- What mobile/plugin teams can treat as stable baseline
+```
+
+## Prompt 00 — `agent-00-chyme-core`
 
 ```text
 Read this first: #file:index.mdc
@@ -21,37 +169,31 @@ Then read:
 - #file:ctf/docs/contracts/CHYME_PLUGIN_ACCESS_POLICY_CONTRACTS.yaml
 - #file:ctf/docs/contracts/CHYME_PLUGIN_AUDIT_CONTRACTS.yaml
 - #file:ctf/docs/contracts/CHYME_PROFILE_AND_DELETION_CONTRACT.md
-- #file:ctf/docs/testing/CHYME_FIRST_TEST_PASS.md
 
-You are `agent-00-chyme-hardening` working only under `ctf/`.
+You are `agent-00-chyme-core` working only under `ctf/`.
 Start gate:
-- Retrofit hardening track — can start immediately.
-
-Critical non-duplication constraint:
-- Chyme is already implemented. Do NOT rebuild existing Chyme room/chat/join/deletion functionality.
-- Do NOT rename routes, commands, or tables unless required to fix a verified mismatch.
-- Only do missing work from inventory/checklist gaps, validation evidence, and parity/debt closure.
+- Phase 0 — start after baseline phases BF-01 through BF-04 are complete.
 
 Scope:
-- Verify implemented behavior matches inventory/contracts/checklist.
-- Close only missing work items (for example: seed determinism, evidence links, parity deferment plan, orchestrator-status alignment notes).
-- If no code gap is found for a checklist item, add evidence and mark status instead of changing implementation.
+- Implement `chyme` plugin core capabilities from fresh start (room bootstrap, chat read/send, join flow, and deletion behavior).
+- Deliver initial web implementation with policy/audit guardrails and migration-backed persistence.
+- Capture explicit parity deferment or Android parity implementation evidence.
 
 Must follow:
 - Rule precedence from #file:index.mdc.
 - Plugin command/access/audit templates (201/202/203).
 
 Deliverables:
-1) Gap report: implemented vs missing
-2) Minimal code/docs changes only for confirmed gaps
-3) Validation evidence updates in checklist
-4) Explicit no-duplication statement in handoff
+1) Updated contracts
+2) Migrations + schema-drift evidence
+3) API + policy + audit coverage
+4) Seed fixtures + deterministic validation notes
 5) Test/manual validation evidence (or blocked-by list)
 
 Handoff output:
 - List changed files
-- What was intentionally NOT changed (already implemented)
-- Remaining open gaps with owner recommendation
+- Contract and route decisions
+- Open gaps/debt with owner recommendation
 ```
 
 ## Prompt 01 — `agent-01-taxonomy-core`
@@ -68,7 +210,7 @@ Then read:
 
 You are `agent-01-taxonomy-core` working only under `ctf/`.
 Start gate:
-- Phase 0 — start immediately.
+- Phase 0 — start after baseline phases BF-01 through BF-04 are complete.
 
 Scope:
 - Implement `skills-taxonomy` plugin core capabilities.
@@ -105,7 +247,7 @@ Then read:
 
 You are `agent-02-directory-core` working only under `ctf/`.
 Start gate:
-- Phase 0 — start immediately; align selector contracts with Skills Taxonomy as they stabilize.
+- Phase 0 — start after baseline phases BF-01 through BF-04 are complete; align selector contracts with Skills Taxonomy as they stabilize.
 
 Scope:
 - Implement `directory` unified user/admin surface with role-gated controls.
@@ -148,7 +290,7 @@ Then read:
 
 You are `agent-03-feed-announcements` working only under `ctf/`.
 Start gate:
-- Phase 0 — start immediately as a combined stream (do not split Feed and Announcements before contract lock).
+- Phase 0 — start after baseline phases BF-01 through BF-04 are complete, as a combined stream (do not split Feed and Announcements before contract lock).
 
 Scope:
 - Implement `feed` and `announcements` together with centralized admin surface `/admin/feed-announcements`.
@@ -185,7 +327,7 @@ Then read:
 
 You are `agent-04-workforce` working only under `ctf/`.
 Start gate:
-- Phase 1 — start after Directory contracts/migrations stabilize.
+- Phase 1 — start after Phase 0 Directory contracts/migrations stabilize.
 
 Scope:
 - Implement `workforce` dashboard/reporting, occupations/admin flows, export workflow, and recruited-state derivation.
@@ -222,7 +364,7 @@ Then read:
 
 You are `agent-05-skills-hunt` working only under `ctf/`.
 Start gate:
-- Phase 1 — start after Directory policy adapters and ownership lifecycle contracts are stable.
+- Phase 1 — start after Phase 0 Directory policy adapters and ownership lifecycle contracts are stable.
 
 Scope:
 - Implement round lifecycle, submission moderation/scoring, leaderboards, achievements, notifications, and feature-reward card.
@@ -259,7 +401,7 @@ Then read:
 
 You are `agent-06-foundation` working only under `ctf/`.
 Start gate:
-- Phase 1 — start after Directory read-only projections are stable.
+- Phase 1 — start after Phase 0 Directory read-only projections are stable.
 
 Scope:
 - Implement Foundation provider search, connection/message/call flows, quote lifecycle, history, notifications, and admin capacity controls.
@@ -296,7 +438,7 @@ Then read:
 
 You are `agent-07-lighthouse` working only under `ctf/`.
 Start gate:
-- Phase 2 — parallel start after Phase 0 kickoff.
+- Phase 2 — parallel start after Phase 0 completion.
 
 Scope:
 - Implement profile/property/match/announcements/blocks parity scope for LightHouse.
@@ -333,7 +475,7 @@ Then read:
 
 You are `agent-08-socketrelay` working only under `ctf/`.
 Start gate:
-- Phase 2 — parallel start after Phase 0 kickoff.
+- Phase 2 — parallel start after Phase 0 completion.
 
 Scope:
 - Implement profile/request/fulfillment/chat/public sharing/admin moderation for SocketRelay.
@@ -369,7 +511,7 @@ Then read:
 
 You are `agent-09-trusttransport` working only under `ctf/`.
 Start gate:
-- Phase 2 — parallel start after Phase 0 kickoff.
+- Phase 2 — parallel start after Phase 0 completion.
 
 Scope:
 - Implement ride/package/food request-and-fulfillment flows, safety controls, disputes, payouts, and admin market controls.
@@ -405,7 +547,7 @@ Then read:
 
 You are `agent-10-peer-programming` working only under `ctf/`.
 Start gate:
-- Phase 2 — parallel start after Phase 0 kickoff.
+- Phase 2 — parallel start after Phase 0 completion.
 
 Scope:
 - Implement weekly cohort assignment, in-app assignment notifications, persistent room/thread interactions, tiered participation, and weekly topic guidance admin.
@@ -441,7 +583,7 @@ Then read:
 
 You are `agent-11-mood` working only under `ctf/`.
 Start gate:
-- Phase 2 — parallel start after Phase 0 kickoff.
+- Phase 2 — parallel start after Phase 0 completion.
 
 Scope:
 - Implement mood check submission and eligibility endpoint with 7-day cooldown.
@@ -478,7 +620,7 @@ Then read:
 
 You are `agent-12-gentlepulse` working only under `ctf/`.
 Start gate:
-- Phase 2 — parallel start after Phase 0 kickoff.
+- Phase 2 — parallel start after Phase 0 completion.
 
 Scope:
 - Implement library listing/detail/play, ratings, favorites, and support route behavior.
@@ -515,7 +657,7 @@ Then read:
 
 You are `agent-13-weekly-performance` working only under `ctf/`.
 Start gate:
-- Phase 2 — parallel start after Phase 0 kickoff.
+- Phase 2 — parallel start after Phase 0 completion.
 
 Scope:
 - Implement admin week selection, week navigation guardrails, current-week polling semantics, metrics/comparison routes, and export path (if approved).

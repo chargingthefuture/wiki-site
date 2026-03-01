@@ -87,9 +87,9 @@ Web is the first release surface, with Android follow-up parity tracked and clos
 
 All command/access/audit contracts must align with:
 
-- `.claude/rules/201-plugin-command-schema-template.mdc`
-- `.claude/rules/202-plugin-access-policy-schema-template.mdc`
-- `.claude/rules/203-plugin-audit-schema-template.mdc`
+- `.github/instructions/201-plugin-command-schema-template.mdc`
+- `.github/instructions/202-plugin-access-policy-schema-template.mdc`
+- `.github/instructions/203-plugin-audit-schema-template.mdc`
 
 Planned command groups:
 

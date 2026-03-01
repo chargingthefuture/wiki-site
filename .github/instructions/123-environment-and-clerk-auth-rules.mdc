@@ -1,49 +1,12 @@
-# Environment and Clerk Auth Rules
+# DEPRECATED — Environment and Clerk Auth Rules (Legacy Copy)
 
-## Scope
-Defines the three production environments, their infrastructure topology, environment variable management, and hard constraints for Clerk authentication integration across all environments.
+Do not use this file for implementation or planning decisions.
 
-**Status**: CRITICAL — Clerk auth integrity depends on strict adherence to these rules.
+Canonical sources:
+- `index.mdc`
+- `123-environment-configuration-rules.mdc`
+- `111-deployment-topology-rules.mdc`
 
----
-
-## 3 Production Environments
-
-### 1. Staging Railway
-- **Frontend**: Hosted on Railway
-- **Backend**: Hosted on Railway
-- **Domain**: Custom domain (tied to Staging Clerk identity)
-- **Clerk API Keys**: `RAILWAY_STAGING_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`, `RAILWAY_STAGING_CLERK_SECRET_KEY`
-- **Use Case**: Full-stack staging environment for integration testing
-
-### 2. Staging Vercel
-- **Frontend**: Hosted on Vercel (required for v0 AI design integration)
-- **Backend**: Hosted on Railway (cannot use Vercel for backend)
-- **Domain**: Custom domain (tied to Staging Vercel Clerk identity)
-- **Clerk API Keys**: `VERCEL_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`, `VERCEL_CLERK_SECRET_KEY`
-- **Use Case**: Design-driven staging with v0 AI tool integration
-- **Constraint**: Frontend-only on Vercel. Backend API routes and server logic remain on Railway.
-
-### 3. Production Railway
-- **Frontend**: Hosted on Railway
-- **Backend**: Hosted on Railway
-- **Domain**: Custom domain (tied to Production Clerk identity)
-- **Clerk API Keys**: Production-grade keys (TBD in deployment phase)
-- **Use Case**: Live production environment
-
----
-
-## Clerk Auth Architecture Constraint
-
-Clerk authentication is **domain-bound**. Each Clerk API instance is tied to a specific domain and will reject requests from other domains.
-
-**Hard requirement**: Three separate Clerk app identities, each with unique API keys, because:
-1. Staging Railway has its own domain → requires Staging Railway Clerk keys
-2. Staging Vercel has its own domain → requires Staging Vercel Clerk keys (different from Railway)
-3. Production has its own domain → requires Production Clerk keys
-
-**Violation risk**: Mixing Clerk keys across environments will cause authentication to fail with domain mismatch errors.
-
----
-
-## Environment Variables — No Renaming Without Consent
+Reason:
+- This legacy file duplicated Rule 123 guidance and risked governance drift.
+- Prompt and planning artifacts must reference indexed rule modules only.

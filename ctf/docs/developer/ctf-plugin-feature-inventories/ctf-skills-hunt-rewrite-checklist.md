@@ -16,13 +16,13 @@
 
 - [ ] Define Skills Hunt plugin command contracts for v1.
   - Acceptance criteria:
-    - Every command conforms to `.claude/rules/201-plugin-command-schema-template.mdc`.
+    - Every command conforms to `.github/instructions/201-plugin-command-schema-template.mdc`.
 - [ ] Define Skills Hunt access policy contracts for v1.
   - Acceptance criteria:
-    - Every command has role, attribute, consent/lawful basis, region, and deny conditions under `.claude/rules/202-plugin-access-policy-schema-template.mdc`.
+    - Every command has role, attribute, consent/lawful basis, region, and deny conditions under `.github/instructions/202-plugin-access-policy-schema-template.mdc`.
 - [ ] Define Skills Hunt audit contracts for v1.
   - Acceptance criteria:
-    - Every command has allow/deny + result audit coverage under `.claude/rules/203-plugin-audit-schema-template.mdc`.
+    - Every command has allow/deny + result audit coverage under `.github/instructions/203-plugin-audit-schema-template.mdc`.
 - [ ] Verify command parity across command, access, and audit files.
   - Acceptance criteria:
     - Command set matches exactly across the three contract files.

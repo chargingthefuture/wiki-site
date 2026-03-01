@@ -12,7 +12,7 @@ This matrix tracks coding-readiness status across CTF feature inventories and ap
 | Inventory | Checklist | Rule120 Required Content | Rule114 Profile/Deletion Contract | Command/Access/Audit YAML | Migrations/Schema Drift Readiness | Coding Start Status | Blockers |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `ctf-announcements-feature-inventory.md` | `ctf-announcements-rewrite-checklist.md` | Present | `ctf/docs/contracts/ANNOUNCEMENTS_PROFILE_AND_DELETION_CONTRACT.md` | Present (`ANNOUNCEMENTS_*` YAML triplet) | Planned; checklist gate | Ready | None for coding start |
-| `ctf-chyme-feature-inventory.md` | `ctf-chyme-rewrite-checklist.md` | Present | `ctf/docs/contracts/CHYME_PROFILE_AND_DELETION_CONTRACT.md` | Present (`CHYME_*` YAML triplet) | Implemented baseline (`2026-02-19-create-chyme-core-tables.sql`) | Implemented (web baseline) | Android parity pending |
+| `ctf-chyme-feature-inventory.md` | `ctf-chyme-rewrite-checklist.md` | Present | `ctf/docs/contracts/CHYME_PROFILE_AND_DELETION_CONTRACT.md` | Present (`CHYME_*` YAML triplet) | Planned; checklist gate | Ready after baseline Phase -1 (Clerk → Railway → Vercel → Expo) | Awaiting fresh implementation dispatch |
 | `ctf-directory-feature-inventory.md` | `ctf-directory-rewrite-checklist.md` | Present | `ctf/docs/contracts/DIRECTORY_PROFILE_AND_DELETION_CONTRACT.md` | Present (`DIRECTORY_*` YAML triplet) | Planned; checklist gate | Ready | None for coding start |
 | `ctf-feed-feature-inventory.md` | `ctf-feed-rewrite-checklist.md` | Present | `ctf/docs/contracts/FEED_PROFILE_AND_DELETION_CONTRACT.md` | Present (`FEED_*` YAML triplet) | Planned; checklist gate | Ready | None for coding start |
 | `ctf-foundation-feature-inventory.md` | `ctf-foundation-rewrite-checklist.md` | Present | `ctf/docs/contracts/FOUNDATION_PROFILE_AND_DELETION_CONTRACT.md` | Present (`FOUNDATION_*` YAML triplet) | Planned; checklist gate | Ready | None for coding start |
@@ -38,5 +38,6 @@ No plugins are currently missing command/access/audit YAML triplets.
 
 - 2026-02-25: Created initial coding readiness matrix with Rule 114 baseline and release-gate backlog.
 - 2026-02-25: Added triplets for announcements, directory, feed, gentlepulse, lighthouse, mood, socketrelay, trusttransport, and workforce; cleared release-gate backlog.
-- 2026-02-25: Added Chyme inventory/checklist row from implemented web baseline and reopened release-gate backlog for missing `CHYME_*` command/access/audit triplet artifacts.
+- 2026-02-25: Added Chyme inventory/checklist row and reopened release-gate backlog for missing `CHYME_*` command/access/audit triplet artifacts.
 - 2026-02-25: Added `CHYME_PLUGIN_COMMAND_CONTRACTS.yaml`, `CHYME_PLUGIN_ACCESS_POLICY_CONTRACTS.yaml`, and `CHYME_PLUGIN_AUDIT_CONTRACTS.yaml`; cleared Chyme release-gate contract debt.
+- 2026-03-01: Rebased Chyme readiness for fresh-start rewrite planning; removed implemented-baseline assumption and added mandatory baseline Phase -1 gate (Clerk → Railway → Vercel → Expo).

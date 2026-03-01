@@ -78,9 +78,9 @@ Approved suggestions incorporated:
 
 All command contracts must conform to templates from:
 
-- `.claude/rules/201-plugin-command-schema-template.mdc`
-- `.claude/rules/202-plugin-access-policy-schema-template.mdc`
-- `.claude/rules/203-plugin-audit-schema-template.mdc`
+- `.github/instructions/201-plugin-command-schema-template.mdc`
+- `.github/instructions/202-plugin-access-policy-schema-template.mdc`
+- `.github/instructions/203-plugin-audit-schema-template.mdc`
 
 Planned command groups:
 

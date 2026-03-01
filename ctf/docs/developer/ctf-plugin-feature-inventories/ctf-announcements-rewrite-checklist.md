@@ -16,13 +16,13 @@
 
 - [ ] Define Announcements command contracts.
   - Acceptance criteria:
-    - Commands comply with `.claude/rules/201-plugin-command-schema-template.mdc`.
+    - Commands comply with `.github/instructions/201-plugin-command-schema-template.mdc`.
 - [ ] Define Announcements access policy contracts.
   - Acceptance criteria:
-    - Policies comply with `.claude/rules/202-plugin-access-policy-schema-template.mdc`.
+    - Policies comply with `.github/instructions/202-plugin-access-policy-schema-template.mdc`.
 - [ ] Define Announcements audit contracts.
   - Acceptance criteria:
-    - Audit events comply with `.claude/rules/203-plugin-audit-schema-template.mdc` for allow/deny parity.
+    - Audit events comply with `.github/instructions/203-plugin-audit-schema-template.mdc` for allow/deny parity.
 - [ ] Lock naming normalization and legacy alias handling.
   - Acceptance criteria:
     - New docs/contracts use **Announcements** spelling; legacy typo alias note is documented for compatibility.

@@ -16,13 +16,13 @@
 
 - [ ] Lock Feed command contracts.
   - Acceptance criteria:
-    - Commands conform to `.claude/rules/201-plugin-command-schema-template.mdc`.
+    - Commands conform to `.github/instructions/201-plugin-command-schema-template.mdc`.
 - [ ] Lock Feed access policy contracts.
   - Acceptance criteria:
-    - Access policy conforms to `.claude/rules/202-plugin-access-policy-schema-template.mdc` with role/consent/region constraints.
+    - Access policy conforms to `.github/instructions/202-plugin-access-policy-schema-template.mdc` with role/consent/region constraints.
 - [ ] Lock Feed audit contracts.
   - Acceptance criteria:
-    - Audit events conform to `.claude/rules/203-plugin-audit-schema-template.mdc` with allow/deny parity.
+    - Audit events conform to `.github/instructions/203-plugin-audit-schema-template.mdc` with allow/deny parity.
 - [ ] Normalize Announcements spelling across new docs and APIs where feasible.
   - Acceptance criteria:
     - New implementation removes legacy typo

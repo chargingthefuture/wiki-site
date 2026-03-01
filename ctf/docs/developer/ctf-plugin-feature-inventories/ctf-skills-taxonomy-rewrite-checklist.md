@@ -13,13 +13,13 @@
 
 - [ ] Define v1 plugin command contracts.
   - Acceptance criteria:
-    - Command set conforms to `.claude/rules/201-plugin-command-schema-template.mdc`.
+    - Command set conforms to `.github/instructions/201-plugin-command-schema-template.mdc`.
 - [ ] Define v1 access policy contracts.
   - Acceptance criteria:
-    - Each command includes role/attribute checks, legal basis metadata, and deny conditions under `.claude/rules/202-plugin-access-policy-schema-template.mdc`.
+    - Each command includes role/attribute checks, legal basis metadata, and deny conditions under `.github/instructions/202-plugin-access-policy-schema-template.mdc`.
 - [ ] Define v1 audit contracts.
   - Acceptance criteria:
-    - Each command has allow/deny and result audit coverage under `.claude/rules/203-plugin-audit-schema-template.mdc`.
+    - Each command has allow/deny and result audit coverage under `.github/instructions/203-plugin-audit-schema-template.mdc`.
 - [ ] Lock destructive-delete policy matrix.
   - Acceptance criteria:
     - Clear allow/deny rules exist for sector/job-title/skill deletes with dependency thresholds.

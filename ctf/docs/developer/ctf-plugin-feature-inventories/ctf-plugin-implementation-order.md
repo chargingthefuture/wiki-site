@@ -1,43 +1,53 @@
 # CTF Plugin Implementation Order (Dependency-Driven)
 
-Date: 2026-02-25
+Date: 2026-03-01
 
-This order is based on explicit dependency and authority statements in the plugin feature inventories/checklists.
+This order is based on explicit dependency and authority statements in plugin inventories/checklists, plus baseline platform constraints for auth and deployment.
 
 ## Dependency rules used
 
-Hard or strong dependencies found in inventory/checklist docs:
+Hard or strong dependencies found in rules and inventory/checklist docs:
 
-1. `skills-taxonomy` is authoritative for sectors/job titles/skills and lists `directory` + `workforce` as downstream consumers.
-2. `directory` is an upstream authority for:
+1. Baseline foundation must be established before plugin waves:
+   - Clerk integration baseline,
+   - Railway canonical deployment baseline,
+   - Vercel staging frontend integration,
+   - Expo Android deployment baseline.
+2. `skills-taxonomy` is authoritative for sectors/job titles/skills and lists `directory` + `workforce` as downstream consumers.
+3. `directory` is an upstream authority for:
    - `workforce` recruited-state inference,
    - `skills-hunt` ownership/policy lifecycle,
    - `foundation` provider discovery projections.
-3. `feed` and `announcements` share one centralized admin surface (`/admin/feed-announcements`) and tightly coupled rendering/targeting behaviors.
-4. `service-credits` has policy coupling to GDP semantics (non-GDP deletion reclaim accounting), but this is not a strict coding-start blocker.
+4. `feed` and `announcements` share one centralized admin surface (`/admin/feed-announcements`) and tightly coupled rendering/targeting behaviors.
+5. `service-credits` has policy coupling to GDP semantics (non-GDP deletion reclaim accounting), but this is not a strict coding-start blocker.
 
 Everything else is mostly independent at plugin-boundary level and can be parallelized once foundational dependencies are stable.
 
 ## Recommended implementation sequence
 
-### Phase -1 — Already implemented baseline (retrofit documentation/hardening)
+### Phase -1 — Baseline foundation (mandatory)
+
+BF-01. `clerk-foundation`
+BF-02. `railway-baseline`
+BF-03. `vercel-integration`
+BF-04. `expo-baseline`
+
+Why first:
+
+- This repository is being rebuilt from boilerplate and cannot assume prior auth/deployment stability.
+- Plugin work should not begin until auth domains, runtime topology, and mobile release paths are known-good.
+
+### Phase 0 — Core primitives for downstream plugins
 
 0. `chyme`
-
-Why here:
-
-- Chyme core web plugin routes/migration are already implemented in `ctf/`.
-- Remaining work is governance/contract/seed/parity hardening rather than initial build-out.
-
-### Phase 0 — Foundation primitives for downstream plugins
-
 1. `skills-taxonomy`
 2. `directory`
 3. `feed`
 4. `announcements`
 
-Why first:
+Why now:
 
+- Chyme is a fresh implementation target in this reset.
 - Taxonomy + Directory are upstream data authorities for multiple plugins.
 - Feed + Announcements are operationally coupled and should avoid divergent contracts.
 
@@ -82,14 +92,14 @@ Why last:
 
 If you want high parallelism without violating dependencies:
 
-- Pack A (start immediately): `skills-taxonomy`, `directory`, `feed+announcements` (same pack)
-- Pack A0 (retrofit now): `chyme` hardening track (contracts/seeds/parity plan)
+- Pack BF (mandatory first): `clerk-foundation` → `railway-baseline` → `vercel-integration` → `expo-baseline`
+- Pack A (start after Pack BF): `chyme`, `skills-taxonomy`, `directory`, `feed+announcements` (same stream)
 - Pack B (start after Pack A contract lock): `workforce`, `skills-hunt`, `foundation`
 - Pack C (parallel after Pack A): `lighthouse`, `socketrelay`, `trusttransport`, `peer-programming`, `mood`, `gentlepulse`, `weekly-performance`
 - Pack D (after Pack B/C metric and event contracts stabilize): `gross-domestic-product`, `service-credits`
 
 ## Notes
 
-- Per readiness matrix, all plugins are marked **Ready** for coding start; this ordering minimizes likely integration churn.
+- This order supersedes older assumptions that Chyme is already implemented.
 - Missing command/access/audit YAML triplets are release-gate concerns, not coding-start blockers.
-- Chyme is tracked as an implemented baseline; its remaining gaps are release-gate and parity-hardening concerns.
+- Governance references should resolve through `index.mdc` and indexed rule modules only.

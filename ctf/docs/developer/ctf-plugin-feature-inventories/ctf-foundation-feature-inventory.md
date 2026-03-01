@@ -14,9 +14,9 @@ Foundation delivers trauma-informed survivor-provider connection workflows that 
 
 Planning constraints applied:
 
-1. Inventory/checklist lifecycle follows `.claude/rules/120-plugin-feature-inventory-lifecycle-rules.mdc`.
-2. Command/access/audit design follows `.claude/rules/200-plugin-command-contract-templates.mdc` and templates `201`/`202`/`203`.
-3. Stream usage design and quota safety follows `.claude/rules/110-stream-maker-tier-rules.mdc`.
+1. Inventory/checklist lifecycle follows `.github/instructions/120-plugin-feature-inventory-lifecycle-rules.mdc`.
+2. Command/access/audit design follows `.github/instructions/200-plugin-command-contract-templates.mdc` and templates `201`/`202`/`203`.
+3. Stream usage design and quota safety follows `.github/instructions/110-stream-maker-tier-rules.mdc`.
 4. Canonical profile/plugin extension boundaries follow single-profile plugin-extension rules.
 
 ---
@@ -95,9 +95,9 @@ Planning constraints applied:
 
 All command contracts conform to:
 
-- `.claude/rules/201-plugin-command-schema-template.mdc`
-- `.claude/rules/202-plugin-access-policy-schema-template.mdc`
-- `.claude/rules/203-plugin-audit-schema-template.mdc`
+- `.github/instructions/201-plugin-command-schema-template.mdc`
+- `.github/instructions/202-plugin-access-policy-schema-template.mdc`
+- `.github/instructions/203-plugin-audit-schema-template.mdc`
 
 Full-v1 command groups:
 

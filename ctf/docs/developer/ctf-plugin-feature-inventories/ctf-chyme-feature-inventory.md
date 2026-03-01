@@ -5,7 +5,7 @@
 - Rewrite target only: `ctf/`
 - Legacy `platform/` remains reference-only and must not be modified.
 - Unified plugin scope slug: `chyme`
-- This document captures the **implemented baseline** plus remaining rewrite hardening items.
+- This document captures the **target implementation scope** for fresh-start delivery.
 
 ## Intent and Outcome
 
@@ -13,11 +13,11 @@ Chyme delivers a lightweight social-audio room with companion text chat, Stream-
 
 Lifecycle/governance references applied:
 
-1. Inventory/checklist lifecycle follows `.claude/rules/120-plugin-feature-inventory-lifecycle-rules.mdc`.
-2. Profile/deletion boundaries follow `.claude/rules/114-single-profile-and-plugin-extension-rules.mdc` and `ctf/docs/contracts/CHYME_PROFILE_AND_DELETION_CONTRACT.md`.
-3. Current implementation evidence comes from `ctf/migrations/2026-02-19-create-chyme-core-tables.sql` and Chyme routes/repository in `packages/web`.
+1. Inventory/checklist lifecycle follows `index.mdc` precedence and Rule 120.
+2. Profile/deletion boundaries follow Rule 114 and `ctf/docs/contracts/CHYME_PROFILE_AND_DELETION_CONTRACT.md`.
+3. Implementation sequencing must honor baseline phase order: Clerk integration, Railway deployment baseline, Vercel integration, Expo baseline.
 
-## Implemented User Features
+## Target User Features (Implementation Scope)
 
 1. Authenticated room bootstrap via `GET /api/chyme/room` with deterministic room provisioning (`chyme-main-room`) and participant upsert.
 2. Companion text chat read/send via `GET /api/chyme/messages` and `POST /api/chyme/messages`.
@@ -26,12 +26,12 @@ Lifecycle/governance references applied:
 5. Full-account deletion request initiation via `DELETE /api/account/full-account` (request recording and Service Credits reclaim enqueue).
 6. Web UI surface includes participant list, join-call action, chat panel, and deletion actions.
 
-## Implemented Admin Features
+## Target Admin Features
 
-1. No Chyme-specific admin UI or admin-only Chyme route family is currently implemented.
-2. Eligibility gate currently reuses shared access approval model (`approved user` or `admin` can access room/chat/join routes).
+1. No Chyme-specific admin UI is required for MVP unless called by contracts/checklist updates.
+2. Eligibility gate must enforce shared access approval model (`approved user` or `admin`) for room/chat/join routes.
 
-## API Surface and Route Map (Implemented)
+## API Surface and Route Map (Target)
 
 Chyme plugin routes:
 
@@ -47,15 +47,15 @@ Deletion/account routes used by Chyme UI:
 
 Current command-contract note:
 
-- Chyme is currently implemented as route + repository flows.
+- Chyme should be delivered as route + repository flows aligned to plugin command/access/audit contracts.
 - Plugin command/access/audit YAML triplet artifacts are present:
    - `ctf/docs/contracts/CHYME_PLUGIN_COMMAND_CONTRACTS.yaml`
    - `ctf/docs/contracts/CHYME_PLUGIN_ACCESS_POLICY_CONTRACTS.yaml`
    - `ctf/docs/contracts/CHYME_PLUGIN_AUDIT_CONTRACTS.yaml`
 
-## Data Model and Storage Contracts (Implemented)
+## Data Model and Storage Contracts (Target)
 
-Canonical migration: `ctf/migrations/2026-02-19-create-chyme-core-tables.sql`
+Canonical migration target: Chyme core tables under `ctf/migrations/` aligned to route assumptions and schema-drift checks.
 
 1. `chyme_rooms`
    - Shared room metadata (`service_name='chyme'`, `call_active`).
@@ -68,7 +68,7 @@ Canonical migration: `ctf/migrations/2026-02-19-create-chyme-core-tables.sql`
 5. `chyme_deletion_events`
    - Service/account deletion event log.
 
-## Security, Privacy, and Compliance Controls (Implemented)
+## Security, Privacy, and Compliance Controls (Target)
 
 1. Clerk-authenticated access is required on Chyme routes; unauthenticated requests are denied (`401`).
 2. Access gate enforces approved-user or admin eligibility (`403` for non-approved non-admin users).
@@ -78,9 +78,9 @@ Canonical migration: `ctf/migrations/2026-02-19-create-chyme-core-tables.sql`
 
 ## Web and Android Delivery Status
 
-1. Web implementation is present for room/chat/join/deletion workflows.
-2. Android parity is not yet implemented for Chyme surfaces/flows.
-3. Current parity status is **web-first baseline implemented; Android follow-up required**.
+1. Web implementation is required for room/chat/join/deletion workflows in Phase 0.
+2. Android parity should be delivered or explicitly deferred with owner/date and milestone.
+3. Current parity status is **fresh-start pending implementation**.
 
 ## Seed Coverage Status
 
@@ -88,30 +88,30 @@ Rule requirement: deterministic plugin seed script for manual validation in dev 
 
 Current status:
 
-- Migration exists, and manual validation checklist exists (`ctf/docs/testing/CHYME_FIRST_TEST_PASS.md`).
-- No dedicated deterministic Chyme seed script is present yet under `ctf/scripts/`.
+- Deterministic Chyme seed script is required under `ctf/scripts/` before release gates close.
+- Manual validation checklist evidence should be captured as implementation progresses.
 
-## Gaps, Ambiguities, and Known Technical Debt
+## Risks, Ambiguities, and Known Technical Debt
 
-1. No Chyme deterministic seed script for repeatable dev bootstrap.
-2. Android parity for Chyme plugin is pending.
-3. Full-account delete endpoint is request-recording + reclaim enqueue, not full orchestrated status lifecycle.
-4. Chyme-specific admin tooling and moderation controls are not implemented.
+1. Fresh-start implementation can drift from contracts without strict checklist synchronization.
+2. Android parity can lag web delivery unless explicitly assigned and tracked.
+3. Full-account delete lifecycle orchestration may need follow-up integration across plugins.
+4. Chyme-specific admin tooling and moderation controls are out of MVP unless explicitly approved.
 
-## Delivery Follow-up Phasing (Post-baseline)
+## Delivery Phasing
 
-1. Phase A — Governance hardening:
-   - add command/access/audit YAML contracts,
-   - map deny taxonomy explicitly.
-2. Phase B — Deterministic dev/test readiness:
+1. Phase 0 — Core implementation:
+   - implement room/chat/join/deletion routes and persistence,
+   - enforce policy and audit contracts.
+2. Phase 0b — Deterministic dev/test readiness:
    - add Chyme seed script,
    - wire checklist evidence references.
-3. Phase C — Android parity:
-   - implement mobile room/chat/join/deletion parity with matching policy outcomes.
-4. Phase D — Deletion orchestration closure:
+3. Phase 1+ — Android parity and lifecycle closure:
+   - implement mobile parity with matching policy outcomes,
    - align full-account lifecycle statuses with global orchestrator.
 
 ## Change Log
 
-- 2026-02-25: Created initial Chyme CTF rewrite inventory from existing implemented baseline (routes, repository, migration, and web UI) and documented remaining governance/parity gaps.
+- 2026-02-25: Created initial Chyme CTF rewrite inventory and documented governance/parity requirements.
 - 2026-02-25: Added Chyme command/access/audit YAML triplet references and removed contract-triplet gap from known technical debt.
+- 2026-03-01: Reframed inventory for fresh-start implementation sequencing and removed implemented-baseline assumptions.
