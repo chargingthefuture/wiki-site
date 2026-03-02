@@ -96,13 +96,33 @@ Resolution order per key family:
 3. Authenticated admin:
    - Visit `/admin` and verify successful server-side access.
 
-## Open Decisions / Blockers
-1. Role source-of-truth shape in Clerk session claims:
-   - Baseline checks `metadata.role` then `publicMetadata.role`.
-   - Team should lock final Clerk role claim location and naming convention.
-2. Production key naming preference:
-   - Validation script currently expects unprefixed production Clerk keys.
-   - If `RAILWAY_PROD_*` keys are preferred, update contract by explicit approval only.
+## BF-01 v2 Resolution Addendum (2026-03-02)
+
+### Decisions locked in this pass
+1. Role source-of-truth in Clerk session claims is now canonicalized to `publicMetadata.role`.
+2. Production Clerk variable preference is now canonicalized as unprefixed keys, with compatibility fallback support for `RAILWAY_PROD_*`.
+
+### Scaffold-removal completion
+- `/plugin` baseline route no longer returns scaffold-only output for non-Chyme plugin routing.
+- `/admin` baseline route no longer returns scaffold-only output.
+- Both routes now provide production-grade baseline policy outcomes with stable deny taxonomy details.
+
+### Clarifying questions and answers used for v2 closure
+1. Role claim source:
+   - Answer: `publicMetadata.role` only.
+2. Production env key policy:
+   - Answer: canonical unprefixed preference with `RAILWAY_PROD_*` fallback compatibility.
+3. Scaffold-only route behavior:
+   - Answer: upgrade now in BF-01 v2.
+4. Validation depth:
+   - Answer: run existing checks only.
+
+### Updated validation evidence for v2
+- `pnpm --filter @ctf/web run lint` passed.
+- `pnpm --filter @ctf/web run build` passed.
+
+## Remaining Decisions / Blockers
+- None blocking BF-01 baseline completion.
 
 ## Troubleshooting: `MIDDLEWARE_INVOCATION_FAILED`
 If Railway returns `500` with code `MIDDLEWARE_INVOCATION_FAILED`:

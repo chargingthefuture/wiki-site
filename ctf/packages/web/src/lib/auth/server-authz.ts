@@ -63,11 +63,24 @@ function denyIfRoleMissing(
   }
 
   const role = extractRole(claims);
-  if (!role || !requiredRoles.includes(role)) {
+  const normalizedRequiredRoles = requiredRoles
+    .map((requiredRole) => normalizeRole(requiredRole))
+    .filter((requiredRole): requiredRole is string => Boolean(requiredRole));
+
+  if (!role || !normalizedRequiredRoles.includes(role)) {
     return pluginAuthDeny.forbiddenRole(requiredRoles);
   }
 
   return null;
+}
+
+function normalizeRole(role: string | null | undefined): string | null {
+  if (!role) {
+    return null;
+  }
+
+  const normalizedRole = role.trim().toLowerCase();
+  return normalizedRole.length > 0 ? normalizedRole : null;
 }
 
 function extractRole(claims: unknown): string | null {
@@ -76,16 +89,11 @@ function extractRole(claims: unknown): string | null {
   }
 
   const sessionClaims = claims as {
-    metadata?: { role?: unknown };
     publicMetadata?: { role?: unknown };
   };
 
-  if (typeof sessionClaims.metadata?.role === 'string') {
-    return sessionClaims.metadata.role;
-  }
-
   if (typeof sessionClaims.publicMetadata?.role === 'string') {
-    return sessionClaims.publicMetadata.role;
+    return normalizeRole(sessionClaims.publicMetadata.role);
   }
 
   return null;

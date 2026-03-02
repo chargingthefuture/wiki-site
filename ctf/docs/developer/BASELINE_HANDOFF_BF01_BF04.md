@@ -41,7 +41,45 @@ The rewrite baseline sequence is now in place across identity, Railway runtime, 
 
 ### Remaining decisions
 
-- Final role-claim source-of-truth shape in Clerk session claims.
+- None after BF-01 v2 closure pass.
+
+### BF-01 v2 Delta (2026-03-02)
+
+#### What was incomplete
+- Role claim source-of-truth was unresolved (`metadata.role` vs `publicMetadata.role`).
+- Baseline `/plugin` and `/admin` pages still exposed scaffold-like responses.
+
+#### What is now closed
+- Server-side role extraction is canonicalized to `publicMetadata.role`.
+- Production env-key policy is documented as unprefixed canonical with `RAILWAY_PROD_*` compatibility fallback.
+- `/plugin` and `/admin` baseline pages now return production-grade baseline auth/policy outcomes.
+
+#### Clarifying questions asked and answers received
+1. Canonical role claim source?
+   - Answer: `publicMetadata.role` only.
+2. Production key policy?
+   - Answer: canonical unprefixed preference with `RAILWAY_PROD_*` fallback compatibility.
+3. Remove scaffold-only route behavior now?
+   - Answer: yes, in BF-01 v2.
+4. Validation evidence depth?
+   - Answer: run existing checks only.
+
+#### Changed files (BF-01 v2)
+- `ctf/packages/web/src/lib/auth/server-authz.ts`
+- `ctf/packages/web/src/app/plugin/page.tsx`
+- `ctf/packages/web/src/app/admin/page.tsx`
+- `ctf/docs/developer/CLERK_FOUNDATION_BASELINE_BF01.md`
+- `ctf/docs/developer/BASELINE_HANDOFF_BF01_BF04.md`
+
+#### Remaining blockers
+- None for BF-01 scope.
+
+#### Updated validation evidence
+- `pnpm --filter @ctf/web run lint` passed.
+- `pnpm --filter @ctf/web run build` passed.
+
+#### Completion recommendation
+- **complete**
 
 ---
 
