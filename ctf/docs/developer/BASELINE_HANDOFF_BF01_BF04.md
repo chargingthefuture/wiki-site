@@ -177,6 +177,47 @@ The rewrite baseline sequence is now in place across identity, Railway runtime, 
 - Vercel custom domain must be configured in Clerk redirect URIs.
 - Railway backend CORS must allow Vercel staging origin where required.
 
+### BF-03 v2 Delta (2026-03-02)
+
+#### What was incomplete
+- Vercel install path remained non-deterministic (`--no-frozen-lockfile`).
+- Env preflight did not fail-fast on forbidden `*.vercel.app` host usage for Clerk-bound staging auth.
+- Workflow environment label was not aligned with rewrite-scoped staging naming.
+
+#### What is now closed
+- Vercel install path is lockfile-deterministic with `--frozen-lockfile`.
+- `check:clerk-env` now blocks `vercel-staging` when app URL host is `*.vercel.app`.
+- Vercel deploy workflow environment now targets `rewrite-vercel-staging`.
+
+#### Clarifying questions asked and answers received
+1. Scope path for changes?
+   - Answer: allow `.github/` edits.
+2. Should custom-domain guardrail be enforced now?
+   - Answer: yes, enforce now.
+3. Workflow environment label?
+   - Answer: `rewrite-vercel-staging`.
+4. Validation depth?
+   - Answer: run existing checks only.
+
+#### Changed files (BF-03 v2)
+- `ctf/packages/web/vercel.json`
+- `ctf/packages/web/scripts/check-clerk-env.mjs`
+- `.github/workflows/deploy-web-vercel.yml`
+- `ctf/docs/developer/VERCEL_INTEGRATION_BASELINE_BF03.md`
+- `ctf/docs/developer/BASELINE_HANDOFF_BF01_BF04.md`
+
+#### Updated validation evidence
+- `pnpm --filter @ctf/web run check:vercel-staging` passed with custom-domain values.
+- `pnpm --filter @ctf/web run lint` passed.
+- `pnpm --filter @ctf/web run build` passed.
+
+#### Remaining blockers
+- Clerk dashboard redirect/origin and Railway CORS allowlist alignment remain external configuration tasks.
+- Owner/date: Platform Ops — 2026-03-09.
+
+#### Completion recommendation
+- **complete**
+
 ---
 
 ## BF-04 Expo Baseline

@@ -156,6 +156,17 @@ if (isRailwayTarget && parsedAppUrl) {
   }
 }
 
+if (ENV_TARGET === 'vercel-staging' && parsedAppUrl) {
+  const appHost = parsedAppUrl.hostname.toLowerCase();
+
+  if (appHost.endsWith('.vercel.app')) {
+    console.error(
+      `Vercel staging Clerk integration requires a custom domain, not *.vercel.app. Received host: ${parsedAppUrl.hostname}`,
+    );
+    process.exit(1);
+  }
+}
+
 if (signInUrl && !signInUrl.startsWith('/')) {
   const parsedSignInUrl = parseUrl(signInUrl);
 
