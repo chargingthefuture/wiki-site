@@ -91,7 +91,7 @@ Status legend:
 | `agent-bf-03-vercel-integration-v2` | Phase -1G | Done        | 2026-03-02 |       |           | Yes              |
 | `agent-bf-04-expo-baseline-v2`      | Phase -1H | Done        | 2026-03-02 |       |           | Yes              |
 | `agent-00-chyme-core`               | Phase 0   | Done        | 2026-03-02 |       |           | Yes              |
-| `agent-01-taxonomy-core`            | Phase 0   | Not started |            |       |           | No               |
+| `agent-01-taxonomy-core`            | Phase 0   | Done        | 2026-03-02 |       |           | Yes              |
 | `agent-02-directory-core`           | Phase 0   | Not started |            |       |           | No               |
 | `agent-03-feed-announcements`       | Phase 0   | Not started |            |       |           | No               |
 | `agent-04-workforce`                | Phase 1   | Not started |            |       |           | No               |

@@ -128,9 +128,20 @@ Consumer routes:
 3. Full mobile admin CRUD parity remains an explicit open decision.
 4. Read-model semantics must remain consistent across web and Android consumers.
 
+Current status:
+
+- Web/API Phase-0 runtime baseline is implemented for hierarchy/flattened reads, admin CRUD, dependency-impact preview, and destructive delete safeguards.
+- Web admin UI surface is deferred to owner `taxonomy-web-admin-phase1` (target milestone `2026-03-22`).
+- Android read-model parity remains deferred to owner `taxonomy-android-read-parity` (target milestone `2026-04-15`).
+
 ## 8) Seed Coverage Status (Planned)
 
 Seed script requirement: Provide a deterministic plugin seed script with dummy development data for manual plugin validation in dev environments.
+
+Current status:
+
+- Deterministic seed script is implemented at `ctf/scripts/seedSkillsTaxonomyPhase0.mjs`.
+- Seed fixtures include reproducible sectors/job titles/skills and one dependency binding record for delete-safeguard validation.
 
 ## 9) Open Decisions
 
@@ -144,3 +155,4 @@ Seed script requirement: Provide a deterministic plugin seed script with dummy d
 - 2026-02-25: Created initial Skills Taxonomy plugin inventory as standalone plugin-owned scope with hierarchy CRUD, read models, dependency safeguards, destructive-action controls, and cross-app compatibility requirements.
 - 2026-02-25: Removed legacy reference pointers from rewrite scope document to keep the plugin rewrite plan standalone.
 - 2026-02-25: Folded legacy Skills Database Admin scope into this single `Skills Taxonomy` plugin inventory (taxonomy service + admin UI combined), including legacy hierarchy/admin read patterns and operator safety expectations.
+- 2026-03-02: Delivered Phase-0 web/API baseline (migration + hierarchy/flattened routes + admin CRUD + dependency preview + delete safeguards + audit + CSRF + deterministic seed), and recorded deferred web-admin UI/Android parity owners with target milestones.

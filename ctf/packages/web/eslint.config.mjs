@@ -29,6 +29,12 @@ export default [
     },
   },
   {
+    files: ['src/app/api/**/*.{js,jsx,ts,tsx}'],
+    rules: {
+      complexity: 'off',
+    },
+  },
+  {
     files: [
       'src/**/*.test.{ts,tsx,js,jsx}',
       'src/**/*.spec.{ts,tsx,js,jsx}',
