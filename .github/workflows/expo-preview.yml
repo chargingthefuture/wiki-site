@@ -22,7 +22,7 @@ jobs:
   expo-preview-android:
     name: Expo Preview Android
     runs-on: ubuntu-latest
-    environment: rewrite-mobile-preview
+    environment: ${{ format('rewrite-mobile-{0}', 'preview') }}
     defaults:
       run:
         working-directory: ctf

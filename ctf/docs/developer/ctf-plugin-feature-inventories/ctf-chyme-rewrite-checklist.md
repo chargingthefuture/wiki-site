@@ -79,10 +79,10 @@
 
 ## Phase 4 — Release Gates and Lifecycle Maintenance
 
-- [ ] Keep Chyme inventory/checklist synchronized with accepted changes. [EVIDENCE CAPTURE DEFERRED FOR MVP — see Rule 118.]
+- [x] Keep Chyme inventory/checklist synchronized with accepted changes. [EVIDENCE CAPTURE DEFERRED FOR MVP — see Rule 118.]
   - Acceptance criteria:
     - Feature/behavior changes update both Chyme docs in the same PR.
-- [ ] Record release-gate compliance status.
+- [x] Record release-gate compliance status.
   - Acceptance criteria:
     - Command/access/audit contracts, migration evidence, and policy/audit checks are linked before release cut.
 
@@ -91,3 +91,4 @@
 - 2026-02-25: Created initial Chyme rewrite checklist with baseline sections and governance requirements.
 - 2026-03-01: Replaced implemented-baseline validation checklist with fresh-start implementation checklist and baseline prerequisite gate.
 - 2026-03-01: Completed Phase 0 web/API/migration/policy/audit scope and recorded Android parity deferment owner/date.
+- 2026-03-02: Added Chyme closure handoff evidence and second-pass runtime de-scaffolding updates (join call state persistence).

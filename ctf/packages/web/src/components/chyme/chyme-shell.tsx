@@ -109,6 +109,16 @@ export function ChymeShell() {
         streamChannelId: response.streamChannelId,
         streamUserId: response.streamUserId,
       });
+      setRoomState((currentRoomState) => {
+        if (!currentRoomState) {
+          return currentRoomState;
+        }
+
+        return {
+          ...currentRoomState,
+          callActive: true,
+        };
+      });
       setJoinState('success');
     } catch (error) {
       setJoinState('error');

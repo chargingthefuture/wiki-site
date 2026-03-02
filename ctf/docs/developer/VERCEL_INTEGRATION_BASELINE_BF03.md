@@ -59,39 +59,55 @@ This enforces Clerk/domain env contract before Vercel build completes.
 ## BF-03 v2 Resolution Addendum (2026-03-02)
 
 ### What was incomplete
+
 1. Vercel install path was not lockfile-deterministic (`--no-frozen-lockfile`).
 2. Env preflight did not fail-fast on forbidden `*.vercel.app` domain usage for Clerk-bound staging auth.
 3. Workflow environment label was not aligned to rewrite-scoped naming.
 
 ### What is now closed
+
 1. Vercel install path is lockfile-deterministic (`--frozen-lockfile`) in `ctf/packages/web/vercel.json`.
 2. Env preflight now fails for `vercel-staging` when `VERCEL_NEXT_PUBLIC_APP_URL` resolves to `*.vercel.app`.
 3. Deploy workflow environment is aligned to `rewrite-vercel-staging`.
 
 ### Clarifying questions and answers used for v2 closure
+
 1. Scope path for changes:
-  - Answer: allow `.github/` edits.
+
+- Answer: allow `.github/` edits.
+
 2. Custom-domain guardrail enforcement:
-  - Answer: enforce now.
+
+- Answer: enforce now.
+
 3. Workflow environment label:
-  - Answer: `rewrite-vercel-staging`.
+
+- Answer: `rewrite-vercel-staging`.
+
 4. Validation depth:
-  - Answer: run existing checks only.
+
+- Answer: run existing checks only.
 
 ### Updated validation evidence for v2
+
 - `pnpm --filter @ctf/web run check:vercel-staging` passed with custom-domain values.
 - `pnpm --filter @ctf/web run lint` passed.
 - `pnpm --filter @ctf/web run build` passed.
 
 ### Remaining blockers / risks
+
 1. Clerk dashboard redirect URLs and origin settings remain external configuration.
-  - Owner: Platform Ops
-  - Target date: 2026-03-09
-  - Next action: verify custom staging domain exact-match callbacks in Clerk and run sign-in roundtrip.
+
+- Owner: Platform Ops
+- Target date: 2026-03-09
+- Next action: verify custom staging domain exact-match callbacks in Clerk and run sign-in roundtrip.
+
 2. Railway backend CORS allowlist for Vercel staging origin remains external runtime configuration.
-  - Owner: Platform Ops
-  - Target date: 2026-03-09
-  - Next action: validate CORS allowlist includes staging Vercel custom domain and re-run cross-origin smoke checks.
+
+- Owner: Platform Ops
+- Target date: 2026-03-09
+- Next action: validate CORS allowlist includes staging Vercel custom domain and re-run cross-origin smoke checks.
 
 ### Completion recommendation
+
 - **complete**

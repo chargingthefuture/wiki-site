@@ -118,3 +118,4 @@ Current status:
 - 2026-03-01: Reframed inventory for fresh-start implementation sequencing and removed implemented-baseline assumptions.
 - 2026-03-01: Added canonical Clerk username handle decision for Chyme/plugin identity parity.
 - 2026-03-01: Recorded Phase 0 delivery status (API + policy + audit + migration + deterministic seed) and Android deferment details.
+- 2026-03-02: Closed Chyme second-pass scaffold gap by persisting room call-active state on join and publishing dedicated closure handoff evidence.

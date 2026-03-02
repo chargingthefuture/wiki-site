@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { CHYME_ERROR_CODE } from '@/src/lib/chyme/constants';
 import { createStreamJoinCredentials } from '@/src/lib/chyme/stream';
-import { getRoomState } from '@/src/lib/chyme/repository';
+import { getRoomState, markRoomCallJoined } from '@/src/lib/chyme/repository';
 import { logChymeAudit } from '@/src/lib/chyme/audit';
 import { requireChymeAccess } from '../_lib';
 
@@ -40,6 +40,8 @@ export async function POST() {
       );
     }
 
+    const activeRoom = await markRoomCallJoined(gate.identity);
+
     logChymeAudit({
       pluginId: 'chyme',
       command: 'chyme.call.join',
@@ -47,8 +49,8 @@ export async function POST() {
       status: 'allow',
       reason: 'approved_user_or_admin',
       target: {
-        roomId: room.roomId,
-        roomKey: room.roomKey,
+        roomId: activeRoom.roomId,
+        roomKey: activeRoom.roomKey,
         streamChannelId: credentials.streamChannelId,
       },
       result: 'success',
@@ -58,8 +60,8 @@ export async function POST() {
     return NextResponse.json(
       {
         ok: true,
-        roomId: room.roomId,
-        roomKey: room.roomKey,
+        roomId: activeRoom.roomId,
+        roomKey: activeRoom.roomKey,
         ...credentials,
       },
       { status: 200 },

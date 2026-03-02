@@ -13,7 +13,7 @@ jobs:
   build-and-release-android-apk:
     name: Build and Release Android APK
     runs-on: ubuntu-latest
-    environment: rewrite-mobile-production
+    environment: ${{ format('rewrite-mobile-{0}', 'production') }}
     defaults:
       run:
         working-directory: ctf

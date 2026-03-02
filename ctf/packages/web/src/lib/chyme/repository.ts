@@ -98,6 +98,24 @@ async function ensureMainRoom(client: PoolClient): Promise<RoomRow> {
   return inserted.rows[0];
 }
 
+async function setRoomCallActive(
+  client: PoolClient,
+  roomId: string,
+  callActive: boolean,
+): Promise<RoomRow> {
+  const updatedRoom = await client.query<RoomRow>(
+    `
+      UPDATE chyme_rooms
+      SET call_active = $2, updated_at = NOW()
+      WHERE id = $1
+      RETURNING id, room_key, room_name, call_active
+    `,
+    [roomId, callActive],
+  );
+
+  return updatedRoom.rows[0];
+}
+
 async function ensureServiceProfile(client: PoolClient, identity: IdentityInput): Promise<void> {
   await client.query(
     `
@@ -245,6 +263,26 @@ export async function sendRoomMessage(identity: IdentityInput, text: string): Pr
     );
 
     return mapMessage(inserted.rows[0]);
+  });
+}
+
+export async function markRoomCallJoined(
+  identity: IdentityInput,
+): Promise<ChymeRoomResponse> {
+  return withDbTransaction(async (client) => {
+    const room = await ensureMainRoom(client);
+    await ensureServiceProfile(client, identity);
+    await upsertMember(client, room.id, identity);
+    const activeRoom = await setRoomCallActive(client, room.id, true);
+    const participants = await listRoomParticipants(client, room.id);
+
+    return {
+      roomId: activeRoom.id,
+      roomName: activeRoom.room_name,
+      roomKey: activeRoom.room_key,
+      callActive: activeRoom.call_active,
+      participants,
+    };
   });
 }
 
