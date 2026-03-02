@@ -120,6 +120,12 @@ Seed script requirement: Provide a deterministic plugin seed script with dummy d
 
 ## Open Decisions, Ambiguities, and Migration Risks
 
+Resolved for Prompt 02 implementation (2026-03-02):
+
+1. Authenticated list behavior when no own profile exists: return `404` with `DIRECTORY_OWN_PROFILE_REQUIRED`.
+2. Admin list pagination model: offset pagination (`page`, `pageSize`).
+3. Claimed/unclaimed delete guardrail: admin delete is allowed only when `claimed_by_user_id IS NULL`; claimed rows return `409` policy deny.
+
 ### A) User-facing decisions/questions to answer
 
 1. Confirm final authenticated list behavior when no profile exists (empty-state CTA and visibility semantics).
@@ -153,3 +159,4 @@ Seed script requirement: Provide a deterministic plugin seed script with dummy d
 ## Change Log
 
 - 2026-02-25: Created initial unified Directory CTF rewrite inventory merging user and admin flows into one planned UI surface; locked v1 decisions for combined UI, Android admin parity, and display-only post-create public URL behavior.
+- 2026-03-02: Implemented Prompt 02 phase-0 backend and unified web surface (user/admin role-gated sections), with resolved list/pagination/claimed-delete decisions and migration-backed API contracts.

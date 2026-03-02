@@ -1,6 +1,8 @@
 import { evaluatePluginAccess } from '@/src/lib/auth/server-authz';
 import { nonBaselinePlugins } from '@/src/lib/plugins/plugin-catalog';
 import { ChymeShell } from '@/src/components/chyme/chyme-shell';
+import { DirectoryShell } from '@/src/components/directory/directory-shell';
+import { FeedAnnouncementsShell } from '@/src/components/feed/feed-announcements-shell';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
@@ -24,6 +26,8 @@ type PluginContext = {
   selectedPluginStartGate: string | null;
   shouldRequireUsername: boolean;
   showChymeView: boolean;
+  showDirectoryView: boolean;
+  showFeedAnnouncementsView: boolean;
   pluginIdKnown: boolean;
 };
 
@@ -55,6 +59,8 @@ function buildPluginContext(pluginValue: string | string[] | undefined): PluginC
     selectedPluginStartGate: selectedPlugin?.startGate ?? null,
     shouldRequireUsername: shouldRequireUsername(requestedPluginId, selectedPluginId),
     showChymeView: selectedPluginId === 'chyme' || !hasRequestedPluginId,
+    showDirectoryView: selectedPluginId === 'directory',
+    showFeedAnnouncementsView: selectedPluginId === 'feed-announcements',
     pluginIdKnown: !hasRequestedPluginId || Boolean(selectedPlugin),
   };
 }
@@ -179,6 +185,20 @@ export default async function PluginPage({ searchParams }: PluginPageProps) {
 
   if (pluginContext.showChymeView) {
     return <ChymeShell />;
+  }
+
+  if (pluginContext.showDirectoryView) {
+    return <DirectoryShell userId={decision.userId} isAdmin={decision.isAdmin} />;
+  }
+
+  if (pluginContext.showFeedAnnouncementsView) {
+    return (
+      <FeedAnnouncementsShell
+        userId={decision.userId}
+        role={decision.role}
+        isAdmin={decision.isAdmin}
+      />
+    );
   }
 
   return (

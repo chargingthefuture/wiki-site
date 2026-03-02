@@ -28,6 +28,57 @@ auditEvents:
     timestamp: rfc3339
     actorId: principal
     pluginId: feed
+    command: feed.item.dismiss
+    commandVersion: 1.0.0
+    purpose: read_state_management
+    policyDecision:
+      status: allow_or_deny
+      reason: policy_reason_code
+      evidence:
+        actorOwnershipCheck: pass_or_fail
+        mandatoryDismissGuardCheck: pass_or_fail
+    dataClassesAccessed:
+      - feed_dismiss_state_metadata
+      - feed_item_metadata
+    targetContext:
+      workspaceId: workspace_identifier
+      itemId: item_identifier
+    requestId: request_identifier
+    traceId: trace_identifier
+    result:
+      status: success_or_failure
+      errorCategory: none_or_error_class
+
+  - eventId: uuid
+    timestamp: rfc3339
+    actorId: principal
+    pluginId: feed
+    command: feed.announcement.render-mode.update
+    commandVersion: 1.0.0
+    purpose: feed_governance
+    policyDecision:
+      status: allow_or_deny
+      reason: policy_reason_code
+      evidence:
+        roleCheck: pass_or_fail
+        csrfCheck: pass_or_fail
+        renderModeValidationCheck: pass_or_fail
+    dataClassesAccessed:
+      - feed_render_config
+      - admin_audit_metadata
+    targetContext:
+      workspaceId: workspace_identifier
+      configVersion: config_version_identifier
+    requestId: request_identifier
+    traceId: trace_identifier
+    result:
+      status: success_or_failure
+      errorCategory: none_or_error_class
+
+  - eventId: uuid
+    timestamp: rfc3339
+    actorId: principal
+    pluginId: feed
     command: feed.item.read.mark
     commandVersion: 1.0.0
     purpose: read_state_management
@@ -42,6 +93,33 @@ auditEvents:
     targetContext:
       workspaceId: workspace_identifier
       itemId: item_identifier
+    requestId: request_identifier
+    traceId: trace_identifier
+    result:
+      status: success_or_failure
+      errorCategory: none_or_error_class
+
+  - eventId: uuid
+    timestamp: rfc3339
+    actorId: principal
+    pluginId: feed
+    command: feed.membership.event.emit
+    commandVersion: 1.0.0
+    purpose: visibility_recalculation
+    policyDecision:
+      status: allow_or_deny
+      reason: policy_reason_code
+      evidence:
+        roleCheck: pass_or_fail
+        eventPayloadValidationCheck: pass_or_fail
+        membershipProjectionAuditCheck: pass_or_fail
+    dataClassesAccessed:
+      - feed_membership_event_metadata
+      - announcement_membership_event_metadata
+      - audience_projection_metadata
+    targetContext:
+      workspaceId: workspace_identifier
+      membershipEventId: event_identifier
     requestId: request_identifier
     traceId: trace_identifier
     result:

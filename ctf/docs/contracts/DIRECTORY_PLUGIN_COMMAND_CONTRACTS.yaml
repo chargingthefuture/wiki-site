@@ -72,3 +72,102 @@ contracts:
     purpose: admin_communications
     retentionClass: audit_long_lived
     idempotency: true
+
+  - pluginId: directory
+    command: directory.public.fetch
+    version: 1.0.0
+    description: Fetch privacy-minimized public directory list/detail projections for unauthenticated callers.
+    inputSchema:
+      filters:
+        type: object
+        required: false
+      page:
+        type: integer
+        required: false
+      pageSize:
+        type: integer
+        required: false
+      profileId:
+        type: string
+        required: false
+    outputSchema:
+      items:
+        type: array
+      profile:
+        type: object
+        required: false
+      total:
+        type: integer
+    dataAccess:
+      - directory_public_projection
+      - directory_profile_skills
+    purpose: public_projection
+    retentionClass: derived_short_lived
+    idempotency: true
+
+  - pluginId: directory
+    command: directory.admin.profile.assign
+    version: 1.0.0
+    description: Assign an unclaimed directory profile to a target user under admin role guard.
+    inputSchema:
+      profileId:
+        type: string
+        required: true
+      userId:
+        type: string
+        required: true
+    outputSchema:
+      profileId:
+        type: string
+      claimedByUserId:
+        type: string
+      status:
+        type: string
+    dataAccess:
+      - directory_profiles
+      - directory_user_extension
+      - directory_profile_change_events
+    purpose: admin_profile_assignment
+    retentionClass: audit_long_lived
+    idempotency: true
+
+  - pluginId: directory
+    command: directory.admin.profile.delete
+    version: 1.0.0
+    description: Delete an unclaimed directory profile. Claimed profiles are denied by policy guardrail.
+    inputSchema:
+      profileId:
+        type: string
+        required: true
+    outputSchema:
+      status:
+        type: string
+      deleted:
+        type: boolean
+    dataAccess:
+      - directory_profiles
+      - directory_profile_change_events
+    purpose: admin_profile_moderation
+    retentionClass: audit_long_lived
+    idempotency: true
+
+  - pluginId: directory
+    command: directory.profile.delete.service
+    version: 1.0.0
+    description: Perform plugin-scoped profile deletion/anonymization for the authenticated user.
+    inputSchema:
+      scope:
+        type: string
+        required: true
+    outputSchema:
+      status:
+        type: string
+      requestedAtIso:
+        type: string
+    dataAccess:
+      - directory_profiles
+      - directory_user_extension
+      - directory_deletion_events
+    purpose: deletion_request
+    retentionClass: audit_long_lived
+    idempotency: true

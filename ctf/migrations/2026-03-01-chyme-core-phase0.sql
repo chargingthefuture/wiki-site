@@ -11,6 +11,29 @@ CREATE TABLE IF NOT EXISTS chyme_rooms (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
+ALTER TABLE IF EXISTS chyme_rooms
+  ADD COLUMN IF NOT EXISTS room_key TEXT,
+  ADD COLUMN IF NOT EXISTS room_name TEXT,
+  ADD COLUMN IF NOT EXISTS call_active BOOLEAN NOT NULL DEFAULT FALSE,
+  ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
+
+CREATE UNIQUE INDEX IF NOT EXISTS uq_chyme_rooms_room_key ON chyme_rooms(room_key);
+
+DO $$
+BEGIN
+  IF EXISTS (
+    SELECT 1
+    FROM information_schema.columns
+    WHERE table_schema = 'public'
+      AND table_name = 'chyme_rooms'
+      AND column_name = 'name'
+  ) THEN
+    EXECUTE 'ALTER TABLE chyme_rooms ALTER COLUMN name SET DEFAULT ''Chyme Main Room''';
+  END IF;
+END
+$$;
+
 CREATE TABLE IF NOT EXISTS chyme_service_profiles (
   user_id TEXT PRIMARY KEY,
   status TEXT NOT NULL CHECK (status IN ('active', 'deleted')),
@@ -18,6 +41,12 @@ CREATE TABLE IF NOT EXISTS chyme_service_profiles (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
   deleted_at TIMESTAMPTZ NULL
 );
+
+ALTER TABLE IF EXISTS chyme_service_profiles
+  ADD COLUMN IF NOT EXISTS status TEXT,
+  ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  ADD COLUMN IF NOT EXISTS deleted_at TIMESTAMPTZ NULL;
 
 CREATE TABLE IF NOT EXISTS chyme_room_members (
   room_id UUID NOT NULL REFERENCES chyme_rooms(id) ON DELETE CASCADE,
@@ -30,6 +59,14 @@ CREATE TABLE IF NOT EXISTS chyme_room_members (
   last_seen_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
   PRIMARY KEY (room_id, user_id)
 );
+
+ALTER TABLE IF EXISTS chyme_room_members
+  ADD COLUMN IF NOT EXISTS username TEXT NULL,
+  ADD COLUMN IF NOT EXISTS display_name TEXT NULL,
+  ADD COLUMN IF NOT EXISTS avatar_url TEXT NULL,
+  ADD COLUMN IF NOT EXISTS role TEXT NULL,
+  ADD COLUMN IF NOT EXISTS joined_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  ADD COLUMN IF NOT EXISTS last_seen_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
 CREATE INDEX IF NOT EXISTS idx_chyme_room_members_room_id ON chyme_room_members(room_id);
 CREATE INDEX IF NOT EXISTS idx_chyme_room_members_user_id ON chyme_room_members(user_id);
@@ -45,6 +82,13 @@ CREATE TABLE IF NOT EXISTS chyme_messages (
   sent_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
+ALTER TABLE IF EXISTS chyme_messages
+  ADD COLUMN IF NOT EXISTS username TEXT NULL,
+  ADD COLUMN IF NOT EXISTS display_name TEXT NULL,
+  ADD COLUMN IF NOT EXISTS avatar_url TEXT NULL,
+  ADD COLUMN IF NOT EXISTS text TEXT NULL,
+  ADD COLUMN IF NOT EXISTS sent_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
+
 CREATE INDEX IF NOT EXISTS idx_chyme_messages_room_sent_at ON chyme_messages(room_id, sent_at DESC);
 CREATE INDEX IF NOT EXISTS idx_chyme_messages_user_id ON chyme_messages(user_id);
 
@@ -58,12 +102,40 @@ CREATE TABLE IF NOT EXISTS chyme_deletion_events (
   metadata JSONB NULL DEFAULT '{}'::jsonb
 );
 
+ALTER TABLE IF EXISTS chyme_deletion_events
+  ADD COLUMN IF NOT EXISTS service_name TEXT NULL,
+  ADD COLUMN IF NOT EXISTS requested_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  ADD COLUMN IF NOT EXISTS status TEXT NULL,
+  ADD COLUMN IF NOT EXISTS metadata JSONB NULL DEFAULT '{}'::jsonb;
+
 CREATE INDEX IF NOT EXISTS idx_chyme_deletion_events_user_scope ON chyme_deletion_events(user_id, scope, requested_at DESC);
 
-INSERT INTO chyme_rooms (room_key, room_name, call_active)
-VALUES ('chyme-main-room', 'Chyme Main Room', FALSE)
-ON CONFLICT (room_key) DO UPDATE
-SET room_name = EXCLUDED.room_name,
-    updated_at = NOW();
+DO $$
+BEGIN
+  IF EXISTS (
+    SELECT 1
+    FROM information_schema.columns
+    WHERE table_schema = 'public'
+      AND table_name = 'chyme_rooms'
+      AND column_name = 'room_key'
+  ) AND EXISTS (
+    SELECT 1
+    FROM information_schema.columns
+    WHERE table_schema = 'public'
+      AND table_name = 'chyme_rooms'
+      AND column_name = 'room_name'
+  ) THEN
+    BEGIN
+      INSERT INTO chyme_rooms (room_key, room_name, call_active)
+      VALUES ('chyme-main-room', 'Chyme Main Room', FALSE)
+      ON CONFLICT (room_key) DO UPDATE
+      SET room_name = EXCLUDED.room_name,
+          updated_at = NOW();
+    EXCEPTION WHEN OTHERS THEN
+      NULL;
+    END;
+  END IF;
+END
+$$;
 
 COMMIT;

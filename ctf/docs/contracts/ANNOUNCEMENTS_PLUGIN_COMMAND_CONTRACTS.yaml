@@ -26,7 +26,38 @@ contracts:
     dataAccess:
       - announcements
       - announcement_revisions
-      - announcement_targets
+      - announcement_delivery_events
+    purpose: broadcast_authoring
+    retentionClass: transactional_long_lived
+    idempotency: true
+
+  - pluginId: announcements
+    command: announcements.draft.update
+    version: 1.0.0
+    description: Update a draft announcement before publish.
+    inputSchema:
+      announcementId:
+        type: string
+        required: true
+      title:
+        type: string
+        required: true
+      body:
+        type: string
+        required: true
+      targeting:
+        type: object
+        required: false
+    outputSchema:
+      announcementId:
+        type: string
+      status:
+        type: string
+      updatedAt:
+        type: string
+    dataAccess:
+      - announcements
+      - announcement_revisions
     purpose: broadcast_authoring
     retentionClass: transactional_long_lived
     idempotency: true
@@ -42,9 +73,6 @@ contracts:
       publishAt:
         type: string
         required: false
-      idempotencyKey:
-        type: string
-        required: true
     outputSchema:
       announcementId:
         type: string
@@ -78,3 +106,95 @@ contracts:
     purpose: acknowledgement_tracking
     retentionClass: derived_short_lived
     idempotency: true
+
+  - pluginId: announcements
+    command: announcements.archive
+    version: 1.0.0
+    description: Archive a published announcement.
+    inputSchema:
+      announcementId:
+        type: string
+        required: true
+    outputSchema:
+      announcementId:
+        type: string
+      status:
+        type: string
+      archivedAt:
+        type: string
+    dataAccess:
+      - announcements
+      - announcement_delivery_events
+      - announcement_admin_audit_trail
+    purpose: broadcast_delivery
+    retentionClass: transactional_long_lived
+    idempotency: true
+
+  - pluginId: announcements
+    command: announcements.dismiss
+    version: 1.0.0
+    description: Dismiss a non-mandatory announcement for the current user.
+    inputSchema:
+      announcementId:
+        type: string
+        required: true
+    outputSchema:
+      announcementId:
+        type: string
+      dismissedAt:
+        type: string
+    dataAccess:
+      - announcement_user_state
+      - announcements
+    purpose: acknowledgement_tracking
+    retentionClass: derived_short_lived
+    idempotency: true
+
+  - pluginId: announcements
+    command: announcements.targeting.validate
+    version: 1.0.0
+    description: Validate announcement targeting constraints before publish.
+    inputSchema:
+      targeting:
+        type: object
+        required: true
+    outputSchema:
+      valid:
+        type: boolean
+      normalizedTargeting:
+        type: object
+    dataAccess:
+      - announcements
+    purpose: broadcast_governance
+    retentionClass: derived_short_lived
+    idempotency: true
+
+  - pluginId: announcements
+    command: announcements.membership.event.emit
+    version: 1.0.0
+    description: Emit membership events to recalculate audience visibility.
+    inputSchema:
+      userId:
+        type: string
+        required: true
+      pluginId:
+        type: string
+        required: true
+      eventType:
+        type: string
+        required: true
+      requestId:
+        type: string
+        required: false
+      traceId:
+        type: string
+        required: false
+    outputSchema:
+      streamEmitted:
+        type: boolean
+    dataAccess:
+      - announcement_membership_events
+      - announcement_delivery_events
+    purpose: broadcast_delivery
+    retentionClass: transactional_long_lived
+    idempotency: false

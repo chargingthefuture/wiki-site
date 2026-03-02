@@ -24,13 +24,38 @@ policies:
       - cross_workspace_access
 
   - pluginId: announcements
+    command: announcements.draft.update
+    version: 1.0.0
+    requiredRoles:
+      - admin
+    attributePolicies:
+      tenancy: same_workspace
+      draftStateRequired: true
+      targetingValidation: required
+    consentRequirements:
+      scopes:
+        - announcements_admin_authoring
+      fallbackLawfulBasis: legitimate_interest_safety_support
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - actor_not_admin
+      - announcement_not_draft
+      - invalid_targeting_constraints
+
+  - pluginId: announcements
     command: announcements.publish
     version: 1.0.0
     requiredRoles:
       - admin
     attributePolicies:
       tenancy: same_workspace
-      publishApproval: required
+      directAdminPublishAllowed: true
     consentRequirements:
       scopes:
         - announcements_admin_publish
@@ -44,7 +69,7 @@ policies:
       requiresAdditionalAudit: true
     denyConditions:
       - actor_not_admin
-      - missing_publish_approval
+      - announcement_not_found
       - cross_workspace_access
 
   - pluginId: announcements
@@ -69,3 +94,98 @@ policies:
     denyConditions:
       - actor_not_authenticated
       - cross_workspace_access
+
+  - pluginId: announcements
+    command: announcements.archive
+    version: 1.0.0
+    requiredRoles:
+      - admin
+    attributePolicies:
+      tenancy: same_workspace
+      directAdminArchiveAllowed: true
+    consentRequirements:
+      scopes:
+        - announcements_admin_publish
+      fallbackLawfulBasis: legitimate_interest_safety_support
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - actor_not_admin
+      - announcement_not_found
+
+  - pluginId: announcements
+    command: announcements.dismiss
+    version: 1.0.0
+    requiredRoles:
+      - member
+      - admin
+    attributePolicies:
+      tenancy: same_workspace
+      actorMustOwnReadState: true
+      mandatoryDismissGuard: required
+    consentRequirements:
+      scopes:
+        - announcements_consumption
+      fallbackLawfulBasis: legitimate_interest_safety_support
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: false
+    denyConditions:
+      - actor_not_authenticated
+      - target_announcement_mandatory
+
+  - pluginId: announcements
+    command: announcements.targeting.validate
+    version: 1.0.0
+    requiredRoles:
+      - admin
+    attributePolicies:
+      tenancy: same_workspace
+      targetingValidation: required
+    consentRequirements:
+      scopes:
+        - announcements_admin_authoring
+      fallbackLawfulBasis: legitimate_interest_safety_support
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - actor_not_admin
+      - invalid_targeting_constraints
+
+  - pluginId: announcements
+    command: announcements.membership.event.emit
+    version: 1.0.0
+    requiredRoles:
+      - admin
+    attributePolicies:
+      tenancy: same_workspace
+      eventPayloadValidation: required
+      membershipProjectionAudit: required
+    consentRequirements:
+      scopes:
+        - announcements_admin_publish
+      fallbackLawfulBasis: legitimate_interest_safety_support
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - actor_not_admin
+      - invalid_membership_event_payload

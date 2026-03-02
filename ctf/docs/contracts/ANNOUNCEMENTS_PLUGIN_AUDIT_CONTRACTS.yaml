@@ -29,6 +29,33 @@ auditEvents:
     timestamp: rfc3339
     actorId: principal
     pluginId: announcements
+    command: announcements.draft.update
+    commandVersion: 1.0.0
+    purpose: broadcast_authoring
+    policyDecision:
+      status: allow_or_deny
+      reason: policy_reason_code
+      evidence:
+        roleCheck: pass_or_fail
+        draftStateCheck: pass_or_fail
+        targetingValidationCheck: pass_or_fail
+    dataClassesAccessed:
+      - announcement_content_metadata
+      - announcement_targeting_metadata
+      - revision_metadata
+    targetContext:
+      workspaceId: workspace_identifier
+      announcementId: announcement_identifier
+    requestId: request_identifier
+    traceId: trace_identifier
+    result:
+      status: success_or_failure
+      errorCategory: none_or_error_class
+
+  - eventId: uuid
+    timestamp: rfc3339
+    actorId: principal
+    pluginId: announcements
     command: announcements.publish
     commandVersion: 1.0.0
     purpose: broadcast_delivery
@@ -37,7 +64,33 @@ auditEvents:
       reason: policy_reason_code
       evidence:
         roleCheck: pass_or_fail
-        publishApprovalCheck: pass_or_fail
+        directAdminPublishCheck: pass_or_fail
+        fanoutBudgetCheck: pass_or_fail
+    dataClassesAccessed:
+      - announcement_delivery_metadata
+      - audience_projection_metadata
+    targetContext:
+      workspaceId: workspace_identifier
+      announcementId: announcement_identifier
+    requestId: request_identifier
+    traceId: trace_identifier
+    result:
+      status: success_or_failure
+      errorCategory: none_or_error_class
+
+  - eventId: uuid
+    timestamp: rfc3339
+    actorId: principal
+    pluginId: announcements
+    command: announcements.archive
+    commandVersion: 1.0.0
+    purpose: broadcast_delivery
+    policyDecision:
+      status: allow_or_deny
+      reason: policy_reason_code
+      evidence:
+        roleCheck: pass_or_fail
+        directAdminArchiveCheck: pass_or_fail
         fanoutBudgetCheck: pass_or_fail
     dataClassesAccessed:
       - announcement_delivery_metadata
@@ -69,6 +122,80 @@ auditEvents:
     targetContext:
       workspaceId: workspace_identifier
       announcementId: announcement_identifier
+    requestId: request_identifier
+    traceId: trace_identifier
+    result:
+      status: success_or_failure
+      errorCategory: none_or_error_class
+
+  - eventId: uuid
+    timestamp: rfc3339
+    actorId: principal
+    pluginId: announcements
+    command: announcements.dismiss
+    commandVersion: 1.0.0
+    purpose: acknowledgement_tracking
+    policyDecision:
+      status: allow_or_deny
+      reason: policy_reason_code
+      evidence:
+        actorOwnershipCheck: pass_or_fail
+        mandatoryDismissGuardCheck: pass_or_fail
+    dataClassesAccessed:
+      - announcement_read_state_metadata
+    targetContext:
+      workspaceId: workspace_identifier
+      announcementId: announcement_identifier
+    requestId: request_identifier
+    traceId: trace_identifier
+    result:
+      status: success_or_failure
+      errorCategory: none_or_error_class
+
+  - eventId: uuid
+    timestamp: rfc3339
+    actorId: principal
+    pluginId: announcements
+    command: announcements.targeting.validate
+    commandVersion: 1.0.0
+    purpose: broadcast_governance
+    policyDecision:
+      status: allow_or_deny
+      reason: policy_reason_code
+      evidence:
+        roleCheck: pass_or_fail
+        targetingValidationCheck: pass_or_fail
+    dataClassesAccessed:
+      - announcement_targeting_metadata
+    targetContext:
+      workspaceId: workspace_identifier
+      validationRequestId: request_identifier
+    requestId: request_identifier
+    traceId: trace_identifier
+    result:
+      status: success_or_failure
+      errorCategory: none_or_error_class
+
+  - eventId: uuid
+    timestamp: rfc3339
+    actorId: principal
+    pluginId: announcements
+    command: announcements.membership.event.emit
+    commandVersion: 1.0.0
+    purpose: broadcast_delivery
+    policyDecision:
+      status: allow_or_deny
+      reason: policy_reason_code
+      evidence:
+        roleCheck: pass_or_fail
+        eventPayloadValidationCheck: pass_or_fail
+        fanoutBudgetCheck: pass_or_fail
+    dataClassesAccessed:
+      - announcement_membership_event_metadata
+      - audience_projection_metadata
+    targetContext:
+      workspaceId: workspace_identifier
+      membershipEventId: event_identifier
     requestId: request_identifier
     traceId: trace_identifier
     result:

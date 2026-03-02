@@ -20,26 +20,26 @@
 
 ## Phase 0 — Decision Lock and Ambiguity Resolution
 
-- [ ] Resolve all user-facing open decisions from inventory section A.
+- [x] Resolve all user-facing open decisions from inventory section A.
   - Acceptance criteria:
     - Each A-item in `ctf-directory-feature-inventory.md` has an explicit decision, owner, and date.
-- [ ] Resolve all admin open decisions from inventory section B.
+- [x] Resolve all admin open decisions from inventory section B.
   - Acceptance criteria:
     - Each B-item in `ctf-directory-feature-inventory.md` has an explicit decision, owner, and date.
 - [ ] Resolve migration-risk handling plan from inventory section C.
   - Acceptance criteria:
     - Each C-item has a mitigation strategy and verification gate.
-- [ ] Lock route ownership for announcements and admin APIs.
+- [x] Lock route ownership for announcements and admin APIs.
   - Acceptance criteria:
     - Directory announcement and admin routes have explicit module ownership.
     - No unresolved route ownership ambiguity remains.
 
 ## Phase 1 — Unified UI and Policy Boundary
 
-- [ ] Implement one unified Directory UI surface for user + admin workflows.
+- [x] Implement one unified Directory UI surface for user + admin workflows.
   - Acceptance criteria:
     - Shared page/surface supports user flows and role-gated admin controls.
-- [ ] Ensure frontend admin hiding is UX-only.
+- [x] Ensure frontend admin hiding is UX-only.
   - Acceptance criteria:
     - Security posture does not rely on client visibility checks.
     - Server policy checks remain authoritative.
@@ -49,15 +49,15 @@
 
 ## Phase 2 — API and Backend Policy Gates
 
-- [ ] Enforce server-side authz on every admin endpoint.
+- [x] Enforce server-side authz on every admin endpoint.
   - Acceptance criteria:
     - Unauthorized admin API attempts return deny outcomes.
     - Deny outcomes are covered by manual validation walkthroughs.
-- [ ] Enforce CSRF protection on every admin write endpoint.
+- [x] Enforce CSRF protection on every admin write endpoint.
   - Acceptance criteria:
     - Missing/invalid CSRF tokens are rejected for admin writes.
     - CSRF failure paths are covered by manual validation walkthroughs.
-- [ ] Enforce claimed/unclaimed guardrails.
+- [x] Enforce claimed/unclaimed guardrails.
   - Acceptance criteria:
     - Unclaimed-only delete behavior is preserved.
     - Assignment transition constraints are validated server-side.
@@ -68,7 +68,7 @@
 
 ## Phase 3 — Privacy and Anti-Scraping Controls
 
-- [ ] Validate public projection privacy contract.
+- [x] Validate public projection privacy contract.
   - Acceptance criteria:
     - Public list/detail responses expose only approved privacy-minimized fields.
     - Non-public profiles remain inaccessible via public detail routes.
@@ -133,3 +133,4 @@
 ## Change Log
 
 - 2026-02-25: Created initial Directory rewrite checklist with unified UI scope, backend policy gates, open-decision resolution requirements, security/privacy validation gates, schema/seed consistency checks, and required Android admin parity in v1.
+- 2026-03-02: Prompt 02 phase-0 backend/UI implementation completed for key decision-lock and API/policy checklist items (remaining parity/release gates tracked separately).
