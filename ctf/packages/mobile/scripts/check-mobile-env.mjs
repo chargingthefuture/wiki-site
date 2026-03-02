@@ -25,12 +25,44 @@ function requireVar(key) {
   }
 }
 
+function parseUrl(value) {
+  if (!value) {
+    return null;
+  }
+
+  try {
+    return new URL(value);
+  } catch {
+    return null;
+  }
+}
+
 requireOneOf('mobile project id', ['EXPO_MOBILE_PROJECT_ID', 'MOBILE_PROJECT_ID']);
 requireOneOf('mobile updates url', ['EXPO_MOBILE_UPDATES_URL', 'MOBILE_UPDATES_URL']);
 requireVar('MOBILE_APP_URL');
 
+const mobileAppUrl = process.env.MOBILE_APP_URL;
+const parsedMobileAppUrl = parseUrl(mobileAppUrl);
+
+if (!parsedMobileAppUrl) {
+  console.error(`Invalid MOBILE_APP_URL format: ${mobileAppUrl}`);
+  process.exitCode = 1;
+} else {
+  if (parsedMobileAppUrl.protocol !== 'https:') {
+    console.error(`MOBILE_APP_URL must use https. Received: ${mobileAppUrl}`);
+    process.exitCode = 1;
+  }
+
+  const appHost = parsedMobileAppUrl.hostname.toLowerCase();
+  if (appHost === 'localhost' || appHost === '127.0.0.1') {
+    console.error(`MOBILE_APP_URL cannot use localhost for cloud mobile builds. Received host: ${parsedMobileAppUrl.hostname}`);
+    process.exitCode = 1;
+  }
+}
+
 if (profile === 'production') {
   requireVar('MOBILE_CLERK_PUBLISHABLE_KEY_PRODUCTION');
+  requireVar('EXPO_OWNER');
 } else {
   requireVar('MOBILE_CLERK_PUBLISHABLE_KEY_STAGING');
 }

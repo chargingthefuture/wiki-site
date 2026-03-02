@@ -249,6 +249,50 @@ The rewrite baseline sequence is now in place across identity, Railway runtime, 
 - Required mobile GitHub `vars`/`secrets` must be configured for each target profile.
 - EAS ownership (`EXPO_OWNER`) and `EXPO_TOKEN` must match target Expo project.
 
+### BF-04 v2 Delta (2026-03-02)
+
+#### What was incomplete
+- Expo workflows still allowed skip-on-missing-token behavior.
+- Expo workflows were not explicitly bound to rewrite-scoped GitHub Environments.
+- Mobile env preflight did not enforce strict deploy-host URL rules or production owner requirement.
+
+#### What is now closed
+- Expo preview/update/release workflows now fail-fast when `EXPO_TOKEN` is missing.
+- Expo workflows now target rewrite mobile environments (`rewrite-mobile-preview`, `rewrite-mobile-staging`, `rewrite-mobile-production`).
+- Mobile env preflight now enforces HTTPS/non-localhost `MOBILE_APP_URL` and requires `EXPO_OWNER` for production profile checks.
+
+#### Clarifying questions asked and answers received
+1. Scope path for changes?
+   - Answer: allow `.github/` edits.
+2. Missing-token workflow policy?
+   - Answer: fail-fast.
+3. Rewrite environment targeting?
+   - Answer: yes, target rewrite mobile environments.
+4. Validation depth?
+   - Answer: run existing checks only.
+
+#### Changed files (BF-04 v2)
+- `ctf/packages/mobile/scripts/check-mobile-env.mjs`
+- `.github/workflows/expo-preview.yml`
+- `.github/workflows/expo-update.yml`
+- `.github/workflows/expo-android-release.yml`
+- `ctf/docs/mobile/EXPO_CLOUD_WORKFLOW.md`
+- `ctf/docs/developer/EXPO_BASELINE_BF04.md`
+- `ctf/docs/developer/BASELINE_HANDOFF_BF01_BF04.md`
+
+#### Updated validation evidence
+- `pnpm --filter @ctf/mobile run check:mobile-env` passed for simulated `preview` and `production`.
+- `pnpm --filter @ctf/mobile run lint` passed.
+- `pnpm --filter @ctf/mobile run typecheck` passed.
+- `pnpm --filter @ctf/mobile run build` passed.
+
+#### Remaining blockers
+- Expo ownership/token alignment and deployed mobile endpoint reachability remain external configuration tasks.
+- Owner/date: Platform Ops — 2026-03-09.
+
+#### Completion recommendation
+- **complete**
+
 ---
 
 ## Environment and Secret Isolation Guidance

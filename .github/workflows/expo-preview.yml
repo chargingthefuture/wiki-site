@@ -22,42 +22,30 @@ jobs:
   expo-preview-android:
     name: Expo Preview Android
     runs-on: ubuntu-latest
+    environment: rewrite-mobile-preview
     defaults:
       run:
         working-directory: ctf
     steps:
-      - name: Check EXPO_TOKEN presence
-        id: expo_token
+      - name: Validate EXPO_TOKEN presence
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
         run: |
           set -euo pipefail
-          if [ -n "$EXPO_TOKEN" ]; then
-            echo "has_token=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "has_token=false" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Explain skip
-        if: ${{ steps.expo_token.outputs.has_token == 'false' }}
-        run: echo "EXPO_TOKEN secret is not configured. Expo preview build was skipped."
+          [ -n "$EXPO_TOKEN" ] || { echo "Missing EXPO_TOKEN"; exit 1; }
 
       - name: Checkout
-        if: ${{ steps.expo_token.outputs.has_token == 'true' }}
         uses: actions/checkout@v4
 
       - name: Setup Node
-        if: ${{ steps.expo_token.outputs.has_token == 'true' }}
         uses: actions/setup-node@v4
         with:
           node-version: "22"
 
       - name: Enable Corepack
-        if: ${{ steps.expo_token.outputs.has_token == 'true' }}
         run: corepack enable
 
       - name: Install workspace dependencies
-        if: ${{ steps.expo_token.outputs.has_token == 'true' }}
         run: |
           set -euo pipefail
           if [ -f pnpm-lock.yaml ]; then
@@ -67,14 +55,12 @@ jobs:
           fi
 
       - name: Validate mobile Expo config exists
-        if: ${{ steps.expo_token.outputs.has_token == 'true' }}
         run: |
           set -euo pipefail
           test -f packages/mobile/eas.json
           test -f packages/mobile/app.config.ts
 
       - name: Resolve profile and channel from branch
-        if: ${{ steps.expo_token.outputs.has_token == 'true' }}
         id: target
         run: |
           set -euo pipefail
@@ -96,7 +82,6 @@ jobs:
           echo "channel=$channel" >> "$GITHUB_OUTPUT"
 
       - name: Validate mobile env contract
-        if: ${{ steps.expo_token.outputs.has_token == 'true' }}
         env:
           MOBILE_ENV_TARGET: ${{ steps.target.outputs.profile }}
           EXPO_MOBILE_PROJECT_ID: ${{ vars.EXPO_MOBILE_PROJECT_ID }}
@@ -104,6 +89,7 @@ jobs:
           EXPO_MOBILE_UPDATES_URL: ${{ vars.EXPO_MOBILE_UPDATES_URL }}
           MOBILE_UPDATES_URL: ${{ vars.MOBILE_UPDATES_URL }}
           MOBILE_APP_URL: ${{ vars.MOBILE_APP_URL }}
+          EXPO_OWNER: ${{ vars.EXPO_OWNER }}
           MOBILE_CLERK_PUBLISHABLE_KEY_STAGING: ${{ secrets.MOBILE_CLERK_PUBLISHABLE_KEY_STAGING }}
           MOBILE_CLERK_PUBLISHABLE_KEY_PRODUCTION: ${{ secrets.MOBILE_CLERK_PUBLISHABLE_KEY_PRODUCTION }}
         run: |
@@ -112,11 +98,9 @@ jobs:
           pnpm run check:mobile-env
 
       - name: Setup Expo and EAS
-        if: ${{ steps.expo_token.outputs.has_token == 'true' }}
         run: pnpm dlx eas-cli@latest --version
 
       - name: Trigger Android build
-        if: ${{ steps.expo_token.outputs.has_token == 'true' }}
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
         run: |
@@ -125,7 +109,6 @@ jobs:
           pnpm dlx eas-cli@latest build --platform android --profile "${{ steps.target.outputs.profile }}" --non-interactive --wait --json > ../../android-preview-build.json
 
       - name: Resolve build metadata
-        if: ${{ steps.expo_token.outputs.has_token == 'true' }}
         id: buildmeta
         run: |
           set -euo pipefail
@@ -138,7 +121,7 @@ jobs:
           echo "build_id=$BUILD_ID" >> "$GITHUB_OUTPUT"
 
       - name: Comment preview build link on pull request
-        if: ${{ steps.expo_token.outputs.has_token == 'true' && github.event_name == 'pull_request' }}
+        if: ${{ github.event_name == 'pull_request' }}
         uses: actions/github-script@v7
         env:
           BUILD_URL: ${{ steps.buildmeta.outputs.build_url }}

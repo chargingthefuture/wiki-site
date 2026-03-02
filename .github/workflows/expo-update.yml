@@ -19,44 +19,32 @@ jobs:
   expo-eas-update:
     name: Expo EAS Update
     runs-on: ubuntu-latest
+    environment: ${{ github.ref_name == 'main' && 'rewrite-mobile-production' || ((github.ref_name == 'staging' || github.ref_name == 'release/staging') && 'rewrite-mobile-staging') || 'rewrite-mobile-preview' }}
     defaults:
       run:
         working-directory: ctf
     steps:
-      - name: Check EXPO_TOKEN presence
-        id: expo_token
+      - name: Validate EXPO_TOKEN presence
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
         run: |
           set -euo pipefail
-          if [ -n "$EXPO_TOKEN" ]; then
-            echo "has_token=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "has_token=false" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Explain skip
-        if: ${{ steps.expo_token.outputs.has_token == 'false' }}
-        run: echo "EXPO_TOKEN secret is not configured. Expo update was skipped."
+          [ -n "$EXPO_TOKEN" ] || { echo "Missing EXPO_TOKEN"; exit 1; }
 
       - name: Checkout
-        if: ${{ steps.expo_token.outputs.has_token == 'true' }}
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: Setup Node
-        if: ${{ steps.expo_token.outputs.has_token == 'true' }}
         uses: actions/setup-node@v4
         with:
           node-version: "22"
 
       - name: Enable Corepack
-        if: ${{ steps.expo_token.outputs.has_token == 'true' }}
         run: corepack enable
 
       - name: Install workspace dependencies
-        if: ${{ steps.expo_token.outputs.has_token == 'true' }}
         run: |
           set -euo pipefail
           if [ -f pnpm-lock.yaml ]; then
@@ -66,7 +54,6 @@ jobs:
           fi
 
       - name: Resolve EAS update channel from branch
-        if: ${{ steps.expo_token.outputs.has_token == 'true' }}
         id: target
         run: |
           set -euo pipefail
@@ -83,7 +70,6 @@ jobs:
           echo "channel=$channel" >> "$GITHUB_OUTPUT"
 
       - name: Validate mobile env contract
-        if: ${{ steps.expo_token.outputs.has_token == 'true' }}
         env:
           MOBILE_ENV_TARGET: ${{ steps.target.outputs.channel }}
           EXPO_MOBILE_PROJECT_ID: ${{ vars.EXPO_MOBILE_PROJECT_ID }}
@@ -91,6 +77,7 @@ jobs:
           EXPO_MOBILE_UPDATES_URL: ${{ vars.EXPO_MOBILE_UPDATES_URL }}
           MOBILE_UPDATES_URL: ${{ vars.MOBILE_UPDATES_URL }}
           MOBILE_APP_URL: ${{ vars.MOBILE_APP_URL }}
+          EXPO_OWNER: ${{ vars.EXPO_OWNER }}
           MOBILE_CLERK_PUBLISHABLE_KEY_STAGING: ${{ secrets.MOBILE_CLERK_PUBLISHABLE_KEY_STAGING }}
           MOBILE_CLERK_PUBLISHABLE_KEY_PRODUCTION: ${{ secrets.MOBILE_CLERK_PUBLISHABLE_KEY_PRODUCTION }}
         run: |
@@ -99,7 +86,6 @@ jobs:
           pnpm run check:mobile-env
 
       - name: Detect native-affecting mobile changes
-        if: ${{ steps.expo_token.outputs.has_token == 'true' }}
         id: native_changes
         run: |
           set -euo pipefail
@@ -121,7 +107,7 @@ jobs:
           echo "native_changed=$native_changed" >> "$GITHUB_OUTPUT"
 
       - name: Publish EAS update
-        if: ${{ steps.expo_token.outputs.has_token == 'true' && steps.native_changes.outputs.native_changed != 'true' }}
+        if: ${{ steps.native_changes.outputs.native_changed != 'true' }}
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
         run: |
@@ -130,7 +116,7 @@ jobs:
           pnpm dlx eas-cli@latest update --branch "${{ steps.target.outputs.channel }}" --message "CI update from ${GITHUB_SHA} (${GITHUB_REF_NAME})"
 
       - name: Skip EAS update due to native changes
-        if: ${{ steps.expo_token.outputs.has_token == 'true' && steps.native_changes.outputs.native_changed == 'true' }}
+        if: ${{ steps.native_changes.outputs.native_changed == 'true' }}
         run: |
           echo "Native-affecting files changed. Skipping EAS Update."
           echo "Use EAS Build for this change set."

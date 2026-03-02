@@ -64,3 +64,50 @@ Scope: Expo/EAS Android deployment baseline for `ctf/packages/mobile`
 1. GitHub repo/environment variables and secrets must be populated for all profiles.
 2. Expo project ownership (`EXPO_OWNER`) must match the EAS project used by `EXPO_TOKEN`.
 3. Mobile app base URL must point to reachable deployed host for chosen environment.
+
+## BF-04 v2 Resolution Addendum (2026-03-02)
+
+### What was incomplete
+1. Expo workflows allowed skip-on-missing-token behavior, which masked deployment readiness failures.
+2. Expo workflows did not target rewrite-scoped GitHub Environments for preview/staging/production isolation.
+3. Mobile env preflight lacked strict deploy-host validation and production owner requirement.
+
+### What is now closed
+1. Expo preview/update/release workflows now fail fast when `EXPO_TOKEN` is missing.
+2. Expo workflows now target rewrite-scoped environments:
+   - `rewrite-mobile-preview`
+   - `rewrite-mobile-staging`
+   - `rewrite-mobile-production`
+3. `check:mobile-env` now enforces:
+   - `MOBILE_APP_URL` must be valid HTTPS and non-localhost
+   - `EXPO_OWNER` required for production profile validation
+
+### Clarifying questions and answers used for v2 closure
+1. Scope path for changes:
+   - Answer: allow `.github/` edits.
+2. Missing-token behavior:
+   - Answer: fail-fast on missing token.
+3. Workflow environment targeting:
+   - Answer: use rewrite mobile environments.
+4. Validation depth:
+   - Answer: run existing checks only.
+
+### Updated validation evidence for v2
+- `pnpm --filter @ctf/mobile run check:mobile-env` passed for simulated `preview`.
+- `pnpm --filter @ctf/mobile run check:mobile-env` passed for simulated `production`.
+- `pnpm --filter @ctf/mobile run lint` passed.
+- `pnpm --filter @ctf/mobile run typecheck` passed.
+- `pnpm --filter @ctf/mobile run build` passed.
+
+### Remaining blockers / risks
+1. EAS project/account ownership and token authorization remain external configuration.
+   - Owner: Platform Ops
+   - Target date: 2026-03-09
+   - Next action: verify `EXPO_OWNER`, project ownership, and token scope alignment in Expo dashboard.
+2. Mobile endpoint reachability remains external runtime validation.
+   - Owner: Platform Ops
+   - Target date: 2026-03-09
+   - Next action: confirm deployed `MOBILE_APP_URL` target responds for mobile auth and core API routes.
+
+### Completion recommendation
+- **complete**
