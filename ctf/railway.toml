@@ -1,6 +1,6 @@
 [build]
 # Single deploy entry point for Railway service rooted at ctf/packages/web.
-buildCommand = "NODE_OPTIONS=--max-old-space-size=4096 npm run build"
+buildCommand = "cd ../.. && corepack enable && corepack prepare pnpm@9.12.0 --activate && NODE_OPTIONS=--max-old-space-size=6144 corepack pnpm install --frozen-lockfile --prod=false --filter @ctf/web... && NODE_OPTIONS=--max-old-space-size=6144 corepack pnpm --filter @ctf/web build"
 
 [deploy]
-startCommand = "npm run check:clerk-env && npm run start"
+startCommand = "cd ../.. && corepack enable && corepack prepare pnpm@9.12.0 --activate && corepack pnpm --filter @ctf/web run check:clerk-env && corepack pnpm --filter @ctf/web start"

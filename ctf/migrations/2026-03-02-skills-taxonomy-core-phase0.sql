@@ -9,8 +9,7 @@ CREATE TABLE IF NOT EXISTS skills_taxonomy_sectors (
   workforce_share NUMERIC(6,3) NULL,
   is_active BOOLEAN NOT NULL DEFAULT TRUE,
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-  UNIQUE (lower(name))
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
 CREATE TABLE IF NOT EXISTS skills_taxonomy_job_titles (
@@ -20,8 +19,7 @@ CREATE TABLE IF NOT EXISTS skills_taxonomy_job_titles (
   display_order INTEGER NOT NULL DEFAULT 0,
   is_active BOOLEAN NOT NULL DEFAULT TRUE,
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-  UNIQUE (sector_id, lower(name))
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
 CREATE TABLE IF NOT EXISTS skills_taxonomy_skills (
@@ -32,8 +30,7 @@ CREATE TABLE IF NOT EXISTS skills_taxonomy_skills (
   aliases JSONB NOT NULL DEFAULT '[]'::jsonb,
   is_active BOOLEAN NOT NULL DEFAULT TRUE,
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-  UNIQUE (job_title_id, lower(name))
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
 CREATE TABLE IF NOT EXISTS skills_taxonomy_consumer_bindings (
@@ -100,6 +97,9 @@ CREATE INDEX IF NOT EXISTS idx_skills_taxonomy_job_titles_sector ON skills_taxon
 CREATE INDEX IF NOT EXISTS idx_skills_taxonomy_skills_job_title ON skills_taxonomy_skills(job_title_id);
 CREATE INDEX IF NOT EXISTS idx_skills_taxonomy_consumer_bindings_target ON skills_taxonomy_consumer_bindings(target_type, target_id);
 CREATE INDEX IF NOT EXISTS idx_skills_taxonomy_change_events_target ON skills_taxonomy_change_events(target_type, target_id, created_at DESC);
+CREATE UNIQUE INDEX IF NOT EXISTS uq_skills_taxonomy_sectors_name_ci ON skills_taxonomy_sectors (lower(name));
+CREATE UNIQUE INDEX IF NOT EXISTS uq_skills_taxonomy_job_titles_sector_name_ci ON skills_taxonomy_job_titles (sector_id, lower(name));
+CREATE UNIQUE INDEX IF NOT EXISTS uq_skills_taxonomy_skills_job_title_name_ci ON skills_taxonomy_skills (job_title_id, lower(name));
 
 CREATE OR REPLACE VIEW skills_taxonomy_flattened_projection AS
 SELECT

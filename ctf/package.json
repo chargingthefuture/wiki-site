@@ -7,10 +7,17 @@
     "lint": "pnpm -r --if-present run lint",
     "typecheck": "pnpm -r --if-present run typecheck",
     "test": "pnpm -r --if-present run test",
+    "seed:skills-taxonomy": "node ./scripts/seedSkillsTaxonomyPhase0.mjs",
+    "sync:skills-taxonomy:legacy": "node ./scripts/syncSkillsTaxonomyFromPlatform.mjs --mode=sync",
+    "migrate:file": "node ./scripts/runMigrationFile.mjs",
+    "migrate:skills-taxonomy:phase0": "node ./scripts/runMigrationFile.mjs --file=./migrations/2026-03-02-skills-taxonomy-core-phase0.sql",
     "format:check": "bash ./scripts/check-eof-format.sh",
     "governance:check": "bash ./scripts/check-modularity-governance.sh",
     "dev:web": "pnpm --filter @ctf/web run dev",
     "dev:mobile": "pnpm --filter @ctf/mobile run start"
+  },
+  "dependencies": {
+    "pg": "^8.16.3"
   },
   "devDependencies": {
     "@types/node": "^22.13.5",

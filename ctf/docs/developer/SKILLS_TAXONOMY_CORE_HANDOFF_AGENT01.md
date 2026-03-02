@@ -41,12 +41,16 @@ Scope: `ctf/` only (web/API + migration + safeguards + seed; Android parity defe
    - mutation CSRF protection (`x-ctf-csrf: 1` + same-origin host check when origin metadata is present),
    - structured audit logging for read/mutation/dependency commands.
 7. Added deterministic seed fixtures:
-   - `ctf/scripts/seedSkillsTaxonomyPhase0.mjs`.
+   - `ctf/scripts/seedSkillsTaxonomyPhase0.mjs` now performs one-time backfill from legacy source data.
+   - `ctf/scripts/syncSkillsTaxonomyFromPlatform.mjs` performs repeat incremental sync from legacy source data.
 
 ## Changed files
 
 - `ctf/migrations/2026-03-02-skills-taxonomy-core-phase0.sql`
 - `ctf/scripts/seedSkillsTaxonomyPhase0.mjs`
+- `ctf/scripts/syncSkillsTaxonomyFromPlatform.mjs`
+- `ctf/scripts/lib/loadLegacySkillsData.mjs`
+- `ctf/scripts/lib/syncSkillsTaxonomyFromLegacy.mjs`
 - `ctf/packages/web/src/lib/skills-taxonomy/constants.ts`
 - `ctf/packages/web/src/lib/skills-taxonomy/types.ts`
 - `ctf/packages/web/src/lib/skills-taxonomy/audit.ts`
@@ -80,6 +84,7 @@ Scope: `ctf/` only (web/API + migration + safeguards + seed; Android parity defe
 1. `GET /api/skills-taxonomy/hierarchy` and `GET /api/skills-taxonomy/flattened` are stable read-model entry points for consumers.
 2. Flattened projection includes canonical cross-level IDs (`sectorId`, `jobTitleId`, `skillId`) for deterministic selector integration.
 3. Delete safeguards now enforce strict internal dependency checks and known binding count checks; consumers should register binding references in `skills_taxonomy_consumer_bindings` before enabling destructive admin flows.
+4. Canonical source ingestion for Option B is now mapped from `platform/scripts/data/skills-data.ts` into plugin-owned tables under `ctf/`.
 
 ## Open gaps / debt with owner recommendation
 

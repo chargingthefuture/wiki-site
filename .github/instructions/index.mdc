@@ -60,4 +60,5 @@ If two rules conflict, choose the stricter rule and document the decision.
 - Implement capabilities as plugin commands/actions that execute through policy-controlled interfaces.
 - Keep web and mobile behavior parity through shared contracts and shared compliance controls.
 - Refer to chat functionality by plugin context (for example, Chyme chat), not as a standalone generic product surface.
+- Preserve existing user data during rewrite cutover: when applicable legacy Postgres tables exist, use migration/backfill/sync strategies instead of reset-only seeding so returning users do not lose data.
 - Block release when architecture, quality, or compliance rules are unmet.

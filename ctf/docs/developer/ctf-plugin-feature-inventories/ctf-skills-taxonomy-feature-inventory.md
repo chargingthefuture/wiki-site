@@ -140,8 +140,9 @@ Seed script requirement: Provide a deterministic plugin seed script with dummy d
 
 Current status:
 
-- Deterministic seed script is implemented at `ctf/scripts/seedSkillsTaxonomyPhase0.mjs`.
-- Seed fixtures include reproducible sectors/job titles/skills and one dependency binding record for delete-safeguard validation.
+- Deterministic backfill script is implemented at `ctf/scripts/seedSkillsTaxonomyPhase0.mjs` and imports canonical legacy source data.
+- Incremental sync script is implemented at `ctf/scripts/syncSkillsTaxonomyFromPlatform.mjs` for repeat updates from the same legacy source.
+- Legacy source loader/sync engine lives under `ctf/scripts/lib/` and reads `platform/scripts/data/skills-data.ts` without modifying legacy files.
 
 ## 9) Open Decisions
 
@@ -156,3 +157,4 @@ Current status:
 - 2026-02-25: Removed legacy reference pointers from rewrite scope document to keep the plugin rewrite plan standalone.
 - 2026-02-25: Folded legacy Skills Database Admin scope into this single `Skills Taxonomy` plugin inventory (taxonomy service + admin UI combined), including legacy hierarchy/admin read patterns and operator safety expectations.
 - 2026-03-02: Delivered Phase-0 web/API baseline (migration + hierarchy/flattened routes + admin CRUD + dependency preview + delete safeguards + audit + CSRF + deterministic seed), and recorded deferred web-admin UI/Android parity owners with target milestones.
+- 2026-03-02: Added Option B legacy-data migration path (one-time backfill + incremental sync) from `platform/scripts/data/skills-data.ts` into plugin-owned taxonomy tables.
