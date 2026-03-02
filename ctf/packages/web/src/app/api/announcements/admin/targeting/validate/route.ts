@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { ensureMutationCsrf, requireFeedAdminAccess } from '../../../../../feed/_lib';
+import { ensureMutationCsrf, requireFeedAdminAccess } from '../../../../feed/_lib';
 import { FEED_ERROR_CODE } from '@/src/lib/feed/constants';
 import { validateAnnouncementTargeting } from '@/src/lib/feed/repository';
 

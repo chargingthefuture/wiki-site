@@ -93,7 +93,7 @@ Status legend:
 | `agent-00-chyme-core`               | Phase 0   | Done        | 2026-03-02 |       |           | Yes              |
 | `agent-01-taxonomy-core`            | Phase 0   | Done        | 2026-03-02 |       |           | Yes              |
 | `agent-02-directory-core`           | Phase 0   | Done        | 2026-03-02 |       |           | Yes              |
-| `agent-03-feed-announcements`       | Phase 0   | Not started |            |       |           | No               |
+| `agent-03-feed-announcements`       | Phase 0   | Done        | 2026-03-02 |       |           | Yes              |
 | `agent-04-workforce`                | Phase 1   | Not started |            |       |           | No               |
 | `agent-05-skills-hunt`              | Phase 1   | Not started |            |       |           | No               |
 | `agent-06-foundation`               | Phase 1   | Not started |            |       |           | No               |

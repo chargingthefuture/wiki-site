@@ -9,6 +9,7 @@
     "test": "pnpm -r --if-present run test",
     "seed:skills-taxonomy": "node ./scripts/seedSkillsTaxonomyPhase0.mjs",
     "seed:directory": "node ./scripts/seedDirectoryPhase0.mjs",
+    "seed:feed-announcements": "node ./scripts/seedFeedAnnouncementsPhase0.mjs",
     "sync:skills-taxonomy:legacy": "node ./scripts/syncSkillsTaxonomyFromPlatform.mjs --mode=sync",
     "migrate:file": "node ./scripts/runMigrationFile.mjs",
     "migrate:all": "node ./scripts/runAllMigrations.mjs",

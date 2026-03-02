@@ -13,10 +13,12 @@ type MembershipBody = {
 };
 
 function parseMembershipBody(body: MembershipBody) {
+  const eventType: MembershipEventType = body.eventType === 'leave' ? 'leave' : 'join';
+
   return {
     userId: typeof body.userId === 'string' ? body.userId.trim() : '',
     pluginId: typeof body.pluginId === 'string' ? body.pluginId.trim() : '',
-    eventType: body.eventType === 'leave' ? 'leave' : 'join',
+    eventType,
     requestId: typeof body.requestId === 'string' ? body.requestId : null,
     traceId: typeof body.traceId === 'string' ? body.traceId : null,
   };
