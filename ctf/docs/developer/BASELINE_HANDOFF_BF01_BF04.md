@@ -108,6 +108,48 @@ The rewrite baseline sequence is now in place across identity, Railway runtime, 
 - DNS/redirect consistency for active Railway domain.
 - Clerk dashboard domain/redirect settings must exactly match deployed host.
 
+### BF-02 v2 Delta (2026-03-02)
+
+#### What was incomplete
+- Railway build install path was not lockfile-deterministic (`--no-frozen-lockfile`).
+- Railway deploy workflow lacked explicit staging/production environment targeting and pre-deploy build proof.
+- Clerk env preflight diagnostics lacked explicit target-source output and strict Railway deploy-host constraints.
+
+#### What is now closed
+- Railway build install path is lockfile-deterministic with `--frozen-lockfile`.
+- Railway deploy workflow now selects explicit environments and runs web build pre-deploy.
+- Clerk env checker now logs target source and enforces HTTPS + non-localhost app URL constraints for Railway targets.
+
+#### Clarifying questions asked and answers received
+1. Scope path for changes?
+   - Answer: allow `.github/` edits.
+2. Production deploy gate behavior now?
+   - Answer: keep automatic deploy from `main`.
+3. External blocker owner/date default?
+   - Answer: Platform Ops — 2026-03-09.
+4. Validation depth?
+   - Answer: run existing checks only.
+
+#### Changed files (BF-02 v2)
+- `ctf/railway.toml`
+- `ctf/packages/web/scripts/check-clerk-env.mjs`
+- `.github/workflows/deploy-backend-railway.yml`
+- `ctf/docs/developer/RAILWAY_BASELINE_BF02.md`
+- `ctf/docs/developer/BASELINE_HANDOFF_BF01_BF04.md`
+
+#### Updated validation evidence
+- `pnpm --filter @ctf/web run check:clerk-env` passed for simulated `railway-staging`.
+- `pnpm --filter @ctf/web run check:clerk-env` passed for simulated `railway-production`.
+- `pnpm --filter @ctf/web run lint` passed.
+- `pnpm --filter @ctf/web run build` passed.
+
+#### Remaining blockers
+- DNS and Clerk dashboard host alignment remain external configuration tasks.
+- Owner/date: Platform Ops — 2026-03-09.
+
+#### Completion recommendation
+- **complete**
+
 ---
 
 ## BF-03 Vercel Integration
@@ -203,6 +245,5 @@ Given legacy production is still live, do **not** mix rewrite deployment secrets
 
 ## Open Cross-Baseline Decisions
 
-1. Final naming convention preference for production Clerk key variables (`RAILWAY_PROD_*` vs unprefixed).
-2. Final host canonicalization policy (`apex` only vs supporting `www`) across Railway + Clerk + redirects.
-3. Timeline for promotion from rewrite staging to rewrite production and eventual legacy cutover.
+1. Final host canonicalization policy (`apex` only vs supporting `www`) across Railway + Clerk + redirects.
+2. Timeline for promotion from rewrite staging to rewrite production and eventual legacy cutover.

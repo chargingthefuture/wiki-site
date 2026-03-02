@@ -86,8 +86,8 @@ Status legend:
 | `agent-bf-02-railway-baseline`      | Phase -1B | Done        | 2026-03-01 |       |           | Yes              |
 | `agent-bf-03-vercel-integration`    | Phase -1C | Done        | 2026-03-01 |       |           | Yes              |
 | `agent-bf-04-expo-baseline`         | Phase -1D | Done        | 2026-03-01 |       |           | Yes              |
-| `agent-bf-01-clerk-foundation-v2`   | Phase -1E | Not started |            |       |           | No               |
-| `agent-bf-02-railway-baseline-v2`   | Phase -1F | Not started |            |       |           | No               |
+| `agent-bf-01-clerk-foundation-v2`   | Phase -1E | Done        | 2026-03-02 |       |           | Yes              |
+| `agent-bf-02-railway-baseline-v2`   | Phase -1F | Done        | 2026-03-02 |       |           | Yes              |
 | `agent-bf-03-vercel-integration-v2` | Phase -1G | Not started |            |       |           | No               |
 | `agent-bf-04-expo-baseline-v2`      | Phase -1H | Not started |            |       |           | No               |
 | `agent-00-chyme-core`               | Phase 0   | Not started |            |       |           | No               |

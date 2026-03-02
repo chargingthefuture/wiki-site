@@ -30,7 +30,10 @@ function inferVercelTarget() {
   return 'vercel-staging';
 }
 
-const ENV_TARGET = process.env.CLERK_ENV_TARGET || inferRailwayTarget() || inferVercelTarget();
+const inferredRailwayTarget = inferRailwayTarget();
+const inferredVercelTarget = inferVercelTarget();
+
+const ENV_TARGET = process.env.CLERK_ENV_TARGET || inferredRailwayTarget || inferredVercelTarget;
 
 const targetDefinitions = {
   'railway-staging': [
@@ -68,6 +71,16 @@ if (!ENV_TARGET || !(ENV_TARGET in targetDefinitions)) {
   );
   process.exit(1);
 }
+
+const targetSource = process.env.CLERK_ENV_TARGET
+  ? 'CLERK_ENV_TARGET'
+  : inferredRailwayTarget
+    ? 'Railway environment metadata'
+    : inferredVercelTarget
+      ? 'Vercel environment metadata'
+      : 'unknown';
+
+console.log(`Clerk env target resolved to: ${ENV_TARGET} (source: ${targetSource})`);
 
 const requiredKeys = targetDefinitions[ENV_TARGET];
 const missingGroups = requiredKeys.filter((group) => {
@@ -123,6 +136,24 @@ const parsedAppUrl = parseUrl(appUrl);
 if (appUrl && !parsedAppUrl) {
   console.error(`Invalid app URL format: ${appUrl}`);
   process.exit(1);
+}
+
+const isRailwayTarget = ENV_TARGET === 'railway-staging' || ENV_TARGET === 'railway-production';
+
+if (parsedAppUrl && parsedAppUrl.protocol !== 'https:') {
+  console.error(`App URL must use https for deploy targets. Received: ${appUrl}`);
+  process.exit(1);
+}
+
+if (isRailwayTarget && parsedAppUrl) {
+  const appHost = parsedAppUrl.hostname.toLowerCase();
+
+  if (appHost === 'localhost' || appHost === '127.0.0.1') {
+    console.error(
+      `Railway target cannot use localhost app URL. Received host: ${parsedAppUrl.hostname}`,
+    );
+    process.exit(1);
+  }
 }
 
 if (signInUrl && !signInUrl.startsWith('/')) {
