@@ -53,6 +53,15 @@ This folder contains the rewrite monorepo scaffold for:
 - Reason: Railpack already performs install, and a second filtered install/build chain can trigger Node heap OOM during deploy.
 - Keep package manager alignment pinned to `pnpm@9.12.0` in deploy commands for deterministic behavior.
 
+## Workforce Incremental Sync Baseline
+
+- Use incremental sync as the primary freshness path for Workforce recruited-state derivation.
+- Internal sync endpoint: `POST /api/workforce/internal/sync`.
+- Required header for internal sync: `x-workforce-sync-token`.
+- Configure `WORKFORCE_SYNC_TOKEN` in environments that run scheduled sync jobs.
+- Optional JSON body: `{ "batchSize": number }` to bound per-run delta processing volume.
+- Keep `POST /api/workforce/admin/recompute` as backfill/repair only.
+
 ## Prompt Leak Protection
 
 - This repository includes git hooks that block committing/pushing AI prompt text patterns.

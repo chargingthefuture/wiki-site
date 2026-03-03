@@ -51,6 +51,7 @@ export default async function WorkforceAdminPage() {
           <li><code>PUT/DELETE /api/workforce/admin/occupations/:id</code></li>
           <li><code>GET/POST /api/workforce/admin/announcements</code></li>
           <li><code>PUT/DELETE /api/workforce/admin/announcements/:id</code></li>
+          <li><code>POST /api/workforce/admin/sync</code></li>
           <li><code>POST /api/workforce/admin/recompute</code></li>
           <li><code>GET /api/workforce/admin/audit-events</code></li>
         </ul>

@@ -6,6 +6,7 @@ export const WORKFORCE_ERROR_CODE = {
   conflict: 'WORKFORCE_CONFLICT',
   persistenceUnavailable: 'WORKFORCE_PERSISTENCE_UNAVAILABLE',
   csrfDenied: 'WORKFORCE_CSRF_DENIED',
+  invalidSyncToken: 'WORKFORCE_INVALID_SYNC_TOKEN',
   exportDeferred: 'WORKFORCE_EXPORT_DEFERRED',
 } as const;
 

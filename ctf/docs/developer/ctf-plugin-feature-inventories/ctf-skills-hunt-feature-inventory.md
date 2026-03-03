@@ -182,7 +182,7 @@ Seed script requirement: Provide a deterministic plugin seed script with dummy d
 
 ## 8) Gaps, Ambiguities, and Known Debt (Planning)
 
-1. Final policy for admin preapproval semantics requires product/compliance lock.
+1. Admin preapproval submitter pathway is disabled for v1.
 2. URL liveness verification fallback behavior needs final SLO decision.
 3. Team leaderboard aggregation by profession taxonomy needs taxonomy owner sign-off.
 4. Android parity schedule and owner assignments must be locked before GA.

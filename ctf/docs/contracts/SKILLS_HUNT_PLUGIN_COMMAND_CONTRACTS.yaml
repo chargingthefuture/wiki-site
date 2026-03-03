@@ -121,9 +121,6 @@ contracts:
       claimedProfessions:
         type: array
         required: false
-      adminPreapproved:
-        type: boolean
-        required: false
     outputSchema:
       submissionId:
         type: string

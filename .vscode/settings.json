@@ -29,11 +29,11 @@
         "sideBar.foreground": "#bfc7cf"
     },
     "python-envs.defaultEnvManager": "ms-python.python:system",
-      // Prevent Copilot (Agent mode) from automatically opening files it creates or edits
-      "github.copilot.agent.openFilesOnChange": false,
-      "github.copilot.chat.agent.openFilesOnChange": false,
 
-  // (optional) also stop the initial “create file” tab from opening
-      "github.copilot.agent.openFilesOnCreate": false,
-      "github.copilot.chat.agent.openFilesOnCreate": false
+    "workbench.editor.enablePreview": true,
+    "workbench.editor.enablePreviewFromCodeNavigation": true,
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.perEditorGroup": true,
+    "workbench.editor.limit.value": 1,
+    "workbench.editor.limit.excludeDirty": true
 }

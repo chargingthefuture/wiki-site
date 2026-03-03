@@ -114,7 +114,7 @@
 ## Open Decisions Tracker
 
 - [ ] Final role model split between moderator and admin for review/edit powers.
-- [ ] Final policy for admin-preapproved submitter pathways.
+- [x] Final policy for admin-preapproved submitter pathways (disabled in v1).
 - [ ] Android parity target date and owners.
 
 ## Change Log

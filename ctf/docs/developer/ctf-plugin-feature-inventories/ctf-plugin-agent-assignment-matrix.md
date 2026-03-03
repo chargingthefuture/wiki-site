@@ -94,8 +94,8 @@ Status legend:
 | `agent-01-taxonomy-core`            | Phase 0   | Done        | 2026-03-02 |       |           | Yes              |
 | `agent-02-directory-core`           | Phase 0   | Done        | 2026-03-02 |       |           | Yes              |
 | `agent-03-feed-announcements`       | Phase 0   | Done        | 2026-03-02 |       |           | Yes              |
-| `agent-04-workforce`                | Phase 1   | In progress | 2026-03-03 |       |           | No               |
-| `agent-05-skills-hunt`              | Phase 1   | Not started |            |       |           | No               |
+| `agent-04-workforce`                | Phase 1   | Done        | 2026-03-03 |       |           | Yes              |
+| `agent-05-skills-hunt`              | Phase 1   | Done        | 2026-03-03 |       |           | Yes              |
 | `agent-06-foundation`               | Phase 1   | Not started |            |       |           | No               |
 | `agent-07-lighthouse`               | Phase 2   | Not started |            |       |           | No               |
 | `agent-08-socketrelay`              | Phase 2   | Not started |            |       |           | No               |

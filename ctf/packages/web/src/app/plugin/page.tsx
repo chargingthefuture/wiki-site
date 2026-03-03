@@ -3,6 +3,7 @@ import { nonBaselinePlugins } from '@/src/lib/plugins/plugin-catalog';
 import { ChymeShell } from '@/src/components/chyme/chyme-shell';
 import { DirectoryShell } from '@/src/components/directory/directory-shell';
 import { FeedAnnouncementsShell } from '@/src/components/feed/feed-announcements-shell';
+import { SkillsHuntShell } from '@/src/components/skills-hunt/skills-hunt-shell';
 import { WorkforceShell } from '@/src/components/workforce/workforce-shell';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -30,6 +31,7 @@ type PluginContext = {
   showDirectoryView: boolean;
   showFeedAnnouncementsView: boolean;
   showWorkforceView: boolean;
+  showSkillsHuntView: boolean;
   pluginIdKnown: boolean;
 };
 
@@ -64,6 +66,7 @@ function buildPluginContext(pluginValue: string | string[] | undefined): PluginC
     showDirectoryView: selectedPluginId === 'directory',
     showFeedAnnouncementsView: selectedPluginId === 'feed-announcements',
     showWorkforceView: selectedPluginId === 'workforce',
+    showSkillsHuntView: selectedPluginId === 'skills-hunt',
     pluginIdKnown: !hasRequestedPluginId || Boolean(selectedPlugin),
   };
 }
@@ -206,6 +209,10 @@ export default async function PluginPage({ searchParams }: PluginPageProps) {
 
   if (pluginContext.showWorkforceView) {
     return <WorkforceShell isAdmin={decision.isAdmin} />;
+  }
+
+  if (pluginContext.showSkillsHuntView) {
+    return <SkillsHuntShell userId={decision.userId} isAdmin={decision.isAdmin} isModerator={decision.role === 'moderator'} />;
   }
 
   return (

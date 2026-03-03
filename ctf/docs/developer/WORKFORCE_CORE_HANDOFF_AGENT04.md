@@ -20,6 +20,7 @@ Scope: `ctf/` only (web/API + migration + seed + contracts + metric alignment)
   - handoff artifact `ctf/docs/developer/FEED_ANNOUNCEMENTS_CORE_HANDOFF_AGENT03.md` reports complete,
   - assignment matrix marks `agent-03-feed-announcements` as `Done` with handoff received.
 - `agent-04-workforce` status moved to `In progress` in assignment tracker.
+- Closeout reconciliation: `agent-04-workforce` status is `Done` with handoff received.
 
 ## Delivered scope
 
@@ -80,7 +81,7 @@ Scope: `ctf/` only (web/API + migration + seed + contracts + metric alignment)
 
 1. Recruited-state derivation source is `directory_profiles` where `claimed_by_user_id IS NOT NULL`.
 2. Recompute route derives inferred events from Directory state (no manual direct recruited-event write payload exposed to end users).
-3. Current implementation performs derivation via admin recompute pass and deterministic dedupe; direct event hook from Directory write path remains a follow-up.
+3. Current implementation performs derivation via Workforce-side recompute pass and deterministic dedupe while reading Directory source-of-truth rows; no cross-plugin write coupling is required.
 
 ## Validation evidence
 
@@ -96,9 +97,9 @@ Scope: `ctf/` only (web/API + migration + seed + contracts + metric alignment)
 1. Export execution remains explicitly deferred by decision; only deferred job recording/status is implemented.
    - owner: `platform-architecture`
    - target date recommendation: 2026-03-14
-2. Direct Directory write-hook integration for recruited derivation (event emission at source mutation boundary) is not yet wired.
+2. Automated Workforce-side recompute scheduling/on-change triggering was previously open; incremental sync baseline is now implemented via cursor-backed delta processing and internal tokenized endpoint.
    - owner: `platform-architecture`
-   - target date recommendation: 2026-03-14
+   - status: closed in follow-up incremental sync pass (2026-03-03)
 3. Legal-basis and retention sign-off for workforce export payload classes still needed before enabling export execution.
    - owner: `platform-architecture`
    - target date recommendation: 2026-03-14
