@@ -1,0 +1,48 @@
+import { NextResponse } from 'next/server';
+import { ensureMutationCsrf, requireLighthouseReadAccess } from '@/src/app/api/lighthouse/_lib';
+import { LIGHTHOUSE_ERROR_CODE } from '@/src/lib/lighthouse/constants';
+import { insertLighthouseAudit, removeBlock } from '@/src/lib/lighthouse/repository';
+
+type RouteParams = {
+  params: Promise<{ blockedUserId: string }>;
+};
+
+export async function DELETE(request: Request, { params }: RouteParams) {
+  const csrfDeny = ensureMutationCsrf(request);
+  if (csrfDeny) {
+    return csrfDeny;
+  }
+
+  const gate = await requireLighthouseReadAccess();
+  if (!gate.allowed) {
+    return gate.response;
+  }
+
+  const { blockedUserId } = await params;
+
+  try {
+    const removed = await removeBlock(gate.auth.userId, blockedUserId);
+    if (!removed) {
+      return NextResponse.json(
+        { ok: false, code: LIGHTHOUSE_ERROR_CODE.blockNotFound, message: 'Lighthouse block not found.' },
+        { status: 404 },
+      );
+    }
+
+    await insertLighthouseAudit({
+      actorId: gate.auth.userId,
+      command: 'lighthouse.block.delete',
+      policyStatus: 'allow',
+      reason: 'ok',
+      targetType: 'block',
+      targetId: blockedUserId,
+    });
+
+    return NextResponse.json({ ok: true }, { status: 200 });
+  } catch {
+    return NextResponse.json(
+      { ok: false, code: LIGHTHOUSE_ERROR_CODE.persistenceUnavailable, message: 'Block remove unavailable.' },
+      { status: 503 },
+    );
+  }
+}

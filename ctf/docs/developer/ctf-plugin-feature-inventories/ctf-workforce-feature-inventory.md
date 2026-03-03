@@ -214,9 +214,9 @@ Planned canonical definition notes for `recruited`:
 4. Access-policy contracts enforce role, consent/legal basis, and deny conditions.
 5. Deny taxonomy is standardized across web/mobile policy outcomes.
 6. Admin audit endpoint is standardized as `/api/workforce/admin/audit-events`.
-4. Audit contracts capture allow/deny + mutation outcome for workforce operations.
-5. Data minimization and sensitive-field redaction in logs/diagnostics.
-6. Plugin deletion/profile handling aligns to `ctf/docs/templates/PLUGIN_PROFILE_AND_DELETION_CONTRACT_TEMPLATE.md`.
+7. Audit contracts capture allow/deny + mutation outcome for workforce operations.
+8. Data minimization and sensitive-field redaction in logs/diagnostics.
+9. Plugin deletion/profile handling aligns to `ctf/docs/templates/PLUGIN_PROFILE_AND_DELETION_CONTRACT_TEMPLATE.md`.
 
 ## 7) Seed Coverage Status (Planned)
 

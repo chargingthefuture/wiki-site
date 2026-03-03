@@ -329,26 +329,35 @@ export function validateRoundInput(input: SkillsHuntRoundInput): boolean {
     && Date.parse(input.endsAtIso) > Date.parse(input.startsAtIso);
 }
 
+function isLengthInRange(value: string, min: number, max: number): boolean {
+  return value.length >= min && value.length <= max;
+}
+
+function hasUnsafeCollectionText(values: string[]): boolean {
+  return values.some((value) => containsUnsafeText(value));
+}
+
 export function validateSubmissionInput(input: SkillsHuntSubmissionInput): boolean {
   const displayName = normalizeText(input.displayName ?? '');
   const bio = normalizeText(input.bio ?? '');
   const skills = normalizeArray(input.skills);
   const claimedProfessions = normalizeArray(input.claimedProfessions);
 
-  const hasUnsafeText = [displayName, bio, ...skills, ...claimedProfessions].some((value) => containsUnsafeText(value));
+  const hasValidRoundId = typeof input.roundId === 'string' && input.roundId.length > 0;
+  const hasValidDisplayName = isLengthInRange(displayName, 1, SKILLS_HUNT_MAX_DISPLAY_NAME_LENGTH);
+  const hasValidBio = isLengthInRange(bio, 1, SKILLS_HUNT_MAX_BIO_LENGTH);
+  const quoraProfileUrl = typeof input.quoraProfileUrl === 'string' ? input.quoraProfileUrl.trim() : '';
+  const hasValidUrl = isLengthInRange(quoraProfileUrl, 1, SKILLS_HUNT_MAX_URL_LENGTH);
+  const hasValidSkills = skills.length > 0 && skills.length <= 25;
+  const hasValidClaimedProfessions = claimedProfessions.length <= 20;
+  const hasUnsafeText = hasUnsafeCollectionText([displayName, bio, ...skills, ...claimedProfessions]);
 
-  return typeof input.roundId === 'string'
-    && input.roundId.length > 0
-    && displayName.length > 0
-    && displayName.length <= SKILLS_HUNT_MAX_DISPLAY_NAME_LENGTH
-    && bio.length > 0
-    && bio.length <= SKILLS_HUNT_MAX_BIO_LENGTH
-    && typeof input.quoraProfileUrl === 'string'
-    && input.quoraProfileUrl.trim().length > 0
-    && input.quoraProfileUrl.trim().length <= SKILLS_HUNT_MAX_URL_LENGTH
-    && skills.length > 0
-    && skills.length <= 25
-    && claimedProfessions.length <= 20
+  return hasValidRoundId
+    && hasValidDisplayName
+    && hasValidBio
+    && hasValidUrl
+    && hasValidSkills
+    && hasValidClaimedProfessions
     && !hasUnsafeText;
 }
 
@@ -367,14 +376,10 @@ export function validateFeatureRewardCardInput(input: SkillsHuntFeatureRewardCar
   const ctaLabel = normalizeText(input.ctaLabel ?? '');
   const ctaUrl = normalizeText(input.ctaUrl ?? '');
 
-  return title.length > 0
-    && title.length <= 160
-    && description.length > 0
-    && description.length <= 500
-    && ctaLabel.length > 0
-    && ctaLabel.length <= 80
-    && ctaUrl.length > 0
-    && ctaUrl.length <= 512
+  return isLengthInRange(title, 1, 160)
+    && isLengthInRange(description, 1, 500)
+    && isLengthInRange(ctaLabel, 1, 80)
+    && isLengthInRange(ctaUrl, 1, 512)
     && typeof input.isActive === 'boolean';
 }
 

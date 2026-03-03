@@ -33,6 +33,10 @@ function toIso(value: Date | string): string {
   return new Date(value).toISOString();
 }
 
+function parseCountRow(rows: Array<{ total: string }>): number {
+  return Number.parseInt(rows[0]?.total ?? '0', 10);
+}
+
 function normalizePage(inputPage: number | undefined, inputPageSize: number | undefined): { page: number; pageSize: number; offset: number } {
   const page = Number.isInteger(inputPage) && Number(inputPage) > 0 ? Number(inputPage) : FOUNDATION_DEFAULT_PAGE;
   const pageSize = Number.isInteger(inputPageSize)
@@ -224,6 +228,134 @@ async function evaluateRateLimit(client: PoolClient, input: {
   };
 }
 
+async function assertConnectionThreadCapacity(client: PoolClient, actorUserId: string): Promise<void> {
+  const [capacity, actorThreadCount] = await Promise.all([
+    client.query<{ max_active_threads_per_user: number; kill_switch_enabled: boolean }>(
+      `
+        SELECT max_active_threads_per_user, kill_switch_enabled
+        FROM foundation_capacity_policies
+        WHERE singleton_key = TRUE
+      `,
+    ),
+    client.query<{ total: string }>(
+      `
+        SELECT COUNT(*)::text AS total
+        FROM foundation_connection_threads
+        WHERE survivor_user_id = $1
+          AND status = 'active'
+      `,
+      [actorUserId],
+    ),
+  ]);
+
+  if (capacity.rows[0]?.kill_switch_enabled) {
+    throw new Error('policy_denied');
+  }
+
+  const maxActiveThreads = Number(capacity.rows[0]?.max_active_threads_per_user ?? 20);
+  const activeThreads = parseCountRow(actorThreadCount.rows);
+  if (activeThreads >= maxActiveThreads) {
+    throw new Error('rate_limit_exceeded');
+  }
+}
+
+type FoundationProviderLookupRow = {
+  id: string;
+  claimed_by_user_id: string;
+  display_name: string;
+};
+
+async function getProviderForConnection(client: PoolClient, providerProfileId: string): Promise<FoundationProviderLookupRow> {
+  const provider = await client.query<FoundationProviderLookupRow>(
+    `
+      SELECT id::text, claimed_by_user_id, display_name
+      FROM directory_profiles
+      WHERE id = $1::uuid
+        AND is_active = TRUE
+        AND claimed_by_user_id IS NOT NULL
+    `,
+    [providerProfileId],
+  );
+
+  const row = provider.rows[0];
+  if (!row) {
+    throw new Error('provider_not_found');
+  }
+
+  return row;
+}
+
+async function getOrCreateConnectionThread(client: PoolClient, input: {
+  actorUserId: string;
+  actorDisplayName: string;
+  providerProfileId: string;
+  providerUserId: string;
+  providerDisplayName: string;
+}): Promise<FoundationThread> {
+  const existing = await client.query<FoundationThreadRow>(
+    `
+      SELECT
+        id::text,
+        survivor_user_id,
+        provider_user_id,
+        provider_directory_profile_id::text,
+        stream_channel_id,
+        status,
+        created_at
+      FROM foundation_connection_threads
+      WHERE survivor_user_id = $1
+        AND provider_user_id = $2
+    `,
+    [input.actorUserId, input.providerUserId],
+  );
+
+  if (existing.rows.length > 0) {
+    return mapThreadRow(existing.rows[0]);
+  }
+
+  const threadId = randomUUID();
+  const stream = await ensureFoundationStreamChannel({
+    threadId,
+    survivorUserId: input.actorUserId,
+    survivorDisplayName: input.actorDisplayName,
+    providerUserId: input.providerUserId,
+    providerDisplayName: input.providerDisplayName,
+  });
+
+  const streamChannelId = stream?.streamChannelId ?? `foundation-thread-${threadId}`;
+
+  const inserted = await client.query<FoundationThreadRow>(
+    `
+      INSERT INTO foundation_connection_threads
+        (id, survivor_user_id, provider_user_id, provider_directory_profile_id, stream_channel_id, created_by_user_id)
+      VALUES
+        ($1::uuid, $2, $3, $4::uuid, $5, $2)
+      RETURNING
+        id::text,
+        survivor_user_id,
+        provider_user_id,
+        provider_directory_profile_id::text,
+        stream_channel_id,
+        status,
+        created_at
+    `,
+    [threadId, input.actorUserId, input.providerUserId, input.providerProfileId, streamChannelId],
+  );
+
+  await client.query(
+    `
+      INSERT INTO foundation_thread_participants (thread_id, user_id, participant_role)
+      VALUES
+        ($1::uuid, $2, 'survivor'),
+        ($1::uuid, $3, 'provider')
+      ON CONFLICT (thread_id, user_id) DO NOTHING
+    `,
+    [threadId, input.actorUserId, input.providerUserId],
+  );
+
+  return mapThreadRow(inserted.rows[0]);
+}
+
 export async function createConnectionThread(input: {
   actorUserId: string;
   actorDisplayName: string;
@@ -236,118 +368,21 @@ export async function createConnectionThread(input: {
   streamToken: string | null;
 }> {
   return withDbTransaction(async (client) => {
-    const capacity = await client.query<{ max_active_threads_per_user: number; kill_switch_enabled: boolean }>(
-      `
-        SELECT max_active_threads_per_user, kill_switch_enabled
-        FROM foundation_capacity_policies
-        WHERE singleton_key = TRUE
-      `,
-    );
+    await assertConnectionThreadCapacity(client, input.actorUserId);
 
-    if (capacity.rows[0]?.kill_switch_enabled) {
-      throw new Error('policy_denied');
-    }
-
-    const actorThreadCount = await client.query<{ total: string }>(
-      `
-        SELECT COUNT(*)::text AS total
-        FROM foundation_connection_threads
-        WHERE survivor_user_id = $1
-          AND status = 'active'
-      `,
-      [input.actorUserId],
-    );
-
-    const maxActiveThreads = Number(capacity.rows[0]?.max_active_threads_per_user ?? 20);
-    const activeThreads = Number.parseInt(actorThreadCount.rows[0]?.total ?? '0', 10);
-    if (activeThreads >= maxActiveThreads) {
-      throw new Error('rate_limit_exceeded');
-    }
-
-    const provider = await client.query<{ id: string; claimed_by_user_id: string; display_name: string }>(
-      `
-        SELECT id::text, claimed_by_user_id, display_name
-        FROM directory_profiles
-        WHERE id = $1::uuid
-          AND is_active = TRUE
-          AND claimed_by_user_id IS NOT NULL
-      `,
-      [input.providerProfileId],
-    );
-
-    if (provider.rows.length === 0) {
-      throw new Error('provider_not_found');
-    }
-
-    const providerUserId = provider.rows[0].claimed_by_user_id;
+    const provider = await getProviderForConnection(client, input.providerProfileId);
+    const providerUserId = provider.claimed_by_user_id;
     if (providerUserId === input.actorUserId) {
       throw new Error('policy_denied');
     }
 
-    const existing = await client.query<FoundationThreadRow>(
-      `
-        SELECT
-          id::text,
-          survivor_user_id,
-          provider_user_id,
-          provider_directory_profile_id::text,
-          stream_channel_id,
-          status,
-          created_at
-        FROM foundation_connection_threads
-        WHERE survivor_user_id = $1
-          AND provider_user_id = $2
-      `,
-      [input.actorUserId, providerUserId],
-    );
-
-    let thread: FoundationThread;
-
-    if (existing.rows.length > 0) {
-      thread = mapThreadRow(existing.rows[0]);
-    } else {
-      const threadId = randomUUID();
-      const stream = await ensureFoundationStreamChannel({
-        threadId,
-        survivorUserId: input.actorUserId,
-        survivorDisplayName: input.actorDisplayName,
-        providerUserId,
-        providerDisplayName: provider.rows[0].display_name,
-      });
-
-      const streamChannelId = stream?.streamChannelId ?? `foundation-thread-${threadId}`;
-
-      const inserted = await client.query<FoundationThreadRow>(
-        `
-          INSERT INTO foundation_connection_threads
-            (id, survivor_user_id, provider_user_id, provider_directory_profile_id, stream_channel_id, created_by_user_id)
-          VALUES
-            ($1::uuid, $2, $3, $4::uuid, $5, $2)
-          RETURNING
-            id::text,
-            survivor_user_id,
-            provider_user_id,
-            provider_directory_profile_id::text,
-            stream_channel_id,
-            status,
-            created_at
-        `,
-        [threadId, input.actorUserId, providerUserId, input.providerProfileId, streamChannelId],
-      );
-
-      await client.query(
-        `
-          INSERT INTO foundation_thread_participants (thread_id, user_id, participant_role)
-          VALUES
-            ($1::uuid, $2, 'survivor'),
-            ($1::uuid, $3, 'provider')
-          ON CONFLICT (thread_id, user_id) DO NOTHING
-        `,
-        [threadId, input.actorUserId, providerUserId],
-      );
-
-      thread = mapThreadRow(inserted.rows[0]);
-    }
+    const thread = await getOrCreateConnectionThread(client, {
+      actorUserId: input.actorUserId,
+      actorDisplayName: input.actorDisplayName,
+      providerProfileId: input.providerProfileId,
+      providerUserId,
+      providerDisplayName: provider.display_name,
+    });
 
     const credentials = await createFoundationParticipantToken(input.actorUserId, input.actorDisplayName);
 
@@ -358,29 +393,6 @@ export async function createConnectionThread(input: {
       streamToken: credentials?.streamToken ?? null,
     };
   });
-}
-
-async function getThreadForParticipant(threadId: string, userId: string): Promise<FoundationThreadRow | null> {
-  const thread = await queryDb<FoundationThreadRow>(
-    `
-      SELECT
-        t.id::text,
-        t.survivor_user_id,
-        t.provider_user_id,
-        t.provider_directory_profile_id::text,
-        t.stream_channel_id,
-        t.status,
-        t.created_at
-      FROM foundation_connection_threads t
-      JOIN foundation_thread_participants p ON p.thread_id = t.id
-      WHERE t.id = $1::uuid
-        AND p.user_id = $2
-      LIMIT 1
-    `,
-    [threadId, userId],
-  );
-
-  return thread.rows[0] ?? null;
 }
 
 export async function sendMessageToThread(input: {
@@ -481,6 +493,93 @@ export async function sendMessageToThread(input: {
   });
 }
 
+async function assertCallParticipantThread(client: PoolClient, threadId: string, actorUserId: string): Promise<void> {
+  const thread = await client.query<FoundationThreadRow>(
+    `
+      SELECT
+        t.id::text,
+        t.survivor_user_id,
+        t.provider_user_id,
+        t.provider_directory_profile_id::text,
+        t.stream_channel_id,
+        t.status,
+        t.created_at
+      FROM foundation_connection_threads t
+      JOIN foundation_thread_participants p ON p.thread_id = t.id
+      WHERE t.id = $1::uuid
+        AND p.user_id = $2
+      LIMIT 1
+    `,
+    [threadId, actorUserId],
+  );
+
+  if (thread.rows.length === 0) {
+    throw new Error('thread_not_found');
+  }
+}
+
+async function getCallDurationLimitOrThrow(client: PoolClient): Promise<number> {
+  const policyResult = await client.query<{ max_call_duration_minutes: number; quota_state: 'green' | 'yellow' | 'orange' | 'red' }>(
+    `
+      SELECT max_call_duration_minutes, quota_state
+      FROM foundation_capacity_policies
+      WHERE singleton_key = TRUE
+    `,
+  );
+
+  const quotaState = policyResult.rows[0]?.quota_state ?? 'green';
+  if (quotaState === 'red') {
+    throw new Error('policy_denied');
+  }
+
+  return Number(policyResult.rows[0]?.max_call_duration_minutes ?? 45);
+}
+
+function resolveRequestedCallDuration(requestedDurationMinutes: number | undefined, maxDuration: number): number {
+  if (Number.isInteger(requestedDurationMinutes)) {
+    return Math.max(5, Math.min(maxDuration, Number(requestedDurationMinutes)));
+  }
+
+  return Math.min(30, maxDuration);
+}
+
+type FoundationCallSessionInsertRow = {
+  id: string;
+  thread_id: string;
+  modality: FoundationCallModality;
+  stream_call_id: string;
+  requested_duration_minutes: number;
+  status: 'created' | 'active' | 'ended' | 'cancelled';
+  created_at: Date;
+};
+
+async function insertCallSessionRow(client: PoolClient, input: {
+  threadId: string;
+  actorUserId: string;
+  modality: FoundationCallModality;
+  requestedDuration: number;
+}): Promise<FoundationCallSessionInsertRow> {
+  const inserted = await client.query<FoundationCallSessionInsertRow>(
+    `
+      INSERT INTO foundation_call_sessions
+        (thread_id, created_by_user_id, modality, stream_call_id, requested_duration_minutes, status)
+      VALUES
+        ($1::uuid, $2, $3, $4, $5, 'created')
+      RETURNING
+        id::text,
+        thread_id::text,
+        modality,
+        stream_call_id,
+        requested_duration_minutes,
+        status,
+        created_at
+    `,
+    [input.threadId, input.actorUserId, input.modality, `foundation-call-${randomUUID()}`, input.requestedDuration],
+  );
+
+  return inserted.rows[0];
+}
+
 export async function createCallSession(input: {
   threadId: string;
   actorUserId: string;
@@ -497,72 +596,16 @@ export async function createCallSession(input: {
   expiresAtIso: string;
 }> {
   return withDbTransaction(async (client) => {
-    const thread = await client.query<FoundationThreadRow>(
-      `
-        SELECT
-          t.id::text,
-          t.survivor_user_id,
-          t.provider_user_id,
-          t.provider_directory_profile_id::text,
-          t.stream_channel_id,
-          t.status,
-          t.created_at
-        FROM foundation_connection_threads t
-        JOIN foundation_thread_participants p ON p.thread_id = t.id
-        WHERE t.id = $1::uuid
-          AND p.user_id = $2
-        LIMIT 1
-      `,
-      [input.threadId, input.actorUserId],
-    );
+    await assertCallParticipantThread(client, input.threadId, input.actorUserId);
 
-    if (thread.rows.length === 0) {
-      throw new Error('thread_not_found');
-    }
-
-    const policyResult = await client.query<{ max_call_duration_minutes: number; quota_state: 'green' | 'yellow' | 'orange' | 'red' }>(
-      `
-        SELECT max_call_duration_minutes, quota_state
-        FROM foundation_capacity_policies
-        WHERE singleton_key = TRUE
-      `,
-    );
-
-    const quotaState = policyResult.rows[0]?.quota_state ?? 'green';
-    if (quotaState === 'red') {
-      throw new Error('policy_denied');
-    }
-
-    const maxDuration = Number(policyResult.rows[0]?.max_call_duration_minutes ?? 45);
-    const requestedDuration = Number.isInteger(input.requestedDurationMinutes)
-      ? Math.max(5, Math.min(maxDuration, Number(input.requestedDurationMinutes)))
-      : Math.min(30, maxDuration);
-
-    const inserted = await client.query<{
-      id: string;
-      thread_id: string;
-      modality: FoundationCallModality;
-      stream_call_id: string;
-      requested_duration_minutes: number;
-      status: 'created' | 'active' | 'ended' | 'cancelled';
-      created_at: Date;
-    }>(
-      `
-        INSERT INTO foundation_call_sessions
-          (thread_id, created_by_user_id, modality, stream_call_id, requested_duration_minutes, status)
-        VALUES
-          ($1::uuid, $2, $3, $4, $5, 'created')
-        RETURNING
-          id::text,
-          thread_id::text,
-          modality,
-          stream_call_id,
-          requested_duration_minutes,
-          status,
-          created_at
-      `,
-      [input.threadId, input.actorUserId, input.modality, `foundation-call-${randomUUID()}`, requestedDuration],
-    );
+    const maxDuration = await getCallDurationLimitOrThrow(client);
+    const requestedDuration = resolveRequestedCallDuration(input.requestedDurationMinutes, maxDuration);
+    const row = await insertCallSessionRow(client, {
+      threadId: input.threadId,
+      actorUserId: input.actorUserId,
+      modality: input.modality,
+      requestedDuration,
+    });
 
     const credentials = await createFoundationCallToken({
       userId: input.actorUserId,
@@ -570,7 +613,6 @@ export async function createCallSession(input: {
     });
 
     const expiresAt = new Date(Date.now() + (60 * 60 * 1000));
-    const row = inserted.rows[0];
 
     return {
       callSession: {
@@ -1131,15 +1173,28 @@ export async function getCapacityPolicy(): Promise<FoundationCapacityPolicy> {
   );
 
   const row = result.rows[0];
+  if (!row) {
+    return {
+      maxActiveThreadsPerUser: 20,
+      maxMessagesPerMinute: 20,
+      maxSearchesPerMinute: 40,
+      maxQuoteTransitionsPerMinute: 20,
+      maxCallDurationMinutes: 45,
+      quotaState: 'green',
+      killSwitchEnabled: false,
+      updatedAtIso: new Date().toISOString(),
+    };
+  }
+
   return {
-    maxActiveThreadsPerUser: row?.max_active_threads_per_user ?? 20,
-    maxMessagesPerMinute: row?.max_messages_per_minute ?? 20,
-    maxSearchesPerMinute: row?.max_searches_per_minute ?? 40,
-    maxQuoteTransitionsPerMinute: row?.max_quote_transitions_per_minute ?? 20,
-    maxCallDurationMinutes: row?.max_call_duration_minutes ?? 45,
-    quotaState: row?.quota_state ?? 'green',
-    killSwitchEnabled: row?.kill_switch_enabled ?? false,
-    updatedAtIso: toIso(row?.updated_at ?? new Date()),
+    maxActiveThreadsPerUser: row.max_active_threads_per_user,
+    maxMessagesPerMinute: row.max_messages_per_minute,
+    maxSearchesPerMinute: row.max_searches_per_minute,
+    maxQuoteTransitionsPerMinute: row.max_quote_transitions_per_minute,
+    maxCallDurationMinutes: row.max_call_duration_minutes,
+    quotaState: row.quota_state,
+    killSwitchEnabled: row.kill_switch_enabled,
+    updatedAtIso: toIso(row.updated_at),
   };
 }
 
@@ -1319,11 +1374,11 @@ export async function getFoundationDashboard(): Promise<{
   ]);
 
   return {
-    providersTotal: Number.parseInt(providers.rows[0]?.total ?? '0', 10),
-    threadsTotal: Number.parseInt(threads.rows[0]?.total ?? '0', 10),
-    quotesTotal: Number.parseInt(quotes.rows[0]?.total ?? '0', 10),
-    activeCallsTotal: Number.parseInt(activeCalls.rows[0]?.total ?? '0', 10),
-    pendingNotificationsTotal: Number.parseInt(pendingNotifications.rows[0]?.total ?? '0', 10),
+    providersTotal: parseCountRow(providers.rows),
+    threadsTotal: parseCountRow(threads.rows),
+    quotesTotal: parseCountRow(quotes.rows),
+    activeCallsTotal: parseCountRow(activeCalls.rows),
+    pendingNotificationsTotal: parseCountRow(pendingNotifications.rows),
     generatedAtIso: new Date().toISOString(),
   };
 }
