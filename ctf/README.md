@@ -62,6 +62,26 @@ This folder contains the rewrite monorepo scaffold for:
 - Optional JSON body: `{ "batchSize": number }` to bound per-run delta processing volume.
 - Keep `POST /api/workforce/admin/recompute` as backfill/repair only.
 
+## Foundation Phase-1 Baseline
+
+- Provider discovery reads Directory projections only (`directory_profiles`) and does not mutate Directory.
+- User APIs:
+  - `GET /api/foundation/providers/search`
+  - `POST /api/foundation/connections/threads`
+  - `POST /api/foundation/connections/threads/:threadId/messages`
+  - `POST /api/foundation/connections/threads/:threadId/calls`
+  - `GET /api/foundation/connections/history`
+  - `POST /api/foundation/quotes`
+  - `POST /api/foundation/quotes/:quoteRequestId/state`
+  - `GET /api/foundation/quotes/history`
+  - `GET /api/foundation/notifications`
+  - `PUT /api/foundation/notifications/preferences`
+  - `POST /api/foundation/notifications/:notificationEventId/ack`
+- Admin APIs:
+  - `GET/PUT /api/foundation/admin/capacity-policy`
+  - `POST /api/foundation/admin/rate-limits/evaluate`
+  - `GET /api/foundation/admin/audit-events`
+
 ## Prompt Leak Protection
 
 - This repository includes git hooks that block committing/pushing AI prompt text patterns.
