@@ -1,11 +1,11 @@
-# Workforce Profile and Deletion Contract (Draft)
+# Workforce Profile and Deletion Contract
 
 ## 1) Plugin Metadata
 
 - Plugin Name: Workforce
 - Service Key (lowercase, stable): `workforce`
 - Owner Team: Workforce Operations (proposed)
-- Rollout Stage: Planning
+- Rollout Stage: Phase 1 in progress (web/backend)
 
 ## 2) Canonical Profile Usage
 
@@ -30,7 +30,7 @@ Rule 114 baseline: Workforce uses a single canonical profile and plugin extensio
 
 ## 3) Plugin Extension Fields
 
-- Storage location (table or json path): `workforce_user_extension`
+- Storage location (table or json path): `workforce_user_extension` + `workforce_profiles`
 - Fields:
   - field name: `user_id`
     - type: uuid
@@ -52,34 +52,31 @@ Rule 114 baseline: Workforce uses a single canonical profile and plugin extensio
 ## 4) Domain Data Owned by Plugin
 
 - Table/entity: `workforce_roles`
-  - Contains personal data? yes (user-role linkage)
-  - Retention period: medium/long-lived
-  - Legal/compliance note: authorization traceability
-- Table/entity: `workforce_assignments`
-  - Contains personal data? yes (user assignment ownership)
+- Table/entity: `workforce_profiles`
+  - Contains personal data? yes (user-linked extension profile)
   - Retention period: medium/long-lived transactional history
-  - Legal/compliance note: operational accountability
-- Table/entity: `workforce_shift_events`
-  - Contains personal data? yes (actor and shift transition metadata)
-  - Retention period: medium/long-lived
-  - Legal/compliance note: auditability for workforce operations
-- Table/entity: `workforce_deletion_events`
-  - Contains personal data? minimal (`user_id`, scope, timestamps)
+  - Legal/compliance note: extension-state accountability
+- Table/entity: `workforce_recruited_events`
+  - Contains personal data? yes (`user_id`, inferred source metadata)
+  - Retention period: long-lived
+  - Legal/compliance note: deterministic recruited inference auditability
+- Table/entity: `workforce_admin_audit_trail`
+  - Contains personal data? minimal (`actor_id`, command metadata)
   - Retention period: compliance retention window
-  - Legal/compliance note: Rule 114 deletion audit trail
+  - Legal/compliance note: admin mutation audit trail
 
 ## 5) Service-Scoped Deletion Contract
 
 When user deletes Workforce usage only:
 
 - Delete immediately:
-  - `workforce_user_extension`
-  - user availability/work-preference rows
+  - none (service deletion uses soft-delete marker for extension consistency)
 - Anonymize/pseudonymize:
-  - historical assignment ownership where retention is required
+  - user extension preference payloads reset to empty objects
 - Retain for compliance/fraud/finance:
   - policy-required workforce audit evidence
-  - `workforce_deletion_events`
+  - `workforce_recruited_events`
+  - `workforce_admin_audit_trail`
 - Never touch (must remain):
   - canonical profile
   - assignment records still required for operational/compliance history
@@ -123,7 +120,7 @@ If user returns after service-scoped deletion:
 ## 9) API and UX Surface
 
 - Service delete endpoint:
-  - `DELETE /api/account/workforce-profile` (planned)
+  - `DELETE /api/workforce/profile`
 - Full account delete endpoint (or orchestrator):
   - `DELETE /api/account/full-account`
 - Status model (`requested`, `processing`, `completed`, `failed`):
@@ -134,7 +131,7 @@ If user returns after service-scoped deletion:
 ## 10) Migration and Rollback
 
 - Migration file(s):
-  - planned under `ctf/migrations/`
+  - `ctf/migrations/2026-03-03-workforce-core-phase1.sql`
 - Rollback approach:
   - reverse-order rollback for Workforce-only extension/deletion tables
 - Backfill required? (yes/no):
@@ -151,3 +148,4 @@ If user returns after service-scoped deletion:
 ## Change Log
 
 - 2026-02-25: Created initial draft.
+- 2026-03-03: Updated for phase-1 web/backend implementation, including recruited inference event model and active API endpoint mapping.

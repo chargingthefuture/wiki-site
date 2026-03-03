@@ -233,3 +233,4 @@ Seed script requirement: Provide a deterministic plugin seed script with dummy d
 
 - 2026-02-24: Created initial Workforce CTF rewrite planning inventory with unified `workforce` slug, canonical recruited metric semantics, contract-template alignment, and explicit exclusion of accidental legacy event artifacts.
 - 2026-02-24: Merged legacy parity scope (profile, occupations, announcements, export, admin flows) with new Workforce rewrite capabilities; standardized audit-events route, explicit skill-level/sector report endpoints, async export job model, mobile admin v1 inclusion, and weekly ET Saturday bucket policy.
+- 2026-03-03: Began phase-1 implementation under `ctf/packages/web` with migration-backed API/admin routes, deterministic recruited recompute sourced from Directory profiles, seed fixtures, and export workflow deferment.

@@ -3,6 +3,7 @@ import { nonBaselinePlugins } from '@/src/lib/plugins/plugin-catalog';
 import { ChymeShell } from '@/src/components/chyme/chyme-shell';
 import { DirectoryShell } from '@/src/components/directory/directory-shell';
 import { FeedAnnouncementsShell } from '@/src/components/feed/feed-announcements-shell';
+import { WorkforceShell } from '@/src/components/workforce/workforce-shell';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
@@ -28,6 +29,7 @@ type PluginContext = {
   showChymeView: boolean;
   showDirectoryView: boolean;
   showFeedAnnouncementsView: boolean;
+  showWorkforceView: boolean;
   pluginIdKnown: boolean;
 };
 
@@ -61,6 +63,7 @@ function buildPluginContext(pluginValue: string | string[] | undefined): PluginC
     showChymeView: selectedPluginId === 'chyme' || !hasRequestedPluginId,
     showDirectoryView: selectedPluginId === 'directory',
     showFeedAnnouncementsView: selectedPluginId === 'feed-announcements',
+    showWorkforceView: selectedPluginId === 'workforce',
     pluginIdKnown: !hasRequestedPluginId || Boolean(selectedPlugin),
   };
 }
@@ -199,6 +202,10 @@ export default async function PluginPage({ searchParams }: PluginPageProps) {
         isAdmin={decision.isAdmin}
       />
     );
+  }
+
+  if (pluginContext.showWorkforceView) {
+    return <WorkforceShell isAdmin={decision.isAdmin} />;
   }
 
   return (
