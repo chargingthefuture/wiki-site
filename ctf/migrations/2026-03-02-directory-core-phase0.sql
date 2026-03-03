@@ -19,8 +19,8 @@ CREATE TABLE IF NOT EXISTS directory_profiles (
   bio TEXT NULL,
   profile_url TEXT NULL,
   is_public BOOLEAN NOT NULL DEFAULT FALSE,
-  sector_id UUID NULL REFERENCES skills_taxonomy_sectors(id) ON DELETE SET NULL,
-  job_title_id UUID NULL REFERENCES skills_taxonomy_job_titles(id) ON DELETE SET NULL,
+  sector_id UUID NULL,
+  job_title_id UUID NULL,
   is_active BOOLEAN NOT NULL DEFAULT TRUE,
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
@@ -41,7 +41,7 @@ ALTER TABLE IF EXISTS directory_profiles
 
 CREATE TABLE IF NOT EXISTS directory_profile_skills (
   profile_id TEXT NOT NULL,
-  skill_id UUID NOT NULL REFERENCES skills_taxonomy_skills(id) ON DELETE RESTRICT,
+  skill_id UUID NOT NULL,
   display_order INTEGER NOT NULL DEFAULT 0,
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
   PRIMARY KEY (profile_id, skill_id)
@@ -143,37 +143,64 @@ CREATE INDEX IF NOT EXISTS idx_directory_change_events_target
 CREATE INDEX IF NOT EXISTS idx_directory_deletion_events_user_scope
   ON directory_deletion_events (user_id, scope, requested_at DESC);
 
-CREATE OR REPLACE VIEW directory_public_projection AS
-SELECT
-  p.id,
-  p.display_name,
-  p.headline,
-  p.bio,
-  p.profile_url,
-  p.sector_id,
-  s.name AS sector_name,
-  p.job_title_id,
-  jt.name AS job_title_name,
-  COALESCE(
-    (
-      SELECT jsonb_agg(
-        jsonb_build_object(
-          'id', sk.id,
-          'name', sk.name,
-          'displayOrder', dps.display_order
-        )
-        ORDER BY dps.display_order ASC, sk.name ASC
-      )
-      FROM directory_profile_skills dps
-      JOIN skills_taxonomy_skills sk ON sk.id = dps.skill_id
-      WHERE dps.profile_id = p.id
-    ),
-    '[]'::jsonb
-  ) AS skills,
-  p.updated_at
-FROM directory_profiles p
-LEFT JOIN skills_taxonomy_sectors s ON s.id = p.sector_id
-LEFT JOIN skills_taxonomy_job_titles jt ON jt.id = p.job_title_id
-WHERE p.is_active = TRUE AND p.is_public = TRUE;
+DO $$
+BEGIN
+  IF to_regclass('public.skills_taxonomy_sectors') IS NOT NULL
+     AND to_regclass('public.skills_taxonomy_job_titles') IS NOT NULL
+     AND to_regclass('public.skills_taxonomy_skills') IS NOT NULL THEN
+    EXECUTE $v$
+      CREATE OR REPLACE VIEW directory_public_projection AS
+      SELECT
+        p.id,
+        p.display_name,
+        p.headline,
+        p.bio,
+        p.profile_url,
+        p.sector_id,
+        s.name AS sector_name,
+        p.job_title_id,
+        jt.name AS job_title_name,
+        COALESCE(
+          (
+            SELECT jsonb_agg(
+              jsonb_build_object(
+                'id', sk.id,
+                'name', sk.name,
+                'displayOrder', dps.display_order
+              )
+              ORDER BY dps.display_order ASC, sk.name ASC
+            )
+            FROM directory_profile_skills dps
+            JOIN skills_taxonomy_skills sk ON sk.id = dps.skill_id
+            WHERE dps.profile_id = p.id
+          ),
+          '[]'::jsonb
+        ) AS skills,
+        p.updated_at
+      FROM directory_profiles p
+      LEFT JOIN skills_taxonomy_sectors s ON s.id = p.sector_id
+      LEFT JOIN skills_taxonomy_job_titles jt ON jt.id = p.job_title_id
+      WHERE p.is_active = TRUE AND p.is_public = TRUE
+    $v$;
+  ELSE
+    EXECUTE $v$
+      CREATE OR REPLACE VIEW directory_public_projection AS
+      SELECT
+        p.id,
+        p.display_name,
+        p.headline,
+        p.bio,
+        p.profile_url,
+        p.sector_id,
+        NULL::text AS sector_name,
+        p.job_title_id,
+        NULL::text AS job_title_name,
+        '[]'::jsonb AS skills,
+        p.updated_at
+      FROM directory_profiles p
+      WHERE p.is_active = TRUE AND p.is_public = TRUE
+    $v$;
+  END IF;
+END $$;
 
 COMMIT;
