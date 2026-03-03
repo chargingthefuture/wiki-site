@@ -137,6 +137,29 @@ This folder contains the rewrite monorepo scaffold for:
   - `GET/POST /api/socketrelay/admin/announcements`
   - `PUT/DELETE /api/socketrelay/admin/announcements/:id`
 
+## TrustTransport Phase-2 Baseline
+
+- User APIs:
+  - `GET /api/trusttransport/modes`
+  - `GET/POST /api/trusttransport/requests`
+  - `GET /api/trusttransport/requests/:requestId`
+  - `GET /api/trusttransport/requests/:requestId/offers`
+  - `POST /api/trusttransport/offers/:offerId/accept`
+  - `POST /api/trusttransport/trips/:tripId/status`
+  - `POST /api/trusttransport/trips/:tripId/proof`
+  - `POST /api/trusttransport/trips/:tripId/emergency-stop`
+  - `POST /api/trusttransport/orders/:orderId/cancel`
+  - `POST /api/trusttransport/orders/:orderId/rating`
+  - `POST /api/trusttransport/payouts/requests`
+  - `GET /api/trusttransport/payouts`
+- Admin APIs:
+  - `GET /api/trusttransport/admin/incidents`
+  - `POST /api/trusttransport/admin/incidents/:incidentId/resolve`
+  - `POST /api/trusttransport/admin/accounts/:userId/restrict`
+  - `POST /api/trusttransport/admin/accounts/:userId/restore`
+  - `GET/PUT /api/trusttransport/admin/market-config`
+  - `GET /api/trusttransport/admin/audit-events`
+
 ## Prompt Leak Protection
 
 - This repository includes git hooks that block committing/pushing AI prompt text patterns.

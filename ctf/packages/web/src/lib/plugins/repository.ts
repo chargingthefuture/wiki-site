@@ -128,7 +128,7 @@ const fallbackPluginRegistry: PluginRegistryItem[] = [
     phase: 'phase-2',
     startGate: 'Phase 2',
     summary: 'Ride/package/food fulfillment with safety-first and dispute controls.',
-    availabilityState: 'planned',
+    availabilityState: 'implemented_shell',
     navRank: 100,
     isVisible: true,
   },

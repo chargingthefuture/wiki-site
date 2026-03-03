@@ -7,6 +7,7 @@ import { FoundationShell } from '@/src/components/foundation/foundation-shell';
 import { LighthouseShell } from '@/src/components/lighthouse/lighthouse-shell';
 import { SocketRelayShell } from '@/src/components/socketrelay/socketrelay-shell';
 import { SkillsHuntShell } from '@/src/components/skills-hunt/skills-hunt-shell';
+import { TrustTransportShell } from '@/src/components/trusttransport/trusttransport-shell';
 import { WorkforceShell } from '@/src/components/workforce/workforce-shell';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -175,6 +176,10 @@ export default async function PluginRoutePage({ params }: PluginRoutePageProps) 
 
   if (selectedPlugin.slug === 'socketrelay') {
     return <SocketRelayShell userId={decision.userId} isAdmin={decision.isAdmin} role={decision.role} />;
+  }
+
+  if (selectedPlugin.slug === 'trusttransport') {
+    return <TrustTransportShell userId={decision.userId} isAdmin={decision.isAdmin} />;
   }
 
   return (
