@@ -1,4 +1,5 @@
 import { StreamChat } from 'stream-chat';
+import type { EventTypes } from 'stream-chat';
 import type { MembershipEventType } from './types';
 
 type StreamConfig = {
@@ -43,7 +44,8 @@ export async function emitFeedMembershipEventToStream(input: {
   }
 
   await channel.sendEvent({
-    type: 'feed.membership.updated',
+    type: 'feed.membership.updated' as EventTypes,
+    eventName: 'feed.membership.updated',
     actorId: input.actorId,
     userId: input.userId,
     pluginId: input.pluginId,
