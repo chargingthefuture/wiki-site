@@ -1,0 +1,62 @@
+import { NextResponse } from 'next/server';
+import { ensureMutationCsrf, requireServiceCreditsAdminAccess, serviceCreditsErrorResponse } from '@/src/app/api/service-credits/_lib';
+import { insertServiceCreditsAudit, mintGrant } from '@/src/lib/service-credits/repository';
+
+type MintBody = {
+  targetUserId?: string;
+  amount?: number;
+  grantReason?: string;
+  governanceTicketId?: string;
+  idempotencyKey?: string;
+};
+
+export async function POST(request: Request) {
+  const csrfDeny = ensureMutationCsrf(request);
+  if (csrfDeny) {
+    return csrfDeny;
+  }
+
+  const gate = await requireServiceCreditsAdminAccess();
+  if (!gate.allowed) {
+    return gate.response;
+  }
+
+  let body: MintBody;
+  try {
+    body = (await request.json()) as MintBody;
+  } catch {
+    return NextResponse.json({ ok: false, code: 'service_credits_invalid_json', message: 'Invalid JSON body.' }, { status: 400 });
+  }
+
+  if (!body.targetUserId || typeof body.amount !== 'number' || !body.grantReason || !body.governanceTicketId || !body.idempotencyKey) {
+    return NextResponse.json(
+      { ok: false, code: 'service_credits_invalid_payload', message: 'targetUserId, amount, grantReason, governanceTicketId, and idempotencyKey are required.' },
+      { status: 400 },
+    );
+  }
+
+  try {
+    const grant = await mintGrant({
+      actorId: gate.auth.userId,
+      targetUserId: body.targetUserId,
+      amount: body.amount,
+      grantReason: body.grantReason,
+      governanceTicketId: body.governanceTicketId,
+      idempotencyKey: body.idempotencyKey,
+    });
+
+    await insertServiceCreditsAudit({
+      actorId: gate.auth.userId,
+      command: 'service-credits.governance.mint.grant',
+      policyStatus: 'allow',
+      reason: 'ok',
+      targetType: 'governance_event',
+      targetId: grant.governanceEventId,
+      metadata: { targetUserId: body.targetUserId, amount: body.amount, governanceTicketId: body.governanceTicketId },
+    });
+
+    return NextResponse.json({ ok: true, grant }, { status: 201 });
+  } catch (error) {
+    return serviceCreditsErrorResponse(error, 'Governance mint grant unavailable.');
+  }
+}

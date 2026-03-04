@@ -163,12 +163,15 @@ This folder contains the rewrite monorepo scaffold for:
 ## Service Credits Formance Ledger Requirement
 
 - Service Credits value-moving transfer flows require Formance ledger posting.
+- Self-host operational runbook: `ctf/docs/developer/FORMANCE_LEDGER_SELF_HOST_RUNBOOK.md`
 - Required env vars:
   - `FORMANCE_API_URL`
   - `FORMANCE_LEDGER`
 - Optional env vars:
   - `FORMANCE_API_TOKEN`
   - `FORMANCE_ASSET` (defaults to `SERVICE_CREDITS`)
+  - `SERVICE_CREDITS_REQUIRE_FORMANCE` (set to `true` to force prestart validation outside production/Railway)
+  - `SERVICE_CREDITS_INTERNAL_TOKEN` (required for internal deletion reclaim route)
 - When Formance is not configured or unavailable, `POST /api/service-credits/transfers` returns a deterministic 503 deny code.
 
 ## Prompt Leak Protection

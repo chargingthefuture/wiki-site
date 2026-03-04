@@ -1,0 +1,103 @@
+name: Run CTF Migrations
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_environment:
+        description: "Target environment"
+        type: choice
+        required: true
+        default: staging
+        options:
+          - staging
+          - production
+      migration_mode:
+        description: "Run all migrations or a single file"
+        type: choice
+        required: true
+        default: single
+        options:
+          - single
+          - all
+      migration_file:
+        description: "Required for single mode. Example: ./migrations/2026-03-04-gdp-core-phase3.sql"
+        type: string
+        required: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: run-ctf-migrations-${{ github.event.inputs.target_environment }}
+  cancel-in-progress: false
+
+jobs:
+  run-migrations:
+    name: Run SQL migrations
+    runs-on: ubuntu-latest
+    environment: ${{ github.event.inputs.target_environment == 'production' && 'rewrite-railway-production' || 'rewrite-railway-staging' }}
+    defaults:
+      run:
+        working-directory: ctf
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Install dependencies
+        run: |
+          set -euo pipefail
+          if [ -f pnpm-lock.yaml ]; then
+            pnpm install --frozen-lockfile
+          else
+            pnpm install --no-frozen-lockfile
+          fi
+
+      - name: Validate migration inputs
+        env:
+          MIGRATION_MODE: ${{ github.event.inputs.migration_mode }}
+          MIGRATION_FILE: ${{ github.event.inputs.migration_file }}
+        run: |
+          set -euo pipefail
+
+          if [ "$MIGRATION_MODE" = "single" ]; then
+            [ -n "$MIGRATION_FILE" ] || { echo "migration_file is required when migration_mode=single"; exit 1; }
+
+            case "$MIGRATION_FILE" in
+              ./migrations/*.sql) ;;
+              *)
+                echo "migration_file must be a .sql file under ./migrations/"
+                exit 1
+                ;;
+            esac
+
+            [ -f "$MIGRATION_FILE" ] || { echo "Migration file not found: $MIGRATION_FILE"; exit 1; }
+          fi
+
+      - name: Validate DATABASE_URL secret
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          set -euo pipefail
+          [ -n "$DATABASE_URL" ] || { echo "Missing DATABASE_URL in selected GitHub environment."; exit 1; }
+
+      - name: Run selected migration command
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          MIGRATION_MODE: ${{ github.event.inputs.migration_mode }}
+          MIGRATION_FILE: ${{ github.event.inputs.migration_file }}
+        run: |
+          set -euo pipefail
+
+          if [ "$MIGRATION_MODE" = "all" ]; then
+            pnpm run migrate:all
+          else
+            pnpm run migrate:file -- --file="$MIGRATION_FILE"
+          fi

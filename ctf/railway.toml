@@ -3,4 +3,4 @@
 buildCommand = "corepack enable && corepack prepare pnpm@9.12.0 --activate && NODE_OPTIONS=--max-old-space-size=4096 corepack pnpm build"
 
 [deploy]
-startCommand = "corepack enable && corepack prepare pnpm@9.12.0 --activate && corepack pnpm run check:clerk-env && corepack pnpm start"
+startCommand = "corepack enable && corepack prepare pnpm@9.12.0 --activate && corepack pnpm run check:clerk-env && corepack pnpm run check:formance-env && corepack pnpm start"

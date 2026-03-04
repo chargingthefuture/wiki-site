@@ -9,6 +9,7 @@
     "start": "next start -p ${PORT:-3000}",
     "lint": "eslint src --max-warnings 0",
     "check:clerk-env": "node ./scripts/check-clerk-env.mjs",
+    "check:formance-env": "node ./scripts/check-formance-env.mjs",
     "check:vercel-staging": "CLERK_ENV_TARGET=vercel-staging node ./scripts/check-clerk-env.mjs"
   },
   "dependencies": {
