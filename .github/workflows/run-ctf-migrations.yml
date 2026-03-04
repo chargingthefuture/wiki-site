@@ -101,3 +101,10 @@ jobs:
           else
             pnpm run migrate:file -- --file="$MIGRATION_FILE"
           fi
+
+      - name: Print Formance migration guidance
+        run: |
+          echo "Service Credits Formance adapter migration ordering reminder:"
+          echo "1) pnpm run migrate:service-credits:phase3"
+          echo "2) pnpm run migrate:service-credits:formance-adapter:phase3"
+          echo "Apply both before enabling Formance-required runtime checks in staging/production."

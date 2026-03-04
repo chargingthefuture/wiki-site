@@ -164,11 +164,16 @@ This folder contains the rewrite monorepo scaffold for:
 
 - Service Credits value-moving transfer flows require Formance ledger posting.
 - Self-host operational runbook: `ctf/docs/developer/FORMANCE_LEDGER_SELF_HOST_RUNBOOK.md`
+- Railway staging deployment recipe (service/image/start/bootstrap) is documented in that runbook.
+- Upstream production recommendation boundary is k8s operator; Railway path here is for CTF staging/runtime support.
+- Current pinned Formance image: `ghcr.io/formancehq/ledger:v2.3.15-dev.1.g1077fe2@sha256:5c280c2b1b397c6d910e88d7f1719666fadf3b2be18ab6dad31a905dee876db7`
+- Digest verification command: `docker buildx imagetools inspect ghcr.io/formancehq/ledger:v2.3.15-dev.1.g1077fe2`
 - Required env vars:
-  - `FORMANCE_API_URL`
+  - `FORMANCE_API_URL` (Railway private networking URL, for example `http://ledger.railway.internal:8080`)
   - `FORMANCE_LEDGER`
-- Optional env vars:
   - `FORMANCE_API_TOKEN`
+- Use Railway internal service connectivity for Formance ↔ CTF backend traffic; do not route this through a public generated domain.
+- Optional env vars:
   - `FORMANCE_ASSET` (defaults to `SERVICE_CREDITS`)
   - `SERVICE_CREDITS_REQUIRE_FORMANCE` (set to `true` to force prestart validation outside production/Railway)
   - `SERVICE_CREDITS_INTERNAL_TOKEN` (required for internal deletion reclaim route)

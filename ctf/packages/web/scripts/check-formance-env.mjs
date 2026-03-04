@@ -15,6 +15,23 @@ function isTruthy(value) {
   return normalized === '1' || normalized === 'true' || normalized === 'yes';
 }
 
+function isRailwayInternalHost(hostname) {
+  const normalized = String(hostname || '').trim().toLowerCase();
+  if (!normalized) {
+    return false;
+  }
+
+  if (normalized === 'localhost' || normalized === '127.0.0.1') {
+    return true;
+  }
+
+  if (normalized === 'ledger' || normalized === 'formance-ledger') {
+    return true;
+  }
+
+  return normalized.endsWith('.railway.internal');
+}
+
 const runningOnRailway = inferRailwayRuntime();
 const requireFormance = isTruthy(process.env.SERVICE_CREDITS_REQUIRE_FORMANCE)
   || process.env.NODE_ENV === 'production'
@@ -38,8 +55,20 @@ if (missing.length > 0) {
 
 try {
   const parsed = new URL(String(process.env.FORMANCE_API_URL));
-  if (parsed.protocol !== 'https:' && parsed.hostname !== 'localhost' && parsed.hostname !== '127.0.0.1') {
-    console.error(`FORMANCE_API_URL must use https or localhost for local dev. Received: ${process.env.FORMANCE_API_URL}`);
+  const isInternalHost = isRailwayInternalHost(parsed.hostname);
+
+  if (runningOnRailway) {
+    if (!isInternalHost) {
+      console.error(`FORMANCE_API_URL must target Railway private networking when running on Railway. Use an internal host (for example: http://ledger.railway.internal:8080). Received: ${process.env.FORMANCE_API_URL}`);
+      process.exit(1);
+    }
+
+    if (parsed.protocol !== 'http:' && parsed.protocol !== 'https:') {
+      console.error(`FORMANCE_API_URL must use http or https. Received: ${process.env.FORMANCE_API_URL}`);
+      process.exit(1);
+    }
+  } else if (parsed.protocol !== 'https:' && !isInternalHost) {
+    console.error(`FORMANCE_API_URL must use https for non-local runtimes unless targeting a private internal host. Received: ${process.env.FORMANCE_API_URL}`);
     process.exit(1);
   }
 } catch {
