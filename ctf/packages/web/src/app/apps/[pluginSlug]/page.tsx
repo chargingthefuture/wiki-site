@@ -4,10 +4,16 @@ import { ChymeShell } from '@/src/components/chyme/chyme-shell';
 import { DirectoryShell } from '@/src/components/directory/directory-shell';
 import { FeedAnnouncementsShell } from '@/src/components/feed/feed-announcements-shell';
 import { FoundationShell } from '@/src/components/foundation/foundation-shell';
+import { GdpShell } from '@/src/components/gdp/gdp-shell';
+import { GentlePulseShell } from '@/src/components/gentlepulse/gentlepulse-shell';
 import { LighthouseShell } from '@/src/components/lighthouse/lighthouse-shell';
+import { MoodShell } from '@/src/components/mood/mood-shell';
+import { PeerProgrammingShell } from '@/src/components/peer-programming/peer-programming-shell';
+import { ServiceCreditsShell } from '@/src/components/service-credits/service-credits-shell';
 import { SocketRelayShell } from '@/src/components/socketrelay/socketrelay-shell';
 import { SkillsHuntShell } from '@/src/components/skills-hunt/skills-hunt-shell';
 import { TrustTransportShell } from '@/src/components/trusttransport/trusttransport-shell';
+import { WeeklyPerformanceShell } from '@/src/components/weekly-performance/weekly-performance-shell';
 import { WorkforceShell } from '@/src/components/workforce/workforce-shell';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -180,6 +186,30 @@ export default async function PluginRoutePage({ params }: PluginRoutePageProps) 
 
   if (selectedPlugin.slug === 'trusttransport') {
     return <TrustTransportShell userId={decision.userId} isAdmin={decision.isAdmin} />;
+  }
+
+  if (selectedPlugin.slug === 'peer-programming') {
+    return <PeerProgrammingShell userId={decision.userId} isAdmin={decision.isAdmin} />;
+  }
+
+  if (selectedPlugin.slug === 'mood') {
+    return <MoodShell />;
+  }
+
+  if (selectedPlugin.slug === 'gentlepulse') {
+    return <GentlePulseShell />;
+  }
+
+  if (selectedPlugin.slug === 'weekly-performance') {
+    return <WeeklyPerformanceShell isAdmin={decision.isAdmin} />;
+  }
+
+  if (selectedPlugin.slug === 'gdp') {
+    return <GdpShell isAdmin={decision.isAdmin} />;
+  }
+
+  if (selectedPlugin.slug === 'service-credits') {
+    return <ServiceCreditsShell userId={decision.userId} isAdmin={decision.isAdmin} />;
   }
 
   return (

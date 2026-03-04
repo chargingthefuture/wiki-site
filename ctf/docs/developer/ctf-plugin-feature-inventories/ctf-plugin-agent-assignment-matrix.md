@@ -100,9 +100,9 @@ Status legend:
 | `agent-07-lighthouse`               | Phase 2   | Done        | 2026-03-03 |       |           | Yes              |
 | `agent-08-socketrelay`              | Phase 2   | Done        | 2026-03-03 |       |           | Yes              |
 | `agent-09-trusttransport`           | Phase 2   | Done        | 2026-03-03 |       |           | Yes              |
-| `agent-10-peer-programming`         | Phase 2   | Not started |            |       |           | No               |
-| `agent-11-mood`                     | Phase 2   | Not started |            |       |           | No               |
-| `agent-12-gentlepulse`              | Phase 2   | Not started |            |       |           | No               |
-| `agent-13-weekly-performance`       | Phase 2   | Not started |            |       |           | No               |
-| `agent-14-gdp`                      | Phase 3   | Not started |            |       |           | No               |
-| `agent-15-service-credits`          | Phase 3   | Not started |            |       |           | No               |
+| `agent-10-peer-programming`         | Phase 2   | Done        | 2026-03-04 |       |           | Yes              |
+| `agent-11-mood`                     | Phase 2   | Done        | 2026-03-04 |       |           | Yes              |
+| `agent-12-gentlepulse`              | Phase 2   | Done        | 2026-03-04 |       |           | Yes              |
+| `agent-13-weekly-performance`       | Phase 2   | Done        | 2026-03-04 |       |           | Yes              |
+| `agent-14-gdp`                      | Phase 3   | Done        | 2026-03-04 |       |           | Yes              |
+| `agent-15-service-credits`          | Phase 3   | Done        | 2026-03-04 |       |           | Yes              |

@@ -160,6 +160,17 @@ This folder contains the rewrite monorepo scaffold for:
   - `GET/PUT /api/trusttransport/admin/market-config`
   - `GET /api/trusttransport/admin/audit-events`
 
+## Service Credits Formance Ledger Requirement
+
+- Service Credits value-moving transfer flows require Formance ledger posting.
+- Required env vars:
+  - `FORMANCE_API_URL`
+  - `FORMANCE_LEDGER`
+- Optional env vars:
+  - `FORMANCE_API_TOKEN`
+  - `FORMANCE_ASSET` (defaults to `SERVICE_CREDITS`)
+- When Formance is not configured or unavailable, `POST /api/service-credits/transfers` returns a deterministic 503 deny code.
+
 ## Prompt Leak Protection
 
 - This repository includes git hooks that block committing/pushing AI prompt text patterns.
