@@ -44,7 +44,7 @@ export default function Home() {
           >
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-white font-heading font-bold uppercase tracking-widest border-2 border-black mb-6 comic-shadow-sm transform -rotate-1">
               <Flame size={18} fill="currentColor" />
-              <span>Secure Intel Network</span>
+              <span>Survivor Network</span>
             </div>
             
             <h1 className="font-display text-6xl sm:text-7xl lg:text-8xl text-white uppercase leading-[0.9] mb-6 drop-shadow-[0_10px_20px_rgba(0,0,0,0.8)]" style={{WebkitTextStroke: '2px black', textShadow: '4px 4px 0 #000'}}>

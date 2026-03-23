@@ -38,7 +38,7 @@ export function ShellRightRail({ stats, activePlugins, implementedCount }: Shell
       </section>
 
       <section className={styles.quoteCard}>
-        <p className={styles.quoteText}>"You are not what happened to you. You are what you choose to become."</p>
+        <p className={styles.quoteText}>&ldquo;You are not what happened to you. You are what you choose to become.&rdquo;</p>
         <p className={styles.quoteAuthor}>— Carl Jung</p>
       </section>
 

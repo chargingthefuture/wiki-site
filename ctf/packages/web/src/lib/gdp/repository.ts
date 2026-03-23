@@ -103,6 +103,17 @@ export async function upsertPublication(input: {
   return mapPublication(fallback.rows[0]);
 }
 
+export async function getGdpShellStats(): Promise<{ memberCount: number | null; gdpValueUsd: number | null }> {
+  const report = await getLatestPublication();
+  if (!report) return { memberCount: null, gdpValueUsd: null };
+  const memberMetric = report.metrics.find((m) => m.metricKey === 'weekly_active_users');
+  const gdpMetric = report.metrics.find((m) => m.metricKey === 'gdp_total_revenue');
+  return {
+    memberCount: memberMetric ? memberMetric.metricValue : null,
+    gdpValueUsd: gdpMetric ? gdpMetric.metricValue : null,
+  };
+}
+
 export async function insertGdpAudit(input: {
   actorId: string;
   command: string;
