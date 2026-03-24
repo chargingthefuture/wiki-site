@@ -92,8 +92,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
               <h3 className="font-heading text-2xl uppercase font-bold text-primary mb-6 border-b-2 border-gray-800 pb-2 inline-block">Resources</h3>
               <ul className="space-y-3 font-sans font-medium">
                 <li><Link href="/" className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> Transmissions</Link></li>
-                <li><a href="https://chargingthefuture.com" className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> Main Site</a></li>
-                <li><a href="https://github.com/chargingthefuture/chargingthefuture/wiki" className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> GitHub Wiki</a></li>
+                <li><a href="https://chargingthefuture.com" target="_blank" rel="noopener noreferrer" className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> Main Site</a></li>
+                <li><a href="https://github.com/chargingthefuture/chargingthefuture/wiki" target="_blank" rel="noopener noreferrer" className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> GitHub Wiki</a></li>
               </ul>
             </div>
             
