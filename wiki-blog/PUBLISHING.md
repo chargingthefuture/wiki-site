@@ -44,6 +44,7 @@ This document is the operator runbook for every publishing scenario.
    unzip quora-data-XXXXX.zip -d /tmp/quora-export
    ```
 3. Run the converter (from `wiki-blog`):
+
    ```bash
    pnpm blog:convert:quora /tmp/quora-export /tmp/quora-md --category=Stories
    ```
@@ -52,6 +53,7 @@ This document is the operator runbook for every publishing scenario.
      ```bash
      pnpm blog:convert:quora /tmp/quora-export/answers.html /tmp/quora-md
      ```
+
 4. Review the generated `.md` files — fix slugs, clean up any formatting artefacts.
 5. Push markdown files to GitHub Wiki:
 
@@ -175,13 +177,28 @@ You still need one setting in GitHub.com:
 2. Go to **Pages**.
 3. Under **Build and deployment**, set **Source** to **GitHub Actions**.
 
-After that, pushes to `main` or `v3` that touch `wiki-blog/**` will build and deploy automatically.
+After that, pushes to `v3` that touch `wiki-blog/**` will build and deploy automatically.
 
 Notes:
 
 - The workflow builds with `BASE_PATH=/chargingthefuture/`, which matches the default repo Pages URL.
 - It also copies `index.html` to `404.html` so deep links like `/article/...` still work on GitHub Pages.
+- For now, deployment is intentionally tied to `v3` because `main` still serves the legacy app.
+- Later, change the branch filter in [.github/workflows/deploy-blog-gh-pages.yml](../.github/workflows/deploy-blog-gh-pages.yml) from `v3` to `main`.
 - If you later move to a custom domain or user/org Pages site, update the `blog:build:pages` script in [wiki-blog/package.json](package.json).
+
+### Validation Workflow
+
+The validation workflow is separate from deployment.
+
+Validation means these CI checks run without publishing anything:
+
+- content index validation
+- article sync consistency check
+- TypeScript typecheck
+- production build verification
+
+Right now that validation workflow runs on `v3` pushes and on pull requests that touch `wiki-blog/**`.
 
 ---
 

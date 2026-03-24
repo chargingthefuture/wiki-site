@@ -2,14 +2,16 @@ name: Blog — Validate & Build
 
 on:
   push:
-    branches: [main, v3]
+    # Validation means CI checks only: content validation, sync check, typecheck, and build.
+    # It does not publish the site.
+    branches: [v3]
     paths:
-      - 'wiki-blog/**'
-      - '.github/workflows/blog-validate.yml'
+      - "wiki-blog/**"
+      - ".github/workflows/blog-validate.yml"
   pull_request:
     paths:
-      - 'wiki-blog/**'
-      - '.github/workflows/blog-validate.yml'
+      - "wiki-blog/**"
+      - ".github/workflows/blog-validate.yml"
 
 jobs:
   validate-and-build:
@@ -28,8 +30,8 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '22'
-          cache: 'pnpm'
+          node-version: "22"
+          cache: "pnpm"
           cache-dependency-path: wiki-blog/pnpm-lock.yaml
 
       - name: Install dependencies

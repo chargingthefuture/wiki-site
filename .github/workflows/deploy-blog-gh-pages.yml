@@ -2,7 +2,9 @@ name: Deploy Blog to GitHub Pages
 
 on:
   push:
-    branches: [main, v3]
+    # Temporary: deploy from v3 while the legacy app stays on main.
+    # Future: change this to [main] when the new app becomes primary.
+    branches: [v3]
     paths:
       - "wiki-blog/**"
       - ".github/workflows/deploy-blog-gh-pages.yml"
