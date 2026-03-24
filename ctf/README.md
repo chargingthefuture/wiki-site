@@ -38,6 +38,11 @@ This folder contains the rewrite monorepo scaffold for:
 - `packages/web`: Next.js web application
 - `packages/mobile`: Expo + React Native Android application
 
+## Design Mockups Sync
+
+- Runbook: `ctf/docs/developer/MOCKUPS_SUBMODULE_SYNC_RUNBOOK.md`
+- Most common update command: `git submodule update --remote --merge`
+
 ## Invite-Only Access Flow (Rewrite)
 
 - Users sign in with Clerk on the web app root page.
