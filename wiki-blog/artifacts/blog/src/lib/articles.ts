@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Terms-of-Service-and-Privacy-Policy",
+    title: "Terms of Service and Privacy Policy",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-03-24",
+    excerpt: "Official Terms of Service and Privacy Policy for Charging the Future and the TI Skills Economy.",
+    category: "Security"
+  },
+  {
     slug: "Dictionary",
     title: "Dictionary: TI Skills Economy Terms",
     repo: "chargingthefuture/chargingthefuture",
