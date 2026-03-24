@@ -1,13 +1,26 @@
 import { NextResponse } from 'next/server';
 import { WORKFORCE_ERROR_CODE } from '@/src/lib/workforce/constants';
+import { getObservabilityReporter } from '@/src/lib/observability/provider';
 import { runIncrementalRecruitedSync } from '@/src/lib/workforce/repository';
 
 type SyncBody = {
   batchSize?: number;
 };
 
+const WORKFORCE_INCREMENTAL_SYNC_MONITOR_SLUG = 'workforce-incremental-sync';
+
 function isAuthorized(request: Request): boolean {
   const configuredToken = process.env.WORKFORCE_SYNC_TOKEN;
+  const configuredCronSecret = process.env.CRON_SECRET;
+
+  const authorizationHeader = request.headers.get('authorization') ?? '';
+  if (configuredCronSecret && configuredCronSecret.trim().length > 0) {
+    const expectedBearer = `Bearer ${configuredCronSecret}`;
+    if (authorizationHeader === expectedBearer) {
+      return true;
+    }
+  }
+
   if (!configuredToken || configuredToken.trim().length === 0) {
     return false;
   }
@@ -32,12 +45,37 @@ export async function POST(request: Request) {
   }
 
   try {
-    const result = await runIncrementalRecruitedSync(null, {
-      batchSize: Number.isFinite(body.batchSize) ? Number(body.batchSize) : undefined,
-      source: 'internal_token_sync',
+    const reporter = getObservabilityReporter();
+    const checkInId = await reporter.captureCronCheckIn({
+      monitorSlug: WORKFORCE_INCREMENTAL_SYNC_MONITOR_SLUG,
+      status: 'in_progress',
     });
 
-    return NextResponse.json({ ok: true, ...result }, { status: 200 });
+    try {
+      const result = await runIncrementalRecruitedSync(null, {
+        batchSize: Number.isFinite(body.batchSize) ? Number(body.batchSize) : undefined,
+        source: 'internal_token_sync',
+      });
+
+      await reporter.captureCronCheckIn({
+        monitorSlug: WORKFORCE_INCREMENTAL_SYNC_MONITOR_SLUG,
+        status: 'ok',
+        checkInId,
+      });
+
+      return NextResponse.json({ ok: true, ...result }, { status: 200 });
+    } catch {
+      await reporter.captureCronCheckIn({
+        monitorSlug: WORKFORCE_INCREMENTAL_SYNC_MONITOR_SLUG,
+        status: 'error',
+        checkInId,
+      });
+
+      return NextResponse.json(
+        { ok: false, code: WORKFORCE_ERROR_CODE.persistenceUnavailable, message: 'Unable to run internal incremental sync.' },
+        { status: 503 },
+      );
+    }
   } catch {
     return NextResponse.json(
       { ok: false, code: WORKFORCE_ERROR_CODE.persistenceUnavailable, message: 'Unable to run internal incremental sync.' },
