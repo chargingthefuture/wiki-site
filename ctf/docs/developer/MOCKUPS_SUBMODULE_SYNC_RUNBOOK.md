@@ -54,6 +54,16 @@ git status
 # commit or discard changes in submodule, then retry
 ```
 
+If this repo should treat `design/mockups` as reference-only (no local edits kept), run:
+
+```bash
+git -C design/mockups restore --staged --worktree .
+git -C design/mockups clean -fd
+git status --short
+```
+
+Expected result: `design/mockups` no longer shows `modified content` in the parent repo.
+
 3. Teammate freshly cloned the main repo and submodule is empty:
 
 ```bash
