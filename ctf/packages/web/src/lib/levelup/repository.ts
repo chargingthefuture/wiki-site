@@ -20,6 +20,18 @@ function roundCurrency(value: number): number {
   return Math.round(value * 100) / 100;
 }
 
+function calculateTrainerPayout(learnerReleaseAmount: number, trainerSplitPercent: number): number {
+  if (trainerSplitPercent <= 0) {
+    return 0;
+  }
+  if (trainerSplitPercent >= 100) {
+    throw new Error('invalid_payload');
+  }
+  // Business rule: trainer split is computed from total milestone allotment,
+  // where learner release represents (100 - split)% of the milestone amount.
+  return roundCurrency((learnerReleaseAmount * trainerSplitPercent) / (100 - trainerSplitPercent));
+}
+
 function ensurePositiveAmount(amount: number) {
   if (!Number.isFinite(amount) || amount <= 0) {
     throw new Error('invalid_payload');
@@ -736,7 +748,7 @@ export async function releaseMilestoneCredits(input: {
 
     const heldAmount = toNumber(escrow.rows[0].held_amount);
     const trainerSplitPercent = toNumber(cohort.rows[0].trainer_split_percent);
-    const trainerPayoutAmount = roundCurrency((heldAmount * trainerSplitPercent) / 100);
+    const trainerPayoutAmount = calculateTrainerPayout(heldAmount, trainerSplitPercent);
 
     const allMilestones = await client.query<{ total: string; released: string }>(
       `SELECT

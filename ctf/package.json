@@ -16,6 +16,7 @@
     "seed:lighthouse": "node ./scripts/seedLighthousePhase2.mjs",
     "seed:socketrelay": "node ./scripts/seedSocketRelayPhase2.mjs",
     "seed:trusttransport": "node ./scripts/seedTrustTransportPhase2.mjs",
+    "seed:levelup": "node ./scripts/seedLevelupPhase3.mjs",
     "sync:skills-taxonomy:legacy": "node ./scripts/syncSkillsTaxonomyFromPlatform.mjs --mode=sync",
     "migrate:file": "node ./scripts/runMigrationFile.mjs",
     "migrate:all": "node ./scripts/runAllMigrations.mjs",

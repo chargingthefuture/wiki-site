@@ -1,0 +1,101 @@
+# LevelUp Plugin Feature Inventory (CTF Rewrite)
+
+## Scope and Boundary
+
+- Rewrite target only: `ctf/`
+- Legacy reference excluded from implementation: `platform/`
+- Plugin name: `LevelUp`
+- Plugin slug: `levelup`
+
+## Implemented User Features
+
+1. Cohort listing with filters for `track`, `status`, and `startDate`.
+2. Cohort detail view with curriculum, milestones, and enrollment affordance.
+3. Enrollment flow with optional deposit policy and escrow split per milestone.
+4. User dashboard with wallet balance, LevelUp escrow totals, active enrollments, and recent transactions.
+5. Dispute open flow with comments and attachment metadata support.
+
+## Implemented Trainer Features
+
+1. Milestone validation endpoint for trainer/admin.
+2. Milestone release endpoint that settles learner escrow and trainer payout split.
+3. Trainer dashboard with cohorts, pending validations, trainees, and payout ledger summary.
+
+## Implemented Admin Features
+
+1. Admin credit adjustment endpoint (`mint`/`adjustment` path).
+2. Dispute resolution endpoint with optional adjustment transfer.
+3. Admin panel with KPI placeholders (enrollments, completions, time-to-first-billable-hour placeholder).
+
+## API Surface and Route Map
+
+- `GET /api/levelup/cohorts`
+- `POST /api/levelup/cohorts`
+- `POST /api/levelup/enroll`
+- `POST /api/levelup/milestones/[milestoneId]/validate`
+- `POST /api/levelup/milestones/[milestoneId]/release`
+- `POST /api/levelup/transfers`
+- `POST /api/levelup/disputes`
+- `POST /api/levelup/disputes/[disputeId]/resolve`
+- `POST /api/levelup/admin/adjust-credits`
+
+## Data Model and Storage Contracts
+
+Primary migration: `ctf/migrations/2026-03-24-levelup-core-phase3.sql`
+
+Core tables:
+
+1. `levelup_cohorts`
+2. `levelup_curriculum_items`
+3. `levelup_milestones`
+4. `levelup_enrollments`
+5. `levelup_enrollment_milestone_escrows`
+6. `levelup_milestone_validations`
+7. `levelup_disbursements`
+8. `levelup_stipend_schedules`
+9. `levelup_disputes`
+10. `levelup_dispute_comments`
+11. `levelup_rate_limit_counters`
+12. `levelup_command_idempotency`
+13. `levelup_audit_events`
+14. `levelup_policy_config`
+
+External value movement dependencies:
+
+- `service_credits_wallets`
+- `service_credits_transfers`
+- `service_credits_escrow_holds`
+- `service_credits_governance_events`
+- `service_credits_dispute_adjustments`
+
+## Security and Compliance Controls
+
+1. Server-side role and access checks (`admin`, `trainer`, `user`) via plugin access gate.
+2. CSRF checks enforced on mutation endpoints.
+3. Input validation via `zod` on all LevelUp routes.
+4. Command idempotency persistence for mutation replay safety.
+5. Audit events for all implemented LevelUp commands.
+6. Enrollment and milestone validate rate-limit counters persisted in DB.
+
+## Seed Coverage Status
+
+Deterministic seed script added:
+
+- `ctf/scripts/seedLevelupPhase3.mjs`
+
+Seed content:
+
+1. 5 users by deterministic IDs (1 admin, 1 trainer, 3 trainees).
+2. Trainees set to 500 ServiceCredits each.
+3. Open cohort with required credits 300, milestones (30/70), and baseline payout/refund policy JSON.
+
+## Gaps, Ambiguities, and Technical Debt
+
+1. Automated test suites are intentionally deferred for MVP (Rule 118).
+2. Android parity implementation is not included in this web-first pass; follow-up parity ticket required before GA.
+3. KPI fields in admin panel remain placeholders pending analytics contract finalization.
+4. Dispute attachment storage uses URL metadata only; secure storage integration remains a follow-up.
+
+## Change Log
+
+- 2026-03-24: Initial LevelUp phase-3 implementation inventory created (schema, repository, API routes, shell components, seed script, contracts).

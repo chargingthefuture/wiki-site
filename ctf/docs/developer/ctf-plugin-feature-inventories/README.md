@@ -36,6 +36,8 @@ Examples:
 - [Gross Domestic Product rewrite checklist](./ctf-gross-domestic-product-rewrite-checklist.md)
 - [Service Credits feature inventory](./ctf-service-credits-feature-inventory.md)
 - [Service Credits rewrite checklist](./ctf-service-credits-rewrite-checklist.md)
+- [LevelUp feature inventory](./ctf-levelup-feature-inventory.md)
+- [LevelUp rewrite checklist](./ctf-levelup-rewrite-checklist.md)
 - [Skills Hunt feature inventory](./ctf-skills-hunt-feature-inventory.md)
 - [Skills Hunt rewrite checklist](./ctf-skills-hunt-rewrite-checklist.md)
 - [Workforce feature inventory](./ctf-workforce-feature-inventory.md)
