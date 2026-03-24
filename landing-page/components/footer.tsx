@@ -31,6 +31,15 @@ export function Footer() {
                   Access: Open source code
                 </a>
               </li>
+                            <li>
+                <a href={config.links.blog}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Blog"
+                >
+                  Blog
+                </a>
+              </li>
               <li>
                 <a href={config.links.signalGroup}
                   target="_blank"
