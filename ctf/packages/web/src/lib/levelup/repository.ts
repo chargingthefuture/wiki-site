@@ -391,8 +391,15 @@ export async function enrollInCohort(input: {
   allowWithoutDeposit?: boolean;
   assignedTrainerId?: string | null;
 }) {
+  type EnrollmentCreateResponse = {
+    enrollmentId: string;
+    status: 'enrolled';
+    depositRequested: number;
+    milestones: Array<{ id: string; percentRelease: number; sequenceNo: number }>;
+  };
+
   const draft = await withDbTransaction(async (client) => {
-    const existing = await readCommandIdempotency<{ enrollmentId: string }>(client, input.actorId, 'levelup.enrollment.create', input.idempotencyKey);
+    const existing = await readCommandIdempotency<EnrollmentCreateResponse>(client, input.actorId, 'levelup.enrollment.create', input.idempotencyKey);
     if (existing) {
       return existing;
     }
@@ -436,7 +443,12 @@ export async function enrollInCohort(input: {
       [input.cohortId, input.actorId],
     );
     if (enrollmentExisting.rows[0]) {
-      const response = { enrollmentId: enrollmentExisting.rows[0].id, status: 'enrolled' as const };
+      const response: EnrollmentCreateResponse = {
+        enrollmentId: enrollmentExisting.rows[0].id,
+        status: 'enrolled',
+        depositRequested: 0,
+        milestones: [],
+      };
       await writeCommandIdempotency(client, input.actorId, 'levelup.enrollment.create', input.idempotencyKey, response);
       return response;
     }
@@ -479,9 +491,9 @@ export async function enrollInCohort(input: {
       [input.cohortId],
     );
 
-    const response = {
+    const response: EnrollmentCreateResponse = {
       enrollmentId,
-      status: 'enrolled' as const,
+      status: 'enrolled',
       depositRequested,
       milestones: milestones.rows.map((row) => ({
         id: row.id,
@@ -621,21 +633,42 @@ export async function releaseMilestoneCredits(input: {
   milestoneId: string;
   idempotencyKey: string;
 }) {
-  const releaseDraft = await withDbTransaction(async (client) => {
-    const existing = await readCommandIdempotency<{
-      enrollmentId: string;
-      milestoneId: string;
-      userTransferId: string;
-      trainerPayoutGovernanceId: string | null;
-      completionBonusGovernanceId: string | null;
-      releasedAmount: number;
-      trainerPayoutAmount: number;
-      completionBonusAmount: number;
-    }>(client, input.actorId, 'levelup.milestone.release', input.idempotencyKey);
-    if (existing) {
-      return existing;
-    }
+  type MilestoneReleaseDraft = {
+    enrollmentId: string;
+    milestoneId: string;
+    escrowId: string;
+    recipientUserId: string;
+    trainerUserId: string | null;
+    cohortId: string;
+    releasedAmount: number;
+    trainerPayoutAmount: number;
+    completionBonusAmount: number;
+    isFinalMilestone: boolean;
+  };
 
+  type MilestoneReleaseResponse = {
+    enrollmentId: string;
+    milestoneId: string;
+    userTransferId: string;
+    trainerPayoutGovernanceId: string | null;
+    completionBonusGovernanceId: string | null;
+    releasedAmount: number;
+    trainerPayoutAmount: number;
+    completionBonusAmount: number;
+  };
+
+  const existingRelease = await queryDb<{ response_payload: MilestoneReleaseResponse }>(
+    `SELECT response_payload
+     FROM levelup_command_idempotency
+     WHERE actor_id = $1 AND command_name = 'levelup.milestone.release' AND idempotency_key = $2
+     LIMIT 1`,
+    [input.actorId, input.idempotencyKey],
+  );
+  if (existingRelease.rows[0]?.response_payload) {
+    return existingRelease.rows[0].response_payload;
+  }
+
+  const releaseDraft = await withDbTransaction(async (client) => {
     const validation = await client.query<{ status: string }>(
       `SELECT status
        FROM levelup_milestone_validations
@@ -720,7 +753,7 @@ export async function releaseMilestoneCredits(input: {
     const alreadyReleased = Number(allMilestones.rows[0]?.released ?? '0');
     const isFinalMilestone = totalMilestones > 0 && alreadyReleased + 1 >= totalMilestones;
 
-    return {
+    const response: MilestoneReleaseDraft = {
       enrollmentId: input.enrollmentId,
       milestoneId: input.milestoneId,
       escrowId: escrow.rows[0].escrow_id,
@@ -732,6 +765,8 @@ export async function releaseMilestoneCredits(input: {
       completionBonusAmount: isFinalMilestone ? toNumber(cohort.rows[0].completion_bonus_credits) : 0,
       isFinalMilestone,
     };
+
+    return response;
   });
 
   // Business rule: milestone release returns escrowed credits to the learner first.

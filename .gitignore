@@ -8,6 +8,7 @@ pnpm-lock.yaml
 # package-lock.json
 !platform/package-lock.json
 !ctf/pnpm-lock.yaml
+!wiki-blog/pnpm-lock.yaml
 
 # Platform build output
 platform/dist/

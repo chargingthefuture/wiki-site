@@ -149,6 +149,13 @@ export const pluginCatalog: PluginCatalogItem[] = [
     startGate: 'Phase 3',
     summary: 'Wallet/transfers/escrow/disputes and treasury governance workflows.',
   },
+  {
+    id: 'levelup',
+    name: 'LevelUp',
+    phase: 'phase-3',
+    startGate: 'Phase 3',
+    summary: 'Flexible training cohorts with milestone escrow release, trainer payouts, stipends, and disputes.',
+  },
 ];
 
 export const baselinePluginCount = pluginCatalog.filter((plugin) => plugin.phase === 'baseline').length;

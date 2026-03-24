@@ -22,6 +22,8 @@ const milestoneSchema = z.object({
   requiredTask: z.string().min(1),
 });
 
+const jsonObjectSchema = z.object({}).catchall(z.unknown());
+
 const createCohortSchema = z.object({
   idempotencyKey: z.string().min(3),
   title: z.string().min(1),
@@ -42,9 +44,9 @@ const createCohortSchema = z.object({
   stipendIntervalDays: z.number().int().positive().nullable().optional(),
   micrograntMode: z.enum(['none', 'cohort_pool', 'separate_grant']).optional(),
   micrograntAmount: z.number().min(0).optional(),
-  refundPolicyJson: z.record(z.unknown()).optional(),
-  payoutPolicyJson: z.record(z.unknown()).optional(),
-  policyJson: z.record(z.unknown()).optional(),
+  refundPolicyJson: jsonObjectSchema.optional(),
+  payoutPolicyJson: jsonObjectSchema.optional(),
+  policyJson: jsonObjectSchema.optional(),
   curriculumItems: z.array(curriculumItemSchema).optional(),
   milestones: z.array(milestoneSchema).optional(),
 });

@@ -192,12 +192,23 @@ const fallbackPluginRegistry: PluginRegistryItem[] = [
     navRank: 160,
     isVisible: true,
   },
+  {
+    slug: 'levelup',
+    name: 'LevelUp',
+    phase: 'phase-3',
+    startGate: 'Phase 3',
+    summary: 'Flexible training cohorts with milestone escrow release, trainer payouts, stipends, and disputes.',
+    availabilityState: 'implemented_shell',
+    navRank: 170,
+    isVisible: true,
+  },
 ];
 
 const pluginAliasMap: Record<string, string> = {
   announcements: 'feed-announcements',
   feed: 'feed-announcements',
   'gross-domestic-product': 'gdp',
+  leveluptraining: 'levelup',
   servicecredits: 'service-credits',
   'socket-relay': 'socketrelay',
   'trust-transport': 'trusttransport',

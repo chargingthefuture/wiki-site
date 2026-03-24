@@ -9,6 +9,7 @@ const plugins = [
   { slug: 'trusttransport', name: 'TrustTransport' },
   { slug: 'directory', name: 'Directory' },
   { slug: 'service-credits', name: 'Service Credits' },
+  { slug: 'levelup', name: 'LevelUp' },
 ];
 
 export default function AppsIndexPage() {

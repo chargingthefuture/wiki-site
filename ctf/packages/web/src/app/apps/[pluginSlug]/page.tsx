@@ -7,6 +7,7 @@ import { FoundationShell } from '@/src/components/foundation/foundation-shell';
 import { GdpShell } from '@/src/components/gdp/gdp-shell';
 import { GentlePulseShell } from '@/src/components/gentlepulse/gentlepulse-shell';
 import { LighthouseShell } from '@/src/components/lighthouse/lighthouse-shell';
+import { LevelupShell } from '@/src/components/levelup/levelup-shell';
 import { MoodShell } from '@/src/components/mood/mood-shell';
 import { PeerProgrammingShell } from '@/src/components/peer-programming/peer-programming-shell';
 import { ServiceCreditsShell } from '@/src/components/service-credits/service-credits-shell';
@@ -21,6 +22,12 @@ import { notFound } from 'next/navigation';
 type PluginRoutePageProps = {
   params: Promise<{
     pluginSlug: string;
+  }>;
+  searchParams: Promise<{
+    track?: string;
+    status?: string;
+    startDate?: string;
+    cohortId?: string;
   }>;
 };
 
@@ -123,8 +130,9 @@ function GenericPluginView({
   );
 }
 
-export default async function PluginRoutePage({ params }: PluginRoutePageProps) {
+export default async function PluginRoutePage({ params, searchParams }: PluginRoutePageProps) {
   const resolvedParams = await params;
+  const resolvedSearchParams = await searchParams;
   const requestedPluginSlug = canonicalizePluginSlug(resolvedParams.pluginSlug);
   const selectedPlugin = await getPluginBySlug(requestedPluginSlug);
 
@@ -210,6 +218,10 @@ export default async function PluginRoutePage({ params }: PluginRoutePageProps) 
 
   if (selectedPlugin.slug === 'service-credits') {
     return <ServiceCreditsShell userId={decision.userId} isAdmin={decision.isAdmin} />;
+  }
+
+  if (selectedPlugin.slug === 'levelup') {
+    return <LevelupShell userId={decision.userId} isAdmin={decision.isAdmin} query={resolvedSearchParams} />;
   }
 
   return (
