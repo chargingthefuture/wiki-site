@@ -6,7 +6,7 @@ export async function getTrustUserExtension(userId: string): Promise<TrustUserEx
   const result = await queryDb<{
     user_id: string;
     trust_status: string;
-    trust_evidence: any;
+    trust_evidence: import('./types').TrustEvidenceItem[];
     trust_visibility: string;
     updated_at: Date;
   }>(
