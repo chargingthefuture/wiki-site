@@ -8,16 +8,23 @@
  *   tsx sync-articles.ts --dry-run  # preview only, no writes
  */
 
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { dirname, resolve } from 'node:path';
+import { dirname, relative, resolve } from 'node:path';
 import { load } from 'js-yaml';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const BLOG_ROOT = resolve(__dirname, '../..');
+const WIKI_ROOT = resolve(BLOG_ROOT, '../wiki');
 const CONTENT_INDEX = resolve(BLOG_ROOT, 'content-index.yaml');
 const ARTICLES_TS = resolve(BLOG_ROOT, 'artifacts/blog/src/lib/articles.ts');
 const isDryRun = process.argv.includes('--dry-run');
+const DEFAULT_INFERRED_DATE = '2026-01-01';
+const FOLDER_CATEGORY_MAP: Record<string, string> = {
+  guides: 'Guides',
+  insights: 'Insights',
+  'member of the day': 'Member of the Day',
+};
 
 interface ArticleEntry {
   slug: string;
@@ -33,8 +40,115 @@ interface ContentIndex {
   articles: ArticleEntry[];
 }
 
+interface InferredMeta {
+  title: string;
+  date: string;
+  excerpt: string;
+}
+
 function esc(s: string): string {
   return s.replace(/\\/g, '\\\\').replace(/"/g, '\\"');
+}
+
+function cleanExcerptLine(line: string): string {
+  return line
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, '')
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/[`*_>#|]/g, ' ')
+    .replace(/&hellip;/gi, '...')
+    .replace(/&nbsp;/gi, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function toIsoDate(raw?: string): string | undefined {
+  if (!raw) return undefined;
+  const d = new Date(raw.trim());
+  if (isNaN(d.getTime())) return undefined;
+  return d.toISOString().slice(0, 10);
+}
+
+function inferMetaFromMarkdown(markdown: string, slug: string, category: string): InferredMeta {
+  const comment = markdown.match(/<!--([\s\S]*?)-->/)?.[1] ?? '';
+  const titleFromMeta = comment.match(/^\s*Title:\s*(.+)$/im)?.[1]?.trim();
+  const created = comment.match(/^\s*Created:\s*(.+)$/im)?.[1]?.trim();
+  const updated = comment.match(/^\s*Updated:\s*(.+)$/im)?.[1]?.trim();
+  const excerptFromMeta = comment.match(/^\s*Excerpt:\s*(.+)$/im)?.[1]?.trim();
+  const titleFromHeading = markdown.match(/^#\s+(.+)$/m)?.[1]?.trim();
+
+  const title = titleFromMeta || titleFromHeading || slug.split('/').pop()?.replace(/-/g, ' ') || slug;
+  const date = toIsoDate(created) || toIsoDate(updated) || DEFAULT_INFERRED_DATE;
+
+  let excerpt = excerptFromMeta ? cleanExcerptLine(excerptFromMeta) : '';
+  if (!excerpt) {
+    for (const line of markdown.split('\n')) {
+      const t = line.trim();
+      if (!t || t.startsWith('#') || t.startsWith('<!--') || t.startsWith('>')) continue;
+      const cleaned = cleanExcerptLine(t);
+      if (cleaned.length >= 24) {
+        excerpt = cleaned;
+        break;
+      }
+    }
+  }
+  if (!excerpt) excerpt = `${category} post from Charging The Future Wiki.`;
+  if (excerpt.length > 160) excerpt = `${excerpt.slice(0, 159)}...`;
+
+  return { title, date, excerpt };
+}
+
+function listMarkdownFiles(dir: string): string[] {
+  const files: string[] = [];
+  for (const entry of readdirSync(dir, { withFileTypes: true })) {
+    const fullPath = resolve(dir, entry.name);
+    if (entry.isDirectory()) {
+      files.push(...listMarkdownFiles(fullPath));
+      continue;
+    }
+    if (entry.isFile() && entry.name.toLowerCase().endsWith('.md')) {
+      files.push(fullPath);
+    }
+  }
+  return files;
+}
+
+function mergeFolderMappedArticles(contentIndexArticles: ArticleEntry[]): { merged: ArticleEntry[]; inferredCount: number } {
+  const merged = [...contentIndexArticles];
+  const knownSlugs = new Set(contentIndexArticles.map((a) => a.slug.toLowerCase()));
+  let inferredCount = 0;
+
+  for (const [folder, category] of Object.entries(FOLDER_CATEGORY_MAP)) {
+    const folderPath = resolve(WIKI_ROOT, folder);
+    let markdownFiles: string[] = [];
+    try {
+      markdownFiles = listMarkdownFiles(folderPath);
+    } catch {
+      continue;
+    }
+
+    for (const file of markdownFiles.sort((a, b) => a.localeCompare(b))) {
+      const relPath = relative(folderPath, file).replace(/\\/g, '/');
+      const slug = `${folder}/${relPath.replace(/\.md$/i, '')}`;
+      if (knownSlugs.has(slug.toLowerCase())) continue;
+
+      const markdown = readFileSync(file, 'utf8');
+      const meta = inferMetaFromMarkdown(markdown, slug, category);
+
+      merged.push({
+        slug,
+        title: meta.title,
+        repo: 'chargingthefuture/chargingthefuture',
+        date: meta.date,
+        excerpt: meta.excerpt,
+        category,
+      });
+      knownSlugs.add(slug.toLowerCase());
+      inferredCount++;
+    }
+  }
+
+  return { merged, inferredCount };
 }
 
 function render(articles: ArticleEntry[]): string {
@@ -100,7 +214,8 @@ function main() {
     process.exit(1);
   }
 
-  const generated = render(parsed.articles);
+  const { merged, inferredCount } = mergeFolderMappedArticles(parsed.articles);
+  const generated = render(merged);
 
   if (isDryRun) {
     let current = '';
@@ -128,7 +243,9 @@ function main() {
   }
 
   writeFileSync(ARTICLES_TS, generated, 'utf8');
-  console.log(`✓ Wrote ${parsed.articles.length} articles → ${ARTICLES_TS}`);
+  console.log(
+    `✓ Wrote ${merged.length} articles (content-index: ${parsed.articles.length}, folder-inferred: ${inferredCount}) → ${ARTICLES_TS}`
+  );
 }
 
 main();

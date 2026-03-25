@@ -9,8 +9,14 @@ export function useArticle(repo: string, slug: string) {
     queryFn: async () => {
       // Reconstruct the full repo path
       const fullRepo = repo === 'mono' ? 'chargingthefuture/mono' : 'chargingthefuture/chargingthefuture';
-      
-      const url = `https://raw.githubusercontent.com/wiki/${fullRepo}/${slug}.md`;
+
+      // Encode each segment so folder slugs and special chars (for example '#') resolve correctly.
+      const encodedSlugPath = slug
+        .split('/')
+        .map((segment) => encodeURIComponent(segment))
+        .join('/');
+
+      const url = `https://raw.githubusercontent.com/wiki/${fullRepo}/${encodedSlugPath}.md`;
       const res = await fetch(url);
       
       if (!res.ok) {

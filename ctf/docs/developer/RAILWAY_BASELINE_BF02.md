@@ -21,6 +21,7 @@ This guarantees Railway won't start with misconfigured Clerk domain/env values.
 ## Environment/secret mapping assumptions
 
 ### Railway staging
+
 - Required auth vars:
   - `RAILWAY_STAGING_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` or `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`
   - `RAILWAY_STAGING_CLERK_SECRET_KEY` or `CLERK_SECRET_KEY`
@@ -30,6 +31,7 @@ This guarantees Railway won't start with misconfigured Clerk domain/env values.
   - `RAILWAY_NEXT_PUBLIC_APP_URL`
 
 ### Railway production
+
 - Required auth vars:
   - `RAILWAY_PROD_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` or `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`
   - `RAILWAY_PROD_CLERK_SECRET_KEY` or `CLERK_SECRET_KEY`
@@ -41,6 +43,7 @@ This guarantees Railway won't start with misconfigured Clerk domain/env values.
 ## Auto-target behavior
 
 `check:clerk-env` resolution order:
+
 1. `CLERK_ENV_TARGET` (explicit)
 2. Railway inference from `RAILWAY_ENVIRONMENT_NAME`/related Railway env metadata:
    - contains `prod` => `railway-production`
@@ -70,40 +73,56 @@ This guarantees Railway won't start with misconfigured Clerk domain/env values.
 ## BF-02 v2 Resolution Addendum (2026-03-02)
 
 ### What was incomplete
+
 1. Railway build install path was not lockfile-deterministic (`--no-frozen-lockfile`).
 2. Deploy workflow had no explicit staging/production GitHub Environment targeting.
 3. Clerk env preflight diagnostics lacked explicit target-source output and strict deploy-host constraints.
 
 ### What is now closed
+
 1. Railway build path is lockfile-deterministic (`--frozen-lockfile`) in `ctf/railway.toml`.
 2. Railway deploy workflow now targets explicit environments (`rewrite-railway-staging` / `rewrite-railway-production`) and runs web build pre-deploy.
 3. Clerk env preflight now logs target source and enforces HTTPS + non-localhost app URL constraints for Railway targets.
 
 ### Clarifying questions and answers used for v2 closure
+
 1. Scope path for changes:
-  - Answer: allow `.github/` edits.
+
+- Answer: allow `.github/` edits.
+
 2. Production deploy gate behavior now:
-  - Answer: keep automatic deploy from `main`.
+
+- Answer: keep automatic deploy from `main`.
+
 3. External blocker owner/date default:
-  - Answer: Platform Ops — 2026-03-09.
+
+- Answer: Platform Ops — 2026-03-09.
+
 4. Validation depth:
-  - Answer: run existing checks only.
+
+- Answer: run existing checks only.
 
 ### Updated validation evidence for v2
+
 - `pnpm --filter @ctf/web run check:clerk-env` passed for simulated `railway-staging`.
 - `pnpm --filter @ctf/web run check:clerk-env` passed for simulated `railway-production`.
 - `pnpm --filter @ctf/web run lint` passed.
 - `pnpm --filter @ctf/web run build` passed.
 
 ### Remaining blockers / risks
+
 1. Railway DNS and active host redirect alignment remains external to repo automation.
-  - Owner: Platform Ops
-  - Target date: 2026-03-09
-  - Next action: verify apex/`www` DNS + Railway domain redirect policy and re-run Railway deploy smoke checks.
+
+- Owner: Platform Ops
+- Target date: 2026-03-09
+- Next action: verify apex/`www` DNS + Railway domain redirect policy and re-run Railway deploy smoke checks.
+
 2. Clerk dashboard redirect/sign-in host alignment remains external to repo automation.
-  - Owner: Platform Ops
-  - Target date: 2026-03-09
-  - Next action: confirm Railway active host exact-match entries in Clerk instance and validate sign-in roundtrip.
+
+- Owner: Platform Ops
+- Target date: 2026-03-09
+- Next action: confirm Railway active host exact-match entries in Clerk instance and validate sign-in roundtrip.
 
 ### Completion recommendation
+
 - **complete**
