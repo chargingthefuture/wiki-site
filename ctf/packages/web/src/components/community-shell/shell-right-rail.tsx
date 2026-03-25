@@ -33,8 +33,8 @@ export function ShellRightRail({ stats, activePlugins, implementedCount }: Shell
       <section className={styles.profileCard}>
         <div className={styles.profileAvatar} aria-hidden="true">{initial}</div>
         <p className={styles.profileName}>Welcome, {displayName}</p>
-        <p className={styles.profileMeta}>Safe Space · {implementedCount} live plugins</p>
-        <span className={styles.profileBadge}>Safe Space ✓</span>
+        <p className={styles.profileMeta}>Space · {implementedCount} live plugins</p>
+        <span className={styles.profileBadge}>Space ✓</span>
       </section>
 
       <section className={styles.quoteCard}>

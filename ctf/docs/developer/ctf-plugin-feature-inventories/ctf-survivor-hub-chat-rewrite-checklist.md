@@ -28,7 +28,7 @@
 - [x] Right rail: active plugin list (top implemented plugins).
 - [x] Modularity: components split per rule 116 (max 200 lines per primary function/file).
 - [x] No hardcoded stat values — all stats sourced from live data or show zero/absent.
-- [x] Footer note: "Human-assisted · GetStream powered (coming soon) · Safe space guaranteed."
+- [x] Footer note: "Human-assisted · GetStream powered (coming soon)."
 
 ### Pre-Release Gates
 

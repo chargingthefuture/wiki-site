@@ -163,7 +163,7 @@ export function ShellChatPanel({ stats, plugins }: ShellChatPanelProps) {
       </div>
 
       <p className={styles.chatFootnote}>
-        Human-assisted · GetStream powered (coming soon) · Safe space guaranteed
+        Human-assisted · GetStream powered (coming soon)
       </p>
     </div>
   );

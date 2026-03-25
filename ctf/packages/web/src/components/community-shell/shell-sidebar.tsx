@@ -87,7 +87,7 @@ export function ShellSidebar({
       </div>
 
       <div className={styles.sidebarFooter}>
-        <p className={styles.sidebarFooterTitle}>Safe Space · Invite Only</p>
+        <p className={styles.sidebarFooterTitle}>Space · Invite Only</p>
         <p className={styles.sidebarFooterMeta}>CTF survivor community</p>
       </div>
     </aside>

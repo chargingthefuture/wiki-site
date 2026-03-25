@@ -76,7 +76,7 @@ Stack decision (confirmed by product owner, 2026-03-23):
 3. Suggestion chips pre-fill the input with common query examples.
 4. Action buttons in hub responses link to the appropriate plugin route.
 5. Input and send button are fully rendered but wired to local state only — no GetStream channel.
-6. Footer note: "Human-assisted · GetStream powered (coming soon) · Safe space guaranteed."
+6. Footer note: "Human-assisted · GetStream powered (coming soon)."
 
 ### 1.3 Channels Sidebar (Static Placeholders)
 
