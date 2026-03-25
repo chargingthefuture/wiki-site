@@ -40,8 +40,9 @@ function buildDisplayName(
 
 export async function requireChymeAccess(): Promise<ChymeApiGate> {
   const authDecision = await evaluatePluginAccess({
+    allowUnlockSupportOnly: true,
     requireUsername: false,
-    requireApprovedUserOrAdmin: true,
+    requireApprovedUserOrAdmin: false,
   });
 
   if (!authDecision.allowed) {

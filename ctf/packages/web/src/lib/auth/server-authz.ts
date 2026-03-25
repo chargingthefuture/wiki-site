@@ -1,4 +1,6 @@
 import { auth, currentUser } from '@clerk/nextjs/server';
+import { getEffectiveUnlockAccessTier } from '@/src/lib/unlock/repository';
+import type { UnlockAccessTier } from '@/src/lib/unlock/types';
 import { pluginAuthDeny, type PluginDenyResponse } from './deny-taxonomy';
 
 export type AllowDecision = {
@@ -8,6 +10,7 @@ export type AllowDecision = {
   role: string | null;
   isAdmin: boolean;
   isApproved: boolean;
+  unlockAccessTier: UnlockAccessTier | null;
 };
 
 export type PluginAuthDecision = AllowDecision | PluginDenyResponse;
@@ -16,6 +19,7 @@ type EvaluatePluginAccessOptions = {
   requiredRoles?: string[];
   requireUsername?: boolean;
   requireApprovedUserOrAdmin?: boolean;
+  allowUnlockSupportOnly?: boolean;
 };
 
 function normalizeUsername(username: string | null | undefined): string | null {
@@ -32,6 +36,7 @@ function buildAllowDecision(
   username: string | null,
   role: string | null,
   isApproved: boolean,
+  unlockAccessTier: UnlockAccessTier | null,
 ): AllowDecision {
   return {
     allowed: true,
@@ -40,6 +45,7 @@ function buildAllowDecision(
     role,
     isAdmin: role === 'admin',
     isApproved,
+    unlockAccessTier,
   };
 }
 
@@ -154,6 +160,26 @@ function denyIfApprovalMissing(
   return pluginAuthDeny.forbiddenPolicy('policy_denied');
 }
 
+function denyIfUnlockSupportOnly(
+  allowUnlockSupportOnly: boolean,
+  role: string | null,
+  unlockAccessTier: UnlockAccessTier | null,
+): PluginDenyResponse | null {
+  if (allowUnlockSupportOnly) {
+    return null;
+  }
+
+  if (role === 'admin') {
+    return null;
+  }
+
+  if (unlockAccessTier === 'locked_support_only') {
+    return pluginAuthDeny.forbiddenPolicy('unlock_support_only');
+  }
+
+  return null;
+}
+
 export async function evaluatePluginAccess(
   options: EvaluatePluginAccessOptions = {},
 ): Promise<PluginAuthDecision> {
@@ -161,6 +187,7 @@ export async function evaluatePluginAccess(
     requiredRoles,
     requireUsername = false,
     requireApprovedUserOrAdmin = false,
+    allowUnlockSupportOnly = false,
   } = options;
   const session = await auth();
 
@@ -172,6 +199,7 @@ export async function evaluatePluginAccess(
   const username = normalizeUsername(user?.username);
   const role = extractRole(session.sessionClaims);
   const isApproved = isApprovedFromUser(user);
+  const unlockAccessTier = await getEffectiveUnlockAccessTier(session.userId);
 
   const usernameDenyDecision = denyIfUsernameRequired(requireUsername, username);
   if (usernameDenyDecision) {
@@ -183,10 +211,15 @@ export async function evaluatePluginAccess(
     return roleDenyDecision;
   }
 
+  const unlockTierDenyDecision = denyIfUnlockSupportOnly(allowUnlockSupportOnly, role, unlockAccessTier);
+  if (unlockTierDenyDecision) {
+    return unlockTierDenyDecision;
+  }
+
   const approvalDenyDecision = denyIfApprovalMissing(requireApprovedUserOrAdmin, role, isApproved);
   if (approvalDenyDecision) {
     return approvalDenyDecision;
   }
 
-  return buildAllowDecision(session.userId, username, role, isApproved);
+  return buildAllowDecision(session.userId, username, role, isApproved, unlockAccessTier);
 }

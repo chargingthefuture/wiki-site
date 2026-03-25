@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { requireUnlockAdminAccess, unlockErrorResponse } from '@/src/app/api/unlock/_lib';
-import { insertUnlockAudit, reviewUnlockSubmission } from '@/src/lib/unlock/repository';
+import { getUnlockRuntimeConfig, insertUnlockAudit, markUnlockIncentiveGranted, reviewUnlockSubmission } from '@/src/lib/unlock/repository';
+import { insertServiceCreditsAudit, mintGrant } from '@/src/lib/service-credits/repository';
 import type { ReviewUnlockSubmissionInput } from '@/src/lib/unlock/types';
 
 type RouteParams = {
@@ -62,6 +63,36 @@ export async function POST(request: Request, { params }: RouteParams) {
         reviewStatus: body.reviewStatus,
       },
     });
+
+    if (body.reviewStatus === 'approved' && !submission.incentiveGrantedAt) {
+      const runtimeConfig = await getUnlockRuntimeConfig();
+      const idempotencyKey = `unlock-approval-submission-${submission.id}`;
+      const grant = await mintGrant({
+        actorId: 'unlock-incentive-system',
+        targetUserId: submission.userId,
+        amount: runtimeConfig.incentiveAmount,
+        grantReason: 'unlock_quora_verification_approval',
+        governanceTicketId: `unlock:submission:${submission.id}`,
+        idempotencyKey,
+      });
+
+      await markUnlockIncentiveGranted(submission.id);
+
+      await insertServiceCreditsAudit({
+        actorId: gate.auth.userId,
+        command: 'service-credits.governance.mint.grant.unlock',
+        policyStatus: 'allow',
+        reason: 'unlock_approved_reward',
+        targetType: 'governance_event',
+        targetId: grant.governanceEventId,
+        metadata: {
+          unlockSubmissionId: submission.id,
+          targetUserId: submission.userId,
+          amount: runtimeConfig.incentiveAmount,
+          idempotencyKey,
+        },
+      });
+    }
 
     return NextResponse.json({ ok: true, submission });
   } catch {

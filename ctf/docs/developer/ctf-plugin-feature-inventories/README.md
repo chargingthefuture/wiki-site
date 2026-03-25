@@ -52,5 +52,7 @@ Examples:
 - [Weekly Performance rewrite checklist](./ctf-weekly-performance-rewrite-checklist.md)
 - [Skills Taxonomy feature inventory](./ctf-skills-taxonomy-feature-inventory.md)
 - [Skills Taxonomy rewrite checklist](./ctf-skills-taxonomy-rewrite-checklist.md)
+- [Unlock feature inventory](./ctf-unlock-feature-inventory.md)
+- [Unlock rewrite checklist](./ctf-unlock-rewrite-checklist.md)
 
 Legacy reference inventories remain in `ctf/docs/developer/legacy-inventories` and should include `(Legacy Reference)` in the title.

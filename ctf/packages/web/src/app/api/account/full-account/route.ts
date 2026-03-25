@@ -5,7 +5,11 @@ import { logChymeAudit } from '@/src/lib/chyme/audit';
 import { CHYME_ERROR_CODE } from '@/src/lib/chyme/constants';
 
 export async function DELETE() {
-  const decision = await evaluatePluginAccess({ requireApprovedUserOrAdmin: true });
+  const decision = await evaluatePluginAccess({
+    requireUsername: false,
+    requireApprovedUserOrAdmin: false,
+    allowUnlockSupportOnly: true,
+  });
   if (!decision.allowed) {
     return NextResponse.json(decision, { status: decision.status });
   }

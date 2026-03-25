@@ -2,10 +2,26 @@ import { queryDb } from '@/src/lib/db/postgres';
 import type {
   CreateUnlockSubmissionInput,
   ReviewUnlockSubmissionInput,
+  UnlockAccessTier,
   UnlockDashboardSnapshot,
   UnlockQueueFilters,
+  UnlockStatus,
   UnlockSubmission,
 } from './types';
+
+type UnlockRuntimeConfigRow = {
+  submission_window_hours: number;
+  reminder_schedule_hours: number[];
+  incentive_amount: string;
+  support_only_after_expiry: boolean;
+};
+
+export type UnlockRuntimeConfig = {
+  submissionWindowHours: number;
+  reminderScheduleHours: number[];
+  incentiveAmount: number;
+  supportOnlyAfterExpiry: boolean;
+};
 
 type UnlockSubmissionRow = {
   id: number;
@@ -51,12 +67,86 @@ function mapUnlockSubmission(row: UnlockSubmissionRow): UnlockSubmission {
   };
 }
 
-export async function createOrUpdateUnlockSubmission(input: CreateUnlockSubmissionInput): Promise<UnlockSubmission> {
-  const runtimeConfig = await queryDb<{ submission_window_hours: number }>(
-    'SELECT submission_window_hours FROM unlock_runtime_config WHERE singleton_id = 1 LIMIT 1',
+function mapUnlockRuntimeConfig(row: UnlockRuntimeConfigRow | undefined): UnlockRuntimeConfig {
+  return {
+    submissionWindowHours: row?.submission_window_hours ?? 168,
+    reminderScheduleHours: row?.reminder_schedule_hours ?? [0, 24, 72, 168],
+    incentiveAmount: Number(row?.incentive_amount ?? '100'),
+    supportOnlyAfterExpiry: row?.support_only_after_expiry ?? true,
+  };
+}
+
+export async function getUnlockRuntimeConfig(): Promise<UnlockRuntimeConfig> {
+  const result = await queryDb<UnlockRuntimeConfigRow>(
+    `SELECT
+       submission_window_hours,
+       reminder_schedule_hours,
+       incentive_amount::text,
+       support_only_after_expiry
+     FROM unlock_runtime_config
+     WHERE singleton_id = 1
+     LIMIT 1`,
   );
 
-  const submissionWindowHours = runtimeConfig.rows[0]?.submission_window_hours ?? 168;
+  return mapUnlockRuntimeConfig(result.rows[0]);
+}
+
+export async function getEffectiveUnlockAccessTier(userId: string): Promise<UnlockAccessTier | null> {
+  const runtimeConfig = await getUnlockRuntimeConfig();
+
+  if (runtimeConfig.supportOnlyAfterExpiry) {
+    await queryDb(
+      `UPDATE unlock_verification_submissions
+       SET access_tier = 'locked_support_only', updated_at = NOW()
+       WHERE user_id = $1
+         AND review_status = 'pending'
+         AND access_tier = 'pending_readonly'
+         AND unlock_window_expires_at <= NOW()`,
+      [userId],
+    );
+  }
+
+  const result = await queryDb<{ access_tier: UnlockAccessTier }>(
+    `SELECT access_tier
+     FROM unlock_verification_submissions
+     WHERE user_id = $1
+     LIMIT 1`,
+    [userId],
+  );
+
+  return result.rows[0]?.access_tier ?? null;
+}
+
+export async function getUnlockStatusForUser(userId: string): Promise<UnlockStatus> {
+  const accessTier = await getEffectiveUnlockAccessTier(userId);
+  const result = await queryDb<Pick<UnlockSubmissionRow, 'review_status' | 'unlock_window_expires_at' | 'reminder_stage' | 'incentive_granted_at'>>(
+    `SELECT
+       review_status,
+       unlock_window_expires_at,
+       reminder_stage,
+       incentive_granted_at
+     FROM unlock_verification_submissions
+     WHERE user_id = $1
+     LIMIT 1`,
+    [userId],
+  );
+
+  const row = result.rows[0];
+
+  return {
+    userId,
+    accessTier,
+    reviewStatus: row?.review_status ?? null,
+    unlockWindowExpiresAt: row?.unlock_window_expires_at ? row.unlock_window_expires_at.toISOString() : null,
+    reminderStage: row?.reminder_stage ?? 0,
+    incentiveGrantedAt: row?.incentive_granted_at ? row.incentive_granted_at.toISOString() : null,
+    hasSubmission: Boolean(row),
+  };
+}
+
+export async function createOrUpdateUnlockSubmission(input: CreateUnlockSubmissionInput): Promise<UnlockSubmission> {
+  const runtimeConfig = await getUnlockRuntimeConfig();
+  const submissionWindowHours = runtimeConfig.submissionWindowHours;
 
   const result = await queryDb<UnlockSubmissionRow>(
     `INSERT INTO unlock_verification_submissions (
@@ -81,6 +171,7 @@ export async function createOrUpdateUnlockSubmission(input: CreateUnlockSubmissi
        quora_profile_url_normalized = EXCLUDED.quora_profile_url_normalized,
        review_status = 'pending',
        access_tier = 'pending_readonly',
+       unlock_window_expires_at = NOW() + (($4::text || ' hours')::interval),
        reviewed_by_user_id = NULL,
        reviewed_at = NULL,
        review_note = NULL,
@@ -186,6 +277,18 @@ export async function reviewUnlockSubmission(input: ReviewUnlockSubmissionInput)
   }
 
   return mapUnlockSubmission(result.rows[0]);
+}
+
+export async function markUnlockIncentiveGranted(submissionId: number): Promise<boolean> {
+  const result = await queryDb<{ id: number }>(
+    `UPDATE unlock_verification_submissions
+     SET incentive_granted_at = NOW(), updated_at = NOW()
+     WHERE id = $1 AND review_status = 'approved' AND incentive_granted_at IS NULL
+     RETURNING id`,
+    [submissionId],
+  );
+
+  return (result.rowCount ?? 0) > 0;
 }
 
 export async function getUnlockDashboardSnapshot(): Promise<UnlockDashboardSnapshot> {

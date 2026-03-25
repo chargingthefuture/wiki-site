@@ -7,7 +7,8 @@ export type PluginDenyReason =
   | 'no_active_session'
   | 'missing_required_role'
   | 'policy_denied'
-  | 'missing_username';
+  | 'missing_username'
+  | 'unlock_support_only';
 
 export type PluginDenyResponse = {
   allowed: false;

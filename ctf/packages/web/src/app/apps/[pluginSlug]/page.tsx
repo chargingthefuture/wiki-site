@@ -66,6 +66,11 @@ function AccessDeniedView({ status, code, reason, requestedPluginSlug }: AccessD
           {' '}Update username.
         </p>
       ) : null}
+      {reason === 'unlock_support_only' ? (
+        <p className="text-sm">
+          This account is currently limited to support access only. Open Chyme to continue with customer service community chat while verification is unresolved.
+        </p>
+      ) : null}
       <p className="text-sm">
         <Link className="underline underline-offset-4" href="/">Return to home</Link>
       </p>
@@ -141,7 +146,10 @@ export default async function PluginRoutePage({ params, searchParams }: PluginRo
   }
 
   const shouldRequireUsername = selectedPlugin.slug !== 'chyme';
-  const decision = await evaluatePluginAccess({ requireUsername: shouldRequireUsername });
+  const decision = await evaluatePluginAccess({
+    requireUsername: shouldRequireUsername,
+    allowUnlockSupportOnly: selectedPlugin.slug === 'chyme',
+  });
 
   if (!decision.allowed) {
     return (

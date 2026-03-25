@@ -45,3 +45,13 @@ export type UnlockDashboardSnapshot = {
   spamCount: number;
   lockedSupportOnlyCount: number;
 };
+
+export type UnlockStatus = {
+  userId: string;
+  accessTier: UnlockAccessTier | null;
+  reviewStatus: UnlockReviewStatus | null;
+  unlockWindowExpiresAt: string | null;
+  reminderStage: number;
+  incentiveGrantedAt: string | null;
+  hasSubmission: boolean;
+};
