@@ -917,5 +917,6 @@ export const ARTICLES: ArticleMeta[] = [
 // Helper to extract a clean URL component
 export const getArticleUrl = (repo: string, slug: string) => {
   const shortRepo = repo.split('/')[1] || repo;
-  return `/article/${shortRepo}/${slug}`;
+  const encodedSlug = encodeURIComponent(slug);
+  return `/article/${shortRepo}/${encodedSlug}`;
 };

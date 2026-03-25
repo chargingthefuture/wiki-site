@@ -78,7 +78,8 @@ function render(articles: ArticleEntry[]): string {
     '// Helper to extract a clean URL component',
     'export const getArticleUrl = (repo: string, slug: string) => {',
     "  const shortRepo = repo.split('/')[1] || repo;",
-    '  return `/article/${shortRepo}/${slug}`;',
+    '  const encodedSlug = encodeURIComponent(slug);',
+    '  return `/article/${shortRepo}/${encodedSlug}`;',
     '};',
     '',
   ].join('\n');
