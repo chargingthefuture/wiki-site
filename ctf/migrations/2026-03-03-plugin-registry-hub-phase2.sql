@@ -13,6 +13,37 @@ CREATE TABLE IF NOT EXISTS ctf_plugin_registry (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
+ALTER TABLE IF EXISTS ctf_plugin_registry
+  ADD COLUMN IF NOT EXISTS plugin_slug TEXT,
+  ADD COLUMN IF NOT EXISTS display_name TEXT,
+  ADD COLUMN IF NOT EXISTS phase TEXT,
+  ADD COLUMN IF NOT EXISTS start_gate TEXT,
+  ADD COLUMN IF NOT EXISTS summary TEXT,
+  ADD COLUMN IF NOT EXISTS availability_state TEXT,
+  ADD COLUMN IF NOT EXISTS nav_rank INTEGER,
+  ADD COLUMN IF NOT EXISTS is_visible BOOLEAN,
+  ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ,
+  ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ;
+
+UPDATE ctf_plugin_registry
+SET
+  nav_rank = COALESCE(nav_rank, 100),
+  is_visible = COALESCE(is_visible, TRUE),
+  created_at = COALESCE(created_at, NOW()),
+  updated_at = COALESCE(updated_at, NOW())
+WHERE nav_rank IS NULL
+   OR is_visible IS NULL
+   OR created_at IS NULL
+   OR updated_at IS NULL;
+
+DELETE FROM ctf_plugin_registry a
+USING ctf_plugin_registry b
+WHERE a.ctid < b.ctid
+  AND a.plugin_slug = b.plugin_slug;
+
+CREATE UNIQUE INDEX IF NOT EXISTS uq_ctf_plugin_registry_plugin_slug
+  ON ctf_plugin_registry(plugin_slug);
+
 INSERT INTO ctf_plugin_registry (
   plugin_slug,
   display_name,

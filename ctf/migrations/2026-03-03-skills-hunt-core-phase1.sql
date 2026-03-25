@@ -104,7 +104,7 @@ CREATE TABLE IF NOT EXISTS skills_hunt_rare_skills_lookup (
 CREATE TABLE IF NOT EXISTS skills_hunt_directory_profiles (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   submission_id UUID NOT NULL REFERENCES skills_hunt_submissions(id) ON DELETE CASCADE,
-  directory_profile_id UUID NOT NULL REFERENCES directory_profiles(id) ON DELETE RESTRICT,
+  directory_profile_id TEXT NOT NULL,
   invited_by_username TEXT NOT NULL,
   created_by_user_id TEXT NOT NULL,
   metadata JSONB NOT NULL DEFAULT '{}'::jsonb,

@@ -2,6 +2,72 @@ BEGIN;
 
 CREATE EXTENSION IF NOT EXISTS pgcrypto;
 
+DO $feed$
+DECLARE
+  announcements_id_type text;
+BEGIN
+  IF to_regclass('public.announcements') IS NOT NULL THEN
+    ALTER TABLE public.announcements
+      ADD COLUMN IF NOT EXISTS body TEXT,
+      ADD COLUMN IF NOT EXISTS status TEXT,
+      ADD COLUMN IF NOT EXISTS priority INTEGER DEFAULT 0,
+      ADD COLUMN IF NOT EXISTS mandatory BOOLEAN DEFAULT FALSE,
+      ADD COLUMN IF NOT EXISTS schedule_at TIMESTAMPTZ NULL,
+      ADD COLUMN IF NOT EXISTS published_at TIMESTAMPTZ NULL,
+      ADD COLUMN IF NOT EXISTS targeting JSONB DEFAULT '{}'::jsonb,
+      ADD COLUMN IF NOT EXISTS created_by_user_id TEXT,
+      ADD COLUMN IF NOT EXISTS updated_by_user_id TEXT;
+
+    IF EXISTS (
+      SELECT 1
+      FROM information_schema.columns
+      WHERE table_schema = 'public'
+        AND table_name = 'announcements'
+        AND column_name = 'content'
+    ) THEN
+      EXECUTE 'UPDATE public.announcements SET body = COALESCE(body, content) WHERE body IS NULL';
+    END IF;
+
+    IF EXISTS (
+      SELECT 1
+      FROM information_schema.columns
+      WHERE table_schema = 'public'
+        AND table_name = 'announcements'
+        AND column_name = 'is_active'
+    ) THEN
+      EXECUTE $sql$
+        UPDATE public.announcements
+        SET status = CASE WHEN is_active THEN 'published' ELSE 'archived' END
+        WHERE status IS NULL
+      $sql$;
+    ELSE
+      EXECUTE 'UPDATE public.announcements SET status = COALESCE(status, ''published'') WHERE status IS NULL';
+    END IF;
+
+    EXECUTE 'UPDATE public.announcements SET priority = COALESCE(priority, 0) WHERE priority IS NULL';
+    EXECUTE 'UPDATE public.announcements SET mandatory = COALESCE(mandatory, FALSE) WHERE mandatory IS NULL';
+    EXECUTE 'UPDATE public.announcements SET targeting = COALESCE(targeting, ''{}''::jsonb) WHERE targeting IS NULL';
+    EXECUTE 'UPDATE public.announcements SET created_by_user_id = COALESCE(created_by_user_id, ''system-migration'') WHERE created_by_user_id IS NULL';
+    EXECUTE 'UPDATE public.announcements SET updated_by_user_id = COALESCE(updated_by_user_id, ''system-migration'') WHERE updated_by_user_id IS NULL';
+    EXECUTE 'UPDATE public.announcements SET published_at = COALESCE(published_at, created_at::timestamptz) WHERE published_at IS NULL';
+
+    SELECT data_type
+    INTO announcements_id_type
+    FROM information_schema.columns
+    WHERE table_schema = 'public'
+      AND table_name = 'announcements'
+      AND column_name = 'id';
+
+    IF announcements_id_type IN ('character varying', 'text') THEN
+      ALTER TABLE public.announcements
+        ALTER COLUMN id TYPE UUID USING id::uuid;
+      ALTER TABLE public.announcements
+        ALTER COLUMN id SET DEFAULT gen_random_uuid();
+    END IF;
+  END IF;
+END
+$feed$;
+
 CREATE TABLE IF NOT EXISTS feed_user_extension (
   user_id TEXT PRIMARY KEY,
   toast_mode_enabled BOOLEAN NOT NULL DEFAULT FALSE,

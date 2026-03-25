@@ -63,9 +63,39 @@ CREATE TABLE IF NOT EXISTS lighthouse_properties (
   CHECK (monthly_rent IS NULL OR monthly_rent >= 0)
 );
 
+ALTER TABLE IF EXISTS lighthouse_properties
+  ADD COLUMN IF NOT EXISTS host_user_id TEXT,
+  ADD COLUMN IF NOT EXISTS created_by_user_id TEXT,
+  ADD COLUMN IF NOT EXISTS updated_by_user_id TEXT,
+  ADD COLUMN IF NOT EXISTS property_type TEXT,
+  ADD COLUMN IF NOT EXISTS address_line TEXT,
+  ADD COLUMN IF NOT EXISTS is_active BOOLEAN DEFAULT TRUE;
+
+DO $lighthouse_props$
+BEGIN
+  IF EXISTS (
+    SELECT 1 FROM information_schema.columns
+    WHERE table_schema = 'public' AND table_name = 'lighthouse_properties' AND column_name = 'host_id'
+  ) THEN
+    UPDATE lighthouse_properties lp
+    SET host_user_id = COALESCE(lp.host_user_id, hp.user_id)
+    FROM lighthouse_profiles hp
+    WHERE hp.id::text = lp.host_id::text;
+  END IF;
+
+  UPDATE lighthouse_properties
+  SET created_by_user_id = COALESCE(created_by_user_id, host_user_id)
+  WHERE created_by_user_id IS NULL;
+
+  UPDATE lighthouse_properties
+  SET updated_by_user_id = COALESCE(updated_by_user_id, host_user_id)
+  WHERE updated_by_user_id IS NULL;
+END
+$lighthouse_props$;
+
 CREATE TABLE IF NOT EXISTS lighthouse_matches (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-  property_id UUID NOT NULL REFERENCES lighthouse_properties(id) ON DELETE CASCADE,
+  property_id TEXT NOT NULL REFERENCES lighthouse_properties(id) ON DELETE CASCADE,
   seeker_user_id TEXT NOT NULL,
   host_user_id TEXT NOT NULL,
   message TEXT NULL,
@@ -76,6 +106,50 @@ CREATE TABLE IF NOT EXISTS lighthouse_matches (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
+
+ALTER TABLE IF EXISTS lighthouse_matches
+  ADD COLUMN IF NOT EXISTS seeker_user_id TEXT,
+  ADD COLUMN IF NOT EXISTS host_user_id TEXT,
+  ADD COLUMN IF NOT EXISTS message TEXT,
+  ADD COLUMN IF NOT EXISTS stream_channel_id TEXT,
+  ADD COLUMN IF NOT EXISTS status TEXT,
+  ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ DEFAULT NOW();
+
+DO $lighthouse_matches$
+BEGIN
+  IF EXISTS (
+    SELECT 1 FROM information_schema.columns
+    WHERE table_schema = 'public' AND table_name = 'lighthouse_matches' AND column_name = 'seeker_id'
+  ) THEN
+    UPDATE lighthouse_matches lm
+    SET seeker_user_id = COALESCE(lm.seeker_user_id, hp.user_id)
+    FROM lighthouse_profiles hp
+    WHERE hp.id::text = lm.seeker_id::text;
+  END IF;
+
+  IF EXISTS (
+    SELECT 1 FROM information_schema.columns
+    WHERE table_schema = 'public' AND table_name = 'lighthouse_matches' AND column_name = 'seeker_message'
+  ) THEN
+    UPDATE lighthouse_matches
+    SET message = COALESCE(message, seeker_message)
+    WHERE message IS NULL;
+  END IF;
+
+  UPDATE lighthouse_matches lm
+  SET host_user_id = COALESCE(lm.host_user_id, lp.host_user_id)
+  FROM lighthouse_properties lp
+  WHERE lp.id::text = lm.property_id::text;
+
+  UPDATE lighthouse_matches
+  SET stream_channel_id = COALESCE(stream_channel_id, 'pending')
+  WHERE stream_channel_id IS NULL;
+
+  UPDATE lighthouse_matches
+  SET status = COALESCE(status, 'pending')
+  WHERE status IS NULL;
+END
+$lighthouse_matches$;
 
 CREATE UNIQUE INDEX IF NOT EXISTS uq_lighthouse_match_active_request
   ON lighthouse_matches (property_id, seeker_user_id)

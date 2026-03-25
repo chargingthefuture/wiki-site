@@ -329,7 +329,7 @@ async function getOrCreateConnectionThread(client: PoolClient, input: {
       INSERT INTO foundation_connection_threads
         (id, survivor_user_id, provider_user_id, provider_directory_profile_id, stream_channel_id, created_by_user_id)
       VALUES
-        ($1::uuid, $2, $3, $4::uuid, $5, $2)
+        ($1::uuid, $2, $3, $4, $5, $2)
       RETURNING
         id::text,
         survivor_user_id,

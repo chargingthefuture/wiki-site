@@ -35,11 +35,12 @@ function AppContent() {
           <div className="flex h-screen w-full">
             <AppSidebar />
             <div className="flex flex-col flex-1 overflow-hidden">
-              <header className="flex items-center justify-between min-h-14 h-14 sm:h-16 px-3 sm:px-4 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
-                <SidebarTrigger data-testid="button-sidebar-toggle" />
-                <div className="text-xs sm:text-sm text-muted-foreground">
+              <header className="flex items-center justify-between min-h-14 h-14 sm:h-16 px-3 sm:px-4 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50 gap-2">
+                <SidebarTrigger data-testid="button-sidebar-toggle" className="h-8 w-8 md:h-7 md:w-7 hover:bg-accent" title="Toggle sidebar (Ctrl+B)" />
+                <div className="text-xs sm:text-sm text-muted-foreground flex-1 text-center">
                   a work of optimism
                 </div>
+                <div className="w-8" />
               </header>
               <main className="flex-1 overflow-auto">
                 <Router />

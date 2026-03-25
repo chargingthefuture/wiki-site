@@ -803,7 +803,7 @@ export async function createMatchRequest(input: {
       `
         SELECT id::text AS id
         FROM lighthouse_matches
-        WHERE property_id = $1::uuid
+        WHERE property_id = $1
           AND seeker_user_id = $2
           AND status IN ('pending', 'accepted')
         LIMIT 1
@@ -820,7 +820,7 @@ export async function createMatchRequest(input: {
         INSERT INTO lighthouse_matches
           (property_id, seeker_user_id, host_user_id, message, proposed_move_in_date, status, stream_channel_id)
         VALUES
-          ($1::uuid, $2, $3, $4, $5::date, 'pending', 'pending')
+          ($1, $2, $3, $4, $5::date, 'pending', 'pending')
         RETURNING
           id,
           property_id,

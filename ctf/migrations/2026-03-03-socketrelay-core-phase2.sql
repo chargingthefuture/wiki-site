@@ -30,6 +30,65 @@ CREATE TABLE IF NOT EXISTS socketrelay_requests (
   UNIQUE (owner_user_id, idempotency_key)
 );
 
+ALTER TABLE IF EXISTS socketrelay_requests
+  ADD COLUMN IF NOT EXISTS owner_user_id TEXT,
+  ADD COLUMN IF NOT EXISTS title TEXT,
+  ADD COLUMN IF NOT EXISTS details TEXT,
+  ADD COLUMN IF NOT EXISTS category TEXT,
+  ADD COLUMN IF NOT EXISTS city TEXT,
+  ADD COLUMN IF NOT EXISTS idempotency_key TEXT,
+  ADD COLUMN IF NOT EXISTS reopened_count INTEGER,
+  ADD COLUMN IF NOT EXISTS claimed_fulfillment_id TEXT,
+  ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ;
+
+DO $socketrelay_requests$
+BEGIN
+  IF EXISTS (
+    SELECT 1
+    FROM information_schema.columns
+    WHERE table_schema = 'public'
+      AND table_name = 'socketrelay_requests'
+      AND column_name = 'user_id'
+  ) THEN
+    UPDATE socketrelay_requests
+    SET owner_user_id = COALESCE(owner_user_id, user_id)
+    WHERE owner_user_id IS NULL;
+  END IF;
+
+  IF EXISTS (
+    SELECT 1
+    FROM information_schema.columns
+    WHERE table_schema = 'public'
+      AND table_name = 'socketrelay_requests'
+      AND column_name = 'description'
+  ) THEN
+    UPDATE socketrelay_requests
+    SET details = COALESCE(details, description)
+    WHERE details IS NULL;
+  END IF;
+
+  UPDATE socketrelay_requests
+  SET title = COALESCE(title, LEFT(COALESCE(details, 'Request'), 80))
+  WHERE title IS NULL;
+
+  UPDATE socketrelay_requests
+  SET category = COALESCE(category, 'general')
+  WHERE category IS NULL;
+
+  UPDATE socketrelay_requests
+  SET idempotency_key = COALESCE(idempotency_key, 'legacy-' || id)
+  WHERE idempotency_key IS NULL;
+
+  UPDATE socketrelay_requests
+  SET reopened_count = COALESCE(reopened_count, 0)
+  WHERE reopened_count IS NULL;
+
+  UPDATE socketrelay_requests
+  SET updated_at = COALESCE(updated_at, created_at)
+  WHERE updated_at IS NULL;
+END
+$socketrelay_requests$;
+
 CREATE TABLE IF NOT EXISTS socketrelay_request_events (
   id TEXT PRIMARY KEY DEFAULT gen_random_uuid()::text,
   request_id TEXT NOT NULL REFERENCES socketrelay_requests(id) ON DELETE CASCADE,

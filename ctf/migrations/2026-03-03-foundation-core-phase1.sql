@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS foundation_connection_threads (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   survivor_user_id TEXT NOT NULL,
   provider_user_id TEXT NOT NULL,
-  provider_directory_profile_id UUID NOT NULL REFERENCES directory_profiles(id) ON DELETE RESTRICT,
+  provider_directory_profile_id TEXT NOT NULL,
   stream_channel_id TEXT NOT NULL,
   status TEXT NOT NULL DEFAULT 'active' CHECK (status IN ('active', 'closed')),
   created_by_user_id TEXT NOT NULL,

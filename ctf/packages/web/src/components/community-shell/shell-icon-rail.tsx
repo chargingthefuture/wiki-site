@@ -1,6 +1,7 @@
 'use client';
 
 import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/nextjs';
+import { MessageSquare, Zap, Bell, Settings, User } from 'lucide-react';
 import type { ShellSection } from './shell-types';
 import styles from './community-shell.module.css';
 
@@ -21,7 +22,7 @@ export function ShellIconRail({ section, onSectionChange }: IconRailProps) {
         aria-label="Chat"
         aria-pressed={section === 'chat'}
       >
-        💬
+        <MessageSquare size={18} />
       </button>
 
       <button
@@ -31,20 +32,20 @@ export function ShellIconRail({ section, onSectionChange }: IconRailProps) {
         aria-label="Apps"
         aria-pressed={section === 'apps'}
       >
-        ⚡
+        <Zap size={18} />
       </button>
 
       <div className={styles.iconRailSpacer} aria-hidden="true" />
 
-      <button type="button" className={styles.iconRailBtn} aria-label="Notifications">🔔</button>
-      <button type="button" className={styles.iconRailBtn} aria-label="Settings">⚙️</button>
+      <button type="button" className={styles.iconRailBtn} aria-label="Notifications"><Bell size={18} /></button>
+      <button type="button" className={styles.iconRailBtn} aria-label="Settings"><Settings size={18} /></button>
 
       <SignedIn>
         <UserButton />
       </SignedIn>
       <SignedOut>
         <SignInButton mode="modal">
-          <button type="button" className={styles.iconRailBtn} aria-label="Sign in">👤</button>
+          <button type="button" className={styles.iconRailBtn} aria-label="Sign in"><User size={18} /></button>
         </SignInButton>
       </SignedOut>
     </aside>

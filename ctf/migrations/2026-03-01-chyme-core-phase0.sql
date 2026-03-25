@@ -49,7 +49,7 @@ ALTER TABLE IF EXISTS chyme_service_profiles
   ADD COLUMN IF NOT EXISTS deleted_at TIMESTAMPTZ NULL;
 
 CREATE TABLE IF NOT EXISTS chyme_room_members (
-  room_id UUID NOT NULL REFERENCES chyme_rooms(id) ON DELETE CASCADE,
+  room_id TEXT NOT NULL REFERENCES chyme_rooms(id) ON DELETE CASCADE,
   user_id TEXT NOT NULL,
   username TEXT NULL,
   display_name TEXT NOT NULL,
@@ -73,7 +73,7 @@ CREATE INDEX IF NOT EXISTS idx_chyme_room_members_user_id ON chyme_room_members(
 
 CREATE TABLE IF NOT EXISTS chyme_messages (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-  room_id UUID NOT NULL REFERENCES chyme_rooms(id) ON DELETE CASCADE,
+  room_id TEXT NOT NULL REFERENCES chyme_rooms(id) ON DELETE CASCADE,
   user_id TEXT NOT NULL,
   username TEXT NULL,
   display_name TEXT NOT NULL,
