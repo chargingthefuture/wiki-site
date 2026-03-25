@@ -1,6 +1,9 @@
+
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getPublicDirectoryById } from '@/src/lib/directory/repository';
+import { TrustDirectoryProfilePanel } from '@/src/components/trust/TrustDirectoryProfilePanel';
+import type { TrustUserExtension } from '@/src/lib/trust/types';
 
 type DirectoryProfilePageProps = {
   params: Promise<{
@@ -17,6 +20,15 @@ export default async function DirectoryProfilePage({ params }: DirectoryProfileP
     notFound();
   }
 
+  // TODO: Replace with real trust fetch logic (API call, etc.)
+  const trust: TrustUserExtension = {
+    userId: profile.id,
+    trustStatus: 'unverified',
+    trustEvidence: [],
+    trustVisibility: 'public',
+    updatedAt: new Date().toISOString(),
+  };
+
   return (
     <main className="mx-auto max-w-2xl px-6 py-8">
       {/* Back link */}
@@ -28,6 +40,8 @@ export default async function DirectoryProfilePage({ params }: DirectoryProfileP
 
       {/* Profile header */}
       <div className="rounded-lg border bg-card p-6 space-y-4">
+        {/* Trust evidence panel for Directory profile */}
+        <TrustDirectoryProfilePanel trust={trust} />
         <div>
           <h1 className="text-3xl font-bold tracking-tight">{profile.displayName}</h1>
           {profile.headline && <p className="text-lg text-muted-foreground mt-2">{profile.headline}</p>}

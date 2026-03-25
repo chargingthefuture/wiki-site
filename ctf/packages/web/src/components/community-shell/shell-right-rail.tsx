@@ -5,6 +5,10 @@ import { useUser } from '@clerk/nextjs';
 import type { ShellStats } from './shell-types';
 import type { PluginRegistryItem } from '@/src/lib/plugins/repository';
 import { getPluginVisuals } from './shell-plugin-config';
+
+import { TrustRightRailCard } from '../trust/TrustRightRailCard';
+import { getTrustUserExtension } from '../../lib/trust/repository';
+import type { TrustUserExtension } from '../../lib/trust/types';
 import styles from './community-shell.module.css';
 
 const GDP_GOAL = 300_000_000_000;
@@ -28,6 +32,15 @@ export function ShellRightRail({ stats, activePlugins, implementedCount }: Shell
   const gdpValue = stats.gdpValueUsd ?? 0;
   const progressPct = GDP_GOAL > 0 ? Math.min(100, Math.round((gdpValue / GDP_GOAL) * 100)) : 0;
 
+  // TODO: Replace with real trust fetch logic (async effect, etc.)
+  const trust: TrustUserExtension = {
+    userId: user?.id ?? 'unknown',
+    trustStatus: 'unverified',
+    trustEvidence: [],
+    trustVisibility: 'public',
+    updatedAt: new Date().toISOString(),
+  };
+
   return (
     <aside className={`${styles.panel} ${styles.rightRail}`}>
       <section className={styles.profileCard}>
@@ -36,6 +49,9 @@ export function ShellRightRail({ stats, activePlugins, implementedCount }: Shell
         <p className={styles.profileMeta}>Space · {implementedCount} live plugins</p>
         <span className={styles.profileBadge}>Space ✓</span>
       </section>
+
+      {/* Trust evidence panel below Welcome card */}
+      <TrustRightRailCard trust={trust} />
 
       <section className={styles.quoteCard}>
         <p className={styles.quoteText}>&ldquo;You are not what happened to you. You are what you choose to become.&rdquo;</p>
