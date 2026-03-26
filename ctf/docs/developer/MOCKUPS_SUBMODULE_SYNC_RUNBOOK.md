@@ -21,6 +21,7 @@ Run this from the root of this repository:
 
 ```bash
 git submodule update --remote --merge
+git submodule update --init --recursive --remote --merge && git --no-pager submodule status --recursive
 ```
 
 Then commit the updated submodule pointer in this repo:
