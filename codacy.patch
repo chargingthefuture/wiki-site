@@ -1,144 +1,24 @@
-diff --git a/platform/scripts/data/add to skills data.md b/platform/scripts/data/add to skills data.md
---- a/platform/scripts/data/add to skills data.md
-+++ b/platform/scripts/data/add to skills data.md
-@@ -3,1 +3,1 @@
--### Information Architect
-+### Information Architect
-
-@@ -4,1 +4,1 @@
--- Metadata design & schema development  
+diff --git a/waitlist-landing-page/.agents/skills/vercel-cli-with-tokens/SKILL.md b/waitlist-landing-page/.agents/skills/vercel-cli-with-tokens/SKILL.md
+--- a/waitlist-landing-page/.agents/skills/vercel-cli-with-tokens/SKILL.md
++++ b/waitlist-landing-page/.agents/skills/vercel-cli-with-tokens/SKILL.md
+@@ -225,1 +225,1 @@
+-- `.vercel/project.json` â from `vercel link`. Contains `projectId` and `orgId`.
 +
-- Metadata design & schema development  
-@@ -13,1 +13,1 @@
--### Data Analyst
-+### Data Analyst
+- `.vercel/project.json` â from `vercel link`. Contains `projectId` and `orgId`.
+diff --git a/ctf/docs/contracts/PLUGIN_AUTH_DENY_TAXONOMY_BASELINE.md b/ctf/docs/contracts/PLUGIN_AUTH_DENY_TAXONOMY_BASELINE.md
+--- a/ctf/docs/contracts/PLUGIN_AUTH_DENY_TAXONOMY_BASELINE.md
++++ b/ctf/docs/contracts/PLUGIN_AUTH_DENY_TAXONOMY_BASELINE.md
+@@ -10,1 +10,1 @@
+-### 1) Unauthenticated
++### 1) Unauthenticated
 
-@@ -14,1 +14,1 @@
--- SQL & relational database querying  
-+
-- SQL & relational database querying  
 @@ -23,1 +23,1 @@
--### Data Engineer
-+### Data Engineer
+-### 3) Authenticated but blocked by policy adapter
++### 3) Authenticated but blocked by policy adapter
 
-@@ -24,1 +24,1 @@
--- Database design & data modeling  
-+
-- Database design & data modeling  
-@@ -32,1 +32,1 @@
--### Knowledge Manager / Knowledge Engineer
-+### Knowledge Manager / Knowledge Engineer
-
-@@ -33,1 +33,1 @@
--- Knowledge capture & curation  
-+
-- Knowledge capture & curation  
-@@ -41,1 +41,1 @@
--### Information Retrieval / Search Engineer
-+### Information Retrieval / Search Engineer
-
-@@ -42,1 +42,1 @@
--- Search algorithms & indexing (Lucene, Elasticsearch)  
-+
-- Search algorithms & indexing (Lucene, Elasticsearch)  
-@@ -50,1 +50,1 @@
--### UX Researcher (Information-focused)
-+### UX Researcher (Information-focused)
-
-@@ -51,1 +51,1 @@
--- User interviews & contextual inquiry  
-+
-- User interviews & contextual inquiry  
-@@ -59,1 +59,1 @@
--### Digital Archivist / Digital Preservation Specialist
-+### Digital Archivist / Digital Preservation Specialist
-
-@@ -60,1 +60,1 @@
--- Digital preservation standards & practices  
-+
-- Digital preservation standards & practices  
-@@ -68,1 +68,1 @@
--### Library / Resource Services Manager
-+### Library / Resource Services Manager
-
-@@ -69,1 +69,1 @@
--- Cataloging & classification (MARC, LCSH)  
-+
-- Cataloging & classification (MARC, LCSH)  
-@@ -76,1 +76,1 @@
--### Information Policy Analyst
-+### Information Policy Analyst
-
-@@ -77,1 +77,1 @@
--- Privacy & data protection principles  
-+
-- Privacy & data protection principles  
-@@ -84,1 +84,1 @@
--### Product Manager â Information Products
-+### Product Manager â Information Products
-
-@@ -85,1 +85,1 @@
--- Requirements gathering & stakeholder management  
-+
-- Requirements gathering & stakeholder management  
-@@ -92,1 +92,1 @@
--### Machine Learning / NLP Engineer (entry-level skills)
-+### Machine Learning / NLP Engineer (entry-level skills)
-
-@@ -93,1 +93,1 @@
--- Text preprocessing & feature extraction  
-+
-- Text preprocessing & feature extraction  
-@@ -100,1 +100,1 @@
--### Records Manager / Compliance Specialist
-+### Records Manager / Compliance Specialist
-
-@@ -101,1 +101,1 @@
--- Records lifecycle management & retention schedules  
-+
-- Records lifecycle management & retention schedules  
-diff --git a/platform/README.md b/platform/README.md
---- a/platform/README.md
-+++ b/platform/README.md
-@@ -30,1 +30,1 @@
--### Core Modules
-+### Core Modules
-
-@@ -31,1 +31,1 @@
--- â `core/users.ts` - User and authentication tables
-+
-- â `core/users.ts` - User and authentication tables
 diff --git a/platform/test/TEST_COVERAGE.md b/platform/test/TEST_COVERAGE.md
 --- a/platform/test/TEST_COVERAGE.md
 +++ b/platform/test/TEST_COVERAGE.md
-@@ -7,1 +7,1 @@
--### Authentication & Authorization
-+### Authentication & Authorization
-
-@@ -8,1 +8,1 @@
--- â `test/api/auth.test.ts` - Authentication flows, user approval, authorization levels
-+
-- â `test/api/auth.test.ts` - Authentication flows, user approval, authorization levels
-@@ -10,1 +10,1 @@
--### SupportMatch
-+### SupportMatch
-
-@@ -11,1 +11,1 @@
--- â `test/api/supportmatch.test.ts` - Profile CRUD, partnerships, messages, exclusions, reports, announcements, admin
-+
-- â `test/api/supportmatch.test.ts` - Profile CRUD, partnerships, messages, exclusions, reports, announcements, admin
-@@ -13,1 +13,1 @@
--### LightHouse
-+### LightHouse
-
-@@ -14,1 +14,1 @@
--- â `test/api/lighthouse.test.ts` - Profile CRUD, properties, matches, admin
-+
-- â `test/api/lighthouse.test.ts` - Profile CRUD, properties, matches, admin
-@@ -16,1 +16,1 @@
--### SocketRelay
-+### SocketRelay
-
 @@ -17,1 +17,1 @@
 -- â `test/api/socketrelay.test.ts` - Profile CRUD, requests, fulfillments, messages, admin
 +
@@ -151,145 +31,184 @@ diff --git a/platform/test/TEST_COVERAGE.md b/platform/test/TEST_COVERAGE.md
 -- â `test/api/directory.test.ts` - Profile CRUD, public endpoints, admin
 +
 - â `test/api/directory.test.ts` - Profile CRUD, public endpoints, admin
-@@ -22,1 +22,1 @@
--### TrustTransport
-+### TrustTransport
-
 @@ -23,1 +23,1 @@
 -- â `test/api/trusttransport.test.ts` - Profile CRUD, ride requests, announcements, admin
 +
 - â `test/api/trusttransport.test.ts` - Profile CRUD, ride requests, announcements, admin
-@@ -25,1 +25,1 @@
--### GentlePulse
-+### GentlePulse
-
-@@ -26,1 +26,1 @@
--- â `test/api/gentlepulse.test.ts` - Meditations, favorites, progress, announcements, admin
-+
-- â `test/api/gentlepulse.test.ts` - Meditations, favorites, progress, announcements, admin
 @@ -28,1 +28,1 @@
 -### Chyme
 +### Chyme
 
-@@ -29,1 +29,1 @@
--- â `test/api/chyme.test.ts` - Announcements, admin
-+
-- â `test/api/chyme.test.ts` - Announcements, admin
-@@ -31,1 +31,1 @@
--### Admin
-+### Admin
-
-@@ -32,1 +32,1 @@
--- â `test/api/admin.test.ts` - Stats, users, payments, anti-scraping monitoring, activity logs
-+
-- â `test/api/admin.test.ts` - Stats, users, payments, anti-scraping monitoring, activity logs
-@@ -34,1 +34,1 @@
--### Public Endpoints
-+### Public Endpoints
-
-@@ -35,1 +35,1 @@
--- â `test/api/public-endpoints.test.ts` - Rate limiting, bot detection, display order rotation
-+
-- â `test/api/public-endpoints.test.ts` - Rate limiting, bot detection, display order rotation
-@@ -39,1 +39,1 @@
--### Storage Layer
-+### Storage Layer
-
-@@ -40,1 +40,1 @@
--- â `test/integration/storage.test.ts` - User operations, all profile types CRUD, cascade anonymization
-+
-- â `test/integration/storage.test.ts` - User operations, all profile types CRUD, cascade anonymization
-@@ -44,1 +44,1 @@
--### Injection & XSS
-+### Injection & XSS
-
-@@ -45,1 +45,1 @@
--- â `test/security/injection.test.ts` - SQL injection prevention, XSS prevention, authorization bypass, input validation
-+
-- â `test/security/injection.test.ts` - SQL injection prevention, XSS prevention, authorization bypass, input validation
-@@ -49,1 +49,1 @@
--### Shared Components
-+### Shared Components
-
-@@ -50,1 +50,1 @@
--- â `test/client/components/delete-profile-dialog.test.tsx` - Delete profile dialog
-+
-- â `test/client/components/delete-profile-dialog.test.tsx` - Delete profile dialog
-@@ -55,1 +55,1 @@
--### Hooks
-+### Hooks
-
-@@ -56,1 +56,1 @@
--- â `test/client/hooks/useAuth.test.ts` - Authentication hook
-+
-- â `test/client/hooks/useAuth.test.ts` - Authentication hook
-@@ -61,1 +61,1 @@
--### Profile Pages
-+### Profile Pages
-
-@@ -62,1 +62,1 @@
--- â `test/client/pages/supportmatch/profile.test.tsx` - SupportMatch profile page
-+
-- â `test/client/pages/supportmatch/profile.test.tsx` - SupportMatch profile page
-@@ -70,1 +70,1 @@
--### Core Pages
-+### Core Pages
-
-@@ -71,1 +71,1 @@
--- â `test/client/pages/home.test.tsx` - Home dashboard page
-+
-- â `test/client/pages/home.test.tsx` - Home dashboard page
-@@ -179,1 +179,1 @@
--14. **Security**
-+14. **Security**
-
-@@ -180,1 +180,1 @@
--   - SQL injection prevention
-+
-   - SQL injection prevention
-@@ -181,1 +181,1 @@
--   - XSS prevention
-+- XSS prevention
-@@ -182,1 +182,1 @@
--   - Authorization bypass prevention
-+- Authorization bypass prevention
-@@ -183,1 +183,1 @@
--   - Input validation
-+- Input validation
 @@ -184,1 +184,1 @@
 -   - Rate limiting
 +- Rate limiting
-@@ -185,1 +185,1 @@
--   - Bot detection
-+- Bot detection
-@@ -227,1 +227,1 @@
--
+diff --git a/.github/instructions/copilot-instructions.md b/.github/instructions/copilot-instructions.md
+--- a/.github/instructions/copilot-instructions.md
++++ b/.github/instructions/copilot-instructions.md
+@@ -54,1 +54,1 @@
+-- On each new task, read this `index.mdc` first.
 +
-diff --git a/platform/guides/ERROR_HANDLING.md b/platform/guides/ERROR_HANDLING.md
---- a/platform/guides/ERROR_HANDLING.md
-+++ b/platform/guides/ERROR_HANDLING.md
-@@ -173,1 +173,1 @@
--### Pattern 1: Simple Route Handler
-+### Pattern 1: Simple Route Handler
+- On each new task, read this `index.mdc` first.
+@@ -60,1 +60,1 @@
+-## CTF Contract
++## CTF Contract
 
-@@ -189,1 +189,1 @@
--### Pattern 2: Route Handler with Validation
-+### Pattern 2: Route Handler with Validation
+diff --git a/ctf/docs/developer/legacy-inventories/lighthouse-rewrite-checklist.md b/ctf/docs/developer/legacy-inventories/lighthouse-rewrite-checklist.md
+--- a/ctf/docs/developer/legacy-inventories/lighthouse-rewrite-checklist.md
++++ b/ctf/docs/developer/legacy-inventories/lighthouse-rewrite-checklist.md
+@@ -3,1 +3,1 @@
+-## Scope & Decisions
++## Scope & Decisions
 
-@@ -214,1 +214,1 @@
--### Pattern 3: Route Handler with Authorization
-+### Pattern 3: Route Handler with Authorization
+@@ -114,1 +114,1 @@
+-## Shared/Schema Tasks
++## Shared/Schema Tasks
 
-@@ -267,1 +267,1 @@
--
+diff --git a/ctf/docs/developer/TOMORROW_EXPO_ENV_SETUP_RUNBOOK.md b/ctf/docs/developer/TOMORROW_EXPO_ENV_SETUP_RUNBOOK.md
+--- a/ctf/docs/developer/TOMORROW_EXPO_ENV_SETUP_RUNBOOK.md
++++ b/ctf/docs/developer/TOMORROW_EXPO_ENV_SETUP_RUNBOOK.md
+@@ -103,1 +103,1 @@
+-- `https://staging.the-comic.com`
 +
+- `https://staging.the-comic.com`
+@@ -109,1 +109,1 @@
+-- staging Clerk project â `MOBILE_CLERK_PUBLISHABLE_KEY_STAGING`
++
+- staging Clerk project â `MOBILE_CLERK_PUBLISHABLE_KEY_STAGING`
+diff --git a/ctf/docs/developer/ctf-plugin-feature-inventories/ctf-trust-feature-inventory.md b/ctf/docs/developer/ctf-plugin-feature-inventories/ctf-trust-feature-inventory.md
+--- a/ctf/docs/developer/ctf-plugin-feature-inventories/ctf-trust-feature-inventory.md
++++ b/ctf/docs/developer/ctf-plugin-feature-inventories/ctf-trust-feature-inventory.md
+@@ -8,1 +8,1 @@
+-## Implemented User Features
++## Implemented User Features
+
+@@ -13,1 +13,1 @@
+-## Implemented Admin Features
++## Implemented Admin Features
+
+diff --git a/ctf/docs/developer/CLERK_FOUNDATION_BASELINE_BF01.md b/ctf/docs/developer/CLERK_FOUNDATION_BASELINE_BF01.md
+--- a/ctf/docs/developer/CLERK_FOUNDATION_BASELINE_BF01.md
++++ b/ctf/docs/developer/CLERK_FOUNDATION_BASELINE_BF01.md
+@@ -32,1 +32,1 @@
+-### Important constraints
++### Important constraints
+
+@@ -48,1 +48,1 @@
+-### Script behavior
++### Script behavior
+
+@@ -52,1 +52,1 @@
+-### Runtime fallback behavior
++### Runtime fallback behavior
+
+@@ -57,1 +57,1 @@
+-1. Unprefixed (`NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`, `CLERK_SECRET_KEY`, `CLERK_SIGN_IN_URL`)
++
+1. Unprefixed (`NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`, `CLERK_SECRET_KEY`, `CLERK_SIGN_IN_URL`)
+@@ -63,1 +63,1 @@
+-- Canonical deny taxonomy doc:
++
+- Canonical deny taxonomy doc:
+@@ -120,1 +120,1 @@
+-### Updated validation evidence for v2
++### Updated validation evidence for v2
+
+diff --git a/ctf/docs/developer/legacy-inventories/gentlepulse-rewrite-checklist.md b/ctf/docs/developer/legacy-inventories/gentlepulse-rewrite-checklist.md
+--- a/ctf/docs/developer/legacy-inventories/gentlepulse-rewrite-checklist.md
++++ b/ctf/docs/developer/legacy-inventories/gentlepulse-rewrite-checklist.md
+@@ -3,1 +3,1 @@
+-## Scope & Decisions
++## Scope & Decisions
+
+@@ -51,1 +51,1 @@
+-## API Contract Tasks
++## API Contract Tasks
+
+@@ -130,1 +130,1 @@
+-- [ ] Finalize shared types for meditations, ratings, favorites, announcements, and settings payloads.
++
+- [ ] Finalize shared types for meditations, ratings, favorites, announcements, and settings payloads.
+@@ -163,1 +163,1 @@
+-## Testing & Release Gates
++## Testing & Release Gates
+
+diff --git a/ctf/docs/quota-impact/2026-02-19-example-stream-video-dropin.md b/ctf/docs/quota-impact/2026-02-19-example-stream-video-dropin.md
+--- a/ctf/docs/quota-impact/2026-02-19-example-stream-video-dropin.md
++++ b/ctf/docs/quota-impact/2026-02-19-example-stream-video-dropin.md
+@@ -9,1 +9,1 @@
+-## Stream Surfaces Affected
++## Stream Surfaces Affected
+
+@@ -23,1 +23,1 @@
+-- What degrades first: reduce max room duration and participant cap for non-priority channels.
++
+- What degrades first: reduce max room duration and participant cap for non-priority channels.
+@@ -32,1 +32,1 @@
+-- Tests added for degraded mode: yes, includes dynamic cap reduction and video-entry denial fallback UX tests.
++
+- Tests added for degraded mode: yes, includes dynamic cap reduction and video-entry denial fallback UX tests.
+diff --git a/ctf/docs/developer/ctf-plugin-feature-inventories/ctf-gross-domestic-product-feature-inventory.md b/ctf/docs/developer/ctf-plugin-feature-inventories/ctf-gross-domestic-product-feature-inventory.md
+--- a/ctf/docs/developer/ctf-plugin-feature-inventories/ctf-gross-domestic-product-feature-inventory.md
++++ b/ctf/docs/developer/ctf-plugin-feature-inventories/ctf-gross-domestic-product-feature-inventory.md
+@@ -177,1 +177,1 @@
+-5. Entity retention classes (initial proposal):
++5. Entity retention classes (initial proposal):
+
+@@ -178,1 +178,1 @@
+-  - `gdp_metric_snapshots`: aggregate reporting record, retained per compliance baseline with legal-hold override.
++
+  - `gdp_metric_snapshots`: aggregate reporting record, retained per compliance baseline with legal-hold override.
+@@ -269,1 +269,1 @@
+-  - `ctf/docs/contracts/GDP_PLUGIN_AUDIT_CONTRACTS.yaml`
++- `ctf/docs/contracts/GDP_PLUGIN_AUDIT_CONTRACTS.yaml`
+diff --git a/ctf/docs/quota-impact/2026-02-19-example-stream-thread-summary.md b/ctf/docs/quota-impact/2026-02-19-example-stream-thread-summary.md
+--- a/ctf/docs/quota-impact/2026-02-19-example-stream-thread-summary.md
++++ b/ctf/docs/quota-impact/2026-02-19-example-stream-thread-summary.md
+@@ -10,1 +10,1 @@
+-- Chat / Activity Feeds / Video / AI Moderation: Chat, Activity Feeds, AI Moderation.
++
+- Chat / Activity Feeds / Video / AI Moderation: Chat, Activity Feeds, AI Moderation.
+@@ -22,1 +22,1 @@
+-## Fallback and Degradation Plan
++## Fallback and Degradation Plan
+
+@@ -23,1 +23,1 @@
+-- What degrades first: disable auto-summary generation in low-priority channels.
++
+- What degrades first: disable auto-summary generation in low-priority channels.
+diff --git a/platform/scripts/data/add to skills data.md b/platform/scripts/data/add to skills data.md
+--- a/platform/scripts/data/add to skills data.md
++++ b/platform/scripts/data/add to skills data.md
+@@ -4,1 +4,1 @@
+-- Metadata design & schema development  
++
+- Metadata design & schema development  
+@@ -59,1 +59,1 @@
+-### Digital Archivist / Digital Preservation Specialist
++### Digital Archivist / Digital Preservation Specialist
+
+@@ -85,1 +85,1 @@
+-- Requirements gathering & stakeholder management  
++
+- Requirements gathering & stakeholder management  
+@@ -100,1 +100,1 @@
+-### Records Manager / Compliance Specialist
++### Records Manager / Compliance Specialist
+
+diff --git a/ctf/docs/developer/legacy-inventories/directory-rewrite-checklist.md b/ctf/docs/developer/legacy-inventories/directory-rewrite-checklist.md
+--- a/ctf/docs/developer/legacy-inventories/directory-rewrite-checklist.md
++++ b/ctf/docs/developer/legacy-inventories/directory-rewrite-checklist.md
+@@ -51,1 +51,1 @@
+-- [ ] Define authenticated profile contracts: get/create/update/delete.
++
+- [ ] Define authenticated profile contracts: get/create/update/delete.
+@@ -180,1 +180,1 @@
+-## Open Decisions
++## Open Decisions
+
 diff --git a/platform/test/README.md b/platform/test/README.md
 --- a/platform/test/README.md
 +++ b/platform/test/README.md
-@@ -86,1 +86,1 @@
--### Unit Tests
-+### Unit Tests
-
 @@ -87,1 +87,1 @@
 -- **Location**: `test/integration/`
 +
@@ -298,136 +217,64 @@ diff --git a/platform/test/README.md b/platform/test/README.md
 -### Integration Tests
 +### Integration Tests
 
-@@ -96,1 +96,1 @@
--### Component Tests
-+### Component Tests
-
-@@ -97,1 +97,1 @@
--- **Location**: `test/client/`
-+
-- **Location**: `test/client/`
 @@ -101,1 +101,1 @@
 -### E2E Tests
 +### E2E Tests
 
-@@ -102,1 +102,1 @@
--- **Location**: `test/e2e/`
-+
-- **Location**: `test/e2e/`
-@@ -106,1 +106,1 @@
--### Security Tests
-+### Security Tests
+diff --git a/ctf/docs/developer/legacy-inventories/gentlepulse-feature-inventory.md b/ctf/docs/developer/legacy-inventories/gentlepulse-feature-inventory.md
+--- a/ctf/docs/developer/legacy-inventories/gentlepulse-feature-inventory.md
++++ b/ctf/docs/developer/legacy-inventories/gentlepulse-feature-inventory.md
+@@ -27,1 +27,1 @@
+-### 1.1 Library Dashboard
++### 1.1 Library Dashboard
 
-@@ -107,1 +107,1 @@
--- **Location**: `test/security/`
+@@ -51,1 +51,1 @@
+-1. Display meditation metadata:
 +
-- **Location**: `test/security/`
-@@ -166,1 +166,1 @@
--- Pre-commit hooks (unit tests only)
-+
-- Pre-commit hooks (unit tests only)
-@@ -196,1 +196,1 @@
--
-+
-diff --git a/platform/guides/DESIGN.md b/platform/guides/DESIGN.md
---- a/platform/guides/DESIGN.md
-+++ b/platform/guides/DESIGN.md
-@@ -3,1 +3,1 @@
--## Core Principles
-+## Core Principles
+1. Display meditation metadata:
+@@ -89,1 +89,1 @@
+-### 1.5 Settings and Accessibility Personalization
++### 1.5 Settings and Accessibility Personalization
 
-@@ -5,1 +5,1 @@
--- Trust Through Clarity: Communicate safety and transparency
+@@ -109,1 +109,1 @@
+-- `platform/client/src/hooks/useClientId.ts`
 +
-- Trust Through Clarity: Communicate safety and transparency
-@@ -15,1 +15,1 @@
--- Primary: Inter (Google Fonts) - body/headings
-+
-- Primary: Inter (Google Fonts) - body/headings
-@@ -19,1 +19,1 @@
--- Hero: `text-5xl md:text-6xl font-bold tracking-tight`
-+
-- Hero: `text-5xl md:text-6xl font-bold tracking-tight`
-@@ -32,1 +32,1 @@
--- Components: `p-4/p-6/p-8`
-+
-- Components: `p-4/p-6/p-8`
-@@ -37,1 +37,1 @@
--- Desktop: `max-w-7xl mx-auto px-6`
-+
-- Desktop: `max-w-7xl mx-auto px-6`
-@@ -48,1 +48,1 @@
--### Landing/Login
-+### Landing/Login
-
-@@ -50,1 +50,1 @@
--- `min-h-screen` centered, `lg:grid-cols-2`
-+
-- `min-h-screen` centered, `lg:grid-cols-2`
-@@ -55,1 +55,1 @@
--- `rounded-2xl shadow-2xl p-8 md:p-10`
-+
-- `rounded-2xl shadow-2xl p-8 md:p-10`
-@@ -61,1 +61,1 @@
--### Navigation
-+### Navigation
-
-@@ -68,1 +68,1 @@
--- `grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6`
-+
-- `grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6`
-@@ -73,1 +73,1 @@
--- `rounded-lg border shadow-sm`
-+
-- `rounded-lg border shadow-sm`
-@@ -79,1 +79,1 @@
--- Two columns: Generation form (left) + Recent codes (right)
-+
-- Two columns: Generation form (left) + Recent codes (right)
-@@ -83,1 +83,1 @@
--- Calendar view, vertical timeline, manual entry form
-+
-- Calendar view, vertical timeline, manual entry form
-@@ -87,1 +87,1 @@
--- `grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6`
-+
-- `grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6`
-@@ -94,1 +94,1 @@
--- `h-11 rounded-lg border-2 px-4`
-+
-- `h-11 rounded-lg border-2 px-4`
-@@ -104,1 +104,1 @@
--- Primary/Secondary: `h-11 px-6 rounded-lg font-semibold`
-+
-- Primary/Secondary: `h-11 px-6 rounded-lg font-semibold`
+- `platform/client/src/hooks/useClientId.ts`
 @@ -114,1 +114,1 @@
--- Overlay: `fixed inset-0 backdrop-blur-sm`
+-1. Client-generated `clientId` persisted in local storage (`gentlepulse_client_id`).
 +
-- Overlay: `fixed inset-0 backdrop-blur-sm`
-@@ -127,1 +127,1 @@
--- Avatar: `w-20 h-20 rounded-full`
+1. Client-generated `clientId` persisted in local storage (`gentlepulse_client_id`).
+@@ -154,1 +154,1 @@
+-- `platform/client/src/pages/gentlepulse/admin-meditations.tsx`
 +
-- Avatar: `w-20 h-20 rounded-full`
-@@ -138,1 +138,1 @@
--- `grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8`
+- `platform/client/src/pages/gentlepulse/admin-meditations.tsx`
+@@ -234,1 +234,1 @@
+-1. Upsert-like logic by `(clientId, meditationId)`.
 +
-- `grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8`
-@@ -143,1 +143,1 @@
--- `aspect-[4/3]` image, `p-6` content
+1. Upsert-like logic by `(clientId, meditationId)`.
+@@ -245,1 +245,1 @@
+-### 6.4 Announcements
++### 6.4 Announcements
+
+@@ -260,1 +260,1 @@
+-1. `/apps/gentlepulse` (library)
 +
-- `aspect-[4/3]` image, `p-6` content
-@@ -149,1 +149,1 @@
--- Full-width hero image with gradient, breadcrumb nav
+1. `/apps/gentlepulse` (library)
+diff --git a/ctf/packages/mobile/EXPO_GUIDE.md b/ctf/packages/mobile/EXPO_GUIDE.md
+--- a/ctf/packages/mobile/EXPO_GUIDE.md
++++ b/ctf/packages/mobile/EXPO_GUIDE.md
+@@ -9,1 +9,1 @@
+-### Option 1: QR Code Scanning (Works Immediately)
++### Option 1: QR Code Scanning (Works Immediately)
+
+@@ -10,1 +10,1 @@
+-1. Run `pnpm start` or `npx expo start` in `/ctf/packages/mobile`
 +
-- Full-width hero image with gradient, breadcrumb nav
-@@ -169,1 +169,1 @@
--- Modals: Fade + scale (`duration-200`)
-+
-- Modals: Fade + scale (`duration-200`)
-@@ -182,1 +182,1 @@
--- Keyboard nav: Full support, `ring-4 offset-2` focus indicators
-+
-- Keyboard nav: Full support, `ring-4 offset-2` focus indicators
+1. Run `pnpm start` or `npx expo start` in `/ctf/packages/mobile`
+@@ -44,1 +44,1 @@
+-## Expo Go App
++## Expo Go App
+
 diff --git a/platform/guides/TESTING.md b/platform/guides/TESTING.md
 --- a/platform/guides/TESTING.md
 +++ b/platform/guides/TESTING.md
@@ -439,81 +286,72 @@ diff --git a/platform/guides/TESTING.md b/platform/guides/TESTING.md
 -- **Description**: Authenticated user without approval must wait for admin approval
 +
 - **Description**: Authenticated user without approval must wait for admin approval
-@@ -58,1 +58,1 @@
--- **Description**: Verify access control for different user roles
-+
-- **Description**: Verify access control for different user roles
-@@ -73,1 +73,1 @@
--- **Description**: Verify session expiration and refresh
-+
-- **Description**: Verify session expiration and refresh
-@@ -87,1 +87,1 @@
--- **Description**: Verify complete logout and session cleanup
-+
-- **Description**: Verify complete logout and session cleanup
-@@ -105,1 +105,1 @@
--- **Description**: Create SupportMatch profile
-+
-- **Description**: Create SupportMatch profile
-@@ -120,1 +120,1 @@
--- **Description**: Update existing SupportMatch profile
-+
-- **Description**: Update existing SupportMatch profile
 @@ -134,1 +134,1 @@
 -- **Description**: Delete SupportMatch profile and anonymize related data
 +
 - **Description**: Delete SupportMatch profile and anonymize related data
-@@ -152,1 +152,1 @@
--- **Description**: Verify matching algorithm returns compatible partners
-+
-- **Description**: Verify matching algorithm returns compatible partners
-@@ -166,1 +166,1 @@
--- **Description**: Create, view, and manage partnerships
-+
-- **Description**: Create, view, and manage partnerships
-@@ -180,1 +180,1 @@
--- **Description**: Send and receive messages within partnerships
-+
-- **Description**: Send and receive messages within partnerships
-@@ -193,1 +193,1 @@
--- **Description**: Test exclusions, reporting, and block functionality
-+
-- **Description**: Test exclusions, reporting, and block functionality
-@@ -208,1 +208,1 @@
--- **Description**: User can be both seeker and host
-+
-- **Description**: User can be both seeker and host
-@@ -220,1 +220,1 @@
--- **Description**: Host can create, update, and delete properties
-+
-- **Description**: Host can create, update, and delete properties
-@@ -234,1 +234,1 @@
--- **Description**: Seeker can request match with property, host can accept/decline
-+
-- **Description**: Seeker can request match with property, host can accept/decline
-@@ -250,1 +250,1 @@
--- **Description**: User creates request, another user fulfills it
-+
-- **Description**: User creates request, another user fulfills it
-@@ -266,1 +266,1 @@
--- **Description**: Users can toggle profile visibility
-+
-- **Description**: Users can toggle profile visibility
 @@ -280,1 +280,1 @@
 -- **Description**: Admin can view, manage, and moderate users
 +
 - **Description**: Admin can view, manage, and moderate users
-@@ -294,1 +294,1 @@
--- **Description**: Admin can moderate content and partnerships
+diff --git a/ctf/docs/developer/BASELINE_HANDOFF_BF01_BF04.md b/ctf/docs/developer/BASELINE_HANDOFF_BF01_BF04.md
+--- a/ctf/docs/developer/BASELINE_HANDOFF_BF01_BF04.md
++++ b/ctf/docs/developer/BASELINE_HANDOFF_BF01_BF04.md
+@@ -48,1 +48,1 @@
+-#### What was incomplete
++#### What was incomplete
+
+@@ -52,1 +52,1 @@
+-#### What is now closed
++#### What is now closed
+
+@@ -147,1 +147,1 @@
+-- DNS and Clerk dashboard host alignment remain external configuration tasks.
 +
-- **Description**: Admin can moderate content and partnerships
-@@ -306,1 +306,1 @@
--- **Description**: Admin can view suspicious activity patterns
+- DNS and Clerk dashboard host alignment remain external configuration tasks.
+@@ -210,1 +210,1 @@
+-- `pnpm --filter @ctf/web run check:vercel-staging` passed with custom-domain values.
 +
-- **Description**: Admin can view suspicious activity patterns
-diff --git a/platform/guides/MADGE.md b/platform/guides/MADGE.md
---- a/platform/guides/MADGE.md
-+++ b/platform/guides/MADGE.md
-@@ -10,1 +10,1 @@
--
+- `pnpm --filter @ctf/web run check:vercel-staging` passed with custom-domain values.
+@@ -260,1 +260,1 @@
+-- Expo preview/update/release workflows now fail-fast when `EXPO_TOKEN` is missing.
 +
+- Expo preview/update/release workflows now fail-fast when `EXPO_TOKEN` is missing.
+@@ -284,1 +284,1 @@
+-- `pnpm --filter @ctf/mobile run check:mobile-env` passed for simulated `preview` and `production`.
++
+- `pnpm --filter @ctf/mobile run check:mobile-env` passed for simulated `preview` and `production`.
+diff --git a/platform/guides/DESIGN.md b/platform/guides/DESIGN.md
+--- a/platform/guides/DESIGN.md
++++ b/platform/guides/DESIGN.md
+@@ -73,1 +73,1 @@
+-- `rounded-lg border shadow-sm`
++
+- `rounded-lg border shadow-sm`
+@@ -94,1 +94,1 @@
+-- `h-11 rounded-lg border-2 px-4`
++
+- `h-11 rounded-lg border-2 px-4`
+@@ -143,1 +143,1 @@
+-- `aspect-[4/3]` image, `p-6` content
++
+- `aspect-[4/3]` image, `p-6` content
+@@ -149,1 +149,1 @@
+-- Full-width hero image with gradient, breadcrumb nav
++
+- Full-width hero image with gradient, breadcrumb nav
+diff --git a/ctf/docs/developer/EXPO_BASELINE_BF04.md b/ctf/docs/developer/EXPO_BASELINE_BF04.md
+--- a/ctf/docs/developer/EXPO_BASELINE_BF04.md
++++ b/ctf/docs/developer/EXPO_BASELINE_BF04.md
+@@ -86,1 +86,1 @@
+-1. Scope path for changes:
++
+1. Scope path for changes:
+@@ -96,1 +96,1 @@
+-- `pnpm --filter @ctf/mobile run check:mobile-env` passed for simulated `preview`.
++
+- `pnpm --filter @ctf/mobile run check:mobile-env` passed for simulated `preview`.
+@@ -113,1 +113,1 @@
+-- **complete**
++
+- **complete**
