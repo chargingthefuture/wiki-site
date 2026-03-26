@@ -32,6 +32,13 @@ export const TrustEvidencePanel: React.FC<TrustEvidencePanelProps> = ({ trust, c
         }`}>
           {trust.trustStatus.charAt(0).toUpperCase() + trust.trustStatus.slice(1)}
         </span>
+        <div className="ml-2 relative">
+          <button aria-label="Trust status info" title="What does verified mean?" className="w-5 h-5 rounded-full flex items-center justify-center text-xs bg-transparent border border-transparent hover:bg-white/5">i</button>
+          <div role="tooltip" className="absolute right-0 mt-2 w-[300px] p-3 bg-card text-sm text-muted-foreground rounded border shadow-lg hidden">
+            <strong className="block text-xs font-semibold text-gray-200 mb-1">Verified vs Unverified</strong>
+            <p className="text-xs">A Verified badge means the community believes this member is likely a verified member. An Unverified badge means the community has not yet performed manual verification. All members are required to be verified; verification is performed by admins and recorded in the trust admin audit trail.</p>
+          </div>
+        </div>
         <span className="ml-auto text-xs text-muted-foreground">
           Visibility: {trust.trustVisibility.charAt(0).toUpperCase() + trust.trustVisibility.slice(1)}
         </span>
