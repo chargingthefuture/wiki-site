@@ -265,12 +265,6 @@ diff --git a/platform/test/TEST_COVERAGE.md b/platform/test/TEST_COVERAGE.md
 @@ -227,1 +227,1 @@
 -
 +
-diff --git a/platform/esbuild.config.mjs b/platform/esbuild.config.mjs
---- a/platform/esbuild.config.mjs
-+++ b/platform/esbuild.config.mjs
-@@ -48,1 +48,1 @@
--}).catch(() => process.exit(1));
-+}).catch(function() { return process.exit(1) });
 diff --git a/platform/guides/ERROR_HANDLING.md b/platform/guides/ERROR_HANDLING.md
 --- a/platform/guides/ERROR_HANDLING.md
 +++ b/platform/guides/ERROR_HANDLING.md
@@ -335,18 +329,6 @@ diff --git a/platform/test/README.md b/platform/test/README.md
 @@ -196,1 +196,1 @@
 -
 +
-diff --git a/platform/scripts/seedSupportMatch.ts b/platform/scripts/seedSupportMatch.ts
---- a/platform/scripts/seedSupportMatch.ts
-+++ b/platform/scripts/seedSupportMatch.ts
-@@ -46,1 +46,1 @@
--      console.log(`Created user: ${userData.email}`);
-+      console.log("Created user: "+userData.email);
-diff --git a/platform/server/routes/chat.routes.ts b/platform/server/routes/chat.routes.ts
---- a/platform/server/routes/chat.routes.ts
-+++ b/platform/server/routes/chat.routes.ts
-@@ -40,1 +40,1 @@
--        firstName: user.firstName || undefined,
-+        firstName: (Boolean(user.firstName)) || undefined,
 diff --git a/platform/guides/DESIGN.md b/platform/guides/DESIGN.md
 --- a/platform/guides/DESIGN.md
 +++ b/platform/guides/DESIGN.md
@@ -446,12 +428,6 @@ diff --git a/platform/guides/DESIGN.md b/platform/guides/DESIGN.md
 -- Keyboard nav: Full support, `ring-4 offset-2` focus indicators
 +
 - Keyboard nav: Full support, `ring-4 offset-2` focus indicators
-diff --git a/platform/client/src/pages/supportmatch/admin.tsx b/platform/client/src/pages/supportmatch/admin.tsx
---- a/platform/client/src/pages/supportmatch/admin.tsx
-+++ b/platform/client/src/pages/supportmatch/admin.tsx
-@@ -28,1 +28,1 @@
--      value: stats?.currentPartnerships || 0,
-+      value: ((stats?.currentPartnerships) != null) || 0,
 diff --git a/platform/guides/TESTING.md b/platform/guides/TESTING.md
 --- a/platform/guides/TESTING.md
 +++ b/platform/guides/TESTING.md
