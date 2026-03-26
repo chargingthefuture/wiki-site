@@ -26,3 +26,7 @@ ctf/packages/mobile/.env.local
 
 # Local AI prompt scratch notes
 .ai/
+
+
+#Ignore vscode AI rules
+.github/instructions/codacy.instructions.md

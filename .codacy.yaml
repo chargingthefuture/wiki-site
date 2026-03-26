@@ -1,0 +1,21 @@
+# Codacy configuration file
+# Exclude the /platform directory from analysis
+# Only include active product code (e.g., ctf/, landing-page/, waitlist-landing-page/, wiki, etc.)
+
+engines:
+  eslint:
+    enabled: true
+  # Add other engines as needed
+
+exclude:
+  - platform/**
+  - scripts/**
+  - design/**
+  - mockups/**
+
+# Optionally, you can specify which folders to include for analysis
+# include:
+#   - ctf/**
+#   - landing-page/**
+#   - waitlist-landing-page/**
+#   - wiki/**
