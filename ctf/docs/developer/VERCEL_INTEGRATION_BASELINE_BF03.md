@@ -1,7 +1,7 @@
 # BF-03 Vercel Integration Baseline
 
 Date: 2026-03-01
-Scope: Vercel staging frontend integration for `ctf/packages/web`
+Scope: (Deprecated) Vercel staging integration — Vercel hosting support has been removed. Use Railway staging per BF-02.
 
 ## What was changed
 

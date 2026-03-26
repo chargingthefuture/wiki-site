@@ -42,8 +42,9 @@ Rule 123 defines no official local environment. Local runs are only for smoke ch
 ### Validation command
 From `ctf/packages/web`:
 - `CLERK_ENV_TARGET=railway-staging pnpm run check:clerk-env`
-- `CLERK_ENV_TARGET=vercel-staging pnpm run check:clerk-env`
 - `CLERK_ENV_TARGET=railway-production pnpm run check:clerk-env`
+
+Note: The check now auto-detects CLERK_ENV_TARGET from Railway-prefixed env vars or NEXT_PUBLIC_APP_URL when possible. If the target cannot be determined, the check fails and prevents startup. Set CLERK_ENV_TARGET explicitly in CI or deployments if needed.
 
 ### Script behavior
 - Fails fast if required Clerk keys are missing for the selected deployment target.
@@ -56,8 +57,9 @@ From `ctf/packages/web`:
 Resolution order per key family:
 1. Unprefixed (`NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`, `CLERK_SECRET_KEY`, `CLERK_SIGN_IN_URL`)
 2. Railway staging prefixed
-3. Vercel staging prefixed
-4. Railway production prefixed
+3. Railway production prefixed
+
+Note: Vercel-specific prefixes are deprecated. Runtime will resolve unprefixed keys first, then Railway-prefixed fallbacks.
 
 ## Deny Taxonomy Baseline
 - Canonical deny taxonomy doc:

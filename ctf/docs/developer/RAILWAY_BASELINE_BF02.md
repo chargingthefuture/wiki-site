@@ -42,12 +42,14 @@ This guarantees Railway won't start with misconfigured Clerk domain/env values.
 
 ## Auto-target behavior
 
-`check:clerk-env` resolution order:
+`check:clerk-env` resolution order and behavior:
 
 1. `CLERK_ENV_TARGET` (explicit)
 2. Railway inference from `RAILWAY_ENVIRONMENT_NAME`/related Railway env metadata:
    - contains `prod` => `railway-production`
    - otherwise => `railway-staging`
+
+The checker will also attempt to infer the target from Railway-prefixed Clerk env vars and NEXT_PUBLIC_APP_URL. If it cannot determine a target, the check exits non-zero and prevents startup; set CLERK_ENV_TARGET explicitly to override.
 
 ## Known Railway-specific failure that is now caught
 
