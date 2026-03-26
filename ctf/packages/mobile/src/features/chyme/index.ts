@@ -1,0 +1,1 @@
+export { ChymeRoom } from './ChymeRoom';
