@@ -1,22 +1,14 @@
+
 type MaybeEnv = string | undefined;
 
 function firstNonEmpty(...values: MaybeEnv[]): string | undefined {
   return values.find((value) => typeof value === 'string' && value.length > 0);
 }
 
-function isVercelRuntime(): boolean {
-  return (
-    process.env.VERCEL === '1'
-    || typeof process.env.VERCEL_ENV === 'string'
-    || typeof process.env.VERCEL_URL === 'string'
-  );
-}
-
 function parseUrl(value: string | undefined): URL | null {
   if (!value) {
     return null;
   }
-
   try {
     return new URL(value);
   } catch {
@@ -25,75 +17,34 @@ function parseUrl(value: string | undefined): URL | null {
 }
 
 export function getAppUrl(): string | undefined {
-  if (isVercelRuntime()) {
-    return firstNonEmpty(
-      process.env.NEXT_PUBLIC_APP_URL,
-      process.env.VERCEL_NEXT_PUBLIC_APP_URL,
-      process.env.RAILWAY_NEXT_PUBLIC_APP_URL,
-    );
-  }
-
   return firstNonEmpty(
     process.env.NEXT_PUBLIC_APP_URL,
     process.env.RAILWAY_NEXT_PUBLIC_APP_URL,
-    process.env.VERCEL_NEXT_PUBLIC_APP_URL,
   );
 }
 
 export function getClerkPublishableKey(): string | undefined {
-  if (isVercelRuntime()) {
-    return firstNonEmpty(
-      process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,
-      process.env.VERCEL_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,
-      process.env.VERCEL_STAGING_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,
-      process.env.RAILWAY_STAGING_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,
-      process.env.RAILWAY_PROD_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,
-    );
-  }
-
   return firstNonEmpty(
     process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,
     process.env.RAILWAY_STAGING_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,
-    process.env.VERCEL_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,
     process.env.RAILWAY_PROD_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,
   );
 }
 
 export function getClerkSecretKey(): string | undefined {
-  if (isVercelRuntime()) {
-    return firstNonEmpty(
-      process.env.CLERK_SECRET_KEY,
-      process.env.VERCEL_CLERK_SECRET_KEY,
-      process.env.VERCEL_STAGING_CLERK_SECRET_KEY,
-      process.env.RAILWAY_STAGING_CLERK_SECRET_KEY,
-      process.env.RAILWAY_PROD_CLERK_SECRET_KEY,
-    );
-  }
-
   return firstNonEmpty(
     process.env.CLERK_SECRET_KEY,
     process.env.RAILWAY_STAGING_CLERK_SECRET_KEY,
-    process.env.VERCEL_CLERK_SECRET_KEY,
     process.env.RAILWAY_PROD_CLERK_SECRET_KEY,
   );
 }
 
 export function getClerkSignInUrl(): string | undefined {
-  const configuredSignInUrl = isVercelRuntime()
-    ? firstNonEmpty(
-      process.env.CLERK_SIGN_IN_URL,
-      process.env.VERCEL_CLERK_SIGN_IN_URL,
-      process.env.VERCEL_STAGING_CLERK_SIGN_IN_URL,
-      process.env.RAILWAY_STAGING_CLERK_SIGN_IN_URL,
-      process.env.RAILWAY_PROD_CLERK_SIGN_IN_URL,
-    )
-    : firstNonEmpty(
-      process.env.CLERK_SIGN_IN_URL,
-      process.env.RAILWAY_STAGING_CLERK_SIGN_IN_URL,
-      process.env.VERCEL_CLERK_SIGN_IN_URL,
-      process.env.RAILWAY_PROD_CLERK_SIGN_IN_URL,
-    );
-
+  const configuredSignInUrl = firstNonEmpty(
+    process.env.CLERK_SIGN_IN_URL,
+    process.env.RAILWAY_STAGING_CLERK_SIGN_IN_URL,
+    process.env.RAILWAY_PROD_CLERK_SIGN_IN_URL,
+  );
   if (!configuredSignInUrl) {
     return undefined;
   }

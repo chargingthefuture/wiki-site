@@ -11,7 +11,7 @@
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "check:clerk-env": "node ./scripts/check-clerk-env.mjs",
     "check:formance-env": "node ./scripts/check-formance-env.mjs",
-    "check:vercel-staging": "CLERK_ENV_TARGET=vercel-staging node ./scripts/check-clerk-env.mjs"
+    
   },
   "dependencies": {
     "@clerk/nextjs": "^5.0.0",

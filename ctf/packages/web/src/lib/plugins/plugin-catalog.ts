@@ -24,13 +24,6 @@ export const pluginCatalog: PluginCatalogItem[] = [
     summary: 'Canonical runtime/deployment baseline for full-stack CTF surfaces.',
   },
   {
-    id: 'bf-03-vercel-integration',
-    name: 'Vercel Integration',
-    phase: 'baseline',
-    startGate: 'Baseline -1C',
-    summary: 'Staging frontend integration to Railway-backed APIs with env isolation.',
-  },
-  {
     id: 'bf-04-expo-baseline',
     name: 'Expo Baseline',
     phase: 'baseline',
