@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import type { TrustUserExtension, TrustEvidenceItem } from "../../lib/trust/types";
 
 export interface TrustEvidencePanelProps {
@@ -7,6 +8,32 @@ export interface TrustEvidencePanelProps {
 }
 
 export const TrustEvidencePanel: React.FC<TrustEvidencePanelProps> = ({ trust, compact }) => {
+  const [loading, setLoading] = useState(false);
+  const [message, setMessage] = useState<string | null>(null);
+
+  const requestVerification = async () => {
+    if (loading) return;
+    setLoading(true);
+    setMessage(null);
+    try {
+      const res = await fetch("/api/trust/admin/verification", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ userId: trust.userId }),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (res.ok) {
+        setMessage(data?.message || "Request submitted. An admin will review.");
+      } else {
+        setMessage(data?.message || "Request failed. Please try again later.");
+      }
+    } catch (e) {
+      setMessage("Network error. Please try again.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <section className="rounded border bg-background p-4 mb-2">
       <header className="flex items-center gap-2 mb-2">
@@ -35,9 +62,12 @@ export const TrustEvidencePanel: React.FC<TrustEvidencePanelProps> = ({ trust, c
                     <path d="M9 11L11 13L15 9" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </div>
-                <div className="text-sm font-semibold text-gray-600">No trust signals yet</div>
+                <div className="text-sm font-semibold text-gray-200">No trust signals yet</div>
                 <div className="text-xs text-muted-foreground mt-1">Signals appear as you participate in the community.</div>
-                <button className="mt-2 px-3 py-1 bg-blue-600 hover:bg-blue-700 text-white rounded text-xs">Request Verification</button>
+                <button onClick={requestVerification} disabled={loading} className={`mt-2 px-3 py-1 ${loading ? 'opacity-60 cursor-not-allowed' : 'hover:bg-blue-700'} bg-blue-600 text-white rounded text-xs`}>
+                  {loading ? 'Requesting...' : 'Request Verification'}
+                </button>
+                {message && <div className="mt-1 text-xs text-muted-foreground">{message}</div>}
                 <div className="mt-1 text-xs text-muted-foreground">Visible to: {trust.trustVisibility.charAt(0).toUpperCase() + trust.trustVisibility.slice(1)}</div>
               </div>
             ) : (
@@ -48,14 +78,17 @@ export const TrustEvidencePanel: React.FC<TrustEvidencePanelProps> = ({ trust, c
                     <path d="M9 11L11 13L15 9" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </div>
-                <h4 className="text-sm font-semibold text-gray-600 mb-1">No trust signals yet</h4>
+                <h4 className="text-sm font-semibold text-gray-200 mb-1">No trust signals yet</h4>
                 <p className="text-xs text-muted-foreground mb-3">Trust signals appear as you participate in the community.</p>
                 <ol className="text-sm text-left space-y-2 w-full max-w-[320px] list-inside">
                   <li className="flex items-start gap-2"><span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-gray-100 text-xs text-gray-700">1</span> Complete your profile</li>
                   <li className="flex items-start gap-2"><span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-gray-100 text-xs text-gray-700">2</span> Make your first transaction</li>
                   <li className="flex items-start gap-2"><span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-gray-100 text-xs text-gray-700">3</span> Use at least one plugin</li>
                 </ol>
-                <button className="mt-3 w-full max-w-[320px] bg-blue-600 hover:bg-blue-700 text-white rounded px-3 py-2">Request Verification</button>
+                <button onClick={requestVerification} disabled={loading} className={`mt-3 w-full max-w-[320px] ${loading ? 'opacity-60 cursor-not-allowed' : 'hover:bg-blue-700'} bg-blue-600 text-white rounded px-3 py-2`}>
+                  {loading ? 'Requesting...' : 'Request Verification'}
+                </button>
+                {message && <div className="mt-2 text-xs text-muted-foreground">{message}</div>}
                 <div className="mt-2 text-xs text-muted-foreground">Visible to: {trust.trustVisibility.charAt(0).toUpperCase() + trust.trustVisibility.slice(1)}</div>
               </div>
             )}
