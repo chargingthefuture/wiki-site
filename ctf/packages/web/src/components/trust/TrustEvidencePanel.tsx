@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import type { TrustUserExtension, TrustEvidenceItem } from "../../lib/trust/types";
 
 export interface TrustEvidencePanelProps {
@@ -14,6 +14,26 @@ export const TrustEvidencePanel: React.FC<TrustEvidencePanelProps> = ({ trust, c
   // Verification is performed manually by admins via Neon/Retool.
   // The frontend should reflect verification status only. No user-side request flow.
   // Keep the handlers and UI message state for potential future needs, but remove the active request action.
+  const [showTooltip, setShowTooltip] = useState(false);
+  const tooltipRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    function onDocClick(e: MouseEvent) {
+      if (tooltipRef.current && !tooltipRef.current.contains(e.target as Node)) {
+        setShowTooltip(false);
+      }
+    }
+    function onEsc(e: KeyboardEvent) {
+      if (e.key === 'Escape') setShowTooltip(false);
+    }
+    document.addEventListener('mousedown', onDocClick);
+    document.addEventListener('keydown', onEsc);
+    return () => {
+      document.removeEventListener('mousedown', onDocClick);
+      document.removeEventListener('keydown', onEsc);
+    };
+  }, []);
+
   const requestVerification = async () => {
     // no-op: manual verification only
     setMessage("Verification is handled manually by admins.");
