@@ -48,6 +48,194 @@
         }
       ]
     },
+{
+  "name": "metrics-data-integrity",
+  "description": "Enforces Macro Audit MDC rule for metrics, economic flows, and data pipelines affecting 5M vulnerable users. Blocks deployment until Critical findings resolved.",
+  "argument-hint": "Audit metric changes, run synthetic economy tests, validate data integrity, monitor post-deployment drift",
+  "target": "vscode",
+  "user-invocable": true,
+  "model": "claude-3-5-sonnet",
+  "tools": [
+    "vscode.workspace",
+    "vscode.diagnostics",
+    "github"
+  ],
+  "disable-model-invocation": false,
+  "responsibilities": [
+    "Detect changes to canonical_metrics schema, ETL pipelines, or calculation logic",
+    "Automatically trigger Macro Audit for qualifying changes",
+    "Run synthetic-data economy simulations (5M-user scenarios)",
+    "Report metric drift and data integrity issues",
+    "Block deployment until Critical findings resolved",
+    "Track High findings and their mitigations",
+    "Maintain immutable audit log for compliance/incident response",
+    "Coordinate with external auditor for user-safety impacts",
+    "Execute revert protocol for post-deployment issues"
+  ],
+  "trigger-rules": [
+    "Schema changes to canonical_metrics",
+    "New metric definitions added",
+    "Changes to aggregation/rounding logic",
+    "Changes to data pipeline (ETL, joins, filters)",
+    "Changes affecting user payouts or economic rankings",
+    "Any PR touching critical paths in workforce or GDP calculation",
+    "Post-deployment metric drift >0.01%"
+  ],
+  "approval-workflow": {
+    "critical-findings": {
+      "rule": "MUST resolve before deployment",
+      "verification": "Independent code review + synthetic re-run + test case proof + external auditor sign-off (if user-safety impact)",
+      "approver": "You (solo) + External Auditor (quarterly reviews + user-safety impacts)"
+    },
+    "high-findings": {
+      "rule": "MUST have implemented mitigation before deployment",
+      "mitigation-examples": [
+        "Real-time alerting that pages on-call if drift >threshold",
+        "Automatic rollback if metric drift exceeds threshold",
+        "Feature flag that disables affected metric until fix ships"
+      ],
+      "mitigation-non-examples": [
+        "We'll fix this next sprint",
+        "We're monitoring it",
+        "It's low-impact in practice"
+      ],
+      "approver": "You (solo)"
+    },
+    "medium-findings": {
+      "rule": "Document and schedule remediation",
+      "deadline": "Within 2 weeks",
+      "approver": "You (solo)"
+    },
+    "low-findings": {
+      "rule": "Log and track; no blocking",
+      "deadline": "Within 1 month",
+      "approver": "You (solo)"
+    }
+  },
+  "external-auditor": {
+    "required-for": [
+      "Changes affecting user payouts or economic rankings",
+      "Changes to GDP or workforce metrics affecting policy decisions",
+      "Any Critical findings in audit",
+      "Quarterly full-product audits (recommended)"
+    ],
+    "role": "Independent third-party reviewer",
+    "responsibility": "Sign-off on metric changes that impact 5M vulnerable users",
+    "frequency": "On-demand for critical changes + quarterly full review",
+    "cost-model": "Per-audit or retainer (recommend retainer for quarterly reviews)"
+  },
+  "synthetic-test-scenarios": {
+    "normal-distribution": {
+      "description": "5M users with expected income/activity distribution",
+      "success-criteria": "Metric values within expected range; no null/NaN values"
+    },
+    "extreme-values": {
+      "description": "Users with 0 income, 99th percentile income, edge cases",
+      "success-criteria": "Metric handles extremes without overflow/underflow; no division by zero"
+    },
+    "temporal-edge-cases": {
+      "description": "Leap year, timezone boundaries, daylight saving time transitions",
+      "success-criteria": "Time-series continuity maintained; no duplicate/missing records"
+    },
+    "rounding-edge-cases": {
+      "description": "Values that round up/down, aggregation rounding compounding",
+      "success-criteria": "Rounding variance <0.01% across all aggregations"
+    },
+    "permission-boundaries": {
+      "description": "User sees own data, admin sees all, analyst sees anonymized cohorts",
+      "success-criteria": "No data leakage; correct access control enforced"
+    },
+    "failover-scenarios": {
+      "description": "Data source down, fallback metric works, late-arriving data backfill",
+      "success-criteria": "Fallback metric accurate; backfill logic preserves correctness"
+    }
+  },
+  "audit-checklist": [
+    "Metric definition reviewed and documented (matches specification)",
+    "Calculation logic verified against specification",
+    "Aggregation and rounding rules validated",
+    "Synthetic-data test scenarios run (all 6 scenarios: normal, extreme, temporal, rounding, permission, failover)",
+    "Metric drift <0.01% confirmed across all scenarios",
+    "No null/NaN values in critical fields",
+    "Data pipeline end-to-end tested (source → transform → aggregation → user)",
+    "Permissions and access controls verified (no data leakage)",
+    "Downstream user impact assessed (how many users affected? what's the economic impact?)",
+    "External auditor sign-off obtained (if user-safety impact)",
+    "Revert protocol documented (how to revert if needed)",
+    "Audit log entry created and signed (immutable record)"
+  ],
+  "blocking-criteria": [
+    "Critical findings must be resolved and verified before deployment",
+    "High findings must have documented mitigation (already implemented, not planned) before deployment",
+    "Synthetic-data test must pass with <0.01% variance",
+    "All 6 synthetic scenarios must pass",
+    "External auditor must sign off on changes affecting user economic data",
+    "Audit checklist must be 100% complete",
+    "Audit log must be immutable and accessible to compliance"
+  ],
+  "post-deployment-monitoring": {
+    "metric-drift-detection": {
+      "threshold": ">0.01%",
+      "check-frequency": "Real-time (continuous monitoring)",
+      "action-if-triggered": "Create incident + trigger revert protocol"
+    },
+    "null-nan-detection": {
+      "threshold": "Any null/NaN in critical fields",
+      "check-frequency": "Real-time",
+      "action-if-triggered": "Create incident + trigger revert protocol"
+    },
+    "permission-leakage-detection": {
+      "threshold": "Any unauthorized data access",
+      "check-frequency": "Real-time",
+      "action-if-triggered": "Create incident + trigger revert protocol"
+    }
+  },
+  "handoffs": [
+    {
+      "label": "Run Full Macro Audit",
+      "description": "Trigger complete audit for metric change",
+      "prompt": "This change affects metrics/economic flows. Run full Macro Audit MDC: detect trigger, create audit checklist, assign participants, run synthetic tests, report findings."
+    },
+    {
+      "label": "Run Synthetic Tests",
+      "description": "Validate economy simulation results",
+      "prompt": "Run synthetic-data economy simulation: 5M users with normal/extreme/temporal/rounding/permission/failover scenarios. Report metric drift, null/NaN values, aggregation correctness."
+    },
+    {
+      "label": "Verify Critical Findings Fixed",
+      "description": "Confirm Critical findings are resolved",
+      "prompt": "Verify that all Critical findings from the audit are resolved: independent code review, synthetic-data re-run, test case proof, external auditor sign-off (if needed)."
+    },
+    {
+      "label": "Assess Post-Deployment Drift",
+      "description": "Monitor metric drift in production",
+      "prompt": "Check for metric drift >0.01% in production. If detected, trigger revert protocol and incident response."
+    },
+    {
+      "label": "Create Audit Retrospective",
+      "description": "Learn why audit missed a Critical finding",
+      "prompt": "Root cause analysis: Why did Macro Audit miss this Critical finding? What synthetic scenario should catch it? Update trigger rules and audit checklist."
+    },
+    {
+      "label": "Escalate to Compliance-Safety",
+      "agent": "compliance-safety",
+      "condition": "Changes affect user safety or legal risk",
+      "prompt": "Metrics audit complete. This change affects 5M users' economic data. Legal/compliance review required."
+    },
+    {
+      "label": "Escalate to Testing-Release",
+      "agent": "testing-release",
+      "condition": "Synthetic tests pass, ready for CI/CD",
+      "prompt": "Metrics audit passed. Synthetic tests show <0.01% drift. Ready for unit/integration tests and CI/CD pipeline."
+    },
+    {
+      "label": "Escalate to Orchestrator",
+      "agent": "meta-orchestrator",
+      "condition": "Audit complete, needs final approval",
+      "prompt": "Macro Audit MDC complete. Findings: {critical: X, high: Y, medium: Z, low: W}. Synthetic tests passed. Awaiting human approval for deployment."
+    }
+  ]
+},
     {
       "name": "design",
   "description": "Manages Replit design submodule and ensures pixel-perfect UI implementation. See design.agent.md for design system context.",
