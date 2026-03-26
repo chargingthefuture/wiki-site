@@ -1,11 +1,13 @@
 # Product Rules Index
 
 ## Scope
+
 - Applies to the rewrite web/Android product under `ctf/`.
 - The `/platform` folder is strictly for reference-only during migration and must never be referenced, deployed, or used for routing or domain configuration unless explicitly requested.
 - Governs architecture, coding standards, delivery quality, and compliance.
 
 ## Product Rule Modules
+
 - [099-agent-scope-guardrails.mdc](099-agent-scope-guardrails.mdc)
 - [100-product-context-and-experience-rules.mdc](100-product-context-and-experience-rules.mdc)
 - [101-monorepo-layout-rules.mdc](101-monorepo-layout-rules.mdc)
@@ -39,6 +41,7 @@
 - [014-compliance-rules-index.mdc](014-compliance-rules-index.mdc)
 
 ## Precedence
+
 1. Product safety/compliance constraints
 2. Environment configuration rules (integral to Clerk auth functioning)
 3. Monorepo and boundary rules
@@ -51,6 +54,7 @@
 If two rules conflict, choose the stricter rule and document the decision.
 
 ## Agent Startup Read Order
+
 - On each new task, read this `index.mdc` first.
 - Then read directly relevant modules before editing code (architecture, coding, testing/release, and domain-specific rules).
 - For user-facing copy changes, read `124-brand-voice-and-language-rules.mdc` and `ctf/docs/BRAND_VOICE_LEXICON.md` before editing content.
@@ -58,9 +62,9 @@ If two rules conflict, choose the stricter rule and document the decision.
 - When unclear, prefer broader safety/compliance and boundary rules over feature-level rules.
 
 ## CTF Contract
-- Build plugin-first user flows as the baseline UX.
-- Implement capabilities as plugin commands/actions that execute through policy-controlled interfaces.
-- Keep web and mobile behavior parity through shared contracts and shared compliance controls.
-- Refer to chat functionality by plugin context (for example, Chyme chat), not as a standalone generic product surface.
-- Preserve existing user data during rewrite cutover: when applicable legacy Postgres tables exist, use migration/backfill/sync strategies instead of reset-only seeding so returning users do not lose data.
-- Block release when architecture, quality, or compliance rules are unmet.
+
+## Local Build and Error Checking Requirement
+
+- After every code change, always run the local build (e.g., `pnpm build` or project-specific build command) and check for errors.
+- If any errors are found, fix them before marking the work as complete.
+- This is mandatory to prevent pushing broken code, especially for users without local development environments.
