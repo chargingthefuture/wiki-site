@@ -1,0 +1,291 @@
+{
+  "agents": [
+    {
+      "name": "meta-orchestrator",
+      "description": "Coordinates all team agents and ensures comprehensive checks before approval",
+      "argument-hint": "Run full team review on code changes, PRs, or deployments",
+      "target": "vscode",
+      "user-invocable": true,
+      "model": "claude-3-5-sonnet",
+      "tools": [
+        "github",
+        "vscode.workspace",
+        "vscode.diagnostics"
+      ],
+      "agents": [
+        "architecture-standards",
+        "brand-voice",
+        "compliance-safety",
+        "deployment-topology",
+        "design",
+        "environment-auth",
+        "monorepo-boundary",
+        "observability-incident",
+        "plugin-lifecycle",
+        "security-dependency",
+        "testing-release"
+      ],
+      "handoffs": [
+        {
+          "label": "Review Architecture",
+          "agent": "architecture-standards",
+          "prompt": "Review this code for architecture and coding standards compliance"
+        },
+        {
+          "label": "Check Design Implementation",
+          "agent": "design",
+          "prompt": "Audit this implementation against the latest Replit design mockups for pixel-perfect accuracy"
+        },
+        {
+          "label": "Check Security",
+          "agent": "security-dependency",
+          "prompt": "Scan dependencies and code for security vulnerabilities"
+        },
+        {
+          "label": "Validate Compliance",
+          "agent": "compliance-safety",
+          "prompt": "Run compliance and safety checks on this change"
+        }
+      ]
+    },
+    {
+      "name": "design",
+  "description": "Manages Replit design submodule and ensures pixel-perfect UI implementation. See design.agent.md for design system context.",
+  "argument-hint": "Pull latest designs, implement mockups, or audit UI against design specs",
+      "target": "vscode",
+      "user-invocable": true,
+      "model": "claude-3-5-sonnet",
+      "tools": [
+        "vscode.workspace",
+        "vscode.diagnostics",
+        "github"
+      ],
+      "disable-model-invocation": false,
+      "handoffs": [
+        {
+          "label": "Update Submodule",
+          "agent": "design",
+          "prompt": "Pull the latest changes from the Replit design submodule and update the main repo pointer"
+        },
+        {
+          "label": "Return to Orchestrator",
+          "agent": "meta-orchestrator",
+          "prompt": "Design audit complete, returning results to orchestrator"
+        }
+      ]
+    },
+    {
+      "name": "architecture-standards",
+      "description": "Enforces architecture and coding standards for quality and maintainability",
+      "argument-hint": "Review code for standards compliance, readability, and best practices",
+      "target": "vscode",
+      "user-invocable": true,
+      "model": "claude-3-5-sonnet",
+      "tools": [
+        "vscode.workspace",
+        "vscode.diagnostics",
+        "github"
+      ],
+      "disable-model-invocation": false,
+      "handoffs": [
+        {
+          "label": "Escalate to Orchestrator",
+          "agent": "meta-orchestrator",
+          "prompt": "Standards review complete, proceeding with full team review"
+        }
+      ]
+    },
+    {
+      "name": "brand-voice",
+      "description": "Reviews user-facing copy and documentation for brand compliance",
+      "argument-hint": "Check UI copy, documentation, and content for brand voice compliance",
+      "target": "vscode",
+      "user-invocable": true,
+      "model": "claude-3-5-sonnet",
+      "tools": [
+        "vscode.workspace",
+        "github"
+      ],
+      "disable-model-invocation": false,
+      "handoffs": [
+        {
+          "label": "Return to Orchestrator",
+          "agent": "meta-orchestrator",
+          "prompt": "Brand voice review complete"
+        }
+      ]
+    },
+    {
+      "name": "compliance-safety",
+      "description": "Enforces product safety, legal, and compliance constraints",
+      "argument-hint": "Validate compliance, legal requirements, and safety rules",
+      "target": "vscode",
+      "user-invocable": true,
+      "model": "claude-3-5-sonnet",
+      "tools": [
+        "vscode.workspace",
+        "vscode.diagnostics",
+        "github"
+      ],
+      "disable-model-invocation": false,
+      "handoffs": [
+        {
+          "label": "Escalate to Orchestrator",
+          "agent": "meta-orchestrator",
+          "prompt": "Compliance review complete, blocking or approving based on findings"
+        }
+      ]
+    },
+    {
+      "name": "deployment-topology",
+      "description": "Manages deployment topology, environment builds, and routing configuration",
+      "argument-hint": "Validate deployment config, domain routing, and environment setup",
+      "target": "vscode",
+      "user-invocable": true,
+      "model": "claude-3-5-sonnet",
+      "tools": [
+        "vscode.workspace",
+        "github",
+        "vscode.diagnostics"
+      ],
+      "disable-model-invocation": false,
+      "handoffs": [
+        {
+          "label": "Check Environment Config",
+          "agent": "environment-auth",
+          "prompt": "Verify environment variables and secrets are correctly configured for this deployment"
+        },
+        {
+          "label": "Return to Orchestrator",
+          "agent": "meta-orchestrator",
+          "prompt": "Deployment topology validation complete"
+        }
+      ]
+    },
+    {
+      "name": "environment-auth",
+      "description": "Manages environment variables, secrets, and authentication configuration",
+      "argument-hint": "Validate .env, secrets, and auth provider setup (Clerk, etc.)",
+      "target": "vscode",
+      "user-invocable": true,
+      "model": "claude-3-5-sonnet",
+      "tools": [
+        "vscode.workspace",
+        "vscode.diagnostics"
+      ],
+      "disable-model-invocation": false,
+      "handoffs": [
+        {
+          "label": "Return to Deployment Agent",
+          "agent": "deployment-topology",
+          "prompt": "Environment configuration validated, returning to deployment review"
+        }
+      ]
+    },
+    {
+      "name": "monorepo-boundary",
+      "description": "Enforces monorepo layout and prevents cross-boundary violations",
+      "argument-hint": "Check monorepo structure, boundaries, and modularity rules",
+      "target": "vscode",
+      "user-invocable": true,
+      "model": "claude-3-5-sonnet",
+      "tools": [
+        "vscode.workspace",
+        "vscode.diagnostics",
+        "github"
+      ],
+      "disable-model-invocation": false,
+      "handoffs": [
+        {
+          "label": "Escalate to Orchestrator",
+          "agent": "meta-orchestrator",
+          "prompt": "Monorepo boundary validation complete"
+        }
+      ]
+    },
+    {
+      "name": "observability-incident",
+      "description": "Ensures Sentry and observability integration; monitors for incidents",
+      "argument-hint": "Check Sentry integration, logs, and error reporting",
+      "target": "vscode",
+      "user-invocable": true,
+      "model": "claude-3-5-sonnet",
+      "tools": [
+        "vscode.workspace",
+        "vscode.diagnostics",
+        "github"
+      ],
+      "disable-model-invocation": false,
+      "handoffs": [
+        {
+          "label": "Escalate Critical Issues",
+          "agent": "meta-orchestrator",
+          "prompt": "Critical incident detected, escalating to orchestrator for human review"
+        }
+      ]
+    },
+    {
+      "name": "plugin-lifecycle",
+      "description": "Manages plugin inventory, contracts, and feature lifecycle",
+      "argument-hint": "Review plugin schemas, access policies, and feature lifecycle",
+      "target": "vscode",
+      "user-invocable": true,
+      "model": "claude-3-5-sonnet",
+      "tools": [
+        "vscode.workspace",
+        "vscode.diagnostics",
+        "github"
+      ],
+      "disable-model-invocation": false,
+      "handoffs": [
+        {
+          "label": "Return to Orchestrator",
+          "agent": "meta-orchestrator",
+          "prompt": "Plugin and feature lifecycle review complete"
+        }
+      ]
+    },
+    {
+      "name": "security-dependency",
+      "description": "Monitors dependencies for vulnerabilities and enforces security practices",
+      "argument-hint": "Scan dependencies, review code for security issues",
+      "target": "vscode",
+      "user-invocable": true,
+      "model": "claude-3-5-sonnet",
+      "tools": [
+        "vscode.workspace",
+        "vscode.diagnostics",
+        "github"
+      ],
+      "disable-model-invocation": false,
+      "handoffs": [
+        {
+          "label": "Escalate to Orchestrator",
+          "agent": "meta-orchestrator",
+          "prompt": "Security and dependency scan complete, blocking or approving based on findings"
+        }
+      ]
+    },
+    {
+      "name": "testing-release",
+      "description": "Runs tests, enforces CI/CD rules, and validates release readiness",
+      "argument-hint": "Run tests, verify CI/CD pipeline, validate release readiness",
+      "target": "vscode",
+      "user-invocable": true,
+      "model": "claude-3-5-sonnet",
+      "tools": [
+        "vscode.workspace",
+        "vscode.diagnostics",
+        "github"
+      ],
+      "disable-model-invocation": false,
+      "handoffs": [
+        {
+          "label": "Final Approval",
+          "agent": "meta-orchestrator",
+          "prompt": "All tests passed, requesting final orchestrator approval for release"
+        }
+      ]
+    }
+  ]
+}
