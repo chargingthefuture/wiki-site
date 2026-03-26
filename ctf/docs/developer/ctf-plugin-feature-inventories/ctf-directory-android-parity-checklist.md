@@ -10,10 +10,10 @@ This checklist tracks Android feature parity for the Directory plugin in the CTF
 | Directory list and profile discovery             | Implemented (client mock list) |                     |
 | Public profile controls (isPublic)               | Partially implemented (UI shows public flag) |                     |
 | Public directory projection routes               | Not implemented       |                     |
-| Announcement consumption                         | Not implemented       |                     |
-| Validation limits (description, selectors, URL)  | Not implemented       |                     |
-| Admin profile list/create/update/assign/delete   | Not implemented       |                     |
-| Admin announcement list/create/update/deactivate | Not implemented       |                     |
+| Announcement consumption                         | Implemented (mock announcements list) |                     |
+| Validation limits (description, selectors, URL)  | Partially implemented (UI validation stubs) |                     |
+| Admin profile list/create/update/assign/delete   | Partially implemented (admin UI mocks for list/create/update/delete) |                     |
+| Admin announcement list/create/update/deactivate | Implemented (mock announcement list) |                     |
 | Admin skills compatibility/selector governance   | Not implemented       |                     |
 | Claimed/unclaimed guardrails                     | Not implemented       |                     |
 | Post-create public URL display                   | Partially implemented (mock copy URL action) |                     |
