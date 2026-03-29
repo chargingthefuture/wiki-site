@@ -1,0 +1,6 @@
+# Codacy CLI configuration file
+# See https://docs.codacy.com/docs/cli-configuration for more options
+
+# Example minimal configuration:
+project_token: "YOUR_PROJECT_TOKEN_HERE"
+# Optionally specify the tools to use, patterns, or other settings as needed.
