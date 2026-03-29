@@ -1,3 +1,9 @@
+
+# Codespaces Environment Notice
+
+- The primary development environment is GitHub Codespaces.
+- All environment-type updates, additions, and tooling changes must be reflected in the devcontainer setup (e.g., .devcontainer/setup.sh, devcontainer.json) to ensure reproducibility and zero manual steps on container start.
+
 # Product Rules Index
 
 ## Scope
