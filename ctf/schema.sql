@@ -215,3 +215,419 @@ CREATE TABLE IF NOT EXISTS skills_hunt_service_credits_transactions (
 CREATE INDEX IF NOT EXISTS idx_skills_hunt_service_credits_from_user ON skills_hunt_service_credits_transactions (from_user_id);
 CREATE INDEX IF NOT EXISTS idx_skills_hunt_service_credits_to_user ON skills_hunt_service_credits_transactions (to_user_id);
 CREATE INDEX IF NOT EXISTS idx_skills_hunt_service_credits_submission_id ON skills_hunt_service_credits_transactions (submission_id);
+
+-- === feed tables ===
+CREATE TABLE IF NOT EXISTS feed_render_config (
+  id BOOLEAN PRIMARY KEY DEFAULT TRUE,
+  render_mode TEXT NOT NULL,
+  kill_switch_enabled BOOLEAN NOT NULL DEFAULT FALSE,
+  max_timeline_page_size INTEGER NOT NULL DEFAULT 100,
+  updated_by_user_id TEXT NOT NULL,
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS feed_items (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  item_type TEXT NOT NULL,
+  source_announcement_id UUID,
+  title TEXT NOT NULL,
+  body TEXT NOT NULL,
+  priority INTEGER NOT NULL DEFAULT 0,
+  mandatory BOOLEAN NOT NULL DEFAULT FALSE,
+  published_at TIMESTAMPTZ,
+  expires_at TIMESTAMPTZ,
+  is_active BOOLEAN NOT NULL DEFAULT TRUE,
+  created_by_user_id TEXT NOT NULL,
+  updated_by_user_id TEXT NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS feed_item_targets (
+  item_id UUID NOT NULL REFERENCES feed_items(id) ON DELETE CASCADE,
+  target_role TEXT,
+  target_plugin TEXT,
+  target_region TEXT,
+  PRIMARY KEY (item_id, target_role, target_plugin, target_region)
+);
+CREATE TABLE IF NOT EXISTS feed_user_read_state (
+  user_id TEXT NOT NULL,
+  item_id UUID NOT NULL REFERENCES feed_items(id) ON DELETE CASCADE,
+  read_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  PRIMARY KEY (user_id, item_id)
+);
+CREATE TABLE IF NOT EXISTS feed_user_dismissals (
+  user_id TEXT NOT NULL,
+  item_id UUID NOT NULL REFERENCES feed_items(id) ON DELETE CASCADE,
+  dismissed_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  PRIMARY KEY (user_id, item_id)
+);
+CREATE TABLE IF NOT EXISTS feed_membership_events (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  actor_id TEXT NOT NULL,
+  user_id TEXT NOT NULL,
+  plugin_id TEXT NOT NULL,
+  event_type TEXT NOT NULL,
+  request_id TEXT,
+  trace_id TEXT,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS announcement_revisions (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  announcement_id UUID NOT NULL,
+  title TEXT NOT NULL,
+  body TEXT NOT NULL,
+  status TEXT NOT NULL,
+  priority INTEGER NOT NULL,
+  mandatory BOOLEAN NOT NULL,
+  schedule_at TIMESTAMPTZ,
+  expires_at TIMESTAMPTZ,
+  targeting JSONB NOT NULL DEFAULT '{}'::jsonb,
+  created_by_user_id TEXT NOT NULL,
+  updated_by_user_id TEXT NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS announcement_delivery_events (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  announcement_id UUID NOT NULL,
+  event_type TEXT NOT NULL,
+  payload JSONB NOT NULL DEFAULT '{}'::jsonb,
+  created_by_user_id TEXT NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS announcement_user_state (
+  user_id TEXT NOT NULL,
+  announcement_id UUID NOT NULL,
+  read_at TIMESTAMPTZ,
+  acknowledged_at TIMESTAMPTZ,
+  dismissed_at TIMESTAMPTZ,
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  PRIMARY KEY (user_id, announcement_id)
+);
+CREATE TABLE IF NOT EXISTS announcement_membership_events (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  actor_id TEXT NOT NULL,
+  user_id TEXT NOT NULL,
+  plugin_id TEXT NOT NULL,
+  event_type TEXT NOT NULL,
+  request_id TEXT,
+  trace_id TEXT,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+
+-- === unlock tables ===
+CREATE TABLE IF NOT EXISTS unlock_verification_submissions (
+  user_id TEXT PRIMARY KEY,
+  access_tier TEXT NOT NULL,
+  incentive_granted_at TIMESTAMPTZ,
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS unlock_audit_log (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id TEXT NOT NULL,
+  action TEXT NOT NULL,
+  details JSONB NOT NULL DEFAULT '{}'::jsonb,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+
+-- === trusttransport tables ===
+CREATE TABLE IF NOT EXISTS trusttransport_requests (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  requester_user_id TEXT NOT NULL,
+  mode TEXT NOT NULL,
+  title TEXT NOT NULL,
+  details TEXT,
+  pickup_city TEXT,
+  dropoff_city TEXT,
+  pickup_geo_redacted TEXT,
+  dropoff_geo_redacted TEXT,
+  status TEXT NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS trusttransport_status_events (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  request_id UUID NOT NULL REFERENCES trusttransport_requests(id) ON DELETE CASCADE,
+  trip_id UUID,
+  actor_user_id TEXT NOT NULL,
+  event_name TEXT NOT NULL,
+  from_status TEXT,
+  to_status TEXT,
+  metadata JSONB NOT NULL DEFAULT '{}'::jsonb,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS trusttransport_offers (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  request_id UUID NOT NULL REFERENCES trusttransport_requests(id) ON DELETE CASCADE,
+  provider_user_id TEXT NOT NULL,
+  note TEXT,
+  proposed_amount INTEGER,
+  status TEXT NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS trusttransport_trips (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  request_id UUID NOT NULL REFERENCES trusttransport_requests(id) ON DELETE CASCADE,
+  offer_id UUID,
+  requester_user_id TEXT NOT NULL,
+  provider_user_id TEXT NOT NULL,
+  mode TEXT NOT NULL,
+  status TEXT NOT NULL,
+  stream_channel_id TEXT,
+  cancelled_reason TEXT,
+  completed_at TIMESTAMPTZ,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS trusttransport_risk_signals (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  request_id UUID,
+  trip_id UUID,
+  actor_user_id TEXT NOT NULL,
+  target_user_id TEXT,
+  signal_type TEXT NOT NULL,
+  severity TEXT,
+  notes TEXT,
+  is_resolved BOOLEAN NOT NULL DEFAULT FALSE,
+  resolved_by_user_id TEXT,
+  resolved_at TIMESTAMPTZ,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS trusttransport_disputes (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  trip_id UUID,
+  request_id UUID,
+  opened_by_user_id TEXT NOT NULL,
+  reason TEXT NOT NULL,
+  status TEXT NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS trusttransport_ratings (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  trip_id UUID NOT NULL REFERENCES trusttransport_trips(id) ON DELETE CASCADE,
+  requester_user_id TEXT NOT NULL,
+  provider_user_id TEXT NOT NULL,
+  score INTEGER NOT NULL,
+  feedback TEXT,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS trusttransport_market_config (
+  id BOOLEAN PRIMARY KEY DEFAULT TRUE,
+  config JSONB NOT NULL DEFAULT '{}'::jsonb,
+  updated_by_user_id TEXT NOT NULL,
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS trusttransport_user_extension (
+  user_id TEXT PRIMARY KEY,
+  availability_preferences JSONB NOT NULL DEFAULT '{}'::jsonb,
+  work_preferences JSONB NOT NULL DEFAULT '{}'::jsonb,
+  service_deleted_at TIMESTAMPTZ,
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS trusttransport_proof_artifacts (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  trip_id UUID NOT NULL REFERENCES trusttransport_trips(id) ON DELETE CASCADE,
+  artifact_type TEXT NOT NULL,
+  artifact_redacted TEXT,
+  captured_by_user_id TEXT NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS trusttransport_payout_requests (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  provider_user_id TEXT NOT NULL,
+  amount INTEGER NOT NULL,
+  currency TEXT NOT NULL,
+  status TEXT NOT NULL,
+  idempotency_key TEXT NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS trusttransport_earnings_ledger (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  provider_user_id TEXT NOT NULL,
+  entry_type TEXT NOT NULL,
+  amount INTEGER NOT NULL,
+  currency TEXT NOT NULL,
+  status TEXT NOT NULL,
+  metadata JSONB NOT NULL DEFAULT '{}'::jsonb,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS trusttransport_admin_audit_trail (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  actor_id TEXT NOT NULL,
+  command TEXT NOT NULL,
+  policy_status TEXT NOT NULL,
+  reason TEXT NOT NULL,
+  target_type TEXT NOT NULL,
+  target_id TEXT NOT NULL,
+  metadata JSONB NOT NULL DEFAULT '{}'::jsonb,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+
+-- === workforce tables ===
+CREATE TABLE IF NOT EXISTS workforce_profiles (
+  user_id TEXT PRIMARY KEY,
+  occupation_id UUID NOT NULL,
+  skill_level TEXT NOT NULL,
+  region TEXT NOT NULL,
+  recruited_state BOOLEAN NOT NULL DEFAULT FALSE,
+  recruited_resolved_at TIMESTAMPTZ,
+  updated_by_user_id TEXT NOT NULL,
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS workforce_occupations (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  name TEXT NOT NULL,
+  sector TEXT NOT NULL,
+  is_active BOOLEAN NOT NULL DEFAULT TRUE,
+  created_by_user_id TEXT NOT NULL,
+  updated_by_user_id TEXT NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS workforce_announcements (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  title TEXT NOT NULL,
+  body TEXT NOT NULL,
+  is_active BOOLEAN NOT NULL DEFAULT TRUE,
+  published_at TIMESTAMPTZ,
+  expires_at TIMESTAMPTZ,
+  created_by_user_id TEXT NOT NULL,
+  updated_by_user_id TEXT NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS workforce_user_extension (
+  user_id TEXT PRIMARY KEY,
+  availability_preferences JSONB NOT NULL DEFAULT '{}'::jsonb,
+  work_preferences JSONB NOT NULL DEFAULT '{}'::jsonb,
+  service_deleted_at TIMESTAMPTZ,
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS workforce_recruited_events (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id TEXT NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS workforce_config (
+  singleton_key BOOLEAN PRIMARY KEY DEFAULT TRUE,
+  exports_enabled BOOLEAN NOT NULL DEFAULT FALSE,
+  kill_switch_enabled BOOLEAN NOT NULL DEFAULT FALSE,
+  report_week_timezone TEXT NOT NULL,
+  report_week_start_dow INTEGER NOT NULL DEFAULT 0,
+  updated_by_user_id TEXT NOT NULL,
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS workforce_recruited_sync_cursor (
+  singleton_key BOOLEAN PRIMARY KEY DEFAULT TRUE,
+  last_cursor_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+
+-- === service credits tables ===
+CREATE TABLE IF NOT EXISTS service_credits_wallets (
+  user_id TEXT PRIMARY KEY,
+  available_balance NUMERIC NOT NULL DEFAULT 0,
+  escrow_balance NUMERIC NOT NULL DEFAULT 0,
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS service_credits_transfers (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  sender_user_id TEXT NOT NULL,
+  recipient_user_id TEXT NOT NULL,
+  amount NUMERIC NOT NULL,
+  status TEXT NOT NULL,
+  idempotency_key TEXT NOT NULL,
+  completed_at TIMESTAMPTZ,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS service_credits_command_idempotency (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  command TEXT NOT NULL,
+  response_payload JSONB NOT NULL DEFAULT '{}'::jsonb,
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS service_credits_adapter_outbox (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  payload JSONB NOT NULL DEFAULT '{}'::jsonb,
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS service_credits_escrow_holds (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  wallet_user_id TEXT NOT NULL,
+  transfer_id UUID NOT NULL,
+  amount NUMERIC NOT NULL,
+  status TEXT NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS service_credits_ledger_entries (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id TEXT NOT NULL,
+  entry_type TEXT NOT NULL,
+  amount NUMERIC NOT NULL,
+  reference_type TEXT NOT NULL,
+  reference_id TEXT NOT NULL,
+  accounting_scope TEXT NOT NULL,
+  metadata JSONB NOT NULL DEFAULT '{}'::jsonb,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS service_credits_governance_events (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  event_type TEXT NOT NULL,
+  metadata JSONB NOT NULL DEFAULT '{}'::jsonb,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS service_credits_treasury_events (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  event_type TEXT NOT NULL,
+  metadata JSONB NOT NULL DEFAULT '{}'::jsonb,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS service_credits_wallet_tombstones (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id TEXT NOT NULL,
+  final_available_balance NUMERIC NOT NULL,
+  final_escrow_balance NUMERIC NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS service_credits_account_deletion_reclaims (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id TEXT NOT NULL,
+  amount_transferred NUMERIC NOT NULL,
+  transfer_id UUID,
+  tombstone_id UUID,
+  provider_transaction_id TEXT,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS service_credits_dispute_adjustments (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  dispute_id UUID NOT NULL,
+  adjustment_amount NUMERIC NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS service_credits_admin_audit_trail (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  actor_id TEXT NOT NULL,
+  command TEXT NOT NULL,
+  policy_status TEXT NOT NULL,
+  reason TEXT NOT NULL,
+  target_type TEXT NOT NULL,
+  target_id TEXT NOT NULL,
+  metadata JSONB NOT NULL DEFAULT '{}'::jsonb,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS service_credits_treasury_config (
+  id BOOLEAN PRIMARY KEY DEFAULT TRUE,
+  policy JSONB NOT NULL DEFAULT '{}'::jsonb,
+  updated_by_user_id TEXT NOT NULL,
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE TABLE IF NOT EXISTS service_credits_disputes (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  transfer_id UUID NOT NULL,
+  opened_by_user_id TEXT NOT NULL,
+  reason TEXT NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
