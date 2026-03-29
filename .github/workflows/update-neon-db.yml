@@ -28,6 +28,9 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Install pnpm
+        run: npm install -g pnpm
+
       - name: Set ENVIRONMENT var (manual or push)
         id: set_env
         run: |
