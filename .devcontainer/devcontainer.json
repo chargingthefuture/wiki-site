@@ -1,0 +1,4 @@
+{
+  "name": "ChargingTheFuture Codespace",
+  "postCreateCommand": ".codacy/cli.sh --version || bash .codacy/cli.sh"
+}
