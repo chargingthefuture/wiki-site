@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "prebuild": "node --check ./scripts/*.js ./scripts/*.mjs || exit 1",
-    "build": "next build",
+    "build": "NODE_OPTIONS=--max-old-space-size=4096 NEXT_PRIVATE_MAX_WORKER_THREADS=2 next build",
     "start": "next start -p ${PORT:-3000}",
     "lint": "eslint src --max-warnings 0",
     "typecheck": "tsc --noEmit -p tsconfig.json",

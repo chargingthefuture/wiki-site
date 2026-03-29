@@ -28,6 +28,7 @@ else
   echo "Vercel CLI already installed."
 fi
 
+
 # Ensure pnpm is installed
 echo "Checking for pnpm..."
 if ! command -v pnpm &> /dev/null; then
@@ -35,6 +36,10 @@ if ! command -v pnpm &> /dev/null; then
 else
   echo "pnpm already installed."
 fi
+
+# Install all monorepo dependencies (including expo-cli for mobile)
+echo "Installing all pnpm dependencies..."
+pnpm install
 
 # Prompt for login if needed
 echo "If you need to log in to GitHub, Railway, or Vercel, run:"

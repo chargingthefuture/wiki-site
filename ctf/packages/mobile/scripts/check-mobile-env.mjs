@@ -1,3 +1,5 @@
+
+import 'dotenv/config';
 const profile = process.env.MOBILE_ENV_TARGET || process.env.EAS_BUILD_PROFILE || 'preview';
 
 function pick(...keys) {
