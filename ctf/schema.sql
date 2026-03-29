@@ -254,35 +254,35 @@ CREATE TABLE IF NOT EXISTS feed_user_read_state (
   PRIMARY KEY (user_id, item_id)
 );
 CREATE TABLE IF NOT EXISTS feed_user_dismissals (
-
-  -- === GDP Publications ===
-  CREATE TABLE IF NOT EXISTS gdp_publications (
-    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    week_start_date DATE NOT NULL,
-    title TEXT NOT NULL,
-    summary TEXT NOT NULL,
-    status TEXT NOT NULL CHECK (status IN ('draft', 'published')),
-    created_by_user_id TEXT NOT NULL,
-    published_by_user_id TEXT,
-    published_at TIMESTAMPTZ,
-    updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
-  );
-
-  -- Add columns with guarded DDL for legacy DBs
-  ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS id UUID PRIMARY KEY DEFAULT gen_random_uuid();
-  ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS week_start_date DATE NOT NULL;
-  ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS title TEXT NOT NULL;
-  ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS summary TEXT NOT NULL;
-  ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS status TEXT NOT NULL CHECK (status IN ('draft', 'published'));
-  ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS created_by_user_id TEXT NOT NULL;
-  ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS published_by_user_id TEXT;
-  ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS published_at TIMESTAMPTZ;
-  ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
   user_id TEXT NOT NULL,
   item_id UUID NOT NULL REFERENCES feed_items(id) ON DELETE CASCADE,
   dismissed_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
   PRIMARY KEY (user_id, item_id)
 );
+
+-- === GDP Publications ===
+CREATE TABLE IF NOT EXISTS gdp_publications (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  week_start_date DATE NOT NULL,
+  title TEXT NOT NULL,
+  summary TEXT NOT NULL,
+  status TEXT NOT NULL CHECK (status IN ('draft', 'published')),
+  created_by_user_id TEXT NOT NULL,
+  published_by_user_id TEXT,
+  published_at TIMESTAMPTZ,
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+
+-- Add columns with guarded DDL for legacy DBs
+ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS id UUID PRIMARY KEY DEFAULT gen_random_uuid();
+ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS week_start_date DATE NOT NULL;
+ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS title TEXT NOT NULL;
+ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS summary TEXT NOT NULL;
+ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS status TEXT NOT NULL CHECK (status IN ('draft', 'published'));
+ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS created_by_user_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS published_by_user_id TEXT;
+ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS published_at TIMESTAMPTZ;
+ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 CREATE TABLE IF NOT EXISTS feed_membership_events (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   actor_id TEXT NOT NULL,
@@ -339,9 +339,19 @@ CREATE TABLE IF NOT EXISTS announcement_membership_events (
 
 -- === unlock tables ===
 CREATE TABLE IF NOT EXISTS unlock_verification_submissions (
-  user_id TEXT PRIMARY KEY,
+  id SERIAL PRIMARY KEY,
+  user_id TEXT NOT NULL UNIQUE,
   access_tier TEXT NOT NULL,
   incentive_granted_at TIMESTAMPTZ,
+  quora_profile_url TEXT,
+  quora_profile_url_normalized TEXT,
+  review_status TEXT,
+  unlock_window_expires_at TIMESTAMPTZ,
+  reminder_stage INTEGER DEFAULT 0,
+  reviewed_by_user_id TEXT,
+  reviewed_at TIMESTAMPTZ,
+  review_note TEXT,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 CREATE TABLE IF NOT EXISTS unlock_audit_log (
@@ -352,6 +362,20 @@ CREATE TABLE IF NOT EXISTS unlock_audit_log (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
+
+-- === unlock_runtime_config table for rewrite compatibility ===
+CREATE TABLE IF NOT EXISTS unlock_runtime_config (
+  singleton_id INTEGER PRIMARY KEY DEFAULT 1,
+  submission_window_hours INTEGER NOT NULL DEFAULT 168,
+  reminder_schedule_hours INTEGER[] NOT NULL DEFAULT ARRAY[0,24,72,168],
+  incentive_amount TEXT NOT NULL DEFAULT '100',
+  support_only_after_expiry BOOLEAN NOT NULL DEFAULT TRUE
+);
+ALTER TABLE IF EXISTS unlock_runtime_config ADD COLUMN IF NOT EXISTS singleton_id INTEGER PRIMARY KEY DEFAULT 1;
+ALTER TABLE IF EXISTS unlock_runtime_config ADD COLUMN IF NOT EXISTS submission_window_hours INTEGER NOT NULL DEFAULT 168;
+ALTER TABLE IF EXISTS unlock_runtime_config ADD COLUMN IF NOT EXISTS reminder_schedule_hours INTEGER[] NOT NULL DEFAULT ARRAY[0,24,72,168];
+ALTER TABLE IF EXISTS unlock_runtime_config ADD COLUMN IF NOT EXISTS incentive_amount TEXT NOT NULL DEFAULT '100';
+ALTER TABLE IF EXISTS unlock_runtime_config ADD COLUMN IF NOT EXISTS support_only_after_expiry BOOLEAN NOT NULL DEFAULT TRUE;
 
 -- === trusttransport tables ===
 CREATE TABLE IF NOT EXISTS trusttransport_requests (
