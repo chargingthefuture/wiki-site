@@ -61,16 +61,29 @@ COMMIT;
 CREATE TABLE IF NOT EXISTS peer_programming_weekly_topics (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   week_start_date DATE NOT NULL,
-  topic TEXT NOT NULL,
+  title TEXT NOT NULL,
+  guidance TEXT NOT NULL,
+  revision_note TEXT,
+  status TEXT NOT NULL CHECK (status IN ('draft', 'published')),
+  created_by_user_id TEXT NOT NULL,
+  published_by_user_id TEXT,
+  published_at TIMESTAMPTZ,
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
-ALTER TABLE IF EXISTS peer_programming_weekly_topics
-  ADD COLUMN IF NOT EXISTS week_start_date DATE NOT NULL;
-ALTER TABLE IF EXISTS peer_programming_weekly_topics
-  ADD COLUMN IF NOT EXISTS topic TEXT NOT NULL;
-ALTER TABLE IF EXISTS peer_programming_weekly_topics
-  ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
+-- Add columns with guarded DDL for legacy DBs
+ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS id UUID PRIMARY KEY DEFAULT gen_random_uuid();
+ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS week_start_date DATE NOT NULL;
+ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS title TEXT NOT NULL;
+ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS guidance TEXT NOT NULL;
+ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS revision_note TEXT;
+ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS status TEXT NOT NULL CHECK (status IN ('draft', 'published'));
+ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS created_by_user_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS published_by_user_id TEXT;
+ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS published_at TIMESTAMPTZ;
+ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
+ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
 -- === clerk-username-handle-baseline ===
 ALTER TABLE IF EXISTS public.users ADD COLUMN IF NOT EXISTS username VARCHAR(64);
@@ -341,19 +354,35 @@ CREATE TABLE IF NOT EXISTS announcement_membership_events (
 CREATE TABLE IF NOT EXISTS unlock_verification_submissions (
   id SERIAL PRIMARY KEY,
   user_id TEXT NOT NULL UNIQUE,
-  access_tier TEXT NOT NULL,
-  incentive_granted_at TIMESTAMPTZ,
-  quora_profile_url TEXT,
-  quora_profile_url_normalized TEXT,
-  review_status TEXT,
-  unlock_window_expires_at TIMESTAMPTZ,
-  reminder_stage INTEGER DEFAULT 0,
+  quora_profile_url TEXT NOT NULL,
+  quora_profile_url_normalized TEXT NOT NULL,
+  review_status TEXT NOT NULL CHECK (review_status IN ('pending', 'approved', 'rejected', 'spam')),
+  access_tier TEXT NOT NULL CHECK (access_tier IN ('pending_readonly', 'approved_full', 'locked_support_only')),
+  unlock_window_expires_at TIMESTAMPTZ NOT NULL,
+  reminder_stage INTEGER NOT NULL DEFAULT 0,
   reviewed_by_user_id TEXT,
   reviewed_at TIMESTAMPTZ,
   review_note TEXT,
+  incentive_granted_at TIMESTAMPTZ,
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
+
+-- Add columns with guarded DDL for legacy DBs
+ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS id SERIAL;
+ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS user_id TEXT NOT NULL UNIQUE;
+ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS quora_profile_url TEXT NOT NULL;
+ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS quora_profile_url_normalized TEXT NOT NULL;
+ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS review_status TEXT NOT NULL CHECK (review_status IN ('pending', 'approved', 'rejected', 'spam'));
+ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS access_tier TEXT NOT NULL CHECK (access_tier IN ('pending_readonly', 'approved_full', 'locked_support_only'));
+ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS unlock_window_expires_at TIMESTAMPTZ NOT NULL;
+ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS reminder_stage INTEGER NOT NULL DEFAULT 0;
+ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS reviewed_by_user_id TEXT;
+ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS reviewed_at TIMESTAMPTZ;
+ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS review_note TEXT;
+ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS incentive_granted_at TIMESTAMPTZ;
+ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
+ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 CREATE TABLE IF NOT EXISTS unlock_audit_log (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   user_id TEXT NOT NULL,
