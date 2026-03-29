@@ -1,0 +1,114 @@
+policies:
+  - pluginId: trust
+    command: trust.summary.read
+    version: 1.0.0
+    requiredRoles:
+      - member
+      - contributor
+      - moderator
+      - admin
+    attributePolicies:
+      activeSessionRequired: true
+      publicSafeProjectionOnly: true
+      trustVisibilityLevelEnforced: true
+      noExactTimestampExposure: enforced
+      viewedUserScope: same_workspace_or_public_profile
+    consentRequirements:
+      scopes:
+        - trust_summary_read
+      fallbackLawfulBasis: legitimate_interest_with_safety_controls
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - unauthenticated_session
+      - unauthorized_scope
+      - trust_visibility_restricted
+      - raw_signal_request_detected
+
+  - pluginId: trust
+    command: trust.visibility.update
+    version: 1.0.0
+    requiredRoles:
+      - member
+      - contributor
+      - moderator
+      - admin
+    attributePolicies:
+      activeSessionRequired: true
+      selfScopeOnly: true
+      allowedVisibilityLevelsOnly: true
+    consentRequirements:
+      scopes:
+        - trust_visibility_manage
+      fallbackLawfulBasis: explicit_consent_required
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - unauthenticated_session
+      - unauthorized_scope
+      - invalid_visibility_level
+
+  - pluginId: trust
+    command: trust.admin.verification.review
+    version: 1.0.0
+    requiredRoles:
+      - moderator
+      - admin
+    attributePolicies:
+      activeSessionRequired: true
+      moderationRouteOnly: required
+      reviewTransitionRules: enforced
+      publicNoteSafetyReview: required
+    consentRequirements:
+      scopes:
+        - trust_admin_write
+      fallbackLawfulBasis: legitimate_interest
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - insufficient_role
+      - invalid_verification_transition
+      - public_note_contains_sensitive_detail
+      - subject_not_found
+
+  - pluginId: trust
+    command: trust.signal.snapshot.refresh
+    version: 1.0.0
+    requiredRoles:
+      - system
+      - admin
+    attributePolicies:
+      approvedSourcePluginsOnly: true
+      bucketedAggregationOnly: true
+      exactTelemetryWriteDenied: true
+    consentRequirements:
+      scopes:
+        - trust_signal_aggregation
+      fallbackLawfulBasis: legitimate_interest_with_safety_controls
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - insufficient_role
+      - unapproved_source_plugin
+      - exact_activity_metric_requested
+      - subject_not_found

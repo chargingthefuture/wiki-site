@@ -1,0 +1,24 @@
+# Agent Scope Guardrails
+
+## Intent
+Prevent cross-scope edits, with `platform/` always treated as reference-only unless explicitly overridden.
+
+## Scope Enforcement
+- If user says legacy folders are reference-only, do not write to those folders.
+- Default project scope allows edits across the monorepo except `platform/`.
+- If user narrows scope further (for example `ctf/` only), follow the narrower scope.
+- Treat `platform/` as read-only reference unless user explicitly requests edits there.
+
+## Mandatory Pre-Edit Check
+- Before any file edit or terminal write command, verify target path prefix is allowed by current task scope.
+- If target path is outside scope, stop and ask for explicit scope override.
+
+## Mandatory Startup Confirmation
+- In the first progress update of each task, state the active write scope (for example: `monorepo except platform/`).
+
+## Recovery Rule
+- If out-of-scope edits occur, immediately:
+  1. Acknowledge the scope violation.
+  2. Revert all out-of-scope edits.
+  3. Confirm repository clean state for out-of-scope paths.
+  4. Continue only within allowed scope.

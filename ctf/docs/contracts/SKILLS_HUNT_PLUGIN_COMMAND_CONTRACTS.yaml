@@ -1,0 +1,375 @@
+contracts:
+  - pluginId: skills-hunt
+    command: skills-hunt.round.create
+    version: 1.0.0
+    description: Create a Skills Hunt round with scoring config, schedule window, and governance metadata.
+    inputSchema:
+      name:
+        type: string
+        required: true
+      description:
+        type: string
+        required: false
+      startsAtIso:
+        type: string
+        required: true
+      endsAtIso:
+        type: string
+        required: true
+      scoringConfig:
+        type: object
+        required: false
+    outputSchema:
+      roundId:
+        type: string
+      status:
+        type: string
+      createdAt:
+        type: string
+    dataAccess:
+      - skills_hunt_rounds
+      - skills_hunt_audit_log
+    purpose: campaign_governance
+    retentionClass: audit_long_lived
+    idempotency: true
+
+  - pluginId: skills-hunt
+    command: skills-hunt.round.update
+    version: 1.0.0
+    description: Update round schedule, status, and scoring controls for an existing Skills Hunt campaign.
+    inputSchema:
+      roundId:
+        type: string
+        required: true
+      name:
+        type: string
+        required: false
+      description:
+        type: string
+        required: false
+      status:
+        type: string
+        required: false
+      startsAtIso:
+        type: string
+        required: false
+      endsAtIso:
+        type: string
+        required: false
+      scoringConfig:
+        type: object
+        required: false
+    outputSchema:
+      roundId:
+        type: string
+      status:
+        type: string
+      updatedAt:
+        type: string
+    dataAccess:
+      - skills_hunt_rounds
+      - skills_hunt_audit_log
+    purpose: campaign_governance
+    retentionClass: audit_long_lived
+    idempotency: true
+
+  - pluginId: skills-hunt
+    command: skills-hunt.round.list
+    version: 1.0.0
+    description: List Skills Hunt rounds for contributor and admin discovery surfaces.
+    inputSchema:
+      status:
+        type: string
+        required: false
+      page:
+        type: integer
+        required: false
+      pageSize:
+        type: integer
+        required: false
+    outputSchema:
+      items:
+        type: array
+      nextCursor:
+        type: string
+    dataAccess:
+      - skills_hunt_rounds
+    purpose: campaign_discovery
+    retentionClass: derived_short_lived
+    idempotency: true
+
+  - pluginId: skills-hunt
+    command: skills-hunt.submission.create
+    version: 1.0.0
+    description: Create a contributor submission with validated profile URL, skill set, and profession claims.
+    inputSchema:
+      roundId:
+        type: string
+        required: true
+      displayName:
+        type: string
+        required: true
+      bio:
+        type: string
+        required: true
+      quoraProfileUrl:
+        type: string
+        required: true
+      skills:
+        type: array
+        required: true
+      claimedProfessions:
+        type: array
+        required: false
+    outputSchema:
+      submissionId:
+        type: string
+      status:
+        type: string
+      createdAt:
+        type: string
+    dataAccess:
+      - skills_hunt_submissions
+      - skills_hunt_rare_skills_lookup
+      - skills_hunt_audit_log
+    purpose: community_contribution
+    retentionClass: transactional_long_lived
+    idempotency: true
+
+  - pluginId: skills-hunt
+    command: skills-hunt.submission.list
+    version: 1.0.0
+    description: List round submissions with role-scoped filtering and pagination.
+    inputSchema:
+      roundId:
+        type: string
+        required: true
+      status:
+        type: string
+        required: false
+      submitterUserId:
+        type: string
+        required: false
+      page:
+        type: integer
+        required: false
+      limit:
+        type: integer
+        required: false
+    outputSchema:
+      items:
+        type: array
+      nextCursor:
+        type: string
+    dataAccess:
+      - skills_hunt_submissions
+    purpose: moderation_and_progress
+    retentionClass: derived_short_lived
+    idempotency: true
+
+  - pluginId: skills-hunt
+    command: skills-hunt.submission.review
+    version: 1.0.0
+    description: Apply moderator/admin review decision including accept/reject/edit/flag and scoring updates.
+    inputSchema:
+      submissionId:
+        type: string
+        required: true
+      action:
+        type: string
+        required: true
+      notes:
+        type: string
+        required: false
+      edit:
+        type: object
+        required: false
+    outputSchema:
+      submissionId:
+        type: string
+      status:
+        type: string
+      pointsAwarded:
+        type: integer
+      reviewedAt:
+        type: string
+    dataAccess:
+      - skills_hunt_submissions
+      - skills_hunt_leaderboard
+      - skills_hunt_audit_log
+    purpose: moderation_and_scoring
+    retentionClass: audit_long_lived
+    idempotency: true
+
+  - pluginId: skills-hunt
+    command: skills-hunt.leaderboard.list
+    version: 1.0.0
+    description: Retrieve round leaderboard entries in individual or team mode.
+    inputSchema:
+      roundId:
+        type: string
+        required: true
+      mode:
+        type: string
+        required: true
+      limit:
+        type: integer
+        required: false
+    outputSchema:
+      items:
+        type: array
+      generatedAt:
+        type: string
+    dataAccess:
+      - skills_hunt_leaderboard
+    purpose: progress_visibility
+    retentionClass: derived_short_lived
+    idempotency: true
+
+  - pluginId: skills-hunt
+    command: skills-hunt.achievement.list
+    version: 1.0.0
+    description: List achievements awarded to the authenticated user.
+    inputSchema:
+      userId:
+        type: string
+        required: true
+      page:
+        type: integer
+        required: false
+    outputSchema:
+      items:
+        type: array
+      nextCursor:
+        type: string
+    dataAccess:
+      - skills_hunt_achievements
+    purpose: reward_visibility
+    retentionClass: derived_medium_lived
+    idempotency: true
+
+  - pluginId: skills-hunt
+    command: skills-hunt.notification.list
+    version: 1.0.0
+    description: List Skills Hunt notifications for the authenticated user.
+    inputSchema:
+      userId:
+        type: string
+        required: true
+      unreadOnly:
+        type: boolean
+        required: false
+    outputSchema:
+      items:
+        type: array
+    dataAccess:
+      - skills_hunt_notifications
+    purpose: user_notification_delivery
+    retentionClass: derived_short_lived
+    idempotency: true
+
+  - pluginId: skills-hunt
+    command: skills-hunt.notification.ack
+    version: 1.0.0
+    description: Mark a Skills Hunt notification as read.
+    inputSchema:
+      notificationId:
+        type: string
+        required: true
+    outputSchema:
+      notificationId:
+        type: string
+      isRead:
+        type: boolean
+      readAt:
+        type: string
+    dataAccess:
+      - skills_hunt_notifications
+    purpose: user_notification_delivery
+    retentionClass: transactional_long_lived
+    idempotency: true
+
+  - pluginId: skills-hunt
+    command: skills-hunt.feature-reward-card.get
+    version: 1.0.0
+    description: Read the active feature reward card for Skills Hunt UI surfaces.
+    inputSchema: {}
+    outputSchema:
+      title:
+        type: string
+      description:
+        type: string
+      ctaLabel:
+        type: string
+      ctaUrl:
+        type: string
+      isActive:
+        type: boolean
+    dataAccess:
+      - skills_hunt_feature_reward_card
+    purpose: reward_promotion
+    retentionClass: derived_short_lived
+    idempotency: true
+
+  - pluginId: skills-hunt
+    command: skills-hunt.feature-reward-card.update
+    version: 1.0.0
+    description: Update the global feature reward card configuration.
+    inputSchema:
+      title:
+        type: string
+        required: true
+      description:
+        type: string
+        required: true
+      ctaLabel:
+        type: string
+        required: true
+      ctaUrl:
+        type: string
+        required: true
+      isActive:
+        type: boolean
+        required: true
+    outputSchema:
+      title:
+        type: string
+      updatedAt:
+        type: string
+    dataAccess:
+      - skills_hunt_feature_reward_card
+      - skills_hunt_audit_log
+    purpose: reward_promotion_governance
+    retentionClass: audit_long_lived
+    idempotency: true
+
+  - pluginId: skills-hunt
+    command: skills-hunt.directory-profile.generate
+    version: 1.0.0
+    description: Generate an unclaimed Directory profile projection from an accepted submission.
+    inputSchema:
+      submissionId:
+        type: string
+        required: true
+      invitedByUsername:
+        type: string
+        required: true
+        description: Clerk `username` handle of the inviter; must not be a plugin-local username or display-name surrogate.
+    outputSchema:
+      generatedProfileId:
+        type: string
+      profileStatus:
+        type: string
+      createdAt:
+        type: string
+    dataAccess:
+      - skills_hunt_submissions
+      - skills_hunt_directory_profiles
+      - skills_hunt_audit_log
+    purpose: directory_projection_generation
+    retentionClass: transactional_long_lived
+    idempotency: true
+
+changelog:
+  - date: 2026-02-24
+    change: Initial Skills Hunt v1 command contracts added for round governance, submission/review flows, leaderboard/reward surfaces, and Directory unclaimed-profile generation.

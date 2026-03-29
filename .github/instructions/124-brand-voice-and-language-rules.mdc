@@ -1,0 +1,42 @@
+# Brand Voice and Language Rules
+
+## Intent
+Enforce a unified, trauma-informed brand language across ctf/, landing-page/, waitlist-landing-page/, and wiki-blog/.
+
+## Source of Truth
+- Canonical language reference: `ctf/docs/BRAND_VOICE_LEXICON.md`.
+- For any wording conflict, this module defers to the lexicon.
+
+## Required Read Order For Copy Work
+- Read `index.mdc`.
+- Read this file.
+- Read `ctf/docs/BRAND_VOICE_LEXICON.md` before editing user-facing copy.
+
+## Brand Identity Rules
+- Use Charging the Future as the organization and umbrella brand.
+- Use TI Skills Economy as the product name.
+- Use Psyop-Free Economy as positioning language, not as a replacement product name.
+
+## Terminology Rules
+- Default to survivors, not victims, except in legal/statutory contexts.
+- Replace gang stalking and gang stalker with Specterati terminology where applicable.
+- Do not refer to chat as a standalone product; use plugin-context naming (for example Chyme chat).
+
+## Specterati Placement Rules
+- Tier 1 Editorial and explanatory content: full lexicon allowed.
+- Tier 2 Contextual UI support text: only explanatory use.
+- Tier 3 Restricted contexts: CTA labels, error messages, placeholders, and accessibility labels.
+
+## Voice Rules
+- Keep copy calm, plain, and predictable.
+- Avoid stigmatizing, sensational, coercive, or manipulative framing.
+- Prefer specific product behavior statements over abstract hype language.
+
+## Pre-Merge Copy Audit Checklist
+- Search for `gang stalk|gang stalking` in changed copy files.
+- Search for `\bvictim(s)?\b` in changed copy files and validate legal/statutory exception.
+- Search for standalone `chat` labels and ensure plugin context naming.
+- Validate terms against `ctf/docs/BRAND_VOICE_LEXICON.md`.
+
+## Release Constraint
+Any user-facing copy change in ctf/, landing-page/, waitlist-landing-page/, or wiki-blog/ is blocked from release until this module and the lexicon are satisfied.

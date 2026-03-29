@@ -1,4 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
+  const [venmoAddress, setVenmoAddress] = useState("");
+  const [moneroAddress, setMoneroAddress] = useState("");
+  const [bitcoinAddress, setBitcoinAddress] = useState("");
+  const [serviceCreditsAddress, setServiceCreditsAddress] = useState("");
 import { useQuery, useMutation } from "@tanstack/react-query";
 import { useLocation } from "wouter";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -110,6 +114,10 @@ export default function DirectoryProfilePage() {
       setStateVal(profile.state || "");
       setCountry(profile.country || "");
       setIsPublic(!!profile.isPublic);
+      setVenmoAddress(profile.venmoAddress || "");
+      setMoneroAddress(profile.moneroAddress || "");
+      setBitcoinAddress(profile.bitcoinAddress || "");
+      setServiceCreditsAddress(profile.serviceCreditsAddress || "");
       setIsEditing(false);
     }
   }, [profile, user]);
@@ -127,6 +135,10 @@ export default function DirectoryProfilePage() {
         state: stateVal || null,
         country: country,
         isPublic,
+        venmoAddress: venmoAddress || null,
+        moneroAddress: moneroAddress || null,
+        bitcoinAddress: bitcoinAddress || null,
+        serviceCreditsAddress: serviceCreditsAddress || null,
       };
       return apiRequest("POST", "/api/directory/profile", payload);
     },
@@ -154,6 +166,10 @@ export default function DirectoryProfilePage() {
         state: stateVal || null,
         country: country,
         isPublic,
+        venmoAddress: venmoAddress || null,
+        moneroAddress: moneroAddress || null,
+        bitcoinAddress: bitcoinAddress || null,
+        serviceCreditsAddress: serviceCreditsAddress || null,
       };
       return apiRequest("PUT", "/api/directory/profile", payload);
     },
@@ -378,6 +394,24 @@ export default function DirectoryProfilePage() {
                   <div className="mt-1">{[city, stateVal, country].filter(Boolean).join(', ') || '—'}</div>
                 </div>
               </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 mt-4">
+                <div>
+                  <Label className="text-muted-foreground">Venmo Address</Label>
+                  <div className="mt-1">{venmoAddress || '—'}</div>
+                </div>
+                <div>
+                  <Label className="text-muted-foreground">Monero Address</Label>
+                  <div className="mt-1">{moneroAddress || '—'}</div>
+                </div>
+                <div>
+                  <Label className="text-muted-foreground">Bitcoin Address</Label>
+                  <div className="mt-1">{bitcoinAddress || '—'}</div>
+                </div>
+                <div>
+                  <Label className="text-muted-foreground">Service Credits Address</Label>
+                  <div className="mt-1">{serviceCreditsAddress || '—'}</div>
+                </div>
+              </div>
             </div>
           ) : (
           <form onSubmit={(e) => {
@@ -597,32 +631,50 @@ export default function DirectoryProfilePage() {
           </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-            <div className="space-y-2">
-              <Label htmlFor="signal">Signal profile URL</Label>
-              <Input id="signal" placeholder="https://signal.me/#p/…" value={signalUrl} onChange={(e) => setSignalUrl(e.target.value)} />
-              {signalUrl && (
-                <Button variant="ghost" size="sm" onClick={() => openExternal(signalUrl)} className="justify-start px-0 text-primary">
-                  <ExternalLink className="w-4 h-4 mr-2" /> Open Signal link
-                </Button>
-              )}
+              <div className="space-y-2">
+                <Label htmlFor="signal">Signal profile URL</Label>
+                <Input id="signal" placeholder="https://signal.me/#p/…" value={signalUrl} onChange={(e) => setSignalUrl(e.target.value)} />
+                {signalUrl && (
+                  <Button variant="ghost" size="sm" onClick={() => openExternal(signalUrl)} className="justify-start px-0 text-primary">
+                    <ExternalLink className="w-4 h-4 mr-2" /> Open Signal link
+                  </Button>
+                )}
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="quora">Quora profile URL</Label>
+                <Input id="quora" placeholder="https://www.quora.com/profile/…" value={quoraUrl} onChange={(e) => setQuoraUrl(e.target.value)} />
+                {quoraUrl && (
+                  <Button variant="ghost" size="sm" onClick={() => openExternal(quoraUrl)} className="justify-start px-0 text-primary">
+                    <ExternalLink className="w-4 h-4 mr-2" /> Open Quora link
+                  </Button>
+                )}
+              </div>
+              <div className="space-y-2">
+                <Label>Visibility</Label>
+                <label className="flex items-center gap-2 text-sm">
+                  <Checkbox checked={isPublic} onCheckedChange={(v) => setIsPublic(!!v)} />
+                  <span>Make my Directory profile public</span>
+                </label>
+              </div>
             </div>
-            <div className="space-y-2">
-              <Label htmlFor="quora">Quora profile URL</Label>
-              <Input id="quora" placeholder="https://www.quora.com/profile/…" value={quoraUrl} onChange={(e) => setQuoraUrl(e.target.value)} />
-              {quoraUrl && (
-                <Button variant="ghost" size="sm" onClick={() => openExternal(quoraUrl)} className="justify-start px-0 text-primary">
-                  <ExternalLink className="w-4 h-4 mr-2" /> Open Quora link
-                </Button>
-              )}
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 mt-4">
+              <div className="space-y-2">
+                <Label htmlFor="venmoAddress">Venmo Address</Label>
+                <Input id="venmoAddress" placeholder="@your-venmo" value={venmoAddress} onChange={(e) => setVenmoAddress(e.target.value)} />
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="moneroAddress">Monero Address</Label>
+                <Input id="moneroAddress" placeholder="Monero address" value={moneroAddress} onChange={(e) => setMoneroAddress(e.target.value)} />
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="bitcoinAddress">Bitcoin Address</Label>
+                <Input id="bitcoinAddress" placeholder="Bitcoin address" value={bitcoinAddress} onChange={(e) => setBitcoinAddress(e.target.value)} />
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="serviceCreditsAddress">Service Credits Address</Label>
+                <Input id="serviceCreditsAddress" placeholder="Service Credits address" value={serviceCreditsAddress} onChange={(e) => setServiceCreditsAddress(e.target.value)} />
+              </div>
             </div>
-            <div className="space-y-2">
-              <Label>Visibility</Label>
-              <label className="flex items-center gap-2 text-sm">
-                <Checkbox checked={isPublic} onCheckedChange={(v) => setIsPublic(!!v)} />
-                <span>Make my Directory profile public</span>
-              </label>
-            </div>
-          </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
             <div className="space-y-2">

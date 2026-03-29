@@ -1,0 +1,13 @@
+{
+  "fetchedAt": "2026-03-04T17:48:10.457Z",
+  "composeUrl": "https://raw.githubusercontent.com/formancehq/ledger/main/examples/standalone/docker-compose.yml",
+  "composeTarget": "/workspaces/chargingthefuture/ctf/ops/formance/upstream-standalone/docker-compose.yml",
+  "referencedFiles": [
+    "-c",
+    "postgres",
+    "worker",
+    "ledger",
+    "gateway"
+  ],
+  "fetchedFiles": []
+}

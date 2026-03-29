@@ -1,0 +1,104 @@
+contracts:
+  - pluginId: unlock
+    command: unlock.verification.submit
+    version: 1.0.0
+    description: Submit or update Quora profile URL for staged unlock verification.
+    inputSchema:
+      quoraProfileUrl:
+        type: string
+        required: true
+    outputSchema:
+      submissionId:
+        type: integer
+      reviewStatus:
+        type: string
+      accessTier:
+        type: string
+      unlockWindowExpiresAt:
+        type: string
+    dataAccess:
+      - unlock_verification_submissions
+      - unlock_audit_log
+    purpose: identity_signal_submission
+    retentionClass: transactional_long_lived
+    idempotency: true
+
+  - pluginId: unlock
+    command: unlock.admin.submission.list
+    version: 1.0.0
+    description: List unlock verification submissions for admin moderation queues.
+    inputSchema:
+      reviewStatus:
+        type: string
+        required: false
+      accessTier:
+        type: string
+        required: false
+      limit:
+        type: integer
+        required: false
+    outputSchema:
+      items:
+        type: array
+    dataAccess:
+      - unlock_verification_submissions
+    purpose: moderation_queue
+    retentionClass: derived_short_lived
+    idempotency: true
+
+  - pluginId: unlock
+    command: unlock.admin.submission.review
+    version: 1.0.0
+    description: Apply admin moderation decision and unlock access tier transition.
+    inputSchema:
+      submissionId:
+        type: integer
+        required: true
+      reviewStatus:
+        type: string
+        required: true
+      reviewNote:
+        type: string
+        required: false
+    outputSchema:
+      submissionId:
+        type: integer
+      reviewStatus:
+        type: string
+      accessTier:
+        type: string
+      reviewedAt:
+        type: string
+    dataAccess:
+      - unlock_verification_submissions
+      - unlock_audit_log
+    purpose: moderation_and_unlock_transition
+    retentionClass: audit_long_lived
+    idempotency: true
+
+  - pluginId: unlock
+    command: unlock.incentive.approval.credit-grant
+    version: 1.0.0
+    description: Grant one-time service credits incentive after approved verification.
+    inputSchema:
+      userId:
+        type: string
+        required: true
+      submissionId:
+        type: integer
+        required: true
+      idempotencyKey:
+        type: string
+        required: true
+    outputSchema:
+      governanceEventId:
+        type: string
+      amount:
+        type: number
+    dataAccess:
+      - unlock_verification_submissions
+      - service_credits_governance_events
+      - service_credits_ledger_entries
+    purpose: incentive_award
+    retentionClass: financial_audit_long_lived
+    idempotency: true

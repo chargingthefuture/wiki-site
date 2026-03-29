@@ -1,0 +1,28 @@
+# Observability Provider Abstraction Rules
+
+## Intent
+Enable provider-neutral error monitoring so Sentry can be used now and Signoz can be adopted later with minimal refactoring.
+
+## Mandatory
+- All error capture must flow through a shared provider-agnostic interface.
+- Feature modules must never call vendor SDKs directly.
+- Use normalized event shape (`message`, `level`, `tags`, `context`, `fingerprint`, `timestamp`).
+- Support provider routing by configuration (Sentry, Signoz, no-op).
+
+## Migration Safety Rules
+- Keep adapter contracts stable even if provider changes.
+- Implement provider adapters in dedicated integration modules only.
+- Preserve privacy scrubbing before provider handoff regardless of provider.
+
+## Operational Rules
+- Initialize provider once per runtime boundary.
+- Fail open to no-op reporting if provider config is missing, while preserving local logging.
+- Track provider health and dropped-event metrics.
+- Use rewrite-specific DSNs/config and keep them isolated from legacy project telemetry.
+- Configure provider by environment variables:
+	- Web: `NEXT_PUBLIC_OBSERVABILITY_PROVIDER`, `NEXT_PUBLIC_SENTRY_DSN`
+	- Mobile: `EXPO_PUBLIC_OBSERVABILITY_PROVIDER`, `EXPO_PUBLIC_SENTRY_DSN`
+
+## Prohibited
+- Embedding provider-specific APIs into domain/business logic.
+- Duplicating vendor-specific capture code across web and mobile features.

@@ -1,0 +1,157 @@
+import { NextResponse } from 'next/server';
+import { evaluatePluginAccess, type AllowDecision } from '@/src/lib/auth/server-authz';
+import { getAppUrl } from '@/src/lib/auth/clerk-env';
+import { ensureSocketRelayAdmin } from '@/src/lib/socketrelay/policy';
+import { SOCKETRELAY_ERROR_CODE } from '@/src/lib/socketrelay/constants';
+
+export type SocketRelayApiGate =
+  | { allowed: true; auth: AllowDecision }
+  | { allowed: false; response: NextResponse };
+
+export async function requireSocketRelayReadAccess(): Promise<SocketRelayApiGate> {
+  const decision = await evaluatePluginAccess({ requireApprovedUserOrAdmin: true, requireUsername: false });
+  if (!decision.allowed) {
+    return { allowed: false, response: NextResponse.json(decision, { status: decision.status }) };
+  }
+
+  return { allowed: true, auth: decision };
+}
+
+export async function requireSocketRelayAdminAccess(): Promise<SocketRelayApiGate> {
+  const gate = await requireSocketRelayReadAccess();
+  if (!gate.allowed) {
+    return gate;
+  }
+
+  const deny = ensureSocketRelayAdmin(gate.auth);
+  if (deny) {
+    return { allowed: false, response: NextResponse.json(deny, { status: deny.status }) };
+  }
+
+  return gate;
+}
+
+export function ensureMutationCsrf(request: Request): NextResponse | null {
+  if (request.method === 'GET' || request.method === 'HEAD') {
+    return null;
+  }
+
+  if (request.headers.get('x-ctf-csrf') !== '1') {
+    return NextResponse.json(
+      { ok: false, code: SOCKETRELAY_ERROR_CODE.csrfDenied, message: 'Missing CSRF confirmation header.' },
+      { status: 403 },
+    );
+  }
+
+  const appUrl = getAppUrl();
+  const origin = request.headers.get('origin');
+  if (!appUrl || !origin) {
+    return null;
+  }
+
+  let appHost = '';
+  let originHost = '';
+  try {
+    appHost = new URL(appUrl).host;
+    originHost = new URL(origin).host;
+  } catch {
+    return NextResponse.json(
+      { ok: false, code: SOCKETRELAY_ERROR_CODE.csrfDenied, message: 'Invalid request origin metadata.' },
+      { status: 403 },
+    );
+  }
+
+  if (appHost !== originHost) {
+    return NextResponse.json(
+      { ok: false, code: SOCKETRELAY_ERROR_CODE.csrfDenied, message: 'Cross-origin mutation denied by CSRF policy.' },
+      { status: 403 },
+    );
+  }
+
+  return null;
+}
+
+export function parsePositiveInteger(value: string | null, fallback: number): number {
+  if (!value) {
+    return fallback;
+  }
+
+  const parsed = Number.parseInt(value, 10);
+  if (!Number.isInteger(parsed) || parsed < 1) {
+    return fallback;
+  }
+
+  return parsed;
+}
+
+export function socketRelayErrorResponse(error: unknown, fallbackMessage: string) {
+  const code = error instanceof Error ? error.message : '';
+
+  if (code === 'request_not_found') {
+    return NextResponse.json(
+      { ok: false, code: SOCKETRELAY_ERROR_CODE.requestNotFound, message: 'SocketRelay request not found.' },
+      { status: 404 },
+    );
+  }
+
+  if (code === 'fulfillment_not_found') {
+    return NextResponse.json(
+      { ok: false, code: SOCKETRELAY_ERROR_CODE.fulfillmentNotFound, message: 'SocketRelay fulfillment not found.' },
+      { status: 404 },
+    );
+  }
+
+  if (code === 'profile_not_found') {
+    return NextResponse.json(
+      { ok: false, code: SOCKETRELAY_ERROR_CODE.profileNotFound, message: 'SocketRelay profile not found.' },
+      { status: 404 },
+    );
+  }
+
+  if (code === 'not_owner') {
+    return NextResponse.json(
+      { ok: false, code: SOCKETRELAY_ERROR_CODE.notOwner, message: 'Operation requires ownership.' },
+      { status: 403 },
+    );
+  }
+
+  if (code === 'request_not_claimable') {
+    return NextResponse.json(
+      { ok: false, code: SOCKETRELAY_ERROR_CODE.requestNotClaimable, message: 'Request is not claimable.' },
+      { status: 409 },
+    );
+  }
+
+  if (code === 'actor_is_owner') {
+    return NextResponse.json(
+      { ok: false, code: SOCKETRELAY_ERROR_CODE.actorIsOwner, message: 'Request owner cannot claim fulfillment.' },
+      { status: 403 },
+    );
+  }
+
+  if (code === 'actor_not_participant') {
+    return NextResponse.json(
+      { ok: false, code: SOCKETRELAY_ERROR_CODE.actorNotParticipant, message: 'Not a fulfillment participant.' },
+      { status: 403 },
+    );
+  }
+
+  if (code === 'prohibited_content_detected') {
+    return NextResponse.json(
+      { ok: false, code: SOCKETRELAY_ERROR_CODE.prohibitedContent, message: 'Message rejected by moderation policy.' },
+      { status: 400 },
+    );
+  }
+
+  if (code === 'invalid payload') {
+    return NextResponse.json(
+      { ok: false, code: SOCKETRELAY_ERROR_CODE.invalidPayload, message: 'Invalid payload.' },
+      { status: 400 },
+    );
+  }
+
+  return NextResponse.json(
+    { ok: false, code: SOCKETRELAY_ERROR_CODE.persistenceUnavailable, message: fallbackMessage },
+    { status: 503 },
+  );
+}

@@ -1,0 +1,76 @@
+policies:
+  - pluginId: lighthouse
+    command: lighthouse.profile.upsert
+    version: 1.0.0
+    requiredRoles:
+      - member
+      - admin
+    attributePolicies:
+      tenancy: same_workspace
+      profileTypeLock: enforced
+      profileOwnershipOrAdmin: required
+    consentRequirements:
+      scopes:
+        - lighthouse_profile_management
+      fallbackLawfulBasis: explicit_consent_required
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - actor_not_authorized_for_profile
+      - invalid_profile_type_transition
+
+  - pluginId: lighthouse
+    command: lighthouse.match.request.create
+    version: 1.0.0
+    requiredRoles:
+      - member
+    attributePolicies:
+      tenancy: same_workspace
+      seekerRoleRequired: true
+      duplicateRequestPrevention: required
+    consentRequirements:
+      scopes:
+        - lighthouse_matching
+      fallbackLawfulBasis: explicit_consent_required
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - actor_not_seeker
+      - duplicate_active_or_pending_request
+      - blocked_participant_pair
+
+  - pluginId: lighthouse
+    command: lighthouse.block.create
+    version: 1.0.0
+    requiredRoles:
+      - member
+      - admin
+    attributePolicies:
+      tenancy: same_workspace
+      selfBlockDisallowed: true
+      safetyPolicyChecks: required
+    consentRequirements:
+      scopes:
+        - lighthouse_safety_controls
+      fallbackLawfulBasis: vital_interest_support
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - actor_not_authenticated
+      - self_block_attempt
+      - blocked_user_not_in_workspace

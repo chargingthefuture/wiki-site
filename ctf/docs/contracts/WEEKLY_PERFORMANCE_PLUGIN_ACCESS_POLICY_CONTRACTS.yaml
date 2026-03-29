@@ -1,0 +1,130 @@
+policies:
+  - pluginId: weekly-performance
+    command: weekly-performance.week.list
+    version: 1.0.0
+    requiredRoles:
+      - admin
+      - operations
+    attributePolicies:
+      tenancy: same_workspace
+      metricScope: approved_only
+    consentRequirements:
+      scopes:
+        - weekly_performance_admin
+      fallbackLawfulBasis: legitimate_interest
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: false
+    denyConditions:
+      - insufficient_role
+      - cross_workspace_access
+
+  - pluginId: weekly-performance
+    command: weekly-performance.week.get
+    version: 1.0.0
+    requiredRoles:
+      - admin
+      - operations
+    attributePolicies:
+      tenancy: same_workspace
+      weekStartFormat: iso_date_required
+    consentRequirements:
+      scopes:
+        - weekly_performance_admin
+      fallbackLawfulBasis: legitimate_interest
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: false
+    denyConditions:
+      - insufficient_role
+      - invalid_week_window
+
+  - pluginId: weekly-performance
+    command: weekly-performance.metrics.get
+    version: 1.0.0
+    requiredRoles:
+      - admin
+      - operations
+    attributePolicies:
+      tenancy: same_workspace
+      canonicalMetricRegistryMatch: required
+      financialDataScope: aggregate_only
+    consentRequirements:
+      scopes:
+        - weekly_performance_admin
+      fallbackLawfulBasis: legitimate_interest
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - insufficient_role
+      - invalid_metric_set
+      - unauthorized_metric_scope
+
+  - pluginId: weekly-performance
+    command: weekly-performance.comparison.get
+    version: 1.0.0
+    requiredRoles:
+      - admin
+      - operations
+    attributePolicies:
+      tenancy: same_workspace
+      canonicalMetricRegistryMatch: required
+      comparisonWindowPolicy: enforced
+    consentRequirements:
+      scopes:
+        - weekly_performance_admin
+      fallbackLawfulBasis: legitimate_interest
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - insufficient_role
+      - invalid_comparison_window
+      - invalid_metric_set
+
+  - pluginId: weekly-performance
+    command: weekly-performance.report.export
+    version: 1.0.0
+    requiredRoles:
+      - admin
+      - operations
+    attributePolicies:
+      tenancy: same_workspace
+      exportFormatPolicy: approved_formats_only
+      reportRetentionPolicy: enforced
+    consentRequirements:
+      scopes:
+        - weekly_performance_admin
+      fallbackLawfulBasis: legitimate_interest
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - insufficient_role
+      - invalid_export_format
+      - export_retention_policy_violation
+
+changelog:
+  - date: 2026-02-25
+    change: Initial Weekly Performance access policy skeleton added with admin-only controls, canonical metric safeguards, and export policy gates.

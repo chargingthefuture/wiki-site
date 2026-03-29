@@ -1,0 +1,19 @@
+# 11 Next.js + React Native Implementation Overlays
+
+## Intent
+Apply baseline controls consistently to rewrite targets: Next.js web and React Native Android.
+
+## Next.js Overlay
+- Enforce server-side authorization for all sensitive operations.
+- Prevent sensitive data exposure through SSR caching, headers, and client bundles.
+- Use CSRF/session protections for state-changing web requests.
+
+## React Native Overlay
+- Store tokens/secrets in secure OS-backed storage only.
+- Avoid PHI/personal data in device logs, crash payloads, and analytics events.
+- Require certificate pinning strategy and secure network configuration for production.
+
+## Plugin Command Overlay
+- Every plugin command/action must declare data access scope, purpose, and retention class.
+- Plugin command execution must go through centralized policy enforcement and audit hooks.
+- Disable plugin command execution when consent/policy prerequisites are not met.

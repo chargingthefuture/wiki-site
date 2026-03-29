@@ -1,0 +1,124 @@
+contracts:
+  - pluginId: trust
+    command: trust.summary.read
+    version: 1.0.0
+    description: Read public-safe trust summary signals for the authenticated member or a permitted viewed member.
+    inputSchema:
+      subjectUserId:
+        type: string
+        required: true
+      surface:
+        type: string
+        required: true
+      viewerContext:
+        type: string
+        required: false
+    outputSchema:
+      subjectUserId:
+        type: string
+      verificationStatus:
+        type: string
+      memberSinceLabel:
+        type: string
+      lastOnlineBucket:
+        type: string
+      activityBucket:
+        type: string
+      transactionBucket:
+        type: string
+      activePluginCount:
+        type: integer
+      trustVisibilityLevel:
+        type: string
+    dataAccess:
+      - trust_user_extension
+      - trust_signal_snapshots
+    purpose: trust_signal_display
+    retentionClass: derived_short_lived
+    idempotency: true
+
+  - pluginId: trust
+    command: trust.visibility.update
+    version: 1.0.0
+    description: Update self-service visibility level for public trust summary surfaces.
+    inputSchema:
+      trustVisibilityLevel:
+        type: string
+        required: true
+    outputSchema:
+      userId:
+        type: string
+      trustVisibilityLevel:
+        type: string
+      updatedAt:
+        type: string
+    dataAccess:
+      - trust_user_extension
+      - trust_admin_audit_trail
+    purpose: privacy_safety_preference_update
+    retentionClass: audit_long_lived
+    idempotency: true
+
+  - pluginId: trust
+    command: trust.admin.verification.review
+    version: 1.0.0
+    description: Apply moderator or admin verification decision for Trust badge state.
+    inputSchema:
+      subjectUserId:
+        type: string
+        required: true
+      verificationStatus:
+        type: string
+        required: true
+      publicNote:
+        type: string
+        required: false
+      internalReasonCode:
+        type: string
+        required: true
+    outputSchema:
+      subjectUserId:
+        type: string
+      verificationStatus:
+        type: string
+      reviewedAt:
+        type: string
+      reviewedByUserId:
+        type: string
+    dataAccess:
+      - trust_user_extension
+      - trust_admin_audit_trail
+    purpose: trust_verification_moderation
+    retentionClass: audit_long_lived
+    idempotency: true
+
+  - pluginId: trust
+    command: trust.signal.snapshot.refresh
+    version: 1.0.0
+    description: Compute or refresh privacy-safe trust signal buckets from approved source systems.
+    inputSchema:
+      subjectUserId:
+        type: string
+        required: true
+      sourcePlugins:
+        type: array
+        required: false
+    outputSchema:
+      subjectUserId:
+        type: string
+      snapshotGeneratedAt:
+        type: string
+      lastOnlineBucket:
+        type: string
+      activityBucket:
+        type: string
+      transactionBucket:
+        type: string
+      activePluginCount:
+        type: integer
+    dataAccess:
+      - trust_signal_snapshots
+      - trust_user_extension
+    purpose: trust_signal_aggregation
+    retentionClass: derived_short_lived
+    idempotency: true

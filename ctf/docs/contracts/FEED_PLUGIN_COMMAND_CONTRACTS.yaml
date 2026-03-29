@@ -1,0 +1,142 @@
+contracts:
+  - pluginId: feed
+    command: feed.timeline.fetch
+    version: 1.0.0
+    description: Fetch feed timeline items with deterministic ordering and offset pagination.
+    inputSchema:
+      page:
+        type: integer
+        required: false
+      pageSize:
+        type: integer
+        required: false
+      filters:
+        type: object
+        required: false
+    outputSchema:
+      items:
+        type: array
+      pagination:
+        type: object
+    dataAccess:
+      - feed_items
+      - feed_item_targets
+      - feed_render_config
+    purpose: timeline_discovery
+    retentionClass: derived_short_lived
+    idempotency: true
+
+  - pluginId: feed
+    command: feed.item.read.mark
+    version: 1.0.0
+    description: Mark a feed item as read for the current actor.
+    inputSchema:
+      itemId:
+        type: string
+        required: true
+    outputSchema:
+      itemId:
+        type: string
+      readAt:
+        type: string
+    dataAccess:
+      - feed_user_read_state
+    purpose: read_state_management
+    retentionClass: transactional_long_lived
+    idempotency: true
+
+  - pluginId: feed
+    command: feed.item.dismiss
+    version: 1.0.0
+    description: Dismiss an optional feed item for the current actor.
+    inputSchema:
+      itemId:
+        type: string
+        required: true
+    outputSchema:
+      itemId:
+        type: string
+      dismissedAt:
+        type: string
+    dataAccess:
+      - feed_user_dismissals
+      - feed_items
+    purpose: read_state_management
+    retentionClass: transactional_long_lived
+    idempotency: true
+
+  - pluginId: feed
+    command: feed.announcement.render-mode.update
+    version: 1.0.0
+    description: Update feed rendering mode for announcements.
+    inputSchema:
+      renderMode:
+        type: string
+        required: true
+    outputSchema:
+      renderMode:
+        type: string
+      updatedAt:
+        type: string
+    dataAccess:
+      - feed_render_config
+    purpose: feed_governance
+    retentionClass: audit_long_lived
+    idempotency: true
+
+  - pluginId: feed
+    command: feed.admin.config.update
+    version: 1.0.0
+    description: Update feed rendering and announcement display settings.
+    inputSchema:
+      renderMode:
+        type: string
+        required: true
+      killSwitchEnabled:
+        type: boolean
+        required: true
+      maxTimelinePageSize:
+        type: integer
+        required: true
+    outputSchema:
+      config:
+        type: object
+      updatedAt:
+        type: string
+    dataAccess:
+      - feed_render_config
+      - feed_admin_audit_trail
+    purpose: feed_governance
+    retentionClass: audit_long_lived
+    idempotency: true
+
+  - pluginId: feed
+    command: feed.membership.event.emit
+    version: 1.0.0
+    description: Emit membership change event for feed/announcement visibility recalculation.
+    inputSchema:
+      userId:
+        type: string
+        required: true
+      pluginId:
+        type: string
+        required: true
+      eventType:
+        type: string
+        required: true
+      requestId:
+        type: string
+        required: false
+      traceId:
+        type: string
+        required: false
+    outputSchema:
+      streamEmitted:
+        type: boolean
+    dataAccess:
+      - feed_membership_events
+      - announcement_membership_events
+      - announcement_delivery_events
+    purpose: visibility_recalculation
+    retentionClass: transactional_long_lived
+    idempotency: false

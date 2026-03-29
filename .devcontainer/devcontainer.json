@@ -1,0 +1,4 @@
+{
+  "name": "ChargingTheFuture Codespace",
+  "postCreateCommand": "bash .devcontainer/setup.sh"
+}

@@ -1,0 +1,64 @@
+name: Update Neon DB with schema.sql
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: "Target environment (staging or production)"
+        required: true
+        default: production
+        type: choice
+        options:
+          - production
+          - staging
+  push:
+    paths:
+      - "ctf/schema.sql"
+      - ".github/workflows/update-neon-db.yml"
+
+jobs:
+  apply-schema:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Set ENVIRONMENT var (manual or push)
+        id: set_env
+        run: |
+          if [ -n "${{ github.event.inputs.environment }}" ]; then
+            echo "ENVIRONMENT=${{ github.event.inputs.environment }}" >> $GITHUB_ENV
+          else
+            echo "ENVIRONMENT=production" >> $GITHUB_ENV
+          fi
+
+      - name: Set DATABASE_URL for environment
+        id: set_db_url
+        run: |
+          if [ "$ENVIRONMENT" = "staging" ]; then
+            echo "DATABASE_URL=${{ secrets.DATABASE_URL_STAGING }}" >> $GITHUB_ENV
+          else
+            echo "DATABASE_URL=${{ secrets.DATABASE_URL }}" >> $GITHUB_ENV
+          fi
+
+      - name: Install dependencies
+        run: |
+          cd ctf
+          pnpm install
+
+      - name: Validate DATABASE_URL secret
+        run: |
+          if [ -z "$DATABASE_URL" ]; then
+            echo "Missing DATABASE_URL for $ENVIRONMENT environment."
+            exit 1
+          fi
+
+      - name: Apply schema.sql to Neon
+        run: |
+          cd ctf
+          psql "$DATABASE_URL" -f schema.sql

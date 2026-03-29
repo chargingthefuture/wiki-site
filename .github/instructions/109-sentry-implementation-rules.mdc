@@ -1,0 +1,57 @@
+# Sentry Implementation Rules
+
+## Intent
+Apply Sentry correctly for the rewrite while keeping provider abstraction intact.
+
+## Scope
+- Applies when `OBSERVABILITY_PROVIDER` resolves to `sentry`.
+- Web runtime uses `@sentry/nextjs`.
+- Mobile runtime uses `@sentry/react-native`.
+- Web and mobile should use separate Sentry projects/DSNs for signal isolation and quota control.
+
+## Initialization Rules
+- Initialize Sentry once per runtime boundary.
+- Web initialization files are:
+  - `packages/web/sentry.client.config.ts`
+  - `packages/web/sentry.server.config.ts`
+  - `packages/web/sentry.edge.config.ts`
+- Web instrumentation registration must be handled via `packages/web/instrumentation.ts`.
+- Do not duplicate `Sentry.init(...)` calls across feature modules.
+
+## Exception Capture Rules
+- Use `Sentry.captureException(error)` in runtime adapters where exceptions are caught and should be reported.
+- In feature code, call the shared error reporter interface; vendor SDK calls belong in Sentry adapter/bootstrap layers.
+
+## Tracing Rules
+- Use `Sentry.startSpan` for meaningful operations only:
+  - user interactions,
+  - API calls,
+  - heavy function boundaries.
+- Set meaningful `op` and `name` values.
+- Add relevant attributes/metrics only when privacy-safe.
+- Nested spans are allowed for child operations.
+
+## Noise-Reduction Rules (Free Tier Friendly)
+- Use `beforeSend` filters to drop known scanner/bot noise.
+- Use `tracesSampler` to suppress transaction traces for scanner-style requests.
+- Keep default trace sample rates low for public web surfaces unless higher sampling is justified.
+- Prefer early request short-circuiting for obvious scanner routes in middleware.
+- Allow strict route-allowlist mode where only approved route prefixes are reported.
+
+## Logging Rules
+- When Sentry logs are enabled, import as `import * as Sentry from "@sentry/nextjs"` in web Sentry files.
+- `enableLogs` may be enabled by environment policy.
+- `consoleLoggingIntegration` may be used only with approved levels and privacy scrubbing.
+- Structured logger usage must avoid PHI/PII payload leakage.
+
+## Privacy and Safety Constraints
+- `sendDefaultPii` must remain `false` unless explicitly approved.
+- Never hardcode DSNs in source files.
+- DSNs must come from rewrite environment variables only.
+- Do not share a single DSN across web and mobile in production.
+- All span attributes and logs must comply with HIPAA/GDPR and trauma-informed safety constraints.
+
+## Provider-Abstraction Compatibility
+- Sentry usage must stay behind shared observability interfaces for feature modules.
+- Sentry-specific code belongs in runtime bootstrap/adapters only.
+- Keep Signoz migration path intact by avoiding vendor APIs in domain logic.

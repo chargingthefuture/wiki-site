@@ -1,0 +1,18 @@
+# 07 Retention, Deletion, and Backups
+
+## Intent
+Enforce minimal default retention and reliable end-to-end deletion.
+
+## Mandatory
+- Assign retention class to every dataset.
+- Use minimal default retention; extensions require documented justification.
+- Implement automatic expiry/deletion jobs with observability.
+- Support verified erasure workflows across primary stores, replicas, caches, and backups.
+
+## Operational Rules
+- Backups must be encrypted and mapped to deletion propagation policy.
+- Deletion requests must generate verifiable completion evidence.
+
+## Release Blockers
+- Data classes without retention policy.
+- No tested deletion orchestration path.

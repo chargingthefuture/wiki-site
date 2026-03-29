@@ -1,0 +1,310 @@
+type FormanceTransactionResponse = {
+  data?: {
+    txid?: number | string;
+    id?: number | string;
+  };
+  txid?: number | string;
+  id?: number | string;
+};
+
+type LedgerPosting = {
+  source: string;
+  destination: string;
+  amount: number;
+  asset: string;
+};
+
+function getFormanceConfig() {
+  const apiUrl = process.env.FORMANCE_API_URL?.trim();
+  const ledger = process.env.FORMANCE_LEDGER?.trim();
+
+  if (!apiUrl || !ledger) {
+    throw new Error('external_ledger_not_configured');
+  }
+
+  return {
+    apiUrl: apiUrl.replace(/\/$/, ''),
+    ledger,
+    apiToken: process.env.FORMANCE_API_TOKEN?.trim() ?? null,
+    asset: process.env.FORMANCE_ASSET?.trim() || 'SERVICE_CREDITS',
+  };
+}
+
+function toMinorUnits(amount: number): number {
+  if (!Number.isFinite(amount) || amount <= 0) {
+    throw new Error('invalid_payload');
+  }
+
+  const minor = Math.round(amount * 100);
+  if (minor <= 0) {
+    throw new Error('invalid_payload');
+  }
+
+  return minor;
+}
+
+function readTransactionId(payload: FormanceTransactionResponse): string | null {
+  const candidate = payload.data?.txid ?? payload.data?.id ?? payload.txid ?? payload.id;
+  if (candidate === undefined || candidate === null) {
+    return null;
+  }
+
+  return String(candidate);
+}
+
+async function postTransactionToFormance(input: {
+  reference: string;
+  postings: LedgerPosting[];
+  metadata: Record<string, unknown>;
+}) {
+  const config = getFormanceConfig();
+
+  const response = await fetch(`${config.apiUrl}/api/ledger/${encodeURIComponent(config.ledger)}/transactions`, {
+    method: 'POST',
+    headers: {
+      'content-type': 'application/json',
+      ...(config.apiToken ? { authorization: `Bearer ${config.apiToken}` } : {}),
+    },
+    body: JSON.stringify({
+      reference: input.reference,
+      postings: input.postings.map((posting) => ({
+        source: posting.source,
+        destination: posting.destination,
+        amount: toMinorUnits(posting.amount),
+        asset: posting.asset,
+      })),
+      metadata: input.metadata,
+    }),
+  });
+
+  if (!response.ok) {
+    throw new Error('external_ledger_unavailable');
+  }
+
+  let payload: FormanceTransactionResponse = {};
+  try {
+    payload = (await response.json()) as FormanceTransactionResponse;
+  } catch {
+  }
+
+  return {
+    transactionId: readTransactionId(payload),
+  };
+}
+
+export async function postEscrowHoldToFormance(input: {
+  transferId: string;
+  senderUserId: string;
+  recipientUserId: string;
+  amount: number;
+  idempotencyKey: string;
+}) {
+  const config = getFormanceConfig();
+  return postTransactionToFormance({
+    reference: `service-credits:escrow-hold:${input.senderUserId}:${input.idempotencyKey}`,
+    postings: [
+      {
+        source: `wallet:${input.senderUserId}`,
+        destination: `escrow:${input.transferId}`,
+        amount: input.amount,
+        asset: config.asset,
+      },
+    ],
+    metadata: {
+      plugin: 'service-credits',
+      transferId: input.transferId,
+      recipientUserId: input.recipientUserId,
+      flow: 'escrow_hold',
+    },
+  });
+}
+
+export async function postEscrowReleaseToFormance(input: {
+  escrowId: string;
+  sourceUserId: string;
+  destinationUserId: string;
+  amount: number;
+  idempotencyKey: string;
+}) {
+  const config = getFormanceConfig();
+  return postTransactionToFormance({
+    reference: `service-credits:escrow-release:${input.sourceUserId}:${input.idempotencyKey}`,
+    postings: [
+      {
+        source: `escrow:${input.escrowId}`,
+        destination: `wallet:${input.destinationUserId}`,
+        amount: input.amount,
+        asset: config.asset,
+      },
+    ],
+    metadata: {
+      plugin: 'service-credits',
+      escrowId: input.escrowId,
+      sourceUserId: input.sourceUserId,
+      destinationUserId: input.destinationUserId,
+      flow: 'escrow_release',
+    },
+  });
+}
+
+export async function postEscrowRefundToFormance(input: {
+  escrowId: string;
+  sourceUserId: string;
+  amount: number;
+  idempotencyKey: string;
+}) {
+  const config = getFormanceConfig();
+  return postTransactionToFormance({
+    reference: `service-credits:escrow-refund:${input.sourceUserId}:${input.idempotencyKey}`,
+    postings: [
+      {
+        source: `escrow:${input.escrowId}`,
+        destination: `wallet:${input.sourceUserId}`,
+        amount: input.amount,
+        asset: config.asset,
+      },
+    ],
+    metadata: {
+      plugin: 'service-credits',
+      escrowId: input.escrowId,
+      sourceUserId: input.sourceUserId,
+      flow: 'escrow_refund',
+    },
+  });
+}
+
+export async function postMintToFormance(input: {
+  targetUserId: string;
+  amount: number;
+  governanceTicketId: string;
+  idempotencyKey: string;
+}) {
+  const config = getFormanceConfig();
+  return postTransactionToFormance({
+    reference: `service-credits:mint:${input.targetUserId}:${input.idempotencyKey}`,
+    postings: [
+      {
+        source: 'governance:mint',
+        destination: `wallet:${input.targetUserId}`,
+        amount: input.amount,
+        asset: config.asset,
+      },
+    ],
+    metadata: {
+      plugin: 'service-credits',
+      targetUserId: input.targetUserId,
+      governanceTicketId: input.governanceTicketId,
+      flow: 'governance_mint',
+    },
+  });
+}
+
+export async function postBurnToFormance(input: {
+  targetUserId: string;
+  amount: number;
+  governanceTicketId: string;
+  idempotencyKey: string;
+}) {
+  const config = getFormanceConfig();
+  return postTransactionToFormance({
+    reference: `service-credits:burn:${input.targetUserId}:${input.idempotencyKey}`,
+    postings: [
+      {
+        source: `wallet:${input.targetUserId}`,
+        destination: 'governance:burn',
+        amount: input.amount,
+        asset: config.asset,
+      },
+    ],
+    metadata: {
+      plugin: 'service-credits',
+      targetUserId: input.targetUserId,
+      governanceTicketId: input.governanceTicketId,
+      flow: 'governance_burn',
+    },
+  });
+}
+
+export async function postTreasuryFeeToFormance(input: {
+  sourceUserId: string;
+  treasuryUserId: string;
+  amount: number;
+  originPlugin: string;
+  idempotencyKey: string;
+}) {
+  const config = getFormanceConfig();
+  return postTransactionToFormance({
+    reference: `service-credits:treasury-fee:${input.sourceUserId}:${input.idempotencyKey}`,
+    postings: [
+      {
+        source: `wallet:${input.sourceUserId}`,
+        destination: `wallet:${input.treasuryUserId}`,
+        amount: input.amount,
+        asset: config.asset,
+      },
+    ],
+    metadata: {
+      plugin: 'service-credits',
+      sourceUserId: input.sourceUserId,
+      treasuryUserId: input.treasuryUserId,
+      originPlugin: input.originPlugin,
+      flow: 'treasury_fee_collect',
+    },
+  });
+}
+
+export async function postDisputeAdjustmentToFormance(input: {
+  sourceUserId: string;
+  destinationUserId: string;
+  amount: number;
+  disputeCaseId: string;
+  idempotencyKey: string;
+}) {
+  const config = getFormanceConfig();
+  return postTransactionToFormance({
+    reference: `service-credits:dispute-adjust:${input.sourceUserId}:${input.idempotencyKey}`,
+    postings: [
+      {
+        source: `wallet:${input.sourceUserId}`,
+        destination: `wallet:${input.destinationUserId}`,
+        amount: input.amount,
+        asset: config.asset,
+      },
+    ],
+    metadata: {
+      plugin: 'service-credits',
+      disputeCaseId: input.disputeCaseId,
+      sourceUserId: input.sourceUserId,
+      destinationUserId: input.destinationUserId,
+      flow: 'dispute_adjustment',
+    },
+  });
+}
+
+export async function postDeletionReclaimToFormance(input: {
+  accountId: string;
+  treasuryUserId: string;
+  amount: number;
+  deletionRequestId: string;
+  idempotencyKey: string;
+}) {
+  const config = getFormanceConfig();
+  return postTransactionToFormance({
+    reference: `service-credits:deletion-reclaim:${input.accountId}:${input.idempotencyKey}`,
+    postings: [
+      {
+        source: `wallet:${input.accountId}`,
+        destination: `wallet:${input.treasuryUserId}`,
+        amount: input.amount,
+        asset: config.asset,
+      },
+    ],
+    metadata: {
+      plugin: 'service-credits',
+      accountId: input.accountId,
+      treasuryUserId: input.treasuryUserId,
+      deletionRequestId: input.deletionRequestId,
+      flow: 'account_deletion_reclaim',
+    },
+  });
+}

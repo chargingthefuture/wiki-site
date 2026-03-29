@@ -1,0 +1,69 @@
+contracts:
+  - pluginId: socketrelay
+    command: socketrelay.request.create
+    version: 1.0.0
+    description: Create a relay request with ownership and lifecycle defaults.
+    inputSchema:
+      request:
+        type: object
+        required: true
+      idempotencyKey:
+        type: string
+        required: true
+    outputSchema:
+      requestId:
+        type: string
+      status:
+        type: string
+    dataAccess:
+      - socketrelay_requests
+      - socketrelay_request_events
+    purpose: request_lifecycle
+    retentionClass: transactional_long_lived
+    idempotency: true
+
+  - pluginId: socketrelay
+    command: socketrelay.fulfillment.claim
+    version: 1.0.0
+    description: Claim an eligible request for fulfillment.
+    inputSchema:
+      requestId:
+        type: string
+        required: true
+    outputSchema:
+      fulfillmentId:
+        type: string
+      status:
+        type: string
+    dataAccess:
+      - socketrelay_requests
+      - socketrelay_fulfillments
+    purpose: fulfillment_lifecycle
+    retentionClass: transactional_long_lived
+    idempotency: true
+
+  - pluginId: socketrelay
+    command: socketrelay.fulfillment.message.send
+    version: 1.0.0
+    description: Send a participant-scoped message in a fulfillment thread.
+    inputSchema:
+      fulfillmentId:
+        type: string
+        required: true
+      messageText:
+        type: string
+        required: true
+      clientMessageId:
+        type: string
+        required: true
+    outputSchema:
+      messageId:
+        type: string
+      sentAt:
+        type: string
+    dataAccess:
+      - socketrelay_messages
+      - socketrelay_fulfillment_participants
+    purpose: fulfillment_communication
+    retentionClass: communication_medium_lived
+    idempotency: true

@@ -283,8 +283,8 @@ CREATE TABLE IF NOT EXISTS lighthouse_announcements (
 
 -- SocketRelay Requests - Users post requests for items they need
 CREATE TABLE IF NOT EXISTS socketrelay_requests (
-  id VARCHAR PRIMARY KEY DEFAULT gen_random_uuid(),
-  user_id VARCHAR NOT NULL REFERENCES users(id),
+  id TEXT PRIMARY KEY DEFAULT gen_random_uuid()::text,
+  user_id TEXT NOT NULL REFERENCES users(id),
   description VARCHAR(140) NOT NULL,
   status VARCHAR(20) NOT NULL DEFAULT 'active',
   is_public BOOLEAN NOT NULL DEFAULT false,
@@ -295,11 +295,11 @@ CREATE TABLE IF NOT EXISTS socketrelay_requests (
 
 -- SocketRelay Fulfillments - When someone clicks "Fulfill" on a request
 CREATE TABLE IF NOT EXISTS socketrelay_fulfillments (
-  id VARCHAR PRIMARY KEY DEFAULT gen_random_uuid(),
-  request_id VARCHAR NOT NULL REFERENCES socketrelay_requests(id),
-  fulfiller_user_id VARCHAR NOT NULL REFERENCES users(id),
+  id TEXT PRIMARY KEY DEFAULT gen_random_uuid()::text,
+  request_id TEXT NOT NULL REFERENCES socketrelay_requests(id),
+  fulfiller_user_id TEXT NOT NULL REFERENCES users(id),
   status VARCHAR(20) NOT NULL DEFAULT 'active',
-  closed_by VARCHAR REFERENCES users(id),
+  closed_by TEXT REFERENCES users(id),
   closed_at TIMESTAMP,
   created_at TIMESTAMP NOT NULL DEFAULT NOW(),
   updated_at TIMESTAMP NOT NULL DEFAULT NOW()
@@ -307,17 +307,17 @@ CREATE TABLE IF NOT EXISTS socketrelay_fulfillments (
 
 -- SocketRelay Messages - Chat messages between requester and fulfiller
 CREATE TABLE IF NOT EXISTS socketrelay_messages (
-  id VARCHAR PRIMARY KEY DEFAULT gen_random_uuid(),
-  fulfillment_id VARCHAR NOT NULL REFERENCES socketrelay_fulfillments(id),
-  sender_id VARCHAR NOT NULL REFERENCES users(id),
+  id TEXT PRIMARY KEY DEFAULT gen_random_uuid()::text,
+  fulfillment_id TEXT NOT NULL REFERENCES socketrelay_fulfillments(id),
+  sender_id TEXT NOT NULL REFERENCES users(id),
   content TEXT NOT NULL,
   created_at TIMESTAMP NOT NULL DEFAULT NOW()
 );
 
 -- SocketRelay Profiles - User profiles for SocketRelay app
 CREATE TABLE IF NOT EXISTS socketrelay_profiles (
-  id VARCHAR PRIMARY KEY DEFAULT gen_random_uuid(),
-  user_id VARCHAR NOT NULL UNIQUE REFERENCES users(id),
+  id TEXT PRIMARY KEY DEFAULT gen_random_uuid()::text,
+  user_id TEXT NOT NULL UNIQUE REFERENCES users(id),
   display_name VARCHAR(100) NOT NULL,
   city VARCHAR(100) NOT NULL,
   state VARCHAR(50) NOT NULL,
@@ -330,7 +330,7 @@ CREATE TABLE IF NOT EXISTS socketrelay_profiles (
 
 -- SocketRelay Announcements
 CREATE TABLE IF NOT EXISTS socketrelay_announcements (
-  id VARCHAR PRIMARY KEY DEFAULT gen_random_uuid(),
+  id TEXT PRIMARY KEY DEFAULT gen_random_uuid()::text,
   title VARCHAR(200) NOT NULL,
   content TEXT NOT NULL,
   type VARCHAR(50) NOT NULL DEFAULT 'info',

@@ -1,0 +1,83 @@
+import { NextResponse } from 'next/server';
+import { executeDeletionReclaim, insertServiceCreditsAudit } from '@/src/lib/service-credits/repository';
+import { serviceCreditsErrorResponse } from '@/src/app/api/service-credits/_lib';
+
+type ReclaimBody = {
+  treasuryUserId?: string;
+  requestedAt?: string;
+  idempotencyKey?: string;
+  requestId?: string;
+  traceId?: string;
+};
+
+type ReclaimParams = {
+  params: Promise<{ accountId: string; deletionRequestId: string }>;
+};
+
+function isAuthorized(request: Request): boolean {
+  const configuredToken = process.env.SERVICE_CREDITS_INTERNAL_TOKEN;
+  if (!configuredToken || configuredToken.trim().length === 0) {
+    return false;
+  }
+
+  const providedToken = request.headers.get('x-service-credits-internal-token') ?? '';
+  return providedToken.length > 0 && providedToken === configuredToken;
+}
+
+export async function POST(request: Request, context: ReclaimParams) {
+  if (!isAuthorized(request)) {
+    return NextResponse.json(
+      { ok: false, code: 'service_credits_invalid_internal_token', message: 'Invalid service credits internal token.' },
+      { status: 403 },
+    );
+  }
+
+  let body: ReclaimBody;
+  try {
+    body = (await request.json()) as ReclaimBody;
+  } catch {
+    return NextResponse.json({ ok: false, code: 'service_credits_invalid_json', message: 'Invalid JSON body.' }, { status: 400 });
+  }
+
+  if (!body.treasuryUserId || !body.requestedAt || !body.idempotencyKey || !body.requestId || !body.traceId) {
+    return NextResponse.json(
+      { ok: false, code: 'service_credits_invalid_payload', message: 'treasuryUserId, requestedAt, idempotencyKey, requestId, and traceId are required.' },
+      { status: 400 },
+    );
+  }
+
+  const { accountId, deletionRequestId } = await context.params;
+
+  try {
+    const reclaim = await executeDeletionReclaim({
+      actorId: 'internal_service_credits_reclaimer',
+      accountId,
+      deletionRequestId,
+      treasuryUserId: body.treasuryUserId,
+      requestedAt: body.requestedAt,
+      idempotencyKey: body.idempotencyKey,
+      requestId: body.requestId,
+      traceId: body.traceId,
+    });
+
+    await insertServiceCreditsAudit({
+      actorId: 'internal_service_credits_reclaimer',
+      command: 'service-credits.account.deletion.reclaim.execute',
+      policyStatus: 'allow',
+      reason: 'ok',
+      targetType: 'account_deletion_reclaim',
+      targetId: `${accountId}:${deletionRequestId}`,
+      metadata: {
+        amountTransferred: reclaim.amountTransferred,
+        transferId: reclaim.transferId,
+        tombstoneId: reclaim.tombstoneId,
+        requestId: body.requestId,
+        traceId: body.traceId,
+      },
+    });
+
+    return NextResponse.json({ ok: true, reclaim }, { status: 200 });
+  } catch (error) {
+    return serviceCreditsErrorResponse(error, 'Account deletion reclaim unavailable.');
+  }
+}

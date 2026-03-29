@@ -1,0 +1,318 @@
+policies:
+  - pluginId: service-credits
+    command: wallet.create
+    version: 1.0.0
+    requiredRoles:
+      - member
+      - system
+    attributePolicies:
+      tenancy: same_workspace
+      canonicalProfileRequired: true
+      walletProvisioningAllowed: true
+    consentRequirements:
+      scopes:
+        - service_credits_wallet
+      fallbackLawfulBasis: contract_performance
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: false
+    denyConditions:
+      - missing_canonical_profile
+      - wallet_already_restricted
+      - insufficient_role
+
+  - pluginId: service-credits
+    command: wallet.balance.get
+    version: 1.0.0
+    requiredRoles:
+      - member
+      - service
+      - system
+    attributePolicies:
+      tenancy: same_workspace
+      ownershipOrDelegatedAccess: true
+    consentRequirements:
+      scopes:
+        - service_credits_wallet_read
+      fallbackLawfulBasis: contract_performance
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: false
+    denyConditions:
+      - wallet_not_found
+      - cross_workspace_access
+      - insufficient_role
+
+  - pluginId: service-credits
+    command: transfer.create
+    version: 1.0.0
+    requiredRoles:
+      - member
+      - service
+    attributePolicies:
+      tenancy: same_workspace
+      walletOwnershipRequired: true
+      crossPluginPathRequired: true
+      noFiatRedeemability: enforced
+    consentRequirements:
+      scopes:
+        - service_credits_transfer
+      fallbackLawfulBasis: contract_performance
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - insufficient_balance
+      - invalid_origin_plugin
+      - cross_plugin_path_missing
+      - disallowed_cross_plugin_path
+      - fiat_redemption_requested
+      - insufficient_role
+
+  - pluginId: service-credits
+    command: escrow.hold.create
+    version: 1.0.0
+    requiredRoles:
+      - service
+      - system
+    attributePolicies:
+      tenancy: same_workspace
+      crossPluginPathRequired: true
+      noFiatRedeemability: enforced
+      escrowPolicyRequired: true
+    consentRequirements:
+      scopes:
+        - service_credits_escrow
+      fallbackLawfulBasis: contract_performance
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - insufficient_balance
+      - cross_plugin_path_missing
+      - disallowed_cross_plugin_path
+      - fiat_redemption_requested
+      - escrow_policy_invalid
+      - insufficient_role
+
+  - pluginId: service-credits
+    command: escrow.release
+    version: 1.0.0
+    requiredRoles:
+      - service
+      - dispute_moderator
+      - system
+    attributePolicies:
+      tenancy: same_workspace
+      crossPluginPathRequired: true
+      noFiatRedeemability: enforced
+      escrowStateRequired: held
+    consentRequirements:
+      scopes:
+        - service_credits_escrow
+      fallbackLawfulBasis: contract_performance
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - escrow_not_found
+      - escrow_not_held
+      - cross_plugin_path_missing
+      - disallowed_cross_plugin_path
+      - fiat_redemption_requested
+      - insufficient_role
+
+  - pluginId: service-credits
+    command: escrow.refund
+    version: 1.0.0
+    requiredRoles:
+      - service
+      - dispute_moderator
+      - system
+    attributePolicies:
+      tenancy: same_workspace
+      crossPluginPathRequired: true
+      noFiatRedeemability: enforced
+      escrowStateRequired: held
+    consentRequirements:
+      scopes:
+        - service_credits_escrow
+      fallbackLawfulBasis: contract_performance
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - escrow_not_found
+      - escrow_not_held
+      - cross_plugin_path_missing
+      - disallowed_cross_plugin_path
+      - fiat_redemption_requested
+      - insufficient_role
+
+  - pluginId: service-credits
+    command: governance.mint.grant
+    version: 1.0.0
+    requiredRoles:
+      - admin
+      - treasury_governor
+    attributePolicies:
+      tenancy: same_workspace
+      governanceApprovalRequired: true
+      noFiatRedeemability: enforced
+      grantCapEnforced: true
+    consentRequirements:
+      scopes:
+        - service_credits_governance
+      fallbackLawfulBasis: legal_obligation
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - missing_governance_scope
+      - grant_cap_exceeded
+      - governance_ticket_invalid
+      - fiat_redemption_requested
+      - insufficient_role
+
+  - pluginId: service-credits
+    command: governance.burn
+    version: 1.0.0
+    requiredRoles:
+      - admin
+      - treasury_governor
+    attributePolicies:
+      tenancy: same_workspace
+      governanceApprovalRequired: true
+      noFiatRedeemability: enforced
+    consentRequirements:
+      scopes:
+        - service_credits_governance
+      fallbackLawfulBasis: legal_obligation
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - missing_governance_scope
+      - governance_ticket_invalid
+      - burn_exceeds_balance
+      - fiat_redemption_requested
+      - insufficient_role
+
+  - pluginId: service-credits
+    command: treasury.fee.collect
+    version: 1.0.0
+    requiredRoles:
+      - admin
+      - treasury_operator
+      - system
+    attributePolicies:
+      tenancy: same_workspace
+      crossPluginPathRequired: true
+      noFiatRedeemability: enforced
+      feePolicyRequired: true
+    consentRequirements:
+      scopes:
+        - service_credits_treasury
+      fallbackLawfulBasis: legal_obligation
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - fee_policy_missing
+      - cross_plugin_path_missing
+      - disallowed_cross_plugin_path
+      - fiat_redemption_requested
+      - insufficient_role
+
+  - pluginId: service-credits
+    command: dispute.adjustment.apply
+    version: 1.0.0
+    requiredRoles:
+      - admin
+      - dispute_moderator
+    attributePolicies:
+      tenancy: same_workspace
+      disputeCaseRequired: true
+      noFiatRedeemability: enforced
+      adjustmentLimitPolicy: enforced
+    consentRequirements:
+      scopes:
+        - service_credits_dispute
+      fallbackLawfulBasis: legal_obligation
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - dispute_case_not_found
+      - adjustment_limit_exceeded
+      - fiat_redemption_requested
+      - insufficient_role
+
+  - pluginId: service-credits
+    command: account.deletion.reclaim.execute
+    version: 1.0.0
+    requiredRoles:
+      - system
+      - treasury_operator
+    attributePolicies:
+      tenancy: same_workspace
+      noFiatRedeemability: enforced
+      escrowResolutionRequired: true
+      reclaimWindowElapsed: true
+    consentRequirements:
+      scopes:
+        - service_credits_treasury
+      fallbackLawfulBasis: legal_obligation
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - unresolved_escrow_holds
+      - reclaim_window_not_elapsed
+      - duplicate_reclaim_request
+      - cross_workspace_access
+      - insufficient_role

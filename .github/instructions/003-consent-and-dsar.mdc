@@ -1,0 +1,19 @@
+# 02 Consent and DSAR
+
+## Intent
+Guarantee user control and rights handling with auditable workflows.
+
+## Mandatory
+- Consent must be granular, purpose-specific, revocable, and versioned.
+- Store immutable consent records: actor, notice version, scope, timestamp, channel.
+- Implement authenticated, idempotent DSAR handlers for access, export, rectification, deletion, restriction, objection.
+- Log request lifecycle: received, verified, fulfilled, denied (with reason), closed.
+
+## Behavioral Rules
+- Withdrawal of consent must stop dependent processing immediately unless alternate lawful basis exists.
+- DSAR outputs must exclude other users’ data and protected secrets.
+- Deletion must trigger orchestration across primaries, caches, search indexes, and backups per policy.
+
+## Release Blockers
+- No user-facing consent management UI/API.
+- No DSAR status/audit trail.

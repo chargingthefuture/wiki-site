@@ -1,0 +1,223 @@
+policies:
+  - pluginId: gross-domestic-product
+    command: metrics.list
+    version: 1.0.0
+    requiredRoles:
+      - member
+    attributePolicies:
+      tenancy: same_workspace
+      publicationStatus: published_only
+    consentRequirements:
+      scopes: []
+      fallbackLawfulBasis: public_interest_reporting
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: false
+    denyConditions:
+      - unauthenticated_actor
+      - unpublished_snapshot
+      - revoked_publication
+
+  - pluginId: gross-domestic-product
+    command: metrics.get
+    version: 1.0.0
+    requiredRoles:
+      - member
+    attributePolicies:
+      tenancy: same_workspace
+      publicationStatus: published_only
+    consentRequirements:
+      scopes: []
+      fallbackLawfulBasis: public_interest_reporting
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: false
+    denyConditions:
+      - unauthenticated_actor
+      - metric_not_canonical
+      - unpublished_snapshot
+      - cell_below_threshold
+      - dp_budget_exhausted
+
+  - pluginId: gross-domestic-product
+    command: dashboard.snapshot.get
+    version: 1.0.0
+    requiredRoles:
+      - member
+    attributePolicies:
+      tenancy: same_workspace
+      publicationStatus: published_only
+    consentRequirements:
+      scopes: []
+      fallbackLawfulBasis: public_interest_reporting
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: false
+    denyConditions:
+      - unauthenticated_actor
+      - snapshot_not_published
+      - suppression_required
+      - dp_budget_exhausted
+
+  - pluginId: gross-domestic-product
+    command: rollout.progress.get
+    version: 1.0.0
+    requiredRoles:
+      - member
+    attributePolicies:
+      tenancy: same_workspace
+      publicationStatus: published_only
+    consentRequirements:
+      scopes: []
+      fallbackLawfulBasis: public_interest_reporting
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: false
+    denyConditions:
+      - unauthenticated_actor
+      - snapshot_not_published
+      - cell_below_threshold
+      - suppression_required
+
+  - pluginId: gross-domestic-product
+    command: scenario.assumptions.get
+    version: 1.0.0
+    requiredRoles:
+      - member
+    attributePolicies:
+      tenancy: same_workspace
+      publicationStatus: published_only
+    consentRequirements:
+      scopes: []
+      fallbackLawfulBasis: public_interest_reporting
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: false
+    denyConditions:
+      - unauthenticated_actor
+      - unpublished_snapshot
+      - unpublished_assumption_set
+      - unresolved_lawful_basis
+
+  - pluginId: gross-domestic-product
+    command: admin.metric.propose
+    version: 1.0.0
+    requiredRoles:
+      - admin
+      - analyst
+    attributePolicies:
+      tenancy: same_workspace
+      governanceApprovalRequired: true
+    consentRequirements:
+      scopes:
+        - metric_governance
+      fallbackLawfulBasis: none
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - missing_governance_scope
+      - unresolved_mdc_check
+      - insufficient_role
+
+  - pluginId: gross-domestic-product
+    command: admin.metric.approve
+    version: 1.0.0
+    requiredRoles:
+      - admin
+    attributePolicies:
+      tenancy: same_workspace
+      governanceApprovalRequired: true
+    consentRequirements:
+      scopes:
+        - metric_governance
+      fallbackLawfulBasis: none
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - missing_governance_scope
+      - unresolved_mdc_check
+      - unresolved_versioning_note
+      - insufficient_role
+
+  - pluginId: gross-domestic-product
+    command: admin.snapshot.publish
+    version: 1.0.0
+    requiredRoles:
+      - admin
+      - publisher
+    attributePolicies:
+      tenancy: same_workspace
+      approvedSnapshotRequired: true
+    consentRequirements:
+      scopes:
+        - gdp_publish
+      fallbackLawfulBasis: none
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - snapshot_validation_failed
+      - dp_validation_failed
+      - suppression_validation_failed
+      - unresolved_mdc_check
+      - incomplete_audit_fields
+      - insufficient_role
+
+  - pluginId: gross-domestic-product
+    command: admin.backfill.run
+    version: 1.0.0
+    requiredRoles:
+      - admin
+    attributePolicies:
+      tenancy: same_workspace
+      governanceApprovalRequired: true
+    consentRequirements:
+      scopes:
+        - gdp_backfill
+      fallbackLawfulBasis: none
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - insufficient_role
+      - unresolved_mdc_check
+      - active_freeze_window
+      - incomplete_audit_fields
