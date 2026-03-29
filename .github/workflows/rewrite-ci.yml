@@ -363,6 +363,10 @@ jobs:
             echo "manager=none" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Install pnpm
+        if: steps.pkg.outputs.manager == 'pnpm'
+        run: npm install -g pnpm
+
       - name: Install dependencies (pnpm)
         if: steps.pkg.outputs.manager == 'pnpm'
         run: pnpm install --frozen-lockfile --dir ctf
