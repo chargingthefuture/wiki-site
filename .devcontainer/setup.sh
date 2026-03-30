@@ -67,8 +67,13 @@ if [ -n "$DATABASE_URL" ]; then
     echo "psql not found. Please install PostgreSQL client tools in your devcontainer.";
     exit 1;
   fi
+  echo "Running Next.js build for ctf/packages/web against Neon DB..."
+  pnpm --filter ./ctf/packages/web run build || {
+    echo "Next.js build failed. Check for SQL/runtime errors in your codebase.";
+    exit 1;
+  }
 else
-  echo "Warning: DATABASE_URL is not set. Skipping schema.sql application to Neon DB."
+  echo "Warning: DATABASE_URL is not set. Skipping schema.sql application and build."
 fi
 
 # Prompt for login if needed
