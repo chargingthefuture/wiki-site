@@ -1,0 +1,1468 @@
+// Service Credits Transaction Row and Mapping
+type SkillsHuntServiceCreditsTransactionRow = {
+  id: string;
+  from_user_id: string;
+  to_user_id: string;
+  amount: number;
+  reason: string | null;
+  submission_id: string | null;
+  created_at: Date;
+};
+
+import type { SkillsHuntServiceCreditsTransaction, SkillsHuntServiceCreditsTransactionInput } from './types';
+
+function mapServiceCreditsTransaction(row: SkillsHuntServiceCreditsTransactionRow): SkillsHuntServiceCreditsTransaction {
+  return {
+    id: row.id,
+    fromUserId: row.from_user_id,
+    toUserId: row.to_user_id,
+    amount: row.amount,
+    reason: row.reason,
+    submissionId: row.submission_id,
+    createdAtIso: toIso(row.created_at),
+  };
+}
+
+export async function createSkillsHuntServiceCreditsTransaction(
+  client: PoolClient,
+  fromUserId: string,
+  input: SkillsHuntServiceCreditsTransactionInput
+): Promise<SkillsHuntServiceCreditsTransaction> {
+  const result = await client.query<SkillsHuntServiceCreditsTransactionRow>(
+    `
+      INSERT INTO skills_hunt_service_credits_transactions
+        (from_user_id, to_user_id, amount, reason, submission_id)
+      VALUES ($1, $2, $3, $4, $5)
+      RETURNING *
+    `,
+    [fromUserId, input.toUserId, input.amount, input.reason ?? null, input.submissionId ?? null]
+  );
+  return mapServiceCreditsTransaction(result.rows[0]);
+}
+
+export async function getSkillsHuntServiceCreditsTransactionsForUser(
+  client: PoolClient,
+  userId: string
+): Promise<SkillsHuntServiceCreditsTransaction[]> {
+  const result = await client.query<SkillsHuntServiceCreditsTransactionRow>(
+    `
+      SELECT * FROM skills_hunt_service_credits_transactions
+      WHERE from_user_id = $1 OR to_user_id = $1
+      ORDER BY created_at DESC
+    `,
+    [userId]
+  );
+  return result.rows.map(mapServiceCreditsTransaction);
+}
+import { createHash } from 'crypto';
+import type { PoolClient } from 'pg';
+import { queryDb, withDbTransaction } from '../lib/db/postgres';
+import {
+  SKILLS_HUNT_DEFAULT_PAGE,
+  SKILLS_HUNT_DEFAULT_PAGE_SIZE,
+  SKILLS_HUNT_MAX_BIO_LENGTH,
+  SKILLS_HUNT_MAX_DISPLAY_NAME_LENGTH,
+  SKILLS_HUNT_MAX_PAGE_SIZE,
+  SKILLS_HUNT_MAX_REVIEW_NOTES_LENGTH,
+  SKILLS_HUNT_MAX_ROUND_DESCRIPTION_LENGTH,
+  SKILLS_HUNT_MAX_ROUND_NAME_LENGTH,
+  SKILLS_HUNT_MAX_URL_LENGTH,
+  SKILLS_HUNT_REJECTION_GUARD_SAMPLE_SIZE,
+  SKILLS_HUNT_REJECTION_GUARD_THRESHOLD,
+  SKILLS_HUNT_SCORE_WEIGHTS,
+  SKILLS_HUNT_SUBMISSION_LIMIT_7D,
+} from './constants';
+import type {
+  SkillsHuntAchievement,
+  SkillsHuntFeatureRewardCard,
+  SkillsHuntFeatureRewardCardInput,
+  SkillsHuntGeneratedDirectoryProfile,
+  SkillsHuntLeaderboardItem,
+  SkillsHuntLeaderboardMode,
+  SkillsHuntNotification,
+  SkillsHuntPagination,
+  SkillsHuntReviewAction,
+  SkillsHuntRound,
+  SkillsHuntRoundInput,
+  SkillsHuntRoundStatus,
+  SkillsHuntSubmission,
+  SkillsHuntSubmissionInput,
+  SkillsHuntSubmissionReviewInput,
+} from './types';
+
+type CountRow = { total: string };
+
+type SkillsHuntRoundRow = {
+  id: string;
+  name: string;
+  description: string | null;
+  status: SkillsHuntRoundStatus;
+  starts_at: Date;
+  ends_at: Date;
+  scoring_config: Record<string, unknown>;
+  created_by_user_id: string;
+  updated_by_user_id: string;
+  created_at: Date;
+  updated_at: Date;
+};
+
+type SkillsHuntSubmissionRow = {
+  id: string;
+  round_id: string;
+  submitter_user_id: string;
+  submitter_username: string | null;
+  display_name: string;
+  bio: string;
+  quora_profile_url: string;
+  skills: unknown;
+  claimed_professions: unknown;
+  status: 'pending' | 'accepted' | 'rejected' | 'flagged';
+  points_awarded: number;
+  score_breakdown: Record<string, unknown>;
+  review_action: SkillsHuntReviewAction | null;
+  review_notes: string | null;
+  reviewed_by_user_id: string | null;
+  reviewed_at: Date | null;
+  directory_profile_generated_at: Date | null;
+  created_at: Date;
+  updated_at: Date;
+};
+
+type SkillsHuntLeaderboardRow = {
+  rank: number;
+  score: number;
+  accepted_count: number;
+  rare_skill_bonus: number;
+  user_id: string | null;
+  username_snapshot: string | null;
+  team_key: string | null;
+  metadata: Record<string, unknown>;
+};
+
+type SkillsHuntNotificationRow = {
+  id: string;
+  user_id: string;
+  kind: string;
+  title: string;
+  body: string;
+  metadata: Record<string, unknown>;
+  is_read: boolean;
+  read_at: Date | null;
+  created_at: Date;
+};
+
+type SkillsHuntAchievementRow = {
+  id: string;
+  user_id: string;
+  code: string;
+  title: string;
+  description: string;
+  metadata: Record<string, unknown>;
+  awarded_at: Date;
+};
+
+type SkillsHuntFeatureRewardCardRow = {
+  title: string;
+  description: string;
+  cta_label: string;
+  cta_url: string;
+  is_active: boolean;
+  updated_by_user_id: string;
+  updated_at: Date;
+};
+
+type SkillsHuntAuditRow = {
+  id: string;
+  actor_id: string;
+  command: string;
+  policy_status: 'allow' | 'deny';
+  reason: string;
+  target_type: string;
+  target_id: string;
+  metadata: Record<string, unknown>;
+  created_at: Date;
+};
+
+function toIso(value: Date): string {
+  return value.toISOString();
+}
+
+function normalizeText(value: string): string {
+  return value.trim().replace(/\s+/g, ' ');
+}
+
+function normalizeNullableText(value: string | null | undefined): string | null {
+  if (typeof value !== 'string') {
+    return null;
+  }
+
+  const normalized = normalizeText(value);
+  return normalized.length > 0 ? normalized : null;
+}
+
+function normalizeArray(items: string[] | undefined): string[] {
+  if (!Array.isArray(items)) {
+    return [];
+  }
+
+  const cleaned = items
+    .filter((value): value is string => typeof value === 'string')
+    .map((value) => normalizeText(value))
+    .filter((value) => value.length > 0);
+
+  return Array.from(new Set(cleaned));
+}
+
+function asStringArray(value: unknown): string[] {
+  if (!Array.isArray(value)) {
+    return [];
+  }
+
+  return value.filter((item): item is string => typeof item === 'string');
+}
+
+function normalizeJsonObject(value: unknown): Record<string, unknown> {
+  if (!value || typeof value !== 'object' || Array.isArray(value)) {
+    return {};
+  }
+
+  return value as Record<string, unknown>;
+}
+
+function isIsoDatetime(value: string): boolean {
+  return !Number.isNaN(Date.parse(value));
+}
+
+function containsUnsafeText(value: string): boolean {
+  const lowered = value.toLowerCase();
+  return lowered.includes('<script') || /<[^>]+>/.test(value);
+}
+
+function normalizeQuoraProfileUrl(value: string): string {
+  let parsedUrl: URL;
+  try {
+    parsedUrl = new URL(value.trim());
+  } catch {
+    throw new Error('skills_hunt_invalid_quora_url');
+  }
+
+  const hostname = parsedUrl.hostname.toLowerCase();
+  if (!hostname.endsWith('quora.com')) {
+    throw new Error('skills_hunt_invalid_quora_url');
+  }
+
+  const pathname = parsedUrl.pathname.replace(/\/+$/, '');
+  if (pathname.length < 2 || !pathname.includes('/')) {
+    throw new Error('skills_hunt_invalid_quora_url');
+  }
+
+  parsedUrl.hash = '';
+  parsedUrl.search = '';
+  return parsedUrl.toString();
+}
+
+function buildSignatureHash(url: string, skills: string[]): string {
+  const normalizedSkills = [...skills].sort((left, right) => left.localeCompare(right));
+  return createHash('sha256').update(`${url.toLowerCase()}::${normalizedSkills.join('|').toLowerCase()}`).digest('hex');
+}
+
+function mapRound(row: SkillsHuntRoundRow): SkillsHuntRound {
+  return {
+    id: row.id,
+    name: row.name,
+    description: row.description,
+    status: row.status,
+    startsAtIso: toIso(row.starts_at),
+    endsAtIso: toIso(row.ends_at),
+    scoringConfig: normalizeJsonObject(row.scoring_config),
+    createdByUserId: row.created_by_user_id,
+    updatedByUserId: row.updated_by_user_id,
+    createdAtIso: toIso(row.created_at),
+    updatedAtIso: toIso(row.updated_at),
+  };
+}
+
+function mapSubmission(row: SkillsHuntSubmissionRow): SkillsHuntSubmission {
+  return {
+    id: row.id,
+    roundId: row.round_id,
+    submitterUserId: row.submitter_user_id,
+    submitterUsername: row.submitter_username,
+    displayName: row.display_name,
+    bio: row.bio,
+    quoraProfileUrl: row.quora_profile_url,
+    skills: asStringArray(row.skills),
+    claimedProfessions: asStringArray(row.claimed_professions),
+    status: row.status,
+    pointsAwarded: row.points_awarded,
+    scoreBreakdown: normalizeJsonObject(row.score_breakdown),
+    reviewAction: row.review_action,
+    reviewNotes: row.review_notes,
+    reviewedByUserId: row.reviewed_by_user_id,
+    reviewedAtIso: row.reviewed_at ? toIso(row.reviewed_at) : null,
+    directoryProfileGeneratedAtIso: row.directory_profile_generated_at ? toIso(row.directory_profile_generated_at) : null,
+    createdAtIso: toIso(row.created_at),
+    updatedAtIso: toIso(row.updated_at),
+  };
+}
+
+function mapLeaderboard(row: SkillsHuntLeaderboardRow): SkillsHuntLeaderboardItem {
+  return {
+    rank: row.rank,
+    score: row.score,
+    acceptedCount: row.accepted_count,
+    rareSkillBonus: row.rare_skill_bonus,
+    userId: row.user_id,
+    usernameSnapshot: row.username_snapshot,
+    teamKey: row.team_key,
+    metadata: normalizeJsonObject(row.metadata),
+  };
+}
+
+function mapNotification(row: SkillsHuntNotificationRow): SkillsHuntNotification {
+  return {
+    id: row.id,
+    userId: row.user_id,
+    kind: row.kind,
+    title: row.title,
+    body: row.body,
+    metadata: normalizeJsonObject(row.metadata),
+    isRead: row.is_read,
+    readAtIso: row.read_at ? toIso(row.read_at) : null,
+    createdAtIso: toIso(row.created_at),
+  };
+}
+
+function mapAchievement(row: SkillsHuntAchievementRow): SkillsHuntAchievement {
+  return {
+    id: row.id,
+    userId: row.user_id,
+    code: row.code,
+    title: row.title,
+    description: row.description,
+    metadata: normalizeJsonObject(row.metadata),
+    awardedAtIso: toIso(row.awarded_at),
+  };
+}
+
+function mapFeatureRewardCard(row: SkillsHuntFeatureRewardCardRow): SkillsHuntFeatureRewardCard {
+  return {
+    title: row.title,
+    description: row.description,
+    ctaLabel: row.cta_label,
+    ctaUrl: row.cta_url,
+    isActive: row.is_active,
+    updatedByUserId: row.updated_by_user_id,
+    updatedAtIso: toIso(row.updated_at),
+  };
+}
+
+export function parsePaginationParams(url: string): SkillsHuntPagination {
+  const params = new URL(url).searchParams;
+  const pageRaw = Number.parseInt(params.get('page') ?? '', 10);
+  const pageSizeRaw = Number.parseInt(params.get('pageSize') ?? '', 10);
+
+  const page = Number.isFinite(pageRaw) && pageRaw > 0 ? pageRaw : SKILLS_HUNT_DEFAULT_PAGE;
+  const pageSizeBase = Number.isFinite(pageSizeRaw) && pageSizeRaw > 0 ? pageSizeRaw : SKILLS_HUNT_DEFAULT_PAGE_SIZE;
+
+  return {
+    page,
+    pageSize: Math.min(pageSizeBase, SKILLS_HUNT_MAX_PAGE_SIZE),
+  };
+}
+
+export function validateRoundInput(input: SkillsHuntRoundInput): boolean {
+  const name = normalizeText(input.name ?? '');
+  const description = normalizeNullableText(input.description);
+  const validStatus = ['draft', 'active', 'closed', 'archived'].includes(input.status);
+
+  return name.length > 0
+    && name.length <= SKILLS_HUNT_MAX_ROUND_NAME_LENGTH
+    && (!description || description.length <= SKILLS_HUNT_MAX_ROUND_DESCRIPTION_LENGTH)
+    && validStatus
+    && isIsoDatetime(input.startsAtIso)
+    && isIsoDatetime(input.endsAtIso)
+    && Date.parse(input.endsAtIso) > Date.parse(input.startsAtIso);
+}
+
+function isLengthInRange(value: string, min: number, max: number): boolean {
+  return value.length >= min && value.length <= max;
+}
+
+function hasUnsafeCollectionText(values: string[]): boolean {
+  return values.some((value) => containsUnsafeText(value));
+}
+
+export function validateSubmissionInput(input: SkillsHuntSubmissionInput): boolean {
+  const displayName = normalizeText(input.displayName ?? '');
+  const bio = normalizeText(input.bio ?? '');
+  const skills = normalizeArray(input.skills);
+  const claimedProfessions = normalizeArray(input.claimedProfessions);
+
+  const hasValidRoundId = typeof input.roundId === 'string' && input.roundId.length > 0;
+  const hasValidDisplayName = isLengthInRange(displayName, 1, SKILLS_HUNT_MAX_DISPLAY_NAME_LENGTH);
+  const hasValidBio = isLengthInRange(bio, 1, SKILLS_HUNT_MAX_BIO_LENGTH);
+  const quoraProfileUrl = typeof input.quoraProfileUrl === 'string' ? input.quoraProfileUrl.trim() : '';
+  const hasValidUrl = isLengthInRange(quoraProfileUrl, 1, SKILLS_HUNT_MAX_URL_LENGTH);
+  const hasValidSkills = skills.length > 0 && skills.length <= 25;
+  const hasValidClaimedProfessions = claimedProfessions.length <= 20;
+  const hasUnsafeText = hasUnsafeCollectionText([displayName, bio, ...skills, ...claimedProfessions]);
+
+  return hasValidRoundId
+    && hasValidDisplayName
+    && hasValidBio
+    && hasValidUrl
+    && hasValidSkills
+    && hasValidClaimedProfessions
+    && !hasUnsafeText;
+}
+
+export function validateReviewInput(input: SkillsHuntSubmissionReviewInput): boolean {
+  const notes = normalizeNullableText(input.notes);
+  const validAction = ['accept', 'reject', 'edit', 'flag'].includes(input.action);
+
+  return validAction
+    && (!notes || notes.length <= SKILLS_HUNT_MAX_REVIEW_NOTES_LENGTH)
+    && (!notes || !containsUnsafeText(notes));
+}
+
+export function validateFeatureRewardCardInput(input: SkillsHuntFeatureRewardCardInput): boolean {
+  const title = normalizeText(input.title ?? '');
+  const description = normalizeText(input.description ?? '');
+  const ctaLabel = normalizeText(input.ctaLabel ?? '');
+  const ctaUrl = normalizeText(input.ctaUrl ?? '');
+
+  return isLengthInRange(title, 1, 160)
+    && isLengthInRange(description, 1, 500)
+    && isLengthInRange(ctaLabel, 1, 80)
+    && isLengthInRange(ctaUrl, 1, 512)
+    && typeof input.isActive === 'boolean';
+}
+
+async function getRoundById(client: PoolClient, roundId: string): Promise<SkillsHuntRoundRow | null> {
+  const result = await client.query<SkillsHuntRoundRow>(
+    `
+      SELECT
+        id,
+        name,
+        description,
+        status,
+        starts_at,
+        ends_at,
+        scoring_config,
+        created_by_user_id,
+        updated_by_user_id,
+        created_at,
+        updated_at
+      FROM skills_hunt_rounds
+      WHERE id = $1::uuid
+      LIMIT 1
+    `,
+    [roundId],
+  );
+
+  return result.rows[0] ?? null;
+}
+
+async function ensureSubmissionWindow(client: PoolClient, roundId: string): Promise<void> {
+  const round = await getRoundById(client, roundId);
+  if (!round) {
+    throw new Error('skills_hunt_round_not_found');
+  }
+
+  const now = Date.now();
+  if (round.status !== 'active' || now < round.starts_at.getTime() || now > round.ends_at.getTime()) {
+    throw new Error('skills_hunt_round_not_active');
+  }
+}
+
+async function ensureSubmissionRateLimits(client: PoolClient, userId: string): Promise<void> {
+  const recent = await client.query<CountRow>(
+    `
+      SELECT COUNT(*)::text AS total
+      FROM skills_hunt_submissions
+      WHERE submitter_user_id = $1
+        AND created_at >= NOW() - INTERVAL '7 days'
+    `,
+    [userId],
+  );
+
+  const count = Number.parseInt(recent.rows[0]?.total ?? '0', 10);
+  if (count >= SKILLS_HUNT_SUBMISSION_LIMIT_7D) {
+    throw new Error('skills_hunt_submission_limit_exceeded');
+  }
+
+  const recentReviewed = await client.query<{ total: string; rejected: string }>(
+    `
+      SELECT
+        COUNT(*)::text AS total,
+        COUNT(*) FILTER (WHERE status = 'rejected')::text AS rejected
+      FROM (
+        SELECT status
+        FROM skills_hunt_submissions
+        WHERE submitter_user_id = $1
+          AND reviewed_at IS NOT NULL
+        ORDER BY reviewed_at DESC
+        LIMIT $2
+      ) sampled
+    `,
+    [userId, SKILLS_HUNT_REJECTION_GUARD_SAMPLE_SIZE],
+  );
+
+  const sampledTotal = Number.parseInt(recentReviewed.rows[0]?.total ?? '0', 10);
+  const sampledRejected = Number.parseInt(recentReviewed.rows[0]?.rejected ?? '0', 10);
+
+  if (sampledTotal >= SKILLS_HUNT_REJECTION_GUARD_SAMPLE_SIZE) {
+    const rejectionRate = sampledRejected / sampledTotal;
+    if (rejectionRate >= SKILLS_HUNT_REJECTION_GUARD_THRESHOLD) {
+      throw new Error('skills_hunt_rejection_guard_violation');
+    }
+  }
+}
+
+async function insertNotification(
+  client: PoolClient,
+  userId: string,
+  kind: string,
+  title: string,
+  body: string,
+  metadata: Record<string, unknown> = {},
+): Promise<void> {
+  await client.query(
+    `
+      INSERT INTO skills_hunt_notifications (user_id, kind, title, body, metadata)
+      VALUES ($1, $2, $3, $4, $5::jsonb)
+    `,
+    [userId, kind, title, body, JSON.stringify(metadata)],
+  );
+}
+
+async function ensureAchievement(
+  client: PoolClient,
+  userId: string,
+  code: string,
+  title: string,
+  description: string,
+): Promise<void> {
+  await client.query(
+    `
+      INSERT INTO skills_hunt_achievements (user_id, code, title, description)
+      VALUES ($1, $2, $3, $4)
+      ON CONFLICT (user_id, code)
+      DO NOTHING
+    `,
+    [userId, code, title, description],
+  );
+}
+
+async function rebuildLeaderboard(client: PoolClient, roundId: string): Promise<void> {
+  await client.query(
+    'DELETE FROM skills_hunt_leaderboard WHERE round_id = $1::uuid',
+    [roundId],
+  );
+
+  const individualRows = await client.query<{
+    submitter_user_id: string;
+    submitter_username: string | null;
+    score: string;
+    accepted_count: string;
+    rare_skill_bonus: string;
+  }>(
+    `
+      SELECT
+        submitter_user_id,
+        MAX(submitter_username) AS submitter_username,
+        SUM(points_awarded)::text AS score,
+        COUNT(*)::text AS accepted_count,
+        SUM(COALESCE((score_breakdown->>'rareSkillBonus')::int, 0))::text AS rare_skill_bonus
+      FROM skills_hunt_submissions
+      WHERE round_id = $1::uuid
+        AND status = 'accepted'
+      GROUP BY submitter_user_id
+      ORDER BY SUM(points_awarded) DESC, COUNT(*) DESC, submitter_user_id ASC
+    `,
+    [roundId],
+  );
+
+  for (let index = 0; index < individualRows.rows.length; index += 1) {
+    const row = individualRows.rows[index];
+    await client.query(
+      `
+        INSERT INTO skills_hunt_leaderboard
+          (round_id, mode, rank, score, accepted_count, rare_skill_bonus, user_id, username_snapshot, team_key, metadata)
+        VALUES
+          ($1::uuid, 'individual', $2, $3, $4, $5, $6, $7, NULL, '{}'::jsonb)
+      `,
+      [
+        roundId,
+        index + 1,
+        Number.parseInt(row.score, 10),
+        Number.parseInt(row.accepted_count, 10),
+        Number.parseInt(row.rare_skill_bonus, 10),
+        row.submitter_user_id,
+        row.submitter_username,
+      ],
+    );
+  }
+
+  const teamRows = await client.query<{
+    team_key: string;
+    score: string;
+    accepted_count: string;
+    rare_skill_bonus: string;
+  }>(
+    `
+      SELECT
+        LOWER(TRIM(COALESCE(profession.value, 'unspecified'))) AS team_key,
+        SUM(s.points_awarded)::text AS score,
+        COUNT(*)::text AS accepted_count,
+        SUM(COALESCE((s.score_breakdown->>'rareSkillBonus')::int, 0))::text AS rare_skill_bonus
+      FROM skills_hunt_submissions s
+      LEFT JOIN LATERAL jsonb_array_elements_text(s.claimed_professions) profession(value) ON TRUE
+      WHERE s.round_id = $1::uuid
+        AND s.status = 'accepted'
+      GROUP BY LOWER(TRIM(COALESCE(profession.value, 'unspecified')))
+      ORDER BY SUM(s.points_awarded) DESC, COUNT(*) DESC, team_key ASC
+    `,
+    [roundId],
+  );
+
+  for (let index = 0; index < teamRows.rows.length; index += 1) {
+    const row = teamRows.rows[index];
+    await client.query(
+      `
+        INSERT INTO skills_hunt_leaderboard
+          (round_id, mode, rank, score, accepted_count, rare_skill_bonus, user_id, username_snapshot, team_key, metadata)
+        VALUES
+          ($1::uuid, 'team', $2, $3, $4, $5, NULL, NULL, $6, '{}'::jsonb)
+      `,
+      [
+        roundId,
+        index + 1,
+        Number.parseInt(row.score, 10),
+        Number.parseInt(row.accepted_count, 10),
+        Number.parseInt(row.rare_skill_bonus, 10),
+        row.team_key,
+      ],
+    );
+  }
+}
+
+async function scoreSubmission(client: PoolClient, submissionId: string): Promise<{ pointsAwarded: number; scoreBreakdown: Record<string, unknown> }> {
+  const submissionResult = await client.query<{
+    id: string;
+    round_id: string;
+    quora_profile_url_normalized: string;
+    skills: unknown;
+    claimed_professions: unknown;
+    bio: string;
+  }>(
+    `
+      SELECT id, round_id, quora_profile_url_normalized, skills, claimed_professions, bio
+      FROM skills_hunt_submissions
+      WHERE id = $1::uuid
+      LIMIT 1
+    `,
+    [submissionId],
+  );
+
+  const submission = submissionResult.rows[0];
+  if (!submission) {
+    throw new Error('skills_hunt_submission_not_found');
+  }
+
+  const skills = asStringArray(submission.skills);
+  const claimedProfessions = asStringArray(submission.claimed_professions);
+
+  const firstMatchResult = await client.query<CountRow>(
+    `
+      SELECT COUNT(*)::text AS total
+      FROM skills_hunt_submissions
+      WHERE round_id = $1::uuid
+        AND status = 'accepted'
+        AND quora_profile_url_normalized = $2
+        AND id <> $3::uuid
+    `,
+    [submission.round_id, submission.quora_profile_url_normalized, submission.id],
+  );
+
+  const acceptedSameUrlCount = Number.parseInt(firstMatchResult.rows[0]?.total ?? '0', 10);
+  const firstMatchBonus = acceptedSameUrlCount === 0 ? SKILLS_HUNT_SCORE_WEIGHTS.firstMatchBonus : 0;
+
+  const rareSkillRows = await client.query<{ skill_name: string; bonus_points: number }>(
+    `
+      SELECT skill_name, bonus_points
+      FROM skills_hunt_rare_skills_lookup
+      WHERE round_id = $1::uuid
+    `,
+    [submission.round_id],
+  );
+
+  const rareLookup = new Map(
+    rareSkillRows.rows.map((row) => [normalizeText(row.skill_name).toLowerCase(), row.bonus_points]),
+  );
+
+  const rareSkillBonus = skills.reduce((accumulator, skillName) => {
+    const normalizedSkill = normalizeText(skillName).toLowerCase();
+    return accumulator + (rareLookup.get(normalizedSkill) ?? 0);
+  }, 0);
+
+  const qualityBonus = submission.bio.length >= 200 ? SKILLS_HUNT_SCORE_WEIGHTS.qualityBonus : 0;
+  const matchBase = Math.min(skills.length, 5) * SKILLS_HUNT_SCORE_WEIGHTS.matchBase;
+  const stackBonus = claimedProfessions.length * SKILLS_HUNT_SCORE_WEIGHTS.stackBonusPerProfession;
+
+  const pointsAwarded = matchBase + firstMatchBonus + stackBonus + rareSkillBonus + qualityBonus;
+  const scoreBreakdown = {
+    matchBase,
+    firstMatchBonus,
+    stackBonus,
+    rareSkillBonus,
+    qualityBonus,
+  };
+
+  return { pointsAwarded, scoreBreakdown };
+}
+
+async function maybeAutoGenerateDirectoryProfile(
+  client: PoolClient,
+  actorId: string,
+  submissionId: string,
+  invitedByUsername: string,
+): Promise<void> {
+  const existingProjection = await client.query<{ submission_id: string }>(
+    'SELECT submission_id FROM skills_hunt_directory_profiles WHERE submission_id = $1::uuid LIMIT 1',
+    [submissionId],
+  );
+
+  if (existingProjection.rows.length > 0) {
+    return;
+  }
+
+  const submissionResult = await client.query<{
+    id: string;
+    display_name: string;
+    bio: string;
+    quora_profile_url: string;
+    claimed_professions: unknown;
+  }>(
+    `
+      SELECT id, display_name, bio, quora_profile_url, claimed_professions
+      FROM skills_hunt_submissions
+      WHERE id = $1::uuid
+        AND status = 'accepted'
+      LIMIT 1
+    `,
+    [submissionId],
+  );
+
+  const submission = submissionResult.rows[0];
+  if (!submission) {
+    throw new Error('skills_hunt_submission_not_found');
+  }
+
+  const professions = asStringArray(submission.claimed_professions);
+  const headline = professions[0] ?? 'Skills Hunt contributor';
+
+  const insertedDirectoryProfile = await client.query<{ id: string }>(
+    `
+      INSERT INTO directory_profiles
+        (claimed_by_user_id, display_name, headline, bio, profile_url, is_public, sector_id, job_title_id, is_active)
+      VALUES
+        (NULL, $1, $2, $3, $4, false, NULL, NULL, true)
+      RETURNING id
+    `,
+    [submission.display_name, headline, submission.bio, submission.quora_profile_url],
+  );
+
+  const directoryProfileId = insertedDirectoryProfile.rows[0].id;
+
+  await client.query(
+    `
+      INSERT INTO skills_hunt_directory_profiles
+        (submission_id, directory_profile_id, invited_by_username, created_by_user_id, metadata)
+      VALUES
+        ($1::uuid, $2::uuid, $3, $4, '{"generatedBy":"skills-hunt"}'::jsonb)
+    `,
+    [submissionId, directoryProfileId, invitedByUsername, actorId],
+  );
+
+  await client.query(
+    `
+      UPDATE skills_hunt_submissions
+      SET directory_profile_generated_at = NOW(), updated_at = NOW()
+      WHERE id = $1::uuid
+    `,
+    [submissionId],
+  );
+}
+
+export async function listRounds(status: SkillsHuntRoundStatus | null): Promise<SkillsHuntRound[]> {
+  const params: unknown[] = [];
+  const where = status ? 'WHERE status = $1' : '';
+  if (status) {
+    params.push(status);
+  }
+
+  const result = await queryDb<SkillsHuntRoundRow>(
+    `
+      SELECT
+        id,
+        name,
+        description,
+        status,
+        starts_at,
+        ends_at,
+        scoring_config,
+        created_by_user_id,
+        updated_by_user_id,
+        created_at,
+        updated_at
+      FROM skills_hunt_rounds
+      ${where}
+      ORDER BY starts_at DESC, created_at DESC
+    `,
+    params,
+  );
+
+  return result.rows.map(mapRound);
+}
+
+export async function createRound(actorId: string, input: SkillsHuntRoundInput): Promise<SkillsHuntRound> {
+  return withDbTransaction(async (client) => {
+    const row = await client.query<SkillsHuntRoundRow>(
+      `
+        INSERT INTO skills_hunt_rounds
+          (name, description, status, starts_at, ends_at, scoring_config, created_by_user_id, updated_by_user_id)
+        VALUES
+          ($1, $2, $3, $4::timestamptz, $5::timestamptz, $6::jsonb, $7, $7)
+        RETURNING
+          id,
+          name,
+          description,
+          status,
+          starts_at,
+          ends_at,
+          scoring_config,
+          created_by_user_id,
+          updated_by_user_id,
+          created_at,
+          updated_at
+      `,
+      [
+        normalizeText(input.name),
+        normalizeNullableText(input.description),
+        input.status,
+        input.startsAtIso,
+        input.endsAtIso,
+        JSON.stringify(input.scoringConfig ?? {}),
+        actorId,
+      ],
+    );
+
+    return mapRound(row.rows[0]);
+  });
+}
+
+export async function updateRound(actorId: string, roundId: string, input: SkillsHuntRoundInput): Promise<SkillsHuntRound | null> {
+  return withDbTransaction(async (client) => {
+    const existing = await getRoundById(client, roundId);
+    if (!existing) {
+      return null;
+    }
+
+    const updated = await client.query<SkillsHuntRoundRow>(
+      `
+        UPDATE skills_hunt_rounds
+        SET
+          name = $2,
+          description = $3,
+          status = $4,
+          starts_at = $5::timestamptz,
+          ends_at = $6::timestamptz,
+          scoring_config = $7::jsonb,
+          updated_by_user_id = $8,
+          updated_at = NOW()
+        WHERE id = $1::uuid
+        RETURNING
+          id,
+          name,
+          description,
+          status,
+          starts_at,
+          ends_at,
+          scoring_config,
+          created_by_user_id,
+          updated_by_user_id,
+          created_at,
+          updated_at
+      `,
+      [
+        roundId,
+        normalizeText(input.name),
+        normalizeNullableText(input.description),
+        input.status,
+        input.startsAtIso,
+        input.endsAtIso,
+        JSON.stringify(input.scoringConfig ?? {}),
+        actorId,
+      ],
+    );
+
+    return mapRound(updated.rows[0]);
+  });
+}
+
+export async function createSubmission(
+  submitterUserId: string,
+  submitterUsername: string | null,
+  input: SkillsHuntSubmissionInput,
+): Promise<SkillsHuntSubmission> {
+  return withDbTransaction(async (client) => {
+    await ensureSubmissionWindow(client, input.roundId);
+    await ensureSubmissionRateLimits(client, submitterUserId);
+
+    const normalizedUrl = normalizeQuoraProfileUrl(input.quoraProfileUrl);
+    const skills = normalizeArray(input.skills);
+    const claimedProfessions = normalizeArray(input.claimedProfessions);
+    const signatureHash = buildSignatureHash(normalizedUrl, skills);
+
+    const inserted = await client.query<SkillsHuntSubmissionRow>(
+      `
+        INSERT INTO skills_hunt_submissions
+          (
+            round_id,
+            submitter_user_id,
+            submitter_username,
+            display_name,
+            bio,
+            quora_profile_url,
+            quora_profile_url_normalized,
+            skills,
+            claimed_professions,
+            signature_hash,
+            status,
+            points_awarded,
+            score_breakdown
+          )
+        VALUES
+          ($1::uuid, $2, $3, $4, $5, $6, $7, $8::jsonb, $9::jsonb, $10, 'pending', 0, '{}'::jsonb)
+        RETURNING
+          id,
+          round_id,
+          submitter_user_id,
+          submitter_username,
+          display_name,
+          bio,
+          quora_profile_url,
+          skills,
+          claimed_professions,
+          status,
+          points_awarded,
+          score_breakdown,
+          review_action,
+          review_notes,
+          reviewed_by_user_id,
+          reviewed_at,
+          directory_profile_generated_at,
+          created_at,
+          updated_at
+      `,
+      [
+        input.roundId,
+        submitterUserId,
+        submitterUsername,
+        normalizeText(input.displayName),
+        normalizeText(input.bio),
+        normalizedUrl,
+        normalizedUrl,
+        JSON.stringify(skills),
+        JSON.stringify(claimedProfessions),
+        signatureHash,
+      ],
+    );
+
+    await insertNotification(
+      client,
+      submitterUserId,
+      'submission-created',
+      'Submission received',
+      'Your Skills Hunt submission has been queued for moderation review.',
+      { roundId: input.roundId, submissionId: inserted.rows[0].id },
+    );
+
+    return mapSubmission(inserted.rows[0]);
+  }).catch((error: unknown) => {
+    const message = error instanceof Error ? error.message : 'unknown';
+    if (message.includes('skills_hunt_round_not_active')) {
+      throw new Error('skills_hunt_round_not_active');
+    }
+    if (message.includes('skills_hunt_round_not_found')) {
+      throw new Error('skills_hunt_round_not_found');
+    }
+    if (message.includes('skills_hunt_submission_limit_exceeded')) {
+      throw new Error('skills_hunt_submission_limit_exceeded');
+    }
+    if (message.includes('skills_hunt_rejection_guard_violation')) {
+      throw new Error('skills_hunt_rejection_guard_violation');
+    }
+    if (message.includes('skills_hunt_invalid_quora_url')) {
+      throw new Error('skills_hunt_invalid_quora_url');
+    }
+    if (message.includes('skills_hunt_submissions_round_id_signature_hash_key')) {
+      throw new Error('skills_hunt_duplicate_submission');
+    }
+    throw error;
+  });
+}
+
+export async function listSubmissions(
+  roundId: string,
+  status: string | null,
+  pagination: SkillsHuntPagination,
+  access: { userId: string; isModeratorOrAdmin: boolean },
+): Promise<{ items: SkillsHuntSubmission[]; pagination: SkillsHuntPagination; total: number }> {
+  const params: unknown[] = [roundId];
+  let filterSql = '';
+
+  if (status) {
+    params.push(status);
+    filterSql += ` AND status = $${params.length}`;
+  }
+
+  if (!access.isModeratorOrAdmin) {
+    params.push(access.userId);
+    filterSql += ` AND submitter_user_id = $${params.length}`;
+  }
+
+  params.push(pagination.pageSize);
+  params.push((pagination.page - 1) * pagination.pageSize);
+
+  const listSql = `
+    SELECT
+      id,
+      round_id,
+      submitter_user_id,
+      submitter_username,
+      display_name,
+      bio,
+      quora_profile_url,
+      skills,
+      claimed_professions,
+      status,
+      points_awarded,
+      score_breakdown,
+      review_action,
+      review_notes,
+      reviewed_by_user_id,
+      reviewed_at,
+      directory_profile_generated_at,
+      created_at,
+      updated_at
+    FROM skills_hunt_submissions
+    WHERE round_id = $1::uuid
+      ${filterSql}
+    ORDER BY created_at DESC
+    LIMIT $${params.length - 1}
+    OFFSET $${params.length}
+  `;
+
+  const totalParams = params.slice(0, params.length - 2);
+  const totalSql = `
+    SELECT COUNT(*)::text AS total
+    FROM skills_hunt_submissions
+    WHERE round_id = $1::uuid
+      ${filterSql}
+  `;
+
+  const [itemsResult, totalResult] = await Promise.all([
+    queryDb<SkillsHuntSubmissionRow>(listSql, params),
+    queryDb<CountRow>(totalSql, totalParams),
+  ]);
+
+  return {
+    items: itemsResult.rows.map(mapSubmission),
+    pagination,
+    total: Number.parseInt(totalResult.rows[0]?.total ?? '0', 10),
+  };
+}
+
+export async function reviewSubmission(
+  actorId: string,
+  actorUsername: string | null,
+  submissionId: string,
+  input: SkillsHuntSubmissionReviewInput,
+): Promise<SkillsHuntSubmission> {
+  return withDbTransaction(async (client) => {
+    const submissionResult = await client.query<SkillsHuntSubmissionRow>(
+      `
+        SELECT
+          id,
+          round_id,
+          submitter_user_id,
+          submitter_username,
+          display_name,
+          bio,
+          quora_profile_url,
+          skills,
+          claimed_professions,
+          status,
+          points_awarded,
+          score_breakdown,
+          review_action,
+          review_notes,
+          reviewed_by_user_id,
+          reviewed_at,
+          directory_profile_generated_at,
+          created_at,
+          updated_at
+        FROM skills_hunt_submissions
+        WHERE id = $1::uuid
+        LIMIT 1
+      `,
+      [submissionId],
+    );
+
+    const existing = submissionResult.rows[0];
+    if (!existing) {
+      throw new Error('skills_hunt_submission_not_found');
+    }
+
+    let status: SkillsHuntSubmission['status'] = existing.status;
+    let pointsAwarded = existing.points_awarded;
+    let scoreBreakdown = normalizeJsonObject(existing.score_breakdown);
+
+    if (input.action === 'accept' || input.action === 'edit') {
+      const scored = await scoreSubmission(client, submissionId);
+      pointsAwarded = scored.pointsAwarded;
+      scoreBreakdown = scored.scoreBreakdown;
+      status = 'accepted';
+    }
+
+    if (input.action === 'reject') {
+      status = 'rejected';
+      pointsAwarded = 0;
+      scoreBreakdown = { rejected: true };
+    }
+
+    if (input.action === 'flag') {
+      status = 'flagged';
+      pointsAwarded = 0;
+      scoreBreakdown = { flagged: true };
+    }
+
+    const updated = await client.query<SkillsHuntSubmissionRow>(
+      `
+        UPDATE skills_hunt_submissions
+        SET
+          status = $2,
+          review_action = $3,
+          review_notes = $4,
+          reviewed_by_user_id = $5,
+          reviewed_at = NOW(),
+          points_awarded = $6,
+          score_breakdown = $7::jsonb,
+          updated_at = NOW()
+        WHERE id = $1::uuid
+        RETURNING
+          id,
+          round_id,
+          submitter_user_id,
+          submitter_username,
+          display_name,
+          bio,
+          quora_profile_url,
+          skills,
+          claimed_professions,
+          status,
+          points_awarded,
+          score_breakdown,
+          review_action,
+          review_notes,
+          reviewed_by_user_id,
+          reviewed_at,
+          directory_profile_generated_at,
+          created_at,
+          updated_at
+      `,
+      [
+        submissionId,
+        status,
+        input.action,
+        normalizeNullableText(input.notes),
+        actorId,
+        pointsAwarded,
+        JSON.stringify(scoreBreakdown),
+      ],
+    );
+
+    await rebuildLeaderboard(client, existing.round_id);
+
+    if (status === 'accepted') {
+      await insertNotification(
+        client,
+        existing.submitter_user_id,
+        'submission-accepted',
+        'Submission accepted',
+        `Your Skills Hunt submission was accepted with ${pointsAwarded} points.`,
+        { submissionId, pointsAwarded },
+      );
+
+      const acceptedCountResult = await client.query<CountRow>(
+        `
+          SELECT COUNT(*)::text AS total
+          FROM skills_hunt_submissions
+          WHERE submitter_user_id = $1
+            AND status = 'accepted'
+        `,
+        [existing.submitter_user_id],
+      );
+
+      const acceptedCount = Number.parseInt(acceptedCountResult.rows[0]?.total ?? '0', 10);
+      if (acceptedCount >= 1) {
+        await ensureAchievement(client, existing.submitter_user_id, 'accepted-first', 'First Accepted Submission', 'First accepted Skills Hunt submission.');
+      }
+      if (acceptedCount >= 5) {
+        await ensureAchievement(client, existing.submitter_user_id, 'accepted-five', 'Five Accepted Submissions', 'Reached five accepted Skills Hunt submissions.');
+      }
+      if (acceptedCount >= 10) {
+        await ensureAchievement(client, existing.submitter_user_id, 'accepted-ten', 'Ten Accepted Submissions', 'Reached ten accepted Skills Hunt submissions.');
+      }
+
+      const attributionUsername = existing.submitter_username ?? actorUsername ?? 'system';
+      await maybeAutoGenerateDirectoryProfile(client, actorId, submissionId, attributionUsername);
+    }
+
+    if (status === 'rejected') {
+      await insertNotification(
+        client,
+        existing.submitter_user_id,
+        'submission-rejected',
+        'Submission rejected',
+        'Your Skills Hunt submission was rejected during moderation review.',
+        { submissionId },
+      );
+    }
+
+    return mapSubmission(updated.rows[0]);
+  });
+}
+
+export async function listLeaderboard(roundId: string, mode: SkillsHuntLeaderboardMode): Promise<SkillsHuntLeaderboardItem[]> {
+  const rows = await queryDb<SkillsHuntLeaderboardRow>(
+    `
+      SELECT rank, score, accepted_count, rare_skill_bonus, user_id, username_snapshot, team_key, metadata
+      FROM skills_hunt_leaderboard
+      WHERE round_id = $1::uuid
+        AND mode = $2
+      ORDER BY rank ASC
+    `,
+    [roundId, mode],
+  );
+
+  return rows.rows.map(mapLeaderboard);
+}
+
+export async function listAchievements(userId: string): Promise<SkillsHuntAchievement[]> {
+  const result = await queryDb<SkillsHuntAchievementRow>(
+    `
+      SELECT id, user_id, code, title, description, metadata, awarded_at
+      FROM skills_hunt_achievements
+      WHERE user_id = $1
+      ORDER BY awarded_at DESC
+    `,
+    [userId],
+  );
+
+  return result.rows.map(mapAchievement);
+}
+
+export async function listNotifications(userId: string, unreadOnly: boolean): Promise<SkillsHuntNotification[]> {
+  const unreadClause = unreadOnly ? 'AND is_read = false' : '';
+  const result = await queryDb<SkillsHuntNotificationRow>(
+    `
+      SELECT id, user_id, kind, title, body, metadata, is_read, read_at, created_at
+      FROM skills_hunt_notifications
+      WHERE user_id = $1
+        ${unreadClause}
+      ORDER BY created_at DESC
+      LIMIT 100
+    `,
+    [userId],
+  );
+
+  return result.rows.map(mapNotification);
+}
+
+export async function markNotificationRead(userId: string, notificationId: string): Promise<SkillsHuntNotification | null> {
+  const result = await queryDb<SkillsHuntNotificationRow>(
+    `
+      UPDATE skills_hunt_notifications
+      SET is_read = true, read_at = NOW()
+      WHERE id = $1::uuid
+        AND user_id = $2
+      RETURNING id, user_id, kind, title, body, metadata, is_read, read_at, created_at
+    `,
+    [notificationId, userId],
+  );
+
+  return result.rows[0] ? mapNotification(result.rows[0]) : null;
+}
+
+export async function getFeatureRewardCard(): Promise<SkillsHuntFeatureRewardCard | null> {
+  const result = await queryDb<SkillsHuntFeatureRewardCardRow>(
+    `
+      SELECT title, description, cta_label, cta_url, is_active, updated_by_user_id, updated_at
+      FROM skills_hunt_feature_reward_card
+      WHERE singleton_key = true
+      LIMIT 1
+    `,
+  );
+
+  return result.rows[0] ? mapFeatureRewardCard(result.rows[0]) : null;
+}
+
+export async function updateFeatureRewardCard(actorId: string, input: SkillsHuntFeatureRewardCardInput): Promise<SkillsHuntFeatureRewardCard> {
+  return withDbTransaction(async (client) => {
+    const result = await client.query<SkillsHuntFeatureRewardCardRow>(
+      `
+        INSERT INTO skills_hunt_feature_reward_card
+          (singleton_key, title, description, cta_label, cta_url, is_active, updated_by_user_id, updated_at)
+        VALUES
+          (true, $1, $2, $3, $4, $5, $6, NOW())
+        ON CONFLICT (singleton_key)
+        DO UPDATE SET
+          title = EXCLUDED.title,
+          description = EXCLUDED.description,
+          cta_label = EXCLUDED.cta_label,
+          cta_url = EXCLUDED.cta_url,
+          is_active = EXCLUDED.is_active,
+          updated_by_user_id = EXCLUDED.updated_by_user_id,
+          updated_at = NOW()
+        RETURNING title, description, cta_label, cta_url, is_active, updated_by_user_id, updated_at
+      `,
+      [
+        normalizeText(input.title),
+        normalizeText(input.description),
+        normalizeText(input.ctaLabel),
+        normalizeText(input.ctaUrl),
+        input.isActive,
+        actorId,
+      ],
+    );
+
+    return mapFeatureRewardCard(result.rows[0]);
+  });
+}
+
+export async function generateDirectoryProfileFromAcceptedSubmission(
+  actorId: string,
+  submissionId: string,
+  invitedByUsername: string,
+): Promise<SkillsHuntGeneratedDirectoryProfile> {
+  return withDbTransaction(async (client) => {
+    const alreadyGenerated = await client.query<{ id: string }>(
+      'SELECT id FROM skills_hunt_directory_profiles WHERE submission_id = $1::uuid LIMIT 1',
+      [submissionId],
+    );
+
+    if (alreadyGenerated.rows.length > 0) {
+      throw new Error('skills_hunt_profile_already_generated');
+    }
+
+    await maybeAutoGenerateDirectoryProfile(client, actorId, submissionId, normalizeText(invitedByUsername));
+
+    const projectionResult = await client.query<{
+      submission_id: string;
+      directory_profile_id: string;
+      invited_by_username: string;
+      created_at: Date;
+    }>(
+      `
+        SELECT submission_id, directory_profile_id, invited_by_username, created_at
+        FROM skills_hunt_directory_profiles
+        WHERE submission_id = $1::uuid
+        LIMIT 1
+      `,
+      [submissionId],
+    );
+
+    const projection = projectionResult.rows[0];
+    if (!projection) {
+      throw new Error('skills_hunt_submission_not_found');
+    }
+
+    return {
+      submissionId: projection.submission_id,
+      generatedProfileId: projection.directory_profile_id,
+      profileStatus: 'unclaimed',
+      invitedByUsername: projection.invited_by_username,
+      createdAtIso: toIso(projection.created_at),
+    };
+  });
+}
+
+export async function getSkillsHuntDashboard(): Promise<{
+  roundsTotal: number;
+  submissionsTotal: number;
+  acceptedTotal: number;
+  generatedProfilesTotal: number;
+  generatedAtIso: string;
+}> {
+  const [rounds, submissions, accepted, generated] = await Promise.all([
+    queryDb<CountRow>('SELECT COUNT(*)::text AS total FROM skills_hunt_rounds'),
+    queryDb<CountRow>('SELECT COUNT(*)::text AS total FROM skills_hunt_submissions'),
+    queryDb<CountRow>("SELECT COUNT(*)::text AS total FROM skills_hunt_submissions WHERE status = 'accepted'"),
+    queryDb<CountRow>('SELECT COUNT(*)::text AS total FROM skills_hunt_directory_profiles'),
+  ]);
+
+  return {
+    roundsTotal: Number.parseInt(rounds.rows[0]?.total ?? '0', 10),
+    submissionsTotal: Number.parseInt(submissions.rows[0]?.total ?? '0', 10),
+    acceptedTotal: Number.parseInt(accepted.rows[0]?.total ?? '0', 10),
+    generatedProfilesTotal: Number.parseInt(generated.rows[0]?.total ?? '0', 10),
+    generatedAtIso: new Date().toISOString(),
+  };
+}
+
+export async function insertSkillsHuntAudit(input: {
+  actorId: string;
+  command: string;
+  policyStatus: 'allow' | 'deny';
+  reason: string;
+  targetType: string;
+  targetId: string;
+  metadata?: Record<string, unknown>;
+}): Promise<void> {
+  await queryDb(
+    `
+      INSERT INTO skills_hunt_audit_log
+        (actor_id, command, policy_status, reason, target_type, target_id, metadata)
+      VALUES
+        ($1, $2, $3, $4, $5, $6, $7::jsonb)
+    `,
+    [
+      input.actorId,
+      input.command,
+      input.policyStatus,
+      input.reason,
+      input.targetType,
+      input.targetId,
+      JSON.stringify(input.metadata ?? {}),
+    ],
+  );
+}
+
+export async function listSkillsHuntAuditEvents(limit = 100): Promise<SkillsHuntAuditRow[]> {
+  const safeLimit = Math.min(Math.max(limit, 1), 200);
+  const result = await queryDb<SkillsHuntAuditRow>(
+    `
+      SELECT id, actor_id, command, policy_status, reason, target_type, target_id, metadata, created_at
+      FROM skills_hunt_audit_log
+      ORDER BY created_at DESC
+      LIMIT $1
+    `,
+    [safeLimit],
+  );
+
+  return result.rows;
+}

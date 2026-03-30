@@ -8,7 +8,7 @@ const nextConfig = {
     tsconfigPath: './tsconfig.json',
   },
   eslint: {
-    dirs: ['src'],
+    dirs: ['app', 'components', 'lib'],
   },
 };
 

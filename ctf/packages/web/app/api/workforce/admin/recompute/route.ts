@@ -1,0 +1,26 @@
+import { NextResponse } from 'next/server';
+import { ensureMutationCsrf, requireWorkforceAdminAccess } from '../../_lib';
+import { WORKFORCE_ERROR_CODE } from '../lib/workforce/constants';
+import { enqueueRecruitedRecompute } from '../lib/workforce/repository';
+
+export async function POST(request: Request) {
+  const gate = await requireWorkforceAdminAccess();
+  if (!gate.allowed) {
+    return gate.response;
+  }
+
+  const csrfDeny = ensureMutationCsrf(request);
+  if (csrfDeny) {
+    return csrfDeny;
+  }
+
+  try {
+    const result = await enqueueRecruitedRecompute(gate.auth.userId);
+    return NextResponse.json({ ok: true, ...result }, { status: 202 });
+  } catch {
+    return NextResponse.json(
+      { ok: false, code: WORKFORCE_ERROR_CODE.persistenceUnavailable, message: 'Unable to enqueue recompute.' },
+      { status: 503 },
+    );
+  }
+}
