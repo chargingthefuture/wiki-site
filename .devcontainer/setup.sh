@@ -1,3 +1,10 @@
+# Install/update Snyk CLI
+echo "Checking for Snyk CLI..."
+if ! command -v snyk &> /dev/null; then
+  npm install -g snyk
+else
+  echo "Snyk CLI already installed."
+fi
 #!/usr/bin/env bash
 set -e
 
