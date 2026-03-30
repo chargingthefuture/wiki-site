@@ -499,7 +499,6 @@ DO $$ BEGIN
     EXECUTE 'CREATE UNIQUE INDEX IF NOT EXISTS levelup_enrollments_cohort_id_user_id_key ON levelup_enrollments(cohort_id, user_id)';
   END IF;
 END $$;
--- === trusttransport tables ===
 CREATE TABLE IF NOT EXISTS trusttransport_requests (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   requester_user_id TEXT NOT NULL,
@@ -514,6 +513,29 @@ CREATE TABLE IF NOT EXISTS trusttransport_requests (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
+-- === foundation_capacity_policies ===
+CREATE TABLE IF NOT EXISTS foundation_capacity_policies (
+  singleton_key BOOLEAN PRIMARY KEY DEFAULT TRUE,
+  max_active_threads_per_user INTEGER NOT NULL DEFAULT 20,
+  max_messages_per_minute INTEGER NOT NULL DEFAULT 20,
+  max_searches_per_minute INTEGER NOT NULL DEFAULT 40,
+  max_quote_transitions_per_minute INTEGER NOT NULL DEFAULT 20,
+  max_call_duration_minutes INTEGER NOT NULL DEFAULT 45,
+  quota_state TEXT NOT NULL DEFAULT 'green' CHECK (quota_state IN ('green', 'yellow', 'orange', 'red')),
+  kill_switch_enabled BOOLEAN NOT NULL DEFAULT FALSE,
+  updated_by_user_id TEXT,
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+ALTER TABLE IF EXISTS foundation_capacity_policies ADD COLUMN IF NOT EXISTS singleton_key BOOLEAN PRIMARY KEY DEFAULT TRUE;
+ALTER TABLE IF EXISTS foundation_capacity_policies ADD COLUMN IF NOT EXISTS max_active_threads_per_user INTEGER NOT NULL DEFAULT 20;
+ALTER TABLE IF EXISTS foundation_capacity_policies ADD COLUMN IF NOT EXISTS max_messages_per_minute INTEGER NOT NULL DEFAULT 20;
+ALTER TABLE IF EXISTS foundation_capacity_policies ADD COLUMN IF NOT EXISTS max_searches_per_minute INTEGER NOT NULL DEFAULT 40;
+ALTER TABLE IF EXISTS foundation_capacity_policies ADD COLUMN IF NOT EXISTS max_quote_transitions_per_minute INTEGER NOT NULL DEFAULT 20;
+ALTER TABLE IF EXISTS foundation_capacity_policies ADD COLUMN IF NOT EXISTS max_call_duration_minutes INTEGER NOT NULL DEFAULT 45;
+ALTER TABLE IF EXISTS foundation_capacity_policies ADD COLUMN IF NOT EXISTS quota_state TEXT NOT NULL DEFAULT 'green' CHECK (quota_state IN ('green', 'yellow', 'orange', 'red'));
+ALTER TABLE IF EXISTS foundation_capacity_policies ADD COLUMN IF NOT EXISTS kill_switch_enabled BOOLEAN NOT NULL DEFAULT FALSE;
+ALTER TABLE IF EXISTS foundation_capacity_policies ADD COLUMN IF NOT EXISTS updated_by_user_id TEXT;
+ALTER TABLE IF EXISTS foundation_capacity_policies ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 CREATE TABLE IF NOT EXISTS trusttransport_status_events (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   request_id UUID NOT NULL REFERENCES trusttransport_requests(id) ON DELETE CASCADE,
