@@ -230,13 +230,15 @@ CREATE INDEX IF NOT EXISTS idx_skills_hunt_service_credits_submission_id ON skil
 
 -- === feed tables ===
 CREATE TABLE IF NOT EXISTS feed_render_config (
-  id BOOLEAN PRIMARY KEY DEFAULT TRUE,
+  singleton_key BOOLEAN PRIMARY KEY DEFAULT TRUE,
   render_mode TEXT NOT NULL,
   kill_switch_enabled BOOLEAN NOT NULL DEFAULT FALSE,
   max_timeline_page_size INTEGER NOT NULL DEFAULT 100,
   updated_by_user_id TEXT NOT NULL,
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
+-- Add columns with guarded DDL for legacy DBs
+ALTER TABLE IF EXISTS feed_render_config ADD COLUMN IF NOT EXISTS singleton_key BOOLEAN PRIMARY KEY DEFAULT TRUE;
 CREATE TABLE IF NOT EXISTS feed_items (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   item_type TEXT NOT NULL,
