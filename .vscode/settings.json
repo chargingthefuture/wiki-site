@@ -1,4 +1,34 @@
 {
+    // Reduce file system watchers for performance
+    "files.watcherExclude": {
+        "**/node_modules/**": true,
+        "**/dist/**": true,
+        "**/.git/**": true,
+        "**/.next/**": true,
+        "**/.pnpm/**": true
+    },
+    // Lower memory for large files
+    "files.maxMemoryForLargeFilesMB": 16,
+    // Disable following symlinks in search
+    "search.followSymlinks": false,
+    // Hide activity bar for less UI memory
+    "workbench.activityBar.visible": false,
+    // Use minimal tree indent
+    "workbench.tree.indent": 8,
+    // Disable editor minimap (already set, but ensure)
+    "editor.minimap.enabled": false,
+    // Limit open editors
+    "workbench.editor.limit.value": 1,
+    // Disable smooth scrolling for less GPU/memory
+    "editor.smoothScrolling": false,
+    // Hide breadcrumbs
+    "breadcrumbs.enabled": false,
+    // Hide welcome page
+    "workbench.startupEditor": "none",
+    // Hide unused side bar
+    "workbench.sideBar.location": "left",
+    // Lower tab close delay
+    "workbench.editor.closeOnFileDelete": true,
     "workbench.colorTheme": "Dark Modern",
     
     "editor.fontSize": 12,
