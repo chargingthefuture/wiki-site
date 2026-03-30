@@ -1,9 +1,9 @@
 import { NextResponse } from 'next/server';
 import { ensureMutationCsrf, requireFeedAdminAccess } from '../../../_lib';
-import { FEED_ERROR_CODE } from '../lib/feed/constants';
-import { logFeedAudit } from '../lib/feed/audit';
-import { updateAnnouncementDraft, validateAnnouncementDraftInput } from '../lib/feed/repository';
-import type { AnnouncementDraftInput } from '../lib/feed/types';
+import { FEED_ERROR_CODE } from 'lib/feed/constants';
+import { logFeedAudit } from 'lib/feed/audit';
+import { updateAnnouncementDraft, validateAnnouncementDraftInput } from 'lib/feed/repository';
+import type { AnnouncementDraftInput } from 'lib/feed/types';
 
 type RouteParams = {
   params: Promise<{ announcementId: string }>;
