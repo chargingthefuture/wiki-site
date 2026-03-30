@@ -44,13 +44,7 @@ ALTER TABLE IF EXISTS foundation_connection_threads ADD COLUMN IF NOT EXISTS thr
 ALTER TABLE IF EXISTS foundation_connection_threads ADD COLUMN IF NOT EXISTS created_by_user_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS foundation_connection_threads ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 ALTER TABLE IF EXISTS foundation_connection_threads ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
-  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-  room_key TEXT NOT NULL UNIQUE,
-  room_name TEXT NOT NULL,
-  call_active BOOLEAN NOT NULL DEFAULT FALSE,
-  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
-);
+-- stray block removed: these lines were not inside a CREATE TABLE statement
 CREATE UNIQUE INDEX IF NOT EXISTS uq_chyme_rooms_room_key ON chyme_rooms(room_key);
 CREATE TABLE IF NOT EXISTS chyme_service_profiles (
   user_id TEXT PRIMARY KEY,
@@ -291,7 +285,7 @@ CREATE TABLE IF NOT EXISTS feed_render_config (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 -- Add columns with guarded DDL for legacy DBs
-ALTER TABLE IF EXISTS feed_render_config ADD COLUMN IF NOT EXISTS singleton_key BOOLEAN PRIMARY KEY DEFAULT TRUE;
+ALTER TABLE IF EXISTS feed_render_config ADD COLUMN IF NOT EXISTS singleton_key BOOLEAN DEFAULT TRUE;
 CREATE TABLE IF NOT EXISTS feed_items (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   item_type TEXT NOT NULL,
