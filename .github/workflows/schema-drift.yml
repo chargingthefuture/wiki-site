@@ -1,0 +1,51 @@
+name: Schema Drift Detection
+
+description: >
+  Detects schema drift between Neon DB and ctf/schema.sql. Opens an issue and (optionally) a PR to fix drift.
+
+on:
+  schedule:
+    - cron: '0 * * * *' # every hour
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'ctf/schema.sql'
+
+jobs:
+  detect-drift:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install schemachange (or sqldef)
+        run: |
+          pip install schemachange
+
+      - name: Compare Neon DB schema to ctf/schema.sql
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          # Dump Neon DB schema
+          pg_dump --schema-only --no-owner --no-privileges "$DATABASE_URL" > live_schema.sql
+          # Compare with ctf/schema.sql
+          diff -u ctf/schema.sql live_schema.sql || echo "SCHEMA_DRIFT=1" >> $GITHUB_ENV
+
+      - name: Open issue if drift detected
+        if: env.SCHEMA_DRIFT == '1'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: 'Schema drift detected between Neon DB and ctf/schema.sql',
+              body: 'Schema drift was detected. Please review the diff and open a PR to resolve.'
+            })
+
+      # Optionally: add a step to auto-generate a PR with the fix using Copilot or an AI agent
