@@ -394,7 +394,6 @@ CREATE TABLE IF NOT EXISTS unlock_audit_log (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
--- === unlock_runtime_config table for rewrite compatibility ===
 CREATE TABLE IF NOT EXISTS unlock_runtime_config (
   singleton_id INTEGER PRIMARY KEY DEFAULT 1,
   submission_window_hours INTEGER NOT NULL DEFAULT 168,
@@ -408,6 +407,34 @@ ALTER TABLE IF EXISTS unlock_runtime_config ADD COLUMN IF NOT EXISTS reminder_sc
 ALTER TABLE IF EXISTS unlock_runtime_config ADD COLUMN IF NOT EXISTS incentive_amount TEXT NOT NULL DEFAULT '100';
 ALTER TABLE IF EXISTS unlock_runtime_config ADD COLUMN IF NOT EXISTS support_only_after_expiry BOOLEAN NOT NULL DEFAULT TRUE;
 
+-- === levelup_enrollments table (guarded DDL, schema drift prevention) ===
+CREATE TABLE IF NOT EXISTS levelup_enrollments (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  cohort_id UUID NOT NULL,
+  user_id TEXT NOT NULL,
+  status TEXT NOT NULL CHECK (status IN ('active', 'completed', 'dropped', 'pending')),
+  credits_deposited INTEGER NOT NULL DEFAULT 0,
+  assigned_trainer_id TEXT,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  UNIQUE (cohort_id, user_id)
+);
+ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS id UUID PRIMARY KEY DEFAULT gen_random_uuid();
+ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS cohort_id UUID NOT NULL;
+ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS user_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS status TEXT NOT NULL CHECK (status IN ('active', 'completed', 'dropped', 'pending'));
+ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS credits_deposited INTEGER NOT NULL DEFAULT 0;
+ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS assigned_trainer_id TEXT;
+ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
+ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
+-- Add unique constraint if not exists (Postgres 15+)
+DO $$ BEGIN
+  IF NOT EXISTS (
+    SELECT 1 FROM pg_indexes WHERE tablename = 'levelup_enrollments' AND indexname = 'levelup_enrollments_cohort_id_user_id_key'
+  ) THEN
+    EXECUTE 'CREATE UNIQUE INDEX IF NOT EXISTS levelup_enrollments_cohort_id_user_id_key ON levelup_enrollments(cohort_id, user_id)';
+  END IF;
+END $$;
 -- === trusttransport tables ===
 CREATE TABLE IF NOT EXISTS trusttransport_requests (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),

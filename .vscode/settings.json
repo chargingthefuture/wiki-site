@@ -11,8 +11,6 @@
     "files.maxMemoryForLargeFilesMB": 16,
     // Disable following symlinks in search
     "search.followSymlinks": false,
-    // Hide activity bar for less UI memory
-    "workbench.activityBar.visible": false,
     // Use minimal tree indent
     "workbench.tree.indent": 8,
     // Disable editor minimap (already set, but ensure)
@@ -65,5 +63,6 @@
     "workbench.editor.limit.enabled": true,
     "workbench.editor.limit.perEditorGroup": true,
     "workbench.editor.limit.value": 1,
-    "workbench.editor.limit.excludeDirty": true
+    "workbench.editor.limit.excludeDirty": true,
+    "workbench.activityBar.location": "hidden"
 }
