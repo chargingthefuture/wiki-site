@@ -1,8 +1,8 @@
 import { NextResponse } from 'next/server';
-import { evaluatePluginAccess } from '../lib/auth/server-authz';
-import { markServiceDeletion } from '../lib/chyme/repository';
-import { logChymeAudit } from '../lib/chyme/audit';
-import { CHYME_ERROR_CODE } from '../lib/chyme/constants';
+import { evaluatePluginAccess } from '../../lib/auth/server-authz';
+import { markServiceDeletion } from '../../lib/chyme/repository';
+import { logChymeAudit } from '../../lib/chyme/audit';
+import { CHYME_ERROR_CODE } from '../../lib/chyme/constants';
 
 export async function DELETE() {
   const decision = await evaluatePluginAccess({
