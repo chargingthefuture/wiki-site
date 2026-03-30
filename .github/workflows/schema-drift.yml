@@ -27,6 +27,7 @@ jobs:
         run: |
           pip install schemachange
 
+<<<<<<< HEAD
       - name: Set ENVIRONMENT var (manual or schedule)
         id: set_env
         run: |
@@ -53,10 +54,16 @@ jobs:
           fi
 
       - name: Compare Neon DB schema to ctf/schema.sql
+=======
+      - name: Compare Neon DB schema to ctf/schema.sql
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+>>>>>>> afa5a185 (add schema drift in ci)
         run: |
           # Dump Neon DB schema
           pg_dump --schema-only --no-owner --no-privileges "$DATABASE_URL" > live_schema.sql
           # Compare with ctf/schema.sql
+<<<<<<< HEAD
           diff -u ctf/schema.sql live_schema.sql > schema-drift.diff || echo "SCHEMA_DRIFT=1" >> $GITHUB_ENV
 
       - name: Auto-generate PR with schema.sql fix using Copilot
@@ -78,3 +85,20 @@ jobs:
           add-paths: |
             ctf/schema.sql
             schema-drift.diff
+=======
+          diff -u ctf/schema.sql live_schema.sql || echo "SCHEMA_DRIFT=1" >> $GITHUB_ENV
+
+      - name: Open issue if drift detected
+        if: env.SCHEMA_DRIFT == '1'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: 'Schema drift detected between Neon DB and ctf/schema.sql',
+              body: 'Schema drift was detected. Please review the diff and open a PR to resolve.'
+            })
+
+      # Optionally: add a step to auto-generate a PR with the fix using Copilot or an AI agent
+>>>>>>> afa5a185 (add schema drift in ci)
