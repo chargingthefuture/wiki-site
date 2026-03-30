@@ -58,6 +58,21 @@ CREATE INDEX IF NOT EXISTS idx_chyme_deletion_events_user_scope ON chyme_deletio
 COMMIT;
 
 -- === peer-programming placeholder ===
+-- === levelup_enrollments ===
+CREATE TABLE IF NOT EXISTS levelup_enrollments (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id TEXT NOT NULL,
+  level_id TEXT NOT NULL,
+  enrolled_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  status TEXT NOT NULL DEFAULT 'active',
+  UNIQUE (user_id, level_id)
+);
+ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS id UUID PRIMARY KEY DEFAULT gen_random_uuid();
+ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS user_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS level_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS enrolled_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
+ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS status TEXT NOT NULL DEFAULT 'active';
+CREATE UNIQUE INDEX IF NOT EXISTS uq_levelup_enrollments_user_level ON levelup_enrollments(user_id, level_id);
 CREATE TABLE IF NOT EXISTS peer_programming_weekly_topics (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   week_start_date DATE NOT NULL,
