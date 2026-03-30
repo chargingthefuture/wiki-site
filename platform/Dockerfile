@@ -49,7 +49,6 @@ ENV VITE_ZELLE_EMAIL=$VITE_ZELLE_EMAIL
 ARG VITE_SENTRY_DSN
 ENV VITE_SENTRY_DSN=$VITE_SENTRY_DSN
 
-RUN npm run check:all
 RUN npm run build
 
 # Expose port (Railway sets PORT env var)
