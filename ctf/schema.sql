@@ -1,10 +1,36 @@
 -- Combined schema.sql for CTF (rewrite, no /platform)
 -- This file is a snapshot of the current schema for Neon, based only on ctf/migrations/*.sql
 
--- === chyme-core-phase0 ===
 BEGIN;
 CREATE EXTENSION IF NOT EXISTS pgcrypto;
-CREATE TABLE IF NOT EXISTS chyme_rooms (
+
+-- === weekly_performance_weeks ===
+CREATE TABLE IF NOT EXISTS weekly_performance_weeks (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  week_start_date DATE NOT NULL,
+  summary TEXT,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+ALTER TABLE IF EXISTS weekly_performance_weeks ADD COLUMN IF NOT EXISTS id UUID PRIMARY KEY DEFAULT gen_random_uuid();
+ALTER TABLE IF EXISTS weekly_performance_weeks ADD COLUMN IF NOT EXISTS week_start_date DATE NOT NULL;
+ALTER TABLE IF EXISTS weekly_performance_weeks ADD COLUMN IF NOT EXISTS summary TEXT;
+ALTER TABLE IF EXISTS weekly_performance_weeks ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
+ALTER TABLE IF EXISTS weekly_performance_weeks ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
+
+-- === foundation_connection_threads ===
+CREATE TABLE IF NOT EXISTS foundation_connection_threads (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  thread_key TEXT NOT NULL UNIQUE,
+  created_by_user_id TEXT NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+ALTER TABLE IF EXISTS foundation_connection_threads ADD COLUMN IF NOT EXISTS id UUID PRIMARY KEY DEFAULT gen_random_uuid();
+ALTER TABLE IF EXISTS foundation_connection_threads ADD COLUMN IF NOT EXISTS thread_key TEXT NOT NULL UNIQUE;
+ALTER TABLE IF EXISTS foundation_connection_threads ADD COLUMN IF NOT EXISTS created_by_user_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS foundation_connection_threads ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
+ALTER TABLE IF EXISTS foundation_connection_threads ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   room_key TEXT NOT NULL UNIQUE,
   room_name TEXT NOT NULL,
