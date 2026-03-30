@@ -68,7 +68,7 @@ Scope: Expo/EAS Android deployment baseline for `ctf/packages/mobile`
 ## BF-04 v2 Resolution Addendum (2026-03-02)
 
 ### What was incomplete
-1. Expo workflows allowed skip-on-missing-token behavior, which masked deployment readiness failures.
+
 2. Expo workflows did not target rewrite-scoped GitHub Environments for preview/staging/production isolation.
 3. Mobile env preflight lacked strict deploy-host validation and production owner requirement.
 

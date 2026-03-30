@@ -76,7 +76,7 @@ The orchestrator will automatically invoke the Design Agent as part of the compr
 ## Design Agent Capabilities
 
 ### **Submodule Management**
-- **Pull Latest**: Executes `git submodule update --init --recursive` automatically
+
 - **Status Check**: Verifies submodule is in sync with remote
 - **Commit Tracking**: Reports current design commit hash and branch
 
