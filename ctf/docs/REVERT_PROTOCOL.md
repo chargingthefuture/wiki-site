@@ -73,7 +73,7 @@ INCIDENT DETECTED
 ```
 
 **Questions to answer**:
-- Is the metric calculation producing wrong values?
+
 - Are users seeing incorrect data?
 - Is there a data integrity issue?
 

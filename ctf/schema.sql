@@ -1,3 +1,16 @@
+-- === foundation_notification_events ===
+CREATE TABLE IF NOT EXISTS foundation_notification_events (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id TEXT NOT NULL,
+  thread_id TEXT,
+  kind TEXT NOT NULL,
+  title TEXT,
+  body TEXT,
+  metadata JSONB,
+  is_acknowledged BOOLEAN DEFAULT FALSE,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
 -- Combined schema.sql for CTF (rewrite, no /platform)
 -- This file is a snapshot of the current schema for Neon, based only on ctf/migrations/*.sql
 

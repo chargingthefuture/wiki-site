@@ -25,7 +25,7 @@ This document outlines a comprehensive testing strategy for the platform serving
 #### Test Cases
 
 **TC-AUTH-001: Login Flow**
-- **Description**: Verify successful login via Replit OIDC
+
 - **Preconditions**: Valid Replit account
 - **Steps**:
   1. Navigate to landing page

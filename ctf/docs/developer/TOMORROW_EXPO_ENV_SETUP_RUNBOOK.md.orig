@@ -55,7 +55,7 @@ This runbook keeps legacy production isolated.
 5. (Optional but recommended) `EXPO_OWNER`
 
 Compatibility fallback variables (only if needed):
-- `MOBILE_PROJECT_ID`
+
 - `MOBILE_UPDATES_URL`
 
 ---

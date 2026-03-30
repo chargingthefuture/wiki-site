@@ -2,7 +2,7 @@
 
 ## Core Principles
 **Approach:** Accessibility-First Design System (WCAG AAA compliance)
-- Trust Through Clarity: Communicate safety and transparency
+
 - Calm Progression: Gradual complexity, no overwhelming elements
 - Respectful Efficiency: Streamline without rushing
 - No parallax/scroll animations: Predictable interface for vulnerable users

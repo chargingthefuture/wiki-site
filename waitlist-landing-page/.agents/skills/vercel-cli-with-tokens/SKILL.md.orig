@@ -224,7 +224,7 @@ vercel inspect <deployment-url>
 A linked project has either:
 - `.vercel/project.json` — from `vercel link`. Contains `projectId` and `orgId`.
 - `.vercel/repo.json` — from `vercel link --repo`. Contains `orgId`, `remoteName`, and a `projects` map.
-
+- `.vercel/project.json` â from `vercel link`. Contains `projectId` and `orgId`.
 Not needed when `VERCEL_ORG_ID` + `VERCEL_PROJECT_ID` are both set in the environment.
 
 **Do NOT** run `vercel ls`, `vercel project inspect`, or `vercel link` in an unlinked directory to detect state — they will interactively prompt or silently link as a side-effect. Only `vercel whoami` is safe to run anywhere.
