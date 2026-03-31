@@ -16,3 +16,7 @@ Runs and verifies all tests, enforces release and CI/CD rules, and blocks merges
 - Run test suites and report results
 - Validate CI/CD pipeline status
 - Approve or block releases based on test outcomes
+
+## Supabase Skill Integration
+- On any test, migration, or release involving Supabase/Postgres/SQL/database, invoke the supabase-postgres-best-practices skill from ctf/.agents/skills/supabase-postgres-best-practices.
+- Block releases if best practices are not followed.

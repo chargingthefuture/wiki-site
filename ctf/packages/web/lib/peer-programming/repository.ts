@@ -1,5 +1,5 @@
 import { randomUUID } from 'crypto';
-import { queryDb } from '../lib/db/postgres';
+import { queryDb } from 'lib/db/postgres';
 import { PEER_PROGRAMMING_COHORT_TARGET_SIZE, PEER_PROGRAMMING_MAX_FEEDBACK_LENGTH, PEER_PROGRAMMING_MAX_MESSAGE_LENGTH } from './constants';
 import type { PeerProgrammingCohort, PeerProgrammingMessage, PeerProgrammingTier, PeerProgrammingTopic } from './types';
 

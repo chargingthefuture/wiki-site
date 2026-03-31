@@ -6,7 +6,7 @@ export const onRouterTransitionStart = Sentry.captureRouterTransitionStart;
 
 
 // Sentry client config (migrated from sentry.client.config.ts)
-import { resolveWebSentryDsn } from './src/lib/observability/sentry-config';
+import { resolveWebSentryDsn } from 'lib/observability/sentry-config';
 
 const dsn = resolveWebSentryDsn();
 

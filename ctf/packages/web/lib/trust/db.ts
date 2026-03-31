@@ -1,5 +1,5 @@
 import type { PoolClient } from 'pg';
-import { queryDb } from '../lib/db/postgres';
+import { queryDb } from 'lib/db/postgres';
 import type { TrustUserExtension } from './types';
 
 export async function getTrustUserExtension(userId: string): Promise<TrustUserExtension> {

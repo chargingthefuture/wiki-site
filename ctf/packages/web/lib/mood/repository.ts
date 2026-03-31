@@ -1,5 +1,5 @@
 import { randomUUID } from 'crypto';
-import { queryDb } from '../lib/db/postgres';
+import { queryDb } from 'lib/db/postgres';
 import { MOOD_COOLDOWN_DAYS } from './constants';
 
 export async function getMoodEligibility(input: { clientId: string }): Promise<{ eligible: boolean; cooldownUntilIso: string | null; lastSubmissionAtIso: string | null }> {

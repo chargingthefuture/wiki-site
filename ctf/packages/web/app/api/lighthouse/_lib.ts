@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { evaluatePluginAccess, type AllowDecision } from 'lib/auth/server-authz';
 import { getAppUrl } from 'lib/auth/clerk-env';
 import { ensureLighthouseAdmin } from 'lib/lighthouse/policy';
-import { LIGHTHOUSE_ERROR_CODE } from '../lib/lighthouse/constants';
+import { LIGHTHOUSE_ERROR_CODE } from 'lib/lighthouse/constants';
 
 export type LighthouseApiGate =
   | { allowed: true; auth: AllowDecision }

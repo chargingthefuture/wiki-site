@@ -7,7 +7,7 @@ import {
   updateLighthouseAdminAnnouncement,
   validateAnnouncementInput,
 } from 'lib/lighthouse/repository';
-import type { LighthouseAnnouncementInput } from '../lib/lighthouse/types';
+import type { LighthouseAnnouncementInput } from 'lib/lighthouse/types';
 
 type RouteParams = {
   params: Promise<{ announcementId: string }>;

@@ -1,4 +1,4 @@
-import { queryDb } from '../lib/db/postgres';
+import { queryDb } from 'lib/db/postgres';
 
 export type PluginPhase = 'phase-0' | 'phase-1' | 'phase-2' | 'phase-3';
 export type PluginAvailabilityState = 'implemented_shell' | 'planned';

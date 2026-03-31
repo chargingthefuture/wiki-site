@@ -1,6 +1,6 @@
 import { randomUUID } from 'crypto';
 import type { PoolClient } from 'pg';
-import { queryDb, withDbTransaction } from '../lib/db/postgres';
+import { queryDb, withDbTransaction } from 'lib/db/postgres';
 import {
   postBurnToFormance,
   postDeletionReclaimToFormance,
@@ -10,7 +10,7 @@ import {
   postEscrowReleaseToFormance,
   postMintToFormance,
   postTreasuryFeeToFormance,
-} from '../lib/service-credits/formance-ledger';
+} from 'lib/service-credits/formance-ledger';
 
 type WalletRow = {
   user_id: string;

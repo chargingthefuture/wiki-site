@@ -10,7 +10,7 @@ import {
   refundEscrow,
   releaseEscrow,
 } from 'lib/service-credits/repository';
-import { LEVELUP_DEFAULT_TRAINER_SPLIT_PERCENT, LEVELUP_PLUGIN_SLUG } from '../lib/levelup/constants';
+import { LEVELUP_DEFAULT_TRAINER_SPLIT_PERCENT, LEVELUP_PLUGIN_SLUG } from 'lib/levelup/constants';
 
 function toNumber(value: string | number): number {
   return typeof value === 'number' ? value : Number(value);

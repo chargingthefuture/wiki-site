@@ -1,4 +1,4 @@
-import { queryDb } from '../lib/db/postgres';
+import { queryDb } from 'lib/db/postgres';
 
 // Log a trust plugin audit event
 export async function logTrustAuditEvent({

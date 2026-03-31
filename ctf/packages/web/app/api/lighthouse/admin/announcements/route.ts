@@ -7,7 +7,7 @@ import {
   listLighthouseAdminAnnouncements,
   validateAnnouncementInput,
 } from 'lib/lighthouse/repository';
-import type { LighthouseAnnouncementInput } from '../lib/lighthouse/types';
+import type { LighthouseAnnouncementInput } from 'lib/lighthouse/types';
 
 type AnnouncementBody = Partial<LighthouseAnnouncementInput>;
 

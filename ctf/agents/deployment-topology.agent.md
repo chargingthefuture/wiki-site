@@ -16,3 +16,7 @@ Manages deployment topology, environment-specific builds, and domain/routing con
 - Validate deployment configuration
 - Approve or block deployment jobs
 - Check domain and routing setup
+
+## Supabase Skill Integration
+- On any deployment or environment config involving Supabase/Postgres/SQL/database, invoke the supabase-postgres-best-practices skill from ctf/.agents/skills/supabase-postgres-best-practices.
+- Ensure deployment configs do not violate database best practices.

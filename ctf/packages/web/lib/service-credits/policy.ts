@@ -1,5 +1,5 @@
-import type { AllowDecision } from '../lib/auth/server-authz';
-import { pluginAuthDeny, type PluginDenyResponse } from '../lib/auth/deny-taxonomy';
+import type { AllowDecision } from 'lib/auth/server-authz';
+import { pluginAuthDeny, type PluginDenyResponse } from 'lib/auth/deny-taxonomy';
 
 export function ensureServiceCreditsAdmin(auth: AllowDecision): PluginDenyResponse | null {
   if (auth.isAdmin) {

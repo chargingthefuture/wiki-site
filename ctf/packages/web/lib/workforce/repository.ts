@@ -1,5 +1,5 @@
 import { createHash } from 'crypto';
-import { queryDb, withDbTransaction } from '../lib/db/postgres';
+import { queryDb, withDbTransaction } from 'lib/db/postgres';
 import {
   WORKFORCE_DEFAULT_PAGE,
   WORKFORCE_DEFAULT_PAGE_SIZE,
