@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { ensureMutationCsrf, requireWeeklyPerformanceAdminAccess } from '../app/api/weekly-performance/_lib';
-import { insertWeeklyPerformanceAudit, selectWeek } from '../lib/weekly-performance/repository';
+import { ensureMutationCsrf, requireWeeklyPerformanceAdminAccess } from 'lib/weekly-performance/_lib';
+import { insertWeeklyPerformanceAudit, selectWeek } from 'lib/weekly-performance/repository';
 
 type SelectionBody = {
   weekStartDate?: string;

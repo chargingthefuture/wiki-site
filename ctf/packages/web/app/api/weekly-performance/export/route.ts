@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { requireWeeklyPerformanceAdminAccess } from '../app/api/weekly-performance/_lib';
-import { getWeekMetrics } from '../lib/weekly-performance/repository';
+import { requireWeeklyPerformanceAdminAccess } from 'lib/weekly-performance/_lib';
+import { getWeekMetrics } from 'lib/weekly-performance/repository';
 
 function isExportEnabled(): boolean {
   const candidate = process.env.WEEKLY_PERFORMANCE_EXPORT_ENABLED?.trim().toLowerCase();

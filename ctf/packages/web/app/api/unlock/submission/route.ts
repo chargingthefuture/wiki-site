@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { requireUnlockUserAccess, unlockErrorResponse } from '../app/api/unlock/_lib';
-import { createOrUpdateUnlockSubmission, insertUnlockAudit } from '../lib/unlock/repository';
+import { requireUnlockUserAccess, unlockErrorResponse } from 'lib/unlock/_lib';
+import { createOrUpdateUnlockSubmission, insertUnlockAudit } from 'lib/unlock/repository';
 
 type SubmissionBody = {
   quoraProfileUrl?: string;

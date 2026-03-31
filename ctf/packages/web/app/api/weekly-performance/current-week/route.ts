@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
-import { requireWeeklyPerformanceReadAccess } from '../app/api/weekly-performance/_lib';
-import { getCurrentWeek } from '../lib/weekly-performance/repository';
-import { countActiveUsersLastDays } from '../lib/engagement/login-activity';
+import { requireWeeklyPerformanceReadAccess } from 'lib/weekly-performance/_lib';
+import { getCurrentWeek } from 'lib/weekly-performance/repository';
+import { countActiveUsersLastDays } from 'lib/engagement/login-activity';
 
 export async function GET() {
   const gate = await requireWeeklyPerformanceReadAccess();
