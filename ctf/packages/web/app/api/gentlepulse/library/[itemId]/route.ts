@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { requireGentlePulseReadAccess } from '../app/api/gentlepulse/_lib';
-import { getLibraryItemById } from '../lib/gentlepulse/repository';
+import { requireGentlePulseReadAccess } from 'lib/gentlepulse/_lib';
+import { getLibraryItemById } from 'lib/gentlepulse/repository';
 
 type ItemParams = {
   params: Promise<{ itemId: string }>;

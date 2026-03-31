@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
-import { requireLighthouseReadAccess } from '../app/api/lighthouse/_lib';
-import { LIGHTHOUSE_ERROR_CODE } from '../lib/lighthouse/constants';
-import { listMyProperties } from '../lib/lighthouse/repository';
+import { requireLighthouseReadAccess } from 'lib/lighthouse/_lib';
+import { LIGHTHOUSE_ERROR_CODE } from 'lib/lighthouse/constants';
+import { listMyProperties } from 'lib/lighthouse/repository';
 
 export async function GET() {
   const gate = await requireLighthouseReadAccess();

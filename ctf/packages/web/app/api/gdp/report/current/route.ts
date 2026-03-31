@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { requireGdpReadAccess } from '../app/api/gdp/_lib';
-import { getLatestPublication } from '../lib/gdp/repository';
+import { requireGdpReadAccess } from 'lib/gdp/_lib';
+import { getLatestPublication } from 'lib/gdp/repository';
 
 export async function GET() {
   const gate = await requireGdpReadAccess();

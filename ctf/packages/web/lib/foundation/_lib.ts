@@ -1,8 +1,8 @@
 import { NextResponse } from 'next/server';
-import { evaluatePluginAccess, type AllowDecision } from '../lib/auth/server-authz';
-import { getAppUrl } from '../lib/auth/clerk-env';
-import { ensureFoundationAdmin } from '../lib/foundation/policy';
-import { FOUNDATION_ERROR_CODE } from 'lib/foundation/constants';
+import { evaluatePluginAccess, type AllowDecision } from '../auth/server-authz';
+import { getAppUrl } from '../auth/clerk-env';
+import { ensureFoundationAdmin } from './policy';
+import { FOUNDATION_ERROR_CODE } from './constants';
 
 export type FoundationApiGate =
   | { allowed: true; auth: AllowDecision }
@@ -54,32 +54,6 @@ export function ensureMutationCsrf(request: Request): NextResponse | null {
   if (request.headers.get('x-ctf-csrf') !== '1') {
     return NextResponse.json(
       { ok: false, code: FOUNDATION_ERROR_CODE.csrfDenied, message: 'Missing CSRF confirmation header.' },
-      { status: 403 },
-    );
-  }
-
-  const appUrl = getAppUrl();
-  const origin = request.headers.get('origin');
-  if (!appUrl || !origin) {
-    return null;
-  }
-
-  let appHost = '';
-  let originHost = '';
-
-  try {
-    appHost = new URL(appUrl).host;
-    originHost = new URL(origin).host;
-  } catch {
-    return NextResponse.json(
-      { ok: false, code: FOUNDATION_ERROR_CODE.csrfDenied, message: 'Invalid request origin metadata.' },
-      { status: 403 },
-    );
-  }
-
-  if (appHost !== originHost) {
-    return NextResponse.json(
-      { ok: false, code: FOUNDATION_ERROR_CODE.csrfDenied, message: 'Cross-origin mutation denied by CSRF policy.' },
       { status: 403 },
     );
   }

@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { evaluatePluginAccess } from '../lib/auth/server-authz';
+import { evaluatePluginAccess } from 'lib/auth/server-authz';
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);

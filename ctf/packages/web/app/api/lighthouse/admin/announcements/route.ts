@@ -1,12 +1,12 @@
 import { NextResponse } from 'next/server';
-import { ensureMutationCsrf, requireLighthouseAdminAccess } from '../app/api/lighthouse/_lib';
-import { LIGHTHOUSE_ERROR_CODE } from '../lib/lighthouse/constants';
+import { ensureMutationCsrf, requireLighthouseAdminAccess } from 'lib/lighthouse/_lib';
+import { LIGHTHOUSE_ERROR_CODE } from 'lib/lighthouse/constants';
 import {
   createLighthouseAdminAnnouncement,
   insertLighthouseAudit,
   listLighthouseAdminAnnouncements,
   validateAnnouncementInput,
-} from '../lib/lighthouse/repository';
+} from 'lib/lighthouse/repository';
 import type { LighthouseAnnouncementInput } from '../lib/lighthouse/types';
 
 type AnnouncementBody = Partial<LighthouseAnnouncementInput>;

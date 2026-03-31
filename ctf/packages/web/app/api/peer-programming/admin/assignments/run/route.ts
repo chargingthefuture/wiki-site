@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
-import { ensureMutationCsrf, peerProgrammingErrorResponse, requirePeerProgrammingAdminAccess } from '../app/api/peer-programming/_lib';
-import { insertPeerProgrammingAudit, runWeeklyAssignment } from '../lib/peer-programming/repository';
-import { getActiveUserIdsLastDays } from '../lib/engagement/login-activity';
+import { ensureMutationCsrf, peerProgrammingErrorResponse, requirePeerProgrammingAdminAccess } from 'lib/peer-programming/_lib';
+import { insertPeerProgrammingAudit, runWeeklyAssignment } from 'lib/peer-programming/repository';
+import { getActiveUserIdsLastDays } from 'lib/engagement/login-activity';
 
 type AssignmentBody = {
   activeUserIds?: string[];

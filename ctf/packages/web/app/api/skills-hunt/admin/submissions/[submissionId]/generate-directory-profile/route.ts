@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { ensureMutationCsrf, requireSkillsHuntModeratorAccess } from '../../../../_lib';
-import { SKILLS_HUNT_ERROR_CODE } from '../lib/skills-hunt/constants';
-import { generateDirectoryProfileFromAcceptedSubmission, insertSkillsHuntAudit } from '../lib/skills-hunt/repository';
+import { SKILLS_HUNT_ERROR_CODE } from 'lib/skills-hunt/constants';
+import { generateDirectoryProfileFromAcceptedSubmission, insertSkillsHuntAudit } from 'lib/skills-hunt/repository';
 
 type GenerateBody = {
   invitedByUsername?: string;

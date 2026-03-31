@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { createMoodSubmission } from '../lib/mood/repository';
-import { ensureMutationCsrf, moodErrorResponse, requireMoodAccess } from '../app/api/mood/_lib';
+import { createMoodSubmission } from 'lib/mood/repository';
+import { ensureMutationCsrf, moodErrorResponse, requireMoodAccess } from 'lib/mood/_lib';
 
 type SubmissionBody = {
   clientId?: string;

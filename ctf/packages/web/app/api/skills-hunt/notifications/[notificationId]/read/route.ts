@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { ensureMutationCsrf, requireSkillsHuntReadAccess } from '../../../_lib';
-import { SKILLS_HUNT_ERROR_CODE } from '../lib/skills-hunt/constants';
-import { markNotificationRead } from '../lib/skills-hunt/repository';
+import { SKILLS_HUNT_ERROR_CODE } from 'lib/skills-hunt/constants';
+import { markNotificationRead } from 'lib/skills-hunt/repository';
 
 export async function POST(request: Request, { params }: { params: Promise<{ notificationId: string }> }) {
   const gate = await requireSkillsHuntReadAccess();

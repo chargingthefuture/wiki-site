@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { ensureMutationCsrf, requireSkillsHuntAdminAccess } from '../../../_lib';
-import { SKILLS_HUNT_ERROR_CODE } from '../lib/skills-hunt/constants';
-import { insertSkillsHuntAudit, updateRound, validateRoundInput } from '../lib/skills-hunt/repository';
+import { SKILLS_HUNT_ERROR_CODE } from 'lib/skills-hunt/constants';
+import { insertSkillsHuntAudit, updateRound, validateRoundInput } from 'lib/skills-hunt/repository';
 import type { SkillsHuntRoundInput } from '../lib/skills-hunt/types';
 
 type RoundBody = Partial<SkillsHuntRoundInput>;

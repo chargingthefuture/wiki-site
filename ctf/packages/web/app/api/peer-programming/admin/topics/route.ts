@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { ensureMutationCsrf, peerProgrammingErrorResponse, requirePeerProgrammingAdminAccess } from '../app/api/peer-programming/_lib';
-import { getPublishedWeeklyTopic, insertPeerProgrammingAudit, upsertWeeklyTopic } from '../lib/peer-programming/repository';
+import { ensureMutationCsrf, peerProgrammingErrorResponse, requirePeerProgrammingAdminAccess } from 'lib/peer-programming/_lib';
+import { getPublishedWeeklyTopic, insertPeerProgrammingAudit, upsertWeeklyTopic } from 'lib/peer-programming/repository';
 
 type TopicBody = {
   weekStartDate?: string;

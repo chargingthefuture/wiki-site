@@ -1,8 +1,8 @@
 import { NextResponse } from 'next/server';
 import { ensureMutationCsrf, requireSkillsHuntModeratorAccess } from '../../../../_lib';
 import { logSkillsHuntAudit } from '../lib/skills-hunt/audit';
-import { SKILLS_HUNT_ERROR_CODE } from '../lib/skills-hunt/constants';
-import { insertSkillsHuntAudit, reviewSubmission, validateReviewInput } from '../lib/skills-hunt/repository';
+import { SKILLS_HUNT_ERROR_CODE } from 'lib/skills-hunt/constants';
+import { insertSkillsHuntAudit, reviewSubmission, validateReviewInput } from 'lib/skills-hunt/repository';
 import type { SkillsHuntSubmissionReviewInput } from '../lib/skills-hunt/types';
 
 type ReviewBody = Partial<SkillsHuntSubmissionReviewInput>;

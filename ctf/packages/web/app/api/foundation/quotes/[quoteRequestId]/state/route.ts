@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
-import { ensureMutationCsrf, requireFoundationReadAccess } from '../app/api/foundation/_lib';
-import { FOUNDATION_ERROR_CODE, FOUNDATION_QUOTE_STATES } from '../lib/foundation/constants';
-import { insertFoundationAudit, updateQuoteRequestState } from '../lib/foundation/repository';
+import { ensureMutationCsrf, requireFoundationReadAccess } from 'lib/foundation/_lib';
+import { FOUNDATION_ERROR_CODE, FOUNDATION_QUOTE_STATES } from 'lib/foundation/constants';
+import { insertFoundationAudit, updateQuoteRequestState } from 'lib/foundation/repository';
 import type { FoundationQuoteState } from '../lib/foundation/types';
 
 export async function POST(request: Request, context: { params: Promise<{ quoteRequestId: string }> }) {

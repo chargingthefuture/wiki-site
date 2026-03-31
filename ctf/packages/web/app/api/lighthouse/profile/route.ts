@@ -1,13 +1,13 @@
 import { NextResponse } from 'next/server';
-import { ensureMutationCsrf, requireLighthouseReadAccess } from '../app/api/lighthouse/_lib';
-import { LIGHTHOUSE_ERROR_CODE } from '../lib/lighthouse/constants';
+import { ensureMutationCsrf, requireLighthouseReadAccess } from 'lib/lighthouse/_lib';
+import { LIGHTHOUSE_ERROR_CODE } from 'lib/lighthouse/constants';
 import {
   deleteProfile,
   getProfile,
   insertLighthouseAudit,
   upsertProfile,
   validateProfileInput,
-} from '../lib/lighthouse/repository';
+} from 'lib/lighthouse/repository';
 import type { LighthouseProfileInput } from '../lib/lighthouse/types';
 
 type ProfileBody = Partial<LighthouseProfileInput>;

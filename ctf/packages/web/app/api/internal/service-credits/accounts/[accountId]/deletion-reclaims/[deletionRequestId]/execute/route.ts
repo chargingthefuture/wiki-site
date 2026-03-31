@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { executeDeletionReclaim, insertServiceCreditsAudit } from '../lib/service-credits/repository';
-import { serviceCreditsErrorResponse } from '../app/api/service-credits/_lib';
+import { executeDeletionReclaim, insertServiceCreditsAudit } from 'lib/service-credits/repository';
+import { serviceCreditsErrorResponse } from 'lib/service-credits/_lib';
 
 type ReclaimBody = {
   treasuryUserId?: string;

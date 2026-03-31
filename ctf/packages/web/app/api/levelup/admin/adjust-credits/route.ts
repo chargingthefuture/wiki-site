@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
-import { adminAdjustCredits, insertLevelupAudit } from '../lib/levelup/repository';
-import { ensureMutationCsrf, levelupErrorResponse, requireLevelupAdminAccess } from '../app/api/levelup/_lib';
+import { adminAdjustCredits, insertLevelupAudit } from 'lib/levelup/repository';
+import { ensureMutationCsrf, levelupErrorResponse, requireLevelupAdminAccess } from 'lib/levelup/_lib';
 
 const adjustSchema = z.object({
   targetUserId: z.string().min(1),

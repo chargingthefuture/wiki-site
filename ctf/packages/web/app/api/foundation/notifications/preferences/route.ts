@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
-import { ensureMutationCsrf, requireFoundationReadAccess } from '../app/api/foundation/_lib';
-import { FOUNDATION_ERROR_CODE } from '../lib/foundation/constants';
-import { insertFoundationAudit, upsertNotificationPreferences } from '../lib/foundation/repository';
+import { ensureMutationCsrf, requireFoundationReadAccess } from 'lib/foundation/_lib';
+import { FOUNDATION_ERROR_CODE } from 'lib/foundation/constants';
+import { insertFoundationAudit, upsertNotificationPreferences } from 'lib/foundation/repository';
 
 export async function PUT(request: Request) {
   const csrfDeny = ensureMutationCsrf(request);

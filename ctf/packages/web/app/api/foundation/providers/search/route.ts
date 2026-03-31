@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { requireFoundationReadAccess } from '../app/api/foundation/_lib';
-import { FOUNDATION_ERROR_CODE } from '../lib/foundation/constants';
-import { insertFoundationAudit, searchProviders } from '../lib/foundation/repository';
+import { requireFoundationReadAccess } from 'lib/foundation/_lib';
+import { FOUNDATION_ERROR_CODE } from 'lib/foundation/constants';
+import { insertFoundationAudit, searchProviders } from 'lib/foundation/repository';
 
 export async function GET(request: NextRequest) {
   const gate = await requireFoundationReadAccess();

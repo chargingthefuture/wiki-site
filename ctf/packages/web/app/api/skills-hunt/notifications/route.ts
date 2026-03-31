@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { requireSkillsHuntReadAccess } from '../_lib';
-import { SKILLS_HUNT_ERROR_CODE } from '../lib/skills-hunt/constants';
-import { listNotifications } from '../lib/skills-hunt/repository';
+import { SKILLS_HUNT_ERROR_CODE } from 'lib/skills-hunt/constants';
+import { listNotifications } from 'lib/skills-hunt/repository';
 
 export async function GET(request: Request) {
   const gate = await requireSkillsHuntReadAccess();

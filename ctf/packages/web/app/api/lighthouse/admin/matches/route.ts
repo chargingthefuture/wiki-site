@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
-import { requireLighthouseAdminAccess } from '../app/api/lighthouse/_lib';
-import { LIGHTHOUSE_ERROR_CODE } from '../lib/lighthouse/constants';
-import { listLighthouseMatchesAdmin } from '../lib/lighthouse/repository';
+import { requireLighthouseAdminAccess } from 'lib/lighthouse/_lib';
+import { LIGHTHOUSE_ERROR_CODE } from 'lib/lighthouse/constants';
+import { listLighthouseMatchesAdmin } from 'lib/lighthouse/repository';
 
 export async function GET() {
   const gate = await requireLighthouseAdminAccess();

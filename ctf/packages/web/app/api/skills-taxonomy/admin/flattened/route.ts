@@ -1,8 +1,8 @@
 import { NextResponse } from 'next/server';
 import { requireTaxonomyAdminAccess } from '../../_lib';
-import { SKILLS_TAXONOMY_ERROR_CODE } from '../lib/skills-taxonomy/constants';
+import { SKILLS_TAXONOMY_ERROR_CODE } from 'lib/skills-taxonomy/constants';
 import { getFlattened } from '../lib/skills-taxonomy/repository';
-import { logSkillsTaxonomyAudit } from '../lib/skills-taxonomy/audit';
+import { logSkillsTaxonomyAudit } from 'lib/skills-taxonomy/audit';
 
 function parseBooleanParam(url: string, name: string): boolean {
   return new URL(url).searchParams.get(name) === 'true';

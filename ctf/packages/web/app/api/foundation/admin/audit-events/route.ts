@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { requireFoundationAdminAccess } from '../app/api/foundation/_lib';
-import { FOUNDATION_ERROR_CODE } from '../lib/foundation/constants';
-import { listFoundationAuditEvents } from '../lib/foundation/repository';
+import { requireFoundationAdminAccess } from 'lib/foundation/_lib';
+import { FOUNDATION_ERROR_CODE } from 'lib/foundation/constants';
+import { listFoundationAuditEvents } from 'lib/foundation/repository';
 
 export async function GET(request: NextRequest) {
   const gate = await requireFoundationAdminAccess();

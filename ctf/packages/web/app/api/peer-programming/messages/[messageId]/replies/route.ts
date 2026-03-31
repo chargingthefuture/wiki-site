@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { createMessage, insertPeerProgrammingAudit } from '../lib/peer-programming/repository';
-import { ensureMutationCsrf, peerProgrammingErrorResponse, requirePeerProgrammingReadAccess } from '../app/api/peer-programming/_lib';
+import { createMessage, insertPeerProgrammingAudit } from 'lib/peer-programming/repository';
+import { ensureMutationCsrf, peerProgrammingErrorResponse, requirePeerProgrammingReadAccess } from 'lib/peer-programming/_lib';
 
 type ReplyBody = {
   cohortId?: string;

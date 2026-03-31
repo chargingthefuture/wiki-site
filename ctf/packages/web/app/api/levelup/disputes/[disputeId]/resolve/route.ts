@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
-import { insertLevelupAudit, resolveDispute } from '../lib/levelup/repository';
-import { ensureMutationCsrf, levelupErrorResponse, requireLevelupReadAccess } from '../app/api/levelup/_lib';
+import { insertLevelupAudit, resolveDispute } from 'lib/levelup/repository';
+import { ensureMutationCsrf, levelupErrorResponse, requireLevelupReadAccess } from 'lib/levelup/_lib';
 
 type RouteProps = {
   params: Promise<{ disputeId: string }>;

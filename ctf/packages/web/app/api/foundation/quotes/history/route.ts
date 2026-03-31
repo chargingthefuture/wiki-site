@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { requireFoundationReadAccess } from '../app/api/foundation/_lib';
-import { FOUNDATION_ERROR_CODE } from '../lib/foundation/constants';
-import { insertFoundationAudit, listQuoteHistory } from '../lib/foundation/repository';
+import { requireFoundationReadAccess } from 'lib/foundation/_lib';
+import { FOUNDATION_ERROR_CODE } from 'lib/foundation/constants';
+import { insertFoundationAudit, listQuoteHistory } from 'lib/foundation/repository';
 import type { FoundationQuoteState } from '../lib/foundation/types';
 
 export async function GET(request: NextRequest) {

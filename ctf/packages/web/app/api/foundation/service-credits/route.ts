@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { requireFoundationReadAccess, ensureMutationCsrf } from '../_lib';
-import { createTransfer } from '../lib/service-credits/repository';
-import { FOUNDATION_ERROR_CODE } from '../lib/foundation/constants';
+import { createTransfer } from 'lib/service-credits/repository';
+import { FOUNDATION_ERROR_CODE } from 'lib/foundation/constants';
 
 type FoundationServiceCreditsSendInput = {
   toUserId: string;

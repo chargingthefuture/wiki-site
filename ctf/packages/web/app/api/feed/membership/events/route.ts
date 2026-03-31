@@ -1,8 +1,8 @@
 import { NextResponse } from 'next/server';
 import { ensureMutationCsrf, requireFeedAdminAccess } from '../../_lib';
-import { FEED_ERROR_CODE } from '../lib/feed/constants';
-import { emitMembershipEvent } from '../lib/feed/repository';
-import type { MembershipEventType } from '../lib/feed/types';
+import { FEED_ERROR_CODE } from 'lib/feed/constants';
+import { emitMembershipEvent } from 'lib/feed/repository';
+import type { MembershipEventType } from 'lib/feed/types';
 
 type MembershipBody = {
   userId?: string;

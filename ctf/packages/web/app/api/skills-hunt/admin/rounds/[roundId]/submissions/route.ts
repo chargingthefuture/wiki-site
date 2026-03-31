@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { requireSkillsHuntModeratorAccess } from '../../../../_lib';
-import { SKILLS_HUNT_ERROR_CODE } from '../lib/skills-hunt/constants';
-import { listSubmissions, parsePaginationParams } from '../lib/skills-hunt/repository';
+import { SKILLS_HUNT_ERROR_CODE } from 'lib/skills-hunt/constants';
+import { listSubmissions, parsePaginationParams } from 'lib/skills-hunt/repository';
 
 export async function GET(request: Request, { params }: { params: Promise<{ roundId: string }> }) {
   const gate = await requireSkillsHuntModeratorAccess();

@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { ensureMutationCsrf, requireGdpAdminAccess } from '../app/api/gdp/_lib';
-import { insertGdpAudit, upsertPublication } from '../lib/gdp/repository';
+import { ensureMutationCsrf, requireGdpAdminAccess } from 'lib/gdp/_lib';
+import { insertGdpAudit, upsertPublication } from 'lib/gdp/repository';
 
 type PublicationBody = {
   weekStartDate?: string;

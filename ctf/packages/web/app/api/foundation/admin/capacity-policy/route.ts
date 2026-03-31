@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
-import { ensureMutationCsrf, requireFoundationAdminAccess } from '../app/api/foundation/_lib';
-import { FOUNDATION_ERROR_CODE } from '../lib/foundation/constants';
-import { getCapacityPolicy, insertFoundationAudit, updateCapacityPolicy } from '../lib/foundation/repository';
+import { ensureMutationCsrf, requireFoundationAdminAccess } from 'lib/foundation/_lib';
+import { FOUNDATION_ERROR_CODE } from 'lib/foundation/constants';
+import { getCapacityPolicy, insertFoundationAudit, updateCapacityPolicy } from 'lib/foundation/repository';
 
 export async function GET() {
   const gate = await requireFoundationAdminAccess();

@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
-import { createCohort, insertLevelupAudit, listCohorts } from '../lib/levelup/repository';
-import { ensureMutationCsrf, levelupErrorResponse, requireLevelupAdminAccess, requireLevelupReadAccess } from '../app/api/levelup/_lib';
+import { createCohort, insertLevelupAudit, listCohorts } from 'lib/levelup/repository';
+import { ensureMutationCsrf, levelupErrorResponse, requireLevelupAdminAccess, requireLevelupReadAccess } from 'lib/levelup/_lib';
 
 const querySchema = z.object({
   track: z.string().optional(),

@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { insertServiceCreditsAudit, refundEscrow } from '../lib/service-credits/repository';
-import { ensureMutationCsrf, requireServiceCreditsReadAccess, serviceCreditsErrorResponse } from '../app/api/service-credits/_lib';
+import { insertServiceCreditsAudit, refundEscrow } from 'lib/service-credits/repository';
+import { ensureMutationCsrf, requireServiceCreditsReadAccess, serviceCreditsErrorResponse } from 'lib/service-credits/_lib';
 
 type EscrowParams = {
   params: Promise<{ escrowId: string }>;

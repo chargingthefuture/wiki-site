@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
-import { enrollInCohort, insertLevelupAudit } from '../lib/levelup/repository';
-import { ensureMutationCsrf, levelupErrorResponse, requireLevelupReadAccess } from '../app/api/levelup/_lib';
+import { enrollInCohort, insertLevelupAudit } from 'lib/levelup/repository';
+import { ensureMutationCsrf, levelupErrorResponse, requireLevelupReadAccess } from 'lib/levelup/_lib';
 
 const enrollSchema = z.object({
   cohortId: z.string().uuid(),

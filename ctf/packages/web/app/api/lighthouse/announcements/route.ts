@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { requireLighthouseReadAccess } from '../app/api/lighthouse/_lib';
-import { LIGHTHOUSE_ERROR_CODE } from '../lib/lighthouse/constants';
-import { listAnnouncementsForLighthouseUser } from '../lib/lighthouse/repository';
+import { requireLighthouseReadAccess } from 'lib/lighthouse/_lib';
+import { LIGHTHOUSE_ERROR_CODE } from 'lib/lighthouse/constants';
+import { listAnnouncementsForLighthouseUser } from 'lib/lighthouse/repository';
 
 function parsePositiveInt(value: string | null, fallback: number): number {
   const parsed = Number.parseInt(value ?? '', 10);

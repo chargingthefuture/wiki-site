@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
-import { requireLighthouseReadAccess, ensureMutationCsrf } from '../_lib';
-import { createTransfer } from '../lib/service-credits/repository';
-import { LIGHTHOUSE_ERROR_CODE } from '../lib/lighthouse/constants';
+import { requireLighthouseReadAccess, ensureMutationCsrf } from 'lib/lighthouse/_lib';
+import { createTransfer } from 'lib/service-credits/repository';
+import { LIGHTHOUSE_ERROR_CODE } from 'lib/lighthouse/constants';
 
 type LighthouseServiceCreditsSendInput = {
   toUserId: string;

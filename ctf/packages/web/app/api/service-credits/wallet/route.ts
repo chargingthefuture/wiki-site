@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { requireServiceCreditsReadAccess } from '../app/api/service-credits/_lib';
-import { getOrCreateWallet } from '../lib/service-credits/repository';
+import { requireServiceCreditsReadAccess } from 'lib/service-credits/_lib';
+import { getOrCreateWallet } from 'lib/service-credits/repository';
 
 export async function GET() {
   const gate = await requireServiceCreditsReadAccess();

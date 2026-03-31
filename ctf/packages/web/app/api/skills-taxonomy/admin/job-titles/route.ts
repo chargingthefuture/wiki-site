@@ -1,8 +1,8 @@
 import { NextResponse } from 'next/server';
 import { ensureMutationCsrf, requireTaxonomyAdminAccess } from '../../_lib';
-import { SKILLS_TAXONOMY_ERROR_CODE } from '../lib/skills-taxonomy/constants';
+import { SKILLS_TAXONOMY_ERROR_CODE } from 'lib/skills-taxonomy/constants';
 import { createJobTitle, listJobTitles, validateJobTitleCreateInput } from '../lib/skills-taxonomy/repository';
-import { logSkillsTaxonomyAudit } from '../lib/skills-taxonomy/audit';
+import { logSkillsTaxonomyAudit } from 'lib/skills-taxonomy/audit';
 
 type JobTitleCreateBody = {
   sectorId?: unknown;

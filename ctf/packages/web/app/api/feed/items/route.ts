@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { requireFeedReadAccess } from '../_lib';
-import { FEED_ERROR_CODE } from '../lib/feed/constants';
-import { listFeedTimeline, parsePaginationParams } from '../lib/feed/repository';
+import { FEED_ERROR_CODE } from 'lib/feed/constants';
+import { listFeedTimeline, parsePaginationParams } from 'lib/feed/repository';
 
 export async function GET(request: Request) {
   const gate = await requireFeedReadAccess();

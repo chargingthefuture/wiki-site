@@ -1,12 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { ensureMutationCsrf, requireLighthouseReadAccess } from '../app/api/lighthouse/_lib';
-import { LIGHTHOUSE_ERROR_CODE } from '../lib/lighthouse/constants';
+import { ensureMutationCsrf, requireLighthouseReadAccess } from 'lib/lighthouse/_lib';
+import { LIGHTHOUSE_ERROR_CODE } from 'lib/lighthouse/constants';
 import {
   createProperty,
   insertLighthouseAudit,
   listProperties,
   validatePropertyInput,
-} from '../lib/lighthouse/repository';
+} from 'lib/lighthouse/repository';
 import type { LighthousePropertyInput } from '../lib/lighthouse/types';
 
 type PropertyBody = Partial<LighthousePropertyInput>;

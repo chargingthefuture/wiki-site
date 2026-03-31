@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { requireMoodAccess, moodErrorResponse } from '../app/api/mood/_lib';
-import { getMoodEligibility } from '../lib/mood/repository';
+import { requireMoodAccess, moodErrorResponse } from 'lib/mood/_lib';
+import { getMoodEligibility } from 'lib/mood/repository';
 
 export async function GET(request: NextRequest) {
   const gate = await requireMoodAccess();

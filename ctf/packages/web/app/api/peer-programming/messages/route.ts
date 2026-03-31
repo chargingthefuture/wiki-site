@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { ensureMutationCsrf, peerProgrammingErrorResponse, requirePeerProgrammingReadAccess } from '../app/api/peer-programming/_lib';
-import { createMessage, insertPeerProgrammingAudit } from '../lib/peer-programming/repository';
+import { ensureMutationCsrf, peerProgrammingErrorResponse, requirePeerProgrammingReadAccess } from 'lib/peer-programming/_lib';
+import { createMessage, insertPeerProgrammingAudit } from 'lib/peer-programming/repository';
 import type { PeerProgrammingTier } from '../lib/peer-programming/types';
 
 type CreateMessageBody = {

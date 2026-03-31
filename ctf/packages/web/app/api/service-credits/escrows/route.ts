@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { createEscrowHold, insertServiceCreditsAudit } from '../lib/service-credits/repository';
-import { ensureMutationCsrf, requireServiceCreditsReadAccess, serviceCreditsErrorResponse } from '../app/api/service-credits/_lib';
+import { createEscrowHold, insertServiceCreditsAudit } from 'lib/service-credits/repository';
+import { ensureMutationCsrf, requireServiceCreditsReadAccess, serviceCreditsErrorResponse } from 'lib/service-credits/_lib';
 
 type EscrowHoldBody = {
   escrowId?: string;

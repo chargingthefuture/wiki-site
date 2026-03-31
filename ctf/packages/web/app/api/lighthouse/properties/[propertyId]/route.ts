@@ -1,13 +1,13 @@
 import { NextResponse } from 'next/server';
-import { ensureMutationCsrf, requireLighthouseReadAccess } from '../app/api/lighthouse/_lib';
-import { LIGHTHOUSE_ERROR_CODE } from '../lib/lighthouse/constants';
+import { ensureMutationCsrf, requireLighthouseReadAccess } from 'lib/lighthouse/_lib';
+import { LIGHTHOUSE_ERROR_CODE } from 'lib/lighthouse/constants';
 import {
   deleteProperty,
   getPropertyById,
   insertLighthouseAudit,
   updateProperty,
   validatePropertyInput,
-} from '../lib/lighthouse/repository';
+} from 'lib/lighthouse/repository';
 import type { LighthousePropertyInput } from '../lib/lighthouse/types';
 
 type RouteParams = {

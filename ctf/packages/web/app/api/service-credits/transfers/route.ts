@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { createTransfer, insertServiceCreditsAudit } from '../lib/service-credits/repository';
-import { ensureMutationCsrf, requireServiceCreditsReadAccess, serviceCreditsErrorResponse } from '../app/api/service-credits/_lib';
+import { createTransfer, insertServiceCreditsAudit } from 'lib/service-credits/repository';
+import { ensureMutationCsrf, requireServiceCreditsReadAccess, serviceCreditsErrorResponse } from 'lib/service-credits/_lib';
 
 type TransferBody = {
   recipientUserId?: string;

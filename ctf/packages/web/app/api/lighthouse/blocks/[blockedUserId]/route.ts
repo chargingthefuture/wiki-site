@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
-import { ensureMutationCsrf, requireLighthouseReadAccess } from '../app/api/lighthouse/_lib';
-import { LIGHTHOUSE_ERROR_CODE } from '../lib/lighthouse/constants';
-import { insertLighthouseAudit, removeBlock } from '../lib/lighthouse/repository';
+import { ensureMutationCsrf, requireLighthouseReadAccess } from 'lib/lighthouse/_lib';
+import { LIGHTHOUSE_ERROR_CODE } from 'lib/lighthouse/constants';
+import { insertLighthouseAudit, removeBlock } from 'lib/lighthouse/repository';
 
 type RouteParams = {
   params: Promise<{ blockedUserId: string }>;

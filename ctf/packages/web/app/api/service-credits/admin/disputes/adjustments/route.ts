@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { applyDisputeAdjustment, insertServiceCreditsAudit } from '../lib/service-credits/repository';
-import { ensureMutationCsrf, requireServiceCreditsAdminAccess, serviceCreditsErrorResponse } from '../app/api/service-credits/_lib';
+import { applyDisputeAdjustment, insertServiceCreditsAudit } from 'lib/service-credits/repository';
+import { ensureMutationCsrf, requireServiceCreditsAdminAccess, serviceCreditsErrorResponse } from 'lib/service-credits/_lib';
 
 type DisputeAdjustmentBody = {
   disputeCaseId?: string;

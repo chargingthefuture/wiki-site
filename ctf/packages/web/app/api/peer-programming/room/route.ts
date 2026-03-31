@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { requirePeerProgrammingReadAccess, peerProgrammingErrorResponse } from '../app/api/peer-programming/_lib';
-import { getMyCohort, getPublishedWeeklyTopic, listMessages } from '../lib/peer-programming/repository';
+import { requirePeerProgrammingReadAccess, peerProgrammingErrorResponse } from 'lib/peer-programming/_lib';
+import { getMyCohort, getPublishedWeeklyTopic, listMessages } from 'lib/peer-programming/repository';
 
 export async function GET() {
   const gate = await requirePeerProgrammingReadAccess();

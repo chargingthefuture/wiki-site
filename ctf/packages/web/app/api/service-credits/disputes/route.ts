@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { createDispute, insertServiceCreditsAudit } from '../lib/service-credits/repository';
-import { ensureMutationCsrf, requireServiceCreditsReadAccess } from '../app/api/service-credits/_lib';
+import { createDispute, insertServiceCreditsAudit } from 'lib/service-credits/repository';
+import { ensureMutationCsrf, requireServiceCreditsReadAccess } from 'lib/service-credits/_lib';
 
 type DisputeBody = {
   transferId?: string;

@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { requireSkillsHuntReadAccess, ensureMutationCsrf } from '../_lib';
 import { createTransfer } from '../lib/service-credits/repository';
-import { SKILLS_HUNT_ERROR_CODE } from '../lib/skills-hunt/constants';
+import { SKILLS_HUNT_ERROR_CODE } from 'lib/skills-hunt/constants';
 import type { SkillsHuntServiceCreditsTransactionInput } from '../lib/skills-hunt/types';
 
 export async function POST(request: Request) {

@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { ensureMutationCsrf, requireServiceCreditsAdminAccess } from '../app/api/service-credits/_lib';
-import { getTreasuryConfig, insertServiceCreditsAudit, updateTreasuryConfig } from '../lib/service-credits/repository';
+import { ensureMutationCsrf, requireServiceCreditsAdminAccess } from 'lib/service-credits/_lib';
+import { getTreasuryConfig, insertServiceCreditsAudit, updateTreasuryConfig } from 'lib/service-credits/repository';
 
 type TreasuryBody = {
   policy?: Record<string, unknown>;

@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { requireGentlePulseReadAccess } from '../app/api/gentlepulse/_lib';
+import { requireGentlePulseReadAccess } from 'lib/gentlepulse/_lib';
 
 export async function GET() {
   const gate = await requireGentlePulseReadAccess();

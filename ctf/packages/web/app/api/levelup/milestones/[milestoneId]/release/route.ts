@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
-import { insertLevelupAudit, isTrainerForCohort, releaseMilestoneCredits } from '../lib/levelup/repository';
-import { ensureMutationCsrf, levelupErrorResponse, requireLevelupReadAccess } from '../app/api/levelup/_lib';
+import { insertLevelupAudit, isTrainerForCohort, releaseMilestoneCredits } from 'lib/levelup/repository';
+import { ensureMutationCsrf, levelupErrorResponse, requireLevelupReadAccess } from 'lib/levelup/_lib';
 
 type RouteProps = {
   params: Promise<{ milestoneId: string }>;

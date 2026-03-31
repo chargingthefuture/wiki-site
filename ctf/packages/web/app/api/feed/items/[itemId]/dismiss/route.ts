@@ -1,8 +1,8 @@
 import { NextResponse } from 'next/server';
 import { requireFeedReadAccess, ensureMutationCsrf } from '../../../_lib';
-import { FEED_ERROR_CODE } from '../lib/feed/constants';
-import { logFeedAudit } from '../lib/feed/audit';
-import { dismissFeedItem } from '../lib/feed/repository';
+import { FEED_ERROR_CODE } from 'lib/feed/constants';
+import { logFeedAudit } from 'lib/feed/audit';
+import { dismissFeedItem } from 'lib/feed/repository';
 
 type RouteParams = {
   params: Promise<{

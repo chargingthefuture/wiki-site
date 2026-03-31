@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { ensureMutationCsrf, requireGentlePulseWriteAccess } from '../app/api/gentlepulse/_lib';
-import { setFavorite } from '../lib/gentlepulse/repository';
+import { ensureMutationCsrf, requireGentlePulseWriteAccess } from 'lib/gentlepulse/_lib';
+import { setFavorite } from 'lib/gentlepulse/repository';
 
 type ItemParams = {
   params: Promise<{ itemId: string }>;

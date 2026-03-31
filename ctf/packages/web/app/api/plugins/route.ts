@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { listPluginRegistryWithSummary } from '../lib/plugins/repository';
+import { listPluginRegistryWithSummary } from 'lib/plugins/repository';
 
 export async function GET() {
   try {
