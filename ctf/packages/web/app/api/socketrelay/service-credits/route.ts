@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
-import { requireSocketRelayReadAccess, ensureMutationCsrf } from '../_lib';
-import { createTransfer } from '../lib/service-credits/repository';
-import { SOCKETRELAY_ERROR_CODE } from '../lib/socketrelay/constants';
+import { requireSocketRelayReadAccess, ensureMutationCsrf } from 'lib/socketrelay/_lib';
+import { createTransfer } from 'lib/service-credits/repository';
+import { SOCKETRELAY_ERROR_CODE } from 'lib/socketrelay/constants';
 
 type SocketRelayServiceCreditsSendInput = {
   toUserId: string;

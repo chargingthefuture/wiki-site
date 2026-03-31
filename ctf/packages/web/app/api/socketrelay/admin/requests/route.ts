@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
-import { parsePositiveInteger, requireSocketRelayAdminAccess, socketRelayErrorResponse } from '../app/api/socketrelay/_lib';
-import { SOCKETRELAY_DEFAULT_PAGE, SOCKETRELAY_DEFAULT_PAGE_SIZE } from '../lib/socketrelay/constants';
-import { listAdminRequests } from '../lib/socketrelay/repository';
+import { parsePositiveInteger, requireSocketRelayAdminAccess, socketRelayErrorResponse } from 'lib/socketrelay/_lib';
+import { SOCKETRELAY_DEFAULT_PAGE, SOCKETRELAY_DEFAULT_PAGE_SIZE } from 'lib/socketrelay/constants';
+import { listAdminRequests } from 'lib/socketrelay/repository';
 
 export async function GET(request: Request) {
   const gate = await requireSocketRelayAdminAccess();

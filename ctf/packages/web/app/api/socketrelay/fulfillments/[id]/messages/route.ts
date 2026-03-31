@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
-import { ensureMutationCsrf, requireSocketRelayReadAccess, socketRelayErrorResponse } from '../app/api/socketrelay/_lib';
-import { SOCKETRELAY_ERROR_CODE } from '../lib/socketrelay/constants';
-import { listFulfillmentMessages, sendFulfillmentMessage, validateMessageInput } from '../lib/socketrelay/repository';
+import { ensureMutationCsrf, requireSocketRelayReadAccess, socketRelayErrorResponse } from 'lib/socketrelay/_lib';
+import { SOCKETRELAY_ERROR_CODE } from 'lib/socketrelay/constants';
+import { listFulfillmentMessages, sendFulfillmentMessage, validateMessageInput } from 'lib/socketrelay/repository';
 
 type RouteProps = {
   params: Promise<{ id: string }>;

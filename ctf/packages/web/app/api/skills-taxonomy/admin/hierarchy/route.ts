@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { requireTaxonomyAdminAccess } from '../../_lib';
 import { SKILLS_TAXONOMY_ERROR_CODE } from 'lib/skills-taxonomy/constants';
-import { getHierarchy } from '../lib/skills-taxonomy/repository';
+import { getHierarchy } from 'lib/skills-taxonomy/repository';
 import { logSkillsTaxonomyAudit } from 'lib/skills-taxonomy/audit';
 
 function parseIncludeInactive(url: string): boolean {

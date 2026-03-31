@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
-import { socketRelayErrorResponse } from '../app/api/socketrelay/_lib';
-import { SOCKETRELAY_ERROR_CODE } from '../lib/socketrelay/constants';
-import { getPublicRequestById } from '../lib/socketrelay/repository';
+import { socketRelayErrorResponse } from 'lib/socketrelay/_lib';
+import { SOCKETRELAY_ERROR_CODE } from 'lib/socketrelay/constants';
+import { getPublicRequestById } from 'lib/socketrelay/repository';
 
 type RouteProps = {
   params: Promise<{ id: string }>;

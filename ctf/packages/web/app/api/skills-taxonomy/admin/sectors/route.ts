@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { ensureMutationCsrf, requireTaxonomyAdminAccess } from '../../_lib';
 import { SKILLS_TAXONOMY_ERROR_CODE } from 'lib/skills-taxonomy/constants';
-import { createSector, listSectors, validateSectorCreateInput } from '../lib/skills-taxonomy/repository';
+import { createSector, listSectors, validateSectorCreateInput } from 'lib/skills-taxonomy/repository';
 import { logSkillsTaxonomyAudit } from 'lib/skills-taxonomy/audit';
 
 type SectorCreateBody = {

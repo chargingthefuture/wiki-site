@@ -7,7 +7,7 @@ import {
   updateSkill,
   validateDeleteInput,
   validateSkillUpdateInput,
-} from '../lib/skills-taxonomy/repository';
+} from 'lib/skills-taxonomy/repository';
 import { logSkillsTaxonomyAudit } from 'lib/skills-taxonomy/audit';
 
 type SkillUpdateBody = {

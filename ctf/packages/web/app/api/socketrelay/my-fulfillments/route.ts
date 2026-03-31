@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { requireSocketRelayReadAccess, socketRelayErrorResponse } from '../app/api/socketrelay/_lib';
-import { listMyFulfillments } from '../lib/socketrelay/repository';
+import { requireSocketRelayReadAccess, socketRelayErrorResponse } from 'lib/socketrelay/_lib';
+import { listMyFulfillments } from 'lib/socketrelay/repository';
 
 export async function GET() {
   const gate = await requireSocketRelayReadAccess();

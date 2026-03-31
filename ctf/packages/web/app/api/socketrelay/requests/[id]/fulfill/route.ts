@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { ensureMutationCsrf, requireSocketRelayReadAccess, socketRelayErrorResponse } from '../app/api/socketrelay/_lib';
-import { claimRequest } from '../lib/socketrelay/repository';
+import { ensureMutationCsrf, requireSocketRelayReadAccess, socketRelayErrorResponse } from 'lib/socketrelay/_lib';
+import { claimRequest } from 'lib/socketrelay/repository';
 
 type RouteProps = {
   params: Promise<{ id: string }>;

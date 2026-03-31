@@ -1,8 +1,8 @@
 import { NextResponse } from 'next/server';
 import { requireTaxonomyAdminAccess } from '../../_lib';
-import { SKILLS_TAXONOMY_ERROR_CODE } from '../lib/skills-taxonomy/constants';
-import { logSkillsTaxonomyAudit } from '../lib/skills-taxonomy/audit';
-import { previewDependencyImpact, validateDependencyPreviewInput } from '../lib/skills-taxonomy/repository';
+import { SKILLS_TAXONOMY_ERROR_CODE } from 'lib/skills-taxonomy/constants';
+import { logSkillsTaxonomyAudit } from 'lib/skills-taxonomy/audit';
+import { previewDependencyImpact, validateDependencyPreviewInput } from 'lib/skills-taxonomy/repository';
 
 export async function GET(request: Request) {
   const gate = await requireTaxonomyAdminAccess();

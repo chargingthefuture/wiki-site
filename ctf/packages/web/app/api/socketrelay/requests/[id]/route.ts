@@ -1,8 +1,8 @@
 import { NextResponse } from 'next/server';
-import { ensureMutationCsrf, requireSocketRelayReadAccess, socketRelayErrorResponse } from '../app/api/socketrelay/_lib';
-import { SOCKETRELAY_ERROR_CODE } from '../lib/socketrelay/constants';
-import { getRequestById, updateRequest, validateRequestInput } from '../lib/socketrelay/repository';
-import type { SocketRelayRequestInput } from '../lib/socketrelay/types';
+import { ensureMutationCsrf, requireSocketRelayReadAccess, socketRelayErrorResponse } from 'lib/socketrelay/_lib';
+import { SOCKETRELAY_ERROR_CODE } from 'lib/socketrelay/constants';
+import { getRequestById, updateRequest, validateRequestInput } from 'lib/socketrelay/repository';
+import type { SocketRelayRequestInput } from 'lib/socketrelay/types';
 
 type RouteProps = {
   params: Promise<{ id: string }>;

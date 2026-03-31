@@ -1,8 +1,8 @@
 import { NextResponse } from 'next/server';
-import { ensureMutationCsrf, requireSocketRelayReadAccess, socketRelayErrorResponse } from '../app/api/socketrelay/_lib';
-import { SOCKETRELAY_ERROR_CODE } from '../lib/socketrelay/constants';
-import { deleteProfile, getProfile, insertSocketRelayAudit, upsertProfile, validateProfileInput } from '../lib/socketrelay/repository';
-import type { SocketRelayProfileInput } from '../lib/socketrelay/types';
+import { ensureMutationCsrf, requireSocketRelayReadAccess, socketRelayErrorResponse } from 'lib/socketrelay/_lib';
+import { SOCKETRELAY_ERROR_CODE } from 'lib/socketrelay/constants';
+import { deleteProfile, getProfile, insertSocketRelayAudit, upsertProfile, validateProfileInput } from 'lib/socketrelay/repository';
+import type { SocketRelayProfileInput } from 'lib/socketrelay/types';
 
 function parseProfileInput(body: Record<string, unknown>): SocketRelayProfileInput {
   return {

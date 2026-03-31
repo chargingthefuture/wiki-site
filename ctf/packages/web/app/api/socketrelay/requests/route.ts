@@ -1,8 +1,8 @@
 import { NextResponse } from 'next/server';
-import { ensureMutationCsrf, parsePositiveInteger, requireSocketRelayReadAccess, socketRelayErrorResponse } from '../app/api/socketrelay/_lib';
-import { SOCKETRELAY_DEFAULT_PAGE, SOCKETRELAY_DEFAULT_PAGE_SIZE, SOCKETRELAY_ERROR_CODE } from '../lib/socketrelay/constants';
-import { createRequest, listRequests, validateRequestInput } from '../lib/socketrelay/repository';
-import type { SocketRelayRequestInput } from '../lib/socketrelay/types';
+import { ensureMutationCsrf, parsePositiveInteger, requireSocketRelayReadAccess, socketRelayErrorResponse } from 'lib/socketrelay/_lib';
+import { SOCKETRELAY_DEFAULT_PAGE, SOCKETRELAY_DEFAULT_PAGE_SIZE, SOCKETRELAY_ERROR_CODE } from 'lib/socketrelay/constants';
+import { createRequest, listRequests, validateRequestInput } from 'lib/socketrelay/repository';
+import type { SocketRelayRequestInput } from 'lib/socketrelay/types';
 
 function parseRequestInput(body: Record<string, unknown>): SocketRelayRequestInput {
   return {

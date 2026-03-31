@@ -7,7 +7,7 @@ import {
   updateJobTitle,
   validateDeleteInput,
   validateJobTitleUpdateInput,
-} from '../lib/skills-taxonomy/repository';
+} from 'lib/skills-taxonomy/repository';
 import { logSkillsTaxonomyAudit } from 'lib/skills-taxonomy/audit';
 
 type JobTitleUpdateBody = {
