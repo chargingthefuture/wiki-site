@@ -1,14 +1,8 @@
 import { NextResponse } from 'next/server';
-import { ensureMutationCsrf, requireWorkforceAdminAccess } from '../../_lib';
-import { WORKFORCE_ERROR_CODE } from '../lib/workforce/constants';
-import {
-  createOccupation,
-  insertWorkforceAdminAudit,
-  listOccupations,
-  parsePaginationParams,
-  validateOccupationInput,
-} from '../lib/workforce/repository';
-import type { WorkforceOccupationInput } from '../lib/workforce/types';
+import { ensureMutationCsrf, requireWorkforceAdminAccess } from 'lib/workforce/_lib';
+import { WORKFORCE_ERROR_CODE } from 'lib/workforce/constants';
+import { createOccupation, insertWorkforceAdminAudit, listOccupations, parsePaginationParams, validateOccupationInput } from 'lib/workforce/repository';
+import type { WorkforceOccupationInput } from 'lib/workforce/types';
 
 type OccupationBody = Partial<WorkforceOccupationInput>;
 

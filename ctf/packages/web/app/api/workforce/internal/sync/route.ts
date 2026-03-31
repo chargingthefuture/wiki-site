@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
-import { WORKFORCE_ERROR_CODE } from '../lib/workforce/constants';
-import { getObservabilityReporter } from '../lib/observability/provider';
-import { runIncrementalRecruitedSync } from '../lib/workforce/repository';
+import { WORKFORCE_ERROR_CODE } from 'lib/workforce/constants';
+import { getObservabilityReporter } from 'lib/observability/provider';
+import { runIncrementalRecruitedSync } from 'lib/workforce/repository';
 
 type SyncBody = {
   batchSize?: number;

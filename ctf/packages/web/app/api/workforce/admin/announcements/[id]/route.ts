@@ -1,12 +1,7 @@
 import { NextResponse } from 'next/server';
-import { ensureMutationCsrf, requireWorkforceAdminAccess } from '../../../_lib';
-import { WORKFORCE_ERROR_CODE } from '../lib/workforce/constants';
-import {
-  deactivateAnnouncement,
-  insertWorkforceAdminAudit,
-  updateAnnouncement,
-  validateAnnouncementInput,
-} from '../lib/workforce/repository';
+import { ensureMutationCsrf, requireWorkforceAdminAccess } from 'lib/workforce/_lib';
+import { WORKFORCE_ERROR_CODE } from 'lib/workforce/constants';
+import { deactivateAnnouncement, insertWorkforceAdminAudit, updateAnnouncement, validateAnnouncementInput } from 'lib/workforce/repository';
 import type { WorkforceAnnouncementInput } from '../lib/workforce/types';
 
 type RouteParams = {

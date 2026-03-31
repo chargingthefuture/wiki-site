@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
-import { requireWorkforceAdminAccess } from '../../../_lib';
-import { WORKFORCE_ERROR_CODE } from '../lib/workforce/constants';
-import { getExportJobById } from '../lib/workforce/repository';
+import { requireWorkforceAdminAccess } from 'lib/workforce/_lib';
+import { WORKFORCE_ERROR_CODE } from 'lib/workforce/constants';
+import { getExportJobById } from 'lib/workforce/repository';
 
 type RouteParams = {
   params: Promise<{

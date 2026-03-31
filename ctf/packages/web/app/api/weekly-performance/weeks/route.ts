@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { requireWeeklyPerformanceReadAccess } from '../app/api/weekly-performance/_lib';
-import { listWeeks } from '../lib/weekly-performance/repository';
+import { requireWeeklyPerformanceReadAccess } from 'lib/weekly-performance/_lib';
+import { listWeeks } from 'lib/weekly-performance/repository';
 
 export async function GET() {
   const gate = await requireWeeklyPerformanceReadAccess();

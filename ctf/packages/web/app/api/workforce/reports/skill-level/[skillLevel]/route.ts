@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
-import { requireWorkforceReadAccess } from '../../../_lib';
-import { WORKFORCE_ERROR_CODE } from '../lib/workforce/constants';
-import { fetchSkillLevelReport } from '../lib/workforce/repository';
+import { requireWorkforceReadAccess } from 'lib/workforce/_lib';
+import { WORKFORCE_ERROR_CODE } from 'lib/workforce/constants';
+import { fetchSkillLevelReport } from 'lib/workforce/repository';
 
 type RouteParams = {
   params: Promise<{

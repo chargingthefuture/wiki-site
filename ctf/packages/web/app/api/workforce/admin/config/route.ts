@@ -1,9 +1,9 @@
 import { NextResponse } from 'next/server';
-import { ensureMutationCsrf, requireWorkforceAdminAccess } from '../../_lib';
-import { WORKFORCE_ERROR_CODE } from '../lib/workforce/constants';
-import { insertWorkforceAdminAudit, getWorkforceConfig, updateWorkforceConfig, validateConfigInput } from '../lib/workforce/repository';
-import { logWorkforceAudit } from '../lib/workforce/audit';
-import type { WorkforceConfigInput } from '../lib/workforce/types';
+import { ensureMutationCsrf, requireWorkforceAdminAccess } from 'lib/workforce/_lib';
+import { WORKFORCE_ERROR_CODE } from 'lib/workforce/constants';
+import { insertWorkforceAdminAudit, getWorkforceConfig, updateWorkforceConfig, validateConfigInput } from 'lib/workforce/repository';
+import { logWorkforceAudit } from 'lib/workforce/audit';
+import type { WorkforceConfigInput } from 'lib/workforce/types';
 
 type ConfigBody = Partial<WorkforceConfigInput>;
 

@@ -1,14 +1,9 @@
 import { NextResponse } from 'next/server';
-import { ensureMutationCsrf, requireWorkforceReadAccess } from '../_lib';
-import { logWorkforceAudit } from '../lib/workforce/audit';
-import { WORKFORCE_ERROR_CODE } from '../lib/workforce/constants';
-import {
-  deleteOwnWorkforceProfile,
-  getOwnProfile,
-  upsertOwnProfile,
-  validateProfileInput,
-} from '../lib/workforce/repository';
-import type { WorkforceProfileInput } from '../lib/workforce/types';
+import { ensureMutationCsrf, requireWorkforceReadAccess } from 'lib/workforce/_lib';
+import { logWorkforceAudit } from 'lib/workforce/audit';
+import { WORKFORCE_ERROR_CODE } from 'lib/workforce/constants';
+import { deleteOwnWorkforceProfile, getOwnProfile, upsertOwnProfile, validateProfileInput } from 'lib/workforce/repository';
+import type { WorkforceProfileInput } from 'lib/workforce/types';
 
 type ProfileBody = Partial<WorkforceProfileInput>;
 

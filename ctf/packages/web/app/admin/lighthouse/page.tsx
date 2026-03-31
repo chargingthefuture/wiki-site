@@ -1,13 +1,13 @@
 import Link from 'next/link';
 import { redirect } from 'next/navigation';
-import { evaluatePluginAccess } from '../lib/auth/server-authz';
+import { evaluatePluginAccess } from 'lib/auth/server-authz';
 import {
   getLighthouseAdminStats,
   listLighthouseAdminAnnouncements,
   listLighthouseMatchesAdmin,
   listLighthousePropertiesAdmin,
   listLighthouseProfiles,
-} from '../lib/lighthouse/repository';
+} from 'lib/lighthouse/repository';
 
 export default async function LighthouseAdminPage() {
   const access = await evaluatePluginAccess({ requireUsername: false });

@@ -1,4 +1,4 @@
-import { evaluatePluginAccess } from '../lib/auth/server-authz';
+import { evaluatePluginAccess } from 'lib/auth/server-authz';
 import Link from 'next/link';
 
 export default async function AdminPage() {

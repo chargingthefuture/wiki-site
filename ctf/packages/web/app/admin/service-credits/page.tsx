@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { redirect } from 'next/navigation';
-import { evaluatePluginAccess } from '../lib/auth/server-authz';
-import { getTreasuryConfig } from '../lib/service-credits/repository';
+import { evaluatePluginAccess } from 'lib/auth/server-authz';
+import { getTreasuryConfig } from 'lib/service-credits/repository';
 
 export default async function ServiceCreditsAdminPage() {
   const decision = await evaluatePluginAccess({ requireApprovedUserOrAdmin: true, requireUsername: false });

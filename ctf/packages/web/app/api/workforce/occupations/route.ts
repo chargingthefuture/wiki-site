@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
-import { requireWorkforceReadAccess } from '../_lib';
-import { WORKFORCE_ERROR_CODE } from '../lib/workforce/constants';
-import { listOccupations, parsePaginationParams } from '../lib/workforce/repository';
+import { requireWorkforceReadAccess } from 'lib/workforce/_lib';
+import { WORKFORCE_ERROR_CODE } from 'lib/workforce/constants';
+import { listOccupations, parsePaginationParams } from 'lib/workforce/repository';
 
 export async function GET(request: Request) {
   const gate = await requireWorkforceReadAccess();

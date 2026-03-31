@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { redirect } from 'next/navigation';
-import { evaluatePluginAccess } from '../lib/auth/server-authz';
-import { getLatestPublication } from '../lib/gdp/repository';
+import { evaluatePluginAccess } from 'lib/auth/server-authz';
+import { getLatestPublication } from 'lib/gdp/repository';
 
 export default async function GdpAdminPage() {
   const decision = await evaluatePluginAccess({ requireApprovedUserOrAdmin: true, requireUsername: false });

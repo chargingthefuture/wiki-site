@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
-import { ensureMutationCsrf, requireWorkforceAdminAccess } from '../../_lib';
-import { WORKFORCE_ERROR_CODE } from '../lib/workforce/constants';
-import { createDeferredExportJob, insertWorkforceAdminAudit } from '../lib/workforce/repository';
+import { ensureMutationCsrf, requireWorkforceAdminAccess } from 'lib/workforce/_lib';
+import { WORKFORCE_ERROR_CODE } from 'lib/workforce/constants';
+import { createDeferredExportJob, insertWorkforceAdminAudit } from 'lib/workforce/repository';
 
 type ExportBody = {
   exportType?: unknown;
