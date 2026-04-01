@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { ensureMutationCsrf, requireSocketRelayAdminAccess, socketRelayErrorResponse } from 'lib/socketrelay/_lib';
 import { SOCKETRELAY_ERROR_CODE } from 'lib/socketrelay/constants';
 import { createSocketRelayAdminAnnouncement, listSocketRelayAdminAnnouncements, validateAnnouncementInput } from 'lib/socketrelay/repository';
-import type { SocketRelayAnnouncementInput } from '../lib/socketrelay/types';
+import type { SocketRelayAnnouncementInput } from 'lib/socketrelay/types';
 
 function parseAnnouncementInput(body: Record<string, unknown>): SocketRelayAnnouncementInput {
   return {

@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { ensureMutationCsrf, requireSkillsHuntAdminAccess } from '../../_lib';
 import { SKILLS_HUNT_ERROR_CODE } from 'lib/skills-hunt/constants';
 import { insertSkillsHuntAudit, updateFeatureRewardCard, validateFeatureRewardCardInput } from 'lib/skills-hunt/repository';
-import type { SkillsHuntFeatureRewardCardInput } from '../lib/skills-hunt/types';
+import type { SkillsHuntFeatureRewardCardInput } from 'lib/skills-hunt/types';
 
 type FeatureRewardCardBody = Partial<SkillsHuntFeatureRewardCardInput>;
 

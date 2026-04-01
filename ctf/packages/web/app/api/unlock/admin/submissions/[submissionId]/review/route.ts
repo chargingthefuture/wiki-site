@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { requireUnlockAdminAccess, unlockErrorResponse } from 'lib/unlock/_lib';
 import { getUnlockRuntimeConfig, insertUnlockAudit, markUnlockIncentiveGranted, reviewUnlockSubmission } from 'lib/unlock/repository';
 import { insertServiceCreditsAudit, mintGrant } from 'lib/service-credits/repository';
-import type { ReviewUnlockSubmissionInput } from '../lib/unlock/types';
+import type { ReviewUnlockSubmissionInput } from 'lib/unlock/types';
 
 type RouteParams = {
   params: Promise<{

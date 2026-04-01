@@ -7,7 +7,7 @@ import {
   listProperties,
   validatePropertyInput,
 } from 'lib/lighthouse/repository';
-import type { LighthousePropertyInput } from '../lib/lighthouse/types';
+import type { LighthousePropertyInput } from 'lib/lighthouse/types';
 
 type PropertyBody = Partial<LighthousePropertyInput>;
 

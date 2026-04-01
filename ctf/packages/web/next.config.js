@@ -13,6 +13,7 @@ const nextConfig = {
 };
 
 module.exports = withSentryConfig(nextConfig, {
+  silent: true,
   webpack: {
     automaticVercelMonitors: true,
   },

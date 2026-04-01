@@ -8,7 +8,7 @@ import {
   upsertProfile,
   validateProfileInput,
 } from 'lib/lighthouse/repository';
-import type { LighthouseProfileInput } from '../lib/lighthouse/types';
+import type { LighthouseProfileInput } from 'lib/lighthouse/types';
 
 type ProfileBody = Partial<LighthouseProfileInput>;
 

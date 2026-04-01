@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "prebuild": "node --check ./scripts/*.js ./scripts/*.mjs || exit 1",
-    "build": "NODE_OPTIONS=--max-old-space-size=4096 NEXT_PRIVATE_MAX_WORKER_THREADS=1 next build",
+    "build": "NODE_OPTIONS=--max-old-space-size=4096 NEXT_PRIVATE_MAX_WORKER_THREADS=1 SENTRY_SUPPRESS_GLOBAL_ERROR_HANDLER_FILE_WARNING=1 next build",
     "check:all": "pnpm lint && pnpm typecheck && pnpm build",
     "start": "next start -p ${PORT:-3000}",
     "check:all": "pnpm typecheck && pnpm build",

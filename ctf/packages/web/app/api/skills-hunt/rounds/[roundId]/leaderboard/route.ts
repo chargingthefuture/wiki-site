@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { requireSkillsHuntReadAccess } from '../../../_lib';
 import { SKILLS_HUNT_ERROR_CODE } from 'lib/skills-hunt/constants';
 import { listLeaderboard } from 'lib/skills-hunt/repository';
-import type { SkillsHuntLeaderboardMode } from '../lib/skills-hunt/types';
+import type { SkillsHuntLeaderboardMode } from 'lib/skills-hunt/types';
 
 function parseMode(value: string | null): SkillsHuntLeaderboardMode {
   return value === 'team' ? 'team' : 'individual';

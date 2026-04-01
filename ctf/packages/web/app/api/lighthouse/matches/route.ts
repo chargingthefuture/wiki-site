@@ -7,7 +7,7 @@ import {
   listMatches,
   validateMatchCreateInput,
 } from 'lib/lighthouse/repository';
-import type { LighthouseMatchCreateInput } from '../lib/lighthouse/types';
+import type { LighthouseMatchCreateInput } from 'lib/lighthouse/types';
 
 type MatchBody = Partial<LighthouseMatchCreateInput> & { idempotencyKey?: string };
 

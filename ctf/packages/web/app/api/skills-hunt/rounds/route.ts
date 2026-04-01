@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { requireSkillsHuntReadAccess } from '../_lib';
 import { SKILLS_HUNT_ERROR_CODE } from 'lib/skills-hunt/constants';
 import { listRounds } from 'lib/skills-hunt/repository';
-import type { SkillsHuntRoundStatus } from '../lib/skills-hunt/types';
+import type { SkillsHuntRoundStatus } from 'lib/skills-hunt/types';
 
 function parseStatus(value: string | null): SkillsHuntRoundStatus | null {
   if (!value) {

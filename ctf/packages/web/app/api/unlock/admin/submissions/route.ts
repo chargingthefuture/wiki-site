@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { requireUnlockAdminAccess, unlockErrorResponse } from 'lib/unlock/_lib';
 import { insertUnlockAudit, listUnlockSubmissions } from 'lib/unlock/repository';
-import type { UnlockAccessTier, UnlockReviewStatus } from '../lib/unlock/types';
+import type { UnlockAccessTier, UnlockReviewStatus } from 'lib/unlock/types';
 
 const ALLOWED_REVIEW_STATUSES = new Set<UnlockReviewStatus>(['pending', 'approved', 'rejected', 'spam']);
 const ALLOWED_ACCESS_TIERS = new Set<UnlockAccessTier>(['pending_readonly', 'locked_support_only', 'approved_full']);

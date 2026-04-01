@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { ensureMutationCsrf, requireLighthouseAdminAccess } from 'lib/lighthouse/_lib';
 import { LIGHTHOUSE_ERROR_CODE } from 'lib/lighthouse/constants';
 import { insertLighthouseAudit, updateMatch, validateMatchUpdateInput } from 'lib/lighthouse/repository';
-import type { LighthouseMatchUpdateInput } from '../lib/lighthouse/types';
+import type { LighthouseMatchUpdateInput } from 'lib/lighthouse/types';
 
 type RouteParams = {
   params: Promise<{ matchId: string }>;

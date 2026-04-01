@@ -8,7 +8,7 @@ import {
   updateProperty,
   validatePropertyInput,
 } from 'lib/lighthouse/repository';
-import type { LighthousePropertyInput } from '../lib/lighthouse/types';
+import type { LighthousePropertyInput } from 'lib/lighthouse/types';
 
 type RouteParams = {
   params: Promise<{ propertyId: string }>;
