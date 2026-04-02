@@ -1,13 +1,10 @@
 import { queryDb } from 'lib/db/postgres';
 
-export type PluginPhase = 'phase-0' | 'phase-1' | 'phase-2' | 'phase-3';
 export type PluginAvailabilityState = 'implemented_shell' | 'planned';
 
 export type PluginRegistryItem = {
   slug: string;
   name: string;
-  phase: PluginPhase;
-  startGate: string;
   summary: string;
   availabilityState: PluginAvailabilityState;
   navRank: number;
@@ -23,8 +20,6 @@ export type PluginRegistrySummary = {
 type PluginRegistryRow = {
   plugin_slug: string;
   display_name: string;
-  phase: PluginPhase;
-  start_gate: string;
   summary: string;
   availability_state: PluginAvailabilityState;
   nav_rank: number;
@@ -35,8 +30,6 @@ const fallbackPluginRegistry: PluginRegistryItem[] = [
   {
     slug: 'chyme',
     name: 'Chyme',
-    phase: 'phase-0',
-    startGate: 'Phase 0',
     summary: 'Room bootstrap, chat, join flow, and deletion behavior with policy/audit.',
     availabilityState: 'implemented_shell',
     navRank: 10,
@@ -45,8 +38,6 @@ const fallbackPluginRegistry: PluginRegistryItem[] = [
   {
     slug: 'skills-taxonomy',
     name: 'Skills Taxonomy',
-    phase: 'phase-0',
-    startGate: 'Phase 0',
     summary: 'Hierarchy and CRUD for sectors, job titles, and skills with impact preview.',
     availabilityState: 'implemented_shell',
     navRank: 20,
@@ -55,8 +46,6 @@ const fallbackPluginRegistry: PluginRegistryItem[] = [
   {
     slug: 'directory',
     name: 'Directory',
-    phase: 'phase-0',
-    startGate: 'Phase 0',
     summary: 'Unified user/admin profile surface with claimed/unclaimed policy controls.',
     availabilityState: 'implemented_shell',
     navRank: 30,
@@ -65,8 +54,6 @@ const fallbackPluginRegistry: PluginRegistryItem[] = [
   {
     slug: 'feed-announcements',
     name: 'Feed + Announcements',
-    phase: 'phase-0',
-    startGate: 'Phase 0',
     summary: 'Timeline and announcement lifecycle in a coupled admin surface.',
     availabilityState: 'implemented_shell',
     navRank: 40,
@@ -75,8 +62,6 @@ const fallbackPluginRegistry: PluginRegistryItem[] = [
   {
     slug: 'workforce',
     name: 'Workforce',
-    phase: 'phase-1',
-    startGate: 'Phase 1',
     summary: 'Dashboard reporting and recruited-state derivation from upstream data.',
     availabilityState: 'implemented_shell',
     navRank: 50,
@@ -85,8 +70,6 @@ const fallbackPluginRegistry: PluginRegistryItem[] = [
   {
     slug: 'skills-hunt',
     name: 'Skills Hunt',
-    phase: 'phase-1',
-    startGate: 'Phase 1',
     summary: 'Rounds, moderation, scoring, leaderboards, and governed profile generation.',
     availabilityState: 'implemented_shell',
     navRank: 60,
@@ -95,8 +78,6 @@ const fallbackPluginRegistry: PluginRegistryItem[] = [
   {
     slug: 'unlock',
     name: 'Unlock',
-    phase: 'phase-1',
-    startGate: 'Phase 1',
     summary: 'Internal verification queue and staged unlock orchestration for Quora URL onboarding.',
     availabilityState: 'implemented_shell',
     navRank: 65,
@@ -105,8 +86,6 @@ const fallbackPluginRegistry: PluginRegistryItem[] = [
   {
     slug: 'foundation',
     name: 'Foundation',
-    phase: 'phase-1',
-    startGate: 'Phase 1',
     summary: 'Provider search and quote lifecycle using read-only Directory projections.',
     availabilityState: 'implemented_shell',
     navRank: 70,
@@ -115,8 +94,6 @@ const fallbackPluginRegistry: PluginRegistryItem[] = [
   {
     slug: 'lighthouse',
     name: 'LightHouse',
-    phase: 'phase-2',
-    startGate: 'Phase 2',
     summary: 'Profile/property/match parity scope with blocks lifecycle controls.',
     availabilityState: 'implemented_shell',
     navRank: 80,
@@ -125,8 +102,6 @@ const fallbackPluginRegistry: PluginRegistryItem[] = [
   {
     slug: 'socketrelay',
     name: 'SocketRelay',
-    phase: 'phase-2',
-    startGate: 'Phase 2',
     summary: 'Request and fulfillment flows with privacy-minimized public projections.',
     availabilityState: 'implemented_shell',
     navRank: 90,
@@ -135,8 +110,6 @@ const fallbackPluginRegistry: PluginRegistryItem[] = [
   {
     slug: 'trusttransport',
     name: 'TrustTransport',
-    phase: 'phase-2',
-    startGate: 'Phase 2',
     summary: 'Ride/package/food fulfillment with safety-first and dispute controls.',
     availabilityState: 'implemented_shell',
     navRank: 100,
@@ -145,8 +118,6 @@ const fallbackPluginRegistry: PluginRegistryItem[] = [
   {
     slug: 'peer-programming',
     name: 'Peer Programming',
-    phase: 'phase-2',
-    startGate: 'Phase 2',
     summary: 'Weekly cohort assignments with deterministic fallback-open behavior.',
     availabilityState: 'implemented_shell',
     navRank: 110,
@@ -155,8 +126,6 @@ const fallbackPluginRegistry: PluginRegistryItem[] = [
   {
     slug: 'mood',
     name: 'Mood',
-    phase: 'phase-2',
-    startGate: 'Phase 2',
     summary: 'Mood submissions with 7-day cooldown and anonymous clientId persistence.',
     availabilityState: 'implemented_shell',
     navRank: 120,
@@ -165,8 +134,6 @@ const fallbackPluginRegistry: PluginRegistryItem[] = [
   {
     slug: 'gentlepulse',
     name: 'GentlePulse',
-    phase: 'phase-2',
-    startGate: 'Phase 2',
     summary: 'Library listing/playback, ratings, favorites, and support route behavior.',
     availabilityState: 'implemented_shell',
     navRank: 130,
@@ -175,8 +142,6 @@ const fallbackPluginRegistry: PluginRegistryItem[] = [
   {
     slug: 'weekly-performance',
     name: 'Weekly Performance',
-    phase: 'phase-2',
-    startGate: 'Phase 2',
     summary: 'Week selection/guardrails with metrics, comparisons, and export gate checks.',
     availabilityState: 'implemented_shell',
     navRank: 140,
@@ -185,8 +150,6 @@ const fallbackPluginRegistry: PluginRegistryItem[] = [
   {
     slug: 'gdp',
     name: 'GDP',
-    phase: 'phase-3',
-    startGate: 'Phase 3',
     summary: 'Aggregate transparency and admin publish flows with compliance controls.',
     availabilityState: 'implemented_shell',
     navRank: 150,
@@ -195,8 +158,6 @@ const fallbackPluginRegistry: PluginRegistryItem[] = [
   {
     slug: 'service-credits',
     name: 'Service Credits',
-    phase: 'phase-3',
-    startGate: 'Phase 3',
     summary: 'Wallet/transfers/escrow/disputes and treasury governance workflows.',
     availabilityState: 'implemented_shell',
     navRank: 160,
@@ -205,8 +166,6 @@ const fallbackPluginRegistry: PluginRegistryItem[] = [
   {
     slug: 'levelup',
     name: 'LevelUp',
-    phase: 'phase-3',
-    startGate: 'Phase 3',
     summary: 'Flexible training cohorts with milestone escrow release, trainer payouts, stipends, and disputes.',
     availabilityState: 'implemented_shell',
     navRank: 170,
@@ -237,8 +196,6 @@ function mapPluginRegistryRow(row: PluginRegistryRow): PluginRegistryItem {
   return {
     slug: row.plugin_slug,
     name: row.display_name,
-    phase: row.phase,
-    startGate: row.start_gate,
     summary: row.summary,
     availabilityState: row.availability_state,
     navRank: row.nav_rank,
@@ -278,8 +235,6 @@ export async function listPluginRegistry(options?: { includeHidden?: boolean }):
       `SELECT
          plugin_slug,
          display_name,
-         phase,
-         start_gate,
          summary,
          availability_state,
          nav_rank,
@@ -308,8 +263,6 @@ export async function getPluginBySlug(slug: string): Promise<PluginRegistryItem 
       `SELECT
          plugin_slug,
          display_name,
-         phase,
-         start_gate,
          summary,
          availability_state,
          nav_rank,

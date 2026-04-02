@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { SignedIn } from 'lib/auth/clerk-wrapper';
 import type { PluginRegistryItem } from '../../lib/plugins/repository';
-import type { ShellSection, ShellStats } from './shell-types';
+import type { PluginSortMode, ShellSection, ShellStats } from './shell-types';
 import { ShellIconRail } from './shell-icon-rail';
 import { ShellSidebar } from './shell-sidebar';
 import { ShellChatPanel } from './shell-chat-panel';
@@ -21,6 +21,8 @@ type PluginsApiPayload = {
 };
 
 const RECENT_PLUGIN_STORAGE_KEY = 'ctf.communityShell.recentPluginSlugs';
+const PLUGIN_SORT_MODE_STORAGE_KEY = 'ctf.communityShell.pluginSortMode';
+const PLUGIN_USAGE_COUNTS_STORAGE_KEY = 'ctf.communityShell.pluginUsageCounts';
 const MAX_RECENT_PLUGINS = 12;
 
 function parseStoredRecentPlugins(value: string | null): string[] {
@@ -35,7 +37,52 @@ function parseStoredRecentPlugins(value: string | null): string[] {
   }
 }
 
-function sortPluginsForUi(items: PluginRegistryItem[], recentSlugs: string[]): PluginRegistryItem[] {
+function parseStoredSortMode(value: string | null): PluginSortMode {
+  if (value === 'recent' || value === 'alpha' || value === 'most-used') return value;
+  return 'recent';
+}
+
+function parseStoredUsageCounts(value: string | null): Record<string, number> {
+  if (!value) return {};
+
+  try {
+    const parsed = JSON.parse(value) as unknown;
+    if (!parsed || typeof parsed !== 'object') return {};
+
+    const result: Record<string, number> = {};
+    for (const [key, rawValue] of Object.entries(parsed as Record<string, unknown>)) {
+      if (typeof rawValue === 'number' && Number.isFinite(rawValue) && rawValue > 0) {
+        result[key] = rawValue;
+      }
+    }
+
+    return result;
+  } catch {
+    return {};
+  }
+}
+
+function sortPluginsForUi(
+  items: PluginRegistryItem[],
+  sortMode: PluginSortMode,
+  recentSlugs: string[],
+  usageCounts: Record<string, number>,
+): PluginRegistryItem[] {
+  if (sortMode === 'alpha') {
+    return [...items].sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }));
+  }
+
+  if (sortMode === 'most-used') {
+    return [...items].sort((a, b) => {
+      const countA = usageCounts[a.slug] ?? 0;
+      const countB = usageCounts[b.slug] ?? 0;
+
+      if (countA !== countB) return countB - countA;
+
+      return a.name.localeCompare(b.name, undefined, { sensitivity: 'base' });
+    });
+  }
+
   const rankBySlug = new Map<string, number>();
   for (let index = 0; index < recentSlugs.length; index += 1) {
     rankBySlug.set(recentSlugs[index], index);
@@ -62,11 +109,15 @@ export function CommunityShell({ initialPlugins, shellStats }: CommunityShellPro
   const [plugins, setPlugins] = useState(initialPlugins);
   const [loadError, setLoadError] = useState<string | null>(null);
   const [activeApp, setActiveApp] = useState<string | null>(null);
+  const [sortMode, setSortMode] = useState<PluginSortMode>('recent');
   const [recentPluginSlugs, setRecentPluginSlugs] = useState<string[]>([]);
+  const [pluginUsageCounts, setPluginUsageCounts] = useState<Record<string, number>>({});
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
     setRecentPluginSlugs(parseStoredRecentPlugins(window.localStorage.getItem(RECENT_PLUGIN_STORAGE_KEY)));
+    setSortMode(parseStoredSortMode(window.localStorage.getItem(PLUGIN_SORT_MODE_STORAGE_KEY)));
+    setPluginUsageCounts(parseStoredUsageCounts(window.localStorage.getItem(PLUGIN_USAGE_COUNTS_STORAGE_KEY)));
   }, []);
 
   useEffect(() => {
@@ -96,8 +147,8 @@ export function CommunityShell({ initialPlugins, shellStats }: CommunityShellPro
   }, []);
 
   const orderedPlugins = useMemo(
-    () => sortPluginsForUi(plugins, recentPluginSlugs),
-    [plugins, recentPluginSlugs],
+    () => sortPluginsForUi(plugins, sortMode, recentPluginSlugs, pluginUsageCounts),
+    [plugins, sortMode, recentPluginSlugs, pluginUsageCounts],
   );
 
   const normalizedQuery = query.trim().toLowerCase();
@@ -117,6 +168,18 @@ export function CommunityShell({ initialPlugins, shellStats }: CommunityShellPro
       window.localStorage.setItem(RECENT_PLUGIN_STORAGE_KEY, JSON.stringify(next));
       return next;
     });
+
+    setPluginUsageCounts((previous) => {
+      const next = { ...previous, [slug]: (previous[slug] ?? 0) + 1 };
+      window.localStorage.setItem(PLUGIN_USAGE_COUNTS_STORAGE_KEY, JSON.stringify(next));
+      return next;
+    });
+  };
+
+  const handleSortModeChange = (mode: PluginSortMode) => {
+    setSortMode(mode);
+    if (typeof window === 'undefined') return;
+    window.localStorage.setItem(PLUGIN_SORT_MODE_STORAGE_KEY, mode);
   };
 
   const implementedCount = plugins.filter((p) => p.availabilityState === 'implemented_shell').length;
@@ -145,7 +208,13 @@ export function CommunityShell({ initialPlugins, shellStats }: CommunityShellPro
           {section === 'chat' ? (
             <ShellChatPanel stats={shellStats} plugins={filteredPlugins} />
           ) : (
-            <ShellAppsPanel plugins={filteredPlugins} activeApp={activeApp} onAppSelect={handleAppSelect} />
+            <ShellAppsPanel
+              plugins={filteredPlugins}
+              activeApp={activeApp}
+              onAppSelect={handleAppSelect}
+              sortMode={sortMode}
+              onSortModeChange={handleSortModeChange}
+            />
           )}
         </main>
         <ShellRightRail

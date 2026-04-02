@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import type { PluginRegistryItem } from '../../lib/plugins/repository';
+import type { PluginSortMode } from './shell-types';
 import { getPluginVisuals } from './shell-plugin-config';
 import styles from './community-shell.module.css';
 
@@ -13,14 +14,31 @@ type ShellAppsPanelProps = {
   plugins: PluginRegistryItem[];
   activeApp: string | null;
   onAppSelect: (slug: string | null) => void;
+  sortMode: PluginSortMode;
+  onSortModeChange: (mode: PluginSortMode) => void;
 };
 
-export function ShellAppsPanel({ plugins, activeApp, onAppSelect }: ShellAppsPanelProps) {
+export function ShellAppsPanel({ plugins, activeApp, onAppSelect, sortMode, onSortModeChange }: ShellAppsPanelProps) {
   return (
     <div className={styles.appsPanel}>
       <div className={styles.appsPanelHeader}>
-        <h2 className={styles.appsPanelTitle}>All Plugins</h2>
-        <p className={styles.appsPanelSub}>Your complete peer-to-peer marketplace — from survivor to thriver</p>
+        <div>
+          <h2 className={styles.appsPanelTitle}>All Plugins</h2>
+          <p className={styles.appsPanelSub}>Your complete peer-to-peer marketplace — from survivor to thriver</p>
+        </div>
+        <div className={styles.appsSortWrap}>
+          <label className={styles.appsSortLabel} htmlFor="apps-sort-mode">Sort</label>
+          <select
+            id="apps-sort-mode"
+            className={styles.appsSortSelect}
+            value={sortMode}
+            onChange={(event) => onSortModeChange(event.target.value as PluginSortMode)}
+          >
+            <option value="recent">Recent</option>
+            <option value="alpha">A-Z</option>
+            <option value="most-used">Most Used</option>
+          </select>
+        </div>
       </div>
 
       {plugins.length === 0 && (

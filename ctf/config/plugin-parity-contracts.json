@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "plugins": [
+    {
+      "slug": "chyme",
+      "mobileFeatureDirs": ["chyme"],
+      "requiresMobileSurface": true,
+      "requiresExplicitWebShell": true
+    },
+    {
+      "slug": "skills-taxonomy",
+      "mobileFeatureDirs": ["skills-taxonomy"],
+      "requiresMobileSurface": true,
+      "requiresExplicitWebShell": true
+    },
+    {
+      "slug": "directory",
+      "mobileFeatureDirs": ["directory"],
+      "requiresMobileSurface": true,
+      "requiresExplicitWebShell": true
+    },
+    {
+      "slug": "feed-announcements",
+      "mobileFeatureDirs": ["feed", "announcements"],
+      "requiresMobileSurface": true,
+      "requiresExplicitWebShell": true
+    },
+    {
+      "slug": "workforce",
+      "mobileFeatureDirs": ["workforce"],
+      "requiresMobileSurface": true,
+      "requiresExplicitWebShell": true
+    },
+    {
+      "slug": "skills-hunt",
+      "mobileFeatureDirs": ["skills-hunt"],
+      "requiresMobileSurface": true,
+      "requiresExplicitWebShell": true
+    },
+    {
+      "slug": "unlock",
+      "mobileFeatureDirs": ["unlock"],
+      "requiresMobileSurface": true,
+      "requiresExplicitWebShell": false
+    },
+    {
+      "slug": "foundation",
+      "mobileFeatureDirs": ["foundation"],
+      "requiresMobileSurface": true,
+      "requiresExplicitWebShell": true
+    },
+    {
+      "slug": "lighthouse",
+      "mobileFeatureDirs": ["lighthouse"],
+      "requiresMobileSurface": true,
+      "requiresExplicitWebShell": true
+    },
+    {
+      "slug": "socketrelay",
+      "mobileFeatureDirs": ["socketrelay"],
+      "requiresMobileSurface": true,
+      "requiresExplicitWebShell": true
+    },
+    {
+      "slug": "trusttransport",
+      "mobileFeatureDirs": ["trusttransport"],
+      "requiresMobileSurface": true,
+      "requiresExplicitWebShell": true
+    },
+    {
+      "slug": "peer-programming",
+      "mobileFeatureDirs": ["peer-programming"],
+      "requiresMobileSurface": true,
+      "requiresExplicitWebShell": true
+    },
+    {
+      "slug": "mood",
+      "mobileFeatureDirs": ["mood"],
+      "requiresMobileSurface": true,
+      "requiresExplicitWebShell": true
+    },
+    {
+      "slug": "gentlepulse",
+      "mobileFeatureDirs": ["gentlepulse"],
+      "requiresMobileSurface": true,
+      "requiresExplicitWebShell": true
+    },
+    {
+      "slug": "weekly-performance",
+      "mobileFeatureDirs": ["weekly-performance"],
+      "requiresMobileSurface": true,
+      "requiresExplicitWebShell": true
+    },
+    {
+      "slug": "gdp",
+      "mobileFeatureDirs": ["gdp"],
+      "requiresMobileSurface": true,
+      "requiresExplicitWebShell": true
+    },
+    {
+      "slug": "service-credits",
+      "mobileFeatureDirs": ["service-credits"],
+      "requiresMobileSurface": true,
+      "requiresExplicitWebShell": true
+    },
+    {
+      "slug": "levelup",
+      "mobileFeatureDirs": ["levelup"],
+      "requiresMobileSurface": true,
+      "requiresExplicitWebShell": true
+    }
+  ]
+}

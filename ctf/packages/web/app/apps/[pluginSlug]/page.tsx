@@ -84,7 +84,6 @@ type GenericPluginViewProps = {
   username: string | null;
   selectedPluginSlug: string;
   selectedPluginName: string;
-  selectedPluginStartGate: string;
   availabilityState: string;
 };
 
@@ -93,7 +92,6 @@ function GenericPluginView({
   username,
   selectedPluginSlug,
   selectedPluginName,
-  selectedPluginStartGate,
   availabilityState,
 }: GenericPluginViewProps) {
   const isPlanned = availabilityState === 'planned';
@@ -118,10 +116,6 @@ function GenericPluginView({
         <div className="mt-2 flex justify-between gap-4">
           <dt className="font-medium">Selected plugin</dt>
           <dd>{selectedPluginName}</dd>
-        </div>
-        <div className="mt-2 flex justify-between gap-4">
-          <dt className="font-medium">Start gate</dt>
-          <dd>{selectedPluginStartGate}</dd>
         </div>
         <div className="mt-2 flex justify-between gap-4">
           <dt className="font-medium">Availability</dt>
@@ -243,7 +237,6 @@ export default async function PluginRoutePage({ params, searchParams }: PluginRo
       username={decision.username}
       selectedPluginSlug={selectedPlugin.slug}
       selectedPluginName={selectedPlugin.name}
-      selectedPluginStartGate={selectedPlugin.startGate}
       availabilityState={selectedPlugin.availabilityState}
     />
   );
