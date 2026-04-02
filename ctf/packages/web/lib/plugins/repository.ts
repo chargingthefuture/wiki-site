@@ -245,7 +245,15 @@ export async function listPluginRegistry(options?: { includeHidden?: boolean }):
       [includeHidden],
     );
 
-    return result.rows.map(mapPluginRegistryRow);
+    if (result.rows.length > 0) {
+      return result.rows.map(mapPluginRegistryRow);
+    }
+
+    const items = includeHidden
+      ? fallbackPluginRegistry
+      : fallbackPluginRegistry.filter((item) => item.isVisible);
+
+    return sortPluginsByName(items);
   } catch {
     const items = includeHidden
       ? fallbackPluginRegistry
@@ -274,7 +282,7 @@ export async function getPluginBySlug(slug: string): Promise<PluginRegistryItem 
     );
 
     if (result.rowCount === 0) {
-      return null;
+      return fallbackPluginRegistry.find((item) => item.slug === canonicalSlug) ?? null;
     }
 
     return mapPluginRegistryRow(result.rows[0]);

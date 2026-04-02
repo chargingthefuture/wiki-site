@@ -1125,6 +1125,34 @@ ALTER TABLE IF EXISTS ctf_plugin_registry ADD COLUMN IF NOT EXISTS is_visible BO
 ALTER TABLE IF EXISTS ctf_plugin_registry ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 ALTER TABLE IF EXISTS ctf_plugin_registry ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
+-- Seed plugin registry (upsert so re-running is safe)
+INSERT INTO ctf_plugin_registry (plugin_slug, display_name, summary, availability_state, nav_rank, is_visible) VALUES
+  ('chyme',              'Chyme',                'Room bootstrap, chat, join flow, and deletion behavior with policy/audit.',                       'implemented_shell', 10,  TRUE),
+  ('skills-taxonomy',    'Skills Taxonomy',      'Hierarchy and CRUD for sectors, job titles, and skills with impact preview.',                     'implemented_shell', 20,  TRUE),
+  ('directory',          'Directory',            'Unified user/admin profile surface with claimed/unclaimed policy controls.',                      'implemented_shell', 30,  TRUE),
+  ('feed-announcements', 'Feed + Announcements', 'Timeline and announcement lifecycle in a coupled admin surface.',                                 'implemented_shell', 40,  TRUE),
+  ('workforce',          'Workforce',            'Dashboard reporting and recruited-state derivation from upstream data.',                           'implemented_shell', 50,  TRUE),
+  ('skills-hunt',        'Skills Hunt',          'Rounds, moderation, scoring, leaderboards, and governed profile generation.',                     'implemented_shell', 60,  TRUE),
+  ('unlock',             'Unlock',               'Internal verification queue and staged unlock orchestration for Quora URL onboarding.',           'implemented_shell', 65,  FALSE),
+  ('foundation',         'Foundation',           'Provider search and quote lifecycle using read-only Directory projections.',                      'implemented_shell', 70,  TRUE),
+  ('lighthouse',         'LightHouse',           'Profile/property/match parity scope with blocks lifecycle controls.',                             'implemented_shell', 80,  TRUE),
+  ('socketrelay',        'SocketRelay',          'Request and fulfillment flows with privacy-minimized public projections.',                        'implemented_shell', 90,  TRUE),
+  ('trusttransport',     'TrustTransport',       'Ride/package/food fulfillment with safety-first and dispute controls.',                           'implemented_shell', 100, TRUE),
+  ('peer-programming',   'Peer Programming',     'Weekly cohort assignments with deterministic fallback-open behavior.',                            'implemented_shell', 110, TRUE),
+  ('mood',               'Mood',                 'Mood submissions with 7-day cooldown and anonymous clientId persistence.',                        'implemented_shell', 120, TRUE),
+  ('gentlepulse',        'GentlePulse',          'Library listing/playback, ratings, favorites, and support route behavior.',                       'implemented_shell', 130, TRUE),
+  ('weekly-performance', 'Weekly Performance',   'Week selection/guardrails with metrics, comparisons, and export gate checks.',                    'implemented_shell', 140, TRUE),
+  ('gdp',                'GDP',                  'Aggregate transparency and admin publish flows with compliance controls.',                        'implemented_shell', 150, TRUE),
+  ('service-credits',    'Service Credits',      'Wallet/transfers/escrow/disputes and treasury governance workflows.',                             'implemented_shell', 160, TRUE),
+  ('levelup',            'LevelUp',              'Flexible training cohorts with milestone escrow release, trainer payouts, stipends, and disputes.','implemented_shell', 170, TRUE)
+ON CONFLICT (plugin_slug) DO UPDATE SET
+  display_name       = EXCLUDED.display_name,
+  summary            = EXCLUDED.summary,
+  availability_state = EXCLUDED.availability_state,
+  nav_rank           = EXCLUDED.nav_rank,
+  is_visible         = EXCLUDED.is_visible,
+  updated_at         = NOW();
+
 -- === SKILLS TAXONOMY (parent tables first) ===
 CREATE TABLE IF NOT EXISTS skills_taxonomy_sectors (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
