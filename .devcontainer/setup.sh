@@ -1,3 +1,8 @@
+#!/usr/bin/env bash
+set -e
+
+FAST_MODE="${CTF_CODESPACES_FAST_MODE:-0}"
+
 # Install/update Snyk CLI
 echo "Checking for Snyk CLI..."
 if ! command -v snyk &> /dev/null; then
@@ -5,8 +10,6 @@ if ! command -v snyk &> /dev/null; then
 else
   echo "Snyk CLI already installed."
 fi
-#!/usr/bin/env bash
-set -e
 
 # Install/update Codacy CLI
 .codacy/cli.sh --version || bash .codacy/cli.sh
@@ -52,9 +55,14 @@ else
   echo "pnpm already installed."
 fi
 
-# Install system libraries required for Expo/React Native DevTools
-echo "Installing system libraries for Expo/React Native DevTools..."
-sudo apt-get update && sudo apt-get install -y libatk1.0-0 libgtk-3-0 libnotify4 libgdk-pixbuf2.0-0 libxss1 libasound2 libnss3 libx11-xcb1
+# Install system libraries required for Expo/React Native DevTools.
+# Skip in fast mode to reduce Codespaces startup CPU/time.
+if [ "$FAST_MODE" != "1" ]; then
+  echo "Installing system libraries for Expo/React Native DevTools..."
+  sudo apt-get update && sudo apt-get install -y libatk1.0-0 libgtk-3-0 libnotify4 libgdk-pixbuf2.0-0 libxss1 libasound2 libnss3 libx11-xcb1
+else
+  echo "Fast mode enabled: skipping Expo/React Native DevTools system libraries."
+fi
 
 # Ensure expo-cli is installed globally (for direct CLI use)
 echo "Checking for expo-cli..."
@@ -69,8 +77,8 @@ fi
 echo "Installing all pnpm dependencies..."
 pnpm install
 
-# Apply schema.sql to Neon DB if DATABASE_URL is set
-if [ -n "$DATABASE_URL" ]; then
+# Apply schema.sql and run startup builds only when fast mode is disabled.
+if [ "$FAST_MODE" != "1" ] && [ -n "$DATABASE_URL" ]; then
   echo "Applying ctf/schema.sql to Neon DB at DATABASE_URL..."
   if command -v psql &> /dev/null; then
     PGPASSWORD="$(echo $DATABASE_URL | sed -n 's/.*:.*:\/\/(.*):(.*)@.*/\2/p')" \
@@ -99,6 +107,8 @@ if [ -n "$DATABASE_URL" ]; then
     echo "Next.js build failed for waitlist-landing-page. Check for SQL/runtime errors in your codebase.";
     exit 1;
   }
+elif [ "$FAST_MODE" = "1" ]; then
+  echo "Fast mode enabled: skipping schema.sql application and startup builds."
 else
   echo "Warning: DATABASE_URL is not set. Skipping schema.sql application and build."
 fi

@@ -63,6 +63,12 @@ This folder contains the rewrite monorepo scaffold for:
 - Reason: Railpack already performs install, and a second filtered install/build chain can trigger Node heap OOM during deploy.
 - Keep package manager alignment pinned to `pnpm@9.12.0` in deploy commands for deterministic behavior.
 
+## Schema Drift Full Report
+
+- To list all live DB schema issues at once (missing tables/columns) against `ctf/schema.sql`:
+  - `DATABASE_URL=... pnpm run schema:report-live-drift`
+- This command exits non-zero when drift exists, so it can be used as a pre-deploy gate.
+
 ## Workforce Incremental Sync Baseline
 
 - Use incremental sync as the primary freshness path for Workforce recruited-state derivation.

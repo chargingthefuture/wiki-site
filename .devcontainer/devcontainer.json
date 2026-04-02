@@ -1,6 +1,10 @@
 {
   "name": "ChargingTheFuture",
   "image": "mcr.microsoft.com/devcontainers/typescript-node:20-bullseye",
+  "containerEnv": {
+    "CTF_CODESPACES_FAST_MODE": "1",
+    "CTF_SKIP_SENTRY_NEXTJS": "1"
+  },
   "features": {
     "ghcr.io/devcontainers/features/github-cli": {}
   },

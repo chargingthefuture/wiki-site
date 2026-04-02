@@ -38,7 +38,6 @@
     "editor.minimap.enabled": false,
     "editor.scrollbar.vertical": "hidden",
     "editor.wordWrap": "on",
-    "editor.smoothScrolling": true,
     
     "workbench.colorCustomizations": {
         "editor.background": "#20242b",
@@ -66,5 +65,8 @@
     "workbench.editor.limit.perEditorGroup": true,
     "workbench.editor.limit.value": 1,
     "workbench.editor.limit.excludeDirty": true,
-    "workbench.activityBar.location": "hidden"
+    "workbench.activityBar.location": "hidden",
+    "extensions.autoUpdate": false,
+    "extensions.ignoreRecommendations": true,
+    "workbench.extensions.showRecommendationsOnInstall": false
 }
