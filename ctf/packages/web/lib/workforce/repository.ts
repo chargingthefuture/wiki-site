@@ -3,6 +3,8 @@ import { queryDb, withDbTransaction } from 'lib/db/postgres';
 import {
   WORKFORCE_DEFAULT_PAGE,
   WORKFORCE_DEFAULT_PAGE_SIZE,
+  WORKFORCE_DEFAULT_TIMEZONE,
+  WORKFORCE_DEFAULT_WEEK_START_DOW,
   WORKFORCE_MAX_ANNOUNCEMENT_BODY_LENGTH,
   WORKFORCE_MAX_ANNOUNCEMENT_TITLE_LENGTH,
   WORKFORCE_MAX_OCCUPATION_NAME_LENGTH,
@@ -634,7 +636,19 @@ export async function getWorkforceConfig(): Promise<WorkforceConfig> {
     `,
   );
 
-  return mapConfig(result.rows[0]);
+  const row = result.rows[0];
+  if (!row) {
+    return {
+      exportsEnabled: false,
+      killSwitchEnabled: false,
+      reportWeekTimezone: WORKFORCE_DEFAULT_TIMEZONE,
+      reportWeekStartDow: WORKFORCE_DEFAULT_WEEK_START_DOW,
+      updatedByUserId: 'system',
+      updatedAtIso: new Date(0).toISOString(),
+    };
+  }
+
+  return mapConfig(row);
 }
 
 export async function updateWorkforceConfig(actorId: string, input: WorkforceConfigInput): Promise<WorkforceConfig> {
