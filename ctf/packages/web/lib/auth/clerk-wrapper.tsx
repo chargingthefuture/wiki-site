@@ -1,6 +1,6 @@
 'use client';
 
-import type { FC, ReactNode } from 'react';
+import type { FC } from 'react';
 import {
   ClerkProvider as ClerkProviderBase,
   SignIn as SignInBase,
@@ -72,6 +72,8 @@ export const UserButton: FC<UserButtonProps> = (props) => {
 };
 
 export function useUser() {
+  const clerkUser = useClerkUser();
+  
   if (isAuthDisabled) {
     return {
       user: {
@@ -83,5 +85,5 @@ export function useUser() {
     };
   }
 
-  return useClerkUser();
+  return clerkUser;
 }
