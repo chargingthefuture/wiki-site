@@ -801,7 +801,7 @@ export async function getMarketConfig(): Promise<TrustTransportMarketConfig> {
   const result = await queryDb<{ config: Record<string, unknown> }>(
     `SELECT config
      FROM trusttransport_market_config
-     WHERE id = 1
+     WHERE id = TRUE
      LIMIT 1`,
   );
 
@@ -821,7 +821,7 @@ export async function updateMarketConfig(actorUserId: string, input: TrustTransp
 
   await queryDb(
     `INSERT INTO trusttransport_market_config (id, config, updated_by_user_id, updated_at)
-     VALUES (1, $1::jsonb, $2, NOW())
+     VALUES (TRUE, $1::jsonb, $2, NOW())
      ON CONFLICT (id)
      DO UPDATE SET config = EXCLUDED.config, updated_by_user_id = EXCLUDED.updated_by_user_id, updated_at = NOW()`,
     [JSON.stringify(input), actorUserId],
