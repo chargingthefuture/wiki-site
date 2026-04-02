@@ -2,6 +2,8 @@ import { evaluatePluginAccess } from 'lib/auth/server-authz';
 import Link from 'next/link';
 import { getFeedConfig, listAnnouncements } from 'lib/feed/repository';
 
+export const dynamic = 'force-dynamic';
+
 export default async function FeedAnnouncementsAdminPage() {
   const decision = await evaluatePluginAccess({ requiredRoles: ['admin'] });
 

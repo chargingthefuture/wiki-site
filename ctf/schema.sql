@@ -280,6 +280,12 @@ CREATE TABLE IF NOT EXISTS feed_render_config (
 );
 -- Add columns with guarded DDL for legacy DBs
 ALTER TABLE IF EXISTS feed_render_config ADD COLUMN IF NOT EXISTS singleton_key BOOLEAN DEFAULT TRUE;
+-- Seed default feed config row (idempotent)
+INSERT INTO feed_render_config (singleton_key, render_mode, kill_switch_enabled, max_timeline_page_size, updated_by_user_id, updated_at)
+SELECT TRUE, 'card_only', FALSE, 100, 'system', NOW()
+WHERE NOT EXISTS (
+  SELECT 1 FROM feed_render_config WHERE singleton_key IS TRUE
+);
 CREATE TABLE IF NOT EXISTS feed_items (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   item_type TEXT NOT NULL,
