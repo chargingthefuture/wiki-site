@@ -1,5 +1,4 @@
 -- Combined schema.sql for CTF (rewrite, no /platform)
--- This file is a snapshot of the current schema for Neon, based only on ctf/migrations/*.sql
 
 BEGIN;
 CREATE EXTENSION IF NOT EXISTS pgcrypto;
@@ -31,7 +30,15 @@ ALTER TABLE IF EXISTS foundation_connection_threads ADD COLUMN IF NOT EXISTS thr
 ALTER TABLE IF EXISTS foundation_connection_threads ADD COLUMN IF NOT EXISTS created_by_user_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS foundation_connection_threads ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 ALTER TABLE IF EXISTS foundation_connection_threads ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
--- stray block removed: these lines were not inside a CREATE TABLE statement
+-- Ensure chyme_rooms exists before dependent indexes/foreign keys below.
+CREATE TABLE IF NOT EXISTS chyme_rooms (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  room_key TEXT NOT NULL UNIQUE,
+  room_name TEXT NOT NULL,
+  call_active BOOLEAN NOT NULL DEFAULT FALSE,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
 CREATE UNIQUE INDEX IF NOT EXISTS uq_chyme_rooms_room_key ON chyme_rooms(room_key);
 CREATE TABLE IF NOT EXISTS chyme_service_profiles (
   user_id TEXT PRIMARY KEY,
@@ -1176,12 +1183,21 @@ CREATE TABLE IF NOT EXISTS skills_taxonomy_consumer_bindings (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS skills_taxonomy_consumer_bindings ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS skills_taxonomy_consumer_bindings ADD COLUMN IF NOT EXISTS target_type TEXT NOT NULL;
-ALTER TABLE IF EXISTS skills_taxonomy_consumer_bindings ADD COLUMN IF NOT EXISTS target_id UUID NOT NULL;
-ALTER TABLE IF EXISTS skills_taxonomy_consumer_bindings ADD COLUMN IF NOT EXISTS consumer_plugin TEXT NOT NULL;
+ALTER TABLE IF EXISTS skills_taxonomy_consumer_bindings ADD COLUMN IF NOT EXISTS target_type TEXT;
+ALTER TABLE IF EXISTS skills_taxonomy_consumer_bindings ADD COLUMN IF NOT EXISTS target_id UUID;
+ALTER TABLE IF EXISTS skills_taxonomy_consumer_bindings ADD COLUMN IF NOT EXISTS consumer_plugin TEXT;
 ALTER TABLE IF EXISTS skills_taxonomy_consumer_bindings ADD COLUMN IF NOT EXISTS reference_count INTEGER NOT NULL DEFAULT 1;
 ALTER TABLE IF EXISTS skills_taxonomy_consumer_bindings ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 ALTER TABLE IF EXISTS skills_taxonomy_consumer_bindings ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
+UPDATE skills_taxonomy_consumer_bindings
+SET target_type = 'unknown'
+WHERE target_type IS NULL;
+UPDATE skills_taxonomy_consumer_bindings
+SET target_id = gen_random_uuid()
+WHERE target_id IS NULL;
+UPDATE skills_taxonomy_consumer_bindings
+SET consumer_plugin = 'unknown'
+WHERE consumer_plugin IS NULL;
 
 CREATE TABLE IF NOT EXISTS skills_taxonomy_flattened_projection (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
