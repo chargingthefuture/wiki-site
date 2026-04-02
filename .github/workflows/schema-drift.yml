@@ -19,7 +19,6 @@ on:
       - main
     paths:
       - ctf/schema.sql
-      - ctf/scripts/report-live-schema-drift.mjs
       - ctf/package.json
       - .github/workflows/schema-drift.yml
 

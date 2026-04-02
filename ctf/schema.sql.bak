@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS weekly_performance_weeks (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS weekly_performance_weeks ADD COLUMN IF NOT EXISTS id UUID DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS weekly_performance_weeks ADD COLUMN IF NOT EXISTS week_start_date DATE NOT NULL DEFAULT CURRENT_DATE;
+ALTER TABLE IF EXISTS weekly_performance_weeks ADD COLUMN IF NOT EXISTS week_start_date DATE NOT NULL;
 ALTER TABLE IF EXISTS weekly_performance_weeks ADD COLUMN IF NOT EXISTS summary TEXT;
 ALTER TABLE IF EXISTS weekly_performance_weeks ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 ALTER TABLE IF EXISTS weekly_performance_weeks ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS foundation_connection_threads (
 );
 ALTER TABLE IF EXISTS foundation_connection_threads ADD COLUMN IF NOT EXISTS id UUID DEFAULT gen_random_uuid();
 ALTER TABLE IF EXISTS foundation_connection_threads ADD COLUMN IF NOT EXISTS thread_key TEXT;
-ALTER TABLE IF EXISTS foundation_connection_threads ADD COLUMN IF NOT EXISTS created_by_user_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS foundation_connection_threads ADD COLUMN IF NOT EXISTS created_by_user_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS foundation_connection_threads ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 ALTER TABLE IF EXISTS foundation_connection_threads ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 -- Ensure chyme_rooms exists before dependent indexes/foreign keys below.
@@ -95,8 +95,8 @@ CREATE TABLE IF NOT EXISTS levelup_enrollments (
   UNIQUE (user_id, level_id)
 );
 ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS id UUID DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS user_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS level_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS user_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS level_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS enrolled_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS status TEXT NOT NULL DEFAULT 'active';
 CREATE UNIQUE INDEX IF NOT EXISTS uq_levelup_enrollments_user_level ON levelup_enrollments(user_id, level_id);
@@ -116,12 +116,12 @@ CREATE TABLE IF NOT EXISTS peer_programming_weekly_topics (
 
 -- Add columns with guarded DDL for legacy DBs
 ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS id UUID DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS week_start_date DATE NOT NULL DEFAULT CURRENT_DATE;
-ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS title TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS guidance TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS week_start_date DATE NOT NULL;
+ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS title TEXT NOT NULL;
+ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS guidance TEXT NOT NULL;
 ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS revision_note TEXT;
 ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS status TEXT;
-ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS created_by_user_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS created_by_user_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS published_by_user_id TEXT;
 ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS published_at TIMESTAMPTZ;
 ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
@@ -306,8 +306,8 @@ CREATE TABLE IF NOT EXISTS foundation_quote_requests (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS foundation_quote_requests ADD COLUMN IF NOT EXISTS id UUID DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS foundation_quote_requests ADD COLUMN IF NOT EXISTS user_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS foundation_quote_requests ADD COLUMN IF NOT EXISTS request_text TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS foundation_quote_requests ADD COLUMN IF NOT EXISTS user_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS foundation_quote_requests ADD COLUMN IF NOT EXISTS request_text TEXT NOT NULL;
 ALTER TABLE IF EXISTS foundation_quote_requests ADD COLUMN IF NOT EXISTS status TEXT NOT NULL DEFAULT 'pending';
 ALTER TABLE IF EXISTS foundation_quote_requests ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 ALTER TABLE IF EXISTS foundation_quote_requests ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
@@ -347,11 +347,11 @@ CREATE TABLE IF NOT EXISTS gdp_publications (
 
 -- Add columns with guarded DDL for legacy DBs
 ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS id UUID DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS week_start_date DATE NOT NULL DEFAULT CURRENT_DATE;
-ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS title TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS summary TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS week_start_date DATE NOT NULL;
+ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS title TEXT NOT NULL;
+ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS summary TEXT NOT NULL;
 ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS status TEXT;
-ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS created_by_user_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS created_by_user_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS published_by_user_id TEXT;
 ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS published_at TIMESTAMPTZ;
 ALTER TABLE IF EXISTS gdp_publications ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
@@ -431,11 +431,11 @@ CREATE TABLE IF NOT EXISTS unlock_verification_submissions (
 -- Add columns with guarded DDL for legacy DBs
 ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS id SERIAL;
 ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS user_id TEXT;
-ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS quora_profile_url TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS quora_profile_url_normalized TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS quora_profile_url TEXT NOT NULL;
+ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS quora_profile_url_normalized TEXT NOT NULL;
 ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS review_status TEXT;
 ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS access_tier TEXT;
-ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS unlock_window_expires_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
+ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS unlock_window_expires_at TIMESTAMPTZ NOT NULL;
 ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS reminder_stage INTEGER NOT NULL DEFAULT 0;
 ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS reviewed_by_user_id TEXT;
 ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS reviewed_at TIMESTAMPTZ;
@@ -478,8 +478,8 @@ CREATE TABLE IF NOT EXISTS levelup_enrollments (
   UNIQUE (cohort_id, user_id)
 );
 ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS id UUID DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS cohort_id UUID NOT NULL DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS user_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS cohort_id UUID NOT NULL;
+ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS user_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS status TEXT;
 ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS credits_deposited INTEGER NOT NULL DEFAULT 0;
 ALTER TABLE IF EXISTS levelup_enrollments ADD COLUMN IF NOT EXISTS assigned_trainer_id TEXT;
@@ -1042,17 +1042,17 @@ CREATE TABLE IF NOT EXISTS announcements (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS announcements ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS announcements ADD COLUMN IF NOT EXISTS title TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS announcements ADD COLUMN IF NOT EXISTS body TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS announcements ADD COLUMN IF NOT EXISTS status TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS announcements ADD COLUMN IF NOT EXISTS title TEXT NOT NULL;
+ALTER TABLE IF EXISTS announcements ADD COLUMN IF NOT EXISTS body TEXT NOT NULL;
+ALTER TABLE IF EXISTS announcements ADD COLUMN IF NOT EXISTS status TEXT NOT NULL;
 ALTER TABLE IF EXISTS announcements ADD COLUMN IF NOT EXISTS priority INTEGER NOT NULL DEFAULT 0;
 ALTER TABLE IF EXISTS announcements ADD COLUMN IF NOT EXISTS mandatory BOOLEAN NOT NULL DEFAULT FALSE;
 ALTER TABLE IF EXISTS announcements ADD COLUMN IF NOT EXISTS schedule_at TIMESTAMPTZ;
 ALTER TABLE IF EXISTS announcements ADD COLUMN IF NOT EXISTS published_at TIMESTAMPTZ;
 ALTER TABLE IF EXISTS announcements ADD COLUMN IF NOT EXISTS expires_at TIMESTAMPTZ;
 ALTER TABLE IF EXISTS announcements ADD COLUMN IF NOT EXISTS targeting JSONB NOT NULL DEFAULT '{}'::jsonb;
-ALTER TABLE IF EXISTS announcements ADD COLUMN IF NOT EXISTS created_by_user_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS announcements ADD COLUMN IF NOT EXISTS updated_by_user_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS announcements ADD COLUMN IF NOT EXISTS created_by_user_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS announcements ADD COLUMN IF NOT EXISTS updated_by_user_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS announcements ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 ALTER TABLE IF EXISTS announcements ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 CREATE INDEX IF NOT EXISTS idx_announcements_status ON announcements(status);
@@ -1072,13 +1072,13 @@ CREATE TABLE IF NOT EXISTS feed_timeline_projection (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS feed_timeline_projection ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS feed_timeline_projection ADD COLUMN IF NOT EXISTS item_type TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS feed_timeline_projection ADD COLUMN IF NOT EXISTS item_type TEXT NOT NULL;
 ALTER TABLE IF EXISTS feed_timeline_projection ADD COLUMN IF NOT EXISTS source_announcement_id UUID;
-ALTER TABLE IF EXISTS feed_timeline_projection ADD COLUMN IF NOT EXISTS title TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS feed_timeline_projection ADD COLUMN IF NOT EXISTS body TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS feed_timeline_projection ADD COLUMN IF NOT EXISTS title TEXT NOT NULL;
+ALTER TABLE IF EXISTS feed_timeline_projection ADD COLUMN IF NOT EXISTS body TEXT NOT NULL;
 ALTER TABLE IF EXISTS feed_timeline_projection ADD COLUMN IF NOT EXISTS priority INTEGER NOT NULL DEFAULT 0;
 ALTER TABLE IF EXISTS feed_timeline_projection ADD COLUMN IF NOT EXISTS mandatory BOOLEAN NOT NULL DEFAULT FALSE;
-ALTER TABLE IF EXISTS feed_timeline_projection ADD COLUMN IF NOT EXISTS published_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
+ALTER TABLE IF EXISTS feed_timeline_projection ADD COLUMN IF NOT EXISTS published_at TIMESTAMPTZ NOT NULL;
 ALTER TABLE IF EXISTS feed_timeline_projection ADD COLUMN IF NOT EXISTS expires_at TIMESTAMPTZ;
 ALTER TABLE IF EXISTS feed_timeline_projection ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 ALTER TABLE IF EXISTS feed_timeline_projection ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
@@ -1093,8 +1093,8 @@ CREATE TABLE IF NOT EXISTS chyme_rooms (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS chyme_rooms ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS chyme_rooms ADD COLUMN IF NOT EXISTS room_key TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS chyme_rooms ADD COLUMN IF NOT EXISTS room_name TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS chyme_rooms ADD COLUMN IF NOT EXISTS room_key TEXT NOT NULL;
+ALTER TABLE IF EXISTS chyme_rooms ADD COLUMN IF NOT EXISTS room_name TEXT NOT NULL;
 ALTER TABLE IF EXISTS chyme_rooms ADD COLUMN IF NOT EXISTS call_active BOOLEAN NOT NULL DEFAULT FALSE;
 ALTER TABLE IF EXISTS chyme_rooms ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 ALTER TABLE IF EXISTS chyme_rooms ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
@@ -1111,8 +1111,8 @@ CREATE TABLE IF NOT EXISTS ctf_plugin_registry (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS ctf_plugin_registry ADD COLUMN IF NOT EXISTS plugin_slug TEXT;
-ALTER TABLE IF EXISTS ctf_plugin_registry ADD COLUMN IF NOT EXISTS display_name TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS ctf_plugin_registry ADD COLUMN IF NOT EXISTS summary TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS ctf_plugin_registry ADD COLUMN IF NOT EXISTS display_name TEXT NOT NULL;
+ALTER TABLE IF EXISTS ctf_plugin_registry ADD COLUMN IF NOT EXISTS summary TEXT NOT NULL;
 ALTER TABLE IF EXISTS ctf_plugin_registry ADD COLUMN IF NOT EXISTS availability_state TEXT NOT NULL DEFAULT 'planned';
 ALTER TABLE IF EXISTS ctf_plugin_registry ADD COLUMN IF NOT EXISTS nav_rank INTEGER NOT NULL DEFAULT 0;
 ALTER TABLE IF EXISTS ctf_plugin_registry ADD COLUMN IF NOT EXISTS is_visible BOOLEAN NOT NULL DEFAULT FALSE;
@@ -1130,7 +1130,7 @@ CREATE TABLE IF NOT EXISTS skills_taxonomy_sectors (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS skills_taxonomy_sectors ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS skills_taxonomy_sectors ADD COLUMN IF NOT EXISTS name TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS skills_taxonomy_sectors ADD COLUMN IF NOT EXISTS name TEXT NOT NULL;
 ALTER TABLE IF EXISTS skills_taxonomy_sectors ADD COLUMN IF NOT EXISTS display_order INTEGER NOT NULL DEFAULT 0;
 ALTER TABLE IF EXISTS skills_taxonomy_sectors ADD COLUMN IF NOT EXISTS workforce_share NUMERIC;
 ALTER TABLE IF EXISTS skills_taxonomy_sectors ADD COLUMN IF NOT EXISTS is_active BOOLEAN NOT NULL DEFAULT TRUE;
@@ -1148,7 +1148,7 @@ CREATE TABLE IF NOT EXISTS skills_taxonomy_job_titles (
 );
 ALTER TABLE IF EXISTS skills_taxonomy_job_titles ADD COLUMN IF NOT EXISTS id UUID;
 ALTER TABLE IF EXISTS skills_taxonomy_job_titles ADD COLUMN IF NOT EXISTS sector_id UUID;
-ALTER TABLE IF EXISTS skills_taxonomy_job_titles ADD COLUMN IF NOT EXISTS name TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS skills_taxonomy_job_titles ADD COLUMN IF NOT EXISTS name TEXT NOT NULL;
 ALTER TABLE IF EXISTS skills_taxonomy_job_titles ADD COLUMN IF NOT EXISTS display_order INTEGER NOT NULL DEFAULT 0;
 ALTER TABLE IF EXISTS skills_taxonomy_job_titles ADD COLUMN IF NOT EXISTS is_active BOOLEAN NOT NULL DEFAULT TRUE;
 ALTER TABLE IF EXISTS skills_taxonomy_job_titles ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
@@ -1166,7 +1166,7 @@ CREATE TABLE IF NOT EXISTS skills_taxonomy_skills (
 );
 ALTER TABLE IF EXISTS skills_taxonomy_skills ADD COLUMN IF NOT EXISTS id UUID;
 ALTER TABLE IF EXISTS skills_taxonomy_skills ADD COLUMN IF NOT EXISTS job_title_id UUID;
-ALTER TABLE IF EXISTS skills_taxonomy_skills ADD COLUMN IF NOT EXISTS name TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS skills_taxonomy_skills ADD COLUMN IF NOT EXISTS name TEXT NOT NULL;
 ALTER TABLE IF EXISTS skills_taxonomy_skills ADD COLUMN IF NOT EXISTS display_order INTEGER NOT NULL DEFAULT 0;
 ALTER TABLE IF EXISTS skills_taxonomy_skills ADD COLUMN IF NOT EXISTS aliases JSONB NOT NULL DEFAULT '[]'::jsonb;
 ALTER TABLE IF EXISTS skills_taxonomy_skills ADD COLUMN IF NOT EXISTS is_active BOOLEAN NOT NULL DEFAULT TRUE;
@@ -1213,12 +1213,12 @@ CREATE TABLE IF NOT EXISTS skills_taxonomy_flattened_projection (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS skills_taxonomy_flattened_projection ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS skills_taxonomy_flattened_projection ADD COLUMN IF NOT EXISTS sector_id UUID NOT NULL DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS skills_taxonomy_flattened_projection ADD COLUMN IF NOT EXISTS sector_name TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS skills_taxonomy_flattened_projection ADD COLUMN IF NOT EXISTS job_title_id UUID NOT NULL DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS skills_taxonomy_flattened_projection ADD COLUMN IF NOT EXISTS job_title_name TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS skills_taxonomy_flattened_projection ADD COLUMN IF NOT EXISTS skill_id UUID NOT NULL DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS skills_taxonomy_flattened_projection ADD COLUMN IF NOT EXISTS skill_name TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS skills_taxonomy_flattened_projection ADD COLUMN IF NOT EXISTS sector_id UUID NOT NULL;
+ALTER TABLE IF EXISTS skills_taxonomy_flattened_projection ADD COLUMN IF NOT EXISTS sector_name TEXT NOT NULL;
+ALTER TABLE IF EXISTS skills_taxonomy_flattened_projection ADD COLUMN IF NOT EXISTS job_title_id UUID NOT NULL;
+ALTER TABLE IF EXISTS skills_taxonomy_flattened_projection ADD COLUMN IF NOT EXISTS job_title_name TEXT NOT NULL;
+ALTER TABLE IF EXISTS skills_taxonomy_flattened_projection ADD COLUMN IF NOT EXISTS skill_id UUID NOT NULL;
+ALTER TABLE IF EXISTS skills_taxonomy_flattened_projection ADD COLUMN IF NOT EXISTS skill_name TEXT NOT NULL;
 ALTER TABLE IF EXISTS skills_taxonomy_flattened_projection ADD COLUMN IF NOT EXISTS skill_aliases JSONB NOT NULL DEFAULT '[]'::jsonb;
 ALTER TABLE IF EXISTS skills_taxonomy_flattened_projection ADD COLUMN IF NOT EXISTS is_active BOOLEAN NOT NULL DEFAULT TRUE;
 ALTER TABLE IF EXISTS skills_taxonomy_flattened_projection ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
@@ -1235,11 +1235,11 @@ CREATE TABLE IF NOT EXISTS skills_taxonomy_change_events (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS skills_taxonomy_change_events ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS skills_taxonomy_change_events ADD COLUMN IF NOT EXISTS actor_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS skills_taxonomy_change_events ADD COLUMN IF NOT EXISTS target_type TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS skills_taxonomy_change_events ADD COLUMN IF NOT EXISTS target_id UUID NOT NULL DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS skills_taxonomy_change_events ADD COLUMN IF NOT EXISTS action TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS skills_taxonomy_change_events ADD COLUMN IF NOT EXISTS reason TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS skills_taxonomy_change_events ADD COLUMN IF NOT EXISTS actor_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS skills_taxonomy_change_events ADD COLUMN IF NOT EXISTS target_type TEXT NOT NULL;
+ALTER TABLE IF EXISTS skills_taxonomy_change_events ADD COLUMN IF NOT EXISTS target_id UUID NOT NULL;
+ALTER TABLE IF EXISTS skills_taxonomy_change_events ADD COLUMN IF NOT EXISTS action TEXT NOT NULL;
+ALTER TABLE IF EXISTS skills_taxonomy_change_events ADD COLUMN IF NOT EXISTS reason TEXT NOT NULL;
 ALTER TABLE IF EXISTS skills_taxonomy_change_events ADD COLUMN IF NOT EXISTS metadata JSONB NOT NULL DEFAULT '{}'::jsonb;
 ALTER TABLE IF EXISTS skills_taxonomy_change_events ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
@@ -1328,12 +1328,12 @@ CREATE TABLE IF NOT EXISTS directory_profile_change_events (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS directory_profile_change_events ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS directory_profile_change_events ADD COLUMN IF NOT EXISTS actor_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS directory_profile_change_events ADD COLUMN IF NOT EXISTS command TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS directory_profile_change_events ADD COLUMN IF NOT EXISTS policy_status TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS directory_profile_change_events ADD COLUMN IF NOT EXISTS reason TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS directory_profile_change_events ADD COLUMN IF NOT EXISTS target_type TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS directory_profile_change_events ADD COLUMN IF NOT EXISTS target_id UUID NOT NULL DEFAULT gen_random_uuid();
+ALTER TABLE IF EXISTS directory_profile_change_events ADD COLUMN IF NOT EXISTS actor_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS directory_profile_change_events ADD COLUMN IF NOT EXISTS command TEXT NOT NULL;
+ALTER TABLE IF EXISTS directory_profile_change_events ADD COLUMN IF NOT EXISTS policy_status TEXT NOT NULL;
+ALTER TABLE IF EXISTS directory_profile_change_events ADD COLUMN IF NOT EXISTS reason TEXT NOT NULL;
+ALTER TABLE IF EXISTS directory_profile_change_events ADD COLUMN IF NOT EXISTS target_type TEXT NOT NULL;
+ALTER TABLE IF EXISTS directory_profile_change_events ADD COLUMN IF NOT EXISTS target_id UUID NOT NULL;
 ALTER TABLE IF EXISTS directory_profile_change_events ADD COLUMN IF NOT EXISTS metadata JSONB NOT NULL DEFAULT '{}'::jsonb;
 ALTER TABLE IF EXISTS directory_profile_change_events ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
@@ -1350,13 +1350,13 @@ CREATE TABLE IF NOT EXISTS directory_announcements (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS directory_announcements ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS directory_announcements ADD COLUMN IF NOT EXISTS title TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS directory_announcements ADD COLUMN IF NOT EXISTS body TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS directory_announcements ADD COLUMN IF NOT EXISTS title TEXT NOT NULL;
+ALTER TABLE IF EXISTS directory_announcements ADD COLUMN IF NOT EXISTS body TEXT NOT NULL;
 ALTER TABLE IF EXISTS directory_announcements ADD COLUMN IF NOT EXISTS is_active BOOLEAN NOT NULL DEFAULT TRUE;
 ALTER TABLE IF EXISTS directory_announcements ADD COLUMN IF NOT EXISTS published_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 ALTER TABLE IF EXISTS directory_announcements ADD COLUMN IF NOT EXISTS expires_at TIMESTAMPTZ;
-ALTER TABLE IF EXISTS directory_announcements ADD COLUMN IF NOT EXISTS created_by_user_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS directory_announcements ADD COLUMN IF NOT EXISTS updated_by_user_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS directory_announcements ADD COLUMN IF NOT EXISTS created_by_user_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS directory_announcements ADD COLUMN IF NOT EXISTS updated_by_user_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS directory_announcements ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 ALTER TABLE IF EXISTS directory_announcements ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
@@ -1371,12 +1371,12 @@ CREATE TABLE IF NOT EXISTS directory_deletion_events (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS directory_deletion_events ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS directory_deletion_events ADD COLUMN IF NOT EXISTS user_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS directory_deletion_events ADD COLUMN IF NOT EXISTS scope TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS directory_deletion_events ADD COLUMN IF NOT EXISTS plugin_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS directory_deletion_events ADD COLUMN IF NOT EXISTS user_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS directory_deletion_events ADD COLUMN IF NOT EXISTS scope TEXT NOT NULL;
+ALTER TABLE IF EXISTS directory_deletion_events ADD COLUMN IF NOT EXISTS plugin_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS directory_deletion_events ADD COLUMN IF NOT EXISTS requested_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 ALTER TABLE IF EXISTS directory_deletion_events ADD COLUMN IF NOT EXISTS processed_at TIMESTAMPTZ;
-ALTER TABLE IF EXISTS directory_deletion_events ADD COLUMN IF NOT EXISTS result TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS directory_deletion_events ADD COLUMN IF NOT EXISTS result TEXT NOT NULL;
 ALTER TABLE IF EXISTS directory_deletion_events ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
 -- === LEVELUP MODULE ===
@@ -1408,18 +1408,18 @@ CREATE TABLE IF NOT EXISTS levelup_cohorts (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS title TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS description TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS track TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS seats INTEGER NOT NULL DEFAULT 0;
-ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS start_date DATE NOT NULL DEFAULT CURRENT_DATE;
-ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS end_date DATE NOT NULL DEFAULT CURRENT_DATE;
-ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS required_credits NUMERIC NOT NULL DEFAULT 0;
+ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS title TEXT NOT NULL;
+ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS description TEXT NOT NULL;
+ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS track TEXT NOT NULL;
+ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS seats INTEGER NOT NULL;
+ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS start_date DATE NOT NULL;
+ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS end_date DATE NOT NULL;
+ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS required_credits NUMERIC NOT NULL;
 ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS materials_cost NUMERIC NOT NULL DEFAULT 0;
 ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS device_support BOOLEAN NOT NULL DEFAULT FALSE;
 ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS status TEXT NOT NULL DEFAULT 'draft';
 ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS allow_no_deposit BOOLEAN NOT NULL DEFAULT FALSE;
-ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS trainer_split_percent NUMERIC NOT NULL DEFAULT 0;
+ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS trainer_split_percent NUMERIC NOT NULL;
 ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS completion_bonus_credits NUMERIC NOT NULL DEFAULT 0;
 ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS stipend_mode TEXT NOT NULL DEFAULT 'none';
 ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS stipend_amount_per_payout NUMERIC NOT NULL DEFAULT 0;
@@ -1429,7 +1429,7 @@ ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS microgrant_amount
 ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS refund_policy_json JSONB NOT NULL DEFAULT '{}'::jsonb;
 ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS payout_policy_json JSONB NOT NULL DEFAULT '{}'::jsonb;
 ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS policy_json JSONB NOT NULL DEFAULT '{}'::jsonb;
-ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS created_by_user_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS created_by_user_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 ALTER TABLE IF EXISTS levelup_cohorts ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
@@ -1444,10 +1444,10 @@ CREATE TABLE IF NOT EXISTS levelup_curriculum_items (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS levelup_curriculum_items ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS levelup_curriculum_items ADD COLUMN IF NOT EXISTS cohort_id UUID NOT NULL DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS levelup_curriculum_items ADD COLUMN IF NOT EXISTS title TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS levelup_curriculum_items ADD COLUMN IF NOT EXISTS description TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS levelup_curriculum_items ADD COLUMN IF NOT EXISTS sequence_no INTEGER NOT NULL DEFAULT 0;
+ALTER TABLE IF EXISTS levelup_curriculum_items ADD COLUMN IF NOT EXISTS cohort_id UUID NOT NULL;
+ALTER TABLE IF EXISTS levelup_curriculum_items ADD COLUMN IF NOT EXISTS title TEXT NOT NULL;
+ALTER TABLE IF EXISTS levelup_curriculum_items ADD COLUMN IF NOT EXISTS description TEXT NOT NULL;
+ALTER TABLE IF EXISTS levelup_curriculum_items ADD COLUMN IF NOT EXISTS sequence_no INTEGER NOT NULL;
 ALTER TABLE IF EXISTS levelup_curriculum_items ADD COLUMN IF NOT EXISTS required BOOLEAN NOT NULL DEFAULT TRUE;
 ALTER TABLE IF EXISTS levelup_curriculum_items ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 ALTER TABLE IF EXISTS levelup_curriculum_items ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
@@ -1463,11 +1463,11 @@ CREATE TABLE IF NOT EXISTS levelup_milestones (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS levelup_milestones ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS levelup_milestones ADD COLUMN IF NOT EXISTS cohort_id UUID NOT NULL DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS levelup_milestones ADD COLUMN IF NOT EXISTS name TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS levelup_milestones ADD COLUMN IF NOT EXISTS percent_release NUMERIC NOT NULL DEFAULT 0;
-ALTER TABLE IF EXISTS levelup_milestones ADD COLUMN IF NOT EXISTS required_task TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS levelup_milestones ADD COLUMN IF NOT EXISTS sequence_no INTEGER NOT NULL DEFAULT 0;
+ALTER TABLE IF EXISTS levelup_milestones ADD COLUMN IF NOT EXISTS cohort_id UUID NOT NULL;
+ALTER TABLE IF EXISTS levelup_milestones ADD COLUMN IF NOT EXISTS name TEXT NOT NULL;
+ALTER TABLE IF EXISTS levelup_milestones ADD COLUMN IF NOT EXISTS percent_release NUMERIC NOT NULL;
+ALTER TABLE IF EXISTS levelup_milestones ADD COLUMN IF NOT EXISTS required_task TEXT NOT NULL;
+ALTER TABLE IF EXISTS levelup_milestones ADD COLUMN IF NOT EXISTS sequence_no INTEGER NOT NULL;
 ALTER TABLE IF EXISTS levelup_milestones ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 ALTER TABLE IF EXISTS levelup_milestones ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
@@ -1481,9 +1481,9 @@ CREATE TABLE IF NOT EXISTS levelup_command_idempotency (
   UNIQUE (actor_id, command_name, idempotency_key)
 );
 ALTER TABLE IF EXISTS levelup_command_idempotency ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS levelup_command_idempotency ADD COLUMN IF NOT EXISTS actor_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS levelup_command_idempotency ADD COLUMN IF NOT EXISTS command_name TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS levelup_command_idempotency ADD COLUMN IF NOT EXISTS idempotency_key TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS levelup_command_idempotency ADD COLUMN IF NOT EXISTS actor_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS levelup_command_idempotency ADD COLUMN IF NOT EXISTS command_name TEXT NOT NULL;
+ALTER TABLE IF EXISTS levelup_command_idempotency ADD COLUMN IF NOT EXISTS idempotency_key TEXT NOT NULL;
 ALTER TABLE IF EXISTS levelup_command_idempotency ADD COLUMN IF NOT EXISTS response_payload JSONB NOT NULL DEFAULT '{}'::jsonb;
 ALTER TABLE IF EXISTS levelup_command_idempotency ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
@@ -1499,12 +1499,12 @@ CREATE TABLE IF NOT EXISTS levelup_audit_events (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS levelup_audit_events ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS levelup_audit_events ADD COLUMN IF NOT EXISTS actor_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS levelup_audit_events ADD COLUMN IF NOT EXISTS command TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS levelup_audit_events ADD COLUMN IF NOT EXISTS policy_status TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS levelup_audit_events ADD COLUMN IF NOT EXISTS reason TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS levelup_audit_events ADD COLUMN IF NOT EXISTS target_type TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS levelup_audit_events ADD COLUMN IF NOT EXISTS target_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS levelup_audit_events ADD COLUMN IF NOT EXISTS actor_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS levelup_audit_events ADD COLUMN IF NOT EXISTS command TEXT NOT NULL;
+ALTER TABLE IF EXISTS levelup_audit_events ADD COLUMN IF NOT EXISTS policy_status TEXT NOT NULL;
+ALTER TABLE IF EXISTS levelup_audit_events ADD COLUMN IF NOT EXISTS reason TEXT NOT NULL;
+ALTER TABLE IF EXISTS levelup_audit_events ADD COLUMN IF NOT EXISTS target_type TEXT NOT NULL;
+ALTER TABLE IF EXISTS levelup_audit_events ADD COLUMN IF NOT EXISTS target_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS levelup_audit_events ADD COLUMN IF NOT EXISTS metadata JSONB NOT NULL DEFAULT '{}'::jsonb;
 ALTER TABLE IF EXISTS levelup_audit_events ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
@@ -1535,10 +1535,10 @@ CREATE TABLE IF NOT EXISTS levelup_enrollment_milestone_escrows (
   UNIQUE (enrollment_id, milestone_id)
 );
 ALTER TABLE IF EXISTS levelup_enrollment_milestone_escrows ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS levelup_enrollment_milestone_escrows ADD COLUMN IF NOT EXISTS enrollment_id UUID NOT NULL DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS levelup_enrollment_milestone_escrows ADD COLUMN IF NOT EXISTS milestone_id UUID NOT NULL DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS levelup_enrollment_milestone_escrows ADD COLUMN IF NOT EXISTS escrow_id UUID NOT NULL DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS levelup_enrollment_milestone_escrows ADD COLUMN IF NOT EXISTS held_amount NUMERIC NOT NULL DEFAULT 0;
+ALTER TABLE IF EXISTS levelup_enrollment_milestone_escrows ADD COLUMN IF NOT EXISTS enrollment_id UUID NOT NULL;
+ALTER TABLE IF EXISTS levelup_enrollment_milestone_escrows ADD COLUMN IF NOT EXISTS milestone_id UUID NOT NULL;
+ALTER TABLE IF EXISTS levelup_enrollment_milestone_escrows ADD COLUMN IF NOT EXISTS escrow_id UUID NOT NULL;
+ALTER TABLE IF EXISTS levelup_enrollment_milestone_escrows ADD COLUMN IF NOT EXISTS held_amount NUMERIC NOT NULL;
 ALTER TABLE IF EXISTS levelup_enrollment_milestone_escrows ADD COLUMN IF NOT EXISTS release_status TEXT NOT NULL DEFAULT 'held';
 ALTER TABLE IF EXISTS levelup_enrollment_milestone_escrows ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
@@ -1557,8 +1557,8 @@ CREATE TABLE IF NOT EXISTS levelup_milestone_validations (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS levelup_milestone_validations ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS levelup_milestone_validations ADD COLUMN IF NOT EXISTS enrollment_id UUID NOT NULL DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS levelup_milestone_validations ADD COLUMN IF NOT EXISTS milestone_id UUID NOT NULL DEFAULT gen_random_uuid();
+ALTER TABLE IF EXISTS levelup_milestone_validations ADD COLUMN IF NOT EXISTS enrollment_id UUID NOT NULL;
+ALTER TABLE IF EXISTS levelup_milestone_validations ADD COLUMN IF NOT EXISTS milestone_id UUID NOT NULL;
 ALTER TABLE IF EXISTS levelup_milestone_validations ADD COLUMN IF NOT EXISTS validated_by_user_id TEXT;
 ALTER TABLE IF EXISTS levelup_milestone_validations ADD COLUMN IF NOT EXISTS validation_note TEXT;
 ALTER TABLE IF EXISTS levelup_milestone_validations ADD COLUMN IF NOT EXISTS status TEXT NOT NULL DEFAULT 'pending';
@@ -1584,11 +1584,11 @@ CREATE TABLE IF NOT EXISTS levelup_disputes (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS levelup_disputes ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS levelup_disputes ADD COLUMN IF NOT EXISTS enrollment_id UUID NOT NULL DEFAULT gen_random_uuid();
+ALTER TABLE IF EXISTS levelup_disputes ADD COLUMN IF NOT EXISTS enrollment_id UUID NOT NULL;
 ALTER TABLE IF EXISTS levelup_disputes ADD COLUMN IF NOT EXISTS milestone_id UUID;
-ALTER TABLE IF EXISTS levelup_disputes ADD COLUMN IF NOT EXISTS opened_by_user_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS levelup_disputes ADD COLUMN IF NOT EXISTS title TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS levelup_disputes ADD COLUMN IF NOT EXISTS description TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS levelup_disputes ADD COLUMN IF NOT EXISTS opened_by_user_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS levelup_disputes ADD COLUMN IF NOT EXISTS title TEXT NOT NULL;
+ALTER TABLE IF EXISTS levelup_disputes ADD COLUMN IF NOT EXISTS description TEXT NOT NULL;
 ALTER TABLE IF EXISTS levelup_disputes ADD COLUMN IF NOT EXISTS status TEXT NOT NULL DEFAULT 'open';
 ALTER TABLE IF EXISTS levelup_disputes ADD COLUMN IF NOT EXISTS resolution_comment TEXT;
 ALTER TABLE IF EXISTS levelup_disputes ADD COLUMN IF NOT EXISTS resolved_by_user_id TEXT;
@@ -1605,9 +1605,9 @@ CREATE TABLE IF NOT EXISTS levelup_dispute_comments (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS levelup_dispute_comments ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS levelup_dispute_comments ADD COLUMN IF NOT EXISTS dispute_id UUID NOT NULL DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS levelup_dispute_comments ADD COLUMN IF NOT EXISTS actor_user_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS levelup_dispute_comments ADD COLUMN IF NOT EXISTS body TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS levelup_dispute_comments ADD COLUMN IF NOT EXISTS dispute_id UUID NOT NULL;
+ALTER TABLE IF EXISTS levelup_dispute_comments ADD COLUMN IF NOT EXISTS actor_user_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS levelup_dispute_comments ADD COLUMN IF NOT EXISTS body TEXT NOT NULL;
 ALTER TABLE IF EXISTS levelup_dispute_comments ADD COLUMN IF NOT EXISTS attachment_urls JSONB NOT NULL DEFAULT '[]'::jsonb;
 ALTER TABLE IF EXISTS levelup_dispute_comments ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
@@ -1621,10 +1621,10 @@ CREATE TABLE IF NOT EXISTS levelup_disbursements (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS levelup_disbursements ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS levelup_disbursements ADD COLUMN IF NOT EXISTS enrollment_id UUID NOT NULL DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS levelup_disbursements ADD COLUMN IF NOT EXISTS recipient_user_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS levelup_disbursements ADD COLUMN IF NOT EXISTS enrollment_id UUID NOT NULL;
+ALTER TABLE IF EXISTS levelup_disbursements ADD COLUMN IF NOT EXISTS recipient_user_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS levelup_disbursements ADD COLUMN IF NOT EXISTS disbursement_type TEXT NOT NULL DEFAULT 'trainer_payout';
-ALTER TABLE IF EXISTS levelup_disbursements ADD COLUMN IF NOT EXISTS amount NUMERIC NOT NULL DEFAULT 0;
+ALTER TABLE IF EXISTS levelup_disbursements ADD COLUMN IF NOT EXISTS amount NUMERIC NOT NULL;
 ALTER TABLE IF EXISTS levelup_disbursements ADD COLUMN IF NOT EXISTS metadata JSONB NOT NULL DEFAULT '{}'::jsonb;
 ALTER TABLE IF EXISTS levelup_disbursements ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
@@ -1638,7 +1638,7 @@ CREATE TABLE IF NOT EXISTS foundation_thread_participants (
 );
 ALTER TABLE IF EXISTS foundation_thread_participants ADD COLUMN IF NOT EXISTS thread_id UUID;
 ALTER TABLE IF EXISTS foundation_thread_participants ADD COLUMN IF NOT EXISTS user_id TEXT;
-ALTER TABLE IF EXISTS foundation_thread_participants ADD COLUMN IF NOT EXISTS participant_role TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS foundation_thread_participants ADD COLUMN IF NOT EXISTS participant_role TEXT NOT NULL;
 ALTER TABLE IF EXISTS foundation_thread_participants ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
 CREATE TABLE IF NOT EXISTS foundation_message_metadata (
@@ -1656,12 +1656,12 @@ CREATE TABLE IF NOT EXISTS foundation_message_metadata (
   UNIQUE (thread_id, sender_user_id, client_message_id)
 );
 ALTER TABLE IF EXISTS foundation_message_metadata ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS foundation_message_metadata ADD COLUMN IF NOT EXISTS thread_id UUID NOT NULL DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS foundation_message_metadata ADD COLUMN IF NOT EXISTS sender_user_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS foundation_message_metadata ADD COLUMN IF NOT EXISTS sender_role TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS foundation_message_metadata ADD COLUMN IF NOT EXISTS message_text TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS foundation_message_metadata ADD COLUMN IF NOT EXISTS thread_id UUID NOT NULL;
+ALTER TABLE IF EXISTS foundation_message_metadata ADD COLUMN IF NOT EXISTS sender_user_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS foundation_message_metadata ADD COLUMN IF NOT EXISTS sender_role TEXT NOT NULL;
+ALTER TABLE IF EXISTS foundation_message_metadata ADD COLUMN IF NOT EXISTS message_text TEXT NOT NULL;
 ALTER TABLE IF EXISTS foundation_message_metadata ADD COLUMN IF NOT EXISTS attachments JSONB NOT NULL DEFAULT '[]'::jsonb;
-ALTER TABLE IF EXISTS foundation_message_metadata ADD COLUMN IF NOT EXISTS client_message_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS foundation_message_metadata ADD COLUMN IF NOT EXISTS client_message_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS foundation_message_metadata ADD COLUMN IF NOT EXISTS stream_message_id TEXT;
 ALTER TABLE IF EXISTS foundation_message_metadata ADD COLUMN IF NOT EXISTS moderation_status TEXT NOT NULL DEFAULT 'accepted';
 ALTER TABLE IF EXISTS foundation_message_metadata ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
@@ -1681,12 +1681,12 @@ CREATE TABLE IF NOT EXISTS foundation_notification_events (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS foundation_notification_events ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS foundation_notification_events ADD COLUMN IF NOT EXISTS user_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS foundation_notification_events ADD COLUMN IF NOT EXISTS user_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS foundation_notification_events ADD COLUMN IF NOT EXISTS thread_id UUID;
 ALTER TABLE IF EXISTS foundation_notification_events ADD COLUMN IF NOT EXISTS quote_request_id UUID;
-ALTER TABLE IF EXISTS foundation_notification_events ADD COLUMN IF NOT EXISTS kind TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS foundation_notification_events ADD COLUMN IF NOT EXISTS title TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS foundation_notification_events ADD COLUMN IF NOT EXISTS body TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS foundation_notification_events ADD COLUMN IF NOT EXISTS kind TEXT NOT NULL;
+ALTER TABLE IF EXISTS foundation_notification_events ADD COLUMN IF NOT EXISTS title TEXT NOT NULL;
+ALTER TABLE IF EXISTS foundation_notification_events ADD COLUMN IF NOT EXISTS body TEXT NOT NULL;
 ALTER TABLE IF EXISTS foundation_notification_events ADD COLUMN IF NOT EXISTS metadata JSONB NOT NULL DEFAULT '{}'::jsonb;
 ALTER TABLE IF EXISTS foundation_notification_events ADD COLUMN IF NOT EXISTS is_acknowledged BOOLEAN NOT NULL DEFAULT FALSE;
 ALTER TABLE IF EXISTS foundation_notification_events ADD COLUMN IF NOT EXISTS acknowledged_at TIMESTAMPTZ;
@@ -1703,10 +1703,10 @@ CREATE TABLE IF NOT EXISTS foundation_quote_status_events (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS foundation_quote_status_events ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS foundation_quote_status_events ADD COLUMN IF NOT EXISTS quote_request_id UUID NOT NULL DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS foundation_quote_status_events ADD COLUMN IF NOT EXISTS actor_user_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS foundation_quote_status_events ADD COLUMN IF NOT EXISTS quote_request_id UUID NOT NULL;
+ALTER TABLE IF EXISTS foundation_quote_status_events ADD COLUMN IF NOT EXISTS actor_user_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS foundation_quote_status_events ADD COLUMN IF NOT EXISTS previous_state TEXT;
-ALTER TABLE IF EXISTS foundation_quote_status_events ADD COLUMN IF NOT EXISTS current_state TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS foundation_quote_status_events ADD COLUMN IF NOT EXISTS current_state TEXT NOT NULL;
 ALTER TABLE IF EXISTS foundation_quote_status_events ADD COLUMN IF NOT EXISTS reason TEXT;
 ALTER TABLE IF EXISTS foundation_quote_status_events ADD COLUMN IF NOT EXISTS metadata JSONB NOT NULL DEFAULT '{}'::jsonb;
 ALTER TABLE IF EXISTS foundation_quote_status_events ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
@@ -1750,10 +1750,10 @@ CREATE TABLE IF NOT EXISTS foundation_call_sessions (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS foundation_call_sessions ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS foundation_call_sessions ADD COLUMN IF NOT EXISTS thread_id UUID NOT NULL DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS foundation_call_sessions ADD COLUMN IF NOT EXISTS created_by_user_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS foundation_call_sessions ADD COLUMN IF NOT EXISTS modality TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS foundation_call_sessions ADD COLUMN IF NOT EXISTS stream_call_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS foundation_call_sessions ADD COLUMN IF NOT EXISTS thread_id UUID NOT NULL;
+ALTER TABLE IF EXISTS foundation_call_sessions ADD COLUMN IF NOT EXISTS created_by_user_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS foundation_call_sessions ADD COLUMN IF NOT EXISTS modality TEXT NOT NULL;
+ALTER TABLE IF EXISTS foundation_call_sessions ADD COLUMN IF NOT EXISTS stream_call_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS foundation_call_sessions ADD COLUMN IF NOT EXISTS requested_duration_minutes INTEGER NOT NULL DEFAULT 30;
 ALTER TABLE IF EXISTS foundation_call_sessions ADD COLUMN IF NOT EXISTS status TEXT NOT NULL DEFAULT 'created';
 ALTER TABLE IF EXISTS foundation_call_sessions ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
@@ -1771,12 +1771,12 @@ CREATE TABLE IF NOT EXISTS foundation_admin_audit_trail (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS foundation_admin_audit_trail ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS foundation_admin_audit_trail ADD COLUMN IF NOT EXISTS actor_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS foundation_admin_audit_trail ADD COLUMN IF NOT EXISTS command TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS foundation_admin_audit_trail ADD COLUMN IF NOT EXISTS policy_status TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS foundation_admin_audit_trail ADD COLUMN IF NOT EXISTS reason TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS foundation_admin_audit_trail ADD COLUMN IF NOT EXISTS target_type TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS foundation_admin_audit_trail ADD COLUMN IF NOT EXISTS target_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS foundation_admin_audit_trail ADD COLUMN IF NOT EXISTS actor_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS foundation_admin_audit_trail ADD COLUMN IF NOT EXISTS command TEXT NOT NULL;
+ALTER TABLE IF EXISTS foundation_admin_audit_trail ADD COLUMN IF NOT EXISTS policy_status TEXT NOT NULL;
+ALTER TABLE IF EXISTS foundation_admin_audit_trail ADD COLUMN IF NOT EXISTS reason TEXT NOT NULL;
+ALTER TABLE IF EXISTS foundation_admin_audit_trail ADD COLUMN IF NOT EXISTS target_type TEXT NOT NULL;
+ALTER TABLE IF EXISTS foundation_admin_audit_trail ADD COLUMN IF NOT EXISTS target_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS foundation_admin_audit_trail ADD COLUMN IF NOT EXISTS metadata JSONB NOT NULL DEFAULT '{}'::jsonb;
 ALTER TABLE IF EXISTS foundation_admin_audit_trail ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
@@ -1815,16 +1815,16 @@ CREATE TABLE IF NOT EXISTS socketrelay_requests (
   UNIQUE (owner_user_id, idempotency_key)
 );
 ALTER TABLE IF EXISTS socketrelay_requests ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS socketrelay_requests ADD COLUMN IF NOT EXISTS owner_user_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS socketrelay_requests ADD COLUMN IF NOT EXISTS title TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS socketrelay_requests ADD COLUMN IF NOT EXISTS details TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS socketrelay_requests ADD COLUMN IF NOT EXISTS category TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS socketrelay_requests ADD COLUMN IF NOT EXISTS owner_user_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS socketrelay_requests ADD COLUMN IF NOT EXISTS title TEXT NOT NULL;
+ALTER TABLE IF EXISTS socketrelay_requests ADD COLUMN IF NOT EXISTS details TEXT NOT NULL;
+ALTER TABLE IF EXISTS socketrelay_requests ADD COLUMN IF NOT EXISTS category TEXT NOT NULL;
 ALTER TABLE IF EXISTS socketrelay_requests ADD COLUMN IF NOT EXISTS city TEXT;
 ALTER TABLE IF EXISTS socketrelay_requests ADD COLUMN IF NOT EXISTS is_public BOOLEAN NOT NULL DEFAULT FALSE;
 ALTER TABLE IF EXISTS socketrelay_requests ADD COLUMN IF NOT EXISTS status TEXT NOT NULL DEFAULT 'open';
 ALTER TABLE IF EXISTS socketrelay_requests ADD COLUMN IF NOT EXISTS reopened_count INTEGER NOT NULL DEFAULT 0;
 ALTER TABLE IF EXISTS socketrelay_requests ADD COLUMN IF NOT EXISTS claimed_fulfillment_id UUID;
-ALTER TABLE IF EXISTS socketrelay_requests ADD COLUMN IF NOT EXISTS idempotency_key TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS socketrelay_requests ADD COLUMN IF NOT EXISTS idempotency_key TEXT NOT NULL;
 ALTER TABLE IF EXISTS socketrelay_requests ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 ALTER TABLE IF EXISTS socketrelay_requests ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
@@ -1837,9 +1837,9 @@ CREATE TABLE IF NOT EXISTS socketrelay_request_events (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS socketrelay_request_events ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS socketrelay_request_events ADD COLUMN IF NOT EXISTS request_id UUID NOT NULL DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS socketrelay_request_events ADD COLUMN IF NOT EXISTS actor_user_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS socketrelay_request_events ADD COLUMN IF NOT EXISTS event_name TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS socketrelay_request_events ADD COLUMN IF NOT EXISTS request_id UUID NOT NULL;
+ALTER TABLE IF EXISTS socketrelay_request_events ADD COLUMN IF NOT EXISTS actor_user_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS socketrelay_request_events ADD COLUMN IF NOT EXISTS event_name TEXT NOT NULL;
 ALTER TABLE IF EXISTS socketrelay_request_events ADD COLUMN IF NOT EXISTS metadata JSONB NOT NULL DEFAULT '{}'::jsonb;
 ALTER TABLE IF EXISTS socketrelay_request_events ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
@@ -1854,9 +1854,9 @@ CREATE TABLE IF NOT EXISTS socketrelay_fulfillments (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS socketrelay_fulfillments ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS socketrelay_fulfillments ADD COLUMN IF NOT EXISTS request_id UUID NOT NULL DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS socketrelay_fulfillments ADD COLUMN IF NOT EXISTS requester_user_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS socketrelay_fulfillments ADD COLUMN IF NOT EXISTS fulfiller_user_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS socketrelay_fulfillments ADD COLUMN IF NOT EXISTS request_id UUID NOT NULL;
+ALTER TABLE IF EXISTS socketrelay_fulfillments ADD COLUMN IF NOT EXISTS requester_user_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS socketrelay_fulfillments ADD COLUMN IF NOT EXISTS fulfiller_user_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS socketrelay_fulfillments ADD COLUMN IF NOT EXISTS status TEXT NOT NULL DEFAULT 'active';
 ALTER TABLE IF EXISTS socketrelay_fulfillments ADD COLUMN IF NOT EXISTS close_reason TEXT;
 ALTER TABLE IF EXISTS socketrelay_fulfillments ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
@@ -1871,7 +1871,7 @@ CREATE TABLE IF NOT EXISTS socketrelay_fulfillment_participants (
 );
 ALTER TABLE IF EXISTS socketrelay_fulfillment_participants ADD COLUMN IF NOT EXISTS fulfillment_id UUID;
 ALTER TABLE IF EXISTS socketrelay_fulfillment_participants ADD COLUMN IF NOT EXISTS user_id TEXT;
-ALTER TABLE IF EXISTS socketrelay_fulfillment_participants ADD COLUMN IF NOT EXISTS participant_role TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS socketrelay_fulfillment_participants ADD COLUMN IF NOT EXISTS participant_role TEXT NOT NULL;
 ALTER TABLE IF EXISTS socketrelay_fulfillment_participants ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
 CREATE TABLE IF NOT EXISTS socketrelay_messages (
@@ -1883,9 +1883,9 @@ CREATE TABLE IF NOT EXISTS socketrelay_messages (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS socketrelay_messages ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS socketrelay_messages ADD COLUMN IF NOT EXISTS fulfillment_id UUID NOT NULL DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS socketrelay_messages ADD COLUMN IF NOT EXISTS sender_user_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS socketrelay_messages ADD COLUMN IF NOT EXISTS message_text TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS socketrelay_messages ADD COLUMN IF NOT EXISTS fulfillment_id UUID NOT NULL;
+ALTER TABLE IF EXISTS socketrelay_messages ADD COLUMN IF NOT EXISTS sender_user_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS socketrelay_messages ADD COLUMN IF NOT EXISTS message_text TEXT NOT NULL;
 ALTER TABLE IF EXISTS socketrelay_messages ADD COLUMN IF NOT EXISTS moderation_status TEXT NOT NULL DEFAULT 'accepted';
 ALTER TABLE IF EXISTS socketrelay_messages ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
@@ -1901,12 +1901,12 @@ CREATE TABLE IF NOT EXISTS socketrelay_admin_audit_trail (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS socketrelay_admin_audit_trail ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS socketrelay_admin_audit_trail ADD COLUMN IF NOT EXISTS actor_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS socketrelay_admin_audit_trail ADD COLUMN IF NOT EXISTS command TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS socketrelay_admin_audit_trail ADD COLUMN IF NOT EXISTS policy_status TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS socketrelay_admin_audit_trail ADD COLUMN IF NOT EXISTS reason TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS socketrelay_admin_audit_trail ADD COLUMN IF NOT EXISTS target_type TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS socketrelay_admin_audit_trail ADD COLUMN IF NOT EXISTS target_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS socketrelay_admin_audit_trail ADD COLUMN IF NOT EXISTS actor_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS socketrelay_admin_audit_trail ADD COLUMN IF NOT EXISTS command TEXT NOT NULL;
+ALTER TABLE IF EXISTS socketrelay_admin_audit_trail ADD COLUMN IF NOT EXISTS policy_status TEXT NOT NULL;
+ALTER TABLE IF EXISTS socketrelay_admin_audit_trail ADD COLUMN IF NOT EXISTS reason TEXT NOT NULL;
+ALTER TABLE IF EXISTS socketrelay_admin_audit_trail ADD COLUMN IF NOT EXISTS target_type TEXT NOT NULL;
+ALTER TABLE IF EXISTS socketrelay_admin_audit_trail ADD COLUMN IF NOT EXISTS target_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS socketrelay_admin_audit_trail ADD COLUMN IF NOT EXISTS metadata JSONB NOT NULL DEFAULT '{}'::jsonb;
 ALTER TABLE IF EXISTS socketrelay_admin_audit_trail ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
@@ -1922,12 +1922,12 @@ CREATE TABLE IF NOT EXISTS gdp_metric_snapshots (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS gdp_metric_snapshots ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS gdp_metric_snapshots ADD COLUMN IF NOT EXISTS week_start_date DATE NOT NULL DEFAULT CURRENT_DATE;
-ALTER TABLE IF EXISTS gdp_metric_snapshots ADD COLUMN IF NOT EXISTS metric_key TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS gdp_metric_snapshots ADD COLUMN IF NOT EXISTS metric_value NUMERIC NOT NULL DEFAULT 0;
+ALTER TABLE IF EXISTS gdp_metric_snapshots ADD COLUMN IF NOT EXISTS week_start_date DATE NOT NULL;
+ALTER TABLE IF EXISTS gdp_metric_snapshots ADD COLUMN IF NOT EXISTS metric_key TEXT NOT NULL;
+ALTER TABLE IF EXISTS gdp_metric_snapshots ADD COLUMN IF NOT EXISTS metric_value NUMERIC NOT NULL;
 ALTER TABLE IF EXISTS gdp_metric_snapshots ADD COLUMN IF NOT EXISTS dp_suppressed BOOLEAN NOT NULL DEFAULT FALSE;
-ALTER TABLE IF EXISTS gdp_metric_snapshots ADD COLUMN IF NOT EXISTS lawful_basis TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS gdp_metric_snapshots ADD COLUMN IF NOT EXISTS source_plugin TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS gdp_metric_snapshots ADD COLUMN IF NOT EXISTS lawful_basis TEXT NOT NULL;
+ALTER TABLE IF EXISTS gdp_metric_snapshots ADD COLUMN IF NOT EXISTS source_plugin TEXT NOT NULL;
 ALTER TABLE IF EXISTS gdp_metric_snapshots ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
 CREATE TABLE IF NOT EXISTS gdp_admin_audit_trail (
@@ -1942,12 +1942,12 @@ CREATE TABLE IF NOT EXISTS gdp_admin_audit_trail (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS gdp_admin_audit_trail ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS gdp_admin_audit_trail ADD COLUMN IF NOT EXISTS actor_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS gdp_admin_audit_trail ADD COLUMN IF NOT EXISTS command TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS gdp_admin_audit_trail ADD COLUMN IF NOT EXISTS policy_status TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS gdp_admin_audit_trail ADD COLUMN IF NOT EXISTS reason TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS gdp_admin_audit_trail ADD COLUMN IF NOT EXISTS target_type TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS gdp_admin_audit_trail ADD COLUMN IF NOT EXISTS target_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS gdp_admin_audit_trail ADD COLUMN IF NOT EXISTS actor_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS gdp_admin_audit_trail ADD COLUMN IF NOT EXISTS command TEXT NOT NULL;
+ALTER TABLE IF EXISTS gdp_admin_audit_trail ADD COLUMN IF NOT EXISTS policy_status TEXT NOT NULL;
+ALTER TABLE IF EXISTS gdp_admin_audit_trail ADD COLUMN IF NOT EXISTS reason TEXT NOT NULL;
+ALTER TABLE IF EXISTS gdp_admin_audit_trail ADD COLUMN IF NOT EXISTS target_type TEXT NOT NULL;
+ALTER TABLE IF EXISTS gdp_admin_audit_trail ADD COLUMN IF NOT EXISTS target_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS gdp_admin_audit_trail ADD COLUMN IF NOT EXISTS metadata JSONB NOT NULL DEFAULT '{}'::jsonb;
 ALTER TABLE IF EXISTS gdp_admin_audit_trail ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
@@ -1961,9 +1961,9 @@ CREATE TABLE IF NOT EXISTS mood_submissions (
   submitted_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS mood_submissions ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS mood_submissions ADD COLUMN IF NOT EXISTS user_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS mood_submissions ADD COLUMN IF NOT EXISTS client_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS mood_submissions ADD COLUMN IF NOT EXISTS mood_value INTEGER NOT NULL DEFAULT 0;
+ALTER TABLE IF EXISTS mood_submissions ADD COLUMN IF NOT EXISTS user_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS mood_submissions ADD COLUMN IF NOT EXISTS client_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS mood_submissions ADD COLUMN IF NOT EXISTS mood_value INTEGER NOT NULL;
 ALTER TABLE IF EXISTS mood_submissions ADD COLUMN IF NOT EXISTS note TEXT;
 ALTER TABLE IF EXISTS mood_submissions ADD COLUMN IF NOT EXISTS submitted_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
@@ -1980,11 +1980,11 @@ CREATE TABLE IF NOT EXISTS gentlepulse_library_items (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS gentlepulse_library_items ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS gentlepulse_library_items ADD COLUMN IF NOT EXISTS slug TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS gentlepulse_library_items ADD COLUMN IF NOT EXISTS title TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS gentlepulse_library_items ADD COLUMN IF NOT EXISTS description TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS gentlepulse_library_items ADD COLUMN IF NOT EXISTS media_url TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS gentlepulse_library_items ADD COLUMN IF NOT EXISTS support_route TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS gentlepulse_library_items ADD COLUMN IF NOT EXISTS slug TEXT NOT NULL;
+ALTER TABLE IF EXISTS gentlepulse_library_items ADD COLUMN IF NOT EXISTS title TEXT NOT NULL;
+ALTER TABLE IF EXISTS gentlepulse_library_items ADD COLUMN IF NOT EXISTS description TEXT NOT NULL;
+ALTER TABLE IF EXISTS gentlepulse_library_items ADD COLUMN IF NOT EXISTS media_url TEXT NOT NULL;
+ALTER TABLE IF EXISTS gentlepulse_library_items ADD COLUMN IF NOT EXISTS support_route TEXT NOT NULL;
 ALTER TABLE IF EXISTS gentlepulse_library_items ADD COLUMN IF NOT EXISTS is_active BOOLEAN NOT NULL DEFAULT TRUE;
 ALTER TABLE IF EXISTS gentlepulse_library_items ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 ALTER TABLE IF EXISTS gentlepulse_library_items ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
@@ -2000,7 +2000,7 @@ CREATE TABLE IF NOT EXISTS gentlepulse_play_events (
 ALTER TABLE IF EXISTS gentlepulse_play_events ADD COLUMN IF NOT EXISTS id UUID;
 ALTER TABLE IF EXISTS gentlepulse_play_events ADD COLUMN IF NOT EXISTS user_id TEXT;
 ALTER TABLE IF EXISTS gentlepulse_play_events ADD COLUMN IF NOT EXISTS anonymous_client_id TEXT;
-ALTER TABLE IF EXISTS gentlepulse_play_events ADD COLUMN IF NOT EXISTS item_id UUID NOT NULL DEFAULT gen_random_uuid();
+ALTER TABLE IF EXISTS gentlepulse_play_events ADD COLUMN IF NOT EXISTS item_id UUID NOT NULL;
 ALTER TABLE IF EXISTS gentlepulse_play_events ADD COLUMN IF NOT EXISTS completed BOOLEAN NOT NULL DEFAULT FALSE;
 ALTER TABLE IF EXISTS gentlepulse_play_events ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
@@ -2014,7 +2014,7 @@ CREATE TABLE IF NOT EXISTS gentlepulse_ratings (
 );
 ALTER TABLE IF EXISTS gentlepulse_ratings ADD COLUMN IF NOT EXISTS user_id TEXT;
 ALTER TABLE IF EXISTS gentlepulse_ratings ADD COLUMN IF NOT EXISTS item_id UUID;
-ALTER TABLE IF EXISTS gentlepulse_ratings ADD COLUMN IF NOT EXISTS rating INTEGER NOT NULL DEFAULT 0;
+ALTER TABLE IF EXISTS gentlepulse_ratings ADD COLUMN IF NOT EXISTS rating INTEGER NOT NULL;
 ALTER TABLE IF EXISTS gentlepulse_ratings ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 ALTER TABLE IF EXISTS gentlepulse_ratings ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
@@ -2042,7 +2042,7 @@ CREATE TABLE IF NOT EXISTS legacy_profile_redirects (
 ALTER TABLE IF EXISTS legacy_profile_redirects ADD COLUMN IF NOT EXISTS plugin_slug TEXT;
 ALTER TABLE IF EXISTS legacy_profile_redirects ADD COLUMN IF NOT EXISTS scope TEXT;
 ALTER TABLE IF EXISTS legacy_profile_redirects ADD COLUMN IF NOT EXISTS legacy_entity_id UUID;
-ALTER TABLE IF EXISTS legacy_profile_redirects ADD COLUMN IF NOT EXISTS current_entity_id UUID NOT NULL DEFAULT gen_random_uuid();
+ALTER TABLE IF EXISTS legacy_profile_redirects ADD COLUMN IF NOT EXISTS current_entity_id UUID NOT NULL;
 ALTER TABLE IF EXISTS legacy_profile_redirects ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
 -- === LOGIN EVENTS (engagement) ===
@@ -2050,7 +2050,7 @@ CREATE TABLE IF NOT EXISTS login_events (
   user_id TEXT NOT NULL,
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
-ALTER TABLE IF EXISTS login_events ADD COLUMN IF NOT EXISTS user_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS login_events ADD COLUMN IF NOT EXISTS user_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS login_events ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 CREATE INDEX IF NOT EXISTS idx_login_events_user ON login_events(user_id);
 CREATE INDEX IF NOT EXISTS idx_login_events_created ON login_events(created_at);
@@ -2068,11 +2068,11 @@ CREATE TABLE IF NOT EXISTS peer_programming_cohorts (
   UNIQUE (week_start_date, cohort_label)
 );
 ALTER TABLE IF EXISTS peer_programming_cohorts ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS peer_programming_cohorts ADD COLUMN IF NOT EXISTS week_start_date DATE NOT NULL DEFAULT CURRENT_DATE;
-ALTER TABLE IF EXISTS peer_programming_cohorts ADD COLUMN IF NOT EXISTS cohort_label TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS peer_programming_cohorts ADD COLUMN IF NOT EXISTS week_start_date DATE NOT NULL;
+ALTER TABLE IF EXISTS peer_programming_cohorts ADD COLUMN IF NOT EXISTS cohort_label TEXT NOT NULL;
 ALTER TABLE IF EXISTS peer_programming_cohorts ADD COLUMN IF NOT EXISTS fallback_open BOOLEAN NOT NULL DEFAULT FALSE;
 ALTER TABLE IF EXISTS peer_programming_cohorts ADD COLUMN IF NOT EXISTS topic_id UUID;
-ALTER TABLE IF EXISTS peer_programming_cohorts ADD COLUMN IF NOT EXISTS assigned_by_user_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS peer_programming_cohorts ADD COLUMN IF NOT EXISTS assigned_by_user_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS peer_programming_cohorts ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 ALTER TABLE IF EXISTS peer_programming_cohorts ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
@@ -2084,8 +2084,8 @@ CREATE TABLE IF NOT EXISTS peer_programming_cohort_members (
   UNIQUE (cohort_id, user_id)
 );
 ALTER TABLE IF EXISTS peer_programming_cohort_members ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS peer_programming_cohort_members ADD COLUMN IF NOT EXISTS cohort_id UUID NOT NULL DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS peer_programming_cohort_members ADD COLUMN IF NOT EXISTS user_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS peer_programming_cohort_members ADD COLUMN IF NOT EXISTS cohort_id UUID NOT NULL;
+ALTER TABLE IF EXISTS peer_programming_cohort_members ADD COLUMN IF NOT EXISTS user_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS peer_programming_cohort_members ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
 CREATE TABLE IF NOT EXISTS peer_programming_messages (
@@ -2098,11 +2098,11 @@ CREATE TABLE IF NOT EXISTS peer_programming_messages (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS peer_programming_messages ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS peer_programming_messages ADD COLUMN IF NOT EXISTS cohort_id UUID NOT NULL DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS peer_programming_messages ADD COLUMN IF NOT EXISTS author_user_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS peer_programming_messages ADD COLUMN IF NOT EXISTS cohort_id UUID NOT NULL;
+ALTER TABLE IF EXISTS peer_programming_messages ADD COLUMN IF NOT EXISTS author_user_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS peer_programming_messages ADD COLUMN IF NOT EXISTS parent_message_id UUID;
-ALTER TABLE IF EXISTS peer_programming_messages ADD COLUMN IF NOT EXISTS body TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS peer_programming_messages ADD COLUMN IF NOT EXISTS tier TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS peer_programming_messages ADD COLUMN IF NOT EXISTS body TEXT NOT NULL;
+ALTER TABLE IF EXISTS peer_programming_messages ADD COLUMN IF NOT EXISTS tier TEXT NOT NULL;
 ALTER TABLE IF EXISTS peer_programming_messages ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
 CREATE TABLE IF NOT EXISTS peer_programming_feedback (
@@ -2117,11 +2117,11 @@ CREATE TABLE IF NOT EXISTS peer_programming_feedback (
 );
 ALTER TABLE IF EXISTS peer_programming_feedback ADD COLUMN IF NOT EXISTS id UUID;
 ALTER TABLE IF EXISTS peer_programming_feedback ADD COLUMN IF NOT EXISTS cohort_id UUID;
-ALTER TABLE IF EXISTS peer_programming_feedback ADD COLUMN IF NOT EXISTS user_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS peer_programming_feedback ADD COLUMN IF NOT EXISTS issue_type TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS peer_programming_feedback ADD COLUMN IF NOT EXISTS suggestion_category TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS peer_programming_feedback ADD COLUMN IF NOT EXISTS release_surface TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS peer_programming_feedback ADD COLUMN IF NOT EXISTS note TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS peer_programming_feedback ADD COLUMN IF NOT EXISTS user_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS peer_programming_feedback ADD COLUMN IF NOT EXISTS issue_type TEXT NOT NULL;
+ALTER TABLE IF EXISTS peer_programming_feedback ADD COLUMN IF NOT EXISTS suggestion_category TEXT NOT NULL;
+ALTER TABLE IF EXISTS peer_programming_feedback ADD COLUMN IF NOT EXISTS release_surface TEXT NOT NULL;
+ALTER TABLE IF EXISTS peer_programming_feedback ADD COLUMN IF NOT EXISTS note TEXT NOT NULL;
 ALTER TABLE IF EXISTS peer_programming_feedback ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
 CREATE TABLE IF NOT EXISTS peer_programming_assignment_notifications (
@@ -2134,9 +2134,9 @@ CREATE TABLE IF NOT EXISTS peer_programming_assignment_notifications (
   UNIQUE (user_id, idempotency_key)
 );
 ALTER TABLE IF EXISTS peer_programming_assignment_notifications ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS peer_programming_assignment_notifications ADD COLUMN IF NOT EXISTS cohort_id UUID NOT NULL DEFAULT gen_random_uuid();
-ALTER TABLE IF EXISTS peer_programming_assignment_notifications ADD COLUMN IF NOT EXISTS user_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS peer_programming_assignment_notifications ADD COLUMN IF NOT EXISTS idempotency_key TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS peer_programming_assignment_notifications ADD COLUMN IF NOT EXISTS cohort_id UUID NOT NULL;
+ALTER TABLE IF EXISTS peer_programming_assignment_notifications ADD COLUMN IF NOT EXISTS user_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS peer_programming_assignment_notifications ADD COLUMN IF NOT EXISTS idempotency_key TEXT NOT NULL;
 ALTER TABLE IF EXISTS peer_programming_assignment_notifications ADD COLUMN IF NOT EXISTS payload JSONB NOT NULL DEFAULT '{}'::jsonb;
 ALTER TABLE IF EXISTS peer_programming_assignment_notifications ADD COLUMN IF NOT EXISTS delivered_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
@@ -2152,12 +2152,12 @@ CREATE TABLE IF NOT EXISTS peer_programming_admin_audit_trail (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS peer_programming_admin_audit_trail ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS peer_programming_admin_audit_trail ADD COLUMN IF NOT EXISTS actor_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS peer_programming_admin_audit_trail ADD COLUMN IF NOT EXISTS command TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS peer_programming_admin_audit_trail ADD COLUMN IF NOT EXISTS policy_status TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS peer_programming_admin_audit_trail ADD COLUMN IF NOT EXISTS reason TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS peer_programming_admin_audit_trail ADD COLUMN IF NOT EXISTS target_type TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS peer_programming_admin_audit_trail ADD COLUMN IF NOT EXISTS target_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS peer_programming_admin_audit_trail ADD COLUMN IF NOT EXISTS actor_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS peer_programming_admin_audit_trail ADD COLUMN IF NOT EXISTS command TEXT NOT NULL;
+ALTER TABLE IF EXISTS peer_programming_admin_audit_trail ADD COLUMN IF NOT EXISTS policy_status TEXT NOT NULL;
+ALTER TABLE IF EXISTS peer_programming_admin_audit_trail ADD COLUMN IF NOT EXISTS reason TEXT NOT NULL;
+ALTER TABLE IF EXISTS peer_programming_admin_audit_trail ADD COLUMN IF NOT EXISTS target_type TEXT NOT NULL;
+ALTER TABLE IF EXISTS peer_programming_admin_audit_trail ADD COLUMN IF NOT EXISTS target_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS peer_programming_admin_audit_trail ADD COLUMN IF NOT EXISTS metadata JSONB NOT NULL DEFAULT '{}'::jsonb;
 ALTER TABLE IF EXISTS peer_programming_admin_audit_trail ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
@@ -2188,9 +2188,9 @@ CREATE TABLE IF NOT EXISTS trust_admin_audit_trail (
 );
 ALTER TABLE IF EXISTS trust_admin_audit_trail ADD COLUMN IF NOT EXISTS id UUID;
 ALTER TABLE IF EXISTS trust_admin_audit_trail ADD COLUMN IF NOT EXISTS actor_user_id TEXT;
-ALTER TABLE IF EXISTS trust_admin_audit_trail ADD COLUMN IF NOT EXISTS command TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS trust_admin_audit_trail ADD COLUMN IF NOT EXISTS policy_status TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS trust_admin_audit_trail ADD COLUMN IF NOT EXISTS reason TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS trust_admin_audit_trail ADD COLUMN IF NOT EXISTS command TEXT NOT NULL;
+ALTER TABLE IF EXISTS trust_admin_audit_trail ADD COLUMN IF NOT EXISTS policy_status TEXT NOT NULL;
+ALTER TABLE IF EXISTS trust_admin_audit_trail ADD COLUMN IF NOT EXISTS reason TEXT NOT NULL;
 ALTER TABLE IF EXISTS trust_admin_audit_trail ADD COLUMN IF NOT EXISTS target_user_id TEXT;
 ALTER TABLE IF EXISTS trust_admin_audit_trail ADD COLUMN IF NOT EXISTS request_id TEXT;
 ALTER TABLE IF EXISTS trust_admin_audit_trail ADD COLUMN IF NOT EXISTS metadata JSONB NOT NULL DEFAULT '{}'::jsonb;
@@ -2207,11 +2207,11 @@ CREATE TABLE IF NOT EXISTS weekly_performance_metrics (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS weekly_performance_metrics ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS weekly_performance_metrics ADD COLUMN IF NOT EXISTS week_start_date DATE NOT NULL DEFAULT CURRENT_DATE;
-ALTER TABLE IF EXISTS weekly_performance_metrics ADD COLUMN IF NOT EXISTS metric_key TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS weekly_performance_metrics ADD COLUMN IF NOT EXISTS metric_value NUMERIC NOT NULL DEFAULT 0;
-ALTER TABLE IF EXISTS weekly_performance_metrics ADD COLUMN IF NOT EXISTS metric_unit TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS weekly_performance_metrics ADD COLUMN IF NOT EXISTS source_plugin TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS weekly_performance_metrics ADD COLUMN IF NOT EXISTS week_start_date DATE NOT NULL;
+ALTER TABLE IF EXISTS weekly_performance_metrics ADD COLUMN IF NOT EXISTS metric_key TEXT NOT NULL;
+ALTER TABLE IF EXISTS weekly_performance_metrics ADD COLUMN IF NOT EXISTS metric_value NUMERIC NOT NULL;
+ALTER TABLE IF EXISTS weekly_performance_metrics ADD COLUMN IF NOT EXISTS metric_unit TEXT NOT NULL;
+ALTER TABLE IF EXISTS weekly_performance_metrics ADD COLUMN IF NOT EXISTS source_plugin TEXT NOT NULL;
 ALTER TABLE IF EXISTS weekly_performance_metrics ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
 CREATE TABLE IF NOT EXISTS weekly_performance_audit_trail (
@@ -2226,12 +2226,12 @@ CREATE TABLE IF NOT EXISTS weekly_performance_audit_trail (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS weekly_performance_audit_trail ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS weekly_performance_audit_trail ADD COLUMN IF NOT EXISTS actor_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS weekly_performance_audit_trail ADD COLUMN IF NOT EXISTS command TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS weekly_performance_audit_trail ADD COLUMN IF NOT EXISTS policy_status TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS weekly_performance_audit_trail ADD COLUMN IF NOT EXISTS reason TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS weekly_performance_audit_trail ADD COLUMN IF NOT EXISTS target_type TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS weekly_performance_audit_trail ADD COLUMN IF NOT EXISTS target_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS weekly_performance_audit_trail ADD COLUMN IF NOT EXISTS actor_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS weekly_performance_audit_trail ADD COLUMN IF NOT EXISTS command TEXT NOT NULL;
+ALTER TABLE IF EXISTS weekly_performance_audit_trail ADD COLUMN IF NOT EXISTS policy_status TEXT NOT NULL;
+ALTER TABLE IF EXISTS weekly_performance_audit_trail ADD COLUMN IF NOT EXISTS reason TEXT NOT NULL;
+ALTER TABLE IF EXISTS weekly_performance_audit_trail ADD COLUMN IF NOT EXISTS target_type TEXT NOT NULL;
+ALTER TABLE IF EXISTS weekly_performance_audit_trail ADD COLUMN IF NOT EXISTS target_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS weekly_performance_audit_trail ADD COLUMN IF NOT EXISTS metadata JSONB NOT NULL DEFAULT '{}'::jsonb;
 ALTER TABLE IF EXISTS weekly_performance_audit_trail ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
@@ -2247,9 +2247,9 @@ CREATE TABLE IF NOT EXISTS workforce_export_jobs (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS workforce_export_jobs ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS workforce_export_jobs ADD COLUMN IF NOT EXISTS created_by_user_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS workforce_export_jobs ADD COLUMN IF NOT EXISTS created_by_user_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS workforce_export_jobs ADD COLUMN IF NOT EXISTS status TEXT NOT NULL DEFAULT 'pending';
-ALTER TABLE IF EXISTS workforce_export_jobs ADD COLUMN IF NOT EXISTS export_type TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS workforce_export_jobs ADD COLUMN IF NOT EXISTS export_type TEXT NOT NULL;
 ALTER TABLE IF EXISTS workforce_export_jobs ADD COLUMN IF NOT EXISTS export_data JSONB NOT NULL DEFAULT '{}'::jsonb;
 ALTER TABLE IF EXISTS workforce_export_jobs ADD COLUMN IF NOT EXISTS completed_at TIMESTAMPTZ;
 ALTER TABLE IF EXISTS workforce_export_jobs ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
@@ -2267,12 +2267,12 @@ CREATE TABLE IF NOT EXISTS workforce_admin_audit_trail (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 ALTER TABLE IF EXISTS workforce_admin_audit_trail ADD COLUMN IF NOT EXISTS id UUID;
-ALTER TABLE IF EXISTS workforce_admin_audit_trail ADD COLUMN IF NOT EXISTS actor_id TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS workforce_admin_audit_trail ADD COLUMN IF NOT EXISTS command TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS workforce_admin_audit_trail ADD COLUMN IF NOT EXISTS policy_status TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS workforce_admin_audit_trail ADD COLUMN IF NOT EXISTS reason TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS workforce_admin_audit_trail ADD COLUMN IF NOT EXISTS target_type TEXT NOT NULL DEFAULT '';
-ALTER TABLE IF EXISTS workforce_admin_audit_trail ADD COLUMN IF NOT EXISTS target_id TEXT NOT NULL DEFAULT '';
+ALTER TABLE IF EXISTS workforce_admin_audit_trail ADD COLUMN IF NOT EXISTS actor_id TEXT NOT NULL;
+ALTER TABLE IF EXISTS workforce_admin_audit_trail ADD COLUMN IF NOT EXISTS command TEXT NOT NULL;
+ALTER TABLE IF EXISTS workforce_admin_audit_trail ADD COLUMN IF NOT EXISTS policy_status TEXT NOT NULL;
+ALTER TABLE IF EXISTS workforce_admin_audit_trail ADD COLUMN IF NOT EXISTS reason TEXT NOT NULL;
+ALTER TABLE IF EXISTS workforce_admin_audit_trail ADD COLUMN IF NOT EXISTS target_type TEXT NOT NULL;
+ALTER TABLE IF EXISTS workforce_admin_audit_trail ADD COLUMN IF NOT EXISTS target_id TEXT NOT NULL;
 ALTER TABLE IF EXISTS workforce_admin_audit_trail ADD COLUMN IF NOT EXISTS metadata JSONB NOT NULL DEFAULT '{}'::jsonb;
 ALTER TABLE IF EXISTS workforce_admin_audit_trail ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
