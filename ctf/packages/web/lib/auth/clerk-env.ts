@@ -122,15 +122,17 @@ export function isSignInUrlExternal(): boolean {
 export function getClerkRuntimeOptions(): {
   publishableKey?: string;
   secretKey?: string;
-  signInUrl?: string;
 } {
   const publishableKey = getClerkPublishableKey();
   const secretKey = getClerkSecretKey();
-  const signInUrl = isSignInUrlExternal() ? getClerkSignInUrl() : undefined;
 
+  // signInUrl is intentionally NOT passed to clerkMiddleware().
+  // When signInUrl is set, auth().protect() does a plain HTTP redirect,
+  // bypassing Clerk's built-in Account Portal session handshake. Without it,
+  // Clerk auto-detects the Account Portal and performs the proper satellite
+  // auth flow (handshake → Account Portal → sync session cookie back).
   return {
     ...(publishableKey ? { publishableKey } : {}),
     ...(secretKey ? { secretKey } : {}),
-    ...(signInUrl ? { signInUrl } : {}),
   };
 }
