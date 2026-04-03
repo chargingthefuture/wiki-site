@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { SignInButton, useUser } from 'lib/auth/clerk-wrapper';
 import type { PluginRegistryItem } from '../../lib/plugins/repository';
 import type { PluginSortMode } from './shell-types';
 import { getPluginVisuals } from './shell-plugin-config';
@@ -19,6 +20,8 @@ type ShellAppsPanelProps = {
 };
 
 export function ShellAppsPanel({ plugins, activeApp, onAppSelect, sortMode, onSortModeChange }: ShellAppsPanelProps) {
+  const { user } = useUser();
+
   return (
     <div className={styles.appsPanel}>
       <div className={styles.appsPanelHeader}>
@@ -49,6 +52,7 @@ export function ShellAppsPanel({ plugins, activeApp, onAppSelect, sortMode, onSo
         {plugins.map((plugin) => {
           const { emoji, color, bg } = getPluginVisuals(plugin.slug);
           const isActive = activeApp === plugin.slug;
+          const pluginHref = getPluginHref(plugin.slug);
           return (
             <div
               key={plugin.slug}
@@ -75,14 +79,27 @@ export function ShellAppsPanel({ plugins, activeApp, onAppSelect, sortMode, onSo
               </div>
               <p className={styles.appCardName}>{plugin.name}</p>
               <p className={styles.appCardDesc}>{plugin.summary}</p>
-              <Link
-                href={getPluginHref(plugin.slug)}
-                className={styles.appCardAction}
-                style={{ color, borderColor: `${color}35`, background: `${color}15` }}
-                onClick={(e) => e.stopPropagation()}
-              >
-                Open plugin →
-              </Link>
+              {user ? (
+                <Link
+                  href={pluginHref}
+                  className={styles.appCardAction}
+                  style={{ color, borderColor: `${color}35`, background: `${color}15` }}
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  Open plugin →
+                </Link>
+              ) : (
+                <SignInButton mode="redirect" forceRedirectUrl={pluginHref} fallbackRedirectUrl={pluginHref}>
+                  <button
+                    type="button"
+                    className={styles.appCardAction}
+                    style={{ color, borderColor: `${color}35`, background: `${color}15` }}
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    Open plugin →
+                  </button>
+                </SignInButton>
+              )}
             </div>
           );
         })}
