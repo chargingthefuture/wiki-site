@@ -85,6 +85,40 @@ export function getClerkAfterSignOutUrl(): string | undefined {
   return afterSignOutUrl.toString();
 }
 
+/**
+ * Returns true when the configured sign-in URL lives on a different host
+ * (e.g. Clerk Account Portal) and should be passed to ClerkProvider /
+ * clerkMiddleware. When the URL is relative or same-origin it is omitted so
+ * Clerk falls back to its native Account Portal redirect flow.
+ */
+export function isSignInUrlExternal(): boolean {
+  const signInUrl = getClerkSignInUrl();
+  if (!signInUrl) {
+    return false;
+  }
+
+  // Relative paths are same-origin by definition.
+  if (signInUrl.startsWith('/')) {
+    return false;
+  }
+
+  const parsedSignIn = parseUrl(signInUrl);
+  if (!parsedSignIn) {
+    return false;
+  }
+
+  const appUrl = getAppUrl();
+  const parsedApp = parseUrl(appUrl);
+
+  // If we cannot determine the app's own host, treat the sign-in URL as
+  // external to avoid silently swallowing a configured value.
+  if (!parsedApp) {
+    return true;
+  }
+
+  return parsedSignIn.hostname !== parsedApp.hostname;
+}
+
 export function getClerkRuntimeOptions(): {
   publishableKey?: string;
   secretKey?: string;
@@ -92,7 +126,7 @@ export function getClerkRuntimeOptions(): {
 } {
   const publishableKey = getClerkPublishableKey();
   const secretKey = getClerkSecretKey();
-  const signInUrl = getClerkSignInUrl();
+  const signInUrl = isSignInUrlExternal() ? getClerkSignInUrl() : undefined;
 
   return {
     ...(publishableKey ? { publishableKey } : {}),
