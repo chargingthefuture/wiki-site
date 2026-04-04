@@ -1,5 +1,3 @@
-import { SignUp } from 'lib/auth/clerk-wrapper';
-
 export default function SignUpPage() {
   return (
     <div
@@ -11,7 +9,7 @@ export default function SignUpPage() {
         background: '#0F1117',
       }}
     >
-      <SignUp />
+      <p>Sign up is not available.</p>
     </div>
   );
 }

@@ -13,7 +13,6 @@
     "search.followSymlinks": false,
     // Use minimal tree indent
     "workbench.tree.indent": 8,
-    // Disable editor minimap (already set, but ensure)
     "editor.minimap.enabled": false,
     // Limit open editors
     "workbench.editor.limit.value": 1,
@@ -21,10 +20,8 @@
     "editor.smoothScrolling": false,
     // Hide breadcrumbs
     "breadcrumbs.enabled": false,
-    // Hide welcome page
-    "workbench.startupEditor": "none",
     // Hide unused side bar
-    "workbench.sideBar.location": "left",
+    "workbench.sideBar.location": "right",
     // Lower tab close delay
     "workbench.editor.closeOnFileDelete": true,
     "workbench.colorTheme": "Dark+",
@@ -35,10 +32,7 @@
     
     "editor.renderWhitespace": "none",
     "editor.bracketPairColorization.enabled": false,
-    "editor.minimap.enabled": false,
-    "editor.scrollbar.vertical": "hidden",
-    "editor.wordWrap": "on",
-    
+    "editor.scrollbar.vertical": "hidden",    
     "workbench.colorCustomizations": {
         "editor.background": "#20242b",
         "editor.foreground": "#b9c1c9",
@@ -68,5 +62,23 @@
     "workbench.activityBar.location": "hidden",
     "extensions.autoUpdate": false,
     "extensions.ignoreRecommendations": true,
-    "workbench.extensions.showRecommendationsOnInstall": false
+    "workbench.extensions.showRecommendationsOnInstall": false,
+      "workbench.layout.activityBar.location": "side",
+  "workbench.sideBar.location": "right",
+  "workbench.editor.showTabs": true,
+  "workbench.panel.defaultLocation": "bottom",
+  "workbench.panel.opensMaximized": false,
+  "workbench.panel.size": 300,
+  "terminal.integrated.defaultLocation": "bottom",
+  "terminal.integrated.splitCside": "horizontal",
+  "markdown.preview.breaks": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "markdown.extension.preview.autoShowPreviewToSide": true,
+  "files.autoSave": "afterDelay",
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "workbench.startupEditor": "none"
 }

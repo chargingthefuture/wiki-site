@@ -1,7 +1,6 @@
 'use client';
 
-import { SignedIn, SignedOut, SignInButton, UserButton } from 'lib/auth/clerk-wrapper';
-import { MessageSquare, Zap, Bell, Settings, User } from 'lucide-react';
+import { MessageSquare, Zap, Bell, Settings } from 'lucide-react';
 import type { ShellSection } from './shell-types';
 import styles from './community-shell.module.css';
 
@@ -39,15 +38,6 @@ export function ShellIconRail({ section, onSectionChange }: IconRailProps) {
 
       <button type="button" className={styles.iconRailBtn} aria-label="Notifications"><Bell size={18} /></button>
       <button type="button" className={styles.iconRailBtn} aria-label="Settings"><Settings size={18} /></button>
-
-      <SignedIn>
-        <UserButton />
-      </SignedIn>
-      <SignedOut>
-        <SignInButton>
-          <button type="button" className={styles.iconRailBtn} aria-label="Sign in"><User size={18} /></button>
-        </SignInButton>
-      </SignedOut>
     </aside>
   );
 }

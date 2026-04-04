@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
-import { currentUser } from '@clerk/nextjs/server';
+// Clerk removed - auth disabled
+// import { currentUser } from '@clerk/nextjs/server';
 import { evaluatePluginAccess, type AllowDecision } from 'lib/auth/server-authz';
 
 export type ChymeApiIdentity = {
@@ -52,18 +53,16 @@ export async function requireChymeAccess(): Promise<ChymeApiGate> {
     };
   }
 
-  const user = await currentUser();
-
   const identity: ChymeApiIdentity = {
     userId: authDecision.userId,
     username: authDecision.username,
     displayName: buildDisplayName(
       authDecision.username,
-      user?.firstName ?? null,
-      user?.lastName ?? null,
+      'Local', // firstName
+      'User',  // lastName
       authDecision.userId,
     ),
-    avatarUrl: user?.imageUrl ?? null,
+    avatarUrl: null,
   };
 
   return {

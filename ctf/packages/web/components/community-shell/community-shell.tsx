@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import { SignedIn } from 'lib/auth/clerk-wrapper';
 import type { PluginRegistryItem } from '../../lib/plugins/repository';
 import type { PluginSortMode, ShellSection, ShellStats } from './shell-types';
 import { ShellIconRail } from './shell-icon-rail';
@@ -200,11 +199,9 @@ export function CommunityShell({ initialPlugins, shellStats }: CommunityShellPro
           onQueryChange={setQuery}
         />
         <main className={`${styles.panel} ${styles.content}`}>
-          <SignedIn>
-            {loadError ? (
-              <section className={styles.usernameAlert} role="alert">{loadError}</section>
-            ) : null}
-          </SignedIn>
+          {loadError ? (
+            <section className={styles.usernameAlert} role="alert">{loadError}</section>
+          ) : null}
           {section === 'chat' ? (
             <ShellChatPanel stats={shellStats} plugins={filteredPlugins} />
           ) : (

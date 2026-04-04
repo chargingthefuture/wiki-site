@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import { SignInButton, useUser } from 'lib/auth/clerk-wrapper';
 import type { ShellSection } from './shell-types';
 import type { PluginRegistryItem } from '../../lib/plugins/repository';
 import { getPluginVisuals } from './shell-plugin-config';
@@ -33,7 +32,6 @@ export function ShellSidebar({
   query,
   onQueryChange,
 }: ShellSidebarProps) {
-  const { user } = useUser();
   const placeholder = section === 'chat' ? 'Search channels…' : 'Search apps…';
 
   return (
@@ -55,19 +53,10 @@ export function ShellSidebar({
         {section === 'chat' ? (
           <>
             {STATIC_CHANNELS.map((ch) => (
-              user ? (
-                <Link key={ch.name} href={ch.href} className={styles.sidebarChannel}>
-                  <span className={styles.sidebarChannelHash}>#</span>
-                  <span className={styles.sidebarChannelName}>{ch.name}</span>
-                </Link>
-              ) : (
-                <SignInButton key={ch.name} mode="redirect" forceRedirectUrl={ch.href} fallbackRedirectUrl={ch.href}>
-                  <button type="button" className={styles.sidebarChannel}>
-                    <span className={styles.sidebarChannelHash}>#</span>
-                    <span className={styles.sidebarChannelName}>{ch.name}</span>
-                  </button>
-                </SignInButton>
-              )
+              <Link key={ch.name} href={ch.href} className={styles.sidebarChannel}>
+                <span className={styles.sidebarChannelHash}>#</span>
+                <span className={styles.sidebarChannelName}>{ch.name}</span>
+              </Link>
             ))}
             <p className={styles.sidebarGroupLabel}>Direct Messages</p>
             {STATIC_DMS.map((name) => (

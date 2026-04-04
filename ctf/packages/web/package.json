@@ -15,7 +15,6 @@
     "check:formance-env": "node ./scripts/check-formance-env.mjs"
   },
   "dependencies": {
-    "@clerk/nextjs": "^5.0.0",
     "@radix-ui/react-dialog": "^1.1.2",
     "@sentry/nextjs": "^10.21.0",
     "lucide-react": "^1.6.0",

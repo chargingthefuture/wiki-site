@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import { SignInButton, useUser } from 'lib/auth/clerk-wrapper';
 import type { ShellStats } from './shell-types';
 import type { PluginRegistryItem } from '../../lib/plugins/repository';
 import { getPluginVisuals } from './shell-plugin-config';
@@ -25,15 +24,14 @@ type ShellRightRailProps = {
 };
 
 export function ShellRightRail({ stats, readyApps, implementedCount }: ShellRightRailProps) {
-  const { user } = useUser();
-  const displayName = user?.firstName ?? user?.username ?? 'Survivor';
-  const initial = displayName.slice(0, 1).toUpperCase();
+  const displayName = 'Survivor';
+  const initial = 'S';
   const gdpValue = stats.gdpValueUsd ?? 0;
   const progressPct = GDP_GOAL > 0 ? Math.min(100, Math.round((gdpValue / GDP_GOAL) * 100)) : 0;
 
   // TODO: Replace with real trust fetch logic (async effect, etc.)
   const trust: TrustUserExtension = {
-    userId: user?.id ?? 'unknown',
+    userId: 'local_user',
     trustStatus: 'unverified',
     trustEvidence: [],
     trustVisibility: 'public',
@@ -65,29 +63,15 @@ export function ShellRightRail({ stats, readyApps, implementedCount }: ShellRigh
             const pluginHref = `/apps/${plugin.slug}`;
             return (
               <li key={plugin.slug}>
-                {user ? (
-                  <Link
-                    href={pluginHref}
-                    className={styles.memberItem}
-                    style={{ borderColor: `${color}20` }}
-                  >
-                    <span aria-hidden="true">{emoji}</span>
-                    <span className={styles.memberItemName}>{plugin.name}</span>
-                    <span className={styles.memberItemGate} style={{ color }}>Ready</span>
-                  </Link>
-                ) : (
-                  <SignInButton mode="redirect" forceRedirectUrl={pluginHref} fallbackRedirectUrl={pluginHref}>
-                    <button
-                      type="button"
-                      className={styles.memberItem}
-                      style={{ borderColor: `${color}20` }}
-                    >
-                      <span aria-hidden="true">{emoji}</span>
-                      <span className={styles.memberItemName}>{plugin.name}</span>
-                      <span className={styles.memberItemGate} style={{ color }}>Ready</span>
-                    </button>
-                  </SignInButton>
-                )}
+                <Link
+                  href={pluginHref}
+                  className={styles.memberItem}
+                  style={{ borderColor: `${color}20` }}
+                >
+                  <span aria-hidden="true">{emoji}</span>
+                  <span className={styles.memberItemName}>{plugin.name}</span>
+                  <span className={styles.memberItemGate} style={{ color }}>Ready</span>
+                </Link>
               </li>
             );
           })}
@@ -117,13 +101,7 @@ export function ShellRightRail({ stats, readyApps, implementedCount }: ShellRigh
       </section>
 
       <div className={styles.authActions}>
-        {user ? (
-          <Link className={styles.subtleButton} href="/apps/chyme">Open Chyme</Link>
-        ) : (
-          <SignInButton mode="redirect" forceRedirectUrl="/apps/chyme" fallbackRedirectUrl="/apps/chyme">
-            <button type="button" className={styles.subtleButton}>Open Chyme</button>
-          </SignInButton>
-        )}
+        <Link className={styles.subtleButton} href="/apps/chyme">Open Chyme</Link>
       </div>
     </aside>
   );
