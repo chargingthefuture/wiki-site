@@ -16,6 +16,7 @@ platform/dist/
 # ctf rewrite build artifacts and local env
 ctf/packages/web/.next/
 ctf/packages/web/.env.local
+ctf/packages/web/tsconfig.tsbuildinfo
 ctf/packages/mobile/.expo/
 ctf/packages/mobile/.env
 ctf/packages/mobile/.env.local
