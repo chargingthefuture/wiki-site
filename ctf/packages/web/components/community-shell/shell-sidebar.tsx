@@ -16,10 +16,7 @@ type ShellSidebarProps = {
 };
 
 const STATIC_CHANNELS = [
-  { name: 'general', href: '/apps/chyme' },
-  { name: 'housing-help', href: '/apps/lighthouse' },
-  { name: 'skills-trade', href: '/apps/chyme' },
-  { name: 'mutual-aid', href: '/apps/socketrelay' },
+  { name: 'community-support', href: '/apps/chyme' },
 ];
 
 const STATIC_DMS = [
@@ -39,7 +36,7 @@ export function ShellSidebar({
   return (
     <aside className={`${styles.panel} ${styles.leftNav}`}>
       <div className={styles.sidebarHeader}>
-        <p className={styles.sectionTitle}>{section === 'chat' ? 'Channels' : 'Mini-Apps'}</p>
+        <p className={styles.sectionTitle}>{section === 'chat' ? 'Channel' : 'Mini-Apps'}</p>
         {section === 'apps' ? (
           <>
             <label className={styles.visuallyHidden} htmlFor="sidebar-search">Search apps…</label>
