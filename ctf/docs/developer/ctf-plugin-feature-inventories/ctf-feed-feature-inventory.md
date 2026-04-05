@@ -103,32 +103,18 @@ All command contracts must conform to templates from:
 - `.github/instructions/203-plugin-audit-schema-template.mdc`
 
 **Timeline (unified):**
+
 1. `feed.timeline.fetch` (v2.0.0 — supports channel filter)
 2. `feed.item.read.mark`
 3. `feed.item.dismiss`
 
-**Announcements:**
-4. `feed.announcement.draft.create`
-5. `feed.announcement.draft.update`
-6. `feed.announcement.publish`
-7. `feed.announcement.archive`
-8. `feed.announcement.read.mark`
-9. `feed.announcement.dismiss`
-10. `feed.announcement.render-mode.update`
-11. `feed.announcement.targeting.validate`
+**Announcements:** 4. `feed.announcement.draft.create` 5. `feed.announcement.draft.update` 6. `feed.announcement.publish` 7. `feed.announcement.archive` 8. `feed.announcement.read.mark` 9. `feed.announcement.dismiss` 10. `feed.announcement.render-mode.update` 11. `feed.announcement.targeting.validate`
 
-**Questions (LLM-assisted Q&A):**
-12. `feed.question.submit`
-13. `feed.question.answer.generate`
-14. `feed.question.answer.rate`
+**Questions (LLM-assisted Q&A):** 12. `feed.question.submit` 13. `feed.question.answer.generate` 14. `feed.question.answer.rate`
 
-**Community Support:**
-15. `feed.community.post.create`
-16. `feed.community.post.reply`
+**Community Support:** 15. `feed.community.post.create` 16. `feed.community.post.reply`
 
-**Admin / Governance:**
-17. `feed.admin.config.update`
-18. `feed.membership.event.emit`
+**Admin / Governance:** 17. `feed.admin.config.update` 18. `feed.membership.event.emit`
 
 ### 3.2 HTTP Projection Routes
 
@@ -178,6 +164,7 @@ Planned extension entity:
 Planned domain tables:
 
 **Existing (implemented):**
+
 1. `feed_items`
 2. `feed_item_targets`
 3. `feed_user_read_state`
@@ -191,13 +178,7 @@ Planned domain tables:
 11. `announcement_user_state`
 12. `announcement_membership_events`
 
-**New (required for Q&A and community channels):**
-13. `feed_questions`
-14. `feed_answers`
-15. `feed_answer_ratings`
-16. `llm_inference_log`
-17. `feed_community_posts`
-18. `feed_community_replies`
+**New (required for Q&A and community channels):** 13. `feed_questions` 14. `feed_answers` 15. `feed_answer_ratings` 16. `llm_inference_log` 17. `feed_community_posts` 18. `feed_community_replies`
 
 ### 4.3 Source-of-Truth and Fan-Out
 
@@ -241,6 +222,7 @@ Planned domain tables:
 ## 8) Seed Coverage Status
 
 Seed script requirement: Provide a deterministic plugin seed script with dummy development data for manual plugin validation in dev environments. Must include:
+
 - Feed items across all three channels
 - Sample questions with LLM-generated and community answers
 - Sample community posts with replies

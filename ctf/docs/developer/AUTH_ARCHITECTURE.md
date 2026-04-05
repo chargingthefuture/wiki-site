@@ -21,20 +21,20 @@ users see "Sign in to …" prompts instead of action buttons.
 
 ## Files
 
-| File | Purpose |
-|------|---------|
-| `lib/auth/client-context.tsx` | **The only file that changes when swapping providers.** Defines `AuthProvider`, `useAuth`, `AuthContextType`, and `AuthUser`. |
-| `hooks/useAuth.ts` | Stable re-export path for all consumers (`@/hooks/useAuth`). Never changes. |
-| `lib/auth/clerk-env.ts` | Helper to read Clerk environment variables from multiple Railway/Vercel contexts. Only relevant when Clerk is the chosen provider. |
-| `lib/auth/request-identity.ts` | Server-side identity resolver. Reads `x-ctf-user-*` headers and `ctf_*` cookies set by middleware. |
-| `lib/auth/server-authz.ts` | Server-side authorization evaluator. Used in route handlers and Server Components. |
+| File                           | Purpose                                                                                                                            |
+| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
+| `lib/auth/client-context.tsx`  | **The only file that changes when swapping providers.** Defines `AuthProvider`, `useAuth`, `AuthContextType`, and `AuthUser`.      |
+| `hooks/useAuth.ts`             | Stable re-export path for all consumers (`@/hooks/useAuth`). Never changes.                                                        |
+| `lib/auth/clerk-env.ts`        | Helper to read Clerk environment variables from multiple Railway/Vercel contexts. Only relevant when Clerk is the chosen provider. |
+| `lib/auth/request-identity.ts` | Server-side identity resolver. Reads `x-ctf-user-*` headers and `ctf_*` cookies set by middleware.                                 |
+| `lib/auth/server-authz.ts`     | Server-side authorization evaluator. Used in route handlers and Server Components.                                                 |
 
 ---
 
 ## Client-Side Usage
 
 ```tsx
-import { useAuth } from '@/hooks/useAuth';
+import { useAuth } from "@/hooks/useAuth";
 
 function MyComponent() {
   const { user, isAuthenticated, signIn, signOut } = useAuth();
@@ -59,8 +59,8 @@ Only `lib/auth/client-context.tsx` needs to change. The contract it must satisfy
 
 ```ts
 interface AuthContextType {
-  user: AuthUser | null;   // null when not signed in
-  isLoading: boolean;      // true during provider initialization
+  user: AuthUser | null; // null when not signed in
+  isLoading: boolean; // true during provider initialization
   isAuthenticated: boolean;
   signIn: () => Promise<void> | void;
   signOut: () => Promise<void> | void;
@@ -76,6 +76,7 @@ interface AuthUser {
 ```
 
 **Steps to plug in Clerk:**
+
 1. Install `@clerk/nextjs`.
 2. Replace the `AuthProvider` body in `client-context.tsx` to use `<ClerkProvider>` and
    derive `AuthContextType` from `useUser()` / `useClerk()`.
@@ -91,7 +92,7 @@ No other files need to change.
 Server Components and API route handlers use:
 
 ```ts
-import { resolveRequestIdentity } from '@/lib/auth/request-identity';
+import { resolveRequestIdentity } from "@/lib/auth/request-identity";
 
 const identity = await resolveRequestIdentity();
 // identity.userId — 'local_user' when unauthenticated (dev default)
@@ -101,18 +102,18 @@ const identity = await resolveRequestIdentity();
 For access policy decisions:
 
 ```ts
-import { evaluatePluginAccess } from '@/lib/auth/server-authz';
+import { evaluatePluginAccess } from "@/lib/auth/server-authz";
 
 const decision = await evaluatePluginAccess({ requireApprovedUserOrAdmin: true });
-if (!decision.allowed) redirect('/sign-in');
+if (!decision.allowed) redirect("/sign-in");
 ```
 
 ---
 
 ## Deprecated Patterns
 
-| Pattern | Status | Reason Removed |
-|---------|--------|---------------|
+| Pattern                            | Status      | Reason Removed                                                                                                                                                                           |
+| ---------------------------------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `NEXT_PUBLIC_DISABLE_AUTH` env var | **Deleted** | Bypassed auth globally with a mock user, making it impossible to test real unauthenticated flows. The abstraction layer renders it unnecessary — the stub provider IS the no-auth state. |
 
 ---
