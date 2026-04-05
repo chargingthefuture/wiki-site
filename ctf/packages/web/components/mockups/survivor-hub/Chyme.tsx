@@ -11,102 +11,54 @@ import {
   MessageSquare, Send, Hash, Volume2, VolumeX, X, Heart,
 } from "lucide-react";
 
-const ROOMS = [
-  {
-    id: 1,
-    title: "Survivor Stories: Rebuilding After Trafficking",
-    hosts: ["Amara O.", "James T."],
-    speakers: 4,
-    listeners: 128,
-    tags: ["healing", "testimony"],
-    live: true,
-    color: "#22C55E",
-  },
-  {
-    id: 2,
-    title: "Service Credits 101 — How to Earn & Spend",
-    hosts: ["Maria G."],
-    speakers: 2,
-    listeners: 67,
-    tags: ["finance", "education"],
-    live: true,
-    color: "#22C55E",
-  },
-  {
-    id: 3,
-    title: "Global Mastermind: Building Skills Economy",
-    hosts: ["David K.", "Priya S."],
-    speakers: 6,
-    listeners: 312,
-    tags: ["economy", "skills"],
-    live: true,
-    color: "#22C55E",
-  },
-  {
-    id: 4,
-    title: "LightHouse Q&A — Finding Safe Housing",
-    hosts: ["Sofia R."],
-    speakers: 3,
-    listeners: 89,
-    tags: ["housing", "safety"],
-    live: true,
-    color: "#22C55E",
-  },
-  {
-    id: 5,
-    title: "Meditation & Healing Hour — GentlePulse",
-    hosts: ["Ngo T."],
-    speakers: 1,
-    listeners: 204,
-    tags: ["wellness", "meditation"],
-    live: false,
-    scheduled: "Tomorrow 9AM UTC",
-    color: "#16A34A",
-  },
-  {
-    id: 6,
-    title: "SocketRelay: Connecting Resources Globally",
-    hosts: ["Kwame A.", "Lucia M."],
-    speakers: 5,
-    listeners: 0,
-    tags: ["mutual-aid", "network"],
-    live: false,
-    scheduled: "Friday 3PM UTC",
-    color: "#16A34A",
-  },
-];
+interface Room {
+  id: string | number;
+  live: boolean;
+  title: string;
+  hosts: string[];
+  speakers: number;
+  scheduled: string;
+  tags: string[];
+  listeners: number;
+}
 
-const ACTIVE_SPEAKERS = [
-  { name: "Amara O.", role: "Host", speaking: true, muted: false, initials: "AO", color: "#22C55E" },
-  { name: "James T.", role: "Host", speaking: false, muted: false, initials: "JT", color: "#16A34A" },
-  { name: "Maria G.", role: "Speaker", speaking: true, muted: false, initials: "MG", color: "#4ADE80" },
-  { name: "David K.", role: "Speaker", speaking: false, muted: true, initials: "DK", color: "#86EFAC" },
-];
+interface ActiveSpeaker {
+  name: string;
+  color: string;
+  speaking: boolean;
+  initials: string;
+  muted: boolean;
+  role: string;
+}
 
-const AUDIENCE = [
-  { name: "Sofia R.", initials: "SR" }, { name: "Kwame A.", initials: "KA" },
-  { name: "Priya S.", initials: "PS" }, { name: "Ngo T.", initials: "NT" },
-  { name: "Lucia M.", initials: "LM" }, { name: "Omar F.", initials: "OF" },
-  { name: "Ana B.", initials: "AB" }, { name: "Jin L.", initials: "JL" },
-];
+interface AudienceMember {
+  name: string;
+  initials: string;
+}
 
-const CHAT_MSGS = [
-  { id: 1, user: "Sofia R.", text: "This conversation is so healing, thank you!", time: "9:12" },
-  { id: 2, user: "Kwame A.", text: "❤️ Much needed", time: "9:13" },
-  { id: 3, user: "Priya S.", text: "Can we talk about the housing resources mentioned?", time: "9:14" },
-  { id: 4, user: "Omar F.", text: "Great discussion everyone 🙌", time: "9:15" },
-];
+interface ChatMessage {
+  id: string | number;
+  user: string;
+  text: string;
+  time: string;
+}
+
+// Empty state - no seed data. Single user with no rooms created yet.
+const ROOMS: Room[] = [];
+const ACTIVE_SPEAKERS: ActiveSpeaker[] = [];
+const AUDIENCE: AudienceMember[] = [];
+const CHAT_MSGS: ChatMessage[] = [];
 
 interface ChymeAppProps {
   onClose: () => void;
 }
 
 export function ChymeApp({ onClose }: ChymeAppProps) {
-  const [activeRoom, setActiveRoom] = useState<typeof ROOMS[0] | null>(null);
+  const [activeRoom, setActiveRoom] = useState<Room | null>(null);
   const [muted, setMuted] = useState(false);
   const [handRaised, setHandRaised] = useState(false);
   const [chatInput, setChatInput] = useState("");
-  const [chatMsgs, setChatMsgs] = useState(CHAT_MSGS);
+  const [chatMsgs, setChatMsgs] = useState<ChatMessage[]>(CHAT_MSGS);
   const [showChat, setShowChat] = useState(false);
   const [tab, setTab] = useState<"rooms" | "upcoming">("rooms");
 
@@ -134,7 +86,7 @@ export function ChymeApp({ onClose }: ChymeAppProps) {
           </div>
           <div>
             <div style={{ fontSize: 17, fontWeight: 800, color: "#F0FDF4" }}>Chyme 🎙️</div>
-            <div style={{ fontSize: 12, color: "#16A34A" }}>Social Audio · GetStream Powered</div>
+            <div style={{ fontSize: 12, color: "#16A34A" }}>Social audio for survivors</div>
           </div>
         </div>
         <div style={{ flex: 1 }} />
@@ -214,7 +166,7 @@ export function ChymeApp({ onClose }: ChymeAppProps) {
                       <Badge style={{ background: `${PRIMARY}15`, color: PRIMARY, border: `1px solid ${PRIMARY}30`, fontSize: 11, padding: "2px 10px", borderRadius: 20 }}>
                         {activeRoom.live ? "🔴 Live" : "📅 Upcoming"}
                       </Badge>
-                      <span style={{ fontSize: 12, color: "#4B5563" }}>Safe Space Room</span>
+                      <span style={{ fontSize: 12, color: "#4B5563" }}>Survivor space</span>
                       <Lock size={12} style={{ color: "#4B5563" }} />
                     </div>
                     <div style={{ fontSize: 20, fontWeight: 800, color: "#F0FDF4", lineHeight: 1.3, marginBottom: 4 }}>{activeRoom.title}</div>
@@ -281,7 +233,7 @@ export function ChymeApp({ onClose }: ChymeAppProps) {
                   <div style={{ width: 300, borderLeft: `1px solid ${BORDER}`, display: "flex", flexDirection: "column", background: "#030d05" }}>
                     <div style={{ padding: "14px 16px", borderBottom: `1px solid ${BORDER}`, display: "flex", alignItems: "center", gap: 8 }}>
                       <Hash size={14} style={{ color: PRIMARY }} />
-                      <span style={{ fontSize: 14, fontWeight: 600, color: "#F0FDF4" }}>Room Chat</span>
+                      <span style={{ fontSize: 14, fontWeight: 600, color: "#F0FDF4" }}>Chyme chat</span>
                       <Badge style={{ marginLeft: "auto", background: `${PRIMARY}15`, color: PRIMARY, border: `1px solid ${PRIMARY}25`, fontSize: 10 }}>GetStream</Badge>
                     </div>
                     <ScrollArea style={{ flex: 1, padding: "12px 14px" }}>
@@ -297,7 +249,7 @@ export function ChymeApp({ onClose }: ChymeAppProps) {
                     </ScrollArea>
                     <div style={{ padding: "10px 14px", borderTop: `1px solid ${BORDER}` }}>
                       <div style={{ display: "flex", gap: 8, alignItems: "center", background: "rgba(255,255,255,0.04)", border: `1px solid ${BORDER}`, borderRadius: 10, padding: "8px 12px" }}>
-                        <input value={chatInput} onChange={(e) => setChatInput(e.target.value)} onKeyDown={(e) => e.key === "Enter" && handleSendChat()} placeholder="Send a message…" style={{ flex: 1, background: "transparent", border: "none", outline: "none", fontSize: 13, color: "#E8EAF0" }} />
+                        <input value={chatInput} onChange={(e) => setChatInput(e.target.value)} onKeyDown={(e) => e.key === "Enter" && handleSendChat()} placeholder="Share your thoughts" style={{ flex: 1, background: "transparent", border: "none", outline: "none", fontSize: 13, color: "#E8EAF0" }} />
                         <button onClick={handleSendChat} style={{ width: 28, height: 28, borderRadius: 6, background: chatInput.trim() ? PRIMARY : "transparent", border: "none", display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer" }}>
                           <Send size={12} style={{ color: chatInput.trim() ? "#fff" : "#4B5563" }} />
                         </button>
@@ -336,18 +288,13 @@ export function ChymeApp({ onClose }: ChymeAppProps) {
               <div style={{ width: 80, height: 80, borderRadius: 24, background: `${PRIMARY}18`, border: `2px solid ${PRIMARY}35`, display: "flex", alignItems: "center", justifyContent: "center", marginBottom: 8 }}>
                 <Radio size={36} style={{ color: PRIMARY }} />
               </div>
-              <div style={{ fontSize: 24, fontWeight: 800, color: "#F0FDF4" }}>Join a Room</div>
+              <div style={{ fontSize: 24, fontWeight: 800, color: "#F0FDF4" }}>No active rooms yet</div>
               <div style={{ fontSize: 15, color: "#4B5563", textAlign: "center", maxWidth: 400, lineHeight: 1.6 }}>
-                Select a live room to listen, speak, and connect with survivors worldwide. All rooms are safe spaces.
+                Create a room to start connecting with other survivors in a safe space, or join an existing room when others create one.
               </div>
-              <div style={{ display: "flex", gap: 8, marginTop: 8 }}>
-                <Badge style={{ background: `${PRIMARY}15`, color: PRIMARY, border: `1px solid ${PRIMARY}30`, fontSize: 12, padding: "6px 14px", borderRadius: 20 }}>
-                  🔴 {ROOMS.filter((r) => r.live).length} rooms live now
-                </Badge>
-                <Badge style={{ background: "rgba(255,255,255,0.05)", color: "#9CA3AF", border: "1px solid rgba(255,255,255,0.08)", fontSize: 12, padding: "6px 14px", borderRadius: 20 }}>
-                  {ROOMS.reduce((s, r) => s + r.listeners, 0)} people listening
-                </Badge>
-              </div>
+              <button style={{ marginTop: 24, padding: "12px 28px", borderRadius: 12, background: `linear-gradient(135deg, ${PRIMARY} 0%, #16A34A 100%)`, border: "none", color: "#fff", fontSize: 15, fontWeight: 700, cursor: "pointer", display: "flex", alignItems: "center", gap: 8 }}>
+                <Plus size={16} /> Create your first room
+              </button>
             </div>
           )}
         </div>

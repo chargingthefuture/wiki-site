@@ -9,10 +9,10 @@ export type PluginCatalogItem = {
 
 export const pluginCatalog: PluginCatalogItem[] = [
   {
-    id: 'bf-01-clerk-foundation',
-    name: 'Clerk Foundation',
+    id: 'bf-01-identity-foundation',
+    name: 'Identity Foundation',
     kind: 'baseline',
-    summary: 'Identity provider baseline and server-side authz guardrails for web.',
+    summary: 'Provider-neutral sign-in baseline and server-side authz guardrails for web.',
   },
   {
     id: 'bf-02-railway-baseline',

@@ -63,8 +63,7 @@ function AccessDeniedView({ status, code, reason, requestedPluginSlug }: AccessD
       <p>Requested plugin: {requestedPluginSlug}</p>
       {reason === 'missing_username' ? (
         <p className="text-sm">
-          Username is required for this plugin route. Open your Clerk profile avatar and select
-          {' '}Update username.
+          Username is required for this plugin route. Update your profile username and try again.
         </p>
       ) : null}
       {reason === 'unlock_support_only' ? (

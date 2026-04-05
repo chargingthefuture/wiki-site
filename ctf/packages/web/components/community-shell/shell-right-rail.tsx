@@ -1,49 +1,30 @@
 'use client';
 
 import Link from 'next/link';
-import type { ShellStats } from './shell-types';
-import type { PluginRegistryItem } from '../../lib/plugins/repository';
-import { getPluginVisuals } from './shell-plugin-config';
-
-import { TrustRightRailCard } from '../trust/TrustRightRailCard';
 import type { TrustUserExtension } from '../../lib/trust/types';
+import type { PluginRegistryItem } from '../../lib/plugins/repository';
+import type { ShellCurrentUser } from './shell-types';
+import { getPluginVisuals } from './shell-plugin-config';
+import { TrustRightRailCard } from '../trust/TrustRightRailCard';
 import styles from './community-shell.module.css';
 
-const GDP_GOAL = 300_000_000_000;
-
-function formatCurrencyAbbr(value: number): string {
-  if (value >= 1_000_000_000) return `$${(value / 1_000_000_000).toFixed(0)}B`;
-  if (value >= 1_000_000) return `$${(value / 1_000_000).toFixed(0)}M`;
-  return `$${value.toLocaleString()}`;
-}
-
 type ShellRightRailProps = {
-  stats: ShellStats;
   readyApps: PluginRegistryItem[];
   implementedCount: number;
+  currentUser: ShellCurrentUser;
+  trust: TrustUserExtension;
 };
 
-export function ShellRightRail({ stats, readyApps, implementedCount }: ShellRightRailProps) {
-  const displayName = 'Survivor';
-  const initial = 'S';
-  const gdpValue = stats.gdpValueUsd ?? 0;
-  const progressPct = GDP_GOAL > 0 ? Math.min(100, Math.round((gdpValue / GDP_GOAL) * 100)) : 0;
-
-  // TODO: Replace with real trust fetch logic (async effect, etc.)
-  const trust: TrustUserExtension = {
-    userId: 'local_user',
-    trustStatus: 'unverified',
-    trustEvidence: [],
-    trustVisibility: 'public',
-    updatedAt: new Date().toISOString(),
-  };
+export function ShellRightRail({ readyApps, implementedCount, currentUser, trust }: ShellRightRailProps) {
+  const displayName = currentUser.displayName;
+  const initial = currentUser.initial;
 
   return (
     <aside className={`${styles.panel} ${styles.rightRail}`}>
       <section className={styles.profileCard}>
         <div className={styles.profileAvatar} aria-hidden="true">{initial}</div>
         <p className={styles.profileName}>Welcome, {displayName}</p>
-        <p className={styles.profileMeta}>Space · {implementedCount} ready apps</p>
+        <p className={styles.profileMeta}>{currentUser.username ? `@${currentUser.username}` : 'Member'} · {implementedCount} ready apps</p>
         <span className={styles.profileBadge}>Space ✓</span>
       </section>
 
@@ -81,28 +62,6 @@ export function ShellRightRail({ stats, readyApps, implementedCount }: ShellRigh
         </ul>
       </section>
 
-      <section className={styles.gdpCard}>
-        <p className={styles.gdpCardTitle}>🗺️ GDP Progress</p>
-        {gdpValue > 0 ? (
-          <>
-            <p className={styles.gdpCardValue}>{formatCurrencyAbbr(gdpValue)}</p>
-            <p className={styles.gdpCardSub}>of $300B opportunity</p>
-            <div className={styles.gdpProgressTrack}>
-              <div className={styles.gdpProgressFill} style={{ width: `${progressPct}%` }} />
-            </div>
-            <div className={styles.gdpProgressLabels}>
-              <span>{progressPct}% to goal</span>
-              <span>{formatCurrencyAbbr(GDP_GOAL - gdpValue)} remaining</span>
-            </div>
-          </>
-        ) : (
-          <p className={styles.gdpCardSub}>No published GDP data yet.</p>
-        )}
-      </section>
-
-      <div className={styles.authActions}>
-        <Link className={styles.subtleButton} href="/apps/chyme">Open Chyme</Link>
-      </div>
     </aside>
   );
 }

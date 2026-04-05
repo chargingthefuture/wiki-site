@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { evaluatePluginAccess } from 'lib/auth/server-authz';
-import { getAppUrl } from 'lib/auth/clerk-env';
+import { getAppUrl } from 'lib/auth/runtime-env';
 import { ensureLevelupAdmin } from 'lib/levelup/policy';
 
 export async function requireLevelupReadAccess() {

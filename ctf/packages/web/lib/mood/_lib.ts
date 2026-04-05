@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { evaluatePluginAccess } from '../auth/server-authz';
-import { getAppUrl } from '../auth/clerk-env';
+import { getAppUrl } from '../auth/runtime-env';
 import { MOOD_ERROR_CODE } from './constants';
 
 export async function requireMoodAccess() {

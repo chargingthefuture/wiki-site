@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { evaluatePluginAccess } from '../auth/server-authz';
 import { ensureGdpAdmin } from './policy';
-import { getAppUrl } from '../auth/clerk-env';
+import { getAppUrl } from '../auth/runtime-env';
 
 export async function requireGdpReadAccess() {
   const decision = await evaluatePluginAccess({ requireApprovedUserOrAdmin: true, requireUsername: false });

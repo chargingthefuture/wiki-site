@@ -1,8 +1,9 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
+import type { TrustUserExtension } from '../../lib/trust/types';
 import type { PluginRegistryItem } from '../../lib/plugins/repository';
-import type { PluginSortMode, ShellSection, ShellStats } from './shell-types';
+import type { PluginSortMode, ShellCurrentUser, ShellSection, ShellStats } from './shell-types';
 import { ShellIconRail } from './shell-icon-rail';
 import { ShellSidebar } from './shell-sidebar';
 import { ShellChatPanel } from './shell-chat-panel';
@@ -13,6 +14,8 @@ import styles from './community-shell.module.css';
 type CommunityShellProps = {
   initialPlugins: PluginRegistryItem[];
   shellStats: ShellStats;
+  currentUser: ShellCurrentUser;
+  trust: TrustUserExtension;
 };
 
 type PluginsApiPayload = {
@@ -102,7 +105,7 @@ function sortPluginsForUi(
   });
 }
 
-export function CommunityShell({ initialPlugins, shellStats }: CommunityShellProps) {
+export function CommunityShell({ initialPlugins, shellStats, currentUser, trust }: CommunityShellProps) {
   const [section, setSection] = useState<ShellSection>('chat');
   const [query, setQuery] = useState('');
   const [plugins, setPlugins] = useState(initialPlugins);
@@ -203,7 +206,7 @@ export function CommunityShell({ initialPlugins, shellStats }: CommunityShellPro
             <section className={styles.usernameAlert} role="alert">{loadError}</section>
           ) : null}
           {section === 'chat' ? (
-            <ShellChatPanel stats={shellStats} plugins={filteredPlugins} />
+            <ShellChatPanel stats={shellStats} plugins={filteredPlugins} currentUser={currentUser} />
           ) : (
             <ShellAppsPanel
               plugins={filteredPlugins}
@@ -215,9 +218,10 @@ export function CommunityShell({ initialPlugins, shellStats }: CommunityShellPro
           )}
         </main>
         <ShellRightRail
-          stats={shellStats}
           readyApps={readyApps}
           implementedCount={implementedCount}
+          currentUser={currentUser}
+          trust={trust}
         />
       </div>
     </div>

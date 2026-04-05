@@ -1,131 +1,105 @@
 'use client';
 
-import { useState } from 'react';
 import Link from 'next/link';
-import type { ShellStats, ChatMessage } from './shell-types';
 import type { PluginRegistryItem } from '../../lib/plugins/repository';
+import type { ShellCurrentUser, ShellStats } from './shell-types';
+import { useHomeChat } from './use-home-chat';
 import styles from './community-shell.module.css';
 
-const INITIAL_MESSAGES: ChatMessage[] = [
-  {
-    id: 1,
-    from: 'hub',
-    text: 'Welcome back, Survivor. You have 3 new opportunities in your network today.',
-    time: '9:01 AM',
-  },
-  {
-    id: 2,
-    from: 'user',
-    text: 'Show me housing options near me',
-    time: '9:03 AM',
-  },
-  {
-    id: 3,
-    from: 'hub',
-    text: 'Found 12 verified safe housing listings through LightHouse. Two are accepting Service Credits.',
-    time: '9:03 AM',
-    actionLabel: 'Open LightHouse →',
-    actionSlug: 'lighthouse',
-  },
-  {
-    id: 4,
-    from: 'user',
-    text: "What's the GDP tracker showing this week?",
-    time: '9:05 AM',
-  },
-  {
-    id: 5,
-    from: 'hub',
-    text: 'Check the Gross Domestic Product plugin for the latest economy metrics and your skills contribution.',
-    time: '9:05 AM',
-    actionLabel: 'Open GDP →',
-    actionSlug: 'gross-domestic-product',
-  },
-];
+const ECONOMY_TARGET_USD = 300_000_000_000;
 
 const SUGGESTIONS = [
-  'Find a tradesperson',
-  'Join a Chyme room',
+  'Show housing options near me',
+  'What is the GDP tracker showing this week?',
+  'Find local work opportunities',
+  'Open the provider directory',
   'Check my Service Credits',
-  'Open meditation',
-  'View skills directory',
 ];
 
-function formatStatNumber(value: number | null): string {
-  if (value === null || value === 0) return '0';
-  if (value >= 1_000_000) return `${(value / 1_000_000).toFixed(1)}M`;
-  if (value >= 1_000) return `${(value / 1_000).toFixed(1)}K`;
-  return value.toLocaleString();
-}
-
-function formatStatCurrency(value: number | null): string {
-  if (value === null || value === 0) return '$0';
-  if (value >= 1_000_000_000) return `$${(value / 1_000_000_000).toFixed(0)}B`;
-  if (value >= 1_000_000) return `$${(value / 1_000_000).toFixed(0)}M`;
-  return `$${value.toLocaleString()}`;
+function formatScaledValue(value: number | null, prefix = ''): string {
+  if (!value) return `${prefix}0`;
+  if (value >= 1_000_000_000) return `${prefix}${(value / 1_000_000_000).toFixed(0)}B`;
+  if (value >= 1_000_000) return `${prefix}${(value / 1_000_000).toFixed(1)}M`;
+  if (value >= 1_000) return `${prefix}${(value / 1_000).toFixed(1)}K`;
+  return `${prefix}${value.toLocaleString()}`;
 }
 
 type ShellChatPanelProps = {
   stats: ShellStats;
   plugins: PluginRegistryItem[];
+  currentUser: ShellCurrentUser;
 };
 
-export function ShellChatPanel({ stats, plugins }: ShellChatPanelProps) {
-  const [messages, setMessages] = useState<ChatMessage[]>(INITIAL_MESSAGES);
-  const [input, setInput] = useState('');
-
-  const handleSend = () => {
-    if (!input.trim()) return;
-    setMessages((prev) => [...prev, { id: Date.now(), from: 'user', text: input.trim(), time: 'Now' }]);
-    setInput('');
-  };
-
-  const implementedCount = plugins.filter((p) => p.availabilityState === 'implemented_shell').length;
+export function ShellChatPanel({ stats, plugins, currentUser }: ShellChatPanelProps) {
+  const { messages, input, setInput, sendMessage, isSending, isLoading, isLive, error } = useHomeChat(currentUser);
+  const implementedCount = plugins.filter((plugin) => plugin.availabilityState === 'implemented_shell').length;
+  const opportunityValue = Math.max(ECONOMY_TARGET_USD - (stats.gdpValueUsd ?? 0), 0);
+  const supportStatus = isLive ? 'live support connected' : isLoading ? 'connecting live support…' : 'community support syncing';
 
   return (
     <div className={styles.chatPanelWrap}>
       <div className={styles.heroBanner}>
         <div className={styles.heroBannerContent}>
           <p className={styles.heroBannerTag}>✦ From Survivor to Thriver</p>
-          <h1 className={styles.heroBannerTitle}>Good morning — your network is active.</h1>
-          <p className={styles.heroBannerSub}>{implementedCount} live plugins · one economy · $300B opportunity.</p>
+          <h1 className={styles.heroBannerTitle}>Good morning, {currentUser.displayName} — your network is active.</h1>
+          <p className={styles.heroBannerSub}>{implementedCount} live plugins · one economy · {supportStatus}.</p>
         </div>
         <div className={styles.heroStats}>
           <div className={styles.heroStatBlock}>
             <span className={styles.heroStatValue} style={{ color: '#A78BFA' }}>
-              {formatStatNumber(stats.memberCount)}
+              {formatScaledValue(stats.memberCount)}
             </span>
             <span className={styles.heroStatLabel}>Members</span>
           </div>
           <div className={styles.heroStatBlock}>
             <span className={styles.heroStatValue} style={{ color: '#38BDF8' }}>
-              {formatStatCurrency(stats.gdpValueUsd)}
+              {formatScaledValue(stats.gdpValueUsd, '$')}
             </span>
             <span className={styles.heroStatLabel}>GDP</span>
           </div>
           <div className={styles.heroStatBlock}>
-            <span className={styles.heroStatValue} style={{ color: '#34D399' }}>$300B</span>
+            <span className={styles.heroStatValue} style={{ color: '#34D399' }}>
+              {formatScaledValue(opportunityValue, '$')}
+            </span>
             <span className={styles.heroStatLabel}>Opportunity</span>
           </div>
         </div>
       </div>
 
+      {error ? (
+        <section className={styles.usernameAlert} role="status">
+          {error}
+        </section>
+      ) : null}
+
       <div className={styles.chatMessages}>
+        {isLoading && messages.length === 0 ? (
+          <p className={styles.chatFootnote}>Loading live messages…</p>
+        ) : null}
+
+        {!isLoading && messages.length === 0 ? (
+          <div className={styles.chatBubbleGroup}>
+            <div className={`${styles.chatBubble} ${styles.chatBubbleHub}`}>
+              Survivor Hub is live. Ask for housing, work, safety, or community support to start.
+            </div>
+          </div>
+        ) : null}
+
         {messages.map((msg) => (
           <div
             key={msg.id}
             className={msg.from === 'user' ? `${styles.chatRow} ${styles.chatRowUser}` : styles.chatRow}
           >
-            {msg.from === 'hub' && <div className={styles.chatAvatar} aria-hidden="true">SH</div>}
+            {msg.from === 'hub' ? <div className={styles.chatAvatar} aria-hidden="true">SH</div> : null}
             <div className={styles.chatBubbleGroup}>
               <div className={msg.from === 'user' ? `${styles.chatBubble} ${styles.chatBubbleUser}` : `${styles.chatBubble} ${styles.chatBubbleHub}`}>
                 {msg.text}
               </div>
-              {msg.actionLabel && msg.actionSlug && (
+              {msg.actionLabel && msg.actionSlug ? (
                 <Link href={`/apps/${msg.actionSlug}`} className={styles.chatActionBtn}>
                   {msg.actionLabel}
                 </Link>
-              )}
+              ) : null}
               <span className={msg.from === 'user' ? `${styles.chatTime} ${styles.chatTimeUser}` : styles.chatTime}>
                 {msg.time}
               </span>
@@ -135,9 +109,9 @@ export function ShellChatPanel({ stats, plugins }: ShellChatPanelProps) {
       </div>
 
       <div className={styles.chatSuggestions}>
-        {SUGGESTIONS.map((s) => (
-          <button key={s} type="button" className={styles.chatChip} onClick={() => setInput(s)}>
-            {s}
+        {SUGGESTIONS.map((suggestion) => (
+          <button key={suggestion} type="button" className={styles.chatChip} onClick={() => setInput(suggestion)}>
+            {suggestion}
           </button>
         ))}
       </div>
@@ -149,21 +123,28 @@ export function ShellChatPanel({ stats, plugins }: ShellChatPanelProps) {
           className={styles.chatInput}
           placeholder="Ask Survivor Hub anything, or search resources…"
           value={input}
-          onChange={(e) => setInput(e.target.value)}
-          onKeyDown={(e) => e.key === 'Enter' && handleSend()}
+          onChange={(event) => setInput(event.target.value)}
+          onKeyDown={(event) => {
+            if (event.key === 'Enter') {
+              void sendMessage();
+            }
+          }}
         />
         <button
           type="button"
           className={input.trim() ? `${styles.chatSendBtn} ${styles.chatSendBtnActive}` : styles.chatSendBtn}
-          onClick={handleSend}
+          onClick={() => {
+            void sendMessage();
+          }}
           aria-label="Send message"
+          disabled={isSending}
         >
           ➤
         </button>
       </div>
 
       <p className={styles.chatFootnote}>
-        Human-assisted · GetStream powered (coming soon)
+        {isLive ? 'Live support connected through Chyme and GetStream.' : 'Live support keeps syncing as new messages arrive.'}
       </p>
     </div>
   );

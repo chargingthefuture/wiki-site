@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { ensureServiceCreditsAdmin } from 'lib/service-credits/policy';
 import { evaluatePluginAccess } from 'lib/auth/server-authz';
-import { getAppUrl } from 'lib/auth/clerk-env';
+import { getAppUrl } from 'lib/auth/runtime-env';
 
 export async function requireServiceCreditsReadAccess() {
   const decision = await evaluatePluginAccess({ requireApprovedUserOrAdmin: true, requireUsername: false });

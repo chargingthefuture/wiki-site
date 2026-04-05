@@ -22,7 +22,11 @@ const STATIC_CHANNELS = [
   { name: 'mutual-aid', href: '/apps/socketrelay' },
 ];
 
-const STATIC_DMS = ['Maria G.', 'James T.', 'Amara O.'];
+const STATIC_DMS = [
+  { name: 'Maria G.', status: 'Soon' },
+  { name: 'James T.', status: 'Soon' },
+  { name: 'Amara O.', status: 'Soon' },
+];
 
 export function ShellSidebar({
   section,
@@ -32,21 +36,23 @@ export function ShellSidebar({
   query,
   onQueryChange,
 }: ShellSidebarProps) {
-  const placeholder = section === 'chat' ? 'Search channels…' : 'Search apps…';
-
   return (
     <aside className={`${styles.panel} ${styles.leftNav}`}>
       <div className={styles.sidebarHeader}>
         <p className={styles.sectionTitle}>{section === 'chat' ? 'Channels' : 'Mini-Apps'}</p>
-        <label className={styles.visuallyHidden} htmlFor="sidebar-search">{placeholder}</label>
-        <input
-          id="sidebar-search"
-          className={styles.sidebarSearch}
-          placeholder={placeholder}
-          type="search"
-          value={section === 'apps' ? query : ''}
-          onChange={(e) => onQueryChange(e.target.value)}
-        />
+        {section === 'apps' ? (
+          <>
+            <label className={styles.visuallyHidden} htmlFor="sidebar-search">Search apps…</label>
+            <input
+              id="sidebar-search"
+              className={styles.sidebarSearch}
+              placeholder="Search apps…"
+              type="search"
+              value={query}
+              onChange={(e) => onQueryChange(e.target.value)}
+            />
+          </>
+        ) : null}
       </div>
 
       <div className={styles.sidebarBody}>
@@ -59,10 +65,16 @@ export function ShellSidebar({
               </Link>
             ))}
             <p className={styles.sidebarGroupLabel}>Direct Messages</p>
-            {STATIC_DMS.map((name) => (
-              <div key={name} className={styles.sidebarDm}>
+            {STATIC_DMS.map((dm) => (
+              <div
+                key={dm.name}
+                className={`${styles.sidebarDm} ${styles.sidebarDmDisabled}`}
+                aria-disabled="true"
+                title="Direct messages are coming in Phase 1"
+              >
                 <span className={styles.sidebarDmDot} aria-hidden="true" />
-                <span>{name}</span>
+                <span className={styles.sidebarDmName}>{dm.name}</span>
+                <span className={`${styles.sidebarBadge} ${styles.sidebarBadgeMuted}`}>{dm.status}</span>
               </div>
             ))}
           </>

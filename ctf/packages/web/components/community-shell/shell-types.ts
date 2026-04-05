@@ -7,11 +7,19 @@ export type ShellStats = {
   gdpValueUsd: number | null;
 };
 
+export type ShellCurrentUser = {
+  userId: string;
+  username: string | null;
+  displayName: string;
+  initial: string;
+};
+
 export type ChatMessage = {
-  id: number;
+  id: string;
   from: 'hub' | 'user';
   text: string;
   time: string;
+  senderLabel?: string;
   actionLabel?: string;
   actionSlug?: string;
 };

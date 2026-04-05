@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { evaluatePluginAccess, type AllowDecision } from 'lib/auth/server-authz';
-import { getAppUrl } from 'lib/auth/clerk-env';
+import { getAppUrl } from 'lib/auth/runtime-env';
 import { PEER_PROGRAMMING_ERROR_CODE } from 'lib/peer-programming/constants';
 import { ensurePeerProgrammingAdmin } from 'lib/peer-programming/policy';
 

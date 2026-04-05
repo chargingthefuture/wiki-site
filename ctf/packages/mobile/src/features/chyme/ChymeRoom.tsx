@@ -71,10 +71,18 @@ export const ChymeRoom = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Chyme Room</Text>
+      <Text style={styles.title}>Chyme</Text>
+      <Text style={styles.subtitle}>Social audio for survivors</Text>
 
       {loading ? (
         <ActivityIndicator size="large" />
+      ) : messages.length === 0 ? (
+        <View style={styles.emptyState}>
+          <Text style={styles.emptyStateTitle}>No messages yet</Text>
+          <Text style={styles.emptyStateText}>
+            Start the conversation by sharing your thoughts. This is a safe space for survivors.
+          </Text>
+        </View>
       ) : (
         <FlatList
           data={messages}
@@ -83,7 +91,7 @@ export const ChymeRoom = () => {
           style={styles.list}
           renderItem={({ item }) => (
             <View style={styles.messageRow}>
-              <Text style={styles.messageAuthor}>{item.sender ?? 'unknown'}</Text>
+              <Text style={styles.messageAuthor}>{item.sender ?? 'You'}</Text>
               <Text style={styles.messageText}>{item.text}</Text>
             </View>
           )}
@@ -94,10 +102,11 @@ export const ChymeRoom = () => {
         <TextInput
           value={text}
           onChangeText={setText}
-          placeholder="Type a message"
+          placeholder="Share your thoughts"
           style={styles.input}
+          placeholderTextColor="#9CA3AF"
         />
-        <Button title="Send" onPress={handleSend} />
+        <Button title="Send" onPress={handleSend} disabled={!text.trim()} />
       </View>
 
       <View style={styles.rowButtons}>
@@ -110,13 +119,17 @@ export const ChymeRoom = () => {
 };
 
 const styles = StyleSheet.create({
-  container: { flex: 1, alignItems: 'center', justifyContent: 'flex-start', width: '100%', paddingTop: 16 },
-  title: { fontWeight: 'bold', fontSize: 18, marginBottom: 8 },
+  container: { flex: 1, alignItems: 'center', justifyContent: 'flex-start', width: '100%', paddingTop: 16, backgroundColor: '#021006' },
+  title: { fontWeight: 'bold', fontSize: 20, marginBottom: 4, color: '#F0FDF4' },
+  subtitle: { fontSize: 14, color: '#16A34A', marginBottom: 16 },
   list: { width: '95%', maxHeight: 300, marginBottom: 8 },
-  messageRow: { padding: 8, borderBottomWidth: 1, borderColor: '#eee' },
-  messageAuthor: { fontWeight: '600' },
-  messageText: { marginTop: 4 },
-  controls: { flexDirection: 'row', width: '95%', alignItems: 'center', marginBottom: 8 },
-  input: { flex: 1, borderColor: '#ccc', borderWidth: 1, padding: 8, marginRight: 8, borderRadius: 4 },
-  rowButtons: { flexDirection: 'row', justifyContent: 'space-around', width: '95%' },
+  emptyState: { flex: 1, justifyContent: 'center', alignItems: 'center', paddingHorizontal: 24 },
+  emptyStateTitle: { fontSize: 18, fontWeight: '700', color: '#F0FDF4', marginBottom: 12, textAlign: 'center' },
+  emptyStateText: { fontSize: 15, color: '#4B5563', textAlign: 'center', lineHeight: 1.6 },
+  messageRow: { padding: 8, borderBottomWidth: 1, borderColor: '#052e16' },
+  messageAuthor: { fontWeight: '600', color: '#22C55E' },
+  messageText: { marginTop: 4, color: '#E8EAF0' },
+  controls: { flexDirection: 'row', width: '95%', alignItems: 'center', marginBottom: 8, paddingHorizontal: 12 },
+  input: { flex: 1, borderColor: '#052e16', borderWidth: 1, padding: 8, marginRight: 8, borderRadius: 8, backgroundColor: 'rgba(255,255,255,0.04)', color: '#E8EAF0' },
+  rowButtons: { flexDirection: 'row', justifyContent: 'space-around', width: '95%', paddingHorizontal: 12 },
 });

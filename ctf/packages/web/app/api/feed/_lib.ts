@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { evaluatePluginAccess, type AllowDecision } from 'lib/auth/server-authz';
 import { ensureFeedAdmin } from 'lib/feed/policy';
 import { FEED_ERROR_CODE } from 'lib/feed/constants';
-import { getAppUrl } from 'lib/auth/clerk-env';
+import { getAppUrl } from 'lib/auth/runtime-env';
 
 export type FeedApiGate =
   | {

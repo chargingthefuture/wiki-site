@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { evaluatePluginAccess, type AllowDecision } from 'lib/auth/server-authz';
 import { ensureDirectoryAdmin } from 'lib/directory/policy';
 import { DIRECTORY_ERROR_CODE } from 'lib/directory/constants';
-import { getAppUrl } from 'lib/auth/clerk-env';
+import { getAppUrl } from 'lib/auth/runtime-env';
 
 export type DirectoryApiGate =
   | {

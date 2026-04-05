@@ -1,6 +1,5 @@
-// Clerk imports removed - auth disabled
-// import { auth, currentUser } from '@clerk/nextjs/server';
 import type { UnlockAccessTier } from 'lib/unlock/types';
+import { resolveRequestIdentity } from './request-identity';
 import { pluginAuthDeny, type PluginDenyResponse } from './deny-taxonomy';
 
 export type AllowDecision = {
@@ -40,6 +39,16 @@ function buildAllowDecision(
   };
 }
 
+function normalizeRequiredRoles(requiredRoles: string[] | undefined): string[] {
+  if (!requiredRoles || requiredRoles.length === 0) {
+    return [];
+  }
+
+  return requiredRoles
+    .map((role) => role.trim().toLowerCase())
+    .filter((role) => role.length > 0);
+}
+
 export async function evaluatePluginAccess(
   options: EvaluatePluginAccessOptions = {},
 ): Promise<PluginAuthDecision> {
@@ -50,38 +59,37 @@ export async function evaluatePluginAccess(
     allowUnlockSupportOnly = false,
   } = options;
 
-  // Auth is disabled - return permissive mock identity
-  const userId = 'local_user';
-  const username = 'local_user';
-  const role = 'admin'; // Grant admin role for all access
-  const isApproved = true;
-  const unlockAccessTier = null;
+  const identity = await resolveRequestIdentity();
+  const normalizedRequiredRoles = normalizeRequiredRoles(requiredRoles);
 
-  // Check username requirement
-  if (requireUsername && !username) {
+  if (requireUsername && !identity.username) {
     return pluginAuthDeny.forbiddenPolicy('missing_username');
   }
 
-  // Check role requirement
-  if (requiredRoles && requiredRoles.length > 0) {
-    const normalizedRequired = requiredRoles
-      .map((r) => r.trim().toLowerCase())
-      .filter((r) => r.length > 0);
-    
-    if (role && !normalizedRequired.includes(role.toLowerCase())) {
-      return pluginAuthDeny.forbiddenRole(requiredRoles);
+  if (normalizedRequiredRoles.length > 0) {
+    const role = identity.role?.toLowerCase();
+    if (!role || !normalizedRequiredRoles.includes(role)) {
+      return pluginAuthDeny.forbiddenRole(requiredRoles ?? []);
     }
   }
 
-  // Check unlock tier requirement
-  if (!allowUnlockSupportOnly && unlockAccessTier === 'locked_support_only' && role !== 'admin') {
+  if (
+    !allowUnlockSupportOnly
+    && identity.unlockAccessTier === 'locked_support_only'
+    && identity.role !== 'admin'
+  ) {
     return pluginAuthDeny.forbiddenPolicy('unlock_support_only');
   }
 
-  // Check approval requirement
-  if (requireApprovedUserOrAdmin && role !== 'admin' && !isApproved) {
+  if (requireApprovedUserOrAdmin && identity.role !== 'admin' && !identity.isApproved) {
     return pluginAuthDeny.forbiddenPolicy('policy_denied');
   }
 
-  return buildAllowDecision(userId, username, role, isApproved, unlockAccessTier);
+  return buildAllowDecision(
+    identity.userId,
+    identity.username,
+    identity.role,
+    identity.isApproved,
+    identity.unlockAccessTier,
+  );
 }
