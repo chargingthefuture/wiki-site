@@ -69,8 +69,8 @@ export async function POST(request: Request) {
     const announcement = await createAnnouncementDraft(gate.auth.userId, input);
     logFeedAudit({
       actorId: gate.auth.userId,
-      pluginId: 'announcements',
-      command: 'announcements.draft.create',
+      pluginId: 'feed',
+      command: 'feed.announcement.draft.create',
       status: 'allow',
       reason: 'admin_authoring_allowed',
       targetType: 'announcement',

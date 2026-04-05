@@ -1,3 +1,7 @@
+# DEPRECATED (2026-04-05): All announcement policies are now under the unified
+# feed.* namespace in FEED_PLUGIN_ACCESS_POLICY_CONTRACTS.yaml.
+# This file is retained for historical reference only.
+
 policies:
   - pluginId: announcements
     command: announcements.draft.create

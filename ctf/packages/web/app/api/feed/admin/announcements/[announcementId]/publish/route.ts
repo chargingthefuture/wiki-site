@@ -25,8 +25,8 @@ export async function POST(request: Request, { params }: RouteParams) {
     const announcement = await publishAnnouncement(gate.auth.userId, announcementId);
     logFeedAudit({
       actorId: gate.auth.userId,
-      pluginId: 'announcements',
-      command: 'announcements.publish',
+      pluginId: 'feed',
+      command: 'feed.announcement.publish',
       status: 'allow',
       reason: 'admin_publish_allowed',
       targetType: 'announcement',

@@ -27,8 +27,8 @@ export async function POST(request: Request, { params }: RouteParams) {
     await markAnnouncementRead(gate.auth.userId, announcementId);
     logFeedAudit({
       actorId: gate.auth.userId,
-      pluginId: 'announcements',
-      command: 'announcements.read.mark',
+      pluginId: 'feed',
+      command: 'feed.announcement.read.mark',
       status: 'allow',
       reason: 'actor_authenticated',
       targetType: 'announcement',

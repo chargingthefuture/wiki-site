@@ -58,8 +58,8 @@ export async function PUT(request: Request, { params }: RouteParams) {
     const announcement = await updateAnnouncementDraft(gate.auth.userId, announcementId, input);
     logFeedAudit({
       actorId: gate.auth.userId,
-      pluginId: 'announcements',
-      command: 'announcements.draft.update',
+      pluginId: 'feed',
+      command: 'feed.announcement.draft.update',
       status: 'allow',
       reason: 'admin_update_allowed',
       targetType: 'announcement',

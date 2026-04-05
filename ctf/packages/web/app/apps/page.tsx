@@ -1,31 +1,60 @@
-import Link from 'next/link';
+import { CommunityShell } from '../../components/community-shell/community-shell';
+import type { ShellCurrentUser } from '../../components/community-shell/shell-types';
+import type { TrustUserExtension } from '../../lib/trust/types';
+import { evaluatePluginAccess } from '../../lib/auth/server-authz';
+import { getGdpShellStats } from '../../lib/gdp/repository';
+import { listPluginRegistry } from '../../lib/plugins/repository';
+import { getTrustUserExtension } from '../../lib/trust/repository';
 
-const plugins = [
-  { slug: 'chyme', name: 'Chyme' },
-  { slug: 'skills-hunt', name: 'Skills Hunt' },
-  { slug: 'foundation', name: 'Foundation' },
-  { slug: 'lighthouse', name: 'LightHouse' },
-  { slug: 'socketrelay', name: 'SocketRelay' },
-  { slug: 'trusttransport', name: 'TrustTransport' },
-  { slug: 'directory', name: 'Directory' },
-  { slug: 'service-credits', name: 'Service Credits' },
-  { slug: 'levelup', name: 'LevelUp' },
-];
+function buildShellUser(userId: string, username: string | null): ShellCurrentUser {
+  const safeUsername = username && username !== 'local_user' ? username : null;
+  const displayName = safeUsername ? `@${safeUsername}` : 'Survivor';
+  const initial = safeUsername ? safeUsername.charAt(0).toUpperCase() : 'S';
 
-export default function AppsIndexPage() {
+  return {
+    userId,
+    username: safeUsername,
+    displayName,
+    initial,
+  };
+}
+
+function buildFallbackTrust(userId: string): TrustUserExtension {
+  return {
+    userId,
+    trustStatus: 'unverified',
+    trustEvidence: [],
+    trustVisibility: 'public',
+    updatedAt: new Date().toISOString(),
+  };
+}
+
+export default async function AppsPage() {
+  const pluginsPromise = listPluginRegistry();
+  const shellStatsPromise = getGdpShellStats().catch(() => ({ memberCount: null, gdpValueUsd: null }));
+  const authDecisionPromise = evaluatePluginAccess({ requireUsername: false }).catch(() => null);
+
+  const [plugins, shellStats, authDecision] = await Promise.all([
+    pluginsPromise,
+    shellStatsPromise,
+    authDecisionPromise,
+  ]);
+
+  const currentUser = authDecision && authDecision.allowed
+    ? buildShellUser(authDecision.userId, authDecision.username)
+    : buildShellUser('local_user', null);
+
+  const trust = authDecision && authDecision.allowed
+    ? await getTrustUserExtension(authDecision.userId).catch(() => buildFallbackTrust(authDecision.userId))
+    : buildFallbackTrust(currentUser.userId);
+
   return (
-    <main className="mx-auto max-w-2xl px-6 py-12 space-y-6">
-      <h1 className="text-2xl font-semibold tracking-tight">Plugin Apps</h1>
-      <p className="text-muted-foreground text-sm">Select a plugin to open its UI. All plugin routes are under <code>/apps/[pluginSlug]</code>.</p>
-      <ul className="space-y-3 mt-6">
-        {plugins.map((plugin) => (
-          <li key={plugin.slug}>
-            <Link href={`/apps/${plugin.slug}`} className="underline text-blue-600 hover:text-blue-800">
-              {plugin.name}
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </main>
+    <CommunityShell
+      initialPlugins={plugins}
+      shellStats={shellStats}
+      currentUser={currentUser}
+      trust={trust}
+      initialSection="apps"
+    />
   );
 }

@@ -38,8 +38,8 @@ export async function POST(request: Request, { params }: RouteParams) {
 
     logFeedAudit({
       actorId: gate.auth.userId,
-      pluginId: 'announcements',
-      command: 'announcements.dismiss',
+      pluginId: 'feed',
+      command: 'feed.announcement.dismiss',
       status: 'allow',
       reason: 'dismiss_allowed',
       targetType: 'announcement',

@@ -1,5 +1,7 @@
 # Announcements Rewrite Checklist (CTF)
 
+> **DEPRECATED (2026-04-05):** The standalone Announcements checklist has been merged into the unified **Feed Rewrite Checklist** (`ctf-feed-rewrite-checklist.md`). All announcement commands now use the `feed.announcement.*` namespace. Authoritative contracts are in `FEED_PLUGIN_COMMAND_CONTRACTS.yaml`, `FEED_PLUGIN_ACCESS_POLICY_CONTRACTS.yaml`, and `FEED_PLUGIN_AUDIT_CONTRACTS.yaml`. This file is retained for historical reference only.
+
 ## Scope and Boundary
 
 - [x] Confirm implementation scope is `ctf/` only.
@@ -69,14 +71,11 @@
   - Acceptance criteria:
     - Toast mode is optional and managed via Feed configuration.
 
-## Phase 4 — Android Follow-Up (Tracked)
+## Phase 4 — Android Follow-Up (Required — see Feed Checklist Phase 6)
 
-- [ ] Open and link Android follow-up parity ticket.
+- [ ] All Android parity items are now tracked in `ctf-feed-rewrite-checklist.md` Phase 6.
   - Acceptance criteria:
-    - Ticket captures key parity outcomes and rollout risk.
-- [ ] Define Android parity validation scope.
-  - Acceptance criteria:
-    - Rendering semantics and read-state outcomes are listed for parity verification.
+    - See unified feed checklist for acceptance criteria.
 
 ## Phase 5 — Security, Compliance, and Hardening
 
@@ -115,3 +114,4 @@
 
 - 2026-02-24: Created initial Announcements rewrite checklist with approved central admin page, web-first policy + Android follow-up tracking, naming normalization/legacy alias guidance, Postgres+Stream architecture constraints, stream quota-impact gate, and schema drift predeployment evidence requirements.
 - 2026-03-02: Completed phase-0 implementation with combined feed stream coupling, admin lifecycle routes, membership-event visibility recalculation, and deterministic seed coverage.
+- 2026-04-05: Deprecated — merged into unified Feed Rewrite Checklist. All commands now under `feed.announcement.*` namespace.

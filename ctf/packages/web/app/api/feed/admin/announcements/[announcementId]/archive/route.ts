@@ -25,8 +25,8 @@ export async function POST(request: Request, { params }: RouteParams) {
     const announcement = await archiveAnnouncement(gate.auth.userId, announcementId);
     logFeedAudit({
       actorId: gate.auth.userId,
-      pluginId: 'announcements',
-      command: 'announcements.archive',
+      pluginId: 'feed',
+      command: 'feed.announcement.archive',
       status: 'allow',
       reason: 'admin_archive_allowed',
       targetType: 'announcement',

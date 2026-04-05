@@ -16,6 +16,7 @@ type CommunityShellProps = {
   shellStats: ShellStats;
   currentUser: ShellCurrentUser;
   trust: TrustUserExtension;
+  initialSection?: ShellSection;
 };
 
 type PluginsApiPayload = {
@@ -105,8 +106,8 @@ function sortPluginsForUi(
   });
 }
 
-export function CommunityShell({ initialPlugins, shellStats, currentUser, trust }: CommunityShellProps) {
-  const [section, setSection] = useState<ShellSection>('chat');
+export function CommunityShell({ initialPlugins, shellStats, currentUser, trust, initialSection = 'chat' }: CommunityShellProps) {
+  const [section, setSection] = useState<ShellSection>(initialSection);
   const [query, setQuery] = useState('');
   const [plugins, setPlugins] = useState(initialPlugins);
   const [loadError, setLoadError] = useState<string | null>(null);

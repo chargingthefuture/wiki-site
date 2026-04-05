@@ -5,6 +5,7 @@ import { useState } from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
+import { useAuth, AuthProvider } from "@/hooks/useAuth";
 import {
   Mic, MicOff, Phone, Hand, Users, Search, Plus, Bell,
   Settings, ChevronRight, Radio, Lock, Globe, Star,
@@ -54,6 +55,7 @@ interface ChymeAppProps {
 }
 
 export function ChymeApp({ onClose }: ChymeAppProps) {
+  const { isAuthenticated, signIn } = useAuth();
   const [activeRoom, setActiveRoom] = useState<Room | null>(null);
   const [muted, setMuted] = useState(false);
   const [handRaised, setHandRaised] = useState(false);
@@ -66,6 +68,14 @@ export function ChymeApp({ onClose }: ChymeAppProps) {
   const DARK_BG = "#021006";
   const CARD_BG = "#041a0b";
   const BORDER = "#052e16";
+
+  const handleStartRoom = async () => {
+    if (!isAuthenticated) {
+      await signIn();
+      return;
+    }
+    // TODO: Implement room creation flow
+  };
 
   const handleSendChat = () => {
     if (!chatInput.trim()) return;
@@ -111,8 +121,27 @@ export function ChymeApp({ onClose }: ChymeAppProps) {
         <aside style={{ width: 300, borderRight: `1px solid ${BORDER}`, display: "flex", flexDirection: "column", flexShrink: 0, background: "#030d05" }}>
           {/* Create room CTA */}
           <div style={{ padding: "16px 16px 12px" }}>
-            <button style={{ width: "100%", padding: "12px 16px", borderRadius: 12, background: `linear-gradient(135deg, ${PRIMARY} 0%, #16A34A 100%)`, border: "none", color: "#fff", fontSize: 14, fontWeight: 700, cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", gap: 8 }}>
-              <Plus size={16} /> Start a Room
+            <button 
+              onClick={handleStartRoom}
+              disabled={isAuthenticated === false}
+              title={isAuthenticated === false ? "Sign in to start a room" : ""}
+              style={{ 
+                width: "100%", 
+                padding: "12px 16px", 
+                borderRadius: 12, 
+                background: isAuthenticated ? `linear-gradient(135deg, ${PRIMARY} 0%, #16A34A 100%)` : "rgba(255,255,255,0.1)", 
+                border: "none", 
+                color: isAuthenticated ? "#fff" : "#9CA3AF",
+                fontSize: 14, 
+                fontWeight: 700, 
+                cursor: isAuthenticated ? "pointer" : "not-allowed",
+                display: "flex", 
+                alignItems: "center", 
+                justifyContent: "center", 
+                gap: 8,
+                opacity: isAuthenticated ? 1 : 0.6
+              }}>
+              <Plus size={16} /> {isAuthenticated ? "Start a Room" : "Sign in to Start"}
             </button>
           </div>
 
@@ -290,10 +319,29 @@ export function ChymeApp({ onClose }: ChymeAppProps) {
               </div>
               <div style={{ fontSize: 24, fontWeight: 800, color: "#F0FDF4" }}>No active rooms yet</div>
               <div style={{ fontSize: 15, color: "#4B5563", textAlign: "center", maxWidth: 400, lineHeight: 1.6 }}>
-                Create a room to start connecting with other survivors in a safe space, or join an existing room when others create one.
+                {isAuthenticated 
+                  ? "Create a room to start connecting with other survivors in a safe space, or join an existing room when others create one."
+                  : "Sign in to create a room and connect with other survivors in a safe space, or listen to existing rooms."}
               </div>
-              <button style={{ marginTop: 24, padding: "12px 28px", borderRadius: 12, background: `linear-gradient(135deg, ${PRIMARY} 0%, #16A34A 100%)`, border: "none", color: "#fff", fontSize: 15, fontWeight: 700, cursor: "pointer", display: "flex", alignItems: "center", gap: 8 }}>
-                <Plus size={16} /> Create your first room
+              <button 
+                onClick={handleStartRoom}
+                disabled={isAuthenticated === false}
+                style={{ 
+                  marginTop: 24, 
+                  padding: "12px 28px", 
+                  borderRadius: 12, 
+                  background: isAuthenticated ? `linear-gradient(135deg, ${PRIMARY} 0%, #16A34A 100%)` : "rgba(255,255,255,0.1)", 
+                  border: "none", 
+                  color: isAuthenticated ? "#fff" : "#9CA3AF",
+                  fontSize: 15, 
+                  fontWeight: 700, 
+                  cursor: isAuthenticated ? "pointer" : "not-allowed",
+                  display: "flex", 
+                  alignItems: "center", 
+                  gap: 8,
+                  opacity: isAuthenticated ? 1 : 0.6
+                }}>
+                <Plus size={16} /> {isAuthenticated ? "Create your first room" : "Sign in to Create Room"}
               </button>
             </div>
           )}
@@ -304,5 +352,9 @@ export function ChymeApp({ onClose }: ChymeAppProps) {
 }
 
 export function Chyme() {
-  return <ChymeApp onClose={() => {}} />;
+  return (
+    <AuthProvider>
+      <ChymeApp onClose={() => {}} />
+    </AuthProvider>
+  );
 }

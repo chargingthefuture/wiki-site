@@ -1,13 +1,15 @@
 policies:
+  # ─── Timeline (unified) ────────────────────────────────────────────────
   - pluginId: feed
     command: feed.timeline.fetch
-    version: 1.0.0
+    version: 2.0.0
     requiredRoles:
       - member
       - admin
     attributePolicies:
       tenancy: same_workspace
       feedVisibilityPolicy: required
+      channelFilter: optional
     consentRequirements:
       scopes:
         - feed_consumption
@@ -73,6 +75,155 @@ policies:
       - actor_not_profile_owner
       - target_item_mandatory
 
+  # ─── Announcements ─────────────────────────────────────────────────────
+  - pluginId: feed
+    command: feed.announcement.draft.create
+    version: 1.0.0
+    requiredRoles:
+      - admin
+    attributePolicies:
+      tenancy: same_workspace
+      adminRouteGuard: required
+      targetingValidation: required
+    consentRequirements:
+      scopes:
+        - feed_admin_governance
+      fallbackLawfulBasis: legitimate_interest_safety_support
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - actor_not_admin
+      - csrf_validation_failed
+
+  - pluginId: feed
+    command: feed.announcement.draft.update
+    version: 1.0.0
+    requiredRoles:
+      - admin
+    attributePolicies:
+      tenancy: same_workspace
+      adminRouteGuard: required
+      draftStateGuard: required
+    consentRequirements:
+      scopes:
+        - feed_admin_governance
+      fallbackLawfulBasis: legitimate_interest_safety_support
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - actor_not_admin
+      - csrf_validation_failed
+      - announcement_not_draft
+
+  - pluginId: feed
+    command: feed.announcement.publish
+    version: 1.0.0
+    requiredRoles:
+      - admin
+    attributePolicies:
+      tenancy: same_workspace
+      adminRouteGuard: required
+      publishStateGuard: required
+    consentRequirements:
+      scopes:
+        - feed_admin_governance
+      fallbackLawfulBasis: legitimate_interest_safety_support
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - actor_not_admin
+      - csrf_validation_failed
+      - announcement_not_found
+
+  - pluginId: feed
+    command: feed.announcement.archive
+    version: 1.0.0
+    requiredRoles:
+      - admin
+    attributePolicies:
+      tenancy: same_workspace
+      adminRouteGuard: required
+    consentRequirements:
+      scopes:
+        - feed_admin_governance
+      fallbackLawfulBasis: legitimate_interest_safety_support
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - actor_not_admin
+      - csrf_validation_failed
+      - announcement_not_found
+
+  - pluginId: feed
+    command: feed.announcement.read.mark
+    version: 1.0.0
+    requiredRoles:
+      - member
+      - admin
+    attributePolicies:
+      tenancy: same_workspace
+      actorMustOwnReadState: true
+    consentRequirements:
+      scopes:
+        - feed_consumption
+      fallbackLawfulBasis: legitimate_interest_safety_support
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: false
+    denyConditions:
+      - actor_not_authenticated
+      - actor_not_profile_owner
+
+  - pluginId: feed
+    command: feed.announcement.dismiss
+    version: 1.0.0
+    requiredRoles:
+      - member
+      - admin
+    attributePolicies:
+      tenancy: same_workspace
+      actorMustOwnDismissState: true
+      mandatoryDismissGuard: required
+    consentRequirements:
+      scopes:
+        - feed_consumption
+      fallbackLawfulBasis: legitimate_interest_safety_support
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: false
+    denyConditions:
+      - actor_not_authenticated
+      - actor_not_profile_owner
+      - target_item_mandatory
+
   - pluginId: feed
     command: feed.announcement.render-mode.update
     version: 1.0.0
@@ -98,6 +249,161 @@ policies:
       - csrf_validation_failed
       - invalid_render_mode
 
+  - pluginId: feed
+    command: feed.announcement.targeting.validate
+    version: 1.0.0
+    requiredRoles:
+      - admin
+    attributePolicies:
+      tenancy: same_workspace
+      adminRouteGuard: required
+    consentRequirements:
+      scopes:
+        - feed_admin_governance
+      fallbackLawfulBasis: legitimate_interest_safety_support
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: false
+    denyConditions:
+      - actor_not_admin
+
+  # ─── Questions (LLM-assisted Q&A) ──────────────────────────────────────
+  - pluginId: feed
+    command: feed.question.submit
+    version: 1.0.0
+    requiredRoles:
+      - member
+      - admin
+    attributePolicies:
+      tenancy: same_workspace
+      contentModeration: required
+      rateLimiting: required
+    consentRequirements:
+      scopes:
+        - feed_consumption
+        - llm_processing
+      fallbackLawfulBasis: legitimate_interest_safety_support
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: false
+    denyConditions:
+      - actor_not_authenticated
+      - rate_limit_exceeded
+      - content_policy_violation
+
+  - pluginId: feed
+    command: feed.question.answer.generate
+    version: 1.0.0
+    requiredRoles:
+      - member
+      - admin
+    attributePolicies:
+      tenancy: same_workspace
+      llmGatePolicy: required
+      approvedDataSourcesOnly: required
+    consentRequirements:
+      scopes:
+        - feed_consumption
+        - llm_processing
+      fallbackLawfulBasis: legitimate_interest_safety_support
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: true
+    denyConditions:
+      - actor_not_authenticated
+      - llm_service_unavailable
+      - question_not_found
+
+  - pluginId: feed
+    command: feed.question.answer.rate
+    version: 1.0.0
+    requiredRoles:
+      - member
+      - admin
+    attributePolicies:
+      tenancy: same_workspace
+      actorMustOwnRating: true
+    consentRequirements:
+      scopes:
+        - feed_consumption
+      fallbackLawfulBasis: legitimate_interest_safety_support
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: false
+    denyConditions:
+      - actor_not_authenticated
+      - answer_not_found
+
+  # ─── Community Support ──────────────────────────────────────────────────
+  - pluginId: feed
+    command: feed.community.post.create
+    version: 1.0.0
+    requiredRoles:
+      - member
+      - admin
+    attributePolicies:
+      tenancy: same_workspace
+      contentModeration: required
+      rateLimiting: required
+    consentRequirements:
+      scopes:
+        - feed_consumption
+      fallbackLawfulBasis: legitimate_interest_safety_support
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: false
+    denyConditions:
+      - actor_not_authenticated
+      - rate_limit_exceeded
+      - content_policy_violation
+
+  - pluginId: feed
+    command: feed.community.post.reply
+    version: 1.0.0
+    requiredRoles:
+      - member
+      - admin
+    attributePolicies:
+      tenancy: same_workspace
+      contentModeration: required
+      parentPostMustExist: required
+    consentRequirements:
+      scopes:
+        - feed_consumption
+      fallbackLawfulBasis: legitimate_interest_safety_support
+    regionRestrictions:
+      allowedTransferMechanisms:
+        - local_processing
+        - scc
+    highRiskFlags:
+      containsPHI: false
+      requiresAdditionalAudit: false
+    denyConditions:
+      - actor_not_authenticated
+      - post_not_found
+      - content_policy_violation
+
+  # ─── Admin / Governance ─────────────────────────────────────────────────
   - pluginId: feed
     command: feed.admin.config.update
     version: 1.0.0

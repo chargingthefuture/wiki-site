@@ -10,9 +10,6 @@ export interface TrustEvidencePanelProps {
 }
 
 export const TrustEvidencePanel: React.FC<TrustEvidencePanelProps> = ({ trust, compact }) => {
-  const [loading, setLoading] = useState(false);
-  const [message, setMessage] = useState<string | null>(null);
-
   // The tooltip is toggled by the info button. Keep it accessible.
   const [showTooltip, setShowTooltip] = useState(false);
   const tooltipRef = useRef<HTMLDivElement | null>(null);
@@ -33,15 +30,6 @@ export const TrustEvidencePanel: React.FC<TrustEvidencePanelProps> = ({ trust, c
       document.removeEventListener('keydown', onEsc);
     };
   }, []);
-
-  const requestVerification = async () => {
-    setLoading(true);
-    // Frontend hint only — manual verification flow lives with admins.
-    setTimeout(() => {
-      setLoading(false);
-      setMessage("Request submitted — admins will review this account.");
-    }, 700);
-  };
 
   return (
     <section className="rounded border bg-background p-4 mb-2">
@@ -88,17 +76,7 @@ export const TrustEvidencePanel: React.FC<TrustEvidencePanelProps> = ({ trust, c
                 <div className="text-sm font-semibold text-gray-200">No trust signals yet</div>
                 <div className="text-xs text-muted-foreground mt-1">Signals appear as you participate in the community.</div>
                 <div className="mt-2 text-xs text-muted-foreground">Verification is handled manually by admins.</div>
-                <div className="mt-2 flex items-center gap-2">
-                  <button
-                    onClick={requestVerification}
-                    disabled={loading}
-                    className="inline-flex items-center px-3 py-1.5 bg-violet-600 text-white rounded-md text-xs hover:bg-violet-500 disabled:opacity-60"
-                  >
-                    {loading ? 'Requesting…' : 'Request Verification'}
-                  </button>
-                </div>
                 <div className="mt-2 text-xs text-muted-foreground">Visible to: {trust.trustVisibility.charAt(0).toUpperCase() + trust.trustVisibility.slice(1)}</div>
-                {message && <div className="mt-2 text-xs text-muted-foreground">{message}</div>}
               </div>
             ) : (
               <div className="flex flex-col items-center text-center py-5">
@@ -116,16 +94,6 @@ export const TrustEvidencePanel: React.FC<TrustEvidencePanelProps> = ({ trust, c
                   <li className="flex items-start gap-2"><span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-gray-700 text-xs text-gray-200">3</span> Use at least one plugin</li>
                 </ol>
                 <div className="mt-3 text-xs text-muted-foreground">Verification is handled manually by admins.</div>
-                <div className="mt-3 flex items-center gap-3">
-                  <button
-                    onClick={requestVerification}
-                    disabled={loading}
-                    className="inline-flex items-center px-4 py-2 bg-violet-600 text-white rounded-md text-sm hover:bg-violet-500 disabled:opacity-60"
-                  >
-                    {loading ? 'Requesting…' : 'Request Verification'}
-                  </button>
-                  {message && <div className="text-xs text-muted-foreground">{message}</div>}
-                </div>
                 <div className="mt-3 text-xs text-muted-foreground">Visible to: {trust.trustVisibility.charAt(0).toUpperCase() + trust.trustVisibility.slice(1)}</div>
               </div>
             )}
