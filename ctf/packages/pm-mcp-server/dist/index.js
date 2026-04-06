@@ -1,6 +1,5 @@
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import { Server } from '@modelcontextprotocol/sdk/server/index.js';
-import { CallToolRequest } from '@modelcontextprotocol/sdk/types.js';
 import { initializeDb, closeDb } from './db.js';
 import * as feedbackTools from './tools/feedback.js';
 import * as implementationTools from './tools/implementation.js';
@@ -132,7 +131,7 @@ const tools = [
                 },
                 approverId: {
                     type: 'string',
-                    description: 'Clerk user ID of approver',
+                    description: 'Auth provider user ID of approver',
                 },
                 approverFeedback: {
                     type: 'string',

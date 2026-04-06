@@ -55,7 +55,7 @@ policies:
     command: feedback.list
     version: 1.0.0
     requiredRoles:
-      - admin
+      - adminctf/docs
     attributePolicies:
       tenancy: same_workspace
       actorMustBeAdmin: true
