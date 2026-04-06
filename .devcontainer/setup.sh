@@ -122,6 +122,13 @@ else
   echo "Warning: DATABASE_URL is not set. Skipping schema.sql application and build."
 fi
 
+echo "Checking for CodeRabbit CLI..."
+if ! command -v coderabbit &> /dev/null; then
+  curl -fsSL https://cli.coderabbit.ai/install.sh | sh
+else
+  echo "CodeRabbit CLI already installed."
+fi
+
 # Ensure pre-commit hook is executable if present
 if [ -f /workspaces/chargingthefuture/.git/hooks/pre-commit ]; then
   chmod +x /workspaces/chargingthefuture/.git/hooks/pre-commit

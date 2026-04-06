@@ -1,1 +1,1 @@
-export { MockLighthouse as Lighthouse } from './MockLighthouse';
+export { LighthouseTabs as Lighthouse } from './LighthouseTabs';

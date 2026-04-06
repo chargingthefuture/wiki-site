@@ -1,1 +1,1 @@
-export { MockSkillsTaxonomy as SkillsTaxonomy } from './MockSkillsTaxonomy';
+export { SkillsTaxonomy } from './SkillsTaxonomy';

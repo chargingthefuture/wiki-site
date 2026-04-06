@@ -1,5 +1,6 @@
 import { cookies, headers } from 'next/headers';
 import type { UnlockAccessTier } from 'lib/unlock/types';
+import { authenticatePluginUser, type AuthProvider } from '../../../shared/auth/genericPluginAuth';
 
 type MaybeValue = string | null | undefined;
 
@@ -69,11 +70,21 @@ export async function resolveRequestIdentity(): Promise<RequestIdentity> {
   const cookieStore = await cookies();
 
   const userId = readIdentityValue('x-ctf-user-id', 'ctf_user_id', headerStore, cookieStore);
-  const authProvider = readIdentityValue('x-ctf-auth-provider', 'ctf_auth_provider', headerStore, cookieStore);
+  const authProviderRaw = readIdentityValue('x-ctf-auth-provider', 'ctf_auth_provider', headerStore, cookieStore);
+  const token = readIdentityValue('authorization', 'ctf_token', headerStore, cookieStore);
+  const provider = (authProviderRaw as AuthProvider) || 'custom';
+
+  // Delegate to canonical generic auth logic
+  const authResult = await authenticatePluginUser({
+    provider,
+    token: token || undefined,
+    userId: userId || undefined,
+  });
+
   const explicitAuthenticationState = normalizeBoolean(
     readIdentityValue('x-ctf-authenticated', 'ctf_authenticated', headerStore, cookieStore),
   );
-  const isAuthenticated = explicitAuthenticationState ?? Boolean(userId);
+  const isAuthenticated = explicitAuthenticationState ?? authResult.isAuthenticated;
   const username = readIdentityValue('x-ctf-username', 'ctf_username', headerStore, cookieStore);
   const role = normalizeRole(
     readIdentityValue('x-ctf-user-role', 'ctf_user_role', headerStore, cookieStore),
@@ -87,8 +98,8 @@ export async function resolveRequestIdentity(): Promise<RequestIdentity> {
 
   return {
     isAuthenticated,
-    authProvider,
-    userId: isAuthenticated ? userId : null,
+    authProvider: provider,
+    userId: isAuthenticated ? authResult.userId || userId : null,
     username: isAuthenticated ? username : null,
     role: isAuthenticated ? role : null,
     isApproved: isAuthenticated ? isApproved : false,

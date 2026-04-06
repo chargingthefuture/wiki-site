@@ -1,1 +1,1 @@
-export { MockPeerProgramming as PeerProgramming } from './MockPeerProgramming';
+export { PeerProgramming } from './PeerProgramming';

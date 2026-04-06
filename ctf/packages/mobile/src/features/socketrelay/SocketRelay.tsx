@@ -12,7 +12,7 @@ export function SocketRelay() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [input, setInput] = useState('');
-  const [postType, setPostType] = useState<'need' | 'offer'>('need');
+  // const [postType, setPostType] = useState<'need' | 'offer'>('need');
   const [category, setCategory] = useState('');
   const [location, setLocation] = useState('');
   const [posting, setPosting] = useState(false);
@@ -106,7 +106,7 @@ export function SocketRelay() {
             onChangeText={setLocation}
           />
           <TouchableOpacity style={styles.button} onPress={handlePost} disabled={posting}>
-            <Text style={styles.buttonText}>{posting ? 'Posting…' : postType === 'need' ? 'Post My Need' : 'Post My Offer'}</Text>
+            <Text style={styles.buttonText}>{posting ? 'Posting…' : 'Post'}</Text>
           </TouchableOpacity>
         </View>
       )}

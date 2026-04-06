@@ -1,1 +1,1 @@
-export { MockMood as Mood } from './MockMood';
+export { Mood } from './MockMood';

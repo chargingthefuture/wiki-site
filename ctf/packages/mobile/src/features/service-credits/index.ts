@@ -1,1 +1,1 @@
-export { MockServiceCredits as ServiceCredits } from './MockServiceCredits';
+export { ServiceCredits } from './MockServiceCredits';

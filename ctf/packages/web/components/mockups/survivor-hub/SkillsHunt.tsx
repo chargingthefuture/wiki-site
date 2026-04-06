@@ -57,169 +57,177 @@ export function SkillsHunt() {
     setInput("");
   };
 
+  const EmptyState = ({ message }: { message: string }) => (
+    <div style={{ textAlign: 'center', color: '#aaa', margin: '40px 0', fontSize: 18 }}>{message}</div>
+  );
+
   return (
     <div style={{ width: "100%", height: "100%", minHeight: "100vh", background: "#0F1117", fontFamily: "'Inter', system-ui, sans-serif", color: "#E8EAF0", display: "flex" }}>
       {/* Icon rail */}
       <aside style={{ width: 72, background: "#090B0F", borderRight: "1px solid rgba(255,255,255,0.06)", display: "flex", flexDirection: "column", alignItems: "center", paddingTop: 16, paddingBottom: 16, gap: 8, flexShrink: 0 }}>
-        <div style={{ width: 40, height: 40, borderRadius: 12, background: `${COLOR}30`, border: `1px solid ${COLOR}50`, display: "flex", alignItems: "center", justifyContent: "center", marginBottom: 12 }}>
-          <Award size={20} style={{ color: COLOR }} />
-        </div>
-        {[{ icon: Award, key: "rounds" }, { icon: Trophy, key: "leaderboard" }, { icon: MessageSquare, key: "chat" }].map(({ icon: Icon, key }) => (
-          <button key={key} onClick={() => setTab(key as "rounds" | "leaderboard" | "chat")} style={{ width: 44, height: 44, borderRadius: 12, background: tab === key ? `${COLOR}20` : "transparent", border: tab === key ? `1px solid ${COLOR}40` : "1px solid transparent", display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer", color: tab === key ? COLOR : "#6B7280" }}>
-            <Icon size={20} />
-          </button>
-        ))}
-        <div style={{ flex: 1 }} />
-        <button style={{ width: 44, height: 44, borderRadius: 12, background: "transparent", border: "none", display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer", color: "#6B7280" }}><Bell size={18} /></button>
-        <button style={{ width: 44, height: 44, borderRadius: 12, background: "transparent", border: "none", display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer", color: "#6B7280" }}><Settings size={18} /></button>
-        <Avatar style={{ width: 36, height: 36 }}>
-          <AvatarFallback style={{ background: `${COLOR}30`, color: COLOR, fontSize: 14, fontWeight: 700 }}>S</AvatarFallback>
-        </Avatar>
+        {/* Tab buttons */}
+        <button onClick={() => setTab("rounds")} style={{ background: tab === "rounds" ? COLOR : "transparent", color: tab === "rounds" ? "#fff" : COLOR, border: "none", borderRadius: 8, padding: 8, marginBottom: 8, cursor: "pointer" }} title="Rounds"><Trophy size={20} /></button>
+        <button onClick={() => setTab("leaderboard")} style={{ background: tab === "leaderboard" ? COLOR : "transparent", color: tab === "leaderboard" ? "#fff" : COLOR, border: "none", borderRadius: 8, padding: 8, marginBottom: 8, cursor: "pointer" }} title="Leaderboard"><Star size={20} /></button>
+        <button onClick={() => setTab("chat")} style={{ background: tab === "chat" ? COLOR : "transparent", color: tab === "chat" ? "#fff" : COLOR, border: "none", borderRadius: 8, padding: 8, cursor: "pointer" }} title="Chat"><MessageSquare size={20} /></button>
       </aside>
-
-      {/* Second sidebar */}
-      <aside style={{ width: 240, background: "#0D0F14", borderRight: "1px solid rgba(255,255,255,0.06)", display: "flex", flexDirection: "column", flexShrink: 0 }}>
-        <div style={{ padding: "20px 16px 12px" }}>
-          <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.08em", color: "#6B7280", textTransform: "uppercase", marginBottom: 12 }}>🎓 Skills Hunt</div>
-          <div style={{ position: "relative" }}>
-            <Search size={14} style={{ position: "absolute", left: 10, top: "50%", transform: "translateY(-50%)", color: "#4B5563" }} />
-            <input placeholder="Search rounds…" style={{ width: "100%", padding: "7px 10px 7px 30px", background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.06)", borderRadius: 8, fontSize: 13, color: "#9CA3AF", outline: "none", boxSizing: "border-box" }} />
-          </div>
-        </div>
-        <ScrollArea style={{ flex: 1 }}>
-          <div style={{ padding: "0 8px 16px" }}>
-            {["All Rounds", "Live Now", "Upcoming", "Completed", "My Rounds"].map((f, i) => (
-              <div key={f} style={{ display: "flex", alignItems: "center", gap: 8, padding: "8px 10px", borderRadius: 8, cursor: "pointer", background: i === 0 ? `${COLOR}18` : "transparent", borderLeft: i === 0 ? `2px solid ${COLOR}` : "2px solid transparent", marginLeft: 2, marginBottom: 2 }}>
-                <span style={{ fontSize: 13, color: i === 0 ? "#E8EAF0" : "#9CA3AF", flex: 1 }}>{f}</span>
-                {f === "Live Now" && <span style={{ background: "#22C55E", borderRadius: 10, fontSize: 11, fontWeight: 700, color: "#fff", padding: "1px 6px" }}>2</span>}
-              </div>
-            ))}
-            <div style={{ margin: "16px 0 8px", fontSize: 11, fontWeight: 700, letterSpacing: "0.08em", color: "#4B5563", textTransform: "uppercase", padding: "0 10px" }}>Your Badges</div>
-            <div style={{ display: "flex", flexWrap: "wrap", gap: 6, padding: "0 10px" }}>
-              {BADGES.map((b) => (
-                <div key={b.name} title={b.name} style={{ width: 32, height: 32, borderRadius: 8, background: b.earned ? `${COLOR}20` : "rgba(255,255,255,0.04)", border: `1px solid ${b.earned ? COLOR + "40" : "rgba(255,255,255,0.06)"}`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 16, cursor: "pointer", opacity: b.earned ? 1 : 0.4 }}>
-                  {b.earned ? b.emoji : <Lock size={12} style={{ color: "#4B5563" }} />}
-                </div>
-              ))}
-            </div>
-          </div>
-        </ScrollArea>
-        <div style={{ padding: 12, borderTop: "1px solid rgba(255,255,255,0.06)" }}>
-          <div style={{ padding: "10px 12px", borderRadius: 10, background: `${COLOR}10`, border: `1px solid ${COLOR}25` }}>
-            <div style={{ fontSize: 12, fontWeight: 600, color: COLOR, marginBottom: 2 }}>Your Points</div>
-            <div style={{ fontSize: 20, fontWeight: 800, color: "#F9FAFB" }}>6,412 pts</div>
-            <div style={{ fontSize: 11, color: "#6B7280" }}>Rank #4 globally</div>
-          </div>
-        </div>
-      </aside>
-
-      {/* Main */}
-      <div style={{ flex: 1, display: "flex", flexDirection: "column", minWidth: 0 }}>
-        <header style={{ height: 56, borderBottom: "1px solid rgba(255,255,255,0.06)", display: "flex", alignItems: "center", padding: "0 24px", gap: 16, background: "#0D0F14", flexShrink: 0 }}>
-          <Award size={18} style={{ color: COLOR }} />
-          <div style={{ flex: 1 }}>
-            <div style={{ fontSize: 15, fontWeight: 600, color: "#E8EAF0" }}>🎓 Skills Hunt</div>
-            <div style={{ fontSize: 12, color: "#6B7280" }}>Rounds, leaderboards, scoring · GetStream-powered</div>
-          </div>
-          <Badge style={{ background: "#22C55E20", color: "#22C55E", border: "1px solid #22C55E35", fontSize: 11, padding: "3px 10px", borderRadius: 20 }}>🔴 2 Live</Badge>
-          <Badge style={{ background: "rgba(14,165,233,0.12)", color: "#38BDF8", border: "1px solid rgba(14,165,233,0.2)", fontSize: 11, padding: "3px 10px", borderRadius: 20 }}>GetStream ⚡</Badge>
-        </header>
-
-        {tab === "rounds" ? (
+      {/* Main content */}
+      <main style={{ flex: 1, minHeight: "100vh" }}>
+        {tab === "rounds" && (
           <ScrollArea style={{ flex: 1 }}>
             <div style={{ padding: "24px" }}>
               <div style={{ fontSize: 22, fontWeight: 800, color: "#F9FAFB", marginBottom: 4 }}>Active Rounds</div>
               <div style={{ fontSize: 14, color: "#6B7280", marginBottom: 20 }}>Cohort-based skill building for survivors worldwide</div>
               <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
-                {ROUNDS.map((r) => (
-                  <div key={r.id} style={{ padding: "20px 24px", borderRadius: 16, background: "rgba(255,255,255,0.02)", border: `1px solid ${r.color}${r.status === "live" ? "40" : "20"}` }}>
-                    <div style={{ display: "flex", alignItems: "flex-start", gap: 16 }}>
-                      <div style={{ flex: 1 }}>
-                        <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 6 }}>
-                          <div style={{ fontSize: 16, fontWeight: 700, color: "#F9FAFB" }}>{r.title}</div>
-                          <Badge style={{ background: r.status === "live" ? "#22C55E20" : r.status === "upcoming" ? `${COLOR}20` : "rgba(255,255,255,0.06)", color: r.status === "live" ? "#22C55E" : r.status === "upcoming" ? COLOR : "#6B7280", border: `1px solid ${r.status === "live" ? "#22C55E40" : r.status === "upcoming" ? COLOR + "40" : "rgba(255,255,255,0.1)"}`, fontSize: 11 }}>
-                            {r.status === "live" ? "🔴 Live" : r.status === "upcoming" ? "Upcoming" : "✓ Completed"}
-                          </Badge>
-                        </div>
-                        <div style={{ display: "flex", gap: 16, fontSize: 13, color: "#6B7280", marginBottom: 12 }}>
-                          <span>👤 {r.facilitator}</span>
-                          <span>⏱ {r.weeks} weeks</span>
-                          <span>📊 {r.level}</span>
-                        </div>
-                        <div style={{ marginBottom: 10 }}>
-                          <div style={{ display: "flex", justifyContent: "space-between", fontSize: 12, marginBottom: 4, color: "#6B7280" }}>
-                            <span>{r.enrolled} enrolled</span>
-                            <span>{r.capacity} capacity</span>
+                {ROUNDS.length === 0 ? (
+                  <EmptyState message="No rounds available." />
+                ) : (
+                  ROUNDS.map((r) => (
+                    <div key={r.id} style={{ padding: "20px 24px", borderRadius: 16, background: "rgba(255,255,255,0.02)", border: `1px solid ${r.color}${r.status === "live" ? "40" : "20"}` }}>
+                      <div style={{ display: "flex", alignItems: "flex-start", gap: 16 }}>
+                        <div style={{ flex: 1 }}>
+                          <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 6 }}>
+                            <div style={{ fontSize: 16, fontWeight: 700, color: "#F9FAFB" }}>{r.title}</div>
+                            <Badge style={{ background: r.status === "live" ? "#22C55E20" : r.status === "upcoming" ? `${COLOR}20` : "rgba(255,255,255,0.06)", color: r.status === "live" ? "#22C55E" : r.status === "upcoming" ? COLOR : "#6B7280", border: `1px solid ${r.status === "live" ? "#22C55E40" : r.status === "upcoming" ? COLOR + "40" : "rgba(255,255,255,0.1)"}`, fontSize: 11 }}>
+                              {r.status === "live" ? "🔴 Live" : r.status === "upcoming" ? "Upcoming" : "✓ Completed"}
+                            </Badge>
                           </div>
-                          <div style={{ height: 6, background: "rgba(255,255,255,0.05)", borderRadius: 3, overflow: "hidden" }}>
-                            <div style={{ height: "100%", background: r.color, borderRadius: 3, width: `${(r.enrolled / r.capacity) * 100}%` }} />
+                          <div style={{ display: "flex", gap: 16, fontSize: 13, color: "#6B7280", marginBottom: 12 }}>
+                            <span>👤 {r.facilitator}</span>
+                            <span>⏱ {r.weeks} weeks</span>
+                            <span>📊 {r.level}</span>
+                          </div>
+                          <div style={{ marginBottom: 10 }}>
+                            <div style={{ display: "flex", justifyContent: "space-between", fontSize: 12, marginBottom: 4, color: "#6B7280" }}>
+                              <span>{r.enrolled} enrolled</span>
+                              <span>{r.capacity} capacity</span>
+                            </div>
+                            <div style={{ height: 6, background: "rgba(255,255,255,0.05)", borderRadius: 3, overflow: "hidden" }}>
+                              <div style={{ height: "100%", background: r.color, borderRadius: 3, width: `${(r.enrolled / r.capacity) * 100}%` }} />
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <div>
-                        {r.status !== "completed" ? (
-                          <button
-                            onClick={() => setJoined((j) => j.includes(r.id) ? j.filter((x) => x !== r.id) : [...j, r.id])}
-                            style={{ padding: "10px 20px", borderRadius: 10, background: joined.includes(r.id) ? "rgba(255,255,255,0.05)" : r.color, border: joined.includes(r.id) ? `1px solid ${r.color}40` : "none", color: joined.includes(r.id) ? r.color : "#fff", fontSize: 13, fontWeight: 700, cursor: "pointer" }}
-                          >
-                            {joined.includes(r.id) ? "✓ Joined" : r.status === "live" ? "Join Now" : "Apply"}
-                          </button>
-                        ) : (
-                          <Badge style={{ background: "rgba(255,255,255,0.05)", color: "#6B7280", border: "1px solid rgba(255,255,255,0.08)", fontSize: 12, padding: "8px 16px" }}>Completed</Badge>
-                        )}
+                        <div>
+                          {r.status !== "completed" ? (
+                            <button
+                              onClick={() => setJoined((j) => j.includes(r.id) ? j.filter((x) => x !== r.id) : [...j, r.id])}
+                              style={{ padding: "10px 20px", borderRadius: 10, background: joined.includes(r.id) ? "rgba(255,255,255,0.05)" : r.color, border: joined.includes(r.id) ? `1px solid ${r.color}40` : "none", color: joined.includes(r.id) ? r.color : "#fff", fontSize: 13, fontWeight: 700, cursor: "pointer" }}
+                            >
+                              {joined.includes(r.id) ? "✓ Joined" : r.status === "live" ? "Join Now" : "Apply"}
+                            </button>
+                          ) : (
+                            <Badge style={{ background: "rgba(255,255,255,0.05)", color: "#6B7280", border: "1px solid rgba(255,255,255,0.08)", fontSize: 12, padding: "8px 16px" }}>Completed</Badge>
+                          )}
+                        </div>
                       </div>
                     </div>
-                  </div>
-                ))}
+                  ))
+                )}
               </div>
             </div>
           </ScrollArea>
-        ) : tab === "leaderboard" ? (
+        )}
+        {tab === "leaderboard" && (
           <ScrollArea style={{ flex: 1 }}>
             <div style={{ padding: "24px" }}>
               <div style={{ fontSize: 22, fontWeight: 800, color: "#F9FAFB", marginBottom: 4 }}>Global Leaderboard</div>
               <div style={{ fontSize: 14, color: "#6B7280", marginBottom: 20 }}>Top skills earners this month</div>
               <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-                {LEADERBOARD.map((p) => (
-                  <div key={p.rank} style={{ padding: "16px 20px", borderRadius: 14, background: (p as any).isMe ? `${COLOR}12` : "rgba(255,255,255,0.02)", border: `1px solid ${(p as any).isMe ? COLOR + "40" : "rgba(255,255,255,0.06)"}`, display: "flex", alignItems: "center", gap: 16 }}>
-                    <div style={{ width: 32, height: 32, borderRadius: 8, background: p.rank <= 3 ? `${["#F59E0B", "#9CA3AF", "#CD7C2F"][p.rank - 1]}20` : "rgba(255,255,255,0.04)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 16, fontWeight: 800, color: p.rank <= 3 ? ["#F59E0B", "#9CA3AF", "#CD7C2F"][p.rank - 1] : "#6B7280", flexShrink: 0 }}>
-                      {p.rank <= 3 ? ["🥇", "🥈", "🥉"][p.rank - 1] : `#${p.rank}`}
+                {LEADERBOARD.length === 0 ? (
+                  <div style={{ color: '#aaa', textAlign: 'center', marginTop: 40, fontSize: 18 }}>No leaderboard data.</div>
+                ) : (
+                  LEADERBOARD.map((p) => (
+                    <div key={p.rank} style={{ padding: "16px 20px", borderRadius: 14, background: (p as any).isMe ? `${COLOR}12` : "rgba(255,255,255,0.02)", border: `1px solid ${(p as any).isMe ? COLOR + "40" : "rgba(255,255,255,0.06)"}", display: "flex", alignItems: "center", gap: 16 }}>
+                      <div style={{ width: 32, height: 32, borderRadius: 8, background: p.rank <= 3 ? `${["#F59E0B", "#9CA3AF", "#CD7C2F"][p.rank - 1]}20` : "rgba(255,255,255,0.04)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 16, fontWeight: 800, color: p.rank <= 3 ? ["#F59E0B", "#9CA3AF", "#CD7C2F"][p.rank - 1] : "#6B7280", flexShrink: 0 }}>
+                        {p.rank <= 3 ? ["🥇", "🥈", "🥉"][p.rank - 1] : `#${p.rank}`}
+                      </div>
+                      <Avatar style={{ width: 40, height: 40 }}>
+                        <AvatarFallback style={{ background: `${COLOR}25`, color: COLOR, fontSize: 15, fontWeight: 800 }}>{p.avatar}</AvatarFallback>
+                      </Avatar>
+                      <div style={{ flex: 1 }}>
+                        <div style={{ fontSize: 14, fontWeight: 700, color: (p as any).isMe ? COLOR : "#F9FAFB" }}>{p.name} {(p as any).isMe && "(You)"}</div>
+                        <div style={{ fontSize: 12, color: "#6B7280" }}>{p.badges} badges earned</div>
+                      </div>
+                      <div style={{ textAlign: "right" }}>
+                        <div style={{ fontSize: 16, fontWeight: 800, color: COLOR }}>{p.points.toLocaleString()}</div>
+                        <div style={{ fontSize: 11, color: "#4B5563" }}>points</div>
+                      </div>
                     </div>
-                    <Avatar style={{ width: 40, height: 40 }}>
-                      <AvatarFallback style={{ background: `${COLOR}25`, color: COLOR, fontSize: 15, fontWeight: 800 }}>{p.avatar}</AvatarFallback>
-                    </Avatar>
-                    <div style={{ flex: 1 }}>
-                      <div style={{ fontSize: 14, fontWeight: 700, color: (p as any).isMe ? COLOR : "#F9FAFB" }}>{p.name} {(p as any).isMe && "(You)"}</div>
-                      <div style={{ fontSize: 12, color: "#6B7280" }}>{p.badges} badges earned</div>
-                    </div>
-                    <div style={{ textAlign: "right" }}>
-                      <div style={{ fontSize: 16, fontWeight: 800, color: COLOR }}>{p.points.toLocaleString()}</div>
-                      <div style={{ fontSize: 11, color: "#4B5563" }}>points</div>
-                    </div>
-                  </div>
-                ))}
+                  ))
+                )}
               </div>
             </div>
           </ScrollArea>
-        ) : (
+        )}
+        {tab === "chat" && (
           <div style={{ flex: 1, display: "flex", flexDirection: "column" }}>
             <ScrollArea style={{ flex: 1, padding: "16px 24px" }}>
-              {msgs.map((msg) => (
-                <div key={msg.id} style={{ display: "flex", flexDirection: msg.from === "user" ? "row-reverse" : "row", gap: 10, alignItems: "flex-end", marginBottom: 12 }}>
-                  {msg.from === "hub" && (
-                    <div style={{ width: 32, height: 32, borderRadius: 10, background: `${COLOR}30`, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
-                      <Award size={14} style={{ color: COLOR }} />
-                    </div>
-                  )}
-                  <div style={{ maxWidth: "70%", display: "flex", flexDirection: "column", gap: 6 }}>
-                    <div style={{ padding: "12px 16px", borderRadius: msg.from === "user" ? "16px 16px 4px 16px" : "16px 16px 16px 4px", background: msg.from === "user" ? COLOR : "rgba(255,255,255,0.05)", border: msg.from === "user" ? "none" : "1px solid rgba(255,255,255,0.06)", fontSize: 14, lineHeight: 1.6, color: "#E8EAF0" }}>{msg.text}</div>
-                    {(msg as any).action && (
-                      <button style={{ display: "inline-flex", alignItems: "center", gap: 6, padding: "7px 14px", borderRadius: 8, background: `${COLOR}15`, border: `1px solid ${COLOR}30`, color: COLOR, fontSize: 13, fontWeight: 600, cursor: "pointer", alignSelf: "flex-start" }}>
-                        {(msg as any).action} <ArrowUpRight size={13} />
-                      </button>
+              {msgs.length === 0 ? (
+                <div style={{ color: '#aaa', textAlign: 'center', marginTop: 40, fontSize: 18 }}>No chat messages yet.</div>
+              ) : (
+                msgs.map((msg) => (
+                  <div key={msg.id} style={{ display: "flex", flexDirection: msg.from === "user" ? "row-reverse" : "row", gap: 10, alignItems: "flex-end", marginBottom: 12 }}>
+                    {msg.from === "hub" && (
+                      <div style={{ width: 32, height: 32, borderRadius: 10, background: `${COLOR}30`, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+                        <Award size={14} style={{ color: COLOR }} />
+                      </div>
                     )}
+                    <div style={{ maxWidth: "70%", display: "flex", flexDirection: "column", gap: 6 }}>
+                      <div style={{ padding: "12px 16px", borderRadius: msg.from === "user" ? "16px 16px 4px 16px" : "16px 16px 16px 4px", background: msg.from === "user" ? COLOR : "rgba(255,255,255,0.05)", border: msg.from === "user" ? "none" : "1px solid rgba(255,255,255,0.06)", fontSize: 14, lineHeight: 1.6, color: "#E8EAF0" }}>{msg.text}</div>
+                      {(msg as any).action && (
+                        <button style={{ display: "inline-flex", alignItems: "center", gap: 6, padding: "7px 14px", borderRadius: 8, background: `${COLOR}15`, border: `1px solid ${COLOR}30`, color: COLOR, fontSize: 13, fontWeight: 600, cursor: "pointer", alignSelf: "flex-start" }}>
+                          {(msg as any).action} <ArrowUpRight size={13} />
+                        </button>
+                      )}
+                    </div>
                   </div>
-                </div>
+                ))
+              )}
+            </ScrollArea>
+            <div style={{ padding: "8px 24px 20px", flexShrink: 0 }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 10, padding: "10px 16px", background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.1)", borderRadius: 14 }}>
+                <Plus size={18} style={{ color: "#4B5563" }} />
+                <input value={input} onChange={(e) => setInput(e.target.value)} onKeyDown={(e) => e.key === "Enter" && send()} placeholder="Find rounds, ask about skills, check your score…" style={{ flex: 1, background: "transparent", border: "none", outline: "none", fontSize: 14, color: "#E8EAF0" }} />
+                <button onClick={send} style={{ width: 32, height: 32, borderRadius: 8, background: input.trim() ? COLOR : "rgba(255,255,255,0.06)", border: "none", display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer" }}>
+                  <Send size={14} style={{ color: input.trim() ? "#fff" : "#4B5563" }} />
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+      </main>
+      {/* Right panel */}
+      <aside style={{ width: 280, borderLeft: "1px solid rgba(255,255,255,0.06)", background: "#0D0F14", padding: "20px 16px", flexShrink: 0 }}>
+        <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.08em", color: "#4B5563", textTransform: "uppercase", marginBottom: 12 }}>Your Progress</div>
+        <div style={{ padding: "16px", borderRadius: 14, background: `${COLOR}08`, border: `1px solid ${COLOR}20`, marginBottom: 16 }}>
+          <div style={{ display: "flex", gap: 12, marginBottom: 12 }}>
+            {[{ l: "Rounds", v: "3" }, { l: "Pts", v: "6,412" }, { l: "Rank", v: "#4" }].map(({ l, v }) => (
+              <div key={l} style={{ flex: 1, textAlign: "center", padding: "10px 6px", borderRadius: 10, background: "rgba(255,255,255,0.04)" }}>
+                <div style={{ fontSize: 18, fontWeight: 800, color: COLOR }}>{v}</div>
+                <div style={{ fontSize: 10, color: "#6B7280" }}>{l}</div>
+              </div>
+            ))}
+          </div>
+          <div style={{ fontSize: 12, color: "#6B7280" }}>🔥 7-day streak</div>
+        </div>
+        <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.08em", color: "#4B5563", textTransform: "uppercase", marginBottom: 10 }}>Recent Badges</div>
+        {BADGES.filter((b) => b.earned).map((b) => (
+          <div key={b.name} style={{ display: "flex", alignItems: "center", gap: 10, padding: "8px 10px", borderRadius: 8, background: "rgba(255,255,255,0.02)", border: `1px solid ${COLOR}15`, marginBottom: 6 }}>
+            <div style={{ fontSize: 20 }}>{b.emoji}</div>
+            <div style={{ fontSize: 13, color: "#E8EAF0" }}>{b.name}</div>
+            <CheckCircle size={14} style={{ color: COLOR, marginLeft: "auto" }} />
+          </div>
+        ))}
+        <div style={{ marginTop: 16, padding: "14px 16px", borderRadius: 12, background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.06)" }}>
+          <div style={{ fontSize: 12, fontWeight: 600, color: "#9CA3AF", marginBottom: 8 }}>Next Badge: 5 Rounds 🏆</div>
+          <div style={{ height: 6, background: "rgba(255,255,255,0.05)", borderRadius: 3, overflow: "hidden" }}>
+            <div style={{ height: "100%", background: COLOR, borderRadius: 3, width: "60%" }} />
+          </div>
+          <div style={{ fontSize: 11, color: "#4B5563", marginTop: 6 }}>3/5 rounds completed</div>
+        </div>
+      </aside>
+    </div>
+  );
+}
               ))}
             </ScrollArea>
             <div style={{ padding: "8px 24px 20px", flexShrink: 0 }}>
@@ -234,7 +242,7 @@ export function SkillsHunt() {
           </div>
         )}
       </div>
-
+      </main>
       {/* Right panel */}
       <aside style={{ width: 280, borderLeft: "1px solid rgba(255,255,255,0.06)", background: "#0D0F14", padding: "20px 16px", flexShrink: 0 }}>
         <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.08em", color: "#4B5563", textTransform: "uppercase", marginBottom: 12 }}>Your Progress</div>

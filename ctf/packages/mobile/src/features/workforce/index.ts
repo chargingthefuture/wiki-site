@@ -1,1 +1,3 @@
-export { MockWorkforce as Workforce } from './MockWorkforce';
+
+export { WorkforceDashboard } from './WorkforceDashboard';
+export { WorkforceProfile } from './WorkforceProfile';

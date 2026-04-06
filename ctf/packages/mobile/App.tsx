@@ -1,4 +1,3 @@
-
 import { StatusBar } from 'expo-status-bar';
 import { useMemo, useState } from 'react';
 import { SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
@@ -21,6 +20,7 @@ import { ServiceCredits } from './src/features/service-credits';
 import { Levelup } from './src/features/levelup';
 import { Unlock } from './src/features/unlock';
 import { SkillsTaxonomy } from './src/features/skills-taxonomy';
+import { AuthProvider } from './src/features/trusttransport/auth-context';
 
 type FeatureKey =
   | 'chyme'
@@ -115,25 +115,31 @@ export default function App() {
   }, [selected]);
 
   return (
-    <SafeAreaView style={styles.container}>
-      <Text style={styles.title}>ChargingTheFuture Mobile</Text>
-      <Text style={styles.subtitle}>Web/Android plugin parity hub</Text>
+    <AuthProvider>
+      <SafeAreaView style={styles.container}>
+        <Text style={styles.title}>ChargingTheFuture Mobile</Text>
+        <Text style={styles.subtitle}>Web/Android plugin parity hub</Text>
 
-      <ScrollView horizontal style={styles.pillRow} contentContainerStyle={styles.pillContent}>
-        {featureOrder.map((feature) => (
-          <TouchableOpacity
-            key={feature.key}
-            style={[styles.pill, selected === feature.key ? styles.pillActive : null]}
-            onPress={() => setSelected(feature.key)}
-          >
-            <Text style={[styles.pillText, selected === feature.key ? styles.pillTextActive : null]}>{feature.label}</Text>
-          </TouchableOpacity>
-        ))}
-      </ScrollView>
+        <ScrollView horizontal style={styles.pillRow} contentContainerStyle={styles.pillContent}>
+          {featureOrder.map((feature) => (
+            <TouchableOpacity
+              key={feature.key}
+              style={[styles.pill, selected === feature.key ? styles.pillActive : null]}
+              onPress={() => setSelected(feature.key)}
+            >
+              <Text
+                style={[styles.pillText, selected === feature.key ? styles.pillTextActive : null]}
+              >
+                {feature.label}
+              </Text>
+            </TouchableOpacity>
+          ))}
+        </ScrollView>
 
-      <View style={styles.content}>{featureView}</View>
-      <StatusBar style="auto" />
-    </SafeAreaView>
+        <View style={styles.content}>{featureView}</View>
+        <StatusBar style="auto" />
+      </SafeAreaView>
+    </AuthProvider>
   );
 }
 

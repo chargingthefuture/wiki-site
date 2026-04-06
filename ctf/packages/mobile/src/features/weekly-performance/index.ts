@@ -1,1 +1,1 @@
-export { MockWeeklyPerformance as WeeklyPerformance } from './MockWeeklyPerformance';
+export { WeeklyPerformance } from './WeeklyPerformance';

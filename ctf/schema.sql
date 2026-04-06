@@ -1,3 +1,8 @@
+-- === skills_taxonomy_dependency_graph view (from prod) ===
+CREATE OR REPLACE VIEW skills_taxonomy_dependency_graph AS
+  SELECT target_type, target_id, sum(reference_count)::integer AS total_references, max(updated_at) AS snapshot_at
+  FROM skills_taxonomy_consumer_bindings
+  GROUP BY target_type, target_id;
 -- Combined schema.sql for CTF (rewrite, no /platform)
 
 BEGIN;
@@ -128,7 +133,11 @@ ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS up
 ALTER TABLE IF EXISTS peer_programming_weekly_topics ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 
 -- === canonical-username-handle-baseline ===
+-- === users table: ensure prod compatibility ===
+-- Add missing columns for unlock compatibility
 ALTER TABLE IF EXISTS public.users ADD COLUMN IF NOT EXISTS username VARCHAR(64);
+ALTER TABLE IF EXISTS public.users ADD COLUMN IF NOT EXISTS is_approved BOOLEAN DEFAULT FALSE;
+ALTER TABLE IF EXISTS public.users ADD COLUMN IF NOT EXISTS quora_profile_url VARCHAR;
 ALTER TABLE IF EXISTS public.chyme_room_members ADD COLUMN IF NOT EXISTS username VARCHAR(64);
 ALTER TABLE IF EXISTS public.chyme_messages ADD COLUMN IF NOT EXISTS author_username VARCHAR(64);
 
@@ -571,33 +580,64 @@ CREATE INDEX IF NOT EXISTS idx_llm_inference_log_question_created_at ON llm_infe
 CREATE INDEX IF NOT EXISTS idx_feed_community_posts_created_at ON feed_community_posts(created_at DESC);
 CREATE INDEX IF NOT EXISTS idx_feed_community_replies_post_created_at ON feed_community_replies(post_id, created_at ASC);
 
--- === unlock tables ===
+-- === unlock tables (prod-compatible) ===
 CREATE TABLE IF NOT EXISTS unlock_verification_submissions (
-  id SERIAL PRIMARY KEY,
-  user_id TEXT NOT NULL UNIQUE,
+  user_id TEXT PRIMARY KEY,
+  access_tier TEXT NOT NULL,
+  incentive_granted_at TIMESTAMPTZ,
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  id SERIAL,
   quora_profile_url TEXT NOT NULL,
   quora_profile_url_normalized TEXT NOT NULL,
   review_status TEXT NOT NULL CHECK (review_status IN ('pending', 'approved', 'rejected', 'spam')),
-  access_tier TEXT NOT NULL CHECK (access_tier IN ('pending_readonly', 'approved_full', 'locked_support_only')),
   unlock_window_expires_at TIMESTAMPTZ NOT NULL,
   reminder_stage INTEGER NOT NULL DEFAULT 0,
   reviewed_by_user_id TEXT,
   reviewed_at TIMESTAMPTZ,
   review_note TEXT,
-  incentive_granted_at TIMESTAMPTZ,
-  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
 -- Add columns with guarded DDL for legacy DBs
-ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS id SERIAL;
 ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS user_id TEXT;
+ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS access_tier TEXT;
+ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS incentive_granted_at TIMESTAMPTZ;
+ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
+ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS id SERIAL;
 ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS quora_profile_url TEXT NOT NULL DEFAULT '';
 ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS quora_profile_url_normalized TEXT NOT NULL DEFAULT '';
 ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS review_status TEXT;
-ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS access_tier TEXT;
 ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS unlock_window_expires_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
 ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS reminder_stage INTEGER NOT NULL DEFAULT 0;
+ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS reviewed_by_user_id TEXT;
+ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS reviewed_at TIMESTAMPTZ;
+ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS review_note TEXT;
+ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT NOW();
+
+-- Add prod unlock audit/config tables if missing
+CREATE TABLE IF NOT EXISTS unlock_audit_log (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id TEXT NOT NULL,
+  action TEXT NOT NULL,
+  details JSONB DEFAULT '{}'::jsonb NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  actor_user_id TEXT,
+  command TEXT,
+  metadata JSONB DEFAULT '{}'::jsonb NOT NULL,
+  policy_status TEXT,
+  reason TEXT,
+  request_id TEXT,
+  target_user_id TEXT
+);
+
+CREATE TABLE IF NOT EXISTS unlock_runtime_config (
+  singleton_id INTEGER PRIMARY KEY DEFAULT 1,
+  submission_window_hours INTEGER DEFAULT 168 NOT NULL,
+  reminder_schedule_hours INTEGER[] DEFAULT ARRAY[0, 24, 72, 168] NOT NULL,
+  incentive_amount TEXT DEFAULT '100' NOT NULL,
+  support_only_after_expiry BOOLEAN DEFAULT TRUE NOT NULL
+);
 ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS reviewed_by_user_id TEXT;
 ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS reviewed_at TIMESTAMPTZ;
 ALTER TABLE IF EXISTS unlock_verification_submissions ADD COLUMN IF NOT EXISTS review_note TEXT;
