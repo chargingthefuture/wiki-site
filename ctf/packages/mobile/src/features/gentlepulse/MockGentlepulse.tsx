@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { View, Text, TouchableOpacity, ScrollView, StyleSheet, Dimensions, ActivityIndicator, RefreshControl } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { fetchSessions, playSession, setFavorite, rateSession } from './api';
+import { fetchSessions } from './api';
 
 const COLOR = '#14B8A6';
 const WIDTH = Dimensions.get('window').width;
@@ -29,7 +29,7 @@ export const MockGentlepulse = () => {
 		try {
 			const data = await fetchSessions();
 			setSessions(data);
-		} catch (e) {
+		} catch {
 			setError('Could not load sessions.');
 		} finally {
 			setLoading(false);
