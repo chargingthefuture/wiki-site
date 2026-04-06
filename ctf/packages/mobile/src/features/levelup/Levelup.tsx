@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { View, Text, Button, StyleSheet, FlatList, TouchableOpacity } from 'react-native';
+import React from 'react';
+import { View, Text, StyleSheet, FlatList, TouchableOpacity } from 'react-native';
 
 const mockCohorts = [
   {
@@ -47,8 +47,7 @@ const EmptyState = () => (
 );
 
 export const Levelup = () => {
-  const [cohorts, setCohorts] = useState(mockCohorts);
-
+  const cohorts = mockCohorts;
   return (
     <View style={styles.container}>
       <Text style={styles.title}>LevelUp Cohorts</Text>
