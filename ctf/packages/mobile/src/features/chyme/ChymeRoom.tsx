@@ -22,6 +22,7 @@ import {
 type RoomState = Awaited<ReturnType<typeof getChymeRoom>>;
 type MessageState = Awaited<ReturnType<typeof getChymeMessages>>['messages'][number];
 
+
 export const ChymeRoom = () => {
   const [room, setRoom] = useState<RoomState | null>(null);
   const [messages, setMessages] = useState<MessageState[]>([]);
@@ -41,15 +42,7 @@ export const ChymeRoom = () => {
     }
   }, []);
 
-  useEffect(() => {
-    if (!identity) {
-      return;
-    }
-
-    void loadRoom();
-  }, [identity]);
-
-  const loadRoom = async () => {
+  const loadRoom = React.useCallback(async () => {
     if (!identity) {
       Alert.alert('Configuration required', runtimeError ?? 'Chyme mobile identity is not configured.');
       return;
@@ -68,7 +61,15 @@ export const ChymeRoom = () => {
     } finally {
       setLoading(false);
     }
-  };
+  }, [identity, runtimeError]);
+
+  useEffect(() => {
+    if (!identity) {
+      return;
+    }
+
+    void loadRoom();
+  }, [identity, loadRoom]);
 
   const handleSend = async () => {
     if (!text.trim() || !identity) return;
