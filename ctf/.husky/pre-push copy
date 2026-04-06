@@ -6,5 +6,6 @@ repo_root="$(cd "$(dirname "$0")/.." && pwd)"
 
 echo "Running rewrite pre-push verification (lint, typecheck, web build)..."
 cd "$repo_root" || exit 1
+pnpm run verify:pre-push
 
 echo "Pre-push verification passed. Proceeding with push."
