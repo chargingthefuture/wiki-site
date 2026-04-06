@@ -1,1 +1,1 @@
-export { MockSocketRelay as SocketRelay } from './MockSocketRelay';
+export { SocketRelay } from './SocketRelay';

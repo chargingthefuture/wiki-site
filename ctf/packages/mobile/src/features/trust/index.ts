@@ -1,1 +1,1 @@
-export { MockTrust as Trust } from './MockTrust';
+export { Trust } from './Trust';

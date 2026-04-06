@@ -1,6 +1,7 @@
 import React from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
-import { mobileFeedItems } from '../feed/feedDemoData';
+
+import { Trust } from '../trust';
 
 const posts = mobileFeedItems.filter((item) => item.channel === 'community');
 
@@ -8,6 +9,10 @@ export const MockCommunity = () => (
   <View style={styles.container}>
     <Text style={styles.title}>Community Support Channel</Text>
     <Text style={styles.subtitle}>Mobile parity shell for peer posts, replies, and moderation-ready actions.</Text>
+
+    {/* Trust Panel (Android parity) */}
+    <Trust compact />
+
     {posts.map((item) => (
       <React.Fragment key={item.id}>
         <View style={styles.card}>
