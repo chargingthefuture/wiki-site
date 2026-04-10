@@ -1,3 +1,4 @@
+# git push --no-verify
 #!/bin/sh
 set -e
 . "$(dirname "$0")/_/husky.sh"

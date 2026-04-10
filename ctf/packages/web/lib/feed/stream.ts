@@ -34,7 +34,6 @@ export async function emitFeedMembershipEventToStream(input: {
   const streamClient = StreamChat.getInstance(streamConfig.apiKey, streamConfig.apiSecret);
   const channel = streamClient.channel('messaging', 'ctf-feed-membership-events', {
     created_by_id: `feed-${input.actorId}`,
-    // @ts-expect-error: name is used for runtime config
     name: 'CTF Feed Membership Events',
   });
 
@@ -46,7 +45,6 @@ export async function emitFeedMembershipEventToStream(input: {
 
   await channel.sendEvent({
     type: 'feed.membership.updated' as EventTypes,
-    // @ts-expect-error: eventName is used for runtime config
     eventName: 'feed.membership.updated',
     actorId: input.actorId,
     userId: input.userId,

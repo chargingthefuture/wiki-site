@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/types/index.d.ts",
   "dependencies": {
     "stream-chat": "^8.60.0"
   },
   "scripts": {
-    "build": "echo \"@ctf/shared build ok\"",
+    "build": "tsc -p tsconfig.json",
     "lint": "pnpm exec eslint --config eslint.config.mjs src --max-warnings 0",
     "typecheck": "pnpm exec tsc --noEmit -p tsconfig.json",
     "test": "echo \"@ctf/shared test ok\""

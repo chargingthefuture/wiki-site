@@ -41,7 +41,6 @@ async function ensureMember(streamClient: StreamChat, userId: string, displayNam
 async function ensureChannel(streamClient: StreamChat, streamUserId: string) {
   const channel = streamClient.channel('messaging', CHYME_STREAM_CHANNEL_ID, {
     created_by_id: streamUserId,
-    // @ts-expect-error: name is used for runtime config
     name: 'Chyme Main Room',
   });
 
