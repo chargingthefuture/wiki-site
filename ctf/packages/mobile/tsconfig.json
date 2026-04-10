@@ -1,4 +1,16 @@
 {
-  "compilerOptions": {},
+  "compilerOptions": {
+    "baseUrl": "../../",
+    "paths": {
+      "@ctf/shared": [
+        "ctf/packages/shared/dist/index.js",
+        "ctf/packages/shared/dist/types/index.d.ts"
+      ],
+      "@ctf/shared/*": [
+        "ctf/packages/shared/dist/*",
+        "ctf/packages/shared/dist/types/*"
+      ]
+    }
+  },
   "extends": "expo/tsconfig.base"
 }

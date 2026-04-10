@@ -44,7 +44,7 @@ export const TrustTransport = () => {
       </View>
       <View style={styles.nav}>
         {['ride', 'package', 'track', 'chat'].map((key) => (
-          <TouchableOpacity key={key} style={[styles.navBtn, tab === key && styles.navBtnActive]} onPress={() => setTab(key)}>
+          <TouchableOpacity style={[styles.navBtn, tab === key && styles.navBtnActive]} onPress={() => setTab(key)}>
             <Text style={[styles.navBtnText, tab === key && styles.navBtnTextActive]}>{key.charAt(0).toUpperCase() + key.slice(1)}</Text>
           </TouchableOpacity>
         ))}
@@ -64,7 +64,7 @@ export const TrustTransport = () => {
               <View>
                 <Text style={styles.nearbyTitle}>Nearby Drivers</Text>
                 {DRIVERS.map((d) => (
-                  <View key={d.id} style={styles.driverCard}>
+                  <View style={styles.driverCard}>
                     <View style={styles.avatar}><Text style={styles.avatarText}>{d.avatar}</Text></View>
                     <View style={{ flex: 1 }}>
                       <Text style={styles.driverName}>{d.name}</Text>

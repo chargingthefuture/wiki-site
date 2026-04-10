@@ -17,7 +17,7 @@ export const LighthouseTabs = () => {
       <View style={styles.tabBar}>
         {TABS.map(t => (
           <TouchableOpacity
-            key={t.key}
+            // ...existing code...
             style={[styles.tab, tab === t.key && styles.tabActive]}
             onPress={() => setTab(t.key)}
           >

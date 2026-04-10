@@ -6,7 +6,8 @@ const BASE_URL = Platform.select({
   default: 'https://your-api-domain.com/api/skills-taxonomy', // TODO: Replace with actual prod URL or env
 });
 
-async function fetchJson(path, options = {}) {
+type FetchOptions = RequestInit & { headers?: Record<string, string> };
+async function fetchJson(path: string, options: FetchOptions = {}) {
   const res = await fetch(`${BASE_URL}${path}`, {
     credentials: 'include',
     ...options,

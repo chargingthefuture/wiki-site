@@ -56,7 +56,7 @@ export const PeerProgramming = () => {
       {/* Navigation */}
       <View style={styles.navBar}>
         {NAV.map(({ label, key }) => (
-          <TouchableOpacity key={key} onPress={() => setActiveNav(key)} style={[styles.navItem, activeNav === key && styles.navItemActive]}>
+          <TouchableOpacity onPress={() => setActiveNav(key)} style={[styles.navItem, activeNav === key && styles.navItemActive]}>
             <Text style={[styles.navLabel, activeNav === key && styles.navLabelActive]}>{label}</Text>
           </TouchableOpacity>
         ))}
@@ -77,7 +77,7 @@ export const PeerProgramming = () => {
               <View style={styles.emptyState}><Text style={styles.emptyText}>No cohorts available. Check back soon!</Text></View>
             ) : (
               cohorts.map((c) => (
-                <View key={c.id} style={styles.cohortCard}>
+                <View style={styles.cohortCard}>
                   <View style={styles.cohortHeader}>
                     <View style={{ flex: 1 }}>
                       <Text style={styles.cohortName}>{c.name}</Text>
@@ -86,7 +86,7 @@ export const PeerProgramming = () => {
                     <Text style={[styles.cohortStatus, c.status === 'active' ? styles.statusActive : styles.statusForming]}>{c.status === 'active' ? '🔴 Active' : '⏳ Forming'}</Text>
                   </View>
                   <View style={styles.skillRow}>
-                    {c.skills.map((s) => <Text key={s} style={styles.skillBadge}>{s}</Text>)}
+                    {c.skills.map((s) => <Text style={styles.skillBadge}>{s}</Text>)}
                   </View>
                   <View style={styles.cohortMeta}>
                     <Text>{c.countries.join(' ')}</Text>

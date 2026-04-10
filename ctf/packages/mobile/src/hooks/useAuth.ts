@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { authenticatePluginUser, type AuthProvider } from '../../../../shared/auth/genericPluginAuth';
+import { authenticatePluginUser, type AuthProvider } from '@ctf/shared';
 
 export interface AuthUser {
   id: string;

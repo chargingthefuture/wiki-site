@@ -38,7 +38,7 @@ export const ServiceCredits = () => {
 			</View>
 			<View style={styles.navBar}>
 				{NAV.map((nav) => (
-					<TouchableOpacity key={nav.key} onPress={() => setActiveNav(nav.key)} style={[styles.navBtn, activeNav === nav.key && styles.navBtnActive]}>
+					<TouchableOpacity onPress={() => setActiveNav(nav.key)} style={[styles.navBtn, activeNav === nav.key && styles.navBtnActive]}>
 						<Text style={[styles.navBtnText, activeNav === nav.key && styles.navBtnTextActive]}>{nav.label}</Text>
 					</TouchableOpacity>
 				))}
@@ -64,7 +64,7 @@ export const ServiceCredits = () => {
 						<Text style={styles.sectionTitle}>Earn Credits</Text>
 						<Text style={styles.sectionSubtitle}>Contribute to the community and get rewarded</Text>
 						{MOCK_EARN_WAYS.map((w) => (
-							<View key={w.title} style={[styles.earnCard, { borderColor: w.color }]}> 
+							<View style={[styles.earnCard, { borderColor: w.color }]}> 
 								<Text style={styles.earnTitle}>{w.title}</Text>
 								<Text style={[styles.earnCredits, { color: COLOR }]}>{w.credits}</Text>
 								<Button title="Start" onPress={() => {}} color={w.color} />

@@ -42,7 +42,7 @@ export const TrustEvidencePanel: React.FC<TrustEvidencePanelProps> = ({ trust, c
         </View>
       ) : (
         trust.trustEvidence.map((item: TrustEvidenceItem, idx: number) => (
-          <View key={idx} style={styles.evidenceItem}>
+          <View style={styles.evidenceItem}>
             <Text style={styles.evidenceType}>{item.type}</Text>
             <Text style={styles.evidenceSummary}>{item.summary}</Text>
             {item.details ? <Text style={styles.evidenceDetails}>{item.details}</Text> : null}

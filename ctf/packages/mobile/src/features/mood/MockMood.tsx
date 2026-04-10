@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, Button, ActivityIndicator } from 'react-native';
-import { useMoodEligibility, useSubmitMoodCheck } from '@ctf/shared/src/mood/hooks';
+import { useMoodEligibility, useSubmitMoodCheck } from '@ctf/shared';
 
 // TODO: Replace with real clientId from auth context
 const getClientId = () => 'demo-client-id';
@@ -34,7 +34,6 @@ export const Mood = () => {
 			<View style={styles.moodRow}>
 				{[1,2,3,4,5].map((v) => (
 					<Button
-						key={v}
 						title={v.toString()}
 						color={selected === v ? '#FFD600' : '#333'}
 						onPress={() => setSelected(v)}

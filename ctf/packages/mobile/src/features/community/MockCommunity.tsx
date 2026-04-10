@@ -1,6 +1,8 @@
 import React from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 
+import { mobileFeedItems } from '../feed/feedDemoData';
+
 import { Trust } from '../trust';
 
 const posts = mobileFeedItems.filter((item) => item.channel === 'community');
@@ -14,7 +16,7 @@ export const MockCommunity = () => (
     <Trust compact />
 
     {posts.map((item) => (
-      <React.Fragment key={item.id}>
+      <React.Fragment>
         <View style={styles.card}>
           <Text style={styles.cardTitle}>{item.title}</Text>
           <Text style={styles.meta}>{item.category ?? 'general'}</Text>
@@ -22,7 +24,7 @@ export const MockCommunity = () => (
           <View style={styles.replyBox}>
             <Text style={styles.replyLabel}>Replies</Text>
             {item.replies?.map((reply) => (
-              <React.Fragment key={reply.id}>
+              <React.Fragment>
                 <Text style={styles.replyBody}>{reply.body}</Text>
               </React.Fragment>
             ))}

@@ -32,6 +32,7 @@
     },
     "noEmit": true,
     "isolatedModules": true,
+    "types": [],
     "types": []
   },
   "include": [

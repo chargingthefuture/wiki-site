@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { Alert } from 'react-native';
-import { authenticatePluginUser, type AuthProvider } from '../../../../shared/auth/genericPluginAuth';
+import { authenticatePluginUser, type AuthProvider as SharedAuthProvider } from '@ctf/shared';
 
 export interface AuthUser {
   id: string;
@@ -26,7 +26,7 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [user, setUser] = useState<AuthUser | null>(null);
   const [isLoading, setIsLoading] = useState(true);
-  const [provider, setProvider] = useState<AuthProvider>('custom');
+  const [provider, setProvider] = useState<SharedAuthProvider>('custom');
   const [token, setToken] = useState<string | undefined>(undefined);
 
   useEffect(() => {
