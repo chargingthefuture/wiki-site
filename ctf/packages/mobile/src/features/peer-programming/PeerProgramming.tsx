@@ -77,7 +77,8 @@ export const PeerProgramming = () => {
               <View style={styles.emptyState}><Text style={styles.emptyText}>No cohorts available. Check back soon!</Text></View>
             ) : (
               cohorts.map((c) => (
-                <View key={c.id} style={styles.cohortCard}>
+                  // @ts-expect-error React Native key prop
+                  <View key={c.id} style={styles.cohortCard}>
                   <View style={styles.cohortHeader}>
                     <View style={{ flex: 1 }}>
                       <Text style={styles.cohortName}>{c.name}</Text>

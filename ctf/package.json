@@ -27,7 +27,6 @@
     "migrate:all": "pnpm run migrate:schema",
     "schema:report-live-drift": "bash ./scripts/audit_schema_drift.sh",
     "schema:audit-queries": "node ./scripts/audit-schema-queries.mjs",
-
     "formance:fetch:standalone": "node ./scripts/fetchFormanceStandalone.mjs",
     "formance:up:standalone": "pnpm run formance:fetch:standalone && docker compose -f ./ops/formance/upstream-standalone/docker-compose.yml up -d",
     "formance:down:standalone": "bash ./scripts/formanceStandaloneDown.sh",
@@ -41,7 +40,9 @@
     "dev:mobile": "pnpm --filter @ctf/mobile run start"
   },
   "dependencies": {
-    "pg": "^8.16.3"
+    "pg": "^8.16.3",
+    "react": "^19.2.5",
+    "stream-chat": "^8.60.0"
   },
   "devDependencies": {
     "@types/node": "^22.13.5",

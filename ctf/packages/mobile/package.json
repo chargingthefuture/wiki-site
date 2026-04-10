@@ -16,6 +16,7 @@
     "check:mobile-env": "node ./scripts/check-mobile-env.mjs"
   },
   "dependencies": {
+    "@expo/vector-icons": "^15.1.1",
     "expo-constants": "^55.0.7",
     "expo-status-bar": "^55.0.4",
     "react": "19.2.0",
@@ -24,8 +25,8 @@
     "react-native-web": "^0.21.2"
   },
   "devDependencies": {
+    "eslint-plugin-react-hooks": "^7.0.1",
     "expo": "^55.0.4",
-    "expo-cli": "^6.3.10",
-    "eslint-plugin-react-hooks": "^7.0.1"
+    "expo-cli": "^6.3.10"
   }
 }

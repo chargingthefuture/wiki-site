@@ -5,6 +5,7 @@
   "type": "module",
   "main": "src/index.ts",
   "dependencies": {
+    "react": "^19.2.5",
     "stream-chat": "^8.60.0"
   },
   "scripts": {
@@ -12,5 +13,8 @@
     "lint": "pnpm exec eslint --config eslint.config.mjs src --max-warnings 0",
     "typecheck": "pnpm exec tsc --noEmit -p tsconfig.json",
     "test": "echo \"@ctf/shared test ok\""
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0"
   }
 }

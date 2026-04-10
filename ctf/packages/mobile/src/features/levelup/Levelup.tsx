@@ -61,8 +61,11 @@ export const Levelup = () => {
             <Text style={styles.cohortMeta}>{item.track} · Trainer: {item.trainer}</Text>
             <Text style={styles.cohortMeta}>Seats: {item.seats}/{item.totalSeats} · Credits: {item.credits}</Text>
             <View style={styles.tagRow}>
-              {item.tags.map(tag => (
-                <Text key={tag} style={styles.tag}>{tag}</Text>
+                // @ts-expect-error React Native key prop
+                {item.tags.map(tag => (
+                <React.Fragment key={tag}>
+                  <Text style={styles.tag}>{tag}</Text>
+                </React.Fragment>
               ))}
             </View>
             <TouchableOpacity

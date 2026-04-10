@@ -59,6 +59,8 @@ export const WeeklyPerformance = () => {
       .catch((e) => setError(e.message))
       .finally(() => setLoading(false));
   }, [selectedWeek]);
+
+  return (
     <View style={styles.root}>
       {/* Header */}
       <View style={styles.header}>
@@ -209,6 +211,7 @@ export const WeeklyPerformance = () => {
       </ScrollView>
     )}
   </View>
+  );
 }
 
 const styles = StyleSheet.create({
