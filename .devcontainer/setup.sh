@@ -80,6 +80,10 @@ pnpm --dir /workspaces/chargingthefuture/ctf install
 echo "Installing landing-page dependencies..."
 pnpm --dir /workspaces/chargingthefuture/landing-page install
 
+# Install dependencies for ctf/packages/web only (monorepo filter)
+echo "Installing ctf/packages/web dependencies only..."
+pnpm --dir /workspaces/chargingthefuture/ctf/packages/web install
+
 echo "Installing waitlist-landing-page dependencies..."
 pnpm --dir /workspaces/chargingthefuture/waitlist-landing-page install
 
