@@ -23,7 +23,7 @@ export const MockFeed = () => {
 
       <View style={styles.pills}>
         {(['all', 'announcement', 'question', 'community'] as Filter[]).map((value) => (
-          <Pressable key={value} onPress={() => setFilter(value)} style={[styles.pill, filter === value ? styles.pillActive : null]}>
+          <Pressable onPress={() => setFilter(value)} style={[styles.pill, filter === value ? styles.pillActive : null]}>
             <Text style={[styles.pillText, filter === value ? styles.pillTextActive : null]}>{value}</Text>
           </Pressable>
         ))}
@@ -31,7 +31,7 @@ export const MockFeed = () => {
 
       <View style={styles.list}>
         {items.map((item) => (
-          <React.Fragment key={item.id}>
+          <React.Fragment>
             <View style={styles.card}>
               <Text style={styles.cardType}>{item.channel}</Text>
               <Text style={styles.cardTitle}>{item.title}</Text>
@@ -46,7 +46,7 @@ export const MockFeed = () => {
                 <View style={styles.inlineBox}>
                   <Text style={styles.inlineLabel}>Replies</Text>
                   {item.replies.map((reply) => (
-                    <React.Fragment key={reply.id}>
+                    <React.Fragment>
                       <Text style={styles.inlineBody}>{reply.body}</Text>
                     </React.Fragment>
                   ))}

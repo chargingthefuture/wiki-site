@@ -80,7 +80,6 @@ export const Gdp = () => {
         <Text style={styles.empty}>No metrics available.</Text>
       ) : (
         data.metrics.map((m) => (
-          // @ts-expect-error React Native key prop
           <View key={m.metricKey} style={styles.metricRow}>
             <Text style={styles.metricKey}>{m.metricKey}</Text>
             <Text style={styles.metricValue}>{m.metricValue}</Text>

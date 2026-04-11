@@ -169,7 +169,7 @@ export const ChymeRoom = () => {
         <View style={styles.participantCard}>
           <Text style={styles.sectionTitle}>Participants</Text>
           {room.participants.map((participant) => (
-            <Fragment key={participant.userId}>
+            <Fragment>
               <View style={styles.participantRow}>
                 <View>
                   <Text style={styles.participantName}>{participant.displayName}</Text>

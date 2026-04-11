@@ -86,7 +86,7 @@ export const MockGentlepulse = () => {
 							</View>
 							<ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.categoryScroll} contentContainerStyle={{ alignItems: 'center' }}>
 								{['All', 'Breathing', 'Mindfulness', 'Grounding', 'Sleep', 'Morning'].map((c, i) => (
-									<TouchableOpacity key={c} style={[styles.categoryBtn, i === 0 && styles.categoryBtnActive]}>
+									<TouchableOpacity style={[styles.categoryBtn, i === 0 && styles.categoryBtnActive]}>
 										<Text style={[styles.categoryText, i === 0 && styles.categoryTextActive]}>{c}</Text>
 									</TouchableOpacity>
 								))}
@@ -98,7 +98,7 @@ export const MockGentlepulse = () => {
 							) : (
 								<View style={styles.sessionGrid}>
 									{sessions.map((s) => (
-										<TouchableOpacity key={s.id} style={styles.sessionCard} onPress={() => { setPlaying(s.id); setActiveNav('playing'); }}>
+										<TouchableOpacity style={styles.sessionCard} onPress={() => { setPlaying(s.id); setActiveNav('playing'); }}>
 											<Text style={styles.sessionEmoji}>{s.emoji || '🧘'}</Text>
 											<Text style={styles.sessionTitle}>{s.title}</Text>
 											<View style={styles.sessionMeta}>
@@ -160,7 +160,7 @@ export const MockGentlepulse = () => {
 			{/* Bottom nav */}
 			<View style={styles.bottomNav}>
 				{NAV.map(({ icon, label, key }) => (
-					<TouchableOpacity key={key} onPress={() => setActiveNav(key)} style={styles.bottomNavBtn}>
+					<TouchableOpacity onPress={() => setActiveNav(key)} style={styles.bottomNavBtn}>
 						<View style={[styles.bottomNavIcon, activeNav === key && styles.bottomNavIconActive]}>
 							<Ionicons name={icon} size={20} color={activeNav === key ? COLOR : '#4B5563'} />
 						</View>

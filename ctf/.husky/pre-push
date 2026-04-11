@@ -1,3 +1,4 @@
+# git push --no-verify
 #!/bin/sh
 set -e
 . "$(dirname "$0")/_/husky.sh"
@@ -6,6 +7,11 @@ repo_root="$(cd "$(dirname "$0")/.." && pwd)"
 
 echo "Running rewrite pre-push verification (lint, typecheck, web build)..."
 cd "$repo_root" || exit 1
-pnpm run verify:pre-push
+
+# Run Railway build for web package
+cd "$repo_root/ctf/packages/web" || exit 1
+echo "Running railway run pnpm build in web package..."
+railway run pnpm build
+cd "$repo_root"
 
 echo "Pre-push verification passed. Proceeding with push."

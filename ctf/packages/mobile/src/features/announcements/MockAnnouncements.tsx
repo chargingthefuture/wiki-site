@@ -9,7 +9,7 @@ export const MockAnnouncements = () => (
     <Text style={styles.title}>Announcements Channel</Text>
     <Text style={styles.subtitle}>Published admin guidance rendered inside the mobile parity surface.</Text>
     {announcements.map((item) => (
-      <React.Fragment key={item.id}>
+      <React.Fragment>
         <View style={styles.card}>
           <Text style={styles.cardTitle}>{item.title}</Text>
           <Text style={styles.cardBody}>{item.body}</Text>

@@ -64,7 +64,7 @@ export function SocketRelay() {
     <View style={styles.container}>
       <View style={styles.tabBar}>
         {['feed', 'post', 'chat'].map((t) => (
-          <TouchableOpacity key={t} onPress={() => setTab(t as any)} style={[styles.tab, tab === t && styles.tabActive]}>
+          <TouchableOpacity onPress={() => setTab(t as any)} style={[styles.tab, tab === t && styles.tabActive]}>
             <Text style={[styles.tabText, tab === t && styles.tabTextActive]}>{t.toUpperCase()}</Text>
           </TouchableOpacity>
         ))}
@@ -75,7 +75,7 @@ export function SocketRelay() {
         empty ? <Text style={styles.empty}>No requests yet. Be the first to post!</Text> :
         <ScrollView style={{ flex: 1 }}>
           {requests.map((r) => (
-            <View key={r.id} style={styles.card}>
+            <View style={styles.card}>
               <Text style={styles.cardTitle}>{r.title}</Text>
               <Text style={styles.cardMeta}>{r.category} · {r.city || 'Unknown'}</Text>
               <Text style={styles.cardDetails}>{r.details}</Text>

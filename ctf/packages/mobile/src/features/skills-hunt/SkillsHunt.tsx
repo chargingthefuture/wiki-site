@@ -88,7 +88,7 @@ export const SkillsHunt = () => {
     <View style={{flex:1}}>
       <ScrollView style={styles.chatArea}>
         {msgs.map(m => (
-          <View key={m.id} style={m.from === 'user' ? styles.userMsg : styles.hubMsg}>
+          <View style={m.from === 'user' ? styles.userMsg : styles.hubMsg}>
             <Text>{m.text}</Text>
             {m.action && <TouchableOpacity style={styles.actionBtn}><Text style={styles.actionBtnText}>{m.action}</Text></TouchableOpacity>}
           </View>

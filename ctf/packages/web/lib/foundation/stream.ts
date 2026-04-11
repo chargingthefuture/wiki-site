@@ -54,7 +54,6 @@ export async function ensureFoundationStreamChannel(input: {
   const streamChannelId = `foundation-thread-${input.threadId}`;
   const channel = streamClient.channel('messaging', streamChannelId, {
     created_by_id: survivorStreamUserId,
-    // @ts-expect-error: name is used for runtime config
     name: 'Foundation 1:1 Thread',
   });
 

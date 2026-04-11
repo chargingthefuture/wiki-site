@@ -1,6 +1,5 @@
 
 "use client";
-
 // Placeholder for real Workforce implementation
 
 type WorkforceShellProps = {

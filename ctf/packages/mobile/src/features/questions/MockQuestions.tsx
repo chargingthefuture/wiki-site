@@ -11,7 +11,7 @@ export const MockQuestions = () => (
     {questions.map((item) => {
       const answer = item.answers?.[0];
       return (
-        <React.Fragment key={item.id}>
+        <React.Fragment>
           <View style={styles.card}>
             <Text style={styles.cardTitle}>{item.title}</Text>
             <Text style={styles.meta}>{item.category ?? 'general'} {item.location ? `· ${item.location}` : ''}</Text>

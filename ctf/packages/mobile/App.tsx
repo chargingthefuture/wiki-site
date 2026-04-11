@@ -5,7 +5,7 @@ import { ChymeRoom } from './src/features/chyme';
 import { DirectoryList } from './src/features/directory';
 import { Feed } from './src/features/feed';
 import { Announcements } from './src/features/announcements';
-import { Workforce } from './src/features/workforce';
+import { WorkforceDashboard } from './src/features/workforce';
 import { SkillsHunt } from './src/features/skills-hunt';
 import { Foundation } from './src/features/foundation';
 import { Lighthouse } from './src/features/lighthouse';
@@ -82,7 +82,7 @@ export default function App() {
           </ScrollView>
         );
       case 'workforce':
-        return <Workforce />;
+        return <WorkforceDashboard />;
       case 'skills-hunt':
         return <SkillsHunt />;
       case 'foundation':

@@ -1,3 +1,4 @@
+export * from './auth/genericPluginAuth';
 export * from './mood';
 export * from './mood/hooks';
 export * from './mood/index.web';

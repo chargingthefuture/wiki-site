@@ -4,7 +4,7 @@
   "packageManager": "pnpm@9.12.0",
   "scripts": {
     "prepare": "git rev-parse --is-inside-work-tree >/dev/null 2>&1 && git config core.hooksPath ctf/.husky && chmod +x .husky/pre-commit .husky/pre-push || true",
-    "build": "pnpm -r --if-present run build",
+    "build": "echo Build started && pnpm -r --if-present run build",
     "lint": "pnpm -r --if-present --filter=!@ctf/web run lint",
     "typecheck": "pnpm -r --if-present run typecheck",
     "verify:web": "pnpm --filter @ctf/web run lint && pnpm --filter @ctf/web run typecheck && pnpm run lint && pnpm run typecheck",
@@ -40,9 +40,11 @@
     "dev:mobile": "pnpm --filter @ctf/mobile run start"
   },
   "dependencies": {
-    "pg": "^8.16.3",
-    "react": "^19.2.5",
-    "stream-chat": "^8.60.0"
+  "pg": "^8.16.3",
+  "react": "^19.2.5",
+  "stream-chat": "^8.60.0",
+  "@types/jsonwebtoken": "^9.0.10",
+  "jsonwebtoken": "^9.0.3"
   },
   "devDependencies": {
     "@types/node": "^22.13.5",

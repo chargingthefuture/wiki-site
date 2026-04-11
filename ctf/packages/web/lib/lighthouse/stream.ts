@@ -50,7 +50,6 @@ export async function ensureLighthouseMatchChannel(input: {
   const streamChannelId = `lighthouse-match-${input.matchId}`;
   const channel = streamClient.channel('messaging', streamChannelId, {
     created_by_id: seekerStreamUserId,
-    // @ts-expect-error: name is used for runtime config
     name: 'LightHouse Match Thread',
   });
 

@@ -11,7 +11,7 @@ const NAV = [
   { label: 'Admin', key: 'admin' },
 ];
 
-export const WeeklyPerformance = () => {
+export const WeeklyPerformance: React.FC = () => {
   const [activeNav, setActiveNav] = useState('weeks');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
@@ -26,6 +26,7 @@ export const WeeklyPerformance = () => {
   const [adminError, setAdminError] = useState('');
   const [exportResult, setExportResult] = useState<string | null>(null);
 
+// ...existing code...
   // Fetch weeks and current week on mount
   useEffect(() => {
     setLoading(true);
@@ -73,7 +74,7 @@ export const WeeklyPerformance = () => {
           if (nav.key === 'admin' && !isAdmin) return null;
           return (
             <TouchableOpacity
-              key={nav.key}
+              // ...existing code...
               style={[styles.navBtn, activeNav === nav.key && styles.navBtnActive]}
               onPress={() => setActiveNav(nav.key)}
             >
@@ -109,7 +110,7 @@ export const WeeklyPerformance = () => {
                 const isCurrent = currentWeek && w.weekStartDate === currentWeek.weekStartDate;
                 return (
                   <TouchableOpacity
-                    key={i}
+                    // ...existing code...
                     style={[styles.weekCard, selectedWeek === w.weekStartDate && styles.weekCardSelected]}
                     onPress={() => setSelectedWeek(w.weekStartDate)}
                     disabled={loading}
@@ -133,7 +134,7 @@ export const WeeklyPerformance = () => {
             )}
             {selectedWeek != null && metrics.length > 0 && (
               metrics.map((m, i) => (
-                <View key={i} style={styles.metricCard}>
+                <View style={styles.metricCard}>
                   <Text style={styles.metricKey}>{m.metricKey}</Text>
                   <Text style={styles.metricValue}>{m.metricValue} {m.metricUnit}</Text>
                 </View>

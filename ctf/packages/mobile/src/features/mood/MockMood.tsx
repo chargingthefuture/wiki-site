@@ -1,9 +1,13 @@
 
 import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, Button, ActivityIndicator } from 'react-native';
+<<<<<<< HEAD
 // Stub hooks for mobile build
 const useMoodEligibility = () => ({ eligibility: null, loading: false, error: null, fetchEligibility: () => {} });
 const useSubmitMoodCheck = () => ({ result: null, loading: false, error: null, submit: () => {} });
+=======
+import { useMoodEligibility, useSubmitMoodCheck } from '@ctf/shared';
+>>>>>>> fix/react-native-type-errors
 
 // TODO: Replace with real clientId from auth context
 const getClientId = () => 'demo-client-id';
