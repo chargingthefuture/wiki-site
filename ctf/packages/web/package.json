@@ -29,6 +29,7 @@
     "zod": "^4.3.6"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.2",
     "@types/node": "^22.0.0",
     "@types/node-cron": "^3.0.0",
     "@types/pg": "^8.15.5",
