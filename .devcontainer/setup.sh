@@ -27,13 +27,9 @@ else
   echo "ripgrep already installed."
 fi
 
-# Install/update Railway CLI
-echo "Checking for Railway CLI..."
-if ! command -v railway &> /dev/null; then
-  npm install -g railway
-else
-  echo "Railway CLI already installed."
-fi
+# Always install/update Railway CLI to latest globally
+echo "Installing/Updating Railway CLI globally..."
+npm install -g @railway/cli@latest --force
 
 # Install/update Vercel CLI
 echo "Checking for Vercel CLI..."
