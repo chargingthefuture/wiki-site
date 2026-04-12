@@ -24,4 +24,5 @@ export async function fetchMoodEligibility(clientId) {
     return res.json();
 }
 // Add analytics/tracking hooks here if required by contract
-// (client-only hooks not exported here)
+// Export client hooks for client-only imports
+export { useMoodEligibility, useSubmitMoodCheck } from './hooks';

@@ -1,60 +1,85 @@
-# BACKUP_RUNBOOK.md
+# Formance Postgres Backup & Restore Runbook
 
-## Formance Backup and Restore Runbook
+## Overview
 
-### Overview
-This document describes the process for backing up the Formance (Postgres) database and storing backups in a Supabase Storage bucket, as well as restoring from those backups.
+This runbook documents the daily automated backup and manual restore lifecycle for the Formance Postgres database. The automation performs a nightly backup of the Formance database to Supabase Storage, ensuring disaster recovery and compliance with data retention policies. Backups are compressed, restorable, and timestamped, and can be restored to any compatible Postgres instance.
 
----
-
-## Backup Process
-
-1. **Run the Backup Script**
-   - Script: `ctf/scripts/formance-backup.sh`
-   - The script will:
-     - Dump the Formance database using `pg_dump`
-     - Upload the backup file to the Supabase Storage bucket (default: `backups`)
-     - List the bucket contents for verification
-
-2. **Environment Variables Required**
-   - `PGUSER`, `PGHOST`, `PGDATABASE` (Postgres connection)
-   - `SUPABASE_URL`, `SUPABASE_SERVICE_KEY`, `SUPABASE_BUCKET` (Supabase Storage)
-
-3. **Scheduling**
-   - Use cron or GitHub Actions to run the script daily.
+**Architecture:**
+- GitHub Actions workflow triggers a Node.js script (`ctf/scripts/backupFormanceToSupabase.mjs`) daily at 3am UTC
+- The script uses `pg_dump` to create a compressed backup and uploads it to the `backups/formance/` folder in Supabase Storage
+- All credentials are managed via GitHub Actions secrets
 
 ---
 
-## Restore Process
+## Prerequisites
 
-1. **Download Backup**
-   - Use Supabase CLI or dashboard to download the desired backup file from the bucket.
+- **Secrets Required:**
+  - `FORMANCE_DATABASE_URL`: Postgres connection string for the Formance database (read access)
+  - `SUPABASE_URL`: Supabase project URL (e.g., `https://xyzcompany.supabase.co`)
+  - `SUPABASE_SERVICE_ROLE_KEY`: Supabase service role key (write access to storage)
+- **Supabase Storage Setup:**
+  - The `backups` bucket must exist in Supabase Storage
+  - The `backups/formance/` folder is used for storing daily backup files
 
-2. **Restore to Postgres**
-   - Example:
-     ```bash
-     pg_restore -U <user> -h <host> -d <target_db> <backup_file>
+---
+
+## Manual Execution
+
+To run the backup script locally:
+
+```sh
+FORMANCE_DATABASE_URL=postgres://user:pass@host:port/dbname \
+SUPABASE_URL=https://xyzcompany.supabase.co \
+SUPABASE_SERVICE_ROLE_KEY=your-service-role-key \
+node ctf/scripts/backupFormanceToSupabase.mjs
+```
+
+The script will create a timestamped `.dump` file, upload it to Supabase Storage, and clean up the local file.
+
+---
+
+## Restore Procedure
+
+1. **Download the desired backup file from Supabase Storage:**
+   - Use the Supabase dashboard or CLI to download from `backups/formance/formance-backup-YYYY-MM-DDTHHMMSSZ.dump`
+   - Example with Supabase CLI:
+     ```sh
+     supabase storage list backups/formance/
+     supabase storage download backups/formance/formance-backup-YYYY-MM-DDTHHMMSSZ.dump
      ```
-
-3. **Verify Data Integrity**
-   - Check that all expected tables and data are present.
-
----
-
-## Verification
-- After each backup, confirm the file appears in the Supabase bucket.
-- Periodically restore a backup to a test database to verify integrity.
+2. **Restore to Postgres using `pg_restore`:**
+   - Example command:
+     ```sh
+     pg_restore --clean --no-owner --no-privileges --dbname=postgres://user:pass@host:port/dbname formance-backup-YYYY-MM-DDTHHMMSSZ.dump
+     ```
+   - Adjust flags as needed for your environment (see `pg_restore` docs)
 
 ---
 
-## References
-- [ctf/scripts/formance-backup.sh](../../ctf/scripts/formance-backup.sh)
-- [ctf/agents/skills/supabase-postgres-best-practices/README.md](../../ctf/agents/skills/supabase-postgres-best-practices/README.md)
-- [ctf/docs/developer/REVERT_PROTOCOL.md](REVERT_PROTOCOL.md)
+## Verification Checklist
+
+- [ ] Confirm daily workflow runs succeeded in the GitHub Actions tab
+- [ ] List contents of `backups/formance/` in Supabase Storage (dashboard or CLI)
+- [ ] Periodically perform a test restore to a staging environment and verify data integrity
 
 ---
 
-## Policy Notes
-- Supabase is used only for document storage (per workspace policy).
-- All backup/restore steps must be reproducible and documented.
-- Backups are required before critical changes (see REVERT_PROTOCOL.md).
+## Troubleshooting
+
+- **Connection errors:**
+  - Check that all secrets are set and valid
+  - Ensure network access to both Postgres and Supabase endpoints
+- **Storage permission issues:**
+  - Verify the service role key has write access to the `backups` bucket
+  - Confirm the bucket and folder exist in Supabase
+- **Timeouts or large backup failures:**
+  - Increase GitHub Actions job timeout if needed
+  - Check for storage quotas or network interruptions
+- **Script errors:**
+  - Review error logs uploaded as workflow artifacts for details
+
+---
+
+## Incident Response
+
+If a restore is required due to data loss or corruption, follow this runbook and reference the incident response protocol in [REVERT_PROTOCOL.md](./REVERT_PROTOCOL.md) for escalation and audit requirements.
