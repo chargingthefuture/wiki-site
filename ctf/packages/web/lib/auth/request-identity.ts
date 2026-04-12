@@ -1,6 +1,6 @@
 import { cookies, headers } from 'next/headers';
 import type { UnlockAccessTier } from 'lib/unlock/types';
-import { authenticatePluginUser, type AuthProvider } from '../../../shared/auth/genericPluginAuth';
+import { authenticatePluginUser, type AuthProvider } from '../../../shared';
 
 type MaybeValue = string | null | undefined;
 
