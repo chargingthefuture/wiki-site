@@ -1,7 +1,7 @@
 # GentlePulse Plugin Feature Inventory (Legacy Reference)
 
 ## Scope
-- Source analyzed (reference-only): `platform/`
+
 - Rewrite target: `ctf/`
 - Plugin name to retain: `GentlePulse`
 - Guardrail honored: no edits in `platform/` (per `.claude/rules/index.mdc` and `099-agent-scope-guardrails.mdc`)

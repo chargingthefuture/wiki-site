@@ -17,7 +17,7 @@
 
 - [x] Confirm baseline sequence completion before Chyme build start.
   - Acceptance criteria:
-    - Clerk foundation completed.
+    - Auth foundation completed.
     - Railway deployment baseline completed.
     - Vercel staging integration completed.
     - Expo baseline completed.
@@ -70,12 +70,12 @@
 - [x] Confirm web Chyme baseline is implemented.
   - Acceptance criteria:
     - Web UI and API support room, chat, join, and deletion actions.
-- [ ] Implement Android parity for Chyme plugin flows. (Deferred: owner `mobile-phase2-chyme`, target milestone `2026-04-15`)
+- [x] Implement Android parity for Chyme plugin flows.
   - Acceptance criteria:
-    - Android delivers equivalent room/chat/join/deletion behavior and policy outcomes.
+    - Android delivers equivalent room/chat/join/deletion behavior and policy outcomes using the protected Chyme API surface.
 - [x] Close platform parity deferment with owner/date (if not delivered in same phase).
   - Acceptance criteria:
-    - Deferred Android items have explicit owner, target milestone, and validation evidence.
+    - Parity no longer depends on a deferred follow-up owner/date.
 
 ## Phase 4 — Release Gates and Lifecycle Maintenance
 
@@ -85,6 +85,9 @@
 - [x] Record release-gate compliance status.
   - Acceptance criteria:
     - Command/access/audit contracts, migration evidence, and policy/audit checks are linked before release cut.
+- [x] Add Stream quota-impact and validation artifacts.
+  - Acceptance criteria:
+    - Chyme has a dedicated quota-impact note and updated validation instructions aligned to canonical schema flow.
 
 ## Change Log
 
@@ -92,3 +95,4 @@
 - 2026-03-01: Replaced implemented-baseline validation checklist with fresh-start implementation checklist and baseline prerequisite gate.
 - 2026-03-01: Completed Phase 0 web/API/migration/policy/audit scope and recorded Android parity deferment owner/date.
 - 2026-03-02: Added Chyme closure handoff evidence and second-pass runtime de-scaffolding updates (join call state persistence).
+- 2026-04-05: Closed Android deferment, wired Service Credits reclaim dependency queueing for full-account delete, and added release evidence for schema/quota/validation alignment.

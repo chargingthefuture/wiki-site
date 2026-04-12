@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "profile": "balanced",
+    "gatingMode": "warning",
+    "notes": "Copy this file and fill one object per scenario run set. Report p50 and p75 from at least 20 runs."
+  },
+  "runs": [
+    {
+      "scenarioId": "web-chromebook-cold-main-route",
+      "surface": "web",
+      "device": "low-end chromebook",
+      "browserOrRuntime": "chrome",
+      "buildSha": "",
+      "date": "",
+      "runCount": 20,
+      "metrics": {
+        "lcpMsP50": null,
+        "lcpMsP75": null,
+        "inpMsP50": null,
+        "inpMsP75": null,
+        "clsP75": null,
+        "initialJsBytes": null,
+        "initialCssBytes": null
+      },
+      "notes": ""
+    },
+    {
+      "scenarioId": "web-android-chrome-cold-main-route",
+      "surface": "web",
+      "device": "low-end android",
+      "browserOrRuntime": "chrome",
+      "buildSha": "",
+      "date": "",
+      "runCount": 20,
+      "metrics": {
+        "lcpMsP50": null,
+        "lcpMsP75": null,
+        "inpMsP50": null,
+        "inpMsP75": null,
+        "clsP75": null,
+        "initialJsBytes": null,
+        "initialCssBytes": null
+      },
+      "notes": ""
+    },
+    {
+      "scenarioId": "web-ios-safari-cold-main-route",
+      "surface": "web",
+      "device": "ios device",
+      "browserOrRuntime": "safari",
+      "buildSha": "",
+      "date": "",
+      "runCount": 20,
+      "metrics": {
+        "lcpMsP50": null,
+        "lcpMsP75": null,
+        "inpMsP50": null,
+        "inpMsP75": null,
+        "clsP75": null,
+        "initialJsBytes": null,
+        "initialCssBytes": null
+      },
+      "notes": ""
+    },
+    {
+      "scenarioId": "android-native-cold-start",
+      "surface": "android-native",
+      "device": "low-end android",
+      "browserOrRuntime": "expo-export-artifact",
+      "buildSha": "",
+      "date": "",
+      "runCount": 20,
+      "metrics": {
+        "coldStartMsP50": null,
+        "coldStartMsP75": null,
+        "warmStartMsP50": null,
+        "warmStartMsP75": null,
+        "jankyFramePercentP75": null,
+        "totalBytes": null,
+        "jsBundleBytes": null
+      },
+      "notes": ""
+    }
+  ]
+}

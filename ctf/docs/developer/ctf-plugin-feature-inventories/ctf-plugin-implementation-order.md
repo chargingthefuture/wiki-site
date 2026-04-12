@@ -9,7 +9,7 @@ This order is based on explicit dependency and authority statements in plugin in
 Hard or strong dependencies found in rules and inventory/checklist docs:
 
 1. Baseline foundation must be established before plugin waves:
-   - Clerk integration baseline,
+   - auth integration baseline,
    - Railway canonical deployment baseline,
    - Vercel staging frontend integration,
    - Expo Android deployment baseline.
@@ -27,7 +27,7 @@ Everything else is mostly independent at plugin-boundary level and can be parall
 
 ### Phase -1 — Baseline foundation (mandatory)
 
-BF-01. `clerk-foundation`
+BF-01. `auth-foundation`
 BF-02. `railway-baseline`
 BF-03. `vercel-integration`
 BF-04. `expo-baseline`

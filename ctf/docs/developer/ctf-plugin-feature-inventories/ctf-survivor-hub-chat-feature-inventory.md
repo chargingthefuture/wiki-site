@@ -65,7 +65,7 @@ Stack decision (confirmed by product owner, 2026-03-23):
 2. Section toggle: **Chat** tab and **Apps** tab.
 3. Chat tab shows pre-seeded representative conversations between the user and the Survivor Hub assistant.
 4. Apps tab shows the full plugin grid (driven by live plugin registry data).
-5. Right rail shows Clerk user info (first name / username), live GDP stats, and active plugin list.
+5. Right rail shows active auth-provider user info (first name / username or equivalent), live GDP stats, and active plugin list.
 6. GDP stats (member count, GDP value) are pulled from `gdp_metric_snapshots` via the GDP repository.
    They display as zero/absent if no data has been published rather than using hardcoded values.
 
@@ -99,7 +99,7 @@ Stack decision (confirmed by product owner, 2026-03-23):
    utterance, operator response, tagged intent, tagged entity values, routed plugin, outcome.
 4. Postgres `intent_labels` table: canonical intent→plugin→action mappings maintained by operators.
 5. Background ETL job: extract structured fields from transcripts, populate `intent_labels`.
-6. Auth: Clerk-authenticated access; unauthenticated users cannot initiate chat.
+6. Auth: authenticated access through the provider-neutral auth boundary; unauthenticated users cannot initiate chat.
 7. Policy: operator identity is logged; no PII outside approved retention fields.
 
 ### 2.2 User-Facing Changes (Planned)
@@ -152,7 +152,7 @@ Stack decision (confirmed by product owner, 2026-03-23):
 2. `.github/instructions/107-integration-stack-rules.mdc` — GetStream as the backed streaming channel.
 3. `.github/instructions/116-file-size-and-modularity-rules.mdc` — Shell chat panel split into modular
    sub-components; each file ≤ 200 lines per primary function.
-4. `.github/instructions/113-platform-coding-rules.mdc` — Clerk auth for session; no PII in client bundles.
+4. `.github/instructions/113-platform-coding-rules.mdc` — provider-neutral session auth; no PII in client bundles.
 5. `.github/instructions/103-web-nextjs-structure-rules.mdc` — Server components fetch GDP stats; client
    components handle local chat state only.
 6. CTF Contract — chat functionality referred to as "Survivor Hub assistant" or "Chyme chat context," not as
@@ -165,4 +165,4 @@ Stack decision (confirmed by product owner, 2026-03-23):
 - 2026-03-23: Initial inventory created. Phase 0 (static UI) confirmed for immediate implementation.
   Phases 1–3 planned, specs deferred. Decisions: hybrid architecture confirmed; GetStream + Postgres stack
   confirmed; human-first pilot confirmed; no AI/LLM in Phase 0 or 1. GDP stats pulled live (no hardcoding).
-  Clerk user data used for right rail display. No roles beyond admin/user.
+   Provider-neutral auth user data used for right rail display. No roles beyond admin/user.

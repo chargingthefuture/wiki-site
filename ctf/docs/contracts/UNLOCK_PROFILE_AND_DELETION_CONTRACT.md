@@ -26,7 +26,7 @@ Unlock uses canonical identity for authentication, submission ownership, and mod
 
 ## Identity Handle Baseline
 
-- Canonical handle source: Clerk `username` (`PLUGIN_IDENTITY_HANDLE_BASELINE.md`).
+- Canonical handle source: the active auth provider's canonical `username` or equivalent handle field (`PLUGIN_IDENTITY_HANDLE_BASELINE.md`).
 - Unlock must not introduce plugin-local username ownership.
 
 ## 3) Plugin Extension Fields

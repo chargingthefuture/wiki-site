@@ -1,1 +1,1 @@
-export { MockGdp as Gdp } from './MockGdp';
+export { Gdp } from './Gdp';

@@ -21,13 +21,19 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".",
     "paths": {
       "@/*": [
         "./*"
+      ],
+      "lib/*": [
+        "lib/*"
       ]
     },
     "noEmit": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "types": [],
+    "types": []
   },
   "include": [
     "next-env.d.ts",

@@ -1,4 +1,4 @@
-# Plugin Identity Handle Baseline (Clerk)
+# Plugin Identity Handle Baseline
 
 Status: Baseline decision for plugin contracts.
 
@@ -8,15 +8,15 @@ Define one canonical user handle source for all plugin surfaces that show a user
 
 ## Canonical Handle Source
 
-- Source of truth: Clerk `username`.
+- Source of truth: the active auth provider's canonical `username` or equivalent handle field.
 - Scope: all plugins under `ctf/`.
 - Display/mention token: `@{username}`.
 
 ## Contract Rules
 
 1. Plugins must not create plugin-specific username fields as alternate identity handles.
-2. When a plugin needs a username/handle, it must read from Clerk identity context (or canonical profile field mirrored from Clerk).
-3. If a plugin persists identity snapshots for history/audit (for example chat message author fields), persisted handle values must originate from Clerk `username` at write time.
+2. When a plugin needs a username/handle, it must read from the provider-neutral identity context (or a canonical profile field mirrored from the active auth provider).
+3. If a plugin persists identity snapshots for history/audit (for example chat message author fields), persisted handle values must originate from the active auth provider's canonical handle at write time.
 4. Plugins may keep display-name fields (for non-handle UX), but those are not treated as canonical handles and must not be used for mention resolution.
 
 ## Null/Unset Username Fallback
@@ -24,12 +24,12 @@ Define one canonical user handle source for all plugin surfaces that show a user
 - If `username` is missing, plugin behavior must be deterministic:
   - show non-handle display fallback (for example first name / display name fallback),
   - do not mint synthetic `@username` values,
-  - treat `@mention` targeting for that user as unavailable until Clerk `username` is set.
+  - treat `@mention` targeting for that user as unavailable until the canonical handle is set.
 
 ## Sign-up and Profile Governance
 
-- Product should require Clerk username capture during sign-up/onboarding to maximize parity across plugins.
-- If username changes are allowed in Clerk, downstream plugin reads must treat Clerk as current source of truth and avoid stale plugin-local username ownership models.
+- Product should require canonical handle capture during sign-up/onboarding to maximize parity across plugins.
+- If username changes are allowed in the active auth provider, downstream plugin reads must treat that provider as the current source of truth and avoid stale plugin-local username ownership models.
 
 ## Security and Compliance Notes
 
@@ -39,4 +39,4 @@ Define one canonical user handle source for all plugin surfaces that show a user
 ## Implementation Notes
 
 - Web/mobile parity should consume the same handle contract.
-- Any future migration that introduces canonical-profile mirroring must document sync direction and conflict policy (`Clerk -> canonical profile` expected baseline).
+- Any future migration that introduces canonical-profile mirroring must document sync direction and conflict policy (`auth provider -> canonical profile` expected baseline).

@@ -26,9 +26,9 @@ Rule 114 baseline: Trust extends the canonical profile by `user_id` and must not
 
 ## Identity Handle Baseline
 
-- Canonical handle source: Clerk `username` (see `ctf/docs/contracts/PLUGIN_IDENTITY_HANDLE_BASELINE.md`).
+- Canonical handle source: the active auth provider's canonical `username` or equivalent handle field (see `ctf/docs/contracts/PLUGIN_IDENTITY_HANDLE_BASELINE.md`).
 - Trust must not create plugin-local handles or alternate member identifiers.
-- Any trust UI references to handles must use Clerk-derived values only.
+- Any trust UI references to handles must use provider-derived canonical handle values only.
 
 ## 3) Plugin Extension Fields
 

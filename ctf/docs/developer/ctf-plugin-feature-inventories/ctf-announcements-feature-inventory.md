@@ -192,11 +192,10 @@ Seed script requirement: Provide a deterministic plugin seed script with dummy d
 
 ## 10) Gaps, Ambiguities, and Known Technical Debt (Current)
 
-- Command/access/audit YAML contracts pending.
-- Profile/deletion contract pending.
-- Migration SQL pending.
-- Android parity ticket pending.
-- Stream quota-impact note pending.
+- **DEPRECATED:** Standalone `announcements.*` command namespace has been unified into `feed.*` namespace as of 2026-04-05. All authoritative contracts are in `FEED_PLUGIN_COMMAND_CONTRACTS.yaml`, `FEED_PLUGIN_ACCESS_POLICY_CONTRACTS.yaml`, and `FEED_PLUGIN_AUDIT_CONTRACTS.yaml`.
+- The separate `ANNOUNCEMENTS_PLUGIN_*_CONTRACTS.yaml` files remain for historical reference only and must not be used for new implementation.
+- All announcement commands now use `feed.announcement.*` prefix.
+- Android parity: full implementation required before release.
 
 ---
 
@@ -204,3 +203,4 @@ Seed script requirement: Provide a deterministic plugin seed script with dummy d
 
 - 2026-02-24: Created initial CTF rewrite Announcements inventory with approved centralized admin surface, web-first delivery policy, Postgres source-of-truth + Stream fan-out architecture, naming normalization/legacy alias guidance, quota-impact gates, and schema drift predeployment evidence requirements.
 - 2026-02-25: Added Rule 120 gaps/ambiguities/known technical debt section.
+- 2026-04-05: Deprecated standalone announcements namespace — all contracts unified under `feed.*` in feed contracts. Android parity marked as required.

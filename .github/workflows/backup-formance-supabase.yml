@@ -1,0 +1,56 @@
+name: Backup Formance to Supabase
+
+name: Backup Formance to Supabase
+
+# Nightly backup of Formance Postgres to Supabase Storage.
+# Runs daily at 3am UTC and on manual dispatch.
+
+on:
+
+on:
+  schedule:
+    - cron: '0 3 * * *' # daily at 3am UTC, offset from 2am cleanup
+  workflow_dispatch:
+
+jobs:
+  backup-formance:
+    name: Backup Formance Postgres to Supabase
+    runs-on: ubuntu-latest
+    env:
+      # Formance Postgres connection string (service-level, read access)
+      FORMANCE_DATABASE_URL: ${{ secrets.FORMANCE_DATABASE_URL || secrets.FORMANCE_DATABASE_URL_FALLBACK }}
+      # Supabase project URL (https://xyzcompany.supabase.co)
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL || secrets.SUPABASE_URL_FALLBACK }}
+      # Supabase service role key (write access to storage)
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY || secrets.SUPABASE_SERVICE_ROLE_KEY_FALLBACK }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Enable pnpm
+        run: corepack enable
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Run Formance backup script
+        id: backup
+        run: |
+          set -e
+          node ctf/scripts/backupFormanceToSupabase.mjs 2> backup-error.log || {
+            echo "Backup script failed. See backup-error.log." >&2
+            exit 1
+          }
+
+      - name: Upload failure logs (if present)
+        if: failure() && steps.backup.outcome == 'failure' && hashFiles('backup-error.log') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: formance-backup-failure-logs
+          path: backup-error.log
+          retention-days: 7

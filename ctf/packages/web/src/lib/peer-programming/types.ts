@@ -1,28 +1,14 @@
-export type PeerProgrammingTier = 'cohort_member' | 'authenticated_audience' | 'public_audience';
-
-export type PeerProgrammingTopic = {
+// Types for Peer Programming plugin
+export interface Cohort {
   id: string;
-  weekStartDate: string;
-  title: string;
-  guidance: string;
-  revisionNote: string | null;
-  status: 'draft' | 'published';
-};
-
-export type PeerProgrammingCohort = {
-  id: string;
-  weekStartDate: string;
-  cohortLabel: string;
-  fallbackOpen: boolean;
-  topicId: string | null;
-};
-
-export type PeerProgrammingMessage = {
-  id: string;
-  cohortId: string;
-  authorUserId: string;
-  parentMessageId: string | null;
-  body: string;
-  tier: PeerProgrammingTier;
-  createdAtIso: string;
-};
+  name: string;
+  facilitator: string;
+  time: string;
+  members: number;
+  maxMembers: number;
+  status: 'active' | 'forming';
+  skills: string[];
+  countries: string[];
+  joinable: boolean;
+}
+// ...add more as needed

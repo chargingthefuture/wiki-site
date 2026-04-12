@@ -1,42 +1,32 @@
-# Chyme First Test Pass
+# Chyme Validation and Release Evidence
 
-This checklist validates Chyme before adding new plugins.
+Updated: 2026-04-05
 
-## 0) Prerequisites
+## Scope
 
-- Install dependencies at `ctf/` root:
-  - `pnpm install`
-- Create local env file:
-  - `cp packages/web/.env.local.example packages/web/.env.local`
-- Fill required values in `packages/web/.env.local`:
-  - `RAILWAY_STAGING_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `RAILWAY_STAGING_CLERK_SECRET_KEY` for `the-comic.com`
-  - `RAILWAY_PROD_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `RAILWAY_PROD_CLERK_SECRET_KEY` for `chargingthefuture.com`
-  - `RAILWAY_STAGING_CLERK_SIGN_IN_URL` and `RAILWAY_PROD_CLERK_SIGN_IN_URL`
-  - `DATABASE_URL`
-  - `STREAM_API_KEY`
-  - `STREAM_API_SECRET`
+- Applies to the Chyme rewrite under `ctf/` only.
+- Uses `ctf/schema.sql` as the canonical schema source.
+- Covers web and Android parity on the same protected API surface.
 
-## 1) Baseline Quality Gates
+## Required Environment
+
+- `DATABASE_URL`
+- `STREAM_API_KEY`
+- `STREAM_API_SECRET`
+- `MOBILE_APP_URL`
+- `MOBILE_CTF_USER_ID`
+- `MOBILE_CTF_USERNAME`
+- `MOBILE_CTF_USER_ROLE`
+- `MOBILE_CTF_USER_APPROVED`
+
+## Canonical Schema and Seed Flow
 
 Run from `ctf/`:
 
-- `pnpm --filter @ctf/web lint`
-- `pnpm --filter @ctf/web typecheck`
-- `pnpm --filter @ctf/web build`
+- `pnpm run migrate:schema`
+- `node ./scripts/seedChymePhase0.mjs`
 
-Expected:
-
-- lint: pass
-- typecheck: pass
-- build: pass only when valid Clerk publishable key is present
-
-## 2) Apply Chyme Migration
-
-Run SQL in Neon console:
-
-- `ctf/migrations/2026-03-01-chyme-core-phase0.sql`
-
-Expected tables:
+Expected Chyme tables:
 
 - `chyme_rooms`
 - `chyme_service_profiles`
@@ -44,66 +34,68 @@ Expected tables:
 - `chyme_messages`
 - `chyme_deletion_events`
 
-Run deterministic seed script:
+Expected downstream dependency tables touched by full-account delete:
 
-- `node ctf/scripts/seedChymePhase0.mjs`
+- `service_credits_account_deletion_reclaims`
+- `service_credits_adapter_outbox`
 
-## 3) Start Web App
+## Local Quality Gates
 
-From `ctf/`:
+Run from `ctf/`:
 
-- `pnpm --filter @ctf/web dev`
+- `pnpm --filter @ctf/shared typecheck`
+- `pnpm --filter @ctf/web lint`
+- `pnpm --filter @ctf/web typecheck`
+- `pnpm --filter @ctf/mobile lint`
+- `pnpm --filter @ctf/mobile typecheck`
+- `pnpm --filter @ctf/mobile build:android:ci`
 
-Open app and sign in with Clerk.
+## Functional Validation
 
-## 4) Functional Checks
+### Room bootstrap
 
-### Room load
-
-- Action: open Chyme screen.
+- Open Chyme on web.
+- Open Chyme on Android.
 - Expected:
-  - room state loads
-  - participant row is upserted for current user
-  - no crash in UI
+  - deterministic room loads,
+  - participant row is upserted,
+  - non-approved non-admin identities receive denial.
 
-### Chat send
+### Chat send and read
 
-- Action: send a chat message.
+- Send a message on web.
+- Refresh/read on Android.
 - Expected:
-  - message appears in UI
-  - row appears in `chyme_messages`
+  - message persists in `chyme_messages`,
+  - message appears on both surfaces,
+  - empty/oversized payloads are rejected.
 
-### Join call
+### Join flow
 
-- Action: click `Join Call`.
+- Trigger `Join Call` on web and Android.
 - Expected:
-  - success status in UI
-  - Stream user token issued
-  - Stream channel `messaging:chyme-main-room` watched/connected
+  - `POST /api/chyme/join` returns Stream credentials,
+  - room state flips `call_active=true`,
+  - Stream credentials are issued through the shared adapter path.
 
-### Service-scoped deletion
+### Service delete
 
-- Action: click `Delete Chyme Data` and confirm.
+- Trigger `DELETE /api/account/chyme-profile`.
 - Expected:
-  - `chyme_service_profiles.status` becomes `deleted`
-  - user rows removed from `chyme_room_members` and `chyme_messages`
-  - service deletion event added to `chyme_deletion_events` with scope `service`
+  - `chyme_service_profiles.status='deleted'`,
+  - current user member/message rows are removed,
+  - service deletion event is recorded.
 
-### Full account request
+### Full-account delete
 
-- Action: click `Delete Full Account` and confirm.
+- Trigger `DELETE /api/account/full-account`.
 - Expected:
-  - event added to `chyme_deletion_events` with scope `account`
-  - note: current behavior records request only (global orchestrator pending)
+  - account-scope row is recorded in `chyme_deletion_events`,
+  - dependency row is inserted into `service_credits_account_deletion_reclaims`,
+  - outbox row is inserted into `service_credits_adapter_outbox`,
+  - response status remains `requested` until external orchestrator completion.
 
-## 5) Current Known Warnings (Non-blocking for Chyme MVP)
+## Notes
 
-- Next warns that Next.js ESLint plugin is not explicitly detected in config.
-- Sentry warns about optional app router instrumentation updates.
-- CSS autoprefixer warns about `align-items: start`; can be changed to `flex-start` later.
-
-## 6) Blockers to Treat as Failures
-
-- Missing/invalid Clerk publishable key (build/runtime failure).
-- Missing Neon `DATABASE_URL` (API persistence failure).
-- Missing Stream keys (join returns service unavailable).
+- Chyme currently uses Stream-backed join credentials and shared Stream message fan-out; broader account-deletion terminal states remain outside the plugin.
+- Android parity depends on runtime-configured provider-neutral identity headers, not a separate mobile-only mock path.

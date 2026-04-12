@@ -16,3 +16,7 @@ Enforces monorepo layout, shared boundary, and modularity rules. Prevents cross-
 - Scan for cross-boundary violations
 - Check for oversized or overly complex files
 - Approve or block merges based on structure
+
+## Supabase Skill Integration
+- On any cross-boundary or modularity change involving Supabase/Postgres/SQL/database, invoke the supabase-postgres-best-practices skill from ctf/.agents/skills/supabase-postgres-best-practices.
+- Validate that all database code respects monorepo boundaries and best practices.

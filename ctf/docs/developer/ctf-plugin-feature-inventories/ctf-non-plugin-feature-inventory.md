@@ -38,6 +38,26 @@
 2. Shared primitive is consumed by shell and plugin surfaces without duplicating logic.
 3. Contract includes normalized URL handling, warning semantics, and explicit open/cancel actions.
 
+**Implementation Status:**
+- **Web (Next.js)**: `ctf/packages/web/components/hooks/useExternalLink.tsx`
+  - Origin-based internal/external link detection
+  - Dialog confirmation for external links with domain display
+  - Copy URL to clipboard and "Open in New Tab" actions
+  - Automatic support for beta.chargingthefuture.com and any deployed origin
+  - Related components: `ui/button.tsx`, `ui/dialog.tsx` (Radix UI-based)
+  
+- **Android (React Native)**: `ctf/packages/mobile/src/hooks/useExternalLink.tsx`
+  - Parity implementation using React Native `Linking` and `Share` APIs
+  - Same origin comparison logic for internal/external detection
+  - Native Alert dialogs for confirmation flows
+  - Copy link via Share sheet, direct open, or cancel actions
+  - Type-safe hook interface matching web implementation
+  
+- **Web+Android Parity**: ✅ COMPLETE (2026-04-01)
+  - Feature parity status: core behavior matches across platforms
+  - Platform-specific UI conventions respected (Radix UI on web, native dialogs on Android)
+  - Integration ready in both platforms
+
 ### 1.5 Settings and Accessibility Personalization
 
 1. App-level personalization surface remains shared non-plugin scope.
@@ -95,6 +115,7 @@
 
 ## 5) Change Log
 
+- 2026-04-01: Completed external-link safety primitive parity implementation across web and Android with full feature feature parity (origin-based detection, safe-open dialogs, copy/open actions).
 - 2026-02-25: Expanded CTF non-plugin parity inventory to full retained/excluded scope; marked weekly performance and skills taxonomy as plugin-owned; removed generic chat/admin activity feed carryover requirements; documented compliance position for audit-evidence-first admin activity feed removal.
 - 2026-02-25: Removed weekly-performance legacy-evidence pointer so weekly rewrite parity remains sourced from plugin-inventory documents.
 - 2026-02-25: Added Rule 120 non-plugin exemption governance note and clarified non-blocking status for plugin coding readiness.

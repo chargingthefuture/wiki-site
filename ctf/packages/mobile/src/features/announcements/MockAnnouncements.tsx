@@ -1,14 +1,29 @@
 import React from 'react';
-import { View, Text, FlatList, StyleSheet } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
+import { mobileFeedItems } from '../feed/feedDemoData';
 
-const announcements = [ {id:'a1', title:'Welcome', body:'Hello (mock)'} ];
+const announcements = mobileFeedItems.filter((item) => item.channel === 'announcement');
 
 export const MockAnnouncements = () => (
   <View style={styles.container}>
-    <Text style={styles.title}>Announcements (mock)</Text>
-    <FlatList data={announcements} keyExtractor={a=>a.id} renderItem={({item}) => (
-      <View style={styles.row}><Text style={{fontWeight:'600'}}>{item.title}</Text><Text>{item.body}</Text></View>
-    )} />
+    <Text style={styles.title}>Announcements Channel</Text>
+    <Text style={styles.subtitle}>Published admin guidance rendered inside the mobile parity surface.</Text>
+    {announcements.map((item) => (
+      <React.Fragment>
+        <View style={styles.card}>
+          <Text style={styles.cardTitle}>{item.title}</Text>
+          <Text style={styles.cardBody}>{item.body}</Text>
+        </View>
+      </React.Fragment>
+    ))}
   </View>
 );
-const styles = StyleSheet.create({container:{flex:1,padding:12},title:{fontSize:18,fontWeight:'700',marginBottom:12},row:{padding:8,borderBottomWidth:1,borderColor:'#eee'}});
+
+const styles = StyleSheet.create({
+  container: { padding: 12, borderRadius: 20, backgroundColor: '#fff7ed' },
+  title: { fontSize: 18, fontWeight: '700', color: '#9a3412' },
+  subtitle: { fontSize: 13, color: '#7c2d12', marginTop: 6 },
+  card: { marginTop: 12, borderRadius: 16, backgroundColor: '#ffffff', padding: 14 },
+  cardTitle: { fontSize: 15, fontWeight: '700', color: '#7c2d12' },
+  cardBody: { fontSize: 13, lineHeight: 20, color: '#7c2d12', marginTop: 6 },
+});

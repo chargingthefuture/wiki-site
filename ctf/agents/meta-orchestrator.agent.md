@@ -16,3 +16,7 @@ Coordinates and escalates between all other agents. Ensures that all agent check
 - Run all agent checks for a PR or deployment
 - Aggregate pass/fail status and logs
 - Escalate blockers to operator
+
+## Supabase Skill Integration
+- On any Supabase/Postgres/SQL/database-related change, invoke the supabase-postgres-best-practices skill from ctf/.agents/skills/supabase-postgres-best-practices.
+- Aggregate results from this skill with other agent checks before approval.

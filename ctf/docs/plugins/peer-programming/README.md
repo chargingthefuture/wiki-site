@@ -1,0 +1,17 @@
+# Peer Programming Plugin Artifacts
+
+This index links to canonical artifacts for Peer Programming.
+
+## Contracts
+- [Command Contracts(../../contracts/PEER_PROGRAMMING_PLUGIN_COMMAND_CONTRACTS.yaml)
+- [Access Policy Contracts(../../contracts/PEER_PROGRAMMING_PLUGIN_ACCESS_POLICY_CONTRACTS.yaml)
+- [Audit Contracts(../../contracts/PEER_PROGRAMMING_PLUGIN_AUDIT_CONTRACTS.yaml)
+- [Profile and Deletion Contract(../../contracts/PEER_PROGRAMMING_PROFILE_AND_DELETION_CONTRACT.md)
+
+## Feature Inventory
+- [Feature Inventory(../../developer/ctf-plugin-feature-inventories/ctf-peer-programming-feature-inventory.md)
+- [Rewrite Checklist(../../developer/ctf-plugin-feature-inventories/ctf-peer-programming-rewrite-checklist.md)
+
+## Notes
+- Canonical contract storage location remains docs/contracts.
+- This hub is for QA and navigation only.

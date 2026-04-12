@@ -23,7 +23,7 @@
 - [x] Sidebar: static channel list (chat mode) linking to plugin routes as placeholders.
 - [x] Sidebar: static DM list (placeholder names, no routing).
 - [x] Sidebar: app list (apps mode) with per-plugin color accent and active state.
-- [x] Right rail: Clerk user first name / username displayed (no hardcoded names).
+- [x] Right rail: active auth-provider user first name / username displayed (no hardcoded names).
 - [x] Right rail: GDP progress bar with live values from GDP repository (zero if no data).
 - [x] Right rail: active plugin list (top implemented plugins).
 - [x] Modularity: components split per rule 116 (max 200 lines per primary function/file).
@@ -35,8 +35,8 @@
 - [ ] Visual QA against Desktop mockup (`mockups/mockups-master/artifacts/mockup-sandbox/src/components/mockups/survivor-hub/Desktop.tsx`).
 - [ ] Mobile responsive layout checked at 900px and 1200px breakpoints.
 - [ ] GDP stats display "0" or absent (not hardcoded) when no published GDP data exists.
-- [ ] Right rail shows Clerk first name or username, not placeholder "Survivor" hardcoded text when user is signed in.
-- [ ] Clerk `UserButton` renders in icon rail for signed-in users.
+- [ ] Right rail shows provider-backed first name or username, not placeholder "Survivor" hardcoded text when user is signed in.
+- [ ] Auth-provider account control renders in icon rail for signed-in users.
 - [ ] No TypeScript errors in `community-shell` component tree.
 - [ ] ESLint passes with zero warnings (`pnpm lint`).
 - [ ] Plugin card "Open plugin →" links navigate to correct `/apps/[slug]` route.
@@ -64,7 +64,7 @@
 - [ ] Postgres `chat_transcripts` schema designed and migration written.
 - [ ] Postgres `intent_labels` schema designed and migration written.
 - [ ] Operator dashboard spec and wireframe approved.
-- [ ] Auth/policy contracts written: Clerk authz requirements for operator role.
+- [ ] Auth/policy contracts written: provider-neutral authz requirements for operator role.
 - [ ] Privacy review: confirm retention policy for transcript data.
 - [ ] Rollout plan: how to migrate static Phase 0 UI to live channel without disrupting existing users.
 

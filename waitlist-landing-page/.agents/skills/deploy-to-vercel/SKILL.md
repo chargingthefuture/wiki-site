@@ -45,7 +45,7 @@ If the project is already linked (`.vercel/project.json` or `.vercel/repo.json` 
 **About the `.vercel/` directory:** A linked project has either:
 - `.vercel/project.json` — created by `vercel link` (single project linking). Contains `projectId` and `orgId`.
 - `.vercel/repo.json` — created by `vercel link --repo` (repo-based linking). Contains `orgId`, `remoteName`, and a `projects` array mapping directories to Vercel project IDs.
-
+- `.vercel/project.json` â created by `vercel link` (single project linking). Contains `projectId` and `orgId`.
 Either file means the project is linked. Check for both.
 
 **Do NOT** use `vercel project inspect`, `vercel ls`, or `vercel link` to detect state in an unlinked directory — without a `.vercel/` config, they will interactively prompt (or with `--yes`, silently link as a side-effect). Only `vercel whoami` is safe to run anywhere.

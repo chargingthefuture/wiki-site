@@ -34,7 +34,7 @@ These individuals seek clarity on their experiences with gang stalking—a form 
 - Harm to pets and tampering with communications
 
 **User Needs**:
-- Clarity and validation of their experiences
+
 - Community and connection with others who understand
 - Practical tools and support
 - Empowerment and agency in their own narrative

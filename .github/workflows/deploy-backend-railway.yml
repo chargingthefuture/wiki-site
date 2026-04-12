@@ -5,6 +5,8 @@ on:
     branches:
       - "**"
   workflow_dispatch:
+  schedule:
+    - cron: '0 * * * *'
 
 permissions:
   contents: read
@@ -18,6 +20,7 @@ jobs:
   actions-budget-gate:
     name: Actions Budget Gate
     runs-on: ubuntu-latest
+    if: github.event_name != 'schedule'
     outputs:
       status: ${{ steps.budget.outputs.status }}
       enforce_block: ${{ steps.budget.outputs.enforce_block }}
@@ -40,7 +43,7 @@ jobs:
   main-quality-gate:
     name: Main Branch Quality Gate
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
+    if: github.event_name != 'schedule' && github.ref == 'refs/heads/main'
     defaults:
       run:
         working-directory: ctf
@@ -87,6 +90,7 @@ jobs:
   schema-drift-gate:
     name: Schema Drift Gate
     runs-on: ubuntu-latest
+    if: github.event_name != 'schedule'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -103,11 +107,112 @@ jobs:
             bash ctf/scripts/check-schema-drift.sh
           fi
 
+  schema-query-audit:
+    name: Schema Query Audit
+    runs-on: ubuntu-latest
+    if: github.event_name != 'schedule'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run schema query audit
+        run: |
+          set -euo pipefail
+          node ctf/scripts/audit-schema-queries.mjs
+
+  drift-staging:
+    name: Drift Check (staging)
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.ref == 'refs/heads/main')
+    runs-on: ubuntu-latest
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL_STAGING != '' && secrets.DATABASE_URL_STAGING || vars.DATABASE_URL_STAGING }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Validate staging DATABASE_URL secret
+        run: |
+          if [ -z "${DATABASE_URL}" ]; then
+            echo "Missing DATABASE_URL_STAGING in GitHub Actions secrets/variables."
+            exit 1
+          fi
+
+      - name: Install dependencies
+        working-directory: ctf
+        run: |
+          corepack enable
+          corepack prepare pnpm@9.12.0 --activate
+          pnpm install --frozen-lockfile
+
+      - name: Run live schema drift report (staging)
+        working-directory: ctf
+        run: |
+          set -euo pipefail
+          corepack enable
+          corepack prepare pnpm@9.12.0 --activate
+          pnpm run schema:report-live-drift | tee ../schema-drift-staging-report.txt
+
+      - name: Upload drift report artifact (staging)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: schema-drift-staging-report
+          path: schema-drift-staging-report.txt
+
+  drift-production:
+    name: Drift Check (production)
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.ref == 'refs/heads/main')
+    runs-on: ubuntu-latest
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL != '' && secrets.DATABASE_URL || vars.DATABASE_URL }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Validate production DATABASE_URL secret
+        run: |
+          if [ -z "${DATABASE_URL}" ]; then
+            echo "Missing DATABASE_URL in GitHub Actions secrets/variables."
+            exit 1
+          fi
+
+      - name: Install dependencies
+        working-directory: ctf
+        run: |
+          corepack enable
+          corepack prepare pnpm@9.12.0 --activate
+          pnpm install --frozen-lockfile
+
+      - name: Run live schema drift report (production)
+        working-directory: ctf
+        run: |
+          set -euo pipefail
+          corepack enable
+          corepack prepare pnpm@9.12.0 --activate
+          pnpm run schema:report-live-drift | tee ../schema-drift-production-report.txt
+
+      - name: Upload drift report artifact (production)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: schema-drift-production-report
+          path: schema-drift-production-report.txt
+
   railway-deploy:
     name: Railway Deploy
     runs-on: ubuntu-latest
-    needs: [actions-budget-gate, main-quality-gate, schema-drift-gate]
-    if: ${{ needs.actions-budget-gate.outputs.enforce_block != 'true' && needs.schema-drift-gate.result == 'success' && (github.ref != 'refs/heads/main' || needs.main-quality-gate.result == 'success') }}
+    needs: [actions-budget-gate, main-quality-gate, schema-drift-gate, schema-query-audit]
+    if: ${{ github.event_name != 'schedule' && needs.actions-budget-gate.outputs.enforce_block != 'true' && needs.schema-drift-gate.result == 'success' && needs.schema-query-audit.result == 'success' && (github.ref != 'refs/heads/main' || needs.main-quality-gate.result == 'success') }}
     environment: ${{ github.ref == 'refs/heads/main' && 'rewrite-railway-production' || 'rewrite-railway-staging' }}
     steps:
       - name: Checkout
@@ -137,15 +242,9 @@ jobs:
           CLERK_ENCRYPTION_KEY: ${{ secrets.CLERK_ENCRYPTION_KEY }}
           CLERK_SIGN_IN_URL: ${{ secrets.CLERK_SIGN_IN_URL }}
           RAILWAY_NEXT_PUBLIC_APP_URL: ${{ secrets.RAILWAY_NEXT_PUBLIC_APP_URL }}
-          RAILWAY_STAGING_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: ${{ secrets.RAILWAY_STAGING_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY }}
-          RAILWAY_STAGING_CLERK_SECRET_KEY: ${{ secrets.RAILWAY_STAGING_CLERK_SECRET_KEY }}
-          RAILWAY_STAGING_CLERK_SIGN_IN_URL: ${{ secrets.RAILWAY_STAGING_CLERK_SIGN_IN_URL }}
-          RAILWAY_PROD_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: ${{ secrets.RAILWAY_PROD_NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY }}
-          RAILWAY_PROD_CLERK_SECRET_KEY: ${{ secrets.RAILWAY_PROD_CLERK_SECRET_KEY }}
-          RAILWAY_PROD_CLERK_SIGN_IN_URL: ${{ secrets.RAILWAY_PROD_CLERK_SIGN_IN_URL }}
         run: |
           set -euo pipefail
-          corepack pnpm --filter @ctf/web run check:clerk-env
+          echo "Skipping Clerk environment check as Clerk auth is disabled"
 
       - name: Build web package before deploy
         working-directory: ctf

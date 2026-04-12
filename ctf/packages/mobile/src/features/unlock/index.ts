@@ -1,1 +1,1 @@
-export { MockUnlock as Unlock } from './MockUnlock';
+export { Unlock } from './Unlock';

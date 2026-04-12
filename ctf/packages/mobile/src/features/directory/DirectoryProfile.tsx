@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, Button, StyleSheet, Switch, Alert } from 'react-native';
+import { Trust } from '../trust';
 
 export const DirectoryProfile = ({ profile }: { profile?: any }) => {
   const p = profile ?? { id: 'p1', name: 'Alice', title: 'Engineer', isPublic: true, description: 'Mobile-first engineer' };
@@ -20,6 +21,9 @@ export const DirectoryProfile = ({ profile }: { profile?: any }) => {
       <Text style={styles.name}>{p.name}</Text>
       <Text style={styles.title}>{p.title}</Text>
       <Text style={styles.desc}>{p.description}</Text>
+
+      {/* Trust Panel (Android parity) */}
+      <Trust compact />
 
       <View style={styles.row}>
         <Text>Public profile</Text>

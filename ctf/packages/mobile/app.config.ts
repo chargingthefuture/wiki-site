@@ -51,10 +51,18 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     extra: {
       ...(config.extra ?? {}),
       mobileAppUrl: process.env.MOBILE_APP_URL,
-      mobileClerkPublishableKeyStaging:
-        process.env.MOBILE_CLERK_PUBLISHABLE_KEY_STAGING,
-      mobileClerkPublishableKeyProduction:
-        process.env.MOBILE_CLERK_PUBLISHABLE_KEY_PRODUCTION,
+      chymeRequestIdentity: {
+        userId: process.env.MOBILE_CTF_USER_ID,
+        username: process.env.MOBILE_CTF_USERNAME,
+        role: process.env.MOBILE_CTF_USER_ROLE || 'member',
+        isApproved: process.env.MOBILE_CTF_USER_APPROVED || 'approved',
+      },
+      mobileAuthPublishableKeyStaging:
+        process.env.MOBILE_AUTH_PUBLISHABLE_KEY_STAGING
+        || process.env.MOBILE_CLERK_PUBLISHABLE_KEY_STAGING,
+      mobileAuthPublishableKeyProduction:
+        process.env.MOBILE_AUTH_PUBLISHABLE_KEY_PRODUCTION
+        || process.env.MOBILE_CLERK_PUBLISHABLE_KEY_PRODUCTION,
       mobileObservabilityProvider:
         process.env.MOBILE_OBSERVABILITY_PROVIDER
         || process.env.OBSERVABILITY_PROVIDER

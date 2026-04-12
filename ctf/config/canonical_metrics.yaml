@@ -1190,3 +1190,176 @@ canonical_metrics:
       min: 0
       alert_rules:
         - "alert_if_7d_drop_percent >= 20"
+
+  # ─── Feed Plugin Metrics ────────────────────────────────────────────────
+
+  - id: feed_timeline_engagement_7d
+    name: Feed Timeline Engagement (7-day)
+    description: Count of distinct users who viewed at least one feed item in the past 7 days.
+    owner: product-feed@chargingthefuture.org
+    data_type: integer
+    unit: users
+    calculation: |
+      SELECT COUNT(DISTINCT user_id)
+      FROM feed_user_read_state
+      WHERE read_at >= NOW() - INTERVAL '7 days';
+    inputs:
+      - name: feed_user_read_state.user_id
+        type: uuid
+      - name: feed_user_read_state.read_at
+        type: datetime
+    example_values:
+      - 4200
+    last_updated: "2026-04-05T00:00:00Z"
+    update_cadence: weekly
+    retention: 24 months
+    allowed_thresholds:
+      min: 0
+      alert_rules:
+        - "alert_if_7d_drop_percent >= 20"
+
+  - id: feed_announcement_reach
+    name: Announcement Reach
+    description: Ratio of targeted users who viewed a published announcement within its active window.
+    owner: product-feed@chargingthefuture.org
+    data_type: percent
+    unit: percent
+    calculation: |
+      SELECT (read_count::float / NULLIF(target_count, 0)) * 100 AS reach_pct
+      FROM (
+        SELECT
+          COUNT(DISTINCT aus.user_id) AS read_count,
+          COUNT(DISTINCT t.target_role) AS target_count
+        FROM announcement_user_state aus
+        JOIN announcements a ON a.id = aus.announcement_id
+        JOIN feed_item_targets t ON t.item_id = (
+          SELECT id FROM feed_items WHERE source_announcement_id = a.id LIMIT 1
+        )
+        WHERE a.status = 'published'
+          AND aus.read_at IS NOT NULL
+      ) sub;
+    inputs:
+      - name: announcement_user_state.user_id
+        type: uuid
+      - name: announcement_user_state.read_at
+        type: datetime
+      - name: announcements.status
+        type: string
+    example_values:
+      - 72.5
+    last_updated: "2026-04-05T00:00:00Z"
+    update_cadence: daily
+    retention: 24 months
+    allowed_thresholds:
+      min: 0
+      max: 100
+      alert_rules:
+        - "alert_if_value < 30"
+
+  - id: feed_read_dismiss_rate_7d
+    name: Feed Read/Dismiss Rate (7-day)
+    description: Ratio of dismissed feed items to total read items over a rolling 7-day window.
+    owner: product-feed@chargingthefuture.org
+    data_type: percent
+    unit: percent
+    calculation: |
+      SELECT
+        (dismissed::float / NULLIF(read_total, 0)) * 100 AS dismiss_rate_pct
+      FROM (
+        SELECT
+          COUNT(DISTINCT d.item_id) AS dismissed,
+          COUNT(DISTINCT r.item_id) AS read_total
+        FROM feed_user_read_state r
+        LEFT JOIN feed_user_dismissals d
+          ON d.user_id = r.user_id AND d.item_id = r.item_id
+        WHERE r.read_at >= NOW() - INTERVAL '7 days'
+      ) sub;
+    inputs:
+      - name: feed_user_read_state.item_id
+        type: uuid
+      - name: feed_user_dismissals.item_id
+        type: uuid
+    example_values:
+      - 12.3
+    last_updated: "2026-04-05T00:00:00Z"
+    update_cadence: weekly
+    retention: 24 months
+    allowed_thresholds:
+      min: 0
+      max: 100
+      alert_rules:
+        - "alert_if_value > 40"
+
+  - id: feed_question_submit_rate_7d
+    name: Feed Question Submit Rate (7-day)
+    description: Count of questions submitted through the feed Q&A channel in the past 7 days.
+    owner: product-feed@chargingthefuture.org
+    data_type: integer
+    unit: questions
+    calculation: |
+      SELECT COUNT(*)
+      FROM feed_questions
+      WHERE created_at >= NOW() - INTERVAL '7 days';
+    inputs:
+      - name: feed_questions.created_at
+        type: datetime
+    example_values:
+      - 340
+    last_updated: "2026-04-05T00:00:00Z"
+    update_cadence: weekly
+    retention: 24 months
+    allowed_thresholds:
+      min: 0
+
+  - id: feed_llm_answer_helpful_rate
+    name: Feed LLM Answer Helpful Rate
+    description: Percentage of LLM-generated answers rated as helpful out of total rated answers.
+    owner: product-feed@chargingthefuture.org
+    data_type: percent
+    unit: percent
+    calculation: |
+      SELECT
+        (helpful::float / NULLIF(total_rated, 0)) * 100 AS helpful_pct
+      FROM (
+        SELECT
+          COUNT(*) FILTER (WHERE rating = 'helpful') AS helpful,
+          COUNT(*) AS total_rated
+        FROM feed_answer_ratings
+        WHERE created_at >= NOW() - INTERVAL '30 days'
+      ) sub;
+    inputs:
+      - name: feed_answer_ratings.rating
+        type: string
+      - name: feed_answer_ratings.created_at
+        type: datetime
+    example_values:
+      - 78.4
+    last_updated: "2026-04-05T00:00:00Z"
+    update_cadence: weekly
+    retention: 24 months
+    allowed_thresholds:
+      min: 0
+      max: 100
+      alert_rules:
+        - "alert_if_value < 50"
+
+  - id: feed_community_post_rate_7d
+    name: Feed Community Post Rate (7-day)
+    description: Count of community support posts created in the past 7 days.
+    owner: product-feed@chargingthefuture.org
+    data_type: integer
+    unit: posts
+    calculation: |
+      SELECT COUNT(*)
+      FROM feed_community_posts
+      WHERE created_at >= NOW() - INTERVAL '7 days';
+    inputs:
+      - name: feed_community_posts.created_at
+        type: datetime
+    example_values:
+      - 85
+    last_updated: "2026-04-05T00:00:00Z"
+    update_cadence: weekly
+    retention: 24 months
+    allowed_thresholds:
+      min: 0

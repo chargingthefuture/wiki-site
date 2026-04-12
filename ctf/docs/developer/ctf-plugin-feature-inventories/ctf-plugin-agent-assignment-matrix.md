@@ -19,11 +19,11 @@ Each agent handoff should include:
 
 | Agent                               | Plugin(s)                                          | Start gate                                                                                                    | Primary scope                                                                                                       | Required handoff artifacts                                                                                    |
 | ----------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| `agent-bf-01-clerk-foundation`      | Baseline auth/web foundation                       | Baseline Phase -1A — start immediately.                                                                       | Clerk integration, auth middleware/guards, env contract baseline                                                    | Clerk env mapping by environment; protected-route deny taxonomy; baseline validation evidence                 |
+| `agent-bf-01-auth-foundation`       | Baseline auth/web foundation                       | Baseline Phase -1A — start immediately.                                                                       | Provider-neutral auth integration, auth middleware/guards, env contract baseline                                    | Current env mapping by environment; protected-route deny taxonomy; baseline validation evidence               |
 | `agent-bf-02-railway-baseline`      | Baseline Railway deployment                        | Baseline Phase -1B — start after BF-01.                                                                       | Railway canonical runtime baseline, runtime config, deploy readiness                                                | Railway deploy evidence; env/secret mapping; runtime health checks                                            |
-| `agent-bf-03-vercel-integration`    | Baseline Vercel staging integration                | Baseline Phase -1C — start after BF-02.                                                                       | Vercel frontend staging against Railway backend, env isolation                                                      | Vercel/Railway routing assumptions; Clerk domain split evidence; staging smoke checks                         |
+| `agent-bf-03-vercel-integration`    | Baseline Vercel staging integration                | Baseline Phase -1C — start after BF-02.                                                                       | Vercel frontend staging against Railway backend, env isolation                                                      | Vercel/Railway routing assumptions; auth domain split evidence; staging smoke checks                          |
 | `agent-bf-04-expo-baseline`         | Baseline Expo/EAS Android deployment               | Baseline Phase -1D — start after BF-03.                                                                       | Expo build/release baseline and mobile env propagation                                                              | EAS profile/channel readiness; Android preview/production path evidence                                       |
-| `agent-bf-01-clerk-foundation-v2`   | Baseline auth/web foundation (second pass)         | Baseline Phase -1E — start after BF-01 handoff acceptance.                                                    | Resolve BF-01 residual gaps to production-complete auth baseline                                                    | Delta-vs-handoff closure list; clarify-first Q&A log; no-scaffold completion evidence                         |
+| `agent-bf-01-auth-foundation-v2`    | Baseline auth/web foundation (second pass)         | Baseline Phase -1E — start after BF-01 handoff acceptance.                                                    | Resolve BF-01 residual gaps to production-complete auth baseline                                                    | Delta-vs-handoff closure list; clarify-first Q&A log; no-scaffold completion evidence                         |
 | `agent-bf-02-railway-baseline-v2`   | Baseline Railway deployment (second pass)          | Baseline Phase -1F — start after BF-02 handoff acceptance.                                                    | Resolve BF-02 residual deploy/runtime gaps to production-complete Railway baseline                                  | Delta-vs-handoff closure list; clarify-first Q&A log; runtime proof with owner/date for any deferral          |
 | `agent-bf-03-vercel-integration-v2` | Baseline Vercel staging integration (second pass)  | Baseline Phase -1G — start after BF-03 handoff acceptance.                                                    | Resolve BF-03 residual staging/env/domain split gaps to production-complete web baseline                            | Delta-vs-handoff closure list; clarify-first Q&A log; end-to-end staging parity proof                         |
 | `agent-bf-04-expo-baseline-v2`      | Baseline Expo/EAS Android deployment (second pass) | Baseline Phase -1H — start after BF-04 handoff acceptance.                                                    | Resolve BF-04 residual Android release/env propagation gaps to production-complete mobile baseline                  | Delta-vs-handoff closure list; clarify-first Q&A log; Android preview/production closure evidence             |
@@ -80,29 +80,29 @@ Status legend:
 - `Blocked` — cannot continue without dependency/decision/input.
 - `Done` — handoff received and accepted.
 
-| Agent                               | Phase     | Status      | Started At | Owner | PR/Branch | Handoff Received |
-| ----------------------------------- | --------- | ----------- | ---------- | ----- | --------- | ---------------- |
-| `agent-bf-01-clerk-foundation`      | Phase -1A | Done        | 2026-03-01 |       |           | Yes              |
-| `agent-bf-02-railway-baseline`      | Phase -1B | Done        | 2026-03-01 |       |           | Yes              |
-| `agent-bf-03-vercel-integration`    | Phase -1C | Done        | 2026-03-01 |       |           | Yes              |
-| `agent-bf-04-expo-baseline`         | Phase -1D | Done        | 2026-03-01 |       |           | Yes              |
-| `agent-bf-01-clerk-foundation-v2`   | Phase -1E | Done        | 2026-03-02 |       |           | Yes              |
-| `agent-bf-02-railway-baseline-v2`   | Phase -1F | Done        | 2026-03-02 |       |           | Yes              |
-| `agent-bf-03-vercel-integration-v2` | Phase -1G | Done        | 2026-03-02 |       |           | Yes              |
-| `agent-bf-04-expo-baseline-v2`      | Phase -1H | Done        | 2026-03-02 |       |           | Yes              |
-| `agent-00-chyme-core`               | Phase 0   | Done        | 2026-03-02 |       |           | Yes              |
-| `agent-01-taxonomy-core`            | Phase 0   | Done        | 2026-03-02 |       |           | Yes              |
-| `agent-02-directory-core`           | Phase 0   | Done        | 2026-03-02 |       |           | Yes              |
-| `agent-03-feed-announcements`       | Phase 0   | Done        | 2026-03-02 |       |           | Yes              |
-| `agent-04-workforce`                | Phase 1   | Done        | 2026-03-03 |       |           | Yes              |
-| `agent-05-skills-hunt`              | Phase 1   | Done        | 2026-03-03 |       |           | Yes              |
-| `agent-06-foundation`               | Phase 1   | Done        | 2026-03-03 |       |           | Yes              |
-| `agent-07-lighthouse`               | Phase 2   | Done        | 2026-03-03 |       |           | Yes              |
-| `agent-08-socketrelay`              | Phase 2   | Done        | 2026-03-03 |       |           | Yes              |
-| `agent-09-trusttransport`           | Phase 2   | Done        | 2026-03-03 |       |           | Yes              |
-| `agent-10-peer-programming`         | Phase 2   | Done        | 2026-03-04 |       |           | Yes              |
-| `agent-11-mood`                     | Phase 2   | Done        | 2026-03-04 |       |           | Yes              |
-| `agent-12-gentlepulse`              | Phase 2   | Done        | 2026-03-04 |       |           | Yes              |
-| `agent-13-weekly-performance`       | Phase 2   | Done        | 2026-03-04 |       |           | Yes              |
-| `agent-14-gdp`                      | Phase 3   | Done        | 2026-03-04 |       |           | Yes              |
-| `agent-15-service-credits`          | Phase 3   | Done        | 2026-03-04 |       |           | Yes              |
+| Agent                               | Phase     | Status | Started At | Owner | PR/Branch | Handoff Received |
+| ----------------------------------- | --------- | ------ | ---------- | ----- | --------- | ---------------- |
+| `agent-bf-01-clerk-foundation`      | Phase -1A | Done   | 2026-03-01 |       |           | Yes              |
+| `agent-bf-02-railway-baseline`      | Phase -1B | Done   | 2026-03-01 |       |           | Yes              |
+| `agent-bf-03-vercel-integration`    | Phase -1C | Done   | 2026-03-01 |       |           | Yes              |
+| `agent-bf-04-expo-baseline`         | Phase -1D | Done   | 2026-03-01 |       |           | Yes              |
+| `agent-bf-01-clerk-foundation-v2`   | Phase -1E | Done   | 2026-03-02 |       |           | Yes              |
+| `agent-bf-02-railway-baseline-v2`   | Phase -1F | Done   | 2026-03-02 |       |           | Yes              |
+| `agent-bf-03-vercel-integration-v2` | Phase -1G | Done   | 2026-03-02 |       |           | Yes              |
+| `agent-bf-04-expo-baseline-v2`      | Phase -1H | Done   | 2026-03-02 |       |           | Yes              |
+| `agent-00-chyme-core`               | Phase 0   | Done   | 2026-03-02 |       |           | Yes              |
+| `agent-01-taxonomy-core`            | Phase 0   | Done   | 2026-03-02 |       |           | Yes              |
+| `agent-02-directory-core`           | Phase 0   | Done   | 2026-03-02 |       |           | Yes              |
+| `agent-03-feed-announcements`       | Phase 0   | Done   | 2026-03-02 |       |           | Yes              |
+| `agent-04-workforce`                | Phase 1   | Done   | 2026-03-03 |       |           | Yes              |
+| `agent-05-skills-hunt`              | Phase 1   | Done   | 2026-03-03 |       |           | Yes              |
+| `agent-06-foundation`               | Phase 1   | Done   | 2026-03-03 |       |           | Yes              |
+| `agent-07-lighthouse`               | Phase 2   | Done   | 2026-03-03 |       |           | Yes              |
+| `agent-08-socketrelay`              | Phase 2   | Done   | 2026-03-03 |       |           | Yes              |
+| `agent-09-trusttransport`           | Phase 2   | Done   | 2026-03-03 |       |           | Yes              |
+| `agent-10-peer-programming`         | Phase 2   | Done   | 2026-03-04 |       |           | Yes              |
+| `agent-11-mood`                     | Phase 2   | Done   | 2026-03-04 |       |           | Yes              |
+| `agent-12-gentlepulse`              | Phase 2   | Done   | 2026-03-04 |       |           | Yes              |
+| `agent-13-weekly-performance`       | Phase 2   | Done   | 2026-03-04 |       |           | Yes              |
+| `agent-14-gdp`                      | Phase 3   | Done   | 2026-03-04 |       |           | Yes              |
+| `agent-15-service-credits`          | Phase 3   | Done   | 2026-03-04 |       |           | Yes              |

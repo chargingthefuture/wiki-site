@@ -5,7 +5,7 @@ Manages environment variables, secrets, and authentication configuration. Ensure
 
 ## Responsibilities
 - Manage and validate environment variables and secrets
-- Ensure Clerk and other auth providers are correctly configured
+- Ensure the active auth provider and compatibility fallbacks are correctly configured
 - Block deployments if configuration is insecure or incomplete
 
 ## Boundaries

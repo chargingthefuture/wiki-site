@@ -26,10 +26,10 @@ Skills Hunt uses canonical profile fields for account identity, role checks, and
 
 ## Identity Handle Baseline
 
-- Canonical handle source: Clerk `username` (see `ctf/docs/contracts/PLUGIN_IDENTITY_HANDLE_BASELINE.md`).
+- Canonical handle source: the active auth provider's canonical `username` or equivalent handle field (see `ctf/docs/contracts/PLUGIN_IDENTITY_HANDLE_BASELINE.md`).
 - Plugin must not create plugin-local username ownership models.
-- If Clerk `username` is missing, use non-handle display fallback and treat `@mention` targeting as unavailable.
-- Any persisted username snapshot fields must be derived from Clerk `username` at write time.
+- If the canonical provider handle is missing, use non-handle display fallback and treat `@mention` targeting as unavailable.
+- Any persisted username snapshot fields must be derived from the canonical provider handle at write time.
 
 ## 3) Plugin Extension Fields
 

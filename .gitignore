@@ -16,7 +16,9 @@ platform/dist/
 # ctf rewrite build artifacts and local env
 ctf/packages/web/.next/
 ctf/packages/web/.env.local
+ctf/packages/web/tsconfig.tsbuildinfo
 ctf/packages/mobile/.expo/
+ctf/packages/mobile/dist/
 ctf/packages/mobile/.env
 ctf/packages/mobile/.env.local
 
@@ -28,5 +30,3 @@ ctf/packages/mobile/.env.local
 .ai/
 
 
-#Ignore vscode AI rules
-.github/instructions/codacy.instructions.md

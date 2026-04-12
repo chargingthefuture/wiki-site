@@ -16,3 +16,7 @@ Reviews and enforces architecture and coding standards. Ensures code quality, re
 - Code review for standards compliance
 - Suggest improvements for readability
 - Block merges if standards are not met
+
+## Supabase Skill Integration
+- On any Supabase/Postgres/SQL/database-related code, schema, or config change, invoke the supabase-postgres-best-practices skill from ctf/.agents/skills/supabase-postgres-best-practices.
+- Ensure all database code and migrations follow these best practices before approval.

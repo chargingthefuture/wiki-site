@@ -6,49 +6,61 @@
 - Legacy reference excluded from implementation: `platform/`
 - Plugin name: `Feed`
 - Central admin surface decision: `/admin/feed-announcements`
-- Delivery decision: web-first launch; Android follow-up must be tracked by explicit parity ticket.
+- Delivery decision: web-first launch with full Android parity required before release.
+- Feed is a three-channel surface: Announcements, Questions (LLM-assisted Q&A), and Community Support.
+- All commands use the unified `feed.*` namespace.
 
 ## Intent and Outcome
 
-Feed is the survivor-facing timeline and discovery surface for community activity and announcements.
+Feed is the survivor-facing timeline and discovery surface combining community activity, announcements, LLM-assisted Q&A, and peer support into a unified three-channel experience.
 
 Approved architecture decisions:
 
-1. Source-of-truth for persisted feed/announcement objects is PostgreSQL.
-2. Stream is used for fan-out and timeline delivery behavior, not canonical storage.
+1. Source-of-truth for persisted feed/announcement/question/community objects is PostgreSQL.
+2. Stream (GetStream) is used for fan-out and timeline delivery behavior, not canonical storage.
 3. Admin operations for Feed + Announcements are centralized at `/admin/feed-announcements`.
-4. Web-first implementation is approved, with Android follow-up ticket required before release sign-off closure.
-
-Approved suggestions incorporated into this plan:
-
-1. Normalize product/documentation naming to **Announcements**.
-2. Do not preserve a legacy typo alias note for backward compatibility where old naming appears in code/history.
-3. Introduce plugin membership event stream for join/leave and visibility recalculation events.
-4. Optional toast is supported as a Feed rendering mode under Feed controls.
+4. Web-first implementation is approved, with full Android parity required before release.
+5. LLM-assisted Q&A uses approved data sources only; inference logs are audited.
+6. All command contracts use the unified `feed.*` namespace (no separate `announcements.*` namespace).
 
 ---
 
 ## 1) Planned User-Facing Features
 
-### 1.1 Feed Timeline Core
+### 1.1 Feed Timeline Core (Unified)
 
-1. Paginated timeline of feed items with deterministic ordering.
-2. Filter controls for plugin-scoped activity and announcement visibility.
-3. Empty/error/loading states with accessible fallback messaging.
+1. Paginated timeline of feed items across all three channels with deterministic ordering.
+2. Channel filter controls: all, announcements, questions, community.
+3. Plugin-scoped activity and announcement visibility filters.
+4. Empty/error/loading states with accessible fallback messaging.
 
-### 1.2 Announcement Visibility in Feed
+### 1.2 Channel: Announcements
 
 1. Announcement items render in-feed using shared card contract.
 2. Priority and expiry windows influence rank/visibility.
 3. Optional toast rendering mode is configurable under Feed display controls.
 
-### 1.3 Membership-Aware Personalization
+### 1.3 Channel: Questions (LLM-Assisted Q&A)
+
+1. Users submit natural-language questions (e.g., "Find me housing within 10 miles of 90210").
+2. Questions are categorized (housing, services, general, safety, benefits) with optional location context.
+3. LLM-generated answers are produced from approved data sources with confidence score and source attribution.
+4. Community members can also reply to questions with peer answers.
+5. Users can rate answers (helpful, not helpful, flagged) for quality feedback loop.
+
+### 1.4 Channel: Community Support
+
+1. Community support posts for peer-to-peer engagement (general, peer support, resource sharing, events).
+2. Threaded replies on community posts.
+3. Content moderation and rate limiting on post creation.
+
+### 1.5 Membership-Aware Personalization
 
 1. Membership changes trigger visibility recalculation.
 2. Membership event stream is used for fan-out invalidation/update workflows.
 3. Non-member and member experiences remain policy-compliant and auditable.
 
-### 1.4 Interaction and Read-State
+### 1.6 Interaction and Read-State
 
 1. Mark-read / unread tracking per user and item.
 2. Dismiss/hide actions for non-mandatory announcements.
@@ -67,20 +79,22 @@ Approved suggestions incorporated into this plan:
 ### 2.2 Feed Rendering Controls
 
 1. Global rendering-mode configuration (card-only, card+toast where allowed).
-2. Priority and targeting rules management.
-3. Preview/simulation mode before publish.
+2. Channel enable/disable controls.
+3. Priority and targeting rules management.
+4. Preview/simulation mode before publish.
 
 ### 2.3 Governance and Operational Visibility
 
 1. Change history and actor attribution for admin mutations.
 2. Quota-impact awareness for Stream fan-out heavy changes.
 3. Feature flag and kill-switch controls.
+4. LLM inference monitoring: model ID, confidence, source attribution, quality ratings.
 
 ---
 
-## 3) API Surface and Route Map (Planned)
+## 3) API Surface and Route Map
 
-### 3.1 Plugin Command Surface (Authoritative)
+### 3.1 Plugin Command Surface (Authoritative — Unified `feed.*` Namespace)
 
 All command contracts must conform to templates from:
 
@@ -88,25 +102,33 @@ All command contracts must conform to templates from:
 - `.github/instructions/202-plugin-access-policy-schema-template.mdc`
 - `.github/instructions/203-plugin-audit-schema-template.mdc`
 
-Planned command groups:
+**Timeline (unified):**
 
-1. `feed.timeline.fetch`
+1. `feed.timeline.fetch` (v2.0.0 — supports channel filter)
 2. `feed.item.read.mark`
 3. `feed.item.dismiss`
-4. `feed.announcement.render-mode.update`
-5. `feed.admin.config.update`
-6. `feed.admin.announcement.publish`
-7. `feed.admin.announcement.archive`
-8. `feed.membership.event.emit`
 
-### 3.2 HTTP Projection Routes (Planned)
+**Announcements:** 4. `feed.announcement.draft.create` 5. `feed.announcement.draft.update` 6. `feed.announcement.publish` 7. `feed.announcement.archive` 8. `feed.announcement.read.mark` 9. `feed.announcement.dismiss` 10. `feed.announcement.render-mode.update` 11. `feed.announcement.targeting.validate`
+
+**Questions (LLM-assisted Q&A):** 12. `feed.question.submit` 13. `feed.question.answer.generate` 14. `feed.question.answer.rate`
+
+**Community Support:** 15. `feed.community.post.create` 16. `feed.community.post.reply`
+
+**Admin / Governance:** 17. `feed.admin.config.update` 18. `feed.membership.event.emit`
+
+### 3.2 HTTP Projection Routes
 
 User routes:
 
-- `GET /api/feed/items`
+- `GET /api/feed/items` (supports `?channel=` filter)
 - `POST /api/feed/items/:itemId/read`
 - `POST /api/feed/items/:itemId/dismiss`
 - `GET /api/feed/config`
+- `POST /api/feed/questions`
+- `POST /api/feed/questions/:questionId/answer`
+- `POST /api/feed/answers/:answerId/rate`
+- `POST /api/feed/community/posts`
+- `POST /api/feed/community/posts/:postId/reply`
 
 Admin routes:
 
@@ -119,7 +141,7 @@ Admin routes:
 
 ---
 
-## 4) Data Model and Storage Contracts (Planned)
+## 4) Data Model and Storage Contracts
 
 ### 4.1 Canonical Profile and Plugin Extension
 
@@ -139,7 +161,9 @@ Planned extension entity:
 
 ### 4.2 Domain Entities
 
-Planned domain tables (initial set):
+Planned domain tables:
+
+**Existing (implemented):**
 
 1. `feed_items`
 2. `feed_item_targets`
@@ -148,31 +172,46 @@ Planned domain tables (initial set):
 5. `feed_render_config`
 6. `feed_membership_events`
 7. `feed_admin_audit_trail`
+8. `announcements`
+9. `announcement_revisions`
+10. `announcement_delivery_events`
+11. `announcement_user_state`
+12. `announcement_membership_events`
+
+13. `feed_questions`
+14. `feed_answers`
+15. `feed_answer_ratings`
+16. `llm_inference_log`
+17. `feed_community_posts`
+18. `feed_community_replies`
 
 ### 4.3 Source-of-Truth and Fan-Out
 
-1. PostgreSQL stores canonical feed and announcement metadata.
+1. PostgreSQL stores canonical feed, announcement, question, and community metadata.
 2. Stream receives projected fan-out payloads after DB commit success.
 3. Retries/idempotency ensure at-least-once fan-out without duplicate canonical writes.
 
 ---
 
-## 5) Security, Privacy, and Compliance Controls (Planned)
+## 5) Security, Privacy, and Compliance Controls
 
 1. Server-side authorization on all user/admin commands.
 2. Role and consent checks enforced by command access policy contracts.
 3. CSRF protection for all state-changing web routes.
 4. Audit logging for allow/deny and publish/archive transitions.
 5. Sensitive payload redaction in logs and diagnostics.
-6. Plugin-scoped deletion + full-account deletion contracts aligned to template in `ctf/docs/templates/PLUGIN_PROFILE_AND_DELETION_CONTRACT_TEMPLATE.md`.
+6. LLM inference inputs are sanitized; outputs are logged with model ID and confidence for audit.
+7. Content moderation on question/community post submission (rate limiting + policy violation checks).
+8. Plugin-scoped deletion + full-account deletion contracts aligned to template in `ctf/docs/templates/PLUGIN_PROFILE_AND_DELETION_CONTRACT_TEMPLATE.md`.
 
 ---
 
-## 6) Web and Android Delivery Plan (Approved)
+## 6) Web and Android Delivery Plan
 
 1. Web-first release is approved for initial CTF rewrite delivery.
-2. Android parity is deferred only via explicit follow-up ticket with owner + due date.
-3. Release readiness requires linking that Android follow-up ticket in checklist evidence.
+2. Full Android parity is required before release sign-off.
+3. Android implementation covers all three channels: announcements, questions, community.
+4. Android parity note: `ctf/docs/developer/ctf-plugin-feature-inventories/ctf-feed-android-parity-note.md`.
 
 ---
 
@@ -181,12 +220,18 @@ Planned domain tables (initial set):
 1. Any change increasing Stream fan-out volume must include a quota-impact note.
 2. Quota notes must follow `ctf/docs/quota-impact/TEMPLATE.md`.
 3. Checklist evidence must include expected monthly impact and degradation plan.
+4. LLM inference costs must be tracked separately and budget-gated.
 
 ---
 
-## 8) Seed Coverage Status (Planned)
+## 8) Seed Coverage Status
 
-Seed script requirement: Provide a deterministic plugin seed script with dummy development data for manual plugin validation in dev environments.
+Seed script requirement: Provide a deterministic plugin seed script with dummy development data for manual plugin validation in dev environments. Must include:
+
+- Feed items across all three channels
+- Sample questions with LLM-generated and community answers
+- Sample community posts with replies
+- Membership events, read/dismiss states
 
 ---
 
@@ -200,11 +245,11 @@ Seed script requirement: Provide a deterministic plugin seed script with dummy d
 
 ## 10) Gaps, Ambiguities, and Known Technical Debt (Current)
 
-- Command/access/audit YAML contracts pending.
-- Profile/deletion contract pending.
-- Migration SQL pending.
-- Android parity ticket pending.
-- Stream quota-impact note pending.
+- Questions channel: schema, API routes, repository, and UI pending implementation.
+- Community channel: schema, API routes, repository, and UI pending implementation.
+- LLM inference integration: provider selection, model configuration, and inference pipeline pending.
+- Android implementation: full parity pending across all three channels.
+- Separate `ANNOUNCEMENTS_PLUGIN_*_CONTRACTS.yaml` files are deprecated; all contracts now live in unified `FEED_PLUGIN_*_CONTRACTS.yaml`.
 
 ---
 
@@ -212,3 +257,4 @@ Seed script requirement: Provide a deterministic plugin seed script with dummy d
 
 - 2026-02-24: Created initial CTF rewrite Feed inventory with approved architecture decisions (Postgres source-of-truth + Stream fan-out), centralized admin surface, naming normalization guidance, quota-impact requirement, and schema drift evidence gates.
 - 2026-02-25: Added Rule 120 gaps/ambiguities/known technical debt section.
+- 2026-04-05: Major revision — unified to `feed.*` namespace; added three-channel architecture (announcements, questions/LLM Q&A, community support); added 18 commands; added Q&A/community data entities; added LLM extension contracts; added feed canonical metrics; marked Android parity as required; deprecated separate announcements contracts.

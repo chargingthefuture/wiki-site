@@ -292,3 +292,13 @@ Potential technical debt to monitor:
 ## 11) Change Log
 
 - 2026-02-24: Created initial CTF rewrite inventory for TrustTransport (net-new plugin plan) with user/admin/API/data/security/parity scope.
+
+---
+
+## 2026-04-06: Mobile Rewrite Progress
+
+- Replaced mobile stub with real UI per design mockup (see `TrustTransport.tsx`).
+- User flows: booking, tracking, chat, and empty state UI are now implemented per mockup.
+- Generic auth context and sign-in flow (placeholder) now implemented in mobile. All TrustTransport features are now auth-gated.
+- Admin features are next.
+- Inventory and session memory updated after each major step for handoff clarity.

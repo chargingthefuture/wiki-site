@@ -1,5 +1,5 @@
 import * as Sentry from '@sentry/nextjs';
-import { resolveWebSentryDsn } from './src/lib/observability/sentry-config';
+import { resolveWebSentryDsn } from 'lib/observability/sentry-config';
 
 const dsn = resolveWebSentryDsn();
 

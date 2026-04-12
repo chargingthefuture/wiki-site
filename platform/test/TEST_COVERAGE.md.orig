@@ -6,7 +6,7 @@ This document lists all tests created for the application.
 
 ### Authentication & Authorization
 - ✅ `test/api/auth.test.ts` - Authentication flows, user approval, authorization levels
-- â `test/api/auth.test.ts` - Authentication flows, user approval, authorization levels
+
 ### SupportMatch
 - ✅ `test/api/supportmatch.test.ts` - Profile CRUD, partnerships, messages, exclusions, reports, announcements, admin
 

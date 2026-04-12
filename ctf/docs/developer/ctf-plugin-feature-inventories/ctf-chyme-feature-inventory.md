@@ -5,26 +5,27 @@
 - Rewrite target only: `ctf/`
 - Legacy `platform/` remains reference-only and must not be modified.
 - Unified plugin scope slug: `chyme`
-- This document captures the **target implementation scope** for fresh-start delivery.
+- This document captures the implemented Chyme scope in `ctf/` as of the current rewrite baseline.
 
 ## Intent and Outcome
 
-Chyme delivers a lightweight social-audio room with companion text chat, Stream-backed room join flow, and plugin-scoped deletion behavior under the CTF plugin-first architecture.
+Chyme delivers a lightweight social-audio room with companion text chat, shared-adapter Stream-backed room join flow, provider-neutral access enforcement, and plugin-scoped deletion behavior under the CTF plugin-first architecture.
 
 Lifecycle/governance references applied:
 
 1. Inventory/checklist lifecycle follows `index.mdc` precedence and Rule 120.
 2. Profile/deletion boundaries follow Rule 114 and `ctf/docs/contracts/CHYME_PROFILE_AND_DELETION_CONTRACT.md`.
-3. Implementation sequencing must honor baseline phase order: Clerk integration, Railway deployment baseline, Vercel integration, Expo baseline.
+3. Implementation sequencing must honor baseline phase order: auth integration, Railway deployment baseline, Vercel integration, Expo baseline.
 
 ## Target User Features (Implementation Scope)
 
 1. Authenticated room bootstrap via `GET /api/chyme/room` with deterministic room provisioning (`chyme-main-room`) and participant upsert.
-2. Companion text chat read/send via `GET /api/chyme/messages` and `POST /api/chyme/messages`.
-3. Stream-backed room join/token flow via `POST /api/chyme/join`.
+2. Companion text chat read/send via `GET /api/chyme/messages` and `POST /api/chyme/messages`, with DB persistence and Stream message fan-out through shared adapters.
+3. Stream-backed room join/token flow via `POST /api/chyme/join`, using shared Stream wrappers in `packages/shared`.
 4. Service-scoped deletion request via `DELETE /api/account/chyme-profile`.
-5. Full-account deletion request initiation via `DELETE /api/account/full-account` (request recording and Service Credits reclaim enqueue).
+5. Full-account deletion request initiation via `DELETE /api/account/full-account`, including Service Credits reclaim dependency queueing in existing reclaim/outbox tables.
 6. Web UI surface includes participant list, join-call action, chat panel, and deletion actions.
+7. Android UI surface includes room summary, participant roster, chat send/read, join action, and deletion actions using runtime-configured provider-neutral identity headers.
 
 ## Target Admin Features
 
@@ -55,7 +56,7 @@ Current command-contract note:
 
 ## Data Model and Storage Contracts (Target)
 
-Canonical migration target: Chyme core tables under `ctf/migrations/` aligned to route assumptions and schema-drift checks.
+Canonical schema target: Chyme core tables are defined in `ctf/schema.sql`, aligned to route assumptions and schema-drift checks.
 
 1. `chyme_rooms`
    - Shared room metadata (`service_name='chyme'`, `call_active`).
@@ -67,21 +68,26 @@ Canonical migration target: Chyme core tables under `ctf/migrations/` aligned to
    - Message history with DB-level text constraint (`1..1000` chars).
 5. `chyme_deletion_events`
    - Service/account deletion event log.
+6. `service_credits_account_deletion_reclaims`
+   - Downstream reclaim dependency record created when full-account deletion is requested.
+7. `service_credits_adapter_outbox`
+   - Queue used to hand the reclaim dependency to the existing Service Credits execution flow.
 
 ## Security, Privacy, and Compliance Controls (Target)
 
-1. Clerk-authenticated access is required on Chyme routes; unauthenticated requests are denied (`401`).
+1. Authenticated access is required on Chyme routes; unauthenticated requests are denied (`401`).
 2. Access gate enforces approved-user or admin eligibility (`403` for non-approved non-admin users).
-3. Identity handle source is Clerk `username` for username/`@mention` semantics, aligned to `ctf/docs/contracts/PLUGIN_IDENTITY_HANDLE_BASELINE.md`.
+3. Identity handle source is the canonical auth-provider username/handle for username/`@mention` semantics, aligned to `ctf/docs/contracts/PLUGIN_IDENTITY_HANDLE_BASELINE.md`.
 4. Message payloads are trimmed server-side and rejected when empty.
 5. Service deletion runs in transaction and records deletion event for audit trail.
-6. Full-account endpoint currently records request and enqueues Service Credits reclaim dependency.
+6. Full-account endpoint records the Chyme deletion request and queues the downstream Service Credits reclaim dependency.
+7. Stream integration is routed through shared wrappers/adapters in `ctf/packages/shared`.
 
 ## Web and Android Delivery Status
 
-1. Web implementation is delivered for room/chat/join/deletion workflows in Phase 0.
-2. Android parity is deferred with explicit owner/date evidence in checklist (`mobile-phase2-chyme`, target milestone `2026-04-15`).
-3. Current parity status is **web complete, Android deferred**.
+1. Web implementation is delivered for room/chat/join/deletion workflows.
+2. Android implementation is delivered for room/chat/join/deletion workflows using runtime-configured request identity and the same protected API surface.
+3. Current parity status is **web+android complete**.
 
 ## Seed Coverage Status
 
@@ -89,33 +95,29 @@ Rule requirement: deterministic plugin seed script for manual validation in dev 
 
 Current status:
 
-- Deterministic Chyme seed script is required under `ctf/scripts/` before release gates close.
-- Manual validation checklist evidence should be captured as implementation progresses.
+- Deterministic Chyme seed script is present under `ctf/scripts/seedChymePhase0.mjs`.
+- Validation and release evidence live in `ctf/docs/testing/CHYME_FIRST_TEST_PASS.md` and `ctf/docs/quota-impact/2026-04-05-chyme-phase0-remediation.md`.
 
 ## Risks, Ambiguities, and Known Technical Debt
 
-1. Fresh-start implementation can drift from contracts without strict checklist synchronization.
-2. Android parity can lag web delivery unless explicitly assigned and tracked.
-3. Full-account delete lifecycle orchestration may need follow-up integration across plugins.
-4. Chyme-specific admin tooling and moderation controls are out of MVP unless explicitly approved.
+1. Full-account delete lifecycle remains request-first; terminal orchestrator completion still depends on the broader account-deletion workflow.
+2. Chyme-specific admin tooling and moderation controls are out of MVP unless explicitly approved.
+3. Chyme uses Stream chat channels for room coordination and token issuance; a dedicated in-room native call client remains a future enhancement if the product moves beyond the current token/join pattern.
 
 ## Delivery Phasing
 
-1. Phase 0 — Core implementation:
-   - implement room/chat/join/deletion routes and persistence,
-   - enforce policy and audit contracts.
-2. Phase 0b — Deterministic dev/test readiness:
-   - add Chyme seed script,
-   - wire checklist evidence references.
-3. Phase 1+ — Android parity and lifecycle closure:
-   - implement mobile parity with matching policy outcomes,
-   - align full-account lifecycle statuses with global orchestrator.
+1. Phase 0 — Core implementation completed: room/chat/join/deletion routes and persistence with policy and audit enforcement.
+2. Phase 0b — Deterministic dev/test readiness completed: seed script and release evidence wired to canonical docs.
+3. Phase 1 — Android parity completed: mobile parity uses the same policy outcomes and protected API surface.
+4. Phase 2+ — Lifecycle closure remains open only for global full-account orchestrator completion beyond `requested` state.
 
 ## Change Log
 
 - 2026-02-25: Created initial Chyme CTF rewrite inventory and documented governance/parity requirements.
 - 2026-02-25: Added Chyme command/access/audit YAML triplet references and removed contract-triplet gap from known technical debt.
 - 2026-03-01: Reframed inventory for fresh-start implementation sequencing and removed implemented-baseline assumptions.
-- 2026-03-01: Added canonical Clerk username handle decision for Chyme/plugin identity parity.
+- 2026-03-01: Added canonical auth-provider handle decision for Chyme/plugin identity parity.
+- 2026-04-05: Re-audited auth boundaries so Chyme depends on provider-neutral auth context and generic server identity policy rather than Clerk-specific assumptions.
 - 2026-03-01: Recorded Phase 0 delivery status (API + policy + audit + migration + deterministic seed) and Android deferment details.
 - 2026-03-02: Closed Chyme second-pass scaffold gap by persisting room call-active state on join and publishing dedicated closure handoff evidence.
+- 2026-04-05: Completed Android parity on the real Chyme API surface, queued Service Credits reclaim dependency on full-account delete, and aligned Chyme docs to `ctf/schema.sql` plus shared Stream wrappers.

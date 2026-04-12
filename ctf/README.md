@@ -45,16 +45,16 @@ This folder contains the rewrite monorepo scaffold for:
 
 ## Invite-Only Access Flow (Rewrite)
 
-- Users sign in with Clerk on the web app root page.
+- Users sign in through the active auth provider on the web app root page.
 - First-time users must submit a Quora profile URL.
 - Access stays pending until an admin approves them.
 - Admins (existing `users.is_admin = true`) can review and approve users at `/admin/users`.
 
 ## Auth Foundation Baseline (BF-01)
 
-- Clerk foundation implementation notes: `ctf/docs/developer/CLERK_FOUNDATION_BASELINE_BF01.md`
+- Auth foundation implementation notes: `ctf/docs/developer/AUTH_ARCHITECTURE.md`
 - Plugin deny taxonomy baseline: `ctf/docs/contracts/PLUGIN_AUTH_DENY_TAXONOMY_BASELINE.md`
-- Clerk username rollout plan (legacy user backfill + migration): `ctf/docs/developer/CLERK_USERNAME_ROLLOUT_PLAN.md`
+- Legacy Clerk username rollout reference: `ctf/docs/developer/CLERK_USERNAME_ROLLOUT_PLAN.md`
 
 ## Railway Deploy Baseline
 
@@ -62,6 +62,12 @@ This folder contains the rewrite monorepo scaffold for:
 - Keep `ctf/railway.toml` commands package-local (`pnpm build`, `pnpm start`) and do not add a second workspace-level `pnpm install --filter ...` step.
 - Reason: Railpack already performs install, and a second filtered install/build chain can trigger Node heap OOM during deploy.
 - Keep package manager alignment pinned to `pnpm@9.12.0` in deploy commands for deterministic behavior.
+
+## Schema Drift Full Report
+
+- To list all live DB schema issues at once (missing tables/columns) against `ctf/schema.sql`:
+  - `DATABASE_URL=... pnpm run schema:report-live-drift`
+- This command exits non-zero when drift exists, so it can be used as a pre-deploy gate.
 
 ## Workforce Incremental Sync Baseline
 

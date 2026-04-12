@@ -1,14 +1,19 @@
 contracts:
+  # ─── Channel: Timeline (unified) ───────────────────────────────────────
   - pluginId: feed
     command: feed.timeline.fetch
-    version: 1.0.0
-    description: Fetch feed timeline items with deterministic ordering and offset pagination.
+    version: 2.0.0
+    description: Fetch feed timeline items across all channels (announcements, questions, community) with deterministic ordering and offset pagination.
     inputSchema:
       page:
         type: integer
         required: false
       pageSize:
         type: integer
+        required: false
+      channel:
+        type: string
+        enum: [all, announcements, questions, community]
         required: false
       filters:
         type: object
@@ -22,6 +27,7 @@ contracts:
       - feed_items
       - feed_item_targets
       - feed_render_config
+      - feed_questions
     purpose: timeline_discovery
     retentionClass: derived_short_lived
     idempotency: true
@@ -65,6 +71,158 @@ contracts:
     retentionClass: transactional_long_lived
     idempotency: true
 
+  # ─── Channel: Announcements ────────────────────────────────────────────
+  - pluginId: feed
+    command: feed.announcement.draft.create
+    version: 1.0.0
+    description: Create an announcement draft with targeting metadata and scheduling window.
+    inputSchema:
+      title:
+        type: string
+        required: true
+      body:
+        type: string
+        required: true
+      targeting:
+        type: object
+        required: true
+      scheduleAt:
+        type: string
+        required: false
+    outputSchema:
+      announcementId:
+        type: string
+      status:
+        type: string
+      createdAt:
+        type: string
+    dataAccess:
+      - announcements
+      - announcement_revisions
+      - announcement_delivery_events
+    purpose: broadcast_authoring
+    retentionClass: transactional_long_lived
+    idempotency: true
+
+  - pluginId: feed
+    command: feed.announcement.draft.update
+    version: 1.0.0
+    description: Update a draft announcement before publish.
+    inputSchema:
+      announcementId:
+        type: string
+        required: true
+      title:
+        type: string
+        required: true
+      body:
+        type: string
+        required: true
+      targeting:
+        type: object
+        required: false
+    outputSchema:
+      announcementId:
+        type: string
+      status:
+        type: string
+      updatedAt:
+        type: string
+    dataAccess:
+      - announcements
+      - announcement_revisions
+    purpose: broadcast_authoring
+    retentionClass: transactional_long_lived
+    idempotency: true
+
+  - pluginId: feed
+    command: feed.announcement.publish
+    version: 1.0.0
+    description: Publish a draft announcement and trigger fan-out projection.
+    inputSchema:
+      announcementId:
+        type: string
+        required: true
+      publishAt:
+        type: string
+        required: false
+    outputSchema:
+      announcementId:
+        type: string
+      status:
+        type: string
+      publishedAt:
+        type: string
+    dataAccess:
+      - announcements
+      - announcement_delivery_events
+      - feed_admin_audit_trail
+    purpose: broadcast_delivery
+    retentionClass: transactional_long_lived
+    idempotency: true
+
+  - pluginId: feed
+    command: feed.announcement.archive
+    version: 1.0.0
+    description: Archive a published announcement.
+    inputSchema:
+      announcementId:
+        type: string
+        required: true
+    outputSchema:
+      announcementId:
+        type: string
+      status:
+        type: string
+      archivedAt:
+        type: string
+    dataAccess:
+      - announcements
+      - announcement_delivery_events
+      - feed_admin_audit_trail
+    purpose: broadcast_delivery
+    retentionClass: transactional_long_lived
+    idempotency: true
+
+  - pluginId: feed
+    command: feed.announcement.read.mark
+    version: 1.0.0
+    description: Mark an announcement as read for the requesting user.
+    inputSchema:
+      announcementId:
+        type: string
+        required: true
+    outputSchema:
+      announcementId:
+        type: string
+      readAt:
+        type: string
+    dataAccess:
+      - announcement_user_state
+    purpose: acknowledgement_tracking
+    retentionClass: derived_short_lived
+    idempotency: true
+
+  - pluginId: feed
+    command: feed.announcement.dismiss
+    version: 1.0.0
+    description: Dismiss a non-mandatory announcement for the current user.
+    inputSchema:
+      announcementId:
+        type: string
+        required: true
+    outputSchema:
+      announcementId:
+        type: string
+      dismissedAt:
+        type: string
+    dataAccess:
+      - announcement_user_state
+      - announcements
+    purpose: acknowledgement_tracking
+    retentionClass: derived_short_lived
+    idempotency: true
+
   - pluginId: feed
     command: feed.announcement.render-mode.update
     version: 1.0.0
@@ -85,9 +243,166 @@ contracts:
     idempotency: true
 
   - pluginId: feed
+    command: feed.announcement.targeting.validate
+    version: 1.0.0
+    description: Validate announcement targeting constraints before publish.
+    inputSchema:
+      targeting:
+        type: object
+        required: true
+    outputSchema:
+      valid:
+        type: boolean
+      normalizedTargeting:
+        type: object
+    dataAccess:
+      - announcements
+    purpose: broadcast_governance
+    retentionClass: derived_short_lived
+    idempotency: true
+
+  # ─── Channel: Questions (LLM-assisted Q&A) ─────────────────────────────
+  - pluginId: feed
+    command: feed.question.submit
+    version: 1.0.0
+    description: Submit a natural-language question to the feed Q&A channel for LLM-assisted answering.
+    inputSchema:
+      body:
+        type: string
+        required: true
+      category:
+        type: string
+        enum: [housing, services, general, safety, benefits]
+        required: false
+      location:
+        type: object
+        required: false
+        properties:
+          zipCode:
+            type: string
+          radiusMiles:
+            type: integer
+    outputSchema:
+      questionId:
+        type: string
+      status:
+        type: string
+      createdAt:
+        type: string
+    dataAccess:
+      - feed_questions
+      - feed_items
+    purpose: community_qa
+    retentionClass: transactional_long_lived
+    idempotency: false
+
+  - pluginId: feed
+    command: feed.question.answer.generate
+    version: 1.0.0
+    description: Generate an LLM-assisted answer for a submitted question using approved data sources.
+    inputSchema:
+      questionId:
+        type: string
+        required: true
+    outputSchema:
+      answerId:
+        type: string
+      body:
+        type: string
+      sources:
+        type: array
+      confidence:
+        type: number
+      modelId:
+        type: string
+      generatedAt:
+        type: string
+    dataAccess:
+      - feed_questions
+      - feed_answers
+      - llm_inference_log
+    purpose: llm_assisted_response
+    retentionClass: transactional_long_lived
+    idempotency: true
+
+  - pluginId: feed
+    command: feed.question.answer.rate
+    version: 1.0.0
+    description: Rate an LLM-generated or community answer for quality feedback.
+    inputSchema:
+      answerId:
+        type: string
+        required: true
+      rating:
+        type: string
+        enum: [helpful, not_helpful, flagged]
+        required: true
+    outputSchema:
+      answerId:
+        type: string
+      ratedAt:
+        type: string
+    dataAccess:
+      - feed_answer_ratings
+    purpose: llm_quality_feedback
+    retentionClass: transactional_long_lived
+    idempotency: true
+
+  # ─── Channel: Community Support ─────────────────────────────────────────
+  - pluginId: feed
+    command: feed.community.post.create
+    version: 1.0.0
+    description: Create a community support post visible in the feed community channel.
+    inputSchema:
+      body:
+        type: string
+        required: true
+      category:
+        type: string
+        enum: [general, peer_support, resource_share, event]
+        required: false
+    outputSchema:
+      postId:
+        type: string
+      status:
+        type: string
+      createdAt:
+        type: string
+    dataAccess:
+      - feed_community_posts
+      - feed_items
+    purpose: community_engagement
+    retentionClass: transactional_long_lived
+    idempotency: false
+
+  - pluginId: feed
+    command: feed.community.post.reply
+    version: 1.0.0
+    description: Reply to a community support post.
+    inputSchema:
+      postId:
+        type: string
+        required: true
+      body:
+        type: string
+        required: true
+    outputSchema:
+      replyId:
+        type: string
+      createdAt:
+        type: string
+    dataAccess:
+      - feed_community_replies
+      - feed_community_posts
+    purpose: community_engagement
+    retentionClass: transactional_long_lived
+    idempotency: false
+
+  # ─── Admin / Governance ─────────────────────────────────────────────────
+  - pluginId: feed
     command: feed.admin.config.update
     version: 1.0.0
-    description: Update feed rendering and announcement display settings.
+    description: Update feed rendering, channel display, and governance settings.
     inputSchema:
       renderMode:
         type: string
@@ -98,6 +413,9 @@ contracts:
       maxTimelinePageSize:
         type: integer
         required: true
+      enabledChannels:
+        type: array
+        required: false
     outputSchema:
       config:
         type: object

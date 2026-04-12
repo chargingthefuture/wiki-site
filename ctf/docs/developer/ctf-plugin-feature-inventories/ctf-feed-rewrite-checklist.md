@@ -72,16 +72,54 @@
   - Acceptance criteria:
     - Admin can configure rendering, publish/archive items, and review change history.
 
-## Phase 4 — Android Follow-Up (Tracked)
+## Phase 4 — Questions Channel and LLM Integration
 
-- [ ] Create Android parity follow-up ticket.
+- [x] Implement `feed_questions`, `feed_answers`, `feed_answer_ratings`, and `llm_inference_log` schema.
   - Acceptance criteria:
-    - Ticket includes owner, milestone, and risk of deferment.
-- [ ] Define Android parity scope for critical Feed outcomes.
+    - Tables use `CREATE TABLE IF NOT EXISTS` + `ALTER TABLE ... ADD COLUMN IF NOT EXISTS` per migration rules.
+- [x] Implement `feed.question.submit` API and command flow.
   - Acceptance criteria:
-    - Membership-aware visibility and announcement rendering parity outcomes are listed.
+    - Questions are persisted to Postgres, visible in unified timeline, and audited.
+- [x] Implement `feed.question.answer.generate` LLM inference pipeline.
+  - Acceptance criteria:
+    - LLM call is logged in `llm_inference_log`; model ID, latency, and token counts are tracked.
+    - Consent scope `llm_processing` is verified before inference.
+- [x] Implement `feed.question.answer.rate` endpoint.
+  - Acceptance criteria:
+    - Users can rate LLM answers; ratings are audited and feed back into quality metrics.
+- [x] Implement questions channel tab/filter in web timeline UI.
+  - Acceptance criteria:
+    - Timeline can filter to questions-only view; LLM answers render inline.
 
-## Phase 5 — Security, Compliance, and Hardening
+## Phase 5 — Community Support Channel
+
+- [x] Implement `feed_community_posts` and `feed_community_replies` schema.
+  - Acceptance criteria:
+    - Tables use guarded DDL per migration rules.
+- [x] Implement `feed.community.post.create` and `feed.community.post.reply` API flows.
+  - Acceptance criteria:
+    - Posts and replies are persisted, visible in timeline, and audited.
+    - Content moderation policies are enforced per access contracts.
+- [x] Implement community channel tab/filter in web timeline UI.
+  - Acceptance criteria:
+    - Timeline can filter to community-only view.
+
+## Phase 6 — Android Parity (Required)
+
+- [ ] Implement Android feed timeline with three-channel support.
+  - Acceptance criteria:
+    - Announcements, questions, and community posts render with correct visibility and read/dismiss states.
+- [ ] Implement Android LLM Q&A flow.
+  - Acceptance criteria:
+    - Question submission, LLM answer display, and answer rating work on Android.
+- [ ] Implement Android community support flow.
+  - Acceptance criteria:
+    - Community post creation and reply work on Android.
+- [ ] Validate Android parity against `plugin-parity-contracts.json`.
+  - Acceptance criteria:
+    - All three channels pass parity validation; no web-only gaps remain.
+
+## Phase 7 — Security, Compliance, and Hardening
 
 - [x] Validate policy enforcement and CSRF coverage.
   - Acceptance criteria:
@@ -124,3 +162,5 @@
 
 - 2026-02-24: Created initial Feed rewrite checklist with approved web-first policy, central admin page decision, naming normalization/alias guidance, Postgres+Stream architecture controls, stream quota-impact gate, and schema drift predeployment evidence requirements.
 - 2026-03-02: Completed phase-0 implementation for combined feed+announcements stream, including migration, API routes, policy/audit guards, admin surface, seed fixtures, and quota-impact note.
+- 2026-04-05: Added Phase 4 (Questions + LLM), Phase 5 (Community Support), Phase 6 (Android Parity — required). Renumbered security/compliance to Phase 7. All commands now use unified `feed.*` namespace per FEED_PLUGIN_COMMAND_CONTRACTS.yaml.
+- 2026-04-05: Implemented the unified three-channel web runtime for Feed, including questions, LLM-assisted answers with audit logging, community support posts/replies, and mobile parity shell directories for `feed`, `announcements`, `questions`, and `community`.

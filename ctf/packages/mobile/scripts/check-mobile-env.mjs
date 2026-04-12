@@ -27,6 +27,13 @@ function requireVar(key) {
   }
 }
 
+function requireAuthPublishableKey(target) {
+  requireOneOf(`mobile auth publishable key (${target})`, [
+    `MOBILE_AUTH_PUBLISHABLE_KEY_${target}`,
+    `MOBILE_CLERK_PUBLISHABLE_KEY_${target}`,
+  ]);
+}
+
 function parseUrl(value) {
   if (!value) {
     return null;
@@ -42,6 +49,8 @@ function parseUrl(value) {
 requireOneOf('mobile project id', ['EXPO_MOBILE_PROJECT_ID', 'MOBILE_PROJECT_ID']);
 requireOneOf('mobile updates url', ['EXPO_MOBILE_UPDATES_URL', 'MOBILE_UPDATES_URL']);
 requireVar('MOBILE_APP_URL');
+requireVar('MOBILE_CTF_USER_ID');
+requireVar('MOBILE_CTF_USERNAME');
 
 const mobileAppUrl = process.env.MOBILE_APP_URL;
 const parsedMobileAppUrl = parseUrl(mobileAppUrl);
@@ -63,10 +72,22 @@ if (!parsedMobileAppUrl) {
 }
 
 if (profile === 'production') {
-  requireVar('MOBILE_CLERK_PUBLISHABLE_KEY_PRODUCTION');
+  requireAuthPublishableKey('PRODUCTION');
   requireVar('EXPO_OWNER');
 } else {
-  requireVar('MOBILE_CLERK_PUBLISHABLE_KEY_STAGING');
+  requireAuthPublishableKey('STAGING');
+}
+
+const normalizedRole = String(process.env.MOBILE_CTF_USER_ROLE || 'member').toLowerCase();
+if (!['member', 'admin'].includes(normalizedRole)) {
+  console.error(`MOBILE_CTF_USER_ROLE must be member or admin. Received: ${process.env.MOBILE_CTF_USER_ROLE}`);
+  process.exitCode = 1;
+}
+
+const normalizedApproved = String(process.env.MOBILE_CTF_USER_APPROVED || 'approved').toLowerCase();
+if (!['1', 'true', 'yes', 'approved', '0', 'false', 'no', 'denied'].includes(normalizedApproved)) {
+  console.error(`MOBILE_CTF_USER_APPROVED must be a boolean-like value. Received: ${process.env.MOBILE_CTF_USER_APPROVED}`);
+  process.exitCode = 1;
 }
 
 if (process.exitCode && process.exitCode !== 0) {

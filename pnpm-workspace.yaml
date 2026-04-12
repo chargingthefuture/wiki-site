@@ -1,0 +1,6 @@
+packages:
+  - "ctf/packages/*"
+  - "landing-page"
+  - "platform"
+  - "waitlist-landing-page"
+  - "wiki-blog"

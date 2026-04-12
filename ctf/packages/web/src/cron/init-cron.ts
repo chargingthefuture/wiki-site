@@ -1,5 +1,3 @@
-import { scheduleWorkforceSyncCron } from './workforce-sync';
-
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 let cronTasks: any[] = [];
 let cronInitialized = false;
@@ -7,6 +5,13 @@ let cronInitialized = false;
 export async function initializeCronJobs(): Promise<void> {
   // Guard: Only initialize once, only in nodejs runtime (not edge)
   if (cronInitialized || process.env.NEXT_RUNTIME !== 'nodejs') {
+    return;
+  }
+
+  if (
+    process.env.NEXT_PHASE === 'phase-production-build'
+    || process.env.CTF_SKIP_SENTRY_NEXTJS === '1'
+  ) {
     return;
   }
 
@@ -21,6 +26,7 @@ export async function initializeCronJobs(): Promise<void> {
       return;
     }
 
+    const { scheduleWorkforceSyncCron } = await import('./workforce-sync');
     const workforceSyncTask = await scheduleWorkforceSyncCron();
     cronTasks.push(workforceSyncTask);
 

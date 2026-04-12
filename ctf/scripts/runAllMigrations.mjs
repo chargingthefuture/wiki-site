@@ -1,3 +1,4 @@
+/* eslint-env node */
 #!/usr/bin/env node
 
 import fs from 'node:fs/promises';
@@ -32,46 +33,31 @@ function parseArgs(argv) {
   return args;
 }
 
-async function findMigrations(migrationsDir) {
-  const entries = await fs.readdir(migrationsDir, { withFileTypes: true });
-
-  return entries
-    .filter((entry) => entry.isFile() && entry.name.endsWith('.sql'))
-    .map((entry) => path.join(migrationsDir, entry.name))
-    .sort((a, b) => a.localeCompare(b));
+function resolveSchemaPath(fileArg) {
+  return path.resolve(process.cwd(), fileArg || './schema.sql');
 }
 
-async function runMigrations({ migrationPaths, databaseUrl }) {
+async function applySchema({ schemaPath, databaseUrl }) {
+  const sql = await fs.readFile(schemaPath, 'utf8');
   const pool = new Pool({
     connectionString: databaseUrl,
     ssl: { rejectUnauthorized: false },
   });
 
-  const client = await pool.connect();
   try {
-    for (const migrationPath of migrationPaths) {
-      const sql = await fs.readFile(migrationPath, 'utf8');
-      await client.query(sql);
-      console.log(`Migration applied: ${migrationPath}`);
-    }
+    await pool.query(sql);
   } finally {
-    client.release();
     await pool.end();
   }
 }
 
 async function main() {
   const args = parseArgs(process.argv.slice(2));
-  const migrationsDir = path.resolve(process.cwd(), args.dir || './migrations');
+  const schemaPath = resolveSchemaPath(args.file);
   const databaseUrl = requireEnv('DATABASE_URL');
 
-  const migrationPaths = await findMigrations(migrationsDir);
-  if (migrationPaths.length === 0) {
-    throw new Error(`No SQL migration files found in: ${migrationsDir}`);
-  }
-
-  await runMigrations({ migrationPaths, databaseUrl });
-  console.log(`Applied ${migrationPaths.length} migration(s) from ${migrationsDir}`);
+  await applySchema({ schemaPath, databaseUrl });
+  console.log(`Schema applied: ${schemaPath}`);
 }
 
 main().catch((error) => {

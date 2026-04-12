@@ -1,0 +1,32 @@
+export const FEED_PLUGIN_ID = 'feed';
+export const ANNOUNCEMENTS_PLUGIN_ID = 'announcements';
+
+export const FEED_ERROR_CODE = {
+  invalidPayload: 'FEED_INVALID_PAYLOAD',
+  notFound: 'FEED_NOT_FOUND',
+  conflict: 'FEED_CONFLICT',
+  persistenceUnavailable: 'FEED_PERSISTENCE_UNAVAILABLE',
+  csrfDenied: 'FEED_CSRF_DENIED',
+  dismissNotAllowed: 'FEED_DISMISS_NOT_ALLOWED',
+  rateLimitExceeded: 'FEED_RATE_LIMIT_EXCEEDED',
+  consentRequired: 'FEED_LLM_CONSENT_REQUIRED',
+  llmUnavailable: 'FEED_LLM_UNAVAILABLE',
+  answerNotFound: 'FEED_ANSWER_NOT_FOUND',
+  postNotFound: 'FEED_COMMUNITY_POST_NOT_FOUND',
+  moderationRejected: 'FEED_CONTENT_POLICY_VIOLATION',
+} as const;
+
+export const FEED_DEFAULT_PAGE = 1;
+export const FEED_DEFAULT_PAGE_SIZE = 20;
+export const FEED_MAX_PAGE_SIZE = 100;
+
+export const FEED_MAX_TITLE_LENGTH = 160;
+export const FEED_MAX_BODY_LENGTH = 4000;
+export const FEED_MAX_QUESTION_LENGTH = 600;
+export const FEED_MAX_COMMUNITY_POST_LENGTH = 1200;
+export const FEED_MAX_COMMUNITY_REPLY_LENGTH = 800;
+
+export const FEED_ALLOWED_CHANNELS = ['announcements', 'questions', 'community'] as const;
+export const FEED_QUESTION_CATEGORIES = ['housing', 'services', 'general', 'safety', 'benefits'] as const;
+export const FEED_COMMUNITY_CATEGORIES = ['general', 'peer_support', 'resource_share', 'event'] as const;
+export const FEED_ANSWER_RATINGS = ['helpful', 'not_helpful', 'flagged'] as const;

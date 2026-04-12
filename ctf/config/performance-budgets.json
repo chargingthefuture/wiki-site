@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "profile": "balanced",
+    "ciOverhead": "low",
+    "gatingMode": "warning"
+  },
+  "web": {
+    "nextBuildDir": "packages/web/.next",
+    "budgets": {
+      "jsBytes": {
+        "warningMax": 3670016,
+        "blockMax": 4718592
+      },
+      "cssBytes": {
+        "warningMax": 524288,
+        "blockMax": 786432
+      }
+    }
+  },
+  "android": {
+    "exportDir": "packages/mobile/dist/android",
+    "budgets": {
+      "totalBytes": {
+        "warningMax": 15728640,
+        "blockMax": 23068672
+      },
+      "jsBundleBytes": {
+        "warningMax": 6291456,
+        "blockMax": 9437184
+      }
+    }
+  }
+}

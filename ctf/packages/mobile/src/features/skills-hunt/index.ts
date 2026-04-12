@@ -1,1 +1,1 @@
-export { MockSkillsHunt as SkillsHunt } from './MockSkillsHunt';
+export { SkillsHunt } from './SkillsHunt';

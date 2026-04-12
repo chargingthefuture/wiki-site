@@ -1,1 +1,1 @@
-export { MockFoundation as Foundation } from './MockFoundation';
+export { Foundation } from './Foundation';

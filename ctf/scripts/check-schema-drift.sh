@@ -47,7 +47,7 @@ else
 fi
 
 db_impacting_changed=false
-migration_sql_changed=false
+schema_sql_changed=false
 seed_changed=false
 contract_changed=false
 versioning_note_changed=false
@@ -106,8 +106,9 @@ for file in "${files[@]}"; do
     keyword_db_eligible=false
   fi
 
-  if [[ "$file" =~ ^ctf/migrations/ ]]; then
+  if [[ "$file" == "ctf/schema.sql" ]]; then
     db_impacting_changed=true
+    schema_sql_changed=true
   fi
 
   if [[ "$keyword_db_eligible" == true && "$file_lc" =~ schema|migration|drizzle|sql ]]; then
@@ -118,10 +119,6 @@ for file in "${files[@]}"; do
     if [[ ! "$file" =~ (^|/)(docs?|tests?|__tests__|testing)(/|$) ]]; then
       db_impacting_changed=true
     fi
-  fi
-
-  if [[ "$file" =~ ^ctf/migrations/.*\.sql$ ]]; then
-    migration_sql_changed=true
   fi
 
   if [[ "$file" =~ ^ctf/scripts/ ]] && [[ "$file_lc" =~ seed ]]; then
@@ -152,18 +149,18 @@ done
 
 failed=0
 
-if [[ "$db_impacting_changed" == true && "$migration_sql_changed" != true ]]; then
-  echo "Schema drift gate failed: DB-impacting changes detected without a migration SQL change in ctf/migrations/." >&2
+if [[ "$db_impacting_changed" == true && "$schema_sql_changed" != true ]]; then
+  echo "Schema drift gate failed: DB-impacting changes detected without an accompanying change to ctf/schema.sql." >&2
   failed=1
 fi
 
-if [[ "$seed_changed" == true && "$migration_sql_changed" != true ]]; then
-  echo "Schema drift gate failed: seed-related changes require a migration SQL change (seed/schema blocker policy)." >&2
+if [[ "$seed_changed" == true && "$schema_sql_changed" != true ]]; then
+  echo "Schema drift gate failed: seed-related changes require an accompanying change to ctf/schema.sql (seed/schema blocker policy)." >&2
   failed=1
 fi
 
-if [[ "$contract_changed" == true && "$migration_sql_changed" != true && "$versioning_note_changed" != true ]]; then
-  echo "Schema drift gate failed: contract/schema command or policy changes require versioning evidence (ctf/docs/developer/**, .github/instructions/122-schema-drift-predeployment-rules.mdc, or a migration SQL change)." >&2
+if [[ "$contract_changed" == true && "$schema_sql_changed" != true && "$versioning_note_changed" != true ]]; then
+  echo "Schema drift gate failed: contract/schema command or policy changes require versioning evidence (ctf/docs/developer/**, .github/instructions/122-schema-drift-predeployment-rules.mdc, or a ctf/schema.sql change)." >&2
   failed=1
 fi
 
@@ -172,8 +169,8 @@ if [[ "$contract_schema_failed" == true ]]; then
 fi
 
 if [[ "$failed" -ne 0 ]]; then
-  echo "Summary: db_impacting_changed=$db_impacting_changed migration_sql_changed=$migration_sql_changed seed_changed=$seed_changed contract_changed=$contract_changed versioning_note_changed=$versioning_note_changed" >&2
+  echo "Summary: db_impacting_changed=$db_impacting_changed schema_sql_changed=$schema_sql_changed seed_changed=$seed_changed contract_changed=$contract_changed versioning_note_changed=$versioning_note_changed" >&2
   exit 1
 fi
 
-echo "Schema drift gate passed: db_impacting_changed=$db_impacting_changed migration_sql_changed=$migration_sql_changed seed_changed=$seed_changed contract_changed=$contract_changed versioning_note_changed=$versioning_note_changed"
+echo "Schema drift gate passed: db_impacting_changed=$db_impacting_changed schema_sql_changed=$schema_sql_changed seed_changed=$seed_changed contract_changed=$contract_changed versioning_note_changed=$versioning_note_changed"

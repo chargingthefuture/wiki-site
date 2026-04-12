@@ -1,3 +1,7 @@
+# DEPRECATED (2026-04-05): All announcement audit events are now under the unified
+# feed.* namespace in FEED_PLUGIN_AUDIT_CONTRACTS.yaml.
+# This file is retained for historical reference only.
+
 auditEvents:
   - eventId: uuid
     timestamp: rfc3339

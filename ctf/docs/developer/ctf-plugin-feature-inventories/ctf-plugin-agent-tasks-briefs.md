@@ -8,14 +8,14 @@ Dispatch note:
 
 - This repository is a fresh-start rewrite from boilerplate. Do not assume prior plugin implementation exists unless explicitly stated in a prompt.
 - Baseline foundation prompts are mandatory before broad plugin parallelization.
-- Required baseline order: Clerk integration → Railway deployment baseline → Vercel deployment integration → Expo deployment baseline.
+- Required baseline order: auth integration → Railway deployment baseline → Vercel deployment integration → Expo deployment baseline.
 - Mandatory for every prompt in this document: before implementation, the agent must ask clarifying questions until requirements are unambiguous, wait for answers, and then proceed.
 - Mandatory for every prompt in this document: scaffold-only output is not acceptable; agent must either deliver completion-grade implementation evidence or provide an explicit blocked-by list with owner and date.
 - Completion-status reconciliation rule: before marking any phase complete, verify both handoff docs and assignment matrix status are aligned; if they differ, mark as "needs reconciliation" and resolve before next dispatch.
 
 ---
 
-## Prompt BF-01 — `agent-bf-01-clerk-foundation`
+## Prompt BF-01 — `agent-bf-01-auth-foundation`
 
 ```text
 Read this first: #file:index.mdc
@@ -26,12 +26,12 @@ Then read:
 - #file:.github/instructions/103-web-nextjs-structure-rules.mdc
 - #file:ctf/README.md
 
-You are `agent-bf-01-clerk-foundation` working only under `ctf/`.
+You are `agent-bf-01-auth-foundation` working only under `ctf/`.
 Start gate:
 - Baseline Phase -1A — start immediately.
 
 Scope:
-- Implement Clerk as the sole identity provider baseline for web (App Router structure + server-side authz checks).
+- Implement a provider-neutral auth baseline for web (App Router structure + server-side authz checks) while preserving the current env contract.
 - Establish deterministic environment contract documentation for local, Railway staging/production, and Vercel staging frontend integration.
 - Ensure protected route policy behavior and deny taxonomy are documented for plugin routes to consume.
 

@@ -1,10 +1,6 @@
-import type { AllowDecision } from '@/src/lib/auth/server-authz';
-import { pluginAuthDeny, type PluginDenyResponse } from '@/src/lib/auth/deny-taxonomy';
-
-export function ensurePeerProgrammingAdmin(auth: AllowDecision): PluginDenyResponse | null {
-  if (auth.isAdmin) {
-    return null;
-  }
-
-  return pluginAuthDeny.forbiddenRole(['admin']);
+// Policy logic for Peer Programming plugin
+// Placeholder for access control, role checks, etc.
+export function canJoinCohort(userId: string, cohort: any): boolean {
+  // TODO: Implement real policy logic
+  return cohort.joinable;
 }

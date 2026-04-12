@@ -1,3 +1,7 @@
+# DEPRECATED (2026-04-05): All announcement commands are now under the unified
+# feed.* namespace in FEED_PLUGIN_COMMAND_CONTRACTS.yaml.
+# This file is retained for historical reference only.
+
 contracts:
   - pluginId: announcements
     command: announcements.draft.create
