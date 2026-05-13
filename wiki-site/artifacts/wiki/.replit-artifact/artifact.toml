@@ -1,8 +1,8 @@
 kind = "web"
 previewPath = "/"
-title = "Charging The Future Blog"
+title = "Charging The Future Wiki"
 version = "1.0.0"
-id = "artifacts/blog"
+id = "artifacts/wiki"
 router = "path"
 
 [[integratedSkills]]
@@ -15,11 +15,11 @@ paths = [ "/" ]
 localPort = 24722
 
 [services.development]
-run = "pnpm --filter @workspace/blog run dev"
+run = "pnpm --filter @workspace/wiki run dev"
 
 [services.production]
-build = [ "pnpm", "--filter", "@workspace/blog", "run", "build" ]
-publicDir = "artifacts/blog/dist/public"
+build = [ "pnpm", "--filter", "@workspace/wiki", "run", "build" ]
+publicDir = "artifacts/wiki/dist/public"
 serve = "static"
 
 [[services.production.rewrites]]

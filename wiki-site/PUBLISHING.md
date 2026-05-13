@@ -31,7 +31,7 @@ This document is the operator runbook for every publishing scenario.
 
 4. Build and deploy:
    ```bash
-   pnpm blog:build        # output → artifacts/blog/dist/public/
+   pnpm wiki:build        # output → artifacts/wiki/dist/public/
    ```
 
 ---
@@ -164,7 +164,7 @@ pnpm blog:build:pages     # GitHub Pages build with /chargingthefuture/ base pat
 
 Deploy `artifacts/blog/dist/public/` to:
 
-- **Railway**: configured in `railway.toml` — `railway up` from within `artifacts/blog/`.
+- **Railway**: configured in `railway.toml` — `railway up` from within `artifacts/wiki/`.
 - **GitHub Pages**: use the workflow in [.github/workflows/deploy-blog-gh-pages.yml](../.github/workflows/deploy-blog-gh-pages.yml).
 
 ### GitHub Pages Setup
@@ -218,7 +218,7 @@ Right now that validation workflow runs on `v3` pushes and on pull requests that
 Images in converted posts may not display correctly. Use this checklist:
 
 - **Quora images**: Quora CDN links expire. Download important images and re-host them:
-  - In `artifacts/blog/public/images/` for self-hosted blog images.
+  - In `artifacts/wiki/public/images/` for self-hosted wiki images.
   - Or a permanent external host (GitHub Issues attachment, Cloudinary, etc.).
 - **Discourse images**: Same — save and re-upload to a permanent host.
 - **Markdown reference**: `![Alt text](/images/my-image.png)` for self-hosted, or absolute URL for external.

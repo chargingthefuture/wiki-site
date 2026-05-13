@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Reads content-index.yaml and regenerates artifacts/blog/src/lib/articles.ts.
+ * Reads content-index.yaml and regenerates artifacts/wiki/src/lib/articles.ts.
  * Articles are sorted by date descending (newest first).
  *
  * Usage:
@@ -17,7 +17,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const BLOG_ROOT = resolve(__dirname, '../..');
 const WIKI_ROOT = resolve(BLOG_ROOT, '../wiki');
 const CONTENT_INDEX = resolve(BLOG_ROOT, 'content-index.yaml');
-const ARTICLES_TS = resolve(BLOG_ROOT, 'artifacts/blog/src/lib/articles.ts');
+const ARTICLES_TS = resolve(BLOG_ROOT, 'artifacts/wiki/src/lib/articles.ts');
 const isDryRun = process.argv.includes('--dry-run');
 const DEFAULT_INFERRED_DATE = '2026-01-01';
 const FOLDER_CATEGORY_MAP: Record<string, string> = {

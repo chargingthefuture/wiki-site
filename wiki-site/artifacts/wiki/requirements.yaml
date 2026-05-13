@@ -7,10 +7,10 @@ packages:
   "tailwind-merge": "Utility to merge tailwind classes safely"
 
 images:
-  - path: "artifacts/blog/public/images/hero-bg.png"
+  - path: "artifacts/wiki/public/images/hero-bg.png"
     description: "Dark gritty comic book style cityscape in ruins, heavy black ink outlines, blood red skies, halftone dots, high contrast survival aesthetic, graphic novel style"
     aspect_ratio: "16:9"
-  - path: "artifacts/blog/public/images/logo-mark.png"
+  - path: "artifacts/wiki/public/images/logo-mark.png"
     description: "Bold graffiti style survival emblem logo in blood red and black, stencil art, distressed texture, circular"
     aspect_ratio: "1:1"
 
