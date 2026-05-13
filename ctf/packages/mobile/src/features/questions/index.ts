@@ -1,1 +1,0 @@
-export { MockQuestions as Questions } from './MockQuestions';

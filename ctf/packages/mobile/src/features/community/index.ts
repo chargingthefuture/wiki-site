@@ -1,1 +1,0 @@
-export { MockCommunity as Community } from './MockCommunity';

@@ -1,1 +1,0 @@
-export { SkillsTaxonomy } from './SkillsTaxonomy';

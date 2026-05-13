@@ -1,0 +1,80 @@
+name: Deploy Blog to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "wiki-site/**"
+      - ".github/workflows/deploy-wiki-gh-pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages-wiki
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build Pages artifact
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: wiki-site
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - uses: pnpm/action-setup@v4
+        with:
+          package_json_file: wiki-site/package.json
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Validate content index
+        run: pnpm wiki:validate
+
+      - name: Sync article registry
+        run: pnpm wiki:sync
+
+      - name: Ensure generated articles.ts is committed
+        run: |
+          if ! git diff --exit-code -- artifacts/wiki/src/lib/articles.ts; then
+            echo "articles.ts is out of sync with content-index.yaml"
+            echo "Run 'pnpm wiki:sync' locally and commit the result."
+            exit 1
+          fi
+
+      - name: Build for GitHub Pages
+        run: pnpm wiki:build:pages
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: wiki-site/artifacts/wiki/dist/public
+
+  deploy:
+    name: Deploy to Pages
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

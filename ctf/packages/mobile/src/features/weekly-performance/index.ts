@@ -1,1 +1,0 @@
-export { WeeklyPerformance } from './WeeklyPerformance';
