@@ -1,4 +1,4 @@
-name: Deploy Blog to GitHub Pages
+name: Deploy Wiki to GitHub Pages
 
 on:
   push:
