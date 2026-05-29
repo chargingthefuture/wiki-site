@@ -700,3 +700,9 @@ articles:
     date: "2026-05-29"
     excerpt: Directory and chat interface refinements now live
     category: Updates
+  - slug: Product-Update-2026-05-29-Blog-Publishing-Infrastructure
+    title: Blog publishing is now faster and more reliable
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-05-29"
+    excerpt: Blog publishing is now faster and more reliable
+    category: Updates
