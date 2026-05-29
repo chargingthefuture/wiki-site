@@ -3,10 +3,10 @@
 # To ADD a new post:
 #   1. Push the markdown file to GitHub Wiki at the slug URL.
 #   2. Add an entry below (slug, title, repo, date, excerpt, category).
-#   3. pnpm blog:validate
-#   4. pnpm blog:sync
-#   5. pnpm blog:preview  — check it renders correctly
-#   6. pnpm blog:build    — produce deployable static files
+#   3. pnpm wiki:validate
+#   4. pnpm wiki:sync
+#   5. pnpm wiki:preview  — check it renders correctly
+#   6. pnpm wiki:build    — produce deployable static files
 #
 # For large Quora / Discourse imports see PUBLISHING.md first.
 #

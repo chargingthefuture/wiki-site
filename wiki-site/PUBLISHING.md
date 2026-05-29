@@ -1,16 +1,18 @@
-# Publishing Workflow — Charging The Future Wiki Blog
+# Publishing Workflow — Charging The Future Wiki Site
 
-All blog posts are fetched live from the **GitHub Wiki** and declared in `content-index.yaml`.  
+All posts are fetched live from the **GitHub Wiki** and declared in `content-index.yaml`.
 This document is the operator runbook for every publishing scenario.
+
+Run all `pnpm` commands from the `wiki-site/` directory.
 
 ---
 
 ## Quick-Add (Single Off-Hand Post)
 
-1. Write or edit the page directly in [GitHub Wiki](https://github.com/chargingthefuture/chargingthefuture/wiki).  
+1. Write or edit the page directly in [GitHub Wiki](https://github.com/chargingthefuture/chargingthefuture/wiki).
    The URL slug (`My-Page-Title`) becomes the `slug` field.
 
-2. Add an entry to `content-index.yaml`:
+2. Add an entry to `content-index.yaml` (under the `articles:` key):
 
    ```yaml
    - slug: "My-Page-Title"
@@ -24,15 +26,30 @@ This document is the operator runbook for every publishing scenario.
 3. Validate, sync, and preview:
 
    ```bash
-   pnpm blog:validate
-   pnpm blog:sync
-   pnpm blog:preview      # http://localhost:5000
+   pnpm wiki:validate
+   pnpm wiki:sync
+   pnpm wiki:preview      # http://localhost:5000
    ```
 
-4. Build and deploy:
-   ```bash
-   pnpm wiki:build        # output → artifacts/wiki/dist/public/
-   ```
+4. Commit `content-index.yaml` + `artifacts/wiki/src/lib/articles.ts` and push to `main`.
+   The deploy workflow publishes automatically (see Deploy below).
+
+---
+
+## Automated Product Updates
+
+Product updates are generated and published automatically by the
+`generate-product-update.yml` workflow in the **product repo**
+(`chargingthefuture/chargingthefuture`). On its schedule it:
+
+1. Generates the update via the Anthropic API (key from Infisical).
+2. Posts to the in-app feed.
+3. Commits the markdown page to the GitHub Wiki.
+4. Appends the registry entry to this repo's `content-index.yaml`, runs `wiki:sync`,
+   commits, and pushes — which triggers the deploy here.
+5. Opens a `quora-draft` GitHub issue with copy-paste body for Quora.
+
+No manual step is required for these. Manual quick-add (above) remains for one-off posts.
 
 ---
 
@@ -46,12 +63,12 @@ This document is the operator runbook for every publishing scenario.
 3. Run the converter (from `wiki-site`):
 
    ```bash
-   pnpm blog:convert:quora /tmp/quora-export /tmp/quora-md --category=Stories
+   pnpm wiki:convert:quora /tmp/quora-export /tmp/quora-md --category=Stories
    ```
 
    - If Quora gives you a single `answers.html` file, pass that directly:
      ```bash
-     pnpm blog:convert:quora /tmp/quora-export/answers.html /tmp/quora-md
+     pnpm wiki:convert:quora /tmp/quora-export/answers.html /tmp/quora-md
      ```
 
 4. Review the generated `.md` files — fix slugs, clean up any formatting artefacts.
@@ -74,9 +91,9 @@ This document is the operator runbook for every publishing scenario.
 
 7. Validate, sync, preview:
    ```bash
-   pnpm blog:validate
-   pnpm blog:sync
-   pnpm blog:preview
+   pnpm wiki:validate
+   pnpm wiki:sync
+   pnpm wiki:preview
    ```
 
 **Tips:**
@@ -101,7 +118,7 @@ You have saved your Discourse pages as HTML files (browser save or export tool).
 2. Run the converter (from `wiki-site`):
 
    ```bash
-   pnpm blog:convert:discourse /tmp/discourse-html /tmp/discourse-md --category=Community
+   pnpm wiki:convert:discourse /tmp/discourse-html /tmp/discourse-md --category=Community
    ```
 
 3. Review output — tables usually convert well; embedded images need manual fixing (see Media section below).
@@ -110,9 +127,9 @@ You have saved your Discourse pages as HTML files (browser save or export tool).
 
 5. Paste `_manifest.yaml` entries into `content-index.yaml`, then:
    ```bash
-   pnpm blog:validate
-   pnpm blog:sync
-   pnpm blog:preview
+   pnpm wiki:validate
+   pnpm wiki:sync
+   pnpm wiki:preview
    ```
 
 ---
@@ -147,10 +164,10 @@ Pages are then available at:
 Always run these before deploying:
 
 ```bash
-pnpm blog:validate        # fail-fast: checks metadata, duplicate slugs, dates
-pnpm blog:sync:dry        # preview: shows what would change in articles.ts (no writes)
-pnpm blog:sync            # apply: regenerates articles.ts from content-index.yaml
-pnpm blog:preview         # local dev server at http://localhost:5000
+pnpm wiki:validate        # fail-fast: checks metadata, duplicate slugs, dates
+pnpm wiki:sync:dry        # preview: shows what would change in articles.ts (no writes)
+pnpm wiki:sync            # apply: regenerates articles.ts from content-index.yaml
+pnpm wiki:preview         # local dev server at http://localhost:5000
 ```
 
 ---
@@ -158,18 +175,17 @@ pnpm blog:preview         # local dev server at http://localhost:5000
 ## Deploy
 
 ```bash
-pnpm blog:build           # produces static files in artifacts/blog/dist/public/
-pnpm blog:build:pages     # GitHub Pages build with /chargingthefuture/ base path + 404.html fallback
+pnpm wiki:build           # produces static files in artifacts/wiki/dist/public/
+pnpm wiki:build:pages     # GitHub Pages build with /chargingthefuture/ base path + 404.html fallback
 ```
 
-Deploy `artifacts/blog/dist/public/` to:
+Deploy `artifacts/wiki/dist/public/` to:
 
-- **Railway**: configured in `railway.toml` — `railway up` from within `artifacts/wiki/`.
-- **GitHub Pages**: use the workflow in [.github/workflows/deploy-blog-gh-pages.yml](../.github/workflows/deploy-blog-gh-pages.yml).
+- **GitHub Pages**: use the workflow in [.github/workflows/deploy-wiki-gh-pages.yml](../.github/workflows/deploy-wiki-gh-pages.yml).
 
 ### GitHub Pages Setup
 
-GitHub Pages is configured mostly in code now.
+GitHub Pages is configured mostly in code.
 
 You still need one setting in GitHub.com:
 
@@ -177,15 +193,15 @@ You still need one setting in GitHub.com:
 2. Go to **Pages**.
 3. Under **Build and deployment**, set **Source** to **GitHub Actions**.
 
-After that, pushes to `v3` that touch `wiki-site/**` will build and deploy automatically.
+After that, pushes to `main` that touch `wiki-site/**` build and deploy automatically.
 
 Notes:
 
-- The workflow builds with `BASE_PATH=/chargingthefuture/`, which matches the default repo Pages URL.
+- The workflow builds with `BASE_PATH=/chargingthefuture/` (set in the `wiki:build:pages` script).
+  The served site must live at that path — i.e. `https://chargingthefuture.github.io/chargingthefuture/`.
+  If you move to a custom domain or a different Pages path, update the `BASE_PATH` in the
+  `wiki:build:pages` script in [wiki-site/package.json](package.json).
 - It also copies `index.html` to `404.html` so deep links like `/article/...` still work on GitHub Pages.
-- For now, deployment is intentionally tied to `v3` because `main` still serves the legacy app.
-- Later, change the branch filter in [.github/workflows/deploy-blog-gh-pages.yml](../.github/workflows/deploy-blog-gh-pages.yml) from `v3` to `main`.
-- If you later move to a custom domain or user/org Pages site, update the `blog:build:pages` script in [wiki-site/package.json](package.json).
 
 ### Validation Workflow
 
@@ -198,7 +214,8 @@ Validation means these CI checks run without publishing anything:
 - TypeScript typecheck
 - production build verification
 
-Right now that validation workflow runs on `v3` pushes and on pull requests that touch `wiki-site/**`.
+It runs on `main` pushes and on pull requests that touch `wiki-site/**`. See
+[.github/workflows/wiki-validate.yml](../.github/workflows/wiki-validate.yml).
 
 ---
 
@@ -206,10 +223,10 @@ Right now that validation workflow runs on `v3` pushes and on pull requests that
 
 | Scenario                          | Fix                                                                                   |
 | --------------------------------- | ------------------------------------------------------------------------------------- |
-| Bad entry in `content-index.yaml` | Remove/revert the entry, re-run `blog:sync`, rebuild.                                 |
+| Bad entry in `content-index.yaml` | Remove/revert the entry, re-run `wiki:sync`, rebuild.                                 |
 | Article renders badly             | Edit the wiki markdown page directly (no rebuild needed; the renderer fetches live).  |
-| Bad `articles.ts` committed       | `git revert` the commit that changed it, or re-run `blog:sync` after fixing the YAML. |
-| Bad deploy                        | Re-deploy the last good build, or re-run `blog:build` after reverting the source.     |
+| Bad `articles.ts` committed       | `git revert` the commit that changed it, or re-run `wiki:sync` after fixing the YAML. |
+| Bad deploy                        | Re-deploy the last good build, or re-run `wiki:build` after reverting the source.     |
 
 ---
 
@@ -222,7 +239,7 @@ Images in converted posts may not display correctly. Use this checklist:
   - Or a permanent external host (GitHub Issues attachment, Cloudinary, etc.).
 - **Discourse images**: Same — save and re-upload to a permanent host.
 - **Markdown reference**: `![Alt text](/images/my-image.png)` for self-hosted, or absolute URL for external.
-- **Test locally**: Run `pnpm blog:preview` and verify all images render before deploying. Broken images are silently hidden by the renderer.
+- **Test locally**: Run `pnpm wiki:preview` and verify all images render before deploying. Broken images are silently hidden by the renderer.
 
 ---
 
