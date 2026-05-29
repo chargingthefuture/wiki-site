@@ -22,6 +22,14 @@ export const ARTICLES: ArticleMeta[] = [
     category: "Updates"
   },
   {
+    slug: "Product-Update-2026-05-29-Chyme-Modularity-Lighthouse-Standards",
+    title: "Chyme gets modular, lighthouse passes web standards",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-05-29",
+    excerpt: "Chyme chat refactored for maintainability, web accessibility standards passed, GetStream dependencies removed.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-05-29-Directory-Chat-Refinements",
     title: "Directory and chat interface refinements now live",
     repo: "chargingthefuture/chargingthefuture",
@@ -920,6 +928,70 @@ export const ARTICLES: ArticleMeta[] = [
     category: "Services"
   },
   {
+    slug: "guides/chyme/Chyme:-TI-social-audio-app",
+    title: "TI Skills Economy Town Hall Room",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-01-01",
+    excerpt: "All members of the TI Skills Economy have access to Chyme, the dedicated Android app for social audio with other TIs. And you can host your own rooms!",
+    category: "Guides"
+  },
+  {
+    slug: "guides/getting-started",
+    title: "How to sign up for the TI Skills Economy in ~5 minutes",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-01-01",
+    excerpt: "1. Go to https://app.chargingthefuture.com and click \"Create Account.\" You are asked for your email address",
+    category: "Guides"
+  },
+  {
+    slug: "guides/lighthouse/hosting",
+    title: "Hosting in LightHouse",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-01-01",
+    excerpt: "Guides post from Charging The Future Wiki.",
+    category: "Guides"
+  },
+  {
+    slug: "guides/scoketrelay/classifed-ads-for-tis",
+    title: "The Classifieds Era Ended and What Replaced It, and What TIs Can Use Now",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-01-01",
+    excerpt: "Craigslist changed local commerce forever: one simple, free classifieds site that let people buy, sell, rent, hire, and swap with almost no friction. Three dec...",
+    category: "Guides"
+  },
+  {
+    slug: "guides/The-12-Services-of-the-TI-Skills-Economy",
+    title: "The 12 mini-apps (services) of the TI Skills Economy",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-01-01",
+    excerpt: "An interactive way to learn how each app assists survivors: https://www.chargingthefuture.com/look-ma-i-fixed-it",
+    category: "Guides"
+  },
+  {
+    slug: "guides/workforce-recruiter/inferring-occupations-from-skills",
+    title: "Inferring occupations from skills",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-01-01",
+    excerpt: "One of the features of Workforce Recruiter is that a survivor can list their skills, and the built-in algorithm will infer what occupations match those skills.",
+    category: "Guides"
+  },
+  {
+    slug: "insights/#49-of-how-TI-Skills-Network-helps-you-exit-the-psyop",
+    title: "#49 of how TI Skills Network helps you exit the psyop",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-01-01",
+    excerpt: "I have listed, with the help of Nat Morris, 50 things the Speceterati do as part of their torturing of humanity. And how the TI Skills Network “fixes” each one.",
+    category: "Insights"
+  },
+  {
+    slug: "insights/insights",
+    title: "Insights",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-01-01",
+    excerpt: "Money Laundering vs a Circular Economy",
+    category: "Insights"
+  },
+  {
     slug: "Home",
     title: "Charging The Future | Live, Work & Prevail",
     repo: "chargingthefuture/chargingthefuture",
@@ -927,6 +999,150 @@ export const ARTICLES: ArticleMeta[] = [
     excerpt: "An invite-only platform designed for human trafficking survivors, offering essential services and support with dignity, privacy, and respect.",
     category: "Foundation",
     featured: true
+  },
+  {
+    slug: "member of the day/looking-for-a-cyber-security-expert-meet-altehexer",
+    title: "Looking for a cyber security expert? Meet AlteHexer",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2025-12-12",
+    excerpt: "Showcasing AlteHexer, a cybersecurity expert. Why? The more we talk about our skills, the more we can interact with each other and exit the psyop. TI Skills Ec...",
+    category: "Member of the Day"
+  },
+  {
+    slug: "member of the day/looking-for-a-financial-advisor-meet-holly-d",
+    title: "Looking for a Financial Advisor? Meet Holly D",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2025-12-12",
+    excerpt: "Highlighting Holly D. Holly’s Directory profile: https://app.chargingthefuture.com/apps/directory/public/cf681670-b288-4b1d-b45d-c2a37b1984bf The goal of highl...",
+    category: "Member of the Day"
+  },
+  {
+    slug: "member of the day/looking-for-a-photographer-or-musician-lisa-jaramilo",
+    title: "Looking for a photographer or musician? Lisa Jaramilo",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2025-12-12",
+    excerpt: "Shout out to Lisa Jaramillo, a talented musician and photographer. It is upsetting that because of the Speceterati (gang stalkers), you have lost the ability t...",
+    category: "Member of the Day"
+  },
+  {
+    slug: "member of the day/meet-baba-yaga-business-management",
+    title: "Meet Baba Yaga, Business Management",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2025-12-12",
+    excerpt: "Highlighting Baba Yaga! Background in criminology and business management. Baba Yaga, I have added you to the TI Skills Economy Directory. Link below. If you w...",
+    category: "Member of the Day"
+  },
+  {
+    slug: "member of the day/welcome-cheryl-community-builder",
+    title: "Welcome Cheryl, Community builder",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2025-12-12",
+    excerpt: "Special shoutout to Cheryl J WILLIAMS \\nTI Skills Network profile: \\npsyop-free - Live, Work, Prevail \\nhttps://app.chargingthefuture.com/apps/directory/public...",
+    category: "Member of the Day"
+  },
+  {
+    slug: "member of the day/member-of-the-day-krissyy",
+    title: "Member of the Day: Krissyy",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2025-12-06",
+    excerpt: "Member of the Day: Krissyy\\nHello Krissyy, giving you a shout out as you were part of the first group of TIs to respond to early posts of mine about the TI eco...",
+    category: "Member of the Day"
+  },
+  {
+    slug: "member of the day/welcome-newcomers",
+    title: "Welcome newcomers",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2025-12-03",
+    excerpt: "I cannot do this without your participation. \\nWelcoming Carrie Wingo to the TI Skills Economy! \\nCarrie, if you have any questions, let me know. There is also...",
+    category: "Member of the Day"
+  },
+  {
+    slug: "member of the day/member-of-the-day-espada",
+    title: "Member of the Day: Espada",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2025-11-29",
+    excerpt: "Member of the Day: Espada\\nA special shout-out to Espada. He is one of the first people to join the community and offer his skills. He literally joined on Augu...",
+    category: "Member of the Day"
+  },
+  {
+    slug: "member of the day/member-of-the-day-alani",
+    title: "Member of the Day: Alani",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2025-10-31",
+    excerpt: "Member of the Day: Alani\\nSkill: manufacturing, first-aid &amp; CPR, home improvement, construction &amp; production.\\nAlani is the FIRST TI to join the Direct...",
+    category: "Member of the Day"
+  },
+  {
+    slug: "member of the day/welcome-new-members",
+    title: "Welcome new members!",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2025-10-21",
+    excerpt: "Welcome @MattMacBOS! Glad to have you here. You may Introduce Yourself if you like. If you have any questions. Reply here or you can DM me.",
+    category: "Member of the Day"
+  },
+  {
+    slug: "member of the day/about-the-member-of-the-day-category",
+    title: "About the Member of the Day category",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2025-10-20",
+    excerpt: "I’m excited to share insights about members I come across on Quora and other platforms. Every TI possesses unique skills that can contribute positively, especi...",
+    category: "Member of the Day"
+  },
+  {
+    slug: "member of the day/member-of-the-day-ione",
+    title: "Member of the Day: Ione",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2025-10-20",
+    excerpt: "Member of the Day: Ione\\nSkill: counselor\\nIone is a counselor, and as quoted: \\n“I speak the truth as I know it. I am willing to admit I’m wrong because I don...",
+    category: "Member of the Day"
+  },
+  {
+    slug: "member of the day/member-of-the-day-jason-singletons",
+    title: "Member of the Day: Jason Singletons",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2025-10-19",
+    excerpt: "Member of the Day: Jason Singletons\\nCTF Profile: https://app.chargingthefuture.com/apps/directory/public/5134f872-38b3-4870-815a-d90bb9f85e5f \\nQuora Profile:...",
+    category: "Member of the Day"
+  },
+  {
+    slug: "member of the day/welcome-new-users",
+    title: "Welcome new users!",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2025-10-05",
+    excerpt: "Welcome, in no particular order, @BRadhd, @Secretrituals, @MichaelNewmanEarth, and @snaveseer! \\nWe are glad you have joined the world’s first-ever TI economy!...",
+    category: "Member of the Day"
+  },
+  {
+    slug: "member of the day/list-view-of-all-the-tis-of-the-day",
+    title: "List view of all the TIs of the Day",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2025-10-03",
+    excerpt: "I created a “TI of the Day” list view within the forum: https://chargingthefuture.discourse.group/tag/ti-of-the-day This way, if you want to get to know the TI...",
+    category: "Member of the Day"
+  },
+  {
+    slug: "member of the day/rally-for-tag",
+    title: "Rally For... tag",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2025-10-03",
+    excerpt: "Rally for… view list \\nI created a new tag in the forum: “Rally for…” \\nWhy? I get it, we are all TIs, and the attacks are relentless every day. And we have ou...",
+    category: "Member of the Day"
+  },
+  {
+    slug: "member of the day/rally-for-tammy-walker",
+    title: "Rally for…Tammy Walker!",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2025-10-03",
+    excerpt: "Rally for…Tammy Walker! \\nIf you are a TI, you are NOT alone. If you are a TI, I will put myself out there; you can call me or message me. I prefer Signal Mess...",
+    category: "Member of the Day"
+  },
+  {
+    slug: "member of the day/member-of-the-day-brad-rice",
+    title: "Member of the Day: Brad Rice",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2025-09-25",
+    excerpt: "Member of the Day: Brad Rice\\nUpdated Quora profile link: https://www.quora.com/profile/BRadhd \\nSkill: mechanic\\nI think car sabotage is in the top three dest...",
+    category: "Member of the Day"
   },
 ];
 

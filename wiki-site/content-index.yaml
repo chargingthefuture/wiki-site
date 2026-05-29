@@ -706,3 +706,9 @@ articles:
     date: "2026-05-29"
     excerpt: Blog publishing is now faster and more reliable
     category: Updates
+  - slug: Product-Update-2026-05-29-Chyme-Modularity-Lighthouse-Standards
+    title: Chyme gets modular, lighthouse passes web standards
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-05-29"
+    excerpt: Chyme chat refactored for maintainability, web accessibility standards passed, GetStream dependencies removed.
+    category: Updates
