@@ -22,6 +22,14 @@ export const ARTICLES: ArticleMeta[] = [
     category: "Updates"
   },
   {
+    slug: "Product-Update-2026-05-30-Design-Refinements-Live",
+    title: "Design refinements live across Skills, Weekly Performance, and Unlock",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-05-30",
+    excerpt: "Design refinements across Skills Taxonomy, Weekly Performance, and Unlock dashboards now live on main.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-05-29-Blog-Publishing-Infrastructure",
     title: "Blog publishing is now faster and more reliable",
     repo: "chargingthefuture/chargingthefuture",

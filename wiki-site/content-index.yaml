@@ -724,3 +724,9 @@ articles:
     date: "2026-05-29"
     excerpt: Three core interfaces refined for clarity and consistency with our design system.
     category: Updates
+  - slug: Product-Update-2026-05-30-Design-Refinements-Live
+    title: Design refinements live across Skills, Weekly Performance, and Unlock
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-05-30"
+    excerpt: Design refinements across Skills Taxonomy, Weekly Performance, and Unlock dashboards now live on main.
+    category: Updates
