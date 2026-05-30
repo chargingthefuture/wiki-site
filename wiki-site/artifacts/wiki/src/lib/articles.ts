@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-05-30-Clicklog-Redesign",
+    title: "Clicklog interface rebuilt for clarity",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-05-30",
+    excerpt: "Clicklog web interface redesigned for clarity and ease of use, no functional changes.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-05-29-Blog-Publishing-Infrastructure",
     title: "Blog publishing is now faster and more reliable",
     repo: "chargingthefuture/chargingthefuture",
