@@ -7,6 +7,7 @@ import { MarkdownRenderer } from "@/components/MarkdownRenderer";
 import { useArticle } from "@/hooks/use-article";
 import { ARTICLES } from "@/lib/articles";
 import { estimateReadTime } from "@/lib/utils";
+import { formatArticleDate } from "@/lib/dates";
 
 export default function Article() {
   const params = useParams();
@@ -74,7 +75,7 @@ export default function Article() {
                   <div className="flex items-center text-gray-400 font-mono text-sm gap-4 bg-black px-4 py-1.5 border-2 border-gray-800">
                     <span className="flex items-center gap-1.5">
                       <Calendar size={16} className="text-primary" />
-                      {new Date(meta.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}
+                      {formatArticleDate(meta.date, { month: 'long', day: 'numeric', year: 'numeric' })}
                     </span>
                     <span className="flex items-center gap-1.5">
                       <Clock size={16} className="text-primary" />

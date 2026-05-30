@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { type ArticleMeta } from "@/lib/articles";
 import { estimateReadTime } from "@/lib/utils";
+import { formatArticleDate } from "@/lib/dates";
 import { ArrowRight, Clock, Calendar, ShieldAlert } from "lucide-react";
 import { getArticleUrl } from "@/lib/articles";
 
@@ -30,7 +31,7 @@ export function ArticleCard({ article, index }: { article: ArticleMeta, index: n
             <div className="flex items-center text-gray-400 font-mono text-xs gap-3">
               <span className="flex items-center gap-1">
                 <Calendar size={14} />
-                {new Date(article.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}
+                {formatArticleDate(article.date, { month: 'short', day: 'numeric', year: 'numeric' })}
               </span>
               <span className="flex items-center gap-1">
                 <Clock size={14} />
