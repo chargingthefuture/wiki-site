@@ -29,3 +29,10 @@ Full rules: [.github/instructions/098-agent-communication-rules.mdc](.github/ins
 | `pnpm wiki:build:pages` | GitHub Pages build (base `/chargingthefuture/` + 404.html) |
 
 Full operator runbook: [wiki-site/PUBLISHING.md](wiki-site/PUBLISHING.md).
+
+## Git Branch and PR Naming (always apply)
+
+- Branch names **must be descriptive** — never use auto-generated or random identifiers (e.g. `claude/gifted-archimedes-oHMEA`).
+- Use the pattern `<type>/<short-description>`, e.g. `fix/blog-dates-et-label`, `feat/category-filter`, `ci/submodule-checkout`.
+- PR titles must match: concise, action-oriented, no random strings.
+- If a branch was created with a bad name, rename it before opening the PR: create a new descriptive branch from the same commits, open the PR from that, close the old one, delete the old branch.
