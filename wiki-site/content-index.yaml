@@ -718,3 +718,9 @@ articles:
     date: "2026-05-30"
     excerpt: Clicklog web interface redesigned for clarity and ease of use, no functional changes.
     category: Updates
+  - slug: Product-Update-2026-05-29-Interface-Refinements
+    title: Dashboard and plugin interfaces refined for clarity
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-05-29"
+    excerpt: Three core interfaces refined for clarity and consistency with our design system.
+    category: Updates

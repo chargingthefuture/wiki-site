@@ -46,6 +46,14 @@ export const ARTICLES: ArticleMeta[] = [
     category: "Updates"
   },
   {
+    slug: "Product-Update-2026-05-29-Interface-Refinements",
+    title: "Dashboard and plugin interfaces refined for clarity",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-05-29",
+    excerpt: "Three core interfaces refined for clarity and consistency with our design system.",
+    category: "Updates"
+  },
+  {
     slug: "discourse-migrate/about-the-craigslist-category",
     title: "About the Craigslist category",
     repo: "chargingthefuture/chargingthefuture",
