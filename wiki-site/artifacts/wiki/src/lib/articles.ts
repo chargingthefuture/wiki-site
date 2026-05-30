@@ -30,6 +30,14 @@ export const ARTICLES: ArticleMeta[] = [
     category: "Updates"
   },
   {
+    slug: "Product-Update-2026-05-30-Stability-Refinements",
+    title: "Platform stability improvements across core services",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-05-30",
+    excerpt: "Technical refinements to core services improve platform stability, data integrity, and code quality.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-05-29-Blog-Publishing-Infrastructure",
     title: "Blog publishing is now faster and more reliable",
     repo: "chargingthefuture/chargingthefuture",
