@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-05-31-Comic-Assistant-Foundation",
+    title: "Comic AI Assistant and Foundation updates",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-05-31",
+    excerpt: "Comic AI Assistant with human-first reviews and Foundation backend reliability updates ship to production.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-05-31-Hub-Consolidation-Workforce-Backend",
     title: "Hub consolidation and workforce backend complete",
     repo: "chargingthefuture/chargingthefuture",
