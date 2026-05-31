@@ -748,3 +748,9 @@ articles:
     date: "2026-05-31"
     excerpt: Comic AI Assistant with human-first reviews and Foundation backend reliability updates ship to production.
     category: Updates
+  - slug: Product-Update-2026-05-31-AI-Assistant-Stability
+    title: AI Assistant improvements and platform stability updates
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-05-31"
+    excerpt: AI Assistant now understands language better, with improved stability across the platform.
+    category: Updates
