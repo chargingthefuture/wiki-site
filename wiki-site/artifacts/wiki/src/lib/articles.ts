@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-05-31-Hub-Consolidation-Workforce-Backend",
+    title: "Hub consolidation and workforce backend complete",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-05-31",
+    excerpt: "We've unified announcements in Survivor Hub and finalized the workforce backend infrastructure supporting the skills economy.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-05-30-Clicklog-Redesign",
     title: "Clicklog interface rebuilt for clarity",
     repo: "chargingthefuture/chargingthefuture",
