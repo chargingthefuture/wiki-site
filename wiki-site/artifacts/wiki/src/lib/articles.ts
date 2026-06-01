@@ -30,6 +30,14 @@ export const ARTICLES: ArticleMeta[] = [
     category: "Updates"
   },
   {
+    slug: "Product-Update-2026-06-01-Mobile-Launch",
+    title: "Mobile app, live audio rooms, and stability improvements",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-01",
+    excerpt: "Mobile layouts for all plugins, live audio rooms in Chyme, and stability fixes.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-05-31-AI-Assistant-Stability",
     title: "AI Assistant improvements and platform stability updates",
     repo: "chargingthefuture/chargingthefuture",

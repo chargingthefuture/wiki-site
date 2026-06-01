@@ -766,3 +766,9 @@ articles:
     date: "2026-06-01"
     excerpt: Global currency support, improved verification flows, and Android parity make the TI Skills Economy more accessible to survivors worldwide.
     category: Updates
+  - slug: Product-Update-2026-06-01-Mobile-Launch
+    title: Mobile app, live audio rooms, and stability improvements
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-01"
+    excerpt: Mobile layouts for all plugins, live audio rooms in Chyme, and stability fixes.
+    category: Updates
