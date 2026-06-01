@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-01-Account-Deletion-Mobile-Auth",
+    title: "Account deletion, mobile improvements, and auth fixes",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-01",
+    excerpt: "Account deletion, Android optimization, and authentication fixes ship this week to strengthen data control and platform reliability.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-05-31-AI-Assistant-Stability",
     title: "AI Assistant improvements and platform stability updates",
     repo: "chargingthefuture/chargingthefuture",
