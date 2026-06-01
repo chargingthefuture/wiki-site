@@ -22,6 +22,14 @@ export const ARTICLES: ArticleMeta[] = [
     category: "Updates"
   },
   {
+    slug: "Product-Update-2026-06-01-Global-Payments-Mobile-Parity",
+    title: "Global Payments, Better Verification, Android Expansion",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-01",
+    excerpt: "Global currency support, improved verification flows, and Android parity make the TI Skills Economy more accessible to survivors worldwide.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-05-31-AI-Assistant-Stability",
     title: "AI Assistant improvements and platform stability updates",
     repo: "chargingthefuture/chargingthefuture",

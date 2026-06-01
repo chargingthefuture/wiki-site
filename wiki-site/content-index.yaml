@@ -760,3 +760,9 @@ articles:
     date: "2026-06-01"
     excerpt: Account deletion, Android optimization, and authentication fixes ship this week to strengthen data control and platform reliability.
     category: Updates
+  - slug: Product-Update-2026-06-01-Global-Payments-Mobile-Parity
+    title: Global Payments, Better Verification, Android Expansion
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-01"
+    excerpt: Global currency support, improved verification flows, and Android parity make the TI Skills Economy more accessible to survivors worldwide.
+    category: Updates
