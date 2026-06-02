@@ -778,3 +778,9 @@ articles:
     date: "2026-06-02"
     excerpt: Mobile-optimized Mood and GentlePulse layouts, enhanced error reporting, and improved database stability for safer, more accessible tools.
     category: Updates
+  - slug: Product-Update-2026-06-02-Mobile-Layouts-and-Identity
+    title: Mobile experience improvements across all plugins
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-02"
+    excerpt: Mobile redesigns across plugins and identity field improvements for clearer, more stable access on all devices.
+    category: Updates

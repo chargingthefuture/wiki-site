@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-02-Mobile-Layouts-and-Identity",
+    title: "Mobile experience improvements across all plugins",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-02",
+    excerpt: "Mobile redesigns across plugins and identity field improvements for clearer, more stable access on all devices.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-02-Mobile-Optimization",
     title: "Mobile layouts and stability improvements",
     repo: "chargingthefuture/chargingthefuture",
