@@ -772,3 +772,9 @@ articles:
     date: "2026-06-01"
     excerpt: Mobile layouts for all plugins, live audio rooms in Chyme, and stability fixes.
     category: Updates
+  - slug: Product-Update-2026-06-02-Mobile-Optimization
+    title: Mobile layouts and stability improvements
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-02"
+    excerpt: Mobile-optimized Mood and GentlePulse layouts, enhanced error reporting, and improved database stability for safer, more accessible tools.
+    category: Updates
