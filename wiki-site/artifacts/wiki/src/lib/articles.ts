@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-03-Hub-Posts-Loading-Fixes",
+    title: "Hub improvements: clearer posts and faster loading",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-03",
+    excerpt: "Hub posts now display author usernames clearly, and we've fixed app loading crashes. Two reliability improvements.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-03-Profile-Identity-Refinement",
     title: "Profile updates rolled out",
     repo: "chargingthefuture/chargingthefuture",
