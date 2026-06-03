@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-03-Unified-Loading-Screens",
+    title: "Smoother experience across all devices",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-03",
+    excerpt: "Unified loading screens, improved mobile layouts, and clearer Chyme author attribution across the platform.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-02-Mobile-Layouts-and-Identity",
     title: "Mobile experience improvements across all plugins",
     repo: "chargingthefuture/chargingthefuture",
