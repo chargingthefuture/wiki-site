@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-03-Profile-Identity-Refinement",
+    title: "Profile updates rolled out",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-03",
+    excerpt: "Username and full name displays now consistent across profiles and Skills Hunt, giving survivors clearer control over their identity representation.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-03-Unified-Loading-Screens",
     title: "Smoother experience across all devices",
     repo: "chargingthefuture/chargingthefuture",

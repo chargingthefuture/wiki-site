@@ -790,3 +790,9 @@ articles:
     date: "2026-06-03"
     excerpt: Unified loading screens, improved mobile layouts, and clearer Chyme author attribution across the platform.
     category: Updates
+  - slug: Product-Update-2026-06-03-Profile-Identity-Refinement
+    title: Profile updates rolled out
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-03"
+    excerpt: Username and full name displays now consistent across profiles and Skills Hunt, giving survivors clearer control over their identity representation.
+    category: Updates
