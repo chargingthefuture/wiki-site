@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-04-Directory-Access-Control",
+    title: "Directory now shows your full network",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-04",
+    excerpt: "Directory now displays all member profiles and gives you inline controls over your account visibility.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-03-Hub-Posts-Loading-Fixes",
     title: "Hub improvements: clearer posts and faster loading",
     repo: "chargingthefuture/chargingthefuture",
