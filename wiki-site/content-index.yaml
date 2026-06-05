@@ -808,3 +808,9 @@ articles:
     date: "2026-06-04"
     excerpt: Directory now displays all member profiles and gives you inline controls over your account visibility.
     category: Updates
+  - slug: Product-Update-2026-06-05-Identity-and-Interface-Refinements
+    title: Cleaner interface, stronger identity controls
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-05"
+    excerpt: SocketRelay @username visibility and Live badge removal create a clearer, calmer interface focused on identity control and user agency.
+    category: Updates

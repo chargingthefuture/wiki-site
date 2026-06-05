@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-05-Identity-and-Interface-Refinements",
+    title: "Cleaner interface, stronger identity controls",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-05",
+    excerpt: "SocketRelay @username visibility and Live badge removal create a clearer, calmer interface focused on identity control and user agency.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-04-Directory-Access-Control",
     title: "Directory now shows your full network",
     repo: "chargingthefuture/chargingthefuture",
