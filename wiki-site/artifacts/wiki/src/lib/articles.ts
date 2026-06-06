@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-06-Account-Data-Privacy",
+    title: "Your data, your control: Account privacy tools now live",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-06",
+    excerpt: "New account privacy controls let you review and delete your data anytime—reinforcing your autonomy.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-05-Identity-and-Interface-Refinements",
     title: "Cleaner interface, stronger identity controls",
     repo: "chargingthefuture/chargingthefuture",
