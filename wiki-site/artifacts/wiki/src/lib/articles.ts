@@ -22,6 +22,14 @@ export const ARTICLES: ArticleMeta[] = [
     category: "Updates"
   },
   {
+    slug: "Product-Update-2026-06-07-Community-Pulse-Mobile-Refresh",
+    title: "Community insights, cleaner app, and better chat",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-07",
+    excerpt: "New community pulse tracking, mobile cleanup, comic theme, and improved chat interactions—all built around privacy, clarity, and control.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-06-Account-Data-Privacy",
     title: "Your data, your control: Account privacy tools now live",
     repo: "chargingthefuture/chargingthefuture",
