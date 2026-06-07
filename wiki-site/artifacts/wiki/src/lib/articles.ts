@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-07-Admin-Platform-Complete",
+    title: "Admin tools now fully functional across all platforms",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-07",
+    excerpt: "Administrative interfaces for credits, skills programs, and platform operations are now fully functional across web and mobile.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-06-Account-Data-Privacy",
     title: "Your data, your control: Account privacy tools now live",
     repo: "chargingthefuture/chargingthefuture",
