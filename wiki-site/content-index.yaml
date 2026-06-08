@@ -844,3 +844,9 @@ articles:
     date: "2026-06-08"
     excerpt: Explore plugins before signing in. Mobile sign-in is now faster and more secure.
     category: Updates
+  - slug: Product-Update-2026-06-08-Mobile-Viewport-Fix
+    title: Mobile layout refinement now live
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-08"
+    excerpt: Mobile viewport now displays cleanly without bottom gaps, improving readability and navigation on phones and tablets.
+    category: Updates

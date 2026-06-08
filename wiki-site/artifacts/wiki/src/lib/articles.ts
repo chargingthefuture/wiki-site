@@ -22,6 +22,14 @@ export const ARTICLES: ArticleMeta[] = [
     category: "Updates"
   },
   {
+    slug: "Product-Update-2026-06-08-Mobile-Viewport-Fix",
+    title: "Mobile layout refinement now live",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-08",
+    excerpt: "Mobile viewport now displays cleanly without bottom gaps, improving readability and navigation on phones and tablets.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-08-Public-Visitor-Screens-Mobile-Auth",
     title: "Plugin visitor screens and mobile sign-in now live",
     repo: "chargingthefuture/chargingthefuture",
