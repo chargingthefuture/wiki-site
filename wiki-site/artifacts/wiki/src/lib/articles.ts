@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-08-LevelUp-and-Global-Economics",
+    title: "New tools for growth and global context",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-08",
+    excerpt: "New LevelUp Trainers, Achievements, Credits Wallet, and real-time global economic map launched to track progress and growth.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-07-Admin-Platform-Complete",
     title: "Admin tools now fully functional across all platforms",
     repo: "chargingthefuture/chargingthefuture",
