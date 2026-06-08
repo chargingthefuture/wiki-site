@@ -22,6 +22,14 @@ export const ARTICLES: ArticleMeta[] = [
     category: "Updates"
   },
   {
+    slug: "Product-Update-2026-06-08-Public-Visitor-Screens-Mobile-Auth",
+    title: "Plugin visitor screens and mobile sign-in now live",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-08",
+    excerpt: "Explore plugins before signing in. Mobile sign-in is now faster and more secure.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-07-Admin-Platform-Complete",
     title: "Admin tools now fully functional across all platforms",
     repo: "chargingthefuture/chargingthefuture",

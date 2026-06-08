@@ -838,3 +838,9 @@ articles:
     date: "2026-06-08"
     excerpt: New LevelUp Trainers, Achievements, Credits Wallet, and real-time global economic map launched to track progress and growth.
     category: Updates
+  - slug: Product-Update-2026-06-08-Public-Visitor-Screens-Mobile-Auth
+    title: Plugin visitor screens and mobile sign-in now live
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-08"
+    excerpt: Explore plugins before signing in. Mobile sign-in is now faster and more secure.
+    category: Updates
