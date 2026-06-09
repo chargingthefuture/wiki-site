@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-09-Community-Mood-Pulse",
+    title: "Your Community Mood Matters: Real-Time Pulse Now Live",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-09",
+    excerpt: "Real-time community mood insights and a refreshed visual design across web, mobile, and chat interfaces.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-08-LevelUp-and-Global-Economics",
     title: "New tools for growth and global context",
     repo: "chargingthefuture/chargingthefuture",

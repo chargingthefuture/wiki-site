@@ -850,3 +850,9 @@ articles:
     date: "2026-06-08"
     excerpt: Mobile viewport now displays cleanly without bottom gaps, improving readability and navigation on phones and tablets.
     category: Updates
+  - slug: Product-Update-2026-06-09-Community-Mood-Pulse
+    title: 'Your Community Mood Matters: Real-Time Pulse Now Live'
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-09"
+    excerpt: Real-time community mood insights and a refreshed visual design across web, mobile, and chat interfaces.
+    category: Updates
