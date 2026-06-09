@@ -22,6 +22,14 @@ export const ARTICLES: ArticleMeta[] = [
     category: "Updates"
   },
   {
+    slug: "Product-Update-2026-06-09-Feed-Retirement-Mood-Refresh",
+    title: "Cleaner interface, better mood tracking",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-09",
+    excerpt: "Feed app retired, Mood redesigned with comic theme and improved mobile layout.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-08-LevelUp-and-Global-Economics",
     title: "New tools for growth and global context",
     repo: "chargingthefuture/chargingthefuture",
