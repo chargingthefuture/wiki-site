@@ -868,3 +868,9 @@ articles:
     date: "2026-06-10"
     excerpt: Security hardening on account mutations, unified access gates, and clearer verification flows for signed-in members.
     category: Updates
+  - slug: Product-Update-2026-06-10-Contributions-Plugin-Launch
+    title: Contributions plugin and copy clarity updates
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-10"
+    excerpt: New Contributions plugin tracks your participation in drives, gift cards, and community engagement. Updated app copy for accuracy and honesty.
+    category: Updates

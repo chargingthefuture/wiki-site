@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-10-Contributions-Plugin-Launch",
+    title: "Contributions plugin and copy clarity updates",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-10",
+    excerpt: "New Contributions plugin tracks your participation in drives, gift cards, and community engagement. Updated app copy for accuracy and honesty.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-10-Security-Verification",
     title: "Security updates and clearer verification flows",
     repo: "chargingthefuture/chargingthefuture",
