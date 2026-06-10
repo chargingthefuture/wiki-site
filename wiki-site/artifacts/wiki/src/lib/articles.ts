@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-10-Security-Verification",
+    title: "Security updates and clearer verification flows",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-10",
+    excerpt: "Security hardening on account mutations, unified access gates, and clearer verification flows for signed-in members.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-09-Community-Mood-Pulse",
     title: "Your Community Mood Matters: Real-Time Pulse Now Live",
     repo: "chargingthefuture/chargingthefuture",
