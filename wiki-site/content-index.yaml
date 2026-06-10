@@ -874,3 +874,9 @@ articles:
     date: "2026-06-10"
     excerpt: New Contributions plugin tracks your participation in drives, gift cards, and community engagement. Updated app copy for accuracy and honesty.
     category: Updates
+  - slug: Product-Update-2026-06-10-Safety-and-Community
+    title: Route Safety, Bug Reports, and Community Contributions
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-10"
+    excerpt: Route hazard alerts, private bug reporting, and community contributions tools are now live.
+    category: Updates

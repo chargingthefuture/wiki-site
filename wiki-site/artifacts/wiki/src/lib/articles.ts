@@ -22,6 +22,14 @@ export const ARTICLES: ArticleMeta[] = [
     category: "Updates"
   },
   {
+    slug: "Product-Update-2026-06-10-Safety-and-Community",
+    title: "Route Safety, Bug Reports, and Community Contributions",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-10",
+    excerpt: "Route hazard alerts, private bug reporting, and community contributions tools are now live.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-10-Security-Verification",
     title: "Security updates and clearer verification flows",
     repo: "chargingthefuture/chargingthefuture",
