@@ -886,3 +886,9 @@ articles:
     date: "2026-06-11"
     excerpt: Weather reports now include location context. Platform updates improve reliability and accessibility for smoother daily use.
     category: Updates
+  - slug: Product-Update-2026-06-11-Bug-Reporting-Launch
+    title: Bug reporting now available on all devices
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-11"
+    excerpt: Bug reporting UI launched for web and Android. Submit issues directly from the app to help us improve Charging the Future.
+    category: Updates

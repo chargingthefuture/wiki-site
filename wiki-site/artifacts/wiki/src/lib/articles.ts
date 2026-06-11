@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-11-Bug-Reporting-Launch",
+    title: "Bug reporting now available on all devices",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-11",
+    excerpt: "Bug reporting UI launched for web and Android. Submit issues directly from the app to help us improve Charging the Future.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-11-Weather-Reports-Platform-Stability",
     title: "Clearer weather reports and smoother app updates",
     repo: "chargingthefuture/chargingthefuture",
