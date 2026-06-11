@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-11-Weather-Reports-Platform-Stability",
+    title: "Clearer weather reports and smoother app updates",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-11",
+    excerpt: "Weather reports now include location context. Platform updates improve reliability and accessibility for smoother daily use.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-10-Contributions-Plugin-Launch",
     title: "Contributions plugin and copy clarity updates",
     repo: "chargingthefuture/chargingthefuture",

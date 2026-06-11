@@ -880,3 +880,9 @@ articles:
     date: "2026-06-10"
     excerpt: Route hazard alerts, private bug reporting, and community contributions tools are now live.
     category: Updates
+  - slug: Product-Update-2026-06-11-Weather-Reports-Platform-Stability
+    title: Clearer weather reports and smoother app updates
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-11"
+    excerpt: Weather reports now include location context. Platform updates improve reliability and accessibility for smoother daily use.
+    category: Updates
