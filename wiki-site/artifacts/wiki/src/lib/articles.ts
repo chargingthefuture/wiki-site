@@ -22,6 +22,14 @@ export const ARTICLES: ArticleMeta[] = [
     category: "Updates"
   },
   {
+    slug: "Product-Update-2026-06-12-Mobile-Real-Data",
+    title: "Mobile screens now live with real data",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-12",
+    excerpt: "Mobile screens now show live data, plugin colors aligned, and TrustTransport validation hardened.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-12-TrustTransport-Currency-Selector",
     title: "Currency selector in TrustTransport",
     repo: "chargingthefuture/chargingthefuture",

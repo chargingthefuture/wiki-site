@@ -904,3 +904,9 @@ articles:
     date: "2026-06-12"
     excerpt: TrustTransport now lets you choose settlement currency, and we fixed dependency syncing across the codebase.
     category: Updates
+  - slug: Product-Update-2026-06-12-Mobile-Real-Data
+    title: Mobile screens now live with real data
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-12"
+    excerpt: Mobile screens now show live data, plugin colors aligned, and TrustTransport validation hardened.
+    category: Updates
