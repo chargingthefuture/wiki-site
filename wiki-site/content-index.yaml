@@ -892,3 +892,9 @@ articles:
     date: "2026-06-11"
     excerpt: Bug reporting UI launched for web and Android. Submit issues directly from the app to help us improve Charging the Future.
     category: Updates
+  - slug: Product-Update-2026-06-12-Community-Value-Index
+    title: Community Value Index and mutual aid tracking
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-12"
+    excerpt: Log mutual aid as Free value and switch currency views in the Community Value Index.
+    category: Updates

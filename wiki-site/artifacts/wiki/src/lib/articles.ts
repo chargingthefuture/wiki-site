@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-12-Community-Value-Index",
+    title: "Community Value Index and mutual aid tracking",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-12",
+    excerpt: "Log mutual aid as Free value and switch currency views in the Community Value Index.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-11-Bug-Reporting-Launch",
     title: "Bug reporting now available on all devices",
     repo: "chargingthefuture/chargingthefuture",
