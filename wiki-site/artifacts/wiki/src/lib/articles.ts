@@ -22,6 +22,14 @@ export const ARTICLES: ArticleMeta[] = [
     category: "Updates"
   },
   {
+    slug: "Product-Update-2026-06-12-TrustTransport-Currency-Selector",
+    title: "Currency selector in TrustTransport",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-12",
+    excerpt: "TrustTransport now lets you choose settlement currency, and we fixed dependency syncing across the codebase.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-11-Bug-Reporting-Launch",
     title: "Bug reporting now available on all devices",
     repo: "chargingthefuture/chargingthefuture",

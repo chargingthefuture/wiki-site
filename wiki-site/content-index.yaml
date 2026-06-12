@@ -898,3 +898,9 @@ articles:
     date: "2026-06-12"
     excerpt: Log mutual aid as Free value and switch currency views in the Community Value Index.
     category: Updates
+  - slug: Product-Update-2026-06-12-TrustTransport-Currency-Selector
+    title: Currency selector in TrustTransport
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-12"
+    excerpt: TrustTransport now lets you choose settlement currency, and we fixed dependency syncing across the codebase.
+    category: Updates
