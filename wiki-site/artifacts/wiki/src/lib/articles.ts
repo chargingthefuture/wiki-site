@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-13-Admin-Dashboard-Redesign",
+    title: "Admin tools now match the design system",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-13",
+    excerpt: "Admin pages now use the design system for consistency and speed across LightHouse, Workforce, GDP, and other services.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-13-Interface-Cleanup",
     title: "Cleaner interface, better mobile support",
     repo: "chargingthefuture/chargingthefuture",
