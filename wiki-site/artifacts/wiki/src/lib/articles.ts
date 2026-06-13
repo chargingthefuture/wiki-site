@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-13-Interface-Cleanup",
+    title: "Cleaner interface, better mobile support",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-13",
+    excerpt: "Cleaner navigation, mobile fixes, accessible forms, and consistent plugin descriptions across the app.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-12-Community-Value-Index",
     title: "Community Value Index and mutual aid tracking",
     repo: "chargingthefuture/chargingthefuture",

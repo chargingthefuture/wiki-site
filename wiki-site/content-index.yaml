@@ -910,3 +910,9 @@ articles:
     date: "2026-06-12"
     excerpt: Mobile screens now show live data, plugin colors aligned, and TrustTransport validation hardened.
     category: Updates
+  - slug: Product-Update-2026-06-13-Interface-Cleanup
+    title: Cleaner interface, better mobile support
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-13"
+    excerpt: Cleaner navigation, mobile fixes, accessible forms, and consistent plugin descriptions across the app.
+    category: Updates
