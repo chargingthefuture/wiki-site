@@ -30,6 +30,14 @@ export const ARTICLES: ArticleMeta[] = [
     category: "Updates"
   },
   {
+    slug: "Product-Update-2026-06-14-Comic-Background-Drafts",
+    title: "Comic drafts now load without delays",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-14",
+    excerpt: "@comic chat now generates responses in the background so your conversation never pauses.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-13-Admin-Dashboard-Redesign",
     title: "Admin tools now match the design system",
     repo: "chargingthefuture/chargingthefuture",
