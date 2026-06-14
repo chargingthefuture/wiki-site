@@ -22,6 +22,14 @@ export const ARTICLES: ArticleMeta[] = [
     category: "Updates"
   },
   {
+    slug: "Product-Update-2026-06-14-Chat-and-GPU-Improvements",
+    title: "Chat composer and GPU setup improvements",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-14",
+    excerpt: "Mobile fixes, external GPU support, and faster @comic drafts via RunPod serverless.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-13-Admin-Dashboard-Redesign",
     title: "Admin tools now match the design system",
     repo: "chargingthefuture/chargingthefuture",

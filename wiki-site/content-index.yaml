@@ -928,3 +928,9 @@ articles:
     date: "2026-06-14"
     excerpt: Admin account and job listing controls, Chyme chat optimization, and Skills Hunt badge removal.
     category: Updates
+  - slug: Product-Update-2026-06-14-Chat-and-GPU-Improvements
+    title: Chat composer and GPU setup improvements
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-14"
+    excerpt: Mobile fixes, external GPU support, and faster @comic drafts via RunPod serverless.
+    category: Updates
