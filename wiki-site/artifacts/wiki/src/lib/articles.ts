@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-14-Admin-Tools-And-Heartbeat",
+    title: "Admin tools, heartbeat fixes, and Skills Hunt updates",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-14",
+    excerpt: "Admin account and job listing controls, Chyme chat optimization, and Skills Hunt badge removal.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-13-Admin-Dashboard-Redesign",
     title: "Admin tools now match the design system",
     repo: "chargingthefuture/chargingthefuture",

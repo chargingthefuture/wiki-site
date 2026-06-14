@@ -922,3 +922,9 @@ articles:
     date: "2026-06-13"
     excerpt: Admin pages now use the design system for consistency and speed across LightHouse, Workforce, GDP, and other services.
     category: Updates
+  - slug: Product-Update-2026-06-14-Admin-Tools-And-Heartbeat
+    title: Admin tools, heartbeat fixes, and Skills Hunt updates
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-14"
+    excerpt: Admin account and job listing controls, Chyme chat optimization, and Skills Hunt badge removal.
+    category: Updates
