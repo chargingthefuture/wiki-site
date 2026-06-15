@@ -22,6 +22,14 @@ export const ARTICLES: ArticleMeta[] = [
     category: "Updates"
   },
   {
+    slug: "Product-Update-2026-06-15-ServiceCredits-Monetary-Policy",
+    title: "ServiceCredits now tracks money flow and wallet limits",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-15",
+    excerpt: "ServiceCredits now tracks circulation metrics, sets equal mutual-credit limits, and shows real-time monetary policy data.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-14-Admin-Tools-And-Heartbeat",
     title: "Admin tools, heartbeat fixes, and Skills Hunt updates",
     repo: "chargingthefuture/chargingthefuture",

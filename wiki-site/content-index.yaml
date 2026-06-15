@@ -946,3 +946,9 @@ articles:
     date: "2026-06-15"
     excerpt: Chat refresh on mobile, Add location feedback, and error logging improvements ship this week.
     category: Updates
+  - slug: Product-Update-2026-06-15-ServiceCredits-Monetary-Policy
+    title: ServiceCredits now tracks money flow and wallet limits
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-15"
+    excerpt: ServiceCredits now tracks circulation metrics, sets equal mutual-credit limits, and shows real-time monetary policy data.
+    category: Updates
