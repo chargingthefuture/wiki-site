@@ -30,6 +30,14 @@ export const ARTICLES: ArticleMeta[] = [
     category: "Updates"
   },
   {
+    slug: "Product-Update-2026-06-15-Trust-Signals-Android-Parity",
+    title: "Trust signals and Android updates",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-15",
+    excerpt: "Trust now displays contribution signals, Android gets ServiceCredits parity, and two performance fixes landed.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-14-Admin-Tools-And-Heartbeat",
     title: "Admin tools, heartbeat fixes, and Skills Hunt updates",
     repo: "chargingthefuture/chargingthefuture",

@@ -952,3 +952,9 @@ articles:
     date: "2026-06-15"
     excerpt: ServiceCredits now tracks circulation metrics, sets equal mutual-credit limits, and shows real-time monetary policy data.
     category: Updates
+  - slug: Product-Update-2026-06-15-Trust-Signals-Android-Parity
+    title: Trust signals and Android updates
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-15"
+    excerpt: Trust now displays contribution signals, Android gets ServiceCredits parity, and two performance fixes landed.
+    category: Updates
