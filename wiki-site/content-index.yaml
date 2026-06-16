@@ -958,3 +958,9 @@ articles:
     date: "2026-06-15"
     excerpt: Trust now displays contribution signals, Android gets ServiceCredits parity, and two performance fixes landed.
     category: Updates
+  - slug: Product-Update-2026-06-16-Peer-Programming-Video
+    title: Peer programming cohorts now live with video support
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-16"
+    excerpt: Peer programming cohorts now include live video support and mobile navigation improvements.
+    category: Updates
