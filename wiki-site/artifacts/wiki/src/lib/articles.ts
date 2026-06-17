@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-17-Concierge-Feature-Guidance",
+    title: "Concierge helps you find the right feature",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-17",
+    excerpt: "Concierge starter prompts guide you to the right feature based on what you're working on.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-17-Mobile-Reviews-and-Skills",
     title: "Phone support for reviews, cleaner skill profiles",
     repo: "chargingthefuture/chargingthefuture",
