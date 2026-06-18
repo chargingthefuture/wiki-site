@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-18-Formance-Railway-Migration",
+    title: "Formance ledger now runs on Railway",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-18",
+    excerpt: "Formance ledger moved to Railway for lower costs and more reliable backups.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-17-Concierge-Feature-Guidance",
     title: "Concierge helps you find the right feature",
     repo: "chargingthefuture/chargingthefuture",

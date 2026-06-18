@@ -976,3 +976,9 @@ articles:
     date: "2026-06-17"
     excerpt: Concierge starter prompts guide you to the right feature based on what you're working on.
     category: Updates
+  - slug: Product-Update-2026-06-18-Formance-Railway-Migration
+    title: Formance ledger now runs on Railway
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-18"
+    excerpt: Formance ledger moved to Railway for lower costs and more reliable backups.
+    category: Updates
