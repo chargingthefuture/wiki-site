@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-18-Directory-Chips-and-Filters",
+    title: "Directory search and filter chips now work as expected",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-18",
+    excerpt: "Directory filters now work. Concierge chips stay visible. Profiles load complete bios and skills.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-18-Formance-Railway-Migration",
     title: "Formance ledger now runs on Railway",
     repo: "chargingthefuture/chargingthefuture",

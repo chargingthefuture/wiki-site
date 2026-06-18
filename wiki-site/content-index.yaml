@@ -982,3 +982,9 @@ articles:
     date: "2026-06-18"
     excerpt: Formance ledger moved to Railway for lower costs and more reliable backups.
     category: Updates
+  - slug: Product-Update-2026-06-18-Directory-Chips-and-Filters
+    title: Directory search and filter chips now work as expected
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-18"
+    excerpt: Directory filters now work. Concierge chips stay visible. Profiles load complete bios and skills.
+    category: Updates
