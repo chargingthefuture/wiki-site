@@ -30,6 +30,14 @@ export const ARTICLES: ArticleMeta[] = [
     category: "Updates"
   },
   {
+    slug: "Product-Update-2026-06-19-Platform-Fixes",
+    title: "Fixes for Chyme, LightHouse, and plugin consistency",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-19",
+    excerpt: "Chyme guest listening, LightHouse card cleanup, and plugin consistency fixes.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-18-Chat-Fixes",
     title: "Chat fixes: better replies and updated icon",
     repo: "chargingthefuture/chargingthefuture",
