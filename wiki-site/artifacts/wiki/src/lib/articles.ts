@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-19-Login-Fixes-And-Interface-Cleanup",
+    title: "Faster logins, cleaner interface, and easier self-hosting",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-19",
+    excerpt: "Login fixes, simplified home screen, LightHouse self-hosting, and consolidated announcements.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-18-Chat-Fixes",
     title: "Chat fixes: better replies and updated icon",
     repo: "chargingthefuture/chargingthefuture",

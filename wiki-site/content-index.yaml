@@ -994,3 +994,9 @@ articles:
     date: "2026-06-18"
     excerpt: Chat replies now sort correctly and scroll to the latest message. Contributions icon changed to gift.
     category: Updates
+  - slug: Product-Update-2026-06-19-Login-Fixes-And-Interface-Cleanup
+    title: Faster logins, cleaner interface, and easier self-hosting
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-19"
+    excerpt: Login fixes, simplified home screen, LightHouse self-hosting, and consolidated announcements.
+    category: Updates
