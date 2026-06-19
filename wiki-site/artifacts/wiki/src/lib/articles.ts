@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-19-Honest-Language-and-Chat-Naming",
+    title: "Honest language in Foundation and TrustTransport",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-19",
+    excerpt: "We removed false claims from Foundation and TrustTransport, named the chat spaces, and fixed the directory filter.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-19-Login-Fixes-And-Interface-Cleanup",
     title: "Faster logins, cleaner interface, and easier self-hosting",
     repo: "chargingthefuture/chargingthefuture",

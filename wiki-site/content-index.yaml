@@ -1000,3 +1000,9 @@ articles:
     date: "2026-06-19"
     excerpt: Login fixes, simplified home screen, LightHouse self-hosting, and consolidated announcements.
     category: Updates
+  - slug: Product-Update-2026-06-19-Honest-Language-and-Chat-Naming
+    title: Honest language in Foundation and TrustTransport
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-19"
+    excerpt: We removed false claims from Foundation and TrustTransport, named the chat spaces, and fixed the directory filter.
+    category: Updates
