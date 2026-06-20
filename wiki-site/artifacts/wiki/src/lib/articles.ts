@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-20-Chyme-Audio-and-URL-Fixes",
+    title: "Chyme audio rooms and URL handling improvements",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-20",
+    excerpt: "Fixed Chyme audio room participant counts and normalized URL handling in Unlock admin.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-20-Fixes-Across-Plugins",
     title: "Fixes to LightHouse, Chyme, and Unlock",
     repo: "chargingthefuture/chargingthefuture",
