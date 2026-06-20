@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-20-Fixes-Across-Plugins",
+    title: "Fixes to LightHouse, Chyme, and Unlock",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-20",
+    excerpt: "Fixes to LightHouse currencies and editing, Chyme audio rooms, and platform stability.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-19-Honest-Language-and-Chat-Naming",
     title: "Honest language in Foundation and TrustTransport",
     repo: "chargingthefuture/chargingthefuture",
