@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-21-Beacon-Livestream-Reactions-Chat-Colors",
+    title: "Beacon livestream, emoji reactions, and chat colors",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-21",
+    excerpt: "Beacon livestream for admins, emoji reactions in the Commons, and chat bubble colors for clarity.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-21-Skills-Hunt-Admin-Clarity",
     title: "Skills Hunt picks faster, admin tools clearer",
     repo: "chargingthefuture/chargingthefuture",

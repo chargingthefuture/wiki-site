@@ -1036,3 +1036,9 @@ articles:
     date: "2026-06-21"
     excerpt: Skills Hunt refinements and admin AI engine visibility landed in the latest build.
     category: Updates
+  - slug: Product-Update-2026-06-21-Beacon-Livestream-Reactions-Chat-Colors
+    title: Beacon livestream, emoji reactions, and chat colors
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-21"
+    excerpt: Beacon livestream for admins, emoji reactions in the Commons, and chat bubble colors for clarity.
+    category: Updates
