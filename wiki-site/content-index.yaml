@@ -1030,3 +1030,9 @@ articles:
     date: "2026-06-21"
     excerpt: Skills Hunt now sources from live taxonomy and correctly syncs approved nominations to the directory.
     category: Updates
+  - slug: Product-Update-2026-06-21-Skills-Hunt-Admin-Clarity
+    title: Skills Hunt picks faster, admin tools clearer
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-21"
+    excerpt: Skills Hunt refinements and admin AI engine visibility landed in the latest build.
+    category: Updates

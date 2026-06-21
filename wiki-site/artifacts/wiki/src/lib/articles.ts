@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-21-Skills-Hunt-Admin-Clarity",
+    title: "Skills Hunt picks faster, admin tools clearer",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-21",
+    excerpt: "Skills Hunt refinements and admin AI engine visibility landed in the latest build.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-21-Skills-Hunt-Taxonomy-and-Directory-Fixes",
     title: "Skills Hunt now pulls from live taxonomy",
     repo: "chargingthefuture/chargingthefuture",
