@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-21-Skills-Hunt-Taxonomy-and-Directory-Fixes",
+    title: "Skills Hunt now pulls from live taxonomy",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-21",
+    excerpt: "Skills Hunt now sources from live taxonomy and correctly syncs approved nominations to the directory.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-20-Chyme-Audio-and-URL-Fixes",
     title: "Chyme audio rooms and URL handling improvements",
     repo: "chargingthefuture/chargingthefuture",
