@@ -1048,3 +1048,9 @@ articles:
     date: "2026-06-22"
     excerpt: SocketRelay posts auto-expire after 28 days with a re-post button. Mobile fixes for Peer Programming, LevelUp, and plugin chat.
     category: Updates
+  - slug: Product-Update-2026-06-22-Peer-Programming-Auto-Assignment
+    title: Peer Programming groups now assign automatically
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-22"
+    excerpt: Peer Programming cohorts now form automatically on a weekly schedule, with assignments posted to the Commons.
+    category: Updates

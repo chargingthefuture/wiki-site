@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-22-Peer-Programming-Auto-Assignment",
+    title: "Peer Programming groups now assign automatically",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-22",
+    excerpt: "Peer Programming cohorts now form automatically on a weekly schedule, with assignments posted to the Commons.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-22-SocketRelay-Repost-Mobile-Fixes",
     title: "SocketRelay posts now auto-refresh, mobile fixes live",
     repo: "chargingthefuture/chargingthefuture",
