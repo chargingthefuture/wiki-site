@@ -1042,3 +1042,9 @@ articles:
     date: "2026-06-21"
     excerpt: Beacon livestream for admins, emoji reactions in the Commons, and chat bubble colors for clarity.
     category: Updates
+  - slug: Product-Update-2026-06-22-SocketRelay-Repost-Mobile-Fixes
+    title: SocketRelay posts now auto-refresh, mobile fixes live
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-22"
+    excerpt: SocketRelay posts auto-expire after 28 days with a re-post button. Mobile fixes for Peer Programming, LevelUp, and plugin chat.
+    category: Updates

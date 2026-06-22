@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-22-SocketRelay-Repost-Mobile-Fixes",
+    title: "SocketRelay posts now auto-refresh, mobile fixes live",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-22",
+    excerpt: "SocketRelay posts auto-expire after 28 days with a re-post button. Mobile fixes for Peer Programming, LevelUp, and plugin chat.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-21-Beacon-Livestream-Reactions-Chat-Colors",
     title: "Beacon livestream, emoji reactions, and chat colors",
     repo: "chargingthefuture/chargingthefuture",
