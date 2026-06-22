@@ -22,6 +22,14 @@ export const ARTICLES: ArticleMeta[] = [
     category: "Updates"
   },
   {
+    slug: "Product-Update-2026-06-22-Security-Triage-Automation",
+    title: "Security checks now run weekly, findings go to triage",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-22",
+    excerpt: "Weekly security findings now automatically surface to triage; backup and database configuration simplified.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-22-SocketRelay-Repost-Mobile-Fixes",
     title: "SocketRelay posts now auto-refresh, mobile fixes live",
     repo: "chargingthefuture/chargingthefuture",

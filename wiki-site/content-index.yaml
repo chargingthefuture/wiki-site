@@ -1054,3 +1054,9 @@ articles:
     date: "2026-06-22"
     excerpt: Peer Programming cohorts now form automatically on a weekly schedule, with assignments posted to the Commons.
     category: Updates
+  - slug: Product-Update-2026-06-22-Security-Triage-Automation
+    title: Security checks now run weekly, findings go to triage
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-22"
+    excerpt: Weekly security findings now automatically surface to triage; backup and database configuration simplified.
+    category: Updates
