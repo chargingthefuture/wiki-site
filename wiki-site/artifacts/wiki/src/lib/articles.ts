@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-23-Mobile-Chat-and-Skills-Hunt",
+    title: "Chat bubbles and Skills Hunt rewards now clearer on mobile",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-23",
+    excerpt: "Chat bubble colors and Skills Hunt rewards now display clearly on Android devices.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-22-Android-Feature-Parity-Wave",
     title: "Mobile gets 10 new features this week",
     repo: "chargingthefuture/chargingthefuture",

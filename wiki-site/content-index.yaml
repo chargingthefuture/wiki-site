@@ -1066,3 +1066,9 @@ articles:
     date: "2026-06-22"
     excerpt: Android now has emoji reactions, reply-to-message threading, peer programming listen-in, and seven other features—full parity with desktop.
     category: Updates
+  - slug: Product-Update-2026-06-23-Mobile-Chat-and-Skills-Hunt
+    title: Chat bubbles and Skills Hunt rewards now clearer on mobile
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-23"
+    excerpt: Chat bubble colors and Skills Hunt rewards now display clearly on Android devices.
+    category: Updates
