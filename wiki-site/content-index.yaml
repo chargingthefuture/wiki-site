@@ -1072,3 +1072,9 @@ articles:
     date: "2026-06-23"
     excerpt: Chat bubble colors and Skills Hunt rewards now display clearly on Android devices.
     category: Updates
+  - slug: Product-Update-2026-06-23-Account-Deletion-Peer-Programming
+    title: Account deletion, Peer Programming rosters, and backend updates
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-23"
+    excerpt: Account deletion, Peer Programming rosters, and backend cleanup. June 23, 2026.
+    category: Updates
