@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-22-Android-Feature-Parity-Wave",
+    title: "Mobile gets 10 new features this week",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-22",
+    excerpt: "Android now has emoji reactions, reply-to-message threading, peer programming listen-in, and seven other features—full parity with desktop.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-22-Peer-Programming-Auto-Assignment",
     title: "Peer Programming groups now assign automatically",
     repo: "chargingthefuture/chargingthefuture",

@@ -1060,3 +1060,9 @@ articles:
     date: "2026-06-22"
     excerpt: Weekly security findings now automatically surface to triage; backup and database configuration simplified.
     category: Updates
+  - slug: Product-Update-2026-06-22-Android-Feature-Parity-Wave
+    title: Mobile gets 10 new features this week
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-22"
+    excerpt: Android now has emoji reactions, reply-to-message threading, peer programming listen-in, and seven other features—full parity with desktop.
+    category: Updates
