@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-24-Beacon-Streaming-Community-Stats",
+    title: "Beacon streaming, community stats, and mobile fixes",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-24",
+    excerpt: "Beacon recording starts on publish, Service Credits appear in weekly stats, mobile What Works suggest button fixed.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-24-Foundation-Direct-Line",
     title: "Foundation Direct Line and profile edits now live",
     repo: "chargingthefuture/chargingthefuture",

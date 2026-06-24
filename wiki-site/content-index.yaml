@@ -1084,3 +1084,9 @@ articles:
     date: "2026-06-24"
     excerpt: Foundation quote requests now include Direct Line chat. Members can edit their own directory profiles.
     category: Updates
+  - slug: Product-Update-2026-06-24-Beacon-Streaming-Community-Stats
+    title: Beacon streaming, community stats, and mobile fixes
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-24"
+    excerpt: Beacon recording starts on publish, Service Credits appear in weekly stats, mobile What Works suggest button fixed.
+    category: Updates
