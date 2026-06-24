@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-24-Foundation-Direct-Line",
+    title: "Foundation Direct Line and profile edits now live",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-24",
+    excerpt: "Foundation quote requests now include Direct Line chat. Members can edit their own directory profiles.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-23-Account-Deletion-Peer-Programming",
     title: "Account deletion, Peer Programming rosters, and backend updates",
     repo: "chargingthefuture/chargingthefuture",
