@@ -22,6 +22,14 @@ export const ARTICLES: ArticleMeta[] = [
     category: "Updates"
   },
   {
+    slug: "Product-Update-2026-06-24-Blocking-and-Foundation-Calls",
+    title: "Blocking, Foundation calls, and plugin names",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-24",
+    excerpt: "Member blocking, Foundation instant calls with consent preview, and clearer plugin naming.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-24-Foundation-Direct-Line",
     title: "Foundation Direct Line and profile edits now live",
     repo: "chargingthefuture/chargingthefuture",

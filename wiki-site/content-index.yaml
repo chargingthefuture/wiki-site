@@ -1090,3 +1090,9 @@ articles:
     date: "2026-06-24"
     excerpt: Beacon recording starts on publish, Service Credits appear in weekly stats, mobile What Works suggest button fixed.
     category: Updates
+  - slug: Product-Update-2026-06-24-Blocking-and-Foundation-Calls
+    title: Blocking, Foundation calls, and plugin names
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-24"
+    excerpt: Member blocking, Foundation instant calls with consent preview, and clearer plugin naming.
+    category: Updates
