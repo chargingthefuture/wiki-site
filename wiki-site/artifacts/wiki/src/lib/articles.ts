@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-25-Credits-Calls-Search",
+    title: "Service Credits wallet, instant calls, and search updates",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-25",
+    excerpt: "Wallet history, instant call billing per minute, directory search by skill type, Game Designers occupation, and admin feedback visibility.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-25-Member-Blocking-and-Safety-Escalation",
     title: "Block members and escalate safety concerns",
     repo: "chargingthefuture/chargingthefuture",
