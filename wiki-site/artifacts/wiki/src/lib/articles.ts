@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-25-Member-Blocking-and-Safety-Escalation",
+    title: "Block members and escalate safety concerns",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-25",
+    excerpt: "Block members and optionally flag safety concerns when blocking is tied to harassment or threats.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-24-Beacon-Streaming-Community-Stats",
     title: "Beacon streaming, community stats, and mobile fixes",
     repo: "chargingthefuture/chargingthefuture",
