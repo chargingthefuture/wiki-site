@@ -30,6 +30,14 @@ export const ARTICLES: ArticleMeta[] = [
     category: "Updates"
   },
   {
+    slug: "Product-Update-2026-06-26-Workforce-Mood-Chyme-Fixes",
+    title: "Workforce, Mood, and Chyme fixes now live",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-26",
+    excerpt: "Workforce, Mood, and Chyme now more stable. Dashboard crashes fixed, privacy copy corrected, mobile chat improved.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-25-Credits-Calls-Search",
     title: "Service Credits wallet, instant calls, and search updates",
     repo: "chargingthefuture/chargingthefuture",
