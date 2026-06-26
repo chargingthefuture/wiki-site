@@ -1108,3 +1108,9 @@ articles:
     date: "2026-06-25"
     excerpt: Wallet history, instant call billing per minute, directory search by skill type, Game Designers occupation, and admin feedback visibility.
     category: Updates
+  - slug: Product-Update-2026-06-26-Workforce-Mobile-Foundation
+    title: Workforce tracker, mobile chat, and blocking tools live
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-26"
+    excerpt: Workforce tracker, mobile Foundation Direct Line chat, member blocking, and wallet history.
+    category: Updates
