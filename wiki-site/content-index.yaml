@@ -1114,3 +1114,9 @@ articles:
     date: "2026-06-26"
     excerpt: Workforce tracker, mobile Foundation Direct Line chat, member blocking, and wallet history.
     category: Updates
+  - slug: Product-Update-2026-06-26-Code-Review-Tracking-Push-Notifications
+    title: Code review and push notifications now live
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-26"
+    excerpt: Code-review deduplication, Foundation push notifications on Android, and mobile display fixes.
+    category: Updates

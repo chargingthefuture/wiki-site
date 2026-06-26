@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-26-Code-Review-Tracking-Push-Notifications",
+    title: "Code review and push notifications now live",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-26",
+    excerpt: "Code-review deduplication, Foundation push notifications on Android, and mobile display fixes.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-26-Workforce-Mobile-Foundation",
     title: "Workforce tracker, mobile chat, and blocking tools live",
     repo: "chargingthefuture/chargingthefuture",
