@@ -1138,3 +1138,9 @@ articles:
     date: "2026-06-27"
     excerpt: Fixed payment address loading in admin profiles. Added Commons A/B test visibility. Improved issue queue selection.
     category: Updates
+  - slug: Product-Update-2026-06-27-Code-Review-Fixes
+    title: Code review fixes across all core skills
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-27"
+    excerpt: Code review fixes across Level Up, Peer Programming, TrustTransport, Service Credits, and six other core skills.
+    category: Updates

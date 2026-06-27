@@ -22,6 +22,14 @@ export const ARTICLES: ArticleMeta[] = [
     category: "Updates"
   },
   {
+    slug: "Product-Update-2026-06-27-Code-Review-Fixes",
+    title: "Code review fixes across all core skills",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-27",
+    excerpt: "Code review fixes across Level Up, Peer Programming, TrustTransport, Service Credits, and six other core skills.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-26-Code-Review-Tracking-Push-Notifications",
     title: "Code review and push notifications now live",
     repo: "chargingthefuture/chargingthefuture",
