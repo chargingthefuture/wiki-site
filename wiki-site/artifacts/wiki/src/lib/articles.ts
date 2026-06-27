@@ -22,6 +22,14 @@ export const ARTICLES: ArticleMeta[] = [
     category: "Updates"
   },
   {
+    slug: "Product-Update-2026-06-26-Security-Fixes-Plugin-Naming",
+    title: "Security fixes and plugin naming updates",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-26",
+    excerpt: "Security updates, plugin naming consistency, Chyme guest-listen enforcement, and an early-access experiment for Commons.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-26-Workforce-Mobile-Foundation",
     title: "Workforce tracker, mobile chat, and blocking tools live",
     repo: "chargingthefuture/chargingthefuture",
