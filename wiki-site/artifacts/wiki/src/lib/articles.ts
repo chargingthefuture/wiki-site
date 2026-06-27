@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-27-Admin-Tools-Commons-Testing",
+    title: "Admin tools and Commons testing updates",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-27",
+    excerpt: "Fixed payment address loading in admin profiles. Added Commons A/B test visibility. Improved issue queue selection.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-26-Code-Review-Tracking-Push-Notifications",
     title: "Code review and push notifications now live",
     repo: "chargingthefuture/chargingthefuture",
