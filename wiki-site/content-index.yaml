@@ -1144,3 +1144,9 @@ articles:
     date: "2026-06-27"
     excerpt: Code review fixes across Level Up, Peer Programming, TrustTransport, Service Credits, and six other core skills.
     category: Updates
+  - slug: Product-Update-2026-06-28-Navigation-Audit-Fixes
+    title: Back button added, audit fixes, and mobile improvements
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-28"
+    excerpt: Back button navigation standardized across all screens; LightHouse audit tracking and data field fixes merged.
+    category: Updates

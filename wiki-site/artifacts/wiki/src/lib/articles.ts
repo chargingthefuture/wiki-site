@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-28-Navigation-Audit-Fixes",
+    title: "Back button added, audit fixes, and mobile improvements",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-28",
+    excerpt: "Back button navigation standardized across all screens; LightHouse audit tracking and data field fixes merged.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-27-Admin-Tools-Commons-Testing",
     title: "Admin tools and Commons testing updates",
     repo: "chargingthefuture/chargingthefuture",
