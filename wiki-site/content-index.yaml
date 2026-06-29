@@ -1150,3 +1150,9 @@ articles:
     date: "2026-06-28"
     excerpt: Back button navigation standardized across all screens; LightHouse audit tracking and data field fixes merged.
     category: Updates
+  - slug: Product-Update-2026-06-29-LevelUp-Auto-Cohorts
+    title: LevelUp now auto-builds training cohorts from workforce gaps
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-06-29"
+    excerpt: LevelUp auto-creates training cohorts from workforce gaps; Workforce snapshot now live and accurate.
+    category: Updates
