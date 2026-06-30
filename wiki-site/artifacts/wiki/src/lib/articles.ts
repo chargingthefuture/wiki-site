@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-06-30-LevelUp-Android-Parity",
+    title: "LevelUp cohorts, Mood resources, and mobile fixes",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-06-30",
+    excerpt: "Android LevelUp controls, live performance numbers, mobile rendering fixes, and Mood resources redesign.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-29-LevelUp-Auto-Cohorts",
     title: "LevelUp now auto-builds training cohorts from workforce gaps",
     repo: "chargingthefuture/chargingthefuture",
