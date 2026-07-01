@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-07-01-TrustTransport-Proof-Settlement",
+    title: "TrustTransport: proof capture and settlement now live",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-07-01",
+    excerpt: "TrustTransport proof capture, automatic settlement, and earnings payouts are now live.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-06-30-LevelUp-Android-Parity",
     title: "LevelUp cohorts, Mood resources, and mobile fixes",
     repo: "chargingthefuture/chargingthefuture",

@@ -1162,3 +1162,9 @@ articles:
     date: "2026-06-30"
     excerpt: Android LevelUp controls, live performance numbers, mobile rendering fixes, and Mood resources redesign.
     category: Updates
+  - slug: Product-Update-2026-07-01-TrustTransport-Proof-Settlement
+    title: 'TrustTransport: proof capture and settlement now live'
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-07-01"
+    excerpt: TrustTransport proof capture, automatic settlement, and earnings payouts are now live.
+    category: Updates
