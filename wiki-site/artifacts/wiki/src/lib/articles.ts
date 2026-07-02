@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-07-02-Android-Transport-Earnings-Chyme-Graceful-Fallback",
+    title: "TrustTransport and Chyme updates for Android",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-07-02",
+    excerpt: "TrustTransport Android earnings, trip chat, and Chyme fallback stability ship this week.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-07-01-Navigation-and-Contributions",
     title: "Contributions and account navigation are easier to find",
     repo: "chargingthefuture/chargingthefuture",
