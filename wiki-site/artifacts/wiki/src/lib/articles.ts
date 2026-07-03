@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-07-03-Skills-Taxonomy-Fixes",
+    title: "Skills taxonomy fixed and streamlined",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-07-03",
+    excerpt: "Fixed skills taxonomy collision detection, audit tracking, and mobile display issues. Your profile data stays accurate.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-07-02-Android-Transport-Earnings-Chyme-Graceful-Fallback",
     title: "TrustTransport and Chyme updates for Android",
     repo: "chargingthefuture/chargingthefuture",
