@@ -1192,3 +1192,9 @@ articles:
     date: "2026-07-04"
     excerpt: Stable usernames for unnamed members, fixed Quora links, and streamlined marketing skills.
     category: Updates
+  - slug: Product-Update-2026-07-04-Admin-Demo-Banner-Mobile
+    title: Admin demo banner now works better on mobile
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-07-04"
+    excerpt: Admin demo banner on mobile devices now reserves space instead of covering the navigation menu.
+    category: Updates

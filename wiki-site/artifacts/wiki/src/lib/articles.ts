@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-07-04-Admin-Demo-Banner-Mobile",
+    title: "Admin demo banner now works better on mobile",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-07-04",
+    excerpt: "Admin demo banner on mobile devices now reserves space instead of covering the navigation menu.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-07-04-Profile-Handles-Skill-Cleanup",
     title: "Cleaner profiles, stable usernames, and skill updates",
     repo: "chargingthefuture/chargingthefuture",
