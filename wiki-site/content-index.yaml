@@ -1186,3 +1186,9 @@ articles:
     date: "2026-07-03"
     excerpt: Fixed skills taxonomy collision detection, audit tracking, and mobile display issues. Your profile data stays accurate.
     category: Updates
+  - slug: Product-Update-2026-07-04-Profile-Handles-Skill-Cleanup
+    title: Cleaner profiles, stable usernames, and skill updates
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-07-04"
+    excerpt: Stable usernames for unnamed members, fixed Quora links, and streamlined marketing skills.
+    category: Updates

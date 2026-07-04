@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-07-04-Profile-Handles-Skill-Cleanup",
+    title: "Cleaner profiles, stable usernames, and skill updates",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-07-04",
+    excerpt: "Stable usernames for unnamed members, fixed Quora links, and streamlined marketing skills.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-07-03-Skills-Taxonomy-Fixes",
     title: "Skills taxonomy fixed and streamlined",
     repo: "chargingthefuture/chargingthefuture",
