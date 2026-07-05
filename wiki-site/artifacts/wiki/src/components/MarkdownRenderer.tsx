@@ -1,6 +1,9 @@
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import rehypeRaw from 'rehype-raw';
+import rehypeSanitize from 'rehype-sanitize';
 import { cn } from '@/lib/utils';
+import { rehypeDiscourseCleanup, stripDiscourseImportArtifacts } from '@/lib/discourse-html';
 
 interface MarkdownRendererProps {
   content: string;
@@ -35,16 +38,23 @@ export function MarkdownRenderer({ content, className, repo }: MarkdownRendererP
   }
 
   // Pre-process markdown to fix common wiki artifacts if necessary
-  const processedContent = content
-    // Remove the generic wiki "Jump to bottom" or "Skip to content" stuff
-    .replace(/\[Skip to content\]\(.*?\)/g, '')
-    .replace(/\[Jump to bottom\]\(.*?\)/g, '')
-    .replace(/You signed in with another tab or window.*?Dismiss alert/g, '');
+  const processedContent = stripDiscourseImportArtifacts(
+    content
+      // Remove the generic wiki "Jump to bottom" or "Skip to content" stuff
+      .replace(/\[Skip to content\]\(.*?\)/g, '')
+      .replace(/\[Jump to bottom\]\(.*?\)/g, '')
+      .replace(/You signed in with another tab or window.*?Dismiss alert/g, '')
+  );
 
   return (
     <div className={cn("prose prose-invert max-w-4xl mx-auto", className)}>
-      <ReactMarkdown 
+      <ReactMarkdown
         remarkPlugins={[remarkGfm]}
+        // Discourse-imported pages embed raw HTML. rehype-raw parses it so it
+        // renders as content instead of literal tags; the cleanup plugin
+        // rewrites Discourse chrome (oneboxes, quote headers) into plain
+        // links/blockquotes; rehype-sanitize strips anything unsafe.
+        rehypePlugins={[rehypeRaw, rehypeDiscourseCleanup, rehypeSanitize]}
         components={{
           // Customizing components to ensure they fit the aesthetic and don't break
           img: ({ node, ...props }) => {

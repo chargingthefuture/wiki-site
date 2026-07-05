@@ -690,7 +690,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "About the Craigslist category",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: About the Craigslist category",
+    excerpt: "I originally created the circular economy amongst Targeted Individuals on Quora, via the TI Skills Network space. But then Quora banned my account…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -698,7 +698,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Adding campers to LightHouse",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Adding campers to LightHouse",
+    excerpt: "Any TIs with working campers who want to be a part of the TI economy? My initial thoughts are to join to share experiences and tips on maintaining your camper…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -706,7 +706,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Always have your camera ready",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Always have your camera ready",
+    excerpt: "TIs already know to always have a camera on you. As every day they will try some provocation for their slander campaign. Post forthcoming - what to have in…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -714,7 +714,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Am I getting gangstalked? Why do I hear a motor passing by whenever I finish watching a show, but when I always focus on the sound it doesn't come out?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Am I getting gangstalked? Why do I hear a motor passing by whenever I finish watching a show, but when I always focus on the sound it doesn't come out?",
+    excerpt: "Not necessarily. Multiple people are being gang stalked in an area. Therefore, it could be someone else. Or multiple others who are the TIs. They will…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -722,7 +722,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Any TI HVAC techs?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Any TI HVAC techs?",
+    excerpt: "I am creating a list of TI car mechanics, from what I know HVAC is high demand. A list of TI HVAC techs we can call on might be useful. Anyone else agree?",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -730,7 +730,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Are gangstalkers protected by real investigators?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Are gangstalkers protected by real investigators?",
+    excerpt: "Gangstalkers protect each other. Investigators are as protected as a police officer gstalker, a cashier gstalker, etc. Profession is not relevant. Rather, the…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -738,7 +738,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Are people who harass and gang stalk others mentally ill?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Are people who harass and gang stalk others mentally ill?",
+    excerpt: "Yes, some are. Earlier this year, there were about ~100 mentally ill/homeless/drug addicts, including their children, stalking me and provoking me in public…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -746,7 +746,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "At your service",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: At your service",
+    excerpt: "The Specterati became overt on me on January 1, 2024. And this year is when I decided to work full-time in aiding TIs after they started starving me out. I am…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -754,7 +754,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Blocking radiation thread",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Blocking radiation thread",
+    excerpt: "As with all my posts, this is a “living post” as I learn new information, it will be updated. Many TIs, such as myself, experience DEWs (direct energy…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -762,7 +762,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Book 1: Religion and the Rise of Capitalism",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Book 1: Religion and the Rise of Capitalism",
+    excerpt: "The first objective in me reading on economics is to unpack, at present day, what is my understanding of economics. So that I can articulate better the…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -770,7 +770,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Book 2: Backyard Farming",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Book 2: Backyard Farming",
+    excerpt: "Today I start Backyard Farming by Adams Media. This relates to the TI economy initiative of a gated community. And relying less on the Specerati for food. One…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -778,7 +778,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Book 3: How Are You Going to Pay For That?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Book 3: How Are You Going to Pay For That?",
+    excerpt: "Last night I started How Are You Going to Pay For That? by Ryan Cooper. I have been browsing the economics section of the public library and it caught my…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -786,7 +786,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Book club anyone?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Book club anyone?",
+    excerpt: "I went to the library today and grabbed a bunch of random books in the economics section. Reading up on various topics to provide inspiration and expand my…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -794,7 +794,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Can electronic harassment send specific dreams whilst you sleep?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Can electronic harassment send specific dreams whilst you sleep?",
+    excerpt: "Yes. It only happened to me one time. They (gang stalkers) do it to my mother, perhaps every night, to dictate her actions during the day. She is religious.…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -802,7 +802,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Can gang stalkers keep you from getting a job?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Can gang stalkers keep you from getting a job?",
+    excerpt: "Yes. Another TI taught me about healthy volunteer studies, the only job I can get. It’s where pharma companies pay you to test safe medicine. It’s safe…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -810,7 +810,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Changing the colloquial name for group vigilantism",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Changing the colloquial name for group vigilantism",
+    excerpt: "The colloquial name for group vigilanteism is gang stalking. And I am personally tired of using it. Recently, a TI mentioned that they had not joined TI…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -818,7 +818,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Collecting vitals 24/7",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Collecting vitals 24/7",
+    excerpt: "For the past few days, I’ve been testing various smartwatches that continuously record your vitals. I did this because, like other targeted individuals, I…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -826,7 +826,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Consequences vary based on what you can be inconvenienced with",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Consequences vary based on what you can be inconvenienced with",
+    excerpt: "If someone tells or hints to the Target that they are being stalked, they will be asked to do some form of theatre in front of the Target at a later date. I…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -834,7 +834,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Could these people convinced they are \"Christian Warriors\" be stalking me just because I am homeless?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Could these people convinced they are \"Christian Warriors\" be stalking me just because I am homeless?",
+    excerpt: "No. To be gang stalked means you made “the wrong person (narcissist) mad.” Significant amounts of homeless people are gang stalkers. ANY petty reason could…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -842,7 +842,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Damon Mayle, posing as a TI",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Damon Mayle, posing as a TI",
+    excerpt: "Yesterday November 11, I met a fake TI from Quora. This person wanted a spot within a TI gated community that was organized 100% via Quora. My guess they…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -850,7 +850,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Did targeted individuals know that gang stalkers are told they are stalking innocent people for God when they are doing it for the devils they work with and money only?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Did targeted individuals know that gang stalkers are told they are stalking innocent people for God when they are doing it for the devils they work with ",
+    excerpt: "If someone is triggered by racism. They will say you are a racist. If someone works at Facebook, they will tell the Facebook employees, you hate Facebook…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -858,7 +858,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Directory mini-app, updated - more skills added",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Directory mini app, updated more skills added",
+    excerpt: "I updated the skills field in the app. It now has a variety of more options. This is part of the Directory feature. Where you create a simple profile. First,…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -866,7 +866,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Do gang stalkers know that they are gang stalking?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Do gang stalkers know that they are gang stalking?",
+    excerpt: "Yes. Though are all doing it for different reasons. It is easy to verify. Mention the phrase gang stalking and notice how they know what you are talking about…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -874,7 +874,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Do gang stalkers move up in rank?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Do gang stalkers move up in rank?",
+    excerpt: "Yes. It is organized crime. And all organizations have hierarchy.",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -882,7 +882,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Do gang stalkers steal?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Do gang stalkers steal?",
+    excerpt: "Yes. They stole ~90% of my clothes, car, mail (or delivered it opened), business ideas, and intellectual property. On Quora: https://qr.ae/pCnNYy",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -890,7 +890,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Do not obsess about what rumor they spread",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Do not obsess about what rumor they spread",
+    excerpt: "Do not obsess about what rumor gang stalkers spread. The reality is they will spread them even if you did not say or do anything. They say these things about…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -898,7 +898,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Does gang stalking exist?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Does gang stalking exist?",
+    excerpt: "Yes. https://www.quora.com/What-is-gang-stalking/answer/Jessica-White-823",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -906,7 +906,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Farah’s Micro Blog September 19 2025",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Farah’s Micro Blog September 19 2025",
+    excerpt: "I tried podcasting and did not like it much. I also did not latch on to vlogging either. I might revisit them in the future. I do not mind voice to text and…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -914,7 +914,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Farah’s Micro Blog September 20 2025",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Farah’s Micro Blog September 20 2025",
+    excerpt: "I made a post yesterday about the games they plan. And so at 4 am this morning two police officers came with their brighten and compliments on my bag.",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -922,7 +922,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Farah’s Micro Blog September 21 2025",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Farah’s Micro Blog September 21 2025",
+    excerpt: "I have just rapped up Day #5 of my fitness challenge. And I am blogging about it: Fitness challenge? - #4 by farah. And I notice an old man, had to be at…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -930,7 +930,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Farah’s MicroBlog September 25 2025",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Farah’s MicroBlog September 25 2025",
+    excerpt: "Welp, there is a first time for everything. Today for the first time in my life I was permanently banned from a location. Everyday I go to a park and watch…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -938,7 +938,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Farah’s Mirco Blog September 22 2025",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Farah’s Mirco Blog September 22 2025",
+    excerpt: "Lyndon B. Johnson once said, “If you can convince the lowest man he’s better than the best man, he won’t notice you’re picking his pocket.” This statement…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -946,7 +946,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Fitness challenge?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Fitness challenge?",
+    excerpt: "Any TIs looking to do a fitness challenge? My main exercise will be jump roping. Specifically I have this one: https://a.co/d/1PMUD2E It is cordless and comes…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -954,7 +954,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Gang stalking only has malicious intent",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Gang stalking only has malicious intent",
+    excerpt: "How can you tell if someone involved in gang stalking is doing it out of desperation or if they genuinely have malicious intent? Gang stalking is a choice.…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -962,7 +962,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Get your invite code!",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Get your invite code!",
+    excerpt: "We have an odd number of sign ups on SupportMatch. Please join us, and be matched almost same day with another TI! Use SupportMatch to meet other TIs, form…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -970,7 +970,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Given your belief that gang stalkers have taken over, how do you decide if an act of kindness you receive while panhandling is genuinely from the giver or influenced by external forces?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Given your belief that gang stalkers have taken over, how do you decide if an act of kindness you receive while panhandling is genuinely from the giver o",
+    excerpt: "Not sure I understand the question. If you are a TI, how would you decide if any act of kindness is genuine? Apply the same to panhandling. What you receive…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -978,7 +978,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Good things are happening, hang in there",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Good things are happening, hang in there",
+    excerpt: "Point of this post is to say I am no different than any other TI and each day I think of all you. I have survived over 10 years of physical violence and…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -986,7 +986,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Has anyone had a real attempt at their life by gang stalkers?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Has anyone had a real attempt at their life by gang stalkers?",
+    excerpt: "Yes, multiple times.",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -994,7 +994,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Have you ever felt like life is rigged against you-watched, blocked, or sabotaged at every turn? If you are a targeted individual, what's your strategy to reclaim your sovereignty?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Have you ever felt like life is rigged against you watched, blocked, or sabotaged at every turn? If you are a targeted individual, what's your strategy t",
+    excerpt: "I started a circular economy with other TIs. Its first iteration is a space on Quora, TI Skills Network. Quora seems to be the best way to meet TIs. I suggest…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1010,7 +1010,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "How can I distinguish between real threats and feelings of being targeted by gang stalking, and when should I seek help?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: How can I distinguish between real threats and feelings of being targeted by gang stalking, and when should I seek help?",
+    excerpt: "Not sure if your question makes sense. Gang stalking threats are real threats. An exception is street theatre, which is staged altercations to provoke you for…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1018,7 +1018,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "How can we get the most out of our lives being a gang stalking victim?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: How can we get the most out of our lives being a gang stalking victim?",
+    excerpt: "How can we get the most out of our lives being a gang stalking victim? Accept that gang stalking won’t end anytime soon. And begin networking with other TIs.…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1026,7 +1026,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "How do gang stalkers recruit?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: How do gang stalkers recruit?",
+    excerpt: "At its simplest form, gossip. It is like this episode of Baby Blues: However, there a many other angles to recruit. For example, some might only be motivated…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1034,7 +1034,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "How do I drown out noise from multiple stalkers?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: How do I drown out noise from multiple stalkers?",
+    excerpt: "AirPods Pro earbuds are the best. They also work with Android. Get a second device and play in the background “the most annoying\" sounds playlist from YouTube…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1042,7 +1042,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "How do my creepy neighbors who have hacked my cell phone change what the articles are in Quora/what I see on Quora? Sometimes Quora doesn't even look like itself",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: How do my creepy neighbors who have hacked my cell phone change what the articles are in Quora/what I see on Quora? Sometimes Quora doesn't even look lik",
+    excerpt: "There are different ways. The most plausible: They are following you and asking you questions. This will influence the algorithm to push their gaslighting…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1050,7 +1050,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "How do you communicate to tormentors that the real underlying reason they target you is because their handler stirred up drama over genetic research with people who had no power to change the results and she had no business using the data?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: How do you communicate to tormentors that the real underlying reason they target you is because their handler stirred up drama over genetic research with",
+    excerpt: "You can outright tell them. I bet, however, they are not going to care. These people think they are judge, jury, and executioner. A mentally stable person…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1058,7 +1058,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "How do you effectively vet new members for your TI circular economy when \"gang stalkers\" actively try to mimic and infiltrate TI communities?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: How do you effectively vet new members for your TI circular economy when \"gang stalkers\" actively try to mimic and infiltrate TI communities?",
+    excerpt: "The same way a TI vets anyone post being gang stalked. One sure way is that gang stalkers cannot materially help. And when they do try to “help,” they leave a…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1066,7 +1066,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "How exactly do gang stalkers monitor your computer activity and steal files and information? Is there a way to stop it?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: How exactly do gang stalkers monitor your computer activity and steal files and information? Is there a way to stop it?",
+    excerpt: "There are many ways. One way was to compromise the Wi-Fi network I was connected to and block the use of VPNs. And using a firmware exploit to copy offline…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1074,7 +1074,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "How to find your payments",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: How to find your payments",
+    excerpt: "For those who may not be aware, there is a monthly fee to use the app, which is currently set at $1. The app operates on an invite-only basis. I have created…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1082,7 +1082,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "I do not think there is such a thing as a TI being a gang stalker simultaneously",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: I do not think there is such a thing as a TI being a gang stalker simultaneously",
+    excerpt: "Could a targeted individual be also active in gang stalking? No. Once a target, always a target. A gang stalker, for whatever reason they have joined, is in a…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1090,7 +1090,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "I do not want to be another Quora: New DM Policy and Psyop Awareness",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: I do not want to be another Quora: New DM Policy and Psyop Awareness",
+    excerpt: "Starting today, November 15, 2025, I’m implementing a new policy regarding my personal interactions within the TI economy. I will no longer engage in…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1098,7 +1098,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "I know this sounds far fetched but do gang stalkers have devices that can cause nightmares and bad dreams or maybe it's just a byproduct of the constant abuses I've suffered?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: I know this sounds far fetched but do gang stalkers have devices that can cause nightmares and bad dreams or maybe it's just a byproduct of the constant ",
+    excerpt: "Yes. But it only happened to me one time. They do it to my mother, perhaps every night, to dictate her actions during the day. She is religious, and they use…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1106,7 +1106,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "If you are a targeted individual and being gang stalked can you get a lawyer to help you with an unrelated civil matter without worrying they are notified and part of the covert harassment?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: If you are a targeted individual and being gang stalked can you get a lawyer to help you with an unrelated civil matter without worrying they are notifie",
+    excerpt: "I am 99% sure the answer is no. You can try. Just have low expectations. It is not even about being a lawyer. Gang stalkers harass and sabotage anyone who is…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1114,7 +1114,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "If you think you've been targeted or \"gangstalked\" at work, what steps did you take to protect yourself and secure your employment?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: If you think you've been targeted or \"gangstalked\" at work, what steps did you take to protect yourself and secure your employment?",
+    excerpt: "If possible secretly record at the very least audio. They will workplace mob you. And them knowing they are being recorded will reduce the harassment…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1122,7 +1122,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Introduce yourself",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Introduce yourself",
+    excerpt: "Hi!!! Here we could post a brief intro of ourselves. As much or as little as you like to but I ask everyone to pop in and say hello, let’s start to move…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1130,7 +1130,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Is gang stalking demonic?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Is gang stalking demonic?",
+    excerpt: "How do you define demonic? Does it include organized crime? Meaning a human trafficking ring organized by the likes of stalkers, thieves, drug dealers, cults,…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1138,7 +1138,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Is it possible I’ve always been stalked but just didn’t notice till 6 years ago? Is it possible I’m being stalked for a bigger purpose than I pissed someone off high up in law enforcement",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Is it possible I’ve always been stalked but just didn’t notice till 6 years ago? Is it possible I’m being stalked for a bigger purpose than I pissed some",
+    excerpt: "Question on Quora: Is it possible I’ve always been stalked but just didn’t notice till 6 years ago? Is it possible I’m being stalked for a bigger purpose than…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1146,7 +1146,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Is there a good form of gang stalking?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Is there a good form of gang stalking?",
+    excerpt: "Gang stalking = group vigilantism. Which is like asking if there is a good form of raping someone. Or rather, “is there a good form of sexual assault [forced…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1154,7 +1154,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "I've been gangstalked since 2016. Today, I no going to keep fighting anymore. Is anyone keeping a list of those lost to this?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: I've been gangstalked since 2016. Today, I no going to keep fighting anymore. Is anyone keeping a list of those lost to this?",
+    excerpt: "Original post on Quora: Aug 16, 2025 09:17 AM PDT This question appears to be from two years ago. But relevant now. As a TI, it is important to attempt,…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1162,7 +1162,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Less is more, the quest for simple",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Less is more, the quest for simple",
+    excerpt: "I like Melissa Jean Hayes comment about less is more in Targeted life. But also in life in general.…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1170,7 +1170,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Lots of people on here recommend praying. How can there be a god (with all due respect) when this evil gang stalking program goes unpunished?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Lots of people on here recommend praying. How can there be a god (with all due respect) when this evil gang stalking program goes unpunished?",
+    excerpt: "Praying will do nothing about gang stalking; they are either gaslighting you or ignorant. When someone says that, consider them suggesting you go for a run to…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1178,7 +1178,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Mental Health Professional Training",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Mental Health Professional Training",
+    excerpt: "I had a phone conversation with someone who I believe is a TI. And they were crying on the phone call the entire time as they were speaking. I intentionally…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1186,7 +1186,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Off grid living on the go",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Off grid living on the go",
+    excerpt: "Off grid living on the go, tips thanks to Snave Seer Canada you can camp on Crown Land for free for 21 days per site. Similar rules apply in some US states.…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1194,7 +1194,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "One solution to clothes theft",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: One solution to clothes theft",
+    excerpt: "One solution to clothes theft Unrelated to Specterati I am a minimalist. Though it was not until the overt stalking began that I learned about merino wool. If…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1202,7 +1202,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Perfection does not equate to excellance",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Perfection does not equate to excellance",
+    excerpt: "I have not found post, but I mentioned twice previously that I have significant typos in my posts. And that I am doubling back and copy editing posts…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1210,7 +1210,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Perp Alert “Aaron Andrew”",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Perp Alert “Aaron Andrew”",
+    excerpt: "Perp alert: https://www.quora.com/profile/Aaron-Andrew-67 I will drag each and every one of you. Join this: Signal Group for the screenshots of the DMs of…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1218,7 +1218,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Perps cannot last 8 hours in the TI economy",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Perps cannot last 8 hours in the TI economy",
+    excerpt: "Friendly reminder that the TI chat group is for active participants in the TI economy. Signal Messenger Group All TIs welcome if they want to be active.…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1226,7 +1226,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "[Poll] How is this forum?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: [Poll] How is this forum?",
+    excerpt: "It has been slightly over two weeks since I started this forum. It is the hub for the world’s first-ever TI economy! \\nWhat is your feedback so far? Leave the…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1234,7 +1234,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Privacy Policy",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Privacy Policy",
+    excerpt: "What information do we collect?\\nWe collect information from you when you register on our site and gather data when you participate in the forum by reading,…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1242,7 +1242,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Support Match Waitlist",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Support Match Waitlist",
+    excerpt: "Hello everyone! \\nSupportMatch was released on September 14th, 2025 and we have not reached 25 users yet. Which is by no means a failure, it has not been a…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1250,7 +1250,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Terms of Service",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Terms of Service",
+    excerpt: "Change Me\\nForum Admin, please find below an example starting template for a privacy policy that you should customise to meet your site’s needs. \\nThese terms…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1258,7 +1258,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "TIs you can share your stories in this forum",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: TIs you can share your stories in this forum",
+    excerpt: "When I created TI Skills Network on Quora, I respectfully asked to limit story telling. However, in this forum all is welcomed. You can share TI stories and…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1266,7 +1266,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "TV shows depicting the Speceterati",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: TV shows depicting the Speceterati",
+    excerpt: "I am re-watching the TV show The Good Place. \\nThis space is exclusively for Targeted Individuals. However, if there is a random non-target/non-perp, the very…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1274,7 +1274,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Welcome to your 14 day Starter hosting trial!",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Welcome to your 14 day Starter hosting trial!",
+    excerpt: "Hello and welcome to your 14 day free trial of Discourse! \\nAs a Starter hosted customer, you’ll get: \\n\\nUnlimited members\\n2 admins & moderators\\n10k…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1282,7 +1282,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Were gang stalkers ever stalked themselves?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Were gang stalkers ever stalked themselves?",
+    excerpt: "This question makes no sense. Gang stalkers are “people,” and outside of gang stalking, they experience typical human events. Gang stalking does NOT equal…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1290,7 +1290,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "What are some common misconceptions about gang stalking, and why do people often associate it with spiritual battles?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: What are some common misconceptions about gang stalking, and why do people often associate it with spiritual battles?",
+    excerpt: "Gang stalkers propagate it by telling TIs this. Or maybe a TI first said it and the gstalkers decided to spread the lie themselves. As the lie was a great way…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1298,7 +1298,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "What are the worst states for gang stalking?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: What are the worst states for gang stalking?",
+    excerpt: "Ancedontally, California appears to be #1. Aside from that, every state has it. \\nThey will follow you to any town in any state and make it your “worst”…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1306,7 +1306,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "What do gang stalkers say about targeted people that isn't true?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: What do gang stalkers say about targeted people that isn't true?",
+    excerpt: "I only know of some. To my job, they said I am on drugs, to others that I “threaten” people, as read ironically in an email from a hot-headed, unconvicted…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1314,7 +1314,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "What do I do to make it easier as a TI? I’m evicted from my home, have had 2 months to pack but can’t seem to pack. I don’t want to leave everything behind but something tells me I HAVE NO CHOICE",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: What do I do to make it easier as a TI? I’m evicted from my home, have had 2 months to pack but can’t seem to pack. I don’t want to leave everything behi",
+    excerpt: "It sounds like you have no place to go. In which case, get rid of/sell as much as possible. As insane as it sounds, get down to one bag so you can travel.…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1322,7 +1322,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "What has helped you slow down being gang stalked?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: What has helped you slow down being gang stalked?",
+    excerpt: "Curious how you define “slowed down.” \\nThey are selectively choosing how much to reveal in their level of harassment to you. And how much harassment they…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1330,7 +1330,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "What is the very first thing you advise a TI to do after realizing they are being de-platformed from an online service?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: What is the very first thing you advise a TI to do after realizing they are being de platformed from an online service?",
+    excerpt: "You are either de-platformed (banned/kicked out) or not. Prior to this happening, maybe you are shadow-banned. Usually, the platform will also send you…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1338,7 +1338,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "What measures can the government take to prevent gang stalking?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: What measures can the government take to prevent gang stalking?",
+    excerpt: "What measures can the government take to prevent gang stalking? \\nDid Nelson Mandela say it best? \\n“For to be free is not merely to cast off one’s chains,…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1346,7 +1346,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "What other Names do Gang Stalkers use to describe themselves asides from GraveDiggers and Wreckers?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: What other Names do Gang Stalkers use to describe themselves asides from GraveDiggers and Wreckers?",
+    excerpt: "I once called them “the enemy,” and so one of their flying monkeys started using it when speaking to me. Everything is a manipulation. They probably do not…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1354,7 +1354,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "What psychological profiles do gang stalking handlers target?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: What psychological profiles do gang stalking handlers target?",
+    excerpt: "It appears not to be relevant. Each person is controlled in some way. For the handlers, it is about finding out how to control you based on psychological…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1362,7 +1362,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "What resources are available to victims of Gang-Stalking? Can you trust them?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: What resources are available to victims of Gang Stalking? Can you trust them?",
+    excerpt: "To end gang stalking? No, I have not seen anything trustworthy. It is either trolling or naive/ignorant of who orchestrates targeting, and because of this,…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1370,7 +1370,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "What unifies gang stalkers and gang stalking?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: What unifies gang stalkers and gang stalking?",
+    excerpt: "Hate and jealousy. Research known human traffickers, vigilantes, cults, and serial killers to learn about what gang stalkers individually are. \\nAnswer to…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1378,7 +1378,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "What's one practical skill or insight you've learned from being gang stalked that could help others protect themselves?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: What's one practical skill or insight you've learned from being gang stalked that could help others protect themselves?",
+    excerpt: "Other TIs have already said it. But never trust a gang stalker, whether they are nice or mean. Nothing they do is to help; it is always a setup for the next…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1386,7 +1386,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "What's the best life strategy to live with being gang stalked, with work, relationships, and moving? A lot seems impossible now",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: What's the best life strategy to live with being gang stalked, with work, relationships, and moving? A lot seems impossible now",
+    excerpt: "Live life like you are not being gang stalked as much as possible. That aside, when you can, connect with other TIs. It is hard as there are a lot of perps or…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1394,7 +1394,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "What's the one thing with gang stalking that helped you the most when you found out?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: What's the one thing with gang stalking that helped you the most when you found out?",
+    excerpt: "What’s the one thing with gang stalking that helped you the most when you found out? \\nMeeting in person and building relationships with other TIs. I met a TI…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1402,7 +1402,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "When you are gang stalked (community stalked), are there hidden cameras in your house or apartment when you're surveilled, or do they do it via some other technological means?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: When you are gang stalked (community stalked), are there hidden cameras in your house or apartment when you're surveilled, or do they do it via some othe",
+    excerpt: "Based on my research, the $30 cheap devices will not detect them. It is a scam. The only place an average person can get a real scanner is on eBay, and it…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1410,7 +1410,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Where can I find people to join my gang stalking sub Reddit?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Where can I find people to join my gang stalking sub Reddit?",
+    excerpt: "Do you mean an anti-gang stalking subreddit? Gstalkers are criminals; they will not openly admit to active crimes on the Internet. When they retire and know…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1418,7 +1418,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Who is being gangstalked in Chico, CA?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Who is being gangstalked in Chico, CA?",
+    excerpt: "If you are a TI looking to see where other TIs are or want to connect with other TIs, here is a good start: \\nMatthew Cappadocia (aka The Wizard of Oz)'s post…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1426,7 +1426,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Why do targeted individuals often report financial sabotage, and what can be done to safeguard against such actions?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Why do targeted individuals often report financial sabotage, and what can be done to safeguard against such actions?",
+    excerpt: "Nothing at this point. They have bankrupted every one of us. They mob every income stream. And any money you have will be spent defending yourself or…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1434,7 +1434,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Why now and why public?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Why now and why public?",
+    excerpt: "I started a space on Quora, TI Skills Network, and as an Admin my account was abruptly banned and the content was deleted. Why? Because I launched a peer to…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1442,7 +1442,7 @@ export const ARTICLES: ArticleMeta[] = [
     title: "Why would gang stalkers let you know where they live and even invite you there?",
     repo: "chargingthefuture/chargingthefuture",
     date: "2026-03-25",
-    excerpt: "Title: Why would gang stalkers let you know where they live and even invite you there?",
+    excerpt: "Entrapment. They will try to get you to commit a crime, provoke you, or, if you do not do anything, if they have proof you were in the house, falsely accuse…",
     category: "Discourse Community Legacy Post"
   },
   {
@@ -1576,70 +1576,6 @@ export const ARTICLES: ArticleMeta[] = [
     category: "Services"
   },
   {
-    slug: "guides/chyme/Chyme:-TI-social-audio-app",
-    title: "TI Skills Economy Town Hall Room",
-    repo: "chargingthefuture/chargingthefuture",
-    date: "2026-01-01",
-    excerpt: "All members of the TI Skills Economy have access to Chyme, the dedicated Android app for social audio with other TIs. And you can host your own rooms!",
-    category: "Guides"
-  },
-  {
-    slug: "guides/getting-started",
-    title: "How to sign up for the TI Skills Economy in ~5 minutes",
-    repo: "chargingthefuture/chargingthefuture",
-    date: "2026-01-01",
-    excerpt: "1. Go to https://app.chargingthefuture.com and click \"Create Account.\" You are asked for your email address",
-    category: "Guides"
-  },
-  {
-    slug: "guides/lighthouse/hosting",
-    title: "Hosting in LightHouse",
-    repo: "chargingthefuture/chargingthefuture",
-    date: "2026-01-01",
-    excerpt: "Guides post from Charging The Future Wiki.",
-    category: "Guides"
-  },
-  {
-    slug: "guides/scoketrelay/classifed-ads-for-tis",
-    title: "The Classifieds Era Ended and What Replaced It, and What TIs Can Use Now",
-    repo: "chargingthefuture/chargingthefuture",
-    date: "2026-01-01",
-    excerpt: "Craigslist changed local commerce forever: one simple, free classifieds site that let people buy, sell, rent, hire, and swap with almost no friction. Three dec...",
-    category: "Guides"
-  },
-  {
-    slug: "guides/The-12-Services-of-the-TI-Skills-Economy",
-    title: "The 12 mini-apps (services) of the TI Skills Economy",
-    repo: "chargingthefuture/chargingthefuture",
-    date: "2026-01-01",
-    excerpt: "An interactive way to learn how each app assists survivors: https://www.chargingthefuture.com/look-ma-i-fixed-it",
-    category: "Guides"
-  },
-  {
-    slug: "guides/workforce-recruiter/inferring-occupations-from-skills",
-    title: "Inferring occupations from skills",
-    repo: "chargingthefuture/chargingthefuture",
-    date: "2026-01-01",
-    excerpt: "One of the features of Workforce Recruiter is that a survivor can list their skills, and the built-in algorithm will infer what occupations match those skills.",
-    category: "Guides"
-  },
-  {
-    slug: "insights/#49-of-how-TI-Skills-Network-helps-you-exit-the-psyop",
-    title: "#49 of how TI Skills Network helps you exit the psyop",
-    repo: "chargingthefuture/chargingthefuture",
-    date: "2026-01-01",
-    excerpt: "I have listed, with the help of Nat Morris, 50 things the Speceterati do as part of their torturing of humanity. And how the TI Skills Network “fixes” each one.",
-    category: "Insights"
-  },
-  {
-    slug: "insights/insights",
-    title: "Insights",
-    repo: "chargingthefuture/chargingthefuture",
-    date: "2026-01-01",
-    excerpt: "Money Laundering vs a Circular Economy",
-    category: "Insights"
-  },
-  {
     slug: "Home",
     title: "Charging The Future | Live, Work & Prevail",
     repo: "chargingthefuture/chargingthefuture",
@@ -1647,150 +1583,6 @@ export const ARTICLES: ArticleMeta[] = [
     excerpt: "An invite-only platform designed for human trafficking survivors, offering essential services and support with dignity, privacy, and respect.",
     category: "Foundation",
     featured: true
-  },
-  {
-    slug: "member of the day/looking-for-a-cyber-security-expert-meet-altehexer",
-    title: "Looking for a cyber security expert? Meet AlteHexer",
-    repo: "chargingthefuture/chargingthefuture",
-    date: "2025-12-12",
-    excerpt: "Showcasing AlteHexer, a cybersecurity expert. Why? The more we talk about our skills, the more we can interact with each other and exit the psyop. TI Skills Ec...",
-    category: "Member of the Day"
-  },
-  {
-    slug: "member of the day/looking-for-a-financial-advisor-meet-holly-d",
-    title: "Looking for a Financial Advisor? Meet Holly D",
-    repo: "chargingthefuture/chargingthefuture",
-    date: "2025-12-12",
-    excerpt: "Highlighting Holly D. Holly’s Directory profile: https://app.chargingthefuture.com/apps/directory/public/cf681670-b288-4b1d-b45d-c2a37b1984bf The goal of highl...",
-    category: "Member of the Day"
-  },
-  {
-    slug: "member of the day/looking-for-a-photographer-or-musician-lisa-jaramilo",
-    title: "Looking for a photographer or musician? Lisa Jaramilo",
-    repo: "chargingthefuture/chargingthefuture",
-    date: "2025-12-12",
-    excerpt: "Shout out to Lisa Jaramillo, a talented musician and photographer. It is upsetting that because of the Speceterati (gang stalkers), you have lost the ability t...",
-    category: "Member of the Day"
-  },
-  {
-    slug: "member of the day/meet-baba-yaga-business-management",
-    title: "Meet Baba Yaga, Business Management",
-    repo: "chargingthefuture/chargingthefuture",
-    date: "2025-12-12",
-    excerpt: "Highlighting Baba Yaga! Background in criminology and business management. Baba Yaga, I have added you to the TI Skills Economy Directory. Link below. If you w...",
-    category: "Member of the Day"
-  },
-  {
-    slug: "member of the day/welcome-cheryl-community-builder",
-    title: "Welcome Cheryl, Community builder",
-    repo: "chargingthefuture/chargingthefuture",
-    date: "2025-12-12",
-    excerpt: "Special shoutout to Cheryl J WILLIAMS \\nTI Skills Network profile: \\npsyop-free - Live, Work, Prevail \\nhttps://app.chargingthefuture.com/apps/directory/public...",
-    category: "Member of the Day"
-  },
-  {
-    slug: "member of the day/member-of-the-day-krissyy",
-    title: "Member of the Day: Krissyy",
-    repo: "chargingthefuture/chargingthefuture",
-    date: "2025-12-06",
-    excerpt: "Member of the Day: Krissyy\\nHello Krissyy, giving you a shout out as you were part of the first group of TIs to respond to early posts of mine about the TI eco...",
-    category: "Member of the Day"
-  },
-  {
-    slug: "member of the day/welcome-newcomers",
-    title: "Welcome newcomers",
-    repo: "chargingthefuture/chargingthefuture",
-    date: "2025-12-03",
-    excerpt: "I cannot do this without your participation. \\nWelcoming Carrie Wingo to the TI Skills Economy! \\nCarrie, if you have any questions, let me know. There is also...",
-    category: "Member of the Day"
-  },
-  {
-    slug: "member of the day/member-of-the-day-espada",
-    title: "Member of the Day: Espada",
-    repo: "chargingthefuture/chargingthefuture",
-    date: "2025-11-29",
-    excerpt: "Member of the Day: Espada\\nA special shout-out to Espada. He is one of the first people to join the community and offer his skills. He literally joined on Augu...",
-    category: "Member of the Day"
-  },
-  {
-    slug: "member of the day/member-of-the-day-alani",
-    title: "Member of the Day: Alani",
-    repo: "chargingthefuture/chargingthefuture",
-    date: "2025-10-31",
-    excerpt: "Member of the Day: Alani\\nSkill: manufacturing, first-aid &amp; CPR, home improvement, construction &amp; production.\\nAlani is the FIRST TI to join the Direct...",
-    category: "Member of the Day"
-  },
-  {
-    slug: "member of the day/welcome-new-members",
-    title: "Welcome new members!",
-    repo: "chargingthefuture/chargingthefuture",
-    date: "2025-10-21",
-    excerpt: "Welcome @MattMacBOS! Glad to have you here. You may Introduce Yourself if you like. If you have any questions. Reply here or you can DM me.",
-    category: "Member of the Day"
-  },
-  {
-    slug: "member of the day/about-the-member-of-the-day-category",
-    title: "About the Member of the Day category",
-    repo: "chargingthefuture/chargingthefuture",
-    date: "2025-10-20",
-    excerpt: "I’m excited to share insights about members I come across on Quora and other platforms. Every TI possesses unique skills that can contribute positively, especi...",
-    category: "Member of the Day"
-  },
-  {
-    slug: "member of the day/member-of-the-day-ione",
-    title: "Member of the Day: Ione",
-    repo: "chargingthefuture/chargingthefuture",
-    date: "2025-10-20",
-    excerpt: "Member of the Day: Ione\\nSkill: counselor\\nIone is a counselor, and as quoted: \\n“I speak the truth as I know it. I am willing to admit I’m wrong because I don...",
-    category: "Member of the Day"
-  },
-  {
-    slug: "member of the day/member-of-the-day-jason-singletons",
-    title: "Member of the Day: Jason Singletons",
-    repo: "chargingthefuture/chargingthefuture",
-    date: "2025-10-19",
-    excerpt: "Member of the Day: Jason Singletons\\nCTF Profile: https://app.chargingthefuture.com/apps/directory/public/5134f872-38b3-4870-815a-d90bb9f85e5f \\nQuora Profile:...",
-    category: "Member of the Day"
-  },
-  {
-    slug: "member of the day/welcome-new-users",
-    title: "Welcome new users!",
-    repo: "chargingthefuture/chargingthefuture",
-    date: "2025-10-05",
-    excerpt: "Welcome, in no particular order, @BRadhd, @Secretrituals, @MichaelNewmanEarth, and @snaveseer! \\nWe are glad you have joined the world’s first-ever TI economy!...",
-    category: "Member of the Day"
-  },
-  {
-    slug: "member of the day/list-view-of-all-the-tis-of-the-day",
-    title: "List view of all the TIs of the Day",
-    repo: "chargingthefuture/chargingthefuture",
-    date: "2025-10-03",
-    excerpt: "I created a “TI of the Day” list view within the forum: https://chargingthefuture.discourse.group/tag/ti-of-the-day This way, if you want to get to know the TI...",
-    category: "Member of the Day"
-  },
-  {
-    slug: "member of the day/rally-for-tag",
-    title: "Rally For... tag",
-    repo: "chargingthefuture/chargingthefuture",
-    date: "2025-10-03",
-    excerpt: "Rally for… view list \\nI created a new tag in the forum: “Rally for…” \\nWhy? I get it, we are all TIs, and the attacks are relentless every day. And we have ou...",
-    category: "Member of the Day"
-  },
-  {
-    slug: "member of the day/rally-for-tammy-walker",
-    title: "Rally for…Tammy Walker!",
-    repo: "chargingthefuture/chargingthefuture",
-    date: "2025-10-03",
-    excerpt: "Rally for…Tammy Walker! \\nIf you are a TI, you are NOT alone. If you are a TI, I will put myself out there; you can call me or message me. I prefer Signal Mess...",
-    category: "Member of the Day"
-  },
-  {
-    slug: "member of the day/member-of-the-day-brad-rice",
-    title: "Member of the Day: Brad Rice",
-    repo: "chargingthefuture/chargingthefuture",
-    date: "2025-09-25",
-    excerpt: "Member of the Day: Brad Rice\\nUpdated Quora profile link: https://www.quora.com/profile/BRadhd \\nSkill: mechanic\\nI think car sabotage is in the top three dest...",
-    category: "Member of the Day"
   },
 ];
 
