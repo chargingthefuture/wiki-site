@@ -22,6 +22,14 @@ export const ARTICLES: ArticleMeta[] = [
     category: "Updates"
   },
   {
+    slug: "Product-Update-2026-07-05-SocketRelay-Message-Integrity",
+    title: "SocketRelay messages now stay intact on retry",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-07-05",
+    excerpt: "SocketRelay messages now preserve their original text during retries.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-07-04-Admin-Demo-Banner-Mobile",
     title: "Admin demo banner now works better on mobile",
     repo: "chargingthefuture/chargingthefuture",

@@ -1204,3 +1204,9 @@ articles:
     date: "2026-07-05"
     excerpt: Mobile fixes, Recurring Activity plugin for tracking ongoing ties, and PeerProgramming cohort improvements.
     category: Updates
+  - slug: Product-Update-2026-07-05-SocketRelay-Message-Integrity
+    title: SocketRelay messages now stay intact on retry
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-07-05"
+    excerpt: SocketRelay messages now preserve their original text during retries.
+    category: Updates
