@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-07-05-Mobile-Fixes-Recurring-Activity",
+    title: "Mobile fixes and Recurring Activity plugin",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-07-05",
+    excerpt: "Mobile fixes, Recurring Activity plugin for tracking ongoing ties, and PeerProgramming cohort improvements.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-07-04-Admin-Demo-Banner-Mobile",
     title: "Admin demo banner now works better on mobile",
     repo: "chargingthefuture/chargingthefuture",

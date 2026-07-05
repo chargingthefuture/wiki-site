@@ -1198,3 +1198,9 @@ articles:
     date: "2026-07-04"
     excerpt: Admin demo banner on mobile devices now reserves space instead of covering the navigation menu.
     category: Updates
+  - slug: Product-Update-2026-07-05-Mobile-Fixes-Recurring-Activity
+    title: Mobile fixes and Recurring Activity plugin
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-07-05"
+    excerpt: Mobile fixes, Recurring Activity plugin for tracking ongoing ties, and PeerProgramming cohort improvements.
+    category: Updates
