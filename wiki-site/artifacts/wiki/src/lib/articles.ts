@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-07-06-LightHouse-Currency-Display",
+    title: "LightHouse listings now show prices in your currency",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-07-06",
+    excerpt: "LightHouse listings now display currency-aware pricing. Mobile interface and form dropdowns improved.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-07-05-Mobile-Fixes-Recurring-Activity",
     title: "Mobile fixes and Recurring Activity plugin",
     repo: "chargingthefuture/chargingthefuture",
