@@ -1216,3 +1216,9 @@ articles:
     date: "2026-07-06"
     excerpt: LightHouse listings now display currency-aware pricing. Mobile interface and form dropdowns improved.
     category: Updates
+  - slug: Product-Update-2026-07-07-Code-Review-Fixes
+    title: SkillsHunt and SocketRelay fixes live
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-07-07"
+    excerpt: SkillsHunt and SocketRelay stability fixes from code review are now live.
+    category: Updates

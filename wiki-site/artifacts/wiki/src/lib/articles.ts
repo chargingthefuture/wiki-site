@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-07-07-Code-Review-Fixes",
+    title: "SkillsHunt and SocketRelay fixes live",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-07-07",
+    excerpt: "SkillsHunt and SocketRelay stability fixes from code review are now live.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-07-06-LightHouse-Currency-Display",
     title: "LightHouse listings now show prices in your currency",
     repo: "chargingthefuture/chargingthefuture",
