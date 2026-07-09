@@ -1222,3 +1222,9 @@ articles:
     date: "2026-07-07"
     excerpt: SkillsHunt and SocketRelay stability fixes from code review are now live.
     category: Updates
+  - slug: Product-Update-2026-07-09-TrustTransport-Cancel-Stats-Public
+    title: TrustTransport requests, cleaner stats, and public landing fixes
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-07-09"
+    excerpt: TrustTransport requests can now be cancelled. Community stats count posts accurately. Public landings for Recurring Activity and Contributions are live.
+    category: Updates

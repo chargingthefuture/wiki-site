@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-07-09-TrustTransport-Cancel-Stats-Public",
+    title: "TrustTransport requests, cleaner stats, and public landing fixes",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-07-09",
+    excerpt: "TrustTransport requests can now be cancelled. Community stats count posts accurately. Public landings for Recurring Activity and Contributions are live.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-07-07-Code-Review-Fixes",
     title: "SkillsHunt and SocketRelay fixes live",
     repo: "chargingthefuture/chargingthefuture",
