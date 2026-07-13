@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-07-13-Trust-Plugin-Launch",
+    title: "Trust plugin launches, fixes across the platform",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-07-13",
+    excerpt: "Trust plugin launches. Fixed Trust accuracy, SkillsHunt admin tools, and Commons username prompts.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-07-09-TrustTransport-Cancel-Stats-Public",
     title: "TrustTransport requests, cleaner stats, and public landing fixes",
     repo: "chargingthefuture/chargingthefuture",
