@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-07-14-Skills-Search-Directory-Profile",
+    title: "Search skills faster, create your profile",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-07-14",
+    excerpt: "Keyword search in skills picker, self-service directory profiles, and pull-to-refresh on all mobile screens.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-07-13-Trust-Plugin-Launch",
     title: "Trust plugin launches, fixes across the platform",
     repo: "chargingthefuture/chargingthefuture",
