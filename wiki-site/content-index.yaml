@@ -1240,3 +1240,9 @@ articles:
     date: "2026-07-14"
     excerpt: Keyword search in skills picker, self-service directory profiles, and pull-to-refresh on all mobile screens.
     category: Updates
+  - slug: Product-Update-2026-07-16-Commons-Directory-July
+    title: Commons and Directory updates
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-07-16"
+    excerpt: Commons now handles line breaks properly. Delete your own posts. Request Directory takedown. Workforce adds team rosters.
+    category: Updates

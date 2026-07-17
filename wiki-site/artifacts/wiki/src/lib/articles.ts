@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-07-16-Commons-Directory-July",
+    title: "Commons and Directory updates",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-07-16",
+    excerpt: "Commons now handles line breaks properly. Delete your own posts. Request Directory takedown. Workforce adds team rosters.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-07-14-Skills-Search-Directory-Profile",
     title: "Search skills faster, create your profile",
     repo: "chargingthefuture/chargingthefuture",
