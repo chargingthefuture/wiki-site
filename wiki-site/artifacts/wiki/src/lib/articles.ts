@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-07-22-Commons-Edit-Chyme-Layout-Notifications",
+    title: "Edit messages in Commons, fix Chyme layout and notifications",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-07-22",
+    excerpt: "Edit Commons messages, fixed Chyme layout, notifications jump to messages, Mutual Time audit and admin fixes.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-07-19-Commons-Fixes-and-Guidelines",
     title: "Small fixes and clarifications this week",
     repo: "chargingthefuture/chargingthefuture",

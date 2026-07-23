@@ -1252,3 +1252,9 @@ articles:
     date: "2026-07-19"
     excerpt: Commons dedup fix, Workforce overview cleanup, public guidelines, and design polish.
     category: Updates
+  - slug: Product-Update-2026-07-22-Commons-Edit-Chyme-Layout-Notifications
+    title: Edit messages in Commons, fix Chyme layout and notifications
+    repo: chargingthefuture/chargingthefuture
+    date: "2026-07-22"
+    excerpt: Edit Commons messages, fixed Chyme layout, notifications jump to messages, Mutual Time audit and admin fixes.
+    category: Updates
