@@ -14,6 +14,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    slug: "Product-Update-2026-08-05-Admin-Blocks-Value",
+    title: "Admin tooling, block enforcement, and Community Value fixes",
+    repo: "chargingthefuture/chargingthefuture",
+    date: "2026-08-05",
+    excerpt: "Admin controls, member block enforcement, Community Value Index labeling and fixes, and smaller hardening across plugins.",
+    category: "Updates"
+  },
+  {
     slug: "Product-Update-2026-07-29-Commons-Moderation-and-Foundation-Fixes",
     title: "Commons moderation, admin tools, and Foundation fixes",
     repo: "chargingthefuture/chargingthefuture",
