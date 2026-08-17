@@ -1,6 +1,6 @@
 ---
 title: "What stays up"
-date: "2026-08-17"
+date: "2026-08-16"
 excerpt: "Quora emptied the Skills Economy space today. The posts that isolate people are still up; the posts that connect them are gone."
 category: "Community"
 teaser: "Quora deleted every post ever made to my space. The account and the space are still there — both empty, so a new visitor sees a room where nothing ever happened. Meanwhile, accounts posting the same give-up message on a loop for months are untouched. Sort it and the rule is not subtle: content that leaves a person alone stays up; content that puts people in contact with each other does not. The fix is not to appeal to the platform. It is to need it less."
