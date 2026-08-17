@@ -48,6 +48,7 @@ Optional fields:
 | `repo` | Legacy URL namespace (`chargingthefuture/chargingthefuture` or `chargingthefuture/mono`) kept so pre-migration article URLs stay stable. Omit for new posts. |
 | `featured` | `true` to feature on the home page. |
 | `listed` | `false` to keep a page out of the article grid (it stays reachable by URL). Default `true`. |
+| `teaser` | The short standalone version of the post, aim for 280-500 characters. Shown on the feed page (`/feed`) and pasted as the platform post. It carries the post's whole point in 2-4 short sentences — a reader who never clicks through still got the idea. Not a cliffhanger. Posts without one fall back to `excerpt` on the feed. |
 | `topics` | Free-form tag list for future filtering. |
 | `archive` | Provenance block, required in `archive/` collections — see below. |
 

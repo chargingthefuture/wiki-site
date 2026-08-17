@@ -26,6 +26,7 @@ export interface ContentMeta {
   repo?: string;
   featured?: boolean;
   listed?: boolean;
+  teaser?: string;
   topics?: string[];
   archive?: ArchiveMeta;
 }

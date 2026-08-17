@@ -112,6 +112,14 @@ function main() {
         warn(pos, `excerpt is ${excerpt.length} chars (aim for 60-160)`);
       }
 
+      // The teaser is the short standalone version of the post shown on the
+      // feed page and pasted to platforms. It should carry the post's whole
+      // point, not tease it — so it is longer than the excerpt.
+      const teaser = meta.teaser?.toString() ?? '';
+      if (teaser && (teaser.length < 120 || teaser.length > 700)) {
+        warn(pos, `teaser is ${teaser.length} chars (aim for 280-500)`);
+      }
+
       const slug = meta.slug ?? relative(dir, file).replace(/\\/g, '/').replace(/\.md$/i, '');
       const existing = seenSlugs.get(slug.toLowerCase());
       if (existing) fail(pos, `duplicate slug "${slug}" (also in ${existing})`);

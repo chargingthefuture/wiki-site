@@ -31,6 +31,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
               <Link href="/" className="font-heading font-bold text-lg uppercase hover:text-primary transition-colors">
                 Transmissions
               </Link>
+              <Link href="/feed" className="font-heading font-bold text-lg uppercase hover:text-primary transition-colors">
+                The Feed
+              </Link>
               <a href="https://chargingthefuture.com" target="_blank" rel="noopener noreferrer" className="font-heading font-bold text-lg uppercase hover:text-primary transition-colors">
                 About
               </a>
@@ -54,6 +57,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
           <nav className="md:hidden border-t-4 border-black bg-card p-4 flex flex-col gap-4">
             <Link href="/" onClick={() => setIsMenuOpen(false)} className="font-heading font-bold text-xl uppercase block p-2 border-b-2 border-gray-800">
               Transmissions (Blog)
+            </Link>
+            <Link href="/feed" onClick={() => setIsMenuOpen(false)} className="font-heading font-bold text-xl uppercase block p-2 border-b-2 border-gray-800">
+              The Feed
             </Link>
             <a href="https://chargingthefuture.com" target="_blank" rel="noopener noreferrer" className="font-heading font-bold text-xl uppercase block p-2 border-b-2 border-gray-800">
               About Platform

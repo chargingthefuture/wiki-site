@@ -44,6 +44,7 @@ interface ArticleRecord {
   path: string;
   featured?: boolean;
   listed?: boolean;
+  teaser?: string;
   topics?: string[];
   archive?: {
     source: string;
@@ -100,6 +101,7 @@ function collectArticles(): ArticleRecord[] {
       };
       if (meta.featured === true) record.featured = true;
       if (meta.listed === false) record.listed = false;
+      if (meta.teaser?.toString().trim()) record.teaser = meta.teaser.toString().trim();
       if (meta.topics?.length) record.topics = meta.topics;
       if (meta.archive) {
         record.archive = {
@@ -148,6 +150,7 @@ function render(articles: ArticleRecord[]): string {
     '  path: string;',
     '  featured?: boolean;',
     '  listed?: boolean;',
+    '  teaser?: string;',
     '  topics?: string[];',
     '  archive?: ArticleArchive;',
     '}',
