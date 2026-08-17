@@ -12,6 +12,34 @@ Run all `pnpm` commands from the `wiki-site/` directory.
 
 ---
 
+## Publish from your phone (no computer needed)
+
+1. Open github.com/chargingthefuture/wiki-site in the GitHub app or a mobile browser.
+2. Navigate to `wiki-site/content/posts/` → Add file → Create new file. Name it
+   `my-post-title.md` (the file name becomes the URL slug).
+3. Paste the front matter, then the post body below it:
+
+   ```yaml
+   ---
+   title: "My Post Title"
+   date: "2026-08-17"
+   excerpt: "A short, descriptive summary (aim for 60-160 chars)."
+   category: "Community"
+   ---
+   ```
+
+4. Commit directly to `main`. Done — CI regenerates the article registry, builds, deploys, and
+   triggers the live blog rebuild. No local commands needed. The post is live at
+   `https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/<file-name>` within a
+   few minutes.
+5. For an image: upload it to `wiki-site/content/images/` first (Add file → Upload files), then
+   reference it in the post as `images/<file>.png`.
+6. Grab the article URL and post the excerpt + link (+ the same image) on Quora.
+
+If the live blog does not update (the `GH_PAT` secret is missing in this repo), run the
+`Github Pages — Deploy Blog` workflow in the product repo by hand: Actions tab → select the
+workflow → Run workflow.
+
 ## Write and publish a post
 
 1. Create the markdown file in the right collection (usually `content/posts/`), with front

@@ -47,16 +47,11 @@ jobs:
       - name: Validate content front matter
         run: pnpm wiki:validate
 
+      # The registry is regenerated at build time rather than gated on being
+      # committed, so a post committed straight from the GitHub mobile app or
+      # web editor (no local pnpm available) still deploys.
       - name: Sync article registry
         run: pnpm wiki:sync
-
-      - name: Ensure generated articles.ts is committed
-        run: |
-          if ! git diff --exit-code -- artifacts/wiki/src/lib/articles.ts; then
-            echo "articles.ts is out of sync with content/ front matter"
-            echo "Run 'pnpm wiki:sync' locally and commit the result."
-            exit 1
-          fi
 
       - name: Build for GitHub Pages
         run: pnpm wiki:build:pages
@@ -78,6 +73,36 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+
+  # The public blog URL (chargingthefuture.github.io/chargingthefuture) is
+  # served by the PRODUCT repo's Pages, rebuilt by its deploy-blog-gh-pages.yml
+  # on a "wiki-site-updated" dispatch. This job sends that dispatch after every
+  # successful build here, so a content push to main publishes end to end with
+  # no manual step. Requires a GH_PAT secret in this repo (a token with repo
+  # scope on the product repo); without it, the job explains the manual
+  # fallback and exits green.
+  trigger-blog-deploy:
+    name: Trigger the live blog deploy (product repo)
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Send wiki-site-updated dispatch
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -z "$GH_PAT" ]; then
+            echo "No GH_PAT secret in this repo — the live blog was NOT redeployed automatically."
+            echo "Either run the 'Github Pages — Deploy Blog' workflow in chargingthefuture/chargingthefuture"
+            echo "(Actions tab → Run workflow), or add a GH_PAT secret here to make this automatic."
+            exit 0
+          fi
+          curl -fsS -X POST \
+            -H "Authorization: Bearer ${GH_PAT}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/chargingthefuture/chargingthefuture/dispatches \
+            -d '{"event_type":"wiki-site-updated"}'
+          echo "Dispatched wiki-site-updated — the live blog will rebuild."
 
   # Third-party timestamped copies of every published change. Best-effort:
   # this job never fails the deploy.
