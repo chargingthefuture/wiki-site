@@ -40,17 +40,11 @@ jobs:
       - name: Validate content front matter
         run: pnpm --filter @workspace/scripts run validate
 
+      # The registry is regenerated here rather than gated on being committed,
+      # so a post committed straight from the GitHub mobile app or web editor
+      # (no local pnpm available) still validates and builds.
       - name: Sync articles (in-place)
         run: pnpm --filter @workspace/scripts run sync-articles
-
-      - name: Check articles.ts is committed in sync
-        run: |
-          if ! git diff --exit-code -- artifacts/wiki/src/lib/articles.ts; then
-            echo ""
-            echo "ERROR: articles.ts is out of sync with content/ front matter."
-            echo "Run 'pnpm wiki:sync' locally and commit the updated articles.ts."
-            exit 1
-          fi
 
       - name: Typecheck wiki
         run: pnpm --filter @workspace/wiki run typecheck
