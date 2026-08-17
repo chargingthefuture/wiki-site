@@ -28,6 +28,11 @@ Run all `pnpm` commands from the `wiki-site/` directory.
    ---
    ```
 
+   Two things the paste has to get right, because nothing catches them and the page still
+   builds: leave a blank line between every paragraph, and start every section heading with
+   `##`. Without the blank lines the whole post renders as one unbroken paragraph; without the
+   `##` the section names render as ordinary body text.
+
 4. Commit directly to `main`. Done — CI regenerates the article registry, builds, deploys, and
    triggers the live blog rebuild. No local commands needed. The post is live at
    `https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/<file-name>` within a
