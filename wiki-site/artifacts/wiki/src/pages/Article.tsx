@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { ArrowLeft, Clock, Calendar, AlertTriangle, Archive } from "lucide-react";
 import { Link } from "wouter";
 import { Layout } from "@/components/Layout";
+import { ShareLink } from "@/components/ShareLink";
 import { MarkdownRenderer } from "@/components/MarkdownRenderer";
 import { useArticle } from "@/hooks/use-article";
 import { ARTICLES } from "@/lib/articles";
@@ -82,6 +83,7 @@ export default function Article() {
                       {readTime} min read
                     </span>
                   </div>
+                  <ShareLink url={typeof window !== "undefined" ? window.location.href : ""} />
                 </div>
               )}
 
