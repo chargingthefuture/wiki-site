@@ -27,15 +27,17 @@ This wiki helps survivors and supporters:
 - Find onboarding guides, policy pages, and practical resources.
 - Stay updated on platform changes and community priorities.
 
-## Mirror Notice
+## Where This Content Lives
 
-This GitHub Wiki is the source content location.
+The source content location is the public `chargingthefuture/wiki-site` repository, in its
+`content/` directory. Every page is a version-controlled file there, with full history.
 
-A user-friendly mirror is available at:
+Read it at:
 
 - https://chargingthefuture.github.io/chargingthefuture
 
-Use the mirror for easier reading and navigation. If there is any mismatch between pages, this GitHub Wiki content is canonical.
+If there is any mismatch between copies anywhere, the repository content is canonical. The old
+GitHub Wiki is an inactive mirror and no longer receives updates.
 
 ## Start Here
 
