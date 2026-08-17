@@ -1,0 +1,28 @@
+---
+title: Farah’s MicroBlog September 25 2025
+date: "2025-09-25"
+excerpt: Welp, there is a first time for everything. Today for the first time in my life I was permanently banned from a location. Everyday I go to a park and watch…
+category: Discourse Community Legacy Post
+slug: discourse-migrate/farah-s-microblog-september-25-2025
+repo: chargingthefuture/chargingthefuture
+archive:
+  source: discourse
+  account: chargingthefuture.discourse.group
+  original_date: "2025-09-25"
+  status: closed
+---
+
+# Farah’s MicroBlog September 25 2025
+
+<!--
+Title: Farah’s MicroBlog September 25 2025
+Slug: farah-s-microblog-september-25-2025
+Created: 2025-09-25
+Updated: 2025-09-26
+Excerpt: Welp, there is a first time for everything. Today for the first time in my life I was permanently banned from a location.  Everyday I go to a park and watch coding, travel, exercise or gaming videos online. And sometimes&hellip;
+-->
+
+> Welp, there is a first time for everything. Today for the first time in my life I was permanently banned from a location.  Everyday I go to a park and watch coding, travel, exercise or gaming videos online. And sometimes&hellip;
+
+<p>Welp, there is a first time for everything. Today for the first time in my life I was permanently banned from a location.</p> <p>Everyday I go to a park and watch coding, travel, exercise or gaming videos online. And sometimes snack when I do. I also use the restroom and refill my water bottle. I am such a badass <img src="images/farah-s-microblog-september-25-2025-rofl.png" title=":rofl:" class="emoji" alt=":rofl:" loading="lazy" width="20" height="20">!</p> <p>When asked why I received the permanent ban I was not provided one. I was refused one. And the rent a cop states “We are just doing our job.” No sh*t. Some gang stalkers are paid or rewarded to gang stalk. Some are extorted. Some just cowards. Others are sadists and enjoy. However you slice it, it is illegal and that is not a defense. Dealing drugs is a job, should I now have feel better about your behavior. Are you now absolved from your crimes?</p> <p>Jokes and sarcasm aside, I was banned because of what I call “The Scapegoat by Proxy.”</p> <p>Gangstalkers would follow me to the park and do street theatre non-stop. And would generally annoy the staff. The gstalker staff eventually got fed up with their “own team” making their day job annoying and receiving constant messages from their handler to harass me and follow me around. Making it their “only option” of banning me.</p> <aside class="quote quote-modified" data-post="6" data-topic="30">   <div class="title">     <div class="quote-controls"></div>     <img alt="" width="24" height="24" src="images/farah-s-microblog-september-25-2025-48.png" class="avatar">     <div class="quote-title__text-content">       <a href="https://chargingthefuture.discourse.group/t/a-post-for-each-gang-stalker-game/30/6">A post for each gang stalker game</a> <a class="badge-category__wrapper " href="/c/targeting/11"><span data-category-id="11" style="--category-badge-color: #ED207B; --category-badge-text-color: #000000;" data-drop-close="true" class="badge-category --style-square " title="Use this tag when the topic of the post is about targeting and gang stalking (aka group vigilantism)."><span class="badge-category__name">Targeting</span></span></a>     </div>   </div>   <blockquote>     “The Scapegoat by Proxy”  Thank you for the name James: <a href="https://www.quora.com/profile/James-Szumiloski">https://www.quora.com/profile/James-Szumiloski</a>.  Gang stalkers will dress like you and mimic your mannerisms. They then go to places you frequent, whether private or public, to vandalize, litter, loiter annoyingly, and generally irritate the staff and normal patrons at those locations. They will also have a second group that do not reflect you at all in appearance doing the same or at the very least doing street theatre or “fake” walking th…   </blockquote> </aside>  <aside class="onebox allowlistedgeneric" data-onebox-src="https://tiskillsnetwork.quora.com/There-is-no-people-category-of-cannot-be-bought-My-responses-ended-up-being-lengthy-So-I-decided-to-make-them-an-in?ch=15&amp;oid=233284266&amp;share=1439cb25&amp;srid=3UT8yW&amp;target_type=post">   <header class="source">       <img src="images/farah-s-microblog-september-25-2025-b8c108a737f166e53c01b6b1b14412b1e5fdda23.png" class="site-icon" alt="" data-dominant-color="B92B27" width="256" height="256">        <a href="https://tiskillsnetwork.quora.com/There-is-no-people-category-of-cannot-be-bought-My-responses-ended-up-being-lengthy-So-I-decided-to-make-them-an-in?ch=15&amp;oid=233284266&amp;share=1439cb25&amp;srid=3UT8yW&amp;target_type=post" target="_blank" rel="noopener">Quora</a>   </header>    <article class="onebox-body">     <img width="200" height="200" src="images/farah-s-microblog-september-25-2025-f4b62e2a8863e8f27196236e44e0d2752fcc2857.jpeg" class="thumbnail onebox-avatar" alt="" data-dominant-color="3F4356">  <h3><a href="https://tiskillsnetwork.quora.com/There-is-no-people-category-of-cannot-be-bought-My-responses-ended-up-being-lengthy-So-I-decided-to-make-them-an-in?ch=15&amp;oid=233284266&amp;share=1439cb25&amp;srid=3UT8yW&amp;target_type=post" target="_blank" rel="noopener">There is no people category of “cannot be bought.”  My responses ended up...</a></h3>    <p>There is no people category of “cannot be bought.”  My responses ended up being lengthy. So I decided to make them an individual...</p>     </article>    <div class="onebox-metadata">             </div>    <div style="clear: both"></div> </aside> 
+

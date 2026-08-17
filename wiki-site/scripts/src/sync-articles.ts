@@ -1,179 +1,141 @@
 #!/usr/bin/env node
 /**
- * Reads content-index.yaml and regenerates artifacts/wiki/src/lib/articles.ts.
- * Articles are sorted by date descending (newest first).
+ * Scans wiki-site/content/ front matter and regenerates
+ * artifacts/wiki/src/lib/articles.ts. Articles are sorted by date descending
+ * (newest first).
+ *
+ * The front matter of the content files is the single source of truth for the
+ * article registry. There is no separate index file.
  *
  * Usage:
  *   tsx sync-articles.ts            # write changes
  *   tsx sync-articles.ts --dry-run  # preview only, no writes
  */
 
-import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { dirname, relative, resolve } from 'node:path';
-import { load } from 'js-yaml';
+import { dirname, join, relative, resolve } from 'node:path';
+import { parseFrontMatter } from './frontmatter.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const BLOG_ROOT = resolve(__dirname, '../..');
-const WIKI_ROOT = resolve(BLOG_ROOT, '../wiki');
-const CONTENT_INDEX = resolve(BLOG_ROOT, 'content-index.yaml');
+const CONTENT_ROOT = resolve(BLOG_ROOT, 'content');
 const ARTICLES_TS = resolve(BLOG_ROOT, 'artifacts/wiki/src/lib/articles.ts');
 const isDryRun = process.argv.includes('--dry-run');
-const DEFAULT_INFERRED_DATE = '2026-01-01';
-const FOLDER_CATEGORY_MAP: Record<string, string> = {
-  guides: 'Guides',
-  insights: 'Insights',
-  'member of the day': 'Member of the Day',
-};
 
-interface ArticleEntry {
+const COLLECTIONS = [
+  'posts',
+  'product-updates',
+  'guides',
+  'insights',
+  'member-of-the-day',
+  'archive/discourse',
+  'archive/quora',
+];
+
+interface ArticleRecord {
   slug: string;
   title: string;
   repo: string;
   date: string;
   excerpt: string;
   category: string;
+  collection: string;
+  path: string;
   featured?: boolean;
-}
-
-interface ContentIndex {
-  articles: ArticleEntry[];
-}
-
-interface InferredMeta {
-  title: string;
-  date: string;
-  excerpt: string;
-}
-
-function esc(s: string): string {
-  return s.replace(/\\/g, '\\\\').replace(/"/g, '\\"');
-}
-
-function cleanExcerptLine(line: string): string {
-  return line
-    .replace(/!\[[^\]]*\]\([^)]*\)/g, '')
-    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/[`*_>#|]/g, ' ')
-    .replace(/&hellip;/gi, '...')
-    .replace(/&nbsp;/gi, ' ')
-    .replace(/\s+/g, ' ')
-    .trim();
-}
-
-function toIsoDate(raw?: string): string | undefined {
-  if (!raw) return undefined;
-  const d = new Date(raw.trim());
-  if (isNaN(d.getTime())) return undefined;
-  return d.toISOString().slice(0, 10);
-}
-
-function inferMetaFromMarkdown(markdown: string, slug: string, category: string): InferredMeta {
-  const comment = markdown.match(/<!--([\s\S]*?)-->/)?.[1] ?? '';
-  const titleFromMeta = comment.match(/^\s*Title:\s*(.+)$/im)?.[1]?.trim();
-  const created = comment.match(/^\s*Created:\s*(.+)$/im)?.[1]?.trim();
-  const updated = comment.match(/^\s*Updated:\s*(.+)$/im)?.[1]?.trim();
-  const excerptFromMeta = comment.match(/^\s*Excerpt:\s*(.+)$/im)?.[1]?.trim();
-  const titleFromHeading = markdown.match(/^#\s+(.+)$/m)?.[1]?.trim();
-
-  const title = titleFromMeta || titleFromHeading || slug.split('/').pop()?.replace(/-/g, ' ') || slug;
-  const date = toIsoDate(created) || toIsoDate(updated) || DEFAULT_INFERRED_DATE;
-
-  let excerpt = excerptFromMeta ? cleanExcerptLine(excerptFromMeta) : '';
-  if (!excerpt) {
-    for (const line of markdown.split('\n')) {
-      const t = line.trim();
-      if (!t || t.startsWith('#') || t.startsWith('<!--') || t.startsWith('>')) continue;
-      const cleaned = cleanExcerptLine(t);
-      if (cleaned.length >= 24) {
-        excerpt = cleaned;
-        break;
-      }
-    }
-  }
-  if (!excerpt) excerpt = `${category} post from Charging The Future Wiki.`;
-  if (excerpt.length > 160) excerpt = `${excerpt.slice(0, 159)}...`;
-
-  return { title, date, excerpt };
+  listed?: boolean;
+  topics?: string[];
+  archive?: {
+    source: string;
+    account?: string;
+    originalUrl?: string;
+    originalDate?: string;
+    status?: string;
+  };
 }
 
 function listMarkdownFiles(dir: string): string[] {
   const files: string[] = [];
   for (const entry of readdirSync(dir, { withFileTypes: true })) {
-    const fullPath = resolve(dir, entry.name);
+    const fullPath = join(dir, entry.name);
     if (entry.isDirectory()) {
       files.push(...listMarkdownFiles(fullPath));
       continue;
     }
-    if (entry.isFile() && entry.name.toLowerCase().endsWith('.md')) {
-      files.push(fullPath);
-    }
+    if (!entry.name.toLowerCase().endsWith('.md')) continue;
+    if (entry.name.toLowerCase() === 'readme.md') continue;
+    files.push(fullPath);
   }
   return files;
 }
 
-function mergeFolderMappedArticles(contentIndexArticles: ArticleEntry[]): { merged: ArticleEntry[]; inferredCount: number } {
-  const merged = [...contentIndexArticles];
-  const knownSlugs = new Set(contentIndexArticles.map((a) => a.slug.toLowerCase()));
-  let inferredCount = 0;
-
-  for (const [folder, category] of Object.entries(FOLDER_CATEGORY_MAP)) {
-    const folderPath = resolve(WIKI_ROOT, folder);
-    let markdownFiles: string[] = [];
+function collectArticles(): ArticleRecord[] {
+  const articles: ArticleRecord[] = [];
+  for (const collection of COLLECTIONS) {
+    const dir = join(CONTENT_ROOT, collection);
+    let files: string[] = [];
     try {
-      markdownFiles = listMarkdownFiles(folderPath);
+      files = listMarkdownFiles(dir);
     } catch {
-      continue;
+      continue; // collection directory may not exist yet
     }
-
-    for (const file of markdownFiles.sort((a, b) => a.localeCompare(b))) {
-      const relPath = relative(folderPath, file).replace(/\\/g, '/');
-      const slug = `${folder}/${relPath.replace(/\.md$/i, '')}`;
-      if (knownSlugs.has(slug.toLowerCase())) continue;
-
-      const markdown = readFileSync(file, 'utf8');
-      const meta = inferMetaFromMarkdown(markdown, slug, category);
-
-      merged.push({
-        slug,
+    for (const file of files.sort()) {
+      const relPath = relative(CONTENT_ROOT, file).replace(/\\/g, '/');
+      const raw = readFileSync(file, 'utf8');
+      const { meta } = parseFrontMatter(raw);
+      if (!meta) {
+        console.error(`✗ ${relPath}: missing front matter — run wiki:validate for details`);
+        process.exit(1);
+      }
+      const innerPath = relative(dir, file).replace(/\\/g, '/');
+      const record: ArticleRecord = {
+        slug: meta.slug ?? innerPath.replace(/\.md$/i, ''),
         title: meta.title,
-        repo: 'chargingthefuture/chargingthefuture',
-        date: meta.date,
+        repo: meta.repo ?? 'chargingthefuture/wiki-site',
+        date: String(meta.date),
         excerpt: meta.excerpt,
-        category,
-      });
-      knownSlugs.add(slug.toLowerCase());
-      inferredCount++;
+        category: meta.category,
+        collection,
+        path: relPath,
+      };
+      if (meta.featured === true) record.featured = true;
+      if (meta.listed === false) record.listed = false;
+      if (meta.topics?.length) record.topics = meta.topics;
+      if (meta.archive) {
+        record.archive = {
+          source: meta.archive.source,
+          ...(meta.archive.account ? { account: meta.archive.account } : {}),
+          ...(meta.archive.original_url ? { originalUrl: meta.archive.original_url } : {}),
+          ...(meta.archive.original_date ? { originalDate: String(meta.archive.original_date) } : {}),
+          ...(meta.archive.status ? { status: meta.archive.status } : {}),
+        };
+      }
+      articles.push(record);
     }
   }
-
-  return { merged, inferredCount };
+  return articles;
 }
 
-function render(articles: ArticleEntry[]): string {
+function render(articles: ArticleRecord[]): string {
   const sorted = [...articles].sort((a, b) => {
     const diff = new Date(b.date).getTime() - new Date(a.date).getTime();
     return diff !== 0 ? diff : a.slug.localeCompare(b.slug);
   });
 
-  const blocks = sorted.map((a) => {
-    const fields = [
-      `    slug: "${esc(a.slug)}"`,
-      `    title: "${esc(a.title)}"`,
-      `    repo: "${esc(a.repo)}"`,
-      `    date: "${esc(a.date)}"`,
-      `    excerpt: "${esc(a.excerpt)}"`,
-      `    category: "${esc(a.category)}"`,
-      ...(a.featured === true ? ['    featured: true'] : []),
-    ];
-    return `  {\n${fields.join(',\n')}\n  }`;
-  });
+  const blocks = sorted.map((a) => '  ' + JSON.stringify(a, null, 2).split('\n').join('\n  '));
 
   return [
     '// AUTO-GENERATED — do not edit by hand.',
-    '// Edit wiki-site/content-index.yaml, then run:',
-    '//   pnpm --filter @workspace/scripts run sync-articles',
+    '// Edit front matter in wiki-site/content/, then run:',
+    '//   pnpm wiki:sync',
+    '',
+    'export interface ArticleArchive {',
+    '  source: string;',
+    '  account?: string;',
+    '  originalUrl?: string;',
+    '  originalDate?: string;',
+    '  status?: string;',
+    '}',
     '',
     'export interface ArticleMeta {',
     '  slug: string;',
@@ -182,7 +144,12 @@ function render(articles: ArticleEntry[]): string {
     '  date: string;',
     '  excerpt: string;',
     '  category: string;',
+    '  collection: string;',
+    '  path: string;',
     '  featured?: boolean;',
+    '  listed?: boolean;',
+    '  topics?: string[];',
+    '  archive?: ArticleArchive;',
     '}',
     '',
     'export const ARTICLES: ArticleMeta[] = [',
@@ -200,22 +167,12 @@ function render(articles: ArticleEntry[]): string {
 }
 
 function main() {
-  let raw: string;
-  try {
-    raw = readFileSync(CONTENT_INDEX, 'utf8');
-  } catch {
-    console.error(`Cannot read ${CONTENT_INDEX}\nRun this script from within wiki-site.`);
+  const articles = collectArticles();
+  if (!articles.length) {
+    console.error('No content files found under wiki-site/content/.');
     process.exit(1);
   }
-
-  const parsed = load(raw) as ContentIndex;
-  if (!parsed?.articles?.length) {
-    console.error('No articles found in content-index.yaml');
-    process.exit(1);
-  }
-
-  const { merged, inferredCount } = mergeFolderMappedArticles(parsed.articles);
-  const generated = render(merged);
+  const generated = render(articles);
 
   if (isDryRun) {
     let current = '';
@@ -243,9 +200,7 @@ function main() {
   }
 
   writeFileSync(ARTICLES_TS, generated, 'utf8');
-  console.log(
-    `✓ Wrote ${merged.length} articles (content-index: ${parsed.articles.length}, folder-inferred: ${inferredCount}) → ${ARTICLES_TS}`
-  );
+  console.log(`✓ Wrote ${articles.length} articles from content/ → ${ARTICLES_TS}`);
 }
 
 main();

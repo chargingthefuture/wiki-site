@@ -1,40 +1,41 @@
 #!/usr/bin/env node
 /**
- * Validates content-index.yaml before it is synced to articles.ts.
+ * Validates front matter across wiki-site/content/ before it is synced to
+ * articles.ts.
  *
  * Usage:
- *   tsx validate.ts [path/to/content-index.yaml]
+ *   tsx validate.ts [path/to/content]
  */
 
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { dirname, resolve } from 'node:path';
-import { load } from 'js-yaml';
+import { dirname, join, relative, resolve } from 'node:path';
+import { parseFrontMatter } from './frontmatter.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const DEFAULT_INDEX = resolve(__dirname, '../../content-index.yaml');
-const CONTENT_INDEX = process.argv[2] ?? DEFAULT_INDEX;
+const DEFAULT_CONTENT = resolve(__dirname, '../../content');
+const CONTENT_ROOT = process.argv[2] ? resolve(process.argv[2]) : DEFAULT_CONTENT;
+
+const COLLECTIONS = [
+  'posts',
+  'product-updates',
+  'guides',
+  'insights',
+  'member-of-the-day',
+  'archive/discourse',
+  'archive/quora',
+];
 
 const VALID_REPOS = new Set([
   'chargingthefuture/chargingthefuture',
   'chargingthefuture/mono',
+  'chargingthefuture/wiki-site',
 ]);
 
+const ARCHIVE_SOURCES = new Set(['discourse', 'quora']);
+const ARCHIVE_STATUSES = new Set(['erased', 'closed', 'live']);
+
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
-
-interface ArticleEntry {
-  slug: string;
-  title: string;
-  repo: string;
-  date: string;
-  excerpt: string;
-  category: string;
-  featured?: boolean;
-}
-
-interface ContentIndex {
-  articles: ArticleEntry[];
-}
 
 let errorCount = 0;
 let warnCount = 0;
@@ -49,86 +50,101 @@ function warn(pos: string, msg: string) {
   warnCount++;
 }
 
+function listMarkdownFiles(dir: string): string[] {
+  const files: string[] = [];
+  for (const entry of readdirSync(dir, { withFileTypes: true })) {
+    const fullPath = join(dir, entry.name);
+    if (entry.isDirectory()) {
+      files.push(...listMarkdownFiles(fullPath));
+      continue;
+    }
+    if (!entry.name.toLowerCase().endsWith('.md')) continue;
+    if (entry.name.toLowerCase() === 'readme.md') continue;
+    files.push(fullPath);
+  }
+  return files;
+}
+
 function main() {
-  let raw: string;
-  try {
-    raw = readFileSync(CONTENT_INDEX, 'utf8');
-  } catch {
-    console.error(`Cannot read: ${CONTENT_INDEX}`);
-    process.exit(1);
-  }
+  const seenSlugs = new Map<string, string>();
+  let fileCount = 0;
 
-  let parsed: ContentIndex;
-  try {
-    parsed = load(raw) as ContentIndex;
-  } catch (e) {
-    console.error(`YAML parse error: ${e}`);
-    process.exit(1);
-  }
+  for (const collection of COLLECTIONS) {
+    const dir = join(CONTENT_ROOT, collection);
+    let files: string[] = [];
+    try {
+      files = listMarkdownFiles(dir);
+    } catch {
+      continue;
+    }
 
-  if (!parsed || !Array.isArray(parsed.articles)) {
-    console.error('content-index.yaml must have a top-level "articles" list.');
-    process.exit(1);
-  }
+    for (const file of files.sort()) {
+      fileCount++;
+      const pos = relative(CONTENT_ROOT, file).replace(/\\/g, '/');
+      const raw = readFileSync(file, 'utf8');
 
-  console.log(`Validating ${parsed.articles.length} articles in ${CONTENT_INDEX}...\n`);
+      let meta;
+      try {
+        ({ meta } = parseFrontMatter(raw));
+      } catch (e) {
+        fail(pos, `front matter is not valid YAML: ${(e as Error).message}`);
+        continue;
+      }
+      if (!meta) {
+        fail(pos, 'missing front matter block (--- ... ---) at the top of the file');
+        continue;
+      }
 
-  const slugsSeen = new Map<string, number>();
+      if (!meta.title?.toString().trim()) fail(pos, 'missing or empty "title"');
+      if (!meta.excerpt?.toString().trim()) fail(pos, 'missing or empty "excerpt"');
+      if (!meta.category?.toString().trim()) fail(pos, 'missing or empty "category"');
 
-  for (let i = 0; i < parsed.articles.length; i++) {
-    const a = parsed.articles[i];
-    const pos = `${i} / ${a?.slug ?? '?'}`;
+      const date = String(meta.date ?? '');
+      if (!date.trim()) fail(pos, 'missing "date"');
+      else if (!DATE_RE.test(date)) fail(pos, `"date" must be YYYY-MM-DD, got "${date}"`);
 
-    if (!a.slug) {
-      fail(pos, 'missing "slug"');
-    } else {
-      const key = a.slug.toLowerCase();
-      if (slugsSeen.has(key)) {
-        fail(pos, `duplicate slug (also at index ${slugsSeen.get(key)})`);
-      } else {
-        slugsSeen.set(key, i);
+      if (meta.repo && !VALID_REPOS.has(meta.repo)) {
+        fail(pos, `"repo" must be one of: ${[...VALID_REPOS].join(', ')} — got "${meta.repo}"`);
+      }
+
+      const excerpt = meta.excerpt?.toString() ?? '';
+      if (excerpt && (excerpt.length < 24 || excerpt.length > 200)) {
+        warn(pos, `excerpt is ${excerpt.length} chars (aim for 60-160)`);
+      }
+
+      const slug = meta.slug ?? relative(dir, file).replace(/\\/g, '/').replace(/\.md$/i, '');
+      const existing = seenSlugs.get(slug.toLowerCase());
+      if (existing) fail(pos, `duplicate slug "${slug}" (also in ${existing})`);
+      else seenSlugs.set(slug.toLowerCase(), pos);
+
+      const isArchive = collection.startsWith('archive/');
+      if (isArchive) {
+        if (!meta.archive) {
+          fail(pos, 'archive collections require an "archive" front-matter block (source, original_date, status)');
+        } else {
+          if (!ARCHIVE_SOURCES.has(meta.archive.source)) {
+            fail(pos, `"archive.source" must be one of: ${[...ARCHIVE_SOURCES].join(', ')}`);
+          }
+          if (meta.archive.status && !ARCHIVE_STATUSES.has(meta.archive.status)) {
+            fail(pos, `"archive.status" must be one of: ${[...ARCHIVE_STATUSES].join(', ')}`);
+          }
+          const od = meta.archive.original_date ? String(meta.archive.original_date) : '';
+          if (od && !DATE_RE.test(od)) {
+            fail(pos, `"archive.original_date" must be YYYY-MM-DD, got "${od}"`);
+          }
+        }
+      } else if (meta.archive) {
+        warn(pos, '"archive" block outside an archive/ collection');
       }
     }
-
-    if (!a.title) {
-      fail(pos, 'missing "title"');
-    } else if (a.title.trim().length < 3) {
-      fail(pos, `"title" is too short: "${a.title}"`);
-    }
-
-    if (!a.repo) {
-      fail(pos, 'missing "repo"');
-    } else if (!VALID_REPOS.has(a.repo)) {
-      fail(pos, `invalid "repo" "${a.repo}". Valid values: ${[...VALID_REPOS].join(', ')}`);
-    }
-
-    if (!a.date) {
-      fail(pos, 'missing "date"');
-    } else if (!DATE_RE.test(a.date)) {
-      fail(pos, `"date" must be YYYY-MM-DD, got "${a.date}"`);
-    } else {
-      const d = new Date(a.date);
-      if (isNaN(d.getTime())) fail(pos, `"date" is not a valid calendar date: "${a.date}"`);
-    }
-
-    if (!a.excerpt) {
-      fail(pos, 'missing "excerpt"');
-    } else if (a.excerpt.trim().length < 20) {
-      warn(pos, `"excerpt" is very short (${a.excerpt.trim().length} chars — aim for 60-160)`);
-    } else if (a.excerpt.includes('(add excerpt')) {
-      warn(pos, '"excerpt" still has the placeholder text — update it');
-    }
-
-    if (!a.category) fail(pos, 'missing "category"');
   }
 
-  console.log('');
-  if (errorCount > 0) {
-    console.error(`Validation FAILED — ${errorCount} error(s), ${warnCount} warning(s).`);
+  console.log(`\nChecked ${fileCount} content files: ${errorCount} error(s), ${warnCount} warning(s).`);
+  if (!fileCount) {
+    console.error(`No content files found under ${CONTENT_ROOT}`);
     process.exit(1);
   }
-  const suffix = warnCount > 0 ? ` with ${warnCount} warning(s)` : '';
-  console.log(`✓ All ${parsed.articles.length} articles valid${suffix}.`);
+  if (errorCount > 0) process.exit(1);
 }
 
 main();

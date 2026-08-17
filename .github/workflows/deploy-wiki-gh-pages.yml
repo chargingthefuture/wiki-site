@@ -27,8 +27,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-        with:
-          submodules: recursive
 
       - uses: pnpm/action-setup@v4
         with:
@@ -46,7 +44,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Validate content index
+      - name: Validate content front matter
         run: pnpm wiki:validate
 
       - name: Sync article registry
@@ -55,7 +53,7 @@ jobs:
       - name: Ensure generated articles.ts is committed
         run: |
           if ! git diff --exit-code -- artifacts/wiki/src/lib/articles.ts; then
-            echo "articles.ts is out of sync with content-index.yaml"
+            echo "articles.ts is out of sync with content/ front matter"
             echo "Run 'pnpm wiki:sync' locally and commit the result."
             exit 1
           fi
@@ -80,3 +78,41 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+
+  # Third-party timestamped copies of every published change. Best-effort:
+  # this job never fails the deploy.
+  wayback-snapshot:
+    name: Snapshot published content to the Wayback Machine
+    needs: deploy
+    runs-on: ubuntu-latest
+    continue-on-error: true
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: pnpm/action-setup@v4
+        with:
+          package_json_file: wiki-site/package.json
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "pnpm"
+          cache-dependency-path: wiki-site/pnpm-lock.yaml
+
+      - name: Install dependencies
+        working-directory: wiki-site
+        run: pnpm install --frozen-lockfile
+
+      - name: Submit changed content to web.archive.org
+        working-directory: wiki-site
+        run: |
+          if [ "${{ github.event_name }}" = "push" ] && [ -n "${{ github.event.before }}" ]; then
+            CHANGED=$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- 'wiki-site/content/**/*.md' || true)
+          else
+            CHANGED=$(git diff --name-only HEAD^ HEAD -- 'wiki-site/content/**/*.md' || true)
+          fi
+          # shellcheck disable=SC2086
+          pnpm --filter @workspace/scripts exec tsx ./src/wayback-snapshot.ts $CHANGED

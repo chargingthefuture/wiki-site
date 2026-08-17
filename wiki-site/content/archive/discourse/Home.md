@@ -1,0 +1,227 @@
+---
+title: Blog Archive
+date: "2026-03-25"
+excerpt: This wiki contains exported content from Discourse.
+category: Discourse Community Legacy Post
+slug: discourse-migrate/Home
+repo: chargingthefuture/chargingthefuture
+archive:
+  source: discourse
+  account: chargingthefuture.discourse.group
+  original_date: "2026-03-25"
+  status: closed
+---
+
+# Blog Archive
+
+This wiki contains exported content from Discourse.
+
+## Posts (207 total)
+
+- [Backup completed successfully](backup-completed-successfully) - 2025-12-18
+- [Social audio for TIs, talk live with TIs around the world](social-audio-for-tis-talk-live-with-tis-around-the-world) - 2025-12-16
+- [Good things are happening, hang in there](good-things-are-happening-hang-in-there) - 2025-12-16
+- [TV shows depicting the Speceterati](tv-shows-depicting-the-speceterati) - 2025-12-13
+- [Verified Directory Profiles](verified-directory-profiles) - 2025-12-12
+- [The numbers do not lie. The TI Skills Economy can sustain itself!](the-numbers-do-not-lie-the-ti-skills-economy-can-sustain-itself) - 2025-12-12
+- [Welcome Cheryl, Community builder](welcome-cheryl-community-builder) - 2025-12-12
+- [Meet Baba Yaga, Business Management](meet-baba-yaga-business-management) - 2025-12-12
+- [Looking for a cyber security expert? Meet AlteHexer](looking-for-a-cyber-security-expert-meet-altehexer) - 2025-12-12
+- [Looking for a Financial Advisor? Meet Holly D](looking-for-a-financial-advisor-meet-holly-d) - 2025-12-12
+- [Looking for a photographer or musician? Lisa Jaramilo](looking-for-a-photographer-or-musician-lisa-jaramilo) - 2025-12-12
+- [The Specterati do not want us to do clinical trials, that is a sign we should do them](the-specterati-do-not-want-us-to-do-clinical-trials-that-is-a-sign-we-should-do-them) - 2025-12-10
+- [We have what we need](we-have-what-we-need) - 2025-12-09
+- [Meetup with me to discuss the TI Skills Economy](meetup-with-me-to-discuss-the-ti-skills-economy) - 2025-12-09
+- [Workforce Meetups](workforce-meetups) - 2025-12-08
+- [Tips on what to do after you sign up for the TI Skills Economy!](tips-on-what-to-do-after-you-sign-up-for-the-ti-skills-economy) - 2025-12-07
+- [New website, provide your feedback!](new-website-provide-your-feedback) - 2025-12-07
+- [Member of the Day: Krissyy](member-of-the-day-krissyy) - 2025-12-06
+- [SocketRelay - for creating your own luck!](socketrelay-for-creating-your-own-luck) - 2025-12-05
+- [Want to go beyond trading skills, and start a small business? It is possible](want-to-go-beyond-trading-skills-and-start-a-small-business-it-is-possible) - 2025-12-04
+- [Introducing Workforce Recruiter, the new mini-app to chart the progress of the TI economy](introducing-workforce-recruiter-the-new-mini-app-to-chart-the-progress-of-the-ti-economy) - 2025-12-04
+- [Welcome newcomers](welcome-newcomers) - 2025-12-03
+- [Update to app approval page](update-to-app-approval-page) - 2025-11-30
+- [GentlePulse - Meditation app is ready!](gentlepulse-meditation-app-is-ready) - 2025-11-29
+- [Member of the Day: Espada](member-of-the-day-espada) - 2025-11-29
+- [Weekly TI Economy Metrics](weekly-ti-economy-metrics) - 2025-11-24
+- [Uber for TIs - TrustTransport mini-app launch](uber-for-tis-trusttransport-mini-app-launch) - 2025-11-24
+- [Verified badge in the TI economy](verified-badge-in-the-ti-economy) - 2025-11-24
+- [Directory mini-app, updated - more skills added](directory-mini-app-updated-more-skills-added) - 2025-11-23
+- [Less is more, the quest for simple](less-is-more-the-quest-for-simple) - 2025-11-23
+- [Adding campers to LightHouse](adding-campers-to-lighthouse) - 2025-11-18
+- [Consequences vary based on what you can be inconvenienced with](consequences-vary-based-on-what-you-can-be-inconvenienced-with) - 2025-11-18
+- [Backup completed successfully](backup-completed-successfully) - 2025-11-18
+- [Damon Mayle, posing as a TI](damon-mayle-posing-as-a-ti) - 2025-11-18
+- [Account temporarily on hold](account-temporarily-on-hold) - 2025-11-18
+- [Perps cannot last 8 hours in the TI economy](perps-cannot-last-8-hours-in-the-ti-economy) - 2025-11-18
+- [There is no magic bullet](there-is-no-magic-bullet) - 2025-11-18
+- [Services of the TI economy](services-of-the-ti-economy) - 2025-11-16
+- [Let's meet up! TI economy collaborations](lets-meet-up-ti-economy-collaborations) - 2025-11-16
+- [I do not want to be another Quora: New DM Policy and Psyop Awareness](i-do-not-want-to-be-another-quora-new-dm-policy-and-psyop-awareness) - 2025-11-15
+- [One solution to clothes theft](one-solution-to-clothes-theft) - 2025-11-14
+- [Exciting Announcement: Mutual Aid and Community Trust!](exciting-announcement-mutual-aid-and-community-trust) - 2025-11-07
+- [Specterati in the medical field](specterati-in-the-medical-field) - 2025-11-06
+- [Perfection does not equate to excellance](perfection-does-not-equate-to-excellance) - 2025-11-06
+- [They never go away](they-never-go-away) - 2025-11-02
+- [Backup completed successfully](backup-completed-successfully) - 2025-10-31
+- [How to create your own luck](how-to-create-your-own-luck) - 2025-10-31
+- [Member of the Day: Alani](member-of-the-day-alani) - 2025-10-31
+- [The Directory is now live, and we have our first listing!](the-directory-is-now-live-and-we-have-our-first-listing) - 2025-10-31
+- [What’s your skill?](what-s-your-skill) - 2025-10-30
+- [Collecting vitals 24/7](collecting-vitals-24-7) - 2025-10-27
+- [How to find your payments](how-to-find-your-payments) - 2025-10-27
+- [At your service](at-your-service) - 2025-10-26
+- [Live now! On Signal](live-now-on-signal) - 2025-10-25
+- [Let's pick up where Matthew left off](lets-pick-up-where-matthew-left-off) - 2025-10-25
+- [Reduce the likelihood of being scammed, trade with TIs](reduce-the-likelihood-of-being-scammed-trade-with-tis) - 2025-10-25
+- [How to participate in each of the elements of the TI economy](how-to-participate-in-each-of-the-elements-of-the-ti-economy) - 2025-10-25
+- [How to deter constant theft](how-to-deter-constant-theft) - 2025-10-25
+- [Services for TIs you can use now!](services-for-tis-you-can-use-now) - 2025-10-25
+- [The app is live!](the-app-is-live) - 2025-10-24
+- [Is gang stalking demonic?](is-gang-stalking-demonic) - 2025-10-22
+- [Welcome new members!](welcome-new-members) - 2025-10-21
+- [Book 3: How Are You Going to Pay For That?](book-3-how-are-you-going-to-pay-for-that) - 2025-10-21
+- [1 user waiting for approval](1-user-waiting-for-approval) - 2025-10-21
+- [It is not ghosts visiting us from the past, why TIs need to compare notes](it-is-not-ghosts-visiting-us-from-the-past-why-tis-need-to-compare-notes) - 2025-10-21
+- [About the Hobbies category](about-the-hobbies-category) - 2025-10-20
+- [About the Skills category](about-the-skills-category) - 2025-10-20
+- [About the Book Club category](about-the-book-club-category) - 2025-10-20
+- [Member of the Day: Ione](member-of-the-day-ione) - 2025-10-20
+- [About the Member of the Day category](about-the-member-of-the-day-category) - 2025-10-20
+- [Backup completed successfully](backup-completed-successfully) - 2025-10-20
+- [Weekly State of the TI Skills Economy | Town Halls](weekly-state-of-the-ti-skills-economy-town-halls) - 2025-10-19
+- [Member of the Day: Jason Singletons](member-of-the-day-jason-singletons) - 2025-10-19
+- [Dictionary | Terminology](dictionary-terminology) - 2025-10-19
+- [Book 2: Backyard Farming](book-2-backyard-farming) - 2025-10-18
+- [Live, Work & Conquer | Our Mission, Commitment and Purpose](live-work-conquer-our-mission-commitment-and-purpose) - 2025-10-17
+- [Research study participants needed](research-study-participants-needed) - 2025-10-17
+- [You cannot pay to be removed from the list](you-cannot-pay-to-be-removed-from-the-list) - 2025-10-17
+- [End of Life Planning](end-of-life-planning) - 2025-10-16
+- [Updated pricing 🎉](updated-pricing) - 2025-10-16
+- [TIs cannot trust anyone 🙃](tis-cannot-trust-anyone) - 2025-10-16
+- [The gstalker’s economy is very simple](the-gstalker-s-economy-is-very-simple) - 2025-10-15
+- [Book 1: Religion and the Rise of Capitalism](book-1-religion-and-the-rise-of-capitalism) - 2025-10-15
+- [Book club anyone?](book-club-anyone) - 2025-10-15
+- [Perp Alert “Aaron Andrew”](perp-alert-aaron-andrew) - 2025-10-14
+- [Who is a Notary?](who-is-a-notary) - 2025-10-14
+- [Does gang stalking exist?](does-gang-stalking-exist) - 2025-10-12
+- [We can all help each other](we-can-all-help-each-other) - 2025-10-12
+- [Blocking radiation thread](blocking-radiation-thread) - 2025-10-12
+- [What's the best life strategy to live with being gang stalked, with work, relationships, and moving? A lot seems impossible now](whats-the-best-life-strategy-to-live-with-being-gang-stalked-with-work-relationships-and-moving-a-lot-seems-impossible-now) - 2025-10-12
+- [V2K for decades](v2k-for-decades) - 2025-10-12
+- [What has helped you slow down being gang stalked?](what-has-helped-you-slow-down-being-gang-stalked) - 2025-10-12
+- [What do gang stalkers say about targeted people that isn't true?](what-do-gang-stalkers-say-about-targeted-people-that-isnt-true) - 2025-10-12
+- [Can gang stalkers keep you from getting a job?](can-gang-stalkers-keep-you-from-getting-a-job) - 2025-10-12
+- [What unifies gang stalkers and gang stalking?](what-unifies-gang-stalkers-and-gang-stalking) - 2025-10-12
+- [Do gang stalkers know that they are gang stalking?](do-gang-stalkers-know-that-they-are-gang-stalking) - 2025-10-12
+- [Did targeted individuals know that gang stalkers are told they are stalking innocent people for God when they are doing it for the devils they work with and money only?](did-targeted-individuals-know-that-gang-stalkers-are-told-they-are-stalking-innocent-people-for-god-when-they-are-doing-it-for-the-devils-they-work-with-and-money-only) - 2025-10-12
+- [What other Names do Gang Stalkers use to describe themselves asides from GraveDiggers and Wreckers?](what-other-names-do-gang-stalkers-use-to-describe-themselves-asides-from-gravediggers-and-wreckers) - 2025-10-12
+- [If you are a targeted individual and being gang stalked can you get a lawyer to help you with an unrelated civil matter without worrying they are notified and part of the covert harassment?](if-you-are-a-targeted-individual-and-being-gang-stalked-can-you-get-a-lawyer-to-help-you-with-an-unrelated-civil-matter-without-worrying-they-are-notified-and-part-of-the-covert-harassment) - 2025-10-12
+- [What resources are available to victims of Gang-Stalking? Can you trust them?](what-resources-are-available-to-victims-of-gang-stalking-can-you-trust-them) - 2025-10-12
+- [Is it possible I’ve always been stalked but just didn’t notice till 6 years ago? Is it possible I’m being stalked for a bigger purpose than I pissed someone off high up in law enforcement](is-it-possible-i-ve-always-been-stalked-but-just-didn-t-notice-till-6-years-ago-is-it-possible-i-m-being-stalked-for-a-bigger-purpose-than-i-pissed-someone-off-high-up-in-law-enforcement) - 2025-10-12
+- [Introducing sleep stories](introducing-sleep-stories) - 2025-10-09
+- [Mental Health Professional Training](mental-health-professional-training) - 2025-10-09
+- [Bully your bullies](bully-your-bullies) - 2025-10-08
+- [Changing the colloquial name for group vigilantism](changing-the-colloquial-name-for-group-vigilantism) - 2025-10-07
+- [When you are gang stalked (community stalked), are there hidden cameras in your house or apartment when you're surveilled, or do they do it via some other technological means?](when-you-are-gang-stalked-community-stalked-are-there-hidden-cameras-in-your-house-or-apartment-when-youre-surveilled-or-do-they-do-it-via-some-other-technological-means) - 2025-10-07
+- [Given your belief that gang stalkers have taken over, how do you decide if an act of kindness you receive while panhandling is genuinely from the giver or influenced by external forces?](given-your-belief-that-gang-stalkers-have-taken-over-how-do-you-decide-if-an-act-of-kindness-you-receive-while-panhandling-is-genuinely-from-the-giver-or-influenced-by-external-forces) - 2025-10-07
+- [How do I drown out noise from multiple stalkers?](how-do-i-drown-out-noise-from-multiple-stalkers) - 2025-10-07
+- [Where can I find people to join my gang stalking sub Reddit?](where-can-i-find-people-to-join-my-gang-stalking-sub-reddit) - 2025-10-07
+- [What are the worst states for gang stalking?](what-are-the-worst-states-for-gang-stalking) - 2025-10-07
+- [Are people who harass and gang stalk others mentally ill?](are-people-who-harass-and-gang-stalk-others-mentally-ill) - 2025-10-07
+- [How do you effectively vet new members for your TI circular economy when "gang stalkers" actively try to mimic and infiltrate TI communities?](how-do-you-effectively-vet-new-members-for-your-ti-circular-economy-when-gang-stalkers-actively-try-to-mimic-and-infiltrate-ti-communities) - 2025-10-07
+- [Could these people convinced they are "Christian Warriors" be stalking me just because I am homeless?](could-these-people-convinced-they-are-christian-warriors-be-stalking-me-just-because-i-am-homeless) - 2025-10-07
+- [Calling all TI Lawyers](calling-all-ti-lawyers) - 2025-10-06
+- [Use this forum as an app](use-this-forum-as-an-app) - 2025-10-06
+- [You're a New User of the Month!](youre-a-new-user-of-the-month) - 2025-10-06
+- [Backup completed successfully](backup-completed-successfully) - 2025-10-05
+- [Welcome new users!](welcome-new-users) - 2025-10-05
+- [About the Introduce Yourself category](about-the-introduce-yourself-category) - 2025-10-05
+- [Pooling our resources](pooling-our-resources) - 2025-10-05
+- [Google Spreadsheets or Excel Help Needed](google-spreadsheets-or-excel-help-needed) - 2025-10-05
+- [Auction House & market](auction-house-market) - 2025-10-05
+- [Introduce yourself](introduce-yourself) - 2025-10-05
+- [How do my creepy neighbors who have hacked my cell phone change what the articles are in Quora/what I see on Quora? Sometimes Quora doesn't even look like itself](how-do-my-creepy-neighbors-who-have-hacked-my-cell-phone-change-what-the-articles-are-in-quora-what-i-see-on-quora-sometimes-quora-doesnt-even-look-like-itself) - 2025-10-05
+- [Can electronic harassment send specific dreams whilst you sleep?](can-electronic-harassment-send-specific-dreams-whilst-you-sleep) - 2025-10-05
+- [I know this sounds far fetched but do gang stalkers have devices that can cause nightmares and bad dreams or maybe it's just a byproduct of the constant abuses I've suffered?](i-know-this-sounds-far-fetched-but-do-gang-stalkers-have-devices-that-can-cause-nightmares-and-bad-dreams-or-maybe-its-just-a-byproduct-of-the-constant-abuses-ive-suffered) - 2025-10-03
+- [Where are TIs located?](where-are-tis-located) - 2025-10-03
+- [Rally For... tag](rally-for-tag) - 2025-10-03
+- [Rally for…Tammy Walker!](rally-for-tammy-walker) - 2025-10-03
+- [List view of all the TIs of the Day](list-view-of-all-the-tis-of-the-day) - 2025-10-03
+- [[Poll] How is this forum?](poll-how-is-this-forum) - 2025-10-03
+- [Member of the Day: Ione](member-of-the-day-ione) - 2025-10-03
+- [Are gangstalkers protected by real investigators?](are-gangstalkers-protected-by-real-investigators) - 2025-10-03
+- [What do I do to make it easier as a TI? I’m evicted from my home, have had 2 months to pack but can’t seem to pack. I don’t want to leave everything behind but something tells me I HAVE NO CHOICE](what-do-i-do-to-make-it-easier-as-a-ti-i-m-evicted-from-my-home-have-had-2-months-to-pack-but-can-t-seem-to-pack-i-don-t-want-to-leave-everything-behind-but-something-tells-me-i-have-no-choice) - 2025-10-03
+- [How do you communicate to tormentors that the real underlying reason they target you is because their handler stirred up drama over genetic research with people who had no power to change the results and she had no business using the data?](how-do-you-communicate-to-tormentors-that-the-real-underlying-reason-they-target-you-is-because-their-handler-stirred-up-drama-over-genetic-research-with-people-who-had-no-power-to-change-the-results-and-she-had-no-business-using-the-data) - 2025-10-03
+- [Have you ever felt like life is rigged against you-watched, blocked, or sabotaged at every turn? If you are a targeted individual, what's your strategy to reclaim your sovereignty?](have-you-ever-felt-like-life-is-rigged-against-you-watched-blocked-or-sabotaged-at-every-turn-if-you-are-a-targeted-individual-whats-your-strategy-to-reclaim-your-sovereignty) - 2025-10-03
+- [Why would gang stalkers let you know where they live and even invite you there?](why-would-gang-stalkers-let-you-know-where-they-live-and-even-invite-you-there) - 2025-10-03
+- [Who is being gangstalked in Chico, CA?](who-is-being-gangstalked-in-chico-ca) - 2025-10-03
+- [Were gang stalkers ever stalked themselves?](were-gang-stalkers-ever-stalked-themselves) - 2025-10-03
+- [How do gang stalkers recruit?](how-do-gang-stalkers-recruit) - 2025-10-03
+- [Lots of people on here recommend praying. How can there be a god (with all due respect) when this evil gang stalking program goes unpunished?](lots-of-people-on-here-recommend-praying-how-can-there-be-a-god-with-all-due-respect-when-this-evil-gang-stalking-program-goes-unpunished) - 2025-10-03
+- [How can I distinguish between real threats and feelings of being targeted by gang stalking, and when should I seek help?](how-can-i-distinguish-between-real-threats-and-feelings-of-being-targeted-by-gang-stalking-and-when-should-i-seek-help) - 2025-10-03
+- [What is the very first thing you advise a TI to do after realizing they are being de-platformed from an online service?](what-is-the-very-first-thing-you-advise-a-ti-to-do-after-realizing-they-are-being-de-platformed-from-an-online-service) - 2025-10-03
+- [Do gang stalkers steal?](do-gang-stalkers-steal) - 2025-10-03
+- [How exactly do gang stalkers monitor your computer activity and steal files and information? Is there a way to stop it?](how-exactly-do-gang-stalkers-monitor-your-computer-activity-and-steal-files-and-information-is-there-a-way-to-stop-it) - 2025-10-03
+- [1 user waiting for approval](1-user-waiting-for-approval) - 2025-09-27
+- [Off grid living on the go](off-grid-living-on-the-go) - 2025-09-26
+- [Farah’s MicroBlog September 25 2025](farah-s-microblog-september-25-2025) - 2025-09-25
+- [Member of the Day: Brad Rice](member-of-the-day-brad-rice) - 2025-09-25
+- [TIs need to to spend more IRL time with each other](tis-need-to-to-spend-more-irl-time-with-each-other) - 2025-09-25
+- [Backup completed successfully](backup-completed-successfully) - 2025-09-25
+- [Backup completed successfully](backup-completed-successfully) - 2025-09-25
+- [The TI economy!](the-ti-economy) - 2025-09-24
+- [Any TI HVAC techs?](any-ti-hvac-techs) - 2025-09-23
+- [Do not obsess about what rumor they spread](do-not-obsess-about-what-rumor-they-spread) - 2025-09-23
+- [Farah’s Mirco Blog September 22 2025](farah-s-mirco-blog-september-22-2025) - 2025-09-22
+- [Always have your camera ready](always-have-your-camera-ready) - 2025-09-22
+- [Farah’s Micro Blog September 21 2025](farah-s-micro-blog-september-21-2025) - 2025-09-22
+- [Has anyone had a real attempt at their life by gang stalkers?](has-anyone-had-a-real-attempt-at-their-life-by-gang-stalkers) - 2025-09-21
+- [Is there a good form of gang stalking?](is-there-a-good-form-of-gang-stalking) - 2025-09-21
+- [Backup completed successfully](backup-completed-successfully) - 2025-09-21
+- [I've been gangstalked since 2016. Today, I no going to keep fighting anymore. Is anyone keeping a list of those lost to this?](ive-been-gangstalked-since-2016-today-i-no-going-to-keep-fighting-anymore-is-anyone-keeping-a-list-of-those-lost-to-this) - 2025-09-21
+- [What psychological profiles do gang stalking handlers target?](what-psychological-profiles-do-gang-stalking-handlers-target) - 2025-09-21
+- [Privacy Policy](privacy-policy) - 2025-09-21
+- [Terms of Service](terms-of-service) - 2025-09-21
+- [Do gang stalkers move up in rank?](do-gang-stalkers-move-up-in-rank) - 2025-09-21
+- [Farah’s Micro Blog September 20 2025](farah-s-micro-blog-september-20-2025) - 2025-09-21
+- [Why do targeted individuals often report financial sabotage, and what can be done to safeguard against such actions?](why-do-targeted-individuals-often-report-financial-sabotage-and-what-can-be-done-to-safeguard-against-such-actions) - 2025-09-20
+- [If you think you've been targeted or "gangstalked" at work, what steps did you take to protect yourself and secure your employment?](if-you-think-youve-been-targeted-or-gangstalked-at-work-what-steps-did-you-take-to-protect-yourself-and-secure-your-employment) - 2025-09-20
+- [What are some common misconceptions about gang stalking, and why do people often associate it with spiritual battles?](what-are-some-common-misconceptions-about-gang-stalking-and-why-do-people-often-associate-it-with-spiritual-battles) - 2025-09-20
+- [What's one practical skill or insight you've learned from being gang stalked that could help others protect themselves?](whats-one-practical-skill-or-insight-youve-learned-from-being-gang-stalked-that-could-help-others-protect-themselves) - 2025-09-20
+- [Am I getting gangstalked? Why do I hear a motor passing by whenever I finish watching a show, but when I always focus on the sound it doesn't come out?](am-i-getting-gangstalked-why-do-i-hear-a-motor-passing-by-whenever-i-finish-watching-a-show-but-when-i-always-focus-on-the-sound-it-doesnt-come-out) - 2025-09-20
+- [What measures can the government take to prevent gang stalking?](what-measures-can-the-government-take-to-prevent-gang-stalking) - 2025-09-20
+- [What's the one thing with gang stalking that helped you the most when you found out?](whats-the-one-thing-with-gang-stalking-that-helped-you-the-most-when-you-found-out) - 2025-09-20
+- [How can we get the most out of our lives being a gang stalking victim?](how-can-we-get-the-most-out-of-our-lives-being-a-gang-stalking-victim) - 2025-09-20
+- [TIs in need of work, try clinical trials](tis-in-need-of-work-try-clinical-trials) - 2025-09-20
+- [Gang stalking only has malicious intent](gang-stalking-only-has-malicious-intent) - 2025-09-20
+- [A post for each gang stalker game](a-post-for-each-gang-stalker-game) - 2025-09-20
+- [Deletion of TI Skills Network Nostr Account](deletion-of-ti-skills-network-nostr-account) - 2025-09-19
+- [About the Gated Community & Off Grid Living category](about-the-gated-community-off-grid-living-category) - 2025-09-19
+- [The intention of this forum is for TIs to help other TIs](the-intention-of-this-forum-is-for-tis-to-help-other-tis) - 2025-09-19
+- [I do not think there is such a thing as a TI being a gang stalker simultaneously](i-do-not-think-there-is-such-a-thing-as-a-ti-being-a-gang-stalker-simultaneously) - 2025-09-19
+- [About the Targeting category](about-the-targeting-category) - 2025-09-19
+- [About the Craigslist category](about-the-craigslist-category) - 2025-09-19
+- [About the Healthy Volunteer Clinical Trials category](about-the-healthy-volunteer-clinical-trials-category) - 2025-09-19
+- [General Rundown of Clinical Trials](general-rundown-of-clinical-trials) - 2025-09-19
+- [Support Match Waitlist](support-match-waitlist) - 2025-09-19
+- [Farah’s Micro Blog September 19 2025](farah-s-micro-blog-september-19-2025) - 2025-09-19
+- [About the MicroBlog category](about-the-microblog-category) - 2025-09-19
+- [1 user waiting for approval](1-user-waiting-for-approval) - 2025-09-19
+- [Virtual Doctors for TIs](virtual-doctors-for-tis) - 2025-09-19
+- [About the Product Requests category](about-the-product-requests-category) - 2025-09-19
+- [Tip for those being psyop’ed on YouTube](tip-for-those-being-psyop-ed-on-youtube) - 2025-09-19
+- [There is more of us than you think](there-is-more-of-us-than-you-think) - 2025-09-19
+- [TIs you can share your stories in this forum](tis-you-can-share-your-stories-in-this-forum) - 2025-09-19
+- [Fitness challenge?](fitness-challenge) - 2025-09-19
+- [Get your invite code!](get-your-invite-code) - 2025-09-19
+- [About the SupportMatch category](about-the-supportmatch-category) - 2025-09-19
+- [About the CTF Product Updates category](about-the-ctf-product-updates-category) - 2025-09-19
+- [Why now and why public?](why-now-and-why-public) - 2025-09-19
+- [Welcome to your 14 day Starter hosting trial!](welcome-to-your-14-day-starter-hosting-trial) - 2025-09-18
+- [Admin Guide: Getting Started](admin-guide-getting-started) - 2025-09-18
+- [Welcome to Charging The Future! :wave:](welcome-to-charging-the-future) - 2025-09-18
+- [FAQ/Guidelines](faq-guidelines) - 2025-09-18
+- [About the General category](about-the-general-category) - 2025-09-18
+- [About the Staff category](about-the-staff-category) - 2025-09-18
+- [About the Site Feedback category](about-the-site-feedback-category) - 2025-09-18

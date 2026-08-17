@@ -1,6 +1,6 @@
 import { useParams } from "wouter";
 import { motion } from "framer-motion";
-import { ArrowLeft, Clock, Calendar, AlertTriangle } from "lucide-react";
+import { ArrowLeft, Clock, Calendar, AlertTriangle, Archive } from "lucide-react";
 import { Link } from "wouter";
 import { Layout } from "@/components/Layout";
 import { MarkdownRenderer } from "@/components/MarkdownRenderer";
@@ -93,6 +93,23 @@ export default function Article() {
                 <p className="font-sans text-xl md:text-2xl text-gray-300 border-l-4 border-primary pl-6 bg-secondary/30 p-4">
                   {meta.excerpt}
                 </p>
+              )}
+
+              {meta?.archive && (
+                <div className="mt-6 flex items-start gap-3 bg-black border-2 border-gray-800 p-4 font-mono text-sm text-gray-400">
+                  <Archive size={18} className="text-accent shrink-0 mt-0.5" />
+                  <span>
+                    Historical record. Originally posted on {meta.archive.source === "quora" ? "Quora" : "the Discourse forum"}
+                    {meta.archive.account ? <> ({meta.archive.account})</> : null}
+                    {meta.archive.originalDate ? <> on {formatArticleDate(meta.archive.originalDate, { month: 'long', day: 'numeric', year: 'numeric' })}</> : null}
+                    {". "}
+                    {meta.archive.status === "erased" && "That account was erased by the platform; this page is the canonical copy."}
+                    {meta.archive.status === "closed" && "That platform surface is closed; this page is the canonical copy."}
+                    {meta.archive.originalUrl ? (
+                      <> <a href={meta.archive.originalUrl} target="_blank" rel="noopener noreferrer" className="text-accent underline">Original context</a></>
+                    ) : null}
+                  </span>
+                </div>
               )}
             </header>
 

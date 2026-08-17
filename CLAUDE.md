@@ -46,10 +46,13 @@ Canonical source: [`chargingthefuture/chargingthefuture` → `.github/instructio
 
 ## Architecture (publishing pipeline)
 
-- Content source of truth: GitHub Wiki repo `chargingthefuture.wiki.git` (submodule at `wiki/`). Blog fetches wiki markdown live at render time — editing a wiki page updates the site without a rebuild.
-- Article registry: `wiki-site/content-index.yaml` (canonical). Synced into `wiki-site/artifacts/wiki/src/lib/articles.ts` via `pnpm wiki:sync`. A post appears on the blog only after a `content-index.yaml` entry exists, is synced, committed, and pushed.
-- Deploy: push to `main` touching `wiki-site/**` → `.github/workflows/deploy-wiki-gh-pages.yml` builds and deploys to GitHub Pages at base path `/chargingthefuture/`.
+- Content source of truth: markdown files with YAML front matter under `wiki-site/content/`, organized in collections (`posts/`, `product-updates/`, `guides/`, `insights/`, `member-of-the-day/`, `archive/discourse/`, `archive/quora/`, shared `images/`). Schema: `wiki-site/content/README.md`.
+- Article registry: generated from front matter into `wiki-site/artifacts/wiki/src/lib/articles.ts` via `pnpm wiki:sync`. No separate index file. Article bodies and images are bundled from `content/` at build time; a live GitHub-wiki fetch remains only as a fallback for registry entries without a bundled path.
+- Migrated pages carry their original wiki slug and repo namespace in front matter, so pre-migration article URLs stay stable. Do not change `slug`/`repo` on migrated files.
+- Deploy: push to `main` touching `wiki-site/**` → `.github/workflows/deploy-wiki-gh-pages.yml` builds, deploys to GitHub Pages at base path `/chargingthefuture/`, then submits changed content to the Wayback Machine (best-effort job).
 - CI (no publish): `.github/workflows/wiki-validate.yml` on `main` pushes and PRs.
+- Weekly product updates are committed into `content/product-updates/` by `generate-product-update.yml` in the product repo.
+- Distribution posture: platforms (Quora etc.) receive excerpt + image + canonical link only; nothing is authored there. See `wiki-site/PUBLISHING.md`.
 
 ## Commands (run from `wiki-site/`)
 
