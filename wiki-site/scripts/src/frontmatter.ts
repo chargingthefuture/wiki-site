@@ -36,6 +36,16 @@ export function parseFrontMatter(markdown: string): { meta: ContentMeta | null; 
   const match = markdown.match(FRONT_MATTER_RE);
   if (!match) return { meta: null, body: markdown };
   const meta = load(match[1]) as ContentMeta;
+  // YAML parses an unquoted 2026-08-17 as a Date object; normalize back to
+  // the plain YYYY-MM-DD string the pipeline expects.
+  if (meta) {
+    const asDateString = (v: unknown): string | undefined =>
+      v instanceof Date ? v.toISOString().slice(0, 10) : undefined;
+    meta.date = asDateString(meta.date) ?? meta.date;
+    if (meta.archive) {
+      meta.archive.original_date = asDateString(meta.archive.original_date) ?? meta.archive.original_date;
+    }
+  }
   return { meta, body: markdown.slice(match[0].length) };
 }
 
