@@ -41,6 +41,16 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "what-stays-up",
+    "title": "What stays up",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-17",
+    "excerpt": "Quora emptied the Skills Economy space today. The posts that isolate people are still up; the posts that connect them are gone.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/what-stays-up.md"
+  },
+  {
     "slug": "Product-Update-2026-08-05-Admin-Blocks-Value",
     "title": "Admin tooling, block enforcement, and Community Value fixes",
     "repo": "chargingthefuture/chargingthefuture",

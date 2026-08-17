@@ -1,9 +1,10 @@
 ---
 title: "What stays up"
 date: "2026-08-17"
-excerpt: "One or two sentences shown on the article card."
-category: "Posts"
+excerpt: "Quora emptied the Skills Economy space today. The posts that isolate people are still up; the posts that connect them are gone."
+category: "Community"
 ---
+
 Quora deleted every post ever made to my space (Skills Economy) today August 16, 2026: Farah Brunache (https://www.quora.com/profile/Farah-Brunache).
 The account is still there. The space is still there. Both are empty. No post history. No traction. Nothing to scroll.
 Here is what was in it. Invitations to people to join a skills network. Posts about members trading work, housing, and rides with each other. Arguments against isolating. Arguments against giving up. A standing position that the answer is to live and work together and to stop handing the Specterati your attention.
