@@ -6,7 +6,7 @@ category: "Community"
 teaser: "Quora deleted every post ever made to my space. The account and the space are still there — both empty, so a new visitor sees a room where nothing ever happened. Meanwhile, accounts posting the same give-up message on a loop for months are untouched. Sort it and the rule is not subtle: content that leaves a person alone stays up; content that puts people in contact with each other does not. The fix is not to appeal to the platform. It is to need it less."
 ---
 
-Quora deleted every post ever made to my space (Skills Economy) today August 16, 2026: Farah Brunache (https://www.quora.com/profile/Farah-Brunache).
+Quora deleted every post ever made to my space Skills Economy (https://skillseconomy.quora.com) today, August 16, 2026, as well as banned my personal account: Farah Brunache (https://www.quora.com/profile/Farah-Brunache).
 
 The account is still there. The space is still there. Both are empty. No post history. No traction. Nothing to scroll.
 
