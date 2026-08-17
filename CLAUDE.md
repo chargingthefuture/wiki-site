@@ -74,9 +74,13 @@ Full operator runbook: [wiki-site/PUBLISHING.md](wiki-site/PUBLISHING.md).
 - PR titles must match: concise, action-oriented, no random strings.
 - If a branch was created with a bad name, rename it before opening the PR: create a new descriptive branch from the same commits, open the PR from that, close the old one, delete the old branch.
 
-## Executed changes go through /bpr (always apply, every repo)
+## Agent Slash Commands (always apply, every repo)
 
-Owner directive, 2026-08-17. Any request that changes files in a repo runs the `/bpr` routine, whatever repo it lands in. There is no separate mode for small changes.
+Owner directive, 2026-08-17. Three routines are defined in `.claude/commands/` in the product repo (`chargingthefuture/chargingthefuture`). Each is the standing way to do its kind of work, and the owner does not have to type the slash command for it to apply — the request itself is the trigger. Two of the three apply here.
+
+### /bpr — every executed change
+
+Any request that changes files runs this routine, whatever repo it lands in. There is no separate mode for small changes.
 
 1. Branch first, before any edit: a descriptive branch off the latest `main`, named `<type>/<short-description>`.
 2. Do the work. Keep it surgical.
@@ -85,7 +89,13 @@ Owner directive, 2026-08-17. Any request that changes files in a repo runs the `
 
 Never commit to, or open a PR from, the auto-generated `claude/<slug>` session branch the harness assigns. If commits already sit there, move them onto a descriptive branch and abandon the session branch.
 
-The routine itself is defined in `.claude/commands/bpr.md` in the product repo (`chargingthefuture/chargingthefuture`).
+### /pr — opening a PR is the start of the job, not the end
+
+Agents open pull requests and abandon them. A PR left alone is work that never shipped, and in this repo that matters more than usual: nothing reaches the blog until it is on `main`, and auto-merge is off, so a PR sits until someone acts. Sweep every open PR that is blocked, behind, conflicted, or failing checks, and drive each one to merge — resolve conflicts by understanding both sides, read the actual failure log before touching anything, bring behind branches up to date. Do not report that a PR needs something; do it. Leave alone only a draft someone is actively working, or a PR sitting green and waiting on the owner's review, and say which those are.
+
+### /cr — product repo only
+
+Working open code-review findings. The code-review issues and their labels live in the product repo, so the routine does not apply here.
 
 ## What CI checks in this repo, and what it does not
 
