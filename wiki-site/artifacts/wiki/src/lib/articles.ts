@@ -28,6 +28,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "old-links-new-links",
+    "title": "Old links, new links",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-17",
+    "excerpt": "Two Quora accounts erased, one space renamed. What is current, what is dead, and the one address that does not change.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/old-links-new-links.md",
+    "teaser": "Quora has erased my accounts twice, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. This page is the standing record: the current space, the current handle, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
+    "topics": [
+      "publishing",
+      "platform-independence"
+    ]
+  },
+  {
     "slug": "our-writing-has-a-permanent-home",
     "title": "Our writing has a permanent home",
     "repo": "chargingthefuture/wiki-site",
@@ -36,6 +51,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/our-writing-has-a-permanent-home.md",
+    "teaser": "Quora has deleted my account twice, and years of writing disappeared overnight each time. That stops mattering today. Everything I write now lives in a public, version-controlled archive with a timestamped history — nobody can quietly empty it. Platforms are distribution now, not storage: a platform post is an excerpt and a link back here. If the next account is erased, the links die and nothing else.",
     "topics": [
       "publishing",
       "platform-independence"
@@ -45,11 +61,12 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "what-stays-up",
     "title": "What stays up",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-17",
+    "date": "2026-08-16",
     "excerpt": "Quora emptied the Skills Economy space today. The posts that isolate people are still up; the posts that connect them are gone.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/what-stays-up.md"
+    "path": "posts/what-stays-up.md",
+    "teaser": "Quora deleted every post ever made to my space. The account and the space are still there — both empty, so a new visitor sees a room where nothing ever happened. Meanwhile, accounts posting the same give-up message on a loop for months are untouched. Sort it and the rule is not subtle: content that leaves a person alone stays up; content that puts people in contact with each other does not. The fix is not to appeal to the platform. It is to need it less."
   },
   {
     "slug": "Product-Update-2026-08-05-Admin-Blocks-Value",
@@ -1035,7 +1052,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "Official Terms of Service and Privacy Policy for Charging the Future and the TI Skills Economy.",
     "category": "Security",
     "collection": "posts",
-    "path": "posts/Terms-of-Service-and-Privacy-Policy.md"
+    "path": "posts/Terms-of-Service-and-Privacy-Policy.md",
+    "teaser": "The official Terms of Service and Privacy Policy, effective March 24, 2026. What you agree to, what we collect and why, how moderation works, and how to delete your account and data completely. Written to be read, not skimmed past."
   },
   {
     "slug": "Dictionary",
@@ -1045,7 +1063,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "Official terminology for the TI Skills Economy, including survivor-first language and Specterati definitions.",
     "category": "Resources",
     "collection": "posts",
-    "path": "posts/Dictionary.md"
+    "path": "posts/Dictionary.md",
+    "teaser": "The official terms of the Skills Economy, in one place. Specterati replaces 'gang stalking' — a network, not a mystery. Survivors, not victims. Every app name, every term, and what each one means, so we all say the same thing the same way."
   },
   {
     "slug": "Weekly-State-of-the-TI-Skills-Economy",
@@ -1056,7 +1075,8 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Updates",
     "collection": "posts",
     "path": "posts/Weekly-State-of-the-TI-Skills-Economy.md",
-    "featured": true
+    "featured": true,
+    "teaser": "This page was the weekly record of the economy — signups, uptime, features — for 33 weeks. Version 3 of the app made it obsolete in the best way: updates now publish at least twice a day on this site, and the rest happens in the app itself. The page stays up as the history of how we got here."
   },
   {
     "slug": "Contribution-Reversal,-A-Better-Alternative",
@@ -1066,7 +1086,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "A reversal of our previous announcement. We are keeping the contribution ask low. When hosting costs aren't covered, the app goes down gracefully.",
     "category": "Updates",
     "collection": "posts",
-    "path": "posts/Contribution-Reversal,-A-Better-Alternative.md"
+    "path": "posts/Contribution-Reversal,-A-Better-Alternative.md",
+    "teaser": "I am reversing the price increase. The ask stays low, because taking away a survivor's income is the first thing done to every one of us. From now on: when hosting costs are not covered, the app goes down to a waitlist page, and comes back when they are. Existing members keep their accounts either way and lose nothing."
   },
   {
     "slug": "EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP",
@@ -1077,7 +1098,8 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Philosophy",
     "collection": "posts",
     "path": "posts/EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP.md",
-    "featured": true
+    "featured": true,
+    "teaser": "Stop caring about the cameras. If cameras mattered, the second time they punched me in the face there would have been consequences. The cameras are a distraction, and the debates about them keep us circling. The only thing that matters is their economy — that is why they can exist. Exit their economy, exit the psyop."
   },
   {
     "slug": "guides/getting-started",
@@ -1107,7 +1129,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "Ways to contribute to the TI Skills Economy, whether through mutual aid, sharing skills, or funding.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/How-you-can-help.md"
+    "path": "posts/How-you-can-help.md",
+    "teaser": "I was fired without cause last month, and I have been covering the app's hosting costs myself — including by donating plasma. If you can contribute financially, the subscription is $1 a month. If you cannot, upvote and comment so more people find this. And if you genuinely cannot afford anything, keep using the app; that is what it is for."
   },
   {
     "slug": "Peer‐to‐Peer-Crisis-Hotline",
@@ -1117,7 +1140,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "Details on our mutual aid crisis support system, built by and for the community.",
     "category": "Services",
     "collection": "posts",
-    "path": "posts/Peer‐to‐Peer-Crisis-Hotline.md"
+    "path": "posts/Peer‐to‐Peer-Crisis-Hotline.md",
+    "teaser": "When my stalking got bad I called a crisis hotline for the first time. The operator's answer, in short: 'join the club.' There is no hotline for people in this situation — so we became one. A network of survivors around the world, committed to solidarity, reachable day and night through Chyme and Signal. If you need someone to talk to, we are there."
   },
   {
     "slug": "Signal-Groups",
@@ -1127,7 +1151,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "Secure end-to-end encrypted communication channels categorized by interest and need.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/Signal-Groups.md"
+    "path": "posts/Signal-Groups.md",
+    "teaser": "All the chat groups in one list: general chat, Saturday town halls, paid clinical trials, mutual aid, and perp alerts. Everything runs on Signal — end-to-end encrypted, real-time chat and audio calls. Join the ones that fit your needs."
   },
   {
     "slug": "Time-to-live-free",
@@ -1137,7 +1162,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "Actionable steps to reclaim agency, restore dignity, and navigate life outside exploitative structures.",
     "category": "Philosophy",
     "collection": "posts",
-    "path": "posts/Time-to-live-free.md"
+    "path": "posts/Time-to-live-free.md",
+    "teaser": "The standard advice to survivors is to keep your head down, stay put, and barely get by for the rest of your life. That is a lot of effort — almost as much as the operatives spend terrorizing people while posing as normal. It takes a lot of effort not to be free. I think it is time to live free, as we were intended."
   },
   {
     "slug": "TSE-Baseline",
@@ -1147,7 +1173,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "The fundamental operational standards and agreements that keep our community secure.",
     "category": "Platform",
     "collection": "posts",
-    "path": "posts/TSE-Baseline.md"
+    "path": "posts/TSE-Baseline.md",
+    "teaser": "The working document behind the economic model. I estimate 5 million survivors globally, and I am calibrating the economy against countries of that size with open data — Finland as the national baseline, with Helsinki and Tallinn for the city level, and Estonia's digital state as a study in building from nothing. This is my logic, in the open, and I want your feedback on it."
   },
   {
     "slug": "What-is-Chyme?",
@@ -1157,7 +1184,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "Join the continuous social audio drop-in space for real-time connection and support.",
     "category": "Services",
     "collection": "posts",
-    "path": "posts/What-is-Chyme.md"
+    "path": "posts/What-is-Chyme.md",
+    "teaser": "Chyme is live drop-in audio for survivors — rooms by topic, a stage for speakers, an audience that can raise a hand and join. Moderators control the stage; nothing is recorded by default. Every member can host their own rooms. It is where the community talks in real time."
   },
   {
     "slug": "What-is-SupportMatch?",
@@ -1167,7 +1195,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "Find accountability partners and allies through our trauma-informed matching service.",
     "category": "Services",
     "collection": "posts",
-    "path": "posts/What-is-SupportMatch.md"
+    "path": "posts/What-is-SupportMatch.md",
+    "teaser": "SupportMatch randomly pairs you with another survivor looking for a monthly accountability partner — friendship, collaboration, skill exchange, whatever you both decide. No psyop and no hidden agenda. You control what you share, you can opt out at any time with no reason required, and reporting tools are built in."
   },
   {
     "slug": "🤜🤛-Skills,-Solidarity,-and-Support",
@@ -1177,7 +1206,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "Very few TIs get it, in my opinion of course, here are my shoutouts to those giving amazing advice on Quora. You are appreciated!",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/🤜🤛-Skills,-Solidarity,-and-Support.md"
+    "path": "posts/🤜🤛-Skills,-Solidarity,-and-Support.md",
+    "teaser": "Very few get it, in my opinion — so here are my shoutouts to the survivors giving genuinely good advice on Quora. You are appreciated, and this post will keep growing as I find more of you. Names in no particular order."
   },
   {
     "slug": "24-7-Chyme-Drop-In-Rooms",
@@ -1187,7 +1217,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "I have opened the rooms below in Chyme, and they will stay open 24/7. Download the Chyme Android app: https://app.chargingthefuture.com/apps/chyme. Once logged...",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/24-7-Chyme-Drop-In-Rooms.md"
+    "path": "posts/24-7-Chyme-Drop-In-Rooms.md",
+    "teaser": "I opened a Chyme audio room for every sector of the Skills Economy — food, housing, health, transport, and the rest — and they stay open 24/7. Walk in any time to talk or to plan how we deliver goods and services to each other. I am not a leader of anyone; the rooms are yours to use."
   },
   {
     "slug": "A-Necessary-Step-to-Keep-Our-Platform-Running",
@@ -1197,7 +1228,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "I'm writing to share an important update about the TI Skills Economy app's pricing and sustainability. Effective March 1, 2026, the subscription price will inc...",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/A-Necessary-Step-to-Keep-Our-Platform-Running.md"
+    "path": "posts/A-Necessary-Step-to-Keep-Our-Platform-Running.md",
+    "teaser": "The subscription rises from $1 to $2 a month on March 1, 2026. If you are already a member, your price is locked forever — this changes nothing for you. Without the increase, hosting costs take the app offline, and every day offline is a person who never finds it. If you cannot pay, keep using the app; I will cover it."
   },
   {
     "slug": "App-Redesign-(v3)-Demos",
@@ -1207,7 +1239,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "I will use this post to link to all demos of the v3 app's 17+ features.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/App-Redesign-(v3)-Demos.md"
+    "path": "posts/App-Redesign-(v3)-Demos.md",
+    "teaser": "The v3 redesign of the app has a click-through prototype: every one of the 17+ features, at your own pace, no account needed. There is also an overview video and a video per feature. Click through and tell me what works and what does not."
   },
   {
     "slug": "Call-to-Action",
@@ -1217,7 +1250,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "One of the Specterati walked up to me this morning and said, “you know there is a camera?” As I stood underneath one while on my phone.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/Call-to-Action.md"
+    "path": "posts/Call-to-Action.md",
+    "teaser": "One of the Specterati walked up to me and said, 'you know there is a camera?' Cameras do not matter — their economy does. They can do what they do because we feed it: our attention and our transactions. I am asking survivors to stop participating in that economy and join the one we run ourselves: work, housing, rides, and trade among people who are not in it."
   },
   {
     "slug": "Feature-refinements:-removing-MechanicMatch,-CompareNotes,-and-LostMail",
@@ -1227,7 +1261,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "I have been reviewing the app's features and have decided to remove the apps MechanicMatch, CompareNotes, and LostMail as they are not being used.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/Feature-refinements:-removing-MechanicMatch,-CompareNotes,-and-LostMail.md"
+    "path": "posts/Feature-refinements:-removing-MechanicMatch,-CompareNotes,-and-LostMail.md",
+    "teaser": "I am removing three apps nobody was using: MechanicMatch, CompareNotes, and LostMail. The Directory already finds you a mechanic, and the other two will be answered a better way. What remains is eight apps that people actually use — and space for a major economy upgrade later this year."
   },
   {
     "slug": "From-62-to-384:-Building-a-Real-Economy-Where-We-Live,-Work,-and-Prevail",
@@ -1237,7 +1272,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "We have the potential to reach 5 million TIs (human trafficking survivors) who come together to reclaim our lives. But today, I want to focus on the power of r...",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/From-62-to-384:-Building-a-Real-Economy-Where-We-Live,-Work,-and-Prevail.md"
+    "path": "posts/From-62-to-384:-Building-a-Real-Economy-Where-We-Live,-Work,-and-Prevail.md",
+    "teaser": "We have 411 people in the Quora community and 62 have joined the app. My goal is 384. At that size, the arithmetic says this group could generate $24.66 million a year in activity — a caregiver earning $32,500, a mechanic $54,600, a babysitter with steady work, all trading with each other. Not millions of people. A few hundred."
   },
   {
     "slug": "guides/chyme/Chyme:-TI-social-audio-app",
@@ -1287,7 +1323,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "Every Saturday I make myself available to speak live about TSE.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/How-to-join-Saturday-Town-Halls.md"
+    "path": "posts/How-to-join-Saturday-Town-Halls.md",
+    "teaser": "Every Saturday I make myself available to speak live about the Skills Economy. Two ways in: the Chyme town hall room in the app, or the Signal group if you are on iOS or desktop. Come with questions, or just listen."
   },
   {
     "slug": "How-to-maintain-employment-as-a-TI.",
@@ -1297,7 +1334,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "Another TI taught me about doing healthy volunteer studies. It's where pharma companies pay you to test an upcoming medicine. It's safe because they are phase ...",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/How-to-maintain-employment-as-a-TI..md"
+    "path": "posts/How-to-maintain-employment-as-a-TI..md",
+    "teaser": "Another survivor taught me about paid healthy-volunteer studies: pharma companies pay you to test upcoming medicines in phase I trials. The average is $3,000 to $5,000 a month; I have seen up to $45,000 for one. I have done one and will keep going. Talk to me before you call a trial company — there are ways to avoid being banned, and I will walk you through them."
   },
   {
     "slug": "insights/#49-of-how-TI-Skills-Network-helps-you-exit-the-psyop",
@@ -1327,7 +1365,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "As seen in the weekly app stats, as of today, 57 people have signed up, with only 32 of them having provided their Quora handle. Therefore, there are 25 people...",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/Live-in‐app-Community-Support-Chat.md"
+    "path": "posts/Live-in‐app-Community-Support-Chat.md",
+    "teaser": "25 people signed up but got stuck before using a single feature. So the app now has live in-app chat: post your question and get an answer from me or any member who opts in. A global community cannot run on one person's time zone — now support runs on all of ours."
   },
   {
     "slug": "Look-ma,-I-fixed-it!",
@@ -1337,7 +1376,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "Nat Morris (TSE Profile) did a great write-up that lists the most common things the Specterati do to Targets.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/Look-ma,-I-fixed-it!.md"
+    "path": "posts/Look-ma,-I-fixed-it!.md",
+    "teaser": "Nat Morris wrote up the most common things the Specterati do to Targets. I built an interactive page that takes that list and shows, item by item, how the Skills Economy removes each obstacle from your life. Not promises — the specific service that answers each specific tactic."
   },
   {
     "slug": "New-Mini‐App:-Mood",
@@ -1347,7 +1387,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "Before today, within GentlePulse, you could report on your mood. Based on the community's usage, I have moved mood ratings out of GentlePulse and into its own ...",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/New-Mini‐App:-Mood.md"
+    "path": "posts/New-Mini‐App:-Mood.md",
+    "teaser": "Mood ratings now have their own mini-app, moved out of GentlePulse based on how the community actually uses it. Same rules as before: anonymous, and individual responses are never sold or shared. I use it for one thing — to see whether the product is improving your mental health and your economic stability."
   },
   {
     "slug": "Official-Channels-(and-Discourse-Blog-is-closed)",
@@ -1357,7 +1398,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "The Discourse blog I created at https://chargingthefuture.discourse.group was closed on December 23, 2025. I have exported all of the posts to this GitHub repo...",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/Official-Channels-(and-Discourse-Blog-is-closed).md"
+    "path": "posts/Official-Channels-(and-Discourse-Blog-is-closed).md",
+    "teaser": "The Discourse blog was closed on December 23, 2025. Every post was exported to this repository before it went — nothing was lost, and each one is being reformatted for readability. Here is the full list of official channels: the website, the app, this blog, the code, and Quora."
   },
   {
     "slug": "Product-Update-2026-05-29-Chyme-Unified-Experience",
@@ -1377,7 +1419,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "We are survivors. Targeted Individuals (TIs) — people subjected to organized, long-running harassment carried out by what I call the Specterati: a coordinated ...",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP.md"
+    "path": "posts/The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP.md",
+    "teaser": "We are survivors of organized crime — human trafficking — and I have found writing describing this same crime from the 1690s. I estimate five million of us worldwide. That is more than enough people to meet each other's needs. Survivors compiled 51 real problems we face; I did not stop at the list. I built a working answer for every single one. Filling it is up to us."
   },
   {
     "slug": "The-Specterati's-Money-Laundering-vs.-TI-Skills-Economy’s-circular-economy",
@@ -1387,7 +1430,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "The Specterati's Money laundering vs. TI Skills Economy’s circular economy, why they’re not the same thing",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/The-Specterati's-Money-Laundering-vs.-TI-Skills-Economy’s-circular-economy.md"
+    "path": "posts/The-Specterati's-Money-Laundering-vs.-TI-Skills-Economy’s-circular-economy.md",
+    "teaser": "Money laundering hides where funds come from — layered transactions, shell companies, secrecy for personal gain. A circular economy is the opposite: skills and materials kept in use locally, in the open, for collective benefit. One runs on concealment, the other on visible, reciprocal exchange. That difference is the whole point of the Skills Economy."
   },
   {
     "slug": "Three-ways-to-reach-me-and-get-help.",
@@ -1397,7 +1441,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "For app support or questions:",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/Three-ways-to-reach-me-and-get-help..md"
+    "path": "posts/Three-ways-to-reach-me-and-get-help..md",
+    "teaser": "I closed my Quora DMs. Three ways to reach me now: comment on any Quora post, message one of the Signal groups, or use the live in-app chat. All three get answered — DMs were the only channel that did not scale."
   },
   {
     "slug": "Use-Cases-of-the-TI-Skills-Economy:-the-only-way-to-exit-the-psyop",
@@ -1407,7 +1452,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "The goal of the TI Skills Economy is to unite the ~5 million TIs. There are enough TIs to box out the perps from our lives by working and living amongst TIs. I...",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/Use-Cases-of-the-TI-Skills-Economy:-the-only-way-to-exit-the-psyop.md"
+    "path": "posts/Use-Cases-of-the-TI-Skills-Economy:-the-only-way-to-exit-the-psyop.md",
+    "teaser": "There are enough of us to box the perps out of our lives by working and living among ourselves — that is the entire idea, and the app is just the facilitator. Say you are a vet: survivors whose pets are poisoned need someone who is not part of the psyop, and now they can find you. I am not a leader. It is a peer-to-peer marketplace, and you never have to interact with me at all."
   },
   {
     "slug": "What-is-the-TI-Skills-Economy-app?",
@@ -1417,7 +1463,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "An invite-only platform designed specifically for survivors of human trafficking, offering essential services and support with dignity, privacy, and respect.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/What-is-the-TI-Skills-Economy-app.md"
+    "path": "posts/What-is-the-TI-Skills-Economy-app.md",
+    "teaser": "An invite-only super app built exclusively for survivors of human trafficking: housing, transportation, work, support, and community — 12+ services through a single account. Trauma-informed design, WCAG AAA accessibility, complete privacy control including full account deletion. Built by and for survivors."
   },
   {
     "slug": "With-an-estimated-5-million-TIs-globally,-we-can-significantly-reduce,-if-not-eliminate,-our-exploitation!",
@@ -1427,7 +1474,8 @@ export const ARTICLES: ArticleMeta[] = [
     "excerpt": "With an estimated 5 million TIs globally, we can significantly reduce, if not eliminate, our exploitation!",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/With-an-estimated-5-million-TIs-globally,-we-can-significantly-reduce,-if-not-eliminate,-our-exploitation!.md"
+    "path": "posts/With-an-estimated-5-million-TIs-globally,-we-can-significantly-reduce,-if-not-eliminate,-our-exploitation!.md",
+    "teaser": "There are nation-states with 5 million people, and they run service-based economies. So there is no reason 5 million survivors cannot collectively opt out of doing business with the people who torture and exploit us. You may think you have nothing to contribute — the data says otherwise. I reviewed the profiles myself: the majority of survivors are highly skilled."
   },
   {
     "slug": "Home",
@@ -1438,7 +1486,8 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Foundation",
     "collection": "posts",
     "path": "posts/Home.md",
-    "featured": true
+    "featured": true,
+    "teaser": "The knowledge base for Charging The Future and the Skills Economy: what the app is, how each service works, and where everything lives. The app is invite-only, built for survivors to live, work, and rebuild with safety, dignity, and privacy. Start here if you are new."
   },
   {
     "slug": "discourse-migrate/good-things-are-happening-hang-in-there",
