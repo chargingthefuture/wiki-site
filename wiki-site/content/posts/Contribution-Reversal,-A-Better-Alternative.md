@@ -5,6 +5,7 @@ excerpt: A reversal of our previous announcement. We are keeping the contributio
 category: Updates
 slug: Contribution-Reversal,-A-Better-Alternative
 repo: chargingthefuture/chargingthefuture
+teaser: "I am reversing the price increase. The ask stays low, because taking away a survivor's income is the first thing done to every one of us. From now on: when hosting costs are not covered, the app goes down to a waitlist page, and comes back when they are. Existing members keep their accounts either way and lose nothing."
 ---
 
 I made this post last week, announcing a price increase:

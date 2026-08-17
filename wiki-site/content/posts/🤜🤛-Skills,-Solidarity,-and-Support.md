@@ -5,6 +5,7 @@ excerpt: Very few TIs get it, in my opinion of course, here are my shoutouts to 
 category: Community
 slug: 🤜🤛-Skills,-Solidarity,-and-Support
 repo: chargingthefuture/chargingthefuture
+teaser: "Very few get it, in my opinion — so here are my shoutouts to the survivors giving genuinely good advice on Quora. You are appreciated, and this post will keep growing as I find more of you. Names in no particular order."
 ---
 
 # 🤜🤛  Skills, Solidarity, and Support

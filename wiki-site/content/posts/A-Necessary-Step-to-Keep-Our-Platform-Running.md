@@ -5,6 +5,7 @@ excerpt: I'm writing to share an important update about the TI Skills Economy ap
 category: Community
 slug: A-Necessary-Step-to-Keep-Our-Platform-Running
 repo: chargingthefuture/chargingthefuture
+teaser: "The subscription rises from $1 to $2 a month on March 1, 2026. If you are already a member, your price is locked forever — this changes nothing for you. Without the increase, hosting costs take the app offline, and every day offline is a person who never finds it. If you cannot pay, keep using the app; I will cover it."
 ---
 
 # Price Increase and Sustainability Update for TI Skills Economy

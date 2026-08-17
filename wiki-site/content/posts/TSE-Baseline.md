@@ -5,6 +5,7 @@ excerpt: The fundamental operational standards and agreements that keep our comm
 category: Platform
 slug: TSE-Baseline
 repo: chargingthefuture/mono
+teaser: "The working document behind the economic model. I estimate 5 million survivors globally, and I am calibrating the economy against countries of that size with open data — Finland as the national baseline, with Helsinki and Tallinn for the city level, and Estonia's digital state as a study in building from nothing. This is my logic, in the open, and I want your feedback on it."
 ---
 
 This is a working document as I update the TSE app's baseline: [chargingthefuture.com](chargingthefuture.com). Use it to learn my logic for what is implemented in the app. As well as an opportunity to provide feedback. I am only one person; multiple perspectives will make this economy better.

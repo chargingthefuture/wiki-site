@@ -5,6 +5,7 @@ excerpt: "I have opened the rooms below in Chyme, and they will stay open 24/7. 
 category: Community
 slug: 24-7-Chyme-Drop-In-Rooms
 repo: chargingthefuture/chargingthefuture
+teaser: "I opened a Chyme audio room for every sector of the Skills Economy — food, housing, health, transport, and the rest — and they stay open 24/7. Walk in any time to talk or to plan how we deliver goods and services to each other. I am not a leader of anyone; the rooms are yours to use."
 ---
 
 I have opened the rooms below in Chyme, and they will stay open 24/7. Download the Chyme Android app: https://app.chargingthefuture.com/apps/chyme. Once logged in, you can search for room titles or scroll until you see the room you want to join.

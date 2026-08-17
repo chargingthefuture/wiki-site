@@ -5,6 +5,7 @@ excerpt: Another TI taught me about doing healthy volunteer studies. It's where 
 category: Community
 slug: How-to-maintain-employment-as-a-TI.
 repo: chargingthefuture/chargingthefuture
+teaser: "Another survivor taught me about paid healthy-volunteer studies: pharma companies pay you to test upcoming medicines in phase I trials. The average is $3,000 to $5,000 a month; I have seen up to $45,000 for one. I have done one and will keep going. Talk to me before you call a trial company — there are ways to avoid being banned, and I will walk you through them."
 ---
 
 Another TI taught me about doing healthy volunteer studies. It's where pharma companies pay you to test an upcoming medicine. It's safe because they are phase I studies. Here's an example:

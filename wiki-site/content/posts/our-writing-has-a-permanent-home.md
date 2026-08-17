@@ -6,6 +6,7 @@ category: "Community"
 topics:
   - publishing
   - platform-independence
+teaser: "Quora has deleted my account twice, and years of writing disappeared overnight each time. That stops mattering today. Everything I write now lives in a public, version-controlled archive with a timestamped history — nobody can quietly empty it. Platforms are distribution now, not storage: a platform post is an excerpt and a link back here. If the next account is erased, the links die and nothing else."
 ---
 
 Quora has deleted my account twice. Both times, years of answers, posts, and conversations

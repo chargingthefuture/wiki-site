@@ -5,6 +5,7 @@ excerpt: Ways to contribute to the TI Skills Economy, whether through mutual aid
 category: Community
 slug: How-you-can-help
 repo: chargingthefuture/mono
+teaser: "I was fired without cause last month, and I have been covering the app's hosting costs myself — including by donating plasma. If you can contribute financially, the subscription is $1 a month. If you cannot, upvote and comment so more people find this. And if you genuinely cannot afford anything, keep using the app; that is what it is for."
 ---
 
 For the past year, I've been juggling a job (amongst a staff of Specterati members) while dealing with harassment outside of work from the Speceterati, which led to my termination without cause last month. This has made it challenging for me to cover the hosting costs for the TI Skills Economy app, which is a crucial tool for our community.

@@ -5,6 +5,7 @@ excerpt: "For app support or questions:"
 category: Community
 slug: Three-ways-to-reach-me-and-get-help.
 repo: chargingthefuture/chargingthefuture
+teaser: "I closed my Quora DMs. Three ways to reach me now: comment on any Quora post, message one of the Signal groups, or use the live in-app chat. All three get answered — DMs were the only channel that did not scale."
 ---
 
 # I officially closed my Quora DMs. Three ways to reach me and get help. 

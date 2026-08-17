@@ -5,6 +5,7 @@ excerpt: "We are survivors. Targeted Individuals (TIs) — people subjected to o
 category: Community
 slug: The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP
 repo: chargingthefuture/chargingthefuture
+teaser: "We are survivors of organized crime — human trafficking — and I have found writing describing this same crime from the 1690s. I estimate five million of us worldwide. That is more than enough people to meet each other's needs. Survivors compiled 51 real problems we face; I did not stop at the list. I built a working answer for every single one. Filling it is up to us."
 ---
 
 # Live, Work, and Prevail — a manifesto for survivors

@@ -5,6 +5,7 @@ excerpt: Official terminology for the TI Skills Economy, including survivor-firs
 category: Resources
 slug: Dictionary
 repo: chargingthefuture/chargingthefuture
+teaser: "The official terms of the Skills Economy, in one place. Specterati replaces 'gang stalking' — a network, not a mystery. Survivors, not victims. Every app name, every term, and what each one means, so we all say the same thing the same way."
 ---
 
 # Dictionary: TI Skills Economy Terms

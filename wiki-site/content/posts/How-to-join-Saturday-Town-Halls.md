@@ -5,6 +5,7 @@ excerpt: Every Saturday I make myself available to speak live about TSE.
 category: Community
 slug: How-to-join-Saturday-Town-Halls
 repo: chargingthefuture/chargingthefuture
+teaser: "Every Saturday I make myself available to speak live about the Skills Economy. Two ways in: the Chyme town hall room in the app, or the Signal group if you are on iOS or desktop. Come with questions, or just listen."
 ---
 
 Every Saturday I make myself available to speak live about TSE.  

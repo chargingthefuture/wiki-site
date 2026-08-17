@@ -6,6 +6,7 @@ category: Foundation
 slug: Home
 repo: chargingthefuture/chargingthefuture
 featured: true
+teaser: "The knowledge base for Charging The Future and the Skills Economy: what the app is, how each service works, and where everything lives. The app is invite-only, built for survivors to live, work, and rebuild with safety, dignity, and privacy. Start here if you are new."
 ---
 
 # Charging The Future Wiki

@@ -5,6 +5,7 @@ excerpt: One of the Specterati walked up to me this morning and said, “you kno
 category: Community
 slug: Call-to-Action
 repo: chargingthefuture/chargingthefuture
+teaser: "One of the Specterati walked up to me and said, 'you know there is a camera?' Cameras do not matter — their economy does. They can do what they do because we feed it: our attention and our transactions. I am asking survivors to stop participating in that economy and join the one we run ourselves: work, housing, rides, and trade among people who are not in it."
 ---
 
 One of the Specterati walked up to me this morning and said, “you know there is a camera?” As I stood underneath one while on my phone.

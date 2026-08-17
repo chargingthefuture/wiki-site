@@ -5,6 +5,7 @@ excerpt: Official Terms of Service and Privacy Policy for Charging the Future an
 category: Security
 slug: Terms-of-Service-and-Privacy-Policy
 repo: chargingthefuture/chargingthefuture
+teaser: "The official Terms of Service and Privacy Policy, effective March 24, 2026. What you agree to, what we collect and why, how moderation works, and how to delete your account and data completely. Written to be read, not skimmed past."
 ---
 
 # Terms of Service and Privacy Policy

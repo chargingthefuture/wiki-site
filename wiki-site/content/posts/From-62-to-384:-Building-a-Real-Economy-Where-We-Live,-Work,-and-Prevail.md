@@ -5,6 +5,7 @@ excerpt: We have the potential to reach 5 million TIs (human trafficking survivo
 category: Community
 slug: From-62-to-384:-Building-a-Real-Economy-Where-We-Live,-Work,-and-Prevail
 repo: chargingthefuture/chargingthefuture
+teaser: "We have 411 people in the Quora community and 62 have joined the app. My goal is 384. At that size, the arithmetic says this group could generate $24.66 million a year in activity — a caregiver earning $32,500, a mechanic $54,600, a babysitter with steady work, all trading with each other. Not millions of people. A few hundred."
 ---
 
 # From 62 to 384: Building a Real Economy Where We Live, Work, and Prevail

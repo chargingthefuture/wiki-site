@@ -5,6 +5,7 @@ excerpt: Find accountability partners and allies through our trauma-informed mat
 category: Services
 slug: What-is-SupportMatch?
 repo: chargingthefuture/mono
+teaser: "SupportMatch randomly pairs you with another survivor looking for a monthly accountability partner — friendship, collaboration, skill exchange, whatever you both decide. No psyop and no hidden agenda. You control what you share, you can opt out at any time with no reason required, and reporting tools are built in."
 ---
 
 SupportMatch is an opportunity to form real bonds with other TIs with no psyop or hidden agenda.
