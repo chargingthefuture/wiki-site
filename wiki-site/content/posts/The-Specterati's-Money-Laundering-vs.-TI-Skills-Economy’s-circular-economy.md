@@ -5,6 +5,7 @@ excerpt: The Specterati's Money laundering vs. TI Skills Economy’s circular ec
 category: Community
 slug: The-Specterati's-Money-Laundering-vs.-TI-Skills-Economy’s-circular-economy
 repo: chargingthefuture/chargingthefuture
+teaser: "Money laundering hides where funds come from — layered transactions, shell companies, secrecy for personal gain. A circular economy is the opposite: skills and materials kept in use locally, in the open, for collective benefit. One runs on concealment, the other on visible, reciprocal exchange. That difference is the whole point of the Skills Economy."
 ---
 
 The Specterati's [Money laundering](https://tiskillsnetwork.quora.com/Unidentifiable-https-www-quora-com-profile-Unidentifiable-20-got-it-right-They-are-paid-through-money-laundering) vs. TI Skills Economy’s circular economy, why they’re not the same thing

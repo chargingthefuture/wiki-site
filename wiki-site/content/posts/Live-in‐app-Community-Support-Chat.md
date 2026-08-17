@@ -5,6 +5,7 @@ excerpt: As seen in the weekly app stats, as of today, 57 people have signed up,
 category: Community
 slug: Live-in‐app-Community-Support-Chat
 repo: chargingthefuture/chargingthefuture
+teaser: "25 people signed up but got stuck before using a single feature. So the app now has live in-app chat: post your question and get an answer from me or any member who opts in. A global community cannot run on one person's time zone — now support runs on all of ours."
 ---
 
 # New Feature: Live in-app Community Support Chat

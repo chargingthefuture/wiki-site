@@ -5,6 +5,7 @@ excerpt: I will use this post to link to all demos of the v3 app's 17+ features.
 category: Community
 slug: App-Redesign-(v3)-Demos
 repo: chargingthefuture/chargingthefuture
+teaser: "The v3 redesign of the app has a click-through prototype: every one of the 17+ features, at your own pace, no account needed. There is also an overview video and a video per feature. Click through and tell me what works and what does not."
 ---
 
 I will use this post to link to all demos of the v3 app's 17+ features.

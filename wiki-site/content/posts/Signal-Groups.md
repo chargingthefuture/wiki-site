@@ -5,6 +5,7 @@ excerpt: Secure end-to-end encrypted communication channels categorized by inter
 category: Community
 slug: Signal-Groups
 repo: chargingthefuture/mono
+teaser: "All the chat groups in one list: general chat, Saturday town halls, paid clinical trials, mutual aid, and perp alerts. Everything runs on Signal — end-to-end encrypted, real-time chat and audio calls. Join the ones that fit your needs."
 ---
 
 If you would like to engage in real-time chat and audio calls, please join the following [Signal](signal.org) chat groups:

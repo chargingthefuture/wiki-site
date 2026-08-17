@@ -5,6 +5,7 @@ excerpt: The goal of the TI Skills Economy is to unite the ~5 million TIs. There
 category: Community
 slug: Use-Cases-of-the-TI-Skills-Economy:-the-only-way-to-exit-the-psyop
 repo: chargingthefuture/chargingthefuture
+teaser: "There are enough of us to box the perps out of our lives by working and living among ourselves — that is the entire idea, and the app is just the facilitator. Say you are a vet: survivors whose pets are poisoned need someone who is not part of the psyop, and now they can find you. I am not a leader. It is a peer-to-peer marketplace, and you never have to interact with me at all."
 ---
 
 The goal of the TI Skills Economy is to unite the ~5 million TIs. There are enough TIs to box out the perps from our lives by working and living amongst TIs. It is the only practical way to exit the psyop. The TI Skills Economy, in simple terms, is the facilitator of making this happen.

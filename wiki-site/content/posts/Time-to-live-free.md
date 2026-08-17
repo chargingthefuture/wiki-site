@@ -5,6 +5,7 @@ excerpt: Actionable steps to reclaim agency, restore dignity, and navigate life 
 category: Philosophy
 slug: Time-to-live-free
 repo: chargingthefuture/mono
+teaser: "The standard advice to survivors is to keep your head down, stay put, and barely get by for the rest of your life. That is a lot of effort — almost as much as the operatives spend terrorizing people while posing as normal. It takes a lot of effort not to be free. I think it is time to live free, as we were intended."
 ---
 
 Conforming to the Specterrealm (a domain ruled by fear and intimidation) that the Specterati have created is unnatural.

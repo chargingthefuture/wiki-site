@@ -5,6 +5,7 @@ excerpt: I have been reviewing the app's features and have decided to remove the
 category: Community
 slug: Feature-refinements:-removing-MechanicMatch,-CompareNotes,-and-LostMail
 repo: chargingthefuture/chargingthefuture
+teaser: "I am removing three apps nobody was using: MechanicMatch, CompareNotes, and LostMail. The Directory already finds you a mechanic, and the other two will be answered a better way. What remains is eight apps that people actually use — and space for a major economy upgrade later this year."
 ---
 
 I have been reviewing the app's features and have decided to remove the apps MechanicMatch, CompareNotes, and LostMail as they are not being used.

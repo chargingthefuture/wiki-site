@@ -5,6 +5,7 @@ excerpt: Join the continuous social audio drop-in space for real-time connection
 category: Services
 slug: What-is-Chyme?
 repo: chargingthefuture/mono
+teaser: "Chyme is live drop-in audio for survivors — rooms by topic, a stage for speakers, an audience that can raise a hand and join. Moderators control the stage; nothing is recorded by default. Every member can host their own rooms. It is where the community talks in real time."
 ---
 
 Marketing page of the Chyme room I created for today’s Town Hall:

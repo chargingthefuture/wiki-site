@@ -6,6 +6,7 @@ category: Updates
 slug: Weekly-State-of-the-TI-Skills-Economy
 repo: chargingthefuture/mono
 featured: true
+teaser: "This page was the weekly record of the economy — signups, uptime, features — for 33 weeks. Version 3 of the app made it obsolete in the best way: updates now publish at least twice a day on this site, and the rest happens in the app itself. The page stays up as the history of how we got here."
 ---
 
 # Welcome to the Weekly State of the TI Skills Economy!

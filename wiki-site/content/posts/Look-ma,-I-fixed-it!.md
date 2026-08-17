@@ -5,6 +5,7 @@ excerpt: Nat Morris (TSE Profile) did a great write-up that lists the most commo
 category: Community
 slug: Look-ma,-I-fixed-it!
 repo: chargingthefuture/chargingthefuture
+teaser: "Nat Morris wrote up the most common things the Specterati do to Targets. I built an interactive page that takes that list and shows, item by item, how the Skills Economy removes each obstacle from your life. Not promises — the specific service that answers each specific tactic."
 ---
 
 [Nat Morris](https://www.quora.com/profile/Nat-Morris-12) ([TSE Profile](https://app.chargingthefuture.com/apps/directory/public/bc6a5ef3-2226-4423-aee5-8356bec4a617)) did a great write-up that lists the most common things the Specterati do to Targets.

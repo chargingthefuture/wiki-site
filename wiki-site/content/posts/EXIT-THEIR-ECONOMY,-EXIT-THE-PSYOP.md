@@ -6,6 +6,7 @@ category: Philosophy
 slug: EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP
 repo: chargingthefuture/mono
 featured: true
+teaser: "Stop caring about the cameras. If cameras mattered, the second time they punched me in the face there would have been consequences. The cameras are a distraction, and the debates about them keep us circling. The only thing that matters is their economy — that is why they can exist. Exit their economy, exit the psyop."
 ---
 
 I replied to the below post in thread. Sharing again here.

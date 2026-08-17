@@ -5,6 +5,7 @@ excerpt: Before today, within GentlePulse, you could report on your mood. Based 
 category: Community
 slug: New-Mini‐App:-Mood
 repo: chargingthefuture/chargingthefuture
+teaser: "Mood ratings now have their own mini-app, moved out of GentlePulse based on how the community actually uses it. Same rules as before: anonymous, and individual responses are never sold or shared. I use it for one thing — to see whether the product is improving your mental health and your economic stability."
 ---
 
 # New Mini-App: Mood
