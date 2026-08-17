@@ -73,3 +73,31 @@ Full operator runbook: [wiki-site/PUBLISHING.md](wiki-site/PUBLISHING.md).
 - Use the pattern `<type>/<short-description>`, e.g. `fix/blog-dates-et-label`, `feat/category-filter`, `ci/submodule-checkout`.
 - PR titles must match: concise, action-oriented, no random strings.
 - If a branch was created with a bad name, rename it before opening the PR: create a new descriptive branch from the same commits, open the PR from that, close the old one, delete the old branch.
+
+## Executed changes go through /bpr (always apply, every repo)
+
+Owner directive, 2026-08-17. Any request that changes files in a repo runs the `/bpr` routine, whatever repo it lands in. There is no separate mode for small changes.
+
+1. Branch first, before any edit: a descriptive branch off the latest `main`, named `<type>/<short-description>`.
+2. Do the work. Keep it surgical.
+3. Verify locally — run the checks CI would run — before pushing. Do not push red.
+4. Open the PR ready for review, never a draft, with the title and body set at creation so no check goes red and needs re-triggering.
+
+Never commit to, or open a PR from, the auto-generated `claude/<slug>` session branch the harness assigns. If commits already sit there, move them onto a descriptive branch and abandon the session branch.
+
+The routine itself is defined in `.claude/commands/bpr.md` in the product repo (`chargingthefuture/chargingthefuture`).
+
+## What CI checks in this repo, and what it does not
+
+Two workflows run here, and no others:
+
+| Workflow | Runs on | Checks |
+|---|---|---|
+| `wiki-validate.yml` | PRs, and pushes to `main` | Front matter across `content/`, then builds the site. No publish. |
+| `deploy-wiki-gh-pages.yml` | Pushes to `main` touching `wiki-site/**` | Builds, deploys to GitHub Pages, submits changed pages to the Wayback Machine. |
+
+The product repo's PR conventions are not enforced here. There is no semantic-title check and no parity check. So:
+
+- Use a Conventional Commit PR title anyway, for consistency across repos.
+- Omit the `Parity Status:` line. This repo is a static blog with no Android surface, so the line carries no meaning.
+- Auto-merge is turned off in repository settings, so a PR here never merges itself. Every PR waits on a human merge until the owner turns auto-merge on.
