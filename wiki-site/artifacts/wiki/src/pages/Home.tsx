@@ -1,9 +1,15 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Search, Flame } from "lucide-react";
 import { Layout } from "@/components/Layout";
 import { ArticleCard } from "@/components/ArticleCard";
 import { ARTICLES } from "@/lib/articles";
+
+// With the archives listed, the full registry is 300+ articles. Rendering
+// every card at once (each an animated component) froze low-end phones on
+// each filter click, and the per-card stagger delay meant the tail of the
+// list took tens of seconds to appear. The grid renders one page at a time.
+const PAGE_SIZE = 24;
 
 const COLLECTION_LABELS: Record<string, string> = {
   "posts": "Posts",
@@ -45,6 +51,12 @@ export default function Home() {
       return matchesSearch && matchesCategory && matchesCollection;
     });
   }, [searchQuery, activeCategory, activeCollection, listedArticles]);
+
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE);
+  }, [searchQuery, activeCategory, activeCollection]);
+  const visibleArticles = filteredArticles.slice(0, visibleCount);
 
   const selectCollection = (collection: string) => {
     setActiveCollection(collection);
@@ -147,18 +159,33 @@ export default function Home() {
 
         {/* Results Grid */}
         {filteredArticles.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
-            {filteredArticles.map((article, idx) => (
-              <motion.div
-                key={article.slug}
-                initial={{ opacity: 0, scale: 0.95 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.4, delay: idx * 0.1 }}
-              >
-                <ArticleCard article={article} index={idx} />
-              </motion.div>
-            ))}
-          </div>
+          <>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+              {visibleArticles.map((article, idx) => (
+                <motion.div
+                  key={article.slug}
+                  initial={{ opacity: 0, scale: 0.95 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.3, delay: Math.min(idx % PAGE_SIZE, 8) * 0.04 }}
+                >
+                  <ArticleCard article={article} index={idx} />
+                </motion.div>
+              ))}
+            </div>
+            {filteredArticles.length > visibleCount && (
+              <div className="mt-12 flex flex-col items-center gap-3">
+                <div className="font-mono text-sm text-gray-500">
+                  Showing {visibleCount} of {filteredArticles.length}
+                </div>
+                <button
+                  onClick={() => setVisibleCount(c => c + PAGE_SIZE)}
+                  className="px-8 py-3 font-heading font-bold uppercase tracking-wider text-lg bg-black text-white border-2 border-gray-700 comic-shadow-sm hover:border-white hover:translate-y-[-2px] transition-all"
+                >
+                  Load More
+                </button>
+              </div>
+            )}
+          </>
         ) : (
           <div className="py-20 text-center border-4 border-dashed border-gray-800 bg-card">
             <h3 className="font-display text-4xl text-gray-500 mb-4">No Transmissions Found</h3>
