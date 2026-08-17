@@ -82,7 +82,9 @@ workflow → Run workflow.
 
 After the post is live:
 
-1. Write a short excerpt (a few sentences in your own words — not the full post).
+1. Paste the post's `teaser` from its front matter (write one at authoring time — the short
+   standalone version, 2-4 short sentences carrying the post's whole point). For older posts
+   without a teaser, write a few sentences in your own words — not the full post.
 2. Attach the same screenshot file committed with the post, if any.
 3. Link the canonical page: `https://chargingthefuture.github.io/chargingthefuture/article/...`
 4. Post from the current platform account.
@@ -90,8 +92,13 @@ After the post is live:
 Rules of the posture:
 
 - Nothing is authored on a platform. If it is worth writing, it goes in the repo first.
-- Keep platform volume low. Excerpt posts only.
+- Keep platform volume low. Teaser posts only.
 - Treat every platform account as disposable. No content, history, or images live only there.
+- The catch-up surface is the feed page (`/feed`): every post's teaser, newest first, numbered.
+  A platform account that gets erased costs only that account's reach — a new account's first
+  post can link the feed page and a new reader absorbs the whole catalog in minutes. Do not
+  replay the back catalog post-by-post from a fresh account; that is the repetition signature
+  that gets accounts removed.
 - Invitations: the app's existing invite flow is unchanged. Invitation posting on Quora
   continues, in a format the owner defines — the constraint to design around is the repetition
   signature (many per-person posts linking the same outside domain from one account), which is

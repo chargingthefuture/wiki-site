@@ -21,6 +21,7 @@ export interface ArticleMeta {
   path: string;
   featured?: boolean;
   listed?: boolean;
+  teaser?: string;
   topics?: string[];
   archive?: ArticleArchive;
 }
