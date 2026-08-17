@@ -1,6 +1,6 @@
 ---
 title: "How the math works"
-date: "2026-08-18"
+date: "2026-08-17"
 excerpt: "Someone asked me in a DM how 97 people can point at a $13.8 million economy. Here is the answer I sent, cleaned up."
 category: "Community"
 teaser: "Someone asked me in a DM how 97 people can point at a $13.8 million economy. The answer fits in a few paragraphs: the UN's own reports say about 2 million, underreporting says more, Finland says what jobs an economy needs, Singapore says what one worker's skills produce, and Estonia proves you can build from nothing but skills in about two generations. None of it requires believing me — every number can be checked."
@@ -39,7 +39,7 @@ That figure is what our listed skills are worth at the output rate of the best s
 
 This is the Workforce screen in the app, today:
 
-![Workforce overview: 5,000,000 population baseline, 2,000,000 workforce at 40 percent participation, 97 recruited, 24 percent skills coverage — 158 of 650 skills — and a $13.8 million GDP potential](images/workforce-overview-2026-08-18.jpeg)
+![Workforce overview: 5,000,000 population baseline, 2,000,000 workforce at 40 percent participation, 97 recruited, 24 percent skills coverage — 158 of 650 skills — and a $13.8 million GDP potential](images/workforce-overview-2026-08-17.jpeg)
 
 ## Why Singapore and Estonia
 

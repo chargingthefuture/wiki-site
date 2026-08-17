@@ -31,7 +31,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "how-the-math-works",
     "title": "How the math works",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-18",
+    "date": "2026-08-17",
     "excerpt": "Someone asked me in a DM how 97 people can point at a $13.8 million economy. Here is the answer I sent, cleaned up.",
     "category": "Community",
     "collection": "posts",
