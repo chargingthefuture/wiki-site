@@ -26,11 +26,14 @@ export default function Home() {
     "All",
     ...Object.keys(COLLECTION_LABELS).filter(c => listedArticles.some(a => a.collection === c)),
   ];
+  // Categories are a refinement within a section. In the All Sections view the
+  // union of every category duplicates section names (Guides, Insights, ...),
+  // so the row only renders after a section is picked.
   const categories = useMemo(() => {
-    const pool = activeCollection === "All"
-      ? listedArticles
-      : listedArticles.filter(a => a.collection === activeCollection);
-    return ["All", ...Array.from(new Set(pool.map(a => a.category)))];
+    if (activeCollection === "All") return [];
+    const pool = listedArticles.filter(a => a.collection === activeCollection);
+    const unique = Array.from(new Set(pool.map(a => a.category)));
+    return unique.length > 1 ? ["All", ...unique] : [];
   }, [activeCollection, listedArticles]);
 
   const filteredArticles = useMemo(() => {
@@ -122,21 +125,23 @@ export default function Home() {
                 </button>
               ))}
             </div>
-            <div className="flex flex-wrap gap-2 justify-start md:justify-end">
-              {categories.map(cat => (
-                <button
-                  key={cat}
-                  onClick={() => setActiveCategory(cat)}
-                  className={`px-4 py-2 font-heading font-bold uppercase tracking-wider text-sm border-2 transition-all ${
-                    activeCategory === cat
-                      ? "bg-accent text-black border-black comic-shadow-sm translate-y-[-2px]"
-                      : "bg-black text-gray-400 border-gray-800 hover:border-gray-500 hover:text-white"
-                  }`}
-                >
-                  {cat}
-                </button>
-              ))}
-            </div>
+            {categories.length > 0 && (
+              <div className="flex flex-wrap gap-2 justify-start md:justify-end">
+                {categories.map(cat => (
+                  <button
+                    key={cat}
+                    onClick={() => setActiveCategory(cat)}
+                    className={`px-4 py-2 font-heading font-bold uppercase tracking-wider text-sm border-2 transition-all ${
+                      activeCategory === cat
+                        ? "bg-accent text-black border-black comic-shadow-sm translate-y-[-2px]"
+                        : "bg-black text-gray-400 border-gray-800 hover:border-gray-500 hover:text-white"
+                    }`}
+                  >
+                    {cat}
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
         </div>
 
