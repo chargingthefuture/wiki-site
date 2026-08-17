@@ -5,20 +5,48 @@ import { Layout } from "@/components/Layout";
 import { ArticleCard } from "@/components/ArticleCard";
 import { ARTICLES } from "@/lib/articles";
 
+const COLLECTION_LABELS: Record<string, string> = {
+  "posts": "Posts",
+  "product-updates": "Product Updates",
+  "guides": "Guides",
+  "insights": "Insights",
+  "member-of-the-day": "Member of the Day",
+  "archive/discourse": "Discourse Archive",
+  "archive/quora": "Quora Archive",
+};
+
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const [activeCategory, setActiveCategory] = useState<string>("All");
+  const [activeCollection, setActiveCollection] = useState<string>("All");
 
-  const categories = ["All", ...Array.from(new Set(ARTICLES.map(a => a.category)))];
+  const listedArticles = useMemo(() => ARTICLES.filter(a => a.listed !== false), []);
+
+  const collections = [
+    "All",
+    ...Object.keys(COLLECTION_LABELS).filter(c => listedArticles.some(a => a.collection === c)),
+  ];
+  const categories = useMemo(() => {
+    const pool = activeCollection === "All"
+      ? listedArticles
+      : listedArticles.filter(a => a.collection === activeCollection);
+    return ["All", ...Array.from(new Set(pool.map(a => a.category)))];
+  }, [activeCollection, listedArticles]);
 
   const filteredArticles = useMemo(() => {
-    return ARTICLES.filter(article => {
-      const matchesSearch = article.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
+    return listedArticles.filter(article => {
+      const matchesSearch = article.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
                             article.excerpt.toLowerCase().includes(searchQuery.toLowerCase());
       const matchesCategory = activeCategory === "All" || article.category === activeCategory;
-      return matchesSearch && matchesCategory;
+      const matchesCollection = activeCollection === "All" || article.collection === activeCollection;
+      return matchesSearch && matchesCategory && matchesCollection;
     });
-  }, [searchQuery, activeCategory]);
+  }, [searchQuery, activeCategory, activeCollection, listedArticles]);
+
+  const selectCollection = (collection: string) => {
+    setActiveCollection(collection);
+    setActiveCategory("All");
+  };
 
   return (
     <Layout>
@@ -78,20 +106,37 @@ export default function Home() {
             />
           </div>
 
-          <div className="flex flex-wrap gap-2 w-full md:w-auto justify-start md:justify-end">
-            {categories.map(cat => (
-              <button
-                key={cat}
-                onClick={() => setActiveCategory(cat)}
-                className={`px-4 py-2 font-heading font-bold uppercase tracking-wider text-sm border-2 transition-all ${
-                  activeCategory === cat 
-                    ? "bg-accent text-black border-black comic-shadow-sm translate-y-[-2px]" 
-                    : "bg-black text-gray-400 border-gray-800 hover:border-gray-500 hover:text-white"
-                }`}
-              >
-                {cat}
-              </button>
-            ))}
+          <div className="flex flex-col gap-3 w-full md:w-auto">
+            <div className="flex flex-wrap gap-2 justify-start md:justify-end">
+              {collections.map(col => (
+                <button
+                  key={col}
+                  onClick={() => selectCollection(col)}
+                  className={`px-4 py-2 font-heading font-bold uppercase tracking-wider text-sm border-2 transition-all ${
+                    activeCollection === col
+                      ? "bg-primary text-white border-black comic-shadow-sm translate-y-[-2px]"
+                      : "bg-black text-gray-400 border-gray-800 hover:border-gray-500 hover:text-white"
+                  }`}
+                >
+                  {col === "All" ? "All Sections" : COLLECTION_LABELS[col]}
+                </button>
+              ))}
+            </div>
+            <div className="flex flex-wrap gap-2 justify-start md:justify-end">
+              {categories.map(cat => (
+                <button
+                  key={cat}
+                  onClick={() => setActiveCategory(cat)}
+                  className={`px-4 py-2 font-heading font-bold uppercase tracking-wider text-sm border-2 transition-all ${
+                    activeCategory === cat
+                      ? "bg-accent text-black border-black comic-shadow-sm translate-y-[-2px]"
+                      : "bg-black text-gray-400 border-gray-800 hover:border-gray-500 hover:text-white"
+                  }`}
+                >
+                  {cat}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
 

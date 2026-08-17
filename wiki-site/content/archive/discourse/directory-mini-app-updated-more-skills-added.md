@@ -1,0 +1,28 @@
+---
+title: Directory mini-app, updated - more skills added
+date: "2025-11-23"
+excerpt: I updated the skills field in the app. It now has a variety of more options. This is part of the Directory feature. Where you create a simple profile. First,…
+category: Discourse Community Legacy Post
+slug: discourse-migrate/directory-mini-app-updated-more-skills-added
+repo: chargingthefuture/chargingthefuture
+archive:
+  source: discourse
+  account: chargingthefuture.discourse.group
+  original_date: "2025-11-23"
+  status: closed
+---
+
+# Directory mini-app, updated - more skills added
+
+<!--
+Title: Directory mini-app, updated - more skills added
+Slug: directory-mini-app-updated-more-skills-added
+Created: 2025-11-23
+Updated: 2025-11-23
+Excerpt: I updated the skills field in the app. It now has a variety of more options. This is part of the Directory feature. Where you create a simple profile.  First, a dedicated space for TIs to stay in contact regardless of wh&hellip;
+-->
+
+> I updated the skills field in the app. It now has a variety of more options. This is part of the Directory feature. Where you create a simple profile.  First, a dedicated space for TIs to stay in contact regardless of wh&hellip;
+
+<p>I updated the skills field in the app. It now has a variety of more options. This is part of the Directory feature. Where you create a simple profile.</p> <p>First, a dedicated space for TIs to stay in contact regardless of what online platforms we are on. Second, find TIs with skills you are in need of. Like a mechanic, plumber, yoga instructor, etc. As close to utopia as we can get - psyop-free interactions.</p> <p>You can choose up to 3 skills for your Directory profile. If there are skills you want added, let me know and I will consider adding them.</p> <p><div class="lightbox-wrapper"><a class="lightbox" href="https://canada1.discourse-cdn.com/flex034/uploads/chargingthefuture/original/1X/ee1621c175f333cce69845e4ee144799af0086e4.png" data-download-href="/uploads/short-url/xYd3qoG9GSME6SdUvvSv0VXeh48.png?dl=1" title=""><img src="images/directory-mini-app-updated-more-skills-added-ee1621c175f333cce69845e4ee144799af0086e4.png" alt="" data-base62-sha1="xYd3qoG9GSME6SdUvvSv0VXeh48" role="presentation" width="602" height="422"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename"></span><span class="informations">602×422 66.7 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div></p> <p>Once your profile is complete, you will have access to a list of everyone in the app that opted in to stay in touch:</p> <p><div class="lightbox-wrapper"><a class="lightbox" href="https://canada1.discourse-cdn.com/flex034/uploads/chargingthefuture/original/1X/26a293dd05ddd138e15e57f1093da28c153039e9.png" data-download-href="/uploads/short-url/5vMsOxjsc65XEUUEblYGOhEZQWl.png?dl=1" title=""><img src="images/directory-mini-app-updated-more-skills-added-26a293dd05ddd138e15e57f1093da28c153039e9.png" alt="" data-base62-sha1="5vMsOxjsc65XEUUEblYGOhEZQWl" role="presentation" width="602" height="424"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename"></span><span class="informations">602×424 76.6 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div></p> <p>And if you choose to make your profile public, it will be here:</p> <p><a href="https://app.chargingthefuture.com/apps/directory/public">https://app.chargingthefuture.com/apps/directory/public</a></p> <p>Shout out to <a href="https://www.quora.com/profile/Alani-57">Alani</a> and <a href="https://www.quora.com/profile/BRadhd">BRadhd</a>, aside from me, the first TIs from Quora to join the Directory.</p> <p><div class="lightbox-wrapper"><a class="lightbox" href="https://canada1.discourse-cdn.com/flex034/uploads/chargingthefuture/original/1X/7f8357e9965c858cdf4de7c5d569d4cae407ad35.jpeg" data-download-href="/uploads/short-url/ic22ws9RX7PCkqW2W0JkW10F3Br.jpeg?dl=1" title=""><img src="images/directory-mini-app-updated-more-skills-added-7f8357e9965c858cdf4de7c5d569d4cae407ad35-2-551x500.jpeg" alt="" data-base62-sha1="ic22ws9RX7PCkqW2W0JkW10F3Br" role="presentation" width="551" height="500" srcset="https://canada1.discourse-cdn.com/flex034/uploads/chargingthefuture/optimized/1X/7f8357e9965c858cdf4de7c5d569d4cae407ad35_2_551x500.jpeg, https://canada1.discourse-cdn.com/flex034/uploads/chargingthefuture/original/1X/7f8357e9965c858cdf4de7c5d569d4cae407ad35.jpeg 1.5x, https://canada1.discourse-cdn.com/flex034/uploads/chargingthefuture/original/1X/7f8357e9965c858cdf4de7c5d569d4cae407ad35.jpeg 2x" data-dominant-color="1D2322"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename"></span><span class="informations">602×546 50 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div></p> <p>Post on Quora:</p> <p><a href="https://tiskillsnetwork.quora.com/I-updated-the-skills-field-in-the-app-It-now-has-a-variety-of-more-options-This-is-part-of-the-Directory-feature-Wher?ch=10&amp;oid=237456732&amp;share=d376249b&amp;srid=3UT8yW&amp;target_type=post" class="onebox" target="_blank" rel="noopener">https://tiskillsnetwork.quora.com/I-updated-the-skills-field-in-the-app-It-now-has-a-variety-of-more-options-This-is-part-of-the-Directory-feature-Wher?ch=10&amp;oid=237456732&amp;share=d376249b&amp;srid=3UT8yW&amp;target_type=post</a></p>
+

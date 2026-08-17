@@ -3,6 +3,7 @@ import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
 import rehypeSanitize from 'rehype-sanitize';
 import { cn } from '@/lib/utils';
+import { contentImageUrl } from '@/lib/content';
 import { rehypeDiscourseCleanup, stripDiscourseImportArtifacts } from '@/lib/discourse-html';
 
 interface MarkdownRendererProps {
@@ -20,20 +21,24 @@ export function MarkdownRenderer({ content, className, repo }: MarkdownRendererP
    */
   function resolveImageUrl(url: string): string {
     if (!url) return url;
-    
+
     // If already absolute, return as-is
     if (url.startsWith('http://') || url.startsWith('https://')) {
       return url;
     }
-    
+
+    // Canonical source: images bundled from the repo's content/images/.
+    const bundled = contentImageUrl(url);
+    if (bundled) return bundled;
+
     // Determine the full repo path
     const fullRepo = repo === 'mono' ? 'chargingthefuture/mono' : 'chargingthefuture/chargingthefuture';
-    
+
     // If relative path (starts with /), convert to GitHub wiki raw content URL
     if (url.startsWith('/')) {
       return `https://raw.githubusercontent.com/wiki/${fullRepo}${url}`;
     }
-    
+
     return url;
   }
 

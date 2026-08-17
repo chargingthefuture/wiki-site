@@ -1,0 +1,189 @@
+---
+title: What is the TI Skills Economy app?
+date: "2026-01-01"
+excerpt: An invite-only platform designed specifically for survivors of human trafficking, offering essential services and support with dignity, privacy, and respect.
+category: Community
+slug: What-is-the-TI-Skills-Economy-app?
+repo: chargingthefuture/chargingthefuture
+---
+
+An invite-only platform designed specifically for survivors of human trafficking, offering essential services and support with dignity, privacy, and respect.
+
+## Meta Description (150-160 characters)
+Invite-only platform for human trafficking survivors. Access 12+ essential services, including housing, transportation, job research, and community support in one unified app.
+
+## Tagline
+World's First Psyop-Free TI Economy
+
+## Brief Overview (2-3 sentences)
+The TI Skills Economy is a comprehensive super app built exclusively for human trafficking survivors. Operating like WeChat's mini-app ecosystem, it provides 12+ essential services—from housing and transportation to job research and community support—all accessible through a single account. Every feature is designed with trauma-informed principles, WCAG AAA accessibility standards, and user privacy as top priorities.
+
+## Value Proposition
+- 12+ Essential Services in one secure platform
+- Invite-Only Access for community safety
+- Trauma-Informed Design with WCAG AAA accessibility
+- Complete Privacy Control with full account deletion
+- Community-Driven by and for survivors
+
+## Service Categories
+
+**Essential Services:**
+- Housing (LightHouse)
+- Transportation (TrustTransport)
+- Vehicle Repair (MechanicMatch)
+- Job Search (Workforce Recruiter)
+
+**Community & Support:**
+- Accountability Partners (SupportMatch)
+- Skill Sharing (Directory)
+- Mutual Aid (SocketRelay)
+- Knowledge Base (CompareNotes)
+
+**Wellness & Communication:**
+- Meditation Library (GentlePulse)
+- Social Audio (Chyme)
+- Chat Groups (Signal.org)
+
+**Safety & Reporting:**
+- Mail Incident Tracking (LostMail)
+
+## Key Differentiators
+1. Super App Architecture: All services in one place, one account
+2. Survivor-Focused: Built specifically for this community
+3. Privacy-First: Complete data control and anonymization
+4. Accessibility: WCAG AAA-compliant, trauma-informed design
+5. Safety: Invite-only, comprehensive moderation tools
+
+---
+
+## Overview
+
+Key Values:
+- Safety First: Invite-only access with robust security measures
+- Privacy by Design: End-to-end encryption and data protection
+- Trauma-Informed: WCAG AAA accessibility standards, no overwhelming animations
+- Dignity & Respect: User-controlled data, complete account deletion options
+- Community-Driven: Built by and for survivors
+
+---
+
+## Core Features
+
+### Security & Privacy
+- Invite-only access control
+- Secure authentication system
+- Complete account deletion with data anonymization
+- Privacy-first design principles
+- CSRF protection for all admin operations
+- Anti-scraping protection for public endpoints
+
+### Accessibility
+- WCAG AAA compliance (7:1 contrast ratios)
+- Full keyboard navigation support
+- Screen reader compatible
+- Trauma-informed design (no parallax, predictable interfaces)
+- Mobile-responsive across all devices
+
+### User Experience
+- Unified dashboard for all services
+- Single sign-on across all mini-apps
+- Real-time messaging
+- Payment tracking and management
+- Comprehensive admin tools
+- Announcement system for each service
+
+---
+
+## Mini-Apps & Services
+
+### SupportMatch
+**Accountability Partner Matching**
+A partner matching platform featuring monthly partnership cycles, real-time messaging, and robust safety features. Find with accountability partners for mutual support and growth.
+
+### LightHouse
+**Safe Housing & Accommodations**
+Dual-role system connecting housing seekers with hosts. Provides safe accommodations and support resources, guiding survivors towards healing and empowerment.
+
+### TrustTransport
+**Safe Transportation Services**
+Request or provide safe transportation services. Connect with trusted drivers for rides to appointments, errands, or other essential travel needs.
+
+### MechanicMatch
+**Vehicle Repair Services**
+Connect with trusted mechanics for vehicle repair, remote diagnosis, or expert advice. Mechanics can build their profile and help car owners maintain safe, reliable transportation.
+
+### SocketRelay
+**Request & Fulfillment Network**
+Find what you need or help others get the goods and services they request. A community-driven mutual aid system for sharing resources.
+
+### Directory
+**Skill-Sharing & Collaboration**
+Find talented individuals to collaborate with. Build your professional profile and connect with others who share your skills and interests.
+
+### Workforce Recruiter
+**Job research**
+Review the collective skillset of the TI Skills Economy and find or expand your career amongst TIs
+
+### LostMail
+**Mail Incident Reporting**
+Report mail incidents (lost, damaged, tampered, delayed) and track your reports. Admin dashboard available for incident management and pattern tracking.
+
+### CompareNotes (Beta)
+**Knowledge Sharing & Q&A**
+Post research questions, receive sourced answers, and collaboratively surface the most relevant, accurate responses with voting and tagging. Build a community knowledge base.
+
+### GentlePulse
+**Meditation & Wellness Library**
+Access guided meditations hosted on Wistia, track your mood, and find supportive resources. Designed with privacy, accessibility, and trauma-informed care in mind.
+
+### Chyme (Beta)
+**Social Audio Platform**
+Join private or public audio rooms for voice conversations. Secure, encrypted, and designed with privacy and trauma-informed care in mind.
+
+### Chat Groups
+**Real-Time Communication**
+Access Signal.org group links for real-time chats with trusted individuals.
+
+---
+
+## Technical Highlights
+
+### Architecture
+- **Super App Model**: WeChat-style mini-app ecosystem
+- **Monorepo Structure**: Shared types between frontend/backend
+- **Modern Tech Stack**: React, TypeScript, Express.js, PostgreSQL
+- **Real-Time Capabilities**: WebSocket support for live messaging
+- **Scalable Design**: Independent mini-apps with shared infrastructure
+
+### Platform Capabilities
+- Payment tracking and management
+- User management and admin tools
+- Activity logging and audit trails
+- Weekly performance analytics
+- Skills database management
+- Pricing configuration
+- Video-to-GIF conversion tools
+
+### Integration Features
+- Townsquare forum integration
+- Wistia media hosting
+- Signal.org group links
+- External link management with confirmation dialogs
+
+---
+
+## Call to Action
+
+**For Survivors:**
+This platform is to facilitate our exit from the psyop. Join today to achieve autonomy and thrive.
+
+---
+
+## Privacy & Safety Commitment
+
+- **Complete Data Control**: Users can delete their entire account at any time
+- **Anonymization**: All deleted data is properly anonymized, not hard-deleted
+- **No Data Selling**: We never sell or share user data
+- **Transparent Policies**: Clear terms of service and privacy policies
+- **Admin Oversight**: Comprehensive moderation tools and safety reporting
+- **Regular Security Audits**: Ongoing security improvements and updates

@@ -1,29 +1,36 @@
-# Publishing Workflow — Charging The Future Wiki Site
+# Publishing Workflow — Charging The Future
 
-All posts are fetched live from the **GitHub Wiki** and declared in `content-index.yaml`.
-This document is the operator runbook for every publishing scenario.
+This repo is the canon: every post is authored as a markdown file under `wiki-site/content/`,
+with full git history. The blog is the reading surface. Platforms (Quora and any surface after
+it) are distribution only — a platform post is an excerpt, an image, and a link back to the
+canonical page. Platform accounts are disposable by design; when one is erased, nothing is lost
+but that account's reach.
+
+Collections and the front-matter schema: [content/README.md](content/README.md).
 
 Run all `pnpm` commands from the `wiki-site/` directory.
 
 ---
 
-## Quick-Add (Single Off-Hand Post)
+## Write and publish a post
 
-1. Write or edit the page directly in [GitHub Wiki](https://github.com/chargingthefuture/chargingthefuture/wiki).
-   The URL slug (`My-Page-Title`) becomes the `slug` field.
-
-2. Add an entry to `content-index.yaml` (under the `articles:` key):
+1. Create the markdown file in the right collection (usually `content/posts/`), with front
+   matter:
 
    ```yaml
-   - slug: "My-Page-Title"
-     title: "My Page Title"
-     repo: "chargingthefuture/chargingthefuture"
-     date: "2026-03-23"
-     excerpt: "A short, descriptive summary (aim for 60-160 chars)."
-     category: "Updates"
+   ---
+   title: "My Post Title"
+   date: "2026-08-17"
+   excerpt: "A short, descriptive summary (aim for 60-160 chars)."
+   category: "Community"
+   ---
    ```
 
-3. Validate, sync, and preview:
+   The file name becomes the URL slug. Commit screenshots to `content/images/` and reference
+   them as `images/<file>.png` — they render on the blog and the same file is attached natively
+   to any platform excerpt post.
+
+2. Validate, sync, preview:
 
    ```bash
    pnpm wiki:validate
@@ -31,240 +38,82 @@ Run all `pnpm` commands from the `wiki-site/` directory.
    pnpm wiki:preview      # http://localhost:5000
    ```
 
-4. Commit `content-index.yaml` + `artifacts/wiki/src/lib/articles.ts` and push to `main`.
-   The deploy workflow publishes automatically (see Deploy below).
+3. Commit the content file (plus images) and the regenerated
+   `artifacts/wiki/src/lib/articles.ts`, push to `main`. The Pages deploy publishes
+   automatically, then submits the changed pages to the Wayback Machine for third-party
+   timestamped copies.
 
 ---
 
-## Automated Product Updates
+## Distribute to a platform (Quora posture)
 
-Product updates are generated and published automatically by the
-`generate-product-update.yml` workflow in the **product repo**
-(`chargingthefuture/chargingthefuture`). On its schedule it:
+After the post is live:
+
+1. Write a short excerpt (a few sentences in your own words — not the full post).
+2. Attach the same screenshot file committed with the post, if any.
+3. Link the canonical page: `https://chargingthefuture.github.io/chargingthefuture/article/...`
+4. Post from the current platform account.
+
+Rules of the posture:
+
+- Nothing is authored on a platform. If it is worth writing, it goes in the repo first.
+- Keep platform volume low. Excerpt posts only.
+- Treat every platform account as disposable. No content, history, or images live only there.
+- Invitations: the app's existing invite flow is unchanged. Invitation posting on Quora
+  continues, in a format the owner defines — the constraint to design around is the repetition
+  signature (many per-person posts linking the same outside domain from one account), which is
+  what platform filters remove accounts for.
+
+---
+
+## Automated product updates
+
+Product updates are generated and published by the `generate-product-update.yml` workflow in the
+product repo (`chargingthefuture/chargingthefuture`). On its schedule it:
 
 1. Generates the update via the Anthropic API (key from Infisical).
-2. Posts to the in-app feed.
-3. Commits the markdown page to the GitHub Wiki.
-4. Appends the registry entry to this repo's `content-index.yaml`, runs `wiki:sync`,
-   commits, and pushes — which triggers the deploy here.
-5. Opens a `quora-draft` GitHub issue with copy-paste body for Quora.
+2. Commits the markdown file to this repo's `content/product-updates/` with front matter, runs
+   `wiki:sync`, and pushes — which triggers the deploy here.
+3. Opens a `quora-draft` issue in the product repo with copy-paste excerpt for platform posting.
 
-No manual step is required for these. Manual quick-add (above) remains for one-off posts.
+No manual step is required for these.
 
 ---
 
-## Large Batch — Quora Export
+## Import archive material (erased Quora accounts)
 
-1. Download your data from [quora.com/privacy/download_your_data](https://www.quora.com/privacy/download_your_data).
-2. Unzip the archive:
-   ```bash
-   unzip quora-data-XXXXX.zip -d /tmp/quora-export
-   ```
-3. Run the converter (from `wiki-site`):
+Copy-editing of the raw exports happens in the private `chargingthefuture/quora` repo — one file
+per post, with a provenance header. When an account's copy-edit is finished, import into
+`content/archive/quora/<account>/`:
 
-   ```bash
-   pnpm wiki:convert:quora /tmp/quora-export /tmp/quora-md --category=Stories
-   ```
+- One markdown file per post; front matter per [content/README.md](content/README.md) with the
+  `archive` block (`source: "quora"`, `account`, `original_url`, `original_date`,
+  `status: "erased"`).
+- `date` = the original posting date, so the archive sorts by when things were written.
+- Only the author's own words plus the question title and URL cross into this public repo.
+  Other people's comments and answers stay in the private repo.
 
-   - If Quora gives you a single `answers.html` file, pass that directly:
-     ```bash
-     pnpm wiki:convert:quora /tmp/quora-export/answers.html /tmp/quora-md
-     ```
-
-4. Review the generated `.md` files — fix slugs, clean up any formatting artefacts.
-5. Push markdown files to GitHub Wiki:
-
-   ```bash
-   cp /tmp/quora-md/*.md /path/to/your/wiki-clone/
-   cd /path/to/your/wiki-clone
-   git add . && git commit -m "feat: add Quora answers" && git push
-   ```
-
-   _(See "Pushing to GitHub Wiki" section below.)_
-
-6. Append the generated manifest into `content-index.yaml`:
-
-   ```bash
-   cat /tmp/quora-md/_manifest.yaml   # review entries first
-   # Open content-index.yaml and paste the entries under the 'articles:' key
-   ```
-
-7. Validate, sync, preview:
-   ```bash
-   pnpm wiki:validate
-   pnpm wiki:sync
-   pnpm wiki:preview
-   ```
-
-**Tips:**
-
-- Set the correct date per answer in `_manifest.yaml` before copying — the converter infers it from HTML but it may be wrong.
-- Quora slugs are auto-generated from question titles; check for near-duplicates.
-- Category `Stories` is the right default for personal answers.
+The converters (`pnpm wiki:convert:quora`, `pnpm wiki:convert:discourse`) can still help turn a
+platform export into markdown; review their output and add front matter before committing.
 
 ---
 
-## Large Batch — Discourse Export
+## Commands
 
-You have saved your Discourse pages as HTML files (browser save or export tool).
+| Command | Action |
+|---|---|
+| `pnpm wiki:validate` | Validate front matter across `content/` |
+| `pnpm wiki:sync` | Regenerate `articles.ts` from front matter |
+| `pnpm wiki:sync:dry` | Preview sync changes |
+| `pnpm wiki:preview` | Local dev server (http://localhost:5000) |
+| `pnpm wiki:build` | Build (base `/`) |
+| `pnpm wiki:build:pages` | GitHub Pages build (base `/chargingthefuture/` + 404.html) |
 
-1. Put all `.html` files into a staging folder:
+## History
 
-   ```bash
-   mkdir /tmp/discourse-html
-   # copy .html files there
-   ```
-
-2. Run the converter (from `wiki-site`):
-
-   ```bash
-   pnpm wiki:convert:discourse /tmp/discourse-html /tmp/discourse-md --category=Community
-   ```
-
-3. Review output — tables usually convert well; embedded images need manual fixing (see Media section below).
-
-4. Push `.md` files to GitHub Wiki (see section below).
-
-5. Paste `_manifest.yaml` entries into `content-index.yaml`, then:
-   ```bash
-   pnpm wiki:validate
-   pnpm wiki:sync
-   pnpm wiki:preview
-   ```
-
----
-
-## Pushing Markdown Files to GitHub Wiki
-
-The GitHub Wiki is a **separate git repository** from the main code.
-
-```bash
-# Clone the wiki (one-time setup)
-git clone https://github.com/chargingthefuture/chargingthefuture.wiki.git ~/ctf-wiki
-# — or for the mono wiki —
-git clone https://github.com/chargingthefuture/mono.wiki.git ~/mono-wiki
-
-# Copy your new .md files
-cp /tmp/quora-md/*.md ~/ctf-wiki/    # or ~/mono-wiki/
-
-# Commit and push
-cd ~/ctf-wiki
-git add .
-git commit -m "chore: add batch import (Quora answers)"
-git push
-```
-
-Pages are then available at:
-`https://raw.githubusercontent.com/wiki/chargingthefuture/chargingthefuture/<slug>.md`
-
----
-
-## Validate → Sync → Preview Pipeline
-
-Always run these before deploying:
-
-```bash
-pnpm wiki:validate        # fail-fast: checks metadata, duplicate slugs, dates
-pnpm wiki:sync:dry        # preview: shows what would change in articles.ts (no writes)
-pnpm wiki:sync            # apply: regenerates articles.ts from content-index.yaml
-pnpm wiki:preview         # local dev server at http://localhost:5000
-```
-
----
-
-## Deploy
-
-```bash
-pnpm wiki:build           # produces static files in artifacts/wiki/dist/public/
-pnpm wiki:build:pages     # GitHub Pages build with /chargingthefuture/ base path + 404.html fallback
-```
-
-Deploy `artifacts/wiki/dist/public/` to:
-
-- **GitHub Pages**: use the workflow in [.github/workflows/deploy-wiki-gh-pages.yml](../.github/workflows/deploy-wiki-gh-pages.yml).
-
-### GitHub Pages Setup
-
-GitHub Pages is configured mostly in code.
-
-You still need one setting in GitHub.com:
-
-1. Open the repository settings.
-2. Go to **Pages**.
-3. Under **Build and deployment**, set **Source** to **GitHub Actions**.
-
-After that, pushes to `main` that touch `wiki-site/**` build and deploy automatically.
-
-Notes:
-
-- The workflow builds with `BASE_PATH=/chargingthefuture/` (set in the `wiki:build:pages` script).
-  The served site must live at that path — i.e. `https://chargingthefuture.github.io/chargingthefuture/`.
-  If you move to a custom domain or a different Pages path, update the `BASE_PATH` in the
-  `wiki:build:pages` script in [wiki-site/package.json](package.json).
-- It also copies `index.html` to `404.html` so deep links like `/article/...` still work on GitHub Pages.
-
-### Validation Workflow
-
-The validation workflow is separate from deployment.
-
-Validation means these CI checks run without publishing anything:
-
-- content index validation
-- article sync consistency check
-- TypeScript typecheck
-- production build verification
-
-It runs on `main` pushes and on pull requests that touch `wiki-site/**`. See
-[.github/workflows/wiki-validate.yml](../.github/workflows/wiki-validate.yml).
-
----
-
-## Rollback
-
-| Scenario                          | Fix                                                                                   |
-| --------------------------------- | ------------------------------------------------------------------------------------- |
-| Bad entry in `content-index.yaml` | Remove/revert the entry, re-run `wiki:sync`, rebuild.                                 |
-| Article renders badly             | Edit the wiki markdown page directly (no rebuild needed; the renderer fetches live).  |
-| Bad `articles.ts` committed       | `git revert` the commit that changed it, or re-run `wiki:sync` after fixing the YAML. |
-| Bad deploy                        | Re-deploy the last good build, or re-run `wiki:build` after reverting the source.     |
-
----
-
-## Media Handling
-
-Images in converted posts may not display correctly. Use this checklist:
-
-- **Quora images**: Quora CDN links expire. Download important images and re-host them:
-  - In `artifacts/wiki/public/images/` for self-hosted wiki images.
-  - Or a permanent external host (GitHub Issues attachment, Cloudinary, etc.).
-- **Discourse images**: Same — save and re-upload to a permanent host.
-- **Markdown reference**: `![Alt text](/images/my-image.png)` for self-hosted, or absolute URL for external.
-- **Test locally**: Run `pnpm wiki:preview` and verify all images render before deploying. Broken images are silently hidden by the renderer.
-
----
-
-## Valid Categories
-
-| Category     | Use For                                         |
-| ------------ | ----------------------------------------------- |
-| `Foundation` | Core platform concepts, origin story            |
-| `Updates`    | Weekly/monthly state-of-the-platform posts      |
-| `Guides`     | How-to and onboarding content                   |
-| `Platform`   | Technical service documentation                 |
-| `Philosophy` | Ideology, worldview, manifestos                 |
-| `Community`  | Community organizing, groups, Discourse threads |
-| `Security`   | Safety, verification, privacy                   |
-| `Resources`  | External resources, tools, links                |
-| `Services`   | Specific platform service docs                  |
-| `Events`     | Meetups, calls, live events                     |
-| `Stories`    | Personal stories, Quora answers, testimonials   |
-| `Technical`  | Technical deep-dives, architecture              |
-| `Advocacy`   | Outreach, activism, policy                      |
-
----
-
-## Adding a New Category
-
-1. Add it to the table above.
-2. Use it freely in `content-index.yaml`.
-3. The category will automatically appear in the blog filter bar once an article with that category is added.
+Until 2026-08, content lived in the GitHub Wiki of the product repo (mirrored in the mono repo's
+wiki) and was fetched live at render time, with a separate `content-index.yaml` registry. The
+`migrate-wiki-to-content.ts` script performed the one-time move into `content/`; migrated pages
+keep their original slugs and URL namespaces in front matter, so pre-migration article links
+still resolve. The old wikis remain in place as inert mirrors but are no longer read by the
+pipeline and receive no new content.
