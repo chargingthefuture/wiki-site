@@ -73,3 +73,41 @@ Full operator runbook: [wiki-site/PUBLISHING.md](wiki-site/PUBLISHING.md).
 - Use the pattern `<type>/<short-description>`, e.g. `fix/blog-dates-et-label`, `feat/category-filter`, `ci/submodule-checkout`.
 - PR titles must match: concise, action-oriented, no random strings.
 - If a branch was created with a bad name, rename it before opening the PR: create a new descriptive branch from the same commits, open the PR from that, close the old one, delete the old branch.
+
+## Agent Slash Commands (always apply, every repo)
+
+Owner directive, 2026-08-17. Three routines are defined in `.claude/commands/` in the product repo (`chargingthefuture/chargingthefuture`). Each is the standing way to do its kind of work, and the owner does not have to type the slash command for it to apply — the request itself is the trigger. Two of the three apply here.
+
+### /bpr — every executed change
+
+Any request that changes files runs this routine, whatever repo it lands in. There is no separate mode for small changes.
+
+1. Branch first, before any edit: a descriptive branch off the latest `main`, named `<type>/<short-description>`.
+2. Do the work. Keep it surgical.
+3. Verify locally — run the checks CI would run — before pushing. Do not push red.
+4. Open the PR ready for review, never a draft, with the title and body set at creation so no check goes red and needs re-triggering.
+
+Never commit to, or open a PR from, the auto-generated `claude/<slug>` session branch the harness assigns. If commits already sit there, move them onto a descriptive branch and abandon the session branch.
+
+### /pr — opening a PR is the start of the job, not the end
+
+Agents open pull requests and abandon them. A PR left alone is work that never shipped, and in this repo that matters more than usual: nothing reaches the blog until it is on `main`, and auto-merge is off, so a PR sits until someone acts. Sweep every open PR that is blocked, behind, conflicted, or failing checks, and drive each one to merge — resolve conflicts by understanding both sides, read the actual failure log before touching anything, bring behind branches up to date. Do not report that a PR needs something; do it. Leave alone only a draft someone is actively working, or a PR sitting green and waiting on the owner's review, and say which those are.
+
+### /cr — product repo only
+
+Working open code-review findings. The code-review issues and their labels live in the product repo, so the routine does not apply here.
+
+## What CI checks in this repo, and what it does not
+
+Two workflows run here, and no others:
+
+| Workflow | Runs on | Checks |
+|---|---|---|
+| `wiki-validate.yml` | PRs, and pushes to `main` | Front matter across `content/`, then builds the site. No publish. |
+| `deploy-wiki-gh-pages.yml` | Pushes to `main` touching `wiki-site/**` | Builds, deploys to GitHub Pages, submits changed pages to the Wayback Machine. |
+
+The product repo's PR conventions are not enforced here. There is no semantic-title check and no parity check. So:
+
+- Use a Conventional Commit PR title anyway, for consistency across repos.
+- Omit the `Parity Status:` line. This repo is a static blog with no Android surface, so the line carries no meaning.
+- Auto-merge is turned off in repository settings, so a PR here never merges itself. Every PR waits on a human merge until the owner turns auto-merge on.
