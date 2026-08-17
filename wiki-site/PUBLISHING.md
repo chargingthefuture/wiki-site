@@ -59,10 +59,10 @@ Rules of the posture:
 - Nothing is authored on a platform. If it is worth writing, it goes in the repo first.
 - Keep platform volume low. Excerpt posts only.
 - Treat every platform account as disposable. No content, history, or images live only there.
-- Invitations to specific people do not go through platforms at all — repeated per-person posts
-  linking one outside domain are exactly what platform filters remove accounts for. Invitations
-  go through the app's own nomination flow and email, with the blog post as the thing being
-  linked.
+- Invitations: the app's existing invite flow is unchanged. Invitation posting on Quora
+  continues, in a format the owner defines — the constraint to design around is the repetition
+  signature (many per-person posts linking the same outside domain from one account), which is
+  what platform filters remove accounts for.
 
 ---
 
