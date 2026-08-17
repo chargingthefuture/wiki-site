@@ -28,6 +28,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "how-the-math-works",
+    "title": "How the math works",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-18",
+    "excerpt": "Someone asked me in a DM how 97 people can point at a $13.8 million economy. Here is the answer I sent, cleaned up.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/how-the-math-works.md",
+    "teaser": "Someone asked me in a DM how 97 people can point at a $13.8 million economy. The answer fits in a few paragraphs: the UN's own reports say about 2 million, underreporting says more, Finland says what jobs an economy needs, Singapore says what one worker's skills produce, and Estonia proves you can build from nothing but skills in about two generations. None of it requires believing me — every number can be checked.",
+    "topics": [
+      "economy",
+      "model"
+    ]
+  },
+  {
     "slug": "old-links-new-links",
     "title": "Old links, new links",
     "repo": "chargingthefuture/wiki-site",
