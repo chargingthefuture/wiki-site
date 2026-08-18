@@ -30,4 +30,4 @@ If there is no uptake in Chyme, that might be the next app to be deleted.
 Lastly, a major and exciting economy update will be released late this year. I am excited to present the next iteration of the world's first psyop-free economy! The above refinements will make space for an upgrade that will assist in TIs exiting the psyop.
 
 Post on Quora
-https://tiskillsnetwork.quora.com/Feature-refinements-removing-MechanicMatch-CompareNotes-and-LostMail
+https://skillseconomy.quora.com/Feature-refinements-removing-MechanicMatch-CompareNotes-and-LostMail

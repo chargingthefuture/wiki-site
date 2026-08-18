@@ -54,4 +54,4 @@ Are you ready to join the 384? Let's charge the future together.
 
 # EXIT THEIR ECONOMY, EXIT THE PSYOP: https://chargingthefuture.com.
 
-This post on Quora: https://tiskillsnetwork.quora.com/From-62-to-384-Building-a-Real-Economy-Where-We-Live-Work-and-Prevail
+This post on Quora: https://skillseconomy.quora.com/From-62-to-384-Building-a-Real-Economy-Where-We-Live-Work-and-Prevail
