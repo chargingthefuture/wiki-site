@@ -97,8 +97,13 @@ Rules of the posture:
 - The catch-up surface is the feed page (`/feed`): every post's teaser, newest first, numbered.
   A platform account that gets erased costs only that account's reach — a new account's first
   post can link the feed page and a new reader absorbs the whole catalog in minutes. Do not
-  replay the back catalog post-by-post from a fresh account; that is the repetition signature
-  that gets accounts removed.
+  replay the back catalog post-by-post from a fresh account.
+- Spend no effort on platform carefulness beyond these measures (owner decision, 2026-08-17).
+  Good-faith compliance was tested and bought nothing: an account that posted exactly two
+  teasers, one link each, no reposting and no back catalog, was deleted the same day
+  (KingStyle-3, August 17, 2026). Since nothing is authored on a platform, a deletion costs one
+  edit to the old-links page and a fresh account. Post the teaser and the link; treat the
+  account's lifespan as outside your control.
 - Invitations: the app's existing invite flow is unchanged. Invitation posting on Quora
   continues, in a format the owner defines — the constraint to design around is the repetition
   signature (many per-person posts linking the same outside domain from one account), which is
