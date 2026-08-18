@@ -88,6 +88,21 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "honoring-the-first-supporters",
+    "title": "The People Who Backed This Publicly",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-18",
+    "excerpt": "Ten survivors spoke up for the Skills Economy on Quora. Their comments were deleted with the accounts. The record of who they are lives here.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/honoring-the-first-supporters.md",
+    "teaser": "Ten survivors publicly backed the Skills Economy on Quora — in comments, on their own pages, in the open where other targeted people could see it. Quora deleted the accounts those comments lived on, so the proof they offered is gone. What is not gone is who they are and what they do. Each was a Member of the Day; each has a directory profile; each post that introduced them is still here. This page names them, links their profiles, and asks them to say the word again if they want to.",
+    "topics": [
+      "members",
+      "directory"
+    ]
+  },
+  {
     "slug": "oldie-but-goodie-pam-dawson-t-tipton",
     "title": "Oldie but Goodie: Skills, Solidarity, and Support",
     "repo": "chargingthefuture/wiki-site",
