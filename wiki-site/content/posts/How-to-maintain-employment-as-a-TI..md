@@ -19,7 +19,7 @@ I also created a space called "TI Skills Network" (tiskillsnetwork.quora.com and
 
 —
 
-Please speak to me before calling trial companies. The Specterati will try to get you a lifetime ban from each trial company. I will provide you with the tips to reduce the likelihood of getting banned. I am not gatekeeping there are various ways to get bans it is based on your demographics: [Signal Messenger Group](https://signal.group/#CjQKIPAOBOaZMqk8T_TBwtwOnMKwqHLXzEBWzi8Ps6h04GIVEhCYxWg4D2PaIvmGXS0B_14a).
+Please speak to me before calling trial companies. The Specterati will try to get you a lifetime ban from each trial company. I will provide you with the tips to reduce the likelihood of getting banned. I am not gatekeeping — there are various ways to get bans; it is based on your demographics: [Signal Messenger Group](https://signal.group/#CjQKIPAOBOaZMqk8T_TBwtwOnMKwqHLXzEBWzi8Ps6h04GIVEhCYxWg4D2PaIvmGXS0B_14a).
 
 # General Rundown
 Several companies across different states receive funding from pharmaceutical companies to test their drugs.
@@ -29,7 +29,8 @@ Within clinical trials, there are multiple phases for testing these drugs. This 
 It's important to note that "generally good health" does not require being in peak physical condition. Instead, your vital signs are assessed before entering a clinical trial to ensure they fall within healthy ranges.
 
 For example, an ECG is performed while you lie down to monitor your heart rate. Blood pressure is also measured, with each study specifying acceptable ranges for measurement. The typical maximum acceptable blood pressure is 140/90 mmHg, although some studies may accept individuals with slightly higher readings. Don't assume you cannot participate in a study if your blood pressure is above this threshold; however, it is advisable to aim for a maximum of 140/90 mmHg to qualify for any study.
-Additionally, a urine sample is collected to test for pregnancy (for women) and drug use (for both men and women). Your height and weight are recorded to verify your BMI, and approximately 10 cc of blood is drawn, which is not a lot of blood, it would not be considered a blood donation. These tests are straightforward.
+
+Additionally, a urine sample is collected to test for pregnancy (for women) and drug use (for both men and women). Your height and weight are recorded to verify your BMI, and approximately 10 cc of blood is drawn, which is not a lot of blood — it would not be considered a blood donation. These tests are straightforward.
 
 You will also be asked about your medical history and any past injuries, and your responses will be taken at face value. These assessments help determine whether you are considered a healthy individual.
 
@@ -43,7 +44,9 @@ Once you identify a potential trial site, visit their website to see what clinic
 When selecting a trial to apply for, if you need the money urgently, choose the trial that offers funds the soonest. Generally, aim for trials that pay between **5,000 and 8,000 dollars** and require no more than two months of visits or stays. This approach allows you to maximize your earnings throughout the year. While trials offering significantly higher payments are appealing, be cautious of those that pay but last an entire year.
 
 Keep in mind that there is a 30-day washout period between trials. After completing a clinical trial, you must wait 30 days from the last date you were dosed before participating in another trial. This waiting period ensures that any medication tested is flushed from your system, preventing it from affecting the results of subsequent trials. Most clinical trials utilize a database company (VCT) to track the last time you were dosed, helping to prevent participation before the washout period. However, not all clinical facilities use this system.
+
 During the phone call, you will be asked about your contraception method, height, and weight. Some studies may have specific requirements regarding BMI or contraception methods. When contacting a trial company, you should request to speak with a recruiter for healthy volunteer studies. The purpose of the call is to determine if you pre-qualify for a study.
 
 If you qualify, you will be scheduled for an in-person screening to check your vitals. If you pass this initial check, you will be tentatively selected for the trial. A final vitals check will occur on the day of check-in for the study. If you pass this last assessment, you are officially in! During the trial, you will receive free housing and food. Keep in mind, trials will overbook qualified participants, “alternates,” just in case someone does not pass the day of check-in. If selected as an alternate you receive a reduced payment. Paid for the number of days you participated and sent home early.
+
 Be sure to inquire beforehand about payment methods and the frequency of payments. Some trial companies may pay you weeks after the trial concludes, which could pose a financial burden.
