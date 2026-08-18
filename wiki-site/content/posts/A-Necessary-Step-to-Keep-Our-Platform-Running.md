@@ -19,7 +19,7 @@ _If you have not signed up yet, now is the time, so you too can have the $1/mont
 
 This is a commitment I'm making to our community. As long as you keep your account active—even if you're not using the app regularly—you'll continue paying the same amount you signed up for. You never have to worry about price increases. If you need to step away, you can leave your account open without paying anything and return later at your original rate.
 
-New members signing up March 1st, 2026 or later, will pay the new rate. Your pricing locks in on the day you join, so you'll always know exactly what you're paying. I choose forever pricing and an affordable rate as a thank you to showing your support early on. And for being pioneers of the world's first psyop-free economy.
+New members signing up March 1st, 2026 or later, will pay the new rate. Your pricing locks in on the day you join, so you'll always know exactly what you're paying. I choose forever pricing and an affordable rate as a thank you for showing your support early on. And for being pioneers of the world's first psyop-free economy.
 
 ### Why This Increase Matters
 I want to be transparent about what's happening behind the scenes. Without this price increase, the app will go offline. The hosting costs are no longer sustainable on the current pricing structure, given the Specterati interference and harassment.
@@ -36,7 +36,7 @@ Please consider upgrading to the new $2/month rate or making a one-time contribu
 Please help us grow. Upvote and comment on Quora posts about the TI Skills Economy. Share your genuine experience using the app. More visibility means more members, which makes the platform sustainable for everyone. Your voice matters.
 
 ### If You're Using the App but Struggling Financially
-****Keep using it****. I'm committed to covering costs for those who genuinely cannot pay—I'm donating plasma to generate additional funds, and I'll continue to do whatever it takes.
+**Keep using it**. I'm committed to covering costs for those who genuinely cannot pay—I'm donating plasma to generate additional funds, and I'll continue to do whatever it takes.
 
 ## The Bigger Picture
 Right now, we have 60 members with 33 active. That tells me this app is needed. But we can't grow if the platform keeps going offline.
