@@ -73,6 +73,21 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "economics-oppress-save",
+    "title": "The Economics That Oppress Us Can Save Us",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-18",
+    "excerpt": "A non-TI writer described the evolution of gangs into economic operators. He described a component of the Specterati — and pointed, without knowing it, at the way out.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/economics-oppress-save.md",
+    "teaser": "A writer who is not a targeted individual described how gangs evolved into organized criminals with real influence over social and economic matters. He was describing a component of what I call the Specterati. Many will say it is the government. Argue that if you like — what nobody can argue is that their operation runs on economics, and that it works. The secret-society talk is costume. The economics is the machine. And a machine we can copy is a machine we can counter.",
+    "topics": [
+      "specterati",
+      "skills-economy"
+    ]
+  },
+  {
     "slug": "oldie-but-goodie-pam-dawson-t-tipton",
     "title": "Oldie but Goodie: Skills, Solidarity, and Support",
     "repo": "chargingthefuture/wiki-site",
