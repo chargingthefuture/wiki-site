@@ -123,7 +123,7 @@ Find talented individuals to collaborate with. Build your professional profile a
 
 ### Workforce Recruiter
 **Job research**
-Review the collective skillset of the TI Skills Economy and find or expand your career amongst TIs
+Review the collective skillset of the TI Skills Economy and find or expand your career amongst TIs.
 
 ### LostMail
 **Mail Incident Reporting**
