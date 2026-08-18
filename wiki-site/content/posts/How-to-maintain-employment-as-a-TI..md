@@ -15,7 +15,7 @@ As you see, you can be paid up to $36,000 on some studies. The most I have seen 
 
 I have done one study so far. And will continue. It's contract work. However, you can achieve the same results as a 9-to-5 job if you budget correctly. Reach out to me with questions.
 
-I also created a space called "TI Skills Network" (tiskillsnetwork.quora.com and https://chargingthefuture.com) so we can make a TI circular economy so we can thrive. And address the unemployment issue.
+I also created a space called "TI Skills Network" (skillseconomy.quora.com and https://chargingthefuture.com) so we can make a TI circular economy so we can thrive. And address the unemployment issue.
 
 —
 
