@@ -81,7 +81,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/economics-oppress-save.md",
-    "teaser": "A writer who is not a targeted individual described how gangs evolved into organized criminals with real influence over social and economic matters. He was describing a component of what I call the Specterati. Many will say it is the government. Argue that if you like — what nobody can argue is that their operation runs on economics, and that it works. The secret-society talk is costume. The economics is the machine. And a machine we can copy is a machine we can counter.",
+    "teaser": "A writer who is not a Targeted Individual described how gangs evolved into organized criminals with real influence over social and economic matters. He was describing a component of what I call the Specterati. Many will say it is the government. Argue that if you like — what nobody can argue is that their operation runs on economics, and that it works. The secret-society talk is costume. The economics is the machine. And a machine we can copy is a machine we can counter.",
     "topics": [
       "specterati",
       "skills-economy"

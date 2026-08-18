@@ -3,13 +3,13 @@ title: "The Economics That Oppress Us Can Save Us"
 date: "2026-08-18"
 excerpt: "A non-TI writer described the evolution of gangs into economic operators. He described a component of the Specterati — and pointed, without knowing it, at the way out."
 category: "Community"
-teaser: "A writer who is not a targeted individual described how gangs evolved into organized criminals with real influence over social and economic matters. He was describing a component of what I call the Specterati. Many will say it is the government. Argue that if you like — what nobody can argue is that their operation runs on economics, and that it works. The secret-society talk is costume. The economics is the machine. And a machine we can copy is a machine we can counter."
+teaser: "A writer who is not a Targeted Individual described how gangs evolved into organized criminals with real influence over social and economic matters. He was describing a component of what I call the Specterati. Many will say it is the government. Argue that if you like — what nobody can argue is that their operation runs on economics, and that it works. The secret-society talk is costume. The economics is the machine. And a machine we can copy is a machine we can counter."
 topics:
   - specterati
   - skills-economy
 ---
 
-In an [earlier post about classified ads for TIs](https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/guides/scoketrelay/classifed-ads-for-tis), I quoted a writer named John Mixon — not a targeted individual, writing about American cities generally. He said that in some communities, organized criminals — the evolutionary offspring of gangs — have significant influence on social and economic matters, and that they know their limits and operate within them to avoid crackdowns.
+In an [earlier post about classified ads for TIs](https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/guides/scoketrelay/classifed-ads-for-tis), I quoted a writer named John Mixon — not a Targeted Individual, writing about American cities generally. He said that in some communities, organized criminals — the evolutionary offspring of gangs — have significant influence on social and economic matters, and that they know their limits and operate within them to avoid crackdowns.
 
 He was describing a component of what I call the Specterati. He just did not have a name for it.
 
