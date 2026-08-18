@@ -58,6 +58,21 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "Skills-Economy-Phone-Wallpapers",
+    "title": "Skills Economy Phone Wallpapers",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-18",
+    "excerpt": "Skills Economy wallpapers for your phone, downloadable from the same GitHub releases page as the Android app.",
+    "category": "Updates",
+    "collection": "posts",
+    "path": "posts/Skills-Economy-Phone-Wallpapers.md",
+    "teaser": "The Skills Economy logo is now a phone wallpaper. Two sizes — one for most Android phones, one for recent iPhones — on the same GitHub releases page where the Android app lives. Download the file that matches your phone, save it to your photos, and set it as your wallpaper.",
+    "topics": [
+      "wallpapers",
+      "brand"
+    ]
+  },
+  {
     "slug": "the-manifesto-seven-months-later",
     "title": "The manifesto, seven months later",
     "repo": "chargingthefuture/wiki-site",
@@ -1084,6 +1099,16 @@ export const ARTICLES: ArticleMeta[] = [
     "path": "product-updates/Product-Update-2026-05-29-Chyme-Modularity-Lighthouse-Standards.md"
   },
   {
+    "slug": "Product-Update-2026-05-29-Chyme-Unified-Experience",
+    "title": "Chyme Unified Experience",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-05-29",
+    "excerpt": "We merged Chyme chat and directory copy to a single design standard across Charging the Future. This means:",
+    "category": "Updates",
+    "collection": "product-updates",
+    "path": "product-updates/Product-Update-2026-05-29-Chyme-Unified-Experience.md"
+  },
+  {
     "slug": "Product-Update-2026-05-29-Directory-Chat-Refinements",
     "title": "Directory and chat interface refinements now live",
     "repo": "chargingthefuture/chargingthefuture",
@@ -1102,6 +1127,28 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Updates",
     "collection": "product-updates",
     "path": "product-updates/Product-Update-2026-05-29-Interface-Refinements.md"
+  },
+  {
+    "slug": "From-62-to-384:-Building-a-Real-Economy-Where-We-Live,-Work,-and-Prevail",
+    "title": "From 62 to 384: Building a Real Economy Where We Live, Work, and Prevail",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-05-23",
+    "excerpt": "We have the potential to reach 5 million TIs (human trafficking survivors) who come together to reclaim our lives. But today, I want to focus on the power of r...",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/From-62-to-384:-Building-a-Real-Economy-Where-We-Live,-Work,-and-Prevail.md",
+    "teaser": "We have 411 people in the Quora community and 62 have joined the app. My goal is 384. At that size, the arithmetic says this group could generate $24.66 million a year in activity — a caregiver earning $32,500, a mechanic $54,600, a babysitter with steady work, all trading with each other. Not millions of people. A few hundred."
+  },
+  {
+    "slug": "App-Redesign-(v3)-Demos",
+    "title": "Click through the screens at your own pace",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-05-12",
+    "excerpt": "I will use this post to link to all demos of the v3 app's 17+ features.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/App-Redesign-(v3)-Demos.md",
+    "teaser": "The v3 redesign of the app has a click-through prototype: every one of the 17+ features, at your own pace, no account needed. There is also an overview video and a video per feature. Click through and tell me what works and what does not."
   },
   {
     "slug": "discourse-migrate/Home",
@@ -1154,6 +1201,116 @@ export const ARTICLES: ArticleMeta[] = [
     "teaser": "I am reversing the price increase. The ask stays low, because taking away a survivor's income is the first thing done to every one of us. From now on: when hosting costs are not covered, the app goes down to a waitlist page, and comes back when they are. Existing members keep their accounts either way and lose nothing."
   },
   {
+    "slug": "A-Necessary-Step-to-Keep-Our-Platform-Running",
+    "title": "Price Increase and Sustainability Update for TI Skills Economy",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-02-19",
+    "excerpt": "I'm writing to share an important update about the TI Skills Economy app's pricing and sustainability. Effective March 1, 2026, the subscription price will inc...",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/A-Necessary-Step-to-Keep-Our-Platform-Running.md",
+    "teaser": "The subscription rises from $1 to $2 a month on March 1, 2026. If you are already a member, your price is locked forever — this changes nothing for you. Without the increase, hosting costs take the app offline, and every day offline is a person who never finds it. If you cannot pay, keep using the app; I will cover it."
+  },
+  {
+    "slug": "Three-ways-to-reach-me-and-get-help.",
+    "title": "I officially closed my Quora DMs. Three ways to reach me and get help.",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-02-16",
+    "excerpt": "For app support or questions:",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/Three-ways-to-reach-me-and-get-help..md",
+    "teaser": "I closed my Quora DMs. Three ways to reach me now: comment on any Quora post, message one of the Signal groups, or use the live in-app chat. All three get answered — DMs were the only channel that did not scale."
+  },
+  {
+    "slug": "Live-in‐app-Community-Support-Chat",
+    "title": "New Feature: Live in-app Community Support Chat",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-02-15",
+    "excerpt": "As seen in the weekly app stats, as of today, 57 people have signed up, with only 32 of them having provided their Quora handle. Therefore, there are 25 people...",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/Live-in‐app-Community-Support-Chat.md",
+    "teaser": "25 people signed up but got stuck before using a single feature. So the app now has live in-app chat: post your question and get an answer from me or any member who opts in. A global community cannot run on one person's time zone — now support runs on all of ours."
+  },
+  {
+    "slug": "New-Mini‐App:-Mood",
+    "title": "New Mini-App: Mood",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-02-15",
+    "excerpt": "Before today, within GentlePulse, you could report on your mood. Based on the community's usage, I have moved mood ratings out of GentlePulse and into its own ...",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/New-Mini‐App:-Mood.md",
+    "teaser": "Mood ratings now have their own mini-app, moved out of GentlePulse based on how the community actually uses it. Same rules as before: anonymous, and individual responses are never sold or shared. I use it for one thing — to see whether the product is improving your mental health and your economic stability."
+  },
+  {
+    "slug": "Feature-refinements:-removing-MechanicMatch,-CompareNotes,-and-LostMail",
+    "title": "Feature refinements: removing MechanicMatch, CompareNotes, and LostMail",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-02-10",
+    "excerpt": "I have been reviewing the app's features and have decided to remove the apps MechanicMatch, CompareNotes, and LostMail as they are not being used.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/Feature-refinements:-removing-MechanicMatch,-CompareNotes,-and-LostMail.md",
+    "teaser": "I am removing three apps nobody was using: MechanicMatch, CompareNotes, and LostMail. The Directory already finds you a mechanic, and the other two will be answered a better way. What remains is eight apps that people actually use — and space for a major economy upgrade later this year."
+  },
+  {
+    "slug": "How-to-join-Saturday-Town-Halls",
+    "title": "How to join Saturday Town Halls",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-01-23",
+    "excerpt": "Every Saturday I make myself available to speak live about TSE.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/How-to-join-Saturday-Town-Halls.md",
+    "teaser": "Every Saturday I make myself available to speak live about the Skills Economy. Two ways in: the Chyme town hall room in the app, or the Signal group if you are on iOS or desktop. Come with questions, or just listen."
+  },
+  {
+    "slug": "The-Specterati's-Money-Laundering-vs.-TI-Skills-Economy’s-circular-economy",
+    "title": "Why that matters for the TI Skills Economy (TSE)",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-01-23",
+    "excerpt": "The Specterati's Money laundering vs. TI Skills Economy’s circular economy, why they’re not the same thing",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/The-Specterati's-Money-Laundering-vs.-TI-Skills-Economy’s-circular-economy.md",
+    "teaser": "Money laundering hides where funds come from — layered transactions, shell companies, secrecy for personal gain. A circular economy is the opposite: skills and materials kept in use locally, in the open, for collective benefit. One runs on concealment, the other on visible, reciprocal exchange. That difference is the whole point of the Skills Economy."
+  },
+  {
+    "slug": "Call-to-Action",
+    "title": "My call to action — Join the TI Skills Economy",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-01-21",
+    "excerpt": "One of the Specterati walked up to me this morning and said, “you know there is a camera?” As I stood underneath one while on my phone.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/Call-to-Action.md",
+    "teaser": "One of the Specterati walked up to me and said, 'you know there is a camera?' Cameras do not matter — their economy does. They can do what they do because we feed it: our attention and our transactions. I am asking survivors to stop participating in that economy and join the one we run ourselves: work, housing, rides, and trade among people who are not in it."
+  },
+  {
+    "slug": "🤜🤛-Skills,-Solidarity,-and-Support",
+    "title": "🤜🤛  Skills, Solidarity, and Support",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-01-16",
+    "excerpt": "Very few TIs get it, in my opinion of course, here are my shoutouts to those giving amazing advice on Quora. You are appreciated!",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/🤜🤛-Skills,-Solidarity,-and-Support.md",
+    "teaser": "Very few get it, in my opinion — so here are my shoutouts to the survivors giving genuinely good advice on Quora. You are appreciated, and this post will keep growing as I find more of you. Names in no particular order."
+  },
+  {
+    "slug": "24-7-Chyme-Drop-In-Rooms",
+    "title": "24/7 Chyme Rooms",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-01-04",
+    "excerpt": "I have opened the rooms below in Chyme, and they will stay open 24/7. Download the Chyme Android app: https://app.chargingthefuture.com/apps/chyme. Once logged...",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/24-7-Chyme-Drop-In-Rooms.md",
+    "teaser": "I opened a Chyme audio room for every sector of the Skills Economy — food, housing, health, transport, and the rest — and they stay open 24/7. Walk in any time to talk or to plan how we deliver goods and services to each other. I am not a leader of anyone; the rooms are yours to use."
+  },
+  {
     "slug": "EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP",
     "title": "Exit Their Economy, Exit The Psyop",
     "repo": "chargingthefuture/mono",
@@ -1174,6 +1331,16 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Guides",
     "collection": "guides",
     "path": "guides/getting-started.md"
+  },
+  {
+    "slug": "guides/scoketrelay/classifed-ads-for-tis",
+    "title": "The Classifieds Era Ended and What Replaced It, and What TIs Can Use Now",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-01-03",
+    "excerpt": "Craigslist changed local commerce forever: one simple, free classifieds site that let people buy, sell, rent, hire, and swap with almost no friction. Three dec...",
+    "category": "Guides",
+    "collection": "guides",
+    "path": "guides/scoketrelay/classifed-ads-for-tis.md"
   },
   {
     "slug": "guides/The-12-Services-of-the-TI-Skills-Economy",
@@ -1263,219 +1430,6 @@ export const ARTICLES: ArticleMeta[] = [
     "teaser": "SupportMatch randomly pairs you with another survivor looking for a monthly accountability partner — friendship, collaboration, skill exchange, whatever you both decide. No psyop and no hidden agenda. You control what you share, you can opt out at any time with no reason required, and reporting tools are built in."
   },
   {
-    "slug": "🤜🤛-Skills,-Solidarity,-and-Support",
-    "title": "🤜🤛  Skills, Solidarity, and Support",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "Very few TIs get it, in my opinion of course, here are my shoutouts to those giving amazing advice on Quora. You are appreciated!",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/🤜🤛-Skills,-Solidarity,-and-Support.md",
-    "teaser": "Very few get it, in my opinion — so here are my shoutouts to the survivors giving genuinely good advice on Quora. You are appreciated, and this post will keep growing as I find more of you. Names in no particular order."
-  },
-  {
-    "slug": "24-7-Chyme-Drop-In-Rooms",
-    "title": "24/7 Chyme Rooms",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "I have opened the rooms below in Chyme, and they will stay open 24/7. Download the Chyme Android app: https://app.chargingthefuture.com/apps/chyme. Once logged...",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/24-7-Chyme-Drop-In-Rooms.md",
-    "teaser": "I opened a Chyme audio room for every sector of the Skills Economy — food, housing, health, transport, and the rest — and they stay open 24/7. Walk in any time to talk or to plan how we deliver goods and services to each other. I am not a leader of anyone; the rooms are yours to use."
-  },
-  {
-    "slug": "A-Necessary-Step-to-Keep-Our-Platform-Running",
-    "title": "Price Increase and Sustainability Update for TI Skills Economy",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "I'm writing to share an important update about the TI Skills Economy app's pricing and sustainability. Effective March 1, 2026, the subscription price will inc...",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/A-Necessary-Step-to-Keep-Our-Platform-Running.md",
-    "teaser": "The subscription rises from $1 to $2 a month on March 1, 2026. If you are already a member, your price is locked forever — this changes nothing for you. Without the increase, hosting costs take the app offline, and every day offline is a person who never finds it. If you cannot pay, keep using the app; I will cover it."
-  },
-  {
-    "slug": "App-Redesign-(v3)-Demos",
-    "title": "Click through the screens at your own pace",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "I will use this post to link to all demos of the v3 app's 17+ features.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/App-Redesign-(v3)-Demos.md",
-    "teaser": "The v3 redesign of the app has a click-through prototype: every one of the 17+ features, at your own pace, no account needed. There is also an overview video and a video per feature. Click through and tell me what works and what does not."
-  },
-  {
-    "slug": "Call-to-Action",
-    "title": "My call to action — Join the TI Skills Economy",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "One of the Specterati walked up to me this morning and said, “you know there is a camera?” As I stood underneath one while on my phone.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/Call-to-Action.md",
-    "teaser": "One of the Specterati walked up to me and said, 'you know there is a camera?' Cameras do not matter — their economy does. They can do what they do because we feed it: our attention and our transactions. I am asking survivors to stop participating in that economy and join the one we run ourselves: work, housing, rides, and trade among people who are not in it."
-  },
-  {
-    "slug": "Feature-refinements:-removing-MechanicMatch,-CompareNotes,-and-LostMail",
-    "title": "Feature refinements: removing MechanicMatch, CompareNotes, and LostMail",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "I have been reviewing the app's features and have decided to remove the apps MechanicMatch, CompareNotes, and LostMail as they are not being used.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/Feature-refinements:-removing-MechanicMatch,-CompareNotes,-and-LostMail.md",
-    "teaser": "I am removing three apps nobody was using: MechanicMatch, CompareNotes, and LostMail. The Directory already finds you a mechanic, and the other two will be answered a better way. What remains is eight apps that people actually use — and space for a major economy upgrade later this year."
-  },
-  {
-    "slug": "From-62-to-384:-Building-a-Real-Economy-Where-We-Live,-Work,-and-Prevail",
-    "title": "From 62 to 384: Building a Real Economy Where We Live, Work, and Prevail",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "We have the potential to reach 5 million TIs (human trafficking survivors) who come together to reclaim our lives. But today, I want to focus on the power of r...",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/From-62-to-384:-Building-a-Real-Economy-Where-We-Live,-Work,-and-Prevail.md",
-    "teaser": "We have 411 people in the Quora community and 62 have joined the app. My goal is 384. At that size, the arithmetic says this group could generate $24.66 million a year in activity — a caregiver earning $32,500, a mechanic $54,600, a babysitter with steady work, all trading with each other. Not millions of people. A few hundred."
-  },
-  {
-    "slug": "guides/chyme/Chyme:-TI-social-audio-app",
-    "title": "TI Skills Economy Town Hall Room",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "All members of the TI Skills Economy have access to Chyme, the dedicated Android app for social audio with other TIs. And you can host your own rooms!",
-    "category": "Guides",
-    "collection": "guides",
-    "path": "guides/chyme/Chyme:-TI-social-audio-app.md"
-  },
-  {
-    "slug": "guides/lighthouse/hosting",
-    "title": "Hosting in LightHouse",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "Guides post from Charging The Future.",
-    "category": "Guides",
-    "collection": "guides",
-    "path": "guides/lighthouse/hosting.md"
-  },
-  {
-    "slug": "guides/scoketrelay/classifed-ads-for-tis",
-    "title": "The Classifieds Era Ended and What Replaced It, and What TIs Can Use Now",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "Craigslist changed local commerce forever: one simple, free classifieds site that let people buy, sell, rent, hire, and swap with almost no friction. Three dec...",
-    "category": "Guides",
-    "collection": "guides",
-    "path": "guides/scoketrelay/classifed-ads-for-tis.md"
-  },
-  {
-    "slug": "guides/workforce-recruiter/inferring-occupations-from-skills",
-    "title": "Inferring occupations from skills",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "One of the features of Workforce Recruiter is that a survivor can list their skills, and the built-in algorithm will infer what occupations match those skills.",
-    "category": "Guides",
-    "collection": "guides",
-    "path": "guides/workforce-recruiter/inferring-occupations-from-skills.md"
-  },
-  {
-    "slug": "How-to-join-Saturday-Town-Halls",
-    "title": "How to join Saturday Town Halls",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "Every Saturday I make myself available to speak live about TSE.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/How-to-join-Saturday-Town-Halls.md",
-    "teaser": "Every Saturday I make myself available to speak live about the Skills Economy. Two ways in: the Chyme town hall room in the app, or the Signal group if you are on iOS or desktop. Come with questions, or just listen."
-  },
-  {
-    "slug": "How-to-maintain-employment-as-a-TI.",
-    "title": "General Rundown",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "Another TI taught me about doing healthy volunteer studies. It's where pharma companies pay you to test an upcoming medicine. It's safe because they are phase ...",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/How-to-maintain-employment-as-a-TI..md",
-    "teaser": "Another survivor taught me about paid healthy-volunteer studies: pharma companies pay you to test upcoming medicines in phase I trials. The average is $3,000 to $5,000 a month; I have seen up to $45,000 for one. I have done one and will keep going. Talk to me before you call a trial company — there are ways to avoid being banned, and I will walk you through them."
-  },
-  {
-    "slug": "insights/#49-of-how-TI-Skills-Network-helps-you-exit-the-psyop",
-    "title": "#49 of how TI Skills Network helps you exit the psyop",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "I have listed, with the help of Nat Morris, 50 things the Speceterati do as part of their torturing of humanity. And how the TI Skills Network “fixes” each one.",
-    "category": "Insights",
-    "collection": "insights",
-    "path": "insights/49-of-how-TI-Skills-Network-helps-you-exit-the-psyop.md"
-  },
-  {
-    "slug": "insights/insights",
-    "title": "Insights",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "Money Laundering vs a Circular Economy",
-    "category": "Insights",
-    "collection": "insights",
-    "path": "insights/insights.md"
-  },
-  {
-    "slug": "Live-in‐app-Community-Support-Chat",
-    "title": "New Feature: Live in-app Community Support Chat",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "As seen in the weekly app stats, as of today, 57 people have signed up, with only 32 of them having provided their Quora handle. Therefore, there are 25 people...",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/Live-in‐app-Community-Support-Chat.md",
-    "teaser": "25 people signed up but got stuck before using a single feature. So the app now has live in-app chat: post your question and get an answer from me or any member who opts in. A global community cannot run on one person's time zone — now support runs on all of ours."
-  },
-  {
-    "slug": "Look-ma,-I-fixed-it!",
-    "title": "Look ma, I fixed it!",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "Nat Morris (TSE Profile) did a great write-up that lists the most common things the Specterati do to Targets.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/Look-ma,-I-fixed-it!.md",
-    "teaser": "Nat Morris wrote up the most common things the Specterati do to Targets. I built an interactive page that takes that list and shows, item by item, how the Skills Economy removes each obstacle from your life. Not promises — the specific service that answers each specific tactic."
-  },
-  {
-    "slug": "New-Mini‐App:-Mood",
-    "title": "New Mini-App: Mood",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "Before today, within GentlePulse, you could report on your mood. Based on the community's usage, I have moved mood ratings out of GentlePulse and into its own ...",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/New-Mini‐App:-Mood.md",
-    "teaser": "Mood ratings now have their own mini-app, moved out of GentlePulse based on how the community actually uses it. Same rules as before: anonymous, and individual responses are never sold or shared. I use it for one thing — to see whether the product is improving your mental health and your economic stability."
-  },
-  {
-    "slug": "Official-Channels-(and-Discourse-Blog-is-closed)",
-    "title": "Official Channels (and Discourse Blog is closed)",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "The Discourse blog I created at https://chargingthefuture.discourse.group was closed on December 23, 2025. I have exported all of the posts to this GitHub repo...",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/Official-Channels-(and-Discourse-Blog-is-closed).md",
-    "teaser": "The Discourse blog was closed on December 23, 2025. Every post was exported to this repository before it went — nothing was lost, and each one is being reformatted for readability. Here is the full list of official channels: the website, the app, this blog, the code, and Quora."
-  },
-  {
-    "slug": "Product-Update-2026-05-29-Chyme-Unified-Experience",
-    "title": "Chyme Unified Experience",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "We merged Chyme chat and directory copy to a single design standard across Charging the Future. This means:",
-    "category": "Updates",
-    "collection": "product-updates",
-    "path": "product-updates/Product-Update-2026-05-29-Chyme-Unified-Experience.md"
-  },
-  {
     "slug": "The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP",
     "title": "Live, Work, and Prevail — a manifesto for survivors",
     "repo": "chargingthefuture/chargingthefuture",
@@ -1485,61 +1439,6 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "posts",
     "path": "posts/The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP.md",
     "teaser": "We are survivors of organized crime — human trafficking — and I have found writing describing this same crime from the 1690s. I estimate five million of us worldwide. That is more than enough people to meet each other's needs. Survivors compiled 51 real problems we face; I did not stop at the list. I built a working answer for every single one. Filling it is up to us."
-  },
-  {
-    "slug": "The-Specterati's-Money-Laundering-vs.-TI-Skills-Economy’s-circular-economy",
-    "title": "Why that matters for the TI Skills Economy (TSE)",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "The Specterati's Money laundering vs. TI Skills Economy’s circular economy, why they’re not the same thing",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/The-Specterati's-Money-Laundering-vs.-TI-Skills-Economy’s-circular-economy.md",
-    "teaser": "Money laundering hides where funds come from — layered transactions, shell companies, secrecy for personal gain. A circular economy is the opposite: skills and materials kept in use locally, in the open, for collective benefit. One runs on concealment, the other on visible, reciprocal exchange. That difference is the whole point of the Skills Economy."
-  },
-  {
-    "slug": "Three-ways-to-reach-me-and-get-help.",
-    "title": "I officially closed my Quora DMs. Three ways to reach me and get help.",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "For app support or questions:",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/Three-ways-to-reach-me-and-get-help..md",
-    "teaser": "I closed my Quora DMs. Three ways to reach me now: comment on any Quora post, message one of the Signal groups, or use the live in-app chat. All three get answered — DMs were the only channel that did not scale."
-  },
-  {
-    "slug": "Use-Cases-of-the-TI-Skills-Economy:-the-only-way-to-exit-the-psyop",
-    "title": "Use Cases of the TI Skills Economy: the only way to exit the psyop",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "The goal of the TI Skills Economy is to unite the ~5 million TIs. There are enough TIs to box out the perps from our lives by working and living amongst TIs. I...",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/Use-Cases-of-the-TI-Skills-Economy:-the-only-way-to-exit-the-psyop.md",
-    "teaser": "There are enough of us to box the perps out of our lives by working and living among ourselves — that is the entire idea, and the app is just the facilitator. Say you are a vet: survivors whose pets are poisoned need someone who is not part of the psyop, and now they can find you. I am not a leader. It is a peer-to-peer marketplace, and you never have to interact with me at all."
-  },
-  {
-    "slug": "What-is-the-TI-Skills-Economy-app?",
-    "title": "What is the TI Skills Economy app?",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "An invite-only platform designed specifically for survivors of human trafficking, offering essential services and support with dignity, privacy, and respect.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/What-is-the-TI-Skills-Economy-app.md",
-    "teaser": "An invite-only super app built exclusively for survivors of human trafficking: housing, transportation, work, support, and community — 12+ services through a single account. Trauma-informed design, WCAG AAA accessibility, complete privacy control including full account deletion. Built by and for survivors."
-  },
-  {
-    "slug": "With-an-estimated-5-million-TIs-globally,-we-can-significantly-reduce,-if-not-eliminate,-our-exploitation!",
-    "title": "With an estimated 5 million TIs globally, we can significantly reduce, if not eliminate, our exploitation!",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "With an estimated 5 million TIs globally, we can significantly reduce, if not eliminate, our exploitation!",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/With-an-estimated-5-million-TIs-globally,-we-can-significantly-reduce,-if-not-eliminate,-our-exploitation!.md",
-    "teaser": "There are nation-states with 5 million people, and they run service-based economies. So there is no reason 5 million survivors cannot collectively opt out of doing business with the people who torture and exploit us. You may think you have nothing to contribute — the data says otherwise. I reviewed the profiles myself: the majority of survivors are highly skilled."
   },
   {
     "slug": "Home",
@@ -1552,6 +1451,122 @@ export const ARTICLES: ArticleMeta[] = [
     "path": "posts/Home.md",
     "featured": true,
     "teaser": "The knowledge base for Charging The Future and the Skills Economy: what the app is, how each service works, and where everything lives. The app is invite-only, built for survivors to live, work, and rebuild with safety, dignity, and privacy. Start here if you are new."
+  },
+  {
+    "slug": "guides/lighthouse/hosting",
+    "title": "Hosting in LightHouse",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-30",
+    "excerpt": "Guides post from Charging The Future.",
+    "category": "Guides",
+    "collection": "guides",
+    "path": "guides/lighthouse/hosting.md"
+  },
+  {
+    "slug": "guides/workforce-recruiter/inferring-occupations-from-skills",
+    "title": "Inferring occupations from skills",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-30",
+    "excerpt": "One of the features of Workforce Recruiter is that a survivor can list their skills, and the built-in algorithm will infer what occupations match those skills.",
+    "category": "Guides",
+    "collection": "guides",
+    "path": "guides/workforce-recruiter/inferring-occupations-from-skills.md"
+  },
+  {
+    "slug": "insights/insights",
+    "title": "Insights",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-30",
+    "excerpt": "Money Laundering vs a Circular Economy",
+    "category": "Insights",
+    "collection": "insights",
+    "path": "insights/insights.md"
+  },
+  {
+    "slug": "insights/#49-of-how-TI-Skills-Network-helps-you-exit-the-psyop",
+    "title": "#49 of how TI Skills Network helps you exit the psyop",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-28",
+    "excerpt": "I have listed, with the help of Nat Morris, 50 things the Speceterati do as part of their torturing of humanity. And how the TI Skills Network “fixes” each one.",
+    "category": "Insights",
+    "collection": "insights",
+    "path": "insights/49-of-how-TI-Skills-Network-helps-you-exit-the-psyop.md"
+  },
+  {
+    "slug": "Look-ma,-I-fixed-it!",
+    "title": "Look ma, I fixed it!",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-28",
+    "excerpt": "Nat Morris (TSE Profile) did a great write-up that lists the most common things the Specterati do to Targets.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/Look-ma,-I-fixed-it!.md",
+    "teaser": "Nat Morris wrote up the most common things the Specterati do to Targets. I built an interactive page that takes that list and shows, item by item, how the Skills Economy removes each obstacle from your life. Not promises — the specific service that answers each specific tactic."
+  },
+  {
+    "slug": "Official-Channels-(and-Discourse-Blog-is-closed)",
+    "title": "Official Channels (and Discourse Blog is closed)",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-28",
+    "excerpt": "The Discourse blog I created at https://chargingthefuture.discourse.group was closed on December 23, 2025. I have exported all of the posts to this GitHub repo...",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/Official-Channels-(and-Discourse-Blog-is-closed).md",
+    "teaser": "The Discourse blog was closed on December 23, 2025. Every post was exported to this repository before it went — nothing was lost, and each one is being reformatted for readability. Here is the full list of official channels: the website, the app, this blog, the code, and Quora."
+  },
+  {
+    "slug": "Use-Cases-of-the-TI-Skills-Economy:-the-only-way-to-exit-the-psyop",
+    "title": "Use Cases of the TI Skills Economy: the only way to exit the psyop",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-28",
+    "excerpt": "The goal of the TI Skills Economy is to unite the ~5 million TIs. There are enough TIs to box out the perps from our lives by working and living amongst TIs. I...",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/Use-Cases-of-the-TI-Skills-Economy:-the-only-way-to-exit-the-psyop.md",
+    "teaser": "There are enough of us to box the perps out of our lives by working and living among ourselves — that is the entire idea, and the app is just the facilitator. Say you are a vet: survivors whose pets are poisoned need someone who is not part of the psyop, and now they can find you. I am not a leader. It is a peer-to-peer marketplace, and you never have to interact with me at all."
+  },
+  {
+    "slug": "With-an-estimated-5-million-TIs-globally,-we-can-significantly-reduce,-if-not-eliminate,-our-exploitation!",
+    "title": "With an estimated 5 million TIs globally, we can significantly reduce, if not eliminate, our exploitation!",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-28",
+    "excerpt": "With an estimated 5 million TIs globally, we can significantly reduce, if not eliminate, our exploitation!",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/With-an-estimated-5-million-TIs-globally,-we-can-significantly-reduce,-if-not-eliminate,-our-exploitation!.md",
+    "teaser": "There are nation-states with 5 million people, and they run service-based economies. So there is no reason 5 million survivors cannot collectively opt out of doing business with the people who torture and exploit us. You may think you have nothing to contribute — the data says otherwise. I reviewed the profiles myself: the majority of survivors are highly skilled."
+  },
+  {
+    "slug": "guides/chyme/Chyme:-TI-social-audio-app",
+    "title": "TI Skills Economy Town Hall Room",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-27",
+    "excerpt": "All members of the TI Skills Economy have access to Chyme, the dedicated Android app for social audio with other TIs. And you can host your own rooms!",
+    "category": "Guides",
+    "collection": "guides",
+    "path": "guides/chyme/Chyme:-TI-social-audio-app.md"
+  },
+  {
+    "slug": "How-to-maintain-employment-as-a-TI.",
+    "title": "General Rundown",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-23",
+    "excerpt": "Another TI taught me about doing healthy volunteer studies. It's where pharma companies pay you to test an upcoming medicine. It's safe because they are phase ...",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/How-to-maintain-employment-as-a-TI..md",
+    "teaser": "Another survivor taught me about paid healthy-volunteer studies: pharma companies pay you to test upcoming medicines in phase I trials. The average is $3,000 to $5,000 a month; I have seen up to $45,000 for one. I have done one and will keep going. Talk to me before you call a trial company — there are ways to avoid being banned, and I will walk you through them."
+  },
+  {
+    "slug": "What-is-the-TI-Skills-Economy-app?",
+    "title": "What is the TI Skills Economy app?",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-21",
+    "excerpt": "An invite-only platform designed specifically for survivors of human trafficking, offering essential services and support with dignity, privacy, and respect.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/What-is-the-TI-Skills-Economy-app.md",
+    "teaser": "An invite-only super app built exclusively for survivors of human trafficking: housing, transportation, work, support, and community — 12+ services through a single account. Trauma-informed design, WCAG AAA accessibility, complete privacy control including full account deletion. Built by and for survivors."
   },
   {
     "slug": "discourse-migrate/good-things-are-happening-hang-in-there",

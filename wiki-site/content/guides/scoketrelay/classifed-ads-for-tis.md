@@ -1,6 +1,6 @@
 ---
 title: The Classifieds Era Ended and What Replaced It, and What TIs Can Use Now
-date: "2026-01-01"
+date: "2026-01-03"
 excerpt: "Craigslist changed local commerce forever: one simple, free classifieds site that let people buy, sell, rent, hire, and swap with almost no friction. Three dec..."
 category: Guides
 slug: guides/scoketrelay/classifed-ads-for-tis

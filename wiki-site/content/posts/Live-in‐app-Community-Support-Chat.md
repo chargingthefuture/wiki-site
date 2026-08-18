@@ -1,6 +1,6 @@
 ---
 title: "New Feature: Live in-app Community Support Chat"
-date: "2026-01-01"
+date: "2026-02-15"
 excerpt: As seen in the weekly app stats, as of today, 57 people have signed up, with only 32 of them having provided their Quora handle. Therefore, there are 25 people...
 category: Community
 slug: Live-in‐app-Community-Support-Chat
