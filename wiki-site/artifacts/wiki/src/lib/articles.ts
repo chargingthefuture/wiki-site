@@ -58,6 +58,21 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "Skills-Economy-Phone-Wallpapers",
+    "title": "Skills Economy Phone Wallpapers",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-18",
+    "excerpt": "Skills Economy wallpapers for your phone, downloadable from the same GitHub releases page as the Android app.",
+    "category": "Updates",
+    "collection": "posts",
+    "path": "posts/Skills-Economy-Phone-Wallpapers.md",
+    "teaser": "The Skills Economy logo is now a phone wallpaper. Two sizes — one for most Android phones, one for recent iPhones — on the same GitHub releases page where the Android app lives. Download the file that matches your phone, save it to your photos, and set it as your wallpaper.",
+    "topics": [
+      "wallpapers",
+      "brand"
+    ]
+  },
+  {
     "slug": "the-manifesto-seven-months-later",
     "title": "The manifesto, seven months later",
     "repo": "chargingthefuture/wiki-site",
