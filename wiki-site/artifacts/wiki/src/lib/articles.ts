@@ -2176,7 +2176,7 @@ export const ARTICLES: ArticleMeta[] = [
   },
   {
     "slug": "discourse-migrate/perfection-does-not-equate-to-excellance",
-    "title": "Perfection does not equate to excellance",
+    "title": "Perfection does not equate to excellence",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-11-06",
     "excerpt": "I have not found post, but I mentioned twice previously that I have significant typos in my posts. And that I am doubling back and copy editing posts…",
