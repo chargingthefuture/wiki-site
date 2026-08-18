@@ -95,7 +95,7 @@ It is Saturday, March 7, 2026, and the Weekly State of the TI Skills Economy. An
 * Mood 😁: anonymous mood check-ins to improve the app
 * SocketRelay 🔂: mutual aid
 
-At this time the features are implemented but I am testing and making design changes to make the app as usable as possible. The app will be launched via web browser. And after that is working well, the Android app will be released. As mentioned previously there will be no iOS app as it would be interfered with by the Speceterati.
+At this time the features are implemented but I am testing and making design changes to make the app as usable as possible. The app will be launched via web browser. And after that is working well, the Android app will be released. As mentioned previously there will be no iOS app as it would be interfered with by the Specterati.
 
 ## Week 20: Ending February 27, 2026
 
@@ -147,7 +147,7 @@ https://tiskillsnetwork.quora.com/Welcome-to-the-weekly-State-of-the-TI-Skills-E
 
 ### Ways to have the TI Skills Economy grow:
 
-1. Sign up for the app: [Psyop-Free Economy | Survivor Support Platform](http://chargingthefuture.com/)
+1. Sign up for the app: [Psyop-Free Economy | Survivor Support Platform](https://chargingthefuture.com/)
 2. Upvote TSE Quora posts
 3. Comment on TSE Quora posts
 4. Send me the Quora profile URL of TIs you think would benefit from joining (DM me the URL or comment with the URL)
@@ -160,7 +160,7 @@ https://tiskillsnetwork.quora.com/Welcome-to-the-weekly-State-of-the-TI-Skills-E
 
 ### Ways to have the TI Skills Economy grow:
 
-1. Sign up for the app: [Psyop-Free Economy | Survivor Support Platform](http://chargingthefuture.com/)
+1. Sign up for the app: [Psyop-Free Economy | Survivor Support Platform](https://chargingthefuture.com/)
 2. Upvote TSE Quora posts
 3. Comment on TSE Quora posts
 4. Send me the Quora profile URL of TIs you think would benefit from joining (DM me the URL or comment with the URL)
@@ -176,18 +176,18 @@ https://tiskillsnetwork.quora.com/Welcome-to-the-weekly-State-of-the-TI-Skills-E
 
 ### TLDR; If we continue at this weekly growth amount, we will reach 50,000 TIs globally within the next 12 months! Do you want to see this happen?
 
-1. Sign up for the app: [Psyop-Free Economy | Survivor Support Platform](http://chargingthefuture.com/)
+1. Sign up for the app: [Psyop-Free Economy | Survivor Support Platform](https://chargingthefuture.com/)
 2. Upvote TSE Quora posts (only if they are authentic)
 3. Comment on TSE Quora posts (only if they are authentic)
 4. Send me the Quora profile URL of TIs you think would benefit from joining (DM me the URL or comment with the URL)
 
 ### 🔍 Upcoming Focus
-- The app is steadily growing in parallel there will be in-person meet-ups.
+- The app is steadily growing; in parallel, there will be in-person meet-ups.
 - Work with TIs to establish a gated TI-only community: all TIs welcome regardless of current income or housing circumstances
 
 ### 📊 Weekly App Stats
 - We had fewer app sign-ups than last week. But sign-ups nonetheless, which means a growing community.
-- Two of our members contributed last week. And this means the TSE app gets to live another month!:) [Friendly reminder, if you can contribute to, please do. This is a 100% community backed initiative](https://github.com/chargingthefuture/mono/wiki/How-you-can-help).
+- Two of our members contributed last week. And this means the TSE app gets to live another month!:) [Friendly reminder, if you can contribute, please do. This is a 100% community backed initiative](https://github.com/chargingthefuture/mono/wiki/How-you-can-help).
 
 <img width="778" alt="screencapture-app-chargingthefuture-admin-weekly-performance-2026-01-31-12_52_16" src="https://github.com/user-attachments/assets/453e3851-0ddf-4ebf-b548-4ef820e67916" />
 
@@ -195,13 +195,13 @@ https://tiskillsnetwork.quora.com/Welcome-to-the-weekly-State-of-the-TI-Skills-E
 
 ### TLDR; If we continue at this weekly growth amount, we will reach 50,000 TIs globally within the next 12 months! Do you want to see this happen?
 
-1. Sign up for the app: [Psyop-Free Economy | Survivor Support Platform](http://chargingthefuture.com/)
+1. Sign up for the app: [Psyop-Free Economy | Survivor Support Platform](https://chargingthefuture.com/)
 2. Upvote TSE Quora posts (only if they are authentic)
 3. Comment on TSE Quora posts (only if they are authentic)
 4. Send me the Quora profile URL of TIs you think would benefit from joining (DM me the URL or comment with the URL)
 
 ### 🔍 Upcoming Focus
-- The app is steadily growing in parallel there will be in-person meet-ups.
+- The app is steadily growing; in parallel, there will be in-person meet-ups.
 - Work with TIs to establish a gated TI-only community: all TIs welcome regardless of current income or housing circumstances
 
 ### 📊 Weekly App Stats
@@ -215,7 +215,7 @@ This week was exceptional for week-over-week growth. We had a 200% increase in n
     - Link to Town Hall room on Chyme: https://app.chargingthefuture.com/apps/chyme/room/43d5333a-1c86-462a-b600-7fbb3ccca285. I will leave the room open 24/7.
 
 ### 🔍 Upcoming Focus
-- The app is steadily growing in parallel I will try to coordinate in-person meet-ups.
+- The app is steadily growing; in parallel, I will try to coordinate in-person meet-ups.
 
 ### 📊 Weekly App Stats
 The TI Skills Economy app had a good week, while we had fewer sign-ups from the previous week, there was 8% sign up growth.
