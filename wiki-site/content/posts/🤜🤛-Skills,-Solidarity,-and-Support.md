@@ -21,4 +21,4 @@ _I will continuously update this post. Names in no particular order._
 —
 
 This Post on Quora
-https://tiskillsnetwork.quora.com/skills-solidarity-and-mutual-support-Very-few-TIs-get-it-in-my-opinion-of-course-here-are-my-shoutouts-to-thos
+https://skillseconomy.quora.com/skills-solidarity-and-mutual-support-Very-few-TIs-get-it-in-my-opinion-of-course-here-are-my-shoutouts-to-thos
