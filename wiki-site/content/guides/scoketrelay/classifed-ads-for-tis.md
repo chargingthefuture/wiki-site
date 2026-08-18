@@ -38,9 +38,9 @@ Craigslist changed local commerce forever: one simple, free classifieds site tha
 Craigslist still exists and retains traffic in many categories, especially in smaller markets and for sellers who prefer zero-friction, no-fee listings. But its role as the default, catch-all classifieds network has diminished. The market is split into specialized, trust-oriented, mobile-first services—each optimized for a particular vertical or user need.
 
 ## What this means going forward for TIs
-The consequences for the lack of classified ads for the general population mentioned above apply to TIs as well; however, the biggest issue we face is the gatekeeping. With the splintering of services, it enables the Speceterati to more efficiently mob TIs out of opportunities.
+The consequences for the lack of classified ads for the general population mentioned above apply to TIs as well; however, the biggest issue we face is the gatekeeping. With the splintering of services, it enables the Specterati to more efficiently mob TIs out of opportunities.
 
-[John Mixon](https://www.quora.com/How-many-communities-in-the-US-today-are-completely-ruled-by-gangs-that-the-government-cannot-intervene-in-Can-people-in-these-communities-ruled-by-gangs-only-survive-for-an-average-of-40-or-50-years-old-This-is-too/answer/Jon-Mixon-1) aptly mentions the following about American cities:
+[Jon Mixon](https://www.quora.com/How-many-communities-in-the-US-today-are-completely-ruled-by-gangs-that-the-government-cannot-intervene-in-Can-people-in-these-communities-ruled-by-gangs-only-survive-for-an-average-of-40-or-50-years-old-This-is-too/answer/Jon-Mixon-1) aptly mentions the following about American cities:
 
 > In some communities organized criminals (the evolutionary offspring of gangs) have significant influence on social and economic matters. However, they know (or learn) their limitations and operate within them to avoid crackdowns by the state or federal level authorities. That’s more exploitation and symbiosis than actual “ruling.”
 
@@ -48,7 +48,7 @@ The name I use for this evolutionary group is Specterati, noting they work direc
 
 The TI Skills Economy is this ecosystem, and within it is SocketRelay. Version three of the TI Craigslist. Originally, I attempted to do this via Quora. Because it is the only place online with the most real TIs. But Quora deleted my account. Next, I tried Discourse, but few signed up and used it.
 
-Then one day, via a Signal chat group with just TIs. I mentioned the Speceterati had stolen all my clothes, and with winter coming, I had no coat. And another TI, within one week, mailed me, at their expense, a winter coat. It was the magic of it all. A "stranger from the Internet" with no hidden agenda, fulfilling a request. This inspired SocketRelay: https://app.chargingthefuture.com/apps/socketrelay/public.
+Then one day, via a Signal chat group with just TIs, I mentioned the Specterati had stolen all my clothes, and with winter coming, I had no coat. And another TI, within one week, mailed me, at their expense, a winter coat. It was the magic of it all. A "stranger from the Internet" with no hidden agenda, fulfilling a request. This inspired SocketRelay: https://app.chargingthefuture.com/apps/socketrelay/public.
 
 > SocketRelay is an attempt to recreate that magic. Make a post in 140 characters, and other individuals can fulfill the request. You can choose to make your request public or only visible to individuals approved into the TI Skills Economy.
 
