@@ -20,7 +20,7 @@ The platform now recognizes and processes transactions in multiple currencies ac
 Members pending unlock are now routed directly to the verification flow instead of hitting dead ends. We also fixed critical API logging so our team can respond faster when unlock issues occur. Combined with Clerk's hosted Account Portal for sign-in, the path from registration to unlocked access is now clearer and more reliable.
 
 **Full Android Parity**
-The Chyme chat assistant, mobile Hub feed, and all channel features now work identically on Android and iOS. You get the same tools, same experience, regardless of your device.
+The Chyme chat assistant, mobile Hub feed, and all channel features now work identically on Android and the web. You get the same tools, same experience, regardless of your device.
 
 ## Why It Matters
 
@@ -28,4 +28,4 @@ Survivors operate across borders and currencies. Global payment recognition remo
 
 Verification clarity matters because trust is foundational. When the path to unlock is direct and transparent, you move from uncertainty into capability faster.
 
-Device parity ensures that access to community, resources, and economic tools doesn't depend on whether you use Android or iOS. Your tools meet you where you are.
+Device parity ensures that access to community, resources, and economic tools doesn't depend on whether you use Android or the web. Your tools meet you where you are.
