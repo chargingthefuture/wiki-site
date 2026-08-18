@@ -43,6 +43,21 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "Dictionary",
+    "title": "Dictionary: Skills Economy Terms",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-08-18",
+    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
+    "category": "Resources",
+    "collection": "posts",
+    "path": "posts/Dictionary.md",
+    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
+    "topics": [
+      "reference",
+      "terms"
+    ]
+  },
+  {
     "slug": "the-manifesto-seven-months-later",
     "title": "The manifesto, seven months later",
     "repo": "chargingthefuture/wiki-site",
@@ -1114,17 +1129,6 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "posts",
     "path": "posts/Terms-of-Service-and-Privacy-Policy.md",
     "teaser": "The official Terms of Service and Privacy Policy, effective March 24, 2026. What you agree to, what we collect and why, how moderation works, and how to delete your account and data completely. Written to be read, not skimmed past."
-  },
-  {
-    "slug": "Dictionary",
-    "title": "Dictionary: TI Skills Economy Terms",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-03-23",
-    "excerpt": "Official terminology for the TI Skills Economy, including survivor-first language and Specterati definitions.",
-    "category": "Resources",
-    "collection": "posts",
-    "path": "posts/Dictionary.md",
-    "teaser": "The official terms of the Skills Economy, in one place. Specterati replaces 'gang stalking' — a network, not a mystery. Survivors, not victims. Every app name, every term, and what each one means, so we all say the same thing the same way."
   },
   {
     "slug": "Weekly-State-of-the-TI-Skills-Economy",
