@@ -474,7 +474,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Service Credits wallet, instant calls, and search updates",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2026-06-25",
-    "excerpt": "Wallet history, instant call billing per minute, directory search by skill type, Game Designers occupation, and admin feedback visibility.",
+    "excerpt": "Wallet history, instant calls charged in credits per minute, directory search by skill type, Game Designers occupation, and admin feedback visibility.",
     "category": "Updates",
     "collection": "product-updates",
     "path": "product-updates/Product-Update-2026-06-25-Credits-Calls-Search.md"
@@ -731,10 +731,10 @@ export const ARTICLES: ArticleMeta[] = [
   },
   {
     "slug": "Product-Update-2026-06-15-ServiceCredits-Monetary-Policy",
-    "title": "ServiceCredits now tracks money flow and wallet limits",
+    "title": "ServiceCredits now tracks credit flow and wallet limits",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2026-06-15",
-    "excerpt": "ServiceCredits now tracks circulation metrics, sets equal mutual-credit limits, and shows real-time monetary policy data.",
+    "excerpt": "ServiceCredits now tracks circulation metrics, sets equal mutual-credit limits, and shows real-time credit policy data.",
     "category": "Updates",
     "collection": "product-updates",
     "path": "product-updates/Product-Update-2026-06-15-ServiceCredits-Monetary-Policy.md"
