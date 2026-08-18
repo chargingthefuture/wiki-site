@@ -43,6 +43,21 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "dew-attack-types",
+    "title": "The DEW List: Naming Every Kind of Attack",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-18",
+    "excerpt": "A working list of directed energy weapon (DEW) attack types, built to become ClickLog labels. Add the ones you experience by commenting in the Commons chat.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/dew-attack-types.md",
+    "teaser": "I have asked for this before — on Quora and on the old Discourse forum. This time the list has somewhere to live: each DEW attack type on it becomes a label in ClickLog, a new label category, so an incident can be tagged by the kind of attack and the pattern shows up on the global map. The list starts with only what I have documented myself. If you experience a type that is not on it, add it by commenting in the Commons group chat.",
+    "topics": [
+      "clicklog",
+      "dew"
+    ]
+  },
+  {
     "slug": "Dictionary",
     "title": "Dictionary: Skills Economy Terms",
     "repo": "chargingthefuture/chargingthefuture",
@@ -55,6 +70,21 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "reference",
       "terms"
+    ]
+  },
+  {
+    "slug": "oldie-but-goodie-pam-dawson-t-tipton",
+    "title": "Oldie but Goodie: Skills, Solidarity, and Support",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-18",
+    "excerpt": "Pam Dawson and T. Tipton give real advice to survivors on Quora. Here are the directory profiles made for them, so finding each other no longer depends on Quora's discovery.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/oldie-but-goodie-pam-dawson-t-tipton.md",
+    "teaser": "Back in January I published a short post of shoutouts to survivors giving genuinely good advice on Quora, and said the list would grow. It grows today: Pam Dawson and T. Tipton, you are appreciated. Both now have community-generated profiles in the Directory — claimable by them any time, deletable on request — because finding survivors worth connecting with should not depend on Quora's discovery, which buries us.",
+    "topics": [
+      "directory",
+      "shoutouts"
     ]
   },
   {
