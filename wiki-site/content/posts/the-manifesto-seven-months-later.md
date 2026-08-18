@@ -3,17 +3,17 @@ title: "The manifesto, seven months later"
 date: "2026-08-18"
 excerpt: "The manifesto stays exactly as written — that is the point of a record. Here is what has moved in the seven months since."
 category: "Community"
-teaser: "In January I published a manifesto and said I had built a working answer for every one of the 51 problems survivors face. It stays exactly as written, numbers and all — a dated record proves more than a maintained page. What moved since: 36 sign-ups then; 41 approved members, 97 people on the skills map, and 453 followers now. No skills map at all then; today 158 of the 650 skills a working economy needs, worth $13.8 million a year if all 97 participated. First progress post in a repeating shape — put any two side by side and you will see the direction."
+teaser: "I published a manifesto and said I had built a working answer for every one of the 51 problems survivors face. It stays exactly as written, numbers and all — a dated record proves more than a maintained page. What moved since: 36 sign-ups then; 41 approved members, 97 people on the skills map, and 453 followers now. No skills map at all then; today 158 of the 650 skills a working economy needs, worth $13.8 million a year if all 97 participated. First progress post in a repeating shape — put any two side by side and you will see the direction."
 topics:
   - economy
   - progress
 ---
 
-In January I published a manifesto. It said who we are, what we learned, and that I had built a working answer for every one of the 51 problems survivors face. It ends with the line this whole thing runs on: exit their economy, exit the psyop.
+I published a manifesto. It said who we are, what we learned, and that I had built a working answer for every one of the 51 problems survivors face. It ends with the line this whole thing runs on: exit their economy, exit the psyop.
 
 It is still here, exactly as written: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP
 
-I am not going to update it. Not the numbers, not the wording. A page that gets quietly refreshed proves nothing; a dated record proves what was claimed and when. The manifesto is the January snapshot, this post is the August one, and the ones that follow will each be their own.
+I am not going to update it. Not the numbers, not the wording. A page that gets quietly refreshed proves nothing; a dated record proves what was claimed and when. The manifesto is its own dated snapshot, this post is the August one, and the ones that follow will each be their own.
 
 ## Two numbers, because this is not a typical app
 

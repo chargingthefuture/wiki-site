@@ -81,7 +81,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/the-manifesto-seven-months-later.md",
-    "teaser": "In January I published a manifesto and said I had built a working answer for every one of the 51 problems survivors face. It stays exactly as written, numbers and all — a dated record proves more than a maintained page. What moved since: 36 sign-ups then; 41 approved members, 97 people on the skills map, and 453 followers now. No skills map at all then; today 158 of the 650 skills a working economy needs, worth $13.8 million a year if all 97 participated. First progress post in a repeating shape — put any two side by side and you will see the direction.",
+    "teaser": "I published a manifesto and said I had built a working answer for every one of the 51 problems survivors face. It stays exactly as written, numbers and all — a dated record proves more than a maintained page. What moved since: 36 sign-ups then; 41 approved members, 97 people on the skills map, and 453 followers now. No skills map at all then; today 158 of the 650 skills a working economy needs, worth $13.8 million a year if all 97 participated. First progress post in a repeating shape — put any two side by side and you will see the direction.",
     "topics": [
       "economy",
       "progress"
@@ -257,6 +257,17 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Updates",
     "collection": "product-updates",
     "path": "product-updates/Product-Update-2026-07-06-LightHouse-Currency-Display.md"
+  },
+  {
+    "slug": "The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP",
+    "title": "Live, Work, and Prevail — a manifesto for survivors",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-07-06",
+    "excerpt": "We are survivors. Targeted Individuals (TIs) — people subjected to organized, long-running harassment carried out by what I call the Specterati: a coordinated ...",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP.md",
+    "teaser": "We are survivors of organized crime — human trafficking — and I have found writing describing this same crime from the 1690s. I estimate five million of us worldwide. That is more than enough people to meet each other's needs. Survivors compiled 51 real problems we face; I did not stop at the list. I built a working answer for every single one. Filling it is up to us."
   },
   {
     "slug": "Product-Update-2026-07-05-Mobile-Fixes-Recurring-Activity",
@@ -1428,17 +1439,6 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "posts",
     "path": "posts/What-is-SupportMatch.md",
     "teaser": "SupportMatch randomly pairs you with another survivor looking for a monthly accountability partner — friendship, collaboration, skill exchange, whatever you both decide. No psyop and no hidden agenda. You control what you share, you can opt out at any time with no reason required, and reporting tools are built in."
-  },
-  {
-    "slug": "The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP",
-    "title": "Live, Work, and Prevail — a manifesto for survivors",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "We are survivors. Targeted Individuals (TIs) — people subjected to organized, long-running harassment carried out by what I call the Specterati: a coordinated ...",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP.md",
-    "teaser": "We are survivors of organized crime — human trafficking — and I have found writing describing this same crime from the 1690s. I estimate five million of us worldwide. That is more than enough people to meet each other's needs. Survivors compiled 51 real problems we face; I did not stop at the list. I built a working answer for every single one. Filling it is up to us."
   },
   {
     "slug": "Home",
