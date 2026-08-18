@@ -21,7 +21,7 @@ Excerpt: Welcome, in no particular order, @BRadhd, @Secretrituals, @MichaelNewma
 
 <p>Welcome, in no particular order, <a class="mention" href="/u/bradhd">@BRadhd</a>, <a class="mention" href="/u/secretrituals">@Secretrituals</a>, <a class="mention" href="/u/michaelnewmanearth">@MichaelNewmanEarth</a>, and <a class="mention" href="/u/snaveseer">@snaveseer</a>!</p>
 <p>We are glad you have joined the world’s first-ever TI economy! If you like, create a “New Topic,” aka post, and introduce yourself. Remember to add the Category “introduce-yourself” to the post. If you forget, you can always edit the post and add the category at a later time.</p>
-<p>Here is a short video on how to change the catagory of your post: <a href="https://chargingthefuture.wistia.com/medias/ce9h9y63qi" class="inline-onebox">ScreenRecording_10-05-2025 14-35-00_1</a></p>
+<p>Here is a short video on how to change the category of your post: <a href="https://chargingthefuture.wistia.com/medias/ce9h9y63qi" class="inline-onebox">ScreenRecording_10-05-2025 14-35-00_1</a></p>
 
 ---
 
