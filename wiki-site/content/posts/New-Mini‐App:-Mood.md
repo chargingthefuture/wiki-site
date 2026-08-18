@@ -17,4 +17,4 @@ Before today, within GentlePulse, you could report on your mood. Based on the co
 <img width="1164" alt="Screenshot 2026-02-15 6 27 03 PM" src="https://github.com/user-attachments/assets/25bf84a2-d767-4f28-9b0c-116a2ecb1a01" />
 
 Post on Quora
-https://tiskillsnetwork.quora.com/Feature-Update
+https://skillseconomy.quora.com/Feature-Update
