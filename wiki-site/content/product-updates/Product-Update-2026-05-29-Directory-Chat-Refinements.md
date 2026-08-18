@@ -38,4 +38,4 @@ These refinements reduce cognitive load and reinforce that Charging the Future i
 
 Post on Quora
 
-https://tiskillsnetwork.quora.com/How-Charging-the-Future-is-Making-Tools-for-Survivors-Clearer-and-More-Trustworthy-Building-technology-for-survivors-of
+https://skillseconomy.quora.com/How-Charging-the-Future-is-Making-Tools-for-Survivors-Clearer-and-More-Trustworthy-Building-technology-for-survivors-of

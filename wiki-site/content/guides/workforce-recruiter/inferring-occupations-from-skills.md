@@ -23,4 +23,4 @@ And it is a filtered view of TIs that demonstrate "intermediatory" skill level. 
 
 ---
 Post on Quora
-https://tiskillsnetwork.quora.com/Inferring-occupations-from-skills
+https://skillseconomy.quora.com/Inferring-occupations-from-skills
