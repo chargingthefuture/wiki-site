@@ -54,4 +54,4 @@ Reporting:
 - Mail Incident Tracking (LostMail)
 
 Post on Quora
-https://tiskillsnetwork.quora.com/Use-Cases-of-the-TI-Skills-Economy-the-only-way-to-exit-the-psyop-The-goal-of-the-TI-Skills-Economy-is-to-unite-the-5
+https://skillseconomy.quora.com/Use-Cases-of-the-TI-Skills-Economy-the-only-way-to-exit-the-psyop-The-goal-of-the-TI-Skills-Economy-is-to-unite-the-5
