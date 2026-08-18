@@ -61,4 +61,4 @@ Perhaps SocketRelay can revive the simplicity, serendipity and open market that 
 ---
 
 Post on Quora
-https://tiskillsnetwork.quora.com/The-Classifieds-Era-Ended-and-What-Replaced-It-and-What-TIs-Can-Use-Now-Craigslist-changed-local-commerce-forever-one
+https://skillseconomy.quora.com/The-Classifieds-Era-Ended-and-What-Replaced-It-and-What-TIs-Can-Use-Now-Craigslist-changed-local-commerce-forever-one

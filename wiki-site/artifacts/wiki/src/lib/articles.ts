@@ -1671,7 +1671,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Looking for a photographer or musician? Lisa Jaramilo",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-12-12",
-    "excerpt": "Shout out to Lisa Jaramillo, a talented musician and photographer. It is upsetting that because of the Speceterati (gang stalkers), you have lost the ability t...",
+    "excerpt": "Shout out to Lisa Jaramillo, a talented musician and photographer. It is upsetting that because of the Specterati (gang stalkers), you have lost the ability t...",
     "category": "Member of the Day",
     "collection": "member-of-the-day",
     "path": "member-of-the-day/looking-for-a-photographer-or-musician-lisa-jaramilo.md"
