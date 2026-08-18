@@ -17,4 +17,4 @@ Here are all the official channels:
 * Blog: https://github.com/chargingthefuture/mono/wiki
 * Code: https://github.com/chargingthefuture
 * Link in Bio: https://sleek.bio/farah
-* Quora: https://tiskillsnetwork.quora.com
+* Quora: https://skillseconomy.quora.com
