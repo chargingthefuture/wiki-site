@@ -91,4 +91,4 @@ https://app.chargingthefuture.com/apps/chyme/room/39f5a6a1-474b-4069-8105-4a2c9a
 
 ---
 Post on Quora
-https://tiskillsnetwork.quora.com/I-have-opened-the-rooms-below-in-Chyme-and-they-will-stay-open-24-7-Download-the-Chyme-Android-app-worlds-first-psyo
+https://skillseconomy.quora.com/I-have-opened-the-rooms-below-in-Chyme-and-they-will-stay-open-24-7-Download-the-Chyme-Android-app-worlds-first-psyo
