@@ -41,7 +41,7 @@ One: your notes are always private. Nobody but you ever sees them. Not shared, n
 
 Two: a private incident does not need a location. Add one only if you want it in your own record.
 
-Three: tagging an incident with problems or schemes requires a location, because tags only mean something on a map. And what sharing sends is grouped trend data only — the date, a rough area, and the tags. Never your notes, never your exact location. Sharing is off until you turn it on, and you can turn it off again per incident at any time.
+Three: tagging an incident with problems or schemes requires a location and trend sharing, because tags exist to feed the global map. What sharing sends is grouped trend data only — the date, a rough area, and the tags. Never your notes, never your exact location. An incident you keep untagged shares nothing unless you choose otherwise.
 
 Log privately forever and it is still worth it — that is job one. Share when you are ready and every entry makes the map sharper — that is job two. Both run on the same thirty seconds of logging.
 
