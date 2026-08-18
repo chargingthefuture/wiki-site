@@ -7,7 +7,7 @@ import { ShareLink } from "@/components/ShareLink";
 import { MarkdownRenderer } from "@/components/MarkdownRenderer";
 import { AppLoading } from "@/components/AppLoading";
 import { useArticle } from "@/hooks/use-article";
-import { ARTICLES } from "@/lib/articles";
+import { findArticle } from "@/lib/content";
 import { estimateReadTime } from "@/lib/utils";
 import { formatArticleDate } from "@/lib/dates";
 
@@ -27,7 +27,7 @@ export default function Article() {
   const { data: content, isLoading, isError } = useArticle(repo, slug);
 
   // Find meta data if it exists in our list
-  const meta = ARTICLES.find(a => a.slug === slug);
+  const meta = findArticle(slug);
   const readTime = content ? estimateReadTime(content.length) : meta ? estimateReadTime(meta.excerpt.length * 20) : 5;
 
   return (
