@@ -28,6 +28,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-addition-not-an-alternative",
+    "title": "An addition, not an alternative",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-17",
+    "excerpt": "A popular account says the Skills Economy is nonsense and the wise move is to keep quiet. Keep their safety tips. Then add a way out.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-addition-not-an-alternative.md",
+    "teaser": "A popular account called the Skills Economy nonsense. The same account teaches survivors real defensive skills, and I mean it when I say keep using those. But defense is not a plan, and what comes after years of keeping your head down, alone and broke, is despair — suicide, and for some, worse. I am not offering an alternative to defense. I am offering an addition: income, housing, rides, and people, built on the same economics the Specterati use. Calling that nonsense is free. Building it is not.",
+    "topics": [
+      "economy",
+      "solutions"
+    ]
+  },
+  {
     "slug": "how-the-math-works",
     "title": "How the math works",
     "repo": "chargingthefuture/wiki-site",
