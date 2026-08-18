@@ -1,7 +1,7 @@
 ---
 title: Chyme Unified Experience
 date: "2026-05-29"
-excerpt: "We merged Chyme chat and directory copy to a single design standard across Charging the Future. This means:"
+excerpt: "We merged Chyme chat and directory copy to a single design standard across Charging the Future."
 category: Updates
 slug: Product-Update-2026-05-29-Chyme-Unified-Experience
 repo: chargingthefuture/chargingthefuture

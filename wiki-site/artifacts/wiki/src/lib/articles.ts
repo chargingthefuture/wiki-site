@@ -1131,7 +1131,7 @@ export const ARTICLES: ArticleMeta[] = [
   },
   {
     "slug": "Product-Update-2026-05-29-Chyme-Modularity-Lighthouse-Standards",
-    "title": "Chyme gets modular, lighthouse passes web standards",
+    "title": "Chyme gets modular, Lighthouse passes web standards",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2026-05-29",
     "excerpt": "Chyme chat refactored for maintainability, web accessibility standards passed, GetStream dependencies removed.",
@@ -1144,7 +1144,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Chyme Unified Experience",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2026-05-29",
-    "excerpt": "We merged Chyme chat and directory copy to a single design standard across Charging the Future. This means:",
+    "excerpt": "We merged Chyme chat and directory copy to a single design standard across Charging the Future.",
     "category": "Updates",
     "collection": "product-updates",
     "path": "product-updates/Product-Update-2026-05-29-Chyme-Unified-Experience.md"
