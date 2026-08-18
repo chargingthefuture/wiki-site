@@ -58,6 +58,36 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "oldie-but-goodie-pam-dawson-t-tipton",
+    "title": "Oldie but Goodie: Skills, Solidarity, and Support",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-18",
+    "excerpt": "Pam Dawson and T. Tipton give real advice to survivors on Quora. Here are the directory profiles made for them, so finding each other no longer depends on Quora's discovery.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/oldie-but-goodie-pam-dawson-t-tipton.md",
+    "teaser": "Back in January I published a short post of shoutouts to survivors giving genuinely good advice on Quora, and said the list would grow. It grows today: Pam Dawson and T. Tipton, you are appreciated. Both now have community-generated profiles in the Directory — claimable by them any time, deletable on request — because finding survivors worth connecting with should not depend on Quora's discovery, which buries us.",
+    "topics": [
+      "directory",
+      "shoutouts"
+    ]
+  },
+  {
+    "slug": "Skills-Economy-Phone-Wallpapers",
+    "title": "Skills Economy Phone Wallpapers",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-18",
+    "excerpt": "Skills Economy wallpapers for your phone, downloadable from the same GitHub releases page as the Android app.",
+    "category": "Updates",
+    "collection": "posts",
+    "path": "posts/Skills-Economy-Phone-Wallpapers.md",
+    "teaser": "The Skills Economy logo is now a phone wallpaper. Two sizes — one for most Android phones, one for recent iPhones — on the same GitHub releases page where the Android app lives. Download the file that matches your phone, save it to your photos, and set it as your wallpaper.",
+    "topics": [
+      "wallpapers",
+      "brand"
+    ]
+  },
+  {
     "slug": "the-manifesto-seven-months-later",
     "title": "The manifesto, seven months later",
     "repo": "chargingthefuture/wiki-site",
