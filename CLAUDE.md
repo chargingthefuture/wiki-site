@@ -92,6 +92,25 @@ Rules that go with the table:
 - Never state or imply the owner reported their situation to any body. They have never reported to anyone; that fact is itself the under-reporting argument.
 - Progress posts follow a fixed shape with these definitions (first instance: the-manifesto-seven-months-later.md) so any two are comparable.
 
+## Snapshots vs Living Pages (owner decision, 2026-08-18)
+
+Two kinds of pages live in `posts/`, and they age differently:
+
+- Snapshot posts — arguments, announcements, progress posts. Frozen once published: never update
+  their numbers or wording (a dated record proves what was claimed and when). The manifesto and
+  the progress-post series are snapshots.
+- Living pages — standing references, kept current by editing in place. Currently two:
+  `old-links-new-links.md` and `Dictionary.md`. On every real update, bump the `date` field —
+  that moves the page to the top of the feed, which is how readers learn it changed — and, on
+  Dictionary, add a dated line to its "Latest changes" section (newest first). Each living page
+  opens with the same header line: "This is a living page. It is kept current, and its date
+  moves it to the top of the feed whenever it changes. Every change is on the public record in
+  the repository's history." The git history is the changelog; never silently rewrite one.
+
+When a term changes anywhere (product names, stats vocabulary, capability list), Dictionary is
+the page that changes — do not scatter definitions across new posts. Dated posts may still
+define terms in context; Dictionary is where the current version lives.
+
 ## Sign-Up Line in Posts (owner decision, 2026-08-18)
 
 Readers ask where to sign up; consumer apps need it explicit. Every post that invites participation ends with this exact block, verbatim, as the final paragraph — once per post, never in the body, never varied:

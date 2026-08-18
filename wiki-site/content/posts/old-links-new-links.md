@@ -11,7 +11,7 @@ topics:
 
 Quora has erased my accounts three times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
 
-This is the standing record of what is current and what is dead. It lives on the blog, so it survives anything that happens on any platform, and it gets updated whenever anything changes.
+This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
 ## The one address that does not change
 
