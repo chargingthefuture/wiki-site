@@ -68,3 +68,5 @@ I am fine with that. It means it stands out, and standing out is how the people 
 Watch the progress live in the Workforce feature, any hour of any day. The guide walks you through it at your own pace: https://app.chargingthefuture.com/guide#workforce
 
 The app is free. Keep every defensive tip you have ever learned. Then add something to defend.
+
+To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.

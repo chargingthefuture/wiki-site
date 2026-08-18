@@ -74,3 +74,5 @@ If you want to understand the feature at your own pace, the guide walks through 
 And if you have questions after that, chat with me live in the #general channel in the app.
 
 The app is free. If you have a skill, it is one of the 650, and someone here will need it. You do not have to agree with me about who is doing this or why. You have skills. You need work, housing, and rides. So does everyone else here. That is the whole pitch.
+
+To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.

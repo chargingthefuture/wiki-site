@@ -44,3 +44,5 @@ The manifesto said what we are exiting and why. These posts are the record of th
 Watch it move any day, any hour, in the Workforce feature. The guide walks you through it at your own pace: https://app.chargingthefuture.com/guide#workforce
 
 The app is free. If you have a skill, it is one of the 650, and the map has a square waiting for it.
+
+To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
