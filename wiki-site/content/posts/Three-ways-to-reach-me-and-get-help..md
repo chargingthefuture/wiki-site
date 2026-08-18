@@ -20,4 +20,4 @@ For app support or questions:
 ![image](https://github.com/user-attachments/assets/821b7409-aa2e-4fe8-982b-f152039e6241)
 
 Post on Quora
-https://tiskillsnetwork.quora.com/I-officially-closed-my-Quora-DMs-Three-ways-to-reach-me-and-get-help
+https://skillseconomy.quora.com/I-officially-closed-my-Quora-DMs-Three-ways-to-reach-me-and-get-help

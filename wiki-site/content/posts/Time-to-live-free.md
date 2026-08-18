@@ -44,4 +44,4 @@ To stop the Specterati, we need to focus on empowering individuals and building 
 The phrase "It takes a lot of effort not to be free" encourages a shift in perspective from one of constant effort and control to one of acceptance and natural flow. By applying this philosophy to the fight against human trafficking, we can focus on empowering individuals and building strong communities, rather than relying solely on legal and medical interventions. True freedom comes from letting go of control (fixating on the Specterati’s actions and pleading about them) and accepting our natural state, and this principle can guide us in creating a more just and equitable society.
 
 Post on Quora
-https://tiskillsnetwork.quora.com/Conforming-to-the-Specterrealm-a-domain-ruled-by-fear-and-intimidation-that-the-Specterati-have-created-is-unnatural
+https://skillseconomy.quora.com/Conforming-to-the-Specterrealm-a-domain-ruled-by-fear-and-intimidation-that-the-Specterati-have-created-is-unnatural

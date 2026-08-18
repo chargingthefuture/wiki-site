@@ -8,7 +8,7 @@ repo: chargingthefuture/chargingthefuture
 teaser: "Money laundering hides where funds come from — layered transactions, shell companies, secrecy for personal gain. A circular economy is the opposite: skills and materials kept in use locally, in the open, for collective benefit. One runs on concealment, the other on visible, reciprocal exchange. That difference is the whole point of the Skills Economy."
 ---
 
-The Specterati's [Money laundering](https://tiskillsnetwork.quora.com/Unidentifiable-https-www-quora-com-profile-Unidentifiable-20-got-it-right-They-are-paid-through-money-laundering) vs. TI Skills Economy’s circular economy, why they’re not the same thing
+The Specterati's [Money laundering](https://skillseconomy.quora.com/Unidentifiable-https-www-quora-com-profile-Unidentifiable-20-got-it-right-They-are-paid-through-money-laundering) vs. TI Skills Economy’s circular economy, why they’re not the same thing
 
 Money laundering hides the origin of funds, so illicit cash looks legitimate. It’s a deliberate, criminal process of layering transactions, moving money through shell companies or opaque services, and finally integrating it back into the economy as “clean” money. The goal is secrecy and personal gain.
 
@@ -29,4 +29,4 @@ Skills, Solidarity, and Support — 🤜🤛
 
 Post on Quora:
 
-https://tiskillsnetwork.quora.com/The-Specteratis-Money-laundering-https-tiskillsnetwork-quora-com-Unidentifiable-https-www-quora-com-profile-Unident
+https://skillseconomy.quora.com/The-Specteratis-Money-laundering-https-tiskillsnetwork-quora-com-Unidentifiable-https-www-quora-com-profile-Unident
