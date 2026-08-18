@@ -28,6 +28,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "the-manifesto-seven-months-later",
+    "title": "The manifesto, seven months later",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-18",
+    "excerpt": "The manifesto stays exactly as written — that is the point of a record. Here is what has moved in the seven months since.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/the-manifesto-seven-months-later.md",
+    "teaser": "In January I published a manifesto and said I had built a working answer for every one of the 51 problems survivors face. It stays exactly as written, numbers and all — a dated record proves more than a maintained page. What moved since: 36 sign-ups then; 41 approved members, 97 people on the skills map, and 453 followers now. No skills map at all then; today 158 of the 650 skills a working economy needs, worth $13.8 million a year if all 97 participated. First progress post in a repeating shape — put any two side by side and you will see the direction.",
+    "topics": [
+      "economy",
+      "progress"
+    ]
+  },
+  {
     "slug": "an-addition-not-an-alternative",
     "title": "An addition, not an alternative",
     "repo": "chargingthefuture/wiki-site",

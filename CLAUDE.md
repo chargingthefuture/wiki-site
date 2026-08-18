@@ -74,6 +74,24 @@ Full operator runbook: [wiki-site/PUBLISHING.md](wiki-site/PUBLISHING.md).
 - PR titles must match: concise, action-oriented, no random strings.
 - If a branch was created with a bad name, rename it before opening the PR: create a new descriptive branch from the same commits, open the PR from that, close the old one, delete the old branch.
 
+## Stats Vocabulary in Posts (always apply — owner directives, 2026-08-18)
+
+This is not a typical app, and agents keep framing its numbers the way a typical app would. That framing is wrong here every time. When writing or editing posts:
+
+| Term | Meaning | Source screen |
+|---|---|---|
+| Signed up / approved members | People who created their own account and were approved. The only number the 384 goal measures. Use "sign-ups" only when literally meaning this. | Unlock admin |
+| Recruited | People the owner researched individually — skills stated in their own words in public — and placed on the skills map with a community-generated directory profile (claimable; deletable on request; nobody has asked, and some were outraged at the suggestion). Capacity math runs on this number. | Workforce |
+| Community Value Index | Value actually exchanged and settled in the community, cumulative (since 2026-06-12). A relative index in the spirit of GDP. Never money, a price, or an exchange/redemption value. | Skills Economy — Live |
+| Value waiting to happen / GDP Projected | What the open posts on the board would add if every one closed. Most posts never close: interest, not achievement. Not part of the Community Value Index, and not money. | Skills Economy — Live |
+
+Rules that go with the table:
+
+- Never conflate signed-up and recruited. The gap between them is not people who declined — this community is in trauma, and engagement does not always look like signing up for another app.
+- Never frame low or zero figures with an underselling litany ("nothing has closed yet — not one job, not one ride"). A lot of work and activity happens that those figures do not capture. State a figure factually, the way the app's own screens do, and move on.
+- Never state or imply the owner reported their situation to any body. They have never reported to anyone; that fact is itself the under-reporting argument.
+- Progress posts follow a fixed shape with these definitions (first instance: the-manifesto-seven-months-later.md) so any two are comparable.
+
 ## Agent Slash Commands (always apply, every repo)
 
 Owner directive, 2026-08-17. Three routines are defined in `.claude/commands/` in the product repo (`chargingthefuture/chargingthefuture`). Each is the standing way to do its kind of work, and the owner does not have to type the slash command for it to apply — the request itself is the trigger. Two of the three apply here.
