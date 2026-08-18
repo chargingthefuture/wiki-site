@@ -27,4 +27,4 @@ They have punched me in the face twice — both of these scripted events played 
 Do not get distracted. EXIT THEIR ECONOMY, EXIT THE PSYOP.
 
 Post on Quora
-https://tiskillsnetwork.quora.com/Richard-Lane-https-www-quora-com-profile-Richard-Lane-405-EXIT-THEIR-ECONOMY-EXIT-THE-PSYOP-I-replied-to-the-be
+https://skillseconomy.quora.com/Richard-Lane-https-www-quora-com-profile-Richard-Lane-405-EXIT-THEIR-ECONOMY-EXIT-THE-PSYOP-I-replied-to-the-be

@@ -54,4 +54,4 @@ If you want, I’ll add you to the directory and help list your first skill righ
 
 Post on Quora
 
-https://tiskillsnetwork.quora.com/The-Specterati-money-launder-through-the-legitimate-means-of-the-global-economy-That-is-how-perps-are-paid-How-can-an
+https://skillseconomy.quora.com/The-Specterati-money-launder-through-the-legitimate-means-of-the-global-economy-That-is-how-perps-are-paid-How-can-an

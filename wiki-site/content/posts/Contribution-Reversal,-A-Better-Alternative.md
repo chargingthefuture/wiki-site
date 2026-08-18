@@ -32,4 +32,4 @@ _Landing page when the app is offline, waitlisting those who have not signed up 
 <img width="1920" alt="landing-page" src="https://github.com/user-attachments/assets/06787fed-905f-49a6-8c41-9d29022389d5" />
 
 Post on Quora
-https://tiskillsnetwork.quora.com/I-made-this-post-last-week-announcing-a-price-increase-A-Necessary-Step-to-Keep-Our-Platform-Running-https-github
+https://skillseconomy.quora.com/I-made-this-post-last-week-announcing-a-price-increase-A-Necessary-Step-to-Keep-Our-Platform-Running-https-github
