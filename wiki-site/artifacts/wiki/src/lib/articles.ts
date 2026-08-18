@@ -2549,7 +2549,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Book 2: Backyard Farming",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-18",
-    "excerpt": "Today I start Backyard Farming by Adams Media. This relates to the TI economy initiative of a gated community. And relying less on the Specerati for food. One…",
+    "excerpt": "Today I start Backyard Farming by Adams Media. This relates to the TI economy initiative of a gated community. And relying less on the Specterati for food. One…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/book-2-backyard-farming.md",
