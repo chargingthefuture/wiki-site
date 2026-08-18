@@ -9,7 +9,7 @@ topics:
   - dew
 ---
 
-DEW stands for directed energy weapon. It is the term survivors use for attacks you feel in your body with nothing visible in the room: heat, tones, pressure, shocks, vibration, forced wakefulness.
+DEW stands for directed energy weapon. It is the term survivors use for attacks you feel in your body with nothing visible in the room: heat, pressure, shocks, vibration, forced wakefulness.
 
 I have asked for a list like this before — on Quora, and on the old Discourse forum, where I wrote about [documenting DEW attacks globally alongside 24/7 vitals](https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate%2Fcollecting-vitals-24-7) and about [living with V2K for decades](https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate%2Fv2k-for-decades). Those platforms are gone or frozen; the asks went with them.
 
