@@ -12,7 +12,7 @@ teaser: "Very few get it, in my opinion — so here are my shoutouts to the surv
 
 Very few TIs get it, in my opinion of course, here are my shoutouts to those giving amazing advice on Quora. You are appreciated!
 
-_I will continuously update this post. Names in no particular order. _
+_I will continuously update this post. Names in no particular order._
 
 [Pam Dawson](https://www.quora.com/profile/Pam-Dawson-32)
 
