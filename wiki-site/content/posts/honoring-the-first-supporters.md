@@ -1,21 +1,21 @@
 ---
 title: "The People Who Backed This Publicly"
 date: "2026-08-18"
-excerpt: "Ten survivors spoke up for the Skills Economy on Quora. Their comments were deleted with the accounts. The record of who they are lives here."
+excerpt: "Ten of the earliest survivors to speak up for the Skills Economy on Quora. Their comments were deleted with the accounts. The record of who they are lives here."
 category: "Community"
-teaser: "Ten survivors publicly backed the Skills Economy on Quora — in comments, on their own pages, in the open where other targeted people could see it. Quora deleted the accounts those comments lived on, so the proof they offered is gone. What is not gone is who they are and what they do. Each was a Member of the Day; each has a directory profile; each post that introduced them is still here. This page names them, links their profiles, and asks them to say the word again if they want to."
+teaser: "Ten of the earliest survivors to back the Skills Economy publicly did it on Quora — in comments, on their own pages, in the open where other targeted people could see it. Quora deleted the accounts those comments lived on, so the proof they offered is gone. What is not gone is who they are and what they do. Each was a Member of the Day; each has a directory profile; each post that introduced them is still here. This page names them, links their profiles, and asks them to say the word again if they want to."
 topics:
   - members
   - directory
 ---
 
-Before there was much to point at, ten survivors put their names next to this thing in public. They commented in favor of the Skills Economy on Quora, on their own pages and under mine, where other targeted people could see it. That is the hardest kind of support to give — public, attached to your name, in a community where being visible costs something.
+Before there was much to point at, ten of the earliest supporters put their names next to this thing in public. They commented in favor of the Skills Economy on Quora, on their own pages and under mine, where other targeted people could see it. That is the hardest kind of support to give — public, attached to your name, in a community where being visible costs something.
 
 Those comments are gone. They lived on Quora accounts that Quora deleted, and the deletions took the whole thread with them. Someone arriving today sees a space with no visible history of people vouching for it.
 
 So the record moves here, where nothing gets deleted by a platform decision. Below is each person, what they do, the Member of the Day post that introduced them, and their directory profile. If you are on this list and you want to say it again somewhere it survives, the door is open — and if you would rather not, that is fine too; the profiles are claimable and removable on request.
 
-## The ten
+## Ten of the earliest
 
 [Holly D](https://www.quora.com/profile/Holly-D-192) — financial advisor. [Member of the Day post](https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/member%20of%20the%20day/looking-for-a-financial-advisor-meet-holly-d) · [Directory profile](https://app.chargingthefuture.com/apps/directory/profile/cf681670-b288-4b1d-b45d-c2a37b1984bf)
 
