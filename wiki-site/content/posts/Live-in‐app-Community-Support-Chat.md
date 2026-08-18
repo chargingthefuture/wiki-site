@@ -14,7 +14,7 @@ As seen in the weekly app stats, as of today, 57 people have signed up, with onl
 
 <img width="886" alt="Screenshot 2026-02-15 11 44 11 AM" src="https://github.com/user-attachments/assets/f1270158-15c6-4838-a923-ddf2cf7ef372" />
 
-To solve this problem, I have added live in-app chat. With this feature, anyone can post their questions and get a live response back from me, or any other community member who opts in to participate in the chat. As a global community, it is not possible for me to provide 24/7 customer support. With live chat, we can collectively get our questions answered faster and at any time zone. Anyone participating in the chat is doing so voluntarily. 
+To solve this problem, I have added live in-app chat. With this feature, anyone can post their questions and get a live response back from me, or any other community member who opts in to participate in the chat. As a global community, it is not possible for me to provide 24/7 customer support. With live chat, we can collectively get our questions answered faster and in any time zone. Anyone participating in the chat is doing so voluntarily. 
 
 ## Community Support Chat Guidelines:
 
@@ -28,4 +28,4 @@ Key Rules:
 
 <img width="1100" alt="Screenshot 2026-02-15 11 40 51 AM" src="https://github.com/user-attachments/assets/f0678f84-0f69-4b02-aa7d-a10df2f6ad56" />
 
-_Note: There are a few bugs in the chat, which I am working on. For example, the username says anonymous, but nothing is anonymous about the chat; I can see who sends any message, and working on fixing the UI issue. *Second, the close chat button comes and goes. This will also be fixed.*_
+_Note: There are a few bugs in the chat, which I am working on. For example, the username says anonymous, but nothing is anonymous about the chat; I can see who sends any message, and I am working on fixing the UI issue. *Second, the close chat button comes and goes. This will also be fixed.*_
