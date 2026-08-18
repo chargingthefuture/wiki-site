@@ -11,7 +11,7 @@ repo: chargingthefuture/chargingthefuture
 
 **2026-06-22**
 
-Android caught up to desktop this week. Ten features shipped to mobile.
+Android caught up to desktop this week. Eleven features shipped to mobile.
 
 ## What Shipped
 
