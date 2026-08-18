@@ -26,20 +26,9 @@ export function stripFrontMatter(markdown: string): string {
   return markdown.replace(FRONT_MATTER_RE, '');
 }
 
-// Slugs that changed after a link was already shared in public. The old URL
-// keeps resolving to the renamed article so nothing published elsewhere dies.
-const LEGACY_SLUGS: Record<string, string> = {
-  'honoring-the-first-supporters': 'honoring-the-earliest-supporters',
-};
-
 export function findArticle(slug: string): ArticleMeta | undefined {
   const exact = ARTICLES.find((a) => a.slug === slug);
   if (exact) return exact;
-  const renamed = LEGACY_SLUGS[slug];
-  if (renamed) {
-    const target = ARTICLES.find((a) => a.slug === renamed);
-    if (target) return target;
-  }
   // Alias fallback: links in the wild sometimes carry a wrong or outdated
   // folder prefix (e.g. discourse-migrate/v2k-for-decades when the real slug
   // is v2k-for-decades). Resolve by the final path segment when exactly one
