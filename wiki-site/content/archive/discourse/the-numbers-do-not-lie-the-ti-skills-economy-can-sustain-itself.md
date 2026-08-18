@@ -69,7 +69,7 @@ Website: <a href="https://chargingthefuture.com">Psyop-Free Economy | Survivor S
     </div>
   </div>
   <blockquote>
-    A Verified badge means that the community believes this member is likely a TI. An Unverified badge simply means the community has not done verification yet, but will. Non-Tls or perps are not permitted on the platform. And will be removed upon immediate discovery. All community members require verification. The length of time of verifying community members varies. Please use your best judgement at all times. The platform endorses noone. And this badge is simply to assist in making a determinatio…
+    A Verified badge means that the community believes this member is likely a TI. An Unverified badge simply means the community has not done verification yet, but will. Non-Tls or perps are not permitted on the platform. And will be removed upon immediate discovery. All community members require verification. The length of time of verifying community members varies. Please use your best judgement at all times. The platform endorses no one. And this badge is simply to assist in making a determinatio…
   </blockquote>
 </aside>
 
