@@ -27,7 +27,7 @@ Cohort rosters let you see who's in your Peer Programming group without guessing
 
 The membership fix makes sure cohorts run cleanly: everyone in your group has already completed their unlock, so you're all at the same starting point.
 
-The backend updates keep the platform stable and remove tools we no longer need. The Supabase move protects financial data in a private repository.
+The backend updates keep the platform stable and remove tools we no longer need. The Supabase move protects ledger data in a private repository.
 
 ## Get Started
 

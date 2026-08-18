@@ -15,7 +15,7 @@ repo: chargingthefuture/chargingthefuture
 
 Chat bubble colors now display properly on Android devices, using a consistent color convention so you can quickly identify who's speaking in the Commons or a Direct Line. Each person's messages appear in their assigned color.
 
-Skills Hunt paid-round rewards are now visible on mobile. When you complete a paid task, the reward amount shows directly in the interface so you know what you've earned without switching screens.
+Skills Hunt credit-round rewards are now visible on mobile. When you complete a credit-earning task, the reward amount shows directly in the interface so you know what you've earned without switching screens.
 
 ## Why It Matters
 
@@ -23,7 +23,7 @@ Mobile is how many survivors access Charging the Future. Clear visual distinctio
 
 ## How to Use
 
-No setup needed. Open the app on Android and your chat colors will appear automatically. When you complete a paid Skills Hunt round, the reward displays in the interface immediately.
+No setup needed. Open the app on Android and your chat colors will appear automatically. When you complete a credit-earning Skills Hunt round, the reward displays in the interface immediately.
 
 ---
 
