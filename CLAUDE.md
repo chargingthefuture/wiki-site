@@ -92,6 +92,14 @@ Rules that go with the table:
 - Never state or imply the owner reported their situation to any body. They have never reported to anyone; that fact is itself the under-reporting argument.
 - Progress posts follow a fixed shape with these definitions (first instance: the-manifesto-seven-months-later.md) so any two are comparable.
 
+## Sign-Up Line in Posts (owner decision, 2026-08-18)
+
+Readers ask where to sign up; consumer apps need it explicit. Every post that invites participation ends with this exact block, verbatim, as the final paragraph — once per post, never in the body, never varied:
+
+> To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
+
+The landing page, not the direct app URL: it explains before asking, and it still works (waitlist) when the app is offline. The sameness is the anti-salesy mechanism — a fixed block reads as documentation, a varied pitch reads as pressure. Archive entries, reference pages, and product updates do not carry it.
+
 ## Agent Slash Commands (always apply, every repo)
 
 Owner directive, 2026-08-17. Three routines are defined in `.claude/commands/` in the product repo (`chargingthefuture/chargingthefuture`). Each is the standing way to do its kind of work, and the owner does not have to type the slash command for it to apply — the request itself is the trigger. Two of the three apply here.
