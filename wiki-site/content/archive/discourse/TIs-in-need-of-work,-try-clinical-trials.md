@@ -35,4 +35,4 @@ I have done one study so far. Interestingly, the study I did did not involve med
 And I did a more detailed write-up on clinical trials here: https://github.com/chargingthefuture/mono/wiki/Overview-of-clinical-trials
 
 Post On Quora
-https://tiskillsnetwork.quora.com/How-does-one-maintain-employment-as-a-Targeted-Individual-Consider-healthy-volunteer-clinical-trials-The-most-I-have
+https://skillseconomy.quora.com/How-does-one-maintain-employment-as-a-Targeted-Individual-Consider-healthy-volunteer-clinical-trials-The-most-I-have

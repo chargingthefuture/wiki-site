@@ -4215,13 +4215,6 @@ export const ARTICLES: ArticleMeta[] = [
 // Helper to extract a clean URL component
 export const getArticleUrl = (repo: string, slug: string) => {
   const shortRepo = repo.split('/')[1] || repo;
-  // Encode each path segment but keep real slashes between them. GitHub
-  // Pages rejects %2F in a request path before the site's 404.html fallback
-  // can run, so a folder slug shared as one encoded segment dead-ends on the
-  // host's own 404 page.
-  const encodedSlug = slug
-    .split('/')
-    .map((segment) => encodeURIComponent(segment))
-    .join('/');
+  const encodedSlug = encodeURIComponent(slug);
   return `/article/${shortRepo}/${encodedSlug}`;
 };
