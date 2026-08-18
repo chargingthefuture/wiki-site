@@ -17,7 +17,7 @@ Title: TIs in need of work, try clinical trials
 Slug: tis-in-need-of-work-try-clinical-trials
 Created: 2025-09-20
 Updated: 2025-12-10
-Excerpt: Someone asked on Quora: \n\nHow do you maintain regular employment while experiencing gang stalking? \n\nNot possible. Another Targeted Individual taught me about healthy volunteer studies. It’s where pharma/clinical trial c&hellip;
+Excerpt: Someone asked on Quora: How do you maintain regular employment while experiencing gang stalking? Not possible. Another Targeted Individual taught me about healthy volunteer studies. It’s where pharma/clinical trial c&hellip;
 -->
 
 Someone asked on Quora:

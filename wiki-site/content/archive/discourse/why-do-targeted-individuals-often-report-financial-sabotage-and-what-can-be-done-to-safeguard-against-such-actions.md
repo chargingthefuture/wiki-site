@@ -24,5 +24,33 @@ Excerpt: Nothing at this point. They have bankrupted every one of us. They mob e
 
 > Nothing at this point. They have bankrupted every one of us. They mob every income stream. And any money you have will be spent defending yourself or needlessly spent. Which is why I purpose we form a circular economy am&hellip;
 
-<p>Nothing at this point. They have bankrupted every one of us. They mob every income stream. And any money you have will be spent defending yourself or needlessly spent. Which is why I purpose we form a circular economy amongst each other.</p>\n<p>One way to bleed us dry is to pay off mechanics to damage our cars. So we are always at a repair shop, always wasting money and time. How do we fix this? We cannot change the mind of gang stalkers. But with 1 million plus of us we have mechanics amongst us. TIs exchanging goods and services with other TIs is the only way.</p>\n<aside class="onebox allowlistedgeneric" data-onebox-src="https://www.quora.com/Why-do-targeted-individuals-often-report-financial-sabotage-and-what-can-be-done-to-safeguard-against-such-actions/answer/Farah-Brunache?ch=15&amp;oid=1477743884962400&amp;share=2d942beb&amp;srid=3UT8yW&amp;target_type=answer">\n  <header class="source">\n      <img src="images/why-do-targeted-individuals-often-report-financial-sabotage-and-what-can-be-done-to-safeguard-against-such-actions-9d4801c87fcbbf98c05563e1503322c6201d9171.png" class="site-icon" alt="" data-dominant-color="B92B27" width="256" height="256">\n\n      <a href="https://www.quora.com/Why-do-targeted-individuals-often-report-financial-sabotage-and-what-can-be-done-to-safeguard-against-such-actions/answer/Farah-Brunache?ch=15&amp;oid=1477743884962400&amp;share=2d942beb&amp;srid=3UT8yW&amp;target_type=answer" target="_blank" rel="noopener">Quora</a>\n  </header>\n\n  <article class="onebox-body">\n    \n\n<h3><a href="https://www.quora.com/Why-do-targeted-individuals-often-report-financial-sabotage-and-what-can-be-done-to-safeguard-against-such-actions/answer/Farah-Brunache?ch=15&amp;oid=1477743884962400&amp;share=2d942beb&amp;srid=3UT8yW&amp;target_type=answer" target="_blank" rel="noopener">Why do targeted individuals often report financial sabotage, and what can be...</a></h3>\n\n  <p>Answer: Nothing at this point. They have bankrupted every one of us. The mob every income stream. And any money you have will be spent defending yourself or needlessly spent. Which is why I purpose we form a circular economy amongst each other.\n\nA...</p>\n\n\n  </article>\n\n  <div class="onebox-metadata">\n    \n    \n  </div>\n\n  <div style="clear: both"></div>\n</aside>\n
+<p>Nothing at this point. They have bankrupted every one of us. They mob every income stream. And any money you have will be spent defending yourself or needlessly spent. Which is why I purpose we form a circular economy amongst each other.</p>
+<p>One way to bleed us dry is to pay off mechanics to damage our cars. So we are always at a repair shop, always wasting money and time. How do we fix this? We cannot change the mind of gang stalkers. But with 1 million plus of us we have mechanics amongst us. TIs exchanging goods and services with other TIs is the only way.</p>
+<aside class="onebox allowlistedgeneric" data-onebox-src="https://www.quora.com/Why-do-targeted-individuals-often-report-financial-sabotage-and-what-can-be-done-to-safeguard-against-such-actions/answer/Farah-Brunache?ch=15&amp;oid=1477743884962400&amp;share=2d942beb&amp;srid=3UT8yW&amp;target_type=answer">
+  <header class="source">
+      <img src="images/why-do-targeted-individuals-often-report-financial-sabotage-and-what-can-be-done-to-safeguard-against-such-actions-9d4801c87fcbbf98c05563e1503322c6201d9171.png" class="site-icon" alt="" data-dominant-color="B92B27" width="256" height="256">
+
+      <a href="https://www.quora.com/Why-do-targeted-individuals-often-report-financial-sabotage-and-what-can-be-done-to-safeguard-against-such-actions/answer/Farah-Brunache?ch=15&amp;oid=1477743884962400&amp;share=2d942beb&amp;srid=3UT8yW&amp;target_type=answer" target="_blank" rel="noopener">Quora</a>
+  </header>
+
+  <article class="onebox-body">
+    
+
+<h3><a href="https://www.quora.com/Why-do-targeted-individuals-often-report-financial-sabotage-and-what-can-be-done-to-safeguard-against-such-actions/answer/Farah-Brunache?ch=15&amp;oid=1477743884962400&amp;share=2d942beb&amp;srid=3UT8yW&amp;target_type=answer" target="_blank" rel="noopener">Why do targeted individuals often report financial sabotage, and what can be...</a></h3>
+
+  <p>Answer: Nothing at this point. They have bankrupted every one of us. The mob every income stream. And any money you have will be spent defending yourself or needlessly spent. Which is why I purpose we form a circular economy amongst each other.
+
+A...</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
 

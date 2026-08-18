@@ -24,5 +24,7 @@ Excerpt: Live life like you are not being gang stalked as much as possible. That
 
 > Live life like you are not being gang stalked as much as possible. That aside, when you can, connect with other TIs. It is hard as there are a lot of perps or TIs who do not want to meet. But real friends will make thing&hellip;
 
-<p>Live life like you are not being gang stalked as much as possible. That aside, when you can, connect with other TIs. It is hard as there are a lot of perps or TIs who do not want to meet. But real friends will make things better. I started TI Skills Network space on Quora to help us live better lives.</p>\n<p>This is also good advice: <a href="https://qr.ae/pCrHSk">https://qr.ae/pCrHSk</a>.</p>\n<p>Post on Quora: <a href="https://qr.ae/pCrHV5">https://qr.ae/pCrHV5</a></p>
+<p>Live life like you are not being gang stalked as much as possible. That aside, when you can, connect with other TIs. It is hard as there are a lot of perps or TIs who do not want to meet. But real friends will make things better. I started TI Skills Network space on Quora to help us live better lives.</p>
+<p>This is also good advice: <a href="https://qr.ae/pCrHSk">https://qr.ae/pCrHSk</a>.</p>
+<p>Post on Quora: <a href="https://qr.ae/pCrHV5">https://qr.ae/pCrHV5</a></p>
 

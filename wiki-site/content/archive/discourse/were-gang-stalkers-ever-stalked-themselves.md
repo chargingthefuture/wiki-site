@@ -24,5 +24,6 @@ Excerpt: This question makes no sense. Gang stalkers are “people,” and outsi
 
 > This question makes no sense. Gang stalkers are “people,” and outside of gang stalking, they experience typical human events. Gang stalking does NOT equal stalking; stalking is just a part of gang stalking. This question&hellip;
 
-<p>This question makes no sense. Gang stalkers are “people,” and outside of gang stalking, they experience typical human events. Gang stalking does NOT equal stalking; stalking is just a part of gang stalking. This question is like asking if a gang stalker ever had something stolen from them. Just because TIs have their things stolen during gang stalking doesn’t mean being a TI is the same as being a gang stalker. What is your real question? And why are you afraid to ask it directly?</p>\n<p>On Quora: <a href="https://qr.ae/pCnNuq">https://qr.ae/pCnNuq</a></p>
+<p>This question makes no sense. Gang stalkers are “people,” and outside of gang stalking, they experience typical human events. Gang stalking does NOT equal stalking; stalking is just a part of gang stalking. This question is like asking if a gang stalker ever had something stolen from them. Just because TIs have their things stolen during gang stalking doesn’t mean being a TI is the same as being a gang stalker. What is your real question? And why are you afraid to ask it directly?</p>
+<p>On Quora: <a href="https://qr.ae/pCnNuq">https://qr.ae/pCnNuq</a></p>
 

@@ -1,7 +1,7 @@
 ---
 title: Services for TIs you can use now!
 date: "2025-10-25"
-excerpt: What you can use to your betterment at this very moment! \nTI Database create a profile and be counted in a running list of TIs, disclose only what you want. \...
+excerpt: What you can use to your betterment at this very moment! TI Database create a profile and be counted in a running list of TIs, disclose only what you want. \...
 category: Discourse Community Legacy Post
 slug: Services-for-TIs-you-can-use-now!
 repo: chargingthefuture/chargingthefuture
@@ -17,7 +17,7 @@ Title: Services for TIs you can use now!
 Slug: services-for-tis-you-can-use-now
 Created: 2025-10-25
 Updated: 2025-10-25
-Excerpt: What you can use to your betterment at this very moment! \nTI Database create a profile and be counted in a running list of TIs, disclose only what you want. \nSupportMatch accountability partner matching. Match with a new&hellip;
+Excerpt: What you can use to your betterment at this very moment! TI Database create a profile and be counted in a running list of TIs, disclose only what you want. SupportMatch accountability partner matching. Match with a new&hellip;
 -->
 
 # What you can use now to get your autonomy back!
