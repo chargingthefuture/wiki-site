@@ -1,6 +1,6 @@
 ---
 title: Insights
-date: "2026-01-01"
+date: "2025-12-30"
 excerpt: Money Laundering vs a Circular Economy
 category: Insights
 slug: insights/insights

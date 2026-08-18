@@ -1,6 +1,6 @@
 ---
 title: "Use Cases of the TI Skills Economy: the only way to exit the psyop"
-date: "2026-01-01"
+date: "2025-12-28"
 excerpt: The goal of the TI Skills Economy is to unite the ~5 million TIs. There are enough TIs to box out the perps from our lives by working and living amongst TIs. I...
 category: Community
 slug: Use-Cases-of-the-TI-Skills-Economy:-the-only-way-to-exit-the-psyop

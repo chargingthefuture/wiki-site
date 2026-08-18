@@ -1,6 +1,6 @@
 ---
 title: What is the TI Skills Economy app?
-date: "2026-01-01"
+date: "2025-12-21"
 excerpt: An invite-only platform designed specifically for survivors of human trafficking, offering essential services and support with dignity, privacy, and respect.
 category: Community
 slug: What-is-the-TI-Skills-Economy-app?

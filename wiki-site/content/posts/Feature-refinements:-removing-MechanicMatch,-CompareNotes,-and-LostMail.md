@@ -1,6 +1,6 @@
 ---
 title: "Feature refinements: removing MechanicMatch, CompareNotes, and LostMail"
-date: "2026-01-01"
+date: "2026-02-10"
 excerpt: I have been reviewing the app's features and have decided to remove the apps MechanicMatch, CompareNotes, and LostMail as they are not being used.
 category: Community
 slug: Feature-refinements:-removing-MechanicMatch,-CompareNotes,-and-LostMail

@@ -1,6 +1,6 @@
 ---
 title: Look ma, I fixed it!
-date: "2026-01-01"
+date: "2025-12-28"
 excerpt: Nat Morris (TSE Profile) did a great write-up that lists the most common things the Specterati do to Targets.
 category: Community
 slug: Look-ma,-I-fixed-it!

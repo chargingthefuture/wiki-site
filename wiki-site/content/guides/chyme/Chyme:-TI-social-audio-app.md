@@ -1,6 +1,6 @@
 ---
 title: TI Skills Economy Town Hall Room
-date: "2026-01-01"
+date: "2025-12-27"
 excerpt: All members of the TI Skills Economy have access to Chyme, the dedicated Android app for social audio with other TIs. And you can host your own rooms!
 category: Guides
 slug: guides/chyme/Chyme:-TI-social-audio-app
