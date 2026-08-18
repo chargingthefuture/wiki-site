@@ -11,7 +11,7 @@ teaser: "I am reversing the price increase. The ask stays low, because taking aw
 I made this post last week, announcing a price increase:
 [A Necessary Step to Keep Our Platform Running](https://github.com/chargingthefuture/chargingthefuture/wiki/A-Necessary-Step-to-Keep-Our-Platform-Running).
 
-But have thought of a new idea.
+But I have thought of a new idea.
 
 Today, the Specterati sent a letter denying me public assistance, stating that I am actively receiving benefits in a different state and did not disclose which state I am allegedly receiving benefits from. In addition to this lie, they stated I visited their office this week in person, which did not happen, and also did not disclose who I allegedly met with and what topic was discussed.
 
