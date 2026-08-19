@@ -1,4 +1,5 @@
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect, useRef } from "react";
+import { useSearch, useLocation } from "wouter";
 import { motion } from "framer-motion";
 import { Search, Flame } from "lucide-react";
 import { Layout } from "@/components/Layout";
@@ -52,11 +53,39 @@ export default function Home() {
     });
   }, [searchQuery, activeCategory, activeCollection, listedArticles]);
 
-  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  // Paged, never an endless scroll or a Load More that cannot be walked back
+  // (accessibility rule, owner directive 2026-08-19). The page lives in the
+  // URL so a page can be linked and the back button steps through pages.
+  const search = useSearch();
+  const [, navigate] = useLocation();
+  const pageCount = Math.max(1, Math.ceil(filteredArticles.length / PAGE_SIZE));
+  const requested = Number(new URLSearchParams(search).get("page") ?? "1");
+  const page = Number.isFinite(requested)
+    ? Math.min(Math.max(Math.trunc(requested), 1), pageCount)
+    : 1;
+  const start = (page - 1) * PAGE_SIZE;
+  const visibleArticles = filteredArticles.slice(start, start + PAGE_SIZE);
+  const firstShown = filteredArticles.length === 0 ? 0 : start + 1;
+  const lastShown = start + visibleArticles.length;
+
+  // Changing a filter starts a new result set, so drop back to its first page.
+  // Skipped on mount: a link to /?page=3 has to land on page 3, not reset.
+  const filtersMounted = useRef(false);
   useEffect(() => {
-    setVisibleCount(PAGE_SIZE);
+    if (!filtersMounted.current) {
+      filtersMounted.current = true;
+      return;
+    }
+    if (new URLSearchParams(window.location.search).has("page")) {
+      navigate("/", { replace: true });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchQuery, activeCategory, activeCollection]);
-  const visibleArticles = filteredArticles.slice(0, visibleCount);
+
+  const goToPage = (next: number) => {
+    navigate(next === 1 ? "/" : `/?page=${next}`);
+    if (typeof window !== "undefined") window.scrollTo({ top: 0 });
+  };
 
   const selectCollection = (collection: string) => {
     setActiveCollection(collection);
@@ -172,19 +201,32 @@ export default function Home() {
                 </motion.div>
               ))}
             </div>
-            {filteredArticles.length > visibleCount && (
-              <div className="mt-12 flex flex-col items-center gap-3">
-                <div className="font-mono text-sm text-gray-500">
-                  Showing {visibleCount} of {filteredArticles.length}
-                </div>
-                <button
-                  onClick={() => setVisibleCount(c => c + PAGE_SIZE)}
-                  className="px-8 py-3 font-heading font-bold uppercase tracking-wider text-lg bg-black text-white border-2 border-gray-700 comic-shadow-sm hover:border-white hover:translate-y-[-2px] transition-all"
-                >
-                  Load More
-                </button>
+            <nav
+              className="mt-12 flex flex-col items-center gap-3"
+              aria-label="Listing pages"
+            >
+              <div className="font-mono text-sm text-gray-500">
+                Showing {firstShown}–{lastShown} of {filteredArticles.length} · page {page} of {pageCount}
               </div>
-            )}
+              {pageCount > 1 && (
+                <div className="flex items-center gap-3">
+                  <button
+                    onClick={() => goToPage(page - 1)}
+                    disabled={page === 1}
+                    className="px-6 py-3 font-heading font-bold uppercase tracking-wider text-lg bg-black text-white border-2 border-gray-700 comic-shadow-sm hover:border-white disabled:opacity-40 disabled:hover:border-gray-700 transition-all"
+                  >
+                    ← Previous
+                  </button>
+                  <button
+                    onClick={() => goToPage(page + 1)}
+                    disabled={page === pageCount}
+                    className="px-6 py-3 font-heading font-bold uppercase tracking-wider text-lg bg-black text-white border-2 border-gray-700 comic-shadow-sm hover:border-white disabled:opacity-40 disabled:hover:border-gray-700 transition-all"
+                  >
+                    Next →
+                  </button>
+                </div>
+              )}
+            </nav>
           </>
         ) : (
           <div className="py-20 text-center border-4 border-dashed border-gray-800 bg-card">
