@@ -16,9 +16,9 @@ import { formatArticleDate } from "@/lib/dates";
  * that predate the teaser field. Entries are numbered by publish order
  * (oldest is No. 1) so a reader can see how deep the catalog goes.
  *
- * Scope: the posts/ collection only. Product updates have their own rhythm
- * and the archives are a historical record; both stay reachable from the
- * home page filters.
+ * Scope: every collection — posts, product updates, guides, insights,
+ * member of the day, and the archives. Catching up means catching up on all
+ * of it; each entry carries its category so the kind of page is obvious.
  */
 
 interface FeedEntry {
@@ -28,11 +28,8 @@ interface FeedEntry {
 
 export default function Feed() {
   const entries = useMemo<FeedEntry[]>(() => {
-    const posts = ARTICLES.filter(
-      (a) => a.collection === "posts" && a.listed !== false
-    );
-    // ARTICLES is newest-first; number by publish order so the oldest is No. 1
-    // and the numbering of past posts never shifts as new ones are added.
+    const posts = ARTICLES.filter((a) => a.listed !== false);
+    // ARTICLES is newest-first; number by publish order so the oldest is No. 1.
     const total = posts.length;
     return posts.map((article, i) => ({ article, number: total - i }));
   }, []);
