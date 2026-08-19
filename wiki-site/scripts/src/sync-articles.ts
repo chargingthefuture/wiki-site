@@ -2,7 +2,8 @@
 /**
  * Scans wiki-site/content/ front matter and regenerates
  * artifacts/wiki/src/lib/articles.ts. Articles are sorted by date descending
- * (newest first).
+ * (newest first), and within a single date by when the file was first committed,
+ * so same-day posts keep their real publication order.
  *
  * The front matter of the content files is the single source of truth for the
  * article registry. There is no separate index file.
@@ -13,6 +14,7 @@
  */
 
 import { readFileSync, readdirSync, writeFileSync } from 'node:fs';
+import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { dirname, join, relative, resolve } from 'node:path';
 import { parseFrontMatter } from './frontmatter.js';
@@ -118,10 +120,38 @@ function collectArticles(): ArticleRecord[] {
   return articles;
 }
 
+/**
+ * First-commit timestamp of a content file, in seconds. Front-matter `date`
+ * carries no time, so posts published on the same day would otherwise be
+ * ordered alphabetically by slug — putting the day's newest post at the bottom
+ * of its group and renumbering older same-day posts whenever a new one lands.
+ * Returns 0 when git cannot answer (a file not committed yet, or no git), which
+ * sorts an unpublished draft to the end of its day.
+ */
+function firstCommitSeconds(relPath: string): number {
+  try {
+    const out = execFileSync(
+      'git',
+      ['log', '--follow', '--diff-filter=A', '--format=%at', '--', `content/${relPath}`],
+      { cwd: BLOG_ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] },
+    ).trim();
+    if (!out) return 0;
+    const lines = out.split('\n').filter(Boolean);
+    return Number(lines[lines.length - 1]) || 0;
+  } catch {
+    return 0;
+  }
+}
+
 function render(articles: ArticleRecord[]): string {
+  const publishedAt = new Map<string, number>();
+  for (const a of articles) publishedAt.set(a.path, firstCommitSeconds(a.path));
   const sorted = [...articles].sort((a, b) => {
     const diff = new Date(b.date).getTime() - new Date(a.date).getTime();
-    return diff !== 0 ? diff : a.slug.localeCompare(b.slug);
+    if (diff !== 0) return diff;
+    const byCommit = (publishedAt.get(b.path) ?? 0) - (publishedAt.get(a.path) ?? 0);
+    if (byCommit !== 0) return byCommit;
+    return a.slug.localeCompare(b.slug);
   });
 
   const blocks = sorted.map((a) => '  ' + JSON.stringify(a, null, 2).split('\n').join('\n  '));
