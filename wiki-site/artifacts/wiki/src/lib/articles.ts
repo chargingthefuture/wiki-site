@@ -148,6 +148,21 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "who-put-you-on-the-list",
+    "title": "It Does Not Matter Who Put You on the List",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-18",
+    "excerpt": "Every survivor gets a different story about who is doing this. The Skills Economy is built so that answer never has to be settled.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/who-put-you-on-the-list.md",
+    "teaser": "Who put you on the list matters to a point. After that, it stops mattering: once you are on it, every criminal group in reach joins, and they run the same schemes in rotation regardless of who started it. That is why the Skills Economy does not ask you to identify your persecutor before it can help you. It is built on the one thing none of them are exempt from — economics.",
+    "topics": [
+      "specterati",
+      "skills-economy"
+    ]
+  },
+  {
     "slug": "an-addition-not-an-alternative",
     "title": "An addition, not an alternative",
     "repo": "chargingthefuture/wiki-site",
