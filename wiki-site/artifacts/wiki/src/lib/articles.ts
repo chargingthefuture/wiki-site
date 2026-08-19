@@ -28,6 +28,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "deplatformed-keep-your-people",
+    "title": "Deplatformed Again — and What I Am Doing About It",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-19",
+    "excerpt": "Quora deleted two years of connections and content for the third time. Here is the new content strategy, and why your profile should not depend on an account you can lose.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/deplatformed-keep-your-people.md",
+    "teaser": "Quora deleted my account for the third time — two years of connections and content, gone with it. This blog did not move. So the strategy changed: everything I write is published here first, and platforms get an excerpt and a link. If you have been deplatformed too, the fix is the same for you as it is for me — a Directory profile in the Skills Economy, where your skills, your record, and the people who know you survive any account being deleted.",
+    "topics": [
+      "directory",
+      "deplatforming"
+    ]
+  },
+  {
     "slug": "socketrelay-v3-credits",
     "title": "SocketRelay Now Puts Something in Everyone's Hand",
     "repo": "chargingthefuture/wiki-site",
