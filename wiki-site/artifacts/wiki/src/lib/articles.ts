@@ -28,60 +28,30 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
-    "slug": "clicklog-your-record-and-the-record",
-    "title": "ClickLog: your record, and the record",
+    "slug": "socketrelay-v3-credits",
+    "title": "SocketRelay Now Puts Something in Everyone's Hand",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-08-18",
-    "excerpt": "One log, two uses: your private incident record, and the first real-time, self-reported global map of trafficker activity.",
+    "excerpt": "The needs board is the same idea it always was. What changed in v3: every member arrives with 100 ServiceCredits, so nobody starts with nothing to offer.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/clicklog-your-record-and-the-record.md",
-    "teaser": "ClickLog does two jobs with one entry. Privately, it is your incident record: dated, located if you choose, notes nobody but you ever sees — the record that lets you spot patterns and route around them. Shared, it becomes something that has never existed: real-time, self-reported global trend data on the movement of traffickers and their activities. The UN's own torture report said these allegations warrant investigation, and an investigation needs data. Three privacy rules cover all of it, and you control every one.",
+    "path": "posts/socketrelay-v3-credits.md",
+    "teaser": "The needs board has always worked the same way — post what you need, offer what you have. What changed in the current version of the app: every member who joins receives 100 ServiceCredits on day one. Being made destitute is the standard outcome of being targeted, and free-and-barter only goes so far when you have nothing left to barter with. Now nobody arrives empty-handed, and thanking another survivor properly is something anyone can do from the first day.",
     "topics": [
-      "clicklog",
-      "features"
+      "socketrelay",
+      "servicecredits"
     ]
   },
   {
-    "slug": "dew-attack-types",
-    "title": "The DEW List: Naming Every Kind of Attack",
+    "slug": "who-put-you-on-the-list",
+    "title": "It Does Not Matter Who Put You on the List",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-08-18",
-    "excerpt": "A working list of directed energy weapon (DEW) attack types, built to become ClickLog labels. Add the ones you experience by commenting in the Commons chat.",
+    "excerpt": "Every survivor gets a different story about who is doing this. The Skills Economy is built so that answer never has to be settled.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/dew-attack-types.md",
-    "teaser": "I have asked for this before — on Quora and on the old Discourse forum. This time the list has somewhere to live: each DEW attack type on it becomes a label in ClickLog, a new label category, so an incident can be tagged by the kind of attack and the pattern shows up on the global map. The list starts with only what I have documented myself. If you experience a type that is not on it, add it by commenting in the Commons group chat.",
-    "topics": [
-      "clicklog",
-      "dew"
-    ]
-  },
-  {
-    "slug": "Dictionary",
-    "title": "Dictionary: Skills Economy Terms",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-08-18",
-    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
-    "category": "Resources",
-    "collection": "posts",
-    "path": "posts/Dictionary.md",
-    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
-    "topics": [
-      "reference",
-      "terms"
-    ]
-  },
-  {
-    "slug": "economics-oppress-save",
-    "title": "The Economics That Oppress Us Can Save Us",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-18",
-    "excerpt": "A non-TI writer described the evolution of gangs into economic operators. He described a component of the Specterati — and pointed, without knowing it, at the way out.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/economics-oppress-save.md",
-    "teaser": "A writer who is not a Targeted Individual described how gangs evolved into organized criminals with real influence over social and economic matters. He was describing a component of what I call the Specterati. Many will say it is the government. Argue that if you like — what nobody can argue is that their operation runs on economics, and that it works. The secret-society talk is costume. The economics is the machine. And a machine we can copy is a machine we can counter.",
+    "path": "posts/who-put-you-on-the-list.md",
+    "teaser": "Who put you on the list matters to a point. After that, it stops mattering: once you are on it, every criminal group in reach joins, and they run the same schemes in rotation regardless of who started it. That is why the Skills Economy does not ask you to identify your persecutor before it can help you. It is built on the one thing none of them are exempt from — economics.",
     "topics": [
       "specterati",
       "skills-economy"
@@ -100,6 +70,36 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "members",
       "directory"
+    ]
+  },
+  {
+    "slug": "economics-oppress-save",
+    "title": "The Economics That Oppress Us Can Save Us",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-18",
+    "excerpt": "A non-TI writer described the evolution of gangs into economic operators. He described a component of the Specterati — and pointed, without knowing it, at the way out.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/economics-oppress-save.md",
+    "teaser": "A writer who is not a Targeted Individual described how gangs evolved into organized criminals with real influence over social and economic matters. He was describing a component of what I call the Specterati. Many will say it is the government. Argue that if you like — what nobody can argue is that their operation runs on economics, and that it works. The secret-society talk is costume. The economics is the machine. And a machine we can copy is a machine we can counter.",
+    "topics": [
+      "specterati",
+      "skills-economy"
+    ]
+  },
+  {
+    "slug": "dew-attack-types",
+    "title": "The DEW List: Naming Every Kind of Attack",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-18",
+    "excerpt": "A working list of directed energy weapon (DEW) attack types, built to become ClickLog labels. Add the ones you experience by commenting in the Commons chat.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/dew-attack-types.md",
+    "teaser": "I have asked for this before — on Quora and on the old Discourse forum. This time the list has somewhere to live: each DEW attack type on it becomes a label in ClickLog, a new label category, so an incident can be tagged by the kind of attack and the pattern shows up on the global map. The list starts with only what I have documented myself. If you experience a type that is not on it, add it by commenting in the Commons group chat.",
+    "topics": [
+      "clicklog",
+      "dew"
     ]
   },
   {
@@ -133,18 +133,18 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
-    "slug": "socketrelay-v3-credits",
-    "title": "SocketRelay Now Puts Something in Everyone's Hand",
+    "slug": "clicklog-your-record-and-the-record",
+    "title": "ClickLog: your record, and the record",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-08-18",
-    "excerpt": "The needs board is the same idea it always was. What changed in v3: every member arrives with 100 ServiceCredits, so nobody starts with nothing to offer.",
+    "excerpt": "One log, two uses: your private incident record, and the first real-time, self-reported global map of trafficker activity.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/socketrelay-v3-credits.md",
-    "teaser": "The needs board has always worked the same way — post what you need, offer what you have. What changed in the current version of the app: every member who joins receives 100 ServiceCredits on day one. Being made destitute is the standard outcome of being targeted, and free-and-barter only goes so far when you have nothing left to barter with. Now nobody arrives empty-handed, and thanking another survivor properly is something anyone can do from the first day.",
+    "path": "posts/clicklog-your-record-and-the-record.md",
+    "teaser": "ClickLog does two jobs with one entry. Privately, it is your incident record: dated, located if you choose, notes nobody but you ever sees — the record that lets you spot patterns and route around them. Shared, it becomes something that has never existed: real-time, self-reported global trend data on the movement of traffickers and their activities. The UN's own torture report said these allegations warrant investigation, and an investigation needs data. Three privacy rules cover all of it, and you control every one.",
     "topics": [
-      "socketrelay",
-      "servicecredits"
+      "clicklog",
+      "features"
     ]
   },
   {
@@ -163,18 +163,18 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
-    "slug": "who-put-you-on-the-list",
-    "title": "It Does Not Matter Who Put You on the List",
-    "repo": "chargingthefuture/wiki-site",
+    "slug": "Dictionary",
+    "title": "Dictionary: Skills Economy Terms",
+    "repo": "chargingthefuture/chargingthefuture",
     "date": "2026-08-18",
-    "excerpt": "Every survivor gets a different story about who is doing this. The Skills Economy is built so that answer never has to be settled.",
-    "category": "Community",
+    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
+    "category": "Resources",
     "collection": "posts",
-    "path": "posts/who-put-you-on-the-list.md",
-    "teaser": "Who put you on the list matters to a point. After that, it stops mattering: once you are on it, every criminal group in reach joins, and they run the same schemes in rotation regardless of who started it. That is why the Skills Economy does not ask you to identify your persecutor before it can help you. It is built on the one thing none of them are exempt from — economics.",
+    "path": "posts/Dictionary.md",
+    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
     "topics": [
-      "specterati",
-      "skills-economy"
+      "reference",
+      "terms"
     ]
   },
   {
