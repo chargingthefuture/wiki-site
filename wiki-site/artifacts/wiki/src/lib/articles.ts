@@ -28,6 +28,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "clicklog-trends-now-say-where",
+    "title": "The Trends Report Now Says Where",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-19",
+    "excerpt": "ClickLog's trend report used to count areas without naming them, and count incidents without counting people. Both are fixed, along with what the report will not show.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/clicklog-trends-now-say-where.md",
+    "teaser": "A note in a private file helps nobody but the person who wrote it, and a hundred separate notes are still a hundred separate notes. Tags turn them into something countable, and counted things can be shown to someone. ClickLog's trend report now names the areas instead of only counting them, counts how many different people are reporting rather than how many entries exist, and prints its own limits alongside its numbers — including everything it still cannot show.",
+    "topics": [
+      "clicklog",
+      "trends"
+    ]
+  },
+  {
     "slug": "deplatformed-keep-your-people",
     "title": "Deplatformed Again — and What I Am Doing About It",
     "repo": "chargingthefuture/wiki-site",
@@ -43,18 +58,18 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
-    "slug": "clicklog-trends-now-say-where",
-    "title": "The Trends Report Now Says Where",
+    "slug": "old-links-new-links",
+    "title": "Old links, new links",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-08-19",
-    "excerpt": "ClickLog's trend report used to count areas without naming them, and count incidents without counting people. Both are fixed, along with what the report will not show.",
+    "excerpt": "Three Quora accounts erased, one space renamed. What is current, what is dead, and the one address that does not change.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/clicklog-trends-now-say-where.md",
-    "teaser": "A note in a private file helps nobody but the person who wrote it, and a hundred separate notes are still a hundred separate notes. Tags turn them into something countable, and counted things can be shown to someone. ClickLog's trend report now names the areas instead of only counting them, counts how many different people are reporting rather than how many entries exist, and prints its own limits alongside its numbers — including everything it still cannot show.",
+    "path": "posts/old-links-new-links.md",
+    "teaser": "Quora has erased my accounts four times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. This page is the standing record: the current space, the current handle, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
     "topics": [
-      "clicklog",
-      "trends"
+      "publishing",
+      "platform-independence"
     ]
   },
   {
@@ -190,21 +205,6 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "economy",
       "progress"
-    ]
-  },
-  {
-    "slug": "old-links-new-links",
-    "title": "Old links, new links",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-18",
-    "excerpt": "Three Quora accounts erased, one space renamed. What is current, what is dead, and the one address that does not change.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/old-links-new-links.md",
-    "teaser": "Quora has erased my accounts three times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. This page is the standing record: the current space, the current handle, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
-    "topics": [
-      "publishing",
-      "platform-independence"
     ]
   },
   {
