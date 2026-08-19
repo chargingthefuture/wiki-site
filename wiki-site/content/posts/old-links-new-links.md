@@ -41,8 +41,6 @@ https://www.quora.com/profile/farah-brunache — my second handle. Its space was
 
 https://www.quora.com/profile/KingStyle-3 — my third handle. Deleted by Quora on August 17, 2026, the same day this page first went up. That account posted exactly two things in its life: short summaries of two blog posts, each with one link back here. No reposting, no volume, no back catalog. Two posts was enough.
 
-https://www.quora.com/profile/King-Boss-454 — my fourth handle. Not deleted: I replaced it myself on August 18, 2026, because the name carried a meaning I did not intend. Links to it are dead all the same.
-
 Nothing those accounts posted is lost. The posts are being restored to the archive section of this blog, each marked with the account it came from, the date it was originally posted, and a link to the original question where one still exists.
 
 ## Elsewhere: dead
