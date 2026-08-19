@@ -43,6 +43,21 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "clicklog-trends-now-say-where",
+    "title": "The Trends Report Now Says Where",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-19",
+    "excerpt": "ClickLog's trend report used to count areas without naming them, and count incidents without counting people. Both are fixed, along with what the report will not show.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/clicklog-trends-now-say-where.md",
+    "teaser": "A note in a private file helps nobody but the person who wrote it, and a hundred separate notes are still a hundred separate notes. Tags turn them into something countable, and counted things can be shown to someone. ClickLog's trend report now names the areas instead of only counting them, counts how many different people are reporting rather than how many entries exist, and prints its own limits alongside its numbers — including everything it still cannot show.",
+    "topics": [
+      "clicklog",
+      "trends"
+    ]
+  },
+  {
     "slug": "socketrelay-v3-credits",
     "title": "SocketRelay Now Puts Something in Everyone's Hand",
     "repo": "chargingthefuture/wiki-site",
