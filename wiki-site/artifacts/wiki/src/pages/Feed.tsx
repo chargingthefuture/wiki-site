@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { Link } from "wouter";
+import { Link, useSearch } from "wouter";
 import { Radio } from "lucide-react";
 import { Layout } from "@/components/Layout";
 import { ARTICLES, getArticleUrl, type ArticleMeta } from "@/lib/articles";
@@ -19,6 +19,9 @@ import { formatArticleDate } from "@/lib/dates";
  * Scope: every collection — posts, product updates, guides, insights,
  * member of the day, and the archives. Catching up means catching up on all
  * of it; each entry carries its category so the kind of page is obvious.
+ *
+ * Paged, never an endless scroll (owner directive, 2026-08-19). The page
+ * number lives in the URL so a page can be linked and the back button works.
  */
 
 interface FeedEntry {
@@ -26,13 +29,27 @@ interface FeedEntry {
   number: number;
 }
 
+const PER_PAGE = 25;
+
 export default function Feed() {
+  const search = useSearch();
+
   const entries = useMemo<FeedEntry[]>(() => {
     const posts = ARTICLES.filter((a) => a.listed !== false);
     // ARTICLES is newest-first; number by publish order so the oldest is No. 1.
     const total = posts.length;
     return posts.map((article, i) => ({ article, number: total - i }));
   }, []);
+
+  const pageCount = Math.max(1, Math.ceil(entries.length / PER_PAGE));
+  const requested = Number(new URLSearchParams(search).get("page") ?? "1");
+  const page = Number.isFinite(requested)
+    ? Math.min(Math.max(Math.trunc(requested), 1), pageCount)
+    : 1;
+  const start = (page - 1) * PER_PAGE;
+  const pageEntries = entries.slice(start, start + PER_PAGE);
+  const firstShown = start + 1;
+  const lastShown = start + pageEntries.length;
 
   return (
     <Layout>
@@ -52,10 +69,13 @@ export default function Feed() {
             The short version of every post, newest first. Each one stands on
             its own. "Read the full post" goes to the whole argument.
           </p>
+          <p className="font-mono text-sm text-gray-400 mt-4">
+            Showing {firstShown}–{lastShown} of {entries.length} · page {page} of {pageCount}
+          </p>
         </div>
 
         <ol className="space-y-8" reversed>
-          {entries.map(({ article, number }) => (
+          {pageEntries.map(({ article, number }) => (
             <li key={article.slug}>
               <article className="comic-panel bg-card relative overflow-hidden">
                 <div className="absolute inset-0 bg-halftone opacity-20 pointer-events-none mix-blend-overlay"></div>
@@ -85,6 +105,37 @@ export default function Feed() {
             </li>
           ))}
         </ol>
+
+        <nav
+          className="mt-12 flex flex-wrap items-center justify-between gap-4"
+          aria-label="Feed pages"
+        >
+          {page > 1 ? (
+            <Link
+              href={page - 1 === 1 ? "/feed" : `/feed?page=${page - 1}`}
+              className="font-heading text-lg uppercase font-bold px-4 py-2 bg-card border-2 border-gray-800 text-white hover:border-white"
+            >
+              ← Newer
+            </Link>
+          ) : (
+            <span />
+          )}
+
+          <span className="font-mono text-sm text-gray-400">
+            Page {page} of {pageCount}
+          </span>
+
+          {page < pageCount ? (
+            <Link
+              href={`/feed?page=${page + 1}`}
+              className="font-heading text-lg uppercase font-bold px-4 py-2 bg-card border-2 border-gray-800 text-white hover:border-white"
+            >
+              Older →
+            </Link>
+          ) : (
+            <span />
+          )}
+        </nav>
       </section>
     </Layout>
   );

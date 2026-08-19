@@ -92,6 +92,14 @@ Rules that go with the table:
 - Never state or imply the owner reported their situation to any body. They have never reported to anyone; that fact is itself the under-reporting argument.
 - Progress posts follow a fixed shape with these definitions (first instance: the-manifesto-seven-months-later.md) so any two are comparable.
 
+## Pagination, Never Endless Scroll (owner directive, 2026-08-19)
+
+Any list that can grow — the feed, the home listing, an archive index, anything added later —
+is paged. Never an endless scroll, and never a page that renders its whole collection at once.
+Put the page number in the URL (`/feed?page=3`) so a page can be linked and the back button
+works, show which range of how many is on screen, and clamp an out-of-range page number rather
+than showing nothing.
+
 ## Snapshots vs Living Pages (owner decision, 2026-08-18)
 
 Two kinds of pages live in `posts/`, and they age differently:
