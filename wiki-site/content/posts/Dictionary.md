@@ -15,7 +15,7 @@ This is a living page. It is kept current, and its date moves it to the top of t
 
 ## Latest changes
 
-2026-08-20 — Every capability in the table now links straight to it in the app, with its guide section beside it. Unlock added to the table — it was missing, and it is the door every member comes through. Mutual Time and Bug Reporting have no member-reachable page of their own, so they are listed without a link. Unlock has no guide section yet, so its guide cell is a dash.
+2026-08-20 — Every capability in the table now links straight to it in the app, with its guide section beside it. Unlock added to the table — it was missing, and it is the door every member comes through. Every capability now has a guide section, so every row links to one. Mutual Time and Bug Reporting have no page of their own to open, so those two carry their guide section alone.
 
 2026-08-18 — Full refresh. Skills Economy naming (the TSE abbreviation is retired). The member-count vocabulary added (signed up, recruited, Community Value Index, Value waiting to happen). ClickLog vocabulary added. The capability table rebuilt to match the app as it runs today; retired capabilities removed.
 
@@ -91,7 +91,7 @@ DEW — Directed Energy Weapon.
 
 | Capability | What it is | Guide |
 |---|---|---|
-| [Unlock](https://app.chargingthefuture.com/plugin/unlock) | Verification — how a new member gets approved to use the app | — |
+| [Unlock](https://app.chargingthefuture.com/plugin/unlock) | Verification — how a new member gets approved to use the app | [guide](https://app.chargingthefuture.com/guide#unlock) |
 | [Directory](https://app.chargingthefuture.com/apps/directory) | Browse skills across the survivor community | [guide](https://app.chargingthefuture.com/guide#directory) |
 | [Workforce](https://app.chargingthefuture.com/apps/workforce) | Real-time work and skills distribution; the recruited count and capacity math live here | [guide](https://app.chargingthefuture.com/guide#workforce) |
 | [Skills Taxonomy](https://app.chargingthefuture.com/apps/skills-taxonomy) | The shared catalog of sectors, job titles, and skills | [guide](https://app.chargingthefuture.com/guide#skills-taxonomy) |
@@ -113,8 +113,8 @@ DEW — Directed Energy Weapon.
 | [Knowledge Library](https://app.chargingthefuture.com/knowledge) | Lend your own public writing so the assistant answers from more than one voice | [guide](https://app.chargingthefuture.com/guide#knowledge) |
 | [Contributions](https://app.chargingthefuture.com/apps/contributions) | Voluntary fundraiser drives with credit thank-you grants | [guide](https://app.chargingthefuture.com/guide#contributions) |
 | [Recurring Activity](https://app.chargingthefuture.com/apps/recurring-activity) | One-tap acknowledgment of an ongoing tie with another member — never a bill | [guide](https://app.chargingthefuture.com/guide#recurring-activity) |
-| Mutual Time | Find a meeting time everyone can make | — |
-| Bug Reporting | In-app problem reports; raw text stays private, a human approves any fix | — |
+| Mutual Time | Find a meeting time everyone can make | [guide](https://app.chargingthefuture.com/guide#mutual-time) |
+| Bug Reporting | In-app problem reports; raw text stays private, a human approves any fix | [guide](https://app.chargingthefuture.com/guide#bug-reporting) |
 
 Retired capabilities keep their names only in old posts, as historical record: MechanicMatch, CompareNotes, LostMail, GentlePulse, SupportMatch, Feed.
 
