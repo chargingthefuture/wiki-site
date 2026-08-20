@@ -28,6 +28,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-steph-wo",
+    "title": "An Invitation to Steph Wo.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-20",
+    "excerpt": "A fine art degree, a piano, thirty-four years of riding, a career ended early by the targeting — and every one of them a square on a map already a quarter filled.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-steph-wo.md",
+    "teaser": "Steph Wo.'s Quora bio is a list of what the targeting interrupted: a BFA in fine art and English, a philosophy minor, architectural drafting, classical piano, modern creative dance, running, thirty-four years riding their own motorcycle, and a career that ended in early retirement rather than by choice. The bio then asks: what past, what dreams? The app carries a catalog of about 650 skills a working economy of this size needs, and the community now covers 159 of them — a quarter of the map. Fine art is on it. So is drafting. This is an invitation to put them back to use among people who are not going to take them again.",
+    "topics": [
+      "members",
+      "skills-economy"
+    ]
+  },
+  {
     "slug": "transactional-on-purpose",
     "title": "Transactional on Purpose",
     "repo": "chargingthefuture/wiki-site",
@@ -55,21 +70,6 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "reference",
       "terms"
-    ]
-  },
-  {
-    "slug": "an-invitation-to-steph-wo",
-    "title": "An Invitation to Steph Wo.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-20",
-    "excerpt": "A fine art degree, a piano, thirty-four years of riding, a career ended early by the targeting — and every one of them a square on a map already a quarter filled.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/an-invitation-to-steph-wo.md",
-    "teaser": "Steph Wo.'s Quora bio is a list of what the targeting interrupted: a BFA in fine art and English, psychology alongside it, a philosophy minor, architectural drafting, classical piano, modern creative dance, running, thirty-four years riding their own motorcycle, and a career that ended in early retirement rather than by choice. The bio then asks: what past, what dreams? The app carries a catalog of about 650 job titles and skills that a working economy of this size needs. The community covers 158 of them — a quarter of the map. Fine art is on it. So is drafting. So is teaching an instrument. This is an invitation to put them back to use among people who are not going to take them again.",
-    "topics": [
-      "members",
-      "skills-economy"
     ]
   },
   {

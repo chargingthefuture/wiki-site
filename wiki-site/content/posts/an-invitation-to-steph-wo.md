@@ -3,7 +3,7 @@ title: "An Invitation to Steph Wo."
 date: "2026-08-20"
 excerpt: "A fine art degree, a piano, thirty-four years of riding, a career ended early by the targeting — and every one of them a square on a map already a quarter filled."
 category: "Community"
-teaser: "Steph Wo.'s Quora bio is a list of what the targeting interrupted: a BFA in fine art and English, psychology alongside it, a philosophy minor, architectural drafting, classical piano, modern creative dance, running, thirty-four years riding their own motorcycle, and a career that ended in early retirement rather than by choice. The bio then asks: what past, what dreams? The app carries a catalog of about 650 job titles and skills that a working economy of this size needs. The community covers 158 of them — a quarter of the map. Fine art is on it. So is drafting. So is teaching an instrument. This is an invitation to put them back to use among people who are not going to take them again."
+teaser: "Steph Wo.'s Quora bio is a list of what the targeting interrupted: a BFA in fine art and English, a philosophy minor, architectural drafting, classical piano, modern creative dance, running, thirty-four years riding their own motorcycle, and a career that ended in early retirement rather than by choice. The bio then asks: what past, what dreams? The app carries a catalog of about 650 skills a working economy of this size needs, and the community now covers 159 of them — a quarter of the map. Fine art is on it. So is drafting. This is an invitation to put them back to use among people who are not going to take them again."
 topics:
   - members
   - skills-economy
@@ -19,11 +19,11 @@ Then it asks: what past, what dreams?
 
 The app carries a catalog of roughly 650 job titles and skills — the full set a working economy of about five million people needs, built against a country of that size. It is the same list every profile is mapped against.
 
-Right now, 97 people cover 158 of those 650. A quarter of the map is filled.
+Right now, 99 people cover 159 of those 650. The app puts what that means in its own words: twenty-four percent of the skills potential of an independent nation state like Finland, Estonia, or Singapore. A quarter of the map is filled — and it is worth saying plainly that nobody here is forming a nation state. Those countries are the yardstick, nothing more.
 
 Fine art is a square on that map. So is English. So is architectural drafting. So is teaching an instrument, and so is the kind of physical discipline that keeps someone running and riding for three decades. Not one of those is a hobby that has to wait for the targeting to end first.
 
-To be exact about the number, because these two get conflated everywhere else: 97 is people researched and placed on the skills map, not people who have signed up. Signed-up-and-approved members are a smaller number. Both are real, and neither substitutes for the other.
+To be exact about the number, because these two get conflated everywhere else: 99 is people researched and placed on the skills map, not people who have signed up. Signed-up-and-approved members are a smaller number. Both are real, and neither substitutes for the other.
 
 ## What resuming actually looks like here
 
@@ -32,6 +32,12 @@ Not a support group, and not a place to describe the targeting again to people w
 That is the whole mechanism, and it is deliberately transactional. Traffickers do not provide material help — it is the one thing they consistently will not do — so a place organised around handing each other something real filters them out before anyone has to accuse anybody.
 
 Which is the part of this that matters for a bio like that one. The skills were not lost. They were made unusable by the people around them. Put them somewhere those people are not, and they work again.
+
+## The profile is already there
+
+There is a directory profile for Steph Wo. in the app: [app.chargingthefuture.com/apps/directory/profile/344363df-68fa-4992-8d81-435a0e377a78](https://app.chargingthefuture.com/apps/directory/profile/344363df-68fa-4992-8d81-435a0e377a78)
+
+The app labels it community-generated and names who made it, because I made it rather than its subject. It exists so other survivors can find them by what they can do. Steph, it is yours: claim it by creating an account, or tell me to delete it and it goes. Nobody who has been asked has wanted theirs removed, but the offer is real either way.
 
 ## Where to find it in the app
 
