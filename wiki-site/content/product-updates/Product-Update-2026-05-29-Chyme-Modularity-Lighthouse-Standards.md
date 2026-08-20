@@ -1,5 +1,5 @@
 ---
-title: Chyme gets modular, lighthouse passes web standards
+title: Chyme gets modular, Lighthouse passes web standards
 date: "2026-05-29"
 excerpt: Chyme chat refactored for maintainability, web accessibility standards passed, GetStream dependencies removed.
 category: Updates

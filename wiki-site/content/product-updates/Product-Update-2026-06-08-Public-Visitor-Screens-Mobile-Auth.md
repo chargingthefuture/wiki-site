@@ -19,7 +19,7 @@ We've completed two major capability rollouts:
 All plugins now have bespoke public visitor pages. This means you can preview what each tool does—like Skills Hunt, Mood, Peer Programming, and Trust Signal—without creating an account first. Explore at your own pace and decide what's right for you.
 
 ### Mobile Sign-In
-Mobile users now sign in through Clerk OAuth, a industry-standard authentication method that's faster and more secure than previous approaches. No more friction getting started on phone or tablet.
+Mobile users now sign in through Clerk OAuth, an industry-standard authentication method that's faster and more secure than previous approaches. No more friction getting started on phone or tablet.
 
 ## Why It Matters
 
