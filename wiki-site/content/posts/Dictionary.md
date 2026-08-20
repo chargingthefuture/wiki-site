@@ -1,6 +1,6 @@
 ---
 title: "Dictionary: Skills Economy Terms"
-date: "2026-08-18"
+date: "2026-08-20"
 excerpt: "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record."
 category: "Resources"
 slug: Dictionary
@@ -14,6 +14,8 @@ topics:
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
 ## Latest changes
+
+2026-08-20 — Every capability in the table now links straight to it in the app, with its guide section beside it. Mutual Time and Bug Reporting have no member-reachable page of their own, so they are listed without a link.
 
 2026-08-18 — Full refresh. Skills Economy naming (the TSE abbreviation is retired). The member-count vocabulary added (signed up, recruited, Community Value Index, Value waiting to happen). ClickLog vocabulary added. The capability table rebuilt to match the app as it runs today; retired capabilities removed.
 
@@ -87,32 +89,32 @@ DEW — Directed Energy Weapon.
 
 ## Capabilities in the app today
 
-| Capability | What it is |
-|---|---|
-| Directory | Browse skills across the survivor community |
-| Workforce | Real-time work and skills distribution; the recruited count and capacity math live here |
-| Skills Taxonomy | The shared catalog of sectors, job titles, and skills |
-| SkillsHunt | Nominate survivors to build the Directory |
-| Foundation | Find talent, tools, repairs, and infrastructure support in real time |
-| Chyme | Live social audio rooms |
-| Beacon | Live one-way broadcasts; watch publicly with a link |
-| SocketRelay | Real-time resource sharing across the network |
-| TrustTransport | Vetted rides — drivers screened by the community, for the community |
-| LightHouse | Community housing listings from trauma-informed hosts |
-| PeerProgramming | Weekly global mastermind sessions |
-| LevelUp | Paid skills-training cohorts with milestone stipends |
-| ServiceCredits | The credits exchange (see Value and credits above) |
-| GDP | The live economic tracker: Community Value Index and Value waiting to happen |
-| Trust | Community reputation built through real participation |
-| ClickLog | Incident logging — private record and shared trend data (see ClickLog vocabulary above) |
-| Mood | Anonymous mood tracking and pattern awareness |
-| WhatWorks | One shared, survivor-verified list of tools, organized by problem |
-| Knowledge Library | Lend your own public writing so the assistant answers from more than one voice |
-| Contributions | Voluntary fundraiser drives with credit thank-you grants |
-| Recurring Activity | One-tap acknowledgment of an ongoing tie with another member — never a bill |
-| Mutual Time | Find a meeting time everyone can make |
-| Bug Reporting | In-app problem reports; raw text stays private, a human approves any fix |
+| Capability | What it is | Guide |
+|---|---|---|
+| [Directory](https://app.chargingthefuture.com/apps/directory) | Browse skills across the survivor community | [guide](https://app.chargingthefuture.com/guide#directory) |
+| [Workforce](https://app.chargingthefuture.com/apps/workforce) | Real-time work and skills distribution; the recruited count and capacity math live here | [guide](https://app.chargingthefuture.com/guide#workforce) |
+| [Skills Taxonomy](https://app.chargingthefuture.com/apps/skills-taxonomy) | The shared catalog of sectors, job titles, and skills | [guide](https://app.chargingthefuture.com/guide#skills-taxonomy) |
+| [SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt) | Nominate survivors to build the Directory | [guide](https://app.chargingthefuture.com/guide#skills-hunt) |
+| [Foundation](https://app.chargingthefuture.com/apps/foundation) | Find talent, tools, repairs, and infrastructure support in real time | [guide](https://app.chargingthefuture.com/guide#foundation) |
+| [Chyme](https://app.chargingthefuture.com/apps/chyme) | Live social audio rooms | [guide](https://app.chargingthefuture.com/guide#chyme) |
+| [Beacon](https://app.chargingthefuture.com/apps/beacon) | Live one-way broadcasts; watch publicly with a link | [guide](https://app.chargingthefuture.com/guide#beacon) |
+| [SocketRelay](https://app.chargingthefuture.com/apps/socket-relay) | Real-time resource sharing across the network | [guide](https://app.chargingthefuture.com/guide#socket-relay) |
+| [TrustTransport](https://app.chargingthefuture.com/apps/trust-transport) | Vetted rides — drivers screened by the community, for the community | [guide](https://app.chargingthefuture.com/guide#trust-transport) |
+| [LightHouse](https://app.chargingthefuture.com/apps/lighthouse) | Community housing listings from trauma-informed hosts | [guide](https://app.chargingthefuture.com/guide#lighthouse) |
+| [PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming) | Weekly global mastermind sessions | [guide](https://app.chargingthefuture.com/guide#peer-programming) |
+| [LevelUp](https://app.chargingthefuture.com/apps/level-up) | Paid skills-training cohorts with milestone stipends | [guide](https://app.chargingthefuture.com/guide#level-up) |
+| [ServiceCredits](https://app.chargingthefuture.com/apps/service-credits) | The credits exchange (see Value and credits above) | [guide](https://app.chargingthefuture.com/guide#service-credits) |
+| [GDP](https://app.chargingthefuture.com/apps/gdp) | The live economic tracker: Community Value Index and Value waiting to happen | [guide](https://app.chargingthefuture.com/guide#gdp) |
+| [Trust](https://app.chargingthefuture.com/apps/trust) | Community reputation built through real participation | — |
+| [ClickLog](https://app.chargingthefuture.com/apps/click-log) | Incident logging — private record and shared trend data (see ClickLog vocabulary above) | [guide](https://app.chargingthefuture.com/guide#click-log) |
+| [Mood](https://app.chargingthefuture.com/apps/mood) | Anonymous mood tracking and pattern awareness | [guide](https://app.chargingthefuture.com/guide#mood) |
+| [WhatWorks](https://app.chargingthefuture.com/apps/what-works) | One shared, survivor-verified list of tools, organized by problem | [guide](https://app.chargingthefuture.com/guide#what-works) |
+| [Knowledge Library](https://app.chargingthefuture.com/knowledge) | Lend your own public writing so the assistant answers from more than one voice | — |
+| [Contributions](https://app.chargingthefuture.com/apps/contributions) | Voluntary fundraiser drives with credit thank-you grants | [guide](https://app.chargingthefuture.com/guide#contributions) |
+| [Recurring Activity](https://app.chargingthefuture.com/apps/recurring-activity) | One-tap acknowledgment of an ongoing tie with another member — never a bill | [guide](https://app.chargingthefuture.com/guide#recurring-activity) |
+| Mutual Time | Find a meeting time everyone can make | — |
+| Bug Reporting | In-app problem reports; raw text stays private, a human approves any fix | — |
 
 Retired capabilities keep their names only in old posts, as historical record: MechanicMatch, CompareNotes, LostMail, GentlePulse, SupportMatch, Feed.
 
-If a term is missing or wrong, say so in the app's Commons chat — this page changes the same day.
+If a term is missing or wrong, say so in the app's [Commons chat](https://app.chargingthefuture.com) — this page changes the same day.
