@@ -45,4 +45,10 @@ Watch it move any day, any hour, in the Workforce feature. The guide walks you t
 
 The app is free. If you have a skill, it is one of the 650, and the map has a square waiting for it.
 
+## Where to find it in the app
+
+- [Workforce](https://app.chargingthefuture.com/apps/workforce) — [guide](https://app.chargingthefuture.com/guide#workforce)
+- [Skills Taxonomy](https://app.chargingthefuture.com/apps/skills-taxonomy) — [guide](https://app.chargingthefuture.com/guide#skills-taxonomy)
+- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
+
 To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.

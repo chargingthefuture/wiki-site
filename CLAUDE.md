@@ -175,7 +175,11 @@ is generated from `ctf/packages/web/app/guide/guide-content.json` in the product
 rather than guessing. A part with no guide section gets the plugin link alone; never invent an
 anchor, since a wrong one lands the reader on the guide's top with no explanation.
 
-Snapshot posts are exempt: they are frozen once published. Living pages are not exempt.
+Snapshot posts get the section too (owner decision, 2026-08-20). Adding links changes none of a
+snapshot's numbers or wording, and its claims are exactly what makes a reader want to go check
+the data — so the links belong there most. A snapshot's date does not move when they are added;
+only living pages bump their date. The one page that stays untouched is the manifesto
+(`The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP.md`), which the owner froze outright.
 
 ## Sign-Up Line in Posts (owner decision, 2026-08-18)
 
