@@ -12,11 +12,13 @@
 // wiki-site precisely because wiki-site is its own repository. The word list is copied verbatim so
 // the two repositories reject the same words; if the product's list changes, copy it across again.
 //
-// The archive is exempt, and that exemption is the point rather than a convenience. Everything
-// under content/archive/ is a verbatim capture of what real people wrote on Quora and Discourse —
-// their words, their titles, their spelling. Correcting someone else's spelling inside a captured
-// record falsifies the record. The product repository exempts its own Quora capture for the same
-// stated reason.
+// The archive is checked too. A British spelling in an archived post is a typo, and typos get
+// fixed here — the copy-edit passes over content/archive/ have been doing exactly that.
+//
+// What is never rewritten is an address. A URL, a markdown link target, and a migrated post's
+// `slug:` are how a page is reached, and several were minted before anyone was watching the
+// dialect; respelling one breaks every link that ever pointed at it. Matches inside those are
+// skipped — a displayed title gets corrected while the address it lives at stays put.
 
 import { execFileSync } from 'node:child_process';
 import { readFileSync } from 'node:fs';
@@ -26,12 +28,6 @@ import { fileURLToPath } from 'node:url';
 import { RULES, PATTERNS } from './lib/us-spelling.mjs';
 
 const REPO_ROOT = fileURLToPath(new URL('../..', import.meta.url));
-
-// Paths exempt from the check, each for a stated reason. This list should stay tiny.
-const EXEMPT_PREFIXES = [
-  // Verbatim captures of what other people posted. See the note at the top of this file.
-  'wiki-site/content/archive/',
-];
 
 const EXEMPT_FILES = new Set([
   // The word list, which necessarily spells out every British word this gate looks for.
@@ -85,8 +81,7 @@ function hasCheckedExtension(path) {
 }
 
 function isExempt(path) {
-  if (EXEMPT_FILES.has(path)) return true;
-  return EXEMPT_PREFIXES.some((prefix) => path.startsWith(prefix));
+  return EXEMPT_FILES.has(path);
 }
 
 const findings = [];
@@ -120,9 +115,15 @@ for (const repoPath of trackedFiles()) {
       continue;
     }
     if (disabled) continue;
+    // An address is not prose. Blank out URLs and the value of a frozen `slug:` before matching,
+    // so a link minted with a British spelling is left working rather than quietly broken.
+    const prose = line
+      .replace(/https?:\/\/\S+/g, ' ')
+      .replace(/\]\([^)]*\)/g, ']()')
+      .replace(/^(\s*slug:).*$/, '$1');
     for (const { rule, pattern } of PATTERNS) {
       pattern.lastIndex = 0;
-      const match = pattern.exec(line);
+      const match = pattern.exec(prose);
       if (!match) continue;
       findings.push({
         file: repoPath,

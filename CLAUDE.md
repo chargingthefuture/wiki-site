@@ -76,15 +76,19 @@ without complaint — nothing else in the pipeline knows the difference. The wor
 verbatim from `ctf/scripts/lib/us-spelling.mjs` in the product repository, whose own gate skips
 wiki-site precisely because this is a separate repository; if that list changes, copy it across.
 
-`content/archive/` is exempt, and the exemption is the point rather than a convenience. Those
-files are verbatim captures of what real people wrote on Quora and Discourse — their words, their
-titles, their spelling. Correcting someone else's spelling inside a captured record falsifies the
-record.
+`content/archive/` is checked too. A British spelling in an archived post is a typo, and typos get
+fixed here — the copy-edit passes over the archive have been doing exactly that.
 
-Current copy that quotes an archived title verbatim is the one case that needs an escape: wrap it
-in `spelling:disable` / `spelling:enable` with the reason on the disable line. A file that
-disables and never re-enables is itself a failure, so a region cannot quietly swallow the rest of
-a file.
+What is never rewritten is an address. A URL, a markdown link target, and a migrated post's `slug:`
+are how a page is reached, and several were minted before anyone was watching the dialect;
+respelling one breaks every link that ever pointed at it. The gate skips matches inside those, so a
+displayed title gets corrected while the address it lives at stays put. That is why one archive
+page now reads "dreams while you sleep" above a link ending `-whilst-you-sleep`, and why that is
+correct rather than an oversight.
+
+For anything else that genuinely must keep a British spelling, wrap it in `spelling:disable` /
+`spelling:enable` with the reason on the disable line. A file that disables and never re-enables is
+itself a failure, so a region cannot quietly swallow the rest of a file.
 
 ## Git Branch and PR Naming (always apply)
 

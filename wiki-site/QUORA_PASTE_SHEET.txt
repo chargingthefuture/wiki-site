@@ -2153,14 +2153,11 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 ------------------------------------------------------------------------------
 
-spelling:disable — the next entry carries the archived post's own title and URL, which are
-another person's words and a working link; respelling either would misquote or break it.
-No. 63 · 2025-10-05 · Can electronic harassment send specific dreams whilst you sleep?
+No. 63 · 2025-10-05 · Can electronic harassment send specific dreams while you sleep?
 
 It happened to me once, and it happens to my mother far more often. An account of what that was actually like rather than a theory about how.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/can-electronic-harassment-send-specific-dreams-whilst-you-sleep
-spelling:enable
 
 ------------------------------------------------------------------------------
 
