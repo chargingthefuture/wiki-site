@@ -30,7 +30,7 @@ Specterati
 * Replacement of the colloquial name for group vigilantism, which is “gang stalking” and “gang stalker.”
 
 Specter
-* A ghostly apparition symbolizing the unseen and insidious nature of the Speceterati's stalking and harassment.
+* A ghostly apparition symbolizing the unseen and insidious nature of the Specterati's stalking and harassment.
 
 -ati
 * A suffix often used in words to denote a group or collective, suggesting a network of these individuals working together.
