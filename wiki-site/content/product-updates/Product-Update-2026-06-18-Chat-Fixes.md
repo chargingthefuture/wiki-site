@@ -13,7 +13,7 @@ repo: chargingthefuture/chargingthefuture
 
 ## What Shipped
 
-Two improvements landed in the home chat:
+Three improvements landed in the home chat:
 
 1. **Concierge replies now sort to the bottom.** When the concierge responds in chat, the message appears below user messages so you see the conversation flow in order.
 2. **Auto-scroll to latest.** The chat automatically scrolls to show the newest message, so you don't have to scroll manually each time someone replies.
