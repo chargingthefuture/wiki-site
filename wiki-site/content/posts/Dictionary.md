@@ -15,7 +15,7 @@ This is a living page. It is kept current, and its date moves it to the top of t
 
 ## Latest changes
 
-2026-08-20 — Every capability in the table now links straight to it in the app, with its guide section beside it. Unlock added to the table — it was missing, and it is the door every member comes through. Mutual Time and Bug Reporting have no member-reachable page of their own, so they are listed without a link.
+2026-08-20 — Every capability in the table now links straight to it in the app, with its guide section beside it. Unlock added to the table — it was missing, and it is the door every member comes through. Mutual Time and Bug Reporting have no member-reachable page of their own, so they are listed without a link. Unlock has no guide section yet, so its guide cell is a dash.
 
 2026-08-18 — Full refresh. Skills Economy naming (the TSE abbreviation is retired). The member-count vocabulary added (signed up, recruited, Community Value Index, Value waiting to happen). ClickLog vocabulary added. The capability table rebuilt to match the app as it runs today; retired capabilities removed.
 
@@ -106,11 +106,11 @@ DEW — Directed Energy Weapon.
 | [LevelUp](https://app.chargingthefuture.com/apps/level-up) | Paid skills-training cohorts with milestone stipends | [guide](https://app.chargingthefuture.com/guide#level-up) |
 | [ServiceCredits](https://app.chargingthefuture.com/apps/service-credits) | The credits exchange (see Value and credits above) | [guide](https://app.chargingthefuture.com/guide#service-credits) |
 | [GDP](https://app.chargingthefuture.com/apps/gdp) | The live economic tracker: Community Value Index and Value waiting to happen | [guide](https://app.chargingthefuture.com/guide#gdp) |
-| [Trust](https://app.chargingthefuture.com/apps/trust) | Community reputation built through real participation | — |
+| [Trust](https://app.chargingthefuture.com/apps/trust) | Community reputation built through real participation | [guide](https://app.chargingthefuture.com/guide#trust) |
 | [ClickLog](https://app.chargingthefuture.com/apps/click-log) | Incident logging — private record and shared trend data (see ClickLog vocabulary above) | [guide](https://app.chargingthefuture.com/guide#click-log) |
 | [Mood](https://app.chargingthefuture.com/apps/mood) | Anonymous mood tracking and pattern awareness | [guide](https://app.chargingthefuture.com/guide#mood) |
 | [WhatWorks](https://app.chargingthefuture.com/apps/what-works) | One shared, survivor-verified list of tools, organized by problem | [guide](https://app.chargingthefuture.com/guide#what-works) |
-| [Knowledge Library](https://app.chargingthefuture.com/knowledge) | Lend your own public writing so the assistant answers from more than one voice | — |
+| [Knowledge Library](https://app.chargingthefuture.com/knowledge) | Lend your own public writing so the assistant answers from more than one voice | [guide](https://app.chargingthefuture.com/guide#knowledge) |
 | [Contributions](https://app.chargingthefuture.com/apps/contributions) | Voluntary fundraiser drives with credit thank-you grants | [guide](https://app.chargingthefuture.com/guide#contributions) |
 | [Recurring Activity](https://app.chargingthefuture.com/apps/recurring-activity) | One-tap acknowledgment of an ongoing tie with another member — never a bill | [guide](https://app.chargingthefuture.com/guide#recurring-activity) |
 | Mutual Time | Find a meeting time everyone can make | — |
