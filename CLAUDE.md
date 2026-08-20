@@ -126,6 +126,17 @@ When a term changes anywhere (product names, stats vocabulary, capability list),
 the page that changes — do not scatter definitions across new posts. Dated posts may still
 define terms in context; Dictionary is where the current version lives.
 
+## Quora Paste Sheet (owner directive, 2026-08-19)
+
+`wiki-site/QUORA_PASTE_SHEET.txt` holds one Quora-ready summary per published page, with its
+canonical link. Every summary is written fresh rather than copied from the page's teaser or
+excerpt, so a paste is never identical to what the blog already shows — an account that gets
+deleted and rebuilt can repost the same piece without the text matching a previous post.
+
+Publishing a post is not finished until that file carries the new page. Every publish does three
+things: merge the post, add its entry to the paste sheet, and give the owner the Quora excerpt in
+the reply.
+
 ## Sign-Up Line in Posts (owner decision, 2026-08-18)
 
 Readers ask where to sign up; consumer apps need it explicit. Every post that invites participation ends with this exact block, verbatim, as the final paragraph — once per post, never in the body, never varied:
