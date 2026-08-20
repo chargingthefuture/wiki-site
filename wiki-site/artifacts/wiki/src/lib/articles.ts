@@ -1737,7 +1737,7 @@ export const ARTICLES: ArticleMeta[] = [
   },
   {
     "slug": "discourse-migrate/tv-shows-depicting-the-speceterati",
-    "title": "TV shows depicting the Speceterati",
+    "title": "TV shows depicting the Specterati",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-12-13",
     "excerpt": "I am re-watching the TV show The Good Place. This space is exclusively for Targeted Individuals. However, if there is a random non-target/non-perp, the very…",
