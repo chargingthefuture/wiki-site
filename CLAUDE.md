@@ -110,6 +110,14 @@ and it produces copy the owner has to reject.
 - In the owner's words: real help is not an email in a database. Do not write copy that implies
   otherwise, and never inflate a figure or arrange a sentence so that it seems to.
 
+The Directory is the ask, and it is not an account. It is the number one thing survivors want:
+a findable list of people and what they can do. It launched on 2025-10-31 as exactly that — "a
+running list of TIs listed alongside their talents", opt-in, one person at a time, with profiles
+at a public address. Write about it as the thing itself, not as a feature waiting behind a login.
+
+And the people on that list are doing rather than saying, which counts for more than a stated
+position does. That is the distinction worth drawing in a post — not who has an account.
+
 State a figure the way the app's own screens state it, then move on to what a reader can do.
 
 ## Capitalizing Targeted Individual (owner directive, 2026-08-18)
