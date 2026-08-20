@@ -37,7 +37,7 @@ Notice what it costs to call something nonsense: nothing. No risk, no work, no s
 
 Trying to solve the problem costs something. Building costs money, hours, and the chance of failing in public. That asymmetry is worth keeping in view whenever you weigh who to listen to — the person who built something checkable, or the person who spent one word on it.
 
-And the Skills Economy is checkable. It is not a mood or a promise. It is math and economics: Finland's catalog of what jobs an economy needs, Singapore's public number for what one worker's skills produce, and a live count — 97 people, 158 of 650 skills, $13.8 million in listed capacity — that updates in the app as people join. I walked through every step of it in the last post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-the-math-works
+And the Skills Economy is checkable. It is not a mood or a promise. It is math and economics: the catalog of what jobs an economy that size needs, built against Finland, Singapore's public number for what one worker's skills produce, and a live count — 97 people, 158 of 650 skills, $13.8 million in listed capacity — that updates in the app as people join. I walked through every step of it in the last post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-the-math-works
 
 You do not have to believe me. That is the entire point of using public numbers.
 

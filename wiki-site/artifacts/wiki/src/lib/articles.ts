@@ -28,21 +28,6 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
-    "slug": "Dictionary",
-    "title": "Dictionary: Skills Economy Terms",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-08-20",
-    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
-    "category": "Resources",
-    "collection": "posts",
-    "path": "posts/Dictionary.md",
-    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
-    "topics": [
-      "reference",
-      "terms"
-    ]
-  },
-  {
     "slug": "transactional-on-purpose",
     "title": "Transactional on Purpose",
     "repo": "chargingthefuture/wiki-site",
@@ -55,6 +40,21 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "specterati",
       "skills-economy"
+    ]
+  },
+  {
+    "slug": "Dictionary",
+    "title": "Dictionary: Skills Economy Terms",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-08-20",
+    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
+    "category": "Resources",
+    "collection": "posts",
+    "path": "posts/Dictionary.md",
+    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
+    "topics": [
+      "reference",
+      "terms"
     ]
   },
   {
@@ -276,7 +276,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/how-the-math-works.md",
-    "teaser": "Someone asked me in a DM how 97 people can point at a $13.8 million economy. The answer fits in a few paragraphs: the UN's own reports say about 2 million, underreporting says more, Finland says what jobs an economy needs, Singapore says what one worker's skills produce, and Estonia proves you can build from nothing but skills in about two generations. None of it requires believing me — every number can be checked.",
+    "teaser": "Someone asked me in a DM how 97 people can point at a $13.8 million economy. The answer fits in a few paragraphs: the UN's own reports say about 2 million, underreporting says more, Finland gives a country the right size and shape to model against, Singapore says what one worker's skills produce, and Estonia proves you can build from nothing but skills in about two generations. None of it requires believing me — every number can be checked.",
     "topics": [
       "economy",
       "model"
