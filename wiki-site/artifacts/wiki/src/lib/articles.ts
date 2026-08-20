@@ -398,7 +398,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "TrustTransport requests, cleaner stats, and public landing fixes",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2026-07-09",
-    "excerpt": "TrustTransport requests can now be cancelled. Community stats count posts accurately. Public landings for Recurring Activity and Contributions are live.",
+    "excerpt": "TrustTransport requests can now be canceled. Community stats count posts accurately. Public landings for Recurring Activity and Contributions are live.",
     "category": "Updates",
     "collection": "product-updates",
     "path": "product-updates/Product-Update-2026-07-09-TrustTransport-Cancel-Stats-Public.md"
@@ -1684,7 +1684,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Use Cases of the TI Skills Economy: the only way to exit the psyop",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-12-28",
-    "excerpt": "The goal of the TI Skills Economy is to unite the ~5 million TIs. There are enough TIs to box out the perps from our lives by working and living amongst TIs. I...",
+    "excerpt": "The goal of the TI Skills Economy is to unite the ~5 million TIs. There are enough TIs to box out the perps from our lives by working and living among TIs. I...",
     "category": "Community",
     "collection": "posts",
     "path": "posts/Use-Cases-of-the-TI-Skills-Economy:-the-only-way-to-exit-the-psyop.md",

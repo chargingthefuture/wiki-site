@@ -59,6 +59,7 @@ Canonical source: [`chargingthefuture/chargingthefuture` → `.github/instructio
 | Command | Action |
 |---|---|
 | `pnpm wiki:validate` | Validate `content-index.yaml` |
+| `pnpm wiki:spelling` | Fail on any British spelling outside `content/archive/` |
 | `pnpm wiki:sync` | Regenerate `articles.ts` from the index |
 | `pnpm wiki:sync:dry` | Preview sync changes |
 | `pnpm wiki:preview` | Local dev server (http://localhost:5000) |
@@ -66,6 +67,24 @@ Canonical source: [`chargingthefuture/chargingthefuture` → `.github/instructio
 | `pnpm wiki:build:pages` | GitHub Pages build (base `/chargingthefuture/` + 404.html) |
 
 Full operator runbook: [wiki-site/PUBLISHING.md](wiki-site/PUBLISHING.md).
+
+## US Spelling (enforced by CI)
+
+The blog writes US English. `pnpm wiki:spelling` fails on any British spelling and runs in CI on
+every pull request, because a British spelling passes front matter validation and the build
+without complaint — nothing else in the pipeline knows the difference. The word list is copied
+verbatim from `ctf/scripts/lib/us-spelling.mjs` in the product repository, whose own gate skips
+wiki-site precisely because this is a separate repository; if that list changes, copy it across.
+
+`content/archive/` is exempt, and the exemption is the point rather than a convenience. Those
+files are verbatim captures of what real people wrote on Quora and Discourse — their words, their
+titles, their spelling. Correcting someone else's spelling inside a captured record falsifies the
+record.
+
+Current copy that quotes an archived title verbatim is the one case that needs an escape: wrap it
+in `spelling:disable` / `spelling:enable` with the reason on the disable line. A file that
+disables and never re-enables is itself a failure, so a region cannot quietly swallow the rest of
+a file.
 
 ## Git Branch and PR Naming (always apply)
 
