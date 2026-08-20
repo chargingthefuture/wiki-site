@@ -25,7 +25,7 @@ The interface is mobile-responsive and works seamlessly on all devices. We also 
 
 Survivors deserve full control over their personal information. These tools reinforce your agency and autonomy—core values of the TI Skills Economy. Transparency builds trust. You're not locked into our platform; you own your data and can leave whenever you choose.
 
-We're also shipping improved GDP estimate transparency across financial summaries so you understand exactly how our economic data is sourced and what it represents.
+We're also shipping improved GDP estimate transparency across the economy summaries so you understand exactly how our economic data is sourced and what it represents.
 
 ## Technical Notes
 

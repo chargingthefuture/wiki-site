@@ -13,7 +13,7 @@ repo: chargingthefuture/chargingthefuture
 
 **Commons:** Posts no longer render twice right after you send them. The dedup key now uses the stable post ID instead of folding in timestamp formatting, so messages don't slip through when the publish time straddles a minute boundary.
 
-**Workforce overview:** Removed a duplicate headcount card that was the same as the Workforce Total after sector rounding. The screen now shows Population, Workforce Total, and Recruited. Per-sector targets still appear in the Sectors view. The Recruitment Progress card now tracks the 2,000,000 recruitment goal — it shows your percent toward that goal, the count recruited so far, and how many remain to reach it (this updates as members join). Android now matches web: the headcount tile is dropped and the subtitle reads '{recruited} recruited · {goal} goal'.
+**Workforce overview:** Removed a duplicate headcount card that was the same as the Workforce Total after sector rounding. The screen now shows Population, Workforce Total, and Recruited. Per-sector targets still appear in the Sectors view. The Recruitment Progress card now tracks the 2,000,000 recruitment goal — it shows your percent toward that goal, the count recruited so far, and how many remain to reach it (this updates as people are recruited). Android now matches web: the headcount tile is dropped and the subtitle reads '{recruited} recruited · {goal} goal'.
 
 **Contributions:** On phones, the gift emoji reminder moved into the top bar between the TSE mark and the section tabs. The open fundraiser banner stays at the top; dismissing it hides the banner and shows the gift emoji in the bar instead.
 

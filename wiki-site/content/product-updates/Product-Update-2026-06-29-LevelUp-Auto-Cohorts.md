@@ -17,7 +17,7 @@ LevelUp now auto-creates training cohorts based on live Workforce gaps. When the
 
 The LevelUp Browse page got a cleanup: removed a dead Create button, dropped the duplicate balance display, and swapped static track chips for dynamic ones that stay current.
 
-The public Workforce landing page now shows a live snapshot of your community—real member counts from active Directory profiles, sector gaps labeled clearly, and ServiceCredits earn/spend lists that reflect actual transactions.
+The public Workforce landing page now shows a live snapshot of your community—real recruited counts from active Directory profiles, sector gaps labeled clearly, and ServiceCredits earn/spend lists that reflect actual transactions.
 
 ## Why It Matters
 
@@ -28,7 +28,7 @@ Cleaner UI and live data mean you see your community's true shape—who's active
 ## Technical Notes
 
 - Auto-cohort logic runs on a scheduled workflow; manual cohort creation still works alongside it.
-- Member counts now pull from active Directory profiles instead of login events, so the picture is more accurate.
+- Recruited counts now pull from active Directory profiles instead of login events, so the picture is more accurate.
 - The Workforce snapshot and ServiceCredits public pages now refresh on a live schedule, not cached.
 - Back button position on unauthenticated plugin landing pages was corrected.
 - Mobile top chrome now rolls out across all plugin and admin shells, with the account hub link in the apps launcher.
