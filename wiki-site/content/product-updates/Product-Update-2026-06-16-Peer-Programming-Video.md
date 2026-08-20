@@ -27,4 +27,4 @@ Mobile navigation fixes mean you spend less time hunting for buttons and more ti
 
 ## Technical Notes
 
-Live video uses Stream, our video provider. Please check your Stream quota before starting a session with your group. The code for these changes is at https://github.com/chargingthefuture/chargingthefuture.
+Live video uses Stream, our video provider. The code for these changes is at https://github.com/chargingthefuture/chargingthefuture.

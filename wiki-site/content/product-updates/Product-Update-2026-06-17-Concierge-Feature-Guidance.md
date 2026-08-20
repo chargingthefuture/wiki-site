@@ -13,7 +13,7 @@ repo: chargingthefuture/chargingthefuture
 
 The concierge is now live in the home chat. When you open Charging the Future, you see tappable starter prompts that describe common needs—like "I want to document what's happening" or "I'm building skills for work." Tap one and the concierge shows you the best feature to use. You can also type your own question if the prompts don't match what you need.
 
-The concierge intents align with the reframe work we did—it points you toward getting your needs met, not just reporting problems. The intent resolver maps 51 common situations to the features that actually help.
+The concierge intents align with the reframe work we did—it points you toward getting your needs met, not just reporting problems. The intent resolver maps common situations to the features that actually help.
 
 We also cleaned up the admin screens across WhatWorks, Peer Programming, LevelUp, and ServiceCredits. They look consistent now and work the same way. The AI review dashboard now shows the asker's @username and an honest state when drafts aren't available.
 
