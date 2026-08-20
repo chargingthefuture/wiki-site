@@ -103,6 +103,21 @@ appears it takes this form.
 Archive entries keep whatever the original writing used — they are historical record, not current
 copy.
 
+## Pagination, Never Endless Scroll (accessibility rule — owner directive, 2026-08-19)
+
+This is an accessibility rule, not a preference. Endless scroll traps keyboard and screen-reader
+users before the footer, gives no sense of position or length, and makes a place in a list
+impossible to return to.
+
+Any list that can grow — the feed, the home listing, an archive index, anything added later —
+is paged. Never an endless scroll, and never a page that renders its whole collection at once.
+Put the page number in the URL (`/feed?page=3`) so a page can be linked and the back button
+works, show which range of how many is on screen, and clamp an out-of-range page number rather
+than showing nothing.
+
+The same rule is recorded for the app in the product repo, under Accessibility Rules in
+`.claude/rules/100-product-context-and-experience-rules.mdc`.
+
 ## Snapshots vs Living Pages (owner decision, 2026-08-18)
 
 Two kinds of pages live in `posts/`, and they age differently:
@@ -121,6 +136,21 @@ Two kinds of pages live in `posts/`, and they age differently:
 When a term changes anywhere (product names, stats vocabulary, capability list), Dictionary is
 the page that changes — do not scatter definitions across new posts. Dated posts may still
 define terms in context; Dictionary is where the current version lives.
+
+## Quora Paste Sheet (owner directive, 2026-08-19)
+
+`wiki-site/QUORA_PASTE_SHEET.txt` holds one Quora-ready summary per published page, with its
+canonical link. Every summary is written fresh rather than copied from the page's teaser or
+excerpt, so a paste is never identical to what the blog already shows — an account that gets
+deleted and rebuilt can repost the same piece without the text matching a previous post.
+
+Each entry ends with a `Full post: <url>` line, and the label is load-bearing: a bare URL alone on
+its own line is what Quora's editor converts into a preview card, while a URL inside a sentence is
+left as written. Paste the summary and that line together.
+
+Publishing a post is not finished until that file carries the new page. Every publish does three
+things: merge the post, add its entry to the paste sheet, and give the owner the Quora excerpt in
+the reply.
 
 ## Sign-Up Line in Posts (owner decision, 2026-08-18)
 
