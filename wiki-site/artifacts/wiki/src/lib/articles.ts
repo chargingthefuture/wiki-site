@@ -32,7 +32,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "An Invitation to Steph Wo.",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-08-20",
-    "excerpt": "A fine art degree, a drafting certificate, a piano, a career ended early by the targeting — and every one of them one of the 650 skills a working economy needs.",
+    "excerpt": "A fine art degree, a drafting certificate, a piano, and a career the targeting ended early. The skills are all on the list of 650 a working economy needs.",
     "category": "Community",
     "collection": "posts",
     "path": "posts/an-invitation-to-steph-wo.md",
