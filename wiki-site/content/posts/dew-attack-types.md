@@ -38,6 +38,6 @@ If you experience a type of attack that is not on this list, comment in the [Com
 ## Where to find it in the app
 
 - [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Commons](https://app.chargingthefuture.com) — the group chat
+- [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
 
 To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
