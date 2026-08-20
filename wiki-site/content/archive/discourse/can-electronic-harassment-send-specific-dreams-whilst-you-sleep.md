@@ -1,5 +1,7 @@
 ---
-title: Can electronic harassment send specific dreams while you sleep?
+# spelling:disable — a Quora question someone else asked. Their words, never respelled.
+title: Can electronic harassment send specific dreams whilst you sleep?
+# spelling:enable
 date: "2025-10-05"
 excerpt: Yes. It only happened to me one time. They (gang stalkers) do it to my mother, perhaps every night, to dictate her actions during the day. She is religious.…
 category: Discourse Community Legacy Post
@@ -12,10 +14,14 @@ archive:
   status: closed
 ---
 
-# Can electronic harassment send specific dreams while you sleep?
+<!-- spelling:disable — Quora question title, quoted verbatim -->
+# Can electronic harassment send specific dreams whilst you sleep?
+<!-- spelling:enable -->
 
 <!--
-Title: Can electronic harassment send specific dreams while you sleep?
+spelling:disable
+Title: Can electronic harassment send specific dreams whilst you sleep?
+spelling:enable
 Slug: can-electronic-harassment-send-specific-dreams-while-you-sleep
 Created: 2025-10-05
 Updated: 2025-10-05

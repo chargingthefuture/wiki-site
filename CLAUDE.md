@@ -79,16 +79,21 @@ wiki-site precisely because this is a separate repository; if that list changes,
 `content/archive/` is checked too. A British spelling in an archived post is a typo, and typos get
 fixed here — the copy-edit passes over the archive have been doing exactly that.
 
-What is never rewritten is an address. A URL, a markdown link target, and a migrated post's `slug:`
-are how a page is reached, and several were minted before anyone was watching the dialect;
-respelling one breaks every link that ever pointed at it. The gate skips matches inside those, so a
-displayed title gets corrected while the address it lives at stays put. That is why one archive
-page now reads "dreams while you sleep" above a link ending `-whilst-you-sleep`, and why that is
-correct rather than an oversight.
+There is exactly one thing that is never respelled: a Quora question title. Many archive posts are
+questions somebody else asked, which the owner then answered — the title is that person's wording,
+not ours, and correcting it puts words in their mouth. Leave it exactly as asked, and leave the slug
+minted from it alone too. Wrap it in `spelling:disable` / `spelling:enable` with the reason, so the
+gate stops asking. To tell one apart: the post answers its own title, usually opening with "Yes." or
+"No.", and often says "Question on Quora".
 
-For anything else that genuinely must keep a British spelling, wrap it in `spelling:disable` /
-`spelling:enable` with the reason on the disable line. A file that disables and never re-enables is
-itself a failure, so a region cannot quietly swallow the rest of a file.
+Everything else, including a URL, gets fixed (owner directive, 2026-08-20). A British spelling in a
+slug is still a typo. Breaking the link is acceptable: Quora deleted the accounts those links were
+shared from, so the audience that held them is gone and the project is starting over. When you
+change a slug, update every internal reference to it in the same commit — `content/`, the paste
+sheet, and the archive index — or the pages that pointed at it will 404.
+
+A file that disables and never re-enables is itself a failure, so a region cannot quietly swallow
+the rest of a file.
 
 ## Git Branch and PR Naming (always apply)
 
