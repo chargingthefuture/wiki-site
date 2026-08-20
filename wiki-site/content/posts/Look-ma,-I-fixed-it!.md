@@ -19,4 +19,4 @@ https://www.chargingthefuture.com/look-ma-i-fixed-it
 ---
 
 Post on Quora
-https://tiskillsnetwork.quora.com/Nat-Morris-https-www-quora-com-profile-Nat-Morris-12-did-a-great-write-up-that-lists-the-most-common-things-the-Sp
+https://skillseconomy.quora.com/Nat-Morris-https-www-quora-com-profile-Nat-Morris-12-did-a-great-write-up-that-lists-the-most-common-things-the-Sp
