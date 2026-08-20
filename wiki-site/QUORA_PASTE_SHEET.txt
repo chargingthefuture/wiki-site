@@ -9,6 +9,12 @@ Entries are grouped by collection, newest first inside each group. The number is
 that entry's place within its own group, so it counts down to 1 at the end of
 each section.
 
+WORKING DRAFT, UNDER REVISION. These summaries are a staging file for pasting
+elsewhere. They are not published writing and they are not the record — each
+entry's post is, and the post is what to trust if the two ever disagree. Every
+summary is being re-read against its own post and corrected where it drifted;
+until that pass is finished, treat anything here as unverified.
+
 327 of 327 written.
 
 
