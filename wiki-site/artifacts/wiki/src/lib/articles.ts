@@ -3757,7 +3757,7 @@ export const ARTICLES: ArticleMeta[] = [
   },
   {
     "slug": "discourse-migrate/farah-s-mirco-blog-september-22-2025",
-    "title": "Farah’s Mirco Blog September 22 2025",
+    "title": "Farah’s Micro Blog September 22 2025",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-09-22",
     "excerpt": "Lyndon B. Johnson once said, “If you can convince the lowest man he’s better than the best man, he won’t notice you’re picking his pocket.” This statement…",
