@@ -92,6 +92,17 @@ Rules that go with the table:
 - Never state or imply the owner reported their situation to any body. They have never reported to anyone; that fact is itself the under-reporting argument.
 - Progress posts follow a fixed shape with these definitions (first instance: the-manifesto-seven-months-later.md) so any two are comparable.
 
+## Capitalizing Targeted Individual (owner directive, 2026-08-18)
+
+Write it Targeted Individual, capitalized, every time — singular or plural, and Targeted
+Individuals (TIs) on first use when the abbreviation follows. Never "targeted individual" in
+lower case. This matches the Dictionary entry, the manifesto, and the rest of `posts/`. Survivors
+remains the default word for the people here; Targeted Individual is the bridge term, and when it
+appears it takes this form.
+
+Archive entries keep whatever the original writing used — they are historical record, not current
+copy.
+
 ## Pagination, Never Endless Scroll (accessibility rule — owner directive, 2026-08-19)
 
 This is an accessibility rule, not a preference. Endless scroll traps keyboard and screen-reader
