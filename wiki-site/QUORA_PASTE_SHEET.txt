@@ -134,7 +134,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 311 · 2026-08-17 · An addition, not an alternative
 
-A large account called the Skills Economy nonsense while teaching survivors real defensive skills. Both things can stand. Learn to spot a tail, secure a phone, hold your ground — then use an economy that lets you eat without going through the people doing this to you. One is not a substitute for the other.
+A large account called the Skills Economy nonsense while teaching survivors real defensive skills. Both things can stand. Keep the tips that work — how not to get falsely committed, how not to fall for the traps set for people in our situation — then add an economy that lets you eat without going through the people doing this to you. Defense keeps you alive today. It is not a plan for the next ten years.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/an-addition-not-an-alternative
 
@@ -142,7 +142,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-si
 
 No. 310 · 2026-08-17 · How the math works
 
-Someone asked in a DM how 97 people add up to a $13.8 million economy. The arithmetic is short and worth checking: it comes from what those people already do for a living, valued the way any economy values work. Finland ran the underlying idea first, and it held.
+Someone asked in a DM how 97 people add up to a $13.8 million economy. The arithmetic is short and worth checking: a country of about that size sets the shape of the jobs an economy needs, and Singapore's published output per worker sets what one person's skills produce. Every number in it is public.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-the-math-works
 
@@ -366,7 +366,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 177 · 2025-12-28 · Look ma, I fixed it!
 
-Nat Morris catalogued the most common things done to targeted people. I turned that list into an interactive page that shows, for each one, what in this app answers it. Fifty-one problems, matched to what exists.
+Nat Morris wrote up the most common things done to targeted people. I turned that list into an interactive page that shows, item by item, which service in the Skills Economy removes each obstacle. Not promises — the specific answer to each specific tactic.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Look-ma%2C-I-fixed-it%21
 
@@ -374,7 +374,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 176 · 2025-12-28 · Official Channels (and Discourse Blog is closed)
 
-The Discourse blog closed on December 23, 2025, with every post exported first — nothing was lost. This is the list of channels that are real and current, so nobody follows a dead one or an impostor.
+The Discourse blog closed on December 23, 2025, with every post exported to the repository first — nothing was lost, and each one is being reformatted for readability. This is the full list of official channels: the website, the app, the blog, the code, and Quora.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Official-Channels-%28and-Discourse-Blog-is-closed%29
 
@@ -398,7 +398,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 172 · 2025-12-23 · General Rundown
 
-Another survivor put me onto paid healthy-volunteer studies: pharmaceutical companies pay people to test medicines in early trials. It is legitimate income that does not depend on an employer who can be leaned on.
+Another survivor put me onto paid healthy-volunteer studies: pharmaceutical companies pay people to test medicines in phase I trials. The average is $3,000 to $5,000 a month, and I have seen $45,000 for one. Talk to me before calling a trial company — they will try to get you banned, and there are ways to reduce that.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/How-to-maintain-employment-as-a-TI.
 
