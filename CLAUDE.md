@@ -152,6 +152,48 @@ Publishing a post is not finished until that file carries the new page. Every pu
 things: merge the post, add its entry to the paste sheet, and give the owner the Quora excerpt in
 the reply.
 
+## Link the Plugins a Post Names (owner decision, 2026-08-20)
+
+Version 3 of the app launched in June 2026. Any post dated on or after 2026-06-01 that speaks
+about a part of the app must link that part directly, plus its guide section. A post that names a
+capability and makes the reader go find it costs readers — they search, do not find it, and leave.
+
+Every such post ends with this section, placed immediately before the sign-up block:
+
+```
+## Where to find it in the app
+
+- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
+```
+
+One list item per part, in the order the post raises them. Link the part even when the post only
+describes it rather than naming it — a post that mentions "a vetted ride" links TrustTransport,
+because that is what the reader will go looking for.
+
+URLs:
+
+| Part | Address |
+|---|---|
+| Most plugins | `https://app.chargingthefuture.com/apps/<slug>` |
+| Knowledge Library | `https://app.chargingthefuture.com/knowledge` |
+| Unlock | `https://app.chargingthefuture.com/plugin/unlock` |
+| Commons (the group chat) | `https://app.chargingthefuture.com` |
+
+Every part has a guide section as of 2026-08-20 — all twenty-five: beacon, bug-reporting, chyme,
+click-log, commons, contributions, directory, foundation, gdp, knowledge, level-up, lighthouse,
+mood, mutual-time, peer-programming, recurring-activity, service-credits, skills-hunt,
+skills-taxonomy, socket-relay, trust, trust-transport, unlock, what-works, workforce. The list is
+generated from `ctf/packages/web/app/guide/guide-content.json` in the product repo — check it
+rather than guessing, because a new part arrives before its section does. A part with no section
+gets the plugin link alone; never invent an anchor, since a wrong one lands the reader on the
+guide's top with no explanation.
+
+Snapshot posts get the section too (owner decision, 2026-08-20). Adding links changes none of a
+snapshot's numbers or wording, and its claims are exactly what makes a reader want to go check
+the data — so the links belong there most. A snapshot's date does not move when they are added;
+only living pages bump their date. The one page that stays untouched is the manifesto
+(`The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP.md`), which the owner froze outright.
+
 ## Sign-Up Line in Posts (owner decision, 2026-08-18)
 
 Readers ask where to sign up; consumer apps need it explicit. Every post that invites participation ends with this exact block, verbatim, as the final paragraph — once per post, never in the body, never varied:

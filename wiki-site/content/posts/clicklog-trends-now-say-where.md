@@ -67,4 +67,8 @@ Two things would change that, and neither exists yet. The report cannot say what
 
 Naming those gaps is what makes the rest of it worth reading.
 
+## Where to find it in the app
+
+- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
+
 To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.

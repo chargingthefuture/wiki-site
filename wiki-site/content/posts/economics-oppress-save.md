@@ -35,4 +35,11 @@ That is the case for the Skills Economy — not as a charity, not as an app for 
 
 Exit their economy, exit the psyop.
 
+## Where to find it in the app
+
+- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
+- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
+- [TrustTransport](https://app.chargingthefuture.com/apps/trust-transport) — [guide](https://app.chargingthefuture.com/guide#trust-transport)
+- [LightHouse](https://app.chargingthefuture.com/apps/lighthouse) — [guide](https://app.chargingthefuture.com/guide#lighthouse)
+
 To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.

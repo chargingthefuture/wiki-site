@@ -41,4 +41,8 @@ So the record moves here, where nothing gets deleted by a platform decision. Bel
 
 A newcomer's first question is whether anyone real is here. The honest answer has always been yes, and the proof kept getting deleted. Keeping the list on a page nobody can take down is the fix: the names stay, the posts that introduced them stay, and the profiles are reachable from one place.
 
+## Where to find it in the app
+
+- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
+
 To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.

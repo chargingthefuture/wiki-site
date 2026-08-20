@@ -29,4 +29,9 @@ The practical difference: nobody arrives empty-handed. On your first day here yo
 
 The board is at [app.chargingthefuture.com/apps/socket-relay](https://app.chargingthefuture.com/apps/socket-relay). Post what you need. Offer what you have. Everything else about it works the way the original post described.
 
+## Where to find it in the app
+
+- [SocketRelay](https://app.chargingthefuture.com/apps/socket-relay) — [guide](https://app.chargingthefuture.com/guide#socket-relay)
+- [ServiceCredits](https://app.chargingthefuture.com/apps/service-credits) — [guide](https://app.chargingthefuture.com/guide#service-credits)
+
 To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
