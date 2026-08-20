@@ -43,6 +43,21 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "transactional-on-purpose",
+    "title": "Transactional on Purpose",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-20",
+    "excerpt": "A trafficker blocked my path today and said my self-defense items look ridiculous. Ridiculous in front of whom? The exchange comes first for a reason.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/transactional-on-purpose.md",
+    "teaser": "One of them circled in front of me today to block my way, then said I look ridiculous carrying self-defense items. Ridiculous in front of whom — people who are fine with this, or think it is funny? I have an email from a woman who wrote that she traffics people, enjoys it, and believes in human torture. That is the audience whose opinion the taunt is asking you to care about. The Skills Economy answers it by putting the exchange first: a trafficker never gives you material help, so leading with what you need filters them out before anything else happens. What is left on the other side of that filter is people worth knowing.",
+    "topics": [
+      "specterati",
+      "skills-economy"
+    ]
+  },
+  {
     "slug": "quora-deletion-survey",
     "title": "If Quora Closed Your Account, There Is Now Somewhere to Say So",
     "repo": "chargingthefuture/wiki-site",
