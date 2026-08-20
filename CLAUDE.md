@@ -94,6 +94,11 @@ Rules that go with the table:
 
 ## This Is Not a Sign-Up Product (owner directive, 2026-08-20)
 
+The app is an aid in coordination. It helps people find each other and arrange things between
+themselves. It is not a nation state, not a serial number, not a tax tracker, not a scorekeeper,
+and not a register of who counts. Every figure it shows exists to help someone decide what to do
+next, never to rank people or to settle up with them.
+
 Agents keep writing about this app the way they would write about a commercial one, where the
 number that matters is sign-ups and every sentence works toward one. That framing is wrong here,
 and it produces copy the owner has to reject.
