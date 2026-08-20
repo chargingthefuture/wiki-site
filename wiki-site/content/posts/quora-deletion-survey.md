@@ -79,7 +79,7 @@ I have lost four accounts to this now, and each time the only record was whateve
 
 ## Where to find it in the app
 
-- [Unlock](https://app.chargingthefuture.com/plugin/unlock)
+- [Unlock](https://app.chargingthefuture.com/plugin/unlock) — [guide](https://app.chargingthefuture.com/guide#unlock)
 - [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
 - [Knowledge Library](https://app.chargingthefuture.com/knowledge) — [guide](https://app.chargingthefuture.com/guide#knowledge)
 

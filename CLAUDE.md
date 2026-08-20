@@ -168,13 +168,14 @@ URLs:
 | Unlock | `https://app.chargingthefuture.com/plugin/unlock` |
 | Commons (the group chat) | `https://app.chargingthefuture.com` |
 
-Guide sections exist for twenty-one parts only: directory, foundation, chyme, socket-relay, beacon,
-peer-programming, mood, what-works, skills-hunt, workforce, skills-taxonomy, service-credits,
-contributions, level-up, trust-transport, lighthouse, click-log, recurring-activity, gdp, trust,
-knowledge. Unlock, Commons, Mutual Time, and Bug Reporting have none. The list grows, and it is
+Every part has a guide section as of 2026-08-20 — all twenty-five: beacon, bug-reporting, chyme,
+click-log, commons, contributions, directory, foundation, gdp, knowledge, level-up, lighthouse,
+mood, mutual-time, peer-programming, recurring-activity, service-credits, skills-hunt,
+skills-taxonomy, socket-relay, trust, trust-transport, unlock, what-works, workforce. The list is
 generated from `ctf/packages/web/app/guide/guide-content.json` in the product repo — check it
-rather than guessing. A part with no guide section gets the plugin link alone; never invent an
-anchor, since a wrong one lands the reader on the guide's top with no explanation.
+rather than guessing, because a new part arrives before its section does. A part with no section
+gets the plugin link alone; never invent an anchor, since a wrong one lands the reader on the
+guide's top with no explanation.
 
 Snapshot posts get the section too (owner decision, 2026-08-20). Adding links changes none of a
 snapshot's numbers or wording, and its claims are exactly what makes a reader want to go check
