@@ -92,6 +92,39 @@ Rules that go with the table:
 - Never state or imply the owner reported their situation to any body. They have never reported to anyone; that fact is itself the under-reporting argument.
 - Progress posts follow a fixed shape with these definitions (first instance: the-manifesto-seven-months-later.md) so any two are comparable.
 
+## This Is Not a Sign-Up Product (owner directive, 2026-08-20)
+
+The app is an aid in coordination. It helps people find each other and arrange things between
+themselves. It is not a nation state, not a serial number, not a tax tracker, not a scorekeeper,
+and not a register of who counts. Every figure it shows exists to help someone decide what to do
+next, never to rank people or to settle up with them.
+
+Agents keep writing about this app the way they would write about a commercial one, where the
+number that matters is sign-ups and every sentence works toward one. That framing is wrong here,
+and it produces copy the owner has to reject.
+
+- Do not advocate signing up as the goal, and do not build a post around driving people to it.
+  The sign-up block at the end of a post is the whole of the ask; the body does not repeat it.
+- Being on the skills map is something people ask for, not a lesser version of joining. Never
+  present recruited as a consolation number next to signed-up, never call either one small, and
+  never explain the gap between them.
+- Most real help never touches the app and is never recorded in it. Three survivors have helped
+  the owner directly and none of it was captured; all three are listed in the Directory. The
+  Directory listing is what made them findable — the help itself happened between people. A figure
+  that does not capture it is not a gap in the data, it is the shape of the thing.
+- In the owner's words: real help is not an email in a database. Do not write copy that implies
+  otherwise, and never inflate a figure or arrange a sentence so that it seems to.
+
+The Directory is the ask, and it is not an account. It is the number one thing survivors want:
+a findable list of people and what they can do. It launched on 2025-10-31 as exactly that — "a
+running list of TIs listed alongside their talents", opt-in, one person at a time, with profiles
+at a public address. Write about it as the thing itself, not as a feature waiting behind a login.
+
+And the people on that list are doing rather than saying, which counts for more than a stated
+position does. That is the distinction worth drawing in a post — not who has an account.
+
+State a figure the way the app's own screens state it, then move on to what a reader can do.
+
 ## Capitalizing Targeted Individual (owner directive, 2026-08-18)
 
 Write it Targeted Individual, capitalized, every time — singular or plural, and Targeted
