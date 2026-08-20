@@ -19,7 +19,7 @@ repo: chargingthefuture/chargingthefuture
 
 Note: anything off about the Quora handle, the account is not approved and there is no access to all the features of the economy.
 
-Not full proof of avoiding perp sign ups. But a small start. If you are waiting to be approved for more than 24 hours. Comment on any post on Quora or send a message via Signal (https://signal.group/#CjQKILHj7074l2Kl-oYy0qGSFdydXbtu0Pf66Z_88K9IlSCtEhDDdqV_BFAW2qm2EiTGEaNs) so I can sort it out.
+Not foolproof for avoiding perp sign-ups. But a small start. If you are waiting to be approved for more than 24 hours. Comment on any post on Quora or send a message via Signal (https://signal.group/#CjQKILHj7074l2Kl-oYy0qGSFdydXbtu0Pf66Z_88K9IlSCtEhDDdqV_BFAW2qm2EiTGEaNs) so I can sort it out.
 
 Do not worry if a perp slips through. After immediate discovery their account would be deleted. And since TI Skills Economy is solely about instantaneously providing material value, they cannot do anything in the app and eventually self delete their accounts. And the TI Skills Economy never asks for any information the perps do not already have and so they walk away with nothing.
 
