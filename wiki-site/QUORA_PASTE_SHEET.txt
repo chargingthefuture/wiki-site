@@ -9,12 +9,20 @@ Entries are grouped by collection, newest first inside each group. The number is
 that entry's place within its own group, so it counts down to 1 at the end of
 each section.
 
-326 of 326 written.
+327 of 327 written.
 
 
 ==============================================================================
-POSTS — 50 of 50 written
+POSTS — 51 of 51 written
 ==============================================================================
+
+No. 51 · 2026-08-20 · An Invitation to Steph Wo.
+
+A bio that reads as a list of what the targeting interrupted: fine art and English, philosophy, architectural drafting, classical piano, modern creative dance, and a career that ended in early retirement rather than by choice. It then asks what past, what dreams. The catalog in the app holds 650 job titles and skills, 159 of them covered so far, and fine art and drafting are among them. None of it has to wait for the targeting to end first.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/an-invitation-to-steph-wo
+
+------------------------------------------------------------------------------
 
 No. 50 · 2026-08-20 · Transactional on Purpose
 
