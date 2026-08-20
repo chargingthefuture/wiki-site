@@ -49,7 +49,7 @@ The compounding effect is the part I would want a newcomer to see: fewer traffic
 
 Open the app and the first screen is Commons, the group chat. Ask anything there — how people handle a specific scheme, what they carry, what has actually helped with the mental health side of this. The icon next to it, the four squares, is Apps, and every app behind it is built around a different kind of exchange.
 
-Today's incident is also the kind of thing ClickLog exists for. A dated entry turns one bad afternoon into a record, and a tagged one adds to a map that shows where this is happening. And if verbal harassment of that sort is what wears you down, note that you do not have to transact with people like that at all. That is the other half of what the filter buys you.
+Today's incident is also the kind of thing ClickLog exists for. A dated entry makes what happened a record instead of a memory, and a tagged one adds to a map that shows where this is happening. And if verbal harassment of that sort is what wears you down, note that you do not have to transact with people like that at all. That is the other half of what the filter buys you.
 
 ## Where to find it in the app
 
