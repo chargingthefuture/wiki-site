@@ -133,6 +133,10 @@ canonical link. Every summary is written fresh rather than copied from the page'
 excerpt, so a paste is never identical to what the blog already shows — an account that gets
 deleted and rebuilt can repost the same piece without the text matching a previous post.
 
+Each entry ends with a `Full post: <url>` line, and the label is load-bearing: a bare URL alone on
+its own line is what Quora's editor converts into a preview card, while a URL inside a sentence is
+left as written. Paste the summary and that line together.
+
 Publishing a post is not finished until that file carries the new page. Every publish does three
 things: merge the post, add its entry to the paste sheet, and give the owner the Quora excerpt in
 the reply.
