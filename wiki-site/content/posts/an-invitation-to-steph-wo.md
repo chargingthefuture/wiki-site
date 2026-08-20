@@ -1,9 +1,9 @@
 ---
 title: "An Invitation to Steph Wo."
 date: "2026-08-20"
-excerpt: "A fine art degree, a drafting certificate, a piano, a career ended early by the targeting — and every one of them a square on a map already a quarter filled."
+excerpt: "A fine art degree, a drafting certificate, a piano, a career ended early by the targeting — and every one of them one of the 650 skills a working economy needs."
 category: "Community"
-teaser: "Steph Wo.'s Quora bio is a list of what the targeting interrupted: a BFA in fine art and English, a philosophy minor, architectural drafting, classical piano, modern creative dance, and a career that ended in early retirement rather than by choice. The bio then asks: what past, what dreams? The app carries a catalog of about 650 skills a working economy of this size needs, and the community now covers 159 of them — a quarter of the map. Fine art is on it. So is drafting. This is an invitation to put them back to use among people who are not going to take them again."
+teaser: "Steph Wo.'s Quora bio is a list of what the targeting interrupted: a BFA in fine art and English, a philosophy minor, architectural drafting, classical piano, modern creative dance, and a career that ended in early retirement rather than by choice. The bio then asks: what past, what dreams? The app carries a catalog of about 650 skills a working economy of this size needs, and the community now covers 159 of them — a quarter. Fine art is one of them. So is drafting. This is an invitation to put them back to use among people who are not going to take them again."
 topics:
   - members
   - skills-economy
@@ -17,17 +17,17 @@ Then it asks: what past, what dreams?
 
 ## That question has an answer that is not a consolation
 
-The app carries a catalog of roughly 650 job titles and skills — the full set a working economy of about five million people needs, built against a country of that size. It is the same list every profile is mapped against.
+The app carries a catalog of roughly 650 job titles and skills — the full set a working economy of about five million people needs, built against a country of that size. Every profile is matched against that same list.
 
-Right now, 99 people cover 159 of those 650. The app puts what that means in its own words: twenty-four percent of the skills potential of an independent nation state like Finland, Estonia, or Singapore. A quarter of the map is filled — and it is worth saying plainly that nobody here is forming a nation state. Those countries are the yardstick, nothing more.
+Right now, 99 people cover 159 of those 650. The app puts what that means in its own words: twenty-four percent of the skills potential of an independent nation state like Finland, Estonia, or Singapore. That is a quarter of them covered — and it is worth saying plainly that nobody here is forming a nation state. Those countries are the yardstick, nothing more.
 
-Fine art is a square on that map. So is English. So is architectural drafting. So is teaching an instrument, and so is dance. Not one of those has to wait for the targeting to end first.
+Fine art is one of the 650. So is English. So is architectural drafting. So is teaching an instrument, and so is dance. Not one of those has to wait for the targeting to end first.
 
 ## What resuming actually looks like here
 
 Not a support group, and not a place to describe the targeting again to people who already know. A directory profile states what you can do, in your own words, and other survivors find you by it. Someone needs a drafting eye on a plan. Someone wants to learn piano. Someone is looking for the person who can write the thing properly.
 
-That is the whole mechanism, and it is deliberately transactional. Traffickers do not provide material help — it is the one thing they consistently will not do — so a place organised around handing each other something real filters them out before anyone has to accuse anybody.
+That is the whole mechanism, and it is deliberately transactional. Traffickers do not provide material help — it is the one thing they consistently will not do — so a place organized around handing each other something real filters them out before anyone has to accuse anybody.
 
 Which is the part of this that matters for a bio like that one. The skills were not lost. They were made unusable by the people around them. Put them somewhere those people are not, and they work again.
 
