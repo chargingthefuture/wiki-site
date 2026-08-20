@@ -15,7 +15,7 @@ This is a living page. It is kept current, and its date moves it to the top of t
 
 ## Latest changes
 
-2026-08-20 — Every capability in the table now links straight to it in the app, with its guide section beside it. Mutual Time and Bug Reporting have no member-reachable page of their own, so they are listed without a link.
+2026-08-20 — Every capability in the table now links straight to it in the app, with its guide section beside it. Unlock added to the table — it was missing, and it is the door every member comes through. Mutual Time and Bug Reporting have no member-reachable page of their own, so they are listed without a link.
 
 2026-08-18 — Full refresh. Skills Economy naming (the TSE abbreviation is retired). The member-count vocabulary added (signed up, recruited, Community Value Index, Value waiting to happen). ClickLog vocabulary added. The capability table rebuilt to match the app as it runs today; retired capabilities removed.
 
@@ -91,6 +91,7 @@ DEW — Directed Energy Weapon.
 
 | Capability | What it is | Guide |
 |---|---|---|
+| [Unlock](https://app.chargingthefuture.com/plugin/unlock) | Verification — how a new member gets approved to use the app | — |
 | [Directory](https://app.chargingthefuture.com/apps/directory) | Browse skills across the survivor community | [guide](https://app.chargingthefuture.com/guide#directory) |
 | [Workforce](https://app.chargingthefuture.com/apps/workforce) | Real-time work and skills distribution; the recruited count and capacity math live here | [guide](https://app.chargingthefuture.com/guide#workforce) |
 | [Skills Taxonomy](https://app.chargingthefuture.com/apps/skills-taxonomy) | The shared catalog of sectors, job titles, and skills | [guide](https://app.chargingthefuture.com/guide#skills-taxonomy) |
