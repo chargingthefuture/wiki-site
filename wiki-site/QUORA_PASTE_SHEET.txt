@@ -1451,7 +1451,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 151 · 2025-12-16 · Social audio for TIs, talk live with TIs around the world
 
-The Saturday town halls moved to live social audio, so survivors anywhere in the world can drop into the same room and hear each other rather than reading text.
+The Saturday town halls left Twitch for Chyme, an Android social audio app, after people kept failing to get Twitch accounts working. Audio only, and Android only — there is no iOS app.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/social-audio-for-tis-talk-live-with-tis-around-the-world
 
@@ -1459,7 +1459,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 150 · 2025-12-13 · TV shows depicting the Speceterati
 
-Re-watching The Good Place and recognizing the machinery: a world built to torment someone while insisting it is something else entirely. Fiction gets close to this more often than people notice.
+Re-watching The Good Place: the first episode, and the series as a whole, shows what the Specterati do to a person — a world arranged to torment someone while insisting it is something else. About the torture tactics specifically, not the rest of the show.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/tv-shows-depicting-the-speceterati
 
@@ -1467,7 +1467,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 149 · 2025-12-12 · The numbers do not lie. The TI Skills Economy can sustain itself!
 
-With only fifteen directory profiles, the workforce tracker already showed an economy that could sustain itself. The arithmetic was the argument, and it held at that size.
+At fifteen directory profiles, Workforce Recruiter already showed an almost equal spread across every economic sector. The ask that follows it is plain: help more survivors sign up, because exchanging skills, goods and services with each other is the way out.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/the-numbers-do-not-lie-the-ti-skills-economy-can-sustain-itself
 
@@ -1475,7 +1475,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 148 · 2025-12-12 · What Is a Verified Profile?
 
-How the invite-only ecosystem stays safe: what verification actually checks, and why an unverified profile does not get the run of the place.
+A Verified badge means the community believes this member is likely a survivor. Unverified means verification has not happened yet, not that it will not — everyone goes through it, and how long it takes varies. The badge is not an endorsement; it exists to help you decide who to deal with.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/mono/verified-profiles
 
@@ -1483,7 +1483,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/mono/ve
 
 No. 147 · 2025-12-10 · The Specterati do not want us to do clinical trials, that is a sign we should do them
 
-One clinical trial I completed involved no medication at all — exercise and rest, paid. The interference that followed said more than the study did.
+One trial I completed involved no medication at all: exercise, breaks, and vitals taken at intervals. The fear-mongering in the replies is the tell — the Specterati do not want survivors in clinical trials, because a trial is hard to mob someone out of. Stick to healthy-volunteer trials.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/the-specterati-do-not-want-us-to-do-clinical-trials-that-is-a-sign-we-should-do-them
 
@@ -1491,7 +1491,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 146 · 2025-12-09 · Meetup with me to discuss the TI Skills Economy
 
-An open invitation to meet and talk through the workforce tracker and where the economy is going. Bring questions rather than agreement.
+In-person meetings to work through where the skills gaps are and how to fill them. Workforce Recruiter shows the gaps; RSVP for a meeting through the same app.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/meetup-with-me-to-discuss-the-ti-skills-economy
 
@@ -1515,7 +1515,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 143 · 2025-12-07 · New website, provide your feedback!
 
-A rebuilt site that explains what the app actually offers. Posted asking for criticism, because the people it is for are the ones who know when it is wrong.
+The website rewritten to say more about what the app actually offers, with the new and old versions shown side by side. Posted asking for feedback.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/new-website-provide-your-feedback
 
@@ -1531,7 +1531,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 141 · 2025-12-05 · SocketRelay - for creating your own luck!
 
-Ask the network for anything in 140 characters. Someone stole my clothes two winters running, and the board is what turned that from a private disaster into something people could answer.
+Ask the network for anything, in 140 characters, and any member can fill it. It exists because of Justin Singer: after the Specterati took my clothes one winter and my coat the next, I mentioned it in the group chat and a coat arrived in the mail within a week.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/socketrelay-for-creating-your-own-luck
 
@@ -1539,7 +1539,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 140 · 2025-12-04 · Introducing Workforce Recruiter, the new mini-app to chart the progress of the TI economy
 
-The workforce tracker: a running chart of what skills the community holds and what an economy built from them could support. The first instrument that made the idea measurable.
+Workforce Recruiter: a tracker for the skills the community holds and the gaps in them, built to show how healthy the economy is by following job roles, skill levels, and training options year over year.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/introducing-workforce-recruiter-the-new-mini-app-to-chart-the-progress-of-the-ti-economy
 
@@ -1555,7 +1555,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 138 · 2025-11-30 · Update to app approval page
 
-Two people were stuck waiting for approval because of how they entered their name at sign-up. Fixed, with a note on what to enter so it does not happen again.
+Two people were waiting on approval because the name they signed up with matched nobody seen in the Quora Space. The app now asks for your Quora profile, and anyone already pending gets prompted for it at the next sign-in.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/update-to-app-approval-page
 
@@ -1563,7 +1563,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 137 · 2025-11-29 · GentlePulse - Meditation app is ready!
 
-Sleep stories folded into GentlePulse rather than living as a separate app, because that is how people were reaching for them.
+SleepStories is gone as a separate mini-app; the meditations now live in GentlePulse. Optional like every mini-app, and anonymous throughout — including the mood prompt inside it.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/gentlepulse-meditation-app-is-ready
 
@@ -1571,7 +1571,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 136 · 2025-11-24 · Uber for TIs - TrustTransport mini-app launch
 
-TrustTransport is live — rides from drivers the community screened. If a stranger with an app is not safe for you, this is the alternative.
+TrustTransport launched: rides arranged inside the community instead of through Uber. It exists because Uber drivers were part of my targeting — theatre during the ride, then a rating hit afterwards.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/uber-for-tis-trusttransport-mini-app-launch
 
@@ -1579,7 +1579,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 135 · 2025-11-24 · Verified badge in the TI economy
 
-A verified badge on directory profiles, and what it does and does not claim about the person carrying it.
+A Verified badge added to directory profiles. Verified means several already-verified members believe this person is a survivor; no badge means not established yet. How long it takes varies, everyone is meant to get there, and the badge is not an endorsement.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/verified-badge-in-the-ti-economy
 
@@ -1595,7 +1595,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 133 · 2025-11-23 · Directory mini-app, updated - more skills added
 
-More options in the skills field, because the first list was too narrow to describe what people actually do.
+More options in the Directory's skills field. The Directory is the simple profile: a way to stay reachable whatever platform you are on, and a way to find a survivor with the skill you need — a mechanic, a plumber, a yoga instructor.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/directory-mini-app-updated-more-skills-added
 
@@ -1603,7 +1603,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 132 · 2025-11-23 · Less is more, the quest for simple
 
-A member's remark about less being more in targeted life, applied to how this app gets built. Every feature added is a thing someone has to learn.
+Melissa Jean Hayes's remark that less is more, applied here: cut the psyop and the noise, and keep the platform simple enough to get what you need from people with no hidden agenda. It is also why private DMs were eliminated — reach me in the group chat instead.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/less-is-more-the-quest-for-simple
 
@@ -1611,7 +1611,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 131 · 2025-11-18 · Adding campers to LightHouse
 
-Anyone with a working camper who wants to be part of the economy: housing does not only mean a room in a house, and the listing side should reflect that.
+Campers added as an option in LightHouse. For anyone with a working camper: trade maintenance tips, get matched with roommates, and find parking on land other survivors own.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/adding-campers-to-lighthouse
 
@@ -1619,7 +1619,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 130 · 2025-11-18 · Consequences vary based on what you can be inconvenienced with
 
-The pressure applied to a person is calibrated to what will actually inconvenience them. Recognizing that is how you stop reading a targeted act as random bad luck.
+What keeps participants in line: tip off a target and you are made to perform in front of them later. Refuse, and the bad luck lands on you instead — anything from a stolen lunch upward, because the Specterati run from government offices down to the street.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/consequences-vary-based-on-what-you-can-be-inconvenienced-with
 
@@ -1627,7 +1627,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 129 · 2025-11-18 · Damon Mayle, posing as a TI
 
-Someone from Quora presented as a survivor to get into a gated space. This is the account of how that went, posted because the next person deserves to recognize it.
+A person from Quora wanted a spot in a gated community organised entirely through Quora — my read is that the aim was to sow doubt and break up the economy. I never saw ID, the name may be false, and the Quora profile is gone.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/damon-mayle-posing-as-a-ti
 
@@ -1635,7 +1635,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 128 · 2025-11-18 · Perps cannot last 8 hours in the TI economy
 
-The chat group is for people actually participating. Someone who is not cannot keep the performance up for a working day, which turns out to be a useful filter.
+The chat group is for people actually using the economy. Active does not mean logging in or posting — it means using at least one service: hosting, renting, selling goods or services, driving another survivor.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/perps-cannot-last-8-hours-in-the-ti-economy
 
@@ -1651,7 +1651,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 126 · 2025-11-16 · Let's meet up! TI economy collaborations
 
-An effort to get survivors physically together and working on the same things, rather than only talking online.
+Strategic meetings with other survivors, starting with an audio-only group call on Signal — that call is the filter before meeting a stranger in person. Grouped by US state.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/lets-meet-up-ti-economy-collaborations
 
@@ -1667,7 +1667,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 124 · 2025-11-15 · I do not want to be another Quora: New DM Policy and Psyop Awareness
 
-From November 15, 2025 I changed how I handle direct messages. The reason is worth understanding even if you never message me: an open inbox is a channel that can be used against you.
+From November 15, 2025: no more one-to-one DMs. Everything goes through group chat or a public thread, after people used private messages to waste my time.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/i-do-not-want-to-be-another-quora-new-dm-policy-and-psyop-awareness
 
