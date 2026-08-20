@@ -79,18 +79,21 @@ wiki-site precisely because this is a separate repository; if that list changes,
 `content/archive/` is checked too. A British spelling in an archived post is a typo, and typos get
 fixed here — the copy-edit passes over the archive have been doing exactly that.
 
-There is exactly one thing that is never respelled: a Quora question title. Many archive posts are
-questions somebody else asked, which the owner then answered — the title is that person's wording,
-not ours, and correcting it puts words in their mouth. Leave it exactly as asked, and leave the slug
-minted from it alone too. Wrap it in `spelling:disable` / `spelling:enable` with the reason, so the
-gate stops asking. To tell one apart: the post answers its own title, usually opening with "Yes." or
-"No.", and often says "Question on Quora".
+What is never respelled is an archived title. Every file under `content/archive/` carries
+`status: closed` — 153 of them do — and that is the point: the topic was closed at export and the
+record is frozen as captured. A Quora title is also the thing the URL was minted from, so it is not
+free-floating text. Leave the title and its slug exactly as exported, wrap them in
+`spelling:disable` / `spelling:enable` with the reason, and correct the body around them.
 
-Everything else, including a URL, gets fixed (owner directive, 2026-08-20). A British spelling in a
-slug is still a typo. Breaking the link is acceptable: Quora deleted the accounts those links were
-shared from, so the audience that held them is gone and the project is starting over. When you
-change a slug, update every internal reference to it in the same commit — `content/`, the paste
-sheet, and the archive index — or the pages that pointed at it will 404.
+Whose words they are is not what settles it. Quora is global, and a British spelling from another
+writer is unremarkable there. It stays because the topic is closed and the title became an address,
+not because of who typed it.
+
+Everything else, including a URL on a page that is not a closed archive entry, gets fixed (owner
+directive, 2026-08-20). A British spelling in a slug is still a typo, and breaking the link is
+acceptable: Quora deleted the accounts those links were shared from, so the audience that held them
+is gone and the project is starting over. When you change a slug, update every internal reference in
+the same commit — `content/`, the paste sheet, and the archive index — or the referring pages 404.
 
 A file that disables and never re-enables is itself a failure, so a region cannot quietly swallow
 the rest of a file.
