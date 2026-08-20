@@ -168,10 +168,11 @@ URLs:
 | Unlock | `https://app.chargingthefuture.com/plugin/unlock` |
 | Commons (the group chat) | `https://app.chargingthefuture.com` |
 
-Guide sections exist for nineteen parts only: directory, foundation, chyme, socket-relay, beacon,
+Guide sections exist for twenty-one parts only: directory, foundation, chyme, socket-relay, beacon,
 peer-programming, mood, what-works, skills-hunt, workforce, skills-taxonomy, service-credits,
-contributions, level-up, trust-transport, lighthouse, click-log, recurring-activity, gdp. The list
-is generated from `ctf/packages/web/app/guide/guide-content.json` in the product repo — check it
+contributions, level-up, trust-transport, lighthouse, click-log, recurring-activity, gdp, trust,
+knowledge. Unlock, Commons, Mutual Time, and Bug Reporting have none. The list grows, and it is
+generated from `ctf/packages/web/app/guide/guide-content.json` in the product repo — check it
 rather than guessing. A part with no guide section gets the plugin link alone; never invent an
 anchor, since a wrong one lands the reader on the guide's top with no explanation.
 
