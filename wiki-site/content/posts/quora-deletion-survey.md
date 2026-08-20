@@ -81,6 +81,6 @@ I have lost four accounts to this now, and each time the only record was whateve
 
 - [Unlock](https://app.chargingthefuture.com/plugin/unlock)
 - [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Knowledge Library](https://app.chargingthefuture.com/knowledge)
+- [Knowledge Library](https://app.chargingthefuture.com/knowledge) — [guide](https://app.chargingthefuture.com/guide#knowledge)
 
 To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
