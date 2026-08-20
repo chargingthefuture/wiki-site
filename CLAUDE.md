@@ -141,6 +141,42 @@ Publishing a post is not finished until that file carries the new page. Every pu
 things: merge the post, add its entry to the paste sheet, and give the owner the Quora excerpt in
 the reply.
 
+## Link the Plugins a Post Names (owner decision, 2026-08-20)
+
+Version 3 of the app launched in June 2026. Any post dated on or after 2026-06-01 that speaks
+about a part of the app must link that part directly, plus its guide section. A post that names a
+capability and makes the reader go find it costs readers — they search, do not find it, and leave.
+
+Every such post ends with this section, placed immediately before the sign-up block:
+
+```
+## Where to find it in the app
+
+- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
+```
+
+One list item per part, in the order the post raises them. Link the part even when the post only
+describes it rather than naming it — a post that mentions "a vetted ride" links TrustTransport,
+because that is what the reader will go looking for.
+
+URLs:
+
+| Part | Address |
+|---|---|
+| Most plugins | `https://app.chargingthefuture.com/apps/<slug>` |
+| Knowledge Library | `https://app.chargingthefuture.com/knowledge` |
+| Unlock | `https://app.chargingthefuture.com/plugin/unlock` |
+| Commons (the group chat) | `https://app.chargingthefuture.com` |
+
+Guide sections exist for nineteen parts only: directory, foundation, chyme, socket-relay, beacon,
+peer-programming, mood, what-works, skills-hunt, workforce, skills-taxonomy, service-credits,
+contributions, level-up, trust-transport, lighthouse, click-log, recurring-activity, gdp. The list
+is generated from `ctf/packages/web/app/guide/guide-content.json` in the product repo — check it
+rather than guessing. A part with no guide section gets the plugin link alone; never invent an
+anchor, since a wrong one lands the reader on the guide's top with no explanation.
+
+Snapshot posts are exempt: they are frozen once published. Living pages are not exempt.
+
 ## Sign-Up Line in Posts (owner decision, 2026-08-18)
 
 Readers ask where to sign up; consumer apps need it explicit. Every post that invites participation ends with this exact block, verbatim, as the final paragraph — once per post, never in the body, never varied:

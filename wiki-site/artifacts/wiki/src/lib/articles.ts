@@ -28,6 +28,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "quora-deletion-survey",
+    "title": "If Quora Closed Your Account, There Is Now Somewhere to Say So",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-19",
+    "excerpt": "A public survey recording accounts Quora removed — what was taken, when, and what reason was given. Reading it needs no account.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/quora-deletion-survey.md",
+    "teaser": "Every time an account goes, the record of it goes too. There is now a survey that keeps that record outside Quora: which handle, what happened to it, what month, and what reason was given — one card per closed account, so no total is a number somebody typed. Reading it needs no account. Your handle and your words stay unpublished unless you say otherwise, and your report still counts either way.",
+    "topics": [
+      "quora",
+      "research"
+    ]
+  },
+  {
     "slug": "clicklog-trends-now-say-where",
     "title": "The Trends Report Now Says Where",
     "repo": "chargingthefuture/wiki-site",
@@ -70,21 +85,6 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "publishing",
       "platform-independence"
-    ]
-  },
-  {
-    "slug": "quora-deletion-survey",
-    "title": "If Quora Closed Your Account, There Is Now Somewhere to Say So",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-19",
-    "excerpt": "A public survey recording accounts Quora removed — what was taken, when, and what reason was given. Reading it needs no account.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/quora-deletion-survey.md",
-    "teaser": "Every time an account goes, the record of it goes too. There is now a survey that keeps that record outside Quora: which handle, what happened to it, what month, and what reason was given — one card per closed account, so no total is a number somebody typed. Reading it needs no account. Your handle and your words stay unpublished unless you say otherwise, and your report still counts either way.",
-    "topics": [
-      "quora",
-      "research"
     ]
   },
   {

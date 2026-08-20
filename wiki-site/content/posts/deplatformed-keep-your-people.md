@@ -35,4 +35,8 @@ It takes a couple of minutes, and what it gives you is a place where your skills
 
 That is the whole point of building this where a single account cannot take it down. Exit their economy, exit the psyop.
 
+## Where to find it in the app
+
+- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
+
 To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.

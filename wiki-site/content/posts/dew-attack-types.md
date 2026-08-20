@@ -33,6 +33,11 @@ That is not the whole picture, and I know it. It is the seed.
 
 ## How to add to it
 
-If you experience a type of attack that is not on this list, comment in the [Commons group chat](https://app.chargingthefuture.com/guide#commons) in the app. Describe what it feels like in your own words; a plain name for it gets worked out in the thread. The list grows the way the schemes list grows: from what members actually report, one named entry at a time.
+If you experience a type of attack that is not on this list, comment in the [Commons group chat](https://app.chargingthefuture.com) in the app. Describe what it feels like in your own words; a plain name for it gets worked out in the thread. The list grows the way the schemes list grows: from what members actually report, one named entry at a time.
+
+## Where to find it in the app
+
+- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
+- [Commons](https://app.chargingthefuture.com) — the group chat
 
 To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.

@@ -77,4 +77,10 @@ Two things then come out of one deletion: a line in a record that can be counted
 
 I have lost four accounts to this now, and each time the only record was whatever I happened to write down afterwards. That is not good enough, and it does not have to be how it goes.
 
+## Where to find it in the app
+
+- [Unlock](https://app.chargingthefuture.com/plugin/unlock)
+- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
+- [Knowledge Library](https://app.chargingthefuture.com/knowledge)
+
 To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
