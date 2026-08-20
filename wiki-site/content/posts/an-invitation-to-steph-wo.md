@@ -23,8 +23,6 @@ Right now, 99 people cover 159 of those 650. The app puts what that means in its
 
 Fine art is a square on that map. So is English. So is architectural drafting. So is teaching an instrument, and so is the kind of physical discipline that keeps someone running and riding for three decades. Not one of those is a hobby that has to wait for the targeting to end first.
 
-To be exact about the number, because these two get conflated everywhere else: 99 is people researched and placed on the skills map, not people who have signed up. Signed-up-and-approved members are a smaller number. Both are real, and neither substitutes for the other.
-
 ## What resuming actually looks like here
 
 Not a support group, and not a place to describe the targeting again to people who already know. A directory profile states what you can do, in your own words, and other survivors find you by it. Someone needs a drafting eye on a plan. Someone wants to learn piano. Someone is looking for the person who can write the thing properly.
