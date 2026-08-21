@@ -41,7 +41,7 @@ This has been going on since I was five. That length of time does two things. It
 
 I do not talk about what I enjoy. Other survivors have not learned that, and I do not blame them for it. If you were targeted later in life you already had a job, a family, children, all the ordinary machinery of an adult, and there is too much running at once to notice a stranger repeating themselves.
 
-I had the opposite. I was a child, and I did not speak English. Observation was all I had, and it was easy. My first stalker was an adult in their thirties when I was five: a stranger, no shared language, near me repeatedly. In that setting it stood out. It could not not stand out.
+I had the opposite. I was a child, and I did not speak English. Observation was all I had, and it was easy. My first stalker was an adult in their thirties when I was five: a stranger, no language in common with me, carrying open hatred for a child who had done nothing to them. It was not the repetition that gave it away. It was that. There is no version of a grown adult hating a five-year-old they have never spoken to that a child reads as ordinary.
 
 I do not think I am unusually clever. I think I was placed, very young, in a position where the only available activity was watching.
 
