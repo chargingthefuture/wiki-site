@@ -1004,7 +1004,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 55 · 2026-06-20 · Fixes to LightHouse, Chyme, and Unlock
 
-LightHouse currency display and editing, Chyme audio rooms, and general platform stability.
+If you list a space in LightHouse you can now set its price in the currency that fits where you are, and edit your own listing instead of applying to change it. In Chyme, a raised hand stays raised when you move between rooms. Unlock admins can correct a submission's Quora profile URL directly.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-06-20-Fixes-Across-Plugins
 
@@ -1090,7 +1090,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 ------------------------------------------------------------------------------
 
-No. 44 · 2026-06-15 · ServiceCredits now tracks money flow and wallet limits
+No. 44 · 2026-06-15 · ServiceCredits now tracks credit flow and wallet limits
 
 ServiceCredits gained a credit policy layer: how many credits exist, a flat and equal limit for everyone with no scores or ranking, and a ceiling on total credits in circulation.
 
