@@ -49,11 +49,15 @@ https://www.quora.com/profile/KingAndYou — my fifth handle. Removed on August 
 
 Worth recording, because it is the part that settles the question.
 
-Each of these accounts ran a different content strategy. That was deliberate. One posted at volume. One posted twice in its entire life — two short summaries with a link back here, no reposting, no back catalog. Others sat between. If the content were the problem, the accounts doing opposite things would not have met the same end.
+Each of these accounts ran a different content strategy. That was deliberate. One posted at volume. One posted twice in its entire life — two short summaries with a link back here, no reposting, no back catalog. Others sat between. Exactly one of them ever received a warning, and I changed how I posted after it.
 
-They met the same end. Each was marked as spam, and none of it was spam.
+They ended the same way regardless, and the reason given is the same boilerplate every time: financial gain and spam. Neither is true.
 
-When you change the variable and the outcome does not move, the variable was not the cause. Which means there is no version of my posting that survives, and no adjustment left to make. That is worth knowing plainly rather than spending another account finding out.
+Financial gain first. I do not charge anyone for anything. The blog is free to read and the app is free to use. Writing about something you built is not financial gain, and if it were, that rule would take out a large share of the accounts on the platform. Quora runs ads between the posts and has a paid tier that writers earn from — monetizing there is not merely permitted, it is built into the place. Which is difficult to square with free links being the problem. Charging people to read me on Quora would be fine. Giving it away is not.
+
+Spam is easier to answer. Two posts across an account's entire life is not spam under any definition anyone uses, and that account was deleted like the rest.
+
+So the label does not describe what happened. And when you change the variable and the outcome does not move, the variable was not the cause. There is no version of my posting that survives, and no adjustment left to make. That is worth knowing plainly rather than spending another account finding out.
 
 Nothing those accounts posted is lost. The posts are being restored to the archive section of this blog, each marked with the account it came from, the date it was originally posted, and a link to the original question where one still exists.
 
