@@ -18,7 +18,7 @@ https://app.chargingthefuture.com/apps/lighthouse
 
 * 🛠️ MechanicMatch: Connect with trusted mechanics when your car breaks down or is tampered with: https://app.chargingthefuture.com/apps/mechanicmatch
 
-* 💼 Workforce Recruiter: Review the collective skillset of the TI Skills Economy and find or expand your career amongst TIs: https://app.chargingthefuture.com/apps/workforce-recruiter
+* 💼 Workforce Recruiter: Review the collective skillset of the TI Skills Economy and find or expand your career among TIs: https://app.chargingthefuture.com/apps/workforce-recruiter
 
 * 🫂 SupportMatch: Find accountability partners who understand
 https://app.chargingthefuture.com/apps/supportmatch

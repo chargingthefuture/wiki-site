@@ -7,7 +7,7 @@ import { ShareLink } from "@/components/ShareLink";
 import { MarkdownRenderer } from "@/components/MarkdownRenderer";
 import { AppLoading } from "@/components/AppLoading";
 import { useArticle } from "@/hooks/use-article";
-import { ARTICLES } from "@/lib/articles";
+import { findArticle } from "@/lib/content";
 import { estimateReadTime } from "@/lib/utils";
 import { formatArticleDate } from "@/lib/dates";
 
@@ -15,12 +15,19 @@ export default function Article() {
   const params = useParams();
   // Safe decode in case of URL encoding
   const repo = params.repo ? decodeURIComponent(params.repo) : "";
-  const slug = params.slug ? decodeURIComponent(params.slug) : "";
+  // The route is /article/:repo/* so a folder slug (e.g.
+  // "discourse-migrate/collecting-vitals-24-7") matches whether the link
+  // carries real slashes or an encoded %2F. Decode per segment.
+  const rawSlug = (params as Record<string, string | undefined>)["*"] ?? "";
+  const slug = rawSlug
+    .split("/")
+    .map((segment) => decodeURIComponent(segment))
+    .join("/");
 
   const { data: content, isLoading, isError } = useArticle(repo, slug);
 
   // Find meta data if it exists in our list
-  const meta = ARTICLES.find(a => a.slug === slug);
+  const meta = findArticle(slug);
   const readTime = content ? estimateReadTime(content.length) : meta ? estimateReadTime(meta.excerpt.length * 20) : 5;
 
   return (

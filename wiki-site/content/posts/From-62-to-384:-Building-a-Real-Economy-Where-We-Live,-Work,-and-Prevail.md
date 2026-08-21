@@ -1,6 +1,6 @@
 ---
 title: "From 62 to 384: Building a Real Economy Where We Live, Work, and Prevail"
-date: "2026-01-01"
+date: "2026-05-23"
 excerpt: We have the potential to reach 5 million TIs (human trafficking survivors) who come together to reclaim our lives. But today, I want to focus on the power of r...
 category: Community
 slug: From-62-to-384:-Building-a-Real-Economy-Where-We-Live,-Work,-and-Prevail

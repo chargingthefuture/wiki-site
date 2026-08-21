@@ -27,7 +27,17 @@ export function stripFrontMatter(markdown: string): string {
 }
 
 export function findArticle(slug: string): ArticleMeta | undefined {
-  return ARTICLES.find((a) => a.slug === slug);
+  const exact = ARTICLES.find((a) => a.slug === slug);
+  if (exact) return exact;
+  // Alias fallback: links in the wild sometimes carry a wrong or outdated
+  // folder prefix (e.g. discourse-migrate/v2k-for-decades when the real slug
+  // is v2k-for-decades). Resolve by the final path segment when exactly one
+  // article matches it, so an old shared link lands on the article instead
+  // of a dead page.
+  const base = slug.split('/').pop();
+  if (!base) return undefined;
+  const matches = ARTICLES.filter((a) => a.slug.split('/').pop() === base);
+  return matches.length === 1 ? matches[0] : undefined;
 }
 
 export async function loadArticleContent(path: string): Promise<string> {

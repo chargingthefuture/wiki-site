@@ -1,6 +1,6 @@
 ---
 title: 24/7 Chyme Rooms
-date: "2026-01-01"
+date: "2026-01-04"
 excerpt: "I have opened the rooms below in Chyme, and they will stay open 24/7. Download the Chyme Android app: https://app.chargingthefuture.com/apps/chyme. Once logged..."
 category: Community
 slug: 24-7-Chyme-Drop-In-Rooms
@@ -18,7 +18,7 @@ Rooms are based on all the sectors of the TI Skills Economy. In the screenshot b
 
 Note, population size is 5 million TIs to serve, understanding that only 50%, 2.5 million, are working. It is unrealistic to think that the TI Skills Economy will capture all 2.5 million TIs willing to work with other TIs. But these benchmarks help us measure our success as well as fill in any workforce gaps.
 
-The purpose of these meetings on job sectors is to strategize and provide input on how to organize to deliver goods and services amongst each other. Note that the goal is to have each TI reach the level of autonomy from the Specterati they want. I (Farah) am not a leader of TIs. I am providing the software to facilitate your freedom. Hence, you may use Chyme to hang out or to discuss the TI Skills Economy.
+The purpose of these meetings on job sectors is to strategize and provide input on how to organize to deliver goods and services among each other. Note that the goal is to have each TI reach the level of autonomy from the Specterati they want. I (Farah) am not a leader of TIs. I am providing the software to facilitate your freedom. Hence, you may use Chyme to hang out or to discuss the TI Skills Economy.
 
 # 24/7 Chyme Rooms
 

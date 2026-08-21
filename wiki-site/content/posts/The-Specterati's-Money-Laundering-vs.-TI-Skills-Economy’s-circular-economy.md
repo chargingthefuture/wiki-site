@@ -1,6 +1,6 @@
 ---
 title: Why that matters for the TI Skills Economy (TSE)
-date: "2026-01-01"
+date: "2026-01-23"
 excerpt: The Specterati's Money laundering vs. TI Skills Economy’s circular economy, why they’re not the same thing
 category: Community
 slug: The-Specterati's-Money-Laundering-vs.-TI-Skills-Economy’s-circular-economy

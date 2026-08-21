@@ -1,6 +1,6 @@
 ---
 title: Inferring occupations from skills
-date: "2026-01-01"
+date: "2025-12-30"
 excerpt: One of the features of Workforce Recruiter is that a survivor can list their skills, and the built-in algorithm will infer what occupations match those skills.
 category: Guides
 slug: guides/workforce-recruiter/inferring-occupations-from-skills
@@ -23,4 +23,4 @@ And it is a filtered view of TIs that demonstrate "intermediatory" skill level. 
 
 ---
 Post on Quora
-https://tiskillsnetwork.quora.com/Inferring-occupations-from-skills
+https://skillseconomy.quora.com/Inferring-occupations-from-skills

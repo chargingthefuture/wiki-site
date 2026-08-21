@@ -3,7 +3,7 @@ title: "How the math works"
 date: "2026-08-17"
 excerpt: "Someone asked me in a DM how 97 people can point at a $13.8 million economy. Here is the answer I sent, cleaned up."
 category: "Community"
-teaser: "Someone asked me in a DM how 97 people can point at a $13.8 million economy. The answer fits in a few paragraphs: the UN's own reports say about 2 million, underreporting says more, Finland says what jobs an economy needs, Singapore says what one worker's skills produce, and Estonia proves you can build from nothing but skills in about two generations. None of it requires believing me — every number can be checked."
+teaser: "Someone asked me in a DM how 97 people can point at a $13.8 million economy. The answer fits in a few paragraphs: the UN's own reports say about 2 million, underreporting says more, Finland gives a country the right size and shape to model against, Singapore says what one worker's skills produce, and Estonia proves you can build from nothing but skills in about two generations. None of it requires believing me — every number can be checked."
 topics:
   - economy
   - model
@@ -74,5 +74,10 @@ If you want to understand the feature at your own pace, the guide walks through 
 And if you have questions after that, chat with me live in the #general channel in the app.
 
 The app is free. If you have a skill, it is one of the 650, and someone here will need it. You do not have to agree with me about who is doing this or why. You have skills. You need work, housing, and rides. So does everyone else here. That is the whole pitch.
+
+## Where to find it in the app
+
+- [Workforce](https://app.chargingthefuture.com/apps/workforce) — [guide](https://app.chargingthefuture.com/guide#workforce)
+- [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
 
 To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.

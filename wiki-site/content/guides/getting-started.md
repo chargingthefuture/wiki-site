@@ -26,4 +26,4 @@ Do not worry if a perp slips through. After immediate discovery their account wo
 ---
 
 Post on Quora
-https://tiskillsnetwork.quora.com/There-are-perps-impersonating-Quora-profiles-when-signing-up-for-the-TI-Skills-Economy-Specifically-profiles-that-have
+https://skillseconomy.quora.com/There-are-perps-impersonating-Quora-profiles-when-signing-up-for-the-TI-Skills-Economy-Specifically-profiles-that-have
