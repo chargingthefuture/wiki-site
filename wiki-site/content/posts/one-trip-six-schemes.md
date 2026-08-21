@@ -33,7 +33,7 @@ St. Louis, the skit. A woman came up to me with scripted-sounding talk and would
 
 Also in St. Louis, the pair repeated the phrase "stay apart, keep apart" back at me. Those words come from an old employment dispute of mine that was resolved days ago, in which the person who accused me later admitted he had lied. Private history, performed at me on a sidewalk by strangers.
 
-The Replay is not limited to recent history. They will re-enact things from decades back — mine started when I was five — and much of what they replay never happened. It was fabricated at the time by someone running drama, which is exactly what that employment dispute was, before the man who started it admitted he had lied. Watching strangers perform a fiction at you is, mostly, absurd.
+The Replay is not limited to recent history. They will re-enact things from decades back — mine started when I was five — and much of what they replay never happened. It was fabricated at the time by someone running drama, which is exactly what that employment dispute was, before the man who started it admitted he had lied. Watching strangers perform a fiction at you is absurd and disturbing at the same time, and which of those it is depends on who is watching. To the target it is comical. To a network of people who enjoy torture it is sadism, which is presumably why it is worth their time.
 
 It is not that I have thick skin. It started early enough that I never learned to take a skit inside. Manufactured drama stays outside, and attention stays on the work. That is the position the Skills Economy got built from.
 
