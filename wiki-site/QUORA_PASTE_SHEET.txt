@@ -469,7 +469,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/mono/gu
 
 No. 3 · 2025-12-30 · Hosting in LightHouse
 
-For anyone considering hosting another survivor: what LightHouse asks of a host, what it does not, and how a listing works from the host's side.
+Two screenshots of the hosting side of LightHouse, showing what a host sees when listing a place.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/guides/lighthouse/hosting
 
@@ -498,7 +498,7 @@ INSIGHTS — 2 of 2 written
 
 No. 2 · 2025-12-30 · Insights
 
-Laundering and a circular economy move value in similar ways and for opposite reasons. Setting the two side by side is the clearest explanation I have of what this project is doing and why the mechanics look familiar.
+The index of the insights pages: the peer-to-peer crisis hotline, problem number 49 worked through in full, money laundering set against a circular economy, and mood ratings.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/insights/insights
 
@@ -506,7 +506,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 1 · 2025-12-28 · #49 of how TI Skills Network helps you exit the psyop
 
-Number 49 in the series matching each documented tactic to the part of the app that answers it. Nat Morris catalogued fifty of them; this is one worked through in full.
+Number 49 in the series matching each documented tactic to the parts of the app that answer it. The list of fifty was compiled with Nat Morris's help. This one is about relatives and acquaintances you have not seen in decades forcing their way back into your life, and it names four mini-apps that address it.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/insights/%2349-of-how-TI-Skills-Network-helps-you-exit-the-psyop
 
@@ -527,7 +527,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 17 · 2025-12-12 · Looking for a Financial Advisor? Meet Holly D
 
-Holly D is a financial advisor, with a directory profile you can reach directly. If that is the help you need, she is findable now instead of hidden in a feed.
+Holly D is a financial advisor, with a directory profile you can reach directly. If that is the help you need, the profile is findable now instead of buried in a feed. It is claimable at any time, and removable on request.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/member%20of%20the%20day/looking-for-a-financial-advisor-meet-holly-d
 
@@ -535,7 +535,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 16 · 2025-12-12 · Looking for a photographer or musician? Lisa Jaramilo
 
-Lisa Jaramillo is a musician and a photographer. It is a hard thing that the Specterati cost people work like this — and the counter is simple: put the skill somewhere other survivors can find and hire it.
+Lisa Jaramillo is a musician and a photographer, and the targeting took the ability to do that work. The counter is simple: put the skill where other survivors can find it and trade for it.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/member%20of%20the%20day/looking-for-a-photographer-or-musician-lisa-jaramilo
 
@@ -607,7 +607,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 7 · 2025-10-20 · Member of the Day: Ione
 
-Ione is a counselor. In her own words: she speaks the truth as she knows it, and is willing to. That is worth having in a community where most people have been told they are imagining things.
+Ione is a counselor, quoted in their own words: "I speak the truth as I know it. I am willing to admit I'm wrong because I don't know everything. I am a great researcher. I've been a TI for 41 years." Worth having in a community where most people have been told they are imagining things.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/member%20of%20the%20day/member-of-the-day-ione
 
