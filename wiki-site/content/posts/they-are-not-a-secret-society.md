@@ -23,6 +23,18 @@ So why say it at all? Because "secret society" recruits. It tells someone being 
 
 There is a cost to us in repeating it. A secret society is unreachable — nothing to do about it but marvel. A trafficking operation with an enforcement arm has an economy underneath it, and an economy is a thing you can decline to participate in.
 
+## The same job, done with technology
+
+There is a version of the brag aimed at the technically minded, and it works better than the original.
+
+They will steer you toward the question of how. What are they using to get into the phone. Which exploit, which frequency, which device. Survivors spend years on that question. Some spend money they do not have on equipment to answer it.
+
+It is the same move as the secret society, wearing different clothes. It makes them look unreachably sophisticated, and it hands you a problem with no bottom — you can always not yet know the answer, which means you can always still be working on it rather than on anything that would change your situation.
+
+The technology is not the problem. The people are. Whatever they are using is in their hands because somebody with access put it there, and if that particular thing vanished tomorrow they would use the next one. No device you can name ends this, because no device started it.
+
+What is true is duller and more useful: a great many people have been given permission to hurt you and face no consequence for doing it. That is a problem about people and arrangements, and it gets answered where everything else here gets answered.
+
 ## Collective amusement
 
 The second entry names why so much of it happens at all: a group is watching, and the group is entertained.
