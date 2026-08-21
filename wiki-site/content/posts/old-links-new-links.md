@@ -53,7 +53,13 @@ Each of these accounts ran a different content strategy. That was deliberate. On
 
 They ended the same way regardless, and the reason given is the same boilerplate every time: financial gain and spam. Neither is true.
 
-Financial gain first. I do not charge anyone for anything. The blog is free to read and the app is free to use. Writing about something you built is not financial gain, and if it were, that rule would take out a large share of the accounts on the platform. Quora runs ads between the posts and has a paid tier that writers earn from — monetizing there is not merely permitted, it is built into the place. Which is difficult to square with free links being the problem. Charging people to read me on Quora would be fine. Giving it away is not.
+Financial gain first, because there is exactly one thing sitting behind that claim. One account posted that the app cost a dollar a month. That account was deleted.
+
+A dollar a month did not cover the hosting bill, never mind break even — I was donating plasma to keep the thing online, which is on this blog too. The price lasted a few months and then I made the app permanently free, which it has been ever since.
+
+So that is the entire basis: one post, one price, one account, and a price that lost money every month it existed. Every account after it mentioned no cost at all, because there is no cost. Those were deleted too, for financial gain.
+
+And if writing about something you built counted as financial gain, the rule would take out a large share of the accounts on the platform. Quora runs ads between the posts and has a paid tier that writers earn from — monetizing there is not merely permitted, it is built into the place. Charging people to read me on Quora would be fine. Giving it away is not.
 
 Spam is easier to answer. Two posts across an account's entire life is not spam under any definition anyone uses, and that account was deleted like the rest.
 
