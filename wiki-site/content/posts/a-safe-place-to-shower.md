@@ -21,7 +21,7 @@ Which is why the showers cannot be locked from the inside. Staff need to be able
 
 An employee keyed me into a shower. I undressed. Immediately after, an employee opened the door and exposed me, completely, to a man standing there. He was not undressed. He laughed.
 
-The laughter is the part that settles it. An accidental door is silent and embarrassed. This was neither. It was staged, and what it was for is plain enough: humiliation, and a day made bad.
+The laughter is the part that settles it. An accidental door is silent and embarrassed. This was neither. It was staged, and what it was for is plain enough: humiliation, and a "day made bad." That phrase is theirs, not mine. A ruined day is a thing they manufacture and then grade and compare among themselves. I am not reporting that I had a bad day. I am describing what they were producing one for.
 
 ## The building changes and the move does not
 
