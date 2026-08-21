@@ -73,11 +73,15 @@ They read what we write. If I read another survivor's post saying theirs is Wedn
 
 And I am not going to tell you there is a safe place to answer. They read the Commons. They read the chats I have with the tools I build this thing with. Anywhere I could ask, they can read. I would rather say that plainly than sell you a private channel that is not private.
 
-Two things do work, and neither of them is secrecy.
+What works instead is not secrecy. It is dependence, or rather the absence of it.
 
-The first is recognition. A Wednesday that arrived because somebody copied it out of a post is still a bad Wednesday, but it is one you can see the wires on. I do not internalize these any more. I know the shape, so it registers as a move being made rather than as something happening to me, and it bothers me considerably less. That is not a small thing to be able to do.
+Being watched is not what gives them power over you. Needing something from them is. Every move in the catalog runs on a dependency: the account you rely on to be heard, the employer who can be leaned on, the landlord, the relative whose spare room is the only roof left. Remove the dependency and the watching buys them nothing. They can read every word of this and it gets them no leverage, because there is nothing here they are in a position to withhold from me.
 
-The second is the whole argument of this project. The reason they have so much to work with is that we are reachable in so many places. I am not on social media apart from Quora. If I take myself off Quora and operate here, most of these games have nowhere to land — not because this place is hidden, but because it is small and it is ours, and the surface they can reach is a fraction of what it was. Then when I step outside it, I recognize what is being run and it does not take. That is closer to freedom than any privacy setting has ever gotten me.
+That is the material half. I am not on social media apart from Quora. If I take myself off Quora and operate here, most of these games have nowhere to land — not because this place is hidden, but because nothing I need comes to me through them any more.
+
+The other half is the same idea applied inwards. The grading only works on someone who is waiting to hear the verdict. Friday is chosen because the culture agrees Friday is the good one — but I am not on that clock, so ruining it does not do what they intend. I know the shape, so a bad day registers as a move being made rather than as something happening to me. I do not internalize them. A Wednesday copied out of somebody's post is still a bad Wednesday, but it is one you can see the wires on.
+
+Depending on nobody who is being paid to harm you, and not handing them your interior either. That is closer to freedom than any privacy setting has ever gotten me.
 
 So answer in the [Commons](https://app.chargingthefuture.com), the group chat inside the app, knowing they are reading over your shoulder there as everywhere else. What the answers are for is not keeping a secret. It is a set of us knowing the shape well enough that it stops working. The Dictionary is a living page kept in a public repository, so every change to it is dated and on the record — including the ones that come from being told I got it wrong.
 
