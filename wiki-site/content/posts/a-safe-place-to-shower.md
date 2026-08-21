@@ -3,7 +3,7 @@ title: "A Safe Place to Shower"
 date: "2026-08-21"
 excerpt: "They have run honeypots at me for decades and I have never engaged with one. So they went to the next best option: an employee with a key, and a shower door that does not lock."
 category: "Community"
-teaser: "I am destitute, and I shower in a day facility used by violent criminals and people using drugs, where the showers cannot be locked from the inside. Yesterday an employee keyed me in, and the moment I had undressed a door was opened and I was exposed to a man standing there, who laughed. ClickLog gained two things this week to name that: a problem tag for sexual violence, and a scheme called The Staged Exposure. I think it is what they reach for when the honeypots do not work, and I think honeypotting belongs in the same category — though I do not know what a lawyer or a clinician would call it."
+teaser: "I was mobbed out of work and out of housing, and my businesses were driven to zero equity, so I shower in a day facility used by violent criminals and people using drugs, where the showers cannot be locked from the inside. Yesterday an employee keyed me in, and the moment I had undressed a door was opened and I was exposed to a man standing there, who laughed. ClickLog gained two things this week to name that: a problem tag for sexual violence, and a scheme called The Staged Exposure. I think it is what they reach for when the honeypots do not work, and I think honeypotting belongs in the same category — though I do not know what a lawyer or a clinician would call it."
 topics:
   - clicklog
   - safety
@@ -11,7 +11,9 @@ topics:
 
 Losing your housing does not only mean losing somewhere to sleep. It means the ordinary business of washing moves into facilities that belong to other people, on their terms, under whatever conditions they set.
 
-I am destitute. I do not stay in a shelter — there is too much abuse in them. Where I stay is somewhere between that and the street, and a day facility is where I shower. That is not a choice among options. It is what is available to someone with nothing.
+I am destitute, and that was done to me. I was mobbed out of employment and mobbed out of housing. My businesses were driven to zero equity: slander that makes building a professional network impossible, people placed inside as employees, and real employees frightened off. None of that is misfortune. It is a sequence with an intended result, and the result is a person with nothing left to fall back on.
+
+I do not stay in a shelter — there is too much abuse in them. Where I stay is somewhere between that and the street, and a day facility is where I shower. That is not a choice among options. It is what is left.
 
 The people using it include violent criminals and people using drugs. I am not saying that to look down on anyone — I have been verbally and physically assaulted in these places more than once, by the people in them. It is a description of the room I have to undress in.
 
