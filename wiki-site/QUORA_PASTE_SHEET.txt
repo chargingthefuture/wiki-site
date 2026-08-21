@@ -9,6 +9,12 @@ Entries are grouped by collection, newest first inside each group. The number is
 that entry's place within its own group, so it counts down to 1 at the end of
 each section.
 
+The UPDATE PASTES section at the end is different. Those are extra pastes tied to
+a change on a living page rather than to the page itself, for when the change is
+the thing worth posting about. A living page keeps its one standing summary in
+its own section above; an update paste sits alongside it and does not replace it.
+They carry no number, because they are not one-per-page.
+
 WORKING DRAFT, UNDER REVISION. These summaries are a staging file for pasting
 elsewhere. They are not published writing and they are not the record — each
 entry's post is, and the post is what to trust if the two ever disagree. Every
@@ -2673,3 +2679,21 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 ------------------------------------------------------------------------------
 
+
+==============================================================================
+UPDATE PASTES
+==============================================================================
+
+UPDATE · 2026-08-21 · Dictionary — two entries added to the Specterati lexicon
+
+Two lines went into the Dictionary today, both about what these people are rather than what they do.
+
+"Secret society" is their own brag, and it is wrong by definition. A secret society hides its membership and its purpose. These people announce themselves to their targets constantly — the crowding, the repeated phrases, the run-ins. The signaling is not a slip in the operation, it is the operation. What they actually are is a control mechanism run by traffickers, with the harassment as its enforcement arm. The brag is recruitment theater. It flatters the person doing it and frightens the person it is done to, which is two jobs from one phrase.
+
+The second is collective amusement: the reason days get scheduled and graded is that a group is watching and the group is entertained. The audience is the point.
+
+The Dictionary is a living page kept in a public repository, so every change to it is dated and on the record.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary
+
+------------------------------------------------------------------------------
