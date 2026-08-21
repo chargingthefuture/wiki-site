@@ -11,6 +11,8 @@ topics:
 
 Somebody wrote this in the Skills Economy space, and it is worth answering properly. [Gn0b0dy Pneuma](https://www.quora.com/profile/Gn0b0dy-Pneuma) said that Targeted Individuals constantly report that operatives can see through their eyes and hear what they hear — and that in their own experience, the people making that claim are lying. They finished with a paraphrase of Sun Tzu: make your enemy think you are powerful when you are not, and close when you are far.
 
+![A comment by Gn0b0dy Pneuma in the Skills Economy space on Quora, reading: I constantly see TIs say gang stalkers can see through their eyes and hear what they hear, yet in my experience it is them always lying when they make that claim, but I do see how someone can tricked into believing it. I also don't think they can read your mind per se, only hear your internal voice and are good at saying what you expect them to say. So if you think they can read your mind you will expect them to say what is on your mind and then they say it, which they use to try and trick you into believing they know way more than they actually do. Maybe they are able to with other TIs tho, but when they tell me that I know they are lying. People like that love the art of war: Make your enemy think you are powerful when you are not, close when you are far, paraphrase.](images/gn0b0dy-pneuma-comment-2026-08-21.png)
+
 I do not believe it either. And I think I can say what is actually happening in its place.
 
 ## People are predictable, and that is not a flaw
