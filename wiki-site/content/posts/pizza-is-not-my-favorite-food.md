@@ -75,6 +75,10 @@ A psyop is a psyop. This one has better equipment and the same skeleton.
 
 Notice what made me predictable. It was not carelessness. It was poverty. One hot meal I could afford meant one thing to observe.
 
+And it compounds. Push someone further down — into depending on family who are taking part, which is its own named scheme, The Forced Homecoming — and the options narrow again. Fewer options means more predictable behavior, and more predictable behavior makes every other scheme cheaper to run. Easier to schedule. Easier to recruit people for, because an operative told in advance what you will do, who then watches you do it, comes away convinced they have joined something that knows everything. Easier to slander, because the same story lands on the same audience every time.
+
+There is one more use for it, and it is the one worth watching for. Constrain enough people the same way and they begin to behave alike, because there is only one thing left to do. Then the sameness gets presented as the discovery: look at all these people, all doing the same thing. The accusation on the label varies — terrorist, addict, dangerous, whatever the roulette lands on that year — and the manufactured uniformity is offered as the evidence for it. They produce the pattern, then point at it as proof.
+
 A person with options is harder to read, and options are not a mindset — they are material. Somewhere to cook. Money that does not come through anyone doing this to you. Enough of your week arranged among people who are not reporting on it.
 
 That is not a defense against being watched. Nothing is. It is a way of being worth less to watch.
