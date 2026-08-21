@@ -716,7 +716,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 91 · 2026-07-13 · Trust plugin launches, fixes across the platform
 
-Trust is live: a plain list of what a member has actually done across the platform. No badge, no score, no verification — the platform vets nobody and certifies nothing.
+Trust has a landing page you can reach from the app, and its screens were corrected so what they show matches how Trust works underneath. Also this week: SkillsHunt admins can remove submissions on Android, a rebuild action keeps the leaderboard accurate after changes, and the Top Countries view now counts every member with a country listed instead of only those who claimed one.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-07-13-Trust-Plugin-Launch
 
@@ -740,7 +740,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 88 · 2026-07-06 · LightHouse listings now show prices in your currency
 
-Housing listings show prices in the currency they were actually set in — real rent, in real money, stated plainly. Mobile forms and dropdowns improved alongside.
+Housing listings now show the price in your local currency, along with which payment methods the host accepts, so you can compare listings without doing the conversion in your head. The mobile loading screen and the country and state dropdowns on the host form were fixed alongside it.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-07-06-LightHouse-Currency-Display
 
@@ -748,7 +748,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 87 · 2026-07-05 · Mobile fixes and Recurring Activity plugin
 
-A new plugin for recording an ongoing tie with another member — one tap, no amount, never a bill. Plus mobile fixes and better PeerProgramming cohorts.
+A new plugin counts ongoing ties and activities without storing any money records. Also: members can join their own PeerProgramming cohort from the cohorts list, a duplicate row in the count is gone, and the AI review screens got their mobile navigation fixed.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-07-05-Mobile-Fixes-Recurring-Activity
 
@@ -812,7 +812,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 79 · 2026-06-30 · LevelUp cohorts, Mood resources, and mobile fixes
 
-Android gets the LevelUp admin controls the web already had, live performance numbers, rendering fixes, and a redesigned Mood resources screen.
+Android gets the LevelUp admin controls for assigning trainers and managing cohort enrollment. The Mood resources rail now points to community help rather than external crisis hotlines. Android members can reach the Commons before finishing onboarding, and several mobile rendering problems were fixed — a bug report window stuck behind the header, and link dialogs that rendered see-through.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-06-30-LevelUp-Android-Parity
 
@@ -884,7 +884,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 70 · 2026-06-25 · Service Credits wallet, instant calls, and search updates
 
-Wallet history, one-to-one calls charged in credits per minute with the rate shown before you connect, and directory search by kind of skill.
+Your wallet now shows every transaction — each mint, burn, and balance change, with the time it happened. One-to-one Foundation calls bill by the minute, and before a call starts the screen shows your balance and how many minutes that buys you. The directory can also be searched by kind of skill rather than by name.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-06-25-Credits-Calls-Search
 
@@ -924,7 +924,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 65 · 2026-06-23 · Account deletion, Peer Programming rosters, and backend updates
 
-Account deletion that actually deletes, PeerProgramming rosters, and backend cleanup behind both.
+You can now request that your account be deleted, and the operator processes the request. PeerProgramming cohort owners can see everyone in their group, and only members who have finished Unlock get placed into a cohort.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-06-23-Account-Deletion-Peer-Programming
 
@@ -932,7 +932,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 64 · 2026-06-23 · Chat bubbles and Skills Hunt rewards now clearer on mobile
 
-Chat bubble colors and SkillsHunt rewards now render properly on Android instead of washing out.
+Chat bubble colors now display properly on Android, each person's messages in their own color, so a busy Commons thread is easier to follow. Separately, the reward for finishing a paid SkillsHunt round is now visible on mobile instead of requiring another screen.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-06-23-Mobile-Chat-and-Skills-Hunt
 
