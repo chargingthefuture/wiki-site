@@ -73,6 +73,21 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "one-trip-six-schemes",
+    "title": "The Record Says I Called. I Was on the Bus.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-20",
+    "excerpt": "One cross-country bus trip ran at least six named schemes in sequence — and one of them rewrote my ticket while I was sitting on the bus it was for.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/one-trip-six-schemes.md",
+    "teaser": "A three-leg bus trip from Salt Lake City to New York, booked for about two and a half days and $473.30, took until the fourth day and never reached the terminal I paid for. Along the way it ran six schemes that now have names: a driver's stalled rest stop that cost the connection, a search of my luggage on the grounds that TSA locks indicate drug trafficking, loud talk about drugs after that search found nothing, a woman who would not leave and then reported an assault that never happened, a confirming witness, and a rewritten itinerary the carrier's own record says I phoned in. I did not. That is why ClickLog lets one incident carry ten scheme tags.",
+    "topics": [
+      "clicklog",
+      "specterati"
+    ]
+  },
+  {
     "slug": "quora-deletion-survey",
     "title": "If Quora Closed Your Account, There Is Now Somewhere to Say So",
     "repo": "chargingthefuture/wiki-site",
@@ -3289,7 +3304,7 @@ export const ARTICLES: ArticleMeta[] = [
   },
   {
     "slug": "discourse-migrate/can-electronic-harassment-send-specific-dreams-whilst-you-sleep",
-    "title": "Can electronic harassment send specific dreams while you sleep?",
+    "title": "Can electronic harassment send specific dreams whilst you sleep?",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-05",
     "excerpt": "Yes. It only happened to me one time. They (gang stalkers) do it to my mother, perhaps every night, to dictate her actions during the day. She is religious.…",
