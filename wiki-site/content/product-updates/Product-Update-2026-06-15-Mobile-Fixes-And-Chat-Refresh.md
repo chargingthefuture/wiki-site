@@ -15,7 +15,7 @@ repo: chargingthefuture/chargingthefuture
 
 We merged seven fixes and improvements to Charging the Future this week.
 
-**On mobile, Chyme chat now sits on the Join Room row.** This puts the refresh button where it's easier to reach on smaller screens.
+**On mobile, the Chyme refresh button now sits on the Join Room row.** This puts the refresh button where it's easier to reach on smaller screens.
 
 **The Add location button now gives you feedback.** When you tap it, you'll see what happened instead of wondering if it worked.
 

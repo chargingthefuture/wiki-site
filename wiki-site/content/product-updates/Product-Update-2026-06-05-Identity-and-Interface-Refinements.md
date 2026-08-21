@@ -32,4 +32,4 @@ These changes reflect our commitment to give you control over how you present yo
 
 ## Next Steps
 
-If you're using SocketRelay for collaboration, you'll see your @username displayed to your network. If you have feedback on these changes, reach out through the support channel in your workspace.
+If you're using SocketRelay for collaboration, you'll see your @username displayed to your network. If you have feedback on these changes, reach out in the Commons chat in the app.

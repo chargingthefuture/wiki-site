@@ -13,7 +13,7 @@ repo: chargingthefuture/chargingthefuture
 
 **Mobile navigation fixes.** The AI Assistant review queue now has a back link on mobile, and the AI Review Dashboard uses the standard mobile header for consistency across the platform.
 
-**Recurring Activity plugin.** Added a new plugin to count ongoing ties and activities without needing to store money records. This lets you track relationship patterns more simply.
+**Recurring Activity plugin.** Added a new plugin to count ongoing ties and activities without recording any credit movement. This lets you track relationship patterns more simply.
 
 **PeerProgramming cohort fixes.** Members can now join their own cohort directly from the cohorts list. Fixed a duplicate row that was showing in the count.
 
