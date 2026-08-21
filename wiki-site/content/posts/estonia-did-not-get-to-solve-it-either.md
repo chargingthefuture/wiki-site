@@ -3,7 +3,7 @@ title: "Estonia Did Not Get to Solve It Either"
 date: "2026-08-21"
 excerpt: "A country of 1.3 million sits beside a much larger one that treats it as a target. That did not stop and is not going to. They live anyway, and they built in the one direction that mattered."
 category: "Community"
-teaser: "The question nobody in this community answers honestly is what you do if it never stops. Estonia is the answer I keep coming back to: a small country next to a much larger one that has treated it as a target for as long as it has existed, with no prospect of that ending. It did not organize itself around being a victim of that. It built in the direction of needing the neighbor for less and less, and people got on with their lives — work, hobbies, children. This happening to you is part of life. It is not a sentence, and it is not who you are."
+teaser: "The question nobody in this community answers honestly is what you do if it never stops. Estonia is the answer I keep coming back to: a small country next to a much larger one that has treated it as a target for as long as it has existed, with no prospect of that ending. That did not become the whole of what the country is. It built in the direction of needing the neighbor for less and less, and people got on with their lives — work, hobbies, children. This happening to you is part of life. It is not a sentence, and it is not who you are."
 topics:
   - specterati
   - economics
@@ -21,7 +21,7 @@ Estonia has 1.3 million people. It sits next to Russia, a country with a hundred
 
 None of that has stopped. There is no version of the future where Estonia's geography changes. They do not get an ending either.
 
-And they live. People there work, keep hobbies, raise children, argue about ordinary things. The country is functional and by most measures pleasant. The permanent hostile attention of a much larger neighbor did not require the population to organize its identity around being a victim of it.
+And they live. People there work, keep hobbies, raise children, argue about ordinary things. The country is functional and by most measures pleasant. The permanent hostile attention of a much larger neighbor is a fact about their situation. It did not become the whole of what the country is.
 
 I have written before about [Estonia coming out of occupation in 1991](https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/how-the-math-works) with no money and infrastructure that did not work, and building a functioning modern state largely in software because software was what it could afford. What I did not say then is the part that matters more here: they did that while the pressure continued, not after it lifted.
 
