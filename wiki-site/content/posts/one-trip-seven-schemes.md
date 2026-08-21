@@ -1,9 +1,9 @@
 ---
 title: "The Record Says I Called. I Was on the Bus."
 date: "2026-08-20"
-excerpt: "One cross-country bus trip ran at least six named schemes in sequence — and one of them rewrote my ticket while I was sitting on the bus it was for."
+excerpt: "One cross-country bus trip ran at least seven named schemes in sequence — and one of them rewrote my ticket while I was sitting on the bus it was for."
 category: "Community"
-teaser: "A three-leg bus trip from Salt Lake City to New York, booked for about two and a half days, took until the fourth day and never reached the terminal I paid for. Along the way it ran six schemes that now have names: an unplanned rest stop that ran long and cost the connection, a search of my luggage on the grounds that locks on it indicate drug trafficking, loud talk about drugs after that search found nothing, a woman who would not leave and then reported an assault that never happened, a confirming witness, and a rewritten itinerary the carrier's own record says I phoned in. I did not. That is why ClickLog lets one incident carry ten scheme tags."
+teaser: "A three-leg bus trip from Salt Lake City to New York, booked for about two and a half days, took until the fourth day and never reached the terminal I paid for. Along the way it ran seven schemes that now have names: an unplanned rest stop that ran long and cost the connection, a search of my luggage on the grounds that locks on it indicate drug trafficking, loud talk about drugs after that search found nothing, a woman who would not leave and then reported an assault that never happened, a confirming witness, and a rewritten itinerary the carrier's own record says I phoned in. I did not. That is why ClickLog lets one incident carry ten scheme tags."
 topics:
   - clicklog
   - specterati
@@ -23,7 +23,7 @@ August 11, leg one. The driver made an unplanned rest stop and took far longer t
 
 Denver. Two people who would go on to cause the trouble in St. Louis were already on this leg with me. There is video of them harassing me at Denver, before any of the rest of it happened.
 
-The two from Denver are not just a detail about who was where. Delays and trip changes put a target in the path of people they would otherwise never cross — staged encounters, some friendly, some hostile — and once that has happened, those people can claim they know you. A target does not personally know a single one of them beyond the friends, family, colleagues and acquaintances the Specterati recruit. That circle is small. The number of people taking part is not. A staged encounter is how a stranger acquires standing to say anything about you at all, and the pair had been near me since Denver — which is what let one of them report an assault in St. Louis and the other confirm it as a witness.
+The two from Denver are not just a detail about who was where. That is a scheme in its own right, and it now has a name: The Staged Run-In. Delays and trip changes put a target in the path of people they would otherwise never cross — staged encounters, some friendly, some hostile — and once that has happened, those people can claim they know you. A target does not personally know a single one of them beyond the friends, family, colleagues and acquaintances the Specterati recruit. That circle is small. The number of people taking part is not. A staged encounter is how a stranger acquires standing to say anything about you at all, and the pair had been near me since Denver — which is what let one of them report an assault in St. Louis and the other confirm it as a witness.
 
 St. Louis, stepping off the bus. Two officers in utility-style clothing that did not look like a uniform stopped me and said the locks on my luggage were a sign of drug trafficking. I declined the dog sniff and declined the search, and instead opened my own bags and unpacked them myself, in public, in front of everyone. Nothing was found, because there was nothing to find.
 
@@ -50,6 +50,7 @@ Every layer of that trip is a scheme on the community's canonical list. The list
 | What happened | Scheme |
 |---|---|
 | The unplanned rest stop that ran long, and the missed connection | The Engineered Delay |
+| The pair placed on the Denver leg, cashed in two days later | The Staged Run-In |
 | Luggage locks called a sign of drug trafficking; a public search that found nothing | The Pretext Search |
 | Loud talk about drugs, after the search found nothing | Staged Narratives / Loud "Podcasts" |
 | The forced approach, the false assault report, the confirming witness | The Planted Witness |
@@ -59,7 +60,7 @@ Every layer of that trip is a scheme on the community's canonical list. The list
 
 It also produced two problem tags: trips sabotaged through delays, missed connections and canceled tickets; and being falsely accused of violence to bystanders.
 
-Six of those scheme names came out of this trip. The Engineered Delay, The Pretext Search, The Planted Witness, The Replay, The Altered Ticket and The Sensitization Skit did not exist as named things before it. They do now, and every member can tag with them.
+Seven of those scheme names came out of this trip. The Engineered Delay, The Staged Run-In, The Pretext Search, The Planted Witness, The Replay, The Altered Ticket and The Sensitization Skit did not exist as named things before it. They do now, and every member can tag with them.
 
 ## Why the logger has to hold more than one tag
 
@@ -79,7 +80,7 @@ Sharing is a choice, and what it shares is coarse. You decide per incident wheth
 
 The trends are where it stops being one person's story. Counts by day, by area, by problem, by scheme, across everyone who opted in. My engineered delay on its own is an anecdote. The same scheme tagged the same week by people who have never met, in cities that have nothing to do with each other, is not a thing coincidence produces.
 
-And the list itself grows. When a scheme has no name yet, holders of the Weavers of the Commons badge can describe it through a "not listed" option, and the real ones get named and added. That is the path all six of these took.
+And the list itself grows. When a scheme has no name yet, holders of the Weavers of the Commons badge can describe it through a "not listed" option, and the real ones get named and added. That is how a thing that keeps happening to people stops being nameless.
 
 ## Where to find it in the app
 

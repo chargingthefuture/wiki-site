@@ -28,21 +28,6 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
-    "slug": "one-trip-six-schemes",
-    "title": "The Record Says I Called. I Was on the Bus.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-20",
-    "excerpt": "One cross-country bus trip ran at least six named schemes in sequence — and one of them rewrote my ticket while I was sitting on the bus it was for.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/one-trip-six-schemes.md",
-    "teaser": "A three-leg bus trip from Salt Lake City to New York, booked for about two and a half days, took until the fourth day and never reached the terminal I paid for. Along the way it ran six schemes that now have names: an unplanned rest stop that ran long and cost the connection, a search of my luggage on the grounds that locks on it indicate drug trafficking, loud talk about drugs after that search found nothing, a woman who would not leave and then reported an assault that never happened, a confirming witness, and a rewritten itinerary the carrier's own record says I phoned in. I did not. That is why ClickLog lets one incident carry ten scheme tags.",
-    "topics": [
-      "clicklog",
-      "specterati"
-    ]
-  },
-  {
     "slug": "an-invitation-to-steph-wo",
     "title": "An Invitation to Steph Wo.",
     "repo": "chargingthefuture/wiki-site",
@@ -85,6 +70,21 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "reference",
       "terms"
+    ]
+  },
+  {
+    "slug": "one-trip-seven-schemes",
+    "title": "The Record Says I Called. I Was on the Bus.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-20",
+    "excerpt": "One cross-country bus trip ran at least seven named schemes in sequence — and one of them rewrote my ticket while I was sitting on the bus it was for.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/one-trip-seven-schemes.md",
+    "teaser": "A three-leg bus trip from Salt Lake City to New York, booked for about two and a half days, took until the fourth day and never reached the terminal I paid for. Along the way it ran seven schemes that now have names: an unplanned rest stop that ran long and cost the connection, a search of my luggage on the grounds that locks on it indicate drug trafficking, loud talk about drugs after that search found nothing, a woman who would not leave and then reported an assault that never happened, a confirming witness, and a rewritten itinerary the carrier's own record says I phoned in. I did not. That is why ClickLog lets one incident carry ten scheme tags.",
+    "topics": [
+      "clicklog",
+      "specterati"
     ]
   },
   {
