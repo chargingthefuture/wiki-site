@@ -28,18 +28,183 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
-    "slug": "clicklog-your-record-and-the-record",
-    "title": "ClickLog: your record, and the record",
+    "slug": "one-trip-seven-schemes",
+    "title": "The Record Says I Called. I Was on the Bus.",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-18",
-    "excerpt": "One log, two uses: your private incident record, and the first real-time, self-reported global map of trafficker activity.",
+    "date": "2026-08-20",
+    "excerpt": "One cross-country bus trip ran at least seven named schemes in sequence — and one of them rewrote my ticket while I was sitting on the bus it was for.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/clicklog-your-record-and-the-record.md",
-    "teaser": "ClickLog does two jobs with one entry. Privately, it is your incident record: dated, located if you choose, notes nobody but you ever sees — the record that lets you spot patterns and route around them. Shared, it becomes something that has never existed: real-time, self-reported global trend data on the movement of traffickers and their activities. The UN's own torture report said these allegations warrant investigation, and an investigation needs data. Three privacy rules cover all of it, and you control every one.",
+    "path": "posts/one-trip-seven-schemes.md",
+    "teaser": "A three-leg bus trip from Salt Lake City to New York, booked for about two and a half days, took until the fourth day and never reached the terminal I paid for. Along the way it ran seven schemes that now have names: an unplanned rest stop that ran long and cost the connection, a search of my luggage on the grounds that locks on it indicate drug trafficking, loud talk about drugs after that search found nothing, a woman who would not leave and then reported an assault that never happened, a confirming witness, and a rewritten itinerary the carrier's own record says I phoned in. I did not. That is why ClickLog lets one incident carry ten scheme tags.",
     "topics": [
       "clicklog",
-      "features"
+      "specterati"
+    ]
+  },
+  {
+    "slug": "an-invitation-to-steph-wo",
+    "title": "An Invitation to Steph Wo.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-20",
+    "excerpt": "A fine art degree, a drafting certificate, a piano, and a career the targeting ended early. The skills are all on the list of 650 a working economy needs.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-steph-wo.md",
+    "teaser": "Steph Wo.'s Quora bio is a list of what the targeting interrupted: a BFA in fine art and English, a philosophy minor, architectural drafting, classical piano, modern creative dance, and a career that ended in early retirement rather than by choice. The bio then asks: what past, what dreams? The app carries a catalog of about 650 skills a working economy of this size needs, and the community now covers 159 of them — a quarter. Fine art is one of them. So is drafting. This is an invitation to put them back to use among people who are not going to take them again.",
+    "topics": [
+      "members",
+      "skills-economy"
+    ]
+  },
+  {
+    "slug": "transactional-on-purpose",
+    "title": "Transactional on Purpose",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-20",
+    "excerpt": "A trafficker blocked my path today and said my self-defense items look ridiculous. Ridiculous in front of whom? The exchange comes first for a reason.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/transactional-on-purpose.md",
+    "teaser": "One of them circled in front of me today to block my way, then said I look ridiculous carrying self-defense items. Ridiculous in front of whom — people who are fine with this, or think it is funny? I have an email from a woman who wrote that she traffics people, enjoys it, and believes in human torture. That is the audience whose opinion the taunt is asking you to care about. The Skills Economy answers it by putting the exchange first: a trafficker never gives you material help, so leading with what you need filters them out before anything else happens. What is left on the other side of that filter is people worth knowing.",
+    "topics": [
+      "specterati",
+      "skills-economy"
+    ]
+  },
+  {
+    "slug": "Dictionary",
+    "title": "Dictionary: Skills Economy Terms",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-08-20",
+    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
+    "category": "Resources",
+    "collection": "posts",
+    "path": "posts/Dictionary.md",
+    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
+    "topics": [
+      "reference",
+      "terms"
+    ]
+  },
+  {
+    "slug": "quora-deletion-survey",
+    "title": "If Quora Closed Your Account, There Is Now Somewhere to Say So",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-19",
+    "excerpt": "A public survey recording accounts Quora removed — what was taken, when, and what reason was given. Reading it needs no account.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/quora-deletion-survey.md",
+    "teaser": "Every time an account goes, the record of it goes too. There is now a survey that keeps that record outside Quora: which handle, what happened to it, what month, and what reason was given — one card per closed account, so no total is a number somebody typed. Reading it needs no account. Your handle and your words stay unpublished unless you say otherwise, and your report still counts either way.",
+    "topics": [
+      "quora",
+      "research"
+    ]
+  },
+  {
+    "slug": "clicklog-trends-now-say-where",
+    "title": "The Trends Report Now Says Where",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-19",
+    "excerpt": "ClickLog's trend report used to count areas without naming them, and count incidents without counting people. Both are fixed, along with what the report will not show.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/clicklog-trends-now-say-where.md",
+    "teaser": "A note in a private file helps nobody but the person who wrote it, and a hundred separate notes are still a hundred separate notes. Tags turn them into something countable, and counted things can be shown to someone. ClickLog's trend report now names the areas instead of only counting them, counts how many different people are reporting rather than how many entries exist, and prints its own limits alongside its numbers — including everything it still cannot show.",
+    "topics": [
+      "clicklog",
+      "trends"
+    ]
+  },
+  {
+    "slug": "deplatformed-keep-your-people",
+    "title": "Deplatformed Again — and What I Am Doing About It",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-19",
+    "excerpt": "Quora deleted two years of connections and content for the third time. Here is the new content strategy, and why your profile should not depend on an account you can lose.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/deplatformed-keep-your-people.md",
+    "teaser": "Quora deleted my account for the third time — two years of connections and content, gone with it. This blog did not move. So the strategy changed: everything I write is published here first, and platforms get an excerpt and a link. If you have been deplatformed too, the fix is the same for you as it is for me — a Directory profile in the Skills Economy, where your skills, your record, and the people who know you survive any account being deleted.",
+    "topics": [
+      "directory",
+      "deplatforming"
+    ]
+  },
+  {
+    "slug": "old-links-new-links",
+    "title": "Old links, new links",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-19",
+    "excerpt": "Three Quora accounts erased, one space renamed. What is current, what is dead, and the one address that does not change.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/old-links-new-links.md",
+    "teaser": "Quora has erased my accounts four times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. This page is the standing record: the current space, the current handle, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
+    "topics": [
+      "publishing",
+      "platform-independence"
+    ]
+  },
+  {
+    "slug": "socketrelay-v3-credits",
+    "title": "SocketRelay Now Puts Something in Everyone's Hand",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-18",
+    "excerpt": "The needs board is the same idea it always was. What changed in v3: every member arrives with 100 ServiceCredits, so nobody starts with nothing to offer.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/socketrelay-v3-credits.md",
+    "teaser": "The needs board has always worked the same way — post what you need, offer what you have. What changed in the current version of the app: every member who joins receives 100 ServiceCredits on day one. Being made destitute is the standard outcome of being targeted, and free-and-barter only goes so far when you have nothing left to barter with. Now nobody arrives empty-handed, and thanking another survivor properly is something anyone can do from the first day.",
+    "topics": [
+      "socketrelay",
+      "servicecredits"
+    ]
+  },
+  {
+    "slug": "who-put-you-on-the-list",
+    "title": "It Does Not Matter Who Put You on the List",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-18",
+    "excerpt": "Every survivor gets a different story about who is doing this. The Skills Economy is built so that answer never has to be settled.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/who-put-you-on-the-list.md",
+    "teaser": "Who put you on the list matters to a point. After that, it stops mattering: once you are on it, every criminal group in reach joins, and they run the same schemes in rotation regardless of who started it. That is why the Skills Economy does not ask you to identify your persecutor before it can help you. It is built on the one thing none of them are exempt from — economics.",
+    "topics": [
+      "specterati",
+      "skills-economy"
+    ]
+  },
+  {
+    "slug": "honoring-the-earliest-supporters",
+    "title": "The People Who Backed This Publicly",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-18",
+    "excerpt": "Ten of the earliest survivors to speak up for the Skills Economy on Quora. Their comments were deleted with the accounts. The record of who they are lives here.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/honoring-the-earliest-supporters.md",
+    "teaser": "Ten of the earliest survivors to back the Skills Economy publicly did it on Quora — in comments, on their own pages, in the open where other targeted people could see it. Quora deleted the accounts those comments lived on, so the proof they offered is gone. What is not gone is who they are and what they do. Each was a Member of the Day; each has a directory profile; each post that introduced them is still here. This page names them, links their profiles, and asks them to say the word again if they want to.",
+    "topics": [
+      "members",
+      "directory"
+    ]
+  },
+  {
+    "slug": "economics-oppress-save",
+    "title": "The Economics That Oppress Us Can Save Us",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-18",
+    "excerpt": "A non-TI writer described the evolution of gangs into economic operators. He described a component of the Specterati — and pointed, without knowing it, at the way out.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/economics-oppress-save.md",
+    "teaser": "A writer who is not a Targeted Individual described how gangs evolved into organized criminals with real influence over social and economic matters. He was describing a component of what I call the Specterati. Many will say it is the government. Argue that if you like — what nobody can argue is that their operation runs on economics, and that it works. The secret-society talk is costume. The economics is the machine. And a machine we can copy is a machine we can counter.",
+    "topics": [
+      "specterati",
+      "skills-economy"
     ]
   },
   {
@@ -55,21 +220,6 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "clicklog",
       "dew"
-    ]
-  },
-  {
-    "slug": "Dictionary",
-    "title": "Dictionary: Skills Economy Terms",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-08-18",
-    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
-    "category": "Resources",
-    "collection": "posts",
-    "path": "posts/Dictionary.md",
-    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
-    "topics": [
-      "reference",
-      "terms"
     ]
   },
   {
@@ -100,6 +250,21 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "wallpapers",
       "brand"
+    ]
+  },
+  {
+    "slug": "clicklog-your-record-and-the-record",
+    "title": "ClickLog: your record, and the record",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-18",
+    "excerpt": "One log, two uses: your private incident record, and the first real-time, self-reported global map of trafficker activity.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/clicklog-your-record-and-the-record.md",
+    "teaser": "ClickLog does two jobs with one entry. Privately, it is your incident record: dated, located if you choose, notes nobody but you ever sees — the record that lets you spot patterns and route around them. Shared, it becomes something that has never existed: real-time, self-reported global trend data on the movement of traffickers and their activities. The UN's own torture report said these allegations warrant investigation, and an investigation needs data. Three privacy rules cover all of it, and you control every one.",
+    "topics": [
+      "clicklog",
+      "features"
     ]
   },
   {
@@ -141,25 +306,10 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/how-the-math-works.md",
-    "teaser": "Someone asked me in a DM how 97 people can point at a $13.8 million economy. The answer fits in a few paragraphs: the UN's own reports say about 2 million, underreporting says more, Finland says what jobs an economy needs, Singapore says what one worker's skills produce, and Estonia proves you can build from nothing but skills in about two generations. None of it requires believing me — every number can be checked.",
+    "teaser": "Someone asked me in a DM how 97 people can point at a $13.8 million economy. The answer fits in a few paragraphs: the UN's own reports say about 2 million, underreporting says more, Finland gives a country the right size and shape to model against, Singapore says what one worker's skills produce, and Estonia proves you can build from nothing but skills in about two generations. None of it requires believing me — every number can be checked.",
     "topics": [
       "economy",
       "model"
-    ]
-  },
-  {
-    "slug": "old-links-new-links",
-    "title": "Old links, new links",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-17",
-    "excerpt": "Three Quora accounts erased, one space renamed. What is current, what is dead, and the one address that does not change.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/old-links-new-links.md",
-    "teaser": "Quora has erased my accounts three times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. This page is the standing record: the current space, the current handle, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
-    "topics": [
-      "publishing",
-      "platform-independence"
     ]
   },
   {
@@ -263,7 +413,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "TrustTransport requests, cleaner stats, and public landing fixes",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2026-07-09",
-    "excerpt": "TrustTransport requests can now be cancelled. Community stats count posts accurately. Public landings for Recurring Activity and Contributions are live.",
+    "excerpt": "TrustTransport requests can now be canceled. Community stats count posts accurately. Public landings for Recurring Activity and Contributions are live.",
     "category": "Updates",
     "collection": "product-updates",
     "path": "product-updates/Product-Update-2026-07-09-TrustTransport-Cancel-Stats-Public.md"
@@ -1549,7 +1699,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Use Cases of the TI Skills Economy: the only way to exit the psyop",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-12-28",
-    "excerpt": "The goal of the TI Skills Economy is to unite the ~5 million TIs. There are enough TIs to box out the perps from our lives by working and living amongst TIs. I...",
+    "excerpt": "The goal of the TI Skills Economy is to unite the ~5 million TIs. There are enough TIs to box out the perps from our lives by working and living among TIs. I...",
     "category": "Community",
     "collection": "posts",
     "path": "posts/Use-Cases-of-the-TI-Skills-Economy:-the-only-way-to-exit-the-psyop.md",
@@ -1671,7 +1821,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Looking for a photographer or musician? Lisa Jaramilo",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-12-12",
-    "excerpt": "Shout out to Lisa Jaramillo, a talented musician and photographer. It is upsetting that because of the Speceterati (gang stalkers), you have lost the ability t...",
+    "excerpt": "Shout out to Lisa Jaramillo, a talented musician and photographer. It is upsetting that because of the Specterati (gang stalkers), you have lost the ability t...",
     "category": "Member of the Day",
     "collection": "member-of-the-day",
     "path": "member-of-the-day/looking-for-a-photographer-or-musician-lisa-jaramilo.md"
@@ -3767,7 +3917,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Terms of Service",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-09-21",
-    "excerpt": "Change Me Forum Admin, please find below an example starting template for a privacy policy that you should customise to meet your site’s needs. These terms…",
+    "excerpt": "Change Me Forum Admin, please find below an example starting template for a privacy policy that you should customize to meet your site’s needs. These terms…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/terms-of-service.md",
@@ -3975,7 +4125,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "About the Craigslist category",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-09-19",
-    "excerpt": "I originally created the circular economy amongst Targeted Individuals on Quora, via the TI Skills Network space. But then Quora banned my account…",
+    "excerpt": "I originally created the circular economy among Targeted Individuals on Quora, via the TI Skills Network space. But then Quora banned my account…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/about-the-craigslist-category.md",

@@ -26,5 +26,5 @@ Excerpt: Special shoutout to Cheryl J WILLIAMS TI Skills Network profile: psyop-
 <p>Cheryl is an amazing supporter of TI Skills Network and I am grateful for her participation. She interacts with this space, is always positive and optimistic. And takes time out of her day to post on her page about TI Skills Network.</p>
 <p>Please join me in welcoming Cheryl. To all TIs if you would like a profile, I can create one for you or you can make one in about 2 minutes here: <a href="https://app.chargingthefuture.com/" title="app.chargingthefuture.com">psyop-free - Live, Work, Prevail</a>.</p>
 <p>Post on Quora</p>
-<p><a href="https://tiskillsnetwork.quora.com/Special-shoutout-to-Cheryl-J-WILLIAMS-https-www-quora-com-profile-Cheryl-J-WILLIAMS-3-TI-Skills-Network-profile" class="onebox" target="_blank" rel="noopener">https://tiskillsnetwork.quora.com/Special-shoutout-to-Cheryl-J-WILLIAMS-https-www-quora-com-profile-Cheryl-J-WILLIAMS-3-TI-Skills-Network-profile</a></p>
+<p><a href="https://skillseconomy.quora.com/Special-shoutout-to-Cheryl-J-WILLIAMS-https-www-quora-com-profile-Cheryl-J-WILLIAMS-3-TI-Skills-Network-profile" class="onebox" target="_blank" rel="noopener">https://skillseconomy.quora.com/Special-shoutout-to-Cheryl-J-WILLIAMS-https-www-quora-com-profile-Cheryl-J-WILLIAMS-3-TI-Skills-Network-profile</a></p>
 

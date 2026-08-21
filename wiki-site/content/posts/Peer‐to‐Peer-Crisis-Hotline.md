@@ -8,7 +8,7 @@ repo: chargingthefuture/mono
 teaser: "When my stalking got bad I called a crisis hotline for the first time. The operator's answer, in short: 'join the club.' There is no hotline for people in this situation — so we became one. A network of survivors around the world, committed to solidarity, reachable day and night through Chyme and Signal. If you need someone to talk to, we are there."
 ---
 
-Once my stalking got bad, I called a crisis hotline for the first time. The operator's answer, in short, was, "Join the club." And later, I saw many posts online from targeted individuals (TIs) on Quora asking which hotline can help them. There isn't one.
+Once my stalking got bad, I called a crisis hotline for the first time. The operator's answer, in short, was, "Join the club." And later, I saw many posts online from Targeted Individuals (TIs) on Quora asking which hotline can help them. There isn't one.
 
 I believe I have created a way for us to get help.
 

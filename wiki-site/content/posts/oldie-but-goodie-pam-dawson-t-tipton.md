@@ -25,4 +25,8 @@ Why make profiles for them? To make it easy to discover survivors to connect wit
 
 Each profile is labeled community-generated and names who made it. It links back to their Quora profile as the social proof — read their own words before you reach out. And it is theirs: claimable by its subject at any time, deletable on request.
 
+## Where to find it in the app
+
+- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
+
 To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.

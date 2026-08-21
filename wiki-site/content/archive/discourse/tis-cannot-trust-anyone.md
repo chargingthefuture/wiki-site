@@ -44,7 +44,7 @@ Excerpt: I asked in the group chat ( Signal Group ) why more TIs are not signing
 
 <p>Unfortunately, I do not think it is possible for them to not mirror any of our phones. They will mirror anything new you get. It will be wasted effort. You would need to get a device and never connect it to the Internet and then never have it leave your sight and never have a compromised peripheral connect to it. The only reason to get a new device would be you just want a new one or it was infected with malware/virus of some sort. They did that to me on two occasions. And so I got a new device. Other than that their primary objective is to only spy. So they can mock and mirror what you do - narc abuse. They also want to interfere with you completing errands and work. As well as get a heads up on where you are going. Abandon on phones, tablets, computers etc if you really want that type of abuse to stop.</p>
 <p>That is why I decided to make this community 100% open and open source. They stole all my offline files (meaning not hosted on a third party website) from my computer. And attempted to delete them. They did so while I was using the computer in real time. Hence why I was able to stop the deletion progress and recover my files.</p>
-<p>They then published my files as blog posts on Medium and other files distributed amongst tech companies who in turn published it as their own work.</p>
+<p>They then published my files as blog posts on Medium and other files distributed among tech companies who in turn published it as their own work.</p>
 <p>Switching to immediately publishing online at least, it is clear I am the owner or creator of my future work.</p>
 
 ### Comment #4 (2025-10-17)

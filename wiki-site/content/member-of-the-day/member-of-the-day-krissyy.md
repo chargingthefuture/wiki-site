@@ -30,5 +30,5 @@ Excerpt: Member of the Day: Krissyy Hello Krissyy, giving you a shout out as you
 <p>-</p>
 <p><em>I’m excited to share insights about the members I encounter on Quora and other platforms. Every TI possesses unique skills that can contribute positively, especially within our TI community. Let’s consider the value in exchanging goods and services with one another. If I highlight you and you’d prefer not to be featured, please don’t hesitate to reach out, and I’ll remove the post.</em></p>
 <p>This post on Quora:</p>
-<p><a href="https://tiskillsnetwork.quora.com/Member-of-the-Day-Krissyy-https-www-quora-com-profile-Krissyy-2-Hello-Krissyy-giving-you-a-shout-out-as-you-wer" class="onebox" target="_blank" rel="noopener">https://tiskillsnetwork.quora.com/Member-of-the-Day-Krissyy-https-www-quora-com-profile-Krissyy-2-Hello-Krissyy-giving-you-a-shout-out-as-you-wer</a></p>
+<p><a href="https://skillseconomy.quora.com/Member-of-the-Day-Krissyy-https-www-quora-com-profile-Krissyy-2-Hello-Krissyy-giving-you-a-shout-out-as-you-wer" class="onebox" target="_blank" rel="noopener">https://skillseconomy.quora.com/Member-of-the-Day-Krissyy-https-www-quora-com-profile-Krissyy-2-Hello-Krissyy-giving-you-a-shout-out-as-you-wer</a></p>
 

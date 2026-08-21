@@ -9,7 +9,7 @@ teaser: "The standard advice to survivors is to keep your head down, stay put, a
 ---
 
 Conforming to the Specterrealm (a domain ruled by fear and intimidation) that the Specterati have created is unnatural.
-This is not a judgement of the plethora of TIs on Quora giving advice to the likes of “keep your head down,” stay put, work and live surrounded by the Specterati, file law suits, and barely get by for the rest of your life?
+This is not a judgment of the plethora of TIs on Quora giving advice to the likes of “keep your head down,” stay put, work and live surrounded by the Specterati, file law suits, and barely get by for the rest of your life?
 That sure is a lot of effort. Almost as much effort as the operatives of the Specterati in posing as normal people as they terrorize millions covertly 24/7/365. 
 Frankly I think it is time to live free, as we were intended. And to “stop” telling people about being mobbed, not so you “keep your head down,” but because most people know you are being mobbed and they do not care or will not stand up for you. They have chosen to be unfree. 
 The phrase "It takes a lot of effort not to be free" is a statement that challenges our conventional understanding of freedom and effort. Attributed to the philosopher Alan Watts, this idea delves into the paradoxical nature of human experience. 

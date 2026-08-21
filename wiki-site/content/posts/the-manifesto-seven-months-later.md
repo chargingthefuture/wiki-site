@@ -29,7 +29,7 @@ That gap between 41 and 97 is not people who declined. This community is in trau
 
 People. In mid-January, 36 people had signed up and there was no skills map. Today: 41 approved members, 97 people recruited onto the map, and 453 followers on the Quora space.
 
-The map. In January the idea existed and the instrument did not. Today the app carries the full catalog of the roughly 650 skills a working economy needs, and the 97 recruited cover 158 of them. About a quarter of the map is filled, and every square was filled by a real person with a real trade.
+The map. In January the idea existed and the instrument did not. Today the app carries the full catalog of the roughly 650 skills a working economy needs, and the 97 recruited cover 158 of them. About a quarter of the list is covered, and each of those 158 came from a real person with a real trade.
 
 The capacity. At Singapore's published output per worker, the 97 people on the map represent $13.8 million a year — what this group holds if every one of them participated. The app computes it live on the Workforce screen, and it tracks the actuals of the signed-up members separately, so potential and actual never get blurred. The derivation is written out in plain language here: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-the-math-works
 
@@ -43,6 +43,12 @@ The manifesto said what we are exiting and why. These posts are the record of th
 
 Watch it move any day, any hour, in the Workforce feature. The guide walks you through it at your own pace: https://app.chargingthefuture.com/guide#workforce
 
-The app is free. If you have a skill, it is one of the 650, and the map has a square waiting for it.
+The app is free. If you have a skill, it is one of the 650, and the list has a place for it.
+
+## Where to find it in the app
+
+- [Workforce](https://app.chargingthefuture.com/apps/workforce) — [guide](https://app.chargingthefuture.com/guide#workforce)
+- [Skills Taxonomy](https://app.chargingthefuture.com/apps/skills-taxonomy) — [guide](https://app.chargingthefuture.com/guide#skills-taxonomy)
+- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
 
 To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
