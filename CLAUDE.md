@@ -145,6 +145,27 @@ afterward to explain what was gained is the one to delete.
 Phrases like "worst week", "turned into evidence", "becomes data", and "silver lining" are the
 tell. So is any closing line that reaches for a redemptive note the facts did not ask for.
 
+## "Victim" Is Not a Stance (owner directive, 2026-08-21)
+
+Victim means a crime was done to someone. It carries no claim about how they reacted to it and no
+claim about their character. Never write a sentence that treats being a victim as a posture, a
+choice, or a failing — "playing the victim", "victim mentality", "organizing your identity around
+being a victim", "stuck in victimhood", "still seeing yourself as a victim".
+
+The owner hears that phrasing almost exclusively from criminals, and reads it as meaning suck it up,
+or that crimes against certain kinds of people are acceptable. Writing it here hands survivors the
+rhetoric of the people harming them, in their own publication. It is the same failure as the harm-
+as-resource sentence above: it arrives sounding like encouragement and lands as an accusation.
+
+The point those sentences reach for is almost always fine, and can be said directly. The targeting
+is real, and it is not the whole of a person's life. So write that. "It is not the most interesting
+fact about you." "It did not become the whole of what the country is." The line to hold is between
+describing what was done to someone and passing judgment on how they carry it.
+
+Survivors stays the default word for the people here — see the Dictionary. Victim is not a banned
+word: it is correct in legal and statutory contexts, and in a plain description of a crime. What is
+banned is the stance framing.
+
 ## This Is Not a Sign-Up Product (owner directive, 2026-08-20)
 
 The app is an aid in coordination. It helps people find each other and arrange things between
