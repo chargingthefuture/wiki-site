@@ -246,7 +246,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 28 · 2026-03-24 · Terms of Service and Privacy Policy
 
-The Terms of Service and Privacy Policy, effective March 24, 2026 — what you agree to, what is collected, what is never collected, and how to remove your data. Short enough to read in full, which is the point.
+The Terms of Service and Privacy Policy, effective March 24, 2026 — what you agree to, what is collected, what is never collected, and how to remove your data.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Terms-of-Service-and-Privacy-Policy
 
@@ -310,7 +310,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 20 · 2026-01-23 · How to join Saturday Town Halls
 
-Every Saturday I am available to talk about the Skills Economy live. Two ways in — the audio town hall in the app, or the alternative for anyone who cannot use it. Bring questions; nothing is off the table.
+Every Saturday I make myself available to talk about the Skills Economy live. Two ways in: Chyme, the Android app built for survivors, or Signal, which also runs on desktop and iPhone.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/How-to-join-Saturday-Town-Halls
 
@@ -342,7 +342,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 16 · 2026-01-04 · 24/7 Chyme Rooms
 
-There is now an audio room for every sector of the economy — food, housing, health, transport, and the rest — and they stay open around the clock. Walk in, listen, say something or say nothing. No scheduling, no host required.
+There is now an audio room for every sector of the economy — food and agriculture, water, energy, health, housing, transport, and the rest — and they stay open around the clock. Walk in, listen, say something or say nothing. If you would rather I was there, there is a scheduler for picking a mutual time.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/24-7-Chyme-Drop-In-Rooms
 
@@ -390,7 +390,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/mono/Ti
 
 No. 10 · 2026-01-03 · TSE Baseline Explained
 
-The working document behind the economic model — the estimate of 5 million survivors worldwide and the figures the economy is calibrated against. Published so the arithmetic can be checked rather than taken on trust.
+The working document behind the economic model — the estimate of 5 million survivors worldwide, and the candidate countries of about that size being weighed as the shape to model against. It is published while it is still being decided, so anyone can follow the reasoning and argue with it.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/mono/TSE-Baseline
 
@@ -414,7 +414,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/mono/Wh
 
 No. 7 · 2025-12-31 · Charging The Future | Live, Work & Prevail
 
-The index of everything exported from the old Discourse forum before it closed. Nothing that was written there was lost — it was all carried over and kept here.
+The starting page for everything written about the app: what it is, how each service works, and where the content lives. The app is invite-only, built for survivors to live, work, and rebuild. Every page is a version-controlled file in a public repository, and that repository is the canonical copy if anything anywhere disagrees with it.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Home
 
@@ -499,7 +499,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/mono/gu
 
 No. 3 · 2025-12-30 · Hosting in LightHouse
 
-For anyone considering hosting another survivor: what LightHouse asks of a host, what it does not, and how a listing works from the host's side.
+Two screenshots of the hosting side of LightHouse, showing what a host sees when listing a place.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/guides/lighthouse/hosting
 
@@ -528,7 +528,7 @@ INSIGHTS — 2 of 2 written
 
 No. 2 · 2025-12-30 · Insights
 
-Laundering and a circular economy move value in similar ways and for opposite reasons. Setting the two side by side is the clearest explanation I have of what this project is doing and why the mechanics look familiar.
+The index of the insights pages: the peer-to-peer crisis hotline, problem number 49 worked through in full, money laundering set against a circular economy, and mood ratings.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/insights/insights
 
@@ -536,7 +536,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 1 · 2025-12-28 · #49 of how TI Skills Network helps you exit the psyop
 
-Number 49 in the series matching each documented tactic to the part of the app that answers it. Nat Morris catalogued fifty of them; this is one worked through in full.
+Number 49 in the series matching each documented tactic to the parts of the app that answer it. The list of fifty was compiled with Nat Morris's help. This one is about relatives and acquaintances you have not seen in decades forcing their way back into your life, and it names four mini-apps that address it.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/insights/%2349-of-how-TI-Skills-Network-helps-you-exit-the-psyop
 
@@ -557,7 +557,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 17 · 2025-12-12 · Looking for a Financial Advisor? Meet Holly D
 
-Holly D is a financial advisor, with a directory profile you can reach directly. If that is the help you need, she is findable now instead of hidden in a feed.
+Holly D is a financial advisor, with a directory profile you can reach directly. If that is the help you need, the profile is findable now instead of buried in a feed. It is claimable at any time, and removable on request.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/member%20of%20the%20day/looking-for-a-financial-advisor-meet-holly-d
 
@@ -565,7 +565,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 16 · 2025-12-12 · Looking for a photographer or musician? Lisa Jaramilo
 
-Lisa Jaramillo is a musician and a photographer. It is a hard thing that the Specterati cost people work like this — and the counter is simple: put the skill somewhere other survivors can find and hire it.
+Lisa Jaramillo is a musician and a photographer, and the targeting took the ability to do that work. The counter is simple: put the skill where other survivors can find it and trade for it.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/member%20of%20the%20day/looking-for-a-photographer-or-musician-lisa-jaramilo
 
@@ -637,7 +637,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 7 · 2025-10-20 · Member of the Day: Ione
 
-Ione is a counselor. In her own words: she speaks the truth as she knows it, and is willing to. That is worth having in a community where most people have been told they are imagining things.
+Ione is a counselor, quoted in their own words: "I speak the truth as I know it. I am willing to admit I'm wrong because I don't know everything. I am a great researcher. I've been a TI for 41 years." Worth having in a community where most people have been told they are imagining things.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/member%20of%20the%20day/member-of-the-day-ione
 
@@ -746,7 +746,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 91 · 2026-07-13 · Trust plugin launches, fixes across the platform
 
-Trust is live: a plain list of what a member has actually done across the platform. No badge, no score, no verification — the platform vets nobody and certifies nothing.
+Trust has a landing page you can reach from the app, and its screens were corrected so what they show matches how Trust works underneath. Also this week: SkillsHunt admins can remove submissions on Android, a rebuild action keeps the leaderboard accurate after changes, and the Top Countries view now counts every member with a country listed instead of only those who claimed one.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-07-13-Trust-Plugin-Launch
 
@@ -770,7 +770,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 88 · 2026-07-06 · LightHouse listings now show prices in your currency
 
-Housing listings show prices in the currency they were actually set in — real rent, in real money, stated plainly. Mobile forms and dropdowns improved alongside.
+Housing listings now show the price in your local currency, along with which payment methods the host accepts, so you can compare listings without doing the conversion in your head. The mobile loading screen and the country and state dropdowns on the host form were fixed alongside it.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-07-06-LightHouse-Currency-Display
 
@@ -778,7 +778,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 87 · 2026-07-05 · Mobile fixes and Recurring Activity plugin
 
-A new plugin for recording an ongoing tie with another member — one tap, no amount, never a bill. Plus mobile fixes and better PeerProgramming cohorts.
+A new plugin counts ongoing ties and activities without storing any money records. Also: members can join their own PeerProgramming cohort from the cohorts list, a duplicate row in the count is gone, and the AI review screens got their mobile navigation fixed.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-07-05-Mobile-Fixes-Recurring-Activity
 
@@ -842,7 +842,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 79 · 2026-06-30 · LevelUp cohorts, Mood resources, and mobile fixes
 
-Android gets the LevelUp admin controls the web already had, live performance numbers, rendering fixes, and a redesigned Mood resources screen.
+Android gets the LevelUp admin controls for assigning trainers and managing cohort enrollment. The Mood resources rail now points to community help rather than external crisis hotlines. Android members can reach the Commons before finishing onboarding, and several mobile rendering problems were fixed — a bug report window stuck behind the header, and link dialogs that rendered see-through.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-06-30-LevelUp-Android-Parity
 
@@ -914,7 +914,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 70 · 2026-06-25 · Service Credits wallet, instant calls, and search updates
 
-Wallet history, one-to-one calls charged in credits per minute with the rate shown before you connect, and directory search by kind of skill.
+Your wallet now shows every transaction — each mint, burn, and balance change, with the time it happened. One-to-one Foundation calls bill by the minute, and before a call starts the screen shows your balance and how many minutes that buys you. The directory can also be searched by kind of skill rather than by name.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-06-25-Credits-Calls-Search
 
@@ -954,7 +954,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 65 · 2026-06-23 · Account deletion, Peer Programming rosters, and backend updates
 
-Account deletion that actually deletes, PeerProgramming rosters, and backend cleanup behind both.
+You can now request that your account be deleted, and the operator processes the request. PeerProgramming cohort owners can see everyone in their group, and only members who have finished Unlock get placed into a cohort.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-06-23-Account-Deletion-Peer-Programming
 
@@ -962,7 +962,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 64 · 2026-06-23 · Chat bubbles and Skills Hunt rewards now clearer on mobile
 
-Chat bubble colors and SkillsHunt rewards now render properly on Android instead of washing out.
+Chat bubble colors now display properly on Android, each person's messages in their own color, so a busy Commons thread is easier to follow. Separately, the reward for finishing a paid SkillsHunt round is now visible on mobile instead of requiring another screen.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-06-23-Mobile-Chat-and-Skills-Hunt
 
@@ -1034,7 +1034,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 55 · 2026-06-20 · Fixes to LightHouse, Chyme, and Unlock
 
-LightHouse currency display and editing, Chyme audio rooms, and general platform stability.
+If you list a space in LightHouse you can now set its price in the currency that fits where you are, and edit your own listing instead of applying to change it. In Chyme, a raised hand stays raised when you move between rooms. Unlock admins can correct a submission's Quora profile URL directly.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-06-20-Fixes-Across-Plugins
 
@@ -1120,7 +1120,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 ------------------------------------------------------------------------------
 
-No. 44 · 2026-06-15 · ServiceCredits now tracks money flow and wallet limits
+No. 44 · 2026-06-15 · ServiceCredits now tracks credit flow and wallet limits
 
 ServiceCredits gained a credit policy layer: how many credits exist, a flat and equal limit for everyone with no scores or ranking, and a ceiling on total credits in circulation.
 
@@ -1202,7 +1202,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 34 · 2026-06-11 · Bug reporting now available on all devices
 
-Report a problem from inside the app, on web or Android. Your raw text stays private, and a human reads every report.
+You can report a problem from inside the app, on web or Android: open the menu, choose Report a Problem, describe what happened, send. Same steps on both.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-06-11-Bug-Reporting-Launch
 
@@ -1250,7 +1250,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 28 · 2026-06-09 · Cleaner interface, better mood tracking
 
-The Feed app is retired — it was not doing a job nothing else did. Mood gets the redesign and a better mobile layout.
+The retired Feed app is hidden from the navigation, so what is left in the list is what still works. Mood's web screen was redesigned, and a Chyme layout problem on small screens was fixed.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-06-09-Feed-Retirement-Mood-Refresh
 
@@ -1290,7 +1290,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 23 · 2026-06-07 · Community insights, cleaner app, and better chat
 
-Community pulse tracking, mobile cleanup, and better chat interactions in one pass.
+The Mood community pulse is live: it gathers anonymous check-ins into a read on how the community is doing, without exposing any individual answer, and taking part is optional. Fourteen dead mock screens were removed from the mobile app, so fewer paths lead nowhere.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-06-07-Community-Pulse-Mobile-Refresh
 
@@ -1314,7 +1314,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 20 · 2026-06-04 · Directory now shows your full network
 
-The Directory shows every member profile, and you control your own visibility inline instead of hunting through settings.
+A gating error had been hiding some member profiles in the Directory; every profile now shows to signed-in members. Profile managers can also change a profile's account attachment from the profile itself rather than from a separate settings screen.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-06-04-Directory-Access-Control
 
@@ -1354,7 +1354,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 15 · 2026-06-02 · Mobile layouts and stability improvements
 
-Mood and GentlePulse laid out properly for phones, with better error reporting behind them.
+Phone layouts landed for ServiceCredits, PeerProgramming, TrustTransport, Foundation, and ClickLog, and the AI consent window now stacks its buttons vertically on a phone instead of cramming them side by side. Schema stability work underneath guards against data drift.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-06-02-Mobile-Optimization
 
@@ -1418,7 +1418,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 7 · 2026-05-30 · Design refinements live across Skills, Weekly Performance, and Unlock
 
-Design work across Skills Taxonomy, Weekly Performance, and Unlock, now live.
+Three screens were rebuilt to match the rest of the app: the skills browser's three-column layout, the weekly performance dashboard, and the Unlock screen. Same spacing, same type, same visual order across all three.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-05-30-Design-Refinements-Live
 
@@ -1458,7 +1458,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 2 · 2026-05-29 · Directory and chat interface refinements now live
 
-Refinements to the Directory and the chat interface, now live.
+The Directory's web interface and the Chyme chat shell were both brought in line with the design mockups — clearer visual order in the Directory so a person is easier to find, and more predictable interaction patterns in chat.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-05-29-Directory-Chat-Refinements
 
@@ -2281,7 +2281,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 53 · 2025-10-03 · How exactly do gang stalkers monitor your computer activity and steal files and information? Is there a way to stop it?
 
-Several methods, starting with the network you are connected to. What can be done about each, honestly rated.
+They compromised the Wi-Fi network I was on and blocked VPNs, then used a firmware exploit to copy files off a USB drive connected to my computer — exports of my email, Notion and Obsidian. They wiped the drive remotely afterwards. I recovered the files.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/how-exactly-do-gang-stalkers-monitor-your-computer-activity-and-steal-files-and-information-is-there-a-way-to-stop-it
 
@@ -2289,7 +2289,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 52 · 2025-10-03 · I know this sounds far fetched but do gang stalkers have devices that can cause nightmares and bad dreams or maybe it's just a byproduct of the constant abuses I've suffered?
 
-It sounds far-fetched until it happens. Once for me, far more often for my mother. Either way the exhaustion is the point.
+Yes, though only once to me. They do it to my mother perhaps every night, to steer what she does the next day — she is religious, they use that, and she believes it is God telling her. I fought my way out of the one I had.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/i-know-this-sounds-far-fetched-but-do-gang-stalkers-have-devices-that-can-cause-nightmares-and-bad-dreams-or-maybe-its-just-a-byproduct-of-the-constant-abuses-ive-suffered
 
@@ -2297,7 +2297,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 51 · 2025-10-03 · Lots of people on here recommend praying. How can there be a god (with all due respect) when this evil gang stalking program goes unpunished?
 
-On being told to pray about it. People who say that are either gaslighting or have not understood what is happening, and neither helps you tomorrow morning.
+Praying will do nothing about gang stalking; whoever tells you otherwise is gaslighting you or does not know. Treat it the way you would treat being told to go for a run — if it relieves the stress, do it, alongside a hobby or a nap. Just do not mistake it for a remedy.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/lots-of-people-on-here-recommend-praying-how-can-there-be-a-god-with-all-due-respect-when-this-evil-gang-stalking-program-goes-unpunished
 
@@ -2305,7 +2305,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 50 · 2025-10-03 · [Poll] How is this forum?
 
-Two weeks in, asking the people using the forum whether it was working. Asking early is cheaper than guessing.
+Two weeks after starting the forum, asking the people using it whether it is worth anything — in the replies, by private message, or through an anonymous poll.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/poll-how-is-this-forum
 
@@ -2313,7 +2313,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 49 · 2025-10-03 · Were gang stalkers ever stalked themselves?
 
-They are people, with lives outside of it. What that means for how they get recruited, and why it matters more than it sounds.
+The question does not hold together. They are people and have ordinary lives outside it — but gang stalking is not the same as stalking; stalking is one part of it. Asking this is like asking whether a gang stalker ever had something stolen.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/were-gang-stalkers-ever-stalked-themselves
 
@@ -2321,7 +2321,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 48 · 2025-10-03 · What do I do to make it easier as a TI? I’m evicted from my home, have had 2 months to pack but can’t seem to pack. I don’t want to leave everything behind but something tells me I HAVE NO CHOICE
 
-Someone evicted, two months to pack, unable to start. Practical advice from having been there: what to sell, what to carry, and why the paralysis is not a character flaw.
+If you have nowhere to go, sell or get rid of as much as you can and get down to one bag you can travel with. And I am matching unhoused survivors with other survivors through the circular economy.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/what-do-i-do-to-make-it-easier-as-a-ti-i-m-evicted-from-my-home-have-had-2-months-to-pack-but-can-t-seem-to-pack-i-don-t-want-to-leave-everything-behind-but-something-tells-me-i-have-no-choice
 
@@ -2329,7 +2329,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 47 · 2025-10-03 · What is the very first thing you advise a TI to do after realizing they are being de-platformed from an online service?
 
-The first thing to do when an account starts going: get your material out before the decision is final, because after it lands there is nothing to export.
+It happens abruptly — warnings may come earlier, but there is no heads-up once the decision is made. The rule of thumb is never to be on one platform only.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/what-is-the-very-first-thing-you-advise-a-ti-to-do-after-realizing-they-are-being-de-platformed-from-an-online-service
 
@@ -2337,7 +2337,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 46 · 2025-10-03 · Who is being gangstalked in Chico, CA?
 
-Someone looking for others nearby. Finding each other geographically is harder than it should be, which is what the directory was eventually built for.
+Pointed at Matthew Cappadocia's map of where survivors have self-reported — open it in a browser, not the Google Maps app — and at the TI Skills Network space for anyone wanting to team up.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/who-is-being-gangstalked-in-chico-ca
 
@@ -2345,7 +2345,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 45 · 2025-10-03 · Why would gang stalkers let you know where they live and even invite you there?
 
-Entrapment. An invitation like that is an attempt to get you to do something chargeable, and recognizing the shape of it is the defense.
+Entrapment. They will try to get you to commit a crime, provoke you, or — if you do nothing — use proof you were in the house to accuse you of one. They will also lure you into acts to extort you or feed a slander campaign. There is no reason to enter a known gang stalker's home.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/why-would-gang-stalkers-let-you-know-where-they-live-and-even-invite-you-there
 
@@ -2353,7 +2353,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 44 · 2025-10-03 · Where are TIs located?
 
-A self-reported map of where survivors are. Imperfect and voluntary, and still the first time many people saw they were not the only one in their area.
+Matthew Cappadocia's map of survivors who have self-reported where they are. Open the link in a web browser — it will not work inside the Google Maps app.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/where-are-tis-located
 
@@ -2361,7 +2361,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 43 · 2025-09-26 · Off grid living on the go
 
-Practical off-grid tips from another member, including where you can legally camp in Canada. Useful when staying still is the thing that stopped working.
+Tips from Snave Seer: in Canada you can camp free on Crown Land for 21 days per site, and some US states have similar rules. iOverlander finds sites; Offline Maps keeps your maps and terrain downloaded so GPS still works with no signal.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/off-grid-living-on-the-go
 
@@ -2369,7 +2369,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 42 · 2025-09-25 · Farah’s MicroBlog September 25 2025
 
-A first in my life happened today, and not a good one. Short entry, written the same day.
+Permanently banned from a location for the first time in my life — a park I go to every day to watch videos, snack, use the restroom and refill a water bottle. No reason was given, and I was refused one. The guard said they were just doing their job.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/farah-s-microblog-september-25-2025
 
@@ -2377,7 +2377,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 41 · 2025-09-25 · TIs need to to spend more IRL time with each other
 
-When survivors are physically together, the false accusations get harder to make. That alone is an argument for meeting in person more than we do.
+When survivors are together it is harder to be falsely accused of disturbing a place. The post also names a tactic — the Shadow Synchronization, where they sync their location to yours and make chaos around you rather than just watching.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/tis-need-to-to-spend-more-irl-time-with-each-other
 
@@ -2393,7 +2393,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 39 · 2025-09-23 · Any TI HVAC techs?
 
-Looking for HVAC technicians for the trades list. High demand, and knowing who can do the work is the prerequisite for any of it being useful.
+Already building a list of survivor car mechanics; HVAC looks like the next one worth having, since the demand is high. Anyone agree?
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/any-ti-hvac-techs
 
@@ -2401,7 +2401,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 38 · 2025-09-23 · Do not obsess about what rumor they spread
 
-They will spread whatever works on the person in front of them. Chasing each rumor is a full-time job with no wages, and the point is to occupy you.
+Do not obsess over which rumor they are spreading. They spread them whether or not you did anything, and it is the same list for every target: pedo, racist, sexist, snitch, aggressive, drug addict, prostitute, thief, liar, alcoholic.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/do-not-obsess-about-what-rumor-they-spread
 
@@ -2417,7 +2417,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 36 · 2025-09-22 · Farah’s Micro Blog September 21 2025
 
-Day five of the fitness challenge, written up the same day. Small entries, kept because the small ones add up to a record.
+Day five of the fitness challenge, done outside because a gym membership is pointless. A man of at least sixty stared, did not look away when noticed, and started yelling something hateful.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/farah-s-micro-blog-september-21-2025
 
@@ -2425,7 +2425,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 35 · 2025-09-22 · Farah’s Mirco Blog September 22 2025
 
-Starting from a line of Lyndon B. Johnson's about convincing the lowest man he is better than the best man. That mechanism explains a great deal about recruitment.
+Starts from Lyndon B. Johnson's line about convincing the lowest white man he is better than the best colored man, so he will not notice whose pocket is being picked. The post reads it as how division is used to hold on to control.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/farah-s-mirco-blog-september-22-2025
 
@@ -2433,7 +2433,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 34 · 2025-09-21 · Do gang stalkers move up in rank?
 
-Yes — it is organized crime, and organizations have hierarchies. Which means there is something to move up in, and reasons people participate.
+Yes. It is organized crime, and every organization has a hierarchy.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/do-gang-stalkers-move-up-in-rank
 
@@ -2441,7 +2441,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 33 · 2025-09-21 · Farah’s Micro Blog September 20 2025
 
-I wrote yesterday about the games they arrange, and at four this morning two of them showed up. Same-day account.
+I posted about the games they arrange, and at four the next morning two police officers arrived with their brights on and complimented my bag. That is the pattern: they re-enact whatever you say or do, as soon as they can.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/farah-s-micro-blog-september-20-2025
 
@@ -2449,7 +2449,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 32 · 2025-09-21 · Has anyone had a real attempt at their life by gang stalkers?
 
-Yes, multiple times. Short and direct, because the question deserves a direct answer.
+Yes, multiple times. That is the whole answer.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/has-anyone-had-a-real-attempt-at-their-life-by-gang-stalkers
 
@@ -2457,7 +2457,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 31 · 2025-09-21 · Is there a good form of gang stalking?
 
-Group vigilantism does not have a good version, and asking the question that way is how the practice gets normalized.
+Gang stalking is group vigilantism, so the question is like asking whether there is a good form of sexual assault. The answer is in the definition: hiding behind groups like Neighborhood Watch or the Lions Club to recruit the gullible and collect the sadists.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/is-there-a-good-form-of-gang-stalking
 
@@ -2465,7 +2465,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 30 · 2025-09-21 · I've been gangstalked since 2016. Today, I no going to keep fighting anymore. Is anyone keeping a list of those lost to this?
 
-Someone at the end of what they can carry, asking whether anyone keeps a list of those lost to this. The question and the answer are both worth reading.
+A question from someone who had reached the end of what they could carry, asking whether anyone keeps a list of those lost to this. The answer: make connections with other survivors, cautiously and at your own pace, which is what Quora was useful for.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/ive-been-gangstalked-since-2016-today-i-no-going-to-keep-fighting-anymore-is-anyone-keeping-a-list-of-those-lost-to-this
 
@@ -2481,7 +2481,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 28 · 2025-09-21 · Terms of Service
 
-The old forum's terms of service, retained with the rest of the export.
+The old forum's terms of service — left as the default template it shipped with, down to the placeholder addressed to "Change Me Forum Admin". It states outright that the terms do not govern the forum, but might one day.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/terms-of-service
 
@@ -2497,7 +2497,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 26 · 2025-09-20 · Am I getting gangstalked? Why do I hear a motor passing by whenever I finish watching a show, but when I always focus on the sound it doesn't come out?
 
-Not necessarily, and here is how to think about it without either dismissing yourself or confirming everything. Several people in one area can produce coincidences that are not coincidences.
+Not necessarily. Several people in one area may be targeted, so what you are hearing could be aimed at someone else — they sensitize a whole town with the things they use against a target. Being one yourself takes more than a single sign.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/am-i-getting-gangstalked-why-do-i-hear-a-motor-passing-by-whenever-i-finish-watching-a-show-but-when-i-always-focus-on-the-sound-it-doesnt-come-out
 
@@ -2505,7 +2505,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 25 · 2025-09-20 · Gang stalking only has malicious intent
 
-Can someone be doing it out of desperation rather than malice? The intent behind an individual's participation does not change what the coordinated act is.
+It is a choice. Asking whether someone does it out of desperation or malice is like asking it of a drug dealer — whatever the intent, it is still selling crack.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/gang-stalking-only-has-malicious-intent
 
@@ -2513,7 +2513,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 24 · 2025-09-20 · How can we get the most out of our lives being a gang stalking victim?
 
-Getting the most out of life while this is happening starts with accepting the situation as it is rather than as it should be — and then deciding what you will still do.
+Accept that it will not end soon, then start networking with other survivors — they are some of the most skilled people around, and it leads to friendships, work, and ways to cope. Not going it alone is the point.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/how-can-we-get-the-most-out-of-our-lives-being-a-gang-stalking-victim
 
@@ -2521,7 +2521,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 23 · 2025-09-20 · If you think you've been targeted or \"gangstalked\" at work, what steps did you take to protect yourself and secure your employment?
 
-Record audio at minimum. Workplace mobbing follows a pattern, and documentation is the only part of it you control.
+Record audio if you can, secretly — their knowing they are recorded takes some of it down — and keep written documentation. The mobbing exists to make you quit, or react your way into being fired, so the advice is to hang on and not quit.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/if-you-think-youve-been-targeted-or-gangstalked-at-work-what-steps-did-you-take-to-protect-yourself-and-secure-your-employment
 
@@ -2529,7 +2529,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 22 · 2025-09-20 · What are some common misconceptions about gang stalking, and why do people often associate it with spiritual battles?
 
-Why the spiritual framing spreads: it is told to survivors, repeated by survivors, and it reliably makes the whole account easier to dismiss.
+They spread it, or a survivor said it first and they took it up — either way the lie works, because it makes people complacent. They told it to me and then immediately tried to talk me into killing myself, on the grounds that this is simply how life is.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/what-are-some-common-misconceptions-about-gang-stalking-and-why-do-people-often-associate-it-with-spiritual-battles
 
@@ -2537,7 +2537,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 21 · 2025-09-20 · What measures can the government take to prevent gang stalking?
 
-What a government could do, and why the question is more complicated than it sounds when the practice runs on ordinary people and ordinary money.
+Answered with Mandela: to be free is not merely to cast off one's chains, but to live in a way that respects and enhances the freedom of others. Oppressed people have always had to take responsibility for their own liberation, and then to hold the standard themselves.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/what-measures-can-the-government-take-to-prevent-gang-stalking
 
@@ -2553,7 +2553,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 19 · 2025-09-20 · What's the one thing with gang stalking that helped you the most when you found out?
 
-The single most useful thing after realizing what was happening — the answer that changed most about how I operate.
+Meeting other survivors in person and building relationships. One of them taught me about healthy volunteer clinical trials — the only work I have found that they cannot interfere with as much. Otherwise you job-hop while they mob you out of each one.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/whats-the-one-thing-with-gang-stalking-that-helped-you-the-most-when-you-found-out
 
@@ -2561,7 +2561,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 18 · 2025-09-20 · Why do targeted individuals often report financial sabotage, and what can be done to safeguard against such actions?
 
-Every income stream gets mobbed, and nearly all of us have been bankrupted. That pattern is the reason this project is economic rather than anything else.
+Nothing, at this point. They have bankrupted all of us, they mob every income stream, and whatever money is left goes on defending yourself. One method is paying mechanics to damage your car so you are always at a repair shop. That is the argument for a circular economy among ourselves.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/why-do-targeted-individuals-often-report-financial-sabotage-and-what-can-be-done-to-safeguard-against-such-actions
 
@@ -2569,7 +2569,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 17 · 2025-09-20 · A post for each gang stalker game
 
-A catalog of the routines they run, one at a time, in no particular order. Naming a skit is what lets you spot it while it is happening instead of afterwards.
+A running list of the skits and entrapment schemes used against Targeted Individuals, added one at a time — the first is pretending to need your help. It also links an interactive page of questions for working out whether you are a target, built on a list Nat Morris made.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Specterati%27s-most-common-skits
 
@@ -2577,7 +2577,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 16 · 2025-09-20 · Clinical Trials for TIs
 
-Paid clinical trials as an income route when ordinary employment keeps collapsing. Legitimate, and it does not depend on an employer who can be pressured.
+Keeping regular employment is not possible in the Specterrealm. Paid healthy-volunteer studies are phase I trials where a company pays you to test a medicine. Some pay up to $36,000; the highest I have seen is $45,000 for a month; the average is three to five thousand a month. It is contract work.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/mono/TIs-in-need-of-work%2C-try-clinical-trials
 
@@ -2585,7 +2585,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/mono/TI
 
 No. 15 · 2025-09-19 · About the Craigslist category
 
-The classifieds category, and where the idea came from — a circular economy that started on Quora and needed somewhere it could not be deleted.
+The classifieds category. The circular economy started on Quora, then Quora banned the account and deleted every post but one. So this is the new place to exchange goods and services — use it as you would Craigslist, with the same precautions you would take anywhere public.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/about-the-craigslist-category
 
@@ -2593,7 +2593,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 14 · 2025-09-19 · Farah’s Micro Blog September 19 2025
 
-Tried podcasting, did not take to it. Vlogging either. Short entry on finding the format that actually fits.
+Podcasting did not take, and neither did vlogging; voice to text, proofed and posted, is the format that fits. Day one of microblogging. Also that morning: the 7/11 employee tried to charge me double for a drink.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/farah-s-micro-blog-september-19-2025
 
@@ -2601,7 +2601,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 13 · 2025-09-19 · Fitness challenge?
 
-A fitness challenge, mostly jump rope. After going on the run and losing access to food, I lost a hundred pounds and all my muscle with it. This was about getting some of that back.
+A fitness challenge, mostly jump rope. Before the overt stalking I was a workaholic and had gained weight; after it, on the run with them limiting my access to food, I lost a hundred pounds and all my muscle with it. A gym is not an option, so this is what is left.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/fitness-challenge
 
@@ -2609,7 +2609,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 12 · 2025-09-19 · Get your invite code!
 
-SupportMatch had an odd number of sign-ups, so someone was left unmatched. An invitation to join and be paired almost immediately.
+SupportMatch had an odd number of sign-ups, so someone was left unmatched. Join and be paired the same day. It has in-app messaging, you can report a match or stop one recurring, and you can choose to be matched with the same gender. Invite-only, to keep gang stalkers out.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/get-your-invite-code
 
@@ -2617,7 +2617,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 11 · 2025-09-19 · I do not think there is such a thing as a TI being a gang stalker simultaneously
 
-Can a target also be a participant? My answer is no, with the reasoning — once you are on the list, that status does not get traded away.
+No. Once a target, always a target, and someone who joined in is in a different category because they will never endure what a target endures. What does exist is proxy gang stalking: when survivors interact, they will deliberately mimic one to the other.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/i-do-not-think-there-is-such-a-thing-as-a-ti-being-a-gang-stalker-simultaneously
 
@@ -2625,7 +2625,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 10 · 2025-09-19 · Support Match Waitlist
 
-SupportMatch launched September 14, 2025 and needed more people to pair. The waitlist post explaining what it does and why the numbers matter.
+SupportMatch was released on September 14, 2025 and had not reached twenty-five users — not a failure, it had not been a week. But I cover the hosting myself, which is hard when they interfere with earning anything at all.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/support-match-waitlist
 
@@ -2641,7 +2641,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 8 · 2025-09-19 · Why now and why public?
 
-My admin account on the original space was removed without warning. That is the answer to why this moved somewhere public and permanent rather than staying on a platform.
+My admin account on the Quora space was banned and the content deleted, right after I launched the peer-to-peer support app and asked for a dollar a month toward hosting. That is why this moved somewhere public that nobody else controls.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/why-now-and-why-public
 
@@ -2649,7 +2649,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 7 · 2025-09-19 · General Rundown of Clinical Trials
 
-How clinical trials work as an income route, in detail. The survivor-specific parts stay in a private group; the general information is here.
+How healthy-volunteer clinical trials work, in detail. The survivor-specific tips stay in a private Signal group — what to say and do so they cannot get you banned from trials, which they try.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Overview-of-clinical-trials
 
@@ -2657,7 +2657,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 6 · 2025-09-19 · The intention of this forum is for TIs to help other TIs
 
-The purpose of the place in one line: our best bet is each other. There is a great deal to offer between us once we can find it.
+Our best bet is asking other survivors for help, and there is plenty to offer each other beyond money. Written in answer to someone deeply depressed and asking for encouragement.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/the-intention-of-this-forum-is-for-tis-to-help-other-tis
 
@@ -2665,7 +2665,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 5 · 2025-09-19 · There is more of us than you think
 
-A rapper's brother was one of us. Once you start counting the people who have said it publicly, the number stops looking marginal.
+The brother of a rapper was one of us. In a documentary about the rapper, the brother said the same script they used on me last year to try to talk me into killing myself — more than ten years earlier, from someone who plainly did not have mental health problems.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/there-is-more-of-us-than-you-think
 
@@ -2681,7 +2681,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 3 · 2025-09-19 · Virtual Doctors for TIs
 
-I was a software engineer before this, the kind who bought a domain the moment they had an idea. Virtual medical care for survivors was one of those ideas, and this is the case for it.
+A survivor with a medical practice had it overrun by gang stalkers. That is the case for virtual medical care inside the community. Written by someone who was a software engineer before this and used to buy a domain the moment an idea arrived.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/virtual-doctors-for-tis
 
