@@ -31,7 +31,7 @@ St. Louis, boarding. People began talking at a volume meant to carry: she is del
 
 St. Louis, the skit. A woman came up to me with scripted-sounding talk and would not disengage. I backed away. I told her repeatedly to get away from me. She then told Greyhound staff that I had assaulted her. There had been no contact of any kind. A second person stepped forward to confirm it as a witness — the same two people who had been with me since Denver. Staff refused to let me board. Police were called on the false report. The police said they could not compel a private company to release its own security camera footage, which would have shown that nothing happened. A bystander explained the situation to the crowd on my behalf: you are overreacting, she just walked up and asked you a question.
 
-Also in St. Louis, the pair repeated the phrase "stay apart, keep apart" back at me. Those words come from an old employment dispute of mine that was resolved years ago, in which the person who accused me later admitted she had lied. Private history, performed at me on a sidewalk by strangers.
+Also in St. Louis, the pair repeated the phrase "stay apart, keep apart" back at me. Those words come from an old employment dispute of mine that was resolved days ago, in which the person who accused me later admitted he had lied. Private history, performed at me on a sidewalk by strangers.
 
 Then the ticket, while I was on the bus.
 
