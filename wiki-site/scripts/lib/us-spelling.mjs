@@ -22,7 +22,9 @@ export const RULES = [
   { british: 'judgement', us: 'judgment' },
   { british: 'colour', us: 'color' },
   { british: 'amongst', us: 'among', wholeWord: true },
-  { british: 'grey', us: 'gray' },
+  // wholeWord, unlike the product repository's copy: without it this matches the carrier name
+  // Greyhound, and a company's name is not ours to respell. "grey" on its own is still caught.
+  { british: 'grey', us: 'gray', wholeWord: true },
   { british: 'realis', us: 'realiz', requireSuffix: 'e|ed|es|ing|ation' },
   { british: 'recognis', us: 'recogniz', requireSuffix: 'e|ed|es|ing|able' },
   { british: 'enrolment', us: 'enrollment' },

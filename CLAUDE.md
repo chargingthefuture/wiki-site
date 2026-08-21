@@ -76,6 +76,11 @@ without complaint — nothing else in the pipeline knows the difference. The wor
 verbatim from `ctf/scripts/lib/us-spelling.mjs` in the product repository, whose own gate skips
 wiki-site precisely because this is a separate repository; if that list changes, copy it across.
 
+One rule deliberately differs. `grey` carries `wholeWord: true` here, because without it the rule
+matches the carrier name Greyhound, and a company's name is not ours to respell. `grey` on its own
+is still caught. The product repository's copy has the same latent problem and has simply never
+written the word.
+
 `content/archive/` is checked too. A British spelling in an archived post is a typo, and typos get
 fixed here — the copy-edit passes over the archive have been doing exactly that.
 

@@ -17,7 +17,7 @@ The carrier's record says I called and requested it. I did not. The email addres
 
 ## The whole trip, in order
 
-Booked: Salt Lake City to Denver to St. Louis to New York Port Authority. About two and a half days door to door. $473.30, which is real money and most of what I had.
+Booked: Salt Lake City to Denver to St. Louis to New York Port Authority. About two and a half days door to door. $473.30.
 
 August 11, leg one. The driver took a long rest stop, longer than the stop needed to be. The Denver connection was thirty minutes; I missed it. The next bus was five hours later. I called, the ticket was rebooked across the same three legs at later times, and the arrival moved to 16:00 on August 13.
 
