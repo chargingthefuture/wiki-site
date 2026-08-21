@@ -199,6 +199,11 @@ rather than an edge case — Quora has erased five of this project's own account
 
 The archive entries already use the plain-text-plus-URL form. Match them.
 
+The same care applies to the owner. Write they/them, in posts, PR bodies, commit messages, and
+chat alike. Agents keep inferring a pronoun from the name and getting it wrong, which is worse than
+the neutral default in every case where it is wrong and no better in any case where it is right.
+The rest of this file already uses they/them throughout — match it.
+
 ## Capitalizing Targeted Individual (owner directive, 2026-08-18)
 
 Write it Targeted Individual, capitalized, every time — singular or plural, and Targeted
