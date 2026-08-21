@@ -53,7 +53,7 @@ Every layer of that trip is a scheme on the community's canonical list. The list
 
 It also produced two problem tags: trips sabotaged through delays, missed connections and canceled tickets; and being falsely accused of violence to bystanders.
 
-Six of those scheme names came out of this trip. The Engineered Delay, The Pretext Search, The Planted Witness, The Replay, The Altered Ticket and The Sensitization Skit did not exist as named things before it. They do now, and every member can tag with them. One person's worst week became vocabulary the rest of us can use.
+Six of those scheme names came out of this trip. The Engineered Delay, The Pretext Search, The Planted Witness, The Replay, The Altered Ticket and The Sensitization Skit did not exist as named things before it. They do now, and every member can tag with them.
 
 ## Why the logger has to hold more than one tag
 
