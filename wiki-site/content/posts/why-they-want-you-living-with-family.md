@@ -3,13 +3,15 @@ title: "Why They Want You Living With Family"
 date: "2026-08-21"
 excerpt: "Destitution is not the goal. It is the step that leaves one door open, and the door leads back to relatives who can be bought. This is the arrangement I argue against hardest, and why."
 category: "Community"
-teaser: "They make you destitute so that the only place left to go is back to family — at any age, and the age is part of it. Then the relatives get bought: perks, work, company. The neighborhood fills with people whose whole occupation is you. It makes the scheduled harassment easy, because you have supplied both things it needs — a settled address and someone on the inside. This is the arrangement I argue against hardest, and this post says plainly why."
+teaser: "The Forced Homecoming, now on the schemes list, has been run at me for more than a decade. They make you destitute so the only place left to go is back to family — at any age, and the age is part of it. Then the relatives get bought: perks, work, company. It makes the scheduled harassment easy, because you have supplied both things it needs. And it is the cheapest way to get you labeled unstable, because a person isolated with their abusers, with no income and no unpaid witness, has no route to being believed."
 topics:
   - specterati
   - housing
 ---
 
-There is a scheme going onto the [schemes list](https://www.chargingthefuture.com/schemes) that I have wanted named for a long time. Call it living with your parents — at any age, and the age is part of the point.
+There is a scheme on the [schemes list](https://www.chargingthefuture.com/schemes) now that I have wanted named for a long time: The Forced Homecoming.
+
+It has been run at me for more than a decade — not once, repeatedly. That is the part worth saying first, because a thing attempted on you every few years is not a run of bad luck, and the repetition is what finally made it recognizable to me as a designed sequence rather than a series of separate disasters.
 
 ## It is built, not stumbled into
 
@@ -28,6 +30,16 @@ Around the house, the neighborhood fills in. Properties get bought up. People wh
 The [Good Day, Bad Day](https://www.chargingthefuture.com/schemes) needs two things: a settled address, so a weekday can be reliably ruined, and knowledge of your day, so the grading works.
 
 In this arrangement you have supplied both. You are not going anywhere, and one of them lives with you. They know when you slept, what you ate, what you were dreading, and how the day went — not by surveillance but by being at the table. It is the cheapest version of the operation there is.
+
+## And why you will not be believed afterward
+
+This is the payoff I had not understood until recently, and it is the one that does the lasting damage.
+
+There is a problem on the list now that was missing before: being falsely labeled mentally ill or dangerous. Not a specific accusation about a specific incident — that is its own entry. This is the standing verdict about your character, the one that follows you into a doctor's office, a housing application, a family conversation, a courtroom. Several schemes exist to manufacture it. You are provoked until you react like anyone would, and the reaction is what gets written down.
+
+The Forced Homecoming is the cheapest way to produce it. Look at what the arrangement leaves you with. You are isolated, in a house with the people harming you. You have no independent income, so you cannot leave and cannot be taken seriously as an account of your own situation. And there is no witness to any of it who is not being paid — in favors, in work, in company — to say the opposite of what you would say.
+
+A person in that position has no route to being believed. Not because the account is weak, but because every source anyone would check has been bought.
 
 ## Why I say do not do it
 
