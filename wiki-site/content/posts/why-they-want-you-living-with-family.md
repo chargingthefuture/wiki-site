@@ -23,7 +23,7 @@ They have a fixation on the past. Putting a grown adult back in a childhood bedr
 
 Once you are in the house, the people in it become useful. Perks. Work that appears from nowhere. Social life, company, sex — things given to a relative in exchange for making your day worse. It does not have to be framed to them as recruitment and usually is not. It arrives as good fortune that happens to come with a suggestion attached.
 
-Around the house, the neighborhood fills in. Properties get bought up. People whose entire occupation is you circle the block all day, and there is nowhere in your routine they are not.
+Around the house, the neighborhood fills in. Properties get bought up. People doing this full time circle the block all day — not full time on you, since they carry other targets in the same city, but near enough and often enough that there is nowhere in your routine they are not.
 
 ## Why this makes the scheduled part easy
 
