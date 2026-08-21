@@ -39,7 +39,7 @@ Then they use it. They will eat it in front of me to mark a day they arranged to
 
 This has been going on since I was five. That length of time does two things. It gives them an enormous amount to observe, and it taught me early to give them very little.
 
-I do not talk about what I enjoy. Other survivors have not learned that, and I do not blame them for it. If you were targeted later in life you already had a job, a family, children, all the ordinary machinery of an adult, and there is too much running at once to notice a stranger repeating himself.
+I do not talk about what I enjoy. Other survivors have not learned that, and I do not blame them for it. If you were targeted later in life you already had a job, a family, children, all the ordinary machinery of an adult, and there is too much running at once to notice a stranger repeating themselves.
 
 I had the opposite. I was a child, and I did not speak English. Observation was all I had, and it was easy. My first stalker was an adult in their thirties when I was five: a stranger, no shared language, near me repeatedly. In that setting it stood out. It could not not stand out.
 
