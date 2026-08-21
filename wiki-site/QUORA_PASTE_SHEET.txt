@@ -1172,7 +1172,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 34 · 2026-06-11 · Bug reporting now available on all devices
 
-Report a problem from inside the app, on web or Android. Your raw text stays private, and a human reads every report.
+You can report a problem from inside the app, on web or Android: open the menu, choose Report a Problem, describe what happened, send. Same steps on both.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-06-11-Bug-Reporting-Launch
 
@@ -1220,7 +1220,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 28 · 2026-06-09 · Cleaner interface, better mood tracking
 
-The Feed app is retired — it was not doing a job nothing else did. Mood gets the redesign and a better mobile layout.
+The retired Feed app is hidden from the navigation, so what is left in the list is what still works. Mood's web screen was redesigned, and a Chyme layout problem on small screens was fixed.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-06-09-Feed-Retirement-Mood-Refresh
 
@@ -1260,7 +1260,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 23 · 2026-06-07 · Community insights, cleaner app, and better chat
 
-Community pulse tracking, mobile cleanup, and better chat interactions in one pass.
+The Mood community pulse is live: it gathers anonymous check-ins into a read on how the community is doing, without exposing any individual answer, and taking part is optional. Fourteen dead mock screens were removed from the mobile app, so fewer paths lead nowhere.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-06-07-Community-Pulse-Mobile-Refresh
 
@@ -1284,7 +1284,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 20 · 2026-06-04 · Directory now shows your full network
 
-The Directory shows every member profile, and you control your own visibility inline instead of hunting through settings.
+A gating error had been hiding some member profiles in the Directory; every profile now shows to signed-in members. Profile managers can also change a profile's account attachment from the profile itself rather than from a separate settings screen.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-06-04-Directory-Access-Control
 
@@ -1324,7 +1324,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 15 · 2026-06-02 · Mobile layouts and stability improvements
 
-Mood and GentlePulse laid out properly for phones, with better error reporting behind them.
+Phone layouts landed for ServiceCredits, PeerProgramming, TrustTransport, Foundation, and ClickLog, and the AI consent window now stacks its buttons vertically on a phone instead of cramming them side by side. Schema stability work underneath guards against data drift.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-06-02-Mobile-Optimization
 
@@ -1388,7 +1388,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 7 · 2026-05-30 · Design refinements live across Skills, Weekly Performance, and Unlock
 
-Design work across Skills Taxonomy, Weekly Performance, and Unlock, now live.
+Three screens were rebuilt to match the rest of the app: the skills browser's three-column layout, the weekly performance dashboard, and the Unlock screen. Same spacing, same type, same visual order across all three.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-05-30-Design-Refinements-Live
 
@@ -1428,7 +1428,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 2 · 2026-05-29 · Directory and chat interface refinements now live
 
-Refinements to the Directory and the chat interface, now live.
+The Directory's web interface and the Chyme chat shell were both brought in line with the design mockups — clearer visual order in the Directory so a person is easier to find, and more predictable interaction patterns in chat.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Product-Update-2026-05-29-Directory-Chat-Refinements
 
