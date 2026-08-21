@@ -29,7 +29,7 @@ export interface ArticleMeta {
 export const ARTICLES: ArticleMeta[] = [
   {
     "slug": "a-safe-place-to-shower",
-    "title": "The Record Says I Called. I Was on the Bus.",
+    "title": "A safe place to shower",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-08-21",
     "excerpt": "They mobbed me out of work and out of housing and drove my businesses to zero equity, so I wash in a day facility whose showers cannot be locked from the inside. Yesterday an employee keyed me in, and the moment I was undressed a door was opened and a man standing there saw all of it and laughed. ClickLog gained two things this week for naming that: a problem tag covering sexual violence through to deliberate exposure, and a scheme called The Staged Exposure. I think it is what they reach for when decades of honeypots have not worked and no sexual assault has been achieved. The answer is not a better lock — it is a room with a door that is yours, and a ride there that does not run through them.",
