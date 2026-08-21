@@ -1,6 +1,6 @@
 ---
 title: Hosting in LightHouse
-date: "2026-01-01"
+date: "2025-12-30"
 excerpt: Guides post from Charging The Future.
 category: Guides
 slug: guides/lighthouse/hosting

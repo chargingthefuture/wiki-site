@@ -1,7 +1,7 @@
 ---
 title: Services for TIs you can use now!
 date: "2025-10-25"
-excerpt: What you can use to your betterment at this very moment! \nTI Database create a profile and be counted in a running list of TIs, disclose only what you want. \...
+excerpt: What you can use to your betterment at this very moment! TI Database create a profile and be counted in a running list of TIs, disclose only what you want. \...
 category: Discourse Community Legacy Post
 slug: Services-for-TIs-you-can-use-now!
 repo: chargingthefuture/chargingthefuture
@@ -17,7 +17,7 @@ Title: Services for TIs you can use now!
 Slug: services-for-tis-you-can-use-now
 Created: 2025-10-25
 Updated: 2025-10-25
-Excerpt: What you can use to your betterment at this very moment! \nTI Database create a profile and be counted in a running list of TIs, disclose only what you want. \nSupportMatch accountability partner matching. Match with a new&hellip;
+Excerpt: What you can use to your betterment at this very moment! TI Database create a profile and be counted in a running list of TIs, disclose only what you want. SupportMatch accountability partner matching. Match with a new&hellip;
 -->
 
 # What you can use now to get your autonomy back!
@@ -33,7 +33,7 @@ UPDATED December 28, 2025
 * MechanicMatch: Connect with trusted mechanics when your car breaks down or is tampered with | https://app.chargingthefuture.com/apps/mechanicmatch
 > > <img width="400" alt="screencapture-app-chargingthefuture-apps-mechanicmatch-2025-12-28-12_52_45" src="https://github.com/user-attachments/assets/e5fa0939-80bd-4ad0-bf32-d229ad5dcbf4" />
 
-* Workforce Recruiter: Review the collective skillset of the TI Skills Economy and find or expand your career amongst TIs | https://app.chargingthefuture.com/apps/workforce-recruiter
+* Workforce Recruiter: Review the collective skillset of the TI Skills Economy and find or expand your career among TIs | https://app.chargingthefuture.com/apps/workforce-recruiter
 > > <img width="400" alt="screencapture-app-chargingthefuture-apps-workforce-recruiter-2025-12-28-12_51_47" src="https://github.com/user-attachments/assets/9ee608c5-c532-4128-9545-f666c27434e6" />
 
 * SupportMatch: Find accountability partners who understand | https://app.chargingthefuture.com/apps/supportmatch

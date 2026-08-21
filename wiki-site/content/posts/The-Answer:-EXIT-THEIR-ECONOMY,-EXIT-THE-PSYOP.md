@@ -1,6 +1,6 @@
 ---
 title: Live, Work, and Prevail — a manifesto for survivors
-date: "2026-01-01"
+date: "2026-07-06"
 excerpt: "We are survivors. Targeted Individuals (TIs) — people subjected to organized, long-running harassment carried out by what I call the Specterati: a coordinated ..."
 category: Community
 slug: The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP

@@ -15,7 +15,7 @@ repo: chargingthefuture/chargingthefuture
 
 We've consolidated feed announcements into the Survivor Hub home page, creating a unified channel for important updates. This means you'll see all critical information in one consistent place instead of scattered across multiple surfaces.
 
-Our workforce backend is now fully finalized. This infrastructure supports the skills economy features that help you build and monetize your capabilities. The backend handles everything from service credits to skills discovery—all working reliably so you can focus on what matters.
+Our workforce backend is now fully finalized. This infrastructure supports the skills economy features that help you build and exchange your skills. The backend handles everything from service credits to skills discovery—all working reliably so you can focus on what matters.
 
 We've also refined our internal processes: CodeRabbit review policies now give project owners clear control over when changes are ready, and our team uses descriptive branch names for better transparency.
 
@@ -34,4 +34,4 @@ The finalized workforce backend is infrastructure built for you—it's the found
 
 ## Next
 
-Our team continues building features that give you agency and choice. Follow our [wiki blog](https://github.com/chargingthefuture/ctf/wiki) for detailed technical updates and the [project board](https://github.com/orgs/chargingthefuture/projects) to see what's coming next.
+Our team continues building features that give you agency and choice. Follow our [wiki blog](https://github.com/chargingthefuture/chargingthefuture/wiki) for detailed technical updates and the [project board](https://github.com/orgs/chargingthefuture/projects) to see what's coming next.

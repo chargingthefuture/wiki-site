@@ -1,7 +1,7 @@
 ---
 title: Dictionary | Terminology
 date: "2025-10-19"
-excerpt: Caught Red-Faced \nA play on “caught red-handed,” emphasizing both guilt and embarrassment when a member of the Specterati panics when caught committing a crim...
+excerpt: Caught Red-Faced A play on “caught red-handed,” emphasizing both guilt and embarrassment when a member of the Specterati panics when caught committing a crim...
 category: Discourse Community Legacy Post
 slug: Vocab
 repo: chargingthefuture/chargingthefuture
@@ -17,7 +17,7 @@ Title: Dictionary | Terminology
 Slug: dictionary-terminology
 Created: 2025-10-19
 Updated: 2025-12-12
-Excerpt: Caught Red-Faced \nA play on “caught red-handed,” emphasizing both guilt and embarrassment when a member of the Specterati panics when caught committing a crime. \nDEW \nDirect energy weapon \nSpecterati - replacement of the&hellip;
+Excerpt: Caught Red-Faced A play on “caught red-handed,” emphasizing both guilt and embarrassment when a member of the Specterati panics when caught committing a crime. DEW Direct energy weapon Specterati - replacement of the&hellip;
 -->
 
 Caught Red-Faced

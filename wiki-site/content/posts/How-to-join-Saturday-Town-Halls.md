@@ -1,6 +1,6 @@
 ---
 title: How to join Saturday Town Halls
-date: "2026-01-01"
+date: "2026-01-23"
 excerpt: Every Saturday I make myself available to speak live about TSE.
 category: Community
 slug: How-to-join-Saturday-Town-Halls

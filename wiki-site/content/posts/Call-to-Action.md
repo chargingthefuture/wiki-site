@@ -1,6 +1,6 @@
 ---
 title: My call to action — Join the TI Skills Economy
-date: "2026-01-01"
+date: "2026-01-21"
 excerpt: One of the Specterati walked up to me this morning and said, “you know there is a camera?” As I stood underneath one while on my phone.
 category: Community
 slug: Call-to-Action

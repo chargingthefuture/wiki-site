@@ -24,5 +24,6 @@ Excerpt: Entrapment. They will try to get you to commit a crime, provoke you, or
 
 > Entrapment. They will try to get you to commit a crime, provoke you, or, if you do not do anything, if they have proof you were in the house, falsely accuse you of a crime. They are also sexual deviants. They will lure y&hellip;
 
-<p>Entrapment. They will try to get you to commit a crime, provoke you, or, if you do not do anything, if they have proof you were in the house, falsely accuse you of a crime. They are also sexual deviants. They will lure you into various “acts” for extortion or for their slander campaign. I cannot think of one reason it would be necessary to enter a known gang stalker’s home.</p>\n<p><a href="https://qr.ae/pCnN94" class="onebox" target="_blank" rel="noopener">https://qr.ae/pCnN94</a></p>
+<p>Entrapment. They will try to get you to commit a crime, provoke you, or, if you do not do anything, if they have proof you were in the house, falsely accuse you of a crime. They are also sexual deviants. They will lure you into various “acts” for extortion or for their slander campaign. I cannot think of one reason it would be necessary to enter a known gang stalker’s home.</p>
+<p><a href="https://qr.ae/pCnN94" class="onebox" target="_blank" rel="noopener">https://qr.ae/pCnN94</a></p>
 

@@ -1,6 +1,6 @@
 ---
 title: General Rundown
-date: "2026-01-01"
+date: "2025-12-23"
 excerpt: Another TI taught me about doing healthy volunteer studies. It's where pharma companies pay you to test an upcoming medicine. It's safe because they are phase ...
 category: Community
 slug: How-to-maintain-employment-as-a-TI.
