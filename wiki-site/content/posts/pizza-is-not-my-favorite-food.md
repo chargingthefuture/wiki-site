@@ -9,7 +9,7 @@ topics:
   - clicklog
 ---
 
-Somebody wrote this in the Skills Economy space, and it is worth answering properly. Gn0b0dy Pneuma said that Targeted Individuals constantly report that operatives can see through their eyes and hear what they hear — and that in their own experience, the people making that claim are lying. They finished with a paraphrase of Sun Tzu: make your enemy think you are powerful when you are not, and close when you are far.
+Somebody wrote this in the Skills Economy space, and it is worth answering properly. [Gn0b0dy Pneuma](https://www.quora.com/profile/Gn0b0dy-Pneuma) said that Targeted Individuals constantly report that operatives can see through their eyes and hear what they hear — and that in their own experience, the people making that claim are lying. They finished with a paraphrase of Sun Tzu: make your enemy think you are powerful when you are not, and close when you are far.
 
 I do not believe it either. And I think I can say what is actually happening in its place.
 
