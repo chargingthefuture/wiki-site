@@ -57,6 +57,21 @@ export default defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
+    rollupOptions: {
+      output: {
+        // Each bundled content/*.md becomes its own lazy chunk named after
+        // the file. Some article file names carry emoji, apostrophes, or
+        // unicode hyphens; GitHub Pages does not reliably serve asset files
+        // with those names, so the article body request 404s and the page
+        // shows the not-found screen. Keep every emitted chunk name ASCII.
+        sanitizeFileName: (name: string) =>
+          name
+            .replace(/[^\x20-\x7E]/g, "")
+            .replace(/[\0?*:"<>|#%'\s]/g, "-")
+            .replace(/-+/g, "-")
+            .replace(/^-|-$/g, "") || "chunk",
+      },
+    },
   },
   server: {
     port,

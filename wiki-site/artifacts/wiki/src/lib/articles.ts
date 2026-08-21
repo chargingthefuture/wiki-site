@@ -28,6 +28,231 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "one-trip-seven-schemes",
+    "title": "The Record Says I Called. I Was on the Bus.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-20",
+    "excerpt": "One cross-country bus trip ran at least seven named schemes in sequence — and one of them rewrote my ticket while I was sitting on the bus it was for.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/one-trip-seven-schemes.md",
+    "teaser": "A three-leg bus trip from Salt Lake City to New York, booked for about two and a half days, took until the fourth day and never reached the terminal I paid for. Along the way it ran seven schemes that now have names: an unplanned rest stop that ran long and cost the connection, a search of my luggage on the grounds that locks on it indicate drug trafficking, loud talk about drugs after that search found nothing, a woman who would not leave and then reported an assault that never happened, a confirming witness, and a rewritten itinerary the carrier's own record says I phoned in. I did not. That is why ClickLog lets one incident carry ten scheme tags.",
+    "topics": [
+      "clicklog",
+      "specterati"
+    ]
+  },
+  {
+    "slug": "an-invitation-to-steph-wo",
+    "title": "An Invitation to Steph Wo.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-20",
+    "excerpt": "A fine art degree, a drafting certificate, a piano, and a career the targeting ended early. The skills are all on the list of 650 a working economy needs.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-steph-wo.md",
+    "teaser": "Steph Wo.'s Quora bio is a list of what the targeting interrupted: a BFA in fine art and English, a philosophy minor, architectural drafting, classical piano, modern creative dance, and a career that ended in early retirement rather than by choice. The bio then asks: what past, what dreams? The app carries a catalog of about 650 skills a working economy of this size needs, and the community now covers 159 of them — a quarter. Fine art is one of them. So is drafting. This is an invitation to put them back to use among people who are not going to take them again.",
+    "topics": [
+      "members",
+      "skills-economy"
+    ]
+  },
+  {
+    "slug": "transactional-on-purpose",
+    "title": "Transactional on Purpose",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-20",
+    "excerpt": "A trafficker blocked my path today and said my self-defense items look ridiculous. Ridiculous in front of whom? The exchange comes first for a reason.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/transactional-on-purpose.md",
+    "teaser": "One of them circled in front of me today to block my way, then said I look ridiculous carrying self-defense items. Ridiculous in front of whom — people who are fine with this, or think it is funny? I have an email from a woman who wrote that she traffics people, enjoys it, and believes in human torture. That is the audience whose opinion the taunt is asking you to care about. The Skills Economy answers it by putting the exchange first: a trafficker never gives you material help, so leading with what you need filters them out before anything else happens. What is left on the other side of that filter is people worth knowing.",
+    "topics": [
+      "specterati",
+      "skills-economy"
+    ]
+  },
+  {
+    "slug": "Dictionary",
+    "title": "Dictionary: Skills Economy Terms",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-08-20",
+    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
+    "category": "Resources",
+    "collection": "posts",
+    "path": "posts/Dictionary.md",
+    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
+    "topics": [
+      "reference",
+      "terms"
+    ]
+  },
+  {
+    "slug": "quora-deletion-survey",
+    "title": "If Quora Closed Your Account, There Is Now Somewhere to Say So",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-19",
+    "excerpt": "A public survey recording accounts Quora removed — what was taken, when, and what reason was given. Reading it needs no account.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/quora-deletion-survey.md",
+    "teaser": "Every time an account goes, the record of it goes too. There is now a survey that keeps that record outside Quora: which handle, what happened to it, what month, and what reason was given — one card per closed account, so no total is a number somebody typed. Reading it needs no account. Your handle and your words stay unpublished unless you say otherwise, and your report still counts either way.",
+    "topics": [
+      "quora",
+      "research"
+    ]
+  },
+  {
+    "slug": "clicklog-trends-now-say-where",
+    "title": "The Trends Report Now Says Where",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-19",
+    "excerpt": "ClickLog's trend report used to count areas without naming them, and count incidents without counting people. Both are fixed, along with what the report will not show.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/clicklog-trends-now-say-where.md",
+    "teaser": "A note in a private file helps nobody but the person who wrote it, and a hundred separate notes are still a hundred separate notes. Tags turn them into something countable, and counted things can be shown to someone. ClickLog's trend report now names the areas instead of only counting them, counts how many different people are reporting rather than how many entries exist, and prints its own limits alongside its numbers — including everything it still cannot show.",
+    "topics": [
+      "clicklog",
+      "trends"
+    ]
+  },
+  {
+    "slug": "deplatformed-keep-your-people",
+    "title": "Deplatformed Again — and What I Am Doing About It",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-19",
+    "excerpt": "Quora deleted two years of connections and content for the third time. Here is the new content strategy, and why your profile should not depend on an account you can lose.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/deplatformed-keep-your-people.md",
+    "teaser": "Quora deleted my account for the third time — two years of connections and content, gone with it. This blog did not move. So the strategy changed: everything I write is published here first, and platforms get an excerpt and a link. If you have been deplatformed too, the fix is the same for you as it is for me — a Directory profile in the Skills Economy, where your skills, your record, and the people who know you survive any account being deleted.",
+    "topics": [
+      "directory",
+      "deplatforming"
+    ]
+  },
+  {
+    "slug": "old-links-new-links",
+    "title": "Old links, new links",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-19",
+    "excerpt": "Three Quora accounts erased, one space renamed. What is current, what is dead, and the one address that does not change.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/old-links-new-links.md",
+    "teaser": "Quora has erased my accounts four times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. This page is the standing record: the current space, the current handle, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
+    "topics": [
+      "publishing",
+      "platform-independence"
+    ]
+  },
+  {
+    "slug": "socketrelay-v3-credits",
+    "title": "SocketRelay Now Puts Something in Everyone's Hand",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-18",
+    "excerpt": "The needs board is the same idea it always was. What changed in v3: every member arrives with 100 ServiceCredits, so nobody starts with nothing to offer.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/socketrelay-v3-credits.md",
+    "teaser": "The needs board has always worked the same way — post what you need, offer what you have. What changed in the current version of the app: every member who joins receives 100 ServiceCredits on day one. Being made destitute is the standard outcome of being targeted, and free-and-barter only goes so far when you have nothing left to barter with. Now nobody arrives empty-handed, and thanking another survivor properly is something anyone can do from the first day.",
+    "topics": [
+      "socketrelay",
+      "servicecredits"
+    ]
+  },
+  {
+    "slug": "who-put-you-on-the-list",
+    "title": "It Does Not Matter Who Put You on the List",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-18",
+    "excerpt": "Every survivor gets a different story about who is doing this. The Skills Economy is built so that answer never has to be settled.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/who-put-you-on-the-list.md",
+    "teaser": "Who put you on the list matters to a point. After that, it stops mattering: once you are on it, every criminal group in reach joins, and they run the same schemes in rotation regardless of who started it. That is why the Skills Economy does not ask you to identify your persecutor before it can help you. It is built on the one thing none of them are exempt from — economics.",
+    "topics": [
+      "specterati",
+      "skills-economy"
+    ]
+  },
+  {
+    "slug": "honoring-the-earliest-supporters",
+    "title": "The People Who Backed This Publicly",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-18",
+    "excerpt": "Ten of the earliest survivors to speak up for the Skills Economy on Quora. Their comments were deleted with the accounts. The record of who they are lives here.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/honoring-the-earliest-supporters.md",
+    "teaser": "Ten of the earliest survivors to back the Skills Economy publicly did it on Quora — in comments, on their own pages, in the open where other targeted people could see it. Quora deleted the accounts those comments lived on, so the proof they offered is gone. What is not gone is who they are and what they do. Each was a Member of the Day; each has a directory profile; each post that introduced them is still here. This page names them, links their profiles, and asks them to say the word again if they want to.",
+    "topics": [
+      "members",
+      "directory"
+    ]
+  },
+  {
+    "slug": "economics-oppress-save",
+    "title": "The Economics That Oppress Us Can Save Us",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-18",
+    "excerpt": "A non-TI writer described the evolution of gangs into economic operators. He described a component of the Specterati — and pointed, without knowing it, at the way out.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/economics-oppress-save.md",
+    "teaser": "A writer who is not a Targeted Individual described how gangs evolved into organized criminals with real influence over social and economic matters. He was describing a component of what I call the Specterati. Many will say it is the government. Argue that if you like — what nobody can argue is that their operation runs on economics, and that it works. The secret-society talk is costume. The economics is the machine. And a machine we can copy is a machine we can counter.",
+    "topics": [
+      "specterati",
+      "skills-economy"
+    ]
+  },
+  {
+    "slug": "dew-attack-types",
+    "title": "The DEW List: Naming Every Kind of Attack",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-18",
+    "excerpt": "A working list of directed energy weapon (DEW) attack types, built to become ClickLog labels. Add the ones you experience by commenting in the Commons chat.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/dew-attack-types.md",
+    "teaser": "I have asked for this before — on Quora and on the old Discourse forum. This time the list has somewhere to live: each DEW attack type on it becomes a label in ClickLog, a new label category, so an incident can be tagged by the kind of attack and the pattern shows up on the global map. The list starts with only what I have documented myself. If you experience a type that is not on it, add it by commenting in the Commons group chat.",
+    "topics": [
+      "clicklog",
+      "dew"
+    ]
+  },
+  {
+    "slug": "oldie-but-goodie-pam-dawson-t-tipton",
+    "title": "Oldie but Goodie: Skills, Solidarity, and Support",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-18",
+    "excerpt": "Pam Dawson and T. Tipton give real advice to survivors on Quora. Here are the directory profiles made for them, so finding each other no longer depends on Quora's discovery.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/oldie-but-goodie-pam-dawson-t-tipton.md",
+    "teaser": "Back in January I published a short post of shoutouts to survivors giving genuinely good advice on Quora, and said the list would grow. It grows today: Pam Dawson and T. Tipton, you are appreciated. Both now have community-generated profiles in the Directory — claimable by them any time, deletable on request — because finding survivors worth connecting with should not depend on Quora's discovery, which buries us.",
+    "topics": [
+      "directory",
+      "shoutouts"
+    ]
+  },
+  {
+    "slug": "Skills-Economy-Phone-Wallpapers",
+    "title": "Skills Economy Phone Wallpapers",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-18",
+    "excerpt": "Skills Economy wallpapers for your phone, downloadable from the same GitHub releases page as the Android app.",
+    "category": "Updates",
+    "collection": "posts",
+    "path": "posts/Skills-Economy-Phone-Wallpapers.md",
+    "teaser": "The Skills Economy logo is now a phone wallpaper. Two sizes — one for most Android phones, one for recent iPhones — on the same GitHub releases page where the Android app lives. Download the file that matches your phone, save it to your photos, and set it as your wallpaper.",
+    "topics": [
+      "wallpapers",
+      "brand"
+    ]
+  },
+  {
     "slug": "clicklog-your-record-and-the-record",
     "title": "ClickLog: your record, and the record",
     "repo": "chargingthefuture/wiki-site",
@@ -43,21 +268,6 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
-    "slug": "Dictionary",
-    "title": "Dictionary: Skills Economy Terms",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-08-18",
-    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
-    "category": "Resources",
-    "collection": "posts",
-    "path": "posts/Dictionary.md",
-    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
-    "topics": [
-      "reference",
-      "terms"
-    ]
-  },
-  {
     "slug": "the-manifesto-seven-months-later",
     "title": "The manifesto, seven months later",
     "repo": "chargingthefuture/wiki-site",
@@ -66,7 +276,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/the-manifesto-seven-months-later.md",
-    "teaser": "In January I published a manifesto and said I had built a working answer for every one of the 51 problems survivors face. It stays exactly as written, numbers and all — a dated record proves more than a maintained page. What moved since: 36 sign-ups then; 41 approved members, 97 people on the skills map, and 453 followers now. No skills map at all then; today 158 of the 650 skills a working economy needs, worth $13.8 million a year if all 97 participated. First progress post in a repeating shape — put any two side by side and you will see the direction.",
+    "teaser": "I published a manifesto and said I had built a working answer for every one of the 51 problems survivors face. It stays exactly as written, numbers and all — a dated record proves more than a maintained page. What moved since: 36 sign-ups then; 41 approved members, 97 people on the skills map, and 453 followers now. No skills map at all then; today 158 of the 650 skills a working economy needs, worth $13.8 million a year if all 97 participated. First progress post in a repeating shape — put any two side by side and you will see the direction.",
     "topics": [
       "economy",
       "progress"
@@ -96,25 +306,10 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/how-the-math-works.md",
-    "teaser": "Someone asked me in a DM how 97 people can point at a $13.8 million economy. The answer fits in a few paragraphs: the UN's own reports say about 2 million, underreporting says more, Finland says what jobs an economy needs, Singapore says what one worker's skills produce, and Estonia proves you can build from nothing but skills in about two generations. None of it requires believing me — every number can be checked.",
+    "teaser": "Someone asked me in a DM how 97 people can point at a $13.8 million economy. The answer fits in a few paragraphs: the UN's own reports say about 2 million, underreporting says more, Finland gives a country the right size and shape to model against, Singapore says what one worker's skills produce, and Estonia proves you can build from nothing but skills in about two generations. None of it requires believing me — every number can be checked.",
     "topics": [
       "economy",
       "model"
-    ]
-  },
-  {
-    "slug": "old-links-new-links",
-    "title": "Old links, new links",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-17",
-    "excerpt": "Three Quora accounts erased, one space renamed. What is current, what is dead, and the one address that does not change.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/old-links-new-links.md",
-    "teaser": "Quora has erased my accounts three times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. This page is the standing record: the current space, the current handle, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
-    "topics": [
-      "publishing",
-      "platform-independence"
     ]
   },
   {
@@ -218,7 +413,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "TrustTransport requests, cleaner stats, and public landing fixes",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2026-07-09",
-    "excerpt": "TrustTransport requests can now be cancelled. Community stats count posts accurately. Public landings for Recurring Activity and Contributions are live.",
+    "excerpt": "TrustTransport requests can now be canceled. Community stats count posts accurately. Public landings for Recurring Activity and Contributions are live.",
     "category": "Updates",
     "collection": "product-updates",
     "path": "product-updates/Product-Update-2026-07-09-TrustTransport-Cancel-Stats-Public.md"
@@ -242,6 +437,17 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Updates",
     "collection": "product-updates",
     "path": "product-updates/Product-Update-2026-07-06-LightHouse-Currency-Display.md"
+  },
+  {
+    "slug": "The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP",
+    "title": "Live, Work, and Prevail — a manifesto for survivors",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-07-06",
+    "excerpt": "We are survivors. Targeted Individuals (TIs) — people subjected to organized, long-running harassment carried out by what I call the Specterati: a coordinated ...",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP.md",
+    "teaser": "We are survivors of organized crime — human trafficking — and I have found writing describing this same crime from the 1690s. I estimate five million of us worldwide. That is more than enough people to meet each other's needs. Survivors compiled 51 real problems we face; I did not stop at the list. I built a working answer for every single one. Filling it is up to us."
   },
   {
     "slug": "Product-Update-2026-07-05-Mobile-Fixes-Recurring-Activity",
@@ -1084,6 +1290,16 @@ export const ARTICLES: ArticleMeta[] = [
     "path": "product-updates/Product-Update-2026-05-29-Chyme-Modularity-Lighthouse-Standards.md"
   },
   {
+    "slug": "Product-Update-2026-05-29-Chyme-Unified-Experience",
+    "title": "Chyme Unified Experience",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-05-29",
+    "excerpt": "We merged Chyme chat and directory copy to a single design standard across Charging the Future. This means:",
+    "category": "Updates",
+    "collection": "product-updates",
+    "path": "product-updates/Product-Update-2026-05-29-Chyme-Unified-Experience.md"
+  },
+  {
     "slug": "Product-Update-2026-05-29-Directory-Chat-Refinements",
     "title": "Directory and chat interface refinements now live",
     "repo": "chargingthefuture/chargingthefuture",
@@ -1102,6 +1318,28 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Updates",
     "collection": "product-updates",
     "path": "product-updates/Product-Update-2026-05-29-Interface-Refinements.md"
+  },
+  {
+    "slug": "From-62-to-384:-Building-a-Real-Economy-Where-We-Live,-Work,-and-Prevail",
+    "title": "From 62 to 384: Building a Real Economy Where We Live, Work, and Prevail",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-05-23",
+    "excerpt": "We have the potential to reach 5 million TIs (human trafficking survivors) who come together to reclaim our lives. But today, I want to focus on the power of r...",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/From-62-to-384:-Building-a-Real-Economy-Where-We-Live,-Work,-and-Prevail.md",
+    "teaser": "We have 411 people in the Quora community and 62 have joined the app. My goal is 384. At that size, the arithmetic says this group could generate $24.66 million a year in activity — a caregiver earning $32,500, a mechanic $54,600, a babysitter with steady work, all trading with each other. Not millions of people. A few hundred."
+  },
+  {
+    "slug": "App-Redesign-(v3)-Demos",
+    "title": "Click through the screens at your own pace",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-05-12",
+    "excerpt": "I will use this post to link to all demos of the v3 app's 17+ features.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/App-Redesign-(v3)-Demos.md",
+    "teaser": "The v3 redesign of the app has a click-through prototype: every one of the 17+ features, at your own pace, no account needed. There is also an overview video and a video per feature. Click through and tell me what works and what does not."
   },
   {
     "slug": "discourse-migrate/Home",
@@ -1154,6 +1392,116 @@ export const ARTICLES: ArticleMeta[] = [
     "teaser": "I am reversing the price increase. The ask stays low, because taking away a survivor's income is the first thing done to every one of us. From now on: when hosting costs are not covered, the app goes down to a waitlist page, and comes back when they are. Existing members keep their accounts either way and lose nothing."
   },
   {
+    "slug": "A-Necessary-Step-to-Keep-Our-Platform-Running",
+    "title": "Price Increase and Sustainability Update for TI Skills Economy",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-02-19",
+    "excerpt": "I'm writing to share an important update about the TI Skills Economy app's pricing and sustainability. Effective March 1, 2026, the subscription price will inc...",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/A-Necessary-Step-to-Keep-Our-Platform-Running.md",
+    "teaser": "The subscription rises from $1 to $2 a month on March 1, 2026. If you are already a member, your price is locked forever — this changes nothing for you. Without the increase, hosting costs take the app offline, and every day offline is a person who never finds it. If you cannot pay, keep using the app; I will cover it."
+  },
+  {
+    "slug": "Three-ways-to-reach-me-and-get-help.",
+    "title": "I officially closed my Quora DMs. Three ways to reach me and get help.",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-02-16",
+    "excerpt": "For app support or questions:",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/Three-ways-to-reach-me-and-get-help..md",
+    "teaser": "I closed my Quora DMs. Three ways to reach me now: comment on any Quora post, message one of the Signal groups, or use the live in-app chat. All three get answered — DMs were the only channel that did not scale."
+  },
+  {
+    "slug": "Live-in‐app-Community-Support-Chat",
+    "title": "New Feature: Live in-app Community Support Chat",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-02-15",
+    "excerpt": "As seen in the weekly app stats, as of today, 57 people have signed up, with only 32 of them having provided their Quora handle. Therefore, there are 25 people...",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/Live-in‐app-Community-Support-Chat.md",
+    "teaser": "25 people signed up but got stuck before using a single feature. So the app now has live in-app chat: post your question and get an answer from me or any member who opts in. A global community cannot run on one person's time zone — now support runs on all of ours."
+  },
+  {
+    "slug": "New-Mini‐App:-Mood",
+    "title": "New Mini-App: Mood",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-02-15",
+    "excerpt": "Before today, within GentlePulse, you could report on your mood. Based on the community's usage, I have moved mood ratings out of GentlePulse and into its own ...",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/New-Mini‐App:-Mood.md",
+    "teaser": "Mood ratings now have their own mini-app, moved out of GentlePulse based on how the community actually uses it. Same rules as before: anonymous, and individual responses are never sold or shared. I use it for one thing — to see whether the product is improving your mental health and your economic stability."
+  },
+  {
+    "slug": "Feature-refinements:-removing-MechanicMatch,-CompareNotes,-and-LostMail",
+    "title": "Feature refinements: removing MechanicMatch, CompareNotes, and LostMail",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-02-10",
+    "excerpt": "I have been reviewing the app's features and have decided to remove the apps MechanicMatch, CompareNotes, and LostMail as they are not being used.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/Feature-refinements:-removing-MechanicMatch,-CompareNotes,-and-LostMail.md",
+    "teaser": "I am removing three apps nobody was using: MechanicMatch, CompareNotes, and LostMail. The Directory already finds you a mechanic, and the other two will be answered a better way. What remains is eight apps that people actually use — and space for a major economy upgrade later this year."
+  },
+  {
+    "slug": "How-to-join-Saturday-Town-Halls",
+    "title": "How to join Saturday Town Halls",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-01-23",
+    "excerpt": "Every Saturday I make myself available to speak live about TSE.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/How-to-join-Saturday-Town-Halls.md",
+    "teaser": "Every Saturday I make myself available to speak live about the Skills Economy. Two ways in: the Chyme town hall room in the app, or the Signal group if you are on iOS or desktop. Come with questions, or just listen."
+  },
+  {
+    "slug": "The-Specterati's-Money-Laundering-vs.-TI-Skills-Economy’s-circular-economy",
+    "title": "Why that matters for the TI Skills Economy (TSE)",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-01-23",
+    "excerpt": "The Specterati's Money laundering vs. TI Skills Economy’s circular economy, why they’re not the same thing",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/The-Specterati's-Money-Laundering-vs.-TI-Skills-Economy’s-circular-economy.md",
+    "teaser": "Money laundering hides where funds come from — layered transactions, shell companies, secrecy for personal gain. A circular economy is the opposite: skills and materials kept in use locally, in the open, for collective benefit. One runs on concealment, the other on visible, reciprocal exchange. That difference is the whole point of the Skills Economy."
+  },
+  {
+    "slug": "Call-to-Action",
+    "title": "My call to action — Join the TI Skills Economy",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-01-21",
+    "excerpt": "One of the Specterati walked up to me this morning and said, “you know there is a camera?” As I stood underneath one while on my phone.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/Call-to-Action.md",
+    "teaser": "One of the Specterati walked up to me and said, 'you know there is a camera?' Cameras do not matter — their economy does. They can do what they do because we feed it: our attention and our transactions. I am asking survivors to stop participating in that economy and join the one we run ourselves: work, housing, rides, and trade among people who are not in it."
+  },
+  {
+    "slug": "🤜🤛-Skills,-Solidarity,-and-Support",
+    "title": "🤜🤛  Skills, Solidarity, and Support",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-01-16",
+    "excerpt": "Very few TIs get it, in my opinion of course, here are my shoutouts to those giving amazing advice on Quora. You are appreciated!",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/🤜🤛-Skills,-Solidarity,-and-Support.md",
+    "teaser": "Very few get it, in my opinion — so here are my shoutouts to the survivors giving genuinely good advice on Quora. You are appreciated, and this post will keep growing as I find more of you. Names in no particular order."
+  },
+  {
+    "slug": "24-7-Chyme-Drop-In-Rooms",
+    "title": "24/7 Chyme Rooms",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-01-04",
+    "excerpt": "I have opened the rooms below in Chyme, and they will stay open 24/7. Download the Chyme Android app: https://app.chargingthefuture.com/apps/chyme. Once logged...",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/24-7-Chyme-Drop-In-Rooms.md",
+    "teaser": "I opened a Chyme audio room for every sector of the Skills Economy — food, housing, health, transport, and the rest — and they stay open 24/7. Walk in any time to talk or to plan how we deliver goods and services to each other. I am not a leader of anyone; the rooms are yours to use."
+  },
+  {
     "slug": "EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP",
     "title": "Exit Their Economy, Exit The Psyop",
     "repo": "chargingthefuture/mono",
@@ -1174,6 +1522,16 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Guides",
     "collection": "guides",
     "path": "guides/getting-started.md"
+  },
+  {
+    "slug": "guides/scoketrelay/classifed-ads-for-tis",
+    "title": "The Classifieds Era Ended and What Replaced It, and What TIs Can Use Now",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-01-03",
+    "excerpt": "Craigslist changed local commerce forever: one simple, free classifieds site that let people buy, sell, rent, hire, and swap with almost no friction. Three dec...",
+    "category": "Guides",
+    "collection": "guides",
+    "path": "guides/scoketrelay/classifed-ads-for-tis.md"
   },
   {
     "slug": "guides/The-12-Services-of-the-TI-Skills-Economy",
@@ -1263,285 +1621,6 @@ export const ARTICLES: ArticleMeta[] = [
     "teaser": "SupportMatch randomly pairs you with another survivor looking for a monthly accountability partner — friendship, collaboration, skill exchange, whatever you both decide. No psyop and no hidden agenda. You control what you share, you can opt out at any time with no reason required, and reporting tools are built in."
   },
   {
-    "slug": "🤜🤛-Skills,-Solidarity,-and-Support",
-    "title": "🤜🤛  Skills, Solidarity, and Support",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "Very few TIs get it, in my opinion of course, here are my shoutouts to those giving amazing advice on Quora. You are appreciated!",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/🤜🤛-Skills,-Solidarity,-and-Support.md",
-    "teaser": "Very few get it, in my opinion — so here are my shoutouts to the survivors giving genuinely good advice on Quora. You are appreciated, and this post will keep growing as I find more of you. Names in no particular order."
-  },
-  {
-    "slug": "24-7-Chyme-Drop-In-Rooms",
-    "title": "24/7 Chyme Rooms",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "I have opened the rooms below in Chyme, and they will stay open 24/7. Download the Chyme Android app: https://app.chargingthefuture.com/apps/chyme. Once logged...",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/24-7-Chyme-Drop-In-Rooms.md",
-    "teaser": "I opened a Chyme audio room for every sector of the Skills Economy — food, housing, health, transport, and the rest — and they stay open 24/7. Walk in any time to talk or to plan how we deliver goods and services to each other. I am not a leader of anyone; the rooms are yours to use."
-  },
-  {
-    "slug": "A-Necessary-Step-to-Keep-Our-Platform-Running",
-    "title": "Price Increase and Sustainability Update for TI Skills Economy",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "I'm writing to share an important update about the TI Skills Economy app's pricing and sustainability. Effective March 1, 2026, the subscription price will inc...",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/A-Necessary-Step-to-Keep-Our-Platform-Running.md",
-    "teaser": "The subscription rises from $1 to $2 a month on March 1, 2026. If you are already a member, your price is locked forever — this changes nothing for you. Without the increase, hosting costs take the app offline, and every day offline is a person who never finds it. If you cannot pay, keep using the app; I will cover it."
-  },
-  {
-    "slug": "App-Redesign-(v3)-Demos",
-    "title": "Click through the screens at your own pace",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "I will use this post to link to all demos of the v3 app's 17+ features.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/App-Redesign-(v3)-Demos.md",
-    "teaser": "The v3 redesign of the app has a click-through prototype: every one of the 17+ features, at your own pace, no account needed. There is also an overview video and a video per feature. Click through and tell me what works and what does not."
-  },
-  {
-    "slug": "Call-to-Action",
-    "title": "My call to action — Join the TI Skills Economy",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "One of the Specterati walked up to me this morning and said, “you know there is a camera?” As I stood underneath one while on my phone.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/Call-to-Action.md",
-    "teaser": "One of the Specterati walked up to me and said, 'you know there is a camera?' Cameras do not matter — their economy does. They can do what they do because we feed it: our attention and our transactions. I am asking survivors to stop participating in that economy and join the one we run ourselves: work, housing, rides, and trade among people who are not in it."
-  },
-  {
-    "slug": "Feature-refinements:-removing-MechanicMatch,-CompareNotes,-and-LostMail",
-    "title": "Feature refinements: removing MechanicMatch, CompareNotes, and LostMail",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "I have been reviewing the app's features and have decided to remove the apps MechanicMatch, CompareNotes, and LostMail as they are not being used.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/Feature-refinements:-removing-MechanicMatch,-CompareNotes,-and-LostMail.md",
-    "teaser": "I am removing three apps nobody was using: MechanicMatch, CompareNotes, and LostMail. The Directory already finds you a mechanic, and the other two will be answered a better way. What remains is eight apps that people actually use — and space for a major economy upgrade later this year."
-  },
-  {
-    "slug": "From-62-to-384:-Building-a-Real-Economy-Where-We-Live,-Work,-and-Prevail",
-    "title": "From 62 to 384: Building a Real Economy Where We Live, Work, and Prevail",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "We have the potential to reach 5 million TIs (human trafficking survivors) who come together to reclaim our lives. But today, I want to focus on the power of r...",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/From-62-to-384:-Building-a-Real-Economy-Where-We-Live,-Work,-and-Prevail.md",
-    "teaser": "We have 411 people in the Quora community and 62 have joined the app. My goal is 384. At that size, the arithmetic says this group could generate $24.66 million a year in activity — a caregiver earning $32,500, a mechanic $54,600, a babysitter with steady work, all trading with each other. Not millions of people. A few hundred."
-  },
-  {
-    "slug": "guides/chyme/Chyme:-TI-social-audio-app",
-    "title": "TI Skills Economy Town Hall Room",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "All members of the TI Skills Economy have access to Chyme, the dedicated Android app for social audio with other TIs. And you can host your own rooms!",
-    "category": "Guides",
-    "collection": "guides",
-    "path": "guides/chyme/Chyme:-TI-social-audio-app.md"
-  },
-  {
-    "slug": "guides/lighthouse/hosting",
-    "title": "Hosting in LightHouse",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "Guides post from Charging The Future.",
-    "category": "Guides",
-    "collection": "guides",
-    "path": "guides/lighthouse/hosting.md"
-  },
-  {
-    "slug": "guides/scoketrelay/classifed-ads-for-tis",
-    "title": "The Classifieds Era Ended and What Replaced It, and What TIs Can Use Now",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "Craigslist changed local commerce forever: one simple, free classifieds site that let people buy, sell, rent, hire, and swap with almost no friction. Three dec...",
-    "category": "Guides",
-    "collection": "guides",
-    "path": "guides/scoketrelay/classifed-ads-for-tis.md"
-  },
-  {
-    "slug": "guides/workforce-recruiter/inferring-occupations-from-skills",
-    "title": "Inferring occupations from skills",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "One of the features of Workforce Recruiter is that a survivor can list their skills, and the built-in algorithm will infer what occupations match those skills.",
-    "category": "Guides",
-    "collection": "guides",
-    "path": "guides/workforce-recruiter/inferring-occupations-from-skills.md"
-  },
-  {
-    "slug": "How-to-join-Saturday-Town-Halls",
-    "title": "How to join Saturday Town Halls",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "Every Saturday I make myself available to speak live about TSE.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/How-to-join-Saturday-Town-Halls.md",
-    "teaser": "Every Saturday I make myself available to speak live about the Skills Economy. Two ways in: the Chyme town hall room in the app, or the Signal group if you are on iOS or desktop. Come with questions, or just listen."
-  },
-  {
-    "slug": "How-to-maintain-employment-as-a-TI.",
-    "title": "General Rundown",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "Another TI taught me about doing healthy volunteer studies. It's where pharma companies pay you to test an upcoming medicine. It's safe because they are phase ...",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/How-to-maintain-employment-as-a-TI..md",
-    "teaser": "Another survivor taught me about paid healthy-volunteer studies: pharma companies pay you to test upcoming medicines in phase I trials. The average is $3,000 to $5,000 a month; I have seen up to $45,000 for one. I have done one and will keep going. Talk to me before you call a trial company — there are ways to avoid being banned, and I will walk you through them."
-  },
-  {
-    "slug": "insights/#49-of-how-TI-Skills-Network-helps-you-exit-the-psyop",
-    "title": "#49 of how TI Skills Network helps you exit the psyop",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "I have listed, with the help of Nat Morris, 50 things the Speceterati do as part of their torturing of humanity. And how the TI Skills Network “fixes” each one.",
-    "category": "Insights",
-    "collection": "insights",
-    "path": "insights/49-of-how-TI-Skills-Network-helps-you-exit-the-psyop.md"
-  },
-  {
-    "slug": "insights/insights",
-    "title": "Insights",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "Money Laundering vs a Circular Economy",
-    "category": "Insights",
-    "collection": "insights",
-    "path": "insights/insights.md"
-  },
-  {
-    "slug": "Live-in‐app-Community-Support-Chat",
-    "title": "New Feature: Live in-app Community Support Chat",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "As seen in the weekly app stats, as of today, 57 people have signed up, with only 32 of them having provided their Quora handle. Therefore, there are 25 people...",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/Live-in‐app-Community-Support-Chat.md",
-    "teaser": "25 people signed up but got stuck before using a single feature. So the app now has live in-app chat: post your question and get an answer from me or any member who opts in. A global community cannot run on one person's time zone — now support runs on all of ours."
-  },
-  {
-    "slug": "Look-ma,-I-fixed-it!",
-    "title": "Look ma, I fixed it!",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "Nat Morris (TSE Profile) did a great write-up that lists the most common things the Specterati do to Targets.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/Look-ma,-I-fixed-it!.md",
-    "teaser": "Nat Morris wrote up the most common things the Specterati do to Targets. I built an interactive page that takes that list and shows, item by item, how the Skills Economy removes each obstacle from your life. Not promises — the specific service that answers each specific tactic."
-  },
-  {
-    "slug": "New-Mini‐App:-Mood",
-    "title": "New Mini-App: Mood",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "Before today, within GentlePulse, you could report on your mood. Based on the community's usage, I have moved mood ratings out of GentlePulse and into its own ...",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/New-Mini‐App:-Mood.md",
-    "teaser": "Mood ratings now have their own mini-app, moved out of GentlePulse based on how the community actually uses it. Same rules as before: anonymous, and individual responses are never sold or shared. I use it for one thing — to see whether the product is improving your mental health and your economic stability."
-  },
-  {
-    "slug": "Official-Channels-(and-Discourse-Blog-is-closed)",
-    "title": "Official Channels (and Discourse Blog is closed)",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "The Discourse blog I created at https://chargingthefuture.discourse.group was closed on December 23, 2025. I have exported all of the posts to this GitHub repo...",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/Official-Channels-(and-Discourse-Blog-is-closed).md",
-    "teaser": "The Discourse blog was closed on December 23, 2025. Every post was exported to this repository before it went — nothing was lost, and each one is being reformatted for readability. Here is the full list of official channels: the website, the app, this blog, the code, and Quora."
-  },
-  {
-    "slug": "Product-Update-2026-05-29-Chyme-Unified-Experience",
-    "title": "Chyme Unified Experience",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "We merged Chyme chat and directory copy to a single design standard across Charging the Future. This means:",
-    "category": "Updates",
-    "collection": "product-updates",
-    "path": "product-updates/Product-Update-2026-05-29-Chyme-Unified-Experience.md"
-  },
-  {
-    "slug": "The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP",
-    "title": "Live, Work, and Prevail — a manifesto for survivors",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "We are survivors. Targeted Individuals (TIs) — people subjected to organized, long-running harassment carried out by what I call the Specterati: a coordinated ...",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP.md",
-    "teaser": "We are survivors of organized crime — human trafficking — and I have found writing describing this same crime from the 1690s. I estimate five million of us worldwide. That is more than enough people to meet each other's needs. Survivors compiled 51 real problems we face; I did not stop at the list. I built a working answer for every single one. Filling it is up to us."
-  },
-  {
-    "slug": "The-Specterati's-Money-Laundering-vs.-TI-Skills-Economy’s-circular-economy",
-    "title": "Why that matters for the TI Skills Economy (TSE)",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "The Specterati's Money laundering vs. TI Skills Economy’s circular economy, why they’re not the same thing",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/The-Specterati's-Money-Laundering-vs.-TI-Skills-Economy’s-circular-economy.md",
-    "teaser": "Money laundering hides where funds come from — layered transactions, shell companies, secrecy for personal gain. A circular economy is the opposite: skills and materials kept in use locally, in the open, for collective benefit. One runs on concealment, the other on visible, reciprocal exchange. That difference is the whole point of the Skills Economy."
-  },
-  {
-    "slug": "Three-ways-to-reach-me-and-get-help.",
-    "title": "I officially closed my Quora DMs. Three ways to reach me and get help.",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "For app support or questions:",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/Three-ways-to-reach-me-and-get-help..md",
-    "teaser": "I closed my Quora DMs. Three ways to reach me now: comment on any Quora post, message one of the Signal groups, or use the live in-app chat. All three get answered — DMs were the only channel that did not scale."
-  },
-  {
-    "slug": "Use-Cases-of-the-TI-Skills-Economy:-the-only-way-to-exit-the-psyop",
-    "title": "Use Cases of the TI Skills Economy: the only way to exit the psyop",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "The goal of the TI Skills Economy is to unite the ~5 million TIs. There are enough TIs to box out the perps from our lives by working and living amongst TIs. I...",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/Use-Cases-of-the-TI-Skills-Economy:-the-only-way-to-exit-the-psyop.md",
-    "teaser": "There are enough of us to box the perps out of our lives by working and living among ourselves — that is the entire idea, and the app is just the facilitator. Say you are a vet: survivors whose pets are poisoned need someone who is not part of the psyop, and now they can find you. I am not a leader. It is a peer-to-peer marketplace, and you never have to interact with me at all."
-  },
-  {
-    "slug": "What-is-the-TI-Skills-Economy-app?",
-    "title": "What is the TI Skills Economy app?",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "An invite-only platform designed specifically for survivors of human trafficking, offering essential services and support with dignity, privacy, and respect.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/What-is-the-TI-Skills-Economy-app.md",
-    "teaser": "An invite-only super app built exclusively for survivors of human trafficking: housing, transportation, work, support, and community — 12+ services through a single account. Trauma-informed design, WCAG AAA accessibility, complete privacy control including full account deletion. Built by and for survivors."
-  },
-  {
-    "slug": "With-an-estimated-5-million-TIs-globally,-we-can-significantly-reduce,-if-not-eliminate,-our-exploitation!",
-    "title": "With an estimated 5 million TIs globally, we can significantly reduce, if not eliminate, our exploitation!",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-01",
-    "excerpt": "With an estimated 5 million TIs globally, we can significantly reduce, if not eliminate, our exploitation!",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/With-an-estimated-5-million-TIs-globally,-we-can-significantly-reduce,-if-not-eliminate,-our-exploitation!.md",
-    "teaser": "There are nation-states with 5 million people, and they run service-based economies. So there is no reason 5 million survivors cannot collectively opt out of doing business with the people who torture and exploit us. You may think you have nothing to contribute — the data says otherwise. I reviewed the profiles myself: the majority of survivors are highly skilled."
-  },
-  {
     "slug": "Home",
     "title": "Charging The Future | Live, Work & Prevail",
     "repo": "chargingthefuture/chargingthefuture",
@@ -1552,6 +1631,122 @@ export const ARTICLES: ArticleMeta[] = [
     "path": "posts/Home.md",
     "featured": true,
     "teaser": "The knowledge base for Charging The Future and the Skills Economy: what the app is, how each service works, and where everything lives. The app is invite-only, built for survivors to live, work, and rebuild with safety, dignity, and privacy. Start here if you are new."
+  },
+  {
+    "slug": "guides/lighthouse/hosting",
+    "title": "Hosting in LightHouse",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-30",
+    "excerpt": "Guides post from Charging The Future.",
+    "category": "Guides",
+    "collection": "guides",
+    "path": "guides/lighthouse/hosting.md"
+  },
+  {
+    "slug": "guides/workforce-recruiter/inferring-occupations-from-skills",
+    "title": "Inferring occupations from skills",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-30",
+    "excerpt": "One of the features of Workforce Recruiter is that a survivor can list their skills, and the built-in algorithm will infer what occupations match those skills.",
+    "category": "Guides",
+    "collection": "guides",
+    "path": "guides/workforce-recruiter/inferring-occupations-from-skills.md"
+  },
+  {
+    "slug": "insights/insights",
+    "title": "Insights",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-30",
+    "excerpt": "Money Laundering vs a Circular Economy",
+    "category": "Insights",
+    "collection": "insights",
+    "path": "insights/insights.md"
+  },
+  {
+    "slug": "insights/#49-of-how-TI-Skills-Network-helps-you-exit-the-psyop",
+    "title": "#49 of how TI Skills Network helps you exit the psyop",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-28",
+    "excerpt": "I have listed, with the help of Nat Morris, 50 things the Speceterati do as part of their torturing of humanity. And how the TI Skills Network “fixes” each one.",
+    "category": "Insights",
+    "collection": "insights",
+    "path": "insights/49-of-how-TI-Skills-Network-helps-you-exit-the-psyop.md"
+  },
+  {
+    "slug": "Look-ma,-I-fixed-it!",
+    "title": "Look ma, I fixed it!",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-28",
+    "excerpt": "Nat Morris (TSE Profile) did a great write-up that lists the most common things the Specterati do to Targets.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/Look-ma,-I-fixed-it!.md",
+    "teaser": "Nat Morris wrote up the most common things the Specterati do to Targets. I built an interactive page that takes that list and shows, item by item, how the Skills Economy removes each obstacle from your life. Not promises — the specific service that answers each specific tactic."
+  },
+  {
+    "slug": "Official-Channels-(and-Discourse-Blog-is-closed)",
+    "title": "Official Channels (and Discourse Blog is closed)",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-28",
+    "excerpt": "The Discourse blog I created at https://chargingthefuture.discourse.group was closed on December 23, 2025. I have exported all of the posts to this GitHub repo...",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/Official-Channels-(and-Discourse-Blog-is-closed).md",
+    "teaser": "The Discourse blog was closed on December 23, 2025. Every post was exported to this repository before it went — nothing was lost, and each one is being reformatted for readability. Here is the full list of official channels: the website, the app, this blog, the code, and Quora."
+  },
+  {
+    "slug": "Use-Cases-of-the-TI-Skills-Economy:-the-only-way-to-exit-the-psyop",
+    "title": "Use Cases of the TI Skills Economy: the only way to exit the psyop",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-28",
+    "excerpt": "The goal of the TI Skills Economy is to unite the ~5 million TIs. There are enough TIs to box out the perps from our lives by working and living among TIs. I...",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/Use-Cases-of-the-TI-Skills-Economy:-the-only-way-to-exit-the-psyop.md",
+    "teaser": "There are enough of us to box the perps out of our lives by working and living among ourselves — that is the entire idea, and the app is just the facilitator. Say you are a vet: survivors whose pets are poisoned need someone who is not part of the psyop, and now they can find you. I am not a leader. It is a peer-to-peer marketplace, and you never have to interact with me at all."
+  },
+  {
+    "slug": "With-an-estimated-5-million-TIs-globally,-we-can-significantly-reduce,-if-not-eliminate,-our-exploitation!",
+    "title": "With an estimated 5 million TIs globally, we can significantly reduce, if not eliminate, our exploitation!",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-28",
+    "excerpt": "With an estimated 5 million TIs globally, we can significantly reduce, if not eliminate, our exploitation!",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/With-an-estimated-5-million-TIs-globally,-we-can-significantly-reduce,-if-not-eliminate,-our-exploitation!.md",
+    "teaser": "There are nation-states with 5 million people, and they run service-based economies. So there is no reason 5 million survivors cannot collectively opt out of doing business with the people who torture and exploit us. You may think you have nothing to contribute — the data says otherwise. I reviewed the profiles myself: the majority of survivors are highly skilled."
+  },
+  {
+    "slug": "guides/chyme/Chyme:-TI-social-audio-app",
+    "title": "TI Skills Economy Town Hall Room",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-27",
+    "excerpt": "All members of the TI Skills Economy have access to Chyme, the dedicated Android app for social audio with other TIs. And you can host your own rooms!",
+    "category": "Guides",
+    "collection": "guides",
+    "path": "guides/chyme/Chyme:-TI-social-audio-app.md"
+  },
+  {
+    "slug": "How-to-maintain-employment-as-a-TI.",
+    "title": "General Rundown",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-23",
+    "excerpt": "Another TI taught me about doing healthy volunteer studies. It's where pharma companies pay you to test an upcoming medicine. It's safe because they are phase ...",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/How-to-maintain-employment-as-a-TI..md",
+    "teaser": "Another survivor taught me about paid healthy-volunteer studies: pharma companies pay you to test upcoming medicines in phase I trials. The average is $3,000 to $5,000 a month; I have seen up to $45,000 for one. I have done one and will keep going. Talk to me before you call a trial company — there are ways to avoid being banned, and I will walk you through them."
+  },
+  {
+    "slug": "What-is-the-TI-Skills-Economy-app?",
+    "title": "What is the TI Skills Economy app?",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-21",
+    "excerpt": "An invite-only platform designed specifically for survivors of human trafficking, offering essential services and support with dignity, privacy, and respect.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/What-is-the-TI-Skills-Economy-app.md",
+    "teaser": "An invite-only super app built exclusively for survivors of human trafficking: housing, transportation, work, support, and community — 12+ services through a single account. Trauma-informed design, WCAG AAA accessibility, complete privacy control including full account deletion. Built by and for survivors."
   },
   {
     "slug": "discourse-migrate/good-things-are-happening-hang-in-there",
@@ -1574,7 +1769,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Social audio for TIs, talk live with TIs around the world",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-12-16",
-    "excerpt": "TLDR; \\nSaturday TI Skills Economy Town Halls are moving to an Android social audio app called Chyme instead of Twitch. Find the latest Chyme app download here...",
+    "excerpt": "TLDR; Saturday TI Skills Economy Town Halls are moving to an Android social audio app called Chyme instead of Twitch. Find the latest Chyme app download here...",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/social-audio-for-tis-talk-live-with-tis-around-the-world.md",
@@ -1590,7 +1785,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "TV shows depicting the Speceterati",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-12-13",
-    "excerpt": "I am re-watching the TV show The Good Place. \\nThis space is exclusively for Targeted Individuals. However, if there is a random non-target/non-perp, the very…",
+    "excerpt": "I am re-watching the TV show The Good Place. This space is exclusively for Targeted Individuals. However, if there is a random non-target/non-perp, the very…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/tv-shows-depicting-the-speceterati.md",
@@ -1626,7 +1821,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Looking for a photographer or musician? Lisa Jaramilo",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-12-12",
-    "excerpt": "Shout out to Lisa Jaramillo, a talented musician and photographer. It is upsetting that because of the Speceterati (gang stalkers), you have lost the ability t...",
+    "excerpt": "Shout out to Lisa Jaramillo, a talented musician and photographer. It is upsetting that because of the Specterati (gang stalkers), you have lost the ability t...",
     "category": "Member of the Day",
     "collection": "member-of-the-day",
     "path": "member-of-the-day/looking-for-a-photographer-or-musician-lisa-jaramilo.md"
@@ -1646,7 +1841,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Welcome Cheryl, Community builder",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-12-12",
-    "excerpt": "Special shoutout to Cheryl J WILLIAMS \\nTI Skills Network profile: \\npsyop-free - Live, Work, Prevail \\nhttps://app.chargingthefuture.com/apps/directory/public...",
+    "excerpt": "Special shoutout to Cheryl J WILLIAMS TI Skills Network profile: psyop-free - Live, Work, Prevail https://app.chargingthefuture.com/apps/directory/public...",
     "category": "Member of the Day",
     "collection": "member-of-the-day",
     "path": "member-of-the-day/welcome-cheryl-community-builder.md"
@@ -1656,7 +1851,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "The numbers do not lie. The TI Skills Economy can sustain itself!",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-12-12",
-    "excerpt": "Were there any TIs that doubted me :). \\nWith just 15 Directory profiles, Workforce Recruiter shows almost an equal spread across all economic sectors! \\nPleas...",
+    "excerpt": "Were there any TIs that doubted me :). With just 15 Directory profiles, Workforce Recruiter shows almost an equal spread across all economic sectors! Pleas...",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/the-numbers-do-not-lie-the-ti-skills-economy-can-sustain-itself.md",
@@ -1704,7 +1899,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Meetup with me to discuss the TI Skills Economy",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-12-09",
-    "excerpt": "I announced last week the Workforce Recruiter app: Workforce Meetups - 2 by farah . \\nIt gives you easy access to see where the skills gaps are in the TI Skill...",
+    "excerpt": "I announced last week the Workforce Recruiter app: Workforce Meetups - 2 by farah . It gives you easy access to see where the skills gaps are in the TI Skill...",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/meetup-with-me-to-discuss-the-ti-skills-economy.md",
@@ -1720,7 +1915,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "We have what we need",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-12-09",
-    "excerpt": "Marco Martin asked: \\nIs there any gang stalking support in Bedford, Indiana? \\nhttps://www.quora.com/Is-there-any-gang-stalking-support-in-Bedford-Indiana \\nT...",
+    "excerpt": "Marco Martin asked: Is there any gang stalking support in Bedford, Indiana? https://www.quora.com/Is-there-any-gang-stalking-support-in-Bedford-Indiana T...",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/we-have-what-we-need.md",
@@ -1752,7 +1947,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "New website, provide your feedback!",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-12-07",
-    "excerpt": "New website! \\nI have updated the website to speak more about the offerings of the TI economy app. \\nNew \\n \\nOld",
+    "excerpt": "New website! I have updated the website to speak more about the offerings of the TI economy app. New Old",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/new-website-provide-your-feedback.md",
@@ -1768,7 +1963,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Tips on what to do after you sign up for the TI Skills Economy!",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-12-07",
-    "excerpt": "Welcome Kitty, and more! \\nFriendly reminder, and optional, after you join the app. Create a Directory profile. It shares with the community what skills you ha...",
+    "excerpt": "Welcome Kitty, and more! Friendly reminder, and optional, after you join the app. Create a Directory profile. It shares with the community what skills you ha...",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/tips-on-what-to-do-after-you-sign-up-for-the-ti-skills-economy.md",
@@ -1784,7 +1979,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Member of the Day: Krissyy",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-12-06",
-    "excerpt": "Member of the Day: Krissyy\\nHello Krissyy, giving you a shout out as you were part of the first group of TIs to respond to early posts of mine about the TI eco...",
+    "excerpt": "Member of the Day: Krissyy Hello Krissyy, giving you a shout out as you were part of the first group of TIs to respond to early posts of mine about the TI eco...",
     "category": "Member of the Day",
     "collection": "member-of-the-day",
     "path": "member-of-the-day/member-of-the-day-krissyy.md"
@@ -1826,7 +2021,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Want to go beyond trading skills, and start a small business? It is possible",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-12-04",
-    "excerpt": "Empowering Change: Start Your Own Service-Based Business\\nWith a market of 5 million Targeted Individuals (TIs), starting your own service-based business is no...",
+    "excerpt": "Empowering Change: Start Your Own Service-Based Business With a market of 5 million Targeted Individuals (TIs), starting your own service-based business is no...",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/want-to-go-beyond-trading-skills-and-start-a-small-business-it-is-possible.md",
@@ -1842,7 +2037,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Welcome newcomers",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-12-03",
-    "excerpt": "I cannot do this without your participation. \\nWelcoming Carrie Wingo to the TI Skills Economy! \\nCarrie, if you have any questions, let me know. There is also...",
+    "excerpt": "I cannot do this without your participation. Welcoming Carrie Wingo to the TI Skills Economy! Carrie, if you have any questions, let me know. There is also...",
     "category": "Member of the Day",
     "collection": "member-of-the-day",
     "path": "member-of-the-day/welcome-newcomers.md"
@@ -1884,7 +2079,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Member of the Day: Espada",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-11-29",
-    "excerpt": "Member of the Day: Espada\\nA special shout-out to Espada. He is one of the first people to join the community and offer his skills. He literally joined on Augu...",
+    "excerpt": "Member of the Day: Espada A special shout-out to Espada. He is one of the first people to join the community and offer his skills. He literally joined on Augu...",
     "category": "Member of the Day",
     "collection": "member-of-the-day",
     "path": "member-of-the-day/member-of-the-day-espada.md"
@@ -1894,7 +2089,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Uber for TIs - TrustTransport mini-app launch",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-11-24",
-    "excerpt": "As announced in yesterday’s Town Hall, TrustTransport is available for use. It is the Uber for TIs. \\nPart of my targeting involves Uber Drivers who are part o...",
+    "excerpt": "As announced in yesterday’s Town Hall, TrustTransport is available for use. It is the Uber for TIs. Part of my targeting involves Uber Drivers who are part o...",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/uber-for-tis-trusttransport-mini-app-launch.md",
@@ -1910,7 +2105,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Verified badge in the TI economy",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-11-24",
-    "excerpt": "As announced yesterday at the Town Hall, this week I added a “Verified” badge to the Directory profiles. \\n\\n\\nVerified = several verified TIs within the commu...",
+    "excerpt": "As announced yesterday at the Town Hall, this week I added a “Verified” badge to the Directory profiles. Verified = several verified TIs within the commu...",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/verified-badge-in-the-ti-economy.md",
@@ -2070,7 +2265,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Services of the TI economy",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-11-16",
-    "excerpt": "Find all the below within one link: https://app.chargingthefuture.com. \\nA secure, invite-only platform designed specifically for survivors, offering essential...",
+    "excerpt": "Find all the below within one link: https://app.chargingthefuture.com. A secure, invite-only platform designed specifically for survivors, offering essential...",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/services-of-the-ti-economy.md",
@@ -2150,7 +2345,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Specterati in the medical field",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-11-06",
-    "excerpt": "I have the recording of the appointment, let me know if you would find it valuable and I will post it. \\nOn Monday I went to see a lung specialist. I do clinic...",
+    "excerpt": "I have the recording of the appointment, let me know if you would find it valuable and I will post it. On Monday I went to see a lung specialist. I do clinic...",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/specterati-in-the-medical-field.md",
@@ -2166,7 +2361,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "They never go away",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-11-02",
-    "excerpt": "Question on Quora: \\nI’ve been doing much better and haven’t seen as many gangstalkers. Does that mean that if you’re doing better gang stalkers will leave you...",
+    "excerpt": "Question on Quora: I’ve been doing much better and haven’t seen as many gangstalkers. Does that mean that if you’re doing better gang stalkers will leave you...",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/they-never-go-away.md",
@@ -2198,7 +2393,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Member of the Day: Alani",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-31",
-    "excerpt": "Member of the Day: Alani\\nSkill: manufacturing, first-aid &amp; CPR, home improvement, construction &amp; production.\\nAlani is the FIRST TI to join the Direct...",
+    "excerpt": "Member of the Day: Alani Skill: manufacturing, first-aid &amp; CPR, home improvement, construction &amp; production. Alani is the FIRST TI to join the Direct...",
     "category": "Member of the Day",
     "collection": "member-of-the-day",
     "path": "member-of-the-day/member-of-the-day-alani.md"
@@ -2208,7 +2403,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "The Directory is now live, and we have our first listing!",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-31",
-    "excerpt": "Shout out to Alani, they are the FIRST person to opt in to the Directory! \\nThis is a running list of TIs listed along side their talents. Those they are willi...",
+    "excerpt": "Shout out to Alani, they are the FIRST person to opt in to the Directory! This is a running list of TIs listed along side their talents. Those they are willi...",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/the-directory-is-now-live-and-we-have-our-first-listing.md",
@@ -2224,7 +2419,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "What’s your skill?",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-30",
-    "excerpt": "What’s your skill?\\nI randomly came across this video on a tear down of down coat. Curious, if any TIs are skilled in manufacturing? If so, comment below. \\nTI...",
+    "excerpt": "What’s your skill? I randomly came across this video on a tear down of down coat. Curious, if any TIs are skilled in manufacturing? If so, comment below. TI...",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/what-s-your-skill.md",
@@ -2336,7 +2531,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Reduce the likelihood of being scammed, trade with TIs",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-25",
-    "excerpt": "“TI Craigslist” started on Quora, then migrated to here, our own Discourse server. But it is not being used, to be fair this townsquare is one month old. \\nTha...",
+    "excerpt": "“TI Craigslist” started on Quora, then migrated to here, our own Discourse server. But it is not being used, to be fair this townsquare is one month old. Tha...",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/reduce-the-likelihood-of-being-scammed-trade-with-tis.md",
@@ -2352,7 +2547,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Services for TIs you can use now!",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-25",
-    "excerpt": "What you can use to your betterment at this very moment! \\nTI Database create a profile and be counted in a running list of TIs, disclose only what you want. \\...",
+    "excerpt": "What you can use to your betterment at this very moment! TI Database create a profile and be counted in a running list of TIs, disclose only what you want. \\...",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/Services-for-TIs-you-can-use-now!.md",
@@ -2452,7 +2647,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Member of the Day: Ione",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-20",
-    "excerpt": "Member of the Day: Ione\\nSkill: counselor\\nIone is a counselor, and as quoted: \\n“I speak the truth as I know it. I am willing to admit I’m wrong because I don...",
+    "excerpt": "Member of the Day: Ione Skill: counselor Ione is a counselor, and as quoted: “I speak the truth as I know it. I am willing to admit I’m wrong because I don...",
     "category": "Member of the Day",
     "collection": "member-of-the-day",
     "path": "member-of-the-day/member-of-the-day-ione.md"
@@ -2462,7 +2657,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Member of the Day: Jason Singletons",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-19",
-    "excerpt": "Member of the Day: Jason Singletons\\nCTF Profile: https://app.chargingthefuture.com/apps/directory/public/5134f872-38b3-4870-815a-d90bb9f85e5f \\nQuora Profile:...",
+    "excerpt": "Member of the Day: Jason Singletons CTF Profile: https://app.chargingthefuture.com/apps/directory/public/5134f872-38b3-4870-815a-d90bb9f85e5f Quora Profile:...",
     "category": "Member of the Day",
     "collection": "member-of-the-day",
     "path": "member-of-the-day/member-of-the-day-jason-singletons.md"
@@ -2472,7 +2667,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Dictionary | Terminology",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-19",
-    "excerpt": "Caught Red-Faced \\nA play on “caught red-handed,” emphasizing both guilt and embarrassment when a member of the Specterati panics when caught committing a crim...",
+    "excerpt": "Caught Red-Faced A play on “caught red-handed,” emphasizing both guilt and embarrassment when a member of the Specterati panics when caught committing a crim...",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/Vocab.md",
@@ -2488,7 +2683,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Weekly State of the TI Skills Economy | Town Halls",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-19",
-    "excerpt": "I am considering to do a live weekly State of the TI Economy address. And would record and publish it. Is this something you are all interested in? \\nI would g...",
+    "excerpt": "I am considering to do a live weekly State of the TI Economy address. And would record and publish it. Is this something you are all interested in? I would g...",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/weekly-state-of-the-ti-skills-economy-town-halls.md",
@@ -2632,7 +2827,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "The gstalker’s economy is very simple",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-15",
-    "excerpt": "The Circle Jerks \\nA gangstalker playbook \\nThis is a continued thread to make posts more digestible. \\nIn the Perp Alert channel I shared a professional netwo...",
+    "excerpt": "The Circle Jerks A gangstalker playbook This is a continued thread to make posts more digestible. In the Perp Alert channel I shared a professional netwo...",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/the-gstalker-s-economy-is-very-simple.md",
@@ -2808,7 +3003,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "What has helped you slow down being gang stalked?",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-12",
-    "excerpt": "Curious how you define “slowed down.” \\nThey are selectively choosing how much to reveal in their level of harassment to you. And how much harassment they…",
+    "excerpt": "Curious how you define “slowed down.” They are selectively choosing how much to reveal in their level of harassment to you. And how much harassment they…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/what-has-helped-you-slow-down-being-gang-stalked.md",
@@ -2856,7 +3051,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "What unifies gang stalkers and gang stalking?",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-12",
-    "excerpt": "Hate and jealousy. Research known human traffickers, vigilantes, cults, and serial killers to learn about what gang stalkers individually are. \\nAnswer to…",
+    "excerpt": "Hate and jealousy. Research known human traffickers, vigilantes, cults, and serial killers to learn about what gang stalkers individually are. Answer to…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/what-unifies-gang-stalkers-and-gang-stalking.md",
@@ -2888,7 +3083,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "V2K for decades",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-12",
-    "excerpt": "This video is interesting: https://youtu.be/79ZXdeyy-G4. However, the part about having another 9/11 to usher in V2K might not be an objective. \\nThe gstalkers...",
+    "excerpt": "This video is interesting: https://youtu.be/79ZXdeyy-G4. However, the part about having another 9/11 to usher in V2K might not be an objective. The gstalkers...",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/v2k-for-decades.md",
@@ -3048,7 +3243,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "What are the worst states for gang stalking?",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-07",
-    "excerpt": "Ancedontally, California appears to be #1. Aside from that, every state has it. \\nThey will follow you to any town in any state and make it your “worst”…",
+    "excerpt": "Ancedontally, California appears to be #1. Aside from that, every state has it. They will follow you to any town in any state and make it your “worst”…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/what-are-the-worst-states-for-gang-stalking.md",
@@ -3160,7 +3355,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Welcome new users!",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-05",
-    "excerpt": "Welcome, in no particular order, @BRadhd, @Secretrituals, @MichaelNewmanEarth, and @snaveseer! \\nWe are glad you have joined the world’s first-ever TI economy!...",
+    "excerpt": "Welcome, in no particular order, @BRadhd, @Secretrituals, @MichaelNewmanEarth, and @snaveseer! We are glad you have joined the world’s first-ever TI economy!...",
     "category": "Member of the Day",
     "collection": "member-of-the-day",
     "path": "member-of-the-day/welcome-new-users.md"
@@ -3170,7 +3365,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Pooling our resources",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-05",
-    "excerpt": "I need to come up with a catchy name. I am open to suggestions. I want to put together groups of people who share a resource. \\nFor example, a group of TIs tha...",
+    "excerpt": "I need to come up with a catchy name. I am open to suggestions. I want to put together groups of people who share a resource. For example, a group of TIs tha...",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/pooling-our-resources.md",
@@ -3330,7 +3525,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "[Poll] How is this forum?",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-03",
-    "excerpt": "It has been slightly over two weeks since I started this forum. It is the hub for the world’s first-ever TI economy! \\nWhat is your feedback so far? Leave the…",
+    "excerpt": "It has been slightly over two weeks since I started this forum. It is the hub for the world’s first-ever TI economy! What is your feedback so far? Leave the…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/poll-how-is-this-forum.md",
@@ -3394,7 +3589,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Who is being gangstalked in Chico, CA?",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-03",
-    "excerpt": "If you are a TI looking to see where other TIs are or want to connect with other TIs, here is a good start: \\nMatthew Cappadocia (aka The Wizard of Oz)'s post…",
+    "excerpt": "If you are a TI looking to see where other TIs are or want to connect with other TIs, here is a good start: Matthew Cappadocia (aka The Wizard of Oz)'s post…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/who-is-being-gangstalked-in-chico-ca.md",
@@ -3436,7 +3631,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Rally For... tag",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-03",
-    "excerpt": "Rally for… view list \\nI created a new tag in the forum: “Rally for…” \\nWhy? I get it, we are all TIs, and the attacks are relentless every day. And we have ou...",
+    "excerpt": "Rally for… view list I created a new tag in the forum: “Rally for…” Why? I get it, we are all TIs, and the attacks are relentless every day. And we have ou...",
     "category": "Member of the Day",
     "collection": "member-of-the-day",
     "path": "member-of-the-day/rally-for-tag.md"
@@ -3446,7 +3641,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Rally for…Tammy Walker!",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-03",
-    "excerpt": "Rally for…Tammy Walker! \\nIf you are a TI, you are NOT alone. If you are a TI, I will put myself out there; you can call me or message me. I prefer Signal Mess...",
+    "excerpt": "Rally for…Tammy Walker! If you are a TI, you are NOT alone. If you are a TI, I will put myself out there; you can call me or message me. I prefer Signal Mess...",
     "category": "Member of the Day",
     "collection": "member-of-the-day",
     "path": "member-of-the-day/rally-for-tammy-walker.md"
@@ -3456,7 +3651,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Where are TIs located?",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-03",
-    "excerpt": "Matthew Cappadocia (aka The Wizard of Oz) created a map of TIs who have self-reported where they are, check it out: \\nhttps://targetedindividualssurvey.quora.c...",
+    "excerpt": "Matthew Cappadocia (aka The Wizard of Oz) created a map of TIs who have self-reported where they are, check it out: https://targetedindividualssurvey.quora.c...",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/where-are-tis-located.md",
@@ -3504,7 +3699,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Member of the Day: Brad Rice",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-09-25",
-    "excerpt": "Member of the Day: Brad Rice\\nUpdated Quora profile link: https://www.quora.com/profile/BRadhd \\nSkill: mechanic\\nI think car sabotage is in the top three dest...",
+    "excerpt": "Member of the Day: Brad Rice Updated Quora profile link: https://www.quora.com/profile/BRadhd Skill: mechanic I think car sabotage is in the top three dest...",
     "category": "Member of the Day",
     "collection": "member-of-the-day",
     "path": "member-of-the-day/member-of-the-day-brad-rice.md"
@@ -3706,7 +3901,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Privacy Policy",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-09-21",
-    "excerpt": "What information do we collect?\\nWe collect information from you when you register on our site and gather data when you participate in the forum by reading,…",
+    "excerpt": "What information do we collect? We collect information from you when you register on our site and gather data when you participate in the forum by reading,…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/privacy-policy.md",
@@ -3722,7 +3917,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Terms of Service",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-09-21",
-    "excerpt": "Change Me\\nForum Admin, please find below an example starting template for a privacy policy that you should customise to meet your site’s needs. \\nThese terms…",
+    "excerpt": "Change Me Forum Admin, please find below an example starting template for a privacy policy that you should customize to meet your site’s needs. These terms…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/terms-of-service.md",
@@ -3834,7 +4029,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "What measures can the government take to prevent gang stalking?",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-09-20",
-    "excerpt": "What measures can the government take to prevent gang stalking? \\nDid Nelson Mandela say it best? \\n“For to be free is not merely to cast off one’s chains,…",
+    "excerpt": "What measures can the government take to prevent gang stalking? Did Nelson Mandela say it best? “For to be free is not merely to cast off one’s chains,…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/what-measures-can-the-government-take-to-prevent-gang-stalking.md",
@@ -3866,7 +4061,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "What's the one thing with gang stalking that helped you the most when you found out?",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-09-20",
-    "excerpt": "What’s the one thing with gang stalking that helped you the most when you found out? \\nMeeting in person and building relationships with other TIs. I met a TI…",
+    "excerpt": "What’s the one thing with gang stalking that helped you the most when you found out? Meeting in person and building relationships with other TIs. I met a TI…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/whats-the-one-thing-with-gang-stalking-that-helped-you-the-most-when-you-found-out.md",
@@ -3930,7 +4125,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "About the Craigslist category",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-09-19",
-    "excerpt": "I originally created the circular economy amongst Targeted Individuals on Quora, via the TI Skills Network space. But then Quora banned my account…",
+    "excerpt": "I originally created the circular economy among Targeted Individuals on Quora, via the TI Skills Network space. But then Quora banned my account…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/about-the-craigslist-category.md",
@@ -4010,7 +4205,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Support Match Waitlist",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-09-19",
-    "excerpt": "Hello everyone! \\nSupportMatch was released on September 14th, 2025 and we have not reached 25 users yet. Which is by no means a failure, it has not been a…",
+    "excerpt": "Hello everyone! SupportMatch was released on September 14th, 2025 and we have not reached 25 users yet. Which is by no means a failure, it has not been a…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/support-match-waitlist.md",
@@ -4074,7 +4269,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "The intention of this forum is for TIs to help other TIs",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-09-19",
-    "excerpt": "TLDR; Our best bet is to ask for help from other TIs. There is plenty to offer to each other beyond money. \\n\\nA Quora question: https://qr.ae/pCGTlv \\nQuestio...",
+    "excerpt": "TLDR; Our best bet is to ask for help from other TIs. There is plenty to offer to each other beyond money. A Quora question: https://qr.ae/pCGTlv Questio...",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/the-intention-of-this-forum-is-for-tis-to-help-other-tis.md",
@@ -4106,7 +4301,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Tip for those being psyop’ed on YouTube",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-09-19",
-    "excerpt": "Tip for those being psyop’ed on YouTube. You can search videos by date, like this: \\njump roping before:2024-12-31 \\nI use that date because the overt gang sta...",
+    "excerpt": "Tip for those being psyop’ed on YouTube. You can search videos by date, like this: jump roping before:2024-12-31 I use that date because the overt gang sta...",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/tip-for-those-being-psyop-ed-on-youtube.md",
@@ -4138,7 +4333,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Welcome to your 14 day Starter hosting trial!",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-09-18",
-    "excerpt": "Hello and welcome to your 14 day free trial of Discourse! \\nAs a Starter hosted customer, you’ll get: \\n\\nUnlimited members\\n2 admins & moderators\\n10k…",
+    "excerpt": "Hello and welcome to your 14 day free trial of Discourse! As a Starter hosted customer, you’ll get: Unlimited members 2 admins & moderators 10k…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/welcome-to-your-14-day-starter-hosting-trial.md",
@@ -4154,7 +4349,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Welcome to Charging The Future! :wave:",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-09-18",
-    "excerpt": "We are so glad you joined us. This is an invite-only TI community. And the town square for The TI economy! \\nFind me on Quora and Signal to get a DM of the inv...",
+    "excerpt": "We are so glad you joined us. This is an invite-only TI community. And the town square for The TI economy! Find me on Quora and Signal to get a DM of the inv...",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/welcome-to-charging-the-future.md",

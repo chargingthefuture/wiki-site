@@ -1,6 +1,6 @@
 ---
 title: "New Mini-App: Mood"
-date: "2026-01-01"
+date: "2026-02-15"
 excerpt: Before today, within GentlePulse, you could report on your mood. Based on the community's usage, I have moved mood ratings out of GentlePulse and into its own ...
 category: Community
 slug: New-Mini‐App:-Mood

@@ -1,14 +1,14 @@
 ---
 title: "Use Cases of the TI Skills Economy: the only way to exit the psyop"
-date: "2026-01-01"
-excerpt: The goal of the TI Skills Economy is to unite the ~5 million TIs. There are enough TIs to box out the perps from our lives by working and living amongst TIs. I...
+date: "2025-12-28"
+excerpt: The goal of the TI Skills Economy is to unite the ~5 million TIs. There are enough TIs to box out the perps from our lives by working and living among TIs. I...
 category: Community
 slug: Use-Cases-of-the-TI-Skills-Economy:-the-only-way-to-exit-the-psyop
 repo: chargingthefuture/chargingthefuture
 teaser: "There are enough of us to box the perps out of our lives by working and living among ourselves — that is the entire idea, and the app is just the facilitator. Say you are a vet: survivors whose pets are poisoned need someone who is not part of the psyop, and now they can find you. I am not a leader. It is a peer-to-peer marketplace, and you never have to interact with me at all."
 ---
 
-The goal of the TI Skills Economy is to unite the ~5 million TIs. There are enough TIs to box out the perps from our lives by working and living amongst TIs. It is the only practical way to exit the psyop. The TI Skills Economy, in simple terms, is the facilitator of making this happen.
+The goal of the TI Skills Economy is to unite the ~5 million TIs. There are enough TIs to box out the perps from our lives by working and living among TIs. It is the only practical way to exit the psyop. The TI Skills Economy, in simple terms, is the facilitator of making this happen.
 
 I, Farah, am the creator of the app. But I am not the "leader" of any kind. Every TI has the full autonomy to use the TI Skills Economy app as a marketplace to connect with TIs to exchange what they need and want. And I will accept feedback on how to improve this facilitation. I will not deny any TI use of the platform - barring egregious behavior. In fact, you are not required to exchange anything with me or interact with me. It is a peer-to-peer marketplace.
 

@@ -32,7 +32,11 @@ export function stripDiscourseImportArtifacts(markdown: string): string {
   return markdown
     .replace(DISCOURSE_META_COMMENT, '')
     .replace(/^\s*# [^\n]*\n+/, '')
-    .replace(/^\s*(?:>[^\n]*\n?)+\n*/, '');
+    .replace(/^\s*(?:>[^\n]*\n?)+\n*/, '')
+    // The Discourse export wrote the literal two-character sequence
+    // backslash-n between HTML blocks; it renders as visible "\n" text
+    // on the page. Convert it to a real newline.
+    .replace(/\\n/g, '\n');
 }
 
 function classList(node: HastNode): string[] {

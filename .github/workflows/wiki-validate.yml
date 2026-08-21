@@ -37,6 +37,12 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      # Checks the blog's own writing for British spellings. content/archive/ is exempt:
+      # those files are verbatim captures of what other people posted, and respelling someone
+      # else's words falsifies the record.
+      - name: Check US spelling
+        run: node scripts/check-us-spelling.mjs
+
       - name: Validate content front matter
         run: pnpm --filter @workspace/scripts run validate
 

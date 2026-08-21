@@ -1,6 +1,6 @@
 ---
 title: Official Channels (and Discourse Blog is closed)
-date: "2026-01-01"
+date: "2025-12-28"
 excerpt: The Discourse blog I created at https://chargingthefuture.discourse.group was closed on December 23, 2025. I have exported all of the posts to this GitHub repo...
 category: Community
 slug: Official-Channels-(and-Discourse-Blog-is-closed)

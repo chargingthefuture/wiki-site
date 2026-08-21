@@ -1,6 +1,6 @@
 ---
 title: 🤜🤛  Skills, Solidarity, and Support
-date: "2026-01-01"
+date: "2026-01-16"
 excerpt: Very few TIs get it, in my opinion of course, here are my shoutouts to those giving amazing advice on Quora. You are appreciated!
 category: Community
 slug: 🤜🤛-Skills,-Solidarity,-and-Support
@@ -12,7 +12,7 @@ teaser: "Very few get it, in my opinion — so here are my shoutouts to the surv
 
 Very few TIs get it, in my opinion of course, here are my shoutouts to those giving amazing advice on Quora. You are appreciated!
 
-_I will continuously update this post. Names in no particular order. _
+_I will continuously update this post. Names in no particular order._
 
 [Pam Dawson](https://www.quora.com/profile/Pam-Dawson-32)
 
@@ -21,4 +21,4 @@ _I will continuously update this post. Names in no particular order. _
 —
 
 This Post on Quora
-https://tiskillsnetwork.quora.com/skills-solidarity-and-mutual-support-Very-few-TIs-get-it-in-my-opinion-of-course-here-are-my-shoutouts-to-thos
+https://skillseconomy.quora.com/skills-solidarity-and-mutual-support-Very-few-TIs-get-it-in-my-opinion-of-course-here-are-my-shoutouts-to-thos
