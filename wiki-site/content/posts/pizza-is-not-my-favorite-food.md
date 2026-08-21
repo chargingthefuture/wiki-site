@@ -3,13 +3,15 @@ title: "Pizza Is Not My Favorite Food"
 date: "2026-08-21"
 excerpt: "They decided that it is. They decided it because destitution left me one hot meal I could afford, and they mistook a budget for a preference. That is not mind reading. It is arithmetic."
 category: "Community"
-teaser: "A Targeted Individual wrote in the Skills Economy space that other Targeted Individuals say the perps can read their minds and see through their eyes. They do not think it is true. Neither do I, and I want to say what is actually going on instead. People are predictable, which is not a flaw — it is how we stay alive and sane. They watch, they compare notes across the people they traffic, and they guess well. Then they tell you it was telepathy. Pizza is the example I have: they concluded it was my favorite food, when it was the only hot meal I could afford without a stove."
+teaser: "A Targeted Individual wrote in the Skills Economy space that other Targeted Individuals say the perps can read their minds and see through their eyes. The person who wrote it does not believe the claim. Neither do I, and I want to say what is actually going on instead. People are predictable, which is not a flaw — it is how we stay alive and sane. They watch, they compare notes across the people they traffic, and they guess well. Then they tell you it was telepathy. Pizza is the example I have: they concluded it was my favorite food, when it was the only hot meal I could afford without a stove."
 topics:
   - specterati
   - clicklog
 ---
 
-Somebody wrote this in the Skills Economy space, and it is worth answering properly. Gn0b0dy Pneuma (https://www.quora.com/profile/Gn0b0dy-Pneuma) said that Targeted Individuals constantly report that operatives can see through their eyes and hear what they hear — and that in their own experience, the people making that claim are lying. They finished with a paraphrase of Sun Tzu: make your enemy think you are powerful when you are not, and close when you are far.
+Somebody wrote this in the Skills Economy space, and it is worth answering properly. Gn0b0dy Pneuma (https://www.quora.com/profile/Gn0b0dy-Pneuma) wrote about the claim that the perps can see through your eyes and read your mind: survivors repeat it, and the perps who say it to them are the ones lying. They close on a paraphrase of Sun Tzu — make your enemy think you are powerful when you are not, and close when you are far.
+
+Their comment is below in full. Read it in their words rather than in my summary of them.
 
 ![A comment by Gn0b0dy Pneuma in the Skills Economy space on Quora, reading: I constantly see TIs say gang stalkers can see through their eyes and hear what they hear, yet in my experience it is them always lying when they make that claim, but I do see how someone can tricked into believing it. I also don't think they can read your mind per se, only hear your internal voice and are good at saying what you expect them to say. So if you think they can read your mind you will expect them to say what is on your mind and then they say it, which they use to try and trick you into believing they know way more than they actually do. Maybe they are able to with other TIs tho, but when they tell me that I know they are lying. People like that love the art of war: Make your enemy think you are powerful when you are not, close when you are far, paraphrase.](images/gn0b0dy-pneuma-comment-2026-08-21.png)
 
