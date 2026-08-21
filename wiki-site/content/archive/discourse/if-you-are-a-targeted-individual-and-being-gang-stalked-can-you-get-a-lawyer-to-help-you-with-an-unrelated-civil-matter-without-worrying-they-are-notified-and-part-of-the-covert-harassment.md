@@ -24,5 +24,6 @@ Excerpt: I am 99% sure the answer is no. You can try. Just have low expectations
 
 > I am 99% sure the answer is no. You can try. Just have low expectations. It is not even about being a lawyer. Gang stalkers harass and sabotage anyone who is helping you do anything. Most people are cowards and will turn&hellip;
 
-<p>I am 99% sure the answer is no. You can try. Just have low expectations. It is not even about being a lawyer. Gang stalkers harass and sabotage anyone who is helping you do anything. Most people are cowards and will turn their backs on you and walk away from helping. And let us just hope they do not decide to join in on your harassment and pretend to represent you.</p>\n<p>On Quora: <a href="https://qr.ae/pCrFR0">https://qr.ae/pCrFR0</a></p>
+<p>I am 99% sure the answer is no. You can try. Just have low expectations. It is not even about being a lawyer. Gang stalkers harass and sabotage anyone who is helping you do anything. Most people are cowards and will turn their backs on you and walk away from helping. And let us just hope they do not decide to join in on your harassment and pretend to represent you.</p>
+<p>On Quora: <a href="https://qr.ae/pCrFR0">https://qr.ae/pCrFR0</a></p>
 

@@ -1,6 +1,6 @@
 ---
 title: Click through the screens at your own pace
-date: "2026-01-01"
+date: "2026-05-12"
 excerpt: I will use this post to link to all demos of the v3 app's 17+ features.
 category: Community
 slug: App-Redesign-(v3)-Demos

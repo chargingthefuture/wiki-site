@@ -59,6 +59,7 @@ Canonical source: [`chargingthefuture/chargingthefuture` → `.github/instructio
 | Command | Action |
 |---|---|
 | `pnpm wiki:validate` | Validate `content-index.yaml` |
+| `pnpm wiki:spelling` | Fail on any British spelling outside `content/archive/` |
 | `pnpm wiki:sync` | Regenerate `articles.ts` from the index |
 | `pnpm wiki:sync:dry` | Preview sync changes |
 | `pnpm wiki:preview` | Local dev server (http://localhost:5000) |
@@ -66,6 +67,41 @@ Canonical source: [`chargingthefuture/chargingthefuture` → `.github/instructio
 | `pnpm wiki:build:pages` | GitHub Pages build (base `/chargingthefuture/` + 404.html) |
 
 Full operator runbook: [wiki-site/PUBLISHING.md](wiki-site/PUBLISHING.md).
+
+## US Spelling (enforced by CI)
+
+The blog writes US English. `pnpm wiki:spelling` fails on any British spelling and runs in CI on
+every pull request, because a British spelling passes front matter validation and the build
+without complaint — nothing else in the pipeline knows the difference. The word list is copied
+verbatim from `ctf/scripts/lib/us-spelling.mjs` in the product repository, whose own gate skips
+wiki-site precisely because this is a separate repository; if that list changes, copy it across.
+
+One rule deliberately differs. `grey` carries `wholeWord: true` here, because without it the rule
+matches the carrier name Greyhound, and a company's name is not ours to respell. `grey` on its own
+is still caught. The product repository's copy has the same latent problem and has simply never
+written the word.
+
+`content/archive/` is checked too. A British spelling in an archived post is a typo, and typos get
+fixed here — the copy-edit passes over the archive have been doing exactly that.
+
+What is never respelled is an archived title. Every file under `content/archive/` carries
+`status: closed` — 153 of them do — and that is the point: the topic was closed at export and the
+record is frozen as captured. A Quora title is also the thing the URL was minted from, so it is not
+free-floating text. Leave the title and its slug exactly as exported, wrap them in
+`spelling:disable` / `spelling:enable` with the reason, and correct the body around them.
+
+Whose words they are is not what settles it. Quora is global, and a British spelling from another
+writer is unremarkable there. It stays because the topic is closed and the title became an address,
+not because of who typed it.
+
+Everything else, including a URL on a page that is not a closed archive entry, gets fixed (owner
+directive, 2026-08-20). A British spelling in a slug is still a typo, and breaking the link is
+acceptable: Quora deleted the accounts those links were shared from, so the audience that held them
+is gone and the project is starting over. When you change a slug, update every internal reference in
+the same commit — `content/`, the paste sheet, and the archive index — or the referring pages 404.
+
+A file that disables and never re-enables is itself a failure, so a region cannot quietly swallow
+the rest of a file.
 
 ## Git Branch and PR Naming (always apply)
 
@@ -92,6 +128,82 @@ Rules that go with the table:
 - Never state or imply the owner reported their situation to any body. They have never reported to anyone; that fact is itself the under-reporting argument.
 - Progress posts follow a fixed shape with these definitions (first instance: the-manifesto-seven-months-later.md) so any two are comparable.
 
+## Never Turn Harm Into a Resource (owner directive, 2026-08-20)
+
+Do not write that someone's harm became useful. Not "one person's worst week became vocabulary the
+rest of us can use", not "their experience becomes everyone's evidence", not any sentence whose
+shape is: a person was hurt, and look what the rest of us got out of it.
+
+It reads as generous and it is not. It makes the harm the raw material and the community the
+beneficiary, which is the transaction the Specterati run — value extracted from a person's
+degradation. A survivor reading it recognizes the move whoever wrote it intended.
+
+The facts underneath are usually fine and can stay. Six schemes were named after that trip; the
+trends show a pattern one person cannot see. Say those plainly and stop. The sentence that arrives
+afterward to explain what was gained is the one to delete.
+
+Phrases like "worst week", "turned into evidence", "becomes data", and "silver lining" are the
+tell. So is any closing line that reaches for a redemptive note the facts did not ask for.
+
+## This Is Not a Sign-Up Product (owner directive, 2026-08-20)
+
+The app is an aid in coordination. It helps people find each other and arrange things between
+themselves. It is not a nation state, not a serial number, not a tax tracker, not a scorekeeper,
+and not a register of who counts. Every figure it shows exists to help someone decide what to do
+next, never to rank people or to settle up with them.
+
+Agents keep writing about this app the way they would write about a commercial one, where the
+number that matters is sign-ups and every sentence works toward one. That framing is wrong here,
+and it produces copy the owner has to reject.
+
+- Do not advocate signing up as the goal, and do not build a post around driving people to it.
+  The sign-up block at the end of a post is the whole of the ask; the body does not repeat it.
+- Being on the skills map is something people ask for, not a lesser version of joining. Never
+  present recruited as a consolation number next to signed-up, never call either one small, and
+  never explain the gap between them.
+- Most real help never touches the app and is never recorded in it. Three survivors have helped
+  the owner directly and none of it was captured; all three are listed in the Directory. The
+  Directory listing is what made them findable — the help itself happened between people. A figure
+  that does not capture it is not a gap in the data, it is the shape of the thing.
+- In the owner's words: real help is not an email in a database. Do not write copy that implies
+  otherwise, and never inflate a figure or arrange a sentence so that it seems to.
+
+The Directory is the ask, and it is not an account. It is the number one thing survivors want:
+a findable list of people and what they can do. It launched on 2025-10-31 as exactly that — "a
+running list of TIs listed alongside their talents", opt-in, one person at a time, with profiles
+at a public address. Write about it as the thing itself, not as a feature waiting behind a login.
+
+And the people on that list are doing rather than saying, which counts for more than a stated
+position does. That is the distinction worth drawing in a post — not who has an account.
+
+State a figure the way the app's own screens state it, then move on to what a reader can do.
+
+## Capitalizing Targeted Individual (owner directive, 2026-08-18)
+
+Write it Targeted Individual, capitalized, every time — singular or plural, and Targeted
+Individuals (TIs) on first use when the abbreviation follows. Never "targeted individual" in
+lower case. This matches the Dictionary entry, the manifesto, and the rest of `posts/`. Survivors
+remains the default word for the people here; Targeted Individual is the bridge term, and when it
+appears it takes this form.
+
+Archive entries keep whatever the original writing used — they are historical record, not current
+copy.
+
+## Pagination, Never Endless Scroll (accessibility rule — owner directive, 2026-08-19)
+
+This is an accessibility rule, not a preference. Endless scroll traps keyboard and screen-reader
+users before the footer, gives no sense of position or length, and makes a place in a list
+impossible to return to.
+
+Any list that can grow — the feed, the home listing, an archive index, anything added later —
+is paged. Never an endless scroll, and never a page that renders its whole collection at once.
+Put the page number in the URL (`/feed?page=3`) so a page can be linked and the back button
+works, show which range of how many is on screen, and clamp an out-of-range page number rather
+than showing nothing.
+
+The same rule is recorded for the app in the product repo, under Accessibility Rules in
+`.claude/rules/100-product-context-and-experience-rules.mdc`.
+
 ## Snapshots vs Living Pages (owner decision, 2026-08-18)
 
 Two kinds of pages live in `posts/`, and they age differently:
@@ -110,6 +222,63 @@ Two kinds of pages live in `posts/`, and they age differently:
 When a term changes anywhere (product names, stats vocabulary, capability list), Dictionary is
 the page that changes — do not scatter definitions across new posts. Dated posts may still
 define terms in context; Dictionary is where the current version lives.
+
+## Quora Paste Sheet (owner directive, 2026-08-19)
+
+`wiki-site/QUORA_PASTE_SHEET.txt` holds one Quora-ready summary per published page, with its
+canonical link. Every summary is written fresh rather than copied from the page's teaser or
+excerpt, so a paste is never identical to what the blog already shows — an account that gets
+deleted and rebuilt can repost the same piece without the text matching a previous post.
+
+Each entry ends with a `Full post: <url>` line, and the label is load-bearing: a bare URL alone on
+its own line is what Quora's editor converts into a preview card, while a URL inside a sentence is
+left as written. Paste the summary and that line together.
+
+Publishing a post is not finished until that file carries the new page. Every publish does three
+things: merge the post, add its entry to the paste sheet, and give the owner the Quora excerpt in
+the reply.
+
+## Link the Plugins a Post Names (owner decision, 2026-08-20)
+
+Version 3 of the app launched in June 2026. Any post dated on or after 2026-06-01 that speaks
+about a part of the app must link that part directly, plus its guide section. A post that names a
+capability and makes the reader go find it costs readers — they search, do not find it, and leave.
+
+Every such post ends with this section, placed immediately before the sign-up block:
+
+```
+## Where to find it in the app
+
+- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
+```
+
+One list item per part, in the order the post raises them. Link the part even when the post only
+describes it rather than naming it — a post that mentions "a vetted ride" links TrustTransport,
+because that is what the reader will go looking for.
+
+URLs:
+
+| Part | Address |
+|---|---|
+| Most plugins | `https://app.chargingthefuture.com/apps/<slug>` |
+| Knowledge Library | `https://app.chargingthefuture.com/knowledge` |
+| Unlock | `https://app.chargingthefuture.com/plugin/unlock` |
+| Commons (the group chat) | `https://app.chargingthefuture.com` |
+
+Every part has a guide section as of 2026-08-20 — all twenty-five: beacon, bug-reporting, chyme,
+click-log, commons, contributions, directory, foundation, gdp, knowledge, level-up, lighthouse,
+mood, mutual-time, peer-programming, recurring-activity, service-credits, skills-hunt,
+skills-taxonomy, socket-relay, trust, trust-transport, unlock, what-works, workforce. The list is
+generated from `ctf/packages/web/app/guide/guide-content.json` in the product repo — check it
+rather than guessing, because a new part arrives before its section does. A part with no section
+gets the plugin link alone; never invent an anchor, since a wrong one lands the reader on the
+guide's top with no explanation.
+
+Snapshot posts get the section too (owner decision, 2026-08-20). Adding links changes none of a
+snapshot's numbers or wording, and its claims are exactly what makes a reader want to go check
+the data — so the links belong there most. A snapshot's date does not move when they are added;
+only living pages bump their date. The one page that stays untouched is the manifesto
+(`The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP.md`), which the owner froze outright.
 
 ## Sign-Up Line in Posts (owner decision, 2026-08-18)
 

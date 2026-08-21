@@ -1,7 +1,7 @@
 ---
 title: TrustTransport requests, cleaner stats, and public landing fixes
 date: "2026-07-09"
-excerpt: TrustTransport requests can now be cancelled. Community stats count posts accurately. Public landings for Recurring Activity and Contributions are live.
+excerpt: TrustTransport requests can now be canceled. Community stats count posts accurately. Public landings for Recurring Activity and Contributions are live.
 category: Updates
 slug: Product-Update-2026-07-09-TrustTransport-Cancel-Stats-Public
 repo: chargingthefuture/chargingthefuture

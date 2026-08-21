@@ -1,6 +1,6 @@
 ---
 title: Price Increase and Sustainability Update for TI Skills Economy
-date: "2026-01-01"
+date: "2026-02-19"
 excerpt: I'm writing to share an important update about the TI Skills Economy app's pricing and sustainability. Effective March 1, 2026, the subscription price will inc...
 category: Community
 slug: A-Necessary-Step-to-Keep-Our-Platform-Running

@@ -1,6 +1,6 @@
 ---
 title: "#49 of how TI Skills Network helps you exit the psyop"
-date: "2026-01-01"
+date: "2025-12-28"
 excerpt: I have listed, with the help of Nat Morris, 50 things the Speceterati do as part of their torturing of humanity. And how the TI Skills Network “fixes” each one.
 category: Insights
 slug: insights/#49-of-how-TI-Skills-Network-helps-you-exit-the-psyop

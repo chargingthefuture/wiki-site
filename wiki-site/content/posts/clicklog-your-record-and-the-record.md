@@ -47,4 +47,8 @@ Log privately forever and it is still worth it — that is job one. Share when y
 
 The guide walks through it at your own pace: https://app.chargingthefuture.com/guide#click-log
 
+## Where to find it in the app
+
+- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
+
 To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.

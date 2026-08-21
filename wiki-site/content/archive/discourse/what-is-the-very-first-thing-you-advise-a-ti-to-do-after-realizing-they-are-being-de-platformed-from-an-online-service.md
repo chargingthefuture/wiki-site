@@ -24,5 +24,8 @@ Excerpt: You are either de-platformed (banned/kicked out) or not. Prior to this 
 
 > You are either de-platformed (banned/kicked out) or not. Prior to this happening, maybe you are shadow-banned. Usually, the platform will also send you warnings of platform violations. And they do not give a heads-up onc&hellip;
 
-<p>You are either de-platformed (banned/kicked out) or not. Prior to this happening, maybe you are shadow-banned. Usually, the platform will also send you warnings of platform violations. And they do not give a heads-up once they have decided to de-platform you. It just happens abruptly.<br>\nThe general rule of thumb is to never be on just one platform. Periodically export all your data. And what you post online is yours; you can post the content in multiple places. Lastly, share with others consistently on where to find you if you are de-platformed from a site.</p>\n<p>Me on Quora:<br>\n<a href="https://qr.ae/pCnNHo" class="onebox" target="_blank" rel="noopener">https://qr.ae/pCnNHo</a></p>
+<p>You are either de-platformed (banned/kicked out) or not. Prior to this happening, maybe you are shadow-banned. Usually, the platform will also send you warnings of platform violations. And they do not give a heads-up once they have decided to de-platform you. It just happens abruptly.<br>
+The general rule of thumb is to never be on just one platform. Periodically export all your data. And what you post online is yours; you can post the content in multiple places. Lastly, share with others consistently on where to find you if you are de-platformed from a site.</p>
+<p>Me on Quora:<br>
+<a href="https://qr.ae/pCnNHo" class="onebox" target="_blank" rel="noopener">https://qr.ae/pCnNHo</a></p>
 

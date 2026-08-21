@@ -21,7 +21,7 @@ function Router() {
     <Switch>
       <Route path="/" component={Home} />
       <Route path="/feed" component={Feed} />
-      <Route path="/article/:repo/:slug" component={Article} />
+      <Route path="/article/:repo/*" component={Article} />
       <Route component={NotFound} />
     </Switch>
   );
