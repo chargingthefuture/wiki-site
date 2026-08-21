@@ -1,9 +1,9 @@
 ---
 title: "Pizza Is Not My Favorite Food"
 date: "2026-08-21"
-excerpt: "They think it is. They think it because destitution left me one hot meal I could afford, and they mistook a budget for a preference. That is not mind reading. It is arithmetic."
+excerpt: "They decided that it is. They decided it because destitution left me one hot meal I could afford, and they mistook a budget for a preference. That is not mind reading. It is arithmetic."
 category: "Community"
-teaser: "Somebody in the space wrote that operatives claim to see through your eyes and hear what you hear, and that in their experience the ones making the claim are lying. I agree, and I want to say what is actually going on instead. People are predictable, which is not a flaw — it is how we stay alive and sane. They watch, they compare notes across the people they traffic, and they guess well. Then they tell you it was telepathy. Pizza is the example I have: they concluded it was my favorite food, when it was the only hot meal I could afford without a stove."
+teaser: "A Targeted Individual wrote in the Skills Economy space that other Targeted Individuals say the perps can read their minds and see through their eyes. They do not think it is true. Neither do I, and I want to say what is actually going on instead. People are predictable, which is not a flaw — it is how we stay alive and sane. They watch, they compare notes across the people they traffic, and they guess well. Then they tell you it was telepathy. Pizza is the example I have: they concluded it was my favorite food, when it was the only hot meal I could afford without a stove."
 topics:
   - specterati
   - clicklog
