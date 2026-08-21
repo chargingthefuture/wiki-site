@@ -19,7 +19,15 @@ Those showers cannot be locked from the inside. That is deliberate and it is not
 
 Someone keyed me into a shower. I undressed. Immediately after, the door was opened and I was exposed, completely, to a man who was there. They laughed.
 
-The laughter is the part that settles it. An accidental door is silent and embarrassed. This was neither. It has happened before, in other facilities — a gym I stopped using, paid facilities where the showers had the same problem. The buildings change and the move does not.
+The laughter is the part that settles it. An accidental door is silent and embarrassed. This was neither.
+
+## The building changes and the move does not
+
+Before this I used a gym. As soon as I arrived, so did they, in numbers, and I would be worked off whatever I was using. That was the smaller part of it. The larger part was that they followed me into the bathroom and stood there — watching me use the toilet, watching me shower. I stopped going and I do not go back.
+
+I am not naming the chain, because the chain is not the point. The same thing happens in buildings that are public and buildings that are private, which is what tells you this is not one business with a problem. It is corruption running across both.
+
+That is the through line. Different buildings, different staff, different rules on the door, and the same move each time: arrange it so that you are seen with your clothes off, or seen doing the thing nobody is supposed to watch you do.
 
 ## Then getting to the next one
 
