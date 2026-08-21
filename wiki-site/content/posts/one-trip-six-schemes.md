@@ -23,6 +23,8 @@ August 11, leg one. The driver made an unplanned rest stop and took far longer t
 
 Denver. Two people who would go on to cause the trouble in St. Louis were already on this leg with me. There is video of them harassing me at Denver, before any of the rest of it happened.
 
+The two from Denver are not just a detail about who was where. Delays and trip changes put a target in the path of people they would otherwise never cross — staged encounters, some friendly, some hostile — and once that has happened, those people can claim they know you. A target does not personally know a single one of them beyond the friends, family, colleagues and acquaintances the Specterati recruit. That circle is small. The number of people taking part is not. A staged encounter is how a stranger acquires standing to say anything about you at all, and the pair had been near me since Denver — which is what let one of them report an assault in St. Louis and the other confirm it as a witness.
+
 St. Louis, stepping off the bus. Two officers in utility-style clothing that did not look like a uniform stopped me and said the locks on my luggage were a sign of drug trafficking. I declined the dog sniff and declined the search, and instead opened my own bags and unpacked them myself, in public, in front of everyone. Nothing was found, because there was nothing to find.
 
 Since the locks were the pretext, they are worth explaining. I carry two kinds and neither choice is casual. I gave up combination locks after they changed the codes on mine and left me locked out of my own bags. The TSA-approved ones are there to keep something from coming loose in transit, not to secure anything — those keys have leaked, so career criminals have them, and career criminals are what the Specterati are. The commercial locks with keys are the ones that actually hold. So the thing offered as evidence of trafficking is, in fact, a record of having been targeted before.
@@ -65,7 +67,7 @@ ClickLog is the incident logger in the app. Most of what it does exists because 
 
 One tap logs an incident. Standing at a bus door being refused boarding is not a moment for filling in a form. The tap records that it happened and when; the rest can wait until you are somewhere you can think.
 
-The note holds the whole story. Two thousand characters, which is enough for a trip like this one. Notes are private to the member, always — not shared with other members, not shared with the trends, not shared with me.
+The note holds the whole story. Two thousand characters, which is enough for a trip like this one. Notes are private to the member. They are not shown to other members, and they are left out of the trend queries entirely rather than filtered out afterward.
 
 An incident takes up to ten problem tags and ten scheme tags. That number is not arbitrary. This trip chained six schemes and two problems into one journey, and a logger that only lets you pick one would have forced me to decide which part of it counted.
 
