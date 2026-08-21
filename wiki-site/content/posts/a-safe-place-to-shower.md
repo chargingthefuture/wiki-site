@@ -1,9 +1,9 @@
 ---
 title: "A Safe Place to Shower"
 date: "2026-08-21"
-excerpt: "They have run honeypots at me for decades and I have never engaged with one. So they went to the next best option, which was a shower door with no lock."
+excerpt: "They have run honeypots at me for decades and I have never engaged with one. So they went to the next best option: an employee with a key, and a shower door that does not lock."
 category: "Community"
-teaser: "When they take your housing, washing moves into facilities other people own, and in those facilities the showers do not lock. Yesterday someone keyed me into one. The moment I had undressed the door was opened, exposing me to a man who was there, and there was laughter. ClickLog gained two things this week to name that: a problem tag for sexual violence, and a scheme called The Staged Exposure. I think it is what they reach for when the honeypots do not work, and I think honeypotting belongs in the same category — though I do not know what a lawyer or a clinician would call it."
+teaser: "I am destitute, so I wash in a day facility used by violent criminals and people using drugs, where the showers cannot be locked from the inside. Yesterday an employee keyed me in, and the moment I had undressed a door was opened and I was exposed to a man standing there, who laughed. ClickLog gained two things this week to name that: a problem tag for sexual violence, and a scheme called The Staged Exposure. I think it is what they reach for when the honeypots do not work, and I think honeypotting belongs in the same category — though I do not know what a lawyer or a clinician would call it."
 topics:
   - clicklog
   - safety
@@ -11,19 +11,21 @@ topics:
 
 Losing your housing does not only mean losing somewhere to sleep. It means the ordinary business of washing moves into facilities that belong to other people, on their terms, under whatever conditions they set.
 
-Where I stay now is somewhere between a shelter and the street. To wash, I leave it and use a shared facility.
+I am destitute. Where I stay is somewhere between a shelter and the street, and to wash I leave it and use a day facility. That is not a choice among options. It is the facility available to someone with nothing.
 
-Those showers cannot be locked from the inside. That is deliberate and it is not, on its face, unreasonable: a lot of the people using these facilities are criminals and people using drugs, and staff need to be able to open a door. The policy exists for a real reason. That is exactly what makes it usable against someone.
+The people using it include violent criminals and people using drugs. I am not saying that to look down on anyone — I have been verbally and physically assaulted in these places more than once, by the people in them. It is a description of the room I have to undress in.
+
+Which is why the showers cannot be locked from the inside. Staff need to be able to open a door, and given who is in the building that policy has a real reason behind it. The reason being real is exactly what makes it usable against someone.
 
 ## Yesterday
 
-Someone keyed me into a shower. I undressed. Immediately after, the door was opened and I was exposed, completely, to a man who was there. They laughed.
+An employee keyed me into a shower. I undressed. Immediately after, an employee opened the door and exposed me, completely, to a man standing there. He was not undressed. He laughed.
 
-The laughter is the part that settles it. An accidental door is silent and embarrassed. This was neither.
+The laughter is the part that settles it. An accidental door is silent and embarrassed. This was neither. It was staged, and what it was for is plain enough: humiliation, and a day made bad.
 
 ## The building changes and the move does not
 
-Before this I used a gym. As soon as I arrived, so did they, in numbers, and I would be worked off whatever I was using. That was the smaller part of it. The larger part was that they followed me into the bathroom and stood there — watching me use the toilet, watching me shower. I stopped going and I do not go back.
+Before this I used a gym, which I paid for. As soon as I arrived, so did they, in numbers, and I would be worked off whatever I was using. That was the smaller part of it. The larger part was that they followed me into the bathroom and stood there — watching me use the toilet, watching me shower. I was paying a membership for that. I stopped going and I do not go back.
 
 I am not naming the chain, because the chain is not the point. The same thing happens in buildings that are public and buildings that are private, which is what tells you this is not one business with a problem. It is corruption running across both.
 
