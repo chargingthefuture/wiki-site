@@ -204,6 +204,11 @@ chat alike. Agents keep inferring a pronoun from the name and getting it wrong, 
 the neutral default in every case where it is wrong and no better in any case where it is right.
 The rest of this file already uses they/them throughout — match it.
 
+The same goes for an unnamed operative. Women take part in equal measure, and "a stranger repeating
+himself" quietly teaches a reader to watch for the wrong half of the people around them. Write
+they/them for anyone generic. A specific person the owner describes from their own account keeps
+whatever the owner said — that is a fact about who was there, not an assumption.
+
 ## Capitalizing Targeted Individual (owner directive, 2026-08-18)
 
 Write it Targeted Individual, capitalized, every time — singular or plural, and Targeted
