@@ -216,7 +216,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 28 · 2026-03-24 · Terms of Service and Privacy Policy
 
-The Terms of Service and Privacy Policy, effective March 24, 2026 — what you agree to, what is collected, what is never collected, and how to remove your data. Short enough to read in full, which is the point.
+The Terms of Service and Privacy Policy, effective March 24, 2026 — what you agree to, what is collected, what is never collected, and how to remove your data.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Terms-of-Service-and-Privacy-Policy
 
@@ -280,7 +280,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 20 · 2026-01-23 · How to join Saturday Town Halls
 
-Every Saturday I am available to talk about the Skills Economy live. Two ways in — the audio town hall in the app, or the alternative for anyone who cannot use it. Bring questions; nothing is off the table.
+Every Saturday I make myself available to talk about the Skills Economy live. Two ways in: Chyme, the Android app built for survivors, or Signal, which also runs on desktop and iPhone.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/How-to-join-Saturday-Town-Halls
 
@@ -312,7 +312,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 16 · 2026-01-04 · 24/7 Chyme Rooms
 
-There is now an audio room for every sector of the economy — food, housing, health, transport, and the rest — and they stay open around the clock. Walk in, listen, say something or say nothing. No scheduling, no host required.
+There is now an audio room for every sector of the economy — food and agriculture, water, energy, health, housing, transport, and the rest — and they stay open around the clock. Walk in, listen, say something or say nothing. If you would rather I was there, there is a scheduler for picking a mutual time.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/24-7-Chyme-Drop-In-Rooms
 
@@ -360,7 +360,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/mono/Ti
 
 No. 10 · 2026-01-03 · TSE Baseline Explained
 
-The working document behind the economic model — the estimate of 5 million survivors worldwide and the figures the economy is calibrated against. Published so the arithmetic can be checked rather than taken on trust.
+The working document behind the economic model — the estimate of 5 million survivors worldwide, and the candidate countries of about that size being weighed as the shape to model against. It is published while it is still being decided, so anyone can follow the reasoning and argue with it.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/mono/TSE-Baseline
 
@@ -384,7 +384,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/mono/Wh
 
 No. 7 · 2025-12-31 · Charging The Future | Live, Work & Prevail
 
-The index of everything exported from the old Discourse forum before it closed. Nothing that was written there was lost — it was all carried over and kept here.
+The starting page for everything written about the app: what it is, how each service works, and where the content lives. The app is invite-only, built for survivors to live, work, and rebuild. Every page is a version-controlled file in a public repository, and that repository is the canonical copy if anything anywhere disagrees with it.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Home
 
