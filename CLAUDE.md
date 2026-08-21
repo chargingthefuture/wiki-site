@@ -178,6 +178,27 @@ position does. That is the distinction worth drawing in a post — not who has a
 
 State a figure the way the app's own screens state it, then move on to what a reader can do.
 
+## Crediting People, and Making the Credit Outlive the Link (owner directive, 2026-08-21)
+
+When a post uses or answers somebody's words, credit them. It is accurate, it acknowledges the
+person, and it builds a network in good faith — the same thing the Directory does. This is not
+optional politeness; it is how the blog has always handled Nat Morris, Pam Dawson, T. Tipton, and
+Steph Wo.
+
+Write the credit so it survives the account being deleted, because that is the expected end state
+rather than an edge case — Quora has erased five of this project's own accounts.
+
+- Put the name or handle in plain text and the address beside it, written out:
+  `Gn0b0dy Pneuma (https://www.quora.com/profile/Gn0b0dy-Pneuma)`. Never wrap the name around the
+  link alone. When the URL dies, `[Name](dead-url)` leaves a reader clicking through to nothing
+  with no way to tell who was credited.
+- When the reference is a specific comment or post, include a screenshot in `content/images/`,
+  named with the person and the date, and put the full text of what they wrote into the alt text.
+  The alt text is the part that survives — it keeps the words available to a screen reader, and it
+  keeps them available at all once the source is gone.
+
+The archive entries already use the plain-text-plus-URL form. Match them.
+
 ## Capitalizing Targeted Individual (owner directive, 2026-08-18)
 
 Write it Targeted Individual, capitalized, every time — singular or plural, and Targeted
