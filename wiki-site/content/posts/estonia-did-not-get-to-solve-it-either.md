@@ -17,7 +17,13 @@ So here is the example I keep coming back to.
 
 ## A country that does not get an ending
 
-Estonia has 1.3 million people. It sits next to Russia, a country with a hundred times its population, which has treated it as a target for as long as Estonia has existed as a modern state — intrusion into its systems, pressure, watching, and more besides. In 2007 the attacks on its networks were severe enough to become the case study everyone else studies.
+Estonia has 1.3 million people. It sits next to Russia, a country with a hundred times its population. It was occupied by the Soviet Union until 1991, and the pressure did not end when the occupation did.
+
+In 2007, during a dispute over the relocation of a Soviet war memorial, Estonia's banks, government sites, and newspapers were knocked offline for weeks. It was severe enough that it became the case everyone else studies, and it is a large part of why the country rebuilt the way it did.
+
+Everybody had a view about where it came from. No authority ever established it. Nobody was ever held responsible.
+
+That last part is worth sitting with, because survivors will recognize the shape of it: the harm was real, the source was obvious to the people it was happening to, and the formal record shows nothing.
 
 None of that has stopped. There is no version of the future where Estonia's geography changes. They do not get an ending either.
 
