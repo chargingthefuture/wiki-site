@@ -61,7 +61,7 @@ There is a third thing that sits between them, and it is the most childish part 
 
 One detail is why the tag exists at all: survivors who have never met report the same weekday structure independently. That is not something any one person can see from inside their own week.
 
-There is a condition attached to it, though. The weekly shape needs a stretch in one place. It runs on operatives who are local to you and whose entire occupation is you, and that takes a settled address to arrange — which is what makes a reliably bad Tuesday possible at all.
+There is a condition attached to it, though. The weekly shape needs a stretch in one place. It runs on operatives who are local to you and working at this full time — not full time on you, since they carry other targets too, but reliably near you — and that takes a settled address to arrange — which is what makes a reliably bad Tuesday possible at all.
 
 Nobody travels every day of their life, so this is not two kinds of people. I travel often, and there are still stretches where I am in one place. What changes for someone who moves is not whether the schedule exists but which day it lands on: it re-forms around wherever you have settled, often on a different day than last time. So mine varies. It is the same scheme each time, wearing a different weekday.
 
