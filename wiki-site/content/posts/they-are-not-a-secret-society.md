@@ -37,7 +37,11 @@ Any scheme can fill a bad day. What that tag names is the layer above them: the 
 
 One detail is why the tag exists at all: survivors who have never met report the same weekday structure independently. That is not something any one person can see from inside their own week.
 
-If it matches yours, log it. A note in a private file stays private and stops there. A tagged incident goes into the trend report, and unconnected people dreading the same weekday is a pattern rather than a coincidence.
+There is a condition attached to it, though. The weekly shape needs you to stay put. It runs on operatives who are local to you and whose entire occupation is you — that is what makes a reliably bad Tuesday possible at all. If you move around, they try to hold the structure and often cannot. Mine varies, because I travel often.
+
+So the shape being absent from your week does not mean it is not being attempted on you. It may only mean you are harder to schedule.
+
+If it does match yours, log it. A note in a private file stays private and stops there. A tagged incident goes into the trend report, and unconnected people dreading the same weekday is a pattern rather than a coincidence.
 
 ## Tell me if these are wrong
 
@@ -47,7 +51,7 @@ On "secret society": is that the word used at you? Something else? If you were t
 
 On collective amusement: does "amusement" land right, or is it too light for what you have seen? I have gone back and forth on it. It sounds trivial next to what is done, and that may be exactly correct — the triviality of the motive is part of the offense — or it may understate the sadism and need a harder word.
 
-On The Good Day, Bad Day: which weekday is yours? The answer is only meaningful across a lot of people, which is why I am asking rather than assuming.
+On The Good Day, Bad Day: do you stay in one place, or do you move around a lot? And if you stay put, which weekday is yours? I am asking in that order on purpose — the second question only has an answer for some people, and which group you are in is itself worth knowing.
 
 Say any of it in the [Commons](https://app.chargingthefuture.com), the group chat inside the app. The Dictionary is a living page kept in a public repository, so every change to it is dated and on the record — including the ones that come from being told I got it wrong.
 
