@@ -31,7 +31,19 @@ The worked example is a scheme named yesterday, The Good Day, Bad Day. Days get 
 
 Then the grading. Operatives ask how your day was. Good day? Bad day? Bad weekend? And the verdict comes back to you in phrases no bystander could object to — "have a good day", "hope you had a good weekend" — delivered pointedly, right after a day they arranged to be bad.
 
+Typically the day chosen is Friday. American culture treats Friday as the good one because the weekend follows it, and taking that particular day is the point. In my case it does not land — I am not on that clock, so their choice of the culturally good day is irrelevant to me — but the choice tells you what they think they are doing.
+
 Any scheme can fill a bad day. What that tag names is the layer above them: the scheduling and the grading. And the reason for the grading is that a score is only worth keeping if somebody is watching it. The audience is the point.
+
+## Planned, and everything else
+
+Worth separating, because they do not work the same way.
+
+Most of what happens to us is not ordered. It is a distributed criminal network, operating with a standing permission: if someone wants to have a go at you, they may, and nothing happens to them for it. No instruction was issued. They do it because they enjoy it. That is the bulk of it, and it is why the harassment has no consistent shape — a thousand people acting on their own account, at your expense.
+
+The Good Day, Bad Day is not that. It is planned in advance and coordinated. That is exactly what makes it worth a tag of its own: it is one of the few parts with a structure you can predict, and a structure is a thing that can be caught.
+
+There is a third thing that sits between them, and it is the most childish part of the whole operation. They cannot control everything, because nobody can. Sometimes a bad day simply happens — bad days happen to people who are not targeted, too. When one does, they claim it. They take credit for weather, for a delay, for an ordinary piece of misfortune. It is comical and sick at once, and it is worth naming because a target who does not know they do this will hand them things they had nothing to do with.
 
 ## The part that needs other people
 
@@ -53,9 +65,11 @@ On "secret society": is that the word used at you? Something else? If you were t
 
 On collective amusement: does "amusement" land right, or is it too light for what you have seen? I have gone back and forth on it. It sounds trivial next to what is done, and that may be exactly correct — the triviality of the motive is part of the offense — or it may understate the sadism and need a harder word.
 
-On The Good Day, Bad Day: which weekday is yours, and does it change when you move? If you have lived in more than one place, I want both answers — whether the bad day followed you or reset. That is the part I cannot work out alone, and it would tell us how the schedule is set in the first place.
+On The Good Day, Bad Day: which weekday is yours, and does it change when you move? If you have lived in more than one place, I want both answers — whether the bad day followed you or reset. In my experience it resets. That is the part I cannot work out alone, and it would tell us how the schedule gets set in the first place.
 
-Say any of it in the [Commons](https://app.chargingthefuture.com), the group chat inside the app. The Dictionary is a living page kept in a public repository, so every change to it is dated and on the record — including the ones that come from being told I got it wrong.
+One warning on that question, and it is the reason I am asking where I am asking. They read what we post. If I read another survivor's post saying theirs is Wednesday, mine becomes Wednesday — it is less work for them than choosing, and it doubles as a message: I have access, and here is your bad day. So do not put your weekday in a public reply. Answering in public hands them the answer and corrupts the thing I am trying to measure at the same time.
+
+Say any of it in the [Commons](https://app.chargingthefuture.com), the group chat inside the app, which is behind approval. The Dictionary is a living page kept in a public repository, so every change to it is dated and on the record — including the ones that come from being told I got it wrong.
 
 New schemes get named from the same kind of description. When you log an incident and no scheme on the list fits, there is a "not listed" option that asks you to write what happened, and that writing is the intake that names new ones. It is limited to members holding the Weavers of the Commons badge, which keeps junk out of the naming queue rather than out of logging — logging itself is open to every approved member.
 
