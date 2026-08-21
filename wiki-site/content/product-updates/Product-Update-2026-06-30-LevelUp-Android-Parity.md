@@ -13,8 +13,8 @@ repo: chargingthefuture/chargingthefuture
 
 ## What Shipped
 
-- **Android parity for LevelUp auto-cohort controls.** Admins on Android can now assign trainers and manage cohort enrollment the same way iOS users can.
-- **Early Commons link on Unlock.** Android users can access the Commons before full onboarding, matching iOS behavior.
+- **Android parity for LevelUp auto-cohort controls.** Admins on Android can now assign trainers and manage cohort enrollment the same way web users can.
+- **Early Commons link on Unlock.** Android users can access the Commons before full onboarding, matching web behavior.
 - **Mood resources rail update.** The Mood section now directs you to community help instead of external crisis hotlines.
 - **Mobile rendering fixes.** Fixed a bug where the bug report modal was trapped behind the header. External link dialogs now render as solid panels on mobile instead of transparent ones. Workforce stats and sector rows no longer overflow on phone width.
 - **Performance dashboard improvements.** Weekly performance numbers now update live; you no longer have to wait for closed-week calculations. The CI budget monitor cleaned up its display.
