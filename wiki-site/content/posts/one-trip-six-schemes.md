@@ -77,7 +77,7 @@ Sharing is a choice, and what it shares is coarse. You decide per incident wheth
 
 The trends are where it stops being one person's story. Counts by day, by area, by problem, by scheme, across everyone who opted in. My engineered delay on its own is an anecdote. The same scheme tagged the same week by people who have never met, in cities that have nothing to do with each other, is not a thing coincidence produces.
 
-And the list itself grows. When a scheme has no name yet, there is a "not listed" option for describing it, and the real ones get named and added. That is the path all six of these took.
+And the list itself grows. When a scheme has no name yet, holders of the Weavers of the Commons badge can describe it through a "not listed" option, and the real ones get named and added. That is the path all six of these took.
 
 ## Where to find it in the app
 
