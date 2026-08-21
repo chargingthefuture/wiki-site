@@ -19,7 +19,7 @@ The carrier's record says I called and requested it. I did not. The email addres
 
 Booked: Salt Lake City to Denver to St. Louis to New York Port Authority. About two and a half days door to door.
 
-August 11, leg one. The driver made an unplanned rest stop and took far longer over it than it needed. The Denver connection was thirty minutes; I missed it. The next bus was five hours later. I called, the ticket was rebooked across the same three legs at later times, and the arrival moved to 16:00 on August 13.
+August 11, leg one. The driver made an unplanned rest stop and took far longer than it needed. The Denver connection was thirty minutes; I missed it. The next bus was five hours later. I called, the ticket was rebooked across the same three legs at later times, and the arrival moved to 16:00 on August 13.
 
 Denver. Two people who would go on to cause the trouble in St. Louis were already on this leg with me. There is video of them harassing me at Denver, before any of the rest of it happened.
 
