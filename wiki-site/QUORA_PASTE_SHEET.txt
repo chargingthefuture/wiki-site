@@ -2241,7 +2241,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 53 · 2025-10-03 · How exactly do gang stalkers monitor your computer activity and steal files and information? Is there a way to stop it?
 
-Several methods, starting with the network you are connected to. What can be done about each, honestly rated.
+They compromised the Wi-Fi network I was on and blocked VPNs, then used a firmware exploit to copy files off a USB drive connected to my computer — exports of my email, Notion and Obsidian. They wiped the drive remotely afterwards. I recovered the files.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/how-exactly-do-gang-stalkers-monitor-your-computer-activity-and-steal-files-and-information-is-there-a-way-to-stop-it
 
@@ -2249,7 +2249,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 52 · 2025-10-03 · I know this sounds far fetched but do gang stalkers have devices that can cause nightmares and bad dreams or maybe it's just a byproduct of the constant abuses I've suffered?
 
-It sounds far-fetched until it happens. Once for me, far more often for my mother. Either way the exhaustion is the point.
+Yes, though only once to me. They do it to my mother perhaps every night, to steer what she does the next day — she is religious, they use that, and she believes it is God telling her. I fought my way out of the one I had.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/i-know-this-sounds-far-fetched-but-do-gang-stalkers-have-devices-that-can-cause-nightmares-and-bad-dreams-or-maybe-its-just-a-byproduct-of-the-constant-abuses-ive-suffered
 
@@ -2257,7 +2257,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 51 · 2025-10-03 · Lots of people on here recommend praying. How can there be a god (with all due respect) when this evil gang stalking program goes unpunished?
 
-On being told to pray about it. People who say that are either gaslighting or have not understood what is happening, and neither helps you tomorrow morning.
+Praying will do nothing about gang stalking; whoever tells you otherwise is gaslighting you or does not know. Treat it the way you would treat being told to go for a run — if it relieves the stress, do it, alongside a hobby or a nap. Just do not mistake it for a remedy.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/lots-of-people-on-here-recommend-praying-how-can-there-be-a-god-with-all-due-respect-when-this-evil-gang-stalking-program-goes-unpunished
 
@@ -2265,7 +2265,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 50 · 2025-10-03 · [Poll] How is this forum?
 
-Two weeks in, asking the people using the forum whether it was working. Asking early is cheaper than guessing.
+Two weeks after starting the forum, asking the people using it whether it is worth anything — in the replies, by private message, or through an anonymous poll.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/poll-how-is-this-forum
 
@@ -2273,7 +2273,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 49 · 2025-10-03 · Were gang stalkers ever stalked themselves?
 
-They are people, with lives outside of it. What that means for how they get recruited, and why it matters more than it sounds.
+The question does not hold together. They are people and have ordinary lives outside it — but gang stalking is not the same as stalking; stalking is one part of it. Asking this is like asking whether a gang stalker ever had something stolen.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/were-gang-stalkers-ever-stalked-themselves
 
@@ -2281,7 +2281,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 48 · 2025-10-03 · What do I do to make it easier as a TI? I’m evicted from my home, have had 2 months to pack but can’t seem to pack. I don’t want to leave everything behind but something tells me I HAVE NO CHOICE
 
-Someone evicted, two months to pack, unable to start. Practical advice from having been there: what to sell, what to carry, and why the paralysis is not a character flaw.
+If you have nowhere to go, sell or get rid of as much as you can and get down to one bag you can travel with. And I am matching unhoused survivors with other survivors through the circular economy.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/what-do-i-do-to-make-it-easier-as-a-ti-i-m-evicted-from-my-home-have-had-2-months-to-pack-but-can-t-seem-to-pack-i-don-t-want-to-leave-everything-behind-but-something-tells-me-i-have-no-choice
 
@@ -2289,7 +2289,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 47 · 2025-10-03 · What is the very first thing you advise a TI to do after realizing they are being de-platformed from an online service?
 
-The first thing to do when an account starts going: get your material out before the decision is final, because after it lands there is nothing to export.
+It happens abruptly — warnings may come earlier, but there is no heads-up once the decision is made. The rule of thumb is never to be on one platform only.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/what-is-the-very-first-thing-you-advise-a-ti-to-do-after-realizing-they-are-being-de-platformed-from-an-online-service
 
@@ -2297,7 +2297,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 46 · 2025-10-03 · Who is being gangstalked in Chico, CA?
 
-Someone looking for others nearby. Finding each other geographically is harder than it should be, which is what the directory was eventually built for.
+Pointed at Matthew Cappadocia's map of where survivors have self-reported — open it in a browser, not the Google Maps app — and at the TI Skills Network space for anyone wanting to team up.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/who-is-being-gangstalked-in-chico-ca
 
@@ -2305,7 +2305,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 45 · 2025-10-03 · Why would gang stalkers let you know where they live and even invite you there?
 
-Entrapment. An invitation like that is an attempt to get you to do something chargeable, and recognizing the shape of it is the defense.
+Entrapment. They will try to get you to commit a crime, provoke you, or — if you do nothing — use proof you were in the house to accuse you of one. They will also lure you into acts to extort you or feed a slander campaign. There is no reason to enter a known gang stalker's home.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/discourse-migrate/why-would-gang-stalkers-let-you-know-where-they-live-and-even-invite-you-there
 
@@ -2313,7 +2313,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 No. 44 · 2025-10-03 · Where are TIs located?
 
-A self-reported map of where survivors are. Imperfect and voluntary, and still the first time many people saw they were not the only one in their area.
+Matthew Cappadocia's map of survivors who have self-reported where they are. Open the link in a web browser — it will not work inside the Google Maps app.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/where-are-tis-located
 
