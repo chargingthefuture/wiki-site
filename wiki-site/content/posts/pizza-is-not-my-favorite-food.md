@@ -49,7 +49,7 @@ I do not think I am unusually clever. I think I was placed, very young, in a pos
 
 Three things, none of them extraordinary.
 
-They observe, over years, with people whose entire occupation is a single target.
+They observe over years, with people working at it full time. Not full time on me — there is more than one target in a city, and the same operatives work several of us. That is the efficiency of it, and this is a business before it is anything else. A fake neighbor moves in tasked with harassing me, but plausible deniability means at least one person in that household holds an ordinary job. During that job they are still working: on me, and on other people. We are all on one list, and social media is what makes a list like that cheap to spread.
 
 They compare across the people they traffic. Many of us are similar in the ways that show from outside, so a pattern learned from one person predicts the next.
 
