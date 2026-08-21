@@ -67,9 +67,19 @@ On collective amusement: does "amusement" land right, or is it too light for wha
 
 On The Good Day, Bad Day: which weekday is yours, and does it change when you move? If you have lived in more than one place, I want both answers — whether the bad day followed you or reset. In my experience it resets. That is the part I cannot work out alone, and it would tell us how the schedule gets set in the first place.
 
-One warning on that question, and it is the reason I am asking where I am asking. They read what we post. If I read another survivor's post saying theirs is Wednesday, mine becomes Wednesday — it is less work for them than choosing, and it doubles as a message: I have access, and here is your bad day. So do not put your weekday in a public reply. Answering in public hands them the answer and corrupts the thing I am trying to measure at the same time.
+One thing about that question, and I am not going to write my way around it.
 
-Say any of it in the [Commons](https://app.chargingthefuture.com), the group chat inside the app, which is behind approval. The Dictionary is a living page kept in a public repository, so every change to it is dated and on the record — including the ones that come from being told I got it wrong.
+They read what we write. If I read another survivor's post saying theirs is Wednesday, mine becomes Wednesday — it is less work for them than choosing, and it doubles as a message: I have access, and here is your bad day.
+
+And I am not going to tell you there is a safe place to answer. They read the Commons. They read the chats I have with the tools I build this thing with. Anywhere I could ask, they can read. I would rather say that plainly than sell you a private channel that is not private.
+
+Two things do work, and neither of them is secrecy.
+
+The first is recognition. A Wednesday that arrived because somebody copied it out of a post is still a bad Wednesday, but it is one you can see the wires on. I do not internalize these any more. I know the shape, so it registers as a move being made rather than as something happening to me, and it bothers me considerably less. That is not a small thing to be able to do.
+
+The second is the whole argument of this project. The reason they have so much to work with is that we are reachable in so many places. I am not on social media apart from Quora. If I take myself off Quora and operate here, most of these games have nowhere to land — not because this place is hidden, but because it is small and it is ours, and the surface they can reach is a fraction of what it was. Then when I step outside it, I recognize what is being run and it does not take. That is closer to freedom than any privacy setting has ever gotten me.
+
+So answer in the [Commons](https://app.chargingthefuture.com), the group chat inside the app, knowing they are reading over your shoulder there as everywhere else. What the answers are for is not keeping a secret. It is a set of us knowing the shape well enough that it stops working. The Dictionary is a living page kept in a public repository, so every change to it is dated and on the record — including the ones that come from being told I got it wrong.
 
 New schemes get named from the same kind of description. When you log an incident and no scheme on the list fits, there is a "not listed" option that asks you to write what happened, and that writing is the intake that names new ones. It is limited to members holding the Weavers of the Commons badge, which keeps junk out of the naming queue rather than out of logging — logging itself is open to every approved member.
 
