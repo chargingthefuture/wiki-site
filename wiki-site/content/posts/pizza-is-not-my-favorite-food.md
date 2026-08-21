@@ -59,7 +59,15 @@ The mistakes are the useful part, because they show where the limit is.
 
 Imagine engineering someone into destitution, watching them eat out of a trash can, and concluding that the trash can must be their favorite restaurant. That is the shape of the reasoning. They see the behavior and cannot see the constraint that produced it, so they attribute to preference what was produced by having no choices left.
 
-Which is worth saying plainly: there are survivors who describe these people as geniuses. They are not. They are violent criminals with money, technology, and a network. Those are real advantages and I am not waving them away. They are not the same thing as insight, and treating them as insight does the work for them — it is the same move as the "secret society" brag and the same move as steering you toward which exploit is on your phone. Every one of those makes them larger than they are, and every one of them puts you to work on a question that does not change anything.
+Which is worth saying plainly: there are survivors who describe these people as geniuses. They are not. They are violent criminals with money, technology, and a network. Those are real advantages and I am not waving them away. They are not the same thing as insight, and treating them as insight does the work for them — it is the same move as the "secret society" brag and the same move as steering you toward which exploit is on your phone. Every one of those makes them larger than they are, and every one puts you to work on a question that changes nothing.
+
+The largest version of it takes them out of the human category altogether: the Illuminati, a bloodline, something with God on its side. That is the most flattering story available, and they do not have to tell it to us. We tell it to each other.
+
+Look at what it costs to hold. If they are supernatural then they are permanent, which leaves you mortal and them not, and there is nothing left to do but endure it and interpret it. That is exactly the position this is meant to put you in. Fixating on how they do it always ends there.
+
+The history says otherwise, and I have written about this [before](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/who-put-you-on-the-list). The transatlantic slave trade ran on a fraction of the technology and had the entire globe participating in one capacity or another — and its central lie, that race is a real division between kinds of people, is still believed by people today. Hitler had less technology than the phone in your pocket and commanded a country with it. Neither needed anything beyond people, money, permission, and a story worth repeating.
+
+A psyop is a psyop. This one has better equipment and the same skeleton.
 
 ## The part that is actually fixable
 
