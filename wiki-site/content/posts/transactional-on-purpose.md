@@ -39,7 +39,7 @@ The taunt has a second job, though, and it is the one worth naming. It is aimed 
 
 I mostly write about the Skills Economy in terms of trade — what you need, what you can do, what gets exchanged. That emphasis is deliberate, and this is the reason for it.
 
-A trafficker does not provide material assistance to a Targeted Individual. It is the one thing they consistently will not do, because the entire operation runs the other way: closing doors, cancelling the work, making the ride not show up. So a place organized around actually handing each other something real filters them out at the door, without anyone having to identify them, accuse them, or run a background check. They fail the test by not participating in it.
+A trafficker does not provide material assistance to a Targeted Individual. It is the one thing they consistently will not do, because the entire operation runs the other way: closing doors, canceling the work, making the ride not show up. So a place organized around actually handing each other something real filters them out at the door, without anyone having to identify them, accuse them, or run a background check. They fail the test by not participating in it.
 
 That filter is what makes the rest possible. Do a few exchanges and you are dealing with people who showed up with something in their hands. Keep going and you find the ones you have things in common with. Friendship is not the pitch here — it is what is left after the filter has done its work, and it arrives on its own.
 

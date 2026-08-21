@@ -26,7 +26,7 @@ Excerpt: Were there any TIs that doubted me :). With just 15 Directory profiles,
 
 <p>Were there any TIs that doubted me :).</p>
 <p>With just 15 Directory profiles, Workforce Recruiter shows almost an equal spread across all economic sectors!</p>
-<p>Please help me get more TIs to sign up for the TI Skills Economy. This is a legitimate way to exit the psyop. There are enough TIs to where we could sustain a fulfilling life amongst each other. By exchanging our skills, goods, and services with each other.</p>
+<p>Please help me get more TIs to sign up for the TI Skills Economy. This is a legitimate way to exit the psyop. There are enough TIs to where we could sustain a fulfilling life among each other. By exchanging our skills, goods, and services with each other.</p>
 <p>Keep in mind, Workforce Recruiter accounts for the fact that 50% of any population is not “working.” Please, if you are disabled, retired, etc, you COUNT as well. And your needs and wants can be met within the TI Skills Economy. EVERY TI is welcome. Let us set aside our personal differences. Within a population of 5 million or more, you will find your tribe.</p>
 <p>Questions? Reply to any Quora post, blog post, send a Signal message, etc.</p>
 <p>Link in Bio: <a href="https://sleek.bio/farah" class="inline-onebox">Farah | SleekBio</a><br>
@@ -69,7 +69,7 @@ Website: <a href="https://chargingthefuture.com">Psyop-Free Economy | Survivor S
     </div>
   </div>
   <blockquote>
-    A Verified badge means that the community believes this member is likely a TI. An Unverified badge simply means the community has not done verification yet, but will. Non-Tls or perps are not permitted on the platform. And will be removed upon immediate discovery. All community members require verification. The length of time of verifying community members varies. Please use your best judgement at all times. The platform endorses noone. And this badge is simply to assist in making a determinatio…
+    A Verified badge means that the community believes this member is likely a TI. An Unverified badge simply means the community has not done verification yet, but will. Non-Tls or perps are not permitted on the platform. And will be removed upon immediate discovery. All community members require verification. The length of time of verifying community members varies. Please use your best judgment at all times. The platform endorses noone. And this badge is simply to assist in making a determinatio…
   </blockquote>
 </aside>
 

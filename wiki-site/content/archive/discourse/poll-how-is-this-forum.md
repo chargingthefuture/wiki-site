@@ -59,5 +59,5 @@ Excerpt: It has been slightly over two weeks since I started this forum. It is t
 
 ### Comment #3 (2025-10-05)
 
-<p>I completely understand. I am trying to figure out how to spread the cost of living amongst us all and pool our resources. To solve this very issue we are collectively facing: <a href="https://chargingthefuture.discourse.group/t/pooling-our-resources/88" class="inline-onebox">Pooling our resources</a>.</p>
+<p>I completely understand. I am trying to figure out how to spread the cost of living among us all and pool our resources. To solve this very issue we are collectively facing: <a href="https://chargingthefuture.discourse.group/t/pooling-our-resources/88" class="inline-onebox">Pooling our resources</a>.</p>
 

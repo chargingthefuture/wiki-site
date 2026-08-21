@@ -35,11 +35,11 @@ Excerpt: “TI Craigslist” started on Quora, then migrated to here, our own Di
     <div class="quote-controls"></div>
     <img alt="" width="24" height="24" src="images/reduce-the-likelihood-of-being-scammed-trade-with-tis-48.png" class="avatar">
     <div class="quote-title__text-content">
-      <a href="https://chargingthefuture.discourse.group/t/about-the-craigslist-category/24">About the Craigslist category</a> <a class="badge-category__wrapper " href="/c/craigslist/10"><span data-category-id="10" style="--category-badge-color: #8C6238; --category-badge-text-color: #FFFFFF;" data-drop-close="true" class="badge-category --style-square " title="I originally created the circular economy amongst Targeted Individuals on Quora, via the TI Skills Network space. But then Quora banned my account (https://www.quora.com/profile/Pedigree101) and conveniently deleted all the posts but one that never received an answer."><span class="badge-category__name">Craigslist</span></span></a>
+      <a href="https://chargingthefuture.discourse.group/t/about-the-craigslist-category/24">About the Craigslist category</a> <a class="badge-category__wrapper " href="/c/craigslist/10"><span data-category-id="10" style="--category-badge-color: #8C6238; --category-badge-text-color: #FFFFFF;" data-drop-close="true" class="badge-category --style-square " title="I originally created the circular economy among Targeted Individuals on Quora, via the TI Skills Network space. But then Quora banned my account (https://www.quora.com/profile/Pedigree101) and conveniently deleted all the posts but one that never received an answer."><span class="badge-category__name">Craigslist</span></span></a>
     </div>
   </div>
   <blockquote>
-    I originally created the circular economy amongst Targeted Individuals on Quora, via the TI Skills Network space. But then Quora banned my account (<a href="https://www.quora.com/profile/Pedigree101">https://www.quora.com/profile/Pedigree101</a>) and conveniently deleted all the posts but one that never received an answer. 
+    I originally created the circular economy among Targeted Individuals on Quora, via the TI Skills Network space. But then Quora banned my account (<a href="https://www.quora.com/profile/Pedigree101">https://www.quora.com/profile/Pedigree101</a>) and conveniently deleted all the posts but one that never received an answer. 
 And so instead of using Quora, this is the new place to exchange goods and services with other TIs. Use it as you would Craigslist. Reminder, that I do my best to only let in TIs. Even so, please use the same precautions you would…
   </blockquote>
 </aside>

@@ -33,7 +33,7 @@ UPDATED December 28, 2025
 * MechanicMatch: Connect with trusted mechanics when your car breaks down or is tampered with | https://app.chargingthefuture.com/apps/mechanicmatch
 > > <img width="400" alt="screencapture-app-chargingthefuture-apps-mechanicmatch-2025-12-28-12_52_45" src="https://github.com/user-attachments/assets/e5fa0939-80bd-4ad0-bf32-d229ad5dcbf4" />
 
-* Workforce Recruiter: Review the collective skillset of the TI Skills Economy and find or expand your career amongst TIs | https://app.chargingthefuture.com/apps/workforce-recruiter
+* Workforce Recruiter: Review the collective skillset of the TI Skills Economy and find or expand your career among TIs | https://app.chargingthefuture.com/apps/workforce-recruiter
 > > <img width="400" alt="screencapture-app-chargingthefuture-apps-workforce-recruiter-2025-12-28-12_51_47" src="https://github.com/user-attachments/assets/9ee608c5-c532-4128-9545-f666c27434e6" />
 
 * SupportMatch: Find accountability partners who understand | https://app.chargingthefuture.com/apps/supportmatch
