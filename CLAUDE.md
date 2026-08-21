@@ -59,6 +59,7 @@ Canonical source: [`chargingthefuture/chargingthefuture` → `.github/instructio
 | Command | Action |
 |---|---|
 | `pnpm wiki:validate` | Validate `content-index.yaml` |
+| `pnpm wiki:spelling` | Fail on any British spelling outside `content/archive/` |
 | `pnpm wiki:sync` | Regenerate `articles.ts` from the index |
 | `pnpm wiki:sync:dry` | Preview sync changes |
 | `pnpm wiki:preview` | Local dev server (http://localhost:5000) |
@@ -66,6 +67,36 @@ Canonical source: [`chargingthefuture/chargingthefuture` → `.github/instructio
 | `pnpm wiki:build:pages` | GitHub Pages build (base `/chargingthefuture/` + 404.html) |
 
 Full operator runbook: [wiki-site/PUBLISHING.md](wiki-site/PUBLISHING.md).
+
+## US Spelling (enforced by CI)
+
+The blog writes US English. `pnpm wiki:spelling` fails on any British spelling and runs in CI on
+every pull request, because a British spelling passes front matter validation and the build
+without complaint — nothing else in the pipeline knows the difference. The word list is copied
+verbatim from `ctf/scripts/lib/us-spelling.mjs` in the product repository, whose own gate skips
+wiki-site precisely because this is a separate repository; if that list changes, copy it across.
+
+`content/archive/` is checked too. A British spelling in an archived post is a typo, and typos get
+fixed here — the copy-edit passes over the archive have been doing exactly that.
+
+What is never respelled is an archived title. Every file under `content/archive/` carries
+`status: closed` — 153 of them do — and that is the point: the topic was closed at export and the
+record is frozen as captured. A Quora title is also the thing the URL was minted from, so it is not
+free-floating text. Leave the title and its slug exactly as exported, wrap them in
+`spelling:disable` / `spelling:enable` with the reason, and correct the body around them.
+
+Whose words they are is not what settles it. Quora is global, and a British spelling from another
+writer is unremarkable there. It stays because the topic is closed and the title became an address,
+not because of who typed it.
+
+Everything else, including a URL on a page that is not a closed archive entry, gets fixed (owner
+directive, 2026-08-20). A British spelling in a slug is still a typo, and breaking the link is
+acceptable: Quora deleted the accounts those links were shared from, so the audience that held them
+is gone and the project is starting over. When you change a slug, update every internal reference in
+the same commit — `content/`, the paste sheet, and the archive index — or the referring pages 404.
+
+A file that disables and never re-enables is itself a failure, so a region cannot quietly swallow
+the rest of a file.
 
 ## Git Branch and PR Naming (always apply)
 

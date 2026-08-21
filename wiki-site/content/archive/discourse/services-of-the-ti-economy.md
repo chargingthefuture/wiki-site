@@ -101,7 +101,7 @@ Excerpt: Find all the below within one link: https://app.chargingthefuture.com. 
 <p>A partner matching platform featuring monthly partnership cycles, real-time messaging, and robust safety features. Connect with accountability partners for mutual support and growth.</p>
 <h3><a name="p-242-lighthouse-5" class="anchor" href="#p-242-lighthouse-5" aria-label="Heading link"></a>LightHouse</h3>
 <p><strong>Safe Housing &amp; Accommodations</strong></p>
-<p>Dual-role system connecting housing seekers with hosts. Provides safe accommodations and support resources, guiding survivors towards healing and empowerment.</p>
+<p>Dual-role system connecting housing seekers with hosts. Provides safe accommodations and support resources, guiding survivors toward healing and empowerment.</p>
 <h3><a name="p-242-trusttransport-6" class="anchor" href="#p-242-trusttransport-6" aria-label="Heading link"></a>TrustTransport</h3>
 <p><strong>Safe Transportation Services</strong> Request or provide safe transportation services. Connect with trusted drivers for rides to appointments, errands, or other essential travel needs.</p>
 <h3><a name="p-242-mechanicmatch-7" class="anchor" href="#p-242-mechanicmatch-7" aria-label="Heading link"></a>MechanicMatch</h3>

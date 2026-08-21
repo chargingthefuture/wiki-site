@@ -1,7 +1,7 @@
 ---
 title: Terms of Service
 date: "2025-09-21"
-excerpt: Change Me Forum Admin, please find below an example starting template for a privacy policy that you should customise to meet your site’s needs. These terms…
+excerpt: Change Me Forum Admin, please find below an example starting template for a privacy policy that you should customize to meet your site’s needs. These terms…
 category: Discourse Community Legacy Post
 slug: discourse-migrate/terms-of-service
 repo: chargingthefuture/chargingthefuture
@@ -19,13 +19,13 @@ Title: Terms of Service
 Slug: terms-of-service
 Created: 2025-09-21
 Updated: 2025-09-21
-Excerpt: Change Me Forum Admin, please find below an example starting template for a privacy policy that you should customise to meet your site’s needs. These terms do not, but might one day, govern use of the Internet forum at h&hellip;
+Excerpt: Change Me Forum Admin, please find below an example starting template for a privacy policy that you should customize to meet your site’s needs. These terms do not, but might one day, govern use of the Internet forum at h&hellip;
 -->
 
-> Change Me Forum Admin, please find below an example starting template for a privacy policy that you should customise to meet your site’s needs. These terms do not, but might one day, govern use of the Internet forum at h&hellip;
+> Change Me Forum Admin, please find below an example starting template for a privacy policy that you should customize to meet your site’s needs. These terms do not, but might one day, govern use of the Internet forum at h&hellip;
 
 <h2 id="heading--change-me"><a href="#heading--change-me">Change Me</a></h2>
-<p>Forum Admin, please find below an example starting template for a privacy policy that you should customise to meet your site’s needs.</p>
+<p>Forum Admin, please find below an example starting template for a privacy policy that you should customize to meet your site’s needs.</p>
 <p>These terms do not, but might one day, govern use of the Internet forum at <a href="https://chargingthefuture.discourse.group">https://chargingthefuture.discourse.group</a>. In that event, to use the forum, you must agree to these terms with Charging the Future, the company that runs the forum.</p>
 <p>The company may offer other products and services, under different terms. These terms apply only to use of the forum.</p>
 <p>Skip to:</p>

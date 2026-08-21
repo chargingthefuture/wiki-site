@@ -103,7 +103,7 @@ A partner matching platform featuring monthly partnership cycles, real-time mess
 
 ### LightHouse
 **Safe Housing & Accommodations**
-Dual-role system connecting housing seekers with hosts. Provides safe accommodations and support resources, guiding survivors towards healing and empowerment.
+Dual-role system connecting housing seekers with hosts. Provides safe accommodations and support resources, guiding survivors toward healing and empowerment.
 
 ### TrustTransport
 **Safe Transportation Services**
@@ -123,7 +123,7 @@ Find talented individuals to collaborate with. Build your professional profile a
 
 ### Workforce Recruiter
 **Job research**
-Review the collective skillset of the TI Skills Economy and find or expand your career amongst TIs
+Review the collective skillset of the TI Skills Economy and find or expand your career among TIs
 
 ### LostMail
 **Mail Incident Reporting**

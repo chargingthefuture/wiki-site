@@ -23,7 +23,7 @@ In the next few days, the above apps will be removed. Leaving the following apps
 * SocketRelay: Craigslist for TIs
 * SupportMatch: Pair with psyop-free people for friendship or collaboration
 * TrustTransport: Uber for TIs
-* Workforce Recruiter: Find work amongst the 5 million TIs globally
+* Workforce Recruiter: Find work among the 5 million TIs globally
 
 If there is no uptake in Chyme, that might be the next app to be deleted.
 

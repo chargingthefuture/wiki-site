@@ -28,7 +28,7 @@ Excerpt: We are so glad you joined us. This is an invite-only TI community. And 
 <p>Find me on Quora and Signal to get a DM of the invite link. Or use the following page and click the link there: <a href="https://sleek.bio/farah" class="inline-onebox">Farah | SleekBio</a> .</p>
 <blockquote>
 <h2>Charging The Future</h2>
-<p>knowledge sharing amongst TIs for our collective prosperity</p>
+<p>knowledge sharing among TIs for our collective prosperity</p>
 </blockquote>
 <p>Here are some things you can do to get started:</p>
 <p><img src="images/welcome-to-charging-the-future-speaking-head.png" title=":speaking_head:" class="emoji" alt=":speaking_head:" loading="lazy" width="20" height="20"> <strong>Introduce yourself</strong> by adding information about yourself and your interests to <a href="/my/preferences/account">your profile</a>. What is one thing you’d like to be asked about?</p>
