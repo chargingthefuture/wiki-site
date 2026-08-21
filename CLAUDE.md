@@ -76,6 +76,11 @@ without complaint — nothing else in the pipeline knows the difference. The wor
 verbatim from `ctf/scripts/lib/us-spelling.mjs` in the product repository, whose own gate skips
 wiki-site precisely because this is a separate repository; if that list changes, copy it across.
 
+One rule deliberately differs. `grey` carries `wholeWord: true` here, because without it the rule
+matches the carrier name Greyhound, and a company's name is not ours to respell. `grey` on its own
+is still caught. The product repository's copy has the same latent problem and has simply never
+written the word.
+
 `content/archive/` is checked too. A British spelling in an archived post is a typo, and typos get
 fixed here — the copy-edit passes over the archive have been doing exactly that.
 
@@ -122,6 +127,23 @@ Rules that go with the table:
 - Never frame low or zero figures with an underselling litany ("nothing has closed yet — not one job, not one ride"). A lot of work and activity happens that those figures do not capture. State a figure factually, the way the app's own screens do, and move on.
 - Never state or imply the owner reported their situation to any body. They have never reported to anyone; that fact is itself the under-reporting argument.
 - Progress posts follow a fixed shape with these definitions (first instance: the-manifesto-seven-months-later.md) so any two are comparable.
+
+## Never Turn Harm Into a Resource (owner directive, 2026-08-20)
+
+Do not write that someone's harm became useful. Not "one person's worst week became vocabulary the
+rest of us can use", not "their experience becomes everyone's evidence", not any sentence whose
+shape is: a person was hurt, and look what the rest of us got out of it.
+
+It reads as generous and it is not. It makes the harm the raw material and the community the
+beneficiary, which is the transaction the Specterati run — value extracted from a person's
+degradation. A survivor reading it recognizes the move whoever wrote it intended.
+
+The facts underneath are usually fine and can stay. Six schemes were named after that trip; the
+trends show a pattern one person cannot see. Say those plainly and stop. The sentence that arrives
+afterward to explain what was gained is the one to delete.
+
+Phrases like "worst week", "turned into evidence", "becomes data", and "silver lining" are the
+tell. So is any closing line that reaches for a redemptive note the facts did not ask for.
 
 ## This Is Not a Sign-Up Product (owner directive, 2026-08-20)
 
