@@ -3,7 +3,7 @@ title: "The Record Says I Called. I Was on the Bus."
 date: "2026-08-20"
 excerpt: "One cross-country bus trip ran at least six named schemes in sequence — and one of them rewrote my ticket while I was sitting on the bus it was for."
 category: "Community"
-teaser: "A three-leg bus trip from Salt Lake City to New York, booked for about two and a half days and $473.30, took until the fourth day and never reached the terminal I paid for. Along the way it ran six schemes that now have names: a driver's stalled rest stop that cost the connection, a search of my luggage on the grounds that TSA locks indicate drug trafficking, loud talk about drugs after that search found nothing, a woman who would not leave and then reported an assault that never happened, a confirming witness, and a rewritten itinerary the carrier's own record says I phoned in. I did not. That is why ClickLog lets one incident carry ten scheme tags."
+teaser: "A three-leg bus trip from Salt Lake City to New York, booked for about two and a half days, took until the fourth day and never reached the terminal I paid for. Along the way it ran six schemes that now have names: a driver's stalled rest stop that cost the connection, a search of my luggage on the grounds that TSA locks indicate drug trafficking, loud talk about drugs after that search found nothing, a woman who would not leave and then reported an assault that never happened, a confirming witness, and a rewritten itinerary the carrier's own record says I phoned in. I did not. That is why ClickLog lets one incident carry ten scheme tags."
 topics:
   - clicklog
   - specterati
@@ -17,13 +17,15 @@ The carrier's record says I called and requested it. I did not. The email addres
 
 ## The whole trip, in order
 
-Booked: Salt Lake City to Denver to St. Louis to New York Port Authority. About two and a half days door to door. $473.30.
+Booked: Salt Lake City to Denver to St. Louis to New York Port Authority. About two and a half days door to door.
 
 August 11, leg one. The driver took a long rest stop, longer than the stop needed to be. The Denver connection was thirty minutes; I missed it. The next bus was five hours later. I called, the ticket was rebooked across the same three legs at later times, and the arrival moved to 16:00 on August 13.
 
 Denver. Two people who would go on to cause the trouble in St. Louis were already on this leg with me. There is video of them harassing me at Denver, before any of the rest of it happened.
 
-St. Louis, stepping off the bus. Two officers in utility-style clothing that did not look like a uniform stopped me and said the locks on my luggage were a sign of drug trafficking. They were TSA-approved locks, the ordinary kind you use when you travel by bus instead of flying. I declined the dog sniff and declined the search, and instead opened my own bags and unpacked them myself, in public, in front of everyone. Nothing was found, because there was nothing to find.
+St. Louis, stepping off the bus. Two officers in utility-style clothing that did not look like a uniform stopped me and said the locks on my luggage were a sign of drug trafficking. I declined the dog sniff and declined the search, and instead opened my own bags and unpacked them myself, in public, in front of everyone. Nothing was found, because there was nothing to find.
+
+Since the locks were the pretext, they are worth explaining. I carry two kinds and neither choice is casual. I gave up combination locks after they changed the codes on mine and left me locked out of my own bags. The TSA-approved ones are there to keep something from coming loose in transit, not to secure anything — those keys have leaked, so career criminals have them, and career criminals are what the Specterati are. The commercial locks with keys are the ones that actually hold. So the thing offered as evidence of trafficking is, in fact, a record of having been targeted before.
 
 St. Louis, boarding. People began talking at a volume meant to carry: she is delaying the bus because she is carrying drugs. This was after the search that found nothing, in front of the same crowd that watched it find nothing.
 
