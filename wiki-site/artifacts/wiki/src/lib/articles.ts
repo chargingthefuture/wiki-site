@@ -3243,7 +3243,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "What are the worst states for gang stalking?",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-07",
-    "excerpt": "Ancedontally, California appears to be #1. Aside from that, every state has it. They will follow you to any town in any state and make it your “worst”…",
+    "excerpt": "Anecdotally, California appears to be #1. Aside from that, every state has it. They will follow you to any town in any state and make it your “worst”…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/what-are-the-worst-states-for-gang-stalking.md",
