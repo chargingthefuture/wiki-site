@@ -1,6 +1,6 @@
 ---
 title: "Dictionary: Skills Economy Terms"
-date: "2026-08-20"
+date: "2026-08-21"
 excerpt: "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record."
 category: "Resources"
 slug: Dictionary
@@ -14,6 +14,8 @@ topics:
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
 ## Latest changes
+
+2026-08-21 — Two lines added to the Specterati lexicon: "secret society" (the brag, and why the label is wrong by definition) and "collective amusement" (the engine behind the day-grading harassment).
 
 2026-08-20 — Every capability in the table now links straight to it in the app, with its guide section beside it. Unlock added to the table — it was missing, and it is the door every member comes through. Every capability now has a guide section, so every row links to one. Mutual Time and Bug Reporting have no page of their own to open, so those two carry their guide section alone.
 
@@ -54,6 +56,10 @@ Specterati — the replacement for the colloquial labels "gang stalking" and "ga
 Specterati operator — a person who carries out Specterati harassment. Used instead of "perp" in writing.
 
 Specterati harassment — the organized harassment itself. Used instead of "gang stalking" in writing.
+
+"Secret society" — the Specterati's own brag, and wrong by definition. A secret society keeps its membership and purpose hidden; the Specterati advertise themselves to their targets constantly — the signaling is the harassment. What they actually are is a control mechanism run by traffickers (sex, drugs, and human trafficking), with the harassment as its enforcement arm. The brag is recruitment theater, not a description.
+
+Collective amusement — the engine behind much of the harassment, named plainly: schemes are run, and targets' days are scheduled and graded (see The Good Day, Bad Day in the schemes list), for the entertainment of the group watching. The audience is the point; the target's harm is the raw material.
 
 Specterwave — a pervasive influence that spreads fear and control.
 
