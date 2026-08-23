@@ -28,18 +28,108 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
-    "slug": "a-safe-place-to-shower",
-    "title": "A safe place to shower",
+    "slug": "pizza-is-not-my-favorite-food",
+    "title": "Pizza Is Not My Favorite Food",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-08-21",
-    "excerpt": "They mobbed me out of work and out of housing and drove my businesses to zero equity, so I wash in a day facility whose showers cannot be locked from the inside. Yesterday an employee keyed me in, and the moment I was undressed a door was opened and a man standing there saw all of it and laughed. ClickLog gained two things this week for naming that: a problem tag covering sexual violence through to deliberate exposure, and a scheme called The Staged Exposure. I think it is what they reach for when decades of honeypots have not worked and no sexual assault has been achieved. The answer is not a better lock — it is a room with a door that is yours, and a ride there that does not run through them.",
+    "excerpt": "They decided that it is. They decided it because destitution left me one hot meal I could afford, and they mistook a budget for a preference. That is not mind reading. It is arithmetic.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/pizza-is-not-my-favorite-food.md",
+    "teaser": "A Targeted Individual wrote in the Skills Economy space that other Targeted Individuals say the perps can read their minds and see through their eyes. The person who wrote it does not believe the claim. Neither do I, and I want to say what is actually going on instead. People are predictable, which is not a flaw — it is how we stay alive and sane. They watch, they compare notes across the people they traffic, and they guess well. Then they tell you it was telepathy. Pizza is the example I have: they concluded it was my favorite food, when it was the only hot meal I could afford without a stove.",
+    "topics": [
+      "specterati",
+      "clicklog"
+    ]
+  },
+  {
+    "slug": "estonia-did-not-get-to-solve-it-either",
+    "title": "Estonia Did Not Get to Solve It Either",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-21",
+    "excerpt": "A country of 1.3 million sits beside a much larger one that treats it as a target. That did not stop and is not going to. They live anyway, and they built in the one direction that mattered.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/estonia-did-not-get-to-solve-it-either.md",
+    "teaser": "The question nobody in this community answers honestly is what you do if it never stops. Estonia is the answer I keep coming back to: a small country next to a much larger one that has treated it as a target for as long as it has existed, with no prospect of that ending. That did not become the whole of what the country is. It built in the direction of needing the neighbor for less and less, and people got on with their lives — work, hobbies, children. This happening to you is part of life. It is not a sentence, and it is not who you are.",
+    "topics": [
+      "specterati",
+      "economics"
+    ]
+  },
+  {
+    "slug": "why-they-want-you-living-with-family",
+    "title": "Why They Want You Living With Family",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-21",
+    "excerpt": "Destitution is not the goal. It is the step that leaves one door open, and the door leads back to relatives who can be bought. This is the arrangement I argue against hardest, and why.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/why-they-want-you-living-with-family.md",
+    "teaser": "The Forced Homecoming, now on the schemes list, has been run at me for more than a decade. They make you destitute so the only place left to go is back to family — at any age, and the age is part of it. Then the relatives get bought: perks, work, company. It makes the scheduled harassment easy, because you have supplied both things it needs. And it is the cheapest way to get you labeled unstable, because a person isolated with their abusers, with no income and no unpaid witness, has no route to being believed.",
+    "topics": [
+      "specterati",
+      "housing"
+    ]
+  },
+  {
+    "slug": "they-are-not-a-secret-society",
+    "title": "They Are Not a Secret Society",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-21",
+    "excerpt": "A secret society hides its membership and purpose. These people announce themselves to their targets all day long. Two new Dictionary entries, and I want survivors to tell me whether they are right.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/they-are-not-a-secret-society.md",
+    "teaser": "Two lines went into the Dictionary today. The first is that \"secret society\" is their own brag and is wrong by definition — a secret society hides who belongs to it, and these people advertise themselves to their targets constantly, because the signaling is the harassment. The second is collective amusement: the reason the days are scheduled and graded is that a group is watching, and the audience is the point. Both definitions are open for argument, and I would rather be corrected by survivors than be confidently wrong in public.",
+    "topics": [
+      "dictionary",
+      "specterati"
+    ]
+  },
+  {
+    "slug": "a-safe-place-to-shower",
+    "title": "A Safe Place to Shower",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-21",
+    "excerpt": "They have run honeypots at me for decades and I have never engaged with one. So they went to the next best option: an employee with a key, and a shower door that does not lock.",
     "category": "Community",
     "collection": "posts",
     "path": "posts/a-safe-place-to-shower.md",
-    "teaser": "Yesterday an employee keyed me in, and the moment I was undressed a door was opened and a man standing there saw all of it and laughed. ClickLog gained two things this week",
+    "teaser": "I was mobbed out of work and out of housing, and my businesses were driven to zero equity, so I shower in a day facility used by violent criminals and people using drugs, where the showers cannot be locked from the inside. Yesterday an employee keyed me in, and the moment I had undressed a door was opened and I was exposed to a man standing there, who laughed. ClickLog gained two things this week to name that: a problem tag for sexual violence, and a scheme called The Staged Exposure. I think it is what they reach for when the honeypots do not work, and I think honeypotting belongs in the same category — though I do not know what a lawyer or a clinician would call it.",
     "topics": [
       "clicklog",
-      "specterati"
+      "safety"
+    ]
+  },
+  {
+    "slug": "old-links-new-links",
+    "title": "Old links, new links",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-21",
+    "excerpt": "Five Quora accounts erased, one space renamed. What is current, what is dead, and the one address that does not change.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/old-links-new-links.md",
+    "teaser": "Quora has erased my accounts five times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. This page is the standing record: the current space, the current handle, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
+    "topics": [
+      "publishing",
+      "platform-independence"
+    ]
+  },
+  {
+    "slug": "Dictionary",
+    "title": "Dictionary: Skills Economy Terms",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-08-21",
+    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
+    "category": "Resources",
+    "collection": "posts",
+    "path": "posts/Dictionary.md",
+    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
+    "topics": [
+      "reference",
+      "terms"
     ]
   },
   {
@@ -88,21 +178,6 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
-    "slug": "Dictionary",
-    "title": "Dictionary: Skills Economy Terms",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-08-20",
-    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
-    "category": "Resources",
-    "collection": "posts",
-    "path": "posts/Dictionary.md",
-    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
-    "topics": [
-      "reference",
-      "terms"
-    ]
-  },
-  {
     "slug": "quora-deletion-survey",
     "title": "If Quora Closed Your Account, There Is Now Somewhere to Say So",
     "repo": "chargingthefuture/wiki-site",
@@ -145,21 +220,6 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "directory",
       "deplatforming"
-    ]
-  },
-  {
-    "slug": "old-links-new-links",
-    "title": "Old links, new links",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-19",
-    "excerpt": "Three Quora accounts erased, one space renamed. What is current, what is dead, and the one address that does not change.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/old-links-new-links.md",
-    "teaser": "Quora has erased my accounts four times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. This page is the standing record: the current space, the current handle, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
-    "topics": [
-      "publishing",
-      "platform-independence"
     ]
   },
   {
