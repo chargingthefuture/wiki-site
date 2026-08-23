@@ -15,9 +15,9 @@ repo: chargingthefuture/chargingthefuture
 
 **Workforce is now a read-only live tracker.** It shows population-scale demand and gaps across the survivor economy in real time. You can see where help is needed without admin edit access.
 
-**Mobile Foundation Direct Line.** Android now has the same one-to-one chat paired with a Foundation quote request that iOS had. You can chat directly with a member handling your quote.
+**Mobile Foundation Direct Line.** Android now has the same one-to-one chat paired with a Foundation quote request that the web had. You can chat directly with a member handling your quote.
 
-**Mobile member blocking.** Android members can now block other members, bringing Android to parity with iOS.
+**Mobile member blocking.** Android members can now block other members, bringing Android to parity with the web.
 
 **ServiceCredits wallet history on mobile.** Check your wallet history and see how your ServiceCredits moved over time.
 
