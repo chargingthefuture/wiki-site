@@ -18,7 +18,7 @@ If interested in clicking through the prototype of the redesign, here it is:
 I will also be doing a series of videos. A video for each of the 17 core features. Linked below is the overview video. Each video, including the one below, uses the [demo link above](https://survivor-thriver-marketplace.replit.app).
 
 Post on Quora
-https://tiskillsnetwork.quora.com/If-interested-in-clicking-through-the-prototype-of-the-redesign-here-it-is-https-survivor-thriver-marketplace-replit
+https://skillseconomy.quora.com/If-interested-in-clicking-through-the-prototype-of-the-redesign-here-it-is-https-survivor-thriver-marketplace-replit
 
 # Overview Demo
 
@@ -27,7 +27,7 @@ The app redesign has made progress. Here is a video that provides an overview of
 [Demo Video](https://chargingthefuture.wistia.com/medias/kfaxgl0b8r)
 
 Post on Quora
-https://tiskillsnetwork.quora.com/The-app-redesign-has-made-progress-Here-is-a-video-that-provides-an-overview-of-the-17-features-https-chargingthefu
+https://skillseconomy.quora.com/The-app-redesign-has-made-progress-Here-is-a-video-that-provides-an-overview-of-the-17-features-https-chargingthefu
 
 # Individual Videos of Each Feature
 

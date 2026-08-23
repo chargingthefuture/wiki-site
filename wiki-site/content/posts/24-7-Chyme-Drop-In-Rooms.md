@@ -10,7 +10,7 @@ teaser: "I opened a Chyme audio room for every sector of the Skills Economy — 
 
 I have opened the rooms below in Chyme, and they will stay open 24/7. Download the Chyme Android app: https://app.chargingthefuture.com/apps/chyme. Once logged in, you can search for room titles or scroll until you see the room you want to join.
 
-What is Chyme?: https://github.com/chargingthefuture/mono/wiki/Chyme:-TI-social-audio-app
+What is Chyme? https://github.com/chargingthefuture/mono/wiki/Chyme:-TI-social-audio-app
 
 > If you prefer for me (Farah) to be in attendance when you are, use this scheduler to pick a mutual time: https://app.chargingthefuture.com/apps/workforce-recruiter/meetup-events.
 
@@ -18,7 +18,7 @@ Rooms are based on all the sectors of the TI Skills Economy. In the screenshot b
 
 Note, population size is 5 million TIs to serve, understanding that only 50%, 2.5 million, are working. It is unrealistic to think that the TI Skills Economy will capture all 2.5 million TIs willing to work with other TIs. But these benchmarks help us measure our success as well as fill in any workforce gaps.
 
-The purpose of these meetings on job sectors is to strategize and provide input on how to organize to deliver goods and services among each other. Note that the goal is to have each TI reach the level of autonomy from the Specerati they want. I (Farah) am not a leader of TIs. I am providing the software to facilitate your freedom. Hence, why you may use Chyme to hang out or to discuss the TI Skills Economy.
+The purpose of these meetings on job sectors is to strategize and provide input on how to organize to deliver goods and services among each other. Note that the goal is to have each TI reach the level of autonomy from the Specterati they want. I (Farah) am not a leader of TIs. I am providing the software to facilitate your freedom. Hence, you may use Chyme to hang out or to discuss the TI Skills Economy.
 
 # 24/7 Chyme Rooms
 
@@ -91,4 +91,4 @@ https://app.chargingthefuture.com/apps/chyme/room/39f5a6a1-474b-4069-8105-4a2c9a
 
 ---
 Post on Quora
-https://tiskillsnetwork.quora.com/I-have-opened-the-rooms-below-in-Chyme-and-they-will-stay-open-24-7-Download-the-Chyme-Android-app-worlds-first-psyo
+https://skillseconomy.quora.com/I-have-opened-the-rooms-below-in-Chyme-and-they-will-stay-open-24-7-Download-the-Chyme-Android-app-worlds-first-psyo
