@@ -1,15 +1,15 @@
 ---
 title: "Old links, new links"
-date: "2026-08-21"
-excerpt: "Five Quora accounts erased, one space renamed. What is current, what is dead, and the one address that does not change."
+date: "2026-08-23"
+excerpt: "Seven Quora accounts erased, one space renamed. What is current, what is dead, and the one address that does not change."
 category: "Community"
-teaser: "Quora has erased my accounts five times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. This page is the standing record: the current space, the current handle, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
+teaser: "Quora has erased my accounts seven times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. This page is the standing record: the current space, the current handle, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
 topics:
   - publishing
   - platform-independence
 ---
 
-Quora has erased my accounts five times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
+Quora has erased my accounts seven times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
 
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
@@ -27,7 +27,9 @@ To reach me, save this link alongside the blog: https://sleek.bio/farah — it l
 
 The space: https://skillseconomy.quora.com
 
-My handle: https://www.quora.com/profile/KingsRoad
+My handles: https://www.quora.com/profile/Ctf-25 and https://www.quora.com/profile/Kingmingling
+
+Two at once, for the first time. Both were opened on August 23, 2026, after the two before them were banned a day apart.
 
 That is the complete list. If an account or space claims to be me, or to speak for the Skills Economy, and it is not on this page — it is not me. Check back here, not on Quora, because this page cannot be edited by anyone but me and every change to it is on the public record.
 
@@ -45,11 +47,17 @@ https://www.quora.com/profile/KingMinds — banned by Quora Moderation on August
 
 https://www.quora.com/profile/KingAndYou — my fifth handle. Removed on August 21, 2026.
 
+https://www.quora.com/profile/KingsRoad — my sixth handle. Banned by Quora Moderation on August 22, 2026, the day after it was opened. The stated reason: the account was linked to multiple violations of Quora's spam policies.
+
+https://www.quora.com/profile/KingsYou — my seventh handle. Banned on August 23, 2026, also a day after it was opened, with the same wording.
+
 ## Different every time, same label
 
 Worth recording, because it is the part that settles the question.
 
 Each of these accounts ran a different content strategy. That was deliberate. One posted at volume. One posted twice in its entire life — two short summaries with a link back here, no reposting, no back catalog. Others sat between. Exactly one of them ever received a warning, and I changed how I posted after it.
+
+The last two did not last long enough to have a strategy at all. KingsRoad was opened and banned the next day. KingsYou was opened and banned the next day. Whatever is deciding this is not reading the posts, because in those two cases there was almost nothing to read.
 
 They ended the same way regardless, and the reason given is the same boilerplate every time: financial gain and spam. Neither is true.
 
@@ -77,4 +85,4 @@ The old GitHub wiki — an inactive mirror. It no longer receives updates; this 
 
 Nothing is written on a platform first anymore. Every post starts here, and platforms only ever get a short version and a link back. So the next time an account is erased — and I assume there will be a next time — the cost is one entry moving from the current list to the dead list on this page. That is all.
 
-Since this page first went up, that has happened three times. The list above is current.
+Since this page first went up, that has happened five times. The list above is current.
