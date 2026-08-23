@@ -13,7 +13,7 @@ repo: chargingthefuture/chargingthefuture
 
 ## What Shipped
 
-We merged seven fixes and improvements to Charging the Future this week.
+We merged six fixes and improvements to Charging the Future this week.
 
 **On mobile, the Chyme refresh button now sits on the Join Room row.** This puts the refresh button where it's easier to reach on smaller screens.
 
