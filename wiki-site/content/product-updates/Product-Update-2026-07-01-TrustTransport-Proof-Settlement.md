@@ -25,7 +25,7 @@ Additional fixes included consistent admin back buttons across devices, navigabl
 
 ## Why It Matters
 
-The documentation explains that proof capture gives users control over documentation of events. Automatic settlement removes friction from credit transfers, and the earnings surface provides transparency about compensation and payout options.
+Proof capture gives users control over documentation of events. Automatic settlement removes friction from credit transfers, and the earnings surface provides transparency about compensation and payout options.
 
 ## Code Location
 
