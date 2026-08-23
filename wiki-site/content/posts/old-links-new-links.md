@@ -43,11 +43,11 @@ https://www.quora.com/profile/farah-brunache — my second handle. Its space was
 
 https://www.quora.com/profile/KingStyle-3 — my third handle. Deleted by Quora on August 17, 2026, the same day this page first went up. That account posted exactly two things in its life: short summaries of two blog posts, each with one link back here. No reposting, no volume, no back catalog. Two posts was enough.
 
-https://www.quora.com/profile/KingMinds — banned by Quora Moderation on August 19, 2026.
+https://www.quora.com/profile/KingMinds — my fourth handle. Banned by Quora Moderation on August 19, 2026. The stated reason: the account was linked to multiple violations of Quora's spam policies.
 
-https://www.quora.com/profile/KingAndYou — my fifth handle. Removed on August 21, 2026.
+https://www.quora.com/profile/KingAndYou — my fifth handle. Banned by Quora Moderation on August 21, 2026, with the same wording.
 
-https://www.quora.com/profile/KingsRoad — my sixth handle. Banned by Quora Moderation on August 22, 2026, the day after it was opened. The stated reason: the account was linked to multiple violations of Quora's spam policies.
+https://www.quora.com/profile/KingsRoad — my sixth handle. Banned by Quora Moderation on August 22, 2026, the day after it was opened, with the same wording.
 
 https://www.quora.com/profile/KingsYou — my seventh handle. Banned on August 23, 2026, also a day after it was opened, with the same wording.
 
@@ -60,6 +60,8 @@ Each of these accounts ran a different content strategy. That was deliberate. On
 The last two did not last long enough to have a strategy at all. KingsRoad was opened and banned the next day. KingsYou was opened and banned the next day. Whatever is deciding this is not reading the posts, because in those two cases there was almost nothing to read.
 
 They ended the same way regardless, and the reason given is the same boilerplate every time: financial gain and spam. Neither is true.
+
+I have the notices for the last four bans — August 19, August 21, August 22, August 23. The sentence naming the reason is word for word identical in all four: the account was linked to multiple violations of Quora's spam policies. Four different accounts, four different amounts of posting, one sentence.
 
 Financial gain first, because there is exactly one thing sitting behind that claim. One account posted that the app cost a dollar a month. That account was deleted.
 
