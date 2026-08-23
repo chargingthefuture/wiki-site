@@ -11,7 +11,7 @@ repo: chargingthefuture/chargingthefuture
 
 ## What Shipped
 
-**Trust plugin landing page is live.** You can now access Trust directly from the platform and start your verification journey. The plugin helps you build a network of people you trust—LightHouse matches paired with one-to-one Direct Line chat.
+**Trust plugin landing page is live.** You can now access Trust directly from the platform. The plugin shows what a member has actually done across the platform — a non-numeric list of real participation, with no badge, no score, and no verification.
 
 **Fixed Trust data accuracy.** The public Trust shell and signals now match the real trust model. This means what you see on screen matches how Trust actually works underneath.
 
