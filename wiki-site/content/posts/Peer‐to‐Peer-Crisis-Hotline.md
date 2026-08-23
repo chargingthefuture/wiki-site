@@ -26,4 +26,4 @@ More information on Chyme:
 https://github.com/chargingthefuture/mono/wiki/24-7-Chyme-Drop-In-Rooms
 
 This post on Quora:
-https://tiskillsnetwork.quora.com/Once-my-stalking-got-bad-I-called-a-crisis-hotline-for-the-first-time-The-operators-answer-in-short-was-Join-the
+https://skillseconomy.quora.com/Once-my-stalking-got-bad-I-called-a-crisis-hotline-for-the-first-time-The-operators-answer-in-short-was-Join-the
