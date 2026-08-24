@@ -19,7 +19,7 @@ This time is different, because the list has somewhere to live.
 
 Each attack type below becomes a label in ClickLog — a new label category, alongside the existing problems and schemes. When you log an incident, you will be able to tag it with the kind of DEW attack it was. Tagged incidents feed the global trend map, so the same attack type showing up across cities stops being one person's story and becomes a documented pattern.
 
-The [ClickLog guide](https://app.chargingthefuture.com/guide#click-log) explains how logging works. The short version of the privacy rules: your notes are always private; a private, untagged incident needs no location; tagging requires a location and trend sharing, because tags exist to feed the map.
+The [ClickLog guide](https://app.chargingthefuture.com/guide#click-log) explains how logging works. The short version of the privacy rules: your notes are not shown to anyone else here and are not in the trend report; a private, untagged incident needs no location; tagging requires a location and trend sharing, because tags exist to feed the map.
 
 ## The working list
 

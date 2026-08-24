@@ -53,7 +53,9 @@ The whole report also saves as a single tall picture, one button, made to be pos
 
 ## What is never shared
 
-The note is never shared. Not with this project, not with anyone — it is left out of every report query rather than filtered out afterward.
+Your notes are not shown to anyone else here, and they are not in the trend report. They are left out of every report query rather than filtered out afterward.
+
+Correction, 2026-08-24: this originally said notes are never seen by anyone, including this project. That was wrong; the accurate line is above.
 
 The exact location is never shared; only the area of about 11 km. Who logged what is never shared: a report can say how many different people are behind a set of incidents, never which people. Sharing is off unless you turn it on, with a setting and a per-incident choice. Tagging requires sharing, because a tag exists to feed the totals — the app says so before you save. Deleting an incident removes it from every future report.
 
