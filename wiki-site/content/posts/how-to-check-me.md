@@ -13,17 +13,17 @@ Somebody replied to my last post saying they would pass the information on once 
 
 That is the correct instinct and I want to make it easy. Here is how to check me, in order of how little you have to trust me for each one to work.
 
-## The blog is a git repository, and it is public
+## The blog keeps its own history, and anyone can read it
 
-Every post on this blog is a text file in a repository anyone can read: https://github.com/chargingthefuture/wiki-site
+Every post here is a plain text file, stored somewhere public: https://github.com/chargingthefuture/wiki-site
 
-That means each post has a history rather than just a date on it. You can see the commit that created it, the commit that changed a word in it three days later, and exactly which words those were. Nothing can be edited quietly, because editing leaves a diff, and the diff is public the moment it lands.
+The useful part is that every change to a post is recorded and dated. Not just when it was published — also the day a word in it changed three days later, and which word. Nothing can be altered quietly, because an edit records itself, and that record goes public the moment the edit does.
 
-Two kinds of page live there and they age differently, which is worth knowing before you go looking.
+Posts come in two kinds and they age differently.
 
-Snapshot posts — arguments, announcements, the progress posts — are frozen once published. Their numbers and wording are never updated, because the whole point of a dated claim is that it proves what was said and when. If you find one whose figures look out of date, that is the design, not neglect.
+Most are fixed once published: arguments, announcements, the progress reports. Their numbers and wording are never touched afterward, because the point of a dated claim is that it shows what was said and when. A post whose figures look out of date is doing exactly what it should.
 
-Living pages are the opposite: kept current on purpose, edited in place, with the date bumped so the change reaches the top of the feed. There are two of them, the Dictionary and the page tracking dead and current links. For those, the git history is the changelog. If you want to know what the Dictionary said last month, the repository will tell you.
+Two pages are the opposite, kept current on purpose and edited in place — the Dictionary, and the page tracking which of my links are dead. For those, the recorded history is the list of what changed. If you want to know what the Dictionary said last month, it is there.
 
 ## The app is a public repository too
 
@@ -37,7 +37,7 @@ The same goes for what gets shared and what does not. When I write that a ClickL
 
 Every time this blog publishes, an automated job submits the changed pages to the Internet Archive at web.archive.org.
 
-Three things go up: the site's front page, the rendered article page, and the raw text file of the post exactly as it sits in the repository. So there is a third-party copy, timestamped by an organization with no relationship to me, of both what a page looked like and what its source said.
+Three things go up: the site's front page, the rendered article page, and the raw text file of the post exactly as it sits in the repository. So a copy exists that I did not make and cannot alter, dated by an organization with no relationship to me, showing both what the page looked like and what its text said.
 
 To use it: go to web.archive.org, paste the address of any post, and look at the calendar of captures. If the page today says something different from the capture, both versions are sitting there for you to compare.
 
@@ -73,7 +73,7 @@ So the honest version of what verification gets you here is narrower than proof 
 
 Four steps, if you want the method rather than the reasoning:
 
-1. Open https://github.com/chargingthefuture/wiki-site and find the post under `wiki-site/content/`. Read its commit history for when it was written and what changed since.
+1. Open https://github.com/chargingthefuture/wiki-site and find the post in the `content` folder. Its recorded history shows when it was written and everything that changed since.
 2. For any claim about the app, read the code at https://github.com/chargingthefuture/chargingthefuture.
 3. Paste the post's address into web.archive.org and compare a capture against what is live now.
 4. For anything originally posted to Quora, check the archive entry against the original question, or against a Wayback capture of the address, and treat what neither covers as unverified.
