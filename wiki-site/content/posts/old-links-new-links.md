@@ -39,7 +39,7 @@ https://tiskillsnetwork.quora.com — the original space. Replaced by skillsecon
 
 https://www.quora.com/profile/pedigree101 — my first handle. Erased by Quora with everything it ever posted.
 
-https://www.quora.com/profile/farah-brunache — my second handle. Its space was emptied by Quora on August 16, 2026 — every post deleted, the account and space left standing and bare.
+https://www.quora.com/profile/farah-brunache — my second handle. Banned by Quora on August 16, 2026. A Quora ban deletes everything the account ever posted, which is why the handle and its space are still standing and bare.
 
 https://www.quora.com/profile/KingStyle-3 — my third handle. Deleted by Quora on August 17, 2026, the same day this page first went up. That account posted exactly two things in its life: short summaries of two blog posts, each with one link back here. No reposting, no volume, no back catalog. Two posts was enough.
 
