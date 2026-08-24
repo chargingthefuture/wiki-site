@@ -28,6 +28,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "what-works-knowledge-that-survives-a-ban",
+    "title": "Knowledge That Survives a Ban",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-24",
+    "excerpt": "Somebody spent hundreds of dollars and years of trial and error learning what shielding actually does, and wrote it down on a platform that deletes accounts. That is the problem WhatWorks exists for.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/what-works-knowledge-that-survives-a-ban.md",
+    "teaser": "Gn0b0dy Pneuma posted a detailed account of what they learned buying shielding fabric and building faraday cages — grounding, skin contact, frequency ranges, and the several hundred dollars of silver body suit that did not work. It is the most useful thing anyone can offer another survivor: specific, first-hand, and including the failures. It is also sitting on a platform that has erased seven of my accounts, and when a post goes the comments underneath it go too, so it is not only my writing that gets destroyed. WhatWorks is one shared list organized by the problem you are facing, and Commons is where the discussion belongs, so an answer does not have to be written again by the next person.",
+    "topics": [
+      "what-works",
+      "platform-independence"
+    ]
+  },
+  {
     "slug": "clicklog-the-record-has-started",
     "title": "The Record Has Started",
     "repo": "chargingthefuture/wiki-site",

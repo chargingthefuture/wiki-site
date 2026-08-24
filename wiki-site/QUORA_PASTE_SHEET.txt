@@ -26,8 +26,15 @@ corrected where it had drifted; 70 were rewritten. Entries added after that date
 are written from the post at the time it is published. So the file is no longer
 unverified — but it is still a staging file, and the post remains the record.
 
-334 of 334 written.
+335 of 335 written.
 
+
+==============================================================================
+No. 335 · 2026-08-24 · Knowledge That Survives a Ban
+
+Gn0b0dy Pneuma wrote out what they learned buying shielding fabric and building faraday cages — that a cheap grounding wire helped, that whether your skin should touch the material depends on the frequency, that a cage with a gap in it works differently at different frequencies, and that several hundred dollars of silver body suit did not work and did not last. That is years of somebody's money and attention, handed to strangers. I asked for links to the exact items, because shielding fabric is a category with an enormous quality range and a description does not show the difference. And because of where it is sitting: when a Quora post of mine is deleted, the comments underneath it go with it — not only my words, everyone's. So the reply somebody spent twenty minutes on dies for a reason that had nothing to do with them. WhatWorks is one shared list organized by the problem rather than the person, and survivor-verified there means something narrower than it sounds: one named person bought it and says it helped, not that it works. The most valuable line in that whole post is the one about the suit that failed.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-works-knowledge-that-survives-a-ban
 
 ==============================================================================
 No. 334 · 2026-08-24 · The Record Has Started
