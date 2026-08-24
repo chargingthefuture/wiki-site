@@ -33,8 +33,6 @@ So a claim I make about what the app does is checkable against the thing that do
 
 The same goes for what gets shared and what does not. When I write that a ClickLog note never leaves the person who wrote it, the query that builds the shared report is readable, and you can see for yourself that the note is not in it.
 
-Not everything is public. The repository holding the Quora archive work is private, and so is the backups repository. I would rather say that plainly than let you find it and wonder what else I left out.
-
 ## The Wayback Machine has copies I did not make
 
 Every time this blog publishes, an automated job submits the changed pages to the Internet Archive at web.archive.org.
