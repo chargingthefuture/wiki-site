@@ -26,8 +26,15 @@ corrected where it had drifted; 70 were rewritten. Entries added after that date
 are written from the post at the time it is published. So the file is no longer
 unverified — but it is still a staging file, and the post remains the record.
 
-336 of 336 written.
+337 of 337 written.
 
+
+==============================================================================
+No. 337 · 2026-08-24 · How to Check Me
+
+Somebody said they would pass my writing on once they had done their fact check. That is the right instinct, so here is how to do it, ordered by how little you have to trust me for each method to work. Every post on the blog is a plain text file stored publicly, and every change to one is recorded and dated — not only when it was published, but the day a word in it changed three days later and which word. Nothing can be altered quietly, because an edit records itself. The app is a public repository too, so a claim about what it does can be read against the code that does it. Every time the blog publishes, the changed pages go to the Internet Archive, so copies exist that I did not make and cannot alter. And the feed numbers every post by publication order, so a removal would leave a hole and a backdated post would land out of sequence. What none of that gets you is proof that anything I describe happened. A timestamp shows when something was written, not that it is true. Public code shows what the app does, not whether any account of organized harassment is accurate. Quora cannot help you check me at all, because it deletes the accounts.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-to-check-me
 
 ==============================================================================
 No. 336 · 2026-08-23 · It Answers From One Person's Writing
