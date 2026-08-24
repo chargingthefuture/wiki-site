@@ -11,9 +11,11 @@ name: Wayback backfill
 # sorted list of everything under content/ — which is how a whole-blog backfill
 # is walked, one offset at a time.
 #
-# This run takes bigger, slower batches than a publish does: 40 files, 30 seconds
-# apart, front page skipped, and one 90-second retry when archive.org turns a
-# request away. A publish keeps the smaller, faster defaults.
+# This run takes bigger, slower batches than a publish does: 40 files, 45 seconds
+# apart, front page skipped, and up to two 60-second retries when archive.org
+# turns a request away. Measured: it allows roughly one save a minute, and being
+# turned away shows up as a dropped connection far more often than as an explicit
+# 429. A publish keeps the smaller, faster defaults.
 
 on:
   workflow_dispatch:
@@ -56,7 +58,9 @@ jobs:
           INPUT_PATHS: ${{ inputs.paths }}
           OFFSET: ${{ inputs.offset }}
           WAYBACK_MAX_FILES: "40"
-          WAYBACK_SPACING_MS: "30000"
+          WAYBACK_SPACING_MS: "45000"
+          WAYBACK_RETRY_WAIT_MS: "60000"
+          WAYBACK_MAX_RETRIES: "2"
           WAYBACK_SKIP_HOME: "1"
         run: |
           if [ -n "$INPUT_PATHS" ]; then
