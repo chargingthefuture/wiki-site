@@ -2,10 +2,14 @@
 /**
  * Submits published content to the Wayback Machine (web.archive.org/save).
  *
- * For each changed content file, two URLs are submitted:
- *   1. The raw markdown on GitHub — a full-text, third-party-timestamped copy.
- *   2. The article page on the blog.
- * The blog home page is always submitted as well.
+ * For each changed content file, one URL is submitted: the raw markdown on
+ * GitHub, which is a full-text, third-party-timestamped copy.
+ *
+ * The rendered article page is deliberately not submitted. The blog assembles a
+ * post in the browser rather than keeping one as a file on the server, so
+ * archive.org's crawler asks for something that is not there and every attempt
+ * comes back HTTP 523. Submitting it wasted half of every run's requests against
+ * a rate limit that is the binding constraint on how fast a backfill can go.
  *
  * Best-effort by design: failures are logged and never exit non-zero, so a
  * deploy can never be blocked by archive.org rate limits.
@@ -20,59 +24,45 @@
  *   (paths relative to the repo root, e.g. wiki-site/content/posts/foo.md)
  */
 
-import { readFileSync } from 'node:fs';
-import { fileURLToPath } from 'node:url';
-import { dirname, resolve } from 'node:path';
-import { parseFrontMatter } from './frontmatter.js';
-
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const REPO_ROOT = resolve(__dirname, '../../..');
 const SITE_BASE = 'https://chargingthefuture.github.io/chargingthefuture';
 const RAW_BASE = 'https://raw.githubusercontent.com/chargingthefuture/wiki-site/main';
-const MAX_FILES = 5; // archive.org starts refusing after roughly five saves in a couple of minutes
-const SPACING_MS = 20_000; // measured: 4s was fast enough to trigger HTTP 429 partway through a batch
+// Both are overridable so a manual backfill can take bigger, slower batches than
+// a publish needs. A publish changes one file and never touches either.
+const MAX_FILES = Number(process.env.WAYBACK_MAX_FILES ?? 5);
+const SPACING_MS = Number(process.env.WAYBACK_SPACING_MS ?? 20_000);
+const RETRY_WAIT_MS = 90_000; // one retry after a 429, then give up on that URL
+// The front page is worth a snapshot on every publish. During a long backfill it
+// is not — it would spend one of a scarce number of requests on the same URL in
+// every run — so the backfill workflow turns it off.
+const SKIP_HOME = process.env.WAYBACK_SKIP_HOME === '1';
 
-const COLLECTIONS = [
-  'posts',
-  'product-updates',
-  'guides',
-  'insights',
-  'member-of-the-day',
-  'archive/discourse',
-  'archive/quora',
-];
-
-function articleUrlFor(repoRelPath: string): string | null {
-  // repoRelPath: wiki-site/content/<collection>/<inner>.md
-  const contentRel = repoRelPath.replace(/^wiki-site\/content\//, '');
-  const collection = COLLECTIONS.find((c) => contentRel.startsWith(`${c}/`));
-  if (!collection) return null;
-
-  let slug = contentRel.slice(collection.length + 1).replace(/\.md$/i, '');
-  let repo = 'chargingthefuture/wiki-site';
-  try {
-    const raw = readFileSync(resolve(REPO_ROOT, repoRelPath), 'utf8');
-    const { meta } = parseFrontMatter(raw);
-    if (meta?.slug) slug = meta.slug;
-    if (meta?.repo) repo = meta.repo;
-  } catch {
-    return null; // deleted or unreadable — nothing to snapshot
-  }
-  const shortRepo = repo.split('/')[1] || repo;
-  return `${SITE_BASE}/article/${shortRepo}/${encodeURIComponent(slug)}`;
-}
-
-async function save(url: string): Promise<void> {
+async function attempt(url: string): Promise<number | null> {
   try {
     const res = await fetch(`https://web.archive.org/save/${url}`, {
       method: 'GET',
       redirect: 'follow',
       signal: AbortSignal.timeout(60_000),
     });
-    console.log(`  ${res.ok ? '✓' : `⚠ (HTTP ${res.status})`} ${url}`);
+    return res.status;
   } catch (e) {
     console.log(`  ⚠ ${url} — ${(e as Error).message}`);
+    return null;
   }
+}
+
+async function save(url: string): Promise<boolean> {
+  let status = await attempt(url);
+  if (status === 429) {
+    // Being turned away is the common failure on a long run, and it is temporary.
+    // Wait it out once rather than losing the file for the whole batch.
+    console.log(`  … rate limited, waiting ${RETRY_WAIT_MS / 1000}s before one retry`);
+    await new Promise((r) => setTimeout(r, RETRY_WAIT_MS));
+    status = await attempt(url);
+  }
+  if (status === null) return false;
+  const ok = status >= 200 && status < 300;
+  console.log(`  ${ok ? '✓' : `⚠ (HTTP ${status})`} ${url}`);
+  return ok;
 }
 
 async function main() {
@@ -86,16 +76,18 @@ async function main() {
     console.log(`Snapshotting first ${batch.length} of ${changed.length} changed files (rate-limit cap).`);
   }
 
-  console.log('Submitting to the Wayback Machine:');
-  await save(`${SITE_BASE}/`);
-  for (const file of batch) {
-    const rawUrl = `${RAW_BASE}/${file.split('/').map(encodeURIComponent).join('/')}`;
-    await save(rawUrl);
-    const articleUrl = articleUrlFor(file);
-    if (articleUrl) await save(articleUrl);
-    await new Promise((r) => setTimeout(r, SPACING_MS));
+  console.log(`Submitting ${batch.length} file(s) to the Wayback Machine:`);
+  let saved = 0;
+  if (!SKIP_HOME) {
+    await save(`${SITE_BASE}/`);
+    if (batch.length) await new Promise((r) => setTimeout(r, SPACING_MS));
   }
-  console.log('Done (best-effort).');
+  for (const [i, file] of batch.entries()) {
+    const rawUrl = `${RAW_BASE}/${file.split('/').map(encodeURIComponent).join('/')}`;
+    if (await save(rawUrl)) saved += 1;
+    if (i < batch.length - 1) await new Promise((r) => setTimeout(r, SPACING_MS));
+  }
+  console.log(`Done (best-effort): ${saved} of ${batch.length} saved.`);
 }
 
 main();
