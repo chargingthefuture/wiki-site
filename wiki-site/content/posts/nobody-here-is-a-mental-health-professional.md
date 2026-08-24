@@ -1,9 +1,9 @@
 ---
 title: "Nobody Here Is a Mental Health Professional"
 date: "2026-08-23"
-excerpt: "What the Knowledge Library is an alternative to, what it will never be, and why that distinction is stated out loud rather than left for someone to work out."
+excerpt: "What the Knowledge Library is an alternative to, what it will never be, and why I say the difference out loud instead of leaving someone to work it out."
 category: "Community"
-teaser: "Somebody asked a fair question about the Knowledge Library, and the answer needs saying in a place that does not disappear. What exists for a survivor who needs help right now is a hotline that tells you to get over it and other avenues that call you delusional. An assistant that answers at any hour from the writing of people who have lived this is an alternative to that. It is not a clinician, it does not claim to be one, and neither do I."
+teaser: "Somebody asked a fair question about the Knowledge Library, and the answer needs saying somewhere that does not disappear. I called a national hotline and got told, in substance, join the club — it is common, change your routine. Then an officer mocked that call back to me in person at the station where I had gone to complain. An assistant that answers at any hour from the writing of people who have lived this is an alternative to that. It is not a clinician, it does not claim to be one, and neither do I."
 topics:
   - knowledge-library
   - safety
@@ -21,13 +21,21 @@ Check it. That is exactly the correct response to somebody telling you there is 
 
 ## What a person actually meets when they need help
 
-Here is what exists for a survivor who reaches out right now.
+I called a national hotline. What came back was, in substance, join the club — this happens to a lot of people, and you should change your daily routine so they cannot follow you.
 
-They call a national hotline and are told, in substance, to get over it. That is not a hypothetical. It is what I encountered.
+Both halves of that are worth pulling apart, because together they are worse than either alone.
 
-Or they go to one of the other avenues, describe what has been happening to them, and are told they are delusional. Their account is treated as the symptom. Everything they say after that is heard through that frame, including the parts that are plainly checkable.
+The first half concedes the whole thing. It is common. Whoever said it was not disputing that organized harassment happens; they were telling me I was one of many. And having conceded it, they offered nothing. That is not a training gap. That is flippancy, and a person calling a hotline can tell the difference immediately.
 
-I want to be careful about the word for that, because a person on the other end of a phone at three in the morning is usually not lying to anybody on purpose. They have been trained on a description of the world that does not include organized harassment, so they do the thing the training says to do. The effect on the caller is the same either way: they arrived with something real and left having been told it is not.
+The second half is advice that does not work, and my own writing is the evidence for that rather than my opinion. Change your routine. I travel, and it travels with me. What varies when I move is which day gets staged, not whether it happens. A routine is not what makes somebody findable, so changing it does not make them unfindable — it just puts the work of fixing this back onto the person it is being done to.
+
+Then there is the part that matters more than either half.
+
+I had gone to a police station to make a complaint. People were walking into me on purpose, in view of cameras, trying to get me to hit back so the footage would show a violent Black woman. While I was there, an officer mocked that hotline call back to me, in person. One of them.
+
+So the call did not stay where I made it. The number a frightened person is told to ring reached the people doing this, and came back at me as a joke, from someone with a badge.
+
+Other avenues do the reverse and end up in the same place: describe what has been happening and be told you are delusional. Your account becomes the symptom, and everything you say after that is heard through that frame, including the parts anybody could go and check.
 
 ## What the assistant is instead
 
@@ -43,7 +51,7 @@ Neither I nor the assistant is a mental health professional. Neither of us claim
 
 I am saying that plainly and near the top rather than in small print at the bottom, because a tool that talks to frightened people and is vague about what it is has already done something wrong.
 
-What it is an alternative to is narrower than "professional help." It is an alternative to commercial assistants that will not name organized harassment, and to professionals who deny human trafficking outright. That denial is not harmless. A person who is told their account is a delusion, by the service they were sent to for help, comes away with fewer options than they arrived with. I believe that path ends in suicides and in mass shootings, and that is why I am building an alternative to it rather than a replacement for care.
+What it is an alternative to is narrower than "professional help." It is an alternative to commercial assistants that will not name organized harassment, and to professionals who deny human trafficking outright. That denial is not harmless. A person who is told their account is a delusion, by the service they were sent to for help, comes away with fewer options than they arrived with. Someone whose call comes back to them as a joke from a police officer comes away with fewer still. I believe that path ends in suicides and in mass shootings, and that is why I am building an alternative to it rather than a replacement for care.
 
 Both of those things are true at once: the existing avenue can fail a person badly, and this is not a clinician. Anyone who tells you they have built something that solves both problems at once is selling you something.
 

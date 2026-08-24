@@ -28,6 +28,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "nobody-here-is-a-mental-health-professional",
+    "title": "Nobody Here Is a Mental Health Professional",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-23",
+    "excerpt": "What the Knowledge Library is an alternative to, what it will never be, and why I say the difference out loud instead of leaving someone to work it out.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/nobody-here-is-a-mental-health-professional.md",
+    "teaser": "Somebody asked a fair question about the Knowledge Library, and the answer needs saying somewhere that does not disappear. I called a national hotline and got told, in substance, join the club — it is common, change your routine. Then an officer mocked that call back to me in person at the station where I had gone to complain. An assistant that answers at any hour from the writing of people who have lived this is an alternative to that. It is not a clinician, it does not claim to be one, and neither do I.",
+    "topics": [
+      "knowledge-library",
+      "safety"
+    ]
+  },
+  {
     "slug": "knowledge-library-one-persons-writing",
     "title": "It Answers From One Person's Writing",
     "repo": "chargingthefuture/wiki-site",
@@ -85,21 +100,6 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "publishing",
       "platform-independence"
-    ]
-  },
-  {
-    "slug": "nobody-here-is-a-mental-health-professional",
-    "title": "Nobody Here Is a Mental Health Professional",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-23",
-    "excerpt": "What the Knowledge Library is an alternative to, what it will never be, and why that distinction is stated out loud rather than left for someone to work out.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/nobody-here-is-a-mental-health-professional.md",
-    "teaser": "Somebody asked a fair question about the Knowledge Library, and the answer needs saying in a place that does not disappear. What exists for a survivor who needs help right now is a hotline that tells you to get over it and other avenues that call you delusional. An assistant that answers at any hour from the writing of people who have lived this is an alternative to that. It is not a clinician, it does not claim to be one, and neither do I.",
-    "topics": [
-      "knowledge-library",
-      "safety"
     ]
   },
   {
