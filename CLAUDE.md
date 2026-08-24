@@ -125,7 +125,7 @@ Rules that go with the table:
 
 - Never conflate signed-up and recruited. The gap between them is not people who declined — this community is in trauma, and engagement does not always look like signing up for another app.
 - Never frame low or zero figures with an underselling litany ("nothing has closed yet — not one job, not one ride"). A lot of work and activity happens that those figures do not capture. State a figure factually, the way the app's own screens do, and move on.
-- Never state or imply the owner reported their situation to any body. They have never reported to anyone; that fact is itself the under-reporting argument.
+- Never state or imply the owner has reported organized harassment to the United Nations. They have not, and that absence is itself the under-reporting argument. The rule is that specific (owner clarification, 2026-08-23): it is about a report to the UN on organized harassment as a whole, not about every contact with authority. The owner has called the police on individual incidents and has gone to a station over one, and writing about that is fine and sometimes the point — what happened when they got there is often the story. Do not stretch this rule into a ban on describing those.
 - Progress posts follow a fixed shape with these definitions (first instance: the-manifesto-seven-months-later.md) so any two are comparable.
 
 ## Never Turn Harm Into a Resource (owner directive, 2026-08-20)
