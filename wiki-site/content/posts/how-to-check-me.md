@@ -37,13 +37,21 @@ The same goes for what gets shared. When I write that the ClickLog trend report 
 
 ## The Wayback Machine has copies I did not make
 
-Every time this blog publishes, an automated job submits the changed pages to the Internet Archive at web.archive.org.
+Every time this blog publishes, an automated job submits pages to the Internet Archive at web.archive.org.
 
-Three things go up: the site's front page, the rendered article page, and the raw text file of the post exactly as it sits in the repository. So a copy exists that I did not make and cannot alter, dated by an organization with no relationship to me, showing both what the page looked like and what its text said.
+Two things archive: the site's front page, and the raw text file of the post exactly as it sits in the repository. So a copy of the words exists that I did not make and cannot alter, dated by an organization with no relationship to me.
 
-To use it: go to web.archive.org, paste the address of any post, and look at the calendar of captures. If the page today says something different from the capture, both versions are sitting there for you to compare.
+The rendered page does not archive. This blog assembles each post in your browser rather than keeping one as a separate file on the server, so the Internet Archive's crawler asks for something the server does not have. The submission goes out every time and is refused every time. The raw text is the better record anyway — it is what the post says, rather than a picture of it.
+
+To use it, paste the post's raw address into web.archive.org. That address is the repository path with raw.githubusercontent.com in front:
+
+https://raw.githubusercontent.com/chargingthefuture/wiki-site/main/wiki-site/content/posts/how-to-check-me.md
+
+Swap the last part for whichever post you want. Then compare the capture against what the file says today.
 
 One honest caveat. That job is best-effort — it is allowed to fail without failing the deploy, because the Internet Archive rate-limits and sometimes refuses a save. So a missing snapshot means the submission did not go through, not that a page was hidden. The captures that exist are real; their absence proves nothing either way.
+
+Correction, 2026-08-24: this section originally said the rendered article page archives alongside the raw text, and told you to paste the post's own address. Both were wrong. The rendered page has never archived successfully, and the raw address above is the one that works.
 
 ## The feed is numbered, and gaps would show
 
@@ -83,7 +91,7 @@ Four steps, if you want the method rather than the reasoning:
 
 1. Open https://github.com/chargingthefuture/wiki-site and find the post in the `content` folder. Its recorded history shows when it was written and everything that changed since.
 2. For any claim about the app, read the code at https://github.com/chargingthefuture/chargingthefuture.
-3. Paste the post's address into web.archive.org and compare a capture against what is live now.
+3. Paste the post's raw address into web.archive.org — the form shown above — and compare a capture against what the file says now.
 4. For anything originally posted to Quora, check the archive entry against the original question, or against a Wayback capture of the address, and treat what neither covers as unverified.
 
 ## Where to find it in the app
