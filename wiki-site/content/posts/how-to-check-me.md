@@ -31,7 +31,7 @@ The application itself is here: https://github.com/chargingthefuture/chargingthe
 
 So a claim I make about what the app does is checkable against the thing that does it. When I write that the Knowledge Library keeps contributions in a searched table rather than training a model on them, that is not a promise you have to accept — the code that reads that table is in that repository, and so is the code that removes a row when somebody withdraws.
 
-The same goes for what gets shared and what does not. When I write that a ClickLog note never leaves the person who wrote it, the query that builds the shared report is readable, and you can see for yourself that the note is not in it.
+The same goes for what gets shared. When I write that the ClickLog trend report carries only a date, a rough area and the tags, the code that builds that report is readable, and you can check for yourself what it does and does not put in.
 
 ## The Wayback Machine has copies I did not make
 
