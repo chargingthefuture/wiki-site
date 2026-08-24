@@ -3,7 +3,7 @@ title: "ClickLog: your record, and the record"
 date: "2026-08-18"
 excerpt: "One log, two uses: your private incident record, and the first real-time, self-reported global map of trafficker activity."
 category: "Community"
-teaser: "ClickLog does two jobs with one entry. Privately, it is your incident record: dated, located if you choose, notes nobody but you ever sees — the record that lets you spot patterns and route around them. Shared, it becomes something that has never existed: real-time, self-reported global trend data on the movement of traffickers and their activities. The UN's own torture report said these allegations warrant investigation, and an investigation needs data. Three privacy rules cover all of it, and you control every one."
+teaser: "ClickLog does two jobs with one entry. Privately, it is your incident record: dated, located if you choose, notes that are not shown to anyone else here — the record that lets you spot patterns and route around them. Shared, it becomes something that has never existed: real-time, self-reported global trend data on the movement of traffickers and their activities. The UN's own torture report said these allegations warrant investigation, and an investigation needs data. Three privacy rules cover all of it, and you control every one."
 topics:
   - clicklog
   - features
@@ -13,7 +13,7 @@ ClickLog does two jobs with one entry. You log an incident once; what it becomes
 
 ## Job one: your record
 
-Privately, ClickLog is your incident log. Each entry is dated, located if you choose, with notes nobody but you ever sees.
+Privately, ClickLog is your incident log. Each entry is dated, located if you choose, with notes that are not shown to anyone else here.
 
 Why keep one? Pattern matching. A single incident is noise even to yourself; thirty dated entries are a pattern you can read. Where it happens, when it happens, which schemes repeat. A person who can see the pattern can route around it — different times, different places, fewer of the Specterati in your day.
 
@@ -37,7 +37,9 @@ And further out: I believe visible patterns can help reduce suicides and mass sh
 
 Privacy is the whole design, and three rules cover it.
 
-One: your notes are always private. Nobody but you ever sees them. Not shared, not ever.
+One: your notes are not shown to anyone else here, and they are not in the trend report.
+
+Correction, 2026-08-24: this originally said notes are never seen by anyone, including this project. That was wrong; the accurate line is above.
 
 Two: a private incident does not need a location. Add one only if you want it in your own record.
 

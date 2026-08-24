@@ -1,6 +1,6 @@
 ---
 title: "Dictionary: Skills Economy Terms"
-date: "2026-08-21"
+date: "2026-08-24"
 excerpt: "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record."
 category: "Resources"
 slug: Dictionary
@@ -14,6 +14,8 @@ topics:
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
 ## Latest changes
+
+2026-08-24 — The ClickLog privacy line is corrected. It said notes are always private, which overstated it: notes are not shown to anyone else here and are not in the trend report. The same wording was corrected in four posts the same day.
 
 2026-08-21 — Two lines added to the Specterati lexicon: "secret society" (the brag, and why the label is wrong by definition) and "collective amusement" (the engine behind the day-grading harassment).
 
@@ -85,7 +87,7 @@ Schemes — the named, canonical list of Specterati methods, used to tag inciden
 
 Weavers of the Commons — the badge whose holders can suggest a new scheme while logging an incident, and who get a private Commons chat and a private Chyme audio room.
 
-The three ClickLog privacy rules — notes are always private; a private, untagged incident needs no location; tagging problems or schemes requires a location and trend sharing, because tags exist to feed the global map.
+The three ClickLog privacy rules — notes are not shown to anyone else here and are not in the trend report; a private, untagged incident needs no location; tagging problems or schemes requires a location and trend sharing, because tags exist to feed the global map.
 
 ## Other terms
 

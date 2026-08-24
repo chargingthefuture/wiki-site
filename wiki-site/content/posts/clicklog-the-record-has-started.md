@@ -71,7 +71,10 @@ A number that prints what it cannot carry is worth more than one that does not.
 
 Worth repeating whenever a figure gets published, because a published figure is the moment a reader wonders what else went with it.
 
-The note on an incident is never shared and never visible to anyone, including this project. The exact location is never shared — only the area of about 11 km, which is why the report counts areas rather than naming streets. Who logged what is never shared: the view can say two people are behind those entries, never which two. Every figure in it comes from a grouped query that cannot return any of those things.
+Your notes are not shown to anyone else here, and they are not in the trend report. The exact location is not in it either — only the area of about 11 km, which is why the report counts areas rather than naming streets. Who logged what is not in it: the view can say two people are behind those entries, never which two. Every figure comes from a grouped query that cannot return any of those things.
+
+Correction, 2026-08-24: this originally said notes are never seen by anyone, including this project. That was wrong; the accurate line is above.
+
 
 Even the country is not asked. It is worked out inside the app from the approximate area against a table of borders held locally, so nothing about a member is sent anywhere to produce it. That table is a coarse edition, which the report also says: it is enough to tell one town reporting from several countries reporting, and not enough for anything finer.
 
