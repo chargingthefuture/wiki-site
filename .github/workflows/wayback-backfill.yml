@@ -1,0 +1,48 @@
+name: Wayback backfill
+
+# Manual re-submission of specific content files to the Wayback Machine.
+#
+# The scheduled snapshot in deploy-wiki-gh-pages.yml only covers files changed
+# by the push that triggered it. This is for filling gaps — pages that were
+# never submitted, or submissions archive.org refused at the time.
+#
+# The script caps each run at 15 files and spaces its requests, so pass at most
+# 15 paths and run it again for more.
+
+on:
+  workflow_dispatch:
+    inputs:
+      paths:
+        description: "Space-separated content paths, e.g. wiki-site/content/posts/how-to-check-me.md"
+        required: true
+        type: string
+
+jobs:
+  backfill:
+    name: Submit the given pages to the Wayback Machine
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          package_json_file: wiki-site/package.json
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "pnpm"
+          cache-dependency-path: wiki-site/pnpm-lock.yaml
+
+      - name: Install dependencies
+        working-directory: wiki-site
+        run: pnpm install --frozen-lockfile
+
+      - name: Submit to web.archive.org
+        working-directory: wiki-site
+        env:
+          PATHS: ${{ inputs.paths }}
+        run: |
+          # shellcheck disable=SC2086
+          pnpm --filter @workspace/scripts exec tsx ./src/wayback-snapshot.ts $PATHS
