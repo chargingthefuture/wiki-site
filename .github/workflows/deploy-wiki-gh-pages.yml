@@ -117,9 +117,13 @@ jobs:
     continue-on-error: true
 
     steps:
+      # Full history. This job diffs against the pre-push commit, and a shallow
+      # clone cannot do that: the diff failed, `|| true` swallowed it, and the
+      # file list came back empty — so for every run only the front page was
+      # submitted and no article page or raw file ever was.
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
 
       - uses: pnpm/action-setup@v4
         with:
@@ -142,6 +146,12 @@ jobs:
             CHANGED=$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- 'wiki-site/content/**/*.md' || true)
           else
             CHANGED=$(git diff --name-only HEAD^ HEAD -- 'wiki-site/content/**/*.md' || true)
+          fi
+          if [ -z "$CHANGED" ]; then
+            echo "No changed content files in this push — only the front page will be submitted."
+          else
+            echo "Changed content files:"
+            echo "$CHANGED"
           fi
           # shellcheck disable=SC2086
           pnpm --filter @workspace/scripts exec tsx ./src/wayback-snapshot.ts $CHANGED
