@@ -37,7 +37,7 @@ That is the complete list. If an account or space claims to be me, or to speak f
 
 https://tiskillsnetwork.quora.com — the original space. Replaced by skillseconomy.quora.com above. Links into it are dead.
 
-https://www.quora.com/profile/pedigree101 — my first handle. Erased by Quora with everything it ever posted.
+https://www.quora.com/profile/pedigree101 — my first handle. Banned by Quora on September 14, 2025, seventeen minutes after I posted the app's first release. A ban deletes everything the account ever posted, so all of it went with it.
 
 https://www.quora.com/profile/farah-brunache — my second handle. Banned by Quora on August 16, 2026. A Quora ban deletes everything the account ever posted, which is why the handle and its space are still standing and bare.
 
