@@ -21,7 +21,7 @@ This wiki contains exported content from Discourse.
 - [Backup completed successfully](backup-completed-successfully) - 2025-12-18
 - [Social audio for TIs, talk live with TIs around the world](social-audio-for-tis-talk-live-with-tis-around-the-world) - 2025-12-16
 - [Good things are happening, hang in there](good-things-are-happening-hang-in-there) - 2025-12-16
-- [TV shows depicting the Speceterati](tv-shows-depicting-the-speceterati) - 2025-12-13
+- [TV shows depicting the Specterati](tv-shows-depicting-the-speceterati) - 2025-12-13
 - [Verified Directory Profiles](verified-directory-profiles) - 2025-12-12
 - [The numbers do not lie. The TI Skills Economy can sustain itself!](the-numbers-do-not-lie-the-ti-skills-economy-can-sustain-itself) - 2025-12-12
 - [Welcome Cheryl, Community builder](welcome-cheryl-community-builder) - 2025-12-12
@@ -61,7 +61,7 @@ This wiki contains exported content from Discourse.
 - [One solution to clothes theft](one-solution-to-clothes-theft) - 2025-11-14
 - [Exciting Announcement: Mutual Aid and Community Trust!](exciting-announcement-mutual-aid-and-community-trust) - 2025-11-07
 - [Specterati in the medical field](specterati-in-the-medical-field) - 2025-11-06
-- [Perfection does not equate to excellance](perfection-does-not-equate-to-excellance) - 2025-11-06
+- [Perfection does not equate to excellence](perfection-does-not-equate-to-excellance) - 2025-11-06
 - [They never go away](they-never-go-away) - 2025-11-02
 - [Backup completed successfully](backup-completed-successfully) - 2025-10-31
 - [How to create your own luck](how-to-create-your-own-luck) - 2025-10-31
@@ -175,7 +175,7 @@ This wiki contains exported content from Discourse.
 - [The TI economy!](the-ti-economy) - 2025-09-24
 - [Any TI HVAC techs?](any-ti-hvac-techs) - 2025-09-23
 - [Do not obsess about what rumor they spread](do-not-obsess-about-what-rumor-they-spread) - 2025-09-23
-- [Farah’s Mirco Blog September 22 2025](farah-s-mirco-blog-september-22-2025) - 2025-09-22
+- [Farah’s Micro Blog September 22 2025](farah-s-mirco-blog-september-22-2025) - 2025-09-22
 - [Always have your camera ready](always-have-your-camera-ready) - 2025-09-22
 - [Farah’s Micro Blog September 21 2025](farah-s-micro-blog-september-21-2025) - 2025-09-22
 - [Has anyone had a real attempt at their life by gang stalkers?](has-anyone-had-a-real-attempt-at-their-life-by-gang-stalkers) - 2025-09-21

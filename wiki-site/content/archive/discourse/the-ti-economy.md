@@ -26,7 +26,7 @@ Excerpt: I have created a circular economy designed for TIs, where we establish 
 
 <p>I have created a circular economy designed for TIs, where we establish a trusted network of TI local and global goods and service providers. This initiative ensures that TIs can access reliable services without inadvertently supporting gang stalkers. While fostering economic independence and resilience for TIs. This approach not only prioritizes safety and trust but also promotes a sustainable ecosystem that uplifts and supports those who have faced exploitation, ultimately transforming lives and strengthening our community.</p>
 <p>This circular economy is supported via several invite only psyop-free products.</p>
-<p>Use <a href="http://chargingthefurture.com">chargingthefurture.com</a> as the main website to find all current links. Or this very post.</p>
+<p>Use <a href="https://chargingthefuture.com">chargingthefuture.com</a> as the main website to find all current links. Or this very post.</p>
 <p><strong>TI “Craigslist”</strong></p>
 <p>Live now: use <a href="https://chargingthefuture.discourse.group">https://chargingthefuture.discourse.group</a> with the category tag of “Craigslist” to exchange goods and services with other TIs.</p>
 <p>You are not required to sign up with your real identity. And you can create more than one account. One account your real identity, another account for “Craigslist,” for example.</p>
@@ -53,7 +53,7 @@ Live now use: <a href="https://chargingthefuture.discourse.group">https://chargi
 <p><strong>Art &amp; Tangible Products</strong></p>
 <p>Host your art and goods without fear of shadow banning or gang stalker review sabotage because you are a TI. Join waitlist here: <a href="https://signal.group/#CjQKIOG7abgj9Qmdo70A0im74pnXBY7tLvE8jF7PXMWKEje_EhAOoEqacH7jbnBdO3DcaeIc" class="inline-onebox">Signal Group</a> . Once there are 25 people interested, the app will go live.</p>
 <p><strong>Games</strong></p>
-<p>These will be mobile app games that are pysop-free with no ads.</p>
+<p>These will be mobile app games that are psyop-free with no ads.</p>
 
 ---
 
