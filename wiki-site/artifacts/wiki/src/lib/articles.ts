@@ -28,10 +28,25 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "knowledge-library-one-persons-writing",
+    "title": "It Answers From One Person's Writing",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-23",
+    "excerpt": "Every answer the Knowledge Library gives is drawn from one person's Quora posts — mine. You can lend yours, and take them back whenever you want.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/knowledge-library-one-persons-writing.md",
+    "teaser": "The Knowledge Library answers questions for Targeted Individuals using writing by people who have lived it. Right now that writing is all mine — more than 1,500 Quora posts, one person's experience, one person's blind spots. Yours is different, and the next member asking for help deserves both. Lending is not giving: your words go into a table the assistant searches, not into a trained model, which is exactly what makes taking them back something that can actually be done rather than something that gets promised.",
+    "topics": [
+      "knowledge-library",
+      "contributing"
+    ]
+  },
+  {
     "slug": "what-works-knowledge-that-survives-a-ban",
     "title": "Knowledge That Survives a Ban",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-24",
+    "date": "2026-08-23",
     "excerpt": "Somebody spent hundreds of dollars and years of trial and error learning what shielding actually does, and wrote it down on a platform that deletes accounts. That is the problem WhatWorks exists for.",
     "category": "Community",
     "collection": "posts",
@@ -46,7 +61,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "clicklog-the-record-has-started",
     "title": "The Record Has Started",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-24",
+    "date": "2026-08-23",
     "excerpt": "ClickLog's shared trend view stopped being a description of what it would do. There are entries in it now, from two people in two countries, and one section of it shows something a private log cannot.",
     "category": "Community",
     "collection": "posts",
@@ -55,21 +70,6 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "clicklog",
       "trends"
-    ]
-  },
-  {
-    "slug": "knowledge-library-one-persons-writing",
-    "title": "It Answers From One Person's Writing",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-24",
-    "excerpt": "Every answer the Knowledge Library gives is drawn from one person's Quora posts — mine. You can lend yours, and take them back whenever you want.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/knowledge-library-one-persons-writing.md",
-    "teaser": "The Knowledge Library answers questions for Targeted Individuals using writing by people who have lived it. Right now that writing is all mine — more than 1,500 Quora posts, one person's experience, one person's blind spots. Yours is different, and the next member asking for help deserves both. Lending is not giving: your words go into a table the assistant searches, not into a trained model, which is exactly what makes taking them back something that can actually be done rather than something that gets promised.",
-    "topics": [
-      "knowledge-library",
-      "contributing"
     ]
   },
   {

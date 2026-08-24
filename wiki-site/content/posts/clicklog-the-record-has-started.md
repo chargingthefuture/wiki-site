@@ -1,6 +1,6 @@
 ---
 title: "The Record Has Started"
-date: "2026-08-24"
+date: "2026-08-23"
 excerpt: "ClickLog's shared trend view stopped being a description of what it would do. There are entries in it now, from two people in two countries, and one section of it shows something a private log cannot."
 category: "Community"
 teaser: "Six days ago I wrote that a shared ClickLog entry feeds something that has never existed: trend data on organized harassment, logged by the people it happens to rather than assembled by outsiders afterward. That was a description of a thing that had not happened yet. The shared view now reads twenty incidents, two members reporting, five days with activity, two countries. The section worth looking at is not any single count — it is the one that shows which problems and which named schemes get reported on the same incident."

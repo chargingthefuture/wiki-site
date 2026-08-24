@@ -30,21 +30,21 @@ unverified — but it is still a staging file, and the post remains the record.
 
 
 ==============================================================================
-No. 336 · 2026-08-24 · It Answers From One Person's Writing
+No. 336 · 2026-08-23 · It Answers From One Person's Writing
 
 The Knowledge Library is a private assistant inside the app: you ask it a question and it answers from the writing of people who have lived this. Right now all of that writing is mine — more than 1,500 Quora posts feed every answer it gives. That is the honest description of it and it is also what is wrong with it. One person has one set of circumstances and one set of blind spots, and an assistant built on one person's writing inherits every one of them without knowing it has. Gn0b0dy Pneuma's post on shielding fabric and faraday cages holds more practical knowledge on that subject than everything I have written about it put together, and somebody asking about shielding deserves that answer rather than mine. So: lend yours. Lend is meant literally. You keep every right to it, you can go on using it anywhere, and you can withdraw it whenever you want. That last promise is the one to be skeptical about, so here is why it holds — your words are not used to train a model. Training blends writing into something nobody can unpick afterward. These posts sit in a table the assistant searches and quotes from, so withdrawing means the row comes out and there is nothing left to find. Six consent lines have to be ticked first, including one most places would not bother with: where your posts name or describe other people, those parts get cut or the post skipped, because those people did not agree to any of this.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/knowledge-library-one-persons-writing
 
 ==============================================================================
-No. 335 · 2026-08-24 · Knowledge That Survives a Ban
+No. 335 · 2026-08-23 · Knowledge That Survives a Ban
 
 Gn0b0dy Pneuma wrote out what they learned buying shielding fabric and building faraday cages — that a cheap grounding wire helped, that whether your skin should touch the material depends on the frequency, that a cage with a gap in it works differently at different frequencies, and that several hundred dollars of silver body suit did not work and did not last. That is years of somebody's money and attention, handed to strangers. I asked for links to the exact items, because shielding fabric is a category with an enormous quality range and a description does not show the difference. And because of where it is sitting: when a Quora post of mine is deleted, the comments underneath it go with it — not only my words, everyone's. So the reply somebody spent twenty minutes on dies for a reason that had nothing to do with them. WhatWorks is one shared list organized by the problem rather than the person, and survivor-verified there means something narrower than it sounds: one named person bought it and says it helped, not that it works. The most valuable line in that whole post is the one about the suit that failed.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-works-knowledge-that-survives-a-ban
 
 ==============================================================================
-No. 334 · 2026-08-24 · The Record Has Started
+No. 334 · 2026-08-23 · The Record Has Started
 
 Six days ago I described what a shared ClickLog entry would feed: trend data on organized harassment logged by the people it happens to, rather than assembled by outsiders afterward. It had nothing in it. It does now — twenty incidents, eighteen tagged, two members, five days with activity, two countries. The part worth looking at is not any single count. It is the list pairing what a member said happened with the scheme they filed it under. Being blocked, cut in line or held up turns up attached to six different schemes, once each. A private log gives you your own six and cannot tell you that being held up is the joint most-attached problem in the whole set, because it has nothing to compare against. The scheme counts cannot be ranked, and the report says so itself: some schemes run continuously and others are single operations, and it prints which kind each one is. Where the two members overlap is being watched and being threatened. Notes never leave the member, the exact location never leaves, who logged what never leaves, and even the country is worked out inside the app rather than asked. The totals are published for anyone to use.
 
