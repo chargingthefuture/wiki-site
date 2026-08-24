@@ -28,6 +28,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "clicklog-the-record-has-started",
+    "title": "The Record Has Started",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-24",
+    "excerpt": "ClickLog's shared trend view stopped being a description of what it would do. There are entries in it now, from two people in two countries, and one section of it shows something a private log cannot.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/clicklog-the-record-has-started.md",
+    "teaser": "Six days ago I wrote that a shared ClickLog entry feeds something that has never existed: trend data on organized harassment, logged by the people it happens to rather than assembled by outsiders afterward. That was a description of a thing that had not happened yet. The shared view now reads twenty incidents, two members reporting, five days with activity, two countries. The section worth looking at is not any single count — it is the one that shows which problems and which named schemes get reported on the same incident.",
+    "topics": [
+      "clicklog",
+      "trends"
+    ]
+  },
+  {
     "slug": "old-links-new-links",
     "title": "Old links, new links",
     "repo": "chargingthefuture/wiki-site",
