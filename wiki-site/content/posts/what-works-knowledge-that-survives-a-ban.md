@@ -33,13 +33,13 @@ That is not a detail. "Shielding fabric" is a category with an enormous range of
 
 The other half of the reason is the platform. Quora has erased seven of my accounts. When an account goes, everything on it goes — every answer, every comment, every link anyone saved. Content from Targeted Individuals (TIs) gets removed constantly, and the effect is that we cannot hand each other anything durable. Work like that post gets done, and then it gets deleted, and then somebody else does it again from the start.
 
-## The comments go with the post
+## On Quora, the comments go with the post
 
-This is the part that took me a while to understand, and it changes where it makes sense to write things.
+To be clear about what I mean: Quora comments. This blog has no comments section at all, so nothing here is at stake. What follows is about the replies people leave under a Quora post.
 
-When one of my posts is deleted, the comments underneath it are deleted too. Not only my words — everyone's. Somebody who took twenty minutes to write out what they know, in a reply, loses it because of an account decision that had nothing to do with them.
+When one of my Quora posts is deleted, the comments underneath it are deleted with it. Not only my words — everyone's. Somebody who took twenty minutes to write out what they know, as a reply on my post, loses it because of an account decision that had nothing to do with them.
 
-So a comment on my post is the least durable place a person can put something useful. It is attached to an account that has already been erased seven times, and it goes down with that account without warning.
+That took me a while to understand, and it changes where it makes sense to write things down. A comment on a Quora post of mine is the least durable place a person can put anything useful. It hangs off an account that has already been erased seven times, and it goes down with that account without warning.
 
 Which is why the discussion is better off in Commons, the group chat in the app. An answer there is not attached to an account somebody else can erase.
 
@@ -69,7 +69,9 @@ The most valuable line in that post is the one about the silver suit that did no
 
 Somebody reading it has just saved several hundred dollars. That is a larger and more certain benefit than most positive recommendations deliver, and it is the part that almost never gets written down, because saying you wasted money is harder than saying you found something good.
 
-A list of what works needs the other column. I would rather it held both than only ever collected wins.
+A list of what works needs the other column. It cannot record that today — a tool goes on the list because somebody says it helped, and there is nowhere to say the opposite. That is a real gap, and it is not the next thing being built.
+
+Until it is, put the failures in Commons, where somebody can read them before they spend the money.
 
 ## Where to find it in the app
 
