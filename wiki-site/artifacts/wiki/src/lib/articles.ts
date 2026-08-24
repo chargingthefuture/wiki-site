@@ -43,6 +43,21 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "the-assistant-is-not-a-clinician",
+    "title": "The Assistant Is Not a Clinician",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-24",
+    "excerpt": "What the Knowledge Library is an alternative to, what it will never be, and why I say the difference out loud instead of leaving someone to work it out.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/the-assistant-is-not-a-clinician.md",
+    "teaser": "Somebody said they would fact check the Knowledge Library before passing it on, and what I told them needs saying somewhere that does not disappear. I called a national hotline and got told, in substance, join the club — it is common, change your routine. Then an officer mocked that call back to me in person at the station where I had gone to file a report. An assistant that answers at any hour from the writing of people who have lived this is an alternative to that. It is not a clinician, it does not claim to be one, and neither do I.",
+    "topics": [
+      "knowledge-library",
+      "safety"
+    ]
+  },
+  {
     "slug": "how-to-check-me",
     "title": "How to Check Me",
     "repo": "chargingthefuture/wiki-site",

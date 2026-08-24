@@ -6,14 +6,14 @@ name: Wayback backfill
 # by the push that triggered it. This is for filling gaps — pages that were
 # never submitted, or submissions archive.org refused at the time.
 #
-# The script caps each run at 15 files and spaces its requests, so pass at most
-# 15 paths and run it again for more.
+# The script caps each run at 5 files and waits 20 seconds between saves, so pass
+# at most 5 paths and run it again for more.
 
 on:
   workflow_dispatch:
     inputs:
       paths:
-        description: "Space-separated content paths, e.g. wiki-site/content/posts/how-to-check-me.md"
+        description: "Space-separated content paths, at most 5, e.g. wiki-site/content/posts/how-to-check-me.md"
         required: true
         type: string
 
