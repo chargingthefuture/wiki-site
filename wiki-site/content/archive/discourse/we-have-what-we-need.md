@@ -46,7 +46,7 @@ Excerpt: Marco Martin asked: Is there any gang stalking support in Bedford, Indi
 <p>You need an email to sign up</p>
 </li>
 <li>
-<p>To get approved, I ask for your Quora Profile URL. Some people are not entering this information, so they are not approved. I am not sure why some do, and some do not. If you have issues finding your Quoral profile URL, let me know. Reply to any Quora post or send a message in the group chat:</p>
+<p>To get approved, I ask for your Quora Profile URL. Some people are not entering this information, so they are not approved. I am not sure why some do, and some do not. If you have issues finding your Quora profile URL, let me know. Reply to any Quora post or send a message in the group chat:</p>
 </li>
 </ul>
 <p><a href="https://signal.group/#CjQKILHj7074l2Kl-oYy0qGSFdydXbtu0Pf66Z_88K9IlSCtEhDDdqV_BFAW2qm2EiTGEaNs">https://signal.group/#CjQKILHj7074l2Kl-oYy0qGSFdydXbtu0Pf66Z_88K9IlSCtEhDDdqV_BFAW2qm2EiTGEaNs</a></p>

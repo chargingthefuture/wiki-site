@@ -28,6 +28,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "old-links-new-links",
+    "title": "Old links, new links",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-23",
+    "excerpt": "Seven Quora accounts erased, one space renamed. What is current, what is dead, and the one address that does not change.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/old-links-new-links.md",
+    "teaser": "Quora has erased my accounts seven times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. This page is the standing record: the current space, the current handle, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
+    "topics": [
+      "publishing",
+      "platform-independence"
+    ]
+  },
+  {
     "slug": "pizza-is-not-my-favorite-food",
     "title": "Pizza Is Not My Favorite Food",
     "repo": "chargingthefuture/wiki-site",
@@ -100,21 +115,6 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "clicklog",
       "safety"
-    ]
-  },
-  {
-    "slug": "old-links-new-links",
-    "title": "Old links, new links",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-21",
-    "excerpt": "Five Quora accounts erased, one space renamed. What is current, what is dead, and the one address that does not change.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/old-links-new-links.md",
-    "teaser": "Quora has erased my accounts five times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. This page is the standing record: the current space, the current handle, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
-    "topics": [
-      "publishing",
-      "platform-independence"
     ]
   },
   {
@@ -1857,7 +1857,7 @@ export const ARTICLES: ArticleMeta[] = [
   },
   {
     "slug": "discourse-migrate/tv-shows-depicting-the-speceterati",
-    "title": "TV shows depicting the Speceterati",
+    "title": "TV shows depicting the Specterati",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-12-13",
     "excerpt": "I am re-watching the TV show The Good Place. This space is exclusively for Targeted Individuals. However, if there is a random non-target/non-perp, the very…",
@@ -2401,7 +2401,7 @@ export const ARTICLES: ArticleMeta[] = [
   },
   {
     "slug": "discourse-migrate/perfection-does-not-equate-to-excellance",
-    "title": "Perfection does not equate to excellance",
+    "title": "Perfection does not equate to excellence",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-11-06",
     "excerpt": "I have not found post, but I mentioned twice previously that I have significant typos in my posts. And that I am doubling back and copy editing posts…",
@@ -2774,7 +2774,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Book 2: Backyard Farming",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-18",
-    "excerpt": "Today I start Backyard Farming by Adams Media. This relates to the TI economy initiative of a gated community. And relying less on the Specerati for food. One…",
+    "excerpt": "Today I start Backyard Farming by Adams Media. This relates to the TI economy initiative of a gated community. And relying less on the Specterati for food. One…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/book-2-backyard-farming.md",
@@ -3318,7 +3318,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "What are the worst states for gang stalking?",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-07",
-    "excerpt": "Ancedontally, California appears to be #1. Aside from that, every state has it. They will follow you to any town in any state and make it your “worst”…",
+    "excerpt": "Anecdotally, California appears to be #1. Aside from that, every state has it. They will follow you to any town in any state and make it your “worst”…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
     "path": "archive/discourse/what-are-the-worst-states-for-gang-stalking.md",
@@ -3877,7 +3877,7 @@ export const ARTICLES: ArticleMeta[] = [
   },
   {
     "slug": "discourse-migrate/farah-s-mirco-blog-september-22-2025",
-    "title": "Farah’s Mirco Blog September 22 2025",
+    "title": "Farah’s Micro Blog September 22 2025",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-09-22",
     "excerpt": "Lyndon B. Johnson once said, “If you can convince the lowest man he’s better than the best man, he won’t notice you’re picking his pocket.” This statement…",

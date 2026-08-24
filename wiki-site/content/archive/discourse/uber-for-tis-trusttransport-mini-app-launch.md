@@ -26,7 +26,7 @@ Excerpt: As announced in yesterday’s Town Hall, TrustTransport is available fo
 
 <p><a href="https://chargingthefuture.discourse.group/t/weekly-state-of-the-ti-economy-townhall-meetings/136/9">As announced in yesterday’s Town Hall</a>, TrustTransport is available for use. It is the Uber for TIs.</p>
 <p>Part of my targeting involves Uber Drivers who are part of the Specterati. Initially, they would do theatre before and during the ride, and then give me a poor rating to have my star rating plummet. Fortunately, Uber has a feature where your ride can be audio-recorded as proof of any incident. In addition, they have a feature where you can pay extra for a silent ride. I believe that should be free. And so it is possible to use Uber with only minimal interference.</p>
-<p>But if you prefer zero agenda, the “guarantee” of not financially supporting an individual who is a human trafficker (part of the Specterait), you now have the option, with TrustTransport.</p>
+<p>But if you prefer zero agenda, the “guarantee” of not financially supporting an individual who is a human trafficker (part of the Specterati), you now have the option, with TrustTransport.</p>
 <p>There are already TIs who are offering free rides (within reason) to other TIs. With TrustTransport, Drivers have the option to charge or provide rides for free. And you are welcome to be a Driver and Rider within the app at any time.</p>
 <p>Let me know of any feedback. Screenshots below are of fake/dummy data to protect our privacy.</p>
 <p>Rider view</p>
