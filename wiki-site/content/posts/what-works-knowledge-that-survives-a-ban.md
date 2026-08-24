@@ -3,7 +3,7 @@ title: "Knowledge That Survives a Ban"
 date: "2026-08-24"
 excerpt: "Somebody spent hundreds of dollars and years of trial and error learning what shielding actually does, and wrote it down on a platform that deletes accounts. That is the problem WhatWorks exists for."
 category: "Community"
-teaser: "Gn0b0dy Pneuma posted a detailed account of what they learned buying shielding fabric and building faraday cages — grounding, skin contact, frequency ranges, and the several hundred dollars of silver body suit that did not work. It is the most useful thing anyone can offer another survivor: specific, first-hand, and including the failures. It is also sitting on a platform that has erased seven of my accounts, and when an account goes, so does everything on it. WhatWorks is one shared list, organized by the problem you are facing, so that kind of answer does not have to be written again by the next person."
+teaser: "Gn0b0dy Pneuma posted a detailed account of what they learned buying shielding fabric and building faraday cages — grounding, skin contact, frequency ranges, and the several hundred dollars of silver body suit that did not work. It is the most useful thing anyone can offer another survivor: specific, first-hand, and including the failures. It is also sitting on a platform that has erased seven of my accounts, and when a post goes the comments underneath it go too, so it is not only my writing that gets destroyed. WhatWorks is one shared list organized by the problem you are facing, and Commons is where the discussion belongs, so an answer does not have to be written again by the next person."
 topics:
   - what-works
   - platform-independence
@@ -32,6 +32,18 @@ I replied asking for links to the specific items, so people can buy them or rese
 That is not a detail. "Shielding fabric" is a category with an enormous range of quality inside it, and the difference between a product that does something and one that does nothing is not visible in a description. A person reading that post and going shopping is starting the same expensive trial and error over again. A link ends it.
 
 The other half of the reason is the platform. Quora has erased seven of my accounts. When an account goes, everything on it goes — every answer, every comment, every link anyone saved. Content from Targeted Individuals (TIs) gets removed constantly, and the effect is that we cannot hand each other anything durable. Work like that post gets done, and then it gets deleted, and then somebody else does it again from the start.
+
+## The comments go with the post
+
+This is the part that took me a while to understand, and it changes where it makes sense to write things.
+
+When one of my posts is deleted, the comments underneath it are deleted too. Not only my words — everyone's. Somebody who took twenty minutes to write out what they know, in a reply, loses it because of an account decision that had nothing to do with them.
+
+So a comment on my post is the least durable place a person can put something useful. It is attached to an account that has already been erased seven times, and it goes down with that account without warning.
+
+Which is why the discussion belongs in Commons, the group chat in the app. Nothing there is removed by a platform decision, so an answer written in it is still there next month.
+
+That is a claim about durability and nothing else. I am not telling you Commons is private, and I would not tell anyone that about any channel. What I am telling you is that it does not disappear.
 
 ## What WhatWorks is
 
@@ -62,5 +74,6 @@ A list of what works needs the other column. I would rather it held both than on
 ## Where to find it in the app
 
 - [WhatWorks](https://app.chargingthefuture.com/apps/what-works) — [guide](https://app.chargingthefuture.com/guide#what-works)
+- [Commons](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
 
 To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
