@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
@@ -5,6 +6,48 @@ import rehypeSanitize from 'rehype-sanitize';
 import { cn } from '@/lib/utils';
 import { contentImageUrl } from '@/lib/content';
 import { rehypeDiscourseCleanup, stripDiscourseImportArtifacts } from '@/lib/discourse-html';
+
+/**
+ * A markdown table wider than the viewport scrolls sideways in its own
+ * container rather than having its columns crushed — on a phone the browser
+ * will otherwise shrink a column to one character per line. When the table
+ * does overflow, the container becomes a focusable region so a keyboard user
+ * can scroll it, and a line below says the rest of the table is there, since
+ * a cut-off column looks like the end of the table.
+ */
+function ScrollableTable(props: React.HTMLAttributes<HTMLTableElement>) {
+  const ref = useRef<HTMLDivElement>(null);
+  const [scrollable, setScrollable] = useState(false);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const measure = () => setScrollable(el.scrollWidth > el.clientWidth + 1);
+    measure();
+    const observer = new ResizeObserver(measure);
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
+  return (
+    <div className="table-block">
+      <div
+        ref={ref}
+        className="table-scroll"
+        tabIndex={scrollable ? 0 : undefined}
+        role={scrollable ? 'region' : undefined}
+        aria-label={scrollable ? 'Table — scroll sideways for the remaining columns' : undefined}
+      >
+        <table {...props} />
+      </div>
+      {scrollable && (
+        <p className="table-scroll-hint" aria-hidden="true">
+          Scroll sideways for the rest of the table →
+        </p>
+      )}
+    </div>
+  );
+}
 
 interface MarkdownRendererProps {
   content: string;
@@ -82,6 +125,7 @@ export function MarkdownRenderer({ content, className, repo }: MarkdownRendererP
               </span>
             );
           },
+          table: ({ node, ...props }) => <ScrollableTable {...props} />,
           a: ({ node, ...props }) => {
             // Check if link is internal wiki link to rewrite it
             const href = props.href || '';
