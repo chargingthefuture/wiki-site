@@ -41,9 +41,7 @@ When one of my posts is deleted, the comments underneath it are deleted too. Not
 
 So a comment on my post is the least durable place a person can put something useful. It is attached to an account that has already been erased seven times, and it goes down with that account without warning.
 
-Which is why the discussion belongs in Commons, the group chat in the app. Nothing there is removed by a platform decision, so an answer written in it is still there next month.
-
-That is a claim about durability and nothing else. I am not telling you Commons is private, and I would not tell anyone that about any channel. What I am telling you is that it does not disappear.
+Which is why the discussion is better off in Commons, the group chat in the app. An answer there is not attached to an account somebody else can erase.
 
 ## What WhatWorks is
 
@@ -54,6 +52,8 @@ You pick a problem you are facing. Under it is a list of specific tools somebody
 Right now it holds three problems and two tools. Both tools sit under Sleep Deprivation, which the list describes as loud noises meant to disrupt your sleep. One is a pair of AirPods Pro 2, listed for having the best active noise cancellation, with a note that they work with Android but sound best with Apple hardware. The other is generic in-ear headphones, listed because they are worth the price and cheap to replace when they get stolen.
 
 The other two problems on it — shaking and vibrating, and voice to skull — have nothing under them yet. The list says so plainly on the screen rather than hiding the empty ones.
+
+![The WhatWorks screen in the Charging The Future app. A header reads "Survivor-verified · one shared list" above the title "What actually works." and the line: Pick a problem you're facing. Underneath it is a list of specific tools a survivor here actually bought, used, and said helped — with a direct link to get it. Three counters read 3 problems, 2 tools, 100% survivor-verified. The first problem is Sleep Deprivation, 2 tools, described as loud noises meant to disrupt your sleep. Under it, AirPods Pro 2, filed under Headphones, quoted as: The best ANC - active noise cancellation - headphones. Works with Android, but audio quality is best when paired with Apple products. It shows 1 survivors verified and a Helped me count. Below it, Generic in ear headphones, quoted as: For the price they are worth it. And if the Specterati steal them they are affordable to replace. It also shows 1 survivors verified and a Helped me count. The second problem is Shaking/Vibrating - DEW Attack, 0 tools, described as: Everywhere you have contact with vibrates and shakes. It reads: No tools on this one yet. If something helped you here, add it — you would be the first, with a Suggest a tool button. The third problem is Voice to Skull - DEW Attack, 0 tools, described as: Narratives directed at you and no one else. Different from when they play narratives on speakers where everyone else hears them as well. It carries the same empty message and Suggest a tool button. At the top of the screen are a search box reading Search tools or problems and a Suggest an item button.](images/what-works-list-2026-08-24.jpg)
 
 ## What survivor-verified means, and what it does not
 
