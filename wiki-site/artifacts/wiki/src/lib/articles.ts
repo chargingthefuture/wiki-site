@@ -58,6 +58,21 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "knowledge-library-one-persons-writing",
+    "title": "It Answers From One Person's Writing",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-24",
+    "excerpt": "Every answer the Knowledge Library gives is drawn from one person's Quora posts — mine. You can lend yours, and take them back whenever you want.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/knowledge-library-one-persons-writing.md",
+    "teaser": "The Knowledge Library answers questions for Targeted Individuals using writing by people who have lived it. Right now that writing is all mine — more than 1,500 Quora posts, one person's experience, one person's blind spots. Yours is different, and the next member asking for help deserves both. Lending is not giving: your words go into a table the assistant searches, not into a trained model, which is exactly what makes taking them back something that can actually be done rather than something that gets promised.",
+    "topics": [
+      "knowledge-library",
+      "contributing"
+    ]
+  },
+  {
     "slug": "old-links-new-links",
     "title": "Old links, new links",
     "repo": "chargingthefuture/wiki-site",
