@@ -1,10 +1,15 @@
 name: Wayback backfill
 
-# Manual re-submission of specific content files to the Wayback Machine.
+# Manual re-submission of content files to the Wayback Machine.
 #
-# The scheduled snapshot in deploy-wiki-gh-pages.yml only covers files changed
-# by the push that triggered it. This is for filling gaps — pages that were
-# never submitted, or submissions archive.org refused at the time.
+# The snapshot job in deploy-wiki-gh-pages.yml only covers files changed by the
+# push that triggered it. This is for filling gaps — pages that were never
+# submitted, or submissions archive.org refused at the time.
+#
+# Two ways to say what to send. Give `paths` for specific files. Or leave it
+# empty and give an `offset`, and the run takes that many files in from the
+# sorted list of everything under content/ — which is how a whole-blog backfill
+# is walked, one offset at a time.
 #
 # This run takes bigger, slower batches than a publish does: 40 files, 30 seconds
 # apart, front page skipped, and one 90-second retry when archive.org turns a
@@ -14,13 +19,18 @@ on:
   workflow_dispatch:
     inputs:
       paths:
-        description: "Space-separated content paths, at most 40, e.g. wiki-site/content/posts/how-to-check-me.md"
-        required: true
+        description: "Specific space-separated content paths. Leave empty to use offset."
+        required: false
+        type: string
+      offset:
+        description: "Skip this many files from the sorted list of all content, then take 40."
+        required: false
+        default: "0"
         type: string
 
 jobs:
   backfill:
-    name: Submit the given pages to the Wayback Machine
+    name: Submit pages to the Wayback Machine
     runs-on: ubuntu-latest
 
     steps:
@@ -43,10 +53,24 @@ jobs:
       - name: Submit to web.archive.org
         working-directory: wiki-site
         env:
-          PATHS: ${{ inputs.paths }}
+          INPUT_PATHS: ${{ inputs.paths }}
+          OFFSET: ${{ inputs.offset }}
           WAYBACK_MAX_FILES: "40"
           WAYBACK_SPACING_MS: "30000"
           WAYBACK_SKIP_HOME: "1"
         run: |
+          if [ -n "$INPUT_PATHS" ]; then
+            SELECTED="$INPUT_PATHS"
+          else
+            TOTAL=$(find content -name '*.md' -not -iname 'readme.md' | wc -l)
+            echo "Total content files: $TOTAL. Taking 40 from offset $OFFSET."
+            SELECTED=$(find content -name '*.md' -not -iname 'readme.md' \
+              | sed 's|^|wiki-site/|' | LC_ALL=C sort \
+              | tail -n +$((OFFSET + 1)) | head -40 | tr '\n' ' ')
+          fi
+          if [ -z "$SELECTED" ]; then
+            echo "Nothing selected — offset is past the end of the list."
+            exit 0
+          fi
           # shellcheck disable=SC2086
-          pnpm --filter @workspace/scripts exec tsx ./src/wayback-snapshot.ts $PATHS
+          pnpm --filter @workspace/scripts exec tsx ./src/wayback-snapshot.ts $SELECTED
