@@ -88,6 +88,21 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "nobody-here-is-a-mental-health-professional",
+    "title": "Nobody Here Is a Mental Health Professional",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-23",
+    "excerpt": "What the Knowledge Library is an alternative to, what it will never be, and why that distinction is stated out loud rather than left for someone to work out.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/nobody-here-is-a-mental-health-professional.md",
+    "teaser": "Somebody asked a fair question about the Knowledge Library, and the answer needs saying in a place that does not disappear. What exists for a survivor who needs help right now is a hotline that tells you to get over it and other avenues that call you delusional. An assistant that answers at any hour from the writing of people who have lived this is an alternative to that. It is not a clinician, it does not claim to be one, and neither do I.",
+    "topics": [
+      "knowledge-library",
+      "safety"
+    ]
+  },
+  {
     "slug": "pizza-is-not-my-favorite-food",
     "title": "Pizza Is Not My Favorite Food",
     "repo": "chargingthefuture/wiki-site",
