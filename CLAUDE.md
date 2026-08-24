@@ -256,6 +256,29 @@ than showing nothing.
 The same rule is recorded for the app in the product repo, under Accessibility Rules in
 `.claude/rules/100-product-context-and-experience-rules.mdc`.
 
+## Dating Posts — the owner's clock, not the container's (2026-08-23)
+
+A post's `date` is the day it was written where the owner is, which is UTC-4.
+Agent sessions run in a container set to `TZ=Etc/UTC`, and the harness date
+reminder follows that container. So from 20:00 the owner's time onward, the
+container has already rolled to the next day and any post dated from it is
+wrong by one.
+
+Do not take the date from the harness reminder or from `date`. Take it from
+git, which records the owner's real offset:
+
+```
+git log -1 --format=%ad --date=iso   # e.g. 2026-08-23 21:48:06 -0400
+```
+
+An agent's own commits are stamped `+0000` and prove nothing; look for a commit
+authored by the owner, or subtract four hours from UTC.
+
+This applies to the `date` field, to any date written into a post's prose, to
+image file names carrying a date, and to paste sheet entry headers. Getting it
+wrong puts a post in the feed under tomorrow, which is visible to every reader
+and has to be corrected in public.
+
 ## Snapshots vs Living Pages (owner decision, 2026-08-18)
 
 Two kinds of pages live in `posts/`, and they age differently:
