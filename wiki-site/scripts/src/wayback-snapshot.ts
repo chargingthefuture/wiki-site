@@ -10,6 +10,11 @@
  * Best-effort by design: failures are logged and never exit non-zero, so a
  * deploy can never be blocked by archive.org rate limits.
  *
+ * Pacing: archive.org refuses with HTTP 429 after roughly five saves in a
+ * couple of minutes. A normal publish changes one file, so the spacing costs
+ * nothing there; it exists so a backfill of several files actually finishes
+ * instead of getting a handful in and then being turned away.
+ *
  * Usage:
  *   tsx wayback-snapshot.ts <changed-file> [<changed-file> ...]
  *   (paths relative to the repo root, e.g. wiki-site/content/posts/foo.md)
@@ -24,7 +29,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = resolve(__dirname, '../../..');
 const SITE_BASE = 'https://chargingthefuture.github.io/chargingthefuture';
 const RAW_BASE = 'https://raw.githubusercontent.com/chargingthefuture/wiki-site/main';
-const MAX_FILES = 15; // stay well under archive.org rate limits per run
+const MAX_FILES = 5; // archive.org starts refusing after roughly five saves in a couple of minutes
+const SPACING_MS = 20_000; // measured: 4s was fast enough to trigger HTTP 429 partway through a batch
 
 const COLLECTIONS = [
   'posts',
@@ -87,7 +93,7 @@ async function main() {
     await save(rawUrl);
     const articleUrl = articleUrlFor(file);
     if (articleUrl) await save(articleUrl);
-    await new Promise((r) => setTimeout(r, 4000)); // spacing for archive.org
+    await new Promise((r) => setTimeout(r, SPACING_MS));
   }
   console.log('Done (best-effort).');
 }
