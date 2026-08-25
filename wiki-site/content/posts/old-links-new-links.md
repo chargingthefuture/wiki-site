@@ -1,6 +1,6 @@
 ---
 title: "Old links, new links"
-date: "2026-08-24"
+date: "2026-08-25"
 excerpt: "Eight Quora accounts erased, one space renamed. What is current, what is dead, and the one address that does not change."
 category: "Community"
 teaser: "Quora has erased my accounts eight times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. This page is the standing record: the current space, the current handle, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
@@ -27,7 +27,9 @@ To reach me, save this link alongside the blog: https://sleek.bio/farah — it l
 
 The space: https://skillseconomy.quora.com
 
-My handle: none at the moment. Kingmingling was banned on August 25, 2026, and its replacement is not open yet. When it is, it appears here first — so if a profile claims to be me before this line names one, it is not me.
+My handle: https://www.quora.com/profile/King-s-Daughter-2
+
+Opened August 25, 2026, the same day Kingmingling was banned.
 
 That is the complete list. If an account or space claims to be me, or to speak for the Skills Economy, and it is not on this page — it is not me. Check back here, not on Quora, because this page cannot be edited by anyone but me and every change to it is on the public record.
 
