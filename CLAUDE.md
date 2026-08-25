@@ -358,10 +358,16 @@ farah-brunache account and the day this blog became the source that platforms co
 Everything from that day forward was written under one arrangement. Earlier posts were not,
 and the owner does not want them in this sheet.
 
-Quora's editor does not read markdown, so the generator converts: headings lose their
-hashes, links become `text (url)`, blockquotes lose their marker, bullets keep theirs. An
-image becomes its alt text — in credited posts the alt text carries somebody's quoted words,
-and dropping the image silently would drop the credit with it.
+The sheet is plain text with no styling of any kind (owner directive, 2026-08-25), because
+Quora's editor does not read markdown and shows every marker literally. The generator
+converts: headings lose their hashes, links become `text (url)`, blockquotes lose their
+marker, bold/italic lose their asterisks and underscores, backticks and code fences are
+dropped, hard-wrapped paragraphs become one line each (Quora treats every newline as a
+paragraph break), and a bare filename's `.md` extension is dropped so Quora's auto-linker
+cannot turn it into a dead link (.md is a real domain ending). Bullets keep their markers,
+which read correctly. An image becomes its alt text — in credited posts the alt text
+carries somebody's quoted words, and dropping the image silently would drop the credit
+with it.
 
 ## Link the Plugins a Post Names (owner decision, 2026-08-20)
 
