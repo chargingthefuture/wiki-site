@@ -28,6 +28,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "why-nothing-is-written-on-a-platform-first",
+    "title": "Why nothing is written on a platform first",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-25",
+    "excerpt": "The rule is on the record: every post starts on this blog, and platforms get a copy second. This is the story of how it took two erasures to learn.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/why-nothing-is-written-on-a-platform-first.md",
+    "teaser": "The standing rule is that nothing is written on a platform first anymore — every post starts on this blog, and platforms get a short version and a link. A rule on its own reads as policy, so here is the story that produced it: an account where every word lived on Quora alone, erased in an evening; a backup that was downstream of the thing being erased, which is the wrong way round; and a second erasure eleven months later that finally taught the lesson the first one had already given.",
+    "topics": [
+      "publishing",
+      "platform-independence"
+    ]
+  },
+  {
     "slug": "the-audience-is-already-larger-than-the-goal",
     "title": "The audience is already larger than the goal",
     "repo": "chargingthefuture/wiki-site",
@@ -79,26 +94,11 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Old links, new links",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-08-25",
-    "excerpt": "Eight Quora accounts erased, one space renamed. What is current, what is dead, and the one address that does not change.",
+    "excerpt": "Nine Quora accounts erased, one space renamed. What is current, what is dead, and the one address that does not change.",
     "category": "Community",
     "collection": "posts",
     "path": "posts/old-links-new-links.md",
-    "teaser": "Quora has erased my accounts eight times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. This page is the standing record: the current space, the current handle, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
-    "topics": [
-      "publishing",
-      "platform-independence"
-    ]
-  },
-  {
-    "slug": "why-nothing-is-written-on-a-platform-first",
-    "title": "Why nothing is written on a platform first",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-25",
-    "excerpt": "The rule is on the record: every post starts on this blog, and platforms get a copy second. This is the story of how it took two erasures to learn.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/why-nothing-is-written-on-a-platform-first.md",
-    "teaser": "The standing rule is that nothing is written on a platform first anymore — every post starts on this blog, and platforms get a short version and a link. A rule on its own reads as policy, so here is the story that produced it: an account where every word lived on Quora alone, erased in an evening; a backup that was downstream of the thing being erased, which is the wrong way round; and a second erasure eleven months later that finally taught the lesson the first one had already given.",
+    "teaser": "Quora has erased my accounts nine times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. This page is the standing record: the current space, the current handle, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
     "topics": [
       "publishing",
       "platform-independence"
