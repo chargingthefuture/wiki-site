@@ -38,7 +38,7 @@ So the rosters are not proposals anyone signed off on. They are what the skills 
 
 Scroll the tab strip at the top sideways. This is the Workforce screen as it opens:
 
-![The Workforce screen as it opens: the tab strip reads Overview, Sectors, Skill Level, Occupations, with no Community tab visible. Below it, four tiles: Population 5,000,000, survivor population baseline; Workforce Total 2,000,000, 40% participation; Recruited 100, 0% of goal; Skills Coverage 24%, 159 of 650 skills.](images/workforce-overview-2026-08-25.jpg)
+![The Workforce screen as it opens. The tab strip reads Overview, Sectors, Skill Level, Occupations, with no Community tab visible. Four tiles: Population 5,000,000, survivor population baseline; Workforce Total 2,000,000, 40% participation; Recruited 100, 0% of goal; Skills Coverage 24%, 159 of 650 skills. Then the Skills Economy Summary card: "With 100 people recruited, we have reached 24% of the skills potential of an independent nation state like Finland, Estonia, or Singapore — equating to $14.3 million in GDP potential. That means each individual contributing $142,500 in GDP, and earning upwards of $71,250." The card carries its own caveat underneath: "These figures are speculative, not actuals, and this summary is the only place in the app where GDP is stated in US dollars. The Skills Economy has no intention of forming a nation state — this is a baseline for understanding economics at the scale of upwards of 5 million people." Below that, a Skill Level Breakdown — Foundational 43 recruited against a 67,462 goal, Intermediate 97 against 1,438,235, Advanced 94 against 494,306 — then Sector Opportunities across 21 sectors with recruited counts against goals, and Top Training Opportunities listing ten health occupations.](images/workforce-overview-2026-08-25.jpg)
 
 The strip reads Overview, Sectors, Skill Level, Occupations. Community sits off the right edge. Drag the strip to the left and it appears.
 
@@ -63,6 +63,12 @@ Ten teams, each with the sectors it draws from and the part of the document it o
 
 A person can appear on more than one team. The sectors overlap — someone in housing and construction is relevant to both the land search and the build order — and the app counts each roster on its own.
 
+Open a team and you get the people, by name, with the reason each one is there. This is Operations & Maintenance drilled down:
+
+![The Operations and Maintenance team expanded into its roster. Each member is a card headed by their Directory name, followed by the occupations they match and how. The first three: 00, one matching occupation — Construction Laborers, Housing and Construction, skill match via Site safety practices — sectors Creative and Media, all skills visual concept development, marketing, trend analysis, branding and identity systems, site safety practices, video and audio recording and editing, analytics and growth tactics, market research and segmentation. Alani, one matching occupation — Construction Laborers, Housing and Construction, skill match via Home Improvement — sector Health, all skills home improvement, manufacturing, first aid and CPR. Alicia Macchione, four matching occupations — Shop Staff and Cashiers, Retail and Services, skill match via point-of-sale operation, customer service, stock replenishment; Cleaners and Janitorial, Retail and Services, sector match; Personal Services such as hairdressers and repair, Retail and Services, skill match via client service skills; Supply Managers, Retail and Services, skill match via inventory control. The roster continues in the same form for the rest of the team.](images/workforce-community-roster-2026-08-25.jpg)
+
+Every placement carries its reason. "Skill match via Site safety practices" means that person listed site safety practices, in their own public words, and that is the skill the occupation needed. "Sector match" is the weaker one — the person works in that sector but the specific skill is not listed. Nothing here is my opinion about who belongs where, and anyone can check any row of it.
+
 Communications & Documentation is the largest, and that team is the runbook itself: editing every other team's section into one document somebody else can use. Which is what makes it the team that decides whether any of this leaves the app.
 
 ## The question everyone asks second
@@ -84,6 +90,8 @@ The 2025 attempt is also why I do not think a community like this can be organiz
 The Workforce screen reads 100 recruited and 24 percent skills coverage — 159 of the 650 things a working economy this size needs.
 
 Where 650 comes from, where 5 million comes from, and how a person ends up on the map at all, is in [How the math works](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-the-math-works). It is the same map underneath. Community is one view of it, cut to one question.
+
+The summary card on that first screenshot also states the skills coverage as a dollar figure, and it states its own limits in the same breath: the figures are speculative rather than actuals, that card is the only place in the app where anything is expressed in US dollars, and the Skills Economy has no intention of forming a nation state. It is a baseline for reasoning about an economy of this size, nothing more. I am repeating those limits here because the screenshot is in this post and the caveats belong with it.
 
 The planning document itself is issue #1465, linked from the top of that tab.
 
