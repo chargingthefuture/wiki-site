@@ -28,6 +28,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "a-gated-community-and-who-could-plan-it",
+    "title": "A gated community, and who could plan it",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-25",
+    "excerpt": "A survivor-only gated community is one of the most common things people ask for on Quora. It is possible — and the app now shows who could plan one.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/a-gated-community-and-who-could-plan-it.md",
+    "teaser": "A gated community for Targeted Individuals is one of the most common things people ask for on Quora. My answer is that it is possible, but not as one person's project and not as one place. The Workforce screen has a Community tab that sorts the people already on the skills map into the ten teams a planning document needs, and it recomputes itself as the map changes. Here is what it shows today, and the answer to the question everyone asks second.",
+    "topics": [
+      "community",
+      "workforce",
+      "directory"
+    ]
+  },
+  {
     "slug": "looking-up-this-blog-in-the-wayback-machine",
     "title": "Looking Up This Blog in the Wayback Machine",
     "repo": "chargingthefuture/wiki-site",
@@ -55,22 +71,6 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "publishing",
       "platform-independence"
-    ]
-  },
-  {
-    "slug": "a-gated-community-and-who-could-plan-it",
-    "title": "A gated community, and who could plan it",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-25",
-    "excerpt": "A survivor-only gated community is one of the most common things people ask me for. It is possible — and the app now shows who could plan one.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/a-gated-community-and-who-could-plan-it.md",
-    "teaser": "A gated community for Targeted Individuals is one of the most common things people ask me for. My answer is that it is possible, but not as one person's project and not as one place. The Workforce screen has a Community tab that sorts the people already on the skills map into the ten teams a planning document needs, and it recomputes itself as the map changes. Here is what it shows today, and the answer to the question everyone asks second.",
-    "topics": [
-      "community",
-      "workforce",
-      "directory"
     ]
   },
   {

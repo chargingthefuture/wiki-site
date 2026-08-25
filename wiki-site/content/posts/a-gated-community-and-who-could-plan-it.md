@@ -1,16 +1,16 @@
 ---
 title: "A gated community, and who could plan it"
 date: "2026-08-25"
-excerpt: "A survivor-only gated community is one of the most common things people ask me for. It is possible — and the app now shows who could plan one."
+excerpt: "A survivor-only gated community is one of the most common things people ask for on Quora. It is possible — and the app now shows who could plan one."
 category: "Community"
-teaser: "A gated community for Targeted Individuals is one of the most common things people ask me for. My answer is that it is possible, but not as one person's project and not as one place. The Workforce screen has a Community tab that sorts the people already on the skills map into the ten teams a planning document needs, and it recomputes itself as the map changes. Here is what it shows today, and the answer to the question everyone asks second."
+teaser: "A gated community for Targeted Individuals is one of the most common things people ask for on Quora. My answer is that it is possible, but not as one person's project and not as one place. The Workforce screen has a Community tab that sorts the people already on the skills map into the ten teams a planning document needs, and it recomputes itself as the map changes. Here is what it shows today, and the answer to the question everyone asks second."
 topics:
   - community
   - workforce
   - directory
 ---
 
-A gated community for Targeted Individuals is one of the most common things people ask me for. It comes up on Quora more often than almost anything else.
+A gated community for Targeted Individuals is one of the most common things people ask for on Quora. It comes up more often than almost anything else.
 
 My answer is that it is possible. Not by me alone, and not as a single place somewhere — but possible.
 
