@@ -28,6 +28,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "how-few-people-it-takes",
+    "title": "How few people it takes",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-25",
+    "excerpt": "A hundred people exchanging at a time is enough to live on. Not the same hundred — that is how every economy works, and it is why the number is reachable.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/how-few-people-it-takes.md",
+    "teaser": "Many survivors do not realize how close this is. A hundred people exchanging at a time is enough for a person to get work, a ride, a place to live. Not the same hundred — no economy anywhere requires the same people trading every day, which is exactly why the number is reachable. What stops people is waiting for an ending that is not coming in our lifetime. The communities of 1903 did not get one either, and they built anyway.",
+    "topics": [
+      "economy",
+      "model",
+      "history"
+    ]
+  },
+  {
     "slug": "looking-up-this-blog-in-the-wayback-machine",
     "title": "Looking Up This Blog in the Wayback Machine",
     "repo": "chargingthefuture/wiki-site",
@@ -58,19 +74,19 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
-    "slug": "how-few-people-it-takes",
-    "title": "How few people it takes",
+    "slug": "the-audience-is-already-larger-than-the-goal",
+    "title": "The audience is already larger than the goal",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-08-25",
-    "excerpt": "A hundred people exchanging at a time is enough to live on. Not the same hundred — that is how every economy works, and it is why the number is reachable.",
+    "excerpt": "The goal is 384 people. 451 already follow the space where this work is posted. Reaching the number does not depend on reaching anyone new.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/how-few-people-it-takes.md",
-    "teaser": "Many survivors do not realize how close this is. A hundred people exchanging at a time is enough for a person to get work, a ride, a place to live. Not the same hundred — no economy anywhere requires the same people trading every day, which is exactly why the number is reachable. What stops people is waiting for an ending that is not coming in our lifetime. The communities of 1903 did not get one either, and they built anyway.",
+    "path": "posts/the-audience-is-already-larger-than-the-goal.md",
+    "teaser": "My goal is 384 approved members working with each other at any given time. The Skills Economy space on Quora has 451 followers, all time — more people than the goal needs, already reached once. Follows are not members and I am not pretending otherwise; they are proof the audience exists. The other 100 — the people on the skills map — got there by my own daily work, one person at a time, and a claim about my own work rate is one I can stand behind.",
     "topics": [
       "economy",
-      "model",
-      "history"
+      "community",
+      "publishing"
     ]
   },
   {
