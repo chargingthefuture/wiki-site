@@ -28,6 +28,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "why-nothing-is-written-on-a-platform-first",
+    "title": "Why nothing is written on a platform first",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-25",
+    "excerpt": "The rule is on the record: every post starts on this blog, and platforms get a copy second. This is the story of how it took two erasures to learn.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/why-nothing-is-written-on-a-platform-first.md",
+    "teaser": "The standing rule is that nothing is written on a platform first anymore — every post starts on this blog, and platforms get a short version and a link. A rule on its own reads as policy, so here is the story that produced it: an account where every word lived on Quora alone, erased in an evening; a backup that was downstream of the thing being erased, which is the wrong way round; and a second erasure eleven months later that finally taught the lesson the first one had already given.",
+    "topics": [
+      "publishing",
+      "platform-independence"
+    ]
+  },
+  {
     "slug": "the-audience-is-already-larger-than-the-goal",
     "title": "The audience is already larger than the goal",
     "repo": "chargingthefuture/wiki-site",
@@ -90,18 +105,19 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
-    "slug": "why-nothing-is-written-on-a-platform-first",
-    "title": "Why nothing is written on a platform first",
+    "slug": "a-gated-community-and-who-could-plan-it",
+    "title": "A gated community, and who could plan it",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-08-25",
-    "excerpt": "The rule is on the record: every post starts on this blog, and platforms get a copy second. This is the story of how it took two erasures to learn.",
+    "excerpt": "A survivor-only gated community is one of the most common asks on Quora. It is possible, the objection to it is not grounded, and the app shows who could plan one.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/why-nothing-is-written-on-a-platform-first.md",
-    "teaser": "The standing rule is that nothing is written on a platform first anymore — every post starts on this blog, and platforms get a short version and a link. A rule on its own reads as policy, so here is the story that produced it: an account where every word lived on Quora alone, erased in an evening; a backup that was downstream of the thing being erased, which is the wrong way round; and a second erasure eleven months later that finally taught the lesson the first one had already given.",
+    "path": "posts/a-gated-community-and-who-could-plan-it.md",
+    "teaser": "A gated community for Targeted Individuals is one of the most common asks on Quora — this July someone asked it outright and people lined up in the comments to say they want in. My answer is that it is possible. The most common answer is that any such community would be infiltrated and destroyed, and that opinion is not grounded: marginalized groups live together today, and the people running this want survivors diluted and isolated, which is itself the reason to go the opposite direction. The app already sorts the people on the skills map into the ten teams the planning document needs.",
     "topics": [
-      "publishing",
-      "platform-independence"
+      "community",
+      "workforce",
+      "directory"
     ]
   },
   {
