@@ -137,9 +137,7 @@ Go to https://web.archive.org
 
 Paste this into the search box and press enter:
 
-```
 https://raw.githubusercontent.com/chargingthefuture/wiki-site/main/wiki-site/content/posts/how-to-check-me.md
-```
 
 You will get a calendar of dates. Each highlighted date is a day the Internet Archive took a copy. Click one and you are reading that post exactly as its text stood on that date, from a copy I did not make and cannot edit.
 
@@ -149,16 +147,12 @@ Two more you can try immediately
 
 These are archived and were checked by hand:
 
-```
 https://raw.githubusercontent.com/chargingthefuture/wiki-site/main/wiki-site/content/archive/discourse/Home.md
 https://raw.githubusercontent.com/chargingthefuture/wiki-site/main/wiki-site/content/archive/discourse/book-2-backyard-farming.md
-```
 
 And the blog's front page, which is a normal web page rather than a text file:
 
-```
 https://chargingthefuture.github.io/chargingthefuture/
-```
 
 What you are actually looking at
 
@@ -184,17 +178,13 @@ If you would rather build the address
 
 The pattern is:
 
-```
 https://raw.githubusercontent.com/chargingthefuture/wiki-site/main/ + the file's path in the repository
-```
 
 One thing will trip you up, and it trips me up too. The repository is called `wiki-site`, and inside it there is also a folder called `wiki-site`. So the word appears twice in every address, and an address with only one of them will not work:
 
-```
 .../chargingthefuture/wiki-site/main/wiki-site/content/posts/how-to-check-me.md
                       ^^^^^^^^^      ^^^^^^^^^
                       repository     folder inside it
-```
 
 If a lookup returns nothing, check that first. It is almost always this.
 
@@ -224,9 +214,7 @@ The one thing that does not work
 
 If you paste a normal article address into web.archive.org, like this one:
 
-```
 https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-to-check-me
-```
 
 you will find nothing. Not a gap — nothing, ever.
 

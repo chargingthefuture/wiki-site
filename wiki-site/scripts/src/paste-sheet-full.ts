@@ -83,7 +83,16 @@ function unwrapParagraphs(body: string): string {
   return body
     .split(/\n{2,}/)
     .map((block) => {
-      if (block.trimStart().startsWith('```')) return block;
+      // A fenced block keeps its lines exactly as written — one address per
+      // line — but sheds the ``` markers themselves. Quora shows the markers
+      // literally and turns the URLs into preview cards regardless, so the
+      // fences bought nothing and pasted as stray punctuation.
+      if (block.trimStart().startsWith('```')) {
+        return block
+          .split('\n')
+          .filter((line) => !/^\s*```/.test(line))
+          .join('\n');
+      }
 
       const out: string[] = [];
       for (const line of block.split('\n')) {
