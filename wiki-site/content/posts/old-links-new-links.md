@@ -1,15 +1,15 @@
 ---
 title: "Old links, new links"
-date: "2026-08-23"
-excerpt: "Seven Quora accounts erased, one space renamed. What is current, what is dead, and the one address that does not change."
+date: "2026-08-25"
+excerpt: "Eight Quora accounts erased, one space renamed. What is current, what is dead, and the one address that does not change."
 category: "Community"
-teaser: "Quora has erased my accounts seven times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. This page is the standing record: the current space, the current handle, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
+teaser: "Quora has erased my accounts eight times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. This page is the standing record: the current space, the current handle, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
 topics:
   - publishing
   - platform-independence
 ---
 
-Quora has erased my accounts seven times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
+Quora has erased my accounts eight times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
 
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
@@ -27,9 +27,9 @@ To reach me, save this link alongside the blog: https://sleek.bio/farah — it l
 
 The space: https://skillseconomy.quora.com
 
-My handles: https://www.quora.com/profile/Ctf-25 and https://www.quora.com/profile/Kingmingling
+My handle: https://www.quora.com/profile/King-s-Daughter-2
 
-Two at once, for the first time. Every handle before these replaced the one banned before it, one at a time. These two were opened together on August 23, 2026, after four bans in five days made replacing one at a time pointless.
+Opened August 25, 2026, the same day Kingmingling was banned.
 
 That is the complete list. If an account or space claims to be me, or to speak for the Skills Economy, and it is not on this page — it is not me. Check back here, not on Quora, because this page cannot be edited by anyone but me and every change to it is on the public record.
 
@@ -37,9 +37,9 @@ That is the complete list. If an account or space claims to be me, or to speak f
 
 https://tiskillsnetwork.quora.com — the original space. Replaced by skillseconomy.quora.com above. Links into it are dead.
 
-https://www.quora.com/profile/pedigree101 — my first handle. Erased by Quora with everything it ever posted.
+https://www.quora.com/profile/pedigree101 — my first handle. Banned by Quora on September 14, 2025, seventeen minutes after I posted the app's first release. A ban deletes everything the account ever posted, so all of it went with it.
 
-https://www.quora.com/profile/farah-brunache — my second handle. Its space was emptied by Quora on August 16, 2026 — every post deleted, the account and space left standing and bare.
+https://www.quora.com/profile/farah-brunache — my second handle. Banned by Quora on August 16, 2026. A Quora ban deletes everything the account ever posted, which is why the handle and its space are still standing and bare.
 
 https://www.quora.com/profile/KingStyle-3 — my third handle. Deleted by Quora on August 17, 2026, the same day this page first went up. That account posted exactly two things in its life: short summaries of two blog posts, each with one link back here. No reposting, no volume, no back catalog. Two posts was enough.
 
@@ -50,6 +50,8 @@ https://www.quora.com/profile/KingAndYou — my fifth handle. Banned by Quora Mo
 https://www.quora.com/profile/KingsRoad — my sixth handle, opened to replace the fifth. Banned by Quora Moderation on August 22, 2026, the day after it was opened, with the same wording.
 
 https://www.quora.com/profile/KingsYou — my seventh handle, opened to replace the sixth. Banned on August 23, 2026, also the day after it was opened, with the same wording.
+
+https://www.quora.com/profile/Kingmingling — my eighth handle. Banned by Quora Moderation on August 25, 2026, two days after it was opened, with the same wording again.
 
 ## Different every time, same label
 
@@ -87,4 +89,4 @@ The old GitHub wiki — an inactive mirror. It no longer receives updates; this 
 
 Nothing is written on a platform first anymore. Every post starts here, and platforms only ever get a short version and a link back. So the next time an account is erased — and I assume there will be a next time — the cost is one entry moving from the current list to the dead list on this page. That is all.
 
-Since this page first went up, that has happened five times. The list above is current.
+Since this page first went up, that has happened six times. The list above is current.
