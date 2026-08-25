@@ -95,10 +95,26 @@ function unwrapParagraphs(body: string): string {
       // literally and turns the URLs into preview cards regardless, so the
       // fences bought nothing and pasted as stray punctuation.
       if (block.trimStart().startsWith('```')) {
-        return block
-          .split('\n')
-          .filter((line) => !/^\s*```/.test(line))
-          .join('\n');
+        // Caret annotations (^^^^ under a column, with a label line after)
+        // are positional, and position does not survive a paste — the text
+        // rewraps at the reader's screen width, so the columns break no
+        // matter the font. The annotated line stays; the carets and their
+        // label go, and the surrounding prose carries the explanation.
+        const lines = block.split('\n').filter((line) => !/^\s*```/.test(line));
+        const kept: string[] = [];
+        let dropLabel = false;
+        for (const line of lines) {
+          if (/^[\s^]*\^[\s^]*$/.test(line)) {
+            dropLabel = true;
+            continue;
+          }
+          if (dropLabel) {
+            dropLabel = false;
+            continue;
+          }
+          kept.push(line);
+        }
+        return kept.join('\n');
       }
 
       const out: string[] = [];
