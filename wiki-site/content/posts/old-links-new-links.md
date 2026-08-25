@@ -27,7 +27,7 @@ To reach me, save this link alongside the blog: https://sleek.bio/farah — it l
 
 The space: https://skillseconomy.quora.com
 
-My handle: https://www.quora.com/profile/Ctf-25
+My handle: none at the moment. Kingmingling was banned on August 25, 2026, and its replacement is not open yet. When it is, it appears here first — so if a profile claims to be me before this line names one, it is not me.
 
 That is the complete list. If an account or space claims to be me, or to speak for the Skills Economy, and it is not on this page — it is not me. Check back here, not on Quora, because this page cannot be edited by anyone but me and every change to it is on the public record.
 
