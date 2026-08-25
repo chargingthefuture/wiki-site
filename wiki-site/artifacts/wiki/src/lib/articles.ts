@@ -28,18 +28,18 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
-    "slug": "Dictionary",
-    "title": "Dictionary: Skills Economy Terms",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-08-24",
-    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
-    "category": "Resources",
+    "slug": "looking-up-this-blog-in-the-wayback-machine",
+    "title": "Looking Up This Blog in the Wayback Machine",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-25",
+    "excerpt": "A walkthrough. How to find a copy of any post on this blog that I did not make and cannot alter, and how to get the address yourself rather than taking mine.",
+    "category": "Community",
     "collection": "posts",
-    "path": "posts/Dictionary.md",
-    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
+    "path": "posts/looking-up-this-blog-in-the-wayback-machine.md",
+    "teaser": "How to Check Me said the Internet Archive holds copies of these posts and gave one address. This is the walkthrough: how to look up any post, how to find its address yourself in about twenty seconds, how to read the capture calendar, and how to compare an old copy against what is live now. It also covers the one thing that does not work and why, so you do not waste time on it.",
     "topics": [
-      "reference",
-      "terms"
+      "publishing",
+      "platform-independence"
     ]
   },
   {
@@ -55,6 +55,21 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "knowledge-library",
       "safety"
+    ]
+  },
+  {
+    "slug": "Dictionary",
+    "title": "Dictionary: Skills Economy Terms",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-08-24",
+    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
+    "category": "Resources",
+    "collection": "posts",
+    "path": "posts/Dictionary.md",
+    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
+    "topics": [
+      "reference",
+      "terms"
     ]
   },
   {
