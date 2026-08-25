@@ -27,7 +27,9 @@ To reach me, save this link alongside the blog: https://sleek.bio/farah — it l
 
 The space: https://skillseconomy.quora.com
 
-My handle: none at the moment. The ninth was banned on August 25, 2026, the same day it was opened. The next handle will be added here when it exists.
+My handle: https://www.quora.com/profile/King-s-Son-1
+
+Opened August 25, 2026, the same day the ninth was banned.
 
 That is the complete list. If an account or space claims to be me, or to speak for the Skills Economy, and it is not on this page — it is not me. Check back here, not on Quora, because this page cannot be edited by anyone but me and every change to it is on the public record.
 
