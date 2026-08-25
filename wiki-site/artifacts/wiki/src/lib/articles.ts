@@ -105,6 +105,22 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "a-gated-community-and-who-could-plan-it",
+    "title": "A gated community, and who could plan it",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-25",
+    "excerpt": "A survivor-only gated community is one of the most common asks on Quora. It is possible, the objection to it is not grounded, and the app shows who could plan one.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/a-gated-community-and-who-could-plan-it.md",
+    "teaser": "A gated community for Targeted Individuals is one of the most common asks on Quora — this July someone asked it outright and people lined up in the comments to say they want in. My answer is that it is possible. The most common answer is that any such community would be infiltrated and destroyed, and that opinion is not grounded: marginalized groups live together today, and the people running this want survivors diluted and isolated, which is itself the reason to go the opposite direction. The app already sorts the people on the skills map into the ten teams the planning document needs.",
+    "topics": [
+      "community",
+      "workforce",
+      "directory"
+    ]
+  },
+  {
     "slug": "the-assistant-is-not-a-clinician",
     "title": "The Assistant Is Not a Clinician",
     "repo": "chargingthefuture/wiki-site",
