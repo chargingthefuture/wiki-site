@@ -58,6 +58,22 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "how-few-people-it-takes",
+    "title": "How few people it takes",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-25",
+    "excerpt": "A hundred people exchanging at a time is enough to live on. Not the same hundred — that is how every economy works, and it is why the number is reachable.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/how-few-people-it-takes.md",
+    "teaser": "Many survivors do not realize how close this is. A hundred people exchanging at a time is enough for a person to get work, a ride, a place to live. Not the same hundred — no economy anywhere requires the same people trading every day, which is exactly why the number is reachable. What stops people is waiting for an ending that is not coming in our lifetime. The communities of 1903 did not get one either, and they built anyway.",
+    "topics": [
+      "economy",
+      "model",
+      "history"
+    ]
+  },
+  {
     "slug": "the-assistant-is-not-a-clinician",
     "title": "The Assistant Is Not a Clinician",
     "repo": "chargingthefuture/wiki-site",
