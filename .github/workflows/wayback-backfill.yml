@@ -37,6 +37,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Full history: the skip check compares archive.org's newest snapshot
+          # against each file's last commit time. A shallow clone stamps every
+          # file with the head commit, so nothing would ever be skipped.
+          fetch-depth: 0
 
       - uses: pnpm/action-setup@v4
         with:
@@ -62,6 +67,10 @@ jobs:
           WAYBACK_RETRY_WAIT_MS: "60000"
           WAYBACK_MAX_RETRIES: "2"
           WAYBACK_SKIP_HOME: "1"
+          # Skip files archive.org already holds in a version newer than their
+          # last commit. Repeated passes and the Quora-promotion backfill then
+          # spend the rate limit only on what is actually missing.
+          WAYBACK_SKIP_ARCHIVED: "1"
         run: |
           if [ -n "$INPUT_PATHS" ]; then
             SELECTED="$INPUT_PATHS"
