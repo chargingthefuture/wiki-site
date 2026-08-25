@@ -325,6 +325,32 @@ Publishing a post is not finished until that file carries the new page. Every pu
 things: merge the post, add its entry to the paste sheet, and give the owner the Quora excerpt in
 the reply.
 
+## Two Paste Sheets (owner directive, 2026-08-25)
+
+`QUORA_PASTE_SHEET.txt` holds one short summary per published page, one entry per page,
+hand-written and numbered. That file stays as it is.
+
+`QUORA_PASTE_SHEET_FULL.txt` holds the whole text of each post, for when the whole thing
+should go up rather than a teaser. The owner uses the two interchangeably depending on
+what a given post needs.
+
+Two things about the full sheet differ from the summary sheet and both matter.
+
+It is generated, not written. Run `pnpm wiki:paste-full` after publishing. Never hand-edit
+it — edit the post and regenerate, or the two disagree and the post is the one that is
+right. The summary sheet is the opposite: every entry there is written fresh by hand, so
+that a paste never matches what the blog already shows.
+
+It starts at 2026-08-16 and does not reach back further. That is the day Quora banned the
+farah-brunache account and the day this blog became the source that platforms copy from.
+Everything from that day forward was written under one arrangement. Earlier posts were not,
+and the owner does not want them in this sheet.
+
+Quora's editor does not read markdown, so the generator converts: headings lose their
+hashes, links become `text (url)`, blockquotes lose their marker, bullets keep theirs. An
+image becomes its alt text — in credited posts the alt text carries somebody's quoted words,
+and dropping the image silently would drop the credit with it.
+
 ## Link the Plugins a Post Names (owner decision, 2026-08-20)
 
 Version 3 of the app launched in June 2026. Any post dated on or after 2026-06-01 that speaks

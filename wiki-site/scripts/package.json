@@ -10,7 +10,8 @@
     "sync-articles:dry": "tsx ./src/sync-articles.ts --dry-run",
     "convert:discourse": "tsx ./src/convert-discourse.ts",
     "convert:quora": "tsx ./src/convert-quora.ts",
-    "typecheck": "tsc -p tsconfig.json --noEmit"
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "paste-sheet-full": "tsx ./src/paste-sheet-full.ts"
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",
