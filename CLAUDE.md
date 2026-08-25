@@ -321,9 +321,11 @@ Each entry ends with a `Full post: <url>` line, and the label is load-bearing: a
 its own line is what Quora's editor converts into a preview card, while a URL inside a sentence is
 left as written. Paste the summary and that line together.
 
-Publishing a post is not finished until that file carries the new page. Every publish does three
-things: merge the post, add its entry to the paste sheet, and give the owner the Quora excerpt in
-the reply.
+Publishing a post is not finished until both paste sheets carry the new page. Every publish does
+four things: merge the post, write its entry into `QUORA_PASTE_SHEET.txt` by hand, run
+`pnpm wiki:paste-full` to regenerate `QUORA_PASTE_SHEET_FULL.txt`, and give the owner the Quora
+excerpt in the reply. Both sheets, every post, every time — see the next section for why the two
+are maintained differently.
 
 ## Two Paste Sheets (owner directive, 2026-08-25)
 
