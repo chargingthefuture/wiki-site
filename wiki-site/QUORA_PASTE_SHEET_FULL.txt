@@ -183,8 +183,6 @@ https://raw.githubusercontent.com/chargingthefuture/wiki-site/main/ + the file's
 One thing will trip you up, and it trips me up too. The repository is called wiki-site, and inside it there is also a folder called wiki-site. So the word appears twice in every address, and an address with only one of them will not work:
 
 .../chargingthefuture/wiki-site/main/wiki-site/content/posts/how-to-check-me.md
-                      ^^^^^^^^^      ^^^^^^^^^
-                      repository     folder inside it
 
 If a lookup returns nothing, check that first. It is almost always this.
 
