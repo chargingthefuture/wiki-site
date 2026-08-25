@@ -242,6 +242,18 @@ Ask only when meaning genuinely forks and the two readings produce different wor
 the reading that fits everything else they have said, write it, and let them correct a draft.
 Correcting is cheaper for them than explaining.
 
+## No Perp Language Outside the Archive (owner directive, 2026-08-25)
+
+No post other than an archive post may use perp language. "Gang stalking" is perp language. The
+Dictionary defines the replacement terms and is linked from posts; the inherited words themselves
+are not printed in current copy, not even to explain why they were abandoned — link the Dictionary
+and let it carry the vocabulary.
+
+Standing exceptions, checked 2026-08-25: Dictionary.md names the colloquial labels in quotes to
+define their replacements (definitional); quoted material keeps the speaker's words verbatim per
+the credit rule (e.g. the comment screenshot alt text in pizza-is-not-my-favorite-food.md);
+archive entries and reproduced historical posts keep their original text.
+
 ## Capitalizing Targeted Individual (owner directive, 2026-08-18)
 
 Write it Targeted Individual, capitalized, every time — singular or plural, and Targeted
