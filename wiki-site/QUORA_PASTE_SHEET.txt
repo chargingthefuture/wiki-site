@@ -26,8 +26,15 @@ corrected where it had drifted; 70 were rewritten. Entries added after that date
 are written from the post at the time it is published. So the file is no longer
 unverified — but it is still a staging file, and the post remains the record.
 
-339 of 339 written.
+340 of 340 written.
 
+
+==============================================================================
+No. 340 · 2026-08-25 · How few people it takes
+
+Two groups outnumber the survivors building an economy of our own: the people running the operations, and survivors who want nothing to do with other survivors. Against that, a hundred people sounds like nothing. It is not. A hundred people exchanging at a time — work, rides, rooms, repairs — is enough to live inside, and it does not have to be the same hundred. No economy anywhere requires the same people trading every day; a shop serves different customers Tuesday than Monday and is still a business Wednesday. The number is throughput, not a membership roll, and that is exactly why it is reachable. The math fits in three sentences: Singapore publishes what one worker in a pure skills economy produces, about $142,500 a year; a hundred people at that rate is about $14.3 million moving between them; that is capacity, not money in anyone's hands. What keeps people from the smaller, available thing is waiting for the big one — world peace, an end to trafficking — inside their own lifetime. I do not expect either. The communities that published their answer in 1903 did not get an ending, and built trade schools and businesses anyway. A person who believes they are the only one suffers more, and keeping each of us convinced of exactly that is most of what the operation is. A hundred people trading takes it apart directly.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-few-people-it-takes
 
 ==============================================================================
 No. 339 · 2026-08-25 · Looking Up This Blog in the Wayback Machine
