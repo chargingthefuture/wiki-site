@@ -49,6 +49,8 @@ https://raw.githubusercontent.com/chargingthefuture/wiki-site/main/wiki-site/con
 
 Swap the last part for whichever post you want. Then compare the capture against what the file says today.
 
+A step-by-step walkthrough of all of this — finding any post's raw address from GitHub, reading the capture calendar, and comparing an old copy against what is live — is here: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/looking-up-this-blog-in-the-wayback-machine
+
 One honest caveat. That job is best-effort — it is allowed to fail without failing the deploy, because the Internet Archive rate-limits and sometimes refuses a save. So a missing snapshot means the submission did not go through, not that a page was hidden. The captures that exist are real; their absence proves nothing either way.
 
 Correction, 2026-08-24: this section originally said the rendered article page archives alongside the raw text, and told you to paste the post's own address. Both were wrong. The rendered page has never archived successfully, and the raw address above is the one that works.
