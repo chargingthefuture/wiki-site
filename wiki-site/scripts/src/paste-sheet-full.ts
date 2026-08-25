@@ -21,6 +21,8 @@
  *                 carries the quoted words and dropping it would drop the credit
  *   blockquotes   lose their marker
  *   bullets       keep theirs, which reads correctly as-is
+ *   paragraphs    are unwrapped onto one line each, because Quora treats every
+ *                 newline as a paragraph break and the source is hard-wrapped
  *
  * Usage:  pnpm wiki:paste-full
  */
@@ -49,7 +51,42 @@ function toPasteable(markdown: string): string {
   body = body.replace(/^#{1,6}\s*/gm, '');
   body = body.replace(/^>\s?/gm, '');
   body = body.replace(/\n{3,}/g, '\n\n');
-  return body.trim();
+  return unwrapParagraphs(body).trim();
+}
+
+/**
+ * The markdown files are hard-wrapped for reading in a diff. Quora's editor
+ * treats every newline as a paragraph break, so a wrapped paragraph pastes as
+ * one short paragraph per source line, splitting sentences mid-clause.
+ *
+ * So each paragraph becomes a single long line. What must stay on its own line
+ * stays: a list item, a table row, and anything inside a fenced code block.
+ */
+function unwrapParagraphs(body: string): string {
+  const isListItem = (line: string) => /^\s*(?:[-*+]\s|\d+[.)]\s)/.test(line);
+  const isTableRow = (line: string) => /^\s*\|/.test(line);
+  // A table's |---|---| separator is markdown punctuation and nothing else, so
+  // it would paste as a row of dashes.
+  const isTableRule = (line: string) => /^\s*\|[\s|:-]*\|\s*$/.test(line);
+
+  return body
+    .split(/\n{2,}/)
+    .map((block) => {
+      if (block.trimStart().startsWith('```')) return block;
+
+      const out: string[] = [];
+      for (const line of block.split('\n')) {
+        if (isTableRule(line)) continue;
+        if (out.length === 0 || isListItem(line) || isTableRow(line) || isTableRow(out[out.length - 1])) {
+          out.push(line.trimEnd());
+          continue;
+        }
+        // A continuation line: fold it back onto the line it was wrapped from.
+        out[out.length - 1] = `${out[out.length - 1]} ${line.trim()}`;
+      }
+      return out.join('\n');
+    })
+    .join('\n\n');
 }
 
 function main() {

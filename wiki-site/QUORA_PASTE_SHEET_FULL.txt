@@ -142,6 +142,93 @@ To sign up: https://chargingthefuture.com. It is free, invite-only, and you can 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/looking-up-this-blog-in-the-wayback-machine
 
 ==============================================================================
+2026-08-25 · Old links, new links
+
+Quora has erased my accounts eight times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
+
+This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
+
+The one address that does not change
+
+Everything I write lives here, on this blog. Every post, in full, with a timestamped history that nobody can quietly empty.
+
+The fastest way to catch up is the feed — the short version of every post, newest first: https://chargingthefuture.com/feed
+
+Bookmark the blog, not any platform. Platform posts are excerpts and links back here; if a platform account dies, the links from that account die and nothing else.
+
+To reach me, save this link alongside the blog: https://sleek.bio/farah — it lists every current way to contact me, and it gets updated the same way this page does.
+
+Quora: current
+
+The space: https://skillseconomy.quora.com
+
+My handle: https://www.quora.com/profile/King-s-Daughter-2
+
+Opened August 25, 2026, the same day Kingmingling was banned.
+
+That is the complete list. If an account or space claims to be me, or to speak for the Skills Economy, and it is not on this page — it is not me. Check back here, not on Quora, because this page cannot be edited by anyone but me and every change to it is on the public record.
+
+Quora: dead
+
+https://tiskillsnetwork.quora.com — the original space. Replaced by skillseconomy.quora.com above. Links into it are dead.
+
+https://www.quora.com/profile/pedigree101 — my first handle. Banned by Quora on September 14, 2025, seventeen minutes after I posted the app's first release. A ban deletes everything the account ever posted, so all of it went with it.
+
+https://www.quora.com/profile/farah-brunache — my second handle. Banned by Quora on August 16, 2026. A Quora ban deletes everything the account ever posted, which is why the handle and its space are still standing and bare.
+
+https://www.quora.com/profile/KingStyle-3 — my third handle. Deleted by Quora on August 17, 2026, the same day this page first went up. That account posted exactly two things in its life: short summaries of two blog posts, each with one link back here. No reposting, no volume, no back catalog. Two posts was enough.
+
+https://www.quora.com/profile/KingMinds — my fourth handle. Banned by Quora Moderation on August 19, 2026. The stated reason: the account was linked to multiple violations of Quora's spam policies.
+
+https://www.quora.com/profile/KingAndYou — my fifth handle. Banned by Quora Moderation on August 21, 2026, with the same wording.
+
+https://www.quora.com/profile/KingsRoad — my sixth handle, opened to replace the fifth. Banned by Quora Moderation on August 22, 2026, the day after it was opened, with the same wording.
+
+https://www.quora.com/profile/KingsYou — my seventh handle, opened to replace the sixth. Banned on August 23, 2026, also the day after it was opened, with the same wording.
+
+https://www.quora.com/profile/Kingmingling — my eighth handle. Banned by Quora Moderation on August 25, 2026, two days after it was opened, with the same wording again.
+
+Different every time, same label
+
+Worth recording, because it is the part that settles the question.
+
+Each of these accounts ran a different content strategy. That was deliberate. One posted at volume. One posted twice in its entire life — two short summaries with a link back here, no reposting, no back catalog. Others sat between. Exactly one of them ever received a warning, and I changed how I posted after it.
+
+The last two did not last long enough to have a strategy at all. KingsRoad was opened to replace the account banned the day before, and was banned the next day. KingsYou was opened to replace KingsRoad, and was banned the next day. Whatever is deciding this is not reading the posts, because in those two cases there was almost nothing to read.
+
+They ended the same way regardless, and the reason given is the same boilerplate every time: financial gain and spam. Neither is true.
+
+I have the notices for the last four bans — August 19, August 21, August 22, August 23. The sentence naming the reason is word for word identical in all four: the account was linked to multiple violations of Quora's spam policies. Four different accounts, four different amounts of posting, one sentence.
+
+Financial gain first, because there is exactly one thing sitting behind that claim. One account posted that the app cost a dollar a month. That account was deleted.
+
+A dollar a month did not cover the hosting bill, never mind break even — I was donating plasma to keep the thing online, which is on this blog too. The price lasted a few months and then I made the app permanently free, which it has been ever since.
+
+So that is the entire basis: one post, one price, one account, and a price that lost money every month it existed. Every account after it mentioned no cost at all, because there is no cost. Those were deleted too, for financial gain.
+
+And if writing about something you built counted as financial gain, the rule would take out a large share of the accounts on the platform. Quora runs ads between the posts and has a paid tier that writers earn from — monetizing there is not merely permitted, it is built into the place. Charging people to read me on Quora would be fine. Giving it away is not.
+
+Spam is easier to answer. Two posts across an account's entire life is not spam under any definition anyone uses, and that account was deleted like the rest.
+
+So the label does not describe what happened. And when you change the variable and the outcome does not move, the variable was not the cause. There is no version of my posting that survives, and no adjustment left to make. That is worth knowing plainly rather than spending another account finding out.
+
+Nothing those accounts posted is lost. The posts are being restored to the archive section of this blog, each marked with the account it came from, the date it was originally posted, and a link to the original question where one still exists.
+
+Elsewhere: dead
+
+https://chargingthefuture.discourse.group — the Discourse blog, closed December 23, 2025. Every post was exported before it closed and lives in the archive here.
+
+The old GitHub wiki — an inactive mirror. It no longer receives updates; this blog is the canonical copy.
+
+The rule behind all of it
+
+Nothing is written on a platform first anymore. Every post starts here, and platforms only ever get a short version and a link back. So the next time an account is erased — and I assume there will be a next time — the cost is one entry moving from the current list to the dead list on this page. That is all.
+
+Since this page first went up, that has happened six times. The list above is current.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/old-links-new-links
+
+==============================================================================
 2026-08-24 · Dictionary: Skills Economy Terms
 
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
@@ -231,7 +318,6 @@ DEW — Directed Energy Weapon.
 Capabilities in the app today
 
 | Capability | What it is | Guide |
-|---|---|---|
 | Unlock (https://app.chargingthefuture.com/plugin/unlock) | Verification — how a new member gets approved to use the app | guide (https://app.chargingthefuture.com/guide#unlock) |
 | Directory (https://app.chargingthefuture.com/apps/directory) | Browse skills across the survivor community | guide (https://app.chargingthefuture.com/guide#directory) |
 | Workforce (https://app.chargingthefuture.com/apps/workforce) | Real-time work and skills distribution; the recruited count and capacity math live here | guide (https://app.chargingthefuture.com/guide#workforce) |
@@ -596,91 +682,6 @@ Where to find it in the app
 To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/knowledge-library-one-persons-writing
-
-==============================================================================
-2026-08-23 · Old links, new links
-
-Quora has erased my accounts seven times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
-
-This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
-
-The one address that does not change
-
-Everything I write lives here, on this blog. Every post, in full, with a timestamped history that nobody can quietly empty.
-
-The fastest way to catch up is the feed — the short version of every post, newest first: https://chargingthefuture.com/feed
-
-Bookmark the blog, not any platform. Platform posts are excerpts and links back here; if a platform account dies, the links from that account die and nothing else.
-
-To reach me, save this link alongside the blog: https://sleek.bio/farah — it lists every current way to contact me, and it gets updated the same way this page does.
-
-Quora: current
-
-The space: https://skillseconomy.quora.com
-
-My handles: https://www.quora.com/profile/Ctf-25 and https://www.quora.com/profile/Kingmingling
-
-Two at once, for the first time. Every handle before these replaced the one banned before it, one at a time. These two were opened together on August 23, 2026, after four bans in five days made replacing one at a time pointless.
-
-That is the complete list. If an account or space claims to be me, or to speak for the Skills Economy, and it is not on this page — it is not me. Check back here, not on Quora, because this page cannot be edited by anyone but me and every change to it is on the public record.
-
-Quora: dead
-
-https://tiskillsnetwork.quora.com — the original space. Replaced by skillseconomy.quora.com above. Links into it are dead.
-
-https://www.quora.com/profile/pedigree101 — my first handle. Erased by Quora with everything it ever posted.
-
-https://www.quora.com/profile/farah-brunache — my second handle. Its space was emptied by Quora on August 16, 2026 — every post deleted, the account and space left standing and bare.
-
-https://www.quora.com/profile/KingStyle-3 — my third handle. Deleted by Quora on August 17, 2026, the same day this page first went up. That account posted exactly two things in its life: short summaries of two blog posts, each with one link back here. No reposting, no volume, no back catalog. Two posts was enough.
-
-https://www.quora.com/profile/KingMinds — my fourth handle. Banned by Quora Moderation on August 19, 2026. The stated reason: the account was linked to multiple violations of Quora's spam policies.
-
-https://www.quora.com/profile/KingAndYou — my fifth handle. Banned by Quora Moderation on August 21, 2026, with the same wording.
-
-https://www.quora.com/profile/KingsRoad — my sixth handle, opened to replace the fifth. Banned by Quora Moderation on August 22, 2026, the day after it was opened, with the same wording.
-
-https://www.quora.com/profile/KingsYou — my seventh handle, opened to replace the sixth. Banned on August 23, 2026, also the day after it was opened, with the same wording.
-
-Different every time, same label
-
-Worth recording, because it is the part that settles the question.
-
-Each of these accounts ran a different content strategy. That was deliberate. One posted at volume. One posted twice in its entire life — two short summaries with a link back here, no reposting, no back catalog. Others sat between. Exactly one of them ever received a warning, and I changed how I posted after it.
-
-The last two did not last long enough to have a strategy at all. KingsRoad was opened to replace the account banned the day before, and was banned the next day. KingsYou was opened to replace KingsRoad, and was banned the next day. Whatever is deciding this is not reading the posts, because in those two cases there was almost nothing to read.
-
-They ended the same way regardless, and the reason given is the same boilerplate every time: financial gain and spam. Neither is true.
-
-I have the notices for the last four bans — August 19, August 21, August 22, August 23. The sentence naming the reason is word for word identical in all four: the account was linked to multiple violations of Quora's spam policies. Four different accounts, four different amounts of posting, one sentence.
-
-Financial gain first, because there is exactly one thing sitting behind that claim. One account posted that the app cost a dollar a month. That account was deleted.
-
-A dollar a month did not cover the hosting bill, never mind break even — I was donating plasma to keep the thing online, which is on this blog too. The price lasted a few months and then I made the app permanently free, which it has been ever since.
-
-So that is the entire basis: one post, one price, one account, and a price that lost money every month it existed. Every account after it mentioned no cost at all, because there is no cost. Those were deleted too, for financial gain.
-
-And if writing about something you built counted as financial gain, the rule would take out a large share of the accounts on the platform. Quora runs ads between the posts and has a paid tier that writers earn from — monetizing there is not merely permitted, it is built into the place. Charging people to read me on Quora would be fine. Giving it away is not.
-
-Spam is easier to answer. Two posts across an account's entire life is not spam under any definition anyone uses, and that account was deleted like the rest.
-
-So the label does not describe what happened. And when you change the variable and the outcome does not move, the variable was not the cause. There is no version of my posting that survives, and no adjustment left to make. That is worth knowing plainly rather than spending another account finding out.
-
-Nothing those accounts posted is lost. The posts are being restored to the archive section of this blog, each marked with the account it came from, the date it was originally posted, and a link to the original question where one still exists.
-
-Elsewhere: dead
-
-https://chargingthefuture.discourse.group — the Discourse blog, closed December 23, 2025. Every post was exported before it closed and lives in the archive here.
-
-The old GitHub wiki — an inactive mirror. It no longer receives updates; this blog is the canonical copy.
-
-The rule behind all of it
-
-Nothing is written on a platform first anymore. Every post starts here, and platforms only ever get a short version and a link back. So the next time an account is erased — and I assume there will be a next time — the cost is one entry moving from the current list to the dead list on this page. That is all.
-
-Since this page first went up, that has happened five times. The list above is current.
-
-Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/old-links-new-links
 
 ==============================================================================
 2026-08-23 · Knowledge That Survives a Ban
@@ -1261,7 +1262,6 @@ Six of these now have names
 Every layer of that trip is a scheme on the community's canonical list. The list is public: chargingthefuture.com/schemes (https://www.chargingthefuture.com/schemes).
 
 | What happened | Scheme |
-|---|---|
 | The unplanned rest stop that ran long, and the missed connection | The Engineered Delay |
 | The pair placed on the Denver leg, cashed in two days later | The Staged Run-In |
 | Luggage locks called a sign of drug trafficking; a public search that found nothing | The Pretext Search |
@@ -1532,8 +1532,7 @@ Quora deleted the account. It did not delete your right to a copy of what you wr
 
 From their own help page (https://help.quora.com/hc/en-us/articles/360000839503-Can-I-get-a-copy-of-my-data), quoted here in case that page moves:
 
-Yes. Quora will send an archive of your content and personal data to your account's primary email address on request. If you would like to request a copy of your data, you may do so by submitting a request via email to privacy@quora.com or by visiting quora.com/contact and selecting "I want a copy of my data"
-Please note that you will typically receive the archive within 72 hours of our team confirming that we have received your data request.
+Yes. Quora will send an archive of your content and personal data to your account's primary email address on request. If you would like to request a copy of your data, you may do so by submitting a request via email to privacy@quora.com or by visiting quora.com/contact and selecting "I want a copy of my data" Please note that you will typically receive the archive within 72 hours of our team confirming that we have received your data request.
 
 Once you have that archive, it does not have to sit in a folder. If what you wrote was about being targeted, you can lend it to the Knowledge Library (https://app.chargingthefuture.com/knowledge) — the reference the app's assistant answers from. It means a newcomer asking a question gets an answer shaped by more than one person's experience, and your writing goes on doing work after the platform that hosted it decided otherwise.
 
@@ -1768,7 +1767,6 @@ github.com/chargingthefuture/chargingthefuture/releases?q=wallpapers (https://gi
 Open the newest `wallpapers-v` release and pick the file that matches your phone:
 
 | File | Fits |
-|---|---|
 | `se-wallpaper-android-1080x2400.png` | Most current Android phones |
 | `se-wallpaper-iphone-16e-1170x2532.png` | iPhone 16e (also fits iPhone 13 and 14) |
 
@@ -2049,41 +2047,30 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-si
 ==============================================================================
 2026-08-17 · Our writing has a permanent home
 
-Quora has deleted my account twice. Both times, months of my answers, posts, and conversations
-disappeared overnight — not because anything was wrong with them, but because that is what
-platforms do to accounts like mine.
+Quora has deleted my account twice. Both times, months of my answers, posts, and conversations disappeared overnight — not because anything was wrong with them, but because that is what platforms do to accounts like mine.
 
 That stops mattering today.
 
 What changed
 
-Everything I write now lives in one place: a public, version-controlled archive at this site.
-Every post, every screenshot, every product update is a file in a public repository, with a
-timestamped history of when it was written and how it changed. Nobody can quietly empty it.
+Everything I write now lives in one place: a public, version-controlled archive at this site. Every post, every screenshot, every product update is a file in a public repository, with a timestamped history of when it was written and how it changed. Nobody can quietly empty it.
 
 This blog is the reading surface for that archive. It now has clear sections:
 
 - Posts — essays and community writing, like this one.
 - Product Updates — the weekly record of what changed in the app.
 - Guides, Insights, Member of the Day — practical material.
-- Archives — the historical record: everything from the closed Discourse forum, and the posts
-  from the erased Quora accounts as they are restored.
+- Archives — the historical record: everything from the closed Discourse forum, and the posts from the erased Quora accounts as they are restored.
 
 What this means for Quora (and any platform)
 
-Platforms are now distribution, not storage. A Quora post from me is a short excerpt and a link
-back to the full post here. If Quora erases the next account, the links from that account die —
-and nothing else. The writing, the screenshots, the history of the app and the work: all
-unaffected, all still here.
+Platforms are now distribution, not storage. A Quora post from me is a short excerpt and a link back to the full post here. If Quora erases the next account, the links from that account die — and nothing else. The writing, the screenshots, the history of the app and the work: all unaffected, all still here.
 
-The posts from the two erased accounts are being restored to the archive section, each marked
-with the account it came from, the date it was originally posted, and a link to the original
-question where one still exists.
+The posts from the two erased accounts are being restored to the archive section, each marked with the account it came from, the date it was originally posted, and a link to the original question where one still exists.
 
 Where to follow
 
-Bookmark this site. It is the one address that does not depend on any platform's tolerance:
-every new post appears here first, and platform posts will only ever point back to it.
+Bookmark this site. It is the one address that does not depend on any platform's tolerance: every new post appears here first, and platform posts will only ever point back to it.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/our-writing-has-a-permanent-home
 
