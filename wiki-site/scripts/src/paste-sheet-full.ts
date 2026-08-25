@@ -55,6 +55,11 @@ function toPasteable(markdown: string): string {
   body = body.replace(/\*\*([^*\n]+)\*\*/g, '$1');
   body = body.replace(/(^|[\s(])\*([^*\n]+)\*(?=[\s).,;:!?]|$)/gm, '$1$2');
   body = body.replace(/(^|[\s(])_([^_\n]+)_(?=[\s).,;:!?]|$)/gm, '$1$2');
+  // A bare filename like `how-to-check-me.md` looks like a web address to
+  // Quora (.md is a real domain ending), which turns it into a dead link even
+  // inside backticks. Dropping the extension leaves nothing to auto-link.
+  // Only bare names — a path with slashes does not match the linker's pattern.
+  body = body.replace(/`([A-Za-z0-9_-]+)\.md`/g, '`$1`');
   body = body.replace(/^>\s?/gm, '');
   body = body.replace(/\n{3,}/g, '\n\n');
   return unwrapParagraphs(body).trim();

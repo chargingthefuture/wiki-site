@@ -174,7 +174,7 @@ Three steps, and the third is a button.
 
 One. Open the repository: https://github.com/chargingthefuture/wiki-site
 
-Two. Navigate to the post. Posts live in `wiki-site/content/posts/`. Archived material from the old forum is in `wiki-site/content/archive/discourse/`, and archived Quora material will be in `wiki-site/content/archive/quora/`. The file names are readable — `how-to-check-me.md`, `a-safe-place-to-shower.md` — so you can usually find a post by its title.
+Two. Navigate to the post. Posts live in `wiki-site/content/posts/`. Archived material from the old forum is in `wiki-site/content/archive/discourse/`, and archived Quora material will be in `wiki-site/content/archive/quora/`. The file names are readable — `how-to-check-me`, `a-safe-place-to-shower` — so you can usually find a post by its title.
 
 Three. Open the file and click the Raw button, at the top right of the file view. The address bar now holds the raw address. Copy it, paste it into web.archive.org.
 
