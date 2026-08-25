@@ -28,6 +28,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "looking-up-this-blog-in-the-wayback-machine",
+    "title": "Looking Up This Blog in the Wayback Machine",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-25",
+    "excerpt": "A walkthrough. How to find a copy of any post on this blog that I did not make and cannot alter, and how to get the address yourself rather than taking mine.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/looking-up-this-blog-in-the-wayback-machine.md",
+    "teaser": "How to Check Me said the Internet Archive holds copies of these posts and gave one address. This is the walkthrough: how to look up any post, how to find its address yourself in about twenty seconds, how to read the capture calendar, and how to compare an old copy against what is live now. It also covers the one thing that does not work and why, so you do not waste time on it.",
+    "topics": [
+      "publishing",
+      "platform-independence"
+    ]
+  },
+  {
     "slug": "the-assistant-is-not-a-clinician",
     "title": "The Assistant Is Not a Clinician",
     "repo": "chargingthefuture/wiki-site",
