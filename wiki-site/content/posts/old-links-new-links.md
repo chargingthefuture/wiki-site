@@ -61,8 +61,6 @@ The last two did not last long enough to have a strategy at all. KingsRoad was o
 
 They ended the same way regardless, and the reason given is the same boilerplate every time: financial gain and spam. Neither is true.
 
-The wording is worth reading closely. Every notice says the account was banned because it was linked to multiple violations. Linked. Quora bans networks of accounts rather than accounts, which is why a spare handle opened alongside the one in use is not a spare at all — it goes down in the same sweep. That is not a workaround anyone can outrun by keeping a second one ready.
-
 I have the notices for the last four bans — August 19, August 21, August 22, August 23. The sentence naming the reason is word for word identical in all four: the account was linked to multiple violations of Quora's spam policies. Four different accounts, four different amounts of posting, one sentence.
 
 Financial gain first, because there is exactly one thing sitting behind that claim. One account posted that the app cost a dollar a month. That account was deleted.
