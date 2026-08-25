@@ -39,6 +39,8 @@ Exit their economy, exit the psyop.
 
 - Joel Montgomery, Past Master of Vandalia Lodge #491, answering "Do people like Freemasons and the Illuminati have control over the world?" on Quora (https://www.quora.com/Do-people-like-Freemasons-and-the-Illuminati-have-control-over-the-world/answer/Joel-Montgomery-2). The view from inside the lodges: no governing council exists, membership is aging and lodges are merging to survive, politics is a forbidden topic at their own meetings, and regimes have persecuted Masons by the tens of thousands — a group with world-shaping power would have protected its own, and could not.
 
+I am referring to this one answer, read in isolation. I do not know the writer and do not vouch for them, their other writing, or anything else on that page.
+
 ## Where to find it in the app
 
 - [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
