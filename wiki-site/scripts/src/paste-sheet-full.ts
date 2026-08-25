@@ -21,6 +21,7 @@
  *                 carries the quoted words and dropping it would drop the credit
  *   blockquotes   lose their marker
  *   bullets       keep theirs, which reads correctly as-is
+ *   bold/italic   lose their asterisks and underscores; the words stay
  *   paragraphs    are unwrapped onto one line each, because Quora treats every
  *                 newline as a paragraph break and the source is hard-wrapped
  *
@@ -49,6 +50,11 @@ function toPasteable(markdown: string): string {
   );
   body = body.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '$1 ($2)');
   body = body.replace(/^#{1,6}\s*/gm, '');
+  // Bold and italic markers paste literally — Quora's editor does not read
+  // them, so **One.** shows its asterisks. The words stay, the markers go.
+  body = body.replace(/\*\*([^*\n]+)\*\*/g, '$1');
+  body = body.replace(/(^|[\s(])\*([^*\n]+)\*(?=[\s).,;:!?]|$)/gm, '$1$2');
+  body = body.replace(/(^|[\s(])_([^_\n]+)_(?=[\s).,;:!?]|$)/gm, '$1$2');
   body = body.replace(/^>\s?/gm, '');
   body = body.replace(/\n{3,}/g, '\n\n');
   return unwrapParagraphs(body).trim();
