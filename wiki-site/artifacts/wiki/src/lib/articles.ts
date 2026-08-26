@@ -15,6 +15,7 @@ export interface ArticleArchive {
   sharedTo?: string[];
   screenshot?: string;
   screenshotAlt?: string;
+  screenshotCredit?: string;
   snapshotUrl?: string;
 }
 
@@ -17011,7 +17012,8 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "answer-comment",
       "screenshot": "images/lorenzo-2024-10-29-where-can-targeted-individuals-find-help.jpg",
-      "screenshotAlt": "Lorenzo's answer on Quora to the question 'Where can targeted individuals find help? How can I find others in my area to find local help or community?', the answer this comment was left under. Lorenzo (https://www.quora.com/profile/Lorenzo-896) wrote: This probably isn't what you want to hear, but don't take any help. I know it's tempting, but these kinds of things are almost always a set up. You can try online spaces like this, but even then, the 'legitness' is questionable at best. At least online you don't have to worry about someone physically being there causing you grief/destruction. What helped me the most was discovering my spiritual side, and a few family members who (i think) genuinely cared about me. — 2.1K views, 27 upvotes, submission accepted by Nat Morris."
+      "screenshotAlt": "Lorenzo's answer on Quora to the question 'Where can targeted individuals find help? How can I find others in my area to find local help or community?', the answer this comment was left under. Lorenzo (https://www.quora.com/profile/Lorenzo-896) wrote: This probably isn't what you want to hear, but don't take any help. I know it's tempting, but these kinds of things are almost always a set up. You can try online spaces like this, but even then, the 'legitness' is questionable at best. At least online you don't have to worry about someone physically being there causing you grief/destruction. What helped me the most was discovering my spiritual side, and a few family members who (i think) genuinely cared about me. — 2.1K views, 27 upvotes, submission accepted by Nat Morris.",
+      "screenshotCredit": "Lorenzo (https://www.quora.com/profile/Lorenzo-896)"
     }
   },
   {
