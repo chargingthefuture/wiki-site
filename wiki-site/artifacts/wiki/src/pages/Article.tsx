@@ -1,7 +1,6 @@
-import { useParams } from "wouter";
+import { useParams, useSearch, Link } from "wouter";
 import { motion } from "framer-motion";
 import { ArrowLeft, Clock, Calendar, AlertTriangle, Archive } from "lucide-react";
-import { Link } from "wouter";
 import { Layout } from "@/components/Layout";
 import { ShareLink } from "@/components/ShareLink";
 import { MarkdownRenderer } from "@/components/MarkdownRenderer";
@@ -29,17 +28,36 @@ export default function Article() {
 
   // Find meta data if it exists in our list
   const meta = findArticle(slug);
+
+  const from = new URLSearchParams(useSearch()).get("from") ?? "";
+  const backTo = from.startsWith("/record")
+    ? { href: from, label: "Back to The Record" }
+    : from.startsWith("/feed")
+      ? { href: from, label: "Back to The Feed" }
+      : null;
   const readTime = content ? estimateReadTime(content.length) : meta ? estimateReadTime(meta.excerpt.length * 20) : 5;
 
   return (
     <Layout>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16">
         
-        {/* Back button */}
-        <Link href="/" className="inline-flex items-center gap-2 font-heading font-bold text-lg uppercase text-gray-400 hover:text-white transition-colors mb-10 group bg-black border-2 border-gray-800 px-4 py-2 hover:border-white">
-          <ArrowLeft className="group-hover:-translate-x-1 transition-transform" size={20} />
-          Back to Terminal
-        </Link>
+        {/* Back buttons. The second one appears when the reader arrived from a
+            list surface: its link carried the list's full address in ?from=,
+            page number and filters included, so back returns them to the exact
+            place in the list they left. Only the two list surfaces are honored,
+            so a crafted address cannot point the button anywhere else. */}
+        <div className="flex flex-wrap gap-4 mb-10">
+          <Link href="/" className="inline-flex items-center gap-2 font-heading font-bold text-lg uppercase text-gray-400 hover:text-white transition-colors group bg-black border-2 border-gray-800 px-4 py-2 hover:border-white">
+            <ArrowLeft className="group-hover:-translate-x-1 transition-transform" size={20} />
+            Back to Terminal
+          </Link>
+          {backTo && (
+            <Link href={backTo.href} className="inline-flex items-center gap-2 font-heading font-bold text-lg uppercase text-gray-400 hover:text-white transition-colors group bg-black border-2 border-gray-800 px-4 py-2 hover:border-white">
+              <ArrowLeft className="group-hover:-translate-x-1 transition-transform" size={20} />
+              {backTo.label}
+            </Link>
+          )}
+        </div>
 
         {isLoading ? (
           <AppLoading />
