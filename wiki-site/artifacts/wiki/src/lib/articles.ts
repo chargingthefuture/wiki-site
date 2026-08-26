@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "the-two-generation-goal",
+    "title": "The two-generation goal",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-26",
+    "excerpt": "The 384 goal has two meanings, and past it sits the stretch goal: what the Du Bois cohort accomplished in one generation, we accomplish in two.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/the-two-generation-goal.md",
+    "teaser": "The last post ended at a turn; this one is where the building points. The 384 goal carries two meanings: a product benchmark on the way to five million, and my personal count — 384 people I know are real, trading at any given time. Past it sits the stretch goal: the Du Bois cohort laid an economic foundation in one generation out of the transatlantic slave trade; Estonia outlasted an occupier a hundred times its size. Those two histories bracket the extremes the modern-day Targeted Individual lives in. What took them one generation, we accomplish in two — and the economy helps now, not two generations from now.",
+    "topics": [
+      "economy",
+      "community",
+      "progress"
+    ]
+  },
+  {
     "slug": "from-them-to-me",
     "title": "From them to me",
     "repo": "chargingthefuture/wiki-site",
@@ -65,6 +81,21 @@ export const ARTICLES: ArticleMeta[] = [
       "community",
       "directory",
       "economy"
+    ]
+  },
+  {
+    "slug": "Dictionary",
+    "title": "Dictionary: Skills Economy Terms",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-08-26",
+    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
+    "category": "Resources",
+    "collection": "posts",
+    "path": "posts/Dictionary.md",
+    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
+    "topics": [
+      "reference",
+      "terms"
     ]
   },
   {
@@ -204,21 +235,6 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "knowledge-library",
       "safety"
-    ]
-  },
-  {
-    "slug": "Dictionary",
-    "title": "Dictionary: Skills Economy Terms",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-08-24",
-    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
-    "category": "Resources",
-    "collection": "posts",
-    "path": "posts/Dictionary.md",
-    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
-    "topics": [
-      "reference",
-      "terms"
     ]
   },
   {
