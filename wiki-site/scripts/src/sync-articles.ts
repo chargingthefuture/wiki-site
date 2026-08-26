@@ -63,6 +63,7 @@ interface ArticleRecord {
     removed?: boolean;
     sharedTo?: string[];
     screenshot?: string;
+    screenshotAlt?: string;
     snapshotUrl?: string;
   };
 }
@@ -168,6 +169,7 @@ function collectArticles(): ArticleRecord[] {
           ...(meta.archive.removed ? { removed: true } : {}),
           ...(meta.archive.shared_to?.length ? { sharedTo: meta.archive.shared_to } : {}),
           ...(meta.archive.screenshot ? { screenshot: meta.archive.screenshot } : {}),
+          ...(meta.archive.screenshot_alt ? { screenshotAlt: meta.archive.screenshot_alt } : {}),
           ...(meta.archive.snapshot_url ? { snapshotUrl: meta.archive.snapshot_url } : {}),
         };
       }
@@ -230,6 +232,7 @@ function render(articles: ArticleRecord[]): string {
     '  removed?: boolean;',
     '  sharedTo?: string[];',
     '  screenshot?: string;',
+    '  screenshotAlt?: string;',
     '  snapshotUrl?: string;',
     '}',
     '',

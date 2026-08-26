@@ -7,7 +7,7 @@ import { ShareLink } from "@/components/ShareLink";
 import { MarkdownRenderer } from "@/components/MarkdownRenderer";
 import { AppLoading } from "@/components/AppLoading";
 import { useArticle } from "@/hooks/use-article";
-import { findArticle } from "@/lib/content";
+import { findArticle, contentImageUrl } from "@/lib/content";
 import { estimateReadTime } from "@/lib/utils";
 import { formatArticleDate } from "@/lib/dates";
 import { KIND_LABELS } from "@/lib/archive-kinds";
@@ -118,6 +118,21 @@ export default function Article() {
                     ) : null}
                   </span>
                 </div>
+              )}
+
+              {meta?.archive?.screenshot && contentImageUrl(meta.archive.screenshot) && (
+                <figure className="mt-6">
+                  <img
+                    src={contentImageUrl(meta.archive.screenshot)}
+                    alt={meta.archive.screenshotAlt ?? `Screenshot of the original page: ${meta.title}`}
+                    className="w-full border-2 border-black"
+                    loading="lazy"
+                  />
+                  <figcaption className="font-mono text-xs text-gray-500 mt-2">
+                    Captured before the page came down. The pictured words are in this image's
+                    alt text, so they stay readable when the image cannot be seen.
+                  </figcaption>
+                </figure>
               )}
             </header>
 
