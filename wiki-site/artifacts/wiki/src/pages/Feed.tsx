@@ -95,7 +95,7 @@ export default function Feed() {
                     {article.teaser ?? article.excerpt}
                   </p>
                   <Link
-                    href={getArticleUrl(article.repo, article.slug)}
+                    href={`${getArticleUrl(article.repo, article.slug)}?from=${encodeURIComponent(search ? `/feed?${search}` : "/feed")}`}
                     className="font-heading text-lg text-primary uppercase font-bold hover:underline decoration-4 underline-offset-4"
                   >
                     Read the full post →
