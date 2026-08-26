@@ -117,10 +117,15 @@ for (const repoPath of trackedFiles()) {
     if (disabled) continue;
     // An address is not prose. Blank out URLs and the value of a frozen `slug:` before matching,
     // so a link minted with a British spelling is left working rather than quietly broken.
+    //
+    // `question:` is blanked for a different reason: it holds somebody else's question title,
+    // copied verbatim from a platform export, and respelling it would misquote the person who
+    // wrote it. The entry's own title and body are current copy and are still checked.
     const prose = line
       .replace(/https?:\/\/\S+/g, ' ')
       .replace(/\]\([^)]*\)/g, ']()')
-      .replace(/^(\s*slug:).*$/, '$1');
+      .replace(/^(\s*slug:).*$/, '$1')
+      .replace(/^(\s*question:).*$/, '$1');
     for (const { rule, pattern } of PATTERNS) {
       pattern.lastIndex = 0;
       const match = pattern.exec(prose);

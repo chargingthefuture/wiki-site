@@ -15,6 +15,13 @@ export interface ArchiveMeta {
   original_url?: string;
   original_date?: string;
   status?: string; // "erased" | "closed"
+  kind?: string; // what it was on the platform, e.g. "answer-comment"
+  space?: string; // the space it was written in, when it was not the author's own
+  question?: string; // the question title it was written under
+  removed?: boolean; // taken down by the platform while the account was still live
+  shared_to?: string[]; // other spaces the same piece was carried into
+  screenshot?: string; // "images/<file>" — a picture of the original page
+  snapshot_url?: string; // a saved copy of the original page, where one exists
 }
 
 export interface ContentMeta {
