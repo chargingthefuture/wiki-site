@@ -60,9 +60,8 @@ interface RecordEntry {
 const NUMBER_WORDS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
 
 /** Small counts read as words in a sentence and as digits in a stat tile. */
-function spell(n: number, capitalize = false): string {
-  const word = NUMBER_WORDS[n] ?? String(n);
-  return capitalize ? word.charAt(0).toUpperCase() + word.slice(1) : word;
+function spell(n: number): string {
+  return NUMBER_WORDS[n] ?? String(n);
 }
 
 function monthKey(date: string): string {
@@ -153,6 +152,22 @@ export default function Record() {
     return { counts, busiest };
   }, [entries]);
 
+  /**
+   * How long the writing ran. A count of erased accounts was here and had to go:
+   * Quora keeps deleting them, so any number printed on this page is wrong by the
+   * next ban. Old links, new links is the one page that tracks that, and it is
+   * linked above. The span is a fact about the writing and does not move.
+   */
+  const months = useMemo(() => {
+    if (!all.length) return 0;
+    const first = new Date(`${all[0].date}T12:00:00Z`);
+    const last = new Date(`${all[all.length - 1].date}T12:00:00Z`);
+    return Math.max(
+      1,
+      Math.round((last.getTime() - first.getTime()) / (1000 * 60 * 60 * 24 * 30.44)),
+    );
+  }, [all]);
+
   const pageCount = Math.max(1, Math.ceil(entries.length / PER_PAGE));
   const requested = Number(params.get("page") ?? "1");
   const page = Number.isFinite(requested)
@@ -233,12 +248,6 @@ export default function Record() {
               {spell(accounts.length)} accounts that held it, along with every
               link anyone had ever saved pointing at any of it.
             </p>
-            {RECORD_MARKERS.length > accounts.length && (
-              <p className="font-sans text-lg text-gray-200">
-                {spell(RECORD_MARKERS.length - accounts.length, true)} more
-                accounts were erased after the writing had already stopped.
-              </p>
-            )}
             <p className="font-sans text-lg text-gray-200">
               This is that writing, in the order it was written, at an address
               nobody else can empty. Scattered across other people's questions
@@ -250,7 +259,15 @@ export default function Record() {
             <Link href="/feed" className="text-primary font-bold hover:underline decoration-2 underline-offset-4">
               The Feed
             </Link>
-            , newest first.
+            , newest first. The accounts erased since, and which handles are
+            current, are kept on{" "}
+            <Link
+              href={getArticleUrl("chargingthefuture/wiki-site", "old-links-new-links")}
+              className="text-primary font-bold hover:underline decoration-2 underline-offset-4"
+            >
+              Old links, new links
+            </Link>
+            .
           </p>
         </div>
 
@@ -259,7 +276,7 @@ export default function Record() {
             { label: "Entries", value: all.length.toLocaleString() },
             { label: "Questions written under", value: reach.questions.toLocaleString() },
             { label: "Spaces written into", value: reach.spaces.toLocaleString() },
-            { label: "Accounts erased", value: String(RECORD_MARKERS.length) },
+            { label: "Months of it", value: String(months) },
           ].map((stat) => (
             <div key={stat.label} className="comic-panel bg-card p-4">
               <dt className="font-mono text-xs uppercase tracking-widest text-gray-500">{stat.label}</dt>
@@ -466,11 +483,6 @@ export default function Record() {
 
         {trailingMarkers.length > 0 && (
           <div className="mt-10 ml-3 border-l-4 border-gray-800 pl-6 sm:pl-8 space-y-4">
-            {page === pageCount && (
-              <p className="font-heading text-sm uppercase tracking-widest text-gray-500 font-bold">
-                After the writing stopped
-              </p>
-            )}
             {trailingMarkers.map((m) => (
               <Erasure key={m.handle} marker={m} />
             ))}

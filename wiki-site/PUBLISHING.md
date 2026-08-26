@@ -105,10 +105,11 @@ Rules of the posture:
   spread across. Nothing on it is in the feed: every imported entry carries `listed: false`,
   because the feed carries copy-edited writing and the copy-edit pass in the
   `chargingthefuture/quora` repository is what promotes a piece there.
-  Each account's erasure is drawn across it at the date it happened, from
-  `content/record-markers.yaml`. That list is closed at seven and does not grow: nothing is
-  authored on Quora any more, so an account lost now takes no writing with it. A later ban goes
-  on `content/posts/old-links-new-links.md` and not there. Link `/feed` for what is being said now and `/record` for the
+  The two takedowns that destroyed this writing are drawn across it at the date they happened,
+  from `content/record-markers.yaml`. That list is closed and is not a tally: Quora keeps
+  deleting accounts, so a count printed on The Record would be wrong by the next ban. The running
+  list of erased accounts and current handles lives on `content/posts/old-links-new-links.md`
+  alone, and The Record links it. Link `/feed` for what is being said now and `/record` for the
   run of work behind it.
 - Spend no effort on platform carefulness beyond these measures (owner decision, 2026-08-17).
   Good-faith compliance was tested and bought nothing: an account that posted exactly two
