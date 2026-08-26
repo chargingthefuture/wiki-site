@@ -14,7 +14,7 @@ archive:
   question: "Would your partner to your kids join gang stalking to target you? Could they be using women and men as sex for his pleasures? Can that happen? Why?"
 ---
 
-Yes to both your questions. Why? There are various reasons people gstalk. [Matthew Cappadocia (aka The Wizard of Oz)](https://www.quora.com/profile/Matthew-Cappadocia-aka-The-Wizard-of-Oz) provides a list of some examples of why people do it:
+Yes to both your questions. Why? There are various reasons people gstalk. Matthew Cappadocia (aka The Wizard of Oz) (https://www.quora.com/profile/Matthew-Cappadocia-aka-The-Wizard-of-Oz) provides a list of some examples of why people do it:
 
 > In general, I put people into 5 basic categories.
 > 

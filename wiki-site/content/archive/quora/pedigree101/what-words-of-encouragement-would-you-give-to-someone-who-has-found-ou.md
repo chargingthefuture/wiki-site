@@ -25,7 +25,7 @@ There is no telling what “stage” you are at. And so I do not know how much y
 
 It is tedious as a lot of people ramble or are incoherent. But read through various Quora posts of TIs so you can avoid as much of their traps as possible.
 
-[Matthew Cappadocia (aka The Wizard of Oz)](https://www.quora.com/profile/Matthew-Cappadocia-aka-The-Wizard-of-Oz) has the best posts because he describes specific incidents well. And if he doesn’t know something he does not pretend to and starts conspiracy theories and spreading misinformation.
+Matthew Cappadocia (aka The Wizard of Oz) (https://www.quora.com/profile/Matthew-Cappadocia-aka-The-Wizard-of-Oz) has the best posts because he describes specific incidents well. And if he doesn’t know something he does not pretend to and starts conspiracy theories and spreading misinformation.
 
 For example, thanks to him sharing about how his family got him committed to a mental institution, I was able to avoid that common trick. He also shared about the fake therapist but I read that story too late. They sent my way a fake social worker, end result all my clothes stolen along with my car. Now they are starving me out. By reading other stories you can quickly recognize when a game is being played on you and avoid it.
 

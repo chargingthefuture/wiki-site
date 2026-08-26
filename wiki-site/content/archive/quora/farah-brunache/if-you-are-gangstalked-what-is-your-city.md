@@ -15,7 +15,7 @@ archive:
   question: "If you are gangstalked, what is your city?"
 ---
 
-If you are looking for other TIs visit [Matthew Cappadocia (aka The Wizard of Oz)](https://www.quora.com/profile/Matthew-Cappadocia-aka-The-Wizard-of-Oz) space:
+If you are looking for other TIs visit Matthew Cappadocia (aka The Wizard of Oz) (https://www.quora.com/profile/Matthew-Cappadocia-aka-The-Wizard-of-Oz) space:
 
 Original post
 
