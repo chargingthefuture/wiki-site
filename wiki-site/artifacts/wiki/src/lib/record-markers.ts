@@ -13,8 +13,7 @@ export const RECORD_MARKERS: RecordMarker[] = [
   {
     "date": "2025-09-14",
     "handle": "pedigree101",
-    "what": "Erased, with everything it had posted.",
-    "note": "Dated by the account's last recorded activity; the export does not carry the takedown itself."
+    "what": "Banned seventeen minutes after posting the app's first release announcement. A ban deletes everything the account ever posted, so all of it went with it."
   },
   {
     "date": "2026-08-16",

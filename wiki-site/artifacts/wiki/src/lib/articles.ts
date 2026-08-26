@@ -6652,6 +6652,24 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/can-electronic-harassment-send-specific-dreams-while-you-sleep",
+    "title": "Can electronic harassment send specific dreams while you sleep?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-05",
+    "excerpt": "Yes. It only happened to me one time. They (gang stalkers) do it to my mother, perhaps every night, to dictate her actions during the day. She is religious.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/can-electronic-harassment-send-specific-dreams-while-you-sleep.md",
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalDate": "2025-10-05",
+      "status": "erased",
+      "kind": "answer",
+      "question": "Can electronic harassment send specific dreams whilst you sleep?"
+    }
+  },
+  {
     "slug": "farah-brunache/how-do-my-creepy-neighbors-who-have-hacked-my-cell-phone-change-what-t",
     "title": "How do my creepy neighbors who have hacked my cell phone change what the articles are in Quora/what I see on…",
     "repo": "chargingthefuture/wiki-site",
@@ -6741,24 +6759,6 @@ export const ARTICLES: ArticleMeta[] = [
       "account": "chargingthefuture.discourse.group",
       "originalDate": "2025-10-05",
       "status": "closed"
-    }
-  },
-  {
-    "slug": "farah-brunache/can-electronic-harassment-send-specific-dreams-while-you-sleep",
-    "title": "Can electronic harassment send specific dreams while you sleep?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-10-05",
-    "excerpt": "Yes. It only happened to me one time. They (gang stalkers) do it to my mother, perhaps every night, to dictate her actions during the day. She is religious.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/can-electronic-harassment-send-specific-dreams-while-you-sleep.md",
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalDate": "2025-10-05",
-      "status": "erased",
-      "kind": "answer",
-      "question": "Can electronic harassment send specific dreams whilst you sleep?"
     }
   },
   {
@@ -9909,6 +9909,24 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "pedigree101/can-electronic-harassment-send-specific-dreams-while-you-sleep-2",
+    "title": "Can electronic harassment send specific dreams while you sleep?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-30",
+    "excerpt": "Yes. But it only happened to me one time. They (gang stalkers) do it to my mother perhaps every night to dictate her actions during the day. She is religious.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/can-electronic-harassment-send-specific-dreams-while-you-sleep-2.md",
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalDate": "2025-08-30",
+      "status": "erased",
+      "kind": "answer",
+      "question": "Can electronic harassment send specific dreams whilst you sleep?"
+    }
+  },
+  {
     "slug": "pedigree101/how-involved-do-you-think-churches-are-in-making-people-targeted-indiv",
     "title": "How involved do you think churches are in making people Targeted Individuals, managing targeting itself?",
     "repo": "chargingthefuture/wiki-site",
@@ -9944,24 +9962,6 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "answer",
       "question": "I know this sounds far fetched but do gang stalkers have devices that can cause nightmares and bad dreams or maybe it's just a byproduct of the constant abuses I've suffered?"
-    }
-  },
-  {
-    "slug": "pedigree101/can-electronic-harassment-send-specific-dreams-while-you-sleep-2",
-    "title": "Can electronic harassment send specific dreams while you sleep?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-30",
-    "excerpt": "Yes. But it only happened to me one time. They (gang stalkers) do it to my mother perhaps every night to dictate her actions during the day. She is religious.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/can-electronic-harassment-send-specific-dreams-while-you-sleep-2.md",
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalDate": "2025-08-30",
-      "status": "erased",
-      "kind": "answer",
-      "question": "Can electronic harassment send specific dreams whilst you sleep?"
     }
   },
   {
@@ -16323,25 +16323,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/in-my-experience-the-intensity-was-in-fact-differenet-at-different-sta",
-    "title": "In my experience the intensity was in fact differenet at different stages in my life.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2024-12-02",
-    "excerpt": "In my experience the intensity was in fact differenet at different stages in my life. And I believe it is planned that way.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/in-my-experience-the-intensity-was-in-fact-differenet-at-different-sta.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/How-long-do-most-targeted-individuals-live-after-being-gangstalked-for-several-years/answers/102379222",
-      "originalDate": "2024-12-02",
-      "status": "erased",
-      "kind": "answer-comment"
-    }
-  },
-  {
     "slug": "farah-brunache/if-i-could-upvote-this-a-thousand-times-i-would",
     "title": "If I could upvote this a thousand times I would.",
     "repo": "chargingthefuture/wiki-site",
@@ -16355,6 +16336,25 @@ export const ARTICLES: ArticleMeta[] = [
       "source": "quora",
       "account": "farah-brunache",
       "originalUrl": "https://www.quora.com/How-long-do-most-targeted-individuals-live-after-being-gangstalked-for-several-years/answers/1477743745112238",
+      "originalDate": "2024-12-02",
+      "status": "erased",
+      "kind": "answer-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/in-my-experience-the-intensity-was-in-fact-differenet-at-different-sta",
+    "title": "In my experience the intensity was in fact differenet at different stages in my life.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2024-12-02",
+    "excerpt": "In my experience the intensity was in fact differenet at different stages in my life. And I believe it is planned that way.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/in-my-experience-the-intensity-was-in-fact-differenet-at-different-sta.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/How-long-do-most-targeted-individuals-live-after-being-gangstalked-for-several-years/answers/102379222",
       "originalDate": "2024-12-02",
       "status": "erased",
       "kind": "answer-comment"
