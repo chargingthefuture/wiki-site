@@ -36,6 +36,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "two-years-to-find-three-people",
+    "title": "Two years to find three people",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-26",
+    "excerpt": "In two years on Quora, three Targeted Individuals made a life-changing impact in helping me as a targeted person. Skills Economy exists so the next person does not need two years to find theirs.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/two-years-to-find-three-people.md",
+    "teaser": "The Record shows two years of showing up on Quora. Here is what those two years bought: three Targeted Individuals who made a life-changing impact in helping me as a targeted person — a job, not freezing, an escape from the Forced Homecoming scheme, and moral support. Finding them meant filtering, by hand, through operatives posing as survivors, survivors who did not want to help, and survivors who wanted to but could not. Skills Economy is the culmination of that work and that generosity — it exists so the next person's search takes closer to twenty-four hours than two years, with no operatives in the loop.",
+    "topics": [
+      "community",
+      "directory",
+      "economy"
+    ]
+  },
+  {
     "slug": "the-record-reads-forwards",
     "title": "The Record reads forwards",
     "repo": "chargingthefuture/wiki-site",
