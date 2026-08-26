@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "space-submission"
+  original_url: "https://exposesandiegomayortoddgloria.quora.com/Matthew-Cappadocia-aka-The-Wizard-of-Oz-your-byline-changed-Is-the-different-one-a-bot-post"
   original_date: "2024-10-31"
   status: "erased"
   space: "EXPOSE SAN DIEGO MAYOR TODD GLORIA AS A STALKER"

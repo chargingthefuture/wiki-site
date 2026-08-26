@@ -16950,6 +16950,7 @@ export const ARTICLES: ArticleMeta[] = [
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
+      "originalUrl": "https://exposesandiegomayortoddgloria.quora.com/Matthew-Cappadocia-aka-The-Wizard-of-Oz-your-byline-changed-Is-the-different-one-a-bot-post-I-thought-he-byline-was-d",
       "originalDate": "2024-10-31",
       "status": "erased",
       "kind": "space-submission",
@@ -16969,6 +16970,7 @@ export const ARTICLES: ArticleMeta[] = [
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
+      "originalUrl": "https://exposesandiegomayortoddgloria.quora.com/Matthew-Cappadocia-aka-The-Wizard-of-Oz-your-byline-changed-Is-the-different-one-a-bot-post",
       "originalDate": "2024-10-31",
       "status": "erased",
       "kind": "space-submission",
