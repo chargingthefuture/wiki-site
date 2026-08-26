@@ -329,6 +329,8 @@ const NEVER_IMPORT = new Set(['Inbox Messages', 'Profile Photo']);
  * Why an export item did not become an entry. Reported at the end: a silent
  * drop in an import of this size is indistinguishable from a parsing bug.
  */
+const questionShares: Array<{ question: string; space: string }> = [];
+
 const drops: Record<string, number> = {
   own_space: 0,
   no_words_of_own: 0,
@@ -380,6 +382,18 @@ function buildEntry(item: ExportItem, dirs: string[]): Entry | null {
 
   const rawHtml = f.Content?.html || f['Post content']?.html || f.Text?.html || '';
   if (!plain(rawHtml)) {
+    // A submission with no words of its own but a question attached is still a
+    // record of something: the author pushing a question into a space. The
+    // export's Questions section never says where a question was asked, so this
+    // is the only place that location survives — held here and folded onto the
+    // matching question entry, rather than dropped.
+    if (kind === 'space-submission' && f.Question?.text && f['Space name']?.text) {
+      questionShares.push({
+        question: normalizeForDedupe(f.Question.text),
+        space: f['Space name'].text,
+      });
+      return null;
+    }
     drops[kind === 'space-post' || kind === 'space-submission' ? 'no_words_of_own' : 'empty']++;
     return null;
   }
@@ -529,6 +543,24 @@ function main() {
     kept.push(e);
   }
 
+  // A question-only submission names the space a question was pushed into —
+  // the one place the export records where a question was asked.
+  let questionSharesFolded = 0;
+  for (const share of questionShares) {
+    const host = kept.find(
+      (e) =>
+        e.kind === 'question' &&
+        (e.dedupeKey.replace(/^body:/, '').startsWith(share.question.slice(0, 150)) ||
+          share.question.startsWith(e.dedupeKey.replace(/^body:/, '').slice(0, 150))),
+    );
+    if (host) {
+      if (!host.sharedTo.includes(share.space)) host.sharedTo.push(share.space);
+      questionSharesFolded++;
+    } else {
+      drops.no_words_of_own++;
+    }
+  }
+
   kept.sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
 
   const used = existingSlugs();
@@ -554,6 +586,7 @@ function main() {
   console.log(`  export items read:        ${rawItems.length}`);
   console.log(`  private/never imported:   ${skipped}`);
   console.log(`  submissions folded in:    ${folded}`);
+  console.log(`  question shares folded:   ${questionSharesFolded} (the space a question was asked into)`);
   console.log(`  images copied:            ${[...copiedImages.values()].filter(Boolean).length}`);
   console.log(`  dialect fixes applied:    ${respelled} (British spelling → US; addresses untouched)`);
   console.log(`  entries ${isDryRun ? 'that would be written' : 'written'}: ${written}`);

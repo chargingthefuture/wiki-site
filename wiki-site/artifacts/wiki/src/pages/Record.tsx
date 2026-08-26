@@ -4,6 +4,7 @@ import { Link2Off, ShieldOff, Camera, Share2 } from "lucide-react";
 import { Layout } from "@/components/Layout";
 import { ARTICLES, getArticleUrl, type ArticleMeta } from "@/lib/articles";
 import { RECORD_MARKERS } from "@/lib/record-markers";
+import { KIND_LABELS } from "@/lib/archive-kinds";
 import { contentImageUrl } from "@/lib/content";
 import { formatArticleDate } from "@/lib/dates";
 
@@ -33,19 +34,6 @@ import { formatArticleDate } from "@/lib/dates";
  */
 
 const PER_PAGE = 25;
-
-/** Plain-language label for what an entry was on the platform. */
-const KIND_LABELS: Record<string, string> = {
-  answer: "Answer",
-  "answer-comment": "Comment on an answer",
-  "answer-draft": "Unpublished draft",
-  credential: "Profile credential",
-  "post-comment": "Comment on a post",
-  question: "Question asked",
-  "question-comment": "Comment on a question",
-  "space-post": "Post in someone else's space",
-  "space-submission": "Submitted to a space",
-};
 
 const ACCOUNT_LABELS: Record<string, string> = {
   "farah-brunache": "farah-brunache",

@@ -3402,7 +3402,10 @@ export const ARTICLES: ArticleMeta[] = [
       "originalUrl": "https://www.quora.com/I-met-a-fake-TI-from-Quora-Damon-Mayle-he-has-since-deleted-his-profile-But-I-have-written-about-him-in-my-space-and-a-few-of-the-things-he-did-One-thing-he-tried-to-do-was-to-get-me-to-go-to-a-Salvation-Army-It-was-obvious-so-I-did-not-go-to-one-Fast-forward-weeks-later-I-am-waiting-in-line-at-a-building-and-the-line-is-long-so-it-passes-in-front-of-a-Salvation-Army-though-I-did-not-know-that-is-what-that-building-was-An-employee-of-Salvation-Army-walks-up-to-me-and-punches-me-in-the-face-And-another-calls-me-a-btch-And-since-then-perps-are-begging-me-to-press-charges-against-the-Salvation-Army-Are-they-similar-to-Jehovah-WitnessesFreemasons-Or-are-the-perps-simply-trying-to-make-me-cry-or-commit-suicide-which-they-have-asked-me-to-do-by-rehashing-the-event",
       "originalDate": "2025-12-30",
       "status": "erased",
-      "kind": "question"
+      "kind": "question",
+      "sharedTo": [
+        "US-PSYOPS-TARGETED-INDIVIDUALS"
+      ]
     }
   },
   {
@@ -15480,7 +15483,14 @@ export const ARTICLES: ArticleMeta[] = [
       "originalUrl": "https://www.quora.com/The-gang-stalkers-are-always-starting-physical-fights-with-me-on-the-street-Obviously-to-slander-me-to-new-recruits-Today-I-had-to-push-one-off-of-me-as-they-were-threatening-to-hit-me-with-a-glass-bottle-It-has-been-several-years-of-the-physical-fights-and-it-is-only-escalating-The-last-fight-they-threw-a-full-soda-can-at-the-back-of-my-head-Any-advice-Should-I-start-live-streaming",
       "originalDate": "2025-05-20",
       "status": "erased",
-      "kind": "question"
+      "kind": "question",
+      "sharedTo": [
+        "Zersetzung - Decomposition Psychology",
+        "Ultimate Anti-Surveilance Gangstalking Directory",
+        "U.S. Anti GANG STALKING",
+        "Gangstalked: What made me a Target?",
+        "Real GangStalking Victims and Evidence"
+      ]
     }
   },
   {
@@ -15499,7 +15509,10 @@ export const ARTICLES: ArticleMeta[] = [
       "originalUrl": "https://www.quora.com/The-gang-stalkers-are-always-starting-physical-fights-with-me-on-the-street-Obviously-to-slander-me-to-new-recruits-Today-one-threatened-to-hit-me-with-a-glass-bottle-It-has-been-several-years-of-this-and-they-are-escalating-The-last-fight-they-threw-a-full-soda-can-at-the-back-of-my-head-Any-advice-Should-I-start-live-streaming",
       "originalDate": "2025-05-20",
       "status": "erased",
-      "kind": "question"
+      "kind": "question",
+      "sharedTo": [
+        "Zersetzung - Decomposition Psychology"
+      ]
     }
   },
   {
@@ -16012,7 +16025,16 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "question",
       "sharedTo": [
-        "Resistance is NOT futile."
+        "Resistance is NOT futile.",
+        "US-PSYOPS-TARGETED-INDIVIDUALS",
+        "Real GangStalking Victims and Evidence",
+        "Zersetzung - Decomposition Psychology",
+        "U.S. Anti GANG STALKING",
+        "Targeted individuals network",
+        "Gangstalked: What made me a Target?",
+        "Ultimate Anti-Surveilance Gangstalking Directory",
+        "Targeted Ideas",
+        "TIs are humans too"
       ]
     }
   },
@@ -16973,7 +16995,10 @@ export const ARTICLES: ArticleMeta[] = [
       "originalUrl": "https://www.quora.com/When-gang-stalkers-text-my-phone-is-it-installing-spyware",
       "originalDate": "2024-10-12",
       "status": "erased",
-      "kind": "question"
+      "kind": "question",
+      "sharedTo": [
+        "Targeted Individuals - Get Answers"
+      ]
     }
   },
 ];

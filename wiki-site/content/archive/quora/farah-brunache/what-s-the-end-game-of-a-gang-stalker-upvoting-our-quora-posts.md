@@ -13,6 +13,15 @@ archive:
   status: "erased"
   shared_to:
     - "Resistance is NOT futile."
+    - "US-PSYOPS-TARGETED-INDIVIDUALS"
+    - "Real GangStalking Victims and Evidence"
+    - "Zersetzung - Decomposition Psychology"
+    - "U.S. Anti GANG STALKING"
+    - "Targeted individuals network"
+    - "Gangstalked: What made me a Target?"
+    - "Ultimate Anti-Surveilance Gangstalking Directory"
+    - "Targeted Ideas"
+    - "TIs are humans too"
 ---
 
 What's the end game of a gang stalker upvoting our Quora posts? I have several blantant without a doubt gang stalkers upvoting answers I have made?
