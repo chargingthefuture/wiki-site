@@ -37,6 +37,8 @@ Proposed, not settled. Correct them on the first post rather than in the abstrac
 Ordered by the date the draft was opened. The account is the one it sat under.
 
 
+<!-- spelling:disable — every line below is somebody else's question, quoted verbatim from the Quora export; respelling one would misquote the person who asked it. -->
+
 - [ ] 1. `2025-08-06` · pedigree101 — How do I overcome a gangstalker's false narrative? How can I distract myself from their tactics?
 - [ ] 2. `2025-08-06` · pedigree101 — Is it possible for targeted individuals to stop being harassed by gang stalkers? If so, what methods have been successful in stopping the harassment?
 - [ ] 3. `2025-08-08` · pedigree101 — Have any Targeted Individuals tried moving to a different country? I'm in the US and am considering a move to Mexico to see if the RNM and V2K stop.
@@ -85,3 +87,5 @@ Ordered by the date the draft was opened. The account is the one it sat under.
 - [ ] 46. `2025-11-01` · farah-brunache — Do perps use the same make models and colors of the vehicles that targets drive to harass their targets?
 - [ ] 47. `2025-11-01` · farah-brunache — Does gang stalking go after your kids?
 - [ ] 48. `2026-08-14` · farah-brunache — What is a person called that accuses innocent strangers of pedophilia in every one of their comments on here, are they a danger and should they be banned?
+
+<!-- spelling:enable -->
