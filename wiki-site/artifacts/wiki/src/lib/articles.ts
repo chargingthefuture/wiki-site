@@ -37,6 +37,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "from-them-to-me",
+    "title": "From them to me",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-26",
+    "excerpt": "Read for direction instead of span, the Record shows one turn: nine months studying the people running the operation, then a shift to us. Everything that exists today was built after the turn.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/from-them-to-me.md",
+    "teaser": "The Record's 632 entries divide into a before and an after at one point. Nine months studying the people running the operation — I fell for it, because it is not an intelligence test; it is the design. Then the turn, dated: July 13, 2025, asking who and where we are instead; August 3, 2025, one sentence proposing the network. Everything in use today came after that turn, built while I lived outside with no car, no home, and no job. The nine months are optional now — you can start where they ended.",
+    "topics": [
+      "community",
+      "progress"
+    ]
+  },
+  {
     "slug": "two-years-to-find-three-people",
     "title": "Two years to find three people",
     "repo": "chargingthefuture/wiki-site",
@@ -3530,6 +3545,16 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "insights/#49-of-how-TI-Skills-Network-helps-you-exit-the-psyop",
+    "title": "#49 of how TI Skills Network helps you exit the psyop",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-28",
+    "excerpt": "I have listed, with the help of Nat Morris, 50 things the Specterati do as part of their torturing of humanity. And how the TI Skills Network “fixes” each one.",
+    "category": "Insights",
+    "collection": "posts",
+    "path": "posts/49-of-how-TI-Skills-Network-helps-you-exit-the-psyop.md"
+  },
+  {
     "slug": "Look-ma,-I-fixed-it!",
     "title": "Look ma, I fixed it!",
     "repo": "chargingthefuture/chargingthefuture",
@@ -3572,16 +3597,6 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "posts",
     "path": "posts/With-an-estimated-5-million-TIs-globally,-we-can-significantly-reduce,-if-not-eliminate,-our-exploitation!.md",
     "teaser": "There are nation-states with 5 million people, and they run service-based economies. So there is no reason 5 million survivors cannot collectively opt out of doing business with the people who torture and exploit us. You may think you have nothing to contribute — the data says otherwise. I reviewed the profiles myself: the majority of survivors are highly skilled."
-  },
-  {
-    "slug": "insights/#49-of-how-TI-Skills-Network-helps-you-exit-the-psyop",
-    "title": "#49 of how TI Skills Network helps you exit the psyop",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-12-28",
-    "excerpt": "I have listed, with the help of Nat Morris, 50 things the Specterati do as part of their torturing of humanity. And how the TI Skills Network “fixes” each one.",
-    "category": "Insights",
-    "collection": "posts",
-    "path": "posts/49-of-how-TI-Skills-Network-helps-you-exit-the-psyop.md"
   },
   {
     "slug": "guides/chyme/Chyme:-TI-social-audio-app",
