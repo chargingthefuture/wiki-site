@@ -40,7 +40,7 @@ Screenshots already in place when this queue was written: 1.
 
 - [x] 1. `2024-10-12` · question · `farah-brunache/when-gang-stalkers-text-my-phone-is-it-installing-spyware` — derived
 - [x] 2. `2024-10-29` · answer-comment · `farah-brunache/where-can-targeted-individuals-find-help-how-can-i-find-others-in-my-a` — has screenshot
-- [ ] 3. `2024-10-29` · answer-comment · `farah-brunache/how-often-are-the-victims-of-gang-stalking-organized-stalking-or-mobbi`
+- [x] 3. `2024-10-29` · answer-comment · `farah-brunache/how-often-are-the-victims-of-gang-stalking-organized-stalking-or-mobbi` — has screenshot
 - [ ] 4. `2024-10-31` · space-submission · `farah-brunache/matthew-cappadocia-aka-the-wizard-of-oz-your-byline-changed-is-the-dif` — no address
 - [ ] 5. `2024-10-31` · space-submission · `farah-brunache/matthew-cappadocia-aka-the-wizard-of-oz-your-byline-changed` — no address
 - [ ] 6. `2024-10-31` · space-post · `farah-brunache/matthew-cappadocia-aka-the-wizard-of-oz-https-www-quora-com-profile-ma`
