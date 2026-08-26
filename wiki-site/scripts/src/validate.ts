@@ -173,6 +173,9 @@ function main() {
           if (shot && !/^images\/[^/]+$/.test(shot)) {
             fail(pos, `"archive.screenshot" must be "images/<file>" (a file in content/images/), got "${shot}"`);
           }
+          if (shot && !meta.archive.screenshot_alt?.toString().trim()) {
+            fail(pos, '"archive.screenshot" requires "archive.screenshot_alt" carrying the pictured words — the alt text is what survives when the image cannot be seen');
+          }
           const snap = meta.archive.snapshot_url ? String(meta.archive.snapshot_url) : '';
           if (snap && !/^https?:\/\//.test(snap)) {
             fail(pos, `"archive.snapshot_url" must be an http(s) URL, got "${snap}"`);

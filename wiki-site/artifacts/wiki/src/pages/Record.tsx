@@ -407,7 +407,7 @@ export default function Record() {
                         <figure className="mb-4">
                           <img
                             src={shot}
-                            alt={`Screenshot of the original page: ${article.title}`}
+                            alt={meta?.screenshotAlt ?? `Screenshot of the original page: ${article.title}`}
                             className="w-full border-2 border-black"
                             loading="lazy"
                           />

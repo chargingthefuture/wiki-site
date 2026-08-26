@@ -21,6 +21,7 @@ export interface ArchiveMeta {
   removed?: boolean; // taken down by the platform while the account was still live
   shared_to?: string[]; // other spaces the same piece was carried into
   screenshot?: string; // "images/<file>" — a picture of the original page
+  screenshot_alt?: string; // the pictured words, kept readable when the image cannot be seen
   snapshot_url?: string; // a saved copy of the original page, where one exists
 }
 
