@@ -26,8 +26,15 @@ corrected where it had drifted; 70 were rewritten. Entries added after that date
 are written from the post at the time it is published. So the file is no longer
 unverified — but it is still a staging file, and the post remains the record.
 
-344 of 344 written.
+345 of 345 written.
 
+
+==============================================================================
+No. 345 · 2026-08-25 · The Record reads forwards
+
+The blog has a new page called The Record (https://chargingthefuture.github.io/chargingthefuture/record). The feed runs newest-first and answers what is being said now; The Record runs oldest-first and answers how long it has been said. It holds the writing I scattered across Quora on other people's pages — answers under their questions, comments under their answers, submissions to their spaces. As I write this it counts 632 entries, under 149 different questions, across 48 spaces, spanning 22 months from October 2024 to today, computed live from the files it reads. That kind of writing never reads as a body of work while it happens; each piece sits alone under somebody else's question. Put back in order, it is the whole. The original addresses print as plain text, never links — every one is dead. Quora destroyed the two accounts that held this writing, and the page draws both takedowns across the timeline where they happened. The entries continue past each one. Consistency is the one credential nobody can fake backwards: a new account takes an afternoon, twenty-two months of dated writing under other people's questions cannot. When you weigh what someone says, how long they have visibly kept at it is worth more than any single claim. Read it forwards, from the first entry. That is the way it happened.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-record-reads-forwards
 
 ==============================================================================
 No. 344 · 2026-08-25 · Every community has a threat model
