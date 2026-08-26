@@ -3507,8 +3507,8 @@ export const ARTICLES: ArticleMeta[] = [
     "date": "2025-12-30",
     "excerpt": "Money Laundering vs a Circular Economy",
     "category": "Insights",
-    "collection": "insights",
-    "path": "insights/insights.md"
+    "collection": "posts",
+    "path": "posts/insights.md"
   },
   {
     "slug": "farah-brunache/https-www-quora-com-profile-james-mccarthy-512-how-do-you-stay-calm-wh",
@@ -3528,16 +3528,6 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "post-comment"
     }
-  },
-  {
-    "slug": "insights/#49-of-how-TI-Skills-Network-helps-you-exit-the-psyop",
-    "title": "#49 of how TI Skills Network helps you exit the psyop",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-12-28",
-    "excerpt": "I have listed, with the help of Nat Morris, 50 things the Specterati do as part of their torturing of humanity. And how the TI Skills Network “fixes” each one.",
-    "category": "Insights",
-    "collection": "insights",
-    "path": "insights/49-of-how-TI-Skills-Network-helps-you-exit-the-psyop.md"
   },
   {
     "slug": "Look-ma,-I-fixed-it!",
@@ -3582,6 +3572,16 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "posts",
     "path": "posts/With-an-estimated-5-million-TIs-globally,-we-can-significantly-reduce,-if-not-eliminate,-our-exploitation!.md",
     "teaser": "There are nation-states with 5 million people, and they run service-based economies. So there is no reason 5 million survivors cannot collectively opt out of doing business with the people who torture and exploit us. You may think you have nothing to contribute — the data says otherwise. I reviewed the profiles myself: the majority of survivors are highly skilled."
+  },
+  {
+    "slug": "insights/#49-of-how-TI-Skills-Network-helps-you-exit-the-psyop",
+    "title": "#49 of how TI Skills Network helps you exit the psyop",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-28",
+    "excerpt": "I have listed, with the help of Nat Morris, 50 things the Specterati do as part of their torturing of humanity. And how the TI Skills Network “fixes” each one.",
+    "category": "Insights",
+    "collection": "posts",
+    "path": "posts/49-of-how-TI-Skills-Network-helps-you-exit-the-psyop.md"
   },
   {
     "slug": "guides/chyme/Chyme:-TI-social-audio-app",
