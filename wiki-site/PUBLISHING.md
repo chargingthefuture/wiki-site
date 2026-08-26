@@ -98,6 +98,13 @@ Rules of the posture:
   A platform account that gets erased costs only that account's reach — a new account's first
   post can link the feed page and a new reader absorbs the whole catalog in minutes. Do not
   replay the back catalog post-by-post from a fresh account.
+- The timeline page (`/timeline`) is the other half of that: the archive collections only, read
+  oldest to newest, filtered by which platform an entry was written on and what it was there
+  (answer, space post, comment). It answers how long the work has been going on and how much of
+  it there is, which the feed cannot show while it is ordered newest-first. It also keeps the
+  archive from crowding the feed, so link `/feed` for what is being said now and `/timeline` for
+  the record behind it. Each entry prints the original address as plain text rather than a link,
+  because every one of those addresses is now dead.
 - Spend no effort on platform carefulness beyond these measures (owner decision, 2026-08-17).
   Good-faith compliance was tested and bought nothing: an account that posted exactly two
   teasers, one link each, no reposting and no back catalog, was deleted the same day

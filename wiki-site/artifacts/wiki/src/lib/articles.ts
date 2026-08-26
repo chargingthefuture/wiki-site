@@ -8,6 +8,9 @@ export interface ArticleArchive {
   originalUrl?: string;
   originalDate?: string;
   status?: string;
+  kind?: string;
+  screenshot?: string;
+  snapshotUrl?: string;
 }
 
 export interface ArticleMeta {

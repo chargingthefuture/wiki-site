@@ -35,6 +35,24 @@ const VALID_REPOS = new Set([
 const ARCHIVE_SOURCES = new Set(['discourse', 'quora']);
 const ARCHIVE_STATUSES = new Set(['erased', 'closed', 'live']);
 
+/**
+ * What the entry was on its original platform. The timeline (/timeline) shows
+ * a comment differently from a space post, and a reader deciding whether a
+ * body of work is substantial needs to see which is which. Left off, an entry
+ * still renders — it is simply labeled by its source instead.
+ */
+const ARCHIVE_KINDS = new Set([
+  'answer',
+  'answer-comment',
+  'answer-draft',
+  'post',
+  'post-comment',
+  'question',
+  'question-comment',
+  'space-post',
+  'forum-topic',
+]);
+
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 
 let errorCount = 0;
@@ -139,6 +157,22 @@ function main() {
           const od = meta.archive.original_date ? String(meta.archive.original_date) : '';
           if (od && !DATE_RE.test(od)) {
             fail(pos, `"archive.original_date" must be YYYY-MM-DD, got "${od}"`);
+          }
+          if (meta.archive.kind && !ARCHIVE_KINDS.has(meta.archive.kind)) {
+            fail(pos, `"archive.kind" must be one of: ${[...ARCHIVE_KINDS].join(', ')}`);
+          }
+          // The screenshot is what keeps a 404'd entry legible: the original
+          // page is gone, so the picture of it is the only thing a reader can
+          // still look at. It is added one entry at a time, so it is optional,
+          // but a reference that does not point at content/images/ silently
+          // renders nothing, which is worse than no screenshot at all.
+          const shot = meta.archive.screenshot ? String(meta.archive.screenshot) : '';
+          if (shot && !/^images\/[^/]+$/.test(shot)) {
+            fail(pos, `"archive.screenshot" must be "images/<file>" (a file in content/images/), got "${shot}"`);
+          }
+          const snap = meta.archive.snapshot_url ? String(meta.archive.snapshot_url) : '';
+          if (snap && !/^https?:\/\//.test(snap)) {
+            fail(pos, `"archive.snapshot_url" must be an http(s) URL, got "${snap}"`);
           }
         }
       } else if (meta.archive) {

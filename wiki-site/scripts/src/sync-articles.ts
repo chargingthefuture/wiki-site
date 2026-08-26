@@ -54,6 +54,9 @@ interface ArticleRecord {
     originalUrl?: string;
     originalDate?: string;
     status?: string;
+    kind?: string;
+    screenshot?: string;
+    snapshotUrl?: string;
   };
 }
 
@@ -112,6 +115,9 @@ function collectArticles(): ArticleRecord[] {
           ...(meta.archive.original_url ? { originalUrl: meta.archive.original_url } : {}),
           ...(meta.archive.original_date ? { originalDate: String(meta.archive.original_date) } : {}),
           ...(meta.archive.status ? { status: meta.archive.status } : {}),
+          ...(meta.archive.kind ? { kind: meta.archive.kind } : {}),
+          ...(meta.archive.screenshot ? { screenshot: meta.archive.screenshot } : {}),
+          ...(meta.archive.snapshot_url ? { snapshotUrl: meta.archive.snapshot_url } : {}),
         };
       }
       articles.push(record);
@@ -167,6 +173,9 @@ function render(articles: ArticleRecord[]): string {
     '  originalUrl?: string;',
     '  originalDate?: string;',
     '  status?: string;',
+    '  kind?: string;',
+    '  screenshot?: string;',
+    '  snapshotUrl?: string;',
     '}',
     '',
     'export interface ArticleMeta {',

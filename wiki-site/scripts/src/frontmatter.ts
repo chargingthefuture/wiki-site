@@ -15,6 +15,9 @@ export interface ArchiveMeta {
   original_url?: string;
   original_date?: string;
   status?: string; // "erased" | "closed"
+  kind?: string; // what it was on the original platform, e.g. "space-post"
+  screenshot?: string; // "images/<file>" — a picture of the original page
+  snapshot_url?: string; // a saved copy of the original page, where one exists
 }
 
 export interface ContentMeta {

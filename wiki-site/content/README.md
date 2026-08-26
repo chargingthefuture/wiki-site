@@ -67,7 +67,19 @@ archive:
   original_url: "https://www.quora.com/..."   # original public URL, where one exists
   original_date: "2025-05-23"                 # when it was originally posted
   status: "erased"           # erased (account deleted) or closed (platform shut down)
+  kind: "space-post"         # optional — what it was on the original platform
+  screenshot: "images/quora-vegas-2025-08-05.png"   # optional
+  snapshot_url: "https://web.archive.org/web/..."   # optional
 ```
+
+The last three fields are optional and feed the timeline page (`/timeline`), which runs the
+archive oldest-first:
+
+| Field | Meaning |
+|---|---|
+| `kind` | What the entry was where it was written: `answer`, `answer-comment`, `answer-draft`, `post`, `post-comment`, `question`, `question-comment`, `space-post`, `forum-topic`. The timeline shows it as a label and filters on it. Left off, the entry is labeled by its source instead. |
+| `screenshot` | `images/<file>` — a picture of the original page, committed to `content/images/`. Every original address in the archive is now dead, so the screenshot is the only way the original page can still be looked at. Added one entry at a time; nothing breaks without it. |
+| `snapshot_url` | A saved copy of the original page (a Wayback Machine URL), where one exists. Resolved once at import time and written here, because the site is static and cannot look it up when a reader opens the page. |
 
 `date` in the main block stays the original posting date too, so the blog orders archive
 entries by when they were actually written. The commit adding the file records when it entered

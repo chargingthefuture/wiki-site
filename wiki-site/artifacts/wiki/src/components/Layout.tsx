@@ -34,6 +34,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
               <Link href="/feed" className="font-heading font-bold text-lg uppercase hover:text-primary transition-colors">
                 The Feed
               </Link>
+              <Link href="/timeline" className="font-heading font-bold text-lg uppercase hover:text-primary transition-colors">
+                Timeline
+              </Link>
               <a href="https://chargingthefuture.com" target="_blank" rel="noopener noreferrer" className="font-heading font-bold text-lg uppercase hover:text-primary transition-colors">
                 About
               </a>
@@ -60,6 +63,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
             </Link>
             <Link href="/feed" onClick={() => setIsMenuOpen(false)} className="font-heading font-bold text-xl uppercase block p-2 border-b-2 border-gray-800">
               The Feed
+            </Link>
+            <Link href="/timeline" onClick={() => setIsMenuOpen(false)} className="font-heading font-bold text-xl uppercase block p-2 border-b-2 border-gray-800">
+              Timeline (Archive)
             </Link>
             <a href="https://chargingthefuture.com" target="_blank" rel="noopener noreferrer" className="font-heading font-bold text-xl uppercase block p-2 border-b-2 border-gray-800">
               About Platform
@@ -98,6 +104,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
               <h3 className="font-heading text-2xl uppercase font-bold text-primary mb-6 border-b-2 border-gray-800 pb-2 inline-block">Resources</h3>
               <ul className="space-y-3 font-sans font-medium">
                 <li><Link href="/" className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> Transmissions</Link></li>
+                <li><Link href="/feed" className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> The Feed</Link></li>
+                <li><Link href="/timeline" className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> Timeline (Archive)</Link></li>
                 <li><a href="https://chargingthefuture.com" target="_blank" rel="noopener noreferrer" className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> Main Site</a></li>
                 <li><a href="https://github.com/chargingthefuture/chargingthefuture/wiki" target="_blank" rel="noopener noreferrer" className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> GitHub Wiki</a></li>
               </ul>
