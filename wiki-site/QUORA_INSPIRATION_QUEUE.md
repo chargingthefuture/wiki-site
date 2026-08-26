@@ -44,6 +44,8 @@ follows it.
 
 ### 2024-10
 
+<!-- spelling:disable — every line below is somebody else's question title, recovered verbatim from the address it was saved at; respelling one would misquote the person who asked it. -->
+
 - [ ] Are gang stalkers law enforcement or community neighborhood watch groups Do I have to worry about them building a case Whats their main goal — bookmarked
 - [ ] Are you a victim of gang stalking workplace mobbing or vigilantism Why are these forms of harassment and discrimination more interconnected than you may realize — bookmarked
 - [ ] Can gang stalkers actually be out to harm or even kill their targeted individuals — bookmarked · saved 3 times
@@ -629,3 +631,5 @@ follows it.
 
 - [ ] Has anyone succesfully blocked being hit by microwave and energy weapons What are your methods 1 — bookmarked · ultimateantisurveilancegangstalkingdirectory
 - [ ] What are some signs that someone has been a victim of gang stalking and police harassment in their neighborhood for an extended period of time — bookmarked
+
+<!-- spelling:enable -->
