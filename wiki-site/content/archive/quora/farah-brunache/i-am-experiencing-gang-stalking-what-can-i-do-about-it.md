@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "space-submission"
+  original_url: "https://www.quora.com/I-am-experiencing-gang-stalking-What-can-I-do-about-it-They-are-saying-Im-being-poisoned-with-bath-salts-by-my-ex-and-all-kinds-of-other-crazy-evil-stuff"
   original_date: "2025-03-04"
   status: "erased"
   space: "U.S. Anti GANG STALKING"

@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Why-are-they-so-numerous-I-live-in-Oceanside-not-too-far-from-where-you-were-But-Im-sure-you-know-not-all-cities-can-be-that-overflowing-with-individuals-who-do-this"
   original_date: "2025-06-06"
   status: "erased"
   question: "Why are they so numerous? I live in Oceanside not too far from where you were. But I'm sure you know not all cities can be that overflowing with individuals who do this."

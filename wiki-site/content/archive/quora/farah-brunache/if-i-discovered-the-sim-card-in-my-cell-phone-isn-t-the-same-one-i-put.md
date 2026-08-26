@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "space-submission"
+  original_url: "https://www.quora.com/If-I-discovered-the-SIM-card-in-my-cell-phone-isnt-the-same-one-I-put-in-but-I-still-receive-calls-does-that-mean-someone-replaced-it-and-is-now-monitoring-my-phone-I-am-a-targeted-individual"
   original_date: "2025-12-23"
   status: "erased"
   space: "TIs are humans too"

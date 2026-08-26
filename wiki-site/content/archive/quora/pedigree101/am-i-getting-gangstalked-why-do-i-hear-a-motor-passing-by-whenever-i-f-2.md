@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "answer"
+  original_url: "https://www.quora.com/Am-I-getting-gangstalked-Why-do-I-hear-a-motor-passing-by-whenever-I-finish-watching-a-show-but-when-I-always-focus-on-the-sound-it-doesnt-come-out"
   original_date: "2025-08-13"
   status: "erased"
   question: "Am I getting gangstalked? Why do I hear a motor passing by whenever I finish watching a show, but when I always focus on the sound it doesn't come out?"

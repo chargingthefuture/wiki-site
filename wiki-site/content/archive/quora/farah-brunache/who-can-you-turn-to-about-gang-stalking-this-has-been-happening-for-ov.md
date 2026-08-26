@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Who-can-you-turn-to-about-gang-stalking-This-has-been-happening-for-over-a-year-and-I-cant-stand-for-it-any-longer-I-cannot-allow-this-to-continue"
   original_date: "2025-12-20"
   status: "erased"
   question: "Who can you turn to about gang stalking? This has been happening for over a year and I can't stand for it any longer. I cannot allow this to continue."

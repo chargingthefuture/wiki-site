@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Some-say-some-Gangstalkers-think-theyre-targeting-people-for-their-criminal-activity-that-they-were-informed-about-there-are-people-known-by-their-community-to-have-commited-serious-things-why-arent-said-people-targeted-individuals-Gangstalked"
   original_date: "2025-12-22"
   status: "erased"
   question: "Some say some Gangstalkers think they’re targeting people for their criminal activity that they were informed about, there are people known by their community to have commited serious things, why aren’t said people targeted individuals / Gangstalked?"

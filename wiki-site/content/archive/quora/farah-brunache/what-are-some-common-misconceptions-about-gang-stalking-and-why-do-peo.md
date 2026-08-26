@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/What-are-some-common-misconceptions-about-gang-stalking-and-why-do-people-often-associate-it-with-spiritual-battles"
   original_date: "2025-09-17"
   status: "erased"
   question: "What are some common misconceptions about gang stalking, and why do people often associate it with spiritual battles?"

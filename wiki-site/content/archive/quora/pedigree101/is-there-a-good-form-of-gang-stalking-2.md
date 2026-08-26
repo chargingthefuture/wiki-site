@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "answer"
+  original_url: "https://www.quora.com/Is-there-a-good-form-of-gang-stalking"
   original_date: "2025-08-16"
   status: "erased"
   question: "Is there a good form of gang stalking?"

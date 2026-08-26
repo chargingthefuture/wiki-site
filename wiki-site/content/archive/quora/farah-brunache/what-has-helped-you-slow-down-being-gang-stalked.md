@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/What-has-helped-you-slow-down-being-gang-stalked"
   original_date: "2025-10-11"
   status: "erased"
   question: "What has helped you slow down being gang stalked?"

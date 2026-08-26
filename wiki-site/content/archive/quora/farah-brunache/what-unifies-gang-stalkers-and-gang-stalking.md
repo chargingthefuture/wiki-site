@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/What-unifies-gang-stalkers-and-gang-stalking"
   original_date: "2025-10-11"
   status: "erased"
   question: "What unifies gang stalkers and gang stalking?"

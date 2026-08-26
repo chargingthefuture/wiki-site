@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/How-do-I-get-my-gang-stalkers-to-reveal-themselves-especially-possible-honeypots"
   original_date: "2026-02-05"
   status: "erased"
   question: "How do I get my gang stalkers to reveal themselves (especially possible honeypots)?"

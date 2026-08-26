@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "space-submission"
+  original_url: "https://www.quora.com/How-can-a-19-year-old-boy-in-the-sense-of-Targeted-Individual-ensure-personal-development-eg-for-future-earnings-Do-you-have-any-experience-or-knowledge-about-this"
   original_date: "2025-08-03"
   status: "erased"
   space: "Targeted Ideas"

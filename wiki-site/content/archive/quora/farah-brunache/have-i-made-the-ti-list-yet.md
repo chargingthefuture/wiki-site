@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Have-I-made-the-TI-list-yet"
   original_date: "2025-12-13"
   status: "erased"
   question: "Have I made the TI list yet?"

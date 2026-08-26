@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/What-do-gang-stalkers-do-when-they-cant-successfully-and-covertly-convince-a-TI-that-they-are-just-crazy-or-defective"
   original_date: "2024-12-15"
   status: "erased"
   question: "What do gang stalkers do when they can't successfully and covertly convince a TI that they are just crazy or defective?"

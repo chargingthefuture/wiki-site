@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "answer"
+  original_url: "https://www.quora.com/What-measures-can-the-government-take-to-prevent-gang-stalking"
   original_date: "2025-08-13"
   status: "erased"
   question: "What measures can the government take to prevent gang stalking?"

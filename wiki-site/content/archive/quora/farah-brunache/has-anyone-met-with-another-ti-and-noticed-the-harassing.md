@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "space-submission"
+  original_url: "https://www.quora.com/Has-anyone-met-with-another-TI-and-noticed-the-harassing-Im-curious-as-to-whether-they-tone-it-down-since-youre-meeting-someone-who-will-actually-believe-you-and-not-discredit-you"
   original_date: "2025-07-26"
   status: "erased"
   space: "Targeted Ideas"

@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "space-submission"
+  original_url: "https://www.quora.com/How-do-the-people-following-me-as-a-targeted-individual-read-my-mind"
   original_date: "2025-07-08"
   status: "erased"
   space: "Targeted Ideas"

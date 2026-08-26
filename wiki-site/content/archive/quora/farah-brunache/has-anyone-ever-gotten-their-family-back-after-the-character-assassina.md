@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "space-submission"
+  original_url: "https://www.quora.com/Has-anyone-ever-gotten-their-family-back-after-the-character-assassination-targeted-individuals-face"
   original_date: "2025-07-08"
   status: "erased"
   space: "Targeted Ideas"

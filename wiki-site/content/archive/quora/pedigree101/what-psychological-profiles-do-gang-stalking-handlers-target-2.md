@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "answer"
+  original_url: "https://www.quora.com/What-psychological-profiles-do-gang-stalking-handlers-target"
   original_date: "2025-08-15"
   status: "erased"
   question: "What psychological profiles do gang stalking handlers target?"

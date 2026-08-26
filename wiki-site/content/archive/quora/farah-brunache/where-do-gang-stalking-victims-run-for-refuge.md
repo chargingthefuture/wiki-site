@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "space-submission"
+  original_url: "https://www.quora.com/Where-do-gang-stalking-victims-run-for-refuge"
   original_date: "2025-09-19"
   status: "erased"
   space: "All Things Gangstalked"

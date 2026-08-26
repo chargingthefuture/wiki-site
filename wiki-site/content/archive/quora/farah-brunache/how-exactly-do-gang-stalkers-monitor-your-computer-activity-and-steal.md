@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/How-exactly-do-gang-stalkers-monitor-your-computer-activity-and-steal-files-and-information-Is-there-a-way-to-stop-it"
   original_date: "2025-10-02"
   status: "erased"
   question: "How exactly do gang stalkers monitor your computer activity and steal files and information? Is there a way to stop it?"

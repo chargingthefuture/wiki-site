@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "space-submission"
+  original_url: "https://www.quora.com/What-do-gang-stalkers-say-about-targeted-people-that-isnt-true"
   original_date: "2025-09-13"
   status: "erased"
   space: "Targeted Individuals - Get Answers"

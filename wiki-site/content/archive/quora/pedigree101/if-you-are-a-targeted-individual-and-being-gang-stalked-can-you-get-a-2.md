@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "answer"
+  original_url: "https://www.quora.com/If-you-are-a-targeted-individual-and-being-gang-stalked-can-you-get-a-lawyer-to-help-you-with-an-unrelated-civil-matter-without-worrying-they-are-notified-and-part-of-the-covert-harassment"
   original_date: "2025-09-09"
   status: "erased"
   question: "If you are a targeted individual and being gang stalked can you get a lawyer to help you with an unrelated civil matter without worrying they are notified and part of the covert harassment?"

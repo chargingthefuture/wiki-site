@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "answer"
+  original_url: "https://www.quora.com/How-do-my-creepy-neighbors-who-have-hacked-my-cell-phone-change-what-the-articles-are-in-Quorawhat-I-see-on-Quora-Sometimes-Quora-doesnt-even-look-like-itself"
   original_date: "2025-08-31"
   status: "erased"
   question: "How do my creepy neighbors who have hacked my cell phone change what the articles are in Quora/what I see on Quora? Sometimes Quora doesn't even look like itself."

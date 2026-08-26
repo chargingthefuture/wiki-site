@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/What-other-Names-do-Gang-Stalkers-use-to-describe-themselves-asides-from-GraveDiggers-and-Wreckers"
   original_date: "2025-10-11"
   status: "erased"
   question: "What other Names do Gang Stalkers use to describe themselves asides from GraveDiggers and Wreckers?"

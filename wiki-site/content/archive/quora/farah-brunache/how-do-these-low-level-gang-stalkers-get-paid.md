@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/How-do-these-low-level-gang-stalkers-get-paid"
   original_date: "2026-01-19"
   status: "erased"
   question: "How do these low-level gang stalkers get paid?"

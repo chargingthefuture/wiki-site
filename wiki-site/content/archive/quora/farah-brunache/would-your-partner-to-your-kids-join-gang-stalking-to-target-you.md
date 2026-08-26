@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Would-your-partner-to-your-kids-join-gang-stalking-to-target-you-Could-they-be-using-women-and-men-as-sex-for-his-pleasures-Can-that-happen-Why"
   original_date: "2025-11-10"
   status: "erased"
   question: "Would your partner to your kids join gang stalking to target you? Could they be using women and men as sex for his pleasures? Can that happen? Why?"

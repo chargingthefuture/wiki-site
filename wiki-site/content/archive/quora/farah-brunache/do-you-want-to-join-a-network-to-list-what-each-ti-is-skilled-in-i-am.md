@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "question"
+  original_url: "https://www.quora.com/Do-you-want-to-join-a-network-to-list-what-each-TI-is-skilled-in"
   original_date: "2025-08-03"
   status: "erased"
 ---

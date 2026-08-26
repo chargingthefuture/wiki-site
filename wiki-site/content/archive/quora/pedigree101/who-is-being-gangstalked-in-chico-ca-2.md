@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "answer"
+  original_url: "https://www.quora.com/Who-is-being-gangstalked-in-Chico-CA"
   original_date: "2025-08-20"
   status: "erased"
   question: "Who is being gangstalked in Chico, CA?"

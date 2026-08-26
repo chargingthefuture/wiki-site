@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Where-can-I-find-people-to-join-my-gang-stalking-sub-Reddit"
   original_date: "2025-10-06"
   status: "erased"
   question: "Where can I find people to join my gang stalking sub Reddit?"

@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "space-submission"
+  original_url: "https://www.quora.com/For-TIs-how-did-you-find-out-what-exact-lies-were-being-said-to-get-you-stalked"
   original_date: "2025-07-30"
   status: "erased"
   space: "Real GangStalking Victims and Evidence"

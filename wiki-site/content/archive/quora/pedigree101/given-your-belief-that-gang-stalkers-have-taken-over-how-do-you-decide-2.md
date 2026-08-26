@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "answer"
+  original_url: "https://www.quora.com/Given-your-belief-that-gang-stalkers-have-taken-over-how-do-you-decide-if-an-act-of-kindness-you-receive-while-panhandling-is-genuinely-from-the-giver-or-influenced-by-external-forces"
   original_date: "2025-09-05"
   status: "erased"
   question: "Given your belief that gang stalkers have taken over, how do you decide if an act of kindness you receive while panhandling is genuinely from the giver or influenced by external forces?"

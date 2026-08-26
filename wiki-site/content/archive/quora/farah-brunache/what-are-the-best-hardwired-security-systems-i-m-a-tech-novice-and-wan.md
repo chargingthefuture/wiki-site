@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/What-are-the-best-hardwired-security-systems-Im-a-tech-novice-and-want-the-most-straightforward-system-with-simple-playback-and-recording-and-high-quality-video-and-discrete-cameras"
   original_date: "2026-01-30"
   status: "erased"
   question: "What are the best hardwired security systems? I'm a tech novice and want the most straightforward system with simple playback and recording and high quality video and discrete cameras."

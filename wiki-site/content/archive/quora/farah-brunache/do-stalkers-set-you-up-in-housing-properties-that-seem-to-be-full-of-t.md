@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Do-stalkers-set-you-up-in-housing-properties-that-seem-to-be-full-of-them-Do-they-give-you-a-car"
   original_date: "2025-03-10"
   status: "erased"
   question: "Do stalkers set you up in housing properties that seem to be full of them? Do they give you a car?"

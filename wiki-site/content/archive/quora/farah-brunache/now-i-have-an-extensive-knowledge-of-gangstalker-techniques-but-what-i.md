@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Now-I-have-an-extensive-knowledge-of-GangStalker-techniques-but-what-I-do-NOT-understand-is-How-are-stalker-handlers-fbi-DOJ-dhs-police-able-to-get-nearly-an-entire-city-to-coordinate-in-a-way-that-I-cannot-find-their-communication-channels"
   original_date: "2024-12-10"
   status: "erased"
   question: "Now I have an extensive knowledge of GangStalker techniques, but what I do NOT understand is How are stalker handlers (fbi, DOJ, dhs, police) able to get nearly an entire city to coordinate in a way that I cannot find their communication channels?"

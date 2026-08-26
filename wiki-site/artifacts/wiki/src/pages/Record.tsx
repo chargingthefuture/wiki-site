@@ -455,7 +455,7 @@ export default function Record() {
                         <p className="font-mono text-xs text-gray-500 mt-2 flex items-start gap-2">
                           <Link2Off size={14} className="shrink-0 mt-0.5" aria-hidden="true" />
                           <span className="min-w-0">
-                            Address no longer resolves:{" "}
+                            Deleted from:{" "}
                             <span className="break-all">{meta.originalUrl}</span>
                             {meta.snapshotUrl && (
                               <>

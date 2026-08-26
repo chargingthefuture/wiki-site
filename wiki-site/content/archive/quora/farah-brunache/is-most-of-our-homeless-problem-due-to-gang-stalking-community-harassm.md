@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Is-most-of-our-homeless-problem-due-to-gang-stalking-community-harassment-groups-Are-these-people-to-blame"
   original_date: "2025-07-11"
   status: "erased"
   question: "Is most of our homeless problem due to gang stalking community harassment groups? Are these people to blame?"

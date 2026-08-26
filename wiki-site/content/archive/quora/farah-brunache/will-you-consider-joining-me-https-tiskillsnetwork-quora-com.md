@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "question"
+  original_url: "https://www.quora.com/Will-you-consider-joining-me"
   original_date: "2025-08-03"
   status: "erased"
 ---

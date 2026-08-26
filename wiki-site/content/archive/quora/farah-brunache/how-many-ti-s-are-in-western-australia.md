@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "space-submission"
+  original_url: "https://www.quora.com/How-many-TIs-are-in-Western-Australia"
   original_date: "2025-08-27"
   status: "erased"
   space: "Targeted individuals network"

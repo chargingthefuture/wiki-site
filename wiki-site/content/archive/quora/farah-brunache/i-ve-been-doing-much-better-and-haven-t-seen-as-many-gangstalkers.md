@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Ive-been-doing-much-better-and-havent-seen-as-many-gangstalkers-Does-that-mean-that-if-youre-doing-better-gang-stalkers-will-leave-you-alone"
   original_date: "2025-11-02"
   status: "erased"
   question: "I’ve been doing much better and haven’t seen as many gangstalkers. Does that mean that if you’re doing better gang stalkers will leave you alone?"

@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/I-want-to-join-the-Illuminati-Can-you-help-me-without-paying"
   original_date: "2026-01-02"
   status: "erased"
   question: "I want to join the Illuminati. Can you help me without paying?"

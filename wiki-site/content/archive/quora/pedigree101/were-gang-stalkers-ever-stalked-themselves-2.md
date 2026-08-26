@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "answer"
+  original_url: "https://www.quora.com/Were-gang-stalkers-ever-stalked-themselves"
   original_date: "2025-08-22"
   status: "erased"
   question: "Were gang stalkers ever stalked themselves?"

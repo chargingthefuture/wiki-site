@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "question-comment"
+  original_url: "https://www.quora.com/httpstinetworkquoracomSo-the-word-cancer-has-been-brought-up-here-and-there-throughout-my-targeting-Whether-it-be-through-media-or-by-the-mou"
   original_date: "2024-12-07"
   status: "erased"
   question: "https://tinetwork.quora.com/So-the-word-cancer-has-been-brought-up-here-and-there-throughout-my-targeting-Whether-it-be-through-media-or-by-the-mou"

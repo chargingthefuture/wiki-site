@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "answer"
+  original_url: "https://www.quora.com/How-do-I-drown-out-noise-from-multiple-stalkers"
   original_date: "2025-09-03"
   status: "erased"
   question: "How do I drown out noise from multiple stalkers?"

@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "answer"
+  original_url: "https://www.quora.com/When-you-are-gang-stalked-community-stalked-are-there-hidden-cameras-in-your-house-or-apartment-when-youre-surveilled-or-do-they-do-it-via-some-other-technological-means"
   original_date: "2025-09-06"
   status: "erased"
   question: "When you are gang stalked (community stalked), are there hidden cameras in your house or apartment when you're surveilled, or do they do it via some other technological means?"

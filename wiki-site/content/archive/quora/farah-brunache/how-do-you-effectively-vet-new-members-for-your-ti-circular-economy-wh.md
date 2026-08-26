@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/How-do-you-effectively-vet-new-members-for-your-TI-circular-economy-when-gang-stalkers-actively-try-to-mimic-and-infiltrate-TI-communities"
   original_date: "2025-10-06"
   status: "erased"
   question: "How do you effectively vet new members for your TI circular economy when \"gang stalkers\" actively try to mimic and infiltrate TI communities?"

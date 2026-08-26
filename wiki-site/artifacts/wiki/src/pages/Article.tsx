@@ -103,7 +103,11 @@ export default function Article() {
                     {meta.archive.status === "erased" && "That account was erased by the platform; this page is the canonical copy."}
                     {meta.archive.status === "closed" && "That platform surface is closed; this page is the canonical copy."}
                     {meta.archive.originalUrl ? (
-                      <> <a href={meta.archive.originalUrl} target="_blank" rel="noopener noreferrer" className="text-accent underline">Original context</a></>
+                      // Plain text on purpose: the writing behind this address
+                      // was deleted, and a link that 404s spends a reader's
+                      // click to tell them nothing. The address is the
+                      // evidence of where this lived, not a destination.
+                      <> Deleted from: <span className="font-mono text-xs break-all">{meta.archive.originalUrl}</span></>
                     ) : null}
                   </span>
                 </div>

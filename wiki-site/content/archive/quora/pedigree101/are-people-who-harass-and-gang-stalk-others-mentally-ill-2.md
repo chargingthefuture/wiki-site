@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "answer"
+  original_url: "https://www.quora.com/Are-people-who-harass-and-gang-stalk-others-mentally-ill"
   original_date: "2025-09-03"
   status: "erased"
   question: "Are people who harass and gang stalk others mentally ill?"

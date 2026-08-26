@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Why-would-gang-stalkers-let-you-know-where-they-live-and-even-invite-you-there"
   original_date: "2025-10-02"
   status: "erased"
   question: "Why would gang stalkers let you know where they live and even invite you there?"

@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Is-there-any-place-in-San-Diego-were-there-are-groups-or-resources-for-a-TI-that-is-scared-out-of-their-minds-of-during-from-being-electronically-harassed-24-hours-days-and-nights-none-stop"
   original_date: "2025-12-13"
   status: "erased"
   question: "Is there any place in San Diego were there are groups or resources for a TI that is scared out of their minds of during from being “electronically harassed”, 24 hours days and nights none stop?"

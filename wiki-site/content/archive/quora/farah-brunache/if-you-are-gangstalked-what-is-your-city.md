@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "space-submission"
+  original_url: "https://www.quora.com/If-you-are-gangstalked-what-is-your-city"
   original_date: "2025-08-25"
   status: "erased"
   space: "Zersetzung - Decomposition Psychology"

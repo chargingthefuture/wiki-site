@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Do-perps-use-the-same-make-models-and-colors-of-the-vehicles-that-targets-drive-to-harass-their-targets"
   original_date: "2025-11-13"
   status: "erased"
   question: "Do perps use the same make models and colors of the vehicles that targets drive to harass their targets?"

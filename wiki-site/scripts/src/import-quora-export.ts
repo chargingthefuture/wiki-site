@@ -222,6 +222,24 @@ function titleFromParentUrl(url: string | undefined): string | undefined {
   return worded && words.length >= 12 ? summarize(words, 110) : undefined;
 }
 
+/**
+ * The address Quora mints for a question, derived from its text: punctuation
+ * dropped, spaces hyphenated, case kept. The export gives answers, drafts and
+ * question comments the question's text but not its address, and the address
+ * is the part of the record a reader can still check — the pilot import used
+ * exactly this derivation and its stored URLs match it character for character.
+ */
+function quoraQuestionUrl(question: string): string | undefined {
+  const slug = question
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^A-Za-z0-9\s-]/g, '')
+    .trim()
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-');
+  return /[A-Za-z0-9]/.test(slug) ? `https://www.quora.com/${slug}` : undefined;
+}
+
 function slugify(s: string): string {
   return (
     s
@@ -373,7 +391,7 @@ function buildEntry(item: ExportItem, dirs: string[]): Entry | null {
     : undefined;
 
   const originalUrl = f.Answer?.text || f.Post?.text || f['Share url']?.text || undefined;
-  const parentUrl = originalUrl && /^https?:\/\//.test(originalUrl) ? originalUrl : undefined;
+  let parentUrl = originalUrl && /^https?:\/\//.test(originalUrl) ? originalUrl : undefined;
 
   const title =
     kind === 'question'
@@ -387,6 +405,22 @@ function buildEntry(item: ExportItem, dirs: string[]): Entry | null {
   if (!title) {
     drops.untitled++;
     return null;
+  }
+
+  // The export carries no address for answers, drafts, questions and question
+  // comments — only the question's text — so the address is derived the way
+  // Quora mints it. Derived after the title on purpose: a title never comes
+  // from a derived address, so the slugs of already-published pages stay put.
+  if (!parentUrl) {
+    if (questionTitle) parentUrl = quoraQuestionUrl(questionTitle);
+    else if (kind === 'question') {
+      // The export merges a question's title with its detail text, and Quora
+      // mints the address from the title alone. A title ends at a question
+      // mark, so the address stops at the last one; a question with none is
+      // taken whole.
+      const mark = contentText.lastIndexOf('?');
+      parentUrl = quoraQuestionUrl(mark >= 0 ? contentText.slice(0, mark + 1) : contentText);
+    }
   }
 
   return {

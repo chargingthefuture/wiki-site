@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Whats-the-best-life-strategy-to-live-with-being-gang-stalked-with-work-relationships-and-moving-A-lot-seems-impossible-now"
   original_date: "2025-10-11"
   status: "erased"
   question: "What's the best life strategy to live with being gang stalked, with work, relationships, and moving? A lot seems impossible now."

@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer-draft"
+  original_url: "https://www.quora.com/How-do-you-know-ppl-that-are-on-this-page-arent-the-GS-instead-of-the-ti"
   original_date: "2025-11-20"
   status: "erased"
   question: "How do you know ppl that are on this page aren't the GS instead of the ti?"

@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/My-gang-stalkers-are-always-interested-in-knowing-if-I-have-a-fever-Does-a-fever-interfere-with-the-electromagnetic-waves-they-use-to-induce-sleep"
   original_date: "2025-12-13"
   status: "erased"
   question: "My gang stalkers are always interested in knowing if I have a fever. Does a fever interfere with the electromagnetic waves they use to induce sleep?"

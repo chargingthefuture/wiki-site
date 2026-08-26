@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "space-submission"
+  original_url: "https://www.quora.com/Which-support-organizations-specialize-in-helping-Targeted-Individuals"
   original_date: "2025-08-03"
   status: "erased"
   space: "Targeted Ideas"

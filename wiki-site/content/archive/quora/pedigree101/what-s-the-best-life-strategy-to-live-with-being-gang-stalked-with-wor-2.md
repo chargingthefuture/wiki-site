@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "space-submission"
+  original_url: "https://www.quora.com/Whats-the-best-life-strategy-to-live-with-being-gang-stalked-with-work-relationships-and-moving-A-lot-seems-impossible-now"
   original_date: "2025-09-02"
   status: "erased"
   space: "US-PSYOPS-TARGETED-INDIVIDUALS"

@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/What-are-the-worst-states-for-gang-stalking"
   original_date: "2025-10-06"
   status: "erased"
   question: "What are the worst states for gang stalking?"

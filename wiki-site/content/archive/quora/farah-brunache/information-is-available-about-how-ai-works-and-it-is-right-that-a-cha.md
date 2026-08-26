@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "question-comment"
+  original_url: "https://www.quora.com/httpswwwquoracomHave-most-AI-like-Claude-shown-to-be-openly-disbelieving-in-anything-similar-to-gang-or-organized-stalking-and-wont-do-searches-about-it"
   original_date: "2026-07-27"
   status: "erased"
   question: "https://www.quora.com/Have-most-AI-like-Claude-shown-to-be-openly-disbelieving-in-anything-similar-to-gang-or-organized-stalking-and-wont-do-searches-about-it"

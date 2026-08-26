@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "question-comment"
+  original_url: "https://www.quora.com/httpsnarcismdisordequoracomCan-someone-please-talk-to-me-I-am-having-a-breakdown"
   original_date: "2025-10-27"
   status: "erased"
   question: "https://narcismdisorde.quora.com/Can-someone-please-talk-to-me-I-am-having-a-breakdown"

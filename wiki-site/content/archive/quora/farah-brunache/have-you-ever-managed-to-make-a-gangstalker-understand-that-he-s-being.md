@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Have-you-ever-managed-to-make-a-gangstalker-understand-that-hes-being-told-nothing-but-lies"
   original_date: "2025-12-14"
   status: "erased"
   question: "Have you ever managed to make a gangstalker understand that he's being told nothing but lies?"

@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/What-do-gang-stalkers-say-about-targeted-people-that-isnt-true"
   original_date: "2025-10-11"
   status: "erased"
   question: "What do gang stalkers say about targeted people that isn't true?"

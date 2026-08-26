@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Could-a-targeted-individual-be-also-active-in-gang-stalking"
   original_date: "2025-09-18"
   status: "erased"
   question: "Could a targeted individual be also active in gang stalking?"

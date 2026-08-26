@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Why-do-gangstalkers-recruit-their-own-children-to-molest-strangers-Dont-they-have-any-protective-instinct"
   original_date: "2025-12-14"
   status: "erased"
   question: "Why do gangstalkers recruit their own children to molest strangers? Don't they have any protective instinct?"

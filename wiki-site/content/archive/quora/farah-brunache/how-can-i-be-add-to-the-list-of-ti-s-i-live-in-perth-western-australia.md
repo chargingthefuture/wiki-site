@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "space-submission"
+  original_url: "https://www.quora.com/How-can-I-be-add-to-the-list-of-tis-I-live-in-Perth-Western-Australia-6163-There-are-other-tis-here-in-Perth-I-have-recently-discovered"
   original_date: "2026-01-15"
   status: "erased"
   space: "US-PSYOPS-TARGETED-INDIVIDUALS"

@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/After-14-years-homeless-and-3-Targeted-dovother-Targeted-Individuals-also-think-that-homeless-people-are-more-likely-to-become-targeted"
   original_date: "2025-10-03"
   status: "erased"
   question: "After 14 years homeless and 3 Targeted, dovother Targeted Individuals also think that homeless people are more likely to become targeted?"

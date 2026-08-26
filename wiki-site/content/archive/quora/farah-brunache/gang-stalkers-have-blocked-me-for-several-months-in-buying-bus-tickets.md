@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "question"
+  original_url: "https://www.quora.com/Gang-stalkers-have-blocked-me-for-several-months-in-buying-bus-tickets-online-Greyhound-and-now-for-the-last-month-blocked-me-from-buying-on-Amazon-Has-this-happened-to-you"
   original_date: "2025-04-28"
   status: "erased"
 ---

@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Are-business-owners-aware-that-gangstalkers-are-harassing-their-customers-If-so-are-they-accepting-kickbacks-to-turn-a-blind-eye-andor-actively-participating"
   original_date: "2025-05-10"
   status: "erased"
   question: "Are business owners aware that gangstalkers are harassing their customers? If so are they accepting kickbacks to turn a blind eye and/or actively participating?"

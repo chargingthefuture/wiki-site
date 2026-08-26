@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "answer"
+  original_url: "https://www.quora.com/Lots-of-people-on-here-recommend-praying-How-can-there-be-a-god-with-all-due-respect-when-this-evil-gang-stalking-program-goes-unpunished"
   original_date: "2025-08-19"
   status: "erased"
   question: "Lots of people on here recommend praying. How can there be a god (with all due respect) when this evil gang stalking program goes unpunished?"

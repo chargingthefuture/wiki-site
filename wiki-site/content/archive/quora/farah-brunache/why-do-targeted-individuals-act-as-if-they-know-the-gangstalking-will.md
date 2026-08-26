@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "space-submission"
+  original_url: "https://www.quora.com/Why-do-targeted-individuals-act-as-if-they-know-the-gangstalking-will-never-stop-I-have-been-told-it-will-stop-when-they-enlighten-me-Anybody-else"
   original_date: "2026-01-04"
   status: "erased"
   space: "Targeted Individuals - Get Answers"

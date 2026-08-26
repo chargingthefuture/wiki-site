@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Assuming-gangstalking-was-real-what-could-happen-to-an-individual-who-tried-to-help-someone-suffering-from-it"
   original_date: "2025-07-13"
   status: "erased"
   question: "Assuming gangstalking was real, what could happen to an individual who tried to help someone suffering from it?"

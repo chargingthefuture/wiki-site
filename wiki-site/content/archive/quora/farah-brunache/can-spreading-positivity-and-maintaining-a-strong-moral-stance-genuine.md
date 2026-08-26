@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Can-spreading-positivity-and-maintaining-a-strong-moral-stance-genuinely-make-gang-stalkers-back-off-and-if-so-how"
   original_date: "2025-12-04"
   status: "erased"
   question: "Can spreading positivity and maintaining a strong moral stance genuinely make gang stalkers back off, and if so, how?"

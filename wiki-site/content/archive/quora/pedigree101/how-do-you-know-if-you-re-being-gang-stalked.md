@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "answer"
+  original_url: "https://www.quora.com/How-do-you-know-if-youre-being-gang-stalked"
   original_date: "2025-09-13"
   status: "erased"
   question: "How do you know if you’re being gang stalked?"

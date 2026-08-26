@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "question"
+  original_url: "https://www.quora.com/When-gang-stalkers-text-my-phone-is-it-installing-spyware"
   original_date: "2024-10-12"
   status: "erased"
 ---

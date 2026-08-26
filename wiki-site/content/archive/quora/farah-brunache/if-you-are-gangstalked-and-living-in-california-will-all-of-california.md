@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/If-you-are-gangstalked-and-living-in-California-will-all-of-California-get-an-alert-about-you-and-everyone-knows-or-its-not-millions-of-people-and-at-worst-just-the-thousands-of-gang-stalkers"
   original_date: "2025-12-17"
   status: "erased"
   question: "If you are gangstalked and living in California will all of California get an alert about you and everyone knows or it’s not millions of people and at worst just the thousands of gang stalkers?"

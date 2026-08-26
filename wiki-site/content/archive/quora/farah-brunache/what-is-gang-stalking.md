@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/What-is-gang-stalking"
   original_date: "2024-12-15"
   status: "erased"
   question: "What is gang stalking?"

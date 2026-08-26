@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Did-my-gang-stalking-start-13-years-ago-when-I-ordered-drugs-off-the-dark-web"
   original_date: "2025-12-14"
   status: "erased"
   question: "Did my gang stalking start 13 years ago when I ordered drugs off the dark web?"

@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Why-do-many-victims-not-speak-up"
   original_date: "2025-09-17"
   status: "erased"
   question: "Why do many victims not speak up?"
