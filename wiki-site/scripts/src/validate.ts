@@ -35,6 +35,25 @@ const VALID_REPOS = new Set([
 const ARCHIVE_SOURCES = new Set(['discourse', 'quora']);
 const ARCHIVE_STATUSES = new Set(['erased', 'closed', 'live']);
 
+/**
+ * What an archive entry was on the platform it was written on. The Record
+ * (/record) labels and filters on this, so a reader can tell a comment left
+ * under someone else's answer from a post written in their space. An entry
+ * without one still renders; it is labeled by its source instead.
+ */
+const ARCHIVE_KINDS = new Set([
+  'answer',
+  'answer-comment',
+  'answer-draft',
+  'credential',
+  'forum-topic',
+  'post-comment',
+  'question',
+  'question-comment',
+  'space-post',
+  'space-submission',
+]);
+
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 
 let errorCount = 0;
@@ -107,8 +126,12 @@ function main() {
         fail(pos, `"repo" must be one of: ${[...VALID_REPOS].join(', ')} — got "${meta.repo}"`);
       }
 
+      // An archive entry's excerpt is the entry — a comment of eight words is
+      // eight words, and padding it would put words in someone's mouth. The
+      // length guidance applies to writing that is being composed for the blog.
+      const isArchive = collection.startsWith('archive/');
       const excerpt = meta.excerpt?.toString() ?? '';
-      if (excerpt && (excerpt.length < 24 || excerpt.length > 200)) {
+      if (!isArchive && excerpt && (excerpt.length < 24 || excerpt.length > 200)) {
         warn(pos, `excerpt is ${excerpt.length} chars (aim for 60-160)`);
       }
 
@@ -125,7 +148,6 @@ function main() {
       if (existing) fail(pos, `duplicate slug "${slug}" (also in ${existing})`);
       else seenSlugs.set(slug.toLowerCase(), pos);
 
-      const isArchive = collection.startsWith('archive/');
       if (isArchive) {
         if (!meta.archive) {
           fail(pos, 'archive collections require an "archive" front-matter block (source, original_date, status)');
@@ -139,6 +161,21 @@ function main() {
           const od = meta.archive.original_date ? String(meta.archive.original_date) : '';
           if (od && !DATE_RE.test(od)) {
             fail(pos, `"archive.original_date" must be YYYY-MM-DD, got "${od}"`);
+          }
+          if (meta.archive.kind && !ARCHIVE_KINDS.has(meta.archive.kind)) {
+            fail(pos, `"archive.kind" must be one of: ${[...ARCHIVE_KINDS].join(', ')}`);
+          }
+          // The screenshot is what keeps an erased entry legible: the original
+          // page is gone, so a picture of it is the only thing left to look at.
+          // A reference that does not point into content/images/ renders
+          // nothing at all, which is worse than carrying no screenshot.
+          const shot = meta.archive.screenshot ? String(meta.archive.screenshot) : '';
+          if (shot && !/^images\/[^/]+$/.test(shot)) {
+            fail(pos, `"archive.screenshot" must be "images/<file>" (a file in content/images/), got "${shot}"`);
+          }
+          const snap = meta.archive.snapshot_url ? String(meta.archive.snapshot_url) : '';
+          if (snap && !/^https?:\/\//.test(snap)) {
+            fail(pos, `"archive.snapshot_url" must be an http(s) URL, got "${snap}"`);
           }
         }
       } else if (meta.archive) {

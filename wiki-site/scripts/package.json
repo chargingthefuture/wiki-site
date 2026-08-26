@@ -11,7 +11,8 @@
     "convert:discourse": "tsx ./src/convert-discourse.ts",
     "convert:quora": "tsx ./src/convert-quora.ts",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "paste-sheet-full": "tsx ./src/paste-sheet-full.ts"
+    "paste-sheet-full": "tsx ./src/paste-sheet-full.ts",
+    "import:quora-export": "tsx ./src/import-quora-export.ts"
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",

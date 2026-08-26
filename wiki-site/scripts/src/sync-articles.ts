@@ -17,12 +17,15 @@ import { readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { dirname, join, relative, resolve } from 'node:path';
+import { load as yamlLoad } from 'js-yaml';
 import { parseFrontMatter } from './frontmatter.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const BLOG_ROOT = resolve(__dirname, '../..');
 const CONTENT_ROOT = resolve(BLOG_ROOT, 'content');
 const ARTICLES_TS = resolve(BLOG_ROOT, 'artifacts/wiki/src/lib/articles.ts');
+const MARKERS_YAML = resolve(CONTENT_ROOT, 'record-markers.yaml');
+const MARKERS_TS = resolve(BLOG_ROOT, 'artifacts/wiki/src/lib/record-markers.ts');
 const isDryRun = process.argv.includes('--dry-run');
 
 const COLLECTIONS = [
@@ -54,7 +57,54 @@ interface ArticleRecord {
     originalUrl?: string;
     originalDate?: string;
     status?: string;
+    kind?: string;
+    space?: string;
+    question?: string;
+    removed?: boolean;
+    sharedTo?: string[];
+    screenshot?: string;
+    snapshotUrl?: string;
   };
+}
+
+interface RecordMarker {
+  date: string;
+  handle: string;
+  what: string;
+  note?: string;
+}
+
+/**
+ * The erasures the Record draws across its timeline. Kept as YAML in content/
+ * rather than in the page, so recording the next account takedown is a content
+ * edit — the page reads the list and counts it, and its opening line follows.
+ */
+function renderMarkers(): string {
+  const raw = yamlLoad(readFileSync(MARKERS_YAML, 'utf8')) as RecordMarker[] | null;
+  const markers = (raw ?? []).map((m) => ({
+    date: String(m.date),
+    handle: m.handle,
+    what: m.what,
+    ...(m.note ? { note: m.note } : {}),
+  }));
+  markers.sort((a, b) => a.date.localeCompare(b.date));
+  return [
+    '// AUTO-GENERATED — do not edit by hand.',
+    '// Edit wiki-site/content/record-markers.yaml, then run:',
+    '//   pnpm wiki:sync',
+    '',
+    'export interface RecordMarker {',
+    '  date: string;',
+    '  handle: string;',
+    '  what: string;',
+    '  note?: string;',
+    '}',
+    '',
+    'export const RECORD_MARKERS: RecordMarker[] = [',
+    markers.map((m) => '  ' + JSON.stringify(m, null, 2).split('\n').join('\n  ')).join(',\n') + ',',
+    '];',
+    '',
+  ].join('\n');
 }
 
 function listMarkdownFiles(dir: string): string[] {
@@ -112,6 +162,13 @@ function collectArticles(): ArticleRecord[] {
           ...(meta.archive.original_url ? { originalUrl: meta.archive.original_url } : {}),
           ...(meta.archive.original_date ? { originalDate: String(meta.archive.original_date) } : {}),
           ...(meta.archive.status ? { status: meta.archive.status } : {}),
+          ...(meta.archive.kind ? { kind: meta.archive.kind } : {}),
+          ...(meta.archive.space ? { space: meta.archive.space } : {}),
+          ...(meta.archive.question ? { question: meta.archive.question } : {}),
+          ...(meta.archive.removed ? { removed: true } : {}),
+          ...(meta.archive.shared_to?.length ? { sharedTo: meta.archive.shared_to } : {}),
+          ...(meta.archive.screenshot ? { screenshot: meta.archive.screenshot } : {}),
+          ...(meta.archive.snapshot_url ? { snapshotUrl: meta.archive.snapshot_url } : {}),
         };
       }
       articles.push(record);
@@ -167,6 +224,13 @@ function render(articles: ArticleRecord[]): string {
     '  originalUrl?: string;',
     '  originalDate?: string;',
     '  status?: string;',
+    '  kind?: string;',
+    '  space?: string;',
+    '  question?: string;',
+    '  removed?: boolean;',
+    '  sharedTo?: string[];',
+    '  screenshot?: string;',
+    '  snapshotUrl?: string;',
     '}',
     '',
     'export interface ArticleMeta {',
@@ -234,6 +298,10 @@ function main() {
 
   writeFileSync(ARTICLES_TS, generated, 'utf8');
   console.log(`✓ Wrote ${articles.length} articles from content/ → ${ARTICLES_TS}`);
+
+  const markers = renderMarkers();
+  writeFileSync(MARKERS_TS, markers, 'utf8');
+  console.log(`✓ Wrote record markers from content/record-markers.yaml → ${MARKERS_TS}`);
 }
 
 main();

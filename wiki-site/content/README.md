@@ -67,7 +67,47 @@ archive:
   original_url: "https://www.quora.com/..."   # original public URL, where one exists
   original_date: "2025-05-23"                 # when it was originally posted
   status: "erased"           # erased (account deleted) or closed (platform shut down)
+  kind: "answer-comment"     # what it was on the platform
+  space: "US-PSYOPS-TARGETED-INDIVIDUALS"     # the space it was written in
+  question: "Why won't anyone help me?"       # the question it was written under
+  removed: true              # taken down by the platform while the account still lived
+  shared_to: ["Targeted Ideas"]               # other spaces the same piece was carried into
+  screenshot: "images/qimg-fa8f49f0.png"      # a picture of the original page
+  snapshot_url: "https://web.archive.org/web/..."
 ```
+
+Everything below `status` is optional and feeds The Record (`/record`), which reads the Quora
+archive oldest-first:
+
+| Field | Meaning |
+|---|---|
+| `kind` | What the entry was where it was written: `answer`, `answer-comment`, `answer-draft`, `credential`, `post-comment`, `question`, `question-comment`, `space-post`, `space-submission`, `forum-topic`. The Record labels and filters on it. |
+| `space` | The space it was written in, when that space was not the author's own. |
+| `question` | The question title it was written under, where the export carries one. |
+| `removed` | The platform took this one down while the account was still live — separate from the account-wide deletion that came later. |
+| `shared_to` | Other spaces the same piece was submitted to. Set by the importer when it folds a duplicate submission into the entry it repeats. |
+| `screenshot` | `images/<file>` — a picture of the original page, committed to `content/images/`. Every original address in the Quora archive is dead, so the screenshot is the only way the page itself can still be looked at. Added one entry at a time. |
+| `snapshot_url` | A saved copy of the original page, where one exists. Resolved once at import time and written here, because the site is static and cannot look it up when a reader opens the page. |
+
+## Importing a Quora export
+
+`pnpm --filter @workspace/scripts run import:quora-export -- --account=<slug> <export-dir>...`
+
+Takes any number of export directories for one account and writes one file per entry into
+`content/archive/quora/<account>/`, with images copied into `content/images/`. Raw exports are
+never committed: they carry inbox messages, IP addresses and other people's names.
+
+What it leaves out, and why:
+
+- Inbox messages and the profile photo. Private, and not writing.
+- Posts to the author's own space. Those are whole pieces and belong to the blog's own archive;
+  The Record carries the writing that lived on other people's pages.
+- Shares and submissions with no words of the author's own — a link pushed into a space is an
+  act of distribution, not a piece of writing.
+- Items with an empty body, which is most of the answer drafts.
+
+It reports every one of those counts when it runs. A silent drop in an import of this size is
+indistinguishable from a parsing fault.
 
 `date` in the main block stays the original posting date too, so the blog orders archive
 entries by when they were actually written. The commit adding the file records when it entered

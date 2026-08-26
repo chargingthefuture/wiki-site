@@ -98,6 +98,15 @@ Rules of the posture:
   A platform account that gets erased costs only that account's reach — a new account's first
   post can link the feed page and a new reader absorbs the whole catalog in minutes. Do not
   replay the back catalog post-by-post from a fresh account.
+- The Record (`/record`) is the other half of that: the Quora writing, oldest first, filtered by
+  account and by what each entry was — an answer, a comment left under someone else's answer, a
+  question asked, a post carried into another space. It answers what the feed cannot while it
+  runs newest-first: how long this went on, how much of it there was, and how many places it was
+  spread across. Each account's erasure is drawn across it at the date it happened, from
+  `content/record-markers.yaml`; recording the next one is an edit to that file, and the page's
+  opening line counts it. Keep that file and `content/posts/old-links-new-links.md` in step —
+  both change in the same commit. Link `/feed` for what is being said now and `/record` for the
+  run of work behind it.
 - Spend no effort on platform carefulness beyond these measures (owner decision, 2026-08-17).
   Good-faith compliance was tested and bought nothing: an account that posted exactly two
   teasers, one link each, no reposting and no back catalog, was deleted the same day
