@@ -57,6 +57,14 @@ interface RecordEntry {
   number: number;
 }
 
+const NUMBER_WORDS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
+
+/** Small counts read as words in a sentence and as digits in a stat tile. */
+function spell(n: number, capitalize = false): string {
+  const word = NUMBER_WORDS[n] ?? String(n);
+  return capitalize ? word.charAt(0).toUpperCase() + word.slice(1) : word;
+}
+
 function monthKey(date: string): string {
   return date.slice(0, 7);
 }
@@ -221,10 +229,16 @@ export default function Record() {
           </h1>
           <div className="border-l-4 border-accent pl-4 space-y-4">
             <p className="font-sans text-lg text-gray-200">
-              {RECORD_MARKERS.length} accounts erased, and every answer, comment
-              and reply on them deleted — along with every link anyone had ever
-              saved pointing at any of it.
+              Every answer, comment and reply here was deleted with the{" "}
+              {spell(accounts.length)} accounts that held it, along with every
+              link anyone had ever saved pointing at any of it.
             </p>
+            {RECORD_MARKERS.length > accounts.length && (
+              <p className="font-sans text-lg text-gray-200">
+                {spell(RECORD_MARKERS.length - accounts.length, true)} more
+                accounts were erased after the writing had already stopped.
+              </p>
+            )}
             <p className="font-sans text-lg text-gray-200">
               This is that writing, in the order it was written, at an address
               nobody else can empty. Scattered across other people's questions
