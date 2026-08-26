@@ -35,6 +35,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "every-community-has-a-threat-model",
+    "title": "Every community has a threat model",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-25",
+    "excerpt": "Objections to a survivor community are not the problem. Presenting the threat without the other side — planning and preparedness — is.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/every-community-has-a-threat-model.md",
+    "teaser": "Every community since the beginning of time has had to consider threats, man-made or natural. A survivor-only community faces the same question every community faces — not a new one. Objections to the idea are not the problem; presenting the threat with no plan beside it is. What matters is planning and preparedness built on the community's threat model, and updating the plan when something goes wrong. I have never lived in a survivor community, and my life is threatened every day where I am.",
+    "topics": [
+      "community",
+      "planning"
+    ]
+  },
+  {
     "slug": "a-gated-community-and-who-could-plan-it",
     "title": "A gated community, and who could plan it",
     "repo": "chargingthefuture/wiki-site",
