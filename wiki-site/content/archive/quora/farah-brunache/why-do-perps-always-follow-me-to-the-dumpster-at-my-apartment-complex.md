@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "space-submission"
+  original_url: "https://www.quora.com/Why-do-perps-always-follow-me-to-the-dumpster-at-my-apartment-complex"
   original_date: "2025-07-28"
   status: "erased"
   space: "Zersetzung - Decomposition Psychology"

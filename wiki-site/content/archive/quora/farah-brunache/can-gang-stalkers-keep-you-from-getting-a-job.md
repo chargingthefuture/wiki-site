@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Can-gang-stalkers-keep-you-from-getting-a-job"
   original_date: "2025-10-11"
   status: "erased"
   question: "Can gang stalkers keep you from getting a job?"

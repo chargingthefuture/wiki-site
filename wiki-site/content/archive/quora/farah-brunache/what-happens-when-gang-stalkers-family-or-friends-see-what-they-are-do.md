@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/What-happens-when-gang-stalkers-family-or-friends-see-what-they-are-doing-and-dont-tell-Why-not-tell"
   original_date: "2025-01-04"
   status: "erased"
   question: "What happens when gang stalkers’ family or friends see what they are doing and don’t tell? Why not tell?"

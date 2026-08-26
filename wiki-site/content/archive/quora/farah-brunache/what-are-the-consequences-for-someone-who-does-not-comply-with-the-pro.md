@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/What-are-the-consequences-for-someone-who-does-not-comply-with-the-program-after-being-targeted-by-gang-stalkers"
   original_date: "2025-06-06"
   status: "erased"
   question: "What are the consequences for someone who does not comply with the program after being targeted by gang stalkers?"

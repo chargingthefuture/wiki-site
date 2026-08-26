@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Has-anyone-had-the-gang-stalkers-want-to-be-your-friend-The-AI-that-speaks-through-my-mouth-is-being-my-friend-What-should-I-expect"
   original_date: "2025-07-02"
   status: "erased"
   question: "Has anyone had the gang stalkers want to be your friend? The AI that speaks through my mouth is being my friend. What should I expect?"

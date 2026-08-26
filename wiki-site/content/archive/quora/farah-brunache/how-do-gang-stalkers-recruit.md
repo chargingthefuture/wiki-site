@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/How-do-gang-stalkers-recruit"
   original_date: "2025-10-02"
   status: "erased"
   question: "How do gang stalkers recruit?"

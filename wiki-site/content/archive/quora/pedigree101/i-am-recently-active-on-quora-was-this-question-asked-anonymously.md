@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "question-comment"
+  original_url: "https://www.quora.com/httpswwwquoracomIm-worried-about-you-guys-Please-seek-therapy-If-this-is-real-you-are-likely-traumatized-by-it-and-if-this-isnt-you-may-have-a-disorder-Are-you-guys-okay"
   original_date: "2025-09-03"
   status: "erased"
   question: "https://www.quora.com/Im-worried-about-you-guys-Please-seek-therapy-If-this-is-real-you-are-likely-traumatized-by-it-and-if-this-isnt-you-may-have-a-disorder-Are-you-guys-okay"

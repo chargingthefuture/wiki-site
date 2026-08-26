@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/What-is-the-very-first-thing-you-advise-a-TI-to-do-after-realizing-they-are-being-de-platformed-from-an-online-service"
   original_date: "2025-10-02"
   status: "erased"
   question: "What is the very first thing you advise a TI to do after realizing they are being de-platformed from an online service?"

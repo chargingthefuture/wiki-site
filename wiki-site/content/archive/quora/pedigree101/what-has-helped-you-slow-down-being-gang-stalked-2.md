@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "space-submission"
+  original_url: "https://www.quora.com/What-has-helped-you-slow-down-being-gang-stalked"
   original_date: "2025-09-08"
   status: "erased"
   space: "US-PSYOPS-TARGETED-INDIVIDUALS"

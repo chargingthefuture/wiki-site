@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Do-gang-stalkers-speak-to-one-another-on-Quora-and-other-platforms-in-code-relay-messaging-and-other-directives"
   original_date: "2024-12-11"
   status: "erased"
   question: "Do gang stalkers speak to one another on Quora and other platforms, in code, relay messaging, and other directives?"

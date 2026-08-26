@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/What-resources-are-available-to-victims-of-Gang-Stalking-Can-you-trust-them"
   original_date: "2025-10-11"
   status: "erased"
   question: "What resources are available to victims of Gang-Stalking? Can you trust them?"

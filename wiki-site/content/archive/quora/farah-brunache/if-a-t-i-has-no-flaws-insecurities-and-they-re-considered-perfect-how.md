@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/If-a-TI-has-no-flawsinsecurities-and-theyre-considered-perfect-how-would-a-gang-stalker-attack-them-as-far-as-looks-go"
   original_date: "2026-07-27"
   status: "erased"
   question: "If a T.I. has no flaws/insecurities and they’re considered “perfect”, how would a gang-stalker attack them as far as looks go?"

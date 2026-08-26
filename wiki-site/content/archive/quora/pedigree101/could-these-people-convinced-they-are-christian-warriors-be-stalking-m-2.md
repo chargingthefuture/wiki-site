@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "answer"
+  original_url: "https://www.quora.com/Could-these-people-convinced-they-are-Christian-Warriors-be-stalking-me-just-because-I-am-homeless"
   original_date: "2025-09-03"
   status: "erased"
   question: "Could these people convinced they are \"Christian Warriors\" be stalking me just because I am homeless?"

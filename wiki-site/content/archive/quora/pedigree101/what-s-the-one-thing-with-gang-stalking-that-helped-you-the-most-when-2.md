@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "answer"
+  original_url: "https://www.quora.com/Whats-the-one-thing-with-gang-stalking-that-helped-you-the-most-when-you-found-out"
   original_date: "2025-08-12"
   status: "erased"
   question: "What's the one thing with gang stalking that helped you the most when you found out?"

@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Given-the-challenge-of-infiltration-what-unique-strategies-do-you-use-to-build-and-maintain-trust-within-the-TI-skills-Network-community"
   original_date: "2025-09-29"
   status: "erased"
   question: "Given the challenge of infiltration, what unique strategies do you use to build and maintain trust within the TI skills Network community?"

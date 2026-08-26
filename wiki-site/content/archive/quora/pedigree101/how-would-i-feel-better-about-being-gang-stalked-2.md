@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "answer"
+  original_url: "https://www.quora.com/How-would-I-feel-better-about-being-gang-stalked-I-am-deeply-depressed-about-the-situation-and-would-like-some-encouragement"
   original_date: "2025-08-06"
   status: "erased"
   question: "How would I feel better about being gang stalked? I am deeply depressed about the situation and would like some encouragement."

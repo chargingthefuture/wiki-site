@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "space-submission"
+  original_url: "https://www.quora.com/What-words-of-encouragement-would-you-give-to-someone-who-has-found-out-10-months-ago-that-they-are-a-TI"
   original_date: "2025-08-18"
   status: "erased"
   space: "AM's Space Gangstalking, Revenge for Hire, TIs"

@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/How-can-I-distinguish-between-real-threats-and-feelings-of-being-targeted-by-gang-stalking-and-when-should-I-seek-help"
   original_date: "2025-10-02"
   status: "erased"
   question: "How can I distinguish between real threats and feelings of being targeted by gang stalking, and when should I seek help?"

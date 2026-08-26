@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "answer"
+  original_url: "https://www.quora.com/Can-electronic-harassment-send-specific-dreams-whilst-you-sleep"
   original_date: "2025-08-30"
   status: "erased"
   question: "Can electronic harassment send specific dreams whilst you sleep?"

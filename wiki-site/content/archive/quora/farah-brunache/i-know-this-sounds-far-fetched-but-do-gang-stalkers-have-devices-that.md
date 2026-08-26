@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/I-know-this-sounds-far-fetched-but-do-gang-stalkers-have-devices-that-can-cause-nightmares-and-bad-dreams-or-maybe-its-just-a-byproduct-of-the-constant-abuses-Ive-suffered"
   original_date: "2025-10-02"
   status: "erased"
   question: "I know this sounds far fetched but do gang stalkers have devices that can cause nightmares and bad dreams or maybe it's just a byproduct of the constant abuses I've suffered?"

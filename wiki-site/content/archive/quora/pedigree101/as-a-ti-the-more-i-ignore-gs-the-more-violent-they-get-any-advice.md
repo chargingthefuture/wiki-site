@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "question"
+  original_url: "https://www.quora.com/As-a-TI-the-more-I-ignore-GS-the-more-violent-they-get-Any-advice"
   original_date: "2025-05-21"
   status: "erased"
 ---

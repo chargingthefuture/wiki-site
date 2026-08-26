@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/I-have-a-question-the-people-thats-GS-me-are-always-talking-about-the-one-have-any-of-you-tis-ever-heard-or-experienced-the-GS-claiming-that-theyre-looking-for-the-one-And-if-so-then-what-is-the-one-supposed-to-do-or-represent"
   original_date: "2026-01-07"
   status: "erased"
   question: "I have a question, the people that's GS me are always talking about \"the one\".. have any of you ti's ever heard or experienced the GS claiming that they're looking for \"the one\"? And if so, then what is \"the one\" supposed to do or represent?"

@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "question-comment"
+  original_url: "https://www.quora.com/httpstinetworkquoracomHow-many-TI-s-are-in-Western-Australia"
   original_date: "2025-08-27"
   status: "erased"
   question: "https://tinetwork.quora.com/How-many-TI-s-are-in-Western-Australia"

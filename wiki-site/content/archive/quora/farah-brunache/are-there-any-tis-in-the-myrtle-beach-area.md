@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "space-submission"
+  original_url: "https://www.quora.com/Are-there-any-TIs-in-the-Myrtle-Beach-area"
   original_date: "2025-10-02"
   status: "erased"
   space: "Real GangStalking Victims and Evidence"

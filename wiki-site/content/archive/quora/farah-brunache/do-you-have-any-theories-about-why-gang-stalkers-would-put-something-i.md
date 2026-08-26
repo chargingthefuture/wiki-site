@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Do-you-have-any-theories-about-why-gang-stalkers-would-put-something-in-my-left-eye"
   original_date: "2026-01-06"
   status: "erased"
   question: "Do you have any theories about why gang stalkers would put something in my left eye?"

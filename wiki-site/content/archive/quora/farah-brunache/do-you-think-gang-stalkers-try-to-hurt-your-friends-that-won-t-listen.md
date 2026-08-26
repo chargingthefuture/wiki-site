@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "space-submission"
+  original_url: "https://www.quora.com/Do-you-think-gang-stalkers-try-to-hurt-your-friends-that-wont-listen-to-them-and-remain-your-friends"
   original_date: "2025-07-28"
   status: "erased"
   space: "Zersetzung - Decomposition Psychology"

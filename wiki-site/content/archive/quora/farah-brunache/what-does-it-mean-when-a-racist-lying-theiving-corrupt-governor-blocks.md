@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/What-does-it-mean-when-a-racist-lying-theiving-corrupt-governor-blocks-your-social-media-account"
   original_date: "2026-02-27"
   status: "erased"
   question: "What does it mean when a racist, lying, theiving, corrupt governor blocks your social media account?"

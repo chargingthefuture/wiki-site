@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Any-people-in-the-Ohio-area-being-gangstalked-who-want-to-team-up-with-a-fellow-targeted-individual"
   original_date: "2025-12-20"
   status: "erased"
   question: "Any people in the Ohio area being gangstalked who want to team up with a fellow targeted individual?"

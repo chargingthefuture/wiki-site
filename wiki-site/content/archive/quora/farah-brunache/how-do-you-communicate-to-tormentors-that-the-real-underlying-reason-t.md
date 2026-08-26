@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/How-do-you-communicate-to-tormentors-that-the-real-underlying-reason-they-target-you-is-because-their-handler-stirred-up-drama-over-genetic-research-with-people-who-had-no-power-to-change-the-results-and-she-had-no-business-using-the-data"
   original_date: "2025-10-02"
   status: "erased"
   question: "How do you communicate to tormentors that the real underlying reason they target you is because their handler stirred up drama over genetic research with people who had no power to change the results and she had no business using the data?"

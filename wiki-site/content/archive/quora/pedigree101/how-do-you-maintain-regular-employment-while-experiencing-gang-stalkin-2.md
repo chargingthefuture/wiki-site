@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "answer"
+  original_url: "https://www.quora.com/How-do-you-maintain-regular-employment-while-experiencing-gang-stalking"
   original_date: "2025-08-10"
   status: "erased"
   question: "How do you maintain regular employment while experiencing gang stalking?"

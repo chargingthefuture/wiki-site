@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Is-there-a-legitimate-reason-an-app-cant-give-you-the-option-to-add-contacts-manually-instead-of-reading-your-phone-contacts"
   original_date: "2025-07-25"
   status: "erased"
   question: "Is there a legitimate reason an app can't give you the option to add contacts manually instead of reading your phone contacts?"

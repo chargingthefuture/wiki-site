@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/How-can-we-get-the-most-out-of-our-lives-being-a-gang-stalking-victim"
   original_date: "2025-09-20"
   status: "erased"
   question: "How can we get the most out of our lives being a gang stalking victim?"

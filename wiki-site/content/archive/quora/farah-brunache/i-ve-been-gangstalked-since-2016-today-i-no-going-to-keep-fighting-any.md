@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Ive-been-gangstalked-since-2016-Today-I-no-going-to-keep-fighting-anymore-Is-anyone-keeping-a-list-of-those-lost-to-this"
   original_date: "2025-09-21"
   status: "erased"
   question: "I’ve been gangstalked since 2016. Today, I no going to keep fighting anymore. Is anyone keeping a list of those lost to this?"

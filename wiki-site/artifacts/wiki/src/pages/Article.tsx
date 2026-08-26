@@ -10,6 +10,7 @@ import { useArticle } from "@/hooks/use-article";
 import { findArticle } from "@/lib/content";
 import { estimateReadTime } from "@/lib/utils";
 import { formatArticleDate } from "@/lib/dates";
+import { KIND_LABELS } from "@/lib/archive-kinds";
 
 export default function Article() {
   const params = useParams();
@@ -96,14 +97,24 @@ export default function Article() {
                 <div className="mt-6 flex items-start gap-3 bg-black border-2 border-gray-800 p-4 font-mono text-sm text-gray-400">
                   <Archive size={18} className="text-accent shrink-0 mt-0.5" />
                   <span>
-                    Historical record. Originally posted on {meta.archive.source === "quora" ? "Quora" : "the Discourse forum"}
+                    Historical record.{" "}
+                    {meta.archive.kind ? <>{KIND_LABELS[meta.archive.kind] ?? meta.archive.kind}, posted</> : <>Originally posted</>}
+                    {" on "}{meta.archive.source === "quora" ? "Quora" : "the Discourse forum"}
                     {meta.archive.account ? <> ({meta.archive.account})</> : null}
                     {meta.archive.originalDate ? <> on {formatArticleDate(meta.archive.originalDate, { month: 'long', day: 'numeric', year: 'numeric' })}</> : null}
                     {". "}
+                    {meta.archive.question && meta.archive.question !== meta.title ? <>Written under: {meta.archive.question}. </> : null}
+                    {meta.archive.space ? <>In the space: {meta.archive.space}. </> : null}
+                    {meta.archive.sharedTo?.length ? <>Also carried into: {meta.archive.sharedTo.join(", ")}. </> : null}
+                    {meta.archive.removed ? <>Taken down by the platform while the account was still live. </> : null}
                     {meta.archive.status === "erased" && "That account was erased by the platform; this page is the canonical copy."}
                     {meta.archive.status === "closed" && "That platform surface is closed; this page is the canonical copy."}
                     {meta.archive.originalUrl ? (
-                      <> <a href={meta.archive.originalUrl} target="_blank" rel="noopener noreferrer" className="text-accent underline">Original context</a></>
+                      // Plain text on purpose: the writing behind this address
+                      // was deleted, and a link that 404s spends a reader's
+                      // click to tell them nothing. The address is the
+                      // evidence of where this lived, not a destination.
+                      <> Deleted from: <span className="font-mono text-xs break-all">{meta.archive.originalUrl}</span></>
                     ) : null}
                   </span>
                 </div>

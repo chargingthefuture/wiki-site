@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "space-submission"
+  original_url: "https://www.quora.com/Who-believes-this-app-is-just-fishing-for-the-awake-targeted-individuals-so-they-can-be-silenced-It-seems-the-occult-has-every-avenue-blocked-off-for-truthers-to-connect"
   original_date: "2025-08-18"
   status: "erased"
   space: "TARGETED INDIVIDUALS"

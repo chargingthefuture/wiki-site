@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Do-fat-people-with-low-self-esteem-target-people-and-gang-stalk-more-frequently"
   original_date: "2025-03-05"
   status: "erased"
   question: "Do fat people with low self-esteem target people and gang stalk more frequently?"

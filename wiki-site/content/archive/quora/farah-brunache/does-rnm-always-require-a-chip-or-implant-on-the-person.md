@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Does-RNM-always-require-a-chip-or-implant-on-the-person"
   original_date: "2026-01-08"
   status: "erased"
   question: "Does RNM always require a chip or implant on the person?"

@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Whats-one-practical-skill-or-insight-youve-learned-from-being-gang-stalked-that-could-help-others-protect-themselves"
   original_date: "2025-09-20"
   status: "erased"
   question: "What’s one practical skill or insight you’ve learned from being gang stalked that could help others protect themselves?"

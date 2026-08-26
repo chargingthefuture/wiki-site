@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "space-submission"
+  original_url: "https://www.quora.com/What-do-I-do-as-a-black-a-senior-disabled-and-targeted-by-peace-officers-and-judiciary-entities"
   original_date: "2025-08-25"
   status: "erased"
   space: "Targeted Individuals - Get Answers"

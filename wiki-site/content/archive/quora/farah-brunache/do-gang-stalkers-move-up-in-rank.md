@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Do-gang-stalkers-move-up-in-rank"
   original_date: "2025-09-21"
   status: "erased"
   question: "Do gang stalkers move up in rank?"

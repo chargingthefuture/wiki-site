@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/How-many-TIs-are-in-Pennsylvania-or-the-Tri-State-area"
   original_date: "2025-08-31"
   status: "erased"
   question: "How many TIs are in Pennsylvania or the Tri-State area?"

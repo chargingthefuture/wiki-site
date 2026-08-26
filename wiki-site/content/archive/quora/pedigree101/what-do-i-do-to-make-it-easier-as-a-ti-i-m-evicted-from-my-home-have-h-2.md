@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "answer"
+  original_url: "https://www.quora.com/What-do-I-do-to-make-it-easier-as-a-TI-Im-evicted-from-my-home-have-had-2-months-to-pack-but-cant-seem-to-pack-I-dont-want-to-leave-everything-behind-but-something-tells-me-I-HAVE-NO-CHOICE"
   original_date: "2025-08-25"
   status: "erased"
   question: "What do I do to make it easier as a TI? I’m evicted from my home, have had 2 months to pack but can’t seem to pack. I don’t want to leave everything behind but something tells me I HAVE NO CHOICE."

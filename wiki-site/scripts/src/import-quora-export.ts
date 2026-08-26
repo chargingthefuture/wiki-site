@@ -222,6 +222,24 @@ function titleFromParentUrl(url: string | undefined): string | undefined {
   return worded && words.length >= 12 ? summarize(words, 110) : undefined;
 }
 
+/**
+ * The address Quora mints for a question, derived from its text: punctuation
+ * dropped, spaces hyphenated, case kept. The export gives answers, drafts and
+ * question comments the question's text but not its address, and the address
+ * is the part of the record a reader can still check — the pilot import used
+ * exactly this derivation and its stored URLs match it character for character.
+ */
+function quoraQuestionUrl(question: string): string | undefined {
+  const slug = question
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^A-Za-z0-9\s-]/g, '')
+    .trim()
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-');
+  return /[A-Za-z0-9]/.test(slug) ? `https://www.quora.com/${slug}` : undefined;
+}
+
 function slugify(s: string): string {
   return (
     s
@@ -311,6 +329,8 @@ const NEVER_IMPORT = new Set(['Inbox Messages', 'Profile Photo']);
  * Why an export item did not become an entry. Reported at the end: a silent
  * drop in an import of this size is indistinguishable from a parsing bug.
  */
+const questionShares: Array<{ question: string; space: string }> = [];
+
 const drops: Record<string, number> = {
   own_space: 0,
   no_words_of_own: 0,
@@ -362,6 +382,18 @@ function buildEntry(item: ExportItem, dirs: string[]): Entry | null {
 
   const rawHtml = f.Content?.html || f['Post content']?.html || f.Text?.html || '';
   if (!plain(rawHtml)) {
+    // A submission with no words of its own but a question attached is still a
+    // record of something: the author pushing a question into a space. The
+    // export's Questions section never says where a question was asked, so this
+    // is the only place that location survives — held here and folded onto the
+    // matching question entry, rather than dropped.
+    if (kind === 'space-submission' && f.Question?.text && f['Space name']?.text) {
+      questionShares.push({
+        question: normalizeForDedupe(f.Question.text),
+        space: f['Space name'].text,
+      });
+      return null;
+    }
     drops[kind === 'space-post' || kind === 'space-submission' ? 'no_words_of_own' : 'empty']++;
     return null;
   }
@@ -373,7 +405,7 @@ function buildEntry(item: ExportItem, dirs: string[]): Entry | null {
     : undefined;
 
   const originalUrl = f.Answer?.text || f.Post?.text || f['Share url']?.text || undefined;
-  const parentUrl = originalUrl && /^https?:\/\//.test(originalUrl) ? originalUrl : undefined;
+  let parentUrl = originalUrl && /^https?:\/\//.test(originalUrl) ? originalUrl : undefined;
 
   const title =
     kind === 'question'
@@ -387,6 +419,22 @@ function buildEntry(item: ExportItem, dirs: string[]): Entry | null {
   if (!title) {
     drops.untitled++;
     return null;
+  }
+
+  // The export carries no address for answers, drafts, questions and question
+  // comments — only the question's text — so the address is derived the way
+  // Quora mints it. Derived after the title on purpose: a title never comes
+  // from a derived address, so the slugs of already-published pages stay put.
+  if (!parentUrl) {
+    if (questionTitle) parentUrl = quoraQuestionUrl(questionTitle);
+    else if (kind === 'question') {
+      // The export merges a question's title with its detail text, and Quora
+      // mints the address from the title alone. A title ends at a question
+      // mark, so the address stops at the last one; a question with none is
+      // taken whole.
+      const mark = contentText.lastIndexOf('?');
+      parentUrl = quoraQuestionUrl(mark >= 0 ? contentText.slice(0, mark + 1) : contentText);
+    }
   }
 
   return {
@@ -495,6 +543,24 @@ function main() {
     kept.push(e);
   }
 
+  // A question-only submission names the space a question was pushed into —
+  // the one place the export records where a question was asked.
+  let questionSharesFolded = 0;
+  for (const share of questionShares) {
+    const host = kept.find(
+      (e) =>
+        e.kind === 'question' &&
+        (e.dedupeKey.replace(/^body:/, '').startsWith(share.question.slice(0, 150)) ||
+          share.question.startsWith(e.dedupeKey.replace(/^body:/, '').slice(0, 150))),
+    );
+    if (host) {
+      if (!host.sharedTo.includes(share.space)) host.sharedTo.push(share.space);
+      questionSharesFolded++;
+    } else {
+      drops.no_words_of_own++;
+    }
+  }
+
   kept.sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
 
   const used = existingSlugs();
@@ -520,6 +586,7 @@ function main() {
   console.log(`  export items read:        ${rawItems.length}`);
   console.log(`  private/never imported:   ${skipped}`);
   console.log(`  submissions folded in:    ${folded}`);
+  console.log(`  question shares folded:   ${questionSharesFolded} (the space a question was asked into)`);
   console.log(`  images copied:            ${[...copiedImages.values()].filter(Boolean).length}`);
   console.log(`  dialect fixes applied:    ${respelled} (British spelling → US; addresses untouched)`);
   console.log(`  entries ${isDryRun ? 'that would be written' : 'written'}: ${written}`);

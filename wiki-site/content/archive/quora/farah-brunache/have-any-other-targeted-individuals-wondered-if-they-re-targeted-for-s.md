@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "space-submission"
+  original_url: "https://www.quora.com/Have-any-other-targeted-individuals-wondered-if-theyre-targeted-for-something-related-to-extraterrestrials-in-case-they-have-been-abducted-or-have-alien-implants"
   original_date: "2025-06-29"
   status: "erased"
   space: "Gangstalked: What made me a Target?"

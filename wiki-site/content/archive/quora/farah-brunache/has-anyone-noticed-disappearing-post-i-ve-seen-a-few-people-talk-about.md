@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Has-anyone-noticed-disappearing-post-Ive-seen-a-few-people-talk-about-it-why-would-Quora-randomly-delete-our-post"
   original_date: "2025-07-02"
   status: "erased"
   question: "Has anyone noticed disappearing post? I've seen a few people talk about it, why would Quora randomly delete our post?"

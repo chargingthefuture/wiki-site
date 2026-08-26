@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Is-moving-away-an-effective-way-to-stop-gang-stalking"
   original_date: "2026-01-22"
   status: "erased"
   question: "Is moving away an effective way to stop gang stalking?"

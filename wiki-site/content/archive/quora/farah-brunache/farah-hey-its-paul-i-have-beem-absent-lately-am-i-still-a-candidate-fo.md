@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Farah-hey-its-Paul-I-have-beem-absent-lately-am-I-still-a-candidate-for-az-gated-community"
   original_date: "2026-02-19"
   status: "erased"
   question: "Farah, hey its Paul. I have beem absent lately, am I still a candidate for az gated community?"

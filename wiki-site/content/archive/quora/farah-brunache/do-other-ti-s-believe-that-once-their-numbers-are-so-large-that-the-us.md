@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "space-submission"
+  original_url: "https://www.quora.com/Do-other-TIs-believe-that-once-their-numbers-are-so-large-that-the-US-will-fall-into-utter-Anarchy"
   original_date: "2025-08-26"
   status: "erased"
   space: "Targeted individuals network"

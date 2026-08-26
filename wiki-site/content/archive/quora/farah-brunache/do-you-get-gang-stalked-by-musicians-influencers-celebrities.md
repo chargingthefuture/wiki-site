@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "question"
+  original_url: "https://www.quora.com/Do-you-get-gang-stalked-by-musiciansinfluencerscelebrities"
   original_date: "2025-06-04"
   status: "erased"
 ---

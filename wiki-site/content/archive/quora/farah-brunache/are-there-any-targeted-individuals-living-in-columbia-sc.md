@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Are-there-any-Targeted-Individuals-living-in-Columbia-SC-If-so-do-any-of-you-have-children-going-to-school-in-this-corrupt-school-system-How-do-You-manage-it-and-what-advice-can-you-give-another-TI-like-Yourself"
   original_date: "2026-01-21"
   status: "erased"
   question: "Are there any Targeted Individuals living in Columbia SC? If so, do any of you have children going to school in this corrupt school system? How do You manage it, and what advice can you give another TI like Yourself?"

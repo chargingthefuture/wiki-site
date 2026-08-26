@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "space-submission"
+  original_url: "https://www.quora.com/This-whole-gang-stalking-thing-has-come-on-now-It-has-to-end-as-I-know-who-started-it-and-sadly-its-a-low-life-ex-How-do-you-prove-it-and-unhack-everything-Talk-about-an-invasion-of-privacy"
   original_date: "2025-06-29"
   status: "erased"
   space: "Gangstalked: What made me a Target?"

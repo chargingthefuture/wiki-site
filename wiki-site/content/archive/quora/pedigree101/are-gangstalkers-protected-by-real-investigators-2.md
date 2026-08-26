@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "answer"
+  original_url: "https://www.quora.com/Are-gangstalkers-protected-by-real-investigators"
   original_date: "2025-08-29"
   status: "erased"
   question: "Are gangstalkers protected by real investigators?"

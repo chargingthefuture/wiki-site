@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Did-targeted-individuals-know-that-gang-stalkers-are-told-they-are-stalking-innocent-people-for-God-when-they-are-doing-it-for-the-devils-they-work-with-and-money-only"
   original_date: "2025-10-11"
   status: "erased"
   question: "Did targeted individuals know that gang stalkers are told they are stalking innocent people for God when they are doing it for the devils they work with and money only?"

@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "answer-draft"
+  original_url: "https://www.quora.com/What-do-you-do-when-people-in-your-community-are-led-to-believe-they-must-stay-silent-while-watching-others-being-criminally-targeted-because-their-handlers-told-them-their-NDA-prevents-reporting"
   original_date: "2025-08-25"
   status: "erased"
   question: "What do you do when people in your community are led to believe they must stay silent while watching others being criminally targeted because their handlers told them their NDA prevents reporting?"

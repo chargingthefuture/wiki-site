@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "answer"
+  original_url: "https://www.quora.com/Has-anyone-had-a-real-attempt-at-their-life-by-gang-stalkers"
   original_date: "2025-08-18"
   status: "erased"
   question: "Has anyone had a real attempt at their life by gang stalkers?"

@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/If-you-think-youve-been-targeted-or-gangstalked-at-work-what-steps-did-you-take-to-protect-yourself-and-secure-your-employment"
   original_date: "2025-09-20"
   status: "erased"
   question: "If you think you've been targeted or \"gangstalked\" at work, what steps did you take to protect yourself and secure your employment?"

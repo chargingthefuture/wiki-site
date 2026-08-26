@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "answer"
+  original_url: "https://www.quora.com/Im-a-targeted-individual-by-gang-stalking-Why-wont-anyone-help-me"
   original_date: "2025-08-06"
   status: "erased"
   question: "I'm a targeted individual by gang stalking. Why won't anyone help me?"

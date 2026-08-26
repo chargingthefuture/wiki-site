@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Are-there-any-targeted-people-living-in-Jacksonville-Florida"
   original_date: "2026-01-03"
   status: "erased"
   question: "Are there any targeted people living in Jacksonville, Florida?"

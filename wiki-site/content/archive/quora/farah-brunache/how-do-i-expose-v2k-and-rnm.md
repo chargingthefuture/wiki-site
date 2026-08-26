@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/How-do-I-expose-V2K-and-RNM"
   original_date: "2026-01-06"
   status: "erased"
   question: "How do I expose V2K and RNM?"

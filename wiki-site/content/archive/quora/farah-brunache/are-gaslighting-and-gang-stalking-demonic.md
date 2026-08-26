@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Are-gaslighting-and-gang-stalking-demonic"
   original_date: "2025-10-22"
   status: "erased"
   question: "Are gaslighting and gang stalking demonic?"

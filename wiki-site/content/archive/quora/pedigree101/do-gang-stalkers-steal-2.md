@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "answer"
+  original_url: "https://www.quora.com/Do-gang-stalkers-steal"
   original_date: "2025-08-18"
   status: "erased"
   question: "Do gang stalkers steal?"

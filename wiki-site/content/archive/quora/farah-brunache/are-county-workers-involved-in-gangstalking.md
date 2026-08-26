@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Are-county-workers-involved-in-gangstalking"
   original_date: "2025-11-01"
   status: "erased"
   question: "Are county workers involved in gangstalking?"

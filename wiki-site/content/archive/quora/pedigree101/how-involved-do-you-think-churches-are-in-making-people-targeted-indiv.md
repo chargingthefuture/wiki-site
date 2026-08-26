@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "space-submission"
+  original_url: "https://www.quora.com/How-involved-do-you-think-churches-are-in-making-people-Targeted-Individuals-managing-targeting-itself"
   original_date: "2025-08-30"
   status: "erased"
   space: "Real GangStalking Victims and Evidence"

@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "answer"
+  original_url: "https://www.quora.com/How-can-you-tell-if-someone-involved-in-gang-stalking-is-doing-it-out-of-desperation-or-if-they-genuinely-have-malicious-intent"
   original_date: "2025-08-09"
   status: "erased"
   question: "How can you tell if someone involved in gang stalking is doing it out of desperation or if they genuinely have malicious intent?"

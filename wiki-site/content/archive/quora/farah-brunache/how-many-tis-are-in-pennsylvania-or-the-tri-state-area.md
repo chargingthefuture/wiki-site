@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "space-submission"
+  original_url: "https://www.quora.com/How-many-TIs-are-in-Pennsylvania-or-the-Tri-State-area"
   original_date: "2025-08-03"
   status: "erased"
   space: "Real GangStalking Victims and Evidence"

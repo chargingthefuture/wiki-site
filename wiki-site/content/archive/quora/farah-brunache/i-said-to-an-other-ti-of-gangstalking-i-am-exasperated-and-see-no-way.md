@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/I-said-to-an-other-TI-of-gangstalking-I-am-exasperated-and-see-no-way-outMaybe-1-day-Ill-snap-and-take-revengeShe-called-me-troll-and-blocked-mesaying-that-a-victim-would-never-say-thatBut-I-amDo-I-have-to-be-like-everyone-else-to-be-believed"
   original_date: "2025-12-14"
   status: "erased"
   question: "I said to an other TI of gangstalking: I am exasperated and see no way out.Maybe 1 day I'll snap and take revenge.She called me troll and blocked me,saying that a victim would never say that.But I am.Do I have to be like everyone else to be believed?"

@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Those-that-have-auditory-harassment-have-you-tried-recording-those-voices-then-hold-your-phone-against-your-ear-If-its-quiet-can-you-hear-them-and-have-evidence"
   original_date: "2025-07-02"
   status: "erased"
   question: "Those that have auditory harassment, have you tried recording those voices then hold your phone against your ear? If it's quiet, can you hear them and have evidence?"

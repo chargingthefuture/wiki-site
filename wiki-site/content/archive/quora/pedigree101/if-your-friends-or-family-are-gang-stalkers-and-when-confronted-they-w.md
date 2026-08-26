@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "pedigree101"
   kind: "space-submission"
+  original_url: "https://www.quora.com/If-your-friends-or-family-are-gang-stalkers-and-when-confronted-they-will-deny-any-involvement-and-you-have-proof-that-they-are-what-do-the-gang-stalkers-have-on-them"
   original_date: "2025-08-24"
   status: "erased"
   space: "U.S. Anti GANG STALKING"

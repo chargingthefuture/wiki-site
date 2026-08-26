@@ -8,6 +8,7 @@ archive:
   source: "quora"
   account: "farah-brunache"
   kind: "answer"
+  original_url: "https://www.quora.com/Is-it-possible-Ive-always-been-stalked-but-just-didnt-notice-till-6-years-ago-Is-it-possible-Im-being-stalked-for-a-bigger-purpose-than-I-pissed-someone-off-high-up-in-law-enforcement-Could-it-be-my-bloodline-or-am-I-a-threat-in-there-sick-game-of-control-over-the-people-bye-the-government"
   original_date: "2025-10-11"
   status: "erased"
   question: "Is it possible I've always been stalked but just didn't notice till 6 years ago? Is it possible I'm being stalked for a bigger purpose than I pissed someone off high up in law enforcement. Could it be my bloodline or am I a threat in there sick game of control over the people bye the government"
