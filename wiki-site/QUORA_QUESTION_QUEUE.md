@@ -29,8 +29,10 @@ Proposed, not settled. Correct them on the first post rather than in the abstrac
 - Each publish carries the standard tail: the "Where to find it in the app" section for any part
   the post names, the sign-up block if the post invites participation, a hand-written
   `QUORA_PASTE_SHEET.txt` entry, and a regenerated `QUORA_PASTE_SHEET_FULL.txt`.
-- Before drafting, check what was already saved on the subject, so the post cites the reading
-  rather than starting cold.
+- Before drafting, grep `QUORA_INSPIRATION_QUEUE.md` for the subject and read what is already
+  saved on it, so the post cites the reading rather than starting cold. Tick there whatever the
+  post ends up using, in the same commit as the post. A question here is a post to write; a line
+  there is something to write it from.
 
 ## The queue
 
