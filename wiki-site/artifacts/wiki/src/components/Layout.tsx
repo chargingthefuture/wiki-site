@@ -107,7 +107,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 <li><Link href="/feed" className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> The Feed</Link></li>
                 <li><Link href="/record" className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> The Record</Link></li>
                 <li><a href="https://chargingthefuture.com" target="_blank" rel="noopener noreferrer" className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> Main Site</a></li>
-                <li><a href="https://github.com/chargingthefuture/chargingthefuture/wiki" target="_blank" rel="noopener noreferrer" className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> GitHub Wiki</a></li>
+                <li><a href="https://github.com/chargingthefuture/wiki-site" target="_blank" rel="noopener noreferrer" className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> Source &amp; History (GitHub)</a></li>
               </ul>
             </div>
             

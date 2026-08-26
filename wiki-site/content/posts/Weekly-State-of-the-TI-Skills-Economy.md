@@ -104,7 +104,7 @@ Starting today onwards, it will be less about app metrics and a discussion on th
 The weekly performance metrics of the app will still be open for viewing in-app for all members.
 
 Within the next few days, the app will go offline as there are no funds to cover the hosting cost. Whenever this happens, a temporary “sign up sheet” landing page will be available for new TIs to add their names to the waitlist and be notified when they can sign up. More details here:
-[Contribution Reversal, A Better Alternative](https://github.com/chargingthefuture/chargingthefuture/wiki/Contribution-Reversal,-A-Better-Alternative).
+[Contribution Reversal, A Better Alternative](https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Contribution-Reversal%2C-A-Better-Alternative).
 
 For existing members, while the app is down, we can still put in the work. Your data is not lost. And I will manage the TI Skills Economy the old school way —using spreadsheets. And then data enter the info from the spreadsheets back to the app. Then, when the app goes online, no time has passed!
 
@@ -124,7 +124,7 @@ https://skillseconomy.quora.com/Welcome-to-the-weekly-State-of-the-TI-Skills-Eco
 
 - Last week, I removed unused features. There is one more feature that will be removed, and that is SupportMatch. There is no usage of it. Keep in mind, this is a community-driven product, and so in the future, if there is demand, I can rebuild it.
 - With the less-in-demand features removed, I have begun an app re-design that I believe will increase engagement. My estimate is that it will take about two weeks before I can launch the product.
-- I announced this week the price increase that will take effect on March 1, 2026. Details here: [https://github.com/chargingthefuture/chargingthefuture/wiki/A-Necessary-Step-to-Keep-Our-Platform-Running](https://github.com/chargingthefuture/chargingthefuture/wiki/A-Necessary-Step-to-Keep-Our-Platform-Running)
+- I announced this week the price increase that will take effect on March 1, 2026. Details here: [https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/A-Necessary-Step-to-Keep-Our-Platform-Running](https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/A-Necessary-Step-to-Keep-Our-Platform-Running)
 
 ### 📊 Weekly App Stats
 

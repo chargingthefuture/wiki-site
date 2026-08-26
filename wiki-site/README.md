@@ -13,7 +13,7 @@ Public-facing blog and wiki for [Charging The Future](https://chargingthefuture.
 
 | Layer | What it is |
 |---|---|
-| **Content source** | GitHub Wiki repo [`chargingthefuture.wiki.git`](https://github.com/chargingthefuture/chargingthefuture/wiki) — markdown fetched live at render time |
+| **Content source** | Markdown with YAML front matter under [`content/`](content/) in this repository — bundled at build time. The GitHub Wiki is deprecated; its pages were migrated here and keep their original slugs. |
 | **Article registry** | `wiki-site/content-index.yaml` — canonical list of published articles |
 | **Generated registry** | `artifacts/wiki/src/lib/articles.ts` — synced from `content-index.yaml` via `pnpm wiki:sync` |
 | **Frontend** | React + Vite app in `artifacts/wiki/` |
@@ -54,7 +54,7 @@ A post goes live only after its `content-index.yaml` entry is synced, committed,
 
 **Quick single post:**
 
-1. Write/edit the page in the [GitHub Wiki](https://github.com/chargingthefuture/chargingthefuture/wiki).
+1. Write the page as a markdown file in the right collection under [`content/`](content/) (the GitHub Wiki is deprecated — nothing is authored there).
 2. Add an entry to `content-index.yaml`:
    ```yaml
    - slug: "My-Page-Title"
