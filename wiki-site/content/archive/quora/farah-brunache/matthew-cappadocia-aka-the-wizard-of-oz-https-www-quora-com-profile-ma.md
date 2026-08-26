@@ -16,7 +16,7 @@ archive:
     - "US-PSYOPS-TARGETED-INDIVIDUALS"
 ---
 
-[Matthew Cappadocia (aka The Wizard of Oz)](https://www.quora.com/profile/Matthew-Cappadocia-aka-The-Wizard-of-Oz) your byline changed, does this mean it was a bot post? I thought that line dynamically changes and is not static to a time period. I want to make sure I do not engage with bots.
+Matthew Cappadocia (aka The Wizard of Oz) (https://www.quora.com/profile/Matthew-Cappadocia-aka-The-Wizard-of-Oz) your byline changed, does this mean it was a bot post? I thought that line dynamically changes and is not static to a time period. I want to make sure I do not engage with bots.
 
 ![](images/qimg-029b2857d8908946e04c29283f4b0469.jpg)
 

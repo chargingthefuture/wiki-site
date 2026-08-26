@@ -15,7 +15,7 @@ archive:
   question: "Are there any TIs in the Myrtle Beach area?"
 ---
 
-[Matthew Cappadocia (aka The Wizard of Oz)](https://www.quora.com/profile/Matthew-Cappadocia-aka-The-Wizard-of-Oz) created a map of TIs who have self-reported where they are, check it out:
+Matthew Cappadocia (aka The Wizard of Oz) (https://www.quora.com/profile/Matthew-Cappadocia-aka-The-Wizard-of-Oz) created a map of TIs who have self-reported where they are, check it out:
 
 [Matthew Cappadocia (aka The Wizard of Oz)'s post in Targeted Individuals Survey and Map](https://targetedindividualssurvey.quora.com/QUORA-WILL-NOT-ALLOW-ME-TO-POST-MAPS-TI-Survey-Question-102-WHERE-ARE-YOU-City-State-Country-Welcome-to-my-new?ch=15&oid=227947390&share=0ec1f7dc&srid=5iAz5d&target_type=post)
 

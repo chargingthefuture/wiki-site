@@ -15,4 +15,4 @@ archive:
   question: "Has anyone ever gotten their family back after the character assassination targeted individuals face?"
 ---
 
-[Matthew Cappadocia (aka The Wizard of Oz)](https://www.quora.com/profile/Matthew-Cappadocia-aka-The-Wizard-of-Oz) mentioned it took 5 years for his family to realize what happened. His posts may help you. Though he didn’t explain how exactly. Ask him directly or you can infer from his previous posts.
+Matthew Cappadocia (aka The Wizard of Oz) (https://www.quora.com/profile/Matthew-Cappadocia-aka-The-Wizard-of-Oz) mentioned it took 5 years for his family to realize what happened. His posts may help you. Though he didn’t explain how exactly. Ask him directly or you can infer from his previous posts.

@@ -14,6 +14,6 @@ archive:
   question: "Are there any targeted people living in Jacksonville, Florida?"
 ---
 
-Check out [Matthew Cappadocia (aka The Wizard of Oz)](https://www.quora.com/profile/Matthew-Cappadocia-aka-The-Wizard-of-Oz) TI map. It list people who have self-reported as TIs and where they are.
+Check out Matthew Cappadocia (aka The Wizard of Oz) (https://www.quora.com/profile/Matthew-Cappadocia-aka-The-Wizard-of-Oz) TI map. It list people who have self-reported as TIs and where they are.
 
 [Targeted Individuals Survey and Map](https://targetedindividualssurvey.quora.com)

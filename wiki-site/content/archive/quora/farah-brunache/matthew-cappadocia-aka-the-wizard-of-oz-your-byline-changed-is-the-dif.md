@@ -13,7 +13,7 @@ archive:
   space: "EXPOSE SAN DIEGO MAYOR TODD GLORIA AS A STALKER"
 ---
 
-[Matthew Cappadocia (aka The Wizard of Oz)](https://www.quora.com/profile/Matthew-Cappadocia-aka-The-Wizard-of-Oz) your byline changed. Is the different one a bot post?
+Matthew Cappadocia (aka The Wizard of Oz) (https://www.quora.com/profile/Matthew-Cappadocia-aka-The-Wizard-of-Oz) your byline changed. Is the different one a bot post?
 
 ![](images/qimg-029b2857d8908946e04c29283f4b0469.jpg)
 

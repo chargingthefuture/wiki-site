@@ -15,7 +15,7 @@ archive:
   question: "How can I be add to the list of ti’s I live in Perth Western Australia 6163. There are other ti’s here in Perth I have recently discovered.?"
 ---
 
-[Matthew Cappadocia (aka The Wizard of Oz)](https://www.quora.com/profile/Matthew-Cappadocia-aka-The-Wizard-of-Oz) has a map of people who have self-identified:
+Matthew Cappadocia (aka The Wizard of Oz) (https://www.quora.com/profile/Matthew-Cappadocia-aka-The-Wizard-of-Oz) has a map of people who have self-identified:
 
 [Targeted Individuals Survey and Map](https://targetedindividualssurvey.quora.com)
 
