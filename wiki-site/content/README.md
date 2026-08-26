@@ -113,8 +113,26 @@ Every entry it writes carries `listed: false`, without exception. The feed carri
 writing, and an import is raw export text — the copy-edit pass in the `chargingthefuture/quora`
 repository is what promotes a piece to the feed, and it has not run on any of this. The entries
 still have real addresses and still appear on The Record; they simply are not published writing
-yet. Do not remove `listed: false` from an imported file by hand: promote it through the quora
-repo, the way every other page reaches the feed.
+yet.
+
+### Promoting an imported entry to the feed
+
+There is one file per entry and both surfaces read it, so a copy edit updates The Record and the
+feed together. There is nothing to copy, move, or keep in step.
+
+1. Copy edit the entry in the `chargingthefuture/quora` repository, where the copy-edit pass and
+   its review live.
+2. Bring the edited text across into this file. The Record now shows the edited wording, because
+   it reads this file and always did.
+3. Add a `teaser`. The feed shows `teaser` and falls back to `excerpt`; an imported entry has no
+   teaser, so without one the feed would show the first 190 characters of the answer rather than
+   a short standalone version of it. This is the only field promotion adds.
+4. Remove the `listed: false` line. The entry joins the feed, in date order, the way the 153
+   Discourse archive entries already do.
+
+Never do step 4 on its own. `listed: false` coming off a file that has not been through the
+copy-edit pass is the one thing this arrangement exists to prevent. Nothing else changes: the file
+stays in `content/archive/quora/`, keeps its slug and address, and keeps its place on The Record.
 
 `date` in the main block stays the original posting date too, so the blog orders archive
 entries by when they were actually written. The commit adding the file records when it entered
