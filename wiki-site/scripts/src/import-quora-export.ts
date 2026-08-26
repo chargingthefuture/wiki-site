@@ -418,11 +418,12 @@ function render(entry: Entry, slug: string): string {
     `excerpt: ${yamlString(entry.excerpt)}`,
     'category: "Community"',
   ];
-  // Answers are whole pieces of writing and belong in the feed like any other
-  // post. The fragments — comments, drafts, submissions, a credential — keep a
-  // real address and show on The Record, but they would bury a feed whose job
-  // is catching a reader up in minutes.
-  if (entry.kind !== 'answer') lines.push('listed: false');
+  // Nothing imported here enters the feed, whatever kind it is. The feed carries
+  // copy-edited writing, and this is raw export text: the copy-edit pass in the
+  // chargingthefuture/quora repository is what promotes a piece to the feed, and
+  // it has not run on any of this. Every entry still has a real address and shows
+  // on The Record.
+  lines.push('listed: false');
   lines.push('archive:', '  source: "quora"', `  account: ${yamlString(account!)}`, `  kind: ${yamlString(entry.kind)}`);
   if (entry.originalUrl) lines.push(`  original_url: ${yamlString(entry.originalUrl)}`);
   lines.push(`  original_date: ${yamlString(entry.date)}`, '  status: "erased"');

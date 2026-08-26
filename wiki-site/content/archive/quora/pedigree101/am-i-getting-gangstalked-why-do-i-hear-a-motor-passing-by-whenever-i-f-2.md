@@ -3,6 +3,7 @@ title: "Am I getting gangstalked? Why do I hear a motor passing by whenever I fi
 date: "2025-08-13"
 excerpt: "Not necessarily. Multiple people are being gang stalked in an area. Therefore it could be someone else. Or multiple others."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "pedigree101"

@@ -3,6 +3,7 @@ title: "Have you ever managed to make a gangstalker understand that he's being t
 date: "2025-12-14"
 excerpt: "Gang stalkers, the colloquial name for group vigilantes, are in the business of creating lies about you."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

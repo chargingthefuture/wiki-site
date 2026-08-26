@@ -3,6 +3,7 @@ title: "What do gang stalkers say about targeted people that isn't true?"
 date: "2025-10-11"
 excerpt: "Everything, I only know of some. To my job, they said I am on drugs, to others that I \"threaten\" people, as read ironically in an email from a hot-headed, unconvicted felon that does…"
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

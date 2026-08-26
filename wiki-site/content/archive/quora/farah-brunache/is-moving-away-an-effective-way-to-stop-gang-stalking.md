@@ -3,6 +3,7 @@ title: "Is moving away an effective way to stop gang stalking?"
 date: "2026-01-22"
 excerpt: "Only if you are early in gang stalking (not many people have opted into stalking you) and are okay with living without social media, a phone, the Internet, etc."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

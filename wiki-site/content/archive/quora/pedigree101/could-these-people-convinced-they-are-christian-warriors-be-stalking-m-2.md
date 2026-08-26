@@ -3,6 +3,7 @@ title: "Could these people convinced they are \"Christian Warriors\" be stalking
 date: "2025-09-03"
 excerpt: "No. To be gang stalked means you made “the wrong person (narcissist) mad.” Significant amounts of homeless people are gang stalkers. ANY petty reason could have placed you on the list."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "pedigree101"

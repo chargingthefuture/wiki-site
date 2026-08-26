@@ -3,6 +3,7 @@ title: "Why do targeted individuals often report financial sabotage, and what ca
 date: "2025-09-20"
 excerpt: "Nothing at this point. They have bankrupted every one of us. They mob every income stream. And any money you have will be spent defending yourself or needlessly spent."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

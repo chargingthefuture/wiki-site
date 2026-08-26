@@ -3,6 +3,7 @@ title: "Did targeted individuals know that gang stalkers are told they are stalk
 date: "2025-10-11"
 excerpt: "Gang stalkers will tell any and every lie to any sucker to convince them to harass and stalk a Target.If someone is triggered by racism. They will say you are a racist."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

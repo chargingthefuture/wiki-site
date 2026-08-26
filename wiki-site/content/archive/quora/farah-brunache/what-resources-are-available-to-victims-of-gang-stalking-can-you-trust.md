@@ -3,6 +3,7 @@ title: "What resources are available to victims of Gang-Stalking? Can you trust 
 date: "2025-10-11"
 excerpt: "To end gang stalking? No, I have not seen anything trustworthy. It is either trolling or naive/ignorant of who orchestrates targeting, and because of this, they cannot stop gang…"
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

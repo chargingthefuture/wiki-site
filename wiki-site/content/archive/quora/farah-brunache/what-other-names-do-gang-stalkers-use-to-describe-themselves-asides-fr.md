@@ -3,6 +3,7 @@ title: "What other Names do Gang Stalkers use to describe themselves asides from
 date: "2025-10-11"
 excerpt: "Where did you learn this? They never intentionally reveal anything they do. The only slip-up was one of the apps they use to communicate; I saw it by accident.I once called them \"the…"
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

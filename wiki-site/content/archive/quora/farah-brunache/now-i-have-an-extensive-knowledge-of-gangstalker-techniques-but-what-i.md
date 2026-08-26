@@ -3,6 +3,7 @@ title: "Now I have an extensive knowledge of GangStalker techniques, but what I 
 date: "2024-12-10"
 excerpt: "I have seen the app. It is not something that appears to be commercially available. Like Whatsapp. I suspect it is a chat app clone made by a private government contractor."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

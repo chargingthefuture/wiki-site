@@ -3,6 +3,7 @@ title: "What is the very first thing you advise a TI to do after realizing they 
 date: "2025-10-02"
 excerpt: "You are either de-platformed (banned/kicked out) or not. Prior to this happening, maybe you are shadow-banned. Usually, the platform will also send you warnings of platform violations."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

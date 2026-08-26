@@ -3,6 +3,7 @@ title: "How can you tell if someone involved in gang stalking is doing it out of
 date: "2025-08-09"
 excerpt: "This has got to be from a perp. Gang stalking is a choice. That’s like asking if a drug dealer is dealing out of desperation or has malicious intent."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "pedigree101"

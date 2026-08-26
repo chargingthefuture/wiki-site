@@ -3,6 +3,7 @@ title: "When you are gang stalked (community stalked), are there hidden cameras 
 date: "2025-09-06"
 excerpt: "Based on my research the $30 cheap devices will not detect them. It is a scam. Only place an average person can get a real scanner is on eBay, and it will be $3k and up."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "pedigree101"

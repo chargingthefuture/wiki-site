@@ -3,6 +3,7 @@ title: "Could a targeted individual be also active in gang stalking?"
 date: "2025-05-23"
 excerpt: "No. Once a target always a target. A gang stalker, for whatever reason they have joined, is in a separate category because they will never endure the same as a TI.There is proxy gang…"
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "pedigree101"

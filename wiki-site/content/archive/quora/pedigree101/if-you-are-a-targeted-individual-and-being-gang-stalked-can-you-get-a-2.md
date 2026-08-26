@@ -3,6 +3,7 @@ title: "If you are a targeted individual and being gang stalked can you get a la
 date: "2025-09-09"
 excerpt: "I am 99% sure the answer is no. You can try. Just have low expectations.It is not even about being a lawyer. They harass and sabotage anyone that is helping you do anything."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "pedigree101"

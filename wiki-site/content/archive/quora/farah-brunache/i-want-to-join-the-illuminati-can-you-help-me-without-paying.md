@@ -3,6 +3,7 @@ title: "I want to join the Illuminati. Can you help me without paying?"
 date: "2026-01-02"
 excerpt: "I thought moderators had to approve questions before they are posted? If so, why is such an obvious perp question accepted?As a perp you are aware that majority of homeless people in the…"
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

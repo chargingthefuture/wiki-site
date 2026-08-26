@@ -3,6 +3,7 @@ title: "What measures can the government take to prevent gang stalking?"
 date: "2025-09-20"
 excerpt: "Did Nelson Mandela say it best?“For to be free is not merely to cast off one’s chains, but to live in a way that respects and enhances the freedom of others.”History has shown that…"
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

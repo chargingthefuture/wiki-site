@@ -3,6 +3,7 @@ title: "How can you tell if someone involved in gang stalking is doing it out of
 date: "2025-09-20"
 excerpt: "Gang stalking is a choice. That's like asking if a drug dealer is dealing out of desperation or has malicious intent. What difference is their intent?"
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

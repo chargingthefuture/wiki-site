@@ -3,6 +3,7 @@ title: "Were gang stalkers ever stalked themselves?"
 date: "2025-10-02"
 excerpt: "This question makes no sense. Gang stalkers are \"people,\" and outside of gang stalking, they experience typical human events."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

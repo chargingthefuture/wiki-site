@@ -3,6 +3,7 @@ title: "Did my gang stalking start 13 years ago when I ordered drugs off the dar
 date: "2025-12-14"
 excerpt: "No. To get targeted you made a narc mad.Gang stalking is orchestrated by organized crime. Which includes the participation of drug traffickers."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

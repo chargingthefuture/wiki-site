@@ -3,6 +3,7 @@ title: "How many TIs are in Pennsylvania or the Tri-State area?"
 date: "2025-08-31"
 excerpt: "I do not know but check out the TI map:Original postMatthew Cappadocia (aka The Wizard of Oz)'s post in Targeted Individuals Survey and MapMap; view in web browser not google…"
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

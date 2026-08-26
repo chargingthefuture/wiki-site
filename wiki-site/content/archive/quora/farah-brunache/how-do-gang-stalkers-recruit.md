@@ -3,6 +3,7 @@ title: "How do gang stalkers recruit?"
 date: "2025-10-02"
 excerpt: "At its simplest form, gossip. It is like this episode of Baby Blues:https://youtu.be/USD1MzVDks0However, there a many other angles to recruit."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

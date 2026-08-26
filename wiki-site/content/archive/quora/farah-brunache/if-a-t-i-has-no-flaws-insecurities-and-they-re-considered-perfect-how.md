@@ -3,6 +3,7 @@ title: "If a T.I. has no flaws/insecurities and they’re considered “perfect�
 date: "2026-07-27"
 excerpt: "That’s not how they work. This has nothing to do with looks. And will target everything. Two things. They will mock normal behavior."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

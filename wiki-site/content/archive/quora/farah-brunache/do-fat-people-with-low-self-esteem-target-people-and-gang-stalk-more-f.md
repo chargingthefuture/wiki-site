@@ -3,6 +3,7 @@ title: "Do fat people with low self-esteem target people and gang stalk more fre
 date: "2025-03-05"
 excerpt: "Probably not. Gang stalkers cross all demographics weight has nothing to do with being a narcissist, psychopath, or sociopath. Which is what gang stalkers are."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

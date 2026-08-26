@@ -3,6 +3,7 @@ title: "Do gang stalkers steal?"
 date: "2025-10-02"
 excerpt: "Yes. They stole ~90% of my clothes, car, mail (or delivered it opened), business ideas, and intellectual property.More of my posts:https://chargingthefuture.discou..."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

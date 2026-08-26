@@ -3,6 +3,7 @@ title: "Lots of people on here recommend praying. How can there be a god (with a
 date: "2025-08-19"
 excerpt: "Praying will do nothing about gang stalking, they are either gaslighting you or ignorant. When someone says that consider them suggesting you go for a run to relieve stress."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "pedigree101"

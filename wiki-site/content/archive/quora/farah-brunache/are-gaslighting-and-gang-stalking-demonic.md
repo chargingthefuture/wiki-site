@@ -3,6 +3,7 @@ title: "Are gaslighting and gang stalking demonic?"
 date: "2025-10-22"
 excerpt: "How do you define demonic? Does it include organized crime? Meaning a human trafficking ring organized by the likes of stalkers, thieves, drug dealers, cults, gangs, religious groups,…"
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

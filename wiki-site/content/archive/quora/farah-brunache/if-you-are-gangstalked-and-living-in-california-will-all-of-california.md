@@ -3,6 +3,7 @@ title: "If you are gangstalked and living in California will all of California g
 date: "2025-12-17"
 excerpt: "Yes. It's not limited to operatives in California — it's global. \"Gang stalking\" (a colloquial term for group vigilantes) is part of a worldwide human-trafficking network, combined with…"
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

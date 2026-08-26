@@ -3,6 +3,7 @@ title: "Is there any place in San Diego were there are groups or resources for a
 date: "2025-12-13"
 excerpt: "No. Gang stalking, the colloquial name for group vigilantism run by organized crime (human, sex and drug traffickers), does not have direct social services."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

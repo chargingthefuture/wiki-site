@@ -3,6 +3,7 @@ title: "Can electronic harassment send specific dreams while you sleep?"
 date: "2025-08-30"
 excerpt: "Yes. But it only happened to me one time. They (gang stalkers) do it to my mother perhaps every night to dictate her actions during the day. She is religious."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "pedigree101"

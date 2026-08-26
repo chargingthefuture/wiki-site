@@ -3,6 +3,7 @@ title: "What's the one thing with gang stalking that helped you the most when yo
 date: "2025-09-20"
 excerpt: "Meeting in person and building relationships with other TIs. I met a TI who taught me about healthy clinical trials."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

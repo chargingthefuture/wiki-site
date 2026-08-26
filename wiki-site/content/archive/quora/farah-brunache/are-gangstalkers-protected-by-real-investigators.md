@@ -3,6 +3,7 @@ title: "Are gangstalkers protected by real investigators?"
 date: "2025-10-02"
 excerpt: "Gangstalkers protect each other. Investigators are as protected as a police officer gstalker, a cashier gstalker, etc. Profession is not relevant."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

@@ -3,6 +3,7 @@ title: "Is most of our homeless problem due to gang stalking community harassmen
 date: "2025-07-11"
 excerpt: "No. The alarming truth is that many homeless people are also gang stalkers. Gang stalkers made me homeless and they have droves of homeless people gang stalking me."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

@@ -3,6 +3,7 @@ title: "After 14 years homeless and 3 Targeted, dovother Targeted Individuals al
 date: "2025-10-03"
 excerpt: "No. There is a significant number of homeless people who are gang stalkers. My guess - I have seen parents have their two-year-olds gang stalking adults."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

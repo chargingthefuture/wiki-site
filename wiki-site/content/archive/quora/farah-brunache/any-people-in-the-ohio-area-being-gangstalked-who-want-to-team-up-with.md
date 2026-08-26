@@ -3,6 +3,7 @@ title: "Any people in the Ohio area being gangstalked who want to team up with a
 date: "2025-12-20"
 excerpt: "I am interested, but not in Ohio. I travel and Healthy Volunteer Clinical Trials. And there is a trial company in Ohio. The most I have seen is $45,000 in earnings in one month."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

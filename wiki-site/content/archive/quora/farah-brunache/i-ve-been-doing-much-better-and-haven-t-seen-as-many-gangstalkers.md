@@ -3,6 +3,7 @@ title: "I’ve been doing much better and haven’t seen as many gangstalkers."
 date: "2025-11-02"
 excerpt: "No. They torture people differently. One reason is that they are regrouping. Pretending to be “out of sight” aka not overtly harassing you is them laying low so you put your guard down."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

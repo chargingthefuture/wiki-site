@@ -3,6 +3,7 @@ title: "What are the consequences for someone who does not comply with the progr
 date: "2025-06-06"
 excerpt: "There's no such thing for TIs. They want us to commit suicide, go to prison or a mental institution that is the “comply.” You have been judged as a person that cannot conform to their…"
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

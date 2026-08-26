@@ -3,6 +3,7 @@ title: "What do gang stalkers do when they can't successfully and covertly convi
 date: "2024-12-15"
 excerpt: "For me it was an attempted abduction. But it depends on the individual as we are all slightly different. But they will do more. Isolate you with no friends, family or job."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

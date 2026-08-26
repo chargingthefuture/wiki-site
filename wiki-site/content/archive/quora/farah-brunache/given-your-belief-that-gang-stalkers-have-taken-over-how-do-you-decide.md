@@ -3,6 +3,7 @@ title: "Given your belief that gang stalkers have taken over, how do you decide 
 date: "2025-10-06"
 excerpt: "Not sure I understand the question.If you are a TI, how would you decide if any act of kindness is genuine?"
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

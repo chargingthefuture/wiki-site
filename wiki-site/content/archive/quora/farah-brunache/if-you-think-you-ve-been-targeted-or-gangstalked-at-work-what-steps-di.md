@@ -3,6 +3,7 @@ title: "If you think you've been targeted or \"gangstalked\" at work, what steps
 date: "2025-09-20"
 excerpt: "If possible secretly record at the very least audio. They will workplace mob you. And them knowing they are being recorded will reduce the harassment somewhat."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

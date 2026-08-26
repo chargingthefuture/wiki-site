@@ -3,6 +3,7 @@ title: "Have you ever felt like life is rigged against you—watched, blocked, o
 date: "2025-10-02"
 excerpt: "I started a circular economy with other TIs. Its first iteration is a space on Quora, TI Skills Network.Quora seems to be the best way to meet TIs. I suggest you continue to use it."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

@@ -3,6 +3,7 @@ title: "Where can I find people to join my gang stalking sub Reddit?"
 date: "2025-10-06"
 excerpt: "Do you mean an anti-gang stalking subreddit? Gstalkers are criminals; they will not openly admit to active crimes on the Internet."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

@@ -102,7 +102,10 @@ Rules of the posture:
   account and by what each entry was — an answer, a comment left under someone else's answer, a
   question asked, a post carried into another space. It answers what the feed cannot while it
   runs newest-first: how long this went on, how much of it there was, and how many places it was
-  spread across. Each account's erasure is drawn across it at the date it happened, from
+  spread across. Nothing on it is in the feed: every imported entry carries `listed: false`,
+  because the feed carries copy-edited writing and the copy-edit pass in the
+  `chargingthefuture/quora` repository is what promotes a piece there.
+  Each account's erasure is drawn across it at the date it happened, from
   `content/record-markers.yaml`; recording the next one is an edit to that file, and the page's
   opening line counts it. Keep that file and `content/posts/old-links-new-links.md` in step —
   both change in the same commit. Link `/feed` for what is being said now and `/record` for the

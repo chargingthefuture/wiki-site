@@ -3,6 +3,7 @@ title: "Do perps use the same make models and colors of the vehicles that target
 date: "2025-11-13"
 excerpt: "Yes. In the same way, they will wear the same clothes as you and repeat parts of your private conversations or online searches."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

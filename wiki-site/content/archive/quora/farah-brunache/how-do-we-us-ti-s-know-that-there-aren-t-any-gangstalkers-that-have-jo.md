@@ -3,6 +3,7 @@ title: "How do we , us TI's know that there aren't any Gangstalkers that have jo
 date: "2025-03-04"
 excerpt: "Yes. Wherever we go, they follow. Their latest tactic is to respond to my posts with “positivity”."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

@@ -3,6 +3,7 @@ title: "Has anyone had the gang stalkers want to be your friend?"
 date: "2025-07-02"
 excerpt: "This question sounds like it’s from a perp. There’s no AI speaking through a TIs mouth.Second, (if you are not a perp) yes gstalkers will pretend to be your friend."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

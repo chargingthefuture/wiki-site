@@ -3,6 +3,7 @@ title: "Why would gang stalkers let you know where they live and even invite you
 date: "2025-08-23"
 excerpt: "Entrapment. They will try get you to commit a crime, provoke you, or if you do not do anything, if they have proof you were in the house, falsely accuse you of a crime."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "pedigree101"

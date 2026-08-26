@@ -3,6 +3,7 @@ title: "Are county workers involved in gangstalking?"
 date: "2025-11-01"
 excerpt: "Yes. Gstalking is organized crime and so corrupt employees are everywhere across all industries, companies, organizations."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

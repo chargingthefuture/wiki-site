@@ -3,6 +3,7 @@ title: "Would your partner to your kids join gang stalking to target you?"
 date: "2025-11-10"
 excerpt: "Yes to both your questions. Why? There are various reasons people gstalk. Matthew Cappadocia (aka The Wizard of Oz) provides a list of some examples of why people do it:In general, I put…"
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

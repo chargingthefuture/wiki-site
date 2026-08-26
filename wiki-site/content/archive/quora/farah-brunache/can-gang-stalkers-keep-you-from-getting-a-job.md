@@ -3,6 +3,7 @@ title: "Can gang stalkers keep you from getting a job?"
 date: "2025-10-11"
 excerpt: "Yes.Another TI taught me about healthy volunteer studies, the only job I can get. It’s where pharma companies pay you to test safe medicine. It’s safe because they are phase I studies."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

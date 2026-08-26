@@ -3,6 +3,7 @@ title: "How do you maintain regular employment while experiencing gang stalking?
 date: "2025-08-10"
 excerpt: "Not possible. Another TI taught me about doing healthy volunteer studies. It’s where pharma companies pay you to test upcoming medicine. It’s safe because they are phase I studies."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "pedigree101"

@@ -3,6 +3,7 @@ title: "Are people who harass and gang stalk others mentally ill?"
 date: "2025-10-06"
 excerpt: "Yes, some are. Earlier this year, there were about ~100 mentally ill/homeless/drug addicts, including their children, stalking me and provoking me in public for their slander campaign while…"
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

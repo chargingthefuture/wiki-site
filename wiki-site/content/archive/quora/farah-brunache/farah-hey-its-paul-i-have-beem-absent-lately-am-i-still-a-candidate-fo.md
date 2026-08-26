@@ -3,6 +3,7 @@ title: "Farah, hey its Paul. I have beem absent lately, am I still a candidate f
 date: "2026-02-19"
 excerpt: "100%. I approved you last week in-app. The app does not have notifications therefore you would have had to check manually."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

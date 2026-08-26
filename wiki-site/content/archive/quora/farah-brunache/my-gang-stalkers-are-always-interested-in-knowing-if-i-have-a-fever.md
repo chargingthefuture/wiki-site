@@ -3,6 +3,7 @@ title: "My gang stalkers are always interested in knowing if I have a fever."
 date: "2025-12-13"
 excerpt: "Matthew Cappadocia (aka The Wizard of Oz) response is correct. Adding that they are also asking because they did something and want to see if it caused you to have a fever.For example, on…"
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

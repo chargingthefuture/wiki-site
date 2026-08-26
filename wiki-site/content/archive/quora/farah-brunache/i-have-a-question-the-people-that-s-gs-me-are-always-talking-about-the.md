@@ -3,6 +3,7 @@ title: "I have a question, the people that's GS me are always talking about \"th
 date: "2026-01-07"
 excerpt: "It is a lie. Do not bother spinning your wheels.They are on a fishing expedition to find your triggers. If you hate the government they will say you are on the terrorist watch list."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

@@ -716,6 +716,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/have-most-ai-like-claude-shown-to-be-openly-disbelieving-in-anything-s.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -753,6 +754,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/if-a-t-i-has-no-flaws-insecurities-and-they-re-considered-perfect-how.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -1228,6 +1230,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/how-do-gang-stalkers-know-your-whereabouts-all-the-time.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -2221,6 +2224,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/what-does-it-mean-when-a-racist-lying-theiving-corrupt-governor-blocks.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -2258,6 +2262,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/farah-hey-its-paul-i-have-beem-absent-lately-am-i-still-a-candidate-fo.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -2445,6 +2450,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/how-do-i-get-my-gang-stalkers-to-reveal-themselves-especially-possible-3.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -2580,6 +2586,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/what-are-the-best-hardwired-security-systems-i-m-a-tech-novice-and-wan.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -2639,6 +2646,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/is-moving-away-an-effective-way-to-stop-gang-stalking.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -2657,6 +2665,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/are-there-any-targeted-individuals-living-in-columbia-sc.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -2686,6 +2695,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/how-do-these-low-level-gang-stalkers-get-paid.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -2868,6 +2878,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/does-rnm-always-require-a-chip-or-implant-on-the-person.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -2886,6 +2897,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/i-have-a-question-the-people-that-s-gs-me-are-always-talking-about-the.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -2904,6 +2916,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/do-you-have-any-theories-about-why-gang-stalkers-would-put-something-i.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -2925,6 +2938,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/how-do-i-expose-v2k-and-rnm.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -2946,6 +2960,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/how-do-i-stop-v2k-and-rnm-stalkers-from-controlling-my-life.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -3056,6 +3071,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/are-there-any-targeted-people-living-in-jacksonville-florida.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -3212,6 +3228,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/i-want-to-join-the-illuminati-can-you-help-me-without-paying.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -3597,6 +3614,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/some-say-some-gangstalkers-think-they-re-targeting-people-for-their-cr.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -3626,6 +3644,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/any-people-in-the-ohio-area-being-gangstalked-who-want-to-team-up-with.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -3663,6 +3682,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/who-can-you-turn-to-about-gang-stalking-this-has-been-happening-for-ov.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -3738,6 +3758,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/if-you-are-gangstalked-and-living-in-california-will-all-of-california.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -3791,6 +3812,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/did-my-gang-stalking-start-13-years-ago-when-i-ordered-drugs-off-the-d.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -3809,6 +3831,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/have-you-ever-managed-to-make-a-gangstalker-understand-that-he-s-being.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -3827,6 +3850,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/i-said-to-an-other-ti-of-gangstalking-i-am-exasperated-and-see-no-way.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -3845,6 +3869,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/why-do-gangstalkers-recruit-their-own-children-to-molest-strangers-don.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -3863,6 +3888,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/have-i-made-the-ti-list-yet.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -3900,6 +3926,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/is-there-any-place-in-san-diego-were-there-are-groups-or-resources-for-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -3918,6 +3945,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/my-gang-stalkers-are-always-interested-in-knowing-if-i-have-a-fever.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -4270,6 +4298,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/can-spreading-positivity-and-maintaining-a-strong-moral-stance-genuine.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -4602,6 +4631,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/is-gang-stalking-the-end-to-a-target-s-life.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -4655,6 +4685,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/do-perps-use-the-same-make-models-and-colors-of-the-vehicles-that-targ.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -4676,6 +4707,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/would-your-partner-to-your-kids-join-gang-stalking-to-target-you.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -4761,6 +4793,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/i-ve-been-doing-much-better-and-haven-t-seen-as-many-gangstalkers.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -4798,6 +4831,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/are-county-workers-involved-in-gangstalking.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -5113,6 +5147,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/are-gaslighting-and-gang-stalking-demonic.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -5800,6 +5835,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/are-people-that-deny-gang-stalking-actually-gang-stalkers.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -5818,6 +5854,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/can-gang-stalkers-keep-you-from-getting-a-job.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -5893,6 +5930,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/did-targeted-individuals-know-that-gang-stalkers-are-told-they-are-sta.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -5949,6 +5987,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/if-you-are-a-targeted-individual-and-being-gang-stalked-can-you-get-a.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -5967,6 +6006,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/is-it-possible-i-ve-always-been-stalked-but-just-didn-t-notice-till-6.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -6045,6 +6085,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/what-do-gang-stalkers-say-about-targeted-people-that-isn-t-true.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -6063,6 +6104,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/what-has-helped-you-slow-down-being-gang-stalked.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -6081,6 +6123,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/what-other-names-do-gang-stalkers-use-to-describe-themselves-asides-fr.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -6099,6 +6142,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/what-resources-are-available-to-victims-of-gang-stalking-can-you-trust.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -6117,6 +6161,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/what-s-the-best-life-strategy-to-live-with-being-gang-stalked-with-wor.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -6135,6 +6180,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/what-unifies-gang-stalkers-and-gang-stalking.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -6367,6 +6413,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/are-people-who-harass-and-gang-stalk-others-mentally-ill.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -6385,6 +6432,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/could-these-people-convinced-they-are-christian-warriors-be-stalking-m.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -6498,6 +6546,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/given-your-belief-that-gang-stalkers-have-taken-over-how-do-you-decide.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -6516,6 +6565,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/how-do-i-drown-out-noise-from-multiple-stalkers.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -6534,6 +6584,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/how-do-you-effectively-vet-new-members-for-your-ti-circular-economy-wh.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -6552,6 +6603,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/what-are-the-worst-states-for-gang-stalking.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -6589,6 +6641,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/when-you-are-gang-stalked-community-stalked-are-there-hidden-cameras-i.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -6607,6 +6660,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/where-can-i-find-people-to-join-my-gang-stalking-sub-reddit.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -6660,6 +6714,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/can-electronic-harassment-send-specific-dreams-while-you-sleep.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -6678,6 +6733,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/how-do-my-creepy-neighbors-who-have-hacked-my-cell-phone-change-what-t.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -6770,6 +6826,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/after-14-years-homeless-and-3-targeted-dovother-targeted-individuals-a.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -7077,6 +7134,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/are-gangstalkers-protected-by-real-investigators.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -7115,6 +7173,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/do-gang-stalkers-steal.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -7133,6 +7192,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/have-you-ever-felt-like-life-is-rigged-against-you-watched-blocked-or.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -7151,6 +7211,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/how-can-i-distinguish-between-real-threats-and-feelings-of-being-targe.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -7169,6 +7230,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/how-do-gang-stalkers-recruit.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -7187,6 +7249,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/how-do-you-communicate-to-tormentors-that-the-real-underlying-reason-t.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -7205,6 +7268,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/how-exactly-do-gang-stalkers-monitor-your-computer-activity-and-steal.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -7223,6 +7287,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/i-know-this-sounds-far-fetched-but-do-gang-stalkers-have-devices-that.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -7260,6 +7325,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/lots-of-people-on-here-recommend-praying-how-can-there-be-a-god-with-a.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -7278,6 +7344,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/were-gang-stalkers-ever-stalked-themselves.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -7315,6 +7382,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/what-do-i-do-to-make-it-easier-as-a-ti-i-m-evicted-from-my-home-have-h.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -7333,6 +7401,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/what-is-the-very-first-thing-you-advise-a-ti-to-do-after-realizing-the.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -7351,6 +7420,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/who-is-being-gangstalked-in-chico-ca.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -7369,6 +7439,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/why-would-gang-stalkers-let-you-know-where-they-live-and-even-invite-y.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -7387,6 +7458,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/given-the-challenge-of-infiltration-what-unique-strategies-do-you-use.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -7635,6 +7707,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/do-gang-stalkers-move-up-in-rank.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -7653,6 +7726,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/has-anyone-had-a-real-attempt-at-their-life-by-gang-stalkers.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -7709,6 +7783,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/i-ve-been-gangstalked-since-2016-today-i-no-going-to-keep-fighting-any.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -7727,6 +7802,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/is-there-a-good-form-of-gang-stalking.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -7764,6 +7840,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/what-psychological-profiles-do-gang-stalking-handlers-target.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -7910,6 +7987,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/am-i-getting-gangstalked-why-do-i-hear-a-motor-passing-by-whenever-i-f.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -7928,6 +8006,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/how-can-we-get-the-most-out-of-our-lives-being-a-gang-stalking-victim.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -7946,6 +8025,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/how-can-you-tell-if-someone-involved-in-gang-stalking-is-doing-it-out.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -7983,6 +8063,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/how-do-you-maintain-regular-employment-while-experiencing-gang-stalkin.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -8020,6 +8101,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/if-you-think-you-ve-been-targeted-or-gangstalked-at-work-what-steps-di.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -8133,6 +8215,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/what-measures-can-the-government-take-to-prevent-gang-stalking.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -8151,6 +8234,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/what-s-one-practical-skill-or-insight-you-ve-learned-from-being-gang-s.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -8169,6 +8253,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/what-s-the-one-thing-with-gang-stalking-that-helped-you-the-most-when.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -8187,6 +8272,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/why-do-targeted-individuals-often-report-financial-sabotage-and-what-c.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -8647,6 +8733,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/could-a-targeted-individual-be-also-active-in-gang-stalking.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -8665,6 +8752,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/how-would-i-feel-better-about-being-gang-stalked.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -8683,6 +8771,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/i-m-a-targeted-individual-by-gang-stalking-why-won-t-anyone-help-me.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -8752,6 +8841,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/what-are-some-common-misconceptions-about-gang-stalking-and-why-do-peo.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -8789,6 +8879,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/why-do-many-victims-not-speak-up.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -8902,6 +8993,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/how-do-you-know-if-you-re-being-gang-stalked.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -8959,6 +9051,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/what-other-names-do-gang-stalkers-use-to-describe-themselves-asides-fr-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -8999,6 +9092,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/if-you-are-a-targeted-individual-and-being-gang-stalked-can-you-get-a-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -9039,6 +9133,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/what-resources-are-available-to-victims-of-gang-stalking-can-you-trust-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -9115,6 +9210,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/is-it-possible-i-ve-always-been-stalked-but-just-didn-t-notice-till-6-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -9231,6 +9327,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/when-you-are-gang-stalked-community-stalked-are-there-hidden-cameras-i-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -9287,6 +9384,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/given-your-belief-that-gang-stalkers-have-taken-over-how-do-you-decide-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -9438,6 +9536,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/are-people-who-harass-and-gang-stalk-others-mentally-ill-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -9456,6 +9555,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/could-these-people-convinced-they-are-christian-warriors-be-stalking-m-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -9496,6 +9596,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/how-do-i-drown-out-noise-from-multiple-stalkers-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -9514,6 +9615,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/how-do-you-effectively-vet-new-members-for-your-ti-circular-economy-wh-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -9551,6 +9653,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/what-are-the-worst-states-for-gang-stalking-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -9626,6 +9729,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/where-can-i-find-people-to-join-my-gang-stalking-sub-reddit-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -9839,6 +9943,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/how-many-tis-are-in-pennsylvania-or-the-tri-state-area-3.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -9860,6 +9965,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/how-do-my-creepy-neighbors-who-have-hacked-my-cell-phone-change-what-t-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -9917,6 +10023,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/can-electronic-harassment-send-specific-dreams-while-you-sleep-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -9955,6 +10062,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/i-know-this-sounds-far-fetched-but-do-gang-stalkers-have-devices-that-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -10116,6 +10224,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/are-gangstalkers-protected-by-real-investigators-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -10498,6 +10607,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/how-do-you-communicate-to-tormentors-that-the-real-underlying-reason-t-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -10555,6 +10665,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/what-do-i-do-to-make-it-easier-as-a-ti-i-m-evicted-from-my-home-have-h-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -10615,6 +10726,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/have-you-ever-felt-like-life-is-rigged-against-you-watched-blocked-or-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -10713,6 +10825,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/after-14-years-homeless-and-3-targeted-dovother-targeted-individuals-a-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -10734,6 +10847,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/why-would-gang-stalkers-let-you-know-where-they-live-and-even-invite-y-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -10752,6 +10866,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/were-gang-stalkers-ever-stalked-themselves-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -10925,6 +11040,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/who-is-being-gangstalked-in-chico-ca-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -10943,6 +11059,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/how-do-gang-stalkers-recruit-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -10980,6 +11097,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/lots-of-people-on-here-recommend-praying-how-can-there-be-a-god-with-a-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -11001,6 +11119,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/do-gang-stalkers-steal-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -11019,6 +11138,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/has-anyone-had-a-real-attempt-at-their-life-by-gang-stalkers-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -11037,6 +11157,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/how-can-i-distinguish-between-real-threats-and-feelings-of-being-targe-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -11114,6 +11235,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/i-ve-been-gangstalked-since-2016-today-i-no-going-to-keep-fighting-any-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -11132,6 +11254,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/is-there-a-good-form-of-gang-stalking-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -11226,6 +11349,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/what-psychological-profiles-do-gang-stalking-handlers-target-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -11263,6 +11387,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/what-are-some-common-misconceptions-about-gang-stalking-and-why-do-peo-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -11281,6 +11406,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/am-i-getting-gangstalked-why-do-i-hear-a-motor-passing-by-whenever-i-f-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -11337,6 +11463,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/what-measures-can-the-government-take-to-prevent-gang-stalking-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -11355,6 +11482,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/what-s-one-practical-skill-or-insight-you-ve-learned-from-being-gang-s-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -11373,6 +11501,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/how-can-we-get-the-most-out-of-our-lives-being-a-gang-stalking-victim-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -11413,6 +11542,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/what-s-the-one-thing-with-gang-stalking-that-helped-you-the-most-when-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -11568,6 +11698,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/how-do-you-maintain-regular-employment-while-experiencing-gang-stalkin-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -11605,6 +11736,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/how-can-you-tell-if-someone-involved-in-gang-stalking-is-doing-it-out-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -11851,6 +11983,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/how-would-i-feel-better-about-being-gang-stalked-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -11926,6 +12059,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/i-m-a-targeted-individual-by-gang-stalking-why-won-t-anyone-help-me-2.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -13904,6 +14038,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/is-there-a-legitimate-reason-an-app-can-t-give-you-the-option-to-add-c.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -13922,6 +14057,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/has-anyone-else-experienced-them-disabling-fundraisers-you-make.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -13962,6 +14098,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/assuming-gangstalking-was-real-what-could-happen-to-an-individual-who.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -14018,6 +14155,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/has-gang-stalking-made-you-homeless.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -14036,6 +14174,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/is-most-of-our-homeless-problem-due-to-gang-stalking-community-harassm.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -14304,6 +14443,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/has-anyone-had-the-gang-stalkers-want-to-be-your-friend.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -14325,6 +14465,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/has-anyone-noticed-disappearing-post-i-ve-seen-a-few-people-talk-about.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -14365,6 +14506,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/those-that-have-auditory-harassment-have-you-tried-recording-those-voi.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -14749,6 +14891,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/what-are-the-consequences-for-someone-who-does-not-comply-with-the-pro.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -14767,6 +14910,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/why-are-they-so-numerous-i-live-in-oceanside-not-too-far-from-where-yo.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -15049,6 +15193,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/pedigree101/could-a-targeted-individual-be-also-active-in-gang-stalking-6.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
@@ -15176,6 +15321,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/are-business-owners-aware-that-gangstalkers-are-harassing-their-custom.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -15344,6 +15490,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/why-have-people-disappeared-or-been-murdered-trying-to-prove-aliens-or.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -15403,6 +15550,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/do-stalkers-set-you-up-in-housing-properties-that-seem-to-be-full-of-t.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -15424,6 +15572,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/do-fat-people-with-low-self-esteem-target-people-and-gang-stalk-more-f.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -15480,6 +15629,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/how-do-we-us-ti-s-know-that-there-aren-t-any-gangstalkers-that-have-jo.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -15804,6 +15954,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/what-happens-when-gang-stalkers-family-or-friends-see-what-they-are-do.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -16012,6 +16163,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/what-do-gang-stalkers-do-when-they-can-t-successfully-and-covertly-con.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -16049,6 +16201,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/what-is-gang-stalking.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -16124,6 +16277,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/do-gang-stalkers-speak-to-one-another-on-quora-and-other-platforms-in.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
@@ -16199,6 +16353,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/now-i-have-an-extensive-knowledge-of-gangstalker-techniques-but-what-i.md",
+    "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",

@@ -3,6 +3,7 @@ title: "Were gang stalkers ever stalked themselves?"
 date: "2025-08-22"
 excerpt: "This question makes no sense.Gang stalkers, are “people” and so outside of gang stalking they will have typical human experiences.Gang stalking does NOT equal stalking."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "pedigree101"

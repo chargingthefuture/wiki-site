@@ -3,6 +3,7 @@ title: "What are some common misconceptions about gang stalking, and why do peop
 date: "2025-09-17"
 excerpt: "Gang stalkers propagate it by telling TIs this. Or maybe a TI first said it and the gstalkers decided to spread the lie themselves."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

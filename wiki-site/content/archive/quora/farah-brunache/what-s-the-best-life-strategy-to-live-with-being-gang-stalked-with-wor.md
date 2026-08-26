@@ -3,6 +3,7 @@ title: "What's the best life strategy to live with being gang stalked, with work
 date: "2025-10-11"
 excerpt: "Live life like you are not being gang stalked as much as possible. That aside, when you can, connect with other TIs. It is hard as there are a lot of perps or TIs who do not want to meet."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

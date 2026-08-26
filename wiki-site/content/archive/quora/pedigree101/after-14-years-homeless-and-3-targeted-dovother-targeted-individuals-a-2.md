@@ -3,6 +3,7 @@ title: "After 14 years homeless and 3 Targeted, dovother Targeted Individuals al
 date: "2025-08-23"
 excerpt: "No. There are significant amount of homeless people who are gang stalkers."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "pedigree101"

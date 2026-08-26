@@ -3,6 +3,7 @@ title: "How would I feel better about being gang stalked?"
 date: "2025-09-18"
 excerpt: "There are several TIs committed to “starting over.” I interpret this as not accepting gang stalking. But at the same time letting go of the past and building a community among each other."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

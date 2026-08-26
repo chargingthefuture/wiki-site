@@ -3,6 +3,7 @@ title: "Some say some Gangstalkers think they’re targeting people for their cr
 date: "2025-12-22"
 excerpt: "Because it is not true. Group vigilantes (colloquially named gang stalkers) are bigots, are part of organized crime and aware that being a vigilante makes them the criminals.The network…"
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

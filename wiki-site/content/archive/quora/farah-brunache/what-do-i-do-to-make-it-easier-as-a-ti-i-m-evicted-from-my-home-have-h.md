@@ -3,6 +3,7 @@ title: "What do I do to make it easier as a TI? I’m evicted from my home, have
 date: "2025-10-02"
 excerpt: "It sounds like you have no place to go. In which case, get rid of/sell as much as possible. As insane as it sounds, get down to one bag so you can travel.https://chargingthefuture.discou..."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

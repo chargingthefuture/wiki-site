@@ -3,6 +3,7 @@ title: "Have most AI like Claude shown to be openly disbelieving in anything sim
 date: "2026-07-27"
 excerpt: "Information is available about how AI works, and it is right that a chat bot reflects what it was trained on."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

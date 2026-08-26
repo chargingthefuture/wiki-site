@@ -3,6 +3,7 @@ title: "How do I get my gang stalkers to reveal themselves (especially possible 
 date: "2026-02-05"
 excerpt: "I avoid honey pots. But an obvious would be love bombing too soon. These people are prostitutes as well as stalkers. And so them being exactly “your type” in every way is a red flag."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

@@ -3,6 +3,7 @@ title: "Why are they so numerous? I live in Oceanside not too far from where you
 date: "2025-06-06"
 excerpt: "They migrate to where TIs are. They blend in and recruit locals. And buy out anyone/business who doesn't want to join."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

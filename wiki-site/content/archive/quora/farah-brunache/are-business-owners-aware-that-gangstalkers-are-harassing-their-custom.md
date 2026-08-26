@@ -3,6 +3,7 @@ title: "Are business owners aware that gangstalkers are harassing their customer
 date: "2025-05-10"
 excerpt: "Yes."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

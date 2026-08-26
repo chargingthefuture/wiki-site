@@ -3,6 +3,7 @@ title: "I know this sounds far fetched but do gang stalkers have devices that ca
 date: "2025-10-02"
 excerpt: "Yes. But it only happened to me one time. They do it to my mother, perhaps every night, to dictate her actions during the day. She is religious, and they use that to control her."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

@@ -3,6 +3,7 @@ title: "How do gang stalkers know your whereabouts all the time?"
 date: "2026-06-28"
 excerpt: "Because they have ops everywhere and nearly every company. They started stalking and harassing me before the “Internet” and so it less about technology and more about the amount of ops."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

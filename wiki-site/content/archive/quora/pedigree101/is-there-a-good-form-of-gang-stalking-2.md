@@ -3,6 +3,7 @@ title: "Is there a good form of gang stalking?"
 date: "2025-08-16"
 excerpt: "Gang stalking = group vigilantes. Which is like asking if there is a good form of raping someone."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "pedigree101"

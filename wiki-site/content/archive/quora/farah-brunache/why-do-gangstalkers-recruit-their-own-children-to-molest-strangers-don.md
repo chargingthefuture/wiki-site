@@ -3,6 +3,7 @@ title: "Why do gangstalkers recruit their own children to molest strangers? Don'
 date: "2025-12-14"
 excerpt: "This question assumes that all people who have children care about their children. And that all people share the same definition of what caring is. Which is not accurate."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

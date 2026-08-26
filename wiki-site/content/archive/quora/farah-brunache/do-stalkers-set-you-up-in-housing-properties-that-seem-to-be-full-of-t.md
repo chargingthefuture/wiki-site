@@ -3,6 +3,7 @@ title: "Do stalkers set you up in housing properties that seem to be full of the
 date: "2025-03-10"
 excerpt: "No. They want you homeless or living with your family. They will try to make you loose housing, one way is to have the street stalkers move in and take over the neighborhood/apartment…"
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

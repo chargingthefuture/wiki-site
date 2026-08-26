@@ -3,6 +3,7 @@ title: "How do I drown out noise from multiple stalkers?"
 date: "2025-10-06"
 excerpt: "AirPods Pro earbuds are the best. They also work with Android. Get a second device and play in the background “the most annoying\" sounds playlist from YouTube while you use your Pro’s on…"
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

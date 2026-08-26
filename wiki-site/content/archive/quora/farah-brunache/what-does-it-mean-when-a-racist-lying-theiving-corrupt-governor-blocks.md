@@ -3,6 +3,7 @@ title: "What does it mean when a racist, lying, theiving, corrupt governor block
 date: "2026-02-27"
 excerpt: "This question is unrelated to this space. Please stay on the topic of uniting TIs via the TI Skills Economy and/or peer-to-peer exchanging skills, services and goods with other TIs outside…"
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

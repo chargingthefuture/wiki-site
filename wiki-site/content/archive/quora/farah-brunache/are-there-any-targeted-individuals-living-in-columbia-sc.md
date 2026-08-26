@@ -3,6 +3,7 @@ title: "Are there any Targeted Individuals living in Columbia SC?"
 date: "2026-01-21"
 excerpt: "Tedious but look through the comments in this space to see who has self reported in your area:Targeted Individuals Survey and MapSecond, I believe the only actionable solution is to…"
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

@@ -3,6 +3,7 @@ title: "Are people who harass and gang stalk others mentally ill?"
 date: "2025-09-03"
 excerpt: "Some are. Generally speaking I believe gang stalkers are cowards or sadists. Apparently neither are outright considered mental illnesses.“Sadism, characterized by deriving pleasure from…"
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "pedigree101"

@@ -109,6 +109,13 @@ What it leaves out, and why:
 It reports every one of those counts when it runs. A silent drop in an import of this size is
 indistinguishable from a parsing fault.
 
+Every entry it writes carries `listed: false`, without exception. The feed carries copy-edited
+writing, and an import is raw export text — the copy-edit pass in the `chargingthefuture/quora`
+repository is what promotes a piece to the feed, and it has not run on any of this. The entries
+still have real addresses and still appear on The Record; they simply are not published writing
+yet. Do not remove `listed: false` from an imported file by hand: promote it through the quora
+repo, the way every other page reaches the feed.
+
 `date` in the main block stays the original posting date too, so the blog orders archive
 entries by when they were actually written. The commit adding the file records when it entered
 the repo.

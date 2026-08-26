@@ -3,6 +3,7 @@ title: "How do you communicate to tormentors that the real underlying reason the
 date: "2025-08-25"
 excerpt: "You can outright tell them. I bet however they are not going to care. These people think they are judge, jury and executioner."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "pedigree101"

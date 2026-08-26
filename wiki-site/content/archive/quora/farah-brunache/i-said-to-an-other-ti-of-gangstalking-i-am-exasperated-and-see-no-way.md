@@ -3,6 +3,7 @@ title: "I said to an other TI of gangstalking: I am exasperated and see no way o
 date: "2025-12-14"
 excerpt: "No. Without more context, all I can guess is that the person was being overly emotional.Alternatively, a perp could have tried that line with them."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

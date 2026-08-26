@@ -3,6 +3,7 @@ title: "What is gang stalking?"
 date: "2024-12-15"
 excerpt: "Yes. And it appears to be multiple apps with different features and or functions.I have seen one of the apps. It is not something that appears to be commercially available. Like Whatsapp."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

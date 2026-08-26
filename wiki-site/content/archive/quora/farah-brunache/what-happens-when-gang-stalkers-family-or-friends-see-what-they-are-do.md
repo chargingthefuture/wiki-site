@@ -3,6 +3,7 @@ title: "What happens when gang stalkers’ family or friends see what they are d
 date: "2025-01-04"
 excerpt: "I had one of them tell me “they are not trying to kill you, so do not worry about it.” They believe the lie they are given that as a vigilante it is harmless for them to stalk and taunt…"
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

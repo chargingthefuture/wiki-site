@@ -3,6 +3,7 @@ title: "What psychological profiles do gang stalking handlers target?"
 date: "2025-09-21"
 excerpt: "It appears not to be relevant. Each person is controlled in some way. For the handlers, it is about finding out how to control you based on psychological research and the past behavior of…"
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

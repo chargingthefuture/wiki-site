@@ -3,6 +3,7 @@ title: "Assuming gangstalking was real, what could happen to an individual who t
 date: "2025-07-13"
 excerpt: "It depends at what stage the TI is within the stalking. Once it becomes overt, you’ll likely get “lightly” targeted."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

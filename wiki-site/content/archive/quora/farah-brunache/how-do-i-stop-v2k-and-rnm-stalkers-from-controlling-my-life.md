@@ -3,6 +3,7 @@ title: "How do I stop V2K and RNM stalkers from controlling my life?"
 date: "2026-01-06"
 excerpt: "I will need more context. From first hand experiences explained from TIs on Quora, seems that playing loud music or certain frequencies can block out the artificial voice overs."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

@@ -3,6 +3,7 @@ title: "Do you have any theories about why gang stalkers would put something in 
 date: "2026-01-06"
 excerpt: "In terms of complexity, eyes rank under the brain. Very risky to do that to you form a success rate stand point."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

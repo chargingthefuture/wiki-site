@@ -3,6 +3,7 @@ title: "Is there a legitimate reason an app can't give you the option to add con
 date: "2025-07-25"
 excerpt: "No. Automatically reading all contacts is the ploy to harvest as much data for profit and/or market their app to others, aka leads. Allowing you to manually add contacts limits this."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

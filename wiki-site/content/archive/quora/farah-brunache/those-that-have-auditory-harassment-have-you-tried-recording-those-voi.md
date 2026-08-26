@@ -3,6 +3,7 @@ title: "Those that have auditory harassment, have you tried recording those voic
 date: "2025-07-02"
 excerpt: "For me they have people play prerecorded narratives as I walk by. For example, they have them play what to a non-TI sounds like a podcast, or video social media post (without headphones)…"
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

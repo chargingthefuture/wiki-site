@@ -3,6 +3,7 @@ title: "What are the worst states for gang stalking?"
 date: "2025-09-03"
 excerpt: "California appears to be #1. Aside from that every state has it.They will follow you to any town in any state and make it your “worst” state."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "pedigree101"

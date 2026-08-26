@@ -3,6 +3,7 @@ title: "How do you effectively vet new members for your TI circular economy when
 date: "2025-10-06"
 excerpt: "The same way a TI vets anyone post being gang stalked.One sure way is that gang stalkers cannot materially help."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

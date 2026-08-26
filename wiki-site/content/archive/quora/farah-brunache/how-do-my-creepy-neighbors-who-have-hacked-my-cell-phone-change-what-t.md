@@ -3,6 +3,7 @@ title: "How do my creepy neighbors who have hacked my cell phone change what the
 date: "2025-10-05"
 excerpt: "There are different ways. The most plausible:1. They are following you and asking you questions. This will influence the algorithm to push their gaslighting content to you.2."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

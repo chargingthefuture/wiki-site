@@ -3,6 +3,7 @@ title: "Can spreading positivity and maintaining a strong moral stance genuinely
 date: "2025-12-04"
 excerpt: "Absolutely not. But you should do that for yourself, because you want to. Gang stalkers are clinically insane and/or extorted morality is not what motivates them."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

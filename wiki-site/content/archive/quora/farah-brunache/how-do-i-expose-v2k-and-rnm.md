@@ -3,6 +3,7 @@ title: "How do I expose V2K and RNM?"
 date: "2026-01-06"
 excerpt: "Promise I am not being snarky.Expose it to who? The only people who do not know about it are people who do not know about targeting."
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"

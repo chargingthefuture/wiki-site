@@ -3,6 +3,7 @@ title: "Who is being gangstalked in Chico, CA?"
 date: "2025-10-02"
 excerpt: "If you are a TI looking to see where other TIs are or want to connect with other TIs, here is a good start:Matthew Cappadocia (aka The Wizard of Oz)'s post in Targeted Individuals…"
 category: "Community"
+listed: false
 archive:
   source: "quora"
   account: "farah-brunache"
