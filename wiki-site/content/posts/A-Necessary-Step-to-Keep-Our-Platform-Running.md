@@ -49,4 +49,4 @@ Thank you for being part of this community! Together, we can make the TI Skills 
 
 Contribute here: https://app.chargingthefuture.com/payments
 
-[Previous post on pricing](https://github.com/chargingthefuture/chargingthefuture/wiki/How-you-can-help)
+[Previous post on pricing](https://chargingthefuture.github.io/chargingthefuture/article/mono/How-you-can-help)

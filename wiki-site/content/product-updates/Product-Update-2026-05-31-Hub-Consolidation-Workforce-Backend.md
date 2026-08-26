@@ -34,4 +34,4 @@ The finalized workforce backend is infrastructure built for you—it's the found
 
 ## Next
 
-Our team continues building features that give you agency and choice. Follow our [wiki blog](https://github.com/chargingthefuture/chargingthefuture/wiki) for detailed technical updates and the [project board](https://github.com/orgs/chargingthefuture/projects) to see what's coming next.
+Our team continues building features that give you agency and choice. Follow our [blog](https://chargingthefuture.github.io/chargingthefuture/) for detailed technical updates and the [project board](https://github.com/orgs/chargingthefuture/projects) to see what's coming next.

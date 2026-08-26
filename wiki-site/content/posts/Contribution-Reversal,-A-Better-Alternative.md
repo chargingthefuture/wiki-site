@@ -9,7 +9,7 @@ teaser: "I am reversing the price increase. The ask stays low, because taking aw
 ---
 
 I made this post last week, announcing a price increase:
-[A Necessary Step to Keep Our Platform Running](https://github.com/chargingthefuture/chargingthefuture/wiki/A-Necessary-Step-to-Keep-Our-Platform-Running).
+[A Necessary Step to Keep Our Platform Running](https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/A-Necessary-Step-to-Keep-Our-Platform-Running).
 
 But I have thought of a new idea.
 
