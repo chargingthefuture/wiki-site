@@ -147,6 +147,9 @@ export default function Article() {
                     loading="lazy"
                   />
                   <figcaption className="font-mono text-xs text-gray-500 mt-2">
+                    {meta.archive.screenshotCredit && (
+                      <>Pictured: {meta.archive.screenshotCredit}. </>
+                    )}
                     Captured before the page came down. The pictured words are in this image's
                     alt text, so they stay readable when the image cannot be seen.
                   </figcaption>

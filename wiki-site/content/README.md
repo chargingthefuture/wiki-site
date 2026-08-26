@@ -87,6 +87,7 @@ archive oldest-first:
 | `removed` | The platform took this one down while the account was still live — separate from the account-wide deletion that came later. |
 | `shared_to` | Other spaces the same piece was submitted to. Set by the importer when it folds a duplicate submission into the entry it repeats. |
 | `screenshot` | `images/<file>` — a picture of the original page, committed to `content/images/`, named with the person pictured and the date. Every original address in the Quora archive is dead, so the screenshot is the only way the page itself can still be looked at. Added one entry at a time. Requires `screenshot_alt`. |
+| `screenshot_credit` | The visible credit under the picture: the name in plain text with the address written out, e.g. `Lorenzo (https://www.quora.com/profile/Lorenzo-896)`. The alt text survives deletion, but only a screen reader meets it — this line is what a sighted reader sees. Set it whenever the picture shows somebody else's words. |
 | `screenshot_alt` | The pictured words, written out — who wrote them, under what question, and the full text. This is the credit rule applied to the archive: the alt text is the part that survives, keeping the words available to a screen reader and available at all once the image cannot be seen. Validation fails a screenshot without it. |
 | `snapshot_url` | A saved copy of the original page, where one exists. Resolved once at import time and written here, because the site is static and cannot look it up when a reader opens the page. |
 

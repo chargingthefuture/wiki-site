@@ -22,6 +22,7 @@ export interface ArchiveMeta {
   shared_to?: string[]; // other spaces the same piece was carried into
   screenshot?: string; // "images/<file>" — a picture of the original page
   screenshot_alt?: string; // the pictured words, kept readable when the image cannot be seen
+  screenshot_credit?: string; // visible credit: name in plain text, address written out
   snapshot_url?: string; // a saved copy of the original page, where one exists
 }
 

@@ -411,9 +411,12 @@ export default function Record() {
                             className="w-full border-2 border-black"
                             loading="lazy"
                           />
-                          <figcaption className="font-mono text-xs text-gray-500 mt-2 flex items-center gap-2">
-                            <Camera size={14} aria-hidden="true" />
-                            Captured before the page came down
+                          <figcaption className="font-mono text-xs text-gray-500 mt-2 flex items-start gap-2">
+                            <Camera size={14} className="shrink-0 mt-0.5" aria-hidden="true" />
+                            <span>
+                              {meta?.screenshotCredit && <>Pictured: {meta.screenshotCredit}. </>}
+                              Captured before the page came down
+                            </span>
                           </figcaption>
                         </figure>
                       )}
