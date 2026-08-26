@@ -35,6 +35,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "the-record-reads-forwards",
+    "title": "The Record reads forwards",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-25",
+    "excerpt": "632 entries, under 149 questions, across 48 spaces, over 22 months. A new page puts the scattered Quora writing back in order and shows how long this has run.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/the-record-reads-forwards.md",
+    "teaser": "The blog has a new page called The Record. It holds the writing I scattered across other people's questions and spaces on Quora — 632 entries as I write this, under 149 different questions, across 48 spaces, running 22 months and counting. The feed answers what is being said now; The Record answers how long it has been said. Two accounts were destroyed along the way, and the page draws both takedowns across the timeline where they happened — the entries continue past each one.",
+    "topics": [
+      "publishing",
+      "platform-independence",
+      "community"
+    ]
+  },
+  {
     "slug": "every-community-has-a-threat-model",
     "title": "Every community has a threat model",
     "repo": "chargingthefuture/wiki-site",
