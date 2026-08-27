@@ -11,11 +11,21 @@ name: Wayback backfill
 # sorted list of everything under content/ — which is how a whole-blog backfill
 # is walked, one offset at a time.
 #
-# This run takes bigger, slower batches than a publish does: 40 files, 45 seconds
-# apart, front page skipped, and up to two 60-second retries when archive.org
-# turns a request away. Measured: it allows roughly one save a minute, and being
-# turned away shows up as a dropped connection far more often than as an explicit
-# 429. A publish keeps the smaller, faster defaults.
+# This run takes bigger, slower batches than a publish does: 45 seconds apart,
+# front page skipped, and up to two 60-second retries when archive.org turns a
+# request away. Being turned away shows up as a dropped connection far more
+# often than as an explicit 429. A publish keeps the smaller, faster defaults.
+#
+# Batch size is an input because archive.org hands out a burst and then refuses
+# almost everything. Measured on a 40-file run through unarchived files: twelve
+# saved, and the successes came every three to five minutes at the start, then
+# stretched out and stopped entirely for the last half hour. The tail of a long
+# run is spent being refused, so prefer a smaller `count` more often over a big
+# batch that empties the allowance and then grinds.
+#
+# The two retries are load-bearing — do not remove them to save time. In that
+# same run only four of the twelve saves landed on the first attempt; three came
+# after the first retry and five after the second.
 
 on:
   workflow_dispatch:
@@ -25,9 +35,14 @@ on:
         required: false
         type: string
       offset:
-        description: "Skip this many files from the sorted list of all content, then take 40."
+        description: "Skip this many files from the sorted list of all content, then take `count`."
         required: false
         default: "0"
+        type: string
+      count:
+        description: "How many files to take. Smaller batches land more of them — see the note above."
+        required: false
+        default: "15"
         type: string
 
 jobs:
@@ -62,7 +77,8 @@ jobs:
         env:
           INPUT_PATHS: ${{ inputs.paths }}
           OFFSET: ${{ inputs.offset }}
-          WAYBACK_MAX_FILES: "40"
+          COUNT: ${{ inputs.count }}
+          WAYBACK_MAX_FILES: ${{ inputs.count }}
           WAYBACK_SPACING_MS: "45000"
           WAYBACK_RETRY_WAIT_MS: "60000"
           WAYBACK_MAX_RETRIES: "2"
@@ -76,10 +92,10 @@ jobs:
             SELECTED="$INPUT_PATHS"
           else
             TOTAL=$(find content -name '*.md' -not -iname 'readme.md' | wc -l)
-            echo "Total content files: $TOTAL. Taking 40 from offset $OFFSET."
+            echo "Total content files: $TOTAL. Taking $COUNT from offset $OFFSET."
             SELECTED=$(find content -name '*.md' -not -iname 'readme.md' \
               | sed 's|^|wiki-site/|' | LC_ALL=C sort \
-              | tail -n +$((OFFSET + 1)) | head -40 | tr '\n' ' ')
+              | tail -n +$((OFFSET + 1)) | head -"$COUNT" | tr '\n' ' ')
           fi
           if [ -z "$SELECTED" ]; then
             echo "Nothing selected — offset is past the end of the list."
