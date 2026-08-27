@@ -37,6 +37,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "your-children-can-have-an-option",
+    "title": "Your children can have an option",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-27",
+    "excerpt": "For parents raising targeted children: what a career inside the Skills Economy could look like, against the alternative of a life circled by organized crime.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/your-children-can-have-an-option.md",
+    "teaser": "This one is for Targeted Individuals raising children who are targeted too. The Skills Economy is barely tapped — about a quarter of the 650 roles a working economy needs have anyone in them, and the rest is open. A child who grows into one of those roles and serves one percent of this population is serving 50,000 people, which is not a small business anywhere. The alternative is the life I can describe from the inside: circled around the clock by organized crime, and by the sort of people whose own words I quote here. No five-year-old deserves to be trafficked. I did not get a choice about the neighborhood I was born into. In two generations, a child could.",
+    "topics": [
+      "community",
+      "economy"
+    ]
+  },
+  {
     "slug": "old-links-new-links",
     "title": "Old links, new links",
     "repo": "chargingthefuture/wiki-site",
