@@ -37,6 +37,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "spend-before-you-earn",
+    "title": "Spend before you earn",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-27",
+    "excerpt": "Community credit is switched on. Every member can send down to −500 credits and repay as they earn — the same line for everyone, with no score deciding who gets it.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/spend-before-you-earn.md",
+    "teaser": "Community credit is now on in the app. Every member can send down to −500 ServiceCredits and repay as they earn, which means you can act on someone's need today instead of waiting until you have earned enough. The line is flat: the same −500 for everyone, with no credit score, no social score, and nothing about your history deciding who qualifies. Nothing is created out of nothing either — when one member goes negative another goes positive by the same amount, so the total never grows. Here are the screens, and the starting figures, so anyone can watch them move.",
+    "topics": [
+      "servicecredits",
+      "economy"
+    ]
+  },
+  {
     "slug": "your-children-can-have-an-option",
     "title": "Your children can have an option",
     "repo": "chargingthefuture/wiki-site",
