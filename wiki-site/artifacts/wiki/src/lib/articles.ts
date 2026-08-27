@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "finding-people-earns-credits",
+    "title": "Finding people earns credits",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-27",
+    "excerpt": "SkillsHunt is how the Directory gets built — one nomination at a time, and an accepted nomination grants the scout ServiceCredits.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/finding-people-earns-credits.md",
+    "teaser": "The Directory did not appear. It was built by hand, one person at a time, by reading what survivors said about themselves in public and recording what they can do. SkillsHunt is that work turned into something anyone can do — nominate someone you believe may be a survivor, add the skills, and their profile joins the Directory when it is accepted. An accepted nomination grants the scout ServiceCredits. You do not need to be certain about the person. You do not need to know them. And nobody is added in a way they cannot undo.",
+    "topics": [
+      "servicecredits",
+      "directory",
+      "economy"
+    ]
+  },
+  {
     "slug": "spend-before-you-earn",
     "title": "Spend before you earn",
     "repo": "chargingthefuture/wiki-site",
