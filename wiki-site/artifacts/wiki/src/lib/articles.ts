@@ -52,6 +52,21 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "old-links-new-links",
+    "title": "Old links, new links",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-27",
+    "excerpt": "Ten Quora accounts erased, one space renamed. What is current, what is dead, and the one address that does not change.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/old-links-new-links.md",
+    "teaser": "Quora has erased my accounts ten times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. This page is the standing record: the current space, the current handle, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
+    "topics": [
+      "publishing",
+      "platform-independence"
+    ]
+  },
+  {
     "slug": "seven-more-psyop-free-games",
     "title": "Seven more psyop-free games",
     "repo": "chargingthefuture/wiki-site",
@@ -231,21 +246,6 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "posts",
     "path": "posts/looking-up-this-blog-in-the-wayback-machine.md",
     "teaser": "How to Check Me said the Internet Archive holds copies of these posts and gave one address. This is the walkthrough: how to look up any post, how to find its address yourself in about twenty seconds, how to read the capture calendar, and how to compare an old copy against what is live now. It also covers the one thing that does not work and why, so you do not waste time on it.",
-    "topics": [
-      "publishing",
-      "platform-independence"
-    ]
-  },
-  {
-    "slug": "old-links-new-links",
-    "title": "Old links, new links",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-25",
-    "excerpt": "Nine Quora accounts erased, one space renamed. What is current, what is dead, and the one address that does not change.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/old-links-new-links.md",
-    "teaser": "Quora has erased my accounts nine times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. This page is the standing record: the current space, the current handle, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
     "topics": [
       "publishing",
       "platform-independence"
