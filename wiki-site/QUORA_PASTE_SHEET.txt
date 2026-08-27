@@ -26,8 +26,15 @@ corrected where it had drifted; 70 were rewritten. Entries added after that date
 are written from the post at the time it is published. So the file is no longer
 unverified — but it is still a staging file, and the post remains the record.
 
-350 of 350 written.
+351 of 351 written.
 
+
+==============================================================================
+No. 351 · 2026-08-27 · Spend before you earn
+
+Community credit is switched on in the app. Every member can now send down to minus 500 ServiceCredits and repay as they earn. The point is the order of things: if you have just been made destitute, the need comes before the earning, and the gap between them is where survivors get stuck. Now you can act on someone's need today and settle up as work comes in. The line is flat — the same minus 500 for everyone. There is no credit score here, no social score, no rating, nothing about your history deciding what you are allowed to do, and that is written into the code itself. Survivors know why that matters: being targeted means being slandered, and slander is what scoring systems feed on. You get denied the apartment, the loan, the job, and nobody tells you which file said what. An economy that scored people would import the same problem and call it risk management. Misuse gets handled afterward, on the specific case, not by ranking anyone in advance. And nothing is created out of nothing: when you send on community credit your balance goes negative and the recipient's goes positive by the same amount, netting to zero, with no interest — what the negative records is work the community is holding that you have not done yet. Using credits at all is optional. Free and barter did not go anywhere, and nobody is treated differently for never touching a credit. The post carries the wallet, send, earn, and economy screens, including the figures on the day the line opened, so anyone can watch them move.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/spend-before-you-earn
 
 ==============================================================================
 No. 350 · 2026-08-27 · Your children can have an option
