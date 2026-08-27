@@ -37,6 +37,20 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "seven-more-psyop-free-games",
+    "title": "Seven more psyop-free games",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-26",
+    "excerpt": "Farah's Arcade now holds fourteen games — free, open-source, offline-first, with no ads, no tracking, and no harassment.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/seven-more-psyop-free-games.md",
+    "teaser": "Farah's Arcade added seven games today: 2048, Snake, Breakout, Space Invaders, Pong, Gem Match, and Word Wheel — fourteen games now, every one free, open-source, and offline-first. No ads ever, no tracking, no accounts, no cookies. A game loads once and then plays with no signal. Every game carries a Source link beside its Play link, so the no-ads and no-tracking claims are checkable in the code rather than taken on trust.",
+    "topics": [
+      "community"
+    ]
+  },
+  {
     "slug": "the-two-generation-goal",
     "title": "The two-generation goal",
     "repo": "chargingthefuture/wiki-site",
