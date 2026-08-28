@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "you-cannot-argue-a-smear-down",
+    "title": "You cannot argue a smear down",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-28",
+    "excerpt": "A false narrative is not a claim offered to be examined. It is built to be repeated, and to be answered — the answering is what it is for. Here is what beats one instead.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/you-cannot-argue-a-smear-down.md",
+    "teaser": "Somebody asked how to overcome a false narrative, and how to distract themselves from the tactics. The two halves are one question, and the second half decides the first. A smear is not an argument; it is made unfalsifiable on purpose, so the rebuttal never ends and the day is spent. What defeats one is not a better reply — it is a dated record you own, work other people can see, and people who know you because you did something for them, none of which requires anyone to take your word. And distraction is the wrong target: it concedes that the operation holds the day and asks what to do with the rest of it.",
+    "topics": [
+      "community",
+      "clicklog",
+      "directory"
+    ]
+  },
+  {
     "slug": "finding-people-earns-credits",
     "title": "Finding people earns credits",
     "repo": "chargingthefuture/wiki-site",

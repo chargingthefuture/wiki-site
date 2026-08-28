@@ -24,6 +24,18 @@ Proposed, not settled. Correct them on the first post rather than in the abstrac
 
 - The question is quoted verbatim in a blockquote, credited as asked on Quora. Quoted material
   keeps the speaker's words; the answer body uses the Dictionary's vocabulary and links it.
+- The question's Quora address is printed in the post, in plain text, beside the quote. Crediting
+  the asker is how this writing reaches the people already asking, and a plain-text address
+  survives the page being taken down in a way a wrapped link does not. The export never recorded
+  who asked, only what they asked, so the credit names the question and its address and says
+  plainly that the author is unknown. Derive the address with `quoraQuestionUrl` in
+  `scripts/src/import-quora-export.ts` rather than writing one by hand — Quora mints it from the
+  question's own words. One caveat: where two questions share wording Quora appends `-1` or `-2`,
+  which the derivation cannot know, so the address is a best derivation and not a stored value.
+- Open that address and credit the asker by handle, plain text with the profile address beside it,
+  the way every other credit on this blog is written. The export recorded what was asked and not
+  who asked it, but the question page still names them, so the asker is knowable even though the
+  export cannot supply them. Credit the question alone only when the page no longer resolves.
 - The post is dated the day it is written, not the date the draft was opened. The draft date goes
   in the post only if it earns its place there.
 - Each publish carries the standard tail: the "Where to find it in the app" section for any part
@@ -41,7 +53,7 @@ Ordered by the date the draft was opened. The account is the one it sat under.
 
 <!-- spelling:disable — every line below is somebody else's question, quoted verbatim from the Quora export; respelling one would misquote the person who asked it. -->
 
-- [ ] 1. `2025-08-06` · pedigree101 — How do I overcome a gangstalker's false narrative? How can I distract myself from their tactics?
+- [x] 1. `2025-08-06` · pedigree101 — How do I overcome a gangstalker's false narrative? How can I distract myself from their tactics?
 - [ ] 2. `2025-08-06` · pedigree101 — Is it possible for targeted individuals to stop being harassed by gang stalkers? If so, what methods have been successful in stopping the harassment?
 - [ ] 3. `2025-08-08` · pedigree101 — Have any Targeted Individuals tried moving to a different country? I'm in the US and am considering a move to Mexico to see if the RNM and V2K stop.
 - [ ] 4. `2025-08-09` · pedigree101 — As organized/community stalking number of victims increase, what do you think could happen to society as a whole?

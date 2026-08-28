@@ -116,7 +116,7 @@ follows it.
 - [ ] Have any Targeted Individuals tried moving to a different country Im in the US and am considering a move to Mexico to 2 — bookmarked · gangstalkingworldwide
 - [ ] Have any Targeted Individuals tried moving to a different country Im in the US and am considering a move to Mexico to see if the RNM and V2K stop — bookmarked
 - [ ] Hello fellow TI s brothers and sisters around the world Given that we all go through or went through similar experienc — bookmarked · antistalkingsurviveandthriveafterabuse
-- [ ] How do gang stalkers use smear campaigns to ruin a person s reputation and what are the long term impacts on their social life — bookmarked
+- [x] How do gang stalkers use smear campaigns to ruin a person s reputation and what are the long term impacts on their social life — bookmarked
 - [ ] How does it feel to be targeted What can be done to prevent being targeted by individuals or agencies — bookmarked
 - [ ] How often are the victims of Gang Stalking organized stalking or mobbing the liberal left or Democrats in America Are 1 — bookmarked · uspsyopstargetedindividuals
 - [ ] How we can all put a stop to Gangstalking — bookmarked · rnudvbhbuspdwbhs
@@ -240,7 +240,7 @@ follows it.
 - [ ] Do you think that some innocent civilians become victims of organized gang stalking — bookmarked
 - [ ] So the word cancer has been brought up here and there throughout my targeting Whether it be through media or by the mou 1 — bookmarked · gangstalkingworldwide
 - [ ] So the word cancer has been brought up here and there throughout my targeting Whether it be through media or by the mouth of a few stalkers I know Anyone experienced this — bookmarked
-- [ ] There are several different go to psychological games gang stalkers use. For example, getting your family to think you're crazy and get your committed. Or saying that gang stalking is spiritual warfare and you were born to endure this. So you give up on telling the truth. Is there one about health? Lately, they have been pushing the narrative that I have kidney disease. Asking to learn as many traps they try to plant, so I can avoid them. — submitted to a space · Zersetzung - Decomposition Psychology
+- [x] There are several different go to psychological games gang stalkers use. For example, getting your family to think you're crazy and get your committed. Or saying that gang stalking is spiritual warfare and you were born to endure this. So you give up on telling the truth. Is there one about health? Lately, they have been pushing the narrative that I have kidney disease. Asking to learn as many traps they try to plant, so I can avoid them. — submitted to a space · Zersetzung - Decomposition Psychology
 - [ ] This is one of the most accurate descriptions of how the harassment is coordinated and organized — bookmarked · zersetzung
 - [ ] What are the various circumstances which put ordinary civilians at risk for becoming a Gangstalking victim Please make a basic list not a life story — bookmarked · saved 3 times
 - [ ] How can you tell if you are on a US government watchlist — bookmarked
@@ -253,7 +253,7 @@ follows it.
 - [ ] What can a person who s being gangstalked do if the stalkers are the FBI Dr Marshall and family — bookmarked
 - [ ] Do gang stalkers ever pull back or make their presence less obvious to mislead the target into thinking that it s over — bookmarked
 - [ ] Does being a Targeted Individual last a entire life time or is is for a selected period of time — bookmarked
-- [ ] Does gangstalking always involve a smear campaign — bookmarked · saved 2 times
+- [x] Does gangstalking always involve a smear campaign — bookmarked · saved 2 times
 - [ ] For those of you who are being gang stalked I ask respectfully how come your all powerful stalkers are not shutting you up on Quora It seems like it would be an easy thing for them to do — bookmarked
 - [ ] How do gang stalkers communicate — bookmarked
 - [ ] How do Internet trolls manipulate people online without them realizing it — bookmarked
@@ -278,7 +278,7 @@ follows it.
 - [ ] How do gang stalkers manipulate families and communities and what can targeted individuals do to combat this insidious phenomenon — bookmarked
 - [ ] How do people involved in gang stalking maintain normal lives while engaging in this activity — bookmarked · saved 2 times
 - [ ] This is what gang stalking is — bookmarked · zersetzung
-- [ ] What can a victim of gang stalking do if the perpetrators influence someone so much that he she make false accusations about the victim to put him her in prison — bookmarked
+- [x] What can a victim of gang stalking do if the perpetrators influence someone so much that he she make false accusations about the victim to put him her in prison — bookmarked
 - [ ] What do gang stalkers do — bookmarked · saved 12 times
 - [ ] What do gang stalkers look for when choosing a target — bookmarked
 - [ ] Where do you start to find out who s in charge of the gang stalking against you — bookmarked
@@ -434,9 +434,9 @@ follows it.
 - [ ] Has a gang stalker ever helped you — bookmarked
 - [ ] What can you do if you suspect you are a victim of gang stalking Are gang stalkers ever punished for their actions — bookmarked
 - [ ] How do I make gang stalking stop — bookmarked
-- [ ] The gang stalkers are always starting physical fights with me on the street. Obviously to slander me to new recruits. Today I had to push one off of me as they were threatening to hit me with a glass bottle. It has been several years of the physical fights and it is only escalating. The last fight they threw a full soda can at the back of my head. Any advice? Should I start live streaming? The have been asking me to call the police. And that is likely also part of their game. — submitted to a space · Zersetzung - Decomposition Psychology · saved 8 times
-- [ ] The gang stalkers are always starting physical fights with me on the street Obviously to slander me to new recruits To 1 — shared into a space · Zersetzung - Decomposition Psychology
-- [ ] The gang stalkers are always starting physical fights with me on the street. Obviously to slander me to new recruits. Today one threatened to hit me with a glass bottle. It has been several years of this and they are escalating. The last fight they threw a full soda can at the back of my head. Any advice? Should I start live streaming? The have been asking me to call the police. And that is likely also part of their game. — submitted to a space · Zersetzung - Decomposition Psychology
+- [x] The gang stalkers are always starting physical fights with me on the street. Obviously to slander me to new recruits. Today I had to push one off of me as they were threatening to hit me with a glass bottle. It has been several years of the physical fights and it is only escalating. The last fight they threw a full soda can at the back of my head. Any advice? Should I start live streaming? The have been asking me to call the police. And that is likely also part of their game. — submitted to a space · Zersetzung - Decomposition Psychology · saved 8 times
+- [x] The gang stalkers are always starting physical fights with me on the street Obviously to slander me to new recruits To 1 — shared into a space · Zersetzung - Decomposition Psychology
+- [x] The gang stalkers are always starting physical fights with me on the street. Obviously to slander me to new recruits. Today one threatened to hit me with a glass bottle. It has been several years of this and they are escalating. The last fight they threw a full soda can at the back of my head. Any advice? Should I start live streaming? The have been asking me to call the police. And that is likely also part of their game. — submitted to a space · Zersetzung - Decomposition Psychology
 - [ ] Why is the police involved in gang stalking Are they supposed to protect us — bookmarked · saved 2 times
 - [ ] Could a targeted individual be also active in gang stalking — bookmarked
 - [ ] Is gang stalking the end to a target s life — bookmarked · saved 2 times
@@ -468,7 +468,7 @@ follows it.
 - [ ] I strongly believe I have found my soulmate but I have severe trust issues from a bad past What should I do — bookmarked
 - [ ] Has anyone else experienced them disabling fundraisers you make Gofundme doesnt answer my emails disabled my accounts 3 — shared into a space · Converging as one/Stop Sadistic Abuse
 - [ ] Hi everyone I hope you are all doing well As I sit here and read some of your stories I cant begin to tell you how muc — bookmarked · convergingasoneagainstharrasment
-- [ ] What is a smear campaign in the context of narcissistic families and how can you protect yourself from one — bookmarked
+- [x] What is a smear campaign in the context of narcissistic families and how can you protect yourself from one — bookmarked
 - [ ] Add property mobbing but this list makes it clear how many are aware of and participate in this no touch torture progr — bookmarked · antistalkingsurviveandthriveafterabuse
 - [ ] What went wrong with RadioShack — bookmarked
 - [ ] Why is the ACLU filing a lawsuit to stop surveillance planes from flying above Baltimore — bookmarked
@@ -575,7 +575,7 @@ follows it.
 - [ ] Life after Gang Stalking TI shares his experience — bookmarked · realgangstalkingvictimsandevidence
 - [ ] Could these people convinced they are Christian Warriors be stalking me just because I am homeless 3 — shared into a space · US-PSYOPS-TARGETED-INDIVIDUALS
 - [ ] Where can I find people to join my gang stalking sub Reddit 1 — shared into a space · US-PSYOPS-TARGETED-INDIVIDUALS
-- [ ] How do gang stalkers use tactics like street theater harassment and false narratives to intimidate targeted individuals — bookmarked
+- [x] How do gang stalkers use tactics like street theater harassment and false narratives to intimidate targeted individuals — bookmarked
 - [ ] The heat has been turned up to high on many of my non believing friends who are now believers incredulous believers — bookmarked · allthingsgangstalked
 - [ ] Are targeted individuals TIs bad people — bookmarked
 - [ ] Hi targeted individuals I made a YouTube channel about my targeting please check out my videos — bookmarked · jesusgangstalkingendtimesmore
