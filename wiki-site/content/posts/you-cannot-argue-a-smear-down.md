@@ -10,11 +10,11 @@ topics:
   - directory
 ---
 
-A question from the queue of Quora drafts I opened and never wrote. Somebody else asked it on Quora, and my draft sat empty from August 6, 2025:
+A question from the queue of Quora drafts I opened and never wrote. Mine sat empty from August 6, 2025:
 
 > How do I overcome a gangstalker's false narrative? How can I distract myself from their tactics?
 
-The question is at https://www.quora.com/How-do-I-overcome-a-gangstalkers-false-narrative-How-can-I-distract-myself-from-their-tactics — go and read it where it stands. Quora's export kept the words of the question but never the name of the person who asked it, so I can credit the question and its address and not, unfortunately, its author. If that is you, say so and I will name you here.
+It was asked by J H B (https://www.quora.com/profile/J-H-B-7), and the question is at https://www.quora.com/How-do-I-overcome-a-gangstalkers-false-narrative-How-can-I-distract-myself-from-their-tactics — go and read both where they stand. Quora's export kept the words of the question and not the name of the person who asked it; the name is here because the address still resolves to them.
 
 The vocabulary I use for the people running this is in the [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary); the question keeps the words it was asked in.
 
