@@ -75,6 +75,9 @@
     "zod": "catalog:"
   },
   "dependencies": {
+    "@fontsource-variable/dm-sans": "^5.3.0",
+    "@fontsource-variable/oswald": "^5.3.0",
+    "@fontsource/bangers": "^5.3.0",
     "react-markdown": "^10.1.0",
     "rehype-raw": "^7.0.0",
     "rehype-sanitize": "^6.0.0",
