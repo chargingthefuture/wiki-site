@@ -37,6 +37,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-jhb",
+    "title": "An Invitation to J.H.B.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-28",
+    "excerpt": "Diagnostic testing, chemical dosing, pharmacology, audio and video work, CCTV, bookkeeping — nine specializations, and six years of answering other survivors in public.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-jhb.md",
+    "teaser": "J.H.B. asked the question the last post answered. The Directory holds nine specializations for them, broader than that question would suggest: chemical dosing and safety, diagnostic testing across microscopy, biochemistry and hematology, pharmacology and prescription, then audio and video work, CCTV, and bookkeeping. Alongside it, six years of answering other survivors in public — read more than four hundred thousand times. Medicine is the shortage this economy feels most, and none of these roles is competitive: the list is empty rather than full.",
+    "topics": [
+      "members",
+      "skills-economy"
+    ]
+  },
+  {
     "slug": "you-cannot-argue-a-smear-down",
     "title": "You cannot argue a smear down",
     "repo": "chargingthefuture/wiki-site",
