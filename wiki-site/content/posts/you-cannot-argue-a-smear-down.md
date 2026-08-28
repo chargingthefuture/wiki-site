@@ -16,6 +16,8 @@ A question from the queue of Quora drafts I opened and never wrote. Mine sat emp
 
 It was asked by J H B (https://www.quora.com/profile/J-H-B-7), and the question is at https://www.quora.com/How-do-I-overcome-a-gangstalkers-false-narrative-How-can-I-distract-myself-from-their-tactics — go and read both where they stand. Quora's export kept the words of the question and not the name of the person who asked it; the name is here because the address still resolves to them.
 
+![The question on Quora, captured August 28, 2026. Topic tags above it read Coping Mechanisms, Harassment, Gangstalkers, and seven more. The question reads: "How do I overcome a gangstalker's false narrative? How can I distract myself from their tactics?" Below it the page shows Follow with a count of 3, Request, Answer, and More, and a row reading All related (35).](images/j-h-b-question-2026-08-28.jpg)
+
 The vocabulary I use for the people running this is in the [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary); the question keeps the words it was asked in.
 
 Two halves, and they are the same question. The second one decides the first.
