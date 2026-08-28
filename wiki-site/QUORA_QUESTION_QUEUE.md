@@ -24,6 +24,14 @@ Proposed, not settled. Correct them on the first post rather than in the abstrac
 
 - The question is quoted verbatim in a blockquote, credited as asked on Quora. Quoted material
   keeps the speaker's words; the answer body uses the Dictionary's vocabulary and links it.
+- The question's Quora address is printed in the post, in plain text, beside the quote. Crediting
+  the asker is how this writing reaches the people already asking, and a plain-text address
+  survives the page being taken down in a way a wrapped link does not. The export never recorded
+  who asked, only what they asked, so the credit names the question and its address and says
+  plainly that the author is unknown. Derive the address with `quoraQuestionUrl` in
+  `scripts/src/import-quora-export.ts` rather than writing one by hand — Quora mints it from the
+  question's own words. One caveat: where two questions share wording Quora appends `-1` or `-2`,
+  which the derivation cannot know, so the address is a best derivation and not a stored value.
 - The post is dated the day it is written, not the date the draft was opened. The draft date goes
   in the post only if it earns its place there.
 - Each publish carries the standard tail: the "Where to find it in the app" section for any part
