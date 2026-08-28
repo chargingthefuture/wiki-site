@@ -57,7 +57,12 @@ jobs:
       - name: Sync article registry
         run: pnpm wiki:sync
 
+      # COUNTER_ENDPOINT is a repository variable, not a secret: it is a public
+      # URL and would be readable in the built bundle either way. Leaving it
+      # unset builds a site whose counter is inert and sends nothing.
       - name: Build for GitHub Pages
+        env:
+          VITE_COUNTER_ENDPOINT: ${{ vars.COUNTER_ENDPOINT }}
         run: pnpm wiki:build:pages
 
       - name: Upload Pages artifact

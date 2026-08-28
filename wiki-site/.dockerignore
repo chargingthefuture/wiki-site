@@ -1,0 +1,12 @@
+# Trimmed to what the counter image actually needs. Workspace package manifests
+# all stay: pnpm install --frozen-lockfile fails if a package the lockfile knows
+# about is missing, so the blog's packages are copied even though this service
+# does not serve the blog. content/ and attached_assets/ are data, not packages,
+# and are the bulk of the repository — they are the ones worth leaving out.
+node_modules
+**/node_modules
+**/dist
+content
+attached_assets
+.git
+*.log
