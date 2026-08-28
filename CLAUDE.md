@@ -230,6 +230,30 @@ himself" quietly teaches a reader to watch for the wrong half of the people arou
 they/them for anyone generic. A specific person the owner describes from their own account keeps
 whatever the owner said — that is a fact about who was there, not an assumption.
 
+## Screenshot the Subject, Never the Person's Profile (owner directive, 2026-08-28)
+
+The credit rule above says to screenshot what somebody wrote. It means the specific thing — the
+question, the comment, the post the piece is answering. That is the subject matter, and the alt
+text carrying its words is what keeps the credit readable after the account is erased.
+
+Never publish a screenshot of somebody's Quora profile. It adds nothing to the topic. A profile is
+a page of employer, job title, follower counts and mutual follows, and none of that is information
+about the thing being discussed. Where a person works and what their title is are class markers,
+and a class marker carries no capability.
+
+Only the skill set matters to the Skills Economy. That is the whole bar for being on the list, so
+it is the whole of what a post has reason to name. A post built around somebody's job also quietly
+tells every survivor who was pushed out of employment — which is most of them, and on purpose —
+that the list is not for them.
+
+The reason is that it is irrelevant, not that it is private. These profiles are public and indexed
+by search engines, so there is nothing to shield and no credit to take for shielding it. Do not
+reach for a protective framing when the honest reason is that the detail does not belong.
+
+When the owner sends a profile capture, it is source material so they do not have to type the facts
+out. Read it, use what bears on the post, and do not commit the image. The Directory listing is
+different and can be shown: it holds the skills themselves, which is what the post is about.
+
 ## How the Owner Writes (owner directive, 2026-08-24)
 
 The owner types a great deal and runs on limited usage. Terse or blunt phrasing is compression,
