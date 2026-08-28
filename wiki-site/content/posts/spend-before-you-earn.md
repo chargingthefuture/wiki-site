@@ -51,9 +51,11 @@ Housing, rides, skills, requests. The same credits, whichever part of the app yo
 
 By doing the thing the economy is for:
 
-![The Earn ServiceCredits screen. "A few rewards come from the platform. The rest you earn from other members." From the platform: Verify your account, +100, one-time — add your Quora profile so we can confirm you are a real person. Help another member, per exchange, ongoing — provide a service or good such as housing, transport, skills, or requests, and the member sends you credits. Take part in SkillsHunt, per round, ongoing. Contribute during a fundraiser, varies, seasonal. Then: "Everything else is peer-to-peer. You earn the same way you spend — by trading with other members." Four tiles: Housing — LightHouse; Transport — TrustTransport; Services — Directory and Foundation; Requests — SocketRelay.](images/service-credits-earn-2026-08-27.jpg)
+![The Earn ServiceCredits screen. "A few rewards come from the platform. The rest you earn from other members." From the platform: Verify your account, +100, one-time — add your Quora profile so we can confirm you are a real person. Help another member, per exchange, ongoing — provide a service or good such as housing, transport, skills, or requests, and the member sends you credits. Take part in SkillsHunt, per acceptance, ongoing — nominate a survivor, and credits are granted when the nomination is accepted. Contribute during a fundraiser, varies, seasonal. Then: "Everything else is peer-to-peer. You earn the same way you spend — by trading with other members." Four tiles: Housing — LightHouse; Transport — TrustTransport; Services — Directory and Foundation; Requests — SocketRelay.](images/service-credits-earn-2026-08-28.jpg)
 
 A few rewards come from the platform. The rest is other members sending you credits for something you did for them. Repaying a negative balance is not a separate obligation with its own schedule — it is the ordinary business of being useful to someone.
+
+Correction, 2026-08-28: the screen above originally showed the SkillsHunt row reading "per round", and the description here repeated it. That was never accurate — SkillsHunt has always granted credits on each accepted nomination, not once at the end of a round. The app copy has been fixed and the screenshot replaced with one taken after the fix.
 
 ## The starting figures
 
