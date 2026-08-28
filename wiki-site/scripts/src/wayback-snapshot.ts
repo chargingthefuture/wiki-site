@@ -14,10 +14,28 @@
  * Best-effort by design: failures are logged and never exit non-zero, so a
  * deploy can never be blocked by archive.org rate limits.
  *
- * Pacing: archive.org refuses with HTTP 429 after roughly five saves in a
- * couple of minutes. A normal publish changes one file, so the spacing costs
- * nothing there; it exists so a backfill of several files actually finishes
- * instead of getting a handful in and then being turned away.
+ * Two ways to submit, chosen by whether credentials are present:
+ *
+ *   Authenticated (WAYBACK_S3_ACCESS_KEY + WAYBACK_S3_SECRET_KEY set) — the
+ *   documented Save Page Now API: POST to /save/ with an
+ *   `Authorization: LOW <key>:<secret>` header, which answers with a job id,
+ *   then poll /save/status/<job id> until it reports success or error. Keys are
+ *   free from an archive.org account. This path is preferred because the
+ *   anonymous one is throttled opaquely: a backfill measured over seven batches
+ *   on 2026-08-27 returned between 1 and 11 saves out of 15 with no relationship
+ *   to batch size or the gap between runs, and the refusals arrived as dropped
+ *   connections rather than an honest 429, so there was nothing to read. The
+ *   authenticated path also returns a stated reason when a capture fails.
+ *
+ *   Anonymous (no credentials) — the legacy GET /save/<url>. Kept as the
+ *   fallback so the workflow still does something without secrets configured.
+ *
+ * Pacing: anonymously, archive.org refuses after roughly five saves in a couple
+ * of minutes. A normal publish changes one file, so the spacing costs nothing
+ * there; it exists so a backfill of several files actually finishes instead of
+ * getting a handful in and then being turned away. If the authenticated path
+ * proves to carry a higher limit, WAYBACK_SPACING_MS is the dial to turn — do
+ * that on measurement, not on assumption.
  *
  * Skipping (WAYBACK_SKIP_ARCHIVED=1): before submitting, ask archive.org's
  * read API whether a snapshot already exists, and skip the save when that
@@ -61,6 +79,82 @@ const SKIP_ARCHIVED = process.env.WAYBACK_SKIP_ARCHIVED === '1';
 const AVAILABILITY_SPACING_MS = Number(process.env.WAYBACK_AVAILABILITY_SPACING_MS ?? 2_000);
 // Paths arrive relative to the repo root, which is one level above wiki-site.
 const REPO_ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '../../..');
+// Save Page Now credentials, from an archive.org account. Never logged: the
+// header they build is constructed at the call site and nothing prints it.
+const S3_ACCESS_KEY = process.env.WAYBACK_S3_ACCESS_KEY ?? '';
+const S3_SECRET_KEY = process.env.WAYBACK_S3_SECRET_KEY ?? '';
+const AUTHENTICATED = S3_ACCESS_KEY !== '' && S3_SECRET_KEY !== '';
+// How long to wait for a capture job to finish before giving up on knowing its
+// outcome. The job usually keeps running on archive.org's side either way.
+const JOB_POLL_MS = Number(process.env.WAYBACK_JOB_POLL_MS ?? 3_000);
+const JOB_POLL_MAX = Number(process.env.WAYBACK_JOB_POLL_MAX ?? 40);
+
+type SaveOutcome = { ok: boolean; detail: string; temporary: boolean };
+
+function authHeaders(): Record<string, string> {
+  return {
+    Accept: 'application/json',
+    Authorization: `LOW ${S3_ACCESS_KEY}:${S3_SECRET_KEY}`,
+  };
+}
+
+/**
+ * Authenticated submit: POST the url, take the job id, poll until the job
+ * reports success or error. A failure carries archive.org's own message, which
+ * is the point — the anonymous path gives a dropped connection and no reason.
+ */
+async function attemptAuthenticated(url: string): Promise<SaveOutcome> {
+  let jobId: string;
+  try {
+    const res = await fetch('https://web.archive.org/save/', {
+      method: 'POST',
+      headers: { ...authHeaders(), 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams({ url }).toString(),
+      signal: AbortSignal.timeout(60_000),
+    });
+    if (res.status === 429) {
+      return { ok: false, detail: 'rate limited (HTTP 429)', temporary: true };
+    }
+    const body = (await res.json().catch(() => null)) as
+      | { job_id?: string; message?: string; status?: string }
+      | null;
+    if (!body?.job_id) {
+      const message = body?.message ?? `HTTP ${res.status}`;
+      // A stated limit is worth retrying; anything else is this URL's own problem.
+      const temporary = /limit|slow down|too many|try again/i.test(message);
+      return { ok: false, detail: message, temporary };
+    }
+    jobId = body.job_id;
+  } catch {
+    return { ok: false, detail: 'network failure submitting', temporary: true };
+  }
+
+  for (let poll = 0; poll < JOB_POLL_MAX; poll += 1) {
+    await new Promise((r) => setTimeout(r, JOB_POLL_MS));
+    try {
+      const res = await fetch(`https://web.archive.org/save/status/${jobId}`, {
+        headers: authHeaders(),
+        signal: AbortSignal.timeout(30_000),
+      });
+      const body = (await res.json().catch(() => null)) as
+        | { status?: string; message?: string; exception?: string }
+        | null;
+      if (body?.status === 'success') return { ok: true, detail: 'captured', temporary: false };
+      if (body?.status === 'error') {
+        return {
+          ok: false,
+          detail: body.message ?? body.exception ?? 'capture failed',
+          temporary: false,
+        };
+      }
+      // 'pending' or an unreadable answer: keep waiting.
+    } catch {
+      // A failed poll says nothing about the job; keep waiting.
+    }
+  }
+  // The job may well finish after this; we just stop watching.
+  return { ok: false, detail: 'still running when we stopped waiting', temporary: false };
+}
 
 async function attempt(url: string): Promise<number | null> {
   try {
@@ -83,7 +177,7 @@ function isTemporary(status: number | null): boolean {
   return status === null || status === 429 || status === 503;
 }
 
-async function save(url: string): Promise<boolean> {
+async function saveAnonymously(url: string): Promise<boolean> {
   let status = await attempt(url);
   for (let retry = 1; retry <= MAX_RETRIES && isTemporary(status); retry += 1) {
     console.log(`  … turned away, waiting ${RETRY_WAIT_MS / 1000}s (retry ${retry} of ${MAX_RETRIES})`);
@@ -97,6 +191,23 @@ async function save(url: string): Promise<boolean> {
   const ok = status >= 200 && status < 300;
   console.log(`  ${ok ? '✓' : `⚠ (HTTP ${status})`} ${url}`);
   return ok;
+}
+
+async function saveAuthenticated(url: string): Promise<boolean> {
+  let outcome = await attemptAuthenticated(url);
+  for (let retry = 1; retry <= MAX_RETRIES && !outcome.ok && outcome.temporary; retry += 1) {
+    console.log(
+      `  … turned away (${outcome.detail}), waiting ${RETRY_WAIT_MS / 1000}s (retry ${retry} of ${MAX_RETRIES})`,
+    );
+    await new Promise((r) => setTimeout(r, RETRY_WAIT_MS));
+    outcome = await attemptAuthenticated(url);
+  }
+  console.log(`  ${outcome.ok ? '✓' : `⚠ (${outcome.detail})`} ${url}`);
+  return outcome.ok;
+}
+
+async function save(url: string): Promise<boolean> {
+  return AUTHENTICATED ? saveAuthenticated(url) : saveAnonymously(url);
 }
 
 function lastCommitTime(file: string): Date | null {
@@ -155,7 +266,10 @@ async function main() {
     console.log(`Snapshotting first ${batch.length} of ${changed.length} changed files (rate-limit cap).`);
   }
 
-  console.log(`Submitting ${batch.length} file(s) to the Wayback Machine:`);
+  console.log(
+    `Submitting ${batch.length} file(s) to the Wayback Machine ` +
+      `(${AUTHENTICATED ? 'authenticated Save Page Now' : 'anonymous — no credentials set'}):`,
+  );
   let saved = 0;
   let skipped = 0;
   let submitted = 0;
