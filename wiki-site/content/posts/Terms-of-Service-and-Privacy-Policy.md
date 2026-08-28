@@ -12,6 +12,8 @@ teaser: "The official Terms of Service and Privacy Policy, effective March 24, 2
 
 Effective Date: March 24, 2026
 
+Last updated: August 28, 2026 — added Privacy Policy section 17, covering the view and read counter on this blog.
+
 This page contains the Terms of Service and Privacy Policy for Charging the Future and the TI Skills Economy.
 
 ## Terms of Service
@@ -200,3 +202,22 @@ ctf.connected070@slmails.com
 
 ### 16. No Sale of Personal Data
 Charging the Future does not sell personal data.
+
+### 17. This Blog
+This section covers the blog you are reading, which is a separate surface from the app the rest of this policy describes.
+
+The blog counts two things. A view is a page you opened and left on screen. A read is an article whose end you reached and stayed with long enough to have read it. Both are worked out in your browser, from what the page already knows about itself. Nothing about you is measured to decide either one.
+
+What is recorded is one row per page per day, holding four values: the page's address, the day, a number of views, and a number of reads. We do not record and do not derive your IP address, your browser or device, the page you came from, a session or visitor identifier, your country, or any time more precise than the day. Days are counted on United States Eastern time. You appear in that record only as one added to a number, indistinguishable from everybody else who opened the same page that day.
+
+We read those counts. They are not published, and no page on this blog displays how many times it has been viewed.
+
+The blog sets no cookies. It stores one short marker per page in your browser's session storage, which your browser discards when you close the tab, so that reopening the same page during one visit is not counted twice. That marker never leaves your device.
+
+If your browser sends Global Privacy Control or Do Not Track, nothing is sent at all. If you block the counter, nothing is sent and the blog works exactly as it did. The address it posts to is written plainly rather than disguised to get past content blockers, because blocking it is a supported way to read this site.
+
+Two things are true whatever the counter stores, and we would rather say them than leave you to find them. The blog is served by GitHub Pages, so GitHub receives every request for a page. The counter runs on Railway, which likewise handles the connection to it. Those requests carry your IP address to those companies, as requests to any hosted website do. Neither the counter nor we keep that.
+
+Beyond those, this blog loads nothing from a third party. There is no analytics service, no advertising, no tracking pixel, and no font, script, or stylesheet fetched from another company's servers.
+
+Because the counter holds nothing that identifies anyone, there is no record here to give you access to, correct, or erase under section 7. That is the intended result rather than an omission. The surest way to protect a reader's data is not to hold any.
