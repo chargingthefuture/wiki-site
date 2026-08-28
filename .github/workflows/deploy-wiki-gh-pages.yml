@@ -141,6 +141,12 @@ jobs:
 
       - name: Submit changed content to web.archive.org
         working-directory: wiki-site
+        env:
+          # Save Page Now credentials from an archive.org account. When both are
+          # present the script uses the documented authenticated API; without them
+          # it falls back to the anonymous endpoint, which is throttled opaquely.
+          WAYBACK_S3_ACCESS_KEY: ${{ secrets.WAYBACK_S3_ACCESS_KEY }}
+          WAYBACK_S3_SECRET_KEY: ${{ secrets.WAYBACK_S3_SECRET_KEY }}
         run: |
           if [ "${{ github.event_name }}" = "push" ] && [ -n "${{ github.event.before }}" ]; then
             CHANGED=$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- 'wiki-site/content/**/*.md' || true)
