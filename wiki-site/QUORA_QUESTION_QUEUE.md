@@ -41,7 +41,7 @@ Ordered by the date the draft was opened. The account is the one it sat under.
 
 <!-- spelling:disable — every line below is somebody else's question, quoted verbatim from the Quora export; respelling one would misquote the person who asked it. -->
 
-- [ ] 1. `2025-08-06` · pedigree101 — How do I overcome a gangstalker's false narrative? How can I distract myself from their tactics?
+- [x] 1. `2025-08-06` · pedigree101 — How do I overcome a gangstalker's false narrative? How can I distract myself from their tactics?
 - [ ] 2. `2025-08-06` · pedigree101 — Is it possible for targeted individuals to stop being harassed by gang stalkers? If so, what methods have been successful in stopping the harassment?
 - [ ] 3. `2025-08-08` · pedigree101 — Have any Targeted Individuals tried moving to a different country? I'm in the US and am considering a move to Mexico to see if the RNM and V2K stop.
 - [ ] 4. `2025-08-09` · pedigree101 — As organized/community stalking number of victims increase, what do you think could happen to society as a whole?
