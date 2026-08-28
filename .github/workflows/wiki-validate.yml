@@ -55,6 +55,14 @@ jobs:
       - name: Typecheck wiki
         run: pnpm --filter @workspace/wiki run typecheck
 
+      # The counter service lives in this repo but deploys separately, so
+      # nothing else here would catch a break in it before it reached Railway.
+      - name: Typecheck counter service
+        run: pnpm --filter @workspace/api-server run typecheck
+
+      - name: Build counter service
+        run: pnpm --filter @workspace/api-server run build
+
       - name: Build wiki
         env:
           BASE_PATH: /

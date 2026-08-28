@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import { useParams, useSearch, Link } from "wouter";
 import { motion } from "framer-motion";
 import { ArrowLeft, Clock, Calendar, AlertTriangle, Archive } from "lucide-react";
@@ -6,6 +7,7 @@ import { ShareLink } from "@/components/ShareLink";
 import { MarkdownRenderer } from "@/components/MarkdownRenderer";
 import { AppLoading } from "@/components/AppLoading";
 import { useArticle } from "@/hooks/use-article";
+import { useReadCounter } from "@/hooks/use-counter";
 import { findArticle, contentImageUrl } from "@/lib/content";
 import { estimateReadTime } from "@/lib/utils";
 import { formatArticleDate } from "@/lib/dates";
@@ -36,6 +38,16 @@ export default function Article() {
       ? { href: from, label: "Back to The Feed" }
       : null;
   const readTime = content ? estimateReadTime(content.length) : meta ? estimateReadTime(meta.excerpt.length * 20) : 5;
+
+  // Counts a read only if this body's end was reached and the reader stayed
+  // long enough for the reaching to mean anything. Opening a page is already
+  // counted as a view elsewhere; this is the stronger claim.
+  const bodyRef = useRef<HTMLDivElement>(null);
+  useReadCounter({
+    containerRef: bodyRef,
+    contentLength: content?.length ?? 0,
+    ready: Boolean(content),
+  });
 
   return (
     <Layout>
@@ -157,7 +169,7 @@ export default function Article() {
               )}
             </header>
 
-            <div className="bg-card border-4 border-black comic-shadow p-6 md:p-10 relative overflow-hidden">
+            <div ref={bodyRef} className="bg-card border-4 border-black comic-shadow p-6 md:p-10 relative overflow-hidden">
                {/* Very faint background noise/texture for the reading area */}
               <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0IiBoZWlnaHQ9IjQiPgo8cmVjdCB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSIjMWExYTFhIj48L3JlY3Q+CjxwYXRoIGQ9Ik0wIDBMNCA0Wk00IDBMMCA0WiIgc3Ryb2tlPSIjMjIyMjIyIiBzdHJva2Utd2lkdGg9IjEiPjwvcGF0aD4KPC9zdmc+')] opacity-20 pointer-events-none"></div>
               

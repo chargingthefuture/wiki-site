@@ -7,6 +7,7 @@ import Article from "@/pages/Article";
 import Feed from "@/pages/Feed";
 import Record from "@/pages/Record";
 import NotFound from "@/pages/not-found";
+import { useViewCounter } from "@/hooks/use-counter";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -18,6 +19,10 @@ const queryClient = new QueryClient({
 });
 
 function Router() {
+  // Counts a view on every route, including the list surfaces. Inert unless
+  // VITE_COUNTER_ENDPOINT is set; see src/lib/counter.ts for what it sends.
+  useViewCounter();
+
   return (
     <Switch>
       <Route path="/" component={Home} />
