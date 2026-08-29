@@ -48,7 +48,7 @@ The advantage is the part that will not wait. The adults being targeted now have
 
 So it gets handed down while there is still something to hand down.
 
-## Playing it
+## Playing Peace-Battle
 
 You decide each round how much goes to teaching and how much to the work itself. Put everything into the work and you reach 360,000 people. Teach first and you reach 9,000,000 — same effort, same rounds, 25 times the reach. That second split is the one Du Bois recorded, and the game says so when you land on it.
 
