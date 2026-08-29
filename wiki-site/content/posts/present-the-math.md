@@ -1,20 +1,24 @@
 ---
-title: "A Targeted Individual economy in 30 years. Present the math."
+title: "If you say it cannot be done, present the math"
 date: "2026-08-29"
-excerpt: "Two simulations and the arithmetic behind a claim: an economy run by Targeted Individuals, with no reliance on the Specterati, is reachable in thirty years."
+excerpt: "The line between an opinion and manipulation is thinner than people think, and what decides it is whether anything sits underneath what you said."
 category: "Community"
-teaser: "People say a Targeted Individual economy cannot be built. None of them show the arithmetic. In 1903 W. E. B. Du Bois recorded 2,000 college-trained people who trained 50,000, who reached 9,000,000 — in the United States alone, under conditions that were overt and not treated as a human rights violation. Ours are the same on both counts. I stopped counting the people working against me at 300, and the rates still hold. If you think this is impossible, present the math."
+teaser: "An economy run by Targeted Individuals cannot be built — that gets said constantly and never once shown. So here is mine: W. E. B. Du Bois recorded 2,000 college-trained people who trained 50,000, who reached 9,000,000, in the United States alone. Two simulations let you operate those rates yourself. If you disagree, present the math. Some of the accounts repeating it will not be able to, because they never had any. Anyone who tries and finds none either has learned something worth knowing."
 topics:
   - community
 ---
 
-Two simulations are live. Calling them games oversells them — they are not fun, and they are not meant to be. They are arithmetic you operate, and they exist because a claim keeps getting made without numbers attached.
+There is a thin line between offering an opinion and manipulating somebody. It is thinner than people think, and the thing that decides which side you are on is whether there is anything underneath what you said.
 
-The claim is that an economy run by Targeted Individuals (TIs), with no reliance on the Specterati, cannot be built. I have read it many times on Quora. I have never once seen it shown.
+An unsupported claim, stated with confidence, to people who are looking for direction, does the same work as a lie. It does not matter whether the person meant it as one.
 
-Here is the arithmetic for the opposite.
+## The claim
 
-## What happened in 1903
+An economy run by Targeted Individuals (TIs), with no reliance on the Specterati, cannot be built.
+
+I have read that on Quora many times. I have never once seen anybody show it.
+
+## Mine first
 
 [The first simulation](https://chargingthefuture.github.io/offline-os/apps/peace-battle/) replays something that already happened, and the figures in it are not mine.
 
@@ -26,21 +30,31 @@ W. E. B. Du Bois, "The Talented Tenth", in *The Negro Problem*, 1903. Public dom
 
 The simulation gives you those two rates and one decision each round: how much goes to teaching, how much goes to the work itself. Put it all into the work and you reach 360,000 people. Teach first and you reach the 9,000,000 he recorded. Same effort, same number of rounds.
 
-## Why that comparison holds
+The people Du Bois was writing about were trafficked in public. It was overt, and it was openly not treated as a human rights violation. A modern TI is trafficked just as overtly, and it is just as unrecognized. The two situations are not the same and I am not saying they are — the routes differ, the spectrums differ. What matches is the operating condition: it happens in the open and no institution names it. That is the condition those 2,000 people built under. They did not wait to be believed first.
 
-The people Du Bois was writing about were trafficked in public. It was overt, and it was openly not treated as a human rights violation.
+I counted the people involved in my own targeting and stopped at 300. That is where I stopped, not where it ends. It changes nothing above. The rates describe what teaching does; they say nothing about how many people are working against you. Compounding is not a contest — 25 times over is 25 times over whether one person opposes it or a thousand do.
 
-A modern TI is trafficked just as overtly, and it is just as unrecognized. Nobody with authority will name it as what it is. The two situations are not the same and I am not saying they are — the routes differ, the spectrums differ. What matches is the operating condition: it is happening in the open, and no institution treats it as a violation.
+Thirty years is the conservative reading of that, which is why I hold a [two-generation goal](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-two-generation-goal) rather than a shorter one.
 
-That is the condition those 2,000 people built under. They did not wait to be believed first.
+## Now yours
 
-## Outnumbered three hundred to one
+If you say it cannot be done, present the math.
 
-I counted the people involved in my own targeting and stopped at 300. That is where I stopped, not where it ends.
+Not an opinion about whether people will participate. Not a prediction about human nature. Not a story about somebody who let you down. The numbers: a starting count, a rate at which capability passes from one person to the next, and the arithmetic that lands lower than the figures above.
 
-Being outnumbered three hundred to one does not change a single number above. The rates describe what teaching does. They say nothing about how many people are working against you, because compounding is not a contest — 25 times over is 25 times over whether one person opposes it or a thousand do.
+Both simulations are free, run offline once opened, need no account, and send nothing anywhere. Change the inputs and show me what you get.
 
-That is why I hold a [two-generation goal](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-two-generation-goal) rather than a shorter one, and why thirty years is a conservative reading rather than an optimistic one.
+## What the question sorts
+
+Some of the accounts repeating it are there to repeat it. Spreading the belief that nothing can be built is a cheap way to keep people apart, and it costs nothing to post.
+
+I cannot prove that about any particular account and I am not going to try. The question does that work instead. Somebody who is there to spread it has nothing to bring, because there was never any arithmetic behind it — that was the point of saying it.
+
+And if you are not one of them, and you believe it, and you go looking for what your version rests on and find nothing there, that is worth knowing.
+
+The targeting is done to you. That part was never a choice and it is not what I am talking about. But "it cannot be done" is a position, and a position can be checked. If it turns out there were never any numbers under yours, then what is holding you apart from other survivors at that point is the position, not them.
+
+That one you can put down.
 
 ## The second simulation
 
@@ -48,19 +62,9 @@ That is why I hold a [two-generation goal](https://chargingthefuture.github.io/c
 
 His people were denied education. The deficit was skills, and the answer was to build them. Skills Economy starts from the opposite end: the people here are already highly skilled, and what is missing is discovery. Somebody with twenty years in a trade is not short of the trade. They are short of anybody knowing they have it.
 
-So the second simulation is a map, and what spreads across it is isolation — a place where somebody needs something and nobody findable can do it. Four people with skills move against it. Clearing a place puts it in the Directory, and it stays covered from then on.
+So it is a map, and what spreads across it is isolation — a place where somebody needs something and nobody findable can do it. Four people with skills move against it. Clearing a place puts it in the Directory, and it stays covered from then on.
 
 The Directory is a running list of Targeted Individuals alongside what they can do, one person at a time. It is the thing survivors ask for most, and it is not an account — the listing is the point.
-
-## Present the math
-
-If you oppose a Targeted Individual economy, present the math.
-
-Not an opinion about whether people will participate. Not a prediction about human nature. The numbers: a starting count, a rate at which capability passes from one person to the next, and the arithmetic that gets you to a figure lower than the one above.
-
-Both simulations are free, run offline once opened, need no account, and send nothing anywhere. Change the inputs and see what you get.
-
-I have shown mine.
 
 ## Where to find it in the app
 
