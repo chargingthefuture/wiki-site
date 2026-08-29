@@ -7,7 +7,7 @@ into a preview card instead of leaving the link as written.
 
 This file mirrors the blog feed: one flat list, newest first. The number is the
 entry's place in publication order, so No. 1 is the oldest page on the blog and
-No. 357 is the newest. A number identifies one entry and never repeats. The blog's
+No. 358 is the newest. A number identifies one entry and never repeats. The blog's
 collection tags are not used here — they are filters for readers, and several are
 retired.
 
@@ -26,8 +26,15 @@ corrected where it had drifted; 70 were rewritten. Entries added after that date
 are written from the post at the time it is published. So the file is no longer
 unverified — but it is still a staging file, and the post remains the record.
 
-357 of 357 written.
+358 of 358 written.
 
+
+==============================================================================
+No. 358 · 2026-08-29 · A Targeted Individual economy in 30 years. Present the math.
+
+People say an economy run by Targeted Individuals, with no reliance on the Specterati, cannot be built. I have read it many times and never once seen it shown. Here is the arithmetic for the opposite, in two simulations you operate yourself. Calling them games oversells them — they are not fun and are not meant to be. The first replays something that already happened, and the figures are not mine. W. E. B. Du Bois, "The Talented Tenth", in The Negro Problem, 1903, public domain at https://www.gutenberg.org/ebooks/15041: they founded colleges, and up from the colleges shot normal schools, and out from the normal schools went teachers, and the college trained 2,000 men, and these men trained full 50,000 others, and they in turn taught nine millions. 2,000 to 50,000 is 25 times over. 50,000 to 9,000,000 is 180 times over. In the United States alone. The simulation gives you those two rates and one decision each round: how much goes to teaching, how much to the work itself. All of it into the work reaches 360,000 people. Teach first and you reach the 9,000,000 he recorded, on the same effort and the same number of rounds. The comparison holds on the operating condition rather than on the experience. The people Du Bois was writing about were trafficked in public, overtly, and it was openly not treated as a human rights violation. A modern Targeted Individual is trafficked just as overtly and it is just as unrecognized. The two situations are not the same and I am not saying they are — the routes differ and the spectrums differ. What matches is that it happens in the open and no institution names it. That is the condition those 2,000 people built under, and they did not wait to be believed first. I counted the people involved in my own targeting and stopped at 300. That is where I stopped, not where it ends. Being outnumbered three hundred to one does not change a single number above, because the rates describe what teaching does and say nothing about how many people work against you. Compounding is not a contest: 25 times over is 25 times over whether one person opposes it or a thousand do. The second simulation is about the part Du Bois did not have to solve. His people were denied education, so the deficit was skills and the answer was to build them. Skills Economy starts from the opposite end — the people here are already highly skilled and what is missing is discovery. Somebody with twenty years in a trade is not short of the trade, they are short of anybody knowing they have it. So it is a map, and what spreads across it is isolation, a place where somebody needs something and nobody findable can do it. Clearing a place puts it in the Directory and it stays covered. If you oppose a Targeted Individual economy, present the math. Not an opinion about whether people will participate, not a prediction about human nature. A starting count, a rate at which capability passes from one person to the next, and the arithmetic that gets you to a figure lower than the one above. Both simulations are free, run offline once opened, need no account and send nothing anywhere. I have shown mine.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/present-the-math
 
 ==============================================================================
 No. 357 · 2026-08-29 · Two games in the arcade, and what each one is for
