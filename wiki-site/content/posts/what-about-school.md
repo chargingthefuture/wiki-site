@@ -39,7 +39,7 @@ Childcare sits close to babysitting: one person doing something for another, for
 
 So there is nothing to build for childcare. The gap is people: members who already do this and are not listed, and members willing to learn it.
 
-That makes it a [SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt) problem, not a software one. SkillsHunt is how somebody gets found and added, and its missions name what the economy is short of — a mission to find a doctor is already on the board for exactly that reason. Childcare is the same kind of gap and the same kind of fix. [LevelUp](https://app.chargingthefuture.com/apps/level-up) is where somebody who wants the skill rather than already having it would pick it up.
+That makes it a [SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt) problem, not a software one. SkillsHunt is how somebody gets found and added, and its missions name what the economy is short of — a mission to find a doctor is already on the board for exactly that reason. Childcare is the same kind of gap and the same kind of fix. [SkillUp](https://app.chargingthefuture.com/apps/skill-up) is where somebody who wants the skill rather than already having it would pick it up.
 
 If you can watch a child for an afternoon, or you know a survivor who can, that is the whole ask here. It needs no new tooling and it is available now.
 
@@ -63,7 +63,7 @@ Registration and legal requirements also differ by country and by state, sometim
 
 Nothing here was built for schooling, but three things are adjacent enough to be worth naming, because they are machinery that already runs.
 
-[LevelUp](https://app.chargingthefuture.com/apps/level-up) runs training cohorts: a curriculum, milestones that get validated, a trainer somebody claims, and credits released as milestones are met. That is structurally a course, and it is aimed at adults learning a trade.
+[SkillUp](https://app.chargingthefuture.com/apps/skill-up) runs training cohorts: a curriculum, milestones that get validated, a trainer somebody claims, and credits released as milestones are met. That is structurally a course, and it is aimed at adults learning a trade.
 
 [PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming) puts people into small weekly groups with a room they can talk in. That is structurally a class of about twelve.
 
@@ -108,7 +108,7 @@ The same question applies past schooling. If you are providing anything in this 
 - [ServiceCredits](https://app.chargingthefuture.com/apps/service-credits) — [guide](https://app.chargingthefuture.com/guide#service-credits)
 - [Trust](https://app.chargingthefuture.com/apps/trust) — [guide](https://app.chargingthefuture.com/guide#trust)
 - [SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt) — [guide](https://app.chargingthefuture.com/guide#skills-hunt)
-- [LevelUp](https://app.chargingthefuture.com/apps/level-up) — [guide](https://app.chargingthefuture.com/guide#level-up)
+- [SkillUp](https://app.chargingthefuture.com/apps/skill-up) — [guide](https://app.chargingthefuture.com/guide#skill-up)
 - [PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming) — [guide](https://app.chargingthefuture.com/guide#peer-programming)
 - [Skills Taxonomy](https://app.chargingthefuture.com/apps/skills-taxonomy) — [guide](https://app.chargingthefuture.com/guide#skills-taxonomy)
 - [WhatWorks](https://app.chargingthefuture.com/apps/what-works) — [guide](https://app.chargingthefuture.com/guide#what-works)
