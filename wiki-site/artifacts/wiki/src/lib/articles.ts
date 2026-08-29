@@ -37,6 +37,20 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "present-the-math",
+    "title": "If you say it cannot be done, present the math",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-29",
+    "excerpt": "The line between an opinion and manipulation is thinner than people think, and what decides it is whether anything sits underneath what you said.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/present-the-math.md",
+    "teaser": "An economy run by Targeted Individuals cannot be built — said constantly, never once shown. Here is mine: W. E. B. Du Bois recorded 2,000 college-trained people who trained 50,000, who reached 9,000,000, in the United States alone. In a town I had just arrived in I counted 300 on foot inside 24 hours and stopped there, and the rates still hold. If you say it cannot be done, present the math. Some of the accounts repeating it never had any. Anyone else who comes up empty has learned something.",
+    "topics": [
+      "community"
+    ]
+  },
+  {
     "slug": "two-games-in-the-arcade",
     "title": "Two games in the arcade, and what each one is for",
     "repo": "chargingthefuture/wiki-site",
