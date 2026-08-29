@@ -44,6 +44,14 @@ None of that changes a number above. The rates describe what teaching does; they
 
 Thirty years is the conservative reading of that, which is why I hold a [two-generation goal](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-two-generation-goal) rather than a shorter one.
 
+## Where this actually stands
+
+The obvious answer is that I do not have 2,000 people. That is correct, and the number is not a secret.
+
+The simulation has a second preset for it. On August 28 it read 101 people recruited, covering 160 of 657 skills. Those figures come off the [Workforce](https://app.chargingthefuture.com/apps/workforce) screen, which is where the skills map lives — open it and count.
+
+101 against 2,000 is about a twentieth. It changes where the arithmetic starts and not what the arithmetic does, because a rate is a rate regardless of the number in front of it. That preset is in the simulation for the same reason the source is open: the weakest version of my own case should be the one you can see.
+
 ## Now yours
 
 If you say it cannot be done, present the math.
