@@ -36,7 +36,7 @@ The answer is a list. The Directory is a running list of Targeted Individuals al
 
 What the two share is what produced the deficit and what it cost. Both populations face outsized oppression, and in both the result was destitution — reached by different routes, on different spectrums, destitution either way.
 
-And the remedy has the same shape: a connected network of trading. In his it was the colleges, then the teachers those colleges trained, then the nine million those teachers reached — holding $300,000,000 of property by the time he wrote it down. In this one it is people being findable and exchanging services directly with each other.
+And the remedy has the same shape: a connected network of trading. In his it was the colleges, then the teachers those colleges trained, then the nine million those teachers reached — holding $300 million of property by the time he wrote it down. In this one it is people being findable and exchanging services directly with each other.
 
 That is also why there are two games rather than one. The first is his problem — building skills where they were denied. The second is this one — finding the people who already have them.
 
