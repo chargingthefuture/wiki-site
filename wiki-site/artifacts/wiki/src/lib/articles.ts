@@ -37,14 +37,14 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
-    "slug": "three-games-in-the-arcade",
+    "slug": "two-games-in-the-arcade",
     "title": "Two games in the arcade, and what each one is for",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-08-29",
     "excerpt": "Two games, free and offline, nothing to sign into. One runs on two rates W. E. B. Du Bois recorded in 1903. The other is a map where isolation spreads.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/three-games-in-the-arcade.md",
+    "path": "posts/two-games-in-the-arcade.md",
     "teaser": "In 1903 W. E. B. Du Bois recorded two rates: 2,000 college-trained people trained 50,000 teachers, and those 50,000 taught 9,000,000. 25 times over, then 180 times over. A game is now live that runs on nothing but those two numbers, and you decide each round how much goes to teaching and how much to the work. Put it all into the work and you reach 360,000. Teach first and you reach the 9,000,000 he recorded. His people were denied skills; the people here already have them and cannot be found.",
     "topics": [
       "community"
