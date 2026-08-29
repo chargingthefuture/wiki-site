@@ -37,6 +37,20 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "three-games-in-the-arcade",
+    "title": "Three games in the arcade, and what each one is for",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-29",
+    "excerpt": "Three games are live, free and offline, with nothing to sign into. Two replay real history and the third plays out what this project is trying to do.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/three-games-in-the-arcade.md",
+    "teaser": "Lizzie Magie patented a board game in 1904 to teach an argument about land. Parker Brothers bought it in 1935 for five hundred dollars and no royalties, renamed it Monopoly, and sold it with a man listed as the inventor. Three games are now live for the reason she built hers: an argument you have to play is harder to wave off than one you read. Two replay real history. The third is a map where isolation spreads and four people with skills spread against it.",
+    "topics": [
+      "community"
+    ]
+  },
+  {
     "slug": "rfs-teaching-and-childcare",
     "title": "Request For Skills: teaching and childcare",
     "repo": "chargingthefuture/wiki-site",
@@ -99,6 +113,21 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "old-links-new-links",
+    "title": "Old links, new links",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-28",
+    "excerpt": "Eleven Quora accounts erased, one space renamed. What is current, what is dead, and the one address that does not change.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/old-links-new-links.md",
+    "teaser": "Quora has erased my accounts eleven times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. This page is the standing record: the current space, the current handle, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
+    "topics": [
+      "publishing",
+      "platform-independence"
+    ]
+  },
+  {
     "slug": "Dictionary",
     "title": "Dictionary: Skills Economy Terms",
     "repo": "chargingthefuture/chargingthefuture",
@@ -157,21 +186,6 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "community",
       "economy"
-    ]
-  },
-  {
-    "slug": "old-links-new-links",
-    "title": "Old links, new links",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-27",
-    "excerpt": "Ten Quora accounts erased, one space renamed. What is current, what is dead, and the one address that does not change.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/old-links-new-links.md",
-    "teaser": "Quora has erased my accounts ten times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. This page is the standing record: the current space, the current handle, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
-    "topics": [
-      "publishing",
-      "platform-independence"
     ]
   },
   {
