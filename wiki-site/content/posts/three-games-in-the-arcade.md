@@ -3,7 +3,7 @@ title: "Two games in the arcade, and what each one is for"
 date: "2026-08-29"
 excerpt: "Two games, free and offline, nothing to sign into. One runs on two rates W. E. B. Du Bois recorded in 1903. The other is a map where isolation spreads."
 category: "Community"
-teaser: "In 1903 W. E. B. Du Bois recorded two rates: 2,000 college-trained people trained 50,000 teachers, and those 50,000 taught 9,000,000. 25 times over, then 180 times over. A game is now live that runs on nothing but those two numbers, and you decide each round how much goes to teaching and how much to the work. Put it all into the work and you reach 360,000. Teach first and you reach the 9,000,000 he recorded. Skills Economy starts from 101, and the rates do not care."
+teaser: "In 1903 W. E. B. Du Bois recorded two rates: 2,000 college-trained people trained 50,000 teachers, and those 50,000 taught 9,000,000. 25 times over, then 180 times over. A game is now live that runs on nothing but those two numbers, and you decide each round how much goes to teaching and how much to the work. Put it all into the work and you reach 360,000. Teach first and you reach the 9,000,000 he recorded. His people were denied skills; the people here already have them and cannot be found."
 topics:
   - community
 ---
@@ -26,11 +26,17 @@ He called it "the most wonderful peace-battle of the 19th century." That is wher
 
 ## Why this sits next to Skills Economy
 
-Not because the two situations are the same. They are not, and I am not claiming they are.
+The starting points are opposite, and the difference is the part worth being precise about.
 
-What carries across is the arithmetic. Du Bois recorded people who were short of trained people and answered it by training trainers rather than by doing the work themselves, and he wrote down what that multiplied to. Skills Economy is short in the same way. The gap is people, not software — nobody needs another app built, they need somebody findable who can do the thing. That is the shortage his two rates describe.
+Du Bois was writing about a population denied education outright. The deficit was skills, and the answer was to build them — colleges first, then teachers out of the colleges, then teachers around those.
 
-He started from 2,000. Skills Economy starts from 101. The rates do not care which, and that is what makes the split worth playing with rather than arguing about.
+Skills Economy starts from the other end. The people here are already highly skilled. What is missing is discovery. Somebody with twenty years in a trade is not short of the trade; they are short of anybody knowing they have it. That is a different problem and it needs a different answer.
+
+What the two share is what produced the deficit and what it cost. Both populations face outsized oppression, and in both the result was destitution — reached by different routes, on different spectrums, destitution either way.
+
+And the remedy has the same shape: a connected network of trading. His ran colleges to teachers to nine millions of men holding property. This one runs on people being findable and exchanging services directly with each other.
+
+That is also why there are two games rather than one. The first is his problem — building skills where they were denied. The second is this one — finding the people who already have them.
 
 ## Playing it
 
