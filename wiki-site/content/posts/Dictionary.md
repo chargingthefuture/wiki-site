@@ -1,6 +1,6 @@
 ---
 title: "Dictionary: Skills Economy Terms"
-date: "2026-08-26"
+date: "2026-08-29"
 excerpt: "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record."
 category: "Resources"
 slug: Dictionary
@@ -14,6 +14,8 @@ topics:
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
 ## Latest changes
+
+2026-08-29 — LevelUp is now called SkillUp. Only the name changed: it is the same paid skills-training cohorts with milestone stipends. Its address changed with it, from /apps/level-up to /apps/skill-up, and the old address no longer opens — an old bookmark needs replacing.
 
 2026-08-26 — The 384 entry gains its two meanings: the product benchmark on the way to an estimated five million, and the personal count of known-real people trading at once. The two-generation goal is added as the stretch goal. Both come from the post "The two-generation goal" (2026-08-26).
 
@@ -115,7 +117,7 @@ DEW — Directed Energy Weapon.
 | [TrustTransport](https://app.chargingthefuture.com/apps/trust-transport) | Vetted rides — drivers screened by the community, for the community | [guide](https://app.chargingthefuture.com/guide#trust-transport) |
 | [LightHouse](https://app.chargingthefuture.com/apps/lighthouse) | Community housing listings from trauma-informed hosts | [guide](https://app.chargingthefuture.com/guide#lighthouse) |
 | [PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming) | Weekly global mastermind sessions | [guide](https://app.chargingthefuture.com/guide#peer-programming) |
-| [LevelUp](https://app.chargingthefuture.com/apps/level-up) | Paid skills-training cohorts with milestone stipends | [guide](https://app.chargingthefuture.com/guide#level-up) |
+| [SkillUp](https://app.chargingthefuture.com/apps/skill-up) | Paid skills-training cohorts with milestone stipends | [guide](https://app.chargingthefuture.com/guide#skill-up) |
 | [ServiceCredits](https://app.chargingthefuture.com/apps/service-credits) | The credits exchange (see Value and credits above) | [guide](https://app.chargingthefuture.com/guide#service-credits) |
 | [GDP](https://app.chargingthefuture.com/apps/gdp) | The live economic tracker: Community Value Index and Value waiting to happen | [guide](https://app.chargingthefuture.com/guide#gdp) |
 | [Trust](https://app.chargingthefuture.com/apps/trust) | Community reputation built through real participation | [guide](https://app.chargingthefuture.com/guide#trust) |
