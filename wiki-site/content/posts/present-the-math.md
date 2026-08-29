@@ -88,7 +88,7 @@ His people were denied education. The deficit was skills, and the answer was to 
 
 So it is a map, and what spreads across it is isolation — a place where somebody needs something and nobody findable can do it. Four people with skills move against it. Clearing a place puts it in the Directory, and it stays covered from then on.
 
-The Directory is a running list of Targeted Individuals alongside what they can do, one person at a time. It is the thing survivors ask for most, and it is not an account — the listing is the point.
+The Directory is a running list of Targeted Individuals alongside what they can do, one person at a time. It is the thing survivors ask for most. Being on it costs nobody an account: most entries were built for people rather than by them, and anybody can claim theirs or have it taken down. Seeing it does take a sign-in. It was public in version 2, and everything in it came from public sources — but gathered and sorted this way it becomes something else, so version 3 put it behind a login.
 
 ## Where to find it in the app
 

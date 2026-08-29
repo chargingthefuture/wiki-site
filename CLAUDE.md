@@ -206,10 +206,23 @@ and it produces copy the owner has to reject.
 - In the owner's words: real help is not an email in a database. Do not write copy that implies
   otherwise, and never inflate a figure or arrange a sentence so that it seems to.
 
-The Directory is the ask, and it is not an account. It is the number one thing survivors want:
-a findable list of people and what they can do. It launched on 2025-10-31 as exactly that — "a
-running list of TIs listed alongside their talents", opt-in, one person at a time, with profiles
-at a public address. Write about it as the thing itself, not as a feature waiting behind a login.
+The Directory is the ask. It is the number one thing survivors want: a findable list of people
+and what they can do. It launched on 2025-10-31 as exactly that — "a running list of TIs listed
+alongside their talents", opt-in, one person at a time.
+
+Being listed and having an account are separate things, and that separation is what to write.
+Most entries were built for people rather than by them; anybody can claim theirs or have it taken
+down, with no account involved anywhere in that.
+
+Viewing the Directory is a different question and the answer changed. It was public in version 2.
+Version 3 put it behind a sign-in, because everything in it came from public sources but gathered
+and sorted this way it becomes something else, and that is a real privacy problem rather than a
+theoretical one (owner decision, acting on an agent's finding).
+
+So do not write that the Directory "is not an account", and do not call it a thing that is not
+waiting behind a login. Both were true of version 2 and are false now: they read as though anybody
+can browse it, and they cannot. What is still true, and is the better sentence anyway, is that
+being on the list costs nobody an account.
 
 And the people on that list are doing rather than saying, which counts for more than a stated
 position does. That is the distinction worth drawing in a post — not who has an account.
