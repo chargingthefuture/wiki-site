@@ -52,7 +52,21 @@ I cannot prove that about any particular account and I am not going to try. The 
 
 And if you are not one of them, and you believe it, and you go looking for what your version rests on and find nothing there, that is worth knowing.
 
-The targeting is done to you. That part was never a choice and it is not what I am talking about. But "it cannot be done" is a position, and a position can be checked. If it turns out there were never any numbers under yours, then what is holding you apart from other survivors at that point is the position, not them.
+## I am not shaming anybody for being isolated
+
+Isolation is a reasonable response to what has been done to people. Pulling back after being set up, followed, lied about and cut out of work is not a defect, and I am not asking anybody to feel bad about it.
+
+What does not hold together is complaining about having nothing while arguing against the thing that would produce something. Those are two positions and they cancel each other.
+
+Here is how somebody holds both without noticing. Pain that comes from outside gets weighted heavily. Pain we cause ourselves gets discounted — the same act, the same cost, and it registers as smaller because we were the one who did it. We forgive ourselves faster than we forgive anybody else, and much faster than we forgive somebody who wronged us.
+
+For a Targeted Individual that gap is wider, and it is wider on purpose. The apparatus is built to hold your attention on them. Every incident is an invitation to spend another day accounting for what they did.
+
+So the outrage points outward at full volume, and the cost of staying apart barely registers, because that cost is self-inflicted and self-inflicted is the kind we discount.
+
+Constantly obsessing over them is the reverse of freedom. It is the outcome they are working toward, reached without them having to do anything further.
+
+The targeting is done to you. That was never a choice and it is not what I am talking about. But "it cannot be done" is a position, and a position can be checked. If it turns out there were never any numbers under yours, then what is keeping you apart from other survivors at that point is the position, not them.
 
 That one you can put down.
 
