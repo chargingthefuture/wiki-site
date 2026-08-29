@@ -1,6 +1,6 @@
 ---
 title: "Dictionary: Skills Economy Terms"
-date: "2026-08-29"
+date: "2026-08-28"
 excerpt: "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record."
 category: "Resources"
 slug: Dictionary
@@ -15,7 +15,7 @@ This is a living page. It is kept current, and its date moves it to the top of t
 
 ## Latest changes
 
-2026-08-29 — LevelUp is now called SkillUp. Only the name changed: it is the same paid skills-training cohorts with milestone stipends. Its address changed with it, from /apps/level-up to /apps/skill-up, and the old address no longer opens — an old bookmark needs replacing.
+2026-08-28 — LevelUp is now called SkillUp. Only the name changed: it is the same paid skills-training cohorts with milestone stipends. Its address changed with it, from /apps/level-up to /apps/skill-up, and the old address no longer opens — an old bookmark needs replacing.
 
 2026-08-26 — The 384 entry gains its two meanings: the product benchmark on the way to an estimated five million, and the personal count of known-real people trading at once. The two-generation goal is added as the stretch goal. Both come from the post "The two-generation goal" (2026-08-26).
 
