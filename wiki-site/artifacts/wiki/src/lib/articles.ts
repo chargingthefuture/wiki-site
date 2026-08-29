@@ -37,6 +37,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "what-about-school",
+    "title": "What about school?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-28",
+    "excerpt": "The community posts left out the children. Asking directly: is homeschooling what people want, and what should be built — inside this app, or as a separate tool entirely?",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/what-about-school.md",
+    "teaser": "Recent posts covered a survivor-only community and none mentioned school, though children come with the families. This app connects people; it is not where the work gets done, any more than it runs the inventory for a repair business. That split answers half the question: childcare is near babysitting, the app already handles that shape end to end, and the gap is people rather than software. Schooling is the harder half, and I do not know whether homeschooling is what people want.",
+    "topics": [
+      "community",
+      "education"
+    ]
+  },
+  {
     "slug": "an-invitation-to-jhb",
     "title": "An Invitation to J.H.B.",
     "repo": "chargingthefuture/wiki-site",
