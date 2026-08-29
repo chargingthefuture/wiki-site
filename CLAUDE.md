@@ -45,11 +45,17 @@ Canonical source: [`chargingthefuture/chargingthefuture` → `.github/instructio
 | stale | deprecated | "Stale" is consistently misused; "deprecated" is the intended meaning. |
 | whole point | say the point plainly | Owner directive, 2026-08-28. See below. |
 | whole argument | state the argument itself | Owner directive, 2026-08-28. See below. |
+| point of the thing | end on the fact itself | Owner directive, 2026-08-29. See below. |
 
-Those last two are one habit: the sentence that arrives after the facts to tell the reader which
+Those last three are one habit: the sentence that arrives after the facts to tell the reader which
 of them mattered. It reads as insistence, and a reader can weigh facts without being told which to
 weigh. Write the point as a plain statement and stop. If a sentence does nothing but label what
-came before it, delete it — the facts were already there.
+came before it, delete it — the facts were already there. Three spellings of it are banned now,
+which is the signal to stop reaching for the shape at all rather than to find a fourth wording.
+
+Note what is not banned. "It is the shape of the thing" appears in the rules above and stays: it
+says something about how a figure relates to reality. "That was the point of the thing" says only
+that the preceding sentence was important, which the reader can judge without being told.
 
 Published posts are not edited for this. They are snapshots, frozen at publication, and four of
 them carry the phrase. The generated files that copy from them — `articles.ts` and
