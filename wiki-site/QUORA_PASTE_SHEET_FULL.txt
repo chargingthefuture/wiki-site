@@ -20,19 +20,17 @@ Two games are live. They are free, they run offline once opened, there is no acc
 
 Peace-Battle (https://chargingthefuture.github.io/offline-os/apps/peace-battle/) · Peace-Battle 2 (https://chargingthefuture.github.io/offline-os/apps/peace-battle-2/) · the arcade (https://chargingthefuture.github.io/arcade/)
 
-Why a game
+Peace-Battle — two rates from 1903
 
-Lizzie Magie patented The Landlord's Game in 1904. She was a stenographer at the Dead Letter Office who had read Henry George, and she wanted people to understand what happens when land concentrates in a few hands. She could have written an essay. She built a board instead, and said so plainly in her 1924 patent application: the object was to illustrate "how under the present or prevailing system of land tenure, the landlord has an advantage over other enterprises."
+W. E. B. Du Bois, "The Talented Tenth", in The Negro Problem, 1903. The full book is public domain at https://www.gutenberg.org/ebooks/15041 and is committed alongside the game so the figures can be checked.
 
-In November 1935 she sold the patent rights to Parker Brothers for five hundred dollars and no royalties. The month after, Charles Darrow patented Monopoly, and Parker Brothers sold it to the world with Darrow as its sole inventor. She died in 1948, unknown. Asked how she felt about it, she said that if the idea reached the people shaking the dice, the whole business would not have been in vain.
+He counted two thousand college-trained people at the top of a chain. Those two thousand reached fifty thousand teachers. Those fifty thousand reached nine million. Twenty-five times over, then a hundred and eighty times over. Those two rates are the only numbers the game runs on.
 
-That is the method these games borrow. An argument you have to play is harder to wave off than one you read, because you produce the outcome yourself.
+You decide each round how much goes to teaching and how much to the work itself. Put everything into the work and you reach three hundred and sixty thousand people. Teach first and you reach nine million — same effort, same rounds, twenty-five times the reach. That second split is the one Du Bois recorded, and the game says so when you land on it.
 
-Peace-Battle — where the numbers go
+They are his figures, written in 1903 to make an argument rather than to pass an audit. He was not describing a hypothetical; he was describing what a small number of trained people had already done.
 
-The first one replays something that actually happened. In 1903 a group set out to train teachers rather than to do the work directly. Two thousand people trained fifty thousand, who reached nine million.
-
-You allocate each round between teaching and working, and watch what the split is worth. Put everything into the work and you reach three hundred and sixty thousand people. Put it into teaching first and you reach nine million — the same effort, the same rounds, twenty-five times the reach. The preset that matches how most effort is allocated today lands at four hundred and fifty-four thousand.
+There is a preset for where this project actually stands. As of August 28 it reads 101 people recruited, covering 160 of 657 skills. The rates do not change — only the number at the top of the chain does, and it is about a twentieth of what he started from.
 
 Nobody argues with the arithmetic once they have done it themselves.
 
@@ -46,13 +44,17 @@ Sixteen real cities, sized by population. Four actions a round: move along a lin
 
 Cover the whole map and thirty million people can find somebody. It is cooperative. There is no winner, and nobody gets there by beating anyone.
 
-That is the difference between the two games, and it is why the second one exists. The first shows you what a decision about where to put effort is worth. The second makes you produce the outcome where everybody is reachable, and it turns out to need the same thing the real version needs: the right person has to be reachable, and somebody has to be findable before they can be asked.
+That is the difference between the two games. The first shows what a decision about where to put effort is worth. The second makes you produce the outcome where everybody is reachable, and it needs the same thing the real version needs: somebody has to be findable before they can be asked.
+
+Why a board and not an essay
+
+Lizzie Magie patented The Landlord's Game in 1904 to teach Henry George's argument about land. She could have written an essay; she built a board. Parker Brothers bought the patent in 1935 for five hundred dollars and no royalties, Charles Darrow patented Monopoly the month after, and it sold to the world with Darrow named as its inventor. She died in 1948, unknown.
+
+That is the method these borrow, and it is the reason for building a game rather than writing another post. An argument you have to play is harder to wave off than one you read, because you produce the outcome yourself.
 
 Where to find it in the app
 
 - Directory (https://app.chargingthefuture.com/apps/directory) — guide (https://app.chargingthefuture.com/guide#directory)
-
-Correction, 2026-08-29: this post first went up describing three games. The middle one was Magie's own board with both rule sets her 1932 edition shipped, and it was removed the same day. It was a good history lesson and a poor game, and it had no line back to anything this app does — the first game already carries the scale, so the second was only carrying a story. The two games above are the two that remain, and the map game moved into the name.
 
 To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
 

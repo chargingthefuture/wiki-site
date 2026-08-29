@@ -41,11 +41,11 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Two games in the arcade, and what each one is for",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-08-29",
-    "excerpt": "Two games are live, free and offline, with nothing to sign into. One replays a real chain from 1903 and the other plays out what this project is trying to do.",
+    "excerpt": "Two games, free and offline, nothing to sign into. One runs on two rates W. E. B. Du Bois wrote down in 1903. The other is a map where isolation spreads.",
     "category": "Community",
     "collection": "posts",
     "path": "posts/three-games-in-the-arcade.md",
-    "teaser": "Lizzie Magie patented a board game in 1904 to teach an argument about land. Parker Brothers bought it in 1935 for five hundred dollars and no royalties, renamed it Monopoly, and sold it with a man listed as the inventor. Two games are now live for the reason she built hers: an argument you have to play is harder to wave off than one you read. One replays a real chain from 1903. The other is a map where isolation spreads and four people with skills spread against it.",
+    "teaser": "In 1903 W. E. B. Du Bois wrote down two rates: two thousand college-trained people reached fifty thousand teachers, and those fifty thousand reached nine million. Twenty-five times over, then a hundred and eighty times over. A game is now live that runs on nothing but those two numbers, and you decide each round how much goes to teaching and how much to the work. Put it all into the work and you reach three hundred and sixty thousand. Teach first and you reach the nine million he recorded.",
     "topics": [
       "community"
     ]
