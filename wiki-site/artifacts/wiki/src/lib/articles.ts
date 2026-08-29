@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "rfs-teaching-and-childcare",
+    "title": "Request For Skills: teaching and childcare",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-28",
+    "excerpt": "The first Request For Skills. Childcare Workers and Tutors now exist on the list with nobody in them, and finding someone earns credits you can exchange with them.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/rfs-teaching-and-childcare.md",
+    "teaser": "A Request For Skills names what this economy does not have and asks people to go find it. The first is teaching and childcare, because a survivor community arrives with children and neither is covered. Both now exist on the list under Education — Childcare Workers and Tutors — with nobody in them. SkillsHunt is how you answer it: nominate somebody, and an accepted nomination grants you credits, which are exchanged for services in the app.",
+    "topics": [
+      "community",
+      "skills-economy",
+      "directory"
+    ]
+  },
+  {
     "slug": "what-about-school",
     "title": "What about school?",
     "repo": "chargingthefuture/wiki-site",
