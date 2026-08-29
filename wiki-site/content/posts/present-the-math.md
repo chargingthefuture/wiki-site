@@ -3,7 +3,7 @@ title: "If you say it cannot be done, present the math"
 date: "2026-08-29"
 excerpt: "The line between an opinion and manipulation is thinner than people think, and what decides it is whether anything sits underneath what you said."
 category: "Community"
-teaser: "An economy run by Targeted Individuals cannot be built — that gets said constantly and never once shown. So here is mine: W. E. B. Du Bois recorded 2,000 college-trained people who trained 50,000, who reached 9,000,000, in the United States alone. Two simulations let you operate those rates. If you disagree, present the math. Some of the accounts repeating it will not be able to, because they never had any arithmetic behind it. Anyone else who tries and comes up empty has learned something too."
+teaser: "An economy run by Targeted Individuals cannot be built — said constantly, never once shown. Here is mine: W. E. B. Du Bois recorded 2,000 college-trained people who trained 50,000, who reached 9,000,000, in the United States alone. In a town I had just arrived in I counted 300 on foot inside 24 hours and stopped there, and the rates still hold. If you say it cannot be done, present the math. Some of the accounts repeating it never had any. Anyone else who comes up empty has learned something."
 topics:
   - community
 ---
@@ -32,7 +32,15 @@ The simulation gives you those two rates and one decision each round: how much g
 
 The people Du Bois was writing about were trafficked in public. It was overt, and it was openly not treated as a human rights violation. A modern TI is trafficked just as overtly, and it is just as unrecognized. The two situations are not the same and I am not saying they are — the routes differ, the spectrums differ. What matches is the operating condition: it happens in the open and no institution names it. That is the condition those 2,000 people built under. They did not wait to be believed first.
 
-I counted the people involved in my own targeting and stopped at 300. That is where I stopped, not where it ends. It changes nothing above. The rates describe what teaching does; they say nothing about how many people are working against you. Compounding is not a contest — 25 times over is 25 times over whether one person opposes it or a thousand do.
+## Outnumbered at least three hundred to one
+
+In a town I had just arrived in, I counted the people involved on foot within 24 hours. I stopped at 300.
+
+Not 300 over years. Not 300 who know me. Three hundred inside a single day, in a place I had never been, already there when I got there. That is not a hometown holding a grudge. Coverage like that is administered, and it is not administered locally.
+
+300 is where I stopped counting. It is not where it ends.
+
+None of that changes a number above. The rates describe what teaching does; they say nothing about how many people are working against you. Compounding is not a contest — 25 times over is 25 times over whether one person opposes it or a thousand do.
 
 Thirty years is the conservative reading of that, which is why I hold a [two-generation goal](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-two-generation-goal) rather than a shorter one.
 

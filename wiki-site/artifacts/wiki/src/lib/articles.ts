@@ -45,7 +45,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/present-the-math.md",
-    "teaser": "An economy run by Targeted Individuals cannot be built — that gets said constantly and never once shown. So here is mine: W. E. B. Du Bois recorded 2,000 college-trained people who trained 50,000, who reached 9,000,000, in the United States alone. Two simulations let you operate those rates. If you disagree, present the math. Some of the accounts repeating it will not be able to, because they never had any arithmetic behind it. Anyone else who tries and comes up empty has learned something too.",
+    "teaser": "An economy run by Targeted Individuals cannot be built — said constantly, never once shown. Here is mine: W. E. B. Du Bois recorded 2,000 college-trained people who trained 50,000, who reached 9,000,000, in the United States alone. In a town I had just arrived in I counted 300 on foot inside 24 hours and stopped there, and the rates still hold. If you say it cannot be done, present the math. Some of the accounts repeating it never had any. Anyone else who comes up empty has learned something.",
     "topics": [
       "community"
     ]
