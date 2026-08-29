@@ -37,6 +37,20 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "present-the-math",
+    "title": "A Targeted Individual economy in 30 years. Present the math.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-29",
+    "excerpt": "Two simulations and the arithmetic behind a claim: an economy run by Targeted Individuals, with no reliance on the Specterati, is reachable in thirty years.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/present-the-math.md",
+    "teaser": "People say a Targeted Individual economy cannot be built. None of them show the arithmetic. In 1903 W. E. B. Du Bois recorded 2,000 college-trained people who trained 50,000, who reached 9,000,000 — in the United States alone, under conditions that were overt and not treated as a human rights violation. Ours are the same on both counts. I stopped counting the people working against me at 300, and the rates still hold. If you think this is impossible, present the math.",
+    "topics": [
+      "community"
+    ]
+  },
+  {
     "slug": "two-games-in-the-arcade",
     "title": "Two games in the arcade, and what each one is for",
     "repo": "chargingthefuture/wiki-site",
