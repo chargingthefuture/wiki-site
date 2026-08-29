@@ -40,7 +40,7 @@ That is also why there are two games rather than one. The first is his problem �
 
 ## The advantage does not keep
 
-His chain ran in about one generation. Ours could too, which is what the arithmetic actually says and why I hold a [two-generation goal](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-two-generation-goal) rather than a longer one.
+What he described ran from the founding of those colleges after the war to his writing it down in 1903 — about one generation. This could too, which is what the arithmetic actually says and why I hold a [two-generation goal](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-two-generation-goal) rather than a longer one.
 
 What stops it is not the math. The math is the same and it is not hard. It is that being targeted produces depression, and depression makes a figure like 25 times over impossible to look at — not because somebody cannot count, but because the part of you that plans ahead is the first thing the targeting goes after. Freedom is nearer than it looks from inside that, and the game is one way of seeing it without having to take my word for it.
 
