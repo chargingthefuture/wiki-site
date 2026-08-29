@@ -38,12 +38,6 @@ Cover the whole map and thirty million people can find somebody. It is cooperati
 
 That is the difference between the two games. The first shows what a decision about where to put effort is worth. The second makes you produce the outcome where everybody is reachable, and it needs the same thing the real version needs: somebody has to be findable before they can be asked.
 
-## Why a board and not an essay
-
-Lizzie Magie patented The Landlord's Game in 1904 to teach Henry George's argument about land. She could have written an essay; she built a board. Parker Brothers bought the patent in 1935 for five hundred dollars and no royalties, Charles Darrow patented Monopoly the month after, and it sold to the world with Darrow named as its inventor. She died in 1948, unknown.
-
-That is the method these borrow, and it is the reason for building a game rather than writing another post. An argument you have to play is harder to wave off than one you read, because you produce the outcome yourself.
-
 ## Where to find it in the app
 
 - [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
