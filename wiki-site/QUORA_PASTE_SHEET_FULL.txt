@@ -64,7 +64,7 @@ In Pandemic a disease spreads across a map of cities and you race to contain it.
 
 Sixteen real cities, sized by population. Four actions a round: move along a link, or help where you stand. Helping where the need matches your skill does twice as much, and clearing a place puts it in the Directory — covered from then on, its people counted, isolation never returning to it. Then it grows in two more places, and one already at its limit cuts off and pushes into every place beside it. Six cut off and it is over.
 
-Cover the whole map and thirty million people can find somebody. It is cooperative. There is no winner, and nobody gets there by beating anyone.
+Cover the whole map and every place on it is reachable. It is cooperative. There is no winner, and nobody gets there by beating anyone.
 
 That is the difference between the two games. The first shows what a decision about where to put effort is worth. The second makes you produce the outcome where everybody is reachable, and it needs the same thing the real version needs: somebody has to be findable before they can be asked.
 
