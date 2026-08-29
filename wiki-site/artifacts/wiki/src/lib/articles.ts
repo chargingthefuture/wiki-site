@@ -38,14 +38,14 @@ export interface ArticleMeta {
 export const ARTICLES: ArticleMeta[] = [
   {
     "slug": "three-games-in-the-arcade",
-    "title": "Three games in the arcade, and what each one is for",
+    "title": "Two games in the arcade, and what each one is for",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-08-29",
-    "excerpt": "Three games are live, free and offline, with nothing to sign into. Two replay real history and the third plays out what this project is trying to do.",
+    "excerpt": "Two games are live, free and offline, with nothing to sign into. One replays a real chain from 1903 and the other plays out what this project is trying to do.",
     "category": "Community",
     "collection": "posts",
     "path": "posts/three-games-in-the-arcade.md",
-    "teaser": "Lizzie Magie patented a board game in 1904 to teach an argument about land. Parker Brothers bought it in 1935 for five hundred dollars and no royalties, renamed it Monopoly, and sold it with a man listed as the inventor. Three games are now live for the reason she built hers: an argument you have to play is harder to wave off than one you read. Two replay real history. The third is a map where isolation spreads and four people with skills spread against it.",
+    "teaser": "Lizzie Magie patented a board game in 1904 to teach an argument about land. Parker Brothers bought it in 1935 for five hundred dollars and no royalties, renamed it Monopoly, and sold it with a man listed as the inventor. Two games are now live for the reason she built hers: an argument you have to play is harder to wave off than one you read. One replays a real chain from 1903. The other is a map where isolation spreads and four people with skills spread against it.",
     "topics": [
       "community"
     ]
