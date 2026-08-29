@@ -62,7 +62,7 @@ Nobody argues with the arithmetic once they have done it themselves.
 
 ## Peace-Battle 2 — a map, and nobody wins alone
 
-The second one is a knock-off of Pandemic, with the polarity turned around.
+The second one is a knock-off of Pandemic, a board game from 2008, with the polarity turned around.
 
 In Pandemic a disease spreads across a map of cities and you race to contain it. Here what spreads is isolation — a place where somebody needs something and nobody findable can do it. Four people with skills move against it. People are never the contagion. Being cut off is.
 
