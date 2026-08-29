@@ -7,7 +7,7 @@ into a preview card instead of leaving the link as written.
 
 This file mirrors the blog feed: one flat list, newest first. The number is the
 entry's place in publication order, so No. 1 is the oldest page on the blog and
-No. 358 is the newest. A number identifies one entry and never repeats. The blog's
+No. 359 is the newest. A number identifies one entry and never repeats. The blog's
 collection tags are not used here — they are filters for readers, and several are
 retired.
 
@@ -26,8 +26,15 @@ corrected where it had drifted; 70 were rewritten. Entries added after that date
 are written from the post at the time it is published. So the file is no longer
 unverified — but it is still a staging file, and the post remains the record.
 
-358 of 358 written.
+359 of 359 written.
 
+
+==============================================================================
+No. 359 · 2026-08-29 · Request For Skills: trainers
+
+LevelUp is SkillUp now, same thing with a clearer name. Three cohorts are open in it and every one of them reads Trainer TBD: Journalists / Reporters, Construction Laborers, Cleaners / Janitorial. Eleven seats left on each and enrolling costs nothing. I did not pick those three. SkillUp generates its own cohort recommendations from the distance between what the skills map holds and what people are looking for, and those came back as the widest gaps. People are enrolling against them now and nobody is scheduled to teach any of them. So this is a Request For Skills, trainer edition. What running one involves: you set the schedule and the cadence, not me and not the app. Remote by default, because the cohorts are open globally and somebody who enrolls is as likely to be five time zones away as five miles. Run it inside the app or on whatever you already use — Zoom is fine and so is anything else. In person is acceptable on one condition, that it stays open to anybody who enrolled and cannot get to the room: a call running alongside it, a recording, a second sitting, whatever it takes. A cohort does not become a local one because the trainer is local. You do not need to be a professional instructor. You need to know the work well enough that somebody who does not can follow you. And if you would run a cohort but the tooling would not carry what you want to do, say so in the Commons group chat and I will build it. That is the whole offer: describe what would let you train more people, or train them better, and it gets built.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/rfs-trainers
 
 ==============================================================================
 No. 358 · 2026-08-29 · If you say it cannot be done, present the math
