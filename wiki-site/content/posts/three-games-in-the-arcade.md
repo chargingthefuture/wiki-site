@@ -42,7 +42,7 @@ That is also why there are two games rather than one. The first is his problem �
 
 ## We have the education. The children will not.
 
-Du Bois's took about one generation — from the colleges founded after the war to him writing it down in 1903. This can too. That is why the goal is [two generations](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-two-generation-goal) and not longer.
+What he described ran from the founding of those colleges after the war to his writing it down in 1903 — about one generation. This could too, which is what the arithmetic actually says but I hold a [two-generation goal](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-two-generation-goal) rather than a shorter one.
 
 The math is not what stops it. Depression is. Being targeted causes it, and it makes a number like 25 times over impossible to look at. Freedom is closer than people think.
 
