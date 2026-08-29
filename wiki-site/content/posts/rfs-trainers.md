@@ -35,6 +35,12 @@ In person is acceptable on one condition: it stays open to anybody who enrolled 
 
 You do not need to be a professional instructor. You need to know the work well enough that somebody who does not can follow you.
 
+## Or nominate a trainer you know
+
+You do not have to be the one teaching. If you know somebody who could run one of these, nominate them in [SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt) — a name, where they are, what they can do. An accepted nomination grants the scout credits.
+
+They do not have to be a survivor, and they do not have to have an account. Most of the skills map was built by people naming somebody else.
+
 ## If the software is what stops you
 
 If you would run a cohort but the tooling would not carry what you want to do, say so in the [Commons group chat](https://app.chargingthefuture.com) and I will build it.
@@ -44,6 +50,7 @@ That is the whole offer. Describe what would let you train more people, or train
 ## Where to find it in the app
 
 - [SkillUp](https://app.chargingthefuture.com/apps/skill-up) — [guide](https://app.chargingthefuture.com/guide#skill-up)
+- [SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt) — [guide](https://app.chargingthefuture.com/guide#skills-hunt)
 - [Commons](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
 
 To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
