@@ -37,6 +37,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "rfs-trainers",
+    "title": "Request For Skills: trainers",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-29",
+    "excerpt": "Three cohorts are open and every one of them reads Trainer TBD. People are enrolling. Nobody is scheduled to teach them.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/rfs-trainers.md",
+    "teaser": "LevelUp is SkillUp now. Three cohorts are open in it — Journalists / Reporters, Construction Laborers, Cleaners / Janitorial — picked by the recommendations rather than by me, as the widest gaps between what the skills map holds and what people are looking for. Eleven seats left on each, enrolling costs nothing, and all three read Trainer TBD. So this is a Request For Skills for trainers. You set the schedule and the cadence, and it runs remotely because the cohorts are open globally.",
+    "topics": [
+      "community",
+      "education"
+    ]
+  },
+  {
     "slug": "present-the-math",
     "title": "If you say it cannot be done, present the math",
     "repo": "chargingthefuture/wiki-site",
