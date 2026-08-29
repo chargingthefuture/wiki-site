@@ -83,7 +83,7 @@ workflow → Run workflow.
 After the post is live:
 
 1. Paste the post's `teaser` from its front matter (write one at authoring time — the short
-   standalone version, 2-4 short sentences carrying the post's whole point). For older posts
+   standalone version, 2-4 short sentences saying what the post says). For older posts
    without a teaser, write a few sentences in your own words — not the full post.
 2. Attach the same screenshot file committed with the post, if any.
 3. Link the canonical page: `https://chargingthefuture.github.io/chargingthefuture/article/...`

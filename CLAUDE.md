@@ -43,6 +43,17 @@ Canonical source: [`chargingthefuture/chargingthefuture` → `.github/instructio
 |---|---|---|
 | punch list | list | Jargon; unclear meaning. |
 | stale | deprecated | "Stale" is consistently misused; "deprecated" is the intended meaning. |
+| whole point | say the point plainly | Owner directive, 2026-08-28. See below. |
+| whole argument | state the argument itself | Owner directive, 2026-08-28. See below. |
+
+Those last two are one habit: the sentence that arrives after the facts to tell the reader which
+of them mattered. It reads as insistence, and a reader can weigh facts without being told which to
+weigh. Write the point as a plain statement and stop. If a sentence does nothing but label what
+came before it, delete it — the facts were already there.
+
+Published posts are not edited for this. They are snapshots, frozen at publication, and four of
+them carry the phrase. The generated files that copy from them — `articles.ts` and
+`QUORA_PASTE_SHEET_FULL.txt` — carry it for the same reason and are not hand-edited either.
 
 ## Architecture (publishing pipeline)
 
