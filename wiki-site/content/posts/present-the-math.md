@@ -3,7 +3,7 @@ title: "If you say it cannot be done, present the math"
 date: "2026-08-29"
 excerpt: "The line between an opinion and manipulation is thinner than people think, and what decides it is whether anything sits underneath what you said."
 category: "Community"
-teaser: "An economy run by Targeted Individuals cannot be built — that gets said constantly and never once shown. So here is mine: W. E. B. Du Bois recorded 2,000 college-trained people who trained 50,000, who reached 9,000,000, in the United States alone. Two simulations let you operate those rates yourself. If you disagree, present the math. Some of the accounts repeating it will not be able to, because they never had any. Anyone who tries and finds none either has learned something worth knowing."
+teaser: "An economy run by Targeted Individuals cannot be built — that gets said constantly and never once shown. So here is mine: W. E. B. Du Bois recorded 2,000 college-trained people who trained 50,000, who reached 9,000,000, in the United States alone. Two simulations let you operate those rates. If you disagree, present the math. Some of the accounts repeating it will not be able to, because they never had any arithmetic behind it. Anyone else who tries and comes up empty has learned something too."
 topics:
   - community
 ---
