@@ -28,15 +28,25 @@ He is not proposing a plan. He is describing what the college founders had alrea
 
 Where ought they to have begun to build? At the bottom, of course, quibbles the mole with his eyes in the earth. Aye! truly at the bottom, at the very bottom; at the bottom of knowledge, down in the very depths of knowledge there where the roots of justice strike into the lowest soil of Truth. And so they did begin; they founded colleges, and up from the colleges shot normal schools, and out from the normal schools went teachers, and around the normal teachers clustered other teachers to teach the public schools; the college trained in Greek and Latin and mathematics, 2,000 men; and these men trained full 50,000 others in morals and manners, and they in turn taught thrift and the alphabet to nine millions of men, who to-day hold $300,000,000 of property.
 
-Twenty-five times over, then a hundred and eighty times over. Those two rates are the only numbers the game runs on.
+25 times over, then 180 times over. Those two rates are the only numbers the game runs on.
 
 He called it "the most wonderful peace-battle of the 19th century." That is where the game's name comes from.
 
-You decide each round how much goes to teaching and how much to the work itself. Put everything into the work and you reach three hundred and sixty thousand people. Teach first and you reach nine million — same effort, same rounds, twenty-five times the reach. That second split is the one Du Bois recorded, and the game says so when you land on it.
+Why this sits next to Skills Economy
+
+Not because the two situations are the same. They are not, and I am not claiming they are.
+
+What carries across is the arithmetic. Du Bois recorded people who were short of trained people and answered it by training trainers rather than by doing the work themselves, and he wrote down what that multiplied to. Skills Economy is short in the same way. The gap is people, not software — nobody needs another app built, they need somebody findable who can do the thing. That is the shortage his two rates describe.
+
+He started from 2,000. Skills Economy starts from 101. The rates do not care which, and that is what makes the split worth playing with rather than arguing about.
+
+Playing it
+
+You decide each round how much goes to teaching and how much to the work itself. Put everything into the work and you reach 360,000 people. Teach first and you reach 9,000,000 — same effort, same rounds, 25 times the reach. That second split is the one Du Bois recorded, and the game says so when you land on it.
 
 They are his figures, written in 1903 to make an argument rather than to pass an audit. He was not describing a hypothetical; he was describing what a small number of trained people had already done.
 
-There is a preset for where this project actually stands. As of August 28 it reads 101 people recruited, covering 160 of 657 skills. The rates do not change — only the number the chain starts from does, and it is about a twentieth of his 2,000.
+There is a preset for where Skills Economy actually stands. As of August 28 it reads 101 people recruited, covering 160 of 657 skills. The rates do not change — only the number it starts from, 101 against his 2,000.
 
 Nobody argues with the arithmetic once they have done it themselves.
 
