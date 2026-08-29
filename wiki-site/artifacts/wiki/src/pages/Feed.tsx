@@ -12,7 +12,7 @@ import { formatArticleDate } from "@/lib/dates";
  * following an account for months.
  *
  * Each entry shows the post's teaser — the short standalone version that
- * carries the post's whole point — falling back to the excerpt for posts
+ * says what the post says — falling back to the excerpt for posts
  * that predate the teaser field. Entries are numbered by publish order
  * (oldest is No. 1) so a reader can see how deep the catalog goes.
  *
@@ -67,7 +67,7 @@ export default function Feed() {
           </h1>
           <p className="font-sans text-lg text-gray-300 border-l-4 border-accent pl-4">
             The short version of every post, newest first. Each one stands on
-            its own. "Read the full post" goes to the whole argument.
+            its own. "Read the full post" goes to the piece in full.
           </p>
           <p className="font-mono text-sm text-gray-400 mt-4">
             Showing {firstShown}–{lastShown} of {entries.length} · page {page} of {pageCount}

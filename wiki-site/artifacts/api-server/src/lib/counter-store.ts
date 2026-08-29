@@ -5,7 +5,7 @@ import { logger } from "./logger";
 /**
  * Storage for the blog's view/read counter.
  *
- * The whole point of this table is what it does NOT hold. There is no column
+ * This table is defined by what it does NOT hold. There is no column
  * for an IP address, a User-Agent, a referrer, a session identifier, a country,
  * or a timestamp finer than the day — not stored, and not derived on the way
  * in. Four columns is the entire record, and a reader appears in it only as
