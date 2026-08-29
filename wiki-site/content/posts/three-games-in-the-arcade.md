@@ -40,15 +40,15 @@ And the remedy has the same shape: a connected network of trading. In his it was
 
 That is also why there are two games rather than one. The first is his problem — building skills where they were denied. The second is this one — finding the people who already have them.
 
-## The advantage does not keep
+## We have the education. The children will not.
 
-What he described ran from the founding of those colleges after the war to his writing it down in 1903 — about one generation. This could too, which is what the arithmetic actually says and why I hold a [two-generation goal](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-two-generation-goal) rather than a longer one.
+Du Bois's took about one generation — from the colleges founded after the war to him writing it down in 1903. This can too. That is why the goal is [two generations](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-two-generation-goal) and not longer.
 
-What stops it is not the math. The math is the same and it is not hard. It is that being targeted produces depression, and depression makes a figure like 25 times over impossible to look at — not because somebody cannot count, but because the part of you that plans ahead is the first thing the targeting goes after. Freedom is nearer than it looks from inside that, and the game is one way of seeing it without having to take my word for it.
+The math is not what stops it. Depression is. Being targeted causes it, and it makes a number like 25 times over impossible to look at. Freedom is closer than people think.
 
-The advantage is the part that will not wait. The adults being targeted now have the education. The children being targeted now will be denied it, because that is what this does to a childhood — and denied education is the position Du Bois was writing from, not the one we are in. Wait long enough and it stops being our problem and becomes his again, which is the harder of the two by a long way.
+Adults being targeted now have the education. Children being targeted now will not. That is what this does to a childhood, and denied education is where Du Bois started — a harder place than where we are.
 
-So it gets handed down while there is still something to hand down.
+So we hand it down now.
 
 ## Playing Peace-Battle
 
