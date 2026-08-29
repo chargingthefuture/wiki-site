@@ -50,7 +50,11 @@ If you say it cannot be done, present the math.
 
 Not an opinion about whether people will participate. Not a prediction about human nature. Not a story about somebody who let you down. The numbers: a starting count, a rate at which capability passes from one person to the next, and the arithmetic that lands lower than the figures above.
 
-Both simulations are free, run offline once opened, need no account, and send nothing anywhere. Change the inputs and show me what you get.
+Both simulations are free, run offline once opened, need no account, and send nothing anywhere.
+
+The source is open. [The first one](https://github.com/chargingthefuture/offline-os/tree/main/apps/peace-battle) and [the second](https://github.com/chargingthefuture/offline-os/tree/main/apps/peace-battle-2) are both readable in full, and Du Bois's book is committed beside them. The rates are not something you have to take from me. They are two numbers in a file, and every figure I have quoted comes out of them. Check the arithmetic before you argue with the conclusion, and if the arithmetic is wrong, say where.
+
+Change the inputs and show me what you get.
 
 ## What the question sorts
 
@@ -75,8 +79,6 @@ So the outrage points outward at full volume, and the cost of staying apart bare
 Constantly obsessing over them is the reverse of freedom. It is the outcome they are working toward, reached without them having to do anything further.
 
 The targeting is done to you. That was never a choice and it is not what I am talking about. But "it cannot be done" is a position, and a position can be checked. If it turns out there were never any numbers under yours, then what is keeping you apart from other survivors at that point is the position, not them.
-
-That one you can put down.
 
 ## The second simulation
 
