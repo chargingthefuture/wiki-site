@@ -1,16 +1,16 @@
 ---
-title: "Three games in the arcade, and what each one is for"
+title: "Two games in the arcade, and what each one is for"
 date: "2026-08-29"
-excerpt: "Three games are live, free and offline, with nothing to sign into. Two replay real history and the third plays out what this project is trying to do."
+excerpt: "Two games are live, free and offline, with nothing to sign into. One replays a real chain from 1903 and the other plays out what this project is trying to do."
 category: "Community"
-teaser: "Lizzie Magie patented a board game in 1904 to teach an argument about land. Parker Brothers bought it in 1935 for five hundred dollars and no royalties, renamed it Monopoly, and sold it with a man listed as the inventor. Three games are now live for the reason she built hers: an argument you have to play is harder to wave off than one you read. Two replay real history. The third is a map where isolation spreads and four people with skills spread against it."
+teaser: "Lizzie Magie patented a board game in 1904 to teach an argument about land. Parker Brothers bought it in 1935 for five hundred dollars and no royalties, renamed it Monopoly, and sold it with a man listed as the inventor. Two games are now live for the reason she built hers: an argument you have to play is harder to wave off than one you read. One replays a real chain from 1903. The other is a map where isolation spreads and four people with skills spread against it."
 topics:
   - community
 ---
 
-Three games are live. They are free, they run offline once opened, there is no account, no ads, and nothing about how you play leaves your phone.
+Two games are live. They are free, they run offline once opened, there is no account, no ads, and nothing about how you play leaves your phone.
 
-[Peace-Battle](https://chargingthefuture.github.io/offline-os/apps/peace-battle/) · [Peace-Battle 2](https://chargingthefuture.github.io/offline-os/apps/peace-battle-2/) · [Peace-Battle 3](https://chargingthefuture.github.io/offline-os/apps/peace-battle-3/) · [the arcade](https://chargingthefuture.github.io/arcade/)
+[Peace-Battle](https://chargingthefuture.github.io/offline-os/apps/peace-battle/) · [Peace-Battle 2](https://chargingthefuture.github.io/offline-os/apps/peace-battle-2/) · [the arcade](https://chargingthefuture.github.io/arcade/)
 
 ## Why a game
 
@@ -28,19 +28,9 @@ You allocate each round between teaching and working, and watch what the split i
 
 Nobody argues with the arithmetic once they have done it themselves.
 
-## Peace-Battle 2 — Magie's board, both her rule sets
+## Peace-Battle 2 — a map, and nobody wins alone
 
-The 1932 edition of her game shipped as *The Landlord's Game and Prosperity*: one board with two sets of rules, and two different ideas of when a game is finished.
-
-Under the Landlord's Game, rent goes to whoever holds the card and you win by reaching two thousand dollars — the Big Landlord. Under Prosperity, land rent goes to a public fund that buys the utilities out of private hands, and it ends when the player with the least money has doubled what they started with. Same board, same dice. One ends when somebody has the most. The other ends when the person doing worst is doing well enough.
-
-Her Rule 14 is the part worth finding: the players can change from one set to the other at any time, by agreement. A player who has run out can ask for it. That is a button in the game.
-
-The printed 1932 rules sheet is committed alongside the game, and the game states on screen which of its claims rest on that sheet and which are its own shortening of a forty-space board onto a phone.
-
-## Peace-Battle 3 — a map, and nobody wins alone
-
-The third one is not Magie's. It is a knock-off of Pandemic, and the polarity is turned around.
+The second one is a knock-off of Pandemic, with the polarity turned around.
 
 In Pandemic a disease spreads across a map of cities and you race to contain it. Here what spreads is isolation — a place where somebody needs something and nobody findable can do it. Four people with skills move against it. People are never the contagion. Being cut off is.
 
@@ -48,10 +38,12 @@ Sixteen real cities, sized by population. Four actions a round: move along a lin
 
 Cover the whole map and thirty million people can find somebody. It is cooperative. There is no winner, and nobody gets there by beating anyone.
 
-That last part is the difference between the third game and the first two, and it is why the third one exists. Magie's board makes you produce the outcome where one person ends up with everything. This one makes you produce the other outcome, and it turns out to need the same thing the real version needs: the right person has to be reachable.
+That is the difference between the two games, and it is why the second one exists. The first shows you what a decision about where to put effort is worth. The second makes you produce the outcome where everybody is reachable, and it turns out to need the same thing the real version needs: the right person has to be reachable, and somebody has to be findable before they can be asked.
 
 ## Where to find it in the app
 
 - [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
+
+Correction, 2026-08-29: this post first went up describing three games. The middle one was Magie's own board with both rule sets her 1932 edition shipped, and it was removed the same day. It was a good history lesson and a poor game, and it had no line back to anything this app does — the first game already carries the scale, so the second was only carrying a story. The two games above are the two that remain, and the map game moved into the name.
 
 To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
