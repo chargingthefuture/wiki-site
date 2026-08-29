@@ -508,5 +508,9 @@ Two workflows run here, and no others:
 The product repo's PR conventions are not enforced here. There is no semantic-title check and no parity check. So:
 
 - Use a Conventional Commit PR title anyway, for consistency across repos.
+- A blog post is `docs:`, not `feat:`. Publishing writing is not shipping a feature, and this
+  repository is almost entirely writing, so `feat:` would be the prefix on nearly everything and
+  would stop meaning anything. `feat:` is for the site's own machinery — a new page type, a
+  generator, a build step. Corrections and copy edits to a published post are `fix:`.
 - Omit the `Parity Status:` line. This repo is a static blog with no Android surface, so the line carries no meaning.
 - Auto-merge is turned off in repository settings, so a PR here never merges itself. Every PR waits on a human merge until the owner turns auto-merge on.
