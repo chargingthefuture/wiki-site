@@ -29,6 +29,8 @@ Janie, the Cleaners / Janitorial cohort has no trainer. You manage cleaners. You
 
 The terms are in the [last post](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/rfs-trainers) and they are short. You set the schedule and the cadence. It runs remotely, because the people enrolling could be anywhere. You do not need to be a professional instructor — you need to know the work well enough that somebody who does not can follow you.
 
+One step comes first and it is short: claim the listing. Cleaning is on it now, and the app matches a trainer to a cohort by the skills on a profile somebody has claimed — so claiming yours is what makes it count.
+
 If the answer is no, that is a complete answer and nothing about your listing changes. You can also have the listing taken down at any time, which has been true since the day it went up.
 
 ## This does not run one way
