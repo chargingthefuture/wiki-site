@@ -284,6 +284,39 @@ When the owner sends a profile capture, it is source material so they do not hav
 out. Read it, use what bears on the post, and do not commit the image. The Directory listing is
 different and can be shown: it holds the skills themselves, which is what the post is about.
 
+## An Agent's Mistakes Are Not Content (owner directive, 2026-09-13)
+
+Every agent makes mistakes. None of them belong in a post. Writing them up pollutes the blog and
+gives a reader nothing — they came for the subject, not for a machine's working notes.
+
+So a post never says that an agent got something wrong, never explains that a line was
+rewritten because a draft was bad, and never narrates where a wrong sentence came from. Not in the
+body, not in a footnote, not as a parenthetical. The same goes for announcing that something was
+regenerated, re-checked, or corrected after a review pass. The reader is owed the right sentence,
+not its history.
+
+This is not a ban on correcting a published post. Those are different things, and the line between
+them is who was affected:
+
+- **A reader relied on a wrong claim about the product or the world.** Correct it, dated, in the
+  post — that practice is already described in `how-to-check-me.md` and is part of what makes the
+  record checkable. State what it originally said and what is accurate now. Do not say who or what
+  produced the error.
+- **Nobody relied on anything.** A clumsy draft, a wrong file name, an invented feature that never
+  shipped, a sentence an agent had to be told twice to fix. Change it and say nothing. There is no
+  correction to publish because there was never a claim anybody acted on.
+
+The existing dated corrections are the right shape: "this originally said notes are never seen by
+anyone. That was wrong; the accurate line is above." The fact, the fix, no author.
+
+Where this belongs instead: the pull request body and the commit message, which is where the people
+working on the repository read it, and where saying plainly what went wrong is useful rather than
+noise.
+
+The one exception is the weekly product update generator in the product repository, which composes
+its own text from the repository's own history. It is out of scope for anything asked of this
+session; do not change it to satisfy this rule without being asked.
+
 ## How the Owner Writes (owner directive, 2026-08-24)
 
 The owner types a great deal and runs on limited usage. Terse or blunt phrasing is compression,
