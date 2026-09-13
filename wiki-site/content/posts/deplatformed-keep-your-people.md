@@ -33,7 +33,7 @@ Join the Skills Economy and create a Directory profile.
 
 It takes a couple of minutes, and what it gives you is a place where your skills are stated in your own words, where the work you do for other survivors is recorded, and where people can find you by what you can do — none of which disappears when an account does. Your contributions stay yours. Your standing in the community stays yours. If a platform deletes you tomorrow, the people here still know who you are and still know how to reach you.
 
-That is the whole point of building this where a single account cannot take it down. Exit their economy, exit the psyop.
+It is built where a single account cannot take it down. Exit their economy, exit the psyop.
 
 ## Where to find it in the app
 

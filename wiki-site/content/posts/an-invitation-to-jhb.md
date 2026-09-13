@@ -19,7 +19,7 @@ Chemical dosing and safety. Diagnostic testing — microscopy, biochemistry, hem
 
 ![The Directory profile for JHB in the app. It is labeled Community-generated profile, nominated by @farah, located in Australia, with a link out reading View Quora profile — their Quora profile is the social proof, read more before you reach out. Under Specializations: Chemical dosing and safety; Diagnostic testing (microscopy, biochemistry, hematology); Pharmacology and prescription; Prescribing and pharmacology; Audio recording and mixing; Multimedia storytelling (audio/video); Video/audio recording and editing; CCTV; Basic accounting and bookkeeping for SMEs. Below, a panel headed Want to work together? reads: the directory shows who is in the community and what they do. Want a service or good from this person? Look for them in Foundation, where members offer and exchange help.](images/j-h-b-directory-profile-2026-08-28.png)
 
-That is the whole of what the list takes. The Directory records what a person can do, because that is the only part another survivor needs.
+That is what the list takes. The Directory records what a person can do, because that is the only part another survivor needs.
 
 And this, which is the line I would have picked if I were writing it for them: you are never alone, just reach out.
 

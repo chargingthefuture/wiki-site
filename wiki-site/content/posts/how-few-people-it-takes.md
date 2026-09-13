@@ -48,7 +48,7 @@ That is why a hundred is reachable, and why a fixed hundred would not be.
 
 At that size, a person can post that they need work and have it answered. Take a ride from someone who was vetted rather than from a Specterati operator. Find a room. Find someone who can fix the thing that broke, in exchange for something they can do back.
 
-That is the whole of it. Not a movement, not a verdict on anyone, not an ending. A person going about an ordinary week without every transaction running through people who are paid to make their life worse.
+Not a movement, not a verdict on anyone, not an ending. A person going about an ordinary week without every transaction running through people who are paid to make their life worse.
 
 Living instead of enduring.
 
@@ -74,7 +74,7 @@ My impression is that a lot of people are holding out for world peace and an end
 
 I do not expect either. And I think expecting it is exactly what makes people give up on the smaller thing that is actually available — because measured against an ending that is not coming, a hundred people trading looks like nothing worth getting out of bed for.
 
-Measured against a week you have to get through, it is the whole difference.
+Measured against a week you have to get through, a hundred people trading changes everything.
 
 ## It has been done before
 

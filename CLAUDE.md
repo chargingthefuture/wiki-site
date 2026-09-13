@@ -43,23 +43,30 @@ Canonical source: [`chargingthefuture/chargingthefuture` → `.github/instructio
 |---|---|---|
 | punch list | list | Jargon; unclear meaning. |
 | stale | deprecated | "Stale" is consistently misused; "deprecated" is the intended meaning. |
-| whole point | say the point plainly | Owner directive, 2026-08-28. See below. |
-| whole argument | state the argument itself | Owner directive, 2026-08-28. See below. |
+| a sentence of the form "that is the whole ‹anything›" | state the point itself and stop | Owner directive, 2026-08-28, widened 2026-09-13. See below. |
 | point of the thing | end on the fact itself | Owner directive, 2026-08-29. See below. |
 
-Those last three are one habit: the sentence that arrives after the facts to tell the reader which
-of them mattered. It reads as insistence, and a reader can weigh facts without being told which to
-weigh. Write the point as a plain statement and stop. If a sentence does nothing but label what
-came before it, delete it — the facts were already there. Three spellings of it are banned now,
-which is the signal to stop reaching for the shape at all rather than to find a fourth wording.
+Both are one habit: the sentence that arrives after the facts to tell the reader which of them
+mattered. It reads as insistence, and a reader can weigh facts without being told which to weigh.
+Write the point as a plain statement and stop. If a sentence does nothing but label what came
+before it, delete it — the facts were already there.
 
-Note what is not banned. "It is the shape of the thing" appears in the rules above and stays: it
-says something about how a figure relates to reality. "That was the point of the thing" says only
-that the preceding sentence was important, which the reader can judge without being told.
+The ban is on the construction, not on a list of nouns. Three nouns were banned one at a time and
+each time the next piece of writing reached for a different one in the same frame. So the product
+repository's Stop hook now matches "that/this/which/it is the whole ‹word›" whatever word follows,
+plus the same frame with a subject in front of it. Do not go looking for a noun that slips past.
 
-Published posts are not edited for this. They are snapshots, frozen at publication, and four of
-them carry the phrase. The generated files that copy from them — `articles.ts` and
-`QUORA_PASTE_SHEET_FULL.txt` — carry it for the same reason and are not hand-edited either.
+Two things are not banned. A negated form — an account that is not the whole story — states
+something about the account rather than ranking what came before it. And a phrase like "it is the
+shape of the thing" says how a figure relates to reality, which is a claim rather than a label.
+
+Published posts are edited for this (owner directive, 2026-09-13, reversing the earlier carve-out).
+Fourteen carried the construction and all fourteen were rewritten in place; no dates moved, because
+none of the numbers or claims changed. The generated files that copy from them — `articles.ts` and
+`QUORA_PASTE_SHEET_FULL.txt` — were regenerated rather than hand-edited, as always.
+
+The manifesto (`The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP.md`) is the exception and still
+carries it, because the owner froze that page outright and that freeze has not been lifted.
 
 ## Architecture (publishing pipeline)
 

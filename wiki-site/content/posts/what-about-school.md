@@ -41,7 +41,7 @@ So there is nothing to build for childcare. The gap is people: members who alrea
 
 That makes it a [SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt) problem, not a software one. SkillsHunt is how somebody gets found and added, and its missions name what the economy is short of — a mission to find a doctor is already on the board for exactly that reason. Childcare is the same kind of gap and the same kind of fix. [SkillUp](https://app.chargingthefuture.com/apps/skill-up) is where somebody who wants the skill rather than already having it would pick it up.
 
-If you can watch a child for an afternoon, or you know a survivor who can, that is the whole ask here. It needs no new tooling and it is available now.
+If you can watch a child for an afternoon, or you know a survivor who can, that is the ask here. It needs no new tooling and it is available now.
 
 ## What I do not know
 

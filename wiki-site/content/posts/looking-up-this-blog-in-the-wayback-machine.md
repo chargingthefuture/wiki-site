@@ -27,7 +27,7 @@ https://raw.githubusercontent.com/chargingthefuture/wiki-site/main/wiki-site/con
 
 You will get a calendar of dates. Each highlighted date is a day the Internet Archive took a copy. Click one and you are reading that post exactly as its text stood on that date, from a copy I did not make and cannot edit.
 
-That is the whole mechanism. Everything below is how to do it for any other post, and how to know what you are looking at.
+Everything below is how to do it for any other post, and how to know what you are looking at.
 
 ## Two more you can try immediately
 

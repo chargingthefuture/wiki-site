@@ -25,7 +25,7 @@ So when someone tells you that you look foolish, look at the room they are point
 
 Some of them tell you they are the Illuminati. They are not a secret society, and the claim falls apart the moment you count the participants: whole communities take part in this. It is human trafficking wearing a better outfit.
 
-Look at scale historically. The transatlantic slave trade had most of the globe participating in some form — one country's main contribution was building the ships, which is not a small role, it is the whole logistics of it. Every part was somebody's job. What did those people think they were? Hitler pulled the world into a war. What did he think he was?
+Look at scale historically. The transatlantic slave trade had most of the globe participating in some form — one country's main contribution was building the ships, which is not a small role, it is the logistics the entire trade ran on. Every part was somebody's job. What did those people think they were? Hitler pulled the world into a war. What did he think he was?
 
 The self-description has never been the useful fact. What is being done, at what scale, and by how many, is. I wrote about this before and it holds: the secret-society talk is costume dressing, and arguing about the costume is exactly what the costume is for.
 

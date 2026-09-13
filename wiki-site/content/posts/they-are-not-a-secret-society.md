@@ -99,7 +99,7 @@ So answer in the [Commons](https://app.chargingthefuture.com), the group chat in
 
 New schemes get named from the same kind of description. When you log an incident and no scheme on the list fits, there is a "not listed" option that asks you to write what happened, and that writing is the intake that names new ones. It is limited to members holding the Weavers of the Commons badge, which keeps junk out of the naming queue rather than out of logging — logging itself is open to every approved member.
 
-Both of this week's additions started as plain descriptions of something the list had no word for. That is the whole mechanism. There is no committee.
+Both of this week's additions started as plain descriptions of something the list had no word for. There is no committee.
 
 ## Where to find it in the app
 

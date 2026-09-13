@@ -25,7 +25,7 @@ If the identity of the instigator varies and the method does not, then build aga
 
 That is the design of the Skills Economy. It never asks who put you on the list. It does not need a verdict, a name, or an agreed-upon theory before it can do anything for you. Work found through the Directory, help exchanged through Foundation, a vetted ride, a listing from a trauma-informed host — none of that depends on knowing who is behind your particular case.
 
-And it works on the one thing none of them are exempt from. They can pick any name they like, tell every one of us a different story, and rotate through as many groups as they want. They still cannot opt out of economics. That is the ground they operate on, and it is the ground we can take back — which is the whole argument of [the last post](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/economics-oppress-save).
+And it works on the one thing none of them are exempt from. They can pick any name they like, tell every one of us a different story, and rotate through as many groups as they want. They still cannot opt out of economics. That is the ground they operate on, and it is the ground we can take back. [The last post](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/economics-oppress-save) makes that case at length.
 
 Skills Economy. Exit their economy, exit the psyop.
 

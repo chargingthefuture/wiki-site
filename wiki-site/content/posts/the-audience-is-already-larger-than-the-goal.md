@@ -26,7 +26,7 @@ The stats row scrolls sideways on Quora, so the two images together are the scre
 
 That reading is from the evening of August 24, 2026. The figures move daily, so by the time you look they will read differently — the screen updates after 8:00 pm Eastern each day.
 
-Let me be precise about what that number is, because precision is the whole point of this post.
+Let me be precise about what that number is.
 
 A follow is not a member. It is not a sign-up, and it is not a person on the skills map. It is a person who saw this work and chose to keep seeing it. Evidence of reach, nothing more.
 

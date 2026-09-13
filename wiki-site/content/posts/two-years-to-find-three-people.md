@@ -22,7 +22,7 @@ One helped me get a job. The same person helped me not freeze to death. Another 
 
 Direct help, between people — none of it ran through an app, and no figure anywhere captures it. All three are listed in the Directory, and that is not a coincidence: a findable list of people and what they can do is how people like them get found at all.
 
-Three people, found the slow way, changed what my life is like. That is the whole case for everything that follows.
+Three people, found the slow way, changed what my life is like.
 
 ## What the two years were
 
