@@ -128,7 +128,7 @@ Three cohorts are open in SkillUp (https://app.chargingthefuture.com/apps/skill-
 - Construction Laborers
 - Cleaners / Janitorial
 
-Eleven seats left on each. Enrolling costs nothing.
+Eleven seats left on each. Enrolling holds a deposit of 50 credits, and you get every one of them back — they are returned to you as your trainer signs off each milestone, and if you leave the cohort the whole remaining hold comes back at once. So the course costs nothing in the end. What it asks for is 50 credits you can put down while you are in it.
 
 I did not pick those three. SkillUp generates its own cohort recommendations from the distance between what the skills map holds and what people are looking for, and those came back as the widest gaps. People are enrolling against them now, and nobody is scheduled to teach any of them.
 
@@ -143,6 +143,10 @@ Remote by default, because the cohorts are open globally — somebody who enroll
 In person is acceptable on one condition: it stays open to anybody who enrolled and cannot get to the room. A call running alongside it, a recording, a second sitting — whatever it takes. A cohort does not become a local one because the trainer is local.
 
 You do not need to be a professional instructor. You need to know the work well enough that somebody who does not can follow you.
+
+Two things the app checks rather than anybody approving you. Your own Directory listing has to carry a skill belonging to the occupation the cohort trains, and the listing has to be one you have claimed. That is the entire gate — a match between what you say you can do and what the cohort teaches, with nobody sitting in judgment of it.
+
+Training earns credits. A trainer receives 10 credits per learner each time they sign off a milestone, up to double that where the skills map shows the widest gap. Those credits are minted for the work. They are not taken out of what the learner put down, which comes back to the learner.
 
 Or nominate a trainer you know
 
@@ -159,6 +163,8 @@ That is the whole offer. Describe what would let you train more people, or train
 Where to find it in the app
 
 - SkillUp (https://app.chargingthefuture.com/apps/skill-up) — guide (https://app.chargingthefuture.com/guide#skill-up)
+- ServiceCredits (https://app.chargingthefuture.com/apps/service-credits) — guide (https://app.chargingthefuture.com/guide#service-credits)
+- Directory (https://app.chargingthefuture.com/apps/directory) — guide (https://app.chargingthefuture.com/guide#directory)
 - SkillsHunt (https://app.chargingthefuture.com/apps/skills-hunt) — guide (https://app.chargingthefuture.com/guide#skills-hunt)
 - Commons (https://app.chargingthefuture.com) — guide (https://app.chargingthefuture.com/guide#commons)
 
