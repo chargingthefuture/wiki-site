@@ -43,7 +43,7 @@ It is self-report. Nothing in it is checked against Quora, and it does not need 
 
 It will always be a floor rather than a full picture, for a reason worth naming: only someone who found their way to another platform can answer at all, and only someone willing to make a free account can submit one. So it counts people who kept going and were willing to sign up, and misses everyone who did not. Whatever number it eventually holds, the real one is larger.
 
-It also cannot say what share of Quora, or what share of Targeted Individuals, this represents. It can say how many removals were reported, by how many people, over what period. That is the whole claim, and I will not stretch it further.
+It also cannot say what share of Quora, or what share of Targeted Individuals, this represents. It can say how many removals were reported, by how many people, over what period, and I will not stretch it further.
 
 ## Why submitting asks for a sign-in
 

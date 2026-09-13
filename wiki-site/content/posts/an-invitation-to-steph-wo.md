@@ -27,7 +27,7 @@ Fine art is one of the 650. So is English. So is architectural drafting. So is t
 
 Not a support group, and not a place to describe the targeting again to people who already know. A directory profile states what you can do, in your own words, and other survivors find you by it. Someone needs a drafting eye on a plan. Someone wants to learn piano. Someone is looking for the person who can write the thing properly.
 
-That is the whole mechanism, and it is deliberately transactional. Traffickers do not provide material help — it is the one thing they consistently will not do — so a place organized around handing each other something real filters them out before anyone has to accuse anybody.
+The mechanism is deliberately transactional. Traffickers do not provide material help — it is the one thing they consistently will not do — so a place organized around handing each other something real filters them out before anyone has to accuse anybody.
 
 Which is the part of this that matters for a bio like that one. The skills were not lost. They were made unusable by the people around them. Put them somewhere those people are not, and they work again.
 

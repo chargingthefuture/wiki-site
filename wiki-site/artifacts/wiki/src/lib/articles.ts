@@ -2891,7 +2891,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/The-Specterati's-Money-Laundering-vs.-TI-Skills-Economy’s-circular-economy.md",
-    "teaser": "Money laundering hides where funds come from — layered transactions, shell companies, secrecy for personal gain. A circular economy is the opposite: skills and materials kept in use locally, in the open, for collective benefit. One runs on concealment, the other on visible, reciprocal exchange. That difference is the whole point of the Skills Economy."
+    "teaser": "Money laundering hides where funds come from — layered transactions, shell companies, secrecy for personal gain. A circular economy is the opposite: skills and materials kept in use locally, in the open, for collective benefit. One runs on concealment, the other on visible, reciprocal exchange. The Skills Economy is built on the second."
   },
   {
     "slug": "farah-brunache/is-moving-away-an-effective-way-to-stop-gang-stalking",

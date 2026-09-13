@@ -49,7 +49,7 @@ The survivors I have watched reach the worst endings — taking their own lives,
 
 I do not think that says anything about who those people were, and I want that understood clearly, because the accusation that we are dangerous is one already used against every one of us. I think it says what happens to a person when the harassment is inside the place they sleep, run in part by the people they depend on to eat, with no hour that is off and no door to close on it.
 
-Everyone else at least gets to go home. In this arrangement, home is where it is worst. That is the whole of my argument, and it is why I treat it as urgent rather than as one bad option among several.
+Everyone else at least gets to go home. In this arrangement, home is where it is worst. I treat it as urgent rather than as one bad option among several.
 
 ## The honest problem with saying that
 

@@ -55,7 +55,7 @@ Telling someone their situation does not define them is cruel if there is nowher
 
 You cannot hold that position from inside an empty room. You can hold it from inside a life — people who know what you are dealing with and do not need it explained, work that uses what you are good at, a hobby you were made to abandon and could pick up again.
 
-That is the whole reason this project is an economy rather than an awareness campaign. The catalog in the app holds 650 job titles and skills, because a working economy needs that many kinds of people, and survivors already are that many kinds of people. Whatever you trained in, whatever you were doing before this started, it is on that list somewhere. It does not have to wait for the targeting to end first. That is precisely the point — the waiting is what has to stop, not the targeting.
+This project is an economy rather than an awareness campaign for that reason. The catalog in the app holds 650 job titles and skills, because a working economy needs that many kinds of people, and survivors already are that many kinds of people. Whatever you trained in, whatever you were doing before this started, it is on that list somewhere. It does not have to wait for the targeting to end first. The waiting is what has to stop, not the targeting.
 
 ## You can choose an economy
 

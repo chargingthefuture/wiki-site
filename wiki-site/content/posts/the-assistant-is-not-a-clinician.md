@@ -43,7 +43,7 @@ It answers at any hour, because it does not keep hours.
 
 It does not treat a description of organized harassment as evidence that the person describing it is unwell. It answers from what Targeted Individuals have written about what happened to them and what they did about it — the practical part, from people who were there.
 
-That is the whole of the claim. It is a narrow claim and it is deliberately narrow.
+It is a narrow claim and it is deliberately narrow.
 
 ## What it is not, and what I am not
 
