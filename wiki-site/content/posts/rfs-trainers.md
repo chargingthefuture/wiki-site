@@ -41,7 +41,7 @@ Training earns credits. A trainer receives 10 credits per learner each time they
 
 ## Or nominate a trainer you know
 
-You do not have to be the one teaching. If you know somebody who could run one of these, nominate them in [SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt) — a name, where they are, what they can do. An accepted nomination grants the scout credits.
+You do not have to be the one teaching. If you know somebody who could run one of these, nominate them in [SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt) — a name, where they are, what they can do. If the nomination is accepted, you receive credits for it.
 
 They do not have to be a survivor, and they do not have to have an account. Most of the skills map was built by people naming somebody else.
 
