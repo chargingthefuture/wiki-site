@@ -3,7 +3,7 @@ title: "Request For Skills: trainers"
 date: "2026-08-29"
 excerpt: "Three cohorts are open and every one of them reads Trainer TBD. People are enrolling. Nobody is scheduled to teach them."
 category: "Community"
-teaser: "LevelUp is SkillUp now. Three cohorts are open in it — Journalists / Reporters, Construction Laborers, Cleaners / Janitorial — picked by the recommendations rather than by me, as the widest gaps between what the skills map holds and what people want. Eleven seats left on each, a 50-credit deposit that comes back to you, and all three read Trainer TBD. So this is a Request For Skills for trainers. You set the schedule and the cadence, and it runs remotely because the cohorts are open globally."
+teaser: "LevelUp is SkillUp now. Three cohorts are open in it — Journalists / Reporters, Construction Laborers, Cleaners / Janitorial — picked by the recommendations rather than by me, as the widest gaps between what the skills map holds and what people want. Seats are filling, the 50-credit deposit comes back to you, and all three read Trainer TBD. So this is a Request For Skills for trainers. You set the schedule and the cadence, and it runs remotely because the cohorts are open globally."
 topics:
   - community
   - education
@@ -19,7 +19,7 @@ Three cohorts are open in [SkillUp](https://app.chargingthefuture.com/apps/skill
 - Construction Laborers
 - Cleaners / Janitorial
 
-Eleven seats left on each. Enrolling holds a deposit of 50 credits, and you get every one of them back — they are returned to you as your trainer signs off each milestone, and if you leave the cohort the whole remaining hold comes back at once. So the course costs nothing in the end. What it asks for is 50 credits you can put down while you are in it.
+Seats are filling. Enrolling holds a deposit of 50 credits, and you get every one of them back — they are returned to you as your trainer signs off each milestone, and if you leave the cohort the whole remaining hold comes back at once. So the course costs nothing in the end. What it asks for is 50 credits you can put down while you are in it.
 
 I did not pick those three. SkillUp generates its own cohort recommendations from the distance between what the skills map holds and what people are looking for, and those came back as the widest gaps. People are enrolling against them now, and nobody is scheduled to teach any of them.
 

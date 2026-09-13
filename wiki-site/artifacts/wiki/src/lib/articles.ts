@@ -60,7 +60,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/rfs-trainers.md",
-    "teaser": "LevelUp is SkillUp now. Three cohorts are open in it — Journalists / Reporters, Construction Laborers, Cleaners / Janitorial — picked by the recommendations rather than by me, as the widest gaps between what the skills map holds and what people want. Eleven seats left on each, a 50-credit deposit that comes back to you, and all three read Trainer TBD. So this is a Request For Skills for trainers. You set the schedule and the cadence, and it runs remotely because the cohorts are open globally.",
+    "teaser": "LevelUp is SkillUp now. Three cohorts are open in it — Journalists / Reporters, Construction Laborers, Cleaners / Janitorial — picked by the recommendations rather than by me, as the widest gaps between what the skills map holds and what people want. Seats are filling, the 50-credit deposit comes back to you, and all three read Trainer TBD. So this is a Request For Skills for trainers. You set the schedule and the cadence, and it runs remotely because the cohorts are open globally.",
     "topics": [
       "community",
       "education"
