@@ -3,7 +3,7 @@ title: "An invitation to Janie"
 date: "2026-08-29"
 excerpt: "One of the three cohorts with no trainer is Cleaners / Janitorial. Janie manages cleaners. This is the invitation, in public, so she can decide in her own time."
 category: "Community"
-teaser: "The last post asked for trainers for three cohorts that have none. One of the three is Cleaners / Janitorial, and there is somebody already on the list who manages cleaners: Janie, in Atlanta, nominated into the Directory rather than signed up for it. She offered her skills in a Quora exchange on an account Quora has since deleted, which is exactly why the list exists somewhere the platform cannot reach. So this is the invitation, and it is not a favor being asked in one direction."
+teaser: "The last post asked for trainers for three cohorts that have none. One of the three is Cleaners / Janitorial, and there is somebody already on the list who manages cleaners: Janie, in Atlanta, nominated into the Directory rather than signed up for it. She offered her skills in a Quora exchange on an account Quora has since deleted — a platform's controls belong to somebody else, so the list sits out of reach. So this is the invitation, and it is not a favor being asked in one direction."
 topics:
   - community
   - education
@@ -21,11 +21,11 @@ Janie Spears (https://www.quora.com/profile/Janie-Spears-7), in Atlanta, Georgia
 
 She is a community-generated profile, which means she did not put herself there. I did, after she said what she could do. That is how most of the list was built.
 
-She said it in a Quora exchange, in a thread on my pedigree101 account. Quora deleted that account, so the exchange is gone from where it happened. Her profile is still up and the Directory entry still carries what she can do, which is the reason for keeping a list somewhere a platform cannot reach.
+She said it in a Quora exchange, in a thread on my pedigree101 account. Quora deleted that account, so the exchange is gone from where it happened. Her profile is still up and the Directory entry still carries what she can do. Every platform hands its controls to somebody else, which makes it somewhere a [Specterati operator](https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary) can work — so the list is kept somewhere no platform reaches.
 
 ## The invitation
 
-Janie, the Cleaners / Janitorial cohort has no trainer. You manage cleaners. You would be teaching people the thing you already do.
+[Janie](https://www.quora.com/profile/Janie-Spears-7), the Cleaners / Janitorial cohort has no trainer. You manage cleaners. You would be teaching people the thing you already do.
 
 The terms are in the [last post](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/rfs-trainers) and they are short. You set the schedule and the cadence. It runs remotely, because the people enrolling could be anywhere. You do not need to be a professional instructor — you need to know the work well enough that somebody who does not can follow you.
 

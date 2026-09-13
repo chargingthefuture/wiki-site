@@ -60,7 +60,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/an-invitation-to-janie.md",
-    "teaser": "The last post asked for trainers for three cohorts that have none. One of the three is Cleaners / Janitorial, and there is somebody already on the list who manages cleaners: Janie, in Atlanta, nominated into the Directory rather than signed up for it. She offered her skills in a Quora exchange on an account Quora has since deleted, which is exactly why the list exists somewhere the platform cannot reach. So this is the invitation, and it is not a favor being asked in one direction.",
+    "teaser": "The last post asked for trainers for three cohorts that have none. One of the three is Cleaners / Janitorial, and there is somebody already on the list who manages cleaners: Janie, in Atlanta, nominated into the Directory rather than signed up for it. She offered her skills in a Quora exchange on an account Quora has since deleted — a platform's controls belong to somebody else, so the list sits out of reach. So this is the invitation, and it is not a favor being asked in one direction.",
     "topics": [
       "community",
       "education"
