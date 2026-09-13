@@ -1,6 +1,6 @@
 ---
 title: "Dictionary: Skills Economy Terms"
-date: "2026-08-28"
+date: "2026-09-13"
 excerpt: "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record."
 category: "Resources"
 slug: Dictionary
@@ -14,6 +14,8 @@ topics:
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
 ## Latest changes
+
+2026-09-13 — Fireside added to the capability table: threaded conversation under the posts on this blog. Anyone can read it without an account. Writing needs one, and what somebody writes becomes publicly visible once they are approved through Unlock. Its guide section arrives with the next guide refresh; until then the row links to the app only.
 
 2026-08-28 — LevelUp is now called SkillUp. Only the name changed: it is the same skills-training cohorts, where you earn credits as you reach each milestone. Its address changed with it, from /apps/level-up to /apps/skill-up, and the old address no longer opens — an old bookmark needs replacing.
 
@@ -127,6 +129,7 @@ DEW — Directed Energy Weapon.
 | [Knowledge Library](https://app.chargingthefuture.com/knowledge) | Lend your own public writing so the assistant answers from more than one voice | [guide](https://app.chargingthefuture.com/guide#knowledge) |
 | [Contributions](https://app.chargingthefuture.com/apps/contributions) | Voluntary fundraiser drives with credit thank-you grants | [guide](https://app.chargingthefuture.com/guide#contributions) |
 | [Recurring Activity](https://app.chargingthefuture.com/apps/recurring-activity) | One-tap acknowledgment of an ongoing tie with another member — never a bill | [guide](https://app.chargingthefuture.com/guide#recurring-activity) |
+| [Fireside](https://app.chargingthefuture.com/apps/fireside) | Threaded conversation under the posts on the blog; read it without an account, write with one | guide section coming |
 | Mutual Time | Find a meeting time everyone can make | [guide](https://app.chargingthefuture.com/guide#mutual-time) |
 | Bug Reporting | In-app problem reports; raw text stays private, a human approves any fix | [guide](https://app.chargingthefuture.com/guide#bug-reporting) |
 
