@@ -37,6 +37,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-janie",
+    "title": "An invitation to Janie",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-13",
+    "excerpt": "One of the three cohorts with no trainer is Cleaners / Janitorial. Janie manages cleaners. This is the invitation, in public, so she can decide in her own time.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-janie.md",
+    "teaser": "The last post asked for trainers for three cohorts that have none. One of the three is Cleaners / Janitorial, and there is somebody already on the list who manages cleaners: Janie, in Atlanta, nominated into the Directory rather than signed up for it. She offered her skills in a Quora exchange on an account Quora has since deleted — a platform's controls belong to somebody else, so the list sits out of reach. So this is the invitation, and it is not a favor being asked in one direction.",
+    "topics": [
+      "community",
+      "education"
+    ]
+  },
+  {
     "slug": "rfs-trainers",
     "title": "Request For Skills: trainers",
     "repo": "chargingthefuture/wiki-site",
@@ -46,21 +61,6 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "posts",
     "path": "posts/rfs-trainers.md",
     "teaser": "LevelUp is SkillUp now. Three cohorts are open in it — Journalists / Reporters, Construction Laborers, Cleaners / Janitorial — picked by the recommendations rather than by me, as the widest gaps between what the skills map holds and what people want. Seats are filling, the 50-credit deposit comes back to you, and all three read Trainer TBD. So this is a Request For Skills for trainers. You set the schedule and the cadence, and it runs remotely because the cohorts are open globally.",
-    "topics": [
-      "community",
-      "education"
-    ]
-  },
-  {
-    "slug": "an-invitation-to-janie",
-    "title": "An invitation to Janie",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-29",
-    "excerpt": "One of the three cohorts with no trainer is Cleaners / Janitorial. Janie manages cleaners. This is the invitation, in public, so she can decide in her own time.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/an-invitation-to-janie.md",
-    "teaser": "The last post asked for trainers for three cohorts that have none. One of the three is Cleaners / Janitorial, and there is somebody already on the list who manages cleaners: Janie, in Atlanta, nominated into the Directory rather than signed up for it. She offered her skills in a Quora exchange on an account Quora has since deleted — a platform's controls belong to somebody else, so the list sits out of reach. So this is the invitation, and it is not a favor being asked in one direction.",
     "topics": [
       "community",
       "education"

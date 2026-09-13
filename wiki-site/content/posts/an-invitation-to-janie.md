@@ -1,6 +1,6 @@
 ---
 title: "An invitation to Janie"
-date: "2026-08-29"
+date: "2026-09-13"
 excerpt: "One of the three cohorts with no trainer is Cleaners / Janitorial. Janie manages cleaners. This is the invitation, in public, so she can decide in her own time."
 category: "Community"
 teaser: "The last post asked for trainers for three cohorts that have none. One of the three is Cleaners / Janitorial, and there is somebody already on the list who manages cleaners: Janie, in Atlanta, nominated into the Directory rather than signed up for it. She offered her skills in a Quora exchange on an account Quora has since deleted — a platform's controls belong to somebody else, so the list sits out of reach. So this is the invitation, and it is not a favor being asked in one direction."
