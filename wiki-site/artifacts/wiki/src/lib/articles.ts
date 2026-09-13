@@ -40,7 +40,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "rfs-trainers",
     "title": "Request For Skills: trainers",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-29",
+    "date": "2026-09-13",
     "excerpt": "Three cohorts are open and every one of them reads Trainer TBD. People are enrolling. Nobody is scheduled to teach them.",
     "category": "Community",
     "collection": "posts",
