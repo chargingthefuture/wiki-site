@@ -49,7 +49,7 @@ They do not have to be a survivor, and they do not have to have an account. Most
 
 If you would run a cohort but the tooling would not carry what you want to do, say so in the [Commons group chat](https://app.chargingthefuture.com) and I will build it.
 
-That is the whole offer. Describe what would let you train more people, or train them better, and it gets built.
+Describe what would let you train more people, or train them better, and it gets built.
 
 ## Where to find it in the app
 
