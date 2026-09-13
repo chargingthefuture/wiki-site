@@ -31,7 +31,7 @@ You set the schedule and the cadence. Not me, and not the app.
 
 Remote by default, because the cohorts are open globally — somebody who enrolls is as likely to be five time zones away as five miles. Run it inside the app or on whatever video tool you already use. The app does not care which one, and I am not going to recommend one.
 
-In person is acceptable on one condition: it stays open to anybody who enrolled and cannot get to the room. A call running alongside it, a recording, a second sitting — whatever it takes. A cohort does not become a local one because the trainer is local.
+In person is acceptable on one condition: it stays open to anybody who enrolled and cannot be there in person. A call running alongside it, a recording, a second sitting — whatever it takes. A cohort does not become a local one because the trainer is local.
 
 You do not need to be a professional instructor. You need to know the work well enough that somebody who does not can follow you.
 
