@@ -5,6 +5,7 @@ import { ArrowLeft, Clock, Calendar, AlertTriangle, Archive } from "lucide-react
 import { Layout } from "@/components/Layout";
 import { ShareLink } from "@/components/ShareLink";
 import { MarkdownRenderer } from "@/components/MarkdownRenderer";
+import { FiresideConversation } from "@/components/FiresideConversation";
 import { AppLoading } from "@/components/AppLoading";
 import { useArticle } from "@/hooks/use-article";
 import { useReadCounter } from "@/hooks/use-counter";
@@ -177,6 +178,8 @@ export default function Article() {
                 <MarkdownRenderer content={content || ""} repo={repo} />
               </div>
             </div>
+
+            <FiresideConversation repo={repo} slug={slug} title={meta ? meta.title : ""} />
 
             {/* Author / End block */}
             <div className="mt-16 flex items-center justify-between border-t-4 border-dashed border-gray-800 pt-8">
