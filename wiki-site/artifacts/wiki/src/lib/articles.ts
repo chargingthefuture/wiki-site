@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "whats-your-one-percent",
+    "title": "What's Your 1%?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-14",
+    "excerpt": "A new Workforce tab runs the economy math backwards, for you. One percent of five million is 50,000 people. At $5 each that is $250,000.",
+    "category": "Product",
+    "collection": "posts",
+    "path": "posts/whats-your-one-percent.md",
+    "teaser": "Workforce tells you what a population of five million would look like. It never told you what you could do inside it, and a lot of people read the whole screen and conclude none of it is about them. The new tab starts from one percent — 50,000 people — and works back to the person serving them. At $5 a head that is $250,000 a year, three and a half times the average. It is weighted to your trade, because a plumber and a physiotherapist are not interchangeable. And no trade reaches 50,000 people one job at a time, so the tab names the five ways the same skill gets there.",
+    "topics": [
+      "product",
+      "economy",
+      "model"
+    ]
+  },
+  {
     "slug": "what-i-missed-about-everything-on-the-blockchain",
     "title": "What I Missed About Wanting Everything On the Blockchain",
     "repo": "chargingthefuture/wiki-site",
@@ -64,22 +80,6 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "community",
       "security"
-    ]
-  },
-  {
-    "slug": "whats-your-one-percent",
-    "title": "What's Your 1%?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-14",
-    "excerpt": "A new Workforce tab runs the economy math backwards, for you. One percent of five million is 50,000 people. At $5 each that is $250,000.",
-    "category": "Product",
-    "collection": "posts",
-    "path": "posts/whats-your-one-percent.md",
-    "teaser": "Workforce tells you what a population of five million would look like. It never told you what you could do inside it, and a lot of people read the whole screen and conclude none of it is about them. The new tab starts from one percent — 50,000 people — and works back to the person serving them. At $5 a head that is $250,000 a year, three and a half times the average. No trade reaches 50,000 people one job at a time, so the tab also names the five ways the same skill gets there.",
-    "topics": [
-      "product",
-      "economy",
-      "model"
     ]
   },
   {

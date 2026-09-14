@@ -3,7 +3,7 @@ title: "What's Your 1%?"
 date: "2026-09-14"
 excerpt: "A new Workforce tab runs the economy math backwards, for you. One percent of five million is 50,000 people. At $5 each that is $250,000."
 category: "Product"
-teaser: "Workforce tells you what a population of five million would look like. It never told you what you could do inside it, and a lot of people read the whole screen and conclude none of it is about them. The new tab starts from one percent — 50,000 people — and works back to the person serving them. At $5 a head that is $250,000 a year, three and a half times the average. No trade reaches 50,000 people one job at a time, so the tab also names the five ways the same skill gets there."
+teaser: "Workforce tells you what a population of five million would look like. It never told you what you could do inside it, and a lot of people read the whole screen and conclude none of it is about them. The new tab starts from one percent — 50,000 people — and works back to the person serving them. At $5 a head that is $250,000 a year, three and a half times the average. It is weighted to your trade, because a plumber and a physiotherapist are not interchangeable. And no trade reaches 50,000 people one job at a time, so the tab names the five ways the same skill gets there."
 topics:
   - product
   - economy
@@ -39,6 +39,20 @@ So the new tab starts from the other end. One percent of five million is 50,000 
 You do not have to believe a forecast. Find the row closest to what you already charge one person, once, and read across.
 
 Five dollars. Not five dollars an hour, five dollars a year, from one person, once. That is a quarter of a million dollars and it is three and a half times the average contributor in a country people hold up as a model economy. One percent puts an ordinary trade at the level the wider economy reserves for its top performers.
+
+## Why it is not the same screen for everybody
+
+That table is a reference. It would be dishonest as an answer, because trades are not interchangeable and a screen that hands a plumber and a physiotherapist the same number is not telling either of them anything.
+
+So two things weight it to you.
+
+The first the app works out on its own. It already models how many people doing your job a population of five million needs — that is what the Workforce screen has always been for. Turn that around and you get how many people one of you serves when your trade is staffed normally. For some trades that is a few hundred people. For others it is tens of thousands. Then it tells you how far 1% is beyond that: forty times your trade's normal load, or five times, depending on what you do. That gap is not hidden, because the gap is what the five routes are for.
+
+I want to be exact about the limit on that, because it is real. The skills map carries a weight for each sector and not yet for each job title inside one. So it separates trades in different sectors properly, and two jobs inside the same sector currently land on the same figure. The screen says so where it shows the number. It will sharpen when the map carries a weight per job rather than per sector.
+
+The second weight the app cannot work out, so it asks. How often does one person need you in a year? A hairdresser and a roofer do not have the same answer and no table in my app knows either of them. You type what you charge for one job and how often one person needs you, and it computes your own row. Less than once a year is fine — once every two years, once a decade, whatever your trade actually is.
+
+Nothing you type is saved. It is not sent anywhere, it is not stored, and it is gone when you reload. It is a calculator, not a form.
 
 I am not forecasting anybody's income and the screen says so plainly. These are speculative figures on a stated share of a population estimate. What actually happens takes talent and work and luck in some combination, and no screen hands you those.
 
@@ -86,6 +100,20 @@ The skill did not go anywhere. A plumber who was driven out of work is still a p
 
 And you can rebuild. Not get it back — rebuild, which is a different and slower thing, and which is what the routes above are for.
 
+## The ceiling is not a modest one
+
+I have used a plumber throughout because trades make the math legible. It is not the limit.
+
+You could be a social media influencer. An athlete. A tech founder. You could reach the same scale of success as the accepted members of the psyop — the people whose position came with the arrangement, who are where they are because they went along with it.
+
+The difference is that you would do it without grifting.
+
+Their version required participating in trafficking. It required somebody to be worked, and somebody to be kept in place, and a person willing not to look at either. That is the entry fee, and it is why so many of the people at that level are so obviously hollow up close.
+
+Yours does not require that. Reaching 50,000 people by being good at something, and being paid by them, has no one in it who had to be harmed. The scale is the same. The thing underneath it is not.
+
+So when the arithmetic on that screen looks large, that is not the app flattering you. That is what reaching a lot of people is worth when nobody had to be trafficked for you to reach them.
+
 ## About mourning the life you had
 
 You are allowed to grieve it. It was real, you built it, and it was taken.
@@ -118,7 +146,7 @@ The tab opens with a card, and the card is you. Your initials, your name, your t
 
 It is yours only. Nobody else sees it, you cannot look anybody else up, and there is no score on it, no rank, and nobody to be above or below. If you have not claimed your Directory listing yet, the card says so and asks you to — it will not invent a name and a trade for you.
 
-Underneath it is the table. Underneath that, the five routes.
+Underneath it is what your trade normally carries, then the two boxes for your own numbers, then the reference table, then the five routes.
 
 There is nothing else on it. It does not ask you to do anything and it does not applaud you. It does the arithmetic and leaves it on the screen.
 
