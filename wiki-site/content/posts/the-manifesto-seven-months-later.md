@@ -27,13 +27,13 @@ That gap between 41 and 97 is not people who declined. This community is in trau
 
 ## What has moved in seven months
 
-People. In mid-January, 36 people had signed up and there was no skills map. Today: 41 approved members, 97 people recruited onto the map, and 453 followers on the Quora space.
+People. In mid-January, 36 people had signed up and there was no skills map. On August 18: 41 approved members, 97 people recruited onto the map, and 453 followers on the Quora space.
 
-The map. In January the idea existed and the instrument did not. Today the app carries the full catalog of the roughly 650 skills a working economy needs, and the 97 recruited cover 158 of them. About a quarter of the list is covered, and each of those 158 came from a real person with a real trade.
+The map. In January the idea existed and the instrument did not. On August 18 the app carries the full catalog of the roughly 650 skills a working economy needs, and the 97 recruited cover 158 of them. About a quarter of the list is covered, and each of those 158 came from a real person with a real trade.
 
 The capacity. At Singapore's published output per worker, the 97 people on the map represent $13.8 million a year — what this group holds if every one of them participated. The app computes it live on the Workforce screen, and it tracks the actuals of the signed-up members separately, so potential and actual never get blurred. The derivation is written out in plain language here: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-the-math-works
 
-The record itself. In January, the writing lived on platforms that could erase it — and they did, three accounts' worth. Today every post lives on this blog with a timestamped history, the feed carries the short version of all of it, and a platform deletion costs one line on one page. The thing you are reading survived precisely because of what got built between January and now.
+The record itself. In January, the writing lived on platforms that could erase it — and they did, three accounts' worth. On August 18 every post lives on this blog with a timestamped history, the feed carries the short version of all of it, and a platform deletion costs one line on one page. The thing you are reading survived precisely because of what got built between January and now.
 
 ## The shape of these updates
 

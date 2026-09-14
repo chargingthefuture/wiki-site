@@ -9,7 +9,7 @@ topics:
   - planning
 ---
 
-Earlier today I published [the case for a gated community and who could plan one](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/a-gated-community-and-who-could-plan-it). This post is about the part of that conversation that deserves its own page: threats, and what serious people do about them.
+Earlier today, August 25, 2026, I published [the case for a gated community and who could plan one](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/a-gated-community-and-who-could-plan-it). This post is about the part of that conversation that deserves its own page: threats, and what serious people do about them.
 
 ## Objections are not the problem
 

@@ -9,7 +9,7 @@ topics:
   - economy
 ---
 
-Yesterday I wrote about [the two-generation goal](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-two-generation-goal) — what the Du Bois cohort did in one generation, and what this community could do in two. This one is for the parents. Specifically for Targeted Individuals (TIs) raising children who are targeted too.
+On August 26, 2026 I wrote about [the two-generation goal](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-two-generation-goal) — what the Du Bois cohort did in one generation, and what this community could do in two. This one is for the parents. Specifically for Targeted Individuals (TIs) raising children who are targeted too.
 
 ## The part nobody has taken yet
 

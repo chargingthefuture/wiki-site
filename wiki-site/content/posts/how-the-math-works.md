@@ -37,7 +37,7 @@ Now the dollar figure. Singapore publishes what one worker in a pure skills econ
 
 That figure is what our listed skills are worth at the output rate of the best skills economies on earth. A group small enough to fit in one room already holds that much capacity — listed, mapped, and findable. Every day of profile work, every skill added, every request posted moves it.
 
-This is the Workforce screen in the app, today:
+This is the Workforce screen in the app on August 17, 2026:
 
 ![Workforce overview: 5,000,000 population baseline, 2,000,000 workforce at 40 percent participation, 97 recruited, 24 percent skills coverage — 158 of 650 skills — and a $13.8 million GDP potential](images/workforce-overview-2026-08-17.jpeg)
 

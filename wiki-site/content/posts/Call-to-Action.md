@@ -1,14 +1,14 @@
 ---
 title: My call to action — Join the TI Skills Economy
 date: "2026-01-21"
-excerpt: One of the Specterati walked up to me this morning and said, “you know there is a camera?” As I stood underneath one while on my phone.
+excerpt: One of the Specterati walked up to me on the morning of January 21, 2026 and said, “you know there is a camera?” As I stood underneath one while on my phone.
 category: Community
 slug: Call-to-Action
 repo: chargingthefuture/chargingthefuture
 teaser: "One of the Specterati walked up to me and said, 'you know there is a camera?' Cameras do not matter — their economy does. They can do what they do because we feed it: our attention and our transactions. I am asking survivors to stop participating in that economy and join the one we run ourselves: work, housing, rides, and trade among people who are not in it."
 ---
 
-One of the Specterati walked up to me this morning and said, “you know there is a camera?” As I stood underneath one while on my phone.
+One of the Specterati walked up to me on the morning of January 21, 2026 and said, “you know there is a camera?” As I stood underneath one while on my phone.
 
 If cameras mattered the Specterati would not do street theatre. Sure in isolation a clip gives them plausible deniability of being co-conspirators of genocide, human trafficking, affiliation to street gangs, etc. But not of their everyday crimes.
 
