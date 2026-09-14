@@ -37,6 +37,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "what-i-missed-about-everything-on-the-blockchain",
+    "title": "What I Missed About Wanting Everything On the Blockchain",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-14",
+    "excerpt": "I thought putting every app on a blockchain was tunnel vision. Living under 24/7 targeting showed me a second reason somebody might want it.",
+    "category": "Philosophy",
+    "collection": "posts",
+    "path": "posts/what-i-missed-about-everything-on-the-blockchain.md",
+    "teaser": "Years ago I argued that crypto is useful for money and unnecessary for running an app — nobody needs a blockchain to book a room. I still mostly think that. What I missed is that some people asking for it were not maximalists at all. They wanted a system with no lever in it for anybody to pull. I learned that by building one, and by watching somebody ask me for the lever.",
+    "topics": [
+      "philosophy",
+      "architecture"
+    ]
+  },
+  {
     "slug": "nobody-calls-to-say-its-dead",
     "title": "Nobody Calls to Tell You Your Project Is Dead",
     "repo": "chargingthefuture/wiki-site",
@@ -45,7 +60,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/nobody-calls-to-say-its-dead.md",
-    "teaser": "Yesterday somebody on the app called to tell me it is dead, that nobody is on it, and that they are getting nothing out of it. In the same call they asked me to ask them to stay, and asked for advanced permissions so they could help bring people in — having brought nobody. A person who genuinely finds a thing empty just stops opening it. Here is what that call was, why the app gives someone like that so little to work with, and why a community built without stealing anybody does not fill up on command.",
+    "teaser": "Somebody on the app called to tell me it is dead, that nobody is on it, and that they are getting nothing out of it. In the same call they asked me to ask them to stay, and asked for advanced permissions so they could help bring people in — having brought nobody. A person who genuinely finds a thing empty just stops opening it. Here is what that call was, why the app gives someone like that so little to work with, and why a community built without stealing anybody does not fill up on command.",
     "topics": [
       "community",
       "security"
