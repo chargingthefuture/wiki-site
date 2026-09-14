@@ -546,7 +546,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/they-are-not-a-secret-society.md",
-    "teaser": "Two lines went into the Dictionary today. The first is that \"secret society\" is their own brag and is wrong by definition — a secret society hides who belongs to it, and these people advertise themselves to their targets constantly, because the signaling is the harassment. The second is collective amusement: the reason the days are scheduled and graded is that a group is watching, and the audience is the point. Both definitions are open for argument, and I would rather be corrected by survivors than be confidently wrong in public.",
+    "teaser": "Two lines went into the Dictionary on August 21, 2026. The first is that \"secret society\" is their own brag and is wrong by definition — a secret society hides who belongs to it, and these people advertise themselves to their targets constantly, because the signaling is the harassment. The second is collective amusement: the reason the days are scheduled and graded is that a group is watching, and the audience is the point. Both definitions are open for argument, and I would rather be corrected by survivors than be confidently wrong in public.",
     "topics": [
       "dictionary",
       "specterati"

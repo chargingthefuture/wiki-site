@@ -3,13 +3,13 @@ title: "They Are Not a Secret Society"
 date: "2026-08-21"
 excerpt: "A secret society hides its membership and purpose. These people announce themselves to their targets all day long. Two new Dictionary entries, and I want survivors to tell me whether they are right."
 category: "Community"
-teaser: "Two lines went into the Dictionary today. The first is that \"secret society\" is their own brag and is wrong by definition — a secret society hides who belongs to it, and these people advertise themselves to their targets constantly, because the signaling is the harassment. The second is collective amusement: the reason the days are scheduled and graded is that a group is watching, and the audience is the point. Both definitions are open for argument, and I would rather be corrected by survivors than be confidently wrong in public."
+teaser: "Two lines went into the Dictionary on August 21, 2026. The first is that \"secret society\" is their own brag and is wrong by definition — a secret society hides who belongs to it, and these people advertise themselves to their targets constantly, because the signaling is the harassment. The second is collective amusement: the reason the days are scheduled and graded is that a group is watching, and the audience is the point. Both definitions are open for argument, and I would rather be corrected by survivors than be confidently wrong in public."
 topics:
   - dictionary
   - specterati
 ---
 
-Two lines went into the [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary) today. Both are about what these people are, rather than what they do, and both are open for argument. That second part is the reason for this post.
+Two lines went into the [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary) on August 21, 2026. Both are about what these people are, rather than what they do, and both are open for argument. That second part is the reason for this post.
 
 ## "Secret society" is their own brag
 
