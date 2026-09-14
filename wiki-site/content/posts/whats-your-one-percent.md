@@ -38,15 +38,15 @@ So the new tab starts from the other end. One percent of five million is 50,000 
 
 You do not have to believe a forecast. Find the row closest to what you already charge one person, once, and read across.
 
-Five dollars. Not five dollars an hour, five dollars a year, from one person, once. That is a quarter of a million dollars and it is three and a half times the average contributor in a country people hold up as a model economy. One percent puts an ordinary trade at the level the wider economy reserves for its top performers.
+Five dollars. Not five dollars an hour, five dollars a year, from one person, once. That is a quarter of a million dollars. Three and a half times the average contributor in a country people hold up as a model economy. One percent puts an ordinary trade at the level the wider economy reserves for its top performers.
 
 ## Why it is not the same screen for everybody
 
-That table is a reference. It would be dishonest as an answer, because trades are not interchangeable and a screen that hands a plumber and a physiotherapist the same number is not telling either of them anything.
+That table is a reference. As an answer it would be dishonest. Trades are not interchangeable. A screen that hands a plumber and a physiotherapist the same number tells neither of them anything.
 
 So two things weight it to you.
 
-The first the app works out on its own. It already models how many people doing your job a population of five million needs — that is what the Workforce screen has always been for. Turn that around and you get how many people one of you serves when your trade is staffed normally. For some trades that is a few hundred people. For others it is tens of thousands. Then it tells you how far 1% is beyond that: forty times your trade's normal load, or five times, depending on what you do. That gap is not hidden, because the gap is what the five routes are for.
+The first the app works out on its own. It already models how many people doing your job a population of five million needs. That is what the Workforce screen has always been for. Turn that around and you get how many people one of you serves when your trade is staffed normally. For some trades that is a few hundred people. For others it is tens of thousands. Then it tells you how far 1% is beyond that: forty times your trade's normal load, or five times, depending on what you do. That gap is not hidden, because the gap is what the five routes are for.
 
 I want to be exact about the limit on that, because it is real. The skills map carries a weight for each sector and not yet for each job title inside one. So it separates trades in different sectors properly, and two jobs inside the same sector currently land on the same figure. The screen says so where it shows the number. It will sharpen when the map carries a weight per job rather than per sector.
 
@@ -104,7 +104,7 @@ And you can rebuild. Not get it back — rebuild, which is a different and slowe
 
 I have used a plumber throughout because trades make the math legible. It is not the limit.
 
-You could be a social media influencer. An athlete. A tech founder. You could reach the same scale of success as the accepted members of the psyop — the people whose position came with the arrangement, who are where they are because they went along with it.
+You could be a social media influencer. An athlete. A tech founder. You could reach the same scale of success as the accepted members of the psyop. Their position came with the arrangement. They are where they are because they went along with it.
 
 The difference is that you would do it without grifting.
 
@@ -118,25 +118,25 @@ So when the arithmetic on that screen looks large, that is not the app flatterin
 
 You are allowed to grieve it. It was real, you built it, and it was taken.
 
-I am not going to tell anybody how long that should take or what it ought to look like, and I have no opinion about how somebody carries it. Grief is not an obstacle to work around and it is not a character flaw. It is the correct response to a loss.
+I am not going to tell anybody how long that should take, or what it ought to look like. I have no opinion about how somebody carries it. Grief is not an obstacle to work around and it is not a character flaw. It is the correct response to a loss.
 
-What I will say is that the grief and the rebuilding are not in competition. Nobody has to be finished with the first before starting the second, and nobody is required to feel good about anything in order to list a skill.
+What I will say is that the grief and the rebuilding are not in competition. Nobody has to be finished with the first before starting the second. Nobody has to feel good about anything to list a skill.
 
 ## An agent of anything advocates for it
 
 Here is a thing worth having in your head the next time somebody tells you what you deserve.
 
-A car salesperson believes you deserve the car. They will tell you so, with feeling, and they are not lying exactly — they work for the dealership, so the car is what they have to offer and wanting you to have it is the job. A grocery chain believes everybody deserves groceries. Their groceries. A recruiter believes you deserve a better role, which is one on their books.
+A car salesperson believes you deserve the car. They will tell you so, with feeling, and they are not lying exactly. They work for the dealership. The car is what they have to offer, and wanting you to have it is the job. A grocery chain believes everybody deserves groceries. Their groceries. A recruiter believes you deserve a better role, which is one on their books.
 
 Everyone selling something argues that you deserve the thing they are selling. That is not a moral position. It is a sales position, and once you see the shape of it you see it everywhere.
 
 Now apply it.
 
-When somebody tells a survivor they deserve what is being done to them, that is the same move. Not an assessment. Advocacy for their own operation. They are agents of trafficking, so the product they push is trafficking, and they push it the way every agent pushes what they have — by telling you that you deserve it.
+When somebody tells a survivor they deserve what is being done to them, that is the same move. Not an assessment. Advocacy for their own operation. They are agents of trafficking, so trafficking is the product they push. They push it the way every agent does: by telling you that you deserve it.
 
-One of them wrote to me. A person who calls themselves a happiness coach, Rebecca L. Warrington, emailed me to say they enjoy this.
+One of them wrote to me. A person who calls themselves a happiness coach, Rebecca L. Norrington, emailed me to say they enjoy this.
 
-A happiness coach. That is the self-description, published, alongside an email saying they enjoy watching a person be targeted. A coach in that trade is meant to have exactly one product, and they were selling the other thing while wearing the label of the first.
+A happiness coach. That is the self-description, published, alongside an email saying they enjoy watching a person be targeted. A coach in that trade is meant to have exactly one product. They were selling the other thing while wearing the label of the first.
 
 So: nothing they told you about your worth is information about you. It is a pitch. You can decline it the same way you decline any other pitch, which is by noticing who benefits.
 
@@ -144,7 +144,7 @@ So: nothing they told you about your worth is information about you. It is a pit
 
 The tab opens with a card, and the card is you. Your initials, your name, your trade, and the skills from your Directory listing laid out like a playing card.
 
-It is yours only. Nobody else sees it, you cannot look anybody else up, and there is no score on it, no rank, and nobody to be above or below. If you have not claimed your Directory listing yet, the card says so and asks you to — it will not invent a name and a trade for you.
+It is yours only. Nobody else sees it. You cannot look anybody else up. There is no score, no rank, and nobody to be above or below. If you have not claimed your Directory listing yet, the card says so and asks you to. It will not invent a name and a trade for you.
 
 Underneath it is what your trade normally carries, then the two boxes for your own numbers, then the reference table, then the five routes.
 
