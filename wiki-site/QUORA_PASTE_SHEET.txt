@@ -2296,3 +2296,17 @@ When you change the variable and the outcome does not move, the variable was not
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/old-links-new-links
 
 ------------------------------------------------------------------------------
+
+UPDATE · 2026-09-13 · Dictionary — Fireside added to the capability list
+
+There is now a place to talk underneath a post on my blog, and it belongs to the app rather than to a platform. It is called Fireside, and it is in the Dictionary's capability list as of today.
+
+Reading it takes no account. Anyone who lands on a post can read every comment under it, which is the opposite of how Quora works — there you cannot read a thing without logging in.
+
+Writing takes an account, and what somebody writes becomes publicly visible once they are approved. Approval reaches backwards: the moment I approve a person, everything they have already written appears at once.
+
+The reason for building it is plain enough. Comments on Quora cannot be searched and cannot be bookmarked, and when an account goes, its comments go with it. Mine have gone eleven times. A comment left under a post on my own site stays where the post is, and anybody can find it later.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary
+
+------------------------------------------------------------------------------
