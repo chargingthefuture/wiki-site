@@ -1,6 +1,6 @@
 ---
 title: "Dictionary: Skills Economy Terms"
-date: "2026-09-13"
+date: "2026-09-14"
 excerpt: "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record."
 category: "Resources"
 slug: Dictionary
@@ -14,6 +14,8 @@ topics:
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
 ## Latest changes
+
+2026-09-14 — TI Radio added to the capability table: a published schedule of live discussions members host in Chyme, at app.chargingthefuture.com/ti-radio. Reading it needs no account, which makes it the second page here that does not gate reading. Hosting needs an approved account; a member takes an empty 90-minute slot and writes what it is about. A listing is not an endorsement — a slot is taken, not granted, nobody reviews a description first, and the app's own card says so. Its guide section arrives with the next guide refresh; until then the row links to the app only. The name is also the one exception to the rule below that TI is not part of a product name.
 
 2026-09-13 — Fireside added to the capability table: threaded conversation under the posts on this blog. Anyone can read it without an account. Writing needs one, and what somebody writes becomes publicly visible once they are approved through Unlock. Its guide section arrives with the next guide refresh; until then the row links to the app only.
 
@@ -34,6 +36,8 @@ This is a living page. It is kept current, and its date moves it to the top of t
 Charging The Future — the organization and umbrella brand. Use the full name when referring to the company or mission.
 
 Skills Economy (SE) — the product: the apps, community tools, and economic infrastructure built for survivors. Earlier writing says "TI Skills Economy" or "TSE"; those names are retired, and old posts keep them as historical record.
+
+TI Radio — the one product name that keeps "TI" in it, and the only exception to the retirement above (owner decision, 2026-09-14). It is named for the Quora space at tiradio.quora.com that it was built to serve, and people arriving from there need to find the same name on both sides. Consistency for somebody crossing over is worth more here than the naming rule. Do not read it as a reopening: every other product name drops TI, and a second exception is the owner's decision rather than a precedent this one sets.
 
 Survivors — the default word for the people here, in the app and in writing. Preferred over "victims" everywhere except legal or statutory references.
 
@@ -130,6 +134,7 @@ DEW — Directed Energy Weapon.
 | [Contributions](https://app.chargingthefuture.com/apps/contributions) | Voluntary fundraiser drives with credit thank-you grants | [guide](https://app.chargingthefuture.com/guide#contributions) |
 | [Recurring Activity](https://app.chargingthefuture.com/apps/recurring-activity) | One-tap acknowledgment of an ongoing tie with another member — never a bill | [guide](https://app.chargingthefuture.com/guide#recurring-activity) |
 | [Fireside](https://app.chargingthefuture.com/apps/fireside) | Threaded conversation under the posts on the blog; read it without an account, write with one | guide section coming |
+| [TI Radio](https://app.chargingthefuture.com/ti-radio) | A published schedule of live discussions members host in Chyme; read it without an account, host with one | guide section coming |
 | Mutual Time | Find a meeting time everyone can make | [guide](https://app.chargingthefuture.com/guide#mutual-time) |
 | Bug Reporting | In-app problem reports; raw text stays private, a human approves any fix | [guide](https://app.chargingthefuture.com/guide#bug-reporting) |
 
