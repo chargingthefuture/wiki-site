@@ -86,11 +86,35 @@ carries it, because the owner froze that page outright and that freeze has not b
 | `pnpm wiki:spelling` | Fail on any British spelling outside `content/archive/` |
 | `pnpm wiki:sync` | Regenerate `articles.ts` from the index |
 | `pnpm wiki:sync:dry` | Preview sync changes |
+| `pnpm fireside:sync` | Copy the Fireside comments the app has cleared for publication into `artifacts/wiki/src/lib/fireside-exports.ts` |
+| `pnpm fireside:sync:dry` | Preview that copy without writing |
 | `pnpm wiki:preview` | Local dev server (http://localhost:5000) |
 | `pnpm wiki:build` | Build (base `/`) |
 | `pnpm wiki:build:pages` | GitHub Pages build (base `/chargingthefuture/` + 404.html) |
 
 Full operator runbook: [wiki-site/PUBLISHING.md](wiki-site/PUBLISHING.md).
+
+## Fireside Comments in the Build (owner decision, 2026-09-13)
+
+Fireside is the conversation under each post. Reading it needs no account; writing happens in the
+app. The section renders from two sources and the difference matters.
+
+The live read from `app.chargingthefuture.com` shows the whole conversation and is what most
+readers see. It is fetched after the page loads, so it is not in the published build and not in
+what a web archive captures.
+
+`artifacts/wiki/src/lib/fireside-exports.ts` is the part that ships inside the build. A comment
+reaches it only when its author asked for it and an admin agreed — two people, and neither is
+enough alone, because this build is captured and cannot be recalled by anybody, this project
+included. The app decides which comments qualify; `pnpm fireside:sync` copies what its export feed
+returns and makes no judgment of its own.
+
+Run it by hand, read the diff, then commit. It is deliberately not part of the deploy workflow:
+that diff is the last point at which a comment can still be stopped, and a job that publishes text
+permanently without a person seeing it first is exactly what the two-key rule exists to prevent.
+
+Never hand-edit the generated file, and never add a filter to the sync script. If a comment is
+appearing that should not, the decision to change is in the app.
 
 ## US Spelling (enforced by CI)
 

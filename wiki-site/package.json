@@ -12,6 +12,8 @@
     "wiki:spelling": "node scripts/check-us-spelling.mjs",
     "wiki:sync": "pnpm --filter @workspace/scripts run sync-articles",
     "wiki:sync:dry": "pnpm --filter @workspace/scripts run sync-articles:dry",
+    "fireside:sync": "pnpm --filter @workspace/scripts run sync-fireside-exports",
+    "fireside:sync:dry": "pnpm --filter @workspace/scripts run sync-fireside-exports:dry",
     "wiki:convert:discourse": "pnpm --filter @workspace/scripts run convert:discourse",
     "wiki:convert:quora": "pnpm --filter @workspace/scripts run convert:quora",
     "wiki:preview": "PORT=5000 BASE_PATH=/ pnpm --filter @workspace/wiki run dev",
