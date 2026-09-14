@@ -60,7 +60,7 @@ Singapore runs a pure skills economy and publishes its numbers. Take its total o
 
 A hundred people exchanging full time at that rate is about $14.3 million a year moving between them.
 
-The app runs this calculation live, and today it happens to be sitting at exactly this number:
+The app runs this calculation live, and on August 25, 2026 it happens to be sitting at exactly this number:
 
 ![Four tiles: Population 5,000,000, survivor population baseline; Workforce Total 2,000,000, 40% participation; Recruited 100, 0% of goal; Skills Coverage 24%, 159 of 650 skills. Below them, the Skills Economy Summary card: "With 100 people recruited, we have reached 24% of the skills potential of an independent nation state like Finland, Estonia, or Singapore — equating to $14.3 million in GDP potential. That means each individual contributing $142,500 in GDP, and earning upwards of $71,250." The card's own note underneath: "These figures are speculative, not actuals, and this summary is the only place in the app where GDP is stated in US dollars. The Skills Economy has no intention of forming a nation state — this is a baseline for understanding economics at the scale of upwards of 5 million people."](images/workforce-math-at-100-2026-08-25.jpg)
 

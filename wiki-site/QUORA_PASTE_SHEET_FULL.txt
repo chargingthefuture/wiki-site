@@ -1121,7 +1121,7 @@ Every number on this blog is checkable, so here is the economy on the day commun
 
 [Screenshot — The ServiceCredits Economy screen. "ServiceCredits are usable across the plugins. They are not money and cannot be cashed out." In circulation 4,136. Total issued 4,437. Total burned 301. Held in treasury, no figure shown. On community credit 0. Moving, 30-day velocity, 0.00. Sent in last 30 days 0.]
 
-On community credit: 0. The line opened today, so that is where it starts. The screen is live in the app, and it will read differently the next time you look.
+On community credit: 0. The line opened on August 27, 2026, so that is where it starts. The screen is live in the app, and it will read differently the next time you look.
 
 Using credits is optional
 
@@ -1151,7 +1151,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-si
 ==============================================================================
 2026-08-27 · Your children can have an option
 
-Yesterday I wrote about the two-generation goal (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-two-generation-goal) — what the Du Bois cohort did in one generation, and what this community could do in two. This one is for the parents. Specifically for Targeted Individuals (TIs) raising children who are targeted too.
+On August 26, 2026 I wrote about the two-generation goal (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-two-generation-goal) — what the Du Bois cohort did in one generation, and what this community could do in two. This one is for the parents. Specifically for Targeted Individuals (TIs) raising children who are targeted too.
 
 The part nobody has taken yet
 
@@ -1278,11 +1278,11 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-si
 ==============================================================================
 2026-08-26 · Seven more psyop-free games
 
-Farah's Arcade grew today: https://chargingthefuture.github.io/arcade/
+Farah's Arcade grew on August 26, 2026: https://chargingthefuture.github.io/arcade/
 
 The arcade calls itself "a small, honest home for free, open-source, offline-first games — with no ads, no tracking, and no harassment," and every word of that is checkable: each game carries a Play link and a Source link side by side, and the code is public. No ads, ever — nothing to buy, no nag screens. No accounts, no analytics, no cookies. Offline-first means a game loads once and then plays with no signal — on a phone with no data plan, on a bus, wherever you are.
 
-The seven added today
+The seven added on August 26
 
 - 2048 — slide the numbered tiles together; two that match combine into one worth double.
 - Snake — steer a snake that grows every time it eats. Do not hit the wall, and do not run into yourself.
@@ -1518,7 +1518,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-si
 ==============================================================================
 2026-08-25 · Every community has a threat model
 
-Earlier today I published the case for a gated community and who could plan one (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/a-gated-community-and-who-could-plan-it). This post is about the part of that conversation that deserves its own page: threats, and what serious people do about them.
+Earlier today, August 25, 2026, I published the case for a gated community and who could plan one (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/a-gated-community-and-who-could-plan-it). This post is about the part of that conversation that deserves its own page: threats, and what serious people do about them.
 
 Objections are not the problem
 
@@ -1618,7 +1618,7 @@ Singapore runs a pure skills economy and publishes its numbers. Take its total o
 
 A hundred people exchanging full time at that rate is about $14.3 million a year moving between them.
 
-The app runs this calculation live, and today it happens to be sitting at exactly this number:
+The app runs this calculation live, and on August 25, 2026 it happens to be sitting at exactly this number:
 
 [Screenshot — Four tiles: Population 5,000,000, survivor population baseline; Workforce Total 2,000,000, 40% participation; Recruited 100, 0% of goal; Skills Coverage 24%, 159 of 650 skills. Below them, the Skills Economy Summary card: "With 100 people recruited, we have reached 24% of the skills potential of an independent nation state like Finland, Estonia, or Singapore — equating to $14.3 million in GDP potential. That means each individual contributing $142,500 in GDP, and earning upwards of $71,250." The card's own note underneath: "These figures are speculative, not actuals, and this summary is the only place in the app where GDP is stated in US dollars. The Skills Economy has no intention of forming a nation state — this is a baseline for understanding economics at the scale of upwards of 5 million people."]
 
@@ -1939,7 +1939,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-si
 ==============================================================================
 2026-08-24 · The Assistant Is Not a Clinician
 
-Yesterday I asked people to lend their writing to the Knowledge Library, and explained what it is: a private assistant for Targeted Individuals that answers from the writing of people who have lived this.
+On August 23, 2026 I asked people to lend their writing to the Knowledge Library, and explained what it is: a private assistant for Targeted Individuals that answers from the writing of people who have lived this.
 
 Ione (https://www.quora.com/profile/Ione-40) replied, and the reply was the right one.
 
@@ -2359,7 +2359,7 @@ The people using it include violent criminals and people using drugs. I am not s
 
 Which is why the showers cannot be locked from the inside. Staff need to be able to open a door, and given who is in the building that policy has a real reason behind it. The reason being real is exactly what makes it usable against someone.
 
-Yesterday
+August 20, 2026
 
 An employee keyed me into a shower. I undressed. Immediately after, an employee opened the door and exposed me, completely, to a man standing there. He was not undressed. He laughed.
 
@@ -2391,7 +2391,7 @@ Why I think this is the substitute
 
 They have run honeypots at me for several decades. I have not kept count and the number is not small for the time involved. I have never engaged with one, and they have never managed to sexually assault or rape me. Other survivors have not been so fortunate.
 
-So they go to the next best option. That is what yesterday was. The exposure is not a separate interest of theirs that happened to surface — it is what is left when the thing they were working toward does not happen.
+So they go to the next best option. That is what August 20 was. The exposure is not a separate interest of theirs that happened to surface — it is what is left when the thing they were working toward does not happen.
 
 Whether the honeypot belongs in the same category
 
@@ -2625,7 +2625,7 @@ Collective amusement
 
 The second entry names why so much of it happens at all: a group is watching, and the group is entertained.
 
-The worked example is a scheme named today, The Good Day, Bad Day. Days get scheduled — a particular weekday made reliably bad, the day after left alone, weekends a favorite. You learn the shape and start dreading a specific day before anything has happened on it. The anticipation does the work, which is cheaper for them than the day itself.
+The worked example is a scheme named on August 21, 2026, The Good Day, Bad Day. Days get scheduled — a particular weekday made reliably bad, the day after left alone, weekends a favorite. You learn the shape and start dreading a specific day before anything has happened on it. The anticipation does the work, which is cheaper for them than the day itself.
 
 Then the grading. Operatives ask how your day was. Good day? Bad day? Bad weekend? And the verdict comes back to you in phrases no bystander could object to — "have a good day", "hope you had a good weekend" — delivered pointedly, right after a day they arranged to be bad.
 
@@ -2897,7 +2897,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-si
 ==============================================================================
 2026-08-20 · Transactional on Purpose
 
-One of them got in front of me today and circled, the way they do — cutting across your path, stopping short, making you walk around them. It is a standing routine. You cannot press charges for it, which is the point of choosing it: repeatedly stepping in front of someone is not assault. My read is that it exists to agitate, and nothing more.
+One of them got in front of me on August 20, 2026 and circled, the way they do — cutting across your path, stopping short, making you walk around them. It is a standing routine. You cannot press charges for it, which is the point of choosing it: repeatedly stepping in front of someone is not assault. My read is that it exists to agitate, and nothing more.
 
 Then came the line. I look ridiculous carrying self-defense items.
 
@@ -2937,7 +2937,7 @@ Where to start
 
 Open the app and the first screen is Commons, the group chat. Ask anything there — how people handle a specific scheme, what they carry, what has actually helped with the mental health side of this. The icon next to it, the four squares, is Apps, and every app behind it is built around a different kind of exchange.
 
-Today's incident is also the kind of thing ClickLog exists for. A dated entry makes what happened a record instead of a memory, and a tagged one adds to a map that shows where this is happening. And if verbal harassment of that sort is what wears you down, note that you do not have to transact with people like that at all. That is the other half of what the filter buys you.
+The August 20 incident is also the kind of thing ClickLog exists for. A dated entry makes what happened a record instead of a memory, and a tagged one adds to a map that shows where this is happening. And if verbal harassment of that sort is what wears you down, note that you do not have to transact with people like that at all. That is the other half of what the filter buys you.
 
 Where to find it in the app
 
@@ -3426,13 +3426,13 @@ That gap between 41 and 97 is not people who declined. This community is in trau
 
 What has moved in seven months
 
-People. In mid-January, 36 people had signed up and there was no skills map. Today: 41 approved members, 97 people recruited onto the map, and 453 followers on the Quora space.
+People. In mid-January, 36 people had signed up and there was no skills map. On August 18: 41 approved members, 97 people recruited onto the map, and 453 followers on the Quora space.
 
-The map. In January the idea existed and the instrument did not. Today the app carries the full catalog of the roughly 650 skills a working economy needs, and the 97 recruited cover 158 of them. About a quarter of the list is covered, and each of those 158 came from a real person with a real trade.
+The map. In January the idea existed and the instrument did not. On August 18 the app carries the full catalog of the roughly 650 skills a working economy needs, and the 97 recruited cover 158 of them. About a quarter of the list is covered, and each of those 158 came from a real person with a real trade.
 
 The capacity. At Singapore's published output per worker, the 97 people on the map represent $13.8 million a year — what this group holds if every one of them participated. The app computes it live on the Workforce screen, and it tracks the actuals of the signed-up members separately, so potential and actual never get blurred. The derivation is written out in plain language here: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-the-math-works
 
-The record itself. In January, the writing lived on platforms that could erase it — and they did, three accounts' worth. Today every post lives on this blog with a timestamped history, the feed carries the short version of all of it, and a platform deletion costs one line on one page. The thing you are reading survived precisely because of what got built between January and now.
+The record itself. In January, the writing lived on platforms that could erase it — and they did, three accounts' worth. On August 18 every post lives on this blog with a timestamped history, the feed carries the short version of all of it, and a platform deletion costs one line on one page. The thing you are reading survived precisely because of what got built between January and now.
 
 The shape of these updates
 
@@ -3590,7 +3590,7 @@ Now the dollar figure. Singapore publishes what one worker in a pure skills econ
 
 That figure is what our listed skills are worth at the output rate of the best skills economies on earth. A group small enough to fit in one room already holds that much capacity — listed, mapped, and findable. Every day of profile work, every skill added, every request posted moves it.
 
-This is the Workforce screen in the app, today:
+This is the Workforce screen in the app on August 17, 2026:
 
 [Screenshot — Workforce overview: 5,000,000 population baseline, 2,000,000 workforce at 40 percent participation, 97 recruited, 24 percent skills coverage — 158 of 650 skills — and a $13.8 million GDP potential]
 
@@ -3728,7 +3728,7 @@ Everything I have written says the same thing about employers, landlords, and an
 
 This is exactly why the app exists and why none of it sits on top of a platform. Accounts get deleted. That is a known thing that happens to people in this situation, which is why the app is the fallback and not the other way around. Your profile, your skills, and the people who can reach you do not live on somebody else’s shelf.
 
-Nothing about the network changed today. The profiles are still there. The skills are still listed. The requests are still open, and there are still more people asking than answering.
+Nothing about the network changed on August 16. The profiles are still there. The skills are still listed. The requests are still open, and there are still more people asking than answering.
 
 If you are reading this, you found it some other way. That is the entire point.
 

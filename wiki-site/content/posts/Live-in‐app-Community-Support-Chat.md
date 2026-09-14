@@ -1,7 +1,7 @@
 ---
 title: "New Feature: Live in-app Community Support Chat"
 date: "2026-02-15"
-excerpt: As seen in the weekly app stats, as of today, 57 people have signed up, with only 32 of them having provided their Quora handle. Therefore, there are 25 people...
+excerpt: As seen in the weekly app stats, as of February 15, 2026, 57 people have signed up, with only 32 of them having provided their Quora handle. Therefore, there are 25 people...
 category: Community
 slug: Live-in‐app-Community-Support-Chat
 repo: chargingthefuture/chargingthefuture
@@ -10,7 +10,7 @@ teaser: "25 people signed up but got stuck before using a single feature. So the
 
 # New Feature: Live in-app Community Support Chat
 
-As seen in the weekly app stats, as of today, 57 people have signed up, with only 32 of them having provided their Quora handle. Therefore, there are 25 people who signed up but cannot use any features of the app. It seems as though they are having an issue discovering what their Quora handle/profile is.
+As seen in the weekly app stats, as of February 15, 2026, 57 people have signed up, with only 32 of them having provided their Quora handle. Therefore, there are 25 people who signed up but cannot use any features of the app. It seems as though they are having an issue discovering what their Quora handle/profile is.
 
 <img width="886" alt="Screenshot 2026-02-15 11 44 11 AM" src="https://github.com/user-attachments/assets/f1270158-15c6-4838-a923-ddf2cf7ef372" />
 

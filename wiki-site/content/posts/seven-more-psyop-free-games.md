@@ -3,16 +3,16 @@ title: "Seven more psyop-free games"
 date: "2026-08-26"
 excerpt: "Farah's Arcade now holds fourteen games — free, open-source, offline-first, with no ads, no tracking, and no harassment."
 category: "Community"
-teaser: "Farah's Arcade added seven games today: 2048, Snake, Breakout, Space Invaders, Pong, Gem Match, and Word Wheel — fourteen games now, every one free, open-source, and offline-first. No ads ever, no tracking, no accounts, no cookies. A game loads once and then plays with no signal. Every game carries a Source link beside its Play link, so the no-ads and no-tracking claims are checkable in the code rather than taken on trust."
+teaser: "Farah's Arcade added seven games on August 26, 2026: 2048, Snake, Breakout, Space Invaders, Pong, Gem Match, and Word Wheel — fourteen games now, every one free, open-source, and offline-first. No ads ever, no tracking, no accounts, no cookies. A game loads once and then plays with no signal. Every game carries a Source link beside its Play link, so the no-ads and no-tracking claims are checkable in the code rather than taken on trust."
 topics:
   - community
 ---
 
-Farah's Arcade grew today: https://chargingthefuture.github.io/arcade/
+Farah's Arcade grew on August 26, 2026: https://chargingthefuture.github.io/arcade/
 
 The arcade calls itself "a small, honest home for free, open-source, offline-first games — with no ads, no tracking, and no harassment," and every word of that is checkable: each game carries a Play link and a Source link side by side, and the code is public. No ads, ever — nothing to buy, no nag screens. No accounts, no analytics, no cookies. Offline-first means a game loads once and then plays with no signal — on a phone with no data plan, on a bus, wherever you are.
 
-## The seven added today
+## The seven added on August 26
 
 - 2048 — slide the numbered tiles together; two that match combine into one worth double.
 - Snake — steer a snake that grows every time it eats. Do not hit the wall, and do not run into yourself.

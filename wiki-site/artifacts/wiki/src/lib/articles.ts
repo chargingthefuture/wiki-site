@@ -271,7 +271,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/seven-more-psyop-free-games.md",
-    "teaser": "Farah's Arcade added seven games today: 2048, Snake, Breakout, Space Invaders, Pong, Gem Match, and Word Wheel — fourteen games now, every one free, open-source, and offline-first. No ads ever, no tracking, no accounts, no cookies. A game loads once and then plays with no signal. Every game carries a Source link beside its Play link, so the no-ads and no-tracking claims are checkable in the code rather than taken on trust.",
+    "teaser": "Farah's Arcade added seven games on August 26, 2026: 2048, Snake, Breakout, Space Invaders, Pong, Gem Match, and Word Wheel — fourteen games now, every one free, open-source, and offline-first. No ads ever, no tracking, no accounts, no cookies. A game loads once and then plays with no signal. Every game carries a Source link beside its Play link, so the no-ads and no-tracking claims are checkable in the code rather than taken on trust.",
     "topics": [
       "community"
     ]
@@ -576,7 +576,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/a-safe-place-to-shower.md",
-    "teaser": "I was mobbed out of work and out of housing, and my businesses were driven to zero equity, so I shower in a day facility used by violent criminals and people using drugs, where the showers cannot be locked from the inside. Yesterday an employee keyed me in, and the moment I had undressed a door was opened and I was exposed to a man standing there, who laughed. ClickLog gained two things this week to name that: a problem tag for sexual violence, and a scheme called The Staged Exposure. I think it is what they reach for when the honeypots do not work, and I think honeypotting belongs in the same category — though I do not know what a lawyer or a clinician would call it.",
+    "teaser": "I was mobbed out of work and out of housing, and my businesses were driven to zero equity, so I shower in a day facility used by violent criminals and people using drugs, where the showers cannot be locked from the inside. On August 20, 2026 an employee keyed me in, and the moment I had undressed a door was opened and I was exposed to a man standing there, who laughed. ClickLog gained two things this week to name that: a problem tag for sexual violence, and a scheme called The Staged Exposure. I think it is what they reach for when the honeypots do not work, and I think honeypotting belongs in the same category — though I do not know what a lawyer or a clinician would call it.",
     "topics": [
       "clicklog",
       "safety"
@@ -2617,7 +2617,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "New Feature: Live in-app Community Support Chat",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2026-02-15",
-    "excerpt": "As seen in the weekly app stats, as of today, 57 people have signed up, with only 32 of them having provided their Quora handle. Therefore, there are 25 people...",
+    "excerpt": "As seen in the weekly app stats, as of February 15, 2026, 57 people have signed up, with only 32 of them having provided their Quora handle. Therefore, there are 25 people...",
     "category": "Community",
     "collection": "posts",
     "path": "posts/Live-in‐app-Community-Support-Chat.md",
@@ -2628,7 +2628,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "New Mini-App: Mood",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2026-02-15",
-    "excerpt": "Before today, within GentlePulse, you could report on your mood. Based on the community's usage, I have moved mood ratings out of GentlePulse and into its own ...",
+    "excerpt": "Before February 15, 2026, within GentlePulse, you could report on your mood. Based on the community's usage, I have moved mood ratings out of GentlePulse and into its own ...",
     "category": "Community",
     "collection": "posts",
     "path": "posts/New-Mini‐App:-Mood.md",
@@ -2983,7 +2983,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "My call to action — Join the TI Skills Economy",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2026-01-21",
-    "excerpt": "One of the Specterati walked up to me this morning and said, “you know there is a camera?” As I stood underneath one while on my phone.",
+    "excerpt": "One of the Specterati walked up to me on the morning of January 21, 2026 and said, “you know there is a camera?” As I stood underneath one while on my phone.",
     "category": "Community",
     "collection": "posts",
     "path": "posts/Call-to-Action.md",

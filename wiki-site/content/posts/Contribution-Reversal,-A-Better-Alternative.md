@@ -13,7 +13,7 @@ I made this post last week, announcing a price increase:
 
 But I have thought of a new idea.
 
-Today, the Specterati sent a letter denying me public assistance, stating that I am actively receiving benefits in a different state and did not disclose which state I am allegedly receiving benefits from. In addition to this lie, they stated I visited their office this week in person, which did not happen, and also did not disclose who I allegedly met with and what topic was discussed.
+On March 15, 2026, the Specterati sent a letter denying me public assistance, stating that I am actively receiving benefits in a different state and did not disclose which state I am allegedly receiving benefits from. In addition to this lie, they stated I visited their office this week in person, which did not happen, and also did not disclose who I allegedly met with and what topic was discussed.
 
 This was yet another reminder I need to keep the contribution ask low, as difficult as it is for me. It is just as difficult for all other TIs. And so I am reversing the above announcement.
 

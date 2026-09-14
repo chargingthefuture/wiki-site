@@ -1,7 +1,7 @@
 ---
 title: "New Mini-App: Mood"
 date: "2026-02-15"
-excerpt: Before today, within GentlePulse, you could report on your mood. Based on the community's usage, I have moved mood ratings out of GentlePulse and into its own ...
+excerpt: Before February 15, 2026, within GentlePulse, you could report on your mood. Based on the community's usage, I have moved mood ratings out of GentlePulse and into its own ...
 category: Community
 slug: New-Mini‐App:-Mood
 repo: chargingthefuture/chargingthefuture
@@ -10,7 +10,7 @@ teaser: "Mood ratings now have their own mini-app, moved out of GentlePulse base
 
 # New Mini-App: Mood
 
-Before today, within GentlePulse, you could report on your mood. Based on the community's usage, I have moved mood ratings out of GentlePulse and into its own mini-app, called Mood. Its features remain the same: it is anonymous and individual responses are not sold or shared with third parties. I strictly use it to gauge how I am doing on building a product to improve your mental health and your economic stability.
+Before February 15, 2026, within GentlePulse, you could report on your mood. Based on the community's usage, I have moved mood ratings out of GentlePulse and into its own mini-app, called Mood. Its features remain the same: it is anonymous and individual responses are not sold or shared with third parties. I strictly use it to gauge how I am doing on building a product to improve your mental health and your economic stability.
 
 <img width="1163" alt="Screenshot 2026-02-15 6 22 49 PM" src="https://github.com/user-attachments/assets/1c7e344f-4e12-4e93-ae3d-457c9f2cb864" />
 

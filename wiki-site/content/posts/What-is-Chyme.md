@@ -8,7 +8,7 @@ repo: chargingthefuture/mono
 teaser: "Chyme is live drop-in audio for survivors — rooms by topic, a stage for speakers, an audience that can raise a hand and join. Moderators control the stage; nothing is recorded by default. Every member can host their own rooms. It is where the community talks in real time."
 ---
 
-Marketing page of the Chyme room I created for today’s Town Hall:
+Marketing page of the Chyme room I created for the Town Hall on January 3, 2026:
 [https://app.chargingthefuture.com/apps/chyme/room/43d5333a-1c86-462a-b600-7fbb3ccca285](https://app.chargingthefuture.com/apps/chyme/room/43d5333a-1c86-462a-b600-7fbb3ccca285)
 
 All members of the TI Skills Economy have access to this dedicated product/app. And you can host your own rooms.
