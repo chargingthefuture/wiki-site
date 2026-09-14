@@ -45,7 +45,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/nobody-calls-to-say-its-dead.md",
-    "teaser": "Yesterday somebody on the app called to tell me it is dead, that nobody is on it, and that they are getting nothing out of it. In the same call they asked me to ask them to stay, and asked for advanced permissions so they could help bring people in — having brought nobody. A person who genuinely finds a thing empty just stops opening it. Here is what that call was, why the app gives someone like that so little to work with, and why a community built without stealing anybody does not fill up on command.",
+    "teaser": "Somebody on the app called to tell me it is dead, that nobody is on it, and that they are getting nothing out of it. In the same call they asked me to ask them to stay, and asked for advanced permissions so they could help bring people in — having brought nobody. A person who genuinely finds a thing empty just stops opening it. Here is what that call was, why the app gives someone like that so little to work with, and why a community built without stealing anybody does not fill up on command.",
     "topics": [
       "community",
       "security"

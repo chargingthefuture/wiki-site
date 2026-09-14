@@ -3,13 +3,13 @@ title: "Nobody Calls to Tell You Your Project Is Dead"
 date: "2026-09-14"
 excerpt: "A member called to say the app is empty and worthless, asked me to ask them to stay, and asked for admin access. Three tells in one call."
 category: "Community"
-teaser: "Yesterday somebody on the app called to tell me it is dead, that nobody is on it, and that they are getting nothing out of it. In the same call they asked me to ask them to stay, and asked for advanced permissions so they could help bring people in — having brought nobody. A person who genuinely finds a thing empty just stops opening it. Here is what that call was, why the app gives someone like that so little to work with, and why a community built without stealing anybody does not fill up on command."
+teaser: "Somebody on the app called to tell me it is dead, that nobody is on it, and that they are getting nothing out of it. In the same call they asked me to ask them to stay, and asked for advanced permissions so they could help bring people in — having brought nobody. A person who genuinely finds a thing empty just stops opening it. Here is what that call was, why the app gives someone like that so little to work with, and why a community built without stealing anybody does not fill up on command."
 topics:
   - community
   - security
 ---
 
-Yesterday I had a conversation with somebody on the app who I had already concluded was a Specterati operator. I had been keeping our contact short for a while. They kept asking for phone calls that turned out to be about nothing, and after enough of those I stopped treating the requests as ordinary.
+On Thursday, September 10, I had a conversation with somebody on the app who I had already concluded was a Specterati operator. I had been keeping our contact short for a while. They kept asking for phone calls that turned out to be about nothing, and after enough of those I stopped treating the requests as ordinary.
 
 They asked for another call. On it, they told me the app is dead. Nobody is on it. They are getting no value from it.
 
