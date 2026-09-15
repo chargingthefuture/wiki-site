@@ -18,6 +18,13 @@ import { Layout } from "@/components/Layout";
 // in UTC. The time zone carries no meaning beyond where the organizer happens to be.
 const START = Date.UTC(2026, 8, 18, 23, 0, 0);
 
+// The instant the goal was reached, once it is. Null until then, and the clock keeps running.
+//
+// There is no figure to read this from. Whether a survivor can get nearly everything they need from
+// other survivors is a judgment somebody makes by looking, not a number a screen can total up, so it
+// is set here by hand on the day and the clock stops at whatever it read.
+const REACHED: number | null = null;
+
 const APP = "https://app.chargingthefuture.com";
 const LINKS = {
   tiRadio: `${APP}/ti-radio`,
@@ -27,6 +34,18 @@ const LINKS = {
   game: "https://chargingthefuture.github.io/offline-os/apps/peace-battle-2/",
 };
 
+// The reached date, written in Eastern so it matches the start line above it. Taken from the
+// timestamp rather than typed by hand, so setting REACHED is the only edit the day needs.
+function easternDate(ms: number): string {
+  return new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/New_York",
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+  }).format(new Date(ms));
+}
+
 function parts(ms: number) {
   const s = Math.max(0, Math.floor(ms / 1000));
   return {
@@ -35,6 +54,34 @@ function parts(ms: number) {
     minutes: Math.floor((s % 3600) / 60),
     seconds: s % 60,
   };
+}
+
+/**
+ * Elapsed time since the start, as whole calendar years plus the remainder.
+ *
+ * Years are counted by moving the start date forward a year at a time rather than dividing by a
+ * fixed number of days, so a leap year does not put the figure a day out. Years are only reported
+ * once there is at least one, which keeps the row the same four cells it was during the countdown
+ * for the whole of the first year.
+ */
+function elapsed(from: number, to: number) {
+  const start = new Date(from);
+  let years = 0;
+  let mark = from;
+  for (;;) {
+    const next = Date.UTC(
+      start.getUTCFullYear() + years + 1,
+      start.getUTCMonth(),
+      start.getUTCDate(),
+      start.getUTCHours(),
+      start.getUTCMinutes(),
+      start.getUTCSeconds(),
+    );
+    if (next > to) break;
+    mark = next;
+    years += 1;
+  }
+  return { years, ...parts(to - mark) };
 }
 
 function Cell({ value, label }: { value: number; label: string }) {
@@ -51,20 +98,37 @@ function Cell({ value, label }: { value: number; label: string }) {
 function Countdown() {
   const [now, setNow] = useState(() => Date.now());
   useEffect(() => {
+    if (REACHED !== null) return;
     const id = window.setInterval(() => setNow(Date.now()), 1000);
     return () => window.clearInterval(id);
   }, []);
 
+  // Three states, one row of cells. Before the start it counts down to it; after the start it counts
+  // up from it, which is the figure the page exists to carry — how long this took. When the goal is
+  // reached the same row freezes at the time it took and stops ticking.
+  //
+  // The current date and time are deliberately not printed. Every device already shows them, a second
+  // clock is one more thing that can read wrong to somebody outside Eastern, and the elapsed figure
+  // is the only one that answers the question. The start date sits underneath as fixed text instead,
+  // which anchors the number without moving.
   if (now >= START) {
-    const days = Math.floor((now - START) / 86400000);
+    const stopped = REACHED !== null;
+    const { years, days, hours, minutes, seconds } = elapsed(START, stopped ? (REACHED as number) : now);
     return (
-      <div className="border-4 border-primary bg-black comic-shadow-sm px-6 py-6 text-center">
-        <div className="font-heading text-sm uppercase tracking-widest text-primary mb-2">Under way</div>
-        <div className="font-display text-3xl sm:text-5xl text-white leading-tight">
-          Day {days + 1}
+      <div>
+        <div className="font-heading text-center uppercase tracking-widest text-sm text-primary mb-3">
+          {stopped ? "It took" : "Since it started"}
         </div>
-        <p className="font-sans text-gray-400 mt-3">
-          Peace Battle 2 started on Friday, September 18, 2026 at 7:00 PM Eastern. It is running now.
+        <div className="flex gap-2 sm:gap-4 justify-center flex-wrap">
+          {years > 0 && <Cell value={years} label={years === 1 ? "Year" : "Years"} />}
+          <Cell value={days} label="Days" />
+          <Cell value={hours} label="Hours" />
+          <Cell value={minutes} label="Minutes" />
+          <Cell value={seconds} label="Seconds" />
+        </div>
+        <p className="font-heading text-center uppercase tracking-widest text-sm text-gray-400 mt-4">
+          Started Friday, September 18, 2026 · 7:00 PM Eastern
+          {stopped ? ` · reached ${easternDate(REACHED as number)}` : ""}
         </p>
       </div>
     );
@@ -73,6 +137,9 @@ function Countdown() {
   const { days, hours, minutes, seconds } = parts(START - now);
   return (
     <div>
+      <div className="font-heading text-center uppercase tracking-widest text-sm text-primary mb-3">
+        Until it starts
+      </div>
       <div className="flex gap-2 sm:gap-4 justify-center flex-wrap">
         <Cell value={days} label="Days" />
         <Cell value={hours} label="Hours" />
