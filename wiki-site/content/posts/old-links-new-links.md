@@ -81,7 +81,7 @@ https://www.quora.com/profile/kingfree-2 — opened at 12:54 in the afternoon on
 
 https://www.quora.com/profile/kingfreeing
 
-https://www.quora.com/profile/kingcard
+https://www.quora.com/profile/kingcard — opened at 2:57 in the afternoon on September 3, 2026, and banned by Quora Moderation at 3:02. Five minutes and twelve seconds, the shortest on this page. The notice arrived twice, nine seconds apart.
 
 https://www.quora.com/profile/kingfire-7 — banned by Quora Moderation at 4:24 in the morning on September 7, 2026. It was opened at 6:36 in the morning, on a day the notice in hand does not name; the ban puts that no later than September 6.
 
@@ -137,7 +137,7 @@ Worth recording, because it is the part that settles the question.
 
 Each of these accounts ran a different content strategy. That was deliberate. One posted at volume. One posted twice in its entire life — two short summaries with a link back here, no reposting, no back catalog. Others sat between. Exactly one of them ever received a warning, and I changed how I posted after it.
 
-Some did not last long enough to have a strategy at all. The shortest was kingdone: five minutes, opened at 5:48 one morning and banned at 5:53. The two either side of it that same morning lasted six minutes and fifty-one. The handle kingsroad was opened to replace the account banned the day before, and was banned the next day. Then kingsyou replaced kingsroad, and was banned the next day. Whatever is deciding this is not reading the posts, because in those two cases there was almost nothing to read.
+Some did not last long enough to have a strategy at all. The shortest was kingcard, at five minutes and twelve seconds. kingdone ran nine seconds longer, and the two either side of kingdone that same morning lasted six minutes and fifty-one. The handle kingsroad was opened to replace the account banned the day before, and was banned the next day. Then kingsyou replaced kingsroad, and was banned the next day. Whatever is deciding this is not reading the posts, because in those two cases there was almost nothing to read.
 
 They ended the same way regardless, and the reason given is the same boilerplate every time: financial gain and spam. Neither is true.
 
