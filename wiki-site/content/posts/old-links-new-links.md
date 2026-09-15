@@ -1,9 +1,9 @@
 ---
 title: "Old links, new links"
 date: "2026-09-15"
-excerpt: "Forty-six Quora accounts erased, one space renamed, and no handle there now. What is dead, and the one address that does not change."
+excerpt: "Forty-six Quora accounts erased, one space renamed, and one handle open again. What is live, what is dead, and the one address that does not change."
 category: "Community"
-teaser: "Quora has erased my accounts forty-six times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. There is no handle of mine on Quora now. This page is the standing record: the space, the dead handles, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
+teaser: "Quora has erased my accounts forty-six times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. One handle is open again as of today. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
 topics:
   - publishing
   - platform-independence
@@ -11,7 +11,7 @@ topics:
 
 Quora has erased my accounts forty-six times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
 
-There is no handle of mine on Quora now. The last one was erased and I have not opened another.
+There is one handle of mine on Quora, opened today. Everything before it is dead.
 
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
@@ -25,13 +25,13 @@ Bookmark the blog, not any platform. Platform posts are excerpts and links back 
 
 To reach me, save this link alongside the blog: https://sleek.bio/farah — it lists every current way to contact me, and it gets updated the same way this page does.
 
-## Quora: no handle, one space
+## Quora: current
+
+The handle: https://www.quora.com/profile/kingcue — opened at 11:56 in the morning on September 15, 2026.
 
 The space: https://skillseconomy.quora.com
 
-There is no handle. Every one has been erased and I have not opened another.
-
-So if an account claims to be me on Quora right now, it is not me — there is nothing for it to be. If an account or space claims to speak for the Skills Economy and is not on this page, it is not me either. Check back here, not on Quora, because this page cannot be edited by anyone but me and every change to it is on the public record.
+A handle and a space, and nothing else on Quora is me. If another account claims to be, it is not. If an account or space claims to speak for the Skills Economy and is not on this page, it is not me either. Check back here, not on Quora, because this page cannot be edited by anyone but me and every change to it is on the public record.
 
 ## Quora: dead
 
@@ -167,6 +167,4 @@ The old GitHub wiki — an inactive mirror. It no longer receives updates; this 
 
 Nothing is written on a platform first anymore. Every post starts here, and platforms only ever get a short version and a link back. So the next time an account is erased — and I assume there will be a next time — the cost is one entry moving from the current list to the dead list on this page. That is all.
 
-Since this page first went up, that has happened forty-four times. The list above is current.
-
-What has changed is that there is no longer an entry to move into the current list. Opening the next one is a decision I have not made.
+Since this page first went up, that has happened forty-four times. The list above is current, and kingcue is the entry waiting to move onto it.
