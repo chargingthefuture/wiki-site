@@ -117,7 +117,7 @@ https://www.quora.com/profile/kingbface
 
 https://www.quora.com/profile/kingsame
 
-https://www.quora.com/profile/kingstir
+https://www.quora.com/profile/kingstir — opened at 5:49 in the morning on September 10, 2026, and banned by Quora Moderation at 8:25 that morning. Two hours and thirty-six minutes. kingdry, below, was opened fourteen minutes after this ban.
 
 https://www.quora.com/profile/kingdry — opened at 8:39 in the morning on September 10, 2026, and banned by Quora Moderation at 5:14 that afternoon. Eight and a half hours.
 
