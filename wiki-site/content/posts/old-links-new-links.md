@@ -107,7 +107,7 @@ https://www.quora.com/profile/kingofno-1
 
 https://www.quora.com/profile/kingdo-1
 
-https://www.quora.com/profile/kingdone
+https://www.quora.com/profile/kingdone — opened at 5:48 in the morning on September 9, 2026, and banned by Quora Moderation at 5:53, five minutes later. kingnow, below, was opened a minute after that ban.
 
 https://www.quora.com/profile/kingnow — opened at 5:55 in the morning on September 9, 2026, and banned by Quora Moderation at 6:46 that morning. Fifty-one minutes.
 
@@ -137,7 +137,7 @@ Worth recording, because it is the part that settles the question.
 
 Each of these accounts ran a different content strategy. That was deliberate. One posted at volume. One posted twice in its entire life — two short summaries with a link back here, no reposting, no back catalog. Others sat between. Exactly one of them ever received a warning, and I changed how I posted after it.
 
-The last two did not last long enough to have a strategy at all. The handle kingsroad was opened to replace the account banned the day before, and was banned the next day. Then kingsyou replaced kingsroad, and was banned the next day. Whatever is deciding this is not reading the posts, because in those two cases there was almost nothing to read.
+Some did not last long enough to have a strategy at all. The shortest was kingdone: five minutes, opened at 5:48 one morning and banned at 5:53. The handle kingsroad was opened to replace the account banned the day before, and was banned the next day. Then kingsyou replaced kingsroad, and was banned the next day. Whatever is deciding this is not reading the posts, because in those two cases there was almost nothing to read.
 
 They ended the same way regardless, and the reason given is the same boilerplate every time: financial gain and spam. Neither is true.
 
