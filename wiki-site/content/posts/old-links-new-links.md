@@ -69,7 +69,7 @@ https://www.quora.com/profile/kingpyramid
 
 https://www.quora.com/profile/kingoftlb — opened at 7:14 in the morning on September 2, 2026, and banned by Quora Moderation at 7:47 that morning. Thirty-three minutes. The notice arrived twice, twelve seconds apart.
 
-https://www.quora.com/profile/tlbsking
+https://www.quora.com/profile/tlbsking — opened at 8:02 in the morning on September 2, 2026, fifteen minutes after kingoftlb was banned, and banned by Quora Moderation at 9:03 that morning. An hour. The notice arrived twice, sixteen seconds apart.
 
 https://www.quora.com/profile/tlbsanditsking — opened at 1:02 in the afternoon on September 2, 2026, and banned by Quora Moderation at 11:06 the next morning. Twenty-two hours. The notice arrived twice, nineteen seconds apart.
 
