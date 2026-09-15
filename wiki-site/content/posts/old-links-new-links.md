@@ -111,7 +111,7 @@ https://www.quora.com/profile/kingdone
 
 https://www.quora.com/profile/kingnow
 
-https://www.quora.com/profile/kingsafethanright
+https://www.quora.com/profile/kingsafethanright — opened at 11:38 in the morning on September 9, 2026, and banned by Quora Moderation at 2:16 that afternoon. Two hours and thirty-seven minutes.
 
 https://www.quora.com/profile/kingbface — opened at 4:34 in the afternoon on September 9, 2026, and banned by Quora Moderation at 7:35 that evening. Three hours. kingsame, below, was opened twenty-six minutes after this ban.
 
