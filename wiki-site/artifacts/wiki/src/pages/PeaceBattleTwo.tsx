@@ -281,12 +281,17 @@ export default function PeaceBattleTwo() {
               action. Reading the conversation needs no account at all.
             </p>
             <p>
-              This is the one that answers Quora directly. Eleven times an account of this project
-              has been erased there, and every comment under it went too — including other people's.
-              A comment here has an address and can be found again.
+              This is the one that answers Quora directly. Accounts of this project keep being
+              erased there, and every comment under them goes too — including other people's. A
+              comment here has an address and can be found again.
             </p>
             <p>
-              The dated record of those erasures is on{" "}
+              {/* No count on this page. It is a standing reference with no date on it, meant to run
+                  for years, and accounts keep being erased — so any number printed here is wrong
+                  within weeks and nobody notices. The counting lives on the record page, which is a
+                  living page built to be updated. A dated post can carry a number, because a
+                  snapshot records what was true on its day. */}
+              The dated record of those erasures, and how many, is on{" "}
               <Link
                 href="/article/wiki-site/old-links-new-links"
                 className="text-primary font-bold hover:text-white"

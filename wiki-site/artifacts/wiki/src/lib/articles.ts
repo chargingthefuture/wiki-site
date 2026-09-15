@@ -37,6 +37,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "whats-your-hangup",
+    "title": "What's Your Hangup?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-15",
+    "excerpt": "An honest question with no trap in it. If something about the Skills Economy stops you, I want to know what it is. Here is the one I hear most, and what the record actually shows.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/whats-your-hangup.md",
+    "teaser": "If something about the Skills Economy stops you, say so under this post. The objection I hear most is that it is a step down from a real job. The record says otherwise: destitution arrives after you have already proven you can work. They removed you from an economy you were good at. Whatever they want, it is not your labor — so what is the hangup about working somewhere else?",
+    "topics": [
+      "community",
+      "skills-economy"
+    ]
+  },
+  {
     "slug": "peace-battle-2",
     "title": "Peace Battle 2",
     "repo": "chargingthefuture/wiki-site",
@@ -98,18 +113,18 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
-    "slug": "whats-your-hangup",
-    "title": "What's Your Hangup?",
+    "slug": "you-can-talk-under-these-posts-now",
+    "title": "You Can Talk Under These Posts Now",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-09-15",
-    "excerpt": "An honest question with no trap in it. If something about the Skills Economy stops you, I want to know what it is. Here is the one I hear most, and what the record actually shows.",
-    "category": "Community",
+    "excerpt": "Fireside is a conversation under every post here. Reading takes no account at all. Writing takes one, and what you write stays where you left it.",
+    "category": "Platform",
     "collection": "posts",
-    "path": "posts/whats-your-hangup.md",
-    "teaser": "If something about the Skills Economy stops you, say so under this post. The objection I hear most is that it is a step down from a real job. The record says otherwise: destitution arrives after you have already proven you can work. They removed you from an economy you were good at. Whatever they want, it is not your labor — so what is the hangup about working somewhere else?",
+    "path": "posts/you-can-talk-under-these-posts-now.md",
+    "teaser": "There is now a conversation under every post on this blog. It is called Fireside. Reading it costs nothing — no account, no sign-in, nothing to create — which is the opposite of the platforms that erased more than twenty of my accounts and every comment under them. Writing takes a free account, and what you write is held until you are approved, which you are told at the moment you post rather than left to discover. Your words stay yours: take a comment down whenever you want, and nothing goes onto the published page unless you ask for it and an admin agrees.",
     "topics": [
-      "community",
-      "skills-economy"
+      "fireside",
+      "platform"
     ]
   },
   {
