@@ -3,17 +3,17 @@ title: "TI Radio: a week of live discussions, and anyone can read it"
 date: "2026-09-15"
 excerpt: "A published schedule of live talks survivors host. Reading it needs no account."
 category: "Product"
-teaser: "There is a Quora space at tiradio.quora.com where people are told to come and talk. A space can point at one time. It cannot hold a schedule, and it cannot let somebody else put themselves on one. So there is now a page that does both: seven days of 90-minute slots, in your own timezone, showing who is hosting and what it is about. Reading it needs no account at all. Taking a slot needs one."
+teaser: "Survivors host live discussions, and until now the only way to say so was an announcement. An announcement reaches whoever is looking the day it goes out, and it cannot let somebody else put themselves on a list. So there is now a page that holds a week: seven days of 90-minute slots, in your own timezone, showing who is hosting and what it is about. Reading it needs no account at all. Taking a slot needs one."
 topics:
   - product
   - community
 ---
 
-There is a Quora space at tiradio.quora.com. People are told to come there and talk.
+Survivors host live discussions. Until now the only way to say one was happening was to announce it.
 
-A space can point at one time. It cannot hold a schedule. And it cannot let somebody else put themselves on one.
+An announcement can point at one time. It cannot hold a schedule. And it cannot let somebody else put themselves on one.
 
-So now there is a page that does both.
+So now there is [a page that does both](https://app.chargingthefuture.com/ti-radio).
 
 ## What it is
 
@@ -33,7 +33,7 @@ This is the part worth saying plainly, because it is not how the rest of the app
 
 You do not sign in. You do not get verified. You do not join anything. You open the page and read the schedule.
 
-Almost every other screen here is behind approval, and for good reasons I have written about before. This one is not, and the reason is who it is for. The people it was built for are on Quora right now and have not joined anything. Telling them to sign up before they can even see when a discussion is happening asks for the thing at the end and gives nothing at the start.
+Almost every other screen here is behind approval, and for good reasons I have written about before. This one is not, and the reason is who it is for. The people it was built for have not joined anything yet. Telling them to sign up before they can even see when a discussion is happening asks for the thing at the end and gives nothing at the start.
 
 So the schedule is open. Anyone can link to it. Anyone can plan around it.
 
