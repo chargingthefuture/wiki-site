@@ -1,7 +1,7 @@
 ---
 title: "TI Radio: a week of live discussions, and anyone can read it"
 date: "2026-09-15"
-excerpt: "A published schedule of live talks survivors host. Reading it needs no account — which makes it the first page here that does not."
+excerpt: "A published schedule of live talks survivors host. Reading it needs no account."
 category: "Product"
 teaser: "There is a Quora space at tiradio.quora.com where people are told to come and talk. A space can point at one time. It cannot hold a schedule, and it cannot let somebody else put themselves on one. So there is now a page that does both: seven days of 90-minute slots, in your own timezone, showing who is hosting and what it is about. Reading it needs no account at all. Taking a slot needs one."
 topics:
@@ -47,7 +47,7 @@ First come, first served. No queue, no application, nobody approving the topic.
 
 At the time they booked, they and whoever turns up meet in Chyme.
 
-Why hosting is gated when reading is not: putting your name on a public schedule is a commitment to turn up. It is not a way of getting to know somebody, so it is not a route into verification the way writing is.
+Why hosting is gated when reading is not: putting your name on a public schedule is a commitment to turn up.
 
 ## The limits, and why they are there
 

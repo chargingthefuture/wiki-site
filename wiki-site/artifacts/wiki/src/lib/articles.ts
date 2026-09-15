@@ -41,7 +41,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "TI Radio: a week of live discussions, and anyone can read it",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-09-15",
-    "excerpt": "A published schedule of live talks survivors host. Reading it needs no account — which makes it the first page here that does not.",
+    "excerpt": "A published schedule of live talks survivors host. Reading it needs no account.",
     "category": "Product",
     "collection": "posts",
     "path": "posts/ti-radio.md",
