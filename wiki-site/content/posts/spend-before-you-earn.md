@@ -63,7 +63,7 @@ Every number on this blog is checkable, so here is the economy on the day commun
 
 ![The ServiceCredits Economy screen. "ServiceCredits are usable across the plugins. They are not money and cannot be cashed out." In circulation 4,136. Total issued 4,437. Total burned 301. Held in treasury, no figure shown. On community credit 0. Moving, 30-day velocity, 0.00. Sent in last 30 days 0.](images/service-credits-economy-2026-08-27.jpg)
 
-On community credit: 0. The line opened today, so that is where it starts. The screen is live in the app, and it will read differently the next time you look.
+On community credit: 0. The line opened on August 27, 2026, so that is where it starts. The screen is live in the app, and it will read differently the next time you look.
 
 ## Using credits is optional
 

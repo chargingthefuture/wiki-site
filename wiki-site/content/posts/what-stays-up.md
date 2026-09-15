@@ -64,6 +64,6 @@ Everything I have written says the same thing about employers, landlords, and an
 
 This is exactly why the app exists and why none of it sits on top of a platform. Accounts get deleted. That is a known thing that happens to people in this situation, which is why the app is the fallback and not the other way around. Your profile, your skills, and the people who can reach you do not live on somebody else’s shelf.
 
-Nothing about the network changed today. The profiles are still there. The skills are still listed. The requests are still open, and there are still more people asking than answering.
+Nothing about the network changed on August 16. The profiles are still there. The skills are still listed. The requests are still open, and there are still more people asking than answering.
 
 If you are reading this, you found it some other way. That is the entire point.

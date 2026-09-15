@@ -3,7 +3,7 @@ title: "A Safe Place to Shower"
 date: "2026-08-21"
 excerpt: "They have run honeypots at me for decades and I have never engaged with one. So they went to the next best option: an employee with a key, and a shower door that does not lock."
 category: "Community"
-teaser: "I was mobbed out of work and out of housing, and my businesses were driven to zero equity, so I shower in a day facility used by violent criminals and people using drugs, where the showers cannot be locked from the inside. Yesterday an employee keyed me in, and the moment I had undressed a door was opened and I was exposed to a man standing there, who laughed. ClickLog gained two things this week to name that: a problem tag for sexual violence, and a scheme called The Staged Exposure. I think it is what they reach for when the honeypots do not work, and I think honeypotting belongs in the same category — though I do not know what a lawyer or a clinician would call it."
+teaser: "I was mobbed out of work and out of housing, and my businesses were driven to zero equity, so I shower in a day facility used by violent criminals and people using drugs, where the showers cannot be locked from the inside. On August 20, 2026 an employee keyed me in, and the moment I had undressed a door was opened and I was exposed to a man standing there, who laughed. ClickLog gained two things this week to name that: a problem tag for sexual violence, and a scheme called The Staged Exposure. I think it is what they reach for when the honeypots do not work, and I think honeypotting belongs in the same category — though I do not know what a lawyer or a clinician would call it."
 topics:
   - clicklog
   - safety
@@ -19,7 +19,7 @@ The people using it include violent criminals and people using drugs. I am not s
 
 Which is why the showers cannot be locked from the inside. Staff need to be able to open a door, and given who is in the building that policy has a real reason behind it. The reason being real is exactly what makes it usable against someone.
 
-## Yesterday
+## August 20, 2026
 
 An employee keyed me into a shower. I undressed. Immediately after, an employee opened the door and exposed me, completely, to a man standing there. He was not undressed. He laughed.
 
@@ -51,7 +51,7 @@ A scheme: The Staged Exposure. That is the engineered form — the key, the timi
 
 They have run honeypots at me for several decades. I have not kept count and the number is not small for the time involved. I have never engaged with one, and they have never managed to sexually assault or rape me. Other survivors have not been so fortunate.
 
-So they go to the next best option. That is what yesterday was. The exposure is not a separate interest of theirs that happened to surface — it is what is left when the thing they were working toward does not happen.
+So they go to the next best option. That is what August 20 was. The exposure is not a separate interest of theirs that happened to surface — it is what is left when the thing they were working toward does not happen.
 
 ## Whether the honeypot belongs in the same category
 

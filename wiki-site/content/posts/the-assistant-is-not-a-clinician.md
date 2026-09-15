@@ -9,7 +9,7 @@ topics:
   - safety
 ---
 
-Yesterday I asked people to lend their writing to the Knowledge Library, and explained what it is: a private assistant for Targeted Individuals that answers from the writing of people who have lived this.
+On August 23, 2026 I asked people to lend their writing to the Knowledge Library, and explained what it is: a private assistant for Targeted Individuals that answers from the writing of people who have lived this.
 
 Ione (https://www.quora.com/profile/Ione-40) replied, and the reply was the right one.
 
