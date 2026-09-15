@@ -37,18 +37,34 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
-    "slug": "ti-radio",
-    "title": "TI Radio: a week of live discussions, and anyone can read it",
+    "slug": "peace-battle-2",
+    "title": "Peace Battle 2",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-09-15",
-    "excerpt": "A published schedule of live talks survivors host. Reading it needs no account.",
+    "excerpt": "A protest starts Friday, September 18 at 7:00 PM Eastern. It has no location, because the people it is for are spread across the world and most of them cannot travel to stand anywhere.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/peace-battle-2.md",
+    "teaser": "Survivors have tried to hold protests and turned up alone. A protest in a place assumes neighbors, money for travel, and a day you can afford to lose, and most Targeted Individuals have none of the three. So this one is distributed, like the thing it answers. It starts Friday, September 18 at 7:00 PM Eastern, it runs for years, and there are three ways to take part — all of them from a phone. The page with the countdown and the links is chargingthefuture.github.io/chargingthefuture/pb2.",
+    "topics": [
+      "community",
+      "skills-economy"
+    ]
+  },
+  {
+    "slug": "whats-your-one-percent",
+    "title": "What's Your 1%?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-15",
+    "excerpt": "A new Workforce tab runs the economy math backwards, for you. One percent of five million is 50,000 people. At $5 each that is $250,000.",
     "category": "Product",
     "collection": "posts",
-    "path": "posts/ti-radio.md",
-    "teaser": "There is a Quora space at tiradio.quora.com where people are told to come and talk. A space can point at one time. It cannot hold a schedule, and it cannot let somebody else put themselves on one. So there is now a page that does both: seven days of 90-minute slots, in your own timezone, showing who is hosting and what it is about. Reading it needs no account at all. Taking a slot needs one.",
+    "path": "posts/whats-your-one-percent.md",
+    "teaser": "Workforce tells you what a population of five million would look like. It never told you what you could do inside it, and a lot of people read the whole screen and conclude none of it is about them. The new tab starts from one percent — 50,000 people — and works back to the person serving them. At $5 a head that is $250,000 a year, three and a half times the average. It is weighted to your trade, because a plumber and a physiotherapist are not interchangeable. And no trade reaches 50,000 people one job at a time, so the tab names the five ways the same skill gets there.",
     "topics": [
       "product",
-      "community"
+      "economy",
+      "model"
     ]
   },
   {
@@ -67,18 +83,18 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
-    "slug": "peace-battle-2",
-    "title": "Peace Battle 2",
+    "slug": "ti-radio",
+    "title": "TI Radio: a week of live discussions, and anyone can read it",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-09-15",
-    "excerpt": "A protest starts Friday, September 18 at 7:00 PM Eastern. It has no location, because the people it is for are spread across the world and most of them cannot travel to stand anywhere.",
-    "category": "Community",
+    "excerpt": "A published schedule of live talks survivors host. Reading it needs no account.",
+    "category": "Product",
     "collection": "posts",
-    "path": "posts/peace-battle-2.md",
-    "teaser": "Survivors have tried to hold protests and turned up alone. A protest in a place assumes neighbors, money for travel, and a day you can afford to lose, and most Targeted Individuals have none of the three. So this one is distributed, like the thing it answers. It starts Friday, September 18 at 7:00 PM Eastern, it runs for years, and there are three ways to take part — all of them from a phone. The page with the countdown and the links is chargingthefuture.github.io/chargingthefuture/pb2.",
+    "path": "posts/ti-radio.md",
+    "teaser": "There is a Quora space at tiradio.quora.com where people are told to come and talk. A space can point at one time. It cannot hold a schedule, and it cannot let somebody else put themselves on one. So there is now a page that does both: seven days of 90-minute slots, in your own timezone, showing who is hosting and what it is about. Reading it needs no account at all. Taking a slot needs one.",
     "topics": [
-      "community",
-      "skills-economy"
+      "product",
+      "community"
     ]
   },
   {
