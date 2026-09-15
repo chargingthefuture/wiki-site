@@ -1,6 +1,6 @@
 ---
 title: "You Can Talk Under These Posts Now"
-date: "2026-09-14"
+date: "2026-09-15"
 excerpt: "Fireside is a conversation under every post here. Reading takes no account at all. Writing takes one, and what you write stays where you left it."
 category: "Platform"
 teaser: "There is now a conversation under every post on this blog. It is called Fireside. Reading it costs nothing — no account, no sign-in, nothing to create — which is the opposite of the platforms that erased eleven of my accounts and every comment under them. Writing takes a free account, and what you write is held until you are approved, which you are told at the moment you post rather than left to discover. Your words stay yours: take a comment down whenever you want, and nothing goes onto the published page unless you ask for it and an admin agrees."

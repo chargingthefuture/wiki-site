@@ -40,7 +40,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "you-can-talk-under-these-posts-now",
     "title": "You Can Talk Under These Posts Now",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-14",
+    "date": "2026-09-15",
     "excerpt": "Fireside is a conversation under every post here. Reading takes no account at all. Writing takes one, and what you write stays where you left it.",
     "category": "Platform",
     "collection": "posts",
