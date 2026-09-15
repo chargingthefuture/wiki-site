@@ -53,6 +53,21 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "peace-battle-2",
+    "title": "Peace Battle 2",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-15",
+    "excerpt": "A protest starts Friday, September 18 at 7:00 PM Eastern. It has no location, because the people it is for are spread across the world and most of them cannot travel to stand anywhere.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/peace-battle-2.md",
+    "teaser": "Survivors have tried to hold protests and turned up alone. A protest in a place assumes neighbors, money for travel, and a day you can afford to lose, and most Targeted Individuals have none of the three. So this one is distributed, like the thing it answers. It starts Friday, September 18 at 7:00 PM Eastern, it runs for years, and there are three ways to take part — all of them from a phone. The page with the countdown and the links is chargingthefuture.github.io/chargingthefuture/pb2.",
+    "topics": [
+      "community",
+      "skills-economy"
+    ]
+  },
+  {
     "slug": "what-i-missed-about-everything-on-the-blockchain",
     "title": "What I Missed About Wanting Everything On the Blockchain",
     "repo": "chargingthefuture/wiki-site",
