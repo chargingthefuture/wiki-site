@@ -65,7 +65,7 @@ Then thirty-four more, in the order they were opened. I stopped writing the date
 
 https://www.quora.com/profile/kingplaza-1
 
-https://www.quora.com/profile/kingpyramid
+https://www.quora.com/profile/kingpyramid — banned by Quora Moderation at 5:16 in the morning on September 2, 2026. The notice for it being opened is not here, so how long it lasted is not recorded.
 
 https://www.quora.com/profile/kingoftlb — opened at 7:14 in the morning on September 2, 2026, and banned by Quora Moderation at 7:47 that morning. Thirty-three minutes. The notice arrived twice, twelve seconds apart.
 
