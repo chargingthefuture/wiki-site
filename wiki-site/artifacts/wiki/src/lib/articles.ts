@@ -52,6 +52,21 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "ti-radio",
+    "title": "TI Radio: a week of live discussions, and anyone can read it",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-15",
+    "excerpt": "A published schedule of live talks survivors host. Reading it needs no account.",
+    "category": "Product",
+    "collection": "posts",
+    "path": "posts/ti-radio.md",
+    "teaser": "There is a Quora space at tiradio.quora.com where people are told to come and talk. A space can point at one time. It cannot hold a schedule, and it cannot let somebody else put themselves on one. So there is now a page that does both: seven days of 90-minute slots, in your own timezone, showing who is hosting and what it is about. Reading it needs no account at all. Taking a slot needs one.",
+    "topics": [
+      "product",
+      "community"
+    ]
+  },
+  {
     "slug": "whats-your-one-percent",
     "title": "What's Your 1%?",
     "repo": "chargingthefuture/wiki-site",
@@ -80,21 +95,6 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "reference",
       "terms"
-    ]
-  },
-  {
-    "slug": "ti-radio",
-    "title": "TI Radio: a week of live discussions, and anyone can read it",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-15",
-    "excerpt": "A published schedule of live talks survivors host. Reading it needs no account.",
-    "category": "Product",
-    "collection": "posts",
-    "path": "posts/ti-radio.md",
-    "teaser": "There is a Quora space at tiradio.quora.com where people are told to come and talk. A space can point at one time. It cannot hold a schedule, and it cannot let somebody else put themselves on one. So there is now a page that does both: seven days of 90-minute slots, in your own timezone, showing who is hosting and what it is about. Reading it needs no account at all. Taking a slot needs one.",
-    "topics": [
-      "product",
-      "community"
     ]
   },
   {
