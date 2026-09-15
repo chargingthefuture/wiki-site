@@ -89,7 +89,7 @@ https://www.quora.com/profile/kingiskind
 
 https://www.quora.com/profile/kindking — opened at 11:06 in the morning on September 7, 2026, and banned by Quora Moderation at 1:34 that afternoon. Two and a half hours.
 
-https://www.quora.com/profile/thekindking
+https://www.quora.com/profile/thekindking — opened at 3:35 in the afternoon on September 7, 2026, two hours after kindking was banned, and banned by Quora Moderation at 6:51 that evening. Three and a quarter hours.
 
 https://www.quora.com/profile/mykingiskind
 
