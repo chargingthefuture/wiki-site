@@ -129,7 +129,7 @@ https://www.quora.com/profile/Kingday-1
 
 https://www.quora.com/profile/Kingna-2
 
-https://www.quora.com/profile/Kingempire
+https://www.quora.com/profile/Kingempire — opened at 8:30 in the evening on September 12, 2026, and banned by Quora Moderation at 3:59 in the morning on September 15, 2026. The last handle I opened, and the most recent erasure.
 
 ## Different every time, same label
 
