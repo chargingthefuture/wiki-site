@@ -75,7 +75,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Product",
     "collection": "posts",
     "path": "posts/ti-radio.md",
-    "teaser": "There is a Quora space at tiradio.quora.com where people are told to come and talk. A space can point at one time. It cannot hold a schedule, and it cannot let somebody else put themselves on one. So there is now a page that does both: seven days of 90-minute slots, in your own timezone, showing who is hosting and what it is about. Reading it needs no account at all. Taking a slot needs one.",
+    "teaser": "Survivors host live discussions, and until now the only way to say so was an announcement. An announcement reaches whoever is looking the day it goes out, and it cannot let somebody else put themselves on a list. So there is now a page that holds a week: seven days of 90-minute slots, in your own timezone, showing who is hosting and what it is about. Reading it needs no account at all. Taking a slot needs one.",
     "topics": [
       "product",
       "community"
@@ -98,21 +98,6 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
-    "slug": "Dictionary",
-    "title": "Dictionary: Skills Economy Terms",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-09-15",
-    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
-    "category": "Resources",
-    "collection": "posts",
-    "path": "posts/Dictionary.md",
-    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
-    "topics": [
-      "reference",
-      "terms"
-    ]
-  },
-  {
     "slug": "you-can-talk-under-these-posts-now",
     "title": "You Can Talk Under These Posts Now",
     "repo": "chargingthefuture/wiki-site",
@@ -125,6 +110,21 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "fireside",
       "platform"
+    ]
+  },
+  {
+    "slug": "Dictionary",
+    "title": "Dictionary: Skills Economy Terms",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-09-15",
+    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
+    "category": "Resources",
+    "collection": "posts",
+    "path": "posts/Dictionary.md",
+    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
+    "topics": [
+      "reference",
+      "terms"
     ]
   },
   {
