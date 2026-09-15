@@ -1,15 +1,15 @@
 ---
 title: "Old links, new links"
 date: "2026-09-15"
-excerpt: "Forty-seven Quora accounts erased, one space renamed, and no handle there now. What is dead, and the one address that does not change."
+excerpt: "Forty-six Quora accounts erased, one space renamed, and no handle there now. What is dead, and the one address that does not change."
 category: "Community"
-teaser: "Quora has erased my accounts forty-seven times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. There is no handle of mine on Quora now. This page is the standing record: the space, the dead handles, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
+teaser: "Quora has erased my accounts forty-six times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. There is no handle of mine on Quora now. This page is the standing record: the space, the dead handles, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
 topics:
   - publishing
   - platform-independence
 ---
 
-Quora has erased my accounts forty-seven times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
+Quora has erased my accounts forty-six times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
 
 There is no handle of mine on Quora now. The last one was erased and I have not opened another.
 
@@ -61,7 +61,7 @@ https://www.quora.com/profile/KingMonk — my eleventh handle, opened on August 
 
 https://www.quora.com/profile/King900 — my twelfth handle, opened on August 28, 2026, the day the eleventh was banned.
 
-Then thirty-five more, in the order they were opened. I stopped writing the dates down one at a time, because by then a handle lasting a day was ordinary. I am putting them back as I find the notices in my mail, so some of these carry dates now and the rest will. Every one of these addresses is a dead link somebody may still be holding.
+Then thirty-four more, in the order they were opened. I stopped writing the dates down one at a time, because by then a handle lasting a day was ordinary. I am putting them back as I find the notices in my mail, so some of these carry dates now and the rest will. Every one of these addresses is a dead link somebody may still be holding.
 
 https://www.quora.com/profile/KingPlaza-1
 
@@ -129,9 +129,7 @@ https://www.quora.com/profile/Kingday-1
 
 https://www.quora.com/profile/Kingna-2
 
-https://www.quora.com/profile/Kingempire — opened at 8:30 in the evening on September 12, 2026, and banned by Quora Moderation at 3:59 in the morning on September 15, 2026.
-
-https://www.quora.com/profile/Kingepic — opened at 2:51 in the afternoon on September 13, 2026. I have the notice for the account being opened and not the one for it being closed, so the date it died is not written here yet.
+https://www.quora.com/profile/Kingempire — opened at 8:30 in the evening on September 12, 2026, and banned by Quora Moderation at 3:59 in the morning on September 15, 2026. The last handle I opened, and the most recent erasure.
 
 ## Different every time, same label
 
@@ -169,6 +167,6 @@ The old GitHub wiki — an inactive mirror. It no longer receives updates; this 
 
 Nothing is written on a platform first anymore. Every post starts here, and platforms only ever get a short version and a link back. So the next time an account is erased — and I assume there will be a next time — the cost is one entry moving from the current list to the dead list on this page. That is all.
 
-Since this page first went up, that has happened forty-five times. The list above is current.
+Since this page first went up, that has happened forty-four times. The list above is current.
 
 What has changed is that there is no longer an entry to move into the current list. Opening the next one is a decision I have not made.
