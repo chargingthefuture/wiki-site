@@ -41,95 +41,95 @@ https://www.quora.com/profile/pedigree101 — my first handle. Banned by Quora o
 
 https://www.quora.com/profile/farah-brunache — my second handle. Banned by Quora on August 16, 2026. A Quora ban deletes everything the account ever posted, which is why the handle and its space are still standing and bare.
 
-https://www.quora.com/profile/KingStyle-3 — my third handle. Deleted by Quora on August 17, 2026, the same day this page first went up. That account posted exactly two things in its life: short summaries of two blog posts, each with one link back here. No reposting, no volume, no back catalog. Two posts was enough.
+https://www.quora.com/profile/kingstyle-3 — my third handle. Deleted by Quora on August 17, 2026, the same day this page first went up. That account posted exactly two things in its life: short summaries of two blog posts, each with one link back here. No reposting, no volume, no back catalog. Two posts was enough.
 
-https://www.quora.com/profile/KingMinds — my fourth handle. Banned by Quora Moderation on August 19, 2026. The stated reason: the account was linked to multiple violations of Quora's spam policies.
+https://www.quora.com/profile/kingminds — my fourth handle. Banned by Quora Moderation on August 19, 2026. The stated reason: the account was linked to multiple violations of Quora's spam policies.
 
-https://www.quora.com/profile/KingAndYou — my fifth handle. Banned by Quora Moderation on August 21, 2026, with the same wording.
+https://www.quora.com/profile/kingandyou — my fifth handle. Banned by Quora Moderation on August 21, 2026, with the same wording.
 
-https://www.quora.com/profile/KingsRoad — my sixth handle, opened to replace the fifth. Banned by Quora Moderation on August 22, 2026, the day after it was opened, with the same wording.
+https://www.quora.com/profile/kingsroad — my sixth handle, opened to replace the fifth. Banned by Quora Moderation on August 22, 2026, the day after it was opened, with the same wording.
 
-https://www.quora.com/profile/KingsYou — my seventh handle, opened to replace the sixth. Banned on August 23, 2026, also the day after it was opened, with the same wording.
+https://www.quora.com/profile/kingsyou — my seventh handle, opened to replace the sixth. Banned on August 23, 2026, also the day after it was opened, with the same wording.
 
-https://www.quora.com/profile/Kingmingling — my eighth handle. Banned by Quora Moderation on August 25, 2026, two days after it was opened, with the same wording again.
+https://www.quora.com/profile/kingmingling — my eighth handle. Banned by Quora Moderation on August 25, 2026, two days after it was opened, with the same wording again.
 
-https://www.quora.com/profile/King-s-Daughter-2 — my ninth handle, opened on August 25, 2026, the same day Kingmingling was banned, and banned by Quora Moderation that evening, with the same wording again. It made a few posts, and this time they were the full text of blog posts rather than excerpts — so the teaser-with-a-link format was not the variable either.
+https://www.quora.com/profile/king-s-daughter-2 — my ninth handle, opened on August 25, 2026, the same day kingmingling was banned, and banned by Quora Moderation that evening, with the same wording again. It made a few posts, and this time they were the full text of blog posts rather than excerpts — so the teaser-with-a-link format was not the variable either.
 
-https://www.quora.com/profile/King-s-Son-1 — my tenth handle, opened on August 25, 2026, the same day the ninth was banned, and banned by Quora Moderation before five in the morning on August 27, 2026, with the same wording again. The notice arrived twice, one minute apart.
+https://www.quora.com/profile/king-s-son-1 — my tenth handle, opened on August 25, 2026, the same day the ninth was banned, and banned by Quora Moderation before five in the morning on August 27, 2026, with the same wording again. The notice arrived twice, one minute apart.
 
-https://www.quora.com/profile/KingMonk — my eleventh handle, opened on August 27, 2026, the day the tenth was banned, and banned by Quora Moderation at 9:03 in the evening on August 28, 2026, with the same wording again.
+https://www.quora.com/profile/kingmonk — my eleventh handle, opened on August 27, 2026, the day the tenth was banned, and banned by Quora Moderation at 9:03 in the evening on August 28, 2026, with the same wording again.
 
-https://www.quora.com/profile/King900 — my twelfth handle, opened on August 28, 2026, the day the eleventh was banned.
+https://www.quora.com/profile/king900 — my twelfth handle, opened on August 28, 2026, the day the eleventh was banned.
 
 Then thirty-four more, in the order they were opened. I stopped writing the dates down one at a time, because by then a handle lasting a day was ordinary. I am putting them back as I find the notices in my mail, so some of these carry dates now and the rest will. Every one of these addresses is a dead link somebody may still be holding.
 
-https://www.quora.com/profile/KingPlaza-1
+https://www.quora.com/profile/kingplaza-1
 
-https://www.quora.com/profile/KingPyramid
+https://www.quora.com/profile/kingpyramid
 
-https://www.quora.com/profile/Kingoftlb
+https://www.quora.com/profile/kingoftlb
 
-https://www.quora.com/profile/Tlbsking
+https://www.quora.com/profile/tlbsking
 
-https://www.quora.com/profile/Tlbsanditsking
+https://www.quora.com/profile/tlbsanditsking
 
-https://www.quora.com/profile/Iamking-23
+https://www.quora.com/profile/iamking-23
 
-https://www.quora.com/profile/Iammlk
+https://www.quora.com/profile/iammlk
 
-https://www.quora.com/profile/Kingfree-2 — opened at 12:54 in the afternoon on September 3, 2026, and banned by Quora Moderation at 1:12 the same afternoon. Eighteen minutes. The notice arrived twice, seven seconds apart, and the screen shown in the app gave the same spam-policy sentence as the six above.
+https://www.quora.com/profile/kingfree-2 — opened at 12:54 in the afternoon on September 3, 2026, and banned by Quora Moderation at 1:12 the same afternoon. Eighteen minutes. The notice arrived twice, seven seconds apart, and the screen shown in the app gave the same spam-policy sentence as the six above.
 
-https://www.quora.com/profile/Kingfreeing
+https://www.quora.com/profile/kingfreeing
 
-https://www.quora.com/profile/Kingcard
+https://www.quora.com/profile/kingcard
 
-https://www.quora.com/profile/Kingfire-7
+https://www.quora.com/profile/kingfire-7
 
-https://www.quora.com/profile/Kingiskind
+https://www.quora.com/profile/kingiskind
 
-https://www.quora.com/profile/KindKing
+https://www.quora.com/profile/kindking
 
-https://www.quora.com/profile/Thekindking
+https://www.quora.com/profile/thekindking
 
-https://www.quora.com/profile/Mykingiskind
+https://www.quora.com/profile/mykingiskind
 
-https://www.quora.com/profile/Kingkinding
+https://www.quora.com/profile/kingkinding
 
-https://www.quora.com/profile/Thekingduck
+https://www.quora.com/profile/thekingduck
 
-https://www.quora.com/profile/Kingbat-1
+https://www.quora.com/profile/kingbat-1
 
-https://www.quora.com/profile/Kingcough
+https://www.quora.com/profile/kingcough
 
-https://www.quora.com/profile/Kingsoftlb
+https://www.quora.com/profile/kingsoftlb
 
-https://www.quora.com/profile/Kingofno-1
+https://www.quora.com/profile/kingofno-1
 
-https://www.quora.com/profile/Kingdo-1
+https://www.quora.com/profile/kingdo-1
 
-https://www.quora.com/profile/Kingdone
+https://www.quora.com/profile/kingdone
 
-https://www.quora.com/profile/Kingnow
+https://www.quora.com/profile/kingnow
 
-https://www.quora.com/profile/Kingsafethanright
+https://www.quora.com/profile/kingsafethanright
 
-https://www.quora.com/profile/Kingbface
+https://www.quora.com/profile/kingbface
 
-https://www.quora.com/profile/Kingsame
+https://www.quora.com/profile/kingsame
 
-https://www.quora.com/profile/Kingstir
+https://www.quora.com/profile/kingstir
 
-https://www.quora.com/profile/Kingdry — opened at 8:39 in the morning on September 10, 2026, and banned by Quora Moderation at 5:14 that afternoon. Eight and a half hours.
+https://www.quora.com/profile/kingdry — opened at 8:39 in the morning on September 10, 2026, and banned by Quora Moderation at 5:14 that afternoon. Eight and a half hours.
 
-https://www.quora.com/profile/Kingalive
+https://www.quora.com/profile/kingalive — opened at 6:52 in the evening on September 10, 2026, and banned by Quora Moderation at 6:17 the next morning. Eleven and a half hours.
 
-https://www.quora.com/profile/Bfaceking — opened at 6:25 in the morning on September 11, 2026, and banned by Quora Moderation at 5:20 in the evening on September 12, 2026. Just under thirty-five hours.
+https://www.quora.com/profile/bfaceking — opened at 6:25 in the morning on September 11, 2026, and banned by Quora Moderation at 5:20 in the evening on September 12, 2026. Just under thirty-five hours.
 
-https://www.quora.com/profile/Kingday-1 — opened at 5:37 in the evening on September 12, 2026, and banned by Quora Moderation at 6:11 the same evening. Thirty-four minutes.
+https://www.quora.com/profile/kingday-1 — opened at 5:37 in the evening on September 12, 2026, and banned by Quora Moderation at 6:11 the same evening. Thirty-four minutes.
 
-https://www.quora.com/profile/Kingna-2 — opened at 6:42 in the evening on September 12, 2026, and banned by Quora Moderation at 7:08 the same evening. Twenty-six minutes.
+https://www.quora.com/profile/kingna-2 — opened at 6:42 in the evening on September 12, 2026, and banned by Quora Moderation at 7:08 the same evening. Twenty-six minutes.
 
-https://www.quora.com/profile/Kingempire — opened at 8:30 in the evening on September 12, 2026, and banned by Quora Moderation at 3:59 in the morning on September 15, 2026. The last handle I opened, and the most recent erasure.
+https://www.quora.com/profile/kingempire — opened at 8:30 in the evening on September 12, 2026, and banned by Quora Moderation at 3:59 in the morning on September 15, 2026. The last handle I opened, and the most recent erasure.
 
 ## Different every time, same label
 
@@ -137,7 +137,7 @@ Worth recording, because it is the part that settles the question.
 
 Each of these accounts ran a different content strategy. That was deliberate. One posted at volume. One posted twice in its entire life — two short summaries with a link back here, no reposting, no back catalog. Others sat between. Exactly one of them ever received a warning, and I changed how I posted after it.
 
-The last two did not last long enough to have a strategy at all. KingsRoad was opened to replace the account banned the day before, and was banned the next day. KingsYou was opened to replace KingsRoad, and was banned the next day. Whatever is deciding this is not reading the posts, because in those two cases there was almost nothing to read.
+The last two did not last long enough to have a strategy at all. The handle kingsroad was opened to replace the account banned the day before, and was banned the next day. Then kingsyou replaced kingsroad, and was banned the next day. Whatever is deciding this is not reading the posts, because in those two cases there was almost nothing to read.
 
 They ended the same way regardless, and the reason given is the same boilerplate every time: financial gain and spam. Neither is true.
 
