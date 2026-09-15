@@ -125,7 +125,7 @@ https://www.quora.com/profile/Kingalive
 
 https://www.quora.com/profile/Bfaceking
 
-https://www.quora.com/profile/Kingday-1
+https://www.quora.com/profile/Kingday-1 — opened at 5:37 in the evening on September 12, 2026, and banned by Quora Moderation at 6:11 the same evening. Thirty-four minutes.
 
 https://www.quora.com/profile/Kingna-2 — opened at 6:42 in the evening on September 12, 2026, and banned by Quora Moderation at 7:08 the same evening. Twenty-six minutes.
 
