@@ -75,7 +75,7 @@ https://www.quora.com/profile/tlbsanditsking
 
 https://www.quora.com/profile/iamking-23
 
-https://www.quora.com/profile/iammlk
+https://www.quora.com/profile/iammlk — opened at 12:46 in the afternoon on September 3, 2026, and banned by Quora Moderation at 12:52. Six minutes. kingfree-2, below, was opened two minutes after this ban.
 
 https://www.quora.com/profile/kingfree-2 — opened at 12:54 in the afternoon on September 3, 2026, and banned by Quora Moderation at 1:12 the same afternoon. Eighteen minutes. The notice arrived twice, seven seconds apart, and the screen shown in the app gave the same spam-policy sentence as the six above.
 
