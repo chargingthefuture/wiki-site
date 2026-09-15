@@ -40,7 +40,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "whats-your-one-percent",
     "title": "What's Your 1%?",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-14",
+    "date": "2026-09-15",
     "excerpt": "A new Workforce tab runs the economy math backwards, for you. One percent of five million is 50,000 people. At $5 each that is $250,000.",
     "category": "Product",
     "collection": "posts",
