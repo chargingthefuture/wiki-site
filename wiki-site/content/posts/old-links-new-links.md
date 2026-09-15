@@ -1,15 +1,17 @@
 ---
 title: "Old links, new links"
-date: "2026-08-28"
-excerpt: "Eleven Quora accounts erased, one space renamed. What is current, what is dead, and the one address that does not change."
+date: "2026-09-15"
+excerpt: "Forty-six Quora accounts erased, one space renamed, and no handle there now. What is dead, and the one address that does not change."
 category: "Community"
-teaser: "Quora has erased my accounts eleven times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. This page is the standing record: the current space, the current handle, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
+teaser: "Quora has erased my accounts forty-six times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. There is no handle of mine on Quora now. This page is the standing record: the space, the dead handles, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
 topics:
   - publishing
   - platform-independence
 ---
 
-Quora has erased my accounts eleven times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
+Quora has erased my accounts forty-six times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
+
+There is no handle of mine on Quora now. The last one was erased and I have not opened another.
 
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
@@ -23,15 +25,13 @@ Bookmark the blog, not any platform. Platform posts are excerpts and links back 
 
 To reach me, save this link alongside the blog: https://sleek.bio/farah — it lists every current way to contact me, and it gets updated the same way this page does.
 
-## Quora: current
+## Quora: no handle, one space
 
 The space: https://skillseconomy.quora.com
 
-My handle: https://www.quora.com/profile/King900
+There is no handle. Every one has been erased and I have not opened another.
 
-Opened August 28, 2026, the day the eleventh was banned.
-
-That is the complete list. If an account or space claims to be me, or to speak for the Skills Economy, and it is not on this page — it is not me. Check back here, not on Quora, because this page cannot be edited by anyone but me and every change to it is on the public record.
+So if an account claims to be me on Quora right now, it is not me — there is nothing for it to be. If an account or space claims to speak for the Skills Economy and is not on this page, it is not me either. Check back here, not on Quora, because this page cannot be edited by anyone but me and every change to it is on the public record.
 
 ## Quora: dead
 
@@ -58,6 +58,78 @@ https://www.quora.com/profile/King-s-Daughter-2 — my ninth handle, opened on A
 https://www.quora.com/profile/King-s-Son-1 — my tenth handle, opened on August 25, 2026, the same day the ninth was banned, and banned by Quora Moderation before five in the morning on August 27, 2026, with the same wording again. The notice arrived twice, one minute apart.
 
 https://www.quora.com/profile/KingMonk — my eleventh handle, opened on August 27, 2026, the day the tenth was banned, and banned by Quora Moderation at 9:03 in the evening on August 28, 2026, with the same wording again.
+
+https://www.quora.com/profile/King900 — my twelfth handle, opened on August 28, 2026, the day the eleventh was banned.
+
+Then thirty-four more. They are listed here without dates because I stopped recording them one at a time; by this point a handle lasting a day was ordinary and the individual dates had stopped telling anybody anything. The list is what matters, because every one of these addresses is a dead link somebody may still be holding.
+
+https://www.quora.com/profile/KingPlaza-1
+
+https://www.quora.com/profile/KingPyramid
+
+https://www.quora.com/profile/Kingoftlb
+
+https://www.quora.com/profile/Tlbsking
+
+https://www.quora.com/profile/Tlbsanditsking
+
+https://www.quora.com/profile/Iamking-23
+
+https://www.quora.com/profile/Iammlk
+
+https://www.quora.com/profile/Kingfree-2
+
+https://www.quora.com/profile/Kingfreeing
+
+https://www.quora.com/profile/Kingcard
+
+https://www.quora.com/profile/Kingfire-7
+
+https://www.quora.com/profile/Kingiskind
+
+https://www.quora.com/profile/KindKing
+
+https://www.quora.com/profile/Thekindking
+
+https://www.quora.com/profile/Mykingiskind
+
+https://www.quora.com/profile/Kingkinding
+
+https://www.quora.com/profile/Thekingduck
+
+https://www.quora.com/profile/Kingbat-1
+
+https://www.quora.com/profile/Kingcough
+
+https://www.quora.com/profile/Kingsoftlb
+
+https://www.quora.com/profile/Kingofno-1
+
+https://www.quora.com/profile/Kingdo-1
+
+https://www.quora.com/profile/Kingdone
+
+https://www.quora.com/profile/Kingnow
+
+https://www.quora.com/profile/Kingsafethanright
+
+https://www.quora.com/profile/Kingbface
+
+https://www.quora.com/profile/Kingsame
+
+https://www.quora.com/profile/Kingstir
+
+https://www.quora.com/profile/Kingdry
+
+https://www.quora.com/profile/Kingalive
+
+https://www.quora.com/profile/Bfaceking
+
+https://www.quora.com/profile/Kingday-1
+
+https://www.quora.com/profile/Kingna-2
+
+https://www.quora.com/profile/Kingempire
 
 ## Different every time, same label
 
@@ -95,4 +167,6 @@ The old GitHub wiki — an inactive mirror. It no longer receives updates; this 
 
 Nothing is written on a platform first anymore. Every post starts here, and platforms only ever get a short version and a link back. So the next time an account is erased — and I assume there will be a next time — the cost is one entry moving from the current list to the dead list on this page. That is all.
 
-Since this page first went up, that has happened nine times. The list above is current.
+Since this page first went up, that has happened forty-four times. The list above is current.
+
+What has changed is that there is no longer an entry to move into the current list. Opening the next one is a decision I have not made.
