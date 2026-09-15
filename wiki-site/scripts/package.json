@@ -12,7 +12,9 @@
     "convert:quora": "tsx ./src/convert-quora.ts",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "paste-sheet-full": "tsx ./src/paste-sheet-full.ts",
-    "import:quora-export": "tsx ./src/import-quora-export.ts"
+    "import:quora-export": "tsx ./src/import-quora-export.ts",
+    "sync-fireside-exports": "tsx ./src/sync-fireside-exports.ts",
+    "sync-fireside-exports:dry": "tsx ./src/sync-fireside-exports.ts --dry-run"
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",
