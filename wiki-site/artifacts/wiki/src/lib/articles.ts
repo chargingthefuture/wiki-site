@@ -98,21 +98,6 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
-    "slug": "Dictionary",
-    "title": "Dictionary: Skills Economy Terms",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-09-15",
-    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
-    "category": "Resources",
-    "collection": "posts",
-    "path": "posts/Dictionary.md",
-    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
-    "topics": [
-      "reference",
-      "terms"
-    ]
-  },
-  {
     "slug": "you-can-talk-under-these-posts-now",
     "title": "You Can Talk Under These Posts Now",
     "repo": "chargingthefuture/wiki-site",
@@ -125,6 +110,36 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "fireside",
       "platform"
+    ]
+  },
+  {
+    "slug": "old-links-new-links",
+    "title": "Old links, new links",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-15",
+    "excerpt": "Forty-six Quora accounts erased, one space renamed, and one handle open again. What is live, what is dead, and the one address that does not change.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/old-links-new-links.md",
+    "teaser": "Quora has erased my accounts forty-six times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. One handle is open again as of today. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
+    "topics": [
+      "publishing",
+      "platform-independence"
+    ]
+  },
+  {
+    "slug": "Dictionary",
+    "title": "Dictionary: Skills Economy Terms",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-09-15",
+    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
+    "category": "Resources",
+    "collection": "posts",
+    "path": "posts/Dictionary.md",
+    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
+    "topics": [
+      "reference",
+      "terms"
     ]
   },
   {
@@ -275,21 +290,6 @@ export const ARTICLES: ArticleMeta[] = [
       "community",
       "clicklog",
       "directory"
-    ]
-  },
-  {
-    "slug": "old-links-new-links",
-    "title": "Old links, new links",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-28",
-    "excerpt": "Eleven Quora accounts erased, one space renamed. What is current, what is dead, and the one address that does not change.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/old-links-new-links.md",
-    "teaser": "Quora has erased my accounts eleven times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. This page is the standing record: the current space, the current handle, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
-    "topics": [
-      "publishing",
-      "platform-independence"
     ]
   },
   {
