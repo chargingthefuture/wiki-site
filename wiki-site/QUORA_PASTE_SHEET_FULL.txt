@@ -20,9 +20,9 @@ There is a screen in the app called Workforce. It models what a population of fi
 
 It has one problem. It is entirely about everybody, and it never once speaks to the person reading it.
 
-So people read the whole thing, follow every number, agree it adds up, and close it thinking: fine, but none of that is about me. I do not have that anymore.
+So people read the whole thing, follow every number, agree it adds up, and close it thinking: fine, but none of that is about me.
 
-Today there is a new tab at the end of that screen. It is called What's your 1%?, and it is the only part of the app that is only about you.
+Today there is a new tab at the end of that screen. It is called What's your 1%?
 
 What it does
 
