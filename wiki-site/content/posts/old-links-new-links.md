@@ -103,7 +103,7 @@ https://www.quora.com/profile/kingcough
 
 https://www.quora.com/profile/kingsoftlb
 
-https://www.quora.com/profile/kingofno-1
+https://www.quora.com/profile/kingofno-1 — opened at 10:30 at night on September 8, 2026, and banned by Quora Moderation at 12:49 the next morning. Two hours and eighteen minutes.
 
 https://www.quora.com/profile/kingdo-1 — opened at 5:40 in the morning on September 9, 2026, and banned by Quora Moderation at 5:46, six minutes later. kingdone, below, was opened two minutes after that ban.
 
