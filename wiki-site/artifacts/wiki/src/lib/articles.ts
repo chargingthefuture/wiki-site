@@ -37,6 +37,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "whats-your-hangup",
+    "title": "What's Your Hangup?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-15",
+    "excerpt": "An honest question with no trap in it. If something about the Skills Economy stops you, I want to know what it is. Here is the one I hear most, and what the record actually shows.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/whats-your-hangup.md",
+    "teaser": "If something about the Skills Economy stops you, say so under this post. The objection I hear most is that it is a step down from a real job. The record says otherwise: destitution arrives after you have already proven you can work. They removed you from an economy you were good at. Whatever they want, it is not your labor — so what is the hangup about working somewhere else?",
+    "topics": [
+      "community",
+      "skills-economy"
+    ]
+  },
+  {
     "slug": "peace-battle-2",
     "title": "Peace Battle 2",
     "repo": "chargingthefuture/wiki-site",
