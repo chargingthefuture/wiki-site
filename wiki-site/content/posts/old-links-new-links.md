@@ -85,7 +85,7 @@ https://www.quora.com/profile/kingcard
 
 https://www.quora.com/profile/kingfire-7
 
-https://www.quora.com/profile/kingiskind
+https://www.quora.com/profile/kingiskind — opened at 5:30 in the morning and banned by Quora Moderation at 7:58 the same morning. Two and a half hours. The notice gave the same spam-policy sentence as the rest. The date is not written here yet.
 
 https://www.quora.com/profile/kindking — opened at 11:06 in the morning on September 7, 2026, and banned by Quora Moderation at 1:34 that afternoon. Two and a half hours.
 
