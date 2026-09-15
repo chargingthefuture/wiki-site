@@ -95,7 +95,7 @@ https://www.quora.com/profile/mykingiskind — opened at 8:23 in the evening on 
 
 https://www.quora.com/profile/kingkinding
 
-https://www.quora.com/profile/thekingduck
+https://www.quora.com/profile/thekingduck — opened at 5:06 in the evening on September 8, 2026, and banned by Quora Moderation at 5:44. Thirty-eight minutes. It starts a run of four in one evening, each opened after the last was banned: kingbat-1, kingcough and kingsoftlb follow below.
 
 https://www.quora.com/profile/kingbat-1 — opened at 6:05 in the evening on September 8, 2026, and banned by Quora Moderation at 6:40 that evening. Thirty-four minutes. kingcough, below, was opened three minutes after this ban.
 
