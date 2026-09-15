@@ -45,25 +45,10 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Platform",
     "collection": "posts",
     "path": "posts/you-can-talk-under-these-posts-now.md",
-    "teaser": "There is now a conversation under every post on this blog. It is called Fireside. Reading it costs nothing — no account, no sign-in, nothing to create — which is the opposite of the platforms that erased eleven of my accounts and every comment under them. Writing takes a free account, and what you write is held until you are approved, which you are told at the moment you post rather than left to discover. Your words stay yours: take a comment down whenever you want, and nothing goes onto the published page unless you ask for it and an admin agrees.",
+    "teaser": "There is now a conversation under every post on this blog. It is called Fireside. Reading it costs nothing — no account, no sign-in, nothing to create — which is the opposite of the platforms that erased more than twenty of my accounts and every comment under them. Writing takes a free account, and what you write is held until you are approved, which you are told at the moment you post rather than left to discover. Your words stay yours: take a comment down whenever you want, and nothing goes onto the published page unless you ask for it and an admin agrees.",
     "topics": [
       "fireside",
       "platform"
-    ]
-  },
-  {
-    "slug": "nobody-calls-to-say-its-dead",
-    "title": "Nobody Calls to Tell You Your Project Is Dead",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-14",
-    "excerpt": "A member called to say the app is empty and worthless, asked me to ask them to stay, and asked for admin access. Three tells in one call.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/nobody-calls-to-say-its-dead.md",
-    "teaser": "Somebody on the app called to tell me it is dead, that nobody is on it, and that they are getting nothing out of it. In the same call they asked me to ask them to stay, and asked for advanced permissions so they could help bring people in — having brought nobody. A person who genuinely finds a thing empty just stops opening it. Here is what that call was, why the app gives someone like that so little to work with, and why a community built without stealing anybody does not fill up on command.",
-    "topics": [
-      "community",
-      "security"
     ]
   },
   {
@@ -79,6 +64,21 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "philosophy",
       "architecture"
+    ]
+  },
+  {
+    "slug": "nobody-calls-to-say-its-dead",
+    "title": "Nobody Calls to Tell You Your Project Is Dead",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-14",
+    "excerpt": "A member called to say the app is empty and worthless, asked me to ask them to stay, and asked for admin access. Three tells in one call.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/nobody-calls-to-say-its-dead.md",
+    "teaser": "Somebody on the app called to tell me it is dead, that nobody is on it, and that they are getting nothing out of it. In the same call they asked me to ask them to stay, and asked for advanced permissions so they could help bring people in — having brought nobody. A person who genuinely finds a thing empty just stops opening it. Here is what that call was, why the app gives someone like that so little to work with, and why a community built without stealing anybody does not fill up on command.",
+    "topics": [
+      "community",
+      "security"
     ]
   },
   {
