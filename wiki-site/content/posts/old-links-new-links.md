@@ -79,7 +79,7 @@ https://www.quora.com/profile/iammlk
 
 https://www.quora.com/profile/kingfree-2 — opened at 12:54 in the afternoon on September 3, 2026, and banned by Quora Moderation at 1:12 the same afternoon. Eighteen minutes. The notice arrived twice, seven seconds apart, and the screen shown in the app gave the same spam-policy sentence as the six above.
 
-https://www.quora.com/profile/kingfreeing
+https://www.quora.com/profile/kingfreeing — opened at 1:15 in the afternoon on September 3, 2026, three minutes after kingfree-2 was banned, and banned by Quora Moderation at 1:23. Eight minutes. The notice arrived twice, five seconds apart.
 
 https://www.quora.com/profile/kingcard — opened at 2:57 in the afternoon on September 3, 2026, and banned by Quora Moderation at 3:02. Five minutes and twelve seconds, the shortest on this page. The notice arrived twice, nine seconds apart.
 
