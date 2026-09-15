@@ -109,7 +109,7 @@ https://www.quora.com/profile/kingdo-1
 
 https://www.quora.com/profile/kingdone
 
-https://www.quora.com/profile/kingnow
+https://www.quora.com/profile/kingnow — opened at 5:55 in the morning on September 9, 2026, and banned by Quora Moderation at 6:46 that morning. Fifty-one minutes.
 
 https://www.quora.com/profile/kingsafethanright — opened at 11:38 in the morning on September 9, 2026, and banned by Quora Moderation at 2:16 that afternoon. Two hours and thirty-seven minutes.
 
