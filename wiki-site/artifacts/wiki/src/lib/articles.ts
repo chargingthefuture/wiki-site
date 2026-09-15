@@ -117,11 +117,11 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Old links, new links",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-09-15",
-    "excerpt": "Forty-six Quora accounts erased, one space renamed, and no handle there now. What is dead, and the one address that does not change.",
+    "excerpt": "Forty-seven Quora accounts erased, one space renamed, and no handle there now. What is dead, and the one address that does not change.",
     "category": "Community",
     "collection": "posts",
     "path": "posts/old-links-new-links.md",
-    "teaser": "Quora has erased my accounts forty-six times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. There is no handle of mine on Quora now. This page is the standing record: the space, the dead handles, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
+    "teaser": "Quora has erased my accounts forty-seven times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. There is no handle of mine on Quora now. This page is the standing record: the space, the dead handles, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
     "topics": [
       "publishing",
       "platform-independence"
