@@ -85,7 +85,7 @@ https://www.quora.com/profile/kingcard — opened at 2:57 in the afternoon on Se
 
 https://www.quora.com/profile/kingfire-7 — banned by Quora Moderation at 4:24 in the morning on September 7, 2026. It was opened at 6:36 in the morning, on a day the notice in hand does not name; the ban puts that no later than September 6.
 
-https://www.quora.com/profile/kingiskind — opened at 5:30 in the morning and banned by Quora Moderation at 7:58 the same morning. Two and a half hours. The notice gave the same spam-policy sentence as the rest. The date is not written here yet.
+https://www.quora.com/profile/kingiskind — opened at 5:30 in the morning on September 7, 2026, and banned by Quora Moderation at 7:58 that morning. Two and a half hours. The notice gave the same spam-policy sentence as the rest. Its two notices carry the times and not the day; the date comes from its place in the order, between two handles dated that same morning.
 
 https://www.quora.com/profile/kindking — opened at 11:06 in the morning on September 7, 2026, and banned by Quora Moderation at 1:34 that afternoon. Two and a half hours.
 
