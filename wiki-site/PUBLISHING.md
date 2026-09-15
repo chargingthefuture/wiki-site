@@ -156,6 +156,29 @@ platform export into markdown; review their output and add front matter before c
 
 ---
 
+## Publish a Fireside comment with its post
+
+The conversation under a post is read live from the app, which is what most readers see. That read
+happens after the page loads, so it is not in the published build and not in what a web archive
+captures.
+
+Copying a comment into the build is a separate, stricter step, and it is permanent. It takes two
+people: the author asks for it on their Fireside screen in the app, and an admin approves the
+request in the blog export queue. Neither one alone does anything, and an author can take the ask
+back at any point before the copy is made.
+
+Once both keys are turned, the copy is a run of one command here:
+
+1. `pnpm fireside:sync:dry` — see what would change.
+2. `pnpm fireside:sync` — write `artifacts/wiki/src/lib/fireside-exports.ts`.
+3. Read the diff. This is the last point at which anything can be stopped.
+4. Commit and push. The deploy publishes it, and the Wayback job captures it.
+
+It is not run automatically on deploy, on purpose. A job that publishes somebody's words
+permanently without a person reading them first would undo the reason two people have to agree.
+
+---
+
 ## Commands
 
 | Command | Action |
@@ -163,6 +186,8 @@ platform export into markdown; review their output and add front matter before c
 | `pnpm wiki:validate` | Validate front matter across `content/` |
 | `pnpm wiki:sync` | Regenerate `articles.ts` from front matter |
 | `pnpm wiki:sync:dry` | Preview sync changes |
+| `pnpm fireside:sync` | Copy the Fireside comments cleared for publication into the build |
+| `pnpm fireside:sync:dry` | Preview that copy without writing |
 | `pnpm wiki:preview` | Local dev server (http://localhost:5000) |
 | `pnpm wiki:build` | Build (base `/`) |
 | `pnpm wiki:build:pages` | GitHub Pages build (base `/chargingthefuture/` + 404.html) |

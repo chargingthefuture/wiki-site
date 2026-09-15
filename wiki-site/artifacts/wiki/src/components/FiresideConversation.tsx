@@ -1,8 +1,15 @@
 import { useEffect, useState } from "react";
+import { exportedCommentsFor, type ExportedComment } from "@/lib/fireside-exports";
 
 // The conversation under a post. Reading it needs no account and no sign-in — the blog is public,
 // so the talk under it is public too, which is the inversion of a platform that gates reading as
 // well as writing.
+//
+// What renders first is what shipped inside this build: the comments whose authors asked for them
+// to be published here and whose admin agreed, copied in by `pnpm fireside:sync`. That is what a
+// web archive captures, and it is what a reader with no JavaScript, a blocked app domain, or a slow
+// connection sees. The live read below then replaces it with the whole conversation, which is
+// wider — every publicly visible comment, not only the ones cleared for publication.
 //
 // Writing happens in the app. The app's write routes are same-origin and keep their CSRF and origin
 // checks, and a signed-in session lives on the app's own domain, so a form here would be refused —
@@ -23,6 +30,19 @@ type Comment = {
   body: string;
   createdAt: string;
 };
+
+// The build's copy carries a couple of fields this section does not render (which post it belongs
+// under, which it already knows) and names the id differently, so it is narrowed to the shape the
+// live read returns and the two are interchangeable from here on.
+function fromBuild(comment: ExportedComment): Comment {
+  return {
+    id: comment.commentId,
+    parentCommentId: comment.parentCommentId,
+    authorName: comment.authorName,
+    body: comment.body,
+    createdAt: comment.createdAt,
+  };
+}
 
 function joinUrl(repo: string, slug: string, title: string): string {
   const query = new URLSearchParams({ repo, slug });
@@ -54,7 +74,10 @@ export function FiresideConversation({
   slug: string;
   title: string;
 }) {
-  const [comments, setComments] = useState<Comment[] | null>(null);
+  // Starts from the build rather than from nothing, so the section is never empty on first paint
+  // when this post has published comments.
+  const published = exportedCommentsFor(repo, slug).map(fromBuild);
+  const [comments, setComments] = useState<Comment[] | null>(published.length > 0 ? published : null);
   const [unreachable, setUnreachable] = useState(false);
 
   useEffect(() => {

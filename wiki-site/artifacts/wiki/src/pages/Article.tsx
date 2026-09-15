@@ -179,18 +179,19 @@ export default function Article() {
               </div>
             </div>
 
-            <FiresideConversation repo={repo} slug={slug} title={meta ? meta.title : ""} />
-
-            {/* Author / End block */}
+            {/* Who wrote it, and the end of the post.
+                Above the conversation on purpose: the byline belongs to the piece, and under the
+                comments it read as though it signed them too. END OF FILE marks where the writing
+                stops, so the talk about it follows rather than being fenced off by it. */}
             <div className="mt-16 flex items-center justify-between border-t-4 border-dashed border-gray-800 pt-8">
               <div className="flex items-center gap-4">
                 <img 
                   src={`${import.meta.env.BASE_URL}images/logo-mark.png`} 
-                  alt="Avatar" 
+                  alt="Farah Brunache" 
                   className="w-16 h-16 rounded-full border-4 border-primary comic-shadow-sm bg-black"
                 />
                 <div>
-                  <div className="font-heading font-bold text-xl text-white uppercase">Charging The Future</div>
+                  <div className="font-heading font-bold text-xl text-white uppercase">Farah Brunache</div>
                   <div className="font-mono text-primary text-sm">System Architect</div>
                 </div>
               </div>
@@ -199,6 +200,8 @@ export default function Article() {
                 <div className="font-display text-3xl text-gray-700 tracking-widest">END OF FILE</div>
               </div>
             </div>
+
+            <FiresideConversation repo={repo} slug={slug} title={meta ? meta.title : ""} />
           </motion.article>
         )}
       </div>
