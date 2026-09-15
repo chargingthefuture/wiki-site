@@ -37,34 +37,18 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
-    "slug": "peace-battle-2",
-    "title": "Peace Battle 2",
+    "slug": "you-can-talk-under-these-posts-now",
+    "title": "You Can Talk Under These Posts Now",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-09-15",
-    "excerpt": "A protest starts Friday, September 18 at 7:00 PM Eastern. It has no location, because the people it is for are spread across the world and most of them cannot travel to stand anywhere.",
-    "category": "Community",
+    "excerpt": "Fireside is a conversation under every post here. Reading takes no account at all. Writing takes one, and what you write stays where you left it.",
+    "category": "Platform",
     "collection": "posts",
-    "path": "posts/peace-battle-2.md",
-    "teaser": "Survivors have tried to hold protests and turned up alone. A protest in a place assumes neighbors, money for travel, and a day you can afford to lose, and most Targeted Individuals have none of the three. So this one is distributed, like the thing it answers. It starts Friday, September 18 at 7:00 PM Eastern, it runs for years, and there are three ways to take part — all of them from a phone. The page with the countdown and the links is chargingthefuture.github.io/chargingthefuture/pb2.",
+    "path": "posts/you-can-talk-under-these-posts-now.md",
+    "teaser": "There is now a conversation under every post on this blog. It is called Fireside. Reading it costs nothing — no account, no sign-in, nothing to create — which is the opposite of the platforms that erased more than twenty of my accounts and every comment under them. Writing takes a free account, and what you write is held until you are approved, which you are told at the moment you post rather than left to discover. Your words stay yours: take a comment down whenever you want, and nothing goes onto the published page unless you ask for it and an admin agrees.",
     "topics": [
-      "community",
-      "skills-economy"
-    ]
-  },
-  {
-    "slug": "whats-your-one-percent",
-    "title": "What's Your 1%?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-15",
-    "excerpt": "A new Workforce tab runs the economy math backwards, for you. One percent of five million is 50,000 people. At $5 each that is $250,000.",
-    "category": "Product",
-    "collection": "posts",
-    "path": "posts/whats-your-one-percent.md",
-    "teaser": "Workforce tells you what a population of five million would look like. It never told you what you could do inside it, and a lot of people read the whole screen and conclude none of it is about them. The new tab starts from one percent — 50,000 people — and works back to the person serving them. At $5 a head that is $250,000 a year, three and a half times the average. It is weighted to your trade, because a plumber and a physiotherapist are not interchangeable. And no trade reaches 50,000 people one job at a time, so the tab names the five ways the same skill gets there.",
-    "topics": [
-      "product",
-      "economy",
-      "model"
+      "fireside",
+      "platform"
     ]
   },
   {
@@ -83,6 +67,21 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "peace-battle-2",
+    "title": "Peace Battle 2",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-15",
+    "excerpt": "A protest starts Friday, September 18 at 7:00 PM Eastern. It has no location, because the people it is for are spread across the world and most of them cannot travel to stand anywhere.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/peace-battle-2.md",
+    "teaser": "Survivors have tried to hold protests and turned up alone. A protest in a place assumes neighbors, money for travel, and a day you can afford to lose, and most Targeted Individuals have none of the three. So this one is distributed, like the thing it answers. It starts Friday, September 18 at 7:00 PM Eastern, it runs for years, and there are three ways to take part — all of them from a phone. The page with the countdown and the links is chargingthefuture.github.io/chargingthefuture/pb2.",
+    "topics": [
+      "community",
+      "skills-economy"
+    ]
+  },
+  {
     "slug": "ti-radio",
     "title": "TI Radio: a week of live discussions, and anyone can read it",
     "repo": "chargingthefuture/wiki-site",
@@ -95,6 +94,22 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "product",
       "community"
+    ]
+  },
+  {
+    "slug": "whats-your-one-percent",
+    "title": "What's Your 1%?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-15",
+    "excerpt": "A new Workforce tab runs the economy math backwards, for you. One percent of five million is 50,000 people. At $5 each that is $250,000.",
+    "category": "Product",
+    "collection": "posts",
+    "path": "posts/whats-your-one-percent.md",
+    "teaser": "Workforce tells you what a population of five million would look like. It never told you what you could do inside it, and a lot of people read the whole screen and conclude none of it is about them. The new tab starts from one percent — 50,000 people — and works back to the person serving them. At $5 a head that is $250,000 a year, three and a half times the average. It is weighted to your trade, because a plumber and a physiotherapist are not interchangeable. And no trade reaches 50,000 people one job at a time, so the tab names the five ways the same skill gets there.",
+    "topics": [
+      "product",
+      "economy",
+      "model"
     ]
   },
   {
