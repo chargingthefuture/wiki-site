@@ -71,7 +71,7 @@ https://www.quora.com/profile/kingoftlb
 
 https://www.quora.com/profile/tlbsking
 
-https://www.quora.com/profile/tlbsanditsking
+https://www.quora.com/profile/tlbsanditsking — opened at 1:02 in the afternoon on September 2, 2026, and banned by Quora Moderation at 11:06 the next morning. Twenty-two hours. The notice arrived twice, nineteen seconds apart.
 
 https://www.quora.com/profile/iamking-23 — opened at 12:31 in the afternoon on September 3, 2026, and banned by Quora Moderation at 12:44. Twelve minutes and thirty-nine seconds. The notice arrived twice, four seconds apart. iammlk, below, was opened two minutes after this ban.
 
