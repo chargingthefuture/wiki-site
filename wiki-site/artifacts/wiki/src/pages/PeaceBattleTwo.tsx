@@ -277,8 +277,8 @@ export default function PeaceBattleTwo() {
             cta="Open Fireside"
           >
             <p>
-              Read any post on this blog and leave a comment or a reaction under it. That is the whole
-              action. Reading the conversation needs no account at all.
+              Read any post on this blog and leave a comment or a reaction under it. Reading the
+              conversation needs no account at all.
             </p>
             <p>
               This is the one that answers Quora directly. Accounts of this project keep being

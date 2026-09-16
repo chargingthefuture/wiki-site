@@ -63,7 +63,7 @@ https://www.quora.com/profile/king900 — my twelfth handle, opened on August 28
 
 Then thirty-four more, in the order they were opened. I stopped writing the dates down one at a time, because by then a handle lasting a day was ordinary. They are back now, taken from the notices in my mail, and every handle on this page carries them. Three are short a detail the notice did not carry, and those say so. Every one of these addresses is a dead link somebody may still be holding.
 
-https://www.quora.com/profile/kingplaza-1 — opened at 9:01 in the evening on August 30, 2026, the same day king900 was banned before six that morning. Its ban notice reads 9:01 in the evening as well, and the capture of that one does not show a date, so the day it died is not recorded here.
+https://www.quora.com/profile/kingplaza-1 — opened at 9:01 in the evening on August 30, 2026, the same day king900 was banned before six that morning, and banned the same minute. Both notices are stamped 9:01, the confirmation at 9:01 and 49 seconds. It is the shortest life on this page and nothing else is close.
 
 https://www.quora.com/profile/kingpyramid — banned by Quora Moderation at 5:16 in the morning on September 2, 2026. The notice for it being opened is not here, so how long it lasted is not recorded.
 
@@ -83,7 +83,7 @@ https://www.quora.com/profile/kingfreeing — opened at 1:15 in the afternoon on
 
 https://www.quora.com/profile/kingcard — opened at 2:57 in the afternoon on September 3, 2026, and banned by Quora Moderation at 3:02. Five minutes and twelve seconds, the shortest on this page. The notice arrived twice, nine seconds apart.
 
-https://www.quora.com/profile/kingfire-7 — banned by Quora Moderation at 4:24 in the morning on September 7, 2026. It was opened at 6:36 in the morning, on a day the notice in hand does not name; the ban puts that no later than September 6.
+https://www.quora.com/profile/kingfire-7 — opened at 6:36 in the morning on September 5, 2026, and banned by Quora Moderation at 4:24 in the morning on September 7. Forty-six hours.
 
 https://www.quora.com/profile/kingiskind — opened at 5:30 in the morning on September 7, 2026, and banned by Quora Moderation at 7:58 that morning. Two and a half hours. The notice gave the same spam-policy sentence as the rest. Its two notices carry the times and not the day; the date comes from its place in the order, between two handles dated that same morning.
 
@@ -137,7 +137,7 @@ Worth recording, because it is the part that settles the question.
 
 Each of these accounts ran a different content strategy. That was deliberate. One posted at volume. One posted twice in its entire life — two short summaries with a link back here, no reposting, no back catalog. Others sat between. Exactly one of them ever received a warning, and I changed how I posted after it.
 
-Some did not last long enough to have a strategy at all. The shortest was kingcard, at five minutes and twelve seconds. kingdone ran nine seconds longer, and the two either side of kingdone that same morning lasted six minutes and fifty-one. The handle kingsroad was opened to replace the account banned the day before, and was banned the next day. Then kingsyou replaced kingsroad, and was banned the next day. Whatever is deciding this is not reading the posts, because in those two cases there was almost nothing to read.
+Some did not last long enough to have a strategy at all. The shortest was kingplaza-1, banned inside the minute it was opened. After it, kingcard at five minutes and twelve seconds, kingdone nine seconds longer, and the two either side of kingdone that same morning at six minutes and fifty-one. The handle kingsroad was opened to replace the account banned the day before, and was banned the next day. Then kingsyou replaced kingsroad, and was banned the next day. Whatever is deciding this is not reading the posts, because in those two cases there was almost nothing to read.
 
 They ended the same way regardless, and the reason given is the same boilerplate every time: financial gain and spam. Neither is true.
 
