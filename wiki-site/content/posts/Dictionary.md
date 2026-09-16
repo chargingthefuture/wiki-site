@@ -37,7 +37,7 @@ Charging The Future — the organization and umbrella brand. Use the full name w
 
 Skills Economy (SE) — the product: the apps, community tools, and economic infrastructure built for survivors. Earlier writing says "TI Skills Economy" or "TSE"; those names are retired, and old posts keep them as historical record.
 
-TI Radio — the one product name that keeps "TI" in it, and the only exception to the retirement above (owner decision, 2026-09-14). It is named for the Quora space at tiradio.quora.com that it was built to serve, and people arriving from there need to find the same name on both sides. Consistency for somebody crossing over is worth more here than the naming rule. Do not read it as a reopening: every other product name drops TI, and a second exception is the owner's decision rather than a precedent this one sets.
+TI Radio — the one product name that keeps "TI" in it, and the only exception to the retirement above (owner decision, 2026-09-14). It is named for the space it was built to serve, and people arriving from there need to find the same name on both sides. Consistency for somebody crossing over is worth more here than the naming rule. Do not read it as a reopening: every other product name drops TI, and a second exception is the owner's decision rather than a precedent this one sets.
 
 Survivors — the default word for the people here, in the app and in writing. Preferred over "victims" everywhere except legal or statutory references.
 
