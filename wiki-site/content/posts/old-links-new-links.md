@@ -1,15 +1,15 @@
 ---
 title: "Old links, new links"
 date: "2026-09-15"
-excerpt: "Forty-six Quora accounts erased, one space renamed, and one handle open again. What is live, what is dead, and the one address that does not change."
+excerpt: "Forty-seven Quora accounts erased, one space renamed, and one handle open again. What is live, what is dead, and the one address that does not change."
 category: "Community"
-teaser: "Quora has erased my accounts forty-six times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. One handle is open again as of today. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
+teaser: "Quora has erased my accounts forty-seven times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. One handle is open again as of today. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
 topics:
   - publishing
   - platform-independence
 ---
 
-Quora has erased my accounts forty-six times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
+Quora has erased my accounts forty-seven times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
 
 There is one handle of mine on Quora, opened today. Everything before it is dead.
 
@@ -37,7 +37,7 @@ A handle and a space, and nothing else on Quora is me. If another account claims
 
 https://tiskillsnetwork.quora.com — the original space. Replaced by skillseconomy.quora.com above. Links into it are dead.
 
-https://www.quora.com/profile/pedigree101 — my first handle. Banned by Quora on September 14, 2025, seventeen minutes after I posted the app's first release. A ban deletes everything the account ever posted, so all of it went with it.
+https://www.quora.com/profile/pedigree101 — my first handle. Banned by Quora on September 14, 2025, seventeen minutes after I posted the app's first release. The first five handles on this page carry the day they were banned and not the day they were opened; I was not keeping the confirmation notices yet, and they are gone. A ban deletes everything the account ever posted, so all of it went with it.
 
 https://www.quora.com/profile/farah-brunache — my second handle. Banned by Quora on August 16, 2026. A Quora ban deletes everything the account ever posted, which is why the handle and its space are still standing and bare.
 
@@ -61,7 +61,7 @@ https://www.quora.com/profile/kingmonk — my eleventh handle, opened on August 
 
 https://www.quora.com/profile/king900 — my twelfth handle, opened on August 28, 2026, the day the eleventh was banned, and banned by Quora Moderation at 5:02 in the morning on August 30, 2026. Two days. The notice arrived twice, a minute apart.
 
-Then thirty-four more, in the order they were opened. I stopped writing the dates down one at a time, because by then a handle lasting a day was ordinary. They are back now, taken from the notices in my mail, and every handle on this page carries them. Three are short a detail the notice did not carry, and those say so. Every one of these addresses is a dead link somebody may still be holding.
+Then thirty-five more, in the order they were opened. I stopped writing the dates down one at a time, because by then a handle lasting a day was ordinary. They are back now, taken from the notices in my mail. One of them, kingpyramid, has its ban and not its opening, and says so; the notice for that one is gone. Every one of these addresses is a dead link somebody may still be holding.
 
 https://www.quora.com/profile/kingplaza-1 — opened at 9:01 in the evening on August 30, 2026, the same day king900 was banned before six that morning, and banned the same minute. Both notices are stamped 9:01, the confirmation at 9:01 and 49 seconds. It is the shortest life on this page and nothing else is close.
 
@@ -82,6 +82,8 @@ https://www.quora.com/profile/kingfree-2 — opened at 12:54 in the afternoon on
 https://www.quora.com/profile/kingfreeing — opened at 1:15 in the afternoon on September 3, 2026, three minutes after kingfree-2 was banned, and banned by Quora Moderation at 1:23. Eight minutes. The notice arrived twice, five seconds apart.
 
 https://www.quora.com/profile/kingcard — opened at 2:57 in the afternoon on September 3, 2026, and banned by Quora Moderation at 3:02. Five minutes and twelve seconds, the shortest on this page. The notice arrived twice, nine seconds apart.
+
+https://www.quora.com/profile/kingbrunch — opened at 4:32 in the afternoon on September 4, 2026, and banned by Quora Moderation at 5:42 the next morning. Thirteen hours. The confirmation capture does not carry a day; September 4 is the latest it can be, because 4:32 in the afternoon on the 5th would fall after the ban.
 
 https://www.quora.com/profile/kingfire-7 — opened at 6:36 in the morning on September 5, 2026, and banned by Quora Moderation at 4:24 in the morning on September 7. Forty-six hours.
 
@@ -167,4 +169,4 @@ The old GitHub wiki — an inactive mirror. It no longer receives updates; this 
 
 Nothing is written on a platform first anymore. Every post starts here, and platforms only ever get a short version and a link back. So the next time an account is erased — and I assume there will be a next time — the cost is one entry moving from the current list to the dead list on this page. That is all.
 
-Since this page first went up, that has happened forty-four times. The list above is current, and kingcue is the entry waiting to move onto it.
+Since this page first went up, that has happened forty-five times. The list above is current, and kingcue is the entry waiting to move onto it.
