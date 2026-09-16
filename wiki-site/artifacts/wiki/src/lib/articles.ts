@@ -75,7 +75,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Product",
     "collection": "posts",
     "path": "posts/ti-radio.md",
-    "teaser": "There is a Quora space at tiradio.quora.com where people are told to come and talk. A space can point at one time. It cannot hold a schedule, and it cannot let somebody else put themselves on one. So there is now a page that does both: seven days of 90-minute slots, in your own timezone, showing who is hosting and what it is about. Reading it needs no account at all. Taking a slot needs one.",
+    "teaser": "Survivors host live discussions, and until now the only way to say so was an announcement. An announcement reaches whoever is looking the day it goes out, and it cannot let somebody else put themselves on a list. So there is now a page that holds a week: seven days of 90-minute slots, in your own timezone, showing who is hosting and what it is about. Reading it needs no account at all. Taking a slot needs one.",
     "topics": [
       "product",
       "community"

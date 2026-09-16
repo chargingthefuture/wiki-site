@@ -42,7 +42,7 @@ Charging The Future — the organization and umbrella brand. Use the full name w
 
 Skills Economy (SE) — the product: the apps, community tools, and economic infrastructure built for survivors. Earlier writing says "TI Skills Economy" or "TSE"; those names are retired, and old posts keep them as historical record.
 
-TI Radio — the one product name that keeps "TI" in it, and the only exception to the retirement above (owner decision, 2026-09-14). It is named for the Quora space at tiradio.quora.com that it was built to serve, and people arriving from there need to find the same name on both sides. Consistency for somebody crossing over is worth more here than the naming rule. Do not read it as a reopening: every other product name drops TI, and a second exception is the owner's decision rather than a precedent this one sets.
+TI Radio — the one product name that keeps "TI" in it, and the only exception to the retirement above (owner decision, 2026-09-14). It is named for the space it was built to serve, and people arriving from there need to find the same name on both sides. Consistency for somebody crossing over is worth more here than the naming rule. Do not read it as a reopening: every other product name drops TI, and a second exception is the owner's decision rather than a precedent this one sets.
 
 Survivors — the default word for the people here, in the app and in writing. Preferred over "victims" everywhere except legal or statutory references.
 
@@ -437,11 +437,11 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-si
 ==============================================================================
 2026-09-15 · TI Radio: a week of live discussions, and anyone can read it
 
-There is a Quora space at tiradio.quora.com. People are told to come there and talk.
+Survivors host live discussions. Until now the only way to say one was happening was to announce it.
 
-A space can point at one time. It cannot hold a schedule. And it cannot let somebody else put themselves on one.
+An announcement can point at one time. It cannot hold a schedule. And it cannot let somebody else put themselves on one.
 
-So now there is a page that does both.
+So now there is a page that does both (https://app.chargingthefuture.com/ti-radio).
 
 What it is
 
@@ -461,7 +461,7 @@ This is the part worth saying plainly, because it is not how the rest of the app
 
 You do not sign in. You do not get verified. You do not join anything. You open the page and read the schedule.
 
-Almost every other screen here is behind approval, and for good reasons I have written about before. This one is not, and the reason is who it is for. The people it was built for are on Quora right now and have not joined anything. Telling them to sign up before they can even see when a discussion is happening asks for the thing at the end and gives nothing at the start.
+Almost every other screen here is behind approval, and for good reasons I have written about before. This one is not, and the reason is who it is for. The people it was built for have not joined anything yet. Telling them to sign up before they can even see when a discussion is happening asks for the thing at the end and gives nothing at the start.
 
 So the schedule is open. Anyone can link to it. Anyone can plan around it.
 
