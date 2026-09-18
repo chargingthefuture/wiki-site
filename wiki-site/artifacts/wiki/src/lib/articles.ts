@@ -37,6 +37,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-espada",
+    "title": "An invitation to Espada",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-18",
+    "excerpt": "Five kinds of work on one listing, landing on five of the thirteen jobs a community has to be able to fill. One of them the Directory is nearly empty in.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-espada.md",
+    "teaser": "The app keeps a list of thirteen jobs a community has to be able to fill before it can run — water, power, food, care, safety, making and mending, and the rest. No one person fills thirteen jobs and nobody is asked to. What a list is for is seeing which of them are thin. Espada describes the work as small engine repair, installing CCTV, appliance repair, handyman, plumber's apprentice. That lands on five of the thirteen, and one of them is a job the whole Directory currently holds three skills for, out of nineteen.",
+    "topics": [
+      "community",
+      "directory"
+    ]
+  },
+  {
     "slug": "how-to-run-a-one-percent-session",
     "title": "How to run a one percent session",
     "repo": "chargingthefuture/wiki-site",
@@ -79,21 +94,6 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "philosophy",
       "community"
-    ]
-  },
-  {
-    "slug": "an-invitation-to-espada",
-    "title": "An invitation to Espada",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-18",
-    "excerpt": "Four skills on one listing, landing on four of the thirteen jobs a community has to fill before it runs. This is the invitation, in public, so Espada can decide in their own time.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/an-invitation-to-espada.md",
-    "teaser": "The app keeps a list of thirteen jobs a community has to fill before it can run — water, power, food, care, safety, making and mending, and the rest. No place fills all thirteen on its own, and the point of a list is to see which ones are thin. Espada is listed in the Directory for plumbing, small engine repair, appliance repair and CCTV. Those four skills land on four of the thirteen, and one of them is a job the whole list currently holds three skills for, out of nineteen.",
-    "topics": [
-      "community",
-      "directory"
     ]
   },
   {
