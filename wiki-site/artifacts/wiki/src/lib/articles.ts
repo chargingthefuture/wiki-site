@@ -37,6 +37,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "follow-without-an-account",
+    "title": "Follow This Blog Without an Account",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-17",
+    "excerpt": "There is now a feed for this blog. No account, no email address, and nobody in the middle who can take it away.",
+    "category": "Platform",
+    "collection": "posts",
+    "path": "posts/follow-without-an-account.md",
+    "teaser": "There is now an RSS feed for this blog. A feed is a plain list of what has been published that any reader app can check for you, so new posts arrive without you remembering to come back. It needs no account and no email address, and there is no company in the middle who could remove it. Most people do not use feed readers and I am not going to pretend otherwise — but the ones who do have been unreachable until now, and Quora has erased my accounts forty-seven times, which is forty-seven times everybody following me lost the thread.",
+    "topics": [
+      "platform",
+      "rss"
+    ]
+  },
+  {
     "slug": "whats-your-hangup",
     "title": "What's Your Hangup?",
     "repo": "chargingthefuture/wiki-site",
