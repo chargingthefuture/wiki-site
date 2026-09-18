@@ -77,6 +77,12 @@ carries it, because the owner froze that page outright and that freeze has not b
 - CI (no publish): `.github/workflows/wiki-validate.yml` on `main` pushes and PRs.
 - Weekly product updates are committed into `content/product-updates/` by `generate-product-update.yml` in the product repo.
 - Distribution posture: platforms (Quora etc.) receive excerpt + image + canonical link only; nothing is authored there. See `wiki-site/PUBLISHING.md`.
+- RSS: `artifacts/wiki/public/feed.xml`, generated from the same front matter `wiki:sync` reads, by
+  `scripts/src/build-feed.ts`. Newest 50 listed items across every collection, matching the site's
+  own `/feed` page. It is build output, not source — gitignored, written by `wiki:build` and
+  `wiki:build:pages`, so it cannot fall behind the posts. Never hand-edit it; edit the post. The
+  page carries an autodiscovery link in `index.html` so a reader given the site address finds the
+  feed without anybody copying an XML address, and a "Follow by RSS" row sits in the footer.
 
 ## Commands (run from `wiki-site/`)
 
@@ -85,6 +91,7 @@ carries it, because the owner froze that page outright and that freeze has not b
 | `pnpm wiki:validate` | Validate `content-index.yaml` |
 | `pnpm wiki:spelling` | Fail on any British spelling outside `content/archive/` |
 | `pnpm wiki:sync` | Regenerate `articles.ts` from the index |
+| `pnpm wiki:feed` | Regenerate the RSS feed at `artifacts/wiki/public/feed.xml` (both build scripts run this) |
 | `pnpm wiki:sync:dry` | Preview sync changes |
 | `pnpm fireside:sync` | Copy the Fireside comments the app has cleared for publication into `artifacts/wiki/src/lib/fireside-exports.ts` |
 | `pnpm fireside:sync:dry` | Preview that copy without writing |
