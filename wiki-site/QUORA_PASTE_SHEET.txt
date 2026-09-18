@@ -2288,7 +2288,7 @@ UPDATE · 2026-09-17 · Old links, new links — forty-eight accounts erased, an
 
 Quora has now erased forty-eight of my accounts. The standing record lists every one, because each dead handle is an address somebody may still be holding, and following it lands them nowhere.
 
-The one that just went was kingcue, which had been current for two days. Its opening time is on the page because I still had that notice; the ban is not, because I do not have that one, and the entry says so rather than carrying a date I would be guessing at.
+The one that just went was kingcue. It was opened at 11:56 in the morning on September 15 and banned at 4:14 in the morning on September 17 — just over forty hours. Both notices are in my mail, so both times are on the page.
 
 The current handle is https://www.quora.com/profile/kinghow — and nothing else on Quora is me. If another account claims to be, it is not.
 
