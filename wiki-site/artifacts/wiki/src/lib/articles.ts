@@ -37,6 +37,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "my-turn",
+    "title": "My turn",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-18",
+    "excerpt": "I ask everybody here to say what they can do. It is unreasonable to keep asking without answering it myself, so here is mine.",
+    "category": "Philosophy",
+    "collection": "posts",
+    "path": "posts/my-turn.md",
+    "teaser": "Every week I ask somebody to say what they can do and to consider offering it, as work or as a hobby. It is unreasonable to keep asking without answering it myself. First and before anything else I am an artist — I have known that since a school drawing somebody asked to keep. Since 2023 I have been something else as well, and this post is me working out what. What I can offer the Skills Economy, beyond building the app, is helping other Targeted Individuals reach their one percent.",
+    "topics": [
+      "philosophy",
+      "community"
+    ]
+  },
+  {
     "slug": "how-are-you-doing",
     "title": "How are you doing?",
     "repo": "chargingthefuture/wiki-site",
@@ -46,21 +61,6 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "posts",
     "path": "posts/how-are-you-doing.md",
     "teaser": "Asking a Targeted Individual how they are doing is not always a kindness. Their raw material is your pain, so the answer is the thing being collected — which is why the question gets asked at all, alongside holding a door and then saying something, or telling a woman she should smile more. So I am not going to ask you how you are doing. I already know, because I am living the same week. I am going to ask what you need, which is a question with an answer somebody can act on. Coexistence over conspiracy.",
-    "topics": [
-      "philosophy",
-      "community"
-    ]
-  },
-  {
-    "slug": "my-turn",
-    "title": "My turn",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-18",
-    "excerpt": "I ask everybody here to say what they can do. It is unreasonable to keep asking without answering it myself, so here is mine.",
-    "category": "Philosophy",
-    "collection": "posts",
-    "path": "posts/my-turn.md",
-    "teaser": "Every week I ask somebody to say what they can do and to consider offering it, as work or as a hobby. It is unreasonable to keep asking without answering it myself. First and before anything else I am an artist — I have known that since a school drawing somebody asked to keep. Since 2024 I have been something else as well, and this post is me working out what. What I can offer the Skills Economy, beyond building the app, is helping other Targeted Individuals reach their one percent.",
     "topics": [
       "philosophy",
       "community"

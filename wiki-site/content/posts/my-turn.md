@@ -3,7 +3,7 @@ title: "My turn"
 date: "2026-09-18"
 excerpt: "I ask everybody here to say what they can do. It is unreasonable to keep asking without answering it myself, so here is mine."
 category: "Philosophy"
-teaser: "Every week I ask somebody to say what they can do and to consider offering it, as work or as a hobby. It is unreasonable to keep asking without answering it myself. First and before anything else I am an artist — I have known that since a school drawing somebody asked to keep. Since 2024 I have been something else as well, and this post is me working out what. What I can offer the Skills Economy, beyond building the app, is helping other Targeted Individuals reach their one percent."
+teaser: "Every week I ask somebody to say what they can do and to consider offering it, as work or as a hobby. It is unreasonable to keep asking without answering it myself. First and before anything else I am an artist — I have known that since a school drawing somebody asked to keep. Since 2023 I have been something else as well, and this post is me working out what. What I can offer the Skills Economy, beyond building the app, is helping other Targeted Individuals reach their one percent."
 topics:
   - philosophy
   - community
@@ -23,11 +23,11 @@ I already knew I could draw. What I did not know until that moment was what it f
 
 This is not about selling art. Selling art is fine and plenty of people should. It is that I drew for myself, I enjoyed every minute of it, and it made somebody else happy at the same time. Those three things arriving together is the thing I have been chasing ever since, and the artist in me has shown up in everything I have built since, including this app.
 
-## Then 2024
+## Then 2023
 
 It has been going since I was five. For most of that time it came in cycles — a stretch of it, then quiet, then a stretch of it again.
 
-In 2024 it went continuous. It also got bigger. It used to be a selective few; more exposure brought in more of the groups, and the head count went up with it.
+In 2023 it went continuous. It also got bigger. It used to be a selective few; more exposure brought in more of the groups, and the head count went up with it.
 
 That changes the question a person asks about their own future. Not what do I want to be, which is a question for somebody with a straight road in front of them. More like: given this, what am I now.
 
