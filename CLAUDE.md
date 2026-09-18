@@ -522,7 +522,7 @@ URLs:
 | Commons (the group chat) | `https://app.chargingthefuture.com` |
 
 Every part has a guide section as of 2026-09-16 — all twenty-seven: beacon, bug-reporting, chyme,
-click-log, commons, contributions, directory, fireside, foundation, gdp, knowledge, level-up,
+click-log, commons, contributions, directory, fireside, foundation, gdp, knowledge, skill-up,
 lighthouse, mood, mutual-time, peer-programming, recurring-activity, service-credits, skills-hunt,
 skills-taxonomy, socket-relay, ti-radio, trust, trust-transport, unlock, what-works, workforce. The list is
 generated from `ctf/packages/web/app/guide/guide-content.json` in the product repo — check it

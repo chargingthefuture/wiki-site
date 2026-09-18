@@ -67,6 +67,21 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "how-to-run-a-one-percent-session",
+    "title": "How to run a one percent session",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-18",
+    "excerpt": "Eight questions, in order, that turn a list of your skills into a figure and then into the first thing to do about it. Run it on yourself or for somebody else.",
+    "category": "Guides",
+    "collection": "posts",
+    "path": "posts/how-to-run-a-one-percent-session.md",
+    "teaser": "I said I would spend my time helping Targeted Individuals work toward their one percent. Here is the entire method, written down so you can run it without me — on yourself, or for somebody else. Eight questions in order. What do you need, is your list of skills right, what would you charge one person once, what does that come to across fifty thousand, who is the first one, what stands between you and them, what can be arranged about that specific thing, and one next action with a name against it.",
+    "topics": [
+      "guides",
+      "community"
+    ]
+  },
+  {
     "slug": "an-invitation-to-christy",
     "title": "An invitation to Christy",
     "repo": "chargingthefuture/wiki-site",
