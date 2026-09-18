@@ -90,7 +90,7 @@ with nothing recorded. These are the next few, with angles rotated so no two in 
 
 | Person | Handle | Skills | invite_kind | Angle | Status |
 |---|---|---|---|---|---|
-| Espada | ESPADA-18 | Plumbing, small engine repair, appliance repair, CCTV | skill-specific | A working economy needs people who | queued |
+| Espada | ESPADA-18 | Plumbing, small engine repair, appliance repair, CCTV | skill-specific | A working economy needs people who | in PR |
 | Dayna | Dayna-388 | Inventory, demand forecasting, route planning, last-mile delivery; offering soap and candles | skill-specific | You already have a profile | queued |
 | Syah | Syah-Neal-AdoreTM | Garment construction, fit and sizing, textile sourcing | skill-specific | Estonia, 1991 | queued |
 | Gn0b0dy Pneuma | Gn0b0dy-Pneuma | Advocacy placeholder only | advocacy-only | You do not have to agree with me | queued |
