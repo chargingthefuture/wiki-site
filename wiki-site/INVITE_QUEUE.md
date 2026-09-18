@@ -90,7 +90,6 @@ with nothing recorded. These are the next few, with angles rotated so no two in 
 
 | Person | Handle | Skills | invite_kind | Angle | Status |
 |---|---|---|---|---|---|
-| Christy | None-Ya-970 | Clinical care; structural design, geotechnical assessment, construction supervision | skill-specific | Two things have to be true | in PR |
 | Espada | ESPADA-18 | Plumbing, small engine repair, appliance repair, CCTV | skill-specific | A working economy needs people who | queued |
 | Dayna | Dayna-388 | Inventory, demand forecasting, route planning, last-mile delivery; offering soap and candles | skill-specific | You already have a profile | queued |
 | Syah | Syah-Neal-AdoreTM | Garment construction, fit and sizing, textile sourcing | skill-specific | Estonia, 1991 | queued |
