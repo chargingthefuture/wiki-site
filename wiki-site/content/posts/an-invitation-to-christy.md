@@ -17,13 +17,15 @@ Most lists have those on opposite sides of a room. There is one person on the Di
 
 ## Christy
 
-Christy (https://www.quora.com/profile/None-Ya-970), in the United States. Her Directory listing carries eight skills across two trades.
+Christy (https://www.quora.com/profile/None-Ya-970), in the United States. Her Directory profile is at https://app.chargingthefuture.com/apps/directory/profile/173cb388-7df9-4079-a048-4de2d64b2bf4 and it carries eight skills across two trades.
+
+![Christy's Directory profile in the app. The name Christy, with the line Just about anything. underneath, a sector tag reading Housing & Construction, and a location of United States. A control reads View Quora profile. Under About: Caregiver right now. I have held many different jobs over the years. Jane of all trades master of none. Under Specializations, eight tags: Patient assessment and monitoring; Medication administration; Wound care and procedures; Patient education and triage; Structural design; Geotechnical assessment; Construction supervision; Site surveys and CAD. Below, a panel headed Want to work together? reads: the directory shows who is in the community and what they do. Want a service or good from this person? Look for them in Foundation, where members offer and exchange help — or browse Foundation to find someone else who can.](images/christy-directory-profile-2026-09-17.png)
 
 On one side: patient assessment and monitoring, medication administration, wound care and procedures, patient education and triage.
 
 On the other: structural design, geotechnical assessment, construction supervision, and site surveys and CAD.
 
-Her own description is shorter than the list: caregiver right now, many different jobs over the years, a Jane of all trades and master of none. Her headline is two words — just about anything.
+Her own description is shorter than the list: caregiver right now, many different jobs over the years, a Jane of all trades and master of none. Her headline is two words — just about anything, and the profile files her under Housing & Construction, which is one of the two trades and not the other.
 
 ## Why the range is the thing, not the caveat
 
