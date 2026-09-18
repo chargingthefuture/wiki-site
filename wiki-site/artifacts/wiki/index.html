@@ -6,6 +6,13 @@
     <title>Charging The Future Blog</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <!--
+      Feed autodiscovery. A reader handed the site address finds the feed from
+      this line, with nobody copying an XML address out of a page — which is the
+      step that loses people. %BASE_URL% is replaced at build time, so it is
+      right locally and under the /chargingthefuture/ path on Pages alike.
+    -->
+    <link rel="alternate" type="application/rss+xml" title="Charging The Future" href="%BASE_URL%feed.xml" />
+    <!--
       No web font is loaded from a third party here. Readers of this blog have
       reason not to want their IP address and User-Agent handed to another
       company on every page view, and a font stylesheet does exactly that.

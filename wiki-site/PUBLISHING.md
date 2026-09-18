@@ -124,6 +124,30 @@ Rules of the posture:
 
 ---
 
+## Following without a platform (RSS)
+
+The blog publishes an RSS feed at
+`https://chargingthefuture.github.io/chargingthefuture/feed.xml`.
+
+Nothing has to be done to keep it current. It is generated from the same front matter the article
+registry reads, by `pnpm wiki:feed`, which both `wiki:build` and `wiki:build:pages` run — so it
+updates on every deploy and cannot fall behind the posts. It is not committed and must never be
+hand-edited: edit the post and rebuild.
+
+What is in it: the newest 50 listed items across every collection, each with its title, canonical
+address, date and teaser. Archive imports carry their original posting date, so bringing in old
+material sorts it below current posts rather than pushing fifty items at every subscriber.
+
+Two things make it findable without anybody copying an address out of a page: an autodiscovery
+link in the page head, which is how a reader given the site address finds the feed, and a
+"Follow by RSS" row in the footer.
+
+Why it exists, given that few readers use feed readers now. It is a way to follow this blog that
+nobody can revoke — no account, no address handed over, no company in the middle to complain to,
+which is not true of any platform account or of email. It is also the machine-readable list of what
+has been published, so any later step that mails posts out reads this rather than needing its own
+code.
+
 ## Automated product updates
 
 Product updates are generated and published by the `generate-product-update.yml` workflow in the
@@ -186,6 +210,7 @@ permanently without a person reading them first would undo the reason two people
 | `pnpm wiki:validate` | Validate front matter across `content/` |
 | `pnpm wiki:sync` | Regenerate `articles.ts` from front matter |
 | `pnpm wiki:sync:dry` | Preview sync changes |
+| `pnpm wiki:feed` | Regenerate `feed.xml` (both build commands already run it) |
 | `pnpm fireside:sync` | Copy the Fireside comments cleared for publication into the build |
 | `pnpm fireside:sync:dry` | Preview that copy without writing |
 | `pnpm wiki:preview` | Local dev server (http://localhost:5000) |
