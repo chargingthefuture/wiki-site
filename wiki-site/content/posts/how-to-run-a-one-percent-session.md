@@ -109,7 +109,7 @@ Then do the thing you said you would do. The conversation was not the work.
 
 Because one person cannot run five hundred thousand sessions, and a method that only exists inside somebody's head reaches exactly as far as that person's calendar.
 
-It is also the honest answer to anybody who suspects this is a funnel. Here is the entire thing. Take it.
+It is also the honest answer to anybody who suspects this is a funnel. Here is the entire thing.
 
 ## Where to find it in the app
 
