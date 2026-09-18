@@ -67,6 +67,21 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "an-invitation-to-christy",
+    "title": "An invitation to Christy",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-17",
+    "excerpt": "Keeping people well and building things that hold are both on the list, and Christy is listed for both. This is the invitation, in public, so she can decide in her own time.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-christy.md",
+    "teaser": "A community that stands up on its own needs two things to be true at once: somebody keeps people well, and somebody builds what holds. Christy is listed in the Directory for both — patient assessment, medication, wound care and triage on one side; structural design, geotechnical assessment, construction supervision and site surveys on the other. She describes herself as a Jane of all trades, master of none. On a list where most of the 657 skills a working economy needs have nobody in them at all, range is not the lesser thing.",
+    "topics": [
+      "community",
+      "directory"
+    ]
+  },
+  {
     "slug": "whats-your-hangup",
     "title": "What's Your Hangup?",
     "repo": "chargingthefuture/wiki-site",
