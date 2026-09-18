@@ -35,7 +35,9 @@ What followed is a straight line: the surveys and the map that summer, the netwo
 
 One thing that line of dates hides. A reader could assume it was built from a stable base — a car, a home, a job. I had none of the three.
 
-The targeting began when I was five and has cycled between covert and overt my whole life. On January 1, 2024, it restarted as 24/7 overt, and it made me destitute very fast. I spent these two years living outside. My car was stolen. Every employment opportunity was blocked. I was punched in the face, back-handed, pushed to the ground and, the same day, exposed nude. Before this cycle, I had been punched in the face and run over with a car. The Forced Homecoming scheme was run all the way to fruition, and one TI — one of the three the last post is about — helped me escape it.
+The targeting began when I was five and has cycled between covert and overt my whole life. On January 1, 2023, it restarted as 24/7 overt, and it made me destitute very fast. I spent these two years living outside. My car was stolen. Every employment opportunity was blocked. I was punched in the face, back-handed, pushed to the ground and, the same day, exposed nude. Before this cycle, I had been punched in the face and run over with a car. The Forced Homecoming scheme was run all the way to fruition, and one TI — one of the three the last post is about — helped me escape it.
+
+Correction, 2026-09-18: this originally gave the date as January 1, 2024. The year was wrong; the overt phase restarted on January 1, 2023.
 
 I list this for accuracy, not for rank. I have met TIs who endure the torture differently, and this is not me saying I have it worse. It is here so the two years are read as they happened: the survey, the network, the Directory, the app, and the Skills Economy were built outside, while this was going on.
 

@@ -19,7 +19,9 @@ What I got wrong was the motive.
 
 ## What changed
 
-I have been targeted since I was five years old. For most of that time it was covert — I could see it, but they did not want me to be certain. On January 1, 2024 it went overt, which is a deliberate stage: they want you to know it is happening, and it runs continuously.
+I have been targeted since I was five years old. For most of that time it was covert — I could see it, but they did not want me to be certain. On January 1, 2023 it went overt, which is a deliberate stage: they want you to know it is happening, and it runs continuously.
+
+Correction, 2026-09-18: this originally gave the date as January 1, 2024. The year was wrong; the overt phase restarted on January 1, 2023.
 
 Living inside that changes what certain sentences sound like.
 
