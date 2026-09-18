@@ -232,19 +232,24 @@ export default function PeaceBattleTwo() {
 
         <h2 className="font-heading text-3xl uppercase font-bold text-primary mb-4">Envision</h2>
         <p className="font-sans text-lg text-gray-300 mb-6">
-          Two things to look at before you do anything. Both take a couple of minutes and neither asks
-          anything of you.
+          Two sets of figures to read before you do anything. Both take a couple of minutes and
+          neither asks anything of you.
         </p>
         <div className="grid sm:grid-cols-2 gap-6 mb-12">
+          {/* This was presented as a game and it is not one: it is the arithmetic with rounds on
+              it. Saying so is better than selling it — somebody who arrives expecting a game closes
+              it, and somebody who wants to check the numbers now knows where they are. The card
+              names what it does and the link says see the math. */}
           <div className="bg-card border-4 border-black comic-shadow-sm p-6">
             <h3 className="font-heading text-xl uppercase font-bold mb-2">What reaching 300 billion looks like</h3>
             <p className="font-sans text-gray-300 mb-4">
-              A game you play in a browser. It starts from the 147 people on the Directory today and
-              asks you to fill a catalog of 657 skills inside two generations. It is free, it needs no
-              account, and it runs offline once it opens.
+              The arithmetic, round by round, starting from the 147 people on the Directory today and
+              the catalog of 657 skills a working economy needs. You set how much goes to teaching and
+              how much to the work itself, and watch what each choice reaches in two generations. It
+              is free, it needs no account, and it runs offline once it opens.
             </p>
             <a href={LINKS.game} className="font-heading font-bold uppercase text-primary hover:text-white inline-flex items-center gap-2">
-              Play it <ArrowRight size={16} />
+              See the math <ArrowRight size={16} />
             </a>
             <p className="font-mono text-xs text-gray-500 mt-2 break-all">{LINKS.game}</p>
           </div>
