@@ -2284,6 +2284,24 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 UPDATE PASTES
 ==============================================================================
 
+UPDATE · 2026-09-17 · Old links, new links — forty-eight accounts erased, and the handle has changed again
+
+Quora has now erased forty-eight of my accounts. The standing record lists every one, because each dead handle is an address somebody may still be holding, and following it lands them nowhere.
+
+The one that just went was kingcue. It was opened at 11:56 in the morning on September 15 and banned at 4:14 in the morning on September 17 — just over forty hours. Both notices are in my mail, so both times are on the page.
+
+The current handle is https://www.quora.com/profile/kinghow, opened at 4:54 in the morning on September 17 — forty minutes after the last one was banned. Nothing else on Quora is me. If another account claims to be, it is not.
+
+The space is still standing: https://skillseconomy.quora.com
+
+Nothing any of those accounts posted is lost. Everything is written on the blog first and platforms only ever get a short version and a link back, so an erasure costs one entry moving from the current list to the dead list.
+
+There is now also a feed, for anybody who would rather not depend on a handle at all: https://chargingthefuture.github.io/chargingthefuture/feed.xml
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/old-links-new-links
+
+------------------------------------------------------------------------------
+
 UPDATE · 2026-09-15 · Old links, new links — forty-seven accounts erased, and a new handle open
 
 Quora has now erased forty-seven of my accounts. The standing record lists every one of them, because each dead handle is an address somebody may still be holding, and following it lands them nowhere.
