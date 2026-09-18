@@ -95,13 +95,55 @@ function Cell({ value, label }: { value: number; label: string }) {
   );
 }
 
+/**
+ * How far the device's clock is from the server's, in milliseconds.
+ *
+ * The elapsed figure is the whole content of this page, and it was being read off `Date.now()`,
+ * which is whatever the reader's device believes. A device running four minutes fast showed four
+ * minutes of protest that had not happened — and showed it convincingly, because the phone's own
+ * clock agreed with the counter. They agreed because they were the same wrong number.
+ *
+ * So the page asks the server what time it is. A HEAD request to this page's own address comes back
+ * with a Date header, which is a clock nobody reading this has set. The header has one-second
+ * resolution and the round trip adds a little, so the correction is good to about a second — which
+ * is enough for a figure that will be quoted in days and years, and much better than minutes out.
+ *
+ * It runs once. If the request fails there is no network, and the device clock is what there is.
+ */
+function useServerSkew(): number {
+  const [skew, setSkew] = useState(0);
+  useEffect(() => {
+    let dropped = false;
+    const asked = Date.now();
+    fetch(window.location.href, { method: "HEAD", cache: "no-store" })
+      .then((response) => {
+        const header = response.headers.get("date");
+        if (dropped || !header) return;
+        const server = Date.parse(header);
+        if (Number.isNaN(server)) return;
+        // Split the round trip so the reading is centered rather than late by the whole of it.
+        const roundTrip = Date.now() - asked;
+        setSkew(server + roundTrip / 2 - Date.now());
+      })
+      .catch(() => {
+        // No network, or the host does not send the header. The device clock stands.
+      });
+    return () => {
+      dropped = true;
+    };
+  }, []);
+  return skew;
+}
+
 function Countdown() {
-  const [now, setNow] = useState(() => Date.now());
+  const skew = useServerSkew();
+  const [device, setDevice] = useState(() => Date.now());
   useEffect(() => {
     if (REACHED !== null) return;
-    const id = window.setInterval(() => setNow(Date.now()), 1000);
+    const id = window.setInterval(() => setDevice(Date.now()), 1000);
     return () => window.clearInterval(id);
   }, []);
+  const now = device + skew;
 
   // Three states, one row of cells. Before the start it counts down to it; after the start it counts
   // up from it, which is the figure the page exists to carry — how long this took. When the goal is
