@@ -38,8 +38,6 @@ A feed cannot be taken away like that. There is no account to suspend, no addres
 
 What it will not do
 
-I would rather say this plainly than oversell it.
-
 Most people do not use feed readers. They were common until Google closed the best one in 2013, and since then they have been a thing for people who already knew about them. If you have never installed one, you probably will not install one for a blog, and that is a reasonable decision.
 
 It also does not reach you the way a message does. Nothing buzzes. You open your reader when you feel like it and the posts are sitting there, which some people much prefer and others will find useless.

@@ -3,7 +3,7 @@ title: "Follow This Blog Without an Account"
 date: "2026-09-17"
 excerpt: "There is now a feed for this blog. No account, no email address, and nobody in the middle who can take it away."
 category: "Platform"
-teaser: "There is now an RSS feed for this blog. A feed is a plain list of what has been published that any reader app can check for you, so new posts arrive without you remembering to come back. It needs no account and no email address, and there is no company in the middle who could remove it. Most people do not use feed readers and I am not going to pretend otherwise — but the ones who do have been unreachable until now, and Quora has erased my accounts forty-seven times, which is forty-seven times everybody following me lost the thread."
+teaser: "There is now an RSS feed for this blog. A feed is a plain list of what has been published that any reader app can check for you, so new posts arrive without you remembering to come back. It needs no account and no email address, and there is no company in the middle who could remove it. Most people do not use feed readers — but the ones who do have been unreachable until now, and Quora has erased my accounts forty-seven times, which is forty-seven times everybody following me lost the thread."
 topics:
   - platform
   - rss
@@ -43,8 +43,6 @@ posts. Anybody who has it stays connected to this whether or not any platform st
 exist on it.
 
 ## What it will not do
-
-I would rather say this plainly than oversell it.
 
 Most people do not use feed readers. They were common until Google closed the best one in 2013, and
 since then they have been a thing for people who already knew about them. If you have never
