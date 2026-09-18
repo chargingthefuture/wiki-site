@@ -37,6 +37,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "how-are-you-doing",
+    "title": "How are you doing?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-18",
+    "excerpt": "They ask because the answer is what they are collecting. I am not going to ask you that. I am going to ask what you need.",
+    "category": "Philosophy",
+    "collection": "posts",
+    "path": "posts/how-are-you-doing.md",
+    "teaser": "Asking a Targeted Individual how they are doing is not always a kindness. Their raw material is your pain, so the answer is the thing being collected — which is why the question gets asked at all, alongside holding a door and then saying something, or telling a woman she should smile more. So I am not going to ask you how you are doing. I already know, because I am living the same week. I am going to ask what you need, which is a question with an answer somebody can act on. Coexistence over conspiracy.",
+    "topics": [
+      "philosophy",
+      "community"
+    ]
+  },
+  {
     "slug": "an-invitation-to-christy",
     "title": "An invitation to Christy",
     "repo": "chargingthefuture/wiki-site",
