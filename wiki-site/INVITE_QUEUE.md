@@ -76,6 +76,7 @@ Rotate these. Each is a way into the same invitation; none of them is a template
 | J H B | J-H-B-7 | an-invitation-to-jhb.md | Nine specializations, medicine among them, against the shortage the economy feels most | 2026-08-28 |
 | Steph Wo | Steph-Wo-1 | an-invitation-to-steph-wo.md | Their own bio, listing what the targeting interrupted, against the skills catalog | 2026-08-20 |
 | Christy | None-Ya-970 | an-invitation-to-christy.md | Two whole trades on one listing — clinical care and structural work — against a catalog that is empty rather than competitive | 2026-09-17 |
+| Espada | ESPADA-18 | an-invitation-to-espada.md | Five kinds of work in their own words — plumber's apprentice, small engine repair, appliance repair, handyman, CCTV — across five planning teams, against sectors the map holds three skills of | 2026-09-18 |
 
 When a post merges, add its row here and add the handle in two places in the product repository,
 in the same piece of work: the `DIRECTORY_INVITE_ALREADY_WRITTEN` array in
@@ -90,14 +91,10 @@ with nothing recorded. These are the next few, with angles rotated so no two in 
 
 | Person | Handle | Skills | invite_kind | Angle | Status |
 |---|---|---|---|---|---|
-| Espada | ESPADA-18 | Plumbing, small engine repair, appliance repair, CCTV | skill-specific | A working economy needs people who | in PR |
-| Dayna | Dayna-388 | Inventory, demand forecasting, route planning, last-mile delivery; offering soap and candles | skill-specific | You already have a profile | queued |
-| Syah | Syah-Neal-AdoreTM | Garment construction, fit and sizing, textile sourcing | skill-specific | Estonia, 1991 | queued |
+| Dayna | Dayna-388 | Inventory, demand forecasting, route planning, last-mile delivery; offering soap and candles | skill-specific | You already have a profile | skipped — owner decision, 2026-09-19. Not to be written unless the owner says so. The row stays so nobody re-queues it. |
+| Syah | Syah-Neal-AdoreTM | Garment construction, fit and sizing, textile sourcing | skill-specific | Estonia, 1991 | in PR |
 | Gn0b0dy Pneuma | Gn0b0dy-Pneuma | Advocacy placeholder only | advocacy-only | You do not have to agree with me | queued |
 | Tommy | Tommy-Gumbert | Mechanical and electrical repair, HVAC | skill-specific | A working economy needs people who | queued |
-
-Dayna's entry says on her own listing that she is open to supplying soap and scented candles to the
-community. That is somebody already offering rather than being asked, which is the post.
 
 Status is one of: `queued`, `drafted`, `in PR`, `published`, `skipped`. A skipped row keeps its
 reason in the notes column so nobody re-queues it a month later.
