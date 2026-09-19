@@ -91,13 +91,10 @@ with nothing recorded. These are the next few, with angles rotated so no two in 
 
 | Person | Handle | Skills | invite_kind | Angle | Status |
 |---|---|---|---|---|---|
-| Dayna | Dayna-388 | Inventory, demand forecasting, route planning, last-mile delivery; offering soap and candles | skill-specific | You already have a profile | queued |
+| Dayna | Dayna-388 | Inventory, demand forecasting, route planning, last-mile delivery; offering soap and candles | skill-specific | You already have a profile | skipped — owner decision, 2026-09-19. Not to be written unless the owner says so. The row stays so nobody re-queues it. |
 | Syah | Syah-Neal-AdoreTM | Garment construction, fit and sizing, textile sourcing | skill-specific | Estonia, 1991 | queued |
 | Gn0b0dy Pneuma | Gn0b0dy-Pneuma | Advocacy placeholder only | advocacy-only | You do not have to agree with me | queued |
 | Tommy | Tommy-Gumbert | Mechanical and electrical repair, HVAC | skill-specific | A working economy needs people who | queued |
-
-Dayna's entry says on her own listing that she is open to supplying soap and scented candles to the
-community. That is somebody already offering rather than being asked, which is the post.
 
 Status is one of: `queued`, `drafted`, `in PR`, `published`, `skipped`. A skipped row keeps its
 reason in the notes column so nobody re-queues it a month later.
