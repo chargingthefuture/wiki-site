@@ -37,6 +37,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "they-cannot-be-ignored",
+    "title": "They cannot be ignored",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-19",
+    "excerpt": "I ignored them from age five to thirty-nine and it changed nothing. Ignoring is the natural response. It is not an available one.",
+    "category": "Philosophy",
+    "collection": "posts",
+    "path": "posts/they-cannot-be-ignored.md",
+    "teaser": "Somebody on Quora who knew about targeting, and knew somebody else was targeted, ignored it and then became a target themselves. I understand the impulse, because I ignored them from age five to thirty-nine, and none of it changed anything — the first punch in the face came after years of no reaction, and the escalation came because the quieter methods were not working. This is not a criticism of anybody who has looked away. It is a statement of fact: they cannot be ignored, and the Skills Economy exists because none of us individually has the tools to not ignore them properly. That includes the people who are doing well.",
+    "topics": [
+      "philosophy",
+      "community"
+    ]
+  },
+  {
     "slug": "an-invitation-to-espada",
     "title": "An invitation to Espada",
     "repo": "chargingthefuture/wiki-site",
