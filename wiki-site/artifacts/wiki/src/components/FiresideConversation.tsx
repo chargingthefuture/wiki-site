@@ -29,11 +29,24 @@ type Comment = {
   authorName: string;
   body: string;
   createdAt: string;
+  /**
+   * When the author last rewrote it, or null if they never did.
+   *
+   * An author can fix their own words in place, and the comment keeps its id so the replies under
+   * it and the reactions on it survive. Without a mark, a reader here has no way to tell that what
+   * they are reading is not what somebody else answered. The app has shown this since the edit
+   * shipped; the blog did not, so the same comment read as original here and as edited there.
+   */
+  editedAt: string | null;
 };
 
 // The build's copy carries a couple of fields this section does not render (which post it belongs
 // under, which it already knows) and names the id differently, so it is narrowed to the shape the
 // live read returns and the two are interchangeable from here on.
+//
+// It carries no edit time: what was cleared for publication is a fixed copy of the words as an
+// admin approved them, and rewriting a comment sends that approval back to the queue — so a
+// published copy is never a rewritten one, and there is nothing to mark.
 function fromBuild(comment: ExportedComment): Comment {
   return {
     id: comment.commentId,
@@ -41,6 +54,7 @@ function fromBuild(comment: ExportedComment): Comment {
     authorName: comment.authorName,
     body: comment.body,
     createdAt: comment.createdAt,
+    editedAt: null,
   };
 }
 
@@ -50,7 +64,16 @@ function joinUrl(repo: string, slug: string, title: string): string {
   return `${APP_URL}/apps/fireside?${query.toString()}`;
 }
 
-function CommentBody({ comment, isReply }: { comment: Comment; isReply: boolean }) {
+function CommentBody({
+  comment,
+  isReply,
+  orphaned = false,
+}: {
+  comment: Comment;
+  isReply: boolean;
+  /** True when the comment this one answers is no longer in the conversation. */
+  orphaned?: boolean;
+}) {
   return (
     <div
       className={
@@ -60,7 +83,13 @@ function CommentBody({ comment, isReply }: { comment: Comment; isReply: boolean 
       }
     >
       <div className="font-mono text-xs text-primary uppercase tracking-wider">{comment.authorName}</div>
+      {orphaned && (
+        <div className="mt-1 font-mono text-xs text-gray-500">
+          Answering a comment that is no longer shown here.
+        </div>
+      )}
       <div className="mt-2 whitespace-pre-wrap text-gray-200 leading-relaxed">{comment.body}</div>
+      {comment.editedAt && <div className="mt-2 font-mono text-xs text-gray-500">Edited</div>}
     </div>
   );
 }
@@ -105,7 +134,18 @@ export function FiresideConversation({
     };
   }, [repo, slug]);
 
-  const top = (comments ?? []).filter((comment) => comment.parentCommentId == null);
+  // A reply whose parent is not in the list still gets read.
+  //
+  // The comment it answers can be gone two ways: its author took it down, which drops it from the
+  // conversation entirely, or an admin removed it, which leaves it visible to its own author and to
+  // nobody else. Either way the reply itself is untouched and the route still returns it — so
+  // filing it only under a parent that is not here rendered it nowhere, and one comment being taken
+  // out quietly took every answer to it out as well.
+  const shown = comments ?? [];
+  const present = new Set(shown.map((comment) => comment.id));
+  const isOrphan = (comment: Comment) =>
+    comment.parentCommentId != null && !present.has(comment.parentCommentId);
+  const top = shown.filter((comment) => comment.parentCommentId == null || isOrphan(comment));
 
   return (
     <section className="mt-16 border-t-4 border-dashed border-gray-800 pt-8">
@@ -123,8 +163,8 @@ export function FiresideConversation({
         <div className="mt-6 space-y-5">
           {top.map((comment) => (
             <div key={comment.id}>
-              <CommentBody comment={comment} isReply={false} />
-              {(comments ?? [])
+              <CommentBody comment={comment} isReply={false} orphaned={isOrphan(comment)} />
+              {shown
                 .filter((reply) => reply.parentCommentId === comment.id)
                 .map((reply) => (
                   <CommentBody key={reply.id} comment={reply} isReply />
