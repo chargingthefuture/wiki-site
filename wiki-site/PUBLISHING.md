@@ -211,6 +211,7 @@ permanently without a person reading them first would undo the reason two people
 | `pnpm wiki:sync` | Regenerate `articles.ts` from front matter |
 | `pnpm wiki:sync:dry` | Preview sync changes |
 | `pnpm wiki:feed` | Regenerate `feed.xml` (both build commands already run it) |
+| `pnpm wiki:invites` | Regenerate `invites.json`, the invite cards (both build commands already run it) |
 | `pnpm fireside:sync` | Copy the Fireside comments cleared for publication into the build |
 | `pnpm fireside:sync:dry` | Preview that copy without writing |
 | `pnpm wiki:preview` | Local dev server (http://localhost:5000) |

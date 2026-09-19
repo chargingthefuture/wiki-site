@@ -15,6 +15,7 @@ node_modules
 # scripts run, so it is build output rather than source. Hand edits would be
 # overwritten on the next build; edit the post and rebuild.
 artifacts/wiki/public/feed.xml
+artifacts/wiki/public/invites.json
 
 # Local counter database from `pnpm counter:dev`. The real one lives on the
 # service's volume and is never in the repository.

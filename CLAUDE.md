@@ -86,6 +86,16 @@ carries it, because the owner froze that page outright and that freeze has not b
   `wiki:build:pages`, so it cannot fall behind the posts. Never hand-edit it; edit the post. The
   page carries an autodiscovery link in `index.html` so a reader given the site address finds the
   feed without anybody copying an XML address, and a "Follow by RSS" row sits in the footer.
+- Invite cards: `artifacts/wiki/public/invites.json`, one card per published invite post
+  (a listed post in `content/posts` titled "An invitation to <name>"; the title is the contract,
+  so no front matter flag exists), newest first, written by `scripts/src/build-invites.ts` on
+  `wiki:invites`, which both build scripts run. Build output like the feed: gitignored, never
+  hand-edited. The row of cards (`InviteStrip.tsx`) sits at the top of `/feed` and under the
+  home hero; the app's signed-out pages and the landing page read the same file across origins.
+  It exists because Quora erases the account that announced an invite before most people tap
+  the notification, and the blog is the address that survives. Each card leads with the post's
+  opening words, because those are the words the notification showed. Nothing in the row moves
+  on its own (owner decision, 2026-09-19).
 
 ## Commands (run from `wiki-site/`)
 
@@ -95,6 +105,7 @@ carries it, because the owner froze that page outright and that freeze has not b
 | `pnpm wiki:spelling` | Fail on any British spelling outside `content/archive/` |
 | `pnpm wiki:sync` | Regenerate `articles.ts` from the index |
 | `pnpm wiki:feed` | Regenerate the RSS feed at `artifacts/wiki/public/feed.xml` (both build scripts run this) |
+| `pnpm wiki:invites` | Regenerate the invite cards at `artifacts/wiki/public/invites.json` (both build scripts run this) |
 | `pnpm wiki:sync:dry` | Preview sync changes |
 | `pnpm fireside:sync` | Copy the Fireside comments the app has cleared for publication into `artifacts/wiki/src/lib/fireside-exports.ts` |
 | `pnpm fireside:sync:dry` | Preview that copy without writing |

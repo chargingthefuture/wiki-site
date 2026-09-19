@@ -2,6 +2,7 @@ import { useMemo } from "react";
 import { Link, useSearch } from "wouter";
 import { Radio } from "lucide-react";
 import { Layout } from "@/components/Layout";
+import { InviteStrip } from "@/components/InviteStrip";
 import { ARTICLES, getArticleUrl, type ArticleMeta } from "@/lib/articles";
 import { formatArticleDate } from "@/lib/dates";
 
@@ -53,6 +54,9 @@ export default function Feed() {
 
   return (
     <Layout>
+      {/* The row of invite posts sits first: chargingthefuture.com/feed lands here, and the
+          person a Quora notification named is the reader this page most needs to catch. */}
+      <InviteStrip from={search ? `/feed?${search}` : "/feed"} />
       <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="mb-12">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-white font-heading font-bold uppercase tracking-widest border-2 border-black mb-6 comic-shadow-sm transform -rotate-1">

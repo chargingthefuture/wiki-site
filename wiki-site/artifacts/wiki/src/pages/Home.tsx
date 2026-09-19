@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Search, Flame } from "lucide-react";
 import { Layout } from "@/components/Layout";
 import { ArticleCard } from "@/components/ArticleCard";
+import { InviteStrip } from "@/components/InviteStrip";
 import { ARTICLES } from "@/lib/articles";
 
 // With the archives listed, the full registry is 300+ articles. Rendering
@@ -130,6 +131,8 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
+
+      <InviteStrip from="/" />
 
       {/* Main Content Area */}
       <section className="py-16 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

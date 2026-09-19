@@ -41,6 +41,12 @@ Never reuse the same angle twice in a row. Six angles are listed below. Rotate t
 
 Titles follow `An invitation to <first name>`, files follow `an-invitation-to-<name>.md`.
 
+The title is also what the build reads. `pnpm wiki:invites` collects every listed post whose title
+has that shape into `invites.json`, and the row of invite cards at the top of `/feed` and the home
+page, on the app's signed-out pages, and on the landing page all render from it. A post that
+merges with the right title appears in the row on the next deploy with nothing else to do; a post
+with a different title does not appear at all.
+
 ## Advocacy is a placeholder, not a profession
 
 Some listings carry Advocacy as their only skill. That label was applied to people whose public

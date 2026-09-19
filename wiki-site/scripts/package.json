@@ -13,6 +13,7 @@
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "paste-sheet-full": "tsx ./src/paste-sheet-full.ts",
     "build-feed": "tsx ./src/build-feed.ts",
+    "build-invites": "tsx ./src/build-invites.ts",
     "import:quora-export": "tsx ./src/import-quora-export.ts",
     "sync-fireside-exports": "tsx ./src/sync-fireside-exports.ts",
     "sync-fireside-exports:dry": "tsx ./src/sync-fireside-exports.ts --dry-run"
