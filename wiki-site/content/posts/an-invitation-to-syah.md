@@ -3,7 +3,7 @@ title: "An invitation to Syah"
 date: "2026-09-19"
 excerpt: "In 1991 Estonia had no money and 1.3 million people who already knew how to do things. Syah is listed for fit and sizing, garment construction, and textile selection and sourcing."
 category: "Community"
-teaser: "The objection to all of this is that a small number of people cannot do anything. Estonia in 1991 is the answer I keep going back to: no money, infrastructure that did not work, and 1.3 million people who already knew how to do things. Nobody waited for the money. One of the things a place has to be able to do for itself is put clothes on people, and Syah is listed in the Directory for the whole of that chain — fit and sizing, garment construction, textile selection and sourcing. This is the invitation, in public, so they can decide in their own time."
+teaser: "The objection to all of this is that a small number of people cannot do anything. Estonia in 1991 is the answer I keep going back to: no money, infrastructure that did not work, and 1.3 million people who already knew how to do things. Nobody waited for the money. One of the things a place has to be able to do for itself is put clothes on people, and Syah is listed in the Directory for that chain end to end — fit and sizing, garment construction, textile selection and sourcing. This is the invitation, in public, so they can decide in their own time."
 topics:
   - community
   - directory
@@ -33,7 +33,7 @@ The app keeps a catalog of 657 skills — the set a working economy of about fiv
 
 Clothing sits between those two and is usually forgotten by both. Planning conversations run to water, power, food and a roof, and clothing is assumed, the way it is assumed in a country with a store on every corner. It stops being assumed the first winter.
 
-On 14 September the Directory's 147 people held 184 of the 657 skills, and 473 had nobody at all. Creative work is where the list is deepest, and it is still a list where most of the catalog is empty. Somebody who can carry a whole chain on their own is not joining a queue. They are the reason the row exists.
+On 14 September the Directory's 147 people held 184 of the 657 skills, and 473 had nobody at all. Creative work is where the list is deepest, and it is still a list where most of the catalog is empty. Somebody who can carry a chain like that end to end on their own is not joining a queue. They are the reason the row exists.
 
 ## How they came to be listed
 

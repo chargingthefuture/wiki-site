@@ -45,7 +45,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/an-invitation-to-syah.md",
-    "teaser": "The objection to all of this is that a small number of people cannot do anything. Estonia in 1991 is the answer I keep going back to: no money, infrastructure that did not work, and 1.3 million people who already knew how to do things. Nobody waited for the money. One of the things a place has to be able to do for itself is put clothes on people, and Syah is listed in the Directory for the whole of that chain — fit and sizing, garment construction, textile selection and sourcing. This is the invitation, in public, so they can decide in their own time.",
+    "teaser": "The objection to all of this is that a small number of people cannot do anything. Estonia in 1991 is the answer I keep going back to: no money, infrastructure that did not work, and 1.3 million people who already knew how to do things. Nobody waited for the money. One of the things a place has to be able to do for itself is put clothes on people, and Syah is listed in the Directory for that chain end to end — fit and sizing, garment construction, textile selection and sourcing. This is the invitation, in public, so they can decide in their own time.",
     "topics": [
       "community",
       "directory"
