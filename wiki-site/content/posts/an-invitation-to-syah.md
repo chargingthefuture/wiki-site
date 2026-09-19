@@ -1,9 +1,9 @@
 ---
 title: "An invitation to Syah"
 date: "2026-09-19"
-excerpt: "In 1991 Estonia had no money and 1.3 million people who already knew how to do things. Syah is listed for garment construction, fit and sizing, and textile sourcing."
+excerpt: "In 1991 Estonia had no money and 1.3 million people who already knew how to do things. Syah is listed for fit and sizing, garment construction, and textile selection and sourcing."
 category: "Community"
-teaser: "The objection to all of this is that a small number of people cannot do anything. Estonia in 1991 is the answer I keep going back to: no money, infrastructure that did not work, and 1.3 million people who already knew how to do things. Nobody waited for the money. One of the things a place has to be able to do for itself is put clothes on people, and Syah is listed in the Directory for the whole of that chain — garment construction, fit and sizing, textile sourcing. This is the invitation, in public, so they can decide in their own time."
+teaser: "The objection to all of this is that a small number of people cannot do anything. Estonia in 1991 is the answer I keep going back to: no money, infrastructure that did not work, and 1.3 million people who already knew how to do things. Nobody waited for the money. One of the things a place has to be able to do for itself is put clothes on people, and Syah is listed in the Directory for the whole of that chain — fit and sizing, garment construction, textile selection and sourcing. This is the invitation, in public, so they can decide in their own time."
 topics:
   - community
   - directory
@@ -19,11 +19,13 @@ One of the things a place has to be able to do for itself is put clothes on peop
 
 ## Syah
 
-Syah (https://www.quora.com/profile/Syah-Neal-AdoreTM). Their Directory listing carries three specializations: garment construction, fit and sizing, and textile sourcing.
+Syah (https://www.quora.com/profile/Syah-Neal-AdoreTM), in Kansas City, Missouri. The Directory profile is at https://app.chargingthefuture.com/apps/directory/profile/fdb8086c-e241-4f51-baf9-4992892a31b8 and it carries three specializations: fit and sizing, garment construction, and textile selection and sourcing.
+
+![Syah's Directory profile in the app. The name Syah, marked Community-generated profile, nominated by @farah, with a location of Kansas City, Missouri, United States. A control reads View Quora profile. Under Specializations, three tags: Fit and sizing; Garment construction; Textile selection and sourcing. Below, a panel headed Want to work together? reads: the directory shows who is in the community and what they do. Want a service or good from this person? Look for them in Foundation, where members offer and exchange help — or browse Foundation to find someone else who can.](images/syah-directory-profile-2026-09-19.jpg)
 
 Those three are not three versions of one skill. Together they run from a bolt of cloth to a garment on a person who can move in it.
 
-Textile sourcing is knowing where the material comes from, what it is worth, and which of it is worth buying. Garment construction is turning it into the thing. Fit and sizing is the part most people never think about until a garment does not have it: making the thing fit a real body rather than a chart, and knowing how to alter what already exists so it does. A community that can only do the middle one of those has a sewing machine. A community that can do all three can dress itself.
+Textile selection and sourcing is knowing where the material comes from, what it is worth, and which of it is worth buying. Garment construction is turning it into the thing. Fit and sizing is the part most people never think about until a garment does not have it: making the thing fit a real body rather than a chart, and knowing how to alter what already exists so it does. A community that can only do the middle one of those has a sewing machine. A community that can do all three can dress itself.
 
 ## Where it sits on the list
 

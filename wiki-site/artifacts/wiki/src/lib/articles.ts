@@ -37,6 +37,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-syah",
+    "title": "An invitation to Syah",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-19",
+    "excerpt": "In 1991 Estonia had no money and 1.3 million people who already knew how to do things. Syah is listed for fit and sizing, garment construction, and textile selection and sourcing.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-syah.md",
+    "teaser": "The objection to all of this is that a small number of people cannot do anything. Estonia in 1991 is the answer I keep going back to: no money, infrastructure that did not work, and 1.3 million people who already knew how to do things. Nobody waited for the money. One of the things a place has to be able to do for itself is put clothes on people, and Syah is listed in the Directory for the whole of that chain — fit and sizing, garment construction, textile selection and sourcing. This is the invitation, in public, so they can decide in their own time.",
+    "topics": [
+      "community",
+      "directory"
+    ]
+  },
+  {
     "slug": "they-cannot-be-ignored",
     "title": "They cannot be ignored",
     "repo": "chargingthefuture/wiki-site",
@@ -49,21 +64,6 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "philosophy",
       "community"
-    ]
-  },
-  {
-    "slug": "an-invitation-to-syah",
-    "title": "An invitation to Syah",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-19",
-    "excerpt": "In 1991 Estonia had no money and 1.3 million people who already knew how to do things. Syah is listed for garment construction, fit and sizing, and textile sourcing.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/an-invitation-to-syah.md",
-    "teaser": "The objection to all of this is that a small number of people cannot do anything. Estonia in 1991 is the answer I keep going back to: no money, infrastructure that did not work, and 1.3 million people who already knew how to do things. Nobody waited for the money. One of the things a place has to be able to do for itself is put clothes on people, and Syah is listed in the Directory for the whole of that chain — garment construction, fit and sizing, textile sourcing. This is the invitation, in public, so they can decide in their own time.",
-    "topics": [
-      "community",
-      "directory"
     ]
   },
   {
