@@ -2326,6 +2326,24 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 UPDATE PASTES
 ==============================================================================
 
+UPDATE · 2026-09-19 · Old links, new links — forty-nine accounts erased, and the handle has changed again
+
+Quora has now erased forty-nine of my accounts. The standing record lists every one, because each dead handle is an address somebody may still be holding, and following it lands them nowhere.
+
+The one that just went was kinghow. It was opened at 4:54 in the morning on September 17 and banned at 4:09 in the morning on September 19 — forty-seven hours, and the third ban in a row to land in the same fifteen minutes of the clock, just after four in the morning. The three before it that lived past a day went the same way. Whatever is doing this runs on a schedule.
+
+The current handle is https://www.quora.com/profile/KingLaundry, opened at 7:38 in the morning on September 19 — three and a half hours after the last one was banned. Nothing else on Quora is me. If another account claims to be, it is not.
+
+The space is still standing: https://skillseconomy.quora.com
+
+Nothing any of those accounts posted is lost. Everything is written on the blog first and platforms only ever get a short version and a link back, so an erasure costs one entry moving from the current list to the dead list.
+
+There is also a feed, for anybody who would rather not depend on a handle at all: https://chargingthefuture.github.io/chargingthefuture/feed.xml
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/old-links-new-links
+
+------------------------------------------------------------------------------
+
 UPDATE · 2026-09-17 · Old links, new links — forty-eight accounts erased, and the handle has changed again
 
 Quora has now erased forty-eight of my accounts. The standing record lists every one, because each dead handle is an address somebody may still be holding, and following it lands them nowhere.
