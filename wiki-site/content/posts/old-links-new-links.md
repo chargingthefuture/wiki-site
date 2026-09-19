@@ -1,15 +1,15 @@
 ---
 title: "Old links, new links"
-date: "2026-09-17"
-excerpt: "Forty-eight Quora accounts erased, one space renamed, and one handle open again. What is live, what is dead, and the one address that does not change."
+date: "2026-09-19"
+excerpt: "Forty-nine Quora accounts erased, one space renamed, and one handle open again. What is live, what is dead, and the one address that does not change."
 category: "Community"
-teaser: "Quora has erased my accounts forty-eight times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. One handle is open again as of today. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
+teaser: "Quora has erased my accounts forty-nine times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. One handle is open again as of today. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
 topics:
   - publishing
   - platform-independence
 ---
 
-Quora has erased my accounts forty-eight times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
+Quora has erased my accounts forty-nine times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
 
 There is one handle of mine on Quora, opened today. Everything before it is dead.
 
@@ -27,7 +27,7 @@ To reach me, save this link alongside the blog: https://sleek.bio/farah — it l
 
 ## Quora: current
 
-The handle: https://www.quora.com/profile/kinghow — opened at 4:54 in the morning on September 17, 2026, forty minutes after the one before it was banned.
+The handle: https://www.quora.com/profile/KingLaundry — opened at 7:38 in the morning on September 19, 2026, three and a half hours after the one before it was banned.
 
 The space: https://skillseconomy.quora.com
 
@@ -135,6 +135,8 @@ https://www.quora.com/profile/kingempire — opened at 8:30 in the evening on Se
 
 https://www.quora.com/profile/kingcue — opened at 11:56 in the morning on September 15, 2026, and banned by Quora Moderation at 4:14 in the morning on September 17, 2026. Just over forty hours.
 
+https://www.quora.com/profile/kinghow — opened at 4:54 in the morning on September 17, 2026, forty minutes after kingcue was banned, and banned by Quora Moderation at 4:09 in the morning on September 19, 2026. Forty-seven hours. The third ban in a row to land between 3:59 and 4:14 in the morning.
+
 ## Different every time, same label
 
 Worth recording, because it is the part that settles the question.
@@ -171,4 +173,4 @@ The old GitHub wiki — an inactive mirror. It no longer receives updates; this 
 
 Nothing is written on a platform first anymore. Every post starts here, and platforms only ever get a short version and a link back. So the next time an account is erased — and I assume there will be a next time — the cost is one entry moving from the current list to the dead list on this page. That is all.
 
-Since this page first went up, that has happened forty-six times. The list above is current, and kinghow is the entry waiting to move onto it.
+Since this page first went up, that has happened forty-seven times. The list above is current, and KingLaundry is the entry waiting to move onto it.
