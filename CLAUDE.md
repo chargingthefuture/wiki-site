@@ -43,7 +43,7 @@ Canonical source: [`chargingthefuture/chargingthefuture` → `.github/instructio
 |---|---|---|
 | punch list | list | Jargon; unclear meaning. |
 | stale | deprecated | "Stale" is consistently misused; "deprecated" is the intended meaning. |
-| a sentence of the form "that is the whole ‹anything›" | state the point itself and stop | Owner directive, 2026-08-28, widened 2026-09-13. See below. |
+| whole | entire, all of, end to end, or drop it | Owner directive, 2026-08-28, widened 2026-09-13 and 2026-09-19: the word itself, in every frame. See below. |
 | point of the thing | end on the fact itself | Owner directive, 2026-08-29. See below. |
 
 Both are one habit: the sentence that arrives after the facts to tell the reader which of them
@@ -56,9 +56,12 @@ each time the next piece of writing reached for a different one in the same fram
 repository's Stop hook now matches "that/this/which/it is the whole ‹word›" whatever word follows,
 plus the same frame with a subject in front of it. Do not go looking for a noun that slips past.
 
-Two things are not banned. A negated form — an account that is not the whole story — states
-something about the account rather than ranking what came before it. And a phrase like "it is the
-shape of the thing" says how a figure relates to reality, which is a claim rather than a label.
+Widened again 2026-09-19: the word itself is banned, in every frame, negated forms included. The
+construction match was sidestepped the same week by the same word one frame over ("for the whole of
+that chain", in an invite post's teaser), so the product repository's Stop hook now matches the
+word wherever it appears. Entire, all of, and end to end cover every honest use; most uses carry
+nothing and are best dropped. A phrase like "it is the shape of the thing" is still fine: it says
+how a figure relates to reality, which is a claim rather than a label.
 
 Published posts are edited for this (owner directive, 2026-09-13, reversing the earlier carve-out).
 Fourteen carried the construction and all fourteen were rewritten in place; no dates moved, because
