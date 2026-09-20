@@ -10,7 +10,7 @@ topics:
   - clicklog
 ---
 
-A question from the queue of Quora drafts I opened and never wrote. Mine sat empty from August 6, 2025:
+A question I opened as a Quora answer draft on August 6, 2025, and never wrote:
 
 > Is it possible for targeted individuals to stop being harassed by gang stalkers? If so, what methods have been successful in stopping the harassment?
 
