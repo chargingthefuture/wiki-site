@@ -10,7 +10,7 @@ topics:
   - directory
 ---
 
-A question from the queue of Quora drafts I opened and never wrote. Mine sat empty from August 6, 2025:
+A question I opened as a Quora answer draft on August 6, 2025, and never wrote:
 
 > How do I overcome a gangstalker's false narrative? How can I distract myself from their tactics?
 
