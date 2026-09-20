@@ -102,12 +102,16 @@ person is offered up to be invited a second time.
 
 ## Queued
 
-Read from the screen on 2026-09-17: 141 waiting — 89 with a skill to write about, 49 general, 3
-with nothing recorded. These are the next few, with angles rotated so no two in a row repeat.
+Read again from the screen on 2026-09-20, after Tommy's post went up. These are the next few, with
+angles rotated so no two in a row repeat. The screen is the source; this table holds only what is
+needed to write the next posts, because the copied list itself is never committed.
 
 | Person | Handle | Skills | invite_kind | Angle | Status |
 |---|---|---|---|---|---|
 | Dayna | Dayna-388 | Inventory, demand forecasting, route planning, last-mile delivery; offering soap and candles | skill-specific | You already have a profile | skipped — owner decision, 2026-09-19. Not to be written unless the owner says so. The row stays so nobody re-queues it. |
+| Alphelus Allen | Alphelus-Allen | System design and architecture, frequency and voltage control, power systems design, building design, construction documentation, electrical, wiring and circuit installation; San Francisco | skill-specific | Two things have to be true | queued |
+| Lorraine Valente | lorraine-valente | Ten clinical skills on one listing — clinical supervision, cognitive behavioral therapy, crisis intervention, diagnosis and treatment planning, evidence-based therapeutic interventions, group therapy facilitation, neuropsychological assessment, psychological assessment and testing, research and data analysis, trauma therapy and EMDR | skill-specific | You already have a profile | queued |
+| Krissyy | Krissyy-2 | Legal research and drafting; Minneapolis | skill-specific | The labor movement, and King | queued |
 
 Status is one of: `queued`, `drafted`, `in PR`, `published`, `skipped`. A skipped row keeps its
 reason in the notes column so nobody re-queues it a month later.
