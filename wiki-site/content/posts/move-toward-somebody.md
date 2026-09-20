@@ -40,9 +40,17 @@ I estimate five million survivors, and that estimate is global rather than Ameri
 
 Here is the thing I most want the person asking to take with them, whichever country they end up in.
 
-If it goes quiet after the move, that is not yet evidence. A quiet stretch is usually the people doing it laying low so the guard comes down, and I have watched that pattern more times than I have watched anything else. It is also what a new city feels like for the first few months, before anybody has your routine. So a quiet spring in a new place does not answer the question the move was made to ask. A quiet year might.
+Do not expect a new place to be quiet, and do not read quiet as an answer if you get it.
 
-The way to know, rather than remember, is to write it down. A dated log of what happened, kept before the move and after it, is the only way to compare two stretches of your life without memory doing the comparing for you, because memory rewrites the earlier stretch to fit whatever you now believe. ClickLog exists for that: one tap per incident, dated, tagged with the scheme, yours. Start it before you go, so the before exists.
+When I arrived in Kansas the street activity was there immediately, at something like three hundred people to one. Nobody had to learn my routine first. That is nothing like how it worked when I was younger, and it is the opposite of what a person expects a new city to be.
+
+And the quiet stretches, when they come, vary with no pattern I have ever been able to read. What they do not track with is geography. What they seem to track with is how much you are hated and how many people have been recruited against you, how many operators already live in the town you arrived in, and whether they want your guard down. Moving is not on that list.
+
+I think where your name sits matters too — how exposed you are, how far up the list. I was recognized and harassed at five years old, which means somebody was already following and already planting the hatred ahead of me. Some of the people approached refuse. Once enough of them have not refused, a quiet stretch is a tactic rather than an absence: it is there so the guard comes down.
+
+So a quiet month in a new country tells you very little about the country. It tells you how many of them are already there and what they have been asked to do that month.
+
+What you can do is write it down. A dated log kept before the move and after it will not hand you a clean answer, because nothing here produces one, but it is the difference between knowing what happened and remembering it — and memory rewrites the earlier stretch to fit whatever you now believe. ClickLog exists for that: one tap per incident, dated, tagged with the scheme, yours. Start it before you go, so the before exists.
 
 ## What a move does change
 
@@ -58,7 +66,7 @@ The question I would ask before choosing a city is not which country. It is who 
 
 The Directory is a list of survivors, where they are, and what they can do. Some of them rent rooms; LightHouse lists the ones offered by people on the same list you are on, so the room does not come through somebody who has been given a reason to make your week difficult. Some of them drive. Some of them fix things. A move that lands you in the same town as one of them is a different move from one that lands you in a city of strangers, whatever the country. Check the list before you pick the place, and if the place you have your heart set on has nobody on it, know that going in.
 
-And if you go, go toward somebody, write down the before and the after, and do not read the first quiet month as an ending. That is all I know, and it is more than I knew when I opened the draft.
+And if you go, go toward somebody, write down the before and the after, and do not read a quiet month either way. That is all I know, and it is more than I knew when I opened the draft.
 
 ## Where to find it in the app
 
