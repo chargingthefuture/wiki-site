@@ -36,4 +36,4 @@ The pipeline is the same one the whole blog runs on now. The text on The Record 
 
 Read it forwards, from the first entry. That is the way it happened.
 
-To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
+To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

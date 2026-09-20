@@ -3943,12 +3943,12 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Charging The Future | Live, Work & Prevail",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-12-31",
-    "excerpt": "An invite-only platform designed for human trafficking survivors, offering essential services and support with dignity, privacy, and respect.",
+    "excerpt": "A vetted platform designed for human trafficking survivors, offering essential services and support with dignity, privacy, and respect.",
     "category": "Foundation",
     "collection": "posts",
     "path": "posts/Home.md",
     "featured": true,
-    "teaser": "The knowledge base for Charging The Future and the Skills Economy: what the app is, how each service works, and where everything lives. The app is invite-only, built for survivors to live, work, and rebuild with safety, dignity, and privacy. Start here if you are new."
+    "teaser": "The knowledge base for Charging The Future and the Skills Economy: what the app is, how each service works, and where everything lives. The app is vetted, built for survivors to live, work, and rebuild with safety, dignity, and privacy. Start here if you are new."
   },
   {
     "slug": "farah-brunache/i-met-a-fake-ti-from-quora-damon-mayle-he-has-since-deleted-his-profil",
@@ -4237,11 +4237,11 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "What is the TI Skills Economy app?",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-12-21",
-    "excerpt": "An invite-only platform designed specifically for survivors of human trafficking, offering essential services and support with dignity, privacy, and respect.",
+    "excerpt": "A vetted platform designed specifically for survivors of human trafficking, offering essential services and support with dignity, privacy, and respect.",
     "category": "Community",
     "collection": "posts",
     "path": "posts/What-is-the-TI-Skills-Economy-app.md",
-    "teaser": "An invite-only super app built exclusively for survivors of human trafficking: housing, transportation, work, support, and community — 12+ services through a single account. Trauma-informed design, WCAG AAA accessibility, complete privacy control including full account deletion. Built by and for survivors."
+    "teaser": "A vetted super app built exclusively for survivors of human trafficking: housing, transportation, work, support, and community — 12+ services through a single account. Trauma-informed design, WCAG AAA accessibility, complete privacy control including full account deletion. Built by and for survivors."
   },
   {
     "slug": "farah-brunache/any-people-in-the-ohio-area-being-gangstalked-who-want-to-team-up-with",

@@ -39,7 +39,7 @@ Every survivor who goes looking for help runs this same filter, alone, from scra
 
 Skills Economy is the culmination of that work and that generosity — the thing the three of them and those two years added up to.
 
-It replaces the filter. Membership is invite-only. The Directory lists who is here and what they can do, which handles the third category — you look up the skill instead of discovering by trial who holds it. And the people on the list are there because they chose to be findable, which is the fourth category self-selecting in.
+It replaces the filter. Membership is vetted, one person at a time. The Directory lists who is here and what they can do, which handles the third category — you look up the skill instead of discovering by trial who holds it. And the people on the list are there because they chose to be findable, which is the fourth category self-selecting in.
 
 Foundation is where the people who can offer help stand ready to give it: providers list what they offer, and you reach one directly and start a conversation or a call. The person on the other end is there because offering help is the thing they signed up to do.
 
@@ -52,4 +52,4 @@ The goal it is built around: you land, and within twenty-four hours you have ass
 - [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
 - [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
 
-To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
+To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

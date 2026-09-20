@@ -57,4 +57,4 @@ There is a message that circulates among us: give up, the world is headed to des
 - [Skills Economy — Live](https://app.chargingthefuture.com/apps/gdp) — [guide](https://app.chargingthefuture.com/guide#gdp)
 - [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
 
-To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
+To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

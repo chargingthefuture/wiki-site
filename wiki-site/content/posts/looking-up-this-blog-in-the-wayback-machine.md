@@ -130,4 +130,4 @@ The earlier post covers that boundary properly, along with the other ways to che
 
 https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-to-check-me
 
-To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
+To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

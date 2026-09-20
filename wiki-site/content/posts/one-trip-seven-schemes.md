@@ -90,4 +90,4 @@ And the list itself grows. When a scheme has no name yet, holders of the Weavers
 
 The problems list is public too, alongside the answer built for each one: [chargingthefuture.com/look-ma](https://www.chargingthefuture.com/look-ma).
 
-To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
+To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

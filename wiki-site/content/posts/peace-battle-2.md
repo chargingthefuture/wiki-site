@@ -123,4 +123,4 @@ Friday, September 18, 7:00 PM Eastern. [chargingthefuture.github.io/chargingthef
 - [Workforce](https://app.chargingthefuture.com/apps/workforce) — [What's your 1%?](https://app.chargingthefuture.com/apps/workforce?view=one-percent) — [guide](https://app.chargingthefuture.com/guide#workforce)
 - [TrustTransport](https://app.chargingthefuture.com/apps/trust-transport) — [guide](https://app.chargingthefuture.com/guide#trust-transport)
 
-To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
+To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
