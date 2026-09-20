@@ -37,21 +37,6 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
-    "slug": "something-to-lose",
-    "title": "Something to lose",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-20",
-    "excerpt": "A joke says mass shooters all live with their mother and should only get a gun once they have a mortgage. It works on people who stop at the headline. Here is what sits under it.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/something-to-lose.md",
-    "teaser": "A stand-up joke: the people who commit mass shootings all live with their mother, so skip the background check and require a mortgage, because then they have something to lose. It works for the same reason a slander campaign works — on people who read the headline and never ask why a grown adult was in that house. The Forced Homecoming is a scheme, run on purpose. For years they also tried to get me to buy a gun and use it on a crowd, and when that failed they punched me in the face. Destitution, a mass shooting, suicide are the three endings; the Skills Economy is an attempt at a fourth route.",
-    "topics": [
-      "community",
-      "specterati"
-    ]
-  },
-  {
     "slug": "move-toward-somebody",
     "title": "Move toward somebody",
     "repo": "chargingthefuture/wiki-site",
@@ -65,6 +50,21 @@ export const ARTICLES: ArticleMeta[] = [
       "community",
       "directory",
       "clicklog"
+    ]
+  },
+  {
+    "slug": "something-to-lose",
+    "title": "Something to lose",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-20",
+    "excerpt": "A joke says mass shooters all live with their mother and should only get a gun once they have a mortgage. It works on people who stop at the headline. Here is what sits under it.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/something-to-lose.md",
+    "teaser": "A stand-up joke: the people who commit mass shootings all live with their mother, so skip the background check and require a mortgage, because then they have something to lose. It works for the same reason a slander campaign works — on people who read the headline and never ask why a grown adult was in that house. The Forced Homecoming is a scheme, run on purpose. For years they also tried to get me to buy a gun and use it on a crowd, and when that failed they punched me in the face. Destitution, a mass shooting, suicide are the three endings; the Skills Economy is an attempt at a fourth route.",
+    "topics": [
+      "community",
+      "specterati"
     ]
   },
   {

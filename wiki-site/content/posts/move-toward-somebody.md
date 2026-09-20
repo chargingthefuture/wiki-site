@@ -14,7 +14,11 @@ A question I opened as a Quora answer draft on August 8, 2025, and never wrote:
 
 > Have any Targeted Individuals tried moving to a different country? I'm in the US and am considering a move to Mexico to see if the RNM and V2K stop.
 
-The question is at https://www.quora.com/Have-any-Targeted-Individuals-tried-moving-to-a-different-country-Im-in-the-US-and-am-considering-a-move-to-Mexico-to-see-if-the-RNM-and-V2K-stop — go and read it where it stands. Quora's export kept the words of the question and not the name of the person who asked it, so the credit here is to the question. It was asked by a person and not by a bot: it is written in the first person about their own plan, and it was shared into a space by hand.
+It was asked by Jessica Marcrum (https://www.quora.com/profile/Jessica-Marcrum-3), who added it to Quora on October 15, 2024. The question is at https://www.quora.com/Have-any-Targeted-Individuals-tried-moving-to-a-different-country-Im-in-the-US-and-am-considering-a-move-to-Mexico-to-see-if-the-RNM-and-V2K-stop — go and read it where it stands. Quora's export kept the words of the question and not the name of the person who asked it; the name is here because the question page still names them.
+
+![The attribution line on the Quora question, captured September 20, 2026. It reads: "Question added by Jessica Marcrum". Below it, in a box, the question: "Have any Targeted Individuals tried moving to a different country? I'm in the US and am considering a move to Mexico to see if the RNM and V2K stop." Under the box: "#3989925593 · Thank · Report · October 15, 2024 at 6:36:09 PM".](images/jessica-marcrum-question-added-2026-09-20.jpg)
+
+![The same question on its Quora page, captured September 20, 2026. Topic tags across the top read Conspiracy Theories, Mexico, TI (acronym), one more cut off, and "+ 7". The question reads: "Have any Targeted Individuals tried moving to a different country? I'm in the US and am considering a move to Mexico to see if the RNM and V2K stop." Below it a row reads Follow with a count of 2, Request, Answer, and More.](images/jessica-marcrum-question-2026-09-20.jpg)
 
 The vocabulary I use for the people running this is in the [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary); the question keeps the words it was asked in.
 
