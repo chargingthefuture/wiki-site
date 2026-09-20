@@ -30,8 +30,11 @@ Proposed, not settled. Correct them on the first post rather than in the abstrac
   who asked, only what they asked, so the credit names the question and its address and says
   plainly that the author is unknown. Derive the address with `quoraQuestionUrl` in
   `scripts/src/import-quora-export.ts` rather than writing one by hand — Quora mints it from the
-  question's own words. One caveat: where two questions share wording Quora appends `-1` or `-2`,
-  which the derivation cannot know, so the address is a best derivation and not a stored value.
+  question's own words. Three things the derivation cannot know, so an address is opened and
+  checked before a post prints it: where two questions share wording Quora appends `-1` or `-2`;
+  a question nobody has answered is served under an `/unanswered/` prefix, which drops as soon as somebody answers, so a post prints both forms and says which is which; and a slash in the
+  question becomes a hyphen in the address rather than disappearing, which the function got wrong
+  until question 4 came back dead.
 - Open that address and credit the asker by handle, plain text with the profile address beside it,
   the way every other credit on this blog is written. The export recorded what was asked and not
   who asked it, but the question page still names them, so the asker is knowable even though the
@@ -64,7 +67,7 @@ Ordered by the date the draft was opened. The account is the one it sat under.
 - [x] 1. `2025-08-06` · pedigree101 — How do I overcome a gangstalker's false narrative? How can I distract myself from their tactics?
 - [x] 2. `2025-08-06` · pedigree101 — Is it possible for targeted individuals to stop being harassed by gang stalkers? If so, what methods have been successful in stopping the harassment? (added by Quora Prompt Generator, a bot; answered because people keep asking the same thing)
 - [x] 3. `2025-08-08` · pedigree101 — Have any Targeted Individuals tried moving to a different country? I'm in the US and am considering a move to Mexico to see if the RNM and V2K stop.
-- [ ] 4. `2025-08-09` · pedigree101 — As organized/community stalking number of victims increase, what do you think could happen to society as a whole?
+- [x] 4. `2025-08-09` · pedigree101 — As organized/community stalking number of victims increase, what do you think could happen to society as a whole?
 - [ ] 5. `2025-08-09` · pedigree101 — How do you get over being stalked if you can't prove who is doing it?
 - [ ] 6. `2025-08-10` · pedigree101 — What is the best way to deal with gang stalking and/or mobbing without any legal actions being taken against you?
 - [ ] 7. `2025-08-10` · pedigree101 — What steps can a victim of gang stalking take if the police refuse to investigate their case?
