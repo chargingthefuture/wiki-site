@@ -37,7 +37,7 @@ CCTV sits in Safety & Security, which is the gate, the perimeter, and knowing wh
 
 ## What the list actually holds
 
-The skills catalog carries 657 entries — the set of things a working economy of about five million people needs somebody to be able to do. On 14 September the Directory's 147 people held 184 of them.
+The skills catalog carries 657 entries — the set of things a working economy of about five million people needs somebody to be able to do. On September 14 the Directory's 147 people held 184 of them.
 
 473 have nobody at all.
 
