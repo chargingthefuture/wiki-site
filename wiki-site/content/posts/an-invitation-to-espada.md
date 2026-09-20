@@ -3,7 +3,7 @@ title: "An invitation to Espada"
 date: "2026-09-18"
 excerpt: "Five kinds of work on one listing, landing on five of the thirteen jobs a community has to be able to fill. One of them the Directory is nearly empty in."
 category: "Community"
-teaser: "The app keeps a list of thirteen jobs a community has to be able to fill before it can run — water, power, food, care, safety, making and mending, and the rest. No one person fills thirteen jobs and nobody is asked to. What a list is for is seeing which of them are thin. Espada describes the work as small engine repair, installing CCTV, appliance repair, handyman, plumber's apprentice. That lands on five of the thirteen, and one of them is a job the whole Directory currently holds three skills for, out of nineteen."
+teaser: "The app keeps a list of thirteen jobs a community has to be able to fill before it can run — water, power, food, care, safety, making and mending, and the rest. No one person fills thirteen jobs and nobody is asked to. What a list is for is seeing which of them are thin. Espada describes the work as small engine repair, installing CCTV, appliance repair, handyman, plumber's apprentice. That lands on five of the thirteen, and one of them is a job the entire Directory currently holds three skills for, out of nineteen."
 topics:
   - community
   - directory
@@ -74,6 +74,10 @@ Somebody who fixes what other people rely on needs things too, and usually needs
 
 That exchange is deliberately the first thing here rather than the last. Asking somebody for something real is also what filters out the people who will never hand anybody anything.
 
+## Who is on the list
+
+Everyone written about in this series is a self-identified Targeted Individual. That means they said so in public, and it is the only basis for the listing. I cannot verify it, and neither can a reader. Some people who say it are not survivors, and some are the people doing the harassing, so a post here is not a vouch for anybody and should not be read as one. I am not responsible for what anyone named on this list does or says, on the app, on Quora, or anywhere else. The closest anybody can get to finding a real Targeted Individual is through the app, which admits people one at a time through Unlock and has other mechanisms in place to filter actively. Even with those, there is no such thing as a hundred percent.
+
 ## Where to find it in the app
 
 - [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
@@ -81,5 +85,6 @@ That exchange is deliberately the first thing here rather than the last. Asking 
 - [SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt) — [guide](https://app.chargingthefuture.com/guide#skills-hunt)
 - [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
 - [SkillUp](https://app.chargingthefuture.com/apps/skill-up) — [guide](https://app.chargingthefuture.com/guide#skill-up)
+- [Unlock](https://app.chargingthefuture.com/plugin/unlock) — [guide](https://app.chargingthefuture.com/guide#unlock)
 
 To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
