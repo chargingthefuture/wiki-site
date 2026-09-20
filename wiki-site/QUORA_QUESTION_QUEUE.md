@@ -36,8 +36,16 @@ Proposed, not settled. Correct them on the first post rather than in the abstrac
   the way every other credit on this blog is written. The export recorded what was asked and not
   who asked it, but the question page still names them, so the asker is knowable even though the
   export cannot supply them. Credit the question alone only when the page no longer resolves.
+- Check who asked before writing. Quora runs a bot, Quora Prompt Generator, that adds questions
+  nobody asked, and the export cannot tell its questions from a person's. Prefer questions from
+  people. A bot's question is answered only when people have been asking the same thing in their
+  own words, which `QUORA_INSPIRATION_QUEUE.md` shows, and the post then says plainly that a bot
+  added it (owner directive, 2026-09-19, after question 2 turned out to be one).
 - The post is dated the day it is written, not the date the draft was opened. The draft date goes
   in the post only if it earns its place there.
+- The queues are the owner's working files, not something a reader knows about. A post never
+  refers to this queue, the next question in it, or what a later post will cover (owner directive,
+  2026-09-19).
 - Each publish carries the standard tail: the "Where to find it in the app" section for any part
   the post names, the sign-up block if the post invites participation, a hand-written
   `QUORA_PASTE_SHEET.txt` entry, and a regenerated `QUORA_PASTE_SHEET_FULL.txt`.
@@ -54,7 +62,7 @@ Ordered by the date the draft was opened. The account is the one it sat under.
 <!-- spelling:disable — every line below is somebody else's question, quoted verbatim from the Quora export; respelling one would misquote the person who asked it. -->
 
 - [x] 1. `2025-08-06` · pedigree101 — How do I overcome a gangstalker's false narrative? How can I distract myself from their tactics?
-- [ ] 2. `2025-08-06` · pedigree101 — Is it possible for targeted individuals to stop being harassed by gang stalkers? If so, what methods have been successful in stopping the harassment?
+- [x] 2. `2025-08-06` · pedigree101 — Is it possible for targeted individuals to stop being harassed by gang stalkers? If so, what methods have been successful in stopping the harassment? (added by Quora Prompt Generator, a bot; answered because people keep asking the same thing)
 - [ ] 3. `2025-08-08` · pedigree101 — Have any Targeted Individuals tried moving to a different country? I'm in the US and am considering a move to Mexico to see if the RNM and V2K stop.
 - [ ] 4. `2025-08-09` · pedigree101 — As organized/community stalking number of victims increase, what do you think could happen to society as a whole?
 - [ ] 5. `2025-08-09` · pedigree101 — How do you get over being stalked if you can't prove who is doing it?
