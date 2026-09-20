@@ -37,6 +37,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "count-the-recruits",
+    "title": "Count the recruits",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-20",
+    "excerpt": "Somebody asked what happens to a society as the number of targeted people grows. The number that changes a society is the other one: how many have been recruited.",
+    "category": "Philosophy",
+    "collection": "posts",
+    "path": "posts/count-the-recruits.md",
+    "teaser": "The question looks forward, and I think the answer is behind us. The count that reshapes a place is not how many people are being targeted — it is how many have agreed to do the targeting. In a town I had just arrived in I counted the people involved on foot inside 24 hours and stopped at 300. That ratio is not a forecast. It describes a society where work goes to whoever is willing rather than whoever is able, where a report goes nowhere, and where a large number of ordinary people have learned that a stranger's livelihood is something you can be paid in favors to take. What I have to offer against it is an economy, not a prediction.",
+    "topics": [
+      "philosophy",
+      "community"
+    ]
+  },
+  {
     "slug": "an-invitation-to-tommy",
     "title": "An invitation to Tommy",
     "repo": "chargingthefuture/wiki-site",
@@ -81,21 +96,6 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "community",
       "specterati"
-    ]
-  },
-  {
-    "slug": "count-the-recruits",
-    "title": "Count the recruits",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-20",
-    "excerpt": "Somebody asked what happens to a society as the number of targeted people grows. The number that changes a society is the other one: how many have been recruited.",
-    "category": "Philosophy",
-    "collection": "posts",
-    "path": "posts/count-the-recruits.md",
-    "teaser": "The question looks forward, and I think the answer is behind us. The count that reshapes a place is not how many people are being targeted — it is how many have agreed to do the targeting. In a town I had just arrived in I counted the people involved on foot inside 24 hours and stopped at 300. That ratio is not a forecast. It describes a society where work goes to whoever is willing rather than whoever is able, where a report goes nowhere, and where a large number of ordinary people have learned that a stranger's livelihood is something you can be paid in favors to take. What I have to offer against it is an economy, not a prediction.",
-    "topics": [
-      "philosophy",
-      "community"
     ]
   },
   {
