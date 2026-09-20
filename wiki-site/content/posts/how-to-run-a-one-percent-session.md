@@ -119,4 +119,4 @@ It is also the honest answer to anybody who suspects this is a funnel. Here is t
 - [SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt) — [guide](https://app.chargingthefuture.com/guide#skills-hunt)
 - [SkillUp](https://app.chargingthefuture.com/apps/skill-up) — [guide](https://app.chargingthefuture.com/guide#skill-up)
 
-To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
+To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

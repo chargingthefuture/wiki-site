@@ -101,4 +101,4 @@ Four steps, if you want the method rather than the reasoning:
 - [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
 - [Knowledge Library](https://app.chargingthefuture.com/knowledge) — [guide](https://app.chargingthefuture.com/guide#knowledge)
 
-To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
+To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

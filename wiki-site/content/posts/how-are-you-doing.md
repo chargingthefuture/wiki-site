@@ -168,4 +168,4 @@ I am going to ask what you need, and then I am going to see whether the Skills E
 - [Unlock](https://app.chargingthefuture.com/plugin/unlock) — [guide](https://app.chargingthefuture.com/guide#unlock)
 - [Fireside](https://app.chargingthefuture.com/apps/fireside) — [guide](https://app.chargingthefuture.com/guide#fireside)
 
-To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
+To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

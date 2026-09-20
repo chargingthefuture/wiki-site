@@ -87,4 +87,4 @@ I built the map. Walking it with people is the part I can offer, and it is the p
 - [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
 - [SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt) — [guide](https://app.chargingthefuture.com/guide#skills-hunt)
 
-To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
+To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

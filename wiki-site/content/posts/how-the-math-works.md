@@ -80,4 +80,4 @@ The app is free. If you have a skill, it is one of the 650, and someone here wil
 - [Workforce](https://app.chargingthefuture.com/apps/workforce) — [guide](https://app.chargingthefuture.com/guide#workforce)
 - [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
 
-To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
+To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

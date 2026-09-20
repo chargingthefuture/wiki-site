@@ -108,4 +108,4 @@ Both of this week's additions started as plain descriptions of something the lis
 
 The full schemes list is public: [chargingthefuture.com/schemes](https://www.chargingthefuture.com/schemes).
 
-To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
+To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

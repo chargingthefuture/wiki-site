@@ -49,4 +49,4 @@ Eight accounts have now been erased, and the difference is visible in what survi
 
 It took two erasures to learn a rule that fits in a sentence. It is on the record now so nobody else building something under the same conditions has to pay twice for it: write on ground you hold, and hand the platforms a copy.
 
-To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
+To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

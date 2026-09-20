@@ -100,4 +100,4 @@ Say it under this post. Nobody has to agree with me for this to be worth writing
 - [TrustTransport](https://app.chargingthefuture.com/apps/trust-transport) — [guide](https://app.chargingthefuture.com/guide#trust-transport)
 - [Peace Battle 2](https://chargingthefuture.github.io/chargingthefuture/peace-battle-2)
 
-To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
+To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

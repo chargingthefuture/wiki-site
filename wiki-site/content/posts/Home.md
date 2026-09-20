@@ -1,12 +1,12 @@
 ---
 title: Charging The Future | Live, Work & Prevail
 date: "2025-12-31"
-excerpt: An invite-only platform designed for human trafficking survivors, offering essential services and support with dignity, privacy, and respect.
+excerpt: A vetted platform designed for human trafficking survivors, offering essential services and support with dignity, privacy, and respect.
 category: Foundation
 slug: Home
 repo: chargingthefuture/chargingthefuture
 featured: true
-teaser: "The knowledge base for Charging The Future and the Skills Economy: what the app is, how each service works, and where everything lives. The app is invite-only, built for survivors to live, work, and rebuild with safety, dignity, and privacy. Start here if you are new."
+teaser: "The knowledge base for Charging The Future and the Skills Economy: what the app is, how each service works, and where everything lives. The app is vetted, built for survivors to live, work, and rebuild with safety, dignity, and privacy. Start here if you are new."
 ---
 
 # Charging The Future Wiki
@@ -15,7 +15,7 @@ Welcome. This wiki is the knowledge base for Charging The Future and the TI Skil
 
 ## About The App (ctf)
 
-The [app](https://app.chargingthefuture.com) is an invite-only survivor platform built to help people live, work, and rebuild with safety, dignity, and privacy.
+The [app](https://app.chargingthefuture.com) is a vetted survivor platform built to help people live, work, and rebuild with safety, dignity, and privacy.
 
 It brings core services into one ecosystem, including support, housing, transportation, work, and community tools. The goal is simple: reduce isolation, increase access to trusted help, and support long-term survivor stability.
 

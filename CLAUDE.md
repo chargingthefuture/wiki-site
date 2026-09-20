@@ -559,9 +559,16 @@ only living pages bump their date. The one page that stays untouched is the mani
 
 Readers ask where to sign up; consumer apps need it explicit. Every post that invites participation ends with this exact block, verbatim, as the final paragraph — once per post, never in the body, never varied:
 
-> To sign up: https://chargingthefuture.com. It is free, invite-only, and you can use one part of it and ignore the rest.
+> To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
 The landing page, not the direct app URL: it explains before asking, and it still works (waitlist) when the app is offline. The sameness is the anti-salesy mechanism — a fixed block reads as documentation, a varied pitch reads as pressure. Archive entries, reference pages, and product updates do not carry it.
+
+The block said "invite-only" until 2026-09-20 (owner directive). Nothing in the product issues an
+invitation: sign-up is open, and Unlock is a verification an admin reviews afterward. So the line was
+telling readers to wait for something that does not exist, on top of reading as a closed door. Never
+write that the app is invite-only, in this block or anywhere else in current copy. The word for what
+actually happens is vetted, or a check — the manifesto already used "vetted". Two things keep the old
+word legitimately: the Signal chats, which really are invite-only, and the frozen manifesto.
 
 ## Agent Slash Commands (always apply, every repo)
 

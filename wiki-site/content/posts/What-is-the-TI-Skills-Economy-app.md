@@ -1,14 +1,14 @@
 ---
 title: What is the TI Skills Economy app?
 date: "2025-12-21"
-excerpt: An invite-only platform designed specifically for survivors of human trafficking, offering essential services and support with dignity, privacy, and respect.
+excerpt: A vetted platform designed specifically for survivors of human trafficking, offering essential services and support with dignity, privacy, and respect.
 category: Community
 slug: What-is-the-TI-Skills-Economy-app?
 repo: chargingthefuture/chargingthefuture
-teaser: "An invite-only super app built exclusively for survivors of human trafficking: housing, transportation, work, support, and community — 12+ services through a single account. Trauma-informed design, WCAG AAA accessibility, complete privacy control including full account deletion. Built by and for survivors."
+teaser: "A vetted super app built exclusively for survivors of human trafficking: housing, transportation, work, support, and community — 12+ services through a single account. Trauma-informed design, WCAG AAA accessibility, complete privacy control including full account deletion. Built by and for survivors."
 ---
 
-An invite-only platform designed specifically for survivors of human trafficking, offering essential services and support with dignity, privacy, and respect.
+A vetted platform designed specifically for survivors of human trafficking, offering essential services and support with dignity, privacy, and respect.
 
 ## Meta Description (150-160 characters)
 Invite-only platform for human trafficking survivors. Access 12+ essential services, including housing, transportation, job research, and community support in one unified app.
