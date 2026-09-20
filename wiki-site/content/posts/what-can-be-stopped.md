@@ -22,7 +22,7 @@ I asked this one too, in different words, for most of my life. So here is the an
 
 ## No method I know of has stopped it
 
-I have been targeted since I was five and I am thirty-nine. I have not found a way to end it, and I have not met a survivor who has. Ignoring it for thirty-four years [changed nothing](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/they-cannot-be-ignored); the first time one of them punched me in the face came after years of no reaction at all. There is no place in the United States I could move to that is free of it, and I have said so every time somebody asked about Texas. Whether another country is different is the next question in this queue, and it gets its own post.
+I have been targeted since I was five and I am forty-one. I have not found a way to end it, and I have not met a survivor who has. Ignoring it for thirty-four years [changed nothing](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/they-cannot-be-ignored); the first time one of them punched me in the face came after years of no reaction at all. There is no place in the United States I could move to that is free of it, and I have said so every time somebody asked about Texas. Whether another country is different is the next question in this queue, and it gets its own post.
 
 Two things about the accounts of it stopping.
 
