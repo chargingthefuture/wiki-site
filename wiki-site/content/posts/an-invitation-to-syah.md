@@ -33,7 +33,7 @@ The app keeps a catalog of 657 skills — the set a working economy of about fiv
 
 Clothing sits between those two and is usually forgotten by both. Planning conversations run to water, power, food and a roof, and clothing is assumed, the way it is assumed in a country with a store on every corner. It stops being assumed the first winter.
 
-On 14 September the Directory's 147 people held 184 of the 657 skills, and 473 had nobody at all. Creative work is where the list is deepest, and it is still a list where most of the catalog is empty. Somebody who can carry a chain like that end to end on their own is not joining a queue. They are the reason the row exists.
+On September 14 the Directory's 147 people held 184 of the 657 skills, and 473 had nobody at all. Creative work is where the list is deepest, and it is still a list where most of the catalog is empty. Somebody who can carry a chain like that end to end on their own is not joining a queue. They are the reason the row exists.
 
 ## How they came to be listed
 
