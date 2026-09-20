@@ -1,9 +1,9 @@
 ---
 title: "Move toward somebody"
 date: "2026-09-20"
-excerpt: "Somebody asked whether a move to Mexico would make it stop. I cannot say it would or would not. What I can say is what a move changes, what it does not, and how to know the difference."
+excerpt: "Somebody asked whether moving to Mexico would make it stop. I have crossed borders and it came with me. What a move changes is whose hands your week runs through."
 category: "Community"
-teaser: "Somebody in the United States asked whether any Targeted Individuals have tried moving to a different country, because they are considering Mexico to see if it stops. I have not met a survivor for whom it ended anywhere, and I know nothing about Mexico that they do not. What I know: a name on a list does not stay behind at a border, a quiet first stretch is usually the people doing it laying low, and a move changes one thing for certain, whose hands your week runs through. Go toward somebody, and write down the before and the after."
+teaser: "Somebody in the United States asked whether any Targeted Individuals have tried moving to a different country, because they are considering Mexico to see if it stops. I have traveled, and it came with me: operators worked on me in other countries and traveled from other countries to do it, one stranger coming from Israel to Asia. So the first half of the question has an answer and it is no. What a move does change, for certain, is whose hands your week runs through. Go toward somebody, and write down the before and the after."
 topics:
   - community
   - directory
@@ -24,15 +24,17 @@ The vocabulary I use for the people running this is in the [Dictionary](https://
 
 ## What I can answer and what I cannot
 
-I have not moved to another country. I have not met a survivor for whom moving anywhere ended it, and I have said before that [I have not met one for whom anything ended it](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-can-be-stopped). And I know nothing about Mexico that the person asking does not.
+I have traveled, and it came with me. That is not something I am repeating from somebody else — it is my own life, over years, not one strange trip. Specterati operators worked on me in other countries, and they traveled from other countries to do it. One stranger came from Israel to Asia to harass me.
 
-So I am not going to tell you the RNM and V2K stop at a border, and I am not going to tell you they do not. Nobody who has written to me has tested it in a way I could check, and I would rather say that than make something up in either direction. What I can answer is the part of the question that is about moving, because I have watched a lot of survivors move, and I moved once myself in a way that mattered.
+So the first half of the question has an answer and it is no. Crossing a border did not end it, and it was not close. I have also [never met a survivor for whom anything ended it](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-can-be-stopped), anywhere.
+
+What I cannot tell you is anything about Mexico in particular. I have not lived there and I know nothing about it that the person asking does not. I have traveled rather than relocated, so if there is some difference between passing through a country and building a life in one, I have not tested it and will not pretend to have. What I can speak to is the moving itself, because I have watched a lot of survivors move, and I moved once myself in a way that mattered.
 
 ## A name is not a place
 
 The first thing to know before choosing a country is what is being escaped. It is not a neighborhood. It is a name on a list, and [once a name is on the list it is never taken off](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/they-cannot-be-ignored).
 
-I estimate five million survivors, and that estimate is global rather than American. The oldest writing I have found describing this same crime is from the 1690s. The people who write to me are in the United States, and they are also not. There is no place in the United States I could move to that is free of it, and I have no reason to think a line on a map is where the list ends. I also have no proof that it is not, which is why the honest answer to the first half of the question is: I do not know of anyone who found the border.
+I estimate five million survivors, and that estimate is global rather than American. The oldest writing I have found describing this same crime is from the 1690s. The people who write to me are in the United States, and they are also not. There is no place in the United States I could move to that is free of it, and there is no line on a map where the list ends. That is not something I worked out by reasoning about it. It is what happened when I crossed one.
 
 ## The quiet stretch
 
