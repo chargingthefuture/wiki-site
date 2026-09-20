@@ -229,10 +229,19 @@ function titleFromParentUrl(url: string | undefined): string | undefined {
  * is the part of the record a reader can still check — the pilot import used
  * exactly this derivation and its stored URLs match it character for character.
  */
+// Quora mints a question's address from the question's own words. A slash becomes a hyphen rather
+// than disappearing, so "organized/community" is "organized-community" in the address — dropping
+// the slash instead produces a link that 404s. Found on a question whose derived address was dead
+// until the real one was looked up.
+//
+// Two things this still cannot know: where two questions share wording Quora appends -1 or -2, and
+// a question nobody has answered is served under an /unanswered/ prefix. So this is a best
+// derivation, and an address is worth opening before it is printed in a post.
 function quoraQuestionUrl(question: string): string | undefined {
   const slug = question
     .normalize('NFKD')
     .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[/\\]+/g, '-')
     .replace(/[^A-Za-z0-9\s-]/g, '')
     .trim()
     .replace(/\s+/g, '-')

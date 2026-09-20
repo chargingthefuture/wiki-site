@@ -30,8 +30,11 @@ Proposed, not settled. Correct them on the first post rather than in the abstrac
   who asked, only what they asked, so the credit names the question and its address and says
   plainly that the author is unknown. Derive the address with `quoraQuestionUrl` in
   `scripts/src/import-quora-export.ts` rather than writing one by hand — Quora mints it from the
-  question's own words. One caveat: where two questions share wording Quora appends `-1` or `-2`,
-  which the derivation cannot know, so the address is a best derivation and not a stored value.
+  question's own words. Three things the derivation cannot know, so an address is opened and
+  checked before a post prints it: where two questions share wording Quora appends `-1` or `-2`;
+  a question nobody has answered is served under an `/unanswered/` prefix; and a slash in the
+  question becomes a hyphen in the address rather than disappearing, which the function got wrong
+  until question 4 came back dead.
 - Open that address and credit the asker by handle, plain text with the profile address beside it,
   the way every other credit on this blog is written. The export recorded what was asked and not
   who asked it, but the question page still names them, so the asker is knowable even though the
