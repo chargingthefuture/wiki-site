@@ -87,7 +87,7 @@ follows it.
 - [ ] How does a narcissist act to people who see right through them — bookmarked
 - [ ] How soon does a narcissist usually get bored of a new supply — bookmarked
 - [ ] Is gang stalking real or is it just a bunch of paranoid people — bookmarked
-- [ ] Is there a time limit for gang stalking before it stops or no longer has any effect — bookmarked
+- [x] Is there a time limit for gang stalking before it stops or no longer has any effect — bookmarked
 - [ ] What are the indicators of being a high level targeted individual — bookmarked
 - [ ] What are the tactics used by gang stalkers to control their victims — bookmarked
 - [ ] What do gang stalkers fear — bookmarked
@@ -177,7 +177,7 @@ follows it.
 - [ ] How do I get evidence of harassment when living in a community building It is by the workers as well 1 — bookmarked · zersetzung
 - [ ] Are gang stalking and government sanctioned harassment programs evidence of systemic corruption How do you expose them and fight back effectively — bookmarked
 - [ ] Can electronic surveillance be weaponized against innocent people What do you need to know about gang stalking — bookmarked
-- [ ] Do targeted individuals ever stop getting harassed — bookmarked
+- [x] Do targeted individuals ever stop getting harassed — bookmarked
 - [ ] How can communities fight the harassment of targeted individuals — bookmarked
 - [ ] What are some lesser known facts about Targeted Individuals that people should be aware of — bookmarked
 - [ ] What are the signs you re under investigation — bookmarked · saved 2 times
@@ -283,7 +283,7 @@ follows it.
 - [ ] What do gang stalkers look for when choosing a target — bookmarked
 - [ ] Where do you start to find out who s in charge of the gang stalking against you — bookmarked
 - [ ] Why are gang Stalkers ugly dimented low life losers and why do they stalk — bookmarked
-- [ ] Why did they stop gang stalking me all of the sudden — bookmarked
+- [x] Why did they stop gang stalking me all of the sudden — bookmarked
 - [ ] Would gang stalkers set someone up to go to prison — bookmarked · saved 3 times
 - [ ] Could it be possible that gang stalking are also targeted individuals — bookmarked
 - [ ] Could law enforcement and officials involved in targeting whistleblowers pose long term risks to U S national security — bookmarked
@@ -402,11 +402,11 @@ follows it.
 - [ ] No if you are legally parked — bookmarked
 - [ ] Ways to Disenfranchise Gangstalkers and Make Them Give Up Introduction Gangstalking is a term used to describe a — bookmarked
 - [ ] What are your tips for remaining invisible while surviving homelessness e g invisible to the public invisible to th 16 — bookmarked · tzcxcgcistluhwwg
-- [ ] What can I do to get off the gang stalking list without relocating — bookmarked
+- [x] What can I do to get off the gang stalking list without relocating — bookmarked
 - [ ] When theres a lot of gangstalkers and they start running all around like something is terribly wrong and everyone acts like they dont know what is really going on — bookmarked
 - [ ] Which organizations or groups are most known for targeting individuals — bookmarked
 - [ ] Will a gang stalker marry a targeted individual — bookmarked
-- [ ] I know who started me getting gangstalked What can I do to make it stop — bookmarked
+- [x] I know who started me getting gangstalked What can I do to make it stop — bookmarked
 - [ ] So unfortunately i have GOOD CONFIRMATION that the FBI is indeed behind this Stalking Scandal against myself a privat — bookmarked
 - [ ] Gangstalking perps perpetrators operating within the Interagency notably include Signature Reduction Force SIGRED 1 — bookmarked · realgangstalkingvictimsandevidence
 - [ ] How can targeted individuals TIs protect themselves from gangstalkers who may have connections to wealthy powerful people or government military police forces — bookmarked
@@ -419,7 +419,7 @@ follows it.
 - [ ] Why do organized stalkers use scripted conversations — bookmarked
 - [ ] Things you do when you fail at life — bookmarked
 - [ ] Whats the end game of a gang stalker upvoting our Quora posts I have several blantant without a doubt gang stalkers up 3 — bookmarked · realgangstalkingvictimsandevidence
-- [ ] Why did the gang stalking stop or become bearable 1 — bookmarked · zersetzung
+- [x] Why did the gang stalking stop or become bearable 1 — bookmarked · zersetzung
 - [ ] Do stalkers set you up in housing properties that seem to be full of them Do they give you a car 6 — shared into a space · Real GangStalking Victims and Evidence
 
 ### 2025-04
@@ -430,10 +430,10 @@ follows it.
 ### 2025-05
 
 - [ ] Are business owners aware that gangstalkers are harassing their customers If so are they accepting kickbacks to turn a 1 — shared into a space · TIs are humans too
-- [ ] Do gang stalkers ever stop — bookmarked · saved 2 times
+- [x] Do gang stalkers ever stop — bookmarked · saved 2 times
 - [ ] Has a gang stalker ever helped you — bookmarked
 - [ ] What can you do if you suspect you are a victim of gang stalking Are gang stalkers ever punished for their actions — bookmarked
-- [ ] How do I make gang stalking stop — bookmarked
+- [x] How do I make gang stalking stop — bookmarked
 - [x] The gang stalkers are always starting physical fights with me on the street. Obviously to slander me to new recruits. Today I had to push one off of me as they were threatening to hit me with a glass bottle. It has been several years of the physical fights and it is only escalating. The last fight they threw a full soda can at the back of my head. Any advice? Should I start live streaming? The have been asking me to call the police. And that is likely also part of their game. — submitted to a space · Zersetzung - Decomposition Psychology · saved 8 times
 - [x] The gang stalkers are always starting physical fights with me on the street Obviously to slander me to new recruits To 1 — shared into a space · Zersetzung - Decomposition Psychology
 - [x] The gang stalkers are always starting physical fights with me on the street. Obviously to slander me to new recruits. Today one threatened to hit me with a glass bottle. It has been several years of this and they are escalating. The last fight they threw a full soda can at the back of my head. Any advice? Should I start live streaming? The have been asking me to call the police. And that is likely also part of their game. — submitted to a space · Zersetzung - Decomposition Psychology
@@ -461,7 +461,7 @@ follows it.
 - [ ] Are gang stalkers always aware of what they are doing to someone — bookmarked
 - [ ] Do gang stalkers have a reason for picking their victims or can it be just at random If so why — bookmarked
 - [ ] How can moving help someone who is being seriously gang stalked — bookmarked
-- [ ] How do you stop gang stalking — bookmarked
+- [x] How do you stop gang stalking — bookmarked
 - [ ] Is gang stalking ever beneficial to the target — bookmarked
 - [ ] What is the deal with gang stalking — bookmarked
 - [ ] When and how does gang stalking ever stop — bookmarked

@@ -37,6 +37,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-gn0b0dy-pneuma",
+    "title": "An invitation to Gn0b0dy Pneuma",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-19",
+    "excerpt": "Their writing is already on this blog three times. The list does not need us to agree about what this is or who is doing it. It needs what a person can do.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-gn0b0dy-pneuma.md",
+    "teaser": "Gn0b0dy Pneuma's writing is already on this blog three times: the post on shielding fabric and faraday cages that holds more practical knowledge on the subject than everything I have written put together, and the comment on the claim that operators can see through your eyes. This is the invitation, in public. It does not ask them to agree with my account of what this is or who is doing it. The list runs on what a person can do and what they need, and somebody who bought the fabric, built the cages and wrote down what failed is doing rather than saying.",
+    "topics": [
+      "community",
+      "directory"
+    ]
+  },
+  {
     "slug": "an-invitation-to-syah",
     "title": "An invitation to Syah",
     "repo": "chargingthefuture/wiki-site",
@@ -82,18 +97,19 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
-    "slug": "an-invitation-to-gn0b0dy-pneuma",
-    "title": "An invitation to Gn0b0dy Pneuma",
+    "slug": "what-can-be-stopped",
+    "title": "What can be stopped",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-09-19",
-    "excerpt": "Their writing is already on this blog three times. The list does not need us to agree about what this is or who is doing it. It needs what a person can do.",
+    "excerpt": "Nobody I know has stopped it, and the people who say it stopped were mostly told so by the people doing it. What can be stopped is what it costs you.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/an-invitation-to-gn0b0dy-pneuma.md",
-    "teaser": "Gn0b0dy Pneuma's writing is already on this blog three times: the post on shielding fabric and faraday cages that holds more practical knowledge on the subject than everything I have written put together, and the comment on the claim that operators can see through your eyes. This is the invitation, in public. It does not ask them to agree with my account of what this is or who is doing it. The list runs on what a person can do and what they need, and somebody who bought the fabric, built the cages and wrote down what failed is doing rather than saying.",
+    "path": "posts/what-can-be-stopped.md",
+    "teaser": "Somebody asked whether the harassment can be stopped, and which methods have worked. The honest answer is that no method I know of has ended it, mine included, and I have been at this since I was five. Moving does not do it, ignoring did not do it, and a quiet stretch is usually the people doing it laying low. What can be stopped is what it costs: your record of your own life, your week, your income, and who you depend on. Those are the parts that were ever in reach, and an economy of survivors is built to take them back.",
     "topics": [
       "community",
-      "directory"
+      "directory",
+      "clicklog"
     ]
   },
   {
