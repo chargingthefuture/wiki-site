@@ -185,7 +185,8 @@ This is not a typical app, and agents keep framing its numbers the way a typical
 
 | Term | Meaning | Source screen |
 |---|---|---|
-| Signed up / approved members | People who created their own account and were approved. The only number the 384 goal measures. Use "sign-ups" only when literally meaning this. | Unlock admin |
+| Signed up / approved members | People who created their own account and were approved. Not what the 384 goal measures — see the row below. Use "sign-ups" only when literally meaning this. | Unlock admin |
+| 384 | Members exchanging with each other on one day. Counted a day at a time; the same people do not have to return the next day. Counts exchanges that delivered something, never talk and never sign-ups. Reached when the typical day across a year sits at or above 384, not when one day touches it. Full definition on the blog Dictionary. | Daily Exchange admin |
 | Recruited | People the owner researched individually — skills stated in their own words in public — and placed on the skills map with a community-generated directory profile (claimable; deletable on request; nobody has asked, and some were outraged at the suggestion). Capacity math runs on this number. | Workforce |
 | Community Value Index | Value actually exchanged and settled in the community, cumulative (since 2026-06-12). A relative index in the spirit of GDP. Never money, a price, or an exchange/redemption value. | Skills Economy — Live |
 | Value waiting to happen / GDP Projected | What the open posts on the board would add if every one closed. Most posts never close: interest, not achievement. Not part of the Community Value Index, and not money. | Skills Economy — Live |

@@ -1,6 +1,6 @@
 ---
 title: "Dictionary: Skills Economy Terms"
-date: "2026-09-15"
+date: "2026-09-20"
 excerpt: "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record."
 category: "Resources"
 slug: Dictionary
@@ -14,6 +14,8 @@ topics:
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
 ## Latest changes
+
+2026-09-20 — The 384 entry is corrected and says for the first time where the number comes from. It is a count of members exchanging with each other on one day, and the same people do not have to return the next day. The entry previously described it as a count of people personally known to be real, and the members line above it said approved members was the only number the goal measures. Approved members is a different number that measures a different thing. Added too: one day at 384 is not the goal reached — it is reached when the typical day across a year sits at or above it.
 
 2026-09-15 — TI Radio added to the capability table: a published schedule of live discussions members host in Chyme, at app.chargingthefuture.com/ti-radio. Reading it needs no account, which makes it the second page here that does not gate reading. Hosting needs an approved account; a member takes an empty 90-minute slot and writes what it is about. A listing is not an endorsement — a slot is taken, not granted, nobody reviews a description first, and the app's own card says so. The name is also the one exception to the rule below that TI is not part of a product name.
 
@@ -49,9 +51,15 @@ Live, Work, and Prevail — the mission line.
 
 ## Counting people (this is not a typical app)
 
-Signed up / approved members — people who created their own account and were approved. The only number the 384 goal measures.
+Signed up / approved members — people who created their own account and were approved. This is not what the 384 goal measures; see 384 below.
 
-384 — the personal, realistic goal: 384 people working with each other at any given time. Not the far number; the one a person can watch arrive. The number carries two meanings. As a product benchmark, 384 people trading at once shows the app can grow toward the estimated five million survivors without breaking, and that it solves a real-world problem rather than a niche one — for this meaning, mixed real and fake participation still counts. As the personal goal, it counts only people personally known to be real, trading at any given time; the app does not verify anyone, so the verification here is personal knowledge.
+384 — the goal: 384 members exchanging with each other on the same day. Not the far number; the one a person can watch arrive.
+
+It is counted a day at a time, and the same 384 people do not have to come back tomorrow. Who is in it rotates. Supporting 384 on a day is what shows the app could in theory support all five million estimated survivors, because 384 is how many people a reading has to cover before it holds for a population that size.
+
+It counts exchanges that delivered something: a ride given, a repair done, a skill taught, credits sent for work that happened. Talk does not count, and neither does signing up. An account that only takes, or only posts, does not move the number.
+
+One day at 384 is not the goal reached. A day is a day; an economy is what holds. The goal is reached when the typical day across a year sits at or above 384.
 
 Two-generation goal — the stretch goal past 384: what the Du Bois cohort accomplished in one generation, this community accomplishes in two (the ordinary kind, twenty-five to thirty years each) — its own economy, institutions, and public record, built under both extremes at once: outright trafficking, and outsized surveillance technology while outnumbered by headcount. The finish line is the third-generation Targeted Individual, who can exit from the moment their targeting starts. Stated in the post "The two-generation goal" (2026-08-26).
 
