@@ -82,6 +82,22 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "what-can-be-stopped",
+    "title": "What can be stopped",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-19",
+    "excerpt": "Nobody I know has stopped it, and the people who say it stopped were mostly told so by the people doing it. What can be stopped is what it costs you.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/what-can-be-stopped.md",
+    "teaser": "Somebody asked whether the harassment can be stopped, and which methods have worked. The honest answer is that no method I know of has ended it, mine included, and I have been at this since I was five. Moving does not do it, ignoring did not do it, and a quiet stretch is usually the people doing it laying low. What can be stopped is what it costs: your record of your own life, your week, your income, and who you depend on. Those are the parts that were ever in reach, and an economy of survivors is built to take them back.",
+    "topics": [
+      "community",
+      "directory",
+      "clicklog"
+    ]
+  },
+  {
     "slug": "an-invitation-to-espada",
     "title": "An invitation to Espada",
     "repo": "chargingthefuture/wiki-site",
