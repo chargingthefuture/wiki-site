@@ -43,6 +43,9 @@ Proposed, not settled. Correct them on the first post rather than in the abstrac
   added it (owner directive, 2026-09-19, after question 2 turned out to be one).
 - The post is dated the day it is written, not the date the draft was opened. The draft date goes
   in the post only if it earns its place there.
+- The queues are the owner's working files, not something a reader knows about. A post never
+  refers to this queue, the next question in it, or what a later post will cover (owner directive,
+  2026-09-19).
 - Each publish carries the standard tail: the "Where to find it in the app" section for any part
   the post names, the sign-up block if the post invites participation, a hand-written
   `QUORA_PASTE_SHEET.txt` entry, and a regenerated `QUORA_PASTE_SHEET_FULL.txt`.
