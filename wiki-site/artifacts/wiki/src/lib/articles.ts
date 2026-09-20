@@ -52,6 +52,22 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "move-toward-somebody",
+    "title": "Move toward somebody",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-20",
+    "excerpt": "Somebody asked whether a move to Mexico would make it stop. I cannot say it would or would not. What I can say is what a move changes, what it does not, and how to know the difference.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/move-toward-somebody.md",
+    "teaser": "Somebody in the United States asked whether any Targeted Individuals have tried moving to a different country, because they are considering Mexico to see if it stops. I have not met a survivor for whom it ended anywhere, and I know nothing about Mexico that they do not. What I know: a name on a list does not stay behind at a border, a quiet first stretch is usually the people doing it laying low, and a move changes one thing for certain, whose hands your week runs through. Go toward somebody, and write down the before and the after.",
+    "topics": [
+      "community",
+      "directory",
+      "clicklog"
+    ]
+  },
+  {
     "slug": "what-can-be-stopped",
     "title": "What can be stopped",
     "repo": "chargingthefuture/wiki-site",
