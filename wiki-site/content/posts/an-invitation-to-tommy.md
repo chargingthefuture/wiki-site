@@ -28,11 +28,13 @@ Mechanical and electrical repair is the other half. A community with money repla
 
 ## What the list actually holds
 
-The skills catalog carries 657 entries — the set of things a working economy of about five million people needs somebody to be able to do. On 14 September the Directory's 147 people held 184 of them.
+The skills catalog carries 686 entries — the set of things a working economy of about five million people needs somebody to be able to do. Read on 20 September, the Directory's 158 people held 194 of them.
 
-473 have nobody at all.
+492 have nobody at all.
 
-Making and mending sits in Manufacturing and industry, which held 11 of its 28 skills that day. Energy and utilities held 3 of 20. Those are not fields where somebody would be joining a queue behind better-established people. They are close to empty, and the only part of the catalog the Directory has finished is retail and services.
+Making and mending sits in Manufacturing and industry, which held 12 of its 28 skills that day. Energy and utilities held 3 of 20. Housing and construction, where a building's systems sit, held 15 of 46. Those are not fields where somebody would be joining a queue behind better-established people.
+
+No part of the catalog is finished. Retail and services comes closest, at 12 of its 14, and every other sector has more skills nobody can do than skills somebody can.
 
 The app also keeps a shorter list: thirteen jobs a community has to be able to fill before it runs at all. Water and sanitation, building and infrastructure, food, health, safety, making and repair, education, operations, and five more. Not a wish list — the set of things where, if nobody can do them, the lights are on and the place still does not work. Mechanical and electrical repair and HVAC land on making and repair and on building and infrastructure, which are two of the thirteen and two of the thin ones.
 
