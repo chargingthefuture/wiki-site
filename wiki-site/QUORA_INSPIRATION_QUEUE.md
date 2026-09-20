@@ -113,8 +113,8 @@ follows it.
 - [ ] COMMUNITY BASED AGENTS CBA s ARE THE ONES WHO CONTROL THE ORGANIZED STALKING USED AGAINST ACTIVISTS DISSIDENTS WHIS — bookmarked · rnudvbhbuspdwbhs
 - [ ] Do you really feel alone because everybody in your off line life refuses to accept that your gang stalking is even real 4 — bookmarked · gangstalkingworldwide
 - [ ] Gangstalking is a form of harassment where a group of individuals target a specific person known as the targeted indivi — bookmarked
-- [ ] Have any Targeted Individuals tried moving to a different country Im in the US and am considering a move to Mexico to 2 — bookmarked · gangstalkingworldwide
-- [ ] Have any Targeted Individuals tried moving to a different country Im in the US and am considering a move to Mexico to see if the RNM and V2K stop — bookmarked
+- [x] Have any Targeted Individuals tried moving to a different country Im in the US and am considering a move to Mexico to 2 — bookmarked · gangstalkingworldwide
+- [x] Have any Targeted Individuals tried moving to a different country Im in the US and am considering a move to Mexico to see if the RNM and V2K stop — bookmarked
 - [ ] Hello fellow TI s brothers and sisters around the world Given that we all go through or went through similar experienc — bookmarked · antistalkingsurviveandthriveafterabuse
 - [x] How do gang stalkers use smear campaigns to ruin a person s reputation and what are the long term impacts on their social life — bookmarked
 - [ ] How does it feel to be targeted What can be done to prevent being targeted by individuals or agencies — bookmarked

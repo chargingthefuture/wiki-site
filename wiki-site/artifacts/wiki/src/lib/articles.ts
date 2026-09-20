@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "move-toward-somebody",
+    "title": "Move toward somebody",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-20",
+    "excerpt": "Somebody asked whether moving to Mexico would make it stop. I have crossed borders and it came with me. What a move changes is whose hands your week runs through.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/move-toward-somebody.md",
+    "teaser": "Somebody in the United States asked whether any Targeted Individuals have tried moving to a different country, because they are considering Mexico to see if it stops. I have traveled, and it came with me: operators worked on me in other countries and traveled from other countries to do it, one stranger coming from Israel to Asia. So the first half of the question has an answer and it is no. What a move does change, for certain, is whose hands your week runs through. Go toward somebody, and write down the before and the after.",
+    "topics": [
+      "community",
+      "directory",
+      "clicklog"
+    ]
+  },
+  {
     "slug": "something-to-lose",
     "title": "Something to lose",
     "repo": "chargingthefuture/wiki-site",
