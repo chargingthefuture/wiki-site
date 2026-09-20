@@ -16,7 +16,9 @@ There is a thing that answer quietly depends on. A room is only a room while the
 
 ## Tommy
 
-Tommy Gumbert (https://www.quora.com/profile/Tommy-Gumbert) is listed in the Directory for mechanical and electrical repair, and for HVAC — heating, ventilation and air conditioning, the systems that decide whether a building is habitable in February and in August.
+Tommy Gumbert (https://www.quora.com/profile/Tommy-Gumbert), in Kentucky. The Directory profile is at https://app.chargingthefuture.com/apps/directory/profile/15c6c421-a0e0-4d93-a614-b144c32ee751 and it carries two specializations: mechanical and electrical repair, and HVAC — heating, ventilation and air conditioning, the systems that decide whether a building is habitable in February and in August.
+
+![Tommy's Directory listing in the app, captured September 20, 2026. The heading reads Tommy, below it "Community-generated profile" and "Nominated by @farah", and under that the location Kentucky, United States. A button reads View Quora profile. Under the heading SPECIALIZATIONS are two entries: Mechanical/electrical repair, and HVAC. A panel below is headed "Want to work together?" and reads: the directory shows who is in the community and what they do; want a service or good from this person, look for them in Foundation, where members offer and exchange help, or browse Foundation to find someone else who can.](images/tommy-directory-profile-2026-09-20.jpg)
 
 Two kinds of work, and they are not the same kind.
 
