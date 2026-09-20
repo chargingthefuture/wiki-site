@@ -7,7 +7,7 @@ the two rules that keep the series readable.
 The list of people comes from `/admin/directory/invite-queue` in the app — reachable from the
 foot of `/admin/directory` and from the admin list at `/admin`. It shows every listed person with
 their Quora address and their skills, minus the owner and minus anybody already written about, and
-one control copies the whole thing as plain text. The same query is kept as
+one control copies all of it as plain text. The same query is kept as
 `ctf/scripts/sql/directory-invite-queue.sql` for anybody with a command line.
 
 The copied list is not committed anywhere. A file of names, addresses, skills and locations is the
@@ -37,7 +37,14 @@ Never reuse the same angle twice in a row. Six angles are listed below. Rotate t
 5. That no is a complete answer and the listing can come down at any time.
 6. That this does not run one way — the person being invited needs things too, and the list is how
    they find them.
-7. The standard app-links section and the sign-up block.
+7. The standing note headed "Who is on the list", verbatim from any published invite (owner
+   directive, 2026-09-20): everyone in the series is a self-identified Targeted Individual, the
+   post is not a vouch for anybody, the owner is not responsible for what a listed person does or
+   says, the app's Unlock gate is the closest anyone gets to a real one, and nothing is a hundred
+   percent. It exists because some people on the list will turn out to be operators, and a blog
+   post carries the owner's name in a way a Quora invite does not. Placed immediately before the
+   app-links section, and Unlock is in that section's list.
+8. The standard app-links section and the sign-up block.
 
 Titles follow `An invitation to <first name>`, files follow `an-invitation-to-<name>.md`.
 
@@ -81,7 +88,7 @@ Rotate these. Each is a way into the same invitation; none of them is a template
 | Janie Spears | Janie-Spears-7 | an-invitation-to-janie.md | The Cleaners / Janitorial cohort had no trainer and she manages cleaners | 2026-09-13 |
 | J H B | J-H-B-7 | an-invitation-to-jhb.md | Nine specializations, medicine among them, against the shortage the economy feels most | 2026-08-28 |
 | Steph Wo | Steph-Wo-1 | an-invitation-to-steph-wo.md | Their own bio, listing what the targeting interrupted, against the skills catalog | 2026-08-20 |
-| Christy | None-Ya-970 | an-invitation-to-christy.md | Two whole trades on one listing — clinical care and structural work — against a catalog that is empty rather than competitive | 2026-09-17 |
+| Christy | None-Ya-970 | an-invitation-to-christy.md | Two full trades on one listing — clinical care and structural work — against a catalog that is empty rather than competitive | 2026-09-17 |
 | Espada | ESPADA-18 | an-invitation-to-espada.md | Five kinds of work in their own words — plumber's apprentice, small engine repair, appliance repair, handyman, CCTV — across five planning teams, against sectors the map holds three skills of | 2026-09-18 |
 | Syah | Syah-Neal-AdoreTM | an-invitation-to-syah.md | Three specializations read as one chain — textile selection and sourcing, garment construction, fit and sizing — against Estonia in 1991, where the people who could do things were already there | 2026-09-19 |
 | Gn0b0dy Pneuma | Gn0b0dy-Pneuma | an-invitation-to-gn0b0dy-pneuma.md | The three places the blog already credits them, against the fact that the list has never needed anybody to agree with the owner about what this is | 2026-09-19 |

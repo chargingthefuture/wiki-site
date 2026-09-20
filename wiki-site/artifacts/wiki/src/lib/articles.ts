@@ -136,7 +136,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/an-invitation-to-espada.md",
-    "teaser": "The app keeps a list of thirteen jobs a community has to be able to fill before it can run — water, power, food, care, safety, making and mending, and the rest. No one person fills thirteen jobs and nobody is asked to. What a list is for is seeing which of them are thin. Espada describes the work as small engine repair, installing CCTV, appliance repair, handyman, plumber's apprentice. That lands on five of the thirteen, and one of them is a job the whole Directory currently holds three skills for, out of nineteen.",
+    "teaser": "The app keeps a list of thirteen jobs a community has to be able to fill before it can run — water, power, food, care, safety, making and mending, and the rest. No one person fills thirteen jobs and nobody is asked to. What a list is for is seeing which of them are thin. Espada describes the work as small engine repair, installing CCTV, appliance repair, handyman, plumber's apprentice. That lands on five of the thirteen, and one of them is a job the entire Directory currently holds three skills for, out of nineteen.",
     "topics": [
       "community",
       "directory"
