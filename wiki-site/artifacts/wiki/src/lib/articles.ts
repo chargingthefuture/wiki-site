@@ -68,6 +68,22 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "an-invitation-to-tommy",
+    "title": "An invitation to Tommy",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-20",
+    "excerpt": "A room that cannot be heated is not housing. The Directory lists rooms offered by survivors, and one person on it does mechanical and electrical repair and HVAC.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-tommy.md",
+    "teaser": "LightHouse lists rooms offered by survivors to survivors, which is the answer to the scheme that walks a destitute person back to relatives who can be bought. But a room is only a room while the heat works, and a community with no money does not replace what breaks — it repairs it. Tommy Gumbert is listed in the Directory for mechanical and electrical repair and HVAC. The skills catalog holds 657 things a working economy needs somebody to be able to do; on 14 September the Directory's 147 people held 184 of them and 473 had nobody at all. Mending is in one of the thin sectors, not a queue to join.",
+    "topics": [
+      "community",
+      "directory",
+      "lighthouse"
+    ]
+  },
+  {
     "slug": "what-can-be-stopped",
     "title": "What can be stopped",
     "repo": "chargingthefuture/wiki-site",
