@@ -442,6 +442,10 @@ image file names carrying a date, and to paste sheet entry headers. Getting it
 wrong puts a post in the feed under tomorrow, which is visible to every reader
 and has to be corrected in public.
 
+A date written into prose reads month first: September 20, not 20 September.
+This blog writes US English and 41 posts already do it that way; three invite
+posts drifted the other way and were corrected on 2026-09-20.
+
 ## Snapshots vs Living Pages (owner decision, 2026-08-18)
 
 Two kinds of pages live in `posts/`, and they age differently:

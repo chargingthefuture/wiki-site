@@ -3,7 +3,7 @@ title: "An invitation to Tommy"
 date: "2026-09-20"
 excerpt: "A room that cannot be heated is not housing. The Directory lists rooms offered by survivors, and one person on it does mechanical and electrical repair and HVAC."
 category: "Community"
-teaser: "LightHouse lists rooms offered by survivors to survivors, which is the answer to the scheme that walks a destitute person back to relatives who can be bought. But a room is only a room while the heat works, and a community with no money does not replace what breaks — it repairs it. Tommy Gumbert is listed in the Directory for mechanical and electrical repair and HVAC. The skills catalog holds 686 things a working economy needs somebody to be able to do; read on 20 September, the Directory's 158 people held 194 of them and 492 had nobody at all. Mending is in one of the thin sectors, not a queue to join."
+teaser: "LightHouse lists rooms offered by survivors to survivors, which is the answer to the scheme that walks a destitute person back to relatives who can be bought. But a room is only a room while the heat works, and a community with no money does not replace what breaks — it repairs it. Tommy Gumbert is listed in the Directory for mechanical and electrical repair and HVAC. The skills catalog holds 686 things a working economy needs somebody to be able to do; read on September 20, the Directory's 158 people held 194 of them and 492 had nobody at all. Mending is in one of the thin sectors, not a queue to join."
 topics:
   - community
   - directory
@@ -28,7 +28,7 @@ Mechanical and electrical repair is the other half. A community with money repla
 
 ## What the list actually holds
 
-The skills catalog carries 686 entries — the set of things a working economy of about five million people needs somebody to be able to do. Read on 20 September, the Directory's 158 people held 194 of them.
+The skills catalog carries 686 entries — the set of things a working economy of about five million people needs somebody to be able to do. Read on September 20, the Directory's 158 people held 194 of them.
 
 492 have nobody at all.
 
