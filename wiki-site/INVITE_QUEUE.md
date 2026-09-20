@@ -99,7 +99,7 @@ with nothing recorded. These are the next few, with angles rotated so no two in 
 | Person | Handle | Skills | invite_kind | Angle | Status |
 |---|---|---|---|---|---|
 | Dayna | Dayna-388 | Inventory, demand forecasting, route planning, last-mile delivery; offering soap and candles | skill-specific | You already have a profile | skipped — owner decision, 2026-09-19. Not to be written unless the owner says so. The row stays so nobody re-queues it. |
-| Gn0b0dy Pneuma | Gn0b0dy-Pneuma | Advocacy placeholder only | advocacy-only | You do not have to agree with me | queued |
+| Gn0b0dy Pneuma | Gn0b0dy-Pneuma | Advocacy placeholder only | advocacy-only | You do not have to agree with me | in PR |
 | Tommy | Tommy-Gumbert | Mechanical and electrical repair, HVAC | skill-specific | A working economy needs people who | queued |
 
 Status is one of: `queued`, `drafted`, `in PR`, `published`, `skipped`. A skipped row keeps its
