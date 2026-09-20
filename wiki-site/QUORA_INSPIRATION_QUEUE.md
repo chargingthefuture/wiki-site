@@ -144,8 +144,8 @@ follows it.
 ### 2024-11
 
 - [ ] How do gang stalkers mimic the voice of someone you know then constantly harass you with it but you are the only one wh 7 — bookmarked · zersetzung
-- [ ] If you have been a gangstalked are you concerned that it will increase or become more dangerous around this presidentia 1 — bookmarked · zersetzung
-- [ ] If you have been a gangstalked are you concerned that it will increase or become more dangerous around this presidentia 3 — bookmarked · zersetzung
+- [x] If you have been a gangstalked are you concerned that it will increase or become more dangerous around this presidentia 1 — bookmarked · zersetzung
+- [x] If you have been a gangstalked are you concerned that it will increase or become more dangerous around this presidentia 3 — bookmarked · zersetzung
 - [ ] Thank you for writing this Youre really articulate and explain it so clearly Reading it made me feel better — bookmarked · zersetzung
 - [ ] What do gang stalkers do when they find out you know theyre gang stalking you — bookmarked
 - [ ] What drives individuals to become gang stalkers — bookmarked
