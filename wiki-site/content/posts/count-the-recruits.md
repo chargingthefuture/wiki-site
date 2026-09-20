@@ -13,7 +13,7 @@ A question I opened as a Quora answer draft on August 9, 2025, and never wrote:
 
 > As organized/community stalking number of victims increase, what do you think could happen to society as a whole?
 
-It was asked by Adored Orange (https://www.quora.com/profile/Adored-Orange), who added it to Quora on August 7, 2025, two days before I opened the draft. Quora's export kept the words of the question and not the name of the person who asked it; the name is here because the question page still names them.
+It was added to Quora by Adored Orange (https://www.quora.com/profile/Adored-Orange) on August 7, 2025. Quora's export kept the words of the question and not the name beside it; the name is here because the question page still carries it.
 
 Nobody has answered it, so Quora serves it under an unanswered address: https://www.quora.com/unanswered/As-organized-community-stalking-number-of-victims-increase-what-do-you-think-could-happen-to-society-as-a-whole. If somebody does answer it, that part drops and the address becomes https://www.quora.com/As-organized-community-stalking-number-of-victims-increase-what-do-you-think-could-happen-to-society-as-a-whole. Both are here so that whichever one is live when you read this, you can go and read it where it stands.
 
