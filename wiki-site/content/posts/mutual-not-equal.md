@@ -16,7 +16,7 @@ This is the other side of the same thing. What happens when you do ask.
 
 ## A comment I cannot link to
 
-When I first announced the Skills Economy, a Targeted Individual left a comment under it. The account those comments lived under has been erased since, so there is nothing to point at and this is my memory rather than their words. It ran roughly: who cares about trading skills and goods, and who cares about their slander and their gossip — none of that bothers me. What bothers me are the directed energy weapons.
+When I first announced the Skills Economy, a Targeted Individual left a comment under it. Their account is still there. The comment is not: when Quora banned the account I had posted from, the post went with it, and so did every comment anybody had left under it. So there is nothing to point at, and this is my memory rather than their words. It ran roughly: who cares about trading skills and goods, and who cares about their slander and their gossip — none of that bothers me. What bothers me are the directed energy weapons.
 
 I was not offended by it and I did not take it personally. I had product experience before 2023, when the harassment went to around the clock, and a comment shaped like that is what arrives when something is working. Somebody sees value in what you are building and asks you to point it at the thing hurting them most. That is an ordinary thing for a person to do.
 
