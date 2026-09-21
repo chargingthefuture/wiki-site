@@ -96,6 +96,22 @@ carries it, because the owner froze that page outright and that freeze has not b
   the notification, and the blog is the address that survives. Each card leads with the post's
   opening words, because those are the words the notification showed. Nothing in the row moves
   on its own (owner decision, 2026-09-19).
+- Share messages for Peace Battle 2: `artifacts/wiki/public/pb2-messages.json`, one ready-to-paste
+  post per member-facing part of the app, written by `scripts/src/build-pb2-messages.ts` on
+  `wiki:pb2` from the hand-written `content/pb2-share-messages.yaml`. Build output like the feed:
+  gitignored, never hand-edited — edit the YAML. The block on the Peace Battle 2 page
+  (`Pb2ShareMessage.tsx`) reads this file and `invites.json` together, so a new invite post joins
+  the pool with no code change. It exists because the message of the day is written in the owner's
+  voice and carries their argument, and a supporter who does not agree with every line of it posts
+  nothing at all; these say what a part of the app does and stop. No other post on this blog is in
+  the pool, for the same reason (owner decision, 2026-09-21). One post a day, and a different one
+  per reader: both halves keep participants out of trouble. Everybody seeing the same text on the
+  same day is the shape spam detection catches, and a control that advances through the pool lets
+  one person post thirty-five times in an afternoon — the same shape from the other direction. So
+  there is no such control (owner directive, 2026-09-21), and the post changes when the day does.
+  The reader is identified by a random value kept in their own browser, which never leaves it;
+  where storage is refused everybody falls back to one shared order, the lesser of the two
+  failures.
 
 ## Commands (run from `wiki-site/`)
 
@@ -106,6 +122,7 @@ carries it, because the owner froze that page outright and that freeze has not b
 | `pnpm wiki:sync` | Regenerate `articles.ts` from the index |
 | `pnpm wiki:feed` | Regenerate the RSS feed at `artifacts/wiki/public/feed.xml` (both build scripts run this) |
 | `pnpm wiki:invites` | Regenerate the invite cards at `artifacts/wiki/public/invites.json` (both build scripts run this) |
+| `pnpm wiki:pb2` | Regenerate the Peace Battle 2 share messages at `artifacts/wiki/public/pb2-messages.json` (both build scripts run this) |
 | `pnpm wiki:sync:dry` | Preview sync changes |
 | `pnpm fireside:sync` | Copy the Fireside comments the app has cleared for publication into `artifacts/wiki/src/lib/fireside-exports.ts` |
 | `pnpm fireside:sync:dry` | Preview that copy without writing |
@@ -290,7 +307,10 @@ optional politeness; it is how the blog has always handled Nat Morris, Pam Dawso
 Steph Wo.
 
 Write the credit so it survives the account being deleted, because that is the expected end state
-rather than an edge case — Quora has erased five of this project's own accounts.
+rather than an edge case. Quora erases this project's own accounts routinely, and other people's
+go the same way. `content/posts/old-links-new-links.md` is the living record of which handle, if
+any, is currently open and which are dead; it is the only place that count is kept, so read it
+there rather than writing a figure into this file.
 
 - Put the name or handle in plain text and the address beside it, written out:
   `Gn0b0dy Pneuma (https://www.quora.com/profile/Gn0b0dy-Pneuma)`. Never wrap the name around the

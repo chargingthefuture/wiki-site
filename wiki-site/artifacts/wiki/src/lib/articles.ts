@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "mutual-not-equal",
+    "title": "Mutual, not equal",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-20",
+    "excerpt": "How to ask another Targeted Individual for help: bring something, and know who is receiving the ask. It does not have to be equal.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/mutual-not-equal.md",
+    "teaser": "The last post was about ignoring it. This one is what happens when you stop and start asking. Every relationship runs on an exchange, and it is almost never equal — it only has to be mutual, with each side getting what they came for. Before the targeting, most people arrived at every table with enough to offer that the habit was never tested; afterward the same habit meets closed doors and hears far more no than yes. The Skills Economy is built to take the awkwardness out of that, and to filter out the people who will never hand you anything real.",
+    "topics": [
+      "community",
+      "philosophy",
+      "skills-economy"
+    ]
+  },
+  {
     "slug": "count-the-recruits",
     "title": "Count the recruits",
     "repo": "chargingthefuture/wiki-site",
@@ -114,19 +130,18 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
-    "slug": "mutual-not-equal",
-    "title": "Mutual, not equal",
+    "slug": "old-links-new-links",
+    "title": "Old links, new links",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-09-20",
-    "excerpt": "How to ask another Targeted Individual for help: bring something, and know who is receiving the ask. It does not have to be equal.",
+    "excerpt": "Fifty-two accounts erased, three in one evening, and a new handle eight minutes later. What is live, what is dead, and the one address that never changes.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/mutual-not-equal.md",
-    "teaser": "The last post was about ignoring it. This one is what happens when you stop and start asking. Every relationship runs on an exchange, and it is almost never equal — it only has to be mutual, with each side getting what they came for. Before the targeting, most people arrived at every table with enough to offer that the habit was never tested; afterward the same habit meets closed doors and hears far more no than yes. The Skills Economy is built to take the awkwardness out of that, and to filter out the people who will never hand you anything real.",
+    "path": "posts/old-links-new-links.md",
+    "teaser": "Quora has erased my accounts fifty-two times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Three of those bans landed inside seventy-three minutes on one evening, and the handle now open was opened eight minutes after the last of them. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
     "topics": [
-      "community",
-      "philosophy",
-      "skills-economy"
+      "publishing",
+      "platform-independence"
     ]
   },
   {
@@ -188,21 +203,6 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "philosophy",
       "community"
-    ]
-  },
-  {
-    "slug": "old-links-new-links",
-    "title": "Old links, new links",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-19",
-    "excerpt": "Forty-nine Quora accounts erased, one space renamed, and one handle open again. What is live, what is dead, and the one address that does not change.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/old-links-new-links.md",
-    "teaser": "Quora has erased my accounts forty-nine times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. One handle is open again as of today. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
-    "topics": [
-      "publishing",
-      "platform-independence"
     ]
   },
   {

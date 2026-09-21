@@ -1,0 +1,230 @@
+# Ready-to-paste posts for Peace Battle 2 participants.
+#
+# The message of the day on the admin side is written in the owner's voice and carries their
+# argument. That is the wrong asset to hand a participant: somebody who supports the protest may
+# not agree with every opinion in it, and a post they half-agree with is one they do not make. So
+# these say what a part of the app does and nothing else. There is nothing here to disagree with.
+#
+# One entry per member-facing feature. Each stands on its own — a reader may never click the
+# link — and ends with a labeled link line, because a bare address alone on a line is what Quora's
+# editor turns into a preview card while a labeled one stays as written.
+#
+# Plain text only. Quora's composer shows every markdown marker literally, so there is no
+# formatting here to lose. Paragraphs are separated by a blank line in `body`.
+#
+# The link goes to the guide, which reads with no account. A deep link into the app would send a
+# stranger to a sign-in screen, which is the opposite of what a first post should do.
+#
+# Adding one: copy an entry, give it an id nothing else uses, and keep it opinion-free. The build
+# refuses a duplicate id or an empty field.
+
+messages:
+  - id: directory
+    feature: Directory
+    title: There is a list of survivors and what each of them can do
+    body: |-
+      Most survivor spaces are somewhere to talk. This one is a list of people and the skills they hold, so you can look up the skill instead of asking a room and hoping.
+
+      Being on it and having an account are separate things. Most entries were built for people rather than by them, from what those people already said about themselves in public, and anyone can claim theirs or have it taken down.
+
+  - id: foundation
+    feature: Foundation
+    title: Where you ask a survivor for help and reach them directly
+    body: |-
+      Providers list what they offer. You find one and start a conversation or a call, without a middleman deciding whether your request is worth passing on.
+
+      The person on the other end is there because offering help is what they signed up to do.
+
+  - id: lighthouse
+    feature: LightHouse
+    title: Housing listings from hosts who already understand
+    body: |-
+      Rooms and places to stay, listed by people inside the community. No explaining from the beginning why you need somewhere quiet or why a lease in your name is a problem.
+
+      A listing says which currencies it accepts, and some accept ServiceCredits, the community's internal credits unit.
+
+  - id: trust-transport
+    feature: TrustTransport
+    title: A ride from somebody the community screened
+    body: |-
+      Getting somewhere is not a small problem when being followed is the ordinary condition. Drivers here are screened by the community rather than by a company that has never heard of any of this.
+
+      You see who is driving before you accept, and the trip has a record.
+
+  - id: socket-relay
+    feature: SocketRelay
+    title: Ask for a thing you need and see who has one
+    body: |-
+      Not a skill, not a service — an object. Somebody posts what they need, somebody who has it answers, and the two arrange it between themselves.
+
+      It closes when the thing actually changes hands, so the board shows what is still open rather than what was once mentioned.
+
+  - id: skills-hunt
+    feature: SkillsHunt
+    title: You can add a survivor to the list without them doing anything
+    body: |-
+      If you know somebody who has said in public what they can do, you can nominate them. Their skills join the catalog, and the listing is theirs to claim or remove whenever they want.
+
+      This is how most of the list was built. Nobody was asked to fill in a form first.
+
+  - id: skill-up
+    feature: SkillUp
+    title: Learn a skill from another survivor and earn credits as you go
+    body: |-
+      Training runs in small groups with a trainer from inside the community. You earn credits at each milestone rather than at the end, so stopping halfway still leaves you with something.
+
+      The trainer earns for teaching it. Both sides of that are survivors.
+
+  - id: service-credits
+    feature: ServiceCredits
+    title: An economy that does not touch a bank
+    body: |-
+      Work done inside the community is settled in credits, which are an internal unit and not money. Nothing here is redeemable for cash and nothing asks for a card.
+
+      It exists because the ordinary way of paying people is one more system that can be closed against you.
+
+  - id: workforce
+    feature: Workforce
+    title: A map of what this community can actually do
+    body: |-
+      Every skill anybody has listed, sorted by sector, against what a working economy needs. You can see which trades are covered and which have almost nobody.
+
+      It is the planning tool, not a scoreboard. It says where the gaps are.
+
+  - id: skills-taxonomy
+    feature: Skills Taxonomy
+    title: One shared catalog of trades, so two people mean the same thing
+    body: |-
+      Sectors, job titles and the skills under them, kept as one list. When somebody says what they do, it lands in the same place as everybody else who does it.
+
+      Without that, a directory becomes a pile of free text nobody can search.
+
+  - id: gdp
+    feature: GDP
+    title: Value exchanged inside the community, counted as it happens
+    body: |-
+      A running index of what has actually been exchanged and settled here, in the spirit of a GDP figure. It is a relative index, not money and not a price.
+
+      Interest is counted separately from achievement, because most posts on any board never close and a number that mixes the two says nothing.
+
+  - id: what-works
+    feature: WhatWorks
+    title: A list of tools that other survivors say actually work
+    body: |-
+      Organized by the problem you have rather than by product category. No ads, no affiliate links, nobody paying to appear.
+
+      Somebody lists a thing that helped and others say whether it helped them too.
+
+  - id: knowledge
+    feature: Knowledge Library
+    title: You can lend your own writing so the answers stop coming from one person
+    body: |-
+      There is an assistant in the app that answers from a library of survivor writing. If it only ever holds one person's work, it only ever gives one person's answers.
+
+      You can contribute your own public writing to it, and you can withdraw it later.
+
+  - id: mood
+    feature: Mood
+    title: Track your own patterns without telling anybody
+    body: |-
+      Anonymous mood logging, so you can look back and see a shape you could not see day to day. Nobody is reading it and nothing is scored.
+
+      Knowing when it gets worse is the part that makes it arguable to anyone else.
+
+  - id: click-log
+    feature: ClickLog
+    title: Write down what happened, while it is still fresh
+    body: |-
+      Incident logging built for this, with location optional. One person's log looks like a bad week; a lot of logs together show a pattern that one person cannot demonstrate alone.
+
+      Your notes stay yours. What leaves is counted, not quoted.
+
+  - id: trust
+    feature: Trust
+    title: Credibility built from what you did, not from who vouched for you
+    body: |-
+      Signals come from real participation across the app — work completed, rides given, arrangements confirmed by both sides. Nothing is bought and nothing is granted by an admin.
+
+      It exists so somebody new can be taken seriously without knowing anybody yet.
+
+  - id: recurring-activity
+    feature: Recurring Activity
+    title: Acknowledge the help that has been going on for months
+    body: |-
+      One tap to record an ongoing arrangement with another member. No amounts, no invoices, nothing to total up.
+
+      Both sides confirm it, which is what keeps it a record of something real.
+
+  - id: mutual-time
+    feature: Mutual Time
+    title: Find a time everybody can make, across every timezone
+    body: |-
+      Share one link. People pick the times that work for them in their own timezone and the app works out the overlap.
+
+      A community spread across the world spends a lot of effort on this otherwise.
+
+  - id: peer-programming
+    feature: PeerProgramming
+    title: A weekly session where survivors work on things together
+    body: |-
+      Small groups, every week, working through real problems rather than talking about them. You leave with something further along than when you arrived.
+
+  - id: chyme
+    feature: Chyme
+    title: Live rooms where you can just listen
+    body: |-
+      Audio rooms you can join without speaking and without a camera. Listening counts as being there.
+
+      Isolation is the point of what is being done to people. A room with voices in it is a direct answer to that.
+
+  - id: ti-radio
+    feature: TI Radio
+    title: Anybody can take a slot and host a discussion
+    body: |-
+      A published schedule of live discussions. You take an empty ninety minutes, write what it is about, and host it.
+
+      The slot is taken, not granted. Nobody reviews the topic first, and reading the schedule needs no account.
+
+  - id: fireside
+    feature: Fireside
+    title: A conversation under every post that does not disappear
+    body: |-
+      Reading it needs no account at all. Writing takes a free one, and comments run oldest first — nothing gets pushed up or buried by a count.
+
+      Comments on a platform die with the account they were posted under. These have an address that still works next year.
+
+  - id: contributions
+    feature: Contributions
+    title: Ways to help that cost nothing
+    body: |-
+      A gift card, a comment left on a post, a star on the repository. Each one is recorded and earns thank-you credits.
+
+      Somebody with no money to give is not out of ways to contribute.
+
+  - id: commons
+    feature: Commons
+    title: The room you land in
+    body: |-
+      One shared channel for everybody, rather than a dozen half-empty ones. Announcements land here too, so there is one place to look.
+
+  - id: beacon
+    feature: Beacon
+    title: Live broadcasts you can watch with just a link
+    body: |-
+      No account needed to watch. Sign in only if you want to say something in the chat while it runs.
+
+  - id: bug-reporting
+    feature: Bug Reporting
+    title: Report a problem without writing it in public
+    body: |-
+      Reports go to a private queue rather than a public tracker. The raw text stays private and a person reads it.
+
+      The member most likely to hit a broken screen is the one who has not finished signing up yet, so this works before you are approved.
+
+  - id: unlock
+    feature: Unlock
+    title: One step decides whether somebody real is at the other end
+    body: |-
+      Everybody comes in the same way: you paste the address of your own public profile, and a person reviews it. Not an algorithm, and not a form that anybody can fill in a thousand times.
+
+      It is slow on purpose. It is the reason the list is worth anything.
