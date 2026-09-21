@@ -14,7 +14,7 @@ A question I saved on Quora in October 2024 and never answered:
 
 > When a targeted individual gets to the stage of being nearly 100% isolated, what should that person do to survive?
 
-The question is at https://www.quora.com/When-a-targeted-individual-gets-to-the-stage-of-being-nearly-100-isolated-what-should-that-person-do-to-survive and it is still up. It was asked anonymously, so there is nobody to credit by name. Its page carries 20 public followers and 225.8 thousand views, and it has been answered by other people.
+The question is at https://www.quora.com/When-a-targeted-individual-gets-to-the-stage-of-being-nearly-100-isolated-what-should-that-person-do-to-survive and it is still up. It was asked anonymously on December 17, 2020, so there is nobody to credit by name and the question has been standing for nearly six years. Its page carries 20 public followers and 225.8 thousand views, and it has been answered by other people.
 
 ![The question on its Quora page, captured September 21, 2026. The heading reads: When a targeted individual gets to the stage of being nearly 100% isolated, what should that person do to survive? Below it, under Asked by, the asker is listed as Anonymous. Under Question stats: 20 public followers, 225.8K views, last followed Aug 24, 2024.](images/nearly-100-percent-isolated-question-2026-09-21.jpg)
 
