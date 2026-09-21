@@ -114,6 +114,22 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "mutual-not-equal",
+    "title": "Mutual, not equal",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-20",
+    "excerpt": "How to ask another Targeted Individual for help: bring something, and know who is receiving the ask. It does not have to be equal.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/mutual-not-equal.md",
+    "teaser": "The last post was about ignoring it. This one is what happens when you stop and start asking. Every relationship runs on an exchange, and it is almost never equal — it only has to be mutual, with each side getting what they came for. Before the targeting, most people arrived at every table with enough to offer that the habit was never tested; afterward the same habit meets closed doors and hears far more no than yes. The Skills Economy is built to take the awkwardness out of that, and to filter out the people who will never hand you anything real.",
+    "topics": [
+      "community",
+      "philosophy",
+      "skills-economy"
+    ]
+  },
+  {
     "slug": "what-can-be-stopped",
     "title": "What can be stopped",
     "repo": "chargingthefuture/wiki-site",
