@@ -16,7 +16,8 @@
     "build-invites": "tsx ./src/build-invites.ts",
     "import:quora-export": "tsx ./src/import-quora-export.ts",
     "sync-fireside-exports": "tsx ./src/sync-fireside-exports.ts",
-    "sync-fireside-exports:dry": "tsx ./src/sync-fireside-exports.ts --dry-run"
+    "sync-fireside-exports:dry": "tsx ./src/sync-fireside-exports.ts --dry-run",
+    "build-pb2-messages": "tsx ./src/build-pb2-messages.ts"
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",

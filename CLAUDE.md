@@ -96,6 +96,18 @@ carries it, because the owner froze that page outright and that freeze has not b
   the notification, and the blog is the address that survives. Each card leads with the post's
   opening words, because those are the words the notification showed. Nothing in the row moves
   on its own (owner decision, 2026-09-19).
+- Share messages for Peace Battle 2: `artifacts/wiki/public/pb2-messages.json`, one ready-to-paste
+  post per member-facing part of the app, written by `scripts/src/build-pb2-messages.ts` on
+  `wiki:pb2` from the hand-written `content/pb2-share-messages.yaml`. Build output like the feed:
+  gitignored, never hand-edited — edit the YAML. The block on the Peace Battle 2 page
+  (`Pb2ShareMessage.tsx`) reads this file and `invites.json` together, so a new invite post joins
+  the pool with no code change. It exists because the message of the day is written in the owner's
+  voice and carries their argument, and a supporter who does not agree with every line of it posts
+  nothing at all; these say what a part of the app does and stop. No other post on this blog is in
+  the pool, for the same reason (owner decision, 2026-09-21). The order is shuffled per visitor
+  rather than fixed to the day, so two people posting on the same day do not post identical text —
+  which is the shape spam detection catches, and the accounts it would catch are the ones helping.
+  Nothing advances on its own; the reader presses a button.
 
 ## Commands (run from `wiki-site/`)
 
@@ -106,6 +118,7 @@ carries it, because the owner froze that page outright and that freeze has not b
 | `pnpm wiki:sync` | Regenerate `articles.ts` from the index |
 | `pnpm wiki:feed` | Regenerate the RSS feed at `artifacts/wiki/public/feed.xml` (both build scripts run this) |
 | `pnpm wiki:invites` | Regenerate the invite cards at `artifacts/wiki/public/invites.json` (both build scripts run this) |
+| `pnpm wiki:pb2` | Regenerate the Peace Battle 2 share messages at `artifacts/wiki/public/pb2-messages.json` (both build scripts run this) |
 | `pnpm wiki:sync:dry` | Preview sync changes |
 | `pnpm fireside:sync` | Copy the Fireside comments the app has cleared for publication into `artifacts/wiki/src/lib/fireside-exports.ts` |
 | `pnpm fireside:sync:dry` | Preview that copy without writing |
