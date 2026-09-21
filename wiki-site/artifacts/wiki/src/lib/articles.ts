@@ -45,7 +45,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/you-dont-owe-me-anything.md",
-    "teaser": "The default stance of a trafficker is that a Targeted Individual — a complete stranger — already owes them something. Their network runs on it: favors granted for trafficking, kept by more trafficking, and somebody always sitting in the middle of the transaction. I have been targeted for over thirty years and I come to the Skills Economy believing the reverse: not one person who joins owes me anything. So there is nobody in the middle, nothing to keep up, nothing you are told to do to stay, and an account only goes for something egregious — never for annoying me. Come and go as you like, block me if you like, and delete everything yourself without asking.",
+    "teaser": "A trafficker's default stance is that a stranger already owes them; their network runs on favors granted for trafficking and kept by more of it, with somebody always in the middle. I have been targeted for over thirty years and come to the Skills Economy holding the reverse: nobody who joins owes me anything. So there is nobody in the middle, no hierarchy, no credit score, no ranking — one badge, earned by real help — and an account goes only for something egregious. Come and go, block me, delete everything yourself.",
     "topics": [
       "community",
       "specterati",

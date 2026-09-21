@@ -3,7 +3,7 @@ title: "You don't owe me anything"
 date: "2026-09-21"
 excerpt: "A trafficker's default stance is that a stranger already owes them. Mine is the opposite, and it is why there is very little to lose by joining."
 category: "Community"
-teaser: "The default stance of a trafficker is that a Targeted Individual — a complete stranger — already owes them something. Their network runs on it: favors granted for trafficking, kept by more trafficking, and somebody always sitting in the middle of the transaction. I have been targeted for over thirty years and I come to the Skills Economy believing the reverse: not one person who joins owes me anything. So there is nobody in the middle, nothing to keep up, nothing you are told to do to stay, and an account only goes for something egregious — never for annoying me. Come and go as you like, block me if you like, and delete everything yourself without asking."
+teaser: "A trafficker's default stance is that a stranger already owes them; their network runs on favors granted for trafficking and kept by more of it, with somebody always in the middle. I have been targeted for over thirty years and come to the Skills Economy holding the reverse: nobody who joins owes me anything. So there is nobody in the middle, no hierarchy, no credit score, no ranking — one badge, earned by real help — and an account goes only for something egregious. Come and go, block me, delete everything yourself."
 topics:
   - community
   - specterati
@@ -45,6 +45,16 @@ So here is the line, stated plainly. An account goes for something egregious. A 
 The same holds for the few places where I am the one managing things — a safety report, say. I do not believe any of the parties owe me anything, so there is no consequence for having irritated me on the way in. Mutual benefit is the goal, and the [last post](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/mutual-not-equal) is about what that means between two people. It does not have to be equal. It has to be mutual.
 
 And if you join, like what is happening here or the people who are here, and do not like what I say — you are welcome. You can use every part of the app without a single interaction with me. There is a block feature. Block me.
+
+## No hierarchy, no score
+
+There is no hierarchy in the app, and this has been tested rather than claimed. One member asked me for admin permissions. I am not going to name them, because they are still a member, and the ask is the point rather than the person. What that request asked for was exactly the two things a trafficker's economy needs and this one does not have: a seat in the middle of other people's transactions, and a rank above other survivors. The answer was no, and it will stay no for anybody. There is one admin, who is the architect, and every member is a member. Nobody sits above anybody else.
+
+You do not have to take my word for it. The code is open source at https://github.com/chargingthefuture/chargingthefuture, and anybody can read what an admin can do, what a member can do, and that there is nothing between the two.
+
+The same stand-up set had a second line I remember: nobody with a 739 credit score has ever done a mass shooting. It is the reverse again, for the same reason as the mortgage. The people carrying the good number are the ones inside the favors economy, and the number is one of the favors.
+
+The Skills Economy has no credit score. There is no social ranking, and the [Trust](https://app.chargingthefuture.com/apps/trust) card is a list of plain sentences about what you have actually done — no score, no status, nothing that goes up or down against anybody else. There is exactly one badge, Weavers of the Commons, and you get it one way: by delivering real help to other members over time. It is earned, never bought, and it does not fluctuate. Once it is yours it stays yours; it goes only for cause, the same egregious bar an account goes for, and never because somebody was annoyed. That is the opposite of how the trafficking network hands out its positions, where everything is granted on the strength of the last favor and withdrawn on the next.
 
 ## What you stand to lose
 
