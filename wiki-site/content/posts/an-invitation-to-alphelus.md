@@ -3,7 +3,7 @@ title: "An invitation to Alphelus"
 date: "2026-09-21"
 excerpt: "The targeting works because the people your week runs through can be reached. One person on the list does electrical work, power system to outlet."
 category: "Community"
-teaser: "Two things have to be true for the targeting to work: the people your week runs through can be reached, and there is nobody else. Reaching them is the work the network actually does. So the answer is people they have not reached, doing the things a week runs on, and electricity is one of those. Alphelus Allen is listed in the Directory for seven specializations that run from power systems design down to wiring and circuit installation. The skills catalog holds 686 things a working economy needs somebody to be able to do; read on September 20, the Directory's 158 people held 194 of them, and Energy and utilities held 3 of its 20."
+teaser: "Two things have to be true for the targeting to work: the people your week runs through can be reached, and there is nobody else. Reaching them is the work the network actually does. So the answer is people they have not reached, doing the things a week runs on, and electricity is one of those. Alphelus Allen is listed in the Directory for seven specializations that run from power systems design down to wiring and circuit installation. The skills catalog holds 686 things a working economy needs somebody to be able to do; read on September 21, the Directory's 161 people held 207 of them, and Energy and utilities held 3 of its 20."
 topics:
   - community
   - directory
@@ -30,13 +30,13 @@ Some of that a survivor never sees done. Some of it comes to the door. An electr
 
 ## What the list actually holds
 
-The skills catalog carries 686 entries — the set of things a working economy of about five million people needs somebody to be able to do. Read on September 20, the day before this post, the Directory's 158 people held 194 of them.
+The skills catalog carries 686 entries — the set of things a working economy of about five million people needs somebody to be able to do. Read on September 21, the day this post went up, the Directory's 161 people held 207 of them.
 
-492 had nobody at all.
+479 had nobody at all.
 
 Energy and utilities, where power systems and voltage control sit, held 3 of its 20 skills that day. Housing and construction, where building design, construction documentation and wiring sit, held 15 of 46. Seven specializations across two of the thinnest sectors on the map is not somebody joining a queue.
 
-No part of the catalog is finished. Retail and services comes closest, at 12 of its 14, and every other sector has more skills nobody can do than skills somebody can.
+No part of the catalog is finished. Retail and services comes closest, at 13 of its 14, and every other sector has more skills nobody can do than skills somebody can.
 
 The app also keeps a shorter list: thirteen jobs a community has to be able to fill before it runs at all. Building and infrastructure is one of the thirteen, and it is one of the thin ones. Power systems, wiring and the drawings a building is built from all land on it.
 

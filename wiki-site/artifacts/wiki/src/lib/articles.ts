@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-alphelus",
+    "title": "An invitation to Alphelus",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-21",
+    "excerpt": "The targeting works because the people your week runs through can be reached. One person on the list does electrical work, power system to outlet.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-alphelus.md",
+    "teaser": "Two things have to be true for the targeting to work: the people your week runs through can be reached, and there is nobody else. Reaching them is the work the network actually does. So the answer is people they have not reached, doing the things a week runs on, and electricity is one of those. Alphelus Allen is listed in the Directory for seven specializations that run from power systems design down to wiring and circuit installation. The skills catalog holds 686 things a working economy needs somebody to be able to do; read on September 21, the Directory's 161 people held 207 of them, and Energy and utilities held 3 of its 20.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ]
+  },
+  {
     "slug": "nearly-a-hundred-percent-isolated",
     "title": "Nearly a hundred percent isolated",
     "repo": "chargingthefuture/wiki-site",
@@ -66,22 +82,6 @@ export const ARTICLES: ArticleMeta[] = [
       "community",
       "specterati",
       "skills-economy"
-    ]
-  },
-  {
-    "slug": "an-invitation-to-alphelus",
-    "title": "An invitation to Alphelus",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-21",
-    "excerpt": "The targeting works because the people your week runs through can be reached. One person on the list does electrical work, power system to outlet.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/an-invitation-to-alphelus.md",
-    "teaser": "Two things have to be true for the targeting to work: the people your week runs through can be reached, and there is nobody else. Reaching them is the work the network actually does. So the answer is people they have not reached, doing the things a week runs on, and electricity is one of those. Alphelus Allen is listed in the Directory for seven specializations that run from power systems design down to wiring and circuit installation. The skills catalog holds 686 things a working economy needs somebody to be able to do; read on September 20, the Directory's 158 people held 194 of them, and Energy and utilities held 3 of its 20.",
-    "topics": [
-      "community",
-      "directory",
-      "workforce"
     ]
   },
   {
