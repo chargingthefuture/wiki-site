@@ -42,6 +42,12 @@ type InviteCard = {
 
 const READER_KEY = "pb2-reader";
 
+// The blog's standing sign-up line, verbatim — the same fixed block every post ends with. The
+// feature posts get it from the build; an invite post is assembled here, so it is added here too.
+// Kept identical to SIGN_UP_LINE in scripts/src/build-pb2-messages.ts.
+const SIGN_UP_LINE =
+  "To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.";
+
 /**
  * An invite post turned into something a participant can paste.
  *
@@ -58,6 +64,7 @@ function fromInvite(card: InviteCard): Pb2Message {
       "The TI Skills Economy invites people one at a time, in public. Not a form letter — a post written to the person by name, saying why they were asked.",
       `This is the one written to ${card.name}. Reading it needs no account.`,
       card.url,
+      SIGN_UP_LINE,
     ].join("\n\n"),
   };
 }
