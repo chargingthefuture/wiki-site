@@ -1,9 +1,9 @@
 ---
 title: "Old links, new links"
 date: "2026-09-20"
-excerpt: "Fifty-two Quora accounts erased, three of them in one evening, one space renamed, and no handle open. What is live, what is dead, and the one address that does not change."
+excerpt: "Fifty-two accounts erased, three in one evening, and a new handle eight minutes later. What is live, what is dead, and the one address that never changes."
 category: "Community"
-teaser: "Quora has erased my accounts fifty-two times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Three of those bans landed inside seventy-three minutes on one evening, and no handle of mine is open now. This page is the standing record: what is live, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
+teaser: "Quora has erased my accounts fifty-two times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Three of those bans landed inside seventy-three minutes on one evening, and the handle now open was opened eight minutes after the last of them. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
 topics:
   - publishing
   - platform-independence
@@ -11,7 +11,7 @@ topics:
 
 Quora has erased my accounts fifty-two times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
 
-There is no handle of mine on Quora right now. The last three were banned inside seventy-three minutes on the evening of September 20, 2026.
+There is one handle of mine on Quora, opened on the evening of September 20, 2026, eight minutes after the third ban of that evening. Everything before it is dead.
 
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
@@ -27,11 +27,11 @@ To reach me, save this link alongside the blog: https://sleek.bio/farah — it l
 
 ## Quora: current
 
-The handle: none. The last one was banned on the evening of September 20, 2026, and I have not opened another yet. Until one appears here, no Quora handle is mine.
+The handle: https://www.quora.com/profile/Kingofno-2 — opened at 10:37 in the evening on September 20, 2026, eight minutes after Kingmlk was banned. The third handle opened that evening, after three were banned.
 
 The space: https://skillseconomy.quora.com
 
-A space, and nothing else on Quora is me. If another account claims to be, it is not. If an account or space claims to speak for the Skills Economy and is not on this page, it is not me either. Check back here, not on Quora, because this page cannot be edited by anyone but me and every change to it is on the public record.
+A handle and a space, and nothing else on Quora is me. If another account claims to be, it is not. If an account or space claims to speak for the Skills Economy and is not on this page, it is not me either. Check back here, not on Quora, because this page cannot be edited by anyone but me and every change to it is on the public record.
 
 ## Quora: dead
 
@@ -179,4 +179,4 @@ The old GitHub wiki — an inactive mirror. It no longer receives updates; this 
 
 Nothing is written on a platform first anymore. Every post starts here, and platforms only ever get a short version and a link back. So the next time an account is erased — and I assume there will be a next time — the cost is one entry moving from the current list to the dead list on this page. That is all.
 
-Since this page first went up, that has happened fifty times. The list above is current; there is no open handle left to move onto it.
+Since this page first went up, that has happened fifty times. The list above is current, and Kingofno-2 is the entry waiting to move onto it.
