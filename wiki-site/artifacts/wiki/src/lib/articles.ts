@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "nearly-a-hundred-percent-isolated",
+    "title": "Nearly a hundred percent isolated",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-21",
+    "excerpt": "Somebody asked what a Targeted Individual should do to survive once they are nearly completely isolated. Isolation is the product, and the answer runs backward from that.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/nearly-a-hundred-percent-isolated.md",
+    "teaser": "A question I saved on Quora in October 2024 and never answered: when a Targeted Individual gets to the stage of being nearly a hundred percent isolated, what should that person do to survive? Isolation is not a side effect of the targeting; it is what the targeting is for, because a person with nobody left has to go through whoever is offered. So the answer runs backward from that. Read before you talk, write it down, be findable, ask for the smallest real thing with something in your hands, and keep one leg in the door. None of it ends the harassment. It changes whose hands your week runs through.",
+    "topics": [
+      "community",
+      "directory",
+      "clicklog"
+    ]
+  },
+  {
     "slug": "you-dont-owe-me-anything",
     "title": "You don't owe me anything",
     "repo": "chargingthefuture/wiki-site",
@@ -53,19 +69,19 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
-    "slug": "nearly-a-hundred-percent-isolated",
-    "title": "Nearly a hundred percent isolated",
+    "slug": "an-invitation-to-alphelus",
+    "title": "An invitation to Alphelus",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-09-21",
-    "excerpt": "Somebody asked what a Targeted Individual should do to survive once they are nearly completely isolated. Isolation is the product, and the answer runs backward from that.",
+    "excerpt": "The targeting works because the people your week runs through can be reached. One person on the list does electrical work, power system to outlet.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/nearly-a-hundred-percent-isolated.md",
-    "teaser": "A question I saved on Quora in October 2024 and never answered: when a Targeted Individual gets to the stage of being nearly a hundred percent isolated, what should that person do to survive? Isolation is not a side effect of the targeting; it is what the targeting is for, because a person with nobody left has to go through whoever is offered. So the answer runs backward from that. Read before you talk, write it down, be findable, ask for the smallest real thing with something in your hands, and keep one leg in the door. None of it ends the harassment. It changes whose hands your week runs through.",
+    "path": "posts/an-invitation-to-alphelus.md",
+    "teaser": "Two things have to be true for the targeting to work: the people your week runs through can be reached, and there is nobody else. Reaching them is the work the network actually does. So the answer is people they have not reached, doing the things a week runs on, and electricity is one of those. Alphelus Allen is listed in the Directory for seven specializations that run from power systems design down to wiring and circuit installation. The skills catalog holds 686 things a working economy needs somebody to be able to do; read on September 20, the Directory's 158 people held 194 of them, and Energy and utilities held 3 of its 20.",
     "topics": [
       "community",
       "directory",
-      "clicklog"
+      "workforce"
     ]
   },
   {

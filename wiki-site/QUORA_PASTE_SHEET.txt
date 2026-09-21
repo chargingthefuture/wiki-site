@@ -26,8 +26,15 @@ corrected where it had drifted; 70 were rewritten. Entries added after that date
 are written from the post at the time it is published. So the file is no longer
 unverified — but it is still a staging file, and the post remains the record.
 
-384 of 384 written.
+385 of 385 written.
 
+
+==============================================================================
+No. 385 · 2026-09-21 · An invitation to Alphelus
+
+Two things have to be true for the targeting to work. The people your week runs through can be reached — the employer, the landlord, whoever is in your home for an hour with the power off — and there is nobody else. The second is not a starting condition; it is what the first produces over time. So the answer is not stopping them reaching people, which nothing I know of does. It is having people they have not reached, doing the things a week runs on, and electricity is one of those. Alphelus Allen (https://www.quora.com/profile/Alphelus-Allen), in San Francisco, is listed in the Directory (https://app.chargingthefuture.com/apps/directory/profile/9cd4a855-509c-4802-9291-bb68fa803a5e) with a BS in electrical engineering from Mississippi State University and seven specializations that run from the power system down to the outlet: system design and architecture, frequency and voltage control, power systems design, building design, construction documentation, electrical, and wiring and circuit installation. Some of that a survivor never sees done; some of it comes to the door, and an electrician works in the place you sleep at a time they choose. It does not have to be a stranger standing there. The numbers: the skills catalog carries 686 entries, and read on September 20 the Directory's 158 people held 194 of them, with 492 held by nobody. Energy and utilities held 3 of its 20 that day and Housing and construction 15 of 46, so seven specializations across those two sectors is not somebody joining a queue. Building and infrastructure is one of the thirteen jobs a community has to fill before it runs at all, and it is a thin one. Foundation already carries Electrician as a trade filter; what it needs is somebody behind it. Alphelus did not sign up: I built the listing from what they said in public and put it up under their name, which is why it says who made it. Claiming it takes a free account and a few minutes, and then it is theirs. No is a complete answer, and the listing comes down on request. And it does not run one way — somebody whose trade is in other people's homes needs a ride, a room, an hour of a trade they do not have, and the same listing that makes them findable makes those people findable to them.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/an-invitation-to-alphelus
 
 ==============================================================================
 No. 384 · 2026-09-21 · Nearly a hundred percent isolated
