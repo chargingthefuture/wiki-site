@@ -114,6 +114,21 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "old-links-new-links",
+    "title": "Old links, new links",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-20",
+    "excerpt": "Fifty Quora accounts erased, one space renamed, and no handle open. What is live, what is dead, and the one address that does not change.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/old-links-new-links.md",
+    "teaser": "Quora has erased my accounts fifty times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. No handle of mine is open right now. This page is the standing record: what is live, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
+    "topics": [
+      "publishing",
+      "platform-independence"
+    ]
+  },
+  {
     "slug": "what-can-be-stopped",
     "title": "What can be stopped",
     "repo": "chargingthefuture/wiki-site",
@@ -172,21 +187,6 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "philosophy",
       "community"
-    ]
-  },
-  {
-    "slug": "old-links-new-links",
-    "title": "Old links, new links",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-19",
-    "excerpt": "Forty-nine Quora accounts erased, one space renamed, and one handle open again. What is live, what is dead, and the one address that does not change.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/old-links-new-links.md",
-    "teaser": "Quora has erased my accounts forty-nine times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. One handle is open again as of today. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
-    "topics": [
-      "publishing",
-      "platform-independence"
     ]
   },
   {
