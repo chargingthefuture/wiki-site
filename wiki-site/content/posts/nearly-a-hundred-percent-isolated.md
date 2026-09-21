@@ -64,7 +64,7 @@ Being on the list costs nobody an account. Most of the entries were built for pe
 
 ## Ask for the smallest real thing
 
-The fourth step is to ask, and to ask the way the [last post but one](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/mutual-not-equal) describes: with something in your hands, knowing who is receiving it, and measuring nothing against equal.
+The fourth step is to ask, and to ask the way ["Mutual, not equal"](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/mutual-not-equal) describes: with something in your hands, knowing who is receiving it, and measuring nothing against equal.
 
 Ask small. A ride to one appointment. An hour of a trade you do not have. A room for a week. SocketRelay is where you post what you need and whoever has it answers; Foundation is where providers list what they offer and you reach one directly; LightHouse is where survivors offer rooms to survivors. Each of those is one arrangement moved into hands that cannot be reached, and one is enough to change the arithmetic of a week.
 
