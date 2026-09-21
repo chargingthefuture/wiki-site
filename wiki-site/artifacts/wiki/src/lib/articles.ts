@@ -53,6 +53,22 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "nearly-a-hundred-percent-isolated",
+    "title": "Nearly a hundred percent isolated",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-21",
+    "excerpt": "Somebody asked what a Targeted Individual should do to survive once they are nearly completely isolated. Isolation is the product, and the answer runs backward from that.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/nearly-a-hundred-percent-isolated.md",
+    "teaser": "A question I saved on Quora in October 2024 and never answered: when a Targeted Individual gets to the stage of being nearly a hundred percent isolated, what should that person do to survive? Isolation is not a side effect of the targeting; it is what the targeting is for, because a person with nobody left has to go through whoever is offered. So the answer runs backward from that. Read before you talk, write it down, be findable, ask for the smallest real thing with something in your hands, and keep one leg in the door. None of it ends the harassment. It changes whose hands your week runs through.",
+    "topics": [
+      "community",
+      "directory",
+      "clicklog"
+    ]
+  },
+  {
     "slug": "mutual-not-equal",
     "title": "Mutual, not equal",
     "repo": "chargingthefuture/wiki-site",

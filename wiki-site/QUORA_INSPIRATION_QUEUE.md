@@ -65,7 +65,7 @@ follows it.
 - [ ] What are some signs that someone is being targeted by gang stalkers or organized stalkers — bookmarked · saved 5 times
 - [ ] What is the general perception of targeted individuals who claim to be victims of organized gang stalking Are they considered delusional or paranoid — bookmarked · saved 3 times
 - [ ] What s the main goal for people being gang stalked — bookmarked
-- [ ] When a targeted individual gets to the stage of being nearly 100 isolated what should that person do to survive — bookmarked
+- [x] When a targeted individual gets to the stage of being nearly 100 isolated what should that person do to survive — bookmarked
 - [ ] Why do people deny gang stalking so vehemently — bookmarked · saved 2 times
 - [ ] Are gang stalkers aware of what theyre doing — bookmarked · saved 3 times
 - [ ] As a targeted individual how can you find out who made you a target — bookmarked
@@ -120,7 +120,7 @@ follows it.
 - [ ] How does it feel to be targeted What can be done to prevent being targeted by individuals or agencies — bookmarked
 - [ ] How often are the victims of Gang Stalking organized stalking or mobbing the liberal left or Democrats in America Are 1 — bookmarked · uspsyopstargetedindividuals
 - [ ] How we can all put a stop to Gangstalking — bookmarked · rnudvbhbuspdwbhs
-- [ ] In the end what will happen to targeted individuals After they have been broken down family and friends against them 5 — bookmarked · zersetzung
+- [x] In the end what will happen to targeted individuals After they have been broken down family and friends against them 5 — bookmarked · zersetzung
 - [ ] Is it possible for targeted individuals to use social media without being harassed by perpetrators What steps can they take to protect themselves from online harassment — bookmarked
 - [ ] What are some ways to deal with a cyber stalker without involving law enforcement or hiring a lawyer — bookmarked
 - [ ] What is group stalking or group harassment How do people do it and why would they do it in the first place — bookmarked
@@ -339,7 +339,7 @@ follows it.
 - [ ] Lawyer claims Fusion Centers are spying on citizens and police officer suing fusion center for retaliation for not spyin — bookmarked · realgangstalkingvictimsandevidence
 - [ ] What are some organizations that help people who have been targeted for gang stalking and electronic harassment — bookmarked
 - [ ] Where is there help for people who are being gang stalked — bookmarked · saved 3 times
-- [ ] How can a targeted individual cope with losing friends who do not understand their situation — bookmarked
+- [x] How can a targeted individual cope with losing friends who do not understand their situation — bookmarked
 - [ ] What is the best method to escape from gangstalking and electronic harassment How do you get out of it — bookmarked
 - [ ] What kinds of things can targeted individuals do to disrupt and or stop the constant attacks from their tormentors — bookmarked
 - [ ] Gangstalking 101 your not alone Harassment techniques include 1 Surveillance being followed electronic survei — bookmarked
@@ -549,7 +549,7 @@ follows it.
 - [ ] How are targeted individuals chosen and why — bookmarked · saved 2 times
 - [ ] How do gang stalkers take your money — bookmarked
 - [ ] How involved do you think churches are in making people Targeted Individuals managing targeting itself — bookmarked
-- [ ] Is it possible to survive the final stage of gang stalking — bookmarked · saved 2 times
+- [x] Is it possible to survive the final stage of gang stalking — bookmarked · saved 2 times
 - [ ] WHERE have YOU experienced STALKING and HARASSMENT City State Country A link to the map can be found on the ABOUT — bookmarked · targetedindividualssurvey
 - [ ] If youre a lawyer how does one prove they are being gang stalked and is there any legal recourse for targeted individuals or are we at the mercy of our stalkers who harass and abuse us on a daily basis — bookmarked · saved 2 times
 - [ ] What are the most effective natural ways to boost immunity 1 — bookmarked
