@@ -42,7 +42,7 @@ When you enter a transactional relationship with a trafficker, they believe they
 
 So here is the line, stated plainly. An account goes for something egregious. A trafficker joining is egregious, and that is a removal. Somebody saying something I do not like, or doing something that annoys me, is not — because that person does not owe me anything, and I do not have to internalize their behavior. Annoying me is subjective. It is not where the line is.
 
-The same holds for the few places where I am the one managing things — a safety report, say. I do not believe any of the parties owe me anything, so there is no consequence for having irritated me on the way in. Mutual benefit is the goal, and the [last post](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/mutual-not-equal) is about what that means between two people. It does not have to be equal. It has to be mutual.
+The same holds for the few places where I am the one managing things — a safety report. I do not believe any of the parties owe me anything, so there is no consequence for having irritated me on the way in. Mutual benefit is the goal, and the [last post](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/mutual-not-equal) is about what that means between two people. It does not have to be equal. It has to be mutual.
 
 And if you join, like what is happening here or the people who are here, and do not like what I say — you are welcome. You can use every part of the app without a single interaction with me. There is a block feature. Block me.
 
