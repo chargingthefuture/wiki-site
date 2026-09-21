@@ -16,6 +16,7 @@ node_modules
 # overwritten on the next build; edit the post and rebuild.
 artifacts/wiki/public/feed.xml
 artifacts/wiki/public/invites.json
+artifacts/wiki/public/pb2-messages.json
 
 # Local counter database from `pnpm counter:dev`. The real one lives on the
 # service's volume and is never in the repository.

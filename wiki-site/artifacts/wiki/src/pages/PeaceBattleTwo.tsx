@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "wouter";
 import { Radio, MessageSquare, Calculator, ArrowRight } from "lucide-react";
 import { Layout } from "@/components/Layout";
+import { Pb2ShareMessage } from "@/components/Pb2ShareMessage";
 
 /**
  * The Peace Battle 2 page: /peace-battle-2, with /pb2 resolving to it.
@@ -345,6 +346,14 @@ export default function PeaceBattleTwo() {
           </Step>
         </div>
 
+        {/* Not a fourth thing to do. Two of the three above end in a post, and the reason people
+            stop there is that they do not want to write one. So the words are already written, and
+            they are about the app rather than about the argument — somebody who supports this and
+            disagrees with the organizer on something else can still post these without speaking for
+            anybody. Posts from this blog are not in the pool for that reason. */}
+        <h2 className="font-heading text-3xl uppercase font-bold text-primary mb-4">If you do not want to write one</h2>
+        <Pb2ShareMessage />
+
         <h2 className="font-heading text-3xl uppercase font-bold text-primary mb-4">What winning looks like</h2>
         <div className="font-sans text-lg text-gray-300 space-y-4 mb-12">
           <p>
@@ -405,7 +414,7 @@ export default function PeaceBattleTwo() {
         <div className="border-t-4 border-black pt-8">
           <p className="font-sans text-lg text-gray-300 mb-4">
             To sign up: <a href="https://chargingthefuture.com" className="text-primary font-bold hover:text-white">https://chargingthefuture.com</a>.
-            It is free, invite-only, and you can use one part of it and ignore the rest.
+            It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
           </p>
           <Link href="/" className="font-heading font-bold uppercase text-gray-400 hover:text-primary inline-flex items-center gap-2">
             Read the posts <ArrowRight size={16} />

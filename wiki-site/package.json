@@ -18,9 +18,10 @@
     "wiki:convert:quora": "pnpm --filter @workspace/scripts run convert:quora",
     "wiki:feed": "pnpm --filter @workspace/scripts run build-feed",
     "wiki:invites": "pnpm --filter @workspace/scripts run build-invites",
+    "wiki:pb2": "pnpm --filter @workspace/scripts run build-pb2-messages",
     "wiki:preview": "PORT=5000 BASE_PATH=/ pnpm --filter @workspace/wiki run dev",
-    "wiki:build": "pnpm run wiki:feed && pnpm run wiki:invites && PORT=5000 BASE_PATH=/ pnpm --filter @workspace/wiki run build",
-    "wiki:build:pages": "pnpm run wiki:feed && pnpm run wiki:invites && PORT=5000 BASE_PATH=/chargingthefuture/ pnpm --filter @workspace/wiki run build && cp artifacts/wiki/dist/public/index.html artifacts/wiki/dist/public/404.html",
+    "wiki:build": "pnpm run wiki:feed && pnpm run wiki:invites && pnpm run wiki:pb2 && PORT=5000 BASE_PATH=/ pnpm --filter @workspace/wiki run build",
+    "wiki:build:pages": "pnpm run wiki:feed && pnpm run wiki:invites && pnpm run wiki:pb2 && PORT=5000 BASE_PATH=/chargingthefuture/ pnpm --filter @workspace/wiki run build && cp artifacts/wiki/dist/public/index.html artifacts/wiki/dist/public/404.html",
     "wiki:paste-full": "pnpm --filter @workspace/scripts run paste-sheet-full",
     "counter:dev": "PORT=5050 COUNTER_DB_PATH=./counter.sqlite COUNTER_ALLOWED_ORIGINS=http://localhost:5000 pnpm --filter @workspace/api-server run dev",
     "counter:build": "pnpm --filter @workspace/api-server run build"
