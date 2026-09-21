@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "you-dont-owe-me-anything",
+    "title": "You don't owe me anything",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-21",
+    "excerpt": "A trafficker's default stance is that a stranger already owes them. Mine is the opposite, and it is why there is very little to lose by joining.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/you-dont-owe-me-anything.md",
+    "teaser": "A trafficker's default stance is that a stranger already owes them; their network runs on favors granted for trafficking and kept by more of it, with somebody always in the middle. I have been targeted for over thirty years and come to the Skills Economy holding the reverse: nobody who joins owes me anything. So there is nobody in the middle, no hierarchy, no credit score, no ranking — one badge, earned by real help — and an account goes only for something egregious. Come and go, block me, delete everything yourself.",
+    "topics": [
+      "community",
+      "specterati",
+      "skills-economy"
+    ]
+  },
+  {
     "slug": "mutual-not-equal",
     "title": "Mutual, not equal",
     "repo": "chargingthefuture/wiki-site",
