@@ -104,10 +104,14 @@ carries it, because the owner froze that page outright and that freeze has not b
   the pool with no code change. It exists because the message of the day is written in the owner's
   voice and carries their argument, and a supporter who does not agree with every line of it posts
   nothing at all; these say what a part of the app does and stop. No other post on this blog is in
-  the pool, for the same reason (owner decision, 2026-09-21). The order is shuffled per visitor
-  rather than fixed to the day, so two people posting on the same day do not post identical text —
-  which is the shape spam detection catches, and the accounts it would catch are the ones helping.
-  Nothing advances on its own; the reader presses a button.
+  the pool, for the same reason (owner decision, 2026-09-21). One post a day, and a different one
+  per reader: both halves keep participants out of trouble. Everybody seeing the same text on the
+  same day is the shape spam detection catches, and a control that advances through the pool lets
+  one person post thirty-five times in an afternoon — the same shape from the other direction. So
+  there is no such control (owner directive, 2026-09-21), and the post changes when the day does.
+  The reader is identified by a random value kept in their own browser, which never leaves it;
+  where storage is refused everybody falls back to one shared order, the lesser of the two
+  failures.
 
 ## Commands (run from `wiki-site/`)
 

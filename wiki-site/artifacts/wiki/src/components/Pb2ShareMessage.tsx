@@ -1,29 +1,30 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Copy, Check, Shuffle } from "lucide-react";
+import { Copy, Check } from "lucide-react";
 
-// A ready-to-paste post, with a button that copies it.
+// One ready-to-paste post a day, with a button that copies it.
 //
 // Why it exists: Peace Battle 2 asks people to post about the Skills Economy, and the only
 // written-out posts were the owner's own. Those carry an argument, and a supporter who does not
 // agree with every line of it posts nothing at all. These describe a feature, or point at an
 // invitation, and stop — so there is nothing in them to disagree with and nobody is asked to
-// endorse an opinion to take part. Other posts on this blog are deliberately not in the pool for
-// the same reason.
+// endorse an opinion to take part.
 //
 // Two sources, both written by the build:
-//   pb2-messages.json — one post per member-facing feature, from content/pb2-share-messages.yaml.
+//   pb2-messages.json — one post per member-facing part of the app, from content/pb2-share-messages.yaml.
 //   invites.json      — the published invite posts, which the invite row on /feed also reads.
 // A new invite post therefore joins the pool with no edit here.
 //
-// Why each visitor gets a different one rather than a message of the day. The owner's rotation is
-// one message per day because a new account has no followers, so a menu would be pointless. Here
-// the opposite holds: participants have their own audiences and post on their own schedule. If
-// everybody who arrives on the same day copies the same text, Quora sees a row of identical posts,
-// which is exactly the shape spam detection looks for — and the people it would catch are the ones
-// helping. So the order is shuffled per visit, and the button walks the pool without repeating.
+// One a day, and a different one per reader. Both halves are there to keep participants out of
+// trouble. If everybody who arrives on a given day sees the same text, Quora sees a row of
+// identical posts, which is the shape spam detection looks for — so the order is per reader. And
+// if a reader can walk the pool, one person can post thirty-five times in an afternoon, which is
+// the same shape from the other direction — so there is no control that advances it. The post
+// changes when the day does.
 //
-// Nothing moves on its own. The message changes only when the reader presses the button, which is
-// the same rule the invite row follows.
+// The reader is identified by a random value kept in their own browser. It never leaves it, it is
+// not read by anything else, and it exists only to keep two readers on different orders. Where
+// storage is refused, everybody falls back to one shared order: that repeats text across readers,
+// which is the lesser of the two failures, because the other one hands a single person the pool.
 
 type Pb2Message = {
   id: string;
@@ -38,6 +39,8 @@ type InviteCard = {
   slug: string;
   url: string;
 };
+
+const READER_KEY = "pb2-reader";
 
 /**
  * An invite post turned into something a participant can paste.
@@ -59,11 +62,55 @@ function fromInvite(card: InviteCard): Pb2Message {
   };
 }
 
-/** Fisher-Yates, so every message appears before any repeats and no two visits start the same. */
-function shuffled(length: number): number[] {
+/**
+ * A value that stays with this browser, so the same reader keeps the same order day after day and
+ * walks the pool rather than seeing the same post twice in a week. Storage can be refused or
+ * cleared; the caller handles the empty string by falling back to the shared order.
+ */
+function readerSeed(): string {
+  try {
+    const existing = window.localStorage.getItem(READER_KEY);
+    if (existing) return existing;
+    const minted = `${Date.now().toString(36)}-${Math.random().toString(36).slice(2)}`;
+    window.localStorage.setItem(READER_KEY, minted);
+    return minted;
+  } catch {
+    return "";
+  }
+}
+
+/** Whole days since the epoch in the reader's own timezone, so the post turns over at midnight. */
+function dayNumber(): number {
+  const now = new Date();
+  return Math.floor(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()) / 86400000);
+}
+
+function hash(text: string): number {
+  let value = 2166136261;
+  for (let i = 0; i < text.length; i += 1) {
+    value ^= text.charCodeAt(i);
+    value = Math.imul(value, 16777619);
+  }
+  return value >>> 0;
+}
+
+/** mulberry32: small, seeded, and enough to shuffle a list of thirty-five. */
+function random(seed: number): () => number {
+  let state = seed >>> 0;
+  return () => {
+    state = (state + 0x6d2b79f5) >>> 0;
+    let t = Math.imul(state ^ (state >>> 15), 1 | state);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+/** A fixed order for this reader: same every day, so the day number alone picks the post. */
+function orderFor(seed: string, length: number): number[] {
+  const next = random(hash(seed || "shared"));
   const order = Array.from({ length }, (_, i) => i);
   for (let i = length - 1; i > 0; i -= 1) {
-    const j = Math.floor(Math.random() * (i + 1));
+    const j = Math.floor(next() * (i + 1));
     [order[i], order[j]] = [order[j], order[i]];
   }
   return order;
@@ -88,12 +135,13 @@ async function loadJson<T>(file: string, fallback: T): Promise<T> {
 
 export function Pb2ShareMessage() {
   const [messages, setMessages] = useState<Pb2Message[]>([]);
-  const [position, setPosition] = useState(0);
+  const [seed, setSeed] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
   const copiedTimer = useRef<number | null>(null);
 
   useEffect(() => {
     let canceled = false;
+    setSeed(readerSeed());
     Promise.all([
       loadJson<{ messages?: Pb2Message[] }>("pb2-messages.json", {}),
       loadJson<{ invites?: InviteCard[] }>("invites.json", {}),
@@ -109,9 +157,7 @@ export function Pb2ShareMessage() {
     };
   }, []);
 
-  // Fixed for the life of the visit, so pressing the button walks a stable order rather than
-  // reshuffling and possibly handing back what was just shown.
-  const order = useMemo(() => shuffled(messages.length), [messages.length]);
+  const order = useMemo(() => orderFor(seed ?? "", messages.length), [seed, messages.length]);
 
   useEffect(
     () => () => {
@@ -120,9 +166,9 @@ export function Pb2ShareMessage() {
     [],
   );
 
-  if (messages.length === 0) return null;
+  if (messages.length === 0 || seed === null) return null;
 
-  const message = messages[order[position % order.length]];
+  const message = messages[order[dayNumber() % order.length]];
 
   async function copy() {
     try {
@@ -145,11 +191,6 @@ export function Pb2ShareMessage() {
     copiedTimer.current = window.setTimeout(() => setCopied(false), 2000);
   }
 
-  function another() {
-    setCopied(false);
-    setPosition((at) => at + 1);
-  }
-
   return (
     <div className="mb-12">
       <p className="font-sans text-lg text-gray-300 mb-2">
@@ -158,8 +199,7 @@ export function Pb2ShareMessage() {
         of them speak for you.
       </p>
       <p className="font-sans text-gray-400 mb-6">
-        Everyone who opens this page gets a different one, so two people posting on the same day do
-        not post the same text. The button walks through the rest.
+        One a day, and yours is not the one the next person sees. Come back tomorrow for the next.
       </p>
 
       <div className="bg-card border-4 border-black comic-shadow-sm p-6">
@@ -181,14 +221,6 @@ export function Pb2ShareMessage() {
           >
             {copied ? <Check size={18} aria-hidden="true" /> : <Copy size={18} aria-hidden="true" />}
             {copied ? "Copied" : "Copy this post"}
-          </button>
-          <button
-            type="button"
-            onClick={another}
-            className="inline-flex items-center gap-2 border-4 border-black bg-black text-gray-200 font-heading font-bold uppercase tracking-wider comic-shadow-sm px-5 py-3 hover:text-primary"
-          >
-            <Shuffle size={18} aria-hidden="true" />
-            Show me another
           </button>
         </div>
         {/* Announced rather than only shown, so the confirmation reaches a screen reader too. */}
