@@ -290,7 +290,10 @@ optional politeness; it is how the blog has always handled Nat Morris, Pam Dawso
 Steph Wo.
 
 Write the credit so it survives the account being deleted, because that is the expected end state
-rather than an edge case — Quora has erased five of this project's own accounts.
+rather than an edge case. Quora erases this project's own accounts routinely, and other people's
+go the same way. `content/posts/old-links-new-links.md` is the living record of which handle, if
+any, is currently open and which are dead; it is the only place that count is kept, so read it
+there rather than writing a figure into this file.
 
 - Put the name or handle in plain text and the address beside it, written out:
   `Gn0b0dy Pneuma (https://www.quora.com/profile/Gn0b0dy-Pneuma)`. Never wrap the name around the
