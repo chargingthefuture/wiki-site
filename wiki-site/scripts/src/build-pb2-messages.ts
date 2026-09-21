@@ -29,14 +29,22 @@ const OUT = resolve(BLOG_ROOT, 'artifacts/wiki/public/pb2-messages.json');
  * The guide, not a screen inside the app. A deep link sends somebody with no account to a sign-in
  * page, which is the worst possible first thing to show a reader who just followed a link out of
  * curiosity. The guide reads with no account and describes the same feature.
+ *
+ * The guide alone is not enough, though (owner report, 2026-09-21): a reader opens it, reads the
+ * section, and leaves, because nothing on that page tells them where to sign up and nobody scrolls
+ * to the top of a stranger's guide looking for it. So every post also carries the blog's standing
+ * sign-up line, verbatim — the same fixed block every post on this blog ends with, so it reads as
+ * documentation rather than a pitch.
  */
 const GUIDE_BASE = 'https://app.chargingthefuture.com/guide';
+export const SIGN_UP_LINE =
+  'To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.';
 
 export type Pb2Message = {
   id: string;
   feature: string;
   title: string;
-  /** The post itself: plain text, paragraphs separated by a blank line, link line last. */
+  /** The post itself: plain text, paragraphs separated by a blank line, the guide link and the sign-up line last. */
   body: string;
 };
 
@@ -129,11 +137,11 @@ function main(): void {
     seen.add(message.id);
   }
 
-  // The link is appended here rather than written into every entry, so the label and the address
-  // cannot drift apart across twenty-seven hand-written messages.
+  // The two closing lines are appended here rather than written into every entry, so the labels
+  // and the addresses cannot drift apart across twenty-seven hand-written messages.
   const withLinks = messages.map((message) => ({
     ...message,
-    body: `${message.body}\n\nWhat it is: ${GUIDE_BASE}#${message.id}`,
+    body: `${message.body}\n\nWhat it is: ${GUIDE_BASE}#${message.id}\n\n${SIGN_UP_LINE}`,
   }));
 
   mkdirSync(dirname(OUT), { recursive: true });

@@ -13,7 +13,9 @@
 # formatting here to lose. Paragraphs are separated by a blank line in `body`.
 #
 # The link goes to the guide, which reads with no account. A deep link into the app would send a
-# stranger to a sign-in screen, which is the opposite of what a first post should do.
+# stranger to a sign-in screen, which is the opposite of what a first post should do. The build
+# also appends the blog's standing sign-up line after it, because the guide alone leaves a reader
+# with nowhere to go once they have read the section.
 #
 # Adding one: copy an entry, give it an id nothing else uses, and keep it opinion-free. The build
 # refuses a duplicate id or an empty field.
