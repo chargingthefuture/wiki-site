@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "what-actually-comes-back",
+    "title": "What actually comes back",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-22",
+    "excerpt": "Somebody asked how to recover and return to a normal life. Nothing returns to before. Specific things come back, and naming them is more use than the word recovery.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/what-actually-comes-back.md",
+    "teaser": "A question in the queue asks how a person recovers from this and returns to a normal life. The honest answer disagrees with the premise. A name on the list is never taken off, so there is no before to return to, and a person who measures progress against that will read every ordinary week as failure. What does come back is specific and can be listed: income, a place to live, people who know you, sleep, and the ability to ask somebody for something. Those are the things to rebuild, under conditions that are still running.",
+    "topics": [
+      "community",
+      "skills-economy",
+      "clicklog"
+    ]
+  },
+  {
     "slug": "it-followed-you",
     "title": "It followed you",
     "repo": "chargingthefuture/wiki-site",
