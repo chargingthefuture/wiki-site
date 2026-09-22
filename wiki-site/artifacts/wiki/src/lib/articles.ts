@@ -84,6 +84,22 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "it-followed-you",
+    "title": "It followed you",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-22",
+    "excerpt": "You moved and it started again within days. That is not proof the move was wasted, and it is not a reason to move again.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/it-followed-you.md",
+    "teaser": "Somebody asked how moving helps a person who is being seriously targeted. The last post on moving answered the person deciding whether to go. This one is for the person who already went, arrived, and found it running again inside a week. What follows a move is a name on a list, not a neighborhood, so the speed of the restart says nothing about the town and nothing about the decision. What a move actually changed is which specific people are near you and who has not been asked yet. That is a window, and the thing to do inside it is put part of your week into hands that are not part of it, rather than packing again.",
+    "topics": [
+      "community",
+      "directory",
+      "clicklog"
+    ]
+  },
+  {
     "slug": "an-invitation-to-alphelus",
     "title": "An invitation to Alphelus",
     "repo": "chargingthefuture/wiki-site",
