@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "they-are-not-psychic",
+    "title": "They are not psychic",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-22",
+    "excerpt": "Somebody asked it on Quora and the answer is no. Watching somebody for years, and arranging their week, explains the accuracy. Nothing else is needed.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/they-are-not-psychic.md",
+    "teaser": "Somebody asked on Quora whether the people doing this are psychic. The answer is no, and the reason it looks otherwise is worth having in plain words. They watch around the clock, on foot and online, for years. They arrange the events they then appear to have foreseen, provocation included — punch somebody in the face and their reaction was never a prediction, and it gets used twice, once to look prescient and once as evidence for the smear. And they narrow a life until the next move is obvious, by destitution or by isolation, which does the same work when the money holds. The narrowing is the part that can be changed.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "community"
+    ]
+  },
+  {
     "slug": "an-invitation-to-alphelus",
     "title": "An invitation to Alphelus",
     "repo": "chargingthefuture/wiki-site",
