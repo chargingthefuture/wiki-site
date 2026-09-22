@@ -547,7 +547,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/an-invitation-to-jhb.md",
-    "teaser": "J.H.B. asked the question the last post answered. The Directory holds nine specializations for them, broader than that question would suggest: chemical dosing and safety, diagnostic testing across microscopy, biochemistry and hematology, pharmacology and prescription, then audio and video work, CCTV, and bookkeeping. Alongside it, six years of answering other survivors in public — read more than four hundred thousand times. Medicine is the shortage this economy feels most, and none of these roles is competitive: the list is empty rather than full.",
+    "teaser": "J.H.B. asked the question \"You cannot argue a smear down\" answered. The Directory holds nine specializations for them, broader than that question would suggest: chemical dosing and safety, diagnostic testing across microscopy, biochemistry and hematology, pharmacology and prescription, then audio and video work, CCTV, and bookkeeping. Alongside it, six years of answering other survivors in public — read more than four hundred thousand times. Medicine is the shortage this economy feels most, and none of these roles is competitive: the list is empty rather than full.",
     "topics": [
       "members",
       "skills-economy"
