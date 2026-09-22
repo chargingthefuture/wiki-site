@@ -37,6 +37,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "best-description-i-have-read",
+    "title": "The best description of it I have read",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-22",
+    "excerpt": "People keep asking what this is and what the methods are. Somebody answered it years ago, better than I would, and my old Quora space pointed at her answer.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/best-description-i-have-read.md",
+    "teaser": "What is this and what are the methods? It is the question that arrives most often, and I am not going to answer it, because Sherri Jenkins already did and did it better than I would. Her answer is a list: following on foot and by car, crowding somebody's space, insults murmured so only the target hears, a car outside the house, staged fights, skits built from things only the target should know, theft and vandalism, rumors, photographs, pets harmed, a phone bugged, mail tampered with, and the family pulled in too. The list is the part that matters, because every item on it is nothing taken alone. That is what makes it work and what makes it impossible to report.",
+    "topics": [
+      "community",
+      "specterati"
+    ]
+  },
+  {
     "slug": "they-are-not-psychic",
     "title": "They are not psychic",
     "repo": "chargingthefuture/wiki-site",
@@ -50,21 +65,6 @@ export const ARTICLES: ArticleMeta[] = [
       "specterati",
       "clicklog",
       "community"
-    ]
-  },
-  {
-    "slug": "best-description-i-have-read",
-    "title": "The best description of it I have read",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-22",
-    "excerpt": "People keep asking what this is and what the methods are. Somebody answered it years ago, better than I would, and my old Quora space pointed at her answer.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/best-description-i-have-read.md",
-    "teaser": "What is this and what are the methods? It is the question that arrives most often, and I am not going to answer it, because Sherri Jenkins already did and did it better than I would. Her answer is a list: following on foot and by car, crowding somebody's space, insults murmured so only the target hears, a car outside the house, staged fights, skits built from things only the target should know, theft and vandalism, rumors, photographs, pets harmed, a phone bugged, mail tampered with, and the family pulled in too. The list is the part that matters, because every item on it is nothing taken alone. That is what makes it work and what makes it impossible to report.",
-    "topics": [
-      "community",
-      "specterati"
     ]
   },
   {

@@ -27,6 +27,30 @@ She is in the Directory, and has been since December 2025: https://app.chargingt
 
 The words she uses are the inherited ones, and I have left them exactly as she wrote them. The vocabulary this blog uses instead is in the [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary).
 
+## What she added underneath
+
+She left a second piece in the comments under her own answer, and it carries the vocabulary and the outcomes the first one does not. Her words again:
+
+> Other interchangeable terms used for "gang stalking" include: group stalking, community stalking (wide area supervised local harassment), cause stalking (stalkers use a "cause" for recruitment), mobbing (organized stalking in the workplace) and street theater (harassment skits done in view of the target out in the community). Some victims of organized stalking claim they are also victimized by electronic harassment
+>
+> Organized Stalking is a form of terrorism used against an individual in a malicious attempt to reduce the quality of a person's life so they will have a nervous break-down, become incarcerated, institutionalized, experience constant mental, emotional, or physical pain, become homeless, and/or commit suicide. This is done using well-orchestrated accusations, lies, rumors, bogus investigations, setups, frame ups, trumped-up charges, intimidation, overt or covert threats, vandalism, thefts, sabotage, torture, humiliation, emotional terror and general harassment. It is a "ganging up" by members of the community who follow an organizer and participate in a systematic "terrorizing" of an individual.
+>
+> Organized stalking gang members are given targets' names or have the target identified for them. They usually don't know the target before hand and the gang stalkers are tightly networked with stalking groups in other communities as well.
+>
+> Skeptics of gang stalking point their finger at the target claiming he/ she is delusional or paranoid, thus furthering the goals of the perpetrators. It is readily reported by victims of gang stalking that law enforcement will ignore their pleas for help and actually participate in the gang stalking themselves along with fire fighters, various utility workers and post office employees.
+
+![Sherri Jenkins's comment under her own answer on Quora, captured September 22, 2026. It reads: Other interchangeable terms used for "gang stalking" include: group stalking, community stalking (wide area supervised local harassment), cause stalking (stalkers use a "cause" for recruitment), mobbing (organized stalking in the workplace) and street theater (harassment skits done in view of the target out in the community). Some victims of organized stalking claim they are also victimized by electronic harassment. Organized Stalking is a form of terrorism used against an individual in a malicious attempt to reduce the quality of a person's life so they will have a nervous break-down, become incarcerated, institutionalized, experience constant mental, emotional, or physical pain, become homeless, and/or commit suicide. This is done using well-orchestrated accusations, lies, rumors, bogus investigations, setups, frame ups, trumped-up charges, intimidation, overt or covert threats, vandalism, thefts, sabotage, torture, humiliation, emotional terror and general harassment. It is a "ganging up" by members of the community who follow an organizer and participate in a systematic "terrorizing" of an individual. Organized stalking gang members are given targets\' names or have the target identified for them. They usually don\'t know the target before hand and the gang stalkers are tightly networked with stalking groups in other communities as well. Skeptics of gang stalking point their finger at the target claiming he/she is delusional or paranoid, thus furthering the goals of the perpetrators. It is readily reported by victims of gang stalking that law enforcement will ignore their pleas for help and actually participate in the gang stalking themselves along with fire fighters, various utility workers and post office employees.](images/sherri-jenkins-comment-2026-09-22.jpg)
+
+Four things in that are worth marking.
+
+The outcomes she names are the ones to end up at: a breakdown, jail, a psychiatric ward, the street, suicide. I have [counted the endings I have watched people reach](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/count-the-recruits) and they are the same list. Nobody arrives there by accident.
+
+Members are handed a name and do not know the person, and the groups are networked across places. That is why [who put you on the list stops mattering after a point](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/who-put-you-on-the-list): whoever started it, every group in reach joins, and they run the same schemes in rotation.
+
+Doubt is not neutral. She puts it plainly — a skeptic pointing at the target furthers the aim. That is the same mechanism as [not being able to argue a smear down](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/you-cannot-argue-a-smear-down): the story is built so that denying it reads as proof of it.
+
+And the people she lists at the end — police, fire fighters, utility workers, postal workers — are the reason the answer here is an economy rather than an appeal. Every one of those is somebody a person's week runs through, and the only thing that changes a week is moving it into hands that are not part of it.
+
 ## Why the list is the part that matters
 
 Read what she lists and notice the size of each item. Somebody walks behind you. Somebody stands too close in a queue. A car sits outside. A sentence you said in your kitchen turns up in a stranger's mouth on the sidewalk. Something breaks. A rumor arrives ahead of you at a job.
