@@ -232,6 +232,27 @@ afterward to explain what was gained is the one to delete.
 Phrases like "worst week", "turned into evidence", "becomes data", and "silver lining" are the
 tell. So is any closing line that reaches for a redemptive note the facts did not ask for.
 
+## Only the Target's Life Is at Risk (owner directive, 2026-09-22)
+
+Never write a sentence that puts a participant's life or safety on the line. Theirs is not. Only
+the target's is, and the difference is the arrangement rather than luck.
+
+Across these networks there is an understanding that a target can be robbed, injured or killed and
+nobody will answer for it. The people who did it are rewarded instead. No such cover extends to the
+people taking part: ordinary crime still applies to somebody who is not a target, so what a
+participant risks is property, a job, an apartment, a reputation, and never their life.
+
+That is what makes the cost of leaving a reason and not a justification. Write it that way. A
+participant who stays because walking away would cost them what they were given is describing a
+loss of things, and the post says so plainly rather than letting the sentence stand as though the
+cost settled the matter.
+
+One distinction has to be kept, because it is the opposite case and it is already on the record.
+Somebody who will not take part is not a participant. Refusing can be fatal, and
+`content/posts/best-description-i-have-read.md` records two people who would not take part, proved
+hard to turn into targets, and were killed. The protection described above covers people inside the
+arrangement. It has never covered anybody who declined to enter it.
+
 ## "Victim" Is Not a Stance (owner directive, 2026-08-21)
 
 Victim means a crime was done to someone. It carries no claim about how they reacted to it and no
