@@ -41,11 +41,11 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "They are not psychic",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-09-22",
-    "excerpt": "Somebody asked it on Quora and the answer is no. Watching somebody for years, and arranging their week for them, produces the same appearance and needs nothing unexplained.",
+    "excerpt": "Somebody asked it on Quora and the answer is no. Watching somebody for years, and arranging their week, explains the accuracy. Nothing else is needed.",
     "category": "Community",
     "collection": "posts",
     "path": "posts/they-are-not-psychic.md",
-    "teaser": "Somebody asked on Quora whether the people doing this are psychic. The answer is no, and the reason it looks otherwise is worth having in plain words. They watch around the clock, on foot and online, for years. They arrange the events they then appear to have foreseen. And they push a person into destitution, which strips out the options and leaves behavior that anybody could call in advance. Prediction that runs on surveillance, staging and poverty is not insight. The part that is fixable is the third one.",
+    "teaser": "Somebody asked on Quora whether the people doing this are psychic. The answer is no, and the reason it looks otherwise is worth having in plain words. They watch around the clock, on foot and online, for years. They arrange the events they then appear to have foreseen. And they push a person into destitution, which strips out the options and leaves behavior that anybody could call in advance. Prediction that runs on surveillance, staging and poverty is not insight. Poverty is the part that can be changed.",
     "topics": [
       "specterati",
       "clicklog",
