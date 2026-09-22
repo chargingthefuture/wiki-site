@@ -46,6 +46,12 @@ Proposed, not settled. Correct them on the first post rather than in the abstrac
   added it (owner directive, 2026-09-19, after question 2 turned out to be one).
 - The post is dated the day it is written, not the date the draft was opened. The draft date goes
   in the post only if it earns its place there.
+- A question can be skipped. The line is marked `[–]` with the reason and the date, in the same
+  place a tick would go, so the next "next" moves past it and nobody re-queues it later. A
+  question is skipped when it is not about organized stalking, when the asker's page gives no
+  context to answer from, or when answering it would mean giving legal advice (owner decisions,
+  2026-09-21, on questions 5, 6 and 7). The legal-advice reason covers a question about what to do
+  when the police will not act, not only one that names the law.
 - The queues are the owner's working files, not something a reader knows about. A post never
   refers to this queue, the next question in it, or what a later post will cover (owner directive,
   2026-09-19).
@@ -68,9 +74,9 @@ Ordered by the date the draft was opened. The account is the one it sat under.
 - [x] 2. `2025-08-06` · pedigree101 — Is it possible for targeted individuals to stop being harassed by gang stalkers? If so, what methods have been successful in stopping the harassment? (added by Quora Prompt Generator, a bot; answered because people keep asking the same thing)
 - [x] 3. `2025-08-08` · pedigree101 — Have any Targeted Individuals tried moving to a different country? I'm in the US and am considering a move to Mexico to see if the RNM and V2K stop.
 - [x] 4. `2025-08-09` · pedigree101 — As organized/community stalking number of victims increase, what do you think could happen to society as a whole?
-- [ ] 5. `2025-08-09` · pedigree101 — How do you get over being stalked if you can't prove who is doing it?
-- [ ] 6. `2025-08-10` · pedigree101 — What is the best way to deal with gang stalking and/or mobbing without any legal actions being taken against you?
-- [ ] 7. `2025-08-10` · pedigree101 — What steps can a victim of gang stalking take if the police refuse to investigate their case?
+- [–] 5. `2025-08-09` · pedigree101 — How do you get over being stalked if you can't prove who is doing it? (skipped — owner decision, 2026-09-21: the question is about regular stalking, not organized stalking, and the asker's page shows no Targeted Individual writing, so there is not enough context to answer it. Not a post.)
+- [–] 6. `2025-08-10` · pedigree101 — What is the best way to deal with gang stalking and/or mobbing without any legal actions being taken against you? (skipped — owner decision, 2026-09-21: it asks how to act without legal action being taken against you, which is legal advice this blog does not give, and there is not enough context to answer it. Quora Prompt Generator, a bot, added it, which is a second reason. Not a post.)
+- [–] 7. `2025-08-10` · pedigree101 — What steps can a victim of gang stalking take if the police refuse to investigate their case? (skipped — owner decision, 2026-09-21: answering it would mean advising somebody what to do about a police force that will not take their case, which is legal advice this blog does not give. Quora Prompt Generator, a bot, added it, which is a second reason. Not a post.)
 - [ ] 8. `2025-08-12` · pedigree101 — Are gang stalkers psychic?
 - [ ] 9. `2025-08-12` · pedigree101 — What is gang stalking and what are some common methods used by gang stalkers?
 - [ ] 10. `2025-08-13` · pedigree101 — How can moving help someone who is being seriously gang stalked?
