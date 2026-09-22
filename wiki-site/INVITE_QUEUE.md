@@ -93,6 +93,7 @@ Rotate these. Each is a way into the same invitation; none of them is a template
 | Syah | Syah-Neal-AdoreTM | an-invitation-to-syah.md | Three specializations read as one chain — textile selection and sourcing, garment construction, fit and sizing — against Estonia in 1991, where the people who could do things were already there | 2026-09-19 |
 | Gn0b0dy Pneuma | Gn0b0dy-Pneuma | an-invitation-to-gn0b0dy-pneuma.md | The three places the blog already credits them, against the fact that the list has never needed anybody to agree with the owner about what this is | 2026-09-19 |
 | Tommy | Tommy-Gumbert | an-invitation-to-tommy.md | Mechanical and electrical repair and HVAC, against the housing answer that only holds while the heat works, and two of the thirteen jobs | 2026-09-20 |
+| Alphelus Allen | Alphelus-Allen | an-invitation-to-alphelus.md | Seven specializations running from power systems design to wiring and circuit installation, against the two things that have to be true for the targeting to work | 2026-09-21 |
 
 When a post merges, add its row here and add the handle in two places in the product repository,
 in the same piece of work: the `DIRECTORY_INVITE_ALREADY_WRITTEN` array in
@@ -110,7 +111,6 @@ needed to write the next posts, because the copied list itself is never committe
 |---|---|---|---|---|---|
 | Dayna | Dayna-388 | Inventory, demand forecasting, route planning, last-mile delivery; offering soap and candles | skill-specific | You already have a profile | skipped — owner decision, 2026-09-19. Not to be written unless the owner says so. The row stays so nobody re-queues it. |
 | Mary Harris | Mary-T-I-1 | — | — | — | skipped — owner decision, 2026-09-20. Not to be written unless the owner says so. She does not appear on the invite queue screen, so this row is the only record of the skip. |
-| Alphelus Allen | Alphelus-Allen | System design and architecture, frequency and voltage control, power systems design, building design, construction documentation, electrical, wiring and circuit installation; San Francisco | skill-specific | Two things have to be true | in PR |
 | Lorraine Valente | lorraine-valente | Ten clinical skills on one listing — clinical supervision, cognitive behavioral therapy, crisis intervention, diagnosis and treatment planning, evidence-based therapeutic interventions, group therapy facilitation, neuropsychological assessment, psychological assessment and testing, research and data analysis, trauma therapy and EMDR | skill-specific | You already have a profile | queued |
 | Krissyy | Krissyy-2 | Legal research and drafting; Minneapolis | skill-specific | The labor movement, and King | queued |
 
