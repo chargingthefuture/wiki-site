@@ -45,7 +45,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/an-invitation-to-lorraine.md",
-    "teaser": "This one is not an invitation to join anything. Lorraine Valente already has a Directory profile — somebody built it from what they said about themselves in public and put it up under their name, which is how most of the list was made. It carries ten specializations, all clinical: trauma therapy and EMDR, crisis intervention, psychological assessment, clinical supervision. Health is one of thirteen jobs the app says a community has to be able to fill before it runs at all, and mental-health support is named in what that job covers.",
+    "teaser": "It is an invitation to join the Skills Economy, and the listing is already there. Lorraine Valente has a Directory profile — somebody built it from what they said about themselves in public and put it up under their name, which is how most of the list was made. Having one means being findable by other Targeted Individuals. Ten specializations, all clinical: trauma therapy and EMDR, crisis intervention, psychological assessment, clinical supervision. Health is one of thirteen jobs the app says a community has to be able to fill before it runs at all.",
     "topics": [
       "community",
       "directory",

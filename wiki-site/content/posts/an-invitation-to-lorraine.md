@@ -3,7 +3,7 @@ title: "An invitation to Lorraine"
 date: "2026-09-22"
 excerpt: "You already have a profile. Somebody built it from what you said about yourself in public, and it has been up under your name."
 category: "Community"
-teaser: "This one is not an invitation to join anything. Lorraine Valente already has a Directory profile — somebody built it from what they said about themselves in public and put it up under their name, which is how most of the list was made. It carries ten specializations, all clinical: trauma therapy and EMDR, crisis intervention, psychological assessment, clinical supervision. Health is one of thirteen jobs the app says a community has to be able to fill before it runs at all, and mental-health support is named in what that job covers."
+teaser: "It is an invitation to join the Skills Economy, and the listing is already there. Lorraine Valente has a Directory profile — somebody built it from what they said about themselves in public and put it up under their name, which is how most of the list was made. Having one means being findable by other Targeted Individuals. Ten specializations, all clinical: trauma therapy and EMDR, crisis intervention, psychological assessment, clinical supervision. Health is one of thirteen jobs the app says a community has to be able to fill before it runs at all."
 topics:
   - community
   - directory
@@ -40,7 +40,7 @@ This is not a request to treat anybody, and nothing here should be read as a cli
 
 It is also not a claim about what anybody's therapist got wrong. Getting believed is the hard part of this for most people who write to me about it, and I am not going to turn that into a pitch.
 
-What the listing does is narrower and it is the only thing I am claiming for it: somebody looking for these ten skills can find that they exist on this list, under a name, with a way to ask.
+What the listing does is two things. Somebody looking for these ten skills can find that they exist on this list, under a name, with a way to ask. And a listing is how anybody here becomes findable by other Targeted Individuals at all, which is what the Directory was built for and the reason it is worth having one whether or not a single person ever asks about the ten.
 
 ## How the listing came to be
 
