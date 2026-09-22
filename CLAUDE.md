@@ -592,7 +592,7 @@ word legitimately: the Signal chats, which really are invite-only, and the froze
 
 ## Agent Slash Commands (always apply, every repo)
 
-Owner directive, 2026-08-17. Three routines are defined in `.claude/commands/` in the product repo (`chargingthefuture/chargingthefuture`). Each is the standing way to do its kind of work, and the owner does not have to type the slash command for it to apply — the request itself is the trigger. Two of the three apply here.
+Owner directives, 2026-08-17 and 2026-09-22. Four routines are defined in `.claude/commands/` in the product repo (`chargingthefuture/chargingthefuture`). Each is the standing way to do its kind of work, and the owner does not have to type the slash command for it to apply — the request itself is the trigger. Three of the four apply here, and `/fix` applies here more than anywhere, because this repository is almost entirely writing.
 
 ### /bpr — every executed change
 
@@ -608,6 +608,18 @@ Never commit to, or open a PR from, the auto-generated `claude/<slug>` session b
 ### /pr — opening a PR is the start of the job, not the end
 
 Agents open pull requests and abandon them. A PR left alone is work that never shipped, and in this repo that matters more than usual: nothing reaches the blog until it is on `main`, and auto-merge is off, so a PR sits until someone acts. Sweep every open PR that is blocked, behind, conflicted, or failing checks, and drive each one to merge — resolve conflicts by understanding both sides, read the actual failure log before touching anything, bring behind branches up to date. Do not report that a PR needs something; do it. Leave alone only a draft someone is actively working, or a PR sitting green and waiting on the owner's review, and say which those are.
+
+### /fix — rewrite the sentence, do not explain it
+
+The owner sends a screenshot with a sentence highlighted and a short remark: it reads badly. Rewrite it, push it, and reply in two lines with the new wording.
+
+The argument is never in question. A `/fix` is about how a sentence reads, not whether the claim is right. Keep every fact, figure, name and link exactly as it was.
+
+Fix the same wording wherever else it sits — the post, its `excerpt` and `teaser`, the hand-written `QUORA_PASTE_SHEET.txt` entry, a queue line — in the same commit, and regenerate `articles.ts` and `QUORA_PASTE_SHEET_FULL.txt` rather than editing them.
+
+The date does not move and no dated correction is published. Nothing a reader acted on was wrong; the wording was hard to read. Dated corrections are for a wrong claim about the product or the world.
+
+What this replaces is the paragraph explaining what was wrong with the old sentence. The owner could see it was wrong, which is why they sent it, and they read and type on a phone on limited usage.
 
 ### /cr — product repo only
 
