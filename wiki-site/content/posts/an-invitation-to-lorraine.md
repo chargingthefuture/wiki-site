@@ -18,7 +18,7 @@ I would rather tell you that than leave you to find it.
 
 ## Lorraine
 
-Lorraine Valente, in the United States. The Directory profile is at https://app.chargingthefuture.com/apps/directory/profile/4ebe7ac8-f688-4dbd-bc1c-c8b187a6773f.
+Lorraine Valente (https://www.quora.com/profile/lorraine-valente), in the United States. The Directory profile is at https://app.chargingthefuture.com/apps/directory/profile/4ebe7ac8-f688-4dbd-bc1c-c8b187a6773f.
 
 ![Lorraine Valente's Directory listing in the app, captured September 22, 2026. The heading reads Lorraine Valente, below it "Community-generated profile" and "Nominated by @farah", and under that the location United States. A button reads View Quora profile. Under the heading SPECIALIZATIONS are ten entries: Clinical supervision; Cognitive behavioral therapy; Crisis intervention; Diagnosis and treatment planning; Evidence-based therapeutic interventions; Group therapy facilitation; Neuropsychological assessment; Psychological assessment and testing; Research and data analysis; Trauma therapy and EMDR.](images/lorraine-valente-directory-profile-2026-09-22.jpg)
 
