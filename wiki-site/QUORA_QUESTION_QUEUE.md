@@ -52,6 +52,9 @@ Proposed, not settled. Correct them on the first post rather than in the abstrac
   context to answer from, or when answering it would mean giving legal advice (owner decisions,
   2026-09-21, on questions 5, 6 and 7). The legal-advice reason covers a question about what to do
   when the police will not act, not only one that names the law.
+  A fourth reason is that a published post already answers it: point at that post rather than
+  writing a second one, and record the asker's credit on the line so it is not lost (2026-09-22, on
+  question 10).
 - The queues are the owner's working files, not something a reader knows about. A post never
   refers to this queue, the next question in it, or what a later post will cover (owner directive,
   2026-09-19).
@@ -79,7 +82,7 @@ Ordered by the date the draft was opened. The account is the one it sat under.
 - [–] 7. `2025-08-10` · pedigree101 — What steps can a victim of gang stalking take if the police refuse to investigate their case? (skipped — owner decision, 2026-09-21: answering it would mean advising somebody what to do about a police force that will not take their case, which is legal advice this blog does not give. Quora Prompt Generator, a bot, added it, which is a second reason. Not a post.)
 - [x] 8. `2025-08-12` · pedigree101 — Are gang stalkers psychic? (asked by Scott Rowell, https://www.quora.com/profile/Scott-Rowell-26, on 2024-11-24; answered in they-are-not-psychic.md)
 - [x] 9. `2025-08-12` · pedigree101 — What is gang stalking and what are some common methods used by gang stalkers? (owner decision, 2026-09-22: not answered here. Sherri Jenkins answered it years ago and the old Quora space's description pointed at her answer; best-description-i-have-read.md credits her and reproduces it.)
-- [ ] 10. `2025-08-13` · pedigree101 — How can moving help someone who is being seriously gang stalked?
+- [–] 10. `2025-08-13` · pedigree101 — How can moving help someone who is being seriously gang stalked? (skipped — already answered. move-toward-somebody.md, published 2026-09-20, answers the same question: a move changes whose hands your week runs through, quiet stretches do not track with geography, and the thing to do is go toward somebody. Asked by Christina A. Chandler, https://www.quora.com/profile/Christina-A-Chandler, on 2023-04-19; the page resolves at https://www.quora.com/How-can-moving-help-someone-who-is-being-seriously-gang-stalked with 6 public followers and 13.2 thousand views. Credit recorded here so a later session does not re-derive it.)
 - [ ] 11. `2025-08-13` · pedigree101 — How important is it to stay positive when dealing with gang stalking, and what mindset shifts can help maintain a sense of control?
 - [ ] 12. `2025-08-13` · pedigree101 — What are some ways for a person to recover from being a victim of gang stalking and return to a normal life?
 - [ ] 13. `2025-08-13` · pedigree101 — Who should I report my gang stalking to?
