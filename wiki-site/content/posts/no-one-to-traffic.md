@@ -38,7 +38,7 @@ The people doing this are not all enjoying it. Some are. The rest are in because
 
 I want to be exact about what that is, because it is a reason and not a justification. Losing a home is traumatic to the person it happens to, and I am not going to tell anybody otherwise. But none of their lives are on the line. What is at stake for them is property and their own good opinion of themselves. What is at stake on the other side is somebody's life.
 
-So leaving is expensive rather than impossible, and there is always another target to be assigned.
+Nobody in that position can simply walk away, because the debt is held over them and there is always another target to be assigned.
 
 Unless there is not.
 
