@@ -61,7 +61,9 @@ Two other things in her list are worth pulling out.
 
 The skits built from information only the target should know are the ones that make people think these people are reading minds. [They are not](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/they-are-not-psychic) — she says it in the same sentence, and says where it comes from: surveillance.
 
-And the last line, that a target's family may fall victim too. That is the door into the scheme I argue against hardest: make a person destitute so the only place left is back among relatives, then [reach the relatives](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/why-they-want-you-living-with-family).
+And the last line, that a target's family may fall victim too. That is one door into [the scheme I argue against hardest](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/why-they-want-you-living-with-family): make a person destitute until the only place left is back among relatives.
+
+What I would add to her line is the order, because it runs the reverse of how it sounds. The relatives are not reached after somebody arrives. They are recruited first, so the harassment is already running inside the house on the day the person gets there. For somebody living away from family, that work is finished before the homecoming is engineered at all. Mine started when I was five, so there was no arriving: the recruiting ran over the years we lived under one roof.
 
 ## What a description is not
 
