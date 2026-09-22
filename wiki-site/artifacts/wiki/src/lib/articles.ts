@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "no-one-to-traffic",
+    "title": "No one to traffic",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-22",
+    "excerpt": "I owe nobody here anything, and I am building it anyway. If it works, the people doing this run out of people to do it to.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/no-one-to-traffic.md",
+    "teaser": "Nobody who joins owes me anything and I owe nobody, which I have written before. This is what follows from building it anyway. The network needs people who are destitute and alone, because that is what makes somebody cheap to reach and easy to predict. An economy where survivors are neither takes the supply away. That reaches past this community: fewer people driven to the endings I have watched, which lands on everybody nearby. And it reaches the other side too, where people are held in by a reward already taken and a debt that grows. Success here means there is no one left to traffic. That is not forgiveness. It is the exit existing at all.",
+    "topics": [
+      "community",
+      "specterati",
+      "skills-economy"
+    ]
+  },
+  {
     "slug": "best-description-i-have-read",
     "title": "The best description of it I have read",
     "repo": "chargingthefuture/wiki-site",
