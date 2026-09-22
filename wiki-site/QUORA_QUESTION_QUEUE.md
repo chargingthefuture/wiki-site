@@ -52,6 +52,9 @@ Proposed, not settled. Correct them on the first post rather than in the abstrac
   context to answer from, or when answering it would mean giving legal advice (owner decisions,
   2026-09-21, on questions 5, 6 and 7). The legal-advice reason covers a question about what to do
   when the police will not act, not only one that names the law.
+  A fourth reason is the question's own framing: when answering it inside its own terms would mean
+  adopting a frame the blog rejects — attitude as the variable, being targeted as a stance, a redemptive
+  note the facts did not ask for — it is skipped rather than reframed (2026-09-22, on question 11).
 - The queues are the owner's working files, not something a reader knows about. A post never
   refers to this queue, the next question in it, or what a later post will cover (owner directive,
   2026-09-19).
@@ -80,7 +83,7 @@ Ordered by the date the draft was opened. The account is the one it sat under.
 - [x] 8. `2025-08-12` · pedigree101 — Are gang stalkers psychic? (asked by Scott Rowell, https://www.quora.com/profile/Scott-Rowell-26, on 2024-11-24; answered in they-are-not-psychic.md)
 - [x] 9. `2025-08-12` · pedigree101 — What is gang stalking and what are some common methods used by gang stalkers? (owner decision, 2026-09-22: not answered here. Sherri Jenkins answered it years ago and the old Quora space's description pointed at her answer; best-description-i-have-read.md credits her and reproduces it.)
 - [x] 10. `2025-08-13` · pedigree101 — How can moving help someone who is being seriously gang stalked? (asked by Christina A. Chandler, https://www.quora.com/profile/Christina-A-Chandler, on 2023-04-19; answered in it-followed-you.md, for the person who already moved and found it followed them. move-toward-somebody.md answers the person still deciding whether to go.)
-- [ ] 11. `2025-08-13` · pedigree101 — How important is it to stay positive when dealing with gang stalking, and what mindset shifts can help maintain a sense of control?
+- [–] 11. `2025-08-13` · pedigree101 — How important is it to stay positive when dealing with gang stalking, and what mindset shifts can help maintain a sense of control? (skipped — owner decision, 2026-09-22: the question's framing is the problem. It makes attitude the variable, which is the stance framing this blog does not use, and answering it inside its own terms means recommending a mindset in place of the things that actually change a week. Not a post.)
 - [ ] 12. `2025-08-13` · pedigree101 — What are some ways for a person to recover from being a victim of gang stalking and return to a normal life?
 - [ ] 13. `2025-08-13` · pedigree101 — Who should I report my gang stalking to?
 - [ ] 14. `2025-08-14` · pedigree101 — What is the longest period of time someone has been a target of gang stalking?
