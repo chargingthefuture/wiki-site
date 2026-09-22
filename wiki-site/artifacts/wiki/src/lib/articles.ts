@@ -116,6 +116,22 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "an-invitation-to-lorraine",
+    "title": "An invitation to Lorraine",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-22",
+    "excerpt": "You already have a profile. Somebody built it from what you said about yourself in public, and it has been up under your name.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-lorraine.md",
+    "teaser": "This one is not an invitation to join anything. Lorraine Valente already has a Directory profile — somebody built it from what they said about themselves in public and put it up under their name, which is how most of the list was made. It carries ten specializations, all clinical: trauma therapy and EMDR, crisis intervention, psychological assessment, clinical supervision. Health is one of thirteen jobs the app says a community has to be able to fill before it runs at all, and mental-health support is named in what that job covers.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ]
+  },
+  {
     "slug": "an-invitation-to-alphelus",
     "title": "An invitation to Alphelus",
     "repo": "chargingthefuture/wiki-site",
