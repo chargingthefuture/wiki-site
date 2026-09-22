@@ -65,6 +65,8 @@ And the last line, that a target's family may fall victim too. That is one door 
 
 What I would add to her line is the order, because it runs the reverse of how it sounds. The relatives are not reached after somebody arrives. They are recruited first, so the harassment is already running inside the house on the day the person gets there. For somebody living away from family, that work is finished before the homecoming is engineered at all. Mine started when I was five, so there was no arriving: the recruiting ran over the years we lived under one roof.
 
+Both halves of her line are the same approach seen from two sides. The family is asked to take part, and that usually happens before the person being targeted knows anything is happening at all. The ones who agree become part of it. The ones who refuse become targets themselves, which is the way a family falls victim. I was an exception on the timing only: I knew before mine were asked.
+
 ## What a description is not
 
 It is not a remedy, and she was not offering one. [No method I know of stops this](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-can-be-stopped), mine included.
