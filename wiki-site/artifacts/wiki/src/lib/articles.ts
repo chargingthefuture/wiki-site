@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "what-actually-comes-back",
+    "title": "What actually comes back",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-22",
+    "excerpt": "Somebody asked how to recover and return to a normal life. Nothing returns to before. Specific things come back, and naming them is more use than the word recovery.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/what-actually-comes-back.md",
+    "teaser": "A question in the queue asks how a person recovers from this and returns to a normal life. The honest answer disagrees with the premise. A name on the list is never taken off, so there is no before to return to, and a person who measures progress against that will read every ordinary week as failure. What does come back is specific and can be listed: income, a place to live, people who know you, sleep, and the ability to ask somebody for something. Those are the things to rebuild, under conditions that are still running.",
+    "topics": [
+      "community",
+      "skills-economy",
+      "clicklog"
+    ]
+  },
+  {
     "slug": "it-followed-you",
     "title": "It followed you",
     "repo": "chargingthefuture/wiki-site",
@@ -45,7 +61,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/it-followed-you.md",
-    "teaser": "Somebody asked how moving helps a person who is being seriously targeted. The last post on moving answered the person deciding whether to go. This one is for the person who already went, arrived, and found it running again inside a week. What follows a move is a name on a list, not a neighborhood, so the speed of the restart says nothing about the town and nothing about the decision. What a move actually changed is which specific people are near you and who has not been asked yet. That is a window, and the thing to do inside it is put part of your week into hands that are not part of it, rather than packing again.",
+    "teaser": "Somebody asked how moving helps a person who is being seriously targeted. The last post on moving answered the person deciding whether to go. This one is for the person who already went, arrived, and found it running again inside a week. What follows a move is a name on a list, not a neighborhood, so the speed of the restart says nothing about the town and nothing about the decision. What a move actually changes is that the arrangements are unmade — no employer, no landlord, nobody with a key — so for a short stretch you choose who fills them. The thing to do inside it is put part of your week into hands that are not part of this, rather than packing again.",
     "topics": [
       "community",
       "directory",
@@ -97,22 +113,6 @@ export const ARTICLES: ArticleMeta[] = [
       "specterati",
       "clicklog",
       "community"
-    ]
-  },
-  {
-    "slug": "what-actually-comes-back",
-    "title": "What actually comes back",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-22",
-    "excerpt": "Somebody asked how to recover and return to a normal life. Nothing returns to before. Specific things come back, and naming them is more use than the word recovery.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/what-actually-comes-back.md",
-    "teaser": "A question in the queue asks how a person recovers from this and returns to a normal life. The honest answer disagrees with the premise. A name on the list is never taken off, so there is no before to return to, and a person who measures progress against that will read every ordinary week as failure. What does come back is specific and can be listed: income, a place to live, people who know you, sleep, and the ability to ask somebody for something. Those are the things to rebuild, under conditions that are still running.",
-    "topics": [
-      "community",
-      "skills-economy",
-      "clicklog"
     ]
   },
   {
