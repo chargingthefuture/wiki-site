@@ -3,7 +3,7 @@ title: "It followed you"
 date: "2026-09-22"
 excerpt: "You moved and it started again within days. That is not proof the move was wasted, and it is not a reason to move again."
 category: "Community"
-teaser: "Somebody asked how moving helps a person who is being seriously targeted. The last post on moving answered the person deciding whether to go. This one is for the person who already went, arrived, and found it running again inside a week. What follows a move is a name on a list, not a neighborhood, so the speed of the restart says nothing about the town and nothing about the decision. What a move actually changed is which specific people are near you and who has not been asked yet. That is a window, and the thing to do inside it is put part of your week into hands that are not part of it, rather than packing again."
+teaser: "Somebody asked how moving helps a person who is being seriously targeted. The last post on moving answered the person deciding whether to go. This one is for the person who already went, arrived, and found it running again inside a week. What follows a move is a name on a list, not a neighborhood, so the speed of the restart says nothing about the town and nothing about the decision. What a move actually changes is that the arrangements are unmade — no employer, no landlord, nobody with a key — so for a short stretch you choose who fills them. The thing to do inside it is put part of your week into hands that are not part of this, rather than packing again."
 topics:
   - community
   - directory
@@ -30,15 +30,15 @@ So the restart tells you nothing about the town, and nothing about the decision 
 
 ## What the move did change
 
-Something did change, and it is narrow and real.
+Something did change, and it is narrow and real. It is not that the people around you are innocent. Assume they are not: the immediate arrival is what it looks like when a place already knows, and everything I have seen points that way.
 
-The specific people are different. The neighbor who had been at it for six years is not there. The coworkers are not there. The person who had a key, the one who knew what time you leave, the ones who had been asked years ago and said yes — all of that had to start again with different people who have not been asked yet, or have only just been asked.
+What changed is that the arrangements are unmade. No employer yet. No landlord yet. Nobody who drives you, nobody with a key, nobody who knows what time you leave. Every one of those has to be filled by somebody, and for a short stretch you are the one choosing who fills it.
 
-That is the window, and it is the only thing a move buys. It does not last, and it is not nothing.
+That is what a move buys. Not safety, and not a clean start. A handful of decisions that are usually made for you, briefly back in your hands.
 
-Here is the part that decides whether the move helped: what you put into that window. Most people spend it setting up a life exactly the way they set up the last one, which means the same arrangements get rebuilt among strangers who will be reached in the same way and in the same order.
+What decides whether the move helped is what you do with them. Most people spend the stretch setting up a life exactly the way they set up the last one, which hands the same arrangements to whoever is nearest and most convenient.
 
-## What to put in the window
+## What to do with them
 
 One arrangement at a time, into hands that are not part of it.
 
@@ -62,7 +62,7 @@ It will not hand you a clean answer about whether the move helped, because nothi
 
 ## So
 
-The move was not wasted, and moving again is not the answer to it following you. What a move gives you is a short stretch where fewer of the people around you have been asked yet. Spend it building a week that does not run through them.
+The move was not wasted, and moving again is not the answer to it following you. What a move gives you is a short stretch where the arrangements are unmade and you are the one choosing who fills them. Spend it building a week that does not run through people who are part of this.
 
 ## Where to find it in the app
 
