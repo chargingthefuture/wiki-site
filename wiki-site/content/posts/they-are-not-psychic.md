@@ -10,7 +10,7 @@ topics:
   - community
 ---
 
-A question on Quora, asked by Scott Rowell on November 24, 2024:
+A question on Quora, asked by Scott Rowell (https://www.quora.com/profile/Scott-Rowell-26) on November 24, 2024:
 
 > Are gang stalkers psychic?
 
