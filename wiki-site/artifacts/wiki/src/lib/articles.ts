@@ -37,6 +37,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "a-reader-nobody-can-close",
+    "title": "A reader nobody can close",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-23",
+    "excerpt": "A feed reader I host, for people who would rather not run one themselves. Nothing sits between the list and you, and nothing decides what you see first.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/a-reader-nobody-can-close.md",
+    "teaser": "The feed you read on a platform is arranged by somebody else, and what it puts in front of you is a decision you did not make. A reader takes that away: it fetches the same posts the site publishes, in the order they were written, and nothing ranks them. Reading this blog that way needs no account anywhere — any reader app and one address. For people who would rather not run one, there is now one I host: sign in with your Skills Economy account, and the feeds are yours alone, invisible to every other person on it. What it costs, and what gets a place on it withdrawn, is written below rather than left to be discovered.",
+    "topics": [
+      "platform-independence",
+      "publishing"
+    ]
+  },
+  {
     "slug": "an-invitation-to-lorraine",
     "title": "An invitation to Lorraine",
     "repo": "chargingthefuture/wiki-site",
