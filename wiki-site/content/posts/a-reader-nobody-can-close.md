@@ -23,7 +23,13 @@ https://chargingthefuture.github.io/chargingthefuture/feed.xml
 
 Paste that into whatever reader you like and every post here turns up on its own. Nobody sits in the middle of that — not me, not a company. It is the same mechanism every podcast runs on, so most people have used one without knowing.
 
-The second is for people who would rather not install or configure anything. I now run a reader you can sign into, on a server I pay for. You sign in with the Skills Economy account you already have, the blog is already subscribed, and you can add whatever else you read.
+The second is for people who would rather not install or configure anything. I now run a reader you can sign into, on a server I pay for:
+
+```
+https://rss.chargingthefuture.com
+```
+
+You sign in with the Skills Economy account you already have, the blog is already subscribed, and you can add whatever else you read.
 
 What each person subscribes to is theirs. There is no shared list, no comments, no way for one account to see another, and nothing any account does is visible to anybody else on it. It is a private reading list that happens to live on my machine rather than yours.
 
