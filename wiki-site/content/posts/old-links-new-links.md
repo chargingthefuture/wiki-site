@@ -1,17 +1,17 @@
 ---
 title: "Old links, new links"
-date: "2026-09-20"
-excerpt: "Fifty-two accounts erased, three in one evening, and a new handle eight minutes later. What is live, what is dead, and the one address that never changes."
+date: "2026-09-23"
+excerpt: "Fifty-three accounts erased, the last one in the small hours, and a new handle before breakfast. What is live, what is dead, and the one address that never changes."
 category: "Community"
-teaser: "Quora has erased my accounts fifty-two times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Three of those bans landed inside seventy-three minutes on one evening, and the handle now open was opened eight minutes after the last of them. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
+teaser: "Quora has erased my accounts fifty-three times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. The latest ban landed at half past two in the morning on September 23, and the handle now open was opened three hours and forty-two minutes later. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
 topics:
   - publishing
   - platform-independence
 ---
 
-Quora has erased my accounts fifty-two times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
+Quora has erased my accounts fifty-three times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
 
-There is one handle of mine on Quora, opened on the evening of September 20, 2026, eight minutes after the third ban of that evening. Everything before it is dead.
+There is one handle of mine on Quora, opened on the morning of September 23, 2026, three hours and forty-two minutes after the ban before it. Everything before it is dead.
 
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
@@ -27,7 +27,7 @@ To reach me, save this link alongside the blog: https://sleek.bio/farah — it l
 
 ## Quora: current
 
-The handle: https://www.quora.com/profile/Kingofno-2 — opened at 10:37 in the evening on September 20, 2026, eight minutes after Kingmlk was banned. The third handle opened that evening, after three were banned.
+The handle: https://www.quora.com/profile/Kingtechiee — opened at 6:14 in the morning on September 23, 2026, three hours and forty-two minutes after Kingofno-2 was banned. Note the spelling: Kingtechie, one e, is a dead account in the list below and is not this one.
 
 The space: https://skillseconomy.quora.com
 
@@ -143,6 +143,8 @@ https://www.quora.com/profile/Kingtechie — opened at 9:48 in the evening on Se
 
 https://www.quora.com/profile/Kingmlk — opened at 10:09 in the evening on September 20, 2026, and banned by Quora Moderation at 10:29 the same evening. Twenty minutes. Three accounts of mine were banned that evening, at 9:17, 9:57 and 10:29 — seventy-three minutes from the first to the last.
 
+https://www.quora.com/profile/Kingofno-2 — opened at 10:37 in the evening on September 20, 2026, eight minutes after Kingmlk was banned, and banned by Quora Moderation at 2:32 in the morning on September 23, 2026. Just under fifty-two hours, and the longest run since KingLaundry.
+
 ## Different every time, same label
 
 Worth recording, because it is the part that settles the question.
@@ -179,4 +181,4 @@ The old GitHub wiki — an inactive mirror. It no longer receives updates; this 
 
 Nothing is written on a platform first anymore. Every post starts here, and platforms only ever get a short version and a link back. So the next time an account is erased — and I assume there will be a next time — the cost is one entry moving from the current list to the dead list on this page. That is all.
 
-Since this page first went up, that has happened fifty times. The list above is current, and Kingofno-2 is the entry waiting to move onto it.
+Since this page first went up, that has happened fifty-one times. The list above is current, and Kingtechiee is the entry waiting to move onto it.

@@ -37,6 +37,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "old-links-new-links",
+    "title": "Old links, new links",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-23",
+    "excerpt": "Fifty-three accounts erased, the last one in the small hours, and a new handle before breakfast. What is live, what is dead, and the one address that never changes.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/old-links-new-links.md",
+    "teaser": "Quora has erased my accounts fifty-three times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. The latest ban landed at half past two in the morning on September 23, and the handle now open was opened three hours and forty-two minutes later. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
+    "topics": [
+      "publishing",
+      "platform-independence"
+    ]
+  },
+  {
     "slug": "an-invitation-to-lorraine",
     "title": "An invitation to Lorraine",
     "repo": "chargingthefuture/wiki-site",
@@ -270,21 +285,6 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "reference",
       "terms"
-    ]
-  },
-  {
-    "slug": "old-links-new-links",
-    "title": "Old links, new links",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-20",
-    "excerpt": "Fifty-two accounts erased, three in one evening, and a new handle eight minutes later. What is live, what is dead, and the one address that never changes.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/old-links-new-links.md",
-    "teaser": "Quora has erased my accounts fifty-two times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Three of those bans landed inside seventy-three minutes on one evening, and the handle now open was opened eight minutes after the last of them. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
-    "topics": [
-      "publishing",
-      "platform-independence"
     ]
   },
   {
