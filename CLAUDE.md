@@ -344,6 +344,22 @@ there rather than writing a figure into this file.
 
 The archive entries already use the plain-text-plus-URL form. Match them.
 
+### Never change a handle or a URL (owner directive, 2026-09-23)
+
+An address is given, not worked out. When the owner supplies a handle or a link, write it exactly
+as supplied — the casing, the numbers, the spelling — and never adjust it to match another entry
+on the same page. If one looks wrong, ask before touching it. A handle that has been corrected to
+look tidier is a dead link, and on a page whose job is telling a reader which accounts are real, a
+dead link is worse than no line at all.
+
+A number on the end of a handle is not a version of an earlier account. Quora appends one when a
+different person takes a username already in use, so `Name-2` and `Name-1` are as likely to be two
+unrelated people as two accounts belonging to the same person. Never infer one from the other, and
+never write an explanation of why a handle carries a number.
+
+This applies in every repository, including the hand-written handle lists in the product
+repository.
+
 The same care applies to the owner. Write they/them, in posts, PR bodies, commit messages, and
 chat alike. Agents keep inferring a pronoun from the name and getting it wrong, which is worse than
 the neutral default in every case where it is wrong and no better in any case where it is right.
