@@ -111,6 +111,9 @@ jobs:
             -d '{"ref":"main"}'
 
       - name: Say where the feeds are
+        # Through tee, so the addresses land in the log as well as the run
+        # summary. Writing only to the summary produces no log output at all,
+        # and the log is where somebody looks first.
         run: |
           {
             echo "### Collected channels"
@@ -125,4 +128,4 @@ jobs:
             echo "Subscribe to one of those in the reader, then filter with \`pubdate:/2024-12-31\`."
             echo ""
             echo "Dates are approximate — read from relative labels on the channel page — so leave a month or two of margin around a cutoff."
-          } >> "$GITHUB_STEP_SUMMARY"
+          } | tee -a "$GITHUB_STEP_SUMMARY"
