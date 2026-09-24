@@ -17,7 +17,9 @@
     "import:quora-export": "tsx ./src/import-quora-export.ts",
     "sync-fireside-exports": "tsx ./src/sync-fireside-exports.ts",
     "sync-fireside-exports:dry": "tsx ./src/sync-fireside-exports.ts --dry-run",
-    "build-pb2-messages": "tsx ./src/build-pb2-messages.ts"
+    "build-pb2-messages": "tsx ./src/build-pb2-messages.ts",
+    "build-youtube-feeds": "tsx ./src/build-youtube-feeds.ts",
+    "collect-youtube-archive": "tsx ./src/collect-youtube-archive.ts"
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",
