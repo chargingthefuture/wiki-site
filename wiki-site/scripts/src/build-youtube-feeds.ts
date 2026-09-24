@@ -95,6 +95,40 @@ function readArchives(): Archive[] {
   return archives;
 }
 
+/**
+ * Wrap HTML so an XML parser leaves it alone. `]]>` is the only sequence that can
+ * end the section, and splitting it across two is the standard way to carry it.
+ */
+function cdata(html: string): string {
+  return `<![CDATA[${html.replace(/\]\]>/g, ']]]]><![CDATA[>')}]]>`;
+}
+
+/**
+ * What a reader shows for one video: the player, then the address under it.
+ *
+ * Without this an entry was a title and a date and nothing to press. The address
+ * was on the item's link, so the title opened it, but a list of titles is not
+ * what somebody subscribes to a channel for.
+ *
+ * FreshRSS's sanitizer allows an iframe with `src` and `allowfullscreen`, so the
+ * player renders in place. The link underneath is what a reader that blocks
+ * frames is left with, which is the same thing the item's link already carries.
+ *
+ * nocookie rather than the ordinary embed host: it is the same player from the
+ * same company, without the tracking cookie set on arrival. Somebody who
+ * self-hosts a reader to get away from being profiled did not ask for one here.
+ */
+function videoHtml(id: string, title: string, date: string, approximate: boolean): string {
+  const safeId = encodeURIComponent(id);
+  const watch = `https://www.youtube.com/watch?v=${safeId}`;
+  const when = `${date}${approximate ? ' (approximate)' : ''}`;
+  return [
+    `<p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/${safeId}"`,
+    ` title="${xml(title)}" frameborder="0" allowfullscreen></iframe></p>`,
+    `<p><a href="${watch}">Watch on YouTube</a> — ${xml(when)}</p>`,
+  ].join('');
+}
+
 function feedFor(archive: Archive): string {
   const anyApproximate = archive.videos.some((video) => video.approximateDate);
   const description =
@@ -117,7 +151,10 @@ function feedFor(archive: Archive): string {
         `      <link>${xml(url)}</link>`,
         `      <guid isPermaLink="false">yt:video:${xml(video.id)}</guid>`,
         when ? `      <pubDate>${when}</pubDate>` : null,
-        `      <description>${xml(`${video.title} — ${video.date}${video.approximateDate ? ' (approximate)' : ''}`)}</description>`,
+        // Plain text for a reader that shows only this, HTML for every reader
+        // that prefers the richer one.
+        `      <description>${xml(`${video.title} — ${video.date}${video.approximateDate ? ' (approximate)' : ''} — ${url}`)}</description>`,
+        `      <content:encoded>${cdata(videoHtml(video.id, video.title, video.date, video.approximateDate === true))}</content:encoded>`,
       ]
         .filter((line): line is string => line !== null)
         .concat('    </item>')
@@ -127,7 +164,7 @@ function feedFor(archive: Archive): string {
 
   return [
     '<?xml version="1.0" encoding="UTF-8"?>',
-    '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
+    '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">',
     '  <channel>',
     `    <title>${xml(archive.name)} (archive)</title>`,
     `    <link>${xml(archive.channelUrl)}</link>`,
