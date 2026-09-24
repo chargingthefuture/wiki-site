@@ -24,6 +24,7 @@
     "@types/node": "catalog:",
     "@types/turndown": "^5.0.4",
     "js-yaml": "^4.1.0",
+    "marked": "^18.0.14",
     "node-html-parser": "^6.1.0",
     "tsx": "catalog:",
     "turndown": "^7.2.0",

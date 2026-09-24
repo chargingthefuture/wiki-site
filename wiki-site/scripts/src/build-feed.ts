@@ -8,6 +8,10 @@
  * feed is a way to follow the blog that nobody can revoke: no account, no
  * address handed over, no company in the middle who can be complained to.
  *
+ * Each item carries the post itself, not a teaser. A feed that carried only the
+ * opening paragraph would send every subscriber to the site to read the rest,
+ * which is the arrangement a reader exists to end.
+ *
  * It is not expected to be how most readers follow. Feed readers went niche
  * after Google Reader closed in 2013 and a non-technical reader will not
  * install one. The feed earns its place two other ways: a reader who does have
@@ -28,6 +32,7 @@
 import { readFileSync, writeFileSync, mkdirSync, readdirSync } from 'node:fs';
 import { resolve, dirname, join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { marked } from 'marked';
 import { parseFrontMatter } from './frontmatter.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -56,9 +61,14 @@ const COLLECTIONS = [
 
 /**
  * How many items ship. A feed is re-fetched on a schedule by every subscriber,
- * so the whole catalog in one file would be megabytes pulled repeatedly for no
+ * so the entire catalog in one file would be megabytes pulled repeatedly for no
  * gain — a reader keeps what it has already seen. Fifty covers months of
  * publishing at the current rate.
+ *
+ * Fifty full posts is around half a megabyte, against fifty kilobytes when this
+ * carried teasers. That is paid once per publish rather than once per poll: the
+ * host answers an unchanged feed with a 304 and no body at all, so a reader
+ * checking hourly transfers nothing between posts.
  */
 const MAX_ITEMS = 50;
 
@@ -68,6 +78,7 @@ type Entry = {
   title: string;
   date: string;
   description: string;
+  body: string;
   category: string;
 };
 
@@ -98,7 +109,7 @@ function collect(): Entry[] {
     }
     for (const file of files) {
       const raw = readFileSync(file, 'utf8');
-      const { meta } = parseFrontMatter(raw);
+      const { meta, body } = parseFrontMatter(raw);
       if (!meta || !meta.date || !meta.title) continue;
       // `listed: false` keeps a page out of the article grid on purpose. It
       // stays reachable by address; it does not go out to subscribers.
@@ -113,6 +124,7 @@ function collect(): Entry[] {
         // says, so a reader who never opens the link still got it. Posts
         // predating that field fall back to the excerpt, same as the site does.
         description: String(meta.teaser?.toString().trim() || meta.excerpt || '').trim(),
+        body: String(body ?? ''),
         category: String(meta.category ?? ''),
       });
     }
@@ -176,6 +188,45 @@ function pubDate(date: string): string {
   return rfc822(new Date(Date.UTC(y, m - 1, d, 12) - easternOffsetMinutes(noonGuess) * 60_000));
 }
 
+/**
+ * Where a content image really lives. The site bundles `content/images/*` through
+ * Vite, which hashes the filename, so the address a page uses is not one this
+ * script can work out. The repository is public, so the file itself has a stable
+ * address and that is what goes in the feed — a reader shows the picture instead
+ * of a broken frame, and nothing has to be copied into the build to make it work.
+ */
+const IMAGE_BASE =
+  'https://raw.githubusercontent.com/chargingthefuture/wiki-site/main/wiki-site/content/images/';
+
+/**
+ * The post itself, as HTML.
+ *
+ * Until this existed a subscriber got the teaser and nothing else, so following
+ * the blog in a reader meant reading a paragraph and then opening the site
+ * anyway — which is the arrangement the reader is supposed to end.
+ *
+ * Addresses are made absolute. A feed is read somewhere else, so a relative one
+ * resolves against whatever that somewhere is and lands nowhere.
+ */
+function bodyHtml(markdown: string): string {
+  const html = marked.parse(markdown, { async: false, gfm: true }) as string;
+  return html
+    .replace(/(<img\b[^>]*\bsrc=")\/?images\/([^"]+)(")/g, (_m, before, name, after) =>
+      `${before}${IMAGE_BASE}${name}${after}`)
+    .replace(/(<a\b[^>]*\bhref=")\/?images\/([^"]+)(")/g, (_m, before, name, after) =>
+      `${before}${IMAGE_BASE}${name}${after}`);
+}
+
+/**
+ * Wrap HTML so an XML parser leaves it alone. The only sequence that can end the
+ * section is `]]>`, and splitting it across two sections is the standard way to
+ * carry it — a post quoting that sequence would otherwise truncate the item and
+ * every item after it.
+ */
+function cdata(html: string): string {
+  return `<![CDATA[${html.replace(/\]\]>/g, ']]]]><![CDATA[>')}]]>`;
+}
+
 function xml(text: string): string {
   return text
     .replace(/&/g, '&amp;')
@@ -201,6 +252,9 @@ function main() {
         `      <pubDate>${pubDate(entry.date)}</pubDate>`,
         entry.category ? `      <category>${xml(entry.category)}</category>` : null,
         `      <description>${xml(entry.description)}</description>`,
+        // The teaser stays in <description> for readers that show only that;
+        // the post itself goes here, which is what every current reader shows.
+        `      <content:encoded>${cdata(bodyHtml(entry.body))}</content:encoded>`,
         '    </item>',
       ]
         .filter((line): line is string => line !== null)
@@ -210,7 +264,7 @@ function main() {
 
   const feed = [
     '<?xml version="1.0" encoding="UTF-8"?>',
-    '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
+    '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">',
     '  <channel>',
     `    <title>${xml(TITLE)}</title>`,
     `    <link>${xml(SITE)}/</link>`,
