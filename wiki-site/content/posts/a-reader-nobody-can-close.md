@@ -49,35 +49,44 @@ Categories are optional. A feed you do not file lands in "Uncategorized" and wor
 
 This is the part I use most and it is the reason I wanted a reader at all.
 
-Search a video site for something I need and the results are not neutral. A share of what comes back was put where I would find it, after the targeting started, by people who know what I am working on. So I search with a cutoff and read what was published before that date, when nobody was arranging anything for my benefit.
+Search a video site for something I need and the results are not neutral. A share of what comes back was put where I would find it, after the targeting started, by people who know what I am working on. So I read what was published before a date when nobody was arranging anything for my benefit.
 
-The reader does the same thing in its search box:
-
-```
-pubdate:/2024-12-31
-```
-
-Everything published before December 31, 2024. Turn it around for the other direction:
+Set it once and the reader holds it. Configuration → Reading → Filter actions → "Mark an article as read…", and one line in the box:
 
 ```
 pubdate:2024-12-31/
 ```
 
-Pick your own date — the one before which you are confident nobody was writing at you.
+That is everything published on or after December 31, 2024 — the side you do not want. Anything matching arrives already read, so the reader opens on what came before your date and nothing else. It applies to every feed you have and every feed you add later, and there is no search to run and nothing to press.
 
-Then save it so you never type it again. FreshRSS calls a saved search a user query:
+Pick your own date. The one you want is the date before which you are confident nobody was writing at you.
 
-1. Type the search and run it.
-2. Open the drop-down beside the read and favorite buttons in the header.
-3. Press the bookmark action and give it a name.
+Two settings make it behave the way you expect:
 
-It sits in that menu afterward and one press applies it. Only the search is stored, never a fixed set of articles, so it re-runs against whatever has arrived since.
+- Configuration → Reading → "Articles to display", set to unread only, so what the filter caught stays out of the way.
+- The "Preview filters on existing articles" button, beside the box, which shows what the line would catch before you commit to it.
+
+Three things worth knowing:
+
+The filter runs on articles as they arrive, not on what is already sitting there. So set it before you subscribe to anything. If you have already subscribed, clear the backlog once by hand: search `pubdate:2024-12-31/`, mark all of it as read, and the filter takes it from there.
+
+Nothing is deleted. The articles it catches are marked read, not thrown away, so switching to all articles still shows them when you want to look.
+
+Individual feeds can differ. The same box sits in each feed's own settings, so one source can carry a different date without changing the rest.
+
+For a one-off look at a different cutoff, the search box takes the same syntax, turned around:
+
+```
+pubdate:/2024-03-01
+```
+
+Everything published before March 1, 2024. A search you expect to reuse can be saved under a name — FreshRSS calls it a user query: run the search, open the drop-down beside the read and favorite buttons, press the bookmark action and name it. It sits in that menu afterward and one press applies it.
 
 ## YouTube channels, where that filter has nothing to bite on
 
 A YouTube channel does publish a feed, and it carries only the newest videos. So a cutoff finds nothing to work with: what you wanted was never delivered in the first place, and no filter reaches what never arrived.
 
-The way around it is to collect the channel's upload list once and publish that as a feed of its own. I have the machinery for it, and the first channel is done. A collected feed carries the catalog rather than the last fortnight, so the cutoff above does what you asked it to.
+The way around it is to collect the channel's upload list once and publish that as a feed of its own. I have the machinery for it, and the first channel is done. A collected feed carries the catalog rather than the last fortnight, so the cutoff above does what you asked it to. Set the filter before you add one of these: a collected channel delivers its entire catalog on the first fetch, and the filter is what decides which half of it lands unread.
 
 If you want a channel collected, book me on [Foundation](https://app.chargingthefuture.com/apps/foundation) and put the channel address in the request. I run it and send you the feed address to paste in. It is a task like any other on there, which means it is recorded and settled the way the rest of them are.
 
