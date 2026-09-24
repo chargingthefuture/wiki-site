@@ -1,0 +1,1695 @@
+{
+  "slug": "christitustechnical",
+  "name": "christitustechnical",
+  "channelUrl": "https://www.youtube.com/@ChrisTitusTechnical",
+  "collectedAt": "2026-09-24",
+  "videos": [
+    {
+      "id": "rAsEUc_Mxx0",
+      "title": "I Have Too Many Projects (Self-Hosting, Local AI, NeoVim & More) | Ramblings of a Madman",
+      "date": "2026-05-24",
+      "approximateDate": true,
+      "duration": 887
+    },
+    {
+      "id": "DphAn3eblgI",
+      "title": "New Linux Utility Release",
+      "date": "2025-09-24",
+      "approximateDate": true,
+      "duration": 7794
+    },
+    {
+      "id": "Sx7g_u_z5A4",
+      "title": "COSMIC Alpha 2 is AMAZING",
+      "date": "2025-09-24",
+      "approximateDate": true,
+      "duration": 8568
+    },
+    {
+      "id": "uEEg_1_xUzw",
+      "title": "My Brother knows all...",
+      "date": "2025-09-24",
+      "approximateDate": true,
+      "duration": 18
+    },
+    {
+      "id": "_3NOjLlsp3Y",
+      "title": "Crowdstrike Alternatives",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 481
+    },
+    {
+      "id": "01R8Ft1BdxE",
+      "title": "The Ultimate System - GPU Passthrough with Looking Glass",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 6534
+    },
+    {
+      "id": "03Juz1zwbCA",
+      "title": "Linux Livestream FAIL - Kernel 6.9 Update",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 2939
+    },
+    {
+      "id": "0GMCGLdIRZk",
+      "title": "Microsoft is REMOVING the Start Menu",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 305
+    },
+    {
+      "id": "0hrhtdlxapA",
+      "title": "System Tweaking and Windows 23H2 Testing",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 5195
+    },
+    {
+      "id": "0ws1SIbAQq8",
+      "title": "Freedesktop BANS Hyprland Maintainer",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 550
+    },
+    {
+      "id": "1rpumHIGcTM",
+      "title": "Linux Gaming beats Windows?",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 298
+    },
+    {
+      "id": "275aD-Uj8TQ",
+      "title": "Hyprland Revisited",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 7065
+    },
+    {
+      "id": "27gbaChnEZM",
+      "title": "My Problem with Seagate",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 288
+    },
+    {
+      "id": "2HU-u4ZCoh4",
+      "title": "Linux without SystemD",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 83
+    },
+    {
+      "id": "2r_DWESebVQ",
+      "title": "Linux Distros are ALL the Same",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 220
+    },
+    {
+      "id": "3mlXgq4B8TY",
+      "title": "What Kills Most People",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 277
+    },
+    {
+      "id": "4MLDdk09ZPY",
+      "title": "Day Job and YouTuber",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 381
+    },
+    {
+      "id": "4wYPegVqTMM",
+      "title": "Windows Updates",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 139
+    },
+    {
+      "id": "51zYz4CMGgA",
+      "title": "Why RedHat is BAD",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 432
+    },
+    {
+      "id": "5GEbK3s-V6g",
+      "title": "Making a NON-SystemD OpenRC system",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 6250
+    },
+    {
+      "id": "6fd24ix8WT4",
+      "title": "The Problems with IT in Business",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 231
+    },
+    {
+      "id": "6YWEooV-MEU",
+      "title": "Why Linux",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 63
+    },
+    {
+      "id": "8D0DjQ764nI",
+      "title": "SSD or HDD for Home Server",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 383
+    },
+    {
+      "id": "8h6Kpac5U2c",
+      "title": "Replacing VSCode with Cursor",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 6004
+    },
+    {
+      "id": "8lCgb1xEp8w",
+      "title": "NixOS Update and Cleanup",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 7022
+    },
+    {
+      "id": "8yTWzevombs",
+      "title": "30 Days in SUSE and the Linux Tier List",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 462
+    },
+    {
+      "id": "8zyaOwbmGqI",
+      "title": "The Worst Virus I Have Seen",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 188
+    },
+    {
+      "id": "ACactyXyDEg",
+      "title": "Neovim is a Journey",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 301
+    },
+    {
+      "id": "ACFNVwJ5cDs",
+      "title": "The OpenSUSE Install",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 8476
+    },
+    {
+      "id": "ALsUkOKLP7s",
+      "title": "Explorer Patcher Breaking My Windows",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 365
+    },
+    {
+      "id": "ANSHITuk78U",
+      "title": "Zed Editor and AI Models",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 9505
+    },
+    {
+      "id": "aU_KExYYGjw",
+      "title": "How to Be Private on the Internet",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 179
+    },
+    {
+      "id": "B1VTBWH6mXA",
+      "title": "Bazzite PCI Passthrough Stream",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 10866
+    },
+    {
+      "id": "BMTCFv1LvRo",
+      "title": "COSMIC Desktop Update and Hyprland ML4W",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 7731
+    },
+    {
+      "id": "bRd4mJglWiM",
+      "title": "Where did I go?",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 204
+    },
+    {
+      "id": "CcN6dFQ-8Cs",
+      "title": "Home Theater PC Configuration",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 5976
+    },
+    {
+      "id": "Cn3fVrm8wQ0",
+      "title": "Windows 12 and Subscriptions",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 226
+    },
+    {
+      "id": "CZtSAaABvT4",
+      "title": "Linux VS Windows",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 132
+    },
+    {
+      "id": "cZXoU3VcO-Q",
+      "title": "MicroWin ISO Creation and Testing",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 5107
+    },
+    {
+      "id": "dasD8fLcMWE",
+      "title": "Finishing Microwin",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 8741
+    },
+    {
+      "id": "DELTC0BULzo",
+      "title": "My Tech Journey - Windows - Mac - Linux",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 5981
+    },
+    {
+      "id": "dzaVTJyPrQg",
+      "title": "Computer Updates",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 542
+    },
+    {
+      "id": "ExkXvIFgk68",
+      "title": "WinUtil Expansion",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 5770
+    },
+    {
+      "id": "f-MwokQbF5o",
+      "title": "My Opinion of DevOps",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 227
+    },
+    {
+      "id": "f77aKO93kxM",
+      "title": "Different Linux Distributions",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 109
+    },
+    {
+      "id": "fd2R2Rm95Es",
+      "title": "MicroWin",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 10381
+    },
+    {
+      "id": "fVDQ8iNBIos",
+      "title": "MacOS... \"it just works\"",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 105
+    },
+    {
+      "id": "G6GAUO2PNXU",
+      "title": "What is HUGO and Why I use it",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 691
+    },
+    {
+      "id": "gCUWjySiRvw",
+      "title": "Understanding Linux",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 7176
+    },
+    {
+      "id": "gxLYPxfNmQA",
+      "title": "My New Linux Laptop",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 6296
+    },
+    {
+      "id": "GYaIkbi1oPQ",
+      "title": "The Creation of Linux Toolbox",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 5415
+    },
+    {
+      "id": "H2DIc5EtK18",
+      "title": "Bad AntiVirus",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 309
+    },
+    {
+      "id": "H6t8eeXlADY",
+      "title": "Linux User Problems",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 262
+    },
+    {
+      "id": "H8EuQB_pf3Y",
+      "title": "Bazzite on My MAIN PC",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 5002
+    },
+    {
+      "id": "hcly5WdH1K0",
+      "title": "Microsoft Word Alternatives",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 152
+    },
+    {
+      "id": "Hiwyu7wXB8U",
+      "title": "NixOS Revisited",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 6826
+    },
+    {
+      "id": "hjPKXBYxTWM",
+      "title": "Secure and Private Browsing",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 654
+    },
+    {
+      "id": "HohZBu_hPZ0",
+      "title": "RSS is a better way to use the Internet",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 178
+    },
+    {
+      "id": "hoxfcx1LCtA",
+      "title": "Changing Windows Desktop to Tile NEW Programs",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 1933
+    },
+    {
+      "id": "HYOmT1CYR9A",
+      "title": "Linux Gaming Optimizations - RBar and TKG Kernel",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 7374
+    },
+    {
+      "id": "hzMJ2a1G8rc",
+      "title": "Modifying DWM-Titus",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 9640
+    },
+    {
+      "id": "i2gvwNRWS88",
+      "title": "Photoshop in Linux",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 264
+    },
+    {
+      "id": "itObaG5mFlU",
+      "title": "The WORST Job Offer",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 391
+    },
+    {
+      "id": "iXYw2UCbWbc",
+      "title": "Upstream and Downstream Distros",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 156
+    },
+    {
+      "id": "j13e5DObH4o",
+      "title": "Creating a Lutris Install Script",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 4826
+    },
+    {
+      "id": "JCSjpegO5Sk",
+      "title": "Emergency Debian Patch and Kernel 666",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 296
+    },
+    {
+      "id": "JenWRxk6T1E",
+      "title": "My Worst Coding Day Yet",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 12392
+    },
+    {
+      "id": "joXsWaF213o",
+      "title": "New Artix Updates and Wayland Synergy Alternatives",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 1992
+    },
+    {
+      "id": "JpPGpV7QT0o",
+      "title": "Trying SystemD FREE Distros",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 9823
+    },
+    {
+      "id": "JRy2V9bJqqE",
+      "title": "Computer Hardware Problems",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 3165
+    },
+    {
+      "id": "juCjPozf_fE",
+      "title": "My Website",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 310
+    },
+    {
+      "id": "K2gliga5Vwc",
+      "title": "The Ultimate System - QEMU and VM Setup",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 6779
+    },
+    {
+      "id": "KHTuFnVjAuM",
+      "title": "WinUtil Improvements November 2023",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 3070
+    },
+    {
+      "id": "KqDKDS590cI",
+      "title": "Gaming Desktop vs Laptops",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 571
+    },
+    {
+      "id": "KT1jVT0f8uQ",
+      "title": "The AtlasOS Project",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 373
+    },
+    {
+      "id": "kWd7l-epM4I",
+      "title": "The Truth behind the LTT Linux Challenge",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 490
+    },
+    {
+      "id": "kWLJ9lW-zaQ",
+      "title": "AI Will Change How YOU Use a Computer",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 1416
+    },
+    {
+      "id": "ljcoiqUQKf8",
+      "title": "My Laptop Recommendations",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 165
+    },
+    {
+      "id": "lrnUnGmc-Nw",
+      "title": "My New Web Browser",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 236
+    },
+    {
+      "id": "LUggx6z0g3U",
+      "title": "Why I Code in C#",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 160
+    },
+    {
+      "id": "lvUQVFE5lIU",
+      "title": "Update Breaks EVERYTHING",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 8305
+    },
+    {
+      "id": "m0oeb3kLyB0",
+      "title": "Titus Reacts - Debloat Windows from 2018",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 603
+    },
+    {
+      "id": "M82g6xcSlzg",
+      "title": "Linux Login Revamp and Terminal Setup",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 6593
+    },
+    {
+      "id": "mJqNBBSViDU",
+      "title": "🚨WinUtil EMERGENCY 🚨 Defender False Flag!",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 7505
+    },
+    {
+      "id": "MOcekLz18QU",
+      "title": "Steam Machine using Bazzite",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 5757
+    },
+    {
+      "id": "nHMTpieUcnY",
+      "title": "XCP and Proxmox Virtualization Install and Setup",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 6170
+    },
+    {
+      "id": "o31TAaj6-og",
+      "title": "Testing New Windows Installer and Driver Injection",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 7691
+    },
+    {
+      "id": "oV541sgHKGo",
+      "title": "Linux from Scratch",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 9342
+    },
+    {
+      "id": "PRvJeGcgwqs",
+      "title": "Hyprland Rices and COSMIC First Look",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 9783
+    },
+    {
+      "id": "PVpcf72tRHI",
+      "title": "The Best AntiVirus",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 348
+    },
+    {
+      "id": "Q54qYBHKL5M",
+      "title": "Adobe Sues its Users",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 318
+    },
+    {
+      "id": "Q5Jq5_Qnx2Q",
+      "title": "Microwin",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 4744
+    },
+    {
+      "id": "Qd77Nwg0kek",
+      "title": "Gamescope in Linux",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 8894
+    },
+    {
+      "id": "roCBsIXpSSw",
+      "title": "Using AI and GIMP for YouTube Thumbnails",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 589
+    },
+    {
+      "id": "rslt9GOKCLw",
+      "title": "Xorg is NOT going ANYWHERE",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 213
+    },
+    {
+      "id": "RZgygoqjI20",
+      "title": "Android Emulation on PC",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 535
+    },
+    {
+      "id": "S_ktBTbxWUY",
+      "title": "How to Test Pull Request BEFORE Merging",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 294
+    },
+    {
+      "id": "sK5XWTsvFK4",
+      "title": "Linux Gaming Shenanigans",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 9752
+    },
+    {
+      "id": "Slyxy4SRqdI",
+      "title": "YouTube Shorts and Sponsor Block",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 422
+    },
+    {
+      "id": "T2VQVAMufiA",
+      "title": "Windows ISO Creation in MicroWin Tests",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 9522
+    },
+    {
+      "id": "T8mY9LhnER4",
+      "title": "NixOS Home Manager Install",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 5606
+    },
+    {
+      "id": "t9uWeUekhB4",
+      "title": "Keep Coming BACK to Windows",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 204
+    },
+    {
+      "id": "TW3l7PkSPD4",
+      "title": "The Future of this Channel?",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 644
+    },
+    {
+      "id": "U6u39w60iwI",
+      "title": "Don't use Linux! Just use Windows!",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 133
+    },
+    {
+      "id": "UwgZKamtCwU",
+      "title": "Ebay Terrorizing Innocent People",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 173
+    },
+    {
+      "id": "v26BwozrcbU",
+      "title": "Is YouTube Dying?",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 581
+    },
+    {
+      "id": "vfZn7kueiyE",
+      "title": "WinRAR Hack and Installing Programs on Windows",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 681
+    },
+    {
+      "id": "vSjTzhoJFdk",
+      "title": "Dropbox is a Virus",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 208
+    },
+    {
+      "id": "vX3arekpX-M",
+      "title": "Other Operating Systems",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 129
+    },
+    {
+      "id": "w2OajJy8528",
+      "title": "Automate EVERYTHING in Linux",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 5896
+    },
+    {
+      "id": "WBz50JUq7zU",
+      "title": "Linux Toolbox Bash and Neovim",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 8701
+    },
+    {
+      "id": "Wpr6lr9-4nQ",
+      "title": "Make Powershell SANE",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 261
+    },
+    {
+      "id": "X1vQ6va5xOc",
+      "title": "Linux Toolbox Foundation",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 6149
+    },
+    {
+      "id": "x8JFfeL7eJE",
+      "title": "Linux Utility Expansion - SysUpdate - Rofi",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 12195
+    },
+    {
+      "id": "XfRTRSZMMs0",
+      "title": "Linux BSODs",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 272
+    },
+    {
+      "id": "XFy9RvvJik8",
+      "title": "The AI LIE",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 1154
+    },
+    {
+      "id": "XsTX449WYas",
+      "title": "Linux System Setup Script",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 5315
+    },
+    {
+      "id": "xzUcDbIh-0w",
+      "title": "Windows Utility Update",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 6587
+    },
+    {
+      "id": "Y3RDF6BG9fk",
+      "title": "ArchTitus Revived in Linux Toolbox",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 19998
+    },
+    {
+      "id": "Y7LTdEwR9M8",
+      "title": "Setting up the Ultimate System",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 7531
+    },
+    {
+      "id": "ygraCMK-QAs",
+      "title": "The 11 Best Linux Distributions",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 983
+    },
+    {
+      "id": "yhVsKROePOw",
+      "title": "The TRUTH about Crypto",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 563
+    },
+    {
+      "id": "ylDT5obFvHU",
+      "title": "Adding Edge Uninstall to Windows Toolbox",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 10369
+    },
+    {
+      "id": "ynmLm5_K_1E",
+      "title": "The Windows 24H2 Stream",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 5915
+    },
+    {
+      "id": "Zi84A-MTVWc",
+      "title": "PC Gaming Myths",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 924
+    },
+    {
+      "id": "zLkWGLEOiI8",
+      "title": "Debloating Android",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 191
+    },
+    {
+      "id": "ZrrZ5vPVGII",
+      "title": "Manual Restore Partitions and Timeshift Files",
+      "date": "2024-09-24",
+      "approximateDate": true,
+      "duration": 11558
+    },
+    {
+      "id": "_ScuxLivGqw",
+      "title": "Nix on the Steamdeck",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 148
+    },
+    {
+      "id": "_Z32SYFbxpw",
+      "title": "First Time NixOS Install with Customization",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 7054
+    },
+    {
+      "id": "-1fXsKwL7yU",
+      "title": "LTT Drama Response",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 767
+    },
+    {
+      "id": "-xdFLL9f9sk",
+      "title": "Edge DIES Today",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 5252
+    },
+    {
+      "id": "0T_xObMKV5Q",
+      "title": "Microsoft is FORCING users to keep Edge AND Defender",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 204
+    },
+    {
+      "id": "1qd0iHadvdo",
+      "title": "NixOS Fast Reboots with SystemD TimeOut",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 198
+    },
+    {
+      "id": "3Wslg4a4JNk",
+      "title": "The End of LTT?",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 823
+    },
+    {
+      "id": "4iZQa-CE9m4",
+      "title": "Windows trying to be Mac",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 281
+    },
+    {
+      "id": "4KVi_3fmv9M",
+      "title": "The Problem with Windows 10 and 11",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 189
+    },
+    {
+      "id": "51xJdw30Lbg",
+      "title": "When to use Flatpak",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 157
+    },
+    {
+      "id": "5LnfaG-64sM",
+      "title": "Linux is Cooler than Windows?",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 233
+    },
+    {
+      "id": "6x0fCjajMoc",
+      "title": "Distros Do Matter | Titus Reacts",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 943
+    },
+    {
+      "id": "9xD5IAij3uA",
+      "title": "ArchTitus Rebirth",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 5809
+    },
+    {
+      "id": "A9aRO_rHdpM",
+      "title": "NFS setup in Windows... It's just BETTER!",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 2145
+    },
+    {
+      "id": "AkPceVXqU5s",
+      "title": "Microsoft Office 365 Keeps Getting WORSE!",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 304
+    },
+    {
+      "id": "AmVqENmVu8w",
+      "title": "Finalizing Hyprland Config and Eww Bar",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 4560
+    },
+    {
+      "id": "anibuEt1pzg",
+      "title": "Windows Server instead of LTSC",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 8996
+    },
+    {
+      "id": "ARINIdYXCVE",
+      "title": "Hyprland on Fedora Install",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 18631
+    },
+    {
+      "id": "AtdGMURlavs",
+      "title": "Install ANY Windows Version DIRECT",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 189
+    },
+    {
+      "id": "aWSQQUXmVVs",
+      "title": "Building the Most Stable Linux Distribution",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 18933
+    },
+    {
+      "id": "bNAWbg7t3OM",
+      "title": "Creating a Steam OS HTPC",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 5297
+    },
+    {
+      "id": "bZN3BZOYW_k",
+      "title": "XDG_DATA_DIR is the PROPER way to add Applications",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 81
+    },
+    {
+      "id": "CAiUE9ZXNNU",
+      "title": "The Problem with YouTube and Brodie",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 214
+    },
+    {
+      "id": "cXckRH-XiOg",
+      "title": "Making Arch Gaming Distro",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 5485
+    },
+    {
+      "id": "d3Ux1pSEKK8",
+      "title": "Do NOT Break Debian",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 246
+    },
+    {
+      "id": "d9DWyhhhITw",
+      "title": "The Problem with Polybar",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 94
+    },
+    {
+      "id": "dxex00ilpb4",
+      "title": "Windows S Mode",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 137
+    },
+    {
+      "id": "e-5MRPgbi3o",
+      "title": "The Linux Tier List Stream Deep Dive",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 8190
+    },
+    {
+      "id": "eBJmRJUM14Q",
+      "title": "The ANTI-Linux Article",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 442
+    },
+    {
+      "id": "ELXcZyVvElw",
+      "title": "Hyprland and DWM Configs",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 6282
+    },
+    {
+      "id": "et3uzpY0tJE",
+      "title": "Xorg is STILL my Daily Driver",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 75
+    },
+    {
+      "id": "eyF8PBK0Hp8",
+      "title": "Security and Privacy in Windows is a Joke",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 172
+    },
+    {
+      "id": "eZsRUfGep04",
+      "title": "Choosing a Career",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 114
+    },
+    {
+      "id": "fQZze3oL9ow",
+      "title": "Removing Edge is a Nightmare",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 8005
+    },
+    {
+      "id": "FsEiQ3SVn0E",
+      "title": "My Forever Distribution Configuration",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 15897
+    },
+    {
+      "id": "gzKYwGB6hbw",
+      "title": "How I Read the News",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 147
+    },
+    {
+      "id": "hKINo6mRaXg",
+      "title": "Fixing WinGet Install for good",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 4105
+    },
+    {
+      "id": "IGbE4fj4iOc",
+      "title": "Do you need Defender?",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 174
+    },
+    {
+      "id": "IPhbI3LWkTg",
+      "title": "How to Add Live Chat to Website in 10 Minutes (2023)",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 579
+    },
+    {
+      "id": "IRRtk320j2A",
+      "title": "NixOS Config - Autologin - Flatpak - Fonts - Polkit - Release Upgrade",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 4842
+    },
+    {
+      "id": "iyZB9I_9pGs",
+      "title": "Using All the Windows Versions",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 343
+    },
+    {
+      "id": "JXVle0nyA-o",
+      "title": "DWM - Setup, Config, Patch, and Customization",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 6918
+    },
+    {
+      "id": "k1RP_TCWeNU",
+      "title": "Pointless Distros",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 545
+    },
+    {
+      "id": "KYJOtLI63ww",
+      "title": "Drunk Arch Linux | Titus Reacts",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 1210
+    },
+    {
+      "id": "l7HvMM6rLNE",
+      "title": "NixOS NFS Mounting",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 520
+    },
+    {
+      "id": "LvhziGWq7RU",
+      "title": "Debian Configuration - The Base",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 4436
+    },
+    {
+      "id": "lXiUkqFnack",
+      "title": "DWM is SCARY!",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 230
+    },
+    {
+      "id": "mHXcOi7Jk4c",
+      "title": "Sabotaging the WAN Show",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 50
+    },
+    {
+      "id": "mz36C_72HrE",
+      "title": "Switching to LAZYVIM",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 762
+    },
+    {
+      "id": "n2rapAgippE",
+      "title": "Ubuntu BANS Flatpak",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 275
+    },
+    {
+      "id": "n8DuReUyBQ0",
+      "title": "Back to Arch",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 7165
+    },
+    {
+      "id": "NuPKijYukuQ",
+      "title": "NixOS is NOT for Beginners",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 296
+    },
+    {
+      "id": "oTyp7LUFSNM",
+      "title": "All Web Browsers are BAD",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 281
+    },
+    {
+      "id": "pagfXnqOyOE",
+      "title": "Microsoft Forces YOU to Use Edge",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 191
+    },
+    {
+      "id": "Pbjs03huJBY",
+      "title": "How I do Websites and Hosting",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 827
+    },
+    {
+      "id": "PnctXmW_ADw",
+      "title": "The Starfield Arch Linux Failure",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 8841
+    },
+    {
+      "id": "qb9fL7ztSpQ",
+      "title": "Mac VMs and PCI Passthrough for All",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 295
+    },
+    {
+      "id": "QYlf30rf6_0",
+      "title": "Linux Gaming Woes",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 3399
+    },
+    {
+      "id": "sfl5cv_oFXI",
+      "title": "The Microsoft Takeover",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 422
+    },
+    {
+      "id": "sp6LpNrnqTU",
+      "title": "Linux vs FreeBSD",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 181
+    },
+    {
+      "id": "sPD8dBEyZWU",
+      "title": "Thoughts on Windows 12, Windows 7 Dangers, and Updates",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 243
+    },
+    {
+      "id": "svePUx3isUM",
+      "title": "Debian 12 Install Curse",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 6350
+    },
+    {
+      "id": "t9e3NvTnCOA",
+      "title": "You Only NEED 3 Linux Distributions",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 372
+    },
+    {
+      "id": "U8gbR-VHoDY",
+      "title": "The Truth about Switching to Linux",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 379
+    },
+    {
+      "id": "UGqBZwPIOqc",
+      "title": "Recovering a DELETED Windows Boot Partition",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 1246
+    },
+    {
+      "id": "UH6v3uPVQ3w",
+      "title": "The Linux Rabbit Hole",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 324
+    },
+    {
+      "id": "UkxMYO4gRdM",
+      "title": "Creating an Optimized Windows 11",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 2365
+    },
+    {
+      "id": "UmXNI9PcxDI",
+      "title": "Alpine Linux - Simple, Small, and Secure",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 736
+    },
+    {
+      "id": "uzBzT-VFi2o",
+      "title": "My Experience with 3CX",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 345
+    },
+    {
+      "id": "vC5YyTQXKI0",
+      "title": "Fedora Grub Configuration is INSANE!",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 2123
+    },
+    {
+      "id": "VJuwMzg44QQ",
+      "title": "Microsoft is putting more Ads into Windows",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 153
+    },
+    {
+      "id": "wpS3qIprHL0",
+      "title": "NixOS Gaming Setup and Comparison",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 3798
+    },
+    {
+      "id": "ww3sfU-aARo",
+      "title": "Security and Linux",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 310
+    },
+    {
+      "id": "wY5vpUajM3k",
+      "title": "Microsoft Helps Linux Adoption",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 380
+    },
+    {
+      "id": "xPvN6U6Hmgg",
+      "title": "Disabling ipv6 in 2023",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 80
+    },
+    {
+      "id": "XYPs48JECfs",
+      "title": "Do NOT use Restore Points",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 116
+    },
+    {
+      "id": "YBH-m5bnmFw",
+      "title": "What Makes the PERFECT System?",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 3767
+    },
+    {
+      "id": "Ydk2rQmu_Zo",
+      "title": "The Linux Drama",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 690
+    },
+    {
+      "id": "YHbk0gOb408",
+      "title": "Arch is NOT as Stable as Debian",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 351
+    },
+    {
+      "id": "ZBwKapuVuWg",
+      "title": "Virtualization Setup for RHEL - Rocky - Fedora",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 476
+    },
+    {
+      "id": "ZegoL4r_1w4",
+      "title": "GNU Linux is a Terrible Name | Titus Reacts",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 369
+    },
+    {
+      "id": "ZJ0We-FOc7A",
+      "title": "Why I Use Both Windows and Linux",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 128
+    },
+    {
+      "id": "zln7ulbkc_w",
+      "title": "Debian Configuration - Autostart - XSessions - Backgrounds",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 4561
+    },
+    {
+      "id": "ZR_Kjg9GIBM",
+      "title": "How I Take Notes in 2023",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 302
+    },
+    {
+      "id": "zYJKG0i_pV8",
+      "title": "What Makes a Distro Different",
+      "date": "2023-09-24",
+      "approximateDate": true,
+      "duration": 3405
+    },
+    {
+      "id": "Fa9-rU83KGU",
+      "title": "A New Linux Experience",
+      "date": "2022-09-24",
+      "approximateDate": true,
+      "duration": 776
+    },
+    {
+      "id": "gmNcGxNPljA",
+      "title": "Why some Linux users do NOT want new users",
+      "date": "2022-09-24",
+      "approximateDate": true,
+      "duration": 675
+    },
+    {
+      "id": "MCyXCAPfEcM",
+      "title": "What operating system do you use and why?",
+      "date": "2022-09-24",
+      "approximateDate": true,
+      "duration": 536
+    },
+    {
+      "id": "mXohMh9vcgc",
+      "title": "The Coming PC Gaming War",
+      "date": "2022-09-24",
+      "approximateDate": true,
+      "duration": 423
+    },
+    {
+      "id": "w3HLuUuM7rc",
+      "title": "There will NEVER be the Year of the Linux Desktop and that's ok...",
+      "date": "2022-09-24",
+      "approximateDate": true,
+      "duration": 485
+    },
+    {
+      "id": "ZKFX06Un0is",
+      "title": "Linux is King and a Monopoly",
+      "date": "2022-09-24",
+      "approximateDate": true,
+      "duration": 579
+    },
+    {
+      "id": "0TE89QZLlEo",
+      "title": "WSL is Good for Linux and The Journey Many Linux Users Take",
+      "date": "2021-09-24",
+      "approximateDate": true,
+      "duration": 704
+    },
+    {
+      "id": "BlNTDM9knjY",
+      "title": "RedHat is the Devil",
+      "date": "2021-09-24",
+      "approximateDate": true,
+      "duration": 580
+    },
+    {
+      "id": "CklTAx9ctcM",
+      "title": "Direct Connect 10G Synology NAS to Mac",
+      "date": "2021-09-24",
+      "approximateDate": true,
+      "duration": 527
+    },
+    {
+      "id": "gEi3aEVUTC8",
+      "title": "NTFS in Linux 5.15 | What it Means for Linux",
+      "date": "2021-09-24",
+      "approximateDate": true,
+      "duration": 364
+    },
+    {
+      "id": "h3kcgIff1Ho",
+      "title": "Microsoft just BROKE Windows 11",
+      "date": "2021-09-24",
+      "approximateDate": true,
+      "duration": 273
+    },
+    {
+      "id": "iADaZX8dQk4",
+      "title": "What Operating System is the Best",
+      "date": "2021-09-24",
+      "approximateDate": true,
+      "duration": 964
+    },
+    {
+      "id": "KgkW-68DuSw",
+      "title": "Microsoft just added a feature no one asked for",
+      "date": "2021-09-24",
+      "approximateDate": true,
+      "duration": 231
+    },
+    {
+      "id": "l2HGb8W-FSc",
+      "title": "Why Youtubers Quit",
+      "date": "2021-09-24",
+      "approximateDate": true,
+      "duration": 710
+    },
+    {
+      "id": "P6CS5_CHy8s",
+      "title": "3CX Self-Hosted Installation Video",
+      "date": "2021-09-24",
+      "approximateDate": true,
+      "duration": 1530
+    },
+    {
+      "id": "Qh-Q-8wpIIM",
+      "title": "VPNs are a JOKE now",
+      "date": "2021-09-24",
+      "approximateDate": true,
+      "duration": 601
+    },
+    {
+      "id": "qxX9thbMU1o",
+      "title": "The Security and Privacy Guide",
+      "date": "2021-09-24",
+      "approximateDate": true,
+      "duration": 1387
+    },
+    {
+      "id": "UOGZYfLDVfU",
+      "title": "The Death of the Desktop PC",
+      "date": "2021-09-24",
+      "approximateDate": true,
+      "duration": 500
+    },
+    {
+      "id": "WqNmMugI2rE",
+      "title": "Why I stopped talking about Linux so much",
+      "date": "2021-09-24",
+      "approximateDate": true,
+      "duration": 431
+    },
+    {
+      "id": "ysCD2u80niM",
+      "title": "The Pros and Cons of Linux in Windows",
+      "date": "2021-09-24",
+      "approximateDate": true,
+      "duration": 648
+    },
+    {
+      "id": "681PKE4EPkE",
+      "title": "Custom Windows 10 Build - Strictly for Gaming",
+      "date": "2020-09-24",
+      "approximateDate": true,
+      "duration": 13098
+    },
+    {
+      "id": "bq1HV3Finyg",
+      "title": "Ubuntu Server + GUI | Building the Distribution We Want",
+      "date": "2020-09-24",
+      "approximateDate": true,
+      "duration": 11844
+    },
+    {
+      "id": "fLMOz7qvaY8",
+      "title": "Linux Debian Install Epic Fail",
+      "date": "2020-09-24",
+      "approximateDate": true,
+      "duration": 664
+    },
+    {
+      "id": "JWC649Ls7Is",
+      "title": "How to Fix Slow Linux Boot Times",
+      "date": "2020-09-24",
+      "approximateDate": true,
+      "duration": 546
+    },
+    {
+      "id": "pn9E5ye2EAk",
+      "title": "How to Fix Settings are Managed by your Organization Error",
+      "date": "2020-09-24",
+      "approximateDate": true,
+      "duration": 348
+    },
+    {
+      "id": "pZcbHdBs_TE",
+      "title": "Creating Your Own Linux Distribution",
+      "date": "2020-09-24",
+      "approximateDate": true,
+      "duration": 1242
+    },
+    {
+      "id": "uhwYqvdQwyY",
+      "title": "Install Any DEB package on Linux",
+      "date": "2020-09-24",
+      "approximateDate": true,
+      "duration": 216
+    },
+    {
+      "id": "uonXldePGT0",
+      "title": "Installing Tiling Windows on GNOME in Linux",
+      "date": "2020-09-24",
+      "approximateDate": true,
+      "duration": 667
+    },
+    {
+      "id": "yNDAEBH-YzU",
+      "title": "How to Fix Display Issues in Linux",
+      "date": "2020-09-24",
+      "approximateDate": true,
+      "duration": 735
+    }
+  ]
+}
