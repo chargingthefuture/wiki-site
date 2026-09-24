@@ -208,12 +208,14 @@ the same commit — `content/`, the paste sheet, and the archive index — or th
 A file that disables and never re-enables is itself a failure, so a region cannot quietly swallow
 the rest of a file.
 
-`content/youtube/` is exempt as a directory (2026-09-23). Every title in a collected channel archive
-is the channel's own wording, captured by the collection workflow and never edited here, so the
-archived-title rule applies and nothing in it is respelled. The files are JSON, which has nowhere
-to put the disable/enable markers, and the workflow that writes them cannot wrap each hit by hand.
-The first collected channel after the gate went in carried a video called "My Favourite …" and
-turned the one open PR red until this exemption existed.
+`content/youtube/` is exempt as a directory (owner directive, 2026-09-23). Every title in a
+collected channel archive is another person's words, captured by the collection workflow, and
+quoted words are never respelled here — the same rule as quoting somebody's Quora post verbatim. A
+channel outside the US that writes "Favourite" has spelled its own title correctly; this gate is
+about the blog's own writing, not theirs. The files are JSON, which has nowhere to put the
+disable/enable markers, and the workflow that writes them cannot wrap each hit by hand. The second
+collected channel carried exactly such a title and turned the one open PR red until this exemption
+existed.
 
 ## Git Branch and PR Naming (always apply)
 
