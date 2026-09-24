@@ -18,6 +18,10 @@ artifacts/wiki/public/feed.xml
 artifacts/wiki/public/invites.json
 artifacts/wiki/public/pb2-messages.json
 
+# One feed per archived YouTube channel, rendered by `pnpm wiki:youtube` from the
+# committed archives in content/youtube/. Build output; the archive is the source.
+artifacts/wiki/public/feeds/youtube/
+
 # Local counter database from `pnpm counter:dev`. The real one lives on the
 # service's volume and is never in the repository.
 counter.sqlite
