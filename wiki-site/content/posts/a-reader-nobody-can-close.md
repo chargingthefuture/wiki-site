@@ -29,7 +29,7 @@ The second is for people who would rather not install or configure anything. I n
 https://rss.chargingthefuture.com
 ```
 
-You sign in with the Skills Economy account you already have. This blog is in it already — that one feed, the address above, so the first screen is not empty. It is the only thing put there, and you can remove it. Everything else you read, you add yourself.
+You sign in with the Skills Economy account you already have. Two feeds are in it already, so the first screen is not empty: this blog, at the address above, and my own channel of demo videos of the app. Those two are the only things put there, and you can remove either. Everything else you read, you add yourself.
 
 What each person subscribes to is theirs. There is no shared list, no comments, no way for one account to see another, and nothing any account does is visible to anybody else on it. It is a private reading list that happens to live on my machine rather than yours.
 
