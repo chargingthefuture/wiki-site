@@ -44,18 +44,6 @@ const EXEMPT_FILES = new Set([
   'wiki-site/COPY_EDIT_REVIEW.md',
 ]);
 
-// Whole directories of other people's words, matched by path prefix. Unlike EXEMPT_FILES these
-// grow on their own, so listing files would mean a gate that goes red every time a workflow adds one.
-const EXEMPT_PREFIXES = [
-  // Collected YouTube channel archives. Every title in them is another person's words, captured by
-  // the collection workflow, and quoted words are never respelled here — the same rule as quoting
-  // somebody's Quora post verbatim. A channel outside the US writing "Favourite" has spelled its
-  // own title correctly, and this gate is about the blog's own writing, not theirs (owner
-  // directive, 2026-09-23). The files are JSON, so the disable/enable markers the archive uses
-  // have nowhere to go, and a workflow cannot wrap each hit by hand anyway.
-  'wiki-site/content/youtube/',
-];
-
 const SKIP_DIRS = new Set([
   'node_modules',
   'dist',
@@ -93,7 +81,7 @@ function hasCheckedExtension(path) {
 }
 
 function isExempt(path) {
-  return EXEMPT_FILES.has(path) || EXEMPT_PREFIXES.some((prefix) => path.startsWith(prefix));
+  return EXEMPT_FILES.has(path);
 }
 
 const findings = [];
