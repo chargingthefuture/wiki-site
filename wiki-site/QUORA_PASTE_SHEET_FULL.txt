@@ -60,7 +60,7 @@ The search results are not neutral. A share of what comes back was put where I w
 
 Find a channel worth following and it got worse. Open the channel page, sort oldest to newest, scroll past everything after the date by hand, and then watch each video on a page built to put other things in front of me — a column of recommendations down the side, comments underneath — with the material I went there to avoid spread across all of it.
 
-Now it is set once, per feed, and I do nothing. This is my sidebar:
+Now I read all of it in the reader instead. The cutoff date is set once for each feed, and after that I do nothing. This is my sidebar in the reader:
 
 [Screenshot — The reader's sidebar. At the top, a Subscription management button with a plus beside it. Then Main stream with 60 unread, Important feeds, and a favorites row showing 0. A category named Psyop free with 50 unread holds one feed, Charging The Future, 50 unread. A category named Tech with 237 unread holds one feed, christitustechnical (archive), 237 unread. Below that, Uncategorized with 10.]
 
