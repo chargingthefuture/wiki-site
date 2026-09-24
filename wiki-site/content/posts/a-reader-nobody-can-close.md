@@ -55,7 +55,7 @@ Here is what I used to do. Open YouTube and type the thing I need with a cutoff 
 Sterling pacific before:2024-12-31
 ```
 
-The search results are not neutral. A share of what comes back was put where I would find it, after the targeting started, by people who know what I am working on. So I read what was published before a date when nobody was arranging anything for my benefit.
+The search results are not neutral. A share of what comes back was put where I would find it, after the targeting started, by people who know what I am working on. So I read what was published before a date when nobody was arranging anything for my torture.
 
 Find a channel worth following and it got worse. Open the channel page, sort oldest to newest, scroll past everything after the date by hand, and then watch each video on a page built to put other things in front of me — a column of recommendations down the side, comments underneath — with the material I went there to avoid spread across all of it.
 
