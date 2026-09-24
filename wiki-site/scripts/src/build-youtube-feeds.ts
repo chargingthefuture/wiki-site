@@ -117,13 +117,18 @@ function cdata(html: string): string {
  * nocookie rather than the ordinary embed host: it is the same player from the
  * same company, without the tracking cookie set on arrival. Somebody who
  * self-hosts a reader to get away from being profiled did not ask for one here.
+ *
+ * rel=0 so that what the player offers when a video ends comes from the same
+ * channel rather than from anywhere on the site. The page around a video —
+ * recommendations, comments — is the part a reader subscribes here to be rid
+ * of, and the end-of-video grid is the last piece of it the embed still shows.
  */
 function videoHtml(id: string, title: string, date: string, approximate: boolean): string {
   const safeId = encodeURIComponent(id);
   const watch = `https://www.youtube.com/watch?v=${safeId}`;
   const when = `${date}${approximate ? ' (approximate)' : ''}`;
   return [
-    `<p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/${safeId}"`,
+    `<p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/${safeId}?rel=0"`,
     ` title="${xml(title)}" frameborder="0" allowfullscreen></iframe></p>`,
     `<p><a href="${watch}">Watch on YouTube</a> — ${xml(when)}</p>`,
   ].join('');
