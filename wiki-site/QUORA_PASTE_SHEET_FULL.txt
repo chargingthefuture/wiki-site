@@ -93,11 +93,11 @@ YouTube channels, where that filter has nothing to bite on
 
 A YouTube channel does publish a feed, and it carries only the newest videos. So a cutoff finds nothing to work with: what you wanted was never delivered in the first place, and no filter reaches what never arrived.
 
-The way around it is to collect the channel's upload list once and publish that as a feed of its own. I have the machinery for it, and the first channel is done — the 237 in the sidebar above are its catalog. A collected feed carries the catalog rather than the last fortnight, so the cutoff above does what you asked it to. Set the filter when you add one of these: a collected channel delivers its entire catalog on the first fetch, and the filter is what decides which half of it lands unread.
+The way around it is to collect the channel's upload list once and publish that as a feed of its own. I have the machinery for it, and the first channel is done — the 237 in the sidebar above are its catalog. A collected feed carries the catalog rather than the last fortnight, and there are two ways to keep it to your date. The first is the filter above, set on that feed when you add it: a collected channel delivers its entire catalog on the first fetch, and the filter is what decides which half of it lands unread. The second is to have the feed cut at your date before it is published, so nothing after it ever reaches the reader and that feed needs no filter at all. Mine are cut that way.
 
 Each entry carries the player, so the video plays inside the reader. No comments, no column of recommendations, nothing from elsewhere on the site; what it offers when a video ends comes from the same channel. The page around the video was most of what I was enduring, and it is gone.
 
-If you want a channel collected, book me on Foundation (https://app.chargingthefuture.com/apps/foundation) and put the channel address in the request. I run it and send you the feed address to paste in. It is a task like any other on there, which means it is recorded and settled the way the rest of them are.
+If you want a channel collected, book me on Foundation (https://app.chargingthefuture.com/apps/foundation) and put the channel address in the request. If you want the feed cut at your date rather than filtered by you, say so and give the date. I run it and send you the feed address to paste in. It is a task like any other on there, which means it is recorded and settled the way the rest of them are.
 
 One caveat, said plainly: the upload dates on a collected channel are worked out from labels like "2 years ago", so they are close rather than exact. Leave a month or two of margin either side of a cutoff that matters.
 
