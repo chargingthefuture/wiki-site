@@ -20,8 +20,19 @@
  * later approximate one — so a pass that has exact dates can only improve the
  * archive, never degrade it.
  *
+ * Cutoff. A channel can carry a date, and the published feed then stops there:
+ * videos dated on or after it are collected into the archive as always but never
+ * written into the feed, so nothing after that date reaches a reader at all.
+ * That is the arrangement the archive exists for — reading a channel only up to
+ * a date you trust — done in the feed rather than left to a filter in a reader,
+ * which can only hide what has already arrived. The date is kept on refresh; to
+ * change it, run again with the channel and the new date (owner decision,
+ * 2026-09-23: the collected channels are the owner's own reading, so the date is
+ * theirs).
+ *
  * Usage:
  *   pnpm --filter @workspace/scripts run collect-youtube-archive -- --channel @SomeChannel
+ *   pnpm --filter @workspace/scripts run collect-youtube-archive -- --channel @SomeChannel --cutoff 2024-12-31
  *   pnpm --filter @workspace/scripts run collect-youtube-archive          # refresh every archive
  *
  * Requires yt-dlp on PATH.
@@ -49,6 +60,8 @@ type Archive = {
   name: string;
   channelUrl: string;
   collectedAt?: string;
+  /** YYYY-MM-DD. Videos dated on or after this are kept in the archive but left out of the feed. */
+  cutoff?: string;
   videos: Video[];
 };
 
@@ -144,7 +157,7 @@ function merge(existing: Video[], found: Video[]): { videos: Video[]; added: num
   return { videos, added };
 }
 
-function refresh(channelUrl: string, slug: string, existing: Archive | null): void {
+function refresh(channelUrl: string, slug: string, existing: Archive | null, cutoff?: string): void {
   const found = collect(channelUrl);
   if (found.videos.length === 0) {
     throw new Error(
@@ -158,6 +171,9 @@ function refresh(channelUrl: string, slug: string, existing: Archive | null): vo
     name: existing?.name || found.name || slug,
     channelUrl: channelUrl.replace(/\/videos$/i, ''),
     collectedAt: new Date().toISOString().slice(0, 10),
+    // A date given now wins; otherwise the one already recorded stays. Absent from the file when
+    // there is none, rather than written as null.
+    ...(cutoff ?? existing?.cutoff ? { cutoff: cutoff ?? existing?.cutoff } : {}),
     videos,
   };
   mkdirSync(ARCHIVE_DIR, { recursive: true });
@@ -173,12 +189,22 @@ function main(): void {
   const args = process.argv.slice(2);
   const index = args.indexOf('--channel');
   const channel = index >= 0 ? args[index + 1] : undefined;
+  const cutoffIndex = args.indexOf('--cutoff');
+  const cutoff = cutoffIndex >= 0 ? args[cutoffIndex + 1] : undefined;
+  if (cutoff !== undefined) {
+    if (channel === undefined || channel === '') {
+      throw new Error('--cutoff names a date for one channel, so it needs --channel beside it.');
+    }
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(cutoff) || Number.isNaN(Date.parse(`${cutoff}T12:00:00Z`))) {
+      throw new Error(`--cutoff must be a real date written YYYY-MM-DD, not "${cutoff}".`);
+    }
+  }
 
   if (channel !== undefined && channel !== '') {
     const channelUrl = uploadsUrl(channel);
     const slug = slugFor(channelUrl);
     const path = join(ARCHIVE_DIR, `${slug}.json`);
-    refresh(channelUrl, slug, existsSync(path) ? readArchive(path) : null);
+    refresh(channelUrl, slug, existsSync(path) ? readArchive(path) : null, cutoff);
     return;
   }
 

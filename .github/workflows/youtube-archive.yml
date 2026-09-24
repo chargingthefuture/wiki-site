@@ -15,6 +15,12 @@ name: YouTube — Collect a channel's uploads
 # channel already collected. Newly found videos are added; an entry already in
 # the archive is left exactly as it is.
 #
+# A channel can carry a cutoff date. The archive still collects everything, but
+# the feed stops at that date: videos dated on or after it are never written
+# into it, so nothing after the date reaches a reader at all. A filter inside a
+# reader can only hide what has already arrived. The date is kept on refresh;
+# give the channel and a new date to change it.
+#
 # No API key. yt-dlp reads the channel's list as metadata — it never touches a
 # video. The cost is that dates come from relative labels ("2 years ago") and
 # are approximate, so an entry near a cutoff can fall on the wrong side of it;
@@ -29,6 +35,10 @@ on:
     inputs:
       channel:
         description: 'Channel to add or refresh — @handle or full address. Leave empty to refresh every channel already collected.'
+        required: false
+        type: string
+      cutoff:
+        description: 'Optional, with a channel: YYYY-MM-DD. The feed then stops there — videos dated on or after it are left out. Kept on later refreshes.'
         required: false
         type: string
   schedule:
@@ -69,8 +79,15 @@ jobs:
       - name: Collect
         env:
           CHANNEL: ${{ inputs.channel }}
+          CUTOFF: ${{ inputs.cutoff }}
         run: |
-          if [ -n "$CHANNEL" ]; then
+          if [ -n "$CUTOFF" ] && [ -z "$CHANNEL" ]; then
+            echo "::error title=Cutoff needs a channel::A cutoff names a date for one channel. Give the channel beside it."
+            exit 1
+          fi
+          if [ -n "$CHANNEL" ] && [ -n "$CUTOFF" ]; then
+            pnpm --filter @workspace/scripts run collect-youtube-archive -- --channel "$CHANNEL" --cutoff "$CUTOFF"
+          elif [ -n "$CHANNEL" ]; then
             pnpm --filter @workspace/scripts run collect-youtube-archive -- --channel "$CHANNEL"
           else
             pnpm --filter @workspace/scripts run collect-youtube-archive
@@ -122,10 +139,15 @@ jobs:
               [ -e "$file" ] || continue
               slug=$(basename "$file" .json)
               count=$(node -e "process.stdout.write(String(JSON.parse(require('fs').readFileSync('$file','utf8')).videos.length))")
-              echo "- \`$slug\` — $count videos — https://chargingthefuture.github.io/chargingthefuture/feeds/youtube/$slug.xml"
+              cutoff=$(node -e "process.stdout.write(String(JSON.parse(require('fs').readFileSync('$file','utf8')).cutoff || ''))")
+              if [ -n "$cutoff" ]; then
+                echo "- \`$slug\` — $count videos collected, feed cut before $cutoff — https://chargingthefuture.github.io/chargingthefuture/feeds/youtube/$slug.xml"
+              else
+                echo "- \`$slug\` — $count videos — https://chargingthefuture.github.io/chargingthefuture/feeds/youtube/$slug.xml"
+              fi
             done
             echo ""
-            echo "Subscribe to one of those in the reader, then filter with \`pubdate:/2024-12-31\`."
+            echo "Subscribe to one of those in the reader. A feed with a cutoff needs no filter; one without takes \`pubdate:/2024-12-31\` in the search box."
             echo ""
             echo "Dates are approximate — read from relative labels on the channel page — so leave a month or two of margin around a cutoff."
           } | tee -a "$GITHUB_STEP_SUMMARY"

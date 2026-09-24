@@ -113,7 +113,15 @@ carries it, because the owner froze that page outright and that freeze has not b
   rebuilt, and a run that comes back empty writes nothing. Without a key the upload date comes from
   a relative label on the page and is approximate, so an entry near a date cutoff can fall on the
   wrong side; every such entry is marked, the feed's description says so, and an existing date is
-  never overwritten by a later approximate one.
+  never overwritten by a later approximate one. An archive can carry a `cutoff` (YYYY-MM-DD, the
+  workflow's optional input beside the channel): everything is still collected, but the feed stops
+  there — videos dated on or after it are never written into it, so nothing after the date reaches
+  a reader at all. A filter inside a reader can only hide what has already arrived, and a purge
+  there brings the catalog straight back on the next fetch, so the feed is the one place a removal
+  holds. The collected channels are the owner's own reading and the date is theirs (owner decision,
+  2026-09-23); members get only the blog and the owner's demo-video channel by default, and a
+  channel collected for somebody else through Foundation carries that person's date, stated
+  explicitly. The feed's description says it is cut and where.
 - Share messages for Peace Battle 2: `artifacts/wiki/public/pb2-messages.json`, one ready-to-paste
   post per member-facing part of the app, written by `scripts/src/build-pb2-messages.ts` on
   `wiki:pb2` from the hand-written `content/pb2-share-messages.yaml`. Build output like the feed:

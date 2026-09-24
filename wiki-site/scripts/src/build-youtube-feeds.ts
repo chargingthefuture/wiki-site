@@ -14,6 +14,16 @@
  * subscribing here receives the catalog and filters it by date on its own side
  * (`pubdate:/2024-12-31` in FreshRSS), which is the arrangement that was wanted.
  *
+ * On the cutoff. An archive can carry a date, and the feed then stops there:
+ * videos dated on or after it stay in the archive but are never written into
+ * the feed, so nothing after that date reaches a reader at all. A filter inside
+ * a reader can only hide what has already arrived, and the collected feed
+ * carries the full catalog forever, so purging inside the reader brings the
+ * same videos straight back on the next fetch. Leaving them out of the feed is
+ * the only removal that holds. The collected channels are the owner's own
+ * reading and the date is theirs (owner decision, 2026-09-23); the feed says
+ * plainly that it is cut and where.
+ *
  * On dates. Collected without a YouTube API key, an upload date comes from a
  * relative label on the channel page — "2 years ago" — so it is approximate and
  * an entry near a date boundary can fall on the wrong side of it. Each entry
@@ -51,6 +61,8 @@ type Archive = {
   name: string;
   channelUrl: string;
   collectedAt?: string;
+  /** YYYY-MM-DD. Videos dated on or after this are left out of the feed on purpose. */
+  cutoff?: string;
   videos: Video[];
 };
 
@@ -129,17 +141,29 @@ function videoHtml(id: string, title: string, date: string, approximate: boolean
   ].join('');
 }
 
+/** What the feed carries: everything, or everything dated before the archive's cutoff. */
+function published(archive: Archive): Video[] {
+  const cutoff = archive.cutoff;
+  if (!cutoff) return archive.videos;
+  // Dates are YYYY-MM-DD, so a string comparison is a date comparison.
+  return archive.videos.filter((video) => video.date < cutoff);
+}
+
 function feedFor(archive: Archive): string {
-  const anyApproximate = archive.videos.some((video) => video.approximateDate);
+  const videos = published(archive);
+  const anyApproximate = videos.some((video) => video.approximateDate);
   const description =
-    `Every upload collected from ${archive.name}, oldest kept alongside newest, so a reader can ` +
-    `filter by date.` +
+    (archive.cutoff
+      ? `Uploads collected from ${archive.name} and dated before ${archive.cutoff}, oldest kept ` +
+        `alongside newest. Videos dated on or after ${archive.cutoff} are left out on purpose.`
+      : `Every upload collected from ${archive.name}, oldest kept alongside newest, so a reader can ` +
+        `filter by date.`) +
     (anyApproximate
       ? ' Dates are approximate: they were read from relative labels on the channel page, so an' +
         ' entry near a cutoff may fall on the wrong side of it.'
       : '');
 
-  const items = archive.videos
+  const items = videos
     .slice()
     .sort((a, b) => (b.date.localeCompare(a.date) !== 0 ? b.date.localeCompare(a.date) : a.id.localeCompare(b.id)))
     .map((video) => {
@@ -189,7 +213,9 @@ function main() {
   for (const archive of archives) {
     const out = join(OUT_DIR, `${archive.slug}.xml`);
     writeFileSync(out, feedFor(archive), 'utf8');
-    console.log(`✓ ${archive.videos.length} videos → ${relative(BLOG_ROOT, out)}`);
+    const kept = published(archive).length;
+    const cut = archive.cutoff ? ` (${archive.videos.length - kept} dated on or after ${archive.cutoff} left out)` : '';
+    console.log(`✓ ${kept} videos${cut} → ${relative(BLOG_ROOT, out)}`);
   }
 }
 
