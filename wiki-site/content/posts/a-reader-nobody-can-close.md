@@ -134,7 +134,7 @@ The reader I host is a convenience on top of that, and it is mine to lose. The a
 
 ## Where to find it in the app
 
-- [Reader](https://app.chargingthefuture.com/apps/reader)
+- [Reader](https://app.chargingthefuture.com/apps/reader) — [guide](https://app.chargingthefuture.com/guide#reader)
 - [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
 - [Unlock](https://app.chargingthefuture.com/plugin/unlock) — [guide](https://app.chargingthefuture.com/guide#unlock)
 
