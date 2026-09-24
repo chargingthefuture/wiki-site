@@ -45,7 +45,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/a-reader-nobody-can-close.md",
-    "teaser": "The feed you read on a platform is arranged by somebody else, and what it puts in front of you is a decision you did not make. A reader takes that away: it fetches the same posts the site publishes, in the order they were written, and nothing ranks them. Reading this blog that way needs no account anywhere — any reader app and one address. For people who would rather not run one, there is now one I host: sign in with your Skills Economy account, and the feeds are yours alone, invisible to every other person on it. What it costs, and what gets a place on it withdrawn, is written below rather than left to be discovered.",
+    "teaser": "The feed you read on a platform is arranged by somebody else, and what it puts in front of you is a decision you did not make. A reader takes that away: it fetches the same posts the site publishes, in the order they were written, and nothing ranks them. Reading this blog that way needs no account anywhere — any reader app and one address. For people who would rather not run one, there is now one I host: sign in with your Skills Economy account, and the feeds are yours alone, invisible to every other person on it. Below is what it costs and when a place on it can be withdrawn, written down now rather than left for you to discover.",
     "topics": [
       "platform-independence",
       "publishing"
