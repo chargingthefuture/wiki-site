@@ -29,13 +29,63 @@ The second is for people who would rather not install or configure anything. I n
 https://rss.chargingthefuture.com
 ```
 
-You sign in with the Skills Economy account you already have, add this blog with the feed address above, and add whatever else you read. Nothing is subscribed for you. A reader that arrives with somebody else's choices already in it is the thing this post is about.
+You sign in with the Skills Economy account you already have. This blog is in it already — that one feed, the address above, so the first screen is not empty. It is the only thing put there, and you can remove it. Everything else you read, you add yourself.
 
 What each person subscribes to is theirs. There is no shared list, no comments, no way for one account to see another, and nothing any account does is visible to anybody else on it. It is a private reading list that happens to live on my machine rather than yours.
 
+## Adding anything else you read
+
+Most sites publish a feed and most people have never had a reason to look for one. Three steps:
+
+1. Copy the address of the site you want. The ordinary address is usually enough — the reader looks for the feed itself.
+2. Press the `+` beside "Subscriptions management".
+3. Paste the address into the "Feed URL" field and submit.
+
+If the reader comes back saying it found nothing, the site either publishes no feed or hides it. Look on the page for a link marked RSS; that address is the one to paste.
+
+Categories are optional. A feed you do not file lands in "Uncategorized" and works the same.
+
+## Reading only what came before a date you choose
+
+This is the part I use most and it is the reason I wanted a reader at all.
+
+Search a video site for something I need and the results are not neutral. A share of what comes back was put where I would find it, after the targeting started, by people who know what I am working on. So I search with a cutoff and read what was published before that date, when nobody was arranging anything for my benefit.
+
+The reader does the same thing in its search box:
+
+```
+pubdate:/2024-12-31
+```
+
+Everything published before December 31, 2024. Turn it around for the other direction:
+
+```
+pubdate:2024-12-31/
+```
+
+Pick your own date — the one before which you are confident nobody was writing at you.
+
+Then save it so you never type it again. FreshRSS calls a saved search a user query:
+
+1. Type the search and run it.
+2. Open the drop-down beside the read and favorite buttons in the header.
+3. Press the bookmark action and give it a name.
+
+It sits in that menu afterward and one press applies it. Only the search is stored, never a fixed set of articles, so it re-runs against whatever has arrived since.
+
+## YouTube channels, where that filter has nothing to bite on
+
+A YouTube channel does publish a feed, and it carries only the newest videos. So a cutoff finds nothing to work with: what you wanted was never delivered in the first place, and no filter reaches what never arrived.
+
+The way around it is to collect the channel's upload list once and publish that as a feed of its own. I have the machinery for it, and the first channel is done. A collected feed carries the catalog rather than the last fortnight, so the cutoff above does what you asked it to.
+
+If you want a channel collected, book me on [Foundation](https://app.chargingthefuture.com/apps/foundation) and put the channel address in the request. I run it and send you the feed address to paste in. It is a task like any other on there, which means it is recorded and settled the way the rest of them are.
+
+One caveat, said plainly: the upload dates on a collected channel are worked out from labels like "2 years ago", so they are close rather than exact. Leave a month or two of margin either side of a cutoff that matters.
+
 ## What it does not do
 
-It cannot reach back before you start. A feed carries only its most recent items, so what you get on day one is what is sitting in each feed that day, and everything after that accumulates. Nothing older was ever in anything my server saw, so no filter reaches it.
+It cannot reach back before you start. A feed carries only its most recent items, so what you get on day one is what is sitting in each feed that day, and everything after that accumulates. Nothing older was ever in anything my server saw, so no filter reaches it. The exception is a YouTube channel I have collected, above, where the catalog is put into the feed on purpose.
 
 That matters less here than it sounds. Every post on this blog is on this blog, and the archive of what was posted elsewhere is here too. The reader is for going forward.
 
@@ -63,6 +113,7 @@ The reader I host is a convenience on top of that, and it is mine to lose. The a
 
 ## Where to find it in the app
 
+- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
 - [Unlock](https://app.chargingthefuture.com/plugin/unlock) — [guide](https://app.chargingthefuture.com/guide#unlock)
 
 To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
