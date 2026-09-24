@@ -82,7 +82,11 @@ carries it, because the owner froze that page outright and that freeze has not b
 - Distribution posture: platforms (Quora etc.) receive excerpt + image + canonical link only; nothing is authored there. See `wiki-site/PUBLISHING.md`.
 - RSS: `artifacts/wiki/public/feed.xml`, generated from the same front matter `wiki:sync` reads, by
   `scripts/src/build-feed.ts`. Newest 50 listed items across every collection, matching the site's
-  own `/feed` page. It is build output, not source — gitignored, written by `wiki:build` and
+  own `/feed` page. Each item carries the post itself in `content:encoded`, not a teaser — a feed
+  that carried only the opening paragraph would send every subscriber to the site to read the rest,
+  which is the arrangement a reader exists to end. Image addresses are rewritten to the repository's
+  raw file addresses, because the site's own image URLs are hashed at build and a relative address
+  in a feed resolves against whatever is reading it. It is build output, not source — gitignored, written by `wiki:build` and
   `wiki:build:pages`, so it cannot fall behind the posts. Never hand-edit it; edit the post. The
   page carries an autodiscovery link in `index.html` so a reader given the site address finds the
   feed without anybody copying an XML address, and a "Follow by RSS" row sits in the footer.
