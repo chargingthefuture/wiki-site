@@ -79,7 +79,11 @@ jobs:
       - name: Commit what changed
         id: commit
         run: |
-          if git diff --quiet -- content/youtube; then
+          # `git status --porcelain` rather than `git diff`: the first channel
+          # collected writes a file git has never seen, and `git diff` reports no
+          # change for a file it is not tracking. A run that collected 246 videos
+          # reported "Nothing new" and threw them away.
+          if [ -z "$(git status --porcelain -- content/youtube)" ]; then
             echo "changed=no" >> "$GITHUB_OUTPUT"
             echo "Nothing new."
             exit 0

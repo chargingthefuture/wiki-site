@@ -52,11 +52,22 @@ type Archive = {
   videos: Video[];
 };
 
-/** `@Handle`, a bare handle, or any channel address → the uploads page for it. */
+/**
+ * `@Handle`, a bare handle, or any channel address → the uploads page for it.
+ *
+ * An address copied from a phone carries things that do not name the channel: a
+ * query on the end ("?ra=m") and the mobile host. Both are dropped, because both
+ * otherwise end up in the file name and in what the feed says the channel is.
+ */
 function uploadsUrl(channel: string): string {
   const trimmed = channel.trim();
   if (/^https?:\/\//i.test(trimmed)) {
-    return trimmed.replace(/\/+$/, '').replace(/\/videos$/i, '') + '/videos';
+    const url = new URL(trimmed);
+    url.search = '';
+    url.hash = '';
+    if (/^(m|music)\.youtube\.com$/i.test(url.hostname)) url.hostname = 'www.youtube.com';
+    const path = url.pathname.replace(/\/+$/, '').replace(/\/videos$/i, '');
+    return `${url.origin}${path}/videos`;
   }
   const handle = trimmed.startsWith('@') ? trimmed : `@${trimmed}`;
   return `https://www.youtube.com/${handle}/videos`;
