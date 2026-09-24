@@ -82,7 +82,11 @@ carries it, because the owner froze that page outright and that freeze has not b
 - Distribution posture: platforms (Quora etc.) receive excerpt + image + canonical link only; nothing is authored there. See `wiki-site/PUBLISHING.md`.
 - RSS: `artifacts/wiki/public/feed.xml`, generated from the same front matter `wiki:sync` reads, by
   `scripts/src/build-feed.ts`. Newest 50 listed items across every collection, matching the site's
-  own `/feed` page. It is build output, not source — gitignored, written by `wiki:build` and
+  own `/feed` page. Each item carries the post itself in `content:encoded`, not a teaser — a feed
+  that carried only the opening paragraph would send every subscriber to the site to read the rest,
+  which is the arrangement a reader exists to end. Image addresses are rewritten to the repository's
+  raw file addresses, because the site's own image URLs are hashed at build and a relative address
+  in a feed resolves against whatever is reading it. It is build output, not source — gitignored, written by `wiki:build` and
   `wiki:build:pages`, so it cannot fall behind the posts. Never hand-edit it; edit the post. The
   page carries an autodiscovery link in `index.html` so a reader given the site address finds the
   feed without anybody copying an XML address, and a "Follow by RSS" row sits in the footer.
@@ -96,6 +100,20 @@ carries it, because the owner froze that page outright and that freeze has not b
   the notification, and the blog is the address that survives. Each card leads with the post's
   opening words, because those are the words the notification showed. Nothing in the row moves
   on its own (owner decision, 2026-09-19).
+- Archived YouTube channels: `content/youtube/<slug>.json` holds a channel's upload list, and
+  `scripts/src/build-youtube-feeds.ts` renders one RSS feed per channel into
+  `artifacts/wiki/public/feeds/youtube/<slug>.xml` on `wiki:youtube`, which both build scripts run.
+  The feed is build output and gitignored; the JSON is committed, which is the one place this repo
+  commits collected data. It has to be: a channel's own feed carries only its newest handful of
+  uploads, so a reader cannot filter down to what came before — the videos were never delivered.
+  The list is collected by `.github/workflows/youtube-archive.yml` (run it with a handle to add a
+  channel, empty to refresh every one) using yt-dlp and no API key, reading the channel's list as
+  metadata and never touching a video. YouTube refuses a data center address often enough that a
+  build depending on a live fetch would fail on its own schedule, so the archive is kept rather than
+  rebuilt, and a run that comes back empty writes nothing. Without a key the upload date comes from
+  a relative label on the page and is approximate, so an entry near a date cutoff can fall on the
+  wrong side; every such entry is marked, the feed's description says so, and an existing date is
+  never overwritten by a later approximate one.
 - Share messages for Peace Battle 2: `artifacts/wiki/public/pb2-messages.json`, one ready-to-paste
   post per member-facing part of the app, written by `scripts/src/build-pb2-messages.ts` on
   `wiki:pb2` from the hand-written `content/pb2-share-messages.yaml`. Build output like the feed:
@@ -123,6 +141,7 @@ carries it, because the owner froze that page outright and that freeze has not b
 | `pnpm wiki:feed` | Regenerate the RSS feed at `artifacts/wiki/public/feed.xml` (both build scripts run this) |
 | `pnpm wiki:invites` | Regenerate the invite cards at `artifacts/wiki/public/invites.json` (both build scripts run this) |
 | `pnpm wiki:pb2` | Regenerate the Peace Battle 2 share messages at `artifacts/wiki/public/pb2-messages.json` (both build scripts run this) |
+| `pnpm wiki:youtube` | Regenerate the archived YouTube channel feeds at `artifacts/wiki/public/feeds/youtube/` (both build scripts run this) |
 | `pnpm wiki:sync:dry` | Preview sync changes |
 | `pnpm fireside:sync` | Copy the Fireside comments the app has cleared for publication into `artifacts/wiki/src/lib/fireside-exports.ts` |
 | `pnpm fireside:sync:dry` | Preview that copy without writing |

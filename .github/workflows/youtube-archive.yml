@@ -1,0 +1,131 @@
+name: YouTube — Collect a channel's uploads
+
+# Builds a feed carrying every upload of a YouTube channel, not the newest
+# handful its own feed carries.
+#
+# A channel's feed gives a reader what is recent and nothing else, so somebody
+# who only wants videos up to a date they trust cannot get there: the videos
+# they want never arrive, and no filter in a reader reaches what was never
+# delivered. This collects the channel's upload list into content/youtube/ and
+# the site build turns it into a feed at
+# /feeds/youtube/<slug>.xml, which a reader subscribes to and filters by date on
+# its own side.
+#
+# Run it with a channel to add one, or with the box empty to refresh every
+# channel already collected. Newly found videos are added; an entry already in
+# the archive is left exactly as it is.
+#
+# No API key. yt-dlp reads the channel's list as metadata — it never touches a
+# video. The cost is that dates come from relative labels ("2 years ago") and
+# are approximate, so an entry near a cutoff can fall on the wrong side of it;
+# every entry collected this way is marked and the feed says so.
+#
+# YouTube refuses a data center address from time to time. A run that comes back
+# with nothing writes nothing and fails loudly, leaving what is already
+# collected untouched.
+
+on:
+  workflow_dispatch:
+    inputs:
+      channel:
+        description: 'Channel to add or refresh — @handle or full address. Leave empty to refresh every channel already collected.'
+        required: false
+        type: string
+  schedule:
+    # Weekly, Sundays. New uploads matter little here — the archive is for what
+    # came before — so this only keeps the list from drifting far behind.
+    - cron: '20 5 * * 0'
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  collect:
+    name: Collect uploads
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: wiki-site
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install yt-dlp
+        run: pipx install yt-dlp
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+          cache-dependency-path: wiki-site/pnpm-lock.yaml
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Collect
+        env:
+          CHANNEL: ${{ inputs.channel }}
+        run: |
+          if [ -n "$CHANNEL" ]; then
+            pnpm --filter @workspace/scripts run collect-youtube-archive -- --channel "$CHANNEL"
+          else
+            pnpm --filter @workspace/scripts run collect-youtube-archive
+          fi
+
+      - name: Commit what changed
+        id: commit
+        run: |
+          # `git status --porcelain` rather than `git diff`: the first channel
+          # collected writes a file git has never seen, and `git diff` reports no
+          # change for a file it is not tracking. A run that collected 246 videos
+          # reported "Nothing new" and threw them away.
+          if [ -z "$(git status --porcelain -- content/youtube)" ]; then
+            echo "changed=no" >> "$GITHUB_OUTPUT"
+            echo "Nothing new."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add content/youtube
+          git commit -m 'chore: refresh the collected YouTube uploads'
+          git push
+          echo "changed=yes" >> "$GITHUB_OUTPUT"
+
+      - name: Publish
+        # A commit made with the built-in token does not start the deploy on its
+        # own, so it is asked for directly. Without this the new feed sits on
+        # main until something else pushes.
+        if: steps.commit.outputs.changed == 'yes'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -fsS -X POST \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H 'Accept: application/vnd.github+json' \
+            -H 'X-GitHub-Api-Version: 2022-11-28' \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/deploy-wiki-gh-pages.yml/dispatches" \
+            -d '{"ref":"main"}'
+
+      - name: Say where the feeds are
+        # Through tee, so the addresses land in the log as well as the run
+        # summary. Writing only to the summary produces no log output at all,
+        # and the log is where somebody looks first.
+        run: |
+          {
+            echo "### Collected channels"
+            echo ""
+            for file in content/youtube/*.json; do
+              [ -e "$file" ] || continue
+              slug=$(basename "$file" .json)
+              count=$(node -e "process.stdout.write(String(JSON.parse(require('fs').readFileSync('$file','utf8')).videos.length))")
+              echo "- \`$slug\` — $count videos — https://chargingthefuture.github.io/chargingthefuture/feeds/youtube/$slug.xml"
+            done
+            echo ""
+            echo "Subscribe to one of those in the reader, then filter with \`pubdate:/2024-12-31\`."
+            echo ""
+            echo "Dates are approximate — read from relative labels on the channel page — so leave a month or two of margin around a cutoff."
+          } | tee -a "$GITHUB_STEP_SUMMARY"

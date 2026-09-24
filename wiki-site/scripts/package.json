@@ -17,13 +17,16 @@
     "import:quora-export": "tsx ./src/import-quora-export.ts",
     "sync-fireside-exports": "tsx ./src/sync-fireside-exports.ts",
     "sync-fireside-exports:dry": "tsx ./src/sync-fireside-exports.ts --dry-run",
-    "build-pb2-messages": "tsx ./src/build-pb2-messages.ts"
+    "build-pb2-messages": "tsx ./src/build-pb2-messages.ts",
+    "build-youtube-feeds": "tsx ./src/build-youtube-feeds.ts",
+    "collect-youtube-archive": "tsx ./src/collect-youtube-archive.ts"
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",
     "@types/node": "catalog:",
     "@types/turndown": "^5.0.4",
     "js-yaml": "^4.1.0",
+    "marked": "^18.0.14",
     "node-html-parser": "^6.1.0",
     "tsx": "catalog:",
     "turndown": "^7.2.0",
