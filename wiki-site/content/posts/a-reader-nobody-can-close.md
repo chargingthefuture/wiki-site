@@ -73,7 +73,7 @@ pubdate:2024-12-31/
 
 That is everything published from December 31, 2024 onward — the side you do not want. Anything matching arrives already read, so the feed opens on what came before your date and nothing else. The filter sits on the feed rather than on the account, which is what I wanted: a source I trust is never filtered by mistake, and two sources can carry different dates.
 
-Pick your own date. The one you want is the date before which you are confident nobody was writing at you.
+Pick your own date: the one you are confident is your psyop free date.
 
 Two settings make it behave the way you expect:
 
