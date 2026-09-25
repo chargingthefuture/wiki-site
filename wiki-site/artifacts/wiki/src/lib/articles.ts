@@ -98,6 +98,22 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "show-up-with-your-percent",
+    "title": "Show up with your percent",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-25",
+    "excerpt": "Most of a Targeted Individual's day goes to the attacks and what they force. What is left is small, and it is not enough to reach a goal alone. The goal board is built for that part of the day.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/show-up-with-your-percent.md",
+    "teaser": "Most of a Targeted Individual's day is not theirs. It goes to the attacks and to what they force, and what is left might be five percent. Five percent is not enough to reach a goal alone, because a goal is a chain of small steps and the attacks land on the chain. It is enough when it is not all one person's. PeerProgramming now opens on a goal board: one goal each, broken into cards small enough to do from a phone in half an hour, and anybody in the cohort can take one. No conversation on it, on purpose. This is what step three of Peace Battle 2 asks for now.",
+    "topics": [
+      "peer-programming",
+      "skills-economy",
+      "community"
+    ]
+  },
+  {
     "slug": "an-invitation-to-lorraine",
     "title": "An invitation to Lorraine",
     "repo": "chargingthefuture/wiki-site",
