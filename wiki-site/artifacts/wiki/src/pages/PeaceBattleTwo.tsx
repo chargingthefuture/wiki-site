@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "wouter";
-import { Radio, MessageSquare, Calculator, ArrowRight } from "lucide-react";
+import { Radio, MessageSquare, Target, ArrowRight } from "lucide-react";
 import { Layout } from "@/components/Layout";
 import { Pb2ShareMessage } from "@/components/Pb2ShareMessage";
 
@@ -31,6 +31,7 @@ const LINKS = {
   tiRadio: `${APP}/ti-radio`,
   fireside: `${APP}/apps/fireside`,
   onePercent: `${APP}/apps/workforce?view=one-percent`,
+  goals: `${APP}/apps/peer-programming?tab=goals`,
   workforce: `${APP}/apps/workforce`,
   game: "https://chargingthefuture.github.io/offline-os/apps/peace-battle-2/",
 };
@@ -329,25 +330,27 @@ export default function PeaceBattleTwo() {
 
           <Step
             n={3}
-            icon={<Calculator size={22} />}
-            title="Post your 1%"
-            href={LINKS.onePercent}
-            cta="Open your figures"
+            icon={<Target size={22} />}
+            title="Show up with your percent"
+            href={LINKS.goals}
+            cta="Open the goal board"
           >
             <p>
-              Open your own figures, adjust them to what you would actually charge, and put the
-              screenshot somewhere people will see it. It costs a minute and it argues with nothing
-              but arithmetic.
+              Nobody here gets a full day. The attacks take most of it, and what is left over is
+              small. Put some of what you have left into one small task toward somebody else&rsquo;s
+              goal: find three numbers, make one call, look up one listing. Post your own goal too,
+              with a finish line, and let other people&rsquo;s leftover time add up for you.
             </p>
             <p>
-              If you would rather act than post, do the other version: use the app to offer or ask for
-              something real, and the figure stops being a projection.
+              The board is in PeerProgramming. It has no conversation on it: a goal, its tasks, and
+              what somebody found. It counts the tasks done across everybody in the last day. Taking
+              part needs an approved account.
             </p>
           </Step>
         </div>
 
-        {/* Not a fourth thing to do. Two of the three above end in a post, and the reason people
-            stop there is that they do not want to write one. So the words are already written, and
+        {/* Not a fourth thing to do. Posting about the app is where people stop, and the reason is
+            that they do not want to write one. So the words are already written, and
             they are about the app rather than about the argument — somebody who supports this and
             disagrees with the organizer on something else can still post these without speaking for
             anybody. Posts from this blog are not in the pool for that reason. */}
