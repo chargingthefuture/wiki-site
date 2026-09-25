@@ -15,6 +15,8 @@ This is a living page. It is kept current, and its date moves it to the top of t
 
 ## Latest changes
 
+2026-09-25 — Reader added to the capability table: an RSS feed reader on a server the project pays for, at rss.chargingthefuture.com, reached from a tile in the app. Sign in with the same account; what each person subscribes to is theirs alone and nobody else on it can see it. A new account arrives with this blog and the owner's channel of demo videos of the app, and nothing else. A place on it comes from finishing Unlock or contributing to the cost, and losing one is not a ban — the account in the app is untouched.
+
 2026-09-25 — PeerProgramming's entry now includes the goal board, which the app opens on. A member posts one goal with a finish line and tasks another member can do from a phone; other members take a task, do it, and post what they found, and the goal's owner marks the result as helped, keeps it, or sends it back. A task marked as helped counts toward the day's 384 and toward the helper's Weavers of the Commons badge. One open goal per member, the helper's name is shown on each finished task, and there is no conversation on the board. Taking part needs an approved account.
 
 2026-09-20 — The 384 entry is corrected and says for the first time where the number comes from. It is a count of members exchanging with each other on one day, and the same people do not have to return the next day. The entry previously described it as a count of people personally known to be real, and the members line above it said approved members was the only number the goal measures. Approved members is a different number that measures a different thing. Added too: one day at 384 is not the goal reached — it is reached when the typical day across a year sits at or above it.
@@ -144,6 +146,7 @@ DEW — Directed Energy Weapon.
 | [Contributions](https://app.chargingthefuture.com/apps/contributions) | Voluntary fundraiser drives with credit thank-you grants | [guide](https://app.chargingthefuture.com/guide#contributions) |
 | [Recurring Activity](https://app.chargingthefuture.com/apps/recurring-activity) | One-tap acknowledgment of an ongoing tie with another member — never a bill | [guide](https://app.chargingthefuture.com/guide#recurring-activity) |
 | [Fireside](https://app.chargingthefuture.com/apps/fireside) | Threaded conversation under the posts on the blog; read it without an account, write with one | [guide](https://app.chargingthefuture.com/guide#fireside) |
+| [Reader](https://app.chargingthefuture.com/apps/reader) | An RSS feed reader on a server the project pays for; sign in with this account, and your subscriptions are yours alone | [guide](https://app.chargingthefuture.com/guide#reader) |
 | [TI Radio](https://app.chargingthefuture.com/ti-radio) | A published schedule of live discussions members host in Chyme; read it without an account, host with one | [guide](https://app.chargingthefuture.com/guide#ti-radio) |
 | Mutual Time | Find a meeting time everyone can make | [guide](https://app.chargingthefuture.com/guide#mutual-time) |
 | Bug Reporting | In-app problem reports; raw text stays private, a human approves any fix | [guide](https://app.chargingthefuture.com/guide#bug-reporting) |
