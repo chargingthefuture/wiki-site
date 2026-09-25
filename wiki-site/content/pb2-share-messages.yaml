@@ -167,9 +167,11 @@ messages:
 
   - id: peer-programming
     feature: PeerProgramming
-    title: A weekly session where survivors work on things together
+    title: A goal board where survivors take small tasks toward each other's goals
     body: |-
-      Small groups, every week, working through real problems rather than talking about them. You leave with something further along than when you arrived.
+      Post one goal with a finish line and break it into tasks somebody could do from a phone in half an hour. Other members take a task, do it, and post what they found. Your leftover time and theirs add up.
+
+      There is no conversation on the board, only goals, tasks and results. The weekly video session is still there for whoever wants it.
 
   - id: chyme
     feature: Chyme

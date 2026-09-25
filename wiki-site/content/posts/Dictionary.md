@@ -1,6 +1,6 @@
 ---
 title: "Dictionary: Skills Economy Terms"
-date: "2026-09-20"
+date: "2026-09-25"
 excerpt: "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record."
 category: "Resources"
 slug: Dictionary
@@ -14,6 +14,8 @@ topics:
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
 ## Latest changes
+
+2026-09-25 — PeerProgramming's entry now includes the goal board, which the app opens on. A member posts one goal with a finish line and tasks another member can do from a phone; other members take a task, do it, and post what they found, and the goal's owner keeps the result or sends it back. One open goal per member, the helper's name is shown on each finished task, and there is no conversation on the board. Taking part needs an approved account.
 
 2026-09-20 — The 384 entry is corrected and says for the first time where the number comes from. It is a count of members exchanging with each other on one day, and the same people do not have to return the next day. The entry previously described it as a count of people personally known to be real, and the members line above it said approved members was the only number the goal measures. Approved members is a different number that measures a different thing. Added too: one day at 384 is not the goal reached — it is reached when the typical day across a year sits at or above it.
 
@@ -130,7 +132,7 @@ DEW — Directed Energy Weapon.
 | [SocketRelay](https://app.chargingthefuture.com/apps/socket-relay) | Real-time resource sharing across the network | [guide](https://app.chargingthefuture.com/guide#socket-relay) |
 | [TrustTransport](https://app.chargingthefuture.com/apps/trust-transport) | Vetted rides — drivers screened by the community, for the community | [guide](https://app.chargingthefuture.com/guide#trust-transport) |
 | [LightHouse](https://app.chargingthefuture.com/apps/lighthouse) | Community housing listings from trauma-informed hosts | [guide](https://app.chargingthefuture.com/guide#lighthouse) |
-| [PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming) | Weekly global mastermind sessions | [guide](https://app.chargingthefuture.com/guide#peer-programming) |
+| [PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming) | Weekly global mastermind sessions, and a goal board where members take small tasks toward each other's goals | [guide](https://app.chargingthefuture.com/guide#peer-programming) |
 | [SkillUp](https://app.chargingthefuture.com/apps/skill-up) | Skills-training cohorts; you earn credits as you reach each milestone | [guide](https://app.chargingthefuture.com/guide#skill-up) |
 | [ServiceCredits](https://app.chargingthefuture.com/apps/service-credits) | The credits exchange (see Value and credits above) | [guide](https://app.chargingthefuture.com/guide#service-credits) |
 | [GDP](https://app.chargingthefuture.com/apps/gdp) | The live economic tracker: Community Value Index and Value waiting to happen | [guide](https://app.chargingthefuture.com/guide#gdp) |
