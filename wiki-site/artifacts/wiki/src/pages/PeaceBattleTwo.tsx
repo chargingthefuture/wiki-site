@@ -31,7 +31,7 @@ const LINKS = {
   tiRadio: `${APP}/ti-radio`,
   fireside: `${APP}/apps/fireside`,
   onePercent: `${APP}/apps/workforce?view=one-percent`,
-  goals: `${APP}/apps/peer-programming`,
+  goals: `${APP}/apps/peer-programming?tab=goals`,
   workforce: `${APP}/apps/workforce`,
   game: "https://chargingthefuture.github.io/offline-os/apps/peace-battle-2/",
 };
