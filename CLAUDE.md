@@ -206,6 +206,16 @@ the rest of a file.
 - PR titles must match: concise, action-oriented, no random strings.
 - If a branch was created with a bad name, rename it before opening the PR: create a new descriptive branch from the same commits, open the PR from that, close the old one, delete the old branch.
 
+## One Post per Pull Request (owner directive, 2026-09-25)
+
+A pull request that publishes a post carries one post: the post, its paste sheet entry, the
+regenerated files, and any Dictionary edit that goes with it. Never a second post. The owner reads
+each post on its own before it goes out, and a second post in the same pull request means either
+merging it before it has been read or leaving the read post waiting on it.
+
+A post that links to another post still open says so in its body, with the merge order. That note is
+the only tie between them.
+
 ## Stats Vocabulary in Posts (always apply — owner directives, 2026-08-18)
 
 This is not a typical app, and agents keep framing its numbers the way a typical app would. That framing is wrong here every time. When writing or editing posts:
