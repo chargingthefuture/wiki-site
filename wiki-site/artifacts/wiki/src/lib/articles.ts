@@ -37,6 +37,21 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "Dictionary",
+    "title": "Dictionary: Skills Economy Terms",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-09-25",
+    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
+    "category": "Resources",
+    "collection": "posts",
+    "path": "posts/Dictionary.md",
+    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
+    "topics": [
+      "reference",
+      "terms"
+    ]
+  },
+  {
     "slug": "a-reader-nobody-can-close",
     "title": "An RSS feed reader nobody can close",
     "repo": "chargingthefuture/wiki-site",
@@ -49,21 +64,6 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "platform-independence",
       "publishing"
-    ]
-  },
-  {
-    "slug": "Dictionary",
-    "title": "Dictionary: Skills Economy Terms",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-09-23",
-    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
-    "category": "Resources",
-    "collection": "posts",
-    "path": "posts/Dictionary.md",
-    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
-    "topics": [
-      "reference",
-      "terms"
     ]
   },
   {

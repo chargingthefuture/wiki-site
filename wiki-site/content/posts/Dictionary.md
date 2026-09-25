@@ -1,6 +1,6 @@
 ---
 title: "Dictionary: Skills Economy Terms"
-date: "2026-09-23"
+date: "2026-09-25"
 excerpt: "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record."
 category: "Resources"
 slug: Dictionary
@@ -14,6 +14,8 @@ topics:
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
 ## Latest changes
+
+2026-09-25 — PeerProgramming's entry now includes the goal board, which the app opens on. A member posts one goal with a finish line and tasks another member can do from a phone; other members take a task, do it, and post what they found, and the goal's owner marks the result as helped, keeps it, or sends it back. A task marked as helped counts toward the day's 384 and toward the helper's Weavers of the Commons badge. One open goal per member, the helper's name is shown on each finished task, and there is no conversation on the board. Taking part needs an approved account.
 
 2026-09-23 — Reader added to the capability table: an RSS feed reader on a server the project pays for, at rss.chargingthefuture.com, reached from a tile in the app. Sign in with the same account; what each person subscribes to is theirs alone and nobody else on it can see it. A new account arrives with this blog and the owner's channel of demo videos of the app, and nothing else. A place on it comes from finishing Unlock or contributing to the cost, and losing one is not a ban — the account in the app is untouched.
 
@@ -59,7 +61,7 @@ Signed up / approved members — people who created their own account and were a
 
 It is counted a day at a time, and the same 384 people do not have to come back tomorrow. Who is in it rotates. Supporting 384 on a day is what shows the app could in theory support all five million estimated survivors, because 384 is how many people a reading has to cover before it holds for a population that size.
 
-It counts exchanges that delivered something: a ride given, a repair done, a skill taught, credits sent for work that happened. Talk does not count, and neither does signing up. An account that only takes, or only posts, does not move the number.
+It counts exchanges that delivered something: a ride given, a repair done, a skill taught, credits sent for work that happened, a task done toward somebody's goal that they said helped. Talk does not count, and neither does signing up. An account that only takes, or only posts, does not move the number.
 
 One day at 384 is not the goal reached. A day is a day; an economy is what holds. The goal is reached when the typical day across a year sits at or above 384.
 
@@ -132,7 +134,7 @@ DEW — Directed Energy Weapon.
 | [SocketRelay](https://app.chargingthefuture.com/apps/socket-relay) | Real-time resource sharing across the network | [guide](https://app.chargingthefuture.com/guide#socket-relay) |
 | [TrustTransport](https://app.chargingthefuture.com/apps/trust-transport) | Vetted rides — drivers screened by the community, for the community | [guide](https://app.chargingthefuture.com/guide#trust-transport) |
 | [LightHouse](https://app.chargingthefuture.com/apps/lighthouse) | Community housing listings from trauma-informed hosts | [guide](https://app.chargingthefuture.com/guide#lighthouse) |
-| [PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming) | Weekly global mastermind sessions | [guide](https://app.chargingthefuture.com/guide#peer-programming) |
+| [PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming) | Weekly global mastermind sessions, and a goal board where members take small tasks toward each other's goals | [guide](https://app.chargingthefuture.com/guide#peer-programming) |
 | [SkillUp](https://app.chargingthefuture.com/apps/skill-up) | Skills-training cohorts; you earn credits as you reach each milestone | [guide](https://app.chargingthefuture.com/guide#skill-up) |
 | [ServiceCredits](https://app.chargingthefuture.com/apps/service-credits) | The credits exchange (see Value and credits above) | [guide](https://app.chargingthefuture.com/guide#service-credits) |
 | [GDP](https://app.chargingthefuture.com/apps/gdp) | The live economic tracker: Community Value Index and Value waiting to happen | [guide](https://app.chargingthefuture.com/guide#gdp) |
