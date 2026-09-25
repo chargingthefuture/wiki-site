@@ -1,9 +1,9 @@
 ---
-title: "A reader nobody can close"
+title: "An RSS feed reader nobody can close"
 date: "2026-09-23"
-excerpt: "A feed reader I host, for people who would rather not run one themselves. Nothing sits between the list and you, and nothing decides what you see first."
+excerpt: "An RSS feed reader I host, for people who would rather not run one themselves. Nothing sits between the list and you, and nothing decides what you see first."
 category: "Community"
-teaser: "The feed you read on a platform is arranged by somebody else, and what it puts in front of you is a decision you did not make. A reader takes that away: it fetches the same posts the site publishes, in the order they were written, and nothing ranks them. Reading this blog that way needs no account anywhere — any reader app and one address. For people who would rather not run one, there is now one I host: sign in with your Skills Economy account, and the feeds are yours alone, invisible to every other person on it. Below is who pays for it and when you could lose your spot on it, written down now rather than left for you to discover."
+teaser: "The feed you read on a platform is arranged by somebody else, and what it puts in front of you is a decision you did not make. An RSS feed reader, called a reader from here on, takes that away: it fetches the same posts the site publishes, in the order they were written, and nothing ranks them. Reading this blog that way needs no account anywhere — any reader app and one address. For people who would rather not run one, there is now one I host: sign in with your Skills Economy account, and the feeds are yours alone, invisible to every other person on it. Below is who pays for it and when you could lose your spot on it, written down now rather than left for you to discover."
 topics:
   - platform-independence
   - publishing
@@ -11,7 +11,7 @@ topics:
 
 The feed you read on a platform is arranged by somebody else. Not written by them — arranged. What is at the top, what is buried, what arrives the day it would land hardest. That is a decision, it is made about you, and you did not make it.
 
-A reader takes the arranging away. It fetches what a site publishes, in the order it was published, and puts it in a list. Nothing ranks it. Nothing is inserted. Nothing knows what you opened.
+An RSS feed reader takes the arranging away. I will call it a reader for the rest of this post. It fetches what a site publishes, in the order it was published, and puts it in a list. Nothing ranks it. Nothing is inserted. Nothing knows what you opened.
 
 ## Two ways to use this
 
