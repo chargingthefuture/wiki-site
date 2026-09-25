@@ -15,7 +15,7 @@ This is a living page. It is kept current, and its date moves it to the top of t
 
 ## Latest changes
 
-2026-09-25 — PeerProgramming's entry now includes the goal board, which the app opens on. A member posts one goal with a finish line and tasks another member can do from a phone; other members take a task, do it, and post what they found, and the goal's owner keeps the result or sends it back. One open goal per member, the helper's name is shown on each finished task, and there is no conversation on the board. Taking part needs an approved account.
+2026-09-25 — PeerProgramming's entry now includes the goal board, which the app opens on. A member posts one goal with a finish line and tasks another member can do from a phone; other members take a task, do it, and post what they found, and the goal's owner marks the result as helped, keeps it, or sends it back. A task marked as helped counts toward the day's 384 and toward the helper's Weavers of the Commons badge. One open goal per member, the helper's name is shown on each finished task, and there is no conversation on the board. Taking part needs an approved account.
 
 2026-09-20 — The 384 entry is corrected and says for the first time where the number comes from. It is a count of members exchanging with each other on one day, and the same people do not have to return the next day. The entry previously described it as a count of people personally known to be real, and the members line above it said approved members was the only number the goal measures. Approved members is a different number that measures a different thing. Added too: one day at 384 is not the goal reached — it is reached when the typical day across a year sits at or above it.
 
@@ -59,7 +59,7 @@ Signed up / approved members — people who created their own account and were a
 
 It is counted a day at a time, and the same 384 people do not have to come back tomorrow. Who is in it rotates. Supporting 384 on a day is what shows the app could in theory support all five million estimated survivors, because 384 is how many people a reading has to cover before it holds for a population that size.
 
-It counts exchanges that delivered something: a ride given, a repair done, a skill taught, credits sent for work that happened. Talk does not count, and neither does signing up. An account that only takes, or only posts, does not move the number.
+It counts exchanges that delivered something: a ride given, a repair done, a skill taught, credits sent for work that happened, a task done toward somebody's goal that they said helped. Talk does not count, and neither does signing up. An account that only takes, or only posts, does not move the number.
 
 One day at 384 is not the goal reached. A day is a day; an economy is what holds. The goal is reached when the typical day across a year sits at or above 384.
 
