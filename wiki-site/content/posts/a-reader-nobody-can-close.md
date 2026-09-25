@@ -112,7 +112,7 @@ It cannot reach back before you start. A feed carries only its most recent items
 
 That matters less here than it sounds. Every post on this blog is on this blog, and the archive of what was posted elsewhere is here too. The reader is for going forward.
 
-It also will not tell you when something arrives. It sits there until you open it. That is a feature if your phone already asks too much of you and a drawback if you want to be told — I am not going to pretend it is only the first.
+It also will not tell you when something arrives. It sits there until you open it. That is good if your phone already asks too much of you. If you want to be told when something arrives, it is a real drawback.
 
 ## Who pays for it, and when you could lose your spot
 
