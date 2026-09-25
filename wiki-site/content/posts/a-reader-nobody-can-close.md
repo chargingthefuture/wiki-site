@@ -116,7 +116,7 @@ It also will not tell you when something arrives. It sits there until you open i
 
 ## Who pays for it, and when you could lose your spot
 
-I pay for this server. That is the entire economics of it. It is worth saying that now.
+I pay for the reader server. That is the entire economics of it. It is worth saying that now.
 
 A place on it is something you get by finishing the check on the app, or by contributing to what it costs. If the bill makes it necessary, places go to the people who did one of those. That is not a ban, and it is nothing to do with your account: nobody loses the app, or anything in it, over a reader.
 
