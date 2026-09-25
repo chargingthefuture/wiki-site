@@ -208,14 +208,10 @@ the rest of a file.
 
 ## One Post per Pull Request (owner directive, 2026-09-25)
 
-A pull request that publishes a post carries that post and nothing else: the post, its paste sheet
-entry, and the regenerated files. Not a second post, and not a Dictionary edit. The owner reads each
-post on its own before it goes out, and a second thing in the same pull request means either merging
-it before it has been read or leaving the read post waiting on it.
-
-A Dictionary change is its own pull request. When a post records something the Dictionary also has
-to say, open two, and say in each which the other is. The same goes for `old-links-new-links.md`: a
-handle change is its own pull request, never folded into a post.
+A pull request that publishes a post carries one post: the post, its paste sheet entry, the
+regenerated files, and any Dictionary edit that goes with it. Never a second post. The owner reads
+each post on its own before it goes out, and a second post in the same pull request means either
+merging it before it has been read or leaving the read post waiting on it.
 
 A post that links to another post still open says so in its body, with the merge order. That note is
 the only tie between them.
