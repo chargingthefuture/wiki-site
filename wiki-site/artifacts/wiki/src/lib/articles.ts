@@ -37,22 +37,6 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
-    "slug": "new-here-three-things-to-do-first",
-    "title": "New here? Three things to do first",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-25",
-    "excerpt": "The app has twenty-eight parts and lands you on a chat. Here is where to start, in the order to do it: send your profile address, write while you wait, and put your skills where members can find them.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/new-here-three-things-to-do-first.md",
-    "teaser": "The app has twenty-eight parts. You sign in, land on a shared chat, and everything else is one tap away, which is a fair place to not know where to start. So, three things, in order. Send the web address of your Quora profile on the Unlock screen, because almost everything waits on that one step and a person reads it. While you wait, write, because two doors are open before approval on purpose and what you write goes into the same queue as your check. Once approved, put your skills on the Directory, because a listing is how another member finds you. There is now a chip in the Commons that gives these three back on the spot.",
-    "topics": [
-      "community",
-      "unlock",
-      "directory"
-    ]
-  },
-  {
     "slug": "show-up-with-your-percent",
     "title": "Show up with your percent",
     "repo": "chargingthefuture/wiki-site",
@@ -69,21 +53,6 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
-    "slug": "Dictionary",
-    "title": "Dictionary: Skills Economy Terms",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-09-25",
-    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
-    "category": "Resources",
-    "collection": "posts",
-    "path": "posts/Dictionary.md",
-    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
-    "topics": [
-      "reference",
-      "terms"
-    ]
-  },
-  {
     "slug": "a-reader-nobody-can-close",
     "title": "An RSS feed reader nobody can close",
     "repo": "chargingthefuture/wiki-site",
@@ -96,6 +65,21 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "platform-independence",
       "publishing"
+    ]
+  },
+  {
+    "slug": "Dictionary",
+    "title": "Dictionary: Skills Economy Terms",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-09-25",
+    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
+    "category": "Resources",
+    "collection": "posts",
+    "path": "posts/Dictionary.md",
+    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
+    "topics": [
+      "reference",
+      "terms"
     ]
   },
   {
