@@ -67,6 +67,22 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "new-here-three-things-to-do-first",
+    "title": "New here? Three things to do first",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-25",
+    "excerpt": "The app has twenty-eight parts and lands you on a chat. Here is where to start, in the order to do it: send your profile address, write while you wait, and put your skills where members can find them.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/new-here-three-things-to-do-first.md",
+    "teaser": "The app has twenty-eight parts. You sign in, land on a shared chat, and everything else is one tap away, which is a fair place to not know where to start. So, three things, in order. Send the web address of your Quora profile on the Unlock screen, because almost everything waits on that one step and a person reads it. While you wait, write, because two doors are open before approval on purpose and what you write goes into the same queue as your check. Once approved, put your skills on the Directory, because a listing is how another member finds you. There is now a chip in the Commons that gives these three back on the spot.",
+    "topics": [
+      "community",
+      "unlock",
+      "directory"
+    ]
+  },
+  {
     "slug": "old-links-new-links",
     "title": "Old links, new links",
     "repo": "chargingthefuture/wiki-site",
