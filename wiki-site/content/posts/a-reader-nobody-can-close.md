@@ -57,7 +57,7 @@ Here is what I used to do. Open YouTube and type the thing I need with a cutoff 
 Sterling pacific before:2024-12-31
 ```
 
-That date is my 24/7 virtual psyop date. I read what was published before it.
+That date is my 24/7 online psyop date. I read what was published before it.
 
 Find a channel worth following and it got worse. Open the channel page, sort oldest to newest, scroll past everything after the date by hand, and then watch each video on a page built to put other things in front of me — a column of recommendations down the side, comments underneath — with psyop content spread across all of it.
 
