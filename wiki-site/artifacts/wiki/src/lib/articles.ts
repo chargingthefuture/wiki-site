@@ -37,19 +37,19 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
-    "slug": "show-up-with-your-percent",
-    "title": "Show up with your percent",
+    "slug": "new-here-three-things-to-do-first",
+    "title": "New here? Three things to do first",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-09-25",
-    "excerpt": "Most of a Targeted Individual's day goes to the attacks and what they force. What is left is small, and it is not enough to reach a goal alone. The goal board is built for that part of the day.",
+    "excerpt": "The app has twenty-eight parts and lands you on a chat. Here is where to start, in the order to do it: send your profile address, write while you wait, and put your skills where members can find them.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/show-up-with-your-percent.md",
-    "teaser": "Most of a Targeted Individual's day is not theirs. It goes to the attacks and to what they force, and what is left might be five percent. Five percent is not enough to reach a goal alone, because a goal is a chain of small steps and the attacks land on the chain. It is enough when it is not all one person's. PeerProgramming now opens on a goal board: one goal each, broken into cards small enough to do from a phone in half an hour, and anybody in the cohort can take one. No conversation on it, on purpose. This is what step three of Peace Battle 2 asks for now.",
+    "path": "posts/new-here-three-things-to-do-first.md",
+    "teaser": "The app has twenty-eight parts. You sign in, land on a shared chat, and everything else is one tap away, which is a fair place to not know where to start. So, three things, in order. Send the web address of your Quora profile on the Unlock screen, because almost everything waits on that one step and a person reads it. While you wait, write, because two doors are open before approval on purpose and what you write goes into the same queue as your check. Once approved, put your skills on the Directory, because a listing is how another member finds you. There is now a chip in the Commons that gives these three back on the spot.",
     "topics": [
-      "peer-programming",
-      "skills-economy",
-      "community"
+      "community",
+      "unlock",
+      "directory"
     ]
   },
   {
@@ -95,6 +95,22 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "publishing",
       "platform-independence"
+    ]
+  },
+  {
+    "slug": "show-up-with-your-percent",
+    "title": "Show up with your percent",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-25",
+    "excerpt": "Most of a Targeted Individual's day goes to the attacks and what they force. What is left is small, and it is not enough to reach a goal alone. The goal board is built for that part of the day.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/show-up-with-your-percent.md",
+    "teaser": "Most of a Targeted Individual's day is not theirs. It goes to the attacks and to what they force, and what is left might be five percent. Five percent is not enough to reach a goal alone, because a goal is a chain of small steps and the attacks land on the chain. It is enough when it is not all one person's. PeerProgramming now opens on a goal board: one goal each, broken into cards small enough to do from a phone in half an hour, and anybody in the cohort can take one. No conversation on it, on purpose. This is what step three of Peace Battle 2 asks for now.",
+    "topics": [
+      "peer-programming",
+      "skills-economy",
+      "community"
     ]
   },
   {
