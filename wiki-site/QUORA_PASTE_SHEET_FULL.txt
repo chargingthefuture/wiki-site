@@ -60,13 +60,13 @@ Sterling pacific before:2024-12-31
 
 That date is my 24/7 virtual psyop date. I read what was published before it.
 
-Find a channel worth following and it got worse. Open the channel page, sort oldest to newest, scroll past everything after the date by hand, and then watch each video on a page built to put other things in front of me — a column of recommendations down the side, comments underneath — with the material I went there to avoid spread across all of it.
+Find a channel worth following and it got worse. Open the channel page, sort oldest to newest, scroll past everything after the date by hand, and then watch each video on a page built to put other things in front of me — a column of recommendations down the side, comments underneath — with psyop content spread across all of it.
 
 Now I read all of it in the reader instead. The cutoff date is set once for each feed, and after that I do nothing. This is my sidebar in the reader:
 
 [Screenshot — The reader's sidebar. At the top, a Subscription management button with a plus beside it. Then Main stream with 60 unread, Important feeds, and a favorites row showing 0. A category named Psyop free with 50 unread holds one feed, Charging The Future, 50 unread. A category named Tech with 237 unread holds one feed, christitustechnical (archive), 237 unread. Below that, Uncategorized with 10.]
 
-Two kinds of source. The category I called Psyop free holds the ones that will never carry placed content — this blog is one — and those have no filter at all. Everything else carries its own date. Open the feed's settings (the gear beside it under Subscription management), find Filter actions and the box under "Mark an article as read…", and put one line in it:
+Two kinds of source. The category I called Psyop free holds the ones that will never carry psyop content — this blog is one — and those have no filter at all. Everything else carries its own date. Open the feed's settings (the gear beside it under Subscription management), find Filter actions and the box under "Mark an article as read…", and put one line in it:
 
 pubdate:2024-12-31/
 
