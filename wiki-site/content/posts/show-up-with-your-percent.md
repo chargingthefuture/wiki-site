@@ -24,7 +24,7 @@ You post one goal with a finish line. You break it into cards: small tasks someb
 
 The cards sit in three columns: Up for grabs, Doing, Done. You pick any one card, from anybody's goal. You do it, you post what you found, and it moves to Done with your name on it. The goal's owner reads the result and marks it "It helped", keeps it, or sends it back for somebody else. That is the entire loop.
 
-There is no conversation on the board. A goal, its cards, and their results, and nothing else can be written there. The weekly sessions and the call are still in PeerProgramming, and they are separate from this.
+There is no conversation on the board. A goal, its cards, and their results, and nothing else can be written there. The weekly sessions and the call are still in PeerProgramming.
 
 ## Why it is shaped this way
 
