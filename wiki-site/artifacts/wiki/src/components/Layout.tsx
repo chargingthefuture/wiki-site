@@ -122,7 +122,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 Ready to exit their economy and exit the psyop?
               </p>
               <Button onClick={() => window.location.href = "https://chargingthefuture.com"} variant="accent" className="w-full">
-                Apply For Access
+                Sign up, free
               </Button>
             </div>
           </div>
