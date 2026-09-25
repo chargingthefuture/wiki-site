@@ -35,7 +35,7 @@ What each person subscribes to is theirs. There is no shared list, no comments, 
 
 ## Adding anything else you read
 
-Most sites publish a feed and most people have never had a reason to look for one. Three steps:
+Most sites publish a feed and most people have never had a reason to look for one. In the reader I host, once you are signed in at rss.chargingthefuture.com, it takes three steps:
 
 1. Copy the address of the site you want. The ordinary address is usually enough — the reader looks for the feed itself.
 2. Press the `+` beside "Subscriptions management".
