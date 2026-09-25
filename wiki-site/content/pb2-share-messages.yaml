@@ -169,7 +169,9 @@ messages:
     feature: PeerProgramming
     title: A weekly session where survivors work on things together
     body: |-
-      Small groups, every week, working through real problems rather than talking about them. You leave with something further along than when you arrived.
+      Small groups, every week, working through real problems rather than talking about them. Each session has a set length, which keeps everyone accountable to each other. You leave with something further along than when you arrived.
+
+      Between sessions there is a goal board: post one goal broken into small tasks, and take a task on somebody else's.
 
   - id: chyme
     feature: Chyme
