@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "new-here-three-things-to-do-first",
+    "title": "New here? Three things to do first",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-25",
+    "excerpt": "The app has twenty-eight parts and lands you on a chat. Here is where to start, in the order to do it: send your profile address, write while you wait, and put your skills where members can find them.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/new-here-three-things-to-do-first.md",
+    "teaser": "The app has twenty-eight parts. You sign in, land on a shared chat, and everything else is one tap away, which is a fair place to not know where to start. So, three things, in order. Send the web address of your Quora profile on the Unlock screen, because almost everything waits on that one step and a person reads it. While you wait, write, because two doors are open before approval on purpose and what you write goes into the same queue as your check. Once approved, put your skills on the Directory, because a listing is how another member finds you. There is now a chip in the Commons that gives these three back on the spot.",
+    "topics": [
+      "community",
+      "unlock",
+      "directory"
+    ]
+  },
+  {
     "slug": "a-reader-nobody-can-close",
     "title": "An RSS feed reader nobody can close",
     "repo": "chargingthefuture/wiki-site",
@@ -67,31 +83,15 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
-    "slug": "new-here-three-things-to-do-first",
-    "title": "New here? Three things to do first",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-25",
-    "excerpt": "The app has twenty-eight parts and lands you on a chat. Here is where to start, in the order to do it: send your profile address, write while you wait, and put your skills where members can find them.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/new-here-three-things-to-do-first.md",
-    "teaser": "The app has twenty-eight parts. You sign in, land on a shared chat, and everything else is one tap away, which is a fair place to not know where to start. So, three things, in order. Send the web address of your Quora profile on the Unlock screen, because almost everything waits on that one step and a person reads it. While you wait, write, because two doors are open before approval on purpose and what you write goes into the same queue as your check. Once approved, put your skills on the Directory, because a listing is how another member finds you. There is now a chip in the Commons that gives these three back on the spot.",
-    "topics": [
-      "community",
-      "unlock",
-      "directory"
-    ]
-  },
-  {
     "slug": "old-links-new-links",
     "title": "Old links, new links",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-23",
-    "excerpt": "Fifty-three accounts erased, the last one in the small hours, and a new handle before breakfast. What is live, what is dead, and the one address that never changes.",
+    "date": "2026-09-25",
+    "excerpt": "Fifty-four accounts erased, the last one before dawn, and a new handle the same morning. What is live, what is dead, and the one address that never changes.",
     "category": "Community",
     "collection": "posts",
     "path": "posts/old-links-new-links.md",
-    "teaser": "Quora has erased my accounts fifty-three times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. The latest ban landed at half past two in the morning on September 23, and the handle now open was opened three hours and forty-two minutes later. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
+    "teaser": "Quora has erased my accounts fifty-four times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. The latest ban landed at 4:29 in the morning on September 25, and the handle now open was opened four hours and twenty-three minutes later. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
     "topics": [
       "publishing",
       "platform-independence"

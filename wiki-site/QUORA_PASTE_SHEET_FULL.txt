@@ -334,11 +334,11 @@ To sign up: https://chargingthefuture.com. It is free, everyone is let in one at
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/new-here-three-things-to-do-first
 
 ==============================================================================
-2026-09-23 · Old links, new links
+2026-09-25 · Old links, new links
 
-Quora has erased my accounts fifty-three times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
+Quora has erased my accounts fifty-four times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
 
-There is one handle of mine on Quora, opened on the morning of September 23, 2026, three hours and forty-two minutes after the ban before it. Everything before it is dead.
+There is one handle of mine on Quora, opened on the morning of September 25, 2026, four hours and twenty-three minutes after the ban before it. Everything before it is dead.
 
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
@@ -354,7 +354,7 @@ To reach me, save this link alongside the blog: https://sleek.bio/farah — it l
 
 Quora: current
 
-The handle: https://www.quora.com/profile/Kingtechiee — opened at 6:14 in the morning on September 23, 2026, three hours and forty-two minutes after Kingofno-2 was banned. Note the spelling: Kingtechie, one e, is a dead account in the list below and is not this one.
+The handle: https://www.quora.com/profile/Kingrebecca — opened at 8:52 in the morning on September 25, 2026, four hours and twenty-three minutes after Kingtechiee was banned.
 
 The space: https://skillseconomy.quora.com
 
@@ -388,7 +388,7 @@ https://www.quora.com/profile/kingmonk — my eleventh handle, opened on August 
 
 https://www.quora.com/profile/king900 — my twelfth handle, opened on August 28, 2026, the day the eleventh was banned, and banned by Quora Moderation at 5:02 in the morning on August 30, 2026. Two days. The notice arrived twice, a minute apart.
 
-Then thirty-five more, in the order they were opened. I stopped writing the dates down one at a time, because by then a handle lasting a day was ordinary. They are back now, taken from the notices in my mail. One of them, kingpyramid, has its ban and not its opening, and says so; the notice for that one is gone. Every one of these addresses is a dead link somebody may still be holding.
+Then forty-two more, in the order they were opened. I stopped writing the dates down one at a time, because by then a handle lasting a day was ordinary. They are back now, taken from the notices in my mail. One of them, kingpyramid, has its ban and not its opening, and says so; the notice for that one is gone. Every one of these addresses is a dead link somebody may still be holding.
 
 https://www.quora.com/profile/kingplaza-1 — opened at 9:01 in the evening on August 30, 2026, the same day king900 was banned before six that morning, and banned the same minute. Both notices are stamped 9:01, the confirmation at 9:01 and 49 seconds. It is the shortest life on this page and nothing else is close.
 
@@ -472,6 +472,8 @@ https://www.quora.com/profile/Kingmlk — opened at 10:09 in the evening on Sept
 
 https://www.quora.com/profile/Kingofno-2 — opened at 10:37 in the evening on September 20, 2026, eight minutes after Kingmlk was banned, and banned by Quora Moderation at 2:32 in the morning on September 23, 2026. Just under fifty-two hours, and the longest run since KingLaundry.
 
+https://www.quora.com/profile/Kingtechiee — opened at 6:14 in the morning on September 23, 2026, three hours and forty-two minutes after Kingofno-2 was banned, and banned by Quora Moderation at 4:29 in the morning on September 25, 2026. Just over forty-six hours. Two e's; Kingtechie, with one, is the separate account above.
+
 Different every time, same label
 
 Worth recording, because it is the part that settles the question.
@@ -508,7 +510,7 @@ The rule behind all of it
 
 Nothing is written on a platform first anymore. Every post starts here, and platforms only ever get a short version and a link back. So the next time an account is erased — and I assume there will be a next time — the cost is one entry moving from the current list to the dead list on this page. That is all.
 
-Since this page first went up, that has happened fifty-one times. The list above is current, and Kingtechiee is the entry waiting to move onto it.
+Since this page first went up, that has happened fifty-two times. The list above is current, and Kingrebecca is the entry waiting to move onto it.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/old-links-new-links
 
