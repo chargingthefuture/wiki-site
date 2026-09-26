@@ -650,9 +650,9 @@ word legitimately: the Signal chats, which really are invite-only, and the froze
 
 ## Agent Slash Commands (always apply, every repo)
 
-Owner directives, 2026-08-17 and 2026-09-22. Four routines are defined in `.claude/commands/` in the product repo (`chargingthefuture/chargingthefuture`). Each is the standing way to do its kind of work, and the owner does not have to type the slash command for it to apply — the request itself is the trigger. Three of the four apply here, and `/fix` applies here more than anywhere, because this repository is almost entirely writing.
+Owner directives, 2026-08-17, 2026-09-22 and 2026-09-26 (`/bpr` renamed `/br`). Four routines are defined in `.claude/commands/` in the product repo (`chargingthefuture/chargingthefuture`). Each is the standing way to do its kind of work, and the owner does not have to type the slash command for it to apply — the request itself is the trigger. Three of the four apply here, and `/fix` applies here more than anywhere, because this repository is almost entirely writing.
 
-### /bpr — every executed change
+### /br — every executed change
 
 Any request that changes files runs this routine, whatever repo it lands in. There is no separate mode for small changes.
 
@@ -662,6 +662,10 @@ Any request that changes files runs this routine, whatever repo it lands in. The
 4. Open the PR ready for review, never a draft, with the title and body set at creation so no check goes red and needs re-triggering.
 
 Never commit to, or open a PR from, the auto-generated `claude/<slug>` session branch the harness assigns. If commits already sit there, move them onto a descriptive branch and abandon the session branch.
+
+### No PR watching (owner directive, 2026-09-26)
+
+No command watches a pull request, here or in any repo. After opening one, do not subscribe to its activity, do not schedule a check-in, and do not wait for its checks to finish. Report once and stop. Watching fills the session with GitHub notices and full check lists, which brings on compaction sooner, and a compacted session loses what the owner said earlier. The local checks before every push keep a PR green; `/pr` is one pass over open PRs when the owner asks where they stand, not a watch.
 
 ### /pr — opening a PR is the start of the job, not the end
 
