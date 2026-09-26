@@ -667,6 +667,17 @@ Never commit to, or open a PR from, the auto-generated `claude/<slug>` session b
 
 No command watches a pull request, here or in any repo. After opening one, do not subscribe to its activity, do not schedule a check-in, and do not wait for its checks to finish. Report once and stop. Watching fills the session with GitHub notices and full check lists, which brings on compaction sooner, and a compacted session loses what the owner said earlier. The local checks before every push keep a PR green; `/pr` is one pass over open PRs when the owner asks where they stand, not a watch.
 
+### Keep sessions from filling up (owner directive, 2026-09-26)
+
+Everything an agent reads stays in the session until compaction, and compaction swaps the earlier conversation for a summary. So spend the session on the owner's words, not on raw output.
+
+- Hand broad searches to a helper agent that returns only its conclusion. Anything that means reading across several files or directories to answer one question goes to a helper; a single lookup in a known file is done directly.
+- Read only the part of a file the task needs, by line range or search, not entire files.
+- Read only failed checks and the failing part of a log. Never pull a full list of passing checks or a full log to confirm something is green.
+- Take a screenshot only when a visual change has to be checked, and look at it once.
+
+The owner can also compact on their own terms: typing `/compact` followed by what to keep (for example, `/compact keep the open PR list and today's rules`) compacts at a moment they choose, with their instructions shaping the summary. `/clear` starts the session over. Rules that must outlive any session go in this file, not in chat.
+
 ### /pr — opening a PR is the start of the job, not the end
 
 Agents open pull requests and abandon them. A PR left alone is work that never shipped, and in this repo that matters more than usual: nothing reaches the blog until it is on `main`, and auto-merge is off, so a PR sits until someone acts. Sweep every open PR that is blocked, behind, conflicted, or failing checks, and drive each one to merge — resolve conflicts by understanding both sides, read the actual failure log before touching anything, bring behind branches up to date. Do not report that a PR needs something; do it. Leave alone only a draft someone is actively working, or a PR sitting green and waiting on the owner's review, and say which those are.
