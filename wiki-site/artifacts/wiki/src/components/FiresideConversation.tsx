@@ -186,8 +186,7 @@ export function FiresideConversation({
       </a>
 
       <p className="mt-3 font-mono text-xs leading-relaxed text-gray-500">
-        The link opens this same conversation in the app. Signing in first returns you here to it,
-        not to somewhere else.
+        The link opens this same conversation in the app. Signing in first returns you here to it.
       </p>
     </section>
   );
