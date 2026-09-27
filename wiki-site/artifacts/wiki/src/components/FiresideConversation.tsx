@@ -184,6 +184,10 @@ export function FiresideConversation({
       >
         {top.length > 0 ? "Join this conversation" : "Start this conversation"}
       </a>
+
+      <p className="mt-3 font-mono text-xs leading-relaxed text-gray-500">
+        The link opens this same conversation in the app. Signing in first returns you here to it.
+      </p>
     </section>
   );
 }
