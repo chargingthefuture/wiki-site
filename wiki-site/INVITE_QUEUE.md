@@ -115,7 +115,7 @@ needed to write the next posts, because the copied list itself is never committe
 | Mary Harris | Mary-T-I-1 | — | — | — | skipped — owner decision, 2026-09-20. Not to be written unless the owner says so. She does not appear on the invite queue screen, so this row is the only record of the skip. |
 | Lorraine Valente | lorraine-valente | Ten clinical skills on one listing — clinical supervision, cognitive behavioral therapy, crisis intervention, diagnosis and treatment planning, evidence-based therapeutic interventions, group therapy facilitation, neuropsychological assessment, psychological assessment and testing, research and data analysis, trauma therapy and EMDR | skill-specific | You already have a profile | published |
 | Krissyy | Krissyy-2 | Legal research and drafting; Minneapolis | skill-specific | The labor movement, and King | published |
-| Jessica Goodwin | (address to add) | Advocacy (placeholder); United States | advocacy-only | You already have a profile | in PR — moved up by the owner, 2026-09-28, after answering their question in who-to-report-it-to.md; the post speaks to what the list can do for them |
+| Jessica Goodwin | Jessica-Goodwin-229 | Advocacy (placeholder); United States | advocacy-only | You already have a profile | in PR — moved up by the owner, 2026-09-28, after answering their question in who-to-report-it-to.md; the post speaks to what the list can do for them |
 
 Status is one of: `queued`, `drafted`, `in PR`, `published`, `skipped`. A skipped row keeps its
 reason in the notes column so nobody re-queues it a month later.

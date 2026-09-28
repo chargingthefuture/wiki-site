@@ -10,7 +10,7 @@ topics:
   - community
 ---
 
-A question on Quora, asked by Jessica Goodwin on August 13, 2025:
+A question on Quora, asked by Jessica Goodwin (https://www.quora.com/profile/Jessica-Goodwin-229) on August 13, 2025:
 
 > Who should I report my gang stalking to?
 
