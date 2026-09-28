@@ -1,7 +1,7 @@
 # Invite queue
 
 An invite post is written for one person who is already listed in the Directory, and it names what
-they actually do. Three have been published. This file tracks who is next, what has gone out, and
+they actually do. Eleven have been published. This file tracks who is next, what has gone out, and
 the two rules that keep the series readable.
 
 The list of people comes from `/admin/directory/invite-queue` in the app — reachable from the
