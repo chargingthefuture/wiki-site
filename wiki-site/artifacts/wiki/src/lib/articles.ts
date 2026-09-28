@@ -100,6 +100,22 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "it-happens-at-work",
+    "title": "It happens at work",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-28",
+    "excerpt": "Somebody asked on Quora whether this happens at work. It does, and work is where it does the most damage, because work is where the income is.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/it-happens-at-work.md",
+    "teaser": "Somebody asked on Quora whether this happens in professional or work settings. It does, and there is an old name for the workplace version: mobbing, a group turning on one colleague over months until the person leaves or breaks. Work is where it does the most damage, because work is where the income is. Pushing somebody out of a job cuts them off from money, from colleagues, and from the next job. What answers that is a dated record, and work arranged with people who are not part of it.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "workforce"
+    ]
+  },
+  {
     "slug": "new-here-three-things-to-do-first",
     "title": "New here? Three things to do first",
     "repo": "chargingthefuture/wiki-site",
