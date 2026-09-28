@@ -45,7 +45,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/an-invitation-to-krissyy.md",
-    "teaser": "Dr. King's last campaign was economic, and the Memphis strike he was killed supporting ended with the city agreeing to terms. A demand that is won becomes words on paper, and somebody has to be able to write them. Krissyy, in Minneapolis, has a Directory listing with one skill on it: legal research and drafting. Of the 163 people on the list, theirs is the only listing that carries it. This is an invitation to claim that listing, and no is a complete answer.",
+    "teaser": "Dr. King's last campaign was economic. He was killed in Memphis while supporting a sanitation strike, and the strike ended with the city agreeing to terms. A demand that is won becomes words on paper, and somebody has to be able to write them. Krissyy, in Minneapolis, has a Directory listing with one skill on it: legal research and drafting. Of the 163 people on the list, theirs is the only listing that carries it. This is an invitation to claim that listing, and no is a complete answer.",
     "topics": [
       "community",
       "directory",
