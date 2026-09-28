@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-krissyy",
+    "title": "An invitation to Krissyy",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-28",
+    "excerpt": "Dr. King went to Memphis for a union, and the strike ended in terms the city agreed to in writing. Somebody has to be able to write the terms down. On this list, one person can.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-krissyy.md",
+    "teaser": "Dr. King's last campaign was economic. He was killed in Memphis while supporting a sanitation strike, and the strike ended with the city agreeing to terms. A demand that is won becomes words on paper, and somebody has to be able to write them. Krissyy, in Minneapolis, has a Directory listing with one skill on it: legal research and drafting. Of the 163 people on the list, theirs is the only listing that carries it. This is an invitation to claim that listing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ]
+  },
+  {
     "slug": "old-links-new-links",
     "title": "Old links, new links",
     "repo": "chargingthefuture/wiki-site",
