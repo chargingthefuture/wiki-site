@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-zack",
+    "title": "An invitation to Zack",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-28",
+    "excerpt": "A community that houses people makes waste and draws water, and somebody has to know where both go. On this list, that work is nearly empty.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-zack.md",
+    "teaser": "It is an invitation to join the Skills Economy. Zack Tom, in Denmark, has a Directory listing with five environmental skills on it: monitoring habitats, designing pollution control, modeling where waste goes, planning corrections when rules are broken, and running the outreach that gets people to look after a place. Across the list, 6 of the 25 environmental and waste skills the app tracks are held by anybody, and 3 of the 19 for water and sanitation. A community that houses people needs that work from its first day.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ]
+  },
+  {
     "slug": "an-invitation-to-jessica",
     "title": "An invitation to Jessica",
     "repo": "chargingthefuture/wiki-site",
