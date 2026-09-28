@@ -38,7 +38,7 @@ Read together, they ask for three things: somebody to tell, a way to know for su
 
 ## Somebody to tell
 
-I answered the first question in [Who to report it to](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/who-to-report-it-to). The short version: I do not know of an office that takes a report of the entire pattern and acts on it. A police report carries one incident, described as the crime it is.
+I answered the first question in [Who to report it to](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/who-to-report-it-to). The short version: I do not know of a local office that takes a report of the entire pattern and acts on it. A police report carries one incident, described as the crime it is. The United Nations collects reports of the pattern, as the human rights violation it is.
 
 The telling that helps most is often not a report. The [Commons](https://app.chargingthefuture.com) is a group chat of other Targeted Individuals, and nobody there needs the first hour of a conversation spent on whether it is happening.
 

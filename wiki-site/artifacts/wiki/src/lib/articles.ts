@@ -61,7 +61,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/who-to-report-it-to.md",
-    "teaser": "Somebody asked on Quora who to report this to. I do not know of an office that takes a report of the entire pattern and acts on it, and I would rather say so than send anybody to a door that does not open. What a police report can carry is one incident, described as the crime it is. What carries the pattern is your own record, kept as it happens. And the question underneath the question is usually who can help, which has a better answer: other people, and what they can do.",
+    "teaser": "Somebody asked on Quora who to report this to. I do not know of a local office that takes a report of the entire pattern and acts on it. The United Nations does collect reports of it, as a human rights violation. What a police report can carry is one incident, described as the crime it is. What carries the pattern is your own record, kept as it happens. And the question underneath the question is usually who can help, which has a better answer: other people, and what they can do.",
     "topics": [
       "specterati",
       "clicklog",
