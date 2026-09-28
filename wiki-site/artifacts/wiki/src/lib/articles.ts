@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "who-to-report-it-to",
+    "title": "Who to report it to",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-28",
+    "excerpt": "A report carries one incident. Your own record carries the pattern. And the help people usually mean by the question comes from other people.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/who-to-report-it-to.md",
+    "teaser": "Somebody asked on Quora who to report this to. I do not know of a local office that takes a report of the entire pattern and acts on it. The United Nations does collect reports of it, as a human rights violation. What a police report can carry is one incident, described as the crime it is. What carries the pattern is your own record, kept as it happens. And the question underneath the question is usually who can help, which has a better answer: other people, and what they can do.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "community"
+    ]
+  },
+  {
     "slug": "an-invitation-to-krissyy",
     "title": "An invitation to Krissyy",
     "repo": "chargingthefuture/wiki-site",
