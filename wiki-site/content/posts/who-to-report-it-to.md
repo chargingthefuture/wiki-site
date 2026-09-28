@@ -3,7 +3,7 @@ title: "Who to report it to"
 date: "2026-09-28"
 excerpt: "A report carries one incident. Your own record carries the pattern. And the help people usually mean by the question comes from other people."
 category: "Community"
-teaser: "Somebody asked on Quora who to report this to. I do not know of an office that takes a report of the entire pattern and acts on it, and I would rather say so than send anybody to a door that does not open. What a police report can carry is one incident, described as the crime it is. What carries the pattern is your own record, kept as it happens. And the question underneath the question is usually who can help, which has a better answer: other people, and what they can do."
+teaser: "Somebody asked on Quora who to report this to. I do not know of a local office that takes a report of the entire pattern and acts on it. The United Nations does collect reports of it, as a human rights violation. What a police report can carry is one incident, described as the crime it is. What carries the pattern is your own record, kept as it happens. And the question underneath the question is usually who can help, which has a better answer: other people, and what they can do."
 topics:
   - specterati
   - clicklog
@@ -18,9 +18,9 @@ The question is at https://www.quora.com/Who-should-I-report-my-gang-stalking-to
 
 ![The question on its Quora page, captured September 28, 2026. The heading reads: Who should I report my gang stalking to? Below it, under Asked by, the name Jessica Goodwin. Under Question stats: 3 public followers, 1.8K views, last followed Aug 13, 2025.](images/jessica-goodwin-question-2026-09-28.jpg)
 
-I do not know of an office that takes a report of the entire pattern and acts on it. I would rather say that plainly than send anybody to a door that does not open.
+I do not know of a local office that takes a report of the entire pattern and acts on it. I would rather say that plainly than send anybody to a door that does not open.
 
-That is not the end of the answer. It splits into three smaller ones.
+That is not the end of the answer. It splits into four smaller ones.
 
 ## What a report can carry
 
@@ -29,6 +29,12 @@ A police report records an incident. A break-in, damage to a car, a threat, some
 What a single report was not built to hold is the pattern: many people, many days, each act small enough to explain away on its own. That is the part that makes this Specterati harassment rather than a run of bad luck, and it is also the part a report form has no box for.
 
 None of this is legal advice, and it does not tell anybody what to do when a report goes nowhere. It is what a report is.
+
+## Where the pattern can be reported
+
+The United Nations collects reports of this, because it is a human rights violation and it happens in every country rather than one. The Special Rapporteur on Torture, who reports to the UN Human Rights Council, takes submissions from individuals. The Rapporteur's 2020 report to the Council (A/HRC/43/49) addressed coordinated harassment as a category and said the volume of allegations warrants investigation rather than dismissal.
+
+A report there does not bring anybody to your door. It adds to the record that report was written from, and that record is also where my estimate of five million survivors worldwide begins.
 
 ## Keep your own record first
 
