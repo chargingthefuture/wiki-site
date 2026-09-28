@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-jessica",
+    "title": "An invitation to Jessica",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-28",
+    "excerpt": "Your questions on Quora ask who to tell, how to know, and whether moving helps. Each one has something on this list, or in the app, that answers part of it.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-jessica.md",
+    "teaser": "It is an invitation to join the Skills Economy, and the listing is already there. Jessica Goodwin's questions on Quora ask three things: who to tell, how to know for sure, and whether moving would help. Nobody should have to carry those alone, and each one has something here that answers part of it: a record that shows you the pattern yourself, people who will not need convincing, and help with the things that make a move hold. The listing costs nothing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "clicklog"
+    ]
+  },
+  {
     "slug": "who-to-report-it-to",
     "title": "Who to report it to",
     "repo": "chargingthefuture/wiki-site",
