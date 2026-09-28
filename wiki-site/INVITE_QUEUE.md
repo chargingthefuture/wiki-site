@@ -1,7 +1,7 @@
 # Invite queue
 
 An invite post is written for one person who is already listed in the Directory, and it names what
-they actually do. Three have been published. This file tracks who is next, what has gone out, and
+they actually do. Eleven have been published. This file tracks who is next, what has gone out, and
 the two rules that keep the series readable.
 
 The list of people comes from `/admin/directory/invite-queue` in the app — reachable from the
@@ -95,6 +95,7 @@ Rotate these. Each is a way into the same invitation; none of them is a template
 | Tommy | Tommy-Gumbert | an-invitation-to-tommy.md | Mechanical and electrical repair and HVAC, against the housing answer that only holds while the heat works, and two of the thirteen jobs | 2026-09-20 |
 | Alphelus Allen | Alphelus-Allen | an-invitation-to-alphelus.md | Seven specializations running from power systems design to wiring and circuit installation, against the two things that have to be true for the targeting to work | 2026-09-21 |
 | Lorraine Valente | lorraine-valente | an-invitation-to-lorraine.md | Ten clinical specializations read as one trade, against the listing already existing before anybody was asked, and health and wellbeing as one of the thirteen jobs | 2026-09-22 |
+| Krissyy | Krissyy-2 | an-invitation-to-krissyy.md | Legal research and drafting, the only listing of 163 that carries it, against the Memphis strike ending in terms somebody had to write down | 2026-09-28 |
 
 When a post merges, add its row here and add the handle in two places in the product repository,
 in the same piece of work: the `DIRECTORY_INVITE_ALREADY_WRITTEN` array in
@@ -113,7 +114,7 @@ needed to write the next posts, because the copied list itself is never committe
 | Dayna | Dayna-388 | Inventory, demand forecasting, route planning, last-mile delivery; offering soap and candles | skill-specific | You already have a profile | skipped — owner decision, 2026-09-19. Not to be written unless the owner says so. The row stays so nobody re-queues it. |
 | Mary Harris | Mary-T-I-1 | — | — | — | skipped — owner decision, 2026-09-20. Not to be written unless the owner says so. She does not appear on the invite queue screen, so this row is the only record of the skip. |
 | Lorraine Valente | lorraine-valente | Ten clinical skills on one listing — clinical supervision, cognitive behavioral therapy, crisis intervention, diagnosis and treatment planning, evidence-based therapeutic interventions, group therapy facilitation, neuropsychological assessment, psychological assessment and testing, research and data analysis, trauma therapy and EMDR | skill-specific | You already have a profile | published |
-| Krissyy | Krissyy-2 | Legal research and drafting; Minneapolis | skill-specific | The labor movement, and King | in PR |
+| Krissyy | Krissyy-2 | Legal research and drafting; Minneapolis | skill-specific | The labor movement, and King | published |
 
 Status is one of: `queued`, `drafted`, `in PR`, `published`, `skipped`. A skipped row keeps its
 reason in the notes column so nobody re-queues it a month later.
