@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "who-to-report-it-to",
+    "title": "Who to report it to",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-28",
+    "excerpt": "A report carries one incident. Your own record carries the pattern. And the help people usually mean by the question comes from other people.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/who-to-report-it-to.md",
+    "teaser": "Somebody asked on Quora who to report this to. I do not know of an office that takes a report of the entire pattern and acts on it, and I would rather say so than send anybody to a door that does not open. What a police report can carry is one incident, described as the crime it is. What carries the pattern is your own record, kept as it happens. And the question underneath the question is usually who can help, which has a better answer: other people, and what they can do.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "community"
+    ]
+  },
+  {
     "slug": "an-invitation-to-krissyy",
     "title": "An invitation to Krissyy",
     "repo": "chargingthefuture/wiki-site",
@@ -68,19 +84,19 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
-    "slug": "who-to-report-it-to",
-    "title": "Who to report it to",
+    "slug": "an-invitation-to-jessica",
+    "title": "An invitation to Jessica",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-09-28",
-    "excerpt": "A report carries one incident. Your own record carries the pattern. And the help people usually mean by the question comes from other people.",
+    "excerpt": "Your questions on Quora ask who to tell, how to know, and whether moving helps. Each one has something on this list, or in the app, that answers part of it.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/who-to-report-it-to.md",
-    "teaser": "Somebody asked on Quora who to report this to. I do not know of an office that takes a report of the entire pattern and acts on it, and I would rather say so than send anybody to a door that does not open. What a police report can carry is one incident, described as the crime it is. What carries the pattern is your own record, kept as it happens. And the question underneath the question is usually who can help, which has a better answer: other people, and what they can do.",
+    "path": "posts/an-invitation-to-jessica.md",
+    "teaser": "It is an invitation to join the Skills Economy, and the listing is already there. Jessica Goodwin's questions on Quora ask three things: who to tell, how to know for sure, and whether moving would help. Nobody should have to carry those alone, and each one has something here that answers part of it: a record that shows you the pattern yourself, people who will not need convincing, and help with the things that make a move hold. The listing costs nothing, and no is a complete answer.",
     "topics": [
-      "specterati",
-      "clicklog",
-      "community"
+      "community",
+      "directory",
+      "clicklog"
     ]
   },
   {
