@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-zack",
+    "title": "An invitation to Zack",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-28",
+    "excerpt": "A community that houses people makes waste and draws water, and somebody has to know where both go. On this list, that work is nearly empty.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-zack.md",
+    "teaser": "It is an invitation to join the Skills Economy. Zack Tom, in Denmark, has a Directory listing with five environmental skills on it: monitoring habitats, designing pollution control, modeling where waste goes, planning corrections when rules are broken, and running the outreach that gets people to look after a place. Across the list, 6 of the 25 environmental and waste skills the app tracks are held by anybody, and 3 of the 19 for water and sanitation. A community that houses people needs that work from its first day.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ]
+  },
+  {
     "slug": "an-invitation-to-jessica",
     "title": "An invitation to Jessica",
     "repo": "chargingthefuture/wiki-site",
@@ -100,18 +116,18 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
-    "slug": "an-invitation-to-zack",
-    "title": "An invitation to Zack",
+    "slug": "it-happens-at-work",
+    "title": "It happens at work",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-09-28",
-    "excerpt": "A community that houses people makes waste and draws water, and somebody has to know where both go. On this list, that work is nearly empty.",
+    "excerpt": "Somebody asked on Quora whether this happens at work. It does, and work is where it does the most damage, because work is where the income is.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/an-invitation-to-zack.md",
-    "teaser": "It is an invitation to join the Skills Economy. Zack Tom, in Denmark, has a Directory listing with five environmental skills on it: monitoring habitats, designing pollution control, modeling where waste goes, planning corrections when rules are broken, and running the outreach that gets people to look after a place. Across the list, 6 of the 25 environmental and waste skills the app tracks are held by anybody, and 3 of the 19 for water and sanitation. A community that houses people needs that work from its first day.",
+    "path": "posts/it-happens-at-work.md",
+    "teaser": "Somebody asked on Quora whether this happens in professional or work settings. It does, and there is an old name for the workplace version: mobbing, a group turning on one colleague over months until the person leaves or breaks. Work is where it does the most damage, because work is where the income is. Pushing somebody out of a job cuts them off from money, from colleagues, and from the next job. What answers that is a dated record, and work arranged with people who are not part of it.",
     "topics": [
-      "community",
-      "directory",
+      "specterati",
+      "clicklog",
       "workforce"
     ]
   },
