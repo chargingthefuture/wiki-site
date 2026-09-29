@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "how-i-can-help",
+    "title": "How I can help",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-28",
+    "excerpt": "Somebody asked on Quora how anybody could help, knowing who some of the people involved are. Nobody honest can promise to make it stop. Here is what can actually be done.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/how-i-can-help.md",
+    "teaser": "Somebody asked on Quora how anybody could help them, and said they know some of who is involved. Nobody honest can promise to make it stop, and I will not. What I can offer is plainer: what to do with knowing who, which is mostly to write it down; people who believe you without an argument first; and help with the things that make a week bearable, from people who are not part of it.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "community"
+    ]
+  },
+  {
     "slug": "questions-from-a-bot",
     "title": "Questions from a bot, bans for the people answering",
     "repo": "chargingthefuture/wiki-site",
@@ -145,22 +161,6 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "publishing",
       "platform-independence"
-    ]
-  },
-  {
-    "slug": "how-i-can-help",
-    "title": "How I can help",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-28",
-    "excerpt": "Somebody asked on Quora how anybody could help, knowing who some of the people involved are. Nobody honest can promise to make it stop. Here is what can actually be done.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/how-i-can-help.md",
-    "teaser": "Somebody asked on Quora how anybody could help them, and said they know some of who is involved. Nobody honest can promise to make it stop, and I will not. What I can offer is plainer: what to do with knowing who, which is mostly to write it down and not to confront anybody; people who believe you without an argument first; and help with the things that make a week bearable, from people who are not part of it.",
-    "topics": [
-      "specterati",
-      "clicklog",
-      "community"
     ]
   },
   {
