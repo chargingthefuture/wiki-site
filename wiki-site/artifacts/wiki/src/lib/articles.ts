@@ -45,7 +45,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/an-invitation-to-eli.md",
-    "teaser": "It is an invitation to join the Skills Economy, and the listing is already there. Eli Paniagua asked on Quora why so many high school kids take part and seem to know so much, and I answered on the blog. The targeting works because the people around a survivor can be reached, and it reaches them young. What answers that is having people to turn to anyway. The Directory is a list of people and what they can do, and Eli is on it, with a placeholder where their skills will go. The listing costs nothing, and no is a complete answer.",
+    "teaser": "It is an invitation to join the Skills Economy, and the listing is already there. Eli Paniagua asked on Quora why so many high school kids take part and seem to know so much, and I answered on the blog. The targeting works because the people around a survivor can be reached, and it reaches them young. The answer is to have people you can still turn to. The Directory is a list of people and what they can do, and Eli is on it, with a placeholder where their skills will go. The listing costs nothing, and no is a complete answer.",
     "topics": [
       "community",
       "directory",
