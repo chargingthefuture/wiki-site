@@ -119,6 +119,7 @@ needed to write the next posts, because the copied list itself is never committe
 | Zack Tom | Zack-Tom-4 | Biodiversity monitoring and habitat assessment; community outreach and stewardship; enforcement actions and corrective plans; pollution control system design; waste-flow modeling and policy evaluation; Denmark | skill-specific | A working economy needs people who | in PR |
 | Jerrod Fredrick | Jerrod-Fredrick | Advocacy (placeholder); United States | advocacy-only | You already have a profile | in PR — owner decision, 2026-09-28, after answering their question in how-i-can-help.md |
 | Eli Paniagua | Eli-Paniagua-1 | Advocacy (placeholder); United States | advocacy-only | Two things have to be true | in PR — owner decision, 2026-09-28, after answering their question in who-teaches-them.md |
+| Brecht Corbeel | Brecht-Corbeel | Brand management; branding and identity systems; visual design and interaction patterns; visual concept development; illustration and concept art; Antwerp | skill-specific | You do not have to agree with me | in PR — owner decision, 2026-09-28, after answering their question in it-happens-at-work.md; their Quora account is banned, so the blog is the address that reaches them |
 
 Status is one of: `queued`, `drafted`, `in PR`, `published`, `skipped`. A skipped row keeps its
 reason in the notes column so nobody re-queues it a month later.
