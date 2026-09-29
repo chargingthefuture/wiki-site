@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-zack",
+    "title": "An invitation to Zack",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-28",
+    "excerpt": "A community that houses people makes waste and draws water, and somebody has to know where both go. On this list, that work is nearly empty.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-zack.md",
+    "teaser": "It is an invitation to join the Skills Economy. Zack Tom, in Denmark, has a Directory listing with five environmental skills on it: monitoring habitats, designing pollution control, modeling where waste goes, planning corrections when rules are broken, and running the outreach that gets people to look after a place. Across the list, 6 of the 25 environmental and waste skills the app tracks are held by anybody, and 3 of the 19 for water and sanitation. A community that houses people needs that work from its first day.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ]
+  },
+  {
     "slug": "it-happens-at-work",
     "title": "It happens at work",
     "repo": "chargingthefuture/wiki-site",
@@ -148,19 +164,19 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
-    "slug": "an-invitation-to-zack",
-    "title": "An invitation to Zack",
+    "slug": "questions-from-a-bot",
+    "title": "Questions from a bot, bans for the people answering",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-09-28",
-    "excerpt": "A community that houses people makes waste and draws water, and somebody has to know where both go. On this list, that work is nearly empty.",
+    "excerpt": "Quora's own bot writes questions about Targeted Individuals. Quora has also erased my accounts fifty-six times.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/an-invitation-to-zack.md",
-    "teaser": "It is an invitation to join the Skills Economy. Zack Tom, in Denmark, has a Directory listing with five environmental skills on it: monitoring habitats, designing pollution control, modeling where waste goes, planning corrections when rules are broken, and running the outreach that gets people to look after a place. Across the list, 6 of the 25 environmental and waste skills the app tracks are held by anybody, and 3 of the 19 for water and sanitation. A community that houses people needs that work from its first day.",
+    "path": "posts/questions-from-a-bot.md",
+    "teaser": "Quora runs a bot that writes questions nobody asked, and some of them are about Targeted Individuals: how long it lasts, how to tell, how to build support. Of the first seventeen questions I went back to answer, four came from that bot. Quora has erased my accounts fifty-six times. I do not advocate violence. The platform wants the questions asked and does not want the people who can answer them.",
     "topics": [
-      "community",
-      "directory",
-      "workforce"
+      "platform-independence",
+      "publishing",
+      "community"
     ]
   },
   {
