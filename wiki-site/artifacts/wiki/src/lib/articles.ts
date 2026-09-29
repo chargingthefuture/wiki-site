@@ -45,7 +45,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/who-teaches-them.md",
-    "teaser": "Somebody asked on Quora why so many high school kids seem to know so much about taking part, and whether their parents teach them. In what I have seen, parents teach them, and so do strangers. Where the parents take part, the children do too, and it starts as young as two. Where they do not, strangers do the recruiting, with slander and something in exchange: sex, drugs, a job. For me it started at five, and it was adults first, then children. An adult stranger who hates a five-year-old they have never met is perverse, and it was obvious.",
+    "teaser": "Somebody asked on Quora why so many high school kids seem to know so much about taking part, and whether their parents teach them. In what I have seen, parents teach them, and so do strangers. Where the parents take part, the children do too, and it starts as young as two. Where they do not, strangers do the recruiting, with slander and something in exchange: sex, drugs, a job. For me it started at five, and it was adults first, then children. An adult stranger who hates a five-year-old they have never met is perverse, and it is what made it obvious.",
     "topics": [
       "specterati",
       "clicklog",

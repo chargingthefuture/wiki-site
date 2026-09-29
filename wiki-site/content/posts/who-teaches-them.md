@@ -3,7 +3,7 @@ title: "Who teaches them"
 date: "2026-09-28"
 excerpt: "Somebody asked on Quora whether teenagers who take part learn it from their parents. In what I have seen, parents teach them, and so do strangers."
 category: "Community"
-teaser: "Somebody asked on Quora why so many high school kids seem to know so much about taking part, and whether their parents teach them. In what I have seen, parents teach them, and so do strangers. Where the parents take part, the children do too, and it starts as young as two. Where they do not, strangers do the recruiting, with slander and something in exchange: sex, drugs, a job. For me it started at five, and it was adults first, then children. An adult stranger who hates a five-year-old they have never met is perverse, and it was obvious."
+teaser: "Somebody asked on Quora why so many high school kids seem to know so much about taking part, and whether their parents teach them. In what I have seen, parents teach them, and so do strangers. Where the parents take part, the children do too, and it starts as young as two. Where they do not, strangers do the recruiting, with slander and something in exchange: sex, drugs, a job. For me it started at five, and it was adults first, then children. An adult stranger who hates a five-year-old they have never met is perverse, and it is what made it obvious."
 topics:
   - specterati
   - clicklog
@@ -36,7 +36,7 @@ The recruiting runs on slander. Somebody is told a story about the target, is sw
 
 My targeting started at five, and it was adults first. Then the children.
 
-That is why it was obvious. An adult stranger "recognizes" a five-year-old, has a deep hatred for them, and does not know them. That is perverse. It is also obvious, and it looks like pedophilia.
+An adult stranger "recognizes" a five-year-old, has a deep hatred for them, and does not know them. That is perverse, and it is what made it obvious.
 
 The targeting ran through school from there. [What about school?](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-about-school) is about that.
 
