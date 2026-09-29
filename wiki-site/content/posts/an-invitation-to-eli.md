@@ -3,7 +3,7 @@ title: "An invitation to Eli"
 date: "2026-09-28"
 excerpt: "You noticed how young they start. The targeting runs on reaching the people around a survivor, and it reaches them early. This list is the other side of that."
 category: "Community"
-teaser: "It is an invitation to join the Skills Economy, and the listing is already there. Eli Paniagua asked on Quora why so many high school kids take part and seem to know so much, and I answered on the blog. The targeting works because the people around a survivor can be reached, and it reaches them young. What answers that is having people to turn to anyway. The Directory is a list of people and what they can do, and Eli is on it, with a placeholder where their skills will go. The listing costs nothing, and no is a complete answer."
+teaser: "It is an invitation to join the Skills Economy, and the listing is already there. Eli Paniagua asked on Quora why so many high school kids take part and seem to know so much, and I answered on the blog. The targeting works because the people around a survivor can be reached, and it reaches them young. The answer is to have people you can still turn to. The Directory is a list of people and what they can do, and Eli is on it, with a placeholder where their skills will go. The listing costs nothing, and no is a complete answer."
 topics:
   - community
   - directory
@@ -16,7 +16,7 @@ The first is that the people around you can be reached. You noticed how early th
 
 The second is that there is nobody else. That one is not a starting condition. It is what the first produces, given time.
 
-Nothing I know of stops them reaching people. What answers it is having people to turn to anyway, doing the things a week runs on.
+Nothing I know of stops them reaching people. The answer is to have people you can still turn to, doing the things a week runs on.
 
 ## Eli
 
