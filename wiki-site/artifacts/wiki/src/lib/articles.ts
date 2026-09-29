@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "questions-from-a-bot",
+    "title": "Questions from a bot, bans for the people answering",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-28",
+    "excerpt": "Quora's own bot writes questions about Targeted Individuals. Quora has also erased my accounts fifty-six times.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/questions-from-a-bot.md",
+    "teaser": "Quora runs a bot that writes questions nobody asked, and some of them are about Targeted Individuals: how long it lasts, how to tell, how to build support. Of the first seventeen questions I went back to answer, four came from that bot. Quora has erased my accounts fifty-six times. I do not advocate violence. The platform wants the questions asked and does not want the people who can answer them.",
+    "topics": [
+      "platform-independence",
+      "publishing",
+      "community"
+    ]
+  },
+  {
     "slug": "it-happens-at-work",
     "title": "It happens at work",
     "repo": "chargingthefuture/wiki-site",
@@ -132,18 +148,18 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
-    "slug": "questions-from-a-bot",
-    "title": "Questions from a bot, bans for the people answering",
+    "slug": "how-i-can-help",
+    "title": "How I can help",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-09-28",
-    "excerpt": "Quora's own bot writes questions about Targeted Individuals. Quora has also erased my accounts fifty-six times.",
+    "excerpt": "Somebody asked on Quora how anybody could help, knowing who some of the people involved are. Nobody honest can promise to make it stop. Here is what can actually be done.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/questions-from-a-bot.md",
-    "teaser": "Quora runs a bot that writes questions nobody asked, and some of them are about Targeted Individuals: how long it lasts, how to tell, how to build support. Of the first seventeen questions I went back to answer, four came from that bot. Quora has erased my accounts fifty-six times. I do not advocate violence. The platform wants the questions asked and does not want the people who can answer them.",
+    "path": "posts/how-i-can-help.md",
+    "teaser": "Somebody asked on Quora how anybody could help them, and said they know some of who is involved. Nobody honest can promise to make it stop, and I will not. What I can offer is plainer: what to do with knowing who, which is mostly to write it down and not to confront anybody; people who believe you without an argument first; and help with the things that make a week bearable, from people who are not part of it.",
     "topics": [
-      "platform-independence",
-      "publishing",
+      "specterati",
+      "clicklog",
       "community"
     ]
   },
