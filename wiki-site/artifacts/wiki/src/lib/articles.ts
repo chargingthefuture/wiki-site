@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "how-i-can-help",
+    "title": "How I can help",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-28",
+    "excerpt": "Somebody asked on Quora how anybody could help, knowing who some of the people involved are. Nobody honest can promise to make it stop. Here is what can actually be done.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/how-i-can-help.md",
+    "teaser": "Somebody asked on Quora how anybody could help them, and said they know some of who is involved. Nobody honest can promise to make it stop, and I will not. What I can offer is plainer: what to do with knowing who, which is mostly to write it down and not to confront anybody; people who believe you without an argument first; and help with the things that make a week bearable, from people who are not part of it.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "community"
+    ]
+  },
+  {
     "slug": "an-invitation-to-jessica",
     "title": "An invitation to Jessica",
     "repo": "chargingthefuture/wiki-site",
@@ -100,19 +116,19 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
-    "slug": "how-i-can-help",
-    "title": "How I can help",
+    "slug": "an-invitation-to-jerrod",
+    "title": "An invitation to Jerrod",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-09-28",
-    "excerpt": "Somebody asked on Quora how anybody could help, knowing who some of the people involved are. Nobody honest can promise to make it stop. Here is what can actually be done.",
+    "excerpt": "You asked on Quora how anybody could help. Part of the answer is a list you are already on.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/how-i-can-help.md",
-    "teaser": "Somebody asked on Quora how anybody could help them, and said they know some of who is involved. Nobody honest can promise to make it stop, and I will not. What I can offer is plainer: what to do with knowing who, which is mostly to write it down and not to confront anybody; people who believe you without an argument first; and help with the things that make a week bearable, from people who are not part of it.",
+    "path": "posts/an-invitation-to-jerrod.md",
+    "teaser": "It is an invitation to join the Skills Economy, and the listing is already there. Jerrod Fredrick asked on Quora how anybody could help, and has asked more than once whether anybody wants to talk. I answered on the blog, and the Commons is a group chat for exactly that. Part of that answer is the Directory: a list of people and what they can do, which is how help between Targeted Individuals finds the person who needs it. Jerrod is on it already, with a placeholder where their skills will go. The listing costs nothing, and no is a complete answer.",
     "topics": [
-      "specterati",
-      "clicklog",
-      "community"
+      "community",
+      "directory",
+      "workforce"
     ]
   },
   {
