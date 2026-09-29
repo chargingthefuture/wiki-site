@@ -26,7 +26,8 @@
  *                 line break, and would otherwise run a heading into the next sentence
  *   paragraphs    are separated by a blank line
  *
- * The file name to save each recording as is on the entry's separator line, which is not pasted.
+ * Above each entry: a separator line with the post date, then the file name to save the recording
+ * as, alone on its line so it can be copied by itself. Neither is pasted into the voice tool.
  *
  * Usage:  pnpm wiki:paste-tts
  */
@@ -141,8 +142,9 @@ function main() {
     'TEXT-TO-SPEECH PASTE SHEET',
     '',
     'One post per entry, oldest first, from 2026-08-16 (What stays up). Invite posts are left out.',
-    'Paste from the title down to the end of the entry. The line of = signs above each entry is',
-    'not for pasting: it names the file to save the recording as, to upload to content/audio/.',
+    'Each entry starts with a line of = signs and the post date, then the file name to save the',
+    'recording as, alone on its line so it copies by itself (upload it to content/audio/). Neither',
+    'is for the voice: paste from the title down to the end of the entry.',
     '',
     'Links, web addresses, "Where to find it in the app" and the sign-up line are left out,',
     'because an address read aloud is noise. The post date is left out too: it adds paid',
@@ -157,7 +159,8 @@ function main() {
   const blocks = entries.map((e) => {
     const slug = String(e.meta!.slug || e.file.replace(/\.md$/i, ''));
     const audioFile = `${slug.split('/').pop()}.mp3`;
-    return [`${'='.repeat(20)} ${e.meta!.date} · save as ${audioFile} ${'='.repeat(20)}`, '', endSentence(String(e.meta!.title).trim()), '', toSpeakable(e.raw), ''].join('\n');
+    // The file name stands alone on its line so it can be selected and copied by itself on a phone.
+    return [`${'='.repeat(20)} ${e.meta!.date} ${'='.repeat(20)}`, '', audioFile, '', endSentence(String(e.meta!.title).trim()), '', toSpeakable(e.raw), ''].join('\n');
   });
 
   writeFileSync(OUT, `${header}\n${blocks.join('\n')}`, 'utf8');
