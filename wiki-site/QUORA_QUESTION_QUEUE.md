@@ -90,7 +90,7 @@ Ordered by the date the draft was opened. The account is the one it sat under.
 - [ ] 15. `2025-08-17` · pedigree101 — Can gang stalking occur in professional or work settings?
 - [ ] 16. `2025-08-18` · pedigree101 — How can I build a support network to help me manage the stress and fear associated with feeling gang stalked?
 - [ ] 17. `2025-08-18` · pedigree101 — How can someone identify if they are being targeted by "gang-stalkers"? What steps should they take if they suspect they are being followed or watched by strangers?
-- [ ] 18. `2025-08-18` · pedigree101 — How can you help me? I'm a victim of gang stalking and I know some of who are involved.
+- [x] 18. `2025-08-18` · pedigree101 — How can you help me? I'm a victim of gang stalking and I know some of who are involved. (asked by Jerrod Fredrick, https://www.quora.com/profile/Jerrod-Fredrick; answered in how-i-can-help.md)
 - [ ] 19. `2025-08-18` · pedigree101 — I notice a lot of high school kids as gang stalkers or recruits that have quite a bit of knowledge in that area. Is it most likely their parents are GSS and teach them? If not, who teaches them?
 - [ ] 20. `2025-08-18` · pedigree101 — I've been a victim of gang stalking for almost decade…I'm rather clever, smart, observant and highly angry instead of scared. Despite my efforts, the damage/stress and heartache is killing me. I need help desperately. Where to go for help?
 - [ ] 21. `2025-08-20` · pedigree101 — This whole gang stalking thing has come on now. It has to end as I know who started it and sadly, it's a low life ex. How do you prove it and unhack everything? Talk about an invasion of privacy.
