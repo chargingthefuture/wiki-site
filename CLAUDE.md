@@ -608,8 +608,9 @@ but oldest first, and invite posts are left out: the tool is paid per character,
 the copy-edited posts that carry the argument. Each entry is the title, then the post, and nothing
 that only works on a screen — an address read aloud is noise, so links keep their words and lose
 their address, a sentence built around an address is dropped, and "Where to find it in the app"
-and the sign-up line are left out. Above each entry sit a separator line with the date and the file name to save the
-recording as, alone on its line so it copies by itself on a phone; neither is pasted into the tool. Regenerate it whenever a post from 2026-08-16 on is published or
+and the sign-up line are left out. Above each entry sit a separator line with the date and the name to save the recording under,
+alone on its line so it copies by itself on a phone, and without `.mp3`, which the tool adds when it
+saves; neither is pasted into the tool. Regenerate it whenever a post from 2026-08-16 on is published or
 edited.
 
 ## Link the Plugins a Post Names (owner decision, 2026-08-20)

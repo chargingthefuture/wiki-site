@@ -26,8 +26,8 @@
  *                 line break, and would otherwise run a heading into the next sentence
  *   paragraphs    are separated by a blank line
  *
- * Above each entry: a separator line with the post date, then the file name to save the recording
- * as, alone on its line so it can be copied by itself. Neither is pasted into the voice tool.
+ * Above each entry: a separator line with the post date, then the name to save the recording under
+ * (no .mp3, which the voice tool adds), alone on its line so it can be copied by itself. Neither is pasted into the voice tool.
  *
  * Usage:  pnpm wiki:paste-tts
  */
@@ -142,9 +142,10 @@ function main() {
     'TEXT-TO-SPEECH PASTE SHEET',
     '',
     'One post per entry, oldest first, from 2026-08-16 (What stays up). Invite posts are left out.',
-    'Each entry starts with a line of = signs and the post date, then the file name to save the',
-    'recording as, alone on its line so it copies by itself (upload it to content/audio/). Neither',
-    'is for the voice: paste from the title down to the end of the entry.',
+    'Each entry starts with a line of = signs and the post date, then the name to save the',
+    'recording under, alone on its line so it copies by itself. It has no .mp3 on purpose: the',
+    'voice tool adds that when it saves. Upload the file to content/audio/. Neither line is for',
+    'the voice: paste from the title down to the end of the entry.',
     '',
     'Links, web addresses, "Where to find it in the app" and the sign-up line are left out,',
     'because an address read aloud is noise. The post date is left out too: it adds paid',
@@ -158,7 +159,9 @@ function main() {
 
   const blocks = entries.map((e) => {
     const slug = String(e.meta!.slug || e.file.replace(/\.md$/i, ''));
-    const audioFile = `${slug.split('/').pop()}.mp3`;
+    // No .mp3: the text-to-speech tool adds it when the file is saved, and typing it again made
+    // what-stays-up.mp3.mp3 (owner report, 2026-09-29).
+    const audioFile = slug.split('/').pop() ?? slug;
     // The file name stands alone on its line so it can be selected and copied by itself on a phone.
     return [`${'='.repeat(20)} ${e.meta!.date} ${'='.repeat(20)}`, '', audioFile, '', endSentence(String(e.meta!.title).trim()), '', toSpeakable(e.raw), ''].join('\n');
   });
