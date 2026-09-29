@@ -107,7 +107,7 @@ follows it.
 - [ ] Being a Targeted Individual is synonymous with being a 2nd class citizen because thats basically how youre treated by — bookmarked
 - [ ] How do I send the hits back to gang stalking — bookmarked
 - [ ] What should targeted individuals avoid — bookmarked
-- [ ] Are most targeted individuals employed — bookmarked · saved 2 times
+- [x] Are most targeted individuals employed — bookmarked · saved 2 times
 - [ ] Are targeted individuals put on a live stream for all stalkers to see — bookmarked
 - [ ] As a targeted individual I have experienced unimaginable levels of suffering and pain at the hands of those who are sup — bookmarked · governmenthumanexperimentationexposed
 - [ ] COMMUNITY BASED AGENTS CBA s ARE THE ONES WHO CONTROL THE ORGANIZED STALKING USED AGAINST ACTIVISTS DISSIDENTS WHIS — bookmarked · rnudvbhbuspdwbhs
@@ -508,7 +508,7 @@ follows it.
 - [ ] What is a targeted individual and how does one become one or address this issue — bookmarked
 - [ ] What is the psychology behind gang stalkers — bookmarked
 - [ ] Where can I get help as a targeted individual — bookmarked · saved 3 times
-- [ ] How can one effectively deal with workplace mobbing or gang stalking by coworkers or management — bookmarked
+- [x] How can one effectively deal with workplace mobbing or gang stalking by coworkers or management — bookmarked
 - [ ] How can workplace mobbing organized stalking and gang stalking harassment be addressed — bookmarked · saved 2 times
 - [ ] What are the effects of gang stalking on the victim — bookmarked
 - [ ] How can we get the most out of our lives being a gang stalking victim 3 — shared into a space · Jijji's Dark Side
@@ -534,7 +534,7 @@ follows it.
 - [ ] What are some ways to cope from being gang stalked provoked and harassed — bookmarked
 - [ ] Why are you treated badly if you are a good person — bookmarked
 - [ ] Be advised throughout Texas there are a LARGE NUMBER OF CIVILIANS MASQUERADING AS LAW ENFORCEMENT They are drivin — bookmarked
-- [ ] Can gang stalkers keep you from getting a job — bookmarked
+- [x] Can gang stalkers keep you from getting a job — bookmarked
 - [ ] Who can I talk to when Im being gang stalked — bookmarked
 - [ ] Who pays gang stalkers — bookmarked
 - [ ] Why does my family villainize me — bookmarked

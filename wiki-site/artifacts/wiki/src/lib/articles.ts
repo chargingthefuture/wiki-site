@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-jerrod",
+    "title": "An invitation to Jerrod",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-28",
+    "excerpt": "You asked on Quora how anybody could help. Part of the answer is a list you are already on.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-jerrod.md",
+    "teaser": "It is an invitation to join the Skills Economy, and the listing is already there. Jerrod Fredrick asked on Quora how anybody could help, and has asked more than once whether anybody wants to talk. I answered on the blog, and the Commons is a group chat for exactly that. Part of that answer is the Directory: a list of people and what they can do, which is how help between Targeted Individuals finds the person who needs it. Jerrod is on it already, with a placeholder where their skills will go. The listing costs nothing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ]
+  },
+  {
     "slug": "how-i-can-help",
     "title": "How I can help",
     "repo": "chargingthefuture/wiki-site",
@@ -116,18 +132,18 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
-    "slug": "an-invitation-to-jerrod",
-    "title": "An invitation to Jerrod",
+    "slug": "it-happens-at-work",
+    "title": "It happens at work",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-09-28",
-    "excerpt": "You asked on Quora how anybody could help. Part of the answer is a list you are already on.",
+    "excerpt": "Somebody asked on Quora whether this happens at work. It does, and work is where it does the most damage, because work is where the income is.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/an-invitation-to-jerrod.md",
-    "teaser": "It is an invitation to join the Skills Economy, and the listing is already there. Jerrod Fredrick asked on Quora how anybody could help, and has asked more than once whether anybody wants to talk. I answered on the blog, and the Commons is a group chat for exactly that. Part of that answer is the Directory: a list of people and what they can do, which is how help between Targeted Individuals finds the person who needs it. Jerrod is on it already, with a placeholder where their skills will go. The listing costs nothing, and no is a complete answer.",
+    "path": "posts/it-happens-at-work.md",
+    "teaser": "Somebody asked on Quora whether this happens in professional or work settings. It does, and there is an old name for the workplace version: mobbing, a group turning on one colleague over months until the person leaves or breaks. Work is where it does the most damage, because work is where the income is. Pushing somebody out of a job cuts them off from money, from colleagues, and from the next job. What answers that is a dated record, and work arranged with people who are not part of it.",
     "topics": [
-      "community",
-      "directory",
+      "specterati",
+      "clicklog",
       "workforce"
     ]
   },
