@@ -5268,7 +5268,7 @@ Old links, new links.
 
 Quora has erased my accounts fifty-seven times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
 
-There is no handle of mine open on Quora right now. The last one was banned at 4:31 in the morning on September 29, 2026, and everything before it is dead.
+There is one handle of mine on Quora, opened in the afternoon of September 29, 2026, eight and a half hours after the ban before it. Everything before it is dead.
 
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
@@ -5279,8 +5279,6 @@ Everything I write lives here, on this blog. Every post, in full, with a timesta
 Bookmark the blog, not any platform. Platform posts are excerpts and links back here; if a platform account dies, the links from that account die and nothing else.
 
 Quora: current.
-
-The handle: none open right now. Kingyou was banned at 4:31 in the morning on September 29, 2026, and the next handle goes here when it opens.
 
 A handle and a space, and nothing else on Quora is me. If another account claims to be, it is not. If an account or space claims to speak for the Skills Economy and is not on this page, it is not me either. Check back here, not on Quora, because this page cannot be edited by anyone but me and every change to it is on the public record.
 
@@ -5436,4 +5434,4 @@ The rule behind all of it.
 
 Nothing is written on a platform first anymore. Every post starts here, and platforms only ever get a short version and a link back. So the next time an account is erased — and I assume there will be a next time — the cost is one entry moving from the current list to the dead list on this page. That is all.
 
-Since this page first went up, that has happened fifty-five times. The list above is current, and the next handle, once it opens, is the entry waiting to move onto it.
+Since this page first went up, that has happened fifty-five times. The list above is current, and Kingwealth-2 is the entry waiting to move onto it.
