@@ -41,7 +41,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "An invitation to Brecht",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-09-28",
-    "excerpt": "The list has never needed anybody to agree with me about what this is. It needs people who can do things, and making things look like what they are is one of them.",
+    "excerpt": "The list has never needed anybody to agree with me about what this is. It needs people who can do things, and designing how something looks is one of them.",
     "category": "Community",
     "collection": "posts",
     "path": "posts/an-invitation-to-brecht.md",
