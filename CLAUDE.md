@@ -110,7 +110,8 @@ carries it, because the owner froze that page outright and that freeze has not b
   this post" player (`ListenToPost.tsx`, served by the `contentAudio` plugin in
   `artifacts/wiki/vite.config.ts` at `<base>audio/<file>`, unhashed). `scripts/src/build-readings.ts`
   writes `artifacts/wiki/public/readings.json` on `wiki:readings`, which both build scripts run:
-  every recorded post, oldest first, with its title and absolute post and audio addresses. The app's
+  every recorded post, oldest first, with its title, absolute post and audio addresses, and the
+  recording's length in seconds (read from the file with `music-metadata`). The app's
   Chyme readings loop plays that list while nobody is live, so uploading the file is the only step
   (owner decision, 2026-09-29). Build output like the feed: gitignored, never hand-edited.
 - Share messages for Peace Battle 2: `artifacts/wiki/public/pb2-messages.json`, one ready-to-paste
