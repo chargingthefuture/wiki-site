@@ -170,7 +170,7 @@ Other people's comments and answers stay in the private quora repo.
 To add a "Listen to this post" player to a post, upload the recording to `content/audio/` named
 after the post's slug: `content/audio/who-teaches-them.mp3` for `content/posts/who-teaches-them.md`.
 MP3 or M4A, lowercase letters, digits and hyphens only. No front matter change is needed; the next
-deploy shows the player under the post's header. Each file is served unchanged at
-`https://chargingthefuture.github.io/chargingthefuture/audio/<file>`, which is the link to paste
-into the Chyme readings loop in the app. Keep each file under 25 MB so it can be uploaded from the
+deploy shows the player under the post's header, and the reading joins the list the app's Chyme
+readings loop plays (`readings.json`, written by `pnpm wiki:readings`). Each file is served
+unchanged at `https://chargingthefuture.github.io/chargingthefuture/audio/<file>`. Keep each file under 25 MB so it can be uploaded from the
 GitHub website on a phone.

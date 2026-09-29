@@ -106,6 +106,13 @@ carries it, because the owner froze that page outright and that freeze has not b
   channel, and a cutoff date reads as one too, and neither belongs in this project's own writing.
   Published at `https://chargingthefuture.github.io/rss-feeds/youtube/<slug>.xml`. A post that
   points a reader at a collected channel links that repository's disclaimer, not the feed alone.
+- Recorded readings: `content/audio/<post-slug>.mp3` (or `.m4a`). The post page shows a "Listen to
+  this post" player (`ListenToPost.tsx`, served by the `contentAudio` plugin in
+  `artifacts/wiki/vite.config.ts` at `<base>audio/<file>`, unhashed). `scripts/src/build-readings.ts`
+  writes `artifacts/wiki/public/readings.json` on `wiki:readings`, which both build scripts run:
+  every recorded post, oldest first, with its title and absolute post and audio addresses. The app's
+  Chyme readings loop plays that list while nobody is live, so uploading the file is the only step
+  (owner decision, 2026-09-29). Build output like the feed: gitignored, never hand-edited.
 - Share messages for Peace Battle 2: `artifacts/wiki/public/pb2-messages.json`, one ready-to-paste
   post per member-facing part of the app, written by `scripts/src/build-pb2-messages.ts` on
   `wiki:pb2` from the hand-written `content/pb2-share-messages.yaml`. Build output like the feed:
@@ -132,6 +139,7 @@ carries it, because the owner froze that page outright and that freeze has not b
 | `pnpm wiki:sync` | Regenerate `articles.ts` from the index |
 | `pnpm wiki:feed` | Regenerate the RSS feed at `artifacts/wiki/public/feed.xml` (both build scripts run this) |
 | `pnpm wiki:invites` | Regenerate the invite cards at `artifacts/wiki/public/invites.json` (both build scripts run this) |
+| `pnpm wiki:readings` | Regenerate the recorded-readings list at `artifacts/wiki/public/readings.json` (both build scripts run this) |
 | `pnpm wiki:pb2` | Regenerate the Peace Battle 2 share messages at `artifacts/wiki/public/pb2-messages.json` (both build scripts run this) |
 | `pnpm wiki:sync:dry` | Preview sync changes |
 | `pnpm fireside:sync` | Copy the Fireside comments the app has cleared for publication into `artifacts/wiki/src/lib/fireside-exports.ts` |
