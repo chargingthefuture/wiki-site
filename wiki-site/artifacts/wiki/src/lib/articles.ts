@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-brecht",
+    "title": "An invitation to Brecht",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-28",
+    "excerpt": "The list has never needed anybody to agree with me about what this is. It needs people who can do things, and making things look like what they are is one of them.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-brecht.md",
+    "teaser": "It is an invitation to join the Skills Economy, and the listing is already there. Brecht Corbeel, in Antwerp, asked on Quora whether this happens at work. Their Directory listing carries five skills, all of them visual: drawing an idea, developing it into a concept, designing how something looks and behaves, and building and keeping a brand. The list has never needed anybody to agree with me about what this is, and it does not need Brecht to. No is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ]
+  },
+  {
     "slug": "an-invitation-to-eli",
     "title": "An invitation to Eli",
     "repo": "chargingthefuture/wiki-site",
