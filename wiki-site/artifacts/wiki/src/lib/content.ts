@@ -59,3 +59,15 @@ export function contentImageUrl(ref: string): string | undefined {
   if (name === ref) return undefined; // not an images/ reference
   return imageModules[`${CONTENT_PREFIX}images/${name}`];
 }
+
+/**
+ * The address of a post's recorded reading, if content/audio holds a file named after the post's
+ * slug (its last path segment): "who-teaches-them" → content/audio/who-teaches-them.mp3. The file
+ * is served unhashed at <base>audio/<file> (see the content-audio plugin in vite.config.ts).
+ */
+export function postAudioUrl(slug: string): string | undefined {
+  const base = slug.split('/').pop();
+  if (!base) return undefined;
+  const file = __POST_AUDIO_FILES__.find((name) => name.replace(/\.(mp3|m4a)$/, '') === base);
+  return file ? `${import.meta.env.BASE_URL}audio/${file}` : undefined;
+}

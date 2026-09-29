@@ -4,12 +4,13 @@ import { motion } from "framer-motion";
 import { ArrowLeft, Clock, Calendar, AlertTriangle, Archive } from "lucide-react";
 import { Layout } from "@/components/Layout";
 import { ShareLink } from "@/components/ShareLink";
+import { ListenToPost } from "@/components/ListenToPost";
 import { MarkdownRenderer } from "@/components/MarkdownRenderer";
 import { FiresideConversation } from "@/components/FiresideConversation";
 import { AppLoading } from "@/components/AppLoading";
 import { useArticle } from "@/hooks/use-article";
 import { useReadCounter } from "@/hooks/use-counter";
-import { findArticle, contentImageUrl } from "@/lib/content";
+import { findArticle, contentImageUrl, postAudioUrl } from "@/lib/content";
 import { estimateReadTime } from "@/lib/utils";
 import { formatArticleDate } from "@/lib/dates";
 import { KIND_LABELS } from "@/lib/archive-kinds";
@@ -31,6 +32,7 @@ export default function Article() {
 
   // Find meta data if it exists in our list
   const meta = findArticle(slug);
+  const audioUrl = meta ? postAudioUrl(meta.slug) : undefined;
 
   const from = new URLSearchParams(useSearch()).get("from") ?? "";
   const backTo = from.startsWith("/record")
@@ -123,6 +125,8 @@ export default function Article() {
                   {meta.excerpt}
                 </p>
               )}
+
+              {audioUrl && <ListenToPost src={audioUrl} />}
 
               {meta?.archive && (
                 <div className="mt-6 flex items-start gap-3 bg-black border-2 border-gray-800 p-4 font-mono text-sm text-gray-400">
