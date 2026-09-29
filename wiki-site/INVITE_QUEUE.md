@@ -118,6 +118,7 @@ needed to write the next posts, because the copied list itself is never committe
 | Jessica Goodwin | Jessica-Goodwin-229 | Advocacy (placeholder); United States | advocacy-only | You already have a profile | in PR — moved up by the owner, 2026-09-28, after answering their question in who-to-report-it-to.md; the post speaks to what the list can do for them |
 | Zack Tom | Zack-Tom-4 | Biodiversity monitoring and habitat assessment; community outreach and stewardship; enforcement actions and corrective plans; pollution control system design; waste-flow modeling and policy evaluation; Denmark | skill-specific | A working economy needs people who | in PR |
 | Jerrod Fredrick | Jerrod-Fredrick | Advocacy (placeholder); United States | advocacy-only | You already have a profile | in PR — owner decision, 2026-09-28, after answering their question in how-i-can-help.md |
+| Eli Paniagua | Eli-Paniagua-1 | Advocacy (placeholder); United States | advocacy-only | Two things have to be true | in PR — owner decision, 2026-09-28, after answering their question in who-teaches-them.md |
 
 Status is one of: `queued`, `drafted`, `in PR`, `published`, `skipped`. A skipped row keeps its
 reason in the notes column so nobody re-queues it a month later.

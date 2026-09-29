@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-eli",
+    "title": "An invitation to Eli",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-28",
+    "excerpt": "You noticed how young they start. The targeting runs on reaching the people around a survivor, and it reaches them early. This list is the other side of that.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-eli.md",
+    "teaser": "It is an invitation to join the Skills Economy, and the listing is already there. Eli Paniagua asked on Quora why so many high school kids take part and seem to know so much, and I answered on the blog. The targeting works because the people around a survivor can be reached, and it reaches them young. What answers that is having people to turn to anyway. The Directory is a list of people and what they can do, and Eli is on it, with a placeholder where their skills will go. The listing costs nothing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ]
+  },
+  {
     "slug": "who-teaches-them",
     "title": "Who teaches them",
     "repo": "chargingthefuture/wiki-site",
