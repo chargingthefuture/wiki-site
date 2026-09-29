@@ -1,9 +1,9 @@
 ---
 title: "Who teaches them"
 date: "2026-09-28"
-excerpt: "Somebody asked on Quora whether the teenagers who take part learn it from their parents. In what I have seen, often yes, and it starts long before high school."
+excerpt: "Somebody asked on Quora whether teenagers who take part learn it from their parents. Where the parents take part, in what I have seen, the children always do."
 category: "Community"
-teaser: "Somebody asked on Quora why so many high school kids seem to know so much about taking part, and whether their parents teach them. In what I have seen, often they do, and it starts long before high school: I have watched parents bring children into it as young as two, and I was harassed by children when I was five. A teenager who seems to know a lot has usually been at it for years. What to do about it is what to do about anybody taking part: write it down, and do not confront them, a child least of all."
+teaser: "Somebody asked on Quora why so many high school kids seem to know so much about taking part, and whether their parents teach them. In what I have seen, where the parents take part, the children do too, every time, and it starts long before high school: I have watched parents bring children into it as young as two, and I was harassed by children when I was five. It does not run the other way: some children take part while a parent does not, and does not know. A teenager who seems to know a lot has usually been at it for years. What to do about it is what to do about anybody taking part: write it down, and do not confront them, a child least of all."
 topics:
   - specterati
   - clicklog
@@ -18,7 +18,9 @@ The question is at https://www.quora.com/I-notice-a-lot-of-high-school-kids-as-g
 
 ![The question on its Quora page, captured September 28, 2026. The heading reads: I notice a lot of high school kids as gang stalkers or recruits that have quite a bit of knowledge in that area. Is it most likely their parents are GSS and teach them? If not, who teaches them? Below it, under Asked by, the name Eli Paniagua. Under Question stats: 1 public follower, 889 views, last followed Aug 3, 2025.](images/eli-paniagua-question-2026-09-28.jpg)
 
-In what I have seen, often it is the parents.
+In what I have seen, where the parents take part, their children do too. I have not seen an exception.
+
+It does not run the other way. Some children take part while one or both of their parents do not, and do not know.
 
 ## It starts long before high school
 
@@ -30,7 +32,9 @@ A child that age is not choosing anything. They are doing what the adults around
 
 A teenager who knows a lot has usually been taking part for years. What looks like knowledge at sixteen is a habit that started before they could have understood it.
 
-I can only speak to what I have seen, and parents are what I have seen. I will not guess at the rest.
+## When it is not the parents
+
+A child who takes part while a parent does not has learned it from somebody. I have not seen who, and I will not guess.
 
 ## What to do with it
 
