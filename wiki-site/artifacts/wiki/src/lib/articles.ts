@@ -41,11 +41,11 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Who teaches them",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-09-28",
-    "excerpt": "Somebody asked on Quora whether teenagers who take part learn it from their parents. Where the parents take part, in what I have seen, the children always do.",
+    "excerpt": "Somebody asked on Quora whether teenagers who take part learn it from their parents. In what I have seen, parents teach them, and so do strangers.",
     "category": "Community",
     "collection": "posts",
     "path": "posts/who-teaches-them.md",
-    "teaser": "Somebody asked on Quora why so many high school kids seem to know so much about taking part, and whether their parents teach them. In what I have seen, where the parents take part, the children do too, every time, and it starts long before high school: I have watched parents bring children into it as young as two, and I was harassed by children when I was five. It does not run the other way: some children take part while a parent does not, and does not know. A teenager who seems to know a lot has usually been at it for years. What to do about it is what to do about anybody taking part: write it down, and do not confront them, a child least of all.",
+    "teaser": "Somebody asked on Quora why so many high school kids seem to know so much about taking part, and whether their parents teach them. In what I have seen, parents teach them, and so do strangers. Where the parents take part, the children do too, and it starts as young as two. Where they do not, strangers do the recruiting, with slander and something in exchange: sex, drugs, a job. For me it started at five, and it was adults first, then children. An adult stranger who hates a five-year-old they have never met is perverse, and it was obvious.",
     "topics": [
       "specterati",
       "clicklog",
