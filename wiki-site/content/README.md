@@ -164,3 +164,13 @@ Other people's comments and answers stay in the private quora repo.
    publishes automatically.
 6. For platform distribution: post an excerpt plus the canonical link (and the same image file)
    on the platform. See `PUBLISHING.md`.
+
+## Recorded readings
+
+To add a "Listen to this post" player to a post, upload the recording to `content/audio/` named
+after the post's slug: `content/audio/who-teaches-them.mp3` for `content/posts/who-teaches-them.md`.
+MP3 or M4A, lowercase letters, digits and hyphens only. No front matter change is needed; the next
+deploy shows the player under the post's header. Each file is served unchanged at
+`https://chargingthefuture.github.io/chargingthefuture/audio/<file>`, which is the link to paste
+into the Chyme readings loop in the app. Keep each file under 25 MB so it can be uploaded from the
+GitHub website on a phone.

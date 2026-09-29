@@ -12,3 +12,6 @@ interface ImportMetaEnv {
 interface ImportMeta {
   readonly env: ImportMetaEnv;
 }
+
+/** File names in content/audio, listed at build time by the content-audio plugin in vite.config.ts. */
+declare const __POST_AUDIO_FILES__: string[];
