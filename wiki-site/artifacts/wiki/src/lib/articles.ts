@@ -53,6 +53,22 @@ export const ARTICLES: ArticleMeta[] = [
     ]
   },
   {
+    "slug": "an-epidemic-not-a-secret-society",
+    "title": "An epidemic, not a secret society",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-29",
+    "excerpt": "It is not the Illuminati. It is manipulators in contact with each other worldwide, paid in sex, drugs, jobs and friends, and it starts at two years old.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-epidemic-not-a-secret-society.md",
+    "teaser": "People reach for the Illuminati, or a secret society. What I see is worse: narcissists, and people worse than narcissists, in contact with each other across the world at a rate never possible before. Nothing in their kit is new. Performed kindness, covert contracts, performative allyship: every tool already has a name. What they are paid in is sex, drugs, jobs and friends, for slander carried to strangers, starting at two. Refuse that payment and you are ousted from their economy. The Skills Economy is a different exchange.",
+    "topics": [
+      "specterati",
+      "community",
+      "directory"
+    ]
+  },
+  {
     "slug": "it-is-self-defense",
     "title": "It is self-defense",
     "repo": "chargingthefuture/wiki-site",
@@ -66,6 +82,21 @@ export const ARTICLES: ArticleMeta[] = [
       "specterati",
       "community",
       "directory"
+    ]
+  },
+  {
+    "slug": "Dictionary",
+    "title": "Dictionary: Skills Economy Terms",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-09-29",
+    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
+    "category": "Resources",
+    "collection": "posts",
+    "path": "posts/Dictionary.md",
+    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
+    "topics": [
+      "reference",
+      "terms"
     ]
   },
   {
@@ -304,21 +335,6 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "platform-independence",
       "publishing"
-    ]
-  },
-  {
-    "slug": "Dictionary",
-    "title": "Dictionary: Skills Economy Terms",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-09-25",
-    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
-    "category": "Resources",
-    "collection": "posts",
-    "path": "posts/Dictionary.md",
-    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
-    "topics": [
-      "reference",
-      "terms"
     ]
   },
   {
