@@ -37,6 +37,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "it-is-self-defense",
+    "title": "It is self-defense",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-29",
+    "excerpt": "Nobody defending themselves stops to ask what the attacker will think of it. The Skills Economy is a set of self-defense tools that need nobody harmed.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/it-is-self-defense.md",
+    "teaser": "Self-defense is more than a cultural idea; it has legal standing. What is done to Targeted Individuals is built to fall below that line: small, deniable, organized. The objection to survivors coming together is nearly always made from the outside: what will they think, will they come harder. Nobody defending themselves from a stranger asks that. Self-defense is about protecting yourself in the moment, and that is the frame for the Skills Economy: a set of tools that need nobody harmed. After more than thirty years, being around other survivors did not change my targeting.",
+    "topics": [
+      "specterati",
+      "community",
+      "directory"
+    ]
+  },
+  {
     "slug": "an-invitation-to-brecht",
     "title": "An invitation to Brecht",
     "repo": "chargingthefuture/wiki-site",
