@@ -32,17 +32,22 @@
  * Usage:  pnpm wiki:paste-tts
  */
 
-import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync, readdirSync } from 'node:fs';
 import { resolve, dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseFrontMatter } from './frontmatter.js';
 import { toPasteable } from './paste-text.js';
+import { load } from 'js-yaml';
+import { parseFile } from 'music-metadata';
+import { findAudioFiles, type AudioFile } from './audio-files.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const WIKI_ROOT = resolve(__dirname, '../..');
 const POSTS_DIR = join(WIKI_ROOT, 'content/posts');
 const OUT = join(WIKI_ROOT, 'TTS_PASTE_SHEET.txt');
 const FROM = '2026-08-16';
+const SKIPPED_FILE = join(WIKI_ROOT, 'content/audio/skipped.yaml');
+const ARTICLES_FILE = join(WIKI_ROOT, 'artifacts/wiki/src/lib/articles.ts');
 // The title is the contract for an invite post (see build-invites.ts).
 const INVITE_TITLE = /^An invitation to\s+/i;
 const WHERE_TO_FIND = /^##\s+Where to find it in the app\s*$/im;
@@ -127,47 +132,141 @@ export function toSpeakable(markdown: string): string {
   return kept.map(endSentence).join('\n').replace(/\n{3,}/g, '\n\n').trim();
 }
 
-function main() {
-  const entries = readdirSync(POSTS_DIR)
+// The text-to-speech tool takes at most 5,000 characters. For a post longer than that the owner
+// records its teaser instead (owner decision, 2026-09-30): the teaser is already copy-edited, and
+// cutting a published post down to fit would mean editing it again. So a long post's entry holds the
+// teaser, and a recording much shorter than its post's full text is tracked as a teaser reading.
+const TOOL_LIMIT_CHARS = 5000;
+const TEASER_WORDS_PER_MINUTE = 200;
+const SPEAKING_WORDS_PER_MINUTE = 140;
+
+type Entry = { file: string; slug: string; date: string; title: string; text: string; teaser: string };
+type Status = { kind: 'done' | 'teaser' | 'skipped'; note: string };
+
+function minutes(seconds: number): string {
+  return `${Math.floor(seconds / 60)}:${String(Math.round(seconds % 60)).padStart(2, '0')}`;
+}
+
+// Each listed page's number on the blog feed (/feed): its place in publication order, oldest is
+// No. 1, the same numbers the Quora paste sheet carries. Read from the generated registry the feed
+// numbers from (ARTICLES, newest first, unlisted pages left out), so the two can never disagree.
+// The registry is a TypeScript file outside this package, so it is read as text: one object per
+// entry at two spaces of indentation, with "slug" and an optional "listed": false four spaces in.
+function feedNumbers(): Map<string, number> {
+  const slugs: string[] = [];
+  for (const block of readFileSync(ARTICLES_FILE, 'utf8').split('\n  {\n').slice(1)) {
+    const slug = /^ {4}"slug": "([^"]+)"/m.exec(block)?.[1];
+    if (slug && !/^ {4}"listed": false/m.test(block)) slugs.push(slug);
+  }
+  return new Map(slugs.map((slug, i) => [slug.split('/').pop() ?? slug, slugs.length - i]));
+}
+
+function readSkipped(): Set<string> {
+  if (!existsSync(SKIPPED_FILE)) return new Set();
+  const data = load(readFileSync(SKIPPED_FILE, 'utf8')) as { skipped?: unknown } | null;
+  return new Set(Array.isArray(data?.skipped) ? data.skipped.map(String) : []);
+}
+
+async function statusOf(entry: Entry, audio: AudioFile | undefined, skipped: Set<string>): Promise<Status | null> {
+  if (audio) {
+    const { format } = await parseFile(audio.path, { duration: true });
+    const seconds = format.duration ?? 0;
+    const words = entry.text.split(/\s+/).filter(Boolean).length;
+    const expected = (words / SPEAKING_WORDS_PER_MINUTE) * 60;
+    if (seconds > 0 && words / (seconds / 60) > TEASER_WORDS_PER_MINUTE) {
+      return { kind: 'teaser', note: `${minutes(seconds)} (the full post would be about ${minutes(expected)})` };
+    }
+    return { kind: 'done', note: minutes(seconds) };
+  }
+  if (skipped.has(entry.slug)) return { kind: 'skipped', note: '' };
+  return null;
+}
+
+const STATUS_LABEL: Record<Status['kind'], string> = { done: 'Done', teaser: 'Teaser', skipped: 'Skipped' };
+
+async function main() {
+  const entries: Entry[] = readdirSync(POSTS_DIR)
     .filter((f) => f.toLowerCase().endsWith('.md'))
-    .map((file) => {
-      const raw = readFileSync(join(POSTS_DIR, file), 'utf8');
-      return { file, meta: parseFrontMatter(raw).meta, raw };
-    })
+    .map((file) => ({ file, raw: readFileSync(join(POSTS_DIR, file), 'utf8') }))
+    .map(({ file, raw }) => ({ file, raw, meta: parseFrontMatter(raw).meta }))
     .filter((e) => e.meta?.date && e.meta.title && String(e.meta.date) >= FROM)
     .filter((e) => !INVITE_TITLE.test(String(e.meta!.title).trim()))
-    .sort((a, b) => String(a.meta!.date).localeCompare(String(b.meta!.date)) || a.file.localeCompare(b.file));
+    .sort((a, b) => String(a.meta!.date).localeCompare(String(b.meta!.date)) || a.file.localeCompare(b.file))
+    .map((e) => ({
+      file: e.file,
+      slug: String(e.meta!.slug || e.file.replace(/\.md$/i, '')).split('/').pop() ?? '',
+      date: String(e.meta!.date),
+      title: String(e.meta!.title).trim(),
+      text: toSpeakable(e.raw),
+      teaser: String(e.meta!.teaser ?? '').trim(),
+    }));
 
+  const audio = findAudioFiles(WIKI_ROOT);
+  const numbers = feedNumbers();
+  const skipped = readSkipped();
+  const tracked: { entry: Entry; status: Status }[] = [];
+  const toRecord: Entry[] = [];
+  for (const entry of entries) {
+    const status = await statusOf(entry, audio.get(entry.slug), skipped);
+    if (status) tracked.push({ entry, status });
+    else toRecord.push(entry);
+  }
+
+  const count = (kind: Status['kind']) => tracked.filter((t) => t.status.kind === kind).length;
   const header = [
     'TEXT-TO-SPEECH PASTE SHEET',
     '',
-    'One post per entry, oldest first, from 2026-08-16 (What stays up). Invite posts are left out.',
+    'Two parts. The tracker lists every post already recorded or deliberately skipped; they are',
+    'never offered for pasting again. Below it, one entry per post still to record, oldest first,',
+    'from 2026-08-16 (What stays up). Invite posts are left out.',
+    '',
     'Each entry starts with a line of = signs and the post date, then the name to save the',
     'recording under, alone on its line so it copies by itself. It has no .mp3 on purpose: the',
-    'voice tool adds that when it saves. Upload the file to content/audio/. Neither line is for',
-    'the voice: paste from the title down to the end of the entry.',
+    'voice tool adds that when it saves. Upload the file to wiki-site/content/audio/ (a file that',
+    'lands in the wrong folder is still found). Neither line is for the voice: paste from the',
+    'title down to the end of the entry.',
     '',
     'Links, web addresses, "Where to find it in the app" and the sign-up line are left out,',
-    'because an address read aloud is noise. The post date is left out too: it adds paid',
-    'characters, and the post page shows it. Every line ends in punctuation so the voice pauses.',
+    'because an address read aloud is noise. The post date is left out too. Every line ends in',
+    'punctuation so the voice pauses.',
+    '',
+    `The voice tool takes at most ${TOOL_LIMIT_CHARS.toLocaleString('en-US')} characters, so a post longer than that has its`,
+    'teaser in its entry instead of the full text, ending "Full post, No. N, available on the',
+    'blog." with its number on the blog feed, and its = line says so. In the tracker, a',
+    'recording much shorter than its post is listed as a teaser reading.',
+    '',
+    'To skip a post for good, add its slug to wiki-site/content/audio/skipped.yaml.',
     '',
     'Generated by pnpm wiki:paste-tts. Do not hand-edit: edit the post and regenerate.',
     '',
-    `${entries.length} posts.`,
+  ].join('\n');
+
+  const table = [
+    `TRACKER: ${count('done')} full post, ${count('teaser')} teaser, ${count('skipped')} skipped.`,
+    '',
+    '| Date | Post | Audio | Length |',
+    '|---|---|---|---|',
+    ...tracked.map(({ entry, status }) => `| ${entry.date} | ${entry.slug} | ${STATUS_LABEL[status.kind]} | ${status.note} |`),
     '',
   ].join('\n');
 
-  const blocks = entries.map((e) => {
-    const slug = String(e.meta!.slug || e.file.replace(/\.md$/i, ''));
+  const blocks = toRecord.map((e) => {
+    const size = e.text.length;
+    const useTeaser = size > TOOL_LIMIT_CHARS && e.teaser !== '';
+    const warning = useTeaser ? ` · teaser (the full post is ${size.toLocaleString('en-US')} characters)` : '';
+    // A teaser reading ends by pointing at the full post, by the number the blog feed shows, so a
+    // listener who wants the rest can find it (owner directive, 2026-09-30).
+    const number = numbers.get(e.slug);
+    const pointer = number ? `\n\nFull post, No. ${number}, available on the blog.` : '\n\nFull post available on the blog.';
+    const text = useTeaser ? toSpeakable(e.teaser).split('\n').map(endSentence).join('\n') + pointer : e.text;
     // No .mp3: the text-to-speech tool adds it when the file is saved, and typing it again made
     // what-stays-up.mp3.mp3 (owner report, 2026-09-29).
-    const audioFile = slug.split('/').pop() ?? slug;
-    // The file name stands alone on its line so it can be selected and copied by itself on a phone.
-    return [`${'='.repeat(20)} ${e.meta!.date} ${'='.repeat(20)}`, '', audioFile, '', endSentence(String(e.meta!.title).trim()), '', toSpeakable(e.raw), ''].join('\n');
+    return [`${'='.repeat(20)} ${e.date}${warning} ${'='.repeat(20)}`, '', e.slug, '', endSentence(e.title), '', text, ''].join('\n');
   });
 
-  writeFileSync(OUT, `${header}\n${blocks.join('\n')}`, 'utf8');
-  console.log(`✓ Wrote ${entries.length} posts → ${OUT}`);
+  const toRecordHeader = [`STILL TO RECORD: ${toRecord.length} posts.`, ''].join('\n');
+  writeFileSync(OUT, `${header}\n${table}\n${toRecordHeader}\n${blocks.join('\n')}`, 'utf8');
+  console.log(`✓ Wrote ${tracked.length} tracked and ${toRecord.length} to record → ${OUT}`);
 }
 
-main();
+await main();

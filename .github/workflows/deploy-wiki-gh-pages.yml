@@ -5,6 +5,10 @@ on:
     branches: [main]
     paths:
       - "wiki-site/**"
+      # A recording uploaded to the top of the repository by mistake is still published
+      # (wiki-site/scripts/src/audio-files.ts finds it), so it has to start a build too.
+      - "*.mp3"
+      - "*.m4a"
       - ".github/workflows/deploy-wiki-gh-pages.yml"
   workflow_dispatch:
 

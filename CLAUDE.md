@@ -110,10 +110,19 @@ carries it, because the owner froze that page outright and that freeze has not b
   this post" player (`ListenToPost.tsx`, served by the `contentAudio` plugin in
   `artifacts/wiki/vite.config.ts` at `<base>audio/<file>`, unhashed). `scripts/src/build-readings.ts`
   writes `artifacts/wiki/public/readings.json` on `wiki:readings`, which both build scripts run:
-  every recorded post, oldest first, with its title, absolute post and audio addresses, and the
+  every recorded post (found by `scripts/src/audio-files.ts`: `content/audio/`, and a correctly named
+  file uploaded to the wrong folder, since GitHub's upload page drops files wherever it is open),
+  oldest first, with its title, absolute post and audio addresses, and the
   recording's length in seconds (read from the file with `music-metadata`). The app's
   Chyme readings loop plays that list while nobody is live, so uploading the file is the only step
   (owner decision, 2026-09-29). Build output like the feed: gitignored, never hand-edited.
+- Recorded broadcasts: `/streams` (`src/pages/Streams.tsx`) lists every recorded live broadcast
+  from the app, newest first, paged, with a player for each that needs no account. It reads
+  `https://app.chargingthefuture.com/api/beacon/replays?page=` in the browser rather than at build,
+  so a replay appears the moment its recording is ready. The podcast feed for the same recordings is
+  served by the app at `/api/beacon/replays/feed`, not built here, for the same reason; `index.html`
+  carries an autodiscovery link to it. The players point at the app's recording address, which
+  fetches a current file address on every play, because the file address itself expires.
 - Share messages for Peace Battle 2: `artifacts/wiki/public/pb2-messages.json`, one ready-to-paste
   post per member-facing part of the app, written by `scripts/src/build-pb2-messages.ts` on
   `wiki:pb2` from the hand-written `content/pb2-share-messages.yaml`. Build output like the feed:
@@ -609,7 +618,15 @@ but oldest first, and invite posts are left out: the tool is paid per character,
 the copy-edited posts that carry the argument. Each entry is the title, then the post, and nothing
 that only works on a screen — an address read aloud is noise, so links keep their words and lose
 their address, a sentence built around an address is dropped, and "Where to find it in the app"
-and the sign-up line are left out. Above each entry sit a separator line with the date and the name to save the recording under,
+and the sign-up line are left out. The sheet opens with a tracker table (owner directive,
+2026-09-30), so it doubles as the record of which posts have audio, the way `INVITE_QUEUE.md` tracks
+invites: every post with a recording is Full post, or Teaser when the recording runs far shorter
+than the post, and every post in `content/audio/skipped.yaml` is Skipped and is never offered for
+pasting again. Only the rest get paste entries. The tool takes at most 5,000 characters, so a post
+longer than that gets its front matter `teaser` in its entry instead of the full text, ending with
+"Full post, No. N, available on the blog." (N is the post's number on `/feed`, oldest No. 1, read
+from the same registry the feed numbers from), and its `=` line says so (owner decision, 2026-09-30): the teaser is already copy-edited, and cutting a
+published post down to fit would mean copy-editing it again. Above each entry sit a separator line with the date and the name to save the recording under,
 alone on its line so it copies by itself on a phone, and without `.mp3`, which the tool adds when it
 saves; neither is pasted into the tool. Regenerate it whenever a post from 2026-08-16 on is published or
 edited.

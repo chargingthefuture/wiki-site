@@ -1,5 +1,6 @@
 import { defineConfig, type Plugin } from "vite";
 import fs from "fs";
+import { findAudioFiles } from "../../scripts/src/audio-files";
 import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import path from "path";
@@ -27,34 +28,29 @@ if (!basePath) {
   );
 }
 
-// Recorded readings of posts: content/audio/<post-slug>.mp3 (or .m4a). The post page shows a
-// "Listen to this post" player when a file named after its slug is here; nothing else has to change.
-// The files are copied to <base>audio/<file> with their names unchanged, not hashed like images, so
-// each one has a fixed address that can be pasted elsewhere (the Chyme readings loop in the app).
-const AUDIO_DIR = path.resolve(import.meta.dirname, "..", "..", "content", "audio");
-const AUDIO_FILE_RE = /^[a-z0-9][a-z0-9-]*\.(mp3|m4a)$/;
-
-function listAudioFiles(): string[] {
-  if (!fs.existsSync(AUDIO_DIR)) return [];
-  return fs.readdirSync(AUDIO_DIR).filter((name) => AUDIO_FILE_RE.test(name)).sort();
-}
-
+// Recorded readings of posts: content/audio/<post-slug>.mp3 (or .m4a), or a correctly named file
+// uploaded to the wrong folder (see scripts/src/audio-files.ts). The post page shows a "Listen to
+// this post" player when its slug has a file; nothing else has to change. The files are copied to
+// <base>audio/<file> with their names unchanged, not hashed like images, so each one has a fixed
+// address the app's Chyme readings loop can play.
 function contentAudio(): Plugin {
-  const files = listAudioFiles();
+  const files = [...findAudioFiles(path.resolve(import.meta.dirname, "..", "..")).values()];
+  const byServed = new Map(files.map((file) => [file.served, file.path]));
   return {
     name: "content-audio",
-    config: () => ({ define: { __POST_AUDIO_FILES__: JSON.stringify(files) } }),
+    config: () => ({ define: { __POST_AUDIO_FILES__: JSON.stringify([...byServed.keys()].sort()) } }),
     generateBundle() {
-      for (const name of files) {
-        this.emitFile({ type: "asset", fileName: `audio/${name}`, source: fs.readFileSync(path.join(AUDIO_DIR, name)) });
+      for (const [served, filePath] of byServed) {
+        this.emitFile({ type: "asset", fileName: `audio/${served}`, source: fs.readFileSync(filePath) });
       }
     },
     configureServer(server) {
       server.middlewares.use((req, res, next) => {
         const match = /\/audio\/([^/?#]+)$/.exec((req.url ?? "").split("?")[0]);
-        if (!match || !files.includes(match[1])) return next();
+        const filePath = match ? byServed.get(match[1]) : undefined;
+        if (!match || !filePath) return next();
         res.setHeader("Content-Type", match[1].endsWith(".m4a") ? "audio/mp4" : "audio/mpeg");
-        fs.createReadStream(path.join(AUDIO_DIR, match[1])).pipe(res);
+        fs.createReadStream(filePath).pipe(res);
       });
     },
   };
