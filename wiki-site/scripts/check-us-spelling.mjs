@@ -42,6 +42,10 @@ const EXEMPT_FILES = new Set([
   // not prose, and an archived post's filename is not ours to respell — doing so would make the
   // reference point at nothing.
   'wiki-site/COPY_EDIT_REVIEW.md',
+  // Each listed page's permanent feed number, keyed by its slug. The slugs are page addresses, not
+  // prose, and an archived page's slug is not ours to respell (it would make the key name nothing);
+  // JSON has no room for the spelling:disable markers.
+  'wiki-site/content/feed-numbers.json',
 ]);
 
 // Whole directories of other people's words, matched by path prefix. Unlike EXEMPT_FILES these

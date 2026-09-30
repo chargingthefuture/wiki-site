@@ -47,6 +47,7 @@ interface ArticleRecord {
   category: string;
   collection: string;
   path: string;
+  number?: number;
   featured?: boolean;
   listed?: boolean;
   teaser?: string;
@@ -204,6 +205,30 @@ function firstCommitSeconds(relPath: string): number {
   }
 }
 
+// Each listed page's number on /feed, kept in content/feed-numbers.json and never changed once given
+// (owner report, 2026-09-30). The number used to be the page's position in this list, which moves
+// whenever two same-day posts swap order (they are ranked by first-commit time, which changes when
+// a file is moved) or an older-dated page is added; the teaser readings speak the number aloud, so a
+// shifted number is a paid recording pointing at the wrong post. A listed page with no number yet
+// gets the next one, oldest first; a number is never reused, even when its page is unlisted.
+const FEED_NUMBERS = join(BLOG_ROOT, 'content', 'feed-numbers.json');
+
+function feedKey(a: ArticleRecord): string {
+  return `${a.repo.split('/')[1] ?? a.repo}/${a.slug}`;
+}
+
+function assignFeedNumbers(sortedNewestFirst: ArticleRecord[]): Record<string, number> {
+  const numbers = JSON.parse(readFileSync(FEED_NUMBERS, 'utf8')) as Record<string, number>;
+  let next = Math.max(0, ...Object.values(numbers)) + 1;
+  for (const a of [...sortedNewestFirst].reverse()) {
+    if (a.listed === false) continue;
+    const key = feedKey(a);
+    if (numbers[key] === undefined) numbers[key] = next++;
+    a.number = numbers[key];
+  }
+  return numbers;
+}
+
 function render(articles: ArticleRecord[]): string {
   const publishedAt = new Map<string, number>();
   for (const a of articles) publishedAt.set(a.path, firstCommitSeconds(a.path));
@@ -214,6 +239,9 @@ function render(articles: ArticleRecord[]): string {
     if (byCommit !== 0) return byCommit;
     return a.slug.localeCompare(b.slug);
   });
+
+  const numbers = assignFeedNumbers(sorted);
+  if (!isDryRun) writeFileSync(FEED_NUMBERS, `${JSON.stringify(numbers, null, 2)}\n`, 'utf8');
 
   const blocks = sorted.map((a) => '  ' + JSON.stringify(a, null, 2).split('\n').join('\n  '));
 
@@ -248,6 +276,8 @@ function render(articles: ArticleRecord[]): string {
     '  category: string;',
     '  collection: string;',
     '  path: string;',
+    '  /** Permanent number on /feed (content/feed-numbers.json). Listed pages only. */',
+    '  number?: number;',
     '  featured?: boolean;',
     '  listed?: boolean;',
     '  teaser?: string;',
