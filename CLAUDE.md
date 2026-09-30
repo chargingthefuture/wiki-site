@@ -573,6 +573,20 @@ Each entry ends with a `Full post: <url>` line, and the label is load-bearing: a
 its own line is what Quora's editor converts into a preview card, while a URL inside a sentence is
 left as written. Paste the summary and that line together.
 
+Each entry's `No. N` is the post's number on `/feed` (oldest No. 1). The teaser readings speak it
+aloud, so a wrong one is a paid recording that points listeners at the wrong post; by 2026-09-30,
+128 of the 405 hand-written numbers had drifted and 15 recordings carried them. CI now fails when a
+number differs from the feed (`pnpm wiki:check-numbers`, job step "Paste sheet numbers match
+/feed"). Take the number from `/feed` or from the check's own message, never by counting.
+
+Feed numbers are permanent (owner report, 2026-09-30). They used to be each page's position in the
+registry, which moved whenever two same-day posts swapped order (ranked by first-commit time, which
+changes when a file moves) or an older-dated page was added: 26 would have shifted on the next sync.
+Now `wiki-site/content/feed-numbers.json` holds every listed page's number, seeded from what `/feed`
+showed on 2026-09-30. `pnpm wiki:sync` copies them into the registry and gives a new listed page the
+next free number, and `/feed` shows them (in date order, so a living page still rises when it changes, keeping its number). Never edit or renumber that file: a number
+that changes breaks every recording and paste that already carries it.
+
 Publishing a post is not finished until that file carries the new page. Every publish does three
 things: merge the post, add its entry to the paste sheet, and give the owner the Quora excerpt in
 the reply.
