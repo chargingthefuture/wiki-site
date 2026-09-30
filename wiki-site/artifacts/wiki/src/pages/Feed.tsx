@@ -14,7 +14,7 @@ import { formatArticleDate } from "@/lib/dates";
  *
  * Each entry shows the post's teaser — the short standalone version that
  * says what the post says — falling back to the excerpt for posts
- * that predate the teaser field. Entries are numbered by publish order
+ * that predate the teaser field. Entries carry their permanent feed number (publish order)
  * (oldest is No. 1) so a reader can see how deep the catalog goes.
  *
  * Scope: every collection — posts, product updates, guides, insights,
@@ -37,9 +37,17 @@ export default function Feed() {
 
   const entries = useMemo<FeedEntry[]>(() => {
     const posts = ARTICLES.filter((a) => a.listed !== false);
-    // ARTICLES is newest-first; number by publish order so the oldest is No. 1.
-    const total = posts.length;
-    return posts.map((article, i) => ({ article, number: total - i }));
+    // Each listed page carries a permanent number (content/feed-numbers.json, written by wiki:sync),
+    // oldest is No. 1; the teaser readings say it aloud, so it must never shift. A page committed
+    // without a sync has none yet: it gets the next free numbers, oldest first, until the next sync
+    // records one, so it can never collide with a number already given.
+    let next = Math.max(0, ...posts.map((a) => a.number ?? 0)) + 1;
+    const unnumbered = [...posts].reverse().filter((a) => a.number === undefined);
+    const provisional = new Map(unnumbered.map((a) => [a, next++]));
+    // The order stays the registry's (newest date first), so a living page whose date moves when it
+    // changes still rises to the top; it keeps its number, which is why numbers can appear out of
+    // sequence there.
+    return posts.map((article) => ({ article, number: article.number ?? provisional.get(article)! }));
   }, []);
 
   const pageCount = Math.max(1, Math.ceil(entries.length / PER_PAGE));
