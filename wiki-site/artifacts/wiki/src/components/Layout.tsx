@@ -106,6 +106,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 <li><Link href="/" className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> Transmissions</Link></li>
                 <li><Link href="/feed" className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> The Feed</Link></li>
                 <li><Link href="/record" className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> The Record</Link></li>
+                <li><Link href="/streams" className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> The Streams</Link></li>
                 {/* A plain <a>, not a route: the feed is a static file the build
                     writes, and BASE_URL keeps it right under the /chargingthefuture/
                     path on Pages. A reader that already has a feed app takes this in

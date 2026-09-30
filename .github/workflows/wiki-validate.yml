@@ -7,10 +7,18 @@ on:
     branches: [main]
     paths:
       - "wiki-site/**"
+      # A recording uploaded to the top of the repository by mistake is still published
+      # (wiki-site/scripts/src/audio-files.ts finds it), so it has to start a build too.
+      - "*.mp3"
+      - "*.m4a"
       - ".github/workflows/wiki-validate.yml"
   pull_request:
     paths:
       - "wiki-site/**"
+      # A recording uploaded to the top of the repository by mistake is still published
+      # (wiki-site/scripts/src/audio-files.ts finds it), so it has to start a build too.
+      - "*.mp3"
+      - "*.m4a"
       - ".github/workflows/wiki-validate.yml"
 
 jobs:
@@ -51,6 +59,11 @@ jobs:
       # (no local pnpm available) still validates and builds.
       - name: Sync articles (in-place)
         run: pnpm --filter @workspace/scripts run sync-articles
+
+      # The teaser readings speak these numbers aloud, so a drifted one is a recording that sends
+      # listeners to the wrong post. The numbers come from content/feed-numbers.json.
+      - name: Paste sheet numbers match /feed
+        run: pnpm --filter @workspace/scripts run check-paste-sheet-numbers
 
       - name: Typecheck wiki
         run: pnpm --filter @workspace/wiki run typecheck
