@@ -15,7 +15,8 @@ because an address read aloud is noise. The post date is left out too. Every lin
 punctuation so the voice pauses.
 
 The voice tool takes at most 5,000 characters, so a post longer than that has its
-teaser in its entry instead of the full text, and its = line says so. In the tracker, a
+teaser in its entry instead of the full text, ending "Full post, No. N, available on the
+blog." with its number on the blog feed, and its = line says so. In the tracker, a
 recording much shorter than its post is listed as a teaser reading.
 
 To skip a post for good, add its slug to wiki-site/content/audio/skipped.yaml.
@@ -81,6 +82,8 @@ You cannot argue a smear down.
 
 Somebody asked how to overcome a false narrative, and how to distract themselves from the tactics. The two halves are one question, and the second half decides the first. A smear is not an argument; it is made unfalsifiable on purpose, so the rebuttal never ends and the day is spent. What defeats one is not a better reply — it is a dated record you own, work other people can see, and people who know you because you did something for them, none of which requires anyone to take your word. And distraction is the wrong target: it concedes that the operation holds the day and asks what to do with the rest of it.
 
+Full post, No. 351, available on the blog.
+
 ==================== 2026-08-29 · teaser (the full post is 7,931 characters) ====================
 
 present-the-math
@@ -89,6 +92,8 @@ If you say it cannot be done, present the math.
 
 An economy run by Targeted Individuals cannot be built — said constantly, never once shown. Here is mine: W. E. B. Du Bois recorded 2,000 college-trained people who trained 50,000, who reached 9,000,000, in the United States alone. In a town I had just arrived in I counted 300 on foot inside 24 hours and stopped there, and the rates still hold. If you say it cannot be done, present the math. Some of the accounts repeating it never had any. Anyone else who comes up empty has learned something.
 
+Full post, No. 356, available on the blog.
+
 ==================== 2026-08-29 · teaser (the full post is 6,159 characters) ====================
 
 two-games-in-the-arcade
@@ -96,6 +101,8 @@ two-games-in-the-arcade
 Two games in the arcade, and what each one is for.
 
 In 1903 W. E. B. Du Bois recorded two rates: 2,000 college-trained people trained 50,000 teachers, and those 50,000 taught 9,000,000. 25 times over, then 180 times over. A game is now live that runs on nothing but those two numbers, and you decide each round how much goes to teaching and how much to the work. Put it all into the work and you reach 360,000. Teach first and you reach the 9,000,000 he recorded. His people were denied skills; the people here already have them and cannot be found.
+
+Full post, No. 355, available on the blog.
 
 ==================== 2026-09-13 ====================
 
@@ -157,6 +164,8 @@ Nobody Calls to Tell You Your Project Is Dead.
 
 Somebody on the app called to tell me it is dead, that nobody is on it, and that they are getting nothing out of it. In the same call they asked me to ask them to stay, and asked for advanced permissions so they could help bring people in — having brought nobody. A person who genuinely finds a thing empty just stops opening it. Here is what that call was, why the app gives someone like that so little to work with, and why a community built without stealing anybody does not fill up on command.
 
+Full post, No. 359, available on the blog.
+
 ==================== 2026-09-14 · teaser (the full post is 6,982 characters) ====================
 
 what-i-missed-about-everything-on-the-blockchain
@@ -165,6 +174,8 @@ What I Missed About Wanting Everything On the Blockchain.
 
 Years ago I argued that crypto is useful for money and unnecessary for running an app — nobody needs a blockchain to book a room. I still mostly think that. What I missed is that some people asking for it were not maximalists at all. They wanted a system with no lever in it for anybody to pull. I learned that by building one, and by watching somebody ask me for the lever.
 
+Full post, No. 360, available on the blog.
+
 ==================== 2026-09-15 · teaser (the full post is 7,495 characters) ====================
 
 peace-battle-2
@@ -172,6 +183,8 @@ peace-battle-2
 Peace Battle 2.
 
 Survivors have tried to hold protests and turned up alone. A protest in a place assumes neighbors, money for travel, and a day you can afford to lose, and most Targeted Individuals have none of the three. So this one is distributed, like the thing it answers. It starts Friday, September 18 at 7:00 PM Eastern, it runs for years, and there are three ways to take part — all of them from a phone.
+
+Full post, No. 364, available on the blog.
 
 ==================== 2026-09-15 ====================
 
@@ -345,6 +358,8 @@ What's Your 1%?
 
 Workforce tells you what a population of five million would look like. It never told you what you could do inside it, and a lot of people read the whole screen and conclude none of it is about them. The new tab starts from one percent — 50,000 people — and works back to the person serving them. At $5 a head that is $250,000 a year, three and a half times the average. It is weighted to your trade, because a plumber and a physiotherapist are not interchangeable. And no trade reaches 50,000 people one job at a time, so the tab names the five ways the same skill gets there.
 
+Full post, No. 362, available on the blog.
+
 ==================== 2026-09-15 ====================
 
 you-can-talk-under-these-posts-now
@@ -453,6 +468,8 @@ How are you doing?
 
 Asking a Targeted Individual how they are doing is not always a kindness. Their raw material is your pain, so the answer is the thing being collected — which is why the question gets asked at all, alongside holding a door and then saying something, or telling a woman she should smile more. So I am not going to ask you how you are doing. I already know, because I am living the same week. I am going to ask what you need, which is a question with an answer somebody can act on. Coexistence over conspiracy.
 
+Full post, No. 368, available on the blog.
+
 ==================== 2026-09-18 · teaser (the full post is 5,801 characters) ====================
 
 how-to-run-a-one-percent-session
@@ -460,6 +477,8 @@ how-to-run-a-one-percent-session
 How to run a one percent session.
 
 I said I would spend my time helping Targeted Individuals work toward their one percent. Here is the entire method, written down so you can run it without me — on yourself, or for somebody else. Eight questions in order. What do you need, is your list of skills right, what would you charge one person once, what does that come to across fifty thousand, who is the first one, what stands between you and them, what can be arranged about that specific thing, and one next action with a name against it.
+
+Full post, No. 370, available on the blog.
 
 ==================== 2026-09-18 · teaser (the full post is 6,487 characters) ====================
 
@@ -469,6 +488,8 @@ My turn.
 
 Every week I ask somebody to say what they can do and to consider offering it, as work or as a hobby. It is unreasonable to keep asking without answering it myself. First and before anything else I am an artist — I have known that since a school drawing somebody asked to keep. Since 2023 I have been something else as well, and this post is me working out what. What I can offer the Skills Economy, beyond building the app, is helping other Targeted Individuals reach their one percent.
 
+Full post, No. 369, available on the blog.
+
 ==================== 2026-09-19 · teaser (the full post is 9,064 characters) ====================
 
 they-cannot-be-ignored
@@ -476,6 +497,8 @@ they-cannot-be-ignored
 They cannot be ignored.
 
 Somebody on Quora who knew about targeting, and knew somebody else was targeted, ignored it and then became a target themselves. I understand the impulse, because I ignored them from age five to thirty-nine, and none of it changed anything — the first punch in the face came after years of no reaction, and the escalation came because the quieter methods were not working. This is not a criticism of anybody who has looked away. It is a statement of fact: they cannot be ignored, and the Skills Economy exists because none of us individually has the tools to not ignore them properly. That includes the people who are doing well.
+
+Full post, No. 372, available on the blog.
 
 ==================== 2026-09-19 · teaser (the full post is 6,272 characters) ====================
 
@@ -485,6 +508,8 @@ What can be stopped.
 
 Somebody asked whether the harassment can be stopped, and which methods have worked. The honest answer is that no method I know of has ended it, mine included, and I have been at this since I was five. Moving does not do it, ignoring did not do it, and a quiet stretch is usually the people doing it laying low. What can be stopped is what it costs: your record of your own life, your week, your income, and who you depend on. Those are the parts that were ever in reach, and an economy of survivors is built to take them back.
 
+Full post, No. 375, available on the blog.
+
 ==================== 2026-09-20 · teaser (the full post is 5,805 characters) ====================
 
 count-the-recruits
@@ -492,6 +517,8 @@ count-the-recruits
 Count the recruits.
 
 The question looks forward, and I think the answer is behind us. The count that reshapes a place is not how many people are being targeted — it is how many have agreed to do the targeting. In a town I had just arrived in I counted the people involved on foot inside 24 hours and stopped at 300. That ratio is not a forecast. It describes a society where work goes to whoever is willing rather than whoever is able, where a report goes nowhere, and where a large number of ordinary people have learned that a stranger's livelihood is something you can be paid in favors to take. What I have to offer against it is an economy, not a prediction.
+
+Full post, No. 379, available on the blog.
 
 ==================== 2026-09-20 · teaser (the full post is 6,953 characters) ====================
 
@@ -501,6 +528,8 @@ Move toward somebody.
 
 Somebody in the United States asked whether any Targeted Individuals have tried moving to a different country, because they are considering Mexico to see if it stops. I have traveled, and it came with me: operators worked on me in other countries and traveled from other countries to do it, one stranger coming from Israel to Asia. So the first half of the question has an answer and it is no. What a move does change, for certain, is whose hands your week runs through. Go toward somebody, and write down the before and the after.
 
+Full post, No. 377, available on the blog.
+
 ==================== 2026-09-20 · teaser (the full post is 7,597 characters) ====================
 
 mutual-not-equal
@@ -508,6 +537,8 @@ mutual-not-equal
 Mutual, not equal.
 
 The last post was about ignoring it. This one is what happens when you stop and start asking. Every relationship runs on an exchange, and it is almost never equal — it only has to be mutual, with each side getting what they came for. Before the targeting, most people arrived at every table with enough to offer that the habit was never tested; afterward the same habit meets closed doors and hears far more no than yes. The Skills Economy is built to take the awkwardness out of that, and to filter out the people who will never hand you anything real.
+
+Full post, No. 380, available on the blog.
 
 ==================== 2026-09-20 · teaser (the full post is 6,008 characters) ====================
 
@@ -517,6 +548,8 @@ Something to lose.
 
 A stand-up joke: the people who commit mass shootings all live with their mother, so skip the background check and require a mortgage, because then they have something to lose. It works for the same reason a slander campaign works — on people who read the headline and never ask why a grown adult was in that house. The Forced Homecoming is a scheme, run on purpose. For years they also tried to get me to buy a gun and use it on a crowd, and when that failed they punched me in the face. Destitution, a mass shooting, suicide are the three endings; the Skills Economy is an attempt at a fourth route.
 
+Full post, No. 376, available on the blog.
+
 ==================== 2026-09-21 · teaser (the full post is 7,409 characters) ====================
 
 nearly-a-hundred-percent-isolated
@@ -524,6 +557,8 @@ nearly-a-hundred-percent-isolated
 Nearly a hundred percent isolated.
 
 A question I saved on Quora in October 2024 and never answered: when a Targeted Individual gets to the stage of being nearly a hundred percent isolated, what should that person do to survive? Isolation is not a side effect of the targeting; it is what the targeting is for, because a person with nobody left has to go through whoever is offered. So the answer runs backward from that. Read before you talk, write it down, be findable, ask for the smallest real thing with something in your hands, and keep one leg in the door. None of it ends the harassment. It changes whose hands your week runs through.
+
+Full post, No. 382, available on the blog.
 
 ==================== 2026-09-21 · teaser (the full post is 7,615 characters) ====================
 
@@ -533,6 +568,8 @@ You don't owe me anything.
 
 A trafficker's default stance is that a stranger already owes them; their network runs on favors granted for trafficking and kept by more of it, with somebody always in the middle. I have been targeted for over thirty years and come to the Skills Economy holding the reverse: nobody who joins owes me anything. So there is nobody in the middle, no hierarchy, no credit score, no ranking — one badge, earned by real help — and an account goes only for something egregious. Come and go, block me, delete everything yourself.
 
+Full post, No. 381, available on the blog.
+
 ==================== 2026-09-22 · teaser (the full post is 12,453 characters) ====================
 
 best-description-i-have-read
@@ -541,6 +578,8 @@ The best description of it I have read.
 
 What is this and what are the methods? It is the question that arrives most often, and I am not going to answer it, because Sherri Jenkins already did and did it better than I would. Her answer is a list: following on foot and by car, crowding somebody's space, insults murmured so only the target hears, a car outside the house, staged fights, skits built from things only the target should know, theft and vandalism, rumors, photographs, pets harmed, a phone bugged, mail tampered with, and the family pulled in too. The list is the part that matters, because every item on it is nothing taken alone. That is what makes it work and what makes it impossible to report.
 
+Full post, No. 385, available on the blog.
+
 ==================== 2026-09-22 · teaser (the full post is 5,152 characters) ====================
 
 it-followed-you
@@ -548,6 +587,8 @@ it-followed-you
 It followed you.
 
 Somebody asked how moving helps a person who is being seriously targeted. The last post on moving answered the person deciding whether to go. This one is for the person who already went, arrived, and found it running again inside a week. What follows a move is a name on a list, not a neighborhood, so the speed of the restart says nothing about the town and nothing about the decision. What a move actually changes is that the arrangements are unmade — no employer, no landlord, nobody with a key — so for a short stretch you choose who fills them. The thing to do inside it is put part of your week into hands that are not part of this, rather than packing again.
+
+Full post, No. 387, available on the blog.
 
 ==================== 2026-09-22 ====================
 
@@ -606,6 +647,8 @@ they-are-not-psychic
 They are not psychic.
 
 Somebody asked on Quora whether the people doing this are psychic. The answer is no, and the reason it looks otherwise is worth having in plain words. They watch around the clock, on foot and online, for years. They arrange the events they then appear to have foreseen, provocation included — punch somebody in the face and their reaction was never a prediction, and it gets used twice, once to look prescient and once as evidence for the smear. And they narrow a life until the next move is obvious, by destitution or by isolation, which does the same work when the money holds. The narrowing is the part that can be changed.
+
+Full post, No. 384, available on the blog.
 
 ==================== 2026-09-22 ====================
 
@@ -669,6 +712,8 @@ An RSS feed reader nobody can close.
 
 The feed you read on a platform is arranged by somebody else, and what it puts in front of you is a decision you did not make. An RSS feed reader, called a reader from here on, takes that away: it fetches the same posts the site publishes, in the order they were written, and nothing ranks them. Reading this blog that way needs no account anywhere — any reader app and one address. For people who would rather not run one, there is now one I host: sign in with your Skills Economy account, and the feeds are yours alone, invisible to every other person on it. Below is who pays for it and when you could lose your spot on it, written down now rather than left for you to discover.
 
+Full post, No. 391, available on the blog.
+
 ==================== 2026-09-25 · teaser (the full post is 13,895 characters) ====================
 
 Dictionary
@@ -676,6 +721,8 @@ Dictionary
 Dictionary: Skills Economy Terms.
 
 The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.
+
+Full post, No. 390, available on the blog.
 
 ==================== 2026-09-25 ====================
 
@@ -830,6 +877,8 @@ old-links-new-links
 Old links, new links.
 
 Quora has erased my accounts fifty-six times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. The latest ban landed at 4:48 in the morning on September 27, and the handle now open was opened five and a half hours later. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.
+
+Full post, No. 394, available on the blog.
 
 ==================== 2026-09-28 ====================
 

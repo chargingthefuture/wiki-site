@@ -616,8 +616,9 @@ and the sign-up line are left out. The sheet opens with a tracker table (owner d
 invites: every post with a recording is Full post, or Teaser when the recording runs far shorter
 than the post, and every post in `content/audio/skipped.yaml` is Skipped and is never offered for
 pasting again. Only the rest get paste entries. The tool takes at most 5,000 characters, so a post
-longer than that gets its front matter `teaser` in its entry instead of the full text, and its `=`
-line says so (owner decision, 2026-09-30): the teaser is already copy-edited, and cutting a
+longer than that gets its front matter `teaser` in its entry instead of the full text, ending with
+"Full post, No. N, available on the blog." (N is the post's number on `/feed`, oldest No. 1, read
+from the same registry the feed numbers from), and its `=` line says so (owner decision, 2026-09-30): the teaser is already copy-edited, and cutting a
 published post down to fit would mean copy-editing it again. Above each entry sit a separator line with the date and the name to save the recording under,
 alone on its line so it copies by itself on a phone, and without `.mp3`, which the tool adds when it
 saves; neither is pasted into the tool. Regenerate it whenever a post from 2026-08-16 on is published or

@@ -47,6 +47,7 @@ const POSTS_DIR = join(WIKI_ROOT, 'content/posts');
 const OUT = join(WIKI_ROOT, 'TTS_PASTE_SHEET.txt');
 const FROM = '2026-08-16';
 const SKIPPED_FILE = join(WIKI_ROOT, 'content/audio/skipped.yaml');
+const ARTICLES_FILE = join(WIKI_ROOT, 'artifacts/wiki/src/lib/articles.ts');
 // The title is the contract for an invite post (see build-invites.ts).
 const INVITE_TITLE = /^An invitation to\s+/i;
 const WHERE_TO_FIND = /^##\s+Where to find it in the app\s*$/im;
@@ -146,6 +147,20 @@ function minutes(seconds: number): string {
   return `${Math.floor(seconds / 60)}:${String(Math.round(seconds % 60)).padStart(2, '0')}`;
 }
 
+// Each listed page's number on the blog feed (/feed): its place in publication order, oldest is
+// No. 1, the same numbers the Quora paste sheet carries. Read from the generated registry the feed
+// numbers from (ARTICLES, newest first, unlisted pages left out), so the two can never disagree.
+// The registry is a TypeScript file outside this package, so it is read as text: one object per
+// entry at two spaces of indentation, with "slug" and an optional "listed": false four spaces in.
+function feedNumbers(): Map<string, number> {
+  const slugs: string[] = [];
+  for (const block of readFileSync(ARTICLES_FILE, 'utf8').split('\n  {\n').slice(1)) {
+    const slug = /^ {4}"slug": "([^"]+)"/m.exec(block)?.[1];
+    if (slug && !/^ {4}"listed": false/m.test(block)) slugs.push(slug);
+  }
+  return new Map(slugs.map((slug, i) => [slug.split('/').pop() ?? slug, slugs.length - i]));
+}
+
 function readSkipped(): Set<string> {
   if (!existsSync(SKIPPED_FILE)) return new Set();
   const data = load(readFileSync(SKIPPED_FILE, 'utf8')) as { skipped?: unknown } | null;
@@ -187,6 +202,7 @@ async function main() {
     }));
 
   const audio = findAudioFiles(WIKI_ROOT);
+  const numbers = feedNumbers();
   const skipped = readSkipped();
   const tracked: { entry: Entry; status: Status }[] = [];
   const toRecord: Entry[] = [];
@@ -215,7 +231,8 @@ async function main() {
     'punctuation so the voice pauses.',
     '',
     `The voice tool takes at most ${TOOL_LIMIT_CHARS.toLocaleString('en-US')} characters, so a post longer than that has its`,
-    'teaser in its entry instead of the full text, and its = line says so. In the tracker, a',
+    'teaser in its entry instead of the full text, ending "Full post, No. N, available on the',
+    'blog." with its number on the blog feed, and its = line says so. In the tracker, a',
     'recording much shorter than its post is listed as a teaser reading.',
     '',
     'To skip a post for good, add its slug to wiki-site/content/audio/skipped.yaml.',
@@ -237,7 +254,11 @@ async function main() {
     const size = e.text.length;
     const useTeaser = size > TOOL_LIMIT_CHARS && e.teaser !== '';
     const warning = useTeaser ? ` · teaser (the full post is ${size.toLocaleString('en-US')} characters)` : '';
-    const text = useTeaser ? toSpeakable(e.teaser).split('\n').map(endSentence).join('\n') : e.text;
+    // A teaser reading ends by pointing at the full post, by the number the blog feed shows, so a
+    // listener who wants the rest can find it (owner directive, 2026-09-30).
+    const number = numbers.get(e.slug);
+    const pointer = number ? `\n\nFull post, No. ${number}, available on the blog.` : '\n\nFull post available on the blog.';
+    const text = useTeaser ? toSpeakable(e.teaser).split('\n').map(endSentence).join('\n') + pointer : e.text;
     // No .mp3: the text-to-speech tool adds it when the file is saved, and typing it again made
     // what-stays-up.mp3.mp3 (owner report, 2026-09-29).
     return [`${'='.repeat(20)} ${e.date}${warning} ${'='.repeat(20)}`, '', e.slug, '', endSentence(e.title), '', text, ''].join('\n');
