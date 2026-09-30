@@ -613,10 +613,12 @@ that only works on a screen — an address read aloud is noise, so links keep th
 their address, a sentence built around an address is dropped, and "Where to find it in the app"
 and the sign-up line are left out. The sheet opens with a tracker table (owner directive,
 2026-09-30), so it doubles as the record of which posts have audio, the way `INVITE_QUEUE.md` tracks
-invites: every post with a recording is Done, or Cut short when the recording runs far shorter than
-the text (the tool stopped partway through every text over about 5,500 characters), and every post
-in `content/audio/skipped.yaml` is Skipped and is never offered for pasting again. Only the rest get
-paste entries, and an entry over the tool's limit says so. Above each entry sit a separator line with the date and the name to save the recording under,
+invites: every post with a recording is Full post, or Teaser when the recording runs far shorter
+than the post, and every post in `content/audio/skipped.yaml` is Skipped and is never offered for
+pasting again. Only the rest get paste entries. The tool takes at most 5,000 characters, so a post
+longer than that gets its front matter `teaser` in its entry instead of the full text, and its `=`
+line says so (owner decision, 2026-09-30): the teaser is already copy-edited, and cutting a
+published post down to fit would mean copy-editing it again. Above each entry sit a separator line with the date and the name to save the recording under,
 alone on its line so it copies by itself on a phone, and without `.mp3`, which the tool adds when it
 saves; neither is pasted into the tool. Regenerate it whenever a post from 2026-08-16 on is published or
 edited.

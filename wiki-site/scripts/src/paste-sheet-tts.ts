@@ -131,16 +131,16 @@ export function toSpeakable(markdown: string): string {
   return kept.map(endSentence).join('\n').replace(/\n{3,}/g, '\n\n').trim();
 }
 
-// The tool this sheet feeds stopped partway through every post longer than about 5,500 characters:
-// all 16 such recordings uploaded by 2026-09-30 run a minute or three for posts that take ten. So a
-// recording far shorter than its text is reported as cut short rather than done, and an entry over
-// the limit says so before it is pasted.
-const TOOL_LIMIT_CHARS = 5500;
-const CUT_SHORT_WORDS_PER_MINUTE = 200;
+// The text-to-speech tool takes at most 5,000 characters. For a post longer than that the owner
+// records its teaser instead (owner decision, 2026-09-30): the teaser is already copy-edited, and
+// cutting a published post down to fit would mean editing it again. So a long post's entry holds the
+// teaser, and a recording much shorter than its post's full text is tracked as a teaser reading.
+const TOOL_LIMIT_CHARS = 5000;
+const TEASER_WORDS_PER_MINUTE = 200;
 const SPEAKING_WORDS_PER_MINUTE = 140;
 
-type Entry = { file: string; slug: string; date: string; title: string; text: string };
-type Status = { kind: 'done' | 'cut-short' | 'skipped'; note: string };
+type Entry = { file: string; slug: string; date: string; title: string; text: string; teaser: string };
+type Status = { kind: 'done' | 'teaser' | 'skipped'; note: string };
 
 function minutes(seconds: number): string {
   return `${Math.floor(seconds / 60)}:${String(Math.round(seconds % 60)).padStart(2, '0')}`;
@@ -158,8 +158,8 @@ async function statusOf(entry: Entry, audio: AudioFile | undefined, skipped: Set
     const seconds = format.duration ?? 0;
     const words = entry.text.split(/\s+/).filter(Boolean).length;
     const expected = (words / SPEAKING_WORDS_PER_MINUTE) * 60;
-    if (seconds > 0 && words / (seconds / 60) > CUT_SHORT_WORDS_PER_MINUTE) {
-      return { kind: 'cut-short', note: `${minutes(seconds)} of about ${minutes(expected)}` };
+    if (seconds > 0 && words / (seconds / 60) > TEASER_WORDS_PER_MINUTE) {
+      return { kind: 'teaser', note: `${minutes(seconds)} (the full post would be about ${minutes(expected)})` };
     }
     return { kind: 'done', note: minutes(seconds) };
   }
@@ -167,7 +167,7 @@ async function statusOf(entry: Entry, audio: AudioFile | undefined, skipped: Set
   return null;
 }
 
-const STATUS_LABEL: Record<Status['kind'], string> = { done: 'Done', 'cut-short': 'Cut short', skipped: 'Skipped' };
+const STATUS_LABEL: Record<Status['kind'], string> = { done: 'Done', teaser: 'Teaser', skipped: 'Skipped' };
 
 async function main() {
   const entries: Entry[] = readdirSync(POSTS_DIR)
@@ -183,6 +183,7 @@ async function main() {
       date: String(e.meta!.date),
       title: String(e.meta!.title).trim(),
       text: toSpeakable(e.raw),
+      teaser: String(e.meta!.teaser ?? '').trim(),
     }));
 
   const audio = findAudioFiles(WIKI_ROOT);
@@ -213,8 +214,9 @@ async function main() {
     'because an address read aloud is noise. The post date is left out too. Every line ends in',
     'punctuation so the voice pauses.',
     '',
-    `The voice tool stops partway through a text longer than about ${TOOL_LIMIT_CHARS.toLocaleString('en-US')} characters. An entry`,
-    'over that says so on its = line.',
+    `The voice tool takes at most ${TOOL_LIMIT_CHARS.toLocaleString('en-US')} characters, so a post longer than that has its`,
+    'teaser in its entry instead of the full text, and its = line says so. In the tracker, a',
+    'recording much shorter than its post is listed as a teaser reading.',
     '',
     'To skip a post for good, add its slug to wiki-site/content/audio/skipped.yaml.',
     '',
@@ -223,7 +225,7 @@ async function main() {
   ].join('\n');
 
   const table = [
-    `TRACKER: ${count('done')} done, ${count('cut-short')} cut short, ${count('skipped')} skipped.`,
+    `TRACKER: ${count('done')} full post, ${count('teaser')} teaser, ${count('skipped')} skipped.`,
     '',
     '| Date | Post | Audio | Length |',
     '|---|---|---|---|',
@@ -233,10 +235,12 @@ async function main() {
 
   const blocks = toRecord.map((e) => {
     const size = e.text.length;
-    const warning = size > TOOL_LIMIT_CHARS ? ` · ${size.toLocaleString('en-US')} characters, over the tool's limit` : '';
+    const useTeaser = size > TOOL_LIMIT_CHARS && e.teaser !== '';
+    const warning = useTeaser ? ` · teaser (the full post is ${size.toLocaleString('en-US')} characters)` : '';
+    const text = useTeaser ? toSpeakable(e.teaser).split('\n').map(endSentence).join('\n') : e.text;
     // No .mp3: the text-to-speech tool adds it when the file is saved, and typing it again made
     // what-stays-up.mp3.mp3 (owner report, 2026-09-29).
-    return [`${'='.repeat(20)} ${e.date}${warning} ${'='.repeat(20)}`, '', e.slug, '', endSentence(e.title), '', e.text, ''].join('\n');
+    return [`${'='.repeat(20)} ${e.date}${warning} ${'='.repeat(20)}`, '', e.slug, '', endSentence(e.title), '', text, ''].join('\n');
   });
 
   const toRecordHeader = [`STILL TO RECORD: ${toRecord.length} posts.`, ''].join('\n');
