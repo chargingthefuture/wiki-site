@@ -1,0 +1,11 @@
+# Posts deliberately left without a recording (owner decision, 2026-09-30): audio of them would
+# not be worth listening to. The text-to-speech sheet (pnpm wiki:paste-tts) lists them as skipped and
+# never offers them for pasting again. Add a post's slug here to skip it; remove it to offer it again.
+skipped:
+  - honoring-the-earliest-supporters  # The People Who Backed This Publicly.
+  - oldie-but-goodie-pam-dawson-t-tipton  # Oldie but Goodie: Skills, Solidarity, and Support.
+  - Skills-Economy-Phone-Wallpapers  # Skills Economy Phone Wallpapers.
+  - how-to-check-me  # How to Check Me.
+  - looking-up-this-blog-in-the-wayback-machine  # Looking Up This Blog in the Wayback Machine.
+  - seven-more-psyop-free-games  # Seven more psyop-free games.
+  - rfs-teaching-and-childcare  # Request For Skills: teaching and childcare.

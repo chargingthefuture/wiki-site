@@ -32,17 +32,21 @@
  * Usage:  pnpm wiki:paste-tts
  */
 
-import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync, readdirSync } from 'node:fs';
 import { resolve, dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseFrontMatter } from './frontmatter.js';
 import { toPasteable } from './paste-text.js';
+import { load } from 'js-yaml';
+import { parseFile } from 'music-metadata';
+import { findAudioFiles, type AudioFile } from './audio-files.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const WIKI_ROOT = resolve(__dirname, '../..');
 const POSTS_DIR = join(WIKI_ROOT, 'content/posts');
 const OUT = join(WIKI_ROOT, 'TTS_PASTE_SHEET.txt');
 const FROM = '2026-08-16';
+const SKIPPED_FILE = join(WIKI_ROOT, 'content/audio/skipped.yaml');
 // The title is the contract for an invite post (see build-invites.ts).
 const INVITE_TITLE = /^An invitation to\s+/i;
 const WHERE_TO_FIND = /^##\s+Where to find it in the app\s*$/im;
@@ -127,47 +131,117 @@ export function toSpeakable(markdown: string): string {
   return kept.map(endSentence).join('\n').replace(/\n{3,}/g, '\n\n').trim();
 }
 
-function main() {
-  const entries = readdirSync(POSTS_DIR)
+// The tool this sheet feeds stopped partway through every post longer than about 5,500 characters:
+// all 16 such recordings uploaded by 2026-09-30 run a minute or three for posts that take ten. So a
+// recording far shorter than its text is reported as cut short rather than done, and an entry over
+// the limit says so before it is pasted.
+const TOOL_LIMIT_CHARS = 5500;
+const CUT_SHORT_WORDS_PER_MINUTE = 200;
+const SPEAKING_WORDS_PER_MINUTE = 140;
+
+type Entry = { file: string; slug: string; date: string; title: string; text: string };
+type Status = { kind: 'done' | 'cut-short' | 'skipped'; note: string };
+
+function minutes(seconds: number): string {
+  return `${Math.floor(seconds / 60)}:${String(Math.round(seconds % 60)).padStart(2, '0')}`;
+}
+
+function readSkipped(): Set<string> {
+  if (!existsSync(SKIPPED_FILE)) return new Set();
+  const data = load(readFileSync(SKIPPED_FILE, 'utf8')) as { skipped?: unknown } | null;
+  return new Set(Array.isArray(data?.skipped) ? data.skipped.map(String) : []);
+}
+
+async function statusOf(entry: Entry, audio: AudioFile | undefined, skipped: Set<string>): Promise<Status | null> {
+  if (audio) {
+    const { format } = await parseFile(audio.path, { duration: true });
+    const seconds = format.duration ?? 0;
+    const words = entry.text.split(/\s+/).filter(Boolean).length;
+    const expected = (words / SPEAKING_WORDS_PER_MINUTE) * 60;
+    if (seconds > 0 && words / (seconds / 60) > CUT_SHORT_WORDS_PER_MINUTE) {
+      return { kind: 'cut-short', note: `${minutes(seconds)} of about ${minutes(expected)}` };
+    }
+    return { kind: 'done', note: minutes(seconds) };
+  }
+  if (skipped.has(entry.slug)) return { kind: 'skipped', note: '' };
+  return null;
+}
+
+const STATUS_LABEL: Record<Status['kind'], string> = { done: 'Done', 'cut-short': 'Cut short', skipped: 'Skipped' };
+
+async function main() {
+  const entries: Entry[] = readdirSync(POSTS_DIR)
     .filter((f) => f.toLowerCase().endsWith('.md'))
-    .map((file) => {
-      const raw = readFileSync(join(POSTS_DIR, file), 'utf8');
-      return { file, meta: parseFrontMatter(raw).meta, raw };
-    })
+    .map((file) => ({ file, raw: readFileSync(join(POSTS_DIR, file), 'utf8') }))
+    .map(({ file, raw }) => ({ file, raw, meta: parseFrontMatter(raw).meta }))
     .filter((e) => e.meta?.date && e.meta.title && String(e.meta.date) >= FROM)
     .filter((e) => !INVITE_TITLE.test(String(e.meta!.title).trim()))
-    .sort((a, b) => String(a.meta!.date).localeCompare(String(b.meta!.date)) || a.file.localeCompare(b.file));
+    .sort((a, b) => String(a.meta!.date).localeCompare(String(b.meta!.date)) || a.file.localeCompare(b.file))
+    .map((e) => ({
+      file: e.file,
+      slug: String(e.meta!.slug || e.file.replace(/\.md$/i, '')).split('/').pop() ?? '',
+      date: String(e.meta!.date),
+      title: String(e.meta!.title).trim(),
+      text: toSpeakable(e.raw),
+    }));
 
+  const audio = findAudioFiles(WIKI_ROOT);
+  const skipped = readSkipped();
+  const tracked: { entry: Entry; status: Status }[] = [];
+  const toRecord: Entry[] = [];
+  for (const entry of entries) {
+    const status = await statusOf(entry, audio.get(entry.slug), skipped);
+    if (status) tracked.push({ entry, status });
+    else toRecord.push(entry);
+  }
+
+  const count = (kind: Status['kind']) => tracked.filter((t) => t.status.kind === kind).length;
   const header = [
     'TEXT-TO-SPEECH PASTE SHEET',
     '',
-    'One post per entry, oldest first, from 2026-08-16 (What stays up). Invite posts are left out.',
+    'Two parts. The tracker lists every post already recorded or deliberately skipped; they are',
+    'never offered for pasting again. Below it, one entry per post still to record, oldest first,',
+    'from 2026-08-16 (What stays up). Invite posts are left out.',
+    '',
     'Each entry starts with a line of = signs and the post date, then the name to save the',
     'recording under, alone on its line so it copies by itself. It has no .mp3 on purpose: the',
-    'voice tool adds that when it saves. Upload the file to content/audio/. Neither line is for',
-    'the voice: paste from the title down to the end of the entry.',
+    'voice tool adds that when it saves. Upload the file to wiki-site/content/audio/ (a file that',
+    'lands in the wrong folder is still found). Neither line is for the voice: paste from the',
+    'title down to the end of the entry.',
     '',
     'Links, web addresses, "Where to find it in the app" and the sign-up line are left out,',
-    'because an address read aloud is noise. The post date is left out too: it adds paid',
-    'characters, and the post page shows it. Every line ends in punctuation so the voice pauses.',
+    'because an address read aloud is noise. The post date is left out too. Every line ends in',
+    'punctuation so the voice pauses.',
+    '',
+    `The voice tool stops partway through a text longer than about ${TOOL_LIMIT_CHARS.toLocaleString('en-US')} characters. An entry`,
+    'over that says so on its = line.',
+    '',
+    'To skip a post for good, add its slug to wiki-site/content/audio/skipped.yaml.',
     '',
     'Generated by pnpm wiki:paste-tts. Do not hand-edit: edit the post and regenerate.',
     '',
-    `${entries.length} posts.`,
+  ].join('\n');
+
+  const table = [
+    `TRACKER: ${count('done')} done, ${count('cut-short')} cut short, ${count('skipped')} skipped.`,
+    '',
+    '| Date | Post | Audio | Length |',
+    '|---|---|---|---|',
+    ...tracked.map(({ entry, status }) => `| ${entry.date} | ${entry.slug} | ${STATUS_LABEL[status.kind]} | ${status.note} |`),
     '',
   ].join('\n');
 
-  const blocks = entries.map((e) => {
-    const slug = String(e.meta!.slug || e.file.replace(/\.md$/i, ''));
+  const blocks = toRecord.map((e) => {
+    const size = e.text.length;
+    const warning = size > TOOL_LIMIT_CHARS ? ` · ${size.toLocaleString('en-US')} characters, over the tool's limit` : '';
     // No .mp3: the text-to-speech tool adds it when the file is saved, and typing it again made
     // what-stays-up.mp3.mp3 (owner report, 2026-09-29).
-    const audioFile = slug.split('/').pop() ?? slug;
-    // The file name stands alone on its line so it can be selected and copied by itself on a phone.
-    return [`${'='.repeat(20)} ${e.meta!.date} ${'='.repeat(20)}`, '', audioFile, '', endSentence(String(e.meta!.title).trim()), '', toSpeakable(e.raw), ''].join('\n');
+    return [`${'='.repeat(20)} ${e.date}${warning} ${'='.repeat(20)}`, '', e.slug, '', endSentence(e.title), '', e.text, ''].join('\n');
   });
 
-  writeFileSync(OUT, `${header}\n${blocks.join('\n')}`, 'utf8');
-  console.log(`✓ Wrote ${entries.length} posts → ${OUT}`);
+  const toRecordHeader = [`STILL TO RECORD: ${toRecord.length} posts.`, ''].join('\n');
+  writeFileSync(OUT, `${header}\n${table}\n${toRecordHeader}\n${blocks.join('\n')}`, 'utf8');
+  console.log(`✓ Wrote ${tracked.length} tracked and ${toRecord.length} to record → ${OUT}`);
 }
 
-main();
+await main();

@@ -110,7 +110,9 @@ carries it, because the owner froze that page outright and that freeze has not b
   this post" player (`ListenToPost.tsx`, served by the `contentAudio` plugin in
   `artifacts/wiki/vite.config.ts` at `<base>audio/<file>`, unhashed). `scripts/src/build-readings.ts`
   writes `artifacts/wiki/public/readings.json` on `wiki:readings`, which both build scripts run:
-  every recorded post, oldest first, with its title, absolute post and audio addresses, and the
+  every recorded post (found by `scripts/src/audio-files.ts`: `content/audio/`, and a correctly named
+  file uploaded to the wrong folder, since GitHub's upload page drops files wherever it is open),
+  oldest first, with its title, absolute post and audio addresses, and the
   recording's length in seconds (read from the file with `music-metadata`). The app's
   Chyme readings loop plays that list while nobody is live, so uploading the file is the only step
   (owner decision, 2026-09-29). Build output like the feed: gitignored, never hand-edited.
@@ -609,7 +611,12 @@ but oldest first, and invite posts are left out: the tool is paid per character,
 the copy-edited posts that carry the argument. Each entry is the title, then the post, and nothing
 that only works on a screen — an address read aloud is noise, so links keep their words and lose
 their address, a sentence built around an address is dropped, and "Where to find it in the app"
-and the sign-up line are left out. Above each entry sit a separator line with the date and the name to save the recording under,
+and the sign-up line are left out. The sheet opens with a tracker table (owner directive,
+2026-09-30), so it doubles as the record of which posts have audio, the way `INVITE_QUEUE.md` tracks
+invites: every post with a recording is Done, or Cut short when the recording runs far shorter than
+the text (the tool stopped partway through every text over about 5,500 characters), and every post
+in `content/audio/skipped.yaml` is Skipped and is never offered for pasting again. Only the rest get
+paste entries, and an entry over the tool's limit says so. Above each entry sit a separator line with the date and the name to save the recording under,
 alone on its line so it copies by itself on a phone, and without `.mp3`, which the tool adds when it
 saves; neither is pasted into the tool. Regenerate it whenever a post from 2026-08-16 on is published or
 edited.
