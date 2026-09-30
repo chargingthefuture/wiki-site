@@ -40,6 +40,7 @@ import { toPasteable } from './paste-text.js';
 import { load } from 'js-yaml';
 import { parseFile } from 'music-metadata';
 import { findAudioFiles, type AudioFile } from './audio-files.js';
+import { feedEntries } from './feed-numbers.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const WIKI_ROOT = resolve(__dirname, '../..');
@@ -47,7 +48,6 @@ const POSTS_DIR = join(WIKI_ROOT, 'content/posts');
 const OUT = join(WIKI_ROOT, 'TTS_PASTE_SHEET.txt');
 const FROM = '2026-08-16';
 const SKIPPED_FILE = join(WIKI_ROOT, 'content/audio/skipped.yaml');
-const ARTICLES_FILE = join(WIKI_ROOT, 'artifacts/wiki/src/lib/articles.ts');
 // The title is the contract for an invite post (see build-invites.ts).
 const INVITE_TITLE = /^An invitation to\s+/i;
 const WHERE_TO_FIND = /^##\s+Where to find it in the app\s*$/im;
@@ -147,20 +147,6 @@ function minutes(seconds: number): string {
   return `${Math.floor(seconds / 60)}:${String(Math.round(seconds % 60)).padStart(2, '0')}`;
 }
 
-// Each listed page's number on the blog feed (/feed): its place in publication order, oldest is
-// No. 1, the same numbers the Quora paste sheet carries. Read from the generated registry the feed
-// numbers from (ARTICLES, newest first, unlisted pages left out), so the two can never disagree.
-// The registry is a TypeScript file outside this package, so it is read as text: one object per
-// entry at two spaces of indentation, with "slug" and an optional "listed": false four spaces in.
-function feedNumbers(): Map<string, number> {
-  const slugs: string[] = [];
-  for (const block of readFileSync(ARTICLES_FILE, 'utf8').split('\n  {\n').slice(1)) {
-    const slug = /^ {4}"slug": "([^"]+)"/m.exec(block)?.[1];
-    if (slug && !/^ {4}"listed": false/m.test(block)) slugs.push(slug);
-  }
-  return new Map(slugs.map((slug, i) => [slug.split('/').pop() ?? slug, slugs.length - i]));
-}
-
 function readSkipped(): Set<string> {
   if (!existsSync(SKIPPED_FILE)) return new Set();
   const data = load(readFileSync(SKIPPED_FILE, 'utf8')) as { skipped?: unknown } | null;
@@ -202,7 +188,7 @@ async function main() {
     }));
 
   const audio = findAudioFiles(WIKI_ROOT);
-  const numbers = feedNumbers();
+  const numbers = new Map(feedEntries(WIKI_ROOT).map((e) => [e.slug.split('/').pop() ?? e.slug, e.number]));
   const skipped = readSkipped();
   const tracked: { entry: Entry; status: Status }[] = [];
   const toRecord: Entry[] = [];

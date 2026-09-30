@@ -13,6 +13,7 @@
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "paste-sheet-full": "tsx ./src/paste-sheet-full.ts",
     "paste-sheet-tts": "tsx ./src/paste-sheet-tts.ts",
+    "check-paste-sheet-numbers": "tsx ./src/check-paste-sheet-numbers.ts",
     "build-feed": "tsx ./src/build-feed.ts",
     "build-invites": "tsx ./src/build-invites.ts",
     "build-readings": "tsx ./src/build-readings.ts",

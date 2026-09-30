@@ -60,6 +60,11 @@ jobs:
       - name: Sync articles (in-place)
         run: pnpm --filter @workspace/scripts run sync-articles
 
+      # The teaser readings speak these numbers aloud, so a drifted one is a recording that sends
+      # listeners to the wrong post. The numbers come from content/feed-numbers.json.
+      - name: Paste sheet numbers match /feed
+        run: pnpm --filter @workspace/scripts run check-paste-sheet-numbers
+
       - name: Typecheck wiki
         run: pnpm --filter @workspace/wiki run typecheck
 
