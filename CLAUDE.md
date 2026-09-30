@@ -116,6 +116,13 @@ carries it, because the owner froze that page outright and that freeze has not b
   recording's length in seconds (read from the file with `music-metadata`). The app's
   Chyme readings loop plays that list while nobody is live, so uploading the file is the only step
   (owner decision, 2026-09-29). Build output like the feed: gitignored, never hand-edited.
+- Recorded broadcasts: `/streams` (`src/pages/Streams.tsx`) lists every recorded live broadcast
+  from the app, newest first, paged, with a player for each that needs no account. It reads
+  `https://app.chargingthefuture.com/api/beacon/replays?page=` in the browser rather than at build,
+  so a replay appears the moment its recording is ready. The podcast feed for the same recordings is
+  served by the app at `/api/beacon/replays/feed`, not built here, for the same reason; `index.html`
+  carries an autodiscovery link to it. The players point at the app's recording address, which
+  fetches a current file address on every play, because the file address itself expires.
 - Share messages for Peace Battle 2: `artifacts/wiki/public/pb2-messages.json`, one ready-to-paste
   post per member-facing part of the app, written by `scripts/src/build-pb2-messages.ts` on
   `wiki:pb2` from the hand-written `content/pb2-share-messages.yaml`. Build output like the feed:
