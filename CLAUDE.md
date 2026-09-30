@@ -116,6 +116,13 @@ carries it, because the owner froze that page outright and that freeze has not b
   recording's length in seconds (read from the file with `music-metadata`). The app's
   Chyme readings loop plays that list while nobody is live, so uploading the file is the only step
   (owner decision, 2026-09-29). Build output like the feed: gitignored, never hand-edited.
+- Recorded broadcasts: `/streams` (`src/pages/Streams.tsx`) lists every recorded live broadcast
+  from the app, newest first, paged, with a player for each that needs no account. It reads
+  `https://app.chargingthefuture.com/api/beacon/replays?page=` in the browser rather than at build,
+  so a replay appears the moment its recording is ready. The podcast feed for the same recordings is
+  served by the app at `/api/beacon/replays/feed`, not built here, for the same reason; `index.html`
+  carries an autodiscovery link to it. The players point at the app's recording address, which
+  fetches a current file address on every play, because the file address itself expires.
 - Share messages for Peace Battle 2: `artifacts/wiki/public/pb2-messages.json`, one ready-to-paste
   post per member-facing part of the app, written by `scripts/src/build-pb2-messages.ts` on
   `wiki:pb2` from the hand-written `content/pb2-share-messages.yaml`. Build output like the feed:
@@ -577,7 +584,7 @@ registry, which moved whenever two same-day posts swapped order (ranked by first
 changes when a file moves) or an older-dated page was added: 26 would have shifted on the next sync.
 Now `wiki-site/content/feed-numbers.json` holds every listed page's number, seeded from what `/feed`
 showed on 2026-09-30. `pnpm wiki:sync` copies them into the registry and gives a new listed page the
-next free number, and `/feed` shows and sorts by them. Never edit or renumber that file: a number
+next free number, and `/feed` shows them (in date order, so a living page still rises when it changes, keeping its number). Never edit or renumber that file: a number
 that changes breaks every recording and paste that already carries it.
 
 Publishing a post is not finished until that file carries the new page. Every publish does three
