@@ -1,6 +1,6 @@
 ---
 title: "An invitation to Matthew"
-date: "2026-09-29"
+date: "2026-10-01"
 excerpt: "A disaster tests whether a community can coordinate. On this list, the emergency and reserve roles are nearly empty."
 category: "Community"
 teaser: "It is an invitation to join the Skills Economy. Matthew A Davis, in Zephyrhills, Florida, has a Directory listing that carries Emergency Support Function coordination: the work of keeping the parts of a disaster response, from transport to shelter to communications, running to one plan. Across the list, 2 of the 21 emergency and reserve skills the app tracks are held by anybody. A community that lasts needs somebody who knows how to run its worst week."

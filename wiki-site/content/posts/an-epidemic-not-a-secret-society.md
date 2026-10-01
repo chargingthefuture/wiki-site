@@ -1,6 +1,6 @@
 ---
 title: "An epidemic, not a secret society"
-date: "2026-09-29"
+date: "2026-10-01"
 excerpt: "It is not the Illuminati. It is manipulators in contact with each other worldwide, paid in sex, drugs, jobs and friends, and it starts at two years old."
 category: "Community"
 teaser: "People reach for the Illuminati, or a secret society. What I see is worse: narcissists, and people worse than narcissists, in contact with each other across the world at a rate never possible before. Nothing in their kit is new. Performed kindness, covert contracts, performative allyship: every tool already has a name. What they are paid in is sex, drugs, jobs and friends, for slander carried to strangers, starting at two. Refuse that payment and you are ousted from their economy. The Skills Economy is a different exchange."
