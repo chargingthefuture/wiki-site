@@ -1,7 +1,7 @@
 # Invite queue
 
 An invite post is written for one person who is already listed in the Directory, and it names what
-they actually do. Eleven have been published. This file tracks who is next, what has gone out, and
+they actually do. Eighteen have been published. This file tracks who is next, what has gone out, and
 the two rules that keep the series readable.
 
 The list of people comes from `/admin/directory/invite-queue` in the app — reachable from the
@@ -96,6 +96,13 @@ Rotate these. Each is a way into the same invitation; none of them is a template
 | Alphelus Allen | Alphelus-Allen | an-invitation-to-alphelus.md | Seven specializations running from power systems design to wiring and circuit installation, against the two things that have to be true for the targeting to work | 2026-09-21 |
 | Lorraine Valente | lorraine-valente | an-invitation-to-lorraine.md | Ten clinical specializations read as one trade, against the listing already existing before anybody was asked, and health and wellbeing as one of the thirteen jobs | 2026-09-22 |
 | Krissyy | Krissyy-2 | an-invitation-to-krissyy.md | Legal research and drafting, the only listing of 163 that carries it, against the Memphis strike ending in terms somebody had to write down | 2026-09-28 |
+| Jessica Goodwin | Jessica-Goodwin-229 | an-invitation-to-jessica.md | Advocacy placeholder, after answering their question about where to report it; what the list can do for them | 2026-09-28 |
+| Zack Tom | Zack-Tom-4 | an-invitation-to-zack.md | Five environmental skills against Environmental and Waste Management at 6 of 25 and Water and Sanitation at 3 of 19 | 2026-09-28 |
+| Jerrod Fredrick | Jerrod-Fredrick | an-invitation-to-jerrod.md | Advocacy placeholder, after answering their question about how anybody could help; the Commons for somebody to talk to | 2026-09-28 |
+| Eli Paniagua | Eli-Paniagua-1 | an-invitation-to-eli.md | Advocacy placeholder, after answering their question about who teaches the young people who take part | 2026-09-28 |
+| Brecht Corbeel | Brecht-Corbeel | an-invitation-to-brecht.md | Five visual skills, from drawing an idea to keeping a brand recognizable; their Quora account already banned | 2026-09-28 |
+| Matthew A Davis | Matthew-A-Davis-1 | an-invitation-to-matthew-a-davis.md | Emergency Support Function coordination against Emergency and Reserve Roles at 2 of 21 | 2026-09-29 |
+| Sherri Jenkins | Sherri-Jenkins-12 | an-invitation-to-sherri.md | Security procedures, and the answer already credited in best-description-i-have-read.md | 2026-09-29 |
 
 When a post merges, add its row here and add the handle in two places in the product repository,
 in the same piece of work: the `DIRECTORY_INVITE_ALREADY_WRITTEN` array in
@@ -115,13 +122,13 @@ needed to write the next posts, because the copied list itself is never committe
 | Mary Harris | Mary-T-I-1 | — | — | — | skipped — owner decision, 2026-09-20. Not to be written unless the owner says so. She does not appear on the invite queue screen, so this row is the only record of the skip. |
 | Lorraine Valente | lorraine-valente | Ten clinical skills on one listing — clinical supervision, cognitive behavioral therapy, crisis intervention, diagnosis and treatment planning, evidence-based therapeutic interventions, group therapy facilitation, neuropsychological assessment, psychological assessment and testing, research and data analysis, trauma therapy and EMDR | skill-specific | You already have a profile | published |
 | Krissyy | Krissyy-2 | Legal research and drafting; Minneapolis | skill-specific | The labor movement, and King | published |
-| Jessica Goodwin | Jessica-Goodwin-229 | Advocacy (placeholder); United States | advocacy-only | You already have a profile | in PR — moved up by the owner, 2026-09-28, after answering their question in who-to-report-it-to.md; the post speaks to what the list can do for them |
-| Zack Tom | Zack-Tom-4 | Biodiversity monitoring and habitat assessment; community outreach and stewardship; enforcement actions and corrective plans; pollution control system design; waste-flow modeling and policy evaluation; Denmark | skill-specific | A working economy needs people who | in PR |
-| Jerrod Fredrick | Jerrod-Fredrick | Advocacy (placeholder); United States | advocacy-only | You already have a profile | in PR — owner decision, 2026-09-28, after answering their question in how-i-can-help.md |
-| Eli Paniagua | Eli-Paniagua-1 | Advocacy (placeholder); United States | advocacy-only | Two things have to be true | in PR — owner decision, 2026-09-28, after answering their question in who-teaches-them.md |
-| Brecht Corbeel | Brecht-Corbeel | Brand management; branding and identity systems; visual design and interaction patterns; visual concept development; illustration and concept art; Antwerp | skill-specific | You do not have to agree with me | in PR — owner decision, 2026-09-28, after answering their question in it-happens-at-work.md; their Quora account is banned, so the blog is the address that reaches them |
-| Matthew A Davis | Matthew-A-Davis-1 | Advocacy; Emergency Support Function (ESF) coordination; Zephyrhills, Florida | skill-specific | A working economy needs people who | in PR — owner decision, 2026-09-29; Emergency and Reserve Roles held 2 of 21 that day |
-| Sherri Jenkins | Sherri-Jenkins-12 | Security procedures; Oklahoma City | skill-specific | Two things have to be true | in PR — owner decision, 2026-09-29; credited earlier in best-description-i-have-read.md |
+| Jessica Goodwin | Jessica-Goodwin-229 | Advocacy (placeholder); United States | advocacy-only | You already have a profile | published |
+| Zack Tom | Zack-Tom-4 | Biodiversity monitoring and habitat assessment; community outreach and stewardship; enforcement actions and corrective plans; pollution control system design; waste-flow modeling and policy evaluation; Denmark | skill-specific | A working economy needs people who | published |
+| Jerrod Fredrick | Jerrod-Fredrick | Advocacy (placeholder); United States | advocacy-only | You already have a profile | published |
+| Eli Paniagua | Eli-Paniagua-1 | Advocacy (placeholder); United States | advocacy-only | Two things have to be true | published |
+| Brecht Corbeel | Brecht-Corbeel | Brand management; branding and identity systems; visual design and interaction patterns; visual concept development; illustration and concept art; Antwerp | skill-specific | You do not have to agree with me | published |
+| Matthew A Davis | Matthew-A-Davis-1 | Advocacy; Emergency Support Function (ESF) coordination; Zephyrhills, Florida | skill-specific | A working economy needs people who | published |
+| Sherri Jenkins | Sherri-Jenkins-12 | Security procedures; Oklahoma City | skill-specific | Two things have to be true | published |
 
 Status is one of: `queued`, `drafted`, `in PR`, `published`, `skipped`. A skipped row keeps its
 reason in the notes column so nobody re-queues it a month later.
