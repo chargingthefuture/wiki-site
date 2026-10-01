@@ -101,8 +101,8 @@ Rotate these. Each is a way into the same invitation; none of them is a template
 | Jerrod Fredrick | Jerrod-Fredrick | an-invitation-to-jerrod.md | Advocacy placeholder, after answering their question about how anybody could help; the Commons for somebody to talk to | 2026-09-28 |
 | Eli Paniagua | Eli-Paniagua-1 | an-invitation-to-eli.md | Advocacy placeholder, after answering their question about who teaches the young people who take part | 2026-09-28 |
 | Brecht Corbeel | Brecht-Corbeel | an-invitation-to-brecht.md | Five visual skills, from drawing an idea to keeping a brand recognizable; their Quora account already banned | 2026-09-28 |
-| Matthew A Davis | Matthew-A-Davis-1 | an-invitation-to-matthew-a-davis.md | Emergency Support Function coordination against Emergency and Reserve Roles at 2 of 21 | 2026-09-29 |
-| Sherri Jenkins | Sherri-Jenkins-12 | an-invitation-to-sherri.md | Security procedures, and the answer already credited in best-description-i-have-read.md | 2026-09-29 |
+| Matthew A Davis | Matthew-A-Davis-1 | an-invitation-to-matthew-a-davis.md | Emergency Support Function coordination against Emergency and Reserve Roles at 2 of 21 | 2026-10-01 |
+| Sherri Jenkins | Sherri-Jenkins-12 | an-invitation-to-sherri.md | Security procedures, and the answer already credited in best-description-i-have-read.md | 2026-10-01 |
 
 When a post merges, add its row here and add the handle in two places in the product repository,
 in the same piece of work: the `DIRECTORY_INVITE_ALREADY_WRITTEN` array in
