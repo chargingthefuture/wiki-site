@@ -20,6 +20,16 @@ Never publish two invite posts in a row. A reader opening the feed and finding f
 posts addressed to four strangers has nothing to read. Put at least one ordinary post between them —
 a progress post, an argument, a product update, anything.
 
+The owner keeps that alternation by reading each post and merging them one at a time, an invite
+every other merge, on purpose. The order they merge in is the order, and the feed has to show it.
+So date a post by the Eastern-time day it goes live, not the day it was drafted: same-day posts are
+ordered by when their files were first committed, and a post dated earlier than it went live slides
+down into an older day and lands next to the wrong neighbor (owner report, 2026-10-01: Sherri's
+invite, drafted September 29 and merged October 1, sat beside the Matthew invite). After a stacked
+post merges, read the top of `/feed` (or the registry order `wiki:sync` writes) and fix the date
+before the next merge if two invites touch. Never rebuild or reorder a stacked post to go out ahead
+of another one without saying so first.
+
 Never reuse the same angle twice in a row. Six angles are listed below. Rotate them.
 
 ## What an invite post looks like

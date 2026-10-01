@@ -1,6 +1,6 @@
 ---
 title: "An invitation to Sherri"
-date: "2026-09-29"
+date: "2026-10-01"
 excerpt: "The targeting works because the people and places around you can be reached. Security is the work of deciding, on purpose, who gets through."
 category: "Community"
 teaser: "It is an invitation to join the Skills Economy. Sherri Jenkins, in Oklahoma City, wrote the answer I pointed people to for years when they asked what this is and what the methods are. Their Directory listing carries security procedures: the routines that decide who is let in, what gets checked, and what happens when something is wrong. The targeting works because the people and places around a survivor can be reached, and knowing how a door is kept is part of the answer."

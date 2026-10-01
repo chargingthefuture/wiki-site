@@ -1,6 +1,6 @@
 ---
 title: "It is self-defense"
-date: "2026-09-29"
+date: "2026-09-30"
 excerpt: "Nobody defending themselves stops to ask what the attacker will think of it. The Skills Economy is a set of self-defense tools that need nobody harmed."
 category: "Community"
 teaser: "Self-defense is more than a cultural idea; it has legal standing. What is done to Targeted Individuals is built to fall below that line: small, deniable, organized. The objection to survivors coming together is nearly always made from the outside: what will they think, will they come harder. Nobody defending themselves from a stranger asks that. Self-defense is about protecting yourself in the moment, and that is the frame for the Skills Economy: a set of tools that need nobody harmed. After more than thirty years, being around other survivors did not change my targeting."

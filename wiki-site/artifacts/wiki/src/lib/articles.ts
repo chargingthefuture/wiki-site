@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-sherri",
+    "title": "An invitation to Sherri",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-01",
+    "excerpt": "The targeting works because the people and places around you can be reached. Security is the work of deciding, on purpose, who gets through.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-sherri.md",
+    "teaser": "It is an invitation to join the Skills Economy. Sherri Jenkins, in Oklahoma City, wrote the answer I pointed people to for years when they asked what this is and what the methods are. Their Directory listing carries security procedures: the routines that decide who is let in, what gets checked, and what happens when something is wrong. The targeting works because the people and places around a survivor can be reached, and knowing how a door is kept is part of the answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 410
+  },
+  {
     "slug": "start-with-socks",
     "title": "Start with socks",
     "repo": "chargingthefuture/wiki-site",
@@ -54,6 +71,40 @@ export const ARTICLES: ArticleMeta[] = [
       "workforce"
     ],
     "number": 409
+  },
+  {
+    "slug": "an-invitation-to-matthew-a-davis",
+    "title": "An invitation to Matthew",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-01",
+    "excerpt": "A disaster tests whether a community can coordinate. On this list, the emergency and reserve roles are nearly empty.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-matthew-a-davis.md",
+    "teaser": "It is an invitation to join the Skills Economy. Matthew A Davis, in Zephyrhills, Florida, has a Directory listing that carries Emergency Support Function coordination: the work of keeping the parts of a disaster response, from transport to shelter to communications, running to one plan. Across the list, 2 of the 21 emergency and reserve skills the app tracks are held by anybody. A community that lasts needs somebody who knows how to run its worst week.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 407
+  },
+  {
+    "slug": "an-epidemic-not-a-secret-society",
+    "title": "An epidemic, not a secret society",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-01",
+    "excerpt": "It is not the Illuminati. It is manipulators in contact with each other worldwide, paid in sex, drugs, jobs and friends, and it starts at two years old.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-epidemic-not-a-secret-society.md",
+    "teaser": "People reach for the Illuminati, or a secret society. What I see is worse: narcissists, and people worse than narcissists, in contact with each other across the world at a rate never possible before. Nothing in their kit is new. Performed kindness, covert contracts, performative allyship: every tool already has a name. What they are paid in is sex, drugs, jobs and friends, for slander carried to strangers, starting at two. Refuse that payment and you are ousted from their economy. The Skills Economy is a different exchange.",
+    "topics": [
+      "specterati",
+      "community",
+      "directory"
+    ],
+    "number": 408
   },
   {
     "slug": "old-links-new-links",
@@ -72,44 +123,10 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 394
   },
   {
-    "slug": "an-invitation-to-matthew-a-davis",
-    "title": "An invitation to Matthew",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-29",
-    "excerpt": "A disaster tests whether a community can coordinate. On this list, the emergency and reserve roles are nearly empty.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/an-invitation-to-matthew-a-davis.md",
-    "teaser": "It is an invitation to join the Skills Economy. Matthew A Davis, in Zephyrhills, Florida, has a Directory listing that carries Emergency Support Function coordination: the work of keeping the parts of a disaster response, from transport to shelter to communications, running to one plan. Across the list, 2 of the 21 emergency and reserve skills the app tracks are held by anybody. A community that lasts needs somebody who knows how to run its worst week.",
-    "topics": [
-      "community",
-      "directory",
-      "workforce"
-    ],
-    "number": 407
-  },
-  {
-    "slug": "an-epidemic-not-a-secret-society",
-    "title": "An epidemic, not a secret society",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-29",
-    "excerpt": "It is not the Illuminati. It is manipulators in contact with each other worldwide, paid in sex, drugs, jobs and friends, and it starts at two years old.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/an-epidemic-not-a-secret-society.md",
-    "teaser": "People reach for the Illuminati, or a secret society. What I see is worse: narcissists, and people worse than narcissists, in contact with each other across the world at a rate never possible before. Nothing in their kit is new. Performed kindness, covert contracts, performative allyship: every tool already has a name. What they are paid in is sex, drugs, jobs and friends, for slander carried to strangers, starting at two. Refuse that payment and you are ousted from their economy. The Skills Economy is a different exchange.",
-    "topics": [
-      "specterati",
-      "community",
-      "directory"
-    ],
-    "number": 408
-  },
-  {
     "slug": "it-is-self-defense",
     "title": "It is self-defense",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-29",
+    "date": "2026-09-30",
     "excerpt": "Nobody defending themselves stops to ask what the attacker will think of it. The Skills Economy is a set of self-defense tools that need nobody harmed.",
     "category": "Community",
     "collection": "posts",
@@ -137,23 +154,6 @@ export const ARTICLES: ArticleMeta[] = [
       "terms"
     ],
     "number": 390
-  },
-  {
-    "slug": "an-invitation-to-sherri",
-    "title": "An invitation to Sherri",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-29",
-    "excerpt": "The targeting works because the people and places around you can be reached. Security is the work of deciding, on purpose, who gets through.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/an-invitation-to-sherri.md",
-    "teaser": "It is an invitation to join the Skills Economy. Sherri Jenkins, in Oklahoma City, wrote the answer I pointed people to for years when they asked what this is and what the methods are. Their Directory listing carries security procedures: the routines that decide who is let in, what gets checked, and what happens when something is wrong. The targeting works because the people and places around a survivor can be reached, and knowing how a door is kept is part of the answer.",
-    "topics": [
-      "community",
-      "directory",
-      "workforce"
-    ],
-    "number": 410
   },
   {
     "slug": "an-invitation-to-brecht",
