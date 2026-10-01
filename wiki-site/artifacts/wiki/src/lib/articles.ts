@@ -39,20 +39,38 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
-    "slug": "old-links-new-links",
-    "title": "Old links, new links",
+    "slug": "an-invitation-to-matthew-a-davis",
+    "title": "An invitation to Matthew",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-01",
-    "excerpt": "Fifty-eight accounts erased, and a new handle opened on the morning of October 1. What is live, what is dead, and the one address that never changes.",
+    "date": "2026-09-29",
+    "excerpt": "A disaster tests whether a community can coordinate. On this list, the emergency and reserve roles are nearly empty.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/old-links-new-links.md",
-    "teaser": "Quora has erased my accounts fifty-eight times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. The latest ban landed at 4:27 in the morning on October 1, and the handle now open was opened four hours later. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
+    "path": "posts/an-invitation-to-matthew-a-davis.md",
+    "teaser": "It is an invitation to join the Skills Economy. Matthew A Davis, in Zephyrhills, Florida, has a Directory listing that carries Emergency Support Function coordination: the work of keeping the parts of a disaster response, from transport to shelter to communications, running to one plan. Across the list, 2 of the 21 emergency and reserve skills the app tracks are held by anybody. A community that lasts needs somebody who knows how to run its worst week.",
     "topics": [
-      "publishing",
-      "platform-independence"
+      "community",
+      "directory",
+      "workforce"
     ],
-    "number": 394
+    "number": 407
+  },
+  {
+    "slug": "an-epidemic-not-a-secret-society",
+    "title": "An epidemic, not a secret society",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-29",
+    "excerpt": "It is not the Illuminati. It is manipulators in contact with each other worldwide, paid in sex, drugs, jobs and friends, and it starts at two years old.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-epidemic-not-a-secret-society.md",
+    "teaser": "People reach for the Illuminati, or a secret society. What I see is worse: narcissists, and people worse than narcissists, in contact with each other across the world at a rate never possible before. Nothing in their kit is new. Performed kindness, covert contracts, performative allyship: every tool already has a name. What they are paid in is sex, drugs, jobs and friends, for slander carried to strangers, starting at two. Refuse that payment and you are ousted from their economy. The Skills Economy is a different exchange.",
+    "topics": [
+      "specterati",
+      "community",
+      "directory"
+    ],
+    "number": 408
   },
   {
     "slug": "it-is-self-defense",
@@ -70,6 +88,38 @@ export const ARTICLES: ArticleMeta[] = [
       "directory"
     ],
     "number": 406
+  },
+  {
+    "slug": "Dictionary",
+    "title": "Dictionary: Skills Economy Terms",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-09-29",
+    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
+    "category": "Resources",
+    "collection": "posts",
+    "path": "posts/Dictionary.md",
+    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
+    "topics": [
+      "reference",
+      "terms"
+    ],
+    "number": 390
+  },
+  {
+    "slug": "old-links-new-links",
+    "title": "Old links, new links",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-29",
+    "excerpt": "Fifty-seven accounts erased, and a new handle opened on the afternoon of September 29. What is live, what is dead, and the one address that never changes.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/old-links-new-links.md",
+    "teaser": "Quora has erased my accounts fifty-seven times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. The latest ban landed at 4:31 in the morning on September 29, and the handle now open was opened eight and a half hours later. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
+    "topics": [
+      "publishing",
+      "platform-independence"
+    ],
+    "number": 394
   },
   {
     "slug": "an-invitation-to-brecht",
@@ -307,22 +357,6 @@ export const ARTICLES: ArticleMeta[] = [
       "publishing"
     ],
     "number": 391
-  },
-  {
-    "slug": "Dictionary",
-    "title": "Dictionary: Skills Economy Terms",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-09-25",
-    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
-    "category": "Resources",
-    "collection": "posts",
-    "path": "posts/Dictionary.md",
-    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
-    "topics": [
-      "reference",
-      "terms"
-    ],
-    "number": 390
   },
   {
     "slug": "an-invitation-to-lorraine",
@@ -1011,6 +1045,22 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 348
   },
   {
+    "slug": "from-them-to-me",
+    "title": "From them to me",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-26",
+    "excerpt": "Read for direction instead of span, the Record shows one turn: nine months studying the people running the operation, then a shift to us. Everything that exists today was built after the turn.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/from-them-to-me.md",
+    "teaser": "The Record's 632 entries divide into a before and an after at one point. Nine months studying the people running the operation — I fell for it, because it is not an intelligence test; it is the design. Then the turn, dated: July 13, 2025, asking who and where we are instead; August 3, 2025, one sentence proposing the network. Everything in use today came after that turn, built while I lived outside with no car, no home, and no job. The nine months are optional now — you can start where they ended.",
+    "topics": [
+      "community",
+      "progress"
+    ],
+    "number": 345
+  },
+  {
     "slug": "seven-more-psyop-free-games",
     "title": "Seven more psyop-free games",
     "repo": "chargingthefuture/wiki-site",
@@ -1041,22 +1091,6 @@ export const ARTICLES: ArticleMeta[] = [
       "progress"
     ],
     "number": 346
-  },
-  {
-    "slug": "from-them-to-me",
-    "title": "From them to me",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-26",
-    "excerpt": "Read for direction instead of span, the Record shows one turn: nine months studying the people running the operation, then a shift to us. Everything that exists today was built after the turn.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/from-them-to-me.md",
-    "teaser": "The Record's 632 entries divide into a before and an after at one point. Nine months studying the people running the operation — I fell for it, because it is not an intelligence test; it is the design. Then the turn, dated: July 13, 2025, asking who and where we are instead; August 3, 2025, one sentence proposing the network. Everything in use today came after that turn, built while I lived outside with no car, no home, and no job. The nine months are optional now — you can start where they ended.",
-    "topics": [
-      "community",
-      "progress"
-    ],
-    "number": 345
   },
   {
     "slug": "two-years-to-find-three-people",
