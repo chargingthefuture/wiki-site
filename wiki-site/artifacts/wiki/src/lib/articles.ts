@@ -39,22 +39,6 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
-    "slug": "old-links-new-links",
-    "title": "Old links, new links",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-01",
-    "excerpt": "Fifty-eight accounts erased, and a new handle opened on the morning of October 1. What is live, what is dead, and the one address that never changes.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/old-links-new-links.md",
-    "teaser": "Quora has erased my accounts fifty-eight times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. The latest ban landed at 4:27 in the morning on October 1, and the handle now open was opened four hours later. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
-    "topics": [
-      "publishing",
-      "platform-independence"
-    ],
-    "number": 394
-  },
-  {
     "slug": "start-with-socks",
     "title": "Start with socks",
     "repo": "chargingthefuture/wiki-site",
@@ -70,6 +54,22 @@ export const ARTICLES: ArticleMeta[] = [
       "workforce"
     ],
     "number": 409
+  },
+  {
+    "slug": "old-links-new-links",
+    "title": "Old links, new links",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-01",
+    "excerpt": "Fifty-eight accounts erased, and a new handle opened on the morning of October 1. What is live, what is dead, and the one address that never changes.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/old-links-new-links.md",
+    "teaser": "Quora has erased my accounts fifty-eight times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. The latest ban landed at 4:27 in the morning on October 1, and the handle now open was opened four hours later. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
+    "topics": [
+      "publishing",
+      "platform-independence"
+    ],
+    "number": 394
   },
   {
     "slug": "an-invitation-to-matthew-a-davis",
@@ -137,6 +137,23 @@ export const ARTICLES: ArticleMeta[] = [
       "terms"
     ],
     "number": 390
+  },
+  {
+    "slug": "an-invitation-to-sherri",
+    "title": "An invitation to Sherri",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-29",
+    "excerpt": "The targeting works because the people and places around you can be reached. Security is the work of deciding, on purpose, who gets through.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-sherri.md",
+    "teaser": "It is an invitation to join the Skills Economy. Sherri Jenkins, in Oklahoma City, wrote the answer I pointed people to for years when they asked what this is and what the methods are. Their Directory listing carries security procedures: the routines that decide who is let in, what gets checked, and what happens when something is wrong. The targeting works because the people and places around a survivor can be reached, and knowing how a door is kept is part of the answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 410
   },
   {
     "slug": "an-invitation-to-brecht",
