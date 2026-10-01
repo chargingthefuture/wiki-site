@@ -1,6 +1,6 @@
 ---
 title: "Dictionary: Skills Economy Terms"
-date: "2026-09-25"
+date: "2026-09-29"
 excerpt: "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record."
 category: "Resources"
 slug: Dictionary
@@ -14,6 +14,8 @@ topics:
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
 ## Latest changes
+
+2026-09-29 — Performed kindness and covert contract added to the Specterati lexicon. Performed kindness is kind words or acts delivered in a way that is not kind; covert contract is the psychologist's term for a kindness with an unspoken bill attached, which turns to anger when the bill is not paid.
 
 2026-09-25 — Reader added to the capability table: an RSS feed reader on a server the project pays for, at rss.chargingthefuture.com, reached from a tile in the app. Sign in with the same account; what each person subscribes to is theirs alone and nobody else on it can see it. A new account arrives with this blog and the owner's channel of demo videos of the app, and nothing else. A place on it comes from finishing Unlock or contributing to the cost, and losing one is not a ban — the account in the app is untouched.
 
@@ -86,6 +88,10 @@ Specterati harassment — the organized harassment itself. Used instead of "gang
 "Secret society" — the Specterati's own brag, and wrong by definition. A secret society keeps its membership and purpose hidden; the Specterati advertise themselves to their targets constantly — the signaling is the harassment. What they actually are is a control mechanism run by traffickers (sex, drugs, and human trafficking), with the harassment as its enforcement arm. The brag is recruitment theater, not a description.
 
 Collective amusement — the engine behind much of the harassment, named plainly: schemes are run, and targets' days are scheduled and graded (see The Good Day, Bad Day in the schemes list), for the entertainment of the group watching. The audience is the point; the target's harm is the raw material.
+
+Performed kindness — kind words or acts delivered in a way that is not kind. The kindness is the cover, and the delivery is the content: a door held open so an insult can be said on the way through. First written down in [How are you doing?](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-are-you-doing).
+
+Covert contract — a kindness with an unspoken bill attached, named by the psychologist Robert Glover in No More Mr. Nice Guy (2000). The other person never agreed to the deal, and when the expected thanks or approval does not come, the kindness turns to anger. See [An epidemic, not a secret society](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/an-epidemic-not-a-secret-society).
 
 Specterwave — a pervasive influence that spreads fear and control.
 
