@@ -55,7 +55,7 @@ Most of what happens to us is not ordered. It is a distributed criminal network,
 
 The Good Day, Bad Day is not that. It is planned in advance and coordinated. That is exactly what makes it worth a tag of its own: it is one of the few parts with a structure you can predict, and a structure is a thing that can be caught.
 
-There is a third thing that sits between them, and it is the most childish part of the whole operation. They cannot control everything, because nobody can. Sometimes a bad day simply happens — bad days happen to people who are not targeted, too. When one does, they claim it. They take credit for weather, for a delay, for an ordinary piece of misfortune. It is comical and sick at once, and it is worth naming because a target who does not know they do this will hand them things they had nothing to do with.
+There is a third thing that sits between them, and it is the most childish part of the operation. They cannot control everything, because nobody can. Sometimes a bad day simply happens — bad days happen to people who are not targeted, too. When one does, they claim it. They take credit for weather, for a delay, for an ordinary piece of misfortune. It is comical and sick at once, and it is worth naming because a target who does not know they do this will hand them things they had nothing to do with.
 
 ## The part that needs other people
 

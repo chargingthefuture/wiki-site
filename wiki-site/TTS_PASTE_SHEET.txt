@@ -62,7 +62,7 @@ TRACKER: 21 full post, 16 teaser, 7 skipped.
 | 2026-08-25 | the-audience-is-already-larger-than-the-goal | Done | 6:09 |
 | 2026-08-25 | the-record-reads-forwards | Done | 3:49 |
 | 2026-08-25 | why-nothing-is-written-on-a-platform-first | Done | 4:50 |
-| 2026-08-26 | from-them-to-me | Teaser | 2:27 (the full post would be about 7:39) |
+| 2026-08-26 | from-them-to-me | Teaser | 2:27 (the full post would be about 7:38) |
 | 2026-08-26 | seven-more-psyop-free-games | Skipped |  |
 | 2026-08-26 | the-two-generation-goal | Done | 6:15 |
 | 2026-08-26 | two-years-to-find-three-people | Done | 3:39 |
@@ -70,11 +70,11 @@ TRACKER: 21 full post, 16 teaser, 7 skipped.
 | 2026-08-27 | spend-before-you-earn | Teaser | 2:16 (the full post would be about 7:36) |
 | 2026-08-27 | your-children-can-have-an-option | Teaser | 1:54 (the full post would be about 7:31) |
 | 2026-08-28 | rfs-teaching-and-childcare | Skipped |  |
-| 2026-08-28 | what-about-school | Teaser | 3:07 (the full post would be about 10:26) |
+| 2026-08-28 | what-about-school | Teaser | 3:07 (the full post would be about 10:25) |
 
 STILL TO RECORD: 41 posts.
 
-==================== 2026-08-28 · teaser (the full post is 6,617 characters) ====================
+==================== 2026-08-28 · teaser (the full post is 6,616 characters) ====================
 
 you-cannot-argue-a-smear-down
 
@@ -94,7 +94,7 @@ An economy run by Targeted Individuals cannot be built — said constantly, neve
 
 Full post, No. 356, available on the blog.
 
-==================== 2026-08-29 · teaser (the full post is 6,159 characters) ====================
+==================== 2026-08-29 · teaser (the full post is 6,160 characters) ====================
 
 two-games-in-the-arcade
 
@@ -122,7 +122,7 @@ Cleaners / Janitorial.
 
 Screenshot: The Browse Cohorts screen in SkillUp, headed Browse Cohorts — enroll in a training program and grow your skills. Three summary cards read Open Cohorts 3, My Cohorts 0, and In Escrow 0 SC. Below a search box, three cohort cards, each marked Open. Journalists / Reporters: Trainer TBD, 3 milestones. Trainer earns 30 SC per learner, 30 SC from 1 enrolled. You get back 50 SC, your deposit, as you finish each milestone. Seats 11 left. Returnable deposit 50 SC. Enroll. Construction Laborers carries the same figures: Trainer TBD, 3 milestones, trainer earns 30 SC per learner, 30 SC from 1 enrolled, you get back 50 SC as you finish each milestone, seats 11 left, returnable deposit 50 SC, Enroll. Cleaners / Janitorial carries them again: Trainer TBD, 3 milestones, trainer earns 30 SC per learner, 30 SC from 1 enrolled, you get back 50 SC as you finish each milestone, seats 11 left, returnable deposit 50 SC, Enroll.
 
-Seats are filling. Enrolling holds a deposit of 50 credits, and you get every one of them back — they are returned to you as your trainer signs off each milestone, and if you leave the cohort the whole remaining hold comes back at once. So the course costs nothing in the end. What it asks for is 50 credits you can put down while you are in it.
+Seats are filling. Enrolling holds a deposit of 50 credits, and you get every one of them back — they are returned to you as your trainer signs off each milestone, and if you leave the cohort the entire remaining hold comes back at once. So the course costs nothing in the end. What it asks for is 50 credits you can put down while you are in it.
 
 I did not pick those three. SkillUp generates its own cohort recommendations from the distance between what the skills map holds and what people are looking for, and those came back as the widest gaps. People are enrolling against them now, and nobody is scheduled to teach any of them.
 
@@ -166,7 +166,7 @@ Somebody on the app called to tell me it is dead, that nobody is on it, and that
 
 Full post, No. 359, available on the blog.
 
-==================== 2026-09-14 · teaser (the full post is 6,982 characters) ====================
+==================== 2026-09-14 · teaser (the full post is 6,983 characters) ====================
 
 what-i-missed-about-everything-on-the-blockchain
 
@@ -312,7 +312,7 @@ I can think of two reasons. One is that killing somebody in the open is no longe
 
 I do not know which. I am not sure it matters, because both land in the same place: they do not want you in that economy in any sense.
 
-Their whole method runs on humiliation.
+Their method runs on humiliation.
 
 Every scheme, when you strip it down, is built to make a person feel small in front of others. Shamed. Discredited. Not believed.
 
@@ -350,13 +350,13 @@ If it is "I do not believe the numbers", say that. If it is "I do not trust an a
 
 Say it under this post. Nobody has to agree with me for this to be worth writing down.
 
-==================== 2026-09-15 · teaser (the full post is 11,090 characters) ====================
+==================== 2026-09-15 · teaser (the full post is 11,084 characters) ====================
 
 whats-your-one-percent
 
 What's Your 1%?
 
-Workforce tells you what a population of five million would look like. It never told you what you could do inside it, and a lot of people read the whole screen and conclude none of it is about them. The new tab starts from one percent — 50,000 people — and works back to the person serving them. At $5 a head that is $250,000 a year, three and a half times the average. It is weighted to your trade, because a plumber and a physiotherapist are not interchangeable. And no trade reaches 50,000 people one job at a time, so the tab names the five ways the same skill gets there.
+Workforce tells you what a population of five million would look like. It never told you what you could do inside it, and a lot of people read the entire screen and conclude none of it is about them. The new tab starts from one percent — 50,000 people — and works back to the person serving them. At $5 a head that is $250,000 a year, three and a half times the average. It is weighted to your trade, because a plumber and a physiotherapist are not interchangeable. And no trade reaches 50,000 people one job at a time, so the tab names the five ways the same skill gets there.
 
 Full post, No. 362, available on the blog.
 
@@ -460,7 +460,7 @@ If you use a reader already, tell me which one — I would rather recommend some
 
 Reading the conversation under any post here takes no account at all.
 
-==================== 2026-09-18 · teaser (the full post is 11,894 characters) ====================
+==================== 2026-09-18 · teaser (the full post is 11,890 characters) ====================
 
 how-are-you-doing
 
@@ -470,7 +470,7 @@ Asking a Targeted Individual how they are doing is not always a kindness. Their 
 
 Full post, No. 368, available on the blog.
 
-==================== 2026-09-18 · teaser (the full post is 5,801 characters) ====================
+==================== 2026-09-18 · teaser (the full post is 5,796 characters) ====================
 
 how-to-run-a-one-percent-session
 
@@ -480,7 +480,7 @@ I said I would spend my time helping Targeted Individuals work toward their one 
 
 Full post, No. 370, available on the blog.
 
-==================== 2026-09-18 · teaser (the full post is 6,487 characters) ====================
+==================== 2026-09-18 · teaser (the full post is 6,488 characters) ====================
 
 my-turn
 
@@ -510,7 +510,7 @@ Somebody asked whether the harassment can be stopped, and which methods have wor
 
 Full post, No. 375, available on the blog.
 
-==================== 2026-09-20 · teaser (the full post is 5,805 characters) ====================
+==================== 2026-09-20 · teaser (the full post is 5,717 characters) ====================
 
 count-the-recruits
 

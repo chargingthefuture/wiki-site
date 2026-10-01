@@ -9,7 +9,7 @@ import { formatArticleDate } from "@/lib/dates";
 /**
  * The feed is the catch-up surface. Platform accounts are disposable and get
  * erased every few months, so a new reader arriving from any platform post
- * lands here and can absorb the whole run of posts in minutes instead of
+ * lands here and can absorb the entire run of posts in minutes instead of
  * following an account for months.
  *
  * Each entry shows the post's teaser — the short standalone version that

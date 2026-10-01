@@ -21,4 +21,4 @@ repo: chargingthefuture/chargingthefuture
 
 ## Why It Matters
 
-Beacon gives admins a way to reach the whole community at once—for announcements, skill shares, or group check-ins—without needing a separate video tool. Emoji reactions let you acknowledge a post without typing. The chat color change makes conversations easier to read, especially when many people are talking at once.
+Beacon gives admins a way to reach the entire community at once—for announcements, skill shares, or group check-ins—without needing a separate video tool. Emoji reactions let you acknowledge a post without typing. The chat color change makes conversations easier to read, especially when many people are talking at once.

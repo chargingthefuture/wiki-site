@@ -11,7 +11,7 @@ topics:
 
 Before there was much to point at, ten of the earliest supporters put their names next to this thing in public. They commented in favor of the Skills Economy on Quora, on their own pages and under mine, where other targeted people could see it. That is the hardest kind of support to give — public, attached to your name, in a community where being visible costs something.
 
-Those comments are gone. They lived on Quora accounts that Quora deleted, and the deletions took the whole thread with them. Someone arriving today sees a space with no visible history of people vouching for it.
+Those comments are gone. They lived on Quora accounts that Quora deleted, and the deletions took the entire thread with them. Someone arriving today sees a space with no visible history of people vouching for it.
 
 So the record moves here, where nothing gets deleted by a platform decision. Below is each person, what they do, the Member of the Day post that introduced them, and their directory profile. If you are on this list and you want to say it again somewhere it survives, the door is open — and if you would rather not, that is fine too; the profiles are claimable and removable on request.
 

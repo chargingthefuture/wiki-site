@@ -35,7 +35,7 @@ What followed is a straight line: the surveys and the map that summer, the netwo
 
 One thing that line of dates hides. A reader could assume it was built from a stable base — a car, a home, a job. I had none of the three.
 
-The targeting began when I was five and has cycled between covert and overt my whole life. On January 1, 2023, it restarted as 24/7 overt, and it made me destitute very fast. I spent these two years living outside. My car was stolen. Every employment opportunity was blocked. I was punched in the face, back-handed, pushed to the ground and, the same day, exposed nude. Before this cycle, I had been punched in the face and run over with a car. The Forced Homecoming scheme was run all the way to fruition, and one TI — one of the three the last post is about — helped me escape it.
+The targeting began when I was five and has cycled between covert and overt my entire life. On January 1, 2023, it restarted as 24/7 overt, and it made me destitute very fast. I spent these two years living outside. My car was stolen. Every employment opportunity was blocked. I was punched in the face, back-handed, pushed to the ground and, the same day, exposed nude. Before this cycle, I had been punched in the face and run over with a car. The Forced Homecoming scheme was run all the way to fruition, and one TI — one of the three the last post is about — helped me escape it.
 
 Correction, 2026-09-18: this originally gave the date as January 1, 2024. The year was wrong; the overt phase restarted on January 1, 2023.
 
@@ -47,7 +47,7 @@ People say you cannot meet a real TI, in person or at all. The Record says other
 
 The difference is what you connect to do. Connecting to talk is the easier trap: talk is open-ended, and an operative can hold a conversation for as long as it takes. Connecting to organize is harder to fake, and it is how the three found me — I was findable, daily, in public, with concrete asks and concrete offers. The skills map and the Directory exist to make that findability the default instead of a two-year project. What looks like luck was surface area.
 
-The app retraced the same arc, version by version. Version 1 launched with a single feature, SupportMatch — peer-to-peer counseling, connection to talk. Version 2 introduced the Directory — being findable. Version 3 is a full economy — connection to organize. Each version moved the same direction the whole two years moved.
+The app retraced the same arc, version by version. Version 1 launched with a single feature, SupportMatch — peer-to-peer counseling, connection to talk. Version 2 introduced the Directory — being findable. Version 3 is a full economy — connection to organize. Each version moved the same direction the two years moved.
 
 ## Coordination runs in parallel
 

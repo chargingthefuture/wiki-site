@@ -1,8 +1,8 @@
 QUORA PASTE SHEET — FULL POSTS
 
-The whole text of each post, newest first, converted so it survives Quora's
+The full text of each post, newest first, converted so it survives Quora's
 editor. The other sheet holds one short summary per page; this one holds the
-posts themselves, for when the whole thing should go up rather than a teaser.
+posts themselves, for when the full post should go up rather than a teaser.
 
 Starts at 2026-08-16 — the day Quora banned the farah-brunache account and the
 day this blog became the source that platforms copy from. Everything from that
@@ -2161,8 +2161,6 @@ Nobody has answered it, so Quora serves it under an unanswered address: https://
 
 [Screenshot — The same question on its Quora page, captured September 20, 2026. Topic tags across the top read Social Issues, Organized Gang Stalking, one beginning Social In and cut off, and "+ 5". The question reads: "As organized/community stalking number of victims increase, what do you think could happen to society as a whole?" Below it a row reads Follow with a count of 1, Request, Answer, and More.]
 
-<!-- The question is quoted exactly as it was asked. Do not respell or reword it. -->
-
 It is not an unusual thing to wonder. I have seen it asked more than once, in different words: whether this is going to get worse, whether it becomes more dangerous around an election, where it all ends up.
 
 The vocabulary I use for the people running this is in the Dictionary (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary); the question keeps the words it was asked in.
@@ -2883,7 +2881,7 @@ His last campaign was economic. Wages, jobs, a union for sanitation workers in M
 
 My ask is not to be let in.
 
-I am not asking to be integrated into an arrangement run by people who have spent my whole life taking things from me. I do not want a seat at that table on fair terms. I want a different table, built by people who are not doing this, where what I can do is worth something to somebody who is also not doing this.
+I am not asking to be integrated into an arrangement run by people who have spent my entire life taking things from me. I do not want a seat at that table on fair terms. I want a different table, built by people who are not doing this, where what I can do is worth something to somebody who is also not doing this.
 
 Coexistence over conspiracy.
 
@@ -2951,7 +2949,7 @@ If you are running one of these spaces, you are going to have to work out two th
 
 For the Skills Economy my answer is one. One is too many.
 
-The way that is done is not by interrogating anybody or accusing anybody. It is that the whole thing is built around exchange. You ask for something real, and it either arrives or it does not. Their raw material is your suffering, not output, so requiring output filters them out early without anybody having to make an accusation they cannot prove.
+The way that is done is not by interrogating anybody or accusing anybody. It is that everything is built around exchange. You ask for something real, and it either arrives or it does not. Their raw material is your suffering, not output, so requiring output filters them out early without anybody having to make an accusation they cannot prove.
 
 Why I do this at all
 
@@ -2997,7 +2995,7 @@ In the last post (https://chargingthefuture.github.io/chargingthefuture/article/
 
 There is an obvious problem with that offer. There is one of me.
 
-So here is the whole method, written down. Run it on yourself. Run it for somebody else. You do not need me in the room and you do not need anything from the app to do it — the app makes one step faster, and that is all.
+So here is the full method, written down. Run it on yourself. Run it for somebody else. You do not need me in the room and you do not need anything from the app to do it — the app makes one step faster, and that is all.
 
 What it is
 
@@ -3015,7 +3013,7 @@ Two things to say first, if it is for somebody else
 
 Both before anything else, because both change what a person feels able to say.
 
-Nothing about their standing changes. Not because of what they say, not because they end it early, not because they say no to the whole thing. If you have any power over them at all — you run the group, you made the list, you know people — say this out loud rather than assuming it is understood.
+Nothing about their standing changes. Not because of what they say, not because they end it early, not because they say no to all of it. If you have any power over them at all — you run the group, you made the list, you know people — say this out loud rather than assuming it is understood.
 
 Notes are not publication. If you are writing anything down, say so, and say that writing it down is not permission to repeat it. That is a separate question, asked separately, later, and never in the same conversation as arranging help.
 
@@ -3047,7 +3045,7 @@ One percent of five million survivors is fifty thousand people. Multiply.
 
 Then say what the number is and what it is not. It is a target with their own rate underneath it. It is not a forecast, it is not income, and nobody is owed it.
 
-The comparison worth giving: the app's Workforce (https://app.chargingthefuture.com/apps/workforce) screen splits a whole economy evenly and lands near $142,500 a person. No real outcome is an even split. Doing well comes out of three parts — talent, luck, and how much work goes in — and none of the three is evenly distributed. The average has all of it averaged away, which is why nobody lands on it.
+The comparison worth giving: the app's Workforce (https://app.chargingthefuture.com/apps/workforce) screen splits an entire economy evenly and lands near $142,500 a person. No real outcome is an even split. Doing well comes out of three parts — talent, luck, and how much work goes in — and none of the three is evenly distributed. The average has all of it averaged away, which is why nobody lands on it.
 
 If they have an account, the What's your 1%? tab does this multiplication for them off their listing. If they do not, a calculator does the same job.
 
@@ -3166,7 +3164,7 @@ Beyond building the app and running the logistics inside it, what I think I can 
 
 There is a tab in Workforce (https://app.chargingthefuture.com/apps/workforce) called What's your 1%? It reads the skills already on your Directory listing, you set a rate you would actually charge, and it shows you what serving one percent of five million survivors — fifty thousand people — comes to in a year.
 
-The main Workforce screen splits the whole economy evenly and gets about $142,500 a person. No real outcome is an even split. However you define doing well, at work or at the thing you do for love, it comes out of three parts: talent, luck, and how much work you put in. The even split has all three of those averaged away.
+The main Workforce screen splits the entire economy evenly and gets about $142,500 a person. No real outcome is an even split. However you define doing well, at work or at the thing you do for love, it comes out of three parts: talent, luck, and how much work you put in. The even split has all three of those averaged away.
 
 So the figure on that tab is not a prediction. It is a target with your own arithmetic under it, and the question it leaves you with is the interesting one. What would you actually have to do to get there? What is the first thing? Who would you need?
 
@@ -3576,7 +3574,7 @@ I can think of two reasons. One is that killing somebody in the open is no longe
 
 I do not know which. I am not sure it matters, because both land in the same place: they do not want you in that economy in any sense.
 
-Their whole method runs on humiliation
+Their method runs on humiliation
 
 Every scheme, when you strip it down, is built to make a person feel small in front of others. Shamed. Discredited. Not believed.
 
@@ -3632,7 +3630,7 @@ There is a screen in the app called Workforce. It models what a population of fi
 
 It has one problem. It is entirely about everybody, and it never once speaks to the person reading it.
 
-So people read the whole thing, follow every number, agree it adds up, and close it thinking: fine, but none of that is about me.
+So people read all of it, follow every number, agree it adds up, and close it thinking: fine, but none of that is about me.
 
 Today there is a new tab at the end of that screen. It is called What's your 1%?
 
@@ -3918,7 +3916,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-si
 ==============================================================================
 2026-09-14 · What I Missed About Wanting Everything On the Blockchain
 
-Anybody who spent time around crypto before about 2022 has met the person who wants everything on a blockchain. Not just money — the whole application. Put the rental marketplace on chain. Put the ride sharing on chain. Put all of it on chain.
+Anybody who spent time around crypto before about 2022 has met the person who wants everything on a blockchain. Not just money — the entire application. Put the rental marketplace on chain. Put the ride sharing on chain. Put all of it on chain.
 
 My position then was that this was tunnel vision. Crypto is useful for the financial part of a transaction. It is not necessary to run the software around the transaction, and bolting a chain onto a booking system makes the booking system worse. Somebody would say "put a rental marketplace on the blockchain" and I would think: you do not need that, you need a payment you can make without asking permission.
 
@@ -4068,7 +4066,7 @@ Three cohorts are open in SkillUp (https://app.chargingthefuture.com/apps/skill-
 
 [Screenshot — The Browse Cohorts screen in SkillUp, headed Browse Cohorts — enroll in a training program and grow your skills. Three summary cards read Open Cohorts 3, My Cohorts 0, and In Escrow 0 SC. Below a search box, three cohort cards, each marked Open. Journalists / Reporters: Trainer TBD, 3 milestones. Trainer earns 30 SC per learner, 30 SC from 1 enrolled. You get back 50 SC, your deposit, as you finish each milestone. Seats 11 left. Returnable deposit 50 SC. Enroll. Construction Laborers carries the same figures: Trainer TBD, 3 milestones, trainer earns 30 SC per learner, 30 SC from 1 enrolled, you get back 50 SC as you finish each milestone, seats 11 left, returnable deposit 50 SC, Enroll. Cleaners / Janitorial carries them again: Trainer TBD, 3 milestones, trainer earns 30 SC per learner, 30 SC from 1 enrolled, you get back 50 SC as you finish each milestone, seats 11 left, returnable deposit 50 SC, Enroll.]
 
-Seats are filling. Enrolling holds a deposit of 50 credits, and you get every one of them back — they are returned to you as your trainer signs off each milestone, and if you leave the cohort the whole remaining hold comes back at once. So the course costs nothing in the end. What it asks for is 50 credits you can put down while you are in it.
+Seats are filling. Enrolling holds a deposit of 50 credits, and you get every one of them back — they are returned to you as your trainer signs off each milestone, and if you leave the cohort the entire remaining hold comes back at once. So the course costs nothing in the end. What it asks for is 50 credits you can put down while you are in it.
 
 I did not pick those three. SkillUp generates its own cohort recommendations from the distance between what the skills map holds and what people are looking for, and those came back as the widest gaps. People are enrolling against them now, and nobody is scheduled to teach any of them.
 
@@ -4279,7 +4277,7 @@ In Pandemic a disease spreads across a map of cities and you race to contain it.
 
 Sixteen real cities, sized by population. Four actions a round: move along a link, or help where you stand. Helping where the need matches your skill does twice as much, and clearing a place puts it in the Directory — the real one, borrowed for the board — covered from then on, its people counted, isolation never returning to it. Then it grows in two more places, and one already at its limit cuts off and pushes into every place beside it. Six cut off and it is over.
 
-Cover the whole map and every place on it is reachable. It is cooperative. There is no winner, and nobody gets there by beating anyone.
+Cover the entire map and every place on it is reachable. It is cooperative. There is no winner, and nobody gets there by beating anyone.
 
 That is the difference between the two games. The first shows what a decision about where to put effort is worth. The second makes you produce the outcome where everybody is reachable, and it needs the same thing the real version needs: somebody has to be findable before they can be asked.
 
@@ -4390,13 +4388,13 @@ The part that makes it worth doing
 
 The credits an accepted nomination grants you are the same credits members exchange with each other for housing, rides, requests and services. So a parent who finds and nominates a teacher earns the thing they would then exchange with a teacher.
 
-That loop is the whole design, and it is worth being exact about where it currently stands: it does not close yet. The categories exist now, and nobody is in them. That is not a hole in the argument — it is the argument. The credits are worth what the map has on it, and the map is what a request like this is asking you to fill.
+That loop is the design, and it is worth being exact about where it currently stands: it does not close yet. The categories exist now, and nobody is in them. That is not a hole in the argument — it is the argument. The credits are worth what the map has on it, and the map is what a request like this is asking you to fill.
 
 For a targeted family, closing that loop is a serious thing. Teaching and care are two of the largest recurring costs a household carries, and they are among the first things to become impossible when somebody's income is being taken from them on purpose.
 
 Public assistance, and why there is none
 
-Where a Targeted Individual can get help is the question this whole app exists to answer, so it is not the narrow one worth asking here. The narrow one is public assistance, and it comes up constantly.
+Where a Targeted Individual can get help is the question this app exists to answer, so it is not the narrow one worth asking here. The narrow one is public assistance, and it comes up constantly.
 
 Public assistance means something particular. It is necessary goods and services — somewhere to live, food, care for a child, medicine — supplied free or at a reduced cost to people who cannot otherwise obtain them. Not advice, not a referral, not a number to call. The thing itself, for nothing or for less.
 
@@ -4428,7 +4426,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-si
 
 The posts about a survivor community covered whether it is possible and who could plan it (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/a-gated-community-and-who-could-plan-it), that it has a threat model like every community does (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/every-community-has-a-threat-model), and how few people it takes (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-few-people-it-takes).
 
-None of them mentioned school. Children come with the families, and I wrote a whole post to parents (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/your-children-can-have-an-option) about what a career could look like for a targeted child without once addressing how that child gets educated between now and then. The two-generation goal (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-two-generation-goal) is measured in exactly the span where somebody's children grow up.
+None of them mentioned school. Children come with the families, and I wrote an entire post to parents (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/your-children-can-have-an-option) about what a career could look like for a targeted child without once addressing how that child gets educated between now and then. The two-generation goal (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-two-generation-goal) is measured in exactly the span where somebody's children grow up.
 
 So this post asks rather than answers.
 
@@ -4470,7 +4468,7 @@ What makes it hard, from both directions
 
 School is where a child is away from the parent all day, in a place the parent does not control, among adults the parent did not choose. For a family that is being followed, that is a real exposure, and I understand why a parent would look at homeschooling.
 
-Homeschooling costs the one thing the targeting takes first. It needs an adult present through the day, and the operation's whole method is to remove your income and your hours until neither exists. A parent already working three unstable arrangements to keep a roof does not have a school day to give. Telling that parent to homeschool is telling them to solve the problem by having more of the resource they are being drained of.
+Homeschooling costs the one thing the targeting takes first. It needs an adult present through the day, and the operation's method is to remove your income and your hours until neither exists. A parent already working three unstable arrangements to keep a roof does not have a school day to give. Telling that parent to homeschool is telling them to solve the problem by having more of the resource they are being drained of.
 
 Both of those are true at once, and I do not think the answer is the same for every family.
 
@@ -4484,7 +4482,7 @@ SkillUp (https://app.chargingthefuture.com/apps/skill-up) runs training cohorts:
 
 PeerProgramming (https://app.chargingthefuture.com/apps/peer-programming) puts people into small weekly groups with a room they can talk in. That is structurally a class of about twelve.
 
-Skills Taxonomy (https://app.chargingthefuture.com/apps/skills-taxonomy) is the catalog of sectors, job titles, and skills the whole app matches against. A parent who can teach mathematics is already describable in it.
+Skills Taxonomy (https://app.chargingthefuture.com/apps/skills-taxonomy) is the catalog of sectors, job titles, and skills the app matches against. A parent who can teach mathematics is already describable in it.
 
 What could be built, on each side of the split
 
@@ -4578,7 +4576,7 @@ People who know you because you did something for them. This is the strongest of
 
 And one structural thing, which is why this app is built the way it is: there is no score here. No credit score, no social score, no rating, nothing about who has complained about you feeding into what you are allowed to do. Slander is exactly what scoring systems eat — you get denied and nobody tells you which file said what. An economy that scored you would import the smear and call it risk management. This one does not score (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/spend-before-you-earn), and that is a decision, not an oversight.
 
-Everything above is checkable without trusting me either. How to check me (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-to-check-me) is the whole method.
+Everything above is checkable without trusting me either. How to check me (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-to-check-me) is the full method.
 
 The second half
 
@@ -4856,7 +4854,7 @@ No car, no home, no job
 
 One thing that line of dates hides. A reader could assume it was built from a stable base — a car, a home, a job. I had none of the three.
 
-The targeting began when I was five and has cycled between covert and overt my whole life. On January 1, 2023, it restarted as 24/7 overt, and it made me destitute very fast. I spent these two years living outside. My car was stolen. Every employment opportunity was blocked. I was punched in the face, back-handed, pushed to the ground and, the same day, exposed nude. Before this cycle, I had been punched in the face and run over with a car. The Forced Homecoming scheme was run all the way to fruition, and one TI — one of the three the last post is about — helped me escape it.
+The targeting began when I was five and has cycled between covert and overt my entire life. On January 1, 2023, it restarted as 24/7 overt, and it made me destitute very fast. I spent these two years living outside. My car was stolen. Every employment opportunity was blocked. I was punched in the face, back-handed, pushed to the ground and, the same day, exposed nude. Before this cycle, I had been punched in the face and run over with a car. The Forced Homecoming scheme was run all the way to fruition, and one TI — one of the three the last post is about — helped me escape it.
 
 Correction, 2026-09-18: this originally gave the date as January 1, 2024. The year was wrong; the overt phase restarted on January 1, 2023.
 
@@ -4868,7 +4866,7 @@ People say you cannot meet a real TI, in person or at all. The Record says other
 
 The difference is what you connect to do. Connecting to talk is the easier trap: talk is open-ended, and an operative can hold a conversation for as long as it takes. Connecting to organize is harder to fake, and it is how the three found me — I was findable, daily, in public, with concrete asks and concrete offers. The skills map and the Directory exist to make that findability the default instead of a two-year project. What looks like luck was surface area.
 
-The app retraced the same arc, version by version. Version 1 launched with a single feature, SupportMatch — peer-to-peer counseling, connection to talk. Version 2 introduced the Directory — being findable. Version 3 is a full economy — connection to organize. Each version moved the same direction the whole two years moved.
+The app retraced the same arc, version by version. Version 1 launched with a single feature, SupportMatch — peer-to-peer counseling, connection to talk. Version 2 introduced the Directory — being findable. Version 3 is a full economy — connection to organize. Each version moved the same direction the two years moved.
 
 Coordination runs in parallel
 
@@ -5165,7 +5163,7 @@ That is the comparison the fear skips over. The question is not "community with 
 
 The tool
 
-This is why the planning tool exists. The Community tab sorts the people already on the skills map into the ten teams a community's planning document needs — and one of the ten is Safety & Security, whose whole job is the threat model: the gate and perimeter model, emergency plans, drills, and an incident process that respects member privacy. The full walkthrough is in the last post (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/a-gated-community-and-who-could-plan-it).
+This is why the planning tool exists. The Community tab sorts the people already on the skills map into the ten teams a community's planning document needs — and one of the ten is Safety & Security, whose job is the threat model: the gate and perimeter model, emergency plans, drills, and an incident process that respects member privacy. The full walkthrough is in the last post (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/a-gated-community-and-who-could-plan-it).
 
 Plan first, in public, with the people who can do the work named next to the work. That is the other side that never gets presented.
 
@@ -5482,7 +5480,7 @@ The writing I scattered across Quora — not the posts to my own spaces, which a
 
 As I write this, the page counts 632 entries, under 149 different questions, across 48 spaces, spanning 22 months — from October 2024 to today. The page computes those numbers live from the files it reads, so by the time you look they may have grown.
 
-That kind of writing never reads as a body of work while it is happening. Each piece sits alone under somebody else's question, and no one — including the writer — sees the whole. Put back in order, it is the whole: the better part of two years of showing up, answering, and building in public, day over day.
+That kind of writing never reads as a body of work while it is happening. Each piece sits alone under somebody else's question, and no one — including the writer — sees all of it together. Put back in order, it is all there: the better part of two years of showing up, answering, and building in public, day over day.
 
 Why the stats matter
 
@@ -5494,7 +5492,7 @@ Consistency is the one credential nobody can fake backwards. A new account can b
 
 How it fits
 
-The pipeline is the same one the whole blog runs on now. The text on The Record is the raw export from Quora's own records, restored file by file; as each entry is copy-edited it is replaced in place, and the page shows the edited wording the moment that happens. Everything is in the public repository with its history, so the restoration itself is on the record too.
+The pipeline is the same one the entire blog runs on now. The text on The Record is the raw export from Quora's own records, restored file by file; as each entry is copy-edited it is replaced in place, and the page shows the edited wording the moment that happens. Everything is in the public repository with its history, so the restoration itself is on the record too.
 
 Read it forwards, from the first entry. That is the way it happened.
 
@@ -5568,7 +5566,7 @@ I called a national hotline. What came back was, in substance, join the club —
 
 Both halves of that are worth pulling apart, because together they are worse than either alone.
 
-The first half concedes the whole thing. It is common. Whoever said it was not disputing that organized harassment happens; they were telling me I was one of many. And having conceded it, they offered nothing. That is not a training gap. That is flippancy, and a person calling a hotline can tell the difference immediately.
+The first half concedes all of it. It is common. Whoever said it was not disputing that organized harassment happens; they were telling me I was one of many. And having conceded it, they offered nothing. That is not a training gap. That is flippancy, and a person calling a hotline can tell the difference immediately.
 
 The second half is advice that does not work, and my own writing is the evidence for that rather than my opinion. Change your routine. I travel, and it travels with me. What varies when I move is which day gets staged, not whether it happens. A routine is not what makes somebody findable, so changing it does not make them unfindable — it just puts the work of fixing this back onto the person it is being done to.
 
@@ -5645,7 +5643,7 @@ Color Sensitization comes back paired with headlights and flashlights shined at 
 
 Being blocked, cut in line or held up arrives paired with six different schemes, one time each — The Altered Ticket, The Engineered Delay, The Replay, Lure to a Location, The Planted Witness, and Color Sensitization again.
 
-Look at what that second one is. The same experience — you are held up — filed six different ways by someone who was there and had to decide what it was. A private log gives you your own six. It cannot tell you that being held up is the joint most-attached problem in the whole set, because it has nothing to compare against.
+Look at what that second one is. The same experience — you are held up — filed six different ways by someone who was there and had to decide what it was. A private log gives you your own six. It cannot tell you that being held up is the joint most-attached problem in the entire set, because it has nothing to compare against.
 
 That list is small and it is one member's tagging. It is also exactly the shape of the thing I have been describing for six days, and it is the first time the shape has had anything in it.
 
@@ -5772,7 +5770,7 @@ Quora has erased seven of my accounts. Everything on them went with them, which 
 
 What I do with those posts is restore them into this blog's archive, each one marked with the account it came from, the date it was originally posted, and a link to the original question where one still exists. Those archive entries are frozen at export, which is why an archived post keeps its original spelling and its original title even when they are wrong.
 
-That is a provenance claim, and it is the weakest link in this whole list — you are trusting that the export matches what was posted. Where a question still exists on Quora you can check the entry against it. Where the account is gone, you can check the Wayback Machine for the original address. Where neither exists, you have my word and a file with a date on it, and you should weigh it accordingly.
+That is a provenance claim, and it is the weakest link in this list — you are trusting that the export matches what was posted. Where a question still exists on Quora you can check the entry against it. Where the account is gone, you can check the Wayback Machine for the original address. Where neither exists, you have my word and a file with a date on it, and you should weigh it accordingly.
 
 The posts are drafted with an AI assistant
 
@@ -5845,7 +5843,7 @@ What is wanted is writing where you describe what happened and what you did abou
 
 What will not be used is writing that is only declaration, with no account of what you went through and nothing about how you got through it. That is not a judgment on anyone's faith or on how they make sense of any of this. If you write about faith and about what you did on the ground, that is exactly the kind of post this is for.
 
-[Screenshot — The Knowledge library contribution screen in the Charging The Future app. It opens: The assistant answers from one person's writing. Yours is different, and the next member asking for help deserves both. If your writing is public on Quora about what you have lived through and how you manage it, you can lend that writing here. A section headed How you want to send it offers two choices — Pick a few posts, marked recommended, for pasting the posts that are actually about being targeted, since most people write about all sorts of things and only the author can tell which posts belong; or Send my whole Quora export, better if nearly everything you have written publicly is on this subject, with private messages and drafts stripped out automatically on arrival. A section on getting a copy of your Quora data quotes the Quora Help Center in full and explains in plain words that you email privacy@quora.com or use quora.com/contact and choose I want a copy of my data, that there is no download button in Quora's settings, that the archive usually arrives within 72 hours, and that you send the zip file exactly as Quora sent it without unzipping or cleaning it. A section headed What happens to what you send lists five points: only public answers and posts are kept and everything else in an export is deleted automatically before any person opens it; an uploaded file is never stored, it is read once in memory and discarded; the writing is not used to train a model but goes into a table the assistant searches, which is why withdrawing can actually be done; an accepted contribution earns a ServiceCredits grant, an internal credits unit inside the app that is not money and never cashable, which waits until the member has finished verifying; and contact details are stripped automatically, which narrows what gets through but does not replace the person who reads it. A consent section lists six lines that all must be ticked: that this is the member's own writing published publicly under their own Quora account; that it may be used as reference material the assistant quotes from when drafting answers for members and for nothing else, never sold, published as a dataset, or passed to another company; that the member keeps every right to their writing and is lending it rather than signing it over; that they can withdraw it at any time; that a person will read what they send, that not everything is used, and that no answer reaches a member without a human reviewing it first; and that where their posts name or describe other people, those parts may be cut or the post skipped because those people did not agree to it. An optional field asks whether the writing names or describes anyone else so those parts can be cut. Below that is a form for pasting a link to each post on Quora and the whole text of the post, with a button to add another post and a Send my writing button.]
+[Screenshot — The Knowledge library contribution screen in the Charging The Future app. It opens: The assistant answers from one person's writing. Yours is different, and the next member asking for help deserves both. If your writing is public on Quora about what you have lived through and how you manage it, you can lend that writing here. A section headed How you want to send it offers two choices — Pick a few posts, marked recommended, for pasting the posts that are actually about being targeted, since most people write about all sorts of things and only the author can tell which posts belong; or Send my whole Quora export, better if nearly everything you have written publicly is on this subject, with private messages and drafts stripped out automatically on arrival. A section on getting a copy of your Quora data quotes the Quora Help Center in full and explains in plain words that you email privacy@quora.com or use quora.com/contact and choose I want a copy of my data, that there is no download button in Quora's settings, that the archive usually arrives within 72 hours, and that you send the zip file exactly as Quora sent it without unzipping or cleaning it. A section headed What happens to what you send lists five points: only public answers and posts are kept and everything else in an export is deleted automatically before any person opens it; an uploaded file is never stored, it is read once in memory and discarded; the writing is not used to train a model but goes into a table the assistant searches, which is why withdrawing can actually be done; an accepted contribution earns a ServiceCredits grant, an internal credits unit inside the app that is not money and never cashable, which waits until the member has finished verifying; and contact details are stripped automatically, which narrows what gets through but does not replace the person who reads it. A consent section lists six lines that all must be ticked: that this is the member's own writing published publicly under their own Quora account; that it may be used as reference material the assistant quotes from when drafting answers for members and for nothing else, never sold, published as a dataset, or passed to another company; that the member keeps every right to their writing and is lending it rather than signing it over; that they can withdraw it at any time; that a person will read what they send, that not everything is used, and that no answer reaches a member without a human reviewing it first; and that where their posts name or describe other people, those parts may be cut or the post skipped because those people did not agree to it. An optional field asks whether the writing names or describes anyone else so those parts can be cut. Below that is a form for pasting a link to each post on Quora and the full text of the post, with a button to add another post and a Send my writing button.]
 
 The six lines
 
@@ -5996,7 +5994,7 @@ What ClickLog gained this week
 
 Two additions, both live in the app.
 
-A problem tag: sexually assaulted, or deliberately exposed and humiliated. It covers the whole range survivors report — assault and rape at the worst end, and, short of any contact, deliberate exposure. It is deliberately coarse. The tag names the harm so it can be counted; what happened stays in the private note where it belongs.
+A problem tag: sexually assaulted, or deliberately exposed and humiliated. It covers the full range survivors report — assault and rape at the worst end, and, short of any contact, deliberate exposure. It is deliberately coarse. The tag names the harm so it can be counted; what happened stays in the private note where it belongs.
 
 A scheme: The Staged Exposure. That is the engineered form — the key, the timing, the door opened at the moment it does the most damage, and nothing required from the target except being present.
 
@@ -6067,7 +6065,7 @@ That last part is worth sitting with, because survivors will recognize the shape
 
 None of that has stopped. There is no version of the future where Estonia's geography changes. They do not get an ending either.
 
-And they live. People there work, keep hobbies, raise children, argue about ordinary things. The country is functional and by most measures pleasant. The permanent hostile attention of a much larger neighbor is a fact about their situation. It did not become the whole of what the country is.
+And they live. People there work, keep hobbies, raise children, argue about ordinary things. The country is functional and by most measures pleasant. The permanent hostile attention of a much larger neighbor is a fact about their situation. It did not become everything the country is.
 
 I have written before about Estonia coming out of occupation in 1991 (https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/how-the-math-works) with no money and infrastructure that did not work, and building a functioning modern state largely in software because software was what it could afford. What I did not say then is the part that matters more here: they did that while the pressure continued, not after it lifted.
 
@@ -6254,7 +6252,7 @@ Most of what happens to us is not ordered. It is a distributed criminal network,
 
 The Good Day, Bad Day is not that. It is planned in advance and coordinated. That is exactly what makes it worth a tag of its own: it is one of the few parts with a structure you can predict, and a structure is a thing that can be caught.
 
-There is a third thing that sits between them, and it is the most childish part of the whole operation. They cannot control everything, because nobody can. Sometimes a bad day simply happens — bad days happen to people who are not targeted, too. When one does, they claim it. They take credit for weather, for a delay, for an ordinary piece of misfortune. It is comical and sick at once, and it is worth naming because a target who does not know they do this will hand them things they had nothing to do with.
+There is a third thing that sits between them, and it is the most childish part of the operation. They cannot control everything, because nobody can. Sometimes a bad day simply happens — bad days happen to people who are not targeted, too. When one does, they claim it. They take credit for weather, for a delay, for an ordinary piece of misfortune. It is comical and sick at once, and it is worth naming because a target who does not know they do this will hand them things they had nothing to do with.
 
 The part that needs other people
 
@@ -6434,7 +6432,7 @@ In its place was an itinerary I never asked for. The single leg to New York had 
 
 The carrier's record says I called and requested it. I did not. The email address on the booking had been changed, so the new itinerary never reached me.
 
-The whole trip, in order
+The trip, in order
 
 Booked: Salt Lake City to Denver to St. Louis to New York Port Authority. About two and a half days door to door.
 
@@ -6486,7 +6484,7 @@ ClickLog is the incident logger in the app. Most of what it does exists because 
 
 One tap logs an incident. Standing at a bus door being refused boarding is not a moment for filling in a form. The tap records that it happened and when; the rest can wait until you are somewhere you can think.
 
-The note holds the whole story. Two thousand characters, which is enough for a trip like this one. Notes are private to the member. They are not shown to other members, and they are left out of the trend queries entirely rather than filtered out afterward.
+The note holds the full story. Two thousand characters, which is enough for a trip like this one. Notes are private to the member. They are not shown to other members, and they are left out of the trend queries entirely rather than filtered out afterward.
 
 An incident takes up to ten problem tags and ten scheme tags. That number is not arbitrary. This trip chained six schemes and two problems into one journey, and a logger that only lets you pick one would have forced me to decide which part of it counted.
 
@@ -6529,7 +6527,7 @@ So when someone tells you that you look foolish, look at the room they are point
 
 The costume, again
 
-Some of them tell you they are the Illuminati. They are not a secret society, and the claim falls apart the moment you count the participants: whole communities take part in this. It is human trafficking wearing a better outfit.
+Some of them tell you they are the Illuminati. They are not a secret society, and the claim falls apart the moment you count the participants: entire communities take part in this. It is human trafficking wearing a better outfit.
 
 Look at scale historically. The transatlantic slave trade had most of the globe participating in some form — one country's main contribution was building the ships, which is not a small role, it is the logistics the entire trade ran on. Every part was somebody's job. What did those people think they were? Hitler pulled the world into a war. What did he think he was?
 
@@ -6613,7 +6611,7 @@ Where the numbers come from, what is never counted, how to read a count, and wha
 
 This is the one part written with a second reader in mind: someone outside this project who might one day look into any of it. A figure with no method attached is worth nothing to that person, and worse than nothing if it overstates. Printing the limits next to the count is what makes the count usable.
 
-The whole report also saves as a single tall picture, one button, made to be posted. Area coordinates are left out of that image unless they are deliberately included.
+The entire report also saves as a single tall picture, one button, made to be posted. Area coordinates are left out of that image unless they are deliberately included.
 
 What is never shared
 
@@ -6691,7 +6689,7 @@ What it asks
 
 Two things about you: whether you consider yourself a Targeted Individual, and whether at least one of your accounts was removed. Then one card for each closed account.
 
-Each card asks for the handle, what happened to it, and when. The options for what happened are the things Quora does: the whole account deleted, banned or suspended, posts removed while the account stayed, a Space you ran removed, or blocked from posting. There is no option for closing an account yourself, so nothing in this data is somebody walking away.
+Each card asks for the handle, what happened to it, and when. The options for what happened are the things Quora does: the entire account deleted, banned or suspended, posts removed while the account stayed, a Space you ran removed, or blocked from posting. There is no option for closing an account yourself, so nothing in this data is somebody walking away.
 
 It asks what reason Quora gave, and "no reason was given" is one of the choices rather than a blank. That is the answer I expect most often, and it is worth recording as an answer in its own right. It asks whether you appealed and whether anything came back. It asks what the account mostly wrote about, and roughly how many posts and how long it ran, both optional.
 
@@ -6786,7 +6784,7 @@ And further out: I believe visible patterns can help reduce suicides and mass sh
 
 The three rules
 
-Privacy is the whole design, and three rules cover it.
+Privacy is the design, and three rules cover it.
 
 One: your notes are not shown to anyone else here, and they are not in the trend report.
 
@@ -6831,7 +6829,7 @@ The list starts deliberately short: only the attack types I have documented myse
 - Sleep deprivation — being kept from sleep or jolted awake
 - Heart effects — a sudden heart-rate spike or racing heart with no exertion
 
-That is not the whole picture, and I know it. It is the seed.
+That is not the full picture, and I know it. It is the seed.
 
 How to add to it
 
@@ -6897,7 +6895,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-si
 
 Before there was much to point at, ten of the earliest supporters put their names next to this thing in public. They commented in favor of the Skills Economy on Quora, on their own pages and under mine, where other targeted people could see it. That is the hardest kind of support to give — public, attached to your name, in a community where being visible costs something.
 
-Those comments are gone. They lived on Quora accounts that Quora deleted, and the deletions took the whole thread with them. Someone arriving today sees a space with no visible history of people vouching for it.
+Those comments are gone. They lived on Quora accounts that Quora deleted, and the deletions took the entire thread with them. Someone arriving today sees a space with no visible history of people vouching for it.
 
 So the record moves here, where nothing gets deleted by a platform decision. Below is each person, what they do, the Member of the Day post that introduced them, and their directory profile. If you are on this list and you want to say it again somewhere it survives, the door is open — and if you would rather not, that is fine too; the profiles are claimable and removable on request.
 
@@ -7026,7 +7024,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-si
 ==============================================================================
 2026-08-18 · The manifesto, seven months later
 
-I published a manifesto. It said who we are, what we learned, and that I had built a working answer for every one of the 51 problems survivors face. It ends with the line this whole thing runs on: exit their economy, exit the psyop.
+I published a manifesto. It said who we are, what we learned, and that I had built a working answer for every one of the 51 problems survivors face. It ends with the line all of this runs on: exit their economy, exit the psyop.
 
 It is still here, exactly as written: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP
 
@@ -7123,7 +7121,7 @@ Where we part ways
 
 Defense is necessary. Defense is not a plan.
 
-Keep your head down describes today. It says nothing about next year, or the year after, or the ten after that. A person can dodge every trap and still end up alone, broke, and worn down — because dodging traps was the whole strategy, and nothing was ever built underneath it.
+Keep your head down describes today. It says nothing about next year, or the year after, or the ten after that. A person can dodge every trap and still end up alone, broke, and worn down — because dodging traps was the entire strategy, and nothing was ever built underneath it.
 
 I will say the ending plainly, because pretending it is not there helps nobody. What comes after years of keeping your head down, alone and with no income, is despair. Suicide is what despair does quietly. Mass shootings are what it does loudly. Both are what the keep-quiet strategy leads to when it is the only strategy, and I refuse to stop there.
 
@@ -7153,7 +7151,7 @@ They already use this economics
 
 Here is the part that should make you optimistic, strange as that sounds.
 
-The Specterati run on economics. Favors, jobs, housing, rides — handed out to recruit, withheld to punish. Dependency is the whole mechanism. That is an economy, and it works, which is exactly why they use it.
+The Specterati run on economics. Favors, jobs, housing, rides — handed out to recruit, withheld to punish. Dependency is the mechanism. That is an economy, and it works, which is exactly why they use it.
 
 So when someone calls the Skills Economy nonsense, they are calling the other side's own operating system nonsense. The same laws of economics that let them organize people against us let us organize people for each other. The tool is proven. The only question is which direction it points.
 
@@ -7196,7 +7194,7 @@ Then I found the countries that size
 
 I searched for countries with a population around 5 million that run service-based economies — where most of the work is services, and most of those services do not have to happen in person.
 
-Finland fits. So I cataloged every job and title a working economy that size needs — about 650 different things — and placed the whole list in the app.
+Finland fits. So I cataloged every job and title a working economy that size needs — about 650 different things — and placed the entire list in the app.
 
 Then, every day, I comb Quora for survivors who state their skills, and I map each one against that list. The app labels every profile I create as community-generated and names me as the one who made it. Anyone can claim theirs or have it removed. Nobody has asked to be removed.
 

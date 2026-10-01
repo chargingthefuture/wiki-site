@@ -15,7 +15,7 @@ repo: chargingthefuture/chargingthefuture
 
 **LightHouse card polish.** Cards in the LightHouse listing now hide blank fields instead of showing empty spaces. This makes each match easier to scan.
 
-**Plugin footer consistency.** Foundation's left rail now uses the same footer as every other plugin on the platform. Small change, but it makes the whole app feel more coherent.
+**Plugin footer consistency.** Foundation's left rail now uses the same footer as every other plugin on the platform. Small change, but it makes the app feel more coherent.
 
 **Directory and governance fixes.** Directory admins can now assign and update profiles without errors. Governance ticket IDs are stored correctly so automated mints don't fail. SocketRelay's chat panel is now dark-themed, and the share menu no longer clips off-screen.
 

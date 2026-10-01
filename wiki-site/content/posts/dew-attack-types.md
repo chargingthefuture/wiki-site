@@ -29,7 +29,7 @@ The list starts deliberately short: only the attack types I have documented myse
 - Sleep deprivation — being kept from sleep or jolted awake
 - Heart effects — a sudden heart-rate spike or racing heart with no exertion
 
-That is not the whole picture, and I know it. It is the seed.
+That is not the full picture, and I know it. It is the seed.
 
 ## How to add to it
 

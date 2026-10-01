@@ -6,7 +6,7 @@
  *
  * Why a generated, committed file rather than a fetch at read time: a comment fetched into the page
  * after it loads is not in the published build, and so is not in what a web archive captures. The
- * whole reason two people have to agree before a comment gets here is that this build is captured
+ * reason two people have to agree before a comment gets here is that this build is captured
  * and cannot be recalled — by the Internet Archive, by anybody else, or by this project. A copy
  * that never actually reaches the build would be asking for that agreement and not honoring it.
  *
