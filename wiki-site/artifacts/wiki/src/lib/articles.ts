@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-jane",
+    "title": "An invitation to Jane",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-02",
+    "excerpt": "Jane asked how to prove it and how to take their accounts back. The list this invitation is about has never needed anybody to agree with me.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-jane.md",
+    "teaser": "It is an invitation to join the Skills Economy. Jane asked on Quora how to prove it and how to take their accounts back. They do not have to agree with me about any of it: the list has never asked that of anybody. Their Directory listing carries three legal skills: preparing and negotiating a case, reading what a contract or a law actually says, and standing for somebody. On October 1, 1 of the 22 skills in the sector that holds lawyers was held by anybody.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 415
+  },
+  {
     "slug": "proving-it-and-taking-your-accounts-back",
     "title": "Proving it, and taking your accounts back",
     "repo": "chargingthefuture/wiki-site",
@@ -104,23 +121,6 @@ export const ARTICLES: ArticleMeta[] = [
       "workforce"
     ],
     "number": 413
-  },
-  {
-    "slug": "an-invitation-to-jane",
-    "title": "An invitation to Jane",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-02",
-    "excerpt": "Jane asked how to prove it and how to take their accounts back. The list this invitation is about has never needed anybody to agree with me.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/an-invitation-to-jane.md",
-    "teaser": "It is an invitation to join the Skills Economy. Jane asked on Quora how to prove it and how to take their accounts back. They do not have to agree with me about any of it: the list has never asked that of anybody. Their Directory listing carries three legal skills: preparing and negotiating a case, reading what a contract or a law actually says, and standing for somebody. On October 1, 1 of the 22 skills in the sector that holds lawyers was held by anybody.",
-    "topics": [
-      "community",
-      "directory",
-      "workforce"
-    ],
-    "number": 415
   },
   {
     "slug": "an-invitation-to-sherri",
