@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "proving-it-and-taking-your-accounts-back",
+    "title": "Proving it, and taking your accounts back",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-02",
+    "excerpt": "Somebody asked on Quora how to prove an ex started this, and how to unhack everything. A dated record proves the pattern. Your accounts come back one at a time.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/proving-it-and-taking-your-accounts-back.md",
+    "teaser": "Somebody asked on Quora how to prove it, now that they know an ex started it, and how to unhack everything. Who started it matters to a point; after that, everybody who joins runs the same schemes, and knowing the name does not end it by itself. What proves it is a dated record kept as it happens, because one incident can be denied and a pattern is much harder to. And accounts come back one at a time, starting with your email, from a device you trust.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "community"
+    ],
+    "number": 414
+  },
+  {
     "slug": "where-to-go-for-help",
     "title": "Where to go for help",
     "repo": "chargingthefuture/wiki-site",
@@ -89,21 +106,21 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 413
   },
   {
-    "slug": "proving-it-and-taking-your-accounts-back",
-    "title": "Proving it, and taking your accounts back",
+    "slug": "an-invitation-to-jane",
+    "title": "An invitation to Jane",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-10-02",
-    "excerpt": "Somebody asked on Quora how to prove an ex started this, and how to unhack everything. A dated record proves the pattern. Your accounts come back one at a time.",
+    "excerpt": "Jane asked how to prove it and how to take their accounts back. The list this invitation is about has never needed anybody to agree with me.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/proving-it-and-taking-your-accounts-back.md",
-    "teaser": "Somebody asked on Quora how to prove it, now that they know an ex started it, and how to unhack everything. Who started it matters to a point; after that, everybody who joins runs the same schemes, and knowing the name does not end it by itself. What proves it is a dated record kept as it happens, because one incident can be denied and a pattern is much harder to. And accounts come back one at a time, starting with your email, from a device you trust.",
+    "path": "posts/an-invitation-to-jane.md",
+    "teaser": "It is an invitation to join the Skills Economy. Jane asked on Quora how to prove it and how to take their accounts back. They do not have to agree with me about any of it: the list has never asked that of anybody. Their Directory listing carries three legal skills: preparing and negotiating a case, reading what a contract or a law actually says, and standing for somebody. On October 1, 1 of the 22 skills in the sector that holds lawyers was held by anybody.",
     "topics": [
-      "specterati",
-      "clicklog",
-      "community"
+      "community",
+      "directory",
+      "workforce"
     ],
-    "number": 414
+    "number": 415
   },
   {
     "slug": "an-invitation-to-sherri",
