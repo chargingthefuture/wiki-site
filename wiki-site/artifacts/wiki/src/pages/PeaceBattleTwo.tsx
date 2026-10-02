@@ -315,22 +315,21 @@ export default function PeaceBattleTwo() {
           >
             <p>
               Most of a day here goes to the attacks and to what they force, and what is left might
-              be five percent. Five percent is not enough to reach a goal alone, because a goal is a
-              chain of small steps and the attacks land on the chain. It is enough when it is not all
-              one person&rsquo;s: twenty members with five percent of a day each is a working day.
+              be five percent. Five percent is not enough to reach a personal goal alone, because a
+              goal is a chain of small steps and the attacks land on the chain. It is enough when it
+              is not all one person&rsquo;s: twenty members with five percent of a day each is a full
+              working day.
             </p>
             <p>
-              That is what the goal board runs on. Post one goal with a finish line and break it into
-              cards small enough to do from a phone in under half an hour: find three yards hiring
-              near Dallas, ask one dealer whether they finance with no credit check. Then take any
-              one card from anybody else&rsquo;s goal, do it, and post what you found. When the
-              goal&rsquo;s owner marks it &ldquo;It helped&rdquo;, it counts toward the day&rsquo;s
-              384. A bad day costs nothing: take a card when you have the half hour, and not when
-              you do not.
+              That is what the goal board runs on. Post a personal goal with a finish line and break
+              it into tasks small enough to do from a phone in under half an hour: find three yards
+              hiring near Dallas, ask one dealer whether they finance with no credit check. Then take
+              any one card from anybody else&rsquo;s goal, do it, and post what you found. A bad day
+              now costs nothing: take a card when you have the half hour, and not when you do not.
+              And others do the same.
             </p>
             <p>
-              The board is in PeerProgramming, alongside its chat and calls. Taking part needs an
-              approved account.{" "}
+              The board is in PeerProgramming, alongside an optional chat and calls.{" "}
               <Link
                 href="/article/wiki-site/show-up-with-your-percent"
                 className="text-primary font-bold hover:text-white"
