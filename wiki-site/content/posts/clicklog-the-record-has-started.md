@@ -35,7 +35,7 @@ Color Sensitization comes back paired with headlights and flashlights shined at 
 
 Being blocked, cut in line or held up arrives paired with six different schemes, one time each — The Altered Ticket, The Engineered Delay, The Replay, Lure to a Location, The Planted Witness, and Color Sensitization again.
 
-Look at what that second one is. The same experience — you are held up — filed six different ways by someone who was there and had to decide what it was. A private log gives you your own six. It cannot tell you that being held up is the joint most-attached problem in the whole set, because it has nothing to compare against.
+Look at what that second one is. The same experience — you are held up — filed six different ways by someone who was there and had to decide what it was. A private log gives you your own six. It cannot tell you that being held up is the joint most-attached problem in the entire set, because it has nothing to compare against.
 
 That list is small and it is one member's tagging. It is also exactly the shape of the thing I have been describing for six days, and it is the first time the shape has had anything in it.
 

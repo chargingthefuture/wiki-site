@@ -102,7 +102,7 @@ never committed: they carry inbox messages, IP addresses and other people's name
 What it leaves out, and why:
 
 - Inbox messages and the profile photo. Private, and not writing.
-- Posts to the author's own space. Those are whole pieces and belong to the blog's own archive;
+- Posts to the author's own space. Those are complete pieces and belong to the blog's own archive;
   The Record carries the writing that lived on other people's pages.
 - Shares and submissions with no words of the author's own — a link pushed into a space is an
   act of distribution, not a piece of writing.

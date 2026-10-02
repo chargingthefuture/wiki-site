@@ -58,12 +58,12 @@ function parts(ms: number) {
 }
 
 /**
- * Elapsed time since the start, as whole calendar years plus the remainder.
+ * Elapsed time since the start, as complete calendar years plus the remainder.
  *
  * Years are counted by moving the start date forward a year at a time rather than dividing by a
  * fixed number of days, so a leap year does not put the figure a day out. Years are only reported
  * once there is at least one, which keeps the row the same four cells it was during the countdown
- * for the whole of the first year.
+ * for all of the first year.
  */
 function elapsed(from: number, to: number) {
   const start = new Date(from);

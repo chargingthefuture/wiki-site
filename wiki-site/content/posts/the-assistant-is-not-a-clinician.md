@@ -25,7 +25,7 @@ I called a national hotline. What came back was, in substance, join the club —
 
 Both halves of that are worth pulling apart, because together they are worse than either alone.
 
-The first half concedes the whole thing. It is common. Whoever said it was not disputing that organized harassment happens; they were telling me I was one of many. And having conceded it, they offered nothing. That is not a training gap. That is flippancy, and a person calling a hotline can tell the difference immediately.
+The first half concedes all of it. It is common. Whoever said it was not disputing that organized harassment happens; they were telling me I was one of many. And having conceded it, they offered nothing. That is not a training gap. That is flippancy, and a person calling a hotline can tell the difference immediately.
 
 The second half is advice that does not work, and my own writing is the evidence for that rather than my opinion. Change your routine. I travel, and it travels with me. What varies when I move is which day gets staged, not whether it happens. A routine is not what makes somebody findable, so changing it does not make them unfindable — it just puts the work of fixing this back onto the person it is being done to.
 

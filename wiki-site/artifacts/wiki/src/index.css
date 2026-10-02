@@ -119,7 +119,7 @@
 .prose {
   @apply text-foreground font-sans text-lg leading-relaxed max-w-none;
   /* Posts quote long bare URLs (archive links, profile links). Without this
-     they refuse to wrap and push the whole page wider than the phone
+     they refuse to wrap and push the entire page wider than the phone
      viewport. `anywhere` breaks only when a line would otherwise overflow,
      so normal prose is unaffected. */
   overflow-wrap: anywhere;

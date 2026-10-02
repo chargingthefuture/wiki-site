@@ -20,7 +20,7 @@ import { formatArticleDate } from "@/lib/dates";
  * past every one of them.
  *
  * Posts to the author's own space are not here. Those are the blog's own
- * archive material and they read as whole pieces; The Record is the writing
+ * archive material and they read as complete pieces; The Record is the writing
  * that was scattered under other people's questions, answers and posts, and
  * that only reads as a body of work once it is put back in order.
  *
@@ -129,7 +129,7 @@ export default function Record() {
     return { questions: questions.size, spaces: spaces.size };
   }, [all]);
 
-  /** Entries per month across the whole Record, for the volume marks. */
+  /** Entries per month across the entire Record, for the volume marks. */
   const monthly = useMemo(() => {
     const counts = new Map<string, number>();
     for (const { article } of entries) {

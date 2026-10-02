@@ -48,7 +48,7 @@ const EXEMPT_FILES = new Set([
   'wiki-site/content/feed-numbers.json',
 ]);
 
-// Whole directories of other people's words, matched by path prefix. Unlike EXEMPT_FILES these
+// Entire directories of other people's words, matched by path prefix. Unlike EXEMPT_FILES these
 // grow on their own, so listing files would mean a gate that goes red every time a workflow adds one.
 const EXEMPT_PREFIXES = [
   // Collected YouTube channel archives. Every title in them is another person's words, captured by

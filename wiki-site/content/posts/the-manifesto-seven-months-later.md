@@ -9,7 +9,7 @@ topics:
   - progress
 ---
 
-I published a manifesto. It said who we are, what we learned, and that I had built a working answer for every one of the 51 problems survivors face. It ends with the line this whole thing runs on: exit their economy, exit the psyop.
+I published a manifesto. It said who we are, what we learned, and that I had built a working answer for every one of the 51 problems survivors face. It ends with the line all of this runs on: exit their economy, exit the psyop.
 
 It is still here, exactly as written: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP
 
