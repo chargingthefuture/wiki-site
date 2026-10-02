@@ -103,7 +103,7 @@ Ordered by the date the draft was opened. The account is the one it sat under.
 - [ ] 25. `2025-08-25` · pedigree101 — What jobs can a targeted individual get?
 - [ ] 26. `2025-08-28` · pedigree101 — How can targeted individuals unite to expose and combat the systematic gang stalking and harassment they face, including government complicity and directed energy weapons?
 - [ ] 27. `2025-08-28` · pedigree101 — I have a question for the perps on the stalking side of organized stalking. If your son or your daughter was put on the terror watch list and became a target, would that change anything for you or would it just be another day at the office?
-- [ ] 28. `2025-08-31` · pedigree101 — If so many people are aware that gang stalking is going on, then why isn't anyone doing anything about it? They have destroyed me and I'm so at my breaking point. It's so unfair.
+- [x] 28. `2025-08-31` · pedigree101 — If so many people are aware that gang stalking is going on, then why isn't anyone doing anything about it? They have destroyed me and I'm so at my breaking point. It's so unfair. (asked by Nikki Martindale, https://www.quora.com/profile/Nikki-Martindale-9, on 2025-07-22; answered in why-nobody-does-anything.md)
 - [ ] 29. `2025-08-31` · pedigree101 — Why do some people quit being involved in gang stalking, and what consequences do they face for leaving?
 - [ ] 30. `2025-09-01` · pedigree101 — How do you guys protect yourself against energy weapons and frequency?
 - [ ] 31. `2025-09-03` · pedigree101 — Are there any online communities or forums for victims of gang stalking to connect and share their experiences? If yes, what are some examples of these websites?

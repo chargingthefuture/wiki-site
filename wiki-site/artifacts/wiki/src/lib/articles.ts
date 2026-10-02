@@ -123,6 +123,23 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 413
   },
   {
+    "slug": "why-nobody-does-anything",
+    "title": "Why nobody does anything",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-02",
+    "excerpt": "Somebody asked on Quora why nobody does anything when so many people know. For the people doing it, it is a livelihood, and it exists for the reason organized crime always has.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/why-nobody-does-anything.md",
+    "teaser": "Somebody asked on Quora why nobody does anything about it when so many people know, after it has destroyed them and left them at their breaking point. For the people doing it, it is a livelihood. The transatlantic slave trade was free labor and control, and the entire world economy benefited from it. Asking why nobody stops this is like asking why organized crime exists: for the reason it always has. It is not happening to most people, and that is all that matters to them. It is unfair. But Du Bois and his cohort, and Estonia, chose a different path, and it worked.",
+    "topics": [
+      "specterati",
+      "community",
+      "directory"
+    ],
+    "number": 416
+  },
+  {
     "slug": "an-invitation-to-sherri",
     "title": "An invitation to Sherri",
     "repo": "chargingthefuture/wiki-site",
