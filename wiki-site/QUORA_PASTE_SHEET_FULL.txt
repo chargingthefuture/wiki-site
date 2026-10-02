@@ -31,14 +31,14 @@ What counts
 A trade counts once it is finished. These are the trades that add to it:
 
 - A ride completed through TrustTransport.
-- A trainer paid for checked work in SkillUp.
+- A trainer who received credits for checked work in SkillUp.
 - A call or a quoted job completed through Foundation.
 - ServiceCredits sent from one member to another.
 - A home matched through LightHouse.
 - A request completed through SocketRelay.
 - A regular arrangement both people confirmed in Recurring Activity.
 
-A trade priced in ServiceCredits adds its price. A favor or a swap has no price, so each one adds one point. A trade priced in a currency is converted with fixed weights, so different currencies can be added together; the weights are not exchange rates.
+A trade in ServiceCredits adds the credits that moved. A favor or a swap has no amount, so each one adds one point. A trade priced in a currency is converted with fixed weights, so different currencies can be added together; the weights are not exchange rates.
 
 What does not count
 
