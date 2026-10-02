@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "what-jobs-a-targeted-individual-can-get",
+    "title": "What jobs a Targeted Individual can get",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-02",
+    "excerpt": "Somebody asked on Quora what jobs a Targeted Individual can get. The two I know of are truck driving and paid healthy-volunteer studies. Past those, the answer is the Skills Economy.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/what-jobs-a-targeted-individual-can-get.md",
+    "teaser": "Somebody asked on Quora what jobs a Targeted Individual can get. The only two I know of are truck driving and healthy-volunteer studies, the paid phase 1 trials where a drug company tests an upcoming medicine. Both are high-turnover fields, and high turnover means more openings. Past those two, the answer is to join the Skills Economy: of the 713 skills a working economy needs, 483 had nobody in this community on October 2.",
+    "topics": [
+      "community",
+      "workforce",
+      "directory"
+    ],
+    "number": 418
+  },
+  {
     "slug": "an-invitation-to-julie",
     "title": "An invitation to Julie",
     "repo": "chargingthefuture/wiki-site",
@@ -157,21 +174,21 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 413
   },
   {
-    "slug": "what-jobs-a-targeted-individual-can-get",
-    "title": "What jobs a Targeted Individual can get",
+    "slug": "an-invitation-to-holly",
+    "title": "An invitation to Holly",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-10-02",
-    "excerpt": "Somebody asked on Quora what jobs a Targeted Individual can get. The two I know of are truck driving and paid healthy-volunteer studies. Past those, the answer is the Skills Economy.",
+    "excerpt": "In 1991 Estonia had no money and people who knew how to do things. Knowing where little money goes is one of those things, and Holly is listed for it.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/what-jobs-a-targeted-individual-can-get.md",
-    "teaser": "Somebody asked on Quora what jobs a Targeted Individual can get. The only two I know of are truck driving and healthy-volunteer studies, the paid phase 1 trials where a drug company tests an upcoming medicine. Both are high-turnover fields, and high turnover means more openings. Past those two, the answer is to join the Skills Economy: of the 713 skills a working economy needs, 483 had nobody in this community on October 2.",
+    "path": "posts/an-invitation-to-holly.md",
+    "teaser": "It is an invitation to join the Skills Economy. The objection is that a small number of people with no money cannot build anything. Estonia in 1991 had no money, infrastructure that did not work, and 1.3 million people who already knew how to do things. Holly, in Atlanta, has a Directory listing that carries financial planning and budgeting, and financial modeling and cash flow management: knowing where money goes, and when, before it runs out. Across the list, 6 of the 34 finance and public administration skills the app tracks are held by anybody.",
     "topics": [
       "community",
-      "workforce",
-      "directory"
+      "directory",
+      "workforce"
     ],
-    "number": 418
+    "number": 419
   },
   {
     "slug": "an-invitation-to-sherri",
