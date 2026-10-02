@@ -243,11 +243,19 @@ export default function PeaceBattleTwo() {
               names what it does and the link says see the math. */}
           <div className="bg-card border-4 border-black comic-shadow-sm p-6">
             <h3 className="font-heading text-xl uppercase font-bold mb-2">What reaching 300 billion looks like</h3>
+            {/* For somebody who lands here first, with no other page behind them. 300 billion is the
+                Community Value Index goal in the app's GDP plugin; it is never money. */}
             <p className="font-sans text-gray-300 mb-4">
-              The arithmetic, round by round, starting from the 147 people on the Directory today and
-              the catalog of 657 skills a working economy needs. You set how much goes to teaching and
-              how much to the work itself, and watch what each choice reaches in two generations. It
-              is free, it needs no account, and it runs offline once it opens.
+              300 billion is the goal for the Community Value Index: a running count of the help
+              survivors trade with each other, such as a repair, a ride or a lesson, added up the way a
+              country adds up its economy. It is not money and nobody can cash it. It is the figure
+              set for an economy of five million survivors.
+            </p>
+            <p className="font-sans text-gray-300 mb-4">
+              This shows the way there, one round at a time. You start with the 147 people on the
+              Directory today and a list of 657 skills an economy needs. Each round you choose how much
+              goes to teaching skills and how much to doing the work, then see where that leads in two
+              generations. It is free, it needs no account, and it works offline once it opens.
             </p>
             <a href={LINKS.game} className="font-heading font-bold uppercase text-primary hover:text-white inline-flex items-center gap-2">
               See the math <ArrowRight size={16} />
