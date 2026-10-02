@@ -55,7 +55,7 @@ I can think of two reasons. One is that killing somebody in the open is no longe
 
 I do not know which. I am not sure it matters, because both land in the same place: they do not want you in that economy in any sense.
 
-## Their whole method runs on humiliation
+## Their method runs on humiliation
 
 Every scheme, when you strip it down, is built to make a person feel small in front of others. Shamed. Discredited. Not believed.
 

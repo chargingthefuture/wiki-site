@@ -65,7 +65,7 @@ Beyond building the app and running the logistics inside it, what I think I can 
 
 There is a tab in [Workforce](https://app.chargingthefuture.com/apps/workforce) called What's your 1%? It reads the skills already on your Directory listing, you set a rate you would actually charge, and it shows you what serving one percent of five million survivors — fifty thousand people — comes to in a year.
 
-The main Workforce screen splits the whole economy evenly and gets about $142,500 a person. No real outcome is an even split. However you define doing well, at work or at the thing you do for love, it comes out of three parts: talent, luck, and how much work you put in. The even split has all three of those averaged away.
+The main Workforce screen splits the entire economy evenly and gets about $142,500 a person. No real outcome is an even split. However you define doing well, at work or at the thing you do for love, it comes out of three parts: talent, luck, and how much work you put in. The even split has all three of those averaged away.
 
 So the figure on that tab is not a prediction. It is a target with your own arithmetic under it, and the question it leaves you with is the interesting one. What would you actually have to do to get there? What is the first thing? Who would you need?
 

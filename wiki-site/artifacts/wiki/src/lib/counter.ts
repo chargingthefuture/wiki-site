@@ -17,7 +17,7 @@
  * 2. It honors Global Privacy Control and Do Not Track by sending nothing at
  *    all — not an anonymized ping, nothing.
  * 3. It sends nothing when unconfigured. With VITE_COUNTER_ENDPOINT unset, as
- *    in local development and in any fork, the whole module is inert.
+ *    in local development and in any fork, the module is inert.
  */
 
 export type CountEvent = "view" | "read";
