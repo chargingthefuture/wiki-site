@@ -16,7 +16,7 @@ regenerate, or the two will disagree and the post is the one that is right.
 ==============================================================================
 2026-10-02 · What the Community Value Index counts
 
-The Community Value Index is one number in the app. It adds up the help survivors trade with each other, such as a ride, a repair, a room or a lesson, and keeps a running count. Its goal is 300 billion.
+The Community Value Index is one number in the app. It adds up the help survivors trade with each other, such as a ride, a repair, a room or a lesson, and keeps a running count. Its goal is 300 billion points, not dollars.
 
 In the spirit of GDP
 
@@ -28,17 +28,9 @@ It is not money. Nothing in it can be cashed, priced, or swapped for a currency 
 
 What counts
 
-A trade counts once it is finished. These are the trades that add to it:
+A trade counts once it is finished: a ride, a training session whose work was checked, a call or a job somebody quoted for, a home matched, a request completed, a regular arrangement both people confirmed, or credits sent from one member to another.
 
-- A ride completed through TrustTransport.
-- A trainer who received credits for checked work in SkillUp.
-- A call or a quoted job completed through Foundation.
-- ServiceCredits sent from one member to another.
-- A home matched through LightHouse.
-- A request completed through SocketRelay.
-- A regular arrangement both people confirmed in Recurring Activity.
-
-A trade in ServiceCredits adds the credits that moved. A favor or a swap has no amount, so each one adds one point. A trade priced in a currency is converted with fixed weights, so different currencies can be added together; the weights are not exchange rates.
+A trade in the app's credits adds the credits that moved. A favor or a swap has no amount, so each one adds one point. A trade priced in a currency is converted with fixed weights, so different currencies can be added together; the weights are not exchange rates.
 
 What does not count
 
@@ -50,20 +42,13 @@ The goal
 
 300 billion comes from Finland. Survivors are estimated at five million worldwide, and Finland, at about five and a half million people, is the country the economic model is built against; its economy is about 300 billion a year by GDP. Singapore was added on top of that, for its public figure of what one worker's skills produce. TSE Baseline Explained (https://chargingthefuture.github.io/chargingthefuture/article/mono/TSE-Baseline) sets out why Finland, and How the math works (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-the-math-works) sets out the Singapore figure.
 
-The index has the goal beside it on the same screen, with how much of the way has been covered.
+The goal borrows the size of that economy, not its currency. 300 billion is counted in the index's own points, the same points every finished trade adds, and none of them is a dollar.
 
-Peace Battle 2 (https://chargingthefuture.github.io/chargingthefuture/peace-battle-2) shows one way there, a round at a time.
+The index has the goal beside it on the same screen, with how much of the way has been covered.
 
 Where to find it in the app
 
 - GDP (https://app.chargingthefuture.com/apps/gdp) — guide (https://app.chargingthefuture.com/guide#gdp)
-- TrustTransport (https://app.chargingthefuture.com/apps/trust-transport) — guide (https://app.chargingthefuture.com/guide#trust-transport)
-- SkillUp (https://app.chargingthefuture.com/apps/skill-up) — guide (https://app.chargingthefuture.com/guide#skill-up)
-- Foundation (https://app.chargingthefuture.com/apps/foundation) — guide (https://app.chargingthefuture.com/guide#foundation)
-- ServiceCredits (https://app.chargingthefuture.com/apps/service-credits) — guide (https://app.chargingthefuture.com/guide#service-credits)
-- LightHouse (https://app.chargingthefuture.com/apps/lighthouse) — guide (https://app.chargingthefuture.com/guide#lighthouse)
-- SocketRelay (https://app.chargingthefuture.com/apps/socket-relay) — guide (https://app.chargingthefuture.com/guide#socket-relay)
-- Recurring Activity (https://app.chargingthefuture.com/apps/recurring-activity) — guide (https://app.chargingthefuture.com/guide#recurring-activity)
 
 To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 

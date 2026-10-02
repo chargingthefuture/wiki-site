@@ -43,11 +43,11 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "What the Community Value Index counts",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-10-02",
-    "excerpt": "One number in the app adds up the help survivors trade with each other, in the spirit of GDP. Its goal is 300 billion.",
+    "excerpt": "One number in the app adds up the help survivors trade with each other, in the spirit of GDP. Its goal is 300 billion points, not dollars.",
     "category": "Platform",
     "collection": "posts",
     "path": "posts/what-the-community-value-index-counts.md",
-    "teaser": "The Community Value Index is one number in the app. It adds up the help survivors trade with each other through it, such as a ride, a repair, a room or a lesson, in the spirit of GDP. It counts only what is finished, it has counted since June 12, 2026 and never resets, and its goal is 300 billion. It is a measure, not money: nothing in it can be cashed or priced.",
+    "teaser": "The Community Value Index is one number in the app. It adds up the help survivors trade with each other through it, such as a ride, a repair, a room or a lesson, in the spirit of GDP. It counts only what is finished, it has counted since June 12, 2026 and never resets, and its goal is 300 billion points, not dollars. It is a measure, not money: nothing in it can be cashed or priced.",
     "topics": [
       "skills-economy",
       "gdp"
