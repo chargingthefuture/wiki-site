@@ -198,7 +198,7 @@ export default function PeaceBattleTwo() {
 
         <h1
           className="font-display text-5xl sm:text-7xl text-white leading-none mb-4"
-          style={{ WebkitTextStroke: "2px black", textShadow: "4px 4px 0 #000" }}
+          style={{ WebkitTextStroke: "2px var(--color-black)", textShadow: "4px 4px 0 var(--color-black)" }}
         >
           PEACE BATTLE 2
         </h1>

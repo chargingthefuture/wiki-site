@@ -226,7 +226,7 @@ export default function Record() {
           </div>
           <h1
             className="font-display text-5xl sm:text-6xl text-white uppercase leading-[0.9] mb-6"
-            style={{ WebkitTextStroke: "2px black", textShadow: "4px 4px 0 #000" }}
+            style={{ WebkitTextStroke: "2px var(--color-black)", textShadow: "4px 4px 0 var(--color-black)" }}
           >
             Every word they deleted
           </h1>

@@ -11,7 +11,7 @@ export default function NotFound() {
           
           <div className="relative z-10">
             <Skull className="mx-auto text-primary mb-8" size={80} strokeWidth={1.5} />
-            <h1 className="font-display text-8xl text-white mb-4" style={{WebkitTextStroke: '1px black', textShadow: '2px 2px 0 #000'}}>404</h1>
+            <h1 className="font-display text-8xl text-white mb-4" style={{WebkitTextStroke: '1px var(--color-black)', textShadow: '2px 2px 0 var(--color-black)'}}>404</h1>
             <h2 className="font-heading text-3xl text-accent font-bold uppercase tracking-widest mb-6 border-b-4 border-black pb-4 inline-block">
               Sector Not Found
             </h2>
