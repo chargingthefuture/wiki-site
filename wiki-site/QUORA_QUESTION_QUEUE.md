@@ -39,6 +39,9 @@ Proposed, not settled. Correct them on the first post rather than in the abstrac
   the way every other credit on this blog is written. The export recorded what was asked and not
   who asked it, but the question page still names them, so the asker is knowable even though the
   export cannot supply them. Credit the question alone only when the page no longer resolves.
+- Quora cannot be reached from an agent session. To check a question, print both addresses in
+  the reply, the answered form and the `/unanswered/` form, so the owner can open them and send the
+  page back (owner directive, 2026-10-01).
 - Check who asked before writing. Quora runs a bot, Quora Prompt Generator, that adds questions
   nobody asked, and the export cannot tell its questions from a person's. Prefer questions from
   people. A bot's question is answered only when people have been asking the same thing in their
@@ -94,9 +97,9 @@ Ordered by the date the draft was opened. The account is the one it sat under.
 - [x] 19. `2025-08-18` · pedigree101 — I notice a lot of high school kids as gang stalkers or recruits that have quite a bit of knowledge in that area. Is it most likely their parents are GSS and teach them? If not, who teaches them? (asked by Eli Paniagua, https://www.quora.com/profile/Eli-Paniagua-1, on 2025-08-03; answered in who-teaches-them.md)
 - [x] 20. `2025-08-18` · pedigree101 — I've been a victim of gang stalking for almost decade…I'm rather clever, smart, observant and highly angry instead of scared. Despite my efforts, the damage/stress and heartache is killing me. I need help desperately. Where to go for help? (asked by Wheeler Aaron, https://www.quora.com/profile/Wheeler-Aaron, on 2024-02-23; answered in where-to-go-for-help.md)
 - [x] 21. `2025-08-20` · pedigree101 — This whole gang stalking thing has come on now. It has to end as I know who started it and sadly, it's a low life ex. How do you prove it and unhack everything? Talk about an invasion of privacy. (asked by Jane Doe, https://www.quora.com/profile/Jane-Doe-11966, on 2025-06-23; answered in proving-it-and-taking-your-accounts-back.md)
-- [ ] 22. `2025-08-21` · pedigree101 — What are the consequences for gang stalkers if they tell their target that they are being stalked?
-- [ ] 23. `2025-08-22` · pedigree101 — Do you feel sympathy for gang stalkers?
-- [ ] 24. `2025-08-25` · pedigree101 — What do people who have confessed to gang stalking say about how it all started and who is involved?
+- [–] 22. `2025-08-21` · pedigree101 — What are the consequences for gang stalkers if they tell their target that they are being stalked? (skipped — owner decision, 2026-10-01: Quora Prompt Generator, a bot, added it, and nobody asked it in their own words. The answer is already published in no-one-to-traffic.md: a participant who walks away loses what the arrangement gave them, never their life. Not a post.)
+- [–] 23. `2025-08-22` · pedigree101 — Do you feel sympathy for gang stalkers? (skipped — owner decision, 2026-10-01: the owner compares it to asking whether they feel sympathy for Nazis, and it is not a question the blog answers. The question is at https://www.quora.com/Do-you-feel-sympathy-for-gang-stalkers. Not a post.)
+- [–] 24. `2025-08-25` · pedigree101 — What do people who have confessed to gang stalking say about how it all started and who is involved? (skipped — owner decision, 2026-10-01: Quora Prompt Generator, a bot, added it, and it treats taking part in trafficking a person as a story worth collecting rather than as the harm it is. The question is at https://www.quora.com/What-do-people-who-have-confessed-to-gang-stalking-say-about-how-it-all-started-and-who-is-involved. Not a post.)
 - [ ] 25. `2025-08-25` · pedigree101 — What jobs can a targeted individual get?
 - [ ] 26. `2025-08-28` · pedigree101 — How can targeted individuals unite to expose and combat the systematic gang stalking and harassment they face, including government complicity and directed energy weapons?
 - [ ] 27. `2025-08-28` · pedigree101 — I have a question for the perps on the stalking side of organized stalking. If your son or your daughter was put on the terror watch list and became a target, would that change anything for you or would it just be another day at the office?
