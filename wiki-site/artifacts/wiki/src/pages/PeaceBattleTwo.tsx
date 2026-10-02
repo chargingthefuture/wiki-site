@@ -244,12 +244,17 @@ export default function PeaceBattleTwo() {
           <div className="bg-card border-4 border-black comic-shadow-sm p-6">
             <h3 className="font-heading text-xl uppercase font-bold mb-2">What reaching 300 billion looks like</h3>
             {/* For somebody who lands here first, with no other page behind them. 300 billion is the
-                Community Value Index goal in the app's GDP plugin; it is never money. */}
+                Community Value Index goal in the app's GDP plugin. The Dictionary carries the definition. */}
             <p className="font-sans text-gray-300 mb-4">
-              300 billion is the goal for the Community Value Index: a running count of the help
-              survivors trade with each other, such as a repair, a ride or a lesson, added up the way a
-              country adds up its economy. It is not money and nobody can cash it. It is the figure
-              set for an economy of five million survivors.
+              300 billion is the goal for the{" "}
+              <Link
+                href="/article/wiki-site/Dictionary"
+                className="text-primary font-bold hover:text-white"
+              >
+                Community Value Index
+              </Link>
+              : a running count of the help survivors trade with each other, such as a repair, a ride
+              or a lesson. It is the figure set for an economy of five million survivors.
             </p>
             <p className="font-sans text-gray-300 mb-4">
               This shows the way there, one round at a time. You start with the 147 people on the
