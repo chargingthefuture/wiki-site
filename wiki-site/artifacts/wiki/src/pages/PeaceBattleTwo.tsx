@@ -243,11 +243,25 @@ export default function PeaceBattleTwo() {
               names what it does and the link says see the math. */}
           <div className="bg-card border-4 border-black comic-shadow-sm p-6">
             <h3 className="font-heading text-xl uppercase font-bold mb-2">What reaching 300 billion looks like</h3>
+            {/* For somebody who lands here first, with no other page behind them. 300 billion is the
+                Community Value Index goal in the app's GDP plugin. The post it links carries the definition. */}
             <p className="font-sans text-gray-300 mb-4">
-              The arithmetic, round by round, starting from the 147 people on the Directory today and
-              the catalog of 657 skills a working economy needs. You set how much goes to teaching and
-              how much to the work itself, and watch what each choice reaches in two generations. It
-              is free, it needs no account, and it runs offline once it opens.
+              300 billion is the goal for the{" "}
+              <Link
+                href="/article/wiki-site/what-the-community-value-index-counts"
+                className="text-primary font-bold hover:text-white"
+              >
+                Community Value Index
+              </Link>
+              , in the spirit of GDP: a running count of the help survivors trade with each other,
+              such as a repair, a ride or a lesson. It is the figure set for an economy of five
+              million survivors.
+            </p>
+            <p className="font-sans text-gray-300 mb-4">
+              This shows the way there, one round at a time. You start with the 147 people on the
+              Directory today and a list of 657 skills an economy needs. Each round you choose how much
+              goes to teaching skills and how much to doing the work, then see where that leads in two
+              generations. It is free, it needs no account, and it works offline once it opens.
             </p>
             <a href={LINKS.game} className="font-heading font-bold uppercase text-primary hover:text-white inline-flex items-center gap-2">
               See the math <ArrowRight size={16} />
@@ -257,9 +271,10 @@ export default function PeaceBattleTwo() {
           <div className="bg-card border-4 border-black comic-shadow-sm p-6">
             <h3 className="font-heading text-xl uppercase font-bold mb-2">What's your 1%?</h3>
             <p className="font-sans text-gray-300 mb-4">
-              One percent of five million survivors is 50,000 people. This runs the arithmetic
-              backwards from there to you, weighted to your own trade, and tells you what serving that
-              many people would be worth in a year.
+              The 300 billion is made of single people doing their own work, and you are one of them.
+              Serve one percent of those five million survivors and that is 50,000 people. This works
+              back from those 50,000 to you, starting from your own trade, and shows what a year of
+              serving them would add to the Community Value Index.
             </p>
             <a href={LINKS.onePercent} className="font-heading font-bold uppercase text-primary hover:text-white inline-flex items-center gap-2">
               Open your figures <ArrowRight size={16} />
