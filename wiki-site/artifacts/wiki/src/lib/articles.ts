@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-holly",
+    "title": "An invitation to Holly",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-02",
+    "excerpt": "In 1991 Estonia had no money and people who knew how to do things. Knowing where little money goes is one of those things, and Holly is listed for it.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-holly.md",
+    "teaser": "It is an invitation to join the Skills Economy. The objection is that a small number of people with no money cannot build anything. Estonia in 1991 had no money, infrastructure that did not work, and 1.3 million people who already knew how to do things. Holly, in Atlanta, has a Directory listing that carries financial planning and budgeting, and financial modeling and cash flow management: knowing where money goes, and when, before it runs out. Across the list, 6 of the 34 finance and public administration skills the app tracks are held by anybody.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 419
+  },
+  {
     "slug": "what-jobs-a-targeted-individual-can-get",
     "title": "What jobs a Targeted Individual can get",
     "repo": "chargingthefuture/wiki-site",
@@ -124,6 +141,23 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 414
   },
   {
+    "slug": "an-invitation-to-aaron",
+    "title": "An invitation to Aaron",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-02",
+    "excerpt": "You asked on Quora where to go for help. Part of the answer is a list you are already on.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-aaron.md",
+    "teaser": "It is an invitation to join the Skills Economy, and the listing is already there. Aaron Wheeler asked on Quora where to go for help after nearly ten years of this, and I answered on the blog. Part of that answer is the Directory: a list of people and what they can do, which is how material help finds the person who needs it. Aaron is on it already, with a placeholder where their skills will go. The listing costs nothing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 413
+  },
+  {
     "slug": "where-to-go-for-help",
     "title": "Where to go for help",
     "repo": "chargingthefuture/wiki-site",
@@ -155,40 +189,6 @@ export const ARTICLES: ArticleMeta[] = [
       "gdp"
     ],
     "number": 411
-  },
-  {
-    "slug": "an-invitation-to-aaron",
-    "title": "An invitation to Aaron",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-02",
-    "excerpt": "You asked on Quora where to go for help. Part of the answer is a list you are already on.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/an-invitation-to-aaron.md",
-    "teaser": "It is an invitation to join the Skills Economy, and the listing is already there. Aaron Wheeler asked on Quora where to go for help after nearly ten years of this, and I answered on the blog. Part of that answer is the Directory: a list of people and what they can do, which is how material help finds the person who needs it. Aaron is on it already, with a placeholder where their skills will go. The listing costs nothing, and no is a complete answer.",
-    "topics": [
-      "community",
-      "directory",
-      "workforce"
-    ],
-    "number": 413
-  },
-  {
-    "slug": "an-invitation-to-holly",
-    "title": "An invitation to Holly",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-02",
-    "excerpt": "In 1991 Estonia had no money and people who knew how to do things. Knowing where little money goes is one of those things, and Holly is listed for it.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/an-invitation-to-holly.md",
-    "teaser": "It is an invitation to join the Skills Economy. The objection is that a small number of people with no money cannot build anything. Estonia in 1991 had no money, infrastructure that did not work, and 1.3 million people who already knew how to do things. Holly, in Atlanta, has a Directory listing that carries financial planning and budgeting, and financial modeling and cash flow management: knowing where money goes, and when, before it runs out. Across the list, 6 of the 34 finance and public administration skills the app tracks are held by anybody.",
-    "topics": [
-      "community",
-      "directory",
-      "workforce"
-    ],
-    "number": 419
   },
   {
     "slug": "an-invitation-to-sherri",
@@ -562,20 +562,21 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 389
   },
   {
-    "slug": "best-description-i-have-read",
-    "title": "The best description of it I have read",
+    "slug": "what-actually-comes-back",
+    "title": "What actually comes back",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-09-22",
-    "excerpt": "People keep asking what this is and what the methods are. Somebody answered it years ago, better than I would, and my old Quora space pointed at her answer.",
+    "excerpt": "Somebody asked how to recover and return to a normal life. Nothing returns to before. Specific things come back, and naming them is more use than the word recovery.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/best-description-i-have-read.md",
-    "teaser": "What is this and what are the methods? It is the question that arrives most often, and I am not going to answer it, because Sherri Jenkins already did and did it better than I would. Her answer is a list: following on foot and by car, crowding somebody's space, insults murmured so only the target hears, a car outside the house, staged fights, skits built from things only the target should know, theft and vandalism, rumors, photographs, pets harmed, a phone bugged, mail tampered with, and the family pulled in too. The list is the part that matters, because every item on it is nothing taken alone. That is what makes it work and what makes it impossible to report.",
+    "path": "posts/what-actually-comes-back.md",
+    "teaser": "A question in the queue asks how a person recovers from this and returns to a normal life. The honest answer disagrees with the premise. A name on the list is never taken off, so there is no before to return to, and a person who measures progress against that will read every ordinary week as failure. What does come back is specific and can be listed: income, a place to live, people who know you, sleep, and the ability to ask somebody for something. Those are the things to rebuild, under conditions that are still running.",
     "topics": [
       "community",
-      "specterati"
+      "skills-economy",
+      "clicklog"
     ],
-    "number": 385
+    "number": 388
   },
   {
     "slug": "it-followed-you",
@@ -612,6 +613,22 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 386
   },
   {
+    "slug": "best-description-i-have-read",
+    "title": "The best description of it I have read",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-22",
+    "excerpt": "People keep asking what this is and what the methods are. Somebody answered it years ago, better than I would, and my old Quora space pointed at her answer.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/best-description-i-have-read.md",
+    "teaser": "What is this and what are the methods? It is the question that arrives most often, and I am not going to answer it, because Sherri Jenkins already did and did it better than I would. Her answer is a list: following on foot and by car, crowding somebody's space, insults murmured so only the target hears, a car outside the house, staged fights, skits built from things only the target should know, theft and vandalism, rumors, photographs, pets harmed, a phone bugged, mail tampered with, and the family pulled in too. The list is the part that matters, because every item on it is nothing taken alone. That is what makes it work and what makes it impossible to report.",
+    "topics": [
+      "community",
+      "specterati"
+    ],
+    "number": 385
+  },
+  {
     "slug": "they-are-not-psychic",
     "title": "They are not psychic",
     "repo": "chargingthefuture/wiki-site",
@@ -627,23 +644,6 @@ export const ARTICLES: ArticleMeta[] = [
       "community"
     ],
     "number": 384
-  },
-  {
-    "slug": "what-actually-comes-back",
-    "title": "What actually comes back",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-22",
-    "excerpt": "Somebody asked how to recover and return to a normal life. Nothing returns to before. Specific things come back, and naming them is more use than the word recovery.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/what-actually-comes-back.md",
-    "teaser": "A question in the queue asks how a person recovers from this and returns to a normal life. The honest answer disagrees with the premise. A name on the list is never taken off, so there is no before to return to, and a person who measures progress against that will read every ordinary week as failure. What does come back is specific and can be listed: income, a place to live, people who know you, sleep, and the ability to ask somebody for something. Those are the things to rebuild, under conditions that are still running.",
-    "topics": [
-      "community",
-      "skills-economy",
-      "clicklog"
-    ],
-    "number": 388
   },
   {
     "slug": "an-invitation-to-alphelus",
@@ -697,21 +697,21 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 381
   },
   {
-    "slug": "an-invitation-to-tommy",
-    "title": "An invitation to Tommy",
+    "slug": "mutual-not-equal",
+    "title": "Mutual, not equal",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-09-20",
-    "excerpt": "A room that cannot be heated is not housing. The Directory lists rooms offered by survivors, and one person on it does mechanical and electrical repair and HVAC.",
+    "excerpt": "How to ask another Targeted Individual for help: bring something, and know who is receiving the ask. It does not have to be equal.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/an-invitation-to-tommy.md",
-    "teaser": "LightHouse lists rooms offered by survivors to survivors, which is the answer to the scheme that walks a destitute person back to relatives who can be bought. But a room is only a room while the heat works, and a community with no money does not replace what breaks — it repairs it. Tommy Gumbert is listed in the Directory for mechanical and electrical repair and HVAC. The skills catalog holds 686 things a working economy needs somebody to be able to do; read on September 20, the Directory's 158 people held 194 of them and 492 had nobody at all. Mending is in one of the thin sectors, not a queue to join.",
+    "path": "posts/mutual-not-equal.md",
+    "teaser": "The last post was about ignoring it. This one is what happens when you stop and start asking. Every relationship runs on an exchange, and it is almost never equal — it only has to be mutual, with each side getting what they came for. Before the targeting, most people arrived at every table with enough to offer that the habit was never tested; afterward the same habit meets closed doors and hears far more no than yes. The Skills Economy is built to take the awkwardness out of that, and to filter out the people who will never hand you anything real.",
     "topics": [
       "community",
-      "directory",
-      "lighthouse"
+      "philosophy",
+      "skills-economy"
     ],
-    "number": 378
+    "number": 380
   },
   {
     "slug": "count-the-recruits",
@@ -728,6 +728,23 @@ export const ARTICLES: ArticleMeta[] = [
       "community"
     ],
     "number": 379
+  },
+  {
+    "slug": "an-invitation-to-tommy",
+    "title": "An invitation to Tommy",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-20",
+    "excerpt": "A room that cannot be heated is not housing. The Directory lists rooms offered by survivors, and one person on it does mechanical and electrical repair and HVAC.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-tommy.md",
+    "teaser": "LightHouse lists rooms offered by survivors to survivors, which is the answer to the scheme that walks a destitute person back to relatives who can be bought. But a room is only a room while the heat works, and a community with no money does not replace what breaks — it repairs it. Tommy Gumbert is listed in the Directory for mechanical and electrical repair and HVAC. The skills catalog holds 686 things a working economy needs somebody to be able to do; read on September 20, the Directory's 158 people held 194 of them and 492 had nobody at all. Mending is in one of the thin sectors, not a queue to join.",
+    "topics": [
+      "community",
+      "directory",
+      "lighthouse"
+    ],
+    "number": 378
   },
   {
     "slug": "move-toward-somebody",
@@ -747,23 +764,6 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 377
   },
   {
-    "slug": "mutual-not-equal",
-    "title": "Mutual, not equal",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-20",
-    "excerpt": "How to ask another Targeted Individual for help: bring something, and know who is receiving the ask. It does not have to be equal.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/mutual-not-equal.md",
-    "teaser": "The last post was about ignoring it. This one is what happens when you stop and start asking. Every relationship runs on an exchange, and it is almost never equal — it only has to be mutual, with each side getting what they came for. Before the targeting, most people arrived at every table with enough to offer that the habit was never tested; afterward the same habit meets closed doors and hears far more no than yes. The Skills Economy is built to take the awkwardness out of that, and to filter out the people who will never hand you anything real.",
-    "topics": [
-      "community",
-      "philosophy",
-      "skills-economy"
-    ],
-    "number": 380
-  },
-  {
     "slug": "something-to-lose",
     "title": "Something to lose",
     "repo": "chargingthefuture/wiki-site",
@@ -778,6 +778,23 @@ export const ARTICLES: ArticleMeta[] = [
       "specterati"
     ],
     "number": 376
+  },
+  {
+    "slug": "what-can-be-stopped",
+    "title": "What can be stopped",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-19",
+    "excerpt": "Nobody I know has stopped it, and the people who say it stopped were mostly told so by the people doing it. What can be stopped is what it costs you.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/what-can-be-stopped.md",
+    "teaser": "Somebody asked whether the harassment can be stopped, and which methods have worked. The honest answer is that no method I know of has ended it, mine included, and I have been at this since I was five. Moving does not do it, ignoring did not do it, and a quiet stretch is usually the people doing it laying low. What can be stopped is what it costs: your record of your own life, your week, your income, and who you depend on. Those are the parts that were ever in reach, and an economy of survivors is built to take them back.",
+    "topics": [
+      "community",
+      "directory",
+      "clicklog"
+    ],
+    "number": 375
   },
   {
     "slug": "an-invitation-to-gn0b0dy-pneuma",
@@ -828,23 +845,6 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 372
   },
   {
-    "slug": "what-can-be-stopped",
-    "title": "What can be stopped",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-19",
-    "excerpt": "Nobody I know has stopped it, and the people who say it stopped were mostly told so by the people doing it. What can be stopped is what it costs you.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/what-can-be-stopped.md",
-    "teaser": "Somebody asked whether the harassment can be stopped, and which methods have worked. The honest answer is that no method I know of has ended it, mine included, and I have been at this since I was five. Moving does not do it, ignoring did not do it, and a quiet stretch is usually the people doing it laying low. What can be stopped is what it costs: your record of your own life, your week, your income, and who you depend on. Those are the parts that were ever in reach, and an economy of survivors is built to take them back.",
-    "topics": [
-      "community",
-      "directory",
-      "clicklog"
-    ],
-    "number": 375
-  },
-  {
     "slug": "an-invitation-to-espada",
     "title": "An invitation to Espada",
     "repo": "chargingthefuture/wiki-site",
@@ -859,22 +859,6 @@ export const ARTICLES: ArticleMeta[] = [
       "directory"
     ],
     "number": 371
-  },
-  {
-    "slug": "how-are-you-doing",
-    "title": "How are you doing?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-18",
-    "excerpt": "They ask because the answer is what they are collecting. I am not going to ask you that. I am going to ask what you need.",
-    "category": "Philosophy",
-    "collection": "posts",
-    "path": "posts/how-are-you-doing.md",
-    "teaser": "Asking a Targeted Individual how they are doing is not always a kindness. Their raw material is your pain, so the answer is the thing being collected — which is why the question gets asked at all, alongside holding a door and then saying something, or telling a woman she should smile more. So I am not going to ask you how you are doing. I already know, because I am living the same week. I am going to ask what you need, which is a question with an answer somebody can act on. Coexistence over conspiracy.",
-    "topics": [
-      "philosophy",
-      "community"
-    ],
-    "number": 368
   },
   {
     "slug": "how-to-run-a-one-percent-session",
@@ -909,6 +893,22 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 369
   },
   {
+    "slug": "how-are-you-doing",
+    "title": "How are you doing?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-18",
+    "excerpt": "They ask because the answer is what they are collecting. I am not going to ask you that. I am going to ask what you need.",
+    "category": "Philosophy",
+    "collection": "posts",
+    "path": "posts/how-are-you-doing.md",
+    "teaser": "Asking a Targeted Individual how they are doing is not always a kindness. Their raw material is your pain, so the answer is the thing being collected — which is why the question gets asked at all, alongside holding a door and then saying something, or telling a woman she should smile more. So I am not going to ask you how you are doing. I already know, because I am living the same week. I am going to ask what you need, which is a question with an answer somebody can act on. Coexistence over conspiracy.",
+    "topics": [
+      "philosophy",
+      "community"
+    ],
+    "number": 368
+  },
+  {
     "slug": "an-invitation-to-christy",
     "title": "An invitation to Christy",
     "repo": "chargingthefuture/wiki-site",
@@ -941,6 +941,22 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 366
   },
   {
+    "slug": "whats-your-hangup",
+    "title": "What's Your Hangup?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-15",
+    "excerpt": "An honest question with no trap in it. If something about the Skills Economy stops you, I want to know what it is. Here is the one I hear most, and what the record actually shows.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/whats-your-hangup.md",
+    "teaser": "If something about the Skills Economy stops you, say so under this post. The objection I hear most is that it is a step down from a real job. The record says otherwise: destitution arrives after you have already proven you can work. They removed you from an economy you were good at. Whatever they want, it is not your labor — so what is the hangup about working somewhere else?",
+    "topics": [
+      "community",
+      "skills-economy"
+    ],
+    "number": 365
+  },
+  {
     "slug": "peace-battle-2",
     "title": "Peace Battle 2",
     "repo": "chargingthefuture/wiki-site",
@@ -971,22 +987,6 @@ export const ARTICLES: ArticleMeta[] = [
       "community"
     ],
     "number": 363
-  },
-  {
-    "slug": "whats-your-hangup",
-    "title": "What's Your Hangup?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-15",
-    "excerpt": "An honest question with no trap in it. If something about the Skills Economy stops you, I want to know what it is. Here is the one I hear most, and what the record actually shows.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/whats-your-hangup.md",
-    "teaser": "If something about the Skills Economy stops you, say so under this post. The objection I hear most is that it is a step down from a real job. The record says otherwise: destitution arrives after you have already proven you can work. They removed you from an economy you were good at. Whatever they want, it is not your labor — so what is the hangup about working somewhere else?",
-    "topics": [
-      "community",
-      "skills-economy"
-    ],
-    "number": 365
   },
   {
     "slug": "whats-your-one-percent",
@@ -1022,22 +1022,6 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 361
   },
   {
-    "slug": "nobody-calls-to-say-its-dead",
-    "title": "Nobody Calls to Tell You Your Project Is Dead",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-14",
-    "excerpt": "A member called to say the app is empty and worthless, asked me to ask them to stay, and asked for admin access. Three tells in one call.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/nobody-calls-to-say-its-dead.md",
-    "teaser": "Somebody on the app called to tell me it is dead, that nobody is on it, and that they are getting nothing out of it. In the same call they asked me to ask them to stay, and asked for advanced permissions so they could help bring people in — having brought nobody. A person who genuinely finds a thing empty just stops opening it. Here is what that call was, why the app gives someone like that so little to work with, and why a community built without stealing anybody does not fill up on command.",
-    "topics": [
-      "community",
-      "security"
-    ],
-    "number": 359
-  },
-  {
     "slug": "what-i-missed-about-everything-on-the-blockchain",
     "title": "What I Missed About Wanting Everything On the Blockchain",
     "repo": "chargingthefuture/wiki-site",
@@ -1052,6 +1036,22 @@ export const ARTICLES: ArticleMeta[] = [
       "architecture"
     ],
     "number": 360
+  },
+  {
+    "slug": "nobody-calls-to-say-its-dead",
+    "title": "Nobody Calls to Tell You Your Project Is Dead",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-14",
+    "excerpt": "A member called to say the app is empty and worthless, asked me to ask them to stay, and asked for admin access. Three tells in one call.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/nobody-calls-to-say-its-dead.md",
+    "teaser": "Somebody on the app called to tell me it is dead, that nobody is on it, and that they are getting nothing out of it. In the same call they asked me to ask them to stay, and asked for advanced permissions so they could help bring people in — having brought nobody. A person who genuinely finds a thing empty just stops opening it. Here is what that call was, why the app gives someone like that so little to work with, and why a community built without stealing anybody does not fill up on command.",
+    "topics": [
+      "community",
+      "security"
+    ],
+    "number": 359
   },
   {
     "slug": "an-invitation-to-janie",
@@ -1116,22 +1116,6 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 355
   },
   {
-    "slug": "an-invitation-to-jhb",
-    "title": "An Invitation to J.H.B.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-28",
-    "excerpt": "Diagnostic testing, chemical dosing, pharmacology, audio and video work, CCTV, bookkeeping — nine specializations, and six years of answering other survivors in public.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/an-invitation-to-jhb.md",
-    "teaser": "J.H.B. asked the question \"You cannot argue a smear down\" answered. The Directory holds nine specializations for them, broader than that question would suggest: chemical dosing and safety, diagnostic testing across microscopy, biochemistry and hematology, pharmacology and prescription, then audio and video work, CCTV, and bookkeeping. Alongside it, six years of answering other survivors in public — read more than four hundred thousand times. Medicine is the shortage this economy feels most, and none of these roles is competitive: the list is empty rather than full.",
-    "topics": [
-      "members",
-      "skills-economy"
-    ],
-    "number": 352
-  },
-  {
     "slug": "rfs-teaching-and-childcare",
     "title": "Request For Skills: teaching and childcare",
     "repo": "chargingthefuture/wiki-site",
@@ -1163,6 +1147,22 @@ export const ARTICLES: ArticleMeta[] = [
       "education"
     ],
     "number": 353
+  },
+  {
+    "slug": "an-invitation-to-jhb",
+    "title": "An Invitation to J.H.B.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-28",
+    "excerpt": "Diagnostic testing, chemical dosing, pharmacology, audio and video work, CCTV, bookkeeping — nine specializations, and six years of answering other survivors in public.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-jhb.md",
+    "teaser": "J.H.B. asked the question \"You cannot argue a smear down\" answered. The Directory holds nine specializations for them, broader than that question would suggest: chemical dosing and safety, diagnostic testing across microscopy, biochemistry and hematology, pharmacology and prescription, then audio and video work, CCTV, and bookkeeping. Alongside it, six years of answering other survivors in public — read more than four hundred thousand times. Medicine is the shortage this economy feels most, and none of these roles is competitive: the list is empty rather than full.",
+    "topics": [
+      "members",
+      "skills-economy"
+    ],
+    "number": 352
   },
   {
     "slug": "you-cannot-argue-a-smear-down",
@@ -1231,22 +1231,6 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 348
   },
   {
-    "slug": "from-them-to-me",
-    "title": "From them to me",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-26",
-    "excerpt": "Read for direction instead of span, the Record shows one turn: nine months studying the people running the operation, then a shift to us. Everything that exists today was built after the turn.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/from-them-to-me.md",
-    "teaser": "The Record's 632 entries divide into a before and an after at one point. Nine months studying the people running the operation — I fell for it, because it is not an intelligence test; it is the design. Then the turn, dated: July 13, 2025, asking who and where we are instead; August 3, 2025, one sentence proposing the network. Everything in use today came after that turn, built while I lived outside with no car, no home, and no job. The nine months are optional now — you can start where they ended.",
-    "topics": [
-      "community",
-      "progress"
-    ],
-    "number": 345
-  },
-  {
     "slug": "seven-more-psyop-free-games",
     "title": "Seven more psyop-free games",
     "repo": "chargingthefuture/wiki-site",
@@ -1277,6 +1261,22 @@ export const ARTICLES: ArticleMeta[] = [
       "progress"
     ],
     "number": 346
+  },
+  {
+    "slug": "from-them-to-me",
+    "title": "From them to me",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-26",
+    "excerpt": "Read for direction instead of span, the Record shows one turn: nine months studying the people running the operation, then a shift to us. Everything that exists today was built after the turn.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/from-them-to-me.md",
+    "teaser": "The Record's 632 entries divide into a before and an after at one point. Nine months studying the people running the operation — I fell for it, because it is not an intelligence test; it is the design. Then the turn, dated: July 13, 2025, asking who and where we are instead; August 3, 2025, one sentence proposing the network. Everything in use today came after that turn, built while I lived outside with no car, no home, and no job. The nine months are optional now — you can start where they ended.",
+    "topics": [
+      "community",
+      "progress"
+    ],
+    "number": 345
   },
   {
     "slug": "two-years-to-find-three-people",
