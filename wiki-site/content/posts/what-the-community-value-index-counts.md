@@ -41,7 +41,9 @@ A trade priced in ServiceCredits adds its price. A favor or a swap has no price,
 
 ## The goal
 
-300 billion is the goal set for an economy of five million survivors trading with each other. The index has the goal beside it on the same screen, with how much of the way has been covered.
+300 billion comes from Finland. Survivors are estimated at five million worldwide, and Finland, at about five and a half million people, is the country the economic model is built against; its economy is about 300 billion a year by GDP. Singapore was added on top of that, for its public figure of what one worker's skills produce. [TSE Baseline Explained](https://chargingthefuture.github.io/chargingthefuture/article/mono/TSE-Baseline) sets out why Finland, and [How the math works](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-the-math-works) sets out the Singapore figure.
+
+The index has the goal beside it on the same screen, with how much of the way has been covered.
 
 [Peace Battle 2](https://chargingthefuture.github.io/chargingthefuture/peace-battle-2) shows one way there, a round at a time.
 

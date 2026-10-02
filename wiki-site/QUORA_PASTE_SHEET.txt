@@ -32,7 +32,7 @@ unverified — but it is still a staging file, and the post remains the record.
 ==============================================================================
 No. 411 · 2026-10-02 · What the Community Value Index counts
 
-There is one number in the app that tracks how much survivors trade with each other, and it is called the Community Value Index. Think of it like a country's GDP for this community: every finished ride, repair, room, paid training or regular arrangement made through the app adds to it, and it has never reset since June 12, 2026. A favor with no price adds one point. Open posts nobody has taken up are kept in a separate figure, and help that happens outside the app is not in it at all. The goal is 300 billion, set for an economy of five million survivors. It is a measure, not money, and nothing in it can be cashed.
+There is one number in the app that tracks how much survivors trade with each other, and it is called the Community Value Index. Think of it like a country's GDP for this community: every finished ride, repair, room, paid training or regular arrangement made through the app adds to it, and it has never reset since June 12, 2026. A favor with no price adds one point. Open posts nobody has taken up are kept in a separate figure, and help that happens outside the app is not in it at all. The goal is 300 billion, which is about the size of Finland's economy, a country close in population to the five million survivors estimated worldwide. It is a measure, not money, and nothing in it can be cashed.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-the-community-value-index-counts
 
