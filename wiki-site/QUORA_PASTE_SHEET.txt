@@ -26,8 +26,15 @@ corrected where it had drifted; 70 were rewritten. Entries added after that date
 are written from the post at the time it is published. So the file is no longer
 unverified — but it is still a staging file, and the post remains the record.
 
-424 of 424 written.
+425 of 425 written.
 
+
+==============================================================================
+No. 425 · 2026-10-02 · Approved? Three things to do next
+
+Once you are approved, there are three things to do, in order. First, go through the Directory, the list of members and what each can do, because the person who can help may already be there, and keep your own listing up to date as your skills or city change. Being listed costs nobody an account; browsing it takes an approved one. Second, open the PeerProgramming goal board. Nobody here gets a full day, so take the 1% that remains and spend it on one small card from somebody else's goal, something doable from a phone in under half an hour, then post your own goal broken into cards like that. Third, for anything the board does not cover, ask the shared chat, or start a message with @comic to ask the assistant there. A person reviews every one of its answers before you see it.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/approved-three-things-to-do-next
 
 ==============================================================================
 No. 424 · 2026-10-02 · Sending a child is abuse
