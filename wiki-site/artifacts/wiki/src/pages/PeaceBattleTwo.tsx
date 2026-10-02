@@ -309,6 +309,12 @@ export default function PeaceBattleTwo() {
               The board is in PeerProgramming, alongside its chat and calls. Taking part needs an
               approved account.
             </p>
+            <img
+              src={`${import.meta.env.BASE_URL}images/pb2-goal-board.png`}
+              alt="The PeerProgramming goal board on a phone. 0 cards done in the last 24 hours. Grab any one card, do it from your phone, and post what you found. One card is plenty. Your goal: Get a yard jockey job, 0 of 2 cards done, with buttons Add card, Reached it and Take it down. Up for grabs, 2 cards: Find five places in Houston Texas that have full-time yard jockey roles for recent CDL graduates. Find one TI in Houston Texas to host a room."
+              className="w-full max-w-sm mx-auto border-4 border-black comic-shadow-sm"
+              loading="lazy"
+            />
           </Step>
 
           <Step
