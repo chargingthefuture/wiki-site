@@ -9,7 +9,7 @@ import { formatArticleDate } from "@/lib/dates";
 /**
  * The feed is the catch-up surface. Platform accounts are disposable and get
  * erased every few months, so a new reader arriving from any platform post
- * lands here and can absorb the whole run of posts in minutes instead of
+ * lands here and can absorb the entire run of posts in minutes instead of
  * following an account for months.
  *
  * Each entry shows the post's teaser — the short standalone version that
@@ -73,7 +73,7 @@ export default function Feed() {
           </div>
           <h1
             className="font-display text-5xl sm:text-6xl text-white uppercase leading-[0.9] mb-4"
-            style={{ WebkitTextStroke: "2px black", textShadow: "4px 4px 0 #000" }}
+            style={{ WebkitTextStroke: "2px var(--color-black)", textShadow: "4px 4px 0 var(--color-black)" }}
           >
             Every post, in minutes
           </h1>

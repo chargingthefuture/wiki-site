@@ -43,7 +43,7 @@ That belongs with the rest of it. Getting somewhere is exposure. Being there is 
 
 Two additions, both live in the app.
 
-A problem tag: sexually assaulted, or deliberately exposed and humiliated. It covers the whole range survivors report — assault and rape at the worst end, and, short of any contact, deliberate exposure. It is deliberately coarse. The tag names the harm so it can be counted; what happened stays in the private note where it belongs.
+A problem tag: sexually assaulted, or deliberately exposed and humiliated. It covers the full range survivors report — assault and rape at the worst end, and, short of any contact, deliberate exposure. It is deliberately coarse. The tag names the harm so it can be counted; what happened stays in the private note where it belongs.
 
 A scheme: The Staged Exposure. That is the engineered form — the key, the timing, the door opened at the moment it does the most damage, and nothing required from the target except being present.
 

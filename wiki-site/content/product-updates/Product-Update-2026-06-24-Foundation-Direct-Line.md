@@ -19,7 +19,7 @@ Cleaned up some Foundation surfaces too: removed a fake "Chat" tab that wasn't r
 
 ## Why It Matters
 
-Direct communication with a provider before booking makes the whole process clearer. You get answers fast and can decide with confidence.
+Direct communication with a provider before booking makes the process clearer. You get answers fast and can decide with confidence.
 
 Managing your own profile means you own how you present yourself to the network. Updates happen on your schedule, not on someone else's.
 

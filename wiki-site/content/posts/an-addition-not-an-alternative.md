@@ -23,7 +23,7 @@ Keep using those tips. I mean that without irony. Defense is necessary, and some
 
 Defense is necessary. Defense is not a plan.
 
-Keep your head down describes today. It says nothing about next year, or the year after, or the ten after that. A person can dodge every trap and still end up alone, broke, and worn down — because dodging traps was the whole strategy, and nothing was ever built underneath it.
+Keep your head down describes today. It says nothing about next year, or the year after, or the ten after that. A person can dodge every trap and still end up alone, broke, and worn down — because dodging traps was the entire strategy, and nothing was ever built underneath it.
 
 I will say the ending plainly, because pretending it is not there helps nobody. What comes after years of keeping your head down, alone and with no income, is despair. Suicide is what despair does quietly. Mass shootings are what it does loudly. Both are what the keep-quiet strategy leads to when it is the only strategy, and I refuse to stop there.
 
@@ -53,7 +53,7 @@ I do not argue with the costume anymore. I look at the business.
 
 Here is the part that should make you optimistic, strange as that sounds.
 
-The Specterati run on economics. Favors, jobs, housing, rides — handed out to recruit, withheld to punish. Dependency is the whole mechanism. That is an economy, and it works, which is exactly why they use it.
+The Specterati run on economics. Favors, jobs, housing, rides — handed out to recruit, withheld to punish. Dependency is the mechanism. That is an economy, and it works, which is exactly why they use it.
 
 So when someone calls the Skills Economy nonsense, they are calling the other side's own operating system nonsense. The same laws of economics that let them organize people against us let us organize people for each other. The tool is proven. The only question is which direction it points.
 

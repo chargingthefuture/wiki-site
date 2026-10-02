@@ -3,7 +3,7 @@ title: "What's Your 1%?"
 date: "2026-09-15"
 excerpt: "A new Workforce tab runs the economy math backwards, for you. One percent of five million is 50,000 people. At $5 each that is $250,000."
 category: "Product"
-teaser: "Workforce tells you what a population of five million would look like. It never told you what you could do inside it, and a lot of people read the whole screen and conclude none of it is about them. The new tab starts from one percent — 50,000 people — and works back to the person serving them. At $5 a head that is $250,000 a year, three and a half times the average. It is weighted to your trade, because a plumber and a physiotherapist are not interchangeable. And no trade reaches 50,000 people one job at a time, so the tab names the five ways the same skill gets there."
+teaser: "Workforce tells you what a population of five million would look like. It never told you what you could do inside it, and a lot of people read the entire screen and conclude none of it is about them. The new tab starts from one percent — 50,000 people — and works back to the person serving them. At $5 a head that is $250,000 a year, three and a half times the average. It is weighted to your trade, because a plumber and a physiotherapist are not interchangeable. And no trade reaches 50,000 people one job at a time, so the tab names the five ways the same skill gets there."
 topics:
   - product
   - economy
@@ -14,7 +14,7 @@ There is a screen in the app called Workforce. It models what a population of fi
 
 It has one problem. It is entirely about everybody, and it never once speaks to the person reading it.
 
-So people read the whole thing, follow every number, agree it adds up, and close it thinking: fine, but none of that is about me.
+So people read all of it, follow every number, agree it adds up, and close it thinking: fine, but none of that is about me.
 
 Today there is a new tab at the end of that screen. It is called What's your 1%?
 

@@ -49,7 +49,7 @@ Where the numbers come from, what is never counted, how to read a count, and wha
 
 This is the one part written with a second reader in mind: someone outside this project who might one day look into any of it. A figure with no method attached is worth nothing to that person, and worse than nothing if it overstates. Printing the limits next to the count is what makes the count usable.
 
-The whole report also saves as a single tall picture, one button, made to be posted. Area coordinates are left out of that image unless they are deliberately included.
+The entire report also saves as a single tall picture, one button, made to be posted. Area coordinates are left out of that image unless they are deliberately included.
 
 ## What is never shared
 

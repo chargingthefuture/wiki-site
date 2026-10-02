@@ -43,7 +43,7 @@ That is the comparison the fear skips over. The question is not "community with 
 
 ## The tool
 
-This is why the planning tool exists. The Community tab sorts the people already on the skills map into the ten teams a community's planning document needs — and one of the ten is Safety & Security, whose whole job is the threat model: the gate and perimeter model, emergency plans, drills, and an incident process that respects member privacy. The full walkthrough is in [the last post](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/a-gated-community-and-who-could-plan-it).
+This is why the planning tool exists. The Community tab sorts the people already on the skills map into the ten teams a community's planning document needs — and one of the ten is Safety & Security, whose job is the threat model: the gate and perimeter model, emergency plans, drills, and an incident process that respects member privacy. The full walkthrough is in [the last post](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/a-gated-community-and-who-could-plan-it).
 
 Plan first, in public, with the people who can do the work named next to the work. That is the other side that never gets presented.
 

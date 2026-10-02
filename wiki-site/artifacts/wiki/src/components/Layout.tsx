@@ -21,7 +21,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 className="w-12 h-12 rounded-full border-2 border-primary grayscale group-hover:grayscale-0 transition-all duration-300"
               />
               <div className="flex flex-col">
-                <span className="font-display text-2xl tracking-widest text-white leading-none" style={{WebkitTextStroke: '1px black', textShadow: '2px 2px 0 #000'}}>CHARGING THE FUTURE</span>
+                <span className="font-display text-2xl tracking-widest text-white leading-none" style={{WebkitTextStroke: '1px var(--color-black)', textShadow: '2px 2px 0 var(--color-black)'}}>CHARGING THE FUTURE</span>
                 <span className="font-heading text-xs uppercase tracking-widest text-primary font-bold">Live, Work & Prevail</span>
               </div>
             </Link>
@@ -90,7 +90,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <div className="lg:col-span-2">
               <div className="flex items-center gap-2 mb-6">
                 <Skull className="text-primary" size={32} />
-                <span className="font-display text-4xl tracking-widest text-white" style={{WebkitTextStroke: '1px black', textShadow: '2px 2px 0 #000'}}>CTF</span>
+                <span className="font-display text-4xl tracking-widest text-white" style={{WebkitTextStroke: '1px var(--color-black)', textShadow: '2px 2px 0 var(--color-black)'}}>CTF</span>
               </div>
               <p className="text-gray-400 font-sans text-lg max-w-md mb-6 border-l-4 border-primary pl-4">
                 We exist to prevent human trafficking and its harms by building a sustainable, ethical marketplace that restores agency, heals survivors, and enables all people to thrive.

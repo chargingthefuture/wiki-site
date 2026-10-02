@@ -189,12 +189,18 @@ function collectArticles(): ArticleRecord[] {
  * of its group and renumbering older same-day posts whenever a new one lands.
  * Returns 0 when git cannot answer (a file not committed yet, or no git), which
  * sorts an unpublished draft to the end of its day.
+ *
+ * `-M90%` keeps `--follow` to near-identical renames. Without it git also follows a
+ * post written from another as a template (an invite that shares half its text with
+ * an earlier invite), dates it by that earlier post, and drops it below the posts
+ * that went out before it on the same day. Every rename under content/ so far is a
+ * 100% match, so real renames are still followed.
  */
 function firstCommitSeconds(relPath: string): number {
   try {
     const out = execFileSync(
       'git',
-      ['log', '--follow', '--diff-filter=A', '--format=%at', '--', `content/${relPath}`],
+      ['log', '--follow', '-M90%', '--diff-filter=A', '--format=%at', '--', `content/${relPath}`],
       { cwd: BLOG_ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] },
     ).trim();
     if (!out) return 0;

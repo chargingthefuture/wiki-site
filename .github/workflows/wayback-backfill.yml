@@ -8,7 +8,7 @@ name: Wayback backfill
 #
 # Two ways to say what to send. Give `paths` for specific files. Or leave it
 # empty and give an `offset`, and the run takes that many files in from the
-# sorted list of everything under content/ — which is how a whole-blog backfill
+# sorted list of everything under content/ — which is how a full-blog backfill
 # is walked, one offset at a time.
 #
 # This run takes bigger, slower batches than a publish does: 45 seconds apart,

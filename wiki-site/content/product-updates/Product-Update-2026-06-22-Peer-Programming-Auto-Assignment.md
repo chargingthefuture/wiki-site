@@ -11,7 +11,7 @@ repo: chargingthefuture/chargingthefuture
 
 ## What Shipped
 
-Peer Programming cohort assignment now happens on schedule without manual intervention. Each week, the system identifies survivors ready for a match, pairs them, and sends Direct Line invites to both members. You'll see the assignment posted in the Commons so the whole community knows a new group is forming.
+Peer Programming cohort assignment now happens on schedule without manual intervention. Each week, the system identifies survivors ready for a match, pairs them, and sends Direct Line invites to both members. You'll see the assignment posted in the Commons so the entire community knows a new group is forming.
 
 ## Why It Matters
 

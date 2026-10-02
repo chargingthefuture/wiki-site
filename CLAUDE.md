@@ -21,7 +21,7 @@ Canonical source: [`chargingthefuture/chargingthefuture` → `.github/instructio
 
 ### Text Formatting
 - Minimize bold text. Applies to both chat responses and any `.md` (or other) files agents create or edit.
-- Do not bold for emphasis, do not bold every list-item label, and do not bold whole sentences. Bold has no logical value when overused; it adds visual noise without adding information.
+- Do not bold for emphasis, do not bold every list-item label, and do not bold entire sentences. Bold has no logical value when overused; it adds visual noise without adding information.
 - Acceptable bold use is rare and structural only: e.g. a single table header or a one-word inline label where the surrounding document already uses that convention. When in doubt, do not bold.
 - Prefer plain prose, lists, headings, and tables to carry structure instead of bold.
 
@@ -42,7 +42,7 @@ Canonical source: [`chargingthefuture/chargingthefuture` → `.github/instructio
 | Do not use | Use instead | Reason |
 |---|---|---|
 | punch list | list | Jargon; unclear meaning. |
-| stale | deprecated | "Stale" is consistently misused; "deprecated" is the intended meaning. |
+| stale | drop the word; if you mean something specific, name it (out-of-date, superseded, no longer current) | "Deprecated" means retired, not out of date. Matches the product repository. |
 | whole | entire, all of, end to end, or drop it | Owner directive, 2026-08-28, widened 2026-09-13 and 2026-09-19: the word itself, in every frame. See below. |
 | point of the thing | end on the fact itself | Owner directive, 2026-08-29. See below. |
 
@@ -146,6 +146,7 @@ carries it, because the owner froze that page outright and that freeze has not b
 |---|---|
 | `pnpm wiki:validate` | Validate `content-index.yaml` |
 | `pnpm wiki:spelling` | Fail on any British spelling outside `content/archive/` |
+| `pnpm wiki:banned-words` | Fail on the two banned words in Excluded Vocabulary, outside `content/archive/`, the manifesto, and `banned-words:disable` regions |
 | `pnpm wiki:sync` | Regenerate `articles.ts` from the index |
 | `pnpm wiki:feed` | Regenerate the RSS feed at `artifacts/wiki/public/feed.xml` (both build scripts run this) |
 | `pnpm wiki:invites` | Regenerate the invite cards at `artifacts/wiki/public/invites.json` (both build scripts run this) |
@@ -166,7 +167,7 @@ Full operator runbook: [wiki-site/PUBLISHING.md](wiki-site/PUBLISHING.md).
 Fireside is the conversation under each post. Reading it needs no account; writing happens in the
 app. The section renders from two sources and the difference matters.
 
-The live read from `app.chargingthefuture.com` shows the whole conversation and is what most
+The live read from `app.chargingthefuture.com` shows the full conversation and is what most
 readers see. It is fetched after the page loads, so it is not in the published build and not in
 what a web archive captures.
 
@@ -251,7 +252,7 @@ Rules that go with the table:
 
 - Never conflate signed-up and recruited. The gap between them is not people who declined — this community is in trauma, and engagement does not always look like signing up for another app.
 - Never frame low or zero figures with an underselling litany ("nothing has closed yet — not one job, not one ride"). A lot of work and activity happens that those figures do not capture. State a figure factually, the way the app's own screens do, and move on.
-- Never state or imply the owner has reported organized harassment to the United Nations. They have not, and that absence is itself the under-reporting argument. The rule is that specific (owner clarification, 2026-08-23): it is about a report to the UN on organized harassment as a whole, not about every contact with authority. The owner has called the police on individual incidents and has gone to a station over one, and writing about that is fine and sometimes the point — what happened when they got there is often the story. Do not stretch this rule into a ban on describing those.
+- Never state or imply the owner has reported organized harassment to the United Nations. They have not, and that absence is itself the under-reporting argument. The rule is that specific (owner clarification, 2026-08-23): it is about a report to the UN on organized harassment in general, not about every contact with authority. The owner has called the police on individual incidents and has gone to a station over one, and writing about that is fine and sometimes the point — what happened when they got there is often the story. Do not stretch this rule into a ban on describing those.
 - Progress posts follow a fixed shape with these definitions (first instance: the-manifesto-seven-months-later.md) so any two are comparable.
 
 ## Never Turn Harm Into a Resource (owner directive, 2026-08-20)
@@ -305,8 +306,8 @@ rhetoric of the people harming them, in their own publication. It is the same fa
 as-resource sentence above: it arrives sounding like encouragement and lands as an accusation.
 
 The point those sentences reach for is almost always fine, and can be said directly. The targeting
-is real, and it is not the whole of a person's life. So write that. "It is not the most interesting
-fact about you." "It did not become the whole of what the country is." The line to hold is between
+is real, and it is not all of a person's life. So write that. "It is not the most interesting
+fact about you." "It did not become everything the country is." The line to hold is between
 describing what was done to someone and passing judgment on how they carry it.
 
 Survivors stays the default word for the people here — see the Dictionary. Victim is not a banned
@@ -325,7 +326,7 @@ number that matters is sign-ups and every sentence works toward one. That framin
 and it produces copy the owner has to reject.
 
 - Do not advocate signing up as the goal, and do not build a post around driving people to it.
-  The sign-up block at the end of a post is the whole of the ask; the body does not repeat it.
+  The sign-up block at the end of a post is the entire ask; the body does not repeat it.
 - Being on the skills map is something people ask for, not a lesser version of joining. Never
   present recruited as a consolation number next to signed-up, never call either one small, and
   never explain the gap between them.
@@ -420,8 +421,8 @@ a page of employer, job title, follower counts and mutual follows, and none of t
 about the thing being discussed. Where a person works and what their title is are class markers,
 and a class marker carries no capability.
 
-Only the skill set matters to the Skills Economy. That is the whole bar for being on the list, so
-it is the whole of what a post has reason to name. A post built around somebody's job also quietly
+Only the skill set matters to the Skills Economy. That is the only bar for being on the list, so
+it is all a post has reason to name. A post built around somebody's job also quietly
 tells every survivor who was pushed out of employment — which is most of them, and on purpose —
 that the list is not for them.
 
@@ -508,7 +509,7 @@ users before the footer, gives no sense of position or length, and makes a place
 impossible to return to.
 
 Any list that can grow — the feed, the home listing, an archive index, anything added later —
-is paged. Never an endless scroll, and never a page that renders its whole collection at once.
+is paged. Never an endless scroll, and never a page that renders its entire collection at once.
 Put the page number in the URL (`/feed?page=3`) so a page can be linked and the back button
 works, show which range of how many is on screen, and clamp an out-of-range page number rather
 than showing nothing.
@@ -596,7 +597,7 @@ the reply.
 `QUORA_PASTE_SHEET.txt` holds one short summary per published page, one entry per page,
 hand-written and numbered. That file stays as it is.
 
-`QUORA_PASTE_SHEET_FULL.txt` holds the whole text of each post, for when the whole thing
+`QUORA_PASTE_SHEET_FULL.txt` holds the full text of each post, for when the full post
 should go up rather than a teaser. The owner uses the two interchangeably depending on
 what a given post needs.
 

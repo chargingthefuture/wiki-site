@@ -225,6 +225,23 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 414
   },
   {
+    "slug": "an-invitation-to-aaron",
+    "title": "An invitation to Aaron",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-02",
+    "excerpt": "You asked on Quora where to go for help. Part of the answer is a list you are already on.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-aaron.md",
+    "teaser": "It is an invitation to join the Skills Economy, and the listing is already there. Aaron Wheeler asked on Quora where to go for help after nearly ten years of this, and I answered on the blog. Part of that answer is the Directory: a list of people and what they can do, which is how material help finds the person who needs it. Aaron is on it already, with a placeholder where their skills will go. The listing costs nothing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 413
+  },
+  {
     "slug": "where-to-go-for-help",
     "title": "Where to go for help",
     "repo": "chargingthefuture/wiki-site",
@@ -256,23 +273,6 @@ export const ARTICLES: ArticleMeta[] = [
       "gdp"
     ],
     "number": 411
-  },
-  {
-    "slug": "an-invitation-to-aaron",
-    "title": "An invitation to Aaron",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-02",
-    "excerpt": "You asked on Quora where to go for help. Part of the answer is a list you are already on.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/an-invitation-to-aaron.md",
-    "teaser": "It is an invitation to join the Skills Economy, and the listing is already there. Aaron Wheeler asked on Quora where to go for help after nearly ten years of this, and I answered on the blog. Part of that answer is the Directory: a list of people and what they can do, which is how material help finds the person who needs it. Aaron is on it already, with a placeholder where their skills will go. The listing costs nothing, and no is a complete answer.",
-    "topics": [
-      "community",
-      "directory",
-      "workforce"
-    ],
-    "number": 413
   },
   {
     "slug": "an-invitation-to-sherri",
@@ -1081,7 +1081,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Product",
     "collection": "posts",
     "path": "posts/whats-your-one-percent.md",
-    "teaser": "Workforce tells you what a population of five million would look like. It never told you what you could do inside it, and a lot of people read the whole screen and conclude none of it is about them. The new tab starts from one percent — 50,000 people — and works back to the person serving them. At $5 a head that is $250,000 a year, three and a half times the average. It is weighted to your trade, because a plumber and a physiotherapist are not interchangeable. And no trade reaches 50,000 people one job at a time, so the tab names the five ways the same skill gets there.",
+    "teaser": "Workforce tells you what a population of five million would look like. It never told you what you could do inside it, and a lot of people read the entire screen and conclude none of it is about them. The new tab starts from one percent — 50,000 people — and works back to the person serving them. At $5 a head that is $250,000 a year, three and a half times the average. It is weighted to your trade, because a plumber and a physiotherapist are not interchangeable. And no trade reaches 50,000 people one job at a time, so the tab names the five ways the same skill gets there.",
     "topics": [
       "product",
       "economy",
@@ -1600,7 +1600,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/estonia-did-not-get-to-solve-it-either.md",
-    "teaser": "The question nobody in this community answers honestly is what you do if it never stops. Estonia is the answer I keep coming back to: a small country next to a much larger one that has treated it as a target for as long as it has existed, with no prospect of that ending. That did not become the whole of what the country is. It built in the direction of needing the neighbor for less and less, and people got on with their lives — work, hobbies, children. This happening to you is part of life. It is not a sentence, and it is not who you are.",
+    "teaser": "The question nobody in this community answers honestly is what you do if it never stops. Estonia is the answer I keep coming back to: a small country next to a much larger one that has treated it as a target for as long as it has existed, with no prospect of that ending. That did not become everything the country is. It built in the direction of needing the neighbor for less and less, and people got on with their lives — work, hobbies, children. This happening to you is part of life. It is not a sentence, and it is not who you are.",
     "topics": [
       "specterati",
       "economics"

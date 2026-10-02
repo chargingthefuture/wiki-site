@@ -35,7 +35,7 @@ And further out: I believe visible patterns can help reduce suicides and mass sh
 
 ## The three rules
 
-Privacy is the whole design, and three rules cover it.
+Privacy is the design, and three rules cover it.
 
 One: your notes are not shown to anyone else here, and they are not in the trend report.
 
