@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "wouter";
-import { Radio, MessageSquare, Target, ArrowRight } from "lucide-react";
+import { Calculator, Phone, Target, ArrowRight } from "lucide-react";
 import { Layout } from "@/components/Layout";
 import { Pb2ShareMessage } from "@/components/Pb2ShareMessage";
 
@@ -28,11 +28,10 @@ const REACHED: number | null = null;
 
 const APP = "https://app.chargingthefuture.com";
 const LINKS = {
-  tiRadio: `${APP}/ti-radio`,
-  fireside: `${APP}/apps/fireside`,
   onePercent: `${APP}/apps/workforce?view=one-percent`,
   goals: `${APP}/apps/peer-programming?tab=goals`,
   workforce: `${APP}/apps/workforce`,
+  paidTier: "https://farahbrunache.com",
   game: "https://chargingthefuture.github.io/offline-os/apps/peace-battle-2/",
 };
 
@@ -271,80 +270,68 @@ export default function PeaceBattleTwo() {
 
         <h2 className="font-heading text-3xl uppercase font-bold text-primary mb-4">Enact</h2>
         <p className="font-sans text-lg text-gray-300 mb-6">
-          Three things. Not more, because more than three is how a protest turns into homework. Do one
-          of them and you are taking part.
+          Three steps, in the order they come. The first two are free and self-service, and they stay
+          that way. The third is paid, and only for somebody who wants to take it further.
         </p>
 
+        {/* Three steps and one subject: your 1%. Fireside and TI Radio used to sit here and both
+            still exist in the app. They came out because every extra ask on this page is one more
+            thing a reader has to decide about before doing any of them. */}
         <div className="space-y-6 mb-12">
           <Step
             n={1}
-            icon={<MessageSquare size={22} />}
-            title="Say something under a post"
-            href={LINKS.fireside}
-            cta="Open Fireside"
+            icon={<Calculator size={22} />}
+            title="See your 1%"
+            href={LINKS.onePercent}
+            cta="Open Workforce"
           >
             <p>
-              Read any post on this blog and leave a comment or a reaction under it. Reading the
-              conversation needs no account at all.
-            </p>
-            <p>
-              This is the one that answers Quora directly. Accounts of this project keep being
-              erased there, and every comment under them goes too — including other people's. A
-              comment here has an address and can be found again.
-            </p>
-            <p>
-              {/* No count on this page. It is a standing reference with no date on it, meant to run
-                  for years, and accounts keep being erased — so any number printed here is wrong
-                  within weeks and nobody notices. The counting lives on the record page, which is a
-                  living page built to be updated. A dated post can carry a number, because a
-                  snapshot records what was true on its day. */}
-              The dated record of those erasures, and how many, is on{" "}
-              <Link
-                href="/article/wiki-site/old-links-new-links"
-                className="text-primary font-bold hover:text-white"
-              >
-                old links, new links
-              </Link>
-              .
+              Workforce runs the arithmetic from 50,000 people back to you, weighted to your own
+              trade, and shows what serving them would be worth in a year. That figure is your 1%.
             </p>
           </Step>
 
           <Step
             n={2}
-            icon={<Radio size={22} />}
-            title="Take a slot on TI Radio"
-            href={LINKS.tiRadio}
-            cta="See the schedule"
-          >
-            <p>
-              A published week of live audio rooms. Take an open time, write a line about what it is
-              about, and turn up. It does not have to be about being targeted — it can be about
-              anything.
-            </p>
-            <p>
-              The aim is a schedule with somebody in it as often as possible. Listening needs no
-              account; speaking does. A slot is taken, not granted, so a name on the schedule is not
-              an endorsement.
-            </p>
-          </Step>
-
-          <Step
-            n={3}
             icon={<Target size={22} />}
-            title="Show up with your percent"
+            title="Start on it in PeerProgramming"
             href={LINKS.goals}
             cta="Open the goal board"
           >
             <p>
               Nobody here gets a full day. The attacks take most of it, and what is left over is
-              small. Put some of what you have left into one small task toward somebody else&rsquo;s
-              goal: find three numbers, make one call, look up one listing. Post your own goal too,
-              with a finish line, and let other people&rsquo;s leftover time add up for you.
+              small. Put what you have left into the goal board: post the task you need help with,
+              with a finish line, and pick up a small task from somebody else&rsquo;s goal. Find
+              three numbers, make one call, look up one listing. Other people&rsquo;s leftover time
+              adds up for you the same way.
             </p>
             <p>
-              The board is in PeerProgramming. It has no conversation on it: a goal, its tasks, and
-              what somebody found. It counts the tasks done across everybody in the last day. Taking
-              part needs an approved account.
+              The board is in PeerProgramming, alongside its chat and calls. Taking part needs an
+              approved account.
+            </p>
+          </Step>
+
+          <Step
+            n={3}
+            icon={<Phone size={22} />}
+            title="Take it further with One Percent"
+            href={LINKS.paidTier}
+            cta="Open One Percent"
+          >
+            <p>
+              One Percent is the paid tier: a call of up to half an hour, in your browser, about the
+              figure your trade produces and the first customer behind it. It costs $7 and needs no
+              account.
+            </p>
+            <p>
+              <Link
+                href="/article/wiki-site/start-with-socks"
+                className="text-primary font-bold hover:text-white"
+              >
+                Start with socks
+              </Link>{" "}
+              shows the range: the smallest version is a living, and the ambitious version is a
+              company. Aiming for the smallest and staying there is a complete answer.
             </p>
           </Step>
         </div>
