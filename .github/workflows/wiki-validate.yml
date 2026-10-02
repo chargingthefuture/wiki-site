@@ -51,6 +51,12 @@ jobs:
       - name: Check US spelling
         run: node scripts/check-us-spelling.mjs
 
+      # Checks the blog's own writing for the two banned words in CLAUDE.md's Excluded
+      # Vocabulary. content/archive/ and the frozen manifesto are skipped, and a verbatim quote
+      # of somebody else is wrapped in banned-words:disable / banned-words:enable.
+      - name: Check banned words
+        run: pnpm --filter @workspace/scripts run check-banned-words
+
       - name: Validate content front matter
         run: pnpm --filter @workspace/scripts run validate
 

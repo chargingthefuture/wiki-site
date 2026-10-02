@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 /**
- * Generates QUORA_PASTE_SHEET_FULL.txt — the whole text of each post, converted
+ * Generates QUORA_PASTE_SHEET_FULL.txt — the full text of each post, converted
  * to something that survives being pasted into Quora's editor.
  *
  * The other paste sheet holds one short summary per page. This one holds the
- * posts themselves, for when the whole thing should go up rather than a teaser.
+ * posts themselves, for when the full post should go up rather than a teaser.
  *
  * Scope: posts dated 2026-08-16 and later. That is the day Quora banned the
  * farah-brunache account and the day the blog became the source everything else
@@ -61,9 +61,9 @@ function main() {
   const header = [
     'QUORA PASTE SHEET — FULL POSTS',
     '',
-    'The whole text of each post, newest first, converted so it survives Quora\'s',
+    'The full text of each post, newest first, converted so it survives Quora\'s',
     'editor. The other sheet holds one short summary per page; this one holds the',
-    'posts themselves, for when the whole thing should go up rather than a teaser.',
+    'posts themselves, for when the full post should go up rather than a teaser.',
     '',
     'Starts at 2026-08-16 — the day Quora banned the farah-brunache account and the',
     'day this blog became the source that platforms copy from. Everything from that',

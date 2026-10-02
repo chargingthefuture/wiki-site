@@ -20,7 +20,7 @@ The writing I scattered across Quora — not the posts to my own spaces, which a
 
 As I write this, the page counts 632 entries, under 149 different questions, across 48 spaces, spanning 22 months — from October 2024 to today. The page computes those numbers live from the files it reads, so by the time you look they may have grown.
 
-That kind of writing never reads as a body of work while it is happening. Each piece sits alone under somebody else's question, and no one — including the writer — sees the whole. Put back in order, it is the whole: the better part of two years of showing up, answering, and building in public, day over day.
+That kind of writing never reads as a body of work while it is happening. Each piece sits alone under somebody else's question, and no one — including the writer — sees all of it together. Put back in order, it is all there: the better part of two years of showing up, answering, and building in public, day over day.
 
 ## Why the stats matter
 
@@ -32,7 +32,7 @@ Consistency is the one credential nobody can fake backwards. A new account can b
 
 ## How it fits
 
-The pipeline is the same one the whole blog runs on now. The text on The Record is the raw export from Quora's own records, restored file by file; as each entry is copy-edited it is replaced in place, and the page shows the edited wording the moment that happens. Everything is in the public repository with its history, so the restoration itself is on the record too.
+The pipeline is the same one the entire blog runs on now. The text on The Record is the raw export from Quora's own records, restored file by file; as each entry is copy-edited it is replaced in place, and the page shows the edited wording the moment that happens. Everything is in the public repository with its history, so the restoration itself is on the record too.
 
 Read it forwards, from the first entry. That is the way it happened.
 

@@ -50,7 +50,7 @@ People who know you because you did something for them. This is the strongest of
 
 And one structural thing, which is why this app is built the way it is: there is no score here. No credit score, no social score, no rating, nothing about who has complained about you feeding into what you are allowed to do. Slander is exactly what scoring systems eat — you get denied and nobody tells you which file said what. An economy that scored you would import the smear and call it risk management. [This one does not score](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/spend-before-you-earn), and that is a decision, not an oversight.
 
-Everything above is checkable without trusting me either. [How to check me](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-to-check-me) is the whole method.
+Everything above is checkable without trusting me either. [How to check me](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-to-check-me) is the full method.
 
 ## The second half
 

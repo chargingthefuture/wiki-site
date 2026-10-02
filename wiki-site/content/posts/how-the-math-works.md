@@ -25,7 +25,7 @@ That makes about 5 million. It is a guess, stated as a guess, and its job is to 
 
 I searched for countries with a population around 5 million that run service-based economies — where most of the work is services, and most of those services do not have to happen in person.
 
-Finland fits. So I cataloged every job and title a working economy that size needs — about 650 different things — and placed the whole list in the app.
+Finland fits. So I cataloged every job and title a working economy that size needs — about 650 different things — and placed the entire list in the app.
 
 Then, every day, I comb Quora for survivors who state their skills, and I map each one against that list. The app labels every profile I create as community-generated and names me as the one who made it. Anyone can claim theirs or have it removed. Nobody has asked to be removed.
 

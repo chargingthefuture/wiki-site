@@ -10,6 +10,7 @@
     "typecheck": "pnpm run typecheck:libs && pnpm -r --filter \"./artifacts/**\" --filter \"./scripts\" --if-present run typecheck",
     "wiki:validate": "pnpm --filter @workspace/scripts run validate",
     "wiki:spelling": "node scripts/check-us-spelling.mjs",
+    "wiki:banned-words": "pnpm --filter @workspace/scripts run check-banned-words",
     "wiki:sync": "pnpm --filter @workspace/scripts run sync-articles",
     "wiki:sync:dry": "pnpm --filter @workspace/scripts run sync-articles:dry",
     "fireside:sync": "pnpm --filter @workspace/scripts run sync-fireside-exports",

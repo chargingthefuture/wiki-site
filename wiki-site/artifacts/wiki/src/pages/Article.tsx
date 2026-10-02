@@ -116,7 +116,7 @@ export default function Article() {
                 </div>
               )}
 
-              <h1 className="font-display text-5xl sm:text-6xl md:text-7xl text-white uppercase leading-[1.1] mb-6" style={{WebkitTextStroke: '1px black', textShadow: '2px 2px 0 #000'}}>
+              <h1 className="font-display text-5xl sm:text-6xl md:text-7xl text-white uppercase leading-[1.1] mb-6" style={{WebkitTextStroke: '1px var(--color-black)', textShadow: '2px 2px 0 var(--color-black)'}}>
                 {meta ? meta.title : slug.replace(/-/g, ' ')}
               </h1>
               

@@ -44,13 +44,13 @@ Nominate people who teach, tutor, or look after children. Also nominate anyone e
 
 The credits an accepted nomination grants you are the same credits members exchange with each other for housing, rides, requests and services. So a parent who finds and nominates a teacher earns the thing they would then exchange with a teacher.
 
-That loop is the whole design, and it is worth being exact about where it currently stands: it does not close yet. The categories exist now, and nobody is in them. That is not a hole in the argument — it is the argument. The credits are worth what the map has on it, and the map is what a request like this is asking you to fill.
+That loop is the design, and it is worth being exact about where it currently stands: it does not close yet. The categories exist now, and nobody is in them. That is not a hole in the argument — it is the argument. The credits are worth what the map has on it, and the map is what a request like this is asking you to fill.
 
 For a targeted family, closing that loop is a serious thing. Teaching and care are two of the largest recurring costs a household carries, and they are among the first things to become impossible when somebody's income is being taken from them on purpose.
 
 ## Public assistance, and why there is none
 
-Where a Targeted Individual can get help is the question this whole app exists to answer, so it is not the narrow one worth asking here. The narrow one is public assistance, and it comes up constantly.
+Where a Targeted Individual can get help is the question this app exists to answer, so it is not the narrow one worth asking here. The narrow one is public assistance, and it comes up constantly.
 
 Public assistance means something particular. It is necessary goods and services — somewhere to live, food, care for a child, medicine — supplied free or at a reduced cost to people who cannot otherwise obtain them. Not advice, not a referral, not a number to call. The thing itself, for nothing or for less.
 

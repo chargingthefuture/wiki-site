@@ -91,7 +91,7 @@ Once, by hand:
    `/api` base, e.g. `https://counter.chargingthefuture.com/api`. Until it is
    set, the deployed blog sends nothing.
 
-The volume holds the whole dataset. To back it up, copy `counter.sqlite` off it.
+The volume holds the entire dataset. To back it up, copy `counter.sqlite` off it.
 
 ## Running it locally
 

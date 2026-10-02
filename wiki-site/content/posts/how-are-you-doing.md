@@ -65,7 +65,7 @@ His last campaign was economic. Wages, jobs, a union for sanitation workers in M
 
 My ask is not to be let in.
 
-I am not asking to be integrated into an arrangement run by people who have spent my whole life taking things from me. I do not want a seat at that table on fair terms. I want a different table, built by people who are not doing this, where what I can do is worth something to somebody who is also not doing this.
+I am not asking to be integrated into an arrangement run by people who have spent my entire life taking things from me. I do not want a seat at that table on fair terms. I want a different table, built by people who are not doing this, where what I can do is worth something to somebody who is also not doing this.
 
 Coexistence over conspiracy.
 
@@ -133,7 +133,7 @@ If you are running one of these spaces, you are going to have to work out two th
 
 For the Skills Economy my answer is one. One is too many.
 
-The way that is done is not by interrogating anybody or accusing anybody. It is that the whole thing is built around exchange. You ask for something real, and it either arrives or it does not. Their raw material is your suffering, not output, so requiring output filters them out early without anybody having to make an accusation they cannot prove.
+The way that is done is not by interrogating anybody or accusing anybody. It is that everything is built around exchange. You ask for something real, and it either arrives or it does not. Their raw material is your suffering, not output, so requiring output filters them out early without anybody having to make an accusation they cannot prove.
 
 ## Why I do this at all
 

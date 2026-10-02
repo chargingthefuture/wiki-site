@@ -19,7 +19,7 @@ https://app.chargingthefuture.com/survey/quora-account-deletions
 
 Two things about you: whether you consider yourself a Targeted Individual, and whether at least one of your accounts was removed. Then one card for each closed account.
 
-Each card asks for the handle, what happened to it, and when. The options for what happened are the things Quora does: the whole account deleted, banned or suspended, posts removed while the account stayed, a Space you ran removed, or blocked from posting. There is no option for closing an account yourself, so nothing in this data is somebody walking away.
+Each card asks for the handle, what happened to it, and when. The options for what happened are the things Quora does: the entire account deleted, banned or suspended, posts removed while the account stayed, a Space you ran removed, or blocked from posting. There is no option for closing an account yourself, so nothing in this data is somebody walking away.
 
 It asks what reason Quora gave, and "no reason was given" is one of the choices rather than a blank. That is the answer I expect most often, and it is worth recording as an answer in its own right. It asks whether you appealed and whether anything came back. It asks what the account mostly wrote about, and roughly how many posts and how long it ran, both optional.
 

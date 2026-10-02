@@ -15,7 +15,7 @@ In its place was an itinerary I never asked for. The single leg to New York had 
 
 The carrier's record says I called and requested it. I did not. The email address on the booking had been changed, so the new itinerary never reached me.
 
-## The whole trip, in order
+## The trip, in order
 
 Booked: Salt Lake City to Denver to St. Louis to New York Port Authority. About two and a half days door to door.
 
@@ -68,7 +68,7 @@ ClickLog is the incident logger in the app. Most of what it does exists because 
 
 One tap logs an incident. Standing at a bus door being refused boarding is not a moment for filling in a form. The tap records that it happened and when; the rest can wait until you are somewhere you can think.
 
-The note holds the whole story. Two thousand characters, which is enough for a trip like this one. Notes are private to the member. They are not shown to other members, and they are left out of the trend queries entirely rather than filtered out afterward.
+The note holds the full story. Two thousand characters, which is enough for a trip like this one. Notes are private to the member. They are not shown to other members, and they are left out of the trend queries entirely rather than filtered out afterward.
 
 An incident takes up to ten problem tags and ten scheme tags. That number is not arbitrary. This trip chained six schemes and two problems into one journey, and a logger that only lets you pick one would have forced me to decide which part of it counted.
 
