@@ -26,8 +26,15 @@ corrected where it had drifted; 70 were rewritten. Entries added after that date
 are written from the post at the time it is published. So the file is no longer
 unverified — but it is still a staging file, and the post remains the record.
 
-413 of 413 written.
+414 of 414 written.
 
+
+==============================================================================
+No. 414 · 2026-10-02 · Proving it, and taking your accounts back
+
+Jane Doe (https://www.quora.com/profile/Jane-Doe-11966) asked in a Quora space how to prove it, now that they know an ex started it, and how to unhack everything. Nobody had answered, so I did on the blog. Knowing who started it explains how you got here, but everybody who joins runs the same schemes, so the name alone does not end it. What proves it is a record kept on the day, with the date: one incident can be denied, a pattern is much harder to deny. ClickLog takes about fifteen seconds an incident and stays private. Accounts come back one at a time from a device you trust, email first, because every other account resets through it. Then a new password for each one, two-step sign-in, signing out devices you do not recognize, and checking the recovery phone and backup email. None of it is legal advice.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/proving-it-and-taking-your-accounts-back
 
 ==============================================================================
 No. 413 · 2026-10-02 · An invitation to Aaron
