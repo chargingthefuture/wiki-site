@@ -253,8 +253,9 @@ export default function PeaceBattleTwo() {
               >
                 Community Value Index
               </Link>
-              : a running count of the help survivors trade with each other, such as a repair, a ride
-              or a lesson. It is the figure set for an economy of five million survivors.
+              , in the spirit of GDP: a running count of the help survivors trade with each other,
+              such as a repair, a ride or a lesson. It is the figure set for an economy of five
+              million survivors.
             </p>
             <p className="font-sans text-gray-300 mb-4">
               This shows the way there, one round at a time. You start with the 147 people on the
