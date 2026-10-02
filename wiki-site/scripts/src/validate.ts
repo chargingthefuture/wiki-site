@@ -136,7 +136,7 @@ function main() {
       }
 
       // The teaser is the short standalone version of the post shown on the
-      // feed page and pasted to platforms. It should carry the post's whole
+      // feed page and pasted to platforms. It should carry the post's entire
       // point, not tease it — so it is longer than the excerpt.
       const teaser = meta.teaser?.toString() ?? '';
       if (teaser && (teaser.length < 120 || teaser.length > 700)) {

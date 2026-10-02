@@ -297,9 +297,9 @@ function importImage(name: string, dirs: string[]): string | null {
 
 /** Rewrites export image references to the blog's shared images directory. */
 function rewriteImages(html: string, dirs: string[]): string {
-  return html.replace(/src="images\/([^"]+)"/g, (whole, name: string) => {
+  return html.replace(/src="images\/([^"]+)"/g, (match, name: string) => {
     const target = importImage(name, dirs);
-    return target ? `src="images/${target}"` : whole;
+    return target ? `src="images/${target}"` : match;
   });
 }
 
@@ -363,7 +363,7 @@ function buildEntry(item: ExportItem, dirs: string[]): Entry | null {
 
   const f = item.fields;
   // Checked before the body is touched: an own-space post is not imported, and
-  // copying its images would drag the whole export's picture library into the
+  // copying its images would drag the entire export's picture library into the
   // repo for pages that never render.
   if (kind === 'space-post' && ownSpaces.has(f['Space name']?.text ?? '')) {
     drops.own_space++;
@@ -440,7 +440,7 @@ function buildEntry(item: ExportItem, dirs: string[]): Entry | null {
       // The export merges a question's title with its detail text, and Quora
       // mints the address from the title alone. A title ends at a question
       // mark, so the address stops at the last one; a question with none is
-      // taken whole.
+      // taken in full.
       const mark = contentText.lastIndexOf('?');
       parentUrl = quoraQuestionUrl(mark >= 0 ? contentText.slice(0, mark + 1) : contentText);
     }

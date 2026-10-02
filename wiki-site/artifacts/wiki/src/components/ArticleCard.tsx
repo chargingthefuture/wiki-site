@@ -52,7 +52,7 @@ export function ArticleCard({ article, index }: { article: ArticleMeta, index: n
             <span className="font-heading text-lg text-primary uppercase font-bold group-hover:underline decoration-4 underline-offset-4">
               Read Transmission
             </span>
-            <div className="w-10 h-10 bg-black border-2 border-white rounded-full flex items-center justify-center text-white group-hover:bg-primary group-hover:border-black group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:shadow-[4px_4px_0_0_#fff] transition-all">
+            <div className="w-10 h-10 bg-black border-2 border-white rounded-full flex items-center justify-center text-white group-hover:bg-primary group-hover:border-black group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:shadow-[4px_4px_0_0_var(--color-white)] transition-all">
               <ArrowRight size={20} strokeWidth={3} />
             </div>
           </div>

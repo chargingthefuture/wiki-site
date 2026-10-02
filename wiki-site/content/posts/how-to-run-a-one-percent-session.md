@@ -13,7 +13,7 @@ In the [last post](https://chargingthefuture.github.io/chargingthefuture/article
 
 There is an obvious problem with that offer. There is one of me.
 
-So here is the whole method, written down. Run it on yourself. Run it for somebody else. You do not need me in the room and you do not need anything from the app to do it — the app makes one step faster, and that is all.
+So here is the full method, written down. Run it on yourself. Run it for somebody else. You do not need me in the room and you do not need anything from the app to do it — the app makes one step faster, and that is all.
 
 ## What it is
 
@@ -31,7 +31,7 @@ If you are doing it alone, write your answers down as you go. This does not work
 
 Both before anything else, because both change what a person feels able to say.
 
-**Nothing about their standing changes.** Not because of what they say, not because they end it early, not because they say no to the whole thing. If you have any power over them at all — you run the group, you made the list, you know people — say this out loud rather than assuming it is understood.
+**Nothing about their standing changes.** Not because of what they say, not because they end it early, not because they say no to all of it. If you have any power over them at all — you run the group, you made the list, you know people — say this out loud rather than assuming it is understood.
 
 **Notes are not publication.** If you are writing anything down, say so, and say that writing it down is not permission to repeat it. That is a separate question, asked separately, later, and never in the same conversation as arranging help.
 
@@ -63,7 +63,7 @@ One percent of five million survivors is fifty thousand people. Multiply.
 
 Then say what the number is and what it is not. It is a target with their own rate underneath it. It is not a forecast, it is not income, and nobody is owed it.
 
-The comparison worth giving: the app's [Workforce](https://app.chargingthefuture.com/apps/workforce) screen splits a whole economy evenly and lands near $142,500 a person. No real outcome is an even split. Doing well comes out of three parts — talent, luck, and how much work goes in — and none of the three is evenly distributed. The average has all of it averaged away, which is why nobody lands on it.
+The comparison worth giving: the app's [Workforce](https://app.chargingthefuture.com/apps/workforce) screen splits an entire economy evenly and lands near $142,500 a person. No real outcome is an even split. Doing well comes out of three parts — talent, luck, and how much work goes in — and none of the three is evenly distributed. The average has all of it averaged away, which is why nobody lands on it.
 
 If they have an account, the What's your 1%? tab does this multiplication for them off their listing. If they do not, a calculator does the same job.
 

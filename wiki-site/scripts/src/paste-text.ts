@@ -7,6 +7,10 @@
 export function toPasteable(markdown: string): string {
   let body = markdown;
   body = body.replace(/^---\n[\s\S]*?\n---\n/, '');
+  // HTML comments are notes to whoever edits the file (the stated
+  // reason for skipping a check). The blog does not show them, so the sheets
+  // do not either.
+  body = body.replace(/<!--[\s\S]*?-->/g, '');
   // Images carry their alt text through. In credited posts that is the quoted
   // material, so silently dropping the image would drop somebody's words.
   body = body.replace(/!\[([^\]]*)\]\([^)]*\)/g, (_m, alt: string) =>
@@ -27,7 +31,7 @@ export function toPasteable(markdown: string): string {
   // The sheet is plain text, no styling at all (owner directive, 2026-08-25):
   // inline code marks go the way of the emphasis marks. The words stay.
   // Matches only single-backtick spans: the lookarounds keep it off the
-  // ``` fence sequences, which the fence handler below removes as whole lines.
+  // ``` fence sequences, which the fence handler below removes as complete lines.
   body = body.replace(/(?<!`)`([^`\n]+)`(?!`)/g, '$1');
   body = body.replace(/^>\s?/gm, '');
   body = body.replace(/\n{3,}/g, '\n\n');

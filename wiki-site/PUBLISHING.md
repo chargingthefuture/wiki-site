@@ -30,7 +30,7 @@ Run all `pnpm` commands from the `wiki-site/` directory.
 
    Two things the paste has to get right, because nothing catches them and the page still
    builds: leave a blank line between every paragraph, and start every section heading with
-   `##`. Without the blank lines the whole post renders as one unbroken paragraph; without the
+   `##`. Without the blank lines the entire post renders as one unbroken paragraph; without the
    `##` the section names render as ordinary body text.
 
 4. Commit directly to `main`. Done — CI regenerates the article registry, builds, deploys, and
@@ -96,7 +96,7 @@ Rules of the posture:
 - Treat every platform account as disposable. No content, history, or images live only there.
 - The catch-up surface is the feed page (`/feed`): every post's teaser, newest first, numbered.
   A platform account that gets erased costs only that account's reach — a new account's first
-  post can link the feed page and a new reader absorbs the whole catalog in minutes. Do not
+  post can link the feed page and a new reader absorbs the entire catalog in minutes. Do not
   replay the back catalog post-by-post from a fresh account.
 - The Record (`/record`) is the other half of that: the Quora writing, oldest first, filtered by
   account and by what each entry was — an answer, a comment left under someone else's answer, a

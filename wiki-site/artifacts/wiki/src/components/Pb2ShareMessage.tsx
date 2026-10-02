@@ -86,7 +86,7 @@ function readerSeed(): string {
   }
 }
 
-/** Whole days since the epoch in the reader's own timezone, so the post turns over at midnight. */
+/** Complete days since the epoch in the reader's own timezone, so the post turns over at midnight. */
 function dayNumber(): number {
   const now = new Date();
   return Math.floor(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()) / 86400000);

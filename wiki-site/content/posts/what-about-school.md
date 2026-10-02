@@ -11,7 +11,7 @@ topics:
 
 The posts about a survivor community covered whether it is [possible and who could plan it](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/a-gated-community-and-who-could-plan-it), that it [has a threat model like every community does](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/every-community-has-a-threat-model), and [how few people it takes](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-few-people-it-takes).
 
-None of them mentioned school. Children come with the families, and I wrote [a whole post to parents](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/your-children-can-have-an-option) about what a career could look like for a targeted child without once addressing how that child gets educated between now and then. The [two-generation goal](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-two-generation-goal) is measured in exactly the span where somebody's children grow up.
+None of them mentioned school. Children come with the families, and I wrote [an entire post to parents](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/your-children-can-have-an-option) about what a career could look like for a targeted child without once addressing how that child gets educated between now and then. The [two-generation goal](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-two-generation-goal) is measured in exactly the span where somebody's children grow up.
 
 So this post asks rather than answers.
 
@@ -53,7 +53,7 @@ I am not the person to assume from my own life. My targeting started at five and
 
 School is where a child is away from the parent all day, in a place the parent does not control, among adults the parent did not choose. For a family that is being followed, that is a real exposure, and I understand why a parent would look at homeschooling.
 
-Homeschooling costs the one thing the targeting takes first. It needs an adult present through the day, and the operation's whole method is to remove your income and your hours until neither exists. A parent already working three unstable arrangements to keep a roof does not have a school day to give. Telling that parent to homeschool is telling them to solve the problem by having more of the resource they are being drained of.
+Homeschooling costs the one thing the targeting takes first. It needs an adult present through the day, and the operation's method is to remove your income and your hours until neither exists. A parent already working three unstable arrangements to keep a roof does not have a school day to give. Telling that parent to homeschool is telling them to solve the problem by having more of the resource they are being drained of.
 
 Both of those are true at once, and I do not think the answer is the same for every family.
 
@@ -67,7 +67,7 @@ Nothing here was built for schooling, but three things are adjacent enough to be
 
 [PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming) puts people into small weekly groups with a room they can talk in. That is structurally a class of about twelve.
 
-[Skills Taxonomy](https://app.chargingthefuture.com/apps/skills-taxonomy) is the catalog of sectors, job titles, and skills the whole app matches against. A parent who can teach mathematics is already describable in it.
+[Skills Taxonomy](https://app.chargingthefuture.com/apps/skills-taxonomy) is the catalog of sectors, job titles, and skills the app matches against. A parent who can teach mathematics is already describable in it.
 
 ## What could be built, on each side of the split
 
