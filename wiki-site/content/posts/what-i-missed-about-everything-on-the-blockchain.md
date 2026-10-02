@@ -9,7 +9,7 @@ topics:
   - architecture
 ---
 
-Anybody who spent time around crypto before about 2022 has met the person who wants everything on a blockchain. Not just money — the whole application. Put the rental marketplace on chain. Put the ride sharing on chain. Put all of it on chain.
+Anybody who spent time around crypto before about 2022 has met the person who wants everything on a blockchain. Not just money — the entire application. Put the rental marketplace on chain. Put the ride sharing on chain. Put all of it on chain.
 
 My position then was that this was tunnel vision. Crypto is useful for the financial part of a transaction. It is not necessary to run the software around the transaction, and bolting a chain onto a booking system makes the booking system worse. Somebody would say "put a rental marketplace on the blockchain" and I would think: you do not need that, you need a payment you can make without asking permission.
 

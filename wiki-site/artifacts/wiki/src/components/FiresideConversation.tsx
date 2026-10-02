@@ -8,7 +8,7 @@ import { exportedCommentsFor, type ExportedComment } from "@/lib/fireside-export
 // What renders first is what shipped inside this build: the comments whose authors asked for them
 // to be published here and whose admin agreed, copied in by `pnpm fireside:sync`. That is what a
 // web archive captures, and it is what a reader with no JavaScript, a blocked app domain, or a slow
-// connection sees. The live read below then replaces it with the whole conversation, which is
+// connection sees. The live read below then replaces it with the full conversation, which is
 // wider — every publicly visible comment, not only the ones cleared for publication.
 //
 // Writing happens in the app. The app's write routes are same-origin and keep their CSRF and origin

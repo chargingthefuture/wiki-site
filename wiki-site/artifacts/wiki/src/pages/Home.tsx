@@ -120,7 +120,7 @@ export default function Home() {
               <span>Survivor Network</span>
             </div>
             
-            <h1 className="font-display text-6xl sm:text-7xl lg:text-8xl text-white uppercase leading-[0.9] mb-6 drop-shadow-[0_10px_20px_rgba(0,0,0,0.8)]" style={{WebkitTextStroke: '2px black', textShadow: '4px 4px 0 #000'}}>
+            <h1 className="font-display text-6xl sm:text-7xl lg:text-8xl text-white uppercase leading-[0.9] mb-6 drop-shadow-[0_10px_20px_rgba(0,0,0,0.8)]" style={{WebkitTextStroke: '2px var(--color-black)', textShadow: '4px 4px 0 var(--color-black)'}}>
               Exit Their Economy. <br/>
               <span className="text-primary drop-shadow-[0_0_15px_rgba(204,34,0,0.8)]">Exit The Psyop.</span>
             </h1>

@@ -12,11 +12,13 @@ topics:
 
 A question on Quora, asked by Jane Doe (https://www.quora.com/profile/Jane-Doe-11966):
 
+<!-- banned-words:disable: Jane Doe's question is quoted exactly as asked, in the text and in the screenshot description. -->
 > This whole gang stalking thing has come on now. It has to end as I know who started it and sadly, it's a low life ex. How do you prove it and unhack everything? Talk about an invasion of privacy.
 
 The question sits in a Quora space, Gangstalked: What made me a Target?, at https://gangstalkedwhatmademeatarget.quora.com/This-whole-gang-stalking-thing-has-come-on-now-It-has-to-end-as-I-know-who-started-it-and-sadly-it-s-a-low-life-ex-Ho. Nobody had answered it when I looked. Its page carries 8 public followers and 1.1 thousand views. The [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary) carries the vocabulary I use for the people doing this; the question keeps the words it was asked in.
 
 ![The question on its Quora page, captured October 1, 2026. The heading reads: This whole gang stalking thing has come on now. It has to end as I know who started it and sadly, it's a low life ex. How do you prove it and unhack everything? Talk about an invasion of privacy. Below it, under Asked by, the name Jane Doe. Under Question stats: 8 public followers, 1.1K views, last followed Jun 1.](images/jane-doe-question-2026-10-01.jpg)
+<!-- banned-words:enable -->
 
 It is an invasion of privacy, and you are right to call it that.
 

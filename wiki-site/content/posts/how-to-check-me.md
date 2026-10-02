@@ -67,7 +67,7 @@ Quora has erased seven of my accounts. Everything on them went with them, which 
 
 What I do with those posts is restore them into this blog's archive, each one marked with the account it came from, the date it was originally posted, and a link to the original question where one still exists. Those archive entries are frozen at export, which is why an archived post keeps its original spelling and its original title even when they are wrong.
 
-That is a provenance claim, and it is the weakest link in this whole list — you are trusting that the export matches what was posted. Where a question still exists on Quora you can check the entry against it. Where the account is gone, you can check the Wayback Machine for the original address. Where neither exists, you have my word and a file with a date on it, and you should weigh it accordingly.
+That is a provenance claim, and it is the weakest link in this list — you are trusting that the export matches what was posted. Where a question still exists on Quora you can check the entry against it. Where the account is gone, you can check the Wayback Machine for the original address. Where neither exists, you have my word and a file with a date on it, and you should weigh it accordingly.
 
 ## The posts are drafted with an AI assistant
 

@@ -9,7 +9,7 @@ import { estimateReadTime } from "@/lib/utils";
  *
  * A view is a page that was opened and stayed on screen. A read is an article
  * whose end was reached by someone who stayed long enough to have read it.
- * Keeping them apart is the point of the whole exercise: opened and read are
+ * Opened and read are kept apart on purpose: they are
  * different facts, and a single number that blurs them says less than either.
  *
  * Both are decided here, on the reader's device, from things the page already
