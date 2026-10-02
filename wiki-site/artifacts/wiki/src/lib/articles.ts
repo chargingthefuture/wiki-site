@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-no-name-individual",
+    "title": "An invitation to No Name Individual",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-02",
+    "excerpt": "You asked on Quora what jobs a Targeted Individual can get. Part of the answer is a list you are already on.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-no-name-individual.md",
+    "teaser": "It is an invitation to join the Skills Economy, and the listing is already there. No Name Individual asked on Quora what jobs a Targeted Individual can get, and I answered on the blog: truck driving and paid healthy-volunteer studies, and past those, the Skills Economy. Being findable for what you do is part of that, and that is what the Directory is for. No Name Individual is on it already, with a placeholder where their skills will go. The listing costs nothing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 423
+  },
+  {
     "slug": "a-place-to-stay-when-you-are-living-in-your-car",
     "title": "A place to stay when you are living in your car",
     "repo": "chargingthefuture/wiki-site",
@@ -242,21 +259,20 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 413
   },
   {
-    "slug": "an-invitation-to-no-name-individual",
-    "title": "An invitation to No Name Individual",
+    "slug": "sending-a-child-is-abuse",
+    "title": "Sending a child is abuse",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-10-02",
-    "excerpt": "You asked on Quora what jobs a Targeted Individual can get. Part of the answer is a list you are already on.",
+    "excerpt": "Somebody asked on Quora whether the people doing this know they are putting their children in harm's way. They know. Sending a child to do it is abuse of the child, before any other risk.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/an-invitation-to-no-name-individual.md",
-    "teaser": "It is an invitation to join the Skills Economy, and the listing is already there. No Name Individual asked on Quora what jobs a Targeted Individual can get, and I answered on the blog: truck driving and paid healthy-volunteer studies, and past those, the Skills Economy. Being findable for what you do is part of that, and that is what the Directory is for. No Name Individual is on it already, with a placeholder where their skills will go. The listing costs nothing, and no is a complete answer.",
+    "path": "posts/sending-a-child-is-abuse.md",
+    "teaser": "Somebody asked on Quora whether the people doing this know they are putting their children in harm's way. They know. Commanding a dog to attack a person who poses no threat is abuse of the dog. Sending a child to do the same is abuse of the child. In my view it comes close to prostituting them: being told how to dress, what scene to act out, who to sleep with. That harm comes first. The chance that the person the child is sent after strikes back is real, and it is the lesser of the two.",
     "topics": [
-      "community",
-      "directory",
-      "workforce"
+      "specterati",
+      "community"
     ],
-    "number": 423
+    "number": 424
   },
   {
     "slug": "an-invitation-to-sherri",

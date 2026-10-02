@@ -119,7 +119,7 @@ Ordered by the date the draft was opened. The account is the one it sat under.
 - [ ] 41. `2025-09-26` · pedigree101 — Where can I get help as a targeted individual?
 - [ ] 42. `2025-10-31` · farah-brunache — Who pays the gang stalkers to stalk and harass you and why don't the police want to help?
 - [–] 43. `2025-11-01` · farah-brunache — Do Targeted Individuals get harassed more around Halloween? About half the TI's ive read believe there's a spiritual element to gangstalking. I've especially noticed more stalking on election years this time of year. (skipped — owner decision, 2026-10-01: nothing in it for a post to answer. Not a post.)
-- [ ] 44. `2025-11-01` · farah-brunache — Do gangstalkers know that they're putting their children in harms way when harassing targeted individuals?
+- [x] 44. `2025-11-01` · farah-brunache — Do gangstalkers know that they're putting their children in harms way when harassing targeted individuals? (asker to be credited from the question page; answered in sending-a-child-is-abuse.md)
 - [ ] 45. `2025-11-01` · farah-brunache — Do perps drive white sedans and white construction Vehicles that follow targeted individuals?
 - [ ] 46. `2025-11-01` · farah-brunache — Do perps use the same make models and colors of the vehicles that targets drive to harass their targets?
 - [ ] 47. `2025-11-01` · farah-brunache — Does gang stalking go after your kids?
