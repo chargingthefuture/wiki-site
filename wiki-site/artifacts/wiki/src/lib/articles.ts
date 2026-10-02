@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "why-nobody-does-anything",
+    "title": "Why nobody does anything",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-02",
+    "excerpt": "Somebody asked on Quora why nobody does anything when so many people know. For the people doing it, it is a livelihood, and it exists for the reason organized crime always has.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/why-nobody-does-anything.md",
+    "teaser": "Somebody asked on Quora why nobody does anything about it when so many people know, after it has destroyed them and left them at their breaking point. For the people doing it, it is a livelihood. The transatlantic slave trade was free labor and control, and the entire world economy benefited from it. Asking why nobody stops this is like asking why organized crime exists: for the reason it always has. It is not happening to most people, and that is all that matters to them. It is unfair. But Du Bois and his cohort, and Estonia, chose a different path, and it worked.",
+    "topics": [
+      "specterati",
+      "community",
+      "directory"
+    ],
+    "number": 416
+  },
+  {
     "slug": "an-invitation-to-jane",
     "title": "An invitation to Jane",
     "repo": "chargingthefuture/wiki-site",
@@ -121,6 +138,23 @@ export const ARTICLES: ArticleMeta[] = [
       "workforce"
     ],
     "number": 413
+  },
+  {
+    "slug": "an-invitation-to-julie",
+    "title": "An invitation to Julie",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-02",
+    "excerpt": "A community that lasts a generation needs somebody who knows how children learn. On this list, education is nearly empty.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-julie.md",
+    "teaser": "It is an invitation to join the Skills Economy. Julie, in Tennessee, has a Directory listing that carries child development and classroom management: knowing how children grow and learn, and how to keep a room of them learning together. Across the list, 4 of the 39 education skills the app tracks are held by anybody. Targeted Individuals raising children who are targeted too have been asking what school can look like. Somebody who knows how a classroom runs is where that answer starts.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 417
   },
   {
     "slug": "an-invitation-to-sherri",
