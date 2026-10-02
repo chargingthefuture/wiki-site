@@ -314,15 +314,30 @@ export default function PeaceBattleTwo() {
             cta="Open the goal board"
           >
             <p>
-              Nobody here gets a full day. The attacks take most of it, and what is left over is
-              small. Put what you have left into the goal board: post the task you need help with,
-              with a finish line, and pick up a small task from somebody else&rsquo;s goal. Find
-              three numbers, make one call, look up one listing. Other people&rsquo;s leftover time
-              adds up for you the same way.
+              Most of a day here goes to the attacks and to what they force, and what is left might
+              be five percent. Five percent is not enough to reach a goal alone, because a goal is a
+              chain of small steps and the attacks land on the chain. It is enough when it is not all
+              one person&rsquo;s: twenty members with five percent of a day each is a working day.
+            </p>
+            <p>
+              That is what the goal board runs on. Post one goal with a finish line and break it into
+              cards small enough to do from a phone in under half an hour: find three yards hiring
+              near Dallas, ask one dealer whether they finance with no credit check. Then take any
+              one card from anybody else&rsquo;s goal, do it, and post what you found. When the
+              goal&rsquo;s owner marks it &ldquo;It helped&rdquo;, it counts toward the day&rsquo;s
+              384. A bad day costs nothing: take a card when you have the half hour, and not when
+              you do not.
             </p>
             <p>
               The board is in PeerProgramming, alongside its chat and calls. Taking part needs an
-              approved account.
+              approved account.{" "}
+              <Link
+                href="/article/wiki-site/show-up-with-your-percent"
+                className="text-primary font-bold hover:text-white"
+              >
+                Show up with your percent
+              </Link>{" "}
+              says how it works and why it is shaped this way.
             </p>
             <img
               src={`${import.meta.env.BASE_URL}images/pb2-goal-board.png`}
