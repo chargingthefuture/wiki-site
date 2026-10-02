@@ -55,6 +55,23 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 411
   },
   {
+    "slug": "where-to-go-for-help",
+    "title": "Where to go for help",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-02",
+    "excerpt": "Somebody asked on Quora where to go for help after nearly ten years of this. The help that changes a week comes from people. Here is where to find them.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/where-to-go-for-help.md",
+    "teaser": "Somebody asked on Quora where to go for help. Nearly ten years in, angry rather than scared, and the damage, the stress and the heartache are wearing them down. Anger at what is being done is a sane response to it. The help that changes a week comes from people: other Targeted Individuals who believe you without an argument first, people who can do the things a week runs on, and a dated record that stays yours. This is where to find each of them.",
+    "topics": [
+      "community",
+      "directory",
+      "clicklog"
+    ],
+    "number": 412
+  },
+  {
     "slug": "an-invitation-to-sherri",
     "title": "An invitation to Sherri",
     "repo": "chargingthefuture/wiki-site",
