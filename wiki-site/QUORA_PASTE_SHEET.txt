@@ -26,8 +26,15 @@ corrected where it had drifted; 70 were rewritten. Entries added after that date
 are written from the post at the time it is published. So the file is no longer
 unverified — but it is still a staging file, and the post remains the record.
 
-419 of 419 written.
+420 of 420 written.
 
+
+==============================================================================
+No. 420 · 2026-10-02 · How the Skills Economy finds real members
+
+Quora's own bot, Quora Prompt Generator, asked how my group verifies that new members are who they say they are. A bot wrote it, but it is about my group, so I answered on the blog. When the project launched in 2025 as the TI Skills Economy, I checked people by hand, one conversation with every person who arrived. That could never scale, it ran on my own bias, and it was traumatizing, because most of the first arrivals were people doing the harassing, there to troll. The Skills Economy replaced it with Trust, which shows in plain lines what each member has actually done for others, with no score and nobody's opinion attached, mine included. Instead of watching them, we watch ourselves and what we build, and real Targeted Individuals surface on their own. Each person decides how and when they take part.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-the-skills-economy-finds-real-members
 
 ==============================================================================
 No. 419 · 2026-10-02 · An invitation to Holly

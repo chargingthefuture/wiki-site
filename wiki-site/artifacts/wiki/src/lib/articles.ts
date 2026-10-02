@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-holly",
+    "title": "An invitation to Holly",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-02",
+    "excerpt": "In 1991 Estonia had no money and people who knew how to do things. Knowing where little money goes is one of those things, and Holly is listed for it.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-holly.md",
+    "teaser": "It is an invitation to join the Skills Economy. The objection is that a small number of people with no money cannot build anything. Estonia in 1991 had no money, infrastructure that did not work, and 1.3 million people who already knew how to do things. Holly, in Atlanta, has a Directory listing that carries financial planning and budgeting, and financial modeling and cash flow management: knowing where money goes, and when, before it runs out. Across the list, 6 of the 34 finance and public administration skills the app tracks are held by anybody.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 419
+  },
+  {
     "slug": "what-jobs-a-targeted-individual-can-get",
     "title": "What jobs a Targeted Individual can get",
     "repo": "chargingthefuture/wiki-site",
@@ -174,21 +191,21 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 413
   },
   {
-    "slug": "an-invitation-to-holly",
-    "title": "An invitation to Holly",
+    "slug": "how-the-skills-economy-finds-real-members",
+    "title": "How the Skills Economy finds real members",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-10-02",
-    "excerpt": "In 1991 Estonia had no money and people who knew how to do things. Knowing where little money goes is one of those things, and Holly is listed for it.",
+    "excerpt": "A Quora bot asked how my group verifies new members. It used to be by hand, one conversation at a time. Now Trust shows what people actually do, and real members surface.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/an-invitation-to-holly.md",
-    "teaser": "It is an invitation to join the Skills Economy. The objection is that a small number of people with no money cannot build anything. Estonia in 1991 had no money, infrastructure that did not work, and 1.3 million people who already knew how to do things. Holly, in Atlanta, has a Directory listing that carries financial planning and budgeting, and financial modeling and cash flow management: knowing where money goes, and when, before it runs out. Across the list, 6 of the 34 finance and public administration skills the app tracks are held by anybody.",
+    "path": "posts/how-the-skills-economy-finds-real-members.md",
+    "teaser": "Quora's own bot asked me how my group verifies that new members are real. When it launched in 2025 as the TI Skills Economy, I verified people by hand: a conversation with every person who came through the door. That did not scale, it carried my bias, and it was traumatizing, because most of the first people through were there to troll. The Skills Economy replaced it with Trust, which shows what each member has actually done. We focus on the positive and on ourselves rather than on them, and real Targeted Individuals surface.",
     "topics": [
-      "community",
-      "directory",
-      "workforce"
+      "trust",
+      "unlock",
+      "community"
     ],
-    "number": 419
+    "number": 420
   },
   {
     "slug": "an-invitation-to-sherri",
