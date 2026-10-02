@@ -244,11 +244,11 @@ export default function PeaceBattleTwo() {
           <div className="bg-card border-4 border-black comic-shadow-sm p-6">
             <h3 className="font-heading text-xl uppercase font-bold mb-2">What reaching 300 billion looks like</h3>
             {/* For somebody who lands here first, with no other page behind them. 300 billion is the
-                Community Value Index goal in the app's GDP plugin. The Dictionary carries the definition. */}
+                Community Value Index goal in the app's GDP plugin. The post it links carries the definition. */}
             <p className="font-sans text-gray-300 mb-4">
               300 billion is the goal for the{" "}
               <Link
-                href="/article/wiki-site/Dictionary"
+                href="/article/wiki-site/what-the-community-value-index-counts"
                 className="text-primary font-bold hover:text-white"
               >
                 Community Value Index
