@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "wouter";
-import { Calculator, Phone, Target, ArrowRight } from "lucide-react";
+import { Phone, Target, ArrowRight } from "lucide-react";
 import { Layout } from "@/components/Layout";
 import { Pb2ShareMessage } from "@/components/Pb2ShareMessage";
 
@@ -272,9 +272,10 @@ export default function PeaceBattleTwo() {
             <h3 className="font-heading text-xl uppercase font-bold mb-2">What's your 1%?</h3>
             <p className="font-sans text-gray-300 mb-4">
               The 300 billion is made of single people doing their own work, and you are one of them.
-              Serve one percent of those five million survivors and that is 50,000 people. This works
-              back from those 50,000 to you, starting from your own trade, and shows what a year of
-              serving them would add to the Community Value Index.
+              Serve one percent of those five million survivors and that is 50,000 people. Workforce
+              runs the arithmetic from those 50,000 back to you, weighted to your own trade, and shows
+              what a year of serving them would add to the Community Value Index. That figure is your
+              1%.
             </p>
             <a href={LINKS.onePercent} className="font-heading font-bold uppercase text-primary hover:text-white inline-flex items-center gap-2">
               Open your figures <ArrowRight size={16} />
@@ -285,29 +286,16 @@ export default function PeaceBattleTwo() {
 
         <h2 className="font-heading text-3xl uppercase font-bold text-primary mb-4">Enact</h2>
         <p className="font-sans text-lg text-gray-300 mb-6">
-          Three steps, in the order they come. The first two are free and self-service, and they stay
-          that way. The third is paid, and only for somebody who wants to take it further.
+          Two steps, in the order they come. The first is free and self-service, and it stays that
+          way. The second is paid, and only for somebody who wants to take it further.
         </p>
 
-        {/* Three steps and one subject: your 1%. Fireside and TI Radio used to sit here and both
+        {/* Two steps and one subject: your 1%, which Envision introduces. Fireside and TI Radio used to sit here and both
             still exist in the app. They came out because every extra ask on this page is one more
             thing a reader has to decide about before doing any of them. */}
         <div className="space-y-6 mb-12">
           <Step
             n={1}
-            icon={<Calculator size={22} />}
-            title="See your 1%"
-            href={LINKS.onePercent}
-            cta="Open Workforce"
-          >
-            <p>
-              Workforce runs the arithmetic from 50,000 people back to you, weighted to your own
-              trade, and shows what serving them would be worth in a year. That figure is your 1%.
-            </p>
-          </Step>
-
-          <Step
-            n={2}
             icon={<Target size={22} />}
             title="Start on it in PeerProgramming"
             href={LINKS.goals}
@@ -333,7 +321,7 @@ export default function PeaceBattleTwo() {
           </Step>
 
           <Step
-            n={3}
+            n={2}
             icon={<Phone size={22} />}
             title="Take it further with One Percent"
             href={LINKS.paidTier}
@@ -357,7 +345,7 @@ export default function PeaceBattleTwo() {
           </Step>
         </div>
 
-        {/* Not a fourth thing to do. Posting about the app is where people stop, and the reason is
+        {/* Not a third thing to do. Posting about the app is where people stop, and the reason is
             that they do not want to write one. So the words are already written, and
             they are about the app rather than about the argument — somebody who supports this and
             disagrees with the organizer on something else can still post these without speaking for
