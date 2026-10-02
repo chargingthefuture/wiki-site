@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "where-to-go-for-help",
+    "title": "Where to go for help",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-02",
+    "excerpt": "Somebody asked on Quora where to go for help after nearly ten years of this. The help that changes a week comes from people. Here is where to find them.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/where-to-go-for-help.md",
+    "teaser": "Somebody asked on Quora where to go for help. Nearly ten years in, angry rather than scared, and the damage, the stress and the heartache are wearing them down. Anger at what is being done is a sane response to it. The help that changes a week comes from people: other Targeted Individuals who believe you without an argument first, people who can do the things a week runs on, and a dated record that stays yours. This is where to find each of them.",
+    "topics": [
+      "community",
+      "directory",
+      "clicklog"
+    ],
+    "number": 412
+  },
+  {
     "slug": "what-the-community-value-index-counts",
     "title": "What the Community Value Index counts",
     "repo": "chargingthefuture/wiki-site",
@@ -55,21 +72,21 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 411
   },
   {
-    "slug": "where-to-go-for-help",
-    "title": "Where to go for help",
+    "slug": "an-invitation-to-aaron",
+    "title": "An invitation to Aaron",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-10-02",
-    "excerpt": "Somebody asked on Quora where to go for help after nearly ten years of this. The help that changes a week comes from people. Here is where to find them.",
+    "excerpt": "You asked on Quora where to go for help. Part of the answer is a list you are already on.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/where-to-go-for-help.md",
-    "teaser": "Somebody asked on Quora where to go for help. Nearly ten years in, angry rather than scared, and the damage, the stress and the heartache are wearing them down. Anger at what is being done is a sane response to it. The help that changes a week comes from people: other Targeted Individuals who believe you without an argument first, people who can do the things a week runs on, and a dated record that stays yours. This is where to find each of them.",
+    "path": "posts/an-invitation-to-aaron.md",
+    "teaser": "It is an invitation to join the Skills Economy, and the listing is already there. Aaron Wheeler asked on Quora where to go for help after nearly ten years of this, and I answered on the blog. Part of that answer is the Directory: a list of people and what they can do, which is how material help finds the person who needs it. Aaron is on it already, with a placeholder where their skills will go. The listing costs nothing, and no is a complete answer.",
     "topics": [
       "community",
       "directory",
-      "clicklog"
+      "workforce"
     ],
-    "number": 412
+    "number": 413
   },
   {
     "slug": "an-invitation-to-sherri",

@@ -139,6 +139,7 @@ needed to write the next posts, because the copied list itself is never committe
 | Brecht Corbeel | Brecht-Corbeel | Brand management; branding and identity systems; visual design and interaction patterns; visual concept development; illustration and concept art; Antwerp | skill-specific | You do not have to agree with me | published |
 | Matthew A Davis | Matthew-A-Davis-1 | Advocacy; Emergency Support Function (ESF) coordination; Zephyrhills, Florida | skill-specific | A working economy needs people who | published |
 | Sherri Jenkins | Sherri-Jenkins-12 | Security procedures; Oklahoma City | skill-specific | Two things have to be true | published |
+| Aaron Wheeler | Wheeler-Aaron | Advocacy (placeholder); United States | advocacy-only | You already have a profile | in PR — owner decision, 2026-10-01, after answering their question in where-to-go-for-help.md |
 
 Status is one of: `queued`, `drafted`, `in PR`, `published`, `skipped`. A skipped row keeps its
 reason in the notes column so nobody re-queues it a month later.
