@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-julie",
+    "title": "An invitation to Julie",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-02",
+    "excerpt": "A community that lasts a generation needs somebody who knows how children learn. On this list, education is nearly empty.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-julie.md",
+    "teaser": "It is an invitation to join the Skills Economy. Julie, in Tennessee, has a Directory listing that carries child development and classroom management: knowing how children grow and learn, and how to keep a room of them learning together. Across the list, 4 of the 39 education skills the app tracks are held by anybody. Targeted Individuals raising children who are targeted too have been asking what school can look like. Somebody who knows how a classroom runs is where that answer starts.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 417
+  },
+  {
     "slug": "why-nobody-does-anything",
     "title": "Why nobody does anything",
     "repo": "chargingthefuture/wiki-site",
@@ -140,21 +157,21 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 413
   },
   {
-    "slug": "an-invitation-to-julie",
-    "title": "An invitation to Julie",
+    "slug": "what-jobs-a-targeted-individual-can-get",
+    "title": "What jobs a Targeted Individual can get",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-10-02",
-    "excerpt": "A community that lasts a generation needs somebody who knows how children learn. On this list, education is nearly empty.",
+    "excerpt": "Somebody asked on Quora what jobs a Targeted Individual can get. The two I know of are truck driving and paid healthy-volunteer studies. Past those, the answer is the Skills Economy.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/an-invitation-to-julie.md",
-    "teaser": "It is an invitation to join the Skills Economy. Julie, in Tennessee, has a Directory listing that carries child development and classroom management: knowing how children grow and learn, and how to keep a room of them learning together. Across the list, 4 of the 39 education skills the app tracks are held by anybody. Targeted Individuals raising children who are targeted too have been asking what school can look like. Somebody who knows how a classroom runs is where that answer starts.",
+    "path": "posts/what-jobs-a-targeted-individual-can-get.md",
+    "teaser": "Somebody asked on Quora what jobs a Targeted Individual can get. The only two I know of are truck driving and healthy-volunteer studies, the paid phase 1 trials where a drug company tests an upcoming medicine. Both are high-turnover fields, and high turnover means more openings. Past those two, the answer is to join the Skills Economy: of the 713 skills a working economy needs, 483 had nobody in this community on October 2.",
     "topics": [
       "community",
-      "directory",
-      "workforce"
+      "workforce",
+      "directory"
     ],
-    "number": 417
+    "number": 418
   },
   {
     "slug": "an-invitation-to-sherri",
