@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "approved-three-things-to-do-next",
+    "title": "Approved? Three things to do next",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-02",
+    "excerpt": "Once you are approved: find who is already here on the Directory, put what is left of your day into one card on the goal board, and ask the Commons or @comic for anything else.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/approved-three-things-to-do-next.md",
+    "teaser": "This follows New here? Three things to do first, which covers Unlock, writing while you wait, and listing your skills. Once you are approved, three more. Look through the Directory for who is already here and what they can do, and keep your own listing current. Put what is left of your day into one small card on somebody else's goal on the PeerProgramming board, and post a goal of your own. For anything that is not on the board, ask in the Commons, or ask @comic, the assistant in that chat.",
+    "topics": [
+      "community",
+      "directory",
+      "peer-programming"
+    ],
+    "number": 425
+  },
+  {
     "slug": "sending-a-child-is-abuse",
     "title": "Sending a child is abuse",
     "repo": "chargingthefuture/wiki-site",
