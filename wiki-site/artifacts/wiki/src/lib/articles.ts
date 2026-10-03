@@ -60,11 +60,11 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Sending a child is abuse",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-10-03",
-    "excerpt": "Somebody asked on Quora whether the people doing this know they are putting their children in harm's way. They know. Sending a child to do it is abuse of the child, before any other risk.",
+    "excerpt": "Somebody asked on Quora whether the people doing this know they are putting their children in harm's way. They know. The harm to the child is done by the adult who sends them, before anybody else is involved.",
     "category": "Community",
     "collection": "posts",
     "path": "posts/sending-a-child-is-abuse.md",
-    "teaser": "EB asked on Quora whether the people doing this know they are putting their children in harm's way. They know. Commanding a dog to attack a person who poses no threat is abuse of the dog. Sending a child to do the same is abuse of the child. In my view it comes close to prostituting them: being told how to dress, what scene to act out, who to sleep with. That harm comes first. The chance that the person the child is sent after strikes back is real, and it is the lesser of the two.",
+    "teaser": "EB asked on Quora whether the people doing this know they are putting their children in harm's way. They know. Commanding a dog to attack a person who poses no threat is abuse of the dog, and nobody argues otherwise. Sending a child to do the same is abuse of the child. The children brought into this are told how to dress, what scene to play out, and who to get close to, and an adult who arranges a child that way, for the adult's own ends, has already done the harm. The chance that the person a child is sent after strikes back is real, and it is the lesser of the two. What a reader can do is write down what happens, with the date, as it happens.",
     "topics": [
       "specterati",
       "community"
