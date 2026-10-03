@@ -546,6 +546,17 @@ image file names carrying a date, and to paste sheet entry headers. Getting it
 wrong puts a post in the feed under tomorrow, which is visible to every reader
 and has to be corrected in public.
 
+A post's `date` is the day it reaches `main`, Eastern (owner directive, 2026-10-03), not the day
+it was drafted. A post written on the 2nd and merged on the 3rd is dated the 3rd; `/s` sets it
+on the branch before the merge, and three posts merged on 2026-10-03 under the 2nd were redated.
+Same-day posts are ordered on `/feed` by the commit that brought each to `main` (`wiki:sync`
+reads `origin/main` first-parent history), then by when each was written, so the feed reads in
+publication order.
+
+Invite posts are never back to back on `/feed` (owner directive, 2026-10-03). The owner made one
+exception, Brecht above Eli on 2026-09-28, and `pnpm wiki:check-numbers` fails on any other pair.
+Fix the merge order or the date, never the check's list.
+
 A date written into prose reads month first: September 20, not 20 September.
 This blog writes US English and 41 posts already do it that way; three invite
 posts drifted the other way and were corrected on 2026-09-20.
@@ -747,6 +758,9 @@ Everything an agent reads stays in the session until compaction, and compaction 
 The owner can also compact on their own terms: typing `/compact` followed by what to keep (for example, `/compact keep the open PR list and today's rules`) compacts at a moment they choose, with their instructions shaping the summary. `/clear` starts the session over. Rules that must outlive any session go in this file, not in chat.
 
 ### /pr — opening a PR is the start of the job, not the end
+
+Defined here too, in `.claude/commands/pr.md`, adapted from the product repository's command for a
+repository where almost every PR is a post and auto-merge is off (owner directive, 2026-10-03).
 
 Agents open pull requests and abandon them. A PR left alone is work that never shipped, and in this repo that matters more than usual: nothing reaches the blog until it is on `main`, and auto-merge is off, so a PR sits until someone acts. Sweep every open PR that is blocked, behind, conflicted, or failing checks, and drive each one to merge — resolve conflicts by understanding both sides, read the actual failure log before touching anything, bring behind branches up to date. Do not report that a PR needs something; do it. Leave alone only a draft someone is actively working, or a PR sitting green and waiting on the owner's review, and say which those are.
 

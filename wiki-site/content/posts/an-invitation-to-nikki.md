@@ -1,6 +1,6 @@
 ---
 title: "An invitation to Nikki"
-date: "2026-10-02"
+date: "2026-10-03"
 excerpt: "Nikki asked why nobody does anything. The people doing something are survivors, and what they build needs somebody who can run it."
 category: "Community"
 teaser: "It is an invitation to join the Skills Economy. Nikki asked on Quora why nobody does anything when so many people know. The people doing something are mostly the people it is being done to, and what they are building needs somebody who can run it. Nikki, in Nebraska, has a Directory listing that carries business administration: keeping an organization running day to day. A trade done once is a favor. Done every week for different people, it is a small business, and a small business needs somebody running it as well as somebody doing the work."

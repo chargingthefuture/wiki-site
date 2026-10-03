@@ -1,6 +1,6 @@
 ---
 title: "How the Skills Economy finds real members"
-date: "2026-10-02"
+date: "2026-10-03"
 excerpt: "A Quora bot asked how my group verifies new members. It used to be by hand, one conversation at a time. Now Trust shows what people actually do, and real members surface."
 category: "Community"
 teaser: "Quora's own bot asked me how my group verifies that new members are real. When it launched in 2025 as the TI Skills Economy, I verified people by hand: a conversation with every person who came through the door. That did not scale, it carried my bias, and it was traumatizing, because most of the first people through were there to troll. The Skills Economy replaced it with Trust, which shows what each member has actually done. We focus on the positive and on ourselves rather than on them, and real Targeted Individuals surface."

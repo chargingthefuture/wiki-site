@@ -227,59 +227,7 @@ To sign up: https://chargingthefuture.com. It is free, everyone is let in one at
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/a-place-to-stay-when-you-are-living-in-your-car
 
 ==============================================================================
-2026-10-02 · The Lit Country
-
-The Peace Battle 2 game is now a map. The earlier version asked you to set a split between teaching and working each round and showed where that led. This one puts you on the ground as one person with one trade and five percent of a day, and the country lights up around what you do with it.
-
-Play it here: https://chargingthefuture.github.io/offline-os/apps/peace-battle-2/. Free, no account, no ads, and it runs offline once it has opened. Nothing about how you play leaves your phone.
-
-What you see
-
-A dark map of hearths, one for each survivor, spread across a dozen scattered lands. Never one walled place, because the people this is for are in every country, and so the answer is too. Each hearth has a trade, drawn from the same list of sectors and job titles the app's Workforce runs on. Fog drifts over the dark parts: the schemes (https://www.chargingthefuture.com/schemes). Thin gray threads run between dark hearths: the informant (Specterati) net.
-
-On the day the game was built, 174 hearths were lit, in the same proportions as the Directory that day. Most of them are advocates and peer supporters. Nurses next, then community organizers. The country could supply itself 32% of what it needs, 230 of 713 skills. Two tiles stay gray for good: a phone and a vehicle. No community this size can run those supply chains, and the game does not pretend otherwise.
-
-What you do
-
-At the top is your day: twenty segments. Nineteen are shadowed. The attacks took them. One glows. That is your five percent.
-
-Tap it, then tap a card on the map. A card is a goal somebody posted with a finish line, broken into tasks small enough to do from a phone in half an hour: find three yards hiring near Dallas and add their numbers, ask one dealer whether they finance with no credit check, find one host with a spare room in Houston. Your five percent goes on one task. A road lights from your hearth to theirs. The day ends.
-
-Over the following days other hearths' five percents travel the roads to the same card. When every task on it is done, the goal is reached, that hearth lights fully, and its trade joins what the country can supply. You can post a goal of your own, and other people's time arrives at your door the same way.
-
-Some days fog sits on your hearth and takes the sliver. Nothing you put on a card is lost; the day passes. Fog cannot cross a lit road.
-
-From day ten the game offers the lamp: turn your hearth into a workshop that names its first customer and lights one road a day on its own. It is optional, and the game is complete without it. It stands for One Percent (https://farahbrunache.com), the paid tier, and the free parts stand on their own there too.
-
-Singing lands
-
-When every hearth in a land is lit, the land sings. The fog is pushed out and cannot come back, and a road between two singing lands joins them into one country.
-
-That is the Estonia in it. 1.3 million people, occupied by a power that outnumbered them by more than a hundred to one and watched through an informant network that reached into every town, kept their language and their identity and took their country back. The two-generation goal (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-two-generation-goal) says why that is the measure here. The singing lands are named for it.
-
-Winning and time
-
-Two figures on the screen and no others: how many hearths exchanged something today, with a mark at 384, and what share of its needs the country supplies, toward 99%. Fifty rings around the map count the years, one a week. Two generations.
-
-You win when the country supplies 99% of what it needs from its own people. You lose when the fiftieth ring closes first. Every run has a seed you can copy and hand to somebody, so two people can play the same country.
-
-What it is a picture of
-
-Every mechanic is something on the Peace Battle 2 page (https://chargingthefuture.github.io/chargingthefuture/peace-battle-2). The five percent is the part of a Targeted Individual's day the attacks leave, and twenty members with five percent each is a full working day. The cards are the goal board in PeerProgramming, where Show up with your percent (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/show-up-with-your-percent) says how a card works. The 384 is members exchanging with each other on one day, counted a day at a time. The 99% is what winning looks like. The game has a second tab, What this is, that walks through each of these without leaving it.
-
-Nothing in it is a prediction. It is the shape of the thing, drawn so it can be held.
-
-Where to find it in the app
-
-- PeerProgramming (https://app.chargingthefuture.com/apps/peer-programming?tab=goals) — guide (https://app.chargingthefuture.com/guide#peer-programming)
-- Workforce (https://app.chargingthefuture.com/apps/workforce) — guide (https://app.chargingthefuture.com/guide#workforce)
-
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
-
-Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-lit-country
-
-==============================================================================
-2026-10-02 · An invitation to Nikki
+2026-10-03 · An invitation to Nikki
 
 Nikki Martindale asked on Quora why nobody does anything when so many people know, and I answered in Why nobody does anything (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/why-nobody-does-anything). The people doing something about it are mostly the people it is being done to.
 
@@ -334,7 +282,7 @@ To sign up: https://chargingthefuture.com. It is free, everyone is let in one at
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/an-invitation-to-nikki
 
 ==============================================================================
-2026-10-02 · How the Skills Economy finds real members
+2026-10-03 · How the Skills Economy finds real members
 
 A question on Quora, added on September 3, 2025 by Quora Prompt Generator, a bot Quora runs to add questions nobody asked:
 
@@ -378,6 +326,58 @@ Where to find it in the app
 To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-the-skills-economy-finds-real-members
+
+==============================================================================
+2026-10-03 · The Lit Country
+
+The Peace Battle 2 game is now a map. The earlier version asked you to set a split between teaching and working each round and showed where that led. This one puts you on the ground as one person with one trade and five percent of a day, and the country lights up around what you do with it.
+
+Play it here: https://chargingthefuture.github.io/offline-os/apps/peace-battle-2/. Free, no account, no ads, and it runs offline once it has opened. Nothing about how you play leaves your phone.
+
+What you see
+
+A dark map of hearths, one for each survivor, spread across a dozen scattered lands. Never one walled place, because the people this is for are in every country, and so the answer is too. Each hearth has a trade, drawn from the same list of sectors and job titles the app's Workforce runs on. Fog drifts over the dark parts: the schemes (https://www.chargingthefuture.com/schemes). Thin gray threads run between dark hearths: the informant (Specterati) net.
+
+On the day the game was built, 174 hearths were lit, in the same proportions as the Directory that day. Most of them are advocates and peer supporters. Nurses next, then community organizers. The country could supply itself 32% of what it needs, 230 of 713 skills. Two tiles stay gray for good: a phone and a vehicle. No community this size can run those supply chains, and the game does not pretend otherwise.
+
+What you do
+
+At the top is your day: twenty segments. Nineteen are shadowed. The attacks took them. One glows. That is your five percent.
+
+Tap it, then tap a card on the map. A card is a goal somebody posted with a finish line, broken into tasks small enough to do from a phone in half an hour: find three yards hiring near Dallas and add their numbers, ask one dealer whether they finance with no credit check, find one host with a spare room in Houston. Your five percent goes on one task. A road lights from your hearth to theirs. The day ends.
+
+Over the following days other hearths' five percents travel the roads to the same card. When every task on it is done, the goal is reached, that hearth lights fully, and its trade joins what the country can supply. You can post a goal of your own, and other people's time arrives at your door the same way.
+
+Some days fog sits on your hearth and takes the sliver. Nothing you put on a card is lost; the day passes. Fog cannot cross a lit road.
+
+From day ten the game offers the lamp: turn your hearth into a workshop that names its first customer and lights one road a day on its own. It is optional, and the game is complete without it. It stands for One Percent (https://farahbrunache.com), the paid tier, and the free parts stand on their own there too.
+
+Singing lands
+
+When every hearth in a land is lit, the land sings. The fog is pushed out and cannot come back, and a road between two singing lands joins them into one country.
+
+That is the Estonia in it. 1.3 million people, occupied by a power that outnumbered them by more than a hundred to one and watched through an informant network that reached into every town, kept their language and their identity and took their country back. The two-generation goal (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-two-generation-goal) says why that is the measure here. The singing lands are named for it.
+
+Winning and time
+
+Two figures on the screen and no others: how many hearths exchanged something today, with a mark at 384, and what share of its needs the country supplies, toward 99%. Fifty rings around the map count the years, one a week. Two generations.
+
+You win when the country supplies 99% of what it needs from its own people. You lose when the fiftieth ring closes first. Every run has a seed you can copy and hand to somebody, so two people can play the same country.
+
+What it is a picture of
+
+Every mechanic is something on the Peace Battle 2 page (https://chargingthefuture.github.io/chargingthefuture/peace-battle-2). The five percent is the part of a Targeted Individual's day the attacks leave, and twenty members with five percent each is a full working day. The cards are the goal board in PeerProgramming, where Show up with your percent (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/show-up-with-your-percent) says how a card works. The 384 is members exchanging with each other on one day, counted a day at a time. The 99% is what winning looks like. The game has a second tab, What this is, that walks through each of these without leaving it.
+
+Nothing in it is a prediction. It is the shape of the thing, drawn so it can be held.
+
+Where to find it in the app
+
+- PeerProgramming (https://app.chargingthefuture.com/apps/peer-programming?tab=goals) — guide (https://app.chargingthefuture.com/guide#peer-programming)
+- Workforce (https://app.chargingthefuture.com/apps/workforce) — guide (https://app.chargingthefuture.com/guide#workforce)
+
+To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-lit-country
 
 ==============================================================================
 2026-10-02 · An invitation to Holly
@@ -1761,52 +1761,6 @@ To sign up: https://chargingthefuture.com. It is free, everyone is let in one at
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/questions-from-a-bot
 
 ==============================================================================
-2026-09-28 · It happens at work
-
-A question on Quora, asked by Brecht Corbeel (https://www.quora.com/profile/Brecht-Corbeel):
-
-Can gang stalking occur in professional or work settings?
-
-The question is at https://www.quora.com/Can-gang-stalking-occur-in-professional-or-work-settings. Its page carries 2 public followers and 3.8 thousand views. The Dictionary (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary) carries the vocabulary I use for the people doing this; the question keeps the words it was asked in.
-
-[Screenshot — The question on its Quora page, captured September 28, 2026. The heading reads: Can gang stalking occur in professional or work settings? Below it, under Asked by, the name Brecht Corbeel. Under Question stats: 2 public followers, 3.8K views, last followed Dec 22, 2024.]
-
-Yes. Work is one of the places it happens most.
-
-It already has a name at work
-
-In the 1980s a Swedish researcher, Heinz Leymann, gave a name to something he kept finding in workplaces: a group turning on one colleague, over months, until the person left or broke down. He called it mobbing.
-
-What it looks like from inside is a run of things that are each ordinary on their own. A rumor that arrives at a new job before you do. Being left out of the meeting, the email, the information you need to do the work. Mistakes that appear in work you know you checked. Complaints about you that nobody will say out loud or put a name to. Colleagues who were fine last month and now act together.
-
-Any one of those happens to people for ordinary reasons. The pattern is what makes it Specterati harassment rather than a bad job.
-
-Why work is where it lands hardest
-
-The questions I have saved on this over the last two years ask whether most Targeted Individuals are employed, whether this can keep you from getting a job at all, how to deal with it when it is coming from coworkers or from management.
-
-Work is where the income is. Pushing somebody out of a job cuts them off from money, from the colleagues who might have backed them up, and from the reference that gets the next job. Doing it again at the next job teaches the person that working at all is the problem. Most survivors I know of were pushed out of employment at some point, and not by accident.
-
-What to do with it
-
-Two things, and neither of them is legal advice.
-
-Write it down, dated, as it happens, including at work. ClickLog (https://app.chargingthefuture.com/apps/click-log) takes about fifteen seconds an incident, and your notes are not shown to anyone else here. A record made at the time is worth more than a memory told later, to you most of all, because it lets you see the pattern before anybody else has to believe it.
-
-And build some work that does not run through them. The Directory (https://app.chargingthefuture.com/apps/directory) lists people and what they can do, and Foundation (https://app.chargingthefuture.com/apps/foundation) is where members offer and exchange help, trade for trade. The Workforce (https://app.chargingthefuture.com/apps/workforce) view shows which skills the community has and which it is still missing, which is a list of work nobody here is doing yet. Work arranged between people who are not part of it is work they cannot quietly take away.
-
-Where to find it in the app
-
-- ClickLog (https://app.chargingthefuture.com/apps/click-log) — guide (https://app.chargingthefuture.com/guide#click-log)
-- Directory (https://app.chargingthefuture.com/apps/directory) — guide (https://app.chargingthefuture.com/guide#directory)
-- Foundation (https://app.chargingthefuture.com/apps/foundation) — guide (https://app.chargingthefuture.com/guide#foundation)
-- Workforce (https://app.chargingthefuture.com/apps/workforce) — guide (https://app.chargingthefuture.com/guide#workforce)
-
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
-
-Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/it-happens-at-work
-
-==============================================================================
 2026-09-28 · An invitation to Zack
 
 A working economy needs people who know where things go. Waste leaves a building and ends up somewhere. Water comes in and has to go back out clean. A place people live in for years has land around it, and that land changes. None of it is anybody's first thought about building something together, and all of it decides whether the thing lasts.
@@ -1864,6 +1818,52 @@ Where to find it in the app
 To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/an-invitation-to-zack
+
+==============================================================================
+2026-09-28 · It happens at work
+
+A question on Quora, asked by Brecht Corbeel (https://www.quora.com/profile/Brecht-Corbeel):
+
+Can gang stalking occur in professional or work settings?
+
+The question is at https://www.quora.com/Can-gang-stalking-occur-in-professional-or-work-settings. Its page carries 2 public followers and 3.8 thousand views. The Dictionary (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary) carries the vocabulary I use for the people doing this; the question keeps the words it was asked in.
+
+[Screenshot — The question on its Quora page, captured September 28, 2026. The heading reads: Can gang stalking occur in professional or work settings? Below it, under Asked by, the name Brecht Corbeel. Under Question stats: 2 public followers, 3.8K views, last followed Dec 22, 2024.]
+
+Yes. Work is one of the places it happens most.
+
+It already has a name at work
+
+In the 1980s a Swedish researcher, Heinz Leymann, gave a name to something he kept finding in workplaces: a group turning on one colleague, over months, until the person left or broke down. He called it mobbing.
+
+What it looks like from inside is a run of things that are each ordinary on their own. A rumor that arrives at a new job before you do. Being left out of the meeting, the email, the information you need to do the work. Mistakes that appear in work you know you checked. Complaints about you that nobody will say out loud or put a name to. Colleagues who were fine last month and now act together.
+
+Any one of those happens to people for ordinary reasons. The pattern is what makes it Specterati harassment rather than a bad job.
+
+Why work is where it lands hardest
+
+The questions I have saved on this over the last two years ask whether most Targeted Individuals are employed, whether this can keep you from getting a job at all, how to deal with it when it is coming from coworkers or from management.
+
+Work is where the income is. Pushing somebody out of a job cuts them off from money, from the colleagues who might have backed them up, and from the reference that gets the next job. Doing it again at the next job teaches the person that working at all is the problem. Most survivors I know of were pushed out of employment at some point, and not by accident.
+
+What to do with it
+
+Two things, and neither of them is legal advice.
+
+Write it down, dated, as it happens, including at work. ClickLog (https://app.chargingthefuture.com/apps/click-log) takes about fifteen seconds an incident, and your notes are not shown to anyone else here. A record made at the time is worth more than a memory told later, to you most of all, because it lets you see the pattern before anybody else has to believe it.
+
+And build some work that does not run through them. The Directory (https://app.chargingthefuture.com/apps/directory) lists people and what they can do, and Foundation (https://app.chargingthefuture.com/apps/foundation) is where members offer and exchange help, trade for trade. The Workforce (https://app.chargingthefuture.com/apps/workforce) view shows which skills the community has and which it is still missing, which is a list of work nobody here is doing yet. Work arranged between people who are not part of it is work they cannot quietly take away.
+
+Where to find it in the app
+
+- ClickLog (https://app.chargingthefuture.com/apps/click-log) — guide (https://app.chargingthefuture.com/guide#click-log)
+- Directory (https://app.chargingthefuture.com/apps/directory) — guide (https://app.chargingthefuture.com/guide#directory)
+- Foundation (https://app.chargingthefuture.com/apps/foundation) — guide (https://app.chargingthefuture.com/guide#foundation)
+- Workforce (https://app.chargingthefuture.com/apps/workforce) — guide (https://app.chargingthefuture.com/guide#workforce)
+
+To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/it-happens-at-work
 
 ==============================================================================
 2026-09-28 · An invitation to Jessica
@@ -3276,72 +3276,6 @@ To sign up: https://chargingthefuture.com. It is free, everyone is let in one at
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/something-to-lose
 
 ==============================================================================
-2026-09-19 · What can be stopped
-
-A question I opened as a Quora answer draft on August 6, 2025, and never wrote:
-
-Is it possible for targeted individuals to stop being harassed by gang stalkers? If so, what methods have been successful in stopping the harassment?
-
-The question is at https://www.quora.com/Is-it-possible-for-targeted-individuals-to-stop-being-harassed-by-gang-stalkers-If-so-what-methods-have-been-successful-in-stopping-the-harassment — go and read it where it stands. Nobody asked it. It was added on October 11, 2024 by Quora Prompt Generator, a bot Quora runs to seed questions, which I did not notice until after I had written this. I am keeping it because it is, almost word for word, the question survivors keep asking in their own words: the list of saved Quora questions this blog works from holds a dozen versions of it. The vocabulary I use for the people running this is in the Dictionary (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary); the question keeps the words it was asked in.
-
-[Screenshot — The question on Quora, captured September 19, 2026. A line above it reads: Question added by Quora Prompt Generator. The question reads: Is it possible for targeted individuals to stop being harassed by gang stalkers? If so, what methods have been successful in stopping the harassment? Below it: #3978753715, Thank, Report, October 11, 2024 at 3:43:47 AM.]
-
-I asked this one too, in different words, for most of my life. So here is the answer I would have wanted, which is not the one I was hoping for.
-
-No method I know of has stopped it
-
-I have been targeted since I was five and I am forty-one. I have not found a way to end it, and I have not met a survivor who has. Ignoring it for thirty-four years changed nothing (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/they-cannot-be-ignored); the first time one of them punched me in the face came after years of no reaction at all. There is no place in the United States I could move to that is free of it.
-
-Two things about the accounts of it stopping.
-
-The first is that a quiet stretch is not the same as an ending. I was asked once whether doing better meant fewer operators were around. No. They change how they work. Laying low is regrouping, so that the guard comes down before the overt part resumes. A person who counts fewer of them in their face and concludes there are fewer has counted the wrong thing.
-
-The second is who tells survivors it will stop. Specterati operators do. They will lean into any story a person accepts: that this is a watch list and it lifts, that it is spiritual and ends at enlightenment, that it is a test and a pass exists. I was told I am a truth teller and they are the Illuminati. The goal post moves every time, because the story is a method and not a promise. Somebody who reaches the finish line they were given finds another one drawn past it.
-
-Could they stop? In theory. But a person's exploitation is worth something to the people doing it, and torturing one person is also how the rest of the operatives are kept in line. Nothing about that arithmetic changes because the person asked nicely, or moved, or went quiet.
-
-What can be stopped
-
-So the honest answer to the first half is no. The second half has a better answer than it looks, once the question is asked about the right thing.
-
-What they are after is not the harassment for its own sake. It is what the harassment costs: your account of your own life, your day, your work, your housing, and who you have to go through to get any of those. Every one of those costs can be cut, and cutting them is the only thing I have watched work.
-
-Your record. A dated log you own means your account of your life stops depending on memory under stress. ClickLog is that: date, a location if you choose one, fifteen seconds. It does not stop an incident. It stops the incident from also taking your credibility with it, and it means you can put the noticing down instead of carrying it all day.
-
-Your day. The theatre is built to be studied, and every hour spent mapping it is an hour they took. I spent nine months on that and the turn is dated on the record (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/from-them-to-me). What replaces it is something that compounds, that is still there next month whatever they did this week.
-
-Your footage. For years operators started fights with me in public so that new recruits could be shown a person scuffling in the street. Not supplying that is not composure. It is declining to make the picture, and it is the one thing in a staged incident that is yours to decide.
-
-Your dependence. This is the largest one and the reason this project is an economy rather than an awareness campaign. Being watched is not what gives someone power over you. Needing something from them is. (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/estonia-did-not-get-to-solve-it-either) Who fixes your car, who you work for, who rents you a room, who drives you: each of those is a choice about whose hands your week runs through, and each one moved is leverage taken off the table. Estonia did not get to choose its neighbor. It chose its arrangements, and thirty years of that is the difference between surviving and doing well.
-
-Coexistence, and why it is not giving up
-
-I hold to coexistence over conspiracy (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-are-you-doing). I could spend the rest of my life on which organization it is. My position is that it is a great many ordinary people in a distributed network of organized crime, so there is no single door to knock on and no petition that closes it.
-
-That is not resignation. It is the same posture a person takes toward any hazard that is not going to leave: you stop organizing your life around its ending and start organizing it around your own footing. The communities of 1903 did not get an ending either (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-few-people-it-takes), and they built trade schools and businesses anyway, one generation at a time. A hundred survivors trading with each other is not a support group with a spreadsheet. It is the part of the answer that was ever in reach.
-
-And the part I would say to anybody who has been told it stopped: stay connected anyway. Once a name is on the list it is never taken off, and the quiet years are when people drift into destitution with nobody around. Keep one leg in the door.
-
-What none of this promises
-
-It does not promise the harassment ends. I do not believe that, and I am not going to write it because it would sell.
-
-It promises something smaller and real. The harassment stops being the only checkable thing about you. It stops setting your schedule. It stops deciding who you rent from and who you work for. And the people who matter, the ones who turn up with a ride or a room, are not deciding anything about you based on it.
-
-The targeting is real. It is not the most interesting fact about you.
-
-Where to find it in the app
-
-- ClickLog (https://app.chargingthefuture.com/apps/click-log) — guide (https://app.chargingthefuture.com/guide#click-log)
-- Directory (https://app.chargingthefuture.com/apps/directory) — guide (https://app.chargingthefuture.com/guide#directory)
-- Foundation (https://app.chargingthefuture.com/apps/foundation) — guide (https://app.chargingthefuture.com/guide#foundation)
-- Trust (https://app.chargingthefuture.com/apps/trust) — guide (https://app.chargingthefuture.com/guide#trust)
-
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
-
-Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-can-be-stopped
-
-==============================================================================
 2026-09-19 · An invitation to Gn0b0dy Pneuma
 
 Most of the people I have invited so far were strangers to this blog until their post went up. This one is different. Gn0b0dy Pneuma's writing is already here three times, credited each time, and I have quoted it because it was better than mine.
@@ -3409,6 +3343,72 @@ Where to find it in the app
 To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/an-invitation-to-gn0b0dy-pneuma
+
+==============================================================================
+2026-09-19 · What can be stopped
+
+A question I opened as a Quora answer draft on August 6, 2025, and never wrote:
+
+Is it possible for targeted individuals to stop being harassed by gang stalkers? If so, what methods have been successful in stopping the harassment?
+
+The question is at https://www.quora.com/Is-it-possible-for-targeted-individuals-to-stop-being-harassed-by-gang-stalkers-If-so-what-methods-have-been-successful-in-stopping-the-harassment — go and read it where it stands. Nobody asked it. It was added on October 11, 2024 by Quora Prompt Generator, a bot Quora runs to seed questions, which I did not notice until after I had written this. I am keeping it because it is, almost word for word, the question survivors keep asking in their own words: the list of saved Quora questions this blog works from holds a dozen versions of it. The vocabulary I use for the people running this is in the Dictionary (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary); the question keeps the words it was asked in.
+
+[Screenshot — The question on Quora, captured September 19, 2026. A line above it reads: Question added by Quora Prompt Generator. The question reads: Is it possible for targeted individuals to stop being harassed by gang stalkers? If so, what methods have been successful in stopping the harassment? Below it: #3978753715, Thank, Report, October 11, 2024 at 3:43:47 AM.]
+
+I asked this one too, in different words, for most of my life. So here is the answer I would have wanted, which is not the one I was hoping for.
+
+No method I know of has stopped it
+
+I have been targeted since I was five and I am forty-one. I have not found a way to end it, and I have not met a survivor who has. Ignoring it for thirty-four years changed nothing (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/they-cannot-be-ignored); the first time one of them punched me in the face came after years of no reaction at all. There is no place in the United States I could move to that is free of it.
+
+Two things about the accounts of it stopping.
+
+The first is that a quiet stretch is not the same as an ending. I was asked once whether doing better meant fewer operators were around. No. They change how they work. Laying low is regrouping, so that the guard comes down before the overt part resumes. A person who counts fewer of them in their face and concludes there are fewer has counted the wrong thing.
+
+The second is who tells survivors it will stop. Specterati operators do. They will lean into any story a person accepts: that this is a watch list and it lifts, that it is spiritual and ends at enlightenment, that it is a test and a pass exists. I was told I am a truth teller and they are the Illuminati. The goal post moves every time, because the story is a method and not a promise. Somebody who reaches the finish line they were given finds another one drawn past it.
+
+Could they stop? In theory. But a person's exploitation is worth something to the people doing it, and torturing one person is also how the rest of the operatives are kept in line. Nothing about that arithmetic changes because the person asked nicely, or moved, or went quiet.
+
+What can be stopped
+
+So the honest answer to the first half is no. The second half has a better answer than it looks, once the question is asked about the right thing.
+
+What they are after is not the harassment for its own sake. It is what the harassment costs: your account of your own life, your day, your work, your housing, and who you have to go through to get any of those. Every one of those costs can be cut, and cutting them is the only thing I have watched work.
+
+Your record. A dated log you own means your account of your life stops depending on memory under stress. ClickLog is that: date, a location if you choose one, fifteen seconds. It does not stop an incident. It stops the incident from also taking your credibility with it, and it means you can put the noticing down instead of carrying it all day.
+
+Your day. The theatre is built to be studied, and every hour spent mapping it is an hour they took. I spent nine months on that and the turn is dated on the record (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/from-them-to-me). What replaces it is something that compounds, that is still there next month whatever they did this week.
+
+Your footage. For years operators started fights with me in public so that new recruits could be shown a person scuffling in the street. Not supplying that is not composure. It is declining to make the picture, and it is the one thing in a staged incident that is yours to decide.
+
+Your dependence. This is the largest one and the reason this project is an economy rather than an awareness campaign. Being watched is not what gives someone power over you. Needing something from them is. (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/estonia-did-not-get-to-solve-it-either) Who fixes your car, who you work for, who rents you a room, who drives you: each of those is a choice about whose hands your week runs through, and each one moved is leverage taken off the table. Estonia did not get to choose its neighbor. It chose its arrangements, and thirty years of that is the difference between surviving and doing well.
+
+Coexistence, and why it is not giving up
+
+I hold to coexistence over conspiracy (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-are-you-doing). I could spend the rest of my life on which organization it is. My position is that it is a great many ordinary people in a distributed network of organized crime, so there is no single door to knock on and no petition that closes it.
+
+That is not resignation. It is the same posture a person takes toward any hazard that is not going to leave: you stop organizing your life around its ending and start organizing it around your own footing. The communities of 1903 did not get an ending either (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-few-people-it-takes), and they built trade schools and businesses anyway, one generation at a time. A hundred survivors trading with each other is not a support group with a spreadsheet. It is the part of the answer that was ever in reach.
+
+And the part I would say to anybody who has been told it stopped: stay connected anyway. Once a name is on the list it is never taken off, and the quiet years are when people drift into destitution with nobody around. Keep one leg in the door.
+
+What none of this promises
+
+It does not promise the harassment ends. I do not believe that, and I am not going to write it because it would sell.
+
+It promises something smaller and real. The harassment stops being the only checkable thing about you. It stops setting your schedule. It stops deciding who you rent from and who you work for. And the people who matter, the ones who turn up with a ride or a room, are not deciding anything about you based on it.
+
+The targeting is real. It is not the most interesting fact about you.
+
+Where to find it in the app
+
+- ClickLog (https://app.chargingthefuture.com/apps/click-log) — guide (https://app.chargingthefuture.com/guide#click-log)
+- Directory (https://app.chargingthefuture.com/apps/directory) — guide (https://app.chargingthefuture.com/guide#directory)
+- Foundation (https://app.chargingthefuture.com/apps/foundation) — guide (https://app.chargingthefuture.com/guide#foundation)
+- Trust (https://app.chargingthefuture.com/apps/trust) — guide (https://app.chargingthefuture.com/guide#trust)
+
+To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-can-be-stopped
 
 ==============================================================================
 2026-09-19 · An invitation to Syah
@@ -4253,207 +4253,57 @@ To sign up: https://chargingthefuture.com. It is free, everyone is let in one at
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/whats-your-hangup
 
 ==============================================================================
-2026-09-15 · Peace Battle 2
+2026-09-15 · You Can Talk Under These Posts Now
 
-A protest starts on Friday, September 18, 2026 at 7:00 PM Eastern.
+There is now a conversation under every post on this blog. It is called Fireside, and it sits at the bottom of every one of them.
 
-It is called Peace Battle 2. The page with the countdown and everything you need to take part is here: chargingthefuture.github.io/chargingthefuture/peace-battle-2 (https://chargingthefuture.github.io/chargingthefuture/peace-battle-2). The short form is /pb2 (https://chargingthefuture.github.io/chargingthefuture/pb2), which goes to the same place.
+Reading it takes nothing
 
-There is no address to travel to. That is the design, not a compromise.
+No account. No sign-in. No box asking you to create something before you are allowed to see what people said.
 
-Why it has a name
+That is deliberate, and it is backwards from where most of you read me. Quora will not show you a comment thread without a login. Fireside does the reverse: anybody who can read the post can read the conversation under it, whether they have ever heard of this app or not.
 
-In 1903 W. E. B. Du Bois looked back at what the people who founded the colleges had done after the Civil War. Two thousand were trained. Those two thousand trained fifty thousand. Those fifty thousand taught nine millions. He called it the most wonderful peace-battle of the 19th century.
+Writing takes an account, and here is exactly what happens
 
-A battle fought with teaching and with work. And it was won.
+You sign in, you write, and your comment saves. It is not publicly visible yet. It becomes visible when you are approved, and the screen tells you that at the moment you press post — not afterwards, and not by leaving you to work out why nothing appeared.
 
-Movements get names. The Civil Rights Movement had one. What is happening to Targeted Individuals has been going on without one, which makes it hard to point at and easy to wave off. So it gets a name, and the name says which lineage it belongs to.
+Approval is per person, not per comment. When somebody is approved, everything they have written here becomes visible at once, including what they wrote before. So the waiting is not wasted and you are not writing into a hole.
 
-The Skills Economy has been this since it started. It just did not have the label.
+What approval involves is one thing: a Quora profile link. A person reads it. That is the same look this app does before anyone is approved, and writing a comment is a reasonable place to start it, because judging what somebody wrote is the same judgment.
 
-I am organizing it. I am not leading it. Survivors are a distributed group and nobody speaks for them, including me. Somebody has to call a date, so I am calling one.
+Three reactions rather than an open set of emoji — I recognize this, This helped, Same here — so a count means the same thing on every comment. Replies go one level deep and stop there, because anything deeper is unreadable on a phone, and a phone is the only width this app has.
 
-A thing I said that was wrong
+Why this exists
 
-I used to say their methods were ingenious. I said it in conversation more than once.
+Quora has erased more than twenty of my accounts. Each time, everything posted from that account went with it, and so did every comment under it — mine and everybody else's. Conversations I had with people over two years are gone from where they happened. If you replied to me there, your words are gone too, and you did nothing wrong.
 
-That was callous, and it was also just inaccurate.
+Two other things are true about comments on that platform, and they are quieter problems. You cannot search them. You cannot bookmark one. A good answer somebody wrote three months ago is functionally lost even while the account is alive.
 
-There is nothing clever about it. Look at the schemes one at a time and most of them are obvious to anyone standing nearby. People circle a person. Drama follows them from place to place. A stranger repeats something only a person's own household would know.
+A comment under this post has an address. It is stored on a system this project runs, it survives any platform deciding anything, and it can be found again.
 
-Somebody watching once can tell themselves there is another explanation. Somebody watching the same person for a year cannot. What they learn instead is that the plausible deniability is not really for them — it is for a courtroom. The behavior is arranged to sit in the gap where the law has nothing to charge.
+What you control, and what nobody else does
 
-That is not genius. It is criminals adapting faster than the legal framework, which is the same thing that happens everywhere else. Laws arrived late for social media. They arrived late for data privacy. They are arriving late here too, and human trafficking is harder than either, because the people running it keep changing shape while the statutes stay still.
+Take your own comment down at any time, with no admin involved and no reason required. The words go. The row stays only so a reply underneath it does not lose its place, and it is shown to nobody.
 
-Calling that ingenious hands them a compliment they did not earn. I am not saying it again.
+Fireside carries the same deletion rights as the group chat, from the same account screen. If you delete your account, your comments and reactions go with it.
 
-And some people genuinely believe what they are told about a survivor. That is real and I am not pretending otherwise.
+There is one exception and it is worth reading twice. A comment can be copied into this blog's own published pages — searchable, and captured by web archives. That takes two separate yeses: you ask for it, and an admin agrees. It is off unless you turn it on, nobody else can turn it on for you, and you can turn it back off right up until the copy is made. The reason it needs both is that a web capture cannot be recalled afterwards by anybody, this project included, and a page that is permanent should not be one person's mistake or one account's bad faith.
 
-Why it is a protest, and why it is virtual
+Nothing is under any post yet
 
-A protest is normally bodies in one place. Targeted Individuals have tried that. People have announced a protest and stood there by themselves.
+This went up today, so every thread on the blog is empty. Somebody has to be first, and it may as well be about whichever post you actually have something to say about.
 
-It is not apathy. A protest in a place assumes three things: neighbors who are also affected, money to travel, and a day you can afford to lose. Most survivors have none of the three, because being made destitute is part of what is done to them.
-
-And the spread is deliberate. Targeting does not concentrate in one neighborhood, one race, one class, or one religion. It is scattered across all of them, everywhere. That keeps the people it happens to from finding each other, and it lets anyone describe them as unrelated individuals with unrelated problems.
-
-You can see it in what gets said about any one person. In my case the story changes with whoever is being recruited: terrorist for one audience, racist for another, prostitute for another, violent, impatient, hates Black men, hates Mexicans, hates dogs. The lie is chosen for the listener. It is not meant to be consistent. It is meant to divide.
-
-So this protest is distributed too, because what it answers is distributed. It runs for years, which a protest in a physical place cannot do. It costs nothing but the minutes you give it. And it is the first form of this that a person who is broke, isolated, or too tired to leave the house can actually join.
-
-Three ways to take part
-
-Three, not ten. More than three and a protest turns into homework.
-
-One: say something under a post
-
-Read any post on this blog and leave a comment or a reaction under it. Reading the conversation needs no account at all. Writing takes a free one.
-
-That is Fireside: app.chargingthefuture.com/apps/fireside (https://app.chargingthefuture.com/apps/fireside).
-
-This is the one that answers Quora directly. TrustTransport is the Uber for Targeted Individuals. Fireside is the Quora for Targeted Individuals.
-
-More than twenty times an account of this project has been erased on Quora, and every comment under it went with it — mine and other people's. If you replied to me there, your words are gone and you did nothing wrong. The dated record is on old links, new links (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/old-links-new-links).
-
-You are already writing for free on a platform that sells what you write and deletes it whenever it likes. Writing here costs you the same nothing and the words stay findable.
-
-Two: take a slot on TI Radio
-
-A published week of live audio rooms, at app.chargingthefuture.com/ti-radio (https://app.chargingthefuture.com/ti-radio). Take an open time, write a line about what it is about, and turn up.
-
-Low pressure on purpose. Pick a time every week, sit in the room, and talk to whoever arrives. It does not have to be about being targeted. It can be about anything.
-
-The aim is a schedule with somebody in it as often as possible. The rooms themselves run through Chyme (https://app.chargingthefuture.com/apps/chyme). Listening needs no account; speaking does. A slot is taken, not granted, so a name on the schedule is not an endorsement from this project.
-
-Three: post your 1%
-
-Open What's your 1%? (https://app.chargingthefuture.com/apps/workforce?view=one-percent). It takes one percent of five million survivors — fifty thousand people — and runs the arithmetic backwards to you, weighted to your own trade.
-
-Adjust the figures to what you would actually charge. Screenshot it. Put it where people will see it.
-
-It costs a minute and it argues with nothing but arithmetic.
-
-If you would rather act than post, do the other version: use the app to offer or ask for something real. Then the figure stops being a projection.
-
-If you think none of this will work
-
-Take part anyway, and here is the honest reason.
-
-Nothing in it harms anybody. The Skills Economy does not ask you to fight, to confront, or to give anything up. It says: you were going to take that ride anyway, so check first whether another survivor can drive it.
-
-Five million people leaving the global economy would not dent it. Not a little — not at all. And the people doing this already work to keep survivors from earning, which tells you they do not want that participation either. What they do not want is being named.
-
-So the cost of being wrong about this is a minute of your time. The cost of being right and doing nothing is another generation.
-
-What winning looks like
-
-Peace Battle 2 is finished when a survivor can get 99% of what they need — housing, transportation, goods, services — from other survivors.
-
-Not 100%. A phone and a vehicle need supply chains no community this size can run, and saying otherwise would be a lie. Nearly everything else can be grown, made, taught, driven, repaired, or arranged by somebody already on the list.
-
-That is what exiting the psyop means in practice. Not leaving the global economy. Being able to come and go from it by choice, because what you need is available from people who are not part of what is being done to you.
-
-The nearer marker is 384 approved members working with each other at any given time.
-
-You can see the far end of it as a game: Peace-Battle 2 in the arcade (https://chargingthefuture.github.io/offline-os/apps/peace-battle-2/) starts from the 147 people on the Directory today and asks you to fill a catalog of 657 skills inside two generations. It is free, needs no account, and runs offline once it opens.
-
-One generation is what I would like. Two is what I expect, given where we are starting.
-
-Friday, September 18, 7:00 PM Eastern. chargingthefuture.github.io/chargingthefuture/pb2 (https://chargingthefuture.github.io/chargingthefuture/pb2).
+There are few rules here on purpose. The group chat's guidelines apply, and beyond them not much, because a conversation about what was done to people and what to do next does not survive being tidied into a format.
 
 Where to find it in the app
 
 - Fireside (https://app.chargingthefuture.com/apps/fireside)
-- TI Radio (https://app.chargingthefuture.com/ti-radio)
-- Chyme (https://app.chargingthefuture.com/apps/chyme) — guide (https://app.chargingthefuture.com/guide#chyme)
-- Workforce (https://app.chargingthefuture.com/apps/workforce) — What's your 1%? (https://app.chargingthefuture.com/apps/workforce?view=one-percent) — guide (https://app.chargingthefuture.com/guide#workforce)
-- TrustTransport (https://app.chargingthefuture.com/apps/trust-transport) — guide (https://app.chargingthefuture.com/guide#trust-transport)
-
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
-
-Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/peace-battle-2
-
-==============================================================================
-2026-09-15 · TI Radio: a week of live discussions, and anyone can read it
-
-Survivors host live discussions. Until now the only way to say one was happening was to announce it.
-
-An announcement can point at one time. It cannot hold a schedule. And it cannot let somebody else put themselves on one.
-
-So now there is a page that does both (https://app.chargingthefuture.com/ti-radio).
-
-What it is
-
-A week of live discussions, laid out in front of you.
-
-The day is cut into 90-minute slots. Ninety minutes divides a day exactly sixteen times, so every day has the same sixteen starts. Nothing drifts. The grid runs seven days ahead.
-
-Each row shows the time, who is hosting, and what it is about. The slot happening right now is marked "On air."
-
-Every time is printed in your own timezone, and the page names the timezone it detected. You do not have to do the arithmetic.
-
-An empty row is one somebody can take.
-
-Reading it needs no account
-
-This is the part worth saying plainly, because it is not how the rest of the app works.
-
-You do not sign in. You do not get verified. You do not join anything. You open the page and read the schedule.
-
-Almost every other screen here is behind approval, and for good reasons I have written about before. This one is not, and the reason is who it is for. The people it was built for have not joined anything yet. Telling them to sign up before they can even see when a discussion is happening asks for the thing at the end and gives nothing at the start.
-
-So the schedule is open. Anyone can link to it. Anyone can plan around it.
-
-Taking a slot
-
-Hosting is different, and it does need an approved account.
-
-An approved member presses an open row and writes what the discussion is about. They can add a few sentences for somebody deciding whether to come. The slot is then theirs, and their handle and subject appear on that row for everyone — including people who never sign in.
-
-First come, first served. No queue, no application, nobody approving the topic.
-
-At the time they booked, they and whoever turns up meet in Chyme.
-
-Why hosting is gated when reading is not: putting your name on a public schedule is a commitment to turn up.
-
-The limits, and why they are there
-
-You can hold three slots in any 24 hours. Not three per calendar day — any 24-hour stretch. Three late one evening and a fourth after midnight is refused, the same as four in one afternoon. Otherwise one person could take a week.
-
-You can give a slot back any time before it starts. It goes straight back to the guide as open.
-
-You cannot give it back once it has begun. By then people have turned up.
-
-An admin can remove any slot and is asked why. That is me, and it is one person.
-
-What it is not
-
-It is not Mutual Time. That is the other scheduling thing in the app, and it works the opposite way. An admin starts it. Everyone votes on when they are free. The app picks the hour with the most overlap. One meeting comes out of it, and only an admin can begin one.
-
-TI Radio asks nothing. A member takes a time. A week of discussions comes out of it, side by side.
-
-Both exist. They answer different questions.
-
-It also does not own the room. The talking happens in Chyme, which keeps its own audio and its own records. TI Radio holds the schedule and nothing else. It never records who listened.
-
-Why a schedule rather than an announcement
-
-An announcement reaches whoever is looking the day it goes out.
-
-A schedule sits there. Somebody who finds it on a Tuesday can see what is on Thursday. Somebody in another timezone can find the one slot that works for them. Somebody who is not ready to join anything can still turn up and listen.
-
-And it is not mine to fill. I am not booking sixteen slots a day and calling it a station. The rows are empty until somebody takes one, and what appears there is whatever survivors decided to talk about.
-
-Where to find it in the app
-
-- TI Radio (https://app.chargingthefuture.com/ti-radio)
-- Chyme (https://app.chargingthefuture.com/apps/chyme) — guide (https://app.chargingthefuture.com/guide#chyme)
-- Mutual Time (https://app.chargingthefuture.com/apps/mutual-time) — guide (https://app.chargingthefuture.com/guide#mutual-time)
 - Unlock (https://app.chargingthefuture.com/plugin/unlock) — guide (https://app.chargingthefuture.com/guide#unlock)
+- Commons (https://app.chargingthefuture.com) — guide (https://app.chargingthefuture.com/guide#commons)
 
 To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
-Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/ti-radio
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/you-can-talk-under-these-posts-now
 
 ==============================================================================
 2026-09-15 · What's Your 1%?
@@ -4613,57 +4463,207 @@ To sign up: https://chargingthefuture.com. It is free, everyone is let in one at
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/whats-your-one-percent
 
 ==============================================================================
-2026-09-15 · You Can Talk Under These Posts Now
+2026-09-15 · TI Radio: a week of live discussions, and anyone can read it
 
-There is now a conversation under every post on this blog. It is called Fireside, and it sits at the bottom of every one of them.
+Survivors host live discussions. Until now the only way to say one was happening was to announce it.
 
-Reading it takes nothing
+An announcement can point at one time. It cannot hold a schedule. And it cannot let somebody else put themselves on one.
 
-No account. No sign-in. No box asking you to create something before you are allowed to see what people said.
+So now there is a page that does both (https://app.chargingthefuture.com/ti-radio).
 
-That is deliberate, and it is backwards from where most of you read me. Quora will not show you a comment thread without a login. Fireside does the reverse: anybody who can read the post can read the conversation under it, whether they have ever heard of this app or not.
+What it is
 
-Writing takes an account, and here is exactly what happens
+A week of live discussions, laid out in front of you.
 
-You sign in, you write, and your comment saves. It is not publicly visible yet. It becomes visible when you are approved, and the screen tells you that at the moment you press post — not afterwards, and not by leaving you to work out why nothing appeared.
+The day is cut into 90-minute slots. Ninety minutes divides a day exactly sixteen times, so every day has the same sixteen starts. Nothing drifts. The grid runs seven days ahead.
 
-Approval is per person, not per comment. When somebody is approved, everything they have written here becomes visible at once, including what they wrote before. So the waiting is not wasted and you are not writing into a hole.
+Each row shows the time, who is hosting, and what it is about. The slot happening right now is marked "On air."
 
-What approval involves is one thing: a Quora profile link. A person reads it. That is the same look this app does before anyone is approved, and writing a comment is a reasonable place to start it, because judging what somebody wrote is the same judgment.
+Every time is printed in your own timezone, and the page names the timezone it detected. You do not have to do the arithmetic.
 
-Three reactions rather than an open set of emoji — I recognize this, This helped, Same here — so a count means the same thing on every comment. Replies go one level deep and stop there, because anything deeper is unreadable on a phone, and a phone is the only width this app has.
+An empty row is one somebody can take.
 
-Why this exists
+Reading it needs no account
 
-Quora has erased more than twenty of my accounts. Each time, everything posted from that account went with it, and so did every comment under it — mine and everybody else's. Conversations I had with people over two years are gone from where they happened. If you replied to me there, your words are gone too, and you did nothing wrong.
+This is the part worth saying plainly, because it is not how the rest of the app works.
 
-Two other things are true about comments on that platform, and they are quieter problems. You cannot search them. You cannot bookmark one. A good answer somebody wrote three months ago is functionally lost even while the account is alive.
+You do not sign in. You do not get verified. You do not join anything. You open the page and read the schedule.
 
-A comment under this post has an address. It is stored on a system this project runs, it survives any platform deciding anything, and it can be found again.
+Almost every other screen here is behind approval, and for good reasons I have written about before. This one is not, and the reason is who it is for. The people it was built for have not joined anything yet. Telling them to sign up before they can even see when a discussion is happening asks for the thing at the end and gives nothing at the start.
 
-What you control, and what nobody else does
+So the schedule is open. Anyone can link to it. Anyone can plan around it.
 
-Take your own comment down at any time, with no admin involved and no reason required. The words go. The row stays only so a reply underneath it does not lose its place, and it is shown to nobody.
+Taking a slot
 
-Fireside carries the same deletion rights as the group chat, from the same account screen. If you delete your account, your comments and reactions go with it.
+Hosting is different, and it does need an approved account.
 
-There is one exception and it is worth reading twice. A comment can be copied into this blog's own published pages — searchable, and captured by web archives. That takes two separate yeses: you ask for it, and an admin agrees. It is off unless you turn it on, nobody else can turn it on for you, and you can turn it back off right up until the copy is made. The reason it needs both is that a web capture cannot be recalled afterwards by anybody, this project included, and a page that is permanent should not be one person's mistake or one account's bad faith.
+An approved member presses an open row and writes what the discussion is about. They can add a few sentences for somebody deciding whether to come. The slot is then theirs, and their handle and subject appear on that row for everyone — including people who never sign in.
 
-Nothing is under any post yet
+First come, first served. No queue, no application, nobody approving the topic.
 
-This went up today, so every thread on the blog is empty. Somebody has to be first, and it may as well be about whichever post you actually have something to say about.
+At the time they booked, they and whoever turns up meet in Chyme.
 
-There are few rules here on purpose. The group chat's guidelines apply, and beyond them not much, because a conversation about what was done to people and what to do next does not survive being tidied into a format.
+Why hosting is gated when reading is not: putting your name on a public schedule is a commitment to turn up.
+
+The limits, and why they are there
+
+You can hold three slots in any 24 hours. Not three per calendar day — any 24-hour stretch. Three late one evening and a fourth after midnight is refused, the same as four in one afternoon. Otherwise one person could take a week.
+
+You can give a slot back any time before it starts. It goes straight back to the guide as open.
+
+You cannot give it back once it has begun. By then people have turned up.
+
+An admin can remove any slot and is asked why. That is me, and it is one person.
+
+What it is not
+
+It is not Mutual Time. That is the other scheduling thing in the app, and it works the opposite way. An admin starts it. Everyone votes on when they are free. The app picks the hour with the most overlap. One meeting comes out of it, and only an admin can begin one.
+
+TI Radio asks nothing. A member takes a time. A week of discussions comes out of it, side by side.
+
+Both exist. They answer different questions.
+
+It also does not own the room. The talking happens in Chyme, which keeps its own audio and its own records. TI Radio holds the schedule and nothing else. It never records who listened.
+
+Why a schedule rather than an announcement
+
+An announcement reaches whoever is looking the day it goes out.
+
+A schedule sits there. Somebody who finds it on a Tuesday can see what is on Thursday. Somebody in another timezone can find the one slot that works for them. Somebody who is not ready to join anything can still turn up and listen.
+
+And it is not mine to fill. I am not booking sixteen slots a day and calling it a station. The rows are empty until somebody takes one, and what appears there is whatever survivors decided to talk about.
+
+Where to find it in the app
+
+- TI Radio (https://app.chargingthefuture.com/ti-radio)
+- Chyme (https://app.chargingthefuture.com/apps/chyme) — guide (https://app.chargingthefuture.com/guide#chyme)
+- Mutual Time (https://app.chargingthefuture.com/apps/mutual-time) — guide (https://app.chargingthefuture.com/guide#mutual-time)
+- Unlock (https://app.chargingthefuture.com/plugin/unlock) — guide (https://app.chargingthefuture.com/guide#unlock)
+
+To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/ti-radio
+
+==============================================================================
+2026-09-15 · Peace Battle 2
+
+A protest starts on Friday, September 18, 2026 at 7:00 PM Eastern.
+
+It is called Peace Battle 2. The page with the countdown and everything you need to take part is here: chargingthefuture.github.io/chargingthefuture/peace-battle-2 (https://chargingthefuture.github.io/chargingthefuture/peace-battle-2). The short form is /pb2 (https://chargingthefuture.github.io/chargingthefuture/pb2), which goes to the same place.
+
+There is no address to travel to. That is the design, not a compromise.
+
+Why it has a name
+
+In 1903 W. E. B. Du Bois looked back at what the people who founded the colleges had done after the Civil War. Two thousand were trained. Those two thousand trained fifty thousand. Those fifty thousand taught nine millions. He called it the most wonderful peace-battle of the 19th century.
+
+A battle fought with teaching and with work. And it was won.
+
+Movements get names. The Civil Rights Movement had one. What is happening to Targeted Individuals has been going on without one, which makes it hard to point at and easy to wave off. So it gets a name, and the name says which lineage it belongs to.
+
+The Skills Economy has been this since it started. It just did not have the label.
+
+I am organizing it. I am not leading it. Survivors are a distributed group and nobody speaks for them, including me. Somebody has to call a date, so I am calling one.
+
+A thing I said that was wrong
+
+I used to say their methods were ingenious. I said it in conversation more than once.
+
+That was callous, and it was also just inaccurate.
+
+There is nothing clever about it. Look at the schemes one at a time and most of them are obvious to anyone standing nearby. People circle a person. Drama follows them from place to place. A stranger repeats something only a person's own household would know.
+
+Somebody watching once can tell themselves there is another explanation. Somebody watching the same person for a year cannot. What they learn instead is that the plausible deniability is not really for them — it is for a courtroom. The behavior is arranged to sit in the gap where the law has nothing to charge.
+
+That is not genius. It is criminals adapting faster than the legal framework, which is the same thing that happens everywhere else. Laws arrived late for social media. They arrived late for data privacy. They are arriving late here too, and human trafficking is harder than either, because the people running it keep changing shape while the statutes stay still.
+
+Calling that ingenious hands them a compliment they did not earn. I am not saying it again.
+
+And some people genuinely believe what they are told about a survivor. That is real and I am not pretending otherwise.
+
+Why it is a protest, and why it is virtual
+
+A protest is normally bodies in one place. Targeted Individuals have tried that. People have announced a protest and stood there by themselves.
+
+It is not apathy. A protest in a place assumes three things: neighbors who are also affected, money to travel, and a day you can afford to lose. Most survivors have none of the three, because being made destitute is part of what is done to them.
+
+And the spread is deliberate. Targeting does not concentrate in one neighborhood, one race, one class, or one religion. It is scattered across all of them, everywhere. That keeps the people it happens to from finding each other, and it lets anyone describe them as unrelated individuals with unrelated problems.
+
+You can see it in what gets said about any one person. In my case the story changes with whoever is being recruited: terrorist for one audience, racist for another, prostitute for another, violent, impatient, hates Black men, hates Mexicans, hates dogs. The lie is chosen for the listener. It is not meant to be consistent. It is meant to divide.
+
+So this protest is distributed too, because what it answers is distributed. It runs for years, which a protest in a physical place cannot do. It costs nothing but the minutes you give it. And it is the first form of this that a person who is broke, isolated, or too tired to leave the house can actually join.
+
+Three ways to take part
+
+Three, not ten. More than three and a protest turns into homework.
+
+One: say something under a post
+
+Read any post on this blog and leave a comment or a reaction under it. Reading the conversation needs no account at all. Writing takes a free one.
+
+That is Fireside: app.chargingthefuture.com/apps/fireside (https://app.chargingthefuture.com/apps/fireside).
+
+This is the one that answers Quora directly. TrustTransport is the Uber for Targeted Individuals. Fireside is the Quora for Targeted Individuals.
+
+More than twenty times an account of this project has been erased on Quora, and every comment under it went with it — mine and other people's. If you replied to me there, your words are gone and you did nothing wrong. The dated record is on old links, new links (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/old-links-new-links).
+
+You are already writing for free on a platform that sells what you write and deletes it whenever it likes. Writing here costs you the same nothing and the words stay findable.
+
+Two: take a slot on TI Radio
+
+A published week of live audio rooms, at app.chargingthefuture.com/ti-radio (https://app.chargingthefuture.com/ti-radio). Take an open time, write a line about what it is about, and turn up.
+
+Low pressure on purpose. Pick a time every week, sit in the room, and talk to whoever arrives. It does not have to be about being targeted. It can be about anything.
+
+The aim is a schedule with somebody in it as often as possible. The rooms themselves run through Chyme (https://app.chargingthefuture.com/apps/chyme). Listening needs no account; speaking does. A slot is taken, not granted, so a name on the schedule is not an endorsement from this project.
+
+Three: post your 1%
+
+Open What's your 1%? (https://app.chargingthefuture.com/apps/workforce?view=one-percent). It takes one percent of five million survivors — fifty thousand people — and runs the arithmetic backwards to you, weighted to your own trade.
+
+Adjust the figures to what you would actually charge. Screenshot it. Put it where people will see it.
+
+It costs a minute and it argues with nothing but arithmetic.
+
+If you would rather act than post, do the other version: use the app to offer or ask for something real. Then the figure stops being a projection.
+
+If you think none of this will work
+
+Take part anyway, and here is the honest reason.
+
+Nothing in it harms anybody. The Skills Economy does not ask you to fight, to confront, or to give anything up. It says: you were going to take that ride anyway, so check first whether another survivor can drive it.
+
+Five million people leaving the global economy would not dent it. Not a little — not at all. And the people doing this already work to keep survivors from earning, which tells you they do not want that participation either. What they do not want is being named.
+
+So the cost of being wrong about this is a minute of your time. The cost of being right and doing nothing is another generation.
+
+What winning looks like
+
+Peace Battle 2 is finished when a survivor can get 99% of what they need — housing, transportation, goods, services — from other survivors.
+
+Not 100%. A phone and a vehicle need supply chains no community this size can run, and saying otherwise would be a lie. Nearly everything else can be grown, made, taught, driven, repaired, or arranged by somebody already on the list.
+
+That is what exiting the psyop means in practice. Not leaving the global economy. Being able to come and go from it by choice, because what you need is available from people who are not part of what is being done to you.
+
+The nearer marker is 384 approved members working with each other at any given time.
+
+You can see the far end of it as a game: Peace-Battle 2 in the arcade (https://chargingthefuture.github.io/offline-os/apps/peace-battle-2/) starts from the 147 people on the Directory today and asks you to fill a catalog of 657 skills inside two generations. It is free, needs no account, and runs offline once it opens.
+
+One generation is what I would like. Two is what I expect, given where we are starting.
+
+Friday, September 18, 7:00 PM Eastern. chargingthefuture.github.io/chargingthefuture/pb2 (https://chargingthefuture.github.io/chargingthefuture/pb2).
 
 Where to find it in the app
 
 - Fireside (https://app.chargingthefuture.com/apps/fireside)
-- Unlock (https://app.chargingthefuture.com/plugin/unlock) — guide (https://app.chargingthefuture.com/guide#unlock)
-- Commons (https://app.chargingthefuture.com) — guide (https://app.chargingthefuture.com/guide#commons)
+- TI Radio (https://app.chargingthefuture.com/ti-radio)
+- Chyme (https://app.chargingthefuture.com/apps/chyme) — guide (https://app.chargingthefuture.com/guide#chyme)
+- Workforce (https://app.chargingthefuture.com/apps/workforce) — What's your 1%? (https://app.chargingthefuture.com/apps/workforce?view=one-percent) — guide (https://app.chargingthefuture.com/guide#workforce)
+- TrustTransport (https://app.chargingthefuture.com/apps/trust-transport) — guide (https://app.chargingthefuture.com/guide#trust-transport)
 
 To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
-Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/you-can-talk-under-these-posts-now
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/peace-battle-2
 
 ==============================================================================
 2026-09-14 · What I Missed About Wanting Everything On the Blockchain
@@ -6790,232 +6790,6 @@ To sign up: https://chargingthefuture.com. It is free, everyone is let in one at
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/clicklog-the-record-has-started
 
 ==============================================================================
-2026-08-21 · Pizza Is Not My Favorite Food
-
-Somebody wrote this in the Skills Economy space, and it is worth answering properly. Gn0b0dy Pneuma (https://www.quora.com/profile/Gn0b0dy-Pneuma) wrote about the claim that the perps can see through your eyes and read your mind: survivors repeat it, and the perps who say it to them are the ones lying. They close on a paraphrase of Sun Tzu — make your enemy think you are powerful when you are not, and close when you are far.
-
-Their comment is below in full. Read it in their words rather than in my summary of them.
-
-[Screenshot — A comment by Gn0b0dy Pneuma in the Skills Economy space on Quora, reading: I constantly see TIs say gang stalkers can see through their eyes and hear what they hear, yet in my experience it is them always lying when they make that claim, but I do see how someone can tricked into believing it. I also don't think they can read your mind per se, only hear your internal voice and are good at saying what you expect them to say. So if you think they can read your mind you will expect them to say what is on your mind and then they say it, which they use to try and trick you into believing they know way more than they actually do. Maybe they are able to with other TIs tho, but when they tell me that I know they are lying. People like that love the art of war: Make your enemy think you are powerful when you are not, close when you are far, paraphrase.]
-
-I do not believe it either. And I think I can say what is actually happening in its place.
-
-People are predictable, and that is not a flaw
-
-Predictability is not a weakness anybody needs to apologize for. It is part of how a person stays alive and stays sane — the rhythm you keep is what makes a day possible at all.
-
-And most of us are alike in the ways that matter to somebody watching. Everyone has to eat. When you eat and what you eat is a recurring activity, and a recurring activity can be observed, recorded, and predicted. You do not need access to a mind to know what someone will do on Tuesday afternoon. You need to have been paying attention on the last forty Tuesdays.
-
-The pizza
-
-Here is my own example, and it is small on purpose.
-
-They made me destitute. Once you are there, the question is not what you like. It is what hot food you can get for the least money. Somebody once explained to me that people with no money buy pasta in bulk, because it is cheap and it fills you. I could not do that. I have no stove. So the answer in my case turned out to be a particular chain's pizza — hot, cheap, no cooking required.
-
-They concluded it was my favorite food.
-
-If they could read a mind, they would know that it is not. It is a budget with the options removed. They watched what I bought, they saw the same thing repeatedly, and they drew the obvious wrong conclusion — the way anybody would who is looking at behavior from the outside and guessing at the reason underneath.
-
-Then they use it. They will eat it in front of me to mark a day they arranged to go badly. They will taunt me that I cannot afford it. That is the ordinary sensitization work: take a thing you have been seen with often, attach it to a bad moment, and repeat until the thing itself carries the moment with it.
-
-So I keep my likes and dislikes to myself
-
-This has been going on since I was five. That length of time does two things. It gives them an enormous amount to observe, and it taught me early to give them very little.
-
-I do not talk about what I enjoy. Other survivors have not learned that, and I do not blame them for it. If you were targeted later in life you already had a job, a family, children, all the ordinary machinery of an adult, and there is too much running at once to notice a stranger repeating themselves.
-
-I had the opposite. I was a child, and I did not speak English. Observation was all I had, and it was easy. My first stalker was an adult in their thirties when I was five: a stranger, no language in common with me, carrying open hatred for a child who had done nothing to them. It was not the repetition that gave it away. It was that. There is no version of a grown adult hating a five-year-old they have never spoken to that a child reads as ordinary.
-
-I do not think I am unusually clever. I think I was placed, very young, in a position where the only available activity was watching.
-
-How they get accurate
-
-Three things, none of them extraordinary.
-
-They observe over years, with people working at it full time. Not full time on me — there is more than one target in a city, and the same operatives work several of us. That is the efficiency of it, and this is a business before it is anything else. A fake neighbor moves in tasked with harassing me, but plausible deniability means at least one person in that household holds an ordinary job. During that job they are still working: on me, and on other people. We are all on one list, and social media is what makes a list like that cheap to spread.
-
-They compare across the people they traffic. Many of us are similar in the ways that show from outside, so a pattern learned from one person predicts the next.
-
-And they stalk their own. That part gets missed. A network you cannot see is a network you cannot command, so the operatives are watched too — which means the surveillance apparatus is pointed inward as much as outward.
-
-Put those together and you can guess well enough to look uncanny. Nothing in it requires reading a thought.
-
-What the errors tell you
-
-The mistakes are the useful part, because they show where the limit is.
-
-Imagine engineering someone into destitution, watching them eat out of a trash can, and concluding that the trash can must be their favorite restaurant. That is the shape of the reasoning. They see the behavior and cannot see the constraint that produced it, so they attribute to preference what was produced by having no choices left.
-
-Which is worth saying plainly: there are survivors who describe these people as geniuses. They are not. They are violent criminals with money, technology, and a network. Those are real advantages and I am not waving them away. They are not the same thing as insight, and treating them as insight does the work for them — it is the same move as the "secret society" brag and the same move as steering you toward which exploit is on your phone. Every one of those makes them larger than they are, and every one puts you to work on a question that changes nothing.
-
-The largest version of it takes them out of the human category altogether: the Illuminati, a bloodline, something with God on its side. That is the most flattering story available, and they do not have to tell it to us. We tell it to each other.
-
-Look at what it costs to hold. If they are supernatural then they are permanent, which leaves you mortal and them not, and there is nothing left to do but endure it and interpret it. That is exactly the position this is meant to put you in. Fixating on how they do it always ends there.
-
-The history says otherwise, and I have written about this before (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/who-put-you-on-the-list). The transatlantic slave trade ran on a fraction of the technology and had the entire globe participating in one capacity or another — and its central lie, that race is a real division between kinds of people, is still believed by people today. Hitler had less technology than the phone in your pocket and commanded a country with it. Neither needed anything beyond people, money, permission, and a story worth repeating.
-
-A psyop is a psyop. This one has better equipment and the same skeleton.
-
-The part that is actually fixable
-
-Notice what made me predictable. It was not carelessness. It was poverty. One hot meal I could afford meant one thing to observe.
-
-And it compounds. Push someone further down — into depending on family who are taking part, which is its own named scheme, The Forced Homecoming — and the options narrow again. Fewer options means more predictable behavior, and more predictable behavior makes every other scheme cheaper to run. Easier to schedule. Easier to recruit people for, because an operative told in advance what you will do, who then watches you do it, comes away convinced they have joined something that knows everything. Easier to slander, because the same story lands on the same audience every time.
-
-There is one more use for it, and it is the one worth watching for. Constrain enough people the same way and they begin to behave alike, because there is only one thing left to do. Then the sameness gets presented as the discovery: look at all these people, all doing the same thing. The accusation on the label varies — terrorist, addict, dangerous, whatever the roulette lands on that year — and the manufactured uniformity is offered as the evidence for it. They produce the pattern, then point at it as proof.
-
-A person with options is harder to read, and options are not a mindset — they are material. Somewhere to cook. Money that does not come through anyone doing this to you. Enough of your week arranged among people who are not reporting on it.
-
-That is not a defense against being watched. Nothing is. It is a way of being worth less to watch.
-
-Where to find it in the app
-
-- ClickLog (https://app.chargingthefuture.com/apps/click-log) — guide (https://app.chargingthefuture.com/guide#click-log)
-- Commons (https://app.chargingthefuture.com) — guide (https://app.chargingthefuture.com/guide#commons)
-
-The named schemes, including the sensitization ones, are public: chargingthefuture.com/schemes (https://www.chargingthefuture.com/schemes).
-
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
-
-Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/pizza-is-not-my-favorite-food
-
-==============================================================================
-2026-08-21 · Estonia Did Not Get to Solve It Either
-
-The question this community does not answer honestly is the one everybody is actually asking. Not who is doing it, or how to prove it. What do you do if it never stops?
-
-Most of the answers on offer assume an ending. Expose them and it ends. Sue and it ends. Wait and it ends. I do not believe any of those, and I think most people reading this do not either, which is why the advice slides off.
-
-So here is the example I keep coming back to.
-
-A country that does not get an ending
-
-Estonia has 1.3 million people. It sits next to Russia, a country with a hundred times its population. It was occupied by the Soviet Union until 1991, and the pressure did not end when the occupation did.
-
-In 2007, during a dispute over the relocation of a Soviet war memorial, Estonia's banks, government sites, and newspapers were knocked offline for weeks. It was severe enough that it became the case everyone else studies, and it is a large part of why the country rebuilt the way it did.
-
-Everybody had a view about where it came from. No authority ever established it. Nobody was ever held responsible.
-
-That last part is worth sitting with, because survivors will recognize the shape of it: the harm was real, the source was obvious to the people it was happening to, and the formal record shows nothing.
-
-None of that has stopped. There is no version of the future where Estonia's geography changes. They do not get an ending either.
-
-And they live. People there work, keep hobbies, raise children, argue about ordinary things. The country is functional and by most measures pleasant. The permanent hostile attention of a much larger neighbor is a fact about their situation. It did not become everything the country is.
-
-I have written before about Estonia coming out of occupation in 1991 (https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/how-the-math-works) with no money and infrastructure that did not work, and building a functioning modern state largely in software because software was what it could afford. What I did not say then is the part that matters more here: they did that while the pressure continued, not after it lifted.
-
-What they actually built
-
-Not a defense that makes the neighbor go away. Nothing does that.
-
-What they built was a country that needs the neighbor for less every year. Energy, trade, systems, the ordinary machinery of getting through a day — moved, piece by piece, onto arrangements that do not run through the party that wishes them ill.
-
-That is the same idea I wrote about this week in a different context. Being watched is not what gives someone power over you. Needing something from them is. Estonia did not solve surveillance. It reduced dependence, and dependence is the thing that was ever actually load-bearing.
-
-They are the yardstick here, nothing more. Nobody in this community is forming a nation state, and I have said that plainly every time the comparison comes up. What is worth borrowing is the posture, not the flag.
-
-Part of life, not a sentence
-
-Here is what I want to say to survivors, and I want to be careful how I say it, because said carelessly it is worthless.
-
-This is something that happens to you. It is not something that defines you. It can be true that a large, organized group is committed to making your days worse, and simultaneously true that it is not the most interesting fact about you and does not have to be the organizing principle of your remaining decades. Both of those hold at once. Most of us are only holding the first.
-
-I am aiming at something specific with that: statistically zero suicides in this community, and statistically zero mass shootings out of it. Those are the two endings I have watched people arrive at, and in my view both are reached the same way — through the conviction that this is a sentence rather than a circumstance, and that there is nothing on the other side of it worth walking toward.
-
-Why this is not "cheer up"
-
-Telling someone their situation does not define them is cruel if there is nowhere for them to be a person instead. That is the honest objection and I take it seriously.
-
-You cannot hold that position from inside an empty room. You can hold it from inside a life — people who know what you are dealing with and do not need it explained, work that uses what you are good at, a hobby you were made to abandon and could pick up again.
-
-This project is an economy rather than an awareness campaign for that reason. The catalog in the app holds 650 job titles and skills, because a working economy needs that many kinds of people, and survivors already are that many kinds of people. Whatever you trained in, whatever you were doing before this started, it is on that list somewhere. It does not have to wait for the targeting to end first. The waiting is what has to stop, not the targeting.
-
-You can choose an economy
-
-That is the sentence I would leave you with, and it is more literal than it sounds.
-
-You cannot choose whether you are targeted. You did not get a say in that and you are not going to. What is genuinely available to you is which people your life runs through — who fixes your car, who you work for, who rents you a room, who you spend an evening with. Every one of those is a choice about dependence, and every one of them moved is a piece of leverage taken off the table.
-
-Estonia did not get to choose its neighbor. It chose its arrangements. Thirty years of that is the difference between a country that survived and a country that is doing well.
-
-Where to find it in the app
-
-- Directory (https://app.chargingthefuture.com/apps/directory) — guide (https://app.chargingthefuture.com/guide#directory)
-- Workforce (https://app.chargingthefuture.com/apps/workforce) — guide (https://app.chargingthefuture.com/guide#workforce)
-- Commons (https://app.chargingthefuture.com) — guide (https://app.chargingthefuture.com/guide#commons)
-
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
-
-Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/estonia-did-not-get-to-solve-it-either
-
-==============================================================================
-2026-08-21 · Why They Want You Living With Family
-
-There is a scheme on the schemes list (https://www.chargingthefuture.com/schemes) now that I have wanted named for a long time: The Forced Homecoming.
-
-It has been run at me for more than a decade — not once, repeatedly. That is the part worth saying first, because a thing attempted on you every few years is not a run of bad luck, and the repetition is what finally made it recognizable to me as a designed sequence rather than a series of separate disasters.
-
-It is built, not stumbled into
-
-The destitution comes first, and it is not the objective. Income gets closed off, work gets interfered with until it ends, accounts get shut on claims that are not true. What that produces is a person with one door left open, and the door leads back to family.
-
-They have a fixation on the past. Putting a grown adult back in a childhood bedroom is not incidental to what they enjoy; it is close to the centerpiece. A person in their forties or fifties, returned to a house they left decades ago, financially dependent on the people in it. That result is the thing being engineered, not a side effect of poverty.
-
-Then the relatives get bought
-
-Once you are in the house, the people in it become useful. Perks. Work that appears from nowhere. Social life, company, sex — things given to a relative in exchange for making your day worse. It does not have to be framed to them as recruitment and usually is not. It arrives as good fortune that happens to come with a suggestion attached.
-
-Around the house, the neighborhood fills in. Properties get bought up. People doing this full time circle the block all day — not full time on you, since they carry other targets in the same city, but near enough and often enough that there is nowhere in your routine they are not.
-
-Why this makes the scheduled part easy
-
-The Good Day, Bad Day (https://www.chargingthefuture.com/schemes) needs two things: a settled address, so a weekday can be reliably ruined, and knowledge of your day, so the grading works.
-
-In this arrangement you have supplied both. You are not going anywhere, and one of them lives with you. They know when you slept, what you ate, what you were dreading, and how the day went — not by surveillance but by being at the table. It is the cheapest version of the operation there is.
-
-And why you will not be believed afterward
-
-This is the payoff I had not understood until recently, and it is the one that does the lasting damage.
-
-There is a problem on the list now that was missing before: being falsely labeled mentally ill or dangerous. Not a specific accusation about a specific incident — that is its own entry. This is the standing verdict about your character, the one that follows you into a doctor's office, a housing application, a family conversation, a courtroom. Several schemes exist to manufacture it. You are provoked until you react like anyone would, and the reaction is what gets written down.
-
-The Forced Homecoming is the cheapest way to produce it. Look at what the arrangement leaves you with. You are isolated, in a house with the people harming you. You have no independent income, so you cannot leave and cannot be taken seriously as an account of your own situation. And there is no witness to any of it who is not being paid — in favors, in work, in company — to say the opposite of what you would say.
-
-A person in that position has no route to being believed. Not because the account is weak, but because every source anyone would check has been bought.
-
-Why I say do not do it
-
-This is the arrangement I argue against harder than any other, and I want to be plain about what that is based on. It is my own observation from years of reading survivors and talking with them. It is not a study, and I am not going to present it as one.
-
-The survivors I have watched reach the worst endings — taking their own lives, or killing someone in the house, or walking out and doing violence to strangers — have very often been living exactly like this when it happened.
-
-I do not think that says anything about who those people were, and I want that understood clearly, because the accusation that we are dangerous is one already used against every one of us. I think it says what happens to a person when the harassment is inside the place they sleep, run in part by the people they depend on to eat, with no hour that is off and no door to close on it.
-
-Everyone else at least gets to go home. In this arrangement, home is where it is worst. I treat it as urgent rather than as one bad option among several.
-
-The honest problem with saying that
-
-Telling a destitute person not to take the only housing available is worthless on its own. The reason the scheme works is that the alternative usually does not exist.
-
-That is the gap LightHouse (https://app.chargingthefuture.com/apps/lighthouse) is for. It lists places offered by hosts who are survivors themselves — people who are not being paid in favors to make your week difficult, because they are on the same list you are. A room with a door that locks, in a building where nobody has been given anything to arrange your day.
-
-I am not going to claim there is a listing waiting for everyone who needs one. There is not. What I will say is that the answer to this particular scheme is housing that does not run through people who can be bought, and that building the supply of it is worth more than any amount of advice about coping where you are.
-
-If you are in this arrangement now, the Commons (https://app.chargingthefuture.com) is where people are. Not a hotline — I called one once, and what I got back was effectively an invitation to join the club. People who already understand the situation are a different proposition.
-
-Where to find it in the app
-
-- LightHouse (https://app.chargingthefuture.com/apps/lighthouse) — guide (https://app.chargingthefuture.com/guide#lighthouse)
-- ClickLog (https://app.chargingthefuture.com/apps/click-log) — guide (https://app.chargingthefuture.com/guide#click-log)
-- Commons (https://app.chargingthefuture.com) — guide (https://app.chargingthefuture.com/guide#commons)
-
-The full schemes list is public: chargingthefuture.com/schemes (https://www.chargingthefuture.com/schemes).
-
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
-
-Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/why-they-want-you-living-with-family
-
-==============================================================================
 2026-08-21 · They Are Not a Secret Society
 
 Two lines went into the Dictionary (https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary) today. Both are about what these people are, rather than what they do, and both are open for argument. That second part is the reason for this post.
@@ -7120,6 +6894,232 @@ The full schemes list is public: chargingthefuture.com/schemes (https://www.char
 To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/they-are-not-a-secret-society
+
+==============================================================================
+2026-08-21 · Why They Want You Living With Family
+
+There is a scheme on the schemes list (https://www.chargingthefuture.com/schemes) now that I have wanted named for a long time: The Forced Homecoming.
+
+It has been run at me for more than a decade — not once, repeatedly. That is the part worth saying first, because a thing attempted on you every few years is not a run of bad luck, and the repetition is what finally made it recognizable to me as a designed sequence rather than a series of separate disasters.
+
+It is built, not stumbled into
+
+The destitution comes first, and it is not the objective. Income gets closed off, work gets interfered with until it ends, accounts get shut on claims that are not true. What that produces is a person with one door left open, and the door leads back to family.
+
+They have a fixation on the past. Putting a grown adult back in a childhood bedroom is not incidental to what they enjoy; it is close to the centerpiece. A person in their forties or fifties, returned to a house they left decades ago, financially dependent on the people in it. That result is the thing being engineered, not a side effect of poverty.
+
+Then the relatives get bought
+
+Once you are in the house, the people in it become useful. Perks. Work that appears from nowhere. Social life, company, sex — things given to a relative in exchange for making your day worse. It does not have to be framed to them as recruitment and usually is not. It arrives as good fortune that happens to come with a suggestion attached.
+
+Around the house, the neighborhood fills in. Properties get bought up. People doing this full time circle the block all day — not full time on you, since they carry other targets in the same city, but near enough and often enough that there is nowhere in your routine they are not.
+
+Why this makes the scheduled part easy
+
+The Good Day, Bad Day (https://www.chargingthefuture.com/schemes) needs two things: a settled address, so a weekday can be reliably ruined, and knowledge of your day, so the grading works.
+
+In this arrangement you have supplied both. You are not going anywhere, and one of them lives with you. They know when you slept, what you ate, what you were dreading, and how the day went — not by surveillance but by being at the table. It is the cheapest version of the operation there is.
+
+And why you will not be believed afterward
+
+This is the payoff I had not understood until recently, and it is the one that does the lasting damage.
+
+There is a problem on the list now that was missing before: being falsely labeled mentally ill or dangerous. Not a specific accusation about a specific incident — that is its own entry. This is the standing verdict about your character, the one that follows you into a doctor's office, a housing application, a family conversation, a courtroom. Several schemes exist to manufacture it. You are provoked until you react like anyone would, and the reaction is what gets written down.
+
+The Forced Homecoming is the cheapest way to produce it. Look at what the arrangement leaves you with. You are isolated, in a house with the people harming you. You have no independent income, so you cannot leave and cannot be taken seriously as an account of your own situation. And there is no witness to any of it who is not being paid — in favors, in work, in company — to say the opposite of what you would say.
+
+A person in that position has no route to being believed. Not because the account is weak, but because every source anyone would check has been bought.
+
+Why I say do not do it
+
+This is the arrangement I argue against harder than any other, and I want to be plain about what that is based on. It is my own observation from years of reading survivors and talking with them. It is not a study, and I am not going to present it as one.
+
+The survivors I have watched reach the worst endings — taking their own lives, or killing someone in the house, or walking out and doing violence to strangers — have very often been living exactly like this when it happened.
+
+I do not think that says anything about who those people were, and I want that understood clearly, because the accusation that we are dangerous is one already used against every one of us. I think it says what happens to a person when the harassment is inside the place they sleep, run in part by the people they depend on to eat, with no hour that is off and no door to close on it.
+
+Everyone else at least gets to go home. In this arrangement, home is where it is worst. I treat it as urgent rather than as one bad option among several.
+
+The honest problem with saying that
+
+Telling a destitute person not to take the only housing available is worthless on its own. The reason the scheme works is that the alternative usually does not exist.
+
+That is the gap LightHouse (https://app.chargingthefuture.com/apps/lighthouse) is for. It lists places offered by hosts who are survivors themselves — people who are not being paid in favors to make your week difficult, because they are on the same list you are. A room with a door that locks, in a building where nobody has been given anything to arrange your day.
+
+I am not going to claim there is a listing waiting for everyone who needs one. There is not. What I will say is that the answer to this particular scheme is housing that does not run through people who can be bought, and that building the supply of it is worth more than any amount of advice about coping where you are.
+
+If you are in this arrangement now, the Commons (https://app.chargingthefuture.com) is where people are. Not a hotline — I called one once, and what I got back was effectively an invitation to join the club. People who already understand the situation are a different proposition.
+
+Where to find it in the app
+
+- LightHouse (https://app.chargingthefuture.com/apps/lighthouse) — guide (https://app.chargingthefuture.com/guide#lighthouse)
+- ClickLog (https://app.chargingthefuture.com/apps/click-log) — guide (https://app.chargingthefuture.com/guide#click-log)
+- Commons (https://app.chargingthefuture.com) — guide (https://app.chargingthefuture.com/guide#commons)
+
+The full schemes list is public: chargingthefuture.com/schemes (https://www.chargingthefuture.com/schemes).
+
+To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/why-they-want-you-living-with-family
+
+==============================================================================
+2026-08-21 · Estonia Did Not Get to Solve It Either
+
+The question this community does not answer honestly is the one everybody is actually asking. Not who is doing it, or how to prove it. What do you do if it never stops?
+
+Most of the answers on offer assume an ending. Expose them and it ends. Sue and it ends. Wait and it ends. I do not believe any of those, and I think most people reading this do not either, which is why the advice slides off.
+
+So here is the example I keep coming back to.
+
+A country that does not get an ending
+
+Estonia has 1.3 million people. It sits next to Russia, a country with a hundred times its population. It was occupied by the Soviet Union until 1991, and the pressure did not end when the occupation did.
+
+In 2007, during a dispute over the relocation of a Soviet war memorial, Estonia's banks, government sites, and newspapers were knocked offline for weeks. It was severe enough that it became the case everyone else studies, and it is a large part of why the country rebuilt the way it did.
+
+Everybody had a view about where it came from. No authority ever established it. Nobody was ever held responsible.
+
+That last part is worth sitting with, because survivors will recognize the shape of it: the harm was real, the source was obvious to the people it was happening to, and the formal record shows nothing.
+
+None of that has stopped. There is no version of the future where Estonia's geography changes. They do not get an ending either.
+
+And they live. People there work, keep hobbies, raise children, argue about ordinary things. The country is functional and by most measures pleasant. The permanent hostile attention of a much larger neighbor is a fact about their situation. It did not become everything the country is.
+
+I have written before about Estonia coming out of occupation in 1991 (https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/how-the-math-works) with no money and infrastructure that did not work, and building a functioning modern state largely in software because software was what it could afford. What I did not say then is the part that matters more here: they did that while the pressure continued, not after it lifted.
+
+What they actually built
+
+Not a defense that makes the neighbor go away. Nothing does that.
+
+What they built was a country that needs the neighbor for less every year. Energy, trade, systems, the ordinary machinery of getting through a day — moved, piece by piece, onto arrangements that do not run through the party that wishes them ill.
+
+That is the same idea I wrote about this week in a different context. Being watched is not what gives someone power over you. Needing something from them is. Estonia did not solve surveillance. It reduced dependence, and dependence is the thing that was ever actually load-bearing.
+
+They are the yardstick here, nothing more. Nobody in this community is forming a nation state, and I have said that plainly every time the comparison comes up. What is worth borrowing is the posture, not the flag.
+
+Part of life, not a sentence
+
+Here is what I want to say to survivors, and I want to be careful how I say it, because said carelessly it is worthless.
+
+This is something that happens to you. It is not something that defines you. It can be true that a large, organized group is committed to making your days worse, and simultaneously true that it is not the most interesting fact about you and does not have to be the organizing principle of your remaining decades. Both of those hold at once. Most of us are only holding the first.
+
+I am aiming at something specific with that: statistically zero suicides in this community, and statistically zero mass shootings out of it. Those are the two endings I have watched people arrive at, and in my view both are reached the same way — through the conviction that this is a sentence rather than a circumstance, and that there is nothing on the other side of it worth walking toward.
+
+Why this is not "cheer up"
+
+Telling someone their situation does not define them is cruel if there is nowhere for them to be a person instead. That is the honest objection and I take it seriously.
+
+You cannot hold that position from inside an empty room. You can hold it from inside a life — people who know what you are dealing with and do not need it explained, work that uses what you are good at, a hobby you were made to abandon and could pick up again.
+
+This project is an economy rather than an awareness campaign for that reason. The catalog in the app holds 650 job titles and skills, because a working economy needs that many kinds of people, and survivors already are that many kinds of people. Whatever you trained in, whatever you were doing before this started, it is on that list somewhere. It does not have to wait for the targeting to end first. The waiting is what has to stop, not the targeting.
+
+You can choose an economy
+
+That is the sentence I would leave you with, and it is more literal than it sounds.
+
+You cannot choose whether you are targeted. You did not get a say in that and you are not going to. What is genuinely available to you is which people your life runs through — who fixes your car, who you work for, who rents you a room, who you spend an evening with. Every one of those is a choice about dependence, and every one of them moved is a piece of leverage taken off the table.
+
+Estonia did not get to choose its neighbor. It chose its arrangements. Thirty years of that is the difference between a country that survived and a country that is doing well.
+
+Where to find it in the app
+
+- Directory (https://app.chargingthefuture.com/apps/directory) — guide (https://app.chargingthefuture.com/guide#directory)
+- Workforce (https://app.chargingthefuture.com/apps/workforce) — guide (https://app.chargingthefuture.com/guide#workforce)
+- Commons (https://app.chargingthefuture.com) — guide (https://app.chargingthefuture.com/guide#commons)
+
+To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/estonia-did-not-get-to-solve-it-either
+
+==============================================================================
+2026-08-21 · Pizza Is Not My Favorite Food
+
+Somebody wrote this in the Skills Economy space, and it is worth answering properly. Gn0b0dy Pneuma (https://www.quora.com/profile/Gn0b0dy-Pneuma) wrote about the claim that the perps can see through your eyes and read your mind: survivors repeat it, and the perps who say it to them are the ones lying. They close on a paraphrase of Sun Tzu — make your enemy think you are powerful when you are not, and close when you are far.
+
+Their comment is below in full. Read it in their words rather than in my summary of them.
+
+[Screenshot — A comment by Gn0b0dy Pneuma in the Skills Economy space on Quora, reading: I constantly see TIs say gang stalkers can see through their eyes and hear what they hear, yet in my experience it is them always lying when they make that claim, but I do see how someone can tricked into believing it. I also don't think they can read your mind per se, only hear your internal voice and are good at saying what you expect them to say. So if you think they can read your mind you will expect them to say what is on your mind and then they say it, which they use to try and trick you into believing they know way more than they actually do. Maybe they are able to with other TIs tho, but when they tell me that I know they are lying. People like that love the art of war: Make your enemy think you are powerful when you are not, close when you are far, paraphrase.]
+
+I do not believe it either. And I think I can say what is actually happening in its place.
+
+People are predictable, and that is not a flaw
+
+Predictability is not a weakness anybody needs to apologize for. It is part of how a person stays alive and stays sane — the rhythm you keep is what makes a day possible at all.
+
+And most of us are alike in the ways that matter to somebody watching. Everyone has to eat. When you eat and what you eat is a recurring activity, and a recurring activity can be observed, recorded, and predicted. You do not need access to a mind to know what someone will do on Tuesday afternoon. You need to have been paying attention on the last forty Tuesdays.
+
+The pizza
+
+Here is my own example, and it is small on purpose.
+
+They made me destitute. Once you are there, the question is not what you like. It is what hot food you can get for the least money. Somebody once explained to me that people with no money buy pasta in bulk, because it is cheap and it fills you. I could not do that. I have no stove. So the answer in my case turned out to be a particular chain's pizza — hot, cheap, no cooking required.
+
+They concluded it was my favorite food.
+
+If they could read a mind, they would know that it is not. It is a budget with the options removed. They watched what I bought, they saw the same thing repeatedly, and they drew the obvious wrong conclusion — the way anybody would who is looking at behavior from the outside and guessing at the reason underneath.
+
+Then they use it. They will eat it in front of me to mark a day they arranged to go badly. They will taunt me that I cannot afford it. That is the ordinary sensitization work: take a thing you have been seen with often, attach it to a bad moment, and repeat until the thing itself carries the moment with it.
+
+So I keep my likes and dislikes to myself
+
+This has been going on since I was five. That length of time does two things. It gives them an enormous amount to observe, and it taught me early to give them very little.
+
+I do not talk about what I enjoy. Other survivors have not learned that, and I do not blame them for it. If you were targeted later in life you already had a job, a family, children, all the ordinary machinery of an adult, and there is too much running at once to notice a stranger repeating themselves.
+
+I had the opposite. I was a child, and I did not speak English. Observation was all I had, and it was easy. My first stalker was an adult in their thirties when I was five: a stranger, no language in common with me, carrying open hatred for a child who had done nothing to them. It was not the repetition that gave it away. It was that. There is no version of a grown adult hating a five-year-old they have never spoken to that a child reads as ordinary.
+
+I do not think I am unusually clever. I think I was placed, very young, in a position where the only available activity was watching.
+
+How they get accurate
+
+Three things, none of them extraordinary.
+
+They observe over years, with people working at it full time. Not full time on me — there is more than one target in a city, and the same operatives work several of us. That is the efficiency of it, and this is a business before it is anything else. A fake neighbor moves in tasked with harassing me, but plausible deniability means at least one person in that household holds an ordinary job. During that job they are still working: on me, and on other people. We are all on one list, and social media is what makes a list like that cheap to spread.
+
+They compare across the people they traffic. Many of us are similar in the ways that show from outside, so a pattern learned from one person predicts the next.
+
+And they stalk their own. That part gets missed. A network you cannot see is a network you cannot command, so the operatives are watched too — which means the surveillance apparatus is pointed inward as much as outward.
+
+Put those together and you can guess well enough to look uncanny. Nothing in it requires reading a thought.
+
+What the errors tell you
+
+The mistakes are the useful part, because they show where the limit is.
+
+Imagine engineering someone into destitution, watching them eat out of a trash can, and concluding that the trash can must be their favorite restaurant. That is the shape of the reasoning. They see the behavior and cannot see the constraint that produced it, so they attribute to preference what was produced by having no choices left.
+
+Which is worth saying plainly: there are survivors who describe these people as geniuses. They are not. They are violent criminals with money, technology, and a network. Those are real advantages and I am not waving them away. They are not the same thing as insight, and treating them as insight does the work for them — it is the same move as the "secret society" brag and the same move as steering you toward which exploit is on your phone. Every one of those makes them larger than they are, and every one puts you to work on a question that changes nothing.
+
+The largest version of it takes them out of the human category altogether: the Illuminati, a bloodline, something with God on its side. That is the most flattering story available, and they do not have to tell it to us. We tell it to each other.
+
+Look at what it costs to hold. If they are supernatural then they are permanent, which leaves you mortal and them not, and there is nothing left to do but endure it and interpret it. That is exactly the position this is meant to put you in. Fixating on how they do it always ends there.
+
+The history says otherwise, and I have written about this before (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/who-put-you-on-the-list). The transatlantic slave trade ran on a fraction of the technology and had the entire globe participating in one capacity or another — and its central lie, that race is a real division between kinds of people, is still believed by people today. Hitler had less technology than the phone in your pocket and commanded a country with it. Neither needed anything beyond people, money, permission, and a story worth repeating.
+
+A psyop is a psyop. This one has better equipment and the same skeleton.
+
+The part that is actually fixable
+
+Notice what made me predictable. It was not carelessness. It was poverty. One hot meal I could afford meant one thing to observe.
+
+And it compounds. Push someone further down — into depending on family who are taking part, which is its own named scheme, The Forced Homecoming — and the options narrow again. Fewer options means more predictable behavior, and more predictable behavior makes every other scheme cheaper to run. Easier to schedule. Easier to recruit people for, because an operative told in advance what you will do, who then watches you do it, comes away convinced they have joined something that knows everything. Easier to slander, because the same story lands on the same audience every time.
+
+There is one more use for it, and it is the one worth watching for. Constrain enough people the same way and they begin to behave alike, because there is only one thing left to do. Then the sameness gets presented as the discovery: look at all these people, all doing the same thing. The accusation on the label varies — terrorist, addict, dangerous, whatever the roulette lands on that year — and the manufactured uniformity is offered as the evidence for it. They produce the pattern, then point at it as proof.
+
+A person with options is harder to read, and options are not a mindset — they are material. Somewhere to cook. Money that does not come through anyone doing this to you. Enough of your week arranged among people who are not reporting on it.
+
+That is not a defense against being watched. Nothing is. It is a way of being worth less to watch.
+
+Where to find it in the app
+
+- ClickLog (https://app.chargingthefuture.com/apps/click-log) — guide (https://app.chargingthefuture.com/guide#click-log)
+- Commons (https://app.chargingthefuture.com) — guide (https://app.chargingthefuture.com/guide#commons)
+
+The named schemes, including the sensitization ones, are public: chargingthefuture.com/schemes (https://www.chargingthefuture.com/schemes).
+
+To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/pizza-is-not-my-favorite-food
 
 ==============================================================================
 2026-08-21 · A Safe Place to Shower
