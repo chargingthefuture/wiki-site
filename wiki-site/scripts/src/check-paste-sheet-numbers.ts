@@ -13,7 +13,8 @@
  *
  * It also fails when either Quora sheet lists its entries in an order other than the one /feed
  * shows (owner directive, 2026-10-03: the sheets follow the blog). The order is read from the
- * registry wiki:sync writes, so run the sync first.
+ * registry wiki:sync writes, so run the sync first. And it fails when two invite posts sit back to
+ * back on /feed, apart from the one pair the owner allowed.
  *
  *   Run: pnpm wiki:check-numbers
  */
@@ -62,6 +63,19 @@ function checkOrder(sheet: string, text: string): void {
 }
 checkOrder('QUORA_PASTE_SHEET.txt', list);
 checkOrder('QUORA_PASTE_SHEET_FULL.txt', readFileSync(resolve(WIKI_ROOT, 'QUORA_PASTE_SHEET_FULL.txt'), 'utf8'));
+
+// Invite posts are never back to back on /feed (owner directive, 2026-10-03): a reader scrolling
+// past two invitations in a row reads the feed as a recruitment page. The one exception the owner
+// made stands as the pair below; a new pair fails the check, and the fix is the merge order or the
+// post date, never this list.
+const ALLOWED_ADJACENT_INVITES = new Set(['wiki-site/an-invitation-to-brecht|wiki-site/an-invitation-to-eli']);
+const feedPages = feedOrder(WIKI_ROOT);
+for (let i = 1; i < feedPages.length; i++) {
+  const [above, below] = [feedPages[i - 1], feedPages[i]];
+  if (!/^An invitation to /.test(above.title) || !/^An invitation to /.test(below.title)) continue;
+  const pair = `${feedKey(above)}|${feedKey(below)}`;
+  if (!ALLOWED_ADJACENT_INVITES.has(pair)) problems.push(`/feed: invite posts back to back: ${feedKey(above)} above ${feedKey(below)}. Invites are never adjacent (owner directive, 2026-10-03).`);
+}
 
 const tts = readFileSync(resolve(WIKI_ROOT, 'TTS_PASTE_SHEET.txt'), 'utf8');
 for (const entry of tts.split(/\n=+ \d{4}-\d{2}-\d{2}[^\n]*=+\n/).slice(1)) {

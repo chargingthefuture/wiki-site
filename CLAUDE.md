@@ -546,6 +546,17 @@ image file names carrying a date, and to paste sheet entry headers. Getting it
 wrong puts a post in the feed under tomorrow, which is visible to every reader
 and has to be corrected in public.
 
+A post's `date` is the day it reaches `main`, Eastern (owner directive, 2026-10-03), not the day
+it was drafted. A post written on the 2nd and merged on the 3rd is dated the 3rd; `/s` sets it
+on the branch before the merge, and three posts merged on 2026-10-03 under the 2nd were redated.
+Same-day posts are ordered on `/feed` by the commit that brought each to `main` (`wiki:sync`
+reads `origin/main` first-parent history), then by when each was written, so the feed reads in
+publication order.
+
+Invite posts are never back to back on `/feed` (owner directive, 2026-10-03). The owner made one
+exception, Brecht above Eli on 2026-09-28, and `pnpm wiki:check-numbers` fails on any other pair.
+Fix the merge order or the date, never the check's list.
+
 A date written into prose reads month first: September 20, not 20 September.
 This blog writes US English and 41 posts already do it that way; three invite
 posts drifted the other way and were corrected on 2026-09-20.

@@ -73,27 +73,10 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 423
   },
   {
-    "slug": "the-lit-country",
-    "title": "The Lit Country",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-02",
-    "excerpt": "The Peace Battle 2 game is now a map. You are one hearth with one trade and five percent of a day, and the country lights up one card at a time. Free, offline, no account.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/the-lit-country.md",
-    "teaser": "The Peace Battle 2 game has been rebuilt as a map you play with one thumb. A dark country of hearths, 174 of them lit on the day it was built, each with a trade from the same skills list the app uses. You get five percent of a day. You spend it on one small task toward somebody else's goal, a road lights between you, and other people's five percents arrive on the roads behind yours. When a land is fully lit it sings, and the schemes cannot enter it. Win when the country supplies 99% of what it needs from its own people. Free, offline once opened, no account, nothing leaves your phone.",
-    "topics": [
-      "peace-battle-2",
-      "skills-economy",
-      "community"
-    ],
-    "number": 420
-  },
-  {
     "slug": "an-invitation-to-nikki",
     "title": "An invitation to Nikki",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-02",
+    "date": "2026-10-03",
     "excerpt": "Nikki asked why nobody does anything. The people doing something are survivors, and what they build needs somebody who can run it.",
     "category": "Community",
     "collection": "posts",
@@ -110,7 +93,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "how-the-skills-economy-finds-real-members",
     "title": "How the Skills Economy finds real members",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-02",
+    "date": "2026-10-03",
     "excerpt": "A Quora bot asked how my group verifies new members. It used to be by hand, one conversation at a time. Now Trust shows what people actually do, and real members surface.",
     "category": "Community",
     "collection": "posts",
@@ -122,6 +105,23 @@ export const ARTICLES: ArticleMeta[] = [
       "community"
     ],
     "number": 421
+  },
+  {
+    "slug": "the-lit-country",
+    "title": "The Lit Country",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-03",
+    "excerpt": "The Peace Battle 2 game is now a map. You are one hearth with one trade and five percent of a day, and the country lights up one card at a time. Free, offline, no account.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/the-lit-country.md",
+    "teaser": "The Peace Battle 2 game has been rebuilt as a map you play with one thumb. A dark country of hearths, 174 of them lit on the day it was built, each with a trade from the same skills list the app uses. You get five percent of a day. You spend it on one small task toward somebody else's goal, a road lights between you, and other people's five percents arrive on the roads behind yours. When a land is fully lit it sings, and the schemes cannot enter it. Win when the country supplies 99% of what it needs from its own people. Free, offline once opened, no account, nothing leaves your phone.",
+    "topics": [
+      "peace-battle-2",
+      "skills-economy",
+      "community"
+    ],
+    "number": 420
   },
   {
     "slug": "an-invitation-to-holly",
@@ -495,23 +495,6 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 400
   },
   {
-    "slug": "it-happens-at-work",
-    "title": "It happens at work",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-28",
-    "excerpt": "Somebody asked on Quora whether this happens at work. It does, and work is where it does the most damage, because work is where the income is.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/it-happens-at-work.md",
-    "teaser": "Somebody asked on Quora whether this happens in professional or work settings. It does, and there is an old name for the workplace version: mobbing, a group turning on one colleague over months until the person leaves or breaks. Work is where it does the most damage, because work is where the income is. Pushing somebody out of a job cuts them off from money, from colleagues, and from the next job. What answers that is a dated record, and work arranged with people who are not part of it.",
-    "topics": [
-      "specterati",
-      "clicklog",
-      "workforce"
-    ],
-    "number": 399
-  },
-  {
     "slug": "an-invitation-to-zack",
     "title": "An invitation to Zack",
     "repo": "chargingthefuture/wiki-site",
@@ -527,6 +510,23 @@ export const ARTICLES: ArticleMeta[] = [
       "workforce"
     ],
     "number": 398
+  },
+  {
+    "slug": "it-happens-at-work",
+    "title": "It happens at work",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-28",
+    "excerpt": "Somebody asked on Quora whether this happens at work. It does, and work is where it does the most damage, because work is where the income is.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/it-happens-at-work.md",
+    "teaser": "Somebody asked on Quora whether this happens in professional or work settings. It does, and there is an old name for the workplace version: mobbing, a group turning on one colleague over months until the person leaves or breaks. Work is where it does the most damage, because work is where the income is. Pushing somebody out of a job cuts them off from money, from colleagues, and from the next job. What answers that is a dated record, and work arranged with people who are not part of it.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "workforce"
+    ],
+    "number": 399
   },
   {
     "slug": "an-invitation-to-jessica",
@@ -865,6 +865,22 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 376
   },
   {
+    "slug": "an-invitation-to-gn0b0dy-pneuma",
+    "title": "An invitation to Gn0b0dy Pneuma",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-19",
+    "excerpt": "Their writing is already on this blog three times. The list does not need us to agree about what this is or who is doing it. It needs what a person can do.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-gn0b0dy-pneuma.md",
+    "teaser": "Gn0b0dy Pneuma's writing is already on this blog three times: the post on shielding fabric and faraday cages that holds more practical knowledge on the subject than everything I have written put together, and the comment on the claim that operators can see through your eyes. This is the invitation, in public. It does not ask them to agree with my account of what this is or who is doing it. The list runs on what a person can do and what they need, and somebody who bought the fabric, built the cages and wrote down what failed is doing rather than saying.",
+    "topics": [
+      "community",
+      "directory"
+    ],
+    "number": 374
+  },
+  {
     "slug": "what-can-be-stopped",
     "title": "What can be stopped",
     "repo": "chargingthefuture/wiki-site",
@@ -880,22 +896,6 @@ export const ARTICLES: ArticleMeta[] = [
       "clicklog"
     ],
     "number": 375
-  },
-  {
-    "slug": "an-invitation-to-gn0b0dy-pneuma",
-    "title": "An invitation to Gn0b0dy Pneuma",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-19",
-    "excerpt": "Their writing is already on this blog three times. The list does not need us to agree about what this is or who is doing it. It needs what a person can do.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/an-invitation-to-gn0b0dy-pneuma.md",
-    "teaser": "Gn0b0dy Pneuma's writing is already on this blog three times: the post on shielding fabric and faraday cages that holds more practical knowledge on the subject than everything I have written put together, and the comment on the claim that operators can see through your eyes. This is the invitation, in public. It does not ask them to agree with my account of what this is or who is doing it. The list runs on what a person can do and what they need, and somebody who bought the fabric, built the cages and wrote down what failed is doing rather than saying.",
-    "topics": [
-      "community",
-      "directory"
-    ],
-    "number": 374
   },
   {
     "slug": "an-invitation-to-syah",
@@ -1042,36 +1042,20 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 365
   },
   {
-    "slug": "peace-battle-2",
-    "title": "Peace Battle 2",
+    "slug": "you-can-talk-under-these-posts-now",
+    "title": "You Can Talk Under These Posts Now",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-09-15",
-    "excerpt": "A protest starts Friday, September 18 at 7:00 PM Eastern. It has no location, because the people it is for are spread across the world and most of them cannot travel to stand anywhere.",
-    "category": "Community",
+    "excerpt": "Fireside is a conversation under every post here. Reading takes no account at all. Writing takes one, and what you write stays where you left it.",
+    "category": "Platform",
     "collection": "posts",
-    "path": "posts/peace-battle-2.md",
-    "teaser": "Survivors have tried to hold protests and turned up alone. A protest in a place assumes neighbors, money for travel, and a day you can afford to lose, and most Targeted Individuals have none of the three. So this one is distributed, like the thing it answers. It starts Friday, September 18 at 7:00 PM Eastern, it runs for years, and there are three ways to take part — all of them from a phone. The page with the countdown and the links is chargingthefuture.github.io/chargingthefuture/pb2.",
+    "path": "posts/you-can-talk-under-these-posts-now.md",
+    "teaser": "There is now a conversation under every post on this blog. It is called Fireside. Reading it costs nothing — no account, no sign-in, nothing to create — which is the opposite of the platforms that erased more than twenty of my accounts and every comment under them. Writing takes a free account, and what you write is held until you are approved, which you are told at the moment you post rather than left to discover. Your words stay yours: take a comment down whenever you want, and nothing goes onto the published page unless you ask for it and an admin agrees.",
     "topics": [
-      "community",
-      "skills-economy"
+      "fireside",
+      "platform"
     ],
-    "number": 364
-  },
-  {
-    "slug": "ti-radio",
-    "title": "TI Radio: a week of live discussions, and anyone can read it",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-15",
-    "excerpt": "A published schedule of live talks survivors host. Reading it needs no account.",
-    "category": "Product",
-    "collection": "posts",
-    "path": "posts/ti-radio.md",
-    "teaser": "Survivors host live discussions, and until now the only way to say so was an announcement. An announcement reaches whoever is looking the day it goes out, and it cannot let somebody else put themselves on a list. So there is now a page that holds a week: seven days of 90-minute slots, in your own timezone, showing who is hosting and what it is about. Reading it needs no account at all. Taking a slot needs one.",
-    "topics": [
-      "product",
-      "community"
-    ],
-    "number": 363
+    "number": 361
   },
   {
     "slug": "whats-your-one-percent",
@@ -1091,20 +1075,36 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 362
   },
   {
-    "slug": "you-can-talk-under-these-posts-now",
-    "title": "You Can Talk Under These Posts Now",
+    "slug": "ti-radio",
+    "title": "TI Radio: a week of live discussions, and anyone can read it",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-09-15",
-    "excerpt": "Fireside is a conversation under every post here. Reading takes no account at all. Writing takes one, and what you write stays where you left it.",
-    "category": "Platform",
+    "excerpt": "A published schedule of live talks survivors host. Reading it needs no account.",
+    "category": "Product",
     "collection": "posts",
-    "path": "posts/you-can-talk-under-these-posts-now.md",
-    "teaser": "There is now a conversation under every post on this blog. It is called Fireside. Reading it costs nothing — no account, no sign-in, nothing to create — which is the opposite of the platforms that erased more than twenty of my accounts and every comment under them. Writing takes a free account, and what you write is held until you are approved, which you are told at the moment you post rather than left to discover. Your words stay yours: take a comment down whenever you want, and nothing goes onto the published page unless you ask for it and an admin agrees.",
+    "path": "posts/ti-radio.md",
+    "teaser": "Survivors host live discussions, and until now the only way to say so was an announcement. An announcement reaches whoever is looking the day it goes out, and it cannot let somebody else put themselves on a list. So there is now a page that holds a week: seven days of 90-minute slots, in your own timezone, showing who is hosting and what it is about. Reading it needs no account at all. Taking a slot needs one.",
     "topics": [
-      "fireside",
-      "platform"
+      "product",
+      "community"
     ],
-    "number": 361
+    "number": 363
+  },
+  {
+    "slug": "peace-battle-2",
+    "title": "Peace Battle 2",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-15",
+    "excerpt": "A protest starts Friday, September 18 at 7:00 PM Eastern. It has no location, because the people it is for are spread across the world and most of them cannot travel to stand anywhere.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/peace-battle-2.md",
+    "teaser": "Survivors have tried to hold protests and turned up alone. A protest in a place assumes neighbors, money for travel, and a day you can afford to lose, and most Targeted Individuals have none of the three. So this one is distributed, like the thing it answers. It starts Friday, September 18 at 7:00 PM Eastern, it runs for years, and there are three ways to take part — all of them from a phone. The page with the countdown and the links is chargingthefuture.github.io/chargingthefuture/pb2.",
+    "topics": [
+      "community",
+      "skills-economy"
+    ],
+    "number": 364
   },
   {
     "slug": "what-i-missed-about-everything-on-the-blockchain",
@@ -1577,36 +1577,20 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 335
   },
   {
-    "slug": "pizza-is-not-my-favorite-food",
-    "title": "Pizza Is Not My Favorite Food",
+    "slug": "they-are-not-a-secret-society",
+    "title": "They Are Not a Secret Society",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-08-21",
-    "excerpt": "They decided that it is. They decided it because destitution left me one hot meal I could afford, and they mistook a budget for a preference. That is not mind reading. It is arithmetic.",
+    "excerpt": "A secret society hides its membership and purpose. These people announce themselves to their targets all day long. Two new Dictionary entries, and I want survivors to tell me whether they are right.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/pizza-is-not-my-favorite-food.md",
-    "teaser": "A Targeted Individual wrote in the Skills Economy space that other Targeted Individuals say the perps can read their minds and see through their eyes. The person who wrote it does not believe the claim. Neither do I, and I want to say what is actually going on instead. People are predictable, which is not a flaw — it is how we stay alive and sane. They watch, they compare notes across the people they traffic, and they guess well. Then they tell you it was telepathy. Pizza is the example I have: they concluded it was my favorite food, when it was the only hot meal I could afford without a stove.",
+    "path": "posts/they-are-not-a-secret-society.md",
+    "teaser": "Two lines went into the Dictionary today. The first is that \"secret society\" is their own brag and is wrong by definition — a secret society hides who belongs to it, and these people advertise themselves to their targets constantly, because the signaling is the harassment. The second is collective amusement: the reason the days are scheduled and graded is that a group is watching, and the audience is the point. Both definitions are open for argument, and I would rather be corrected by survivors than be confidently wrong in public.",
     "topics": [
-      "specterati",
-      "clicklog"
+      "dictionary",
+      "specterati"
     ],
-    "number": 329
-  },
-  {
-    "slug": "estonia-did-not-get-to-solve-it-either",
-    "title": "Estonia Did Not Get to Solve It Either",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-21",
-    "excerpt": "A country of 1.3 million sits beside a much larger one that treats it as a target. That did not stop and is not going to. They live anyway, and they built in the one direction that mattered.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/estonia-did-not-get-to-solve-it-either.md",
-    "teaser": "The question nobody in this community answers honestly is what you do if it never stops. Estonia is the answer I keep coming back to: a small country next to a much larger one that has treated it as a target for as long as it has existed, with no prospect of that ending. That did not become everything the country is. It built in the direction of needing the neighbor for less and less, and people got on with their lives — work, hobbies, children. This happening to you is part of life. It is not a sentence, and it is not who you are.",
-    "topics": [
-      "specterati",
-      "economics"
-    ],
-    "number": 330
+    "number": 328
   },
   {
     "slug": "why-they-want-you-living-with-family",
@@ -1625,20 +1609,36 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 327
   },
   {
-    "slug": "they-are-not-a-secret-society",
-    "title": "They Are Not a Secret Society",
+    "slug": "estonia-did-not-get-to-solve-it-either",
+    "title": "Estonia Did Not Get to Solve It Either",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-08-21",
-    "excerpt": "A secret society hides its membership and purpose. These people announce themselves to their targets all day long. Two new Dictionary entries, and I want survivors to tell me whether they are right.",
+    "excerpt": "A country of 1.3 million sits beside a much larger one that treats it as a target. That did not stop and is not going to. They live anyway, and they built in the one direction that mattered.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/they-are-not-a-secret-society.md",
-    "teaser": "Two lines went into the Dictionary today. The first is that \"secret society\" is their own brag and is wrong by definition — a secret society hides who belongs to it, and these people advertise themselves to their targets constantly, because the signaling is the harassment. The second is collective amusement: the reason the days are scheduled and graded is that a group is watching, and the audience is the point. Both definitions are open for argument, and I would rather be corrected by survivors than be confidently wrong in public.",
+    "path": "posts/estonia-did-not-get-to-solve-it-either.md",
+    "teaser": "The question nobody in this community answers honestly is what you do if it never stops. Estonia is the answer I keep coming back to: a small country next to a much larger one that has treated it as a target for as long as it has existed, with no prospect of that ending. That did not become everything the country is. It built in the direction of needing the neighbor for less and less, and people got on with their lives — work, hobbies, children. This happening to you is part of life. It is not a sentence, and it is not who you are.",
     "topics": [
-      "dictionary",
-      "specterati"
+      "specterati",
+      "economics"
     ],
-    "number": 328
+    "number": 330
+  },
+  {
+    "slug": "pizza-is-not-my-favorite-food",
+    "title": "Pizza Is Not My Favorite Food",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-21",
+    "excerpt": "They decided that it is. They decided it because destitution left me one hot meal I could afford, and they mistook a budget for a preference. That is not mind reading. It is arithmetic.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/pizza-is-not-my-favorite-food.md",
+    "teaser": "A Targeted Individual wrote in the Skills Economy space that other Targeted Individuals say the perps can read their minds and see through their eyes. The person who wrote it does not believe the claim. Neither do I, and I want to say what is actually going on instead. People are predictable, which is not a flaw — it is how we stay alive and sane. They watch, they compare notes across the people they traffic, and they guess well. Then they tell you it was telepathy. Pizza is the example I have: they concluded it was my favorite food, when it was the only hot meal I could afford without a stove.",
+    "topics": [
+      "specterati",
+      "clicklog"
+    ],
+    "number": 329
   },
   {
     "slug": "a-safe-place-to-shower",
@@ -4881,6 +4881,17 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 182
   },
   {
+    "slug": "insights/insights",
+    "title": "Insights",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-30",
+    "excerpt": "Money Laundering vs a Circular Economy",
+    "category": "Insights",
+    "collection": "posts",
+    "path": "posts/insights.md",
+    "number": 179
+  },
+  {
     "slug": "farah-brunache/i-met-a-fake-ti-from-quora-damon-mayle-he-has-since-deleted-his-profil",
     "title": "I met a fake TI from Quora, Damon Mayle, he has since deleted his profile.",
     "repo": "chargingthefuture/wiki-site",
@@ -4963,15 +4974,15 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 180
   },
   {
-    "slug": "insights/insights",
-    "title": "Insights",
+    "slug": "insights/#49-of-how-TI-Skills-Network-helps-you-exit-the-psyop",
+    "title": "#49 of how TI Skills Network helps you exit the psyop",
     "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-12-30",
-    "excerpt": "Money Laundering vs a Circular Economy",
+    "date": "2025-12-28",
+    "excerpt": "I have listed, with the help of Nat Morris, 50 things the Specterati do as part of their torturing of humanity. And how the TI Skills Network “fixes” each one.",
     "category": "Insights",
     "collection": "posts",
-    "path": "posts/insights.md",
-    "number": 179
+    "path": "posts/49-of-how-TI-Skills-Network-helps-you-exit-the-psyop.md",
+    "number": 178
   },
   {
     "slug": "farah-brunache/https-www-quora-com-profile-james-mccarthy-512-how-do-you-stay-calm-wh",
@@ -4991,17 +5002,6 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "post-comment"
     }
-  },
-  {
-    "slug": "insights/#49-of-how-TI-Skills-Network-helps-you-exit-the-psyop",
-    "title": "#49 of how TI Skills Network helps you exit the psyop",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-12-28",
-    "excerpt": "I have listed, with the help of Nat Morris, 50 things the Specterati do as part of their torturing of humanity. And how the TI Skills Network “fixes” each one.",
-    "category": "Insights",
-    "collection": "posts",
-    "path": "posts/49-of-how-TI-Skills-Network-helps-you-exit-the-psyop.md",
-    "number": 178
   },
   {
     "slug": "Look-ma,-I-fixed-it!",
