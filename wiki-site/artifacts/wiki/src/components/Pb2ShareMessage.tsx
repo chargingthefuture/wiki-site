@@ -5,14 +5,13 @@ import { Copy, Check } from "lucide-react";
 //
 // Why it exists: Peace Battle 2 asks people to post about the Skills Economy, and the only
 // written-out posts were the owner's own. Those carry an argument, and a supporter who does not
-// agree with every line of it posts nothing at all. These describe a feature, or point at an
-// invitation, and stop — so there is nothing in them to disagree with and nobody is asked to
-// endorse an opinion to take part.
+// agree with every line of it posts nothing at all. These say what a thing is and stop — so there
+// is nothing in them to disagree with and nobody is asked to endorse an opinion to take part.
 //
-// Two sources, both written by the build:
-//   pb2-messages.json — one post per member-facing part of the app, from content/pb2-share-messages.yaml.
-//   invites.json      — the published invite posts, which the invite row on /feed also reads.
-// A new invite post therefore joins the pool with no edit here.
+// One source, written by the build: pb2-messages.json, from content/pb2-share-messages.yaml.
+// Three topics and no others — Peace Battle 2, One Percent, PeerProgramming (owner directive,
+// 2026-10-03). Invite posts used to join the pool from invites.json and no longer do: three
+// topics say one thing, and a reader who follows one finds the rest of the app on their own.
 //
 // One a day, and a different one per reader. Both halves are there to keep participants out of
 // trouble. If everybody who arrives on a given day sees the same text, Quora sees a row of
@@ -33,41 +32,7 @@ type Pb2Message = {
   body: string;
 };
 
-type InviteCard = {
-  name: string;
-  title: string;
-  slug: string;
-  url: string;
-};
-
 const READER_KEY = "pb2-reader";
-
-// The blog's standing sign-up line, verbatim — the same fixed block every post ends with. The
-// feature posts get it from the build; an invite post is assembled here, so it is added here too.
-// Kept identical to SIGN_UP_LINE in scripts/src/build-pb2-messages.ts.
-const SIGN_UP_LINE =
-  "To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.";
-
-/**
- * An invite post turned into something a participant can paste.
- *
- * The post's own opening words are not used. An invite is written to the person in the owner's
- * first person, so pasting it verbatim would have a participant writing as somebody else. This
- * says what the post is and hands over the address.
- */
-function fromInvite(card: InviteCard): Pb2Message {
-  return {
-    id: `invite-${card.slug}`,
-    feature: "An invitation",
-    title: card.title,
-    body: [
-      "The TI Skills Economy invites people one at a time, in public. Not a form letter — a post written to the person by name, saying why they were asked.",
-      `This is the one written to ${card.name}. Reading it needs no account.`,
-      card.url,
-      SIGN_UP_LINE,
-    ].join("\n\n"),
-  };
-}
 
 /**
  * A value that stays with this browser, so the same reader keeps the same order day after day and
@@ -149,15 +114,9 @@ export function Pb2ShareMessage() {
   useEffect(() => {
     let canceled = false;
     setSeed(readerSeed());
-    Promise.all([
-      loadJson<{ messages?: Pb2Message[] }>("pb2-messages.json", {}),
-      loadJson<{ invites?: InviteCard[] }>("invites.json", {}),
-    ]).then(([features, invites]) => {
+    loadJson<{ messages?: Pb2Message[] }>("pb2-messages.json", {}).then((pool) => {
       if (canceled) return;
-      setMessages([
-        ...(Array.isArray(features.messages) ? features.messages : []),
-        ...(Array.isArray(invites.invites) ? invites.invites.map(fromInvite) : []),
-      ]);
+      setMessages(Array.isArray(pool.messages) ? pool.messages : []);
     });
     return () => {
       canceled = true;
@@ -201,9 +160,9 @@ export function Pb2ShareMessage() {
   return (
     <div className="mb-12">
       <p className="font-sans text-lg text-gray-300 mb-2">
-        Copy it, paste it, post it. Each one says what a part of the app does, or points at an
-        invitation written to somebody by name. There is no opinion in them to agree with, and none
-        of them speak for you.
+        Copy it, paste it, post it. Each one says what Peace Battle 2, One Percent or the
+        PeerProgramming goal board is, and stops. There is no opinion in them to agree with, and
+        none of them speak for you.
       </p>
       <p className="font-sans text-gray-400 mb-6">
         One a day, and yours is not the one the next person sees. Come back tomorrow for the next.

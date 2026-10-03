@@ -123,14 +123,17 @@ carries it, because the owner froze that page outright and that freeze has not b
   served by the app at `/api/beacon/replays/feed`, not built here, for the same reason; `index.html`
   carries an autodiscovery link to it. The players point at the app's recording address, which
   fetches a current file address on every play, because the file address itself expires.
-- Share messages for Peace Battle 2: `artifacts/wiki/public/pb2-messages.json`, one ready-to-paste
-  post per member-facing part of the app, written by `scripts/src/build-pb2-messages.ts` on
-  `wiki:pb2` from the hand-written `content/pb2-share-messages.yaml`. Build output like the feed:
-  gitignored, never hand-edited — edit the YAML. The block on the Peace Battle 2 page
-  (`Pb2ShareMessage.tsx`) reads this file and `invites.json` together, so a new invite post joins
-  the pool with no code change. It exists because the message of the day is written in the owner's
-  voice and carries their argument, and a supporter who does not agree with every line of it posts
-  nothing at all; these say what a part of the app does and stop. No other post on this blog is in
+- Share messages for Peace Battle 2: `artifacts/wiki/public/pb2-messages.json`, three ready-to-paste
+  posts and no more — Peace Battle 2, One Percent, and the PeerProgramming goal board (owner
+  directive, 2026-10-03) — written by `scripts/src/build-pb2-messages.ts` on `wiki:pb2` from the
+  hand-written `content/pb2-share-messages.yaml`. Build output like the feed: gitignored, never
+  hand-edited — edit the YAML. The block on the Peace Battle 2 page (`Pb2ShareMessage.tsx`) reads
+  that file alone. It used to carry one post per part of the app and every invite post from
+  `invites.json`; a reader handed twenty-eight parts in rotation is handed a catalog, and three
+  topics say one thing, so a reader who follows one finds the rest of the app on their own. Do not
+  add a topic without the owner's say. It exists because the message of the day is written in the
+  owner's voice and carries their argument, and a supporter who does not agree with every line of
+  it posts nothing at all; these say what a thing is and stop. No other post on this blog is in
   the pool, for the same reason (owner decision, 2026-09-21). One post a day, and a different one
   per reader: both halves keep participants out of trouble. Everybody seeing the same text on the
   same day is the shape spam detection catches, and a control that advances through the pool lets

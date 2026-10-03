@@ -4,8 +4,12 @@
  *
  * Why this exists: the protest asks people to post about the Skills Economy, and until now the
  * only written-out posts were the owner's own, which carry the owner's argument. A supporter who
- * does not agree with every line of it makes no post at all. These say what a part of the app
- * does and stop, so there is nothing in them to disagree with.
+ * does not agree with every line of it makes no post at all. These say what a thing is and stop,
+ * so there is nothing in them to disagree with.
+ *
+ * Three topics only — Peace Battle 2, One Percent, PeerProgramming (owner directive, 2026-10-03).
+ * The pool used to be one post per part of the app plus every invite; the YAML header says why
+ * it no longer is.
  *
  * Source is content/pb2-share-messages.yaml, hand-written. It is not generated from the in-app
  * guide: that text is written for somebody already inside the app, and it reads wrong pasted in
@@ -44,13 +48,15 @@ export type Pb2Message = {
   id: string;
   feature: string;
   title: string;
-  /** The post itself: plain text, paragraphs separated by a blank line, the guide link and the sign-up line last. */
+  /** Where the labeled link line points. Absent, the build points at the guide section for `id`. */
+  link?: string;
+  /** The post itself: plain text, paragraphs separated by a blank line, the link and the sign-up line last. */
   body: string;
 };
 
 /**
  * A deliberately small YAML reader for the one shape this file has: a `messages:` list of entries
- * with `id`, `feature`, `title` and a block-literal `body`. Pulling a YAML parser in for this
+ * with `id`, `feature`, `title`, an optional `link` and a block-literal `body`. Pulling a YAML parser in for this
  * would add a dependency to a build that has none, and a general parser would accept shapes this
  * file should reject anyway.
  */
@@ -102,7 +108,7 @@ function parseMessages(text: string): Pb2Message[] {
       continue;
     }
 
-    const field = line.match(/^ {4}(feature|title|body):\s*(.*)$/);
+    const field = line.match(/^ {4}(feature|title|link|body):\s*(.*)$/);
     if (field && current) {
       const [, key, rest] = field;
       if (key === 'body') {
@@ -111,7 +117,7 @@ function parseMessages(text: string): Pb2Message[] {
         }
         bodyLines = [];
       } else {
-        current[key as 'feature' | 'title'] = rest.trim();
+        current[key as 'feature' | 'title' | 'link'] = rest.trim();
       }
       continue;
     }
@@ -137,11 +143,11 @@ function main(): void {
     seen.add(message.id);
   }
 
-  // The two closing lines are appended here rather than written into every entry, so the labels
-  // and the addresses cannot drift apart across twenty-seven hand-written messages.
-  const withLinks = messages.map((message) => ({
+  // The two closing lines are appended here rather than written into every entry, so the label
+  // and the sign-up line cannot drift apart across the hand-written messages.
+  const withLinks = messages.map(({ link, ...message }) => ({
     ...message,
-    body: `${message.body}\n\nWhat it is: ${GUIDE_BASE}#${message.id}\n\n${SIGN_UP_LINE}`,
+    body: `${message.body}\n\nWhat it is: ${link ?? `${GUIDE_BASE}#${message.id}`}\n\n${SIGN_UP_LINE}`,
   }));
 
   mkdirSync(dirname(OUT), { recursive: true });
