@@ -3,24 +3,56 @@
 # The message of the day on the admin side is written in the owner's voice and carries their
 # argument. That is the wrong asset to hand a participant: somebody who supports the protest may
 # not agree with every opinion in it, and a post they half-agree with is one they do not make. So
-# these say what a part of the app does and nothing else. There is nothing here to disagree with.
+# these say what a thing is and nothing else. There is nothing here to disagree with.
 #
-# One entry per member-facing feature. Each stands on its own — a reader may never click the
-# link — and ends with a labeled link line, because a bare address alone on a line is what Quora's
-# editor turns into a preview card while a labeled one stays as written.
+# `pool` is the set that is offered, in the order written. Only those ids are built; the rest stay
+# here, unoffered, nothing deleted. Three topics and no others for now (owner directive,
+# 2026-10-03, a narrowed marketing plan): Peace Battle 2 itself, One Percent, and PeerProgramming's
+# goal board. A reader handed twenty-eight parts in rotation is handed a catalog; three topics say
+# one thing, and a reader who follows one finds the rest of the app on their own. Fourteen posts
+# across the three, each a different angle, so a reader sees two weeks before a repeat: the protest
+# runs for years. The word `invites` in the pool adds the published invite posts back in. Widen the topics
+# only on the owner's say.
+#
+# Every post ends with the entry point, which is the Peace Battle 2 page and not the sign-up page
+# (owner directive, 2026-10-03): a reader who arrives from one of these should land on the protest.
+#
+# Each stands on its own — a reader may never click the link — and ends with a labeled link line,
+# because a bare address alone on a line is what Quora's editor turns into a preview card while a
+# labeled one stays as written.
 #
 # Plain text only. Quora's composer shows every markdown marker literally, so there is no
 # formatting here to lose. Paragraphs are separated by a blank line in `body`.
 #
-# The link goes to the guide, which reads with no account. A deep link into the app would send a
-# stranger to a sign-in screen, which is the opposite of what a first post should do. The build
-# also appends the blog's standing sign-up line after it, because the guide alone leaves a reader
-# with nowhere to go once they have read the section.
+# `link` is where an entry's own labeled line points. Leave it out for a part of the app and the
+# build points at its guide section, which reads with no account; a deep link into the app would
+# send a stranger to a sign-in screen, which is the opposite of what a first post should do. An
+# entry whose link is the entry point gets the one line, not two.
 #
 # Adding one: copy an entry, give it an id nothing else uses, and keep it opinion-free. The build
-# refuses a duplicate id or an empty field.
+# refuses a duplicate id, an empty field, or a pool id with no entry.
+
+pool: [peace-battle-2, peer-programming, one-percent, pb2-name, pp-one-card, op-figure, pb2-organized, pp-bad-day, op-road, pb2-winning, pp-it-helped, op-estonia, pb2-virtual, pp-no-chat]
 
 messages:
+  - id: peace-battle-2
+    feature: Peace Battle 2
+    title: A protest you take part in from a phone
+    link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
+    body: |-
+      Peace Battle 2 is a protest for Targeted Individuals, taken part in from a phone, because the people it is for are spread across the world and most of them cannot travel to stand anywhere.
+
+      It is organized, not led. Nobody speaks for survivors. It has two steps, in order: put whatever is left of your day into one small task on somebody else's goal, and work out what a year of your own trade is worth to the community. The first is free. The page has the date, the steps, and the arithmetic.
+
+  - id: one-percent
+    feature: One Percent
+    title: Half an hour on the figure your trade produces
+    link: https://farahbrunache.com
+    body: |-
+      Naming your next customer is the easy part. One Percent is a half hour, in your browser, on what comes after that: the figure your trade produces, the first customer behind it, and coaching and recommendations, optional, for the road from destitution to an autonomous life with the targeting behind you.
+
+      It is the paid tier of the TI Skills Economy and needs no account.
+
   - id: directory
     feature: Directory
     title: There is a list of survivors and what each of them can do
@@ -167,11 +199,110 @@ messages:
 
   - id: peer-programming
     feature: PeerProgramming
-    title: A weekly session where survivors work on things together
+    title: A goal board for the part of the day that is left
     body: |-
-      Small groups, every week, working through real problems rather than talking about them. Each session has a set length, which keeps everyone accountable to each other. You leave with something further along than when you arrived.
+      Most of a Targeted Individual's day goes to the attacks and to what they force. What is left might be five percent, and five percent is not enough to reach a goal alone. Twenty members with five percent of a day each is a full working day.
 
-      Between sessions there is a goal board: post one goal broken into small tasks, and take a task on somebody else's.
+      PeerProgramming opens on a goal board built for that. Post one personal goal with a finish line and break it into tasks small enough to do from a phone in under half an hour. Take any one card from anybody else's goal, do it, and post what you found. A bad day costs nothing: take a card when you have the half hour, and not when you do not. Alongside it there is an optional chat and calls.
+
+  - id: pb2-name
+    feature: Peace Battle 2
+    title: Why a protest has a name
+    link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
+    body: |-
+      In 1903 W. E. B. Du Bois looked back at what the people who founded the colleges had done after the Civil War: 2,000 trained, who trained 50,000, who taught nine millions. He called it the most wonderful peace-battle of the 19th century. It was fought with teaching and with work, and it was won.
+
+      Movements get names. This one had been going on without one, which made it hard to point at and easy to deny. So it has a name, and the name says which lineage it belongs to. Peace Battle 2 is the second one.
+
+  - id: pb2-organized
+    feature: Peace Battle 2
+    title: Organized, not led
+    link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
+    body: |-
+      Peace Battle 2 is organized, not led. Survivors are a distributed group and nobody speaks for them. The person who called the date did it because somebody has to call a date.
+
+      Nothing in it asks you to agree with anybody. It asks for whatever is left of your day, from a phone, on one small task toward another survivor's goal.
+
+  - id: pb2-winning
+    feature: Peace Battle 2
+    title: What winning looks like
+    link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
+    body: |-
+      Peace Battle 2 is finished when a survivor can get 99% of what they need, housing, transportation, goods and services, from other survivors. Not 100%: a phone and a vehicle need supply chains no community this size can run. Nearly everything else can be grown, made, taught, driven, repaired or arranged by somebody already on the list.
+
+      The nearer marker is 384 approved members working with each other at any given time. It is expected to take a generation. It will probably take two.
+
+  - id: pb2-virtual
+    feature: Peace Battle 2
+    title: Why it is virtual
+    link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
+    body: |-
+      A protest is normally bodies in one place. Survivors have tried that and turned up alone, because a protest in a place assumes neighbors, money for travel, and a day that can be given up. Most people this is for have none of the three.
+
+      Targeting is spread across every country, race, class and religion, so the answer is distributed too. Peace Battle 2 began on September 18, 2026, runs for years, and costs nothing but the minutes you give it.
+
+  - id: pp-one-card
+    feature: PeerProgramming
+    title: One card, from a phone, in under half an hour
+    link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/show-up-with-your-percent
+    body: |-
+      On the PeerProgramming goal board, a card is one small task from somebody else's goal. Find three yards hiring near Dallas and add their numbers. Find three campers under six thousand dollars within two hundred miles of Tulsa. Ask one dealer whether they finance with no credit check.
+
+      You pick any one card, do it, post what you found, and it moves to Done with your name on it. One card is plenty.
+
+  - id: pp-bad-day
+    feature: PeerProgramming
+    title: A bad day costs nothing
+    link: https://app.chargingthefuture.com/guide#peer-programming
+    body: |-
+      A goal is a chain of small steps, and the attacks land on the chain. A step gets missed, the order breaks, and it starts over.
+
+      The PeerProgramming goal board breaks the chain into cards other people can carry. You take a card when you have the half hour, and you do not when you do not. Nobody is waiting on you, and the goal keeps moving.
+
+  - id: pp-it-helped
+    feature: PeerProgramming
+    title: What counts
+    link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/show-up-with-your-percent
+    body: |-
+      When a goal's owner marks a card "It helped", it counts. It goes toward the day's 384, the count of members who delivered something to another member on one day, and toward the helper's Weavers of the Commons badge.
+
+      A card kept without that mark, or sent back, does not count. The owner of the goal decides, because they are the one who knows whether it helped.
+
+  - id: pp-no-chat
+    feature: PeerProgramming
+    title: No conversation on the board, on purpose
+    link: https://app.chargingthefuture.com/guide#peer-programming
+    body: |-
+      Group chats for this have been tried three ways and none of them held. Who shows up depends on how hard the day was, so the chat is a different room every time, and it slides from doing into comparing notes about the attacks, which already have most of the day.
+
+      The PeerProgramming goal board holds a goal, its cards, and their results, and nothing else can be written there. The weekly sessions and the call are still in PeerProgramming, and they are optional.
+
+  - id: op-figure
+    feature: One Percent
+    title: The figure your trade produces
+    link: https://farahbrunache.com
+    body: |-
+      Serve one percent of five million survivors and that is 50,000 people. Workforce runs the arithmetic from those 50,000 back to you, weighted to your own trade, and shows what a year of serving them would add to the Community Value Index. That figure is your 1%.
+
+      One Percent is the half hour on what to do with it: the first customer behind the figure, and the step after that.
+
+  - id: op-road
+    feature: One Percent
+    title: From destitution to an autonomous life
+    link: https://farahbrunache.com
+    body: |-
+      Most Targeted Individuals were pushed out of employment, and on purpose. What is left is the trade itself: what you know how to do, which nobody took.
+
+      One Percent starts from the trade. A half hour, in your browser, on the figure it produces, the first customer behind it, and coaching and recommendations, optional, for the road from destitution to an autonomous life with the targeting behind you.
+
+  - id: op-estonia
+    feature: One Percent
+    title: The Estonia of Targeted Individuals
+    link: https://farahbrunache.com
+    body: |-
+      Estonia: 1.3 million people, occupied by a power that outnumbered them by more than a hundred to one and surveilled them through an informant network that reached into every town. They kept their language, kept their identity, and took their country back.
+
+      Each survivor who makes the road from destitution to an autonomous life is one more citizen of the Estonia of Targeted Individuals. One Percent is a half hour on your first step down it.
 
   - id: chyme
     feature: Chyme

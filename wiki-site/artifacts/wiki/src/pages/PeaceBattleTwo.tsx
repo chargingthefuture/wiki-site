@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "wouter";
-import { Calculator, Phone, Target, ArrowRight } from "lucide-react";
+import { Phone, Target, ArrowRight } from "lucide-react";
 import { Layout } from "@/components/Layout";
 import { Pb2ShareMessage } from "@/components/Pb2ShareMessage";
 
@@ -258,13 +258,15 @@ export default function PeaceBattleTwo() {
               million survivors.
             </p>
             <p className="font-sans text-gray-300 mb-4">
-              This shows the way there, one round at a time. You start with the 147 people on the
-              Directory today and a list of 657 skills an economy needs. Each round you choose how much
-              goes to teaching skills and how much to doing the work, then see where that leads in two
-              generations. It is free, it needs no account, and it works offline once it opens.
+              The Lit Country is that economy as a map you play with one thumb. You are one hearth
+              with one trade and five percent of a day. You spend it on one small task toward
+              somebody else&rsquo;s goal, a road lights between you, and the country lights up one
+              card at a time until it supplies 99% of what it needs from its own people. It starts
+              from the 174 people on the Directory and the 713 skills an economy needs. It is free,
+              it needs no account, and it works offline once it opens.
             </p>
             <a href={LINKS.game} className="font-heading font-bold uppercase text-primary hover:text-white inline-flex items-center gap-2">
-              See the math <ArrowRight size={16} />
+              Play The Lit Country <ArrowRight size={16} />
             </a>
             <p className="font-mono text-xs text-gray-500 mt-2 break-all">{LINKS.game}</p>
           </div>
@@ -272,9 +274,10 @@ export default function PeaceBattleTwo() {
             <h3 className="font-heading text-xl uppercase font-bold mb-2">What's your 1%?</h3>
             <p className="font-sans text-gray-300 mb-4">
               The 300 billion is made of single people doing their own work, and you are one of them.
-              Serve one percent of those five million survivors and that is 50,000 people. This works
-              back from those 50,000 to you, starting from your own trade, and shows what a year of
-              serving them would add to the Community Value Index.
+              Serve one percent of those five million survivors and that is 50,000 people. Workforce
+              runs the arithmetic from those 50,000 back to you, weighted to your own trade, and shows
+              what a year of serving them would add to the Community Value Index. That figure is your
+              1%.
             </p>
             <a href={LINKS.onePercent} className="font-heading font-bold uppercase text-primary hover:text-white inline-flex items-center gap-2">
               Open your figures <ArrowRight size={16} />
@@ -285,44 +288,45 @@ export default function PeaceBattleTwo() {
 
         <h2 className="font-heading text-3xl uppercase font-bold text-primary mb-4">Enact</h2>
         <p className="font-sans text-lg text-gray-300 mb-6">
-          Three steps, in the order they come. The first two are free and self-service, and they stay
-          that way. The third is paid, and only for somebody who wants to take it further.
+          Two steps, in the order they come. The first is free and self-service, and it stays that
+          way. The second is paid, and only for somebody who wants to take it further.
         </p>
 
-        {/* Three steps and one subject: your 1%. Fireside and TI Radio used to sit here and both
+        {/* Two steps and one subject: your 1%, which Envision introduces. Fireside and TI Radio used to sit here and both
             still exist in the app. They came out because every extra ask on this page is one more
             thing a reader has to decide about before doing any of them. */}
         <div className="space-y-6 mb-12">
           <Step
             n={1}
-            icon={<Calculator size={22} />}
-            title="See your 1%"
-            href={LINKS.onePercent}
-            cta="Open Workforce"
-          >
-            <p>
-              Workforce runs the arithmetic from 50,000 people back to you, weighted to your own
-              trade, and shows what serving them would be worth in a year. That figure is your 1%.
-            </p>
-          </Step>
-
-          <Step
-            n={2}
             icon={<Target size={22} />}
             title="Start on it in PeerProgramming"
             href={LINKS.goals}
             cta="Open the goal board"
           >
             <p>
-              Nobody here gets a full day. The attacks take most of it, and what is left over is
-              small. Put what you have left into the goal board: post the task you need help with,
-              with a finish line, and pick up a small task from somebody else&rsquo;s goal. Find
-              three numbers, make one call, look up one listing. Other people&rsquo;s leftover time
-              adds up for you the same way.
+              Most of a day here goes to the attacks and to what they force, and what is left might
+              be five percent. Five percent is not enough to reach a personal goal alone, because a
+              goal is a chain of small steps and the attacks land on the chain. It is enough when it
+              is not all one person&rsquo;s: twenty members with five percent of a day each is a full
+              working day.
             </p>
             <p>
-              The board is in PeerProgramming, alongside its chat and calls. Taking part needs an
-              approved account.
+              That is what the goal board runs on. Post a personal goal with a finish line and break
+              it into tasks small enough to do from a phone in under half an hour: find three yards
+              hiring near Dallas, ask one dealer whether they finance with no credit check. Then take
+              any one card from anybody else&rsquo;s goal, do it, and post what you found. A bad day
+              now costs nothing: take a card when you have the half hour, and not when you do not.
+              And others do the same.
+            </p>
+            <p>
+              The board is in PeerProgramming, alongside an optional chat and calls.{" "}
+              <Link
+                href="/article/wiki-site/show-up-with-your-percent"
+                className="text-primary font-bold hover:text-white"
+              >
+                Show up with your percent
+              </Link>{" "}
+              says how it works and why it is shaped this way.
             </p>
             <img
               src={`${import.meta.env.BASE_URL}images/pb2-goal-board.png`}
@@ -333,16 +337,25 @@ export default function PeaceBattleTwo() {
           </Step>
 
           <Step
-            n={3}
+            n={2}
             icon={<Phone size={22} />}
             title="Take it further with One Percent"
             href={LINKS.paidTier}
             cta="Open One Percent"
           >
             <p>
-              One Percent is the paid tier: a call of up to half an hour, in your browser, about the
-              figure your trade produces and the first customer behind it. It costs $7 and needs no
-              account.
+              Naming your next customer is the easy part. One Percent is a half hour, in your
+              browser, on what comes after that: the figure your trade produces, the first customer
+              behind it, and coaching and recommendations, optional, for the road from destitution to
+              an autonomous life with the targeting behind you. Each person who makes that road is
+              one more citizen of the &ldquo;
+              <Link
+                href="/article/wiki-site/the-two-generation-goal"
+                className="text-primary font-bold hover:text-white"
+              >
+                Estonia
+              </Link>
+              &rdquo; of Targeted Individuals.
             </p>
             <p>
               <Link
@@ -357,12 +370,12 @@ export default function PeaceBattleTwo() {
           </Step>
         </div>
 
-        {/* Not a fourth thing to do. Posting about the app is where people stop, and the reason is
+        {/* Not a third thing to do. Posting about the app is where people stop, and the reason is
             that they do not want to write one. So the words are already written, and
             they are about the app rather than about the argument — somebody who supports this and
             disagrees with the organizer on something else can still post these without speaking for
             anybody. Posts from this blog are not in the pool for that reason. */}
-        <h2 className="font-heading text-3xl uppercase font-bold text-primary mb-4">If you do not want to write one</h2>
+        <h2 className="font-heading text-3xl uppercase font-bold text-primary mb-4">Spread the word</h2>
         <Pb2ShareMessage />
 
         <h2 className="font-heading text-3xl uppercase font-bold text-primary mb-4">What winning looks like</h2>
