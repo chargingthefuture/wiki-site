@@ -756,6 +756,14 @@ The date does not move and no dated correction is published. Nothing a reader ac
 
 What this replaces is the paragraph explaining what was wrong with the old sentence. The owner could see it was wrong, which is why they sent it, and they read and type on a phone on limited usage.
 
+### /s — sync the registry and settle the numbers (owner directive, 2026-10-02)
+
+Defined here, in `.claude/commands/s.md`, because it is this repository's work. Runs
+`pnpm wiki:sync`, regenerates the full and TTS paste sheets, runs `pnpm wiki:check-numbers` and
+fixes any paste sheet `No. N` the check names, runs the other checks, commits and pushes on a
+branch (never `main`). Use it when a post merged ahead of another and the one behind carries a
+feed number that is now taken. Reply is three lines: branch, numbers changed, PR link.
+
 ### /cr — product repo only
 
 Working open code-review findings. The code-review issues and their labels live in the product repo, so the routine does not apply here.
