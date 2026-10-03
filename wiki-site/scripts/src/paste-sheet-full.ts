@@ -27,6 +27,10 @@
  *   paragraphs    are unwrapped onto one line each, because Quora treats every
  *                 newline as a paragraph break and the source is hard-wrapped
  *
+ * Order: the same as /feed, newest first, read from the registry wiki:sync writes. A date alone
+ * cannot order same-day posts the way the blog does, so the sheet follows the registry rather than
+ * sorting on its own (owner directive, 2026-10-03). Run wiki:sync before this.
+ *
  * Usage:  pnpm wiki:paste-full
  */
 
@@ -35,6 +39,7 @@ import { resolve, dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseFrontMatter } from './frontmatter.js';
 import { toPasteable } from './paste-text.js';
+import { feedOrder } from './feed-order.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const WIKI_ROOT = resolve(__dirname, '../..');
@@ -44,19 +49,18 @@ const SITE = 'https://chargingthefuture.github.io/chargingthefuture/article/wiki
 const FROM = '2026-08-16';
 
 function main() {
-  const files = readdirSync(POSTS_DIR).filter((f) => f.toLowerCase().endsWith('.md'));
+  const files = new Set(readdirSync(POSTS_DIR).filter((f) => f.toLowerCase().endsWith('.md')));
 
-  const entries = files
-    .map((file) => {
+  const entries = feedOrder(WIKI_ROOT)
+    .filter((page) => page.collection === 'posts' && page.date >= FROM)
+    .map((page) => {
+      const file = page.path?.replace(/^posts\//, '') ?? '';
+      if (!files.has(file)) throw new Error(`registry names ${page.path}, which is not in content/posts; run pnpm wiki:sync`);
       const raw = readFileSync(join(POSTS_DIR, file), 'utf8');
       const { meta } = parseFrontMatter(raw);
       return { file, meta, raw };
     })
-    .filter((e) => e.meta?.date && String(e.meta.date) >= FROM)
-    .sort((a, b) => {
-      const d = String(b.meta!.date).localeCompare(String(a.meta!.date));
-      return d !== 0 ? d : a.file.localeCompare(b.file);
-    });
+    .filter((e) => e.meta?.date && String(e.meta.date) >= FROM);
 
   const header = [
     'QUORA PASTE SHEET — FULL POSTS',
