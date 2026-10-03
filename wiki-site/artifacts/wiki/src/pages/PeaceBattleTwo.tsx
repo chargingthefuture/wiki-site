@@ -302,15 +302,29 @@ export default function PeaceBattleTwo() {
             cta="Open the goal board"
           >
             <p>
-              Nobody here gets a full day. The attacks take most of it, and what is left over is
-              small. Put what you have left into the goal board: post the task you need help with,
-              with a finish line, and pick up a small task from somebody else&rsquo;s goal. Find
-              three numbers, make one call, look up one listing. Other people&rsquo;s leftover time
-              adds up for you the same way.
+              Most of a day here goes to the attacks and to what they force, and what is left might
+              be five percent. Five percent is not enough to reach a personal goal alone, because a
+              goal is a chain of small steps and the attacks land on the chain. It is enough when it
+              is not all one person&rsquo;s: twenty members with five percent of a day each is a full
+              working day.
             </p>
             <p>
-              The board is in PeerProgramming, alongside its chat and calls. Taking part needs an
-              approved account.
+              That is what the goal board runs on. Post a personal goal with a finish line and break
+              it into tasks small enough to do from a phone in under half an hour: find three yards
+              hiring near Dallas, ask one dealer whether they finance with no credit check. Then take
+              any one card from anybody else&rsquo;s goal, do it, and post what you found. A bad day
+              now costs nothing: take a card when you have the half hour, and not when you do not.
+              And others do the same.
+            </p>
+            <p>
+              The board is in PeerProgramming, alongside an optional chat and calls.{" "}
+              <Link
+                href="/article/wiki-site/show-up-with-your-percent"
+                className="text-primary font-bold hover:text-white"
+              >
+                Show up with your percent
+              </Link>{" "}
+              says how it works and why it is shaped this way.
             </p>
             <img
               src={`${import.meta.env.BASE_URL}images/pb2-goal-board.png`}
@@ -328,9 +342,18 @@ export default function PeaceBattleTwo() {
             cta="Open One Percent"
           >
             <p>
-              One Percent is the paid tier: a call of up to half an hour, in your browser, about the
-              figure your trade produces and the first customer behind it. It costs $7 and needs no
-              account.
+              Naming your next customer is the easy part. One Percent is a half hour, in your
+              browser, on what comes after that: the figure your trade produces, the first customer
+              behind it, and coaching and recommendations, optional, for the road from destitution to
+              an autonomous life with the targeting behind you. Each person who makes that road is
+              one more citizen of the &ldquo;
+              <Link
+                href="/article/wiki-site/the-two-generation-goal"
+                className="text-primary font-bold hover:text-white"
+              >
+                Estonia
+              </Link>
+              &rdquo; of Targeted Individuals.
             </p>
             <p>
               <Link
