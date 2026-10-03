@@ -183,7 +183,8 @@ function collectArticles(): ArticleRecord[] {
 }
 
 /**
- * First-commit timestamp of a content file, in seconds. Front-matter `date`
+ * Publication timestamp of a content file, in seconds: when it reached main (see below), or its
+ * first commit when it is not on main yet. Front-matter `date`
  * carries no time, so posts published on the same day would otherwise be
  * ordered alphabetically by slug — putting the day's newest post at the bottom
  * of its group and renumbering older same-day posts whenever a new one lands.
@@ -197,10 +198,23 @@ function collectArticles(): ArticleRecord[] {
  * 100% match, so real renames are still followed.
  */
 function firstCommitSeconds(relPath: string): number {
+  // A post is published when it reaches main, so same-day posts are ordered by the commit that
+  // brought the file to main (first-parent history of origin/main, or main when that ref is
+  // absent): the merge commit, which is also the moment that sets the post's date (owner directive,
+  // 2026-10-03). A file not on main yet is ordered by its own first commit, which is where it will
+  // be ranked as a provisional position until it merges.
+  for (const ref of ['origin/main', 'main']) {
+    const onMain = gitLogSeconds(['--first-parent', ref], relPath);
+    if (onMain) return onMain;
+  }
+  return gitLogSeconds(['--follow', '-M90%'], relPath);
+}
+
+function gitLogSeconds(selector: string[], relPath: string): number {
   try {
     const out = execFileSync(
       'git',
-      ['log', '--follow', '-M90%', '--diff-filter=A', '--format=%at', '--', `content/${relPath}`],
+      ['log', ...selector, '--diff-filter=A', '--format=%at', '--', `content/${relPath}`],
       { cwd: BLOG_ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] },
     ).trim();
     if (!out) return 0;
@@ -237,12 +251,19 @@ function assignFeedNumbers(sortedNewestFirst: ArticleRecord[]): Record<string, n
 
 function render(articles: ArticleRecord[]): string {
   const publishedAt = new Map<string, number>();
-  for (const a of articles) publishedAt.set(a.path, firstCommitSeconds(a.path));
+  const writtenAt = new Map<string, number>();
+  for (const a of articles) {
+    publishedAt.set(a.path, firstCommitSeconds(a.path));
+    writtenAt.set(a.path, gitLogSeconds(['--follow', '-M90%'], a.path));
+  }
   const sorted = [...articles].sort((a, b) => {
     const diff = new Date(b.date).getTime() - new Date(a.date).getTime();
     if (diff !== 0) return diff;
     const byCommit = (publishedAt.get(b.path) ?? 0) - (publishedAt.get(a.path) ?? 0);
     if (byCommit !== 0) return byCommit;
+    // Two posts that reached main in one merge commit are ordered by when each was written.
+    const byWritten = (writtenAt.get(b.path) ?? 0) - (writtenAt.get(a.path) ?? 0);
+    if (byWritten !== 0) return byWritten;
     return a.slug.localeCompare(b.slug);
   });
 

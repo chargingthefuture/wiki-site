@@ -11,7 +11,10 @@ directly: if the current branch is `main`, create `chore/sync-<date>` first (per
    the sync ranks same-day posts by each file's first commit as seen from `HEAD`, and during an
    unresolved merge `HEAD` is still the branch tip, so every post arriving from `main` has no
    history yet and sorts last.
-2. From `wiki-site/`: `pnpm wiki:sync`, then `pnpm wiki:paste-full` and `pnpm wiki:paste-tts`.
+2. A post's `date` is the day it reaches `main`, Eastern time (owner directive, 2026-10-03). Set
+   the `date` of every post this branch adds to today's Eastern date (`TZ=America/New_York date
+   +%F`), and the date in its `QUORA_PASTE_SHEET.txt` header line with it; the owner merges the
+   same day. Then, from `wiki-site/`: `pnpm wiki:sync`, `pnpm wiki:paste-full`, `pnpm wiki:paste-tts`.
 3. `pnpm wiki:check-numbers`. If it reports a page whose paste sheet `No. N` differs from
    `/feed`, change that entry's number in `QUORA_PASTE_SHEET.txt` to the number the check names,
    and nothing else in the entry. Never edit `content/feed-numbers.json` by hand; `wiki:sync`
