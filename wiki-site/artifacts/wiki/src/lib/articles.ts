@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "peace-battle-2-has-one-subject-your-one-percent",
     "title": "Peace Battle 2 has one subject: your 1%",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-02",
+    "date": "2026-10-03",
     "excerpt": "Peace Battle 2 now asks one thing, in three steps: see your 1% in Workforce, start on it on the goal board, and, only if you want to, take it further with One Percent.",
     "category": "Community",
     "collection": "posts",
@@ -53,7 +53,7 @@ export const ARTICLES: ArticleMeta[] = [
       "workforce",
       "peer-programming"
     ],
-    "number": 426
+    "number": 427
   },
   {
     "slug": "approved-three-things-to-do-next",
