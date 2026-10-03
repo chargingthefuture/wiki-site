@@ -39,6 +39,56 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "peace-battle-2-has-one-subject-your-one-percent",
+    "title": "Peace Battle 2 has one subject: your 1%",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-03",
+    "excerpt": "Peace Battle 2 now asks one thing, in three steps: see your 1% in Workforce, start on it on the goal board, and, only if you want to, take it further with One Percent.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/peace-battle-2-has-one-subject-your-one-percent.md",
+    "teaser": "Peace Battle 2 has been running since Friday, September 18, 2026 at 7:00 PM Eastern: a distributed protest with no location, named for the peace-battle W. E. B. Du Bois wrote about in 1903. It now has one subject, your 1%, and three steps in order. See your 1% in Workforce. Start on it on the PeerProgramming goal board, with the part of the day that is left. And if you want help reaching it, One Percent is the paid initiative for that: a call of up to half an hour, in your browser. The Skills Economy is the free, self-service way to reach your 1%, and the first two steps are complete without One Percent.",
+    "topics": [
+      "community",
+      "workforce",
+      "peer-programming"
+    ],
+    "number": 427
+  },
+  {
+    "slug": "approved-three-things-to-do-next",
+    "title": "Approved? Three things to do next",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-03",
+    "excerpt": "Once you are approved: find who is already here on the Directory, put what is left of your day into one card on the goal board, and ask the Commons or @comic for anything else.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/approved-three-things-to-do-next.md",
+    "teaser": "This follows New here? Three things to do first, which covers Unlock, writing while you wait, and listing your skills. Once you are approved, three more. Look through the Directory for who is already here and what they can do, and keep your own listing current. Put what is left of your day into one small card on somebody else's goal on the PeerProgramming board, and post a goal of your own. For anything that is not on the board, ask in the Commons, or ask @comic, the assistant in that chat.",
+    "topics": [
+      "community",
+      "directory",
+      "peer-programming"
+    ],
+    "number": 426
+  },
+  {
+    "slug": "sending-a-child-is-abuse",
+    "title": "Sending a child is abuse",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-03",
+    "excerpt": "Somebody asked on Quora whether the people doing this know they are putting their children in harm's way. They know. The harm to the child is done by the adult who sends them, before anybody else is involved.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/sending-a-child-is-abuse.md",
+    "teaser": "EB asked on Quora whether the people doing this know they are putting their children in harm's way. They know. Commanding a dog to attack a person who poses no threat is abuse of the dog, and nobody argues otherwise. Sending a child to do the same is abuse of the child. The children brought into this are told how to dress, what scene to play out, and who to get close to, and an adult who arranges a child that way, for the adult's own ends, has already done the harm. The chance that the person a child is sent after strikes back is real, and it is the lesser of the two. What a reader can do is write down what happens, with the date, as it happens.",
+    "topics": [
+      "specterati",
+      "community"
+    ],
+    "number": 425
+  },
+  {
     "slug": "an-invitation-to-no-name-individual",
     "title": "An invitation to No Name Individual",
     "repo": "chargingthefuture/wiki-site",
@@ -122,56 +172,6 @@ export const ARTICLES: ArticleMeta[] = [
       "community"
     ],
     "number": 420
-  },
-  {
-    "slug": "peace-battle-2-has-one-subject-your-one-percent",
-    "title": "Peace Battle 2 has one subject: your 1%",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-03",
-    "excerpt": "Peace Battle 2 now asks one thing, in three steps: see your 1% in Workforce, start on it on the goal board, and, only if you want to, take it further with One Percent.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/peace-battle-2-has-one-subject-your-one-percent.md",
-    "teaser": "Peace Battle 2 has been running since Friday, September 18, 2026 at 7:00 PM Eastern: a distributed protest with no location, named for the peace-battle W. E. B. Du Bois wrote about in 1903. It now has one subject, your 1%, and three steps in order. See your 1% in Workforce. Start on it on the PeerProgramming goal board, with the part of the day that is left. And if you want help reaching it, One Percent is the paid initiative for that: a call of up to half an hour, in your browser. The Skills Economy is the free, self-service way to reach your 1%, and the first two steps are complete without One Percent.",
-    "topics": [
-      "community",
-      "workforce",
-      "peer-programming"
-    ],
-    "number": 427
-  },
-  {
-    "slug": "approved-three-things-to-do-next",
-    "title": "Approved? Three things to do next",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-03",
-    "excerpt": "Once you are approved: find who is already here on the Directory, put what is left of your day into one card on the goal board, and ask the Commons or @comic for anything else.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/approved-three-things-to-do-next.md",
-    "teaser": "This follows New here? Three things to do first, which covers Unlock, writing while you wait, and listing your skills. Once you are approved, three more. Look through the Directory for who is already here and what they can do, and keep your own listing current. Put what is left of your day into one small card on somebody else's goal on the PeerProgramming board, and post a goal of your own. For anything that is not on the board, ask in the Commons, or ask @comic, the assistant in that chat.",
-    "topics": [
-      "community",
-      "directory",
-      "peer-programming"
-    ],
-    "number": 426
-  },
-  {
-    "slug": "sending-a-child-is-abuse",
-    "title": "Sending a child is abuse",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-03",
-    "excerpt": "Somebody asked on Quora whether the people doing this know they are putting their children in harm's way. They know. The harm to the child is done by the adult who sends them, before anybody else is involved.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/sending-a-child-is-abuse.md",
-    "teaser": "EB asked on Quora whether the people doing this know they are putting their children in harm's way. They know. Commanding a dog to attack a person who poses no threat is abuse of the dog, and nobody argues otherwise. Sending a child to do the same is abuse of the child. The children brought into this are told how to dress, what scene to play out, and who to get close to, and an adult who arranges a child that way, for the adult's own ends, has already done the harm. The chance that the person a child is sent after strikes back is real, and it is the lesser of the two. What a reader can do is write down what happens, with the date, as it happens.",
-    "topics": [
-      "specterati",
-      "community"
-    ],
-    "number": 425
   },
   {
     "slug": "an-invitation-to-holly",

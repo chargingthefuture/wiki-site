@@ -45,7 +45,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const WIKI_ROOT = resolve(__dirname, '../..');
 const POSTS_DIR = join(WIKI_ROOT, 'content/posts');
 const OUT = join(WIKI_ROOT, 'QUORA_PASTE_SHEET_FULL.txt');
-const SITE = 'https://chargingthefuture.github.io/chargingthefuture/article/wiki-site';
+const SITE = 'https://chargingthefuture.github.io/chargingthefuture/article';
 const FROM = '2026-08-16';
 
 function main() {
@@ -58,7 +58,7 @@ function main() {
       if (!files.has(file)) throw new Error(`registry names ${page.path}, which is not in content/posts; run pnpm wiki:sync`);
       const raw = readFileSync(join(POSTS_DIR, file), 'utf8');
       const { meta } = parseFrontMatter(raw);
-      return { file, meta, raw };
+      return { file, meta, raw, repo: page.repo.split('/')[1] ?? page.repo };
     })
     .filter((e) => e.meta?.date && String(e.meta.date) >= FROM);
 
@@ -82,7 +82,9 @@ function main() {
 
   const blocks = entries.map((e) => {
     const slug = e.meta!.slug || e.file.replace(/\.md$/i, '');
-    const url = `${SITE}/${encodeURIComponent(slug)}`;
+    // A migrated page keeps its original repo namespace in its address (Dictionary lives under
+    // chargingthefuture/, not wiki-site/), so the link is built from the registry's repo.
+    const url = `${SITE}/${e.repo}/${encodeURIComponent(slug)}`;
     return [
       '='.repeat(78),
       `${e.meta!.date} · ${e.meta!.title}`,
