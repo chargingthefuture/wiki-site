@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "the-lit-country",
+    "title": "The Lit Country",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-02",
+    "excerpt": "The Peace Battle 2 game is now a map. You are one hearth with one trade and five percent of a day, and the country lights up one card at a time. Free, offline, no account.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/the-lit-country.md",
+    "teaser": "The Peace Battle 2 game has been rebuilt as a map you play with one thumb. A dark country of hearths, 174 of them lit on the day it was built, each with a trade from the same skills list the app uses. You get five percent of a day. You spend it on one small task toward somebody else's goal, a road lights between you, and other people's five percents arrive on the roads behind yours. When a land is fully lit it sings, and the schemes cannot enter it. Win when the country supplies 99% of what it needs from its own people. Free, offline once opened, no account, nothing leaves your phone.",
+    "topics": [
+      "peace-battle-2",
+      "skills-economy",
+      "community"
+    ],
+    "number": 420
+  },
+  {
     "slug": "an-invitation-to-holly",
     "title": "An invitation to Holly",
     "repo": "chargingthefuture/wiki-site",
@@ -189,23 +206,6 @@ export const ARTICLES: ArticleMeta[] = [
       "gdp"
     ],
     "number": 411
-  },
-  {
-    "slug": "the-lit-country",
-    "title": "The Lit Country",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-02",
-    "excerpt": "The Peace Battle 2 game is now a map. You are one hearth with one trade and five percent of a day, and the country lights up one card at a time. Free, offline, no account.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/the-lit-country.md",
-    "teaser": "The Peace Battle 2 game has been rebuilt as a map you play with one thumb. A dark country of hearths, 174 of them lit on the day it was built, each with a trade from the same skills list the app uses. You get five percent of a day. You spend it on one small task toward somebody else's goal, a road lights between you, and other people's five percents arrive on the roads behind yours. When a land is fully lit it sings, and the schemes cannot enter it. Win when the country supplies 99% of what it needs from its own people. Free, offline once opened, no account, nothing leaves your phone.",
-    "topics": [
-      "peace-battle-2",
-      "skills-economy",
-      "community"
-    ],
-    "number": 420
   },
   {
     "slug": "an-invitation-to-sherri",
