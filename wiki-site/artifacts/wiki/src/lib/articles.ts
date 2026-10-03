@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "approved-three-things-to-do-next",
     "title": "Approved? Three things to do next",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-02",
+    "date": "2026-10-03",
     "excerpt": "Once you are approved: find who is already here on the Directory, put what is left of your day into one card on the goal board, and ask the Commons or @comic for anything else.",
     "category": "Community",
     "collection": "posts",
@@ -53,13 +53,13 @@ export const ARTICLES: ArticleMeta[] = [
       "directory",
       "peer-programming"
     ],
-    "number": 425
+    "number": 426
   },
   {
     "slug": "sending-a-child-is-abuse",
     "title": "Sending a child is abuse",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-02",
+    "date": "2026-10-03",
     "excerpt": "Somebody asked on Quora whether the people doing this know they are putting their children in harm's way. They know. Sending a child to do it is abuse of the child, before any other risk.",
     "category": "Community",
     "collection": "posts",
@@ -69,7 +69,7 @@ export const ARTICLES: ArticleMeta[] = [
       "specterati",
       "community"
     ],
-    "number": 424
+    "number": 425
   },
   {
     "slug": "an-invitation-to-no-name-individual",

@@ -1,6 +1,6 @@
 ---
 title: "Sending a child is abuse"
-date: "2026-10-02"
+date: "2026-10-03"
 excerpt: "Somebody asked on Quora whether the people doing this know they are putting their children in harm's way. They know. Sending a child to do it is abuse of the child, before any other risk."
 category: "Community"
 teaser: "EB asked on Quora whether the people doing this know they are putting their children in harm's way. They know. Commanding a dog to attack a person who poses no threat is abuse of the dog. Sending a child to do the same is abuse of the child. In my view it comes close to prostituting them: being told how to dress, what scene to act out, who to sleep with. That harm comes first. The chance that the person the child is sent after strikes back is real, and it is the lesser of the two."
