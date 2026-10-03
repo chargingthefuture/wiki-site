@@ -1668,7 +1668,7 @@ Workforce is a live simulation of individual and community potential. It shows w
 
 What it shows.
 
-The model starts from a population of five million survivors and the share of them who work. I cataloged every job and title a working economy that size needs, about 650 of them, and spread the working population across sectors by how much of an economy each sector makes up. That is the demand side.
+The model starts from a population of five million survivors and the share of them who work. I cataloged the jobs, titles and skills a working economy that size needs, 713 skills today, and spread the working population across sectors by how much of an economy each sector makes up. That is the demand side.
 
 The supply side is the Directory. Every active listing is read live and matched by sector, job title, and skill. Nothing is entered twice; when someone adds a skill to their listing, Workforce counts it.
 
