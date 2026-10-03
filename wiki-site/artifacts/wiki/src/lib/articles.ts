@@ -47,7 +47,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/workforce-shows-the-gap.md",
-    "teaser": "In the list of problems the app answers, Workforce sits next to being denied jobs, job applications that never submit, and coworkers who push you out. Nothing on Workforce hands you a job. It is a live simulation of individual and community potential: the jobs a working economy needs, set against the skills members have listed, with the gaps between them in plain view. You read a gap, pick an outcome, and fill it, either by building it yourself or by teaming up with a member who already has the skill. That is how it answers those problems: a living earned without depending on the people causing them.",
+    "teaser": "In the list of problems the app answers, Workforce sits next to being denied jobs, job applications that never submit, and coworkers who push you out. Nothing on Workforce hands you a job. It is a live simulation of individual and community potential: the jobs a working economy needs, set against the skills members have listed, with the gaps between them in plain view. You read a gap, pick an outcome, and fill it, either by building it yourself or by teaming up with a member who already has the skill. That is how it answers those problems: a living earned without depending on the people causing them. Help using the app is free in the Commons; curated help reaching your 1% is One Percent, the paid tier, at farahbrunache.com.",
     "topics": [
       "workforce",
       "economy",

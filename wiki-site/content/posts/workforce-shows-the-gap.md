@@ -3,7 +3,7 @@ title: "Workforce shows the gap. You decide what fills it."
 date: "2026-10-03"
 excerpt: "Workforce is not a job board. It is a live simulation of what each of us, and all of us together, could do. Here is how reading it turns into a living."
 category: "Community"
-teaser: "In the list of problems the app answers, Workforce sits next to being denied jobs, job applications that never submit, and coworkers who push you out. Nothing on Workforce hands you a job. It is a live simulation of individual and community potential: the jobs a working economy needs, set against the skills members have listed, with the gaps between them in plain view. You read a gap, pick an outcome, and fill it, either by building it yourself or by teaming up with a member who already has the skill. That is how it answers those problems: a living earned without depending on the people causing them."
+teaser: "In the list of problems the app answers, Workforce sits next to being denied jobs, job applications that never submit, and coworkers who push you out. Nothing on Workforce hands you a job. It is a live simulation of individual and community potential: the jobs a working economy needs, set against the skills members have listed, with the gaps between them in plain view. You read a gap, pick an outcome, and fill it, either by building it yourself or by teaming up with a member who already has the skill. That is how it answers those problems: a living earned without depending on the people causing them. Help using the app is free in the Commons; curated help reaching your 1% is One Percent, the paid tier, at farahbrunache.com."
 topics:
   - workforce
   - economy
@@ -40,10 +40,19 @@ When the Directory is full, Workforce stops being a model and becomes a real-tim
 
 Traffickers do not hand people material help, so a place organized around giving each other something real filters them out. Being denied jobs, watching applications vanish, being pushed out of a workplace: each is a door somebody else controls. A gap you chose and filled, alone or with a member you found on the Directory, is a living earned without asking that person to open the door.
 
+## If you want more than self-service
+
+Help using the app is free: ask in the Commons, the shared chat you land on when you sign in.
+
+If you want curated help reaching your 1%, the share of the work that Workforce's [What's your 1%?](https://app.chargingthefuture.com/apps/workforce?view=one-percent) tab works out for your trade, that is One Percent, the paid tier. It is a call of up to half an hour, in your browser, about the figure your trade produces and the first customer behind it. It costs $7 and needs no account. It is at https://farahbrunache.com.
+
+Everything above works without it, and stays free.
+
 ## Where to find it in the app
 
 - [Workforce](https://app.chargingthefuture.com/apps/workforce) — [guide](https://app.chargingthefuture.com/guide#workforce)
 - [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
 - [PeerProgramming goal board](https://app.chargingthefuture.com/apps/peer-programming?tab=goals) — [guide](https://app.chargingthefuture.com/guide#peer-programming)
+- [Commons](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
 
 To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
