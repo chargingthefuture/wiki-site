@@ -1,6 +1,6 @@
 ---
 title: "Approved? Three things to do next"
-date: "2026-10-02"
+date: "2026-10-03"
 excerpt: "Once you are approved: find who is already here on the Directory, put what is left of your day into one card on the goal board, and ask the Commons or @comic for anything else."
 category: "Community"
 teaser: "This follows New here? Three things to do first, which covers Unlock, writing while you wait, and listing your skills. Once you are approved, three more. Look through the Directory for who is already here and what they can do, and keep your own listing current. Put what is left of your day into one small card on somebody else's goal on the PeerProgramming board, and post a goal of your own. For anything that is not on the board, ask in the Commons, or ask @comic, the assistant in that chat."

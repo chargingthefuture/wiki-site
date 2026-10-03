@@ -123,14 +123,20 @@ carries it, because the owner froze that page outright and that freeze has not b
   served by the app at `/api/beacon/replays/feed`, not built here, for the same reason; `index.html`
   carries an autodiscovery link to it. The players point at the app's recording address, which
   fetches a current file address on every play, because the file address itself expires.
-- Share messages for Peace Battle 2: `artifacts/wiki/public/pb2-messages.json`, one ready-to-paste
-  post per member-facing part of the app, written by `scripts/src/build-pb2-messages.ts` on
-  `wiki:pb2` from the hand-written `content/pb2-share-messages.yaml`. Build output like the feed:
-  gitignored, never hand-edited — edit the YAML. The block on the Peace Battle 2 page
-  (`Pb2ShareMessage.tsx`) reads this file and `invites.json` together, so a new invite post joins
-  the pool with no code change. It exists because the message of the day is written in the owner's
-  voice and carries their argument, and a supporter who does not agree with every line of it posts
-  nothing at all; these say what a part of the app does and stop. No other post on this blog is in
+- Share messages for Peace Battle 2: `artifacts/wiki/public/pb2-messages.json`, the ready-to-paste
+  posts in the `pool` of the hand-written `content/pb2-share-messages.yaml`, written by
+  `scripts/src/build-pb2-messages.ts` on `wiki:pb2`. Build output like the feed: gitignored, never
+  hand-edited — edit the YAML. The pool is three topics for now — Peace Battle 2, One Percent, and
+  the PeerProgramming goal board (owner directive, 2026-10-03, a narrowed marketing plan), fourteen
+  posts across them, each a different angle, so a reader sees two weeks before a repeat. The
+  entries for the other parts of the app stay in the file unoffered, and the published invite posts
+  (`invites.json`, which the block on the Peace Battle 2 page, `Pb2ShareMessage.tsx`, adds when the
+  pool says `invites`) are out of it too: a reader handed twenty-eight parts in rotation is handed
+  a catalog, and three topics say one thing. Nothing was deleted; widen the pool only on the
+  owner's say. Every post ends with the entry point, which is the Peace Battle 2 page and not the
+  sign-up line (same directive). It exists because the message of the day is written in the
+  owner's voice and carries their argument, and a supporter who does not agree with every line of
+  it posts nothing at all; these say what a thing is and stop. No other post on this blog is in
   the pool, for the same reason (owner decision, 2026-09-21). One post a day, and a different one
   per reader: both halves keep participants out of trouble. Everybody seeing the same text on the
   same day is the shape spam detection catches, and a control that advances through the pool lets
@@ -588,6 +594,12 @@ showed on 2026-09-30. `pnpm wiki:sync` copies them into the registry and gives a
 next free number, and `/feed` shows them (in date order, so a living page still rises when it changes, keeping its number). Never edit or renumber that file: a number
 that changes breaks every recording and paste that already carries it.
 
+Both Quora sheets list their entries in the order `/feed` shows them (owner directive, 2026-10-03),
+read from the registry `wiki:sync` writes: a date alone cannot order same-day posts the way the
+blog does. The full sheet is generated in that order; a new entry in the hand-written sheet goes
+where the post sits on `/feed`, not at the top by default. `pnpm wiki:check-numbers` fails on an
+entry out of order, in CI too, and names the first one.
+
 Publishing a post is not finished until that file carries the new page. Every publish does three
 things: merge the post, add its entry to the paste sheet, and give the owner the Quora excerpt in
 the reply.
@@ -749,6 +761,14 @@ Fix the same wording wherever else it sits — the post, its `excerpt` and `teas
 The date does not move and no dated correction is published. Nothing a reader acted on was wrong; the wording was hard to read. Dated corrections are for a wrong claim about the product or the world.
 
 What this replaces is the paragraph explaining what was wrong with the old sentence. The owner could see it was wrong, which is why they sent it, and they read and type on a phone on limited usage.
+
+### /s — sync the registry and settle the numbers (owner directive, 2026-10-02)
+
+Defined here, in `.claude/commands/s.md`, because it is this repository's work. Runs
+`pnpm wiki:sync`, regenerates the full and TTS paste sheets, runs `pnpm wiki:check-numbers` and
+fixes any paste sheet `No. N` the check names, runs the other checks, commits and pushes on a
+branch (never `main`). Use it when a post merged ahead of another and the one behind carries a
+feed number that is now taken. Reply is three lines: branch, numbers changed, PR link.
 
 ### /cr — product repo only
 

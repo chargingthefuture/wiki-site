@@ -1,6 +1,6 @@
 ---
 title: "An invitation to No Name Individual"
-date: "2026-10-02"
+date: "2026-10-03"
 excerpt: "You asked on Quora what jobs a Targeted Individual can get. Part of the answer is a list you are already on."
 category: "Community"
 teaser: "It is an invitation to join the Skills Economy, and the listing is already there. No Name Individual asked on Quora what jobs a Targeted Individual can get, and I answered on the blog: truck driving and paid healthy-volunteer studies, and past those, the Skills Economy. Being findable for what you do is part of that, and that is what the Directory is for. No Name Individual is on it already, with a placeholder where their skills will go. The listing costs nothing, and no is a complete answer."

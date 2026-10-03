@@ -1,6 +1,6 @@
 ---
 title: "A place to stay when you are living in your car"
-date: "2026-10-02"
+date: "2026-10-03"
 excerpt: "Somebody asked on Quora how to get out of living in their car in a Michigan winter. It took me two years to find three Targeted Individuals to help me. The Skills Economy is trying to make that days."
 category: "Community"
 teaser: "Somebody asked on Quora how to overcome homelessness as a Targeted Individual, living in their car as a Michigan winter came on. The Skills Economy is the only place trying to coordinate housing for all of us. Until now it has meant being on Quora every day, finding people and asking whether they will host or join. It took me two years to find three Targeted Individuals to help me. The Skills Economy is trying to make that minutes, hours or days. Many of us have been through it or are going through it now."
