@@ -30,7 +30,12 @@ jobs:
         working-directory: wiki-site
 
     steps:
+      # Full history: the sync below orders same-day posts by each file's first commit, and the
+      # paste sheet check compares the sheets' order with that. A shallow checkout gives every
+      # file the same first commit and the check fails on an order that is right.
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: pnpm/action-setup@v4
         with:
