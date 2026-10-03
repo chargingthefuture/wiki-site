@@ -354,9 +354,18 @@ export default function PeaceBattleTwo() {
             cta="Open One Percent"
           >
             <p>
-              One Percent is the paid tier: a call of up to half an hour, in your browser, about the
-              figure your trade produces and the first customer behind it. It costs $7 and needs no
-              account.
+              Naming your next customer is the easy part. One Percent is a half hour, in your
+              browser, on what comes after that: the figure your trade produces, the first customer
+              behind it, and coaching and recommendations, optional, for the road from destitution to
+              an autonomous life with the targeting behind you. Each person who makes that road is
+              one more citizen of the &ldquo;
+              <Link
+                href="/article/wiki-site/the-two-generation-goal"
+                className="text-primary font-bold hover:text-white"
+              >
+                Estonia
+              </Link>
+              &rdquo; of Targeted Individuals.
             </p>
             <p>
               <Link
