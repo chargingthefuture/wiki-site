@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "peace-battle-2-has-one-subject-your-one-percent",
+    "title": "Peace Battle 2 has one subject: your 1%",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-03",
+    "excerpt": "Peace Battle 2 now asks one thing, in three steps: see your 1% in Workforce, start on it on the goal board, and, only if you want to, take it further with One Percent.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/peace-battle-2-has-one-subject-your-one-percent.md",
+    "teaser": "Peace Battle 2 has been running since Friday, September 18, 2026 at 7:00 PM Eastern: a distributed protest with no location, named for the peace-battle W. E. B. Du Bois wrote about in 1903. It now has one subject, your 1%, and three steps in order. See your 1% in Workforce. Start on it on the PeerProgramming goal board, with the part of the day that is left. And if you want to take it further, One Percent is a paid half-hour call. The first two steps are complete without it and stay free.",
+    "topics": [
+      "community",
+      "workforce",
+      "peer-programming"
+    ],
+    "number": 427
+  },
+  {
     "slug": "approved-three-things-to-do-next",
     "title": "Approved? Three things to do next",
     "repo": "chargingthefuture/wiki-site",
