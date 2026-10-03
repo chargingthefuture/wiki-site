@@ -39,6 +39,40 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-no-name-individual",
+    "title": "An invitation to No Name Individual",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-03",
+    "excerpt": "You asked on Quora what jobs a Targeted Individual can get. Part of the answer is a list you are already on.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-no-name-individual.md",
+    "teaser": "It is an invitation to join the Skills Economy, and the listing is already there. No Name Individual asked on Quora what jobs a Targeted Individual can get, and I answered on the blog: truck driving and paid healthy-volunteer studies, and past those, the Skills Economy. Being findable for what you do is part of that, and that is what the Directory is for. No Name Individual is on it already, with a placeholder where their skills will go. The listing costs nothing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 424
+  },
+  {
+    "slug": "a-place-to-stay-when-you-are-living-in-your-car",
+    "title": "A place to stay when you are living in your car",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-03",
+    "excerpt": "Somebody asked on Quora how to get out of living in their car in a Michigan winter. It took me two years to find three Targeted Individuals to help me. The Skills Economy is trying to make that days.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/a-place-to-stay-when-you-are-living-in-your-car.md",
+    "teaser": "Somebody asked on Quora how to overcome homelessness as a Targeted Individual, living in their car as a Michigan winter came on. The Skills Economy is the only place trying to coordinate housing for all of us. Until now it has meant being on Quora every day, finding people and asking whether they will host or join. It took me two years to find three Targeted Individuals to help me. The Skills Economy is trying to make that minutes, hours or days. Many of us have been through it or are going through it now.",
+    "topics": [
+      "lighthouse",
+      "community",
+      "directory"
+    ],
+    "number": 423
+  },
+  {
     "slug": "the-lit-country",
     "title": "The Lit Country",
     "repo": "chargingthefuture/wiki-site",
