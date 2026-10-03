@@ -374,7 +374,7 @@ export const ARTICLES: ArticleMeta[] = [
       "directory",
       "workforce"
     ],
-    "number": 407
+    "number": 408
   },
   {
     "slug": "an-epidemic-not-a-secret-society",
@@ -391,7 +391,7 @@ export const ARTICLES: ArticleMeta[] = [
       "community",
       "directory"
     ],
-    "number": 408
+    "number": 407
   },
   {
     "slug": "old-links-new-links",
@@ -407,7 +407,7 @@ export const ARTICLES: ArticleMeta[] = [
       "publishing",
       "platform-independence"
     ],
-    "number": 394
+    "number": 406
   },
   {
     "slug": "it-is-self-defense",
@@ -424,7 +424,7 @@ export const ARTICLES: ArticleMeta[] = [
       "community",
       "directory"
     ],
-    "number": 406
+    "number": 405
   },
   {
     "slug": "Dictionary",
@@ -440,7 +440,7 @@ export const ARTICLES: ArticleMeta[] = [
       "reference",
       "terms"
     ],
-    "number": 390
+    "number": 404
   },
   {
     "slug": "an-invitation-to-brecht",
@@ -457,7 +457,7 @@ export const ARTICLES: ArticleMeta[] = [
       "directory",
       "workforce"
     ],
-    "number": 405
+    "number": 403
   },
   {
     "slug": "an-invitation-to-eli",
@@ -474,7 +474,7 @@ export const ARTICLES: ArticleMeta[] = [
       "directory",
       "workforce"
     ],
-    "number": 404
+    "number": 402
   },
   {
     "slug": "who-teaches-them",
@@ -491,7 +491,7 @@ export const ARTICLES: ArticleMeta[] = [
       "clicklog",
       "community"
     ],
-    "number": 403
+    "number": 401
   },
   {
     "slug": "an-invitation-to-jerrod",
@@ -508,7 +508,7 @@ export const ARTICLES: ArticleMeta[] = [
       "directory",
       "workforce"
     ],
-    "number": 402
+    "number": 400
   },
   {
     "slug": "how-i-can-help",
@@ -525,7 +525,7 @@ export const ARTICLES: ArticleMeta[] = [
       "clicklog",
       "community"
     ],
-    "number": 401
+    "number": 399
   },
   {
     "slug": "questions-from-a-bot",
@@ -542,7 +542,7 @@ export const ARTICLES: ArticleMeta[] = [
       "publishing",
       "community"
     ],
-    "number": 400
+    "number": 398
   },
   {
     "slug": "an-invitation-to-zack",
@@ -559,7 +559,7 @@ export const ARTICLES: ArticleMeta[] = [
       "directory",
       "workforce"
     ],
-    "number": 398
+    "number": 397
   },
   {
     "slug": "it-happens-at-work",
@@ -576,7 +576,7 @@ export const ARTICLES: ArticleMeta[] = [
       "clicklog",
       "workforce"
     ],
-    "number": 399
+    "number": 396
   },
   {
     "slug": "an-invitation-to-jessica",
@@ -593,7 +593,7 @@ export const ARTICLES: ArticleMeta[] = [
       "directory",
       "clicklog"
     ],
-    "number": 397
+    "number": 395
   },
   {
     "slug": "who-to-report-it-to",
@@ -610,7 +610,7 @@ export const ARTICLES: ArticleMeta[] = [
       "clicklog",
       "community"
     ],
-    "number": 396
+    "number": 394
   },
   {
     "slug": "an-invitation-to-krissyy",
@@ -627,7 +627,7 @@ export const ARTICLES: ArticleMeta[] = [
       "directory",
       "workforce"
     ],
-    "number": 395
+    "number": 393
   },
   {
     "slug": "new-here-three-things-to-do-first",
@@ -644,7 +644,7 @@ export const ARTICLES: ArticleMeta[] = [
       "unlock",
       "directory"
     ],
-    "number": 393
+    "number": 392
   },
   {
     "slug": "show-up-with-your-percent",
@@ -661,7 +661,7 @@ export const ARTICLES: ArticleMeta[] = [
       "skills-economy",
       "community"
     ],
-    "number": 392
+    "number": 391
   },
   {
     "slug": "a-reader-nobody-can-close",
@@ -677,7 +677,7 @@ export const ARTICLES: ArticleMeta[] = [
       "platform-independence",
       "publishing"
     ],
-    "number": 391
+    "number": 390
   },
   {
     "slug": "an-invitation-to-lorraine",
@@ -928,7 +928,7 @@ export const ARTICLES: ArticleMeta[] = [
       "community",
       "directory"
     ],
-    "number": 374
+    "number": 375
   },
   {
     "slug": "what-can-be-stopped",
@@ -945,7 +945,7 @@ export const ARTICLES: ArticleMeta[] = [
       "directory",
       "clicklog"
     ],
-    "number": 375
+    "number": 374
   },
   {
     "slug": "an-invitation-to-syah",
@@ -1105,7 +1105,7 @@ export const ARTICLES: ArticleMeta[] = [
       "fireside",
       "platform"
     ],
-    "number": 361
+    "number": 364
   },
   {
     "slug": "whats-your-one-percent",
@@ -1122,7 +1122,7 @@ export const ARTICLES: ArticleMeta[] = [
       "economy",
       "model"
     ],
-    "number": 362
+    "number": 363
   },
   {
     "slug": "ti-radio",
@@ -1138,7 +1138,7 @@ export const ARTICLES: ArticleMeta[] = [
       "product",
       "community"
     ],
-    "number": 363
+    "number": 362
   },
   {
     "slug": "peace-battle-2",
@@ -1154,7 +1154,7 @@ export const ARTICLES: ArticleMeta[] = [
       "community",
       "skills-economy"
     ],
-    "number": 364
+    "number": 361
   },
   {
     "slug": "what-i-missed-about-everything-on-the-blockchain",
@@ -1445,7 +1445,7 @@ export const ARTICLES: ArticleMeta[] = [
       "platform-independence",
       "community"
     ],
-    "number": 338
+    "number": 343
   },
   {
     "slug": "every-community-has-a-threat-model",
@@ -1478,7 +1478,7 @@ export const ARTICLES: ArticleMeta[] = [
       "workforce",
       "directory"
     ],
-    "number": 343
+    "number": 341
   },
   {
     "slug": "why-nothing-is-written-on-a-platform-first",
@@ -1494,7 +1494,7 @@ export const ARTICLES: ArticleMeta[] = [
       "publishing",
       "platform-independence"
     ],
-    "number": 337
+    "number": 340
   },
   {
     "slug": "the-audience-is-already-larger-than-the-goal",
@@ -1528,7 +1528,7 @@ export const ARTICLES: ArticleMeta[] = [
       "model",
       "history"
     ],
-    "number": 341
+    "number": 338
   },
   {
     "slug": "looking-up-this-blog-in-the-wayback-machine",
@@ -1544,7 +1544,7 @@ export const ARTICLES: ArticleMeta[] = [
       "publishing",
       "platform-independence"
     ],
-    "number": 340
+    "number": 337
   },
   {
     "slug": "the-assistant-is-not-a-clinician",
@@ -1576,7 +1576,7 @@ export const ARTICLES: ArticleMeta[] = [
       "publishing",
       "platform-independence"
     ],
-    "number": 334
+    "number": 335
   },
   {
     "slug": "knowledge-library-one-persons-writing",
@@ -1592,7 +1592,7 @@ export const ARTICLES: ArticleMeta[] = [
       "knowledge-library",
       "contributing"
     ],
-    "number": 333
+    "number": 334
   },
   {
     "slug": "what-works-knowledge-that-survives-a-ban",
@@ -1608,7 +1608,7 @@ export const ARTICLES: ArticleMeta[] = [
       "what-works",
       "platform-independence"
     ],
-    "number": 332
+    "number": 333
   },
   {
     "slug": "clicklog-the-record-has-started",
@@ -1624,7 +1624,7 @@ export const ARTICLES: ArticleMeta[] = [
       "clicklog",
       "trends"
     ],
-    "number": 335
+    "number": 332
   },
   {
     "slug": "they-are-not-a-secret-society",
@@ -1640,7 +1640,7 @@ export const ARTICLES: ArticleMeta[] = [
       "dictionary",
       "specterati"
     ],
-    "number": 328
+    "number": 331
   },
   {
     "slug": "why-they-want-you-living-with-family",
@@ -1656,7 +1656,7 @@ export const ARTICLES: ArticleMeta[] = [
       "specterati",
       "housing"
     ],
-    "number": 327
+    "number": 330
   },
   {
     "slug": "estonia-did-not-get-to-solve-it-either",
@@ -1672,7 +1672,7 @@ export const ARTICLES: ArticleMeta[] = [
       "specterati",
       "economics"
     ],
-    "number": 330
+    "number": 329
   },
   {
     "slug": "pizza-is-not-my-favorite-food",
@@ -1688,7 +1688,7 @@ export const ARTICLES: ArticleMeta[] = [
       "specterati",
       "clicklog"
     ],
-    "number": 329
+    "number": 328
   },
   {
     "slug": "a-safe-place-to-shower",
@@ -1704,7 +1704,7 @@ export const ARTICLES: ArticleMeta[] = [
       "clicklog",
       "safety"
     ],
-    "number": 331
+    "number": 327
   },
   {
     "slug": "one-trip-seven-schemes",
@@ -1720,7 +1720,7 @@ export const ARTICLES: ArticleMeta[] = [
       "clicklog",
       "specterati"
     ],
-    "number": 325
+    "number": 326
   },
   {
     "slug": "an-invitation-to-steph-wo",
@@ -1736,7 +1736,7 @@ export const ARTICLES: ArticleMeta[] = [
       "members",
       "skills-economy"
     ],
-    "number": 326
+    "number": 325
   },
   {
     "slug": "transactional-on-purpose",
@@ -1768,7 +1768,7 @@ export const ARTICLES: ArticleMeta[] = [
       "quora",
       "research"
     ],
-    "number": 321
+    "number": 323
   },
   {
     "slug": "clicklog-trends-now-say-where",
@@ -1784,7 +1784,7 @@ export const ARTICLES: ArticleMeta[] = [
       "clicklog",
       "trends"
     ],
-    "number": 323
+    "number": 322
   },
   {
     "slug": "deplatformed-keep-your-people",
@@ -1800,7 +1800,7 @@ export const ARTICLES: ArticleMeta[] = [
       "directory",
       "deplatforming"
     ],
-    "number": 322
+    "number": 321
   },
   {
     "slug": "socketrelay-v3-credits",
@@ -1816,7 +1816,7 @@ export const ARTICLES: ArticleMeta[] = [
       "socketrelay",
       "servicecredits"
     ],
-    "number": 314
+    "number": 320
   },
   {
     "slug": "who-put-you-on-the-list",
@@ -1832,7 +1832,7 @@ export const ARTICLES: ArticleMeta[] = [
       "specterati",
       "skills-economy"
     ],
-    "number": 312
+    "number": 319
   },
   {
     "slug": "honoring-the-earliest-supporters",
@@ -1848,7 +1848,7 @@ export const ARTICLES: ArticleMeta[] = [
       "members",
       "directory"
     ],
-    "number": 317
+    "number": 318
   },
   {
     "slug": "economics-oppress-save",
@@ -1864,7 +1864,7 @@ export const ARTICLES: ArticleMeta[] = [
       "specterati",
       "skills-economy"
     ],
-    "number": 318
+    "number": 317
   },
   {
     "slug": "dew-attack-types",
@@ -1880,7 +1880,7 @@ export const ARTICLES: ArticleMeta[] = [
       "clicklog",
       "dew"
     ],
-    "number": 319
+    "number": 316
   },
   {
     "slug": "oldie-but-goodie-pam-dawson-t-tipton",
@@ -1896,7 +1896,7 @@ export const ARTICLES: ArticleMeta[] = [
       "directory",
       "shoutouts"
     ],
-    "number": 316
+    "number": 315
   },
   {
     "slug": "Skills-Economy-Phone-Wallpapers",
@@ -1912,7 +1912,7 @@ export const ARTICLES: ArticleMeta[] = [
       "wallpapers",
       "brand"
     ],
-    "number": 315
+    "number": 314
   },
   {
     "slug": "clicklog-your-record-and-the-record",
@@ -1928,7 +1928,7 @@ export const ARTICLES: ArticleMeta[] = [
       "clicklog",
       "features"
     ],
-    "number": 320
+    "number": 313
   },
   {
     "slug": "the-manifesto-seven-months-later",
@@ -1944,7 +1944,7 @@ export const ARTICLES: ArticleMeta[] = [
       "economy",
       "progress"
     ],
-    "number": 313
+    "number": 312
   },
   {
     "slug": "an-addition-not-an-alternative",
@@ -4939,7 +4939,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Insights",
     "collection": "posts",
     "path": "posts/insights.md",
-    "number": 179
+    "number": 181
   },
   {
     "slug": "farah-brunache/i-met-a-fake-ti-from-quora-damon-mayle-he-has-since-deleted-his-profil",
@@ -5010,7 +5010,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Guides",
     "collection": "guides",
     "path": "guides/lighthouse/hosting.md",
-    "number": 181
+    "number": 180
   },
   {
     "slug": "guides/workforce-recruiter/inferring-occupations-from-skills",
@@ -5021,7 +5021,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Guides",
     "collection": "guides",
     "path": "guides/workforce-recruiter/inferring-occupations-from-skills.md",
-    "number": 180
+    "number": 179
   },
   {
     "slug": "insights/#49-of-how-TI-Skills-Network-helps-you-exit-the-psyop",

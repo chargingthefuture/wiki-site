@@ -605,6 +605,16 @@ showed on 2026-09-30. `pnpm wiki:sync` copies them into the registry and gives a
 next free number, and `/feed` shows them (in date order, so a living page still rises when it changes, keeping its number). Never edit or renumber that file: a number
 that changes breaks every recording and paste that already carries it.
 
+Reseeded once since, on 2026-10-03 (owner directive): every number is now the page's position on
+`/feed` counted from the bottom, so No. N is the Nth page published. 56 numbers changed, all on
+pages dated 2026-10-01 or earlier, from same-day reshuffles before the freeze; ten teaser readings
+recorded before that day speak the old number (one-trip-seven-schemes, a-safe-place-to-shower,
+pizza-is-not-my-favorite-food, why-they-want-you-living-with-family, they-are-not-a-secret-society,
+clicklog-the-record-has-started, what-works-knowledge-that-survives-a-ban,
+knowledge-library-one-persons-writing, how-few-people-it-takes,
+a-gated-community-and-who-could-plan-it). Frozen again from there: the rule above stands, and a
+living page keeps its number when its date moves.
+
 Both Quora sheets list their entries in the order `/feed` shows them (owner directive, 2026-10-03),
 read from the registry `wiki:sync` writes: a date alone cannot order same-day posts the way the
 blog does. The full sheet is generated in that order; a new entry in the hand-written sheet goes
