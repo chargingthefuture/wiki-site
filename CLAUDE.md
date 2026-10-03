@@ -759,6 +759,9 @@ The owner can also compact on their own terms: typing `/compact` followed by wha
 
 ### /pr — opening a PR is the start of the job, not the end
 
+Defined here too, in `.claude/commands/pr.md`, adapted from the product repository's command for a
+repository where almost every PR is a post and auto-merge is off (owner directive, 2026-10-03).
+
 Agents open pull requests and abandon them. A PR left alone is work that never shipped, and in this repo that matters more than usual: nothing reaches the blog until it is on `main`, and auto-merge is off, so a PR sits until someone acts. Sweep every open PR that is blocked, behind, conflicted, or failing checks, and drive each one to merge — resolve conflicts by understanding both sides, read the actual failure log before touching anything, bring behind branches up to date. Do not report that a PR needs something; do it. Leave alone only a draft someone is actively working, or a PR sitting green and waiting on the owner's review, and say which those are.
 
 ### /fix — rewrite the sentence, do not explain it
