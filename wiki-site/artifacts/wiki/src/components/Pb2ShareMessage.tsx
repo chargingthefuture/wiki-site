@@ -5,14 +5,17 @@ import { Copy, Check } from "lucide-react";
 //
 // Why it exists: Peace Battle 2 asks people to post about the Skills Economy, and the only
 // written-out posts were the owner's own. Those carry an argument, and a supporter who does not
-// agree with every line of it posts nothing at all. These describe a feature, or point at an
+// agree with every line of it posts nothing at all. These say what a thing is, or point at an
 // invitation, and stop — so there is nothing in them to disagree with and nobody is asked to
 // endorse an opinion to take part.
 //
 // Two sources, both written by the build:
-//   pb2-messages.json — one post per member-facing part of the app, from content/pb2-share-messages.yaml.
+//   pb2-messages.json — the entries content/pb2-share-messages.yaml puts in its pool, and whether
+//                       the pool includes invites.
 //   invites.json      — the published invite posts, which the invite row on /feed also reads.
-// A new invite post therefore joins the pool with no edit here.
+// The pool is three topics for now — Peace Battle 2, One Percent, PeerProgramming — and invites
+// are not in it (owner directive, 2026-10-03, a narrowed marketing plan). Nothing here decides
+// that; the YAML does.
 //
 // One a day, and a different one per reader. Both halves are there to keep participants out of
 // trouble. If everybody who arrives on a given day sees the same text, Quora sees a row of
@@ -42,11 +45,10 @@ type InviteCard = {
 
 const READER_KEY = "pb2-reader";
 
-// The blog's standing sign-up line, verbatim — the same fixed block every post ends with. The
-// feature posts get it from the build; an invite post is assembled here, so it is added here too.
-// Kept identical to SIGN_UP_LINE in scripts/src/build-pb2-messages.ts.
-const SIGN_UP_LINE =
-  "To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.";
+// The entry point every post ends with: the Peace Battle 2 page, not the sign-up page (owner
+// directive, 2026-10-03). The built posts get it from the build; an invite post is assembled here,
+// so it is added here too. Kept identical to ENTRY_LINE in scripts/src/build-pb2-messages.ts.
+const ENTRY_LINE = "To take part: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2";
 
 /**
  * An invite post turned into something a participant can paste.
@@ -64,7 +66,7 @@ function fromInvite(card: InviteCard): Pb2Message {
       "The TI Skills Economy invites people one at a time, in public. Not a form letter — a post written to the person by name, saying why they were asked.",
       `This is the one written to ${card.name}. Reading it needs no account.`,
       card.url,
-      SIGN_UP_LINE,
+      ENTRY_LINE,
     ].join("\n\n"),
   };
 }
@@ -149,16 +151,20 @@ export function Pb2ShareMessage() {
   useEffect(() => {
     let canceled = false;
     setSeed(readerSeed());
-    Promise.all([
-      loadJson<{ messages?: Pb2Message[] }>("pb2-messages.json", {}),
-      loadJson<{ invites?: InviteCard[] }>("invites.json", {}),
-    ]).then(([features, invites]) => {
-      if (canceled) return;
-      setMessages([
-        ...(Array.isArray(features.messages) ? features.messages : []),
-        ...(Array.isArray(invites.invites) ? invites.invites.map(fromInvite) : []),
-      ]);
-    });
+    loadJson<{ invites?: boolean; messages?: Pb2Message[] }>("pb2-messages.json", {})
+      .then((pool) =>
+        Promise.all([
+          pool,
+          pool.invites ? loadJson<{ invites?: InviteCard[] }>("invites.json", {}) : { invites: [] },
+        ]),
+      )
+      .then(([pool, invites]) => {
+        if (canceled) return;
+        setMessages([
+          ...(Array.isArray(pool.messages) ? pool.messages : []),
+          ...(Array.isArray(invites.invites) ? invites.invites.map(fromInvite) : []),
+        ]);
+      });
     return () => {
       canceled = true;
     };
@@ -201,12 +207,12 @@ export function Pb2ShareMessage() {
   return (
     <div className="mb-12">
       <p className="font-sans text-lg text-gray-300 mb-2">
-        Copy it, paste it, post it. Each one says what a part of the app does, or points at an
-        invitation written to somebody by name. There is no opinion in them to agree with, and none
-        of them speak for you.
+        Copy it, paste it, post it. Each one says what Peace Battle 2, One Percent or the
+        PeerProgramming goal board is, and stops. There is no opinion in them to agree with, and
+        none of them speak for you.
       </p>
       <p className="font-sans text-gray-400 mb-6">
-        One a day, and yours is not the one the next person sees. Come back tomorrow for the next.
+        One a day. Come back tomorrow for the next.
       </p>
 
       <div className="bg-card border-4 border-black comic-shadow-sm p-6">
