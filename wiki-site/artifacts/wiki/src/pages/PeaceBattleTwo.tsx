@@ -362,7 +362,7 @@ export default function PeaceBattleTwo() {
             they are about the app rather than about the argument — somebody who supports this and
             disagrees with the organizer on something else can still post these without speaking for
             anybody. Posts from this blog are not in the pool for that reason. */}
-        <h2 className="font-heading text-3xl uppercase font-bold text-primary mb-4">To invite people to Peace Battle 2</h2>
+        <h2 className="font-heading text-3xl uppercase font-bold text-primary mb-4">Spread the word</h2>
         <Pb2ShareMessage />
 
         <h2 className="font-heading text-3xl uppercase font-bold text-primary mb-4">What winning looks like</h2>
