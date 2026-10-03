@@ -1363,7 +1363,6 @@ The Directory and Foundation are where to look for emotional support too: people
 
 ==================== 2026-10-03 ====================
 
-<<<<<<< HEAD
 approved-three-things-to-do-next
 
 Approved? Three things to do next.
@@ -1397,6 +1396,46 @@ For anything that is not on the board, ask in the Commons, the shared chat you l
 Or start a message with @comic and ask the assistant in that chat. It answers from the Knowledge Library: my writing on Quora and this blog, and writing other members have added. A person reads every answer before you see it, so the first thing you get is a note that it is being reviewed, and the answer follows once it is approved.
 
 Peace Battle 2 is where all of this fits.
+
+==================== 2026-10-03 ====================
+
+how-the-skills-economy-finds-real-members
+
+How the Skills Economy finds real members.
+
+A question on Quora, added on September 3, 2025 by Quora Prompt Generator, a bot Quora runs to add questions nobody asked:
+
+What is the most effective strategy for verifying the authenticity of new members in the TI skills Network?
+
+Its page shows 111 views.
+
+A bot wrote it, not a person. I am answering it anyway, because it is asking about my group.
+
+Screenshot: The question on its Quora page. The heading reads: What is the most effective strategy for verifying the authenticity of new members in the TI skills Network? Under Asked by: Quora Prompt Generator. Under Question stats: 111 views, last requested Sep 3, 2025. Under Question Log: Question marked as no longer needing revision by Quora Moderation (action taken by Quora Content Review), #4831280558, September 3, 2025 at 4:35:16 PM. Below that: Question added by Quora Prompt Generator, What is the most effective strategy for verifying the authenticity of new members in the TI skills Network?, #4831277335, September 3, 2025 at 4:32:57 PM.
+
+By hand.
+
+When it launched in 2025, it was called the TI Skills Economy (TSE). I have since renamed it the Skills Economy (SE); the Dictionary keeps the names.
+
+The TI Skills Economy verified people by hand. Every person who came through the door got a conversation with me.
+
+That did not work, for three reasons:
+
+It does not scale. One person cannot hold a conversation with everybody who arrives.
+It was traumatizing for me. Most of the first people through the door were Specterati operators, there to troll, and I had to talk to every one of them to find that out.
+It carried my bias. Whoever got in, got in because of how a conversation with me went.
+
+Trust.
+
+The Skills Economy changed that with Trust. Trust shows what each member has actually done in the app, in plain lines other members can read: their exchanges, their connections with other members, the cohorts they finished. It highlights the people who provide material value. There is no score and no badge, and what other members see is set the same way for everyone, so it carries nobody's opinion of anybody, mine included.
+
+A person still reads the Quora profile each new member sends in through Unlock before the app opens up. That is a look at a public page, not a conversation with me.
+
+Ourselves, not them.
+
+Rather than focus on the negative, we focus on the positive. Rather than focus on them, we focus on ourselves.
+
+When that happens, authentic Targeted Individuals surface, because what surfaces is what people actually do for each other. And each person owns how and when they engage. True autonomy, for everyone.
 
 ==================== 2026-10-03 ====================
 
@@ -1465,44 +1504,6 @@ It is not the main harm. The main harm is done before the child ever reaches any
 What to do with it.
 
 If a child is sent after you, write down what happened, with the date, as it happens: what the child did, who was with them, and what the adult did. ClickLog takes about fifteen seconds an incident, and your notes are not shown to anyone else here. A record kept over months is what shows the pattern, and the pattern is what an adult sending a child counts on nobody keeping.
-=======
-how-the-skills-economy-finds-real-members
-
-How the Skills Economy finds real members.
-
-A question on Quora, added on September 3, 2025 by Quora Prompt Generator, a bot Quora runs to add questions nobody asked:
-
-What is the most effective strategy for verifying the authenticity of new members in the TI skills Network?
-
-Its page shows 111 views.
-
-A bot wrote it, not a person. I am answering it anyway, because it is asking about my group.
-
-Screenshot: The question on its Quora page. The heading reads: What is the most effective strategy for verifying the authenticity of new members in the TI skills Network? Under Asked by: Quora Prompt Generator. Under Question stats: 111 views, last requested Sep 3, 2025. Under Question Log: Question marked as no longer needing revision by Quora Moderation (action taken by Quora Content Review), #4831280558, September 3, 2025 at 4:35:16 PM. Below that: Question added by Quora Prompt Generator, What is the most effective strategy for verifying the authenticity of new members in the TI skills Network?, #4831277335, September 3, 2025 at 4:32:57 PM.
-
-By hand.
-
-When it launched in 2025, it was called the TI Skills Economy (TSE). I have since renamed it the Skills Economy (SE); the Dictionary keeps the names.
-
-The TI Skills Economy verified people by hand. Every person who came through the door got a conversation with me.
-
-That did not work, for three reasons:
-
-It does not scale. One person cannot hold a conversation with everybody who arrives.
-It was traumatizing for me. Most of the first people through the door were Specterati operators, there to troll, and I had to talk to every one of them to find that out.
-It carried my bias. Whoever got in, got in because of how a conversation with me went.
-
-Trust.
-
-The Skills Economy changed that with Trust. Trust shows what each member has actually done in the app, in plain lines other members can read: their exchanges, their connections with other members, the cohorts they finished. It highlights the people who provide material value. There is no score and no badge, and what other members see is set the same way for everyone, so it carries nobody's opinion of anybody, mine included.
-
-A person still reads the Quora profile each new member sends in through Unlock before the app opens up. That is a look at a public page, not a conversation with me.
-
-Ourselves, not them.
-
-Rather than focus on the negative, we focus on the positive. Rather than focus on them, we focus on ourselves.
-
-When that happens, authentic Targeted Individuals surface, because what surfaces is what people actually do for each other. And each person owns how and when they engage. True autonomy, for everyone.
 
 ==================== 2026-10-03 ====================
 
@@ -1549,4 +1550,3 @@ What it is a picture of.
 Every mechanic is something on the Peace Battle 2 page. The five percent is the part of a Targeted Individual's day the attacks leave, and twenty members with five percent each is a full working day. The cards are the goal board in PeerProgramming, where Show up with your percent says how a card works. The 384 is members exchanging with each other on one day, counted a day at a time. The 99% is what winning looks like. The game has a second tab, What this is, that walks through each of these without leaving it.
 
 Nothing in it is a prediction. It is the shape of the thing, drawn so it can be held.
->>>>>>> origin/main
