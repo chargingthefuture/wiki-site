@@ -127,7 +127,8 @@ carries it, because the owner froze that page outright and that freeze has not b
   posts in the `pool` of the hand-written `content/pb2-share-messages.yaml`, written by
   `scripts/src/build-pb2-messages.ts` on `wiki:pb2`. Build output like the feed: gitignored, never
   hand-edited — edit the YAML. The pool is three topics for now — Peace Battle 2, One Percent, and
-  the PeerProgramming goal board (owner directive, 2026-10-03, a narrowed marketing plan). The
+  the PeerProgramming goal board (owner directive, 2026-10-03, a narrowed marketing plan), fourteen
+  posts across them, each a different angle, so a reader sees two weeks before a repeat. The
   entries for the other parts of the app stay in the file unoffered, and the published invite posts
   (`invites.json`, which the block on the Peace Battle 2 page, `Pb2ShareMessage.tsx`, adds when the
   pool says `invites`) are out of it too: a reader handed twenty-eight parts in rotation is handed
