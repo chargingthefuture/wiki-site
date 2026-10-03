@@ -258,13 +258,15 @@ export default function PeaceBattleTwo() {
               million survivors.
             </p>
             <p className="font-sans text-gray-300 mb-4">
-              This shows the way there, one round at a time. You start with the 147 people on the
-              Directory today and a list of 657 skills an economy needs. Each round you choose how much
-              goes to teaching skills and how much to doing the work, then see where that leads in two
-              generations. It is free, it needs no account, and it works offline once it opens.
+              The Lit Country is that economy as a map you play with one thumb. You are one hearth
+              with one trade and five percent of a day. You spend it on one small task toward
+              somebody else&rsquo;s goal, a road lights between you, and the country lights up one
+              card at a time until it supplies 99% of what it needs from its own people. It starts
+              from the 174 people on the Directory and the 713 skills an economy needs. It is free,
+              it needs no account, and it works offline once it opens.
             </p>
             <a href={LINKS.game} className="font-heading font-bold uppercase text-primary hover:text-white inline-flex items-center gap-2">
-              See the math <ArrowRight size={16} />
+              Play The Lit Country <ArrowRight size={16} />
             </a>
             <p className="font-mono text-xs text-gray-500 mt-2 break-all">{LINKS.game}</p>
           </div>
