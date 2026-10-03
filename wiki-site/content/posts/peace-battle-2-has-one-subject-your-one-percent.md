@@ -3,7 +3,7 @@ title: "Peace Battle 2 has one subject: your 1%"
 date: "2026-10-03"
 excerpt: "Peace Battle 2 now asks one thing, in three steps: see your 1% in Workforce, start on it on the goal board, and, only if you want to, take it further with One Percent."
 category: "Community"
-teaser: "Peace Battle 2 has been running since Friday, September 18, 2026 at 7:00 PM Eastern: a distributed protest with no location, named for the peace-battle W. E. B. Du Bois wrote about in 1903. It now has one subject, your 1%, and three steps in order. See your 1% in Workforce. Start on it on the PeerProgramming goal board, with the part of the day that is left. And if you want to take it further, One Percent is a paid half-hour call. The first two steps are complete without it and stay free."
+teaser: "Peace Battle 2 has been running since Friday, September 18, 2026 at 7:00 PM Eastern: a distributed protest with no location, named for the peace-battle W. E. B. Du Bois wrote about in 1903. It now has one subject, your 1%, and three steps in order. See your 1% in Workforce. Start on it on the PeerProgramming goal board, with the part of the day that is left. And if you want help reaching it, One Percent is the paid initiative for that: a call of up to half an hour, in your browser. The Skills Economy is the free, self-service way to reach your 1%, and the first two steps are complete without One Percent."
 topics:
   - community
   - workforce
@@ -32,11 +32,11 @@ It is free and self-service, and it needs an approved account.
 
 ## 3. Take it further with One Percent
 
-One Percent is the paid tier: a call of up to half an hour, in your browser, about the figure your trade produces and the first customer behind it. It costs $7 and needs no account. It is at https://farahbrunache.com.
+One Percent is a paid initiative to help you reach your 1%: a call of up to half an hour, in your browser, about the figure your trade produces and the first customer behind it. It costs $7 and needs no account. It is at https://farahbrunache.com.
 
 [Start with socks](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/start-with-socks) shows the range, from the smallest version, which is a living, to the ambitious one, which is a company.
 
-Steps 1 and 2 are complete without it, and they stay free.
+The Skills Economy is the free, self-service way to reach your 1%: steps 1 and 2 are complete without One Percent, and they stay free.
 
 The page to come back to is https://chargingthefuture.github.io/chargingthefuture/pb2.
 
