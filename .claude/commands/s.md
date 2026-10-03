@@ -7,7 +7,10 @@ or a pull request number; with nothing, work on the current branch. Never run th
 directly: if the current branch is `main`, create `chore/sync-<date>` first (per `/br`).
 
 1. Bring the branch up to date: `git fetch origin main && git merge origin/main`. Resolve a
-   conflict in a generated file by regenerating it, never by hand.
+   conflict in a generated file by regenerating it, never by hand. Commit the merge before step 2:
+   the sync ranks same-day posts by each file's first commit as seen from `HEAD`, and during an
+   unresolved merge `HEAD` is still the branch tip, so every post arriving from `main` has no
+   history yet and sorts last.
 2. From `wiki-site/`: `pnpm wiki:sync`, then `pnpm wiki:paste-full` and `pnpm wiki:paste-tts`.
 3. `pnpm wiki:check-numbers`. If it reports a page whose paste sheet `No. N` differs from
    `/feed`, change that entry's number in `QUORA_PASTE_SHEET.txt` to the number the check names,

@@ -56,6 +56,40 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 420
   },
   {
+    "slug": "an-invitation-to-nikki",
+    "title": "An invitation to Nikki",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-02",
+    "excerpt": "Nikki asked why nobody does anything. The people doing something are survivors, and what they build needs somebody who can run it.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-nikki.md",
+    "teaser": "It is an invitation to join the Skills Economy. Nikki asked on Quora why nobody does anything when so many people know. The people doing something are mostly the people it is being done to, and what they are building needs somebody who can run it. Nikki, in Nebraska, has a Directory listing that carries business administration: keeping an organization running day to day. A trade done once is a favor. Done every week for different people, it is a small business, and a small business needs somebody running it as well as somebody doing the work.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 422
+  },
+  {
+    "slug": "how-the-skills-economy-finds-real-members",
+    "title": "How the Skills Economy finds real members",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-02",
+    "excerpt": "A Quora bot asked how my group verifies new members. It used to be by hand, one conversation at a time. Now Trust shows what people actually do, and real members surface.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/how-the-skills-economy-finds-real-members.md",
+    "teaser": "Quora's own bot asked me how my group verifies that new members are real. When it launched in 2025 as the TI Skills Economy, I verified people by hand: a conversation with every person who came through the door. That did not scale, it carried my bias, and it was traumatizing, because most of the first people through were there to troll. The Skills Economy replaced it with Trust, which shows what each member has actually done. We focus on the positive and on ourselves rather than on them, and real Targeted Individuals surface.",
+    "topics": [
+      "trust",
+      "unlock",
+      "community"
+    ],
+    "number": 421
+  },
+  {
     "slug": "an-invitation-to-holly",
     "title": "An invitation to Holly",
     "repo": "chargingthefuture/wiki-site",

@@ -143,6 +143,7 @@ needed to write the next posts, because the copied list itself is never committe
 | Jane Doe | Jane-Doe-11966 | Case preparation and negotiation; contract and statutory interpretation; legal advocacy and advice; United States | skill-specific | You do not have to agree with me | in PR — owner decision, 2026-10-01, after answering their question in proving-it-and-taking-your-accounts-back.md; Public Safety & Justice held 1 of 22 on the October 1 read |
 | Julie | Julie-6645 | Child development and classroom management; Tennessee | skill-specific | A working economy needs people who | in PR — owner decision, 2026-10-01; Education held 4 of 39 that day. Waits for an ordinary post to go out after Sherri's invite |
 | Holly | Holly-D-192 | Financial planning and budgeting; financial modeling and cashflow management; Atlanta | skill-specific | Estonia, 1991 | in PR — owner decision, 2026-10-01; Finance and Public Administration held 6 of 34 that day. Waits for an ordinary post after Julie's invite |
+| Nikki Martindale | Nikki-Martindale-9 | Business administration; Nebraska | skill-specific | A working economy needs people who | in PR — owner decision, 2026-10-01, after answering their question in why-nobody-does-anything.md. Waits for an ordinary post after Holly's invite. |
 
 Status is one of: `queued`, `drafted`, `in PR`, `published`, `skipped`. A skipped row keeps its
 reason in the notes column so nobody re-queues it a month later.
