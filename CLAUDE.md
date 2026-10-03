@@ -594,6 +594,12 @@ showed on 2026-09-30. `pnpm wiki:sync` copies them into the registry and gives a
 next free number, and `/feed` shows them (in date order, so a living page still rises when it changes, keeping its number). Never edit or renumber that file: a number
 that changes breaks every recording and paste that already carries it.
 
+Both Quora sheets list their entries in the order `/feed` shows them (owner directive, 2026-10-03),
+read from the registry `wiki:sync` writes: a date alone cannot order same-day posts the way the
+blog does. The full sheet is generated in that order; a new entry in the hand-written sheet goes
+where the post sits on `/feed`, not at the top by default. `pnpm wiki:check-numbers` fails on an
+entry out of order, in CI too, and names the first one.
+
 Publishing a post is not finished until that file carries the new page. Every publish does three
 things: merge the post, add its entry to the paste sheet, and give the owner the Quora excerpt in
 the reply.
