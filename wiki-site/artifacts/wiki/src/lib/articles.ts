@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "workforce-shows-the-gap",
+    "title": "Workforce shows the gap. You decide what fills it.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-03",
+    "excerpt": "Workforce is not a job board. It is a live simulation of what each of us, and all of us together, could do. Here is how reading it turns into a living.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/workforce-shows-the-gap.md",
+    "teaser": "In the list of problems the app answers, Workforce sits next to being denied jobs, job applications that never submit, and coworkers who push you out. Nothing on Workforce hands you a job. It is a live simulation of individual and community potential: the jobs a working economy needs, set against the skills members have listed, with the gaps between them in plain view. You read a gap, pick an outcome, and fill it, either by building it yourself or by teaming up with a member who already has the skill. That is how it answers those problems: a living earned without depending on the people causing them.",
+    "topics": [
+      "workforce",
+      "economy",
+      "directory"
+    ],
+    "number": 428
+  },
+  {
     "slug": "a-place-to-stay-when-you-are-living-in-your-car",
     "title": "A place to stay when you are living in your car",
     "repo": "chargingthefuture/wiki-site",
@@ -188,23 +205,6 @@ export const ARTICLES: ArticleMeta[] = [
       "community"
     ],
     "number": 420
-  },
-  {
-    "slug": "workforce-shows-the-gap",
-    "title": "Workforce shows the gap. You decide what fills it.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-03",
-    "excerpt": "Workforce is not a job board. It is a live simulation of what each of us, and all of us together, could do. Here is how reading it turns into a living.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/workforce-shows-the-gap.md",
-    "teaser": "In the list of problems the app answers, Workforce sits next to being denied jobs, job applications that never submit, and coworkers who push you out. Nothing on Workforce hands you a job. It is a live simulation of individual and community potential: the jobs a working economy needs, set against the skills members have listed, with the gaps between them in plain view. You read a gap, pick an outcome, and fill it, either by building it yourself or by teaming up with a member who already has the skill. That is how it answers those problems: a living earned without depending on the people causing them.",
-    "topics": [
-      "workforce",
-      "economy",
-      "directory"
-    ],
-    "number": 428
   },
   {
     "slug": "an-invitation-to-aaron",
