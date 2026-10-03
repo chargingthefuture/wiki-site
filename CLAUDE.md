@@ -605,6 +605,16 @@ showed on 2026-09-30. `pnpm wiki:sync` copies them into the registry and gives a
 next free number, and `/feed` shows them (in date order, so a living page still rises when it changes, keeping its number). Never edit or renumber that file: a number
 that changes breaks every recording and paste that already carries it.
 
+Reseeded once since, on 2026-10-03 (owner directive): every number is now the page's position on
+`/feed` counted from the bottom, so No. N is the Nth page published. 56 numbers changed, all on
+pages dated 2026-10-01 or earlier, from same-day reshuffles before the freeze; ten teaser readings
+recorded before that day speak the old number (one-trip-seven-schemes, a-safe-place-to-shower,
+pizza-is-not-my-favorite-food, why-they-want-you-living-with-family, they-are-not-a-secret-society,
+clicklog-the-record-has-started, what-works-knowledge-that-survives-a-ban,
+knowledge-library-one-persons-writing, how-few-people-it-takes,
+a-gated-community-and-who-could-plan-it). Frozen again from there: the rule above stands, and a
+living page keeps its number when its date moves.
+
 Both Quora sheets list their entries in the order `/feed` shows them (owner directive, 2026-10-03),
 read from the registry `wiki:sync` writes: a date alone cannot order same-day posts the way the
 blog does. The full sheet is generated in that order; a new entry in the hand-written sheet goes
@@ -660,7 +670,10 @@ and the sign-up line are left out. The sheet opens with a tracker table (owner d
 2026-09-30), so it doubles as the record of which posts have audio, the way `INVITE_QUEUE.md` tracks
 invites: every post with a recording is Full post, or Teaser when the recording runs far shorter
 than the post, and every post in `content/audio/skipped.yaml` is Skipped and is never offered for
-pasting again. Only the rest get paste entries. The tool takes at most 5,000 characters, so a post
+pasting again, and every post in `content/audio/rerecord.yaml` is Re-record: its recording speaks a
+feed number the post no longer has (the 2026-10-03 reseed), so its entry is offered again with the
+current number until the new recording is uploaded and the slug removed. Only the rest and the
+re-recordings get paste entries. The tool takes at most 5,000 characters, so a post
 longer than that gets its front matter `teaser` in its entry instead of the full text, ending with
 "Full post, No. N, available on the blog." (N is the post's number on `/feed`, oldest No. 1, read
 from the same registry the feed numbers from), and its `=` line says so (owner decision, 2026-09-30): the teaser is already copy-edited, and cutting a
