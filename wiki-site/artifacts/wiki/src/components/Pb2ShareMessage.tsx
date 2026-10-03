@@ -212,7 +212,7 @@ export function Pb2ShareMessage() {
         none of them speak for you.
       </p>
       <p className="font-sans text-gray-400 mb-6">
-        One a day, and yours is not the one the next person sees. Come back tomorrow for the next.
+        One a day. Come back tomorrow for the next.
       </p>
 
       <div className="bg-card border-4 border-black comic-shadow-sm p-6">
