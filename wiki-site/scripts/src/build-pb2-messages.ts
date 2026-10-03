@@ -7,9 +7,10 @@
  * does not agree with every line of it makes no post at all. These say what a thing is and stop,
  * so there is nothing in them to disagree with.
  *
- * Three topics only — Peace Battle 2, One Percent, PeerProgramming (owner directive, 2026-10-03).
- * The pool used to be one post per part of the app plus every invite; the YAML header says why
- * it no longer is.
+ * Only the ids in the YAML's `pool` are written, in that order; the other entries stay in the file
+ * unoffered. Three topics for now — Peace Battle 2, One Percent, PeerProgramming (owner directive,
+ * 2026-10-03); the YAML header says why. `invites` in the pool tells the page to add the published
+ * invite posts, which it reads from invites.json itself.
  *
  * Source is content/pb2-share-messages.yaml, hand-written. It is not generated from the in-app
  * guide: that text is written for somebody already inside the app, and it reads wrong pasted in
@@ -35,14 +36,14 @@ const OUT = resolve(BLOG_ROOT, 'artifacts/wiki/public/pb2-messages.json');
  * curiosity. The guide reads with no account and describes the same feature.
  *
  * The guide alone is not enough, though (owner report, 2026-09-21): a reader opens it, reads the
- * section, and leaves, because nothing on that page tells them where to sign up and nobody scrolls
- * to the top of a stranger's guide looking for it. So every post also carries the blog's standing
- * sign-up line, verbatim — the same fixed block every post on this blog ends with, so it reads as
- * documentation rather than a pitch.
+ * section, and leaves, because nothing on that page tells them where to go next. So every post
+ * also ends with the entry point. That used to be the blog's standing sign-up line; it is now the
+ * Peace Battle 2 page (owner directive, 2026-10-03), because these posts are the protest's and a
+ * reader who follows one should land on it.
  */
 const GUIDE_BASE = 'https://app.chargingthefuture.com/guide';
-export const SIGN_UP_LINE =
-  'To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.';
+export const ENTRY_POINT = 'https://chargingthefuture.github.io/chargingthefuture/peace-battle-2';
+export const ENTRY_LINE = `To take part: ${ENTRY_POINT}`;
 
 export type Pb2Message = {
   id: string;
@@ -60,9 +61,10 @@ export type Pb2Message = {
  * would add a dependency to a build that has none, and a general parser would accept shapes this
  * file should reject anyway.
  */
-function parseMessages(text: string): Pb2Message[] {
+function parseMessages(text: string): { pool: string[]; messages: Pb2Message[] } {
   const lines = text.split('\n');
   const out: Pb2Message[] = [];
+  let pool: string[] | null = null;
   let current: Partial<Pb2Message> | null = null;
   let bodyLines: string[] | null = null;
 
@@ -100,6 +102,11 @@ function parseMessages(text: string): Pb2Message[] {
     }
 
     if (line.startsWith('#') || line.trim() === '' || line.trim() === 'messages:') continue;
+    const poolLine = line.match(/^pool:\s*\[(.*)\]\s*$/);
+    if (poolLine && !current) {
+      pool = poolLine[1].split(',').map((id) => id.trim()).filter(Boolean);
+      continue;
+    }
 
     const entry = line.match(/^ {2}- id:\s*(\S+)\s*$/);
     if (entry) {
@@ -125,34 +132,49 @@ function parseMessages(text: string): Pb2Message[] {
     throw new Error(`pb2-share-messages.yaml: cannot read line: ${line}`);
   }
   finish();
-  return out;
+  if (!pool || pool.length === 0) {
+    throw new Error('pb2-share-messages.yaml: no pool, so the copy control would have nothing to offer.');
+  }
+  return { pool, messages: out };
 }
 
 function main(): void {
-  const messages = parseMessages(readFileSync(SOURCE, 'utf8'));
+  const { pool, messages } = parseMessages(readFileSync(SOURCE, 'utf8'));
 
-  if (messages.length === 0) {
-    throw new Error('pb2-share-messages.yaml: no messages, so the copy control would have nothing to offer.');
-  }
-
-  const seen = new Set<string>();
+  const byId = new Map<string, Pb2Message>();
   for (const message of messages) {
-    if (seen.has(message.id)) {
+    if (byId.has(message.id)) {
       throw new Error(`pb2-share-messages.yaml: two entries share the id "${message.id}".`);
     }
-    seen.add(message.id);
+    byId.set(message.id, message);
   }
 
-  // The two closing lines are appended here rather than written into every entry, so the label
-  // and the sign-up line cannot drift apart across the hand-written messages.
-  const withLinks = messages.map(({ link, ...message }) => ({
-    ...message,
-    body: `${message.body}\n\nWhat it is: ${link ?? `${GUIDE_BASE}#${message.id}`}\n\n${SIGN_UP_LINE}`,
-  }));
+  const invites = pool.includes('invites');
+  const offered = pool
+    .filter((id) => id !== 'invites')
+    .map((id) => {
+      const message = byId.get(id);
+      if (!message) throw new Error(`pb2-share-messages.yaml: pool names "${id}" and no entry has that id.`);
+      return message;
+    });
+  if (offered.length === 0 && !invites) {
+    throw new Error('pb2-share-messages.yaml: the pool is empty, so the copy control would have nothing to offer.');
+  }
+
+  // The closing lines are appended here rather than written into every entry, so the label and
+  // the entry point cannot drift apart across the hand-written messages. An entry that already
+  // points at the entry point gets it once.
+  const withLinks = offered.map(({ link, ...message }) => {
+    const own = link ?? `${GUIDE_BASE}#${message.id}`;
+    const lines = own === ENTRY_POINT ? [ENTRY_LINE] : [`What it is: ${own}`, ENTRY_LINE];
+    return { ...message, body: [message.body, ...lines].join('\n\n') };
+  });
 
   mkdirSync(dirname(OUT), { recursive: true });
-  writeFileSync(OUT, `${JSON.stringify({ messages: withLinks }, null, 2)}\n`, 'utf8');
-  console.log(`✓ Wrote ${withLinks.length} share messages → ${relative(process.cwd(), OUT)}`);
+  writeFileSync(OUT, `${JSON.stringify({ invites, messages: withLinks }, null, 2)}\n`, 'utf8');
+  console.log(
+    `✓ Wrote ${withLinks.length} share messages${invites ? ' plus invites' : ''} → ${relative(process.cwd(), OUT)}`,
+  );
 }
 
 main();
