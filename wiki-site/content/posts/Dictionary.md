@@ -1,6 +1,6 @@
 ---
 title: "Dictionary: Skills Economy Terms"
-date: "2026-09-29"
+date: "2026-10-03"
 excerpt: "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record."
 category: "Resources"
 slug: Dictionary
@@ -14,6 +14,8 @@ topics:
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
 ## Latest changes
+
+2026-10-03 — Workforce described by what it is: a live simulation of individual and community potential, modeled on Finland, the only place with open data good enough to build it from. Not a source of jobs; it shows the gaps a member can fill.
 
 2026-09-29 — Performed kindness and covert contract added to the Specterati lexicon. Performed kindness is kind words or acts delivered in a way that is not kind; covert contract is the psychologist's term for a kindness with an unspoken bill attached, which turns to anger when the bill is not paid.
 
@@ -131,7 +133,7 @@ DEW — Directed Energy Weapon.
 |---|---|---|
 | [Unlock](https://app.chargingthefuture.com/plugin/unlock) | Verification — how a new member gets approved to use the app | [guide](https://app.chargingthefuture.com/guide#unlock) |
 | [Directory](https://app.chargingthefuture.com/apps/directory) | Browse skills across the survivor community | [guide](https://app.chargingthefuture.com/guide#directory) |
-| [Workforce](https://app.chargingthefuture.com/apps/workforce) | Real-time work and skills distribution; the recruited count and capacity math live here | [guide](https://app.chargingthefuture.com/guide#workforce) |
+| [Workforce](https://app.chargingthefuture.com/apps/workforce) | A live simulation of individual and community potential: the jobs an economy of five million needs, modeled on Finland, set against the skills members list, with the gaps in view. The recruited count and capacity math live here | [guide](https://app.chargingthefuture.com/guide#workforce) |
 | [Skills Taxonomy](https://app.chargingthefuture.com/apps/skills-taxonomy) | The shared catalog of sectors, job titles, and skills | [guide](https://app.chargingthefuture.com/guide#skills-taxonomy) |
 | [SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt) | Nominate survivors to build the Directory | [guide](https://app.chargingthefuture.com/guide#skills-hunt) |
 | [Foundation](https://app.chargingthefuture.com/apps/foundation) | Find talent, tools, repairs, and infrastructure support in real time | [guide](https://app.chargingthefuture.com/guide#foundation) |
