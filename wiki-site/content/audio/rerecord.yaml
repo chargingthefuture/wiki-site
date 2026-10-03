@@ -1,0 +1,26 @@
+# Recordings that speak a feed number the post no longer has. The feed numbers were reseeded to
+# publication order on 2026-10-03 (owner directive), and these teaser readings, recorded before that,
+# end by pointing listeners at the old number. The text-to-speech sheet (pnpm wiki:paste-tts) lists
+# each as Re-record and offers its entry for pasting again, with the current number. When the new
+# recording is uploaded over the old file, remove the slug here.
+rerecord:
+  - slug: one-trip-seven-schemes
+    says: 325  # the post is No. 326
+  - slug: a-safe-place-to-shower
+    says: 331  # the post is No. 327
+  - slug: pizza-is-not-my-favorite-food
+    says: 329  # the post is No. 328
+  - slug: why-they-want-you-living-with-family
+    says: 327  # the post is No. 330
+  - slug: they-are-not-a-secret-society
+    says: 328  # the post is No. 331
+  - slug: clicklog-the-record-has-started
+    says: 335  # the post is No. 332
+  - slug: what-works-knowledge-that-survives-a-ban
+    says: 332  # the post is No. 333
+  - slug: knowledge-library-one-persons-writing
+    says: 333  # the post is No. 334
+  - slug: how-few-people-it-takes
+    says: 341  # the post is No. 338
+  - slug: a-gated-community-and-who-could-plan-it
+    says: 343  # the post is No. 341

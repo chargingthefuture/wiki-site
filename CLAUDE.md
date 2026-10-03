@@ -670,7 +670,10 @@ and the sign-up line are left out. The sheet opens with a tracker table (owner d
 2026-09-30), so it doubles as the record of which posts have audio, the way `INVITE_QUEUE.md` tracks
 invites: every post with a recording is Full post, or Teaser when the recording runs far shorter
 than the post, and every post in `content/audio/skipped.yaml` is Skipped and is never offered for
-pasting again. Only the rest get paste entries. The tool takes at most 5,000 characters, so a post
+pasting again, and every post in `content/audio/rerecord.yaml` is Re-record: its recording speaks a
+feed number the post no longer has (the 2026-10-03 reseed), so its entry is offered again with the
+current number until the new recording is uploaded and the slug removed. Only the rest and the
+re-recordings get paste entries. The tool takes at most 5,000 characters, so a post
 longer than that gets its front matter `teaser` in its entry instead of the full text, ending with
 "Full post, No. N, available on the blog." (N is the post's number on `/feed`, oldest No. 1, read
 from the same registry the feed numbers from), and its `=` line says so (owner decision, 2026-09-30): the teaser is already copy-edited, and cutting a
