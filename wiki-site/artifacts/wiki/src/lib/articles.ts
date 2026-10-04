@@ -39,6 +39,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "how-long-do-we-hold",
+    "title": "How long do we hold?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-04",
+    "excerpt": "Oksana asked under the Peace Battle 2 post how long we are supposed to hold. Two answers, and they turn out to be the same one: for our lifetimes, and not for anybody else.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/how-long-do-we-hold.md",
+    "teaser": "Under the Peace Battle 2 post on Quora, Oksana asked how long we are supposed to hold. It is the right question and no post here had answered it. Two answers. The first is for our lifetimes, the way Estonia lives next to a neighbor that never goes away: it did not get an ending and it built a working country anyway. The second is that Peace Battle 2 is not a hold at all. A protest in a square faces outward and waits for somebody to answer. This one faces inward. I am not protesting to the people doing this. We are protesting to Targeted Individuals: a challenge to turn to another Targeted Individual for something of material value, made again each day. Nothing in it waits on anybody's answer, so there is no date it runs out.",
+    "topics": [
+      "community",
+      "peace-battle-2"
+    ],
+    "number": 429
+  },
+  {
     "slug": "workforce-shows-the-gap",
     "title": "Workforce shows the gap. You decide what fills it.",
     "repo": "chargingthefuture/wiki-site",
