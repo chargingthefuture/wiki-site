@@ -261,12 +261,12 @@ messages:
 
   - id: pp-it-helped
     feature: PeerProgramming
-    title: What counts
+    title: Who decides it helped
     link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/show-up-with-your-percent
     body: |-
-      When a goal's owner marks a card "It helped", it counts. It goes toward the day's 384, the count of members who delivered something to another member on one day, and toward the helper's Weavers of the Commons badge.
+      Somebody posts a goal and breaks it into small tasks. You take one, do it, and post what you found. Then the person whose goal it is says whether it helped.
 
-      A card kept without that mark, or sent back, does not count. The owner of the goal decides, because they are the one who knows whether it helped.
+      If they say it did, it counts, for you and for the day's tally of members who did something for another member. If they keep it without saying so, or send it back, it does not. The person who asked is the only one who knows, so they decide.
 
   - id: pp-no-chat
     feature: PeerProgramming
