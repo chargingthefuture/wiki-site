@@ -1,9 +1,9 @@
 ---
 title: "Unite around what?"
 date: "2026-10-07"
-excerpt: "Roderic Duplechain asked on Quora how Targeted Individuals can unite to expose and combat this. Uniting to expose it has been tried for twenty years. Uniting around what each of us needs this week has not, and it is the one that does not need anybody to agree first."
+excerpt: "Roderic Duplechain asked on Quora how Targeted Individuals can unite to expose and combat this. This has been happening for centuries, and every attempt to unite against it by exposing it has stalled. Uniting around what each of us needs this week has not, and it is the one that does not need anybody to agree first."
 category: "Community"
-teaser: "Roderic Duplechain asked on Quora how Targeted Individuals can unite to expose and combat this, government complicity and directed energy weapons included. Uniting to expose it has been tried for twenty years, on forums and in comment threads, and it dissolves every time into an argument about who is behind it. Uniting around what each of us needs this week has not been tried at scale, and it needs nobody to agree about who runs it. The Directory lists people by what they can do, not by what they believe. Combat means self-defense, and the method used on us is economic, so it runs both directions. As for exposing it: a dated record kept over months is the only evidence one person can produce, and that includes every kind of energy attack, which is why the list of them exists."
+teaser: "Roderic Duplechain asked on Quora how Targeted Individuals can unite to expose and combat this, government complicity and directed energy weapons included. This has been happening for centuries, and every attempt to unite against it by exposing it, on forums, in comment threads and long before either, has dissolved into an argument about who is behind it. Uniting around what each of us needs this week has not been tried at scale, and it needs nobody to agree about who runs it. The Directory lists people by what they can do, not by what they believe. Combat means self-defense, and the method used on us is economic, so it runs both directions. As for exposing it: a dated record kept over months is the only evidence one person can produce, and that includes every kind of energy attack, which is why the list of them exists."
 topics:
   - community
   - directory
@@ -18,7 +18,7 @@ The question is at https://www.quora.com/How-can-targeted-individuals-unite-to-e
 
 ![The question's log entry on Quora, captured October 7, 2026. It reads: Question added by Roderic Duplechain. How can targeted individuals unite to expose and combat the systematic gang stalking and harassment they face, including government complicity and directed energy weapons? Dated May 25, 2024 at 6:00:49 PM.](images/roderic-duplechain-question-2026-10-07.jpg) The [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary) carries the vocabulary I use for the people doing this; the question keeps the words it was asked in.
 
-The question has three parts, and the order they come in is the problem. Unite, then expose, then combat. Twenty years of forums have run it in that order, and the first step never finishes.
+The question has three parts, and the order they come in is the problem. Unite, then expose, then combat. Every survivor space I know of has run it in that order, and the first step never finishes.
 
 ## Uniting to expose it has been tried
 
@@ -42,7 +42,7 @@ Nobody I know has made it stop by exposing it, and [what can be stopped](https:/
 
 That is also where directed energy attacks belong. There is [a list of every kind](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/dew-attack-types), built so each one can be logged under its own name, and survivors add to it in the [Commons](https://app.chargingthefuture.com). I do not have a defense against them to offer, and I am not going to write one I do not have. What I have is a way to make them count in a record that nobody can tell you is in your head.
 
-So: unite around what you can do for each other, defend yourselves with the method they use, and keep the record. Who is behind it can stay an open question. It has been one for twenty years and nobody has needed it answered to do any of the three.
+So: unite around what you can do for each other, defend yourselves with the method they use, and keep the record. Who is behind it can stay an open question. It has been one for centuries, and nobody needs it answered to do any of the three.
 
 ## Where to find it in the app
 
