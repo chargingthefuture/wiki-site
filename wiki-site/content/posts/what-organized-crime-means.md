@@ -3,7 +3,7 @@ title: "What organized crime means"
 date: "2026-10-07"
 excerpt: "Organized crime has a definition, and it is narrower than the way the phrase gets used. A group, lasting, committing serious crimes for material gain. Corrupt officials are one of its methods. A government is not its partner."
 category: "Community"
-teaser: "Organized crime has a definition, and it is worth reading again. The United Nations defines an organized criminal group as a structured group of three or more people, existing for a period of time and acting together to commit serious crimes for financial or other material benefit. The FBI's version adds how such groups keep their place: violence or the threat of it, corrupt public officials, graft and extortion. Corrupting an official is something the group does to a government, not something the government does with it. A writer describing American cities put the rest plainly: these groups know their limits and stay inside them to avoid crackdowns. That is enforcement being rationed, not enforcement switched off. So far, the people I have seen argue for tearing governments down outright, or for saying it is only the government, have been people taking part in this. Enforcement is what limits them."
+teaser: "Organized crime has a definition, and it is worth reading again. The United Nations defines an organized criminal group as a structured group of three or more people, existing for a period of time and acting together to commit serious crimes for financial or other material benefit. The FBI's version adds how such groups keep their place: violence or the threat of it, corrupt public officials, graft and extortion. Corrupting an official is something the group does to a government, not something the government does with it. A writer describing American cities put the rest plainly: these groups know their limits and stay inside them to avoid crackdowns. That is enforcement being rationed, not enforcement switched off. None of this is aimed at a survivor who says the government targets them: governments have, Martin Luther King Jr. among the documented cases, and so have people outside government with no instructions from anybody. So far, the people I have seen argue for tearing governments down outright, or for saying it is only the government, have been people taking part in this. Enforcement is what limits them."
 topics:
   - specterati
   - community
@@ -42,6 +42,12 @@ Corrupt public officials are in the FBI's list, as one of the group's methods, n
 John Mixon, a writer who is not a Targeted Individual and was describing American cities in general, described the other half. In some communities, he wrote, organized criminals, the descendants of gangs, have real influence over social and economic life, and they know their limits and operate within them to avoid crackdowns. I quoted him in [The economics that oppress us can save us](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/economics-oppress-save).
 
 That is not protection. Enforcement is a limited resource spread across priorities, and a group that stays under the line that draws attention is left alone because it costs more to pursue than to ignore. A group that has to stay under a line is a group that something can still stop.
+
+## Not an argument with anybody who says it is the government
+
+None of this is aimed at a Targeted Individual who says the government is doing it to them. Governments have done it. The FBI targeted Martin Luther King Jr. through its COINTELPRO program, with wiretaps, surveillance and an anonymous letter urging him to kill himself, and the Senate's Church Committee put that on the public record in 1976. People outside government went after him too, and they needed no instructions from the FBI to do it.
+
+It goes both ways. A survivor who says it is the government is describing something that happens, and I take them at their word. What happens to me is organized crime, and the definition above is the reason I use that name for it.
 
 ## Who wants it gone
 
