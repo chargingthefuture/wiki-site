@@ -39,6 +39,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "what-organized-crime-means",
+    "title": "What organized crime means",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-07",
+    "excerpt": "Organized crime has a definition, and it is narrower than the way the phrase gets used. A group, lasting, committing serious crimes for material gain. Corrupt officials are one of its methods. A government is not its partner.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/what-organized-crime-means.md",
+    "teaser": "Organized crime has a definition, and it is worth reading again. The United Nations defines an organized criminal group as a structured group of three or more people, existing for a period of time and acting together to commit serious crimes for financial or other material benefit. The FBI's version adds how such groups keep their place: violence or the threat of it, corrupt public officials, graft and extortion. Corrupting an official is something the group does to a government, not something the government does with it. A writer describing American cities put the rest plainly: these groups know their limits and stay inside them to avoid crackdowns. That is enforcement being rationed, not enforcement switched off. So far, the people I have seen argue for tearing governments down outright, or for saying it is only the government, have been people taking part in this. Enforcement is what limits them.",
+    "topics": [
+      "specterati",
+      "community"
+    ],
+    "number": 430
+  },
+  {
     "slug": "how-long-do-we-hold",
     "title": "How long do we hold?",
     "repo": "chargingthefuture/wiki-site",
