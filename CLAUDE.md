@@ -416,6 +416,22 @@ himself" quietly teaches a reader to watch for the wrong half of the people arou
 they/them for anyone generic. A specific person the owner describes from their own account keeps
 whatever the owner said — that is a fact about who was there, not an assumption.
 
+## Every Source Goes in the References Repository (owner directive, 2026-10-07)
+
+Every source a post rests on gets a folder in `chargingthefuture/references` before the post merges:
+a statute, a treaty, a congressional report, a news article, a book, a summary used to check one of
+those. Public or gated, it goes in, so the owner and any agent can cite it later without searching
+again, and a capture still says what the post said it says after the public address dies.
+
+The layout and rules are that repository's `CLAUDE.md`: `sources/<publisher>/<year>-<short-title>/`,
+a `source.md` with publication, author, headline, date, address, how and when it was retrieved, and
+which posts cite it. When the material cannot be retrieved from the agent session, which is true of
+most government and news sites, the record still goes in, marked for the owner to add a capture.
+
+That repository is private. Nothing from it is copied into this one: the post names the source in
+plain text, writes its address out, and quotes it sparingly. A post that cites a source with no
+record there is not finished, the same way a post with no paste sheet entry is not.
+
 ## Screenshot the Subject, Never the Person's Profile (owner directive, 2026-08-28)
 
 The credit rule above says to screenshot what somebody wrote. It means the specific thing — the
