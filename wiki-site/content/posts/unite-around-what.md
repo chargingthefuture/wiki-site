@@ -3,7 +3,7 @@ title: "Unite around what?"
 date: "2026-10-07"
 excerpt: "Roderic Duplechain asked on Quora how Targeted Individuals can unite to expose and combat this. This has been happening for centuries, and every attempt to unite against it by exposing it has stalled. Uniting around what each of us needs this week has not, and it is the one that does not need anybody to agree first."
 category: "Community"
-teaser: "Roderic Duplechain asked on Quora how Targeted Individuals can unite to expose and combat this, government complicity and directed energy weapons included. This has been happening for centuries, and every attempt to unite against it by exposing it, on forums, in comment threads and long before either, has dissolved into an argument about who is behind it. Uniting around what each of us needs this week has not been tried at scale, and it needs nobody to agree about who runs it. The Directory lists people by what they can do, not by what they believe. Combat means self-defense, and the method used on us is economic, so it runs both directions. As for exposing it: a dated record kept over months is the only evidence one person can produce, and that includes every kind of energy attack, which is why the list of them exists."
+teaser: "Roderic Duplechain asked on Quora how Targeted Individuals can unite to expose and combat this, government complicity and directed energy weapons included. This has been happening for centuries, and every attempt to unite against it by exposing it, on forums, in comment threads and long before either, has dissolved into an argument about who is behind it. Uniting around what each of us needs this week has not been tried at scale, and it needs nobody to agree about who runs it. It is not new, either: the same method answered the versions built on race, on a region and on religion. The Directory lists people by what they can do, not by what they believe. Combat means self-defense, and the method used on us is economic, so it runs both directions. As for exposing it: a dated record kept over months is the only evidence one person can produce, and that includes every kind of energy attack, which is why the list of them exists."
 topics:
   - community
   - directory
@@ -33,6 +33,18 @@ Here is the order that works. Combat first, by which I mean [self-defense](https
 The method used on us is economic. Being removed from work, from housing, from references and from standing is how a person is made reachable. [The economics that oppress us can save us](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/economics-oppress-save): a method that works runs both directions, and arranging work, housing and standing between people who are not part of it is the same lever with the sign changed.
 
 That is what the [Directory](https://app.chargingthefuture.com/apps/directory) is for. It lists Targeted Individuals by what they can do: a trade, a skill, a thing somebody else needs this week. Not by what they believe about who is behind this. Roderic is on it, for pastoral care and chaplaincy and for psychological assessment and testing, and the banned account did not take that listing with it. Two people who disagree completely about the government can still fix each other's car, and once they have, they are united in the only way that has ever held. [How few people it takes](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-few-people-it-takes) runs the arithmetic: a hundred people exchanging at a time is enough to live on, and it does not have to be the same hundred.
+
+## It has worked before
+
+People taking part in this have told me the Skills Economy is new: that nobody has organized around their own skills against this version of it before. Against this version, that may be true. The method is not new, and it has worked each time the same machinery came back in a different shape.
+
+The shape changes. Organized crime uses whatever it can to control a group of people or wipe them out, and over the centuries that has been race, a region, a religion. What sits underneath does not change, and neither does what answers it.
+
+- Race. After the United States Civil War, people who had been given nothing pooled what they had, their trades, their schools, their savings, and built from it. W. E. B. Du Bois wrote about it in 1903 as the peace-battle of that century, and [Peace Battle 2](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/peace-battle-2) is named for it.
+- A region. Estonia came out of occupation in 1991 with no money, next to a neighbor a hundred times its size, and built a working country from the people already there, needing that neighbor for less every year.
+- A religion. Jewish communities, shut out of guilds, land and ordinary credit across Europe for centuries, kept their own trades, lending and mutual-aid societies, and those carried communities through persecution meant to end them. That is a short version of a long history and it leaves out far more than it says. The pattern in it is the same.
+
+A psyop is a psyop. Each version is aimed at a different group, and each has been answered by that group turning to its own skills.
 
 ## Exposing it is a record, not an argument
 
