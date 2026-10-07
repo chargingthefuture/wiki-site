@@ -426,7 +426,8 @@ again, and a capture still says what the post said it says after the public addr
 The layout and rules are that repository's `CLAUDE.md`: `sources/<publisher>/<year>-<short-title>/`,
 a `source.md` with publication, author, headline, date, address, how and when it was retrieved, and
 which posts cite it. When the material cannot be retrieved from the agent session, which is true of
-most government and news sites, the record still goes in, marked for the owner to add a capture.
+most government and news sites, the record still goes in, marked for the owner to add a capture, and
+the reply gives the address to open for each one, always, so the owner never has to search for it.
 
 That repository is private. Nothing from it is copied into this one: the post names the source in
 plain text, writes its address out, and quotes it sparingly. A post that cites a source with no
