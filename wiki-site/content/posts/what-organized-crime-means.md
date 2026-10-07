@@ -25,6 +25,14 @@ The FBI's glossary, in a version archived in 2004, said the same thing in Americ
 
 That page is at https://webharvest.gov/peth04/20041015231332/http:/www.fbi.gov/hq/cid/orgcrime/glossary.htm.
 
+United States federal law does not define organized crime in one sentence. Its main tool, the Racketeer Influenced and Corrupt Organizations Act (RICO), works through two terms. An enterprise is any individual, partnership, corporation, association or other legal entity, and any group of individuals associated in fact although not a legal entity. A pattern of racketeering activity is at least two acts from a listed set of crimes, among them murder, kidnapping, robbery, bribery, extortion, fraud and witness tampering, the last of them within ten years of a prior one, not counting time in prison. The statute is 18 U.S.C. § 1961, at https://www.law.cornell.edu/uscode/text/18/1961.
+
+So the three common definitions, side by side:
+
+- United Nations: a structured group of three or more people, existing for a period of time, acting together to commit serious crimes for financial or other material benefit.
+- FBI: any group with some formalized structure whose main aim is money from illegal activity, keeping its position through violence or the threat of it, corrupt public officials, graft or extortion.
+- United States federal law: an enterprise, formal or informal, carrying out a pattern of at least two listed crimes.
+
 ## What it does not say
 
 Neither definition says a government is in on it.
