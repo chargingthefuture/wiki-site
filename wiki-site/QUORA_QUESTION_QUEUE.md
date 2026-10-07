@@ -58,6 +58,11 @@ Proposed, not settled. Correct them on the first post rather than in the abstrac
   A fourth reason is the question's own framing: when answering it inside its own terms would mean
   adopting a frame the blog rejects — attitude as the variable, being targeted as a stance, a redemptive
   note the facts did not ask for — it is skipped rather than reframed (2026-09-22, on question 11).
+- A question's premises stay inside the quote. Anybody can ask anything on Quora, and a leading
+  question carries claims the blog does not make ("government complicity", on question 26). The
+  excerpt, teaser, body and paste sheet entry restate only what was asked for, never the premises
+  it was asked with; the verbatim quote and the screenshot are where the asker's words live (owner
+  directive, 2026-10-07).
 - The queues are the owner's working files, not something a reader knows about. A post never
   refers to this queue, the next question in it, or what a later post will cover (owner directive,
   2026-09-19).
