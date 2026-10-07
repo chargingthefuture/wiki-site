@@ -1,20 +1,22 @@
 ---
 title: "Unite around what?"
 date: "2026-10-07"
-excerpt: "Somebody asked on Quora how Targeted Individuals can unite to expose and combat this. Uniting to expose it has been tried for twenty years. Uniting around what each of us needs this week has not, and it is the one that does not need anybody to agree first."
+excerpt: "Roderic Duplechain asked on Quora how Targeted Individuals can unite to expose and combat this. Uniting to expose it has been tried for twenty years. Uniting around what each of us needs this week has not, and it is the one that does not need anybody to agree first."
 category: "Community"
-teaser: "Somebody asked on Quora how Targeted Individuals can unite to expose and combat this, government complicity and directed energy weapons included. Uniting to expose it has been tried for twenty years, on forums and in comment threads, and it dissolves every time into an argument about who is behind it. Uniting around what each of us needs this week has not been tried at scale, and it needs nobody to agree about who runs it. The Directory lists people by what they can do, not by what they believe. Combat means self-defense, and the method used on us is economic, so it runs both directions. As for exposing it: a dated record kept over months is the only evidence one person can produce, and that includes every kind of energy attack, which is why the list of them exists."
+teaser: "Roderic Duplechain asked on Quora how Targeted Individuals can unite to expose and combat this, government complicity and directed energy weapons included. Uniting to expose it has been tried for twenty years, on forums and in comment threads, and it dissolves every time into an argument about who is behind it. Uniting around what each of us needs this week has not been tried at scale, and it needs nobody to agree about who runs it. The Directory lists people by what they can do, not by what they believe. Combat means self-defense, and the method used on us is economic, so it runs both directions. As for exposing it: a dated record kept over months is the only evidence one person can produce, and that includes every kind of energy attack, which is why the list of them exists."
 topics:
   - community
   - directory
   - clicklog
 ---
 
-A question on Quora, from the export of drafts that were opened and never written. The export kept the question and not who asked it:
+A question on Quora, asked by Roderic Duplechain (https://www.quora.com/profile/roderic-duplechain) on May 25, 2024:
 
 > How can targeted individuals unite to expose and combat the systematic gang stalking and harassment they face, including government complicity and directed energy weapons?
 
-The question is at https://www.quora.com/How-can-targeted-individuals-unite-to-expose-and-combat-the-systematic-gang-stalking-and-harassment-they-face-including-government-complicity-and-directed-energy-weapons. While nobody has answered it, Quora serves it at https://www.quora.com/unanswered/How-can-targeted-individuals-unite-to-expose-and-combat-the-systematic-gang-stalking-and-harassment-they-face-including-government-complicity-and-directed-energy-weapons instead. The [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary) carries the vocabulary I use for the people doing this; the question keeps the words it was asked in.
+The question is at https://www.quora.com/How-can-targeted-individuals-unite-to-expose-and-combat-the-systematic-gang-stalking-and-harassment-they-face-including-government-complicity-and-directed-energy-weapons. While nobody has answered it, Quora serves it at https://www.quora.com/unanswered/How-can-targeted-individuals-unite-to-expose-and-combat-the-systematic-gang-stalking-and-harassment-they-face-including-government-complicity-and-directed-energy-weapons instead. Its page carries 1 public follower and 275 views. Quora has since banned the account that asked it.
+
+![The question's log entry on Quora, captured October 7, 2026. It reads: Question added by Roderic Duplechain. How can targeted individuals unite to expose and combat the systematic gang stalking and harassment they face, including government complicity and directed energy weapons? Dated May 25, 2024 at 6:00:49 PM.](images/roderic-duplechain-question-2026-10-07.jpg) The [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary) carries the vocabulary I use for the people doing this; the question keeps the words it was asked in.
 
 The question has three parts, and the order they come in is the problem. Unite, then expose, then combat. Twenty years of forums have run it in that order, and the first step never finishes.
 
@@ -30,7 +32,7 @@ Here is the order that works. Combat first, by which I mean [self-defense](https
 
 The method used on us is economic. Being removed from work, from housing, from references and from standing is how a person is made reachable. [The economics that oppress us can save us](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/economics-oppress-save): a method that works runs both directions, and arranging work, housing and standing between people who are not part of it is the same lever with the sign changed.
 
-That is what the [Directory](https://app.chargingthefuture.com/apps/directory) is for. It lists Targeted Individuals by what they can do: a trade, a skill, a thing somebody else needs this week. Not by what they believe about who is behind this. Two people who disagree completely about the government can still fix each other's car, and once they have, they are united in the only way that has ever held. [How few people it takes](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-few-people-it-takes) runs the arithmetic: a hundred people exchanging at a time is enough to live on, and it does not have to be the same hundred.
+That is what the [Directory](https://app.chargingthefuture.com/apps/directory) is for. It lists Targeted Individuals by what they can do: a trade, a skill, a thing somebody else needs this week. Not by what they believe about who is behind this. Roderic is on it, for pastoral care and chaplaincy and for psychological assessment and testing, and the banned account did not take that listing with it. Two people who disagree completely about the government can still fix each other's car, and once they have, they are united in the only way that has ever held. [How few people it takes](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-few-people-it-takes) runs the arithmetic: a hundred people exchanging at a time is enough to live on, and it does not have to be the same hundred.
 
 ## Exposing it is a record, not an argument
 

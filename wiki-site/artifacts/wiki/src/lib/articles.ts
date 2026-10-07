@@ -43,11 +43,11 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Unite around what?",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-10-07",
-    "excerpt": "Somebody asked on Quora how Targeted Individuals can unite to expose and combat this. Uniting to expose it has been tried for twenty years. Uniting around what each of us needs this week has not, and it is the one that does not need anybody to agree first.",
+    "excerpt": "Roderic Duplechain asked on Quora how Targeted Individuals can unite to expose and combat this. Uniting to expose it has been tried for twenty years. Uniting around what each of us needs this week has not, and it is the one that does not need anybody to agree first.",
     "category": "Community",
     "collection": "posts",
     "path": "posts/unite-around-what.md",
-    "teaser": "Somebody asked on Quora how Targeted Individuals can unite to expose and combat this, government complicity and directed energy weapons included. Uniting to expose it has been tried for twenty years, on forums and in comment threads, and it dissolves every time into an argument about who is behind it. Uniting around what each of us needs this week has not been tried at scale, and it needs nobody to agree about who runs it. The Directory lists people by what they can do, not by what they believe. Combat means self-defense, and the method used on us is economic, so it runs both directions. As for exposing it: a dated record kept over months is the only evidence one person can produce, and that includes every kind of energy attack, which is why the list of them exists.",
+    "teaser": "Roderic Duplechain asked on Quora how Targeted Individuals can unite to expose and combat this, government complicity and directed energy weapons included. Uniting to expose it has been tried for twenty years, on forums and in comment threads, and it dissolves every time into an argument about who is behind it. Uniting around what each of us needs this week has not been tried at scale, and it needs nobody to agree about who runs it. The Directory lists people by what they can do, not by what they believe. Combat means self-defense, and the method used on us is economic, so it runs both directions. As for exposing it: a dated record kept over months is the only evidence one person can produce, and that includes every kind of energy attack, which is why the list of them exists.",
     "topics": [
       "community",
       "directory",
