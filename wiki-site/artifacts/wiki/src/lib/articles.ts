@@ -39,19 +39,18 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
-    "slug": "an-invitation-to-marilyn",
-    "title": "An invitation to Marilyn",
+    "slug": "what-protects-you-from-energy-weapons",
+    "title": "What protects you from energy weapons? I am asking",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-10-08",
-    "excerpt": "The targeting works because the people around you can be reached. Marilyn's listing is lab work, a trade built on getting the same answer whoever runs the test.",
+    "excerpt": "Slimfiguree asked on Quora how people protect themselves against energy weapons and frequency. I do not have an answer. This post asks the people who do: say what you tried under this post in Fireside, and put the tools that helped on WhatWorks.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/an-invitation-to-marilyn.md",
-    "teaser": "Two things have to be true for the targeting to work: the people around you can be reached, and in time there is nobody else. Marilyn's Directory listing carries laboratory safety and SOP adherence, basic laboratory testing, and packaging and labeling. Lab work is a procedure written down in advance and followed the same way every time, so the result does not depend on who runs it. Basic laboratory testing sits in Water and Sanitation, where 3 of 19 skills are held by anybody. This is an invitation to claim the listing, and no is a complete answer.",
+    "path": "posts/what-protects-you-from-energy-weapons.md",
+    "teaser": "Slimfiguree asked on Quora how people protect themselves against energy weapons and frequency. I do not have an answer, and anything I wrote would be a guess on a subject where guesses cost people money. So this post is a request. If something helped you, describe it in the conversation under this post: what you tried, what happened, and what did not work. If it is a specific tool, add it to WhatWorks under the problem it helped with, and mark tools already there as helpful when they worked for you, so each one carries a count of the people it helped.",
     "topics": [
-      "community",
-      "directory",
-      "workforce"
+      "what-works",
+      "community"
     ],
     "number": 433
   },

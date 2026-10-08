@@ -14,71 +14,52 @@ regenerate, or the two will disagree and the post is the one that is right.
 126 posts.
 
 ==============================================================================
-2026-10-08 · An invitation to Marilyn
+2026-10-08 · What protects you from energy weapons? I am asking
 
-Two things have to be true for the targeting to work.
+A question on Quora, asked by Slimfiguree (https://www.quora.com/profile/slimfiguree) on March 1, 2025:
 
-The first is that the people around you can be reached. A neighbor, a landlord, a clerk, the front desk at a clinic. What you are told depends on who you ask, and whoever you ask can be reached first.
+How do you guys protect yourself against energy weapons and frequency?
 
-The second is that there is nobody else. That one is not a starting condition. It is what the first produces, given time.
+Its page on Quora carries 1 public follower and 890 views. Slimfiguree is also listed in the Directory, at https://app.chargingthefuture.com/apps/directory/profile/8bf5873b-3ff7-4ad1-97e3-e7a945dc924d.
 
-Lab work is built around the first of those. A test is a procedure written down before anybody runs it, followed the same way every time, so the result is the same whoever is holding the sample. It is worth having people nearby who know how that is done.
+[Screenshot — The question's log entry on Quora, captured October 8, 2026. It reads: Question added by Slimfiguree. How do you guys protect yourself against energy weapons and frequency? Dated March 1, 2025 at 8:51:49 PM.]
 
-Marilyn
+I do not have an answer
 
-Marilyn (https://www.quora.com/profile/Marilyn-1921), in the United States. The Directory profile is at https://app.chargingthefuture.com/apps/directory/profile/50380685-5393-4330-af8e-920fa8789753.
+I do not know what protects a person from energy weapons. Not a partial answer, and not one I am holding back. Anything I wrote here would be a guess, and on this subject a guess costs people money: one of the posts below is somebody's account of several hundred dollars spent on a suit that did not work.
 
-[Screenshot — Marilyn's Directory listing in the app, captured October 8, 2026. The heading reads Marilyn, below it "Community-generated profile" and "Nominated by @farah", and under that the location United States. A button reads View Quora profile. Under the heading ABOUT it reads Lab tech. Under the heading SPECIALIZATIONS are three entries: Laboratory safety and SOP adherence; Laboratory testing (basic); Packaging and labeling.]
+So this post is a request. If something has helped you, say what it is.
 
-The listing describes Marilyn as a lab tech and carries three specializations:
+What is already on the blog
 
-- Laboratory safety and SOP adherence is working to a standard operating procedure: the written steps that keep a result repeatable and the person running it safe.
-- Laboratory testing (basic) is running the routine tests a sample goes through, the kind a treatment plant runs on water every day.
-- Packaging and labeling is getting a product sealed and marked so whoever picks it up knows what is in it.
+- The DEW List: Naming Every Kind of Attack (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/dew-attack-types) names the kinds of directed energy attack, so each one can be logged in ClickLog under its own name.
+- Knowledge That Survives a Ban (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-works-knowledge-that-survives-a-ban) is Gn0b0dy Pneuma's account of shielding fabric and faraday cages, from having bought and used them, including what did not work.
+- Mutual, not equal (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/mutual-not-equal) is about treating directed energy weapons as part of the same harassment as the slander, the street harassment and the theft, rather than a separate problem.
+- Unite around what? (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/unite-around-what) answers a question that named directed energy weapons, and sends those attacks to the list above to be logged.
 
-Why that matters here
+None of them says what protects a person. That part has to come from the people who have tried things.
 
-The app keeps a catalog of 713 skills, the things a working economy of about five million people needs somebody to be able to do, grouped by sector. Read on October 8, the Directory's 187 people held 233 of them.
+Where to answer
 
-Marilyn's three skills sit in three different sectors:
+Two places, for two kinds of answer.
 
-- Basic laboratory testing is filed under treatment-plant operators in Water and Sanitation, one of the thinnest: 3 of its 19 skills are held by anybody.
-- Packaging and labeling is filed under food-processing workers in Food and Agriculture, where 6 of 49 are held.
-- Laboratory safety and SOP adherence is filed under lab technicians in R&D and High-Tech, where 21 of 41 are held.
+Under this post, in Fireside. The conversation sits underneath this post, and anybody can read it without an account. To write, press the button under the post: it opens this conversation in the app. What you write appears publicly once you are approved through Unlock. Say what you tried, what happened, and what did not work. The failures help as much as the rest, because each one is money somebody else does not have to spend.
 
-Water and food are the two things nobody goes a day without, and both are checked by somebody before they reach anybody. A community that means to provide for itself needs people who know how that checking is done.
+In WhatWorks, for a specific thing. WhatWorks is one shared list organized by problem. Under each problem are tools somebody here bought, used, and said helped, each with a link to get it. Suggest a tool under the problem it helped with, with the link and a note on why; it is reviewed before it appears. If a tool already on the list worked for you, mark it helpful. The count beside each tool is how many people said it helped them, and that count is how one tool is weighed against another.
 
-What this is not
-
-This is not a request to test anybody's water or food, and nothing here says Marilyn will. Being on a list of what a person can do is not an offer of anything, and the Directory has never worked that way.
-
-How the listing came to be
-
-I built it from what Marilyn said about themselves in public and put it up under their name, which is how most of this list was made, one person at a time. They did not sign up, and nobody asked them first. That is why it is marked community-generated and carries my handle: so anybody reading it knows it is my account of somebody else's skills, and knows who to come to about it.
-
-The invitation
-
-Claiming the listing takes a free account and a few minutes, and after that it is theirs: what it says, and whether it stays up at all.
-
-Nothing else is required. Not using the rest of the app, not posting anything, not agreeing with a word I have written. No is a complete answer, and the listing comes down on request with no account involved in that either.
-
-This does not run one way
-
-Somebody whose work is checking things for other people needs things too. A ride. A room. An hour of a trade they do not have. The listing that makes them findable makes those people findable to them, which is the second of the two things turned around: not nobody else, but somebody.
-
-Who is on the list
-
-Everyone written about in this series is a self-identified Targeted Individual. That means they said so in public, and it is the only basis for the listing. I cannot verify it, and neither can a reader. Some people who say it are not survivors, and some are the people doing the harassing, so a post here is not a vouch for anybody and should not be read as one. I am not responsible for what anyone named on this list does or says, on the app, on Quora, or anywhere else. The closest anybody can get to finding a real Targeted Individual is through the app, which admits people one at a time through Unlock and has other mechanisms in place to filter actively. Even with those, there is no such thing as a hundred percent.
+A count is people saying a thing helped them. It is not a test, and it does not mean a tool will work for you. It is still more than any of us has alone.
 
 Where to find it in the app
 
 - Directory (https://app.chargingthefuture.com/apps/directory) — guide (https://app.chargingthefuture.com/guide#directory)
-- Workforce (https://app.chargingthefuture.com/apps/workforce) — guide (https://app.chargingthefuture.com/guide#workforce)
+- ClickLog (https://app.chargingthefuture.com/apps/click-log) — guide (https://app.chargingthefuture.com/guide#click-log)
+- Fireside (https://app.chargingthefuture.com/apps/fireside) — guide (https://app.chargingthefuture.com/guide#fireside)
 - Unlock (https://app.chargingthefuture.com/plugin/unlock) — guide (https://app.chargingthefuture.com/guide#unlock)
+- WhatWorks (https://app.chargingthefuture.com/apps/what-works) — guide (https://app.chargingthefuture.com/guide#what-works)
 
 To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
-Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/an-invitation-to-marilyn
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-protects-you-from-energy-weapons
 
 ==============================================================================
 2026-10-07 · An invitation to Indiko
