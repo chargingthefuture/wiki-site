@@ -34,11 +34,10 @@ The listing describes Marilyn as a lab tech and carries three specializations:
 
 The app keeps a catalog of 713 skills, the things a working economy of about five million people needs somebody to be able to do, grouped by sector. Read on October 8, the Directory's 187 people held 233 of them.
 
-Two of Marilyn's skills sit in sectors of the catalog, and the third is used in all of them:
+Where Marilyn's skills sit in the catalog:
 
 - Packaging and labeling is filed under food-processing workers in Food and Agriculture, where 6 of 49 are held.
-- Laboratory safety and SOP adherence is filed under lab technicians in R&D and High-Tech, where 21 of 41 are held.
-- Basic laboratory testing is done wherever a sample has to be checked, whether that is water, food, a patient's blood or a batch off a production line, so it belongs to no single sector.
+- Laboratory safety and SOP adherence and basic laboratory testing are both filed under lab technicians in R&D and High-Tech. Lab testing is done wherever a sample has to be checked, whether that is water, food, a patient's blood or a batch off a production line.
 
 Water, food and medicine are all checked by somebody before they reach anybody. A community that means to provide for itself needs people who know how that checking is done.
 
