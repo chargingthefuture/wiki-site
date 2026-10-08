@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "a-group-that-meets",
+    "title": "A group that meets",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-08",
+    "excerpt": "Somebody asked on Quora whether Targeted Individuals have groups that meet the way Alcoholics Anonymous does, because they need support and have nowhere to turn. There are, and the first one you can join tonight without an account.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/a-group-that-meets.md",
+    "teaser": "Somebody asked on Quora whether there are groups of Targeted Individuals that meet the way Alcoholics Anonymous does, because they need support and have nowhere to turn. Yes, with one difference: most of us cannot travel to a room, so the rooms are on a phone. Chyme is a live audio room you can listen to without an account. TI Radio is a published schedule of ninety-minute discussions members host there, so there is a time to show up, the way a meeting has one. The Commons is a group chat that is open all day. PeerProgramming puts people into small weekly groups that meet by video. What makes AA work is that nobody in the room needs convincing, and that is true here too.",
+    "topics": [
+      "community",
+      "chyme",
+      "commons"
+    ],
+    "number": 433
+  },
+  {
     "slug": "an-invitation-to-indiko",
     "title": "An invitation to Indiko",
     "repo": "chargingthefuture/wiki-site",
