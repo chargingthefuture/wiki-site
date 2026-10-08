@@ -3,7 +3,7 @@ title: "An invitation to Marilyn"
 date: "2026-10-08"
 excerpt: "The targeting works because the people around you can be reached. Marilyn's listing is lab work, a trade built on getting the same answer whoever runs the test."
 category: "Community"
-teaser: "Two things have to be true for the targeting to work: the people around you can be reached, and in time there is nobody else. Marilyn's Directory listing carries laboratory safety and SOP adherence, basic laboratory testing, and packaging and labeling. Lab work is a procedure written down in advance and followed the same way every time, so the result does not depend on who runs it. Packaging and labeling sits in Food and Agriculture, where 6 of 49 skills are held by anybody. This is an invitation to claim the listing, and no is a complete answer."
+teaser: "Two things have to be true for the targeting to work: the people around you can be reached, and in time there is nobody left to turn to. Marilyn's Directory listing carries laboratory safety and SOP adherence, basic laboratory testing, and packaging and labeling. Lab work is a procedure written down in advance and followed the same way every time, so the result does not depend on who runs it. Packaging and labeling sits in Food and Agriculture, where 6 of 49 skills are held by anybody. This is an invitation to claim the listing, and no is a complete answer."
 topics:
   - community
   - directory
@@ -14,7 +14,7 @@ Two things have to be true for the targeting to work.
 
 The first is that the people around you can be reached. A neighbor, a landlord, a clerk, the front desk at a clinic. What you are told depends on who you ask, and whoever you ask can be reached first.
 
-The second is that there is nobody else. That one is not a starting condition. It is what the first produces, given time.
+The second follows from the first: given enough time, there is nobody left to turn to.
 
 Lab work is built around the first of those. A test is a procedure written down before anybody runs it, followed the same way every time, so the result is the same whoever is holding the sample. It is worth having people nearby who know how that is done.
 

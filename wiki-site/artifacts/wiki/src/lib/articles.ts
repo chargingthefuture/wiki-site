@@ -47,7 +47,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/an-invitation-to-marilyn.md",
-    "teaser": "Two things have to be true for the targeting to work: the people around you can be reached, and in time there is nobody else. Marilyn's Directory listing carries laboratory safety and SOP adherence, basic laboratory testing, and packaging and labeling. Lab work is a procedure written down in advance and followed the same way every time, so the result does not depend on who runs it. Packaging and labeling sits in Food and Agriculture, where 6 of 49 skills are held by anybody. This is an invitation to claim the listing, and no is a complete answer.",
+    "teaser": "Two things have to be true for the targeting to work: the people around you can be reached, and in time there is nobody left to turn to. Marilyn's Directory listing carries laboratory safety and SOP adherence, basic laboratory testing, and packaging and labeling. Lab work is a procedure written down in advance and followed the same way every time, so the result does not depend on who runs it. Packaging and labeling sits in Food and Agriculture, where 6 of 49 skills are held by anybody. This is an invitation to claim the listing, and no is a complete answer.",
     "topics": [
       "community",
       "directory",

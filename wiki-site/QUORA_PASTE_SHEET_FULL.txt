@@ -20,7 +20,7 @@ Two things have to be true for the targeting to work.
 
 The first is that the people around you can be reached. A neighbor, a landlord, a clerk, the front desk at a clinic. What you are told depends on who you ask, and whoever you ask can be reached first.
 
-The second is that there is nobody else. That one is not a starting condition. It is what the first produces, given time.
+The second follows from the first: given enough time, there is nobody left to turn to.
 
 Lab work is built around the first of those. A test is a procedure written down before anybody runs it, followed the same way every time, so the result is the same whoever is holding the sample. It is worth having people nearby who know how that is done.
 
