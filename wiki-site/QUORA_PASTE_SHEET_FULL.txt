@@ -35,7 +35,7 @@ Why that matters here
 
 The app keeps a catalog of 713 skills, the things a working economy of about five million people needs somebody to be able to do, grouped by sector. Read on October 7, the Directory's 175 people held 230 of them.
 
-Microfinance and SME Support, the sector for starting and running small businesses, is one of the thin ones: 4 of its 24 skills are held by anybody. Its eight occupations run from loan officers and credit analysts to business development officers and SME advisors, the people who sit down with somebody and a plan.
+Microfinance and SME Support, the sector for starting and running small businesses, is one of the thin ones: 4 of its 24 skills are held by anybody. Its eight occupations run from loan officers and credit analysts to business development officers and SME advisors, the people who sit down with somebody and a plan. Business-plan development, the first skill on Indiko's listing, is one of the three the app files under that last one.
 
 Workforce shows the gap (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/workforce-shows-the-gap) describes how a gap becomes a living: read the gap, pick an outcome, fill it yourself or team up with somebody who can. Most people here have the trade. Fewer have the plan that says whether the trade will pay, and that is the part that decides whether a week of work turns into a second week.
 
