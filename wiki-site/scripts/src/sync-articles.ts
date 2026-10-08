@@ -201,13 +201,14 @@ function firstCommitSeconds(relPath: string): number {
   // A post is published when it reaches main, so same-day posts are ordered by the commit that
   // brought the file to main (first-parent history of origin/main, or main when that ref is
   // absent): the merge commit, which is also the moment that sets the post's date (owner directive,
-  // 2026-10-03). A file not on main yet is ordered by its own first commit, which is where it will
-  // be ranked as a provisional position until it merges.
+  // 2026-10-03). A file not on main yet ranks above every same-day post already there, because
+  // that is where it lands when it merges; ranking it by its own first commit put it below posts
+  // merged after it was written, and the sheets ordered on the branch then failed on main.
   for (const ref of ['origin/main', 'main']) {
     const onMain = gitLogSeconds(['--first-parent', ref], relPath);
     if (onMain) return onMain;
   }
-  return gitLogSeconds(['--follow', '-M90%'], relPath);
+  return Number.MAX_SAFE_INTEGER;
 }
 
 function gitLogSeconds(selector: string[], relPath: string): number {

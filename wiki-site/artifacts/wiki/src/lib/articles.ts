@@ -39,7 +39,6 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
-<<<<<<< HEAD
     "slug": "what-organized-crime-means",
     "title": "What organized crime means",
     "repo": "chargingthefuture/wiki-site",
@@ -52,7 +51,10 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "specterati",
       "community"
-=======
+    ],
+    "number": 431
+  },
+  {
     "slug": "unite-around-what",
     "title": "Unite around what?",
     "repo": "chargingthefuture/wiki-site",
@@ -66,7 +68,6 @@ export const ARTICLES: ArticleMeta[] = [
       "community",
       "directory",
       "clicklog"
->>>>>>> origin/main
     ],
     "number": 430
   },
