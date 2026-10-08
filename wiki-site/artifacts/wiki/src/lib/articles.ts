@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-indiko",
+    "title": "An invitation to Indiko",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-07",
+    "excerpt": "A year ago Indiko asked on Quora to find other Targeted Individuals in Australia. Four people on the list are there now, and Indiko is listed for the part most of us skip: the business plan.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-indiko.md",
+    "teaser": "In September 2025 Indiko posted on Quora trying to connect with other Australians going through this. Four people on the Directory are in Australia now, Indiko among them. Indiko's listing carries business-plan development and market analysis, and business modeling and financial case building: working out who will pay for something and whether it covers its costs before anybody spends a week on it. A skill becomes a living when somebody does that part, and most people here have the trade without the plan. This is an invitation to claim the listing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 432
+  },
+  {
     "slug": "what-organized-crime-means",
     "title": "What organized crime means",
     "repo": "chargingthefuture/wiki-site",
