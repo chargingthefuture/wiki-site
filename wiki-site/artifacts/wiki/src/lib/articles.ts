@@ -39,6 +39,7 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+<<<<<<< HEAD
     "slug": "what-organized-crime-means",
     "title": "What organized crime means",
     "repo": "chargingthefuture/wiki-site",
@@ -51,6 +52,21 @@ export const ARTICLES: ArticleMeta[] = [
     "topics": [
       "specterati",
       "community"
+=======
+    "slug": "unite-around-what",
+    "title": "Unite around what?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-07",
+    "excerpt": "Roderic Duplechain asked on Quora how Targeted Individuals can unite to expose and combat this. This has been happening for centuries, and every attempt to unite against it by exposing it has stalled. Uniting around what each of us needs this week has not, and it is the one that does not need anybody to agree first.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/unite-around-what.md",
+    "teaser": "Roderic Duplechain asked on Quora how Targeted Individuals can unite to expose and combat this. This has been happening for centuries, and every attempt to unite against it by exposing it, on forums, in comment threads and long before either, has dissolved into an argument about who is behind it. Uniting around what each of us needs this week has not been tried at scale, and it needs nobody to agree about who runs it. It is not new, either: the same method answered the versions built on race, on a region and on religion. The Directory lists people by what they can do, not by what they believe. Combat means self-defense, and the method used on us is economic, so it runs both directions. As for exposing it: a dated record kept over months is the only evidence one person can produce, and that includes every kind of energy attack, which is why the list of them exists.",
+    "topics": [
+      "community",
+      "directory",
+      "clicklog"
+>>>>>>> origin/main
     ],
     "number": 430
   },

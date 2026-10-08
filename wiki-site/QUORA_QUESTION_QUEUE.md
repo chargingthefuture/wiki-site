@@ -58,6 +58,11 @@ Proposed, not settled. Correct them on the first post rather than in the abstrac
   A fourth reason is the question's own framing: when answering it inside its own terms would mean
   adopting a frame the blog rejects — attitude as the variable, being targeted as a stance, a redemptive
   note the facts did not ask for — it is skipped rather than reframed (2026-09-22, on question 11).
+- A question's premises stay inside the quote. Anybody can ask anything on Quora, and a leading
+  question carries claims the blog does not make ("government complicity", on question 26). The
+  excerpt, teaser, body and paste sheet entry restate only what was asked for, never the premises
+  it was asked with; the verbatim quote and the screenshot are where the asker's words live (owner
+  directive, 2026-10-07).
 - The queues are the owner's working files, not something a reader knows about. A post never
   refers to this queue, the next question in it, or what a later post will cover (owner directive,
   2026-09-19).
@@ -101,7 +106,7 @@ Ordered by the date the draft was opened. The account is the one it sat under.
 - [–] 23. `2025-08-22` · pedigree101 — Do you feel sympathy for gang stalkers? (skipped — owner decision, 2026-10-01: not a question the blog answers. The question is at https://www.quora.com/Do-you-feel-sympathy-for-gang-stalkers. Not a post.)
 - [–] 24. `2025-08-25` · pedigree101 — What do people who have confessed to gang stalking say about how it all started and who is involved? (skipped — owner decision, 2026-10-01: Quora Prompt Generator, a bot, added it, and its framing is not one the blog answers inside its own terms. The question is at https://www.quora.com/What-do-people-who-have-confessed-to-gang-stalking-say-about-how-it-all-started-and-who-is-involved. Not a post.)
 - [x] 25. `2025-08-25` · pedigree101 — What jobs can a targeted individual get? (asked by No Name Individual, https://www.quora.com/profile/No-Name-Individual, on 2023-12-25; answered in what-jobs-a-targeted-individual-can-get.md)
-- [ ] 26. `2025-08-28` · pedigree101 — How can targeted individuals unite to expose and combat the systematic gang stalking and harassment they face, including government complicity and directed energy weapons?
+- [x] 26. `2025-08-28` · pedigree101 — How can targeted individuals unite to expose and combat the systematic gang stalking and harassment they face, including government complicity and directed energy weapons? (asked by Roderic Duplechain, https://www.quora.com/profile/roderic-duplechain, on 2024-05-25; the account is since banned; answered in unite-around-what.md)
 - [ ] 27. `2025-08-28` · pedigree101 — I have a question for the perps on the stalking side of organized stalking. If your son or your daughter was put on the terror watch list and became a target, would that change anything for you or would it just be another day at the office?
 - [x] 28. `2025-08-31` · pedigree101 — If so many people are aware that gang stalking is going on, then why isn't anyone doing anything about it? They have destroyed me and I'm so at my breaking point. It's so unfair. (asked by Nikki Martindale, https://www.quora.com/profile/Nikki-Martindale-9, on 2025-07-22; answered in why-nobody-does-anything.md)
 - [ ] 29. `2025-08-31` · pedigree101 — Why do some people quit being involved in gang stalking, and what consequences do they face for leaving?

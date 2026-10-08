@@ -1738,6 +1738,7 @@ Maybe the two answers are one answer. We hold for our lifetimes, and the holding
 
 So, how long? As long as you need things and another Targeted Individual can supply them. A day at a time, which is the only way anybody has ever done it.
 
+<<<<<<< HEAD
 ==================== 2026-10-07 · teaser (the full post is 5,301 characters) ====================
 
 what-organized-crime-means
@@ -1745,5 +1746,14 @@ what-organized-crime-means
 What organized crime means.
 
 Organized crime has a definition, and it is worth reading again. The United Nations defines an organized criminal group as a structured group of three or more people, existing for a period of time and acting together to commit serious crimes for financial or other material benefit. The FBI's version adds how such groups keep their place: violence or the threat of it, corrupt public officials, graft and extortion. Corrupting an official is something the group does to a government, not something the government does with it. A writer describing American cities put the rest plainly: these groups know their limits and stay inside them to avoid crackdowns. That is enforcement being rationed, not enforcement switched off. None of this is aimed at a survivor who says the government targets them: governments have, Martin Luther King Jr. among the documented cases, and so have people outside government with no instructions from anybody. So far, the people I have seen argue for tearing governments down outright, or for saying it is only the government, have been people taking part in this. Enforcement is what limits them.
+=======
+==================== 2026-10-07 · teaser (the full post is 6,330 characters) ====================
+
+unite-around-what
+
+Unite around what?
+
+Roderic Duplechain asked on Quora how Targeted Individuals can unite to expose and combat this. This has been happening for centuries, and every attempt to unite against it by exposing it, on forums, in comment threads and long before either, has dissolved into an argument about who is behind it. Uniting around what each of us needs this week has not been tried at scale, and it needs nobody to agree about who runs it. It is not new, either: the same method answered the versions built on race, on a region and on religion. The Directory lists people by what they can do, not by what they believe. Combat means self-defense, and the method used on us is economic, so it runs both directions. As for exposing it: a dated record kept over months is the only evidence one person can produce, and that includes every kind of energy attack, which is why the list of them exists.
+>>>>>>> origin/main
 
 Full post, No. 430, available on the blog.
