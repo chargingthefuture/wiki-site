@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-marilyn",
+    "title": "An invitation to Marilyn",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-08",
+    "excerpt": "The targeting works because the people around you can be reached. Marilyn's listing is lab work, a trade built on getting the same answer whoever runs the test.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-marilyn.md",
+    "teaser": "Two things have to be true for the targeting to work: the people around you can be reached, and in time there is nobody else. Marilyn's Directory listing carries laboratory safety and SOP adherence, basic laboratory testing, and packaging and labeling. Lab work is a procedure written down in advance and followed the same way every time, so the result does not depend on who runs it. Basic laboratory testing sits in Water and Sanitation, where 3 of 19 skills are held by anybody. This is an invitation to claim the listing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 434
+  },
+  {
     "slug": "what-protects-you-from-energy-weapons",
     "title": "What protects you from energy weapons? I am asking",
     "repo": "chargingthefuture/wiki-site",
