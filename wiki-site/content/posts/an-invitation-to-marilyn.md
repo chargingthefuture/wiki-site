@@ -22,7 +22,9 @@ Lab work is built around the first of those. A test is a procedure written down 
 
 Marilyn (https://www.quora.com/profile/Marilyn-1921), in the United States. The Directory profile is at https://app.chargingthefuture.com/apps/directory/profile/50380685-5393-4330-af8e-920fa8789753.
 
-The listing carries three specializations:
+![Marilyn's Directory listing in the app, captured October 8, 2026. The heading reads Marilyn, below it "Community-generated profile" and "Nominated by @farah", and under that the location United States. A button reads View Quora profile. Under the heading ABOUT it reads Lab tech. Under the heading SPECIALIZATIONS are three entries: Laboratory safety and SOP adherence; Laboratory testing (basic); Packaging and labeling.](images/marilyn-directory-profile-2026-10-08.jpg)
+
+The listing describes Marilyn as a lab tech and carries three specializations:
 
 - Laboratory safety and SOP adherence is working to a standard operating procedure: the written steps that keep a result repeatable and the person running it safe.
 - Laboratory testing (basic) is running the routine tests a sample goes through, the kind a treatment plant runs on water every day.
