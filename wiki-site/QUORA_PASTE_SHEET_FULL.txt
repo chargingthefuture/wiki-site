@@ -43,7 +43,7 @@ The app keeps a catalog of 713 skills, the things a working economy of about fiv
 Where Marilyn's skills sit in the catalog:
 
 - Packaging and labeling is filed under food-processing workers in Food and Agriculture, where 6 of 49 are held.
-- Laboratory safety and SOP adherence and basic laboratory testing are both filed under lab technicians in R&D and High-Tech. Lab testing is done wherever a sample has to be checked, whether that is water, food, a patient's blood or a batch off a production line.
+- Laboratory safety and SOP adherence and basic laboratory testing are both filed under lab technicians in R&D and High-Tech, where 22 of 42 are held. Lab testing is done wherever a sample has to be checked, whether that is water, food, a patient's blood or a batch off a production line.
 
 Water, food and medicine are all checked by somebody before they reach anybody. A community that means to provide for itself needs people who know how that checking is done.
 
