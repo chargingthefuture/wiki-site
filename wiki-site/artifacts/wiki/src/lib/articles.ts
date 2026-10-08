@@ -39,6 +39,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "what-protects-you-from-energy-weapons",
+    "title": "What protects you from energy weapons? I am asking",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-08",
+    "excerpt": "Slimfiguree asked on Quora how people protect themselves against energy weapons and frequency. I do not have an answer. This post asks the people who do: say what you tried under this post in Fireside, and put the tools that helped on WhatWorks.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/what-protects-you-from-energy-weapons.md",
+    "teaser": "Slimfiguree asked on Quora how people protect themselves against energy weapons and frequency. I do not have an answer, and anything I wrote would be a guess on a subject where guesses cost people money. So this post is a request. If something helped you, describe it in the conversation under this post: what you tried, what happened, and what did not work. If it is a specific tool, add it to WhatWorks under the problem it helped with, and mark tools already there as helpful when they worked for you, so each one carries a count of the people it helped.",
+    "topics": [
+      "what-works",
+      "community"
+    ],
+    "number": 433
+  },
+  {
     "slug": "an-invitation-to-indiko",
     "title": "An invitation to Indiko",
     "repo": "chargingthefuture/wiki-site",
