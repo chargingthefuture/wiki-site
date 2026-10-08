@@ -3,7 +3,7 @@ title: "An invitation to Marilyn"
 date: "2026-10-08"
 excerpt: "The targeting works because the people around you can be reached. Marilyn's listing is lab work, a trade built on getting the same answer whoever runs the test."
 category: "Community"
-teaser: "Two things have to be true for the targeting to work: the people around you can be reached, and in time there is nobody else. Marilyn's Directory listing carries laboratory safety and SOP adherence, basic laboratory testing, and packaging and labeling. Lab work is a procedure written down in advance and followed the same way every time, so the result does not depend on who runs it. Basic laboratory testing sits in Water and Sanitation, where 3 of 19 skills are held by anybody. This is an invitation to claim the listing, and no is a complete answer."
+teaser: "Two things have to be true for the targeting to work: the people around you can be reached, and in time there is nobody else. Marilyn's Directory listing carries laboratory safety and SOP adherence, basic laboratory testing, and packaging and labeling. Lab work is a procedure written down in advance and followed the same way every time, so the result does not depend on who runs it. Packaging and labeling sits in Food and Agriculture, where 6 of 49 skills are held by anybody. This is an invitation to claim the listing, and no is a complete answer."
 topics:
   - community
   - directory
@@ -27,20 +27,20 @@ Marilyn (https://www.quora.com/profile/Marilyn-1921), in the United States. The 
 The listing describes Marilyn as a lab tech and carries three specializations:
 
 - Laboratory safety and SOP adherence is working to a standard operating procedure: the written steps that keep a result repeatable and the person running it safe.
-- Laboratory testing (basic) is running the routine tests a sample goes through, the kind a treatment plant runs on water every day.
+- Laboratory testing (basic) is running the routine tests a sample goes through, whether the sample is water, food, or anything else that has to be checked.
 - Packaging and labeling is getting a product sealed and marked so whoever picks it up knows what is in it.
 
 ## Why that matters here
 
 The app keeps a catalog of 713 skills, the things a working economy of about five million people needs somebody to be able to do, grouped by sector. Read on October 8, the Directory's 187 people held 233 of them.
 
-Marilyn's three skills sit in three different sectors:
+Two of Marilyn's skills sit in sectors of the catalog, and the third is used in all of them:
 
-- Basic laboratory testing is filed under treatment-plant operators in Water and Sanitation, one of the thinnest: 3 of its 19 skills are held by anybody.
 - Packaging and labeling is filed under food-processing workers in Food and Agriculture, where 6 of 49 are held.
 - Laboratory safety and SOP adherence is filed under lab technicians in R&D and High-Tech, where 21 of 41 are held.
+- Basic laboratory testing is done wherever a sample has to be checked, whether that is water, food, a patient's blood or a batch off a production line, so it belongs to no single sector.
 
-Water and food are the two things nobody goes a day without, and both are checked by somebody before they reach anybody. A community that means to provide for itself needs people who know how that checking is done.
+Water, food and medicine are all checked by somebody before they reach anybody. A community that means to provide for itself needs people who know how that checking is done.
 
 ## What this is not
 
