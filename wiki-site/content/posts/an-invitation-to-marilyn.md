@@ -32,7 +32,7 @@ The listing describes Marilyn as a lab tech and carries three specializations:
 
 ## Why that matters here
 
-The app keeps a catalog of 713 skills, the things a working economy of about five million people needs somebody to be able to do, grouped by sector. Read on October 8, the Directory's 187 people held 233 of them.
+The app keeps a catalog of 713 skills, the things a working economy of about five million people needs somebody to be able to do, grouped by sector. Read on October 8, the Directory's 193 people held 233 of them.
 
 Where Marilyn's skills sit in the catalog:
 

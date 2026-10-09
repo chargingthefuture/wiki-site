@@ -90,6 +90,9 @@ carries it, because the owner froze that page outright and that freeze has not b
   `wiki:build:pages`, so it cannot fall behind the posts. Never hand-edit it; edit the post. The
   page carries an autodiscovery link in `index.html` so a reader given the site address finds the
   feed without anybody copying an XML address, and a "Follow by RSS" row sits in the footer.
+  GitHub Pages answers `/feed` with `feed.xml` when no `feed.html` exists, so a direct visit to
+  the `/feed` page showed the raw RSS file. `wiki:build:pages` copies `index.html` to `feed.html`
+  for that reason; any new route whose name matches a file in `public/` needs the same copy.
 - Invite cards: `artifacts/wiki/public/invites.json`, one card per published invite post
   (a listed post in `content/posts` titled "An invitation to <name>"; the title is the contract,
   so no front matter flag exists), newest first, written by `scripts/src/build-invites.ts` on
@@ -501,6 +504,14 @@ They have said the rewording is what they expect.
 Ask only when meaning genuinely forks and the two readings produce different work. Otherwise pick
 the reading that fits everything else they have said, write it, and let them correct a draft.
 Correcting is cheaper for them than explaining.
+
+### Recording a reason the owner gives (owner directive, 2026-10-08)
+
+This repository is public. When the owner gives a reason for a decision, such as skipping a
+question or passing on a post, never write their own wording into the repository. Write a neutral
+version: in a queue line, a commit message, or a PR body, name no person's motive or affiliation.
+"Its framing is not one the blog answers inside its own terms" is the model for a skipped
+question. The full reason stays in chat.
 
 ## No Perp Language Outside the Archive (owner directive, 2026-08-25)
 
