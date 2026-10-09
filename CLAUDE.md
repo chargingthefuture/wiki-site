@@ -90,6 +90,9 @@ carries it, because the owner froze that page outright and that freeze has not b
   `wiki:build:pages`, so it cannot fall behind the posts. Never hand-edit it; edit the post. The
   page carries an autodiscovery link in `index.html` so a reader given the site address finds the
   feed without anybody copying an XML address, and a "Follow by RSS" row sits in the footer.
+  GitHub Pages answers `/feed` with `feed.xml` when no `feed.html` exists, so a direct visit to
+  the `/feed` page showed the raw RSS file. `wiki:build:pages` copies `index.html` to `feed.html`
+  for that reason; any new route whose name matches a file in `public/` needs the same copy.
 - Invite cards: `artifacts/wiki/public/invites.json`, one card per published invite post
   (a listed post in `content/posts` titled "An invitation to <name>"; the title is the contract,
   so no front matter flag exists), newest first, written by `scripts/src/build-invites.ts` on
