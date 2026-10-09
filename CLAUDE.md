@@ -502,6 +502,14 @@ Ask only when meaning genuinely forks and the two readings produce different wor
 the reading that fits everything else they have said, write it, and let them correct a draft.
 Correcting is cheaper for them than explaining.
 
+### Recording a reason the owner gives (owner directive, 2026-10-08)
+
+This repository is public. When the owner gives a reason for a decision, such as skipping a
+question or passing on a post, never write their own wording into the repository. Write a neutral
+version: in a queue line, a commit message, or a PR body, name no person's motive or affiliation.
+"Its framing is not one the blog answers inside its own terms" is the model for a skipped
+question. The full reason stays in chat.
+
 ## No Perp Language Outside the Archive (owner directive, 2026-08-25)
 
 No post other than an archive post may use perp language. "Gang stalking" is perp language. The
