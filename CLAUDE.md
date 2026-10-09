@@ -90,6 +90,11 @@ carries it, because the owner froze that page outright and that freeze has not b
   `wiki:build:pages`, so it cannot fall behind the posts. Never hand-edit it; edit the post. The
   page carries an autodiscovery link in `index.html` so a reader given the site address finds the
   feed without anybody copying an XML address, and a "Follow by RSS" row sits in the footer.
+- Invites RSS: `artifacts/wiki/public/invites.xml`, written by the same script as `feed.xml`.
+  Every invite post (the same posts as `invites.json`), uncapped, newest first, full post in each
+  item. A footer row "Invites by RSS" and a second autodiscovery link point at it. It is where the
+  landing page's footer link to `/feed` went (owner decision, 2026-10-09): that link read as a
+  list of people and opened a page of every post. Build output, gitignored.
 - Invite cards: `artifacts/wiki/public/invites.json`, one card per published invite post
   (a listed post in `content/posts` titled "An invitation to <name>"; the title is the contract,
   so no front matter flag exists), newest first, written by `scripts/src/build-invites.ts` on

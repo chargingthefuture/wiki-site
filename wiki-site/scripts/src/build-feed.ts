@@ -27,6 +27,12 @@
  * Generated, never hand-edited, and not committed: it is built as part of
  * `pnpm wiki:build` and `pnpm wiki:build:pages`, so it cannot drift from the
  * posts. Run it on its own with `pnpm wiki:feed`.
+ *
+ * It also writes invites.xml beside it: the invite posts alone, every one of
+ * them, for somebody who wants to know when a new person is invited and nothing
+ * else. An invite post is what build-invites.ts says it is — a listed post in
+ * content/posts titled "An invitation to <name>" — so the cards, invites.json
+ * and this file always name the same posts.
  */
 
 import { readFileSync, writeFileSync, mkdirSync, readdirSync } from 'node:fs';
@@ -42,10 +48,17 @@ const OUT = resolve(BLOG_ROOT, 'artifacts/wiki/public/feed.xml');
 
 const SITE = 'https://chargingthefuture.github.io/chargingthefuture';
 const FEED_URL = `${SITE}/feed.xml`;
+const INVITES_OUT = resolve(BLOG_ROOT, 'artifacts/wiki/public/invites.xml');
+const INVITES_URL = `${SITE}/invites.xml`;
+// Kept in step with INVITE_TITLE in build-invites.ts.
+const INVITE_TITLE = /^An invitation to\s+(.+?)\.?$/i;
 
 const TITLE = 'Charging The Future';
 const DESCRIPTION =
   'Writing on trafficking, being targeted, and building an economy survivors run themselves.';
+const INVITES_TITLE = 'Charging The Future: invitations';
+const INVITES_DESCRIPTION =
+  'One post per person invited to the list, newest first.';
 
 // The same list sync-articles.ts walks, so the feed and the site agree on what
 // a post is.
@@ -80,6 +93,7 @@ type Entry = {
   description: string;
   body: string;
   category: string;
+  collection: string;
 };
 
 function listMarkdownFiles(dir: string): string[] {
@@ -126,6 +140,7 @@ function collect(): Entry[] {
         description: String(meta.teaser?.toString().trim() || meta.excerpt || '').trim(),
         body: String(body ?? ''),
         category: String(meta.category ?? ''),
+        collection,
       });
     }
   }
@@ -137,8 +152,7 @@ function collect(): Entry[] {
       // content always produces the same file — a feed that reshuffles on every
       // build shows subscribers items they have already read.
       return byDate !== 0 ? byDate : a.slug.localeCompare(b.slug);
-    })
-    .slice(0, MAX_ITEMS);
+    });
 }
 
 /** The article's address, matching getArticleUrl in the generated registry. */
@@ -236,9 +250,9 @@ function xml(text: string): string {
     .replace(/'/g, '&apos;');
 }
 
-function main() {
-  const entries = collect();
+type Channel = { out: string; url: string; title: string; description: string };
 
+function writeFeed(entries: Entry[], channel: Channel) {
   const items = entries
     .map((entry) => {
       const url = articleUrl(entry.repo, entry.slug);
@@ -266,11 +280,11 @@ function main() {
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">',
     '  <channel>',
-    `    <title>${xml(TITLE)}</title>`,
+    `    <title>${xml(channel.title)}</title>`,
     `    <link>${xml(SITE)}/</link>`,
-    `    <description>${xml(DESCRIPTION)}</description>`,
+    `    <description>${xml(channel.description)}</description>`,
     '    <language>en-us</language>',
-    `    <atom:link href="${xml(FEED_URL)}" rel="self" type="application/rss+xml" />`,
+    `    <atom:link href="${xml(channel.url)}" rel="self" type="application/rss+xml" />`,
     `    <lastBuildDate>${rfc822(new Date())}</lastBuildDate>`,
     items,
     '  </channel>',
@@ -278,9 +292,30 @@ function main() {
     '',
   ].join('\n');
 
-  mkdirSync(dirname(OUT), { recursive: true });
-  writeFileSync(OUT, feed, 'utf8');
-  console.log(`✓ Wrote ${entries.length} items → ${relative(BLOG_ROOT, OUT)}`);
+  mkdirSync(dirname(channel.out), { recursive: true });
+  writeFileSync(channel.out, feed, 'utf8');
+  console.log(`✓ Wrote ${entries.length} items → ${relative(BLOG_ROOT, channel.out)}`);
+}
+
+function main() {
+  const entries = collect();
+  writeFeed(entries.slice(0, MAX_ITEMS), {
+    out: OUT,
+    url: FEED_URL,
+    title: TITLE,
+    description: DESCRIPTION,
+  });
+  // Every invite, uncapped: there are few of them and each is short, and a
+  // reader who subscribes late should still be able to see everybody invited.
+  const invites = entries.filter(
+    (entry) => entry.collection === 'posts' && INVITE_TITLE.test(entry.title.trim()),
+  );
+  writeFeed(invites, {
+    out: INVITES_OUT,
+    url: INVITES_URL,
+    title: INVITES_TITLE,
+    description: INVITES_DESCRIPTION,
+  });
 }
 
 main();

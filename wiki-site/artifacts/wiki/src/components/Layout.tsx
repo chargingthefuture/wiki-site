@@ -112,6 +112,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                     path on Pages. A reader that already has a feed app takes this in
                     one press; anybody else can ignore it. */}
                 <li><a href={`${import.meta.env.BASE_URL}feed.xml`} className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> Follow by RSS</a></li>
+                <li><a href={`${import.meta.env.BASE_URL}invites.xml`} className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> Invites by RSS</a></li>
                 <li><a href="https://chargingthefuture.com" target="_blank" rel="noopener noreferrer" className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> Main Site</a></li>
                 <li><a href="https://github.com/chargingthefuture/wiki-site" target="_blank" rel="noopener noreferrer" className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> Source &amp; History (GitHub)</a></li>
               </ul>
