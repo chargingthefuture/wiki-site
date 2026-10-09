@@ -3,7 +3,7 @@ title: "An invitation to Marilyn"
 date: "2026-10-08"
 excerpt: "The targeting works because the people around you can be reached. Marilyn's listing is lab work, a trade built on getting the same answer whoever runs the test."
 category: "Community"
-teaser: "Two things have to be true for the targeting to work: the people around you can be reached, and in time there is nobody left to turn to. Marilyn's Directory listing carries laboratory safety and SOP adherence, basic laboratory testing, and packaging and labeling. Lab work is a procedure written down in advance and followed the same way every time, so the result does not depend on who runs it. Packaging and labeling sits in Food and Agriculture, where 6 of 49 skills are held by anybody. This is an invitation to claim the listing, and no is a complete answer."
+teaser: "Two things have to be true for the targeting to work: the people around you can be reached, and in time there is nobody left to turn to. Marilyn's Directory listing carries laboratory safety and SOP adherence, basic laboratory testing, and packaging and labeling. Lab work is a procedure written down in advance and followed the same way every time, so the result does not depend on who runs it. It helps to have somebody nearby who knows how, wherever water, food or medicine has to be checked. This is an invitation to claim the listing, and no is a complete answer."
 topics:
   - community
   - directory
