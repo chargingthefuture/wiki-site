@@ -43,11 +43,11 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Old links, new links",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-10-11",
-    "excerpt": "Sixty-five accounts erased, seven of them since October 1, and Kingishere-3 is the handle open now. What is live, what is dead, and the one address that never changes.",
+    "excerpt": "Sixty-six accounts erased, eight of them since October 1, the latest at 5:44 in the evening on October 11. What is live, what is dead, and the one address that never changes.",
     "category": "Community",
     "collection": "posts",
     "path": "posts/old-links-new-links.md",
-    "teaser": "Quora has erased my accounts sixty-five times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Seven of those came after October 1, and the handle open now is Kingishere-3. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
+    "teaser": "Quora has erased my accounts sixty-six times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Eight of those came after October 1. The latest ban landed at 5:44 in the evening on October 11, and no handle is open yet. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
     "topics": [
       "publishing",
       "platform-independence"
