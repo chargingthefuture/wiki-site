@@ -1,9 +1,9 @@
 ---
 title: "Why people leave, and what it costs them"
 date: "2026-10-11"
-excerpt: "Somebody asked on Quora why some people stop taking part in this, and what leaving costs them. It costs things: a job, an apartment, a reputation. Never a life."
+excerpt: "Somebody asked on Quora why some people stop taking part in this, and what leaving costs them. Most leave quietly and keep what they were given. Leaving any other way costs things, never a life."
 category: "Community"
-teaser: "A question on Quora asked why some people stop taking part in this, and what they face for leaving. I can only answer from the outside, and the answer to the second half is things: the job, the apartment, the promotion, the standing that came with going along, and a debt held over whoever wants out. It is never their life. Only the target's life is on the line, and that difference is the arrangement rather than luck, which is why the cost of leaving is a reason to stay and not a justification. The person who would not take part in the first place is the opposite case: two people I knew would not, and they were killed."
+teaser: "A question on Quora asked why some people stop taking part in this, and what they face for leaving. I can only answer from the outside, and the answer depends on how they go. Most leave quietly: they cut the target out of their life, expose nobody, and keep their perks or are left alone. Leaving any other way costs things: the job, the apartment, the promotion, the standing that came with going along, and a debt held over whoever wants out. It is never their life. Only the target's life is on the line, and that difference is the arrangement rather than luck, which is why the cost of leaving is a reason to stay and not a justification. The person who would not take part in the first place is the opposite case: two people I knew would not, and they were killed."
 topics:
   - community
   - specterati
@@ -21,11 +21,17 @@ I do not know anybody's reasons from the inside, and I am not going to make them
 
 Nobody is told at the start what it is for. The asks arrive later: steal this, sleep with that person, help ruin somebody. By then a reward has already been taken, or the person is in far enough that leaving costs more than staying. [The best description of it I have read](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/best-description-i-have-read) lays out that order.
 
-Some of the people doing this enjoy it. The rest are in because of what the structure already gave them, and a person in that position can see what they are being asked to do without wanting to do it. So the harder question is why more do not leave, and the second half of the question answers that.
+Some of the people doing this enjoy it. The rest are in because of what the structure already gave them, and a person in that position can see what they are being asked to do without wanting to do it. Leaving is not one thing, though. How a person goes decides what it costs.
 
-## What leaving costs
+## The quiet way out
 
-Things. The job, the apartment, the promotion, the standing that came with going along, and whatever was taken before the person understood what it was for. The favors come first, and once somebody has them the terms are plain. There is a debt held over them as well, and there is always another target to be assigned.
+Most who stop do it quietly. They cut the target out of their life and say nothing. They expose nobody, and in return they keep what they were given, or they are simply left alone. Nothing is taken back, because nothing about the arrangement has been threatened.
+
+That is leaving the target, not the network. Silence is the last thing it asks of them, and they give it.
+
+## What the other way costs
+
+Leaving any other way, by saying what they took part in or who asked them to, is where the cost comes in. It is things. The job, the apartment, the promotion, the standing that came with going along, and whatever was taken before the person understood what it was for. The favors come first, and once somebody has them the terms are plain. There is a debt held over them as well, and there is always another target to be assigned.
 
 Losing a home is traumatic to the person it happens to, and I am not going to say otherwise. But none of it is their life.
 
