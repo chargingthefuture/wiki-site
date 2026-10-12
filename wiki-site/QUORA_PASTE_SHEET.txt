@@ -26,8 +26,15 @@ corrected where it had drifted; 70 were rewritten. Entries added after that date
 are written from the post at the time it is published. So the file is no longer
 unverified — but it is still a staging file, and the post remains the record.
 
-437 of 437 written.
+438 of 438 written.
 
+
+==============================================================================
+No. 438 · 2026-10-12 · Counted by skills, not job titles
+
+The model behind the app's Workforce screen is built for an economy of about five million, on the pattern of small advanced countries like Finland, and it expects a workforce to look the usual way: about 68 percent at an intermediate level, 24 percent advanced, 8 percent foundational. The first people on the list in December 2025 looked like that. At 311 recruited the three levels are nearly even, 248 foundational, 306 intermediate, 300 advanced, because the Skills Economy counts each person at every level their skills reach instead of filing them under one job title. Most countries count workers one person to one title, so counted by skills they might look like this too. Know-how that moves this freely between levels is what acting together can rest on.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/counted-by-skills
 
 ==============================================================================
 No. 437 · 2026-10-11 · Prove it to whom?
