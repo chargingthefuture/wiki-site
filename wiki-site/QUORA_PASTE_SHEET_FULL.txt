@@ -14,50 +14,67 @@ regenerate, or the two will disagree and the post is the one that is right.
 131 posts.
 
 ==============================================================================
-2026-10-12 · Counted by skills, not job titles
+2026-10-11 · An invitation to King Unique
 
-The Workforce screen has a chart called Skill Level Breakdown. It counts the people on the list at each of three levels, foundational, intermediate and advanced, and it shows the goal for each level next to them.
+A working economy needs people who keep the books.
 
-[Screenshot — The Workforce screen in the app, captured October 12, 2026, on its Skill Level tab. Four tiles read Population 5,000,000, survivor population baseline; Workforce Total 2,000,000, 40% participation; 311 Recruited, 0.016% of goal; and 36% Skills Coverage, 255 of 713 skills. The Skills Economy Summary reads: With 311 people recruited, we have reached 36% of the skills potential of an independent nation state like Finland, Estonia, or Singapore, equating to $44.3 million in GDP potential. That means each individual contributing $142,500 in GDP, and earning upwards of $71,250. A note under it says these figures are speculative, not actuals. The Skill Level Breakdown, captioned Members recruited at each skill level (bar height = people), goal shown for context: Foundational 248 recruited, 157,590 goal, gap 157,342; Intermediate 306 recruited, 1,352,924 goal, gap 1,352,618; Advanced 300 recruited, 489,482 goal, gap 489,182. Below it, Members by skill level lists the same three rows with the number to fill: Foundational 157,342, Intermediate 1,352,618, Advanced 489,182.]
+Not only for the taxman. A shared house, a cooperative, a small business, anything where more than one person puts something in, lasts as long as everybody in it can see where things went. When nobody can, the arrangement runs on trust alone, and trust is the first thing the people doing this go after.
 
-What the model expects
+Books kept so that anybody can check them are one of the few things that answer that without asking anyone to take anyone's word.
 
-The model is built for an economy of about five million people, on the pattern of small advanced nation states like Finland, Estonia and Singapore. Its goals for a working population of two million split this way:
+King Unique
 
-- Foundational: 157,590, about 8 percent
-- Intermediate: 1,352,924, about 68 percent
-- Advanced: 489,482, about 24 percent
+King Unique (https://www.quora.com/profile/king-unique-4), in Melbourne, Australia. The Directory profile is at https://app.chargingthefuture.com/apps/directory/profile/4b25fc47-5a34-4ae8-ac1a-a0abf2bb319c.
 
-That is the usual shape. Most people work in the middle, with advanced and foundational work far behind.
+The listing carries eight specializations, and together they cover the work end to end:
 
-What the list shows
+- Financial reporting and bookkeeping: recording what came in and what went out.
+- Auditing and internal controls: checking that the record is right, and setting things up so it stays right.
+- Tax compliance: meeting what the law requires of the money.
+- Financial planning and budgeting, and financial modeling and cash flow management: deciding ahead of time where money goes, and knowing when it arrives and leaves.
+- Financial risk assessment: seeing what could go wrong before it does.
+- Budgeting and personal finance education: teaching somebody else to do the same with their own money.
+- Financial record-keeping and transparency: keeping a cooperative's books open to the people it belongs to.
 
-The first people on the list matched it. In December 2025 I wrote that most of them fell into the intermediate level.
+Why that matters here
 
-At 311 recruited, the three are nearly even: 248 at foundational, 306 at intermediate, 300 at advanced.
+The app keeps a catalog of 713 skills, the things a working economy of about five million people needs somebody to be able to do, grouped by sector. Read on October 11, the Directory's 311 people held 255 of them.
 
-The numbers add up to more than 311 because the chart counts a person at every level their skills reach. Almost everybody on the list reaches intermediate and advanced work, and most reach foundational work as well.
+Finance and Public Administration is one of the thin sectors: 9 of its 34 skills are held by anybody. Two of King Unique's skills sit in Microfinance and SME Support, the sector for small businesses and cooperatives, where 5 of 24 are held.
 
-Why
+Most of what people offer on the list is a trade. A trade done for different people every week is a small business, and every small business needs somebody who can tell it, in numbers, whether it is working.
 
-The Skills Economy records what people can do, not the job title they last held or the status that came with it. And what people can do crosses titles. One listing carries laboratory testing and packaging. Another carries blueprint reading, machining and quality inspection. A title would put each of those people in one box. Their skills put them in several, and the chart counts all of them.
+What this is not
 
-That is also why this may hold well beyond us. Most countries count their workforce by job, one person to one title. Counted by skills, other industrialized countries may look the way this list does.
+This is not a request to do anybody's books or taxes, and nothing here says King Unique will. Being on a list of what a person can do is not an offer of anything, and the Directory has never worked that way.
 
-What it means for us
+How the listing came to be
 
-Know-how that moves this freely between levels means we do not need anybody else's structure to cover the work. We can reach autonomy from the people trafficking us by acting together.
+I built it from what King Unique said about themselves in public and put it up under their name, which is how most of this list was made, one person at a time. They did not sign up, and nobody asked them first. That is why it is marked community-generated and carries my handle: so anybody reading it knows it is my account of somebody else's skills, and knows who to come to about it.
 
-The past is the past, and none of us can get it back. We can focus on the here and now, and rebuild.
+The invitation
+
+Claiming the listing takes a free account and a few minutes, and after that it is theirs: what it says, and whether it stays up at all.
+
+Nothing else is required. Not using the rest of the app, not posting anything, not agreeing with a word I have written. No is a complete answer, and the listing comes down on request with no account involved in that either.
+
+This does not run one way
+
+Somebody whose work is other people's numbers needs things too. A ride. A room. An hour of a trade they do not have. The listing that makes them findable makes those people findable to them, including the others on the list in Australia.
+
+Who is on the list
+
+Everyone written about in this series is a self-identified Targeted Individual. That means they said so in public, and it is the only basis for the listing. I cannot verify it, and neither can a reader. Some people who say it are not survivors, and some are the people doing the harassing, so a post here is not a vouch for anybody and should not be read as one. I am not responsible for what anyone named on this list does or says, on the app, on Quora, or anywhere else. The closest anybody can get to finding a real Targeted Individual is through the app, which admits people one at a time through Unlock and has other mechanisms in place to filter actively. Even with those, there is no such thing as a hundred percent.
 
 Where to find it in the app
 
-- Workforce (https://app.chargingthefuture.com/apps/workforce) — guide (https://app.chargingthefuture.com/guide#workforce)
 - Directory (https://app.chargingthefuture.com/apps/directory) — guide (https://app.chargingthefuture.com/guide#directory)
+- Workforce (https://app.chargingthefuture.com/apps/workforce) — guide (https://app.chargingthefuture.com/guide#workforce)
+- Unlock (https://app.chargingthefuture.com/plugin/unlock) — guide (https://app.chargingthefuture.com/guide#unlock)
 
 To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
-Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/counted-by-skills
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/an-invitation-to-king-unique
 
 ==============================================================================
 2026-10-11 · Prove it to whom?

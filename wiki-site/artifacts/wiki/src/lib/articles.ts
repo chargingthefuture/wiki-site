@@ -39,19 +39,19 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
-    "slug": "counted-by-skills",
-    "title": "Counted by skills, not job titles",
+    "slug": "an-invitation-to-king-unique",
+    "title": "An invitation to King Unique",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-12",
-    "excerpt": "The Workforce model expects most people in the middle, the way a country counted by job titles looks. Counted by skills, nearly all 311 of us reach intermediate and advanced work.",
+    "date": "2026-10-11",
+    "excerpt": "A working economy needs somebody who keeps the books so anybody can check them. King Unique, in Melbourne, is listed for auditing, bookkeeping, tax and budgeting.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/counted-by-skills.md",
-    "teaser": "The model behind the Workforce screen is built for an economy of about five million people on the pattern of small advanced nations like Finland, and it expects most of a workforce to sit at an intermediate level, with advanced and foundational far behind. In December 2025, the first people on the list looked like that. At 311 recruited, the three levels are nearly even, because the Skills Economy counts each person at every level their skills reach rather than at one job title. That fluidity is what collective action can be built on.",
+    "path": "posts/an-invitation-to-king-unique.md",
+    "teaser": "A working economy needs people who keep the books, and keep them so that anybody can check them. King Unique, in Melbourne, has a Directory listing that is the full set: auditing and internal controls, financial reporting and bookkeeping, tax compliance, budgeting and planning, cash flow, risk, and record-keeping kept open for the people a cooperative belongs to. Across the list, 9 of the 34 finance and public administration skills the app tracks are held by anybody. This is an invitation to claim the listing, and no is a complete answer.",
     "topics": [
-      "workforce",
-      "skills-economy",
-      "community"
+      "community",
+      "directory",
+      "workforce"
     ],
     "number": 438
   },
