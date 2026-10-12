@@ -37,6 +37,15 @@
  * proves to carry a higher limit, WAYBACK_SPACING_MS is the dial to turn — do
  * that on measurement, not on assumption.
  *
+ * archive.org's rules for automated clients
+ * (https://archive.org/developers/ — "Bots, LLMs, and Automated Access"):
+ *
+ *   - Every request carries a User-Agent naming this tool and its version, so
+ *     archive.org can tell this traffic apart and trace it back here.
+ *   - A 429 or 503 with a Retry-After header is honoured: the script waits at
+ *     least as long as archive.org asks.
+ *   - Retries back off exponentially (RETRY_WAIT_MS, then double, and so on).
+ *
  * Skipping (WAYBACK_SKIP_ARCHIVED=1): before submitting, ask archive.org's
  * read API whether a snapshot already exists, and skip the save when that
  * snapshot is newer than the file's last commit. The comparison against the
@@ -89,13 +98,43 @@ const AUTHENTICATED = S3_ACCESS_KEY !== '' && S3_SECRET_KEY !== '';
 const JOB_POLL_MS = Number(process.env.WAYBACK_JOB_POLL_MS ?? 3_000);
 const JOB_POLL_MAX = Number(process.env.WAYBACK_JOB_POLL_MAX ?? 40);
 
-type SaveOutcome = { ok: boolean; detail: string; temporary: boolean };
+// Names this tool to archive.org on every request, as its rules for automated
+// clients require. Bump the version whenever the request pattern changes.
+const USER_AGENT =
+  'ChargingTheFutureWaybackBot/1.1.0 (+https://github.com/chargingthefuture/wiki-site)';
+// Upper bound on a Retry-After wait, so one odd header cannot stall a run for hours.
+const MAX_RETRY_AFTER_MS = 10 * 60_000;
+
+type SaveOutcome = {
+  ok: boolean;
+  detail: string;
+  temporary: boolean;
+  // What archive.org's Retry-After header asked for, when it sent one.
+  retryAfterMs: number | null;
+};
 
 function authHeaders(): Record<string, string> {
   return {
     Accept: 'application/json',
     Authorization: `LOW ${S3_ACCESS_KEY}:${S3_SECRET_KEY}`,
+    'User-Agent': USER_AGENT,
   };
+}
+
+// Retry-After is either a number of seconds or an HTTP date.
+function parseRetryAfter(value: string | null): number | null {
+  if (!value) return null;
+  const seconds = Number(value.trim());
+  const ms = Number.isFinite(seconds) ? seconds * 1000 : Date.parse(value) - Date.now();
+  if (!Number.isFinite(ms) || ms < 0) return null;
+  return Math.min(ms, MAX_RETRY_AFTER_MS);
+}
+
+// Exponential backoff from RETRY_WAIT_MS, raised to whatever archive.org asked
+// for in Retry-After. `retry` counts from 1.
+function retryWaitMs(retry: number, retryAfterMs: number | null): number {
+  const backoff = RETRY_WAIT_MS * 2 ** (retry - 1);
+  return Math.max(backoff, retryAfterMs ?? 0);
 }
 
 /**
@@ -112,8 +151,13 @@ async function attemptAuthenticated(url: string): Promise<SaveOutcome> {
       body: new URLSearchParams({ url }).toString(),
       signal: AbortSignal.timeout(60_000),
     });
-    if (res.status === 429) {
-      return { ok: false, detail: 'rate limited (HTTP 429)', temporary: true };
+    if (res.status === 429 || res.status === 503) {
+      return {
+        ok: false,
+        detail: `rate limited (HTTP ${res.status})`,
+        temporary: true,
+        retryAfterMs: parseRetryAfter(res.headers.get('retry-after')),
+      };
     }
     const body = (await res.json().catch(() => null)) as
       | { job_id?: string; message?: string; status?: string }
@@ -122,11 +166,11 @@ async function attemptAuthenticated(url: string): Promise<SaveOutcome> {
       const message = body?.message ?? `HTTP ${res.status}`;
       // A stated limit is worth retrying; anything else is this URL's own problem.
       const temporary = /limit|slow down|too many|try again/i.test(message);
-      return { ok: false, detail: message, temporary };
+      return { ok: false, detail: message, temporary, retryAfterMs: null };
     }
     jobId = body.job_id;
   } catch {
-    return { ok: false, detail: 'network failure submitting', temporary: true };
+    return { ok: false, detail: 'network failure submitting', temporary: true, retryAfterMs: null };
   }
 
   for (let poll = 0; poll < JOB_POLL_MAX; poll += 1) {
@@ -139,12 +183,15 @@ async function attemptAuthenticated(url: string): Promise<SaveOutcome> {
       const body = (await res.json().catch(() => null)) as
         | { status?: string; message?: string; exception?: string }
         | null;
-      if (body?.status === 'success') return { ok: true, detail: 'captured', temporary: false };
+      if (body?.status === 'success') {
+        return { ok: true, detail: 'captured', temporary: false, retryAfterMs: null };
+      }
       if (body?.status === 'error') {
         return {
           ok: false,
           detail: body.message ?? body.exception ?? 'capture failed',
           temporary: false,
+          retryAfterMs: null,
         };
       }
       // 'pending' or an unreadable answer: keep waiting.
@@ -153,19 +200,27 @@ async function attemptAuthenticated(url: string): Promise<SaveOutcome> {
     }
   }
   // The job may well finish after this; we just stop watching.
-  return { ok: false, detail: 'still running when we stopped waiting', temporary: false };
+  return {
+    ok: false,
+    detail: 'still running when we stopped waiting',
+    temporary: false,
+    retryAfterMs: null,
+  };
 }
 
-async function attempt(url: string): Promise<number | null> {
+type AnonymousAttempt = { status: number | null; retryAfterMs: number | null };
+
+async function attempt(url: string): Promise<AnonymousAttempt> {
   try {
     const res = await fetch(`https://web.archive.org/save/${url}`, {
       method: 'GET',
       redirect: 'follow',
+      headers: { 'User-Agent': USER_AGENT },
       signal: AbortSignal.timeout(60_000),
     });
-    return res.status;
+    return { status: res.status, retryAfterMs: parseRetryAfter(res.headers.get('retry-after')) };
   } catch {
-    return null;
+    return { status: null, retryAfterMs: null };
   }
 }
 
@@ -178,12 +233,14 @@ function isTemporary(status: number | null): boolean {
 }
 
 async function saveAnonymously(url: string): Promise<boolean> {
-  let status = await attempt(url);
-  for (let retry = 1; retry <= MAX_RETRIES && isTemporary(status); retry += 1) {
-    console.log(`  … turned away, waiting ${RETRY_WAIT_MS / 1000}s (retry ${retry} of ${MAX_RETRIES})`);
-    await new Promise((r) => setTimeout(r, RETRY_WAIT_MS));
-    status = await attempt(url);
+  let result = await attempt(url);
+  for (let retry = 1; retry <= MAX_RETRIES && isTemporary(result.status); retry += 1) {
+    const wait = retryWaitMs(retry, result.retryAfterMs);
+    console.log(`  … turned away, waiting ${Math.round(wait / 1000)}s (retry ${retry} of ${MAX_RETRIES})`);
+    await new Promise((r) => setTimeout(r, wait));
+    result = await attempt(url);
   }
+  const { status } = result;
   if (status === null) {
     console.log(`  ⚠ ${url} — gave up after ${MAX_RETRIES} retries`);
     return false;
@@ -196,10 +253,11 @@ async function saveAnonymously(url: string): Promise<boolean> {
 async function saveAuthenticated(url: string): Promise<boolean> {
   let outcome = await attemptAuthenticated(url);
   for (let retry = 1; retry <= MAX_RETRIES && !outcome.ok && outcome.temporary; retry += 1) {
+    const wait = retryWaitMs(retry, outcome.retryAfterMs);
     console.log(
-      `  … turned away (${outcome.detail}), waiting ${RETRY_WAIT_MS / 1000}s (retry ${retry} of ${MAX_RETRIES})`,
+      `  … turned away (${outcome.detail}), waiting ${Math.round(wait / 1000)}s (retry ${retry} of ${MAX_RETRIES})`,
     );
-    await new Promise((r) => setTimeout(r, RETRY_WAIT_MS));
+    await new Promise((r) => setTimeout(r, wait));
     outcome = await attemptAuthenticated(url);
   }
   console.log(`  ${outcome.ok ? '✓' : `⚠ (${outcome.detail})`} ${url}`);
@@ -226,7 +284,7 @@ async function newestSnapshotTime(url: string): Promise<Date | null> {
   try {
     const res = await fetch(
       `https://archive.org/wayback/available?url=${encodeURIComponent(url)}`,
-      { signal: AbortSignal.timeout(30_000) },
+      { headers: { 'User-Agent': USER_AGENT }, signal: AbortSignal.timeout(30_000) },
     );
     if (!res.ok) return null;
     const body = (await res.json()) as {
