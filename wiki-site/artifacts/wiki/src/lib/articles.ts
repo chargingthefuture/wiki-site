@@ -39,6 +39,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "prove-it-to-whom",
+    "title": "Prove it to whom?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-11",
+    "excerpt": "Somebody asked on Quora how to prove it. The answer depends on who the proof is for: yourself, somebody who can act, the people around you, or other survivors.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/prove-it-to-whom.md",
+    "teaser": "A question on Quora asked how to prove it. The record that proves it is the same in every case: dated, written as it happens, kept up for months. What changes is who it is for. For yourself, the record settles it first. For somebody who can act, a report carries one incident and your record carries the pattern. The people closest to you are often the ones reached first, and proof rarely moves somebody who has decided. Other survivors do not need convincing, and a shared record shows them a pattern no private log can.",
+    "topics": [
+      "clicklog",
+      "community"
+    ],
+    "number": 437
+  },
+  {
     "slug": "an-invitation-to-bev",
     "title": "An invitation to Bev",
     "repo": "chargingthefuture/wiki-site",

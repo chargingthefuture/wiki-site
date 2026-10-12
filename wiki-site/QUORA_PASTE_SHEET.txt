@@ -26,8 +26,15 @@ corrected where it had drifted; 70 were rewritten. Entries added after that date
 are written from the post at the time it is published. So the file is no longer
 unverified — but it is still a staging file, and the post remains the record.
 
-436 of 436 written.
+437 of 437 written.
 
+
+==============================================================================
+No. 437 · 2026-10-11 · Prove it to whom?
+
+Somebody on Quora asked how to prove it. The record is the same in every case: dated, written down as it happens, and kept up for months, because one incident can be denied and a pattern is far harder to deny. What changes is who the proof is for. For yourself, the record settles the question first, and nobody else has to read it. For a police officer or a lawyer, a report holds one incident and your record holds the pattern behind it. The people closest to you are often the ones approached first, and somebody who has made up their mind is rarely moved by evidence, so do not let the next year hang on convincing them. Other survivors need no convincing at all, and an entry shared in ClickLog shows them a pattern across people that no private log can.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/prove-it-to-whom
 
 ==============================================================================
 No. 436 · 2026-10-11 · An invitation to Bev
