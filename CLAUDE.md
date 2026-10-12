@@ -323,6 +323,18 @@ Survivors stays the default word for the people here — see the Dictionary. Vic
 word: it is correct in legal and statutory contexts, and in a plain description of a crime. What is
 banned is the stance framing.
 
+## Skills, Not Job Titles (owner directive, 2026-10-12)
+
+Skills is in the product's name. Workforce counts a person at every occupation, sector and skill
+level their skills reach, so one person can appear in several bars and the bars can add up to more
+than the number recruited. That is the measurement, not a flaw in it: a person is not one job title.
+
+Never propose counting each person once, at a single job title or level, and never describe the
+overlap as double counting. The count is wrong only when a skill is filed under the wrong
+occupation, such as guitar under accounting. The fix for that is a taxonomy change in the product
+repository (a `reparentSkill` in the change list), as was done on 2026-10-08 when Laboratory
+testing (basic) moved from Treatment-Plant Operators to Lab Technicians.
+
 ## This Is Not a Sign-Up Product (owner directive, 2026-08-20)
 
 The app is an aid in coordination. It helps people find each other and arrange things between
