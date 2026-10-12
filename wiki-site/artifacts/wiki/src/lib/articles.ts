@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-bev",
+    "title": "An invitation to Bev",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-11",
+    "excerpt": "In 1991 Estonia had broken infrastructure and people who knew how to fix it. Bev is listed for making things to a drawing and checking they came out right.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-bev.md",
+    "teaser": "The objection is that a small number of people with no money cannot build anything. Estonia in 1991 had no money, infrastructure that did not work, and 1.3 million people who already knew how to do things. Bev, in Canada, has a Directory listing that is nearly all manufacturing: reading a blueprint, machining to it, assembling, troubleshooting the equipment, and inspecting what comes off the line. Across the list, 14 of the 28 manufacturing and industry skills the app tracks are held by anybody. This is an invitation to claim the listing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 436
+  },
+  {
     "slug": "why-people-leave-and-what-it-costs",
     "title": "Why people leave, and what it costs them",
     "repo": "chargingthefuture/wiki-site",
