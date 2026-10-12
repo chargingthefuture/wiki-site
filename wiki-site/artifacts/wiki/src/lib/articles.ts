@@ -56,6 +56,22 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 439
   },
   {
+    "slug": "old-links-new-links",
+    "title": "Old links, new links",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-12",
+    "excerpt": "Sixty-seven accounts erased, nine of them since October 1, the latest at 7:04 in the morning on October 12. What is live, what is dead, and the one address that never changes.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/old-links-new-links.md",
+    "teaser": "Quora has erased my accounts sixty-seven times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Nine of those came after October 1. The latest ban landed at 7:04 in the morning on October 12, and no handle is open yet. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
+    "topics": [
+      "publishing",
+      "platform-independence"
+    ],
+    "number": 406
+  },
+  {
     "slug": "an-invitation-to-king-unique",
     "title": "An invitation to King Unique",
     "repo": "chargingthefuture/wiki-site",
@@ -120,22 +136,6 @@ export const ARTICLES: ArticleMeta[] = [
       "specterati"
     ],
     "number": 435
-  },
-  {
-    "slug": "old-links-new-links",
-    "title": "Old links, new links",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-11",
-    "excerpt": "Sixty-six accounts erased, eight of them since October 1, and Kingishere-4 is the handle open now. What is live, what is dead, and the one address that never changes.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/old-links-new-links.md",
-    "teaser": "Quora has erased my accounts sixty-six times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Eight of those came after October 1. The latest ban landed at 5:44 in the evening on October 11, and the handle now open was opened two hours later. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
-    "topics": [
-      "publishing",
-      "platform-independence"
-    ],
-    "number": 406
   },
   {
     "slug": "an-invitation-to-marilyn",
