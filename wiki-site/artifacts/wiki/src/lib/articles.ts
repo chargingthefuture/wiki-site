@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-king-unique",
+    "title": "An invitation to King Unique",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-11",
+    "excerpt": "A working economy needs somebody who keeps the books so anybody can check them. King Unique, in Melbourne, is listed for auditing, bookkeeping, tax and budgeting.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-king-unique.md",
+    "teaser": "A working economy needs people who keep the books, and keep them so that anybody can check them. King Unique, in Melbourne, has a Directory listing that is the full set: auditing and internal controls, financial reporting and bookkeeping, tax compliance, budgeting and planning, cash flow, risk, and record-keeping kept open for the people a cooperative belongs to. Across the list, 9 of the 34 finance and public administration skills the app tracks are held by anybody. This is an invitation to claim the listing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 438
+  },
+  {
     "slug": "prove-it-to-whom",
     "title": "Prove it to whom?",
     "repo": "chargingthefuture/wiki-site",

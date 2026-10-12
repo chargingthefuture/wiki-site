@@ -26,8 +26,15 @@ corrected where it had drifted; 70 were rewritten. Entries added after that date
 are written from the post at the time it is published. So the file is no longer
 unverified — but it is still a staging file, and the post remains the record.
 
-437 of 437 written.
+438 of 438 written.
 
+
+==============================================================================
+No. 438 · 2026-10-11 · An invitation to King Unique
+
+Anything where more than one person puts something in, a shared house, a cooperative, a small business, lasts as long as everybody in it can see where things went. Books kept so anybody can check them answer that without asking anyone to take anyone's word for it. King Unique, in Melbourne, is listed in the Directory for that work from start to finish: bookkeeping and financial reporting, auditing, tax, budgeting and cash flow, risk, teaching people to manage their own money, and keeping a cooperative's records open to its members. Nine of the 34 finance and public administration skills in the app's catalog are held by anybody on the list. The listing was built from what King Unique said in public, it is theirs to claim or take down, and no is a complete answer.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/an-invitation-to-king-unique
 
 ==============================================================================
 No. 437 · 2026-10-11 · Prove it to whom?
