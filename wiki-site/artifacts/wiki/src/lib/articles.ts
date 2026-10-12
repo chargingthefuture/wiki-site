@@ -39,20 +39,20 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
-    "slug": "why-people-leave-and-what-it-costs",
-    "title": "Why people leave, and what it costs them",
+    "slug": "old-links-new-links",
+    "title": "Old links, new links",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-10-11",
-    "excerpt": "Somebody asked on Quora why some people stop taking part in this, and what leaving costs them. Most leave quietly and keep what they were given. Leaving any other way costs things, never a life.",
+    "excerpt": "Sixty-six accounts erased, eight of them since October 1, and Kingishere-4 is the handle open now. What is live, what is dead, and the one address that never changes.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/why-people-leave-and-what-it-costs.md",
-    "teaser": "A question on Quora asked why some people stop taking part in this, and what they face for leaving. I can only answer from the outside, and the answer depends on how they go. Most leave quietly: they cut the target out of their life, expose nobody, and keep their perks or are left alone. Leaving any other way costs things: the job, the apartment, the promotion, the standing that came with going along, and a debt held over whoever wants out. It is never their life. Only the target's life is on the line, and that difference is the arrangement rather than luck, which is why the cost of leaving is a reason to stay and not a justification. The person who would not take part in the first place is the opposite case: two people I knew would not, and they were killed.",
+    "path": "posts/old-links-new-links.md",
+    "teaser": "Quora has erased my accounts sixty-six times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Eight of those came after October 1. The latest ban landed at 5:44 in the evening on October 11, and the handle now open was opened two hours later. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
     "topics": [
-      "community",
-      "specterati"
+      "publishing",
+      "platform-independence"
     ],
-    "number": 435
+    "number": 406
   },
   {
     "slug": "an-invitation-to-marilyn",
@@ -540,22 +540,6 @@ export const ARTICLES: ArticleMeta[] = [
       "directory"
     ],
     "number": 407
-  },
-  {
-    "slug": "old-links-new-links",
-    "title": "Old links, new links",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-01",
-    "excerpt": "Fifty-eight accounts erased, and a new handle opened on the morning of October 1. What is live, what is dead, and the one address that never changes.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/old-links-new-links.md",
-    "teaser": "Quora has erased my accounts fifty-eight times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. The latest ban landed at 4:27 in the morning on October 1, and the handle now open was opened four hours later. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
-    "topics": [
-      "publishing",
-      "platform-independence"
-    ],
-    "number": 406
   },
   {
     "slug": "it-is-self-defense",
