@@ -165,9 +165,9 @@ https://www.quora.com/profile/Kingisyourdream — opened after Kingbface-3 was b
 
 https://www.quora.com/profile/Kingliveson — opened after Kingisyourdream was banned, and banned by Quora Moderation.
 
-https://www.quora.com/profile/Kingishere-1 — opened after Kingliveson was banned, and banned by Quora Moderation.
+https://www.quora.com/profile/Kingishere-1 — opened at 10:55 at night on October 10, 2026, after Kingliveson was banned, and banned by Quora Moderation at 11:34 that night. Thirty-nine minutes.
 
-https://www.quora.com/profile/Kingishere-2 — opened at 6:29 in the morning on October 11, 2026, after Kingishere-1 was banned, and banned by Quora Moderation at 7:00 that morning. Thirty-one minutes.
+https://www.quora.com/profile/Kingishere-2 — opened at 6:29 in the morning on October 11, 2026, just under seven hours after Kingishere-1 was banned, and banned by Quora Moderation at 7:00 that morning. Thirty-one minutes.
 
 https://www.quora.com/profile/Kingishere-3 — opened at 7:28 in the morning on October 11, 2026, twenty-eight minutes after Kingishere-2 was banned, and banned by Quora Moderation at 5:44 that evening. Ten hours and sixteen minutes.
 
