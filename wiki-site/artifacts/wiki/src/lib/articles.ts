@@ -39,6 +39,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "why-people-leave-and-what-it-costs",
+    "title": "Why people leave, and what it costs them",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-11",
+    "excerpt": "Somebody asked on Quora why some people stop taking part in this, and what leaving costs them. It costs things: a job, an apartment, a reputation. Never a life.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/why-people-leave-and-what-it-costs.md",
+    "teaser": "A question on Quora asked why some people stop taking part in this, and what they face for leaving. I can only answer from the outside, and the answer to the second half is things: the job, the apartment, the promotion, the standing that came with going along, and a debt held over whoever wants out. It is never their life. Only the target's life is on the line, and that difference is the arrangement rather than luck, which is why the cost of leaving is a reason to stay and not a justification. The person who would not take part in the first place is the opposite case: two people I knew would not, and they were killed.",
+    "topics": [
+      "community",
+      "specterati"
+    ],
+    "number": 435
+  },
+  {
     "slug": "an-invitation-to-marilyn",
     "title": "An invitation to Marilyn",
     "repo": "chargingthefuture/wiki-site",
