@@ -24,6 +24,7 @@
     "build-pb2-messages": "tsx ./src/build-pb2-messages.ts"
   },
   "devDependencies": {
+    "@resvg/resvg-js": "2.6.2",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "catalog:",
     "@types/turndown": "^5.0.4",
