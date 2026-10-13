@@ -124,16 +124,21 @@ function renderHtml(range: number | "all", summary: CounterSummary): string {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
+<meta name="color-scheme" content="dark">
 <title>Blog counts</title>
 <style>
-  body { font: 16px/1.5 system-ui, sans-serif; margin: 2rem 1rem; max-width: 60rem; }
+  :root { color-scheme: dark; }
+  html { background: #121212; }
+  body { font: 16px/1.5 system-ui, sans-serif; margin: 2rem 1rem; max-width: 60rem; background: #121212; color: #e6e6e6; }
   h1 { font-size: 1.25rem; }
+  a { color: #8ab4f8; }
+  a:visited { color: #c58af9; }
   nav a { margin-right: 1rem; }
   table { border-collapse: collapse; width: 100%; margin-top: 1rem; }
-  th, td { border-bottom: 1px solid #ccc; padding: 0.4rem 0.5rem; text-align: left; }
+  th, td { border-bottom: 1px solid #3a3a3a; padding: 0.4rem 0.5rem; text-align: left; }
   td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
-  tfoot td { font-weight: 600; border-top: 2px solid #333; }
-  p.note { color: #555; font-size: 0.875rem; }
+  tfoot td { font-weight: 600; border-top: 2px solid #9a9a9a; }
+  p.note { color: #a8a8a8; font-size: 0.875rem; }
 </style>
 <h1>Blog counts — ${escapeHtml(rangeLabel)}</h1>
 <nav>
