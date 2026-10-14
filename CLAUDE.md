@@ -765,6 +765,110 @@ the data — so the links belong there most. A snapshot's date does not move whe
 only living pages bump their date. The one page that stays untouched is the manifesto
 (`The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP.md`), which the owner froze outright.
 
+## Worked Sample in Every Post (owner directive, 2026-10-13)
+
+Social media accounts get banned or shadow banned, so the blog is how new readers arrive, and a post
+that is only the owner talking gives a reader no sign that anybody else agrees. The worked sample is
+a privacy-first way to show demand: real holders of the skills a goal needs, counted, nobody named.
+
+### Rule
+
+Every post in `content/posts/` dated 2026-08-16 or later, from `what-stays-up.md` on, carries one worked sample (owner directive, 2026-10-13: the published posts from that day were backfilled, and every new post carries one): a picture of one goal placed on the Skills Taxonomy, with how many people on the skills map hold each skill the goal needs, and up to three cards anyone could take toward it.
+
+Posts are the main way new readers arrive. The sample shows the work itself, so a reader sees what the matching looks like before deciding whether One Percent's $7 is worth it.
+
+Not in scope: archive entries, product updates, member-of-the-day, reproduced historical posts, dated corrections, and the frozen manifesto.
+
+### Where the case comes from
+
+In this order:
+
+1. The owner's own goal. Default: "A yard jockey job in Texas", which the blog already uses in `the-lit-country.md`.
+2. A case the owner supplies in chat. The owner confirms the person agreed to have it shared. If the owner has not said so, ask before using it.
+
+Never invent a case. Never build one from several people's details. Never take a goal from the PeerProgramming Goals board or from a Directory profile: the board is visible only to signed-in members, and the Directory went behind a sign-in for privacy.
+
+### Details removed
+
+Keep:
+- The goal, at the level of a trade plus a state, a country, or "anywhere".
+- City names, but only inside cards, and only when the owner wrote them.
+
+Remove:
+- Names, handles, initials, employers, ages, family members, dates.
+- Health details, money owed, and anything about the targeting.
+- Any detail that would let someone who knows the person recognize them.
+
+Only remove. Never change a detail to disguise it: a changed detail is a false claim. If a detail cannot stay, drop it.
+
+### The picture
+
+One goal, then its sector, its job title, and 1 to 4 skills. Under each skill, the number of people on the skills map who hold that skill. Then 1 to 3 cards.
+
+- Sector, job title and skill names are copied exactly from the Skills Taxonomy. Skills are the point, per "Skills, Not Job Titles": choose the skills the goal needs, not a list of the job title's skills.
+- The counts come from Workforce on a stated date (the "Recruited" measure; see "Stats Vocabulary in Posts"). The date goes into `asOf`.
+  - If a count is not available, set `"listed": null` and the picture prints "not counted". Never estimate a count.
+  - Never call a count small. State it and move on.
+- Each card is a PeerProgramming card: one small task with a clear finish line, doable from a phone in under half an hour. Write it the way the goal's owner would post it.
+- No promise. The picture shows who holds the skills, not who will help or what will happen.
+- Nobody is named, and no Directory profile is linked or pictured.
+
+### Making the image
+
+1. Write the case as `scripts/map-sample/cases/<post-slug>.json`:
+
+   ```json
+   {
+     "goal": "A yard jockey job in Texas",
+     "sector": "Transport & Logistics",
+     "jobTitle": "<exact job title from the Skills Taxonomy>",
+     "skills": [
+       { "name": "<exact skill name>", "listed": 9 },
+       { "name": "<exact skill name>", "listed": null }
+     ],
+     "cards": [
+       "Find three yards hiring near Dallas and add their numbers"
+     ],
+     "asOf": "2026-10-13"
+   }
+   ```
+
+   Optional: `"source"` replaces the footer line. The default footer is "Counts: people on the skills map who hold that skill, <asOf>. Nobody is named."
+
+2. Run: `node scripts/map-sample/map-sample.mjs scripts/map-sample/cases/<post-slug>.json content/images/<post-slug>-sample-<asOf>.png`
+
+   The script refuses more than 4 skills, more than 3 cards, and any text that does not fit. Shorten the text; do not edit the layout.
+
+3. Open the PNG and look at it before committing.
+
+### In the post
+
+Place the image right after the paragraph that introduces the goal. Its alt text carries every word in the picture, in reading order: the goal, sector, job title, each skill with its count, each card, then the footer line. The alt text is what survives on platforms that drop images, and it is what the text-to-speech sheet reads.
+
+Right under the image, this paragraph. Change only the bracketed part:
+
+> The cards above are how a goal goes on the PeerProgramming Goals board, free in the Skills Economy, where anyone in the cohort can take one. [One Percent](https://farahbrunache.com) is the paid version of the same work, one-to-one: $7 for a first 30-minute session, after a short automated call, where the people behind these counts are matched by skill and introduced.
+
+Both tiers are named in every post on purpose. The free tier stands on its own, and the paid one is described plainly, never pitched. The sign-up block at the end stays the only ask.
+
+PeerProgramming then goes into "Where to find it in the app":
+
+`- [PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming?tab=goals) — [guide](https://app.chargingthefuture.com/guide#peer-programming)`
+
+Paste sheets: the PNG attaches natively, like screenshots. In the text-to-speech sheet, read the image as its alt text.
+
+The backfill of 2026-10-13 put one shared sample in all 130 posts in scope: the case
+`scripts/map-sample/cases/yard-jockey-texas.json` and its image
+`content/images/yard-jockey-texas-sample-2026-10-13.png`, in a section headed "A worked sample" placed
+before "Where to find it in the app". The two living pages, `Dictionary.md` and
+`old-links-new-links.md`, are reference pages and carry no sample. A new post that uses the
+default goal may reuse that image while its counts are current; when the counts move, write a new
+case with a new `asOf` and a new image rather than overwriting the old one, so a post published
+earlier still shows what was true on its date.
+
+The renderer is `scripts/map-sample/map-sample.mjs` (fonts and their OFL licenses in
+`scripts/map-sample/fonts/`, `@resvg/resvg-js` pinned at 2.6.2 in `scripts/package.json`).
+
 ## Sign-Up Line in Posts (owner decision, 2026-08-18)
 
 Readers ask where to sign up; consumer apps need it explicit. Every post that invites participation ends with this exact block, verbatim, as the final paragraph — once per post, never in the body, never varied:

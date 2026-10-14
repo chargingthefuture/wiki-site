@@ -1,0 +1,15 @@
+{
+  "goal": "A yard jockey job in Texas",
+  "sector": "Transport & Logistics",
+  "jobTitle": "Truck Drivers",
+  "skills": [
+    { "name": "Vehicle operation and safety", "listed": 2 },
+    { "name": "Load securement", "listed": 4 }
+  ],
+  "cards": [
+    "Find three yards hiring near Dallas and add their numbers",
+    "Ask one yard whether they hire new Class A holders without OTR miles",
+    "Find one warehouse in Houston that trains its own yard drivers"
+  ],
+  "asOf": "2026-10-13"
+}
