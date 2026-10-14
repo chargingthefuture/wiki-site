@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-ms-thompson",
+    "title": "An invitation to Ms Thompson",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-14",
+    "excerpt": "You already have a profile. Ms Thompson is listed in the Directory for legal work, preparing a case and reading what a contract or a law actually says, and for mechanical and electrical repair.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-ms-thompson.md",
+    "teaser": "Ms Thompson already has a Directory listing. I built it from what they said about themselves in public and put it up under their name, and they should hear that from me rather than find it. It carries two kinds of work: legal, preparing and negotiating a case, interpreting contracts and statutes, and advocacy, and hands-on, mechanical and electrical repair. Across the list, 4 of the 22 public safety and justice skills the app tracks are held by anybody. This is an invitation to claim the listing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 446
+  },
+  {
     "slug": "a-badge-is-a-job-title",
     "title": "A badge is a job title",
     "repo": "chargingthefuture/wiki-site",
