@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "it-goes-after-the-children",
+    "title": "It goes after the children",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-14",
+    "excerpt": "A question on Quora asks whether it goes after your kids. Yes. I have none, so it went after my friends' children instead.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/it-goes-after-the-children.md",
+    "teaser": "A question on Quora asks whether it goes after your kids. Yes. I have no children, so it went after my friends' children: the ones who would not take part against me were bullied at school until they gave in. Children reach it two ways, as targets and as recruits, and where the parents take part, the children do too, from as young as two. School is where a child is away from a parent all day among adults the parent did not choose. And a child sent after you is a child being abused by the adult who sent them. What none of it decides is what a child grows up into.",
+    "topics": [
+      "specterati",
+      "community",
+      "clicklog"
+    ],
+    "number": 449
+  },
+  {
     "slug": "an-invitation-to-dc",
     "title": "An invitation to DC",
     "repo": "chargingthefuture/wiki-site",
