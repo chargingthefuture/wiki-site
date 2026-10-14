@@ -54,6 +54,14 @@ What it is: the exit existing at all. Right now it does not. Every route out of 
 
 That is the argument, and it does not need anybody to be grateful for it. I am not owed. Neither is anybody else here. The work is worth doing on what it produces, which is fewer people with nothing left to lose, on both sides of the thing.
 
+## A worked sample
+
+One of my own goals is a yard jockey job in Texas. Here it is placed on the Skills Taxonomy, with how many people on the skills map hold each skill it needs.
+
+![A worked sample, details removed. The goal: A yard jockey job in Texas. Sector: Transport & Logistics. Job title: Truck Drivers. Vehicle operation and safety, 2 on the skills map. Load securement, 4 on the skills map. Cards anyone can take, from a phone, in under half an hour: Find three yards hiring near Dallas and add their numbers. Ask one yard whether they hire new Class A holders without OTR miles. Find one warehouse in Houston that trains its own yard drivers. Counts: people on the skills map who hold that skill, 2026-10-13. Nobody is named.](images/yard-jockey-texas-sample-2026-10-13.png)
+
+The cards above are how a goal goes on the PeerProgramming Goals board, free in the Skills Economy, where anyone in the cohort can take one. [One Percent](https://farahbrunache.com) is the paid version of the same work, one-to-one: $7 for a first 30-minute session, after a short automated call, where the people behind these counts are matched by skill and introduced.
+
 ## Where to find it in the app
 
 - [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
@@ -62,5 +70,6 @@ That is the argument, and it does not need anybody to be grateful for it. I am n
 - [LightHouse](https://app.chargingthefuture.com/apps/lighthouse) — [guide](https://app.chargingthefuture.com/guide#lighthouse)
 - [ServiceCredits](https://app.chargingthefuture.com/apps/service-credits) — [guide](https://app.chargingthefuture.com/guide#service-credits)
 - [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
+- [PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming?tab=goals) — [guide](https://app.chargingthefuture.com/guide#peer-programming)
 
 To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

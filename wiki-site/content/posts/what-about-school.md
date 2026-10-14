@@ -101,6 +101,14 @@ If you are already homeschooling, you know more about this than I do. Say what y
 
 The same question applies past schooling. If you are providing anything in this economy and the tool you need to deliver it does not exist, say so. Inventory management was the example above because it is a real gap for anyone selling goods here, and it is not the only one.
 
+## A worked sample
+
+One of my own goals is a yard jockey job in Texas. Here it is placed on the Skills Taxonomy, with how many people on the skills map hold each skill it needs.
+
+![A worked sample, details removed. The goal: A yard jockey job in Texas. Sector: Transport & Logistics. Job title: Truck Drivers. Vehicle operation and safety, 2 on the skills map. Load securement, 4 on the skills map. Cards anyone can take, from a phone, in under half an hour: Find three yards hiring near Dallas and add their numbers. Ask one yard whether they hire new Class A holders without OTR miles. Find one warehouse in Houston that trains its own yard drivers. Counts: people on the skills map who hold that skill, 2026-10-13. Nobody is named.](images/yard-jockey-texas-sample-2026-10-13.png)
+
+The cards above are how a goal goes on the PeerProgramming Goals board, free in the Skills Economy, where anyone in the cohort can take one. [One Percent](https://farahbrunache.com) is the paid version of the same work, one-to-one: $7 for a first 30-minute session, after a short automated call, where the people behind these counts are matched by skill and introduced.
+
 ## Where to find it in the app
 
 - [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
