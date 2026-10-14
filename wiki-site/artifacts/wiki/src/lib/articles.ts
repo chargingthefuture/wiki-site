@@ -47,7 +47,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/same-car-same-color.md",
-    "teaser": "Two questions on Quora ask about the cars. Do they use the same make, model and color as the car the target drives? Yes, the same way they wear the same clothes as you and repeat what you said in private: it is meant to show you that you are watched all the time. Do they drive white sedans and white construction vehicles? I cannot say. Nothing I have recorded shows it, and a color only shows up as a pattern when many people write down what they see. That is what a shared record is for.",
+    "teaser": "Two questions on Quora ask about the cars. EB asked: do they use the same make, model and color as the car the target drives? Yes, the same way they wear the same clothes as you and repeat what you said in private: it is meant to show you that you are watched all the time. Do they drive white sedans and white construction vehicles? I cannot say. Nothing I have recorded shows it, and a color only shows up as a pattern when many people write down what they see. That is what a shared record is for.",
     "topics": [
       "specterati",
       "clicklog",
