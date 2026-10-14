@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-tired-of-being-a-ti",
+    "title": "An invitation to Tired Of Being A TI",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-13",
+    "excerpt": "The targeting works because the people around you can be reached, and the clinic is one of those places. Tired Of Being A TI is listed as a former LPN, for nursing care, patient intake and records.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-tired-of-being-a-ti.md",
+    "teaser": "Two things have to be true for the targeting to work: the people around you can be reached, and in time there is nobody left to turn to. A clinic is one of the places where the first is felt most, from the intake desk to the record that follows a person from visit to visit. Tired Of Being A TI is listed in the Directory as a former LPN who also worked in admissions and utilization review, with seven skills from giving medication and wound care to patient intake and records. This is an invitation to claim the listing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 441
+  },
+  {
     "slug": "see-who-could-help-without-an-account",
     "title": "See who could help you, before you make an account",
     "repo": "chargingthefuture/wiki-site",
