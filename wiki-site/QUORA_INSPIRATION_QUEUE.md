@@ -340,7 +340,7 @@ follows it.
 - [ ] What are some organizations that help people who have been targeted for gang stalking and electronic harassment — bookmarked
 - [ ] Where is there help for people who are being gang stalked — bookmarked · saved 3 times
 - [x] How can a targeted individual cope with losing friends who do not understand their situation — bookmarked
-- [ ] What is the best method to escape from gangstalking and electronic harassment How do you get out of it — bookmarked
+- [x] What is the best method to escape from gangstalking and electronic harassment How do you get out of it — bookmarked
 - [ ] What kinds of things can targeted individuals do to disrupt and or stop the constant attacks from their tormentors — bookmarked
 - [ ] Gangstalking 101 your not alone Harassment techniques include 1 Surveillance being followed electronic survei — bookmarked
 - [ ] Medical doctors of Quora what is your perspective on UnitedHealthcare as an insurance agency — bookmarked
