@@ -18,7 +18,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <Link href="/" className="flex items-center gap-2 sm:gap-3 group min-w-0">
               <SeMark size={40} className="shrink-0" />
               <div className="flex flex-col">
-                <span className="font-display text-lg sm:text-2xl text-white leading-none font-medium tracking-wide whitespace-nowrap">CHARGING THE FUTURE</span>
+                <span className="font-display text-lg sm:text-2xl text-white leading-none font-medium tracking-wide whitespace-nowrap">Skills Economy</span>
                 <span className="font-display italic text-xs sm:text-sm text-primary whitespace-nowrap mt-0.5">Exit their economy, exit the psyop.</span>
               </div>
             </Link>
@@ -90,7 +90,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <div className="lg:col-span-2">
               <div className="flex items-center gap-2 mb-6">
                 <SeMark size={36} />
-                <span className="font-display text-4xl text-white font-medium">CTF</span>
+                <span className="font-display text-3xl text-white font-medium">Skills Economy</span>
               </div>
               <p className="text-gray-400 font-sans text-lg max-w-md mb-6 border-l-2 border-primary pl-4">
                 We exist to prevent human trafficking and its harms by building a sustainable, ethical marketplace that restores agency, heals survivors, and enables all people to thrive.
@@ -130,7 +130,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
           
           <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-600 font-mono text-sm">
-              &copy; {new Date().getFullYear()} Charging The Future. All rights reserved.
+              &copy; {new Date().getFullYear()} Skills Economy. All rights reserved.
             </p>
             <p className="text-gray-600 font-mono text-sm">
               Exit their economy, exit the psyop.

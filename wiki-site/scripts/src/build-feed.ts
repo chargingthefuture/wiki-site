@@ -43,7 +43,7 @@ const OUT = resolve(BLOG_ROOT, 'artifacts/wiki/public/feed.xml');
 const SITE = 'https://chargingthefuture.github.io/chargingthefuture';
 const FEED_URL = `${SITE}/feed.xml`;
 
-const TITLE = 'Charging The Future';
+const TITLE = 'Skills Economy';
 const DESCRIPTION =
   'Writing on trafficking, being targeted, and building an economy survivors run themselves.';
 
