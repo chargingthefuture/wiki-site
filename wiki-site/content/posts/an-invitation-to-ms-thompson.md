@@ -20,6 +20,8 @@ I would rather tell you that than leave you to find it.
 
 Ms Thompson (https://www.quora.com/profile/ms-thompson-11), in the United States. The Directory profile is at https://app.chargingthefuture.com/apps/directory/profile/a9cf7c99-cd65-47bb-96ef-30b7a6dfb37d.
 
+![Ms Thompson's Directory listing in the app, captured October 14, 2026. The heading reads Ms Thompson, below it "Community-generated profile" and "Nominated by @farah", then the tags Public Safety & Justice and Lawyers, and the location United States. A button reads View Quora profile. Under the heading SPECIALIZATIONS are five entries: Case preparation and negotiation; Contract and statutory interpretation; Legal advocacy and advice; Mechanical and electrical repair; Mechanical/electrical repair. A box at the bottom headed Want to work together? reads: The directory shows who is in the community and what they do. Want a service or good from this person? Look for them in Foundation, where members offer and exchange help — or browse Foundation to find someone else who can.](images/ms-thompson-directory-profile-2026-10-14.jpg)
+
 The listing carries two kinds of work.
 
 The first is legal:
