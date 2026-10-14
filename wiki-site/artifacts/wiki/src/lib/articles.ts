@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-andre",
+    "title": "An invitation to Andre",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-14",
+    "excerpt": "A working economy needs people who can make a part to a drawing. Andre Kovacs, in Galt, California, is listed as a machinist, and as a writer and editor.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-andre.md",
+    "teaser": "A working economy needs people who can make a part to a drawing, because every machine that breaks needs one, and somebody has to read the drawing, set up the machine and check that the part came out within tolerance. Andre Kovacs, in Galt, California, has a Directory listing that carries the machinist's trade from blueprint to inspection, and a second trade beside it: copywriting, editing and technical writing. Across the list, 16 of the 28 manufacturing skills the app tracks are held by anybody. This is an invitation to claim the listing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 444
+  },
+  {
     "slug": "picked-off-early",
     "title": "Picked off early",
     "repo": "chargingthefuture/wiki-site",
