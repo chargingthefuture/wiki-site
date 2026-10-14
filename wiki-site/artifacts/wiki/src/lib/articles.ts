@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "see-who-could-help-without-an-account",
+    "title": "See who could help you, before you make an account",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-13",
+    "excerpt": "chargingthefuture.com now tells you how many people in the Directory match what you need. No account and no personal information. The app has not changed, and the blog has a new design.",
+    "category": "Platform",
+    "collection": "posts",
+    "path": "posts/see-who-could-help-without-an-account.md",
+    "teaser": "The front page at chargingthefuture.com now answers one question before you sign up for anything: is there anybody here who could help me? Tap what you need, a job, food, housing, someone to talk to, and it shows how many people listed in the Directory match. No account, no name, no email address. If nobody matches, the need is noted and I go looking for somebody. Names, locations and contact still sit behind a free account and the check, because that is what keeps the people on the list safe. Nothing in the app has changed, and the blog has a new design.",
+    "topics": [
+      "platform",
+      "directory",
+      "skills-economy"
+    ],
+    "number": 440
+  },
+  {
     "slug": "Dictionary",
     "title": "Dictionary: Skills Economy Terms",
     "repo": "chargingthefuture/chargingthefuture",
