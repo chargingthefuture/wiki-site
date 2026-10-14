@@ -1,3 +1,4 @@
+import { SeMark } from "@/components/SeMark";
 import { useRef } from "react";
 import { useParams, useSearch, Link } from "wouter";
 import { motion } from "framer-motion";
@@ -186,11 +187,9 @@ export default function Article() {
                 stops, so the talk about it follows rather than being fenced off by it. */}
             <div className="mt-16 flex items-center justify-between border-t border-border pt-8">
               <div className="flex items-center gap-4">
-                <img 
-                  src={`${import.meta.env.BASE_URL}images/logo-mark.png`} 
-                  alt="Farah Brunache" 
-                  className="w-16 h-16 rounded-full border border-primary bg-black"
-                />
+                <span className="w-16 h-16 shrink-0 rounded-full border border-border bg-card flex items-center justify-center">
+                  <SeMark size={36} />
+                </span>
                 <div>
                   <div className="font-heading font-bold text-xl text-white uppercase">Farah Brunache</div>
                   <div className="font-mono text-primary text-sm">System Architect</div>

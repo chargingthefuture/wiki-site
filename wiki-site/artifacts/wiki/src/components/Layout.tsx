@@ -1,7 +1,8 @@
 import { Link } from "wouter";
 import { Button } from "./Button";
 import { ThemeToggle } from "./ThemeToggle";
-import { Menu, X, Skull } from "lucide-react";
+import { SeMark } from "./SeMark";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
 export function Layout({ children }: { children: React.ReactNode }) {
@@ -15,14 +16,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2 sm:gap-3 group min-w-0">
-              <img 
-                src={`${import.meta.env.BASE_URL}images/logo-mark.png`} 
-                alt="Charging The Future Logo" 
-                className="w-10 h-10 sm:w-12 sm:h-12 shrink-0 rounded-full border border-primary grayscale group-hover:grayscale-0 transition-all duration-300"
-              />
+              <SeMark size={40} className="shrink-0" />
               <div className="flex flex-col">
-                <span className="font-display text-lg sm:text-2xl text-white leading-none font-medium tracking-wide whitespace-nowrap">CHARGING THE FUTURE</span>
-                <span className="font-heading text-[10px] sm:text-xs uppercase tracking-widest text-primary font-bold whitespace-nowrap">Live, Work & Prevail</span>
+                <span className="font-display text-lg sm:text-2xl text-white leading-none font-medium tracking-wide whitespace-nowrap">Skills Economy</span>
+                <span className="font-display italic text-xs sm:text-sm text-primary whitespace-nowrap mt-0.5">Exit their economy, exit the psyop.</span>
               </div>
             </Link>
 
@@ -92,8 +89,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
             <div className="lg:col-span-2">
               <div className="flex items-center gap-2 mb-6">
-                <Skull className="text-primary" size={32} />
-                <span className="font-display text-4xl text-white font-medium">CTF</span>
+                <SeMark size={36} />
+                <span className="font-display text-3xl text-white font-medium">Skills Economy</span>
               </div>
               <p className="text-gray-400 font-sans text-lg max-w-md mb-6 border-l-2 border-primary pl-4">
                 We exist to prevent human trafficking and its harms by building a sustainable, ethical marketplace that restores agency, heals survivors, and enables all people to thrive.
@@ -133,10 +130,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
           
           <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-600 font-mono text-sm">
-              &copy; {new Date().getFullYear()} Charging The Future. All rights reserved.
+              &copy; {new Date().getFullYear()} Skills Economy. All rights reserved.
             </p>
-            <p className="text-gray-600 font-mono text-sm uppercase tracking-widest">
-              Live, Work & Prevail
+            <p className="text-gray-600 font-mono text-sm">
+              Exit their economy, exit the psyop.
             </p>
           </div>
         </div>
