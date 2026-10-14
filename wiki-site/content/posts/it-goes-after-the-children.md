@@ -1,20 +1,24 @@
 ---
 title: "It goes after the children"
 date: "2026-10-14"
-excerpt: "A question on Quora asks whether it goes after your kids. Yes. I have none, so it went after my friends' children instead."
+excerpt: "Tome Love asked on Quora whether it goes after your kids. Yes. I have none, so it went after my friends' children instead."
 category: "Community"
-teaser: "A question on Quora asks whether it goes after your kids. Yes. I have no children, so it went after my friends' children: the ones who would not take part against me were bullied at school until they gave in. Children reach it two ways, as targets and as recruits, and where the parents take part, the children do too, from as young as two. School is where a child is away from a parent all day among adults the parent did not choose. And a child sent after you is a child being abused by the adult who sent them. What none of it decides is what a child grows up into."
+teaser: "Tome Love asked on Quora whether it goes after your kids. Yes. I have no children, so it went after my friends' children: the ones who would not take part against me were bullied at school until they gave in. Children reach it two ways, as targets and as recruits, and where the parents take part, the children do too, from as young as two. School is where a child is away from a parent all day among adults the parent did not choose. And a child sent after you is a child being abused by the adult who sent them. What none of it decides is what a child grows up into."
 topics:
   - specterati
   - community
   - clicklog
 ---
 
-A question on Quora, saved on November 1, 2025:
+A question on Quora, asked by Tome Love (https://www.quora.com/profile/Tome-Love) on April 21, 2024:
 
+<!-- banned-words:disable: Tome Love's question is quoted exactly as asked, in the text and in the screenshot description. -->
 > Does gang stalking go after your kids?
 
-The question is at https://www.quora.com/Does-gang-stalking-go-after-your-kids. While nobody has answered it, Quora serves it at https://www.quora.com/unanswered/Does-gang-stalking-go-after-your-kids instead. The [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary) carries the words I use for this; the question keeps the words it was asked in.
+The question is at https://www.quora.com/Does-gang-stalking-go-after-your-kids, with 7 public followers and 4.4 thousand views. The [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary) carries the words I use for this; the question keeps the words it was asked in.
+
+![The question on its Quora page, captured October 14, 2026. The heading reads: Does gang stalking go after your kids? Below it, under Asked by, the name Tome Love. Under Question stats: 7 public followers, 4.4K views, last followed Jan 16. Below that, the question record: Question added by Tome Love, number 3596537945, Thank, Report, April 21, 2024 at 5:11:01 PM.](images/tome-love-question-2026-10-14.jpg)
+<!-- banned-words:enable -->
 
 ## Yes
 

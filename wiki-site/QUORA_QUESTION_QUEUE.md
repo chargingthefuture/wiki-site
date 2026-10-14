@@ -127,7 +127,7 @@ Ordered by the date the draft was opened. The account is the one it sat under.
 - [x] 44. `2025-11-01` · farah-brunache — Do gangstalkers know that they're putting their children in harms way when harassing targeted individuals? (asked by EB, https://www.quora.com/profile/EB-814, on 2025-10-23; answered in sending-a-child-is-abuse.md)
 - [x] 45. `2025-11-01` · farah-brunache — Do perps drive white sedans and white construction Vehicles that follow targeted individuals? (the question page now reads that its author deleted it, so the asker is not credited; answered together with question 46 in same-car-same-color.md)
 - [x] 46. `2025-11-01` · farah-brunache — Do perps use the same make models and colors of the vehicles that targets drive to harass their targets? (asked by EB, https://www.quora.com/profile/EB-814, on 2025-10-23; answered together with question 45 in same-car-same-color.md)
-- [x] 47. `2025-11-01` · farah-brunache — Does gang stalking go after your kids? (answered in it-goes-after-the-children.md; the asker is not yet credited, pending the question page)
+- [x] 47. `2025-11-01` · farah-brunache — Does gang stalking go after your kids? (asked by Tome Love, https://www.quora.com/profile/Tome-Love, on 2024-04-21; answered in it-goes-after-the-children.md)
 - [ ] 48. `2026-08-14` · farah-brunache — What is a person called that accuses innocent strangers of pedophilia in every one of their comments on here, are they a danger and should they be banned?
 
 <!-- spelling:enable -->
