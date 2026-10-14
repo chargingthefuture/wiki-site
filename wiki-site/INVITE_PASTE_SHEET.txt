@@ -5,7 +5,7 @@ Paste one group per Quora post. Every address in one post would read as spam, so
 goes up a group at a time. A full group never changes; a new invite joins the last group or
 starts the next one.
 
-30 people in 2 groups.
+31 people in 2 groups.
 
 ==============================================================================
 Group 1 · invitations 1 to 20 · August 20, 2026 to October 2, 2026
@@ -36,7 +36,7 @@ People I have invited to the Skills Economy, part 1:
 Every invitation is on the blog, at the top of the feed: https://chargingthefuture.github.io/chargingthefuture/feed
 
 ==============================================================================
-Group 2 · invitations 21 to 30 · October 2, 2026 to October 14, 2026
+Group 2 · invitations 21 to 31 · October 2, 2026 to October 14, 2026
 
 People I have invited to the Skills Economy, part 2:
 
@@ -50,5 +50,6 @@ People I have invited to the Skills Economy, part 2:
 28. King Unique (https://www.quora.com/profile/king-unique-4)
 29. Tired Of Being A TI (https://www.quora.com/profile/tired-of-being-a-ti)
 30. Andre Kovacs (https://www.quora.com/profile/andre-kovacs-1)
+31. Ms Thompson (https://www.quora.com/profile/ms-thompson-11)
 
 Every invitation is on the blog, at the top of the feed: https://chargingthefuture.github.io/chargingthefuture/feed
