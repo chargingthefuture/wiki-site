@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "the-same-label-on-everybody",
+    "title": "The same label on everybody",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-14",
+    "excerpt": "A question on Quora asks about somebody who accuses strangers of pedophilia in every comment. It is a smear, and it is one of the labels put on every target.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/the-same-label-on-everybody.md",
+    "teaser": "A question on Quora asks what to call somebody who accuses innocent strangers of pedophilia in every one of their comments, whether they are a danger, and whether they should be banned. It is a smear, and pedophile is one of the stock labels put on every target, alongside racist, threatening, addict and mentally ill. The danger is less the comment than what it recruits: slander is how strangers are brought in. Whether an account comes down is Quora's call. What is yours is not answering it, and keeping something anybody can check without taking your word.",
+    "topics": [
+      "specterati",
+      "community",
+      "clicklog"
+    ],
+    "number": 451
+  },
+  {
     "slug": "an-invitation-to-00",
     "title": "An invitation to 00",
     "repo": "chargingthefuture/wiki-site",
