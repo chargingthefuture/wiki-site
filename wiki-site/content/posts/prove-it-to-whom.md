@@ -15,7 +15,7 @@ A question on Quora, saved on September 18, 2025:
 
 The [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary) carries the words I use for this instead.
 
-[Proving it, and taking your accounts back](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/proving-it-and-taking-your-accounts-back) answered the how. One incident can be denied, and a pattern is much harder to deny, so write down what happens, with the date, as it happens: what, when, where, and who if you know. That record is the proof in every case below.
+[Proving it, when you know who started it](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/proving-it-and-taking-your-accounts-back) answered the how. One incident can be denied, and a pattern is much harder to deny, so write down what happens, with the date, as it happens: what, when, where, and who if you know. That record is the proof in every case below.
 
 What it proves depends on who it is for.
 

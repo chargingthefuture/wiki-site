@@ -553,7 +553,7 @@ How do prove I'm being gangstalked?
 
 The Dictionary (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary) carries the words I use for this instead.
 
-Proving it, and taking your accounts back (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/proving-it-and-taking-your-accounts-back) answered the how. One incident can be denied, and a pattern is much harder to deny, so write down what happens, with the date, as it happens: what, when, where, and who if you know. That record is the proof in every case below.
+Proving it, when you know who started it (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/proving-it-and-taking-your-accounts-back) answered the how. One incident can be denied, and a pattern is much harder to deny, so write down what happens, with the date, as it happens: what, when, where, and who if you know. That record is the proof in every case below.
 
 What it proves depends on who it is for.
 
@@ -1661,7 +1661,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-si
 ==============================================================================
 2026-10-02 · An invitation to Jane
 
-Jane Doe asked on Quora how to prove it, now that they know who started it, and how to take their accounts back. I answered in Proving it, and taking your accounts back (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/proving-it-and-taking-your-accounts-back).
+Jane Doe asked on Quora how to prove it, now that they know who started it. I answered in Proving it, when you know who started it (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/proving-it-and-taking-your-accounts-back).
 
 They do not have to agree with me about any of it: not the words I use, not who is doing it, not how far it reaches. The list this invitation is about has never asked that of anybody on it. It asks what a person can do, and makes them findable for it.
 
@@ -1703,7 +1703,7 @@ Nothing else is required. Not using the rest of the app, not posting anything, n
 
 This does not run one way
 
-Somebody whose work is other people's disputes needs things too. Jane asked how to take their accounts back, and an hour from somebody who secures accounts for a living is the kind of help the list exists to find. A ride. A room. An hour of a trade they do not have. The same listing that makes them findable is what makes those people findable to them.
+Somebody whose work is other people's disputes needs things too. A ride. A room. An hour of a trade they do not have. The same listing that makes them findable is what makes those people findable to them.
 
 Who is on the list
 
@@ -1721,7 +1721,7 @@ To sign up: https://chargingthefuture.com. It is free, everyone is let in one at
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/an-invitation-to-jane
 
 ==============================================================================
-2026-10-02 · Proving it, and taking your accounts back
+2026-10-02 · Proving it, when you know who started it
 
 A question on Quora, asked by Jane Doe (https://www.quora.com/profile/Jane-Doe-11966):
 
@@ -1745,17 +1745,6 @@ Write down what happens, with the date, as it happens: what, when, where, and wh
 
 If you are thinking of reporting it, Who to report it to (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/who-to-report-it-to) is my answer to that question. None of this is legal advice.
 
-Taking your accounts back
-
-Accounts come back one at a time, from a device you trust.
-
-- Start with your email. Every other account resets its password through it, so whoever holds your email can take the rest back after you.
-- Give each account its own new password, and turn on two-step sign-in, where a code is needed as well as the password.
-- Every major account has a list of the devices signed into it. Sign out every one you do not recognize.
-- Check the recovery phone number and the backup email on each account. Somebody who changed those can take the account back after you change the password.
-
-WhatWorks (https://app.chargingthefuture.com/apps/what-works) is a list of tools other survivors have checked, organized by the problem they solve.
-
 Not on your own
 
 The Commons (https://app.chargingthefuture.com) is a group chat of other Targeted Individuals, in the app. Nobody there needs the first hour spent on whether it is happening.
@@ -1763,7 +1752,6 @@ The Commons (https://app.chargingthefuture.com) is a group chat of other Targete
 Where to find it in the app
 
 - ClickLog (https://app.chargingthefuture.com/apps/click-log) — guide (https://app.chargingthefuture.com/guide#click-log)
-- WhatWorks (https://app.chargingthefuture.com/apps/what-works) — guide (https://app.chargingthefuture.com/guide#what-works)
 - Commons — the group chat (https://app.chargingthefuture.com) — guide (https://app.chargingthefuture.com/guide#commons)
 
 To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
