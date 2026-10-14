@@ -14,7 +14,6 @@
  * What it skips, and why:
  * - content/archive/ and the manifesto: frozen records, kept as written.
  * - content/youtube/: collected titles, other people's words.
- * - scripts/map-sample/fonts/: the fonts' Open Font License texts, third-party legal text kept verbatim.
  * - articles.ts, fireside-exports.ts, and the generated paste sheets: copies of text checked
  *   at its source (the posts), or comments the app cleared for publication.
  * - "Whole Foods" (a company's name), "stale-while-revalidate" (an HTTP header value), and
@@ -41,11 +40,7 @@ const INCLUDE_PREFIXES = [
 ];
 const INCLUDE_FILES = new Set(['wiki-site/QUORA_PASTE_SHEET.txt']);
 
-const EXEMPT_PREFIXES = [
-  'wiki-site/content/archive/',
-  'wiki-site/content/youtube/',
-  'wiki-site/scripts/map-sample/fonts/',
-];
+const EXEMPT_PREFIXES = ['wiki-site/content/archive/', 'wiki-site/content/youtube/'];
 const EXEMPT_FILES = new Set([
   'wiki-site/content/posts/The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP.md',
   'wiki-site/scripts/src/check-banned-words.ts',
