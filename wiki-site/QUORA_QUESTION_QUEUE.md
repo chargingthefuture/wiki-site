@@ -125,8 +125,8 @@ Ordered by the date the draft was opened. The account is the one it sat under.
 - [x] 42. `2025-10-31` · farah-brunache — Who pays the gang stalkers to stalk and harass you and why don't the police want to help? (asked by Jarrod B Emery, https://www.quora.com/profile/Jarrod-B-Emery, on 2019-06-18; answered in a-badge-is-a-job-title.md)
 - [–] 43. `2025-11-01` · farah-brunache — Do Targeted Individuals get harassed more around Halloween? About half the TI's ive read believe there's a spiritual element to gangstalking. I've especially noticed more stalking on election years this time of year. (skipped — owner decision, 2026-10-01: nothing in it for a post to answer. Not a post.)
 - [x] 44. `2025-11-01` · farah-brunache — Do gangstalkers know that they're putting their children in harms way when harassing targeted individuals? (asked by EB, https://www.quora.com/profile/EB-814, on 2025-10-23; answered in sending-a-child-is-abuse.md)
-- [ ] 45. `2025-11-01` · farah-brunache — Do perps drive white sedans and white construction Vehicles that follow targeted individuals?
-- [ ] 46. `2025-11-01` · farah-brunache — Do perps use the same make models and colors of the vehicles that targets drive to harass their targets?
+- [x] 45. `2025-11-01` · farah-brunache — Do perps drive white sedans and white construction Vehicles that follow targeted individuals? (the question page now reads that its author deleted it, so the asker is not credited; answered together with question 46 in same-car-same-color.md)
+- [x] 46. `2025-11-01` · farah-brunache — Do perps use the same make models and colors of the vehicles that targets drive to harass their targets? (asked by EB, https://www.quora.com/profile/EB-814, on 2025-10-23; answered together with question 45 in same-car-same-color.md)
 - [ ] 47. `2025-11-01` · farah-brunache — Does gang stalking go after your kids?
 - [ ] 48. `2026-08-14` · farah-brunache — What is a person called that accuses innocent strangers of pedophilia in every one of their comments on here, are they a danger and should they be banned?
 

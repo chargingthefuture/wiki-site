@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "same-car-same-color",
+    "title": "Same car, same color",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-14",
+    "excerpt": "Do the cars match the target's car, and are they white? The first I have answered before. The second only a shared record can answer.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/same-car-same-color.md",
+    "teaser": "Two questions on Quora ask about the cars. EB asked: do they use the same make, model and color as the car the target drives? Yes, the same way they wear the same clothes as you and repeat what you said in private: it is meant to show you that you are watched all the time. Do they drive white sedans and white construction vehicles? I cannot say. Nothing I have recorded shows it, and a color only shows up as a pattern when many people write down what they see. That is what a shared record is for.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "community"
+    ],
+    "number": 447
+  },
+  {
     "slug": "an-invitation-to-ms-thompson",
     "title": "An invitation to Ms Thompson",
     "repo": "chargingthefuture/wiki-site",
