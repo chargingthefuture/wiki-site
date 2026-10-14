@@ -3,7 +3,7 @@ title: "Picked off early"
 date: "2026-10-14"
 excerpt: "Survivors name the FBI program that went after Martin Luther King Jr. and almost never name King. His case admits it was never only the government."
 category: "Community"
-teaser: "Targeted Individuals bring up COINTELPRO all the time and almost never bring up Martin Luther King Jr., its best-documented target. His case admits this is not only a game the government plays: the FBI went after him, and so did private people. Mine is private groups, and it started when I was five. A 1968 FBI memo set a goal to stop a leader before one existed, and I have been accused of being a leader as if it were an insult. King had no social media; most of what he had can be built again."
+teaser: "Targeted Individuals bring up COINTELPRO all the time and almost never bring up Martin Luther King Jr., its best-documented target. His case admits this is not only a game a government plays: the FBI went after him, and so did private people. Mine is private groups, and it started when I was five. A 1968 FBI memo set a goal to stop a leader before one existed, and I have been accused of being a leader as if it were an insult. King had no social media; most of what he had can be built again."
 topics:
   - specterati
   - history
@@ -14,7 +14,7 @@ Targeted Individuals bring up COINTELPRO all the time. It was the FBI's program 
 
 The people doing this to us do not draw that line, because drawing it admits what they are.
 
-I think survivors leave it alone for a different reason: King's case admits this is not only a game the government plays. The FBI went after him, and so did private people who wanted him stopped. In a Gallup poll in August 1966, 63 percent of Americans held an unfavorable view of him, and neither government nor business counted itself among his friends. Even so, he had far more allies than a Targeted Individual has today: churches, a Black press, colleges, unions, and thousands of people willing to march.
+I think survivors leave it alone for a different reason: King's case admits this is not only a game a government plays. The FBI went after him, and so did private people who wanted him stopped. In a Gallup poll in August 1966, 63 percent of Americans held an unfavorable view of him, and neither government nor business counted itself among his friends. Even so, he had far more allies than a Targeted Individual has today: churches, a Black press, colleges, unions, and thousands of people willing to march.
 
 The government's part has been told at length, by survivors and in the Senate's own record. The private part is the one left out, and it is mine. I am not targeted by the government. Private groups use the same method, and mine started when I was five years old.
 
