@@ -39,15 +39,32 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
-    "slug": "an-invitation-to-ric",
-    "title": "An invitation to Ric",
+    "slug": "the-reaction-is-what-gets-written-down",
+    "title": "The reaction is what gets written down",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-10-14",
-    "excerpt": "Anybody can tap Legal help on chargingthefuture.com and see how many people could help, with no account. Ric Vaughn is one of the people in that count.",
+    "excerpt": "Aron Mangiarotti asked on Quora three things: are they police or a neighborhood watch, are they building a case, and what is the main goal. Both and more; yes, a picture of you; and to leave you with nothing they do not control.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/an-invitation-to-ric.md",
-    "teaser": "The front page at chargingthefuture.com lets anybody tap what they need and see how many people on the list could help, with no account and no name given. One of the choices is legal help. Ric Vaughn has a Directory listing for preparing and negotiating a case, reading what a contract or a law actually says, and legal advocacy, and is one of the people that count is made of. Across the list, 4 of the 22 public safety and justice skills the app tracks are held by anybody. This is an invitation to claim the listing, and no is a complete answer.",
+    "path": "posts/the-reaction-is-what-gets-written-down.md",
+    "teaser": "Aron Mangiarotti asked on Quora: are they law enforcement or community neighborhood watch groups, do I have to worry about them building a case, and what is their main goal? Not one or the other. It is various groups collaborating, police and Neighborhood Watch among them, and a job title says nothing about who holds it. The case being built is mostly a picture rather than a charge: the standing verdict that you are mentally ill or dangerous. You are provoked until you react like anyone would, and the reaction is what gets written down. The goal is to bankrupt you, to have you in prison or committed, or worse, and the economy behind it is what the harassment serves. A dated record you own is the thing that picture has to get past.",
+    "topics": [
+      "specterati",
+      "community",
+      "clicklog"
+    ],
+    "number": 451
+  },
+  {
+    "slug": "an-invitation-to-00",
+    "title": "An invitation to 00",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-14",
+    "excerpt": "A person is not one job title. 00, in the United Kingdom, is listed for branding, video, marketing and site safety, across three sectors at once.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-00.md",
+    "teaser": "A person is not one job title, and the skills map does not count them as one. 00, in the United Kingdom, has a Directory listing that reaches three sectors: branding and visual concepts, video and audio editing, analytics and trend analysis in Creative and Media; marketing and market research in Professional and Business Services; and site safety in Housing and Construction. Counted by skills, one listing fills gaps in all three. This is an invitation to claim the listing, and no is a complete answer.",
     "topics": [
       "community",
       "directory",

@@ -52,6 +52,10 @@ People I have invited to the Skills Economy, part 2:
 30. Andre Kovacs (https://www.quora.com/profile/andre-kovacs-1)
 31. Ms Thompson (https://www.quora.com/profile/ms-thompson-11)
 32. DC (https://www.quora.com/profile/dc-1341)
+<<<<<<< HEAD
 33. Ric Vaughn (https://www.quora.com/profile/ric-vaughn)
+=======
+33. 00 (https://www.quora.com/profile/00-661)
+>>>>>>> origin/main
 
 Every invitation is on the blog, at the top of the feed: https://chargingthefuture.github.io/chargingthefuture/feed
