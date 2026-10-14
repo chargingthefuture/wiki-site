@@ -1,7 +1,7 @@
 # Invite queue
 
 An invite post is written for one person who is already listed in the Directory, and it names what
-they actually do. Eighteen have been published. This file tracks who is next, what has gone out, and
+they actually do. Twenty-eight have been published. This file tracks who is next, what has gone out, and
 the two rules that keep the series readable.
 
 The list of people comes from `/admin/directory/invite-queue` in the app — reachable from the
@@ -113,6 +113,16 @@ Rotate these. Each is a way into the same invitation; none of them is a template
 | Brecht Corbeel | Brecht-Corbeel | an-invitation-to-brecht.md | Five visual skills, from drawing an idea to keeping a brand recognizable; their Quora account already banned | 2026-09-28 |
 | Matthew A Davis | Matthew-A-Davis-1 | an-invitation-to-matthew-a-davis.md | Emergency Support Function coordination against Emergency and Reserve Roles at 2 of 21 | 2026-09-29 |
 | Sherri Jenkins | Sherri-Jenkins-12 | an-invitation-to-sherri.md | Security procedures, and the answer already credited in best-description-i-have-read.md | 2026-09-29 |
+| Aaron Wheeler | Wheeler-Aaron | an-invitation-to-aaron.md | Advocacy placeholder, after answering their question in where-to-go-for-help.md; part of the answer is a list they are already on | 2026-10-02 |
+| Jane Doe | Jane-Doe-11966 | an-invitation-to-jane.md | Case preparation, statutory interpretation and legal advocacy, after answering their question in proving-it-and-taking-your-accounts-back.md; the list has never needed anybody to agree with the owner | 2026-10-02 |
+| Julie | Julie-6645 | an-invitation-to-julie.md | Child development and classroom management against Education at 4 of 39 | 2026-10-02 |
+| Holly | Holly-D-192 | an-invitation-to-holly.md | Financial planning and cashflow management, against Estonia in 1991 | 2026-10-02 |
+| Nikki Martindale | Nikki-Martindale-9 | an-invitation-to-nikki.md | Business administration, after answering their question in why-nobody-does-anything.md | 2026-10-03 |
+| No Name Individual | No-Name-Individual | an-invitation-to-no-name-individual.md | Advocacy placeholder, after answering their question in what-jobs-a-targeted-individual-can-get.md | 2026-10-03 |
+| Indiko | Indiko-1 | an-invitation-to-indiko.md | Business-plan development and business modeling, after their 2025 Quora post asking to find other Australians | 2026-10-07 |
+| Marilyn | Marilyn-1921 | an-invitation-to-marilyn.md | Lab work, laboratory safety and packaging, against the two things that have to be true for the targeting to work | 2026-10-08 |
+| Bev | Bev-419 | an-invitation-to-bev.md | Blueprint reading, manufacturing and quality checks, against Estonia in 1991; Manufacturing & Industry at 14 of 28 | 2026-10-11 |
+| King Unique | king-unique-4 | an-invitation-to-king-unique.md | Auditing, bookkeeping, tax and budgeting, against an economy needing books anybody can check | 2026-10-11 |
 
 When a post merges, add its row here and add the handle in two places in the product repository,
 in the same piece of work: the `DIRECTORY_INVITE_ALREADY_WRITTEN` array in
@@ -148,7 +158,7 @@ needed to write the next posts, because the copied list itself is never committe
 | Indiko | Indiko-1 | Business-plan development and market analysis; business modeling and financial case building; Australia | skill-specific | A working economy needs people who | published — after their 2025 Quora post asking to find other Australians; Microfinance and SME Support held 4 of 24 on 2026-10-07; business-plan development sits under Business Development Officers / SME Advisors in Skills Taxonomy; business modeling and financial case building sits under Management Consultants in Professional & Business Services (17 of 52) |
 | Marilyn | Marilyn-1921 | Laboratory safety and SOP adherence; laboratory testing (basic); packaging and labeling; United States | skill-specific | Two things have to be true | published — on 2026-10-08 packaging and labeling sat under Food-Processing Workers in Food & Agriculture (6 of 49). Laboratory testing (basic) moves from Treatment-Plant Operators (Water & Sanitation) to Lab Technicians (R&D & High-Tech), beside laboratory safety, in taxonomy change 143 (owner decision, 2026-10-08; applied the same day), after which R&D & High-Tech held 22 of 42 |
 | Bev | Bev-419 | Blueprint reading and interpretation; technical drawing interpretation; quality control and precision work; manufacturing; assembly and packaging; equipment troubleshooting; product inspection and testing; quality checks; advocacy; Canada | skill-specific | Estonia, 1991 | published — Manufacturing & Industry held 14 of 28 on the 2026-10-11 read (311 people, 255 of 713) |
-| King Unique | king-unique-4 | Auditing and internal controls; financial reporting and bookkeeping; tax compliance; budgeting and personal finance education; financial modeling and cashflow management; financial planning and budgeting; financial record-keeping and transparency; financial risk assessment; Melbourne, Australia | skill-specific | A working economy needs people who | in PR — Finance & Public Administration held 9 of 34 and Microfinance & SME Support 5 of 24 on the 2026-10-11 read (311 people, 255 of 713) |
+| King Unique | king-unique-4 | Auditing and internal controls; financial reporting and bookkeeping; tax compliance; budgeting and personal finance education; financial modeling and cashflow management; financial planning and budgeting; financial record-keeping and transparency; financial risk assessment; Melbourne, Australia | skill-specific | A working economy needs people who | published — Finance & Public Administration held 9 of 34 and Microfinance & SME Support 5 of 24 on the 2026-10-11 read (311 people, 255 of 713) |
 
 Status is one of: `queued`, `drafted`, `in PR`, `published`, `skipped`. A skipped row keeps its
 reason in the notes column so nobody re-queues it a month later.
