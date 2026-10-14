@@ -46,7 +46,7 @@ follows it.
 
 <!-- spelling:disable — every line below is somebody else's question title, recovered verbatim from the address it was saved at; respelling one would misquote the person who asked it. -->
 
-- [ ] Are gang stalkers law enforcement or community neighborhood watch groups Do I have to worry about them building a case Whats their main goal — bookmarked
+- [x] Are gang stalkers law enforcement or community neighborhood watch groups Do I have to worry about them building a case Whats their main goal — bookmarked
 - [ ] Are you a victim of gang stalking workplace mobbing or vigilantism Why are these forms of harassment and discrimination more interconnected than you may realize — bookmarked
 - [ ] Can gang stalkers actually be out to harm or even kill their targeted individuals — bookmarked · saved 3 times
 - [ ] Gang stalking Organized Stalking Leaked documents RT news — bookmarked · learningandresearchti
@@ -64,7 +64,7 @@ follows it.
 - [ ] How can targeted individuals reclaim power break free from organized stalking and find resilience amidst adversity — bookmarked
 - [ ] What are some signs that someone is being targeted by gang stalkers or organized stalkers — bookmarked · saved 5 times
 - [ ] What is the general perception of targeted individuals who claim to be victims of organized gang stalking Are they considered delusional or paranoid — bookmarked · saved 3 times
-- [ ] What s the main goal for people being gang stalked — bookmarked
+- [x] What s the main goal for people being gang stalked — bookmarked
 - [x] When a targeted individual gets to the stage of being nearly 100 isolated what should that person do to survive — bookmarked
 - [ ] Why do people deny gang stalking so vehemently — bookmarked · saved 2 times
 - [ ] Are gang stalkers aware of what theyre doing — bookmarked · saved 3 times
@@ -413,7 +413,7 @@ follows it.
 - [ ] How do we us TIs know that there arent any Gangstalkers that have joined this group If there is any to use what we 2 — shared into a space · Real GangStalking Victims and Evidence
 - [ ] Is the FBI performing street theatre and stalking me — bookmarked
 - [ ] Maybe they will lose some funding and perks and make the job of being a community based agent goon not so Cushy — bookmarked · antistalkingsurviveandthriveafterabuse
-- [ ] What are the goals of organized stalking and harassment groups — bookmarked
+- [x] What are the goals of organized stalking and harassment groups — bookmarked
 - [ ] What can a targeted individual do to get help When the police are involved and the FBI are responsible who can a TI go to for help with gangstalking — bookmarked
 - [ ] What do I do if a police car keeps following me even though its police lights are not on It keeps following me after all of these turns I m making and is almost tailgating me What should I do — bookmarked
 - [ ] Why do organized stalkers use scripted conversations — bookmarked

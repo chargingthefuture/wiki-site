@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "the-reaction-is-what-gets-written-down",
+    "title": "The reaction is what gets written down",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-14",
+    "excerpt": "A question I saved on Quora asked three things: are they police or a neighborhood watch, are they building a case, and what is the main goal. Both and more; yes, a picture of you; and to leave you with nothing they do not control.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/the-reaction-is-what-gets-written-down.md",
+    "teaser": "A question I saved on Quora and never answered: are they law enforcement or community neighborhood watch groups, do I have to worry about them building a case, and what is their main goal? Not one or the other. It is various groups collaborating, police and Neighborhood Watch among them, and a job title says nothing about who holds it. The case being built is mostly a picture rather than a charge: the standing verdict that you are mentally ill or dangerous. You are provoked until you react like anyone would, and the reaction is what gets written down. The goal is to bankrupt you, to have you in prison or committed, or worse, and the economy behind it is what the harassment serves. A dated record you own is the thing that picture has to get past.",
+    "topics": [
+      "specterati",
+      "community",
+      "clicklog"
+    ],
+    "number": 451
+  },
+  {
     "slug": "an-invitation-to-00",
     "title": "An invitation to 00",
     "repo": "chargingthefuture/wiki-site",
