@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-dc",
+    "title": "An invitation to DC",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-14",
+    "excerpt": "The people this is for are in every country, and so is the answer. DC, in the United Kingdom, is listed for hotel work: guests, rooms and complaints.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-dc.md",
+    "teaser": "The answer here was never one walled place, because the people it is for are in every country. DC, in the United Kingdom, has a Directory listing for hotel work: guest services and reservations, getting a room ready to a standard, and handling complaints. Across the list, 8 of the 16 tourism and hospitality skills the app tracks are held by anybody. Somebody arriving somewhere new needs a room that is ready and a person who knows how to receive them. This is an invitation to claim the listing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 448
+  },
+  {
     "slug": "same-car-same-color",
     "title": "Same car, same color",
     "repo": "chargingthefuture/wiki-site",
