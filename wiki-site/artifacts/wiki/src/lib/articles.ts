@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-00",
+    "title": "An invitation to 00",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-14",
+    "excerpt": "A person is not one job title. 00, in the United Kingdom, is listed for branding, video, marketing and site safety, across three sectors at once.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-00.md",
+    "teaser": "A person is not one job title, and the skills map does not count them as one. 00, in the United Kingdom, has a Directory listing that reaches three sectors: branding and visual concepts, video and audio editing, analytics and trend analysis in Creative and Media; marketing and market research in Professional and Business Services; and site safety in Housing and Construction. Counted by skills, one listing fills gaps in all three. This is an invitation to claim the listing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 450
+  },
+  {
     "slug": "it-goes-after-the-children",
     "title": "It goes after the children",
     "repo": "chargingthefuture/wiki-site",
