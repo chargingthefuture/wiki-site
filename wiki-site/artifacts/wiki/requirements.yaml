@@ -10,11 +10,8 @@ images:
   - path: "artifacts/wiki/public/images/hero-bg.png"
     description: "Dark gritty comic book style cityscape in ruins, heavy black ink outlines, blood red skies, halftone dots, high contrast survival aesthetic, graphic novel style"
     aspect_ratio: "16:9"
-  - path: "artifacts/wiki/public/images/logo-mark.png"
-    description: "Bold graffiti style survival emblem logo in blood red and black, stencil art, distressed texture, circular"
-    aspect_ratio: "1:1"
 
 notes:
   - App relies purely on GitHub raw content for its articles. No backend server needed.
   - Using a hardcoded list of articles derived from the GitHub wiki.
-  - Implements a comic book / graphic novel / Walking Dead aesthetic with harsh shadows and bold fonts.
+  - Shares the design of the project's other sites in black and white with coral, with the Skills Economy mark as its logo (src/components/SeMark.tsx).
