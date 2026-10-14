@@ -118,7 +118,7 @@ export function inferMetaFromMarkdown(markdown: string, slug: string, fallbackCa
       }
     }
   }
-  if (!excerpt) excerpt = `${fallbackCategory} post from Charging The Future.`;
+  if (!excerpt) excerpt = `${fallbackCategory} post from Skills Economy.`;
   if (excerpt.length > 160) excerpt = `${excerpt.slice(0, 159)}...`;
 
   return { title, date, excerpt, created: toIsoDate(created) };
