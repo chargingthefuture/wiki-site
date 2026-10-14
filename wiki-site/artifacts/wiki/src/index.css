@@ -34,12 +34,10 @@
 }
 
 @theme inline {
-  /* Fonts are self-hosted, not fetched from Google — see src/main.tsx for why.
-     The "Variable" names are what @fontsource-variable registers; the static
-     name follows so a browser with a local copy still matches. */
-  --font-sans: 'DM Sans Variable', 'DM Sans', sans-serif;
-  --font-heading: 'DM Sans Variable', 'DM Sans', sans-serif;
-  --font-display: 'Newsreader Variable', 'Newsreader', Georgia, serif;
+  /* Fonts are self-hosted, not fetched from Google — see src/main.tsx for why. */
+  --font-sans: 'DM Sans', sans-serif;
+  --font-heading: 'DM Sans', sans-serif;
+  --font-display: 'Newsreader', Georgia, serif;
 
   --color-white: var(--strong);
   --color-black: var(--deep);
