@@ -94,7 +94,7 @@ still carries the parts listed under "What an invite post looks like", whatever 
 | Somebody can look for this | The front page at chargingthefuture.com lets anybody tap a need and see how many people on the list could help, with no account, and an unmatched need is noted. This person is in those counts. Never claim a specific visitor searched for them | `see-who-could-help-without-an-account.md` | Skills behind the front page's needs: a job, food, housing, health care, legal help, a ride, childcare, someone to talk to |
 | What is left of a day | A small task toward somebody else's goal, done with what is left of a day, is how the Goals board works, and a skill makes the task possible | `the-lit-country.md`, the Goals board | Skills that break into small tasks someone could do from a phone |
 | You do not owe me anything | A trafficker's stance is that a stranger already owes them. The list's is the opposite: being on it costs nothing and asks for nothing back | `you-dont-owe-me-anything.md` | Somebody whose public writing is wary of offers that come with strings |
-| In every country | The answer is never one walled place, because the people it is for are in every country. A listing outside the United States is a hearth somewhere the map is dark | `the-lit-country.md` | A listing outside the United States |
+| In every country | The answer is never one walled place, because the people it is for are in every country. | `the-lit-country.md` | A listing outside the United States |
 
 ## First rotation (2026-08-20 to 2026-10-14, rested)
 
