@@ -22,6 +22,8 @@ Health care is one of the places where the first of those is felt most. The inta
 
 Tired Of Being A TI (https://www.quora.com/profile/tired-of-being-a-ti), in the United States. The Directory profile is at https://app.chargingthefuture.com/apps/directory/profile/6c7f3265-7d8f-47c6-877f-81f703325aa6.
 
+![Tired Of Being A TI's Directory listing in the app, captured October 13, 2026. The heading reads Tired Of Being A TI, below it "Community-generated profile" and "Nominated by @farah", then the tags Health and Nurses, and the location United States. A button reads View Quora profile. Under the heading ABOUT it reads Former LPN and admissions/Utilization review. Under the heading SPECIALIZATIONS are seven entries: Medication administration; Patient assessment and monitoring; Patient education and triage; Wound care and procedures; Patient communication; Patient intake and registration; Records management. A box at the bottom headed Want to work together? reads: The directory shows who is in the community and what they do. Want a service or good from this person? Look for them in Foundation, where members offer and exchange help — or browse Foundation to find someone else who can.](images/tired-of-being-a-ti-directory-profile-2026-10-13.jpg)
+
 The listing describes them as a former LPN, a licensed practical nurse, who also worked in admissions and utilization review, which is checking whether a treatment or a hospital stay meets the criteria to be covered. It carries seven specializations:
 
 - Medication administration: giving the right medicine, in the right dose, at the right time.
