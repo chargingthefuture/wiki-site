@@ -1,7 +1,7 @@
 # Invite queue
 
 An invite post is written for one person who is already listed in the Directory, and it names what
-they actually do. Thirty-one have been published. This file tracks who is next, what has gone out, and
+they actually do. Thirty-two have been published. This file tracks who is next, what has gone out, and
 the two rules that keep the series readable.
 
 The list of people comes from `/admin/directory/invite-queue` in the app — reachable from the
@@ -145,6 +145,7 @@ unless the owner brings it back.
 | Tired Of Being A TI | tired-of-being-a-ti | an-invitation-to-tired-of-being-a-ti.md | Former LPN with seven nursing, intake and records skills, against the clinic as one of the places the first of two things is felt; Health at 53 of 96 | 2026-10-13 |
 | Andre Kovacs | andre-kovacs-1 | an-invitation-to-andre.md | Machining from blueprint to inspection, and copywriting, editing and technical writing beside it; Manufacturing & Industry at 16 of 28 | 2026-10-14 |
 | Ms Thompson | ms-thompson-11 | an-invitation-to-ms-thompson.md | Three legal skills and mechanical and electrical repair, on the listing already existing before anybody asked; Public Safety & Justice at 4 of 22 | 2026-10-14 |
+| DC | dc-1341 | an-invitation-to-dc.md | Hotel work, guest services, room preparation and complaints, from the United Kingdom, against the answer being in every country; Tourism & Hospitality at 8 of 16 | 2026-10-14 |
 
 When a post merges, add its row here and add the handle in two places in the product repository,
 in the same piece of work: the `DIRECTORY_INVITE_ALREADY_WRITTEN` array in
@@ -184,6 +185,7 @@ needed to write the next posts, because the copied list itself is never committe
 | Tired Of Being A TI | tired-of-being-a-ti | Medication administration; patient assessment and monitoring; patient education and triage; wound care and procedures; patient communication; patient intake and registration; records management; former LPN, admissions and utilization review; United States | skill-specific | Two things have to be true | published — Health held 53 of 96 and Professional & Business Services 21 of 52 on the 2026-10-14 read (312 people, 260 of 713) |
 | Andre Kovacs | andre-kovacs-1 | Blueprint reading and interpretation; CNC operation and programming; dimensional inspection and tolerances; machine setup and calibration; machine tool operation; copywriting; writing; editing and style-guide enforcement; persuasive and technical writing; SEO copy and content strategy; Galt, California | skill-specific | A working economy needs people who | published — Manufacturing & Industry held 16 of 28, Creative & Media 36 of 92 and Professional & Business Services 21 of 52 on the 2026-10-14 read (312 people, 260 of 713) |
 | Ms Thompson | ms-thompson-11 | Case preparation and negotiation; contract and statutory interpretation; legal advocacy and advice; mechanical and electrical repair; United States | skill-specific | You already have a profile | published — Public Safety & Justice held 4 of 22, Energy & Utilities 6 of 20 and Manufacturing & Industry 16 of 28 on the 2026-10-14 read (312 people, 260 of 713) |
+| DC | dc-1341 | Complaint handling; guest services and reservation systems; room preparation and cleanliness standards; United Kingdom | skill-specific | In every country (second rotation) | published — Tourism & Hospitality held 8 of 16 on the 2026-10-14 read (312 people, 260 of 713) |
 
 Status is one of: `queued`, `drafted`, `in PR`, `published`, `skipped`. A skipped row keeps its
 reason in the notes column so nobody re-queues it a month later.
