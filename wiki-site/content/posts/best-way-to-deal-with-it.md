@@ -1,9 +1,9 @@
 ---
 title: "The best way to deal with it, in order"
 date: "2026-10-13"
-excerpt: "A question on Quora asks for the best way to deal with it. No way I know of ends it. What I can give is an order: five things, the cheapest first, each one making the next easier."
+excerpt: "A question on Quora asks for the best way to deal with it. No way I know of ends it. What I can give is an order: four things, the cheapest first, each one making the next easier."
 category: "Community"
-teaser: "A question on Quora asked for the best way to deal with it. No method I know of ends it, so the best way is an order rather than a single trick. First, write each incident down with the date and then put it down. Second, take your accounts back, one at a time, from a device you trust. Third, stop supplying what the incidents are staged to produce. Fourth, move what you depend on, your work, your room, your rides, to people who are not part of it. Fifth, stay in touch with other survivors, including in the quiet years. The first three need nobody else; the last two are what this economy is for."
+teaser: "A question on Quora asked for the best way to deal with it. No method I know of ends it, so the best way is an order rather than a single trick. First, write each incident down with the date and then put it down. Second, stop supplying what the incidents are staged to produce. Third, move what you depend on, your work, your room, your rides, to people who are not part of it. Fourth, stay in touch with other survivors, including in the quiet years. The first two need nobody else; the last two are what this economy is for."
 topics:
   - clicklog
   - community
@@ -18,7 +18,9 @@ The question is at https://www.quora.com/What-is-the-best-way-to-deal-with-organ
 
 ![The question on its Quora page, captured October 13, 2026. The heading reads: What is the best way to deal with organized stalking/gang stalking/electronic harassment? Below it, under Asked by, the name Quora Prompt Generator. Under Question stats: 1.2K views, last requested Jul 9, 2023. Below that, the question record: Question added by Quora Prompt Generator, number 3023846164, Thank, Report, July 9, 2023 at 6:07:25 PM.](images/quora-prompt-generator-question-2026-10-13.jpg)
 
-[What can be stopped](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-can-be-stopped) gave the hard half of the answer. No method I know of has ended it, mine included, and a quiet stretch is not an ending. So the best way to deal with it is not a single method. It is an order: five things, the cheapest first, each one making the next one easier.
+[What can be stopped](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-can-be-stopped) gave the hard half of the answer. No method I know of has ended it, mine included, and a quiet stretch is not an ending. So the best way to deal with it is not a single method. It is an order: four things, the cheapest first, each one making the next one easier.
+
+For energy weapons I do not have an answer, and I said so in [What protects you from energy weapons? I am asking](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-protects-you-from-energy-weapons).
 
 ## 1. Write it down, then put it down
 
@@ -28,36 +30,29 @@ This comes first because it costs the least and it settles your own doubt before
 
 Then put it down. Once it is written, you do not have to carry it, and an hour spent replaying an incident is an hour it took.
 
-## 2. Take your accounts back
-
-The electronic part most people can do something about is their accounts. From a device you trust, one account at a time, starting with your email, because every other account resets through it: a new password, two-step sign-in, sign out every device you do not recognize, and check the recovery phone number and address. [Proving it, and taking your accounts back](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/proving-it-and-taking-your-accounts-back) walks through it.
-
-For energy weapons I do not have an answer, and I said so in [What protects you from energy weapons? I am asking](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-protects-you-from-energy-weapons). [WhatWorks](https://app.chargingthefuture.com/apps/what-works) is where survivors list the tools that helped them, organized by problem, each with a count of the people who said it helped.
-
-## 3. Stop supplying what it is for
+## 2. Stop supplying what it is for
 
 A smear is built so that answering it is the trap. Arguing it down produces more of it, and a fight in public produces the footage it was staged for. [You cannot argue a smear down](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/you-cannot-argue-a-smear-down) covers what works instead: a dated record, visible work, and people who know you because you helped them.
 
 Not reacting will not end it either. Ignoring it for thirty-four years changed nothing for me. But whether there is a scene to film is the one part of a staged incident that is yours to decide.
 
-## 4. Move what you depend on
+## 3. Move what you depend on
 
 Being watched is not what gives somebody power over you. Needing something from them is. Who you work for, who rents you a room, who fixes your car, who drives you: each one is a choice about whose hands your week runs through.
 
-This is the largest of the five and the slowest, which is why it is fourth. It is also why this project is an economy. The [Directory](https://app.chargingthefuture.com/apps/directory) lists survivors and what they can do, [Foundation](https://app.chargingthefuture.com/apps/foundation) is where people offer their work and reach each other directly, and [LightHouse](https://app.chargingthefuture.com/apps/lighthouse) is rooms offered by survivors to survivors. If what you need is not on any of them yet, put it on the PeerProgramming Goals board, where anybody can take a small part of it.
+This is the largest of the four and the slowest, which is why it is third. It is also why this project is an economy. The [Directory](https://app.chargingthefuture.com/apps/directory) lists survivors and what they can do, [Foundation](https://app.chargingthefuture.com/apps/foundation) is where people offer their work and reach each other directly, and [LightHouse](https://app.chargingthefuture.com/apps/lighthouse) is rooms offered by survivors to survivors. If what you need is not on any of them yet, put it on the PeerProgramming Goals board, where anybody can take a small part of it.
 
-## 5. Stay connected, especially when it is quiet
+## 4. Stay connected, especially when it is quiet
 
 A quiet stretch is when people drift into having nobody, and a name on the list is not taken off. [Commons](https://app.chargingthefuture.com) is the group chat, full of people who do not need it explained. [Where to go for help](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/where-to-go-for-help) lists who helps with what.
 
 ## Why this order
 
-The first three need nobody else's agreement and can start today. The fourth needs other people, and the fifth keeps them there. A person who starts with the fourth, before they have a record or their own email back, is building on ground somebody else still controls.
+The first two need nobody else's agreement and can start today. The third needs other people, and the fourth keeps them there.
 
 ## Where to find it in the app
 
 - [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [WhatWorks](https://app.chargingthefuture.com/apps/what-works) — [guide](https://app.chargingthefuture.com/guide#what-works)
 - [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
 - [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
 - [LightHouse](https://app.chargingthefuture.com/apps/lighthouse) — [guide](https://app.chargingthefuture.com/guide#lighthouse)
