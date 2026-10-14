@@ -1,7 +1,7 @@
 # Invite queue
 
 An invite post is written for one person who is already listed in the Directory, and it names what
-they actually do. Twenty-nine have been published. This file tracks who is next, what has gone out, and
+they actually do. Thirty have been published. This file tracks who is next, what has gone out, and
 the two rules that keep the series readable.
 
 The list of people comes from `/admin/directory/invite-queue` in the app — reachable from the
@@ -124,6 +124,7 @@ Rotate these. Each is a way into the same invitation; none of them is a template
 | Bev | Bev-419 | an-invitation-to-bev.md | Blueprint reading, manufacturing and quality checks, against Estonia in 1991; Manufacturing & Industry at 14 of 28 | 2026-10-11 |
 | King Unique | king-unique-4 | an-invitation-to-king-unique.md | Auditing, bookkeeping, tax and budgeting, against an economy needing books anybody can check | 2026-10-11 |
 | Tired Of Being A TI | tired-of-being-a-ti | an-invitation-to-tired-of-being-a-ti.md | Former LPN with seven nursing, intake and records skills, against the clinic as one of the places the first of two things is felt; Health at 53 of 96 | 2026-10-13 |
+| Andre Kovacs | andre-kovacs-1 | an-invitation-to-andre.md | Machining from blueprint to inspection, and copywriting, editing and technical writing beside it; Manufacturing & Industry at 16 of 28 | 2026-10-14 |
 
 When a post merges, add its row here and add the handle in two places in the product repository,
 in the same piece of work: the `DIRECTORY_INVITE_ALREADY_WRITTEN` array in
@@ -161,6 +162,7 @@ needed to write the next posts, because the copied list itself is never committe
 | Bev | Bev-419 | Blueprint reading and interpretation; technical drawing interpretation; quality control and precision work; manufacturing; assembly and packaging; equipment troubleshooting; product inspection and testing; quality checks; advocacy; Canada | skill-specific | Estonia, 1991 | published — Manufacturing & Industry held 14 of 28 on the 2026-10-11 read (311 people, 255 of 713) |
 | King Unique | king-unique-4 | Auditing and internal controls; financial reporting and bookkeeping; tax compliance; budgeting and personal finance education; financial modeling and cashflow management; financial planning and budgeting; financial record-keeping and transparency; financial risk assessment; Melbourne, Australia | skill-specific | A working economy needs people who | published — Finance & Public Administration held 9 of 34 and Microfinance & SME Support 5 of 24 on the 2026-10-11 read (311 people, 255 of 713) |
 | Tired Of Being A TI | tired-of-being-a-ti | Medication administration; patient assessment and monitoring; patient education and triage; wound care and procedures; patient communication; patient intake and registration; records management; former LPN, admissions and utilization review; United States | skill-specific | Two things have to be true | published — Health held 53 of 96 and Professional & Business Services 21 of 52 on the 2026-10-14 read (312 people, 260 of 713) |
+| Andre Kovacs | andre-kovacs-1 | Blueprint reading and interpretation; CNC operation and programming; dimensional inspection and tolerances; machine setup and calibration; machine tool operation; copywriting; writing; editing and style-guide enforcement; persuasive and technical writing; SEO copy and content strategy; Galt, California | skill-specific | A working economy needs people who | published — Manufacturing & Industry held 16 of 28, Creative & Media 36 of 92 and Professional & Business Services 21 of 52 on the 2026-10-14 read (312 people, 260 of 713) |
 
 Status is one of: `queued`, `drafted`, `in PR`, `published`, `skipped`. A skipped row keeps its
 reason in the notes column so nobody re-queues it a month later.
