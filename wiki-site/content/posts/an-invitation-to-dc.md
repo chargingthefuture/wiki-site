@@ -18,6 +18,8 @@ Most of the people on the list are in the United States. Every one somewhere els
 
 DC (https://www.quora.com/profile/dc-1341), in the United Kingdom. The Directory profile is at https://app.chargingthefuture.com/apps/directory/profile/af97b9bb-01dd-4eda-a280-0b318d46d527.
 
+![DC's Directory listing in the app, captured October 14, 2026. The heading reads DC, below it "Community-generated profile" and "Nominated by @farah", then the tags Tourism & Hospitality and Hotel Staff (front desk, housekeeping), and the location United Kingdom. A button reads View Quora profile. Under the heading SPECIALIZATIONS are three entries: Complaint handling; Guest services and reservation systems; Room preparation and cleanliness standards. A box at the bottom headed Want to work together? reads: The directory shows who is in the community and what they do. Want a service or good from this person? Look for them in Foundation, where members offer and exchange help — or browse Foundation to find someone else who can.](images/dc-directory-profile-2026-10-14.jpg)
+
 The listing carries three specializations, all from hotel work:
 
 - Guest services and reservation systems: taking a booking, keeping it straight, and looking after somebody while they stay.
