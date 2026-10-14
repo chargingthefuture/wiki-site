@@ -57,19 +57,10 @@ I also used to think coordination was the only solution. I no longer think it is
 
 Two years of this reads as advanced. It was one turn, held daily, from outside. Nothing in it required anything another survivor does not have — no credentials, no money, no permission, no address. And the next person does not have to buy the turn at the price I paid: the nine months are on the public record to be skipped, and the tools the turn produced are running now. You do not have to start where I started. You can start where this ends.
 
-## A worked sample
-
-One of my own goals is a yard jockey job in Texas. Here it is placed on the Skills Taxonomy, with how many people on the skills map hold each skill it needs.
-
-![A worked sample, details removed. The goal: A yard jockey job in Texas. Sector: Transport & Logistics. Job title: Truck Drivers. Vehicle operation and safety, 2 on the skills map. Load securement, 4 on the skills map. Cards anyone can take, from a phone, in under half an hour: Find three yards hiring near Dallas and add their numbers. Ask one yard whether they hire new Class A holders without OTR miles. Find one warehouse in Houston that trains its own yard drivers. Counts: people on the skills map who hold that skill, 2026-10-13. Nobody is named.](images/yard-jockey-texas-sample-2026-10-13.png)
-
-The cards above are how a goal goes on the PeerProgramming Goals board, free in the Skills Economy, where anyone in the cohort can take one. [One Percent](https://farahbrunache.com) is the paid version of the same work, one-to-one: $7 for a first 30-minute session, after a short automated call, where the people behind these counts are matched by skill and introduced.
-
 ## Where to find it in the app
 
 - [Workforce](https://app.chargingthefuture.com/apps/workforce) — [guide](https://app.chargingthefuture.com/guide#workforce)
 - [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
 - [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
-- [PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming?tab=goals) — [guide](https://app.chargingthefuture.com/guide#peer-programming)
 
 To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

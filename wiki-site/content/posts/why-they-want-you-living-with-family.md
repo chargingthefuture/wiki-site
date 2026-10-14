@@ -61,20 +61,11 @@ I am not going to claim there is a listing waiting for everyone who needs one. T
 
 If you are in this arrangement now, the [Commons](https://app.chargingthefuture.com) is where people are. Not a hotline — I called one once, and what I got back was effectively an invitation to join the club. People who already understand the situation are a different proposition.
 
-## A worked sample
-
-One of my own goals is a yard jockey job in Texas. Here it is placed on the Skills Taxonomy, with how many people on the skills map hold each skill it needs.
-
-![A worked sample, details removed. The goal: A yard jockey job in Texas. Sector: Transport & Logistics. Job title: Truck Drivers. Vehicle operation and safety, 2 on the skills map. Load securement, 4 on the skills map. Cards anyone can take, from a phone, in under half an hour: Find three yards hiring near Dallas and add their numbers. Ask one yard whether they hire new Class A holders without OTR miles. Find one warehouse in Houston that trains its own yard drivers. Counts: people on the skills map who hold that skill, 2026-10-13. Nobody is named.](images/yard-jockey-texas-sample-2026-10-13.png)
-
-The cards above are how a goal goes on the PeerProgramming Goals board, free in the Skills Economy, where anyone in the cohort can take one. [One Percent](https://farahbrunache.com) is the paid version of the same work, one-to-one: $7 for a first 30-minute session, after a short automated call, where the people behind these counts are matched by skill and introduced.
-
 ## Where to find it in the app
 
 - [LightHouse](https://app.chargingthefuture.com/apps/lighthouse) — [guide](https://app.chargingthefuture.com/guide#lighthouse)
 - [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
 - [Commons](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
-- [PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming?tab=goals) — [guide](https://app.chargingthefuture.com/guide#peer-programming)
 
 The full schemes list is public: [chargingthefuture.com/schemes](https://www.chargingthefuture.com/schemes).
 
