@@ -39,15 +39,15 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
-    "slug": "who-pays-and-why-reporting-stops-working",
-    "title": "Who pays, and why reporting stops working",
+    "slug": "a-badge-is-a-job-title",
+    "title": "A badge is a job title",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-10-14",
-    "excerpt": "A question on Quora asks who pays the people doing this, and about the police. Most are paid in kind, not money. A report records one incident, and what this is built from is a pattern.",
+    "excerpt": "Jarrod B Emery asked on Quora who pays the people doing this, and about the police. Most are paid in kind. And a job title, a badge included, says nothing about the character of the person holding it.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/who-pays-and-why-reporting-stops-working.md",
-    "teaser": "A question on Quora asks who pays the people doing this, and why the police do not help. Most of the people taking part are not paid in money. They are paid in kind: a job, an apartment, friends, a favor, sex, drugs. The money is further up, laundered through the ordinary economy, and I do not name one payer, because it is a great many ordinary people in a distributed network of organized crime. As for reporting: a police report records an incident, and what a single report was not built to hold is the pattern. That is why the answer here is an economy rather than an appeal.",
+    "path": "posts/a-badge-is-a-job-title.md",
+    "teaser": "Jarrod B Emery asked on Quora who pays the people doing this, and why the police do not help. Most of the people taking part are paid in kind, a job, an apartment, a favor, and the money further up is laundered through the ordinary economy. The police half has a plainer answer than it seems: a badge is a job title, and a job title and the status that comes with it say nothing about the character of the person holding it. The Skills Economy exists to pair you with skilled people who do not turn a blind eye and do not join in.",
     "topics": [
       "specterati",
       "community",
