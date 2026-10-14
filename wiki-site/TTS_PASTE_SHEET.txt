@@ -1227,7 +1227,7 @@ Same as the 1% tab: this is arithmetic, not a forecast of anybody's income. What
 
 proving-it-and-taking-your-accounts-back
 
-Proving it, and taking your accounts back.
+Proving it, when you know who started it.
 
 A question on Quora, asked by Jane Doe:
 
@@ -1250,17 +1250,6 @@ One incident can be denied. A pattern is much harder to deny.
 Write down what happens, with the date, as it happens: what, when, where, and who if you know. ClickLog takes about fifteen seconds an incident, and your notes are not shown to anyone else here. Names belong in your own record, not on a public page. Over months, the record is what shows the pattern, to you first.
 
 If you are thinking of reporting it, Who to report it to is my answer to that question. None of this is legal advice.
-
-Taking your accounts back.
-
-Accounts come back one at a time, from a device you trust.
-
-Start with your email. Every other account resets its password through it, so whoever holds your email can take the rest back after you.
-Give each account its own new password, and turn on two-step sign-in, where a code is needed as well as the password.
-Every major account has a list of the devices signed into it. Sign out every one you do not recognize.
-Check the recovery phone number and the backup email on each account. Somebody who changed those can take the account back after you change the password.
-
-WhatWorks is a list of tools other survivors have checked, organized by the problem they solve.
 
 Not on your own.
 
@@ -1789,7 +1778,7 @@ How do prove I'm being gangstalked?
 
 The Dictionary carries the words I use for this instead.
 
-Proving it, and taking your accounts back answered the how. One incident can be denied, and a pattern is much harder to deny, so write down what happens, with the date, as it happens: what, when, where, and who if you know. That record is the proof in every case below.
+Proving it, when you know who started it answered the how. One incident can be denied, and a pattern is much harder to deny, so write down what happens, with the date, as it happens: what, when, where, and who if you know. That record is the proof in every case below.
 
 What it proves depends on who it is for.
 

@@ -14,60 +14,74 @@ regenerate, or the two will disagree and the post is the one that is right.
 134 posts.
 
 ==============================================================================
-2026-10-13 · The best way to deal with it, in order
+2026-10-13 · An invitation to Tired Of Being A TI
 
-A question on Quora, added by the Quora Prompt Generator on July 9, 2023:
+Two things have to be true for the targeting to work.
 
-What is the best way to deal with organized stalking/gang stalking/electronic harassment?
+The first is that the people around you can be reached. A neighbor, a landlord, a clerk, the front desk at a clinic. What you are told depends on who you ask, and whoever you ask can be reached first.
 
-The question is at https://www.quora.com/What-is-the-best-way-to-deal-with-organized-stalking-gang-stalking-electronic-harassment, with 1.2 thousand views. While nobody has answered it, Quora serves it at https://www.quora.com/unanswered/What-is-the-best-way-to-deal-with-organized-stalking-gang-stalking-electronic-harassment instead. Quora's own prompt generator posted it rather than a person, so there is nobody to credit by name. I am answering it because survivors ask the same thing in their own words: the saved Quora questions this blog works from carry several versions of it. The Dictionary (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary) carries the words I use for this; the question keeps the words it was asked in.
+The second follows from the first: given enough time, there is nobody left to turn to.
 
-[Screenshot — The question on its Quora page, captured October 13, 2026. The heading reads: What is the best way to deal with organized stalking/gang stalking/electronic harassment? Below it, under Asked by, the name Quora Prompt Generator. Under Question stats: 1.2K views, last requested Jul 9, 2023. Below that, the question record: Question added by Quora Prompt Generator, number 3023846164, Thank, Report, July 9, 2023 at 6:07:25 PM.]
+Health care is one of the places where the first of those is felt most. The intake desk, the person deciding how urgent you are, the record that follows you from one visit to the next. It is worth having people nearby who know how all of that works from the inside.
 
-What can be stopped (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-can-be-stopped) gave the hard half of the answer. No method I know of has ended it, mine included, and a quiet stretch is not an ending. So the best way to deal with it is not a single method. It is an order: four things, the cheapest first, each one making the next one easier.
+Tired Of Being A TI
 
-For energy weapons I do not have an answer, and I said so in What protects you from energy weapons? I am asking (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-protects-you-from-energy-weapons).
+Tired Of Being A TI (https://www.quora.com/profile/tired-of-being-a-ti), in the United States. The Directory profile is at https://app.chargingthefuture.com/apps/directory/profile/6c7f3265-7d8f-47c6-877f-81f703325aa6.
 
-1. Write it down, then put it down
+[Screenshot — Tired Of Being A TI's Directory listing in the app, captured October 13, 2026. The heading reads Tired Of Being A TI, below it "Community-generated profile" and "Nominated by @farah", then the tags Health and Nurses, and the location United States. A button reads View Quora profile. Under the heading ABOUT it reads Former LPN and admissions/Utilization review. Under the heading SPECIALIZATIONS are seven entries: Medication administration; Patient assessment and monitoring; Patient education and triage; Wound care and procedures; Patient communication; Patient intake and registration; Records management. A box at the bottom headed Want to work together? reads: The directory shows who is in the community and what they do. Want a service or good from this person? Look for them in Foundation, where members offer and exchange help — or browse Foundation to find someone else who can.]
 
-Each incident, as it happens: what, when, where, and who if you know. ClickLog (https://app.chargingthefuture.com/apps/click-log) takes about fifteen seconds, and your notes stay yours.
+The listing describes them as a former LPN, a licensed practical nurse, who also worked in admissions and utilization review, which is checking whether a treatment or a hospital stay meets the criteria to be covered. It carries seven specializations:
 
-This comes first because it costs the least and it settles your own doubt before anybody else's. One incident can be denied. A pattern written down over months is much harder to deny, and the same record serves (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/prove-it-to-whom) whoever it turns out to be for.
+- Medication administration: giving the right medicine, in the right dose, at the right time.
+- Patient assessment and monitoring: checking how somebody is doing and noticing when that changes.
+- Patient education and triage: deciding how urgent a problem is, and explaining to a patient what to do next.
+- Wound care and procedures: cleaning and dressing wounds, and the routine procedures a nurse carries out.
+- Patient communication: talking with patients so they understand their own care.
+- Patient intake and registration: getting a person admitted and their details recorded correctly.
+- Records management: keeping those records complete and in order.
 
-Then put it down. Once it is written, you do not have to carry it, and an hour spent replaying an incident is an hour it took.
+Why that matters here
 
-2. Stop supplying what it is for
+The app keeps a catalog of 713 skills, the things a working economy of about five million people needs somebody to be able to do, grouped by sector. Read on October 14, the Directory's 312 people held 260 of them.
 
-A smear is built so that answering it is the trap. Arguing it down produces more of it, and a fight in public produces the footage it was staged for. You cannot argue a smear down (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/you-cannot-argue-a-smear-down) covers what works instead: a dated record, visible work, and people who know you because you helped them.
+Where those skills sit in the catalog:
 
-Not reacting will not end it either. Ignoring it for thirty-four years changed nothing for me. But whether there is a scene to film is the one part of a staged incident that is yours to decide.
+- Six are filed under Health, under nurses and medical assistants. Health is one of the better covered sectors on the list: 53 of its 96 skills are held by anybody.
+- Records management is filed under administrative and office support in Professional and Business Services, where 21 of 52 are held.
 
-3. Move what you depend on
+A well covered sector still needs more than one person in it. Care happens where people are, and one nurse in one state is not much use to somebody three states away.
 
-Being watched is not what gives somebody power over you. Needing something from them is. Who you work for, who rents you a room, who fixes your car, who drives you: each one is a choice about whose hands your week runs through.
+What this is not
 
-This is the largest of the four and the slowest, which is why it is third. It is also why this project is an economy. The Directory (https://app.chargingthefuture.com/apps/directory) lists survivors and what they can do, Foundation (https://app.chargingthefuture.com/apps/foundation) is where people offer their work and reach each other directly, and LightHouse (https://app.chargingthefuture.com/apps/lighthouse) is rooms offered by survivors to survivors. If what you need is not on any of them yet, put it on the PeerProgramming Goals board, where anybody can take a small part of it.
+This is not a request to treat anybody, give medical advice or review anybody's records, and nothing here says Tired Of Being A TI will. Being on a list of what a person can do is not an offer of anything, and the Directory has never worked that way.
 
-4. Stay connected, especially when it is quiet
+How the listing came to be
 
-A quiet stretch is when people drift into having nobody, and a name on the list is not taken off. Commons (https://app.chargingthefuture.com) is the group chat, full of people who do not need it explained. Where to go for help (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/where-to-go-for-help) lists who helps with what.
+I built it from what Tired Of Being A TI said about themselves in public and put it up under their name, which is how most of this list was made, one person at a time. They did not sign up, and nobody asked them first. That is why it is marked community-generated and carries my handle: so anybody reading it knows it is my account of somebody else's skills, and knows who to come to about it.
 
-Why this order
+The invitation
 
-The first two need nobody else's agreement and can start today. The third needs other people, and the fourth keeps them there.
+Claiming the listing takes a free account and a few minutes, and after that it is theirs: what it says, and whether it stays up at all.
+
+Nothing else is required. Not using the rest of the app, not posting anything, not agreeing with a word I have written. No is a complete answer, and the listing comes down on request with no account involved in that either.
+
+This does not run one way
+
+Somebody whose work was looking after other people needs things too. A ride. A room. An hour of a trade they do not have. The listing that makes them findable makes those people findable to them, which is the second of the two things turned around: not nobody left, but somebody.
+
+Who is on the list
+
+Everyone written about in this series is a self-identified Targeted Individual. That means they said so in public, and it is the only basis for the listing. I cannot verify it, and neither can a reader. Some people who say it are not survivors, and some are the people doing the harassing, so a post here is not a vouch for anybody and should not be read as one. I am not responsible for what anyone named on this list does or says, on the app, on Quora, or anywhere else. The closest anybody can get to finding a real Targeted Individual is through the app, which admits people one at a time through Unlock and has other mechanisms in place to filter actively. Even with those, there is no such thing as a hundred percent.
 
 Where to find it in the app
 
-- ClickLog (https://app.chargingthefuture.com/apps/click-log) — guide (https://app.chargingthefuture.com/guide#click-log)
 - Directory (https://app.chargingthefuture.com/apps/directory) — guide (https://app.chargingthefuture.com/guide#directory)
-- Foundation (https://app.chargingthefuture.com/apps/foundation) — guide (https://app.chargingthefuture.com/guide#foundation)
-- LightHouse (https://app.chargingthefuture.com/apps/lighthouse) — guide (https://app.chargingthefuture.com/guide#lighthouse)
-- PeerProgramming (https://app.chargingthefuture.com/apps/peer-programming?tab=goals) — guide (https://app.chargingthefuture.com/guide#peer-programming)
-- Commons — the group chat (https://app.chargingthefuture.com) — guide (https://app.chargingthefuture.com/guide#commons)
+- Workforce (https://app.chargingthefuture.com/apps/workforce) — guide (https://app.chargingthefuture.com/guide#workforce)
+- Unlock (https://app.chargingthefuture.com/plugin/unlock) — guide (https://app.chargingthefuture.com/guide#unlock)
 
 To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
-Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/best-way-to-deal-with-it
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/an-invitation-to-tired-of-being-a-ti
 
 ==============================================================================
 2026-10-13 · See who could help you, before you make an account
@@ -609,7 +623,7 @@ How do prove I'm being gangstalked?
 
 The Dictionary (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary) carries the words I use for this instead.
 
-Proving it, and taking your accounts back (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/proving-it-and-taking-your-accounts-back) answered the how. One incident can be denied, and a pattern is much harder to deny, so write down what happens, with the date, as it happens: what, when, where, and who if you know. That record is the proof in every case below.
+Proving it, when you know who started it (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/proving-it-and-taking-your-accounts-back) answered the how. One incident can be denied, and a pattern is much harder to deny, so write down what happens, with the date, as it happens: what, when, where, and who if you know. That record is the proof in every case below.
 
 What it proves depends on who it is for.
 
@@ -1717,7 +1731,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-si
 ==============================================================================
 2026-10-02 · An invitation to Jane
 
-Jane Doe asked on Quora how to prove it, now that they know who started it, and how to take their accounts back. I answered in Proving it, and taking your accounts back (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/proving-it-and-taking-your-accounts-back).
+Jane Doe asked on Quora how to prove it, now that they know who started it. I answered in Proving it, when you know who started it (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/proving-it-and-taking-your-accounts-back).
 
 They do not have to agree with me about any of it: not the words I use, not who is doing it, not how far it reaches. The list this invitation is about has never asked that of anybody on it. It asks what a person can do, and makes them findable for it.
 
@@ -1759,7 +1773,7 @@ Nothing else is required. Not using the rest of the app, not posting anything, n
 
 This does not run one way
 
-Somebody whose work is other people's disputes needs things too. Jane asked how to take their accounts back, and an hour from somebody who secures accounts for a living is the kind of help the list exists to find. A ride. A room. An hour of a trade they do not have. The same listing that makes them findable is what makes those people findable to them.
+Somebody whose work is other people's disputes needs things too. A ride. A room. An hour of a trade they do not have. The same listing that makes them findable is what makes those people findable to them.
 
 Who is on the list
 
@@ -1777,7 +1791,7 @@ To sign up: https://chargingthefuture.com. It is free, everyone is let in one at
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/an-invitation-to-jane
 
 ==============================================================================
-2026-10-02 · Proving it, and taking your accounts back
+2026-10-02 · Proving it, when you know who started it
 
 A question on Quora, asked by Jane Doe (https://www.quora.com/profile/Jane-Doe-11966):
 
@@ -1801,17 +1815,6 @@ Write down what happens, with the date, as it happens: what, when, where, and wh
 
 If you are thinking of reporting it, Who to report it to (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/who-to-report-it-to) is my answer to that question. None of this is legal advice.
 
-Taking your accounts back
-
-Accounts come back one at a time, from a device you trust.
-
-- Start with your email. Every other account resets its password through it, so whoever holds your email can take the rest back after you.
-- Give each account its own new password, and turn on two-step sign-in, where a code is needed as well as the password.
-- Every major account has a list of the devices signed into it. Sign out every one you do not recognize.
-- Check the recovery phone number and the backup email on each account. Somebody who changed those can take the account back after you change the password.
-
-WhatWorks (https://app.chargingthefuture.com/apps/what-works) is a list of tools other survivors have checked, organized by the problem they solve.
-
 Not on your own
 
 The Commons (https://app.chargingthefuture.com) is a group chat of other Targeted Individuals, in the app. Nobody there needs the first hour spent on whether it is happening.
@@ -1819,7 +1822,6 @@ The Commons (https://app.chargingthefuture.com) is a group chat of other Targete
 Where to find it in the app
 
 - ClickLog (https://app.chargingthefuture.com/apps/click-log) — guide (https://app.chargingthefuture.com/guide#click-log)
-- WhatWorks (https://app.chargingthefuture.com/apps/what-works) — guide (https://app.chargingthefuture.com/guide#what-works)
 - Commons — the group chat (https://app.chargingthefuture.com) — guide (https://app.chargingthefuture.com/guide#commons)
 
 To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

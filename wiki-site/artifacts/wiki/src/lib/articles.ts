@@ -39,19 +39,19 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
-    "slug": "best-way-to-deal-with-it",
-    "title": "The best way to deal with it, in order",
+    "slug": "an-invitation-to-tired-of-being-a-ti",
+    "title": "An invitation to Tired Of Being A TI",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-10-13",
-    "excerpt": "A question on Quora asks for the best way to deal with it. No way I know of ends it. What I can give is an order: four things, the cheapest first, each one making the next easier.",
+    "excerpt": "The targeting works because the people around you can be reached, and the clinic is one of those places. Tired Of Being A TI is listed as a former LPN, for nursing care, patient intake and records.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/best-way-to-deal-with-it.md",
-    "teaser": "A question on Quora asked for the best way to deal with it. No method I know of ends it, so the best way is an order rather than a single trick. First, write each incident down with the date and then put it down. Second, stop supplying what the incidents are staged to produce. Third, move what you depend on, your work, your room, your rides, to people who are not part of it. Fourth, stay in touch with other survivors, including in the quiet years. The first two need nobody else; the last two are what this economy is for.",
+    "path": "posts/an-invitation-to-tired-of-being-a-ti.md",
+    "teaser": "Two things have to be true for the targeting to work: the people around you can be reached, and in time there is nobody left to turn to. A clinic is one of the places where the first is felt most, from the intake desk to the record that follows a person from visit to visit. Tired Of Being A TI is listed in the Directory as a former LPN who also worked in admissions and utilization review, with seven skills from giving medication and wound care to patient intake and records. This is an invitation to claim the listing, and no is a complete answer.",
     "topics": [
-      "clicklog",
       "community",
-      "directory"
+      "directory",
+      "workforce"
     ],
     "number": 441
   },
@@ -511,11 +511,11 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "An invitation to Jane",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-10-02",
-    "excerpt": "Jane asked how to prove it and how to take their accounts back. The list this invitation is about has never needed anybody to agree with me.",
+    "excerpt": "Jane asked how to prove it. The list this invitation is about has never needed anybody to agree with me.",
     "category": "Community",
     "collection": "posts",
     "path": "posts/an-invitation-to-jane.md",
-    "teaser": "It is an invitation to join the Skills Economy. Jane asked on Quora how to prove it and how to take their accounts back. They do not have to agree with me about any of it: the list has never asked that of anybody. Their Directory listing carries three legal skills: preparing and negotiating a case, reading what a contract or a law actually says, and standing for somebody. On October 1, 1 of the 22 skills in the sector that holds lawyers was held by anybody.",
+    "teaser": "It is an invitation to join the Skills Economy. Jane asked on Quora how to prove it. They do not have to agree with me about any of it: the list has never asked that of anybody. Their Directory listing carries three legal skills: preparing and negotiating a case, reading what a contract or a law actually says, and standing for somebody. On October 1, 1 of the 22 skills in the sector that holds lawyers was held by anybody.",
     "topics": [
       "community",
       "directory",
@@ -525,14 +525,14 @@ export const ARTICLES: ArticleMeta[] = [
   },
   {
     "slug": "proving-it-and-taking-your-accounts-back",
-    "title": "Proving it, and taking your accounts back",
+    "title": "Proving it, when you know who started it",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-10-02",
-    "excerpt": "Somebody asked on Quora how to prove an ex started this, and how to unhack everything. A dated record proves the pattern. Your accounts come back one at a time.",
+    "excerpt": "Somebody asked on Quora how to prove it, now that they know an ex started it. Knowing the name does not end it. A dated record proves the pattern.",
     "category": "Community",
     "collection": "posts",
     "path": "posts/proving-it-and-taking-your-accounts-back.md",
-    "teaser": "Somebody asked on Quora how to prove it, now that they know an ex started it, and how to unhack everything. Who started it matters to a point; after that, everybody who joins runs the same schemes, and knowing the name does not end it by itself. What proves it is a dated record kept as it happens, because one incident can be denied and a pattern is much harder to. And accounts come back one at a time, starting with your email, from a device you trust.",
+    "teaser": "Somebody asked on Quora how to prove it, now that they know an ex started it. Who started it matters to a point; after that, everybody who joins runs the same schemes, and knowing the name does not end it by itself. What proves it is a dated record kept as it happens, because one incident can be denied and a pattern is much harder to.",
     "topics": [
       "specterati",
       "clicklog",
