@@ -857,6 +857,15 @@ PeerProgramming then goes into "Where to find it in the app":
 
 Paste sheets: the PNG attaches natively, like screenshots. In the text-to-speech sheet, read the image as its alt text.
 
+The backfill of 2026-10-13 put one shared sample in all 130 posts in scope: the case
+`scripts/map-sample/cases/yard-jockey-texas.json` and its image
+`content/images/yard-jockey-texas-sample-2026-10-13.png`, in a section headed "A worked sample" placed
+before "Where to find it in the app". The two living pages, `Dictionary.md` and
+`old-links-new-links.md`, are reference pages and carry no sample. A new post that uses the
+default goal may reuse that image while its counts are current; when the counts move, write a new
+case with a new `asOf` and a new image rather than overwriting the old one, so a post published
+earlier still shows what was true on its date.
+
 The renderer is `scripts/map-sample/map-sample.mjs` (fonts and their OFL licenses in
 `scripts/map-sample/fonts/`, `@resvg/resvg-js` pinned at 2.6.2 in `scripts/package.json`).
 
