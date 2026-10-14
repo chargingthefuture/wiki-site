@@ -1,16 +1,16 @@
 ---
 title: "An invitation to Jane"
 date: "2026-10-02"
-excerpt: "Jane asked how to prove it and how to take their accounts back. The list this invitation is about has never needed anybody to agree with me."
+excerpt: "Jane asked how to prove it. The list this invitation is about has never needed anybody to agree with me."
 category: "Community"
-teaser: "It is an invitation to join the Skills Economy. Jane asked on Quora how to prove it and how to take their accounts back. They do not have to agree with me about any of it: the list has never asked that of anybody. Their Directory listing carries three legal skills: preparing and negotiating a case, reading what a contract or a law actually says, and standing for somebody. On October 1, 1 of the 22 skills in the sector that holds lawyers was held by anybody."
+teaser: "It is an invitation to join the Skills Economy. Jane asked on Quora how to prove it. They do not have to agree with me about any of it: the list has never asked that of anybody. Their Directory listing carries three legal skills: preparing and negotiating a case, reading what a contract or a law actually says, and standing for somebody. On October 1, 1 of the 22 skills in the sector that holds lawyers was held by anybody."
 topics:
   - community
   - directory
   - workforce
 ---
 
-Jane Doe asked on Quora how to prove it, now that they know who started it, and how to take their accounts back. I answered in [Proving it, and taking your accounts back](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/proving-it-and-taking-your-accounts-back).
+Jane Doe asked on Quora how to prove it, now that they know who started it. I answered in [Proving it, when you know who started it](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/proving-it-and-taking-your-accounts-back).
 
 They do not have to agree with me about any of it: not the words I use, not who is doing it, not how far it reaches. The list this invitation is about has never asked that of anybody on it. It asks what a person can do, and makes them findable for it.
 
@@ -52,7 +52,7 @@ Nothing else is required. Not using the rest of the app, not posting anything, n
 
 ## This does not run one way
 
-Somebody whose work is other people's disputes needs things too. Jane asked how to take their accounts back, and an hour from somebody who secures accounts for a living is the kind of help the list exists to find. A ride. A room. An hour of a trade they do not have. The same listing that makes them findable is what makes those people findable to them.
+Somebody whose work is other people's disputes needs things too. A ride. A room. An hour of a trade they do not have. The same listing that makes them findable is what makes those people findable to them.
 
 ## Who is on the list
 
