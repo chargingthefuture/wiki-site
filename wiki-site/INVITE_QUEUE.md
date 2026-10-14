@@ -146,6 +146,7 @@ unless the owner brings it back.
 | Andre Kovacs | andre-kovacs-1 | an-invitation-to-andre.md | Machining from blueprint to inspection, and copywriting, editing and technical writing beside it; Manufacturing & Industry at 16 of 28 | 2026-10-14 |
 | Ms Thompson | ms-thompson-11 | an-invitation-to-ms-thompson.md | Three legal skills and mechanical and electrical repair, on the listing already existing before anybody asked; Public Safety & Justice at 4 of 22 | 2026-10-14 |
 | DC | dc-1341 | an-invitation-to-dc.md | Hotel work, guest services, room preparation and complaints, from the United Kingdom, against the answer being in every country; Tourism & Hospitality at 8 of 16 | 2026-10-14 |
+| Ric Vaughn | ric-vaughn | an-invitation-to-ric.md | Three legal skills, against anybody being able to tap Legal help on the front page and see a count they are part of; Public Safety & Justice at 4 of 22 | 2026-10-14 |
 
 When a post merges, add its row here and add the handle in two places in the product repository,
 in the same piece of work: the `DIRECTORY_INVITE_ALREADY_WRITTEN` array in
@@ -186,6 +187,7 @@ needed to write the next posts, because the copied list itself is never committe
 | Andre Kovacs | andre-kovacs-1 | Blueprint reading and interpretation; CNC operation and programming; dimensional inspection and tolerances; machine setup and calibration; machine tool operation; copywriting; writing; editing and style-guide enforcement; persuasive and technical writing; SEO copy and content strategy; Galt, California | skill-specific | A working economy needs people who | published — Manufacturing & Industry held 16 of 28, Creative & Media 36 of 92 and Professional & Business Services 21 of 52 on the 2026-10-14 read (312 people, 260 of 713) |
 | Ms Thompson | ms-thompson-11 | Case preparation and negotiation; contract and statutory interpretation; legal advocacy and advice; mechanical and electrical repair; United States | skill-specific | You already have a profile | published — Public Safety & Justice held 4 of 22, Energy & Utilities 6 of 20 and Manufacturing & Industry 16 of 28 on the 2026-10-14 read (312 people, 260 of 713) |
 | DC | dc-1341 | Complaint handling; guest services and reservation systems; room preparation and cleanliness standards; United Kingdom | skill-specific | In every country (second rotation) | published — Tourism & Hospitality held 8 of 16 on the 2026-10-14 read (312 people, 260 of 713) |
+| Ric Vaughn | ric-vaughn | Case preparation and negotiation; contract and statutory interpretation; legal advocacy and advice; United States | skill-specific | Somebody can look for this (second rotation) | published — Public Safety & Justice held 4 of 22 on the 2026-10-14 read (321 people, 260 of 713). Merges after the 00 invite with an ordinary post between them |
 
 Status is one of: `queued`, `drafted`, `in PR`, `published`, `skipped`. A skipped row keeps its
 reason in the notes column so nobody re-queues it a month later.

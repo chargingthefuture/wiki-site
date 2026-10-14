@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-ric",
+    "title": "An invitation to Ric",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-14",
+    "excerpt": "Anybody can tap Legal help on chargingthefuture.com and see how many people could help, with no account. Ric Vaughn is one of the people in that count.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-ric.md",
+    "teaser": "The front page at chargingthefuture.com lets anybody tap what they need and see how many people on the list could help, with no account and no name given. One of the choices is legal help. Ric Vaughn has a Directory listing for preparing and negotiating a case, reading what a contract or a law actually says, and legal advocacy, and is one of the people that count is made of. Across the list, 4 of the 22 public safety and justice skills the app tracks are held by anybody. This is an invitation to claim the listing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 450
+  },
+  {
     "slug": "it-goes-after-the-children",
     "title": "It goes after the children",
     "repo": "chargingthefuture/wiki-site",
