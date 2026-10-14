@@ -364,7 +364,7 @@ follows it.
 - [ ] Where is a good place country to go when you are targeted individuals 1 — bookmarked · zersetzung
 - [ ] Why would these stalkerazzi be interested when you sleep 1 — bookmarked · realgangstalkingvictimsandevidence
 - [ ] I know the name and address of the stalker What would you recommend I do now 3 — bookmarked · realgangstalkingvictimsandevidence
-- [ ] Who pays the gangstalkers Specifically the ones out there on the streets we all know the ones I feel by now I should 1 — bookmarked · realgangstalkingvictimsandevidence
+- [x] Who pays the gangstalkers Specifically the ones out there on the streets we all know the ones I feel by now I should 1 — bookmarked · realgangstalkingvictimsandevidence
 - [ ] If I might be a targeted individual how do I ask to be taken off the terrorist watch list if I am in CA 2 — bookmarked · uspsyopstargetedindividuals
 - [ ] Who is financially profiting the most from Gangstalkings existence 2 — bookmarked · gangstalkedwhatmademeatarget
 
@@ -437,7 +437,7 @@ follows it.
 - [x] The gang stalkers are always starting physical fights with me on the street. Obviously to slander me to new recruits. Today I had to push one off of me as they were threatening to hit me with a glass bottle. It has been several years of the physical fights and it is only escalating. The last fight they threw a full soda can at the back of my head. Any advice? Should I start live streaming? The have been asking me to call the police. And that is likely also part of their game. — submitted to a space · Zersetzung - Decomposition Psychology · saved 8 times
 - [x] The gang stalkers are always starting physical fights with me on the street Obviously to slander me to new recruits To 1 — shared into a space · Zersetzung - Decomposition Psychology
 - [x] The gang stalkers are always starting physical fights with me on the street. Obviously to slander me to new recruits. Today one threatened to hit me with a glass bottle. It has been several years of this and they are escalating. The last fight they threw a full soda can at the back of my head. Any advice? Should I start live streaming? The have been asking me to call the police. And that is likely also part of their game. — submitted to a space · Zersetzung - Decomposition Psychology
-- [ ] Why is the police involved in gang stalking Are they supposed to protect us — bookmarked · saved 2 times
+- [x] Why is the police involved in gang stalking Are they supposed to protect us — bookmarked · saved 2 times
 - [ ] Could a targeted individual be also active in gang stalking — bookmarked
 - [ ] Is gang stalking the end to a target s life — bookmarked · saved 2 times
 

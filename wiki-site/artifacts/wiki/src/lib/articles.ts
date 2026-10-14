@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "a-badge-is-a-job-title",
+    "title": "A badge is a job title",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-14",
+    "excerpt": "Jarrod B Emery asked on Quora who pays the people doing this, and about the police. Most are paid in kind. And a job title, a badge included, says nothing about the character of the person holding it.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/a-badge-is-a-job-title.md",
+    "teaser": "Jarrod B Emery asked on Quora who pays the people doing this, and why the police do not help. Most of the people taking part are paid in kind, a job, an apartment, a favor, and the money further up is laundered through the ordinary economy. The police half has a plainer answer than it seems: a badge is a job title, and a job title and the status that comes with it say nothing about the character of the person holding it. The Skills Economy exists to pair you with skilled people who do not turn a blind eye and do not join in.",
+    "topics": [
+      "specterati",
+      "community",
+      "directory"
+    ],
+    "number": 445
+  },
+  {
     "slug": "an-invitation-to-andre",
     "title": "An invitation to Andre",
     "repo": "chargingthefuture/wiki-site",
