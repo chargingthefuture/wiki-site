@@ -8,8 +8,8 @@ import App from "./App";
 // site. Imported before index.css so its @theme font stacks can override.
 import "@fontsource-variable/dm-sans/wght.css";
 import "@fontsource-variable/dm-sans/wght-italic.css";
-import "@fontsource-variable/oswald/wght.css";
-import "@fontsource/bangers/400.css";
+import "@fontsource-variable/newsreader/opsz.css";
+import "@fontsource-variable/newsreader/opsz-italic.css";
 
 import "./index.css";
 

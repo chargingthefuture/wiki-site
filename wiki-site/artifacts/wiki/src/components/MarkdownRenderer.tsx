@@ -108,8 +108,7 @@ export function MarkdownRenderer({ content, className, repo }: MarkdownRendererP
           img: ({ node, ...props }) => {
             const resolvedSrc = resolveImageUrl(props.src || '');
             return (
-              <span className="block relative my-12 bg-black border-4 border-black comic-shadow-primary overflow-hidden p-2 group">
-                <span className="absolute inset-0 bg-halftone opacity-20 group-hover:opacity-0 transition-opacity z-10 pointer-events-none"></span>
+              <span className="block relative my-12 bg-black border border-border overflow-hidden p-2 group">
                 <img 
                   {...props}
                   src={resolvedSrc}

@@ -96,7 +96,7 @@ export default function Home() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="relative min-h-[60vh] flex items-center border-b-8 border-black overflow-hidden comic-shadow">
+      <section className="relative min-h-[60vh] flex items-center border-b border-border overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img 
@@ -104,8 +104,7 @@ export default function Home() {
             alt="Cityscape ruins" 
             className="w-full h-full object-cover grayscale-[30%] opacity-80 mix-blend-luminosity"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent"></div>
-          <div className="absolute inset-0 bg-halftone opacity-40"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/90 to-background/40"></div>
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-20">
@@ -115,17 +114,17 @@ export default function Home() {
             transition={{ duration: 0.6, type: "spring", bounce: 0.4 }}
             className="max-w-3xl"
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-white font-heading font-bold uppercase tracking-widest border-2 border-black mb-6 comic-shadow-sm transform -rotate-1">
+            <div className="inline-flex items-center gap-2 font-heading font-semibold text-xs uppercase tracking-[0.16em] text-primary mb-6">
               <Flame size={18} fill="currentColor" />
               <span>Survivor Network</span>
             </div>
             
-            <h1 className="font-display text-6xl sm:text-7xl lg:text-8xl text-white uppercase leading-[0.9] mb-6 drop-shadow-[0_10px_20px_rgba(0,0,0,0.8)]" style={{WebkitTextStroke: '2px var(--color-black)', textShadow: '4px 4px 0 var(--color-black)'}}>
+            <h1 className="font-display text-6xl sm:text-7xl lg:text-8xl text-white leading-[0.9] mb-6 font-medium">
               Exit Their Economy. <br/>
-              <span className="text-primary drop-shadow-[0_0_15px_rgba(204,34,0,0.8)]">Exit The Psyop.</span>
+              <span className="text-primary">Exit The Psyop.</span>
             </h1>
             
-            <p className="font-sans text-xl sm:text-2xl text-gray-200 mb-10 max-w-2xl border-l-4 border-accent pl-6 bg-black/40 p-4 backdrop-blur-sm">
+            <p className="font-sans text-xl sm:text-2xl text-gray-200 mb-10 max-w-2xl border-l-2 border-primary pl-6">
               Critical transmissions, guides, and updates for the world's first psyop-free economy built exclusively for human trafficking survivors.
             </p>
           </motion.div>
@@ -138,7 +137,7 @@ export default function Home() {
       <section className="py-16 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Controls: Search & Filter */}
-        <div className="flex flex-col md:flex-row gap-6 mb-12 items-center justify-between bg-card p-4 sm:p-6 border-4 border-black comic-shadow-sm">
+        <div className="flex flex-col md:flex-row gap-6 mb-12 items-center justify-between bg-card p-4 sm:p-6 border border-border">
           
           <div className="relative w-full md:w-96 group">
             <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
@@ -149,7 +148,7 @@ export default function Home() {
               placeholder="Search transmissions..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full bg-black border-2 border-gray-700 text-white font-sans pl-12 pr-4 py-3 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all rounded-none"
+              className="w-full bg-black border-2 border-border text-white font-sans pl-12 pr-4 py-3 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all rounded-none"
             />
           </div>
 
@@ -161,8 +160,8 @@ export default function Home() {
                   onClick={() => selectCollection(col)}
                   className={`px-4 py-2 font-heading font-bold uppercase tracking-wider text-sm border-2 transition-all ${
                     activeCollection === col
-                      ? "bg-primary text-white border-black comic-shadow-sm translate-y-[-2px]"
-                      : "bg-black text-gray-400 border-gray-800 hover:border-gray-500 hover:text-white"
+                      ? "bg-primary text-primary-foreground border-border translate-y-[-2px]"
+                      : "bg-black text-gray-400 border-border hover:border-gray-500 hover:text-white"
                   }`}
                 >
                   {col === "All" ? "All Sections" : COLLECTION_LABELS[col]}
@@ -177,8 +176,8 @@ export default function Home() {
                     onClick={() => setActiveCategory(cat)}
                     className={`px-4 py-2 font-heading font-bold uppercase tracking-wider text-sm border-2 transition-all ${
                       activeCategory === cat
-                        ? "bg-accent text-black border-black comic-shadow-sm translate-y-[-2px]"
-                        : "bg-black text-gray-400 border-gray-800 hover:border-gray-500 hover:text-white"
+                        ? "bg-accent text-black border-border translate-y-[-2px]"
+                        : "bg-black text-gray-400 border-border hover:border-gray-500 hover:text-white"
                     }`}
                   >
                     {cat}
@@ -200,7 +199,7 @@ export default function Home() {
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.3, delay: Math.min(idx % PAGE_SIZE, 8) * 0.04 }}
                 >
-                  <ArticleCard article={article} index={idx} />
+                  <ArticleCard article={article} />
                 </motion.div>
               ))}
             </div>
@@ -216,14 +215,14 @@ export default function Home() {
                   <button
                     onClick={() => goToPage(page - 1)}
                     disabled={page === 1}
-                    className="px-6 py-3 font-heading font-bold uppercase tracking-wider text-lg bg-black text-white border-2 border-gray-700 comic-shadow-sm hover:border-white disabled:opacity-40 disabled:hover:border-gray-700 transition-all"
+                    className="px-6 py-3 font-heading font-bold uppercase tracking-wider text-lg bg-black text-white border border-border hover:border-white disabled:opacity-40 disabled:hover:border-border transition-all"
                   >
                     ← Previous
                   </button>
                   <button
                     onClick={() => goToPage(page + 1)}
                     disabled={page === pageCount}
-                    className="px-6 py-3 font-heading font-bold uppercase tracking-wider text-lg bg-black text-white border-2 border-gray-700 comic-shadow-sm hover:border-white disabled:opacity-40 disabled:hover:border-gray-700 transition-all"
+                    className="px-6 py-3 font-heading font-bold uppercase tracking-wider text-lg bg-black text-white border border-border hover:border-white disabled:opacity-40 disabled:hover:border-border transition-all"
                   >
                     Next →
                   </button>
@@ -232,8 +231,8 @@ export default function Home() {
             </nav>
           </>
         ) : (
-          <div className="py-20 text-center border-4 border-dashed border-gray-800 bg-card">
-            <h3 className="font-display text-4xl text-gray-500 mb-4">No Transmissions Found</h3>
+          <div className="py-20 text-center border border-border bg-card">
+            <h3 className="font-display text-4xl text-gray-500 mb-4 font-medium">No Transmissions Found</h3>
             <p className="font-sans text-gray-400">Try adjusting your search parameters.</p>
           </div>
         )}

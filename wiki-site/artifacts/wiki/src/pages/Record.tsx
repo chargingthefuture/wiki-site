@@ -63,10 +63,10 @@ function monthLabel(date: string): string {
 /** One account takedown, drawn where it happened. */
 function Erasure({ marker, onSpine }: { marker: (typeof RECORD_MARKERS)[number]; onSpine?: boolean }) {
   return (
-    <div className="relative border-2 border-primary bg-black/60 px-4 py-3">
+    <div className="relative border border-primary bg-black/60 px-4 py-3">
       {onSpine && (
         <span
-          className="absolute -left-[38px] sm:-left-[46px] top-4 w-5 h-5 bg-black border-2 border-primary rotate-45"
+          className="absolute -left-[38px] sm:-left-[46px] top-4 w-5 h-5 bg-black border border-primary rotate-45"
           aria-hidden="true"
         />
       )}
@@ -210,7 +210,7 @@ export default function Record() {
 
   const chip = (active: boolean) =>
     [
-      "font-heading text-sm uppercase font-bold px-3 py-1 border-2 border-black",
+      "font-heading text-sm uppercase font-bold px-3 py-1 border border-border",
       active ? "bg-accent text-black" : "bg-card text-gray-300 hover:text-white",
     ].join(" ");
 
@@ -220,17 +220,16 @@ export default function Record() {
     <Layout>
       <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="mb-10">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-white font-heading font-bold uppercase tracking-widest border-2 border-black mb-6 comic-shadow-sm transform -rotate-1">
+          <div className="inline-flex items-center gap-2 font-heading font-semibold text-xs uppercase tracking-[0.16em] text-primary mb-6">
             <ShieldOff size={18} />
             <span>The Record</span>
           </div>
           <h1
-            className="font-display text-5xl sm:text-6xl text-white uppercase leading-[0.9] mb-6"
-            style={{ WebkitTextStroke: "2px var(--color-black)", textShadow: "4px 4px 0 var(--color-black)" }}
+            className="font-display text-5xl sm:text-6xl text-white leading-[0.9] mb-6 font-medium"
           >
             Every word they deleted
           </h1>
-          <div className="border-l-4 border-accent pl-4 space-y-4">
+          <div className="border-l-2 border-accent pl-4 space-y-4">
             <p className="font-sans text-lg text-gray-200">
               Every answer, comment and reply here was deleted with the{" "}
               {spell(accounts.length)} accounts that held it, along with every
@@ -244,14 +243,14 @@ export default function Record() {
           </div>
           <p className="font-sans text-base text-gray-400 mt-4">
             Current writing lives on{" "}
-            <Link href="/feed" className="text-primary font-bold hover:underline decoration-2 underline-offset-4">
+            <Link href="/feed" className="text-primary font-bold hover:underline decoration-1 underline-offset-4">
               The Feed
             </Link>
             , newest first. The accounts erased since, and which handles are
             current, are kept on{" "}
             <Link
               href={getArticleUrl("chargingthefuture/wiki-site", "old-links-new-links")}
-              className="text-primary font-bold hover:underline decoration-2 underline-offset-4"
+              className="text-primary font-bold hover:underline decoration-1 underline-offset-4"
             >
               Old links, new links
             </Link>
@@ -266,9 +265,9 @@ export default function Record() {
             { label: "Spaces written into", value: reach.spaces.toLocaleString() },
             { label: "Months of it", value: String(months) },
           ].map((stat) => (
-            <div key={stat.label} className="comic-panel bg-card p-4">
+            <div key={stat.label} className="panel bg-card p-4">
               <dt className="font-mono text-xs uppercase tracking-widest text-gray-500">{stat.label}</dt>
-              <dd className="font-display text-3xl text-white mt-1">{stat.value}</dd>
+              <dd className="font-display text-3xl text-white mt-1 font-medium">{stat.value}</dd>
             </div>
           ))}
         </dl>
@@ -303,7 +302,7 @@ export default function Record() {
         </p>
 
         {entries.length === 0 ? (
-          <p className="font-sans text-lg text-gray-300 comic-panel bg-card p-6">
+          <p className="font-sans text-lg text-gray-300 panel bg-card p-6">
             Nothing in the Record matches that filter.{" "}
             <Link href="/record" className="text-primary font-bold hover:underline">
               Show everything
@@ -311,7 +310,7 @@ export default function Record() {
             .
           </p>
         ) : (
-          <ol className="relative border-l-4 border-gray-800 ml-3 space-y-10">
+          <ol className="relative border-l-2 border-border ml-3 space-y-10">
             {rows.map((row) => {
               if (row.type === "marker") {
                 return (
@@ -333,7 +332,7 @@ export default function Record() {
               return (
                 <li key={`${article.repo}/${article.slug}`} className="relative pl-6 sm:pl-8">
                   <span
-                    className="absolute -left-[13px] top-2 w-5 h-5 bg-primary border-2 border-black rounded-full"
+                    className="absolute -left-[13px] top-2 w-5 h-5 bg-primary border border-border rounded-full"
                     aria-hidden="true"
                   />
 
@@ -355,8 +354,7 @@ export default function Record() {
                     </div>
                   )}
 
-                  <article className="comic-panel bg-card relative overflow-hidden">
-                    <div className="absolute inset-0 bg-halftone opacity-20 pointer-events-none mix-blend-overlay"></div>
+                  <article className="panel bg-card relative overflow-hidden">
                     <div className="p-6 relative z-10">
                       <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
                         <span className="font-mono text-sm text-gray-400">
@@ -365,19 +363,19 @@ export default function Record() {
                         </span>
                         <span className="flex flex-wrap items-center gap-2">
                           {kind && (
-                            <span className="px-2 py-0.5 bg-accent text-black font-heading font-bold text-xs uppercase tracking-wider border-2 border-black">
+                            <span className="px-2 py-0.5 bg-accent text-black font-heading font-bold text-xs uppercase tracking-wider border border-border">
                               {KIND_LABELS[kind] ?? kind}
                             </span>
                           )}
                           {meta?.account && (
-                            <span className="px-2 py-0.5 bg-card text-gray-300 font-mono text-xs border-2 border-gray-700">
+                            <span className="px-2 py-0.5 bg-card text-gray-300 font-mono text-xs border border-border">
                               {meta.account}
                             </span>
                           )}
                         </span>
                       </div>
 
-                      <h3 className="text-xl sm:text-2xl font-heading font-bold text-white uppercase leading-tight mb-3">
+                      <h3 className="text-xl sm:text-2xl font-display text-white leading-tight mb-3 font-medium">
                         {article.title}
                       </h3>
 
@@ -408,7 +406,7 @@ export default function Record() {
                           <img
                             src={shot}
                             alt={meta?.screenshotAlt ?? `Screenshot of the original page: ${article.title}`}
-                            className="w-full border-2 border-black"
+                            className="w-full border border-border"
                             loading="lazy"
                           />
                           <figcaption className="font-mono text-xs text-gray-500 mt-2 flex items-start gap-2">
@@ -423,7 +421,7 @@ export default function Record() {
 
                       <Link
                         href={`${getArticleUrl(article.repo, article.slug)}?from=${encodeURIComponent(search ? `/record?${search}` : "/record")}`}
-                        className="font-heading text-lg text-primary uppercase font-bold hover:underline decoration-4 underline-offset-4"
+                        className="font-heading text-lg text-primary uppercase font-bold hover:underline decoration-1 underline-offset-4"
                       >
                         Read it here →
                       </Link>
@@ -473,7 +471,7 @@ export default function Record() {
         )}
 
         {trailingMarkers.length > 0 && (
-          <div className="mt-10 ml-3 border-l-4 border-gray-800 pl-6 sm:pl-8 space-y-4">
+          <div className="mt-10 ml-3 border-l-2 border-border pl-6 sm:pl-8 space-y-4">
             {trailingMarkers.map((m) => (
               <Erasure key={m.handle} marker={m} />
             ))}
@@ -484,7 +482,7 @@ export default function Record() {
           {page > 1 ? (
             <Link
               href={href({ page: page - 1 })}
-              className="font-heading text-lg uppercase font-bold px-4 py-2 bg-card border-2 border-gray-800 text-white hover:border-white"
+              className="font-heading text-lg uppercase font-bold px-4 py-2 bg-card border border-border text-white hover:border-white"
             >
               ← Earlier
             </Link>
@@ -499,7 +497,7 @@ export default function Record() {
           {page < pageCount ? (
             <Link
               href={href({ page: page + 1 })}
-              className="font-heading text-lg uppercase font-bold px-4 py-2 bg-card border-2 border-gray-800 text-white hover:border-white"
+              className="font-heading text-lg uppercase font-bold px-4 py-2 bg-card border border-border text-white hover:border-white"
             >
               Later →
             </Link>

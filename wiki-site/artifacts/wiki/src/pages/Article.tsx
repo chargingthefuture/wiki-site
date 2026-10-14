@@ -62,13 +62,13 @@ export default function Article() {
             place in the list they left. Only the two list surfaces are honored,
             so a crafted address cannot point the button anywhere else. */}
         <div className="flex flex-wrap gap-4 mb-10">
-          <Link href="/" className="inline-flex items-center gap-2 font-heading font-bold text-lg uppercase text-gray-400 hover:text-white transition-colors group bg-black border-2 border-gray-800 px-4 py-2 hover:border-white">
-            <ArrowLeft className="group-hover:-translate-x-1 transition-transform" size={20} />
+          <Link href="/" className="inline-flex items-center gap-2 font-heading font-bold text-lg uppercase text-gray-400 hover:text-white transition-colors group bg-black border border-border px-4 py-2 hover:border-white">
+            <ArrowLeft className="transition-transform" size={20} />
             Back to Terminal
           </Link>
           {backTo && (
-            <Link href={backTo.href} className="inline-flex items-center gap-2 font-heading font-bold text-lg uppercase text-gray-400 hover:text-white transition-colors group bg-black border-2 border-gray-800 px-4 py-2 hover:border-white">
-              <ArrowLeft className="group-hover:-translate-x-1 transition-transform" size={20} />
+            <Link href={backTo.href} className="inline-flex items-center gap-2 font-heading font-bold text-lg uppercase text-gray-400 hover:text-white transition-colors group bg-black border border-border px-4 py-2 hover:border-white">
+              <ArrowLeft className="transition-transform" size={20} />
               {backTo.label}
             </Link>
           )}
@@ -77,13 +77,13 @@ export default function Article() {
         {isLoading ? (
           <AppLoading />
         ) : isError ? (
-          <div className="max-w-3xl mx-auto text-center py-20 bg-card border-4 border-primary comic-shadow-primary">
+          <div className="max-w-3xl mx-auto text-center py-20 bg-card border border-primary">
             <AlertTriangle className="mx-auto text-primary mb-6" size={64} />
-            <h1 className="font-display text-5xl text-white mb-4 uppercase">Transmission Failed</h1>
+            <h1 className="font-display text-5xl text-white mb-4 font-medium">Transmission Failed</h1>
             <p className="font-sans text-xl text-gray-400 mb-8">
               The document you are looking for has been moved, redacted, or does not exist.
             </p>
-            <Link href="/" className="inline-block bg-primary text-white font-heading font-bold uppercase text-xl px-8 py-4 border-4 border-black comic-shadow-sm hover:shadow-none hover:translate-y-1 transition-all">
+            <Link href="/" className="inline-block bg-primary text-primary-foreground font-heading font-semibold text-xl px-8 py-4 rounded-xl transition-opacity hover:opacity-90">
               Return to Base
             </Link>
           </div>
@@ -94,15 +94,14 @@ export default function Article() {
             transition={{ duration: 0.5 }}
             className="max-w-4xl mx-auto"
           >
-            <header className="mb-12 border-b-8 border-black pb-12 relative">
-              <div className="absolute inset-0 bg-halftone opacity-20 pointer-events-none -z-10"></div>
+            <header className="mb-12 border-b border-border pb-12 relative">
               
               {meta && (
                 <div className="flex flex-wrap items-center gap-4 mb-6">
-                  <span className="px-4 py-1.5 bg-accent text-black font-heading font-bold text-sm uppercase tracking-wider border-2 border-black comic-shadow-sm">
+                  <span className="px-4 py-1.5 bg-accent text-black font-heading font-bold text-sm uppercase tracking-wider border border-border">
                     {meta.category}
                   </span>
-                  <div className="flex items-center text-gray-400 font-mono text-sm gap-4 bg-black px-4 py-1.5 border-2 border-gray-800">
+                  <div className="flex items-center text-gray-400 font-mono text-sm gap-4 bg-black px-4 py-1.5 border border-border">
                     <span className="flex items-center gap-1.5">
                       <Calendar size={16} className="text-primary" />
                       {formatArticleDate(meta.date, { month: 'long', day: 'numeric', year: 'numeric' })}
@@ -116,12 +115,12 @@ export default function Article() {
                 </div>
               )}
 
-              <h1 className="font-display text-5xl sm:text-6xl md:text-7xl text-white uppercase leading-[1.1] mb-6" style={{WebkitTextStroke: '1px var(--color-black)', textShadow: '2px 2px 0 var(--color-black)'}}>
+              <h1 className="font-display text-5xl sm:text-6xl md:text-7xl text-white leading-[1.1] mb-6 font-medium">
                 {meta ? meta.title : slug.replace(/-/g, ' ')}
               </h1>
               
               {meta && (
-                <p className="font-sans text-xl md:text-2xl text-gray-300 border-l-4 border-primary pl-6 bg-secondary/30 p-4">
+                <p className="font-sans text-xl md:text-2xl text-gray-300 border-l-2 border-primary pl-6 bg-secondary/30 p-4">
                   {meta.excerpt}
                 </p>
               )}
@@ -129,7 +128,7 @@ export default function Article() {
               {audioUrl && <ListenToPost src={audioUrl} />}
 
               {meta?.archive && (
-                <div className="mt-6 flex items-start gap-3 bg-black border-2 border-gray-800 p-4 font-mono text-sm text-gray-400">
+                <div className="mt-6 flex items-start gap-3 bg-black border border-border p-4 font-mono text-sm text-gray-400">
                   <Archive size={18} className="text-accent shrink-0 mt-0.5" />
                   <span>
                     Historical record.{" "}
@@ -160,7 +159,7 @@ export default function Article() {
                   <img
                     src={contentImageUrl(meta.archive.screenshot)}
                     alt={meta.archive.screenshotAlt ?? `Screenshot of the original page: ${meta.title}`}
-                    className="w-full border-2 border-black"
+                    className="w-full border border-border"
                     loading="lazy"
                   />
                   <figcaption className="font-mono text-xs text-gray-500 mt-2">
@@ -174,9 +173,7 @@ export default function Article() {
               )}
             </header>
 
-            <div ref={bodyRef} className="bg-card border-4 border-black comic-shadow p-6 md:p-10 relative overflow-hidden">
-               {/* Very faint background noise/texture for the reading area */}
-              <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0IiBoZWlnaHQ9IjQiPgo8cmVjdCB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSIjMWExYTFhIj48L3JlY3Q+CjxwYXRoIGQ9Ik0wIDBMNCA0Wk00IDBMMCA0WiIgc3Ryb2tlPSIjMjIyMjIyIiBzdHJva2Utd2lkdGg9IjEiPjwvcGF0aD4KPC9zdmc+')] opacity-20 pointer-events-none"></div>
+            <div ref={bodyRef} className="bg-card border border-border p-6 md:p-10 relative overflow-hidden">
               
               <div className="relative z-10">
                 <MarkdownRenderer content={content || ""} repo={repo} />
@@ -187,12 +184,12 @@ export default function Article() {
                 Above the conversation on purpose: the byline belongs to the piece, and under the
                 comments it read as though it signed them too. END OF FILE marks where the writing
                 stops, so the talk about it follows rather than being fenced off by it. */}
-            <div className="mt-16 flex items-center justify-between border-t-4 border-dashed border-gray-800 pt-8">
+            <div className="mt-16 flex items-center justify-between border-t border-border pt-8">
               <div className="flex items-center gap-4">
                 <img 
                   src={`${import.meta.env.BASE_URL}images/logo-mark.png`} 
                   alt="Farah Brunache" 
-                  className="w-16 h-16 rounded-full border-4 border-primary comic-shadow-sm bg-black"
+                  className="w-16 h-16 rounded-full border border-primary bg-black"
                 />
                 <div>
                   <div className="font-heading font-bold text-xl text-white uppercase">Farah Brunache</div>
@@ -201,7 +198,7 @@ export default function Article() {
               </div>
               
               <div className="hidden sm:block text-right">
-                <div className="font-display text-3xl text-gray-700 tracking-widest">END OF FILE</div>
+                <div className="font-display text-3xl text-gray-700 font-medium">END OF FILE</div>
               </div>
             </div>
 

@@ -1,121 +1,105 @@
 @import "tailwindcss";
 
+/* One design across the project's sites, one color per site: farahbrunache.com (the paid tier)
+   is forest green, chargingthefuture.com (the free tier) burgundy, and this blog black and white
+   with coral. Same type as those sites: Newsreader for titles, DM Sans for everything else.
+
+   Light or dark follows the phone until the reader picks one with the toggle in the header
+   (src/components/ThemeToggle.tsx), which sets data-theme on <html>.
+
+   No pure white and no pure black anywhere. Full-white text on a near-black page glares and
+   smears for many readers. Tailwind's own white, black and gray shades are replaced below, so
+   every text-white, bg-black and text-gray-* in the components follows the theme: "white" is
+   the strongest text, "black" the deepest surface, and the grays step from strong to faint. */
+:root {
+  --paper: #f7f6f3; --sunk: #eeece8; --card: #fcfbf9; --hair: #e1ded8;
+  --ink: #1b1b1b; --strong: #141414; --deep: #e9e7e2;
+  --coral: #b9432f; --on-coral: #fcfbf9;
+  --g200: #262626; --g300: #333333; --g400: #4a4a4a; --g500: #5c5c5c; --g600: #666666; --g700: #6f6f6f; --g800: #e1ded8; --g900: #ebe9e4;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #151515; --sunk: #0f0f0f; --card: #1c1c1c; --hair: #2f2f2f;
+  --ink: #e4e2dd; --strong: #ecebe6; --deep: #0f0f0f;
+  --coral: #f08a74; --on-coral: #1a1a1a;
+  --g200: #dddbd6; --g300: #cfcdc8; --g400: #aeaca7; --g500: #93918d; --g600: #84827e; --g700: #7a7874; --g800: #2f2f2f; --g900: #242424;
+  color-scheme: dark;
+} }
+:root[data-theme="dark"] {
+  --paper: #151515; --sunk: #0f0f0f; --card: #1c1c1c; --hair: #2f2f2f;
+  --ink: #e4e2dd; --strong: #ecebe6; --deep: #0f0f0f;
+  --coral: #f08a74; --on-coral: #1a1a1a;
+  --g200: #dddbd6; --g300: #cfcdc8; --g400: #aeaca7; --g500: #93918d; --g600: #84827e; --g700: #7a7874; --g800: #2f2f2f; --g900: #242424;
+  color-scheme: dark;
+}
+
 @theme inline {
   /* Fonts are self-hosted, not fetched from Google — see src/main.tsx for why.
      The "Variable" names are what @fontsource-variable registers; the static
      name follows so a browser with a local copy still matches. */
   --font-sans: 'DM Sans Variable', 'DM Sans', sans-serif;
-  --font-heading: 'Oswald Variable', 'Oswald', sans-serif;
-  --font-display: 'Bangers', cursive;
+  --font-heading: 'DM Sans Variable', 'DM Sans', sans-serif;
+  --font-display: 'Newsreader Variable', 'Newsreader', Georgia, serif;
 
-  /* No pure white and no pure black anywhere. Full-white text on a near-black
-     page glares and smears for many readers, and the shades below replace
-     Tailwind's own white and black, so every text-white, bg-black and
-     border-black in the components follows. */
-  --color-white: hsl(60 8% 87%);
-  --color-black: hsl(0 0% 6%);
+  --color-white: var(--strong);
+  --color-black: var(--deep);
+  --color-gray-200: var(--g200);
+  --color-gray-300: var(--g300);
+  --color-gray-400: var(--g400);
+  --color-gray-500: var(--g500);
+  --color-gray-600: var(--g600);
+  --color-gray-700: var(--g700);
+  --color-gray-800: var(--g800);
+  --color-gray-900: var(--g900);
 
-  --color-background: hsl(0 0% 10%);
-  --color-foreground: hsl(60 8% 87%);
-  
-  --color-card: hsl(0 0% 14%);
-  --color-card-foreground: hsl(60 8% 87%);
-  
-  --color-primary: hsl(10 100% 40%);
-  --color-primary-foreground: var(--color-white);
-  
-  --color-secondary: hsl(0 0% 19%);
-  --color-secondary-foreground: var(--color-white);
-  
-  --color-accent: hsl(45 100% 50%);
-  --color-accent-foreground: var(--color-black);
-  
-  --color-destructive: hsl(0 100% 30%);
-  --color-destructive-foreground: var(--color-white);
-  
-  --color-border: hsl(0 0% 26%);
-  --color-input: hsl(0 0% 19%);
-  --color-ring: hsl(10 100% 40%);
+  --color-background: var(--paper);
+  --color-foreground: var(--ink);
 
-  --color-comic-black: var(--color-black);
-}
+  --color-card: var(--card);
+  --color-card-foreground: var(--ink);
 
-:root {
-  --background: 0 0% 10%;
-  --foreground: 60 8% 87%;
+  --color-primary: var(--coral);
+  --color-primary-foreground: var(--on-coral);
+
+  --color-secondary: var(--sunk);
+  --color-secondary-foreground: var(--ink);
+
+  /* Accent is ink, for badges and markers: black and white, with coral the only color. */
+  --color-accent: var(--ink);
+  --color-accent-foreground: var(--paper);
+
+  --color-destructive: hsl(0 70% 42%);
+  --color-destructive-foreground: var(--on-coral);
+
+  --color-border: var(--hair);
+  --color-input: var(--sunk);
+  --color-ring: var(--coral);
 }
 
 @layer base {
   body {
-    @apply bg-background text-foreground antialiased font-sans selection:bg-primary selection:text-white;
-    background-image: 
-      radial-gradient(circle at 50% 50%, rgba(20, 20, 20, 0.5) 1px, transparent 1px),
-      radial-gradient(circle at 0% 0%, rgba(20, 20, 20, 0.5) 1px, transparent 1px);
-    background-size: 8px 8px;
+    @apply bg-background text-foreground antialiased font-sans selection:bg-primary selection:text-primary-foreground;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-heading tracking-tight text-white;
+    @apply font-display tracking-tight text-white;
   }
 }
 
 @layer utilities {
-  .comic-shadow {
-    box-shadow: 6px 6px 0px 0px var(--color-comic-black);
-  }
-  
-  .comic-shadow-sm {
-    box-shadow: 3px 3px 0px 0px var(--color-comic-black);
-  }
-
-  .comic-shadow-primary {
-    box-shadow: 6px 6px 0px 0px var(--color-primary);
+  /* A card: a hairline edge on the paper, no shadow. */
+  .panel {
+    @apply bg-card transition-colors duration-200;
+    border: 1px solid var(--color-border);
+    border-radius: 14px;
   }
 
-  .comic-shadow-accent {
-    box-shadow: 6px 6px 0px 0px var(--color-accent);
-  }
-
-  .comic-border {
-    border-width: 4px;
-    border-style: solid;
-    border-color: var(--color-black);
-  }
-
-  .comic-panel {
-    @apply bg-card transition-all duration-200;
-    border-width: 4px;
-    border-style: solid;
-    border-color: var(--color-black);
-    box-shadow: 6px 6px 0px 0px var(--color-comic-black);
-  }
-
-  .comic-panel-hover {
-    @apply hover:-translate-y-1 hover:-translate-x-1 hover:shadow-[10px_10px_0px_0px_var(--color-black)] active:translate-y-1 active:translate-x-1 active:shadow-[2px_2px_0px_0px_var(--color-black)];
-  }
-
-  .bg-halftone {
-    background-image: radial-gradient(circle, var(--color-comic-black) 2px, transparent 2.5px);
-    background-size: 8px 8px;
-  }
-
-  .bg-halftone-primary {
-    background-image: radial-gradient(circle, var(--color-primary) 1.5px, transparent 2px);
-    background-size: 8px 8px;
-  }
-  
-  .text-stroke {
-    -webkit-text-stroke: 1px var(--color-black);
-    text-shadow: 2px 2px 0 var(--color-black);
-  }
-  
-  .text-stroke-thick {
-    -webkit-text-stroke: 2px var(--color-black);
-    text-shadow: 4px 4px 0 var(--color-black);
+  .panel-hover {
+    @apply hover:border-primary;
   }
 }
 
-/* Markdown prose styling mapped to comic aesthetic */
+/* Markdown prose: a reading column in the house type. */
 .prose {
   @apply text-foreground font-sans text-lg leading-relaxed max-w-none;
   /* Posts quote long bare URLs (archive links, profile links). Without this
@@ -125,50 +109,43 @@
   overflow-wrap: anywhere;
 }
 .prose h1 {
-  @apply font-display text-5xl md:text-7xl mb-8 mt-12 text-white uppercase tracking-wider;
-  -webkit-text-stroke: 1px var(--color-black);
-  text-shadow: 2px 2px 0 var(--color-black);
+  @apply font-display font-medium text-4xl md:text-5xl leading-tight mb-6 mt-12 text-white;
 }
 .prose h2 {
-  @apply font-heading text-3xl md:text-4xl mb-6 mt-12 text-accent font-bold uppercase border-b-4 border-black pb-2 inline-block;
+  @apply font-display font-medium text-3xl md:text-4xl leading-tight mb-5 mt-12 text-white;
 }
 .prose h3 {
-  @apply font-heading text-2xl md:text-3xl mb-4 mt-8 text-white uppercase;
+  @apply font-display font-medium text-2xl md:text-3xl leading-snug mb-4 mt-8 text-white;
 }
 .prose p {
   @apply mb-6;
 }
 .prose a {
-  @apply text-primary font-bold underline decoration-4 underline-offset-4 hover:bg-primary hover:text-white transition-colors;
+  @apply text-primary font-semibold underline decoration-1 underline-offset-4 hover:decoration-2 transition-colors;
 }
 .prose ul {
-  @apply list-disc pl-6 mb-6 marker:text-primary marker:text-2xl;
+  @apply list-disc pl-6 mb-6 marker:text-primary;
 }
 .prose ol {
-  @apply list-decimal pl-6 mb-6 font-bold text-accent;
-}
-.prose ol li span {
-  @apply font-normal text-foreground;
+  @apply list-decimal pl-6 mb-6 marker:font-semibold marker:text-accent;
 }
 .prose li {
   @apply mb-2 pl-2;
 }
 .prose blockquote {
-  @apply pl-6 py-2 my-8 border-l-8 border-primary bg-secondary/50 font-heading text-2xl italic text-gray-300;
+  @apply pl-6 py-1 my-8 border-l-2 border-primary font-display text-2xl leading-snug italic text-gray-300;
 }
 .prose img {
-  @apply max-w-full h-auto border-4 border-black my-8 bg-black min-h-[100px] object-cover;
-  box-shadow: 6px 6px 0px 0px var(--color-primary);
+  @apply max-w-full h-auto border border-border rounded-xl my-8 bg-black min-h-[100px] object-cover;
 }
 .prose code {
-  @apply bg-black text-accent px-2 py-1 border-2 border-border font-mono text-sm;
+  @apply bg-black text-white px-1.5 py-0.5 border border-border rounded font-mono text-sm;
 }
 .prose pre {
-  @apply bg-black p-4 border-4 border-border overflow-x-auto mb-6;
-  box-shadow: 3px 3px 0px 0px var(--color-comic-black);
+  @apply bg-black p-4 border border-border rounded-xl overflow-x-auto mb-6;
 }
 .prose hr {
-  @apply border-t-4 border-dashed border-border my-12;
+  @apply border-t border-border my-12;
 }
 
 /* Tables. A markdown table is wider than a phone, and a browser will squeeze
@@ -181,16 +158,15 @@
   @apply my-8;
 }
 .prose .table-scroll {
-  @apply overflow-x-auto border-4 border-black bg-card;
-  box-shadow: 6px 6px 0px 0px var(--color-primary);
+  @apply overflow-x-auto border border-border rounded-xl bg-card;
   -webkit-overflow-scrolling: touch;
 }
 .prose .table-scroll:focus-visible {
-  outline: 4px solid var(--color-accent);
+  outline: 3px solid var(--color-primary);
   outline-offset: 2px;
 }
 .prose .table-scroll-hint {
-  @apply mt-3 mb-0 font-heading text-sm uppercase tracking-wide text-gray-400;
+  @apply mt-3 mb-0 font-heading text-sm text-gray-500;
 }
 .prose table {
   @apply border-collapse text-base;
@@ -207,7 +183,7 @@
 }
 .prose th,
 .prose td {
-  @apply px-4 py-3 text-left align-top border-b-2 border-border;
+  @apply px-4 py-3 text-left align-top border-b border-border;
   /* .prose sets `overflow-wrap: anywhere` for bare URLs. Inherited into a
      cell it also tells the browser a column may be one character wide, which
      is what allows the crushing above. `break-word` still breaks a long URL
@@ -215,8 +191,8 @@
   overflow-wrap: break-word;
 }
 .prose th {
-  @apply font-heading uppercase text-accent whitespace-nowrap;
-  @apply border-b-4 border-black;
+  @apply font-heading font-semibold text-white whitespace-nowrap;
+  @apply border-b border-white;
 }
 .prose tbody tr:last-child td {
   @apply border-b-0;

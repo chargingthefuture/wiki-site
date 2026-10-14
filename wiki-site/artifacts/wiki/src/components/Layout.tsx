@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { Button } from "./Button";
+import { ThemeToggle } from "./ThemeToggle";
 import { Menu, X, Skull } from "lucide-react";
 import { useState } from "react";
 
@@ -7,22 +8,21 @@ export function Layout({ children }: { children: React.ReactNode }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="min-h-screen flex flex-col bg-background text-foreground overflow-x-hidden selection:bg-primary selection:text-white">
+    <div className="min-h-screen flex flex-col bg-background text-foreground overflow-x-hidden selection:bg-primary selection:text-primary-foreground">
       {/* Navigation */}
-      <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b-4 border-black comic-shadow-sm">
-        <div className="absolute inset-0 bg-halftone opacity-20 pointer-events-none"></div>
+      <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-3 group">
+            <Link href="/" className="flex items-center gap-2 sm:gap-3 group min-w-0">
               <img 
                 src={`${import.meta.env.BASE_URL}images/logo-mark.png`} 
                 alt="Charging The Future Logo" 
-                className="w-12 h-12 rounded-full border-2 border-primary grayscale group-hover:grayscale-0 transition-all duration-300"
+                className="w-10 h-10 sm:w-12 sm:h-12 shrink-0 rounded-full border border-primary grayscale group-hover:grayscale-0 transition-all duration-300"
               />
               <div className="flex flex-col">
-                <span className="font-display text-2xl tracking-widest text-white leading-none" style={{WebkitTextStroke: '1px var(--color-black)', textShadow: '2px 2px 0 var(--color-black)'}}>CHARGING THE FUTURE</span>
-                <span className="font-heading text-xs uppercase tracking-widest text-primary font-bold">Live, Work & Prevail</span>
+                <span className="font-display text-lg sm:text-2xl text-white leading-none font-medium tracking-wide whitespace-nowrap">CHARGING THE FUTURE</span>
+                <span className="font-heading text-[10px] sm:text-xs uppercase tracking-widest text-primary font-bold whitespace-nowrap">Live, Work & Prevail</span>
               </div>
             </Link>
 
@@ -43,6 +43,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
               <Button onClick={() => window.location.href = "https://app.chargingthefuture.com"} variant="primary">
                 Join The App
               </Button>
+              <ThemeToggle />
             </nav>
 
             {/* Mobile Menu Button */}
@@ -57,22 +58,25 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
         {/* Mobile Nav */}
         {isMenuOpen && (
-          <nav className="md:hidden border-t-4 border-black bg-card p-4 flex flex-col gap-4">
-            <Link href="/" onClick={() => setIsMenuOpen(false)} className="font-heading font-bold text-xl uppercase block p-2 border-b-2 border-gray-800">
+          <nav className="md:hidden border-t border-border bg-card p-4 flex flex-col gap-4">
+            <Link href="/" onClick={() => setIsMenuOpen(false)} className="font-heading font-bold text-xl uppercase block p-2 border-b-2 border-border">
               Transmissions (Blog)
             </Link>
-            <Link href="/feed" onClick={() => setIsMenuOpen(false)} className="font-heading font-bold text-xl uppercase block p-2 border-b-2 border-gray-800">
+            <Link href="/feed" onClick={() => setIsMenuOpen(false)} className="font-heading font-bold text-xl uppercase block p-2 border-b-2 border-border">
               The Feed
             </Link>
-            <Link href="/record" onClick={() => setIsMenuOpen(false)} className="font-heading font-bold text-xl uppercase block p-2 border-b-2 border-gray-800">
+            <Link href="/record" onClick={() => setIsMenuOpen(false)} className="font-heading font-bold text-xl uppercase block p-2 border-b-2 border-border">
               The Record
             </Link>
-            <a href="https://chargingthefuture.com" target="_blank" rel="noopener noreferrer" className="font-heading font-bold text-xl uppercase block p-2 border-b-2 border-gray-800">
+            <a href="https://chargingthefuture.com" target="_blank" rel="noopener noreferrer" className="font-heading font-bold text-xl uppercase block p-2 border-b border-border">
               About Platform
             </a>
             <Button className="w-full mt-4" onClick={() => window.location.href = "https://app.chargingthefuture.com"}>
               Join The App
             </Button>
+            <div className="mt-2">
+              <ThemeToggle />
+            </div>
           </nav>
         )}
       </header>
@@ -83,25 +87,24 @@ export function Layout({ children }: { children: React.ReactNode }) {
       </main>
 
       {/* Footer */}
-      <footer className="bg-black border-t-8 border-primary relative overflow-hidden mt-20">
-        <div className="absolute inset-0 bg-halftone-primary opacity-20 pointer-events-none"></div>
+      <footer className="bg-black border-t border-primary relative overflow-hidden mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 relative z-10">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
             <div className="lg:col-span-2">
               <div className="flex items-center gap-2 mb-6">
                 <Skull className="text-primary" size={32} />
-                <span className="font-display text-4xl tracking-widest text-white" style={{WebkitTextStroke: '1px var(--color-black)', textShadow: '2px 2px 0 var(--color-black)'}}>CTF</span>
+                <span className="font-display text-4xl text-white font-medium">CTF</span>
               </div>
-              <p className="text-gray-400 font-sans text-lg max-w-md mb-6 border-l-4 border-primary pl-4">
+              <p className="text-gray-400 font-sans text-lg max-w-md mb-6 border-l-2 border-primary pl-4">
                 We exist to prevent human trafficking and its harms by building a sustainable, ethical marketplace that restores agency, heals survivors, and enables all people to thrive.
               </p>
-              <h4 className="font-heading font-bold text-white text-xl uppercase tracking-widest mb-2">
+              <h4 className="font-display text-white text-xl mb-2 font-medium">
                 World's First Psyop-Free TI Economy
               </h4>
             </div>
             
             <div>
-              <h3 className="font-heading text-2xl uppercase font-bold text-primary mb-6 border-b-2 border-gray-800 pb-2 inline-block">Resources</h3>
+              <h3 className="font-display text-2xl text-primary mb-6 border-b border-border pb-2 inline-block font-medium">Resources</h3>
               <ul className="space-y-3 font-sans font-medium">
                 <li><Link href="/" className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> Transmissions</Link></li>
                 <li><Link href="/feed" className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> The Feed</Link></li>
@@ -118,7 +121,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
             </div>
             
             <div>
-              <h3 className="font-heading text-2xl uppercase font-bold text-primary mb-6 border-b-2 border-gray-800 pb-2 inline-block">Action</h3>
+              <h3 className="font-display text-2xl text-primary mb-6 border-b border-border pb-2 inline-block font-medium">Action</h3>
               <p className="text-gray-400 mb-6 font-sans">
                 Ready to exit their economy and exit the psyop?
               </p>
@@ -128,7 +131,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
             </div>
           </div>
           
-          <div className="mt-16 pt-8 border-t-2 border-gray-900 flex flex-col md:flex-row justify-between items-center gap-4">
+          <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-600 font-mono text-sm">
               &copy; {new Date().getFullYear()} Charging The Future. All rights reserved.
             </p>

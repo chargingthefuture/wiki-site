@@ -87,8 +87,8 @@ function elapsed(from: number, to: number) {
 
 function Cell({ value, label }: { value: number; label: string }) {
   return (
-    <div className="bg-black border-4 border-primary comic-shadow-sm px-3 py-3 sm:px-6 sm:py-4 text-center min-w-[72px] sm:min-w-[110px]">
-      <div className="font-display text-3xl sm:text-5xl text-white tabular-nums leading-none">
+    <div className="bg-black border border-primary px-3 py-3 sm:px-6 sm:py-4 text-center min-w-[72px] sm:min-w-[110px]">
+      <div className="font-display text-3xl sm:text-5xl text-white tabular-nums leading-none font-medium">
         {String(value).padStart(2, "0")}
       </div>
       <div className="font-heading text-[10px] sm:text-xs uppercase tracking-widest text-primary mt-1">{label}</div>
@@ -170,16 +170,16 @@ function Step({
   children: React.ReactNode;
 }) {
   return (
-    <div className="bg-card border-4 border-black comic-shadow-sm p-6">
+    <div className="bg-card border border-border p-6">
       <div className="flex items-center gap-3 mb-3">
-        <span className="font-display text-4xl text-primary leading-none">{n}</span>
+        <span className="font-display text-4xl text-primary leading-none font-medium">{n}</span>
         <span className="text-primary">{icon}</span>
-        <h3 className="font-heading text-2xl uppercase font-bold">{title}</h3>
+        <h3 className="font-display text-2xl font-medium">{title}</h3>
       </div>
       <div className="font-sans text-gray-300 space-y-3 mb-5">{children}</div>
       <a
         href={href}
-        className="inline-flex items-center gap-2 bg-primary text-white font-heading font-bold uppercase tracking-wider border-4 border-black comic-shadow-sm px-5 py-3 hover:-translate-y-0.5 hover:-translate-x-0.5 transition-transform"
+        className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-heading font-semibold rounded-xl px-5 py-3 transition-opacity hover:opacity-90"
       >
         {cta} <ArrowRight size={18} />
       </a>
@@ -192,18 +192,17 @@ export default function PeaceBattleTwo() {
   return (
     <Layout>
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-white font-heading font-bold uppercase tracking-widest border-2 border-black mb-6 comic-shadow-sm transform -rotate-1">
+        <div className="inline-flex items-center gap-2 font-heading font-semibold text-xs uppercase tracking-[0.16em] text-primary mb-6">
           <span>A distributed protest</span>
         </div>
 
         <h1
-          className="font-display text-5xl sm:text-7xl text-white leading-none mb-4"
-          style={{ WebkitTextStroke: "2px var(--color-black)", textShadow: "4px 4px 0 var(--color-black)" }}
+          className="font-display text-5xl sm:text-7xl text-white leading-none mb-4 font-medium"
         >
           PEACE BATTLE 2
         </h1>
 
-        <p className="font-sans text-xl text-gray-300 mb-10 border-l-4 border-primary pl-4">
+        <p className="font-sans text-xl text-gray-300 mb-10 border-l-2 border-primary pl-4">
           A protest you take part in from a phone, because the people it is for are spread across the
           world and most of them cannot travel to stand anywhere.
         </p>
@@ -212,7 +211,7 @@ export default function PeaceBattleTwo() {
           <Countdown />
         </div>
 
-        <h2 className="font-heading text-3xl uppercase font-bold text-primary mb-4">Why it has a name</h2>
+        <h2 className="font-display text-3xl text-primary mb-4 font-medium">Why it has a name</h2>
         <div className="font-sans text-lg text-gray-300 space-y-4 mb-12">
           <p>
             In 1903 W. E. B. Du Bois looked back at what the people who founded the colleges had done
@@ -231,7 +230,7 @@ export default function PeaceBattleTwo() {
           </p>
         </div>
 
-        <h2 className="font-heading text-3xl uppercase font-bold text-primary mb-4">Envision</h2>
+        <h2 className="font-display text-3xl text-primary mb-4 font-medium">Envision</h2>
         <p className="font-sans text-lg text-gray-300 mb-6">
           Two sets of figures to read before you do anything. Both take a couple of minutes and
           neither asks anything of you.
@@ -241,8 +240,8 @@ export default function PeaceBattleTwo() {
               it. Saying so is better than selling it — somebody who arrives expecting a game closes
               it, and somebody who wants to check the numbers now knows where they are. The card
               names what it does and the link says see the math. */}
-          <div className="bg-card border-4 border-black comic-shadow-sm p-6">
-            <h3 className="font-heading text-xl uppercase font-bold mb-2">What reaching 300 billion looks like</h3>
+          <div className="bg-card border border-border p-6">
+            <h3 className="font-display text-xl mb-2 font-medium">What reaching 300 billion looks like</h3>
             {/* For somebody who lands here first, with no other page behind them. 300 billion is the
                 Community Value Index goal in the app's GDP plugin. The post it links carries the definition. */}
             <p className="font-sans text-gray-300 mb-4">
@@ -270,8 +269,8 @@ export default function PeaceBattleTwo() {
             </a>
             <p className="font-mono text-xs text-gray-500 mt-2 break-all">{LINKS.game}</p>
           </div>
-          <div className="bg-card border-4 border-black comic-shadow-sm p-6">
-            <h3 className="font-heading text-xl uppercase font-bold mb-2">What's your 1%?</h3>
+          <div className="bg-card border border-border p-6">
+            <h3 className="font-display text-xl mb-2 font-medium">What's your 1%?</h3>
             <p className="font-sans text-gray-300 mb-4">
               The 300 billion is made of single people doing their own work, and you are one of them.
               Serve one percent of those five million survivors and that is 50,000 people. Workforce
@@ -286,7 +285,7 @@ export default function PeaceBattleTwo() {
           </div>
         </div>
 
-        <h2 className="font-heading text-3xl uppercase font-bold text-primary mb-4">Enact</h2>
+        <h2 className="font-display text-3xl text-primary mb-4 font-medium">Enact</h2>
         <p className="font-sans text-lg text-gray-300 mb-6">
           Two steps, in the order they come. The first is free and self-service, and it stays that
           way. The second is paid, and only for somebody who wants to take it further.
@@ -331,7 +330,7 @@ export default function PeaceBattleTwo() {
             <img
               src={`${import.meta.env.BASE_URL}images/pb2-goal-board.png`}
               alt="The PeerProgramming goal board on a phone. 0 cards done in the last 24 hours. Grab any one card, do it from your phone, and post what you found. One card is plenty. Your goal: Get a yard jockey job, 0 of 2 cards done, with buttons Add card, Reached it and Take it down. Up for grabs, 2 cards: Find five places in Houston Texas that have full-time yard jockey roles for recent CDL graduates. Find one TI in Houston Texas to host a room."
-              className="w-full max-w-sm mx-auto border-4 border-black comic-shadow-sm"
+              className="w-full max-w-sm mx-auto border border-border"
               loading="lazy"
             />
           </Step>
@@ -375,10 +374,10 @@ export default function PeaceBattleTwo() {
             they are about the app rather than about the argument — somebody who supports this and
             disagrees with the organizer on something else can still post these without speaking for
             anybody. Posts from this blog are not in the pool for that reason. */}
-        <h2 className="font-heading text-3xl uppercase font-bold text-primary mb-4">Spread the word</h2>
+        <h2 className="font-display text-3xl text-primary mb-4 font-medium">Spread the word</h2>
         <Pb2ShareMessage />
 
-        <h2 className="font-heading text-3xl uppercase font-bold text-primary mb-4">What winning looks like</h2>
+        <h2 className="font-display text-3xl text-primary mb-4 font-medium">What winning looks like</h2>
         <div className="font-sans text-lg text-gray-300 space-y-4 mb-12">
           <p>
             Peace Battle 2 is finished when a survivor can get 99% of what they need — housing,
@@ -400,7 +399,7 @@ export default function PeaceBattleTwo() {
           </p>
         </div>
 
-        <h2 className="font-heading text-3xl uppercase font-bold text-primary mb-4">Why it is virtual</h2>
+        <h2 className="font-display text-3xl text-primary mb-4 font-medium">Why it is virtual</h2>
         <div className="font-sans text-lg text-gray-300 space-y-4 mb-12">
           <p>
             A protest is normally bodies in one place. Survivors have tried that and turned up alone,
@@ -420,8 +419,8 @@ export default function PeaceBattleTwo() {
           </p>
         </div>
 
-        <div className="bg-black border-4 border-primary comic-shadow-sm p-8 mb-10">
-          <h2 className="font-heading text-2xl uppercase font-bold text-primary mb-3">
+        <div className="bg-black border border-primary p-8 mb-10">
+          <h2 className="font-display text-2xl text-primary mb-3 font-medium">
             If you think none of this will work
           </h2>
           <p className="font-sans text-lg text-gray-300 mb-3">
@@ -435,7 +434,7 @@ export default function PeaceBattleTwo() {
           </p>
         </div>
 
-        <div className="border-t-4 border-black pt-8">
+        <div className="border-t border-border pt-8">
           <p className="font-sans text-lg text-gray-300 mb-4">
             To sign up: <a href="https://chargingthefuture.com" className="text-primary font-bold hover:text-white">https://chargingthefuture.com</a>.
             It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
