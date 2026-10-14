@@ -30,7 +30,8 @@ post merges, read the top of `/feed` (or the registry order `wiki:sync` writes) 
 before the next merge if two invites touch. Never rebuild or reorder a stacked post to go out ahead
 of another one without saying so first.
 
-Never reuse the same angle twice in a row. Six angles are listed below. Rotate them.
+Never reuse the same angle twice in a row. The angles in use are the second rotation, listed below.
+Rotate them.
 
 ## What an invite post looks like
 
@@ -78,9 +79,27 @@ advocate for beyond what they wrote.
 A post to somebody listed for plumbing is about plumbing. That is the difference the query's
 `invite_kind` column marks, and it is the difference that makes the post accurate.
 
-## Six angles
+## Second rotation (in use from 2026-10-14)
 
-Rotate these. Each is a way into the same invitation; none of them is a template to fill in.
+The first six carried the series from Steph Wo to Ms Thompson, 31 posts, and are rested (owner
+directive, 2026-10-14). These six replace them. Each rests on a published post, so an invite argues nothing the blog has not already said;
+link that post where the angle uses it. Rotate them the same way, never the same angle twice in a
+row. Each is a way into the same invitation; none of them is a template to fill in. Every invite
+still carries the parts listed under "What an invite post looks like", whatever its angle.
+
+| Angle | What it argues | Rests on | Best for |
+|---|---|---|---|
+| Counted by skills | A person is not one job title. The skills map counts somebody at every level and sector their skills reach, so one listing can fill gaps in several places at once | `counted-by-skills.md` | A listing that spans two or more sectors or trades |
+| A badge is a job title | The list is by skill, never by title or status, because a title says nothing about the person holding it. Nobody needs a current job, or any job, to be on it | `a-badge-is-a-job-title.md` | A listing with a former role, or no job title at all |
+| Somebody can look for this | The front page at chargingthefuture.com lets anybody tap a need and see how many people on the list could help, with no account, and an unmatched need is noted. This person is in those counts. Never claim a specific visitor searched for them | `see-who-could-help-without-an-account.md` | Skills behind the front page's needs: a job, food, housing, health care, legal help, a ride, childcare, someone to talk to |
+| What is left of a day | A small task toward somebody else's goal, done with what is left of a day, is how the Goals board works, and a skill makes the task possible | `the-lit-country.md`, the Goals board | Skills that break into small tasks someone could do from a phone |
+| You do not owe me anything | A trafficker's stance is that a stranger already owes them. The list's is the opposite: being on it costs nothing and asks for nothing back | `you-dont-owe-me-anything.md` | Somebody whose public writing is wary of offers that come with strings |
+| In every country | The answer is never one walled place, because the people it is for are in every country. A listing outside the United States is a hearth somewhere the map is dark | `the-lit-country.md` | A listing outside the United States |
+
+## First rotation (2026-08-20 to 2026-10-14, rested)
+
+Kept as the record of what the first 31 posts argued. Not to be used as a post's angle again
+unless the owner brings it back.
 
 | Angle | What it argues | Best for |
 |---|---|---|
