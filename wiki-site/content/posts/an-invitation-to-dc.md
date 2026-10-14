@@ -12,7 +12,7 @@ topics:
 
 The answer here was never one walled place, because the people it is for are in every country. [The lit country](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-lit-country) is a map of that: a hearth for each survivor, spread across a dozen scattered lands, each with a trade.
 
-Most of the people on the list are in the United States. Every one somewhere else is a place on the map that is not dark.
+DC's is in the United Kingdom.
 
 ## DC
 
