@@ -1,20 +1,22 @@
 ---
 title: "The reaction is what gets written down"
 date: "2026-10-14"
-excerpt: "A question I saved on Quora asked three things: are they police or a neighborhood watch, are they building a case, and what is the main goal. Both and more; yes, a picture of you; and to leave you with nothing they do not control."
+excerpt: "Aron Mangiarotti asked on Quora three things: are they police or a neighborhood watch, are they building a case, and what is the main goal. Both and more; yes, a picture of you; and to leave you with nothing they do not control."
 category: "Community"
-teaser: "A question I saved on Quora and never answered: are they law enforcement or community neighborhood watch groups, do I have to worry about them building a case, and what is their main goal? Not one or the other. It is various groups collaborating, police and Neighborhood Watch among them, and a job title says nothing about who holds it. The case being built is mostly a picture rather than a charge: the standing verdict that you are mentally ill or dangerous. You are provoked until you react like anyone would, and the reaction is what gets written down. The goal is to bankrupt you, to have you in prison or committed, or worse, and the economy behind it is what the harassment serves. A dated record you own is the thing that picture has to get past."
+teaser: "Aron Mangiarotti asked on Quora: are they law enforcement or community neighborhood watch groups, do I have to worry about them building a case, and what is their main goal? Not one or the other. It is various groups collaborating, police and Neighborhood Watch among them, and a job title says nothing about who holds it. The case being built is mostly a picture rather than a charge: the standing verdict that you are mentally ill or dangerous. You are provoked until you react like anyone would, and the reaction is what gets written down. The goal is to bankrupt you, to have you in prison or committed, or worse, and the economy behind it is what the harassment serves. A dated record you own is the thing that picture has to get past."
 topics:
   - specterati
   - community
   - clicklog
 ---
 
-A question I saved on Quora in October 2024 and never answered, as its title was recovered from the address it was saved at:
+A question on Quora, asked by Aron Mangiarotti (https://www.quora.com/profile/Aron-Mangiarotti) on March 10, 2021, which I saved in October 2024 and never answered:
 
-> Are gang stalkers law enforcement or community neighborhood watch groups Do I have to worry about them building a case Whats their main goal
+> Are gang stalkers law enforcement or community neighborhood watch groups? Do I have to worry about them building a case? What's their main goal?
 
-The address it was saved at is https://www.quora.com/Are-gang-stalkers-law-enforcement-or-community-neighborhood-watch-groups-Do-I-have-to-worry-about-them-building-a-case-Whats-their-main-goal. The account that saved it was erased, so there is nobody to credit by name. The list I keep of saved questions holds two more that ask the third part on its own: what the main goal is, and what the goals of these groups are. The [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary) carries the words I use for this; the question keeps the words it was asked in.
+The question is at https://www.quora.com/Are-gang-stalkers-law-enforcement-or-community-neighborhood-watch-groups-Do-I-have-to-worry-about-them-building-a-case-Whats-their-main-goal, with 7 public followers and 168.2 thousand views. The list I keep of saved questions holds two more that ask the third part on its own: what the main goal is, and what the goals of these groups are. The [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary) carries the words I use for this; the question keeps the words it was asked in.
+
+![The question on its Quora page, captured October 14, 2026. The heading reads: Are gang stalkers law enforcement or community neighborhood watch groups? Do I have to worry about them building a case? What's their main goal? Below it, under Asked by, the name Aron Mangiarotti. Under Question stats: 7 public followers, 168.2K views, last followed Aug 17, 2025. Below that, the question record: Question added by Aron Mangiarotti, number 1400009058, Thank, Report, March 10, 2021 at 10:54:53 PM.](images/aron-mangiarotti-question-2026-10-14.jpg)
 
 ## Not one or the other
 
