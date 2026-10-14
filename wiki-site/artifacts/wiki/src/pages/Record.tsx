@@ -11,13 +11,14 @@ import { formatArticleDate } from "@/lib/dates";
 /**
  * The Record is the Quora writing, read forwards.
  *
- * The feed answers what is being said now. This page answers something the
- * feed cannot while it runs newest-first: how long this went on, how much of
- * it there was, and how many places it was spread across before the accounts
- * holding it were deleted. So it runs oldest to newest, it carries only the
- * writing that lived on other people's pages, and it draws each account's
- * erasure across the timeline at the date it happened — the entries continue
- * past every one of them.
+ * The feed answers what is being said now. This page answers how long this
+ * went on, how much of it there was, and how many places it was spread across
+ * before the accounts holding it were deleted. It carries only the writing that
+ * lived on other people's pages, and it draws each account's erasure across the
+ * timeline at the date it happened — the entries continue past every one of
+ * them. It runs newest to oldest, like the feed (owner directive, 2026-10-14;
+ * it ran oldest first before). Entry numbers stay chronological, No. 1 the
+ * oldest, so a number means the same entry whichever way the page runs.
  *
  * Posts to the author's own space are not here. Those are the blog's own
  * archive material and they read as complete pieces; The Record is the writing
@@ -86,7 +87,8 @@ export default function Record() {
   const accountFilter = params.get("account") ?? "";
   const kindFilter = params.get("kind") ?? "";
 
-  // ARTICLES is newest-first; the Record runs the other way.
+  // ARTICLES is newest-first. `all` is kept oldest first so entry numbers are
+  // chronological and the span below reads first to last; the page shows it reversed.
   const all = useMemo(
     () =>
       ARTICLES.filter((a) => a.archive?.source === "quora" && a.archive.kind).slice().reverse(),
@@ -108,7 +110,7 @@ export default function Record() {
         (!accountFilter || a.archive?.account === accountFilter) &&
         (!kindFilter || a.archive?.kind === kindFilter),
     );
-    return kept.map((article, i) => ({ article, number: i + 1 }));
+    return kept.map((article, i) => ({ article, number: i + 1 })).reverse();
   }, [all, accountFilter, kindFilter]);
 
   /**
@@ -168,34 +170,29 @@ export default function Record() {
 
   /**
    * Lays the erasures into the page's run of entries at the point in time they
-   * happened. An erasure is claimed by the first page whose entries reach its
-   * date, so one that falls in the gap between the last entry of one page and
-   * the first of the next still shows rather than disappearing into the seam.
-   * Whatever is left over trails the list — on the final page that is the
-   * accounts deleted after there was nothing left to delete.
+   * happened, newest first: an erasure sits right after the last entry written
+   * on or after its date, so the writing it deleted runs on below it. Erasures
+   * newer than every entry lead the first page — the accounts deleted after
+   * there was nothing left to delete. Each erasure belongs to the page holding
+   * the entry it follows, so none falls into the seam between two pages.
    */
-  const { rows, trailingMarkers } = useMemo(() => {
-    const lastDate = pageEntries[pageEntries.length - 1]?.article.date ?? "";
-    const previousDate = start > 0 ? entries[start - 1].article.date : null;
-    const pending = RECORD_MARKERS.filter(
-      (m) =>
-        (previousDate === null || m.date > previousDate) &&
-        (page === pageCount || m.date <= lastDate),
-    );
+  const { rows, leadingMarkers } = useMemo(() => {
+    const newestFirst = [...RECORD_MARKERS].sort((a, b) => b.date.localeCompare(a.date));
+    const newestEntry = entries[0]?.article.date ?? "";
+    const leading = page === 1 ? newestFirst.filter((m) => m.date > newestEntry) : [];
 
     const laid: Array<
       { type: "marker"; marker: (typeof RECORD_MARKERS)[number] } | { type: "entry"; entry: RecordEntry }
     > = [];
-    let next = 0;
-    for (const entry of pageEntries) {
-      while (next < pending.length && pending[next].date <= entry.article.date) {
-        laid.push({ type: "marker", marker: pending[next] });
-        next += 1;
-      }
+    pageEntries.forEach((entry, i) => {
       laid.push({ type: "entry", entry });
-    }
-    return { rows: laid, trailingMarkers: pending.slice(next) };
-  }, [pageEntries, entries, start, page, pageCount]);
+      const olderDate = entries[start + i + 1]?.article.date ?? "";
+      for (const m of newestFirst) {
+        if (m.date <= entry.article.date && m.date > olderDate) laid.push({ type: "marker", marker: m });
+      }
+    });
+    return { rows: laid, leadingMarkers: leading };
+  }, [pageEntries, entries, start, page]);
 
   const href = (next: { account?: string; kind?: string; page?: number }) => {
     const q = new URLSearchParams();
@@ -236,7 +233,7 @@ export default function Record() {
               link anyone had ever saved pointing at any of it.
             </p>
             <p className="font-sans text-lg text-gray-200">
-              This is that writing, in the order it was written, at an address
+              This is that writing, newest first, at an address
               nobody else can empty. Scattered across other people's questions
               and spaces while it lived. Put back in order here.
             </p>
@@ -300,6 +297,14 @@ export default function Record() {
         <p className="font-mono text-sm text-gray-400 mb-8">
           Showing {firstShown}–{lastShown} of {entries.length} · page {page} of {pageCount}
         </p>
+
+        {leadingMarkers.length > 0 && (
+          <div className="mb-10 ml-3 border-l-2 border-border pl-6 sm:pl-8 space-y-4">
+            {leadingMarkers.map((m) => (
+              <Erasure key={m.handle} marker={m} />
+            ))}
+          </div>
+        )}
 
         {entries.length === 0 ? (
           <p className="font-sans text-lg text-gray-300 panel bg-card p-6">
@@ -470,21 +475,13 @@ export default function Record() {
           </ol>
         )}
 
-        {trailingMarkers.length > 0 && (
-          <div className="mt-10 ml-3 border-l-2 border-border pl-6 sm:pl-8 space-y-4">
-            {trailingMarkers.map((m) => (
-              <Erasure key={m.handle} marker={m} />
-            ))}
-          </div>
-        )}
-
         <nav className="mt-12 flex flex-wrap items-center justify-between gap-4" aria-label="Record pages">
           {page > 1 ? (
             <Link
               href={href({ page: page - 1 })}
               className="font-heading text-lg uppercase font-bold px-4 py-2 bg-card border border-border text-white hover:border-white"
             >
-              ← Earlier
+              ← Newer
             </Link>
           ) : (
             <span />
@@ -499,7 +496,7 @@ export default function Record() {
               href={href({ page: page + 1 })}
               className="font-heading text-lg uppercase font-bold px-4 py-2 bg-card border border-border text-white hover:border-white"
             >
-              Later →
+              Older →
             </Link>
           ) : (
             <span />
