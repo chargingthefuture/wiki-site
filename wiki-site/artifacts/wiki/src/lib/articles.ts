@@ -43,7 +43,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Picked off early",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-10-14",
-    "excerpt": "Survivors name the FBI program that went after Martin Luther King Jr. and almost never name King. His case admits it was never only the government.",
+    "excerpt": "Survivors name the FBI program that went after Martin Luther King Jr. and almost never name King. His case admits it was never only a government.",
     "category": "Community",
     "collection": "posts",
     "path": "posts/picked-off-early.md",
