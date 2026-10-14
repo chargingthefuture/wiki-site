@@ -1,6 +1,6 @@
 ---
 title: "Dictionary: Skills Economy Terms"
-date: "2026-10-03"
+date: "2026-10-13"
 excerpt: "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record."
 category: "Resources"
 slug: Dictionary
@@ -14,6 +14,8 @@ topics:
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
 ## Latest changes
+
+2026-10-13 — Exit their economy, exit the psyop. is the mission line, replacing Live, Work, and Prevail. The Skills Economy mark is the logo on every site.
 
 2026-10-03 — Workforce described by what it is: a live simulation of individual and community potential, modeled on Finland, the only place with open data good enough to build it from. Not a source of jobs; it shows the gaps a member can fill.
 
@@ -55,7 +57,7 @@ Targeted Individual (TI) — the term many survivors use for themselves and sear
 
 Psyop-Free Economy — the positioning phrase for the goal: economic participation outside Specterati influence.
 
-Live, Work, and Prevail — the mission line.
+Exit their economy, exit the psyop. — the mission line, since October 13, 2026. It replaced Live, Work, and Prevail, which posts written before then still carry.
 
 ## Counting people (this is not a typical app)
 
