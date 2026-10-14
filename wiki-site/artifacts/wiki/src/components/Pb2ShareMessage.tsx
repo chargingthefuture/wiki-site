@@ -215,7 +215,7 @@ export function Pb2ShareMessage() {
         One a day. Come back tomorrow for the next.
       </p>
 
-      <div className="bg-card border-4 border-black comic-shadow-sm p-6">
+      <div className="bg-card border border-border p-6">
         <p className="font-heading text-xs uppercase tracking-widest text-primary mb-3">
           {message.feature}
         </p>
@@ -230,7 +230,7 @@ export function Pb2ShareMessage() {
           <button
             type="button"
             onClick={copy}
-            className="inline-flex items-center gap-2 bg-primary text-white font-heading font-bold uppercase tracking-wider border-4 border-black comic-shadow-sm px-5 py-3 hover:-translate-y-0.5 hover:-translate-x-0.5 transition-transform"
+            className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-heading font-semibold rounded-xl px-5 py-3 transition-opacity hover:opacity-90"
           >
             {copied ? <Check size={18} aria-hidden="true" /> : <Copy size={18} aria-hidden="true" />}
             {copied ? "Copied" : "Copy this post"}

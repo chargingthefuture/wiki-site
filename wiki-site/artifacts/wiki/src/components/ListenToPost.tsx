@@ -8,7 +8,7 @@ import { Headphones } from "lucide-react";
  */
 export function ListenToPost({ src }: { src: string }) {
   return (
-    <div className="mt-6 bg-black border-2 border-gray-800 p-4">
+    <div className="mt-6 bg-black border border-border p-4">
       <div className="flex items-center gap-3 font-mono text-sm text-gray-300 mb-3">
         <Headphones size={18} className="text-accent shrink-0" />
         <span>Listen to this post. Read aloud by a computer voice.</span>

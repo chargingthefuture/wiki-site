@@ -78,8 +78,8 @@ function CommentBody({
     <div
       className={
         isReply
-          ? "ml-6 mt-3 border-l-4 border-gray-700 pl-4"
-          : "border-4 border-black comic-shadow-sm bg-card p-4 md:p-5"
+          ? "ml-6 mt-3 border-l-4 border-border pl-4"
+          : "border border-border bg-card p-4 md:p-5"
       }
     >
       <div className="font-mono text-xs text-primary uppercase tracking-wider">{comment.authorName}</div>
@@ -148,8 +148,8 @@ export function FiresideConversation({
   const top = shown.filter((comment) => comment.parentCommentId == null || isOrphan(comment));
 
   return (
-    <section className="mt-16 border-t-4 border-dashed border-gray-800 pt-8">
-      <h2 className="font-heading text-2xl font-bold uppercase text-white">Fireside</h2>
+    <section className="mt-16 border-t border-border pt-8">
+      <h2 className="font-display text-2xl text-white font-medium">Fireside</h2>
       <p className="mt-2 font-mono text-sm leading-relaxed text-gray-400">
         Conversation about this post. Anyone can read it, with no account and nothing to sign up
         for. Writing needs an account, and what you write becomes public once you are approved.
@@ -180,7 +180,7 @@ export function FiresideConversation({
 
       <a
         href={joinUrl(repo, slug, title)}
-        className="comic-shadow mt-8 inline-block border-4 border-black bg-primary px-6 py-3 font-heading font-bold uppercase tracking-wide text-black transition-transform hover:-translate-y-0.5"
+        className="mt-8 inline-block border border-border bg-primary px-6 py-3 font-heading font-bold uppercase tracking-wide text-black transition-transform"
       >
         {top.length > 0 ? "Join this conversation" : "Start this conversation"}
       </a>

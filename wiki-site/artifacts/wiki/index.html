@@ -20,6 +20,13 @@
       company on every page view, and a font stylesheet does exactly that.
       Fonts are self-hosted and bundled from src/main.tsx instead.
     -->
+    <!-- Apply a remembered Light / Dark choice before the page paints (src/components/ThemeToggle.tsx). -->
+    <script>
+      try {
+        var t = localStorage.getItem("ctf-theme");
+        if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
   </head>
   <body>
     <div id="root"></div>

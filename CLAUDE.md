@@ -80,6 +80,7 @@ carries it, because the owner froze that page outright and that freeze has not b
 - CI (no publish): `.github/workflows/wiki-validate.yml` on `main` pushes and PRs.
 - Weekly product updates are committed into `content/product-updates/` by `generate-product-update.yml` in the product repo.
 - Distribution posture: platforms (Quora etc.) receive excerpt + image + canonical link only; nothing is authored there. See `wiki-site/PUBLISHING.md`.
+- Design (owner decision, 2026-10-14): one design across the project's sites, one color per site. farahbrunache.com is forest green, chargingthefuture.com burgundy, and this blog black and white with coral as its only color. Newsreader for titles, DM Sans for the rest, both self-hosted. Light or dark follows the phone until the reader picks one in the header. The tokens are at the top of `artifacts/wiki/src/index.css`; Tailwind's white, black and gray shades are mapped to them, so `text-white` means the strongest text in either theme. The comic style (Bangers, Oswald, halftone, hard shadows) is retired.
 - RSS: `artifacts/wiki/public/feed.xml`, generated from the same front matter `wiki:sync` reads, by
   `scripts/src/build-feed.ts`. Newest 50 listed items across every collection, matching the site's
   own `/feed` page. Each item carries the post itself in `content:encoded`, not a teaser — a feed

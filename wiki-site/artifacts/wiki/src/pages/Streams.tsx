@@ -95,17 +95,16 @@ export default function Streams() {
     <Layout>
       <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="mb-12">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-white font-heading font-bold uppercase tracking-widest border-2 border-black mb-6 comic-shadow-sm transform -rotate-1">
+          <div className="inline-flex items-center gap-2 font-heading font-semibold text-xs uppercase tracking-[0.16em] text-primary mb-6">
             <Video size={18} />
             <span>The Streams</span>
           </div>
           <h1
-            className="font-display text-5xl sm:text-6xl text-white uppercase leading-[0.9] mb-4"
-            style={{ WebkitTextStroke: "2px var(--color-black)", textShadow: "4px 4px 0 var(--color-black)" }}
+            className="font-display text-5xl sm:text-6xl text-white leading-[0.9] mb-4 font-medium"
           >
             Every broadcast, recorded
           </h1>
-          <p className="font-sans text-lg text-gray-300 border-l-4 border-accent pl-4">
+          <p className="font-sans text-lg text-gray-300 border-l-2 border-accent pl-4">
             Every live broadcast from the app, newest first. Each one plays
             here with no account. Live broadcasts are at{" "}
             <a href={WATCH_URL} className="text-primary hover:underline">
@@ -149,13 +148,13 @@ export default function Streams() {
               const length = formatLength(replay);
               return (
                 <li key={replay.id} id={replay.id}>
-                  <article className="comic-panel bg-card relative overflow-hidden">
+                  <article className="panel bg-card relative overflow-hidden">
                     <div className="p-6 relative z-10">
                       <p className="font-mono text-sm text-gray-400 mb-3">
                         {formatWhen(replay.startedAtIso ?? replay.endedAtIso)}
                         {length ? ` · ${length}` : ""}
                       </p>
-                      <h2 className="text-xl sm:text-2xl font-heading font-bold text-white uppercase leading-tight mb-3">
+                      <h2 className="text-xl sm:text-2xl font-display text-white leading-tight mb-3 font-medium">
                         {replay.title}
                       </h2>
                       {replay.description.trim().length > 0 && (
@@ -170,7 +169,7 @@ export default function Streams() {
                         preload="none"
                         playsInline
                         src={replay.mediaUrl}
-                        className="w-full bg-black border-2 border-black"
+                        className="w-full bg-black border border-border"
                       >
                         <a href={replay.mediaUrl}>Open the recording</a>
                       </video>
@@ -190,7 +189,7 @@ export default function Streams() {
             {page > 1 ? (
               <Link
                 href={page - 1 === 1 ? "/streams" : `/streams?page=${page - 1}`}
-                className="font-heading text-lg uppercase font-bold px-4 py-2 bg-card border-2 border-gray-800 text-white hover:border-white"
+                className="font-heading text-lg uppercase font-bold px-4 py-2 bg-card border border-border text-white hover:border-white"
               >
                 ← Newer
               </Link>
@@ -205,7 +204,7 @@ export default function Streams() {
             {page < pageCount ? (
               <Link
                 href={`/streams?page=${page + 1}`}
-                className="font-heading text-lg uppercase font-bold px-4 py-2 bg-card border-2 border-gray-800 text-white hover:border-white"
+                className="font-heading text-lg uppercase font-bold px-4 py-2 bg-card border border-border text-white hover:border-white"
               >
                 Older →
               </Link>

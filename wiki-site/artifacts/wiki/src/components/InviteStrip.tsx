@@ -70,7 +70,7 @@ export function InviteStrip({ from }: { from: string }) {
         <div className="max-w-2xl">
           <h2
             id="invite-strip-heading"
-            className="font-heading font-bold text-2xl sm:text-3xl text-white uppercase leading-tight"
+            className="font-display text-2xl sm:text-3xl text-white leading-tight font-medium"
           >
             People already on the list
           </h2>
@@ -84,7 +84,7 @@ export function InviteStrip({ from }: { from: string }) {
             <button
               type="button"
               onClick={() => scrollByCard(-1)}
-              className="w-11 h-11 flex items-center justify-center bg-card border-4 border-black text-white comic-shadow-sm hover:bg-primary focus-visible:outline-4 focus-visible:outline-accent"
+              className="w-11 h-11 flex items-center justify-center bg-card border border-border text-white hover:bg-primary hover:text-primary-foreground focus-visible:outline-4 focus-visible:outline-accent"
               aria-label="Show the previous invitations"
             >
               <ChevronLeft size={22} />
@@ -92,7 +92,7 @@ export function InviteStrip({ from }: { from: string }) {
             <button
               type="button"
               onClick={() => scrollByCard(1)}
-              className="w-11 h-11 flex items-center justify-center bg-card border-4 border-black text-white comic-shadow-sm hover:bg-primary focus-visible:outline-4 focus-visible:outline-accent"
+              className="w-11 h-11 flex items-center justify-center bg-card border border-border text-white hover:bg-primary hover:text-primary-foreground focus-visible:outline-4 focus-visible:outline-accent"
               aria-label="Show the next invitations"
             >
               <ChevronRight size={22} />
@@ -108,17 +108,17 @@ export function InviteStrip({ from }: { from: string }) {
       >
         {invites.map((invite) => (
           <li key={invite.slug} className="snap-start shrink-0 w-[85vw] max-w-xs sm:w-80">
-            <article className="comic-panel bg-card h-full flex flex-col p-5">
+            <article className="panel bg-card h-full flex flex-col p-5">
               <span className="font-mono text-xs text-gray-400 mb-2">
                 {formatArticleDate(invite.date, { month: "short", day: "numeric", year: "numeric" })}
               </span>
-              <h3 className="font-heading font-bold text-xl text-white uppercase leading-tight mb-3">
+              <h3 className="font-display text-xl text-white leading-tight mb-3 font-medium">
                 {invite.title}
               </h3>
               <p className="font-sans text-gray-200 leading-relaxed flex-grow">{invite.opening}</p>
               <Link
                 href={`${getArticleUrl(invite.repo, invite.slug)}?from=${encodeURIComponent(from)}`}
-                className="mt-4 font-heading text-primary uppercase font-bold hover:underline decoration-4 underline-offset-4"
+                className="mt-4 font-heading text-primary uppercase font-bold hover:underline decoration-1 underline-offset-4"
               >
                 Read the invitation →
               </Link>

@@ -67,17 +67,16 @@ export default function Feed() {
       <InviteStrip from={search ? `/feed?${search}` : "/feed"} />
       <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="mb-12">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-white font-heading font-bold uppercase tracking-widest border-2 border-black mb-6 comic-shadow-sm transform -rotate-1">
+          <div className="inline-flex items-center gap-2 font-heading font-semibold text-xs uppercase tracking-[0.16em] text-primary mb-6">
             <Radio size={18} />
             <span>The Feed</span>
           </div>
           <h1
-            className="font-display text-5xl sm:text-6xl text-white uppercase leading-[0.9] mb-4"
-            style={{ WebkitTextStroke: "2px var(--color-black)", textShadow: "4px 4px 0 var(--color-black)" }}
+            className="font-display text-5xl sm:text-6xl text-white leading-[0.9] mb-4 font-medium"
           >
             Every post, in minutes
           </h1>
-          <p className="font-sans text-lg text-gray-300 border-l-4 border-accent pl-4">
+          <p className="font-sans text-lg text-gray-300 border-l-2 border-accent pl-4">
             The short version of every post, newest first. Each one stands on
             its own. "Read the full post" goes to the piece in full.
           </p>
@@ -89,18 +88,17 @@ export default function Feed() {
         <ol className="space-y-8" reversed>
           {pageEntries.map(({ article, number }) => (
             <li key={article.slug}>
-              <article className="comic-panel bg-card relative overflow-hidden">
-                <div className="absolute inset-0 bg-halftone opacity-20 pointer-events-none mix-blend-overlay"></div>
+              <article className="panel bg-card relative overflow-hidden">
                 <div className="p-6 relative z-10">
                   <div className="flex items-center justify-between gap-4 mb-3">
                     <span className="font-mono text-sm text-gray-400">
                       No. {number} · {formatArticleDate(article.date, { month: "short", day: "numeric", year: "numeric" })}
                     </span>
-                    <span className="px-2 py-0.5 bg-accent text-black font-heading font-bold text-xs uppercase tracking-wider border-2 border-black shrink-0">
+                    <span className="px-2 py-0.5 bg-accent text-black font-heading font-bold text-xs uppercase tracking-wider border border-border shrink-0">
                       {article.category}
                     </span>
                   </div>
-                  <h2 className="text-xl sm:text-2xl font-heading font-bold text-white uppercase leading-tight mb-3">
+                  <h2 className="text-xl sm:text-2xl font-display text-white leading-tight mb-3 font-medium">
                     {article.title}
                   </h2>
                   <p className="text-gray-200 font-sans text-lg leading-relaxed mb-4">
@@ -108,7 +106,7 @@ export default function Feed() {
                   </p>
                   <Link
                     href={`${getArticleUrl(article.repo, article.slug)}?from=${encodeURIComponent(search ? `/feed?${search}` : "/feed")}`}
-                    className="font-heading text-lg text-primary uppercase font-bold hover:underline decoration-4 underline-offset-4"
+                    className="font-heading text-lg text-primary uppercase font-bold hover:underline decoration-1 underline-offset-4"
                   >
                     Read the full post →
                   </Link>
@@ -125,7 +123,7 @@ export default function Feed() {
           {page > 1 ? (
             <Link
               href={page - 1 === 1 ? "/feed" : `/feed?page=${page - 1}`}
-              className="font-heading text-lg uppercase font-bold px-4 py-2 bg-card border-2 border-gray-800 text-white hover:border-white"
+              className="font-heading text-lg uppercase font-bold px-4 py-2 bg-card border border-border text-white hover:border-white"
             >
               ← Newer
             </Link>
@@ -140,7 +138,7 @@ export default function Feed() {
           {page < pageCount ? (
             <Link
               href={`/feed?page=${page + 1}`}
-              className="font-heading text-lg uppercase font-bold px-4 py-2 bg-card border-2 border-gray-800 text-white hover:border-white"
+              className="font-heading text-lg uppercase font-bold px-4 py-2 bg-card border border-border text-white hover:border-white"
             >
               Older →
             </Link>
