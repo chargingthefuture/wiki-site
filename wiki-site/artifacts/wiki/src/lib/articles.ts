@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "best-way-to-deal-with-it",
+    "title": "The best way to deal with it, in order",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-13",
+    "excerpt": "Somebody asked on Quora for the best way to deal with it. No way I know of ends it. What I can give is an order: five things, the cheapest first, each one making the next easier.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/best-way-to-deal-with-it.md",
+    "teaser": "A question on Quora asked for the best way to deal with it. No method I know of ends it, so the best way is an order rather than a single trick. First, write each incident down with the date and then put it down. Second, take your accounts back, one at a time, from a device you trust. Third, stop supplying what the incidents are staged to produce. Fourth, move what you depend on, your work, your room, your rides, to people who are not part of it. Fifth, stay in touch with other survivors, including in the quiet years. The first three need nobody else; the last two are what this economy is for.",
+    "topics": [
+      "clicklog",
+      "community",
+      "directory"
+    ],
+    "number": 441
+  },
+  {
     "slug": "see-who-could-help-without-an-account",
     "title": "See who could help you, before you make an account",
     "repo": "chargingthefuture/wiki-site",
