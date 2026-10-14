@@ -1,7 +1,7 @@
 ---
 title: "The best way to deal with it, in order"
 date: "2026-10-13"
-excerpt: "Somebody asked on Quora for the best way to deal with it. No way I know of ends it. What I can give is an order: five things, the cheapest first, each one making the next easier."
+excerpt: "A question on Quora asks for the best way to deal with it. No way I know of ends it. What I can give is an order: five things, the cheapest first, each one making the next easier."
 category: "Community"
 teaser: "A question on Quora asked for the best way to deal with it. No method I know of ends it, so the best way is an order rather than a single trick. First, write each incident down with the date and then put it down. Second, take your accounts back, one at a time, from a device you trust. Third, stop supplying what the incidents are staged to produce. Fourth, move what you depend on, your work, your room, your rides, to people who are not part of it. Fifth, stay in touch with other survivors, including in the quiet years. The first three need nobody else; the last two are what this economy is for."
 topics:
@@ -10,11 +10,13 @@ topics:
   - directory
 ---
 
-A question on Quora, saved on September 25, 2025:
+A question on Quora, added by the Quora Prompt Generator on July 9, 2023:
 
 > What is the best way to deal with organized stalking/gang stalking/electronic harassment?
 
-The question is at https://www.quora.com/What-is-the-best-way-to-deal-with-organized-stalking-gang-stalking-electronic-harassment. While nobody has answered it, Quora serves it at https://www.quora.com/unanswered/What-is-the-best-way-to-deal-with-organized-stalking-gang-stalking-electronic-harassment instead. The [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary) carries the words I use for this; the question keeps the words it was asked in.
+The question is at https://www.quora.com/What-is-the-best-way-to-deal-with-organized-stalking-gang-stalking-electronic-harassment, with 1.2 thousand views. While nobody has answered it, Quora serves it at https://www.quora.com/unanswered/What-is-the-best-way-to-deal-with-organized-stalking-gang-stalking-electronic-harassment instead. Quora's own prompt generator posted it rather than a person, so there is nobody to credit by name. I am answering it because survivors ask the same thing in their own words: the saved Quora questions this blog works from carry several versions of it. The [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary) carries the words I use for this; the question keeps the words it was asked in.
+
+![The question on its Quora page, captured October 13, 2026. The heading reads: What is the best way to deal with organized stalking/gang stalking/electronic harassment? Below it, under Asked by, the name Quora Prompt Generator. Under Question stats: 1.2K views, last requested Jul 9, 2023. Below that, the question record: Question added by Quora Prompt Generator, number 3023846164, Thank, Report, July 9, 2023 at 6:07:25 PM.](images/quora-prompt-generator-question-2026-10-13.jpg)
 
 [What can be stopped](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-can-be-stopped) gave the hard half of the answer. No method I know of has ended it, mine included, and a quiet stretch is not an ending. So the best way to deal with it is not a single method. It is an order: five things, the cheapest first, each one making the next one easier.
 

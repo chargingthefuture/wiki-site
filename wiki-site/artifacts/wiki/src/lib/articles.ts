@@ -43,7 +43,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "The best way to deal with it, in order",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-10-13",
-    "excerpt": "Somebody asked on Quora for the best way to deal with it. No way I know of ends it. What I can give is an order: five things, the cheapest first, each one making the next easier.",
+    "excerpt": "A question on Quora asks for the best way to deal with it. No way I know of ends it. What I can give is an order: five things, the cheapest first, each one making the next easier.",
     "category": "Community",
     "collection": "posts",
     "path": "posts/best-way-to-deal-with-it.md",
