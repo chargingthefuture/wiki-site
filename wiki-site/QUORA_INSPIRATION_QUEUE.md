@@ -606,7 +606,7 @@ follows it.
 ### 2025-11
 
 - [ ] I ve been doing much better and haven t seen as many gangstalkers Does that mean that if you re doing better gang stalk 3 — shared into a space · AM's Space Gangstalking, Revenge for Hire, TIs
-- [ ] Do perps use the same make models and colors of the vehicles that targets drive to harass their targets 3 — shared into a space · AM's Space Gangstalking, Revenge for Hire, TIs
+- [x] Do perps use the same make models and colors of the vehicles that targets drive to harass their targets 3 — shared into a space · AM's Space Gangstalking, Revenge for Hire, TIs
 - [ ] Is gang stalking the end to a target s life 8 — shared into a space · Targeted Individuals - Get Answers
 
 ### 2025-12
