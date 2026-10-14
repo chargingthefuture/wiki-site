@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "picked-off-early",
+    "title": "Picked off early",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-14",
+    "excerpt": "Survivors name the FBI program that went after Martin Luther King Jr. and almost never name King. The parallel is the method: stop a leader early.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/picked-off-early.md",
+    "teaser": "Targeted Individuals bring up COINTELPRO all the time and almost never bring up Martin Luther King Jr., its best-documented target. The people doing this will not draw that line, because it admits what they are. A 1968 FBI memo set a goal to prevent the rise of a leader before one existed, and I have been accused of being a leader as if it were an insult. King had no social media. He had churches, leaflets, a carpool, training, people who trained others, and a written record. Most of that can be built again.",
+    "topics": [
+      "specterati",
+      "history",
+      "community"
+    ],
+    "number": 443
+  },
+  {
     "slug": "best-way-to-deal-with-it",
     "title": "The best way to deal with it, in order",
     "repo": "chargingthefuture/wiki-site",
