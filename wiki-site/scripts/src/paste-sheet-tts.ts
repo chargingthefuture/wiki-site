@@ -49,7 +49,7 @@ const OUT = join(WIKI_ROOT, 'TTS_PASTE_SHEET.txt');
 const FROM = '2026-08-16';
 const SKIPPED_FILE = join(WIKI_ROOT, 'content/audio/skipped.yaml');
 const RERECORD_FILE = join(WIKI_ROOT, 'content/audio/rerecord.yaml');
-// The title is the contract for an invite post (see build-invites.ts).
+// The title is the contract for an invite post: "An invitation to <name>".
 const INVITE_TITLE = /^An invitation to\s+/i;
 const WHERE_TO_FIND = /^##\s+Where to find it in the app\s*$/im;
 const SIGN_UP = /^>?\s*To sign up: https:\/\/chargingthefuture\.com\..*$/m;
