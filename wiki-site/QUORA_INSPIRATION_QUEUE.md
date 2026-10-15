@@ -60,7 +60,7 @@ follows it.
 - [x] Why did I become a targeted individual for gang stalking — bookmarked · saved 5 times
 - [x] Why do gang stalkers use bright lights from cars to harass me — bookmarked
 - [x] What is gang stalking — bookmarked · saved 12 times
-- [ ] Do you regret being a targeted individual — bookmarked
+- [x] Do you regret being a targeted individual — bookmarked
 - [ ] How can targeted individuals reclaim power break free from organized stalking and find resilience amidst adversity — bookmarked
 - [ ] What are some signs that someone is being targeted by gang stalkers or organized stalkers — bookmarked · saved 5 times
 - [ ] What is the general perception of targeted individuals who claim to be victims of organized gang stalking Are they considered delusional or paranoid — bookmarked · saved 3 times

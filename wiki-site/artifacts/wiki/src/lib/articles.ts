@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "regret-needs-a-choice",
+    "title": "Regret needs a choice",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-15",
+    "excerpt": "A saved Quora question asks whether I regret being a Targeted Individual. Regret belongs to something a person decided, and being targeted was decided by the people doing it.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/regret-needs-a-choice.md",
+    "teaser": "A question I saved on Quora asks whether I regret being a Targeted Individual. No, because regret belongs to a decision, and this was never mine. It started when I was five, and trafficking someone is a choice made by the person doing it. There are no criteria for who gets put on the list; any petty reason will do. Operators tell targets a story in which they chose it or earned it, and a question about regret sits on the same line. There is a usual answer, that it was hard but gave something back. I do not give it. What I do decide is what I do with my own days, and some of what it costs can be cut.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "directory"
+    ],
+    "number": 462
+  },
+  {
     "slug": "a-light-you-are-meant-to-notice",
     "title": "A light you are meant to notice",
     "repo": "chargingthefuture/wiki-site",
