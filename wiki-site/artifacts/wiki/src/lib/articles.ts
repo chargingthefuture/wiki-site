@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-andrew",
+    "title": "An invitation to Andrew",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-15",
+    "excerpt": "A person is not one job title. Andrew Maze, in the United States, is listed for keeping machines and tools working, and the catalog files that in five sectors.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-andrew.md",
+    "teaser": "A person is not one job title, and the skills map does not count them as one. Andrew Maze, in the United States, has a Directory listing for one trade: keeping machines and tools working, from servicing equipment on a schedule to calibrating lab instruments. The catalog files that trade in five sectors, Mining and Extractive, Food and Agriculture, Energy and Utilities, Manufacturing and Industry, and R&D and High-Tech, because each of them runs on equipment somebody has to keep in order. This is an invitation to claim the listing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 468
+  },
+  {
     "slug": "a-light-you-are-meant-to-notice",
     "title": "A light you are meant to notice",
     "repo": "chargingthefuture/wiki-site",
