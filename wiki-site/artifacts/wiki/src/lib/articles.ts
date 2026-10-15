@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-adored-orange",
+    "title": "An invitation to Adored Orange",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-15",
+    "excerpt": "A small task toward somebody else's goal, done with what is left of a day, is how the Goals board works. Adored Orange is listed for an artist's work, which breaks into pieces that size.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-adored-orange.md",
+    "teaser": "Most of a Targeted Individual's day goes to the attacks, and what is left might be five percent. The Goals board in PeerProgramming runs on that sliver: a goal is broken into cards, small tasks somebody else can do from a phone in under half an hour, and twenty people's five percent is a working day. A skill is what makes a card doable. Adored Orange, in the United States, has a Directory listing for creative technique and portfolio development, work that breaks into pieces that size. Across the list, 36 of the 92 creative and media skills the app tracks are held by anybody. This is an invitation to claim the listing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 456
+  },
+  {
     "slug": "arranged-to-look-like-something-else",
     "title": "Arranged to look like something else",
     "repo": "chargingthefuture/wiki-site",
