@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-aaron-rasco",
+    "title": "An invitation to Aaron",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-15",
+    "excerpt": "A person is not one job title. Aaron, in Colorado Springs, Colorado, is listed for loading and unloading vehicles and for knowing a place well enough to explain it, in two sectors at once.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-aaron-rasco.md",
+    "teaser": "A person is not one job title, and the skills map does not count them as one. Aaron, in Colorado Springs, Colorado, has a Directory listing that reaches two sectors: loading and unloading vehicles, filed with warehouse work in Transport and Logistics, and local knowledge and interpretation, filed with tour guides in Tourism and Hospitality. Across the list, 20 of the 37 transport and logistics skills and 8 of the 16 tourism and hospitality skills the app tracks are held by anybody. Counted by skills, one listing counts in both. This is an invitation to claim the listing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 454
+  },
+  {
     "slug": "a-lie-for-every-bias",
     "title": "A lie for every bias",
     "repo": "chargingthefuture/wiki-site",
