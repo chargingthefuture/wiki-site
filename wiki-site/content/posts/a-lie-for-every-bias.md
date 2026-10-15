@@ -1,20 +1,22 @@
 ---
 title: "A lie for every bias"
 date: "2026-10-14"
-excerpt: "A question I saved on Quora asked why workplace mobbing, vigilantism and discrimination are more connected than people realize. They are one arrangement under three names, and bias is how it recruits."
+excerpt: "Roderic Duplechain asked on Quora why workplace mobbing, vigilantism and discrimination are more connected than people realize. They are one arrangement under three names, and bias is how it recruits."
 category: "Community"
-teaser: "A question I saved on Quora asked about workplace mobbing and vigilantism, and why these forms of harassment and discrimination are more connected than you may realize. They are one arrangement under different names. Mobbing is the name for it at work. Vigilantism is the name for it as the people taking part are told to see it, as though they were contributing to society. And discrimination is how it recruits: the network tells each harasser a lie built on their own bias. Somebody who hates the government is told the target is a spy; a racist is told a lie about race. Most of them know they are not following a criminal. A reason is not a justification."
+teaser: "Roderic Duplechain asked on Quora about workplace mobbing and vigilantism, and why these forms of harassment and discrimination are more connected than you may realize. They are one arrangement under different names. Mobbing is the name for it at work. Vigilantism is the name for it as the people taking part are told to see it, as though they were contributing to society. And discrimination is how it recruits: the network tells each harasser a lie built on their own bias. Somebody who hates the government is told the target is a spy; a racist is told a lie about race. Most of them know they are not following a criminal. A reason is not a justification."
 topics:
   - specterati
   - community
   - clicklog
 ---
 
-A question I saved on Quora in October 2024 and never answered, as its title was recovered from the address it was saved at:
+A question on Quora, asked by Roderic Duplechain (https://www.quora.com/profile/Roderic-Duplechain) on May 5, 2023, which I saved in October 2024 and never answered:
 
-> Are you a victim of gang stalking workplace mobbing or vigilantism Why are these forms of harassment and discrimination more interconnected than you may realize
+> Are you a victim of gang stalking, workplace mobbing, or vigilantism? Why are these forms of harassment and discrimination more interconnected than you may realize?
 
-The address it was saved at is https://www.quora.com/Are-you-a-victim-of-gang-stalking-workplace-mobbing-or-vigilantism-Why-are-these-forms-of-harassment-and-discrimination-more-interconnected-than-you-may-realize. The [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary) carries the words I use for this; the question keeps the words it was asked in.
+The question is at https://www.quora.com/Are-you-a-victim-of-gang-stalking-workplace-mobbing-or-vigilantism-Why-are-these-forms-of-harassment-and-discrimination-more-interconnected-than-you-may-realize, with 4 public followers and 3.3 thousand views. The [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary) carries the words I use for this; the question keeps the words it was asked in.
+
+![The question on its Quora page, captured October 14, 2026. The heading reads: Are you a victim of gang stalking, workplace mobbing, or vigilantism? Why are these forms of harassment and discrimination more interconnected than you may realize? Below it, under Asked by, the name Roderic Duplechain. Under Question stats: 4 public followers, 3.3K views, last followed Dec 22, 2024. Below that, the question record: Question added by Roderic Duplechain, number 2902502614, Thank, Report, May 5, 2023 at 4:28:12 PM.](images/roderic-duplechain-question-2026-10-14.jpg)
 
 ## One arrangement, several names
 

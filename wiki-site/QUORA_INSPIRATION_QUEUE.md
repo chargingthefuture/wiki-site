@@ -47,7 +47,7 @@ follows it.
 <!-- spelling:disable — every line below is somebody else's question title, recovered verbatim from the address it was saved at; respelling one would misquote the person who asked it. -->
 
 - [x] Are gang stalkers law enforcement or community neighborhood watch groups Do I have to worry about them building a case Whats their main goal — bookmarked (asked by Aron Mangiarotti, https://www.quora.com/profile/Aron-Mangiarotti, on 2021-03-10; answered in the-reaction-is-what-gets-written-down.md)
-- [x] Are you a victim of gang stalking workplace mobbing or vigilantism Why are these forms of harassment and discrimination more interconnected than you may realize — bookmarked
+- [x] Are you a victim of gang stalking workplace mobbing or vigilantism Why are these forms of harassment and discrimination more interconnected than you may realize — bookmarked (asked by Roderic Duplechain, https://www.quora.com/profile/Roderic-Duplechain, on 2023-05-05; answered in a-lie-for-every-bias.md)
 - [ ] Can gang stalkers actually be out to harm or even kill their targeted individuals — bookmarked · saved 3 times
 - [ ] Gang stalking Organized Stalking Leaked documents RT news — bookmarked · learningandresearchti
 - [ ] How can a T I victim escape the harassment from their gang stalker when they have all your information name SSN and your DOB — bookmarked
