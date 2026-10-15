@@ -43,11 +43,11 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "A lie for every bias",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-10-14",
-    "excerpt": "A question I saved on Quora asked why workplace mobbing, vigilantism and discrimination are more connected than people realize. They are one arrangement under three names, and bias is how it recruits.",
+    "excerpt": "Roderic Duplechain asked on Quora why workplace mobbing, vigilantism and discrimination are more connected than people realize. They are one arrangement under three names, and bias is how it recruits.",
     "category": "Community",
     "collection": "posts",
     "path": "posts/a-lie-for-every-bias.md",
-    "teaser": "A question I saved on Quora asked about workplace mobbing and vigilantism, and why these forms of harassment and discrimination are more connected than you may realize. They are one arrangement under different names. Mobbing is the name for it at work. Vigilantism is the name for it as the people taking part are told to see it, as though they were contributing to society. And discrimination is how it recruits: the network tells each harasser a lie built on their own bias. Somebody who hates the government is told the target is a spy; a racist is told a lie about race. Most of them know they are not following a criminal. A reason is not a justification.",
+    "teaser": "Roderic Duplechain asked on Quora about workplace mobbing and vigilantism, and why these forms of harassment and discrimination are more connected than you may realize. They are one arrangement under different names. Mobbing is the name for it at work. Vigilantism is the name for it as the people taking part are told to see it, as though they were contributing to society. And discrimination is how it recruits: the network tells each harasser a lie built on their own bias. Somebody who hates the government is told the target is a spy; a racist is told a lie about race. Most of them know they are not following a criminal. A reason is not a justification.",
     "topics": [
       "specterati",
       "community",
