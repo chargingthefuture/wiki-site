@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-alani",
+    "title": "An invitation to Alani",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-15",
+    "excerpt": "Anybody can tap Health care or Housing on chargingthefuture.com and see how many people could help, with no account. Alani is one of the people in both counts.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-alani.md",
+    "teaser": "The front page at chargingthefuture.com lets anybody tap what they need and see how many people on the list could help, with no account and no name given. Two of the choices are health care and housing. Alani, in the United States, has a Directory listing for first aid and CPR, home improvement, and manufacturing, and is one of the people both of those counts are made of. Across the list, 53 of the 96 health skills and 18 of the 51 housing and construction skills the app tracks are held by anybody. This is an invitation to claim the listing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 458
+  },
+  {
     "slug": "what-they-know-is-not-the-hold",
     "title": "What they know is not the hold",
     "repo": "chargingthefuture/wiki-site",
