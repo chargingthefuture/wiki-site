@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-andrea",
+    "title": "An invitation to Andrea",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-15",
+    "excerpt": "A trafficker starts from the belief that a stranger already owes them. Andrea, in Florida, is on a list that asks for nothing back, for ethics investigations and settling disputes at work.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-andrea.md",
+    "teaser": "A trafficker meets a stranger and starts from the belief that the stranger already owes them something. The list starts from the opposite: being on it costs nothing and asks for nothing back. Andrea, in Florida, has a Directory listing for ethics investigations and reporting, writing and putting ethics policy into practice, and settling disputes between people at work. Across the list, 21 of the 52 professional and business services skills the app tracks are held by anybody. This is an invitation to claim the listing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 466
+  },
+  {
     "slug": "any-petty-reason-is-enough",
     "title": "Any petty reason is enough",
     "repo": "chargingthefuture/wiki-site",
