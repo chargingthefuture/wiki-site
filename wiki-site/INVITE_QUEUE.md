@@ -1,7 +1,7 @@
 # Invite queue
 
 An invite post is written for one person who is already listed in the Directory, and it names what
-they actually do. Thirty-four have been published. This file tracks who is next, what has gone out, and
+they actually do. Thirty-five have been published. This file tracks who is next, what has gone out, and
 the two rules that keep the series readable.
 
 The list of people comes from `/admin/directory/invite-queue` in the app — reachable from the
@@ -148,6 +148,7 @@ unless the owner brings it back.
 | DC | dc-1341 | an-invitation-to-dc.md | Hotel work, guest services, room preparation and complaints, from the United Kingdom, against the answer being in every country; Tourism & Hospitality at 8 of 16 | 2026-10-14 |
 | 00 | 00-661 | an-invitation-to-00.md | Eight skills across three sectors, branding, video, marketing and site safety, against a person not being one job title | 2026-10-14 |
 | Ric Vaughn | ric-vaughn | an-invitation-to-ric.md | Three legal skills, against anybody being able to tap Legal help on the front page and see a count they are part of; Public Safety & Justice at 4 of 22 | 2026-10-14 |
+| Aaron | Aaron-Rasco-5 | an-invitation-to-aaron-rasco.md | Loading and unloading vehicles beside local knowledge and interpretation, two sectors on one listing, against a person not being one job title; Transport & Logistics at 20 of 37 and Tourism & Hospitality at 8 of 16 | 2026-10-15 |
 
 When a post merges, add its row here and add the handle in two places in the product repository,
 in the same piece of work: the `DIRECTORY_INVITE_ALREADY_WRITTEN` array in
@@ -190,6 +191,7 @@ needed to write the next posts, because the copied list itself is never committe
 | DC | dc-1341 | Complaint handling; guest services and reservation systems; room preparation and cleanliness standards; United Kingdom | skill-specific | In every country (second rotation) | published — Tourism & Hospitality held 8 of 16 on the 2026-10-14 read (312 people, 260 of 713) |
 | 00 | 00-661 | Branding and identity systems; analytics and growth tactics; trend analysis; video/audio recording and editing; visual concept development; marketing; market research and segmentation; site safety practices; United Kingdom | skill-specific | Counted by skills (second rotation) | published — Creative & Media held 36 of 92, Professional & Business Services 21 of 52 and Housing & Construction 18 of 51 on the 2026-10-14 read (312 people, 260 of 713) |
 | Ric Vaughn | ric-vaughn | Case preparation and negotiation; contract and statutory interpretation; legal advocacy and advice; United States | skill-specific | Somebody can look for this (second rotation) | published — Public Safety & Justice held 4 of 22 on the 2026-10-14 read (321 people, 260 of 713). Merges after the 00 invite with an ordinary post between them |
+| Aaron | Aaron-Rasco-5 | Loading and unloading vehicles; local knowledge and interpretation; Colorado Springs, Colorado | skill-specific | Counted by skills (second rotation) | published — Transport & Logistics held 20 of 37 and Tourism & Hospitality 8 of 16 on the 2026-10-14 read (321 people, 260 of 713) |
 
 Status is one of: `queued`, `drafted`, `in PR`, `published`, `skipped`. A skipped row keeps its
 reason in the notes column so nobody re-queues it a month later.
