@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-altehexer",
+    "title": "An invitation to AlteHexer",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-15",
+    "excerpt": "A card on the Goals board is a small task done with what is left of a day. AlteHexer, in the United States, is listed for programming and software design.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-altehexer.md",
+    "teaser": "Most of a Targeted Individual's day goes to the attacks, and what is left might be five percent. Five percent is not enough to reach a goal alone, but twenty members with five percent each is a working day, and that is what the Goals board runs on: a goal broken into cards small enough to do from a phone. AlteHexer, in the United States, has a Directory listing for programming and software design. Across the list, 4 of the 20 telecommunications and IT skills the app tracks are held by anybody. This is an invitation to claim the listing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 464
+  },
+  {
     "slug": "gain-is-not-an-illness",
     "title": "Gain is not an illness",
     "repo": "chargingthefuture/wiki-site",
