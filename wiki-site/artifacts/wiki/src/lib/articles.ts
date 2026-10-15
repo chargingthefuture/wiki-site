@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "organized-crime-that-announces-itself",
+    "title": "Organized crime that announces itself",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-15",
+    "excerpt": "Two saved questions ask what this is and how the people doing it operate. It is organized crime, human trafficking and group vigilantism, carried out by many ordinary people who make sure the target knows they are there.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/organized-crime-that-announces-itself.md",
+    "teaser": "Two questions I saved on Quora ask what this is and how the people doing it operate. It is organized crime: human trafficking and group vigilantism, a control mechanism run by traffickers with the harassment as its enforcement arm. It is not a secret society, because the people taking part announce themselves to their targets all day long. Most of it runs on a standing permission rather than an order, and the planned part, where I have seen it, ran on instructions read off a phone. Each method is small on purpose, so that nothing taken alone can be reported. A definition stops none of it. It gives the thing a shape and a name, and then the costs can be cut one at a time.",
+    "topics": [
+      "specterati",
+      "community",
+      "clicklog"
+    ],
+    "number": 461
+  },
+  {
     "slug": "an-invitation-to-alex",
     "title": "An invitation to Alex",
     "repo": "chargingthefuture/wiki-site",
