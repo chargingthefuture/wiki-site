@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-alicia",
+    "title": "An invitation to Alicia",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-15",
+    "excerpt": "The list is by skill, not by job title, and nobody needs a current job to be on it. Alicia Macchione, in Florida, is listed for the work of a shop, skill by skill.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-alicia.md",
+    "teaser": "The list is by skill, never by title or status, because a title says nothing about the person holding it, and nobody needs a current job, or any job, to be on it. Alicia Macchione, in Florida, has a Directory listing for the work of a shop: looking after customers, running the till, keeping track of stock and filling the shelves. All five skills are filed in Retail and Services, where 14 of the 15 skills the app tracks are held by anybody on the list, the nearest any sector comes to full. This is an invitation to claim the listing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 462
+  },
+  {
     "slug": "organized-crime-that-announces-itself",
     "title": "Organized crime that announces itself",
     "repo": "chargingthefuture/wiki-site",

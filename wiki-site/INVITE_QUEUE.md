@@ -1,7 +1,7 @@
 # Invite queue
 
 An invite post is written for one person who is already listed in the Directory, and it names what
-they actually do. Thirty-eight have been published. This file tracks who is next, what has gone out, and
+they actually do. Thirty-nine have been published. This file tracks who is next, what has gone out, and
 the two rules that keep the series readable.
 
 The list of people comes from `/admin/directory/invite-queue` in the app — reachable from the
@@ -152,6 +152,7 @@ unless the owner brings it back.
 | Adored Orange | adored-orange | an-invitation-to-adored-orange.md | Creative technique and portfolio development, an artist's work that breaks into half-hour cards on the Goals board, after answering their question in count-the-recruits.md; Creative & Media at 36 of 92 | 2026-10-15 |
 | Alani | Alani-57 | an-invitation-to-alani.md | First aid and CPR, home improvement and manufacturing, against anybody being able to tap Health care or Housing on the front page and see a count they are part of; the first Targeted Individual on the Directory beside the owner; Health at 53 of 96 and Housing & Construction at 18 of 51 | 2026-10-15 |
 | Alex | Alex-Dunican | an-invitation-to-alex.md | Community organizing, from Ireland, against the answer being in every country; Finance & Public Administration at 9 of 34 | 2026-10-15 |
+| Alicia Macchione | Alicia-Macchione-4 | an-invitation-to-alicia.md | Customer service, the till, inventory and restocking, against the list being by skill rather than title, with no current job needed; Retail & Services at 14 of 15 | 2026-10-15 |
 
 When a post merges, add its row here and add the handle in two places in the product repository,
 in the same piece of work: the `DIRECTORY_INVITE_ALREADY_WRITTEN` array in
@@ -198,6 +199,7 @@ needed to write the next posts, because the copied list itself is never committe
 | Adored Orange | adored-orange | Creative technique and portfolio development; United States | skill-specific | What is left of a day (second rotation) | published — Creative & Media held 36 of 92 on the 2026-10-14 read (321 people, 260 of 713) |
 | Alani | Alani-57 | First Aid & CPR; home improvement; manufacturing; United States | skill-specific | Somebody can look for this (second rotation) | published — Health held 53 of 96, Housing & Construction 18 of 51 and Manufacturing & Industry 16 of 28 on the 2026-10-14 read (321 people, 260 of 713) |
 | Alex | Alex-Dunican | Community organizer; Ireland | skill-specific | In every country (second rotation) | published — Finance & Public Administration held 9 of 34 on the 2026-10-14 read (321 people, 260 of 713) |
+| Alicia Macchione | Alicia-Macchione-4 | Client service skills; customer service; point-of-sale operation; inventory control; stock replenishment; Florida | skill-specific | A badge is a job title (second rotation) | published — Retail & Services held 14 of 15 on the 2026-10-14 read (321 people, 260 of 713) |
 
 Status is one of: `queued`, `drafted`, `in PR`, `published`, `skipped`. A skipped row keeps its
 reason in the notes column so nobody re-queues it a month later.
