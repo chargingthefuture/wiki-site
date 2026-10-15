@@ -57,7 +57,7 @@ follows it.
 - [x] What is your opinion of people who engage in stalking activities for revenge and or personal gain Do you think they have psychological issues If so what are they — bookmarked
 - [–] What legal avenues are available for targeted individuals to seek justice against gang stalking and organized harassment — bookmarked (set aside, 2026-10-15: it asks for legal advice, which this blog does not give. Not a post.)
 - [–] When gang stalkers text my phone is it installing spyware? I cannot tell if every company has a back door and part of this or if everyone I speak to is simply hacked and exposing my communications. — submitted to a space · Targeted Individuals - Get Answers · saved 2 times (set aside, 2026-10-15: it asks for technology advice, which this blog does not give. Not a post.)
-- [ ] Why did I become a targeted individual for gang stalking — bookmarked · saved 5 times
+- [x] Why did I become a targeted individual for gang stalking — bookmarked · saved 5 times
 - [ ] Why do gang stalkers use bright lights from cars to harass me — bookmarked
 - [x] What is gang stalking — bookmarked · saved 12 times
 - [ ] Do you regret being a targeted individual — bookmarked
