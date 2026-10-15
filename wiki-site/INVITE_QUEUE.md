@@ -1,7 +1,7 @@
 # Invite queue
 
 An invite post is written for one person who is already listed in the Directory, and it names what
-they actually do. Forty-three have been published. This file tracks who is next, what has gone out, and
+they actually do. Forty-four have been published. This file tracks who is next, what has gone out, and
 the two rules that keep the series readable.
 
 The list of people comes from `/admin/directory/invite-queue` in the app — reachable from the
@@ -157,6 +157,7 @@ unless the owner brings it back.
 | Andrea | Andrea-R-453 | an-invitation-to-andrea.md | Ethics investigations, ethics policy and conflict resolution, against a list that asks for nothing back; Professional & Business Services at 21 of 52 | 2026-10-15 |
 | Andrew Maze | andrew-maze-5 | an-invitation-to-andrew.md | Equipment and preventive maintenance, calibration and tool care, one trade filed under five sectors, against a person not being one job title; Mining / Extractive at 1 of 12 | 2026-10-15 |
 | Angela Womer | Angela-Womer-2 | an-invitation-to-angela.md | Nursing, first aid and caregiving, with tool and grounds work beside them, against anybody being able to tap Health care on the front page and see a count they are part of; Health at 53 of 96 | 2026-10-15 |
+| Anita Steyn | Anita-Steyn-13 | an-invitation-to-anita.md | Access control and identity management, and cognitive behavioral therapy, against the list going by skill and never by title; Telecommunications & IT at 4 of 20 | 2026-10-15 |
 
 When a post merges, add its row here and add the handle in two places in the product repository,
 in the same piece of work: the `DIRECTORY_INVITE_ALREADY_WRITTEN` array in
@@ -208,6 +209,7 @@ needed to write the next posts, because the copied list itself is never committe
 | Andrea | Andrea-R-453 | Ethics investigations and reporting; ethics policy development and implementation; employee relations and conflict resolution; Florida, United States | skill-specific | You do not owe me anything (second rotation) | published — Professional & Business Services held 21 of 52 on the 2026-10-14 read (321 people, 260 of 713) |
 | Andrew Maze | andrew-maze-5 | Equipment maintenance; equipment operation and maintenance; preventive maintenance; preventive maintenance planning; equipment calibration and maintenance; tool selection and maintenance; United States | skill-specific | Counted by skills (second rotation) | published — Mining / Extractive held 1 of 12, Food & Agriculture 6 of 49, Energy & Utilities 6 of 20, Manufacturing & Industry 16 of 28 and R&D & High-Tech 23 of 42 on the 2026-10-14 read (321 people, 260 of 713) |
 | Angela Womer | Angela-Womer-2 | Ethical practice and boundaries; First Aid & CPR; health promotion and education; medication administration; patient assessment and monitoring; referral and continuity of care; wound care and procedures; basic tool operation; caregiving; landscaping and grounds work; United States | skill-specific | Somebody can look for this (second rotation) | published — Health held 53 of 96 and Housing & Construction 18 of 51 on the 2026-10-14 read (321 people, 260 of 713) |
+| Anita Steyn | Anita-Steyn-13 | Advocacy (placeholder); access control and identity management; cognitive behavioral therapy; United States | skill-specific | A badge is a job title (second rotation) | published — Telecommunications & IT held 4 of 20 and Health 53 of 96 on the 2026-10-14 read (321 people, 260 of 713) |
 
 Status is one of: `queued`, `drafted`, `in PR`, `published`, `skipped`. A skipped row keeps its
 reason in the notes column so nobody re-queues it a month later.

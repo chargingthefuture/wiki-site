@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-anita",
+    "title": "An invitation to Anita",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-15",
+    "excerpt": "The list is by skill, never by job title. Anita Steyn, in the United States, is listed for controlling who gets into a system and for cognitive behavioral therapy.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-anita.md",
+    "teaser": "A job title says nothing about the person holding it, so the list is by skill and never by title or status, and nobody needs a current job, or any job, to be on it. Anita Steyn, in the United States, has a Directory listing for two skills a long way apart: access control and identity management, deciding who gets into a system and checking they are who they say, and cognitive behavioral therapy. Across the list, 4 of the 20 telecommunications and IT skills the app tracks are held by anybody. This is an invitation to claim the listing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 472
+  },
+  {
     "slug": "the-power-is-in-the-need",
     "title": "The power is in the need",
     "repo": "chargingthefuture/wiki-site",
