@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-alex",
+    "title": "An invitation to Alex",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-15",
+    "excerpt": "The people this is for are in every country, and so is the answer. Alex, in Ireland, is listed for community organizing.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-alex.md",
+    "teaser": "The answer here was never one walled place, because the people it is for are in every country. Alex, in Ireland, has a Directory listing for community organizing: bringing the people in a place together around what they share, and keeping them at it. It is filed under community development officers in Finance and Public Administration, where 9 of the 34 skills the app tracks are held by anybody on the list. A move toward somebody is a different move from one into a city of strangers, in any country. This is an invitation to claim the listing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 460
+  },
+  {
     "slug": "the-hint-is-meant-to-be-noticed",
     "title": "The hint is meant to be noticed",
     "repo": "chargingthefuture/wiki-site",
