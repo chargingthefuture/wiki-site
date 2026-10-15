@@ -39,6 +39,24 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "arranged-to-look-like-something-else",
+    "title": "Arranged to look like something else",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-15",
+    "excerpt": "Can the people doing this actually be out to harm or kill the person they target? Yes. They have tried on me more than once, and the attempts are built to leave the least evidence.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/arranged-to-look-like-something-else.md",
+    "teaser": "A question I saved on Quora asks whether the people doing this can actually be out to harm or even kill the person they target. Yes. I have had an attempted abduction, staged car accidents, attempts to stage a suicide where I lived, and a gun pulled on me twice. Two people I knew who would not take part were killed. The method chosen is the one that leaves the least evidence, so a death is made to read as a suicide or a crash. Most of the harm is slower: isolation, and pushing a person toward their own death. Only the target's life is on the line. Nobody taking part risks theirs.",
+    "topics": [
+      "specterati",
+      "community",
+      "clicklog",
+      "directory"
+    ],
+    "number": 455
+  },
+  {
     "slug": "an-invitation-to-aaron-rasco",
     "title": "An invitation to Aaron",
     "repo": "chargingthefuture/wiki-site",
