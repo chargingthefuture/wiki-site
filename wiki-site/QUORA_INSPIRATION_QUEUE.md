@@ -54,7 +54,7 @@ follows it.
 - [x] How do gang stalkers use subtle hints to control targeted individuals and what impact does this have on the victims lives — bookmarked
 - [–] How TO Stop Remote Tech Viewing of Your Home Technology Mirrored — bookmarked · learningandresearchti (set aside, 2026-10-15: it asks for technology advice, which this blog does not give. Not a post.)
 - [x] What is a gang stalker and how do they operate — bookmarked
-- [ ] What is your opinion of people who engage in stalking activities for revenge and or personal gain Do you think they have psychological issues If so what are they — bookmarked
+- [x] What is your opinion of people who engage in stalking activities for revenge and or personal gain Do you think they have psychological issues If so what are they — bookmarked
 - [–] What legal avenues are available for targeted individuals to seek justice against gang stalking and organized harassment — bookmarked (set aside, 2026-10-15: it asks for legal advice, which this blog does not give. Not a post.)
 - [–] When gang stalkers text my phone is it installing spyware? I cannot tell if every company has a back door and part of this or if everyone I speak to is simply hacked and exposing my communications. — submitted to a space · Targeted Individuals - Get Answers · saved 2 times (set aside, 2026-10-15: it asks for technology advice, which this blog does not give. Not a post.)
 - [ ] Why did I become a targeted individual for gang stalking — bookmarked · saved 5 times
