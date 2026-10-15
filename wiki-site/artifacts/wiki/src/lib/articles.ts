@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "gain-is-not-an-illness",
+    "title": "Gain is not an illness",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-15",
+    "excerpt": "A saved Quora question asked whether people who stalk for revenge or personal gain have psychological issues. The motive is ordinary gain, paid in kind, and a reason is not a justification.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/gain-is-not-an-illness.md",
+    "teaser": "A question I saved on Quora asked what I think of people who stalk others for revenge or personal gain, and whether they have psychological issues. The question names the motive itself. Most of the people taking part are paid in kind: a job, an apartment, a favor. Some are moved by money, some by jealousy, and some are extorted. Some of them are ill, and the illness is not what organized them; sadists are rounded up on purpose. Calling it a psychological issue works like an excuse. A reason is not a justification, and in this story the illness label is more often pinned on the target.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "directory"
+    ],
+    "number": 459
+  },
+  {
     "slug": "organized-crime-that-announces-itself",
     "title": "Organized crime that announces itself",
     "repo": "chargingthefuture/wiki-site",
