@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-invitation-to-angela",
+    "title": "An invitation to Angela",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-15",
+    "excerpt": "Anybody can tap Health care on chargingthefuture.com and see how many people could help, with no account. Angela Womer is one of the people in that count.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-angela.md",
+    "teaser": "The front page at chargingthefuture.com lets anybody tap what they need and see how many people on the list could help, with no account and no name given. One of the choices is health care, and nursing, first aid and caregiving are among the skills behind it. Angela Womer has a Directory listing for all three: giving medication, dressing wounds, checking how somebody is doing, and looking after them day to day, along with tool work and grounds work. Across the list, 53 of the 96 health skills the app tracks are held by anybody. This is an invitation to claim the listing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 470
+  },
+  {
     "slug": "regret-needs-a-choice",
     "title": "Regret needs a choice",
     "repo": "chargingthefuture/wiki-site",
