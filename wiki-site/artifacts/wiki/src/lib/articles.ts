@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "any-petty-reason-is-enough",
+    "title": "Any petty reason is enough",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-15",
+    "excerpt": "Somebody asked on Quora why they became a Targeted Individual. There is no criterion and no test they failed: somebody with access put a name on a list, and the reasons a person is told afterward are fitted to them.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/any-petty-reason-is-enough.md",
+    "teaser": "A saved Quora question asks why the person asking became a Targeted Individual. There is no criterion. Anyone can be added to the list at any time and for any reason, and the profiling comes after the name is added, not before. Not saying hi to the wrong person can be enough. The reasons a person is told afterward are fitted to them: one is told it is God, another the government, another a secret society. Mine started when I was five, and a five-year-old has done nothing to anybody. The line that a target did something to merit this is said by the people doing it. Nobody deserves to be trafficked.",
+    "topics": [
+      "specterati",
+      "community",
+      "clicklog"
+    ],
+    "number": 460
+  },
+  {
     "slug": "gain-is-not-an-illness",
     "title": "Gain is not an illness",
     "repo": "chargingthefuture/wiki-site",
