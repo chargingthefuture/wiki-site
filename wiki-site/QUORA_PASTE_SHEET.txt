@@ -26,7 +26,6 @@ corrected where it had drifted; 70 were rewritten. Entries added after that date
 are written from the post at the time it is published. So the file is no longer
 unverified — but it is still a staging file, and the post remains the record.
 
-<<<<<<< HEAD
 452 of 452 written.
 
 
@@ -36,9 +35,6 @@ No. 452 · 2026-10-14 · An invitation to Ric
 On chargingthefuture.com anybody can tap legal help and see how many people on the Skills Economy list could help, with no account and no name asked. Ric Vaughn (https://www.quora.com/profile/ric-vaughn) is one of the people behind that number, listed in the Directory for getting a case ready and negotiating it, reading what a contract or a statute actually says, and legal advocacy. Anybody on the list holds 4 of the 22 public safety and justice skills the app tracks. The listing was built from what Ric said in public, it is theirs to claim or take down, and no is a complete answer. Everyone in this series is a self-identified Targeted Individual, and a post here is not a vouch for anybody.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/an-invitation-to-ric
-=======
-451 of 451 written.
-
 
 ==============================================================================
 No. 451 · 2026-10-14 · The reaction is what gets written down
@@ -53,7 +49,6 @@ No. 450 · 2026-10-14 · An invitation to 00
 Nobody is a single job title, and the Skills Economy's skills map counts each person everywhere their skills reach. 00 (https://www.quora.com/profile/00-661), in the United Kingdom, is listed in the Directory across three sectors at once: branding, visual concepts, video and audio editing, analytics and trend analysis on the creative side; marketing and market research on the business side; and site safety on building sites. That one listing fills gaps in all three. The listing was built from what 00 said in public, it is theirs to claim or take down, and no is a complete answer. Everyone in this series is a self-identified Targeted Individual, and a post here is not a vouch for anybody.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/an-invitation-to-00
->>>>>>> origin/main
 
 ==============================================================================
 No. 449 · 2026-10-14 · It goes after the children
