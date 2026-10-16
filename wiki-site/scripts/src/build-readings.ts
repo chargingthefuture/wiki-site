@@ -8,7 +8,7 @@
  * artifacts/wiki/vite.config.ts), and the app's Chyme readings loop plays this list while nobody is
  * live. So uploading one file is the entire step: the post gets its player and Chyme gets the reading.
  *
- * Like invites.json this is build output, gitignored, written by wiki:build and wiki:build:pages.
+ * Like feed.xml this is build output, gitignored, written by wiki:build and wiki:build:pages.
  * Oldest post first, so the loop plays the posts in the order they were published.
  */
 

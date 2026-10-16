@@ -15,7 +15,6 @@ node_modules
 # scripts run, so it is build output rather than source. Hand edits would be
 # overwritten on the next build; edit the post and rebuild.
 artifacts/wiki/public/feed.xml
-artifacts/wiki/public/invites.json
 artifacts/wiki/public/readings.json
 artifacts/wiki/public/pb2-messages.json
 

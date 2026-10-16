@@ -59,17 +59,33 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "what-they-know-is-not-the-hold",
     "title": "What they know is not the hold",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-15",
-    "excerpt": "A saved Quora question asks how to escape when they have your name, Social Security number and birth date. Distance does not end it, and the file is not what holds a person. Needing something from them is.",
+    "date": "2026-10-16",
+    "excerpt": "Marcus Jackson asked on Quora how to escape when they have your name, Social Security number and birth date. Distance does not end it, and the file is not what holds a person. Needing something from them is.",
     "category": "Community",
     "collection": "posts",
     "path": "posts/what-they-know-is-not-the-hold.md",
-    "teaser": "A question I saved on Quora asks how a Targeted Individual can escape the harassment when the people doing it have their name, Social Security number and date of birth. I do not know of an escape, and moving did not give me one: it came with me across borders. A name on the list is not taken off. But a file on somebody does not hand anybody their week. What does is needing something from people who can be reached: an employer, a landlord, a ride. That part can be moved, one arrangement at a time, and a dated record of your own sits beside it.",
+    "teaser": "Marcus Jackson asked on Quora how a Targeted Individual can escape the harassment when the people doing it have their name, Social Security number and date of birth. I do not know of an escape, and moving did not give me one: it came with me across borders. A name on the list is not taken off. But a file on somebody does not hand anybody their week. What does is needing something from people who can be reached: an employer, a landlord, a ride. That part can be moved, one arrangement at a time, and a dated record of your own sits beside it.",
     "topics": [
       "specterati",
       "community",
       "directory",
       "clicklog"
+    ],
+    "number": 457
+  },
+  {
+    "slug": "the-count-measures-the-ending",
+    "title": "The count measures the ending",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "Published counts of US mass shootings run from about 400 a year to fewer than ten, depending on who counts. Every one of them counts the ending and none counts the pressure toward it. Here is the hypothesis that follows, and why Skills Economy could in theory bring mass shootings to net zero.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/the-count-measures-the-ending.md",
+    "teaser": "How many mass shootings happen in the United States each year depends on who is counting: 408 in 2025 by the broadest count, fewer than ten a year by the narrowest. Every count is correct for what it counts, and every one counts an event after it happens. None records the pressure toward one. The pressure can be widespread while the outcome stays rare, because most targets never act. A rare result does not mean a rare effort. If that pressure works by closing off a person's options, then reopening them works against it, and Skills Economy could in theory bring mass shootings to net zero.",
+    "topics": [
+      "community",
+      "specterati"
     ],
     "number": 456
   },
@@ -107,6 +123,22 @@ export const ARTICLES: ArticleMeta[] = [
       "workforce"
     ],
     "number": 454
+  },
+  {
+    "slug": "old-links-new-links",
+    "title": "Old links, new links",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-15",
+    "excerpt": "Sixty-nine accounts erased, eleven of them since October 1, and Kingishere-7 is the handle open now. What is live, what is dead, and the one address that never changes.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/old-links-new-links.md",
+    "teaser": "Quora has erased my accounts sixty-nine times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Eleven of those came after October 1. The latest ban landed at 4:32 in the morning on October 15, and the handle now open was opened two and a half hours later. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
+    "topics": [
+      "publishing",
+      "platform-independence"
+    ],
+    "number": 406
   },
   {
     "slug": "a-lie-for-every-bias",
@@ -378,22 +410,6 @@ export const ARTICLES: ArticleMeta[] = [
       "community"
     ],
     "number": 439
-  },
-  {
-    "slug": "old-links-new-links",
-    "title": "Old links, new links",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-12",
-    "excerpt": "Sixty-eight accounts erased, ten of them since October 1, and Kingishere-6 is the handle open now. What is live, what is dead, and the one address that never changes.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/old-links-new-links.md",
-    "teaser": "Quora has erased my accounts sixty-eight times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Ten of those came after October 1. The latest ban landed at 3:18 in the afternoon on October 12, and the handle now open was opened five hours later. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
-    "topics": [
-      "publishing",
-      "platform-independence"
-    ],
-    "number": 406
   },
   {
     "slug": "an-invitation-to-king-unique",
