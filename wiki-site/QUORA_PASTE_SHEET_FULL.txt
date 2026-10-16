@@ -19,7 +19,7 @@ regenerate, or the two will disagree and the post is the one that is right.
 How many mass shootings happen in the United States each year depends on who is counting.
 
 - Gun Violence Archive counts any shooting where four or more people are shot, not counting the shooter: 408 in 2025 (https://www.gunviolencearchive.org/past-tolls).
-- The AP, USA Today and Northeastern University count mass killings, four or more killed with any weapon: 17 in 2025 as of December 2, 14 of them with a gun, the lowest since their count began in 2006 (https://cssh.northeastern.edu/policyschool/mass-killings-hit-a-20-year-low-in-us-northeastern-data-shows-but-public-perception-hasnt-caught-up/).
+- The AP, USA Today and Northeastern University count mass killings, four or more killed: fewer in 2025 than in any year in two decades, 59 percent below the record 41 of 2019 (https://cssh.northeastern.edu/policyschool/mass-killings-hit-a-20-year-low-in-us-northeastern-data-shows-but-public-perception-hasnt-caught-up/).
 - The FBI counts active shooter incidents, somebody trying to kill people in a populated place: 24 in 2024 (https://www.police1.com/active-shooter/fbi-active-shooter-incidents-dropped-50-in-2024).
 - Mother Jones counts attacks in public places with three or more killed, and leaves out gang, robbery and family killings: fewer than ten a year (RAND, https://www.rand.org/research/gun-policy/analysis/essays/mass-shootings.html).
 
@@ -27,7 +27,7 @@ Every one of those is correct for what it counts. Two choices set the size of th
 
 What none of them count
 
-Every count is of an event after it happens. None records pressure toward a shooting that never happened, or an attempt that was stopped. None of them publishes a rate per person either. The word rare arrives when somebody divides one of these numbers by 340 million people.
+Every count is of an event after it happens. None records pressure toward a shooting that never happened, or an attempt that was stopped. The criminologist who manages the mass killing count calls mass shootings rare events: about 1 percent of US gun deaths, 100 to 200 lives in a typical year against roughly 17,000 gun homicides. That is a share of deaths after the fact, and every other count stops at the same place.
 
 The hypothesis
 
