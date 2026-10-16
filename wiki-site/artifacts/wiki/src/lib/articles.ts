@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "what-they-stand-to-lose",
+    "title": "What they stand to lose",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks what the people doing this fear. Being noticed, the people directing them, and losing what they were given. Never their lives.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/what-they-stand-to-lose.md",
+    "teaser": "A question I saved on Quora asks what the people doing this fear. Three things, from what I have written over the years. Being noticed by people who do not know, which is why only a percentage are targeted and why a quiet stretch usually means they are laying low. The people directing them, whom they are afraid not to obey. And losing what they were given for taking part: a job, an apartment, a reputation. None of it is their life. Only the target's is at risk.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "directory"
+    ],
+    "number": 469
+  },
+  {
     "slug": "who-does-the-repair",
     "title": "Who does the repair",
     "repo": "chargingthefuture/wiki-site",
