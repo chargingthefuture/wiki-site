@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "any-petty-reason-is-enough",
     "title": "Any petty reason is enough",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-15",
+    "date": "2026-10-16",
     "excerpt": "Somebody asked on Quora why they became a Targeted Individual. There is no criterion and no test they failed: somebody with access put a name on a list, and the reasons a person is told afterward are fitted to them.",
     "category": "Community",
     "collection": "posts",
@@ -53,7 +53,7 @@ export const ARTICLES: ArticleMeta[] = [
       "community",
       "clicklog"
     ],
-    "number": 460
+    "number": 461
   },
   {
     "slug": "gain-is-not-an-illness",
