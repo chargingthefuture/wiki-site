@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "spent-not-taken",
+    "title": "Most of it is spent, not taken",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks how Targeted Individuals are robbed of money. Some is taken outright. Most is spent, by the target, on costs somebody else arranged.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/spent-not-taken.md",
+    "teaser": "A question I saved on Quora asks how Targeted Individuals are robbed of their money. Some of it is taken outright: clothes, a car, mail, ideas, access to accounts. Most of it leaves another way. Income is mobbed until it stops, and what is left is spent by the target, on replacements, repairs and defense, at businesses that are paid on both ends. Every one of those payments looks ordinary. The protection is not a better lock. It is moving where the money goes, to people who do not take part.",
+    "topics": [
+      "specterati",
+      "foundation",
+      "directory"
+    ],
+    "number": 466
+  },
+  {
     "slug": "the-signs-are-a-pattern-over-time",
     "title": "The signs are a pattern over time",
     "repo": "chargingthefuture/wiki-site",
