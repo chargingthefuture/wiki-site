@@ -131,7 +131,7 @@ export default function Home() {
         </div>
       </section>
 
-      <InviteStrip from="/" />
+      <InviteStrip />
 
       {/* Main Content Area */}
       <section className="py-16 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
