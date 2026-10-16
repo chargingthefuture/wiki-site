@@ -90,7 +90,7 @@ follows it.
 - [x] Is there a time limit for gang stalking before it stops or no longer has any effect — bookmarked
 - [ ] What are the indicators of being a high level targeted individual — bookmarked
 - [ ] What are the tactics used by gang stalkers to control their victims — bookmarked
-- [ ] What do gang stalkers fear — bookmarked
+- [x] What do gang stalkers fear — bookmarked
 - [ ] What do you do if you are being gang stalked and you know who some of your gang stalkers are personally and who is beh 1 — bookmarked · uspsyopstargetedindividuals
 - [ ] What does remove gangstalking mean — bookmarked · saved 2 times
 - [ ] What is the point of gang stalking someone if they don t even know why they are being gang stalked Why waste their time — bookmarked
