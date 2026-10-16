@@ -1,6 +1,6 @@
 ---
 title: "The power is in the need"
-date: "2026-10-15"
+date: "2026-10-16"
 excerpt: "A saved Quora question asks how a Targeted Individual can reclaim power and break free. The power was never in the watching. It is in what you need from the people taking part, and that can be moved."
 category: "Community"
 teaser: "A question I saved on Quora asks how Targeted Individuals can reclaim power and break free. Start with where the power sits. It is not in the watching. It is in needing something from people who take part or look away, and most of them look away because there is something in it for them. No method I know of ends the targeting, so breaking free of it is not on offer. Breaking free of needing them is, one arrangement at a time: the job, the room, the ride. The goal board lets other members carry the small steps when your day cannot, and the Directory is where you find who to move each arrangement to."
