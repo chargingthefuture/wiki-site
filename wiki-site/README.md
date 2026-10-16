@@ -19,7 +19,7 @@ sheets — live in [`../CLAUDE.md`](../CLAUDE.md). Read it before editing a post
 | Content source | Markdown with YAML front matter under [`content/`](content/), organized in collections (`posts/`, `product-updates/`, `guides/`, `insights/`, `member-of-the-day/`, `archive/`). Bundled at build time. Schema: [`content/README.md`](content/README.md). |
 | Article registry | `artifacts/wiki/src/lib/articles.ts`, generated from the front matter by `pnpm wiki:sync` and committed. There is no separate index file. |
 | Fireside comments | `artifacts/wiki/src/lib/fireside-exports.ts`, the comments the app has cleared for publication, copied in by `pnpm fireside:sync` and committed after a person reads the diff. The live conversation is fetched from the app after the page loads. |
-| Build outputs | `artifacts/wiki/public/feed.xml` (RSS), `invites.json` (invite cards), `pb2-messages.json` (Peace Battle 2 share messages). Written by the build scripts, gitignored, never hand-edited. |
+| Build outputs | `artifacts/wiki/public/feed.xml` (RSS), `pb2-messages.json` (Peace Battle 2 share messages). Written by the build scripts, gitignored, never hand-edited. |
 | Frontend | React + Vite app in `artifacts/wiki/` |
 | Counter | `artifacts/api-server/`, the view/read counter. Runs on Railway, separately from the static site. See its [README](artifacts/api-server/README.md). |
 | Deploy | Push to `main` touching `wiki-site/**` builds, deploys to GitHub Pages at `/chargingthefuture/`, then submits the changed pages to the Wayback Machine. |
@@ -49,14 +49,13 @@ pnpm install
 | `pnpm wiki:sync:dry` | Preview what `articles.ts` would change (no writes) |
 | `pnpm wiki:sync` | Regenerate `articles.ts` from the front matter |
 | `pnpm wiki:feed` | Regenerate the RSS feed |
-| `pnpm wiki:invites` | Regenerate the invite cards |
 | `pnpm wiki:pb2` | Regenerate the Peace Battle 2 share messages from `content/pb2-share-messages.yaml` |
 | `pnpm wiki:paste-full` | Regenerate `QUORA_PASTE_SHEET_FULL.txt` from the posts |
 | `pnpm fireside:sync` | Copy the cleared Fireside comments into `fireside-exports.ts` |
 | `pnpm fireside:sync:dry` | Preview that copy without writing |
 | `pnpm wiki:convert:discourse` / `pnpm wiki:convert:quora` | Convert an export into archive entries |
 | `pnpm wiki:preview` | Local dev server at http://localhost:5000 |
-| `pnpm wiki:build` | Production build (base `/`); runs the feed, invites, and share-message builds first |
+| `pnpm wiki:build` | Production build (base `/`); runs the feed, readings, and share-message builds first |
 | `pnpm wiki:build:pages` | GitHub Pages build (base `/chargingthefuture/` + `404.html`) |
 | `pnpm typecheck` | TypeScript typecheck across all workspace packages |
 | `pnpm counter:dev` / `pnpm counter:build` | Run or build the counter service |
@@ -124,10 +123,10 @@ wiki-site/
 │   └── pb2-share-messages.yaml # Hand-written share messages for Peace Battle 2
 ├── artifacts/
 │   ├── wiki/                   # React/Vite frontend
-│   │   ├── public/             # feed.xml, invites.json, pb2-messages.json (build output)
+│   │   ├── public/             # feed.xml, pb2-messages.json (build output)
 │   │   └── src/lib/articles.ts # Generated from the front matter
 │   └── api-server/             # View/read counter (Railway)
-├── scripts/                    # validate, sync, feed, invites, converters, paste sheet
+├── scripts/                    # validate, sync, feed, converters, paste sheet
 ├── PUBLISHING.md               # Operator runbook
 ├── QUORA_PASTE_SHEET.txt       # One hand-written summary per published page
 └── QUORA_PASTE_SHEET_FULL.txt  # Full text of each post, generated
