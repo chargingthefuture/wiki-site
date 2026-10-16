@@ -39,6 +39,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "the-count-measures-the-ending",
+    "title": "The count measures the ending",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "Published counts of US mass shootings run from about 400 a year to fewer than ten, depending on who counts. Every one of them counts the ending and none counts the pressure toward it. Here is the hypothesis that follows, and why Skills Economy could in theory bring mass shootings to net zero.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/the-count-measures-the-ending.md",
+    "teaser": "How many mass shootings happen in the United States each year depends on who is counting: 408 in 2025 by the broadest count, fewer than ten a year by the narrowest. Every count is correct for what it counts, and every one counts an event after it happens. None records the pressure toward one. The pressure can be widespread while the outcome stays rare, because most targets never act. A rare result does not mean a rare effort. If that pressure works by closing off a person's options, then reopening them works against it, and Skills Economy could in theory bring mass shootings to net zero.",
+    "topics": [
+      "community",
+      "specterati"
+    ],
+    "number": 456
+  },
+  {
     "slug": "arranged-to-look-like-something-else",
     "title": "Arranged to look like something else",
     "repo": "chargingthefuture/wiki-site",
