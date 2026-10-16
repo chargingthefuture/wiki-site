@@ -59,7 +59,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "regret-needs-a-choice",
     "title": "Regret needs a choice",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-15",
+    "date": "2026-10-16",
     "excerpt": "A saved Quora question asks whether I regret being a Targeted Individual. Regret belongs to something a person decided, and being targeted was decided by the people doing it.",
     "category": "Community",
     "collection": "posts",
@@ -70,13 +70,13 @@ export const ARTICLES: ArticleMeta[] = [
       "clicklog",
       "directory"
     ],
-    "number": 462
+    "number": 463
   },
   {
     "slug": "a-light-you-are-meant-to-notice",
     "title": "A light you are meant to notice",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-15",
+    "date": "2026-10-16",
     "excerpt": "A saved Quora question asks why bright lights from cars are used to harass somebody. They are meant to be seen, they are repeated until the road itself carries the moment, and a shared record is what shows them as a pattern.",
     "category": "Community",
     "collection": "posts",
@@ -87,13 +87,13 @@ export const ARTICLES: ArticleMeta[] = [
       "clicklog",
       "community"
     ],
-    "number": 461
+    "number": 462
   },
   {
     "slug": "any-petty-reason-is-enough",
     "title": "Any petty reason is enough",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-15",
+    "date": "2026-10-16",
     "excerpt": "Somebody asked on Quora why they became a Targeted Individual. There is no criterion and no test they failed: somebody with access put a name on a list, and the reasons a person is told afterward are fitted to them.",
     "category": "Community",
     "collection": "posts",
@@ -104,13 +104,13 @@ export const ARTICLES: ArticleMeta[] = [
       "community",
       "clicklog"
     ],
-    "number": 460
+    "number": 461
   },
   {
     "slug": "gain-is-not-an-illness",
     "title": "Gain is not an illness",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-15",
+    "date": "2026-10-16",
     "excerpt": "A saved Quora question asked whether people who stalk for revenge or personal gain have psychological issues. The motive is ordinary gain, paid in kind, and a reason is not a justification.",
     "category": "Community",
     "collection": "posts",
@@ -121,13 +121,13 @@ export const ARTICLES: ArticleMeta[] = [
       "clicklog",
       "directory"
     ],
-    "number": 459
+    "number": 460
   },
   {
     "slug": "organized-crime-that-announces-itself",
     "title": "Organized crime that announces itself",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-15",
+    "date": "2026-10-16",
     "excerpt": "Two saved questions ask what this is and how the people doing it operate. It is organized crime, human trafficking and group vigilantism, carried out by many ordinary people who make sure the target knows they are there.",
     "category": "Community",
     "collection": "posts",
@@ -138,13 +138,13 @@ export const ARTICLES: ArticleMeta[] = [
       "community",
       "clicklog"
     ],
-    "number": 458
+    "number": 459
   },
   {
     "slug": "the-hint-is-meant-to-be-noticed",
     "title": "The hint is meant to be noticed",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-15",
+    "date": "2026-10-16",
     "excerpt": "A saved Quora question asks how subtle hints are used to control Targeted Individuals and what they do to a life. The hint is built to be noticed, and the control runs through the attention it takes.",
     "category": "Community",
     "collection": "posts",
@@ -155,23 +155,39 @@ export const ARTICLES: ArticleMeta[] = [
       "clicklog",
       "community"
     ],
-    "number": 457
+    "number": 458
   },
   {
     "slug": "what-they-know-is-not-the-hold",
     "title": "What they know is not the hold",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-15",
-    "excerpt": "A saved Quora question asks how to escape when they have your name, Social Security number and birth date. Distance does not end it, and the file is not what holds a person. Needing something from them is.",
+    "date": "2026-10-16",
+    "excerpt": "Marcus Jackson asked on Quora how to escape when they have your name, Social Security number and birth date. Distance does not end it, and the file is not what holds a person. Needing something from them is.",
     "category": "Community",
     "collection": "posts",
     "path": "posts/what-they-know-is-not-the-hold.md",
-    "teaser": "A question I saved on Quora asks how a Targeted Individual can escape the harassment when the people doing it have their name, Social Security number and date of birth. I do not know of an escape, and moving did not give me one: it came with me across borders. A name on the list is not taken off. But a file on somebody does not hand anybody their week. What does is needing something from people who can be reached: an employer, a landlord, a ride. That part can be moved, one arrangement at a time, and a dated record of your own sits beside it.",
+    "teaser": "Marcus Jackson asked on Quora how a Targeted Individual can escape the harassment when the people doing it have their name, Social Security number and date of birth. I do not know of an escape, and moving did not give me one: it came with me across borders. A name on the list is not taken off. But a file on somebody does not hand anybody their week. What does is needing something from people who can be reached: an employer, a landlord, a ride. That part can be moved, one arrangement at a time, and a dated record of your own sits beside it.",
     "topics": [
       "specterati",
       "community",
       "directory",
       "clicklog"
+    ],
+    "number": 457
+  },
+  {
+    "slug": "the-count-measures-the-ending",
+    "title": "The count measures the ending",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "Published counts of US mass shootings run from about 400 a year to fewer than ten, depending on who counts. Every one of them counts the ending and none counts the pressure toward it. Here is the hypothesis that follows, and why Skills Economy could in theory bring mass shootings to net zero.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/the-count-measures-the-ending.md",
+    "teaser": "How many mass shootings happen in the United States each year depends on who is counting: 408 in 2025 by the broadest count, fewer than ten a year by the narrowest. Every count is correct for what it counts, and every one counts an event after it happens. None records the pressure toward one. The pressure can be widespread while the outcome stays rare, because most targets never act. A rare result does not mean a rare effort. If that pressure works by closing off a person's options, then reopening them works against it, and Skills Economy could in theory bring mass shootings to net zero.",
+    "topics": [
+      "community",
+      "specterati"
     ],
     "number": 456
   },
@@ -209,6 +225,22 @@ export const ARTICLES: ArticleMeta[] = [
       "workforce"
     ],
     "number": 454
+  },
+  {
+    "slug": "old-links-new-links",
+    "title": "Old links, new links",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-15",
+    "excerpt": "Sixty-nine accounts erased, eleven of them since October 1, and Kingishere-7 is the handle open now. What is live, what is dead, and the one address that never changes.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/old-links-new-links.md",
+    "teaser": "Quora has erased my accounts sixty-nine times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Eleven of those came after October 1. The latest ban landed at 4:32 in the morning on October 15, and the handle now open was opened two and a half hours later. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
+    "topics": [
+      "publishing",
+      "platform-independence"
+    ],
+    "number": 406
   },
   {
     "slug": "a-lie-for-every-bias",
@@ -480,22 +512,6 @@ export const ARTICLES: ArticleMeta[] = [
       "community"
     ],
     "number": 439
-  },
-  {
-    "slug": "old-links-new-links",
-    "title": "Old links, new links",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-12",
-    "excerpt": "Sixty-eight accounts erased, ten of them since October 1, and Kingishere-6 is the handle open now. What is live, what is dead, and the one address that never changes.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/old-links-new-links.md",
-    "teaser": "Quora has erased my accounts sixty-eight times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Ten of those came after October 1. The latest ban landed at 3:18 in the afternoon on October 12, and the handle now open was opened five hours later. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
-    "topics": [
-      "publishing",
-      "platform-independence"
-    ],
-    "number": 406
   },
   {
     "slug": "an-invitation-to-king-unique",

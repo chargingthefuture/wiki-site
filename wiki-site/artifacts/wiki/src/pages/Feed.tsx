@@ -64,7 +64,7 @@ export default function Feed() {
     <Layout>
       {/* The row of invite posts sits first: chargingthefuture.com/feed lands here, and the
           person a Quora notification named is the reader this page most needs to catch. */}
-      <InviteStrip from={search ? `/feed?${search}` : "/feed"} />
+      <InviteStrip />
       <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="mb-12">
           <div className="inline-flex items-center gap-2 font-heading font-semibold text-xs uppercase tracking-[0.16em] text-primary mb-6">
