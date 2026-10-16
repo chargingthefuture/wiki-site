@@ -70,7 +70,7 @@ follows it.
 - [ ] Are gang stalkers aware of what theyre doing — bookmarked · saved 3 times
 - [ ] As a targeted individual how can you find out who made you a target — bookmarked
 - [ ] Can a narcissist act like he doesn t like you and can T stand you yet is actually in reality addicted to you 5 — bookmarked · thedarkworldofnarcissistbysevinc
-- [ ] How do gang stalkers rob targeted individuals money — bookmarked · saved 3 times
+- [x] How do gang stalkers rob targeted individuals money — bookmarked · saved 3 times
 - [ ] What are the signs of gang stalking How does it typically begin and how long does it usually last — bookmarked · saved 2 times
 - [ ] What are the signs that I ve accidentally got romantically involved with a gang stalker in my gang stalking 1 — bookmarked · gangstalkingquestionsandanswers
 - [ ] What does being targeted by gang stalkers feel like What are some signs that someone is targeting you — bookmarked
