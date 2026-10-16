@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "organized-crime-that-announces-itself",
     "title": "Organized crime that announces itself",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-15",
+    "date": "2026-10-16",
     "excerpt": "Two saved questions ask what this is and how the people doing it operate. It is organized crime, human trafficking and group vigilantism, carried out by many ordinary people who make sure the target knows they are there.",
     "category": "Community",
     "collection": "posts",
@@ -53,7 +53,7 @@ export const ARTICLES: ArticleMeta[] = [
       "community",
       "clicklog"
     ],
-    "number": 458
+    "number": 459
   },
   {
     "slug": "the-hint-is-meant-to-be-noticed",
