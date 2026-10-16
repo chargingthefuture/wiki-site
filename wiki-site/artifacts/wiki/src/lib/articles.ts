@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "the-hint-is-meant-to-be-noticed",
     "title": "The hint is meant to be noticed",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-15",
+    "date": "2026-10-16",
     "excerpt": "A saved Quora question asks how subtle hints are used to control Targeted Individuals and what they do to a life. The hint is built to be noticed, and the control runs through the attention it takes.",
     "category": "Community",
     "collection": "posts",
@@ -53,7 +53,7 @@ export const ARTICLES: ArticleMeta[] = [
       "clicklog",
       "community"
     ],
-    "number": 457
+    "number": 458
   },
   {
     "slug": "what-they-know-is-not-the-hold",
