@@ -1,6 +1,6 @@
 ---
 title: "The hint is meant to be noticed"
-date: "2026-10-15"
+date: "2026-10-16"
 excerpt: "A saved Quora question asks how subtle hints are used to control Targeted Individuals and what they do to a life. The hint is built to be noticed, and the control runs through the attention it takes."
 category: "Community"
 teaser: "A question I saved on Quora asks how subtle hints are used to control Targeted Individuals, and what that does to a life. The hint is not a slip. It is meant to be noticed: the repeated phrase, the borrowed words from a private conversation, a pointed have a good day after a day arranged to go badly. The control runs through what the hint costs to read. Each one hands you a puzzle, and every hour spent on it is an hour of your day spent on them. Over time it sensitizes a person to the smallest things and makes them easy to describe as the problem. Noticing cannot be switched off, but it can be written down and put down."

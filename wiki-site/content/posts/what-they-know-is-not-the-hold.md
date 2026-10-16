@@ -1,9 +1,9 @@
 ---
 title: "What they know is not the hold"
-date: "2026-10-15"
-excerpt: "A saved Quora question asks how to escape when they have your name, Social Security number and birth date. Distance does not end it, and the file is not what holds a person. Needing something from them is."
+date: "2026-10-16"
+excerpt: "Marcus Jackson asked on Quora how to escape when they have your name, Social Security number and birth date. Distance does not end it, and the file is not what holds a person. Needing something from them is."
 category: "Community"
-teaser: "A question I saved on Quora asks how a Targeted Individual can escape the harassment when the people doing it have their name, Social Security number and date of birth. I do not know of an escape, and moving did not give me one: it came with me across borders. A name on the list is not taken off. But a file on somebody does not hand anybody their week. What does is needing something from people who can be reached: an employer, a landlord, a ride. That part can be moved, one arrangement at a time, and a dated record of your own sits beside it."
+teaser: "Marcus Jackson asked on Quora how a Targeted Individual can escape the harassment when the people doing it have their name, Social Security number and date of birth. I do not know of an escape, and moving did not give me one: it came with me across borders. A name on the list is not taken off. But a file on somebody does not hand anybody their week. What does is needing something from people who can be reached: an employer, a landlord, a ride. That part can be moved, one arrangement at a time, and a dated record of your own sits beside it."
 topics:
   - specterati
   - community
@@ -11,11 +11,11 @@ topics:
   - clicklog
 ---
 
-A question I saved on Quora in October 2024 and never answered, as its title was recovered from the address it was saved at:
+Marcus Jackson (https://www.quora.com/profile/Marcus-Jackson-724) asked this on Quora on July 8, 2024. I saved it that October and never answered it.
 
-> How can a T I victim escape the harassment from their gang stalker when they have all your information name SSN and your DOB
+![Marcus Jackson's question on Quora, added July 8, 2024. It reads: How can a T.I. victim escape the harassment from their gang stalker when they have all your information (name, SSN, and your DOB)?](images/marcus-jackson-2024-07-08.jpg)
 
-The address it was saved at is https://www.quora.com/How-can-a-T-I-victim-escape-the-harassment-from-their-gang-stalker-when-they-have-all-your-information-name-SSN-and-your-DOB. The [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary) carries the words I use for this; the question keeps the words it was asked in.
+The question is at https://www.quora.com/How-can-a-T-I-victim-escape-the-harassment-from-their-gang-stalker-when-they-have-all-your-information-name-SSN-and-your-DOB. The [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary) carries the words I use for this; the question keeps the words it was asked in.
 
 ## Distance is not an exit
 

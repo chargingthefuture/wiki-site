@@ -94,16 +94,15 @@ carries it, because the owner froze that page outright and that freeze has not b
   GitHub Pages answers `/feed` with `feed.xml` when no `feed.html` exists, so a direct visit to
   the `/feed` page showed the raw RSS file. `wiki:build:pages` copies `index.html` to `feed.html`
   for that reason; any new route whose name matches a file in `public/` needs the same copy.
-- Invite cards: `artifacts/wiki/public/invites.json`, one card per published invite post
-  (a listed post in `content/posts` titled "An invitation to <name>"; the title is the contract,
-  so no front matter flag exists), newest first, written by `scripts/src/build-invites.ts` on
-  `wiki:invites`, which both build scripts run. Build output like the feed: gitignored, never
-  hand-edited. The row of cards (`InviteStrip.tsx`) sits at the top of `/feed` and under the
-  home hero; the app's signed-out pages and the landing page read the same file across origins.
-  It exists because Quora erases the account that announced an invite before most people tap
-  the notification, and the blog is the address that survives. Each card leads with the post's
-  opening words, because those are the words the notification showed. Nothing in the row moves
-  on its own (owner decision, 2026-09-19).
+- Invite cards: the row of cards (`InviteStrip.tsx`) at the top of `/feed` and under the home
+  hero reads the app's public feed, `https://app.chargingthefuture.com/api/directory/invites/public`,
+  in the browser after the page loads, so nothing is built for it here. It shows the newest ten
+  invitations, the published blog posts and the ones written in the app alike, each
+  with its name, opening words and date and each linking to its page in the app. A last card leads
+  to the Directory behind sign-in and gives the number of people the Directory lists, from the same
+  feed. If the feed does not answer, the row is that last card alone: never an error, and never a
+  wait on the page. The landing page reads the same feed. Nothing in the row moves on its own
+  (owner decision, 2026-09-19).
 - Collected YouTube channels are not here. They live in `chargingthefuture/rss-feeds`, with the
   collector, the feed builder, the workflows and a disclaimer of their own (owner decision,
   2026-09-24): a collected channel under the blog's namespace reads as a statement about that
@@ -133,10 +132,8 @@ carries it, because the owner froze that page outright and that freeze has not b
   hand-edited — edit the YAML. The pool is three topics for now — Peace Battle 2, One Percent, and
   the PeerProgramming goal board (owner directive, 2026-10-03, a narrowed marketing plan), fourteen
   posts across them, each a different angle, so a reader sees two weeks before a repeat. The
-  entries for the other parts of the app stay in the file unoffered, and the published invite posts
-  (`invites.json`, which the block on the Peace Battle 2 page, `Pb2ShareMessage.tsx`, adds when the
-  pool says `invites`) are out of it too: a reader handed twenty-eight parts in rotation is handed
-  a catalog, and three topics say one thing. Nothing was deleted; widen the pool only on the
+  entries for the other parts of the app stay in the file unoffered: a reader handed twenty-eight
+  parts in rotation is handed a catalog, and three topics say one thing. Nothing was deleted; widen the pool only on the
   owner's say. Every post ends with the entry point, which is the Peace Battle 2 page and not the
   sign-up line (same directive). It exists because the message of the day is written in the
   owner's voice and carries their argument, and a supporter who does not agree with every line of
@@ -159,9 +156,7 @@ carries it, because the owner froze that page outright and that freeze has not b
 | `pnpm wiki:banned-words` | Fail on the two banned words in Excluded Vocabulary, outside `content/archive/`, the manifesto, and `banned-words:disable` regions |
 | `pnpm wiki:sync` | Regenerate `articles.ts` from the index |
 | `pnpm wiki:feed` | Regenerate the RSS feed at `artifacts/wiki/public/feed.xml` (both build scripts run this) |
-| `pnpm wiki:invites` | Regenerate the invite cards at `artifacts/wiki/public/invites.json` (both build scripts run this) |
 | `pnpm wiki:paste-tts` | Regenerate the text-to-speech paste sheet `TTS_PASTE_SHEET.txt` |
-| `pnpm wiki:paste-invites` | Regenerate `INVITE_PASTE_SHEET.txt`, everybody with an invite post and their Quora profile address, 20 to a group |
 | `pnpm wiki:readings` | Regenerate the recorded-readings list at `artifacts/wiki/public/readings.json` (both build scripts run this) |
 | `pnpm wiki:pb2` | Regenerate the Peace Battle 2 share messages at `artifacts/wiki/public/pb2-messages.json` (both build scripts run this) |
 | `pnpm wiki:sync:dry` | Preview sync changes |
@@ -701,12 +696,15 @@ with it.
 
 ## Invite Paste Sheet (owner directive, 2026-10-14)
 
-`wiki-site/INVITE_PASTE_SHEET.txt` lists everybody who has an invite post, with their Quora profile
-address, for a Quora post saying who has been invited so far. Generated by `pnpm wiki:paste-invites`
-(`scripts/src/paste-sheet-invites.ts`); never hand-edit it. The list goes up 20 at a time, because
-one post carrying every profile address reads as spam. Groups are numbered oldest first by feed
-number, so a full group never changes and a new invite joins the last one. Regenerate it in the same
-pull request as every invite post, after `wiki:sync`.
+The invite paste sheet, its generator and the invite queue moved to the private repository
+`chargingthefuture/directory-invites` on 2026-10-15, with the invitations themselves.
+
+## No New Invite Posts (owner decision, 2026-10-15)
+
+Invitations to people listed in the Directory are no longer published on this blog. They are
+written in the private `chargingthefuture/directory-invites` repository and shown in the app
+behind sign-in. The 35 invite posts already published stay as they are, and the rule that invite
+posts are never back to back on `/feed` still holds for them.
 
 ## Text-to-Speech Paste Sheet (owner directive, 2026-09-29)
 
@@ -718,8 +716,7 @@ the copy-edited posts that carry the argument. Each entry is the title, then the
 that only works on a screen — an address read aloud is noise, so links keep their words and lose
 their address, a sentence built around an address is dropped, and "Where to find it in the app"
 and the sign-up line are left out. The sheet opens with a tracker table (owner directive,
-2026-09-30), so it doubles as the record of which posts have audio, the way `INVITE_QUEUE.md` tracks
-invites: every post with a recording is Full post, or Teaser when the recording runs far shorter
+2026-09-30), so it doubles as the record of which posts have audio: every post with a recording is Full post, or Teaser when the recording runs far shorter
 than the post, and every post in `content/audio/skipped.yaml` is Skipped and is never offered for
 pasting again, and every post in `content/audio/rerecord.yaml` is Re-record: its recording speaks a
 feed number the post no longer has (the 2026-10-03 reseed), so its entry is offered again with the

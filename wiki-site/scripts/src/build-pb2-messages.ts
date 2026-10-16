@@ -9,14 +9,13 @@
  *
  * Only the ids in the YAML's `pool` are written, in that order; the other entries stay in the file
  * unoffered. Three topics for now — Peace Battle 2, One Percent, PeerProgramming (owner directive,
- * 2026-10-03); the YAML header says why. `invites` in the pool tells the page to add the published
- * invite posts, which it reads from invites.json itself.
+ * 2026-10-03); the YAML header says why.
  *
  * Source is content/pb2-share-messages.yaml, hand-written. It is not generated from the in-app
  * guide: that text is written for somebody already inside the app, and it reads wrong pasted in
  * front of a stranger's audience.
  *
- * Like feed.xml and invites.json this is build output — gitignored, written by wiki:build and
+ * Like feed.xml this is build output — gitignored, written by wiki:build and
  * wiki:build:pages, never hand-edited. Consumers on other origins can read it because GitHub
  * Pages answers every request with Access-Control-Allow-Origin: *.
  */
@@ -149,15 +148,12 @@ function main(): void {
     byId.set(message.id, message);
   }
 
-  const invites = pool.includes('invites');
-  const offered = pool
-    .filter((id) => id !== 'invites')
-    .map((id) => {
-      const message = byId.get(id);
-      if (!message) throw new Error(`pb2-share-messages.yaml: pool names "${id}" and no entry has that id.`);
-      return message;
-    });
-  if (offered.length === 0 && !invites) {
+  const offered = pool.map((id) => {
+    const message = byId.get(id);
+    if (!message) throw new Error(`pb2-share-messages.yaml: pool names "${id}" and no entry has that id.`);
+    return message;
+  });
+  if (offered.length === 0) {
     throw new Error('pb2-share-messages.yaml: the pool is empty, so the copy control would have nothing to offer.');
   }
 
@@ -171,9 +167,9 @@ function main(): void {
   });
 
   mkdirSync(dirname(OUT), { recursive: true });
-  writeFileSync(OUT, `${JSON.stringify({ invites, messages: withLinks }, null, 2)}\n`, 'utf8');
+  writeFileSync(OUT, `${JSON.stringify({ messages: withLinks }, null, 2)}\n`, 'utf8');
   console.log(
-    `✓ Wrote ${withLinks.length} share messages${invites ? ' plus invites' : ''} → ${relative(process.cwd(), OUT)}`,
+    `✓ Wrote ${withLinks.length} share messages → ${relative(process.cwd(), OUT)}`,
   );
 }
 
