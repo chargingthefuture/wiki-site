@@ -39,6 +39,24 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "what-they-know-is-not-the-hold",
+    "title": "What they know is not the hold",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "Marcus Jackson asked on Quora how to escape when they have your name, Social Security number and birth date. Distance does not end it, and the file is not what holds a person. Needing something from them is.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/what-they-know-is-not-the-hold.md",
+    "teaser": "Marcus Jackson asked on Quora how a Targeted Individual can escape the harassment when the people doing it have their name, Social Security number and date of birth. I do not know of an escape, and moving did not give me one: it came with me across borders. A name on the list is not taken off. But a file on somebody does not hand anybody their week. What does is needing something from people who can be reached: an employer, a landlord, a ride. That part can be moved, one arrangement at a time, and a dated record of your own sits beside it.",
+    "topics": [
+      "specterati",
+      "community",
+      "directory",
+      "clicklog"
+    ],
+    "number": 457
+  },
+  {
     "slug": "the-count-measures-the-ending",
     "title": "The count measures the ending",
     "repo": "chargingthefuture/wiki-site",
