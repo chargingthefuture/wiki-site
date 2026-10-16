@@ -77,7 +77,7 @@ TRACKER: 21 full post, 6 teaser, 7 skipped, 10 to re-record.
 | 2026-08-28 | rfs-teaching-and-childcare | Skipped |  |
 | 2026-08-28 | what-about-school | Teaser | 3:07 (the full post would be about 10:25) |
 
-STILL TO RECORD: 86 posts (10 of them re-recordings).
+STILL TO RECORD: 87 posts (10 of them re-recordings).
 
 ==================== 2026-08-20 · teaser (the full post is 9,071 characters) ====================
 
@@ -2435,43 +2435,6 @@ After that, cut the costs. ClickLog takes about fifteen seconds an incident, and
 
 ==================== 2026-10-16 ====================
 
-the-count-measures-the-ending
-
-The count measures the ending.
-
-How many mass shootings happen in the United States each year depends on who is counting.
-
-Gun Violence Archive counts any shooting where four or more people are shot, not counting the shooter: 408 in 2025.
-The AP, USA Today and Northeastern University count mass killings, four or more killed: fewer in 2025 than in any year in two decades, 59 percent below the record 41 of 2019.
-The FBI counts active shooter incidents, somebody trying to kill people in a populated place: 24 in 2024.
-The Crime Prevention Research Center counts four or more murdered in a public place, not during another crime such as a robbery or a gang fight: between one and eight a year since 1998, and four in 2025.
-
-Every one of those is correct for what it counts. Two choices set the size of the number: whether the wounded count, and whether the most common kinds of shooting are left out. A narrow count is not owned by one side. The lean is in which count a writer picks: the broad one is quoted to argue there are many, a narrow one to argue there are few.
-
-What none of them count.
-
-Every count is of an event after it happens. None records pressure toward a shooting that never happened, or an attempt that was stopped. The criminologist who manages the mass killing count calls mass shootings rare events: about 1 percent of US gun deaths, 100 to 200 lives in a typical year against roughly 17,000 gun homicides. That is a share of deaths after the fact, and every other count stops at the same place.
-
-The hypothesis.
-
-Mass shootings are counted per person in the population, so the published figures call them rare. That measures the outcome, not the pressure. The pressure toward one can be widespread while the outcome stays rare, because most targets never act. A rare result does not mean a rare effort. When thousands of people take part, coordinated targeting is common, even though the people targeted are a small share of the population.
-
-I wrote in Something to lose that for many years they tried to get me to buy a gun and use it on a crowd, and that I did not. No count of mass shootings has a row for that.
-
-Skills Economy and net zero.
-
-The second hypothesis follows from the first: Skills Economy could, in theory, bring mass shootings to net zero.
-
-The pressure works by closing off a person's options. Income ends, work is interfered with until it stops, the person is moved back into a family house (Why they want you living with family), and nobody around them believes what is happening. Destitution, a mass shooting and suicide are the endings left once everything else is closed.
-
-Skills Economy reopens the options. Work is traded on what you can do, with people who are not taking part: Workforce shows which skills the community has, and the Directory lists survivors by what they can do. The goal board is where you put the 1% of the day that is left into small tasks toward somebody else's goal and post your own. A person with income, work and people who know them has something to lose, and the pressure has less to work with.
-
-What "in theory" covers: the shootings the pressure produces. I said in Something to lose that I do not believe that is every shooting, and I cannot prove it is any. Neither hypothesis has been tested. Testing them takes records kept the same way by many Targeted Individuals, so the number pushed toward the ending can be set against the number who reached it. ClickLog keeps that record, dated, and your notes stay yours.
-
-The rest of the argument is on the Peace Battle 2 page.
-
-==================== 2026-10-16 ====================
-
 regret-needs-a-choice
 
 Regret needs a choice.
@@ -2508,7 +2471,44 @@ What I do decide is what I do with my own days. No method I know of stops the ta
 
 Two of those are within reach today. A dated record in ClickLog takes seconds an entry, and nobody but you sees your notes. A listing in the Directory puts survivors where others can find them by what they can do; being on it costs nobody an account, and anybody can claim theirs or have it taken down.
 
-==================== 2026-10-15 ====================
+==================== 2026-10-16 ====================
+
+the-count-measures-the-ending
+
+The count measures the ending.
+
+How many mass shootings happen in the United States each year depends on who is counting.
+
+Gun Violence Archive counts any shooting where four or more people are shot, not counting the shooter: 408 in 2025.
+The AP, USA Today and Northeastern University count mass killings, four or more killed: fewer in 2025 than in any year in two decades, 59 percent below the record 41 of 2019.
+The FBI counts active shooter incidents, somebody trying to kill people in a populated place: 24 in 2024.
+The Crime Prevention Research Center counts four or more murdered in a public place, not during another crime such as a robbery or a gang fight: between one and eight a year since 1998, and four in 2025.
+
+Every one of those is correct for what it counts. Two choices set the size of the number: whether the wounded count, and whether the most common kinds of shooting are left out. A narrow count is not owned by one side. The lean is in which count a writer picks: the broad one is quoted to argue there are many, a narrow one to argue there are few.
+
+What none of them count.
+
+Every count is of an event after it happens. None records pressure toward a shooting that never happened, or an attempt that was stopped. The criminologist who manages the mass killing count calls mass shootings rare events: about 1 percent of US gun deaths, 100 to 200 lives in a typical year against roughly 17,000 gun homicides. That is a share of deaths after the fact, and every other count stops at the same place.
+
+The hypothesis.
+
+Mass shootings are counted per person in the population, so the published figures call them rare. That measures the outcome, not the pressure. The pressure toward one can be widespread while the outcome stays rare, because most targets never act. A rare result does not mean a rare effort. When thousands of people take part, coordinated targeting is common, even though the people targeted are a small share of the population.
+
+I wrote in Something to lose that for many years they tried to get me to buy a gun and use it on a crowd, and that I did not. No count of mass shootings has a row for that.
+
+Skills Economy and net zero.
+
+The second hypothesis follows from the first: Skills Economy could, in theory, bring mass shootings to net zero.
+
+The pressure works by closing off a person's options. Income ends, work is interfered with until it stops, the person is moved back into a family house (Why they want you living with family), and nobody around them believes what is happening. Destitution, a mass shooting and suicide are the endings left once everything else is closed.
+
+Skills Economy reopens the options. Work is traded on what you can do, with people who are not taking part: Workforce shows which skills the community has, and the Directory lists survivors by what they can do. The goal board is where you put the 1% of the day that is left into small tasks toward somebody else's goal and post your own. A person with income, work and people who know them has something to lose, and the pressure has less to work with.
+
+What "in theory" covers: the shootings the pressure produces. I said in Something to lose that I do not believe that is every shooting, and I cannot prove it is any. Neither hypothesis has been tested. Testing them takes records kept the same way by many Targeted Individuals, so the number pushed toward the ending can be set against the number who reached it. ClickLog keeps that record, dated, and your notes stay yours.
+
+The rest of the argument is on the Peace Battle 2 page.
+
+==================== 2026-10-16 ====================
 
 the-hint-is-meant-to-be-noticed
 
