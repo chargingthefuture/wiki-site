@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "a-light-you-are-meant-to-notice",
     "title": "A light you are meant to notice",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks why bright lights from cars are used to harass somebody. They are meant to be seen, they are repeated until the road itself carries the moment, and a shared record is what shows them as a pattern.",
     "category": "Community",
     "collection": "posts",
