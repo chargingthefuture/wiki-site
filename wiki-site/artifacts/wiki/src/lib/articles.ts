@@ -39,10 +39,27 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "staged-is-not-imagined",
+    "title": "Staged is not the same as imagined",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-17",
+    "excerpt": "A saved Quora question asks whether Targeted Individuals are real. They are. Some of what a target sees is staged, and staged means people did it.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/staged-is-not-imagined.md",
+    "teaser": "A question I saved on Quora in November 2024 asks whether there is such a thing as a Targeted Individual, and whether it is real. Yes. The question offers two choices, real or imagined, and leaves out the third one that causes the confusion: staged. Some of what a target sees is a performance, a fake fight or a scene set up to provoke. A performance needs performers, so it is real. Making a person doubt it is one of the methods. A dated record is what answers that doubt.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "directory"
+    ],
+    "number": 531
+  },
+  {
     "slug": "well-along-before-you-know",
     "title": "Well along before you know",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks whether a person can be targeted without knowing it. Yes, and often for a long time: the first part happens where they are not.",
     "category": "Community",
     "collection": "posts",
