@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "active-is-what-gets-done",
     "title": "Active is what gets done",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks how and where to join an active community. Active is not how much a group talks. It is what gets done between its members in a day.",
     "category": "Community",
     "collection": "posts",

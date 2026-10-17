@@ -2548,7 +2548,7 @@ None of that asks you to talk about the targeting first, or at all. The task is 
 
 And if you would rather be found than go looking, the Directory lists survivors by what they can do. Being on it costs nobody an account, and it is how the next person who needs your skill finds you.
 
-==================== 2026-10-16 ====================
+==================== 2026-10-17 ====================
 
 aimed-at-what-it-costs
 
