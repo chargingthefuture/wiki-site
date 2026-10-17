@@ -1,6 +1,6 @@
 ---
 title: "It is built to take the center"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks for the hardest part of being targeted. It is built to take the center of a life, and people are how the rest grows back."
 category: "Community"
 teaser: "A question I saved on Quora asks what the most difficult part of being targeted is. I cannot rank the parts for anybody else, since what is done is chosen person by person. One difficulty runs under all of them: every piece asks to be noticed and worked out, until the targeting is what a life is arranged around. No single piece can be refused. What I have seen move it back is other survivors, met as people, in conversations about work, skills and goals the targeting did not set."
