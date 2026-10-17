@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "a-choice-under-pressure",
     "title": "A choice under pressure is still a choice",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks whether a Targeted Individual's family is forced to take part. They are pressured, and they still choose. The target never does.",
     "category": "Community",
     "collection": "posts",
