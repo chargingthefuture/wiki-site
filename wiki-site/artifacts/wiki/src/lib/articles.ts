@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "living-well-not-sending-it-back",
     "title": "Living well, not sending it back",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks how to send the hits back. I know of no way to, and the push to strike back is part of what is done to a target.",
     "category": "Community",
     "collection": "posts",
