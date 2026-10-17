@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "the-costume-is-the-silly-part",
     "title": "The costume is the silly part",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks why some people blame aliens or the supernatural. Those are costumes. What is underneath is people, running a business.",
     "category": "Community",
     "collection": "posts",
