@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "your-record-not-the-buildings",
+    "title": "Your record, not the building's",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks how to get evidence when the staff of your building take part. Not from the building. Keep your own record, quietly.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/your-record-not-the-buildings.md",
+    "teaser": "A question I saved on Quora asks how to get evidence of harassment in a community building when the workers take part too. The building's cameras, logs and complaint forms belong to the people doing it, so the evidence has to be your own: audio recorded quietly, a written note made the same day, a dated record nobody else holds. Do not claim a camera you cannot show. Remember what the building is for in their plan: the aim is that you lose the housing, and a reaction is what gets you put out.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "directory"
+    ],
+    "number": 510
+  },
+  {
     "slug": "the-call-they-asked-for",
     "title": "The call they asked for",
     "repo": "chargingthefuture/wiki-site",
