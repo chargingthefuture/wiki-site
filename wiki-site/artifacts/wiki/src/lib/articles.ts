@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "spent-not-taken",
     "title": "Most of it is spent, not taken",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks how Targeted Individuals are robbed of money. Some is taken outright. Most is spent, by the target, on costs somebody else arranged.",
     "category": "Community",
     "collection": "posts",
