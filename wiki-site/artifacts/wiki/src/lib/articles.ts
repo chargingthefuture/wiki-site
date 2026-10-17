@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "not-everything-is-them",
     "title": "Not everything is them",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks if Targeted Individuals are seen as delusional or paranoid. Survivors sort; a dated record can be checked.",
     "category": "Community",
     "collection": "posts",
