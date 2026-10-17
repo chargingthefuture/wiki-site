@@ -199,7 +199,7 @@ follows it.
 - [ ] Why do many people doubt the existence of gang stalking — bookmarked
 - [x] Why is there a lack of awareness about targeted individuals and gangstalking — bookmarked · saved 2 times
 - [ ] Council meeting for Targeted Individuals in Richmond CA — bookmarked · realgangstalkingvictimsandevidence
-- [ ] Is there a such thing as a targeted individual and is it real — bookmarked
+- [x] Is there a such thing as a targeted individual and is it real — bookmarked
 - [ ] Was wondering if any other T Is have been able to find anyone in their local area Im really curious how many of us th 1 — bookmarked · amsspacerevengeforhireagencies
 
 ### 2024-12
