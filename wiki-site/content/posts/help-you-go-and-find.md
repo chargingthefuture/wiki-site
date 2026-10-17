@@ -1,6 +1,6 @@
 ---
 title: "Help you go and find"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks how to find local help and community. Help that is offered nearby is the help to doubt. Help you go and find is different."
 category: "Community"
 teaser: "A question I saved on Quora asks where Targeted Individuals can find help, and how to find others nearby. In 2024 I answered under it: do not seek it or take it. The help I had taken once came from somebody who was part of it, and it moved me where people could be placed around me. Local is where they already are. I would still say the same about help that is offered. What has changed is that there is now another kind: help you go and find, from people you picked by what they can do."
