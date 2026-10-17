@@ -39,6 +39,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "ask-the-ones-who-lasted",
+    "title": "Ask the ones who lasted",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks whether any Targeted Individuals made it out. I know of no exit. I do know people who have lasted decades, and they can be asked.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/ask-the-ones-who-lasted.md",
+    "teaser": "A question I saved on Quora asks whether any Targeted Individuals made it out. I do not know of anybody who got out, and I have not. But there are survivors who have lived with it for thirty years and more, and built lives while it went on. That is a different question with a real answer, and the people who hold it can be found and asked. A target kept apart from them hears only one account of how this ends: the one the people doing it tell.",
+    "topics": [
+      "community",
+      "directory"
+    ],
+    "number": 516
+  },
+  {
     "slug": "best-guesses-passed-along-fast",
     "title": "Best guesses, passed along fast",
     "repo": "chargingthefuture/wiki-site",
