@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "a-word-to-be-found-by",
     "title": "A word to be found by",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks what a Targeted Individual is and why anyone would want to be one. Nobody wants the targeting. The word is taken up to be found.",
     "category": "Community",
     "collection": "posts",
