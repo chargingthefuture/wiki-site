@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "one-thing-at-a-time",
+    "title": "Ask about one thing at a time",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-17",
+    "excerpt": "A saved Quora question asks how to get help when accounts are hacked. Help comes one device at a time, from somebody who knows that device.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/one-thing-at-a-time.md",
+    "teaser": "A question I saved on Quora asks how to get help with somebody hacking your accounts. Help for this comes in pieces. An email, a phone, a laptop and a home network are each reached differently and each fixed differently, so the useful question names one of them. And the leak is not always on your side: the person you are talking to can be the one who is reached. Bring one thing at a time to somebody who knows that thing.",
+    "topics": [
+      "specterati",
+      "directory",
+      "community"
+    ],
+    "number": 533
+  },
+  {
     "slug": "no-side-is-behind-it",
     "title": "No side is behind it",
     "repo": "chargingthefuture/wiki-site",
