@@ -1,6 +1,6 @@
 ---
 title: "Well along before you know"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks whether a person can be targeted without knowing it. Yes, and often for a long time: the first part happens where they are not."
 category: "Community"
 teaser: "A question I saved on Quora asks whether a person can be targeted by secret societies or organizations without knowing it. Yes, and often for years. The first part happens where the target is not: what is said to an employer, a landlord, a friend. It does not take a society either. It takes ordinary groups collaborating, with no name and no membership to discover. It can start from something as small as being kind to somebody already targeted. People further along can tell you what comes next."

@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "well-along-before-you-know",
+    "title": "Well along before you know",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks whether a person can be targeted without knowing it. Yes, and often for a long time: the first part happens where they are not.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/well-along-before-you-know.md",
+    "teaser": "A question I saved on Quora asks whether a person can be targeted by secret societies or organizations without knowing it. Yes, and often for years. The first part happens where the target is not: what is said to an employer, a landlord, a friend. It does not take a society either. It takes ordinary groups collaborating, with no name and no membership to discover. It can start from something as small as being kind to somebody already targeted. People further along can tell you what comes next.",
+    "topics": [
+      "specterati",
+      "community",
+      "commons"
+    ],
+    "number": 530
+  },
+  {
     "slug": "care-from-somebody-outside-it",
     "title": "Care from somebody outside it",
     "repo": "chargingthefuture/wiki-site",
