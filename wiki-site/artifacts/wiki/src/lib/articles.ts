@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "fewer-doors-left-open",
+    "title": "Fewer doors left open",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks how to deal with a cyber stalker without police or a lawyer. Close accounts you no longer use, and do not answer what comes back.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/fewer-doors-left-open.md",
+    "teaser": "A question I saved on Quora asks how to deal with a cyber stalker without involving law enforcement or hiring a lawyer. I do not expect much from a lawyer here, and I have said so. What a person can do alone is smaller: close the accounts they no longer use, because every dormant account is a door somebody else can open, and treat whatever comes back as bait rather than news. When I asked one site to delete an old account, the reply said its writer knew where I was at all times.",
+    "topics": [
+      "specterati",
+      "directory",
+      "clicklog"
+    ],
+    "number": 505
+  },
+  {
     "slug": "it-does-not-need-you-to-know-why",
     "title": "It does not need you to know why",
     "repo": "chargingthefuture/wiki-site",
