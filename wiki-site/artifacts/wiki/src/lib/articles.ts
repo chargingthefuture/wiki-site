@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "they-know-what-they-are-doing",
+    "title": "They know what they are doing",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks whether the people doing this know what they are doing. Most do. Taking part is a choice, and so is stopping.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/they-know-what-they-are-doing.md",
+    "teaser": "A question I saved on Quora asks whether the people doing this are aware of what they are doing. Most of them are. They are told a lie about the target, and they know it is a lie: nobody follows a real criminal around town with a two-year-old in tow. Some were raised into it from early childhood. Some know it is illegal and are careless about hiding it anyway. Taking part is a choice, and quitting is one too. Knowing that changes what is worth doing: explaining yourself to them is not.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "directory"
+    ],
+    "number": 471
+  },
+  {
     "slug": "denial-is-part-of-the-method",
     "title": "Denial is part of the method",
     "repo": "chargingthefuture/wiki-site",
