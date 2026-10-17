@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "what-an-account-can-reach",
     "title": "Limit what an account can reach",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks if Targeted Individuals can use social media without harassment. Nobody can promise that. What an account reaches can be limited.",
     "category": "Community",
     "collection": "posts",
