@@ -128,7 +128,7 @@ follows it.
 - [ ] What is the purpose of the Targeted Individual Program Who are the individuals targeted and why are they chosen Is there a specific criteria or reason for targeting certain individuals — bookmarked
 - [ ] What percent of your calls do you think are re routed to the gang stalker call center 2 — bookmarked · uspsyopstargetedindividuals
 - [ ] What would cause someone to be targeted by organized harassment and gangstalking — bookmarked
-- [ ] Where can targeted individuals find help How can I find others in my area to find local help or community 1 — bookmarked · targetedindividuals1
+- [x] Where can targeted individuals find help How can I find others in my area to find local help or community 1 — bookmarked · targetedindividuals1
 - [ ] Why would the government be involved in organized stalking How can we know who to trust — bookmarked
 - [ ] Are government surveillance programs and organized stalking interconnected What is the shocking truth behind covert operations and targeted individuals — bookmarked
 - [ ] Do targeted individuals TIs have knowledge of their targeting or do they only become aware of it when they start noticing unusual occurrences — bookmarked
