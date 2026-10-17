@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "care-from-somebody-outside-it",
     "title": "Care from somebody outside it",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks whether poisoning is part of this. Sometimes it is. The protection is who prepares, treats and repairs, not a fear of everything.",
     "category": "Community",
     "collection": "posts",
