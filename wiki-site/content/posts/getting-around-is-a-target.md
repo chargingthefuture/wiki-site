@@ -1,6 +1,6 @@
 ---
 title: "Getting around is a target"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks for lesser-known facts about Targeted Individuals. One is how much of it is aimed at getting around: the car, the ride, the trip."
 category: "Community"
 teaser: "A question I saved on Quora asks for lesser-known facts about Targeted Individuals. One that rarely comes up is how much of it is aimed at the ability to get around. A car is stolen, tampered with or made to break down. A ride is refused because people were told not to give one. A trip is stretched into months of being stranded. Each reads as bad luck alone. Together they keep a person in one place, where the rest is easier to arrange. The answer is rides from people who do not take part."
