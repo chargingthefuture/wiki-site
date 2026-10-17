@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "the-plain-version-comes-down",
+    "title": "The plain version is the one that comes down",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks why so few people know about Targeted Individuals. The plain account is the one removed, and most of it is never reported at all.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/the-plain-version-comes-down.md",
+    "teaser": "A question I saved on Quora asks why there is so little awareness of what Targeted Individuals go through. Part of the answer is what stays up. On Quora, posts about spiritual warfare and the illuminati stay up, and plain accounts of what is happening get banned. So the version the public meets is the one that reads as unbelievable. Most of it is also never reported, mine included. Awareness grows from a record that cannot be deleted, written in terms that already exist.",
+    "topics": [
+      "specterati",
+      "what-works",
+      "community"
+    ],
+    "number": 518
+  },
+  {
     "slug": "made-harder-to-help",
     "title": "It is made harder to help",
     "repo": "chargingthefuture/wiki-site",
