@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "getting-around-is-a-target",
     "title": "Getting around is a target",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks for lesser-known facts about Targeted Individuals. One is how much of it is aimed at getting around: the car, the ride, the trip.",
     "category": "Community",
     "collection": "posts",
