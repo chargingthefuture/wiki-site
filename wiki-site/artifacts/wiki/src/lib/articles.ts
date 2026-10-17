@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "who-does-the-repair",
     "title": "Who does the repair",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks whether the people who help a Targeted Individual, mechanics and lawn workers, get scared away. Mostly they are reached, not scared.",
     "category": "Community",
     "collection": "posts",
