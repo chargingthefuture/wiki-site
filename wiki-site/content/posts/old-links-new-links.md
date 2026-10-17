@@ -1,9 +1,9 @@
 ---
 title: "Old links, new links"
 date: "2026-10-17"
-excerpt: "Seventy accounts erased, twelve of them since October 1, the latest at 9:17 in the morning on October 17. What is live, what is dead, and the one address that never changes."
+excerpt: "Seventy accounts erased, twelve of them since October 1, and Kingishere-8 is the handle open now. What is live, what is dead, and the one address that never changes."
 category: "Community"
-teaser: "Quora has erased my accounts seventy times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Twelve of those came after October 1. The latest ban landed at 9:17 in the morning on October 17, and no handle is open yet. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
+teaser: "Quora has erased my accounts seventy times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Twelve of those came after October 1. The latest ban landed at 9:17 in the morning on October 17, and the handle now open was opened three hours later. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
 topics:
   - publishing
   - platform-independence
@@ -11,7 +11,7 @@ topics:
 
 Quora has erased my accounts seventy times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
 
-There is no handle of mine open on Quora right now. The last one was banned at 9:17 in the morning on October 17, 2026, and everything before it is dead.
+There is one handle of mine on Quora, opened in the afternoon of October 17, 2026, three hours after the ban before it. Everything before it is dead.
 
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
@@ -27,7 +27,7 @@ To reach me, save this link alongside the blog: https://sleek.bio/farah — it l
 
 ## Quora: current
 
-The handle: none open right now. Kingishere-7 was banned at 9:17 in the morning on October 17, 2026, and the next handle goes here when it opens.
+The handle: https://www.quora.com/profile/Kingishere-8 — opened at 12:13 in the afternoon on October 17, 2026, two hours and fifty-six minutes after Kingishere-7 was banned.
 
 The space: https://skillseconomy.quora.com
 
@@ -215,4 +215,4 @@ The old GitHub wiki — an inactive mirror. It no longer receives updates; this 
 
 Nothing is written on a platform first anymore. Every post starts here, and platforms only ever get a short version and a link back. So the next time an account is erased — and I assume there will be a next time — the cost is one entry moving from the current list to the dead list on this page. That is all.
 
-Since this page first went up, that has happened sixty-eight times. The list above is current, and the next handle, once it opens, is the entry waiting to move onto it.
+Since this page first went up, that has happened sixty-eight times. The list above is current, and Kingishere-8 is the entry waiting to move onto it.
