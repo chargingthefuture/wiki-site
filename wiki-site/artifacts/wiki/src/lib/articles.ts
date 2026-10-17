@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "what-slips-out-is-the-lie",
     "title": "What slips out is the lie",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks how a Targeted Individual can find out who made them a target. What can be found out is the lie each person was told.",
     "category": "Community",
     "collection": "posts",
