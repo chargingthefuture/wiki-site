@@ -82,7 +82,7 @@ follows it.
 - [ ] Do individuals on the targeted individual list know the reason for being placed on it — bookmarked
 - [ ] Does being targeted for TIs targeted individuals indicate that someone was involved in the occult prior to the targeting — bookmarked
 - [ ] How do I know if I am on a gang stalkers list as a target — bookmarked · saved 3 times
-- [ ] How do stalkers groom the person they target — bookmarked
+- [x] How do stalkers groom the person they target — bookmarked
 - [ ] How do targeted individuals know that they are being targeted — bookmarked
 - [ ] How does a narcissist act to people who see right through them — bookmarked
 - [ ] How soon does a narcissist usually get bored of a new supply — bookmarked
