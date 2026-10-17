@@ -1,6 +1,6 @@
 ---
 title: "Belief is not the same as company"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks if Targeted Individuals feel alone because nobody offline accepts it. Their belief is not the company that ends it."
 category: "Community"
 teaser: "A question I saved on Quora asks whether a Targeted Individual feels alone because everybody in their offline life refuses to accept what is happening. Being disbelieved and being alone are two different things, and the second is the one being worked toward. Waiting for the people nearby to accept it leaves the remedy in their hands. Company does not need their verdict. It comes from people who already know, at a pace you set, and it works best when the talk reaches past the targeting."
