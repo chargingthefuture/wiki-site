@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "counted-by-what-we-can-do",
+    "title": "Counted by what we can do",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks who the most common targets are. Nobody holds that census. What can be counted is what survivors are able to do.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/counted-by-what-we-can-do.md",
+    "teaser": "A question I saved on Quora asks who the most common targets are. It expects a profile: an age, a job, a kind of person. I went looking for one in 2025 with a survey of who and where we are, and the answers did not sort by profile. How hard a person is hit follows what the people doing it were told about them. The count that does hold up is a different one. The Directory lists survivors by what they can do, and on October 13, 2026 it listed 312 people.",
+    "topics": [
+      "specterati",
+      "directory",
+      "community"
+    ],
+    "number": 493
+  },
+  {
     "slug": "belief-is-not-company",
     "title": "Belief is not the same as company",
     "repo": "chargingthefuture/wiki-site",
