@@ -75,7 +75,7 @@ follows it.
 - [ ] What are the signs that I ve accidentally got romantically involved with a gang stalker in my gang stalking 1 — bookmarked · gangstalkingquestionsandanswers
 - [ ] What does being targeted by gang stalkers feel like What are some signs that someone is targeting you — bookmarked
 - [ ] What exactly do gang stalkers want from me — bookmarked · saved 4 times
-- [ ] Why are targeted individuals treated so badly 1 — bookmarked · tinetwork · saved 2 times
+- [x] Why are targeted individuals treated so badly 1 — bookmarked · tinetwork · saved 2 times
 - [x] Why do gangstalkers film you on their phones 5 — bookmarked · gangstalkingworldwide
 - [ ] Are the families of targeted individuals forced by gang stalkers to harass the TI or do they do it voluntarily — bookmarked
 - [x] Do gang stalkers scare away people who help you such as mechanics lawn workers etc — bookmarked
