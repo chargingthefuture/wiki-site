@@ -26,8 +26,15 @@ corrected where it had drifted; 70 were rewritten. Entries added after that date
 are written from the post at the time it is published. So the file is no longer
 unverified — but it is still a staging file, and the post remains the record.
 
-495 of 495 written.
+496 of 496 written.
 
+
+==============================================================================
+No. 0 · 2026-10-16 · It only works with cover
+
+Somebody asked on Quora why the people doing this are so cowardly. The answer is in how it is built. Nothing is done one on one or in the open: they outnumber the people they target, every act comes with an innocent explanation, and the ones who discover it is wrong mostly keep going rather than admit it. Their lives were never at stake. Staying protects a job, an apartment, a standing with the people above them. Courage shows up elsewhere: a coworker who refused and had their lunch stolen, a person who quit once they saw it was unjustified, a stranger who ignored the alerts sent to them. They acted alone. Do not wait for the rest to find their nerve; find other survivors instead.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/it-only-works-with-cover
 
 ==============================================================================
 No. 495 · 2026-10-16 · The question points the wrong way
