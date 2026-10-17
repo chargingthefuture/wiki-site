@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "the-threat-is-being-believed",
     "title": "The threat is being believed",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "Why whistleblowers become Targeted Individuals: somebody who will not go along is no use to the arrangement, so it goes after their word.",
     "category": "Community",
     "collection": "posts",
