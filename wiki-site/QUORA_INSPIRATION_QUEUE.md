@@ -326,7 +326,7 @@ follows it.
 - [ ] Quora Can gangstalkers be out to harm or even kill the target of their harassment Answered 03 04 2024 by Vicki Clin — bookmarked · resistanceisnotfutilefightingbackspace
 - [ ] What agency can you call to get gang stalking done with — bookmarked
 - [ ] When gang stalking is exposed how should those involved be treated What should we do when the tables turn What would feel like justice for you as a targeted individual — bookmarked
-- [ ] Why does everyone yell at the targeted individual going through harassment — bookmarked
+- [x] Why does everyone yell at the targeted individual going through harassment — bookmarked
 - [ ] Are gangstalkers gangsta — bookmarked
 - [ ] How do prove Im being gangstalked — bookmarked
 - [ ] How do you know if you re being gang stalked — bookmarked · saved 3 times
