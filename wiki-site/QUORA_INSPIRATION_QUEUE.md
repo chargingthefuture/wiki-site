@@ -178,7 +178,7 @@ follows it.
 - [ ] Are gang stalking and government sanctioned harassment programs evidence of systemic corruption How do you expose them and fight back effectively — bookmarked
 - [ ] Can electronic surveillance be weaponized against innocent people What do you need to know about gang stalking — bookmarked
 - [x] Do targeted individuals ever stop getting harassed — bookmarked
-- [ ] How can communities fight the harassment of targeted individuals — bookmarked
+- [x] How can communities fight the harassment of targeted individuals — bookmarked
 - [ ] What are some lesser known facts about Targeted Individuals that people should be aware of — bookmarked
 - [ ] What are the signs you re under investigation — bookmarked · saved 2 times
 - [ ] Why do some people attribute organized stalking to aliens or supernatural forces — bookmarked
