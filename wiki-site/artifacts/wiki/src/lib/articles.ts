@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "it-tries-to-make-the-crime",
     "title": "It tries to make the crime",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks for the signs of being under investigation. An investigation looks for a crime. What I describe tries to produce one.",
     "category": "Community",
     "collection": "posts",

@@ -3168,7 +3168,7 @@ Keep a record of your own.
 
 Somebody building a case against you does not show you their file. You can keep yours. ClickLog logs an incident with one tap and the date, and the date and location cannot be changed later. Notes are not shown to other members (ClickLog: your record, and the record).
 
-==================== 2026-10-16 ====================
+==================== 2026-10-17 ====================
 
 knowing-changes-nothing-for-them
 
