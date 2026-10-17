@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "ask-the-ones-who-lasted",
     "title": "Ask the ones who lasted",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks whether any Targeted Individuals made it out. I know of no exit. I do know people who have lasted decades, and they can be asked.",
     "category": "Community",
     "collection": "posts",
