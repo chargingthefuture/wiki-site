@@ -310,7 +310,7 @@ follows it.
 - [ ] Is there evidence of government involvement in organized stalking Whats the disturbing truth behind government sponsored surveillance and harassment — bookmarked
 - [ ] Why are people targeted and who is behind organized stalking and targeting — bookmarked · saved 3 times
 - [ ] Why are so many people being targeted by government surveillance and harassment What s the truth behind organized stalking — bookmarked · saved 3 times
-- [ ] Do gang stalkers poison — bookmarked
+- [x] Do gang stalkers poison — bookmarked
 - [ ] Do Targeted Individuals really believe that the FBI is too niave to be aware that private citizens are suffering from 1 — bookmarked · legalreformer · saved 2 times
 - [ ] Do Targeted Individuals really believe that the FBI is too niave to be aware that private citizens are suffering from No touch torture — bookmarked
 - [ ] What are the various circumstances which put ordinary civilians at risk for becoming a Gangstalking victim Please make 1 — bookmarked · realgangstalkingvictimsandevidence
