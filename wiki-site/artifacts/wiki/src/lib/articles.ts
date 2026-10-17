@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "it-only-works-with-cover",
     "title": "It only works with cover",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks why the people doing this are so cowardly. They act in numbers, with cover, against one person. Saying no takes nerve they lack.",
     "category": "Community",
     "collection": "posts",
