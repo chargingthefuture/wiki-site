@@ -156,7 +156,7 @@ follows it.
 - [ ] Why do some whistleblowers become targeted individuals after exposing illegal activities — bookmarked
 - [ ] Why dont gang stalkers like to be ignored — bookmarked
 - [ ] Why is gang stalking an appointment for life Why is the consensus is that once a TI always a TI Is there any incidence of gang stalkers taking their toys and going home — bookmarked
-- [ ] Why would a gang stalker want to date me — bookmarked · saved 2 times
+- [x] Why would a gang stalker want to date me — bookmarked · saved 2 times
 - [ ] How do gang stalkers manipulate and intimidate their targets What are the power dynamics of organized stalking — bookmarked
 - [ ] How do the tactics of organized stalking reveal the lengths the powerful will go to maintain their control — bookmarked
 - [ ] What are some hotel survival tricks for TIs 2 — bookmarked · gangstalkingquestionsandanswers
