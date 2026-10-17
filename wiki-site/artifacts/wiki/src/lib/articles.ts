@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "the-swings-are-part-of-it",
     "title": "The swings are part of it",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks what being targeted feels like. Less a constant weight than a ride: pressure, quiet, kindness, pressure again, all arranged.",
     "category": "Community",
     "collection": "posts",
