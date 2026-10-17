@@ -93,7 +93,7 @@ follows it.
 - [x] What do gang stalkers fear — bookmarked
 - [ ] What do you do if you are being gang stalked and you know who some of your gang stalkers are personally and who is beh 1 — bookmarked · uspsyopstargetedindividuals
 - [x] What does remove gangstalking mean — bookmarked · saved 2 times
-- [ ] What is the point of gang stalking someone if they don t even know why they are being gang stalked Why waste their time — bookmarked
+- [x] What is the point of gang stalking someone if they don t even know why they are being gang stalked Why waste their time — bookmarked
 - [x] What makes you special as a targeted individual — bookmarked
 - [ ] What profound truth did one targeted individual uncover amidst the chaos of gang stalking — bookmarked
 - [x] What type of harassment are you receiving from the gang stalkers I m curious to know for my own understanding of what some victims like yourself receive and witness Thank you — bookmarked
