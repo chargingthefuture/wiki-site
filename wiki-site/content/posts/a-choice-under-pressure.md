@@ -1,6 +1,6 @@
 ---
 title: "A choice under pressure is still a choice"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks whether a Targeted Individual's family is forced to take part. They are pressured, and they still choose. The target never does."
 category: "Community"
 teaser: "A question I saved on Quora asks whether the families of Targeted Individuals are forced to harass them or do it voluntarily. Both halves are partly true. Relatives are pressured: the targeting of a family appears to last only until they abandon the target or join in. Pressure is not the same as having no choice. People who are not targets have one. The target does not. Some families also come back, years later, once they see what happened."

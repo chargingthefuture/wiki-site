@@ -1,6 +1,6 @@
 ---
 title: "The charge is never read"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks whether Targeted Individuals know why they were put on the list. Mostly not. Nobody reads them a charge, and no reason would hold."
 category: "Community"
 teaser: "A question I saved on Quora asks whether the people on the list know the reason they were put on it. Mostly they do not. A legal accusation comes with a charge, a hearing and a chance to answer. The list comes with none of them. What a target learns arrives sideways, as accusations told to an employer or others, never to the target. Some learn a reason anyway. Mine was revenge. Knowing it settled nothing, because no reason belongs on that list. There is one list you can read: the Directory."
