@@ -2660,7 +2660,7 @@ The Directory lists survivors by what they can do, so a conversation can start f
 
 None of this makes the targeting less. It changes what else is in the day.
 
-==================== 2026-10-16 ====================
+==================== 2026-10-17 ====================
 
 counted-by-what-we-can-do
 

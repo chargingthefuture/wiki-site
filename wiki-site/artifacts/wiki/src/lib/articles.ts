@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "built-to-take-the-center",
     "title": "It is built to take the center",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks for the hardest part of being targeted. It is built to take the center of a life, and people are how the rest grows back.",
     "category": "Community",
     "collection": "posts",
