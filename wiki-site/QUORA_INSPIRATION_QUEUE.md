@@ -51,15 +51,15 @@ follows it.
 - [x] Can gang stalkers actually be out to harm or even kill their targeted individuals — bookmarked · saved 3 times (asked by Cody Homan, https://www.quora.com/profile/Cody-Homan-5, on 2023-11-24; answered in arranged-to-look-like-something-else.md)
 - [–] Gang stalking Organized Stalking Leaked documents RT news — bookmarked · learningandresearchti (set aside, 2026-10-15: the title of a saved news video rather than a question. Not a post.)
 - [x] How can a T I victim escape the harassment from their gang stalker when they have all your information name SSN and your DOB — bookmarked
-- [ ] How do gang stalkers use subtle hints to control targeted individuals and what impact does this have on the victims lives — bookmarked
+- [x] How do gang stalkers use subtle hints to control targeted individuals and what impact does this have on the victims lives — bookmarked
 - [–] How TO Stop Remote Tech Viewing of Your Home Technology Mirrored — bookmarked · learningandresearchti (set aside, 2026-10-15: it asks for technology advice, which this blog does not give. Not a post.)
-- [ ] What is a gang stalker and how do they operate — bookmarked
-- [ ] What is your opinion of people who engage in stalking activities for revenge and or personal gain Do you think they have psychological issues If so what are they — bookmarked
+- [x] What is a gang stalker and how do they operate — bookmarked
+- [x] What is your opinion of people who engage in stalking activities for revenge and or personal gain Do you think they have psychological issues If so what are they — bookmarked
 - [–] What legal avenues are available for targeted individuals to seek justice against gang stalking and organized harassment — bookmarked (set aside, 2026-10-15: it asks for legal advice, which this blog does not give. Not a post.)
 - [–] When gang stalkers text my phone is it installing spyware? I cannot tell if every company has a back door and part of this or if everyone I speak to is simply hacked and exposing my communications. — submitted to a space · Targeted Individuals - Get Answers · saved 2 times (set aside, 2026-10-15: it asks for technology advice, which this blog does not give. Not a post.)
 - [ ] Why did I become a targeted individual for gang stalking — bookmarked · saved 5 times
 - [ ] Why do gang stalkers use bright lights from cars to harass me — bookmarked
-- [ ] What is gang stalking — bookmarked · saved 12 times
+- [x] What is gang stalking — bookmarked · saved 12 times
 - [ ] Do you regret being a targeted individual — bookmarked
 - [ ] How can targeted individuals reclaim power break free from organized stalking and find resilience amidst adversity — bookmarked
 - [ ] What are some signs that someone is being targeted by gang stalkers or organized stalkers — bookmarked · saved 5 times
