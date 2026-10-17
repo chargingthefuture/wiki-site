@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "made-harder-to-help",
     "title": "It is made harder to help",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks what happens to somebody who helps a Targeted Individual. Mostly, helping is made harder. A helper is not a participant.",
     "category": "Community",
     "collection": "posts",
