@@ -1,6 +1,6 @@
 ---
 title: "The question points the wrong way"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks whether being targeted means somebody was in the occult first. No. Where the occult turns up, it is a story told to targets."
 category: "Community"
 teaser: "A question I saved on Quora asks whether being targeted means the person was involved in the occult before it started. No. The question searches the target's past for a cause, and the cause is not there. The spiritual explanation is one of the stories handed to targets, and in my case it came right before being told to give up. Where religious groups and cults do appear, they appear among the people taking part. Being targeted says something about them, not about the person they chose."
