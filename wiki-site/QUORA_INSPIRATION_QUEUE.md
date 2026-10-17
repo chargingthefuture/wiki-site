@@ -88,7 +88,7 @@ follows it.
 - [ ] How soon does a narcissist usually get bored of a new supply — bookmarked
 - [ ] Is gang stalking real or is it just a bunch of paranoid people — bookmarked
 - [x] Is there a time limit for gang stalking before it stops or no longer has any effect — bookmarked
-- [ ] What are the indicators of being a high level targeted individual — bookmarked
+- [x] What are the indicators of being a high level targeted individual — bookmarked
 - [ ] What are the tactics used by gang stalkers to control their victims — bookmarked
 - [x] What do gang stalkers fear — bookmarked
 - [ ] What do you do if you are being gang stalked and you know who some of your gang stalkers are personally and who is beh 1 — bookmarked · uspsyopstargetedindividuals
