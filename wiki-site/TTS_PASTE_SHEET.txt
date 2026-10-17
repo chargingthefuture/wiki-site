@@ -4361,7 +4361,7 @@ A tactic sticks when it gets a reaction: a fight, a panic, a private detail let 
 
 So the useful question is less which tactic this is than which ones keep coming back. Memory under stress does not hold that. A dated record does. ClickLog logs an incident with one tap and the date, and the note and scheme tags can be added later. Read back over months, it shows which tricks were tried once and dropped, and which return.
 
-==================== 2026-10-16 ====================
+==================== 2026-10-17 ====================
 
 who-does-the-repair
 

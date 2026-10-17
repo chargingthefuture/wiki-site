@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "whatever-sticks",
     "title": "Whatever sticks",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks what covert tactics are used on Targeted Individuals. Many, tried in turn. What gets kept is whatever sticks.",
     "category": "Community",
     "collection": "posts",
