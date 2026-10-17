@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "the-plain-version-comes-down",
     "title": "The plain version is the one that comes down",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks why so few people know about Targeted Individuals. The plain account is the one removed, and most of it is never reported at all.",
     "category": "Community",
     "collection": "posts",
