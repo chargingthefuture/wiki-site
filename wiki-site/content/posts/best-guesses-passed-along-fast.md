@@ -1,6 +1,6 @@
 ---
 title: "Best guesses, passed along fast"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks whether the people doing this are psychic. They are guessing, and the guesses are shared fast and handed back as stories."
 category: "Community"
 teaser: "A question I saved on Quora asks whether the people doing this are psychic. They are not. They are guessing, from what they watch and how a person reacts, and relayed among many people fast enough that the mockery arrives at once. That speed is what reads as mind reading. The guesses are often wrong, and wrong or right they come back as stories: a diagnosis you do not have, a poisoning, a narrative for the slander. Their guess is not a fact about you. A dated record of your own is."

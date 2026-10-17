@@ -1,6 +1,6 @@
 ---
 title: "Care from somebody outside it"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks whether poisoning is part of this. Sometimes it is. The protection is who prepares, treats and repairs, not a fear of everything."
 category: "Community"
 teaser: "A question I saved on Quora asks whether poisoning is part of this. I have answered it before. Something has been put in the air around me, more than once, and pets of survivors are poisoned. I have also told somebody who was being informed they were poisoned: maybe they are, maybe they are not. Both answers hold. A person who suspects everything they eat and breathe is already worn down. What protects is who handles your care, your animals and your repairs: people who do not take part, findable by what they can do."

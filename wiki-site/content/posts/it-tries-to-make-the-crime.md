@@ -1,6 +1,6 @@
 ---
 title: "It tries to make the crime"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks for the signs of being under investigation. An investigation looks for a crime. What I describe tries to produce one."
 category: "Community"
 teaser: "A question I saved on Quora asks what the signs are that you are under investigation. What I can speak to is the thing that gets mistaken for one. An investigation looks for a crime that happened and ends in a legal system, where a charge can be answered. Targeting has no charge and no end. It tries to produce the crime instead: provocation, entrapment, a setup aimed at jail or a commitment. The watch list story is one of the lies told to targets. A dated record of your own is what holds up."
