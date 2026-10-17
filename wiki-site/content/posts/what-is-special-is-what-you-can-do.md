@@ -1,6 +1,6 @@
 ---
 title: "What is special is what you can do"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks what makes a Targeted Individual special. Nothing selected them. What sets a person apart is what they can do."
 category: "Community"
 teaser: "A question I saved on Quora asks what makes somebody special as a Targeted Individual. The flattering answers come from the people doing it: a light in you, chosen, a truth teller. They will lean into any lie a person accepts. Nothing about a target selected them; any petty reason can put a name on the list. What does set a person apart is what they can do, and with two million or more Targeted Individuals, that is something other survivors need. The Directory lists people by exactly that."
