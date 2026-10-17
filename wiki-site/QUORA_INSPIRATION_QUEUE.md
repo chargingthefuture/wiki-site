@@ -108,7 +108,7 @@ follows it.
 - [ ] How do I send the hits back to gang stalking — bookmarked
 - [x] What should targeted individuals avoid — bookmarked
 - [x] Are most targeted individuals employed — bookmarked · saved 2 times
-- [ ] Are targeted individuals put on a live stream for all stalkers to see — bookmarked
+- [x] Are targeted individuals put on a live stream for all stalkers to see — bookmarked
 - [ ] As a targeted individual I have experienced unimaginable levels of suffering and pain at the hands of those who are sup — bookmarked · governmenthumanexperimentationexposed
 - [ ] COMMUNITY BASED AGENTS CBA s ARE THE ONES WHO CONTROL THE ORGANIZED STALKING USED AGAINST ACTIVISTS DISSIDENTS WHIS — bookmarked · rnudvbhbuspdwbhs
 - [ ] Do you really feel alone because everybody in your off line life refuses to accept that your gang stalking is even real 4 — bookmarked · gangstalkingworldwide
