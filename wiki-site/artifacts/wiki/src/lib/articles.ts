@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "not-for-lack-of-proof",
+    "title": "Not for lack of proof",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks why nobody will help a Targeted Individual. It is not that nobody believes them. Help comes from people outside the arrangement.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/not-for-lack-of-proof.md",
+    "teaser": "A question I saved on Quora asks why nobody will help a person who is being targeted. The usual guess is that nobody believes them, so the answer must be better proof. Very few people think the target is crazy. They are turning a blind eye or they are in on it, and both have something to gain. Some joined without knowing what it was. More evidence does not move people who were never unconvinced. Help comes from people outside the arrangement, and other survivors are the ones who are.",
+    "topics": [
+      "specterati",
+      "directory",
+      "community"
+    ],
+    "number": 476
+  },
+  {
     "slug": "the-levels-are-theirs",
     "title": "The levels are theirs",
     "repo": "chargingthefuture/wiki-site",
