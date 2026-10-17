@@ -67,7 +67,7 @@ follows it.
 - [x] What s the main goal for people being gang stalked — bookmarked
 - [x] When a targeted individual gets to the stage of being nearly 100 isolated what should that person do to survive — bookmarked
 - [x] Why do people deny gang stalking so vehemently — bookmarked · saved 2 times
-- [ ] Are gang stalkers aware of what theyre doing — bookmarked · saved 3 times
+- [x] Are gang stalkers aware of what theyre doing — bookmarked · saved 3 times
 - [ ] As a targeted individual how can you find out who made you a target — bookmarked
 - [ ] Can a narcissist act like he doesn t like you and can T stand you yet is actually in reality addicted to you 5 — bookmarked · thedarkworldofnarcissistbysevinc
 - [x] How do gang stalkers rob targeted individuals money — bookmarked · saved 3 times
