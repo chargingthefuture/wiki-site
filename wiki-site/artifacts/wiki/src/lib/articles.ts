@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "what-they-ask-for-is-ordinary",
+    "title": "What they ask for is ordinary",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks what motivates people who say they are Targeted Individuals. Read what they ask for: a job, a place to live, people to know.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/what-they-ask-for-is-ordinary.md",
+    "teaser": "A question I saved on Quora asks what motivates people who say they are Targeted Individuals. The word claim puts the motive on the person describing what was done to them. Saying a crime was done to you is a description, not a position. The motive is easier to read in what survivors ask each other for: whether they can still get a job, how to live with work and moving, where to go, how to be added to a list of others. A job, a home, people to know. Those are what anybody wants.",
+    "topics": [
+      "community",
+      "directory",
+      "lighthouse"
+    ],
+    "number": 525
+  },
+  {
     "slug": "active-is-what-gets-done",
     "title": "Active is what gets done",
     "repo": "chargingthefuture/wiki-site",
