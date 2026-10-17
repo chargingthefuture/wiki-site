@@ -308,7 +308,7 @@ follows it.
 - [ ] How can I get help with someone hacking my accounts and gang stalking me — bookmarked
 - [ ] Is there any truth to the claims of organized stalking and government abuses against targeted individuals — bookmarked
 - [ ] Is there evidence of government involvement in organized stalking Whats the disturbing truth behind government sponsored surveillance and harassment — bookmarked
-- [ ] Why are people targeted and who is behind organized stalking and targeting — bookmarked · saved 3 times
+- [x] Why are people targeted and who is behind organized stalking and targeting — bookmarked · saved 3 times
 - [ ] Why are so many people being targeted by government surveillance and harassment What s the truth behind organized stalking — bookmarked · saved 3 times
 - [x] Do gang stalkers poison — bookmarked
 - [ ] Do Targeted Individuals really believe that the FBI is too niave to be aware that private citizens are suffering from 1 — bookmarked · legalreformer · saved 2 times
