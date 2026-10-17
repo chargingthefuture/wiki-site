@@ -298,7 +298,7 @@ follows it.
 - [ ] If the purpose of gang stalking is to ruin the victim financially psychologically socially then why dont the perps just expedite the process — bookmarked · saved 4 times
 - [ ] Targeted Individuals and Trauma Based Tortures Targeted individuals TIs are subjected to a covert government prog — bookmarked
 - [ ] How do you end being gang stalked Even when I travel to other countries their gang stalkers there still abuse me and continue the gang stalking The police won t help me but will help them gas light me Has anybody — bookmarked
-- [ ] What are the motivations of individuals who claim to be Targeted Individuals — bookmarked
+- [x] What are the motivations of individuals who claim to be Targeted Individuals — bookmarked
 - [ ] What exactly is the group anonymous and how does one join — bookmarked
 - [ ] Disinformation Strategies Most people not targeted believe that T I s are suffering from mental illness based purely 1 — bookmarked
 - [ ] FREEMASON MIND CONTROLLED PERP CONFESSES AND SPEAKS ON TARGETED INDIVIDUALS AND THE OATH HE TOOK ALONG WITH THE SYNTHE — bookmarked · realgangstalkingvictimsandevidence
