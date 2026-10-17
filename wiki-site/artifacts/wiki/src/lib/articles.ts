@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "they-know-what-they-are-doing",
     "title": "They know what they are doing",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks whether the people doing this know what they are doing. Most do. Taking part is a choice, and so is stopping.",
     "category": "Community",
     "collection": "posts",
