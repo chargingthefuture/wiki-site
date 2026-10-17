@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "stop-avoiding-each-other",
     "title": "Stop avoiding each other",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks how we can all put a stop to this. The all is survivors, and the first thing worked on is the distance between us.",
     "category": "Community",
     "collection": "posts",
