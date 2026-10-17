@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "removal-is-what-gets-sold",
+    "title": "Removal is what gets sold",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks what removing it means. Nothing I have seen removes it. Removal is what gets sold, and the sale is how to tell.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/removal-is-what-gets-sold.md",
+    "teaser": "A question I saved on Quora twice asks what removing it means. As a promise, it means nothing I have seen deliver. Offers to remove it arrive as heavy marketing with no information inside, and in my experience they are trolling, naive, or a scam. What a survivor can actually get rid of is narrower and real: the losses that follow targeting, such as transportation, work and housing. Those can be replaced through people who do not take part, and no one has to buy anything to do it.",
+    "topics": [
+      "community",
+      "directory",
+      "specterati"
+    ],
+    "number": 497
+  },
+  {
     "slug": "it-only-works-with-cover",
     "title": "It only works with cover",
     "repo": "chargingthefuture/wiki-site",
