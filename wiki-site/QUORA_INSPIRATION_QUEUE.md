@@ -163,7 +163,7 @@ follows it.
 - [x] What covert social engineering tactics are used to manipulate and harass targeted individuals — bookmarked
 - [ ] Has anyone found out why the stalkers always try to get you to say your name out loud? For example, in scenarios where your name is not needed. And or after it is said they will repeat it very loud in front of others. — submitted to a space · TARGETED INDIVIDUALS
 - [ ] Good information Very detailed and worth reading — bookmarked · zersetzung
-- [ ] What are the signs that someone has been placed on a gang stalking watch list — bookmarked
+- [x] What are the signs that someone has been placed on a gang stalking watch list — bookmarked
 - [x] What is the typical response from law enforcement agencies to victims who report gang stalking in their community Do they receive protection or are they ignored — bookmarked
 - [ ] What are some subtle signs that someone might be the target of an organized harassment campaign — bookmarked
 - [x] What is the most difficult part about being targeted by gang stalking and or organized stalking activities — bookmarked
