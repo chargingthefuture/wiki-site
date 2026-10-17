@@ -1,6 +1,6 @@
 ---
 title: "Stop avoiding each other"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks how we can all put a stop to this. The all is survivors, and the first thing worked on is the distance between us."
 category: "Community"
 teaser: "A question I saved on Quora asks how we can all put a stop to this. Nobody else is going to: oppressed people have always had to free themselves and each other. So the all is survivors, and the first thing worked on is keeping survivors apart. Purchases are mirrored onto another Targeted Individual so they look like one of the people doing it, and staying away from each other changes nothing about the targeting. It only adds isolation. The first step is to stop keeping the distance."
