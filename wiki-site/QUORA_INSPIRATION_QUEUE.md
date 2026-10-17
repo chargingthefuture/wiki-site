@@ -166,7 +166,7 @@ follows it.
 - [ ] What are the signs that someone has been placed on a gang stalking watch list — bookmarked
 - [x] What is the typical response from law enforcement agencies to victims who report gang stalking in their community Do they receive protection or are they ignored — bookmarked
 - [ ] What are some subtle signs that someone might be the target of an organized harassment campaign — bookmarked
-- [ ] What is the most difficult part about being targeted by gang stalking and or organized stalking activities — bookmarked
+- [x] What is the most difficult part about being targeted by gang stalking and or organized stalking activities — bookmarked
 - [ ] Well thats awesome Just AWESOME QLinkWireless my government phone assistance carrier has been found guilty by plea b — bookmarked · gangstalkedwhatmademeatarget
 - [ ] This is extremely true and well written — bookmarked · zersetzung
 - [ ] Are there support groups for targeted individuals in Ohio Are there local attorneys who are not part of the conspiracy who will fight for you — bookmarked
