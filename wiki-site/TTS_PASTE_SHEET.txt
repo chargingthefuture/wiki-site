@@ -3533,7 +3533,7 @@ The Directory lists survivors by what they can do, so the person who needs a rem
 
 If you know a survivor whose skills belong on it, SkillsHunt is where you nominate them: a name, where they are, and what they can do (Finding people earns credits).
 
-==================== 2026-10-16 ====================
+==================== 2026-10-17 ====================
 
 what-slips-out-is-the-lie
 
