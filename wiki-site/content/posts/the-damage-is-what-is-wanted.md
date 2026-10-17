@@ -1,6 +1,6 @@
 ---
 title: "The damage is what is wanted"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks why Targeted Individuals are targeted and destroyed. Nothing is taken for use. The damage is the product, so it continues."
 category: "Community"
 teaser: "A question I saved on Quora asks why Targeted Individuals are targeted and destroyed. The first half has no criterion. The second has an answer. A target's work is the first thing taken apart: references dry up, contracts end, the business is driven to zero. If the work were wanted, nobody would spend years making sure there is none. What is wanted is the damage, so it has to keep coming. The skills stay with the person, and they can be found by people who are not doing this."
