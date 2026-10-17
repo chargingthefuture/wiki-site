@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "what-they-ask-for-is-ordinary",
     "title": "What they ask for is ordinary",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks what motivates people who say they are Targeted Individuals. Read what they ask for: a job, a place to live, people to know.",
     "category": "Community",
     "collection": "posts",
