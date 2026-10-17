@@ -188,7 +188,7 @@ follows it.
 - [ ] How can someone stop being targeted by gangs and stalkers — bookmarked · saved 2 times
 - [ ] If a police officer asks to search your car or home can you refuse — bookmarked
 - [ ] What are the reasons for someone wanting to become a targeted individual — bookmarked
-- [ ] What is a Targeted Individual and why would anyone want to be one — bookmarked · saved 3 times
+- [x] What is a Targeted Individual and why would anyone want to be one — bookmarked · saved 3 times
 - [ ] What should someone do if they believe they are being targeted by gang stalkers and how can they protect themselves from being followed — bookmarked
 - [ ] Is organized stalking a real government program that targets individuals for surveillance and harassment — bookmarked · saved 2 times
 - [ ] Why do some people believe organized stalking is a government program rather than random harassment — bookmarked
