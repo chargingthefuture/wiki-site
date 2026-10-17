@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "best-guesses-passed-along-fast",
     "title": "Best guesses, passed along fast",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks whether the people doing this are psychic. They are guessing, and the guesses are shared fast and handed back as stories.",
     "category": "Community",
     "collection": "posts",
