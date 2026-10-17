@@ -129,7 +129,7 @@ follows it.
 - [x] What percent of your calls do you think are re routed to the gang stalker call center 2 — bookmarked · uspsyopstargetedindividuals
 - [ ] What would cause someone to be targeted by organized harassment and gangstalking — bookmarked
 - [x] Where can targeted individuals find help How can I find others in my area to find local help or community 1 — bookmarked · targetedindividuals1
-- [ ] Why would the government be involved in organized stalking How can we know who to trust — bookmarked
+- [x] Why would the government be involved in organized stalking How can we know who to trust — bookmarked
 - [ ] Are government surveillance programs and organized stalking interconnected What is the shocking truth behind covert operations and targeted individuals — bookmarked
 - [ ] Do targeted individuals TIs have knowledge of their targeting or do they only become aware of it when they start noticing unusual occurrences — bookmarked
 - [ ] Is government sanctioned gang stalking a real phenomenon and how does it impact the lives of targeted individuals — bookmarked
