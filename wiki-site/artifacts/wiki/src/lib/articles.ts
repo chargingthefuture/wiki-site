@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "the-levels-are-theirs",
     "title": "The levels are theirs",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks for the signs of being a high level target. The ranks I have seen belong to the people doing it. The signs point up their chain.",
     "category": "Community",
     "collection": "posts",
