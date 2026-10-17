@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "an-assignment-not-a-date",
+    "title": "An assignment, not a date",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks why somebody taking part would want to date a Targeted Individual. They do not. The approach is sent, for a purpose.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-assignment-not-a-date.md",
+    "teaser": "A question I saved on Quora asks why somebody taking part would want to date the person they are targeting. The answer is that wanting has nothing to do with it. The approach is a scheme like a staged altercation is, sent and directed by somebody else, and it is sent for three things: extortion, a fabricated crime, and a smear that is easier to believe from somebody who was close. The people sent give themselves away over time. Declining costs nothing, and a dated record shows the pattern.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "community"
+    ],
+    "number": 484
+  },
+  {
     "slug": "seen-every-day",
     "title": "Seen every day",
     "repo": "chargingthefuture/wiki-site",
