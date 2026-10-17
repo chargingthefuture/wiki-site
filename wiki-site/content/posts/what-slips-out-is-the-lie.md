@@ -1,6 +1,6 @@
 ---
 title: "What slips out is the lie"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks how a Targeted Individual can find out who made them a target. What can be found out is the lie each person was told."
 category: "Community"
 teaser: "A question I saved on Quora asks how a Targeted Individual can find out who made them a target. The people within reach mostly did not start it. They were brought in afterward, each told a lie fitted to them, and many do not know much beyond it. What slips out, sooner or later, is that lie, not a name. A name does not change what has to be done next. What can be found out is who is around you now and what they do, and a dated record holds that."
