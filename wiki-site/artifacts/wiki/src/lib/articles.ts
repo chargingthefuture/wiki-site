@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "picked-for-not-deferring",
+    "title": "Picked for not deferring",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks how targets are picked. Mine followed a demand for deference I did not meet, and one chance to repair it by submitting.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/picked-for-not-deferring.md",
+    "teaser": "A question I saved on Quora asks how targets are picked. There is no profile to match. What I can describe is my own picking. It followed small demands for deference: a smile, a hello, an invitation to join a slander campaign against somebody else. I ignored them. Then came one chance to repair it, which meant submitting, offered at a point when I could not recognize it as a test. Refusing was the ordinary response. Submitting would not have been safety. It would have been joining.",
+    "topics": [
+      "specterati",
+      "community",
+      "directory"
+    ],
+    "number": 521
+  },
+  {
     "slug": "the-damage-is-what-is-wanted",
     "title": "The damage is what is wanted",
     "repo": "chargingthefuture/wiki-site",
