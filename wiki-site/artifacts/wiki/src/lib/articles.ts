@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "impunity-lives-in-their-economy",
     "title": "The impunity lives in their economy",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks why Targeted Individuals are treated so badly. Nothing about the target earns it. It continues because nobody answers for it, and that cover only holds where they are paid.",
     "category": "Community",
     "collection": "posts",
