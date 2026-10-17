@@ -1,6 +1,6 @@
 ---
 title: "The room has been sorted"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks why everyone yells at a Targeted Individual. It is not everyone. The people who would not join in were moved out first."
 category: "Community"
 teaser: "A question I saved on Quora asks why everyone yells at a Targeted Individual going through harassment. It is not everyone, though it is arranged to feel that way. The people sent to yell are chosen, sometimes from your own background so it does not look like targeting. And the people who would not join in were pushed out of the businesses and places around you first, so the room you walk into has already been sorted. The answer is not to yell back. It is to find the people who were sorted out."

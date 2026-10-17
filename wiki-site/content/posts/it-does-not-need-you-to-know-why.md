@@ -1,6 +1,6 @@
 ---
 title: "It does not need you to know why"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks what the point is if the target does not know why. Nothing is being taught. The aim is what it costs."
 category: "Community"
 teaser: "A question I saved on Quora asks what the point is of targeting somebody who does not even know why, and why anybody would waste their time on it. The question assumes a lesson, something the target is meant to understand and correct. There is none. No reason is a valid one, and the people taking part know that. What it aims at is what it costs: housing, work, clothes, friends, attention. The time is not wasted on their side either. The time wasted is the target's, spent looking for a reason."
