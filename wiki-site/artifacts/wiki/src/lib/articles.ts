@@ -39,6 +39,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "who-the-exposure-is-for",
+    "title": "Who the exposure is for",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-17",
+    "excerpt": "A saved Quora question asks how a Targeted Individual can take control and expose it. Expose it to who? The people who could act on it already know.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/who-the-exposure-is-for.md",
+    "teaser": "A question I saved on Quora asks how a Targeted Individual takes control of their situation and exposes or combats it. Before the how comes a question about the audience. The people taking part already know. The people who do not know about targeting would be no use, and many of them are next. The ones living comfortably, or profiting, will not help. That leaves other targets, who need no convincing. Control is not a verdict from outside. It is who a target spends their days with and depends on.",
+    "topics": [
+      "community",
+      "directory"
+    ],
+    "number": 535
+  },
+  {
     "slug": "the-number-is-other-survivors",
     "title": "The number is other survivors",
     "repo": "chargingthefuture/wiki-site",
