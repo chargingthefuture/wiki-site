@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "active-is-what-gets-done",
+    "title": "Active is what gets done",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks how and where to join an active community. Active is not how much a group talks. It is what gets done between its members in a day.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/active-is-what-gets-done.md",
+    "teaser": "A question I saved on Quora asks how and where to join an active community for Targeted Individuals. The word that matters is active. A group can post all day and nobody in it has been driven anywhere, had a thing repaired or been taught a skill. The measure this project uses counts exchanges that delivered something, and talk is not one of them. So the place to look for an active community is where people take on a task for each other, and the way in is to bring one.",
+    "topics": [
+      "community",
+      "peer-programming",
+      "foundation"
+    ],
+    "number": 524
+  },
+  {
     "slug": "the-room-has-been-sorted",
     "title": "The room has been sorted",
     "repo": "chargingthefuture/wiki-site",
