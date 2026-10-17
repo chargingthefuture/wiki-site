@@ -2908,7 +2908,7 @@ The time that is wasted is the target's. Hours spent trying to work out the reas
 
 Time put into a skill stays with the person who learned it.
 
-==================== 2026-10-16 ====================
+==================== 2026-10-17 ====================
 
 it-only-works-with-cover
 

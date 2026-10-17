@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "it-does-not-need-you-to-know-why",
     "title": "It does not need you to know why",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks what the point is if the target does not know why. Nothing is being taught. The aim is what it costs.",
     "category": "Community",
     "collection": "posts",
