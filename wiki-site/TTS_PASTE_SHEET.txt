@@ -3296,7 +3296,7 @@ For a target, the measure within reach is the first one: not being surrounded. T
 
 The Directory lists survivors by what they can do, so the next mechanic, ride or coworker can be found among people who are not taking part. Being on it costs nobody an account. Foundation is where members offer and trade that help directly.
 
-==================== 2026-10-16 ====================
+==================== 2026-10-17 ====================
 
 regret-needs-a-choice
 

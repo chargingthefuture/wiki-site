@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "prevention-is-who-is-around-you",
     "title": "Prevention is who is around you",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks what prevents being targeted. No single precaution does. What limits it is who surrounds a target, and who refuses to take part.",
     "category": "Community",
     "collection": "posts",
