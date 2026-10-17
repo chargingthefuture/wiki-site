@@ -1,6 +1,6 @@
 ---
 title: "Who does the repair"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks whether the people who help a Targeted Individual, mechanics and lawn workers, get scared away. Mostly they are reached, not scared."
 category: "Community"
 teaser: "A question I saved on Quora asks whether the people who help you, mechanics, lawn workers and the like, get scared away. Fear is rarely what does it. The person you hire is told a lie fitted to them, or brought in with a job, an apartment or a favor, and abusing the target is how a person is initiated. Some who seem helpful were sent, and they will not do the repair. Persuading the next hire does not change that. Moving the repair to a survivor does, one arrangement at a time."
