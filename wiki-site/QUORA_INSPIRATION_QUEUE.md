@@ -195,7 +195,7 @@ follows it.
 - [x] Are gang stalkers psychic — bookmarked · saved 2 times
 - [x] Are there any targeted individuals that made it out — bookmarked
 - [ ] What is the truth about targeted individuals — bookmarked · saved 3 times
-- [ ] Why are targeted individuals targeted and destroyed — bookmarked
+- [x] Why are targeted individuals targeted and destroyed — bookmarked
 - [ ] Why do many people doubt the existence of gang stalking — bookmarked
 - [x] Why is there a lack of awareness about targeted individuals and gangstalking — bookmarked · saved 2 times
 - [ ] Council meeting for Targeted Individuals in Richmond CA — bookmarked · realgangstalkingvictimsandevidence
