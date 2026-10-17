@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "your-record-not-the-buildings",
     "title": "Your record, not the building's",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks how to get evidence when the staff of your building take part. Not from the building. Keep your own record, quietly.",
     "category": "Community",
     "collection": "posts",
