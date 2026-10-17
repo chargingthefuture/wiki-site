@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "the-question-checks-their-work",
     "title": "The question checks their work",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks why they are so nosy. Many of the questions are about something they did, asked to find out whether it landed.",
     "category": "Community",
     "collection": "posts",
