@@ -63,7 +63,7 @@ follows it.
 - [x] Do you regret being a targeted individual — bookmarked
 - [x] How can targeted individuals reclaim power break free from organized stalking and find resilience amidst adversity — bookmarked
 - [x] What are some signs that someone is being targeted by gang stalkers or organized stalkers — bookmarked · saved 5 times
-- [ ] What is the general perception of targeted individuals who claim to be victims of organized gang stalking Are they considered delusional or paranoid — bookmarked · saved 3 times
+- [x] What is the general perception of targeted individuals who claim to be victims of organized gang stalking Are they considered delusional or paranoid — bookmarked · saved 3 times
 - [x] What s the main goal for people being gang stalked — bookmarked
 - [x] When a targeted individual gets to the stage of being nearly 100 isolated what should that person do to survive — bookmarked
 - [x] Why do people deny gang stalking so vehemently — bookmarked · saved 2 times
