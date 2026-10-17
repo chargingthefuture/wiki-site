@@ -153,7 +153,7 @@ follows it.
 - [ ] Why are gang stalkers so nosey — bookmarked
 - [x] Why do gang stalkers have to see you every day — bookmarked
 - [ ] Why do government agencies invest in gang stalking Unraveling dark motivations and surviving as a targeted individual — bookmarked
-- [ ] Why do some whistleblowers become targeted individuals after exposing illegal activities — bookmarked
+- [x] Why do some whistleblowers become targeted individuals after exposing illegal activities — bookmarked
 - [ ] Why dont gang stalkers like to be ignored — bookmarked
 - [ ] Why is gang stalking an appointment for life Why is the consensus is that once a TI always a TI Is there any incidence of gang stalkers taking their toys and going home — bookmarked
 - [x] Why would a gang stalker want to date me — bookmarked · saved 2 times
