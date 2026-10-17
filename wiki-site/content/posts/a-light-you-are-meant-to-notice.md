@@ -1,6 +1,6 @@
 ---
 title: "A light you are meant to notice"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks why bright lights from cars are used to harass somebody. They are meant to be seen, they are repeated until the road itself carries the moment, and a shared record is what shows them as a pattern."
 category: "Community"
 teaser: "A question I saved on Quora asks why bright lights from cars are used to harass a person. The lights are a message: you are being watched, and they want you to know it, the same way the matching car and the matching clothes do. The list of named schemes has one for it, Road Sensitization, which repeats high beams in the mirror and cars pacing you until every drive is something you have to read. Repetition is how it works, and a reaction is what it is waiting for. A flash of high beams is one of the small disruptions in a day that you recognize and let go, and writing it down lets it go without losing it."
