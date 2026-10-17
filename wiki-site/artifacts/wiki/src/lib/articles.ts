@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "a-list-kept-in-what-people-say",
+    "title": "A list kept in what people say",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-17",
+    "excerpt": "A saved Quora question asks for the signs of being placed on a watch list. There is no register to check. The list is a story about you, told to strangers.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/a-list-kept-in-what-people-say.md",
+    "teaser": "A question I saved on Quora asks for the signs that someone has been placed on a watch list. The question pictures a register: an entry, a date, an office that keeps it. What I have seen has none of that. The list is kept in what people are told, and being on it shows as strangers acting on a story about you before they have met you. The story changes with whoever hears it, and scenes are staged so there is something to retell. The list worth being on is one you add yourself to, by what you can do.",
+    "topics": [
+      "specterati",
+      "directory",
+      "community"
+    ],
+    "number": 537
+  },
+  {
     "slug": "a-court-not-a-crowd",
     "title": "Justice is a court, not a crowd",
     "repo": "chargingthefuture/wiki-site",
