@@ -26,8 +26,16 @@ corrected where it had drifted; 70 were rewritten. Entries added after that date
 are written from the post at the time it is published. So the file is no longer
 unverified — but it is still a staging file, and the post remains the record.
 
-479 of 479 written.
+480 of 480 written.
 
+
+==============================================================================
+No. 0 · 2026-10-16 · Limit what an account can reach
+
+Can a Targeted Individual stay on social media without being harassed? Not on a platform somebody else controls. Posts get flagged until they come down, and accounts get emptied without notice; mine was, in September 2025. What a person can control is how much of their life sits inside one account. Who you follow, the spaces you join and what you upvote all steer the feed you are shown, and muting and blocking clean it up. A phone number does not belong on a public page. Bait is meant to get a reaction, so it gets none. Meet people on the platform if it works for that, then move the conversation somewhere a ban cannot reach, and publish your own writing somewhere you control first.
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-an-account-can-reach
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-an-account-can-reach
 
 ==============================================================================
 No. 479 · 2026-10-16 · Watched by people, not a feed

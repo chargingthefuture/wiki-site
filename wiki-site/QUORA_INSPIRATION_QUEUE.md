@@ -121,7 +121,7 @@ follows it.
 - [ ] How often are the victims of Gang Stalking organized stalking or mobbing the liberal left or Democrats in America Are 1 — bookmarked · uspsyopstargetedindividuals
 - [ ] How we can all put a stop to Gangstalking — bookmarked · rnudvbhbuspdwbhs
 - [x] In the end what will happen to targeted individuals After they have been broken down family and friends against them 5 — bookmarked · zersetzung
-- [ ] Is it possible for targeted individuals to use social media without being harassed by perpetrators What steps can they take to protect themselves from online harassment — bookmarked
+- [x] Is it possible for targeted individuals to use social media without being harassed by perpetrators What steps can they take to protect themselves from online harassment — bookmarked
 - [ ] What are some ways to deal with a cyber stalker without involving law enforcement or hiring a lawyer — bookmarked
 - [ ] What is group stalking or group harassment How do people do it and why would they do it in the first place — bookmarked
 - [ ] What is the origin of TI gangstalking 3 — bookmarked · gangstalkingworldwide
