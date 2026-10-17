@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "the-power-is-in-the-need",
     "title": "The power is in the need",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks how a Targeted Individual can reclaim power and break free. The power was never in the watching. It is in what you need from the people taking part, and that can be moved.",
     "category": "Community",
     "collection": "posts",
