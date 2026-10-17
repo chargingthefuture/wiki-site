@@ -204,7 +204,7 @@ follows it.
 
 ### 2024-12
 
-- [ ] Assuming gangstalking was real what could happen to an individual who tried to help someone suffering from it — bookmarked
+- [x] Assuming gangstalking was real what could happen to an individual who tried to help someone suffering from it — bookmarked
 - [ ] How will Vivek Ramaswamy Kash Patel and Elon Musk Dismantle the Deep State Why do more than 70 of Americans now agree that the Federal government has been influenced and corrupted by deep state Psychopolitics — bookmarked
 - [ ] Why are targeted individuals dismissed as paranoid when there s increasing evidence of covert harassment and surveillance — bookmarked
 - [ ] Why is organized stalking dismissed as paranoia when it s a very real form of psychological abuse — bookmarked
