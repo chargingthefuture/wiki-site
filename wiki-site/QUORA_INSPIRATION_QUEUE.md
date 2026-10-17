@@ -170,7 +170,7 @@ follows it.
 - [ ] Well thats awesome Just AWESOME QLinkWireless my government phone assistance carrier has been found guilty by plea b — bookmarked · gangstalkedwhatmademeatarget
 - [ ] This is extremely true and well written — bookmarked · zersetzung
 - [ ] Are there support groups for targeted individuals in Ohio Are there local attorneys who are not part of the conspiracy who will fight for you — bookmarked
-- [ ] How does a targeted individual take control of their situation and expose them or combat them — bookmarked
+- [x] How does a targeted individual take control of their situation and expose them or combat them — bookmarked
 - [ ] What are some indicators that someone is being targeted with electronic surveillance harassment mobbing or stalking How can you determine if an innocent person is being targeted in this way — bookmarked
 - [ ] What is the FBIs stance on targeted individuals and gang stalking Are these phenomena considered real by the FBI — bookmarked
 - [ ] What is your opinion on the concept of targeted individuals and their claims of being targeted by the CIA and other intelligence agencies Do you believe they are actually being targeted or are they experiencing — bookmarked
