@@ -1,6 +1,6 @@
 ---
 title: "Seen every day"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks why they have to see you every day. Being seen is the message, and every sighting is somebody reporting back."
 category: "Community"
 teaser: "A question I saved on Quora asks why they have to see you every day. Two reasons, from what I have written over the years. Being seen is the message: it tells you that you have no privacy, and it tests what sets you off so it can be repeated. And every sighting is a report. Somebody notes how you are doing that day and passes it up, and the next phase is planned from those notes. A fixed address makes the daily part easy. A record of your own is the one that stays in your hands."
