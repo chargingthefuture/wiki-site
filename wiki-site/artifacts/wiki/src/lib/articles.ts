@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "the-call-they-asked-for",
     "title": "The call they asked for",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks whether police protect Targeted Individuals or ignore them. Neither describes it. The call is often one they asked for.",
     "category": "Community",
     "collection": "posts",
