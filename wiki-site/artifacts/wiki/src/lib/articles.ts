@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "somebody-else-holds-the-key",
+    "title": "Somebody else holds the key",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks for hotel survival tricks. A room somebody else can open is a place to sleep, not a place to keep things.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/somebody-else-holds-the-key.md",
+    "teaser": "A question I saved on Quora asks for hotel survival tricks for Targeted Individuals. A hotel room locks, and other people hold the key, which is the same arrangement as the shower facility where an employee keyed me in and an employee opened the door on me. So the room is a place to sleep, not a place to keep things: one bag, carried. Expect noise, and earbuds that cancel it. Leave pointless questions unanswered. Record what happens, with the date.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "community"
+    ],
+    "number": 485
+  },
+  {
     "slug": "an-assignment-not-a-date",
     "title": "An assignment, not a date",
     "repo": "chargingthefuture/wiki-site",
