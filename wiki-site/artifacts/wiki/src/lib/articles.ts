@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "made-harder-to-help",
+    "title": "It is made harder to help",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks what happens to somebody who helps a Targeted Individual. Mostly, helping is made harder. A helper is not a participant.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/made-harder-to-help.md",
+    "teaser": "A question I saved on Quora asks what could happen to somebody who tries to help a Targeted Individual. I answered it in July 2025: it depends on the stage, and a helper who does not fit a profile is usually not made a target. The help is made difficult instead, through the weaker people around the helper, through their work, and through the businesses they rely on. A helper is not a participant, and the cover participants enjoy was never extended to people who decline to take part.",
+    "topics": [
+      "specterati",
+      "directory",
+      "community"
+    ],
+    "number": 517
+  },
+  {
     "slug": "ask-the-ones-who-lasted",
     "title": "Ask the ones who lasted",
     "repo": "chargingthefuture/wiki-site",
