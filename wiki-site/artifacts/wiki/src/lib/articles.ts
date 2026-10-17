@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "worn-down-is-the-aim",
     "title": "Worn down is the aim",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks whether poor sleep and poor health make Targeted Individuals easier to work on. Yes, and the wear is produced on purpose.",
     "category": "Community",
     "collection": "posts",

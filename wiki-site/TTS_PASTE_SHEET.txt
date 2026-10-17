@@ -5185,7 +5185,7 @@ The May answer said what to do with the suggested symptoms: "by not letting it s
 
 Two parts of the app are built for the practical side. WhatWorks is one shared list of tools survivors bought, used and said helped, organized by problem. Its first problem is Sleep Deprivation, and the two tools under it are headphones. Anybody can add a tool. ClickLog keeps a dated record, so a night that was broken is a dated entry rather than a memory that blurs into the next one, and read back over weeks it shows when it happens and where.
 
-==================== 2026-10-16 ====================
+==================== 2026-10-17 ====================
 
 you-do-not-have-to-be-important
 
