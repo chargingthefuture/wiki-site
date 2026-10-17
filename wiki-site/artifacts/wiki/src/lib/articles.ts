@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "the-rules-they-tell-you",
     "title": "The rules they tell you",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks how targets are manipulated and intimidated. Much of it runs through the rules a target is told about how it works.",
     "category": "Community",
     "collection": "posts",
