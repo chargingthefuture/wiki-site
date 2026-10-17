@@ -139,7 +139,7 @@ follows it.
 - [ ] Is there evidence of government involvement in organized stalking Explore the disturbing truth behind government sponsored surveillance and harassment in this article — bookmarked
 - [ ] What are the signs that organized stalking might be coordinated by government entities — bookmarked
 - [ ] Are gang stalkers on average narcissists or do they just have an insatiable need to posses every and anything others hav 2 — bookmarked · realgangstalkingvictimsandevidence
-- [ ] Have there been any documented cases of individuals being targeted as targeted individuals without any valid reason 2 — bookmarked · uspsyopstargetedindividuals
+- [x] Have there been any documented cases of individuals being targeted as targeted individuals without any valid reason 2 — bookmarked · uspsyopstargetedindividuals
 
 ### 2024-11
 
