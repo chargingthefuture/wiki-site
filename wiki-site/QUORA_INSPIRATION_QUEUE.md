@@ -92,7 +92,7 @@ follows it.
 - [ ] What are the tactics used by gang stalkers to control their victims — bookmarked
 - [x] What do gang stalkers fear — bookmarked
 - [ ] What do you do if you are being gang stalked and you know who some of your gang stalkers are personally and who is beh 1 — bookmarked · uspsyopstargetedindividuals
-- [ ] What does remove gangstalking mean — bookmarked · saved 2 times
+- [x] What does remove gangstalking mean — bookmarked · saved 2 times
 - [ ] What is the point of gang stalking someone if they don t even know why they are being gang stalked Why waste their time — bookmarked
 - [x] What makes you special as a targeted individual — bookmarked
 - [ ] What profound truth did one targeted individual uncover amidst the chaos of gang stalking — bookmarked
