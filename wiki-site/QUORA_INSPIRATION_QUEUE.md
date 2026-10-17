@@ -183,7 +183,7 @@ follows it.
 - [x] What are the signs you re under investigation — bookmarked · saved 2 times
 - [x] Why do some people attribute organized stalking to aliens or supernatural forces — bookmarked
 - [ ] As a targeted individual how can understanding police misconduct lawsuits empower your fight for justice — bookmarked
-- [ ] Can a person be targeted by secret societies or organizations without their knowledge — bookmarked
+- [x] Can a person be targeted by secret societies or organizations without their knowledge — bookmarked
 - [ ] How can I get gang stalkers to stop stalking me — bookmarked · saved 2 times
 - [ ] How can someone stop being targeted by gangs and stalkers — bookmarked · saved 2 times
 - [ ] If a police officer asks to search your car or home can you refuse — bookmarked
