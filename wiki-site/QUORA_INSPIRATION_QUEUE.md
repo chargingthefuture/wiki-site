@@ -117,7 +117,7 @@ follows it.
 - [x] Have any Targeted Individuals tried moving to a different country Im in the US and am considering a move to Mexico to see if the RNM and V2K stop — bookmarked
 - [ ] Hello fellow TI s brothers and sisters around the world Given that we all go through or went through similar experienc — bookmarked · antistalkingsurviveandthriveafterabuse
 - [x] How do gang stalkers use smear campaigns to ruin a person s reputation and what are the long term impacts on their social life — bookmarked
-- [ ] How does it feel to be targeted What can be done to prevent being targeted by individuals or agencies — bookmarked
+- [x] How does it feel to be targeted What can be done to prevent being targeted by individuals or agencies — bookmarked
 - [ ] How often are the victims of Gang Stalking organized stalking or mobbing the liberal left or Democrats in America Are 1 — bookmarked · uspsyopstargetedindividuals
 - [x] How we can all put a stop to Gangstalking — bookmarked · rnudvbhbuspdwbhs
 - [x] In the end what will happen to targeted individuals After they have been broken down family and friends against them 5 — bookmarked · zersetzung
