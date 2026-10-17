@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "belief-is-not-company",
     "title": "Belief is not the same as company",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks if Targeted Individuals feel alone because nobody offline accepts it. Their belief is not the company that ends it.",
     "category": "Community",
     "collection": "posts",

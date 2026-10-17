@@ -2540,7 +2540,7 @@ Where it is now.
 
 The Directory lists survivors by what they can do, so you can find somebody by a skill and start with that. Being on it costs nobody an account; viewing it takes a sign-in. Commons is the group chat where members talk with each other, about the targeting or about anything else.
 
-==================== 2026-10-16 ====================
+==================== 2026-10-17 ====================
 
 denial-is-part-of-the-method
 
