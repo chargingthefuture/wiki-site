@@ -174,7 +174,7 @@ follows it.
 - [ ] What are some indicators that someone is being targeted with electronic surveillance harassment mobbing or stalking How can you determine if an innocent person is being targeted in this way — bookmarked
 - [ ] What is the FBIs stance on targeted individuals and gang stalking Are these phenomena considered real by the FBI — bookmarked
 - [ ] What is your opinion on the concept of targeted individuals and their claims of being targeted by the CIA and other intelligence agencies Do you believe they are actually being targeted or are they experiencing — bookmarked
-- [ ] How do I get evidence of harassment when living in a community building It is by the workers as well 1 — bookmarked · zersetzung
+- [x] How do I get evidence of harassment when living in a community building It is by the workers as well 1 — bookmarked · zersetzung
 - [ ] Are gang stalking and government sanctioned harassment programs evidence of systemic corruption How do you expose them and fight back effectively — bookmarked
 - [ ] Can electronic surveillance be weaponized against innocent people What do you need to know about gang stalking — bookmarked
 - [x] Do targeted individuals ever stop getting harassed — bookmarked
