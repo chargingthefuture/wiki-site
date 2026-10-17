@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "no-side-is-behind-it",
+    "title": "No side is behind it",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-17",
+    "excerpt": "A saved Quora question asks who is behind it. The usual answer names a side: a party, a faith, an order. The people taking part come from every side.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/no-side-is-behind-it.md",
+    "teaser": "A question I saved on Quora asks why people are targeted and who is behind it. The usual answer to the second half names a side: the other party, a religion, a secret order, a government. The people taking part come from all of them, across classes, jobs and ethnicities. What they share is a position: wherever somebody can control a resource another person needs, some of them are there. Naming a side splits survivors along the same lines. Organized crime is a description that leaves nobody out.",
+    "topics": [
+      "specterati",
+      "directory",
+      "community"
+    ],
+    "number": 532
+  },
+  {
     "slug": "staged-is-not-imagined",
     "title": "Staged is not the same as imagined",
     "repo": "chargingthefuture/wiki-site",
