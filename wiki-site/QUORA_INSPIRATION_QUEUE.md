@@ -319,7 +319,7 @@ follows it.
 - [ ] Yes Carbon Monoxide is there favorite next comes 5G next Arsenic which if you water turns bitter you know Black Mold — bookmarked
 - [ ] Any other TIs feel like their stalkers are the ones who actually have stolkholms and inadvertently created their own prison — bookmarked
 - [ ] Aside from victimology are stalkers fabrications just because they wont be able to stalk me — bookmarked
-- [ ] Does lack of sleep and general poor health make targeted individuals more susceptible to gang stalkers tactics — bookmarked
+- [x] Does lack of sleep and general poor health make targeted individuals more susceptible to gang stalkers tactics — bookmarked
 - [x] How and where do I join an active community for targeted individuals — bookmarked
 - [x] How do gang stalkers pick their victims — bookmarked
 - [ ] I feel no sympathy for the homeless because I feel like it is their own fault Are there examples of seemingly normal and respectable people becoming homeless — bookmarked
