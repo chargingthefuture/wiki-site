@@ -150,7 +150,7 @@ follows it.
 - [x] What do gang stalkers do when they find out you know theyre gang stalking you — bookmarked
 - [ ] What drives individuals to become gang stalkers — bookmarked
 - [ ] Why are gang stalkers so cowardly — bookmarked · saved 2 times
-- [ ] Why are gang stalkers so nosey — bookmarked
+- [x] Why are gang stalkers so nosey — bookmarked
 - [x] Why do gang stalkers have to see you every day — bookmarked
 - [ ] Why do government agencies invest in gang stalking Unraveling dark motivations and surviving as a targeted individual — bookmarked
 - [x] Why do some whistleblowers become targeted individuals after exposing illegal activities — bookmarked
