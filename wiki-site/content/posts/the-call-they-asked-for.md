@@ -1,6 +1,6 @@
 ---
 title: "The call they asked for"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks whether police protect Targeted Individuals or ignore them. Neither describes it. The call is often one they asked for."
 category: "Community"
 teaser: "A question I saved on Quora asks how police respond to Targeted Individuals who report what is happening to them, and whether they are protected or ignored. Neither word fits what I have seen. The people doing this asked me, for years, to call the police. When police did come, in St. Louis, it was on a false report against me. What somebody taking part gains from a post inside a department is access to information. So a call is a move they can plan for, and protection comes from somewhere else."
