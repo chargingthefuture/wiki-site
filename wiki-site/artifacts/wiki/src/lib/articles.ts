@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "the-charge-is-never-read",
     "title": "The charge is never read",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks whether Targeted Individuals know why they were put on the list. Mostly not. Nobody reads them a charge, and no reason would hold.",
     "category": "Community",
     "collection": "posts",
