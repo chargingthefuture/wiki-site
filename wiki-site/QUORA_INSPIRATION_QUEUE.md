@@ -192,7 +192,7 @@ follows it.
 - [ ] What should someone do if they believe they are being targeted by gang stalkers and how can they protect themselves from being followed — bookmarked
 - [ ] Is organized stalking a real government program that targets individuals for surveillance and harassment — bookmarked · saved 2 times
 - [ ] Why do some people believe organized stalking is a government program rather than random harassment — bookmarked
-- [ ] Are gang stalkers psychic — bookmarked · saved 2 times
+- [x] Are gang stalkers psychic — bookmarked · saved 2 times
 - [ ] Are there any targeted individuals that made it out — bookmarked
 - [ ] What is the truth about targeted individuals — bookmarked · saved 3 times
 - [ ] Why are targeted individuals targeted and destroyed — bookmarked
