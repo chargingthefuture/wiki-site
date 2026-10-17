@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "whatever-sticks",
+    "title": "Whatever sticks",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks what covert tactics are used on Targeted Individuals. Many, tried in turn. What gets kept is whatever sticks.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/whatever-sticks.md",
+    "teaser": "A question I saved on Quora asks what covert social engineering tactics are used to manipulate and harass Targeted Individuals. The schemes have names. Underneath them is no master plan. It is trial and error: a trick is tried, and if the target does not take it up, it is dropped for another. Friendly replies with a small tell, scripts of accusation, pushes toward a fight. What sticks is whatever gets a reaction, and a dated record shows which ones keep coming back.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "community"
+    ],
+    "number": 508
+  },
+  {
     "slug": "the-swings-are-part-of-it",
     "title": "The swings are part of it",
     "repo": "chargingthefuture/wiki-site",
