@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "aimed-at-what-it-costs",
     "title": "Aimed at what it costs",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks how communities can fight it. Not by ending it. By partnering on what it costs: housing, transportation, work.",
     "category": "Community",
     "collection": "posts",

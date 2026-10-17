@@ -26,8 +26,15 @@ corrected where it had drifted; 70 were rewritten. Entries added after that date
 are written from the post at the time it is published. So the file is no longer
 unverified — but it is still a staging file, and the post remains the record.
 
-511 of 511 written.
+512 of 512 written.
 
+
+==============================================================================
+No. 512 · 2026-10-17 · Aimed at what it costs
+
+Somebody on Quora asked how communities can fight the harassment of Targeted Individuals. My answer starts with a limit: survivors cannot end it, because whether it continues is decided by the people doing it. What a community can reach is where it lands, and it lands in the same places for most of us: a place to live, a way to get around, a source of income. So organize around the need instead of around them. Ask what a person is trying to get done, then help with that: a ride from a screened driver, work found through people listed by what they can do, housing planned together. Pool what each person has and everybody shares the benefit. The alternative is carrying every cost alone.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/aimed-at-what-it-costs
 
 ==============================================================================
 No. 511 · 2026-10-17 · It is built to take the center
