@@ -39,6 +39,74 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "any-petty-reason-is-enough",
+    "title": "Any petty reason is enough",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-17",
+    "excerpt": "Somebody asked on Quora why they became a Targeted Individual. There is no criterion and no test they failed: somebody with access put a name on a list, and the reasons a person is told afterward are fitted to them.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/any-petty-reason-is-enough.md",
+    "teaser": "A saved Quora question asks why the person asking became a Targeted Individual. There is no criterion. Anyone can be added to the list at any time and for any reason, and the profiling comes after the name is added, not before. Not saying hi to the wrong person can be enough. The reasons a person is told afterward are fitted to them: one is told it is God, another the government, another a secret society. Mine started when I was five, and a five-year-old has done nothing to anybody. The line that a target did something to merit this is said by the people doing it. Nobody deserves to be trafficked.",
+    "topics": [
+      "specterati",
+      "community",
+      "clicklog"
+    ],
+    "number": 461
+  },
+  {
+    "slug": "gain-is-not-an-illness",
+    "title": "Gain is not an illness",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-17",
+    "excerpt": "A saved Quora question asked whether people who stalk for revenge or personal gain have psychological issues. The motive is ordinary gain, paid in kind, and a reason is not a justification.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/gain-is-not-an-illness.md",
+    "teaser": "A question I saved on Quora asked what I think of people who stalk others for revenge or personal gain, and whether they have psychological issues. The question names the motive itself. Most of the people taking part are paid in kind: a job, an apartment, a favor. Some are moved by money, some by jealousy, and some are extorted. Some of them are ill, and the illness is not what organized them; sadists are rounded up on purpose. Calling it a psychological issue works like an excuse. A reason is not a justification, and in this story the illness label is more often pinned on the target.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "directory"
+    ],
+    "number": 460
+  },
+  {
+    "slug": "organized-crime-that-announces-itself",
+    "title": "Organized crime that announces itself",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-17",
+    "excerpt": "Two saved questions ask what this is and how the people doing it operate. It is organized crime, human trafficking and group vigilantism, carried out by many ordinary people who make sure the target knows they are there.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/organized-crime-that-announces-itself.md",
+    "teaser": "Two questions I saved on Quora ask what this is and how the people doing it operate. It is organized crime: human trafficking and group vigilantism, a control mechanism run by traffickers with the harassment as its enforcement arm. It is not a secret society, because the people taking part announce themselves to their targets all day long. Most of it runs on a standing permission rather than an order, and the planned part, where I have seen it, ran on instructions read off a phone. Each method is small on purpose, so that nothing taken alone can be reported. A definition stops none of it. It gives the thing a shape and a name, and then the costs can be cut one at a time.",
+    "topics": [
+      "specterati",
+      "community",
+      "clicklog"
+    ],
+    "number": 459
+  },
+  {
+    "slug": "the-hint-is-meant-to-be-noticed",
+    "title": "The hint is meant to be noticed",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-17",
+    "excerpt": "A saved Quora question asks how subtle hints are used to control Targeted Individuals and what they do to a life. The hint is built to be noticed, and the control runs through the attention it takes.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/the-hint-is-meant-to-be-noticed.md",
+    "teaser": "A question I saved on Quora asks how subtle hints are used to control Targeted Individuals, and what that does to a life. The hint is not a slip. It is meant to be noticed: the repeated phrase, the borrowed words from a private conversation, a pointed have a good day after a day arranged to go badly. The control runs through what the hint costs to read. Each one hands you a puzzle, and every hour spent on it is an hour of your day spent on them. Over time it sensitizes a person to the smallest things and makes them easy to describe as the problem. Noticing cannot be switched off, but it can be written down and put down.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "community"
+    ],
+    "number": 458
+  },
+  {
     "slug": "old-links-new-links",
     "title": "Old links, new links",
     "repo": "chargingthefuture/wiki-site",
