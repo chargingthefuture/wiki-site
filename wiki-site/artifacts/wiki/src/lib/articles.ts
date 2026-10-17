@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "impunity-lives-in-their-economy",
+    "title": "The impunity lives in their economy",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks why Targeted Individuals are treated so badly. Nothing about the target earns it. It continues because nobody answers for it, and that cover only holds where they are paid.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/impunity-lives-in-their-economy.md",
+    "teaser": "A question I saved on Quora twice asks why Targeted Individuals are treated so badly. Not because of anything about the target: they mock ordinary behavior and invent the rest. The cruelty is the method, because a reaction is what they want. And it goes on because nobody answers for it. I was punched in the face twice, the second time with cameras and witnesses, and nothing followed. That impunity is real, and it only lives in their economy.",
+    "topics": [
+      "specterati",
+      "directory",
+      "community"
+    ],
+    "number": 473
+  },
+  {
     "slug": "what-slips-out-is-the-lie",
     "title": "What slips out is the lie",
     "repo": "chargingthefuture/wiki-site",
