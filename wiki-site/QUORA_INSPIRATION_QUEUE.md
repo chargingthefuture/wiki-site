@@ -73,7 +73,7 @@ follows it.
 - [x] How do gang stalkers rob targeted individuals money — bookmarked · saved 3 times
 - [ ] What are the signs of gang stalking How does it typically begin and how long does it usually last — bookmarked · saved 2 times
 - [ ] What are the signs that I ve accidentally got romantically involved with a gang stalker in my gang stalking 1 — bookmarked · gangstalkingquestionsandanswers
-- [ ] What does being targeted by gang stalkers feel like What are some signs that someone is targeting you — bookmarked
+- [x] What does being targeted by gang stalkers feel like What are some signs that someone is targeting you — bookmarked
 - [x] What exactly do gang stalkers want from me — bookmarked · saved 4 times
 - [x] Why are targeted individuals treated so badly 1 — bookmarked · tinetwork · saved 2 times
 - [x] Why do gangstalkers film you on their phones 5 — bookmarked · gangstalkingworldwide
