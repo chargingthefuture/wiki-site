@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "assume-the-call-is-heard",
+    "title": "Assume the call is heard",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks what percent of a target's calls are rerouted. I have no percentage. I treat every call as heard and choose what goes over it.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/assume-the-call-is-heard.md",
+    "teaser": "A question I saved on Quora asks what percent of a Targeted Individual's calls are rerouted. I have never put a number on it, and I cannot measure it from my end. What I have written is simpler: calls, texts and email are watched all the time, and how much of it reaches you is not yours to control. So the useful question is not how many calls are heard. It is what you say on one, who keeps asking for one, and what you still need from the line at all.",
+    "topics": [
+      "specterati",
+      "commons",
+      "clicklog"
+    ],
+    "number": 499
+  },
+  {
     "slug": "not-everything-is-them",
     "title": "Not everything is them",
     "repo": "chargingthefuture/wiki-site",
