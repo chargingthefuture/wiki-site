@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "a-government-is-a-collection-of-people",
+    "title": "A government is a collection of people",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks why the government would be involved, and who to trust. A government is people, not one side, and trust goes to conduct.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/a-government-is-a-collection-of-people.md",
+    "teaser": "A question I saved on Quora asks why the government would be involved, and how to know who to trust. A government is not run by one person. It is a collection of people, and it is not a choice between good and evil. Some people in public jobs take part, the same way people in any other job do, and the word government is also handed out as bait fitted to whatever a person already believes. Neither tells you about the person in front of you. How they act, consistently, over time, does.",
+    "topics": [
+      "specterati",
+      "directory",
+      "community"
+    ],
+    "number": 506
+  },
+  {
     "slug": "fewer-doors-left-open",
     "title": "Fewer doors left open",
     "repo": "chargingthefuture/wiki-site",
