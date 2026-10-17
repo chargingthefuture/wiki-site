@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "fitted-to-you",
     "title": "Fitted to you",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks how the person targeted is groomed. It arrives as friendliness, fitted to them, and it is fishing for what can be used next.",
     "category": "Community",
     "collection": "posts",
