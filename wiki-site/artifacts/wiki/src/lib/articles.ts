@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "regret-needs-a-choice",
     "title": "Regret needs a choice",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks whether I regret being a Targeted Individual. Regret belongs to something a person decided, and being targeted was decided by the people doing it.",
     "category": "Community",
     "collection": "posts",
