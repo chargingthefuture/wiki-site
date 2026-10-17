@@ -39,21 +39,20 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
-    "slug": "the-hint-is-meant-to-be-noticed",
-    "title": "The hint is meant to be noticed",
+    "slug": "old-links-new-links",
+    "title": "Old links, new links",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
-    "excerpt": "A saved Quora question asks how subtle hints are used to control Targeted Individuals and what they do to a life. The hint is built to be noticed, and the control runs through the attention it takes.",
+    "date": "2026-10-17",
+    "excerpt": "Seventy accounts erased, twelve of them since October 1, and Kingishere-8 is the handle open now. What is live, what is dead, and the one address that never changes.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/the-hint-is-meant-to-be-noticed.md",
-    "teaser": "A question I saved on Quora asks how subtle hints are used to control Targeted Individuals, and what that does to a life. The hint is not a slip. It is meant to be noticed: the repeated phrase, the borrowed words from a private conversation, a pointed have a good day after a day arranged to go badly. The control runs through what the hint costs to read. Each one hands you a puzzle, and every hour spent on it is an hour of your day spent on them. Over time it sensitizes a person to the smallest things and makes them easy to describe as the problem. Noticing cannot be switched off, but it can be written down and put down.",
+    "path": "posts/old-links-new-links.md",
+    "teaser": "Quora has erased my accounts seventy times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Twelve of those came after October 1. The latest ban landed at 9:17 in the morning on October 17, and the handle now open was opened three hours later. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
     "topics": [
-      "specterati",
-      "clicklog",
-      "community"
+      "publishing",
+      "platform-independence"
     ],
-    "number": 458
+    "number": 406
   },
   {
     "slug": "what-they-know-is-not-the-hold",
@@ -123,22 +122,6 @@ export const ARTICLES: ArticleMeta[] = [
       "workforce"
     ],
     "number": 454
-  },
-  {
-    "slug": "old-links-new-links",
-    "title": "Old links, new links",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-15",
-    "excerpt": "Sixty-nine accounts erased, eleven of them since October 1, and Kingishere-7 is the handle open now. What is live, what is dead, and the one address that never changes.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/old-links-new-links.md",
-    "teaser": "Quora has erased my accounts sixty-nine times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Eleven of those came after October 1. The latest ban landed at 4:32 in the morning on October 15, and the handle now open was opened two and a half hours later. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
-    "topics": [
-      "publishing",
-      "platform-independence"
-    ],
-    "number": 406
   },
   {
     "slug": "a-lie-for-every-bias",
