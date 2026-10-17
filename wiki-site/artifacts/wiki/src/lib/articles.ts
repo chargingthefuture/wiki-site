@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "gain-is-not-an-illness",
     "title": "Gain is not an illness",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asked whether people who stalk for revenge or personal gain have psychological issues. The motive is ordinary gain, paid in kind, and a reason is not a justification.",
     "category": "Community",
     "collection": "posts",
