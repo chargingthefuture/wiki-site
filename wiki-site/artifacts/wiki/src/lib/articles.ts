@@ -39,6 +39,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "a-word-to-be-found-by",
+    "title": "A word to be found by",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks what a Targeted Individual is and why anyone would want to be one. Nobody wants the targeting. The word is taken up to be found.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/a-word-to-be-found-by.md",
+    "teaser": "A question I saved on Quora asks what a Targeted Individual is and why anyone would want to be one. The question runs two things together. Nobody asks for the targeting: somebody else puts a name on a list, and the same schemes follow it. What people do take up is the word, because it is the term other survivors search by. Saying it in public is how one survivor finds another, and finding each other is where the help comes from that never passes through the people doing it.",
+    "topics": [
+      "community",
+      "directory"
+    ],
+    "number": 514
+  },
+  {
     "slug": "it-tries-to-make-the-crime",
     "title": "It tries to make the crime",
     "repo": "chargingthefuture/wiki-site",
