@@ -79,7 +79,7 @@ follows it.
 - [x] Why do gangstalkers film you on their phones 5 — bookmarked · gangstalkingworldwide
 - [x] Are the families of targeted individuals forced by gang stalkers to harass the TI or do they do it voluntarily — bookmarked
 - [x] Do gang stalkers scare away people who help you such as mechanics lawn workers etc — bookmarked
-- [ ] Do individuals on the targeted individual list know the reason for being placed on it — bookmarked
+- [x] Do individuals on the targeted individual list know the reason for being placed on it — bookmarked
 - [x] Does being targeted for TIs targeted individuals indicate that someone was involved in the occult prior to the targeting — bookmarked
 - [ ] How do I know if I am on a gang stalkers list as a target — bookmarked · saved 3 times
 - [x] How do stalkers groom the person they target — bookmarked
