@@ -1,6 +1,6 @@
 ---
 title: "The threat is being believed"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "Why whistleblowers become Targeted Individuals: somebody who will not go along is no use to the arrangement, so it goes after their word."
 category: "Community"
 teaser: "A question I saved on Quora asks why some whistleblowers become Targeted Individuals after exposing illegal activity. The arrangement behind this sorts people into those who go along and those who are targeted, and a person who has already said no in public fits only one of those. What a whistleblower carries is their word, so that is what gets worked on: a picture of somebody unstable, built from provoked reactions and false diagnoses. A dated record and people who believe you answer it."
