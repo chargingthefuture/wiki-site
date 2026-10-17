@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "the-room-has-been-sorted",
+    "title": "The room has been sorted",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks why everyone yells at a Targeted Individual. It is not everyone. The people who would not join in were moved out first.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/the-room-has-been-sorted.md",
+    "teaser": "A question I saved on Quora asks why everyone yells at a Targeted Individual going through harassment. It is not everyone, though it is arranged to feel that way. The people sent to yell are chosen, sometimes from your own background so it does not look like targeting. And the people who would not join in were pushed out of the businesses and places around you first, so the room you walk into has already been sorted. The answer is not to yell back. It is to find the people who were sorted out.",
+    "topics": [
+      "specterati",
+      "directory",
+      "clicklog"
+    ],
+    "number": 523
+  },
+  {
     "slug": "the-rules-they-tell-you",
     "title": "The rules they tell you",
     "repo": "chargingthefuture/wiki-site",
