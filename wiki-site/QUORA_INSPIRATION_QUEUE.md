@@ -105,7 +105,7 @@ follows it.
 - [ ] Why was I chosen to be a targeted individual of electronic harassment — bookmarked
 - [x] Why would someone or some place or thing want to gangstalk me Im nobody important just a regular person amongst the billions — bookmarked
 - [ ] Being a Targeted Individual is synonymous with being a 2nd class citizen because thats basically how youre treated by — bookmarked
-- [ ] How do I send the hits back to gang stalking — bookmarked
+- [x] How do I send the hits back to gang stalking — bookmarked
 - [x] What should targeted individuals avoid — bookmarked
 - [x] Are most targeted individuals employed — bookmarked · saved 2 times
 - [x] Are targeted individuals put on a live stream for all stalkers to see — bookmarked
