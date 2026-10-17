@@ -1,6 +1,6 @@
 ---
 title: "The levels are theirs"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks for the signs of being a high level target. The ranks I have seen belong to the people doing it. The signs point up their chain."
 category: "Community"
 teaser: "A question I saved on Quora asks what the indicators are of being a high level Targeted Individual. The ranks I have seen are not ranks of targets. They belong to the people taking part: it is organized crime, and organizations have hierarchy. A handler near you outranks the person on the street and sends instructions based on how you just reacted. Higher still, the money buys into ordinary businesses. What the signs measure is how far up their chain reaches, not a level you hold."
