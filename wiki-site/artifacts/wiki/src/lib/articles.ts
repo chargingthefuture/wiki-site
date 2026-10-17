@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "nothing-you-can-hand-over",
     "title": "Nothing you can hand over",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks what exactly they want from me. Nothing a target can give. The asking leads somewhere, and no answer to it ends anything.",
     "category": "Community",
     "collection": "posts",
