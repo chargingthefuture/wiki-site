@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "no-answer-that-brings-comfort",
     "title": "No answer that brings comfort",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks for the truth about Targeted Individuals. It is plain and not comforting: an old crime, done by people, to millions.",
     "category": "Community",
     "collection": "posts",
