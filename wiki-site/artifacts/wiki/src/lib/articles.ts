@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "removal-is-what-gets-sold",
     "title": "Removal is what gets sold",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks what removing it means. Nothing I have seen removes it. Removal is what gets sold, and the sale is how to tell.",
     "category": "Community",
     "collection": "posts",
