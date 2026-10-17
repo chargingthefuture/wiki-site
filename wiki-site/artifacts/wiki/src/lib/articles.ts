@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "not-the-same-for-any-two",
     "title": "Not the same for any two targets",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks what harassment I receive. What I receive is not a measure of what anybody else does. The amount is chosen, person by person.",
     "category": "Community",
     "collection": "posts",
