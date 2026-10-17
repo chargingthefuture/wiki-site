@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "the-damage-is-what-is-wanted",
     "title": "The damage is what is wanted",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks why Targeted Individuals are targeted and destroyed. Nothing is taken for use. The damage is the product, so it continues.",
     "category": "Community",
     "collection": "posts",

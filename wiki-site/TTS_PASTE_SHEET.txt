@@ -4114,7 +4114,7 @@ Pushed out of every space, a target still has every skill they had. The skills w
 
 The damage is meant to keep those skills from reaching anybody. What undoes that is a place where they can be found by people who are not doing this. The Directory lists survivors by what they can do, and being on it costs nobody an account. Workforce counts those skills by occupation and level, so the capacity is visible. Neither returns what was taken. Both put what remains where somebody can ask for it.
 
-==================== 2026-10-16 ====================
+==================== 2026-10-17 ====================
 
 the-default-is-no
 
