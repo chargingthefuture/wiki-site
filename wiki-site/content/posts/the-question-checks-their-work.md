@@ -1,6 +1,6 @@
 ---
 title: "The question checks their work"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks why they are so nosy. Many of the questions are about something they did, asked to find out whether it landed."
 category: "Community"
 teaser: "A question I saved on Quora asks why the people doing this are so nosy. Some of the questions fish for something new. Many do not. They are about something that was already done to you, asked to find out whether it worked: whether you noticed, whether it made you sick, whether it is worth doing again. The asker already knows what happened; they arranged it. What they do not know is the result, and your answer is the report. So the answer to give is none, and the record to keep is your own."
