@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "no-answer-that-brings-comfort",
+    "title": "No answer that brings comfort",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks for the truth about Targeted Individuals. It is plain and not comforting: an old crime, done by people, to millions.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/no-answer-that-brings-comfort.md",
+    "teaser": "A question I saved on Quora asks what the truth is about Targeted Individuals. I do not have an answer that brings comfort. It is organized crime and human trafficking, done by people at every level of society. It is old: the earliest writing I have found about it is from 1690. It is large, maybe five million people today, around the globe. It can last a lifetime. None of it is the fault of the people it is done to. What can be offered is each other, and an economy of our own.",
+    "topics": [
+      "specterati",
+      "community",
+      "directory"
+    ],
+    "number": 527
+  },
+  {
     "slug": "the-costume-is-the-silly-part",
     "title": "The costume is the silly part",
     "repo": "chargingthefuture/wiki-site",
