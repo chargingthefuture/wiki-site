@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "the-room-has-been-sorted",
     "title": "The room has been sorted",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks why everyone yells at a Targeted Individual. It is not everyone. The people who would not join in were moved out first.",
     "category": "Community",
     "collection": "posts",
