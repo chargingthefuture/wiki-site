@@ -1,6 +1,6 @@
 ---
 title: "No reason would be valid"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks for documented cases of people targeted without a valid reason. There is no other kind. Crimes have a legal system."
 category: "Community"
 teaser: "A question I saved on Quora asks whether there are documented cases of people targeted without any valid reason. The question leaves room for cases that had one. There are none: crimes have a legal system, and people who appoint themselves judge, jury and executioner are not one. The cases recorded on this blog make it plain. I was five when it started. Children who would not take part against me were bullied at school until they gave in. Two people I knew would not take part. They were killed."
