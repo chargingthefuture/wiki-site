@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "worn-down-is-the-aim",
+    "title": "Worn down is the aim",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks whether poor sleep and poor health make Targeted Individuals easier to work on. Yes, and the wear is produced on purpose.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/worn-down-is-the-aim.md",
+    "teaser": "A question I saved on Quora asks whether lack of sleep and poor health make Targeted Individuals more susceptible. Yes, and it also runs the other way. Lost sleep is not a weakness they happen to find. Disturbing it is the method, and wearing health down is one of the aims. Some of it is meant to be believed rather than felt: symptoms and diagnoses suggested until a person acts on them. What answers it is ordinary upkeep done more deliberately, and not letting it stop what you are doing.",
+    "topics": [
+      "specterati",
+      "what-works",
+      "clicklog"
+    ],
+    "number": 528
+  },
+  {
     "slug": "no-answer-that-brings-comfort",
     "title": "No answer that brings comfort",
     "repo": "chargingthefuture/wiki-site",
