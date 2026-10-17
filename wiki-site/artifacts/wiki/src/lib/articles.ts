@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "the-costume-is-the-silly-part",
+    "title": "The costume is the silly part",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks why some people blame aliens or the supernatural. Those are costumes. What is underneath is people, running a business.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/the-costume-is-the-silly-part.md",
+    "teaser": "A question I saved on Quora asks why some people attribute this to aliens or supernatural forces. Each act, on its own, looks ordinary, so the total looks like more than people could manage, and a bigger cause is easy to reach for. Some of those stories are also offered on purpose. Either way the explanation becomes a costume, and arguing about the costume is what it is for. Underneath it is people, working together, paid through an economy. That part can be named, and it can be left.",
+    "topics": [
+      "specterati",
+      "economy",
+      "foundation"
+    ],
+    "number": 526
+  },
+  {
     "slug": "what-they-ask-for-is-ordinary",
     "title": "What they ask for is ordinary",
     "repo": "chargingthefuture/wiki-site",
