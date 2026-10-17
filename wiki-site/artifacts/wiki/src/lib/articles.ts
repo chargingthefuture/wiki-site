@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "not-everything-is-them",
+    "title": "Not everything is them",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks if Targeted Individuals are seen as delusional or paranoid. Survivors sort; a dated record can be checked.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/not-everything-is-them.md",
+    "teaser": "A question I saved on Quora asks whether Targeted Individuals are seen as delusional or paranoid. It depends on who is asked. Some avenues answer delusional. A national hotline answered that it is common. A UN report said the allegations warrant investigation rather than dismissal. Paranoia would blame every strange thing on the people doing it. Survivors answering each other sort, and send some things back to an ordinary cause. A label cannot be checked. A dated record can.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "knowledge-library"
+    ],
+    "number": 498
+  },
+  {
     "slug": "removal-is-what-gets-sold",
     "title": "Removal is what gets sold",
     "repo": "chargingthefuture/wiki-site",
