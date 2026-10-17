@@ -1,6 +1,6 @@
 ---
 title: "It only works with cover"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks why the people doing this are so cowardly. They act in numbers, with cover, against one person. Saying no takes nerve they lack."
 category: "Community"
 teaser: "A question I saved on Quora asks why the people doing this are so cowardly. Nothing they do is done one on one and in the open. They outnumber the people they target, every act comes with an ordinary explanation, and some who learn it is wrong keep going rather than admit it. What staying protects is a job, an apartment, a standing, never their lives. The nerve is on the other side: a coworker who would not take part, a person who stopped, a stranger who ignored the alerts."
