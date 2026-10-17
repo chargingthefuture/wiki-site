@@ -77,7 +77,7 @@ follows it.
 - [ ] What exactly do gang stalkers want from me — bookmarked · saved 4 times
 - [x] Why are targeted individuals treated so badly 1 — bookmarked · tinetwork · saved 2 times
 - [x] Why do gangstalkers film you on their phones 5 — bookmarked · gangstalkingworldwide
-- [ ] Are the families of targeted individuals forced by gang stalkers to harass the TI or do they do it voluntarily — bookmarked
+- [x] Are the families of targeted individuals forced by gang stalkers to harass the TI or do they do it voluntarily — bookmarked
 - [x] Do gang stalkers scare away people who help you such as mechanics lawn workers etc — bookmarked
 - [ ] Do individuals on the targeted individual list know the reason for being placed on it — bookmarked
 - [ ] Does being targeted for TIs targeted individuals indicate that someone was involved in the occult prior to the targeting — bookmarked
