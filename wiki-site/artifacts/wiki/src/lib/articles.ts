@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "the-question-points-the-wrong-way",
     "title": "The question points the wrong way",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks whether being targeted means somebody was in the occult first. No. Where the occult turns up, it is a story told to targets.",
     "category": "Community",
     "collection": "posts",

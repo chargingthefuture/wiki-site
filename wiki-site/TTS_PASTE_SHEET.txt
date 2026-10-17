@@ -3484,7 +3484,7 @@ A record of what was done.
 
 What a target can keep is a record of what happened to them, not a defense of who they were. ClickLog logs an incident with one tap and the date, and the note and scheme tags can be added later. Read back over months, it shows a pattern of what other people did (ClickLog: your record, and the record). Nothing in it asks about the past.
 
-==================== 2026-10-16 ====================
+==================== 2026-10-17 ====================
 
 the-signs-are-a-pattern-over-time
 
