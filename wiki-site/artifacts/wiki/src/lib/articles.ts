@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "well-along-before-you-know",
     "title": "Well along before you know",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks whether a person can be targeted without knowing it. Yes, and often for a long time: the first part happens where they are not.",
     "category": "Community",
     "collection": "posts",
