@@ -1,6 +1,6 @@
 ---
 title: "Filmed for a clip"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks why people taking part film a target on their phones. They are waiting for a reaction, and the footage is theirs to cut."
 category: "Community"
 teaser: "A question I saved on Quora asks why the people doing this film you on their phones. The phone is waiting for one moment: you reacting like anyone would. That is the clip. Unlike a building's camera, a phone's footage belongs to whoever holds it, so it can be cut, staged or invented, while the footage that would clear you sits with a company nobody can compel. What stays yours is whether there is a scene at all, and a record of your own."

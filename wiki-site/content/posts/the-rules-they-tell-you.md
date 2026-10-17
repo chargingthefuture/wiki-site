@@ -1,6 +1,6 @@
 ---
 title: "The rules they tell you"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks how targets are manipulated and intimidated. Much of it runs through the rules a target is told about how it works."
 category: "Community"
 teaser: "A question I saved on Quora asks how targets are manipulated and intimidated, and what the power dynamics are. Much of the power sits in who explains it to the target. I was told they would never touch me, then they did. I was told it was spiritual warfare and that I should accept it. Each rule is fitted to keep a target tolerating it, and they outnumber one person. The counter is where a target gets their account of how it works: from other survivors, not from the people doing it."
