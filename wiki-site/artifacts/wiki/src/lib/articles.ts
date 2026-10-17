@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "prevention-is-who-is-around-you",
+    "title": "Prevention is who is around you",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks what prevents being targeted. No single precaution does. What limits it is who surrounds a target, and who refuses to take part.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/prevention-is-who-is-around-you.md",
+    "teaser": "A question I saved on Quora asks how it feels to be targeted, and what can be done to prevent it, by individuals or agencies. This answer is about the second half. No lock, device setting or agency program keeps a person from being chosen, and one person cannot stop it alone. What limits it is people. It runs on being surrounded by those taking part, so it shrinks where a target is surrounded by other survivors instead, and where the people asked to take part decline.",
+    "topics": [
+      "community",
+      "directory",
+      "foundation"
+    ],
+    "number": 503
+  },
+  {
     "slug": "not-the-same-for-any-two",
     "title": "Not the same for any two targets",
     "repo": "chargingthefuture/wiki-site",
