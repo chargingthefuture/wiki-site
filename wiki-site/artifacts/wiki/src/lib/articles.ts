@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "fitted-to-you",
+    "title": "Fitted to you",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks how the person targeted is groomed. It arrives as friendliness, fitted to them, and it is fishing for what can be used next.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/fitted-to-you.md",
+    "teaser": "A question I saved on Quora asks how the person being targeted is groomed. It does not arrive as a threat. It arrives as an overly friendly stranger, a nice person after a cruel one, a romance that is exactly your type. Each approach is fitted to what was learned by watching, and each one is fishing: for information, for triggers, for a reaction, for money spent. The direction is always the same, toward isolation. The answer runs the other way, toward people who do not take part.",
+    "topics": [
+      "specterati",
+      "directory",
+      "community"
+    ],
+    "number": 474
+  },
+  {
     "slug": "impunity-lives-in-their-economy",
     "title": "The impunity lives in their economy",
     "repo": "chargingthefuture/wiki-site",
