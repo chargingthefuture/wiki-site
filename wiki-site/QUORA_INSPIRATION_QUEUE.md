@@ -94,7 +94,7 @@ follows it.
 - [ ] What do you do if you are being gang stalked and you know who some of your gang stalkers are personally and who is beh 1 — bookmarked · uspsyopstargetedindividuals
 - [ ] What does remove gangstalking mean — bookmarked · saved 2 times
 - [ ] What is the point of gang stalking someone if they don t even know why they are being gang stalked Why waste their time — bookmarked
-- [ ] What makes you special as a targeted individual — bookmarked
+- [x] What makes you special as a targeted individual — bookmarked
 - [ ] What profound truth did one targeted individual uncover amidst the chaos of gang stalking — bookmarked
 - [ ] What type of harassment are you receiving from the gang stalkers I m curious to know for my own understanding of what some victims like yourself receive and witness Thank you — bookmarked
 - [ ] Who are the most common targets of gang stalking or targeted individuals TI — bookmarked · saved 2 times
