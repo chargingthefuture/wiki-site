@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "a-court-not-a-crowd",
+    "title": "Justice is a court, not a crowd",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-17",
+    "excerpt": "A saved Quora question asks how the people involved should be treated once it is exposed. Through a court, with a charge and evidence, not by a crowd.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/a-court-not-a-crowd.md",
+    "teaser": "A question I saved on Quora asks how the people taking part should be treated when it is exposed and the tables turn, and what would feel like justice. Turning the tables keeps the table: a crowd that decides who is guilty and punishes with no charge is what is done to a target now. The people involved should get what a target never got, a charge, evidence and a defense. The record a case needs is kept now, as it happens. And a life that does not run through them does not wait on any exposure.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "directory"
+    ],
+    "number": 536
+  },
+  {
     "slug": "who-the-exposure-is-for",
     "title": "Who the exposure is for",
     "repo": "chargingthefuture/wiki-site",
