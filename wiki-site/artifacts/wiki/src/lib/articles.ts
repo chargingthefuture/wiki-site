@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "somebody-else-holds-the-key",
     "title": "Somebody else holds the key",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks for hotel survival tricks. A room somebody else can open is a place to sleep, not a place to keep things.",
     "category": "Community",
     "collection": "posts",

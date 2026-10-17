@@ -2990,7 +2990,7 @@ None of this stops it. On October 11, 2025 I wrote that a better framing is "to 
 
 Then write it down. ClickLog logs an incident with one tap, and its date and location cannot be changed later. A night in a room you will leave in the morning is easy to lose track of. A dated entry is not (ClickLog: your record, and the record).
 
-==================== 2026-10-16 ====================
+==================== 2026-10-17 ====================
 
 spent-not-taken
 
