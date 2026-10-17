@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "living-well-not-sending-it-back",
+    "title": "Living well, not sending it back",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks how to send the hits back. I know of no way to, and the push to strike back is part of what is done to a target.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/living-well-not-sending-it-back.md",
+    "teaser": "A question I saved on Quora asks how to send the hits back. I do not know of any way to. What I do know is that the push to strike back is part of what is done to a target. People taking part have tried to draw me into violent crimes to get me arrested, and they encourage me to fight them. Revenge pulls a target down to their level. What I chose instead is living well, among other survivors, with my attention on us rather than on them.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "directory"
+    ],
+    "number": 489
+  },
+  {
     "slug": "the-question-checks-their-work",
     "title": "The question checks their work",
     "repo": "chargingthefuture/wiki-site",
