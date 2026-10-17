@@ -305,7 +305,7 @@ follows it.
 - [ ] Good article exposing Fusion Center and their Far Right Agenda — bookmarked · realgangstalkingvictimsandevidence
 - [ ] So many questions here some of them sound crazy as hell but at this point wtf does it even matter anymore I do believ — bookmarked · realgangstalkingvictimsandevidence
 - [ ] When gang stalkers use the gas lighting method the victim would probably be considered mad if they had to denounce the c 1 — bookmarked · realgangstalkingvictimsandevidence · saved 2 times
-- [ ] How can I get help with someone hacking my accounts and gang stalking me — bookmarked
+- [x] How can I get help with someone hacking my accounts and gang stalking me — bookmarked
 - [ ] Is there any truth to the claims of organized stalking and government abuses against targeted individuals — bookmarked
 - [ ] Is there evidence of government involvement in organized stalking Whats the disturbing truth behind government sponsored surveillance and harassment — bookmarked
 - [x] Why are people targeted and who is behind organized stalking and targeting — bookmarked · saved 3 times

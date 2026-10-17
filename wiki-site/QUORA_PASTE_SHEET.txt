@@ -26,8 +26,15 @@ corrected where it had drifted; 70 were rewritten. Entries added after that date
 are written from the post at the time it is published. So the file is no longer
 unverified — but it is still a staging file, and the post remains the record.
 
-532 of 532 written.
+533 of 533 written.
 
+
+==============================================================================
+No. 0 · 2026-10-17 · Ask about one thing at a time
+
+Somebody asked how to get help when their accounts are being hacked. The honest answer is that nobody can help with "my accounts" as one problem. An email account, a phone, a laptop and a home network are each reached a different way and closed a different way, so the useful question names one of them and what was actually seen happening to it. Some symptoms are not the device at all: a feed can be steered by what you follow, a network can be intercepted, and a message can leak from the phone of the person you sent it to. Write the symptoms down one per line, then bring each one separately to somebody who knows that particular thing and is not part of what is happening to you.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/one-thing-at-a-time
 
 ==============================================================================
 No. 532 · 2026-10-17 · No side is behind it
