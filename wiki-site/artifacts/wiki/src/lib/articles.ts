@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "you-do-not-have-to-be-important",
+    "title": "You do not have to be important",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks why anyone would target a regular person. Importance was never the threshold. The people doing it are ordinary too.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/you-do-not-have-to-be-important.md",
+    "teaser": "A question I saved on Quora asks why anybody would target a regular person, one among billions. It expects a reason as big as the effort, and the big reasons are the ones the people doing it hand out. Importance was never the threshold. The person who starts it is usually as ordinary as the person it starts on, and the people who join are paid in ordinary things. Once a name is on the list, not being famous does not take it off. It does mean millions of regular people are in the same place.",
+    "topics": [
+      "specterati",
+      "directory",
+      "community"
+    ],
+    "number": 487
+  },
+  {
     "slug": "the-threat-is-being-believed",
     "title": "The threat is being believed",
     "repo": "chargingthefuture/wiki-site",
