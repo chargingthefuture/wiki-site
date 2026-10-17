@@ -97,7 +97,7 @@ follows it.
 - [x] What makes you special as a targeted individual — bookmarked
 - [ ] What profound truth did one targeted individual uncover amidst the chaos of gang stalking — bookmarked
 - [ ] What type of harassment are you receiving from the gang stalkers I m curious to know for my own understanding of what some victims like yourself receive and witness Thank you — bookmarked
-- [ ] Who are the most common targets of gang stalking or targeted individuals TI — bookmarked · saved 2 times
+- [x] Who are the most common targets of gang stalking or targeted individuals TI — bookmarked · saved 2 times
 - [ ] Who is targeted in a targeted individual program and what is the reason behind it Is the selection random or based on certain criteria — bookmarked · saved 2 times
 - [ ] Why do people love narcissists And why do they turn a blind eye to their victim — bookmarked
 - [x] Im a targeted individual by gang stalking Why wont anyone help me 10 — bookmarked · gangstalkingworldwide · saved 5 times
