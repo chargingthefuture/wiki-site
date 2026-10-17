@@ -1,6 +1,6 @@
 ---
 title: "Not the same for any two targets"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks what harassment I receive. What I receive is not a measure of what anybody else does. The amount is chosen, person by person."
 category: "Community"
 teaser: "A question I saved on Quora asks what kind of harassment I receive, to understand what Targeted Individuals go through. I can answer for myself. What I cannot do is make my answer a measure for anybody else, because the amount is not set by where you live. I have sat beside another Targeted Individual while the people doing it did nothing to them and everything to me. The amount is chosen, person by person, and comparing two targets says nothing about either one."
