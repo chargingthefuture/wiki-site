@@ -1,6 +1,6 @@
 ---
 title: "The signs are a pattern over time"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asked for the signs that somebody is being targeted. No single incident settles it. The signs are named schemes repeating over months and years, and a dated record is what makes that visible."
 category: "Community"
 teaser: "A question I saved on Quora in October 2024 asked what the signs are that someone is being targeted. Any one incident has an ordinary explanation ready, and that is by design: a car like yours, strangers in one color, a word from a private conversation repeated by somebody nearby. What gives it away is repetition. The same named schemes come back in rotation, on a schedule, for months and years, and most of them are tried on everybody it happens to. The list of those schemes is public. Memory under stress does not hold a pattern like that. A dated record does, and read back over thirty entries it shows where, when and which schemes repeat."

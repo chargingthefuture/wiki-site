@@ -1,6 +1,6 @@
 ---
 title: "What they stand to lose"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks what the people doing this fear. Being noticed, the people directing them, and losing what they were given. Never their lives."
 category: "Community"
 teaser: "A question I saved on Quora asks what the people doing this fear. Three things, from what I have written over the years. Being noticed by people who do not know, which is why only a percentage are targeted and why a quiet stretch usually means they are laying low. The people directing them, whom they are afraid not to obey. And losing what they were given for taking part: a job, an apartment, a reputation. None of it is their life. Only the target's is at risk."
