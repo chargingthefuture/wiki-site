@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "the-signs-are-a-pattern-over-time",
     "title": "The signs are a pattern over time",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asked for the signs that somebody is being targeted. No single incident settles it. The signs are named schemes repeating over months and years, and a dated record is what makes that visible.",
     "category": "Community",
     "collection": "posts",
