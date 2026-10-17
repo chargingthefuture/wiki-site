@@ -1,6 +1,6 @@
 ---
 title: "Aimed at what it costs"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks how communities can fight it. Not by ending it. By partnering on what it costs: housing, transportation, work."
 category: "Community"
 teaser: "A question I saved on Quora asks how communities can fight the harassment of Targeted Individuals. I have said plainly that we cannot end it. Whether it goes on is decided by the people doing it. What a community can reach is the cost of it, and the cost lands in a few places every time: housing, transportation, work. So the fight is organized around a need, not around them. Ask what somebody is trying to accomplish, then partner on that, and pool resources so each person shares the benefit."

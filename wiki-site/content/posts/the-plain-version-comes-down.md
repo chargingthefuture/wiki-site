@@ -1,6 +1,6 @@
 ---
 title: "The plain version is the one that comes down"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks why so few people know about Targeted Individuals. The plain account is the one removed, and most of it is never reported at all."
 category: "Community"
 teaser: "A question I saved on Quora asks why there is so little awareness of what Targeted Individuals go through. Part of the answer is what stays up. On Quora, posts about spiritual warfare and the illuminati stay up, and plain accounts of what is happening get banned. So the version the public meets is the one that reads as unbelievable. Most of it is also never reported, mine included. Awareness grows from a record that cannot be deleted, written in terms that already exist."
