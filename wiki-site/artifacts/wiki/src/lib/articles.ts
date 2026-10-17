@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "a-government-is-a-collection-of-people",
     "title": "A government is a collection of people",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks why the government would be involved, and who to trust. A government is people, not one side, and trust goes to conduct.",
     "category": "Community",
     "collection": "posts",
