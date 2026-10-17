@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "no-reason-would-be-valid",
     "title": "No reason would be valid",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks for documented cases of people targeted without a valid reason. There is no other kind. Crimes have a legal system.",
     "category": "Community",
     "collection": "posts",

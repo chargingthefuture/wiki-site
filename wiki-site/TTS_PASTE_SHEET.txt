@@ -3034,7 +3034,7 @@ Writing your own down.
 
 Most of what happens to a target is never recorded by anybody else. A dated record of your own is what lets you, and anybody you choose to show, read what happened later instead of relying on memory under stress. ClickLog logs an incident with the date in one tap, and the date cannot be changed afterward. What a record shows is what was done and when. It does not need a reason in it, because there was never a valid one.
 
-==================== 2026-10-16 ====================
+==================== 2026-10-17 ====================
 
 not-everything-is-them
 
