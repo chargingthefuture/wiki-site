@@ -159,7 +159,7 @@ follows it.
 - [x] Why would a gang stalker want to date me — bookmarked · saved 2 times
 - [ ] How do gang stalkers manipulate and intimidate their targets What are the power dynamics of organized stalking — bookmarked
 - [ ] How do the tactics of organized stalking reveal the lengths the powerful will go to maintain their control — bookmarked
-- [ ] What are some hotel survival tricks for TIs 2 — bookmarked · gangstalkingquestionsandanswers
+- [x] What are some hotel survival tricks for TIs 2 — bookmarked · gangstalkingquestionsandanswers
 - [ ] What covert social engineering tactics are used to manipulate and harass targeted individuals — bookmarked
 - [ ] Has anyone found out why the stalkers always try to get you to say your name out loud? For example, in scenarios where your name is not needed. And or after it is said they will repeat it very loud in front of others. — submitted to a space · TARGETED INDIVIDUALS
 - [ ] Good information Very detailed and worth reading — bookmarked · zersetzung
