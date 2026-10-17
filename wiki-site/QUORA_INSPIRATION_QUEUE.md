@@ -126,7 +126,7 @@ follows it.
 - [ ] What is group stalking or group harassment How do people do it and why would they do it in the first place — bookmarked
 - [ ] What is the origin of TI gangstalking 3 — bookmarked · gangstalkingworldwide
 - [ ] What is the purpose of the Targeted Individual Program Who are the individuals targeted and why are they chosen Is there a specific criteria or reason for targeting certain individuals — bookmarked
-- [ ] What percent of your calls do you think are re routed to the gang stalker call center 2 — bookmarked · uspsyopstargetedindividuals
+- [x] What percent of your calls do you think are re routed to the gang stalker call center 2 — bookmarked · uspsyopstargetedindividuals
 - [ ] What would cause someone to be targeted by organized harassment and gangstalking — bookmarked
 - [x] Where can targeted individuals find help How can I find others in my area to find local help or community 1 — bookmarked · targetedindividuals1
 - [ ] Why would the government be involved in organized stalking How can we know who to trust — bookmarked
