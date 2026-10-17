@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "picked-for-not-deferring",
     "title": "Picked for not deferring",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks how targets are picked. Mine followed a demand for deference I did not meet, and one chance to repair it by submitting.",
     "category": "Community",
     "collection": "posts",

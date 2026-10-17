@@ -3750,7 +3750,7 @@ The picking runs on who gets close to a person, and the closeness offered by peo
 
 The Directory lists survivors by what they can do, so a person can go and find somebody whose skills they need, on their own terms, rather than waiting for whoever approaches. Being on it costs nobody an account. The Commons is the group chat, where survivors compare what happened to them. A test like that one is easier to recognize once somebody else has described it.
 
-==================== 2026-10-16 ====================
+==================== 2026-10-17 ====================
 
 prevention-is-who-is-around-you
 
