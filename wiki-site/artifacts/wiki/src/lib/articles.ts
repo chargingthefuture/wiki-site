@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "seen-every-day",
     "title": "Seen every day",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks why they have to see you every day. Being seen is the message, and every sighting is somebody reporting back.",
     "category": "Community",
     "collection": "posts",
