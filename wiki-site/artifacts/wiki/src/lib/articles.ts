@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "the-question-checks-their-work",
+    "title": "The question checks their work",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks why they are so nosy. Many of the questions are about something they did, asked to find out whether it landed.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/the-question-checks-their-work.md",
+    "teaser": "A question I saved on Quora asks why the people doing this are so nosy. Some of the questions fish for something new. Many do not. They are about something that was already done to you, asked to find out whether it worked: whether you noticed, whether it made you sick, whether it is worth doing again. The asker already knows what happened; they arranged it. What they do not know is the result, and your answer is the report. So the answer to give is none, and the record to keep is your own.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "community"
+    ],
+    "number": 488
+  },
+  {
     "slug": "you-do-not-have-to-be-important",
     "title": "You do not have to be important",
     "repo": "chargingthefuture/wiki-site",
