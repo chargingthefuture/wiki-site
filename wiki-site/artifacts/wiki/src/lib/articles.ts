@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "filmed-for-a-clip",
     "title": "Filmed for a clip",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks why people taking part film a target on their phones. They are waiting for a reaction, and the footage is theirs to cut.",
     "category": "Community",
     "collection": "posts",
