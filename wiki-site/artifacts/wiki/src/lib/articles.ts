@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "fewer-doors-left-open",
     "title": "Fewer doors left open",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks how to deal with a cyber stalker without police or a lawyer. Close accounts you no longer use, and do not answer what comes back.",
     "category": "Community",
     "collection": "posts",
