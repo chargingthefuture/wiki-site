@@ -39,6 +39,261 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "what-slips-out-is-the-lie",
+    "title": "What slips out is the lie",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-17",
+    "excerpt": "A saved Quora question asks how a Targeted Individual can find out who made them a target. What can be found out is the lie each person was told.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/what-slips-out-is-the-lie.md",
+    "teaser": "A question I saved on Quora asks how a Targeted Individual can find out who made them a target. The people within reach mostly did not start it. They were brought in afterward, each told a lie fitted to them, and many do not know much beyond it. What slips out, sooner or later, is that lie, not a name. A name does not change what has to be done next. What can be found out is who is around you now and what they do, and a dated record holds that.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "directory"
+    ],
+    "number": 472
+  },
+  {
+    "slug": "they-know-what-they-are-doing",
+    "title": "They know what they are doing",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-17",
+    "excerpt": "A saved Quora question asks whether the people doing this know what they are doing. Most do. Taking part is a choice, and so is stopping.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/they-know-what-they-are-doing.md",
+    "teaser": "A question I saved on Quora asks whether the people doing this are aware of what they are doing. Most of them are. They are told a lie about the target, and they know it is a lie: nobody follows a real criminal around town with a two-year-old in tow. Some were raised into it from early childhood. Some know it is illegal and are careless about hiding it anyway. Taking part is a choice, and quitting is one too. Knowing that changes what is worth doing: explaining yourself to them is not.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "directory"
+    ],
+    "number": 471
+  },
+  {
+    "slug": "denial-is-part-of-the-method",
+    "title": "Denial is part of the method",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-17",
+    "excerpt": "A saved Quora question asks why people deny it so hard. Some were never told, some were shown a setup, and some are taking part. Deniability is the method.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/denial-is-part-of-the-method.md",
+    "teaser": "A question I saved on Quora asks why people deny it so vehemently. Not everybody who denies it is the same. Some were kept unaware and then shown a target provoked in front of them. Some see what is going on and will not stick their necks out. Some are taking part, and for them denial is the job: the method runs on plausible deniability, and a person who admits it ends that. None of the three is moved by an argument, which is why the time is better spent with people who need no convincing.",
+    "topics": [
+      "specterati",
+      "directory",
+      "community"
+    ],
+    "number": 470
+  },
+  {
+    "slug": "what-they-stand-to-lose",
+    "title": "What they stand to lose",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-17",
+    "excerpt": "A saved Quora question asks what the people doing this fear. Being noticed, the people directing them, and losing what they were given. Never their lives.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/what-they-stand-to-lose.md",
+    "teaser": "A question I saved on Quora asks what the people doing this fear. Three things, from what I have written over the years. Being noticed by people who do not know, which is why only a percentage are targeted and why a quiet stretch usually means they are laying low. The people directing them, whom they are afraid not to obey. And losing what they were given for taking part: a job, an apartment, a reputation. None of it is their life. Only the target's is at risk.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "directory"
+    ],
+    "number": 469
+  },
+  {
+    "slug": "who-does-the-repair",
+    "title": "Who does the repair",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-17",
+    "excerpt": "A saved Quora question asks whether the people who help a Targeted Individual, mechanics and lawn workers, get scared away. Mostly they are reached, not scared.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/who-does-the-repair.md",
+    "teaser": "A question I saved on Quora asks whether the people who help you, mechanics, lawn workers and the like, get scared away. Fear is rarely what does it. The person you hire is told a lie fitted to them, or brought in with a job, an apartment or a favor, and abusing the target is how a person is initiated. Some who seem helpful were sent, and they will not do the repair. Persuading the next hire does not change that. Moving the repair to a survivor does, one arrangement at a time.",
+    "topics": [
+      "specterati",
+      "directory",
+      "foundation"
+    ],
+    "number": 468
+  },
+  {
+    "slug": "filmed-for-a-clip",
+    "title": "Filmed for a clip",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-17",
+    "excerpt": "A saved Quora question asks why people taking part film a target on their phones. They are waiting for a reaction, and the footage is theirs to cut.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/filmed-for-a-clip.md",
+    "teaser": "A question I saved on Quora asks why the people doing this film you on their phones. The phone is waiting for one moment: you reacting like anyone would. That is the clip. Unlike a building's camera, a phone's footage belongs to whoever holds it, so it can be cut, staged or invented, while the footage that would clear you sits with a company nobody can compel. What stays yours is whether there is a scene at all, and a record of your own.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "community"
+    ],
+    "number": 467
+  },
+  {
+    "slug": "spent-not-taken",
+    "title": "Most of it is spent, not taken",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-17",
+    "excerpt": "A saved Quora question asks how Targeted Individuals are robbed of money. Some is taken outright. Most is spent, by the target, on costs somebody else arranged.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/spent-not-taken.md",
+    "teaser": "A question I saved on Quora asks how Targeted Individuals are robbed of their money. Some of it is taken outright: clothes, a car, mail, ideas, access to accounts. Most of it leaves another way. Income is mobbed until it stops, and what is left is spent by the target, on replacements, repairs and defense, at businesses that are paid on both ends. Every one of those payments looks ordinary. The protection is not a better lock. It is moving where the money goes, to people who do not take part.",
+    "topics": [
+      "specterati",
+      "foundation",
+      "directory"
+    ],
+    "number": 466
+  },
+  {
+    "slug": "the-signs-are-a-pattern-over-time",
+    "title": "The signs are a pattern over time",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-17",
+    "excerpt": "A saved Quora question asked for the signs that somebody is being targeted. No single incident settles it. The signs are named schemes repeating over months and years, and a dated record is what makes that visible.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/the-signs-are-a-pattern-over-time.md",
+    "teaser": "A question I saved on Quora in October 2024 asked what the signs are that someone is being targeted. Any one incident has an ordinary explanation ready, and that is by design: a car like yours, strangers in one color, a word from a private conversation repeated by somebody nearby. What gives it away is repetition. The same named schemes come back in rotation, on a schedule, for months and years, and most of them are tried on everybody it happens to. The list of those schemes is public. Memory under stress does not hold a pattern like that. A dated record does, and read back over thirty entries it shows where, when and which schemes repeat.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "community"
+    ],
+    "number": 465
+  },
+  {
+    "slug": "the-power-is-in-the-need",
+    "title": "The power is in the need",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-17",
+    "excerpt": "A saved Quora question asks how a Targeted Individual can reclaim power and break free. The power was never in the watching. It is in what you need from the people taking part, and that can be moved.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/the-power-is-in-the-need.md",
+    "teaser": "A question I saved on Quora asks how Targeted Individuals can reclaim power and break free. Start with where the power sits. It is not in the watching. It is in needing something from people who take part or look away, and most of them look away because there is something in it for them. No method I know of ends the targeting, so breaking free of it is not on offer. Breaking free of needing them is, one arrangement at a time: the job, the room, the ride. The goal board lets other members carry the small steps when your day cannot, and the Directory is where you find who to move each arrangement to.",
+    "topics": [
+      "specterati",
+      "peer-programming",
+      "directory"
+    ],
+    "number": 464
+  },
+  {
+    "slug": "regret-needs-a-choice",
+    "title": "Regret needs a choice",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-17",
+    "excerpt": "A saved Quora question asks whether I regret being a Targeted Individual. Regret belongs to something a person decided, and being targeted was decided by the people doing it.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/regret-needs-a-choice.md",
+    "teaser": "A question I saved on Quora asks whether I regret being a Targeted Individual. No, because regret belongs to a decision, and this was never mine. It started when I was five, and trafficking someone is a choice made by the person doing it. There are no criteria for who gets put on the list; any petty reason will do. Operators tell targets a story in which they chose it or earned it, and a question about regret sits on the same line. There is a usual answer, that it was hard but gave something back. I do not give it. What I do decide is what I do with my own days, and some of what it costs can be cut.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "directory"
+    ],
+    "number": 463
+  },
+  {
+    "slug": "a-light-you-are-meant-to-notice",
+    "title": "A light you are meant to notice",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-17",
+    "excerpt": "A saved Quora question asks why bright lights from cars are used to harass somebody. They are meant to be seen, they are repeated until the road itself carries the moment, and a shared record is what shows them as a pattern.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/a-light-you-are-meant-to-notice.md",
+    "teaser": "A question I saved on Quora asks why bright lights from cars are used to harass a person. The lights are a message: you are being watched, and they want you to know it, the same way the matching car and the matching clothes do. The list of named schemes has one for it, Road Sensitization, which repeats high beams in the mirror and cars pacing you until every drive is something you have to read. Repetition is how it works, and a reaction is what it is waiting for. A flash of high beams is one of the small disruptions in a day that you recognize and let go, and writing it down lets it go without losing it.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "community"
+    ],
+    "number": 462
+  },
+  {
+    "slug": "any-petty-reason-is-enough",
+    "title": "Any petty reason is enough",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-17",
+    "excerpt": "Somebody asked on Quora why they became a Targeted Individual. There is no criterion and no test they failed: somebody with access put a name on a list, and the reasons a person is told afterward are fitted to them.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/any-petty-reason-is-enough.md",
+    "teaser": "A saved Quora question asks why the person asking became a Targeted Individual. There is no criterion. Anyone can be added to the list at any time and for any reason, and the profiling comes after the name is added, not before. Not saying hi to the wrong person can be enough. The reasons a person is told afterward are fitted to them: one is told it is God, another the government, another a secret society. Mine started when I was five, and a five-year-old has done nothing to anybody. The line that a target did something to merit this is said by the people doing it. Nobody deserves to be trafficked.",
+    "topics": [
+      "specterati",
+      "community",
+      "clicklog"
+    ],
+    "number": 461
+  },
+  {
+    "slug": "gain-is-not-an-illness",
+    "title": "Gain is not an illness",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-17",
+    "excerpt": "A saved Quora question asked whether people who stalk for revenge or personal gain have psychological issues. The motive is ordinary gain, paid in kind, and a reason is not a justification.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/gain-is-not-an-illness.md",
+    "teaser": "A question I saved on Quora asked what I think of people who stalk others for revenge or personal gain, and whether they have psychological issues. The question names the motive itself. Most of the people taking part are paid in kind: a job, an apartment, a favor. Some are moved by money, some by jealousy, and some are extorted. Some of them are ill, and the illness is not what organized them; sadists are rounded up on purpose. Calling it a psychological issue works like an excuse. A reason is not a justification, and in this story the illness label is more often pinned on the target.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "directory"
+    ],
+    "number": 460
+  },
+  {
+    "slug": "organized-crime-that-announces-itself",
+    "title": "Organized crime that announces itself",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-17",
+    "excerpt": "Two saved questions ask what this is and how the people doing it operate. It is organized crime, human trafficking and group vigilantism, carried out by many ordinary people who make sure the target knows they are there.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/organized-crime-that-announces-itself.md",
+    "teaser": "Two questions I saved on Quora ask what this is and how the people doing it operate. It is organized crime: human trafficking and group vigilantism, a control mechanism run by traffickers with the harassment as its enforcement arm. It is not a secret society, because the people taking part announce themselves to their targets all day long. Most of it runs on a standing permission rather than an order, and the planned part, where I have seen it, ran on instructions read off a phone. Each method is small on purpose, so that nothing taken alone can be reported. A definition stops none of it. It gives the thing a shape and a name, and then the costs can be cut one at a time.",
+    "topics": [
+      "specterati",
+      "community",
+      "clicklog"
+    ],
+    "number": 459
+  },
+  {
+    "slug": "the-hint-is-meant-to-be-noticed",
+    "title": "The hint is meant to be noticed",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-17",
+    "excerpt": "A saved Quora question asks how subtle hints are used to control Targeted Individuals and what they do to a life. The hint is built to be noticed, and the control runs through the attention it takes.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/the-hint-is-meant-to-be-noticed.md",
+    "teaser": "A question I saved on Quora asks how subtle hints are used to control Targeted Individuals, and what that does to a life. The hint is not a slip. It is meant to be noticed: the repeated phrase, the borrowed words from a private conversation, a pointed have a good day after a day arranged to go badly. The control runs through what the hint costs to read. Each one hands you a puzzle, and every hour spent on it is an hour of your day spent on them. Over time it sensitizes a person to the smallest things and makes them easy to describe as the problem. Noticing cannot be switched off, but it can be written down and put down.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "community"
+    ],
+    "number": 458
+  },
+  {
     "slug": "old-links-new-links",
     "title": "Old links, new links",
     "repo": "chargingthefuture/wiki-site",
