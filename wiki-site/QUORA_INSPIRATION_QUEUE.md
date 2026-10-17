@@ -320,7 +320,7 @@ follows it.
 - [ ] Any other TIs feel like their stalkers are the ones who actually have stolkholms and inadvertently created their own prison — bookmarked
 - [ ] Aside from victimology are stalkers fabrications just because they wont be able to stalk me — bookmarked
 - [ ] Does lack of sleep and general poor health make targeted individuals more susceptible to gang stalkers tactics — bookmarked
-- [ ] How and where do I join an active community for targeted individuals — bookmarked
+- [x] How and where do I join an active community for targeted individuals — bookmarked
 - [x] How do gang stalkers pick their victims — bookmarked
 - [ ] I feel no sympathy for the homeless because I feel like it is their own fault Are there examples of seemingly normal and respectable people becoming homeless — bookmarked
 - [ ] Quora Can gangstalkers be out to harm or even kill the target of their harassment Answered 03 04 2024 by Vicki Clin — bookmarked · resistanceisnotfutilefightingbackspace
