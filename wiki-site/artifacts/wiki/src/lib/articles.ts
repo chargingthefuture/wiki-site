@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "the-call-they-asked-for",
+    "title": "The call they asked for",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks whether police protect Targeted Individuals or ignore them. Neither describes it. The call is often one they asked for.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/the-call-they-asked-for.md",
+    "teaser": "A question I saved on Quora asks how police respond to Targeted Individuals who report what is happening to them, and whether they are protected or ignored. Neither word fits what I have seen. The people doing this asked me, for years, to call the police. When police did come, in St. Louis, it was on a false report against me. What somebody taking part gains from a post inside a department is access to information. So a call is a move they can plan for, and protection comes from somewhere else.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "directory"
+    ],
+    "number": 509
+  },
+  {
     "slug": "whatever-sticks",
     "title": "Whatever sticks",
     "repo": "chargingthefuture/wiki-site",
