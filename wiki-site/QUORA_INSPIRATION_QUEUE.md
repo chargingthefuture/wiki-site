@@ -100,7 +100,7 @@ follows it.
 - [ ] Who are the most common targets of gang stalking or targeted individuals TI — bookmarked · saved 2 times
 - [ ] Who is targeted in a targeted individual program and what is the reason behind it Is the selection random or based on certain criteria — bookmarked · saved 2 times
 - [ ] Why do people love narcissists And why do they turn a blind eye to their victim — bookmarked
-- [ ] Im a targeted individual by gang stalking Why wont anyone help me 10 — bookmarked · gangstalkingworldwide · saved 5 times
+- [x] Im a targeted individual by gang stalking Why wont anyone help me 10 — bookmarked · gangstalkingworldwide · saved 5 times
 - [ ] Im a targeted individual by gang stalking Why wont anyone help me 5 — bookmarked · gangstalkingworldwide
 - [ ] Why was I chosen to be a targeted individual of electronic harassment — bookmarked
 - [ ] Why would someone or some place or thing want to gangstalk me Im nobody important just a regular person amongst the billions — bookmarked
