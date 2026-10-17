@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "denial-is-part-of-the-method",
+    "title": "Denial is part of the method",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks why people deny it so hard. Some were never told, some were shown a setup, and some are taking part. Deniability is the method.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/denial-is-part-of-the-method.md",
+    "teaser": "A question I saved on Quora asks why people deny it so vehemently. Not everybody who denies it is the same. Some were kept unaware and then shown a target provoked in front of them. Some see what is going on and will not stick their necks out. Some are taking part, and for them denial is the job: the method runs on plausible deniability, and a person who admits it ends that. None of the three is moved by an argument, which is why the time is better spent with people who need no convincing.",
+    "topics": [
+      "specterati",
+      "directory",
+      "community"
+    ],
+    "number": 470
+  },
+  {
     "slug": "what-they-stand-to-lose",
     "title": "What they stand to lose",
     "repo": "chargingthefuture/wiki-site",
