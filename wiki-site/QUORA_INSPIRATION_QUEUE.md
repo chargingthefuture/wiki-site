@@ -180,7 +180,7 @@ follows it.
 - [x] Do targeted individuals ever stop getting harassed — bookmarked
 - [x] How can communities fight the harassment of targeted individuals — bookmarked
 - [ ] What are some lesser known facts about Targeted Individuals that people should be aware of — bookmarked
-- [ ] What are the signs you re under investigation — bookmarked · saved 2 times
+- [x] What are the signs you re under investigation — bookmarked · saved 2 times
 - [ ] Why do some people attribute organized stalking to aliens or supernatural forces — bookmarked
 - [ ] As a targeted individual how can understanding police misconduct lawsuits empower your fight for justice — bookmarked
 - [ ] Can a person be targeted by secret societies or organizations without their knowledge — bookmarked
