@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "best-guesses-passed-along-fast",
+    "title": "Best guesses, passed along fast",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks whether the people doing this are psychic. They are guessing, and the guesses are shared fast and handed back as stories.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/best-guesses-passed-along-fast.md",
+    "teaser": "A question I saved on Quora asks whether the people doing this are psychic. They are not. They are guessing, from what they watch and how a person reacts, and relayed among many people fast enough that the mockery arrives at once. That speed is what reads as mind reading. The guesses are often wrong, and wrong or right they come back as stories: a diagnosis you do not have, a poisoning, a narrative for the slander. Their guess is not a fact about you. A dated record of your own is.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "community"
+    ],
+    "number": 515
+  },
+  {
     "slug": "a-word-to-be-found-by",
     "title": "A word to be found by",
     "repo": "chargingthefuture/wiki-site",
