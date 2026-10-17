@@ -111,7 +111,7 @@ follows it.
 - [x] Are targeted individuals put on a live stream for all stalkers to see — bookmarked
 - [ ] As a targeted individual I have experienced unimaginable levels of suffering and pain at the hands of those who are sup — bookmarked · governmenthumanexperimentationexposed
 - [ ] COMMUNITY BASED AGENTS CBA s ARE THE ONES WHO CONTROL THE ORGANIZED STALKING USED AGAINST ACTIVISTS DISSIDENTS WHIS — bookmarked · rnudvbhbuspdwbhs
-- [ ] Do you really feel alone because everybody in your off line life refuses to accept that your gang stalking is even real 4 — bookmarked · gangstalkingworldwide
+- [x] Do you really feel alone because everybody in your off line life refuses to accept that your gang stalking is even real 4 — bookmarked · gangstalkingworldwide
 - [ ] Gangstalking is a form of harassment where a group of individuals target a specific person known as the targeted indivi — bookmarked
 - [x] Have any Targeted Individuals tried moving to a different country Im in the US and am considering a move to Mexico to 2 — bookmarked · gangstalkingworldwide
 - [x] Have any Targeted Individuals tried moving to a different country Im in the US and am considering a move to Mexico to see if the RNM and V2K stop — bookmarked
