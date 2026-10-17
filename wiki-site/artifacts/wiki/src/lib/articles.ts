@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "nothing-you-can-hand-over",
+    "title": "Nothing you can hand over",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks what exactly they want from me. Nothing a target can give. The asking leads somewhere, and no answer to it ends anything.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/nothing-you-can-hand-over.md",
+    "teaser": "A question I saved on Quora asks what exactly they want from me. It reads like a demand that could be met: find out the price, pay it, and it stops. There is no price. For a target there is no such thing as complying, and every request along the way, a secret, a purchase, a drink, a friendship, is a step toward an outcome rather than a payment against it. So the default is to refuse. The more useful question is the one turned around: what do you want, and who can you get it from.",
+    "topics": [
+      "specterati",
+      "directory",
+      "community"
+    ],
+    "number": 494
+  },
+  {
     "slug": "counted-by-what-we-can-do",
     "title": "Counted by what we can do",
     "repo": "chargingthefuture/wiki-site",
