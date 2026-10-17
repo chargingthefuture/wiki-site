@@ -1,6 +1,6 @@
 ---
 title: "The default is no"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks what Targeted Individuals should avoid. Their requests, their fights, their steering, and being left alone with them."
 category: "Community"
 teaser: "A question I saved on Quora asks what Targeted Individuals should avoid. The short answer is anything the people taking part ask of you: the default is no. Most traps are requests, and an invitation inside, a staged fight or a nudge toward a choice that is not yours all work the same way. Avoid labels that cannot be checked, and describe what happened instead. And avoid isolation, which is what every one of those traps is working toward. Other survivors are the way out of it."
