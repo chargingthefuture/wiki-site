@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "assume-the-call-is-heard",
     "title": "Assume the call is heard",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "excerpt": "A saved Quora question asks what percent of a target's calls are rerouted. I have no percentage. I treat every call as heard and choose what goes over it.",
     "category": "Community",
     "collection": "posts",
