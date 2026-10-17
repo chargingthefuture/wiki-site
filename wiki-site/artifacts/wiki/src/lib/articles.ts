@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "knowing-changes-nothing-for-them",
+    "title": "Knowing changes nothing for them",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks what they do once you know. Nothing changes for them, telling them gains nothing, and your attention is better spent elsewhere.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/knowing-changes-nothing-for-them.md",
+    "teaser": "A question I saved on Quora in November 2024 asks what the people doing this do when they find out you know. The question expects a turning point, and there is none. Your knowing was never the thing they were hiding from, and it does not end anything. Telling them gains nothing either: they do not care, a person won over is replaced, and a confrontation is the reaction they were waiting for. What changes is where your own time goes, toward yourself and toward people who do not take part.",
+    "topics": [
+      "specterati",
+      "community",
+      "directory"
+    ],
+    "number": 482
+  },
+  {
     "slug": "help-you-go-and-find",
     "title": "Help you go and find",
     "repo": "chargingthefuture/wiki-site",
