@@ -3535,7 +3535,7 @@ None of this ends the targeting (What can be stopped). It changes who your car, 
 
 The Directory lists survivors by what they can do; being on it costs nobody an account, and anybody can claim their entry or have it taken down. Foundation is where members offer and exchange help: a repair, a ride, a room, an hour of a trade you do not have. SocketRelay is where you post what you need and whoever has it answers.
 
-==================== 2026-10-16 ====================
+==================== 2026-10-17 ====================
 
 you-do-not-have-to-be-important
 
