@@ -39,6 +39,23 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "help-you-go-and-find",
+    "title": "Help you go and find",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "A saved Quora question asks how to find local help and community. Help that is offered nearby is the help to doubt. Help you go and find is different.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/help-you-go-and-find.md",
+    "teaser": "A question I saved on Quora asks where Targeted Individuals can find help, and how to find others nearby. In 2024 I answered under it: do not seek it or take it. The help I had taken once came from somebody who was part of it, and it moved me where people could be placed around me. Local is where they already are. I would still say the same about help that is offered. What has changed is that there is now another kind: help you go and find, from people you picked by what they can do.",
+    "topics": [
+      "community",
+      "directory",
+      "commons"
+    ],
+    "number": 481
+  },
+  {
     "slug": "what-an-account-can-reach",
     "title": "Limit what an account can reach",
     "repo": "chargingthefuture/wiki-site",
