@@ -194,7 +194,7 @@ follows it.
 - [ ] Why do some people believe organized stalking is a government program rather than random harassment — bookmarked
 - [x] Are gang stalkers psychic — bookmarked · saved 2 times
 - [x] Are there any targeted individuals that made it out — bookmarked
-- [ ] What is the truth about targeted individuals — bookmarked · saved 3 times
+- [x] What is the truth about targeted individuals — bookmarked · saved 3 times
 - [x] Why are targeted individuals targeted and destroyed — bookmarked
 - [ ] Why do many people doubt the existence of gang stalking — bookmarked
 - [x] Why is there a lack of awareness about targeted individuals and gangstalking — bookmarked · saved 2 times
