@@ -160,7 +160,7 @@ follows it.
 - [ ] How do gang stalkers manipulate and intimidate their targets What are the power dynamics of organized stalking — bookmarked
 - [ ] How do the tactics of organized stalking reveal the lengths the powerful will go to maintain their control — bookmarked
 - [x] What are some hotel survival tricks for TIs 2 — bookmarked · gangstalkingquestionsandanswers
-- [ ] What covert social engineering tactics are used to manipulate and harass targeted individuals — bookmarked
+- [x] What covert social engineering tactics are used to manipulate and harass targeted individuals — bookmarked
 - [ ] Has anyone found out why the stalkers always try to get you to say your name out loud? For example, in scenarios where your name is not needed. And or after it is said they will repeat it very loud in front of others. — submitted to a space · TARGETED INDIVIDUALS
 - [ ] Good information Very detailed and worth reading — bookmarked · zersetzung
 - [ ] What are the signs that someone has been placed on a gang stalking watch list — bookmarked
