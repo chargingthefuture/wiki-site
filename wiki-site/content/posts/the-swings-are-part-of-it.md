@@ -1,6 +1,6 @@
 ---
 title: "The swings are part of it"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks what being targeted feels like. Less a constant weight than a ride: pressure, quiet, kindness, pressure again, all arranged."
 category: "Community"
 teaser: "A question I saved on Quora asks what being targeted feels like. It is not one steady feeling. It is meant to be felt, and it swings: overt harassment, then a quiet stretch that looks like the end, then the return. Even kindness has to be weighed. The quiet and the return are both part of it, and so is the gesture that asks you to relax. A mood that rises and falls with what they do is a mood they set. Doing better does not end it, and it is still worth doing, measured your way."
