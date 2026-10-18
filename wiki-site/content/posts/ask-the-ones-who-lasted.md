@@ -1,6 +1,6 @@
 ---
 title: "Ask the ones who lasted"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks whether any Targeted Individuals made it out. I know of no exit. I do know people who have lasted decades, and they can be asked."
 category: "Community"
 teaser: "A question I saved on Quora asks whether any Targeted Individuals made it out. I do not know of anybody who got out, and I have not. But there are survivors who have lived with it for thirty years and more, and built lives while it went on. That is a different question with a real answer, and the people who hold it can be found and asked. A target kept apart from them hears only one account of how this ends: the one the people doing it tell."

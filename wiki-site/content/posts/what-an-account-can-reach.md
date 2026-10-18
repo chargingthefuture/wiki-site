@@ -1,6 +1,6 @@
 ---
 title: "Limit what an account can reach"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks if Targeted Individuals can use social media without harassment. Nobody can promise that. What an account reaches can be limited."
 category: "Community"
 teaser: "A question I saved on Quora asks whether Targeted Individuals can use social media without being harassed, and what steps protect them. Nobody can promise a clean feed on a platform somebody else runs: posts get flagged until they are removed, and accounts get emptied. The steps that work limit what the harassment can reach. Steer the feed you are shown, keep your number off public pages, do not answer the bait, and keep your people and your writing somewhere an account deletion cannot touch."
