@@ -1,6 +1,6 @@
 ---
 title: "Your record, not the building's"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks how to get evidence when the staff of your building take part. Not from the building. Keep your own record, quietly."
 category: "Community"
 teaser: "A question I saved on Quora asks how to get evidence of harassment in a community building when the workers take part too. The building's cameras, logs and complaint forms belong to the people doing it, so the evidence has to be your own: audio recorded quietly, a written note made the same day, a dated record nobody else holds. Do not claim a camera you cannot show. Remember what the building is for in their plan: the aim is that you lose the housing, and a reaction is what gets you put out."

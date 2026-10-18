@@ -1,6 +1,6 @@
 ---
 title: "Assume the call is heard"
-date: "2026-10-16"
+date: "2026-10-17"
 excerpt: "A saved Quora question asks what percent of a target's calls are rerouted. I have no percentage. I treat every call as heard and choose what goes over it."
 category: "Community"
 teaser: "A question I saved on Quora asks what percent of a Targeted Individual's calls are rerouted. I have never put a number on it, and I cannot measure it from my end. What I have written is simpler: calls, texts and email are watched all the time, and how much of it reaches you is not yours to control. So the useful question is not how many calls are heard. It is what you say on one, who keeps asking for one, and what you still need from the line at all."
