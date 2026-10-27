@@ -1,6 +1,6 @@
 ---
 title: "Dictionary: Skills Economy Terms"
-date: "2026-10-26"
+date: "2026-10-27"
 excerpt: "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record."
 category: "Resources"
 slug: Dictionary
@@ -15,7 +15,7 @@ This is a living page. It is kept current, and its date moves it to the top of t
 
 ## Latest changes
 
-2026-10-26 — Avenhood and Aven added: the word for the community and the idea, coined on October 19, 2026, and the word for one member.
+2026-10-27 — Avenhood and Aven added: the word for the community and the idea, coined on October 19, 2026, and the word for one member.
 
 2026-10-13 — Exit their economy, exit the psyop. is the mission line, replacing Live, Work, and Prevail. The Skills Economy mark is the logo on every site.
 

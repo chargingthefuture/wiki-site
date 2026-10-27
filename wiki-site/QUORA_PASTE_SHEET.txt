@@ -30,18 +30,18 @@ unverified — but it is still a staging file, and the post remains the record.
 
 
 ==============================================================================
-No. 404 · 2026-08-18 · Dictionary: Skills Economy Terms
-
-One page holds every term this project uses: the product names, the difference between a signed-up member and a recruited one, the Specterati vocabulary, what ServiceCredits are and are not, and the full list of what the app does. It is kept current, and each change is dated at the top.
-
-Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary
-
-==============================================================================
 No. 406 · 2026-08-19 · Old links, new links
 
 Every time an account is erased, every link anyone ever saved to it dies. This page is the standing record: the live handle, the space, every dead handle, and the single address that never changes. If a profile claims to be me and is not on this page, it is not me.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/old-links-new-links
+
+==============================================================================
+No. 404 · 2026-08-18 · Dictionary: Skills Economy Terms
+
+One page holds every term this project uses: the product names, the difference between a signed-up member and a recruited one, the Specterati vocabulary, what ServiceCredits are and are not, and the full list of what the app does. It is kept current, and each change is dated at the top.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary
 
 ==============================================================================
 No. 457 · 2026-10-16 · What they know is not the hold
@@ -3531,7 +3531,7 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 
 ------------------------------------------------------------------------------
 
-UPDATE · 2026-10-26 · Dictionary — Avenhood and Aven added
+UPDATE · 2026-10-27 · Dictionary — Avenhood and Aven added
 
 Two words went into the Dictionary today. Avenhood is a word I coined on October 19: a distributed peoplehood of people connected across borders, trading skills and building lives beyond exploitation, without waiting for the world to become safe first. It names the community and the idea at the same time. An Aven is one member of it.
 
