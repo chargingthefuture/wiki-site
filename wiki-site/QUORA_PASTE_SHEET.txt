@@ -30,6 +30,13 @@ unverified — but it is still a staging file, and the post remains the record.
 
 
 ==============================================================================
+No. 404 · 2026-08-18 · Dictionary: Skills Economy Terms
+
+One page holds every term this project uses: the product names, the difference between a signed-up member and a recruited one, the Specterati vocabulary, what ServiceCredits are and are not, and the full list of what the app does. It is kept current, and each change is dated at the top.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary
+
+==============================================================================
 No. 406 · 2026-08-19 · Old links, new links
 
 Every time an account is erased, every link anyone ever saved to it dies. This page is the standing record: the live handle, the space, every dead handle, and the single address that never changes. If a profile claims to be me and is not on this page, it is not me.
@@ -161,13 +168,6 @@ No. 440 · 2026-10-13 · See who could help you, before you make an account
 chargingthefuture.com now answers a question before it asks you for anything. Pick what you need, such as a job, food, housing, a ride or somebody to talk to, and it counts how many people listed in the Skills Economy Directory hold the skills for it. You give no account, no name and no email address. A 10-character code lets you come back later and see how many match you now. When a need matches nobody, the page notes the need, and nothing about you, and I go looking for people who can fill it. Names, locations and a way to reach somebody stay behind a free account and a check, or a $7 introduction through One Percent. The app itself is unchanged, and the blog has a new design.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/see-who-could-help-without-an-account
-
-==============================================================================
-No. 404 · 2026-08-18 · Dictionary: Skills Economy Terms
-
-One page holds every term this project uses: the product names, the difference between a signed-up member and a recruited one, the Specterati vocabulary, what ServiceCredits are and are not, and the full list of what the app does. It is kept current, and each change is dated at the top.
-
-Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary
 
 ==============================================================================
 No. 439 · 2026-10-12 · Counted by skills, not job titles
@@ -3512,6 +3512,16 @@ Reading it takes no account. Anyone who lands on a post can read every comment u
 Writing takes an account, and what somebody writes becomes publicly visible once they are approved. Approval reaches backwards: the moment I approve a person, everything they have already written appears at once.
 
 The reason for building it is plain enough. Comments on Quora cannot be searched and cannot be bookmarked, and when an account goes, its comments go with it. Mine have gone eleven times. A comment left under a post on my own site stays where the post is, and anybody can find it later.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary
+
+------------------------------------------------------------------------------
+
+UPDATE · 2026-10-26 · Dictionary — Avenhood and Aven added
+
+Two words went into the Dictionary today. Avenhood is a word I coined on October 19: a distributed peoplehood of people connected across borders, trading skills and building lives beyond exploitation, without waiting for the world to become safe first. It names the community and the idea at the same time. An Aven is one member of it.
+
+The new version of the app opens on a screen called Today in the Avenhood, and tapping the word there shows the same definition, so the app and the blog say one thing.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary
 
