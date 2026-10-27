@@ -1,6 +1,6 @@
 ---
 title: "Dictionary: Skills Economy Terms"
-date: "2026-10-13"
+date: "2026-10-27"
 excerpt: "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record."
 category: "Resources"
 slug: Dictionary
@@ -14,6 +14,8 @@ topics:
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
 ## Latest changes
+
+2026-10-27 — Avenhood and Aven added: the word for the community and the idea, coined on October 19, 2026, and the word for one member.
 
 2026-10-13 — Exit their economy, exit the psyop. is the mission line, replacing Live, Work, and Prevail. The Skills Economy mark is the logo on every site.
 
@@ -58,6 +60,10 @@ Targeted Individual (TI) — the term many survivors use for themselves and sear
 Psyop-Free Economy — the positioning phrase for the goal: economic participation outside Specterati influence.
 
 Exit their economy, exit the psyop. — the mission line, since October 13, 2026. It replaced Live, Work, and Prevail, which posts written before then still carry.
+
+Avenhood — a distributed peoplehood of people connected across borders, trading skills and building lives beyond exploitation—without waiting for the world to become safe first. A word coined on October 19, 2026. It names the community and the idea at once: "the Avenhood". The home screen of the new version of the app is titled Today in the Avenhood, and tapping the word shows this definition.
+
+Aven — one member of the Avenhood. Plural Avens.
 
 ## Counting people (this is not a typical app)
 
