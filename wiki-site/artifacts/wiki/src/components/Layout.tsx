@@ -34,10 +34,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
               <Link href="/record" className="font-heading font-bold text-lg uppercase hover:text-primary transition-colors">
                 The Record
               </Link>
-              <a href="https://chargingthefuture.com" target="_blank" rel="noopener noreferrer" className="font-heading font-bold text-lg uppercase hover:text-primary transition-colors">
+              <a href="https://lagatos.com" target="_blank" rel="noopener noreferrer" className="font-heading font-bold text-lg uppercase hover:text-primary transition-colors">
                 About
               </a>
-              <Button onClick={() => window.location.href = "https://app.chargingthefuture.com"} variant="primary">
+              <Button onClick={() => window.location.href = "https://app.lagatos.com"} variant="primary">
                 Join The App
               </Button>
               <ThemeToggle />
@@ -65,10 +65,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <Link href="/record" onClick={() => setIsMenuOpen(false)} className="font-heading font-bold text-xl uppercase block p-2 border-b-2 border-border">
               The Record
             </Link>
-            <a href="https://chargingthefuture.com" target="_blank" rel="noopener noreferrer" className="font-heading font-bold text-xl uppercase block p-2 border-b border-border">
+            <a href="https://lagatos.com" target="_blank" rel="noopener noreferrer" className="font-heading font-bold text-xl uppercase block p-2 border-b border-border">
               About Platform
             </a>
-            <Button className="w-full mt-4" onClick={() => window.location.href = "https://app.chargingthefuture.com"}>
+            <Button className="w-full mt-4" onClick={() => window.location.href = "https://app.lagatos.com"}>
               Join The App
             </Button>
             <div className="mt-2">
@@ -112,7 +112,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                     path on Pages. A reader that already has a feed app takes this in
                     one press; anybody else can ignore it. */}
                 <li><a href={`${import.meta.env.BASE_URL}feed.xml`} className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> Follow by RSS</a></li>
-                <li><a href="https://chargingthefuture.com" target="_blank" rel="noopener noreferrer" className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> Main Site</a></li>
+                <li><a href="https://lagatos.com" target="_blank" rel="noopener noreferrer" className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> Main Site</a></li>
                 <li><a href="https://github.com/chargingthefuture/wiki-site" target="_blank" rel="noopener noreferrer" className="hover:text-white text-gray-400 transition-colors flex items-center gap-2"><span className="text-primary">▸</span> Source &amp; History (GitHub)</a></li>
               </ul>
             </div>
@@ -122,7 +122,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
               <p className="text-gray-400 mb-6 font-sans">
                 Ready to exit their economy and exit the psyop?
               </p>
-              <Button onClick={() => window.location.href = "https://chargingthefuture.com"} variant="accent" className="w-full">
+              <Button onClick={() => window.location.href = "https://lagatos.com"} variant="accent" className="w-full">
                 Sign up, free
               </Button>
             </div>
