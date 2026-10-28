@@ -15,6 +15,8 @@ This is a living page. It is kept current, and its date moves it to the top of t
 
 ## Latest changes
 
+2026-10-27 — Contributions takes Amazon gift cards only, all year: no drives, no Quora comments or GitHub stars, and the code is entered in the app instead of sent over Signal.
+
 2026-10-27 — Avenhood and Aven added: the word for the community and the idea, coined on October 19, 2026, and the word for one member.
 
 2026-10-13 — Exit their economy, exit the psyop. is the mission line, replacing Live, Work, and Prevail. The Skills Economy mark is the logo on every site.
@@ -159,7 +161,7 @@ DEW — Directed Energy Weapon.
 | [Mood](https://app.chargingthefuture.com/apps/mood) | Anonymous mood tracking and pattern awareness | [guide](https://app.chargingthefuture.com/guide#mood) |
 | [WhatWorks](https://app.chargingthefuture.com/apps/what-works) | One shared, survivor-verified list of tools, organized by problem | [guide](https://app.chargingthefuture.com/guide#what-works) |
 | [Knowledge Library](https://app.chargingthefuture.com/knowledge) | Lend your own public writing so the assistant answers from more than one voice | [guide](https://app.chargingthefuture.com/guide#knowledge) |
-| [Contributions](https://app.chargingthefuture.com/apps/contributions) | Voluntary fundraiser drives with credit thank-you grants | [guide](https://app.chargingthefuture.com/guide#contributions) |
+| [Contributions](https://app.chargingthefuture.com/apps/contributions) | An Amazon gift card toward hosting, any time of year, with a ServiceCredits thank-you | [guide](https://app.chargingthefuture.com/guide#contributions) |
 | [Recurring Activity](https://app.chargingthefuture.com/apps/recurring-activity) | One-tap acknowledgment of an ongoing tie with another member — never a bill | [guide](https://app.chargingthefuture.com/guide#recurring-activity) |
 | [Fireside](https://app.chargingthefuture.com/apps/fireside) | Threaded conversation under the posts on the blog; read it without an account, write with one | [guide](https://app.chargingthefuture.com/guide#fireside) |
 | [Reader](https://app.chargingthefuture.com/apps/reader) | An RSS feed reader on a server the project pays for; sign in with this account, and your subscriptions are yours alone | [guide](https://app.chargingthefuture.com/guide#reader) |
