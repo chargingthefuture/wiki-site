@@ -21,7 +21,7 @@ import { exportedCommentsFor, type ExportedComment } from "@/lib/fireside-export
 // This must never break the page it sits under. The app being unreachable, slow, or mid-deploy ends
 // with a quiet line and the post still reads normally.
 
-const APP_URL = "https://app.chargingthefuture.com";
+const APP_URL = "https://app.lagatos.com";
 
 type Comment = {
   id: string;
