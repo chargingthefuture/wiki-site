@@ -30,7 +30,7 @@ unverified — but it is still a staging file, and the post remains the record.
 
 
 ==============================================================================
-No. 0 · 2026-11-02 · TI Radio: how to listen without an account
+No. 539 · 2026-11-02 · TI Radio: how to listen without an account
 
 You can listen to every live show on TI Radio without an account. The guide lays out seven days of 90-minute slots in your own timezone, with who is hosting and what each show is about, and the slot happening now is marked On air. Nobody asks you to sign in or join anything to read it. The shows happen in Chyme, where anybody can sit in the audience and signing in is only what lets you speak. When nobody is live, Chyme plays recorded readings of this blog's posts, oldest first, and every listener hears the same point at once. Live rooms are not recorded by default, but Beacon broadcasts are, and they play on the blog's streams page.
 

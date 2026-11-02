@@ -39,6 +39,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "ti-radio-how-to-listen",
+    "title": "TI Radio: how to listen without an account",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-11-02",
+    "excerpt": "Find a show on the TI Radio guide, listen in Chyme without signing in, and hear recorded readings of this blog when nobody is live.",
+    "category": "Product",
+    "collection": "posts",
+    "path": "posts/ti-radio-how-to-listen.md",
+    "teaser": "You do not need an account to listen to anything on TI Radio. The guide shows a week of 90-minute slots in your own timezone, with who is hosting and what it is about, and the slot happening now is marked On air. The shows happen in Chyme, where anybody can listen and signing in is only what lets you speak. When nobody is live, Chyme plays recorded readings of posts from this blog, oldest first, and everybody listening hears the same point at the same time.",
+    "topics": [
+      "product",
+      "community"
+    ],
+    "number": 539
+  },
+  {
     "slug": "ti-radio-your-own-show",
     "title": "TI Radio: put your own show on it",
     "repo": "chargingthefuture/wiki-site",
