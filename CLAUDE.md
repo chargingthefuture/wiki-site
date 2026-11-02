@@ -103,6 +103,17 @@ carries it, because the owner froze that page outright and that freeze has not b
   feed. If the feed does not answer, the row is that last card alone: never an error, and never a
   wait on the page. The landing page reads the same feed. Nothing in the row moves on its own
   (owner decision, 2026-09-19).
+- Old links, new links updates (owner request, 2026-11-02): the workflow "Old links — record a
+  ban or a new handle" (`.github/workflows/old-links-update.yml`, run from the GitHub app under
+  Actions) takes the ban time, the new handle and its opening time exactly as the Quora emails
+  show them, and runs `scripts/src/old-links-update.ts`: the dead-list entry with how long the
+  handle lasted, the counts, every sentence naming the open handle, the page date, and an update
+  paste, which it also prints in the run summary. Then it syncs, checks, builds, and pushes to
+  `docs/old-links-update`, one branch and one pull request until it merges. A pull request it
+  opens does not start Validate & Build, which is why it runs those checks itself. If the
+  repository does not let Actions open pull requests, the run's warning links the compare page.
+  The sentences it writes depend on the page's wording; a reworded sentence makes the run stop
+  and name it rather than guess.
 - Collected YouTube channels are not here. They live in `chargingthefuture/rss-feeds`, with the
   collector, the feed builder, the workflows and a disclaimer of their own (owner decision,
   2026-09-24): a collected channel under the blog's namespace reads as a statement about that
@@ -159,6 +170,7 @@ carries it, because the owner froze that page outright and that freeze has not b
 | `pnpm wiki:paste-tts` | Regenerate the text-to-speech paste sheet `TTS_PASTE_SHEET.txt` |
 | `pnpm wiki:readings` | Regenerate the recorded-readings list at `artifacts/wiki/public/readings.json` (both build scripts run this) |
 | `pnpm wiki:pb2` | Regenerate the Peace Battle 2 share messages at `artifacts/wiki/public/pb2-messages.json` (both build scripts run this) |
+| `pnpm wiki:old-links apply --banned TIME` / `--handle URL --opened TIME` | Record a Quora ban and/or a new handle on `old-links-new-links.md`, with its update paste; then `wiki:sync`, `wiki:old-links place`, the full and TTS sheets |
 | `pnpm wiki:sync:dry` | Preview sync changes |
 | `pnpm fireside:sync` | Copy the Fireside comments the app has cleared for publication into `artifacts/wiki/src/lib/fireside-exports.ts` |
 | `pnpm fireside:sync:dry` | Preview that copy without writing |
