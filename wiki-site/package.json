@@ -26,6 +26,7 @@
     "wiki:paste-full": "pnpm --filter @workspace/scripts run paste-sheet-full",
     "wiki:paste-tts": "pnpm --filter @workspace/scripts run paste-sheet-tts",
     "wiki:check-numbers": "pnpm --filter @workspace/scripts run check-paste-sheet-numbers",
+    "wiki:old-links": "pnpm --filter @workspace/scripts run old-links-update",
     "counter:dev": "PORT=5050 COUNTER_DB_PATH=./counter.sqlite COUNTER_ALLOWED_ORIGINS=http://localhost:5000 pnpm --filter @workspace/api-server run dev",
     "counter:build": "pnpm --filter @workspace/api-server run build"
   },
