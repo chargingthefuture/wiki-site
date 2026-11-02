@@ -80,7 +80,7 @@ carries it, because the owner froze that page outright and that freeze has not b
 - CI (no publish): `.github/workflows/wiki-validate.yml` on `main` pushes and PRs.
 - Weekly product updates are committed into `content/product-updates/` by `generate-product-update.yml` in the product repo.
 - Distribution posture: platforms (Quora etc.) receive excerpt + image + canonical link only; nothing is authored there. See `wiki-site/PUBLISHING.md`.
-- Design (owner decision, 2026-10-14): one design across the project's sites, one color per site. farahbrunache.com is forest green, chargingthefuture.com burgundy, and this blog black and white with coral as its only color. Newsreader for titles, DM Sans for the rest, both self-hosted. Light or dark follows the phone until the reader picks one in the header. The tokens are at the top of `artifacts/wiki/src/index.css`; Tailwind's white, black and gray shades are mapped to them, so `text-white` means the strongest text in either theme. The comic style (Bangers, Oswald, halftone, hard shadows) is retired.
+- Design (owner decision, 2026-10-14): one design across the project's sites, one color per site. farahbrunache.com is forest green, lagatos.com burgundy, and this blog black and white with coral as its only color. Newsreader for titles, DM Sans for the rest, both self-hosted. Light or dark follows the phone until the reader picks one in the header. The tokens are at the top of `artifacts/wiki/src/index.css`; Tailwind's white, black and gray shades are mapped to them, so `text-white` means the strongest text in either theme. The comic style (Bangers, Oswald, halftone, hard shadows) is retired.
 - RSS: `artifacts/wiki/public/feed.xml`, generated from the same front matter `wiki:sync` reads, by
   `scripts/src/build-feed.ts`. Newest 50 listed items across every collection, matching the site's
   own `/feed` page. Each item carries the post itself in `content:encoded`, not a teaser — a feed
@@ -95,7 +95,7 @@ carries it, because the owner froze that page outright and that freeze has not b
   the `/feed` page showed the raw RSS file. `wiki:build:pages` copies `index.html` to `feed.html`
   for that reason; any new route whose name matches a file in `public/` needs the same copy.
 - Invite cards: the row of cards (`InviteStrip.tsx`) at the top of `/feed` and under the home
-  hero reads the app's public feed, `https://app.chargingthefuture.com/api/directory/invites/public`,
+  hero reads the app's public feed, `https://app.lagatos.com/api/directory/invites/public`,
   in the browser after the page loads, so nothing is built for it here. It shows the newest ten
   invitations, the published blog posts and the ones written in the app alike, each
   with its name, opening words and date and each linking to its page in the app. A last card leads
@@ -103,6 +103,17 @@ carries it, because the owner froze that page outright and that freeze has not b
   feed. If the feed does not answer, the row is that last card alone: never an error, and never a
   wait on the page. The landing page reads the same feed. Nothing in the row moves on its own
   (owner decision, 2026-09-19).
+- Old links, new links updates (owner request, 2026-11-02): the workflow "Old links — record a
+  ban or a new handle" (`.github/workflows/old-links-update.yml`, run from the GitHub app under
+  Actions) takes the ban time, the new handle and its opening time exactly as the Quora emails
+  show them, and runs `scripts/src/old-links-update.ts`: the dead-list entry with how long the
+  handle lasted, the counts, every sentence naming the open handle, the page date, and an update
+  paste, which it also prints in the run summary. Then it syncs, checks, builds, and pushes to
+  `docs/old-links-update`, one branch and one pull request until it merges. A pull request it
+  opens does not start Validate & Build, which is why it runs those checks itself. If the
+  repository does not let Actions open pull requests, the run's warning links the compare page.
+  The sentences it writes depend on the page's wording; a reworded sentence makes the run stop
+  and name it rather than guess.
 - Collected YouTube channels are not here. They live in `chargingthefuture/rss-feeds`, with the
   collector, the feed builder, the workflows and a disclaimer of their own (owner decision,
   2026-09-24): a collected channel under the blog's namespace reads as a statement about that
@@ -121,7 +132,7 @@ carries it, because the owner froze that page outright and that freeze has not b
   (owner decision, 2026-09-29). Build output like the feed: gitignored, never hand-edited.
 - Recorded broadcasts: `/streams` (`src/pages/Streams.tsx`) lists every recorded live broadcast
   from the app, newest first, paged, with a player for each that needs no account. It reads
-  `https://app.chargingthefuture.com/api/beacon/replays?page=` in the browser rather than at build,
+  `https://app.lagatos.com/api/beacon/replays?page=` in the browser rather than at build,
   so a replay appears the moment its recording is ready. The podcast feed for the same recordings is
   served by the app at `/api/beacon/replays/feed`, not built here, for the same reason; `index.html`
   carries an autodiscovery link to it. The players point at the app's recording address, which
@@ -147,6 +158,14 @@ carries it, because the owner froze that page outright and that freeze has not b
   where storage is refused everybody falls back to one shared order, the lesser of the two
   failures.
 
+- Posts for the app's Daily Posts screen: `artifacts/wiki/public/posts.json`, written by
+  `scripts/src/build-posts-json.ts` on `wiki:posts-json`, which both build scripts run. Every
+  listed post in `posts/` and `archive/quora/` with its `/feed` number, title, address and full
+  text in the full paste sheet's plain-text form; invite posts are left out. The app's admin
+  screen reads it to offer posts in a 30-day rotation and in theme groups (owner request,
+  2026-11-02). Nothing on the site links to it. Build output like the feed: gitignored, never
+  hand-edited.
+
 ## Commands (run from `wiki-site/`)
 
 | Command | Action |
@@ -158,7 +177,9 @@ carries it, because the owner froze that page outright and that freeze has not b
 | `pnpm wiki:feed` | Regenerate the RSS feed at `artifacts/wiki/public/feed.xml` (both build scripts run this) |
 | `pnpm wiki:paste-tts` | Regenerate the text-to-speech paste sheet `TTS_PASTE_SHEET.txt` |
 | `pnpm wiki:readings` | Regenerate the recorded-readings list at `artifacts/wiki/public/readings.json` (both build scripts run this) |
+| `pnpm wiki:posts-json` | Regenerate the Daily Posts list at `artifacts/wiki/public/posts.json` (both build scripts run this) |
 | `pnpm wiki:pb2` | Regenerate the Peace Battle 2 share messages at `artifacts/wiki/public/pb2-messages.json` (both build scripts run this) |
+| `pnpm wiki:old-links apply --banned TIME` / `--handle URL --opened TIME` | Record a Quora ban and/or a new handle on `old-links-new-links.md`, with its update paste; then `wiki:sync`, `wiki:old-links place`, the full and TTS sheets |
 | `pnpm wiki:sync:dry` | Preview sync changes |
 | `pnpm fireside:sync` | Copy the Fireside comments the app has cleared for publication into `artifacts/wiki/src/lib/fireside-exports.ts` |
 | `pnpm fireside:sync:dry` | Preview that copy without writing |
@@ -173,7 +194,7 @@ Full operator runbook: [wiki-site/PUBLISHING.md](wiki-site/PUBLISHING.md).
 Fireside is the conversation under each post. Reading it needs no account; writing happens in the
 app. The section renders from two sources and the difference matters.
 
-The live read from `app.chargingthefuture.com` shows the full conversation and is what most
+The live read from `app.lagatos.com` shows the full conversation and is what most
 readers see. It is fetched after the page loads, so it is not in the published build and not in
 what a web archive captures.
 
@@ -741,7 +762,7 @@ Every such post ends with this section, placed immediately before the sign-up bl
 ```
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
 ```
 
 One list item per part, in the order the post raises them. Link the part even when the post only
@@ -752,10 +773,10 @@ URLs:
 
 | Part | Address |
 |---|---|
-| Most plugins | `https://app.chargingthefuture.com/apps/<slug>` |
-| Knowledge Library | `https://app.chargingthefuture.com/knowledge` |
-| Unlock | `https://app.chargingthefuture.com/plugin/unlock` |
-| Commons (the group chat) | `https://app.chargingthefuture.com` |
+| Most plugins | `https://app.lagatos.com/apps/<slug>` |
+| Knowledge Library | `https://app.lagatos.com/knowledge` |
+| Unlock | `https://app.lagatos.com/plugin/unlock` |
+| Commons (the group chat) | `https://app.lagatos.com` |
 
 Every part has a guide section as of 2026-09-23 — all twenty-eight: beacon, bug-reporting, chyme,
 click-log, commons, contributions, directory, fireside, foundation, gdp, knowledge, skill-up,
@@ -777,7 +798,7 @@ only living pages bump their date. The one page that stays untouched is the mani
 
 Readers ask where to sign up; consumer apps need it explicit. Every post that invites participation ends with this exact block, verbatim, as the final paragraph — once per post, never in the body, never varied:
 
-> To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+> To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
 The landing page, not the direct app URL: it explains before asking, and it still works (waitlist) when the app is offline. The sameness is the anti-salesy mechanism — a fixed block reads as documentation, a varied pitch reads as pressure. Archive entries, reference pages, and product updates do not carry it.
 

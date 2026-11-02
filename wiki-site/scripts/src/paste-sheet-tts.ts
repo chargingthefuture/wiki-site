@@ -53,8 +53,8 @@ const RERECORD_FILE = join(WIKI_ROOT, 'content/audio/rerecord.yaml');
 const INVITE_TITLE = /^An invitation to\s+/i;
 const WHERE_TO_FIND = /^##\s+Where to find it in the app\s*$/im;
 const SIGN_UP = /^>?\s*To sign up: https:\/\/chargingthefuture\.com\..*$/m;
-// Any address: with https://, or written without it but with a path (app.chargingthefuture.com/apps/
-// fireside). A bare site name (chargingthefuture.com) or an email address is not one: short, and the
+// Any address: with https://, or written without it but with a path (app.lagatos.com/apps/
+// fireside). A bare site name (lagatos.com) or an email address is not one: short, and the
 // sentence needs it.
 const ADDRESS = /https?:\/\/[^\s)\]]+|\b(?:[a-z0-9-]+\.)+[a-z]{2,}\/[^\s"')]*/gi;
 const HAS_ADDRESS = /https?:\/\/[^\s)\]]+|\b(?:[a-z0-9-]+\.)+[a-z]{2,}\/[^\s"')]*/i;

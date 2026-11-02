@@ -587,6 +587,13 @@ Every time an account is erased, every link anyone ever saved to it dies. This p
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/old-links-new-links
 
 ==============================================================================
+No. 404 · 2026-08-18 · Dictionary: Skills Economy Terms
+
+One page holds every term this project uses: the product names, the difference between a signed-up member and a recruited one, the Specterati vocabulary, what ServiceCredits are and are not, and the full list of what the app does. It is kept current, and each change is dated at the top.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary
+
+==============================================================================
 No. 457 · 2026-10-16 · What they know is not the hold
 
 Marcus Jackson asked on Quora how a Targeted Individual gets away from the harassment when the people doing it already hold their name, Social Security number and birth date. I have no escape to offer. I have crossed borders and it traveled with me, and a name, once on the list, stays there. What I can say is that knowing things about a person is not the same as having a hold on them. The hold comes from dependence: a job that runs through somebody who can be reached, a room rented from somebody who can be reached, a ride from somebody given a reason to make it go badly. Those can be moved to other survivors one at a time, and a dated log you keep yourself means their picture of you is not the only account of your life.
@@ -711,13 +718,6 @@ No. 440 · 2026-10-13 · See who could help you, before you make an account
 chargingthefuture.com now answers a question before it asks you for anything. Pick what you need, such as a job, food, housing, a ride or somebody to talk to, and it counts how many people listed in the Skills Economy Directory hold the skills for it. You give no account, no name and no email address. A 10-character code lets you come back later and see how many match you now. When a need matches nobody, the page notes the need, and nothing about you, and I go looking for people who can fill it. Names, locations and a way to reach somebody stay behind a free account and a check, or a $7 introduction through One Percent. The app itself is unchanged, and the blog has a new design.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/see-who-could-help-without-an-account
-
-==============================================================================
-No. 404 · 2026-08-18 · Dictionary: Skills Economy Terms
-
-One page holds every term this project uses: the product names, the difference between a signed-up member and a recruited one, the Specterati vocabulary, what ServiceCredits are and are not, and the full list of what the app does. It is kept current, and each change is dated at the top.
-
-Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary
 
 ==============================================================================
 No. 439 · 2026-10-12 · Counted by skills, not job titles
@@ -3787,6 +3787,34 @@ Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargin
 UPDATE PASTES
 ==============================================================================
 
+UPDATE · 2026-11-01 · Old links, new links — the handle open now is Kingishere-14
+
+Kingishere-13 is gone, the seventy-sixth account Quora has erased and the eighteenth since October 1. It opened at 4:30 in the morning on October 25, and Quora Moderation banned it at 4:39 in the morning on October 27, just over forty-eight hours later.
+
+The handle open now is https://www.quora.com/profile/Kingishere-14, opened at 9:34 in the morning on October 27. It is my only account on Quora. If another profile carries my name and is not on the standing record, it is not me.
+
+The space is where it was: https://skillseconomy.quora.com
+
+Nothing Quora removes is the only copy. Every post is on the blog first, and its feed carries all of them: https://chargingthefuture.github.io/chargingthefuture/feed.xml
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/old-links-new-links
+
+------------------------------------------------------------------------------
+
+UPDATE · 2026-10-27 · Old links, new links — the handle open now is Kingishere-13
+
+Five more handles are gone since October 17: Kingishere-8, Kingishere-9, Kingishere-10, Kingishere-11 and Kingishere-12. That makes seventy-five accounts Quora has erased, seventeen of them since October 1. Kingishere-9 lasted twenty-six minutes. Three of the others lasted about forty hours each, and four of the five bans landed between 4:13 and 4:47 in the morning.
+
+The handle open now is https://www.quora.com/profile/Kingishere-13, opened at 4:30 in the morning on October 25. It is my only account on Quora. If another profile carries my name and is not on the standing record, it is not me.
+
+The space is where it was: https://skillseconomy.quora.com
+
+Nothing Quora removed was the only copy. Every post is on the blog first, and its feed carries all of them: https://chargingthefuture.github.io/chargingthefuture/feed.xml
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/old-links-new-links
+
+------------------------------------------------------------------------------
+
 UPDATE · 2026-10-17 · Old links, new links — the handle open now is Kingishere-8
 
 Kingishere-7 is gone. Quora Moderation banned it at 9:17 in the morning on October 17, a little over two days after it opened, which makes seventy accounts erased, twelve of them since October 1.
@@ -4062,6 +4090,16 @@ Reading it takes no account. Anyone who lands on a post can read every comment u
 Writing takes an account, and what somebody writes becomes publicly visible once they are approved. Approval reaches backwards: the moment I approve a person, everything they have already written appears at once.
 
 The reason for building it is plain enough. Comments on Quora cannot be searched and cannot be bookmarked, and when an account goes, its comments go with it. Mine have gone eleven times. A comment left under a post on my own site stays where the post is, and anybody can find it later.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary
+
+------------------------------------------------------------------------------
+
+UPDATE · 2026-10-27 · Dictionary — Avenhood and Aven added
+
+Two words went into the Dictionary today. Avenhood is a word I coined on October 19: a distributed peoplehood of people connected across borders, trading skills and building lives beyond exploitation, without waiting for the world to become safe first. It names the community and the idea at the same time. An Aven is one member of it.
+
+The new version of the app opens on a screen called Today in the Avenhood, and tapping the word there shows the same definition, so the app and the blog say one thing.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary
 
