@@ -158,6 +158,14 @@ carries it, because the owner froze that page outright and that freeze has not b
   where storage is refused everybody falls back to one shared order, the lesser of the two
   failures.
 
+- Posts for the app's Daily Posts screen: `artifacts/wiki/public/posts.json`, written by
+  `scripts/src/build-posts-json.ts` on `wiki:posts-json`, which both build scripts run. Every
+  listed post in `posts/` and `archive/quora/` with its `/feed` number, title, address and full
+  text in the full paste sheet's plain-text form; invite posts are left out. The app's admin
+  screen reads it to offer posts in a 30-day rotation and in theme groups (owner request,
+  2026-11-02). Nothing on the site links to it. Build output like the feed: gitignored, never
+  hand-edited.
+
 ## Commands (run from `wiki-site/`)
 
 | Command | Action |
@@ -169,6 +177,7 @@ carries it, because the owner froze that page outright and that freeze has not b
 | `pnpm wiki:feed` | Regenerate the RSS feed at `artifacts/wiki/public/feed.xml` (both build scripts run this) |
 | `pnpm wiki:paste-tts` | Regenerate the text-to-speech paste sheet `TTS_PASTE_SHEET.txt` |
 | `pnpm wiki:readings` | Regenerate the recorded-readings list at `artifacts/wiki/public/readings.json` (both build scripts run this) |
+| `pnpm wiki:posts-json` | Regenerate the Daily Posts list at `artifacts/wiki/public/posts.json` (both build scripts run this) |
 | `pnpm wiki:pb2` | Regenerate the Peace Battle 2 share messages at `artifacts/wiki/public/pb2-messages.json` (both build scripts run this) |
 | `pnpm wiki:old-links apply --banned TIME` / `--handle URL --opened TIME` | Record a Quora ban and/or a new handle on `old-links-new-links.md`, with its update paste; then `wiki:sync`, `wiki:old-links place`, the full and TTS sheets |
 | `pnpm wiki:sync:dry` | Preview sync changes |
