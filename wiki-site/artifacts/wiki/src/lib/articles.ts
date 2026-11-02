@@ -39,6 +39,54 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "ti-radio-your-own-show",
+    "title": "TI Radio: put your own show on it",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-11-02",
+    "excerpt": "Sing, play, read, talk or interview somebody. TI Radio has 90-minute slots any hour of the week, and nobody approves what goes in them.",
+    "category": "Product",
+    "collection": "posts",
+    "path": "posts/ti-radio-your-own-show.md",
+    "teaser": "TI Radio is a week of 90-minute slots, sixteen a day, and the rows are empty until somebody takes one. A slot can hold a set of songs, a poetry reading, a talk show or an interview. Nobody approves the topic and there is no queue. You press an open row, write what it is about, and your handle and subject appear on the guide for everyone, including people who never sign in. You can hold three slots in any 24 hours.",
+    "topics": [
+      "product",
+      "community"
+    ],
+    "number": 538
+  },
+  {
+    "slug": "old-links-new-links",
+    "title": "Old links, new links",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-11-01",
+    "excerpt": "Seventy-six accounts erased, eighteen of them since October 1, and Kingishere-14 is the handle open now. What is live, what is dead, and the one address that never changes.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/old-links-new-links.md",
+    "teaser": "Quora has erased my accounts seventy-six times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Eighteen of those came after October 1. The latest ban landed at 4:39 in the morning on October 27, and the handle now open was opened five hours later. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
+    "topics": [
+      "publishing",
+      "platform-independence"
+    ],
+    "number": 406
+  },
+  {
+    "slug": "Dictionary",
+    "title": "Dictionary: Skills Economy Terms",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-10-27",
+    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
+    "category": "Resources",
+    "collection": "posts",
+    "path": "posts/Dictionary.md",
+    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
+    "topics": [
+      "reference",
+      "terms"
+    ],
+    "number": 404
+  },
+  {
     "slug": "a-list-kept-in-what-people-say",
     "title": "A list kept in what people say",
     "repo": "chargingthefuture/wiki-site",
@@ -1393,38 +1441,6 @@ export const ARTICLES: ArticleMeta[] = [
       "community"
     ],
     "number": 458
-  },
-  {
-    "slug": "old-links-new-links",
-    "title": "Old links, new links",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-11-01",
-    "excerpt": "Seventy-six accounts erased, eighteen of them since October 1, and Kingishere-14 is the handle open now. What is live, what is dead, and the one address that never changes.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/old-links-new-links.md",
-    "teaser": "Quora has erased my accounts seventy-six times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Eighteen of those came after October 1. The latest ban landed at 4:39 in the morning on October 27, and the handle now open was opened five hours later. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
-    "topics": [
-      "publishing",
-      "platform-independence"
-    ],
-    "number": 406
-  },
-  {
-    "slug": "Dictionary",
-    "title": "Dictionary: Skills Economy Terms",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-10-27",
-    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
-    "category": "Resources",
-    "collection": "posts",
-    "path": "posts/Dictionary.md",
-    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
-    "topics": [
-      "reference",
-      "terms"
-    ],
-    "number": 404
   },
   {
     "slug": "what-they-know-is-not-the-hold",

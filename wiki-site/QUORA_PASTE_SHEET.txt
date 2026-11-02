@@ -30,11 +30,25 @@ unverified — but it is still a staging file, and the post remains the record.
 
 
 ==============================================================================
-No. 0 · 2026-11-02 · TI Radio: put your own show on it
+No. 538 · 2026-11-02 · TI Radio: put your own show on it
 
 TI Radio is a week of live audio shows that survivors host, and the slots stay empty until somebody takes one. That is the invitation: if you sing, play an instrument, write poems, or want to run a talk show or interview somebody about what they can do, there is a 90-minute slot for it at any hour, sixteen a day, seven days ahead, shown in each reader's own timezone. You press an open row and write what the show is about. Nobody approves the topic and there is no queue. You can hold three slots in any 24 hours and give one back any time before it starts. The show happens in Chyme, where you can run your own stage. Hosting needs an approved account; listening needs none.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/ti-radio-your-own-show
+
+==============================================================================
+No. 406 · 2026-08-19 · Old links, new links
+
+Every time an account is erased, every link anyone ever saved to it dies. This page is the standing record: the live handle, the space, every dead handle, and the single address that never changes. If a profile claims to be me and is not on this page, it is not me.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/old-links-new-links
+
+==============================================================================
+No. 404 · 2026-08-18 · Dictionary: Skills Economy Terms
+
+One page holds every term this project uses: the product names, the difference between a signed-up member and a recruited one, the Specterati vocabulary, what ServiceCredits are and are not, and the full list of what the app does. It is kept current, and each change is dated at the top.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary
 
 ==============================================================================
 No. 537 · 2026-10-17 · A list kept in what people say
@@ -585,20 +599,6 @@ No. 458 · 2026-10-17 · The hint is meant to be noticed
 
 Somebody on Quora asked how subtle hints are used to control Targeted Individuals and what that does to their lives. A hint is not a mistake on their side. It is made to be caught: strangers repeating words from a private conversation, clothes copied, a pointed "have a good day" after a day that was arranged to go badly. Its grip comes from the reading. Each one is a puzzle about who knew and what comes next, and the time spent solving it is time handed over. Over months it trains a person to react to the smallest things, and a reaction that looks too big to somebody who missed the hint becomes the story told about them. You cannot stop noticing, and you should not try. You can log each one with a date in a few seconds and stop holding it.
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-hint-is-meant-to-be-noticed
-
-==============================================================================
-No. 406 · 2026-08-19 · Old links, new links
-
-Every time an account is erased, every link anyone ever saved to it dies. This page is the standing record: the live handle, the space, every dead handle, and the single address that never changes. If a profile claims to be me and is not on this page, it is not me.
-
-Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/old-links-new-links
-
-==============================================================================
-No. 404 · 2026-08-18 · Dictionary: Skills Economy Terms
-
-One page holds every term this project uses: the product names, the difference between a signed-up member and a recruited one, the Specterati vocabulary, what ServiceCredits are and are not, and the full list of what the app does. It is kept current, and each change is dated at the top.
-
-Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary
 
 ==============================================================================
 No. 457 · 2026-10-16 · What they know is not the hold
