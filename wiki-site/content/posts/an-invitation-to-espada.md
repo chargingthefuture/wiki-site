@@ -17,7 +17,7 @@ No one person fills thirteen jobs and nobody is asked to. What a list is for is 
 
 ## Espada
 
-Espada (https://www.quora.com/profile/ESPADA-18), in Detroit, Michigan. The Directory profile is at https://app.chargingthefuture.com/apps/directory/profile/42506e2d-d81a-4455-b3fd-bd76984ecdf0 and it carries three specializations — plumber, CCTV, small appliance repair.
+Espada (https://www.quora.com/profile/ESPADA-18), in Detroit, Michigan. The Directory profile is at https://app.lagatos.com/apps/directory/profile/42506e2d-d81a-4455-b3fd-bd76984ecdf0 and it carries three specializations — plumber, CCTV, small appliance repair.
 
 ![Espada's Directory profile in the app. The name Espada, marked Community-generated profile, nominated by @farah, with a location of Detroit, Michigan, United States. A control reads View Quora profile. Under About: Small engine repair, installing CCTV, appliance repair, handyman, plumber's apprentice. Under Specializations, three tags: Plumber; CCTV; Small Appliance Repair. Below, a panel headed Want to work together? reads: the directory shows who is in the community and what they do. Want a service or good from this person? Look for them in Foundation, where members offer and exchange help — or browse Foundation to find someone else who can.](images/espada-directory-profile-2026-09-18.jpg)
 
@@ -78,15 +78,15 @@ That exchange is deliberately the first thing here rather than the last. Asking 
 
 Everyone written about in this series is a self-identified Targeted Individual. That means they said so in public, and it is the only basis for the listing. I cannot verify it, and neither can a reader. Some people who say it are not survivors, and some are the people doing the harassing, so a post here is not a vouch for anybody and should not be read as one. I am not responsible for what anyone named on this list does or says, on the app, on Quora, or anywhere else. The closest anybody can get to finding a real Targeted Individual is through the app, which admits people one at a time through Unlock and has other mechanisms in place to filter actively. Even with those, there is no such thing as a hundred percent.
 
-Sign in to get access to the world's first directory of 300+ self-identified Targeted Individuals, free: https://app.chargingthefuture.com/apps/directory
+Sign in to get access to the world's first directory of 300+ self-identified Targeted Individuals, free: https://app.lagatos.com/apps/directory
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Workforce](https://app.chargingthefuture.com/apps/workforce) — [guide](https://app.chargingthefuture.com/guide#workforce)
-- [SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt) — [guide](https://app.chargingthefuture.com/guide#skills-hunt)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
-- [SkillUp](https://app.chargingthefuture.com/apps/skill-up) — [guide](https://app.chargingthefuture.com/guide#skill-up)
-- [Unlock](https://app.chargingthefuture.com/plugin/unlock) — [guide](https://app.chargingthefuture.com/guide#unlock)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Workforce](https://app.lagatos.com/apps/workforce) — [guide](https://app.lagatos.com/guide#workforce)
+- [SkillsHunt](https://app.lagatos.com/apps/skills-hunt) — [guide](https://app.lagatos.com/guide#skills-hunt)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
+- [SkillUp](https://app.lagatos.com/apps/skill-up) — [guide](https://app.lagatos.com/guide#skill-up)
+- [Unlock](https://app.lagatos.com/plugin/unlock) — [guide](https://app.lagatos.com/guide#unlock)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

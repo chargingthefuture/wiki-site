@@ -32,15 +32,15 @@ Measuring your life against a normal that is not coming back does real harm, and
 
 Here is what I have watched come back, in my own life and other people's. It is a short list and every item on it is specific, which is what makes it usable.
 
-Income. Not the career that was taken — that one usually does not come back the way it was, and people who wait for it lose years. What comes back is the ability to earn, which is not the same thing. You still know what you know. [Foundation](https://app.chargingthefuture.com/apps/foundation) is where people list what they can do and reach each other directly, and [ServiceCredits](https://app.chargingthefuture.com/apps/service-credits) settles an exchange in an internal unit rather than money, so somebody with nothing in a bank account is not out of the exchange.
+Income. Not the career that was taken — that one usually does not come back the way it was, and people who wait for it lose years. What comes back is the ability to earn, which is not the same thing. You still know what you know. [Foundation](https://app.lagatos.com/apps/foundation) is where people list what they can do and reach each other directly, and [ServiceCredits](https://app.lagatos.com/apps/service-credits) settles an exchange in an internal unit rather than money, so somebody with nothing in a bank account is not out of the exchange.
 
-Housing. [LightHouse](https://app.chargingthefuture.com/apps/lighthouse) is rooms offered by survivors to survivors, which is the answer to the scheme that walks a destitute person back to [relatives who were reached first](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/why-they-want-you-living-with-family).
+Housing. [LightHouse](https://app.lagatos.com/apps/lighthouse) is rooms offered by survivors to survivors, which is the answer to the scheme that walks a destitute person back to [relatives who were reached first](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/why-they-want-you-living-with-family).
 
-People who know you. This is the one that changes the most and the fastest. [Being on the Directory](https://app.chargingthefuture.com/apps/directory) is what makes somebody findable, and finding two or three people who understand without being told is not a small recovery, it is most of one. [Commons](https://app.chargingthefuture.com) reads without an account, so it costs nothing to start there.
+People who know you. This is the one that changes the most and the fastest. [Being on the Directory](https://app.lagatos.com/apps/directory) is what makes somebody findable, and finding two or three people who understand without being told is not a small recovery, it is most of one. [Commons](https://app.lagatos.com) reads without an account, so it costs nothing to start there.
 
 The ability to ask. This one is a skill rather than a circumstance, and it comes back with practice. Ask small, bring something, and do not measure it against equal — that is [what a working exchange looks like](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/mutual-not-equal) between two people who both need things.
 
-Your own account of your life. [ClickLog](https://app.chargingthefuture.com/apps/click-log) is fifteen seconds an incident and your notes stay yours. A person with a dated record is not relying on memory under stress, which is exactly where this puts it, and memory rewrites the earlier version to match the later one.
+Your own account of your life. [ClickLog](https://app.lagatos.com/apps/click-log) is fifteen seconds an incident and your notes stay yours. A person with a dated record is not relying on memory under stress, which is exactly where this puts it, and memory rewrites the earlier version to match the later one.
 
 ## What does not come back, and should not be promised
 
@@ -60,12 +60,12 @@ That is the version of the question I can answer. Not how to get back to normal,
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
-- [ServiceCredits](https://app.chargingthefuture.com/apps/service-credits) — [guide](https://app.chargingthefuture.com/guide#service-credits)
-- [LightHouse](https://app.chargingthefuture.com/apps/lighthouse) — [guide](https://app.chargingthefuture.com/guide#lighthouse)
-- [SocketRelay](https://app.chargingthefuture.com/apps/socket-relay) — [guide](https://app.chargingthefuture.com/guide#socket-relay)
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
+- [ServiceCredits](https://app.lagatos.com/apps/service-credits) — [guide](https://app.lagatos.com/guide#service-credits)
+- [LightHouse](https://app.lagatos.com/apps/lighthouse) — [guide](https://app.lagatos.com/guide#lighthouse)
+- [SocketRelay](https://app.lagatos.com/apps/socket-relay) — [guide](https://app.lagatos.com/guide#socket-relay)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

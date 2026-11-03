@@ -67,6 +67,6 @@ So it goes here, where it stays, with the exchange captured in full.
 
 ## Where to find it in the app
 
-- [Knowledge Library](https://app.chargingthefuture.com/knowledge) — [guide](https://app.chargingthefuture.com/guide#knowledge)
+- [Knowledge Library](https://app.lagatos.com/knowledge) — [guide](https://app.lagatos.com/guide#knowledge)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

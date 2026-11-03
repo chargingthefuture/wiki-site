@@ -1,6 +1,6 @@
 ---
 title: "Filmed for a clip"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks why people taking part film a target on their phones. They are waiting for a reaction, and the footage is theirs to cut."
 category: "Community"
 teaser: "A question I saved on Quora asks why the people doing this film you on their phones. The phone is waiting for one moment: you reacting like anyone would. That is the clip. Unlike a building's camera, a phone's footage belongs to whoever holds it, so it can be cut, staged or invented, while the footage that would clear you sits with a company nobody can compel. What stays yours is whether there is a scene at all, and a record of your own."
@@ -40,10 +40,10 @@ Two things are yours to decide. The first is whether there is a scene to film. N
 
 The second is a record that does not belong to them. The video I took of those two men was the one they did not know about, and it had their license plate on it. On Quora on October 11, 2025 I wrote that a better framing is "to continue living your life and mitigate their threats, for example, with body cameras."
 
-A camera is not the only record. [ClickLog](https://app.chargingthefuture.com/apps/click-log) logs an incident with one tap and the date, and the note can be added once you are somewhere you can think. Notes are not shown to other members, and the date and location cannot be changed later. A dated log kept over months answers what a clip cut to one second cannot ([ClickLog: your record, and the record](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/clicklog-your-record-and-the-record)).
+A camera is not the only record. [ClickLog](https://app.lagatos.com/apps/click-log) logs an incident with one tap and the date, and the note can be added once you are somewhere you can think. Notes are not shown to other members, and the date and location cannot be changed later. A dated log kept over months answers what a clip cut to one second cannot ([ClickLog: your record, and the record](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/clicklog-your-record-and-the-record)).
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

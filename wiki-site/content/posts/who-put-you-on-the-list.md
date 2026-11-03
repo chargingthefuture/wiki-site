@@ -15,9 +15,9 @@ What did the Transatlantic slave traders fashion themselves to be? They had the 
 
 ## Who started it matters to a point
 
-Who put you on the hit list is relevant, up to a point. It explains how you got here. Past that point it stops being useful, because of what happens next: once you are on the list, every criminal group in reach joins in, and they run the same [schemes](https://www.chargingthefuture.com/schemes) in rotation regardless of who started it.
+Who put you on the hit list is relevant, up to a point. It explains how you got here. Past that point it stops being useful, because of what happens next: once you are on the list, every criminal group in reach joins in, and they run the same [schemes](https://lagatos.com/schemes) in rotation regardless of who started it.
 
-That is why the stories never match. One survivor is told it is a secret society. Another is told it is the government. Another, a jealous ex, a former employer, a neighbor. Each explanation is true enough to hold that person's attention and keep them working on the wrong question. Meanwhile the schemes are identical across all of us — same rotation, same playbook, different cities. That is not a claim you have to take on faith: the [named list is public](https://www.chargingthefuture.com/schemes), built from what survivors actually report.
+That is why the stories never match. One survivor is told it is a secret society. Another is told it is the government. Another, a jealous ex, a former employer, a neighbor. Each explanation is true enough to hold that person's attention and keep them working on the wrong question. Meanwhile the schemes are identical across all of us — same rotation, same playbook, different cities. That is not a claim you have to take on faith: the [named list is public](https://lagatos.com/schemes), built from what survivors actually report.
 
 ## Build for the part that does not vary
 
@@ -31,9 +31,9 @@ Skills Economy. Exit their economy, exit the psyop.
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
-- [TrustTransport](https://app.chargingthefuture.com/apps/trust-transport) — [guide](https://app.chargingthefuture.com/guide#trust-transport)
-- [LightHouse](https://app.chargingthefuture.com/apps/lighthouse) — [guide](https://app.chargingthefuture.com/guide#lighthouse)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
+- [TrustTransport](https://app.lagatos.com/apps/trust-transport) — [guide](https://app.lagatos.com/guide#trust-transport)
+- [LightHouse](https://app.lagatos.com/apps/lighthouse) — [guide](https://app.lagatos.com/guide#lighthouse)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

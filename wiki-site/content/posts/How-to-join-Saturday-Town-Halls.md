@@ -13,7 +13,7 @@ Every Saturday I make myself available to speak live about TSE.
 Join me in two ways:
 
 Chyme - Android only app I created for TIs only
-[https://app.chargingthefuture.com/apps/chyme/room/43d5333a-1c86-462a-b600-7fbb3ccca285](https://app.chargingthefuture.com/apps/chyme/room/43d5333a-1c86-462a-b600-7fbb3ccca285)
+[https://app.lagatos.com/apps/chyme/room/43d5333a-1c86-462a-b600-7fbb3ccca285](https://app.lagatos.com/apps/chyme/room/43d5333a-1c86-462a-b600-7fbb3ccca285)
 
 Or
 
