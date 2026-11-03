@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "counted-by-what-we-can-do",
     "title": "Counted by what we can do",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-17",
+    "date": "2026-11-03",
     "excerpt": "A saved Quora question asks who the most common targets are. Nobody holds that census. What can be counted is what survivors are able to do.",
     "category": "Community",
     "collection": "posts",
@@ -53,7 +53,7 @@ export const ARTICLES: ArticleMeta[] = [
       "directory",
       "community"
     ],
-    "number": 493
+    "number": 494
   },
   {
     "slug": "belief-is-not-company",

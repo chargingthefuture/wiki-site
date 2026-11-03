@@ -1,6 +1,6 @@
 ---
 title: "Counted by what we can do"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks who the most common targets are. Nobody holds that census. What can be counted is what survivors are able to do."
 category: "Community"
 teaser: "A question I saved on Quora asks who the most common targets are. It expects a profile: an age, a job, a kind of person. I went looking for one in 2025 with a survey of who and where we are, and the answers did not sort by profile. How hard a person is hit follows what the people doing it were told about them. The count that does hold up is a different one. The Directory lists survivors by what they can do, and on October 13, 2026 it listed 312 people."
@@ -42,12 +42,12 @@ The survey did not last on Quora. By October 25, 2025, I was pointing people who
 
 There is a number I can stand behind, and it answers a different question. On September 17, 2025, I wrote that there are "two million plus TIs."
 
-What can be counted, one person at a time, is what each of us can do. The Directory lists survivors by their skills, not by why they were picked. The front page at chargingthefuture.com now tells anybody, without an account, how many people listed there could help with what they need ([See who could help you, before you make an account](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/see-who-could-help-without-an-account)). On October 13, 2026, it said 312 people were listed.
+What can be counted, one person at a time, is what each of us can do. The Directory lists survivors by their skills, not by why they were picked. The front page at lagatos.com now tells anybody, without an account, how many people listed there could help with what they need ([See who could help you, before you make an account](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/see-who-could-help-without-an-account)). On October 13, 2026, it said 312 people were listed.
 
 Who gets targeted has no tidy answer. Who is here, and what they can do, has one, and it grows most days.
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
