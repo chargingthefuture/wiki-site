@@ -38,15 +38,15 @@ Work is where the income is. Pushing somebody out of a job cuts them off from mo
 
 Two things, and neither of them is legal advice.
 
-Write it down, dated, as it happens, including at work. [ClickLog](https://app.chargingthefuture.com/apps/click-log) takes about fifteen seconds an incident, and your notes are not shown to anyone else here. A record made at the time is worth more than a memory told later, to you most of all, because it lets you see the pattern before anybody else has to believe it.
+Write it down, dated, as it happens, including at work. [ClickLog](https://app.lagatos.com/apps/click-log) takes about fifteen seconds an incident, and your notes are not shown to anyone else here. A record made at the time is worth more than a memory told later, to you most of all, because it lets you see the pattern before anybody else has to believe it.
 
-And build some work that does not run through them. The [Directory](https://app.chargingthefuture.com/apps/directory) lists people and what they can do, and [Foundation](https://app.chargingthefuture.com/apps/foundation) is where members offer and exchange help, trade for trade. The [Workforce](https://app.chargingthefuture.com/apps/workforce) view shows which skills the community has and which it is still missing, which is a list of work nobody here is doing yet. Work arranged between people who are not part of it is work they cannot quietly take away.
+And build some work that does not run through them. The [Directory](https://app.lagatos.com/apps/directory) lists people and what they can do, and [Foundation](https://app.lagatos.com/apps/foundation) is where members offer and exchange help, trade for trade. The [Workforce](https://app.lagatos.com/apps/workforce) view shows which skills the community has and which it is still missing, which is a list of work nobody here is doing yet. Work arranged between people who are not part of it is work they cannot quietly take away.
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
-- [Workforce](https://app.chargingthefuture.com/apps/workforce) — [guide](https://app.chargingthefuture.com/guide#workforce)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
+- [Workforce](https://app.lagatos.com/apps/workforce) — [guide](https://app.lagatos.com/guide#workforce)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

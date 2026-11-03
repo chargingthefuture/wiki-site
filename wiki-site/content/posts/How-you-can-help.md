@@ -34,7 +34,7 @@ If you're able to contribute financially, please consider doing so. If not, plea
 
 Remember, our collective effort can make a significant difference in our community. Let's work together to make the TI Skills Economy app a valuable resource for all Targeted Individuals.
 
-The [subscription for the TI Skills Economy](https://app.chargingthefuture.com/payments) is $1/month or $12/year, with several payment options available: https://app.chargingthefuture.com/payments.
+The [subscription for the TI Skills Economy](https://app.lagatos.com/payments) is $1/month or $12/year, with several payment options available: https://app.lagatos.com/payments.
 
 <img width="858" alt="screencapture-app-chargingthefuture-payments-2026-01-12-10_35_48" src="https://github.com/user-attachments/assets/ae000858-1d41-4fd8-bbe0-47148567c247" />
 

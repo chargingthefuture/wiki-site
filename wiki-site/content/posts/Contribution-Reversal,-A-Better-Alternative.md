@@ -17,7 +17,7 @@ On March 15, 2026, the Specterati sent a letter denying me public assistance, st
 
 This was yet another reminder I need to keep the contribution ask low, as difficult as it is for me. It is just as difficult for all other TIs. And so I am reversing the above announcement.
 
-This is what will happen for the foreseeable future. When hosting costs are not covered, the app goes down. And when it does, there will be a landing page [https://chargingthefuture.com](https://chargingthefuture.com) asking for TIs that have not signed up yet to join the waitlist. When the app is back up, they will receive a notice to sign up to start using services immediately.
+This is what will happen for the foreseeable future. When hosting costs are not covered, the app goes down. And when it does, there will be a landing page [https://lagatos.com](https://lagatos.com) asking for TIs that have not signed up yet to join the waitlist. When the app is back up, they will receive a notice to sign up to start using services immediately.
 
 _Existing members, your account is not impacted. You are still a member when the app is offline. Once the app is back up, you will be able to log in normally and resume services._
 

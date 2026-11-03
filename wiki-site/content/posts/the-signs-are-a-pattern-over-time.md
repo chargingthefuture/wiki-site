@@ -1,6 +1,6 @@
 ---
 title: "The signs are a pattern over time"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asked for the signs that somebody is being targeted. No single incident settles it. The signs are named schemes repeating over months and years, and a dated record is what makes that visible."
 category: "Community"
 teaser: "A question I saved on Quora in October 2024 asked what the signs are that someone is being targeted. Any one incident has an ordinary explanation ready, and that is by design: a car like yours, strangers in one color, a word from a private conversation repeated by somebody nearby. What gives it away is repetition. The same named schemes come back in rotation, on a schedule, for months and years, and most of them are tried on everybody it happens to. The list of those schemes is public. Memory under stress does not hold a pattern like that. A dated record does, and read back over thirty entries it shows where, when and which schemes repeat."
@@ -26,7 +26,7 @@ So the answer is not a list of things to watch for on one day. A single incident
 
 ## The schemes have names
 
-What repeats is a set of named schemes, and the list survivors keep is public: [chargingthefuture.com/schemes](https://www.chargingthefuture.com/schemes). Once somebody is on the list, the same schemes run in rotation regardless of who started it ([It Does Not Matter Who Put You on the List](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/who-put-you-on-the-list)). On Quora on September 20, 2025 I wrote: "As most traps are tried on every TI."
+What repeats is a set of named schemes, and the list survivors keep is public: [lagatos.com/schemes](https://lagatos.com/schemes). Once somebody is on the list, the same schemes run in rotation regardless of who started it ([It Does Not Matter Who Put You on the List](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/who-put-you-on-the-list)). On Quora on September 20, 2025 I wrote: "As most traps are tried on every TI."
 
 A few from the list:
 
@@ -47,12 +47,12 @@ Much of it is provocation. In another comment that same day I wrote: "remember t
 
 ## Keep a dated record
 
-Memory under stress does not hold a pattern. A dated record does. [ClickLog](https://app.chargingthefuture.com/apps/click-log) logs an incident with one tap and the date; the note and up to ten scheme tags can be added once you are somewhere you can think. Notes are not shown to other members, and the date and location cannot be changed later.
+Memory under stress does not hold a pattern. A dated record does. [ClickLog](https://app.lagatos.com/apps/click-log) logs an incident with one tap and the date; the note and up to ten scheme tags can be added once you are somewhere you can think. Notes are not shown to other members, and the date and location cannot be changed later.
 
 Read back over thirty entries and you can see where it happens, when, and which schemes repeat. Sharing is a choice per incident. It sends the date, a rough area and the tags, never the note, and shared entries are counted across everybody who opted in.
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

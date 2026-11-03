@@ -16,7 +16,7 @@ Play it here: https://chargingthefuture.github.io/offline-os/apps/peace-battle-2
 
 ## What you see
 
-A dark map of hearths, one for each survivor, spread across a dozen scattered lands. Never one walled place, because the people this is for are in every country, and so the answer is too. Each hearth has a trade, drawn from the same list of sectors and job titles the app's Workforce runs on. Fog drifts over the dark parts: [the schemes](https://www.chargingthefuture.com/schemes). Thin gray threads run between dark hearths: the informant (Specterati) net.
+A dark map of hearths, one for each survivor, spread across a dozen scattered lands. Never one walled place, because the people this is for are in every country, and so the answer is too. Each hearth has a trade, drawn from the same list of sectors and job titles the app's Workforce runs on. Fog drifts over the dark parts: [the schemes](https://lagatos.com/schemes). Thin gray threads run between dark hearths: the informant (Specterati) net.
 
 On the day the game was built, 174 hearths were lit, in the same proportions as the Directory that day. Most of them are advocates and peer supporters. Nurses next, then community organizers. The country could supply itself 32% of what it needs, 230 of 713 skills. Two tiles stay gray for good: a phone and a vehicle. No community this size can run those supply chains, and the game does not pretend otherwise.
 
@@ -52,7 +52,7 @@ Nothing in it is a prediction. It is the shape of the thing, drawn so it can be 
 
 ## Where to find it in the app
 
-- [PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming?tab=goals) — [guide](https://app.chargingthefuture.com/guide#peer-programming)
-- [Workforce](https://app.chargingthefuture.com/apps/workforce) — [guide](https://app.chargingthefuture.com/guide#workforce)
+- [PeerProgramming](https://app.lagatos.com/apps/peer-programming?tab=goals) — [guide](https://app.lagatos.com/guide#peer-programming)
+- [Workforce](https://app.lagatos.com/apps/workforce) — [guide](https://app.lagatos.com/guide#workforce)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
