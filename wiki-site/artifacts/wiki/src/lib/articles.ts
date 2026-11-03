@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "not-for-lack-of-proof",
     "title": "Not for lack of proof",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-17",
+    "date": "2026-11-03",
     "excerpt": "A saved Quora question asks why nobody will help a Targeted Individual. It is not that nobody believes them. Help comes from people outside the arrangement.",
     "category": "Community",
     "collection": "posts",
@@ -53,7 +53,7 @@ export const ARTICLES: ArticleMeta[] = [
       "directory",
       "community"
     ],
-    "number": 476
+    "number": 477
   },
   {
     "slug": "the-levels-are-theirs",
