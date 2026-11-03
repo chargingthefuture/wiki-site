@@ -20,7 +20,7 @@ import { formatArticleDate } from "@/lib/dates";
 // strip takes away the reader's position, which is what the pagination rule in
 // CLAUDE.md exists to prevent.
 
-const APP_URL = "https://app.chargingthefuture.com";
+const APP_URL = "https://app.lagatos.com";
 const FEED_URL = `${APP_URL}/api/directory/invites/public`;
 const DIRECTORY_URL = `${APP_URL}/apps/directory`;
 const MAX_CARDS = 10;
