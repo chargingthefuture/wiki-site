@@ -42,7 +42,7 @@ What decides whether the move helped is what you do with them. Most people spend
 
 One arrangement at a time, into hands that are not part of it.
 
-A ride. A room. An hour of a trade. The people on the [Directory](https://app.chargingthefuture.com/apps/directory) are survivors, listed with where they are and what they can do, so the search starts from a list of people who have the same problem rather than from a stranger who does not. [LightHouse](https://app.chargingthefuture.com/apps/lighthouse) is rooms offered by survivors to survivors, which matters most right after a move, when housing is the first thing a new place has to give you and the first thing they will try to hand you themselves. [Foundation](https://app.chargingthefuture.com/apps/foundation) lists providers and what they offer. [SocketRelay](https://app.chargingthefuture.com/apps/socket-relay) is where you post what you need without opening with a speech.
+A ride. A room. An hour of a trade. The people on the [Directory](https://app.lagatos.com/apps/directory) are survivors, listed with where they are and what they can do, so the search starts from a list of people who have the same problem rather than from a stranger who does not. [LightHouse](https://app.lagatos.com/apps/lighthouse) is rooms offered by survivors to survivors, which matters most right after a move, when housing is the first thing a new place has to give you and the first thing they will try to hand you themselves. [Foundation](https://app.lagatos.com/apps/foundation) lists providers and what they offer. [SocketRelay](https://app.lagatos.com/apps/socket-relay) is where you post what you need without opening with a speech.
 
 None of that ends the harassment. What it does is decide who your week runs through in the new place, which is the one variable a move actually hands you.
 
@@ -56,7 +56,7 @@ Move again when there is a reason that survives the question: what will be diffe
 
 ## Write down the before and after
 
-Keep a dated record across the move, and keep it the same way on both sides of it. [ClickLog](https://app.chargingthefuture.com/apps/click-log) takes about fifteen seconds an incident and your notes stay yours.
+Keep a dated record across the move, and keep it the same way on both sides of it. [ClickLog](https://app.lagatos.com/apps/click-log) takes about fifteen seconds an incident and your notes stay yours.
 
 It will not hand you a clean answer about whether the move helped, because nothing here produces one. What it gives you is the difference between knowing what happened and remembering it, and memory rewrites the earlier version to match the later one. A person who logged the last three months in the old place and the first three in the new one can see what actually changed. A person relying on memory gets the version their worst week wrote.
 
@@ -66,10 +66,10 @@ The move was not wasted, and moving again is not the answer to it following you.
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [LightHouse](https://app.chargingthefuture.com/apps/lighthouse) — [guide](https://app.chargingthefuture.com/guide#lighthouse)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
-- [SocketRelay](https://app.chargingthefuture.com/apps/socket-relay) — [guide](https://app.chargingthefuture.com/guide#socket-relay)
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [LightHouse](https://app.lagatos.com/apps/lighthouse) — [guide](https://app.lagatos.com/guide#lighthouse)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
+- [SocketRelay](https://app.lagatos.com/apps/socket-relay) — [guide](https://app.lagatos.com/guide#socket-relay)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
