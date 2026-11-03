@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "you-do-not-have-to-be-important",
     "title": "You do not have to be important",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-17",
+    "date": "2026-11-03",
     "excerpt": "A saved Quora question asks why anyone would target a regular person. Importance was never the threshold. The people doing it are ordinary too.",
     "category": "Community",
     "collection": "posts",
@@ -53,7 +53,7 @@ export const ARTICLES: ArticleMeta[] = [
       "directory",
       "community"
     ],
-    "number": 487
+    "number": 488
   },
   {
     "slug": "the-threat-is-being-believed",
