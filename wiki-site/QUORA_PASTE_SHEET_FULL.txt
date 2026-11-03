@@ -255,7 +255,7 @@ Latest changes
 
 2026-09-29 — Performed kindness and covert contract added to the Specterati lexicon. Performed kindness is kind words or acts delivered in a way that is not kind; covert contract is the psychologist's term for a kindness with an unspoken bill attached, which turns to anger when the bill is not paid.
 
-2026-09-25 — Reader added to the capability table: an RSS feed reader on a server the project pays for, at rss.chargingthefuture.com, reached from a tile in the app. Sign in with the same account; what each person subscribes to is theirs alone and nobody else on it can see it. A new account arrives with this blog and the owner's channel of demo videos of the app, and nothing else. A place on it comes from finishing Unlock or contributing to the cost, and losing one is not a ban — the account in the app is untouched.
+2026-09-25 — Reader added to the capability table: an RSS feed reader on a server the project pays for, at rss.lagatos.com, reached from a tile in the app. Sign in with the same account; what each person subscribes to is theirs alone and nobody else on it can see it. A new account arrives with this blog and the owner's channel of demo videos of the app, and nothing else. A place on it comes from finishing Unlock or contributing to the cost, and losing one is not a ban — the account in the app is untouched.
 
 2026-09-25 — PeerProgramming's entry now includes the goal board, which the app opens on. A member posts one goal with a finish line and tasks another member can do from a phone; other members take a task, do it, and post what they found, and the goal's owner marks the result as helped, keeps it, or sends it back. A task marked as helped counts toward the day's 384 and toward the helper's Weavers of the Commons badge. One open goal per member, the helper's name is shown on each finished task, and there is no conversation on the board. Taking part needs an approved account.
 
@@ -3847,7 +3847,7 @@ Paste that into whatever reader you like and every post here turns up on its own
 
 The second is for people who would rather not install or configure anything. I now run a reader you can sign into, on a server I pay for:
 
-https://rss.chargingthefuture.com
+https://rss.lagatos.com
 
 You sign in with the Skills Economy account you already have. Two feeds are in it already, so the first screen is not empty: this blog, at the address above, and my own channel of demo videos of the app. Those two are the only things put there, and you can remove either. Everything else you read, you add yourself.
 
@@ -3857,7 +3857,7 @@ Adding anything else you read
 
 Most sites publish a feed, and most people have never had a reason to look for one.
 
-To subscribe to a site in the reader I host, sign in at rss.chargingthefuture.com, then:
+To subscribe to a site in the reader I host, sign in at rss.lagatos.com, then:
 
 1. Copy the address of the site you want. The ordinary address is usually enough — the reader looks for the feed itself.
 2. Press the + beside "Subscriptions management".

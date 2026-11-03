@@ -13,7 +13,7 @@
  * What it skips, and why:
  * - content/archive/ and the manifesto: frozen records, kept as written.
  * - articles.ts and the generated paste sheets: copies of the posts, checked at their source.
- * - Other hosts under chargingthefuture.com (rss., counter.), which did not move.
+ * - Other hosts under chargingthefuture.com (counter.), which did not move.
  *
  *   Run: pnpm wiki:app-address
  */
@@ -36,8 +36,8 @@ const EXEMPT_FILES = new Set([
   'wiki-site/artifacts/wiki/src/lib/fireside-exports.ts',
 ]);
 
-// The app (with or without its accounts host), www., or the bare landing domain.
-const OLD_ADDRESS = /(?<![\w.-])(?:(?:accounts\.)?app\.|www\.)?chargingthefuture\.com/g;
+// The app (with or without its accounts host), the RSS reader, www., or the bare landing domain.
+const OLD_ADDRESS = /(?<![\w.-])(?:(?:accounts\.)?app\.|www\.|rss\.)?chargingthefuture\.com/g;
 
 function inScope(path: string): boolean {
   if (EXEMPT_FILES.has(path)) return false;

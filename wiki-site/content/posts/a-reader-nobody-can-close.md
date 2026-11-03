@@ -26,7 +26,7 @@ Paste that into whatever reader you like and every post here turns up on its own
 The second is for people who would rather not install or configure anything. I now run a reader you can sign into, on a server I pay for:
 
 ```
-https://rss.chargingthefuture.com
+https://rss.lagatos.com
 ```
 
 You sign in with the Skills Economy account you already have. Two feeds are in it already, so the first screen is not empty: this blog, at the address above, and my own channel of demo videos of the app. Those two are the only things put there, and you can remove either. Everything else you read, you add yourself.
@@ -37,7 +37,7 @@ What each person subscribes to is theirs. There is no shared list, no comments, 
 
 Most sites publish a feed, and most people have never had a reason to look for one.
 
-To subscribe to a site in the reader I host, sign in at rss.chargingthefuture.com, then:
+To subscribe to a site in the reader I host, sign in at rss.lagatos.com, then:
 
 1. Copy the address of the site you want. The ordinary address is usually enough — the reader looks for the feed itself.
 2. Press the `+` beside "Subscriptions management".
