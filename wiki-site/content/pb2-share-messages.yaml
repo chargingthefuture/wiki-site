@@ -252,7 +252,7 @@ messages:
   - id: pp-bad-day
     feature: PeerProgramming
     title: A bad day costs nothing
-    link: https://app.chargingthefuture.com/guide#peer-programming
+    link: https://app.lagatos.com/guide#peer-programming
     body: |-
       A goal is a chain of small steps, and the attacks land on the chain. A step gets missed, the order breaks, and it starts over.
 
@@ -270,7 +270,7 @@ messages:
   - id: pp-no-chat
     feature: PeerProgramming
     title: No conversation on the board, on purpose
-    link: https://app.chargingthefuture.com/guide#peer-programming
+    link: https://app.lagatos.com/guide#peer-programming
     body: |-
       Group chats for this have been tried three ways and none of them held. Who shows up depends on how hard the day was, so the chat is a different room every time, and it slides from doing into comparing notes about the attacks, which already have most of the day.
 

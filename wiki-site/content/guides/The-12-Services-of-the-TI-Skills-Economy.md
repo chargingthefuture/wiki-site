@@ -9,33 +9,33 @@ repo: chargingthefuture/mono
 
 # The 12 mini-apps (services) of the TI Skills Economy
 
-An interactive way to learn how each app assists survivors: https://www.chargingthefuture.com/look-ma-i-fixed-it
+An interactive way to learn how each app assists survivors: https://lagatos.com/look-ma-i-fixed-it
 
 * 🏠 LightHouse: Find safe accommodations and escape dangerous living situations
-https://app.chargingthefuture.com/apps/lighthouse
+https://app.lagatos.com/apps/lighthouse
 
-* 🚗 TrustTransport: Get safe rides to avoid public harassment and surveillance https://app.chargingthefuture.com/apps/trusttransport
+* 🚗 TrustTransport: Get safe rides to avoid public harassment and surveillance https://app.lagatos.com/apps/trusttransport
 
-* 🛠️ MechanicMatch: Connect with trusted mechanics when your car breaks down or is tampered with: https://app.chargingthefuture.com/apps/mechanicmatch
+* 🛠️ MechanicMatch: Connect with trusted mechanics when your car breaks down or is tampered with: https://app.lagatos.com/apps/mechanicmatch
 
-* 💼 Workforce Recruiter: Review the collective skillset of the TI Skills Economy and find or expand your career among TIs: https://app.chargingthefuture.com/apps/workforce-recruiter
+* 💼 Workforce Recruiter: Review the collective skillset of the TI Skills Economy and find or expand your career among TIs: https://app.lagatos.com/apps/workforce-recruiter
 
 * 🫂 SupportMatch: Find accountability partners who understand
-https://app.chargingthefuture.com/apps/supportmatch
+https://app.lagatos.com/apps/supportmatch
 
 * 📑 Directory: Build genuine professional connections away from manipulation
-https://app.chargingthefuture.com/apps/directory
+https://app.lagatos.com/apps/directory
 
 * 📣 SocketRelay: Get items through our community when stores are problematic
-https://app.chargingthefuture.com/apps/socketrelay
+https://app.lagatos.com/apps/socketrelay
 
-* 📗 CompareNotes: Document patterns, incidents, and share evidence with the community: https://app.chargingthefuture.com/apps/comparenotes
+* 📗 CompareNotes: Document patterns, incidents, and share evidence with the community: https://app.lagatos.com/apps/comparenotes
 
-* 🧘 GentlePulse: Manage stress, anxiety, and wellness when dealing with constant harassment: https://app.chargingthefuture.com/apps/gentlepulse
+* 🧘 GentlePulse: Manage stress, anxiety, and wellness when dealing with constant harassment: https://app.lagatos.com/apps/gentlepulse
 
 * 🎙️ Chyme: Social audio conversations away from perps
-https://app.chargingthefuture.com/apps/chyme
+https://app.lagatos.com/apps/chyme
 
-* 💬 Chat Groups: Connect with others experiencing similar situations in real-time chats via Signal: https://app.chargingthefuture.com/apps/chatgroups
+* 💬 Chat Groups: Connect with others experiencing similar situations in real-time chats via Signal: https://app.lagatos.com/apps/chatgroups
 
-* 🪧 LostMail: Track mail tampering, loss, and delays with detailed incident reports: https://app.chargingthefuture.com/apps/lostmail
+* 🪧 LostMail: Track mail tampering, loss, and delays with detailed incident reports: https://app.lagatos.com/apps/lostmail

@@ -1,6 +1,6 @@
 ---
 title: "The impunity lives in their economy"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks why Targeted Individuals are treated so badly. Nothing about the target earns it. It continues because nobody answers for it, and that cover only holds where they are paid."
 category: "Community"
 teaser: "A question I saved on Quora twice asks why Targeted Individuals are treated so badly. Not because of anything about the target: they mock ordinary behavior and invent the rest. The cruelty is the method, because a reaction is what they want. And it goes on because nobody answers for it. I was punched in the face twice, the second time with cameras and witnesses, and nothing followed. That impunity is real, and it only lives in their economy."
@@ -46,6 +46,6 @@ So the useful move is not explaining yourself to the people doing it. It is find
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

@@ -1,6 +1,6 @@
 ---
 title: "Belief is not the same as company"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks if Targeted Individuals feel alone because nobody offline accepts it. Their belief is not the company that ends it."
 category: "Community"
 teaser: "A question I saved on Quora asks whether a Targeted Individual feels alone because everybody in their offline life refuses to accept what is happening. Being disbelieved and being alone are two different things, and the second is the one being worked toward. Waiting for the people nearby to accept it leaves the remedy in their hands. Company does not need their verdict. It comes from people who already know, at a pace you set, and it works best when the talk reaches past the targeting."
@@ -48,7 +48,7 @@ The Directory lists survivors by what they can do, so you can find somebody by a
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Commons](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Commons](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

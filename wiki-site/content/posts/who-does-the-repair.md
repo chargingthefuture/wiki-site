@@ -1,6 +1,6 @@
 ---
 title: "Who does the repair"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks whether the people who help a Targeted Individual, mechanics and lawn workers, get scared away. Mostly they are reached, not scared."
 category: "Community"
 teaser: "A question I saved on Quora asks whether the people who help you, mechanics, lawn workers and the like, get scared away. Fear is rarely what does it. The person you hire is told a lie fitted to them, or brought in with a job, an apartment or a favor, and abusing the target is how a person is initiated. Some who seem helpful were sent, and they will not do the repair. Persuading the next hire does not change that. Moving the repair to a survivor does, one arrangement at a time."
@@ -44,12 +44,12 @@ Do not avoid other Targeted Individuals out of caution. On Quora on October 11, 
 
 None of this ends the targeting ([What can be stopped](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-can-be-stopped)). It changes who your car, your yard and your week depend on.
 
-The [Directory](https://app.chargingthefuture.com/apps/directory) lists survivors by what they can do; being on it costs nobody an account, and anybody can claim their entry or have it taken down. [Foundation](https://app.chargingthefuture.com/apps/foundation) is where members offer and exchange help: a repair, a ride, a room, an hour of a trade you do not have. [SocketRelay](https://app.chargingthefuture.com/apps/socket-relay) is where you post what you need and whoever has it answers.
+The [Directory](https://app.lagatos.com/apps/directory) lists survivors by what they can do; being on it costs nobody an account, and anybody can claim their entry or have it taken down. [Foundation](https://app.lagatos.com/apps/foundation) is where members offer and exchange help: a repair, a ride, a room, an hour of a trade you do not have. [SocketRelay](https://app.lagatos.com/apps/socket-relay) is where you post what you need and whoever has it answers.
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
-- [SocketRelay](https://app.chargingthefuture.com/apps/socket-relay) — [guide](https://app.chargingthefuture.com/guide#socket-relay)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
+- [SocketRelay](https://app.lagatos.com/apps/socket-relay) — [guide](https://app.lagatos.com/guide#socket-relay)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

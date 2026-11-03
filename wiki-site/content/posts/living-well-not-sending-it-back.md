@@ -1,6 +1,6 @@
 ---
 title: "Living well, not sending it back"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks how to send the hits back. I know of no way to, and the push to strike back is part of what is done to a target."
 category: "Community"
 teaser: "A question I saved on Quora asks how to send the hits back. I do not know of any way to. What I do know is that the push to strike back is part of what is done to a target. People taking part have tried to draw me into violent crimes to get me arrested, and they encourage me to fight them. Revenge pulls a target down to their level. What I chose instead is living well, among other survivors, with my attention on us rather than on them."
@@ -46,8 +46,8 @@ None of it sends anything back. It takes away what striking back was meant to de
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [WhatWorks](https://app.chargingthefuture.com/apps/what-works) — [guide](https://app.chargingthefuture.com/guide#what-works)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [WhatWorks](https://app.lagatos.com/apps/what-works) — [guide](https://app.lagatos.com/guide#what-works)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

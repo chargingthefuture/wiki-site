@@ -18,7 +18,7 @@ I would rather tell you that than leave you to find it.
 
 ## Jerrod
 
-Jerrod Fredrick (https://www.quora.com/profile/Jerrod-Fredrick), in the United States. The Directory profile is at https://app.chargingthefuture.com/apps/directory/profile/16b04c09-439d-479d-b1ea-bf2eb5dfc9e6.
+Jerrod Fredrick (https://www.quora.com/profile/Jerrod-Fredrick), in the United States. The Directory profile is at https://app.lagatos.com/apps/directory/profile/16b04c09-439d-479d-b1ea-bf2eb5dfc9e6.
 
 ![Jerrod Fredrick's Directory listing in the app, captured September 28, 2026. The heading reads Jerrod Fredrick, below it "Community-generated profile" and "Nominated by @farah", and under that the location United States. A button reads View Quora profile. Under the heading SPECIALIZATIONS is one entry: Advocacy.](images/jerrod-fredrick-directory-profile-2026-09-28.jpg)
 
@@ -40,11 +40,11 @@ Jerrod has asked for that on Quora more than once, in their own words:
 
 > Can I get a hold of you? This is happening to me.
 
-The [Commons](https://app.chargingthefuture.com) is a group chat of other Targeted Individuals, in the app. It is where that question gets an answer, from people who will not spend the first hour on whether it is happening.
+The [Commons](https://app.lagatos.com) is a group chat of other Targeted Individuals, in the app. It is where that question gets an answer, from people who will not spend the first hour on whether it is happening.
 
 ## Where the listing comes in
 
-That last part is what the [Directory](https://app.chargingthefuture.com/apps/directory) is for. It lists people and what they can do, and it is how a ride, a room, or an hour of somebody else's trade finds the person who needs it. [Foundation](https://app.chargingthefuture.com/apps/foundation) is where members offer and exchange that help.
+That last part is what the [Directory](https://app.lagatos.com/apps/directory) is for. It lists people and what they can do, and it is how a ride, a room, or an hour of somebody else's trade finds the person who needs it. [Foundation](https://app.lagatos.com/apps/foundation) is where members offer and exchange that help.
 
 Being on the list is also how other Targeted Individuals find you. Right now Jerrod's listing says only that they are here. Claimed, it can say what they can do, and that turns a name on a list into somebody other people can ask.
 
@@ -62,13 +62,13 @@ Nothing else is required. Not using the rest of the app, not posting anything, n
 
 Everyone written about in this series is a self-identified Targeted Individual. That means they said so in public, and it is the only basis for the listing. I cannot verify it, and neither can a reader. Some people who say it are not survivors, and some are the people doing the harassing, so a post here is not a vouch for anybody and should not be read as one. I am not responsible for what anyone named on this list does or says, on the app, on Quora, or anywhere else. The closest anybody can get to finding a real Targeted Individual is through the app, which admits people one at a time through Unlock and has other mechanisms in place to filter actively. Even with those, there is no such thing as a hundred percent.
 
-Sign in to get access to the world's first directory of 300+ self-identified Targeted Individuals, free: https://app.chargingthefuture.com/apps/directory
+Sign in to get access to the world's first directory of 300+ self-identified Targeted Individuals, free: https://app.lagatos.com/apps/directory
 
 ## Where to find it in the app
 
-- [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
-- [Unlock](https://app.chargingthefuture.com/plugin/unlock) — [guide](https://app.chargingthefuture.com/guide#unlock)
+- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
+- [Unlock](https://app.lagatos.com/plugin/unlock) — [guide](https://app.lagatos.com/guide#unlock)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

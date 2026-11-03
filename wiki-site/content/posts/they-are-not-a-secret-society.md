@@ -95,7 +95,7 @@ The other half is the same idea applied inwards. The grading only works on someo
 
 Depending on nobody who is being paid to harm you, and not handing them your interior either. That is closer to freedom than any privacy setting has ever gotten me.
 
-So answer in the [Commons](https://app.chargingthefuture.com), the group chat inside the app, knowing they are reading over your shoulder there as everywhere else. What the answers are for is not keeping a secret. It is a set of us knowing the shape well enough that it stops working. The Dictionary is a living page kept in a public repository, so every change to it is dated and on the record — including the ones that come from being told I got it wrong.
+So answer in the [Commons](https://app.lagatos.com), the group chat inside the app, knowing they are reading over your shoulder there as everywhere else. What the answers are for is not keeping a secret. It is a set of us knowing the shape well enough that it stops working. The Dictionary is a living page kept in a public repository, so every change to it is dated and on the record — including the ones that come from being told I got it wrong.
 
 New schemes get named from the same kind of description. When you log an incident and no scheme on the list fits, there is a "not listed" option that asks you to write what happened, and that writing is the intake that names new ones. It is limited to members holding the Weavers of the Commons badge, which keeps junk out of the naming queue rather than out of logging — logging itself is open to every approved member.
 
@@ -103,9 +103,9 @@ Both of this week's additions started as plain descriptions of something the lis
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Commons](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Commons](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
 
-The full schemes list is public: [chargingthefuture.com/schemes](https://www.chargingthefuture.com/schemes).
+The full schemes list is public: [lagatos.com/schemes](https://lagatos.com/schemes).
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

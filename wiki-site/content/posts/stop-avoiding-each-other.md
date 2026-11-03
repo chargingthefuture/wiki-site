@@ -1,6 +1,6 @@
 ---
 title: "Stop avoiding each other"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks how we can all put a stop to this. The all is survivors, and the first thing worked on is the distance between us."
 category: "Community"
 teaser: "A question I saved on Quora asks how we can all put a stop to this. Nobody else is going to: oppressed people have always had to free themselves and each other. So the all is survivors, and the first thing worked on is keeping survivors apart. Purchases are mirrored onto another Targeted Individual so they look like one of the people doing it, and staying away from each other changes nothing about the targeting. It only adds isolation. The first step is to stop keeping the distance."
@@ -46,7 +46,7 @@ None of this ends it on its own. Every other answer to the question needs it don
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Commons](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Commons](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

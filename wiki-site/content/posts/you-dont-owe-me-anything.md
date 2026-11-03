@@ -54,7 +54,7 @@ You do not have to take my word for it. The code is open source at https://githu
 
 The same stand-up set had a second line I remember: nobody with a 739 credit score has ever done a mass shooting. It is the reverse again, for the same reason as the mortgage. The people carrying the good number are the ones inside the favors economy, and the number is one of the favors.
 
-The Skills Economy has no credit score. There is no social ranking, and the [Trust](https://app.chargingthefuture.com/apps/trust) card is a list of plain sentences about what you have actually done — no score, no status, nothing that goes up or down against anybody else. There is exactly one badge, Weavers of the Commons, and you get it one way: by delivering real help to other members over time. It is earned, never bought, and it does not fluctuate. Once it is yours it stays yours; it goes only for cause, the same egregious bar an account goes for, and never because somebody was annoyed. That is the opposite of how the trafficking network hands out its positions, where everything is granted on the strength of the last favor and withdrawn on the next.
+The Skills Economy has no credit score. There is no social ranking, and the [Trust](https://app.lagatos.com/apps/trust) card is a list of plain sentences about what you have actually done — no score, no status, nothing that goes up or down against anybody else. There is exactly one badge, Weavers of the Commons, and you get it one way: by delivering real help to other members over time. It is earned, never bought, and it does not fluctuate. Once it is yours it stays yours; it goes only for cause, the same egregious bar an account goes for, and never because somebody was annoyed. That is the opposite of how the trafficking network hands out its positions, where everything is granted on the strength of the last favor and withdrawn on the next.
 
 ## What you stand to lose
 
@@ -68,9 +68,9 @@ So the terms are these. You owe me nothing, I owe you nothing, and the exchange 
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory) — the block control is on another member's profile
-- [Trust](https://app.chargingthefuture.com/apps/trust) — [guide](https://app.chargingthefuture.com/guide#trust)
-- [ServiceCredits](https://app.chargingthefuture.com/apps/service-credits) — [guide](https://app.chargingthefuture.com/guide#service-credits)
-- [Account](https://app.chargingthefuture.com/account) — your blocked members, and deleting your data
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory) — the block control is on another member's profile
+- [Trust](https://app.lagatos.com/apps/trust) — [guide](https://app.lagatos.com/guide#trust)
+- [ServiceCredits](https://app.lagatos.com/apps/service-credits) — [guide](https://app.lagatos.com/guide#service-credits)
+- [Account](https://app.lagatos.com/account) — your blocked members, and deleting your data
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
