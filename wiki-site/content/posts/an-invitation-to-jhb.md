@@ -45,7 +45,7 @@ It is deliberately transactional, and that is the safety mechanism rather than a
 
 ## The profile is already there
 
-There is a Directory profile for J.H.B. in the app: [app.chargingthefuture.com/apps/directory/profile/2c69e55c-9558-4418-8304-a87590507ee0](https://app.chargingthefuture.com/apps/directory/profile/2c69e55c-9558-4418-8304-a87590507ee0)
+There is a Directory profile for J.H.B. in the app: [app.lagatos.com/apps/directory/profile/2c69e55c-9558-4418-8304-a87590507ee0](https://app.lagatos.com/apps/directory/profile/2c69e55c-9558-4418-8304-a87590507ee0)
 
 The app labels it community-generated and names who made it, because I made it rather than its subject. It exists so other survivors can find them by what they can do. J.H.B., it is yours: claim it by creating an account, or tell me to delete it and it goes. Nobody who has been asked has wanted theirs removed, but the offer is real either way.
 
@@ -55,15 +55,15 @@ And the invitation is not conditional on the account. The listing is the thing s
 
 Everyone written about in this series is a self-identified Targeted Individual. That means they said so in public, and it is the only basis for the listing. I cannot verify it, and neither can a reader. Some people who say it are not survivors, and some are the people doing the harassing, so a post here is not a vouch for anybody and should not be read as one. I am not responsible for what anyone named on this list does or says, on the app, on Quora, or anywhere else. The closest anybody can get to finding a real Targeted Individual is through the app, which admits people one at a time through Unlock and has other mechanisms in place to filter actively. Even with those, there is no such thing as a hundred percent.
 
-Sign in to get access to the world's first directory of 300+ self-identified Targeted Individuals, free: https://app.chargingthefuture.com/apps/directory
+Sign in to get access to the world's first directory of 300+ self-identified Targeted Individuals, free: https://app.lagatos.com/apps/directory
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Workforce](https://app.chargingthefuture.com/apps/workforce) — [guide](https://app.chargingthefuture.com/guide#workforce)
-- [Skills Taxonomy](https://app.chargingthefuture.com/apps/skills-taxonomy) — [guide](https://app.chargingthefuture.com/guide#skills-taxonomy)
-- [SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt) — [guide](https://app.chargingthefuture.com/guide#skills-hunt)
-- [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
-- [Unlock](https://app.chargingthefuture.com/plugin/unlock) — [guide](https://app.chargingthefuture.com/guide#unlock)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Workforce](https://app.lagatos.com/apps/workforce) — [guide](https://app.lagatos.com/guide#workforce)
+- [Skills Taxonomy](https://app.lagatos.com/apps/skills-taxonomy) — [guide](https://app.lagatos.com/guide#skills-taxonomy)
+- [SkillsHunt](https://app.lagatos.com/apps/skills-hunt) — [guide](https://app.lagatos.com/guide#skills-hunt)
+- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Unlock](https://app.lagatos.com/plugin/unlock) — [guide](https://app.lagatos.com/guide#unlock)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

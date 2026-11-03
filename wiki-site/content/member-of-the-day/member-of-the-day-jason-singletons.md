@@ -1,7 +1,7 @@
 ---
 title: "Member of the Day: Jason Singletons"
 date: "2025-10-19"
-excerpt: "Member of the Day: Jason Singletons CTF Profile: https://app.chargingthefuture.com/apps/directory/public/5134f872-38b3-4870-815a-d90bb9f85e5f Quora Profile:..."
+excerpt: "Member of the Day: Jason Singletons CTF Profile: https://app.lagatos.com/apps/directory/public/5134f872-38b3-4870-815a-d90bb9f85e5f Quora Profile:..."
 category: Member of the Day
 slug: member of the day/member-of-the-day-jason-singletons
 repo: chargingthefuture/chargingthefuture
@@ -14,13 +14,13 @@ Title: Member of the Day: Jason Singletons
 Slug: member-of-the-day-jason-singletons
 Created: 2025-10-19
 Updated: 2025-11-29
-Excerpt: Member of the Day: Jason Singletons CTF Profile: https://app.chargingthefuture.com/apps/directory/public/5134f872-38b3-4870-815a-d90bb9f85e5f Quora Profile: https://www.quora.com/profile/Jason-Singletons Skill: program&hellip;
+Excerpt: Member of the Day: Jason Singletons CTF Profile: https://app.lagatos.com/apps/directory/public/5134f872-38b3-4870-815a-d90bb9f85e5f Quora Profile: https://www.quora.com/profile/Jason-Singletons Skill: program&hellip;
 -->
 
-> Member of the Day: Jason Singletons CTF Profile: https://app.chargingthefuture.com/apps/directory/public/5134f872-38b3-4870-815a-d90bb9f85e5f Quora Profile: https://www.quora.com/profile/Jason-Singletons Skill: program&hellip;
+> Member of the Day: Jason Singletons CTF Profile: https://app.lagatos.com/apps/directory/public/5134f872-38b3-4870-815a-d90bb9f85e5f Quora Profile: https://www.quora.com/profile/Jason-Singletons Skill: program&hellip;
 
 <h1><a name="p-191-member-of-the-day-jason-singletonshttpswwwquoracomprofilejason-singletons-1" class="anchor" href="#p-191-member-of-the-day-jason-singletonshttpswwwquoracomprofilejason-singletons-1" aria-label="Heading link"></a>Member of the Day: <a href="https://www.quora.com/profile/Jason-Singletons">Jason Singletons</a></h1>
-<p>CTF Profile: <a href="https://app.chargingthefuture.com/apps/directory/public/5134f872-38b3-4870-815a-d90bb9f85e5f">https://app.chargingthefuture.com/apps/directory/public/5134f872-38b3-4870-815a-d90bb9f85e5f</a></p>
+<p>CTF Profile: <a href="https://app.lagatos.com/apps/directory/public/5134f872-38b3-4870-815a-d90bb9f85e5f">https://app.lagatos.com/apps/directory/public/5134f872-38b3-4870-815a-d90bb9f85e5f</a></p>
 <p>Quora Profile: <a href="https://www.quora.com/profile/Jason-Singletons">https://www.quora.com/profile/Jason-Singletons</a></p>
 <h2><a name="p-191-skill-programming-2" class="anchor" href="#p-191-skill-programming-2" aria-label="Heading link"></a>Skill: programming</h2>
 <p>Jason sells programmed Rayhunters on Verizon Mobile Hotspots, the Orbic 400.</p>
