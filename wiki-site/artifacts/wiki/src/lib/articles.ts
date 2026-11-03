@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "denial-is-part-of-the-method",
     "title": "Denial is part of the method",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-17",
+    "date": "2026-11-03",
     "excerpt": "A saved Quora question asks why people deny it so hard. Some were never told, some were shown a setup, and some are taking part. Deniability is the method.",
     "category": "Community",
     "collection": "posts",
@@ -53,7 +53,7 @@ export const ARTICLES: ArticleMeta[] = [
       "directory",
       "community"
     ],
-    "number": 470
+    "number": 471
   },
   {
     "slug": "what-they-stand-to-lose",
