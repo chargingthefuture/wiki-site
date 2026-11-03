@@ -1,6 +1,6 @@
 ---
 title: "Watched by people, not a feed"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks whether targets are put on a live stream. What I have seen is people watching in person, and some of them assuming a feed exists."
 category: "Community"
 teaser: "A question I saved on Quora asks whether Targeted Individuals are put on a live stream for everybody taking part to watch. I have not seen one. What I have seen is people watching in person, sent to note how a target reacts, and people taking part who assume every target is recorded around the clock. I once watched one of them ask for that footage and be told there was none. The camera is not what gives them reach. Their economy is, and that part can be moved."
@@ -50,6 +50,6 @@ The Directory lists survivors by what they can do, so the next person needed can
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

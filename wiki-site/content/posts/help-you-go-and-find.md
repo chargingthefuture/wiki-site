@@ -1,6 +1,6 @@
 ---
 title: "Help you go and find"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks how to find local help and community. Help that is offered nearby is the help to doubt. Help you go and find is different."
 category: "Community"
 teaser: "A question I saved on Quora asks where Targeted Individuals can find help, and how to find others nearby. In 2024 I answered under it: do not seek it or take it. The help I had taken once came from somebody who was part of it, and it moved me where people could be placed around me. Local is where they already are. I would still say the same about help that is offered. What has changed is that there is now another kind: help you go and find, from people you picked by what they can do."
@@ -42,17 +42,17 @@ Finding three people who could help took me two years of filtering by hand ([Two
 
 ## How to look
 
-The [Directory](https://app.chargingthefuture.com/apps/directory) lists survivors and what they can do. Names, locations and a way to reach somebody are behind a free account, and a person checks each new member before they can use the app. Being listed costs nobody an account.
+The [Directory](https://app.lagatos.com/apps/directory) lists survivors and what they can do. Names, locations and a way to reach somebody are behind a free account, and a person checks each new member before they can use the app. Being listed costs nobody an account.
 
-Before any of that, the front page at https://chargingthefuture.com counts how many people in the Directory could help with what you need, with no name and no account ([See who could help you, before you make an account](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/see-who-could-help-without-an-account)).
+Before any of that, the front page at https://lagatos.com counts how many people in the Directory could help with what you need, with no name and no account ([See who could help you, before you make an account](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/see-who-could-help-without-an-account)).
 
 The difference from a stranger who offers is the direction. You read what somebody can do, you decide whether to reach them, and the contact starts from your side.
 
-For people to talk to rather than a skill, the [Commons](https://app.chargingthefuture.com) is a group chat of other Targeted Individuals, in the app. For living near each other, [A gated community, and who could plan it](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/a-gated-community-and-who-could-plan-it) is my answer.
+For people to talk to rather than a skill, the [Commons](https://app.lagatos.com) is a group chat of other Targeted Individuals, in the app. For living near each other, [A gated community, and who could plan it](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/a-gated-community-and-who-could-plan-it) is my answer.
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

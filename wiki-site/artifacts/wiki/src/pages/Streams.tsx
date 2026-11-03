@@ -23,7 +23,7 @@ import { Layout } from "@/components/Layout";
  * last one, so the page shown is the page the app answered with.
  */
 
-const APP_URL = "https://app.chargingthefuture.com";
+const APP_URL = "https://app.lagatos.com";
 const FEED_URL = `${APP_URL}/api/beacon/replays/feed`;
 const WATCH_URL = `${APP_URL}/apps/beacon`;
 
@@ -108,7 +108,7 @@ export default function Streams() {
             Every live broadcast from the app, newest first. Each one plays
             here with no account. Live broadcasts are at{" "}
             <a href={WATCH_URL} className="text-primary hover:underline">
-              app.chargingthefuture.com/apps/beacon
+              app.lagatos.com/apps/beacon
             </a>
             , and each replay is also posted in Commons.
           </p>
