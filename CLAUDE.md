@@ -92,8 +92,16 @@ carries it, because the owner froze that page outright and that freeze has not b
   page carries an autodiscovery link in `index.html` so a reader given the site address finds the
   feed without anybody copying an XML address, and a "Follow by RSS" row sits in the footer.
   GitHub Pages answers `/feed` with `feed.xml` when no `feed.html` exists, so a direct visit to
-  the `/feed` page showed the raw RSS file. `wiki:build:pages` copies `index.html` to `feed.html`
-  for that reason; any new route whose name matches a file in `public/` needs the same copy.
+  the `/feed` page showed the raw RSS file. `wiki:build:pages` writes a `feed.html` for that
+  reason (see link previews below); any new route whose name matches a file in `public/` needs one.
+  The feed's channel title is its own address (owner directive, 2026-11-03), for the reason below.
+- Link previews show the page's own address (owner directive, 2026-11-03): every title and `og:`
+  tag a preview reads is the plain address, so a shared link shows where it goes, on every site
+  the project runs. The site is one page filled in by the browser, and Pages answered every post
+  address with `404.html` under one title, so `scripts/src/build-link-previews.ts` runs at the
+  end of `wiki:build:pages` and writes a copy of the built page per address — `index.html`,
+  `<route>.html` for each route in `PAGES`, `article/<repo>/<slug>.html` per registry entry —
+  each with its own address in the title and tags. A new route goes in `PAGES`.
 - Invite cards: the row of cards (`InviteStrip.tsx`) at the top of `/feed` and under the home
   hero reads the app's public feed, `https://app.lagatos.com/api/directory/invites/public`,
   in the browser after the page loads, so nothing is built for it here. It shows the newest ten

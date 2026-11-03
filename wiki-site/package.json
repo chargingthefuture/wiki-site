@@ -23,7 +23,7 @@
     "wiki:posts-json": "pnpm --filter @workspace/scripts run build-posts-json",
     "wiki:preview": "PORT=5000 BASE_PATH=/ pnpm --filter @workspace/wiki run dev",
     "wiki:build": "pnpm run wiki:feed && pnpm run wiki:readings && pnpm run wiki:pb2 && pnpm run wiki:posts-json && PORT=5000 BASE_PATH=/ pnpm --filter @workspace/wiki run build",
-    "wiki:build:pages": "pnpm run wiki:feed && pnpm run wiki:readings && pnpm run wiki:pb2 && pnpm run wiki:posts-json && PORT=5000 BASE_PATH=/chargingthefuture/ pnpm --filter @workspace/wiki run build && cp artifacts/wiki/dist/public/index.html artifacts/wiki/dist/public/404.html && cp artifacts/wiki/dist/public/index.html artifacts/wiki/dist/public/feed.html",
+    "wiki:build:pages": "pnpm run wiki:feed && pnpm run wiki:readings && pnpm run wiki:pb2 && pnpm run wiki:posts-json && PORT=5000 BASE_PATH=/chargingthefuture/ pnpm --filter @workspace/wiki run build && cp artifacts/wiki/dist/public/index.html artifacts/wiki/dist/public/404.html && pnpm --filter @workspace/scripts run build-link-previews",
     "wiki:paste-full": "pnpm --filter @workspace/scripts run paste-sheet-full",
     "wiki:paste-tts": "pnpm --filter @workspace/scripts run paste-sheet-tts",
     "wiki:check-numbers": "pnpm --filter @workspace/scripts run check-paste-sheet-numbers",
