@@ -19,7 +19,7 @@ There is already somebody on the list who manages cleaners.
 
 ## Janie
 
-Janie Spears (https://www.quora.com/profile/Janie-Spears-7), in Atlanta, Georgia. Her Directory profile is at https://app.chargingthefuture.com/apps/directory/profile/da8fcf40-d1d6-4fce-af7d-b706b9aec849 and it lists Office Management, Painting, Cleaning techniques and schedules, and Room preparation and cleanliness standards, with a note that she can also help people with computer software.
+Janie Spears (https://www.quora.com/profile/Janie-Spears-7), in Atlanta, Georgia. Her Directory profile is at https://app.lagatos.com/apps/directory/profile/da8fcf40-d1d6-4fce-af7d-b706b9aec849 and it lists Office Management, Painting, Cleaning techniques and schedules, and Room preparation and cleanliness standards, with a note that she can also help people with computer software.
 
 ![Janie Spears's Directory profile in the app, headed Directory profile with a Share control. It is labeled Community-generated profile, nominated by @farah, located in Atlanta, Georgia, United States. A panel reads View Quora profile — their Quora profile is the social proof, read more before you reach out. Under About: I can also provide assistance with using computer software. Under Specializations: Office Management; Painting; Cleaning techniques and schedules; Room preparation and cleanliness standards. Below, a panel headed Want to work together? reads: the directory shows who is in the community and what they do. Want a service or good from this person? Look for them in Foundation, where members offer and exchange help — or browse Foundation to find someone else who can.](images/janie-spears-directory-profile-2026-09-13.jpg)
 
@@ -49,14 +49,14 @@ That is the shape of the thing rather than a slogan. The reason to be findable i
 
 Everyone written about in this series is a self-identified Targeted Individual. That means they said so in public, and it is the only basis for the listing. I cannot verify it, and neither can a reader. Some people who say it are not survivors, and some are the people doing the harassing, so a post here is not a vouch for anybody and should not be read as one. I am not responsible for what anyone named on this list does or says, on the app, on Quora, or anywhere else. The closest anybody can get to finding a real Targeted Individual is through the app, which admits people one at a time through Unlock and has other mechanisms in place to filter actively. Even with those, there is no such thing as a hundred percent.
 
-Sign in to get access to the world's first directory of 300+ self-identified Targeted Individuals, free: https://app.chargingthefuture.com/apps/directory
+Sign in to get access to the world's first directory of 300+ self-identified Targeted Individuals, free: https://app.lagatos.com/apps/directory
 
 ## Where to find it in the app
 
-- [SkillUp](https://app.chargingthefuture.com/apps/skill-up) — [guide](https://app.chargingthefuture.com/guide#skill-up)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [TrustTransport](https://app.chargingthefuture.com/apps/trust-transport) — [guide](https://app.chargingthefuture.com/guide#trust-transport)
-- [Workforce](https://app.chargingthefuture.com/apps/workforce) — [guide](https://app.chargingthefuture.com/guide#workforce)
-- [Unlock](https://app.chargingthefuture.com/plugin/unlock) — [guide](https://app.chargingthefuture.com/guide#unlock)
+- [SkillUp](https://app.lagatos.com/apps/skill-up) — [guide](https://app.lagatos.com/guide#skill-up)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [TrustTransport](https://app.lagatos.com/apps/trust-transport) — [guide](https://app.lagatos.com/guide#trust-transport)
+- [Workforce](https://app.lagatos.com/apps/workforce) — [guide](https://app.lagatos.com/guide#workforce)
+- [Unlock](https://app.lagatos.com/plugin/unlock) — [guide](https://app.lagatos.com/guide#unlock)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

@@ -18,7 +18,7 @@ I would rather tell you that than leave you to find it.
 
 ## Ms Thompson
 
-Ms Thompson (https://www.quora.com/profile/ms-thompson-11), in the United States. The Directory profile is at https://app.chargingthefuture.com/apps/directory/profile/a9cf7c99-cd65-47bb-96ef-30b7a6dfb37d.
+Ms Thompson (https://www.quora.com/profile/ms-thompson-11), in the United States. The Directory profile is at https://app.lagatos.com/apps/directory/profile/a9cf7c99-cd65-47bb-96ef-30b7a6dfb37d.
 
 ![Ms Thompson's Directory listing in the app, captured October 14, 2026. The heading reads Ms Thompson, below it "Community-generated profile" and "Nominated by @farah", then the tags Public Safety & Justice and Lawyers, and the location United States. A button reads View Quora profile. Under the heading SPECIALIZATIONS are five entries: Case preparation and negotiation; Contract and statutory interpretation; Legal advocacy and advice; Mechanical and electrical repair; Mechanical/electrical repair. A box at the bottom headed Want to work together? reads: The directory shows who is in the community and what they do. Want a service or good from this person? Look for them in Foundation, where members offer and exchange help — or browse Foundation to find someone else who can.](images/ms-thompson-directory-profile-2026-10-14.jpg)
 
@@ -63,12 +63,12 @@ Somebody whose work is other people's disputes and other people's machines needs
 
 Everyone written about in this series is a self-identified Targeted Individual. That means they said so in public, and it is the only basis for the listing. I cannot verify it, and neither can a reader. Some people who say it are not survivors, and some are the people doing the harassing, so a post here is not a vouch for anybody and should not be read as one. I am not responsible for what anyone named on this list does or says, on the app, on Quora, or anywhere else. The closest anybody can get to finding a real Targeted Individual is through the app, which admits people one at a time through Unlock and has other mechanisms in place to filter actively. Even with those, there is no such thing as a hundred percent.
 
-Sign in to get access to the world's first directory of 300+ self-identified Targeted Individuals, free: https://app.chargingthefuture.com/apps/directory
+Sign in to get access to the world's first directory of 300+ self-identified Targeted Individuals, free: https://app.lagatos.com/apps/directory
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Workforce](https://app.chargingthefuture.com/apps/workforce) — [guide](https://app.chargingthefuture.com/guide#workforce)
-- [Unlock](https://app.chargingthefuture.com/plugin/unlock) — [guide](https://app.chargingthefuture.com/guide#unlock)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Workforce](https://app.lagatos.com/apps/workforce) — [guide](https://app.lagatos.com/guide#workforce)
+- [Unlock](https://app.lagatos.com/plugin/unlock) — [guide](https://app.lagatos.com/guide#unlock)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
