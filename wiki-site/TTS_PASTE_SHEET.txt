@@ -77,7 +77,7 @@ TRACKER: 21 full post, 6 teaser, 7 skipped, 10 to re-record.
 | 2026-08-28 | rfs-teaching-and-childcare | Skipped |  |
 | 2026-08-28 | what-about-school | Teaser | 3:07 (the full post would be about 10:25) |
 
-STILL TO RECORD: 81 posts (10 of them re-recordings).
+STILL TO RECORD: 82 posts (10 of them re-recordings).
 
 ==================== 2026-08-20 · teaser (the full post is 9,071 characters) ====================
 
@@ -2351,3 +2351,41 @@ Old links, new links.
 Quora has erased my accounts seventy-six times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Eighteen of those came after October 1. The latest ban landed at 4:39 in the morning on October 27, and the handle now open was opened five hours later. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.
 
 Full post, No. 406, available on the blog.
+
+==================== 2026-11-02 ====================
+
+why-we-count-days-won
+
+Why we count days won.
+
+The new version of the app opens on a screen called Today in the Avenhood. The first card on it says Days the Avenhood has won.
+
+Avenhood is our word for the community and the idea at once. An Aven is one member of it. Both are on the Dictionary.
+
+What counts.
+
+Time spent together. Time in a room with other members counts. So does a call. So does helping with somebody's task, once the person who posted it confirms it was done, and a "This helped me" once its author confirms it.
+
+Time with the app open and nobody with you counts for nothing. Sitting alone with a screen does not win anything back.
+
+Why it belongs to all of us.
+
+The count is added up across everybody. It is one number for the Avenhood, not a score for anyone. Nobody is ranked by it, and nobody's own number is shown.
+
+Plenty in our lives already sorts us into who counts and who does not. This does not. Twenty minutes you gave on a hard day sit in it beside everybody else's.
+
+Why we count at all.
+
+Every minute in it is a minute not spent on Specterati schemes. It is time they did not get, and more time for each of us to reach our own definition of happiness, whatever that turns out to be.
+
+The schemes take days from us one at a time, and mostly alone. This counts the days we take back, and we take them back together.
+
+Half an hour a day.
+
+This version of the app carries the same message as Peace Battle 2: half an hour a day, given to each other, counted as days won back together.
+
+Peace Battle 2 describes what winning looks like at the far end. This card is how we see it from one day to the next.
+
+For anyone who wants to check it.
+
+A day won is eight hours. The app adds up the minutes every member spends together, in the ways listed above, and divides by 480.

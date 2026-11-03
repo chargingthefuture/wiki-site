@@ -39,6 +39,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "why-we-count-days-won",
+    "title": "Why we count days won",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-11-02",
+    "excerpt": "The new version of the app opens on one number, Days the Avenhood has won. Here is what goes into it, why it belongs to all of us at once, and why we count it at all.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/why-we-count-days-won.md",
+    "teaser": "The new version of the app opens on a card called Days the Avenhood has won. It counts time members spend together: in rooms, on calls, and helping with each other's tasks. Time with the app open and nobody there counts for nothing. It is added up across everybody, so nobody is ranked by it. Every minute in it is time not spent on Specterati schemes, and more time for each of us to reach our own definition of happiness.",
+    "topics": [
+      "community",
+      "skills-economy"
+    ],
+    "number": 458
+  },
+  {
     "slug": "old-links-new-links",
     "title": "Old links, new links",
     "repo": "chargingthefuture/wiki-site",
