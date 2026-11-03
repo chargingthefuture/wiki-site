@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "knowing-changes-nothing-for-them",
     "title": "Knowing changes nothing for them",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-17",
+    "date": "2026-11-03",
     "excerpt": "A saved Quora question asks what they do once you know. Nothing changes for them, telling them gains nothing, and your attention is better spent elsewhere.",
     "category": "Community",
     "collection": "posts",
@@ -53,7 +53,7 @@ export const ARTICLES: ArticleMeta[] = [
       "community",
       "directory"
     ],
-    "number": 482
+    "number": 483
   },
   {
     "slug": "help-you-go-and-find",
