@@ -1,6 +1,6 @@
 ---
 title: "The levels are theirs"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks for the signs of being a high level target. The ranks I have seen belong to the people doing it. The signs point up their chain."
 category: "Community"
 teaser: "A question I saved on Quora asks what the indicators are of being a high level Targeted Individual. The ranks I have seen are not ranks of targets. They belong to the people taking part: it is organized crime, and organizations have hierarchy. A handler near you outranks the person on the street and sends instructions based on how you just reacted. Higher still, the money buys into ordinary businesses. What the signs measure is how far up their chain reaches, not a level you hold."
@@ -42,7 +42,7 @@ What helps is the part of daily life that does not run through people who can be
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
