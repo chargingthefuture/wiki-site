@@ -23,7 +23,7 @@ Excerpt: Member of the Day: Krissyy Hello Krissyy, giving you a shout out as you
 <p>Hello Krissyy, giving you a shout out as you were part of the first group of TIs to respond to early posts of mine about the TI economy.</p>
 <p>I created a profile on your behalf. If you join, you can keep it and update as you like. Or if you do not want to be featured let me know.</p>
 <p>CTF Profile:</p>
-<p><a href="https://app.chargingthefuture.com/apps/directory/public/55f3261f-6720-4a0f-95f5-6f925d985bf1">https://app.chargingthefuture.com/apps/directory/public/55f3261f-6720-4a0f-95f5-6f925d985bf1</a></p>
+<p><a href="https://app.lagatos.com/apps/directory/public/55f3261f-6720-4a0f-95f5-6f925d985bf1">https://app.lagatos.com/apps/directory/public/55f3261f-6720-4a0f-95f5-6f925d985bf1</a></p>
 <p>Quora Profile:</p>
 <p><a href="https://www.quora.com/profile/Krissyy-2">https://www.quora.com/profile/Krissyy-2</a></p>
 <h2><a name="p-272-skill-paralegal-2" class="anchor" href="#p-272-skill-paralegal-2" aria-label="Heading link"></a>Skill: Paralegal</h2>

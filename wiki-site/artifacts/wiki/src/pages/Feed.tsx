@@ -62,7 +62,7 @@ export default function Feed() {
 
   return (
     <Layout>
-      {/* The row of invite posts sits first: chargingthefuture.com/feed lands here, and the
+      {/* The row of invite posts sits first: lagatos.com/feed lands here, and the
           person a Quora notification named is the reader this page most needs to catch. */}
       <InviteStrip />
       <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">

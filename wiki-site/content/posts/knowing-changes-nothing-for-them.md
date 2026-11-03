@@ -1,6 +1,6 @@
 ---
 title: "Knowing changes nothing for them"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks what they do once you know. Nothing changes for them, telling them gains nothing, and your attention is better spent elsewhere."
 category: "Community"
 teaser: "A question I saved on Quora in November 2024 asks what the people doing this do when they find out you know. The question expects a turning point, and there is none. Your knowing was never the thing they were hiding from, and it does not end anything. Telling them gains nothing either: they do not care, a person won over is replaced, and a confrontation is the reaction they were waiting for. What changes is where your own time goes, toward yourself and toward people who do not take part."
@@ -44,6 +44,6 @@ Time spent arguing with a person who is paid or permitted to be there goes nowhe
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

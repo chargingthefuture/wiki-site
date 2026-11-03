@@ -42,10 +42,10 @@ So the platform generates questions about Targeted Individuals, addressed to Tar
 
 A question is answered here when a person asked it. A bot's question is answered only when people have been asking the same thing in their own words, which the first one had, so I answered it. The other three I leave alone.
 
-The answers live on this blog now, at addresses that do not get erased. Quora gets a short version and a link back. The conversation under each post happens in [Fireside](https://app.chargingthefuture.com/apps/fireside), in the app.
+The answers live on this blog now, at addresses that do not get erased. Quora gets a short version and a link back. The conversation under each post happens in [Fireside](https://app.lagatos.com/apps/fireside), in the app.
 
 ## Where to find it in the app
 
-- [Fireside](https://app.chargingthefuture.com/apps/fireside) — [guide](https://app.chargingthefuture.com/guide#fireside)
+- [Fireside](https://app.lagatos.com/apps/fireside) — [guide](https://app.lagatos.com/guide#fireside)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

@@ -34,9 +34,9 @@ That did not work, for three reasons:
 
 ## Trust
 
-The Skills Economy changed that with [Trust](https://app.chargingthefuture.com/apps/trust). Trust shows what each member has actually done in the app, in plain lines other members can read: their exchanges, their connections with other members, the cohorts they finished. It highlights the people who provide material value. There is no score and no badge, and what other members see is set the same way for everyone, so it carries nobody's opinion of anybody, mine included.
+The Skills Economy changed that with [Trust](https://app.lagatos.com/apps/trust). Trust shows what each member has actually done in the app, in plain lines other members can read: their exchanges, their connections with other members, the cohorts they finished. It highlights the people who provide material value. There is no score and no badge, and what other members see is set the same way for everyone, so it carries nobody's opinion of anybody, mine included.
 
-A person still reads the Quora profile each new member sends in through [Unlock](https://app.chargingthefuture.com/plugin/unlock) before the app opens up. That is a look at a public page, not a conversation with me.
+A person still reads the Quora profile each new member sends in through [Unlock](https://app.lagatos.com/plugin/unlock) before the app opens up. That is a look at a public page, not a conversation with me.
 
 ## Ourselves, not them
 
@@ -46,7 +46,7 @@ When that happens, authentic Targeted Individuals surface, because what surfaces
 
 ## Where to find it in the app
 
-- [Trust](https://app.chargingthefuture.com/apps/trust) — [guide](https://app.chargingthefuture.com/guide#trust)
-- [Unlock](https://app.chargingthefuture.com/plugin/unlock) — [guide](https://app.chargingthefuture.com/guide#unlock)
+- [Trust](https://app.lagatos.com/apps/trust) — [guide](https://app.lagatos.com/guide#trust)
+- [Unlock](https://app.lagatos.com/plugin/unlock) — [guide](https://app.lagatos.com/guide#unlock)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

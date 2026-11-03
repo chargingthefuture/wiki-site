@@ -15,12 +15,15 @@
     "paste-sheet-tts": "tsx ./src/paste-sheet-tts.ts",
     "check-paste-sheet-numbers": "tsx ./src/check-paste-sheet-numbers.ts",
     "check-banned-words": "tsx ./src/check-banned-words.ts",
+    "check-app-address": "tsx ./src/check-app-address.ts",
     "build-feed": "tsx ./src/build-feed.ts",
     "build-readings": "tsx ./src/build-readings.ts",
     "import:quora-export": "tsx ./src/import-quora-export.ts",
     "sync-fireside-exports": "tsx ./src/sync-fireside-exports.ts",
     "sync-fireside-exports:dry": "tsx ./src/sync-fireside-exports.ts --dry-run",
-    "build-pb2-messages": "tsx ./src/build-pb2-messages.ts"
+    "build-pb2-messages": "tsx ./src/build-pb2-messages.ts",
+    "build-posts-json": "tsx ./src/build-posts-json.ts",
+    "old-links-update": "tsx ./src/old-links-update.ts"
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",

@@ -1,6 +1,6 @@
 ---
 title: "Any petty reason is enough"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "Somebody asked on Quora why they became a Targeted Individual. There is no criterion and no test they failed: somebody with access put a name on a list, and the reasons a person is told afterward are fitted to them."
 category: "Community"
 teaser: "A saved Quora question asks why the person asking became a Targeted Individual. There is no criterion. Anyone can be added to the list at any time and for any reason, and the profiling comes after the name is added, not before. Not saying hi to the wrong person can be enough. The reasons a person is told afterward are fitted to them: one is told it is God, another the government, another a secret society. Mine started when I was five, and a five-year-old has done nothing to anybody. The line that a target did something to merit this is said by the people doing it. Nobody deserves to be trafficked."
@@ -44,11 +44,11 @@ Mine started when I was five, in a neighborhood I had just moved to, and the peo
 
 The line that a Targeted Individual did something to merit this is said by agents of crime ([They cannot be ignored](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/they-cannot-be-ignored)). It is not a finding about you. It comes from the people doing it.
 
-On January 4, 2026 I wrote that speaking with other Targeted Individuals brings clarity and exposes the lies. The [Commons](https://app.chargingthefuture.com), the group chat, reads without signing in. [ClickLog](https://app.chargingthefuture.com/apps/click-log) takes an incident, a date, and a location if you choose one, and your notes are private.
+On January 4, 2026 I wrote that speaking with other Targeted Individuals brings clarity and exposes the lies. The [Commons](https://app.lagatos.com), the group chat, reads without signing in. [ClickLog](https://app.lagatos.com/apps/click-log) takes an incident, a date, and a location if you choose one, and your notes are private.
 
 ## Where to find it in the app
 
-- [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
+- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

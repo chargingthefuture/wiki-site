@@ -45,13 +45,13 @@ Across these networks there is an understanding that a target can be robbed, inj
 
 ## What you can keep
 
-A person with no witnesses and no record is easy to describe however the story needs. [ClickLog](https://app.chargingthefuture.com/apps/click-log) is a dated record of your own: a date, a location if you choose one, a few seconds an entry, and your notes stay yours. None of this is legal advice.
+A person with no witnesses and no record is easy to describe however the story needs. [ClickLog](https://app.lagatos.com/apps/click-log) is a dated record of your own: a date, a location if you choose one, a few seconds an entry, and your notes stay yours. None of this is legal advice.
 
-Isolation is the method, so every ride, room and job that runs through somebody who does not take part is one fewer in reach of the people who do. The [Directory](https://app.chargingthefuture.com/apps/directory) lists survivors by what they can do.
+Isolation is the method, so every ride, room and job that runs through somebody who does not take part is one fewer in reach of the people who do. The [Directory](https://app.lagatos.com/apps/directory) lists survivors by what they can do.
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

@@ -45,7 +45,7 @@ The shape of it is not complicated. Waste the person's time. Drain their money. 
 
 ## Six of these now have names
 
-Every layer of that trip is a scheme on the community's canonical list. The list is public: [chargingthefuture.com/schemes](https://www.chargingthefuture.com/schemes).
+Every layer of that trip is a scheme on the community's canonical list. The list is public: [lagatos.com/schemes](https://lagatos.com/schemes).
 
 | What happened | Scheme |
 |---|---|
@@ -84,10 +84,10 @@ And the list itself grows. When a scheme has no name yet, holders of the Weavers
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
-- [Unlock](https://app.chargingthefuture.com/plugin/unlock) — [guide](https://app.chargingthefuture.com/guide#unlock)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Unlock](https://app.lagatos.com/plugin/unlock) — [guide](https://app.lagatos.com/guide#unlock)
 
-The problems list is public too, alongside the answer built for each one: [chargingthefuture.com/look-ma](https://www.chargingthefuture.com/look-ma).
+The problems list is public too, alongside the answer built for each one: [lagatos.com/look-ma](https://lagatos.com/look-ma).
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
