@@ -19,7 +19,7 @@ This time is different, because the list has somewhere to live.
 
 Each attack type below becomes a label in ClickLog — a new label category, alongside the existing problems and schemes. When you log an incident, you will be able to tag it with the kind of DEW attack it was. Tagged incidents feed the global trend map, so the same attack type showing up across cities stops being one person's story and becomes a documented pattern.
 
-The [ClickLog guide](https://app.chargingthefuture.com/guide#click-log) explains how logging works. The short version of the privacy rules: your notes are not shown to anyone else here and are not in the trend report; a private, untagged incident needs no location; tagging requires a location and trend sharing, because tags exist to feed the map.
+The [ClickLog guide](https://app.lagatos.com/guide#click-log) explains how logging works. The short version of the privacy rules: your notes are not shown to anyone else here and are not in the trend report; a private, untagged incident needs no location; tagging requires a location and trend sharing, because tags exist to feed the map.
 
 ## The working list
 
@@ -33,11 +33,11 @@ That is not the full picture, and I know it. It is the seed.
 
 ## How to add to it
 
-If you experience a type of attack that is not on this list, comment in the [Commons group chat](https://app.chargingthefuture.com) in the app. Describe what it feels like in your own words; a plain name for it gets worked out in the thread. The list grows the way the schemes list grows: from what members actually report, one named entry at a time.
+If you experience a type of attack that is not on this list, comment in the [Commons group chat](https://app.lagatos.com) in the app. Describe what it feels like in your own words; a plain name for it gets worked out in the thread. The list grows the way the schemes list grows: from what members actually report, one named entry at a time.
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
