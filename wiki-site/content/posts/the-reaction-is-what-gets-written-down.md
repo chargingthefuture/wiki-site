@@ -32,7 +32,7 @@ The method is provocation. You are provoked until you react like anyone would, a
 
 Two versions go further than a picture. One is a false diagnosis: working with the police and the mental health community to get you committed under a false schizophrenia diagnosis. The other is a false accusation, such as the fabricated domestic violence claim that an arranged romance makes credible ([A Safe Place to Shower](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/a-safe-place-to-shower)).
 
-A picture is not answered by arguing with it ([You cannot argue a smear down](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/you-cannot-argue-a-smear-down)). A person with no witnesses and no record is easy to describe as unstable; a person with a dated log is not. [ClickLog](https://app.chargingthefuture.com/apps/click-log) is that log: a date, a location if you choose one, a few seconds an entry, and your notes stay yours.
+A picture is not answered by arguing with it ([You cannot argue a smear down](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/you-cannot-argue-a-smear-down)). A person with no witnesses and no record is easy to describe as unstable; a person with a dated log is not. [ClickLog](https://app.lagatos.com/apps/click-log) is that log: a date, a location if you choose one, a few seconds an entry, and your notes stay yours.
 
 None of this is legal advice.
 
@@ -42,11 +42,11 @@ On Quora on October 2, 2025, I put it this way: "Ultimately, they want any of th
 
 Under those endings sits the economy. The harassment is not the point; the economy behind it is ([the manifesto](https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP)). Pushing somebody out of a job cuts them off from money, from the colleagues who might have backed them up, and from the reference that gets the next job ([It happens at work](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/it-happens-at-work)). Once a person is nearly alone, every ride, every room, every job runs through hands that can be reached ([Nearly a hundred percent isolated](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/nearly-a-hundred-percent-isolated)).
 
-So the case and the goal are one thing. A person without income, without witnesses and without a record of their own is easy to describe however the picture needs. The [Directory](https://app.chargingthefuture.com/apps/directory) lists survivors by what they can do, so work, a room or a ride can go through somebody who does not take part.
+So the case and the goal are one thing. A person without income, without witnesses and without a record of their own is easy to describe however the picture needs. The [Directory](https://app.lagatos.com/apps/directory) lists survivors by what they can do, so work, a room or a ride can go through somebody who does not take part.
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

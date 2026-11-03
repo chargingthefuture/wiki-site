@@ -31,7 +31,7 @@ A typical protest stands in a physical place and demands to be recognized. It fa
 
 Peace Battle 2 borrows an idea from the years after the United States Civil War, the one W. E. B. Du Bois named in 1903 when he wrote about the peace-battle of that century: a group of people who were not going to be given anything, taking a stand by combining what they already had among themselves. It faced inward.
 
-So does this. I am not protesting to the people doing this. We are protesting to Targeted Individuals. Everything we need and want, we already have collectively: the skills are on the [Directory](https://app.chargingthefuture.com/apps/directory), the arithmetic is in Workforce, and the goal board is where a task changes hands. Peace Battle 2 is a challenge to every Targeted Individual to turn to another Targeted Individual for something of material value. A ride, a repair, a room, an hour of somebody's trade. It is a conscious choice, made again each day, not to fund and not to take part in the economy that is run on us.
+So does this. I am not protesting to the people doing this. We are protesting to Targeted Individuals. Everything we need and want, we already have collectively: the skills are on the [Directory](https://app.lagatos.com/apps/directory), the arithmetic is in Workforce, and the goal board is where a task changes hands. Peace Battle 2 is a challenge to every Targeted Individual to turn to another Targeted Individual for something of material value. A ride, a repair, a room, an hour of somebody's trade. It is a conscious choice, made again each day, not to fund and not to take part in the economy that is run on us.
 
 A protest that faces outward has a length, because it is waiting. This one is not waiting on anybody's answer, so there is nothing for it to run out of.
 
@@ -43,8 +43,8 @@ So, how long? As long as you need things and another Targeted Individual can sup
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Workforce](https://app.chargingthefuture.com/apps/workforce) — [guide](https://app.chargingthefuture.com/guide#workforce)
-- [PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming) — [guide](https://app.chargingthefuture.com/guide#peer-programming)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Workforce](https://app.lagatos.com/apps/workforce) — [guide](https://app.lagatos.com/guide#workforce)
+- [PeerProgramming](https://app.lagatos.com/apps/peer-programming) — [guide](https://app.lagatos.com/guide#peer-programming)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

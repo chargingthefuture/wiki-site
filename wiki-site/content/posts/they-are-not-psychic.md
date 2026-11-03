@@ -34,7 +34,7 @@ That post also has the other half of how the accuracy gets built: people work at
 
 The second reason is the one that gets missed, and it is the larger of the two.
 
-A prediction is impressive when the person making it has no hand in the outcome. Take that condition away and it is not a prediction at all. These people run named schemes with intended outcomes, and the list of them is public at [chargingthefuture.com/schemes](https://www.chargingthefuture.com/schemes). A canceled ticket, a job that evaporates, a landlord who suddenly will not renew, a delay that makes you miss the thing you were going to — those are arranged, and somebody who arranges an event knows how it ends.
+A prediction is impressive when the person making it has no hand in the outcome. Take that condition away and it is not a prediction at all. These people run named schemes with intended outcomes, and the list of them is public at [lagatos.com/schemes](https://lagatos.com/schemes). A canceled ticket, a job that evaporates, a landlord who suddenly will not renew, a delay that makes you miss the thing you were going to — those are arranged, and somebody who arranges an event knows how it ends.
 
 [One bus trip of mine ran at least seven of those schemes in sequence](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/one-trip-seven-schemes), and one of them canceled my ticket while I was sitting on the bus it was for. Anybody with a hand in that could have told you in advance where I would be standing that night. It is not foresight. It is scheduling.
 
@@ -74,7 +74,7 @@ What they actually have is money, technology, a network, and the willingness to 
 
 Two things, and the second is the one that changes anything.
 
-Write down what happens, dated, as it happens. [ClickLog](https://app.chargingthefuture.com/apps/click-log) takes about fifteen seconds an incident and your notes stay yours. A record is what lets you see the pattern afterward, including the times they got you wrong, which is the part that shows where the limit is.
+Write down what happens, dated, as it happens. [ClickLog](https://app.lagatos.com/apps/click-log) takes about fifteen seconds an incident and your notes stay yours. A record is what lets you see the pattern afterward, including the times they got you wrong, which is the part that shows where the limit is.
 
 And work on the options, because options are material rather than a mindset. Somewhere to cook. An hour of a trade you do not have. A ride from somebody who is not reporting on it. Money that does not come through anyone doing this to you. Every one of those is a move they cannot call in advance, and every one of them is what this economy is for.
 
@@ -82,10 +82,10 @@ That is not a defense against being watched. Nothing is. It is a way of being ha
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [SocketRelay](https://app.chargingthefuture.com/apps/socket-relay) — [guide](https://app.chargingthefuture.com/guide#socket-relay)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
-- [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [SocketRelay](https://app.lagatos.com/apps/socket-relay) — [guide](https://app.lagatos.com/guide#socket-relay)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
+- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
