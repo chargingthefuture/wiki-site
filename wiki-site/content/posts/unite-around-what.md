@@ -34,7 +34,7 @@ Here is the order that works. Combat first, by which I mean [self-defense](https
 
 The method used on us is economic. Being removed from work, from housing, from references and from standing is how a person is made reachable. [The economics that oppress us can save us](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/economics-oppress-save): a method that works runs both directions, and arranging work, housing and standing between people who are not part of it is the same lever with the sign changed.
 
-That is what the [Directory](https://app.chargingthefuture.com/apps/directory) is for. It lists Targeted Individuals by what they can do: a trade, a skill, a thing somebody else needs this week. Not by what they believe about who is behind this. Roderic is on it, for pastoral care and chaplaincy and for psychological assessment and testing, and the banned account did not take that listing with it. Two people who disagree completely about the government can still fix each other's car, and once they have, they are united in the only way that has ever held. [How few people it takes](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-few-people-it-takes) runs the arithmetic: a hundred people exchanging at a time is enough to live on, and it does not have to be the same hundred.
+That is what the [Directory](https://app.lagatos.com/apps/directory) is for. It lists Targeted Individuals by what they can do: a trade, a skill, a thing somebody else needs this week. Not by what they believe about who is behind this. Roderic is on it, for pastoral care and chaplaincy and for psychological assessment and testing, and the banned account did not take that listing with it. Two people who disagree completely about the government can still fix each other's car, and once they have, they are united in the only way that has ever held. [How few people it takes](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-few-people-it-takes) runs the arithmetic: a hundred people exchanging at a time is enough to live on, and it does not have to be the same hundred.
 
 ## It has worked before
 
@@ -52,16 +52,16 @@ A psyop is a psyop. Each version is aimed at a different group, and each has bee
 
 The part of the question about exposing it is real, and the answer is smaller and harder than a campaign.
 
-Nobody I know has made it stop by exposing it, and [what can be stopped](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-can-be-stopped) is what it costs you. What one person can produce is a dated record, kept as it happens, over months. A single report carries one incident; a record carries the pattern, and the pattern is the only thing an outsider has ever found persuasive. [ClickLog](https://app.chargingthefuture.com/apps/click-log) takes about fifteen seconds an incident, and the shared totals, with nobody's notes and nobody's location, are published for anybody to use.
+Nobody I know has made it stop by exposing it, and [what can be stopped](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-can-be-stopped) is what it costs you. What one person can produce is a dated record, kept as it happens, over months. A single report carries one incident; a record carries the pattern, and the pattern is the only thing an outsider has ever found persuasive. [ClickLog](https://app.lagatos.com/apps/click-log) takes about fifteen seconds an incident, and the shared totals, with nobody's notes and nobody's location, are published for anybody to use.
 
-That is also where directed energy attacks belong. There is [a list of every kind](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/dew-attack-types), built so each one can be logged under its own name, and survivors add to it in the [Commons](https://app.chargingthefuture.com). I do not have a defense against them to offer, and I am not going to write one I do not have. What I have is a way to make them count in a record that nobody can tell you is in your head.
+That is also where directed energy attacks belong. There is [a list of every kind](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/dew-attack-types), built so each one can be logged under its own name, and survivors add to it in the [Commons](https://app.lagatos.com). I do not have a defense against them to offer, and I am not going to write one I do not have. What I have is a way to make them count in a record that nobody can tell you is in your head.
 
 So: unite around what you can do for each other, defend yourselves with the method they use, and keep the record. Who is behind it can stay an open question. It has been one for centuries, and nobody needs it answered to do any of the three.
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Commons](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Commons](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

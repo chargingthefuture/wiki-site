@@ -70,7 +70,7 @@ That is not a gate on the Skills Economy. It is a peer-to-peer marketplace and a
 
 The app is built to take the awkwardness out of that exchange, so the friction sits somewhere other than on a person who already has enough of it.
 
-You post what you need on [SocketRelay](https://app.chargingthefuture.com/apps/socket-relay) and whoever has one answers — nobody has to open with a speech. [Foundation](https://app.chargingthefuture.com/apps/foundation) lists providers with what they offer, so the terms are on the table before the conversation. The [Directory](https://app.chargingthefuture.com/apps/directory) lets you look up the skill instead of asking a room and hoping. [ServiceCredits](https://app.chargingthefuture.com/apps/service-credits) settles what was exchanged in an internal unit rather than money, so somebody with nothing in a bank account is not out of the exchange. [Recurring Activity](https://app.chargingthefuture.com/apps/recurring-activity) records an arrangement that has been running for months, which is often the help nobody wrote down. And [Trust](https://app.chargingthefuture.com/apps/trust) builds credibility out of what somebody actually did, so being new is not the same as being unknown.
+You post what you need on [SocketRelay](https://app.lagatos.com/apps/socket-relay) and whoever has one answers — nobody has to open with a speech. [Foundation](https://app.lagatos.com/apps/foundation) lists providers with what they offer, so the terms are on the table before the conversation. The [Directory](https://app.lagatos.com/apps/directory) lets you look up the skill instead of asking a room and hoping. [ServiceCredits](https://app.lagatos.com/apps/service-credits) settles what was exchanged in an internal unit rather than money, so somebody with nothing in a bank account is not out of the exchange. [Recurring Activity](https://app.lagatos.com/apps/recurring-activity) records an arrangement that has been running for months, which is often the help nobody wrote down. And [Trust](https://app.lagatos.com/apps/trust) builds credibility out of what somebody actually did, so being new is not the same as being unknown.
 
 None of that makes an exchange equal. It makes it legible, which is the part that was missing.
 
@@ -86,12 +86,12 @@ Come with something, know who you are asking, and stop measuring it against equa
 
 ## Where to find it in the app
 
-- [SocketRelay](https://app.chargingthefuture.com/apps/socket-relay) — [guide](https://app.chargingthefuture.com/guide#socket-relay)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [ServiceCredits](https://app.chargingthefuture.com/apps/service-credits) — [guide](https://app.chargingthefuture.com/guide#service-credits)
-- [Recurring Activity](https://app.chargingthefuture.com/apps/recurring-activity) — [guide](https://app.chargingthefuture.com/guide#recurring-activity)
-- [Trust](https://app.chargingthefuture.com/apps/trust) — [guide](https://app.chargingthefuture.com/guide#trust)
-- [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
+- [SocketRelay](https://app.lagatos.com/apps/socket-relay) — [guide](https://app.lagatos.com/guide#socket-relay)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [ServiceCredits](https://app.lagatos.com/apps/service-credits) — [guide](https://app.lagatos.com/guide#service-credits)
+- [Recurring Activity](https://app.lagatos.com/apps/recurring-activity) — [guide](https://app.lagatos.com/guide#recurring-activity)
+- [Trust](https://app.lagatos.com/apps/trust) — [guide](https://app.lagatos.com/guide#trust)
+- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

@@ -62,6 +62,11 @@ jobs:
       - name: Check banned words
         run: pnpm --filter @workspace/scripts run check-banned-words
 
+      # The app is at app.lagatos.com and the landing page at lagatos.com, with no redirect from
+      # chargingthefuture.com. content/archive/ and the frozen manifesto are skipped.
+      - name: Check app address
+        run: pnpm --filter @workspace/scripts run check-app-address
+
       - name: Validate content front matter
         run: pnpm --filter @workspace/scripts run validate
 

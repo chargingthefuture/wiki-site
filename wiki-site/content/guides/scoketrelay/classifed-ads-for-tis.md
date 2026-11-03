@@ -48,7 +48,7 @@ The name I use for this evolutionary group is Specterati, noting they work direc
 
 The TI Skills Economy is this ecosystem, and within it is SocketRelay. Version three of the TI Craigslist. Originally, I attempted to do this via Quora. Because it is the only place online with the most real TIs. But Quora deleted my account. Next, I tried Discourse, but few signed up and used it.
 
-Then one day, via a Signal chat group with just TIs, I mentioned the Specterati had stolen all my clothes, and with winter coming, I had no coat. And another TI, within one week, mailed me, at their expense, a winter coat. It was the magic of it all. A "stranger from the Internet" with no hidden agenda, fulfilling a request. This inspired SocketRelay: https://app.chargingthefuture.com/apps/socketrelay/public.
+Then one day, via a Signal chat group with just TIs, I mentioned the Specterati had stolen all my clothes, and with winter coming, I had no coat. And another TI, within one week, mailed me, at their expense, a winter coat. It was the magic of it all. A "stranger from the Internet" with no hidden agenda, fulfilling a request. This inspired SocketRelay: https://app.lagatos.com/apps/socketrelay/public.
 
 > SocketRelay is an attempt to recreate that magic. Make a post in 140 characters, and other individuals can fulfill the request. You can choose to make your request public or only visible to individuals approved into the TI Skills Economy.
 

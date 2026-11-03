@@ -34,17 +34,17 @@ The second hypothesis follows from the first: Skills Economy could, in theory, b
 
 The pressure works by closing off a person's options. Income ends, work is interfered with until it stops, the person is moved back into a family house ([Why they want you living with family](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/why-they-want-you-living-with-family)), and nobody around them believes what is happening. Destitution, a mass shooting and suicide are the endings left once everything else is closed.
 
-Skills Economy reopens the options. Work is traded on what you can do, with people who are not taking part: [Workforce](https://app.chargingthefuture.com/apps/workforce) shows which skills the community has, and the [Directory](https://app.chargingthefuture.com/apps/directory) lists survivors by what they can do. The [goal board](https://app.chargingthefuture.com/apps/peer-programming?tab=goals) is where you put the 1% of the day that is left into small tasks toward somebody else's goal and post your own. A person with income, work and people who know them has something to lose, and the pressure has less to work with.
+Skills Economy reopens the options. Work is traded on what you can do, with people who are not taking part: [Workforce](https://app.lagatos.com/apps/workforce) shows which skills the community has, and the [Directory](https://app.lagatos.com/apps/directory) lists survivors by what they can do. The [goal board](https://app.lagatos.com/apps/peer-programming?tab=goals) is where you put the 1% of the day that is left into small tasks toward somebody else's goal and post your own. A person with income, work and people who know them has something to lose, and the pressure has less to work with.
 
-What "in theory" covers: the shootings the pressure produces. I said in Something to lose that I do not believe that is every shooting, and I cannot prove it is any. Neither hypothesis has been tested. Testing them takes records kept the same way by many Targeted Individuals, so the number pushed toward the ending can be set against the number who reached it. [ClickLog](https://app.chargingthefuture.com/apps/click-log) keeps that record, dated, and your notes stay yours.
+What "in theory" covers: the shootings the pressure produces. I said in Something to lose that I do not believe that is every shooting, and I cannot prove it is any. Neither hypothesis has been tested. Testing them takes records kept the same way by many Targeted Individuals, so the number pushed toward the ending can be set against the number who reached it. [ClickLog](https://app.lagatos.com/apps/click-log) keeps that record, dated, and your notes stay yours.
 
 The rest of the argument is on the [Peace Battle 2](https://chargingthefuture.github.io/chargingthefuture/peace-battle-2) page.
 
 ## Where to find it in the app
 
-- [Workforce](https://app.chargingthefuture.com/apps/workforce) — [guide](https://app.chargingthefuture.com/guide#workforce)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming?tab=goals) — [guide](https://app.chargingthefuture.com/guide#peer-programming)
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
+- [Workforce](https://app.lagatos.com/apps/workforce) — [guide](https://app.lagatos.com/guide#workforce)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [PeerProgramming](https://app.lagatos.com/apps/peer-programming?tab=goals) — [guide](https://app.lagatos.com/guide#peer-programming)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
