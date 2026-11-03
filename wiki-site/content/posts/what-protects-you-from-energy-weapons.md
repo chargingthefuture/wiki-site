@@ -13,7 +13,7 @@ A question on Quora, asked by Slimfiguree (https://www.quora.com/profile/slimfig
 
 > How do you guys protect yourself against energy weapons and frequency?
 
-Its page on Quora carries 1 public follower and 890 views. Slimfiguree is also listed in the Directory, at https://app.chargingthefuture.com/apps/directory/profile/8bf5873b-3ff7-4ad1-97e3-e7a945dc924d.
+Its page on Quora carries 1 public follower and 890 views. Slimfiguree is also listed in the Directory, at https://app.lagatos.com/apps/directory/profile/8bf5873b-3ff7-4ad1-97e3-e7a945dc924d.
 
 ![The question's log entry on Quora, captured October 8, 2026. It reads: Question added by Slimfiguree. How do you guys protect yourself against energy weapons and frequency? Dated March 1, 2025 at 8:51:49 PM.](images/slimfiguree-question-2026-10-08.jpg)
 
@@ -44,10 +44,10 @@ A count is people saying a thing helped them. It is not a test, and it does not 
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Fireside](https://app.chargingthefuture.com/apps/fireside) — [guide](https://app.chargingthefuture.com/guide#fireside)
-- [Unlock](https://app.chargingthefuture.com/plugin/unlock) — [guide](https://app.chargingthefuture.com/guide#unlock)
-- [WhatWorks](https://app.chargingthefuture.com/apps/what-works) — [guide](https://app.chargingthefuture.com/guide#what-works)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Fireside](https://app.lagatos.com/apps/fireside) — [guide](https://app.lagatos.com/guide#fireside)
+- [Unlock](https://app.lagatos.com/plugin/unlock) — [guide](https://app.lagatos.com/guide#unlock)
+- [WhatWorks](https://app.lagatos.com/apps/what-works) — [guide](https://app.lagatos.com/guide#what-works)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

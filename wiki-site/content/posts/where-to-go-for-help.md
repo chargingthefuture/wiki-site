@@ -22,17 +22,17 @@ Anger at what is being done is a sane response to it. Ten years of damage, stres
 
 ## People who believe you
 
-The [Commons](https://app.chargingthefuture.com) is a group chat of other Targeted Individuals, in the app. Nobody there needs the first hour of a conversation spent on whether it is happening, and nobody needs you to be calm before they will listen.
+The [Commons](https://app.lagatos.com) is a group chat of other Targeted Individuals, in the app. Nobody there needs the first hour of a conversation spent on whether it is happening, and nobody needs you to be calm before they will listen.
 
 ## People who can do the things a week runs on
 
 Most of the damage is material. A job lost, a home lost, a car that keeps breaking, money that does not stretch. Material damage is answered by material help, from people who are not part of it.
 
-The [Directory](https://app.chargingthefuture.com/apps/directory) lists people and what they can do. [Foundation](https://app.chargingthefuture.com/apps/foundation) is where members offer and exchange that help: a repair, a ride, a room, an hour of a trade you do not have.
+The [Directory](https://app.lagatos.com/apps/directory) lists people and what they can do. [Foundation](https://app.lagatos.com/apps/foundation) is where members offer and exchange that help: a repair, a ride, a room, an hour of a trade you do not have.
 
 ## A record that stays yours
 
-Write down what happens, with the date, as it happens. [ClickLog](https://app.chargingthefuture.com/apps/click-log) takes about fifteen seconds an incident, and your notes are not shown to anyone else here. A record made at the time lets you see the pattern before anybody else has to believe it.
+Write down what happens, with the date, as it happens. [ClickLog](https://app.lagatos.com/apps/click-log) takes about fifteen seconds an incident, and your notes are not shown to anyone else here. A record made at the time lets you see the pattern before anybody else has to believe it.
 
 If you are thinking of reporting any of it, [Who to report it to](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/who-to-report-it-to) is my answer to that question. None of this is legal advice.
 
@@ -40,9 +40,9 @@ If you are thinking of reporting any of it, [Who to report it to](https://chargi
 
 ## Where to find it in the app
 
-- [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
+- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
