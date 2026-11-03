@@ -12,8 +12,8 @@ The Discourse blog I created at https://chargingthefuture.discourse.group was cl
 
 Here are all the official channels:
 
-* Website: https://chargingthefuture.com
-* App: https://app.chargingthefuture.com
+* Website: https://lagatos.com
+* App: https://app.lagatos.com
 * Blog: https://github.com/chargingthefuture/mono/wiki
 * Code: https://github.com/chargingthefuture
 * Link in Bio: https://sleek.bio/farah

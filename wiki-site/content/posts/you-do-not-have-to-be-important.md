@@ -1,6 +1,6 @@
 ---
 title: "You do not have to be important"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks why anyone would target a regular person. Importance was never the threshold. The people doing it are ordinary too."
 category: "Community"
 teaser: "A question I saved on Quora asks why anybody would target a regular person, one among billions. It expects a reason as big as the effort, and the big reasons are the ones the people doing it hand out. Importance was never the threshold. The person who starts it is usually as ordinary as the person it starts on, and the people who join are paid in ordinary things. Once a name is on the list, not being famous does not take it off. It does mean millions of regular people are in the same place."
@@ -40,11 +40,11 @@ Who started it stops mattering after that point. Every group in reach joins, and
 
 The question counts one person against billions. A closer count is one regular person among many others. On December 10, 2025 I wrote: "My guess is at least 5 million Targeted Individuals globally."
 
-That is the number the Directory is built around. It lists survivors by what they can do, so a regular person looking for a ride, a repair or somebody who will believe them can find another one. Being on it costs nobody an account. A hundred people exchanging at a time is enough to live on ([How few people it takes](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-few-people-it-takes)), and the [Commons](https://app.chargingthefuture.com), the group chat, reads without signing in.
+That is the number the Directory is built around. It lists survivors by what they can do, so a regular person looking for a ride, a repair or somebody who will believe them can find another one. Being on it costs nobody an account. A hundred people exchanging at a time is enough to live on ([How few people it takes](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-few-people-it-takes)), and the [Commons](https://app.lagatos.com), the group chat, reads without signing in.
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

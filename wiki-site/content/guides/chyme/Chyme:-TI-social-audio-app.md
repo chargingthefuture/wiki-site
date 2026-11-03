@@ -11,7 +11,7 @@ repo: chargingthefuture/chargingthefuture
 
 All members of the TI Skills Economy have access to Chyme, the dedicated Android app for social audio with other TIs. And you can host your own rooms!
 
-Here is the share link of the room I created for December 27th: https://app.chargingthefuture.com/apps/chyme/room/43d5333a-1c86-462a-b600-7fbb3ccca285. I am leaving it open as a 24/7 room for people to drop by and have conversations.
+Here is the share link of the room I created for December 27th: https://app.lagatos.com/apps/chyme/room/43d5333a-1c86-462a-b600-7fbb3ccca285. I am leaving it open as a 24/7 room for people to drop by and have conversations.
 
 <img width="400" alt="screencapture-app-chargingthefuture-apps-chyme-room-43d5333a-1c86-462a-b600-7fbb3ccca285-2025-12-28-13_03_58" src="https://github.com/user-attachments/assets/94bf4fcf-e936-48db-9974-b3ce3cc945cf" />
 

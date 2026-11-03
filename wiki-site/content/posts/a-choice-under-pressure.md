@@ -1,6 +1,6 @@
 ---
 title: "A choice under pressure is still a choice"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks whether a Targeted Individual's family is forced to take part. They are pressured, and they still choose. The target never does."
 category: "Community"
 teaser: "A question I saved on Quora asks whether the families of Targeted Individuals are forced to harass them or do it voluntarily. Both halves are partly true. Relatives are pressured: the targeting of a family appears to last only until they abandon the target or join in. Pressure is not the same as having no choice. People who are not targets have one. The target does not. Some families also come back, years later, once they see what happened."
@@ -42,11 +42,11 @@ Five years is a long time to go without them. It is also not never.
 
 ## Where people are in the meantime
 
-A target whose family has walked away or joined in still needs people. The [Directory](https://app.chargingthefuture.com/apps/directory) lists survivors by what they can do, and being on it costs nobody an account. The [Commons](https://app.chargingthefuture.com) is where people are: people who already understand the situation.
+A target whose family has walked away or joined in still needs people. The [Directory](https://app.lagatos.com/apps/directory) lists survivors by what they can do, and being on it costs nobody an account. The [Commons](https://app.lagatos.com) is where people are: people who already understand the situation.
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Commons](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Commons](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

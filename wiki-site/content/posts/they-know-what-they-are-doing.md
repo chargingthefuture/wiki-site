@@ -1,6 +1,6 @@
 ---
 title: "They know what they are doing"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks whether the people doing this know what they are doing. Most do. Taking part is a choice, and so is stopping."
 category: "Community"
 teaser: "A question I saved on Quora asks whether the people doing this are aware of what they are doing. Most of them are. They are told a lie about the target, and they know it is a lie: nobody follows a real criminal around town with a two-year-old in tow. Some were raised into it from early childhood. Some know it is illegal and are careless about hiding it anyway. Taking part is a choice, and quitting is one too. Knowing that changes what is worth doing: explaining yourself to them is not."
@@ -44,11 +44,11 @@ A question about whether they really know often comes with an invitation to feel
 
 If they know, explaining yourself to them changes nothing. They were not misinformed, so there is nothing to correct, and the scene a correction turns into is what gets recorded ([The reaction is what gets written down](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-reaction-is-what-gets-written-down)).
 
-What is worth the time is a dated record of your own. [ClickLog](https://app.chargingthefuture.com/apps/click-log) logs an incident with one tap, and the note stays yours. And the next repair, ride or favor can go through somebody who chose not to take part. The [Directory](https://app.chargingthefuture.com/apps/directory) lists survivors by what they can do, and being on it costs nobody an account.
+What is worth the time is a dated record of your own. [ClickLog](https://app.lagatos.com/apps/click-log) logs an incident with one tap, and the note stays yours. And the next repair, ride or favor can go through somebody who chose not to take part. The [Directory](https://app.lagatos.com/apps/directory) lists survivors by what they can do, and being on it costs nobody an account.
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

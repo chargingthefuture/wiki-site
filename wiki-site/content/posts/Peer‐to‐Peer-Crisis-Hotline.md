@@ -16,7 +16,7 @@ Each week, more TIs join the TI Skills Economy. This helps us see we are not pow
 
 If you need someone to talk to for mutual aid or emotional support, join Chyme or Signal. We now have a network of 21 TIs around the world committed to solidarity—our own crisis hotline.
 
-Chyme: https://app.chargingthefuture.com/apps/chyme/room/43d5333a-1c86-462a-b600-7fbb3ccca285 
+Chyme: https://app.lagatos.com/apps/chyme/room/43d5333a-1c86-462a-b600-7fbb3ccca285 
 
 Signal: https://signal.group/#CjQKILHj7074l2Kl-oYy0qGSFdydXbtu0Pf66Z_88K9IlSCtEhDDdqV_BFAW2qm2EiTGEaNs
 
