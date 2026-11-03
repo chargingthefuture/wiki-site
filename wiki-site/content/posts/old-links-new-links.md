@@ -19,7 +19,7 @@ This is a living page. It is kept current, and its date moves it to the top of t
 
 Everything I write lives here, on this blog. Every post, in full, with a timestamped history that nobody can quietly empty.
 
-The fastest way to catch up is the feed — the short version of every post, newest first: https://chargingthefuture.com/feed
+The fastest way to catch up is the feed — the short version of every post, newest first: https://lagatos.com/feed
 
 Bookmark the blog, not any platform. Platform posts are excerpts and links back here; if a platform account dies, the links from that account die and nothing else.
 

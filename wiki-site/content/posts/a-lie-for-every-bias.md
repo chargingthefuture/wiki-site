@@ -38,11 +38,11 @@ The picture they build is often a bias too. People walked into me on purpose, in
 
 Every vigilante has a reason. Having a reason is not the same as having ethics, and a story somebody was told about a stranger does not make following that stranger a public service. A line that asks you to feel sorry for the people doing it, because some of them believe what they were told, is asking you to tolerate it.
 
-What answers a picture made of other people's biases is a dated record of your own ([You cannot argue a smear down](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/you-cannot-argue-a-smear-down)). [ClickLog](https://app.chargingthefuture.com/apps/click-log) takes seconds an entry, and your notes stay yours. Work can go through people who do not take part: the [Directory](https://app.chargingthefuture.com/apps/directory) lists survivors by what they can do.
+What answers a picture made of other people's biases is a dated record of your own ([You cannot argue a smear down](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/you-cannot-argue-a-smear-down)). [ClickLog](https://app.lagatos.com/apps/click-log) takes seconds an entry, and your notes stay yours. Work can go through people who do not take part: the [Directory](https://app.lagatos.com/apps/directory) lists survivors by what they can do.
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

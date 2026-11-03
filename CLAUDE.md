@@ -173,6 +173,7 @@ carries it, because the owner froze that page outright and that freeze has not b
 | `pnpm wiki:validate` | Validate `content-index.yaml` |
 | `pnpm wiki:spelling` | Fail on any British spelling outside `content/archive/` |
 | `pnpm wiki:banned-words` | Fail on the two banned words in Excluded Vocabulary, outside `content/archive/`, the manifesto, and `banned-words:disable` regions |
+| `pnpm wiki:app-address` | Fail on an app or landing-page link to chargingthefuture.com, outside `content/archive/` and the manifesto |
 | `pnpm wiki:sync` | Regenerate `articles.ts` from the index |
 | `pnpm wiki:feed` | Regenerate the RSS feed at `artifacts/wiki/public/feed.xml` (both build scripts run this) |
 | `pnpm wiki:paste-tts` | Regenerate the text-to-speech paste sheet `TTS_PASTE_SHEET.txt` |
@@ -777,6 +778,12 @@ URLs:
 | Knowledge Library | `https://app.lagatos.com/knowledge` |
 | Unlock | `https://app.lagatos.com/plugin/unlock` |
 | Commons (the group chat) | `https://app.lagatos.com` |
+
+There is no redirect from chargingthefuture.com (owner decision, 2026-11-03): the 3.0 design still
+runs there alongside 3.1 at lagatos.com, so an old link lands a reader in the old design instead of
+failing. Every published post was moved to lagatos.com on 2026-11-03, except `content/archive/`
+and the frozen manifesto, and `pnpm wiki:app-address` fails CI on any app or landing link to
+chargingthefuture.com outside those two. Other hosts under that domain (rss., counter.) did not move.
 
 Every part has a guide section as of 2026-09-23 — all twenty-eight: beacon, bug-reporting, chyme,
 click-log, commons, contributions, directory, fireside, foundation, gdp, knowledge, skill-up,

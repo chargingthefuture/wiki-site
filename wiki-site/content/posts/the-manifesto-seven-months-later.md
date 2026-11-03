@@ -41,14 +41,14 @@ This is the first progress post, and the next ones will look like it: sign-ups a
 
 The manifesto said what we are exiting and why. These posts are the record of the exit actually happening.
 
-Watch it move any day, any hour, in the Workforce feature. The guide walks you through it at your own pace: https://app.chargingthefuture.com/guide#workforce
+Watch it move any day, any hour, in the Workforce feature. The guide walks you through it at your own pace: https://app.lagatos.com/guide#workforce
 
 The app is free. If you have a skill, it is one of the 650, and the list has a place for it.
 
 ## Where to find it in the app
 
-- [Workforce](https://app.chargingthefuture.com/apps/workforce) — [guide](https://app.chargingthefuture.com/guide#workforce)
-- [Skills Taxonomy](https://app.chargingthefuture.com/apps/skills-taxonomy) — [guide](https://app.chargingthefuture.com/guide#skills-taxonomy)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
+- [Workforce](https://app.lagatos.com/apps/workforce) — [guide](https://app.lagatos.com/guide#workforce)
+- [Skills Taxonomy](https://app.lagatos.com/apps/skills-taxonomy) — [guide](https://app.lagatos.com/guide#skills-taxonomy)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

@@ -31,7 +31,7 @@ This is a living page. It is kept current, and its date moves it to the top of t
 
 2026-09-20 — The 384 entry is corrected and says for the first time where the number comes from. It is a count of members exchanging with each other on one day, and the same people do not have to return the next day. The entry previously described it as a count of people personally known to be real, and the members line above it said approved members was the only number the goal measures. Approved members is a different number that measures a different thing. Added too: one day at 384 is not the goal reached — it is reached when the typical day across a year sits at or above it.
 
-2026-09-15 — TI Radio added to the capability table: a published schedule of live discussions members host in Chyme, at app.chargingthefuture.com/ti-radio. Reading it needs no account, which makes it the second page here that does not gate reading. Hosting needs an approved account; a member takes an empty 90-minute slot and writes what it is about. A listing is not an endorsement — a slot is taken, not granted, nobody reviews a description first, and the app's own card says so. The name is also the one exception to the rule below that TI is not part of a product name.
+2026-09-15 — TI Radio added to the capability table: a published schedule of live discussions members host in Chyme, at app.lagatos.com/ti-radio. Reading it needs no account, which makes it the second page here that does not gate reading. Hosting needs an approved account; a member takes an empty 90-minute slot and writes what it is about. A listing is not an endorsement — a slot is taken, not granted, nobody reviews a description first, and the app's own card says so. The name is also the one exception to the rule below that TI is not part of a product name.
 
 2026-09-13 — Fireside added to the capability table: threaded conversation under the posts on this blog. Anyone can read it without an account. Writing needs one, and what somebody writes becomes publicly visible once they are approved through Unlock.
 
@@ -141,34 +141,34 @@ DEW — Directed Energy Weapon.
 
 | Capability | What it is | Guide |
 |---|---|---|
-| [Unlock](https://app.chargingthefuture.com/plugin/unlock) | Verification — how a new member gets approved to use the app | [guide](https://app.chargingthefuture.com/guide#unlock) |
-| [Directory](https://app.chargingthefuture.com/apps/directory) | Browse skills across the survivor community | [guide](https://app.chargingthefuture.com/guide#directory) |
-| [Workforce](https://app.chargingthefuture.com/apps/workforce) | A live simulation of individual and community potential: the jobs an economy of five million needs, modeled on Finland, set against the skills members list, with the gaps in view. The recruited count and capacity math live here | [guide](https://app.chargingthefuture.com/guide#workforce) |
-| [Skills Taxonomy](https://app.chargingthefuture.com/apps/skills-taxonomy) | The shared catalog of sectors, job titles, and skills | [guide](https://app.chargingthefuture.com/guide#skills-taxonomy) |
-| [SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt) | Nominate survivors to build the Directory | [guide](https://app.chargingthefuture.com/guide#skills-hunt) |
-| [Foundation](https://app.chargingthefuture.com/apps/foundation) | Find talent, tools, repairs, and infrastructure support in real time | [guide](https://app.chargingthefuture.com/guide#foundation) |
-| [Chyme](https://app.chargingthefuture.com/apps/chyme) | Live social audio rooms | [guide](https://app.chargingthefuture.com/guide#chyme) |
-| [Beacon](https://app.chargingthefuture.com/apps/beacon) | Live one-way broadcasts; watch publicly with a link | [guide](https://app.chargingthefuture.com/guide#beacon) |
-| [SocketRelay](https://app.chargingthefuture.com/apps/socket-relay) | Real-time resource sharing across the network | [guide](https://app.chargingthefuture.com/guide#socket-relay) |
-| [TrustTransport](https://app.chargingthefuture.com/apps/trust-transport) | Vetted rides — drivers screened by the community, for the community | [guide](https://app.chargingthefuture.com/guide#trust-transport) |
-| [LightHouse](https://app.chargingthefuture.com/apps/lighthouse) | Community housing listings from trauma-informed hosts | [guide](https://app.chargingthefuture.com/guide#lighthouse) |
-| [PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming) | Weekly global mastermind sessions, and a goal board where members take small tasks toward each other's goals | [guide](https://app.chargingthefuture.com/guide#peer-programming) |
-| [SkillUp](https://app.chargingthefuture.com/apps/skill-up) | Skills-training cohorts; you earn credits as you reach each milestone | [guide](https://app.chargingthefuture.com/guide#skill-up) |
-| [ServiceCredits](https://app.chargingthefuture.com/apps/service-credits) | The credits exchange (see Value and credits above) | [guide](https://app.chargingthefuture.com/guide#service-credits) |
-| [GDP](https://app.chargingthefuture.com/apps/gdp) | The live economic tracker: Community Value Index and Value waiting to happen | [guide](https://app.chargingthefuture.com/guide#gdp) |
-| [Trust](https://app.chargingthefuture.com/apps/trust) | Community reputation built through real participation | [guide](https://app.chargingthefuture.com/guide#trust) |
-| [ClickLog](https://app.chargingthefuture.com/apps/click-log) | Incident logging — private record and shared trend data (see ClickLog vocabulary above) | [guide](https://app.chargingthefuture.com/guide#click-log) |
-| [Mood](https://app.chargingthefuture.com/apps/mood) | Anonymous mood tracking and pattern awareness | [guide](https://app.chargingthefuture.com/guide#mood) |
-| [WhatWorks](https://app.chargingthefuture.com/apps/what-works) | One shared, survivor-verified list of tools, organized by problem | [guide](https://app.chargingthefuture.com/guide#what-works) |
-| [Knowledge Library](https://app.chargingthefuture.com/knowledge) | Lend your own public writing so the assistant answers from more than one voice | [guide](https://app.chargingthefuture.com/guide#knowledge) |
-| [Contributions](https://app.chargingthefuture.com/apps/contributions) | An Amazon gift card toward hosting, any time of year, with a ServiceCredits thank-you | [guide](https://app.chargingthefuture.com/guide#contributions) |
-| [Recurring Activity](https://app.chargingthefuture.com/apps/recurring-activity) | One-tap acknowledgment of an ongoing tie with another member — never a bill | [guide](https://app.chargingthefuture.com/guide#recurring-activity) |
-| [Fireside](https://app.chargingthefuture.com/apps/fireside) | Threaded conversation under the posts on the blog; read it without an account, write with one | [guide](https://app.chargingthefuture.com/guide#fireside) |
-| [Reader](https://app.chargingthefuture.com/apps/reader) | An RSS feed reader on a server the project pays for; sign in with this account, and your subscriptions are yours alone | [guide](https://app.chargingthefuture.com/guide#reader) |
-| [TI Radio](https://app.chargingthefuture.com/ti-radio) | A published schedule of live discussions members host in Chyme; read it without an account, host with one | [guide](https://app.chargingthefuture.com/guide#ti-radio) |
-| Mutual Time | Find a meeting time everyone can make | [guide](https://app.chargingthefuture.com/guide#mutual-time) |
-| Bug Reporting | In-app problem reports; raw text stays private, a human approves any fix | [guide](https://app.chargingthefuture.com/guide#bug-reporting) |
+| [Unlock](https://app.lagatos.com/plugin/unlock) | Verification — how a new member gets approved to use the app | [guide](https://app.lagatos.com/guide#unlock) |
+| [Directory](https://app.lagatos.com/apps/directory) | Browse skills across the survivor community | [guide](https://app.lagatos.com/guide#directory) |
+| [Workforce](https://app.lagatos.com/apps/workforce) | A live simulation of individual and community potential: the jobs an economy of five million needs, modeled on Finland, set against the skills members list, with the gaps in view. The recruited count and capacity math live here | [guide](https://app.lagatos.com/guide#workforce) |
+| [Skills Taxonomy](https://app.lagatos.com/apps/skills-taxonomy) | The shared catalog of sectors, job titles, and skills | [guide](https://app.lagatos.com/guide#skills-taxonomy) |
+| [SkillsHunt](https://app.lagatos.com/apps/skills-hunt) | Nominate survivors to build the Directory | [guide](https://app.lagatos.com/guide#skills-hunt) |
+| [Foundation](https://app.lagatos.com/apps/foundation) | Find talent, tools, repairs, and infrastructure support in real time | [guide](https://app.lagatos.com/guide#foundation) |
+| [Chyme](https://app.lagatos.com/apps/chyme) | Live social audio rooms | [guide](https://app.lagatos.com/guide#chyme) |
+| [Beacon](https://app.lagatos.com/apps/beacon) | Live one-way broadcasts; watch publicly with a link | [guide](https://app.lagatos.com/guide#beacon) |
+| [SocketRelay](https://app.lagatos.com/apps/socket-relay) | Real-time resource sharing across the network | [guide](https://app.lagatos.com/guide#socket-relay) |
+| [TrustTransport](https://app.lagatos.com/apps/trust-transport) | Vetted rides — drivers screened by the community, for the community | [guide](https://app.lagatos.com/guide#trust-transport) |
+| [LightHouse](https://app.lagatos.com/apps/lighthouse) | Community housing listings from trauma-informed hosts | [guide](https://app.lagatos.com/guide#lighthouse) |
+| [PeerProgramming](https://app.lagatos.com/apps/peer-programming) | Weekly global mastermind sessions, and a goal board where members take small tasks toward each other's goals | [guide](https://app.lagatos.com/guide#peer-programming) |
+| [SkillUp](https://app.lagatos.com/apps/skill-up) | Skills-training cohorts; you earn credits as you reach each milestone | [guide](https://app.lagatos.com/guide#skill-up) |
+| [ServiceCredits](https://app.lagatos.com/apps/service-credits) | The credits exchange (see Value and credits above) | [guide](https://app.lagatos.com/guide#service-credits) |
+| [GDP](https://app.lagatos.com/apps/gdp) | The live economic tracker: Community Value Index and Value waiting to happen | [guide](https://app.lagatos.com/guide#gdp) |
+| [Trust](https://app.lagatos.com/apps/trust) | Community reputation built through real participation | [guide](https://app.lagatos.com/guide#trust) |
+| [ClickLog](https://app.lagatos.com/apps/click-log) | Incident logging — private record and shared trend data (see ClickLog vocabulary above) | [guide](https://app.lagatos.com/guide#click-log) |
+| [Mood](https://app.lagatos.com/apps/mood) | Anonymous mood tracking and pattern awareness | [guide](https://app.lagatos.com/guide#mood) |
+| [WhatWorks](https://app.lagatos.com/apps/what-works) | One shared, survivor-verified list of tools, organized by problem | [guide](https://app.lagatos.com/guide#what-works) |
+| [Knowledge Library](https://app.lagatos.com/knowledge) | Lend your own public writing so the assistant answers from more than one voice | [guide](https://app.lagatos.com/guide#knowledge) |
+| [Contributions](https://app.lagatos.com/apps/contributions) | An Amazon gift card toward hosting, any time of year, with a ServiceCredits thank-you | [guide](https://app.lagatos.com/guide#contributions) |
+| [Recurring Activity](https://app.lagatos.com/apps/recurring-activity) | One-tap acknowledgment of an ongoing tie with another member — never a bill | [guide](https://app.lagatos.com/guide#recurring-activity) |
+| [Fireside](https://app.lagatos.com/apps/fireside) | Threaded conversation under the posts on the blog; read it without an account, write with one | [guide](https://app.lagatos.com/guide#fireside) |
+| [Reader](https://app.lagatos.com/apps/reader) | An RSS feed reader on a server the project pays for; sign in with this account, and your subscriptions are yours alone | [guide](https://app.lagatos.com/guide#reader) |
+| [TI Radio](https://app.lagatos.com/ti-radio) | A published schedule of live discussions members host in Chyme; read it without an account, host with one | [guide](https://app.lagatos.com/guide#ti-radio) |
+| Mutual Time | Find a meeting time everyone can make | [guide](https://app.lagatos.com/guide#mutual-time) |
+| Bug Reporting | In-app problem reports; raw text stays private, a human approves any fix | [guide](https://app.lagatos.com/guide#bug-reporting) |
 
 Retired capabilities keep their names only in old posts, as historical record: MechanicMatch, CompareNotes, LostMail, GentlePulse, SupportMatch, Feed.
 
-If a term is missing or wrong, say so in the app's [Commons chat](https://app.chargingthefuture.com) — this page changes the same day.
+If a term is missing or wrong, say so in the app's [Commons chat](https://app.lagatos.com) — this page changes the same day.

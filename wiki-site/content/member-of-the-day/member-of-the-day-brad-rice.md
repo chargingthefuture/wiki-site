@@ -71,7 +71,7 @@ Excerpt: Member of the Day: Brad Rice Updated Quora profile link: https://www.qu
 
 ### Comment #4 (2025-11-23)
 
-<p>Here is Brad’s Directory profile: <a href="https://app.chargingthefuture.com/apps/directory/public/609d64b4-ffa3-4be5-8dce-7c5d65dfc9c1">https://app.chargingthefuture.com/apps/directory/public/609d64b4-ffa3-4be5-8dce-7c5d65dfc9c1</a></p>
+<p>Here is Brad’s Directory profile: <a href="https://app.lagatos.com/apps/directory/public/609d64b4-ffa3-4be5-8dce-7c5d65dfc9c1">https://app.lagatos.com/apps/directory/public/609d64b4-ffa3-4be5-8dce-7c5d65dfc9c1</a></p>
 <p>Post on Quora:</p>
 <p><a href="https://skillseconomy.quora.com/I-will-continue-to-feature-TIs-If-you-do-not-want-to-be-featured-let-me-know-BRadhd-https-www-quora-com-profile-B?ch=10&amp;oid=237399952&amp;share=ef3ded45&amp;srid=3UT8yW&amp;target_type=post" class="onebox" target="_blank" rel="noopener">https://skillseconomy.quora.com/I-will-continue-to-feature-TIs-If-you-do-not-want-to-be-featured-let-me-know-BRadhd-https-www-quora-com-profile-B?ch=10&amp;oid=237399952&amp;share=ef3ded45&amp;srid=3UT8yW&amp;target_type=post</a></p>
 

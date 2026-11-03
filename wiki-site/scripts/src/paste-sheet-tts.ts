@@ -52,7 +52,7 @@ const RERECORD_FILE = join(WIKI_ROOT, 'content/audio/rerecord.yaml');
 // The title is the contract for an invite post: "An invitation to <name>".
 const INVITE_TITLE = /^An invitation to\s+/i;
 const WHERE_TO_FIND = /^##\s+Where to find it in the app\s*$/im;
-const SIGN_UP = /^>?\s*To sign up: https:\/\/chargingthefuture\.com\..*$/m;
+const SIGN_UP = /^>?\s*To sign up: https:\/\/(?:lagatos|chargingthefuture)\.com\..*$/m;
 // Any address: with https://, or written without it but with a path (app.lagatos.com/apps/
 // fireside). A bare site name (lagatos.com) or an email address is not one: short, and the
 // sentence needs it.

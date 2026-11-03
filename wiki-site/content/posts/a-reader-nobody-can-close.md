@@ -102,7 +102,7 @@ The way around it is to collect the channel's upload list once and publish that 
 
 Each entry carries the player, so the video plays inside the reader. No comments, no column of recommendations, nothing from elsewhere on the site; what it offers when a video ends comes from the same channel. The page around the video was most of what I was enduring, and it is gone.
 
-If you want a channel collected, book me on [Foundation](https://app.chargingthefuture.com/apps/foundation) and put the channel address in the request. If you want the feed cut at your date rather than filtered by you, say so and give the date. I run it and send you the feed address to paste in. It is a task like any other on there, which means it is recorded and settled the way the rest of them are.
+If you want a channel collected, book me on [Foundation](https://app.lagatos.com/apps/foundation) and put the channel address in the request. If you want the feed cut at your date rather than filtered by you, say so and give the date. I run it and send you the feed address to paste in. It is a task like any other on there, which means it is recorded and settled the way the rest of them are.
 
 One caveat, said plainly: the upload dates on a collected channel are worked out from labels like "2 years ago", so they are close rather than exact. Leave a month or two of margin either side of a cutoff that matters.
 
@@ -134,8 +134,8 @@ The reader I host is a convenience on top of that, and it depends on me. The blo
 
 ## Where to find it in the app
 
-- [Reader](https://app.chargingthefuture.com/apps/reader) — [guide](https://app.chargingthefuture.com/guide#reader)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
-- [Unlock](https://app.chargingthefuture.com/plugin/unlock) — [guide](https://app.chargingthefuture.com/guide#unlock)
+- [Reader](https://app.lagatos.com/apps/reader) — [guide](https://app.lagatos.com/guide#reader)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
+- [Unlock](https://app.lagatos.com/plugin/unlock) — [guide](https://app.lagatos.com/guide#unlock)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
