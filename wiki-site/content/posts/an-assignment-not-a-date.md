@@ -1,6 +1,6 @@
 ---
 title: "An assignment, not a date"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks why somebody taking part would want to date a Targeted Individual. They do not. The approach is sent, for a purpose."
 category: "Community"
 teaser: "A question I saved on Quora asks why somebody taking part would want to date the person they are targeting. The answer is that wanting has nothing to do with it. The approach is a scheme like a staged altercation is, sent and directed by somebody else, and it is sent for three things: extortion, a fabricated crime, and a smear that is easier to believe from somebody who was close. The people sent give themselves away over time. Declining costs nothing, and a dated record shows the pattern."
@@ -40,10 +40,10 @@ Nobody has to catch them out. In that February answer I wrote: "all stalkers alw
 
 My own answer to the approach is short. That same day I wrote: "I avoid honey pots." Declining needs no proof and no confrontation, and nothing about it has to be explained to anybody.
 
-Instinct is easier to trust with something written down. The honeypot is on the public list of schemes: [chargingthefuture.com/schemes](https://www.chargingthefuture.com/schemes). [ClickLog](https://app.chargingthefuture.com/apps/click-log) records an incident with one tap and the date, and the note and scheme tags can be added later. Notes are not shown to other members. Read back over months, the contradictions are on the page with their dates, not only in memory.
+Instinct is easier to trust with something written down. The honeypot is on the public list of schemes: [lagatos.com/schemes](https://lagatos.com/schemes). [ClickLog](https://app.lagatos.com/apps/click-log) records an incident with one tap and the date, and the note and scheme tags can be added later. Notes are not shown to other members. Read back over months, the contradictions are on the page with their dates, not only in memory.
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

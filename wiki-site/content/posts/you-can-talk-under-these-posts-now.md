@@ -51,8 +51,8 @@ There are few rules here on purpose. The group chat's guidelines apply, and beyo
 
 ## Where to find it in the app
 
-- [Fireside](https://app.chargingthefuture.com/apps/fireside)
-- [Unlock](https://app.chargingthefuture.com/plugin/unlock) — [guide](https://app.chargingthefuture.com/guide#unlock)
-- [Commons](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
+- [Fireside](https://app.lagatos.com/apps/fireside)
+- [Unlock](https://app.lagatos.com/plugin/unlock) — [guide](https://app.lagatos.com/guide#unlock)
+- [Commons](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

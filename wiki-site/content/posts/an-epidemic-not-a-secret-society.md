@@ -44,11 +44,11 @@ When you do not have their form of payment, or do not want it, you are ousted fr
 
 The Skills Economy is a different exchange. What moves in it is material value: a repair, a ride, a room, an hour of somebody's trade. Not raw emotional sabotage.
 
-The [Directory](https://app.chargingthefuture.com/apps/directory) lists people and what they can do, and [Foundation](https://app.chargingthefuture.com/apps/foundation) is where members offer and exchange that help. The [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary) now carries performed kindness and covert contract alongside the rest of the vocabulary.
+The [Directory](https://app.lagatos.com/apps/directory) lists people and what they can do, and [Foundation](https://app.lagatos.com/apps/foundation) is where members offer and exchange that help. The [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary) now carries performed kindness and covert contract alongside the rest of the vocabulary.
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

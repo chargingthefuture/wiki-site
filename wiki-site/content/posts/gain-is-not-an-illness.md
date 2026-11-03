@@ -1,6 +1,6 @@
 ---
 title: "Gain is not an illness"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asked whether people who stalk for revenge or personal gain have psychological issues. The motive is ordinary gain, paid in kind, and a reason is not a justification."
 category: "Community"
 teaser: "A question I saved on Quora asked what I think of people who stalk others for revenge or personal gain, and whether they have psychological issues. The question names the motive itself. Most of the people taking part are paid in kind: a job, an apartment, a favor. Some are moved by money, some by jealousy, and some are extorted. Some of them are ill, and the illness is not what organized them; sadists are rounded up on purpose. Calling it a psychological issue works like an excuse. A reason is not a justification, and in this story the illness label is more often pinned on the target."
@@ -42,11 +42,11 @@ Calling it a psychological issue does the work an excuse does. It asks you to se
 
 The illness label in this story usually runs the other way. One version of the slander is a false diagnosis aimed at the target: working with the police and the mental health community to get them committed ([The reaction is what gets written down](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-reaction-is-what-gets-written-down)). None of this is legal advice.
 
-A person with a dated record is harder to describe as unstable. [ClickLog](https://app.chargingthefuture.com/apps/click-log) takes a few seconds an entry, and your notes stay yours. Work can go through people who do not take part: the [Directory](https://app.chargingthefuture.com/apps/directory) lists survivors by what they can do.
+A person with a dated record is harder to describe as unstable. [ClickLog](https://app.lagatos.com/apps/click-log) takes a few seconds an entry, and your notes stay yours. Work can go through people who do not take part: the [Directory](https://app.lagatos.com/apps/directory) lists survivors by what they can do.
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
