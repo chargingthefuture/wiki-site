@@ -1,6 +1,6 @@
 ---
 title: "The question checks their work"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks why they are so nosy. Many of the questions are about something they did, asked to find out whether it landed."
 category: "Community"
 teaser: "A question I saved on Quora asks why the people doing this are so nosy. Some of the questions fish for something new. Many do not. They are about something that was already done to you, asked to find out whether it worked: whether you noticed, whether it made you sick, whether it is worth doing again. The asker already knows what happened; they arranged it. What they do not know is the result, and your answer is the report. So the answer to give is none, and the record to keep is your own."
@@ -44,12 +44,12 @@ Not answering them is not the same as forgetting. What happened still matters, a
 
 ## Keep the answer for your own record
 
-[ClickLog](https://app.chargingthefuture.com/apps/click-log) logs an incident with one tap and the date. The note and the scheme tags can be added later, once you are somewhere you can think. Notes are not shown to other members, and the date and location cannot be changed afterward ([ClickLog: your record, and the record](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/clicklog-your-record-and-the-record)).
+[ClickLog](https://app.lagatos.com/apps/click-log) logs an incident with one tap and the date. The note and the scheme tags can be added later, once you are somewhere you can think. Notes are not shown to other members, and the date and location cannot be changed afterward ([ClickLog: your record, and the record](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/clicklog-your-record-and-the-record)).
 
 The detail the stranger asked for, the fever and the day it started, goes there instead. Read back over weeks, it shows what was tried and when, to the one person it belongs to.
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
