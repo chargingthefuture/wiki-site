@@ -23,7 +23,7 @@ Her words, not mine:
 
 ![Sherri Jenkins's answer on Quora, captured September 22, 2026, under the question: What are gang stalkers? Why are they following you and showing up wherever you are? The answer reads: Gang stalking is a systematic form of severe harassment performed by multiple people against a target. The target of such harassment is commonly referred to as a/the "targeted individual". Traditionally people think of a "stalker" as one perpetrator, whereas gang stalking involves multiple perpetrators using various techniques to severely bother or make a target conform to so-called rules of society. Common methods used by perpetrators include following the target on foot, by car and public transportation, crowding the target's space in a public place, murmuring insults under the breath so only the target can hear, sitting in the car outside the target's residence, starting "fights" in public with the target, doing "skits" on the street which involve certain information only the target should know but has been found out via surveillance of the target, stealing and vandalizing the target's possessions, creating and spreading false rumors about a target, slandering the target, taking pictures or videotaping the target, harming the target's pets, bugging the target's phone, and mail tampering. The target's family may also fall victim to gang stalking. Below the answer: 8.1K views, 72 upvotes, 3 shares, one of ten answers.](images/sherri-jenkins-answer-2026-09-22.jpg)
 
-She is listed in the Directory, and has been since December 2025: https://app.chargingthefuture.com/apps/directory/profile/18e1474a-a857-4d66-81c9-2c585c923d24
+She is listed in the Directory, and has been since December 2025: https://app.lagatos.com/apps/directory/profile/18e1474a-a857-4d66-81c9-2c585c923d24
 
 The words she uses are the inherited ones, and I have left them exactly as she wrote them. The vocabulary this blog uses instead is in the [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/Dictionary).
 
@@ -87,10 +87,10 @@ After that, the thing to do is not to study it further. It is to move what you c
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [SocketRelay](https://app.chargingthefuture.com/apps/socket-relay) — [guide](https://app.chargingthefuture.com/guide#socket-relay)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
-- [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [SocketRelay](https://app.lagatos.com/apps/socket-relay) — [guide](https://app.lagatos.com/guide#socket-relay)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
+- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

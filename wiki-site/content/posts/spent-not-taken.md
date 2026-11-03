@@ -1,6 +1,6 @@
 ---
 title: "Most of it is spent, not taken"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks how Targeted Individuals are robbed of money. Some is taken outright. Most is spent, by the target, on costs somebody else arranged."
 category: "Community"
 teaser: "A question I saved on Quora asks how Targeted Individuals are robbed of their money. Some of it is taken outright: clothes, a car, mail, ideas, access to accounts. Most of it leaves another way. Income is mobbed until it stops, and what is left is spent by the target, on replacements, repairs and defense, at businesses that are paid on both ends. Every one of those payments looks ordinary. The protection is not a better lock. It is moving where the money goes, to people who do not take part."
@@ -48,7 +48,7 @@ None of this returns what was taken. It changes where the next payment goes.
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

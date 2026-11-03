@@ -16,7 +16,7 @@ _I will continuously update this post. Names in no particular order._
 
 [Pam Dawson](https://www.quora.com/profile/Pam-Dawson-32)
 
-[T-Tipton](https://www.quora.com/profile/T-Tipton) / [TSE Profile](https://app.chargingthefuture.com/apps/directory/public/d9f9e78a-48fc-4076-b83b-f8f9c5220c00)
+[T-Tipton](https://www.quora.com/profile/T-Tipton) / [TSE Profile](https://app.lagatos.com/apps/directory/public/d9f9e78a-48fc-4076-b83b-f8f9c5220c00)
 
 —
 

@@ -1,6 +1,6 @@
 ---
 title: "Seen every day"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks why they have to see you every day. Being seen is the message, and every sighting is somebody reporting back."
 category: "Community"
 teaser: "A question I saved on Quora asks why they have to see you every day. Two reasons, from what I have written over the years. Being seen is the message: it tells you that you have no privacy, and it tests what sets you off so it can be repeated. And every sighting is a report. Somebody notes how you are doing that day and passes it up, and the next phase is planned from those notes. A fixed address makes the daily part easy. A record of your own is the one that stays in your hands."
@@ -40,12 +40,12 @@ That is not a reason to keep moving. What follows you is a name on a list, not a
 
 ## Their record and yours
 
-They keep a daily record of you. You can keep one of them. [ClickLog](https://app.chargingthefuture.com/apps/click-log) logs an incident with one tap and the date, and the date and location cannot be changed later. Notes are not shown to other members. Read back over a month, it shows which days, which places and which schemes, and it is a record they do not write and cannot edit ([ClickLog: your record, and the record](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/clicklog-your-record-and-the-record)).
+They keep a daily record of you. You can keep one of them. [ClickLog](https://app.lagatos.com/apps/click-log) logs an incident with one tap and the date, and the date and location cannot be changed later. Notes are not shown to other members. Read back over a month, it shows which days, which places and which schemes, and it is a record they do not write and cannot edit ([ClickLog: your record, and the record](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/clicklog-your-record-and-the-record)).
 
 The people around you every day are reporting on a person. That person can keep their own notes.
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

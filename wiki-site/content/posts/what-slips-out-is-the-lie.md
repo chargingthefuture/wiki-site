@@ -1,6 +1,6 @@
 ---
 title: "What slips out is the lie"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks how a Targeted Individual can find out who made them a target. What can be found out is the lie each person was told."
 category: "Community"
 teaser: "A question I saved on Quora asks how a Targeted Individual can find out who made them a target. The people within reach mostly did not start it. They were brought in afterward, each told a lie fitted to them, and many do not know much beyond it. What slips out, sooner or later, is that lie, not a name. A name does not change what has to be done next. What can be found out is who is around you now and what they do, and a dated record holds that."
@@ -42,13 +42,13 @@ Knowing the name did not change what had to be done that week. The phone still h
 
 Who is around you now, and what they do, can be found out. It shows in the schemes they run, and the same schemes run in rotation regardless of who started it. Memory under stress does not hold that. A dated record does.
 
-[ClickLog](https://app.chargingthefuture.com/apps/click-log) logs an incident with one tap and the date, and the note and scheme tags can be added later. Notes are not shown to other members, and the date and location cannot be changed afterward. Thirty entries read back show where, when, and which schemes repeat ([ClickLog: your record, and the record](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/clicklog-your-record-and-the-record)).
+[ClickLog](https://app.lagatos.com/apps/click-log) logs an incident with one tap and the date, and the note and scheme tags can be added later. Notes are not shown to other members, and the date and location cannot be changed afterward. Thirty entries read back show where, when, and which schemes repeat ([ClickLog: your record, and the record](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/clicklog-your-record-and-the-record)).
 
 The other thing worth finding is who is not taking part. The Directory lists survivors by what they can do, and being on it costs nobody an account.
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

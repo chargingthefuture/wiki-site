@@ -47,6 +47,6 @@ Your contribution—whether financial, through spreading the word, or simply by 
 
 Thank you for being part of this community! Together, we can make the TI Skills Economy sustainable.
 
-Contribute here: https://app.chargingthefuture.com/payments
+Contribute here: https://app.lagatos.com/payments
 
 [Previous post on pricing](https://chargingthefuture.github.io/chargingthefuture/article/mono/How-you-can-help)
