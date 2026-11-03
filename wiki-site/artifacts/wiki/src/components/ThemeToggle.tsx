@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 // Light or dark. Starts from the phone's setting; a choice is remembered on this phone only.
 // index.html applies a remembered choice before the page paints, so there is no flash.
-// The same control as chargingthefuture.com and farahbrunache.com.
+// The same control as lagatos.com and farahbrunache.com.
 
 const THEME_KEY = "ctf-theme";
 type Theme = "light" | "dark";

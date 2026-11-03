@@ -23,7 +23,7 @@ If you spend enough time looking at what is happening on the outside, you notice
 
 ## The house is the scheme
 
-I have written about this before, in [Why they want you living with family](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/why-they-want-you-living-with-family). The Forced Homecoming is on the [schemes list](https://www.chargingthefuture.com/schemes), and it is one of the things they run on everybody. Close off the income, interfere with the work until it ends, and leave one door open, which leads back to relatives who can then be bought. Put a grown adult back in a childhood bedroom, dependent on the people in it, with the harassment inside the place they sleep and no hour that is off.
+I have written about this before, in [Why they want you living with family](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/why-they-want-you-living-with-family). The Forced Homecoming is on the [schemes list](https://lagatos.com/schemes), and it is one of the things they run on everybody. Close off the income, interfere with the work until it ends, and leave one door open, which leads back to relatives who can then be bought. Put a grown adult back in a childhood bedroom, dependent on the people in it, with the harassment inside the place they sleep and no hour that is off.
 
 In that post I said the survivors I have watched reach the worst endings — taking their own lives, killing someone in the house, walking out and doing violence to strangers — have very often been living exactly like this when it happened. I said then that this says nothing about who those people were, and I am saying it again.
 
@@ -55,11 +55,11 @@ The posts linked here carry the rest of the detail.
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
-- [LightHouse](https://app.chargingthefuture.com/apps/lighthouse) — [guide](https://app.chargingthefuture.com/guide#lighthouse)
-- [Commons](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
+- [LightHouse](https://app.lagatos.com/apps/lighthouse) — [guide](https://app.lagatos.com/guide#lighthouse)
+- [Commons](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
 
-The full schemes list is public: [chargingthefuture.com/schemes](https://www.chargingthefuture.com/schemes).
+The full schemes list is public: [lagatos.com/schemes](https://lagatos.com/schemes).
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

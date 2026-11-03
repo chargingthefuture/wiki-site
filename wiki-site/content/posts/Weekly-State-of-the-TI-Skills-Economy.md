@@ -18,7 +18,7 @@ Sign in or sign up to join the chat to ask any questions or leave comments!
 
 ## Week 33: Ending May 29, 2026
 
-No new updates for this week. Version 3 of the app is over 50% done. The next major update is that the app is ready for use. You can still sign up and use version 2 of the app at [https://app.chargingthefuture.com](https://app.chargingthefuture.com).
+No new updates for this week. Version 3 of the app is over 50% done. The next major update is that the app is ready for use. You can still sign up and use version 2 of the app at [https://app.lagatos.com](https://app.lagatos.com).
 
 To preview what version 3 of the app will look like this is a slideshow of the screens: [https://design-ctf-app.vercel.app](https://design-ctf-app.vercel.app).
 
@@ -72,7 +72,7 @@ No new updates for this week.
 
 As mentioned in previous updates, when there have not been enough contributions for the prior month, new signups to the app are disabled, as contributions are used to cover hosting costs. That is the case at the moment. As a placeholder, a temporary landing page goes up for individuals to sign up for waitlisting. And when the app is live again, they will be granted access.
 
-* For those who have not signed up, go to https://chargingthefuture.com. And complete the online form. When the app is live, you will be invited in.
+* For those who have not signed up, go to https://lagatos.com. And complete the online form. When the app is live, you will be invited in.
 * For those who have already signed up, your data is safe. And nothing has changed, once I can cover the hosting costs or contributions come in, the app will be back online. And you will be notified.
 
 Let me know of any questions. And hang in there! Below is a preview of the app design change:
@@ -147,7 +147,7 @@ https://skillseconomy.quora.com/Welcome-to-the-weekly-State-of-the-TI-Skills-Eco
 
 ### Ways to have the TI Skills Economy grow:
 
-1. Sign up for the app: [Psyop-Free Economy | Survivor Support Platform](https://chargingthefuture.com/)
+1. Sign up for the app: [Psyop-Free Economy | Survivor Support Platform](https://lagatos.com/)
 2. Upvote TSE Quora posts
 3. Comment on TSE Quora posts
 4. Send me the Quora profile URL of TIs you think would benefit from joining (DM me the URL or comment with the URL)
@@ -160,7 +160,7 @@ https://skillseconomy.quora.com/Welcome-to-the-weekly-State-of-the-TI-Skills-Eco
 
 ### Ways to have the TI Skills Economy grow:
 
-1. Sign up for the app: [Psyop-Free Economy | Survivor Support Platform](https://chargingthefuture.com/)
+1. Sign up for the app: [Psyop-Free Economy | Survivor Support Platform](https://lagatos.com/)
 2. Upvote TSE Quora posts
 3. Comment on TSE Quora posts
 4. Send me the Quora profile URL of TIs you think would benefit from joining (DM me the URL or comment with the URL)
@@ -176,7 +176,7 @@ https://skillseconomy.quora.com/Welcome-to-the-weekly-State-of-the-TI-Skills-Eco
 
 ### TLDR; If we continue at this weekly growth amount, we will reach 50,000 TIs globally within the next 12 months! Do you want to see this happen?
 
-1. Sign up for the app: [Psyop-Free Economy | Survivor Support Platform](https://chargingthefuture.com/)
+1. Sign up for the app: [Psyop-Free Economy | Survivor Support Platform](https://lagatos.com/)
 2. Upvote TSE Quora posts (only if they are authentic)
 3. Comment on TSE Quora posts (only if they are authentic)
 4. Send me the Quora profile URL of TIs you think would benefit from joining (DM me the URL or comment with the URL)
@@ -195,7 +195,7 @@ https://skillseconomy.quora.com/Welcome-to-the-weekly-State-of-the-TI-Skills-Eco
 
 ### TLDR; If we continue at this weekly growth amount, we will reach 50,000 TIs globally within the next 12 months! Do you want to see this happen?
 
-1. Sign up for the app: [Psyop-Free Economy | Survivor Support Platform](https://chargingthefuture.com/)
+1. Sign up for the app: [Psyop-Free Economy | Survivor Support Platform](https://lagatos.com/)
 2. Upvote TSE Quora posts (only if they are authentic)
 3. Comment on TSE Quora posts (only if they are authentic)
 4. Send me the Quora profile URL of TIs you think would benefit from joining (DM me the URL or comment with the URL)
@@ -212,7 +212,7 @@ This week was exceptional for week-over-week growth. We had a 200% increase in n
 
 ### 🚀 Reminders
 - Connect with me live on Signal or Chyme (our very own Android app dedicated to social audio).
-    - Link to Town Hall room on Chyme: https://app.chargingthefuture.com/apps/chyme/room/43d5333a-1c86-462a-b600-7fbb3ccca285. I will leave the room open 24/7.
+    - Link to Town Hall room on Chyme: https://app.lagatos.com/apps/chyme/room/43d5333a-1c86-462a-b600-7fbb3ccca285. I will leave the room open 24/7.
 
 ### 🔍 Upcoming Focus
 - The app is steadily growing; in parallel, I will try to coordinate in-person meet-ups.
@@ -226,8 +226,8 @@ The TI Skills Economy app had a good week, while we had fewer sign-ups from the 
 
 ### 🚀 Reminders
 - Connect with me live on Signal or Chyme (our very own Android app dedicated to social audio).
-    - Link to Download Chyme and sign in: https://app.chargingthefuture.com/apps/chyme.
-    - This is the landing page to the live social audio room on Chyme: https://app.chargingthefuture.com/apps/chyme/room/43d5333a-1c86-462a-b600-7fbb3ccca285. I will leave the room open 24/7.
+    - Link to Download Chyme and sign in: https://app.lagatos.com/apps/chyme.
+    - This is the landing page to the live social audio room on Chyme: https://app.lagatos.com/apps/chyme/room/43d5333a-1c86-462a-b600-7fbb3ccca285. I will leave the room open 24/7.
 
 ### 📝 Updates
 #### Added
@@ -246,8 +246,8 @@ The TI Skills Economy app had another exceptional week, with everything in the g
 
 ### 🚀 Highlights
 - Connect with me live on Signal or Chyme (our very own Android app dedicated to social audio).
-    - Link to Download Chyme and sign in: https://app.chargingthefuture.com/apps/chyme.
-    - This is the landing page to the live social audio room on Chyme: https://app.chargingthefuture.com/apps/chyme/room/43d5333a-1c86-462a-b600-7fbb3ccca285. I will leave the room open 24/7.
+    - Link to Download Chyme and sign in: https://app.lagatos.com/apps/chyme.
+    - This is the landing page to the live social audio room on Chyme: https://app.lagatos.com/apps/chyme/room/43d5333a-1c86-462a-b600-7fbb3ccca285. I will leave the room open 24/7.
 
 ### 📝 Updates
 #### Added
@@ -268,9 +268,9 @@ Notice there is a difference in Total Users, Verified Users, and Approved Users.
 
 ### 🚀 Highlights
 - Connect with me live on Signal or Chyme (our very own Android app dedicated to social audio).
-    - Link to Download Chyme and sign in: https://app.chargingthefuture.com/apps/chyme.
-    - This is the landing page to today's live social audio room: https://app.chargingthefuture.com/apps/chyme/room/43d5333a-1c86-462a-b600-7fbb3ccca285. I will leave the room open; please feel free to join at any time.
-- Focus this week: finding more TIs to be included in the Directory: https://app.chargingthefuture.com/apps/directory/public.
+    - Link to Download Chyme and sign in: https://app.lagatos.com/apps/chyme.
+    - This is the landing page to today's live social audio room: https://app.lagatos.com/apps/chyme/room/43d5333a-1c86-462a-b600-7fbb3ccca285. I will leave the room open; please feel free to join at any time.
+- Focus this week: finding more TIs to be included in the Directory: https://app.lagatos.com/apps/directory/public.
 
 ### 📝 Updates
 #### Added
@@ -296,9 +296,9 @@ Notice there is a difference in Total Users, Verified Users, and Approved Users.
 <img src="images/screenshot-2.png" alt="As of Dec 27, 2025" width="600">
 
 Links:
-- Directory: https://app.chargingthefuture.com/apps/directory/public
-- Workforce Recruiter: https://app.chargingthefuture.com/apps/workforce-recruiter
-- Download the Chyme Android app: https://app.chargingthefuture.com/apps/chyme
+- Directory: https://app.lagatos.com/apps/directory/public
+- Workforce Recruiter: https://app.lagatos.com/apps/workforce-recruiter
+- Download the Chyme Android app: https://app.lagatos.com/apps/chyme
 
 ---
 
@@ -333,8 +333,8 @@ Links:
 - Thanks to everyone for submitting Directory profiles and reporting metric issues.
 
 Links:
-- Directory: https://app.chargingthefuture.com/apps/directory/public
-- Workforce Recruiter: https://app.chargingthefuture.com/apps/workforce-recruiter
+- Directory: https://app.lagatos.com/apps/directory/public
+- Workforce Recruiter: https://app.lagatos.com/apps/workforce-recruiter
 - This post on Quora: https://skillseconomy.quora.com/Town-Hall-12-20-2025-Every-Saturday-I-go-live-to-do-an-interactive-session-where-TIs-can-ask-questions-or-listen-to-up
 
 ---
@@ -438,7 +438,7 @@ Links:
 
 Links:
 - Town Halls live: https://twitch.tv/the1690s
-- TI economy app: https://app.chargingthefuture.com
+- TI economy app: https://app.lagatos.com
 - Quora recap: https://skillseconomy.quora.com/It-is-Town-Hall-Saturday-Town-Hall-Recap-11-29-2025-To-join-the-Town-Halls-live-go-to-https-twitch-tv-the1690s-I
 
 ---
@@ -512,7 +512,7 @@ Date: December 21, 2025
 - Thanks to community members engaging on Quora and Signal for supporting meetup planning.
 
 Links:
-- Join TI economy: https://accounts.app.chargingthefuture.com/sign-up
+- Join TI economy: https://accounts.app.lagatos.com/sign-up
 - Group chat (optional): Signal Messenger Group
 - Quora recap: https://skillseconomy.quora.com/Townhall-11-15-2025-Recap
 - Twitch livestream: https://twitch.tv/the1690s
@@ -560,8 +560,8 @@ Note: Requesting preferred times and timezones from attendees to better schedule
 ### 📝 Updates
 #### Added
 - Chat Groups page: single page listing all invite-only Signal chats with simple request workflow.
-- Directory mini-app: profiles with up to 3 skills, optional public sharing and shareable profile links (public directory: https://app.chargingthefuture.com/apps/directory/public).
-- SocketRelay public share URLs: public feed (https://app.chargingthefuture.com/apps/socketrelay/public) and per-request links for sharing.
+- Directory mini-app: profiles with up to 3 skills, optional public sharing and shareable profile links (public directory: https://app.lagatos.com/apps/directory/public).
+- SocketRelay public share URLs: public feed (https://app.lagatos.com/apps/socketrelay/public) and per-request links for sharing.
 
 #### Changed
 - Continued consolidation into the TI economy super-app for unified access (multiple mini-apps under one login).
@@ -586,9 +586,9 @@ Note: Requesting preferred times and timezones from attendees to better schedule
 - Appreciation for early adopters testing Directory profiles and public-sharing workflows.
 
 Links
-- App: app.chargingthefuture.com
-- Public Directory: https://app.chargingthefuture.com/apps/directory/public
-- SocketRelay public feed: https://app.chargingthefuture.com/apps/socketrelay/public
+- App: app.lagatos.com
+- Public Directory: https://app.lagatos.com/apps/directory/public
+- SocketRelay public feed: https://app.lagatos.com/apps/socketrelay/public
 - Twitch: https://www.twitch.tv/the1690s
 
 ---
@@ -628,7 +628,7 @@ Links
 - Appreciation for early adopters who joined the Signal town hall and testers of new app features.
 
 Links & Access
-- App: app.chargingthefuture.com (invite-code required — DM on Discourse, Quora, or Signal)
+- App: app.lagatos.com (invite-code required — DM on Discourse, Quora, or Signal)
 - Signal group details: www.sleek.bio/farah
 - Town hall audio (15 min): https://chargingthefuture.wistia.com/medias/fp4q4pf8d0
 
@@ -638,17 +638,17 @@ Links & Access
 
 ### 🚀 Highlights
 - Launched Charging The Future (CTF) forum on Discourse as a permanent hub for the TI economy after the Quora account deletion.
-- Decided to consolidate all TI products into a single platform (app.chargingthefuture.com) with a $1/month subscription.
+- Decided to consolidate all TI products into a single platform (app.lagatos.com) with a $1/month subscription.
 
 ### 📝 Updates
 #### Added
 - [TI Skills Network (TSN) launched August 3, 2025](https://skillseconomy.quora.com/To-get-things-started-List-your-top-three-skills-or-services-you-can-provide-This-way-other-TIs-can-know-if-they-shoul), as an initial collaboration hub for TIs; TSN has 173 followers.
 - CTF forum created September 18, 2025, to ensure a guaranteed, non-shadow-banning space for TIs.
-- Formal landing page launched: chargingthefuture.com.
+- Formal landing page launched: lagatos.com.
 - Invite-only Signal groups established for real-time conversations.
 
 #### Changed
-- Shifted strategy from building separate apps and logins per product to a single centralized platform (app.chargingthefuture.com) with one login and unified ecosystem.
+- Shifted strategy from building separate apps and logins per product to a single centralized platform (app.lagatos.com) with one login and unified ecosystem.
 - Weekly townhall format: live townhall plus written synopsis and recording provided afterward.
 
 #### Fixed
@@ -656,7 +656,7 @@ Links & Access
 - Addressed discoverability and continuity by building an independent website, forum, and messaging groups.
 
 ### 🔍 Upcoming Focus
-- Migrate existing product features into the centralized app.chargingthefuture.com.
+- Migrate existing product features into the centralized app.lagatos.com.
 - Roll out unified login and subscription flow ($1/month).
 - Continue weekly townhalls (live + recorded) and provide written synopses.
 

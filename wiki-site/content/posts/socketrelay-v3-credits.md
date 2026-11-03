@@ -19,7 +19,7 @@ In version two, SocketRelay ran on free and barter. Both are real and both still
 
 ## What version three adds
 
-Every member who joins receives 100 ServiceCredits on day one. That is stated plainly on the [landing page](https://chargingthefuture.com), and it applies to everyone, immediately, with nothing to earn first.
+Every member who joins receives 100 ServiceCredits on day one. That is stated plainly on the [landing page](https://lagatos.com), and it applies to everyone, immediately, with nothing to earn first.
 
 ServiceCredits are the community's internal credits unit — not money, not a currency, never redeemable or withdrawable for fiat value. What they are is a way to exchange inside the network: for food, for goods, for a service you need, for a want as well as a need. Free and barter did not go anywhere. Credits sit alongside them as a third way to move value between survivors.
 
@@ -27,11 +27,11 @@ The practical difference: nobody arrives empty-handed. On your first day here yo
 
 ## Where it is
 
-The board is at [app.chargingthefuture.com/apps/socket-relay](https://app.chargingthefuture.com/apps/socket-relay). Post what you need. Offer what you have. Everything else about it works the way the original post described.
+The board is at [app.lagatos.com/apps/socket-relay](https://app.lagatos.com/apps/socket-relay). Post what you need. Offer what you have. Everything else about it works the way the original post described.
 
 ## Where to find it in the app
 
-- [SocketRelay](https://app.chargingthefuture.com/apps/socket-relay) — [guide](https://app.chargingthefuture.com/guide#socket-relay)
-- [ServiceCredits](https://app.chargingthefuture.com/apps/service-credits) — [guide](https://app.chargingthefuture.com/guide#service-credits)
+- [SocketRelay](https://app.lagatos.com/apps/socket-relay) — [guide](https://app.lagatos.com/guide#socket-relay)
+- [ServiceCredits](https://app.lagatos.com/apps/service-credits) — [guide](https://app.lagatos.com/guide#service-credits)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
