@@ -1,6 +1,6 @@
 ---
 title: "Regret needs a choice"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks whether I regret being a Targeted Individual. Regret belongs to something a person decided, and being targeted was decided by the people doing it."
 category: "Community"
 teaser: "A question I saved on Quora asks whether I regret being a Targeted Individual. No, because regret belongs to a decision, and this was never mine. It started when I was five, and trafficking someone is a choice made by the person doing it. There are no criteria for who gets put on the list; any petty reason will do. Operators tell targets a story in which they chose it or earned it, and a question about regret sits on the same line. There is a usual answer, that it was hard but gave something back. I do not give it. What I do decide is what I do with my own days, and some of what it costs can be cut."
@@ -40,11 +40,11 @@ Being targeted is a crime done to me. It is not a position I hold or a trait I h
 
 What I do decide is what I do with my own days. No method I know of stops the targeting. What can be cut is what it costs: your account of your own life, your work, your housing, and who you have to go through for any of them ([What can be stopped](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-can-be-stopped)).
 
-Two of those are within reach today. A dated record in [ClickLog](https://app.chargingthefuture.com/apps/click-log) takes seconds an entry, and nobody but you sees your notes. A listing in the [Directory](https://app.chargingthefuture.com/apps/directory) puts survivors where others can find them by what they can do; being on it costs nobody an account, and anybody can claim theirs or have it taken down.
+Two of those are within reach today. A dated record in [ClickLog](https://app.lagatos.com/apps/click-log) takes seconds an entry, and nobody but you sees your notes. A listing in the [Directory](https://app.lagatos.com/apps/directory) puts survivors where others can find them by what they can do; being on it costs nobody an account, and anybody can claim theirs or have it taken down.
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

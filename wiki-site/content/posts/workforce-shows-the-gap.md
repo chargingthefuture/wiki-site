@@ -44,15 +44,15 @@ Traffickers do not hand people material help, so a place organized around giving
 
 Help using the app is free: ask in the Commons, the shared chat you land on when you sign in.
 
-If you want curated help reaching your 1%, the share of the work that Workforce's [What's your 1%?](https://app.chargingthefuture.com/apps/workforce?view=one-percent) tab works out for your trade, that is One Percent, the paid tier. It is a call of up to half an hour, in your browser, about the figure your trade produces and the first customer behind it. It costs $7 and needs no account. It is at https://farahbrunache.com.
+If you want curated help reaching your 1%, the share of the work that Workforce's [What's your 1%?](https://app.lagatos.com/apps/workforce?view=one-percent) tab works out for your trade, that is One Percent, the paid tier. It is a call of up to half an hour, in your browser, about the figure your trade produces and the first customer behind it. It costs $7 and needs no account. It is at https://farahbrunache.com.
 
 Everything above works without it, and stays free.
 
 ## Where to find it in the app
 
-- [Workforce](https://app.chargingthefuture.com/apps/workforce) — [guide](https://app.chargingthefuture.com/guide#workforce)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [PeerProgramming goal board](https://app.chargingthefuture.com/apps/peer-programming?tab=goals) — [guide](https://app.chargingthefuture.com/guide#peer-programming)
-- [Commons](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
+- [Workforce](https://app.lagatos.com/apps/workforce) — [guide](https://app.lagatos.com/guide#workforce)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [PeerProgramming goal board](https://app.lagatos.com/apps/peer-programming?tab=goals) — [guide](https://app.lagatos.com/guide#peer-programming)
+- [Commons](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

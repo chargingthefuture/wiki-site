@@ -65,12 +65,12 @@ Every one of those leaves you alone, and none of them builds anything. As of tod
 
 I am fine with that. It means it stands out, and standing out is how the people looking for it find it.
 
-Watch the progress live in the Workforce feature, any hour of any day. The guide walks you through it at your own pace: https://app.chargingthefuture.com/guide#workforce
+Watch the progress live in the Workforce feature, any hour of any day. The guide walks you through it at your own pace: https://app.lagatos.com/guide#workforce
 
 The app is free. Keep every defensive tip you have ever learned. Then add something to defend.
 
 ## Where to find it in the app
 
-- [Workforce](https://app.chargingthefuture.com/apps/workforce) — [guide](https://app.chargingthefuture.com/guide#workforce)
+- [Workforce](https://app.lagatos.com/apps/workforce) — [guide](https://app.lagatos.com/guide#workforce)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
