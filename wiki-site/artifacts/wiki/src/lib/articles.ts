@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "why-we-count-days-won",
     "title": "Why we count days won",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-11-02",
+    "date": "2026-11-03",
     "excerpt": "The new version of the app opens on one number, Days the Avenhood has won. Here is what goes into it, why it belongs to all of us at once, and why we count it at all.",
     "category": "Community",
     "collection": "posts",
