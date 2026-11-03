@@ -18,7 +18,7 @@ Having no money is exactly when somebody has to know where the little there is g
 
 ## Holly
 
-Holly (https://www.quora.com/profile/Holly-D-192), in Atlanta, Georgia. The Directory profile is at https://app.chargingthefuture.com/apps/directory/profile/cf681670-b288-4b1d-b45d-c2a37b1984bf.
+Holly (https://www.quora.com/profile/Holly-D-192), in Atlanta, Georgia. The Directory profile is at https://app.lagatos.com/apps/directory/profile/cf681670-b288-4b1d-b45d-c2a37b1984bf.
 
 ![Holly's Directory listing in the app, captured October 1, 2026. The heading reads Holly, below it "Community-generated profile" and "Nominated by @farah", and under that the location Atlanta, Georgia, United States. A button reads View Quora profile. Under the heading SPECIALIZATIONS are two entries: Financial planning and budgeting; Financial modeling and cashflow management.](images/holly-directory-profile-2026-10-01.jpg)
 
@@ -59,12 +59,12 @@ Somebody whose work is other people's budgets needs things too. A ride. A room. 
 
 Everyone written about in this series is a self-identified Targeted Individual. That means they said so in public, and it is the only basis for the listing. I cannot verify it, and neither can a reader. Some people who say it are not survivors, and some are the people doing the harassing, so a post here is not a vouch for anybody and should not be read as one. I am not responsible for what anyone named on this list does or says, on the app, on Quora, or anywhere else. The closest anybody can get to finding a real Targeted Individual is through the app, which admits people one at a time through Unlock and has other mechanisms in place to filter actively. Even with those, there is no such thing as a hundred percent.
 
-Sign in to get access to the world's first directory of 300+ self-identified Targeted Individuals, free: https://app.chargingthefuture.com/apps/directory
+Sign in to get access to the world's first directory of 300+ self-identified Targeted Individuals, free: https://app.lagatos.com/apps/directory
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Workforce](https://app.chargingthefuture.com/apps/workforce) — [guide](https://app.chargingthefuture.com/guide#workforce)
-- [Unlock](https://app.chargingthefuture.com/plugin/unlock) — [guide](https://app.chargingthefuture.com/guide#unlock)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Workforce](https://app.lagatos.com/apps/workforce) — [guide](https://app.lagatos.com/guide#workforce)
+- [Unlock](https://app.lagatos.com/plugin/unlock) — [guide](https://app.lagatos.com/guide#unlock)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

@@ -63,7 +63,7 @@ Which brings me to the part I am actually announcing.
 
 Beyond building the app and running the logistics inside it, what I think I can offer is this: helping other Targeted Individuals reach their one percent.
 
-There is a tab in [Workforce](https://app.chargingthefuture.com/apps/workforce) called What's your 1%? It reads the skills already on your Directory listing, you set a rate you would actually charge, and it shows you what serving one percent of five million survivors — fifty thousand people — comes to in a year.
+There is a tab in [Workforce](https://app.lagatos.com/apps/workforce) called What's your 1%? It reads the skills already on your Directory listing, you set a rate you would actually charge, and it shows you what serving one percent of five million survivors — fifty thousand people — comes to in a year.
 
 The main Workforce screen splits the entire economy evenly and gets about $142,500 a person. No real outcome is an even split. However you define doing well, at work or at the thing you do for love, it comes out of three parts: talent, luck, and how much work you put in. The even split has all three of those averaged away.
 
@@ -81,10 +81,10 @@ I built the map. Walking it with people is the part I can offer, and it is the p
 
 ## Where to find it in the app
 
-- [Workforce](https://app.chargingthefuture.com/apps/workforce) — [guide](https://app.chargingthefuture.com/guide#workforce)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt) — [guide](https://app.chargingthefuture.com/guide#skills-hunt)
+- [Workforce](https://app.lagatos.com/apps/workforce) — [guide](https://app.lagatos.com/guide#workforce)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [SkillsHunt](https://app.lagatos.com/apps/skills-hunt) — [guide](https://app.lagatos.com/guide#skills-hunt)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
