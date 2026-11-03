@@ -18,7 +18,7 @@ I would rather tell you that than leave you to find it.
 
 ## No Name Individual
 
-No Name Individual (https://www.quora.com/profile/No-Name-Individual), in the United States. The Directory profile is at https://app.chargingthefuture.com/apps/directory/profile/bb8dda31-81c0-406c-ab96-ea64aef5e32a.
+No Name Individual (https://www.quora.com/profile/No-Name-Individual), in the United States. The Directory profile is at https://app.lagatos.com/apps/directory/profile/bb8dda31-81c0-406c-ab96-ea64aef5e32a.
 
 ![No Name Individual's Directory listing in the app, captured October 1, 2026. The heading reads No Name Individual, below it "Community-generated profile" and "Nominated by @farah", and under that the location United States. A button reads View Quora profile. Under the heading SPECIALIZATIONS is one entry: Advocacy.](images/no-name-individual-directory-profile-2026-10-01.jpg)
 
@@ -34,9 +34,9 @@ I answered it in [What jobs a Targeted Individual can get](https://chargingthefu
 
 ## Where the listing comes in
 
-The Skills Economy runs on people being able to find each other. That is what the [Directory](https://app.chargingthefuture.com/apps/directory) is for: it lists people and what they can do. [Foundation](https://app.chargingthefuture.com/apps/foundation) is where members find somebody who offers a skill and arrange the work with them.
+The Skills Economy runs on people being able to find each other. That is what the [Directory](https://app.lagatos.com/apps/directory) is for: it lists people and what they can do. [Foundation](https://app.lagatos.com/apps/foundation) is where members find somebody who offers a skill and arrange the work with them.
 
-Right now this listing says only that No Name Individual is here. Claimed, it can say what they can do, and that turns a name on a list into somebody other people can ask. [Workforce](https://app.chargingthefuture.com/apps/workforce) shows how much is open: on October 2, 483 of the 713 skills a working economy needs had nobody in this community.
+Right now this listing says only that No Name Individual is here. Claimed, it can say what they can do, and that turns a name on a list into somebody other people can ask. [Workforce](https://app.lagatos.com/apps/workforce) shows how much is open: on October 2, 483 of the 713 skills a working economy needs had nobody in this community.
 
 ## How the listing came to be
 
@@ -52,13 +52,13 @@ Nothing else is required. Not using the rest of the app, not posting anything, n
 
 Everyone written about in this series is a self-identified Targeted Individual. That means they said so in public, and it is the only basis for the listing. I cannot verify it, and neither can a reader. Some people who say it are not survivors, and some are the people doing the harassing, so a post here is not a vouch for anybody and should not be read as one. I am not responsible for what anyone named on this list does or says, on the app, on Quora, or anywhere else. The closest anybody can get to finding a real Targeted Individual is through the app, which admits people one at a time through Unlock and has other mechanisms in place to filter actively. Even with those, there is no such thing as a hundred percent.
 
-Sign in to get access to the world's first directory of 300+ self-identified Targeted Individuals, free: https://app.chargingthefuture.com/apps/directory
+Sign in to get access to the world's first directory of 300+ self-identified Targeted Individuals, free: https://app.lagatos.com/apps/directory
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
-- [Workforce](https://app.chargingthefuture.com/apps/workforce) — [guide](https://app.chargingthefuture.com/guide#workforce)
-- [Unlock](https://app.chargingthefuture.com/plugin/unlock) — [guide](https://app.chargingthefuture.com/guide#unlock)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
+- [Workforce](https://app.lagatos.com/apps/workforce) — [guide](https://app.lagatos.com/guide#workforce)
+- [Unlock](https://app.lagatos.com/plugin/unlock) — [guide](https://app.lagatos.com/guide#unlock)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

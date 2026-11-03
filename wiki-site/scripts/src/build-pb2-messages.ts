@@ -40,7 +40,7 @@ const OUT = resolve(BLOG_ROOT, 'artifacts/wiki/public/pb2-messages.json');
  * Peace Battle 2 page (owner directive, 2026-10-03), because these posts are the protest's and a
  * reader who follows one should land on it.
  */
-const GUIDE_BASE = 'https://app.chargingthefuture.com/guide';
+const GUIDE_BASE = 'https://app.lagatos.com/guide';
 export const ENTRY_POINT = 'https://chargingthefuture.github.io/chargingthefuture/peace-battle-2';
 export const ENTRY_LINE = `To take part: ${ENTRY_POINT}`;
 

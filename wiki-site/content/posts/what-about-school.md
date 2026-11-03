@@ -35,11 +35,11 @@ That splits the question in two, and the halves have different answers.
 
 Worth separating out, because it is the easier one and it is nearly solved.
 
-Childcare sits close to babysitting: one person doing something for another, for an afternoon or a day. That is the shape this app was built for, end to end. Somebody who does it is findable in the [Directory](https://app.chargingthefuture.com/apps/directory), the arrangement gets made through [Foundation](https://app.chargingthefuture.com/apps/foundation), it settles in [ServiceCredits](https://app.chargingthefuture.com/apps/service-credits), and standing comes from [Trust](https://app.chargingthefuture.com/apps/trust) — built out of participation that actually happened, not out of what anyone says about somebody.
+Childcare sits close to babysitting: one person doing something for another, for an afternoon or a day. That is the shape this app was built for, end to end. Somebody who does it is findable in the [Directory](https://app.lagatos.com/apps/directory), the arrangement gets made through [Foundation](https://app.lagatos.com/apps/foundation), it settles in [ServiceCredits](https://app.lagatos.com/apps/service-credits), and standing comes from [Trust](https://app.lagatos.com/apps/trust) — built out of participation that actually happened, not out of what anyone says about somebody.
 
 So there is nothing to build for childcare. The gap is people: members who already do this and are not listed, and members willing to learn it.
 
-That makes it a [SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt) problem, not a software one. SkillsHunt is how somebody gets found and added, and its missions name what the economy is short of — a mission to find a doctor is already on the board for exactly that reason. Childcare is the same kind of gap and the same kind of fix. [SkillUp](https://app.chargingthefuture.com/apps/skill-up) is where somebody who wants the skill rather than already having it would pick it up.
+That makes it a [SkillsHunt](https://app.lagatos.com/apps/skills-hunt) problem, not a software one. SkillsHunt is how somebody gets found and added, and its missions name what the economy is short of — a mission to find a doctor is already on the board for exactly that reason. Childcare is the same kind of gap and the same kind of fix. [SkillUp](https://app.lagatos.com/apps/skill-up) is where somebody who wants the skill rather than already having it would pick it up.
 
 If you can watch a child for an afternoon, or you know a survivor who can, that is the ask here. It needs no new tooling and it is available now.
 
@@ -63,11 +63,11 @@ Registration and legal requirements also differ by country and by state, sometim
 
 Nothing here was built for schooling, but three things are adjacent enough to be worth naming, because they are machinery that already runs.
 
-[SkillUp](https://app.chargingthefuture.com/apps/skill-up) runs training cohorts: a curriculum, milestones that get validated, a trainer somebody claims, and credits released as milestones are met. That is structurally a course, and it is aimed at adults learning a trade.
+[SkillUp](https://app.lagatos.com/apps/skill-up) runs training cohorts: a curriculum, milestones that get validated, a trainer somebody claims, and credits released as milestones are met. That is structurally a course, and it is aimed at adults learning a trade.
 
-[PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming) puts people into small weekly groups with a room they can talk in. That is structurally a class of about twelve.
+[PeerProgramming](https://app.lagatos.com/apps/peer-programming) puts people into small weekly groups with a room they can talk in. That is structurally a class of about twelve.
 
-[Skills Taxonomy](https://app.chargingthefuture.com/apps/skills-taxonomy) is the catalog of sectors, job titles, and skills the app matches against. A parent who can teach mathematics is already describable in it.
+[Skills Taxonomy](https://app.lagatos.com/apps/skills-taxonomy) is the catalog of sectors, job titles, and skills the app matches against. A parent who can teach mathematics is already describable in it.
 
 ## What could be built, on each side of the split
 
@@ -77,7 +77,7 @@ Connecting — this is the app's job, and these belong in it:
 
 1. Matching a parent who can teach a subject with a family that needs it taught. The Directory pattern applied to teaching. The smallest useful thing on this page, and the only one that has to live here.
 2. Describing teaching properly in the Skills Taxonomy, so a parent who can teach mathematics is findable as that and not buried under something else.
-3. A shelf of what parents actually use — curricula, free programs, the ones that turned out to be bad. [WhatWorks](https://app.chargingthefuture.com/apps/what-works) is already one shared, survivor-verified list organized by problem, so this is a use of something that exists rather than a build.
+3. A shelf of what parents actually use — curricula, free programs, the ones that turned out to be bad. [WhatWorks](https://app.lagatos.com/apps/what-works) is already one shared, survivor-verified list organized by problem, so this is a use of something that exists rather than a build.
 
 Delivering — a separate tool, or somebody's existing one, or nothing:
 
@@ -95,7 +95,7 @@ It is also possible the need is not schooling at all, but respite — an hour, o
 
 ## Where to send input
 
-The group chat, [Commons](https://app.chargingthefuture.com). What you use now, what you tried that failed, which of the six is worth building, or that none of them are — and which side of the split your answer sits on, because a connecting problem and a delivering problem get solved in different places.
+The group chat, [Commons](https://app.lagatos.com). What you use now, what you tried that failed, which of the six is worth building, or that none of them are — and which side of the split your answer sits on, because a connecting problem and a delivering problem get solved in different places.
 
 If you are already homeschooling, you know more about this than I do. Say what you actually do — that answer counts for more here than anything I worked out from the outside.
 
@@ -103,15 +103,15 @@ The same question applies past schooling. If you are providing anything in this 
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
-- [ServiceCredits](https://app.chargingthefuture.com/apps/service-credits) — [guide](https://app.chargingthefuture.com/guide#service-credits)
-- [Trust](https://app.chargingthefuture.com/apps/trust) — [guide](https://app.chargingthefuture.com/guide#trust)
-- [SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt) — [guide](https://app.chargingthefuture.com/guide#skills-hunt)
-- [SkillUp](https://app.chargingthefuture.com/apps/skill-up) — [guide](https://app.chargingthefuture.com/guide#skill-up)
-- [PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming) — [guide](https://app.chargingthefuture.com/guide#peer-programming)
-- [Skills Taxonomy](https://app.chargingthefuture.com/apps/skills-taxonomy) — [guide](https://app.chargingthefuture.com/guide#skills-taxonomy)
-- [WhatWorks](https://app.chargingthefuture.com/apps/what-works) — [guide](https://app.chargingthefuture.com/guide#what-works)
-- [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
+- [ServiceCredits](https://app.lagatos.com/apps/service-credits) — [guide](https://app.lagatos.com/guide#service-credits)
+- [Trust](https://app.lagatos.com/apps/trust) — [guide](https://app.lagatos.com/guide#trust)
+- [SkillsHunt](https://app.lagatos.com/apps/skills-hunt) — [guide](https://app.lagatos.com/guide#skills-hunt)
+- [SkillUp](https://app.lagatos.com/apps/skill-up) — [guide](https://app.lagatos.com/guide#skill-up)
+- [PeerProgramming](https://app.lagatos.com/apps/peer-programming) — [guide](https://app.lagatos.com/guide#peer-programming)
+- [Skills Taxonomy](https://app.lagatos.com/apps/skills-taxonomy) — [guide](https://app.lagatos.com/guide#skills-taxonomy)
+- [WhatWorks](https://app.lagatos.com/apps/what-works) — [guide](https://app.lagatos.com/guide#what-works)
+- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

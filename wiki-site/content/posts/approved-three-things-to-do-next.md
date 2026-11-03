@@ -14,13 +14,13 @@ This follows [New here? Three things to do first](https://chargingthefuture.gith
 
 ## 1. Find who is already here
 
-The [Directory](https://app.chargingthefuture.com/apps/directory) is a list of members and what they can do. Search it by name, skill or place, or narrow it to one sector. A listing is how members find each other, so look before you ask: the person who can do what you need may already be on it.
+The [Directory](https://app.lagatos.com/apps/directory) is a list of members and what they can do. Search it by name, skill or place, or narrow it to one sector. A listing is how members find each other, so look before you ask: the person who can do what you need may already be on it.
 
 Keep your own listing current. When you pick up a skill, or move, change it. Being listed costs nobody an account. Looking through the list takes an approved one.
 
 ## 2. Put what is left of your day on the goal board
 
-Nobody here gets a full day. The [PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming?tab=goals) goal board is built for the 1% that is left.
+Nobody here gets a full day. The [PeerProgramming](https://app.lagatos.com/apps/peer-programming?tab=goals) goal board is built for the 1% that is left.
 
 A goal has a finish line, and it is broken into cards, each one small enough to do from a phone in under half an hour. Pick one card from somebody else's goal, do it, and post what you found. One card is plenty.
 
@@ -34,7 +34,7 @@ The board works before the marketplace does. "Help me find a room" is a card any
 
 ## 3. Ask the Commons, or @comic
 
-For anything that is not on the board, ask in the [Commons](https://app.chargingthefuture.com), the shared chat you land on when you sign in.
+For anything that is not on the board, ask in the [Commons](https://app.lagatos.com), the shared chat you land on when you sign in.
 
 Or start a message with @comic and ask the assistant in that chat. It answers from the Knowledge Library: my writing on Quora and this blog, and writing other members have added. A person reads every answer before you see it, so the first thing you get is a note that it is being reviewed, and the answer follows once it is approved.
 
@@ -42,8 +42,8 @@ Or start a message with @comic and ask the assistant in that chat. It answers fr
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming?tab=goals) — [guide](https://app.chargingthefuture.com/guide#peer-programming)
-- [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [PeerProgramming](https://app.lagatos.com/apps/peer-programming?tab=goals) — [guide](https://app.lagatos.com/guide#peer-programming)
+- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

@@ -1,6 +1,6 @@
 ---
 title: "Fitted to you"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks how the person targeted is groomed. It arrives as friendliness, fitted to them, and it is fishing for what can be used next."
 category: "Community"
 teaser: "A question I saved on Quora asks how the person being targeted is groomed. It does not arrive as a threat. It arrives as an overly friendly stranger, a nice person after a cruel one, a romance that is exactly your type. Each approach is fitted to what was learned by watching, and each one is fishing: for information, for triggers, for a reaction, for money spent. The direction is always the same, toward isolation. The answer runs the other way, toward people who do not take part."
@@ -44,10 +44,10 @@ So the protection is not learning to tell which smile is real. It is going the o
 
 Going at your own pace includes a test that does not depend on charm. On October 6, 2025, asked how to vet new members, I wrote that the people taking part "cannot materially help." Help that actually arrives says more than a friendly approach does.
 
-The [Directory](https://app.chargingthefuture.com/apps/directory) lists survivors by what they can do, so the next person a Targeted Individual leans on can be somebody who has done the thing, not somebody who turned up being nice. Being on it costs nobody an account.
+The [Directory](https://app.lagatos.com/apps/directory) lists survivors by what they can do, so the next person a Targeted Individual leans on can be somebody who has done the thing, not somebody who turned up being nice. Being on it costs nobody an account.
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

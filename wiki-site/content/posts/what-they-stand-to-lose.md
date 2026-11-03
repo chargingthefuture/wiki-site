@@ -1,6 +1,6 @@
 ---
 title: "What they stand to lose"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks what the people doing this fear. Being noticed, the people directing them, and losing what they were given. Never their lives."
 category: "Community"
 teaser: "A question I saved on Quora asks what the people doing this fear. Three things, from what I have written over the years. Being noticed by people who do not know, which is why only a percentage are targeted and why a quiet stretch usually means they are laying low. The people directing them, whom they are afraid not to obey. And losing what they were given for taking part: a job, an apartment, a reputation. None of it is their life. Only the target's is at risk."
@@ -50,7 +50,7 @@ They depend on what they are given, and part of it comes through the target: the
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
