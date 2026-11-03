@@ -51,46 +51,46 @@ follows it.
 - [x] Can gang stalkers actually be out to harm or even kill their targeted individuals — bookmarked · saved 3 times (asked by Cody Homan, https://www.quora.com/profile/Cody-Homan-5, on 2023-11-24; answered in arranged-to-look-like-something-else.md)
 - [–] Gang stalking Organized Stalking Leaked documents RT news — bookmarked · learningandresearchti (set aside, 2026-10-15: the title of a saved news video rather than a question. Not a post.)
 - [x] How can a T I victim escape the harassment from their gang stalker when they have all your information name SSN and your DOB — bookmarked
-- [ ] How do gang stalkers use subtle hints to control targeted individuals and what impact does this have on the victims lives — bookmarked
+- [x] How do gang stalkers use subtle hints to control targeted individuals and what impact does this have on the victims lives — bookmarked
 - [–] How TO Stop Remote Tech Viewing of Your Home Technology Mirrored — bookmarked · learningandresearchti (set aside, 2026-10-15: it asks for technology advice, which this blog does not give. Not a post.)
-- [ ] What is a gang stalker and how do they operate — bookmarked
-- [ ] What is your opinion of people who engage in stalking activities for revenge and or personal gain Do you think they have psychological issues If so what are they — bookmarked
+- [x] What is a gang stalker and how do they operate — bookmarked
+- [x] What is your opinion of people who engage in stalking activities for revenge and or personal gain Do you think they have psychological issues If so what are they — bookmarked
 - [–] What legal avenues are available for targeted individuals to seek justice against gang stalking and organized harassment — bookmarked (set aside, 2026-10-15: it asks for legal advice, which this blog does not give. Not a post.)
 - [–] When gang stalkers text my phone is it installing spyware? I cannot tell if every company has a back door and part of this or if everyone I speak to is simply hacked and exposing my communications. — submitted to a space · Targeted Individuals - Get Answers · saved 2 times (set aside, 2026-10-15: it asks for technology advice, which this blog does not give. Not a post.)
-- [ ] Why did I become a targeted individual for gang stalking — bookmarked · saved 5 times
-- [ ] Why do gang stalkers use bright lights from cars to harass me — bookmarked
-- [ ] What is gang stalking — bookmarked · saved 12 times
-- [ ] Do you regret being a targeted individual — bookmarked
-- [ ] How can targeted individuals reclaim power break free from organized stalking and find resilience amidst adversity — bookmarked
-- [ ] What are some signs that someone is being targeted by gang stalkers or organized stalkers — bookmarked · saved 5 times
+- [x] Why did I become a targeted individual for gang stalking — bookmarked · saved 5 times
+- [x] Why do gang stalkers use bright lights from cars to harass me — bookmarked
+- [x] What is gang stalking — bookmarked · saved 12 times
+- [x] Do you regret being a targeted individual — bookmarked
+- [x] How can targeted individuals reclaim power break free from organized stalking and find resilience amidst adversity — bookmarked
+- [x] What are some signs that someone is being targeted by gang stalkers or organized stalkers — bookmarked · saved 5 times
 - [ ] What is the general perception of targeted individuals who claim to be victims of organized gang stalking Are they considered delusional or paranoid — bookmarked · saved 3 times
 - [x] What s the main goal for people being gang stalked — bookmarked
 - [x] When a targeted individual gets to the stage of being nearly 100 isolated what should that person do to survive — bookmarked
-- [ ] Why do people deny gang stalking so vehemently — bookmarked · saved 2 times
-- [ ] Are gang stalkers aware of what theyre doing — bookmarked · saved 3 times
-- [ ] As a targeted individual how can you find out who made you a target — bookmarked
+- [x] Why do people deny gang stalking so vehemently — bookmarked · saved 2 times
+- [x] Are gang stalkers aware of what theyre doing — bookmarked · saved 3 times
+- [x] As a targeted individual how can you find out who made you a target — bookmarked
 - [ ] Can a narcissist act like he doesn t like you and can T stand you yet is actually in reality addicted to you 5 — bookmarked · thedarkworldofnarcissistbysevinc
-- [ ] How do gang stalkers rob targeted individuals money — bookmarked · saved 3 times
+- [x] How do gang stalkers rob targeted individuals money — bookmarked · saved 3 times
 - [ ] What are the signs of gang stalking How does it typically begin and how long does it usually last — bookmarked · saved 2 times
 - [ ] What are the signs that I ve accidentally got romantically involved with a gang stalker in my gang stalking 1 — bookmarked · gangstalkingquestionsandanswers
 - [ ] What does being targeted by gang stalkers feel like What are some signs that someone is targeting you — bookmarked
 - [ ] What exactly do gang stalkers want from me — bookmarked · saved 4 times
-- [ ] Why are targeted individuals treated so badly 1 — bookmarked · tinetwork · saved 2 times
-- [ ] Why do gangstalkers film you on their phones 5 — bookmarked · gangstalkingworldwide
-- [ ] Are the families of targeted individuals forced by gang stalkers to harass the TI or do they do it voluntarily — bookmarked
-- [ ] Do gang stalkers scare away people who help you such as mechanics lawn workers etc — bookmarked
+- [x] Why are targeted individuals treated so badly 1 — bookmarked · tinetwork · saved 2 times
+- [x] Why do gangstalkers film you on their phones 5 — bookmarked · gangstalkingworldwide
+- [x] Are the families of targeted individuals forced by gang stalkers to harass the TI or do they do it voluntarily — bookmarked
+- [x] Do gang stalkers scare away people who help you such as mechanics lawn workers etc — bookmarked
 - [ ] Do individuals on the targeted individual list know the reason for being placed on it — bookmarked
 - [ ] Does being targeted for TIs targeted individuals indicate that someone was involved in the occult prior to the targeting — bookmarked
 - [ ] How do I know if I am on a gang stalkers list as a target — bookmarked · saved 3 times
-- [ ] How do stalkers groom the person they target — bookmarked
+- [x] How do stalkers groom the person they target — bookmarked
 - [ ] How do targeted individuals know that they are being targeted — bookmarked
 - [ ] How does a narcissist act to people who see right through them — bookmarked
 - [ ] How soon does a narcissist usually get bored of a new supply — bookmarked
 - [ ] Is gang stalking real or is it just a bunch of paranoid people — bookmarked
 - [x] Is there a time limit for gang stalking before it stops or no longer has any effect — bookmarked
-- [ ] What are the indicators of being a high level targeted individual — bookmarked
+- [x] What are the indicators of being a high level targeted individual — bookmarked
 - [ ] What are the tactics used by gang stalkers to control their victims — bookmarked
-- [ ] What do gang stalkers fear — bookmarked
+- [x] What do gang stalkers fear — bookmarked
 - [ ] What do you do if you are being gang stalked and you know who some of your gang stalkers are personally and who is beh 1 — bookmarked · uspsyopstargetedindividuals
 - [ ] What does remove gangstalking mean — bookmarked · saved 2 times
 - [ ] What is the point of gang stalking someone if they don t even know why they are being gang stalked Why waste their time — bookmarked
@@ -100,15 +100,15 @@ follows it.
 - [ ] Who are the most common targets of gang stalking or targeted individuals TI — bookmarked · saved 2 times
 - [ ] Who is targeted in a targeted individual program and what is the reason behind it Is the selection random or based on certain criteria — bookmarked · saved 2 times
 - [ ] Why do people love narcissists And why do they turn a blind eye to their victim — bookmarked
-- [ ] Im a targeted individual by gang stalking Why wont anyone help me 10 — bookmarked · gangstalkingworldwide · saved 5 times
+- [x] Im a targeted individual by gang stalking Why wont anyone help me 10 — bookmarked · gangstalkingworldwide · saved 5 times
 - [ ] Im a targeted individual by gang stalking Why wont anyone help me 5 — bookmarked · gangstalkingworldwide
 - [ ] Why was I chosen to be a targeted individual of electronic harassment — bookmarked
 - [ ] Why would someone or some place or thing want to gangstalk me Im nobody important just a regular person amongst the billions — bookmarked
 - [ ] Being a Targeted Individual is synonymous with being a 2nd class citizen because thats basically how youre treated by — bookmarked
 - [ ] How do I send the hits back to gang stalking — bookmarked
-- [ ] What should targeted individuals avoid — bookmarked
+- [x] What should targeted individuals avoid — bookmarked
 - [x] Are most targeted individuals employed — bookmarked · saved 2 times
-- [ ] Are targeted individuals put on a live stream for all stalkers to see — bookmarked
+- [x] Are targeted individuals put on a live stream for all stalkers to see — bookmarked
 - [ ] As a targeted individual I have experienced unimaginable levels of suffering and pain at the hands of those who are sup — bookmarked · governmenthumanexperimentationexposed
 - [ ] COMMUNITY BASED AGENTS CBA s ARE THE ONES WHO CONTROL THE ORGANIZED STALKING USED AGAINST ACTIVISTS DISSIDENTS WHIS — bookmarked · rnudvbhbuspdwbhs
 - [ ] Do you really feel alone because everybody in your off line life refuses to accept that your gang stalking is even real 4 — bookmarked · gangstalkingworldwide
@@ -121,14 +121,14 @@ follows it.
 - [ ] How often are the victims of Gang Stalking organized stalking or mobbing the liberal left or Democrats in America Are 1 — bookmarked · uspsyopstargetedindividuals
 - [ ] How we can all put a stop to Gangstalking — bookmarked · rnudvbhbuspdwbhs
 - [x] In the end what will happen to targeted individuals After they have been broken down family and friends against them 5 — bookmarked · zersetzung
-- [ ] Is it possible for targeted individuals to use social media without being harassed by perpetrators What steps can they take to protect themselves from online harassment — bookmarked
+- [x] Is it possible for targeted individuals to use social media without being harassed by perpetrators What steps can they take to protect themselves from online harassment — bookmarked
 - [ ] What are some ways to deal with a cyber stalker without involving law enforcement or hiring a lawyer — bookmarked
 - [ ] What is group stalking or group harassment How do people do it and why would they do it in the first place — bookmarked
 - [ ] What is the origin of TI gangstalking 3 — bookmarked · gangstalkingworldwide
 - [ ] What is the purpose of the Targeted Individual Program Who are the individuals targeted and why are they chosen Is there a specific criteria or reason for targeting certain individuals — bookmarked
 - [ ] What percent of your calls do you think are re routed to the gang stalker call center 2 — bookmarked · uspsyopstargetedindividuals
 - [ ] What would cause someone to be targeted by organized harassment and gangstalking — bookmarked
-- [ ] Where can targeted individuals find help How can I find others in my area to find local help or community 1 — bookmarked · targetedindividuals1
+- [x] Where can targeted individuals find help How can I find others in my area to find local help or community 1 — bookmarked · targetedindividuals1
 - [ ] Why would the government be involved in organized stalking How can we know who to trust — bookmarked
 - [ ] Are government surveillance programs and organized stalking interconnected What is the shocking truth behind covert operations and targeted individuals — bookmarked
 - [ ] Do targeted individuals TIs have knowledge of their targeting or do they only become aware of it when they start noticing unusual occurrences — bookmarked
@@ -147,11 +147,11 @@ follows it.
 - [x] If you have been a gangstalked are you concerned that it will increase or become more dangerous around this presidentia 1 — bookmarked · zersetzung
 - [x] If you have been a gangstalked are you concerned that it will increase or become more dangerous around this presidentia 3 — bookmarked · zersetzung
 - [ ] Thank you for writing this Youre really articulate and explain it so clearly Reading it made me feel better — bookmarked · zersetzung
-- [ ] What do gang stalkers do when they find out you know theyre gang stalking you — bookmarked
+- [x] What do gang stalkers do when they find out you know theyre gang stalking you — bookmarked
 - [ ] What drives individuals to become gang stalkers — bookmarked
 - [ ] Why are gang stalkers so cowardly — bookmarked · saved 2 times
 - [ ] Why are gang stalkers so nosey — bookmarked
-- [ ] Why do gang stalkers have to see you every day — bookmarked
+- [x] Why do gang stalkers have to see you every day — bookmarked
 - [ ] Why do government agencies invest in gang stalking Unraveling dark motivations and surviving as a targeted individual — bookmarked
 - [ ] Why do some whistleblowers become targeted individuals after exposing illegal activities — bookmarked
 - [ ] Why dont gang stalkers like to be ignored — bookmarked
