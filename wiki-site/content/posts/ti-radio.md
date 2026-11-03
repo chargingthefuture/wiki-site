@@ -13,7 +13,7 @@ Survivors host live discussions. Until now the only way to say one was happening
 
 An announcement can point at one time. It cannot hold a schedule. And it cannot let somebody else put themselves on one.
 
-So now there is [a page that does both](https://app.chargingthefuture.com/ti-radio).
+So now there is [a page that does both](https://app.lagatos.com/ti-radio).
 
 ## What it is
 
@@ -79,9 +79,9 @@ And it is not mine to fill. I am not booking sixteen slots a day and calling it 
 
 ## Where to find it in the app
 
-- [TI Radio](https://app.chargingthefuture.com/ti-radio)
-- [Chyme](https://app.chargingthefuture.com/apps/chyme) — [guide](https://app.chargingthefuture.com/guide#chyme)
-- [Mutual Time](https://app.chargingthefuture.com/apps/mutual-time) — [guide](https://app.chargingthefuture.com/guide#mutual-time)
-- [Unlock](https://app.chargingthefuture.com/plugin/unlock) — [guide](https://app.chargingthefuture.com/guide#unlock)
+- [TI Radio](https://app.lagatos.com/ti-radio)
+- [Chyme](https://app.lagatos.com/apps/chyme) — [guide](https://app.lagatos.com/guide#chyme)
+- [Mutual Time](https://app.lagatos.com/apps/mutual-time) — [guide](https://app.lagatos.com/guide#mutual-time)
+- [Unlock](https://app.lagatos.com/plugin/unlock) — [guide](https://app.lagatos.com/guide#unlock)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

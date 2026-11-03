@@ -34,7 +34,7 @@ That second one under Tutors is worth stopping on. The last post asked whether h
 
 ## How to answer it
 
-[SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt). You nominate somebody: a name, where they are, and what they can do. You do not have to be certain the person is a survivor — the screen says so outright. An accepted nomination grants the scout credits, once per nomination and never twice.
+[SkillsHunt](https://app.lagatos.com/apps/skills-hunt). You nominate somebody: a name, where they are, and what they can do. You do not have to be certain the person is a survivor — the screen says so outright. An accepted nomination grants the scout credits, once per nomination and never twice.
 
 The mechanics are all in [an earlier post](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/finding-people-earns-credits).
 
@@ -66,11 +66,11 @@ That is why a request like this matters more than it looks. Nobody is going to b
 
 ## Where to find it in the app
 
-- [SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt) — [guide](https://app.chargingthefuture.com/guide#skills-hunt)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [ServiceCredits](https://app.chargingthefuture.com/apps/service-credits) — [guide](https://app.chargingthefuture.com/guide#service-credits)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
-- [Skills Taxonomy](https://app.chargingthefuture.com/apps/skills-taxonomy) — [guide](https://app.chargingthefuture.com/guide#skills-taxonomy)
-- [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
+- [SkillsHunt](https://app.lagatos.com/apps/skills-hunt) — [guide](https://app.lagatos.com/guide#skills-hunt)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [ServiceCredits](https://app.lagatos.com/apps/service-credits) — [guide](https://app.lagatos.com/guide#service-credits)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
+- [Skills Taxonomy](https://app.lagatos.com/apps/skills-taxonomy) — [guide](https://app.lagatos.com/guide#skills-taxonomy)
+- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
