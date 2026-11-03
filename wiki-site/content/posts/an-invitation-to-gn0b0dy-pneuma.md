@@ -13,7 +13,7 @@ Most of the people I have invited so far were strangers to this blog until their
 
 ## Gn0b0dy Pneuma
 
-Gn0b0dy Pneuma (https://www.quora.com/profile/Gn0b0dy-Pneuma), in Lexington, Kentucky. The Directory profile is at https://app.chargingthefuture.com/apps/directory/profile/93fcd868-10df-4d3f-ae3d-6bdf8141b83b and it carries one label, Advocacy, which is the placeholder the list uses when somebody's public writing shows they speak up for Targeted Individuals and no trade is stated anywhere. It stands in for a skill that is not known yet. It does not say they are an advocate by trade, and neither does this post.
+Gn0b0dy Pneuma (https://www.quora.com/profile/Gn0b0dy-Pneuma), in Lexington, Kentucky. The Directory profile is at https://app.lagatos.com/apps/directory/profile/93fcd868-10df-4d3f-ae3d-6bdf8141b83b and it carries one label, Advocacy, which is the placeholder the list uses when somebody's public writing shows they speak up for Targeted Individuals and no trade is stated anywhere. It stands in for a skill that is not known yet. It does not say they are an advocate by trade, and neither does this post.
 
 ![Gn0b0dy Pneuma's Directory profile in the app. The name, spelled GnObOdy Pneuma on the listing, marked Nominated by @farah, with a location of Lexington, Kentucky, United States. A control reads View Quora profile. Under Specializations, one tag: Advocacy. Below, a panel headed Want to work together? reads: the directory shows who is in the community and what they do. Want a service or good from this person? Look for them in Foundation, where members offer and exchange help — or browse Foundation to find someone else who can.](images/gn0b0dy-pneuma-directory-profile-2026-09-19.jpg)
 
@@ -63,14 +63,14 @@ And the writing itself has somewhere to live that a ban cannot reach. WhatWorks 
 
 Everyone written about in this series is a self-identified Targeted Individual. That means they said so in public, and it is the only basis for the listing. I cannot verify it, and neither can a reader. Some people who say it are not survivors, and some are the people doing the harassing, so a post here is not a vouch for anybody and should not be read as one. I am not responsible for what anyone named on this list does or says, on the app, on Quora, or anywhere else. The closest anybody can get to finding a real Targeted Individual is through the app, which admits people one at a time through Unlock and has other mechanisms in place to filter actively. Even with those, there is no such thing as a hundred percent.
 
-Sign in to get access to the world's first directory of 300+ self-identified Targeted Individuals, free: https://app.chargingthefuture.com/apps/directory
+Sign in to get access to the world's first directory of 300+ self-identified Targeted Individuals, free: https://app.lagatos.com/apps/directory
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [WhatWorks](https://app.chargingthefuture.com/apps/what-works) — [guide](https://app.chargingthefuture.com/guide#what-works)
-- [Knowledge Library](https://app.chargingthefuture.com/knowledge) — [guide](https://app.chargingthefuture.com/guide#knowledge)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
-- [Unlock](https://app.chargingthefuture.com/plugin/unlock) — [guide](https://app.chargingthefuture.com/guide#unlock)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [WhatWorks](https://app.lagatos.com/apps/what-works) — [guide](https://app.lagatos.com/guide#what-works)
+- [Knowledge Library](https://app.lagatos.com/knowledge) — [guide](https://app.lagatos.com/guide#knowledge)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
+- [Unlock](https://app.lagatos.com/plugin/unlock) — [guide](https://app.lagatos.com/guide#unlock)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

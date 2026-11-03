@@ -57,7 +57,7 @@ Correction, 2026-08-24: this section originally said the rendered article page a
 
 ## The feed is numbered, and gaps would show
 
-Every post, in one list, newest first, at https://chargingthefuture.com/feed
+Every post, in one list, newest first, at https://lagatos.com/feed
 
 Each entry carries a number assigned by publication order, running from the oldest to the newest without a break. That numbering is not decorative — it means a removed post would leave a visible hole, and a backdated post would land out of sequence. The feed also prints which range of how many it is showing, so the total is on the screen rather than something you have to take from me.
 
@@ -98,7 +98,7 @@ Four steps, if you want the method rather than the reasoning:
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Knowledge Library](https://app.chargingthefuture.com/knowledge) — [guide](https://app.chargingthefuture.com/guide#knowledge)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Knowledge Library](https://app.lagatos.com/knowledge) — [guide](https://app.lagatos.com/guide#knowledge)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

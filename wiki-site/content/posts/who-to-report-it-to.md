@@ -40,7 +40,7 @@ A report there does not bring anybody to your door. It adds to the record that r
 
 Whoever you end up telling, what makes it possible to tell anybody is a record: dated, written as it happens, not reconstructed a year later from memory.
 
-[ClickLog](https://app.chargingthefuture.com/apps/click-log) takes about fifteen seconds an incident. Your notes are not shown to anyone else here, and an incident you do not tag needs no location. If you choose to tag it, it joins a trend report that shows where things are happening across everybody who logs, which is a pattern no one person can see from inside their own week. [ClickLog: your record, and the record](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/clicklog-your-record-and-the-record) says more about both uses.
+[ClickLog](https://app.lagatos.com/apps/click-log) takes about fifteen seconds an incident. Your notes are not shown to anyone else here, and an incident you do not tag needs no location. If you choose to tag it, it joins a trend report that shows where things are happening across everybody who logs, which is a pattern no one person can see from inside their own week. [ClickLog: your record, and the record](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/clicklog-your-record-and-the-record) says more about both uses.
 
 A record is for you before it is for anybody else. It lets you see the pattern yourself without needing somebody else to believe it first.
 
@@ -48,15 +48,15 @@ A record is for you before it is for anybody else. It lets you see the pattern y
 
 Often "who do I report this to" means "who can help me". That one has a better answer, and it is people.
 
-Being believed is a start, and the [Commons](https://app.chargingthefuture.com) is a group chat of other Targeted Individuals. The help that changes a week is material: a ride from somebody who is not reporting on it, a room, an hour of a trade you do not have. The [Directory](https://app.chargingthefuture.com/apps/directory) lists people and what they can do, and [Foundation](https://app.chargingthefuture.com/apps/foundation) is where members offer and exchange that help.
+Being believed is a start, and the [Commons](https://app.lagatos.com) is a group chat of other Targeted Individuals. The help that changes a week is material: a ride from somebody who is not reporting on it, a room, an hour of a trade you do not have. The [Directory](https://app.lagatos.com/apps/directory) lists people and what they can do, and [Foundation](https://app.lagatos.com/apps/foundation) is where members offer and exchange that help.
 
 None of that stops it on its own. It does mean not carrying it alone.
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
