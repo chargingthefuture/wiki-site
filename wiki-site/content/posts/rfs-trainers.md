@@ -13,7 +13,7 @@ LevelUp is SkillUp now. Same thing, clearer name.
 
 ## The gap
 
-Three cohorts are open in [SkillUp](https://app.chargingthefuture.com/apps/skill-up). Every one of them reads Trainer TBD.
+Three cohorts are open in [SkillUp](https://app.lagatos.com/apps/skill-up). Every one of them reads Trainer TBD.
 
 - Journalists / Reporters
 - Construction Laborers
@@ -45,22 +45,22 @@ Training earns credits. A trainer receives 10 credits per learner each time they
 
 ## Or nominate a trainer you know
 
-You do not have to be the one teaching. If you know somebody who could run one of these, nominate them in [SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt) — a name, where they are, what they can do. If the nomination is accepted, you receive credits for it.
+You do not have to be the one teaching. If you know somebody who could run one of these, nominate them in [SkillsHunt](https://app.lagatos.com/apps/skills-hunt) — a name, where they are, what they can do. If the nomination is accepted, you receive credits for it.
 
 They do not have to be a survivor, and they do not have to have an account. Most of the skills map was built by people naming somebody else.
 
 ## If the software is what stops you
 
-If you would run a cohort but the tooling would not carry what you want to do, say so in the [Commons group chat](https://app.chargingthefuture.com) and I will build it.
+If you would run a cohort but the tooling would not carry what you want to do, say so in the [Commons group chat](https://app.lagatos.com) and I will build it.
 
 Describe what would let you train more people, or train them better, and it gets built.
 
 ## Where to find it in the app
 
-- [SkillUp](https://app.chargingthefuture.com/apps/skill-up) — [guide](https://app.chargingthefuture.com/guide#skill-up)
-- [ServiceCredits](https://app.chargingthefuture.com/apps/service-credits) — [guide](https://app.chargingthefuture.com/guide#service-credits)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt) — [guide](https://app.chargingthefuture.com/guide#skills-hunt)
-- [Commons](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
+- [SkillUp](https://app.lagatos.com/apps/skill-up) — [guide](https://app.lagatos.com/guide#skill-up)
+- [ServiceCredits](https://app.lagatos.com/apps/service-credits) — [guide](https://app.lagatos.com/guide#service-credits)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [SkillsHunt](https://app.lagatos.com/apps/skills-hunt) — [guide](https://app.lagatos.com/guide#skills-hunt)
+- [Commons](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

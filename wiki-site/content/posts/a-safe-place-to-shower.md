@@ -67,9 +67,9 @@ That is why the tag is written the way it is. It names the harm, not the legal t
 
 There is no version of this that gets solved by vigilance in someone else's shower. The fix is not needing to be there.
 
-Housing is the first half. [LightHouse](https://app.chargingthefuture.com/apps/lighthouse) lists places offered by hosts who are survivors themselves, which is a different proposition from a facility where you are tolerated. Somewhere with a door that locks and a bathroom that is yours removes the entire category.
+Housing is the first half. [LightHouse](https://app.lagatos.com/apps/lighthouse) lists places offered by hosts who are survivors themselves, which is a different proposition from a facility where you are tolerated. Somewhere with a door that locks and a bathroom that is yours removes the entire category.
 
-Rides are the second half. [TrustTransport](https://app.chargingthefuture.com/apps/trust-transport) arranges transport inside the community, and the journey to and from is where the rest of it happens. The more of your movement that runs through people who are not doing this to you, the fewer occasions there are for any of it.
+Rides are the second half. [TrustTransport](https://app.lagatos.com/apps/trust-transport) arranges transport inside the community, and the journey to and from is where the rest of it happens. The more of your movement that runs through people who are not doing this to you, the fewer occasions there are for any of it.
 
 That is the design, stated plainly: not protection in the moment, but fewer moments that require it.
 
@@ -83,10 +83,10 @@ What is left are people who showed up with something in their hands, more than o
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [LightHouse](https://app.chargingthefuture.com/apps/lighthouse) — [guide](https://app.chargingthefuture.com/guide#lighthouse)
-- [TrustTransport](https://app.chargingthefuture.com/apps/trust-transport) — [guide](https://app.chargingthefuture.com/guide#trust-transport)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [LightHouse](https://app.lagatos.com/apps/lighthouse) — [guide](https://app.lagatos.com/guide#lighthouse)
+- [TrustTransport](https://app.lagatos.com/apps/trust-transport) — [guide](https://app.lagatos.com/guide#trust-transport)
 
-The problems list is public, alongside the answer built for each one: [chargingthefuture.com/look-ma](https://www.chargingthefuture.com/look-ma). The schemes list is public too: [chargingthefuture.com/schemes](https://www.chargingthefuture.com/schemes).
+The problems list is public, alongside the answer built for each one: [lagatos.com/look-ma](https://lagatos.com/look-ma). The schemes list is public too: [lagatos.com/schemes](https://lagatos.com/schemes).
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
