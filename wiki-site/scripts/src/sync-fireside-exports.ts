@@ -33,7 +33,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const BLOG_ROOT = resolve(__dirname, '../..');
 const EXPORTS_TS = resolve(BLOG_ROOT, 'artifacts/wiki/src/lib/fireside-exports.ts');
 
-const APP_URL = (process.env.FIRESIDE_APP_URL ?? 'https://app.chargingthefuture.com').replace(/\/$/, '');
+const APP_URL = (process.env.FIRESIDE_APP_URL ?? 'https://app.lagatos.com').replace(/\/$/, '');
 const isDryRun = process.argv.includes('--dry-run');
 
 // A ceiling on how many times the cursor is followed, so a feed that somehow never says it is done

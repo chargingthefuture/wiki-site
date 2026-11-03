@@ -1,6 +1,6 @@
 ---
 title: "Organized crime that announces itself"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "Two saved questions ask what this is and how the people doing it operate. It is organized crime, human trafficking and group vigilantism, carried out by many ordinary people who make sure the target knows they are there."
 category: "Community"
 teaser: "Two questions I saved on Quora ask what this is and how the people doing it operate. It is organized crime: human trafficking and group vigilantism, a control mechanism run by traffickers with the harassment as its enforcement arm. It is not a secret society, because the people taking part announce themselves to their targets all day long. Most of it runs on a standing permission rather than an order, and the planned part, where I have seen it, ran on instructions read off a phone. Each method is small on purpose, so that nothing taken alone can be reported. A definition stops none of it. It gives the thing a shape and a name, and then the costs can be cut one at a time."
@@ -42,11 +42,11 @@ The methods are small on purpose: following, crowding, a car outside, a rumor th
 
 It does not stop anything. [No method I know of has ended it](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-can-be-stopped), mine included. What it does is show a person who was told they were imagining it that the thing has a shape and a name.
 
-After that, cut the costs. [ClickLog](https://app.chargingthefuture.com/apps/click-log) takes about fifteen seconds an incident, and your notes stay yours. The [Directory](https://app.chargingthefuture.com/apps/directory) lists survivors by what they can do, so a ride, a room or an hour of a trade can go through somebody who is not part of it.
+After that, cut the costs. [ClickLog](https://app.lagatos.com/apps/click-log) takes about fifteen seconds an incident, and your notes stay yours. The [Directory](https://app.lagatos.com/apps/directory) lists survivors by what they can do, so a ride, a room or an hour of a trade can go through somebody who is not part of it.
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

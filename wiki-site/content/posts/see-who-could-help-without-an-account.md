@@ -1,20 +1,20 @@
 ---
 title: "See who could help you, before you make an account"
 date: "2026-10-13"
-excerpt: "chargingthefuture.com now tells you how many people in the Directory match what you need. No account and no personal information. The app has not changed, and the blog has a new design."
+excerpt: "lagatos.com now tells you how many people in the Directory match what you need. No account and no personal information. The app has not changed, and the blog has a new design."
 category: "Platform"
-teaser: "The front page at chargingthefuture.com now answers one question before you sign up for anything: is there anybody here who could help me? Tap what you need, a job, food, housing, someone to talk to, and it shows how many people listed in the Directory match. No account, no name, no email address. If nobody matches, the need is noted and I go looking for somebody. Names, locations and contact still sit behind a free account and the check, because that is what keeps the people on the list safe. Nothing in the app has changed, and the blog has a new design."
+teaser: "The front page at lagatos.com now answers one question before you sign up for anything: is there anybody here who could help me? Tap what you need, a job, food, housing, someone to talk to, and it shows how many people listed in the Directory match. No account, no name, no email address. If nobody matches, the need is noted and I go looking for somebody. Names, locations and contact still sit behind a free account and the check, because that is what keeps the people on the list safe. Nothing in the app has changed, and the blog has a new design."
 topics:
   - platform
   - directory
   - skills-economy
 ---
 
-The front page at [chargingthefuture.com](https://chargingthefuture.com) has changed. Before you make an account or give anybody your name, it now tells you whether somebody in the Skills Economy could help you.
+The front page at [lagatos.com](https://lagatos.com) has changed. Before you make an account or give anybody your name, it now tells you whether somebody in the Skills Economy could help you.
 
-The app at [app.chargingthefuture.com](https://app.chargingthefuture.com) has not changed in any way that matters here. Everything you used there is where it was.
+The app at [app.lagatos.com](https://app.lagatos.com) has not changed in any way that matters here. Everything you used there is where it was.
 
-![The new front page at chargingthefuture.com, captured October 13, 2026. It opens: See who could help you. No account needed. 312 people are listed in the Skills Economy directory. Tap what you need and see how many could help. A box asks: What do you need? Tap all that apply. You'll see how many people in the directory match you. The choices include A job, Food, Someone to talk to, Legal, Housing, Health care, Childcare and A ride, with a link that reads Something else? Add a skill. Under them: Private. Nobody sees who you are, and you never see who they are, until somebody asks for an introduction. Then: Back to see your match? with a box for a code and a button that reads See who's new. Two cards follow. Free, Skills Economy: Join and meet them yourself. Post what you need on the Goals board, where any member can pick up a small part of it. A person checks each new member before they can use the app. That can take a few days. Button: Open the Goals board. Paid, One Percent, $7: Farah looks at your match and introduces you by name to the people who fit. You skip the wait. Button: Book an introduction. Further down, Why people are here, and a globe titled Every skill, one hexagon each, where brighter means more people can help.](images/skill-match-page-2026-10-13.png)
+![The new front page at lagatos.com, captured October 13, 2026. It opens: See who could help you. No account needed. 312 people are listed in the Skills Economy directory. Tap what you need and see how many could help. A box asks: What do you need? Tap all that apply. You'll see how many people in the directory match you. The choices include A job, Food, Someone to talk to, Legal, Housing, Health care, Childcare and A ride, with a link that reads Something else? Add a skill. Under them: Private. Nobody sees who you are, and you never see who they are, until somebody asks for an introduction. Then: Back to see your match? with a box for a code and a button that reads See who's new. Two cards follow. Free, Skills Economy: Join and meet them yourself. Post what you need on the Goals board, where any member can pick up a small part of it. A person checks each new member before they can use the app. That can take a few days. Button: Open the Goals board. Paid, One Percent, $7: Farah looks at your match and introduces you by name to the people who fit. You skip the wait. Button: Book an introduction. Further down, Why people are here, and a globe titled Every skill, one hexagon each, where brighter means more people can help.](images/skill-match-page-2026-10-13.png)
 
 ## What it does
 
@@ -50,12 +50,12 @@ Same posts, same addresses, same feed. It is black and white with one color, cor
 
 ![The blog's front page on a phone, captured October 13, 2026, in dark mode. The header reads Skills Economy, Exit their economy, exit the psyop. Below it: Survivor network. Exit Their Economy. Exit The Psyop. Critical transmissions, guides, and updates for the world's first psyop-free economy built exclusively for human trafficking survivors. Then a row headed People already on the list, with a card dated Oct 11, 2026 reading An invitation to Bev. Then a search box, section filters, and the newest posts: Dictionary: Skills Economy Terms, dated Oct 13, 2026, and Counted by skills, not job titles, dated Oct 12, 2026.](images/blog-redesign-2026-10-13.jpg)
 
-The front page at chargingthefuture.com, One Percent's page at farahbrunache.com and this blog now share one design, each in its own color, so you can tell which one you are on: burgundy for the free Skills Economy, forest green for One Percent, coral here.
+The front page at lagatos.com, One Percent's page at farahbrunache.com and this blog now share one design, each in its own color, so you can tell which one you are on: burgundy for the free Skills Economy, forest green for One Percent, coral here.
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Unlock](https://app.chargingthefuture.com/plugin/unlock) — [guide](https://app.chargingthefuture.com/guide#unlock)
-- [PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming?tab=goals) — [guide](https://app.chargingthefuture.com/guide#peer-programming)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Unlock](https://app.lagatos.com/plugin/unlock) — [guide](https://app.lagatos.com/guide#unlock)
+- [PeerProgramming](https://app.lagatos.com/apps/peer-programming?tab=goals) — [guide](https://app.lagatos.com/guide#peer-programming)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

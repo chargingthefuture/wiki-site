@@ -1,0 +1,154 @@
+name: Old links — record a ban or a new handle
+
+# Updates the living page old-links-new-links.md from the two Quora emails, so it needs no chat
+# session (owner request, 2026-11-02). Run it from the GitHub app: Actions → this workflow →
+# Run workflow, and paste the times exactly as the emails show them. Fill in the ban, the new
+# handle, or both. It opens a pull request (or adds to the one still waiting) and puts the Quora
+# update paste in the run's summary.
+#
+# A pull request opened by this workflow does not start the Validate & Build workflow (GitHub does
+# not let one workflow's token trigger another), so every check that one runs on a post runs here
+# before anything is pushed.
+
+on:
+  workflow_dispatch:
+    inputs:
+      banned_at:
+        description: "Ban time of the handle open now, from the ban email (e.g. Oct 27, 2026 at 4:39:57 AM). Empty if no ban."
+        required: false
+        type: string
+      new_handle:
+        description: "New handle address (https://www.quora.com/profile/...). Empty if none."
+        required: false
+        type: string
+      opened_at:
+        description: "When the new handle was opened, from the Email Confirmation (e.g. Oct 27, 2026 at 9:34:43 AM)."
+        required: false
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+# Two runs at once would both start from the same page and the second would undo the first.
+concurrency:
+  group: old-links-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    name: Update old links, new links
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: wiki-site
+    env:
+      BRANCH: docs/old-links-update
+
+    steps:
+      # Full history: the sync orders same-day posts by each file's first commit.
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: pnpm/action-setup@v4
+        with:
+          package_json_file: wiki-site/package.json
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "pnpm"
+          cache-dependency-path: wiki-site/pnpm-lock.yaml
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      # One branch carries the updates until it merges, so a ban recorded in the morning and a new
+      # handle recorded at noon land in one pull request, and the second run starts from the first.
+      - name: Start from main, or from the update still waiting to merge
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null; then
+            git fetch origin "$BRANCH"
+            if git merge-base --is-ancestor "origin/$BRANCH" origin/main; then
+              git checkout -B "$BRANCH" origin/main
+            else
+              git checkout -B "$BRANCH" "origin/$BRANCH"
+              if ! git merge --no-edit origin/main; then
+                # Generated files are rebuilt below, so main's copy is taken and regenerated.
+                for f in artifacts/wiki/src/lib/articles.ts QUORA_PASTE_SHEET_FULL.txt TTS_PASTE_SHEET.txt content/feed-numbers.json; do
+                  git checkout --theirs -- "$f" 2>/dev/null && git add -- "$f" || true
+                done
+                if [ -n "$(git diff --name-only --diff-filter=U)" ]; then
+                  echo "::error::$BRANCH conflicts with main in: $(git diff --name-only --diff-filter=U | tr '\n' ' '). Merge or close its pull request, then run this again."
+                  exit 1
+                fi
+                git commit --no-edit
+              fi
+            fi
+          else
+            git checkout -B "$BRANCH" origin/main
+          fi
+
+      # Inputs reach the script through the environment, never pasted into the command line.
+      - name: Record the ban and/or the new handle
+        env:
+          BANNED_AT: ${{ inputs.banned_at }}
+          NEW_HANDLE: ${{ inputs.new_handle }}
+          OPENED_AT: ${{ inputs.opened_at }}
+        run: |
+          pnpm --filter @workspace/scripts run old-links-update apply \
+            --banned "$BANNED_AT" --handle "$NEW_HANDLE" --opened "$OPENED_AT" \
+            --paste-out "$RUNNER_TEMP/paste.txt" --title-out "$RUNNER_TEMP/title.txt"
+
+      - name: Regenerate the registry and the sheets
+        run: |
+          pnpm --filter @workspace/scripts run sync-articles
+          pnpm --filter @workspace/scripts run old-links-update place
+          pnpm --filter @workspace/scripts run paste-sheet-full
+          pnpm --filter @workspace/scripts run paste-sheet-tts
+
+      - name: Check
+        run: |
+          node scripts/check-us-spelling.mjs
+          pnpm --filter @workspace/scripts run check-banned-words
+          pnpm --filter @workspace/scripts run validate
+          pnpm --filter @workspace/scripts run check-paste-sheet-numbers
+
+      - name: Build wiki
+        env:
+          BASE_PATH: /
+          PORT: 5000
+        run: pnpm --filter @workspace/wiki run build
+
+      - name: Commit, push, and open or update the pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="$(cat "$RUNNER_TEMP/title.txt")"
+          git add -A content QUORA_PASTE_SHEET.txt QUORA_PASTE_SHEET_FULL.txt TTS_PASTE_SHEET.txt artifacts/wiki/src/lib/articles.ts
+          git commit -m "docs: old links, new links — $title" -m "Recorded by the old-links-update workflow, run ${{ github.run_id }}."
+          git push --force-with-lease origin "HEAD:$BRANCH"
+          pr="$(gh pr list --head "$BRANCH" --state open --json url --jq '.[0].url')"
+          if [ -n "$pr" ]; then
+            gh pr edit "$pr" --title "docs: old links, new links — $title"
+          else
+            body="$(printf 'Recorded by the old-links-update workflow from the Quora emails.\n\nThe workflow ran spelling, banned words, front matter, paste sheet numbers and the build before pushing; Validate & Build does not start on a pull request this workflow opens.\n\nUpdate paste for Quora: in the run summary, %s/%s/actions/runs/%s' "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID")"
+            pr="$(gh pr create --base main --head "$BRANCH" --title "docs: old links, new links — $title" --body "$body")" || {
+              pr="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/compare/main...$BRANCH?expand=1"
+              echo "::warning::Pushed $BRANCH, but this workflow is not allowed to open pull requests. Open it here: $pr"
+            }
+          fi
+          {
+            echo "## Old links, new links — $title"
+            echo
+            echo "Pull request: $pr"
+            echo
+            echo "### Update paste for Quora"
+            echo
+            echo '```'
+            cat "$RUNNER_TEMP/paste.txt"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
