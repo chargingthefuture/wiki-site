@@ -44,7 +44,7 @@ That is what an economy of survivors is for, and it is why this project is an ec
 
 The first step costs nothing and needs no account, and it matters because a person at this stage has usually been talked at for years by people with an interest in what they believe.
 
-The [Commons](https://app.chargingthefuture.com) — the group chat — reads without signing in. So does the [conversation under every post on this blog](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/you-can-talk-under-these-posts-now). [TI Radio](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/ti-radio) publishes a week of live discussions that survivors host, in your own timezone, and reading the schedule needs no account either; the discussions happen in Chyme, where you can listen without speaking and without a camera.
+The [Commons](https://app.lagatos.com) — the group chat — reads without signing in. So does the [conversation under every post on this blog](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/you-can-talk-under-these-posts-now). [TI Radio](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/ti-radio) publishes a week of live discussions that survivors host, in your own timezone, and reading the schedule needs no account either; the discussions happen in Chyme, where you can listen without speaking and without a camera.
 
 A voice in a room, from somebody who is not part of what is being done to you, is not a small thing at this stage. It is the first arrangement that does not run through them.
 
@@ -82,15 +82,15 @@ What it promises is smaller. That the number of things in your week running thro
 
 ## Where to find it in the app
 
-- [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
-- [Fireside](https://app.chargingthefuture.com/apps/fireside) — [guide](https://app.chargingthefuture.com/guide#fireside)
-- [TI Radio](https://app.chargingthefuture.com/apps/ti-radio) — [guide](https://app.chargingthefuture.com/guide#ti-radio)
-- [Chyme](https://app.chargingthefuture.com/apps/chyme) — [guide](https://app.chargingthefuture.com/guide#chyme)
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [SocketRelay](https://app.chargingthefuture.com/apps/socket-relay) — [guide](https://app.chargingthefuture.com/guide#socket-relay)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
-- [LightHouse](https://app.chargingthefuture.com/apps/lighthouse) — [guide](https://app.chargingthefuture.com/guide#lighthouse)
-- [Mood](https://app.chargingthefuture.com/apps/mood) — [guide](https://app.chargingthefuture.com/guide#mood)
+- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Fireside](https://app.lagatos.com/apps/fireside) — [guide](https://app.lagatos.com/guide#fireside)
+- [TI Radio](https://app.lagatos.com/apps/ti-radio) — [guide](https://app.lagatos.com/guide#ti-radio)
+- [Chyme](https://app.lagatos.com/apps/chyme) — [guide](https://app.lagatos.com/guide#chyme)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [SocketRelay](https://app.lagatos.com/apps/socket-relay) — [guide](https://app.lagatos.com/guide#socket-relay)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
+- [LightHouse](https://app.lagatos.com/apps/lighthouse) — [guide](https://app.lagatos.com/guide#lighthouse)
+- [Mood](https://app.lagatos.com/apps/mood) — [guide](https://app.lagatos.com/guide#mood)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

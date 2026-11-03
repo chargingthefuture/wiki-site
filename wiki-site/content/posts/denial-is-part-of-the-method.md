@@ -1,6 +1,6 @@
 ---
 title: "Denial is part of the method"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks why people deny it so hard. Some were never told, some were shown a setup, and some are taking part. Deniability is the method."
 category: "Community"
 teaser: "A question I saved on Quora asks why people deny it so vehemently. Not everybody who denies it is the same. Some were kept unaware and then shown a target provoked in front of them. Some see what is going on and will not stick their necks out. Some are taking part, and for them denial is the job: the method runs on plausible deniability, and a person who admits it ends that. None of the three is moved by an argument, which is why the time is better spent with people who need no convincing."
@@ -52,7 +52,7 @@ The time spent winning over a denier is better spent with people who need no con
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Commons](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Commons](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
