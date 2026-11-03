@@ -24,7 +24,7 @@ I cannot make it stop, and anybody who promises you that is selling something. W
 
 Knowing some of the people involved feels like it should change everything. Mostly it changes what you write down.
 
-Write down what each of them does, with the date, as it happens. [ClickLog](https://app.chargingthefuture.com/apps/click-log) takes about fifteen seconds an incident, and your notes are not shown to anyone else here. Names belong in your own record, not on a public page.
+Write down what each of them does, with the date, as it happens. [ClickLog](https://app.lagatos.com/apps/click-log) takes about fifteen seconds an incident, and your notes are not shown to anyone else here. Names belong in your own record, not on a public page.
 
 Do not confront them. A confrontation is the scene they are most ready for. The plainest method they have is provocation: an event built to get a reaction, and the reaction is then used as proof of whatever they were already saying about you. [They are not psychic](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/they-are-not-psychic) goes into that.
 
@@ -32,19 +32,19 @@ If you are thinking of reporting any of it, [Who to report it to](https://chargi
 
 ## Somebody who believes you
 
-The [Commons](https://app.chargingthefuture.com) is a group chat of other Targeted Individuals. Nobody there needs the first hour of a conversation spent on whether it is happening.
+The [Commons](https://app.lagatos.com) is a group chat of other Targeted Individuals. Nobody there needs the first hour of a conversation spent on whether it is happening.
 
 ## Help with the week
 
-The help that changes a week is material, and it comes from people who are not part of it. A ride. A room. An hour of a trade you do not have. The [Directory](https://app.chargingthefuture.com/apps/directory) lists people and what they can do, and [Foundation](https://app.chargingthefuture.com/apps/foundation) is where members offer and exchange that help.
+The help that changes a week is material, and it comes from people who are not part of it. A ride. A room. An hour of a trade you do not have. The [Directory](https://app.lagatos.com/apps/directory) lists people and what they can do, and [Foundation](https://app.lagatos.com/apps/foundation) is where members offer and exchange that help.
 
 None of that stops it on its own. It does mean not carrying it alone.
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

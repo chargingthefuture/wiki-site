@@ -24,7 +24,7 @@ For energy weapons I do not have an answer, and I said so in [What protects you 
 
 ## 1. Write it down, then put it down
 
-Each incident, as it happens: what, when, where, and who if you know. [ClickLog](https://app.chargingthefuture.com/apps/click-log) takes about fifteen seconds, and your notes stay yours.
+Each incident, as it happens: what, when, where, and who if you know. [ClickLog](https://app.lagatos.com/apps/click-log) takes about fifteen seconds, and your notes stay yours.
 
 This comes first because it costs the least and it settles your own doubt before anybody else's. One incident can be denied. A pattern written down over months is much harder to deny, and [the same record serves](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/prove-it-to-whom) whoever it turns out to be for.
 
@@ -40,11 +40,11 @@ Not reacting will not end it either. Ignoring it for thirty-four years changed n
 
 Being watched is not what gives somebody power over you. Needing something from them is. Who you work for, who rents you a room, who fixes your car, who drives you: each one is a choice about whose hands your week runs through.
 
-This is the largest of the four and the slowest, which is why it is third. It is also why this project is an economy. The [Directory](https://app.chargingthefuture.com/apps/directory) lists survivors and what they can do, [Foundation](https://app.chargingthefuture.com/apps/foundation) is where people offer their work and reach each other directly, and [LightHouse](https://app.chargingthefuture.com/apps/lighthouse) is rooms offered by survivors to survivors. If what you need is not on any of them yet, put it on the PeerProgramming Goals board, where anybody can take a small part of it.
+This is the largest of the four and the slowest, which is why it is third. It is also why this project is an economy. The [Directory](https://app.lagatos.com/apps/directory) lists survivors and what they can do, [Foundation](https://app.lagatos.com/apps/foundation) is where people offer their work and reach each other directly, and [LightHouse](https://app.lagatos.com/apps/lighthouse) is rooms offered by survivors to survivors. If what you need is not on any of them yet, put it on the PeerProgramming Goals board, where anybody can take a small part of it.
 
 ## 4. Stay connected, especially when it is quiet
 
-A quiet stretch is when people drift into having nobody, and a name on the list is not taken off. [Commons](https://app.chargingthefuture.com) is the group chat, full of people who do not need it explained. [Where to go for help](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/where-to-go-for-help) lists who helps with what.
+A quiet stretch is when people drift into having nobody, and a name on the list is not taken off. [Commons](https://app.lagatos.com) is the group chat, full of people who do not need it explained. [Where to go for help](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/where-to-go-for-help) lists who helps with what.
 
 ## Why this order
 
@@ -52,11 +52,11 @@ The first two need nobody else's agreement and can start today. The third needs 
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
-- [LightHouse](https://app.chargingthefuture.com/apps/lighthouse) — [guide](https://app.chargingthefuture.com/guide#lighthouse)
-- [PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming?tab=goals) — [guide](https://app.chargingthefuture.com/guide#peer-programming)
-- [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
+- [LightHouse](https://app.lagatos.com/apps/lighthouse) — [guide](https://app.lagatos.com/guide#lighthouse)
+- [PeerProgramming](https://app.lagatos.com/apps/peer-programming?tab=goals) — [guide](https://app.lagatos.com/guide#peer-programming)
+- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
