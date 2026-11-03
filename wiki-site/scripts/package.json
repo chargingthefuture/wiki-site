@@ -23,6 +23,7 @@
     "sync-fireside-exports:dry": "tsx ./src/sync-fireside-exports.ts --dry-run",
     "build-pb2-messages": "tsx ./src/build-pb2-messages.ts",
     "build-posts-json": "tsx ./src/build-posts-json.ts",
+    "build-link-previews": "tsx ./src/build-link-previews.ts",
     "old-links-update": "tsx ./src/old-links-update.ts"
   },
   "devDependencies": {
