@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "help-you-go-and-find",
     "title": "Help you go and find",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-17",
+    "date": "2026-11-03",
     "excerpt": "A saved Quora question asks how to find local help and community. Help that is offered nearby is the help to doubt. Help you go and find is different.",
     "category": "Community",
     "collection": "posts",
@@ -53,7 +53,7 @@ export const ARTICLES: ArticleMeta[] = [
       "directory",
       "commons"
     ],
-    "number": 481
+    "number": 482
   },
   {
     "slug": "what-an-account-can-reach",
