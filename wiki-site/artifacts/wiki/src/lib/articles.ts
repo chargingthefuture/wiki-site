@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "watched-by-people-not-a-feed",
     "title": "Watched by people, not a feed",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-17",
+    "date": "2026-11-03",
     "excerpt": "A saved Quora question asks whether targets are put on a live stream. What I have seen is people watching in person, and some of them assuming a feed exists.",
     "category": "Community",
     "collection": "posts",
@@ -53,7 +53,7 @@ export const ARTICLES: ArticleMeta[] = [
       "directory",
       "community"
     ],
-    "number": 479
+    "number": 480
   },
   {
     "slug": "the-default-is-no",
