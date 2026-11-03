@@ -20,7 +20,7 @@ Nothing I know of stops them reaching people. The answer is to have people you c
 
 ## Sherri
 
-Sherri Jenkins (https://www.quora.com/profile/Sherri-Jenkins-12), in Oklahoma City, Oklahoma. The Directory profile is at https://app.chargingthefuture.com/apps/directory/profile/18e1474a-a857-4d66-81c9-2c585c923d24.
+Sherri Jenkins (https://www.quora.com/profile/Sherri-Jenkins-12), in Oklahoma City, Oklahoma. The Directory profile is at https://app.lagatos.com/apps/directory/profile/18e1474a-a857-4d66-81c9-2c585c923d24.
 
 ![Sherri's Directory listing in the app, captured September 29, 2026. The heading reads Sherri, below it "Community-generated profile" and "Nominated by @farah", and under that the location Oklahoma City, Oklahoma, United States. A button reads View Quora profile. Under the heading SPECIALIZATIONS is one entry: Security procedures.](images/sherri-jenkins-directory-profile-2026-09-29.jpg)
 
@@ -52,11 +52,11 @@ Somebody whose work is keeping other people safe needs things too. A ride. A roo
 
 Everyone written about in this series is a self-identified Targeted Individual. That means they said so in public, and it is the only basis for the listing. I cannot verify it, and neither can a reader. Some people who say it are not survivors, and some are the people doing the harassing, so a post here is not a vouch for anybody and should not be read as one. I am not responsible for what anyone named on this list does or says, on the app, on Quora, or anywhere else. The closest anybody can get to finding a real Targeted Individual is through the app, which admits people one at a time through Unlock and has other mechanisms in place to filter actively. Even with those, there is no such thing as a hundred percent.
 
-Sign in to get access to the world's first directory of 300+ self-identified Targeted Individuals, free: https://app.chargingthefuture.com/apps/directory
+Sign in to get access to the world's first directory of 300+ self-identified Targeted Individuals, free: https://app.lagatos.com/apps/directory
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Unlock](https://app.chargingthefuture.com/plugin/unlock) — [guide](https://app.chargingthefuture.com/guide#unlock)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Unlock](https://app.lagatos.com/plugin/unlock) — [guide](https://app.lagatos.com/guide#unlock)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

@@ -45,13 +45,13 @@ Some might say 411 is too small to matter. But history shows us that resilience 
 
 # The Path Forward
 We are moving from surviving to prevailing.
-1. Join now: If you are one of the 411, step forward. Your skills—whether fixing a sink, caring for a child, or listening to a friend—are vital: https://chargingthefuture.com.
+1. Join now: If you are one of the 411, step forward. Your skills—whether fixing a sink, caring for a child, or listening to a friend—are vital: https://lagatos.com.
 2. Exchange Value: Offer a service. Accept a service. Keep the credits moving to strengthen our bond.
 3. Grow Together: Once we stabilize at 384, we prove that we can thrive. Then we invite the next 1,000. Then 10,000. Then 5 million.
 The future isn't built by waiting. It is built by 384 people, deciding that we are enough to start.
 
 Are you ready to join the 384? Let's charge the future together.
 
-# EXIT THEIR ECONOMY, EXIT THE PSYOP: https://chargingthefuture.com.
+# EXIT THEIR ECONOMY, EXIT THE PSYOP: https://lagatos.com.
 
 This post on Quora: https://skillseconomy.quora.com/From-62-to-384-Building-a-Real-Economy-Where-We-Live-Work-and-Prevail

@@ -1,6 +1,6 @@
 ---
 title: "The hint is meant to be noticed"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks how subtle hints are used to control Targeted Individuals and what they do to a life. The hint is built to be noticed, and the control runs through the attention it takes."
 category: "Community"
 teaser: "A question I saved on Quora asks how subtle hints are used to control Targeted Individuals, and what that does to a life. The hint is not a slip. It is meant to be noticed: the repeated phrase, the borrowed words from a private conversation, a pointed have a good day after a day arranged to go badly. The control runs through what the hint costs to read. Each one hands you a puzzle, and every hour spent on it is an hour of your day spent on them. Over time it sensitizes a person to the smallest things and makes them easy to describe as the problem. Noticing cannot be switched off, but it can be written down and put down."
@@ -42,10 +42,10 @@ So the first cost is attention, and the second is credibility. A reaction to som
 
 You cannot decide to stop noticing. Noticing is often accurate, and switching it off is neither possible nor safe. It does not have to be carried.
 
-[ClickLog](https://app.chargingthefuture.com/apps/click-log) takes about fifteen seconds an incident, and your notes stay yours. The schemes on the public list at [chargingthefuture.com/schemes](https://www.chargingthefuture.com/schemes), The Replay and The Good Day, Bad Day among them, are tags any member can log with. One incident can be denied; a pattern written down over months is much harder to deny ([The best way to deal with it, in order](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/best-way-to-deal-with-it)). Once it is written, put it down, and spend the rest of the day on something that is still there next month.
+[ClickLog](https://app.lagatos.com/apps/click-log) takes about fifteen seconds an incident, and your notes stay yours. The schemes on the public list at [lagatos.com/schemes](https://lagatos.com/schemes), The Replay and The Good Day, Bad Day among them, are tags any member can log with. One incident can be denied; a pattern written down over months is much harder to deny ([The best way to deal with it, in order](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/best-way-to-deal-with-it)). Once it is written, put it down, and spend the rest of the day on something that is still there next month.
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

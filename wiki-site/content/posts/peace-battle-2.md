@@ -63,7 +63,7 @@ Three, not ten. More than three and a protest turns into homework.
 
 Read any post on this blog and leave a comment or a reaction under it. Reading the conversation needs no account at all. Writing takes a free one.
 
-That is Fireside: [app.chargingthefuture.com/apps/fireside](https://app.chargingthefuture.com/apps/fireside).
+That is Fireside: [app.lagatos.com/apps/fireside](https://app.lagatos.com/apps/fireside).
 
 This is the one that answers Quora directly. TrustTransport is the Uber for Targeted Individuals. Fireside is the Quora for Targeted Individuals.
 
@@ -73,15 +73,15 @@ You are already writing for free on a platform that sells what you write and del
 
 ### Two: take a slot on TI Radio
 
-A published week of live audio rooms, at [app.chargingthefuture.com/ti-radio](https://app.chargingthefuture.com/ti-radio). Take an open time, write a line about what it is about, and turn up.
+A published week of live audio rooms, at [app.lagatos.com/ti-radio](https://app.lagatos.com/ti-radio). Take an open time, write a line about what it is about, and turn up.
 
 Low pressure on purpose. Pick a time every week, sit in the room, and talk to whoever arrives. It does not have to be about being targeted. It can be about anything.
 
-The aim is a schedule with somebody in it as often as possible. The rooms themselves run through [Chyme](https://app.chargingthefuture.com/apps/chyme). Listening needs no account; speaking does. A slot is taken, not granted, so a name on the schedule is not an endorsement from this project.
+The aim is a schedule with somebody in it as often as possible. The rooms themselves run through [Chyme](https://app.lagatos.com/apps/chyme). Listening needs no account; speaking does. A slot is taken, not granted, so a name on the schedule is not an endorsement from this project.
 
 ### Three: post your 1%
 
-Open [What's your 1%?](https://app.chargingthefuture.com/apps/workforce?view=one-percent). It takes one percent of five million survivors — fifty thousand people — and runs the arithmetic backwards to you, weighted to your own trade.
+Open [What's your 1%?](https://app.lagatos.com/apps/workforce?view=one-percent). It takes one percent of five million survivors — fifty thousand people — and runs the arithmetic backwards to you, weighted to your own trade.
 
 Adjust the figures to what you would actually charge. Screenshot it. Put it where people will see it.
 
@@ -117,10 +117,10 @@ Friday, September 18, 7:00 PM Eastern. [chargingthefuture.github.io/chargingthef
 
 ## Where to find it in the app
 
-- [Fireside](https://app.chargingthefuture.com/apps/fireside)
-- [TI Radio](https://app.chargingthefuture.com/ti-radio)
-- [Chyme](https://app.chargingthefuture.com/apps/chyme) — [guide](https://app.chargingthefuture.com/guide#chyme)
-- [Workforce](https://app.chargingthefuture.com/apps/workforce) — [What's your 1%?](https://app.chargingthefuture.com/apps/workforce?view=one-percent) — [guide](https://app.chargingthefuture.com/guide#workforce)
-- [TrustTransport](https://app.chargingthefuture.com/apps/trust-transport) — [guide](https://app.chargingthefuture.com/guide#trust-transport)
+- [Fireside](https://app.lagatos.com/apps/fireside)
+- [TI Radio](https://app.lagatos.com/ti-radio)
+- [Chyme](https://app.lagatos.com/apps/chyme) — [guide](https://app.lagatos.com/guide#chyme)
+- [Workforce](https://app.lagatos.com/apps/workforce) — [What's your 1%?](https://app.lagatos.com/apps/workforce?view=one-percent) — [guide](https://app.lagatos.com/guide#workforce)
+- [TrustTransport](https://app.lagatos.com/apps/trust-transport) — [guide](https://app.lagatos.com/guide#trust-transport)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

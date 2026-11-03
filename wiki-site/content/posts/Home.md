@@ -15,7 +15,7 @@ Welcome. This wiki is the knowledge base for Charging The Future and the TI Skil
 
 ## About The App (ctf)
 
-The [app](https://app.chargingthefuture.com) is a vetted survivor platform built to help people live, work, and rebuild with safety, dignity, and privacy.
+The [app](https://app.lagatos.com) is a vetted survivor platform built to help people live, work, and rebuild with safety, dignity, and privacy.
 
 It brings core services into one ecosystem, including support, housing, transportation, work, and community tools. The goal is simple: reduce isolation, increase access to trusted help, and support long-term survivor stability.
 
