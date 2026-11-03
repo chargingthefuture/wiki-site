@@ -9,7 +9,7 @@ repo: chargingthefuture/chargingthefuture
 
 # How to sign up for the TI Skills Economy in ~5 minutes
 
-1. Go to https://app.chargingthefuture.com and click "Create Account." You are asked for your email address
+1. Go to https://app.lagatos.com and click "Create Account." You are asked for your email address
 
 2. Receive a 6-digit code via email. Enter it into the website
 

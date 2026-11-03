@@ -1,6 +1,6 @@
 ---
 title: "The default is no"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks what Targeted Individuals should avoid. Their requests, their fights, their steering, and being left alone with them."
 category: "Community"
 teaser: "A question I saved on Quora asks what Targeted Individuals should avoid. The short answer is anything the people taking part ask of you: the default is no. Most traps are requests, and an invitation inside, a staged fight or a nudge toward a choice that is not yours all work the same way. Avoid labels that cannot be checked, and describe what happened instead. And avoid isolation, which is what every one of those traps is working toward. Other survivors are the way out of it."
@@ -40,7 +40,7 @@ The test is simple: whose idea was it? If a plan arrived from somebody taking pa
 
 On July 2, 2025, answering somebody who described an AI speaking through their mouth, I wrote: "You should instead describe specifically what is happening to you and others can explain the examples of the technology that might be used on you."
 
-A label invites an argument about the label. A description, with a date and a place, can be compared with what other survivors have written down. [ClickLog](https://app.chargingthefuture.com/apps/click-log) keeps that description: one tap for the date, the note when you are somewhere you can think. Once a date and place are logged, nobody can change them later ([ClickLog: your record, and the record](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/clicklog-your-record-and-the-record)).
+A label invites an argument about the label. A description, with a date and a place, can be compared with what other survivors have written down. [ClickLog](https://app.lagatos.com/apps/click-log) keeps that description: one tap for the date, the note when you are somewhere you can think. Once a date and place are logged, nobody can change them later ([ClickLog: your record, and the record](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/clicklog-your-record-and-the-record)).
 
 ## Being alone with them
 
@@ -48,11 +48,11 @@ On December 30, 2025, I wrote: "they want families apart and relationships broke
 
 So avoid isolation, and that does not mean every survivor has to be your friend. On December 14, 2025, about a Targeted Individual who had blocked somebody: "Just because someone else is a Target does not mean you will get along with them. And that is not a bad thing."
 
-What matters is who is around you. On January 6, 2026, I wrote: "the more we as TIs surround ourselves with other TIs the more control we have. As we are not surrounded by their operatives." The [Directory](https://app.chargingthefuture.com/apps/directory) lists survivors by what they can do, so the next ride, repair or conversation can come from somebody who is not taking part. Being on it costs nobody an account.
+What matters is who is around you. On January 6, 2026, I wrote: "the more we as TIs surround ourselves with other TIs the more control we have. As we are not surrounded by their operatives." The [Directory](https://app.lagatos.com/apps/directory) lists survivors by what they can do, so the next ride, repair or conversation can come from somebody who is not taking part. Being on it costs nobody an account.
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

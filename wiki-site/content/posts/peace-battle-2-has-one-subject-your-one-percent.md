@@ -16,13 +16,13 @@ It now has one subject, your 1%, and three steps, in order.
 
 ## 1. See your 1% in Workforce
 
-[Workforce](https://app.chargingthefuture.com/apps/workforce?view=one-percent) runs the arithmetic from 50,000 people back to one person's trade, and shows what serving them would be worth in a year. That figure is your 1%. [What's Your 1%?](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/whats-your-one-percent) explains the arithmetic.
+[Workforce](https://app.lagatos.com/apps/workforce?view=one-percent) runs the arithmetic from 50,000 people back to one person's trade, and shows what serving them would be worth in a year. That figure is your 1%. [What's Your 1%?](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/whats-your-one-percent) explains the arithmetic.
 
 Workforce needs an approved account. Without one, a shorter version of the calculator runs with no sign-in at https://farahbrunache.com.
 
 ## 2. Start on it on the goal board
 
-Nobody here gets a full day. Put the 1% that is left into the [PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming?tab=goals) goal board: one small card from somebody else's goal, and a goal of your own with cards somebody could do from a phone. For example:
+Nobody here gets a full day. Put the 1% that is left into the [PeerProgramming](https://app.lagatos.com/apps/peer-programming?tab=goals) goal board: one small card from somebody else's goal, and a goal of your own with cards somebody could do from a phone. For example:
 
 - Goal: start selling repaired bicycles.
 - Card: find three places that sell used bikes for parts, and list what each charges.
@@ -42,7 +42,7 @@ The page to come back to is https://chargingthefuture.github.io/chargingthefutur
 
 ## Where to find it in the app
 
-- [Workforce](https://app.chargingthefuture.com/apps/workforce?view=one-percent) — [guide](https://app.chargingthefuture.com/guide#workforce)
-- [PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming?tab=goals) — [guide](https://app.chargingthefuture.com/guide#peer-programming)
+- [Workforce](https://app.lagatos.com/apps/workforce?view=one-percent) — [guide](https://app.lagatos.com/guide#workforce)
+- [PeerProgramming](https://app.lagatos.com/apps/peer-programming?tab=goals) — [guide](https://app.lagatos.com/guide#peer-programming)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
