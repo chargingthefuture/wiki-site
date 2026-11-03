@@ -3,7 +3,7 @@
 [![Validate & Build](https://github.com/chargingthefuture/wiki-site/actions/workflows/wiki-validate.yml/badge.svg?branch=main)](https://github.com/chargingthefuture/wiki-site/actions/workflows/wiki-validate.yml)
 [![Deploy to GitHub Pages](https://github.com/chargingthefuture/wiki-site/actions/workflows/deploy-wiki-gh-pages.yml/badge.svg?branch=main)](https://github.com/chargingthefuture/wiki-site/actions/workflows/deploy-wiki-gh-pages.yml)
 
-Public-facing blog and wiki for [Charging The Future](https://chargingthefuture.com).
+Public-facing blog and wiki for [Charging The Future](https://lagatos.com).
 
 Live site: https://chargingthefuture.github.io/chargingthefuture/
 
