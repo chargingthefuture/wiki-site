@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "an-assignment-not-a-date",
     "title": "An assignment, not a date",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-17",
+    "date": "2026-11-03",
     "excerpt": "A saved Quora question asks why somebody taking part would want to date a Targeted Individual. They do not. The approach is sent, for a purpose.",
     "category": "Community",
     "collection": "posts",
@@ -53,7 +53,7 @@ export const ARTICLES: ArticleMeta[] = [
       "clicklog",
       "community"
     ],
-    "number": 484
+    "number": 485
   },
   {
     "slug": "seen-every-day",
