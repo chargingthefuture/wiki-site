@@ -41,8 +41,8 @@ The Specterati survive because we feed them—our attention and our transactions
 * Share skills, not attention. Offer time, trade services, or micro-payments inside the community rather than giving currency or views to ops.
 
 # Immediate actions to join
-1. Sign up to the TI Skills Economy directory (private, vetted): https://chargingthefuture.com. 
-2. List one skill or resource you can provide (transport, plumbing, legal referrals, childcare, job training): https://app.chargingthefuture.com/apps/directory/public. 
+1. Sign up to the TI Skills Economy directory (private, vetted): https://lagatos.com. 
+2. List one skill or resource you can provide (transport, plumbing, legal referrals, childcare, job training): https://app.lagatos.com/apps/directory/public. 
 3. Report suspected ops to the community so their profile can be deleted: https://signal.group/#CjQKILHj7074l2Kl-oYy0qGSFdydXbtu0Pf66Z_88K9IlSCtEhDDdqV_BFAW2qm2EiTGEaNs
 
 # Practical example (how it replaces the old cycle)

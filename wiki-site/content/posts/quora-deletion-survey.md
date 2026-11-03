@@ -13,7 +13,7 @@ When an account is closed, the evidence of it disappears with the account. There
 
 There is now a survey for recording them. It is here, and reading it needs no account at all:
 
-https://app.chargingthefuture.com/survey/quora-account-deletions
+https://app.lagatos.com/survey/quora-account-deletions
 
 ## What it asks
 
@@ -53,9 +53,9 @@ Reading takes nothing. Submitting asks you to sign in free, and that is only the
 
 If you are already a member, the survey sits in the two places you are asked for a Quora profile anyway:
 
-[Unlock](https://app.chargingthefuture.com/plugin/unlock) — the verification screens.
+[Unlock](https://app.lagatos.com/plugin/unlock) — the verification screens.
 
-[Directory](https://app.chargingthefuture.com/apps/directory) — the profile edit screen.
+[Directory](https://app.lagatos.com/apps/directory) — the profile edit screen.
 
 If you are not a member, use the link above. It works without an account, which is the point of it.
 
@@ -69,7 +69,7 @@ From [their own help page](https://help.quora.com/hc/en-us/articles/360000839503
 >
 > Please note that you will typically receive the archive within 72 hours of our team confirming that we have received your data request.
 
-Once you have that archive, it does not have to sit in a folder. If what you wrote was about being targeted, you can lend it to the [Knowledge Library](https://app.chargingthefuture.com/knowledge) — the reference the app's assistant answers from. It means a newcomer asking a question gets an answer shaped by more than one person's experience, and your writing goes on doing work after the platform that hosted it decided otherwise.
+Once you have that archive, it does not have to sit in a folder. If what you wrote was about being targeted, you can lend it to the [Knowledge Library](https://app.lagatos.com/knowledge) — the reference the app's assistant answers from. It means a newcomer asking a question gets an answer shaped by more than one person's experience, and your writing goes on doing work after the platform that hosted it decided otherwise.
 
 Two things then come out of one deletion: a line in a record that can be counted, and writing that is still useful to somebody.
 
@@ -79,8 +79,8 @@ I have lost four accounts to this now, and each time the only record was whateve
 
 ## Where to find it in the app
 
-- [Unlock](https://app.chargingthefuture.com/plugin/unlock) — [guide](https://app.chargingthefuture.com/guide#unlock)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Knowledge Library](https://app.chargingthefuture.com/knowledge) — [guide](https://app.chargingthefuture.com/guide#knowledge)
+- [Unlock](https://app.lagatos.com/plugin/unlock) — [guide](https://app.lagatos.com/guide#unlock)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Knowledge Library](https://app.lagatos.com/knowledge) — [guide](https://app.lagatos.com/guide#knowledge)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

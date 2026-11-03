@@ -9,7 +9,7 @@ topics:
   - housing
 ---
 
-There is a scheme on the [schemes list](https://www.chargingthefuture.com/schemes) now that I have wanted named for a long time: The Forced Homecoming.
+There is a scheme on the [schemes list](https://lagatos.com/schemes) now that I have wanted named for a long time: The Forced Homecoming.
 
 It has been run at me for more than a decade — not once, repeatedly. That is the part worth saying first, because a thing attempted on you every few years is not a run of bad luck, and the repetition is what finally made it recognizable to me as a designed sequence rather than a series of separate disasters.
 
@@ -27,7 +27,7 @@ Around the house, the neighborhood fills in. Properties get bought up. People do
 
 ## Why this makes the scheduled part easy
 
-The [Good Day, Bad Day](https://www.chargingthefuture.com/schemes) needs two things: a settled address, so a weekday can be reliably ruined, and knowledge of your day, so the grading works.
+The [Good Day, Bad Day](https://lagatos.com/schemes) needs two things: a settled address, so a weekday can be reliably ruined, and knowledge of your day, so the grading works.
 
 In this arrangement you have supplied both. You are not going anywhere, and one of them lives with you. They know when you slept, what you ate, what you were dreading, and how the day went — not by surveillance but by being at the table. It is the cheapest version of the operation there is.
 
@@ -55,18 +55,18 @@ Everyone else at least gets to go home. In this arrangement, home is where it is
 
 Telling a destitute person not to take the only housing available is worthless on its own. The reason the scheme works is that the alternative usually does not exist.
 
-That is the gap [LightHouse](https://app.chargingthefuture.com/apps/lighthouse) is for. It lists places offered by hosts who are survivors themselves — people who are not being paid in favors to make your week difficult, because they are on the same list you are. A room with a door that locks, in a building where nobody has been given anything to arrange your day.
+That is the gap [LightHouse](https://app.lagatos.com/apps/lighthouse) is for. It lists places offered by hosts who are survivors themselves — people who are not being paid in favors to make your week difficult, because they are on the same list you are. A room with a door that locks, in a building where nobody has been given anything to arrange your day.
 
 I am not going to claim there is a listing waiting for everyone who needs one. There is not. What I will say is that the answer to this particular scheme is housing that does not run through people who can be bought, and that building the supply of it is worth more than any amount of advice about coping where you are.
 
-If you are in this arrangement now, the [Commons](https://app.chargingthefuture.com) is where people are. Not a hotline — I called one once, and what I got back was effectively an invitation to join the club. People who already understand the situation are a different proposition.
+If you are in this arrangement now, the [Commons](https://app.lagatos.com) is where people are. Not a hotline — I called one once, and what I got back was effectively an invitation to join the club. People who already understand the situation are a different proposition.
 
 ## Where to find it in the app
 
-- [LightHouse](https://app.chargingthefuture.com/apps/lighthouse) — [guide](https://app.chargingthefuture.com/guide#lighthouse)
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Commons](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
+- [LightHouse](https://app.lagatos.com/apps/lighthouse) — [guide](https://app.lagatos.com/guide#lighthouse)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Commons](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
 
-The full schemes list is public: [chargingthefuture.com/schemes](https://www.chargingthefuture.com/schemes).
+The full schemes list is public: [lagatos.com/schemes](https://lagatos.com/schemes).
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

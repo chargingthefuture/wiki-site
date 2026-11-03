@@ -13,7 +13,7 @@ If something about the Skills Economy stops you, I want to know what it is.
 
 Not as a challenge. I am asking because I cannot answer an objection nobody says out loud, and because some of them are going to be right.
 
-You can write it under this post. Reading takes nothing; writing takes a free account: [app.chargingthefuture.com/apps/fireside](https://app.chargingthefuture.com/apps/fireside).
+You can write it under this post. Reading takes nothing; writing takes a free account: [app.lagatos.com/apps/fireside](https://app.lagatos.com/apps/fireside).
 
 Here is the one I hear most, and the one I want to answer properly.
 
@@ -81,7 +81,7 @@ You set the level of engagement. One ride a month, or nothing for six months, or
 
 Nobody schedules you. Nobody approves your rate. Nobody can remove you from it, because there is no gate for anybody to stand at — there is no second tier and no way to buy influence over another account.
 
-And if you are ambitious, the ceiling is not set by whoever is willing to hire you. [What's your 1%?](https://app.chargingthefuture.com/apps/workforce?view=one-percent) runs that arithmetic for your own trade: one percent of five million survivors is fifty thousand people, and it works backwards from there to what serving them would be worth in a year.
+And if you are ambitious, the ceiling is not set by whoever is willing to hire you. [What's your 1%?](https://app.lagatos.com/apps/workforce?view=one-percent) runs that arithmetic for your own trade: one percent of five million survivors is fifty thousand people, and it works backwards from there to what serving them would be worth in a year.
 
 That figure is not a promise. It is what the arithmetic says is available to somebody who decides to go after it.
 
@@ -95,9 +95,9 @@ Say it under this post. Nobody has to agree with me for this to be worth writing
 
 ## Where to find it in the app
 
-- [Fireside](https://app.chargingthefuture.com/apps/fireside)
-- [Workforce](https://app.chargingthefuture.com/apps/workforce) — [What's your 1%?](https://app.chargingthefuture.com/apps/workforce?view=one-percent) — [guide](https://app.chargingthefuture.com/guide#workforce)
-- [TrustTransport](https://app.chargingthefuture.com/apps/trust-transport) — [guide](https://app.chargingthefuture.com/guide#trust-transport)
+- [Fireside](https://app.lagatos.com/apps/fireside)
+- [Workforce](https://app.lagatos.com/apps/workforce) — [What's your 1%?](https://app.lagatos.com/apps/workforce?view=one-percent) — [guide](https://app.lagatos.com/guide#workforce)
+- [TrustTransport](https://app.lagatos.com/apps/trust-transport) — [guide](https://app.lagatos.com/guide#trust-transport)
 - [Peace Battle 2](https://chargingthefuture.github.io/chargingthefuture/peace-battle-2)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

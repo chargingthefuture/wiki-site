@@ -16,7 +16,7 @@ Every machine breaks eventually: a pump, a press, a vehicle, a piece of farm equ
 
 ## Andre Kovacs
 
-Andre Kovacs (https://www.quora.com/profile/andre-kovacs-1), in Galt, California. The Directory profile is at https://app.chargingthefuture.com/apps/directory/profile/8afae46a-452c-4e67-96ce-f1377f545c56.
+Andre Kovacs (https://www.quora.com/profile/andre-kovacs-1), in Galt, California. The Directory profile is at https://app.lagatos.com/apps/directory/profile/8afae46a-452c-4e67-96ce-f1377f545c56.
 
 ![Andre Kovacs's Directory listing in the app, captured October 14, 2026. The heading reads Andre Kovacs, below it "Community-generated profile" and "Nominated by @farah", then the tags Manufacturing & Industry and Machinists, and the location Galt, California, United States. A button reads View Quora profile. Under the heading SPECIALIZATIONS are ten entries: Copywriting; Writing; Editing and style-guide enforcement; Persuasive and technical writing; SEO copy and content strategy; Blueprint reading and interpretation; CNC operation and programming; Dimensional inspection and tolerances; Machine setup and calibration; Machine tool operation.](images/andre-kovacs-directory-profile-2026-10-14.jpg)
 
@@ -68,12 +68,12 @@ Somebody whose work is making things for other people needs things too. A ride. 
 
 Everyone written about in this series is a self-identified Targeted Individual. That means they said so in public, and it is the only basis for the listing. I cannot verify it, and neither can a reader. Some people who say it are not survivors, and some are the people doing the harassing, so a post here is not a vouch for anybody and should not be read as one. I am not responsible for what anyone named on this list does or says, on the app, on Quora, or anywhere else. The closest anybody can get to finding a real Targeted Individual is through the app, which admits people one at a time through Unlock and has other mechanisms in place to filter actively. Even with those, there is no such thing as a hundred percent.
 
-Sign in to get access to the world's first directory of 300+ self-identified Targeted Individuals, free: https://app.chargingthefuture.com/apps/directory
+Sign in to get access to the world's first directory of 300+ self-identified Targeted Individuals, free: https://app.lagatos.com/apps/directory
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Workforce](https://app.chargingthefuture.com/apps/workforce) — [guide](https://app.chargingthefuture.com/guide#workforce)
-- [Unlock](https://app.chargingthefuture.com/plugin/unlock) — [guide](https://app.chargingthefuture.com/guide#unlock)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Workforce](https://app.lagatos.com/apps/workforce) — [guide](https://app.lagatos.com/guide#workforce)
+- [Unlock](https://app.lagatos.com/plugin/unlock) — [guide](https://app.lagatos.com/guide#unlock)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

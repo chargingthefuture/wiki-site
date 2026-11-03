@@ -26,7 +26,7 @@ const START = Date.UTC(2026, 8, 18, 23, 0, 0);
 // is set here by hand on the day and the clock stops at whatever it read.
 const REACHED: number | null = null;
 
-const APP = "https://app.chargingthefuture.com";
+const APP = "https://app.lagatos.com";
 const LINKS = {
   onePercent: `${APP}/apps/workforce?view=one-percent`,
   goals: `${APP}/apps/peer-programming?tab=goals`,
@@ -436,7 +436,7 @@ export default function PeaceBattleTwo() {
 
         <div className="border-t border-border pt-8">
           <p className="font-sans text-lg text-gray-300 mb-4">
-            To sign up: <a href="https://chargingthefuture.com" className="text-primary font-bold hover:text-white">https://chargingthefuture.com</a>.
+            To sign up: <a href="https://lagatos.com" className="text-primary font-bold hover:text-white">https://lagatos.com</a>.
             It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
           </p>
           <Link href="/" className="font-heading font-bold uppercase text-gray-400 hover:text-primary inline-flex items-center gap-2">
