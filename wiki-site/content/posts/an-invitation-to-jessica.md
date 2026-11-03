@@ -18,7 +18,7 @@ I would rather tell you that than leave you to find it.
 
 ## Jessica
 
-Jessica Goodwin (https://www.quora.com/profile/Jessica-Goodwin-229), in the United States. The Directory profile is at https://app.chargingthefuture.com/apps/directory/profile/f99cd3e6-bdce-40e1-a2f7-4ba9049a6340.
+Jessica Goodwin (https://www.quora.com/profile/Jessica-Goodwin-229), in the United States. The Directory profile is at https://app.lagatos.com/apps/directory/profile/f99cd3e6-bdce-40e1-a2f7-4ba9049a6340.
 
 ![Jessica Goodwin's Directory listing in the app, captured September 28, 2026. The heading reads Jessica Goodwin, below it "Community-generated profile" and "Nominated by @farah", and under that the location United States. A button reads View Quora profile. Under the heading SPECIALIZATIONS is one entry: Advocacy.](images/jessica-goodwin-directory-profile-2026-09-28.jpg)
 
@@ -40,17 +40,17 @@ Read together, they ask for three things: somebody to tell, a way to know for su
 
 I answered the first question in [Who to report it to](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/who-to-report-it-to). The short version: I do not know of a local office that takes a report of the entire pattern and acts on it. A police report carries one incident, described as the crime it is. The United Nations collects reports of the pattern, as the human rights violation it is.
 
-The telling that helps most is often not a report. The [Commons](https://app.chargingthefuture.com) is a group chat of other Targeted Individuals, and nobody there needs the first hour of a conversation spent on whether it is happening.
+The telling that helps most is often not a report. The [Commons](https://app.lagatos.com) is a group chat of other Targeted Individuals, and nobody there needs the first hour of a conversation spent on whether it is happening.
 
 ## A way to know
 
-Wanting to catch them usually starts with wanting to be sure. What gets you there is a record: dated, written as it happens, not reconstructed from memory months later. [ClickLog](https://app.chargingthefuture.com/apps/click-log) takes about fifteen seconds an incident, and your notes are not shown to anyone else here. Over weeks, a record shows you the pattern yourself, before anybody else has to believe it.
+Wanting to catch them usually starts with wanting to be sure. What gets you there is a record: dated, written as it happens, not reconstructed from memory months later. [ClickLog](https://app.lagatos.com/apps/click-log) takes about fifteen seconds an incident, and your notes are not shown to anyone else here. Over weeks, a record shows you the pattern yourself, before anybody else has to believe it.
 
 ## A way out
 
 Moving is the question almost everybody on this list has asked. [It followed you](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/it-followed-you) is the longer answer. The short one is that a move holds better when there are people at the other end of it.
 
-That is what the [Directory](https://app.chargingthefuture.com/apps/directory) is for: 163 people, where they are, and what they can do. [Foundation](https://app.chargingthefuture.com/apps/foundation) is where members offer and exchange help: a ride, a room, an hour of a trade somebody does not have.
+That is what the [Directory](https://app.lagatos.com/apps/directory) is for: 163 people, where they are, and what they can do. [Foundation](https://app.lagatos.com/apps/foundation) is where members offer and exchange help: a ride, a room, an hour of a trade somebody does not have.
 
 ## How the listing came to be
 
@@ -66,14 +66,14 @@ Nothing else is required. Not using the rest of the app, not posting anything, n
 
 Everyone written about in this series is a self-identified Targeted Individual. That means they said so in public, and it is the only basis for the listing. I cannot verify it, and neither can a reader. Some people who say it are not survivors, and some are the people doing the harassing, so a post here is not a vouch for anybody and should not be read as one. I am not responsible for what anyone named on this list does or says, on the app, on Quora, or anywhere else. The closest anybody can get to finding a real Targeted Individual is through the app, which admits people one at a time through Unlock and has other mechanisms in place to filter actively. Even with those, there is no such thing as a hundred percent.
 
-Sign in to get access to the world's first directory of 300+ self-identified Targeted Individuals, free: https://app.chargingthefuture.com/apps/directory
+Sign in to get access to the world's first directory of 300+ self-identified Targeted Individuals, free: https://app.lagatos.com/apps/directory
 
 ## Where to find it in the app
 
-- [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
-- [Unlock](https://app.chargingthefuture.com/plugin/unlock) — [guide](https://app.chargingthefuture.com/guide#unlock)
+- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
+- [Unlock](https://app.lagatos.com/plugin/unlock) — [guide](https://app.lagatos.com/guide#unlock)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

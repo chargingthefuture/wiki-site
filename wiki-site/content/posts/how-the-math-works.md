@@ -69,7 +69,7 @@ Nothing above asks you to take my word for it, and you do not have to keep up wi
 
 The Workforce feature in the app shows all of this live, 24/7 — the population baseline, the people recruited, the skills covered, the sectors, the gaps. Open it whenever you want and see where things stand: the screen above is what it looks like today, and it changes as people join and list.
 
-If you want to understand the feature at your own pace, the guide walks through it: https://app.chargingthefuture.com/guide#workforce
+If you want to understand the feature at your own pace, the guide walks through it: https://app.lagatos.com/guide#workforce
 
 And if you have questions after that, chat with me live in the #general channel in the app.
 
@@ -77,7 +77,7 @@ The app is free. If you have a skill, it is one of the 650, and someone here wil
 
 ## Where to find it in the app
 
-- [Workforce](https://app.chargingthefuture.com/apps/workforce) — [guide](https://app.chargingthefuture.com/guide#workforce)
-- [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
+- [Workforce](https://app.lagatos.com/apps/workforce) — [guide](https://app.lagatos.com/guide#workforce)
+- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

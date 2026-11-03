@@ -18,7 +18,7 @@ I think it is, and I am going to show the evidence rather than assert it.
 
 The Skills Economy space on Quora has been followed by 451 people, all time.
 
-![The Skills Economy space's statistics screen on Quora, all-time view, with the space header reading "first-ever psyop-free economy. all posts survive here / chargingthefuture.com/feed." The tiles: Views 78,977 · Follows 451 · Upvotes 1,387 · Comments 1,439.](images/skills-economy-space-stats-2026-08-24.jpg)
+![The Skills Economy space's statistics screen on Quora, all-time view, with the space header reading "first-ever psyop-free economy. all posts survive here / lagatos.com/feed." The tiles: Views 78,977 · Follows 451 · Upvotes 1,387 · Comments 1,439.](images/skills-economy-space-stats-2026-08-24.jpg)
 
 ![The rest of the same statistics screen, reached by scrolling the tile row sideways: Follows 451 · Upvotes 1,387 · Comments 1,439 · Content 938.](images/skills-economy-space-stats-content-2026-08-24.jpg)
 
@@ -68,7 +68,7 @@ None of those numbers is a promise. Together they are why I think the goal arriv
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Workforce](https://app.chargingthefuture.com/apps/workforce) — [guide](https://app.chargingthefuture.com/guide#workforce)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Workforce](https://app.lagatos.com/apps/workforce) — [guide](https://app.lagatos.com/guide#workforce)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

@@ -38,11 +38,11 @@ None of this is legal advice, and it does not tell anybody what to do when a rep
 
 The Skills Economy exists to pair you with skilled people who do not turn a blind eye and do not join in.
 
-It does that by what people can do, not by title or status. The [Directory](https://app.chargingthefuture.com/apps/directory) lists survivors and their skills. The [PeerProgramming Goals board](https://app.chargingthefuture.com/apps/peer-programming?tab=goals) is where anybody can post a goal and anybody can take a small part of it.
+It does that by what people can do, not by title or status. The [Directory](https://app.lagatos.com/apps/directory) lists survivors and their skills. The [PeerProgramming Goals board](https://app.lagatos.com/apps/peer-programming?tab=goals) is where anybody can post a goal and anybody can take a small part of it.
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming?tab=goals) — [guide](https://app.chargingthefuture.com/guide#peer-programming)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [PeerProgramming](https://app.lagatos.com/apps/peer-programming?tab=goals) — [guide](https://app.lagatos.com/guide#peer-programming)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

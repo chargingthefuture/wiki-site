@@ -25,7 +25,7 @@ If you want practical, transparent ways to regain autonomy — trade skills, fin
 
 Skills, Solidarity, and Support — 🤜🤛
 
-[Psyop-Free Economy | Survivor Support Platform](https://chargingthefuture.com/)
+[Psyop-Free Economy | Survivor Support Platform](https://lagatos.com/)
 
 Post on Quora:
 

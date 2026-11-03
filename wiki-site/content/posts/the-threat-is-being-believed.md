@@ -1,6 +1,6 @@
 ---
 title: "The threat is being believed"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "Why whistleblowers become Targeted Individuals: somebody who will not go along is no use to the arrangement, so it goes after their word."
 category: "Community"
 teaser: "A question I saved on Quora asks why some whistleblowers become Targeted Individuals after exposing illegal activity. The arrangement behind this sorts people into those who go along and those who are targeted, and a person who has already said no in public fits only one of those. What a whistleblower carries is their word, so that is what gets worked on: a picture of somebody unstable, built from provoked reactions and false diagnoses. A dated record and people who believe you answer it."
@@ -36,13 +36,13 @@ The FBI's program against Martin Luther King Jr. watched, infiltrated and discre
 
 ## What answers it
 
-A smear is not argued down ([You cannot argue a smear down](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/you-cannot-argue-a-smear-down)). A person with no witnesses and no record is easy to describe as unstable; a person with a dated log is not. [ClickLog](https://app.chargingthefuture.com/apps/click-log) records the date and, if you choose, a location, in a few seconds, and the notes stay yours. It does not stop an incident. It stops the incident from also taking your credibility ([What can be stopped](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-can-be-stopped)).
+A smear is not argued down ([You cannot argue a smear down](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/you-cannot-argue-a-smear-down)). A person with no witnesses and no record is easy to describe as unstable; a person with a dated log is not. [ClickLog](https://app.lagatos.com/apps/click-log) records the date and, if you choose, a location, in a few seconds, and the notes stay yours. It does not stop an incident. It stops the incident from also taking your credibility ([What can be stopped](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-can-be-stopped)).
 
 The other answer is people who already believe you. King's movement ran on networks people already trusted. The closest thing here is the Directory: a list of survivors by what they can do, and being on it costs nobody an account.
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
