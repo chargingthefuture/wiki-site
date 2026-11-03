@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "what-is-special-is-what-you-can-do",
     "title": "What is special is what you can do",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-17",
+    "date": "2026-11-03",
     "excerpt": "A saved Quora question asks what makes a Targeted Individual special. Nothing selected them. What sets a person apart is what they can do.",
     "category": "Community",
     "collection": "posts",
@@ -53,7 +53,7 @@ export const ARTICLES: ArticleMeta[] = [
       "directory",
       "skills-economy"
     ],
-    "number": 490
+    "number": 491
   },
   {
     "slug": "living-well-not-sending-it-back",
