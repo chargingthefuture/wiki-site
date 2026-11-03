@@ -87,9 +87,9 @@ That is not a defense against being watched. Nothing is. It is a way of being wo
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Commons](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Commons](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
 
-The named schemes, including the sensitization ones, are public: [chargingthefuture.com/schemes](https://www.chargingthefuture.com/schemes).
+The named schemes, including the sensitization ones, are public: [lagatos.com/schemes](https://lagatos.com/schemes).
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

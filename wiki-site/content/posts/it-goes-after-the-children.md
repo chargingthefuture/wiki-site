@@ -32,7 +32,7 @@ School is where a child is away from the parent all day, in a place the parent d
 
 ## A child sent after you
 
-Sending a child to do this is abuse of the child, by the adult who sent them. If a child is sent after you or after your own children, write down what happened, with the date, as it happens. [Sending a child is abuse](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/sending-a-child-is-abuse) says more. [ClickLog](https://app.chargingthefuture.com/apps/click-log) takes about fifteen seconds an entry, and your notes stay yours.
+Sending a child to do this is abuse of the child, by the adult who sent them. If a child is sent after you or after your own children, write down what happened, with the date, as it happens. [Sending a child is abuse](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/sending-a-child-is-abuse) says more. [ClickLog](https://app.lagatos.com/apps/click-log) takes about fifteen seconds an entry, and your notes stay yours.
 
 ## What it does not decide
 
@@ -40,6 +40,6 @@ No five-year-old deserves to be trafficked. I first saw it at five, in a neighbo
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

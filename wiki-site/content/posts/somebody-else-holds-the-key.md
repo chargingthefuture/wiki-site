@@ -1,6 +1,6 @@
 ---
 title: "Somebody else holds the key"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks for hotel survival tricks. A room somebody else can open is a place to sleep, not a place to keep things."
 category: "Community"
 teaser: "A question I saved on Quora asks for hotel survival tricks for Targeted Individuals. A hotel room locks, and other people hold the key, which is the same arrangement as the shower facility where an employee keyed me in and an employee opened the door on me. So the room is a place to sleep, not a place to keep things: one bag, carried. Expect noise, and earbuds that cancel it. Leave pointless questions unanswered. Record what happens, with the date."
@@ -40,11 +40,11 @@ Getting to the hotel is part of it. On Quora on February 25, 2026 I wrote: "ever
 
 None of this stops it. On October 11, 2025 I wrote that a better framing is "to continue living your life and mitigate their threats, for example, with body cameras." A recording made on your own device does not depend on anybody's key.
 
-Then write it down. [ClickLog](https://app.chargingthefuture.com/apps/click-log) logs an incident with one tap, and its date and location cannot be changed later. A night in a room you will leave in the morning is easy to lose track of. A dated entry is not ([ClickLog: your record, and the record](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/clicklog-your-record-and-the-record)).
+Then write it down. [ClickLog](https://app.lagatos.com/apps/click-log) logs an incident with one tap, and its date and location cannot be changed later. A night in a room you will leave in the morning is easy to lose track of. A dated entry is not ([ClickLog: your record, and the record](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/clicklog-your-record-and-the-record)).
 
 ## Where to find it in the app
 
-- [What Works](https://app.chargingthefuture.com/apps/what-works) — [guide](https://app.chargingthefuture.com/guide#what-works)
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
+- [What Works](https://app.lagatos.com/apps/what-works) — [guide](https://app.lagatos.com/guide#what-works)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

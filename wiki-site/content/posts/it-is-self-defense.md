@@ -38,7 +38,7 @@ When a stranger does it, nobody debates it. When a network does it, the same rea
 
 That is the frame for the Skills Economy: a set of self-defense tools that do not require harming anybody.
 
-Set aside whether you agree about who is doing this. The tactics are the same whoever is behind them. A dated record of what happens, in [ClickLog](https://app.chargingthefuture.com/apps/click-log). People and what they can do, in the [Directory](https://app.chargingthefuture.com/apps/directory). Help exchanged between members, in [Foundation](https://app.chargingthefuture.com/apps/foundation). A ride, in [TrustTransport](https://app.chargingthefuture.com/apps/trust-transport). A place to stay, in [LightHouse](https://app.chargingthefuture.com/apps/lighthouse).
+Set aside whether you agree about who is doing this. The tactics are the same whoever is behind them. A dated record of what happens, in [ClickLog](https://app.lagatos.com/apps/click-log). People and what they can do, in the [Directory](https://app.lagatos.com/apps/directory). Help exchanged between members, in [Foundation](https://app.lagatos.com/apps/foundation). A ride, in [TrustTransport](https://app.lagatos.com/apps/trust-transport). A place to stay, in [LightHouse](https://app.lagatos.com/apps/lighthouse).
 
 There is no legal framework that gives us self-defense against this. These give us a position of self-defense without one.
 
@@ -50,10 +50,10 @@ Each person has a set plan, an abuse plan written for them. It is built to tortu
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
-- [TrustTransport](https://app.chargingthefuture.com/apps/trust-transport) — [guide](https://app.chargingthefuture.com/guide#trust-transport)
-- [LightHouse](https://app.chargingthefuture.com/apps/lighthouse) — [guide](https://app.chargingthefuture.com/guide#lighthouse)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
+- [TrustTransport](https://app.lagatos.com/apps/trust-transport) — [guide](https://app.lagatos.com/guide#trust-transport)
+- [LightHouse](https://app.lagatos.com/apps/lighthouse) — [guide](https://app.lagatos.com/guide#lighthouse)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

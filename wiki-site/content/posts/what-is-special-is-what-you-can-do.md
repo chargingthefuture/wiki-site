@@ -1,6 +1,6 @@
 ---
 title: "What is special is what you can do"
-date: "2026-10-17"
+date: "2026-11-03"
 excerpt: "A saved Quora question asks what makes a Targeted Individual special. Nothing selected them. What sets a person apart is what they can do."
 category: "Community"
 teaser: "A question I saved on Quora asks what makes somebody special as a Targeted Individual. The flattering answers come from the people doing it: a light in you, chosen, a truth teller. They will lean into any lie a person accepts. Nothing about a target selected them; any petty reason can put a name on the list. What does set a person apart is what they can do, and with two million or more Targeted Individuals, that is something other survivors need. The Directory lists people by exactly that."
@@ -48,7 +48,7 @@ If you know a survivor whose skills belong on it, SkillsHunt is where you nomina
 
 ## Where to find it in the app
 
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt) — [guide](https://app.chargingthefuture.com/guide#skills-hunt)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [SkillsHunt](https://app.lagatos.com/apps/skills-hunt) — [guide](https://app.lagatos.com/guide#skills-hunt)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

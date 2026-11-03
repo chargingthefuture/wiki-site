@@ -35,13 +35,13 @@ That is not a reason to stop talking to them. It is a reason not to make the nex
 
 ## To other survivors
 
-They do not need convincing, which leaves the record free to do something else. In [ClickLog](https://app.chargingthefuture.com/apps/click-log), an entry you choose to share joins a trend view of what members report, and that view shows what no private log can: the same experience, filed by different people in different places, and which named schemes keep arriving with it. [The record has started](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/clicklog-the-record-has-started) shows what the first entries in it look like. Your notes are not shown to anyone else, and names belong in your own record, not on a shared page.
+They do not need convincing, which leaves the record free to do something else. In [ClickLog](https://app.lagatos.com/apps/click-log), an entry you choose to share joins a trend view of what members report, and that view shows what no private log can: the same experience, filed by different people in different places, and which named schemes keep arriving with it. [The record has started](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/clicklog-the-record-has-started) shows what the first entries in it look like. Your notes are not shown to anyone else, and names belong in your own record, not on a shared page.
 
-And the [Commons](https://app.chargingthefuture.com), the group chat in the app, is a room of people who do not need the first hour spent on whether it is happening.
+And the [Commons](https://app.lagatos.com), the group chat in the app, is a room of people who do not need the first hour spent on whether it is happening.
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Commons — the group chat](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
