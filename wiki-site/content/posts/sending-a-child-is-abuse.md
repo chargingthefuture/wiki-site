@@ -35,10 +35,10 @@ It is not the main harm. The main harm is done before the child ever reaches any
 
 ## What to do with it
 
-If a child is sent after you, write down what happened, with the date, as it happens: what the child did, who was with them, and what the adult did. [ClickLog](https://app.chargingthefuture.com/apps/click-log) takes about fifteen seconds an incident, and your notes are not shown to anyone else here. A record kept over months is what shows the pattern, and the pattern is what an adult sending a child counts on nobody keeping.
+If a child is sent after you, write down what happened, with the date, as it happens: what the child did, who was with them, and what the adult did. [ClickLog](https://app.lagatos.com/apps/click-log) takes about fifteen seconds an incident, and your notes are not shown to anyone else here. A record kept over months is what shows the pattern, and the pattern is what an adult sending a child counts on nobody keeping.
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

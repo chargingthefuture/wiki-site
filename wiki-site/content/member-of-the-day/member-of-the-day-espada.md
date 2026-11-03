@@ -21,7 +21,7 @@ Excerpt: Member of the Day: Espada A special shout-out to Espada. He is one of t
 
 <h1><a name="p-261-member-of-the-day-espadahttpswwwquoracomprofileespada-18-1" class="anchor" href="#p-261-member-of-the-day-espadahttpswwwquoracomprofileespada-18-1" aria-label="Heading link"></a>Member of the Day: <a href="https://www.quora.com/profile/ESPADA-18">Espada</a></h1>
 <p>A special shout-out to Espada. He is one of the first people to join the community and offer his skills. He literally joined on August 3, 2025, and responded to my first post. In a short time, a lot has happened. One being the launch of a TI economy app. In the app, there is a Directory feature. I have added Espada to. Link below.</p>
-<p>CTF Profile: <a href="https://app.chargingthefuture.com/apps/directory/public/42506e2d-d81a-4455-b3fd-bd76984ecdf0">https://app.chargingthefuture.com/apps/directory/public/42506e2d-d81a-4455-b3fd-bd76984ecdf0</a></p>
+<p>CTF Profile: <a href="https://app.lagatos.com/apps/directory/public/42506e2d-d81a-4455-b3fd-bd76984ecdf0">https://app.lagatos.com/apps/directory/public/42506e2d-d81a-4455-b3fd-bd76984ecdf0</a></p>
 <p>Quora: <a href="https://www.quora.com/profile/ESPADA-18">https://www.quora.com/profile/ESPADA-18</a></p>
 <p>Skill(s): Small engine repair, installing CCTV, appliance repair, handyman, plumber’s apprentice</p>
 <p>-</p>

@@ -14,7 +14,7 @@ A question I opened as a Quora answer draft on August 6, 2025, and never wrote:
 
 > How do I overcome a gangstalker's false narrative? How can I distract myself from their tactics?
 
-It was asked by J H B (https://www.quora.com/profile/J-H-B-7), and the question is at https://www.quora.com/How-do-I-overcome-a-gangstalkers-false-narrative-How-can-I-distract-myself-from-their-tactics — go and read both where they stand. Quora's export kept the words of the question and not the name of the person who asked it; the name is here because the address still resolves to them. They are also in the Directory (https://app.chargingthefuture.com/apps/directory/profile/2c69e55c-9558-4418-8304-a87590507ee0) — a community-generated profile, built from what they say about themselves in public: a pharmaceutical assistant at a compounding pharmacy, studying medicine administration. It is labeled as community-generated and names who made it, it is theirs to claim whenever they want it, and theirs to have removed by asking.
+It was asked by J H B (https://www.quora.com/profile/J-H-B-7), and the question is at https://www.quora.com/How-do-I-overcome-a-gangstalkers-false-narrative-How-can-I-distract-myself-from-their-tactics — go and read both where they stand. Quora's export kept the words of the question and not the name of the person who asked it; the name is here because the address still resolves to them. They are also in the Directory (https://app.lagatos.com/apps/directory/profile/2c69e55c-9558-4418-8304-a87590507ee0) — a community-generated profile, built from what they say about themselves in public: a pharmaceutical assistant at a compounding pharmacy, studying medicine administration. It is labeled as community-generated and names who made it, it is theirs to claim whenever they want it, and theirs to have removed by asking.
 
 ![The question on Quora, captured August 28, 2026. Topic tags above it read Coping Mechanisms, Harassment, Gangstalkers, and seven more. The question reads: "How do I overcome a gangstalker's false narrative? How can I distract myself from their tactics?" Below it the page shows Follow with a count of 3, Request, Answer, and More, and a row reading All related (35).](images/j-h-b-question-2026-08-28.jpg)
 
@@ -42,11 +42,11 @@ Not supplying that is not composure and it is not turning the other cheek. It is
 
 Nothing you say. Something anyone can check without taking your word.
 
-A dated record you own. [ClickLog](https://app.chargingthefuture.com/apps/click-log) is an incident log: date, and a location if you choose one. It takes seconds and it exists whether or not anyone ever asks you for it. The value is not that it convinces a skeptic — it is that your account of your own life stops depending on your memory under stress, and it becomes something with timestamps that were not applied afterward.
+A dated record you own. [ClickLog](https://app.lagatos.com/apps/click-log) is an incident log: date, and a location if you choose one. It takes seconds and it exists whether or not anyone ever asks you for it. The value is not that it convinces a skeptic — it is that your account of your own life stops depending on your memory under stress, and it becomes something with timestamps that were not applied afterward.
 
-Work other people can see. A [Directory](https://app.chargingthefuture.com/apps/directory) profile is a public listing of what you can do. It is not a rebuttal and it never mentions the accusation. It just sits there being a specific, checkable fact about you that the narrative has no answer for.
+Work other people can see. A [Directory](https://app.lagatos.com/apps/directory) profile is a public listing of what you can do. It is not a rebuttal and it never mentions the accusation. It just sits there being a specific, checkable fact about you that the narrative has no answer for.
 
-People who know you because you did something for them. This is the strongest of the three and the only one that is not a claim at all. Someone who got a ride from you, or a repair, or a place to stay, is not evaluating testimony about you. They already know. [Trust](https://app.chargingthefuture.com/apps/trust) is the app's version of that: standing built out of participation that actually happened, rather than out of what anyone says about you.
+People who know you because you did something for them. This is the strongest of the three and the only one that is not a claim at all. Someone who got a ride from you, or a repair, or a place to stay, is not evaluating testimony about you. They already know. [Trust](https://app.lagatos.com/apps/trust) is the app's version of that: standing built out of participation that actually happened, rather than out of what anyone says about you.
 
 And one structural thing, which is why this app is built the way it is: there is no score here. No credit score, no social score, no rating, nothing about who has complained about you feeding into what you are allowed to do. Slander is exactly what scoring systems eat — you get denied and nobody tells you which file said what. An economy that scored you would import the smear and call it risk management. [This one does not score](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/spend-before-you-earn), and that is a decision, not an oversight.
 
@@ -76,9 +76,9 @@ The targeting is real. It is not the most interesting fact about you.
 
 ## Where to find it in the app
 
-- [ClickLog](https://app.chargingthefuture.com/apps/click-log) — [guide](https://app.chargingthefuture.com/guide#click-log)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Trust](https://app.chargingthefuture.com/apps/trust) — [guide](https://app.chargingthefuture.com/guide#trust)
-- [ServiceCredits](https://app.chargingthefuture.com/apps/service-credits) — [guide](https://app.chargingthefuture.com/guide#service-credits)
+- [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Trust](https://app.lagatos.com/apps/trust) — [guide](https://app.lagatos.com/guide#trust)
+- [ServiceCredits](https://app.lagatos.com/apps/service-credits) — [guide](https://app.lagatos.com/guide#service-credits)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
