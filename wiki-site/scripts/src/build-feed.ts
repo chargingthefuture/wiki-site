@@ -43,10 +43,10 @@ const OUT = resolve(BLOG_ROOT, 'artifacts/wiki/public/feed.xml');
 const SITE = 'https://chargingthefuture.github.io/chargingthefuture';
 const FEED_URL = `${SITE}/feed.xml`;
 
-// The channel title is what a link preview shows for the feed address (Quora
-// printed the bare name, so the link read as the site rather than the feed),
-// and what a reader lists the subscription under.
-const TITLE = 'Skills Economy RSS Feed';
+// The channel title is what a link preview shows for the feed address, so it is
+// the address itself: a shared link shows exactly where it goes. It is also
+// what a reader lists the subscription under.
+const TITLE = FEED_URL;
 const DESCRIPTION =
   'Writing on trafficking, being targeted, and building an economy survivors run themselves.';
 
