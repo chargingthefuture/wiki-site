@@ -42,7 +42,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "the-default-is-no",
     "title": "The default is no",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-17",
+    "date": "2026-11-03",
     "excerpt": "A saved Quora question asks what Targeted Individuals should avoid. Their requests, their fights, their steering, and being left alone with them.",
     "category": "Community",
     "collection": "posts",
@@ -53,7 +53,7 @@ export const ARTICLES: ArticleMeta[] = [
       "directory",
       "clicklog"
     ],
-    "number": 478
+    "number": 479
   },
   {
     "slug": "a-choice-under-pressure",
