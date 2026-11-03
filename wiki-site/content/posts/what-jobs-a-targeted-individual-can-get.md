@@ -32,7 +32,7 @@ Another Targeted Individual taught me about these. They are phase 1 clinical tri
 
 Aside from those two, the answer is to join the Skills Economy.
 
-[Workforce](https://app.chargingthefuture.com/apps/workforce) tracks the skills a working economy of about five million people needs, sector by sector, and how many of them anybody in this community has. Read on October 2, the catalog held 713 skills, and the Directory's 171 people held 230 of them. 483 had nobody.
+[Workforce](https://app.lagatos.com/apps/workforce) tracks the skills a working economy of about five million people needs, sector by sector, and how many of them anybody in this community has. Read on October 2, the catalog held 713 skills, and the Directory's 171 people held 230 of them. 483 had nobody.
 
 Some sectors are close to empty. Mining and extraction held 1 of its 12 skills. Emergency and reserve roles held 2 of 21. Energy and utilities held 3 of 20, water and sanitation 3 of 19, education 4 of 39.
 
@@ -40,12 +40,12 @@ None of that is a posted job. The number each sector needs is worked out from th
 
 ## Being findable for it
 
-The [Directory](https://app.chargingthefuture.com/apps/directory) lists people and what they can do. [Foundation](https://app.chargingthefuture.com/apps/foundation) is where members find somebody who offers a skill and arrange the work with them in a private chat. Being on the list is how somebody who needs what you do finds you, without anybody else standing in between.
+The [Directory](https://app.lagatos.com/apps/directory) lists people and what they can do. [Foundation](https://app.lagatos.com/apps/foundation) is where members find somebody who offers a skill and arrange the work with them in a private chat. Being on the list is how somebody who needs what you do finds you, without anybody else standing in between.
 
 ## Where to find it in the app
 
-- [Workforce](https://app.chargingthefuture.com/apps/workforce) — [guide](https://app.chargingthefuture.com/guide#workforce)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
+- [Workforce](https://app.lagatos.com/apps/workforce) — [guide](https://app.lagatos.com/guide#workforce)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

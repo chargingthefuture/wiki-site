@@ -63,7 +63,7 @@ One percent of five million survivors is fifty thousand people. Multiply.
 
 Then say what the number is and what it is not. It is a target with their own rate underneath it. It is not a forecast, it is not income, and nobody is owed it.
 
-The comparison worth giving: the app's [Workforce](https://app.chargingthefuture.com/apps/workforce) screen splits an entire economy evenly and lands near $142,500 a person. No real outcome is an even split. Doing well comes out of three parts — talent, luck, and how much work goes in — and none of the three is evenly distributed. The average has all of it averaged away, which is why nobody lands on it.
+The comparison worth giving: the app's [Workforce](https://app.lagatos.com/apps/workforce) screen splits an entire economy evenly and lands near $142,500 a person. No real outcome is an even split. Doing well comes out of three parts — talent, luck, and how much work goes in — and none of the three is evenly distributed. The average has all of it averaged away, which is why nobody lands on it.
 
 If they have an account, the What's your 1%? tab does this multiplication for them off their listing. If they do not, a calculator does the same job.
 
@@ -81,7 +81,7 @@ Write the specific obstacle, not the category. "Transport" is a category. "No wa
 
 ### 7. What can be arranged about that specific thing?
 
-This is where a tool is a tool. The [Directory](https://app.chargingthefuture.com/apps/directory) makes somebody findable. [Foundation](https://app.chargingthefuture.com/apps/foundation) is where an exchange gets offered or asked for. [SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt) finds a person with the trade that is missing. [SkillUp](https://app.chargingthefuture.com/apps/skill-up) teaches one or learns one.
+This is where a tool is a tool. The [Directory](https://app.lagatos.com/apps/directory) makes somebody findable. [Foundation](https://app.lagatos.com/apps/foundation) is where an exchange gets offered or asked for. [SkillsHunt](https://app.lagatos.com/apps/skills-hunt) finds a person with the trade that is missing. [SkillUp](https://app.lagatos.com/apps/skill-up) teaches one or learns one.
 
 If none of that touches the obstacle, say so plainly. Reaching for a tool that does not fit is worse than admitting the gap, and the gap is worth knowing.
 
@@ -113,10 +113,10 @@ It is also the honest answer to anybody who suspects this is a funnel. Here is t
 
 ## Where to find it in the app
 
-- [Workforce](https://app.chargingthefuture.com/apps/workforce) — [guide](https://app.chargingthefuture.com/guide#workforce)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [Foundation](https://app.chargingthefuture.com/apps/foundation) — [guide](https://app.chargingthefuture.com/guide#foundation)
-- [SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt) — [guide](https://app.chargingthefuture.com/guide#skills-hunt)
-- [SkillUp](https://app.chargingthefuture.com/apps/skill-up) — [guide](https://app.chargingthefuture.com/guide#skill-up)
+- [Workforce](https://app.lagatos.com/apps/workforce) — [guide](https://app.lagatos.com/guide#workforce)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
+- [SkillsHunt](https://app.lagatos.com/apps/skills-hunt) — [guide](https://app.lagatos.com/guide#skills-hunt)
+- [SkillUp](https://app.lagatos.com/apps/skill-up) — [guide](https://app.lagatos.com/guide#skill-up)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

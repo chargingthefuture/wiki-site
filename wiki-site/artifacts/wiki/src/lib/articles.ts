@@ -59,7 +59,7 @@ export const ARTICLES: ArticleMeta[] = [
     "slug": "any-petty-reason-is-enough",
     "title": "Any petty reason is enough",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-17",
+    "date": "2026-11-03",
     "excerpt": "Somebody asked on Quora why they became a Targeted Individual. There is no criterion and no test they failed: somebody with access put a name on a list, and the reasons a person is told afterward are fitted to them.",
     "category": "Community",
     "collection": "posts",
@@ -70,13 +70,13 @@ export const ARTICLES: ArticleMeta[] = [
       "community",
       "clicklog"
     ],
-    "number": 461
+    "number": 462
   },
   {
     "slug": "gain-is-not-an-illness",
     "title": "Gain is not an illness",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-17",
+    "date": "2026-11-03",
     "excerpt": "A saved Quora question asked whether people who stalk for revenge or personal gain have psychological issues. The motive is ordinary gain, paid in kind, and a reason is not a justification.",
     "category": "Community",
     "collection": "posts",
@@ -87,13 +87,13 @@ export const ARTICLES: ArticleMeta[] = [
       "clicklog",
       "directory"
     ],
-    "number": 460
+    "number": 461
   },
   {
     "slug": "organized-crime-that-announces-itself",
     "title": "Organized crime that announces itself",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-17",
+    "date": "2026-11-03",
     "excerpt": "Two saved questions ask what this is and how the people doing it operate. It is organized crime, human trafficking and group vigilantism, carried out by many ordinary people who make sure the target knows they are there.",
     "category": "Community",
     "collection": "posts",
@@ -104,13 +104,13 @@ export const ARTICLES: ArticleMeta[] = [
       "community",
       "clicklog"
     ],
-    "number": 459
+    "number": 460
   },
   {
     "slug": "the-hint-is-meant-to-be-noticed",
     "title": "The hint is meant to be noticed",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-17",
+    "date": "2026-11-03",
     "excerpt": "A saved Quora question asks how subtle hints are used to control Targeted Individuals and what they do to a life. The hint is built to be noticed, and the control runs through the attention it takes.",
     "category": "Community",
     "collection": "posts",
@@ -121,23 +121,55 @@ export const ARTICLES: ArticleMeta[] = [
       "clicklog",
       "community"
     ],
+    "number": 459
+  },
+  {
+    "slug": "why-we-count-days-won",
+    "title": "Why we count days won",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-11-03",
+    "excerpt": "The new version of the app opens on one number, Days the Avenhood has won. Here is what goes into it, why it belongs to all of us at once, and why we count it at all.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/why-we-count-days-won.md",
+    "teaser": "The new version of the app opens on a card called Days the Avenhood has won. It counts time members spend together: in rooms, on calls, and helping with each other's tasks. Time with the app open and nobody there counts for nothing. It is added up across everybody, so nobody is ranked by it. Every minute in it is time not spent on Specterati schemes, and more time for each of us to reach our own definition of happiness.",
+    "topics": [
+      "community",
+      "skills-economy"
+    ],
     "number": 458
   },
   {
     "slug": "old-links-new-links",
     "title": "Old links, new links",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-17",
-    "excerpt": "Seventy accounts erased, twelve of them since October 1, and Kingishere-8 is the handle open now. What is live, what is dead, and the one address that never changes.",
+    "date": "2026-11-01",
+    "excerpt": "Seventy-six accounts erased, eighteen of them since October 1, and Kingishere-14 is the handle open now. What is live, what is dead, and the one address that never changes.",
     "category": "Community",
     "collection": "posts",
     "path": "posts/old-links-new-links.md",
-    "teaser": "Quora has erased my accounts seventy times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Twelve of those came after October 1. The latest ban landed at 9:17 in the morning on October 17, and the handle now open was opened three hours later. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
+    "teaser": "Quora has erased my accounts seventy-six times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Eighteen of those came after October 1. The latest ban landed at 4:39 in the morning on October 27, and the handle now open was opened five hours later. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
     "topics": [
       "publishing",
       "platform-independence"
     ],
     "number": 406
+  },
+  {
+    "slug": "Dictionary",
+    "title": "Dictionary: Skills Economy Terms",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-10-27",
+    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
+    "category": "Resources",
+    "collection": "posts",
+    "path": "posts/Dictionary.md",
+    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
+    "topics": [
+      "reference",
+      "terms"
+    ],
+    "number": 404
   },
   {
     "slug": "what-they-know-is-not-the-hold",
@@ -230,11 +262,11 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "An invitation to Ric",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-10-14",
-    "excerpt": "Anybody can tap Legal help on chargingthefuture.com and see how many people could help, with no account. Ric Vaughn is one of the people in that count.",
+    "excerpt": "Anybody can tap Legal help on lagatos.com and see how many people could help, with no account. Ric Vaughn is one of the people in that count.",
     "category": "Community",
     "collection": "posts",
     "path": "posts/an-invitation-to-ric.md",
-    "teaser": "The front page at chargingthefuture.com lets anybody tap what they need and see how many people on the list could help, with no account and no name given. One of the choices is legal help. Ric Vaughn has a Directory listing for preparing and negotiating a case, reading what a contract or a law actually says, and legal advocacy, and is one of the people that count is made of. Across the list, 4 of the 22 public safety and justice skills the app tracks are held by anybody. This is an invitation to claim the listing, and no is a complete answer.",
+    "teaser": "The front page at lagatos.com lets anybody tap what they need and see how many people on the list could help, with no account and no name given. One of the choices is legal help. Ric Vaughn has a Directory listing for preparing and negotiating a case, reading what a contract or a law actually says, and legal advocacy, and is one of the people that count is made of. Across the list, 4 of the 22 public safety and justice skills the app tracks are held by anybody. This is an invitation to claim the listing, and no is a complete answer.",
     "topics": [
       "community",
       "directory",
@@ -434,33 +466,17 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "See who could help you, before you make an account",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-10-13",
-    "excerpt": "chargingthefuture.com now tells you how many people in the Directory match what you need. No account and no personal information. The app has not changed, and the blog has a new design.",
+    "excerpt": "lagatos.com now tells you how many people in the Directory match what you need. No account and no personal information. The app has not changed, and the blog has a new design.",
     "category": "Platform",
     "collection": "posts",
     "path": "posts/see-who-could-help-without-an-account.md",
-    "teaser": "The front page at chargingthefuture.com now answers one question before you sign up for anything: is there anybody here who could help me? Tap what you need, a job, food, housing, someone to talk to, and it shows how many people listed in the Directory match. No account, no name, no email address. If nobody matches, the need is noted and I go looking for somebody. Names, locations and contact still sit behind a free account and the check, because that is what keeps the people on the list safe. Nothing in the app has changed, and the blog has a new design.",
+    "teaser": "The front page at lagatos.com now answers one question before you sign up for anything: is there anybody here who could help me? Tap what you need, a job, food, housing, someone to talk to, and it shows how many people listed in the Directory match. No account, no name, no email address. If nobody matches, the need is noted and I go looking for somebody. Names, locations and contact still sit behind a free account and the check, because that is what keeps the people on the list safe. Nothing in the app has changed, and the blog has a new design.",
     "topics": [
       "platform",
       "directory",
       "skills-economy"
     ],
     "number": 440
-  },
-  {
-    "slug": "Dictionary",
-    "title": "Dictionary: Skills Economy Terms",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-10-13",
-    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
-    "category": "Resources",
-    "collection": "posts",
-    "path": "posts/Dictionary.md",
-    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
-    "topics": [
-      "reference",
-      "terms"
-    ],
-    "number": 404
   },
   {
     "slug": "counted-by-skills",
@@ -5214,7 +5230,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "24/7 Chyme Rooms",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2026-01-04",
-    "excerpt": "I have opened the rooms below in Chyme, and they will stay open 24/7. Download the Chyme Android app: https://app.chargingthefuture.com/apps/chyme. Once logged...",
+    "excerpt": "I have opened the rooms below in Chyme, and they will stay open 24/7. Download the Chyme Android app: https://app.lagatos.com/apps/chyme. Once logged...",
     "category": "Community",
     "collection": "posts",
     "path": "posts/24-7-Chyme-Drop-In-Rooms.md",
@@ -6247,7 +6263,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Looking for a Financial Advisor? Meet Holly D",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-12-12",
-    "excerpt": "Highlighting Holly D. Holly’s Directory profile: https://app.chargingthefuture.com/apps/directory/public/cf681670-b288-4b1d-b45d-c2a37b1984bf The goal of highl...",
+    "excerpt": "Highlighting Holly D. Holly’s Directory profile: https://app.lagatos.com/apps/directory/public/cf681670-b288-4b1d-b45d-c2a37b1984bf The goal of highl...",
     "category": "Member of the Day",
     "collection": "member-of-the-day",
     "path": "member-of-the-day/looking-for-a-financial-advisor-meet-holly-d.md",
@@ -6280,7 +6296,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Welcome Cheryl, Community builder",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-12-12",
-    "excerpt": "Special shoutout to Cheryl J WILLIAMS TI Skills Network profile: psyop-free - Live, Work, Prevail https://app.chargingthefuture.com/apps/directory/public...",
+    "excerpt": "Special shoutout to Cheryl J WILLIAMS TI Skills Network profile: psyop-free - Live, Work, Prevail https://app.lagatos.com/apps/directory/public...",
     "category": "Member of the Day",
     "collection": "member-of-the-day",
     "path": "member-of-the-day/welcome-cheryl-community-builder.md",
@@ -7624,7 +7640,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Member of the Day: Jason Singletons",
     "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-19",
-    "excerpt": "Member of the Day: Jason Singletons CTF Profile: https://app.chargingthefuture.com/apps/directory/public/5134f872-38b3-4870-815a-d90bb9f85e5f Quora Profile:...",
+    "excerpt": "Member of the Day: Jason Singletons CTF Profile: https://app.lagatos.com/apps/directory/public/5134f872-38b3-4870-815a-d90bb9f85e5f Quora Profile:...",
     "category": "Member of the Day",
     "collection": "member-of-the-day",
     "path": "member-of-the-day/member-of-the-day-jason-singletons.md",

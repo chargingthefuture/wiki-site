@@ -9,7 +9,7 @@ teaser: "Chyme is live drop-in audio for survivors — rooms by topic, a stage f
 ---
 
 Marketing page of the Chyme room I created for the Town Hall on January 3, 2026:
-[https://app.chargingthefuture.com/apps/chyme/room/43d5333a-1c86-462a-b600-7fbb3ccca285](https://app.chargingthefuture.com/apps/chyme/room/43d5333a-1c86-462a-b600-7fbb3ccca285)
+[https://app.lagatos.com/apps/chyme/room/43d5333a-1c86-462a-b600-7fbb3ccca285](https://app.lagatos.com/apps/chyme/room/43d5333a-1c86-462a-b600-7fbb3ccca285)
 
 All members of the TI Skills Economy have access to this dedicated product/app. And you can host your own rooms.
 Chyme is a Clubhouse-style social audio Android app.

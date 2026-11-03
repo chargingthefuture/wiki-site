@@ -42,11 +42,11 @@ And if you forget all of this, the Commons has a chip above the box you type in 
 
 ## Where to find it in the app
 
-- [Unlock](https://app.chargingthefuture.com/plugin/unlock) — [guide](https://app.chargingthefuture.com/guide#unlock)
-- [Commons](https://app.chargingthefuture.com) — [guide](https://app.chargingthefuture.com/guide#commons)
-- [Fireside](https://app.chargingthefuture.com/apps/fireside) — [guide](https://app.chargingthefuture.com/guide#fireside)
-- [Knowledge Library](https://app.chargingthefuture.com/knowledge) — [guide](https://app.chargingthefuture.com/guide#knowledge)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [PeerProgramming](https://app.chargingthefuture.com/apps/peer-programming?tab=goals) — [guide](https://app.chargingthefuture.com/guide#peer-programming)
+- [Unlock](https://app.lagatos.com/plugin/unlock) — [guide](https://app.lagatos.com/guide#unlock)
+- [Commons](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Fireside](https://app.lagatos.com/apps/fireside) — [guide](https://app.lagatos.com/guide#fireside)
+- [Knowledge Library](https://app.lagatos.com/knowledge) — [guide](https://app.lagatos.com/guide#knowledge)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [PeerProgramming](https://app.lagatos.com/apps/peer-programming?tab=goals) — [guide](https://app.lagatos.com/guide#peer-programming)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

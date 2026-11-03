@@ -60,9 +60,9 @@ An economy needs to know who is in it and what they can do. Every accepted nomin
 
 ## Where to find it in the app
 
-- [SkillsHunt](https://app.chargingthefuture.com/apps/skills-hunt) — [guide](https://app.chargingthefuture.com/guide#skills-hunt)
-- [Directory](https://app.chargingthefuture.com/apps/directory) — [guide](https://app.chargingthefuture.com/guide#directory)
-- [ServiceCredits](https://app.chargingthefuture.com/apps/service-credits) — [guide](https://app.chargingthefuture.com/guide#service-credits)
-- [Skills Taxonomy](https://app.chargingthefuture.com/apps/skills-taxonomy) — [guide](https://app.chargingthefuture.com/guide#skills-taxonomy)
+- [SkillsHunt](https://app.lagatos.com/apps/skills-hunt) — [guide](https://app.lagatos.com/guide#skills-hunt)
+- [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
+- [ServiceCredits](https://app.lagatos.com/apps/service-credits) — [guide](https://app.lagatos.com/guide#service-credits)
+- [Skills Taxonomy](https://app.lagatos.com/apps/skills-taxonomy) — [guide](https://app.lagatos.com/guide#skills-taxonomy)
 
-To sign up: https://chargingthefuture.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
