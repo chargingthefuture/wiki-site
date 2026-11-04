@@ -14,57 +14,11 @@ regenerate, or the two will disagree and the post is the one that is right.
 151 posts.
 
 ==============================================================================
-2026-11-03 · Why we count days won
+2026-11-04 · Old links, new links
 
-The new version of the app opens on a screen called Today in the Avenhood. The first card on it says Days the Avenhood has won.
+Quora has erased my accounts eighty times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
 
-Avenhood is our word for the community and the idea at once. An Aven is one member of it. Both are on the Dictionary (https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary).
-
-What counts
-
-Time spent together. Time in a room with other members counts. So does a call. So does helping with somebody's task, once the person who posted it confirms it was done, and a "This helped me" once its author confirms it.
-
-Time with the app open and nobody with you counts for nothing. Sitting alone with a screen does not win anything back.
-
-Why it belongs to all of us
-
-The count is added up across everybody. It is one number for the Avenhood, not a score for anyone. Nobody is ranked by it, and nobody's own number is shown.
-
-Plenty in our lives already sorts us into who counts and who does not. This does not. Twenty minutes you gave on a hard day sit in it beside everybody else's.
-
-Why we count at all
-
-Every minute in it is a minute not spent on Specterati schemes. It is time they did not get, and more time for each of us to reach our own definition of happiness, whatever that turns out to be.
-
-The schemes take days from us one at a time, and mostly alone. This counts the days we take back, and we take them back together.
-
-Half an hour a day
-
-This version of the app carries the same message as Peace Battle 2 (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/peace-battle-2): half an hour a day, given to each other, counted as days won back together.
-
-Peace Battle 2 describes what winning looks like at the far end. This card is how we see it from one day to the next.
-
-For anyone who wants to check it
-
-A day won is eight hours. The app adds up the minutes every member spends together, in the ways listed above, and divides by 480.
-
-Where to find it in the app
-
-- Today (https://app.lagatos.com)
-- Chyme (https://app.lagatos.com/apps/chyme) — guide (https://app.lagatos.com/guide#chyme)
-- Foundation (https://app.lagatos.com/apps/foundation) — guide (https://app.lagatos.com/guide#foundation)
-- PeerProgramming (https://app.lagatos.com/apps/peer-programming?tab=goals) — guide (https://app.lagatos.com/guide#peer-programming)
-
-To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
-
-Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/why-we-count-days-won
-
-==============================================================================
-2026-11-03 · Old links, new links
-
-Quora has erased my accounts seventy-nine times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
-
-There is one handle of mine on Quora, opened late on the night of November 3, 2026, ten minutes after the ban before it. Everything before it is dead.
+There is one handle of mine on Quora, opened in the morning of November 4, 2026, fifty-four minutes after the ban before it. Everything before it is dead.
 
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
@@ -80,7 +34,7 @@ To reach me, save this link alongside the blog: https://sleek.bio/farah — it l
 
 Quora: current
 
-The handle: https://www.quora.com/profile/Kingishere-17 — opened at 10:34 at night on November 3, 2026, ten minutes after Kingishere-16 was banned.
+The handle: https://www.quora.com/profile/Kingishere-18 — opened at 12:29 in the morning on November 4, 2026, fifty-four minutes after Kingishere-17 was banned.
 
 The space: https://skillseconomy.quora.com
 
@@ -114,7 +68,7 @@ https://www.quora.com/profile/kingmonk — my eleventh handle, opened on August 
 
 https://www.quora.com/profile/king900 — my twelfth handle, opened on August 28, 2026, the day the eleventh was banned, and banned by Quora Moderation at 5:02 in the morning on August 30, 2026. Two days. The notice arrived twice, a minute apart.
 
-Then sixty-five more, in the order they were opened. I stopped writing the dates down one at a time, because by then a handle lasting a day was ordinary. They are back now, taken from the notices in my mail. One of them, kingpyramid, has its ban and not its opening, and says so; the notice for that one is gone. Every one of these addresses is a dead link somebody may still be holding.
+Then sixty-six more, in the order they were opened. I stopped writing the dates down one at a time, because by then a handle lasting a day was ordinary. They are back now, taken from the notices in my mail. One of them, kingpyramid, has its ban and not its opening, and says so; the notice for that one is gone. Every one of these addresses is a dead link somebody may still be holding.
 
 https://www.quora.com/profile/kingplaza-1 — opened at 9:01 in the evening on August 30, 2026, the same day king900 was banned before six that morning, and banned the same minute. Both notices are stamped 9:01, the confirmation at 9:01 and 49 seconds. It is the shortest life on this page and nothing else is close.
 
@@ -250,6 +204,8 @@ https://www.quora.com/profile/Kingishere-15 — opened at 7:43 in the evening on
 
 https://www.quora.com/profile/Kingishere-16 — opened at 9:48 at night on November 3, 2026, forty-nine minutes after Kingishere-15 was banned, and banned by Quora Moderation at 10:24 that night. Thirty-six minutes.
 
+https://www.quora.com/profile/Kingishere-17 — opened at 10:34 at night on November 3, 2026, ten minutes after Kingishere-16 was banned, and banned by Quora Moderation at 11:35 that night. One hour and one minute.
+
 Different every time, same label
 
 Worth recording, because it is the part that settles the question.
@@ -286,9 +242,55 @@ The rule behind all of it
 
 Nothing is written on a platform first anymore. Every post starts here, and platforms only ever get a short version and a link back. So the next time an account is erased — and I assume there will be a next time — the cost is one entry moving from the current list to the dead list on this page. That is all.
 
-Since this page first went up, that has happened seventy-seven times. The list above is current, and Kingishere-17 is the entry waiting to move onto it.
+Since this page first went up, that has happened seventy-eight times. The list above is current, and Kingishere-18 is the entry waiting to move onto it.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/old-links-new-links
+
+==============================================================================
+2026-11-03 · Why we count days won
+
+The new version of the app opens on a screen called Today in the Avenhood. The first card on it says Days the Avenhood has won.
+
+Avenhood is our word for the community and the idea at once. An Aven is one member of it. Both are on the Dictionary (https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary).
+
+What counts
+
+Time spent together. Time in a room with other members counts. So does a call. So does helping with somebody's task, once the person who posted it confirms it was done, and a "This helped me" once its author confirms it.
+
+Time with the app open and nobody with you counts for nothing. Sitting alone with a screen does not win anything back.
+
+Why it belongs to all of us
+
+The count is added up across everybody. It is one number for the Avenhood, not a score for anyone. Nobody is ranked by it, and nobody's own number is shown.
+
+Plenty in our lives already sorts us into who counts and who does not. This does not. Twenty minutes you gave on a hard day sit in it beside everybody else's.
+
+Why we count at all
+
+Every minute in it is a minute not spent on Specterati schemes. It is time they did not get, and more time for each of us to reach our own definition of happiness, whatever that turns out to be.
+
+The schemes take days from us one at a time, and mostly alone. This counts the days we take back, and we take them back together.
+
+Half an hour a day
+
+This version of the app carries the same message as Peace Battle 2 (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/peace-battle-2): half an hour a day, given to each other, counted as days won back together.
+
+Peace Battle 2 describes what winning looks like at the far end. This card is how we see it from one day to the next.
+
+For anyone who wants to check it
+
+A day won is eight hours. The app adds up the minutes every member spends together, in the ways listed above, and divides by 480.
+
+Where to find it in the app
+
+- Today (https://app.lagatos.com)
+- Chyme (https://app.lagatos.com/apps/chyme) — guide (https://app.lagatos.com/guide#chyme)
+- Foundation (https://app.lagatos.com/apps/foundation) — guide (https://app.lagatos.com/guide#foundation)
+- PeerProgramming (https://app.lagatos.com/apps/peer-programming?tab=goals) — guide (https://app.lagatos.com/guide#peer-programming)
+
+To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/why-we-count-days-won
 
 ==============================================================================
 2026-10-27 · Dictionary: Skills Economy Terms
