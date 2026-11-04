@@ -39,6 +39,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "old-links-new-links",
+    "title": "Old links, new links",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-11-04",
+    "excerpt": "Eighty accounts erased, twenty-two of them since October 1, and Kingishere-18 is the handle open now. What is live, what is dead, and the one address that never changes.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/old-links-new-links.md",
+    "teaser": "Quora has erased my accounts eighty times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Twenty-two of those came after October 1. The latest ban landed at 11:35 at night on November 3, and the handle now open was opened fifty-four minutes later. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
+    "topics": [
+      "publishing",
+      "platform-independence"
+    ],
+    "number": 406
+  },
+  {
     "slug": "why-we-count-days-won",
     "title": "Why we count days won",
     "repo": "chargingthefuture/wiki-site",
@@ -53,22 +69,6 @@ export const ARTICLES: ArticleMeta[] = [
       "skills-economy"
     ],
     "number": 458
-  },
-  {
-    "slug": "old-links-new-links",
-    "title": "Old links, new links",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-11-03",
-    "excerpt": "Seventy-nine accounts erased, twenty-one of them since October 1, and Kingishere-17 is the handle open now. What is live, what is dead, and the one address that never changes.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/old-links-new-links.md",
-    "teaser": "Quora has erased my accounts seventy-nine times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Twenty-one of those came after October 1. The latest ban landed at 10:24 at night on November 3, and the handle now open was opened ten minutes later. This page is the standing record: the live handle, the space, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
-    "topics": [
-      "publishing",
-      "platform-independence"
-    ],
-    "number": 406
   },
   {
     "slug": "Dictionary",
