@@ -14,11 +14,11 @@ regenerate, or the two will disagree and the post is the one that is right.
 151 posts.
 
 ==============================================================================
-2026-11-04 · Old links, new links
+2026-11-10 · Old links, new links
 
-Quora has erased my accounts eighty times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
+Quora has erased my accounts eighty-two times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
 
-There is one handle of mine on Quora, opened in the morning of November 4, 2026, fifty-four minutes after the ban before it. Everything before it is dead.
+There are three handles of mine open on Quora, listed below. Every other handle on this page is dead or retired.
 
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
@@ -34,15 +34,25 @@ To reach me, save this link alongside the blog: https://sleek.bio/farah — it l
 
 Quora: current
 
-The handle: https://www.quora.com/profile/Kingishere-18 — opened at 12:29 in the morning on November 4, 2026, fifty-four minutes after Kingishere-17 was banned.
+The handles:
+
+- https://www.quora.com/profile/Kingisback-4
+- https://www.quora.com/profile/Kingishere-19
+- https://www.quora.com/profile/Kingandyou-1
 
 The space: https://skillseconomy.quora.com
 
-A handle and a space, and nothing else on Quora is me. If another account claims to be, it is not. If an account or space claims to speak for the Skills Economy and is not on this page, it is not me either. Check back here, not on Quora, because this page cannot be edited by anyone but me and every change to it is on the public record.
+Three handles and a space, and nothing else on Quora is me. If another account claims to be, it is not. If an account or space claims to speak for the Skills Economy and is not on this page, it is not me either. Check back here, not on Quora, because this page cannot be edited by anyone but me and every change to it is on the public record.
+
+Quora: retired
+
+https://www.quora.com/profile/Kingishere-18 — opened at 12:29 in the morning on November 4, 2026, fifty-four minutes after Kingishere-17 was banned. Not banned. It has access to https://skillsnetwork.quora.com but no admin rights there, so it is retired and sits dormant. Nothing new goes up from it.
 
 Quora: dead
 
 https://tiskillsnetwork.quora.com — the original space. Replaced by skillseconomy.quora.com above. Links into it are dead.
+
+https://tiswithaplacetostay.quora.com — opened on November 3, 2026, with Kingisback-3. I was locked out of it when Kingisback-3 was banned. Links into it are dead.
 
 https://www.quora.com/profile/pedigree101 — my first handle. Banned by Quora on September 14, 2025, seventeen minutes after I posted the app's first release. The first five handles on this page carry the day they were banned and not the day they were opened; I was not keeping the confirmation notices yet, and they are gone. A ban deletes everything the account ever posted, so all of it went with it.
 
@@ -206,6 +216,12 @@ https://www.quora.com/profile/Kingishere-16 — opened at 9:48 at night on Novem
 
 https://www.quora.com/profile/Kingishere-17 — opened at 10:34 at night on November 3, 2026, ten minutes after Kingishere-16 was banned, and banned by Quora Moderation at 11:35 that night. One hour and one minute.
 
+Two more were banned after these, and neither fits the order above.
+
+https://www.quora.com/profile/Swiftness-8 — opened around the same time as pedigree101, and not used until farah-brunache was banned on August 16, 2026. Banned by Quora on November 4, 2026.
+
+https://www.quora.com/profile/Kingisback-3 — the handle that opened tiswithaplacetostay.quora.com on November 3, 2026. Banned by Quora.
+
 Different every time, same label
 
 Worth recording, because it is the part that settles the question.
@@ -242,7 +258,7 @@ The rule behind all of it
 
 Nothing is written on a platform first anymore. Every post starts here, and platforms only ever get a short version and a link back. So the next time an account is erased — and I assume there will be a next time — the cost is one entry moving from the current list to the dead list on this page. That is all.
 
-Since this page first went up, that has happened seventy-eight times. The list above is current, and Kingishere-18 is the entry waiting to move onto it.
+Since this page first went up, that has happened eighty times. The list above is current, and the three handles open now are the entries waiting to move onto it.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/old-links-new-links
 
