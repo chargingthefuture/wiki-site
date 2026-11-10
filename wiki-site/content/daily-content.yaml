@@ -118,9 +118,9 @@ blurbs:
       Everything I write goes on the blog first. A platform can delete an account in an afternoon; it cannot delete the blog.
   - id: quora-stay-connected
     line: quora
-    link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/old-links-new-links
+    link: https://sleek.bio/farah
     text: |
-      If my account here disappears, the link in my bio still works. One page always lists where I am now.
+      If my account here disappears, the link in my bio still works. It lists everywhere I am, so you can find me again.
   - id: quora-no-filter
     line: quora
     link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-stays-up
@@ -274,12 +274,12 @@ live:
       - Ask what a group does with the people who join it, and who checks them.
   - id: quora-stay-connected
     line: quora
-    link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/old-links-new-links
+    link: https://sleek.bio/farah
     title: How to keep finding me when an account goes
     points:
-      - The link in my bio lists everywhere I am.
+      - The link in my bio, sleek.bio/farah, lists everywhere I am.
       - The blog stays up when an account does not, and it has an RSS feed that needs no account.
-      - One page always lists my current handles.
+      - The old links, new links page on the blog lists my current handles.
   - id: quora-blog-first
     line: quora
     link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/why-nothing-is-written-on-a-platform-first
