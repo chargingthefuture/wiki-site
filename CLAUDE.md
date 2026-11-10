@@ -177,8 +177,9 @@ carries it, because the owner froze that page outright and that freeze has not b
 - Blurbs and live-stream topics for the same screen: `artifacts/wiki/public/daily-content.json`,
   written by `scripts/src/build-daily-content.ts` on `wiki:daily-content`, which both build
   scripts run, from the hand-written `content/daily-content.yaml` (owner request, 2026-11-10).
-  Four lines: Peace Battle 2, the Peace Battle 2 conference, finding skills and One Percent, and
-  why the owner is not on Quora. A blurb is one to three sentences for places a full post does not
+  Five lines: Peace Battle 2, the Peace Battle 2 conference, finding skills and One Percent, why
+  the owner is not on Quora, and staying connected. Staying connected looks inward, at the app and
+  mutual aid (owner directive, 2026-11-10), and was added beside the other four. A blurb is one to three sentences for places a full post does not
   fit; a live topic is a title, three talking points and a page to send viewers to. No plugin
   names, and no two blurbs share wording. The screen offers one blurb per line and one live topic
   a day, so adding an entry to the end of a line changes no earlier day. The build fails on an

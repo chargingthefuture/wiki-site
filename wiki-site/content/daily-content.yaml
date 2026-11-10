@@ -4,12 +4,15 @@
 # Hand-written. scripts/src/build-daily-content.ts checks it and writes
 # artifacts/wiki/public/daily-content.json, which the app reads. Edit this file, never that one.
 #
-# Four lines, and every day carries one blurb from each line and one live topic. The live topic
+# Five lines, and every day carries one blurb from each line and one live topic. The live topic
 # moves through the lines in the order below, one line a day; within a line, blurbs and topics are
 # taken in the order written here. Adding an entry to the end of a line changes nothing already
 # offered on an earlier day.
 #
 # Rules for the copy:
+# - Staying connected looks inward (owner directive, 2026-11-10): the app and mutual aid, what
+#   members can do for each other, with nothing about the targeting or a platform, since the
+#   reader already knows. It was added beside the other four lines, which stay as written.
 # - No plugin names. Design 3.1 says what a person can do, not what a part of the app is called.
 # - A blurb is one to three sentences. It is pasted where a full post does not fit: a TikTok
 #   caption, WhatsApp, Discord, the Commons announcement. The build adds the link line under it.
@@ -26,6 +29,8 @@ lines:
     label: Finding skills, and One Percent
   - id: quora
     label: Why I am not on Quora
+  - id: connected
+    label: Staying connected
 
 blurbs:
   - id: pb2-one-percent
@@ -131,6 +136,32 @@ blurbs:
     link: https://lagatos.com
     text: |
       Never post your phone number or email in a public list, however good the cause sounds. Anybody can read it, and the people targeting you read it first.
+
+  - id: connected-bio
+    line: connected
+    link: https://sleek.bio/farah
+    text: |
+      The link in my bio lists everywhere the Skills Economy is: the app, the blog, the WhatsApp channel and Signal. Save it and you can always find us.
+  - id: connected-blog-feed
+    line: connected
+    link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/follow-without-an-account
+    text: |
+      Everything I write goes on the blog first, and the blog has a feed you can follow with no account at all.
+  - id: connected-channel
+    line: connected
+    link: https://sleek.bio/farah
+    text: |
+      Follow the WhatsApp channel for Peace Battle 2 news, new asks for help, and when I go live. Followers never see each other's numbers.
+  - id: connected-replays
+    line: connected
+    link: https://chargingthefuture.github.io/chargingthefuture/streams
+    text: |
+      Missed a live? Every recorded broadcast is on the blog, free to play with no account.
+  - id: connected-ask-safely
+    line: connected
+    link: https://lagatos.com
+    text: |
+      In the Skills Economy you reach people through the app, so nobody has to post a phone number or email anywhere public.
 
 live:
   - id: pb2-what-is-your-one-percent
@@ -296,3 +327,44 @@ live:
       - Any account can say it is a survivor.
       - Trading with the wrong person costs time, money and the will to try again.
       - What a check one person at a time does instead.
+
+  - id: connected-where
+    line: connected
+    link: https://sleek.bio/farah
+    title: Where to find each other
+    points:
+      - The link in my bio, sleek.bio/farah, lists everything in one place.
+      - The blog, and its feed that needs no account.
+      - The WhatsApp channel for news, and Signal to message me.
+  - id: connected-ask-for-help
+    line: connected
+    link: https://lagatos.com
+    title: How to ask for help without posting your number
+    points:
+      - Post what you need in the app.
+      - People answer you there.
+      - Your phone number and email stay yours.
+  - id: connected-one-trade
+    line: connected
+    link: https://lagatos.com
+    title: Tell us about one trade
+    points:
+      - Ask viewers who helped them this month.
+      - What they gave back, and what it cost them.
+      - How the first trade started.
+  - id: connected-looking-for
+    line: connected
+    link: https://lagatos.com
+    title: Who are you looking for?
+    points:
+      - Ask viewers to name a skill they need.
+      - The app finds people by what they can do.
+      - Read out the asks, and who in the chat could answer them.
+  - id: connected-our-record
+    line: connected
+    link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/follow-without-an-account
+    title: Keeping our own record
+    points:
+      - Every post is on the blog, with copies in the Wayback Machine.
+      - You can follow it with no account.
+      - What viewers would want on the record about what we built.
