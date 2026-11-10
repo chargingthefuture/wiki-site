@@ -10,6 +10,9 @@
 # offered on an earlier day.
 #
 # Rules for the copy:
+# - Inward only (owner directive, 2026-11-10). Every entry is about the app and mutual aid: what
+#   members can do for each other. Nothing explains the targeting, the Specterati or a platform's
+#   behavior; the reader already knows. No names of other people or spaces.
 # - No plugin names. Design 3.1 says what a person can do, not what a part of the app is called.
 # - A blurb is one to three sentences. It is pasted where a full post does not fit: a TikTok
 #   caption, WhatsApp, Discord, the Commons announcement. The build adds the link line under it.
@@ -24,8 +27,8 @@ lines:
     label: Peace Battle 2 conference
   - id: skills
     label: Finding skills, and One Percent
-  - id: quora
-    label: Why I am not on Quora
+  - id: connected
+    label: Staying connected
 
 blurbs:
   - id: pb2-one-percent
@@ -73,7 +76,7 @@ blurbs:
     line: conference
     link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
     text: |
-      Estonia was rebuilt next to a neighbor that never stopped treating it as a target. The Peace Battle 2 conference starts from that: build anyway, together, without waiting to be safe first.
+      Estonia rebuilt itself piece by piece, with people working together over years. The Peace Battle 2 conference starts from that: build together, without waiting to be safe first.
   - id: conference-find-each-other
     line: conference
     link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
@@ -106,31 +109,31 @@ blurbs:
     text: |
       A person is not one job title. The Skills Economy counts what you can do, every skill of it, so the people who need it can find you.
 
-  - id: quora-what-stays-up
-    line: quora
-    link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-stays-up
-    text: |
-      Quora emptied my space and banned my account. Posts telling Targeted Individuals to give up are still up. Posts putting them in touch with each other are gone.
-  - id: quora-blog-first
-    line: quora
-    link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/why-nothing-is-written-on-a-platform-first
-    text: |
-      Everything I write goes on the blog first. A platform can delete an account in an afternoon; it cannot delete the blog.
-  - id: quora-stay-connected
-    line: quora
+  - id: connected-bio
+    line: connected
     link: https://sleek.bio/farah
     text: |
-      If my account here disappears, the link in my bio still works. It lists everywhere I am, so you can find me again.
-  - id: quora-no-filter
-    line: quora
-    link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-stays-up
+      The link in my bio lists everywhere the Skills Economy is: the app, the blog, the WhatsApp channel and Signal. Save it and you can always find us.
+  - id: connected-blog-feed
+    line: connected
+    link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/follow-without-an-account
     text: |
-      A platform gives you no way to tell a survivor from somebody pretending to be one. The Skills Economy checks every person before they can reach anybody.
-  - id: quora-public-lists
-    line: quora
+      Everything I write goes on the blog first, and the blog has a feed you can follow with no account at all.
+  - id: connected-channel
+    line: connected
+    link: https://sleek.bio/farah
+    text: |
+      Follow the WhatsApp channel for Peace Battle 2 news, new asks for help, and when I go live. Followers never see each other's numbers.
+  - id: connected-replays
+    line: connected
+    link: https://chargingthefuture.github.io/chargingthefuture/streams
+    text: |
+      Missed a live? Every recorded broadcast is on the blog, free to play with no account.
+  - id: connected-ask-safely
+    line: connected
     link: https://lagatos.com
     text: |
-      Never post your phone number or email in a public list, however good the cause sounds. Anybody can read it, and the people targeting you read it first.
+      In the Skills Economy you reach people through the app, so nobody has to post a phone number or email anywhere public.
 
 live:
   - id: pb2-what-is-your-one-percent
@@ -146,8 +149,8 @@ live:
     link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
     title: Why the protest has no location
     points:
-      - Traveling, money and a steady connection are exactly what targeting takes away.
-      - A protest people cannot reach protests nothing. This one goes wherever you are.
+      - Most of us cannot travel, and many have no money to spare or no steady connection.
+      - So the protest goes wherever you are, on whatever time you have.
       - What taking part looks like on an ordinary day.
   - id: pb2-small-tasks
     line: pb2
@@ -170,7 +173,7 @@ live:
     link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
     title: Why this takes one generation, maybe two
     points:
-      - Leaving their economy does not happen overnight.
+      - Building our own economy does not happen overnight.
       - What holding on for twenty to forty years asks of a person, and why nobody can do it alone.
       - What a child has if their parent kept going.
 
@@ -203,9 +206,9 @@ live:
     link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/estonia-did-not-get-to-solve-it-either
     title: What Estonia rebuilt, and how
     points:
-      - A small country beside a much larger one that never stopped treating it as a target.
-      - They lived anyway, and built in the one direction that mattered.
-      - This is one source of hope, not a comparison of anyone's trauma.
+      - A small country that rebuilt itself piece by piece.
+      - People working together, over years, on what they could do.
+      - One source of hope, not a comparison of anyone's trauma.
   - id: conference-staying-safe-on-tape
     line: conference
     link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
@@ -236,7 +239,7 @@ live:
     link: https://lagatos.com
     title: Why everybody is checked before they get in
     points:
-      - Trading with somebody pretending to be a survivor burns people out.
+      - You know who you are trading with.
       - The check is one person at a time, and not finishing it costs nobody their account.
       - No contact details are ever posted in public.
   - id: skills-one-percent
@@ -256,43 +259,43 @@ live:
       - Mutual does not mean equal. Give what you can.
       - What came back for people who started that way.
 
-  - id: quora-what-stays-up
-    line: quora
-    link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-stays-up
-    title: What Quora keeps up, and what it takes down
-    points:
-      - My space was emptied and my account banned.
-      - The posts that leave a person alone stay up. The posts that put people in touch go.
-      - An empty space looks like a place nobody came to, which is what it is meant to look like.
-  - id: quora-copies
-    line: quora
-    link: https://lagatos.com
-    title: Copies, and how to tell them apart
-    points:
-      - When a space goes, copies of it appear.
-      - A real one never asks you to post your phone number or email in public.
-      - Ask what a group does with the people who join it, and who checks them.
-  - id: quora-stay-connected
-    line: quora
+  - id: connected-where
+    line: connected
     link: https://sleek.bio/farah
-    title: How to keep finding me when an account goes
+    title: Where to find each other
     points:
-      - The link in my bio, sleek.bio/farah, lists everywhere I am.
-      - The blog stays up when an account does not, and it has an RSS feed that needs no account.
-      - The old links, new links page on the blog lists my current handles.
-  - id: quora-blog-first
-    line: quora
-    link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/why-nothing-is-written-on-a-platform-first
-    title: Why everything goes on the blog first
-    points:
-      - A platform gets a short version and a link back.
-      - A deletion costs that account's reach and nothing else.
-      - The Wayback Machine keeps a copy of every page.
-  - id: quora-no-filter
-    line: quora
+      - The link in my bio, sleek.bio/farah, lists everything in one place.
+      - The blog, and its feed that needs no account.
+      - The WhatsApp channel for news, and Signal to message me.
+  - id: connected-ask-for-help
+    line: connected
     link: https://lagatos.com
-    title: A platform cannot tell you who is real
+    title: How to ask for help without posting your number
     points:
-      - Any account can say it is a survivor.
-      - Trading with the wrong person costs time, money and the will to try again.
-      - What a check one person at a time does instead.
+      - Post what you need in the app.
+      - People answer you there.
+      - Your phone number and email stay yours.
+  - id: connected-one-trade
+    line: connected
+    link: https://lagatos.com
+    title: Tell us about one trade
+    points:
+      - Ask viewers who helped them this month.
+      - What they gave back, and what it cost them.
+      - How the first trade started.
+  - id: connected-looking-for
+    line: connected
+    link: https://lagatos.com
+    title: Who are you looking for?
+    points:
+      - Ask viewers to name a skill they need.
+      - The app finds people by what they can do.
+      - Read out the asks, and who in the chat could answer them.
+  - id: connected-our-record
+    line: connected
+    link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/follow-without-an-account
+    title: Keeping our own record
+    points:
+      - Every post is on the blog, with copies in the Wayback Machine.
+      - You can follow it with no account.
+      - What viewers would want on the record about what we built.
