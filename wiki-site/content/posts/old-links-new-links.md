@@ -215,7 +215,7 @@ https://www.quora.com/profile/Kingisback-3 — opened at 2:02 in the morning on 
 
 One more does not fit the order above.
 
-https://www.quora.com/profile/Swiftness-8 — opened around the same time as pedigree101, and not used until farah-brunache was banned on August 16, 2026. Banned by Quora on November 4, 2026.
+https://www.quora.com/profile/Swiftness-8 — opened around the same time as pedigree101, and not used until farah-brunache was banned on August 16, 2026. Banned by Quora Moderation at 1:28 in the morning on November 4, 2026.
 
 ## Different every time, same label
 
