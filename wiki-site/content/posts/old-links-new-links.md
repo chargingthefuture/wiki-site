@@ -29,8 +29,8 @@ To reach me, save this link alongside the blog: https://sleek.bio/farah — it l
 
 The handles:
 
-- https://www.quora.com/profile/Kingisback-4
-- https://www.quora.com/profile/Kingishere-19
+- https://www.quora.com/profile/Kingisback-4 — opened at 2:04 in the afternoon on November 5, 2026.
+- https://www.quora.com/profile/Kingishere-19 — opened at 2:20 in the afternoon on November 5, 2026.
 - https://www.quora.com/profile/Kingandyou-1 — opened at 2:34 in the afternoon on November 5, 2026.
 
 The space: https://skillseconomy.quora.com
@@ -45,7 +45,7 @@ https://www.quora.com/profile/Kingishere-18 — opened at 12:29 in the morning o
 
 https://tiskillsnetwork.quora.com — the original space. Replaced by skillseconomy.quora.com above. Links into it are dead.
 
-https://tiswithaplacetostay.quora.com — opened on November 3, 2026, with Kingisback-3. I was locked out of it when Kingisback-3 was banned. Links into it are dead.
+https://tiswithaplacetostay.quora.com — opened with Kingisback-3. I was locked out of it when Kingisback-3 was banned on November 4, 2026. Links into it are dead.
 
 https://www.quora.com/profile/pedigree101 — my first handle. Banned by Quora on September 14, 2025, seventeen minutes after I posted the app's first release. The first five handles on this page carry the day they were banned and not the day they were opened; I was not keeping the confirmation notices yet, and they are gone. A ban deletes everything the account ever posted, so all of it went with it.
 
@@ -71,7 +71,7 @@ https://www.quora.com/profile/kingmonk — my eleventh handle, opened on August 
 
 https://www.quora.com/profile/king900 — my twelfth handle, opened on August 28, 2026, the day the eleventh was banned, and banned by Quora Moderation at 5:02 in the morning on August 30, 2026. Two days. The notice arrived twice, a minute apart.
 
-Then sixty-six more, in the order they were opened. I stopped writing the dates down one at a time, because by then a handle lasting a day was ordinary. They are back now, taken from the notices in my mail. One of them, kingpyramid, has its ban and not its opening, and says so; the notice for that one is gone. Every one of these addresses is a dead link somebody may still be holding.
+Then sixty-seven more, in the order they were opened. I stopped writing the dates down one at a time, because by then a handle lasting a day was ordinary. They are back now, taken from the notices in my mail. One of them, kingpyramid, has its ban and not its opening, and says so; the notice for that one is gone. Every one of these addresses is a dead link somebody may still be holding.
 
 https://www.quora.com/profile/kingplaza-1 — opened at 9:01 in the evening on August 30, 2026, the same day king900 was banned before six that morning, and banned the same minute. Both notices are stamped 9:01, the confirmation at 9:01 and 49 seconds. It is the shortest life on this page and nothing else is close.
 
@@ -209,11 +209,11 @@ https://www.quora.com/profile/Kingishere-16 — opened at 9:48 at night on Novem
 
 https://www.quora.com/profile/Kingishere-17 — opened at 10:34 at night on November 3, 2026, ten minutes after Kingishere-16 was banned, and banned by Quora Moderation at 11:35 that night. One hour and one minute.
 
-Two more were banned after these, and neither fits the order above.
+https://www.quora.com/profile/Kingisback-3 — opened at 2:02 in the morning on November 4, 2026, and banned by Quora Moderation at 8:33 that evening. Eighteen and a half hours. The space it opened, tiswithaplacetostay.quora.com, went with it.
+
+One more does not fit the order above.
 
 https://www.quora.com/profile/Swiftness-8 — opened around the same time as pedigree101, and not used until farah-brunache was banned on August 16, 2026. Banned by Quora on November 4, 2026.
-
-https://www.quora.com/profile/Kingisback-3 — the handle that opened tiswithaplacetostay.quora.com on November 3, 2026. Banned by Quora.
 
 ## Different every time, same label
 
