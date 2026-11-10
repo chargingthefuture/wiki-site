@@ -47,7 +47,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/old-links-new-links.md",
-    "teaser": "Quora has erased my accounts eighty-two times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Twenty-four of those came after October 1. The latest ban landed on November 4, and three handles are open now. This page is the standing record: the live handles, the spaces, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
+    "teaser": "Quora has erased my accounts eighty-two times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Twenty-four of those came after October 1. The latest ban landed on November 4, and three handles are open now. This page is the standing record: the live handles, the retired ones, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me.",
     "topics": [
       "publishing",
       "platform-independence"

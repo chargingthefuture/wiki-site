@@ -3,7 +3,7 @@ title: "Old links, new links"
 date: "2026-11-10"
 excerpt: "Eighty-two accounts erased, twenty-four of them since October 1, and three handles open now. What is live, what is dead, and the one address that never changes."
 category: "Community"
-teaser: "Quora has erased my accounts eighty-two times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Twenty-four of those came after October 1. The latest ban landed on November 4, and three handles are open now. This page is the standing record: the live handles, the spaces, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
+teaser: "Quora has erased my accounts eighty-two times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Twenty-four of those came after October 1. The latest ban landed on November 4, and three handles are open now. This page is the standing record: the live handles, the retired ones, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
 topics:
   - publishing
   - platform-independence
@@ -33,17 +33,19 @@ The handles:
 - https://www.quora.com/profile/Kingishere-19 — opened at 2:20 in the afternoon on November 5, 2026.
 - https://www.quora.com/profile/Kingandyou-1 — opened at 2:34 in the afternoon on November 5, 2026.
 
-The space: https://skillseconomy.quora.com
+No space is current.
 
-Three handles and a space, and nothing else on Quora is me. If another account claims to be, it is not. If an account or space claims to speak for the Skills Economy and is not on this page, it is not me either. Check back here, not on Quora, because this page cannot be edited by anyone but me and every change to it is on the public record.
+Three handles, and nothing else on Quora is me. If another account claims to be, it is not. If an account or space claims to speak for the Skills Economy and is not on this page, it is not me either. Check back here, not on Quora, because this page cannot be edited by anyone but me and every change to it is on the public record.
 
 ## Quora: retired
 
-https://www.quora.com/profile/Kingishere-18 — opened at 12:29 in the morning on November 4, 2026, fifty-four minutes after Kingishere-17 was banned. Not banned. It has access to https://skillsnetwork.quora.com but no admin rights there, so it is retired and sits dormant. Nothing new goes up from it.
+https://www.quora.com/profile/Kingishere-18 — opened at 12:29 in the morning on November 4, 2026, fifty-four minutes after Kingishere-17 was banned. Not banned. Retired and dormant. Nothing new goes up from it.
+
+https://skillseconomy.quora.com — the space that replaced tiskillsnetwork.quora.com. Retired: I no longer have admin rights on it, so nothing new goes up there.
 
 ## Quora: dead
 
-https://tiskillsnetwork.quora.com — the original space. Replaced by skillseconomy.quora.com above. Links into it are dead.
+https://tiskillsnetwork.quora.com — the original space. Replaced by skillseconomy.quora.com, retired above. Links into it are dead.
 
 https://tiswithaplacetostay.quora.com — opened with Kingisback-3. I was locked out of it when Kingisback-3 was banned on November 4, 2026. Links into it are dead.
 
