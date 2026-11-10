@@ -1,0 +1,298 @@
+# Daily content: the short posts and live-stream topics the app's Daily Posts screen offers each
+# day, beside the blog posts it already offers (owner request, 2026-11-10).
+#
+# Hand-written. scripts/src/build-daily-content.ts checks it and writes
+# artifacts/wiki/public/daily-content.json, which the app reads. Edit this file, never that one.
+#
+# Four lines, and every day carries one blurb from each line and one live topic. The live topic
+# moves through the lines in the order below, one line a day; within a line, blurbs and topics are
+# taken in the order written here. Adding an entry to the end of a line changes nothing already
+# offered on an earlier day.
+#
+# Rules for the copy:
+# - No plugin names. Design 3.1 says what a person can do, not what a part of the app is called.
+# - A blurb is one to three sentences. It is pasted where a full post does not fit: a TikTok
+#   caption, WhatsApp, Discord, the Commons announcement. The build adds the link line under it.
+# - No two blurbs share wording: the same text on several platforms is what spam detection
+#   catches.
+# - A live topic has a title, three talking points, and the page to point viewers at.
+
+lines:
+  - id: pb2
+    label: Peace Battle 2
+  - id: conference
+    label: Peace Battle 2 conference
+  - id: skills
+    label: Finding skills, and One Percent
+  - id: quora
+    label: Why I am not on Quora
+
+blurbs:
+  - id: pb2-one-percent
+    line: pb2
+    link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
+    text: |
+      Most of your day is taken. Peace Battle 2 asks for the 1% that is left: one small task toward somebody else's goal, and your own goal posted where somebody can help.
+  - id: pb2-no-location
+    line: pb2
+    link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
+    text: |
+      A protest with no location, because the people it is for cannot travel to stand anywhere. You take part from where you are, with whatever time you have.
+  - id: pb2-small-task
+    line: pb2
+    link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
+    text: |
+      Help somebody find a room. Proofread a letter. Make one phone call for somebody who cannot. That is a Peace Battle 2 task, and it counts.
+  - id: pb2-not-alone
+    line: pb2
+    link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
+    text: |
+      You do not have to rebuild everything at once, or do it alone. Post one goal, and put your 1% toward somebody else's.
+  - id: pb2-what-is-yours
+    line: pb2
+    link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
+    text: |
+      What is your 1%? Ten minutes, one skill, one ride. Peace Battle 2 is built out of exactly that.
+
+  - id: conference-call
+    line: conference
+    link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
+    text: |
+      I am putting together an online conference of Targeted Individuals talking about their skills and what they are working on. Talks are recorded at home, 15 minutes or more, video or audio only.
+  - id: conference-why-recorded
+    line: conference
+    link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
+    text: |
+      No travel, no ticket, no fixed time. The Peace Battle 2 conference is recorded talks, put together into one day that anybody can watch from anywhere.
+  - id: conference-rebuild
+    line: conference
+    link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
+    text: |
+      The conference has one subject: rebuilding a life piece by piece, with other people beside you. If you have a skill or a project, there is room for your talk.
+  - id: conference-estonia
+    line: conference
+    link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
+    text: |
+      Estonia was rebuilt next to a neighbor that never stopped treating it as a target. The Peace Battle 2 conference starts from that: build anyway, together, without waiting to be safe first.
+  - id: conference-find-each-other
+    line: conference
+    link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
+    text: |
+      Each talk says what one person can do and what they are working on. Listen, and you may find the person you can trade with or the friend you were missing.
+
+  - id: skills-who-can-help
+    line: skills
+    link: https://lagatos.com
+    text: |
+      The Skills Economy is a free app where Targeted Individuals find each other by what they can do, and trade skills, rides, rooms and help between themselves.
+  - id: skills-gap
+    line: skills
+    link: https://lagatos.com
+    text: |
+      See which skills the community already has and which ones are missing. What is missing is where your skill counts most.
+  - id: skills-checked
+    line: skills
+    link: https://lagatos.com
+    text: |
+      Everybody in the Skills Economy is let in one at a time, after a check. Nobody's phone number or email is posted where anybody can read it.
+  - id: skills-one-percent
+    line: skills
+    link: https://lagatos.com
+    text: |
+      Everything in the Skills Economy is free and you can do it yourself. One Percent is for when you want more: time with me, working on your own situation.
+  - id: skills-by-skill
+    line: skills
+    link: https://lagatos.com
+    text: |
+      A person is not one job title. The Skills Economy counts what you can do, every skill of it, so the people who need it can find you.
+
+  - id: quora-what-stays-up
+    line: quora
+    link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-stays-up
+    text: |
+      Quora emptied my space and banned my account. Posts telling Targeted Individuals to give up are still up. Posts putting them in touch with each other are gone.
+  - id: quora-blog-first
+    line: quora
+    link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/why-nothing-is-written-on-a-platform-first
+    text: |
+      Everything I write goes on the blog first. A platform can delete an account in an afternoon; it cannot delete the blog.
+  - id: quora-stay-connected
+    line: quora
+    link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/old-links-new-links
+    text: |
+      If my account here disappears, the link in my bio still works. One page always lists where I am now.
+  - id: quora-no-filter
+    line: quora
+    link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-stays-up
+    text: |
+      A platform gives you no way to tell a survivor from somebody pretending to be one. The Skills Economy checks every person before they can reach anybody.
+  - id: quora-public-lists
+    line: quora
+    link: https://lagatos.com
+    text: |
+      Never post your phone number or email in a public list, however good the cause sounds. Anybody can read it, and the people targeting you read it first.
+
+live:
+  - id: pb2-what-is-your-one-percent
+    line: pb2
+    link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
+    title: What is your 1%?
+    points:
+      - Most of a Targeted Individual's day is spent getting through it. The 1% is what is left.
+      - Peace Battle 2 asks for that 1% only, put toward somebody else's goal.
+      - Say your own 1% on the stream, and post one goal somebody else can help with.
+  - id: pb2-why-virtual
+    line: pb2
+    link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
+    title: Why the protest has no location
+    points:
+      - Traveling, money and a steady connection are exactly what targeting takes away.
+      - A protest people cannot reach protests nothing. This one goes wherever you are.
+      - What taking part looks like on an ordinary day.
+  - id: pb2-small-tasks
+    line: pb2
+    link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
+    title: Small tasks that count
+    points:
+      - A small task is one somebody can finish in a sitting.
+      - Finding a room, a ride, a form filled in, a phone call made for somebody.
+      - Small tasks finished every day add up to a life rebuilt.
+  - id: pb2-post-a-goal
+    line: pb2
+    link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
+    title: How to post a goal somebody can help with
+    points:
+      - A goal says what you want done, not how you feel about it.
+      - Break it into tasks a stranger could pick up.
+      - Read out goals viewers post in the chat, and the first task in each.
+  - id: pb2-two-generations
+    line: pb2
+    link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
+    title: Why this takes one generation, maybe two
+    points:
+      - Leaving their economy does not happen overnight.
+      - What holding on for twenty to forty years asks of a person, and why nobody can do it alone.
+      - What a child has if their parent kept going.
+
+  - id: conference-speakers-wanted
+    line: conference
+    link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
+    title: Speakers wanted for the Peace Battle 2 conference
+    points:
+      - A talk of 15 minutes or more, recorded at home, video or audio only.
+      - Any subject tied to your skills or your work. Go by your first name or handle if you like.
+      - How to send it, and what happens to it once it arrives.
+  - id: conference-what-would-you-say
+    line: conference
+    link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
+    title: What would you talk about for 15 minutes?
+    points:
+      - Ask viewers what skill or project they would talk about.
+      - A talk does not need slides or a script. It needs one thing you know well.
+      - Anybody whose answer could be a talk gets the invitation after the stream.
+  - id: conference-avenhood
+    line: conference
+    link: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary
+    title: Avenhood
+    points:
+      - A people spread across borders, sharing skills and building lives outside exploitation.
+      - It does not wait for the world to become safe first.
+      - What one Aven can do for another this week.
+  - id: conference-estonia
+    line: conference
+    link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/estonia-did-not-get-to-solve-it-either
+    title: What Estonia rebuilt, and how
+    points:
+      - A small country beside a much larger one that never stopped treating it as a target.
+      - They lived anyway, and built in the one direction that mattered.
+      - This is one source of hope, not a comparison of anyone's trauma.
+  - id: conference-staying-safe-on-tape
+    line: conference
+    link: https://chargingthefuture.github.io/chargingthefuture/peace-battle-2
+    title: Recording a talk without giving yourself away
+    points:
+      - Leave out your phone number, your email and anything that shows where you live.
+      - Audio only is welcome.
+      - A talk comes down if the speaker later asks for that.
+
+  - id: skills-what-can-you-do
+    line: skills
+    link: https://lagatos.com
+    title: What can you do?
+    points:
+      - Every skill counts, including the ones nobody pays for.
+      - Ask viewers to name one thing they can do, and one thing they need.
+      - Read out the matches between what people named.
+  - id: skills-the-gap
+    line: skills
+    link: https://lagatos.com
+    title: The skills we have, and the ones missing
+    points:
+      - The app shows which skills the community already has.
+      - The missing ones are where a new person counts the most.
+      - Which missing skill a viewer could learn this year.
+  - id: skills-why-checked
+    line: skills
+    link: https://lagatos.com
+    title: Why everybody is checked before they get in
+    points:
+      - Trading with somebody pretending to be a survivor burns people out.
+      - The check is one person at a time, and not finishing it costs nobody their account.
+      - No contact details are ever posted in public.
+  - id: skills-one-percent
+    line: skills
+    link: https://lagatos.com
+    title: When you want more than doing it yourself
+    points:
+      - Everything in the Skills Economy is free, and doing it yourself is complete.
+      - One Percent is my own time, working on one person's situation.
+      - What a session looks like.
+  - id: skills-first-trade
+    line: skills
+    link: https://lagatos.com
+    title: Your first trade
+    points:
+      - Start small. A ride, an hour of help, a pair of socks.
+      - Mutual does not mean equal. Give what you can.
+      - What came back for people who started that way.
+
+  - id: quora-what-stays-up
+    line: quora
+    link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-stays-up
+    title: What Quora keeps up, and what it takes down
+    points:
+      - My space was emptied and my account banned.
+      - The posts that leave a person alone stay up. The posts that put people in touch go.
+      - An empty space looks like a place nobody came to, which is what it is meant to look like.
+  - id: quora-copies
+    line: quora
+    link: https://lagatos.com
+    title: Copies, and how to tell them apart
+    points:
+      - When a space goes, copies of it appear.
+      - A real one never asks you to post your phone number or email in public.
+      - Ask what a group does with the people who join it, and who checks them.
+  - id: quora-stay-connected
+    line: quora
+    link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/old-links-new-links
+    title: How to keep finding me when an account goes
+    points:
+      - The link in my bio lists everywhere I am.
+      - The blog stays up when an account does not, and it has an RSS feed that needs no account.
+      - One page always lists my current handles.
+  - id: quora-blog-first
+    line: quora
+    link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/why-nothing-is-written-on-a-platform-first
+    title: Why everything goes on the blog first
+    points:
+      - A platform gets a short version and a link back.
+      - A deletion costs that account's reach and nothing else.
+      - The Wayback Machine keeps a copy of every page.
+  - id: quora-no-filter
+    line: quora
+    link: https://lagatos.com
+    title: A platform cannot tell you who is real
+    points:
+      - Any account can say it is a survivor.
+      - Trading with the wrong person costs time, money and the will to try again.
+      - What a check one person at a time does instead.
