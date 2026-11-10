@@ -31,7 +31,7 @@ The handles:
 
 - https://www.quora.com/profile/Kingisback-4
 - https://www.quora.com/profile/Kingishere-19
-- https://www.quora.com/profile/Kingandyou-1
+- https://www.quora.com/profile/Kingandyou-1 — opened at 2:34 in the afternoon on November 5, 2026.
 
 The space: https://skillseconomy.quora.com
 
