@@ -760,13 +760,22 @@ alone on its line so it copies by itself on a phone, and without `.mp3`, which t
 saves; neither is pasted into the tool. Regenerate it whenever a post from 2026-08-16 on is published or
 edited.
 
-## Link the Plugins a Post Names (owner decision, 2026-08-20)
+## No App Footer in New Posts (owner decision, 2026-11-10)
 
-Version 3 of the app launched in June 2026. Any post dated on or after 2026-06-01 that speaks
-about a part of the app must link that part directly, plus its guide section. A post that names a
-capability and makes the reader go find it costs readers — they search, do not find it, and leave.
+The app is on design 3.1, which no longer names its parts: a plugin name is one more thing for a
+newcomer to learn. So a post published from 2026-11-10 on has no "Where to find it in the app"
+section and names no plugin. It says what a reader can do in the Skills Economy (find somebody
+with a skill, keep a record, get a ride or a place to stay, put their 1% toward somebody's goal)
+and links the page that does it where a link helps, with the sign-up block at the end as before.
 
-Every such post ends with this section, placed immediately before the sign-up block:
+Posts published before that day keep their section exactly as it is. Do not remove it, reword
+it, or add one to a post that lacks it: the guide and the 3.0 design both still answer those
+links. The `paste-sheet-tts.ts` and `check-app-address.ts` handling of the section stays for
+those posts.
+
+Earlier rule, kept for reading the older posts (owner decision, 2026-08-20): any post dated
+2026-06-01 to 2026-11-09 that spoke about a part of the app ended with this section, immediately
+before the sign-up block, one item per part in the order the post raised them:
 
 ```
 ## Where to find it in the app
@@ -774,11 +783,7 @@ Every such post ends with this section, placed immediately before the sign-up bl
 - [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
 ```
 
-One list item per part, in the order the post raises them. Link the part even when the post only
-describes it rather than naming it — a post that mentions "a vetted ride" links TrustTransport,
-because that is what the reader will go looking for.
-
-URLs:
+Addresses, for a link in a new post or a fix to an old one:
 
 | Part | Address |
 |---|---|
@@ -792,22 +797,6 @@ runs there alongside 3.1 at lagatos.com, so an old link lands a reader in the ol
 failing. Every published post was moved to lagatos.com on 2026-11-03, except `content/archive/`
 and the frozen manifesto, and `pnpm wiki:app-address` fails CI on any app or landing link to
 chargingthefuture.com outside those two. The RSS reader moved too, to rss.lagatos.com; counter. did not move.
-
-Every part has a guide section as of 2026-09-23 — all twenty-eight: beacon, bug-reporting, chyme,
-click-log, commons, contributions, directory, fireside, foundation, gdp, knowledge, skill-up,
-lighthouse, mood, mutual-time, peer-programming, reader, recurring-activity, service-credits,
-skills-hunt, skills-taxonomy, socket-relay, ti-radio, trust, trust-transport, unlock, what-works,
-workforce. The list is
-generated from `ctf/packages/web/app/guide/guide-content.json` in the product repo — check it
-rather than guessing, because a new part arrives before its section does. A part with no section
-gets the plugin link alone; never invent an anchor, since a wrong one lands the reader on the
-guide's top with no explanation.
-
-Snapshot posts get the section too (owner decision, 2026-08-20). Adding links changes none of a
-snapshot's numbers or wording, and its claims are exactly what makes a reader want to go check
-the data — so the links belong there most. A snapshot's date does not move when they are added;
-only living pages bump their date. The one page that stays untouched is the manifesto
-(`The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP.md`), which the owner froze outright.
 
 ## Sign-Up Line in Posts (owner decision, 2026-08-18)
 
