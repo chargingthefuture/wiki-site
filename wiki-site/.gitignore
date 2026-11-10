@@ -18,6 +18,7 @@ artifacts/wiki/public/feed.xml
 artifacts/wiki/public/readings.json
 artifacts/wiki/public/pb2-messages.json
 artifacts/wiki/public/posts.json
+artifacts/wiki/public/daily-content.json
 
 
 # Local counter database from `pnpm counter:dev`. The real one lives on the

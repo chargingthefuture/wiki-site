@@ -174,6 +174,16 @@ carries it, because the owner froze that page outright and that freeze has not b
   2026-11-02). Nothing on the site links to it. Build output like the feed: gitignored, never
   hand-edited.
 
+- Blurbs and live-stream topics for the same screen: `artifacts/wiki/public/daily-content.json`,
+  written by `scripts/src/build-daily-content.ts` on `wiki:daily-content`, which both build
+  scripts run, from the hand-written `content/daily-content.yaml` (owner request, 2026-11-10).
+  Four lines: Peace Battle 2, the Peace Battle 2 conference, finding skills and One Percent, and
+  why the owner is not on Quora. A blurb is one to three sentences for places a full post does not
+  fit; a live topic is a title, three talking points and a page to send viewers to. No plugin
+  names, and no two blurbs share wording. The screen offers one blurb per line and one live topic
+  a day, so adding an entry to the end of a line changes no earlier day. The build fails on an
+  entry the screen could not use. Build output: gitignored, never hand-edited — edit the YAML.
+
 ## Commands (run from `wiki-site/`)
 
 | Command | Action |
@@ -187,6 +197,7 @@ carries it, because the owner froze that page outright and that freeze has not b
 | `pnpm wiki:paste-tts` | Regenerate the text-to-speech paste sheet `TTS_PASTE_SHEET.txt` |
 | `pnpm wiki:readings` | Regenerate the recorded-readings list at `artifacts/wiki/public/readings.json` (both build scripts run this) |
 | `pnpm wiki:posts-json` | Regenerate the Daily Posts list at `artifacts/wiki/public/posts.json` (both build scripts run this) |
+| `pnpm wiki:daily-content` | Check `content/daily-content.yaml` and write `artifacts/wiki/public/daily-content.json` (both build scripts run this) |
 | `pnpm wiki:pb2` | Regenerate the Peace Battle 2 share messages at `artifacts/wiki/public/pb2-messages.json` (both build scripts run this) |
 | `pnpm wiki:old-links apply --banned TIME` / `--handle URL --opened TIME` | Record a Quora ban and/or a new handle on `old-links-new-links.md`, with its update paste; then `wiki:sync`, `wiki:old-links place`, the full and TTS sheets |
 | `pnpm wiki:sync:dry` | Preview sync changes |
