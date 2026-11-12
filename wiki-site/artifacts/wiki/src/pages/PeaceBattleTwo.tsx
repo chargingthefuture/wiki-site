@@ -3,6 +3,7 @@ import { Link } from "wouter";
 import { Phone, Target, ArrowRight } from "lucide-react";
 import { Layout } from "@/components/Layout";
 import { Pb2ShareMessage } from "@/components/Pb2ShareMessage";
+import { Pb2ConferenceInvite } from "@/components/Pb2ConferenceInvite";
 
 /**
  * The Peace Battle 2 page: /peace-battle-2, with /pb2 resolving to it.
@@ -210,6 +211,8 @@ export default function PeaceBattleTwo() {
         <div className="mb-14">
           <Countdown />
         </div>
+
+        <Pb2ConferenceInvite />
 
         <h2 className="font-display text-3xl text-primary mb-4 font-medium">Why it has a name</h2>
         <div className="font-sans text-lg text-gray-300 space-y-4 mb-12">
