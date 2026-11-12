@@ -7,8 +7,8 @@
 #
 # `pool` is the set that is offered, in the order written. Only those ids are built; the rest stay
 # here, unoffered, nothing deleted. Three topics and no others for now (owner directive,
-# 2026-10-03, a narrowed marketing plan): Peace Battle 2 itself, One Percent, and PeerProgramming's
-# goal board. A reader handed twenty-eight parts in rotation is handed a catalog; three topics say
+# 2026-10-03, a narrowed marketing plan): Peace Battle 2 itself, One Percent, and asks on
+# Today (the app's home page, which replaced the PeerProgramming goal board in 3.1). A reader handed twenty-eight parts in rotation is handed a catalog; three topics say
 # one thing, and a reader who follows one finds the rest of the app on their own. Fourteen posts
 # across the three, each a different angle, so a reader sees two weeks before a repeat: the protest
 # runs for years. Widen the topics only on the owner's say.
@@ -197,12 +197,13 @@ messages:
       A community spread across the world spends a lot of effort on this otherwise.
 
   - id: peer-programming
-    feature: PeerProgramming
-    title: A goal board for the part of the day that is left
+    feature: Today
+    title: Asks for the part of the day that is left
+    link: https://app.lagatos.com/today
     body: |-
       Most of a Targeted Individual's day goes to the attacks and to what they force. What is left might be five percent, and five percent is not enough to reach a goal alone. Twenty members with five percent of a day each is a full working day.
 
-      PeerProgramming opens on a goal board built for that. Post one personal goal with a finish line and break it into tasks small enough to do from a phone in under half an hour. Take any one card from anybody else's goal, do it, and post what you found. A bad day costs nothing: take a card when you have the half hour, and not when you do not. Alongside it there is an optional chat and calls.
+      Today, the app's home page, is built for that. Post what you are working toward as an ask, in parts small enough to do from a phone in under half an hour. Open anybody else's ask, do one part, and post what you found inside it. A bad day costs nothing: pick up a part when you have the half hour, and not when you do not.
 
   - id: pb2-name
     feature: Peace Battle 2
@@ -241,40 +242,40 @@ messages:
       Targeting is spread across every country, race, class and religion, so the answer is distributed too. Peace Battle 2 began on September 18, 2026, runs for years, and costs nothing but the minutes you give it.
 
   - id: pp-one-card
-    feature: PeerProgramming
-    title: One card, from a phone, in under half an hour
-    link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/show-up-with-your-percent
+    feature: Today
+    title: One part, from a phone, in under half an hour
+    link: https://app.lagatos.com/today
     body: |-
-      On the PeerProgramming goal board, a card is one small task from somebody else's goal. Find three yards hiring near Dallas and add their numbers. Find three campers under six thousand dollars within two hundred miles of Tulsa. Ask one dealer whether they finance with no credit check.
+      On Today, an ask can be broken into small parts. Find three yards hiring near Dallas and add their numbers. Find three campers under six thousand dollars within two hundred miles of Tulsa. Ask one dealer whether they finance with no credit check.
 
-      You pick any one card, do it, post what you found, and it moves to Done with your name on it. One card is plenty.
+      You pick any one part of somebody else's ask, do it, and post what you found inside the ask. One part is plenty.
 
   - id: pp-bad-day
-    feature: PeerProgramming
+    feature: Today
     title: A bad day costs nothing
-    link: https://app.lagatos.com/guide#peer-programming
+    link: https://app.lagatos.com/today
     body: |-
       A goal is a chain of small steps, and the attacks land on the chain. A step gets missed, the order breaks, and it starts over.
 
-      The PeerProgramming goal board breaks the chain into cards other people can carry. You take a card when you have the half hour, and you do not when you do not. Nobody is waiting on you, and the goal keeps moving.
+      An ask on Today breaks the chain into parts other people can carry. You pick up a part when you have the half hour, and you do not when you do not. Nobody is waiting on you, and the goal keeps moving.
 
   - id: pp-it-helped
-    feature: PeerProgramming
+    feature: Today
     title: Who decides it helped
-    link: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/show-up-with-your-percent
+    link: https://app.lagatos.com/today
     body: |-
-      Somebody posts a goal and breaks it into small tasks. You take one, do it, and post what you found. Then the person whose goal it is says whether it helped.
+      Somebody posts an ask and breaks it into small parts. You take one, do it, and post what you found. Then the person who asked says whether it helped.
 
-      If they say it did, it counts, for you and for the day's tally of members who did something for another member. If they keep it without saying so, or send it back, it does not. The person who asked is the only one who knows, so they decide.
+      If they say it did, it counts. If they do not, it does not. The person who asked is the only one who knows, so they decide.
 
   - id: pp-no-chat
-    feature: PeerProgramming
-    title: No conversation on the board, on purpose
-    link: https://app.lagatos.com/guide#peer-programming
+    feature: Today
+    title: No group chat, on purpose
+    link: https://app.lagatos.com/today
     body: |-
       Group chats for this have been tried three ways and none of them held. Who shows up depends on how hard the day was, so the chat is a different room every time, and it slides from doing into comparing notes about the attacks, which already have most of the day.
 
-      The PeerProgramming goal board holds a goal, its cards, and their results, and nothing else can be written there. The weekly sessions and the call are still in PeerProgramming, and they are optional.
+      Today has no group chat and no direct messages. Each ask carries its own conversation about that ask, and quick answers in place of most comments: I can help, I know someone, This helped me.
 
   - id: op-figure
     feature: One Percent
