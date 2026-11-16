@@ -20,7 +20,7 @@ Katie Larkin (https://www.quora.com/profile/Katie-Larkin-53) is one to follow. S
 
 She is also listed in the Skills Economy Directory (https://app.lagatos.com/apps/directory/profile/ff53daa9-82b4-4c8f-bc77-b9dbe1dd949d). Viewing the Directory needs a sign-in.
 
-I asked her, in the US-PSYOPS-TARGETED-INDIVIDUALS space, about a comment she had made on people in India protesting about DEWs, Directed Energy Weapons (see the [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary)). She answered with a book.
+I asked her, from my Quora handle Kingishere (https://www.quora.com/profile/Kingishere-21), in the US-PSYOPS-TARGETED-INDIVIDUALS space, about a comment she had made on people in India protesting about DEWs, Directed Energy Weapons (see the [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary)). She answered with a book.
 
 ![Katie Larkin's reply on Quora, November 16, 2026: "There's a man from India that has wrote a book." Below it, a link preview for the book Coping with Remote Neural Monitoring & Organized Stalking by Bedanta Bora, subtitled The Mastermind's Game. Then: "I hope the link sends through for you. I intend to order it. That's how I learned about how bad the issue was there. There's also Facebook pages that I saw about the issue if you can search them on there regarding both India and Thailand. Unfortunately I'm not on facebook so I can't send you any links. I hope this helps." Below it, Farah Brunache, as Kingishere, replies: "What is the link to your petition so I can share it within the Skills Economy app."](images/katie-larkin-comment-2026-11-16.jpg)
 
