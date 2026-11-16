@@ -37,7 +37,7 @@ That is not a reason to stop talking to them. It is a reason not to make the nex
 
 They do not need convincing, which leaves the record free to do something else. In [ClickLog](https://app.lagatos.com/apps/click-log), an entry you choose to share joins a trend view of what members report, and that view shows what no private log can: the same experience, filed by different people in different places, and which named schemes keep arriving with it. [The record has started](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/clicklog-the-record-has-started) shows what the first entries in it look like. Your notes are not shown to anyone else, and names belong in your own record, not on a shared page.
 
-And the [Commons](https://app.lagatos.com), the group chat in the app, is a room of people who do not need the first hour spent on whether it is happening.
+And the [Commons](https://app.lagatos.com/commons), the group chat in the app, is a room of people who do not need the first hour spent on whether it is happening.
 
 ## Where to find it in the app
 

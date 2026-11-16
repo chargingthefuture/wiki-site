@@ -88,7 +88,7 @@ That is not a defense against being watched. Nothing is. It is a way of being wo
 ## Where to find it in the app
 
 - [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
-- [Commons](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Commons](https://app.lagatos.com/commons) — [guide](https://app.lagatos.com/guide#commons)
 
 The named schemes, including the sensitization ones, are public: [lagatos.com/schemes](https://lagatos.com/schemes).
 

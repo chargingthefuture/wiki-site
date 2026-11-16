@@ -44,7 +44,7 @@ That is what an economy of survivors is for, and it is why this project is an ec
 
 The first step costs nothing and needs no account, and it matters because a person at this stage has usually been talked at for years by people with an interest in what they believe.
 
-The [Commons](https://app.lagatos.com) — the group chat — reads without signing in. So does the [conversation under every post on this blog](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/you-can-talk-under-these-posts-now). [TI Radio](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/ti-radio) publishes a week of live discussions that survivors host, in your own timezone, and reading the schedule needs no account either; the discussions happen in Chyme, where you can listen without speaking and without a camera.
+The [Commons](https://app.lagatos.com/commons) — the group chat — reads without signing in. So does the [conversation under every post on this blog](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/you-can-talk-under-these-posts-now). [TI Radio](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/ti-radio) publishes a week of live discussions that survivors host, in your own timezone, and reading the schedule needs no account either; the discussions happen in Chyme, where you can listen without speaking and without a camera.
 
 A voice in a room, from somebody who is not part of what is being done to you, is not a small thing at this stage. It is the first arrangement that does not run through them.
 

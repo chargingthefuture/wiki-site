@@ -802,7 +802,7 @@ Addresses, for a link in a new post or a fix to an old one:
 | Most plugins | `https://app.lagatos.com/apps/<slug>` |
 | Knowledge Library | `https://app.lagatos.com/knowledge` |
 | Unlock | `https://app.lagatos.com/plugin/unlock` |
-| Commons (the group chat) | `https://app.lagatos.com` |
+| Commons (the group chat) | `https://app.lagatos.com/commons` |
 
 There is no redirect from chargingthefuture.com (owner decision, 2026-11-03): the 3.0 design still
 runs there alongside 3.1 at lagatos.com, so an old link lands a reader in the old design instead of
