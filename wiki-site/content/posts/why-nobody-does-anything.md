@@ -46,7 +46,7 @@ But there have been times when people chose to build alongside it rather than sp
 
 The people doing something about it are mostly the people it is being done to.
 
-The [Commons](https://app.lagatos.com) is a group chat of other Targeted Individuals, in the app. Nobody there needs the first hour spent on whether it is happening.
+The [Commons](https://app.lagatos.com/commons) is a group chat of other Targeted Individuals, in the app. Nobody there needs the first hour spent on whether it is happening.
 
 Most of the damage is material: a job, a home, money that does not stretch. The [Directory](https://app.lagatos.com/apps/directory) lists people and what they can do, and [Foundation](https://app.lagatos.com/apps/foundation) is where members offer and exchange that help: a repair, a ride, a room, an hour of a trade you do not have.
 

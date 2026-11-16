@@ -30,7 +30,7 @@ Aaron asked on Quora:
 
 > I've been a victim of gang stalking for almost decade…I'm rather clever, smart, observant and highly angry instead of scared. Despite my efforts, the damage/stress and heartache is killing me. I need help desperately. Where to go for help?
 
-I answered it in [Where to go for help](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/where-to-go-for-help). The short version: help comes from people. Other Targeted Individuals who believe you without an argument first, in the [Commons](https://app.lagatos.com). People who can do the things a week runs on. And a dated record that stays yours.
+I answered it in [Where to go for help](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/where-to-go-for-help). The short version: help comes from people. Other Targeted Individuals who believe you without an argument first, in the [Commons](https://app.lagatos.com/commons). People who can do the things a week runs on. And a dated record that stays yours.
 
 ## Where the listing comes in
 

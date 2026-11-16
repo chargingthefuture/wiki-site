@@ -1289,7 +1289,7 @@ This is the largest of the four and the slowest, which is why it is third. It is
 
 4. Stay connected, especially when it is quiet
 
-A quiet stretch is when people drift into having nobody, and a name on the list is not taken off. Commons (https://app.lagatos.com) is the group chat, full of people who do not need it explained. Where to go for help (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/where-to-go-for-help) lists who helps with what.
+A quiet stretch is when people drift into having nobody, and a name on the list is not taken off. Commons (https://app.lagatos.com/commons) is the group chat, full of people who do not need it explained. Where to go for help (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/where-to-go-for-help) lists who helps with what.
 
 Why this order
 
@@ -1577,7 +1577,7 @@ To other survivors
 
 They do not need convincing, which leaves the record free to do something else. In ClickLog (https://app.lagatos.com/apps/click-log), an entry you choose to share joins a trend view of what members report, and that view shows what no private log can: the same experience, filed by different people in different places, and which named schemes keep arriving with it. The record has started (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/clicklog-the-record-has-started) shows what the first entries in it look like. Your notes are not shown to anyone else, and names belong in your own record, not on a shared page.
 
-And the Commons (https://app.lagatos.com), the group chat in the app, is a room of people who do not need the first hour spent on whether it is happening.
+And the Commons (https://app.lagatos.com/commons), the group chat in the app, is a room of people who do not need the first hour spent on whether it is happening.
 
 Where to find it in the app
 
@@ -1976,7 +1976,7 @@ The part of the question about exposing it is real, and the answer is smaller an
 
 Nobody I know has made it stop by exposing it, and what can be stopped (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-can-be-stopped) is what it costs you. What one person can produce is a dated record, kept as it happens, over months. A single report carries one incident; a record carries the pattern, and the pattern is the only thing an outsider has ever found persuasive. ClickLog (https://app.lagatos.com/apps/click-log) takes about fifteen seconds an incident, and the shared totals, with nobody's notes and nobody's location, are published for anybody to use.
 
-That is also where directed energy attacks belong. There is a list of every kind (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/dew-attack-types), built so each one can be logged under its own name, and survivors add to it in the Commons (https://app.lagatos.com). I do not have a defense against them to offer, and I am not going to write one I do not have. What I have is a way to make them count in a record that nobody can tell you is in your head.
+That is also where directed energy attacks belong. There is a list of every kind (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/dew-attack-types), built so each one can be logged under its own name, and survivors add to it in the Commons (https://app.lagatos.com/commons). I do not have a defense against them to offer, and I am not going to write one I do not have. What I have is a way to make them count in a record that nobody can tell you is in your head.
 
 So: unite around what you can do for each other, defend yourselves with the method they use, and keep the record. Who is behind it can stay an open question. It has been one for centuries, and nobody needs it answered to do any of the three.
 
@@ -1984,7 +1984,7 @@ Where to find it in the app
 
 - Directory (https://app.lagatos.com/apps/directory) — guide (https://app.lagatos.com/guide#directory)
 - ClickLog (https://app.lagatos.com/apps/click-log) — guide (https://app.lagatos.com/guide#click-log)
-- Commons (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
@@ -2081,7 +2081,7 @@ Where to find it in the app
 - Workforce (https://app.lagatos.com/apps/workforce) — guide (https://app.lagatos.com/guide#workforce)
 - Directory (https://app.lagatos.com/apps/directory) — guide (https://app.lagatos.com/guide#directory)
 - PeerProgramming goal board (https://app.lagatos.com/apps/peer-programming?tab=goals) — guide (https://app.lagatos.com/guide#peer-programming)
-- Commons (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
@@ -2156,7 +2156,7 @@ The board works before the marketplace does. "Help me find a room" is a card any
 
 3. Ask the Commons, or @comic
 
-For anything that is not on the board, ask in the Commons (https://app.lagatos.com), the shared chat you land on when you sign in.
+For anything that is not on the board, ask in the Commons (https://app.lagatos.com/commons), the shared chat you land on when you sign in.
 
 Or start a message with @comic and ask the assistant in that chat. It answers from the Knowledge Library: my writing on Quora and this blog, and writing other members have added. A person reads every answer before you see it, so the first thing you get is a note that it is being reviewed, and the answer follows once it is approved.
 
@@ -2660,7 +2660,7 @@ Who is doing something
 
 The people doing something about it are mostly the people it is being done to.
 
-The Commons (https://app.lagatos.com) is a group chat of other Targeted Individuals, in the app. Nobody there needs the first hour spent on whether it is happening.
+The Commons (https://app.lagatos.com/commons) is a group chat of other Targeted Individuals, in the app. Nobody there needs the first hour spent on whether it is happening.
 
 Most of the damage is material: a job, a home, money that does not stretch. The Directory (https://app.lagatos.com/apps/directory) lists people and what they can do, and Foundation (https://app.lagatos.com/apps/foundation) is where members offer and exchange that help: a repair, a ride, a room, an hour of a trade you do not have.
 
@@ -2765,7 +2765,7 @@ If you are thinking of reporting it, Who to report it to (https://chargingthefut
 
 Not on your own
 
-The Commons (https://app.lagatos.com) is a group chat of other Targeted Individuals, in the app. Nobody there needs the first hour spent on whether it is happening.
+The Commons (https://app.lagatos.com/commons) is a group chat of other Targeted Individuals, in the app. Nobody there needs the first hour spent on whether it is happening.
 
 Where to find it in the app
 
@@ -2799,7 +2799,7 @@ Aaron asked on Quora:
 
 I've been a victim of gang stalking for almost decade…I'm rather clever, smart, observant and highly angry instead of scared. Despite my efforts, the damage/stress and heartache is killing me. I need help desperately. Where to go for help?
 
-I answered it in Where to go for help (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/where-to-go-for-help). The short version: help comes from people. Other Targeted Individuals who believe you without an argument first, in the Commons (https://app.lagatos.com). People who can do the things a week runs on. And a dated record that stays yours.
+I answered it in Where to go for help (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/where-to-go-for-help). The short version: help comes from people. Other Targeted Individuals who believe you without an argument first, in the Commons (https://app.lagatos.com/commons). People who can do the things a week runs on. And a dated record that stays yours.
 
 Where the listing comes in
 
@@ -2849,7 +2849,7 @@ Anger at what is being done is a sane response to it. Ten years of damage, stres
 
 People who believe you
 
-The Commons (https://app.lagatos.com) is a group chat of other Targeted Individuals, in the app. Nobody there needs the first hour of a conversation spent on whether it is happening, and nobody needs you to be calm before they will listen.
+The Commons (https://app.lagatos.com/commons) is a group chat of other Targeted Individuals, in the app. Nobody there needs the first hour of a conversation spent on whether it is happening, and nobody needs you to be calm before they will listen.
 
 People who can do the things a week runs on
 
@@ -3377,7 +3377,7 @@ Does anybody want to chat now?
 
 Can I get a hold of you? This is happening to me.
 
-The Commons (https://app.lagatos.com) is a group chat of other Targeted Individuals, in the app. It is where that question gets an answer, from people who will not spend the first hour on whether it is happening.
+The Commons (https://app.lagatos.com/commons) is a group chat of other Targeted Individuals, in the app. It is where that question gets an answer, from people who will not spend the first hour on whether it is happening.
 
 Where the listing comes in
 
@@ -3437,7 +3437,7 @@ If you are thinking of reporting any of it, Who to report it to (https://chargin
 
 Somebody who believes you
 
-The Commons (https://app.lagatos.com) is a group chat of other Targeted Individuals. Nobody there needs the first hour of a conversation spent on whether it is happening.
+The Commons (https://app.lagatos.com/commons) is a group chat of other Targeted Individuals. Nobody there needs the first hour of a conversation spent on whether it is happening.
 
 Help with the week
 
@@ -3641,7 +3641,7 @@ Somebody to tell
 
 I answered the first question in Who to report it to (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/who-to-report-it-to). The short version: I do not know of a local office that takes a report of the entire pattern and acts on it. A police report carries one incident, described as the crime it is. The United Nations collects reports of the pattern, as the human rights violation it is.
 
-The telling that helps most is often not a report. The Commons (https://app.lagatos.com) is a group chat of other Targeted Individuals, and nobody there needs the first hour of a conversation spent on whether it is happening.
+The telling that helps most is often not a report. The Commons (https://app.lagatos.com/commons) is a group chat of other Targeted Individuals, and nobody there needs the first hour of a conversation spent on whether it is happening.
 
 A way to know
 
@@ -3722,7 +3722,7 @@ The question underneath
 
 Often "who do I report this to" means "who can help me". That one has a better answer, and it is people.
 
-Being believed is a start, and the Commons (https://app.lagatos.com) is a group chat of other Targeted Individuals. The help that changes a week is material: a ride from somebody who is not reporting on it, a room, an hour of a trade you do not have. The Directory (https://app.lagatos.com/apps/directory) lists people and what they can do, and Foundation (https://app.lagatos.com/apps/foundation) is where members offer and exchange that help.
+Being believed is a start, and the Commons (https://app.lagatos.com/commons) is a group chat of other Targeted Individuals. The help that changes a week is material: a ride from somebody who is not reporting on it, a room, an hour of a trade you do not have. The Directory (https://app.lagatos.com/apps/directory) lists people and what they can do, and Foundation (https://app.lagatos.com/apps/foundation) is where members offer and exchange that help.
 
 None of that stops it on its own. It does mean not carrying it alone.
 
@@ -3832,7 +3832,7 @@ And if you forget all of this, the Commons has a chip above the box you type in 
 Where to find it in the app
 
 - Unlock (https://app.lagatos.com/plugin/unlock) — guide (https://app.lagatos.com/guide#unlock)
-- Commons (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 - Fireside (https://app.lagatos.com/apps/fireside) — guide (https://app.lagatos.com/guide#fireside)
 - Knowledge Library (https://app.lagatos.com/knowledge) — guide (https://app.lagatos.com/guide#knowledge)
 - Directory (https://app.lagatos.com/apps/directory) — guide (https://app.lagatos.com/guide#directory)
@@ -4105,7 +4105,7 @@ Income. Not the career that was taken — that one usually does not come back th
 
 Housing. LightHouse (https://app.lagatos.com/apps/lighthouse) is rooms offered by survivors to survivors, which is the answer to the scheme that walks a destitute person back to relatives who were reached first (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/why-they-want-you-living-with-family).
 
-People who know you. This is the one that changes the most and the fastest. Being on the Directory (https://app.lagatos.com/apps/directory) is what makes somebody findable, and finding two or three people who understand without being told is not a small recovery, it is most of one. Commons (https://app.lagatos.com) reads without an account, so it costs nothing to start there.
+People who know you. This is the one that changes the most and the fastest. Being on the Directory (https://app.lagatos.com/apps/directory) is what makes somebody findable, and finding two or three people who understand without being told is not a small recovery, it is most of one. Commons (https://app.lagatos.com/commons) reads without an account, so it costs nothing to start there.
 
 The ability to ask. This one is a skill rather than a circumstance, and it comes back with practice. Ask small, bring something, and do not measure it against equal — that is what a working exchange looks like (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/mutual-not-equal) between two people who both need things.
 
@@ -4543,7 +4543,7 @@ Read before you talk
 
 The first step costs nothing and needs no account, and it matters because a person at this stage has usually been talked at for years by people with an interest in what they believe.
 
-The Commons (https://app.lagatos.com) — the group chat — reads without signing in. So does the conversation under every post on this blog (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/you-can-talk-under-these-posts-now). TI Radio (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/ti-radio) publishes a week of live discussions that survivors host, in your own timezone, and reading the schedule needs no account either; the discussions happen in Chyme, where you can listen without speaking and without a camera.
+The Commons (https://app.lagatos.com/commons) — the group chat — reads without signing in. So does the conversation under every post on this blog (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/you-can-talk-under-these-posts-now). TI Radio (https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/ti-radio) publishes a week of live discussions that survivors host, in your own timezone, and reading the schedule needs no account either; the discussions happen in Chyme, where you can listen without speaking and without a camera.
 
 A voice in a room, from somebody who is not part of what is being done to you, is not a small thing at this stage. It is the first arrangement that does not run through them.
 
@@ -5020,7 +5020,7 @@ Where to find it in the app
 - Directory (https://app.lagatos.com/apps/directory) — guide (https://app.lagatos.com/guide#directory)
 - Foundation (https://app.lagatos.com/apps/foundation) — guide (https://app.lagatos.com/guide#foundation)
 - LightHouse (https://app.lagatos.com/apps/lighthouse) — guide (https://app.lagatos.com/guide#lighthouse)
-- Commons (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 
 The full schemes list is public: lagatos.com/schemes (https://lagatos.com/schemes).
 
@@ -6060,7 +6060,7 @@ Where to find it in the app
 
 - Fireside (https://app.lagatos.com/apps/fireside)
 - Unlock (https://app.lagatos.com/plugin/unlock) — guide (https://app.lagatos.com/guide#unlock)
-- Commons (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
@@ -6499,7 +6499,7 @@ You can get there by putting everything on a chain. You can also get there by bu
 
 Where to find it in the app
 
-- Commons (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 - Chyme (https://app.lagatos.com/apps/chyme) — guide (https://app.lagatos.com/guide#chyme)
 - Foundation (https://app.lagatos.com/apps/foundation) — guide (https://app.lagatos.com/guide#foundation)
 - TrustTransport (https://app.lagatos.com/apps/trust-transport) — guide (https://app.lagatos.com/guide#trust-transport)
@@ -6578,7 +6578,7 @@ There is one more reason to leave it be, and it is practical. Organized crime do
 
 Where to find it in the app
 
-- Commons (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 - Unlock (https://app.lagatos.com/plugin/unlock) — guide (https://app.lagatos.com/guide#unlock)
 - Directory (https://app.lagatos.com/apps/directory) — guide (https://app.lagatos.com/guide#directory)
 - Foundation (https://app.lagatos.com/apps/foundation) — guide (https://app.lagatos.com/guide#foundation)
@@ -6701,7 +6701,7 @@ Where to find it in the app
 - ServiceCredits (https://app.lagatos.com/apps/service-credits) — guide (https://app.lagatos.com/guide#service-credits)
 - Directory (https://app.lagatos.com/apps/directory) — guide (https://app.lagatos.com/guide#directory)
 - SkillsHunt (https://app.lagatos.com/apps/skills-hunt) — guide (https://app.lagatos.com/guide#skills-hunt)
-- Commons (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
@@ -7043,7 +7043,7 @@ It is also possible the need is not schooling at all, but respite — an hour, o
 
 Where to send input
 
-The group chat, Commons (https://app.lagatos.com). What you use now, what you tried that failed, which of the six is worth building, or that none of them are — and which side of the split your answer sits on, because a connecting problem and a delivering problem get solved in different places.
+The group chat, Commons (https://app.lagatos.com/commons). What you use now, what you tried that failed, which of the six is worth building, or that none of them are — and which side of the split your answer sits on, because a connecting problem and a delivering problem get solved in different places.
 
 If you are already homeschooling, you know more about this than I do. Say what you actually do — that answer counts for more here than anything I worked out from the outside.
 
@@ -7457,7 +7457,7 @@ I take requests for games. If there is one you want — a classic, or an idea of
 
 Where to find it in the app
 
-- Commons (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
@@ -8453,7 +8453,7 @@ Until it is, put the failures in Commons, where somebody can read them before th
 Where to find it in the app
 
 - WhatWorks (https://app.lagatos.com/apps/what-works) — guide (https://app.lagatos.com/guide#what-works)
-- Commons (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
@@ -8643,7 +8643,7 @@ The other half is the same idea applied inwards. The grading only works on someo
 
 Depending on nobody who is being paid to harm you, and not handing them your interior either. That is closer to freedom than any privacy setting has ever gotten me.
 
-So answer in the Commons (https://app.lagatos.com), the group chat inside the app, knowing they are reading over your shoulder there as everywhere else. What the answers are for is not keeping a secret. It is a set of us knowing the shape well enough that it stops working. The Dictionary is a living page kept in a public repository, so every change to it is dated and on the record — including the ones that come from being told I got it wrong.
+So answer in the Commons (https://app.lagatos.com/commons), the group chat inside the app, knowing they are reading over your shoulder there as everywhere else. What the answers are for is not keeping a secret. It is a set of us knowing the shape well enough that it stops working. The Dictionary is a living page kept in a public repository, so every change to it is dated and on the record — including the ones that come from being told I got it wrong.
 
 New schemes get named from the same kind of description. When you log an incident and no scheme on the list fits, there is a "not listed" option that asks you to write what happened, and that writing is the intake that names new ones. It is limited to members holding the Weavers of the Commons badge, which keeps junk out of the naming queue rather than out of logging — logging itself is open to every approved member.
 
@@ -8652,7 +8652,7 @@ Both of this week's additions started as plain descriptions of something the lis
 Where to find it in the app
 
 - ClickLog (https://app.lagatos.com/apps/click-log) — guide (https://app.lagatos.com/guide#click-log)
-- Commons (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 
 The full schemes list is public: lagatos.com/schemes (https://lagatos.com/schemes).
 
@@ -8713,13 +8713,13 @@ That is the gap LightHouse (https://app.lagatos.com/apps/lighthouse) is for. It 
 
 I am not going to claim there is a listing waiting for everyone who needs one. There is not. What I will say is that the answer to this particular scheme is housing that does not run through people who can be bought, and that building the supply of it is worth more than any amount of advice about coping where you are.
 
-If you are in this arrangement now, the Commons (https://app.lagatos.com) is where people are. Not a hotline — I called one once, and what I got back was effectively an invitation to join the club. People who already understand the situation are a different proposition.
+If you are in this arrangement now, the Commons (https://app.lagatos.com/commons) is where people are. Not a hotline — I called one once, and what I got back was effectively an invitation to join the club. People who already understand the situation are a different proposition.
 
 Where to find it in the app
 
 - LightHouse (https://app.lagatos.com/apps/lighthouse) — guide (https://app.lagatos.com/guide#lighthouse)
 - ClickLog (https://app.lagatos.com/apps/click-log) — guide (https://app.lagatos.com/guide#click-log)
-- Commons (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 
 The full schemes list is public: lagatos.com/schemes (https://lagatos.com/schemes).
 
@@ -8790,7 +8790,7 @@ Where to find it in the app
 
 - Directory (https://app.lagatos.com/apps/directory) — guide (https://app.lagatos.com/guide#directory)
 - Workforce (https://app.lagatos.com/apps/workforce) — guide (https://app.lagatos.com/guide#workforce)
-- Commons (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
@@ -8878,7 +8878,7 @@ That is not a defense against being watched. Nothing is. It is a way of being wo
 Where to find it in the app
 
 - ClickLog (https://app.lagatos.com/apps/click-log) — guide (https://app.lagatos.com/guide#click-log)
-- Commons (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 
 The named schemes, including the sensitization ones, are public: lagatos.com/schemes (https://lagatos.com/schemes).
 

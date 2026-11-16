@@ -59,13 +59,13 @@ That is the gap [LightHouse](https://app.lagatos.com/apps/lighthouse) is for. It
 
 I am not going to claim there is a listing waiting for everyone who needs one. There is not. What I will say is that the answer to this particular scheme is housing that does not run through people who can be bought, and that building the supply of it is worth more than any amount of advice about coping where you are.
 
-If you are in this arrangement now, the [Commons](https://app.lagatos.com) is where people are. Not a hotline — I called one once, and what I got back was effectively an invitation to join the club. People who already understand the situation are a different proposition.
+If you are in this arrangement now, the [Commons](https://app.lagatos.com/commons) is where people are. Not a hotline — I called one once, and what I got back was effectively an invitation to join the club. People who already understand the situation are a different proposition.
 
 ## Where to find it in the app
 
 - [LightHouse](https://app.lagatos.com/apps/lighthouse) — [guide](https://app.lagatos.com/guide#lighthouse)
 - [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
-- [Commons](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Commons](https://app.lagatos.com/commons) — [guide](https://app.lagatos.com/guide#commons)
 
 The full schemes list is public: [lagatos.com/schemes](https://lagatos.com/schemes).
 
