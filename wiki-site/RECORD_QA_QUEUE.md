@@ -732,17 +732,17 @@ Screenshots already in place when this queue was written: 1.
 - [ ] 15. `2024-12-03` · answer-comment · `farah-brunache/what-could-be-the-reasons-for-someone-being-targeted-by-organized-stal`
 - [ ] 14. `2024-12-02` · answer-comment · `farah-brunache/if-i-could-upvote-this-a-thousand-times-i-would`
 - [ ] 13. `2024-12-02` · answer-comment · `farah-brunache/in-my-experience-the-intensity-was-in-fact-differenet-at-different-sta`
-- [ ] 12. `2024-12-02` · answer-comment · `farah-brunache/their-a-perp-there-is-no-removing-your-name`
-- [ ] 11. `2024-12-02` · answer-comment · `farah-brunache/you-are-correct-it-is-the-government-as-well`
-- [ ] 10. `2024-11-17` · answer-comment · `farah-brunache/do-targeted-individuals-really-believe-that-the-fbi-is-too-niave-to-be`
-- [ ] 9. `2024-11-17` · post-comment · `farah-brunache/https-www-quora-com-do-targeted-individuals-really-believe-that-the-fb`
-- [ ] 8. `2024-10-31` · answer-comment · `farah-brunache/are-gang-stalkers-on-average-narcissists-or-do-they-just-have-an-insat`
+- [x] 12. `2024-12-02` · answer-comment · `farah-brunache/their-a-perp-there-is-no-removing-your-name`
+- [x] 11. `2024-12-02` · answer-comment · `farah-brunache/you-are-correct-it-is-the-government-as-well`
+- [x] 10. `2024-11-17` · answer-comment · `farah-brunache/do-targeted-individuals-really-believe-that-the-fbi-is-too-niave-to-be`
+- [x] 9. `2024-11-17` · post-comment · `farah-brunache/https-www-quora-com-do-targeted-individuals-really-believe-that-the-fb`
+- [x] 8. `2024-10-31` · answer-comment · `farah-brunache/are-gang-stalkers-on-average-narcissists-or-do-they-just-have-an-insat`
 
 ### Record page 26
 
-- [ ] 7. `2024-10-31` · post-comment · `farah-brunache/https-www-quora-com-is-it-true-that-there-is-100-gang-stalkers-for-eve`
-- [ ] 6. `2024-10-31` · space-post · `farah-brunache/matthew-cappadocia-aka-the-wizard-of-oz-https-www-quora-com-profile-ma`
-- [ ] 5. `2024-10-31` · space-submission · `farah-brunache/matthew-cappadocia-aka-the-wizard-of-oz-your-byline-changed` — derived
+- [x] 7. `2024-10-31` · post-comment · `farah-brunache/https-www-quora-com-is-it-true-that-there-is-100-gang-stalkers-for-eve`
+- [x] 6. `2024-10-31` · space-post · `farah-brunache/matthew-cappadocia-aka-the-wizard-of-oz-https-www-quora-com-profile-ma`
+- [x] 5. `2024-10-31` · space-submission · `farah-brunache/matthew-cappadocia-aka-the-wizard-of-oz-your-byline-changed` — derived
 - [x] 4. `2024-10-31` · space-submission · `farah-brunache/matthew-cappadocia-aka-the-wizard-of-oz-your-byline-changed-is-the-dif` — derived
 - [x] 3. `2024-10-29` · answer-comment · `farah-brunache/how-often-are-the-victims-of-gang-stalking-organized-stalking-or-mobbi` — has screenshot
 - [x] 2. `2024-10-29` · answer-comment · `farah-brunache/where-can-targeted-individuals-find-help-how-can-i-find-others-in-my-a` — has screenshot
