@@ -13,5 +13,6 @@ archive:
   status: "erased"
 ---
 
-To add, I wish people would stop using “no touch torture” I have been assaulted multiple times by them.  
+To add, I wish people would stop using “no touch torture.” I have been assaulted multiple times by them.
+
 Though this is recent (after decades of their games), my guess is that they are unable to coax me into doing any crimes or get committed and so now they are resorting to violence to get me to react.

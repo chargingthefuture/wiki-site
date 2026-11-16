@@ -1,5 +1,5 @@
 ---
-title: "https www quora com Do Targeted Individuals really believe that the FBI is too niave to be aware that private…"
+title: "Do Targeted Individuals really believe that the FBI is too niave to be aware that private citizens are…"
 date: "2024-11-17"
 excerpt: "There’s also no such thing as “no touch torture.” As some have reported types of torture can be different compared to others."
 category: "Community"

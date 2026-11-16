@@ -19030,10 +19030,10 @@ export const ARTICLES: ArticleMeta[] = [
   },
   {
     "slug": "farah-brunache/their-a-perp-there-is-no-removing-your-name",
-    "title": "Their a perp. There is no removing your name.",
+    "title": "They're a perp. There is no removing your name.",
     "repo": "chargingthefuture/wiki-site",
     "date": "2024-12-02",
-    "excerpt": "Their a perp. There is no removing your name.",
+    "excerpt": "They're a perp. There is no removing your name.",
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/their-a-perp-there-is-no-removing-your-name.md",
@@ -19087,7 +19087,7 @@ export const ARTICLES: ArticleMeta[] = [
   },
   {
     "slug": "farah-brunache/https-www-quora-com-do-targeted-individuals-really-believe-that-the-fb",
-    "title": "https www quora com Do Targeted Individuals really believe that the FBI is too niave to be aware that private…",
+    "title": "Do Targeted Individuals really believe that the FBI is too niave to be aware that private citizens are…",
     "repo": "chargingthefuture/wiki-site",
     "date": "2024-11-17",
     "excerpt": "There’s also no such thing as “no touch torture.” As some have reported types of torture can be different compared to others.",
@@ -19125,7 +19125,7 @@ export const ARTICLES: ArticleMeta[] = [
   },
   {
     "slug": "farah-brunache/https-www-quora-com-is-it-true-that-there-is-100-gang-stalkers-for-eve",
-    "title": "https www quora com Is it true that there is 100 gang stalkers for every 1 targeted individual answer Matthew…",
+    "title": "Is it true that there is 100 gang stalkers for every 1 targeted individual?",
     "repo": "chargingthefuture/wiki-site",
     "date": "2024-10-31",
     "excerpt": "I only realized this because I travel a lot, and they move with me. The simple fact that they will buy an entire building, parking garage, and neighboring homes supports the illusion…",
@@ -19144,7 +19144,7 @@ export const ARTICLES: ArticleMeta[] = [
   },
   {
     "slug": "farah-brunache/matthew-cappadocia-aka-the-wizard-of-oz-https-www-quora-com-profile-ma",
-    "title": "Matthew Cappadocia aka The Wizard of Oz https www quora com profile Matthew Cappadocia aka The Wizard of Oz…",
+    "title": "Matthew Cappadocia (aka The Wizard of Oz) your byline changed, does this mean it was a bot post?",
     "repo": "chargingthefuture/wiki-site",
     "date": "2024-10-31",
     "excerpt": "Matthew Cappadocia (aka The Wizard of Oz) your byline changed, does this mean it was a bot post? I thought that line dynamically changes and is not static to a time period.",
@@ -19159,10 +19159,7 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2024-10-31",
       "status": "erased",
       "kind": "space-post",
-      "space": "US-PSYOPS-TARGETED-INDIVIDUALS",
-      "sharedTo": [
-        "US-PSYOPS-TARGETED-INDIVIDUALS"
-      ]
+      "space": "US-PSYOPS-TARGETED-INDIVIDUALS"
     }
   },
   {
@@ -19170,7 +19167,7 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "Matthew Cappadocia (aka The Wizard of Oz) your byline changed.",
     "repo": "chargingthefuture/wiki-site",
     "date": "2024-10-31",
-    "excerpt": "Matthew Cappadocia (aka The Wizard of Oz) your byline changed. Is the different one a bot post?I thought he byline was dynamic and changes based on what is current.",
+    "excerpt": "Matthew Cappadocia (aka The Wizard of Oz) your byline changed. Is the different one a bot post? I thought the byline was dynamic and changes based on what is current.",
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/matthew-cappadocia-aka-the-wizard-of-oz-your-byline-changed.md",
