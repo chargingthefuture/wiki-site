@@ -28,7 +28,7 @@ bc1qqurdsmdwfg9uekvvwf29r3r7ufu3l2tenncdtd
 
 I strongly suggest Monero so the gstalkers won’t know you’re helping a TI.
 
-Donate to the space contributors. If you would rather donate to TIs at large use the below. I’ll split the funds amongst any TI that is a Contributor to the space on a weekly basis. Again, I strongly suggest Monero so gang stalkers don’t know you’re helping us.
+Donate to the space contributors. If you would rather donate to TIs at large use the below. I’ll split the funds among any TI that is a Contributor to the space on a weekly basis. Again, I strongly suggest Monero so gang stalkers don’t know you’re helping us.
 
 Monero:
 

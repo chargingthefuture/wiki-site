@@ -14,7 +14,7 @@ archive:
 ---
 Do not sleep on Workforce Recruiter! A mini-app found at [psyop-free - Live, Work, Prevail](https://www.quora.com/_/redirect?sig=959443&url=https://app.chargingthefuture.com).
 
-With just 30 TIs sharing their skills amongst TIs we can cover nearly all sectors within a small nation state economy. For example, Singapore has a population similar to the amount of TIs globally.
+With just 30 TIs sharing their skills among TIs we can cover nearly all sectors within a small nation state economy. For example, Singapore has a population similar to the amount of TIs globally.
 
 Here are the sectors covered by just 30 TI skills profiles:
 
@@ -62,7 +62,7 @@ Emergency & Reserve Roles
 
 Mining / Extractive
 
-Again, we are a large population that is highly skilled. Why not trade skills and resources amongst each other. We could exit the psyop TODAY!
+Again, we are a large population that is highly skilled. Why not trade skills and resources among each other. We could exit the psyop TODAY!
 
 My personal goal is to reach 384 TI Directory skills profile. This is the statistically relevant number to truly see how all our skills are distributed. And create a reliable network of providers. Meaning, making sure there are enough doctors globally to serve TIs. Enough safe housing, etc.
 

@@ -16,7 +16,7 @@ Were there any TIs that doubted me :).
 
 With just 15 Directory profiles, Workforce Recruiter shows almost an equal spread across all economic sectors!
 
-Please help me get more TIs to sign up for the TI Skills Economy. This is a legitimate way to exit the psyop. There are enough TIs to where we could sustain a fulfilling life amongst each other. By exchanging our skills, goods, and services with each other.
+Please help me get more TIs to sign up for the TI Skills Economy. This is a legitimate way to exit the psyop. There are enough TIs to where we could sustain a fulfilling life among each other. By exchanging our skills, goods, and services with each other.
 
 Keep in mind, Workforce Recruiter accounts for the fact that 50% of any population is not “working.” Please, if you are disabled, retired, etc, you COUNT as well. And your needs and wants can be met within the TI Skills Economy. EVERY TI is welcome. Let us set aside our personal differences. Within a population of 5 million or more, you will find your tribe.
 

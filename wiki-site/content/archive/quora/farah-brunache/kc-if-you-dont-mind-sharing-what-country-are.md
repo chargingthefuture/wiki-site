@@ -12,7 +12,7 @@ archive:
   original_date: "2026-07-12"
   status: "erased"
 ---
-[KC](https://www.quora.com/profile/KC-3518) if you don’t mind sharing, what country are you in? I created a profile for you on TI Skills Economy (TSE) that you can claim and update. Goal: connect and share skills amongst all TIs.
+[KC](https://www.quora.com/profile/KC-3518) if you don’t mind sharing, what country are you in? I created a profile for you on TI Skills Economy (TSE) that you can claim and update. Goal: connect and share skills among all TIs.
 
 [https://app.chargingthefuture.co...](https://www.quora.com/_/redirect?sig=9f14d2&url=https://app.chargingthefuture.com/apps/directory/profile/2719dad9-8ee1-4ecc-8e40-907ab4916907)
 

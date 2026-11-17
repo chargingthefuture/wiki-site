@@ -20,7 +20,7 @@ If you are I created a profile for you here:
 
 Use the same link to create an account and edit the profile anytime.
 
-5 million is the size of a small nation state! This means TIs can trade their skills amongst each other for the goods and services we need. Without the Speceterati and therefore exiting the psyop!
+5 million is the size of a small nation state! This means TIs can trade their skills among each other for the goods and services we need. Without the Speceterati and therefore exiting the psyop!
 
 Let me know of any questions!
 ![](images/qimg-ac74f9ce46a585a5c17e18ab0f256820.png)

@@ -22,7 +22,7 @@ All TIs welcome. At this time, the community I am referring to above will be in 
 
 Simple example, a group of individuals will take shifts as security. To alert or make sure perps do not trespass. Another individual has interest in farming. And so they will be farming and assisting with getting surplus food supply to other TIs at other TI communities or individual TIs across the country.
 
-Reminder, I am not a leader but rather the creator of the app to manage the exchanges and discovery of real TIs to exit the psyop. You are in control of what you get out of the services. With an estimated 5 million of us globally we can all be employed amongst each other and have fulfilling lives.
+Reminder, I am not a leader but rather the creator of the app to manage the exchanges and discovery of real TIs to exit the psyop. You are in control of what you get out of the services. With an estimated 5 million of us globally we can all be employed among each other and have fulfilling lives.
 
 Let me know of any questions.
 

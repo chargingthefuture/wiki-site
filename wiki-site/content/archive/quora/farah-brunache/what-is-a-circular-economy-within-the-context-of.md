@@ -14,7 +14,7 @@ archive:
 ---
 What is a circular economy, within the context of TSN (TI Skills Network)?
 
-I am creating a circular economy specifically designed for TIs, where we establish a trusted network of local and global goods and service providers. This initiative ensures that TIs can access reliable services without inadvertently supporting the Speceterati. By circulating money amongst TIs, we empower individuals to obtain the goods and services they need while fostering economic independence and resilience. This approach not only prioritizes safety and trust but also promotes a sustainable ecosystem that uplifts and supports those who have faced exploitation, ultimately transforming lives and strengthening our community.
+I am creating a circular economy specifically designed for TIs, where we establish a trusted network of local and global goods and service providers. This initiative ensures that TIs can access reliable services without inadvertently supporting the Speceterati. By circulating money among TIs, we empower individuals to obtain the goods and services they need while fostering economic independence and resilience. This approach not only prioritizes safety and trust but also promotes a sustainable ecosystem that uplifts and supports those who have faced exploitation, ultimately transforming lives and strengthening our community.
 
 The above will reduce: us being scammed, poisoned, or tricked into bleeding us dry of all our assets and belongings.
 

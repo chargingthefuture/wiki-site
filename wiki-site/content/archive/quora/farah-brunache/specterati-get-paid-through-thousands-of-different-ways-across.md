@@ -20,7 +20,7 @@ The app I reference is still operating so you can join it and witness it first h
 
 Which is why it is imperative that as TIs we “move on.” Option A be apart of their scheme and get yours. Or Option B, participate in our own network of goods and services that do not rely or profit off of human trafficking.
 
-No judgement from me if TIs continue to operate in their staged environments. It is the dominant force in the market.
+No judgment from me if TIs continue to operate in their staged environments. It is the dominant force in the market.
 
 But for those who cannot (because like me, they are boxed out) or for those who do not want to be part of their games, you now have an option, the TI economy. Link in my Quora bio.
 

@@ -22,6 +22,6 @@ When you sign up, you only need an email address. If concerned about joining, yo
 
 Optional: join the group chat on Signal -> [Signal Messenger Group](https://www.quora.com/_/redirect?sig=7f4226&url=https://signal.group/%23CjQKILHj7074l2Kl-oYy0qGSFdydXbtu0Pf66Z_88K9IlSCtEhDDdqV_BFAW2qm2EiTGEaNs)
 
-The goal of the TI economy is to provide material value to other TIs. This does not always need to be money. The Specterati work amongst themselves, grifting from society and taking whatever they want. Time we as TIs start working together to better our lives and move on from their sphere of chaos and torture.
+The goal of the TI economy is to provide material value to other TIs. This does not always need to be money. The Specterati work among themselves, grifting from society and taking whatever they want. Time we as TIs start working together to better our lives and move on from their sphere of chaos and torture.
 
 [https://tiskillsnetwork.quora.co...](https://tiskillsnetwork.quora.com/My-DMs-on-Quora-and-Signal-are-closed-for-the-foreseeable-future-Also-please-do-not-ask-me-for-my-phone-number-To-joi)

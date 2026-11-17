@@ -20,7 +20,7 @@ I have verified my identity multiple times on the Uber platform before, and all 
 
 Fortunately, I was only about a 15-minute drive from my destination, which is roughly an hour's walk. This situation highlights how systems cut off access to resources for trafficking survivors. This experience is one of the reasons I started TI Skills Economy. The idea is to support each other rather than paying a perp for a ride or a system that does not protect individuals. It is a network that puts humans first. And zero tolerance for traffickers.
 
-On my way back, I encountered various street theater. As I neared my destination, there was a person dressed in “this month’s” trolling attire. Another person was sitting in their car, recording the act. And then honked the horn as I approached signaling the perp to start walking towards me.
+On my way back, I encountered various street theater. As I neared my destination, there was a person dressed in “this month’s” trolling attire. Another person was sitting in their car, recording the act. And then honked the horn as I approached signaling the perp to start walking toward me.
 
 This signaled another individual to start their trolling activity, aiming to provoke a reaction from me on camera. The goal capture my reaction on video. Then use these recordings to portray the incidents as random, and sharing it with people like Rebecca L. Norrington, so they contact me saying I deserve to be trafficked because I threaten people. Per Rebecca I am a “threatening person” and she knows this because she gossips about me with others and she enjoys it. She sent this to me in an email.
 

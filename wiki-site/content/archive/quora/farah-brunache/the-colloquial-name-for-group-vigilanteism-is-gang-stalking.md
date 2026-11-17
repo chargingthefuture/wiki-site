@@ -22,7 +22,7 @@ In this process of cleaning up my posts, I want to replace the colloquial name �
 
 What suggestions do you have?
 
-I am leaning towards “predators.” When someone says “Targets,” it is distinctly known what is being referred to. I am not choosing stalkers, as that term is overly used. Another colloquial name option is banshees, but that seems too light-hearted or rather rolls off the tongue silly. I am searching for a single word (not two) and one that is not overly used in other contexts that could create confusion.
+I am leaning toward “predators.” When someone says “Targets,” it is distinctly known what is being referred to. I am not choosing stalkers, as that term is overly used. Another colloquial name option is banshees, but that seems too light-hearted or rather rolls off the tongue silly. I am searching for a single word (not two) and one that is not overly used in other contexts that could create confusion.
 
 Any suggestions? If we get a few suggestions, I can create a public and anonymous poll to narrow it down.
 

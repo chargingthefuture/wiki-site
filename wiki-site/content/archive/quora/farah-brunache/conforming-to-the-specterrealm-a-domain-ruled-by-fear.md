@@ -14,7 +14,7 @@ archive:
 ---
 Conforming to the Specterrealm (a domain ruled by fear and intimidation) that the Specterati have created is unnatural.
 
-This is not a judgement of the plethora of TIs on Quora giving advice to the likes of “keep your head down,” stay put, work and live surrounded by the Specterati, file law suits, and barely get by for the rest of your life.
+This is not a judgment of the plethora of TIs on Quora giving advice to the likes of “keep your head down,” stay put, work and live surrounded by the Specterati, file law suits, and barely get by for the rest of your life.
 
 But that sure is a lot of effort. Almost as much effort as the operatives of the Specterati in posing as clinically sane people as they terrorize millions covertly 24/7/365.
 

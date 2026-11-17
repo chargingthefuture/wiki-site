@@ -20,7 +20,7 @@ As TIs ideally we get to the realization you stated below, that I too know. Next
 
 And while I do not understand the demonic angle. I recognize them as addicts. Operatives of drug and sex traffickers who are either weak (easily extorted) and corrupt (slave to their dopamine centers) due to the lack of self control and happiness.
 
-Please consider TSE — my suggested solution to end poverty amongst TIs.
+Please consider TSE — my suggested solution to end poverty among TIs.
 
 Here are the 40+ problems the TI Skills Economy (TSE) fixes for TIs:
 

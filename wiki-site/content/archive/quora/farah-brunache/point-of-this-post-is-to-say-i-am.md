@@ -18,7 +18,7 @@ We are only on month 5 of TI Skills Network and I see good things happening. Han
 
 ###
 
-I think it was last night or early morning, I was responding to a Quora post on the Specterati (also known as gang stalkers - colloquial name for group vigilantes). Someone asked why would a gang stalker have their child do street theater or any type of violence towards a target? Don't they care about their children? I had responded something to the effect of, they feel protected by the gang stalking network. And will retaliate because they know they can do it against the target without any consequence.
+I think it was last night or early morning, I was responding to a Quora post on the Specterati (also known as gang stalkers - colloquial name for group vigilantes). Someone asked why would a gang stalker have their child do street theater or any type of violence toward a target? Don't they care about their children? I had responded something to the effect of, they feel protected by the gang stalking network. And will retaliate because they know they can do it against the target without any consequence.
 
 Today (approximately 4:15 pm EST), when I came to stand in line at a drop-in center, I placed my bag on a pair of steps to a building that's close by as I wait for the line to die down. As soon as I come to the stairs, they have one of their stalker men walk up to me. I have my headphones on, so I don't know what they were saying, but I guess what they were saying is that I needed to leave the stairs.
 

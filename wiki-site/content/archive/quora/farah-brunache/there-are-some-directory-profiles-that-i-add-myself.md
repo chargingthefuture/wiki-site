@@ -16,7 +16,7 @@ There are some Directory profiles that I add myself of people I think are likely
 
 In the case of Damon Mayle and Aaron Andrew they both post “nice” comments to coax me to talk to them. Damon Mayle turned out to be a pathetic perp drug addict honey pot attempt and Aaron Andrew was a perp religious cult member that hates the government.
 
-Damon Mayle’s Quora profile had nothing much in it. Aaron Andrew had random perp posts buried amongst praising TIs. Which I did not catch.
+Damon Mayle’s Quora profile had nothing much in it. Aaron Andrew had random perp posts buried among praising TIs. Which I did not catch.
 
 Right now I have an onslaught of perps “being nice” as soon as I see them I delete their posts. But if I miss any do not hesitate to let me know.
 

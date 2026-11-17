@@ -16,7 +16,7 @@ I need to come up with a catchy name. I am open to suggestions. I want to put to
 
 For example, a group of TIs that share a gym membership. So we can shower. A group of TIs that are on a family plan for mobile service - so we can have a cheap rate. A group of TIs that share a mileage program, so we can travel at a discount.
 
-It is about pooling our resources so the cost can be spread amongst us all as employment is difficult.
+It is about pooling our resources so the cost can be spread among us all as employment is difficult.
 
 I asked ChatGPT and got these suggestions on naming this app. Do you like any of them? I would create the app, and people would sign up for the respective service. And I could easily manage membership across all the memberships.
 - ShareSphere - A community-centric name that emphasizes sharing and connectedness.

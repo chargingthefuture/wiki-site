@@ -14,7 +14,7 @@ archive:
 ---
 Yesterday I did a partial migration of version two of the app to today’s version (version 3). That partial migration recognizes anyone who created an account during version two and grants them 100 ServiceCredits. ServiceCredits is another “world’s first.”
 
-It is a psyop free utility token. Created by a TI, me, for all TIs to use. You cannot take it off the platform. But you can exchange it for real goods and services amongst each other. With yesterday’s grant the TI Skills Economy has 3301 ServiceCredits in circulation.
+It is a psyop free utility token. Created by a TI, me, for all TIs to use. You cannot take it off the platform. But you can exchange it for real goods and services among each other. With yesterday’s grant the TI Skills Economy has 3301 ServiceCredits in circulation.
 
 Below is the internal dashboard used to monitor the token (ServiceCredits).
 

@@ -14,7 +14,7 @@ archive:
 ---
 [Miraclis Johnson / Miraclis Johnson](https://www.quora.com/profile/Miraclis-Johnson-Miraclis-Johnson) will you join us?
 
-We are a group of TIs ready to exit the psyop. You mentioned the Specterati are trying to take your home. We have an Airbnb like feature, LightHouse, where you can choose whom to rent rooms to. Circulate money and resources amongst each other so we can thrive.
+We are a group of TIs ready to exit the psyop. You mentioned the Specterati are trying to take your home. We have an Airbnb like feature, LightHouse, where you can choose whom to rent rooms to. Circulate money and resources among each other so we can thrive.
 
 For now here is your profile
 

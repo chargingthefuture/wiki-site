@@ -4833,10 +4833,10 @@ export const ARTICLES: ArticleMeta[] = [
   },
   {
     "slug": "farah-brunache/part-of-the-answer-to-the-below-quora-question",
-    "title": "Part of the answer to the below Quora question is to work and live amongst TIs.",
+    "title": "Part of the answer to the below Quora question is to work and live among TIs.",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-07-06",
-    "excerpt": "Part of the answer to the below Quora question is to work and live amongst TIs.",
+    "excerpt": "Part of the answer to the below Quora question is to work and live among TIs.",
     "category": "Community",
     "collection": "archive/quora",
     "path": "archive/quora/farah-brunache/part-of-the-answer-to-the-below-quora-question.md",
@@ -4844,7 +4844,7 @@ export const ARTICLES: ArticleMeta[] = [
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Part-of-the-answer-to-the-below-Quora-question-is-to-work-and-live-amongst-TIs-A-solution-that-was-proven-in-the-early",
+      "originalUrl": "https://skillseconomy.quora.com/Part-of-the-answer-to-the-below-Quora-question-is-to-work-and-live-among-TIs-A-solution-that-was-proven-in-the-early",
       "originalDate": "2026-07-06",
       "status": "erased",
       "kind": "space-post"
@@ -24212,25 +24212,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "pedigree101/TI-Support-Match-Now-Live-First-App-Release-from-TI-Skills-Network",
-    "title": "TI Support Match Now Live! First App Release from TI Skills Network",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-09-14",
-    "excerpt": "Hello everyone! The first product/app of TI Skills Network is live!",
-    "category": "Updates",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/TI-Support-Match-Now-Live-First-App-Release-from-TI-Skills-Network.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/TI-Support-Match-Now-Live-First-App-Release-from-TI-Skills-Network-Hello-everyone-The-first-product-app-of-TI-Skills",
-      "originalDate": "2025-09-14",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
     "slug": "farah-brunache/as-soon-as-i-posted-the-ti-peer-support",
     "title": "As soon as I posted the TI Peer Support Group URL, my account was banned: Pedigree101 I…",
     "repo": "chargingthefuture/wiki-site",
@@ -24244,6 +24225,25 @@ export const ARTICLES: ArticleMeta[] = [
       "source": "quora",
       "account": "farah-brunache",
       "originalUrl": "https://skillseconomy.quora.com/As-soon-as-I-posted-the-TI-Peer-Support-Group-URL-my-account-was-banned-https-www-quora-com-profile-Pedigree101-I-h",
+      "originalDate": "2025-09-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/TI-Support-Match-Now-Live-First-App-Release-from-TI-Skills-Network",
+    "title": "TI Support Match Now Live! First App Release from TI Skills Network",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-14",
+    "excerpt": "Hello everyone! The first product/app of TI Skills Network is live!",
+    "category": "Updates",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/TI-Support-Match-Now-Live-First-App-Release-from-TI-Skills-Network.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/TI-Support-Match-Now-Live-First-App-Release-from-TI-Skills-Network-Hello-everyone-The-first-product-app-of-TI-Skills",
       "originalDate": "2025-09-14",
       "status": "erased",
       "kind": "space-post"
@@ -26250,44 +26250,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "pedigree101/help-design-the-app-your-top-two-apps",
-    "title": "Help design the app: your top two apps",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-25",
-    "excerpt": "I am thinking through app designs for the TI Skills Network app.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/help-design-the-app-your-top-two-apps.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/I-am-thinking-through-app-designs-for-the-TI-Skills-Network-app-What-are-the-top-two-apps-you-enjoy-to-use",
-      "originalDate": "2025-08-25",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "pedigree101/myrtle-beach-meetup",
-    "title": "Myrtle Beach meetup?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-25",
-    "excerpt": "Anyone in Myrtle Beach, South Carolina? Brandy B. NthePink is looking to meet up.",
-    "category": "Events",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/myrtle-beach-meetup.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/Anyone-in-Myrtle-Beach-South-Carolina-Brandy-B-NthePink-https-www-quora-com-profile-Brandy-B-NthePink-is-lookin",
-      "originalDate": "2025-08-25",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
     "slug": "farah-brunache/gamers-any-tis-who-are-gamers",
     "title": "Gamers Any TIs who are gamers?",
     "repo": "chargingthefuture/wiki-site",
@@ -26339,6 +26301,44 @@ export const ARTICLES: ArticleMeta[] = [
       "source": "quora",
       "account": "farah-brunache",
       "originalUrl": "https://skillseconomy.quora.com/With-a-circular-economy-of-TIs-the-below-will-slowly-no-longer-matter-https-www-quora-com-profile-CosmicWanderer-Has",
+      "originalDate": "2025-08-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/help-design-the-app-your-top-two-apps",
+    "title": "Help design the app: your top two apps",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-25",
+    "excerpt": "I am thinking through app designs for the TI Skills Network app.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/help-design-the-app-your-top-two-apps.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/I-am-thinking-through-app-designs-for-the-TI-Skills-Network-app-What-are-the-top-two-apps-you-enjoy-to-use",
+      "originalDate": "2025-08-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/myrtle-beach-meetup",
+    "title": "Myrtle Beach meetup?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-25",
+    "excerpt": "Anyone in Myrtle Beach, South Carolina? Brandy B. NthePink is looking to meet up.",
+    "category": "Events",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/myrtle-beach-meetup.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Anyone-in-Myrtle-Beach-South-Carolina-Brandy-B-NthePink-https-www-quora-com-profile-Brandy-B-NthePink-is-lookin",
       "originalDate": "2025-08-25",
       "status": "erased",
       "kind": "space-post"

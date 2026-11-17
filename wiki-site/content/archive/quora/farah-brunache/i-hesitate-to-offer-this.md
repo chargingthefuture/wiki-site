@@ -12,7 +12,7 @@ archive:
   original_date: "2025-12-04"
   status: "erased"
 ---
-I hesitate to offer this. However, if you are a “Verified” TI and would like an app built for you to service your customers, I am available. It is possible as a TI to build something meaningful, amongst a population size of 5 million.
+I hesitate to offer this. However, if you are a “Verified” TI and would like an app built for you to service your customers, I am available. It is possible as a TI to build something meaningful, among a population size of 5 million.
 
 Here is the rationale.
 

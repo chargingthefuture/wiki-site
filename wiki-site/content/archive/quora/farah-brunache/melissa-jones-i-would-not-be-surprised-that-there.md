@@ -12,7 +12,7 @@ archive:
   original_date: "2026-01-16"
   status: "erased"
 ---
-[Melissa Jones](https://www.quora.com/profile/Melissa-Jones-1673) I would not be surprised that there are more sociopaths than psychopaths. Seeing how the Specterati behave; they are “breeding” amongst themselves (when they are not honey potting) and indoctrinating children as young as two years old to be sociopaths in the from of stalking and terrorizing fellow children and adults alike.
+[Melissa Jones](https://www.quora.com/profile/Melissa-Jones-1673) I would not be surprised that there are more sociopaths than psychopaths. Seeing how the Specterati behave; they are “breeding” among themselves (when they are not honey potting) and indoctrinating children as young as two years old to be sociopaths in the from of stalking and terrorizing fellow children and adults alike.
 
 That aside, high time as Targets we live free. And focus on our own communities and their prosperity.
 

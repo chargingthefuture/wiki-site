@@ -12,7 +12,7 @@ archive:
   original_date: "2026-01-16"
   status: "erased"
 ---
-[Genesis Gardner](https://www.quora.com/profile/Genesis-Gardner-3) have we connected yet?! You are the first TI that I have read on Quora that knows there are millions of us around the world. I am trying to get us to coordinate housing, transportation, jobs and more amongst each other. Please take a look!
+[Genesis Gardner](https://www.quora.com/profile/Genesis-Gardner-3) have we connected yet?! You are the first TI that I have read on Quora that knows there are millions of us around the world. I am trying to get us to coordinate housing, transportation, jobs and more among each other. Please take a look!
 
 Here are the 40+ problems the TI Skills Economy (TSE) fixes for TIs:
 

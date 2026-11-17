@@ -44,6 +44,6 @@ HVAC systems are crucial for maintaining a comfortable and healthy indoor enviro
 
 ###
 
-I am highlighting TIs I discover on Quora. Why? Because all TIs have skills that can be leveraged for good and specifically for a TI economy. Let us exchange goods and services amongst each other. If I highlight you, and you do not want it, let me know and I will delete the post.
+I am highlighting TIs I discover on Quora. Why? Because all TIs have skills that can be leveraged for good and specifically for a TI economy. Let us exchange goods and services among each other. If I highlight you, and you do not want it, let me know and I will delete the post.
 
 [Tommy Gumbert](https://www.quora.com/profile/Tommy-Gumbert) would you like to be added to the TI directory I made? Other TIs would you like your name or pseudo name added to the directory along with your skill? If so, let me know. Why? So we do business with each other and not gstalkers and build authentic friendships. Let’s go!

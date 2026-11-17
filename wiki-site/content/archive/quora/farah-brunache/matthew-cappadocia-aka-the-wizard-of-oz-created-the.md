@@ -16,4 +16,4 @@ archive:
 
 [https://www.google.com/maps/d/u/...](https://www.quora.com/_/redirect?sig=9ae3ba&url=https://www.google.com/maps/d/u/0/viewer?ll%3D2.443219040284556%252C0%26z%3D2%26mid%3D1m5XC86gWoes1U_UaP-tPkP2B-TeyYmc)
 
-I estimate that there are at least 5 MILLION of us globally. I created the first peer-to-peer economy amongst us all, facilitated through one app: [https://chargingthefuture.com](https://www.quora.com/_/redirect?sig=fef482&url=https://chargingthefuture.com/). We should no longer go it alone.
+I estimate that there are at least 5 MILLION of us globally. I created the first peer-to-peer economy among us all, facilitated through one app: [https://chargingthefuture.com](https://www.quora.com/_/redirect?sig=fef482&url=https://chargingthefuture.com/). We should no longer go it alone.

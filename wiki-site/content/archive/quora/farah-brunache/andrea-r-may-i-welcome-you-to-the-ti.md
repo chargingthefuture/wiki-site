@@ -18,4 +18,4 @@ Here is your profile:
 
 [https://app.chargingthefuture.co...](https://www.quora.com/_/redirect?sig=2714eb&url=https://app.chargingthefuture.com/apps/directory/public/771da7b0-e012-47c6-8769-7b64f3dd811c)
 
-We are a group of TIs IRL and online that trade our skills, goods, and services amongst each other to exit the psy-op. Create an account at [psyop-free - Live, Work, Prevail](https://www.quora.com/_/redirect?sig=959443&url=https://app.chargingthefuture.com) , and you can edit the above profile as you like.
+We are a group of TIs IRL and online that trade our skills, goods, and services among each other to exit the psy-op. Create an account at [psyop-free - Live, Work, Prevail](https://www.quora.com/_/redirect?sig=959443&url=https://app.chargingthefuture.com) , and you can edit the above profile as you like.

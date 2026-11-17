@@ -22,6 +22,6 @@ If interested, please reach out to them directly. Or comment below.
 
 ###
 
-I am highlighting TIs I discover on Quora. Why? Because all TIs have skills that can be leveraged for good, and specifically for a TI economy. Let us exchange goods and services amongst each other. If I highlight you, and you do not want it, let me know, and I will delete the post.
+I am highlighting TIs I discover on Quora. Why? Because all TIs have skills that can be leveraged for good, and specifically for a TI economy. Let us exchange goods and services among each other. If I highlight you, and you do not want it, let me know, and I will delete the post.
 
 [https://chargingthefuture.discou...](https://www.quora.com/_/redirect?sig=f28efb&url=https://chargingthefuture.discourse.group/t/ti-of-the-day-ione/76?u%3Dfarah)

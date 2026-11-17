@@ -24,7 +24,7 @@ Services of the TI Skills Economy
 
 🛠️ MechanicMatch: Connect with trusted mechanics when your car breaks down or is tampered with
 
-💼 Workforce Recruiter: Review the collective skillset of the TI Skills Economy and find or expand your career amongst TIs
+💼 Workforce Recruiter: Review the collective skillset of the TI Skills Economy and find or expand your career among TIs
 
 🫂 SupportMatch: Find accountability partners who understand
 
