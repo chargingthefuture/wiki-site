@@ -40,6 +40,8 @@ type PostEntry = {
   date: string;
   collection: string;
   url: string;
+  // The post's teaser, or its excerpt when it has none: what the app's story cards show.
+  teaser: string | null;
   text: string;
 };
 
@@ -58,6 +60,7 @@ function main() {
         date: page.date,
         collection: page.collection as string,
         url: `${SITE}/${repo}/${encodeURIComponent(page.slug)}`,
+        teaser: page.teaser || page.excerpt || null,
         text: toPasteable(raw),
       };
     })

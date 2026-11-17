@@ -19,6 +19,8 @@ export type FeedPage = {
   path?: string;
   number?: number;
   listed?: boolean;
+  teaser?: string;
+  excerpt?: string;
 };
 
 export function feedOrder(wikiRoot: string): FeedPage[] {
