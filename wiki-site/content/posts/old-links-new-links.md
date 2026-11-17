@@ -1,15 +1,15 @@
 ---
 title: "Old links, new links"
-date: "2026-11-10"
-excerpt: "Eighty-two accounts erased, twenty-four of them since October 1, and three handles open now. What is live, what is dead, and the one address that never changes."
+date: "2026-11-17"
+excerpt: "Eighty-three accounts erased, twenty-five of them since October 1, and three handles open now. What is live, what is dead, and the one address that never changes."
 category: "Community"
-teaser: "Quora has erased my accounts eighty-two times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Twenty-four of those came after October 1. The latest ban landed on November 4, and three handles are open now. This page is the standing record: the live handles, the retired ones, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
+teaser: "Quora has erased my accounts eighty-three times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Twenty-five of those came after October 1. The latest ban landed on November 17, and three handles are open now. This page is the standing record: the live handles, the retired ones, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
 topics:
   - publishing
   - platform-independence
 ---
 
-Quora has erased my accounts eighty-two times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
+Quora has erased my accounts eighty-three times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
 
 There are three handles of mine open on Quora, listed below. Every other handle on this page is dead or retired.
 
@@ -71,7 +71,7 @@ https://www.quora.com/profile/kingmonk — my eleventh handle, opened on August 
 
 https://www.quora.com/profile/king900 — my twelfth handle, opened on August 28, 2026, the day the eleventh was banned, and banned by Quora Moderation at 5:02 in the morning on August 30, 2026. Two days. The notice arrived twice, a minute apart.
 
-Then sixty-seven more, in the order they were opened. I stopped writing the dates down one at a time, because by then a handle lasting a day was ordinary. They are back now, taken from the notices in my mail. One of them, kingpyramid, has its ban and not its opening, and says so; the notice for that one is gone. Every one of these addresses is a dead link somebody may still be holding.
+Then sixty-eight more, in the order they were opened. I stopped writing the dates down one at a time, because by then a handle lasting a day was ordinary. They are back now, taken from the notices in my mail. One of them, kingpyramid, has its ban and not its opening, and says so; the notice for that one is gone. Every one of these addresses is a dead link somebody may still be holding.
 
 https://www.quora.com/profile/kingplaza-1 — opened at 9:01 in the evening on August 30, 2026, the same day king900 was banned before six that morning, and banned the same minute. Both notices are stamped 9:01, the confirmation at 9:01 and 49 seconds. It is the shortest life on this page and nothing else is close.
 
@@ -211,6 +211,8 @@ https://www.quora.com/profile/Kingishere-17 — opened at 10:34 at night on Nove
 
 https://www.quora.com/profile/Kingisback-3 — opened at 2:02 in the morning on November 4, 2026, and banned by Quora Moderation at 8:33 that evening. Eighteen and a half hours.
 
+https://www.quora.com/profile/Kingishere-21 — opened at 11:31 in the morning on November 16, 2026, and banned by Quora Moderation at 9:29 the next morning. Just under twenty-two hours. It was a contributor to https://titoday.quora.com.
+
 One more does not fit the order above.
 
 https://www.quora.com/profile/Swiftness-8 — opened around the same time as pedigree101, and not used until farah-brunache was banned on August 16, 2026. Banned by Quora Moderation at 1:28 in the morning on November 4, 2026.
@@ -251,4 +253,4 @@ The old GitHub wiki — an inactive mirror. It no longer receives updates; this 
 
 Nothing is written on a platform first anymore. Every post starts here, and platforms only ever get a short version and a link back. So the next time an account is erased — and I assume there will be a next time — the cost is one entry moving from the current list to the dead list on this page. That is all.
 
-Since this page first went up, that has happened eighty times. The list above is current, and the three handles open now are the entries waiting to move onto it.
+Since this page first went up, that has happened eighty-one times. The list above is current, and the three handles open now are the entries waiting to move onto it.
