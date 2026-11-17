@@ -108,9 +108,9 @@ export default function Record() {
   );
 
   const entries = useMemo<RecordEntry[]>(() => {
-    // Number first, filter second. An entry's number is its place in the whole
-    // Record, oldest No. 1 — the same number RECORD_QA_QUEUE.md carries — so it
-    // must not shift because a filter or a search is on. Numbering after
+    // Number first, filter second. An entry's number is its place across the
+    // entire Record, oldest No. 1 — the same number RECORD_QA_QUEUE.md carries
+    // — so it must not shift because a filter or a search is on. Numbering after
     // filtering made "No. 3" mean a different entry under every filter.
     const numbered = all.map((article, i) => ({ article, number: i + 1 }));
     const kept = numbered.filter(
