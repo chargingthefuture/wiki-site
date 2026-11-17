@@ -32,7 +32,7 @@ If you are thinking of reporting any of it, [Who to report it to](https://chargi
 
 ## Somebody who believes you
 
-The [Commons](https://app.lagatos.com) is a group chat of other Targeted Individuals. Nobody there needs the first hour of a conversation spent on whether it is happening.
+The [Commons](https://app.lagatos.com/commons) is a group chat of other Targeted Individuals. Nobody there needs the first hour of a conversation spent on whether it is happening.
 
 ## Help with the week
 

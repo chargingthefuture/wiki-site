@@ -24,7 +24,11 @@ export function Layout({ children }: { children: React.ReactNode }) {
             </Link>
 
             {/* Desktop Nav */}
-            <nav className="hidden md:flex items-center gap-8">
+            {/* The brand block cannot wrap or shrink (both lines are nowrap), and the
+                four links plus the button and toggle need the rest of the row. Below
+                xl they do not both fit, so the menu button serves that range instead
+                of the two sliding over each other. */}
+            <nav className="hidden xl:flex items-center gap-8">
               <Link href="/" className="font-heading font-bold text-lg uppercase hover:text-primary transition-colors">
                 Transmissions
               </Link>
@@ -45,7 +49,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
             {/* Mobile Menu Button */}
             <button 
-              className="md:hidden p-2 text-white hover:text-primary"
+              className="xl:hidden p-2 text-white hover:text-primary"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
@@ -55,7 +59,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
         {/* Mobile Nav */}
         {isMenuOpen && (
-          <nav className="md:hidden border-t border-border bg-card p-4 flex flex-col gap-4">
+          <nav className="xl:hidden border-t border-border bg-card p-4 flex flex-col gap-4">
             <Link href="/" onClick={() => setIsMenuOpen(false)} className="font-heading font-bold text-xl uppercase block p-2 border-b-2 border-border">
               Transmissions (Blog)
             </Link>

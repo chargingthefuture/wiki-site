@@ -44,7 +44,7 @@ This is the largest of the four and the slowest, which is why it is third. It is
 
 ## 4. Stay connected, especially when it is quiet
 
-A quiet stretch is when people drift into having nobody, and a name on the list is not taken off. [Commons](https://app.lagatos.com) is the group chat, full of people who do not need it explained. [Where to go for help](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/where-to-go-for-help) lists who helps with what.
+A quiet stretch is when people drift into having nobody, and a name on the list is not taken off. [Commons](https://app.lagatos.com/commons) is the group chat, full of people who do not need it explained. [Where to go for help](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/where-to-go-for-help) lists who helps with what.
 
 ## Why this order
 

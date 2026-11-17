@@ -1,7 +1,7 @@
 ---
-title: "Their a perp. There is no removing your name."
+title: "They're a perp. There is no removing your name."
 date: "2024-12-02"
-excerpt: "Their a perp. There is no removing your name."
+excerpt: "They're a perp. There is no removing your name."
 category: "Community"
 listed: false
 archive:
@@ -13,4 +13,4 @@ archive:
   status: "erased"
 ---
 
-Their a perp. There is no removing your name.
+They're a perp. There is no removing your name.

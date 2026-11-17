@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Link, useSearch } from "wouter";
 import { useQuery } from "@tanstack/react-query";
 import { Video } from "lucide-react";
@@ -85,6 +86,14 @@ export default function Streams() {
     queryKey: ["beacon-replays", requestedPage],
     queryFn: () => fetchReplays(requestedPage),
   });
+
+  // A link from a Watch card in the app ends in #<replay id>. The list arrives after the page
+  // loads, so the browser cannot jump to it on its own; scroll to it once it is on screen.
+  useEffect(() => {
+    const id = decodeURIComponent(window.location.hash.slice(1));
+    if (!data || !id) return;
+    document.getElementById(id)?.scrollIntoView({ block: "start" });
+  }, [data]);
 
   const page = data?.page ?? requestedPage;
   const pageCount = data?.pageCount ?? 1;

@@ -54,7 +54,7 @@ The part of the question about exposing it is real, and the answer is smaller an
 
 Nobody I know has made it stop by exposing it, and [what can be stopped](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/what-can-be-stopped) is what it costs you. What one person can produce is a dated record, kept as it happens, over months. A single report carries one incident; a record carries the pattern, and the pattern is the only thing an outsider has ever found persuasive. [ClickLog](https://app.lagatos.com/apps/click-log) takes about fifteen seconds an incident, and the shared totals, with nobody's notes and nobody's location, are published for anybody to use.
 
-That is also where directed energy attacks belong. There is [a list of every kind](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/dew-attack-types), built so each one can be logged under its own name, and survivors add to it in the [Commons](https://app.lagatos.com). I do not have a defense against them to offer, and I am not going to write one I do not have. What I have is a way to make them count in a record that nobody can tell you is in your head.
+That is also where directed energy attacks belong. There is [a list of every kind](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/dew-attack-types), built so each one can be logged under its own name, and survivors add to it in the [Commons](https://app.lagatos.com/commons). I do not have a defense against them to offer, and I am not going to write one I do not have. What I have is a way to make them count in a record that nobody can tell you is in your head.
 
 So: unite around what you can do for each other, defend yourselves with the method they use, and keep the record. Who is behind it can stay an open question. It has been one for centuries, and nobody needs it answered to do any of the three.
 
@@ -62,6 +62,6 @@ So: unite around what you can do for each other, defend yourselves with the meth
 
 - [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 - [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
-- [Commons](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Commons](https://app.lagatos.com/commons) — [guide](https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

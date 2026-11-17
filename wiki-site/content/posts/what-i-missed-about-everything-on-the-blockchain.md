@@ -79,7 +79,7 @@ You can get there by putting everything on a chain. You can also get there by bu
 
 ## Where to find it in the app
 
-- [Commons](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Commons](https://app.lagatos.com/commons) — [guide](https://app.lagatos.com/guide#commons)
 - [Chyme](https://app.lagatos.com/apps/chyme) — [guide](https://app.lagatos.com/guide#chyme)
 - [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
 - [TrustTransport](https://app.lagatos.com/apps/trust-transport) — [guide](https://app.lagatos.com/guide#trust-transport)

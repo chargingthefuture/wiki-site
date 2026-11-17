@@ -48,7 +48,7 @@ A record is for you before it is for anybody else. It lets you see the pattern y
 
 Often "who do I report this to" means "who can help me". That one has a better answer, and it is people.
 
-Being believed is a start, and the [Commons](https://app.lagatos.com) is a group chat of other Targeted Individuals. The help that changes a week is material: a ride from somebody who is not reporting on it, a room, an hour of a trade you do not have. The [Directory](https://app.lagatos.com/apps/directory) lists people and what they can do, and [Foundation](https://app.lagatos.com/apps/foundation) is where members offer and exchange that help.
+Being believed is a start, and the [Commons](https://app.lagatos.com/commons) is a group chat of other Targeted Individuals. The help that changes a week is material: a ride from somebody who is not reporting on it, a room, an hour of a trade you do not have. The [Directory](https://app.lagatos.com/apps/directory) lists people and what they can do, and [Foundation](https://app.lagatos.com/apps/foundation) is where members offer and exchange that help.
 
 None of that stops it on its own. It does mean not carrying it alone.
 

@@ -168,7 +168,8 @@ carries it, because the owner froze that page outright and that freeze has not b
 
 - Posts for the app's Daily Posts screen: `artifacts/wiki/public/posts.json`, written by
   `scripts/src/build-posts-json.ts` on `wiki:posts-json`, which both build scripts run. Every
-  listed post in `posts/` and `archive/quora/` with its `/feed` number, title, address and full
+  listed post in `posts/` and `archive/quora/` with its `/feed` number, title, address, teaser
+  (its front matter `teaser`, or `excerpt` when it has none; the app's story cards show it) and full
   text in the full paste sheet's plain-text form; invite posts are left out. The app's admin
   screen reads it to offer posts in a 30-day rotation and in theme groups (owner request,
   2026-11-02). Nothing on the site links to it. Build output like the feed: gitignored, never
@@ -802,7 +803,7 @@ Addresses, for a link in a new post or a fix to an old one:
 | Most plugins | `https://app.lagatos.com/apps/<slug>` |
 | Knowledge Library | `https://app.lagatos.com/knowledge` |
 | Unlock | `https://app.lagatos.com/plugin/unlock` |
-| Commons (the group chat) | `https://app.lagatos.com` |
+| Commons (the group chat) | `https://app.lagatos.com/commons` |
 
 There is no redirect from chargingthefuture.com (owner decision, 2026-11-03): the 3.0 design still
 runs there alongside 3.1 at lagatos.com, so an old link lands a reader in the old design instead of

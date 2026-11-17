@@ -53,6 +53,6 @@ Everything above works without it, and stays free.
 - [Workforce](https://app.lagatos.com/apps/workforce) — [guide](https://app.lagatos.com/guide#workforce)
 - [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 - [PeerProgramming goal board](https://app.lagatos.com/apps/peer-programming?tab=goals) — [guide](https://app.lagatos.com/guide#peer-programming)
-- [Commons](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Commons](https://app.lagatos.com/commons) — [guide](https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

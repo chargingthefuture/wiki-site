@@ -58,7 +58,7 @@ The posts linked here carry the rest of the detail.
 - [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 - [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
 - [LightHouse](https://app.lagatos.com/apps/lighthouse) — [guide](https://app.lagatos.com/guide#lighthouse)
-- [Commons](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Commons](https://app.lagatos.com/commons) — [guide](https://app.lagatos.com/guide#commons)
 
 The full schemes list is public: [lagatos.com/schemes](https://lagatos.com/schemes).
 

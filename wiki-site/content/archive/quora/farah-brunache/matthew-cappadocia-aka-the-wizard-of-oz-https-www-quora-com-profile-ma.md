@@ -1,5 +1,5 @@
 ---
-title: "Matthew Cappadocia aka The Wizard of Oz https www quora com profile Matthew Cappadocia aka The Wizard of Oz…"
+title: "Matthew Cappadocia (aka The Wizard of Oz) your byline changed, does this mean it was a bot post?"
 date: "2024-10-31"
 excerpt: "Matthew Cappadocia (aka The Wizard of Oz) your byline changed, does this mean it was a bot post? I thought that line dynamically changes and is not static to a time period."
 category: "Community"
@@ -12,8 +12,6 @@ archive:
   original_date: "2024-10-31"
   status: "erased"
   space: "US-PSYOPS-TARGETED-INDIVIDUALS"
-  shared_to:
-    - "US-PSYOPS-TARGETED-INDIVIDUALS"
 ---
 
 Matthew Cappadocia (aka The Wizard of Oz) (https://www.quora.com/profile/Matthew-Cappadocia-aka-The-Wizard-of-Oz) your byline changed, does this mean it was a bot post? I thought that line dynamically changes and is not static to a time period. I want to make sure I do not engage with bots.
