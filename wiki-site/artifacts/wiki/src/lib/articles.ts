@@ -11368,6 +11368,25 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "pedigree101/TI-Support-Match-Now-Live-First-App-Release-from-TI-Skills-Network",
+    "title": "TI Support Match Now Live! First App Release from TI Skills Network",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-14",
+    "excerpt": "Hello everyone! The first product/app of TI Skills Network is live!",
+    "category": "Updates",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/TI-Support-Match-Now-Live-First-App-Release-from-TI-Skills-Network.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/TI-Support-Match-Now-Live-First-App-Release-from-TI-Skills-Network-Hello-everyone-The-first-product-app-of-TI-Skills",
+      "originalDate": "2025-09-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "pedigree101/how-do-you-know-if-you-re-being-gang-stalked",
     "title": "How do you know if you’re being gang stalked?",
     "repo": "chargingthefuture/wiki-site",
@@ -11591,6 +11610,44 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "pedigree101/a-weekly-ti-support-match-would-you-use-it",
+    "title": "A weekly TI support match — would you use it?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-07",
+    "excerpt": "Here is a suggestion based on your ask. I am an engineer so I am a natural problem solver.",
+    "category": "Platform",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/a-weekly-ti-support-match-would-you-use-it.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Here-is-a-suggestion-based-on-your-ask-I-am-an-engineer-so-I-am-a-natural-problem-solver-It-is-always-best-to-try-to",
+      "originalDate": "2025-09-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/what-counts-as-fake-help-from-a-gstalker",
+    "title": "What counts as fake help from a gstalker?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-07",
+    "excerpt": "Not to be impersonal, but this group is more transactional and high touch.",
+    "category": "Insights",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/what-counts-as-fake-help-from-a-gstalker.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Not-to-be-in-personal-but-this-group-is-more-transactional-and-high-touch-My-believe-is-this-will-reduce-perps-in-this",
+      "originalDate": "2025-09-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "pedigree101/is-it-possible-i-ve-always-been-stalked-but-just-didn-t-notice-till-6-2",
     "title": "Is it possible I've always been stalked but just didn't notice till 6 years ago?",
     "repo": "chargingthefuture/wiki-site",
@@ -11611,6 +11668,44 @@ export const ARTICLES: ArticleMeta[] = [
       "sharedTo": [
         "US-PSYOPS-TARGETED-INDIVIDUALS"
       ]
+    }
+  },
+  {
+    "slug": "pedigree101/a-signal-group-for-tis-doing-clinical-trials",
+    "title": "A Signal group for TIs doing clinical trials",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-06",
+    "excerpt": "For those serious about doing clinical trials, I have created a Signal chat group (Signal.org) to discuss tips that I cannot post here.",
+    "category": "Services",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/a-signal-group-for-tis-doing-clinical-trials.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/For-those-serious-about-doing-clinical-trials-I-have-created-a-Signal-chat-group-Signal-org-to-discuss-tips-that-I-can",
+      "originalDate": "2025-09-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/should-i-create-a-signal-group-for-each-initiative",
+    "title": "Should I create a Signal group for each initiative?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-06",
+    "excerpt": "Please look at what I am doing at TI Skills Network (TSN). It is a solution-oriented space.",
+    "category": "Updates",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/should-i-create-a-signal-group-for-each-initiative.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Please-look-at-what-I-am-doing-at-TI-Skills-Network-TSN-It-is-a-solution-oriented-space-https-tiskillsnetwork-quo",
+      "originalDate": "2025-09-06",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -11748,6 +11843,63 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "pedigree101/existing-ti-spaces-versus-a-solutions-space",
+    "title": "Existing TI spaces versus a solutions space",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-05",
+    "excerpt": "I think existing TI spaces are beneficial. At the same time, it is correct I would not be able to get direct assistance.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/existing-ti-spaces-versus-a-solutions-space.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/I-think-existing-TI-spaces-are-beneficial-At-the-same-time-it-is-correct-I-would-not-be-able-to-get-direct-assistance",
+      "originalDate": "2025-09-05",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/general-rundown-of-clinical-trials",
+    "title": "General rundown of clinical trials",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-05",
+    "excerpt": "General Rundown of Clinical Trials *For TI-specific tips I will only share them in a private Signal chat group.",
+    "category": "Guides",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/general-rundown-of-clinical-trials.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/General-Rundown-of-Clinical-Trials-For-TI-specific-tips-I-will-only-share-them-in-a-private-Signal-chat-group-By-TI-t",
+      "originalDate": "2025-09-05",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/why-tis-should-not-avoid-each-other",
+    "title": "Why TIs should not avoid each other",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-05",
+    "excerpt": "My life got better because of meeting other TIs. The below statement regarding experiencing DEW and street stalking, in italics, is not correct and I can",
+    "category": "Insights",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/why-tis-should-not-avoid-each-other.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/My-life-got-better-because-of-meeting-other-TIs-The-below-statement-regarding-experiencing-DEW-and-street-stalking-in",
+      "originalDate": "2025-09-05",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "pedigree101/does-being-gang-stalked-make-you-feel-ashamed-3",
     "title": "Does being gang stalked make you feel ashamed",
     "repo": "chargingthefuture/wiki-site",
@@ -11882,6 +12034,44 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "pedigree101/i-call-bullshit-on-the-targeted-justice-document",
+    "title": "I call bullshit on the Targeted Justice document",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-04",
+    "excerpt": "I call bullshit. - “I can call my friend to verify the answer.” Handlers are allowing her, a “former” TI, to speak on the phone about it to a street stalker.",
+    "category": "Insights",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/i-call-bullshit-on-the-targeted-justice-document.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/I-call-bullshit-I-can-call-my-friend-to-verify-the-answer-Handlers-are-allowing-her-a-former-TI-to-speak-on",
+      "originalDate": "2025-09-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/one-night-hosting-baltimore-or-new-jersey",
+    "title": "One-night hosting: Baltimore or New Jersey?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-04",
+    "excerpt": "Any TIs that can host me in either Baltimore, Maryland or New Jersey for one night each?",
+    "category": "Services",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/one-night-hosting-baltimore-or-new-jersey.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Any-TIs-that-can-host-me-in-either-Baltimore-Maryland-or-New-Jersey-for-one-night-each-I-have-contract-work-in-both-st",
+      "originalDate": "2025-09-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "pedigree101/i-hope-everyone-is-doing-well-holding-on",
     "title": "I HOPE EVERYONE IS DOING WELL HOLDING ON",
     "repo": "chargingthefuture/wiki-site",
@@ -11917,6 +12107,25 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-09-04",
       "status": "erased",
       "kind": "answer-comment"
+    }
+  },
+  {
+    "slug": "pedigree101/the-only-two-reasons-people-get-gang-stalked",
+    "title": "The only two reasons people get gang stalked",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-03",
+    "excerpt": "I have not read all TI Quora posts, but I have read a lot. Only two people got it right.",
+    "category": "Insights",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/the-only-two-reasons-people-get-gang-stalked.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/I-have-not-read-all-TI-Quora-posts-but-I-have-read-a-lot-Only-two-people-got-it-right-There-are-only-two-reasons-to-b",
+      "originalDate": "2025-09-03",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -12335,6 +12544,63 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "pedigree101/launching-a-ti-tv-network",
+    "title": "Launching a TI TV Network",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-31",
+    "excerpt": "TLDR; Submit audio or video for a TI TV Network! Recycled content acceptable.",
+    "category": "Updates",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/launching-a-ti-tv-network.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/TLDR-Submit-audio-or-video-for-a-TI-TV-Network-Recycled-content-acceptable-TI-Skills-Network-is-not-a-month-old",
+      "originalDate": "2025-08-31",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/low-effort-content-high-value-return",
+    "title": "Low-effort content, high-value return",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-31",
+    "excerpt": "Example of low-effort content with high-value return: you can record yourself talking about a topic for 10 minutes.",
+    "category": "Guides",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/low-effort-content-high-value-return.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Example-of-low-effort-content-with-high-value-return-you-can-record-yourself-talking-about-a-topic-for-10-minutes-That",
+      "originalDate": "2025-08-31",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/our-own-network-cant-be-psyopd",
+    "title": "Our own network can't be psyop'd",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-31",
+    "excerpt": "With our own network we won’t have to worry about being psyop’d!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/our-own-network-cant-be-psyopd.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/With-our-own-network-we-won-t-have-to-worry-about-being-psyop-d-Check-out-my-post-under-separate-thread-about-the-TI-TV",
+      "originalDate": "2025-08-31",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/how-many-tis-are-in-pennsylvania-or-the-tri-state-area-3",
     "title": "How many TIs are in Pennsylvania or the Tri-State area?",
     "repo": "chargingthefuture/wiki-site",
@@ -12717,6 +12983,44 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "pedigree101/any-tis-that-own-scooters",
+    "title": "Any TIs that own scooters?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-28",
+    "excerpt": "Any TIs that own scooters? In line with matching TIs to drivers (like Uber), I would like to rent scooters.",
+    "category": "Services",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/any-tis-that-own-scooters.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Any-TIs-that-own-scooters-In-line-with-matching-TIs-to-drivers-like-Uber-I-would-like-to-rent-scooters-Since-I-tra",
+      "originalDate": "2025-08-28",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/warbag-the-essential-items-list",
+    "title": "Warbag: the essential items list",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-28",
+    "excerpt": "Warbag Let us do a running list. What are essential items? As the comments come in, I will add them here.",
+    "category": "Guides",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/warbag-the-essential-items-list.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Warbag-Let-us-do-a-running-list-What-are-essential-items-As-the-comments-come-in-I-will-add-them-here-Try-to-be-as",
+      "originalDate": "2025-08-28",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "pedigree101/how-can-a-19-year-old-boy-in-the-sense-of-targeted-individual-ensure-p-2",
     "title": "How can a 19 year old boy in the sense of Targeted Individual ensure personal development e g for future…",
     "repo": "chargingthefuture/wiki-site",
@@ -12950,6 +13254,44 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "pedigree101/help-design-the-app-your-top-two-apps",
+    "title": "Help design the app: your top two apps",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-25",
+    "excerpt": "I am thinking through app designs for the TI Skills Network app.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/help-design-the-app-your-top-two-apps.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/I-am-thinking-through-app-designs-for-the-TI-Skills-Network-app-What-are-the-top-two-apps-you-enjoy-to-use",
+      "originalDate": "2025-08-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/myrtle-beach-meetup",
+    "title": "Myrtle Beach meetup?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-25",
+    "excerpt": "Anyone in Myrtle Beach, South Carolina? Brandy B. NthePink is looking to meet up.",
+    "category": "Events",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/myrtle-beach-meetup.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Anyone-in-Myrtle-Beach-South-Carolina-Brandy-B-NthePink-https-www-quora-com-profile-Brandy-B-NthePink-is-lookin",
+      "originalDate": "2025-08-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/how-many-tis-are-in-pennsylvania-or-the-tri-state-area-2",
     "title": "How many TIs are in Pennsylvania or the Tri State area",
     "repo": "chargingthefuture/wiki-site",
@@ -13109,6 +13451,25 @@ export const ARTICLES: ArticleMeta[] = [
       "sharedTo": [
         "Targeted Individuals - Get Answers"
       ]
+    }
+  },
+  {
+    "slug": "pedigree101/community-blunts-most-of-their-attacks",
+    "title": "Community blunts most of their attacks",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-24",
+    "excerpt": "Very true. Notice how all but employment and DEWs cannot be attacked if you are in a combination of online and offline community of TIs.",
+    "category": "Insights",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/community-blunts-most-of-their-attacks.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Very-true-Notice-how-all-but-employment-and-DEWs-cannot-be-attacked-if-you-are-in-a-combination-of-online-and-offline-c",
+      "originalDate": "2025-08-24",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -13277,6 +13638,44 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "pedigree101/feature-your-good-or-service",
+    "title": "Feature your good or service",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-22",
+    "excerpt": "Feature Your Good or Service If you would like to be featured, you may request to be a contributor to make a post of your own featuring the goods and",
+    "category": "Updates",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/feature-your-good-or-service.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Feature-Your-Good-or-Service-If-you-would-like-to-be-featured-You-may-request-to-be-a-contributor-to-make-a-post-of-yo",
+      "originalDate": "2025-08-22",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/featured-ti-of-the-day-custom-shirts-and-banners",
+    "title": "Featured TI of the Day: custom shirts and banners",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-22",
+    "excerpt": "Featured TI of the Day, Because of Him, i Am. In the spirit of this space being a TI version of Craigslist.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/featured-ti-of-the-day-custom-shirts-and-banners.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Featured-TI-of-the-Day-00-https-www-quora-com-profile-00-661-In-the-spirit-of-this-space-being-a-TI-version-of-C",
+      "originalDate": "2025-08-22",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "pedigree101/were-gang-stalkers-ever-stalked-themselves-2",
     "title": "Were gang stalkers ever stalked themselves?",
     "repo": "chargingthefuture/wiki-site",
@@ -13297,6 +13696,25 @@ export const ARTICLES: ArticleMeta[] = [
       "sharedTo": [
         "US-PSYOPS-TARGETED-INDIVIDUALS"
       ]
+    }
+  },
+  {
+    "slug": "pedigree101/any-profession-can-be-a-gang-stalker",
+    "title": "Any profession can be a gang stalker",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-21",
+    "excerpt": "Celebrities, influencers, entertainers, content creators, ANY type of profession is gang stalking.",
+    "category": "Insights",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/any-profession-can-be-a-gang-stalker.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Celebrities-influencers-entertainers-content-creators-ANY-type-of-profession-is-gang-stalking-I-also-have-the-same",
+      "originalDate": "2025-08-21",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -13472,6 +13890,82 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "pedigree101/deny-them-both",
+    "title": "Deny them both",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-19",
+    "excerpt": "Shameless plug. I like this response. Rather than retaliate, join a TI circular economy, like here.",
+    "category": "Insights",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/deny-them-both.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Shameless-plug-I-like-this-response-Rather-than-retaliate-join-a-TI-circular-economy-like-here-They-want-you-to-no",
+      "originalDate": "2025-08-19",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/europe-only-connect-here",
+    "title": "Europe only: connect here",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-19",
+    "excerpt": "For those in Europe, please comment on how you would like to connect.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/europe-only-connect-here.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Europe-only",
+      "originalDate": "2025-08-19",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/how-i-moderate-this-space",
+    "title": "How I moderate this space",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-19",
+    "excerpt": "A low-life gang stalker* once said we live in an impersonal world.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/how-i-moderate-this-space.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/A-low-life-gang-stalker-once-said-we-live-in-an-impersonal-world-I-am-positive-she-is-not-the-first-person-to-say-that",
+      "originalDate": "2025-08-19",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/why-i-discourage-storytelling-here",
+    "title": "Why I discourage storytelling here",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-19",
+    "excerpt": "The reason I discourage story telling in TI Skills Network, unless it is directly tied to an ask, is because there are a lot of spaces on Quora to vent,",
+    "category": "Philosophy",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/why-i-discourage-storytelling-here.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Proxy-gang-stalking",
+      "originalDate": "2025-08-19",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "pedigree101/how-do-gang-stalkers-recruit-2",
     "title": "How do gang stalkers recruit?",
     "repo": "chargingthefuture/wiki-site",
@@ -13636,6 +14130,25 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "pedigree101/a-place-to-turn-things-around",
+    "title": "A place to turn things around",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-16",
+    "excerpt": "I hope this space can prevent TIs from reaching this point. Or be the place where they can make a turn for the better mentally and financially.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/a-place-to-turn-things-around.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/I-hope-this-space-can-prevent-TIs-from-reaching-this-point-Or-be-the-place-where-they-can-make-a-turn-for-the-better-me",
+      "originalDate": "2025-08-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "pedigree101/https-www-quora-com-how-long-is-a-targeted-individual-gangstalked-does-2",
     "title": "https www quora com How long is a targeted individual gangstalked Does the gangstalking ever stop answer…",
     "repo": "chargingthefuture/wiki-site",
@@ -13692,6 +14205,25 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "answer",
       "question": "Is there a good form of gang stalking?"
+    }
+  },
+  {
+    "slug": "pedigree101/rewards-for-bringing-a-target-to-tears",
+    "title": "Rewards for bringing a target to tears",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-15",
+    "excerpt": "I found out later it was because they earn rewards for bringing a target to tears, and larger rewards if the target packs up and moves, or kills themselves,",
+    "category": "Insights",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/rewards-for-bringing-a-target-to-tears.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/I-found-out-later-it-was-because-they-earn-rewards-for-bringing-a-target-to-tears-and-larger-rewards-if-the-target-pack",
+      "originalDate": "2025-08-15",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -13827,6 +14359,63 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "answer",
       "question": "What are some common misconceptions about gang stalking, and why do people often associate it with spiritual battles?"
+    }
+  },
+  {
+    "slug": "pedigree101/getting-paid-for-clinical-trials-team-up",
+    "title": "Getting paid for clinical trials — team up",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-13",
+    "excerpt": "I am in Florida now. I travel and get paid to do clinical trials.",
+    "category": "Guides",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/getting-paid-for-clinical-trials-team-up.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/I-am-in-Florida-now-I-travel-and-get-paid-to-do-clinical-trials-I-can-show-any-TI-how-Especially-since-gstalkers-will",
+      "originalDate": "2025-08-13",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/tis-are-what-will-save-us",
+    "title": "TIs are what will save us",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-13",
+    "excerpt": "TIs is what is going to “save” us. Pedigree101's answer to What measures can the government take to prevent gang stalking?",
+    "category": "Advocacy",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/tis-are-what-will-save-us.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/TIs-is-what-is-going-to-save-us-https-www-quora-com-What-measures-can-the-government-take-to-prevent-gang-stalking",
+      "originalDate": "2025-08-13",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/two-steps-stop-seeking-validation-start-connecting",
+    "title": "Two steps: stop seeking validation, start connecting",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-13",
+    "excerpt": "Step 1: No more seeking validation from the gang stalkers and the low IQs who believe their slander.",
+    "category": "Insights",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/two-steps-stop-seeking-validation-start-connecting.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Step-1-No-more-seeking-validation-from-the-gang-stalkers-and-the-low-IQs-who-believe-their-slander-Step-2-Join-TI-Sk",
+      "originalDate": "2025-08-13",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -13990,6 +14579,44 @@ export const ARTICLES: ArticleMeta[] = [
       "sharedTo": [
         "AM's Space Gangstalking, Revenge for Hire, TIs"
       ]
+    }
+  },
+  {
+    "slug": "pedigree101/initiative-three-a-ti-uber-network",
+    "title": "Initiative three: a TI Uber network",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-11",
+    "excerpt": "I do NOT want to spend what little I make with gstalkers. As initiative #3, what TIs have managed to still have a car and want to be part of an “Uber”",
+    "category": "Services",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/initiative-three-a-ti-uber-network.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/I-do-NOT-want-to-spend-what-little-I-make-with-gstalkers-As-initiative-3-what-TIs-have-managed-to-still-have-a-car-an",
+      "originalDate": "2025-08-11",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/set-up-your-fintech-apps",
+    "title": "Set up your fintech apps",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-11",
+    "excerpt": "As a circular economy we need to be able to exchange money. Has everyone set up their fintech apps?",
+    "category": "Guides",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/set-up-your-fintech-apps.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/As-a-circular-economy-we-need-to-be-able-to-exchange-money-Has-everyone-set-up-their-fintech-apps-Cashapp-Venmo-PayP",
+      "originalDate": "2025-08-11",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -14166,6 +14793,44 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "pedigree101/research-ask-precedents-on-interstate-mobbing",
+    "title": "Research ask: precedents on interstate mobbing",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-09",
+    "excerpt": "This is a bit off topic. More of a research question. What precedents can you find on interstate mobbing?",
+    "category": "Resources",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/research-ask-precedents-on-interstate-mobbing.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/This-is-a-bit-off-topic-More-of-a-research-question-What-precedents-can-you-find-on-interstate-mobbing-Someone-share",
+      "originalDate": "2025-08-09",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/why-i-hesitated-to-create-this-space",
+    "title": "Why I hesitated to create this space",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-09",
+    "excerpt": "I hesitated to create this space. Because my opinions may be controversial about gang stalkers.",
+    "category": "Stories",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/why-i-hesitated-to-create-this-space.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/I-hesitated-to-create-this-space-Because-my-opinions-may-be-controversial-about-gang-stalkers-And-it-is-with-these-opi",
+      "originalDate": "2025-08-09",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "pedigree101/how-can-you-tell-if-someone-involved-in-gang-stalking-is-doing-it-out-2",
     "title": "How can you tell if someone involved in gang stalking is doing it out of desperation or if they genuinely…",
     "repo": "chargingthefuture/wiki-site",
@@ -14281,6 +14946,25 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "pedigree101/plasma-donations-same-day-cash-and-what-to-expect",
+    "title": "Plasma donations: same-day cash and what to expect",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-08",
+    "excerpt": "I only know one way that is low barrier to make same day cash $60-$100/day.",
+    "category": "Guides",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/plasma-donations-same-day-cash-and-what-to-expect.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/I-only-know-one-way-that-is-low-barrier-to-make-same-day-cash-60-100-day-Max-up-to-200-week-It-s-plasma-donations",
+      "originalDate": "2025-08-08",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "pedigree101/so-i-finally-get-it-the-link-between-my-indian-middle-eastern-stalkers",
     "title": "SO I FINALLY GET IT THE LINK BETWEEN MY INDIAN MIDDLE EASTERN STALKERS AND THE BLACK COMMUNITY OF STALKERS…",
     "repo": "chargingthefuture/wiki-site",
@@ -14297,6 +14981,101 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-08-08",
       "status": "erased",
       "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "pedigree101/kitty-dont-leave-quora",
+    "title": "Kitty, don't leave Quora",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-07",
+    "excerpt": "No! Kitty, do not leave Quora. There are real TIs here. I have met in person a TI from Quora and I have conversations with other ones that are real.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/kitty-dont-leave-quora.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/No-Kitty-do-not-leave-Quora-There-are-real-TIs-here-I-have-met-in-person-a-TI-from-Quora-and-I-have-conversations-wit",
+      "originalDate": "2025-08-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/new-survey-what-year-did-your-targeting-begin",
+    "title": "New survey: what year did your targeting begin?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-07",
+    "excerpt": "Here’s a new survey which is asking for the year you think your targeting began.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/new-survey-what-year-did-your-targeting-begin.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Here-s-a-new-survey-which-is-asking-for-the-year-you-think-your-targeting-began-The-results-of-this-will-be-interestin",
+      "originalDate": "2025-08-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/which-tis-are-or-used-to-be-lawyers",
+    "title": "Which TIs are or used to be lawyers?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-07",
+    "excerpt": "Continuing the theme of knowing what skills we have. Which TIs are or used to be lawyers?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/which-tis-are-or-used-to-be-lawyers.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Continuing-the-theme-of-knowing-what-skills-we-have-Which-TIs-are-or-use-to-be-lawyers",
+      "originalDate": "2025-08-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/why-tis-living-together-helps-us",
+    "title": "Why TIs living together helps us",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-07",
+    "excerpt": "This is why I am advocating for our own community or multiple TIs living together.",
+    "category": "Insights",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/why-tis-living-together-helps-us.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/This-is-why-I-am-advocating-for-our-own-community-or-multiple-TIs-living-together-Why-When-one-of-us-is-out-there-is",
+      "originalDate": "2025-08-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/why-tis-living-together-helps-us-revised",
+    "title": "Why TIs living together helps us (revised)",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-07",
+    "excerpt": "This is why I am advocating for our own community or multiple TIs living together.",
+    "category": "Insights",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/why-tis-living-together-helps-us-revised.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/This-is-why-I-am-advocating-for-our-own-community-or-multiple-TIs-living-together-Why-When-one-of-us-is-out-there-is-1",
+      "originalDate": "2025-08-07",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -14471,6 +15250,164 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-08-06",
       "status": "erased",
       "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/initiative-two-host-a-ti",
+    "title": "Initiative two: host a TI",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-06",
+    "excerpt": "Which TIs don’t want to relocate and can host an unhoused or willing-to-relocate TI?",
+    "category": "Services",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/initiative-two-host-a-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Which-TIs-don-t-want-to-relocate-and-can-host-an-unhoused-or-willing-to-relocate-TI-List-city-and-state-for-those-in",
+      "originalDate": "2025-08-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/learning-to-quote-a-post-on-quora",
+    "title": "Learning to quote a post on Quora",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-06",
+    "excerpt": "Let’s go! Can you tell I just learned today how to quote a post on Quora?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/learning-to-quote-a-post-on-quora.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Let-s-go-Can-you-tell-I-just-learned-today-how-to-quote-a-post-on-Quora-https-www-quora-com-Im-a-targeted-individ",
+      "originalDate": "2025-08-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/living-as-a-target-connecting-beyond-stories",
+    "title": "Living as a target — connecting beyond stories",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-06",
+    "excerpt": "This is a great answer about continuing to live as a Target.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/living-as-a-target-connecting-beyond-stories.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/This-is-a-great-answer-about-continuing-to-live-as-a-Target-Shameless-plug-add-to-the-list-connecting-with-other-TIs",
+      "originalDate": "2025-08-06",
+      "status": "erased",
+      "kind": "space-post",
+      "screenshot": "images/nicola-nga-2025-08-06-how-do-you-live-life-when-being-gang-stalked.jpg",
+      "screenshotAlt": "Nicola Nga's answer to the Quora question 'How do you live life when you're being gang stalked?', posted six years before the capture, under the credential 'BA Applied Sciences from Massey University, New Zealand (Graduated 2013)'. The answer reads: 'Survive it.. The only thing you can do is for yourself is survive the madness of gang stalking. I am a targeted individual, for 15 years and currently 9 months now. I have learnt the best thing for me was to take positives from this negative bs of gang stalking. It sounds insane because there is simply nothing that is positive that lies with gang stalking. However, i started to apply things into my life that will help me cope, and survive gang stalking< and it wasn't easy. So this is what i have done.' A numbered list follows: '1. Surround myself with more security personal, and home security. 2. Occupy myself with distraction. I know they are out there, always driving past, and following me etc, but i have found ways on how to pretend they don't exist. 3. Changed my eating habits, and started to eat healthier. 4. Took up something that once loved and felt so passion about 20 years ago and that was, Dance. 5. Started to re-live my life again, and not hide anymore, Socialised again. 6. Applied to become an officer, for Law Enforcement. 7. Surrounded my children positive thoughts. 8. Eliminated all areas of negativity - with gang stalking. 9. Started to be free again!' It closes: 'Just because you are a t.i. Doesn't mean we as targets have to stop living. Why should we? Its our lives, we are in control of our lives not gang-stalkers..! God Bless'. The answer shows 41K views, 236 upvotes and 10 shares, and is 1 of 196 answers.",
+      "screenshotCredit": "Nicola Nga (https://www.quora.com/How-do-you-live-life-when-you-re-being-gang-stalked/answer/Nicola-Nga)"
+    }
+  },
+  {
+    "slug": "pedigree101/off-grid-community-planning-who-owns-land",
+    "title": "Off-grid community planning: who owns land?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-06",
+    "excerpt": "Off Grid Community Planning Which TIs already own land and would like to discuss collaborating?",
+    "category": "Services",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/off-grid-community-planning-who-owns-land.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Off-Grid-Community-Planning-Which-TIs-already-own-land-and-would-like-to-discuss-collaborating-Comment-to-this-very-th",
+      "originalDate": "2025-08-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/this-post-about-the-gang-stalking-movie-is-spot",
+    "title": "This post about the gang-stalking 'movie' is spot on",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-06",
+    "excerpt": "This post is spot on. This is the funniest part, nearly had me in tears!",
+    "category": "Insights",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/this-post-about-the-gang-stalking-movie-is-spot.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/This-post-is-spot-on-This-is-the-funniest-part-nearly-had-me-in-tears-There-would-obviously-be-NO-MARKET-for-the-c",
+      "originalDate": "2025-08-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/two-initiatives-housing-and-getting-around",
+    "title": "Two initiatives: housing and getting around",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-06",
+    "excerpt": "Thus far we have two initiatives going. Two distinct and separate threads.",
+    "category": "Services",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/two-initiatives-housing-and-getting-around.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Thus-far-we-have-two-initiatives-going-Two-distinct-and-separate-threads-TIs-that-want-to-stay-where-they-are-to-matc",
+      "originalDate": "2025-08-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/why-having-another-ti-with-you-helps",
+    "title": "Why having another TI with you helps",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-06",
+    "excerpt": "Having another TI with you is beneficial, especially if they’re constantly starting physical altercations with you, as in my case.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/why-having-another-ti-with-you-helps.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Having-another-TI-with-you-is-beneficial-especially-if-they-constantly-starting-physical-alterations-with-you-As-with-m",
+      "originalDate": "2025-08-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/would-a-documentary-change-anything",
+    "title": "Would a documentary change anything?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-06",
+    "excerpt": "Hate to be that person. But is it that “no one” knows about it, or that most don’t give a sh*t?",
+    "category": "Insights",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/would-a-documentary-change-anything.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Hate-to-be-that-person-But-is-it-that-no-one-knows-about-it-Or-that-most-don-t-give-a-sh-t-No-disrespect-to-any-TI",
+      "originalDate": "2025-08-06",
+      "status": "erased",
+      "kind": "space-post",
+      "screenshot": "images/myr-2025-08-06-lets-do-something-about-this.jpg",
+      "screenshotAlt": "MYR's post in the Quora space 'US-PSYOPS-TARGETED-INDIVIDUALS' (Share experience of targeted individuals from all walks of life, 6.2K followers), posted two years before the capture. MYR's own words read: 'Let's do something about this! I'm sick and tired of just sharing and talking.. Please'. The post carries a shared card from r/TargetedEnergyWeapons by u/targetsmilemore, titled 'A video that explains the conspiracy' under the flair 'Directed Energy Weapons', which reads: 'In order to stop this conspiracy against us, we need a large number of people to believe we're right. I think the best way to make that happen is to create an explainer video that goes viral. Does a video like that already exist that I can share with others to convince them? If it doesn't, maybe I could create a documentary that would fulfill that objective. If others here are willing to participate, maybe I could interview some of you to get audiovisual testimony. That would be more convincing than the group of us discussing the problem here on this sub. Let me know what you think of this idea or if you already have a video I could show to people.' The post shows 7.4K views, 232 upvotes, 9 shares and 129 comments. Visible replies include Sheila, Janine Saunders, Tammie Robertson Harvey, OinkOink82, VIC TERAJMEH and Golden Dime Golden Ruler of The Most High.",
+      "screenshotCredit": "MYR (https://uspsyopstargetedindividuals.quora.com/Let-s-do-something-about-this-I-m-sick-and-tired-of-just-sharing-and-talking-Please)"
     }
   },
   {
