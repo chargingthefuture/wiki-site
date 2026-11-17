@@ -1,0 +1,53 @@
+# Railway config for the counter service (artifacts/api-server).
+#
+# Why this file exists
+# --------------------
+# Every merge to main rebuilt and redeployed the counter, including merges
+# that touched only content/ or artifacts/wiki/. The counter reads none of
+# that: it is a single-route API over node:sqlite. On 2026-11-17 four merges
+# in a row rebuilt it for nothing.
+#
+# The same list is already described in the header comment of Dockerfile as a
+# dashboard setting. This puts it in version control, where it can be reviewed
+# and changed in a pull request instead of living in a dashboard nobody else
+# can see.
+#
+# Only watchPatterns is set, deliberately
+# ---------------------------------------
+# Anything declared here overrides the dashboard, so the builder, the start
+# command and the PR-environment setting are left exactly where they are. This
+# file is not the fix for the PR deploy comments; turning off PR environments
+# is. It only stops the needless rebuilds.
+#
+# Why each path appears twice
+# ---------------------------
+# Dockerfile records that the dashboard's Watch Paths "start at the repository
+# root, not the root directory", while this file sits at the service root
+# (wiki-site/). Whether config-as-code follows the same convention is not
+# something that can be checked from outside Railway, and the two failure
+# modes are not equal: a redundant pattern that matches nothing costs nothing,
+# but if every pattern misses, the counter silently stops deploying. Both
+# spellings are listed so the correct one matches either way.
+#
+# How to tell it works: the next change to artifacts/api-server should deploy,
+# and the next content-only merge should not. If a change to the counter does
+# NOT deploy, this file is wrong — delete it and the dashboard setting takes
+# over again.
+
+[build]
+watchPatterns = [
+  # Service-root relative
+  "artifacts/api-server/**",
+  "lib/**",
+  "Dockerfile",
+  "package.json",
+  "pnpm-lock.yaml",
+  "pnpm-workspace.yaml",
+  # Repository-root relative, the form Dockerfile documents
+  "/wiki-site/artifacts/api-server/**",
+  "/wiki-site/lib/**",
+  "/wiki-site/Dockerfile",
+  "/wiki-site/package.json",
+  "/wiki-site/pnpm-lock.yaml",
+  "/wiki-site/pnpm-workspace.yaml",
+]
