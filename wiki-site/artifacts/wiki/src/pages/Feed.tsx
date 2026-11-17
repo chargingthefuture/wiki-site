@@ -1,10 +1,12 @@
-import { useMemo } from "react";
+import { useCallback, useMemo } from "react";
 import { Link, useSearch } from "wouter";
 import { Radio } from "lucide-react";
 import { Layout } from "@/components/Layout";
 import { InviteStrip } from "@/components/InviteStrip";
 import { ARTICLES, getArticleUrl, type ArticleMeta } from "@/lib/articles";
 import { formatArticleDate } from "@/lib/dates";
+import { filterByQuery } from "@/lib/search";
+import { SearchBox } from "@/components/SearchBox";
 
 /**
  * The feed is the catch-up surface. Platform accounts are disposable and get
@@ -50,13 +52,31 @@ export default function Feed() {
     return posts.map((article) => ({ article, number: article.number ?? provisional.get(article)! }));
   }, []);
 
-  const pageCount = Math.max(1, Math.ceil(entries.length / PER_PAGE));
-  const requested = Number(new URLSearchParams(search).get("page") ?? "1");
+  const params = new URLSearchParams(search);
+  const query = params.get("q") ?? "";
+  // Feed numbers are permanent and come from the registry, so a search never
+  // changes them — it only decides which of them are on the page.
+  const shown = useMemo(() => filterByQuery(entries, query), [entries, query]);
+  const searchHref = useCallback(
+    (text: string) => (text ? `/feed?q=${encodeURIComponent(text)}` : "/feed"),
+    [],
+  );
+  /** Paging must keep the search on, or page 2 silently drops it. */
+  const pageHref = (n: number) => {
+    const p = new URLSearchParams();
+    if (query) p.set("q", query);
+    if (n > 1) p.set("page", String(n));
+    const s = p.toString();
+    return s ? `/feed?${s}` : "/feed";
+  };
+
+  const pageCount = Math.max(1, Math.ceil(shown.length / PER_PAGE));
+  const requested = Number(params.get("page") ?? "1");
   const page = Number.isFinite(requested)
     ? Math.min(Math.max(Math.trunc(requested), 1), pageCount)
     : 1;
   const start = (page - 1) * PER_PAGE;
-  const pageEntries = entries.slice(start, start + PER_PAGE);
+  const pageEntries = shown.slice(start, start + PER_PAGE);
   const firstShown = start + 1;
   const lastShown = start + pageEntries.length;
 
@@ -81,9 +101,17 @@ export default function Feed() {
             its own. "Read the full post" goes to the piece in full.
           </p>
           <p className="font-mono text-sm text-gray-400 mt-4">
-            Showing {firstShown}–{lastShown} of {entries.length} · page {page} of {pageCount}
+            Showing {firstShown}–{lastShown} of {shown.length}
+            {query && ` matching of ${entries.length}`} · page {page} of {pageCount}
           </p>
         </div>
+
+        <SearchBox
+          value={query}
+          buildHref={searchHref}
+          placeholder="Search the Feed"
+          resultLabel={`${shown.length.toLocaleString()} of ${entries.length.toLocaleString()} posts`}
+        />
 
         <ol className="space-y-8" reversed>
           {pageEntries.map(({ article, number }) => (
@@ -122,7 +150,7 @@ export default function Feed() {
         >
           {page > 1 ? (
             <Link
-              href={page - 1 === 1 ? "/feed" : `/feed?page=${page - 1}`}
+              href={pageHref(page - 1)}
               className="font-heading text-lg uppercase font-bold px-4 py-2 bg-card border border-border text-white hover:border-white"
             >
               ← Newer
@@ -137,7 +165,7 @@ export default function Feed() {
 
           {page < pageCount ? (
             <Link
-              href={`/feed?page=${page + 1}`}
+              href={pageHref(page + 1)}
               className="font-heading text-lg uppercase font-bold px-4 py-2 bg-card border border-border text-white hover:border-white"
             >
               Older →
