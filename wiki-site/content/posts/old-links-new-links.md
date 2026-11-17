@@ -1,9 +1,9 @@
 ---
 title: "Old links, new links"
 date: "2026-11-17"
-excerpt: "Eighty-three accounts erased, twenty-five of them since October 1, and three handles open now. What is live, what is dead, and the one address that never changes."
+excerpt: "Eighty-three accounts erased, twenty-five of them since October 1, and four handles open now. What is live, what is dead, and the one address that never changes."
 category: "Community"
-teaser: "Quora has erased my accounts eighty-three times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Twenty-five of those came after October 1. The latest ban landed on November 17, and three handles are open now. This page is the standing record: the live handles, the retired ones, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
+teaser: "Quora has erased my accounts eighty-three times, and every link that pointed at them died with them — in old posts, in other people's answers, in search results. Twenty-five of those came after October 1. The latest ban landed on November 17, and four handles are open now. This page is the standing record: the live handles, the retired ones, the dead ones, and the one address that never changes. If a profile claims to be me and is not on this page, it is not me."
 topics:
   - publishing
   - platform-independence
@@ -11,7 +11,7 @@ topics:
 
 Quora has erased my accounts eighty-three times. Each erasure kills every link that ever pointed at them — in old posts, in other people's answers, in search results, in bookmarks. If you followed one of those links and landed nowhere, this page is for you.
 
-There are three handles of mine open on Quora, listed below. Every other handle on this page is dead or retired.
+There are four handles of mine open on Quora, listed below. Every other handle on this page is dead or retired.
 
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
@@ -32,13 +32,14 @@ The handles:
 - https://www.quora.com/profile/Kingisback-4 — opened at 2:04 in the afternoon on November 5, 2026.
 - https://www.quora.com/profile/Kingishere-19 — opened at 2:20 in the afternoon on November 5, 2026.
 - https://www.quora.com/profile/Kingandyou-1 — opened at 2:34 in the afternoon on November 5, 2026.
+- https://www.quora.com/profile/Kingishere-20 — opened at 11:12 in the morning on November 16, 2026.
 
 The spaces:
 
 - https://tiswithaplacetostay.quora.com
-- https://titoday.quora.com — opened on November 16, 2026.
+- https://titoday.quora.com — opened on November 16, 2026, by Kingishere-20.
 
-Three handles and two spaces, and nothing else on Quora is me. If another account claims to be, it is not. If an account or space claims to speak for the Skills Economy and is not on this page, it is not me either. Check back here, not on Quora, because this page cannot be edited by anyone but me and every change to it is on the public record.
+Four handles and two spaces, and nothing else on Quora is me. If another account claims to be, it is not. If an account or space claims to speak for the Skills Economy and is not on this page, it is not me either. Check back here, not on Quora, because this page cannot be edited by anyone but me and every change to it is on the public record.
 
 ## Quora: retired
 
@@ -256,4 +257,4 @@ The old GitHub wiki — an inactive mirror. It no longer receives updates; this 
 
 Nothing is written on a platform first anymore. Every post starts here, and platforms only ever get a short version and a link back. So the next time an account is erased — and I assume there will be a next time — the cost is one entry moving from the current list to the dead list on this page. That is all.
 
-Since this page first went up, that has happened eighty-one times. The list above is current, and the three handles open now are the entries waiting to move onto it.
+Since this page first went up, that has happened eighty-one times. The list above is current, and the four handles open now are the entries waiting to move onto it.
