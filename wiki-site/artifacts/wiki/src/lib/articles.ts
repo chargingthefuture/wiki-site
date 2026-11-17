@@ -14414,6 +14414,66 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "pedigree101/buying-a-house-with-tis-whats-the-status",
+    "title": "Buying a house with TIs: what's the status?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-06",
+    "excerpt": "Anyone know the status of this? First thought, one house is a start, but a sectioned-off community is needed for more defense.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/buying-a-house-with-tis-whats-the-status.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Anyone-know-the-status-of-this-First-thought-one-house-is-a-start-but-a-sectioned-off-community-is-needed-for-more-d",
+      "originalDate": "2025-08-06",
+      "status": "erased",
+      "kind": "space-post",
+      "screenshot": "images/william-marcey-2025-08-06-looking-to-purchase-a-house-with-tis.jpg",
+      "screenshotAlt": "William Marcey's post in the Quora space 'Gang Stalking Worldwide' (Victims that have experienced or experiencing gang stalking, 28K followers), posted three years before the capture. The post reads: 'I am looking to purchase a house with TI's. We will come together and use a low down payment loan to purchase a house in the mid west. The house will be decent sized with decent land. Hit me up to discuss further. Men and women welcome. If you're weird or crazy you shall not be allowed in on this. With this plan we will be able to save tremendous amounts of money. We will be able to thwart attempts at harming us by having cohesion and numbers. We will have resources and time at our disposal to grow stronger, healthier and to completely remedy the gangstalking situation. much much more. Comment below. Let me know if private messaging is possible on this platform (I am not that familiar with a Quora). this username is NOT my real name it's an alias.' The post shows 1.6K views, 20 upvotes and 31 comments. Visible replies: B.R. Sycamore, 'Hell yeah. Where do I send the check?'; Mju, 'Yes I'm 100% in. Need to know when where how? I will give my life proudly for this fight so others to be free. I've been a target...'; Misc, 'I need a place where people understand what tf happened to me for the past 7 years'; Eric Kurtz, 'I'm all for it brother just let me know where it's about time we got together'; Heather in Katy, 'I'm interested'.",
+      "screenshotCredit": "William Marcey (https://gangstalkingworldwide.quora.com/I-am-looking-to-purchase-a-house-with-TI-s-We-will-come-together-and-use-a-low-down-payment-loan-to-purchase-a)"
+    }
+  },
+  {
+    "slug": "pedigree101/calling-ti-writers-help-spread-the-word",
+    "title": "Calling TI writers: help spread the word",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-06",
+    "excerpt": "Please let’s bring more awareness to this space. There are a lot of great writers; I am not one of them.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/calling-ti-writers-help-spread-the-word.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Please-lets-bring-more-awareness-to-this-space-There-are-a-lot-of-great-writers-I-am-not-one-of-them-Which-TIs-are-g",
+      "originalDate": "2025-08-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/how-to-tell-if-there-are-tis-near-you",
+    "title": "How to tell if there are TIs near you",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-06",
+    "excerpt": "If you’re looking for a glimpse into whether there are TIs near you, here’s a start.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/how-to-tell-if-there-are-tis-near-you.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/If-you-re-looking-for-a-glimpse-into-if-there-are-TIs-near-you-here-s-a-start-By-the-way-there-are-multiple-TIs-near-y",
+      "originalDate": "2025-08-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "pedigree101/how-would-i-feel-better-about-being-gang-stalked-2",
     "title": "How would I feel better about being gang stalked?",
     "repo": "chargingthefuture/wiki-site",
@@ -14545,6 +14605,44 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-08-06",
       "status": "erased",
       "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "pedigree101/whos-in-texas-and-wants-to-meet",
+    "title": "Who's in Texas and wants to meet?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-05",
+    "excerpt": "Who’s in Texas and wants to meet? Inspired by: Eric Williams Reply to this post if interested.",
+    "category": "Events",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/whos-in-texas-and-wants-to-meet.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Who-s-in-Texas-and-wants-to-meet-Inspired-by-https-www-quora-com-profile-Eric-Williams-795-Reply-to-this-post-if-in",
+      "originalDate": "2025-08-05",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/whos-in-vegas-and-wants-to-meet",
+    "title": "Who's in Vegas and wants to meet?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-05",
+    "excerpt": "Who is in Vegas and wants to meet? Comment to this post if interested.",
+    "category": "Events",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/whos-in-vegas-and-wants-to-meet.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Who-is-in-Vegas-and-wants-to-meet-Comment-to-this-post-if-interested-Inspired-by-https-www-quora-com-profile-Surviv",
+      "originalDate": "2025-08-05",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
