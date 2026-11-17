@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useCallback, useMemo } from "react";
 import { Link, useSearch } from "wouter";
 import { Link2Off, ShieldOff, Camera, Share2 } from "lucide-react";
 import { Layout } from "@/components/Layout";
@@ -7,6 +7,8 @@ import { RECORD_MARKERS } from "@/lib/record-markers";
 import { KIND_LABELS } from "@/lib/archive-kinds";
 import { contentImageUrl } from "@/lib/content";
 import { formatArticleDate } from "@/lib/dates";
+import { filterByQuery } from "@/lib/search";
+import { SearchBox } from "@/components/SearchBox";
 
 /**
  * The Record is the Quora writing, read forwards.
@@ -86,6 +88,7 @@ export default function Record() {
   const params = new URLSearchParams(search);
   const accountFilter = params.get("account") ?? "";
   const kindFilter = params.get("kind") ?? "";
+  const query = params.get("q") ?? "";
 
   // ARTICLES is newest-first. `all` is kept oldest first so entry numbers are
   // chronological and the span below reads first to last; the page shows it reversed.
@@ -105,13 +108,18 @@ export default function Record() {
   );
 
   const entries = useMemo<RecordEntry[]>(() => {
-    const kept = all.filter(
-      (a) =>
+    // Number first, filter second. An entry's number is its place across the
+    // entire Record, oldest No. 1 — the same number RECORD_QA_QUEUE.md carries
+    // — so it must not shift because a filter or a search is on. Numbering after
+    // filtering made "No. 3" mean a different entry under every filter.
+    const numbered = all.map((article, i) => ({ article, number: i + 1 }));
+    const kept = numbered.filter(
+      ({ article: a }) =>
         (!accountFilter || a.archive?.account === accountFilter) &&
         (!kindFilter || a.archive?.kind === kindFilter),
     );
-    return kept.map((article, i) => ({ article, number: i + 1 })).reverse();
-  }, [all, accountFilter, kindFilter]);
+    return filterByQuery(kept, query).reverse();
+  }, [all, accountFilter, kindFilter, query]);
 
   /**
    * Breadth, counted rather than claimed: the questions written under, the
@@ -194,16 +202,25 @@ export default function Record() {
     return { rows: laid, leadingMarkers: leading };
   }, [pageEntries, entries, start, page]);
 
-  const href = (next: { account?: string; kind?: string; page?: number }) => {
-    const q = new URLSearchParams();
+  const href = (next: { account?: string; kind?: string; page?: number; q?: string }) => {
+    const p = new URLSearchParams();
     const account = next.account ?? accountFilter;
     const kind = next.kind ?? kindFilter;
-    if (account) q.set("account", account);
-    if (kind) q.set("kind", kind);
-    if (next.page && next.page > 1) q.set("page", String(next.page));
-    const s = q.toString();
+    const text = next.q ?? query;
+    if (account) p.set("account", account);
+    if (kind) p.set("kind", kind);
+    if (text) p.set("q", text);
+    if (next.page && next.page > 1) p.set("page", String(next.page));
+    const s = p.toString();
     return s ? `/record?${s}` : "/record";
   };
+
+  // A new search starts at page 1: the old page number belongs to the old
+  // result set and would usually land past the end of the new one.
+  const searchHref = useCallback(
+    (text: string) => href({ q: text, page: 1 }),
+    [accountFilter, kindFilter],
+  );
 
   const chip = (active: boolean) =>
     [
@@ -268,6 +285,13 @@ export default function Record() {
             </div>
           ))}
         </dl>
+
+        <SearchBox
+          value={query}
+          buildHref={searchHref}
+          placeholder="Search the Record"
+          resultLabel={`${entries.length.toLocaleString()} of ${all.length.toLocaleString()} entries`}
+        />
 
         <div className="mb-8 space-y-3" aria-label="Record filters">
           <div className="flex flex-wrap items-center gap-2">
