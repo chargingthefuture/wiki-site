@@ -2532,6 +2532,82 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 309
   },
   {
+    "slug": "farah-brunache/gucci-qoo-martin-luther-king-jr-said-the-labor",
+    "title": "Gucci Qoo Martin Luther King Jr said the labor movement was what turned misery into “not…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-16",
+    "excerpt": "Gucci Qoo Martin Luther King Jr said the labor movement was what turned misery into “not mere survival but a tolerable life.” That is the whole idea here, and…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/gucci-qoo-martin-luther-king-jr-said-the-labor.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Gucci-Qoo-https-www-quora-com-profile-Gucci-Qoo-Martin-Luther-King-Jr-said-the-labor-movement-was-what-turned-mis",
+      "originalDate": "2026-08-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/ruby-mc-in-1991-estonia-came-out-of-soviet",
+    "title": "Ruby Mc In 1991 Estonia came out of Soviet occupation with 1.3 million people, no money…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-16",
+    "excerpt": "Ruby Mc In 1991 Estonia came out of Soviet occupation with 1.3 million people, no money, and infrastructure that did not work.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/ruby-mc-in-1991-estonia-came-out-of-soviet.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Ruby-Mc-https-www-quora-com-profile-Ruby-Mc-18-In-1991-Estonia-came-out-of-Soviet-occupation-with-1-3-million-peo",
+      "originalDate": "2026-08-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/skills-economy-summary-with-only-94-people-recruited-we",
+    "title": "Skills Economy Summary* With only 94 people recruited, we have reached 24% of the skills…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-16",
+    "excerpt": "Skills Economy Summary* With only 94 people recruited, we have reached 24% of the skills potential of an independent nation state like Finland, Estonia, or…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/skills-economy-summary-with-only-94-people-recruited-we.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Skills-Economy-Summary-With-only-94-people-recruited-we-have-reached-24-of-the-skills-potential-of-an-independent-na",
+      "originalDate": "2026-08-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/thomas-paul-kiefer-you-do-not-have-to-agree",
+    "title": "Thomas Paul Kiefer You do not have to agree with me about who is doing this, or why.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-16",
+    "excerpt": "Thomas Paul Kiefer You do not have to agree with me about who is doing this, or why.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/thomas-paul-kiefer-you-do-not-have-to-agree.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Thomas-Paul-Kiefer-https-www-quora-com-profile-Thomas-Paul-Kiefer-You-do-not-have-to-agree-with-me-about-who-is-d",
+      "originalDate": "2026-08-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "what-stays-up",
     "title": "What stays up",
     "repo": "chargingthefuture/wiki-site",
@@ -2542,6 +2618,215 @@ export const ARTICLES: ArticleMeta[] = [
     "path": "posts/what-stays-up.md",
     "teaser": "Quora deleted every post ever made to my space. The account and the space are still there — both empty, so a new visitor sees a room where nothing ever happened. Meanwhile, accounts posting the same give-up message on a loop for months are untouched. Sort it and the rule is not subtle: content that leaves a person alone stays up; content that puts people in contact with each other does not. The fix is not to appeal to the platform. It is to need it less.",
     "number": 308
+  },
+  {
+    "slug": "farah-brunache/a-response-to-someone-saying-skills-economy-is-nonsense",
+    "title": "A response to someone saying Skills Economy is nonsense:",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-14",
+    "excerpt": "A response to someone saying Skills Economy is nonsense:",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/a-response-to-someone-saying-skills-economy-is-nonsense.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/A-response-to-someone-saying-Skills-Economy-is-nonsense-https-youtu-be-G6FslfZNSwI-is-hej-ZhYQzZHEj5j1",
+      "originalDate": "2026-08-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/an-explanation-and-demo-of-clicklog",
+    "title": "An explanation and demo of ClickLog.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-14",
+    "excerpt": "An explanation and demo of ClickLog. The United Nations recognizes what is done to us as torture.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/an-explanation-and-demo-of-clicklog.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/An-explanation-and-demo-of-ClickLog-The-United-Nations-recognizes-what-is-done-to-us-as-torture-Now-we-can-collectivel",
+      "originalDate": "2026-08-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/eliah-youn-i-have-already-made-you-a-profile",
+    "title": "Eliah Youn I have already made you a profile in the Skills Economy directory.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-14",
+    "excerpt": "Eliah Youn I have already made you a profile in the Skills Economy directory.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/eliah-youn-i-have-already-made-you-a-profile.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Eliah-Youn-https-www-quora-com-profile-Eliah-Youn-I-have-already-made-you-a-profile-in-the-Skills-Economy-directo",
+      "originalDate": "2026-08-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/g-m-kind-two-things-have-to-be-true",
+    "title": "G.M. Kind Two things have to be true for the harassment to work.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-14",
+    "excerpt": "G.M. Kind Two things have to be true for the harassment to work.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/g-m-kind-two-things-have-to-be-true.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/G-M-Kind-https-www-quora-com-profile-G-M-Kind-Two-things-have-to-be-true-for-the-harassment-to-work-Your-income",
+      "originalDate": "2026-08-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-am-going-live-in-chyme",
+    "title": "I am going live in Chyme.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-14",
+    "excerpt": "I am going live in Chyme. I will be hosting a live virtual Q&A on the Skills Economy within the Chyme app.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-am-going-live-in-chyme.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-am-going-live-in-Chyme-I-will-be-hosting-a-live-virtual-Q-A-on-the-Skills-Economy-within-the-Chyme-app-Let-me-know",
+      "originalDate": "2026-08-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/jazz-i-jae-taylor-asked-the-following-where-can",
+    "title": "Jazz I Jae Taylor asked the following: Where can I get help ASAP to hide from gang…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-14",
+    "excerpt": "Jazz I Jae Taylor asked the following: Where can I get help ASAP to hide from gang stalkers?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/jazz-i-jae-taylor-asked-the-following-where-can.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Jazz-I-Jae-Taylor-https-www-quora-com-profile-Jazz-I-Jae-Taylor-asked-the-following-https-www-quora-com-Where",
+      "originalDate": "2026-08-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/matthew-a-davis-a-working-economy-needs-people-who",
+    "title": "Matthew A Davis A working economy needs people who can do about 650 different things.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-14",
+    "excerpt": "Matthew A Davis A working economy needs people who can do about 650 different things.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/matthew-a-davis-a-working-economy-needs-people-who.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Matthew-A-Davis-https-www-quora-com-profile-Matthew-A-Davis-1-A-working-economy-needs-people-who-can-do-about-650",
+      "originalDate": "2026-08-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/reminder-anyone-can-go-live-in-chyme-24-7",
+    "title": "Reminder anyone can go live in Chyme 24/7.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-14",
+    "excerpt": "Reminder anyone can go live in Chyme 24/7. It is like a live radio show among peers. Farah Brunache's post in Skills Economy",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/reminder-anyone-can-go-live-in-chyme-24-7.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Reminder-anyone-can-go-live-in-Chyme-24-7-It-is-like-a-live-radio-show-among-peers-https-app-chargingthefuture-com",
+      "originalDate": "2026-08-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/shaw-will-you-join-the-ti-skills-economy-tse",
+    "title": "Shaw Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-14",
+    "excerpt": "Shaw Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/shaw-will-you-join-the-ti-skills-economy-tse.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Shaw-https-www-quora-com-profile-Shaw-153-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skills-Economy-is-de",
+      "originalDate": "2026-08-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/short-version-for-anyone-who-reads-no-further-the",
+    "title": "Short version, for anyone who reads no further: The network is at 89 people.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-14",
+    "excerpt": "Short version, for anyone who reads no further: The network is at 89 people.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/short-version-for-anyone-who-reads-no-further-the.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Twenty-Four-Percent",
+      "originalDate": "2026-08-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/short-version-for-anyone-who-reads-no-further-the-2",
+    "title": "Short version, for anyone who reads no further: The network is at 89 people.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-14",
+    "excerpt": "Short version, for anyone who reads no further: The network is at 89 people.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/short-version-for-anyone-who-reads-no-further-the-2.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Twenty-Four-Percent-1",
+      "originalDate": "2026-08-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/how-do-i-stop-v2k-and-rnm-i-m-being-set-up-as-schizophrenic-3",
@@ -2560,6 +2845,44 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2026-08-14",
       "status": "erased",
       "kind": "answer-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/new-feature-knowledge-library-i-created-the-first-chat",
+    "title": "New Feature: Knowledge Library I created the first chat bot for human trafficking…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-13",
+    "excerpt": "New Feature: Knowledge Library I created the first chat bot for human trafficking victims/victims of organized harassment.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/new-feature-knowledge-library-i-created-the-first-chat.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/New-Feature-Knowledge-Library-I-created-the-first-chat-bot-for-human-trafficking-victims-victims-of-organized-harassme",
+      "originalDate": "2026-08-13",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/united-nations-has-classified-what-is-done-to-tis",
+    "title": "United Nations has classified what is done to TIs as human torture.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-13",
+    "excerpt": "United Nations has classified what is done to TIs as human torture. And we can now log it globally. The demo of ClickLog: Sign up for free:",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/united-nations-has-classified-what-is-done-to-tis.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/United-Nations-has-classified-what-is-done-to-TIs-as-human-torture-And-we-can-now-log-it-globally-The-demo-of-ClickLog",
+      "originalDate": "2026-08-13",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -2582,6 +2905,25 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/community-update-we-have-reached-24-of-a-functioning",
+    "title": "Community Update - we have reached 24% of a functioning nation-state like economy* There…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-12",
+    "excerpt": "Community Update - we have reached 24% of a functioning nation-state like economy* There are 4 open posts waiting for help on SocketRelay (Skills Economy…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/community-update-we-have-reached-24-of-a-functioning.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Community-Update-we-have-reached-24-of-a-functioning-nation-state-like-economy-There-are-4-open-posts-waiting-for-h",
+      "originalDate": "2026-08-12",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/i-am-slowly-building-up-a-call-to-march-on-the-attorney-general-s-offi-3",
     "title": "I am slowly building up a call to march on the Attorney General s office at the DOJ in Washington DC on…",
     "repo": "chargingthefuture/wiki-site",
@@ -2598,6 +2940,25 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2026-08-12",
       "status": "erased",
       "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/it-is-worth-working-out-what-the-other-side",
+    "title": "It is worth working out what the other side actually needs, as opposed to what they say…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-10",
+    "excerpt": "It is worth working out what the other side actually needs, as opposed to what they say or what it feels like from the inside.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/it-is-worth-working-out-what-the-other-side.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/What-Winning-Requires",
+      "originalDate": "2026-08-10",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -2639,6 +3000,120 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/i-will-be-hosting-a-live-virtual-q-a",
+    "title": "I will be hosting a live virtual Q&A on the Skills Economy.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-09",
+    "excerpt": "I will be hosting a live virtual Q&A on the Skills Economy. Let me know what time is good for you here: Live event will be hosted in the Chyme app: If you…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-will-be-hosting-a-live-virtual-q-a.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-will-be-hosting-a-live-virtual-Q-A-on-the-Skills-Economy-Let-me-know-what-time-is-good-for-you-here-https-app-char",
+      "originalDate": "2026-08-09",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-same-people-who-disapproved-of-him-approve-of",
+    "title": "The Same People Who Disapproved of Him Approve of Him Now There is a way to tell whether…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-07",
+    "excerpt": "The Same People Who Disapproved of Him Approve of Him Now There is a way to tell whether a population actually changed its mind about something, or whether it…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-same-people-who-disapproved-of-him-approve-of.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-Same-People-Who-Disapproved-of-Him-Approve-of-Him-Now-There-is-a-way-to-tell-whether-a-population-actually-changed",
+      "originalDate": "2026-08-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-same-people-who-disapproved-of-him-approve-of-2",
+    "title": "The Same People Who Disapproved of Him Approve of Him Now There is a way to tell whether…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-07",
+    "excerpt": "The Same People Who Disapproved of Him Approve of Him Now There is a way to tell whether a population actually changed its mind about something, or whether it…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-same-people-who-disapproved-of-him-approve-of-2.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-Same-People-Who-Disapproved-of-Him-Approve-of-Him-Now-There-is-a-way-to-tell-whether-a-population-actually-changed-1",
+      "originalDate": "2026-08-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/there-is-a-way-to-tell-whether-a-population",
+    "title": "There is a way to tell whether a population actually changed its mind about something, or…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-07",
+    "excerpt": "There is a way to tell whether a population actually changed its mind about something, or whether it kept its position and the label moved.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/there-is-a-way-to-tell-whether-a-population.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-Same-People-Who-Disapproved-of-Him-Approve-of-Him-Now",
+      "originalDate": "2026-08-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/there-is-a-way-to-tell-whether-a-population-2",
+    "title": "There is a way to tell whether a population actually changed its mind about something, or…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-07",
+    "excerpt": "There is a way to tell whether a population actually changed its mind about something, or whether it kept its position and the label moved.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/there-is-a-way-to-tell-whether-a-population-2.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-Same-People-Who-Disapproved-of-Him-Approve-of-Him-Now-1",
+      "originalDate": "2026-08-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/when-they-call-you-a-terrorist-they-are-not",
+    "title": "When they call you a terrorist, they are not accusing you.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-05",
+    "excerpt": "When they call you a terrorist, they are not accusing you. They are telling you what they want done to you.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/when-they-call-you-a-terrorist-they-are-not.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/When-they-call-you-a-terrorist-they-are-not-accusing-you-They-are-telling-you-what-they-want-done-to-you-They-walk-p",
+      "originalDate": "2026-08-05",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "Product-Update-2026-08-05-Admin-Blocks-Value",
     "title": "Admin tooling, block enforcement, and Community Value fixes",
     "repo": "chargingthefuture/chargingthefuture",
@@ -2650,6 +3125,139 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 307
   },
   {
+    "slug": "farah-brunache/three-people-on-socketrelay-skills-economy-se-exit-their",
+    "title": "Three people on SocketRelay (Skills Economy (SE); Exit their economy, exit the psyop.)…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-04",
+    "excerpt": "Three people on SocketRelay (Skills Economy (SE); Exit their economy, exit the psyop.) have posted open requests right now and are waiting for help.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/three-people-on-socketrelay-skills-economy-se-exit-their.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Three-people-on-SocketRelay-Skills-Economy-SE-Exit-their-economy-exit-the-psyop-https-app-chargingthefuture-co",
+      "originalDate": "2026-08-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/for-survivors-only-help-me-test-the-skills-economy",
+    "title": "For survivors only, help me test the Skills Economy app: No experience required.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-02",
+    "excerpt": "For survivors only, help me test the Skills Economy app: No experience required.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/for-survivors-only-help-me-test-the-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/For-survivors-only-help-me-test-the-Skills-Economy-app-https-github-com-chargingthefuture-chargingthefuture-issues",
+      "originalDate": "2026-08-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/this-opportunity-is-remote-and-therefore-global",
+    "title": "This opportunity is remote and therefore global.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-02",
+    "excerpt": "This opportunity is remote and therefore global. Any T.I. can apply. Farah Brunache's post in Skills Economy",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/this-opportunity-is-remote-and-therefore-global.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/This-opportunity-is-remote-and-therefore-global-Any-T-I-can-apply-https-skillseconomy-quora-com-For-survivors-only",
+      "originalDate": "2026-08-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/you-can-now-use-clicklog-to-track-incidents-based",
+    "title": "You can now use ClickLog to track incidents based on the schemes and problems created by…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-02",
+    "excerpt": "You can now use ClickLog to track incidents based on the schemes and problems created by the Specterati. ClickLog",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/you-can-now-use-clicklog-to-track-incidents-based.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/You-can-now-use-ClickLog-to-track-incidents-based-on-the-schemes-and-problems-created-by-the-Specterati-https-www-ch",
+      "originalDate": "2026-08-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/if-you-have-a-space-dedicated-to-targeting-you",
+    "title": "If you have a space dedicated to targeting, you can now lend its writings to the Skills…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-31",
+    "excerpt": "If you have a space dedicated to targeting, you can now lend its writings to the Skills Economy AI Assistant.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/if-you-have-a-space-dedicated-to-targeting-you.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/If-you-have-a-space-dedicated-to-targeting-you-can-now-lend-its-writings-to-the-Skills-Economy-AI-Assistant-The-assist",
+      "originalDate": "2026-07-31",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/if-you-have-a-space-dedicated-to-targeting-you-2",
+    "title": "If you have a space dedicated to targeting, you can now lend its writings to the Skills…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-31",
+    "excerpt": "If you have a space dedicated to targeting, you can now lend its writings to the Skills Economy AI Assistant.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/if-you-have-a-space-dedicated-to-targeting-you-2.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/If-you-have-a-space-dedicated-to-targeting-you-can-now-lend-its-writings-to-the-Skills-Economy-AI-Assistant-The-assist-1",
+      "originalDate": "2026-07-31",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/looking-for-one-tester-for-the-whole-app-paid",
+    "title": "Looking for: one tester for the whole app (paid) I need one careful person to work…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-31",
+    "excerpt": "Looking for: one tester for the whole app (paid) I need one careful person to work through the app’s manual test scripts on their phone and file an issue for…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/looking-for-one-tester-for-the-whole-app-paid.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Looking-for-one-tester-for-the-whole-app-paid-I-need-one-careful-person-to-work-through-the-app-s-manual-test-script",
+      "originalDate": "2026-07-31",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "Product-Update-2026-07-29-Commons-Moderation-and-Foundation-Fixes",
     "title": "Commons moderation, admin tools, and Foundation fixes",
     "repo": "chargingthefuture/chargingthefuture",
@@ -2659,6 +3267,63 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "product-updates",
     "path": "product-updates/Product-Update-2026-07-29-Commons-Moderation-and-Foundation-Fixes.md",
     "number": 306
+  },
+  {
+    "slug": "farah-brunache/i-changed-the-name-of-this-space-from-tiskillsnetwork",
+    "title": "I changed the name of this space from tiskillsnetwork.quora.com to skillseconomy.quora.com",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-28",
+    "excerpt": "I changed the name of this space from tiskillsnetwork.quora.com to skillseconomy.quora.com",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-changed-the-name-of-this-space-from-tiskillsnetwork.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-changed-the-name-of-this-space-from-tiskillsnetwork-quora-com-http-tiskillsnetwork-quora-com-to-skillseconomy-q",
+      "originalDate": "2026-07-28",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/jen-starling-have-you-signed-up-yet",
+    "title": "Jen Starling have you signed up yet?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-28",
+    "excerpt": "Jen Starling have you signed up yet? In the meantime I have set up a profile for you.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/jen-starling-have-you-signed-up-yet.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Jen-Starling-https-www-quora-com-profile-Jen-Starling-3-have-you-signed-up-yet-https-app-chargingthefuture-com",
+      "originalDate": "2026-07-28",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/this-week-in-skills-economy-se-3-open-posts",
+    "title": "This week in Skills Economy (SE), 3 open posts are waiting for help on SocketRelay…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-28",
+    "excerpt": "This week in Skills Economy (SE), 3 open posts are waiting for help on SocketRelay (Skills Economy (SE); Exit their economy, exit the psyop.).",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/this-week-in-skills-economy-se-3-open-posts.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/This-week-in-Skills-Economy-SE-3-open-posts-are-waiting-for-help-on-SocketRelay-Skills-Economy-SE-Exit-their-econ",
+      "originalDate": "2026-07-28",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/could-a-targeted-individual-be-also-active-in-gang-stalking-5",
@@ -2760,6 +3425,101 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/diana-hamerly-will-you-join-the-ti-skills-economy",
+    "title": "Diana Hamerly Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-26",
+    "excerpt": "Diana Hamerly Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/diana-hamerly-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Diana-Hamerly-https-www-quora-com-profile-Diana-Hamerly-4-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skil",
+      "originalDate": "2026-07-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-have-changed-the-logo",
+    "title": "I have changed the logo.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-26",
+    "excerpt": "I have changed the logo. Let me know of any feedback. I have also dropped T, target, from the name.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-have-changed-the-logo.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-have-changed-the-logo-Let-me-know-of-any-feedback-I-have-also-dropped-T-target-from-the-name-That-is-the-Specter",
+      "originalDate": "2026-07-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/jack-e-will-you-join-the-ti-skills-economy",
+    "title": "Jack E. Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-26",
+    "excerpt": "Jack E. Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/jack-e-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Jack-E-https-www-quora-com-profile-Jack-E-145-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skills-Economy",
+      "originalDate": "2026-07-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-specterati-told-me-why-i-was-added-to",
+    "title": "The Specterati told me why I was added to the list twice (and I was added more than…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-26",
+    "excerpt": "The Specterati told me why I was added to the list twice (and I was added more than twice).",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-specterati-told-me-why-i-was-added-to.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-Specterati-told-me-why-I-was-added-to-the-list-twice-and-I-was-added-more-than-twice-It-is-a-distributed-criminal",
+      "originalDate": "2026-07-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/ulla-mononen-will-you-join-the-ti-skills-economy",
+    "title": "Ulla Mononen Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-26",
+    "excerpt": "Ulla Mononen Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/ulla-mononen-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Ulla-Mononen-https-www-quora-com-profile-Ulla-Mononen-1-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skills",
+      "originalDate": "2026-07-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/https-www-quora-com-profile-matthew-cappadocia-aka-the-wizard-of-oz-he",
     "title": "https www quora com profile Matthew Cappadocia aka The Wizard of Oz Here is my reply to some misinformation…",
     "repo": "chargingthefuture/wiki-site",
@@ -2817,6 +3577,120 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/marina-you-used-to-do-zoom-calls-for-tis",
+    "title": "Marina you used to do Zoom calls for TIs and attendance dropped.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-25",
+    "excerpt": "Marina you used to do Zoom calls for TIs and attendance dropped.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/marina-you-used-to-do-zoom-calls-for-tis.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Marina-https-www-quora-com-profile-Marina-4573-you-used-to-do-Zoom-calls-for-TIs-and-attendance-dropped-I-created",
+      "originalDate": "2026-07-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/every-few-weeks-i-post-this-reminder-the-people",
+    "title": "Every few weeks I post this reminder: the people I follow, invite, or interact with are…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-24",
+    "excerpt": "Every few weeks I post this reminder: the people I follow, invite, or interact with are not necessarily TIs.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/every-few-weeks-i-post-this-reminder-the-people.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Every-few-weeks-I-post-this-reminder-the-people-I-follow-invite-or-interact-with-are-not-necessarily-TIs-Use-TI-Skil",
+      "originalDate": "2026-07-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/something-amazing-happened-today",
+    "title": "Something amazing happened today.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-24",
+    "excerpt": "Something amazing happened today. Dayna and I connected on Chyme — the live social-audio feature of the TI Skills Economy (TSE) app.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/something-amazing-happened-today.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Something-amazing-happened-today-Dayna-https-www-quora-com-profile-Dayna-388-and-I-connected-on-Chyme-the-live",
+      "originalDate": "2026-07-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/tired-of-being-a-ti-will-you-join-the",
+    "title": "Tired of Being a TI Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-24",
+    "excerpt": "Tired of Being a TI Will you join the TI Skills Economy (TSE)?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/tired-of-being-a-ti-will-you-join-the.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Tired-of-Being-a-TI-https-www-quora-com-profile-Tired-of-Being-a-TI-Will-you-join-the-TI-Skills-Economy-TSE-h",
+      "originalDate": "2026-07-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-am-in-a-chyme-room-now-and-will",
+    "title": "I am in a Chyme room now and will be in it off and on for the upcoming days.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-23",
+    "excerpt": "I am in a Chyme room now and will be in it off and on for the upcoming days.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-am-in-a-chyme-room-now-and-will.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-am-in-a-Chyme-room-now-and-will-be-in-it-off-and-on-for-the-upcoming-days-The-room-is-open-24-7-https-app-Chargin",
+      "originalDate": "2026-07-23",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/this-weeks-past-app-edits-you-can-now-edit",
+    "title": "This week’s past app edits You can now edit your own messages in the Commons.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-22",
+    "excerpt": "This week’s past app edits You can now edit your own messages in the Commons.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/this-weeks-past-app-edits-you-can-now-edit.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/This-week-s-past-app-edits-You-can-now-edit-your-own-messages-in-the-Commons-Click-Edit-next-to-Delete-type-your-corr",
+      "originalDate": "2026-07-22",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "Product-Update-2026-07-22-Commons-Edit-Chyme-Layout-Notifications",
     "title": "Edit messages in Commons, fix Chyme layout and notifications",
     "repo": "chargingthefuture/chargingthefuture",
@@ -2828,6 +3702,120 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 305
   },
   {
+    "slug": "farah-brunache/as-announced-earlier-this-week-the-first-private-in",
+    "title": "As announced earlier this week, the first private in-app TI group chat is live.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-21",
+    "excerpt": "As announced earlier this week, the first private in-app TI group chat is live.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/as-announced-earlier-this-week-the-first-private-in.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/As-announced-earlier-this-week-the-first-private-in-app-TI-group-chat-is-live-When-on-the-home-page-commons-aka-grou",
+      "originalDate": "2026-07-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/even-with-the-aid-of-ai-coding-agents-maintaining",
+    "title": "Even with the aid of AI coding agents, maintaining the web, mobile, and Android versions…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-20",
+    "excerpt": "Even with the aid of AI coding agents, maintaining the web, mobile, and Android versions of the app is a lot for one person.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/even-with-the-aid-of-ai-coding-agents-maintaining.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Even-with-the-aid-of-AI-coding-agents-maintaining-the-web-mobile-and-Android-versions-of-the-app-is-a-lot-for-one-per",
+      "originalDate": "2026-07-20",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/this-week-in-the-ti-skills-economy-tse-2",
+    "title": "This week in the TI Skills Economy (TSE) : 2 open posts are waiting for help on…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-20",
+    "excerpt": "This week in the TI Skills Economy (TSE) : 2 open posts are waiting for help on SocketRelay (TI Skills Economy (TSE); Exit their economy, exit the psyop.).",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/this-week-in-the-ti-skills-economy-tse-2.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/This-week-in-the-TI-Skills-Economy-TSE-2-open-posts-are-waiting-for-help-on-SocketRelay-TI-Skills-Economy-TSE-Ex",
+      "originalDate": "2026-07-20",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/two-ways-to-connect-that-filter-out-the-impostors",
+    "title": "Two ways to connect that filter out the impostors Quora and open forums are full of perps…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-20",
+    "excerpt": "Two ways to connect that filter out the impostors Quora and open forums are full of perps (perpetrators of organized harassment) posing as TIs (targeted…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/two-ways-to-connect-that-filter-out-the-impostors.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Two-ways-to-connect-that-filter-out-the-impostors-Quora-and-open-forums-are-full-of-perps-perpetrators-of-organized-ha",
+      "originalDate": "2026-07-20",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/danielle-stella-will-you-join-the-ti-skills-economy",
+    "title": "Danielle Stella Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-19",
+    "excerpt": "Danielle Stella Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/danielle-stella-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Danielle-Stella-https-www-quora-com-profile-Danielle-Stella-10-Will-you-join-the-TI-Skills-Economy-TSE-The-TI",
+      "originalDate": "2026-07-19",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-android-app-is-becoming-a-chyme-app",
+    "title": "The Android app is becoming a Chyme app.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-19",
+    "excerpt": "The Android app is becoming a Chyme app. The rest lives on the web.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-android-app-is-becoming-a-chyme-app.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-Android-app-is-becoming-a-Chyme-app-The-rest-lives-on-the-web-I-build-this-whole-platform-on-my-own-Every-screen",
+      "originalDate": "2026-07-19",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "Product-Update-2026-07-19-Commons-Fixes-and-Guidelines",
     "title": "Small fixes and clarifications this week",
     "repo": "chargingthefuture/chargingthefuture",
@@ -2837,6 +3825,177 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "product-updates",
     "path": "product-updates/Product-Update-2026-07-19-Commons-Fixes-and-Guidelines.md",
     "number": 304
+  },
+  {
+    "slug": "farah-brunache/a-private-chat-you-cannot-buy-your-way-into",
+    "title": "A private chat you cannot buy your way into The TI Skills Economy app is adding a private…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-18",
+    "excerpt": "A private chat you cannot buy your way into The TI Skills Economy app is adding a private channel.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/a-private-chat-you-cannot-buy-your-way-into.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/A-private-chat-you-cannot-buy-your-way-into-The-TI-Skills-Economy-app-is-adding-a-private-channel-Here-is-how-you-get",
+      "originalDate": "2026-07-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/curvy-blues-will-you-join-the-ti-skills-economy",
+    "title": "Curvy Blues Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-18",
+    "excerpt": "Curvy Blues Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/curvy-blues-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Curvy-Blues-https-www-quora-com-profile-Curvy-Blues-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skills-Eco",
+      "originalDate": "2026-07-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/great-response-source-by-j-h-b",
+    "title": "Great response ( Source: ) by J.H.B.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-18",
+    "excerpt": "Great response ( Source: ) by J.H.B. — Will you join the TI Skills Economy (TSE)?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/great-response-source-by-j-h-b.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Great-response-https-gangstalkingworldwide-quora-com-How-do-you-stop-caring-about-being-gang-stalked-Originally-found",
+      "originalDate": "2026-07-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/gregory-bruny-will-you-join-the-ti-skills-economy",
+    "title": "Gregory Bruny Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-18",
+    "excerpt": "Gregory Bruny Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/gregory-bruny-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Gregory-Bruny-https-www-quora-com-profile-Gregory-Bruny-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skills",
+      "originalDate": "2026-07-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/marina-please-add-your-suggestions-to-whatworks",
+    "title": "Marina please add your suggestions to WhatWorks!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-18",
+    "excerpt": "Marina please add your suggestions to WhatWorks! Marina's answer to Targeted Individuals sound off where you’re at and what you’re doing about the attacks?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/marina-please-add-your-suggestions-to-whatworks.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Marina-https-www-quora-com-profile-Marina-4573-please-add-your-suggestions-to-WhatWorks-https-app-chargingthef",
+      "originalDate": "2026-07-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/marina-will-you-join-the-ti-skills-economy-tse",
+    "title": "Marina Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-18",
+    "excerpt": "Marina Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/marina-will-you-join-the-ti-skills-economy-tse.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Marina-https-www-quora-com-profile-Marina-4573-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skills-Economy",
+      "originalDate": "2026-07-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/misc-will-you-join-the-ti-skills-economy-tse",
+    "title": "Misc Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-18",
+    "excerpt": "Misc Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/misc-will-you-join-the-ti-skills-economy-tse.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Misc-https-www-quora-com-profile-Misc-160-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skills-Economy-is-de",
+      "originalDate": "2026-07-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/once-a-week-i-will-be-editing-the-official",
+    "title": "Once a week I will be editing the official user guide I created here: It lists every…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-18",
+    "excerpt": "Once a week I will be editing the official user guide I created here: It lists every feature of the app and how to use it in plain English.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/once-a-week-i-will-be-editing-the-official.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/User-Guide-launched-today",
+      "originalDate": "2026-07-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/peter-jurczyk-will-you-join-the-ti-skills-economy",
+    "title": "Peter Jurczyk Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-18",
+    "excerpt": "Peter Jurczyk Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/peter-jurczyk-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Peter-Jurczyk-https-www-quora-com-profile-Peter-Jurczyk-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skills",
+      "originalDate": "2026-07-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/why-do-my-stalkers-find-it-funny-to-harrass-me-all-day-even-though-its",
@@ -2858,6 +4017,158 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/david-c-will-you-join-the-ti-skills-economy",
+    "title": "David C Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-17",
+    "excerpt": "David C Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/david-c-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/David-C-https-www-quora-com-profile-David-C-2216-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skills-Econom",
+      "originalDate": "2026-07-17",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/exit-their-economy-exit-the-psyop-2",
+    "title": "Exit their economy, exit the psyop.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-17",
+    "excerpt": "Exit their economy, exit the psyop. The Specterati have made millions of us destitute.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/exit-their-economy-exit-the-psyop-2.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Exit-their-economy-exit-the-psyop-The-Specterati-have-made-millions-of-us-destitute-Careers-ended-savings-drained",
+      "originalDate": "2026-07-17",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/help-plan-a-survivor-built-community-andrea-r-im",
+    "title": "Help plan a survivor-built community Andrea R I'm bringing together a group of survivors…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-17",
+    "excerpt": "Help plan a survivor-built community Andrea R I'm bringing together a group of survivors to plan, build, and run a gated community here in the US — and to…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/help-plan-a-survivor-built-community-andrea-r-im.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Help-plan-a-survivor-built-community-Andrea-R-https-www-quora-com-profile-Andrea-R-453-Im-bringing-together-a-gr",
+      "originalDate": "2026-07-17",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/laurie-will-you-join-the-ti-skills-economy-tse-2",
+    "title": "Laurie Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-17",
+    "excerpt": "Laurie Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/laurie-will-you-join-the-ti-skills-economy-tse-2.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Laurie-https-www-quora-com-profile-Laurie-917-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skills-Economy-i",
+      "originalDate": "2026-07-17",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/servicecredits-are-psyop-free-tokens-you-can-use-to",
+    "title": "ServiceCredits are psyop-free tokens you can use to exchange for goods and services.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-17",
+    "excerpt": "ServiceCredits are psyop-free tokens you can use to exchange for goods and services. Latest community stats:",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/servicecredits-are-psyop-free-tokens-you-can-use-to.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/ServiceCredits-are-psyop-free-tokens-you-can-use-to-exchange-for-goods-and-services-Latest-community-stats",
+      "originalDate": "2026-07-17",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/when-you-visit-logged-out-you-will-see-the",
+    "title": "When you visit logged out you will see the last 20 messages.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-17",
+    "excerpt": "When you visit logged out you will see the last 20 messages.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/when-you-visit-logged-out-you-will-see-the.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/When-you-visit-https-app-ChargingTheFuture-com-logged-out-you-will-see-the-last-20-messages-Logged-in-you-will-see-th",
+      "originalDate": "2026-07-17",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/jamie-the-bullseye-will-you-join-the-ti-skills",
+    "title": "Jamie the Bullseye Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-16",
+    "excerpt": "Jamie the Bullseye Will you join the TI Skills Economy (TSE)?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/jamie-the-bullseye-will-you-join-the-ti-skills.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Jamie-the-Bullseye-https-www-quora-com-profile-Jamie-the-Bullseye-Will-you-join-the-TI-Skills-Economy-TSE-The",
+      "originalDate": "2026-07-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-working-document-for-forming-a-ti-gated-community",
+    "title": "The working document for forming a TI gated community is here: It is on the technical…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-16",
+    "excerpt": "The working document for forming a TI gated community is here: It is on the technical side.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-working-document-for-forming-a-ti-gated-community.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-working-document-for-forming-a-TI-gated-community-is-here-https-github-com-chargingthefuture-chargingthefuture-i",
+      "originalDate": "2026-07-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "Product-Update-2026-07-16-Commons-Directory-July",
     "title": "Commons and Directory updates",
     "repo": "chargingthefuture/chargingthefuture",
@@ -2867,6 +4178,120 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "product-updates",
     "path": "product-updates/Product-Update-2026-07-16-Commons-Directory-July.md",
     "number": 303
+  },
+  {
+    "slug": "farah-brunache/alicia-macchione-will-you-join-the-ti-skills-economy",
+    "title": "Alicia Macchione Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-15",
+    "excerpt": "Alicia Macchione Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/alicia-macchione-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Alicia-Macchione-https-www-quora-com-profile-Alicia-Macchione-4-Will-you-join-the-TI-Skills-Economy-TSE-The-T",
+      "originalDate": "2026-07-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/catrinka-georginka-will-you-join-the-ti-skills-economy",
+    "title": "Catrinka Georginka Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-15",
+    "excerpt": "Catrinka Georginka Will you join the TI Skills Economy (TSE)?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/catrinka-georginka-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Catrinka-Georginka-https-www-quora-com-profile-Catrinka-Georginka-Will-you-join-the-TI-Skills-Economy-TSE-The",
+      "originalDate": "2026-07-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/dayna-will-you-join-the-ti-skills-economy-tse",
+    "title": "Dayna Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-15",
+    "excerpt": "Dayna Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/dayna-will-you-join-the-ti-skills-economy-tse.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Dayna-https-www-quora-com-profile-Dayna-388-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skills-Economy-is",
+      "originalDate": "2026-07-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/frz-fab-will-you-join-the-ti-skills-economy",
+    "title": "FRZ FAB Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-15",
+    "excerpt": "FRZ FAB Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/frz-fab-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/FRZ-FAB-https-www-quora-com-profile-FRZ-FAB-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skills-Economy-is",
+      "originalDate": "2026-07-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/karen-cunningham-will-you-join-the-ti-skills-economy",
+    "title": "Karen Cunningham Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-15",
+    "excerpt": "Karen Cunningham Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/karen-cunningham-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Karen-Cunningham-https-www-quora-com-profile-Karen-Cunningham-167-Will-you-join-the-TI-Skills-Economy-TSE-The",
+      "originalDate": "2026-07-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/susan-tindal-will-you-join-the-ti-skills-economy",
+    "title": "Susan Tindal Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-14",
+    "excerpt": "Susan Tindal Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/susan-tindal-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Susan-Tindal-https-www-quora-com-profile-Susan-Tindal-8-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skills",
+      "originalDate": "2026-07-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/hi-farah-i-discovered-ti-skills-network-via-another-tis-comment-on-my-2",
@@ -2899,6 +4324,44 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 302
   },
   {
+    "slug": "farah-brunache/perp-alert-after-he-expressed-interest-in-ti-skills",
+    "title": "Perp Alert After he expressed interest in TI Skills Economy (TSE), I reviewed his profile…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-13",
+    "excerpt": "Perp Alert After he expressed interest in TI Skills Economy (TSE), I reviewed his profile and asked if he was aware he was talking to bots.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/perp-alert-after-he-expressed-interest-in-ti-skills.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Perp-Alert-After-he-expressed-interest-in-TI-Skills-Economy-TSE-I-reviewed-his-profile-and-asked-if-he-was-aware-he",
+      "originalDate": "2026-07-13",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/this-week-on-charging-the-future-2-open-posts",
+    "title": "This week on Charging the Future: 2 open posts are waiting for help on SocketRelay (TI…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-13",
+    "excerpt": "This week on Charging the Future: 2 open posts are waiting for help on SocketRelay (TI Skills Economy (TSE); Exit their economy, exit the psyop.).",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/this-week-on-charging-the-future-2-open-posts.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/This-week-on-Charging-the-Future-2-open-posts-are-waiting-for-help-on-SocketRelay-TI-Skills-Economy-TSE-Exit-their",
+      "originalDate": "2026-07-13",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "Product-Update-2026-07-13-Trust-Plugin-Launch",
     "title": "Trust plugin launches, fixes across the platform",
     "repo": "chargingthefuture/chargingthefuture",
@@ -2908,6 +4371,139 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "product-updates",
     "path": "product-updates/Product-Update-2026-07-13-Trust-Plugin-Launch.md",
     "number": 301
+  },
+  {
+    "slug": "farah-brunache/damon-mayle-the-perp-that-attempted-to-pass-as",
+    "title": "Damon Mayle, the perp that attempted to pass as a TI, proudly stated, that once I started…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-12",
+    "excerpt": "Damon Mayle, the perp that attempted to pass as a TI, proudly stated, that once I started following him on Quora he got more follows himself.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/damon-mayle-the-perp-that-attempted-to-pass-as.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Damon-Mayle-the-perp-that-attempted-to-pass-as-a-TI-proudly-stated-that-once-I-started-following-him-on-Quora-he-got",
+      "originalDate": "2026-07-12",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/exciting-news-we-found-a-ti-with-construction-experience",
+    "title": "Exciting news we found a TI with construction experience!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-12",
+    "excerpt": "Exciting news we found a TI with construction experience! Thanks to Katie Larkin who provided material value by sharing TI Skills Economy (TSE) with others.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/exciting-news-we-found-a-ti-with-construction-experience.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Exciting-news-we-found-a-TI-with-construction-experience-Thanks-to-Katie-Larkin-https-www-quora-com-profile-Katie-L",
+      "originalDate": "2026-07-12",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/kc-if-you-dont-mind-sharing-what-country-are",
+    "title": "KC if you don’t mind sharing, what country are you in?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-12",
+    "excerpt": "KC if you don’t mind sharing, what country are you in? I created a profile for you on TI Skills Economy (TSE) that you can claim and update.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/kc-if-you-dont-mind-sharing-what-country-are.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/KC-https-www-quora-com-profile-KC-3518-if-you-don-t-mind-sharing-what-country-are-you-in-I-created-a-profile-for",
+      "originalDate": "2026-07-12",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/look-at-these-garbage-tags-placed-on-a-post",
+    "title": "Look at these garbage tags placed on a post about creating a gated community.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-12",
+    "excerpt": "Look at these garbage tags placed on a post about creating a gated community.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/look-at-these-garbage-tags-placed-on-a-post.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Look-at-these-garbage-tags-placed-on-a-post-about-creating-a-gated-community-This-is-why-I-advocate-for-TIs-to-use-the",
+      "originalDate": "2026-07-12",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/my-reply-to-kc-in-the-comments-of-their",
+    "title": "My reply to KC in the comments of their post.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-12",
+    "excerpt": "My reply to KC in the comments of their post. These are the types of problems the TI Skills Economy (TSE) app can help with!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/my-reply-to-kc-in-the-comments-of-their.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/My-reply-to-KC-https-www-quora-com-profile-KC-3518-in-the-comments-of-their-post-These-are-the-types-of-problems",
+      "originalDate": "2026-07-12",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/there-are-447-followers-to-this-page-as-of",
+    "title": "There are 447 followers to this page as of now.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-12",
+    "excerpt": "There are 447 followers to this page as of now. We need 384 people to join the app to have a fully operational economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/there-are-447-followers-to-this-page-as-of.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/There-are-447-followers-to-this-page-as-of-now-We-need-384-people-to-join-the-app-to-have-a-fully-operational-economy",
+      "originalDate": "2026-07-12",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/ti-skills-economy-tse-app-is-not-a-traditional",
+    "title": "TI Skills Economy (TSE) app is not a traditional social media app.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-12",
+    "excerpt": "TI Skills Economy (TSE) app is not a traditional social media app.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/ti-skills-economy-tse-app-is-not-a-traditional.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/TI-Skills-Economy-TSE-app-is-not-a-traditional-social-media-app-There-is-no-feed-of-advertisements-And-curated-sug",
+      "originalDate": "2026-07-12",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/are-there-actual-physical-communities-of-targeted-individuals-living-t-5",
@@ -2948,6 +4544,25 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/when-each-ti-joins-the-economy-they-get-a",
+    "title": "When each TI joins the economy they get a 100 ServiceCredits, psyop free tokens.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-11",
+    "excerpt": "When each TI joins the economy they get a 100 ServiceCredits, psyop free tokens. TI Skills Economy (TSE):",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/when-each-ti-joins-the-economy-they-get-a.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/When-each-TI-joins-the-economy-they-get-a-100-ServiceCredits-psyop-free-tokens-TI-Skills-Economy-TSE-https-app-C",
+      "originalDate": "2026-07-11",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/so-i-had-a-nightmare-that-their-was-a-terrible-accident-on-my-street-c",
     "title": "So I had a nightmare that their was a terrible accident on my street corner know i called to get a speed bump…",
     "repo": "chargingthefuture/wiki-site",
@@ -2964,6 +4579,63 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2026-07-11",
       "status": "erased",
       "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/friendly-periodic-reminder-ti-skills-economy-tse-is-a",
+    "title": "Friendly periodic reminder: TI Skills Economy (TSE) is a global online and offline…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-10",
+    "excerpt": "Friendly periodic reminder: TI Skills Economy (TSE) is a global online and offline community.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/friendly-periodic-reminder-ti-skills-economy-tse-is-a.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Friendly-periodic-reminder-TI-Skills-Economy-TSE-is-a-global-online-and-offline-community-It-started-on-Quora-as-a",
+      "originalDate": "2026-07-10",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/update-the-look-ma-i-fixed-it-page-has",
+    "title": "Update: the 'Look Ma, I Fixed It' page has a new link.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-10",
+    "excerpt": "Update: the 'Look Ma, I Fixed It' page has a new link. December 2025 I shared a write-up by Nat Morris (Nat Morris) listing the most common things the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/update-the-look-ma-i-fixed-it-page-has.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Update-the-Look-Ma-I-Fixed-It-page-has-a-new-link-December-2025-I-shared-a-write-up-by-Nat-Morris-Nat-Morris-h",
+      "originalDate": "2026-07-10",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/who-wants-to-help-plan-the-ti-cruise-ship",
+    "title": "Who wants to help plan the TI cruise ship?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-09",
+    "excerpt": "Who wants to help plan the TI cruise ship? An idea from Anthony Suter in the comments.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/who-wants-to-help-plan-the-ti-cruise-ship.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Who-wants-to-help-plan-the-TI-cruise-ship-An-idea-from-Anthony-Suter-https-www-quora-com-profile-Anthony-Suter-i",
+      "originalDate": "2026-07-09",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -3073,6 +4745,44 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 300
   },
   {
+    "slug": "farah-brunache/a-direct-link-to-each-component-of-the-ti",
+    "title": "A direct link to each component of the TI Skills Economy (TSE): and a quick description…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-07",
+    "excerpt": "A direct link to each component of the TI Skills Economy (TSE): and a quick description - Social audio/radio (Clubhouse) - A map of all the skills needed in a…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/a-direct-link-to-each-component-of-the-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/A-direct-link-to-each-component-of-the-TI-Skills-Economy-TSE-https-ChargingTheFuture-com-and-a-quick-description-1",
+      "originalDate": "2026-07-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/if-youre-not-a-perp-apologies-as-it-is",
+    "title": "If you’re not a perp, apologies, as it is not an attack.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-07",
+    "excerpt": "If you’re not a perp, apologies, as it is not an attack. But this comment is off base.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/if-youre-not-a-perp-apologies-as-it-is.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/If-you-re-not-a-perp-apologies-as-it-is-not-an-attack-But-this-comment-is-off-base-No-problem-for-anyone-to-express",
+      "originalDate": "2026-07-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "Product-Update-2026-07-07-Code-Review-Fixes",
     "title": "SkillsHunt and SocketRelay fixes live",
     "repo": "chargingthefuture/chargingthefuture",
@@ -3082,6 +4792,82 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "product-updates",
     "path": "product-updates/Product-Update-2026-07-07-Code-Review-Fixes.md",
     "number": 299
+  },
+  {
+    "slug": "farah-brunache/any-tis-in-miami-2",
+    "title": "Any TIs in Miami?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-06",
+    "excerpt": "Any TIs in Miami? Yesterday evening, I needed to run errands in Miami.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/any-tis-in-miami-2.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Any-TIs-in-Miami-Yesterday-evening-I-needed-to-run-errands-in-Miami-Im-not-from-here-and-was-just-passing-through",
+      "originalDate": "2026-07-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/community-stats-right-now-2-people-have-posted-requests",
+    "title": "Community Stats Right now, 2 people have posted requests for help on SocketRelay and are…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-06",
+    "excerpt": "Community Stats Right now, 2 people have posted requests for help on SocketRelay and are waiting for someone to step in.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/community-stats-right-now-2-people-have-posted-requests.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Community-Stats-Right-now-2-people-have-posted-requests-for-help-on-SocketRelay-and-are-waiting-for-someone-to-step-in",
+      "originalDate": "2026-07-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/part-of-the-answer-to-the-below-quora-question",
+    "title": "Part of the answer to the below Quora question is to work and live among TIs.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-06",
+    "excerpt": "Part of the answer to the below Quora question is to work and live among TIs.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/part-of-the-answer-to-the-below-quora-question.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Part-of-the-answer-to-the-below-Quora-question-is-to-work-and-live-among-TIs-A-solution-that-was-proven-in-the-early",
+      "originalDate": "2026-07-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/vox-is-a-web-game-i-made-about-some",
+    "title": "Vox is a web game I made about some (51) problems faced by TIs: In the game it states…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-06",
+    "excerpt": "Vox is a web game I made about some (51) problems faced by TIs: In the game it states what features of then TI Skills Economy (TSE) helps solve each of the 51…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/vox-is-a-web-game-i-made-about-some.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Vox-is-a-web-game-I-made-about-some-51-problems-faced-by-TIs-https-chargingthefuture-github-io-vox-In-the-game-it",
+      "originalDate": "2026-07-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "Product-Update-2026-07-06-LightHouse-Currency-Display",
@@ -3107,6 +4893,63 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 297
   },
   {
+    "slug": "farah-brunache/any-tis-in-miami",
+    "title": "Any TIs in Miami?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-05",
+    "excerpt": "Any TIs in Miami? Earlier this evening, I needed to run errands in Miami.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/any-tis-in-miami.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Any-TIs-in-Miami-Earlier-this-evening-I-needed-to-run-errands-in-Miami-Im-not-from-here-and-was-just-passing-throug",
+      "originalDate": "2026-07-05",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/this-is-a-heinous-crime",
+    "title": "This is a heinous crime.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-05",
+    "excerpt": "This is a heinous crime. And correct they are recording or leading us to believe they are.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/this-is-a-heinous-crime.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/This-is-a-heinous-crime-And-correct-they-are-recording-or-leading-us-to-believe-they-are-It-is-part-of-the-slander-cam",
+      "originalDate": "2026-07-05",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/whatworks-was-built-to-solve-problems-like-these-sleep",
+    "title": "WhatWorks was built to solve problems like these (Sleep Deprivation) and avoid the…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-05",
+    "excerpt": "WhatWorks was built to solve problems like these (Sleep Deprivation) and avoid the Specterati when searching for solutions.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/whatworks-was-built-to-solve-problems-like-these-sleep.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/WhatWorks-was-built-to-solve-problems-like-these-Sleep-Deprivation-and-avoid-the-Specterati-when-searching-for-solutio",
+      "originalDate": "2026-07-05",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "Product-Update-2026-07-05-Mobile-Fixes-Recurring-Activity",
     "title": "Mobile fixes and Recurring Activity plugin",
     "repo": "chargingthefuture/chargingthefuture",
@@ -3127,6 +4970,120 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "product-updates",
     "path": "product-updates/Product-Update-2026-07-05-SocketRelay-Message-Integrity.md",
     "number": 295
+  },
+  {
+    "slug": "farah-brunache/someone-asked-me-how-they-can-help",
+    "title": "Someone asked me how they can help.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-04",
+    "excerpt": "Someone asked me how they can help. And I do need help so I am sharing here: In terms of planning a gated community (even if you cannot live in one you can…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/someone-asked-me-how-they-can-help.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Someone-asked-me-how-they-can-help-And-I-do-need-help-so-I-am-sharing-here-In-terms-of-planning-a-gated-community-ev",
+      "originalDate": "2026-07-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/thank-you-to-matthew-cappadocia-aka-the-wizard-of",
+    "title": "Thank you to Matthew Cappadocia (aka The Wizard of Oz) it was not this post but a…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-04",
+    "excerpt": "Thank you to Matthew Cappadocia (aka The Wizard of Oz) it was not this post but a different one where he spoke about this and immediately knew what he was…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/thank-you-to-matthew-cappadocia-aka-the-wizard-of.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Thank-you-to-Matthew-Cappadocia-aka-The-Wizard-of-Oz-https-www-quora-com-profile-Matthew-Cappadocia-aka-The-Wizard",
+      "originalDate": "2026-07-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/ti-skills-economy-tse-is-global",
+    "title": "TI Skills Economy (TSE) is global.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-04",
+    "excerpt": "TI Skills Economy (TSE) is global. It appears that there are more TIs in the US based on the map from another TI of self reports linked below.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/ti-skills-economy-tse-is-global.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/TI-Skills-Economy-TSE-is-global-It-appears-that-there-are-more-TIs-in-the-US-based-on-the-map-from-another-TI-of-self",
+      "originalDate": "2026-07-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/us-might-have-the-most-tis",
+    "title": "US might have the most TIs.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-04",
+    "excerpt": "US might have the most TIs. But this problem is global. Within the TI Skills Economy (TSE) you can directly connect with other TIs and exchange skills.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/us-might-have-the-most-tis.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/US-might-have-the-most-TIs-But-this-problem-is-global-Within-the-TI-Skills-Economy-TSE-you-can-directly-connect-wit",
+      "originalDate": "2026-07-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/what-do-i-mean-by-not-having-to-prove",
+    "title": "What do I mean by “not having to prove your humanity.” For one the Specterati have…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-04",
+    "excerpt": "What do I mean by “not having to prove your humanity.” For one the Specterati have existed for centuries.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/what-do-i-mean-by-not-having-to-prove.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/What-do-I-mean-by-not-having-to-prove-your-humanity-For-one-the-Specterati-have-existed-for-centuries-The-year-1609",
+      "originalDate": "2026-07-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/within-the-context-of-the-quote",
+    "title": "Within the context of the quote.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-04",
+    "excerpt": "Within the context of the quote. Yes the mental health system is set up to falsely commit individuals due to perps operating the facilities.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/within-the-context-of-the-quote.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Within-the-context-of-the-quote-Yes-the-mental-health-system-is-set-up-to-falsely-commit-individuals-due-to-perps-opera",
+      "originalDate": "2026-07-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "Product-Update-2026-07-04-Admin-Demo-Banner-Mobile",
@@ -3151,6 +5108,25 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 293
   },
   {
+    "slug": "farah-brunache/because-of-him-i-am",
+    "title": "Because of Him, i Am.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-03",
+    "excerpt": "Because of Him, i Am. Is a marketing expert profile in-app. This is a community generated profile.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/because-of-him-i-am.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Because-of-Him-i-Am-https-www-quora-com-profile-Because-of-Him-i-Am-Is-a-marketing-expert-profile-in-app-This-i",
+      "originalDate": "2026-07-03",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "Product-Update-2026-07-03-Skills-Taxonomy-Fixes",
     "title": "Skills taxonomy fixed and streamlined",
     "repo": "chargingthefuture/chargingthefuture",
@@ -3162,6 +5138,82 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 292
   },
   {
+    "slug": "farah-brunache/i-just-posted-the-below-screenshotted-message-in-the",
+    "title": "I just posted the below screenshotted message in the TI Skills Economy (TSE) app.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-02",
+    "excerpt": "I just posted the below screenshotted message in the TI Skills Economy (TSE) app.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-just-posted-the-below-screenshotted-message-in-the.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-just-posted-the-below-screenshotted-message-in-the-TI-Skills-Economy-TSE-app-As-with-all-TIs-we-are-surrounded-by",
+      "originalDate": "2026-07-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/if-you-have-online-games-you-like-to-play",
+    "title": "If you have online games you like to play but have been ruined by the Specterati let me…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-02",
+    "excerpt": "If you have online games you like to play but have been ruined by the Specterati let me know.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/if-you-have-online-games-you-like-to-play.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/If-you-have-online-games-you-like-to-play-but-have-been-ruined-by-the-Specterati-let-me-know-I-might-be-able-to-create",
+      "originalDate": "2026-07-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/if-your-psyop-is-like-mine-then-your-internet",
+    "title": "If your psyop is like mine then your “Internet is different” everything that comes up is…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-02",
+    "excerpt": "If your psyop is like mine then your “Internet is different” everything that comes up is trolling content.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/if-your-psyop-is-like-mine-then-your-internet.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/If-your-psyop-is-like-mine-then-your-Internet-is-different-everything-that-comes-up-is-trolling-content-This-extends",
+      "originalDate": "2026-07-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/when-you-are-on-the-page-of-each-game",
+    "title": "When you are on the page of each game you can save it to your Home Screen so it opens as…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-02",
+    "excerpt": "When you are on the page of each game you can save it to your Home Screen so it opens as an app on your phone.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/when-you-are-on-the-page-of-each-game.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/When-you-are-on-the-page-of-each-game-you-can-save-it-to-your-Home-Screen-so-it-opens-as-an-app-on-your-phone-https",
+      "originalDate": "2026-07-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "Product-Update-2026-07-02-Android-Transport-Earnings-Chyme-Graceful-Fallback",
     "title": "TrustTransport and Chyme updates for Android",
     "repo": "chargingthefuture/chargingthefuture",
@@ -3171,6 +5223,63 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "product-updates",
     "path": "product-updates/Product-Update-2026-07-02-Android-Transport-Earnings-Chyme-Graceful-Fallback.md",
     "number": 291
+  },
+  {
+    "slug": "farah-brunache/i-would-like-to-live-in-a-ti-only",
+    "title": "I would like to live in a TI-only gated community.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-01",
+    "excerpt": "I would like to live in a TI-only gated community. I am hosting weekly roundtables to discuss and plan this community.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-would-like-to-live-in-a-ti-only.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-would-like-to-live-in-a-TI-only-gated-community-I-am-hosting-weekly-roundtables-to-discuss-and-plan-this-community",
+      "originalDate": "2026-07-01",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/paul-would-you-like-to-join-the-gated-community",
+    "title": "Paul would you like to join the gated community discussion?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-01",
+    "excerpt": "Paul would you like to join the gated community discussion? The goal is to create a runbook so any TI can build a gated community.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/paul-would-you-like-to-join-the-gated-community.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Paul-https-www-quora-com-profile-Paul-24135-would-you-like-to-join-the-gated-community-discussion-The-goal-is-to",
+      "originalDate": "2026-07-01",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/three-things-shipped-for-trusttransport-this-week",
+    "title": "Three things shipped for TrustTransport this week.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-01",
+    "excerpt": "Three things shipped for TrustTransport this week. Providers can now log proof during a trip—a short reference for a photo, a confirmation code, or a note—and…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/three-things-shipped-for-trusttransport-this-week.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Three-things-shipped-for-TrustTransport-this-week-Providers-can-now-log-proof-during-a-trip-a-short-reference-for-a-ph",
+      "originalDate": "2026-07-01",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "Product-Update-2026-07-01-Navigation-and-Contributions",
@@ -3195,6 +5304,25 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 289
   },
   {
+    "slug": "farah-brunache/ti-skills-economy-tse-has-safety-measures",
+    "title": "TI Skills Economy (TSE) has safety measures.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-30",
+    "excerpt": "TI Skills Economy (TSE) has safety measures. If you block someone I am not notified.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/ti-skills-economy-tse-has-safety-measures.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/TI-Skills-Economy-TSE-has-safety-measures-If-you-block-someone-I-am-not-notified-You-may-block-someone-for-any-reaso",
+      "originalDate": "2026-06-30",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "Product-Update-2026-06-30-LevelUp-Android-Parity",
     "title": "LevelUp cohorts, Mood resources, and mobile fixes",
     "repo": "chargingthefuture/chargingthefuture",
@@ -3206,6 +5334,25 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 288
   },
   {
+    "slug": "farah-brunache/this-week-1-person-posted-on-socketrelay-asking-for-2",
+    "title": "This week, 1 person posted on SocketRelay asking for help with something.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-29",
+    "excerpt": "This week, 1 person posted on SocketRelay asking for help with something.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/this-week-1-person-posted-on-socketrelay-asking-for-2.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/This-week-1-person-posted-on-SocketRelay-asking-for-help-with-something-Right-now-70-survivors-have-listed-skills-in",
+      "originalDate": "2026-06-29",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "Product-Update-2026-06-29-LevelUp-Auto-Cohorts",
     "title": "LevelUp now auto-builds training cohorts from workforce gaps",
     "repo": "chargingthefuture/chargingthefuture",
@@ -3215,6 +5362,101 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "product-updates",
     "path": "product-updates/Product-Update-2026-06-29-LevelUp-Auto-Cohorts.md",
     "number": 287
+  },
+  {
+    "slug": "farah-brunache/frz-fab-is-right",
+    "title": "FRZ FAB is right.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-28",
+    "excerpt": "FRZ FAB is right. It’s organized crime. It’s human trafficking.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/frz-fab-is-right.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/FRZ-FAB-https-www-quora-com-profile-FRZ-FAB-is-right-It-s-organized-crime-It-s-human-trafficking-The-reality-i",
+      "originalDate": "2026-06-28",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/how-i-nominated-katie-larkin-to-the-ti-skills",
+    "title": "How I nominated Katie Larkin to the TI Skills Economy!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-28",
+    "excerpt": "How I nominated Katie Larkin to the TI Skills Economy! Video below of how I did it. You can join the TI Skills Economy at no cost and nominate as well!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/how-i-nominated-katie-larkin-to-the-ti-skills.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/How-I-nominated-Katie-Larkin-https-www-quora-com-profile-Katie-Larkin-53-to-the-TI-Skills-Economy-Video-below-of",
+      "originalDate": "2026-06-28",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/please-join-the-ti-skills-economy-it-is-exactly",
+    "title": "Please join the TI Skills Economy it is exactly what you are looking for!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-28",
+    "excerpt": "Please join the TI Skills Economy it is exactly what you are looking for!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/please-join-the-ti-skills-economy-it-is-exactly.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Please-join-the-TI-Skills-Economy-it-is-exactly-what-you-are-looking-for-https-app-ChargingTheFuture-com-https-ww",
+      "originalDate": "2026-06-28",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/this-is-less-about-tech-and-more-about-the",
+    "title": "This is less about tech and more about the principles of human trafficking.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-28",
+    "excerpt": "This is less about tech and more about the principles of human trafficking.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/this-is-less-about-tech-and-more-about-the.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/This-is-less-about-tech-and-more-about-the-principles-of-human-trafficking-The-same-tactics-used-today-were-used-on-me",
+      "originalDate": "2026-06-28",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/tommy-gumbert-i-have-nominated-you-to-join-ti",
+    "title": "Tommy Gumbert I have nominated you to join TI Skills Economy (TSE).",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-28",
+    "excerpt": "Tommy Gumbert I have nominated you to join TI Skills Economy (TSE).",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/tommy-gumbert-i-have-nominated-you-to-join-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Tommy-Gumbert-https-www-quora-com-profile-Tommy-Gumbert-I-have-nominated-you-to-join-TI-Skills-Economy-TSE-And",
+      "originalDate": "2026-06-28",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/how-do-gang-stalkers-know-your-whereabouts-all-the-time",
@@ -3248,6 +5490,25 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 286
   },
   {
+    "slug": "farah-brunache/i-made-a-conscious-decision-not-to-put-notifications",
+    "title": "I made a conscious decision not to put notifications in the app, part of implementing…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-27",
+    "excerpt": "I made a conscious decision not to put notifications in the app, part of implementing trauma-informed design.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-made-a-conscious-decision-not-to-put-notifications.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-made-a-conscious-decision-not-to-put-notifications-in-the-app-part-of-implementing-trauma-informed-design-This-past",
+      "originalDate": "2026-06-27",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "Product-Update-2026-06-27-Admin-Tools-Commons-Testing",
     "title": "Admin tools and Commons testing updates",
     "repo": "chargingthefuture/chargingthefuture",
@@ -3268,6 +5529,25 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "product-updates",
     "path": "product-updates/Product-Update-2026-06-27-Code-Review-Fixes.md",
     "number": 284
+  },
+  {
+    "slug": "farah-brunache/whatworks-a-simple-tool-to-track-valuable-resources-that",
+    "title": "WhatWorks a simple tool to track valuable resources that help TIs.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-26",
+    "excerpt": "WhatWorks a simple tool to track valuable resources that help TIs. Included at no cost within the TI Skills Economy app: CTF Survivor Hub 5-minute demo:",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/whatworks-a-simple-tool-to-track-valuable-resources-that.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/WhatWorks-a-simple-tool-to-track-valuable-resources-that-help-TIs-Included-at-no-cost-within-the-TI-Skills-Economy-app",
+      "originalDate": "2026-06-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "Product-Update-2026-06-26-Code-Review-Tracking-Push-Notifications",
@@ -3314,6 +5594,44 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 280
   },
   {
+    "slug": "farah-brunache/foundation-has-a-new-feature",
+    "title": "Foundation has a new feature.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-25",
+    "excerpt": "Foundation has a new feature. Demo below. Why Foundation exists.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/foundation-has-a-new-feature.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Foundation-has-a-new-feature-Demo-below-Why-Foundation-exists-Find-a-TI-on-Quora-who-has-a-skill-you-need-or-want-b",
+      "originalDate": "2026-06-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-homepage-of-the-app-features-a-chat-area",
+    "title": "The homepage of the app features a chat area designed for two main purposes.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-25",
+    "excerpt": "The homepage of the app features a chat area designed for two main purposes.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-homepage-of-the-app-features-a-chat-area.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-homepage-of-the-app-features-a-chat-area-designed-for-two-main-purposes-The-first-purpose-is-to-allow-engagement-wi",
+      "originalDate": "2026-06-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "Product-Update-2026-06-25-Credits-Calls-Search",
     "title": "Service Credits wallet, instant calls, and search updates",
     "repo": "chargingthefuture/chargingthefuture",
@@ -3334,6 +5652,101 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "product-updates",
     "path": "product-updates/Product-Update-2026-06-25-Member-Blocking-and-Safety-Escalation.md",
     "number": 278
+  },
+  {
+    "slug": "farah-brunache/i-am-creating-open-source-offline-first-psyop-free",
+    "title": "I am creating open-source, offline-first, psyop-free games.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-24",
+    "excerpt": "I am creating open-source, offline-first, psyop-free games. All will be listed in the link in my Quora bio: Farah | SleekBio Psyop-free games: Glowline:…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-am-creating-open-source-offline-first-psyop-free.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-am-creating-open-source-offline-first-psyop-free-games-All-will-be-listed-in-the-link-in-my-Quora-bio-Farah-Sle",
+      "originalDate": "2026-06-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/if-you-have-any-game-requests-let-me-know",
+    "title": "If you have any game requests, let me know!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-24",
+    "excerpt": "If you have any game requests, let me know! I enjoy product development.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/if-you-have-any-game-requests-let-me-know.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/If-you-have-any-game-requests-let-me-know-I-enjoy-product-development-With-affordable-access-to-AI-coding-tools-anyo",
+      "originalDate": "2026-06-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/king-luci-i-updated-the-app-and-you-should",
+    "title": "King Luci, I updated the app, and you should be able to access it normally.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-24",
+    "excerpt": "King Luci, I updated the app, and you should be able to access it normally.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/king-luci-i-updated-the-app-and-you-should.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/King-Luci-https-www-quora-com-profile-King-Luci-4-I-updated-the-app-and-you-should-be-able-to-access-it-normally",
+      "originalDate": "2026-06-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/when-you-initially-sign-up-meaning-you-go-to",
+    "title": "When you initially sign up - meaning you go to CTF Survivor Hub and enter in an email…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-24",
+    "excerpt": "When you initially sign up - meaning you go to CTF Survivor Hub and enter in an email address to sign up, you will see the screen below: It is asking you to…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/when-you-initially-sign-up-meaning-you-go-to.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/When-you-initially-sign-up-meaning-you-go-to-CTF-Survivor-Hub-https-app-chargingthefuture-com-and-enter-in-an-em",
+      "originalDate": "2026-06-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/yesterday-i-did-a-partial-migration-of-version-two",
+    "title": "Yesterday I did a partial migration of version two of the app to today’s version (version…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-24",
+    "excerpt": "Yesterday I did a partial migration of version two of the app to today’s version (version 3).",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/yesterday-i-did-a-partial-migration-of-version-two.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Yesterday-I-did-a-partial-migration-of-version-two-of-the-app-to-today-s-version-version-3-That-partial-migration-rec",
+      "originalDate": "2026-06-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "Product-Update-2026-06-24-Beacon-Streaming-Community-Stats",
@@ -3369,6 +5782,63 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 275
   },
   {
+    "slug": "farah-brunache/android-shipped-ten-new-features-this-week-and-now",
+    "title": "Android shipped ten new features this week, and now mobile and desktop are at feature…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-23",
+    "excerpt": "Android shipped ten new features this week, and now mobile and desktop are at feature parity.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/android-shipped-ten-new-features-this-week-and-now.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Android-shipped-ten-new-features-this-week-and-now-mobile-and-desktop-are-at-feature-parity-Heres-whats-new-on-the",
+      "originalDate": "2026-06-23",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/socketrelay-posts-now-auto-expire-after-28-days-and",
+    "title": "SocketRelay posts now auto-expire after 28 days and show a re-post button when they do.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-23",
+    "excerpt": "SocketRelay posts now auto-expire after 28 days and show a re-post button when they do. You can list an old post again without typing it out again.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/socketrelay-posts-now-auto-expire-after-28-days-and.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/SocketRelay-posts-now-auto-expire-after-28-days-and-show-a-re-post-button-when-they-do-You-can-list-an-old-post-again-w",
+      "originalDate": "2026-06-23",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/two-features-shipped-for-mobile-chat-bubbles-now-show",
+    "title": "Two features shipped for mobile: chat bubbles now show in distinct colors on Android, so…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-23",
+    "excerpt": "Two features shipped for mobile: chat bubbles now show in distinct colors on Android, so you can see who's speaking in a conversation at a glance.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/two-features-shipped-for-mobile-chat-bubbles-now-show.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Two-features-shipped-for-mobile-chat-bubbles-now-show-in-distinct-colors-on-Android-so-you-can-see-whos-speaking-in-a",
+      "originalDate": "2026-06-23",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "Product-Update-2026-06-23-Account-Deletion-Peer-Programming",
     "title": "Account deletion, Peer Programming rosters, and backend updates",
     "repo": "chargingthefuture/chargingthefuture",
@@ -3389,6 +5859,44 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "product-updates",
     "path": "product-updates/Product-Update-2026-06-23-Mobile-Chat-and-Skills-Hunt.md",
     "number": 273
+  },
+  {
+    "slug": "farah-brunache/i-created-within-the-ti-skills-economy-an-app",
+    "title": "I created within the TI Skills Economy an app/feature called PeerProgramming.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-22",
+    "excerpt": "I created within the TI Skills Economy an app/feature called PeerProgramming.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-created-within-the-ti-skills-economy-an-app.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-created-within-the-TI-Skills-Economy-an-app-feature-called-PeerProgramming-It-s-intended-to-be-a-weekly-meeting-that",
+      "originalDate": "2026-06-22",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/this-week-1-person-posted-on-socketrelay-asking-for",
+    "title": "This week, 1 person posted on SocketRelay asking for help.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-22",
+    "excerpt": "This week, 1 person posted on SocketRelay asking for help. That post is still open and waiting for someone to answer it.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/this-week-1-person-posted-on-socketrelay-asking-for.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/This-week-1-person-posted-on-SocketRelay-asking-for-help-That-post-is-still-open-and-waiting-for-someone-to-answer-it",
+      "originalDate": "2026-06-22",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "Product-Update-2026-06-22-Android-Feature-Parity-Wave",
@@ -3435,6 +5943,215 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 269
   },
   {
+    "slug": "farah-brunache/brandon-keller-how-can-i-help",
+    "title": "Brandon Keller how can I help?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-21",
+    "excerpt": "Brandon Keller how can I help? Have you seen the latest app release? Real-time features/assistance available. Let me know if you have any questions!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/brandon-keller-how-can-i-help.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Brandon-Keller-https-www-quora-com-profile-Brandon-Keller-135-how-can-I-help-Have-you-seen-the-latest-app-release",
+      "originalDate": "2026-06-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/diana-miller-how-can-i-help",
+    "title": "Diana Miller, how can I help?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-21",
+    "excerpt": "Diana Miller, how can I help? I created the TI Skills Economy to help TIs become self sufficient by connecting all 5 million of us.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/diana-miller-how-can-i-help.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Diana-Miller-https-www-quora-com-profile-Diana-Miller-535-how-can-I-help-I-created-the-TI-Skills-Economy-to-hel",
+      "originalDate": "2026-06-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/hadi-sami-how-can-i-help",
+    "title": "Hadi Sami, how can I help?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-21",
+    "excerpt": "Hadi Sami, how can I help? And have you seen my latest work?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/hadi-sami-how-can-i-help.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Hadi-Sami-https-www-quora-com-profile-Hadi-Sami-1-how-can-I-help-And-have-you-seen-my-latest-work-Does-not-mat",
+      "originalDate": "2026-06-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-am-a-one-person-project",
+    "title": "I am a one person project.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-21",
+    "excerpt": "I am a one person project. Trying to connect the estimated 5 million TIs globally.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-am-a-one-person-project.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-am-a-one-person-project-Trying-to-connect-the-estimated-5-million-TIs-globally-Help-me-find-skilled-TIs-with-Skills",
+      "originalDate": "2026-06-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-created-an-ai-assistant-within-the-ti-skills",
+    "title": "I created an AI assistant within the TI Skills Economy (TSE).",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-21",
+    "excerpt": "I created an AI assistant within the TI Skills Economy (TSE).",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-created-an-ai-assistant-within-the-ti-skills.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-first-AI-assistant-for-human-trafficking-survivors",
+      "originalDate": "2026-06-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/introducing-whatworks",
+    "title": "Introducing WhatWorks!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-21",
+    "excerpt": "Introducing WhatWorks! What? One shared, survivor-verified list of tools — organized by the exact problems survivors face.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/introducing-whatworks.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Introducing-WhatWorks-https-app-chargingthefuture-com-apps-whatworks-What-One-shared-survivor-verified-list-of-to",
+      "originalDate": "2026-06-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/lee-veeyl-how-can-i-help",
+    "title": "Lee Veeyl how can I help?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-21",
+    "excerpt": "Lee Veeyl how can I help? Have you seen my latest work in helping TIs: Real-time assistance 24/7 and the introduction of ServiceCredits - a psyop-free way to…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/lee-veeyl-how-can-i-help.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Lee-Veeyl-https-www-quora-com-profile-Lee-Veeyl-how-can-I-help-Have-you-seen-my-latest-work-in-helping-TIs-https",
+      "originalDate": "2026-06-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/philisha-suttles-how-can-i-help",
+    "title": "Philisha Suttles how can I help?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-21",
+    "excerpt": "Philisha Suttles how can I help? I saw your question: Quora.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/philisha-suttles-how-can-i-help.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Philisha-Suttles-https-www-quora-com-profile-Philisha-Suttles-how-can-I-help-I-saw-your-question-Quora-https",
+      "originalDate": "2026-06-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-way-to-speak-to-me-directly-is-via",
+    "title": "The way to speak to me directly is via the “commons.” It is the group chat within the TI…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-21",
+    "excerpt": "The way to speak to me directly is via the “commons.” It is the group chat within the TI Skills Economy hosted at CTF Survivor Hub.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-way-to-speak-to-me-directly-is-via.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-way-to-speak-to-me-directly-is-via-the-commons-It-is-the-group-chat-within-the-TI-Skills-Economy-hosted-at-CTF-Su",
+      "originalDate": "2026-06-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/want-to-earn-tokens-you-can-exchange-for-real",
+    "title": "Want to earn tokens you can exchange for real value like rides, housing, food and more?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-21",
+    "excerpt": "Want to earn tokens you can exchange for real value like rides, housing, food and more?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/want-to-earn-tokens-you-can-exchange-for-real.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Want-to-earn-tokens-you-can-exchange-for-real-value-like-rides-housing-food-and-more-Two-straightforward-ways-N",
+      "originalDate": "2026-06-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/wilma-ingram-how-can-i-help",
+    "title": "Wilma Ingram how can I help?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-21",
+    "excerpt": "Wilma Ingram how can I help? I created an app to provide 24/7 help to TIs:",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/wilma-ingram-how-can-i-help.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Wilma-Ingram-https-www-quora-com-profile-Wilma-Ingram-2-how-can-I-help-I-created-an-app-to-provide-24-7-help-to-T",
+      "originalDate": "2026-06-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "Product-Update-2026-06-21-Beacon-Livestream-Reactions-Chat-Colors",
     "title": "Beacon livestream, emoji reactions, and chat colors",
     "repo": "chargingthefuture/chargingthefuture",
@@ -3468,6 +6185,44 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 266
   },
   {
+    "slug": "farah-brunache/2-minute-video-on-how-to-find-tis-with",
+    "title": "2-minute video on how to find TIs with skills you want to connect with ESPADA is in the…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-20",
+    "excerpt": "2-minute video on how to find TIs with skills you want to connect with ESPADA is in the demo :).",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/2-minute-video-on-how-to-find-tis-with.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/2-minute-video-on-how-to-find-TIs-with-skills-you-want-to-connect-with-ESPADA-https-www-quora-com-profile-ESPADA-18",
+      "originalDate": "2026-06-20",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-shipped-a-batch-of-fixes-this-week",
+    "title": "I shipped a batch of fixes this week.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-20",
+    "excerpt": "I shipped a batch of fixes this week. LightHouse listings now work with multiple currencies — so if you're listing a space, you can set the price in whatever…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-shipped-a-batch-of-fixes-this-week.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-shipped-a-batch-of-fixes-this-week-LightHouse-listings-now-work-with-multiple-currencies-so-if-youre-listing-a-spa",
+      "originalDate": "2026-06-20",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "Product-Update-2026-06-20-Chyme-Audio-and-URL-Fixes",
     "title": "Chyme audio rooms and URL handling improvements",
     "repo": "chargingthefuture/chargingthefuture",
@@ -3488,6 +6243,120 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "product-updates",
     "path": "product-updates/Product-Update-2026-06-20-Fixes-Across-Plugins.md",
     "number": 264
+  },
+  {
+    "slug": "farah-brunache/i-just-shipped-a-batch-of-fixes-that-smooth",
+    "title": "I just shipped a batch of fixes that smooth out the everyday experience on Charging the…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-19",
+    "excerpt": "I just shipped a batch of fixes that smooth out the everyday experience on Charging the Future.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-just-shipped-a-batch-of-fixes-that-smooth.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-just-shipped-a-batch-of-fixes-that-smooth-out-the-everyday-experience-on-Charging-the-Future-Chymes-guest-listening",
+      "originalDate": "2026-06-19",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/king-luci-please-join-me-on-chyme",
+    "title": "King Luci please join me on Chyme!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-19",
+    "excerpt": "King Luci please join me on Chyme! Social audio for TIs. I have a 24/7 room running for TIs to connect:",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/king-luci-please-join-me-on-chyme.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/King-Luci-https-www-quora-com-profile-King-Luci-4-please-join-me-on-Chyme-Social-audio-for-TIs-I-have-a-24-7-roo",
+      "originalDate": "2026-06-19",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/right-now-theres-1-open-post-on-socketrelay-waiting",
+    "title": "Right now, there's 1 open post on SocketRelay waiting for someone to help.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-19",
+    "excerpt": "Right now, there's 1 open post on SocketRelay waiting for someone to help.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/right-now-theres-1-open-post-on-socketrelay-waiting.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Right-now-theres-1-open-post-on-SocketRelay-waiting-for-someone-to-help-Thats-a-real-person-asking-for-something-W",
+      "originalDate": "2026-06-19",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/two-quick-updates-landed-in-the-home-chat-this",
+    "title": "Two quick updates landed in the home chat this week.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-19",
+    "excerpt": "Two quick updates landed in the home chat this week. First, concierge replies now sort to the bottom of the conversation so you can read messages in order…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/two-quick-updates-landed-in-the-home-chat-this.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Two-quick-updates-landed-in-the-home-chat-this-week-First-concierge-replies-now-sort-to-the-bottom-of-the-conversatio",
+      "originalDate": "2026-06-19",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/we-just-cleaned-up-some-language-in-the-platform",
+    "title": "We just cleaned up some language in the platform.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-19",
+    "excerpt": "We just cleaned up some language in the platform. Foundation and TrustTransport were making claims they couldn't back up — saying providers were vetted when…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/we-just-cleaned-up-some-language-in-the-platform.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/We-just-cleaned-up-some-language-in-the-platform-Foundation-and-TrustTransport-were-making-claims-they-couldnt-back-up",
+      "originalDate": "2026-06-19",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/we-just-pushed-a-few-fixes-that-make-the",
+    "title": "We just pushed a few fixes that make the platform faster and simpler.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-19",
+    "excerpt": "We just pushed a few fixes that make the platform faster and simpler.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/we-just-pushed-a-few-fixes-that-make-the.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/We-just-pushed-a-few-fixes-that-make-the-platform-faster-and-simpler-Logins-are-now-quicker-because-we-fixed-how-the-sy",
+      "originalDate": "2026-06-19",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "Product-Update-2026-06-19-Honest-Language-and-Chat-Naming",
@@ -3521,6 +6390,25 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "product-updates",
     "path": "product-updates/Product-Update-2026-06-19-Platform-Fixes.md",
     "number": 261
+  },
+  {
+    "slug": "farah-brunache/live-24-7-drop-in-social-audio-ti-skills",
+    "title": "Live 24/7, Drop in social audio TI Skills Economy is hosted at CTF Survivor Hub One of…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-18",
+    "excerpt": "Live 24/7, Drop in social audio TI Skills Economy is hosted at CTF Survivor Hub One of the features is live voice-only chats!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/live-24-7-drop-in-social-audio-ti-skills.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Live-24-7-Drop-in-social-audio-TI-Skills-Economy-is-hosted-at-CTF-Survivor-Hub-https-app-chargingthefuture-com",
+      "originalDate": "2026-06-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "Product-Update-2026-06-18-Chat-Fixes",
@@ -3589,6 +6477,44 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 255
   },
   {
+    "slug": "farah-brunache/my-direct-answer-to-tis-struggling-with-employment-and",
+    "title": "My direct answer to TIs struggling with employment and destitution by the hands of the…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-15",
+    "excerpt": "My direct answer to TIs struggling with employment and destitution by the hands of the Specterati— Service Credits.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/my-direct-answer-to-tis-struggling-with-employment-and.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/My-direct-answer-to-TIs-struggling-with-employment-and-destitution-by-the-hands-of-the-Specterati-Service-Credits-Psyo",
+      "originalDate": "2026-06-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-specterati-made-me-destitute",
+    "title": "The Specterati made me destitute.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-15",
+    "excerpt": "The Specterati made me destitute. Thanks to three TIs that I met on Quora, I was able to survive.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-specterati-made-me-destitute.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-Specterati-made-me-destitute-Thanks-to-three-TIs-that-I-met-on-Quora-I-was-able-to-survive-I-am-paying-it-forward",
+      "originalDate": "2026-06-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "Product-Update-2026-06-15-Mobile-Fixes-And-Chat-Refresh",
     "title": "Chat refresh, mobile fixes, and error logging",
     "repo": "chargingthefuture/chargingthefuture",
@@ -3620,6 +6546,25 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "product-updates",
     "path": "product-updates/Product-Update-2026-06-15-Trust-Signals-Android-Parity.md",
     "number": 252
+  },
+  {
+    "slug": "farah-brunache/i-built-charging-the-future-it-runs-the-ti",
+    "title": "I built Charging the Future ( It runs the TI Skills Economy, an app for survivors of…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-14",
+    "excerpt": "I built Charging the Future ( It runs the TI Skills Economy, an app for survivors of Specterati harassment.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-built-charging-the-future-it-runs-the-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/How-comic-answers-survivors-with-a-person-in-the-loop",
+      "originalDate": "2026-06-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "Product-Update-2026-06-14-Admin-Tools-And-Heartbeat",
@@ -3655,6 +6600,25 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 249
   },
   {
+    "slug": "farah-brunache/im-building-chyme-a-social-audio-feature-for-targeted",
+    "title": "I’m building Chyme, a social audio feature for Targeted Individuals.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-13",
+    "excerpt": "I’m building Chyme, a social audio feature for Targeted Individuals.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/im-building-chyme-a-social-audio-feature-for-targeted.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Want-to-help-me-test-a-new-social-audio-feature-paid",
+      "originalDate": "2026-06-13",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "Product-Update-2026-06-13-Admin-Dashboard-Redesign",
     "title": "Admin tools now match the design system",
     "repo": "chargingthefuture/chargingthefuture",
@@ -3675,6 +6639,25 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "product-updates",
     "path": "product-updates/Product-Update-2026-06-13-Interface-Cleanup.md",
     "number": 247
+  },
+  {
+    "slug": "farah-brunache/socketrelay-update-is-available-and-i-have-made-my",
+    "title": "SocketRelay update is available and I have made my first post!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-12",
+    "excerpt": "SocketRelay update is available and I have made my first post!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/socketrelay-update-is-available-and-i-have-made-my.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/SocketRelay-update-is-available-and-I-have-made-my-first-post-Rather-than-use-Specterati-mailing-services-I-am-lookin",
+      "originalDate": "2026-06-12",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "Product-Update-2026-06-12-Community-Value-Index",
@@ -4029,6 +7012,25 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 215
   },
   {
+    "slug": "farah-brunache/how-charging-the-future-is-making-tools-for-survivors",
+    "title": "How Charging the Future is Making Tools for Survivors Clearer and More Trustworthy…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-05-29",
+    "excerpt": "How Charging the Future is Making Tools for Survivors Clearer and More Trustworthy Building technology for survivors of Specterati harassment requires a…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/how-charging-the-future-is-making-tools-for-survivors.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/How-Charging-the-Future-is-Making-Tools-for-Survivors-Clearer-and-More-Trustworthy-Building-technology-for-survivors-of",
+      "originalDate": "2026-05-29",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "Product-Update-2026-05-29-Blog-Publishing-Infrastructure",
     "title": "Blog publishing is now faster and more reliable",
     "repo": "chargingthefuture/chargingthefuture",
@@ -4084,6 +7086,44 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 210
   },
   {
+    "slug": "farah-brunache/c-elizabeth-p-p",
+    "title": "C..Elizabeth..P.P.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-05-26",
+    "excerpt": "C..Elizabeth..P.P. notes how perps will travel from different states to traffic TIs.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/c-elizabeth-p-p.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/C-Elizabeth-P-P-https-www-quora-com-profile-C-Elizabeth-P-P-notes-how-perps-will-travel-from-different-states-t",
+      "originalDate": "2026-05-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/in-the-comments-c-elizabeth-p-p",
+    "title": "In the comments C..Elizabeth..P.P.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-05-26",
+    "excerpt": "In the comments C..Elizabeth..P.P. states: trust isn’t something I have for people in person these days.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/in-the-comments-c-elizabeth-p-p.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/In-the-comments-C-Elizabeth-P-P-https-www-quora-com-profile-C-Elizabeth-P-P-states-trust-isn-t-something-I",
+      "originalDate": "2026-05-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/https-tiskillsnetwork-quora-com-c-elizabeth-p-p-https-www-quora-com-pr",
     "title": "https tiskillsnetwork quora com C Elizabeth P P https www quora com profile C Elizabeth P P notes how perps…",
     "repo": "chargingthefuture/wiki-site",
@@ -4100,6 +7140,63 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2026-05-26",
       "status": "erased",
       "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/damon-mayle-using-the-account-mica-if-that-is",
+    "title": "Damon Mayle, (using the account Mica) if that is his real name.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-05-24",
+    "excerpt": "Damon Mayle, (using the account Mica) if that is his real name.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/damon-mayle-using-the-account-mica-if-that-is.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Damon-Mayle-using-the-account-Mica-https-www-quora-com-profile-Mica-851-if-that-is-his-real-name-Was-a-perp-po",
+      "originalDate": "2026-05-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/in-the-road-to-connecting-384-targeted-individuals-in",
+    "title": "In the road to connecting 384 Targeted Individuals in a global economy, I am posting an…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-05-23",
+    "excerpt": "In the road to connecting 384 Targeted Individuals in a global economy, I am posting an RFS - Request for Skills.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/in-the-road-to-connecting-384-targeted-individuals-in.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Economic-Empowerment-Your-Road-to-60k-year",
+      "originalDate": "2026-05-23",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/we-have-the-potential-to-reach-5-million-tis",
+    "title": "We have the potential to reach 5 million TIs (human trafficking survivors) who come…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-05-23",
+    "excerpt": "We have the potential to reach 5 million TIs (human trafficking survivors) who come together to reclaim our lives.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/we-have-the-potential-to-reach-5-million-tis.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/From-62-to-384-Building-a-Real-Economy-Where-We-Live-Work-and-Prevail",
+      "originalDate": "2026-05-23",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -4134,6 +7231,272 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/kuku-saqua-not-a-club-but-an-economy",
+    "title": "Kuku Saqua, not a “club” but an economy.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-05-21",
+    "excerpt": "Kuku Saqua, not a “club” but an economy. TI Skills Economy works to help TIs rebuild their lives and achieve autonomy on their own terms.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/kuku-saqua-not-a-club-but-an-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Kuku-Saqua-https-www-quora-com-profile-Kuku-Saqua-not-a-club-but-an-economy-TI-Skills-Economy-works-to-help-TI",
+      "originalDate": "2026-05-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/lynita-mccarthy-i-saw-your-question-my-entire-town",
+    "title": "Lynita Mccarthy, I saw your question: My entire town I live in is against me.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-05-21",
+    "excerpt": "Lynita Mccarthy, I saw your question: My entire town I live in is against me.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/lynita-mccarthy-i-saw-your-question-my-entire-town.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Lynita-Mccarthy-https-www-quora-com-profile-Lynita-Mccarthy-I-saw-your-question-My-entire-town-I-live-in-is-aga",
+      "originalDate": "2026-05-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/their-house-their-rules-2",
+    "title": "Their house, their rules.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-05-20",
+    "excerpt": "Their house, their rules. You are on their infrastructure for one.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/their-house-their-rules-2.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Their-house-their-rules-You-are-on-their-infrastructure-for-one-And-there-are-multiple-ways-to-spy-and-exploit-Thir",
+      "originalDate": "2026-05-20",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/we-dont-need-another-forum",
+    "title": "We don't need another forum.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-05-20",
+    "excerpt": "We don't need another forum. We need infrastructure. Every feature is a shield against isolation, financial drain, and exploitation.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/we-dont-need-another-forum.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/We-dont-need-another-forum-We-need-infrastructure-Every-feature-is-a-shield-against-isolation-financial-drain-and-e",
+      "originalDate": "2026-05-20",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-agree-with-this-answer",
+    "title": "I agree with this answer.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-05-19",
+    "excerpt": "I agree with this answer. I met a TI where “everyone” knew he was a TI but did not harass them - but harassed me.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-agree-with-this-answer.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-agree-with-this-answer-I-met-a-TI-where-everyone-knew-he-was-a-TI-but-did-not-harass-them-but-harassed-me-Misle",
+      "originalDate": "2026-05-19",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/matthew-cappadocia-aka-the-wizard-of-oz-created-the",
+    "title": "Matthew Cappadocia (aka The Wizard of Oz) created the first peer-to-peer map PROVING the…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-05-19",
+    "excerpt": "Matthew Cappadocia (aka The Wizard of Oz) created the first peer-to-peer map PROVING the global presence of Targeted Individuals.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/matthew-cappadocia-aka-the-wizard-of-oz-created-the.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Matthew-Cappadocia-aka-The-Wizard-of-Oz-https-www-quora-com-profile-Matthew-Cappadocia-aka-The-Wizard-of-Oz-crea",
+      "originalDate": "2026-05-19",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/not-a-charity-not-a-support-group",
+    "title": "Not a charity. Not a support group.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-05-17",
+    "excerpt": "Not a charity. Not a support group. Not a forum. An invite-only circular economy that turns survivors into active participants in a $300B opportunity — built…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/not-a-charity-not-a-support-group.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Not-a-charity-Not-a-support-group-Not-a-forum-An-invite-only-circular-economy-that-turns-survivors-into-active-partic",
+      "originalDate": "2026-05-17",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-am-excited-to-introduce-peer-programming",
+    "title": "I am excited to introduce Peer Programming.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-05-13",
+    "excerpt": "I am excited to introduce Peer Programming. Instantly match with like-minded TIs and create virtual and in-person masterminds to achieve mutual outcomes.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-am-excited-to-introduce-peer-programming.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-am-excited-to-introduce-Peer-Programming-Instantly-match-with-like-minded-TIs-and-create-virtual-and-in-person-master",
+      "originalDate": "2026-05-13",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/major-update-in-trusttransport",
+    "title": "Major update in TrustTransport.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-05-13",
+    "excerpt": "Major update in TrustTransport. Not just rides, now request package and food delivery.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/major-update-in-trusttransport.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Major-update-in-TrustTransport-Not-just-rides-now-request-package-and-food-delivery-And-the-introduction-of-paying-us",
+      "originalDate": "2026-05-13",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/socketrelay-update-in-the-forthcoming-update-of-socketrelay-service",
+    "title": "SocketRelay Update In the forthcoming update of SocketRelay, Service Credits will be…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-05-13",
+    "excerpt": "SocketRelay Update In the forthcoming update of SocketRelay, Service Credits will be available!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/socketrelay-update-in-the-forthcoming-update-of-socketrelay-service.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/SocketRelay-Update-In-the-forthcoming-update-of-SocketRelay-Service-Credits-will-be-available-It-is-a-Specterati-tamp",
+      "originalDate": "2026-05-13",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/version-3-of-the-app-is-over-50-done",
+    "title": "Version 3 of the app is over 50% done.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-05-13",
+    "excerpt": "Version 3 of the app is over 50% done. A lot more work to be completed.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/version-3-of-the-app-is-over-50-done.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Version-3-of-the-app-is-over-50-done-A-lot-more-work-to-be-completed-Here-is-a-post-that-showcases-all-the-features-i",
+      "originalDate": "2026-05-13",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/fearnoman-what-type-of-work-are-you-interested-in",
+    "title": "FearNoMan what type of work are you interested in?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-05-12",
+    "excerpt": "FearNoMan what type of work are you interested in? Plenty of options in the TI Skills Economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/fearnoman-what-type-of-work-are-you-interested-in.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/FearNoMan-https-www-quora-com-profile-FearNoMan-1-what-type-of-work-are-you-interested-in-Plenty-of-options-in-th",
+      "originalDate": "2026-05-12",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/if-interested-in-clicking-through-the-prototype-of-the",
+    "title": "If interested in clicking through the prototype of the redesign, here it is: Keep in mind…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-05-12",
+    "excerpt": "If interested in clicking through the prototype of the redesign, here it is: Keep in mind the above link is temporary.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/if-interested-in-clicking-through-the-prototype-of-the.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/If-interested-in-clicking-through-the-prototype-of-the-redesign-here-it-is-https-survivor-thriver-marketplace-repli",
+      "originalDate": "2026-05-12",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/this-link-will-expire-in-the-near-future",
+    "title": "This link will expire in the near future.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-05-12",
+    "excerpt": "This link will expire in the near future. As I prefer to host videos on Wistia.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/this-link-will-expire-in-the-near-future.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/This-link-will-expire-in-the-near-future-As-I-prefer-to-host-videos-on-Wistia-The-blog-linked-below-earlier-will-be-li",
+      "originalDate": "2026-05-12",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "App-Redesign-(v3)-Demos",
     "title": "Click through the screens at your own pace",
     "repo": "chargingthefuture/chargingthefuture",
@@ -4144,6 +7507,63 @@ export const ARTICLES: ArticleMeta[] = [
     "path": "posts/App-Redesign-(v3)-Demos.md",
     "teaser": "The v3 redesign of the app has a click-through prototype: every one of the 17+ features, at your own pace, no account needed. There is also an overview video and a video per feature. Click through and tell me what works and what does not.",
     "number": 208
+  },
+  {
+    "slug": "farah-brunache/the-app-redesign-has-made-progress",
+    "title": "The app redesign has made progress.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-05-11",
+    "excerpt": "The app redesign has made progress. Here is a video that provides an overview of the 17 features!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-app-redesign-has-made-progress.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-app-redesign-has-made-progress-Here-is-a-video-that-provides-an-overview-of-the-17-features-https-chargingthefu",
+      "originalDate": "2026-05-11",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/laurie-will-you-join-the-ti-skills-economy-tse",
+    "title": "Laurie Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-04-21",
+    "excerpt": "Laurie Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/laurie-will-you-join-the-ti-skills-economy-tse.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Laurie-https-www-quora-com-profile-Laurie-917-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skills-Economy-is",
+      "originalDate": "2026-04-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/this-is-the-best-attitude-to-have",
+    "title": "This is the best attitude to have.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-04-21",
+    "excerpt": "This is the best attitude to have. FearNoMan Will you join the TI Skills Economy (TSE)?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/this-is-the-best-attitude-to-have.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/This-is-the-best-attitude-to-have-FearNoMan-https-www-quora-com-profile-FearNoMan-1-Will-you-join-the-TI-Skills",
+      "originalDate": "2026-04-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/what-should-i-do-if-my-perps-are-not-allowing-me-to-make-money-and-tak",
@@ -4181,6 +7601,25 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2026-04-16",
       "status": "erased",
       "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/jesus-rivera-i-know-this-post-is-old",
+    "title": "Jesus Rivera I know this post is old.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-04-14",
+    "excerpt": "Jesus Rivera I know this post is old. But if in the future you need a mechanic ask in my group of TIs.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/jesus-rivera-i-know-this-post-is-old.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Jesus-Rivera-https-www-quora-com-profile-Jesus-Rivera-73-I-know-this-post-is-old-But-if-in-the-future-you-need-a",
+      "originalDate": "2026-04-14",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -4222,6 +7661,158 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/this-was-a-bust-lol-i-was-spammed-with",
+    "title": "This was a bust, lol, I was spammed with Specterati trolling and fake news posts.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-04-11",
+    "excerpt": "This was a bust, lol, I was spammed with Specterati trolling and fake news posts.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/this-was-a-bust-lol-i-was-spammed-with.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/This-was-a-bust-lol-I-was-spammed-with-Specterati-trolling-and-fake-news-posts-Being-on-there-was-unproductive-Maybe",
+      "originalDate": "2026-04-11",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/weekly-state-of-the-ti-skills-economy-update-week",
+    "title": "Weekly State of the TI Skills Economy update Week 26: Ending April 10, 2026 No new…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-04-11",
+    "excerpt": "Weekly State of the TI Skills Economy update Week 26: Ending April 10, 2026 No new updates for this week.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/weekly-state-of-the-ti-skills-economy-update-week.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Weekly-State-of-the-TI-Skills-Economy-update-Week-26-Ending-April-10-2026-No-new-updates-for-this-week-I-am-still-i",
+      "originalDate": "2026-04-11",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/absolutely-true-about-the-smoke-screen",
+    "title": "Absolutely true about the smoke screen.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-04-05",
+    "excerpt": "Absolutely true about the smoke screen. Exit their economy, exit the psyop.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/absolutely-true-about-the-smoke-screen.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Absolutely-true-about-the-smoke-screen-Exit-their-economy-exit-the-psyop-https-www-quora-com-profile-Dreamergirl-5",
+      "originalDate": "2026-04-05",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/dreamergirl-you-ask-and-make-a-valid-point",
+    "title": "Dreamergirl you ask and make a valid point.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-04-05",
+    "excerpt": "Dreamergirl you ask and make a valid point. One of the reasons I created TSE.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/dreamergirl-you-ask-and-make-a-valid-point.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Dreamergirl-https-www-quora-com-profile-Dreamergirl-5-you-ask-and-make-a-valid-point-One-of-the-reasons-I-created",
+      "originalDate": "2026-04-05",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/matt-mccaffrey-ti-skills-network-might-be-the-support",
+    "title": "Matt McCaffrey TI Skills Network might be the support group you’re looking for.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-04-03",
+    "excerpt": "Matt McCaffrey TI Skills Network might be the support group you’re looking for.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/matt-mccaffrey-ti-skills-network-might-be-the-support.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Matt-McCaffrey-https-www-quora-com-profile-Matt-McCaffrey-9-TI-Skills-Network-might-be-the-support-group-you-re-lo",
+      "originalDate": "2026-04-03",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-am-not-forming-a-nation-state",
+    "title": "I am not forming a nation-state.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-03-30",
+    "excerpt": "I am not forming a nation-state. However, TSE might be able to learn from Estonia: As of now, I have been using Finland as a baseline.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-am-not-forming-a-nation-state.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-am-not-forming-a-nation-state-However-TSE-might-be-able-to-learn-from-Estonia-https-e-estonia-com-solutions-As",
+      "originalDate": "2026-03-30",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/this-post-has-the-latest-screenshots-of-the-app",
+    "title": "This post has the latest screenshots of the app that is being created:",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-03-28",
+    "excerpt": "This post has the latest screenshots of the app that is being created:",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/this-post-has-the-latest-screenshots-of-the-app.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/This-post-has-the-latest-screenshots-of-the-app-that-is-being-created-https-qr-ae-pF8GZj-https-tiskillsnetwork-quo",
+      "originalDate": "2026-03-28",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/weekly-state-of-the-ti-skills-economy-week-ending",
+    "title": "Weekly State of the TI Skills Economy, Week Ending March 27, 2026 No community updates…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-03-28",
+    "excerpt": "Weekly State of the TI Skills Economy, Week Ending March 27, 2026 No community updates for the week.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/weekly-state-of-the-ti-skills-economy-week-ending.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Weekly-State-of-the-TI-Skills-Economy-Week-Ending-March-27-2026-No-community-updates-for-the-week-I-have-been-workin",
+      "originalDate": "2026-03-28",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "discourse-migrate/Home",
     "title": "Blog Archive",
     "repo": "chargingthefuture/chargingthefuture",
@@ -4251,6 +7842,82 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 206
   },
   {
+    "slug": "farah-brunache/for-those-who-have-been-here-a-while-you",
+    "title": "For those who have been here a while, you are aware that originally, I used Quora for…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-03-23",
+    "excerpt": "For those who have been here a while, you are aware that originally, I used Quora for *all* content.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/for-those-who-have-been-here-a-while-you.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/For-those-who-have-been-here-a-while-you-are-aware-that-originally-I-used-Quora-for-all-content-Then-my-account-got",
+      "originalDate": "2026-03-23",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/recap-of-resources-website-that-links-to-the-web",
+    "title": "Recap of resources: Website that links to the Web app and Android app: World's First…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-03-23",
+    "excerpt": "Recap of resources: Website that links to the Web app and Android app: World's First Psyop-Free TI Economy Blog: Charging The Future Blog Back-up…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/recap-of-resources-website-that-links-to-the-web.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Recap-of-resources-Website-that-links-to-the-Web-app-and-Android-app-Worlds-First-Psyop-Free-TI-Economy-http-cha",
+      "originalDate": "2026-03-23",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/here-is-a-design-improvement-of-the-first-page",
+    "title": "Here is a design improvement of the first page you will see when you access the app.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-03-22",
+    "excerpt": "Here is a design improvement of the first page you will see when you access the app.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/here-is-a-design-improvement-of-the-first-page.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Here-is-a-design-improvement-of-the-first-page-you-will-see-when-you-access-the-app-Shared-is-the-desktop-and-mobile-vi",
+      "originalDate": "2026-03-22",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/small-update-i-am-removing-gentlepulse-the-meditation-app",
+    "title": "Small update: I am removing GentlePulse, the meditation app.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-03-22",
+    "excerpt": "Small update: I am removing GentlePulse, the meditation app.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/small-update-i-am-removing-gentlepulse-the-meditation-app.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Small-update-I-am-removing-GentlePulse-the-meditation-app-The-only-feature-that-was-being-used-of-it-was-Mood-reporti",
+      "originalDate": "2026-03-22",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "Weekly-State-of-the-TI-Skills-Economy",
     "title": "Weekly State of the TI Skills Economy",
     "repo": "chargingthefuture/mono",
@@ -4264,6 +7931,25 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 205
   },
   {
+    "slug": "farah-brunache/it-is-the-weekly-state-of-the-ti-economy",
+    "title": "It is the Weekly State of the TI Economy today, Saturday, March 21, 2026.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-03-21",
+    "excerpt": "It is the Weekly State of the TI Economy today, Saturday, March 21, 2026.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/it-is-the-weekly-state-of-the-ti-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/It-is-the-Weekly-State-of-the-TI-Economy-today-Saturday-March-21-2026-Nothing-new-to-announce-this-week-Here-is-a",
+      "originalDate": "2026-03-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "Contribution-Reversal,-A-Better-Alternative",
     "title": "Contribution Reversal: A Better Alternative",
     "repo": "chargingthefuture/chargingthefuture",
@@ -4274,6 +7960,405 @@ export const ARTICLES: ArticleMeta[] = [
     "path": "posts/Contribution-Reversal,-A-Better-Alternative.md",
     "teaser": "I am reversing the price increase. The ask stays low, because taking away a survivor's income is the first thing done to every one of us. From now on: when hosting costs are not covered, the app goes down to a waitlist page, and comes back when they are. Existing members keep their accounts either way and lose nothing.",
     "number": 204
+  },
+  {
+    "slug": "farah-brunache/preview-of-the-upcoming-app-upgrade",
+    "title": "Preview of the upcoming app upgrade:",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-03-14",
+    "excerpt": "Preview of the upcoming app upgrade:",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/preview-of-the-upcoming-app-upgrade.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Preview-of-the-upcoming-app-upgrade",
+      "originalDate": "2026-03-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/week-22-ending-march-13-2026-as-mentioned-in",
+    "title": "Week 22: Ending March 13, 2026 As mentioned in previous updates, when there have not been…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-03-14",
+    "excerpt": "Week 22: Ending March 13, 2026 As mentioned in previous updates, when there have not been enough contributions for the prior month, new signups to the app are…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/week-22-ending-march-13-2026-as-mentioned-in.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Saturday-Weekly-State-of-the-TI-Skills-Economy",
+      "originalDate": "2026-03-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/hot-take-if-you-cannot-give-specifics-and-there",
+    "title": "Hot take: If you cannot give specifics (and there have been a limited few who have on…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-03-09",
+    "excerpt": "Hot take: If you cannot give specifics (and there have been a limited few who have on Quora) you are likely not targeted by the government anymore than you…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/hot-take-if-you-cannot-give-specifics-and-there.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Hot-take-If-you-cannot-give-specifics-and-there-have-been-a-limited-few-who-have-on-Quora-you-are-likely-not-targeted",
+      "originalDate": "2026-03-09",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-have-started-a-substack",
+    "title": "I have started a Substack.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-03-08",
+    "excerpt": "I have started a Substack. I will use the space for conversations on economics within the context of TI Skills Network.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-have-started-a-substack.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-have-started-a-Substack-I-will-use-the-space-for-conversations-on-economics-within-the-context-of-TI-Skills-Network",
+      "originalDate": "2026-03-08",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/not-a-critique-or-endorsement-of-the-author-i",
+    "title": "Not a critique or endorsement of the author, I know nothing of them.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-03-08",
+    "excerpt": "Not a critique or endorsement of the author, I know nothing of them.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/not-a-critique-or-endorsement-of-the-author-i.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Not-a-critique-or-endorsement-of-the-author-I-know-nothing-of-them-Sharing-as-it-an-authentic-comment-about-connection",
+      "originalDate": "2026-03-08",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/it-is-saturday-march-7-2026-and-the-weekly",
+    "title": "It is Saturday, March 7, 2026, and the Weekly State of the TI Skills Economy.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-03-07",
+    "excerpt": "It is Saturday, March 7, 2026, and the Weekly State of the TI Skills Economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/it-is-saturday-march-7-2026-and-the-weekly.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/It-is-Saturday-March-7-2026-and-the-Weekly-State-of-the-TI-Skills-Economy-An-upgrade-is-underway-for-the-app-Here-w",
+      "originalDate": "2026-03-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/what-i-am-building-10-of-15-protection-and",
+    "title": "What I Am Building | 10 of 15 Protection and governance The system will have survivor-led…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-03-07",
+    "excerpt": "What I Am Building | 10 of 15 Protection and governance The system will have survivor-led governance, anti-exploitation rules, dispute processes, and…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/what-i-am-building-10-of-15-protection-and.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/What-I-Am-Building-10-of-15-Protection-and-governance-The-system-will-have-survivor-led-governance-anti-exploitatio",
+      "originalDate": "2026-03-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/what-i-am-building-11-of-15-first-year",
+    "title": "What I Am Building | 11 of 15 First-year target Year 1 goal: capture $50B in services…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-03-07",
+    "excerpt": "What I Am Building | 11 of 15 First-year target Year 1 goal: capture $50B in services (about $10,000 per person).",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/what-i-am-building-11-of-15-first-year.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/What-I-Am-Building-11-of-15-First-year-target-Year-1-goal-capture-50B-in-services-about-10-000-per-person-Focus",
+      "originalDate": "2026-03-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/what-i-am-building-12-of-15-5-year",
+    "title": "What I Am Building | 12 of 15 5-year rollout (high level) - Year 0: build MVP platform…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-03-07",
+    "excerpt": "What I Am Building | 12 of 15 5-year rollout (high level) - Year 0: build MVP platform, governance, 2,000 pilot trainees - Year 1: scale training,…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/what-i-am-building-12-of-15-5-year.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/What-I-Am-Building-12-of-15-5-year-rollout-high-level-Year-0-build-MVP-platform-governance-2-000-pilot-train",
+      "originalDate": "2026-03-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/what-i-am-building-13-of-15-pricing-bands",
+    "title": "What I Am Building | 13 of 15 Pricing bands (example) Example mix to reach $210B: - High…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-03-07",
+    "excerpt": "What I Am Building | 13 of 15 Pricing bands (example) Example mix to reach $210B: - High specialists (500k): $120/hr, 1,200 hrs → big share - Mid…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/what-i-am-building-13-of-15-pricing-bands.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/What-I-Am-Building-13-of-15-Pricing-bands-example-Example-mix-to-reach-210B-High-specialists-500k-120-hr",
+      "originalDate": "2026-03-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/what-i-am-building-14-of-15-quick-action",
+    "title": "What I Am Building | 14 of 15 Quick action checklist - Design ServiceCredits + ledger and…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-03-07",
+    "excerpt": "What I Am Building | 14 of 15 Quick action checklist - Design ServiceCredits + ledger and escrow - Launch matching marketplace + credentials - Run training…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/what-i-am-building-14-of-15-quick-action.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/What-I-Am-Building-14-of-15-Quick-action-checklist-1-Design-ServiceCredits-ledger-and-escrow-2-Launch-matching-m",
+      "originalDate": "2026-03-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/what-i-am-building-15-of-15-why-the",
+    "title": "What I Am Building | 15 of 15 Why the dashboard matters The GDP dashboard gives survivors…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-03-07",
+    "excerpt": "What I Am Building | 15 of 15 Why the dashboard matters The GDP dashboard gives survivors transparent, simple numbers showing how far the community has come —…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/what-i-am-building-15-of-15-why-the.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/What-I-Am-Building-15-of-15-Why-the-dashboard-matters-The-GDP-dashboard-gives-survivors-transparent-simple-numbers",
+      "originalDate": "2026-03-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/what-i-am-building-8-of-15-servicecredits-internal",
+    "title": "What I Am Building | 8 of 15 ServiceCredits (internal reward mechanism, utility…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-03-07",
+    "excerpt": "What I Am Building | 8 of 15 ServiceCredits (internal reward mechanism, utility credit/token) We’ll use ServiceCredits as the internal unit: - Peg value so…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/what-i-am-building-8-of-15-servicecredits-internal.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/What-I-Am-Building-8-of-15-ServiceCredits-internal-reward-mechanism-utility-credit-token-We-ll-use-ServiceCredits",
+      "originalDate": "2026-03-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/what-i-am-building-9-of-15-core-platform",
+    "title": "What I Am Building | 9 of 15 Core platform features The dashboard ties to a platform that…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-03-07",
+    "excerpt": "What I Am Building | 9 of 15 Core platform features The dashboard ties to a platform that includes: - Identity & skill credentials - Reputation and matching -…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/what-i-am-building-9-of-15-core-platform.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/What-I-Am-Building-9-of-15-Core-platform-features-The-dashboard-ties-to-a-platform-that-includes-Identity-ski",
+      "originalDate": "2026-03-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/what-i-am-building-6-of-15-how-much",
+    "title": "What I Am Building | 6 of 15 How much providers could earn If half the community (2.5M)…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-03-06",
+    "excerpt": "What I Am Building | 6 of 15 How much providers could earn If half the community (2.5M) provide services, average service-provider income = $84,000/year.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/what-i-am-building-6-of-15-how-much.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/What-I-Am-Building-6-of-15-How-much-providers-could-earn-If-half-the-community-2-5M-provide-services-average-serv",
+      "originalDate": "2026-03-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/what-i-am-building-7-of-15-unit-economics",
+    "title": "What I Am Building | 7 of 15 Unit economics example If providers charge $40/hour and work…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-03-06",
+    "excerpt": "What I Am Building | 7 of 15 Unit economics example If providers charge $40/hour and work 1,200 billable hours/year, each earns $48,000/year.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/what-i-am-building-7-of-15-unit-economics.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/What-I-Am-Building-7-of-15-Unit-economics-example-If-providers-charge-40-hour-and-work-1-200-billable-hours-year-e",
+      "originalDate": "2026-03-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-am-in-the-process-of-doing-an-app",
+    "title": "I am in the process of doing an app redesign.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-03-01",
+    "excerpt": "I am in the process of doing an app redesign. A new feature will be “usernames,” you can get a head start and reserve your username here: Then, when the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-am-in-the-process-of-doing-an-app.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-am-in-the-process-of-doing-an-app-redesign-A-new-feature-will-be-usernames-you-can-get-a-head-start-and-reserve-yo",
+      "originalDate": "2026-03-01",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/wait-list-landing-page-is-up-if-you-are",
+    "title": "Wait-list landing page is up: If you are a TI and would like to join the TI Skills…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-03-01",
+    "excerpt": "Wait-list landing page is up: If you are a TI and would like to join the TI Skills Economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/wait-list-landing-page-is-up-if-you-are.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Wait-list-landing-page-is-up-https-chargingthefuture-com-If-you-are-a-TI-and-would-like-to-join-the-TI-Skills-Econo",
+      "originalDate": "2026-03-01",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/welcome-to-the-weekly-state-of-the-ti-skills",
+    "title": "Welcome to the weekly State of the TI Skills Economy: February 28, 2026 Starting today…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-28",
+    "excerpt": "Welcome to the weekly State of the TI Skills Economy: February 28, 2026 Starting today onwards, it will be less about app metrics and a discussion on the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/welcome-to-the-weekly-state-of-the-ti-skills.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Welcome-to-the-weekly-State-of-the-TI-Skills-Economy-February-28-2026-Starting-today-onwards-it-will-be-less-about-a",
+      "originalDate": "2026-02-28",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/friendly-reminder-of-the-purpose-of-this-space",
+    "title": "Friendly reminder of the purpose of this space.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-27",
+    "excerpt": "Friendly reminder of the purpose of this space. Also found in the description on the space.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/friendly-reminder-of-the-purpose-of-this-space.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Friendly-reminder-of-the-purpose-of-this-space-Also-found-in-the-description-on-the-space-This-is-a-space-exclusively",
+      "originalDate": "2026-02-27",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-made-this-post-last-week-announcing-a-price",
+    "title": "I made this post last week, announcing a price increase: A Necessary Step to Keep Our…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-27",
+    "excerpt": "I made this post last week, announcing a price increase: A Necessary Step to Keep Our Platform Running But have thought of a new idea.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-made-this-post-last-week-announcing-a-price.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-made-this-post-last-week-announcing-a-price-increase-A-Necessary-Step-to-Keep-Our-Platform-Running-https-github",
+      "originalDate": "2026-02-27",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/i-do-not-know-also-do-not-see-how-this-question-relates-to-the-ti-skil",
@@ -4316,6 +8401,101 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/i-am-launching-a-public-gdp-gross-domestic-product",
+    "title": "I am launching a public GDP (gross domestic product) dashboard for a peer-to-peer…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-26",
+    "excerpt": "I am launching a public GDP (gross domestic product) dashboard for a peer-to-peer marketplace that brings 5 million human trafficking survivors into the TI…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-am-launching-a-public-gdp-gross-domestic-product.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/What-I-Am-Building-Post-1-of-15",
+      "originalDate": "2026-02-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/what-i-am-building-2-of-15-big-picture",
+    "title": "What I Am Building | 2 of 15 Big Picture Numbers Total target GDP: $300 billion for…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-26",
+    "excerpt": "What I Am Building | 2 of 15 Big Picture Numbers Total target GDP: $300 billion for 5,000,000 people → that’s $60,000 per person on average.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/what-i-am-building-2-of-15-big-picture.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/What-I-Am-Building-2-of-15-Big-Picture-Numbers-Total-target-GDP-300-billion-for-5-000-000-people-that-s-60-000",
+      "originalDate": "2026-02-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/what-i-am-building-3-of-15-services-per",
+    "title": "What I Am Building | 3 of 15 Services per person Services total $210 billion.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-26",
+    "excerpt": "What I Am Building | 3 of 15 Services per person Services total $210 billion.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/what-i-am-building-3-of-15-services-per.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/What-I-Am-Building-3-of-15-Services-per-person-Services-total-210-billion-That-equals-42-000-in-services-per-pers",
+      "originalDate": "2026-02-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/what-i-am-building-4-of-15-how-we",
+    "title": "What I Am Building | 4 of 15 How we split services We model services in five groups…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-26",
+    "excerpt": "What I Am Building | 4 of 15 How we split services We model services in five groups: - Personal & social care (health, counseling) - Professional & knowledge…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/what-i-am-building-4-of-15-how-we.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/What-I-Am-Building-4-of-15-How-we-split-services-We-model-services-in-five-groups-Personal-social-care-healt",
+      "originalDate": "2026-02-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/what-i-am-building-5-of-15-example-service",
+    "title": "What I Am Building | 5 of 15 Example service allocation Example split of $210B…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-26",
+    "excerpt": "What I Am Building | 5 of 15 Example service allocation Example split of $210B: - Personal & social care: $63B - Professional/knowledge: $63B -…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/what-i-am-building-5-of-15-example-service.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/What-I-Am-Building-5-of-15-Example-service-allocation-Example-split-of-210B-Personal-social-care-63B-Pr",
+      "originalDate": "2026-02-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/where-do-you-live-i-ve-spent-270g-traveled-400k-and-have-looked-to-reh",
     "title": "Where do you live I ve spent 270G traveled 400k and have looked to rehome but these people GPS me and tell…",
     "repo": "chargingthefuture/wiki-site",
@@ -4332,6 +8512,101 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2026-02-25",
       "status": "erased",
       "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/great-list-exception-is-number-11",
+    "title": "Great list, exception is number 11.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-24",
+    "excerpt": "Great list, exception is number 11. Not remotely true. And two perps who were extorted and did not want to troll me and did said it is sex trafficking.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/great-list-exception-is-number-11.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Great-list-exception-is-number-11-Not-remotely-true-And-two-perps-who-were-extorted-and-did-not-want-to-troll-me-and",
+      "originalDate": "2026-02-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/kelly-they-have-their-children-stalk-as-well",
+    "title": "Kelly they have their children stalk as well.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-23",
+    "excerpt": "Kelly they have their children stalk as well. They are human traffickers.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/kelly-they-have-their-children-stalk-as-well.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Kelly-https-www-quora-com-profile-Kelly-14746-they-have-their-children-stalk-as-well-They-are-human-traffickers",
+      "originalDate": "2026-02-23",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/tara-are-you-near-nyc",
+    "title": "Tara are you near NYC?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-22",
+    "excerpt": "Tara are you near NYC? If so, we can meet. The Specterati have me stranded here at the moment.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/tara-are-you-near-nyc.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Tara-https-www-quora-com-profile-Tara-6189-are-you-near-NYC-If-so-we-can-meet-The-Specterati-have-me-stranded-h",
+      "originalDate": "2026-02-22",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/it-is-saturday-which-means-the-weekly-state-of",
+    "title": "It is Saturday, which means the Weekly State of the TI Skills Economy!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-21",
+    "excerpt": "It is Saturday, which means the Weekly State of the TI Skills Economy!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/it-is-saturday-which-means-the-weekly-state-of.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/It-is-Saturday-which-means-the-Weekly-State-of-the-TI-Skills-Economy-Here-is-the-update-Week-19-Ending-February-20",
+      "originalDate": "2026-02-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/app-may-go-offline-temporarily-on-march-1-2026",
+    "title": "App may go offline temporarily on March 1, 2026.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-19",
+    "excerpt": "App may go offline temporarily on March 1, 2026. Details here:",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/app-may-go-offline-temporarily-on-march-1-2026.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/App-may-go-offline-temporarily-on-March-1-2026-Details-here-https-github-com-chargingthefuture-chargingthefuture-w",
+      "originalDate": "2026-02-19",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -4367,6 +8642,101 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 203
   },
   {
+    "slug": "farah-brunache/missing-or-rescheduling-scheduled-appointments-last-minute-displaying-unprofessional",
+    "title": "Missing or rescheduling scheduled appointments last minute, displaying unprofessional…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-18",
+    "excerpt": "Missing or rescheduling scheduled appointments last minute, displaying unprofessional behavior, and/or lying about previous experience is what the Specterati…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/missing-or-rescheduling-scheduled-appointments-last-minute-displaying-unprofessional.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Missing-or-rescheduling-scheduled-appointments-last-minute-displaying-unprofessional-behavior-and-or-lying-about-previ",
+      "originalDate": "2026-02-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/100-of-the-people-on-quora-i-suspect-are",
+    "title": "100% of the people on Quora I suspect are perps, are perps.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-16",
+    "excerpt": "100% of the people on Quora I suspect are perps, are perps. But I cannot say the same about who I think is a TI.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/100-of-the-people-on-quora-i-suspect-are.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/100-of-the-people-on-Quora-I-suspect-are-perps-are-perps-But-I-cannot-say-the-same-about-who-I-think-is-a-TI-A-perp",
+      "originalDate": "2026-02-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/exit-their-economy-exit-the-psyop",
+    "title": "EXIT THEIR ECONOMY, EXIT THE PSYOP.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-16",
+    "excerpt": "EXIT THEIR ECONOMY, EXIT THE PSYOP. I replied to the below post in thread.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/exit-their-economy-exit-the-psyop.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/EXIT-THEIR-ECONOMY-EXIT-THE-PSYOP-I-replied-to-the-below-post-in-thread-Sharing-again-here-My-response-There-co",
+      "originalDate": "2026-02-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/for-app-support-or-questions-comment-to-any-quora",
+    "title": "For app support or questions: - Comment to any Quora post OR - Send a message in one of…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-16",
+    "excerpt": "For app support or questions: - Comment to any Quora post OR - Send a message in one of the Signal Groups OR - Send a message in the, in-app live chat…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/for-app-support-or-questions-comment-to-any-quora.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-officially-closed-my-Quora-DMs-Three-ways-to-reach-me-and-get-help",
+      "originalDate": "2026-02-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/richard-lane-exit-their-economy-exit-the-psyop",
+    "title": "Richard Lane EXIT THEIR ECONOMY, EXIT THE PSYOP.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-16",
+    "excerpt": "Richard Lane EXIT THEIR ECONOMY, EXIT THE PSYOP. I replied to the below post in thread.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/richard-lane-exit-their-economy-exit-the-psyop.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Richard-Lane-https-www-quora-com-profile-Richard-Lane-405-EXIT-THEIR-ECONOMY-EXIT-THE-PSYOP-I-replied-to-the-be",
+      "originalDate": "2026-02-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/what-resources-or-support-systems-exist-for-people-who-are-being-pushe",
     "title": "What resources or support systems exist for people who are being pushed out of their homes due to gang…",
     "repo": "chargingthefuture/wiki-site",
@@ -4399,6 +8769,101 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 202
   },
   {
+    "slug": "farah-brunache/as-seen-in-the-weekly-app-stats-as-of",
+    "title": "As seen in the weekly app stats, as of today, 57 people have signed up, with only 32 of…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-15",
+    "excerpt": "As seen in the weekly app stats, as of today, 57 people have signed up, with only 32 of them having provided their Quora handle.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/as-seen-in-the-weekly-app-stats-as-of.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/New-Feature-Live-in-app-Community-Support-Chat",
+      "originalDate": "2026-02-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/before-today-within-gentlepulse-you-could-report-on-your",
+    "title": "Before today, within GentlePulse, you could report on your mood.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-15",
+    "excerpt": "Before today, within GentlePulse, you could report on your mood.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/before-today-within-gentlepulse-you-could-report-on-your.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Feature-Update",
+      "originalDate": "2026-02-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-create-apps-for-myself-one-of-which-is",
+    "title": "I create apps for myself, one of which is an Incident Counter.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-15",
+    "excerpt": "I create apps for myself, one of which is an Incident Counter.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-create-apps-for-myself-one-of-which-is.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Niche-app-Incident-Counter-Logger",
+      "originalDate": "2026-02-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/let-me-know-if-you-would-like-me-to",
+    "title": "Let me know if you would like me to implement this in the psyop-free economy.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-15",
+    "excerpt": "Let me know if you would like me to implement this in the psyop-free economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/let-me-know-if-you-would-like-me-to.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Niche-app-Psyop-free-date-calculator",
+      "originalDate": "2026-02-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/yeah-just-released-today-the-live-in-app-chat",
+    "title": "Yeah! Just released today, the live in-app chat, and someone used it today!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-15",
+    "excerpt": "Yeah! Just released today, the live in-app chat, and someone used it today!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/yeah-just-released-today-the-live-in-app-chat.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Yeah-Just-released-today-the-live-in-app-chat-and-someone-used-it-today-Thank-you-for-joining-Amanda-Reminder-any",
+      "originalDate": "2026-02-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "Live-in‐app-Community-Support-Chat",
     "title": "New Feature: Live in-app Community Support Chat",
     "repo": "chargingthefuture/chargingthefuture",
@@ -4421,6 +8886,120 @@ export const ARTICLES: ArticleMeta[] = [
     "path": "posts/New-Mini‐App:-Mood.md",
     "teaser": "Mood ratings now have their own mini-app, moved out of GentlePulse based on how the community actually uses it. Same rules as before: anonymous, and individual responses are never sold or shared. I use it for one thing — to see whether the product is improving your mental health and your economic stability.",
     "number": 200
+  },
+  {
+    "slug": "farah-brunache/it-is-saturday-and-so-it-is-time-for",
+    "title": "It is Saturday, and so it is time for the Weekly State of the TI Economy.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-14",
+    "excerpt": "It is Saturday, and so it is time for the Weekly State of the TI Economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/it-is-saturday-and-so-it-is-time-for.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/It-is-Saturday-and-so-it-is-time-for-the-Weekly-State-of-the-TI-Economy-Below-are-the-stats-for-the-app-Welcome-to-th",
+      "originalDate": "2026-02-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/sandy-will-you-join-the-ti-skills-economy-tse",
+    "title": "Sandy Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-14",
+    "excerpt": "Sandy Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/sandy-will-you-join-the-ti-skills-economy-tse.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Sandy-https-www-quora-com-profile-Sandy-3054-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skills-Economy-is",
+      "originalDate": "2026-02-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/update-i-fixed-an-issue-where-you-can-only",
+    "title": "Update: I fixed an issue where you can only search by first name or last name in the…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-13",
+    "excerpt": "Update: I fixed an issue where you can only search by first name or last name in the Directory.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/update-i-fixed-an-issue-where-you-can-only.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Update-I-fixed-an-issue-where-you-can-only-search-by-first-name-or-last-name-in-the-Directory-Now-you-can-search-by-an",
+      "originalDate": "2026-02-13",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/angela-womer-welcome-to-the-ti-skills-economy",
+    "title": "Angela Womer welcome to the TI Skills Economy!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-10",
+    "excerpt": "Angela Womer welcome to the TI Skills Economy! Here is your profile: Use the same link to create an account with just an email address.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/angela-womer-welcome-to-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Angela-Womer-https-www-quora-com-profile-Angela-Womer-2-welcome-to-the-TI-Skills-Economy-Here-is-your-profile-h",
+      "originalDate": "2026-02-10",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/angela-womer-will-you-join-the-ti-skills-economy-2",
+    "title": "Angela Womer Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-10",
+    "excerpt": "Angela Womer Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/angela-womer-will-you-join-the-ti-skills-economy-2.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Angela-Womer-https-www-quora-com-profile-Angela-Womer-2-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skills-1",
+      "originalDate": "2026-02-10",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-have-been-reviewing-the-apps-features-and-have",
+    "title": "I have been reviewing the app's features and have decided to remove the apps…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-10",
+    "excerpt": "I have been reviewing the app's features and have decided to remove the apps MechanicMatch, CompareNotes, and LostMail, as they are not in use.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-have-been-reviewing-the-apps-features-and-have.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Feature-refinements-removing-MechanicMatch-CompareNotes-and-LostMail",
+      "originalDate": "2026-02-10",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/what-s-a-conspiracy-theory-you-have-about-your-own-everyday-life-2",
@@ -4511,6 +9090,82 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 199
   },
   {
+    "slug": "farah-brunache/additional-supportmatch-matches-were-made-today",
+    "title": "Additional SupportMatch, matches were made today.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-08",
+    "excerpt": "Additional SupportMatch, matches were made today. Active starting Feb 8, 2026 - Mar 10, 2026.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/additional-supportmatch-matches-were-made-today.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Additional-SupportMatch-matches-were-made-today-Active-starting-Feb-8-2026-Mar-10-2026-Going-to-this-direct-link",
+      "originalDate": "2026-02-08",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/if-you-are-a-mechanic-please-add-your-name",
+    "title": "If you are a Mechanic, please add your name to the following public directory.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-08",
+    "excerpt": "If you are a Mechanic, please add your name to the following public directory.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/if-you-are-a-mechanic-please-add-your-name.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/If-you-are-a-Mechanic-please-add-your-name-to-the-following-public-directory-This-way-TIs-looking-for-psyop-free-mecha",
+      "originalDate": "2026-02-08",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/javier-landeros-will-you-join-the-ti-skills-economy",
+    "title": "Javier Landeros Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-08",
+    "excerpt": "Javier Landeros Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/javier-landeros-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Javier-Landeros-https-www-quora-com-profile-Javier-Landeros-16-Will-you-join-the-TI-Skills-Economy-TSE-The-TI",
+      "originalDate": "2026-02-08",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/pukka-gwaan-will-you-join-the-ti-skills-economy",
+    "title": "Pukka Gwaan Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-08",
+    "excerpt": "Pukka Gwaan Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/pukka-gwaan-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Pukka-Gwaan-https-www-quora-com-profile-Pukka-Gwaan-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skills-Econ",
+      "originalDate": "2026-02-08",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/are-there-support-groups-for-targeted-individuals-in-austin-texas-gang",
     "title": "Are there support groups for targeted individuals in Austin Texas gangstalking or are there people getting…",
     "repo": "chargingthefuture/wiki-site",
@@ -4527,6 +9182,44 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2026-02-08",
       "status": "erased",
       "kind": "answer-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/if-you-are-having-any-issues-accessing-the-app",
+    "title": "If you are having any issues accessing the app, please let me know.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-06",
+    "excerpt": "If you are having any issues accessing the app, please let me know.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/if-you-are-having-any-issues-accessing-the-app.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Welcome-our-newest-members-to-TSE-TI-Skills-Economy",
+      "originalDate": "2026-02-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/week-17-ending-february-6-2026-update-compared-to",
+    "title": "Week 17: Ending February 6, 2026, Update - Compared to last week, we had a 200% increase…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-06",
+    "excerpt": "Week 17: Ending February 6, 2026, Update - Compared to last week, we had a 200% increase in sign-ups.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/week-17-ending-february-6-2026-update-compared-to.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Weekly-State-of-the-TI-Skills-Economy",
+      "originalDate": "2026-02-06",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -4550,6 +9243,63 @@ export const ARTICLES: ArticleMeta[] = [
       "sharedTo": [
         "US-PSYOPS-TARGETED-INDIVIDUALS"
       ]
+    }
+  },
+  {
+    "slug": "farah-brunache/4me2kno4u2fafo-will-you-join-the-ti-skills-economy-tse",
+    "title": "4me2kno4U2FAFO Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-04",
+    "excerpt": "4me2kno4U2FAFO Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/4me2kno4u2fafo-will-you-join-the-ti-skills-economy-tse.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/4me2kno4U2FAFO-https-www-quora-com-profile-4me2kno4U2FAFO-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skill",
+      "originalDate": "2026-02-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/angela-jones-will-you-join-the-ti-skills-economy",
+    "title": "Angela Jones Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-04",
+    "excerpt": "Angela Jones Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/angela-jones-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Angela-Jones-https-www-quora-com-profile-Angela-Jones-104-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skill",
+      "originalDate": "2026-02-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/if-any-of-my-posts-show-up-for-you",
+    "title": "If any of my posts show up for you with just the option to block or report me, and not…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-04",
+    "excerpt": "If any of my posts show up for you with just the option to block or report me, and not message me, let me know.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/if-any-of-my-posts-show-up-for-you.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/If-any-of-my-posts-show-up-for-you-with-just-the-option-to-block-or-report-me-and-not-message-me-let-me-know-If-I-fol",
+      "originalDate": "2026-02-04",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -4591,6 +9341,63 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/supportmatch-new-matches-made-today-please-log-into-the",
+    "title": "SupportMatch: New matches made today Please log into the app to see your matches.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-03",
+    "excerpt": "SupportMatch: New matches made today Please log into the app to see your matches.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/supportmatch-new-matches-made-today-please-log-into-the.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/SupportMatch-New-matches-made-today-Please-log-into-the-app-to-see-your-matches-If-you-do-not-have-a-match-it-means",
+      "originalDate": "2026-02-03",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/marilyn-will-you-join-the-ti-skills-economy-tse",
+    "title": "Marilyn Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-02",
+    "excerpt": "Marilyn Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/marilyn-will-you-join-the-ti-skills-economy-tse.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Marilyn-https-www-quora-com-profile-Marilyn-1921-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skills-Economy",
+      "originalDate": "2026-02-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/my-dms-on-quora-are-generally-not-open-quick",
+    "title": "My DMs on Quora are generally not “open.” Quick and concise conversation is fine, for…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-02",
+    "excerpt": "My DMs on Quora are generally not “open.” Quick and concise conversation is fine, for example, troubleshooting app access issues, like you cannot log in.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/my-dms-on-quora-are-generally-not-open-quick.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Reminder-of-my-Quora-DM-policy",
+      "originalDate": "2026-02-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/i-feel-i-have-gangstalkers-tracking-me-in-a-very-scary-way-i-feel-they-3",
     "title": "I feel I have gangstalkers tracking me in a very scary way I feel theyve come in my house and car and showing…",
     "repo": "chargingthefuture/wiki-site",
@@ -4626,6 +9433,63 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2026-02-02",
       "status": "erased",
       "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-am-going-to-try-to-get-my-cdl",
+    "title": "I am going to try to get my CDL to become a Truck Driver.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-01",
+    "excerpt": "I am going to try to get my CDL to become a Truck Driver. Anyone want to join me or already a truck driver?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-am-going-to-try-to-get-my-cdl.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-am-going-to-try-to-get-my-CDL-to-become-a-Truck-Driver-Anyone-want-to-join-me-or-already-a-truck-driver-With-OTR-and",
+      "originalDate": "2026-02-01",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/here-is-the-update-week-16-ending-january-30",
+    "title": "Here is the update: Week 16: Ending January 30, 2026 Ways to have the TI Skills Economy…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-31",
+    "excerpt": "Here is the update: Week 16: Ending January 30, 2026 Ways to have the TI Skills Economy grow: - Sign up for the app: Psyop-Free Economy | Survivor Support…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/here-is-the-update-week-16-ending-january-30.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Today-January-31-2026-is-the-weekly-Town-Hall-Saturday-event",
+      "originalDate": "2026-01-31",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/it-is-town-hall-saturday-3",
+    "title": "It is Town Hall Saturday.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-31",
+    "excerpt": "It is Town Hall Saturday. Please join me live on Signal to socialize or ask question about the economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/it-is-town-hall-saturday-3.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/It-is-Town-Hall-Saturday-Please-join-me-live-on-Signal-to-socialize-or-ask-question-about-the-economy-https-signal",
+      "originalDate": "2026-01-31",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -4667,6 +9531,25 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/i-created-the-directory-to-answer-these-types-of",
+    "title": "I created the Directory to answer these types of questions :) Farah Brunache's answer to…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-30",
+    "excerpt": "I created the Directory to answer these types of questions :) Farah Brunache's answer to What are the best hardwired security systems?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-created-the-directory-to-answer-these-types-of.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-created-the-Directory-to-answer-these-types-of-questions-https-www-quora-com-What-are-the-best-hardwired-securit",
+      "originalDate": "2026-01-30",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/what-are-the-best-hardwired-security-systems-i-m-a-tech-novice-and-wan",
     "title": "What are the best hardwired security systems? I'm a tech novice and want the most straightforward system with…",
     "repo": "chargingthefuture/wiki-site",
@@ -4684,6 +9567,367 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "answer",
       "question": "What are the best hardwired security systems? I'm a tech novice and want the most straightforward system with simple playback and recording and high quality video and discrete cameras."
+    }
+  },
+  {
+    "slug": "farah-brunache/fyi-if-you-are-a-ti-in-need-of",
+    "title": "FYI: If you are a TI in need of a job reference, DM me.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-28",
+    "excerpt": "FYI: If you are a TI in need of a job reference, DM me. I will gladly assist — preference if you are part of TSE, so I know you are not scamming me :).",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/fyi-if-you-are-a-ti-in-need-of.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/FYI-If-you-are-a-TI-in-need-of-a-job-reference-DM-me-I-will-gladly-assist-preference-if-you-are-part-of-TSE-so-I-k",
+      "originalDate": "2026-01-28",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/in-no-particular-order-welcome-new-members-of-tse",
+    "title": "In no particular order, welcome new members of TSE!!!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-28",
+    "excerpt": "In no particular order, welcome new members of TSE!!! I am happy to have you join us.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/in-no-particular-order-welcome-new-members-of-tse.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/In-no-particular-order-welcome-new-members-of-TSE-I-am-happy-to-have-you-join-us-Please-remember-to-share-your-Quo",
+      "originalDate": "2026-01-28",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/julie-warman-i-dont-know-your-situation-but-if",
+    "title": "Julie Warman, I don’t know your situation, but if you’re looking for a TI-only…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-28",
+    "excerpt": "Julie Warman, I don’t know your situation, but if you’re looking for a TI-only neighborhood to live in: one in Canada is move-in ready, and another in the U.S.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/julie-warman-i-dont-know-your-situation-but-if.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Julie-Warman-https-www-quora-com-profile-Julie-Warman-1-I-don-t-know-your-situation-but-if-you-re-looking-for-a",
+      "originalDate": "2026-01-28",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/julie-warman-will-you-join-the-ti-skills-economy",
+    "title": "Julie Warman Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-28",
+    "excerpt": "Julie Warman Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/julie-warman-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Julie-Warman-https-www-quora-com-profile-Julie-Warman-1-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skills",
+      "originalDate": "2026-01-28",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/perps-stole-my-phone-today-at-approximately-11-am",
+    "title": "Perps stole my phone today at approximately 11 am ET.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-26",
+    "excerpt": "Perps stole my phone today at approximately 11 am ET. My responses will be delayed until I get a new one, TBA.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/perps-stole-my-phone-today-at-approximately-11-am.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Perps-stole-my-phone-today-at-approximately-11-am-ET-My-responses-will-be-delayed-until-I-get-a-new-one-TBA-This-als",
+      "originalDate": "2026-01-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/as-a-ti-if-you-feel-you-are-alone",
+    "title": "As a TI if you feel you are alone.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-24",
+    "excerpt": "As a TI if you feel you are alone. You are not, as seen below.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/as-a-ti-if-you-feel-you-are-alone.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/As-a-TI-if-you-feel-you-are-alone-You-are-not-as-seen-below-And-if-you-do-not-want-to-isolate-and-connect-with-the-es",
+      "originalDate": "2026-01-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/if-you-would-like-to-participate-in-the-discussion",
+    "title": "If you would like to participate in the discussion of economics and how it is implemented…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-24",
+    "excerpt": "If you would like to participate in the discussion of economics and how it is implemented in the TSE app, here is a document to give you insight into my logic.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/if-you-would-like-to-participate-in-the-discussion.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/If-you-would-like-to-participate-in-the-discussion-of-economics-and-how-it-is-implemented-in-the-TSE-app-here-is-a-docu",
+      "originalDate": "2026-01-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/rebecca-macias-will-you-join-the-ti-skills-economy",
+    "title": "Rebecca Macias Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-24",
+    "excerpt": "Rebecca Macias Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/rebecca-macias-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Rebecca-Macias-https-www-quora-com-profile-Rebecca-Macias-43-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Sk",
+      "originalDate": "2026-01-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/there-is-a-canadian-ti-only-community-available-for",
+    "title": "There is a Canadian TI only community available for immediate move-in.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-24",
+    "excerpt": "There is a Canadian TI only community available for immediate move-in.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/there-is-a-canadian-ti-only-community-available-for.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/LightHouse-update",
+      "originalDate": "2026-01-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/tldr-if-we-continue-at-this-weekly-growth-amount",
+    "title": "TLDR; If we continue at this weekly growth amount, we will reach 50,000 TIs globally…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-24",
+    "excerpt": "TLDR; If we continue at this weekly growth amount, we will reach 50,000 TIs globally within the next 12 months!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/tldr-if-we-continue-at-this-weekly-growth-amount.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Here-is-the-weekly-update",
+      "originalDate": "2026-01-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/angela-womer-will-you-join-the-ti-skills-economy",
+    "title": "Angela Womer Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-23",
+    "excerpt": "Angela Womer Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/angela-womer-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Angela-Womer-https-www-quora-com-profile-Angela-Womer-2-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skills",
+      "originalDate": "2026-01-23",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/below-is-a-partial-screenshot-of-the-feature-mini",
+    "title": "Below is a partial screenshot of the feature/mini-app Workforce Recruiter within the TI…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-23",
+    "excerpt": "Below is a partial screenshot of the feature/mini-app Workforce Recruiter within the TI Skills Economy app: With only 63 TIs within TSE skills directory, we…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/below-is-a-partial-screenshot-of-the-feature-mini.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/We-have-even-skill-distribution-across-an-economy-to-accommodate-5-million-TIs",
+      "originalDate": "2026-01-23",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/came-to-hear-me-speak-live-and-answer-any",
+    "title": "Came to hear me speak live and answer any of your questions.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-23",
+    "excerpt": "Came to hear me speak live and answer any of your questions.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/came-to-hear-me-speak-live-and-answer-any.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Tomorrow-1-24-2026-is-Town-Hall-Saturday",
+      "originalDate": "2026-01-23",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/highlighting-tired-of-being-a-ti-one-of-the",
+    "title": "Highlighting Tired of Being a TI, one of the first 50 people to join the world’s first…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-23",
+    "excerpt": "Highlighting Tired of Being a TI, one of the first 50 people to join the world’s first psyop-free economy!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/highlighting-tired-of-being-a-ti-one-of-the.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Highlighting-Tired-of-Being-a-TI-https-www-quora-com-profile-Tired-of-Being-a-TI-one-of-the-first-50-people-to-jo",
+      "originalDate": "2026-01-23",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/if-interested-in-having-discussions-on-work-and-trade",
+    "title": "If interested in having discussions on work and trade within the TI Skills Economy I…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-23",
+    "excerpt": "If interested in having discussions on work and trade within the TI Skills Economy I created audio only drop in rooms on Chyme: If you would like for me to…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/if-interested-in-having-discussions-on-work-and-trade.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/If-interested-in-having-discussions-on-work-and-trade-within-the-TI-Skills-Economy-I-created-audio-only-drop-in-rooms-on",
+      "originalDate": "2026-01-23",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/its-never-going-to-be-easy-what-is-holding",
+    "title": "It’s Never Going to be EASY what is holding you back from joining the TI Skills Economy…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-23",
+    "excerpt": "It’s Never Going to be EASY what is holding you back from joining the TI Skills Economy, if you have not joined yet?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/its-never-going-to-be-easy-what-is-holding.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/It-s-Never-Going-to-be-EASY-https-www-quora-com-profile-It-s-Never-Going-to-be-EASY-what-is-holding-you-back-from",
+      "originalDate": "2026-01-23",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/jami-phillips-will-you-join-the-ti-skills-economy",
+    "title": "Jami Phillips will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-23",
+    "excerpt": "Jami Phillips will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/jami-phillips-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Jami-Phillips-https-www-quora-com-profile-Jami-Phillips-1-will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skill",
+      "originalDate": "2026-01-23",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-ti-skills-economy-is-forming-a-gated-community",
+    "title": "The TI Skills Economy is forming a gated community for TIs.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-23",
+    "excerpt": "The TI Skills Economy is forming a gated community for TIs. My rough estimates are a minimum of 60 and a maximum of 275 TIs who can move in; housing will be a…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-ti-skills-economy-is-forming-a-gated-community.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-TI-Skills-Economy-is-forming-a-gated-community-for-TIs-My-rough-estimates-are-a-minimum-of-60-and-a-maximum-of-275",
+      "originalDate": "2026-01-23",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/tse-is-not-me-or-one-particular-ti",
+    "title": "TSE is not me or one particular TI.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-23",
+    "excerpt": "TSE is not me or one particular TI. It is about the collective whole.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/tse-is-not-me-or-one-particular-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/TSE-is-not-me-or-one-particular-TI-It-is-about-the-collective-whole-The-more-TIs-that-sign-up-the-more-employment-and",
+      "originalDate": "2026-01-23",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -4730,6 +9974,272 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 197
   },
   {
+    "slug": "farah-brunache/another-right-answer",
+    "title": "Another right answer!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-22",
+    "excerpt": "Another right answer! By Lorraine Valente. And all eight of what Lorraine mentioned are solved via the TI Skills Economy: - Find people with no hidden agenda:…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/another-right-answer.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Another-right-answer-By-Lorraine-Valente-https-www-quora-com-profile-Lorraine-Valente-And-all-eight-of-what-Lor",
+      "originalDate": "2026-01-22",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/campbell-rose-will-you-join-the-ti-skills-economy",
+    "title": "Campbell Rose Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-22",
+    "excerpt": "Campbell Rose Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/campbell-rose-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Campbell-Rose-https-www-quora-com-profile-Campbell-Rose-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skills",
+      "originalDate": "2026-01-22",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/d-s-i-saw-your-question-how-many-of",
+    "title": "D S I saw your question: How many of people on Quora would like to join my online group…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-22",
+    "excerpt": "D S I saw your question: How many of people on Quora would like to join my online group for Targeted Individuals?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/d-s-i-saw-your-question-how-many-of.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/D-S-https-www-quora-com-profile-D-S-3874-I-saw-your-question-https-www-quora-com-How-many-of-people-on-Quora-w",
+      "originalDate": "2026-01-22",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/for-whatever-reason-you-are-not-joining-our-ti",
+    "title": "For whatever reason you are not joining our TI gated community — you can vacation to our…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-22",
+    "excerpt": "For whatever reason you are not joining our TI gated community — you can vacation to our community :).",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/for-whatever-reason-you-are-not-joining-our-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/For-whatever-reason-you-are-not-joining-our-TI-gated-community-you-can-vacation-to-our-community-TI-visitors-welco",
+      "originalDate": "2026-01-22",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/lacey-s-will-you-join-the-ti-skills-economy",
+    "title": "Lacey S. Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-22",
+    "excerpt": "Lacey S. Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/lacey-s-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Lacey-S-https-www-quora-com-profile-Lacey-S-64-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skills-Economy",
+      "originalDate": "2026-01-22",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/lol-yes-bridgeofsighs",
+    "title": "LOL, yes Bridgeofsighs.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-22",
+    "excerpt": "LOL, yes Bridgeofsighs. There is nothing an individual TI can do about people who are clinically insane and violent criminals.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/lol-yes-bridgeofsighs.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/LOL-yes-Bridgeofsighs-https-www-quora-com-profile-Bridgeofsighs-There-is-nothing-an-individual-TI-can-do-about",
+      "originalDate": "2026-01-22",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/mrs-art-of-war-will-you-join-the-ti",
+    "title": "Mrs Art of War Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-22",
+    "excerpt": "Mrs Art of War Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/mrs-art-of-war-will-you-join-the-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Mrs-Art-of-War-https-www-quora-com-profile-Mrs-Art-of-War-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skill",
+      "originalDate": "2026-01-22",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/not-on-my-watch-unidentifiable-in-the-end-what",
+    "title": "Not on my watch Unidentifiable!: In the end, what will happen to targeted individuals?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-22",
+    "excerpt": "Not on my watch Unidentifiable!: In the end, what will happen to targeted individuals?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/not-on-my-watch-unidentifiable-in-the-end-what.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Not-on-my-watch-Unidentifiable-https-www-quora-com-profile-Unidentifiable-20-https-www-quora-com-In-the-end-w",
+      "originalDate": "2026-01-22",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/sandi-tomkinson-ms",
+    "title": "Sandi Tomkinson “Ms.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-22",
+    "excerpt": "Sandi Tomkinson “Ms. T’ Will you join the TI Skills Economy (TSE)?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/sandi-tomkinson-ms.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Sandi-Tomkinson-Ms-T-https-www-quora-com-profile-Sandi-Tomkinson-Ms-T-Will-you-join-the-TI-Skills-Economy-TSE",
+      "originalDate": "2026-01-22",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/starr-bowman-it-has-been-a-year-since-your",
+    "title": "Starr Bowman it has been a year since your last post on Quora.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-22",
+    "excerpt": "Starr Bowman it has been a year since your last post on Quora.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/starr-bowman-it-has-been-a-year-since-your.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Starr-Bowman-https-www-quora-com-profile-Starr-Bowman-4-it-has-been-a-year-since-your-last-post-on-Quora-I-hope-y",
+      "originalDate": "2026-01-22",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/tara-you-are-tses-300th-follower",
+    "title": "Tara you are TSE’s 300th follower!!!!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-22",
+    "excerpt": "Tara you are TSE’s 300th follower!!!! Thank you for joining the space.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/tara-you-are-tses-300th-follower.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Tara-https-www-quora-com-profile-Tara-6189-you-are-TSE-s-300th-follower-Thank-you-for-joining-the-space",
+      "originalDate": "2026-01-22",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-specteratis-money-laundering-vs",
+    "title": "The Specterati's Money laundering vs.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-22",
+    "excerpt": "The Specterati's Money laundering vs. TI Skills Economy’s circular economy — why they’re not the same thing Money laundering hides the origin of funds so…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-specteratis-money-laundering-vs.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-Specteratis-Money-laundering-https-skillseconomy-quora-com-Unidentifiable-https-www-quora-com-profile-Unidentif",
+      "originalDate": "2026-01-22",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/there-are-several-new-sign-ups-likely-because-of",
+    "title": "There are several new sign-ups, likely because of the announcement of the TI-only…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-22",
+    "excerpt": "There are several new sign-ups, likely because of the announcement of the TI-only community coming together in the United States.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/there-are-several-new-sign-ups-likely-because-of.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/There-are-several-new-sign-ups-likely-because-of-the-announcement-of-the-TI-only-community-coming-together-in-the-Unite",
+      "originalDate": "2026-01-22",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/unidentifiable-got-it-right",
+    "title": "Unidentifiable got it right!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-22",
+    "excerpt": "Unidentifiable got it right! They are paid through money laundering via the global economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/unidentifiable-got-it-right.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Unidentifiable-https-www-quora-com-profile-Unidentifiable-20-got-it-right-They-are-paid-through-money-laundering",
+      "originalDate": "2026-01-22",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/is-moving-away-an-effective-way-to-stop-gang-stalking",
     "title": "Is moving away an effective way to stop gang stalking?",
     "repo": "chargingthefuture/wiki-site",
@@ -4747,6 +10257,63 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "answer",
       "question": "Is moving away an effective way to stop gang stalking?"
+    }
+  },
+  {
+    "slug": "farah-brunache/one-of-the-specterati-walked-up-to-me-this",
+    "title": "One of the Specterati walked up to me this morning and said, “you know there is a…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-21",
+    "excerpt": "One of the Specterati walked up to me this morning and said, “you know there is a camera?” As I stood underneath one while on my phone.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/one-of-the-specterati-walked-up-to-me-this.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-Specterati-money-launder-through-legitimate-businesses-of-the-global-economy-That-is-how-perps-are-paid-How-can-an",
+      "originalDate": "2026-01-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/use-the-below-link-to-update-your-name-or",
+    "title": "Use the below link, to update your name or email address in the TSE app.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-21",
+    "excerpt": "Use the below link, to update your name or email address in the TSE app. You can also add multiple email addresses to your account.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/use-the-below-link-to-update-your-name-or.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Tip-Update-or-add-an-email",
+      "originalDate": "2026-01-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/we-use-their-apps-we-re-post-their-social",
+    "title": "We use their apps, we re-post their social media content, we pay them rent, we pay them…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-21",
+    "excerpt": "We use their apps, we re-post their social media content, we pay them rent, we pay them for rides, the list goes on.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/we-use-their-apps-we-re-post-their-social.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Many-TIs-ask-on-Quora-how-are-perps-paid-Who-pays-them-We-do",
+      "originalDate": "2026-01-21",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -4782,6 +10349,82 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 196
   },
   {
+    "slug": "farah-brunache/friendly-reminder-if-you-have-signed-up-and-i",
+    "title": "Friendly reminder if you have signed up and I have not approved your account within 24…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-20",
+    "excerpt": "Friendly reminder if you have signed up and I have not approved your account within 24 hours; leave a comment to any Quora post or send a message via Signal.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/friendly-reminder-if-you-have-signed-up-and-i.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Friendly-reminder-if-you-have-signed-up-and-I-have-not-approved-your-account-within-24-hours-leave-a-comment-to-any-Quo",
+      "originalDate": "2026-01-20",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/laura-odell-thank-you-for-being-a-valuable-member",
+    "title": "Laura O'Dell thank you for being a valuable member of TSE!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-20",
+    "excerpt": "Laura O'Dell thank you for being a valuable member of TSE! Have you joined the app?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/laura-odell-thank-you-for-being-a-valuable-member.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Laura-ODell-https-www-quora-com-profile-Laura-ODell-43-thank-you-for-being-a-valuable-member-of-TSE-Have-you-joi",
+      "originalDate": "2026-01-20",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/notme-welcome-to-tse",
+    "title": "NotMe welcome to TSE!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-20",
+    "excerpt": "NotMe welcome to TSE! We are working our way to connecting the 5 million TIs globally to reach economic prosperity and individual autonomy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/notme-welcome-to-tse.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/NotMe-https-www-quora-com-profile-NotMe-495-welcome-to-TSE-We-are-working-our-way-to-connecting-the-5-million-TIs",
+      "originalDate": "2026-01-20",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/as-tis-we-should-not-be-concerned-about-employing",
+    "title": "As TIs we should not be concerned about employing and housing ourselves.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-19",
+    "excerpt": "As TIs we should not be concerned about employing and housing ourselves.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/as-tis-we-should-not-be-concerned-about-employing.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/As-TIs-we-should-not-be-concerned-about-employing-and-housing-ourselves-Granted-a-perp-stated-I-am-the-first-TI-to-atte",
+      "originalDate": "2026-01-19",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/how-do-these-low-level-gang-stalkers-get-paid",
     "title": "How do these low-level gang stalkers get paid?",
     "repo": "chargingthefuture/wiki-site",
@@ -4799,6 +10442,82 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "answer",
       "question": "How do these low-level gang stalkers get paid?"
+    }
+  },
+  {
+    "slug": "farah-brunache/external-intervention-is-usually-a-byproduct-of-internal-resistance",
+    "title": "External intervention is usually a byproduct of internal resistance rather than a…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-18",
+    "excerpt": "External intervention is usually a byproduct of internal resistance rather than a substitute.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/external-intervention-is-usually-a-byproduct-of-internal-resistance.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/External-intervention-is-usually-a-byproduct-of-internal-resistance-rather-than-a-substitute-I-am-not-asking-Targets",
+      "originalDate": "2026-01-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/external-intervention-is-usually-a-byproduct-of-internal-resistance-2",
+    "title": "External intervention is usually a byproduct of internal resistance rather than a…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-18",
+    "excerpt": "External intervention is usually a byproduct of internal resistance rather than a substitute.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/external-intervention-is-usually-a-byproduct-of-internal-resistance-2.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/External-intervention-is-usually-a-byproduct-of-internal-resistance-rather-than-a-substitute-Empirically-many-maj",
+      "originalDate": "2026-01-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/if-interested-in-living-in-a-ti-only-gated",
+    "title": "If interested in living in a TI only gated community please sign up in app: Under the…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-18",
+    "excerpt": "If interested in living in a TI only gated community please sign up in app: Under the feature/mini-app: Lighthouse.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/if-interested-in-living-in-a-ti-only-gated.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/If-interested-in-living-in-a-TI-only-gated-community-please-sign-up-in-app-https-app-chargingthefuture-com-apps-ligh",
+      "originalDate": "2026-01-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/welcome-sivapriya-saraswati-to-tse-her-skills-graphic-web",
+    "title": "Welcome Sivapriya Saraswati to TSE Her skills: Graphic/web design, coding skills…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-17",
+    "excerpt": "Welcome Sivapriya Saraswati to TSE Her skills: Graphic/web design, coding skills, copywriting, Wordpress, repair, sew, crochet, gardening, cooking, holistic…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/welcome-sivapriya-saraswati-to-tse-her-skills-graphic-web.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Welcome-Sivapriya-Saraswati-https-www-quora-com-profile-Sivapriya-Saraswati-2-to-TSE-https-app-chargingthefutur",
+      "originalDate": "2026-01-17",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -4859,6 +10578,177 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/dave-phelps-been-sometime-that-you-have-been-on",
+    "title": "Dave Phelps been sometime that you have been on Quora, if you are still around give my…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-16",
+    "excerpt": "Dave Phelps been sometime that you have been on Quora, if you are still around give my space a look.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/dave-phelps-been-sometime-that-you-have-been-on.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Dave-Phelps-https-www-quora-com-profile-Dave-Phelps-16-been-sometime-that-you-have-been-on-Quora-if-you-are-still",
+      "originalDate": "2026-01-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/eliah-youn-if-you-are-still-around-please-join",
+    "title": "Eliah Youn if you are still around please join us!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-16",
+    "excerpt": "Eliah Youn if you are still around please join us! Here are the 40+ problems the TI Skills Economy fixes for TIs: 🤜🤛 Skills, Solidarity, and Support",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/eliah-youn-if-you-are-still-around-please-join.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Eliah-Youn-https-www-quora-com-profile-Eliah-Youn-if-you-are-still-around-please-join-us-Here-are-the-40-proble",
+      "originalDate": "2026-01-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/friendly-reminder-on-how-to-sign-up-for-tse",
+    "title": "Friendly reminder on how to sign up for TSE:",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-16",
+    "excerpt": "Friendly reminder on how to sign up for TSE:",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/friendly-reminder-on-how-to-sign-up-for-tse.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Friendly-reminder-on-how-to-sign-up-for-TSE-https-github-com-chargingthefuture-mono-wiki-Getting-Started",
+      "originalDate": "2026-01-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/genesis-gardner-have-we-connected-yet",
+    "title": "Genesis Gardner have we connected yet?!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-16",
+    "excerpt": "Genesis Gardner have we connected yet?! You are the first TI that I have read on Quora that knows there are millions of us around the world.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/genesis-gardner-have-we-connected-yet.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Genesis-Gardner-https-www-quora-com-profile-Genesis-Gardner-3-have-we-connected-yet-You-are-the-first-TI-that-I",
+      "originalDate": "2026-01-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/hello-jewelina-jemima-you-are-right-they-are-not",
+    "title": "Hello Jewelina Jemima you are right, they are not happy despite what they say.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-16",
+    "excerpt": "Hello Jewelina Jemima you are right, they are not happy despite what they say.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/hello-jewelina-jemima-you-are-right-they-are-not.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Hello-Jewelina-Jemima-https-www-quora-com-profile-Jewelina-Jemima-you-are-right-they-are-not-happy-despite-what-t",
+      "originalDate": "2026-01-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/melissa-jones-i-would-not-be-surprised-that-there",
+    "title": "Melissa Jones I would not be surprised that there are more sociopaths than psychopaths.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-16",
+    "excerpt": "Melissa Jones I would not be surprised that there are more sociopaths than psychopaths.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/melissa-jones-i-would-not-be-surprised-that-there.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Melissa-Jones-https-www-quora-com-profile-Melissa-Jones-1673-I-would-not-be-surprised-that-there-are-more-sociopat",
+      "originalDate": "2026-01-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/sheri-milarch-a-ti-is-a-ti-to-me",
+    "title": "Sheri Milarch A TI is a TI to me.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-16",
+    "excerpt": "Sheri Milarch A TI is a TI to me. And while I disagree that your targeting is from the government and rather from organized crime.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/sheri-milarch-a-ti-is-a-ti-to-me.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Sheri-Milarch-https-www-quora-com-profile-Sheri-Milarch-A-TI-is-a-TI-to-me-And-while-I-disagree-that-your-target",
+      "originalDate": "2026-01-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/tomorrow-1-17-26-is-the-weekly-town-hall",
+    "title": "Tomorrow 1/17/26 is the weekly Town Hall.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-16",
+    "excerpt": "Tomorrow 1/17/26 is the weekly Town Hall. It is an opportunity to speak to me live if you like.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/tomorrow-1-17-26-is-the-weekly-town-hall.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Tomorrow-1-17-26-is-the-weekly-Town-Hall-It-is-an-opportunity-to-speak-to-me-live-if-you-like-Town-Hall-on-Chyme-htt",
+      "originalDate": "2026-01-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/welcome-james-hughes",
+    "title": "Welcome James Hughes!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-16",
+    "excerpt": "Welcome James Hughes! Let us know how we can help. We also have a Signal chat group:",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/welcome-james-hughes.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Welcome-James-Hughes-https-www-quora-com-profile-James-Hughes-1247-Let-us-know-how-we-can-help-We-also-have-a-Si",
+      "originalDate": "2026-01-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "🤜🤛-Skills,-Solidarity,-and-Support",
     "title": "🤜🤛  Skills, Solidarity, and Support",
     "repo": "chargingthefuture/chargingthefuture",
@@ -4869,6 +10759,158 @@ export const ARTICLES: ArticleMeta[] = [
     "path": "posts/🤜🤛-Skills,-Solidarity,-and-Support.md",
     "teaser": "Very few get it, in my opinion — so here are my shoutouts to the survivors giving genuinely good advice on Quora. You are appreciated, and this post will keep growing as I find more of you. Names in no particular order.",
     "number": 195
+  },
+  {
+    "slug": "farah-brunache/conforming-to-the-specterrealm-a-domain-ruled-by-fear",
+    "title": "Conforming to the Specterrealm (a domain ruled by fear and intimidation) that the…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-15",
+    "excerpt": "Conforming to the Specterrealm (a domain ruled by fear and intimidation) that the Specterati have created is unnatural.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/conforming-to-the-specterrealm-a-domain-ruled-by-fear.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Conforming-to-the-Specterrealm-a-domain-ruled-by-fear-and-intimidation-that-the-Specterati-have-created-is-unnatural",
+      "originalDate": "2026-01-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/impossible-thinking-we-will-end-human-trafficking-by-pleading",
+    "title": "Impossible = thinking we will end human trafficking by pleading and talking our way out…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-15",
+    "excerpt": "Impossible = thinking we will end human trafficking by pleading and talking our way out of the existence of evil people.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/impossible-thinking-we-will-end-human-trafficking-by-pleading.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Impossible-thinking-we-will-end-human-trafficking-by-pleading-and-talking-our-way-out-of-the-existence-of-evil-people",
+      "originalDate": "2026-01-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/matthew-a-davis-are-you-still-around",
+    "title": "Matthew A Davis are you still around?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-15",
+    "excerpt": "Matthew A Davis are you still around? You would be a perfect match for the TI Skills Economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/matthew-a-davis-are-you-still-around.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Matthew-A-Davis-https-www-quora-com-profile-Matthew-A-Davis-1-are-you-still-around-You-would-be-a-perfect-match",
+      "originalDate": "2026-01-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/pam-dawson-you-are-free",
+    "title": "Pam Dawson you are free!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-15",
+    "excerpt": "Pam Dawson you are free! I can tell by your question: What happens when gang stalkers can't scare you or make you paranoid and you find more laughter at them…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/pam-dawson-you-are-free.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Pam-Dawson-https-www-quora-com-profile-Pam-Dawson-32-you-are-free-I-can-tell-by-your-question-https-www-quor",
+      "originalDate": "2026-01-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/s-a-g-are-you-a-ti",
+    "title": "S A G Are you a TI?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-15",
+    "excerpt": "S A G Are you a TI? If so, here are the 40+ problems the TI Skills Economy fixes for TIs:",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/s-a-g-are-you-a-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/S-A-G-https-www-quora-com-profile-S-A-G-20-Are-you-a-TI-If-so-here-are-the-40-problems-the-TI-Skills-Economy-f",
+      "originalDate": "2026-01-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/t-tipton-lives-free",
+    "title": "T. Tipton lives free.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-15",
+    "excerpt": "T. Tipton lives free. And so should you ;). Join TSE if you would like to learn to be free or already free: Psyop-Free Economy | Survivor Support Platform",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/t-tipton-lives-free.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/T-Tipton-https-www-quora-com-profile-T-Tipton-lives-free-And-so-should-you-Join-TSE-if-you-would-like-to-le",
+      "originalDate": "2026-01-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/toni-are-you-a-ti",
+    "title": "Toni are you a TI?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-15",
+    "excerpt": "Toni are you a TI? There are 5 million globally! Will you join the TI Skills Economy?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/toni-are-you-a-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Toni-https-www-quora-com-profile-Toni-3137-are-you-a-TI-There-are-5-million-globally-Will-you-join-the-TI-Skill",
+      "originalDate": "2026-01-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/very-few-tis-get-it-in-my-opinion-of",
+    "title": "Very few TIs get it, in my opinion of course, here are my shoutouts* to those giving…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-15",
+    "excerpt": "Very few TIs get it, in my opinion of course, here are my shoutouts* to those giving amazing advice on Quora.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/very-few-tis-get-it-in-my-opinion-of.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Skills-Solidarity-and-Support",
+      "originalDate": "2026-01-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/how-can-i-be-add-to-the-list-of-ti-s-i-live-in-perth-western-australia",
@@ -4889,6 +10931,82 @@ export const ARTICLES: ArticleMeta[] = [
       "kind": "space-submission",
       "space": "US-PSYOPS-TARGETED-INDIVIDUALS",
       "question": "How can I be add to the list of ti’s I live in Perth Western Australia 6163. There are other ti’s here in Perth I have recently discovered.?"
+    }
+  },
+  {
+    "slug": "farah-brunache/anita-steyn-their-house-their-rules",
+    "title": "Anita Steyn their house, their rules.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-14",
+    "excerpt": "Anita Steyn their house, their rules. The Specterati run a human trafficking ring mobbing Targets out of society.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/anita-steyn-their-house-their-rules.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Anita-Steyn-https-www-quora-com-profile-Anita-Steyn-13-their-house-their-rules-The-Specterati-run-a-human-traffi",
+      "originalDate": "2026-01-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/are-you-an-end-of-life-planning-expert",
+    "title": "Are you an End of Life planning expert?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-14",
+    "excerpt": "Are you an End of Life planning expert? Your assistance is needed:",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/are-you-an-end-of-life-planning-expert.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Are-you-an-End-of-Life-planning-expert-Your-assistance-is-needed-https-app-chargingthefuture-com-apps-socketrelay-p",
+      "originalDate": "2026-01-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/it-only-takes-an-email-address-and-sharing-your",
+    "title": "It only takes an email address and sharing your Quora profile to sign up here: world's…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-14",
+    "excerpt": "It only takes an email address and sharing your Quora profile to sign up here: world's first psyop-free TI economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/it-only-takes-an-email-address-and-sharing-your.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/It-only-takes-an-email-address-and-sharing-your-Quora-profile-to-sign-up-here-worlds-first-psyop-free-TI-economy-htt",
+      "originalDate": "2026-01-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/lisa-rudgley-i-agree",
+    "title": "Lisa Rudgley I agree.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-14",
+    "excerpt": "Lisa Rudgley I agree. Please consider joining TI Skills Economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/lisa-rudgley-i-agree.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Lisa-Rudgley-https-www-quora-com-profile-Lisa-Rudgley-2-I-agree-Please-consider-joining-TI-Skills-Economy-The-T",
+      "originalDate": "2026-01-14",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -4930,6 +11048,367 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/christina-steele-beautiful-smile",
+    "title": "Christina Steele beautiful smile!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-13",
+    "excerpt": "Christina Steele beautiful smile! Are you a TI? Will you join the TI Skills Economy?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/christina-steele-beautiful-smile.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Christina-Steele-https-www-quora-com-profile-Christina-Steele-67-beautiful-smile-Are-you-a-TI-Will-you-join-the",
+      "originalDate": "2026-01-13",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/heather-in-katy-have-you-joined-yet",
+    "title": "Heather in Katy have you joined yet?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-13",
+    "excerpt": "Heather in Katy have you joined yet? Would be happy to have you!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/heather-in-katy-have-you-joined-yet.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Heather-in-Katy-https-www-quora-com-profile-Heather-in-Katy-have-you-joined-yet-Would-be-happy-to-have-you-http",
+      "originalDate": "2026-01-13",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/tommy-gumbert-i-am-glad-you-are-still-around",
+    "title": "Tommy Gumbert I am glad you are still around!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-13",
+    "excerpt": "Tommy Gumbert I am glad you are still around! Since I featured you I have added 57 more TI profiles!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/tommy-gumbert-i-am-glad-you-are-still-around.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Tommy-Gumbert-https-www-quora-com-profile-Tommy-Gumbert-I-am-glad-you-are-still-around-Since-I-featured-you-I-hav",
+      "originalDate": "2026-01-13",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/valencia-baldwin-are-you-a-ti",
+    "title": "Valencia Baldwin are you a TI?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-13",
+    "excerpt": "Valencia Baldwin are you a TI? If seeking to exit the psyop consider:",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/valencia-baldwin-are-you-a-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Valencia-Baldwin-https-www-quora-com-profile-Valencia-Baldwin-are-you-a-TI-If-seeking-to-exit-the-psyop-consider",
+      "originalDate": "2026-01-13",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/amber-brophy-are-you-a-ti",
+    "title": "Amber Brophy are you a TI?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-12",
+    "excerpt": "Amber Brophy are you a TI? Here are 40+ problems the TI Skills Economy fixes for TIs:",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/amber-brophy-are-you-a-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Amber-Brophy-https-www-quora-com-profile-Amber-Brophy-7-are-you-a-TI-Here-are-40-problems-the-TI-Skills-Economy",
+      "originalDate": "2026-01-12",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/baring-concerns-about-whether-i-am-a-ti-or",
+    "title": "Baring concerns about whether I am a TI or not.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-12",
+    "excerpt": "Baring concerns about whether I am a TI or not. Meaning, if you think I am not a TI, you would not be in this space — you should give the app a try: world's…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/baring-concerns-about-whether-i-am-a-ti-or.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Baring-concerns-about-whether-I-am-a-TI-or-not-Meaning-if-you-think-I-am-not-a-TI-you-would-not-be-in-this-space-yo",
+      "originalDate": "2026-01-12",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/mel-luminated-target-will-you-join-the-ti-skills",
+    "title": "Mel-Luminated Target Will you join the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-12",
+    "excerpt": "Mel-Luminated Target Will you join the TI Skills Economy? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/mel-luminated-target-will-you-join-the-ti-skills.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Mel-Luminated-Target-https-www-quora-com-profile-Mel-Luminated-Target-Will-you-join-the-TI-Skills-Economy-The-TI",
+      "originalDate": "2026-01-12",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/my-fellow-tis-please-help-keep-the-ti-skills",
+    "title": "My fellow TIs. Please help keep the TI Skills Economy alive: First and foremost — sign up…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-12",
+    "excerpt": "My fellow TIs. Please help keep the TI Skills Economy alive: First and foremost — sign up regardless of how you can or plan to participate.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/my-fellow-tis-please-help-keep-the-ti-skills.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/My-fellow-TIs-Please-help-keep-the-TI-Skills-Economy-alive-https-github-com-chargingthefuture-mono-wiki-How-you-can",
+      "originalDate": "2026-01-12",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-discovered-on-january-9-2026-that-the-specterati",
+    "title": "I discovered on January 9, 2026 that the Specterati created an Apple ID with one of my…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-11",
+    "excerpt": "I discovered on January 9, 2026 that the Specterati created an Apple ID with one of my emails and has been impersonating me.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-discovered-on-january-9-2026-that-the-specterati.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-discovered-on-January-9-2026-that-the-Specterati-created-an-Apple-ID-with-one-of-my-emails-and-has-been-impersonating",
+      "originalDate": "2026-01-11",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/it-is-town-hall-saturday-2",
+    "title": "It is Town Hall Saturday!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-10",
+    "excerpt": "It is Town Hall Saturday! Join me on Signal or Chyme if you want to chat live.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/it-is-town-hall-saturday-2.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/It-is-Town-Hall-Saturday-Join-me-on-Signal-or-Chyme-if-you-want-to-chat-live-Chyme-worlds-first-psyop-free-TI-econo",
+      "originalDate": "2026-01-10",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/lucky-will-you-join-the-ti-skills-economy",
+    "title": "Lucky Will you join the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-10",
+    "excerpt": "Lucky Will you join the TI Skills Economy? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the Specterati…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/lucky-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Lucky-https-www-quora-com-profile-Lucky-2155-Will-you-join-the-TI-Skills-Economy-The-TI-Skills-Economy-is-design",
+      "originalDate": "2026-01-10",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/once-my-stalking-got-bad-i-called-a-crisis",
+    "title": "Once my stalking got bad, I called a crisis hotline for the first time.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-10",
+    "excerpt": "Once my stalking got bad, I called a crisis hotline for the first time.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/once-my-stalking-got-bad-i-called-a-crisis.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Once-my-stalking-got-bad-I-called-a-crisis-hotline-for-the-first-time-The-operators-answer-in-short-was-Join-the",
+      "originalDate": "2026-01-10",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/s-blade-m-welcome-to-the-ti-skills-economy",
+    "title": "S Blade M Welcome to the TI Skills Economy!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-10",
+    "excerpt": "S Blade M Welcome to the TI Skills Economy! Let me know of any questions.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/s-blade-m-welcome-to-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/S-Blade-M-https-www-quora-com-profile-S-Blade-M-Welcome-to-the-TI-Skills-Economy-Let-me-know-of-any-questions-I",
+      "originalDate": "2026-01-10",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/at-some-point-of-our-targeted-journey-we-stop",
+    "title": "At some point of our Targeted journey we stop investing in trying to prove the “obvious”…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-09",
+    "excerpt": "At some point of our Targeted journey we stop investing in trying to prove the “obvious” mobbing.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/at-some-point-of-our-targeted-journey-we-stop.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/At-some-point-of-our-Targeted-journey-we-stop-investing-in-trying-to-prove-the-obvious-mobbing-When-you-reach-this-l",
+      "originalDate": "2026-01-09",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-hope-this-ti-is-okay",
+    "title": ":(. I hope this TI is okay.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-09",
+    "excerpt": ":(. I hope this TI is okay. If you are by chance using a different Quora account and see this please join TSE!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-hope-this-ti-is-okay.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-hope-this-TI-is-okay-If-you-are-by-chance-using-a-different-Quora-account-and-see-this-please-join-TSE-https",
+      "originalDate": "2026-01-09",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/ruby-mc-will-you-join-the-ti-skills-economy",
+    "title": "Ruby Mc Will you join the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-09",
+    "excerpt": "Ruby Mc Will you join the TI Skills Economy? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/ruby-mc-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Ruby-Mc-https-www-quora-com-profile-Ruby-Mc-18-Will-you-join-the-TI-Skills-Economy-The-TI-Skills-Economy-is-desi",
+      "originalDate": "2026-01-09",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-grifting-specterati-that-cannot-accomplish-anything-without-duplicities",
+    "title": "The grifting Specterati, that cannot accomplish anything without duplicities, stealing…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-09",
+    "excerpt": "The grifting Specterati, that cannot accomplish anything without duplicities, stealing, trafficking, extortion or violence, celebrate driving the equity of my…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-grifting-specterati-that-cannot-accomplish-anything-without-duplicities.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-grifting-Specterati-that-cannot-accomplish-anything-without-duplicities-stealing-trafficking-extortion-or-violen",
+      "originalDate": "2026-01-09",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/their-house-their-rules",
+    "title": "Their house, their rules!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-09",
+    "excerpt": "Their house, their rules! The Specterati are successful in torturing us because we rely on their infrastructure.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/their-house-their-rules.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Their-house-their-rules-The-Specterati-are-successful-in-torturing-us-because-we-rely-on-their-infrastructure-So-sto",
+      "originalDate": "2026-01-09",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/tomorrow-is-saturday-which-is-the-ti-skills-economy",
+    "title": "Tomorrow is Saturday which is the TI Skills Economy Town Hall.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-09",
+    "excerpt": "Tomorrow is Saturday which is the TI Skills Economy Town Hall.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/tomorrow-is-saturday-which-is-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Town-Hall-January-10-2026",
+      "originalDate": "2026-01-09",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/farah-thank-you-for-your-a-true-blessing-from-god-almighty-everyone-ha",
     "title": "Farah thank you for your a true blessing from god almighty everyone has been waiting for someone to come and…",
     "repo": "chargingthefuture/wiki-site",
@@ -4968,6 +11447,139 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/alone-will-you-join-the-ti-skills-economy",
+    "title": "Alone Will you join the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-08",
+    "excerpt": "Alone Will you join the TI Skills Economy? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the Specterati…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/alone-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Alone-https-www-quora-com-profile-Alone-702-Will-you-join-the-TI-Skills-Economy-The-TI-Skills-Economy-is-designe",
+      "originalDate": "2026-01-08",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/hehateme-will-you-join-the-ti-skills-economy",
+    "title": "HeHateMe Will you join the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-08",
+    "excerpt": "HeHateMe Will you join the TI Skills Economy? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/hehateme-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/HeHateMe-https-www-quora-com-profile-HeHateMe-1-Will-you-join-the-TI-Skills-Economy-The-TI-Skills-Economy-is-de",
+      "originalDate": "2026-01-08",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-am-a-survivor-of-coordinated-harassment-and-exploitation",
+    "title": "I am a survivor of coordinated harassment and exploitation by people I call the…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-08",
+    "excerpt": "I am a survivor of coordinated harassment and exploitation by people I call the Specterati — an organized harassment economy that uses addiction and…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-am-a-survivor-of-coordinated-harassment-and-exploitation.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Reclaiming-Power-From-Specterati-to-the-TI-Skills-Economy",
+      "originalDate": "2026-01-08",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/kenrocks59-will-you-join-the-ti-skills-economy",
+    "title": "KenRocks59 Will you join the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-08",
+    "excerpt": "KenRocks59 Will you join the TI Skills Economy? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/kenrocks59-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/KenRocks59-https-www-quora-com-profile-KenRocks59-Will-you-join-the-TI-Skills-Economy-The-TI-Skills-Economy-is",
+      "originalDate": "2026-01-08",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/king-luci-thank-you-for-signing-up-for-the",
+    "title": "King Luci thank you for signing up for the app!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-08",
+    "excerpt": "King Luci thank you for signing up for the app! If you have any questions let me know!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/king-luci-thank-you-for-signing-up-for-the.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/King-Luci-https-www-quora-com-profile-King-Luci-4-thank-you-for-signing-up-for-the-app-If-you-have-any-questions",
+      "originalDate": "2026-01-08",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/michael-capps-are-you-a-ti",
+    "title": "Michael Capps are you a TI?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-08",
+    "excerpt": "Michael Capps are you a TI? If so, will you join the TI Skills Economy? Here are 40+ problems we fix for TIs:",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/michael-capps-are-you-a-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Michael-Capps-https-www-quora-com-profile-Michael-Capps-61-are-you-a-TI-If-so-will-you-join-the-TI-Skills-Econo",
+      "originalDate": "2026-01-08",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/michele-marie-martin-will-you-join-the-ti-skills",
+    "title": "Michele Marie Martin Will you join the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-08",
+    "excerpt": "Michele Marie Martin Will you join the TI Skills Economy? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/michele-marie-martin-will-you-join-the-ti-skills.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Michele-Marie-Martin-https-www-quora-com-profile-Michele-Marie-Martin-Will-you-join-the-TI-Skills-Economy-The-T",
+      "originalDate": "2026-01-08",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/does-rnm-always-require-a-chip-or-implant-on-the-person",
     "title": "Does RNM always require a chip or implant on the person?",
     "repo": "chargingthefuture/wiki-site",
@@ -4988,6 +11600,101 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/if-you-were-to-find-another-ti-in-your",
+    "title": "If you were to find another TI in your area what would you like to do/accomplish?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-07",
+    "excerpt": "If you were to find another TI in your area what would you like to do/accomplish?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/if-you-were-to-find-another-ti-in-your.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Question-of-Day",
+      "originalDate": "2026-01-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/kim-goddess-are-you-in-nyc",
+    "title": "Kim Goddess are you in NYC?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-07",
+    "excerpt": "Kim Goddess are you in NYC? If so, let me know if you want to meet.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/kim-goddess-are-you-in-nyc.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Kim-Goddess-https-www-quora-com-profile-Kim-Goddess-are-you-in-NYC-If-so-let-me-know-if-you-want-to-meet-I-am-i",
+      "originalDate": "2026-01-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/king-luci-how-is-it-going",
+    "title": "King Luci how is it going?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-07",
+    "excerpt": "King Luci how is it going? I read your post: I'm putting together a team of ti's so that we can lookout for each other and continue to survive..",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/king-luci-how-is-it-going.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/King-Luci-https-www-quora-com-profile-King-Luci-4-how-is-it-going-I-read-your-post-https-www-quora-com-profi",
+      "originalDate": "2026-01-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-specterati-is-not-a-phenomenon-in-my-opinion",
+    "title": "The Specterati is not a phenomenon in my opinion.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-07",
+    "excerpt": "The Specterati is not a phenomenon in my opinion. You do not have to agree with me to be a part of the TI Skills Economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-specterati-is-not-a-phenomenon-in-my-opinion.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-Specterati-is-not-a-phenomenon-in-my-opinion-You-do-not-have-to-agree-with-me-to-be-a-part-of-the-TI-Skills-Economy",
+      "originalDate": "2026-01-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/there-are-tis-in-every-country",
+    "title": "There are TIs in every country.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-07",
+    "excerpt": "There are TIs in every country. Considering adding your skills to the directory so you can team up with other TIs so you can do more than survive — but to…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/there-are-tis-in-every-country.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/There-are-TIs-in-every-country-Considering-adding-your-skills-to-the-directory-so-you-can-team-up-with-other-TIs-so-you",
+      "originalDate": "2026-01-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/i-have-a-question-the-people-that-s-gs-me-are-always-talking-about-the",
     "title": "I have a question, the people that's GS me are always talking about \"the one\"..",
     "repo": "chargingthefuture/wiki-site",
@@ -5005,6 +11712,82 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "answer",
       "question": "I have a question, the people that's GS me are always talking about \"the one\".. have any of you ti's ever heard or experienced the GS claiming that they're looking for \"the one\"? And if so, then what is \"the one\" supposed to do or represent?"
+    }
+  },
+  {
+    "slug": "farah-brunache/anicole-will-you-join-the-ti-skills-economy",
+    "title": "Anicole Will you join the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-06",
+    "excerpt": "Anicole Will you join the TI Skills Economy? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/anicole-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Anicole-https-www-quora-com-profile-Anicole-6-Will-you-join-the-TI-Skills-Economy-The-TI-Skills-Economy-is-desig",
+      "originalDate": "2026-01-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/betty-robinson-will-you-join-the-ti-skills-economy",
+    "title": "Betty Robinson Will you join the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-06",
+    "excerpt": "Betty Robinson Will you join the TI Skills Economy? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/betty-robinson-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Betty-Robinson-https-www-quora-com-profile-Betty-Robinson-443-Will-you-join-the-TI-Skills-Economy-The-TI-Skills",
+      "originalDate": "2026-01-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/tausha-walsh-will-you-join-the-ti-skills-economy",
+    "title": "Tausha Walsh Will you join the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-06",
+    "excerpt": "Tausha Walsh Will you join the TI Skills Economy? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/tausha-walsh-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Tausha-Walsh-https-www-quora-com-profile-Tausha-Walsh-1-Will-you-join-the-TI-Skills-Economy-The-TI-Skills-Econo",
+      "originalDate": "2026-01-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/user-12316424601386903597-you-are-not-schizophrenic",
+    "title": "User-12316424601386903597, you are not schizophrenic.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-06",
+    "excerpt": "User-12316424601386903597, you are not schizophrenic. I answered your question here: How do I expose V2K and RNM?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/user-12316424601386903597-you-are-not-schizophrenic.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Alex-Dunican-https-www-quora-com-profile-Alex-Dunican-you-are-not-schizophrenic-I-answered-your-question-here",
+      "originalDate": "2026-01-06",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -5074,6 +11857,82 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/benjamin-machado-i-estimate-5-million-tis-globally",
+    "title": "Benjamin Machado I estimate 5 million TIs globally.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-05",
+    "excerpt": "Benjamin Machado I estimate 5 million TIs globally. If interested in connecting with us please join the movement.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/benjamin-machado-i-estimate-5-million-tis-globally.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Benjamin-Machado-https-www-quora-com-profile-Benjamin-Machado-18-I-estimate-5-million-TIs-globally-If-interested",
+      "originalDate": "2026-01-05",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/brenda-franklin-i-saw-your-post-looking-for-tis",
+    "title": "Brenda Franklin I saw your post looking for TIs in Arizona.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-05",
+    "excerpt": "Brenda Franklin I saw your post looking for TIs in Arizona. I do travel contract work and looking to share resources with other TIs as I earn them for out…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/brenda-franklin-i-saw-your-post-looking-for-tis.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Brenda-Franklin-https-www-quora-com-profile-Brenda-Franklin-26-I-saw-your-post-looking-for-TIs-in-Arizona-I-do-tr",
+      "originalDate": "2026-01-05",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/kristy-dickie-epps-please-consider-joining-the-ti-skills",
+    "title": "Kristy Dickie Epps please consider joining the TI Skills Economy.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-05",
+    "excerpt": "Kristy Dickie Epps please consider joining the TI Skills Economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/kristy-dickie-epps-please-consider-joining-the-ti-skills.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Kristy-Dickie-Epps-https-www-quora-com-profile-Kristy-Dickie-Epps-please-consider-joining-the-TI-Skills-Economy-I",
+      "originalDate": "2026-01-05",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/mark-bellingham-will-you-join-the-ti-skills-economy",
+    "title": "Mark Bellingham Will you join the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-05",
+    "excerpt": "Mark Bellingham Will you join the TI Skills Economy? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/mark-bellingham-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Mark-Bellingham-https-www-quora-com-profile-Mark-Bellingham-4-Will-you-join-the-TI-Skills-Economy-https-app-c",
+      "originalDate": "2026-01-05",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/how-many-victims-of-tis-live-here-in-az-and-is-there-any-groups-that-g",
     "title": "How many victims of TIs live here in AZ And is there any groups that get together Has anyone ever filed with…",
     "repo": "chargingthefuture/wiki-site",
@@ -5090,6 +11949,101 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2026-01-05",
       "status": "erased",
       "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/comparenotes-is-in-beta",
+    "title": "CompareNotes, is in Beta.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-04",
+    "excerpt": "CompareNotes, is in Beta. But feel free to use it and provide feedback.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/comparenotes-is-in-beta.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/CompareNotes-is-in-Beta-But-feel-free-to-use-it-and-provide-feedback-I-plan-to-merge-this-app-with-LostMail-and-make",
+      "originalDate": "2026-01-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/erich-horn-would-you-be-interested-in-joining-the",
+    "title": "Erich Horn would you be interested in joining the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-04",
+    "excerpt": "Erich Horn would you be interested in joining the TI Skills Economy?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/erich-horn-would-you-be-interested-in-joining-the.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Erich-Horn-https-www-quora-com-profile-Erich-Horn-would-you-be-interested-in-joining-the-TI-Skills-Economy-I-just",
+      "originalDate": "2026-01-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-have-opened-the-rooms-below-in-chyme-and",
+    "title": "I have opened the rooms below in Chyme, and they will stay open 24/7.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-04",
+    "excerpt": "I have opened the rooms below in Chyme, and they will stay open 24/7.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-have-opened-the-rooms-below-in-chyme-and.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-have-opened-the-rooms-below-in-Chyme-and-they-will-stay-open-24-7-Download-the-Chyme-Android-app-worlds-first-psyo",
+      "originalDate": "2026-01-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/t-tipton-i-read-your-perfect-answer-to-this",
+    "title": "T. Tipton, I read your perfect answer to this question: T.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-04",
+    "excerpt": "T. Tipton, I read your perfect answer to this question: T. Tipton's answer to How come I don't get gangstalked anymore?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/t-tipton-i-read-your-perfect-answer-to-this.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/T-Tipton-https-www-quora-com-profile-T-Tipton-I-read-your-perfect-answer-to-this-question-https-www-quora-co",
+      "originalDate": "2026-01-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/t-tipton-one-of-the-few-people-on-quora",
+    "title": "T. Tipton one of the few people on Quora who has it right about the Specterati.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-04",
+    "excerpt": "T. Tipton one of the few people on Quora who has it right about the Specterati.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/t-tipton-one-of-the-few-people-on-quora.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/T-Tipton-https-www-quora-com-profile-T-Tipton-one-of-the-few-people-on-Quora-who-has-it-right-about-the-Specterat",
+      "originalDate": "2026-01-04",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -5166,6 +12120,82 @@ export const ARTICLES: ArticleMeta[] = [
     "path": "posts/24-7-Chyme-Drop-In-Rooms.md",
     "teaser": "I opened a Chyme audio room for every sector of the Skills Economy — food, housing, health, transport, and the rest — and they stay open 24/7. Walk in any time to talk or to plan how we deliver goods and services to each other. I am not a leader of anyone; the rooms are yours to use.",
     "number": 194
+  },
+  {
+    "slug": "farah-brunache/survivor-are-you-a-ti",
+    "title": "Survivor Are you a TI?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-03",
+    "excerpt": "Survivor Are you a TI? If so, consider joining our Skills Economy!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/survivor-are-you-a-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Survivor-https-www-quora-com-profile-Survivor-231-Are-you-a-TI-If-so-consider-joining-our-Skills-Economy-https",
+      "originalDate": "2026-01-03",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-classifieds-era-ended-and-what-replaced-it-and",
+    "title": "The Classifieds Era Ended and What Replaced It, and What TIs Can Use Now Craigslist…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-03",
+    "excerpt": "The Classifieds Era Ended and What Replaced It, and What TIs Can Use Now Craigslist changed local commerce forever: one simple, free classifieds site that let…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-classifieds-era-ended-and-what-replaced-it-and.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-Classifieds-Era-Ended-and-What-Replaced-It-and-What-TIs-Can-Use-Now-Craigslist-changed-local-commerce-forever-one",
+      "originalDate": "2026-01-03",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/there-are-tis-everywhere",
+    "title": "There are TIs everywhere.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-03",
+    "excerpt": "There are TIs everywhere. Question is are there TIs looking to work together in Phoenix, Las Vegas, or Oklahoma City?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/there-are-tis-everywhere.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/There-are-TIs-everywhere-Question-is-are-there-TIs-looking-to-work-together-in-Phoenix-Las-Vegas-or-Oklahoma-City-I",
+      "originalDate": "2026-01-03",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/today-is-town-hall-saturday",
+    "title": "Today is Town Hall Saturday!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-03",
+    "excerpt": "Today is Town Hall Saturday! I will be on Chyme, the Android social audio app, if anyone wants to socialize live.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/today-is-town-hall-saturday.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Today-is-Town-Hall-Saturday-I-will-be-on-Chyme-the-Android-social-audio-app-if-anyone-wants-to-socialize-live-Anyon",
+      "originalDate": "2026-01-03",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/are-there-any-targeted-people-living-in-jacksonville-florida",
@@ -5337,6 +12367,101 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 183
   },
   {
+    "slug": "farah-brunache/annie-will-you-join-the-ti-skills-economy",
+    "title": "Annie Will you join the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-02",
+    "excerpt": "Annie Will you join the TI Skills Economy? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the Specterati…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/annie-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Annie-https-www-quora-com-profile-Annie-8857-https-app-chargingthefuture-com-apps-directory-public-ec140673-62f",
+      "originalDate": "2026-01-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/empowered-individual-will-you-join-the-ti-skills-economy",
+    "title": "Empowered Individual Will you join the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-02",
+    "excerpt": "Empowered Individual Will you join the TI Skills Economy? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/empowered-individual-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Empowered-Individual-https-www-quora-com-profile-Empowered-Individual-1-Will-you-join-the-TI-Skills-Economy-htt",
+      "originalDate": "2026-01-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/hard-target-will-you-join-the-ti-skills-economy",
+    "title": "Hard Target Will you join the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-02",
+    "excerpt": "Hard Target Will you join the TI Skills Economy? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/hard-target-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Hard-Target-https-www-quora-com-profile-Hard-Target-29-https-app-chargingthefuture-com-apps-directory-public-40",
+      "originalDate": "2026-01-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/kay-varga-will-you-join-the-ti-skills-economy",
+    "title": "Kay Varga Will you join the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-02",
+    "excerpt": "Kay Varga Will you join the TI Skills Economy? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/kay-varga-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Kay-Varga-https-www-quora-com-profile-Kay-Varga-2-Will-you-join-the-TI-Skills-Economy-https-app-chargingthefu",
+      "originalDate": "2026-01-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/monique-moore-will-you-join-the-ti-skills-economy",
+    "title": "Monique Moore Will you join the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-02",
+    "excerpt": "Monique Moore Will you join the TI Skills Economy? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/monique-moore-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Monique-Moore-https-www-quora-com-profile-Monique-Moore-12-https-app-chargingthefuture-com-apps-directory-publi",
+      "originalDate": "2026-01-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/i-want-to-join-the-illuminati-can-you-help-me-without-paying",
     "title": "I want to join the Illuminati. Can you help me without paying?",
     "repo": "chargingthefuture/wiki-site",
@@ -5376,6 +12501,291 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "space-submission",
       "space": "US-PSYOPS-TARGETED-INDIVIDUALS"
+    }
+  },
+  {
+    "slug": "farah-brunache/brandy-b-nthepink-i-am-happy-to-welcome-you",
+    "title": "Brandy B. NthePink I am happy to welcome you to TSE!!!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-01",
+    "excerpt": "Brandy B. NthePink I am happy to welcome you to TSE!!! I created a profile for you and attached it to your account.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/brandy-b-nthepink-i-am-happy-to-welcome-you.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Brandy-B-NthePink-https-www-quora-com-profile-Brandy-B-NthePink-I-am-happy-to-welcome-you-to-TSE-I-created-a",
+      "originalDate": "2026-01-01",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/carolina-may-i-welcome-you-to-the-ti-skills",
+    "title": "Carolina may I welcome you to the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-01",
+    "excerpt": "Carolina may I welcome you to the TI Skills Economy? The TI Skills Economy is designed to coexist alongside the lives of all TIs.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/carolina-may-i-welcome-you-to-the-ti-skills.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Carolina-https-www-quora-com-profile-Carolina-2856-may-I-welcome-you-to-the-TI-Skills-Economy-https-app-chargi",
+      "originalDate": "2026-01-01",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/jen-starling-jen-starling-may-i-welcome-you-to",
+    "title": "Jen Starling (Jen Starling) may I welcome you to the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-01",
+    "excerpt": "Jen Starling (Jen Starling) may I welcome you to the TI Skills Economy?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/jen-starling-jen-starling-may-i-welcome-you-to.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Jen-Starling-Jen-Starling-https-www-quora-com-profile-Jen-Starling-3-may-I-welcome-you-to-the-TI-Skills-Economy",
+      "originalDate": "2026-01-01",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/jo-brown-will-you-join-the-ti-skills-economy",
+    "title": "Jo Brown Will you join the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-01",
+    "excerpt": "Jo Brown Will you join the TI Skills Economy? I did a best guess when creating your profile.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/jo-brown-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Jo-Brown-https-www-quora-com-profile-Jo-Brown-330-Will-you-join-the-TI-Skills-Economy-I-did-a-best-guess-when-c",
+      "originalDate": "2026-01-01",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/marina-will-you-join-the-ti-skills-economy",
+    "title": "Marina Will you join the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-01",
+    "excerpt": "Marina Will you join the TI Skills Economy? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/marina-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Marina-https-www-quora-com-profile-Marina-4573-Will-you-join-the-TI-Skills-Economy-https-app-chargingthefutur",
+      "originalDate": "2026-01-01",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/now-that-i-have-been-on-quora-for-a",
+    "title": "Now that I have been on Quora for a few months it is getting easier to detect which…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-01",
+    "excerpt": "Now that I have been on Quora for a few months it is getting easier to detect which people on Quora are perps.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/now-that-i-have-been-on-quora-for-a.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Now-that-I-have-been-on-Quora-for-a-few-months-it-is-getting-easier-to-detect-which-people-on-Quora-are-perps-I-do-not",
+      "originalDate": "2026-01-01",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/seeking-a-ti-notary-reply-with-their-quora-or",
+    "title": "Seeking a TI Notary: Reply with their Quora or Social Media profile.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-01",
+    "excerpt": "Seeking a TI Notary: Reply with their Quora or Social Media profile.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/seeking-a-ti-notary-reply-with-their-quora-or.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Seeking-a-TI-Notary-https-app-chargingthefuture-com-apps-socketrelay-public-6ba9c46f-8c74-417a-89eb-bfa931a8d3a7-Rep",
+      "originalDate": "2026-01-01",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/they-also-use-noise-campaigns-beyond-to-irritate-you",
+    "title": "They also use noise campaigns beyond to irritate you/signal they are around.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-01",
+    "excerpt": "They also use noise campaigns beyond to irritate you/signal they are around.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/they-also-use-noise-campaigns-beyond-to-irritate-you.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/They-also-use-noise-campaigns-beyond-to-irritate-you-signal-they-are-around-It-also-signals-to-operatives-a-TI-is-near",
+      "originalDate": "2026-01-01",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/wanted-a-ti-gynecologists-reply-with-their-quora-or",
+    "title": "Wanted a TI Gynecologists: Reply with their Quora or Social Media profile.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-01",
+    "excerpt": "Wanted a TI Gynecologists: Reply with their Quora or Social Media profile.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/wanted-a-ti-gynecologists-reply-with-their-quora-or.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Wanted-a-TI-Gynecologists-https-app-chargingthefuture-com-apps-socketrelay-public-0abb5330-0743-40d6-8a83-115a5c0f9d",
+      "originalDate": "2026-01-01",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/interested-in-bringing-together-a-squad-of-tis-to",
+    "title": "Interested in bringing together a squad of TIs to live under one roof or in a community?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-31",
+    "excerpt": "Interested in bringing together a squad of TIs to live under one roof or in a community?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/interested-in-bringing-together-a-squad-of-tis-to.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Interested-in-bringing-together-a-squad-of-TIs-to-live-under-one-roof-or-in-a-community-This-is-possible-to-do-at-this",
+      "originalDate": "2025-12-31",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/marko-petrovi-still-interested-in-teaming-up-with-other",
+    "title": "Marko Petrović still interested in teaming up with other TIs?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-31",
+    "excerpt": "Marko Petrović still interested in teaming up with other TIs?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/marko-petrovi-still-interested-in-teaming-up-with-other.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Marko-Petrović-https-www-quora-com-profile-Marko-Petrović-49-still-interested-in-teaming-up-with-other-TIs-I-have",
+      "originalDate": "2025-12-31",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/melissa-whitecotton-you-made-a-post-2-years-ago",
+    "title": "Melissa Whitecotton you made a post 2 years ago asking for TIs to come together.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-31",
+    "excerpt": "Melissa Whitecotton you made a post 2 years ago asking for TIs to come together.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/melissa-whitecotton-you-made-a-post-2-years-ago.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Melissa-Whitecotton-https-www-quora-com-profile-Melissa-Whitecotton-5-you-made-a-post-2-years-ago-asking-for-TIs-t",
+      "originalDate": "2025-12-31",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/nicholas-gerald-peterson-aka-nick-the-louse-may-i",
+    "title": "Nicholas Gerald Peterson AKA Nick The Louse may I welcome you to the TI Skills Network?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-31",
+    "excerpt": "Nicholas Gerald Peterson AKA Nick The Louse may I welcome you to the TI Skills Network?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/nicholas-gerald-peterson-aka-nick-the-louse-may-i.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Nicholas-Gerald-Peterson-AKA-Nick-The-Louse-https-www-quora-com-profile-Nicholas-Gerald-Peterson-AKA-Nick-The-Louse",
+      "originalDate": "2025-12-31",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-only-way-to-exit-the-psyop-is-to",
+    "title": "The only way to exit the psyop, is to not use Specterati owned and operated…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-31",
+    "excerpt": "The only way to exit the psyop, is to not use Specterati owned and operated infrastructure, products or services.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-only-way-to-exit-the-psyop-is-to.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-only-way-to-exit-the-psyop-is-to-not-use-Specterati-owned-and-operated-infrastructure-products-or-services-They-d",
+      "originalDate": "2025-12-31",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/this-is-exactly-what-the-speceterati-want",
+    "title": "This is exactly what the Speceterati want.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-31",
+    "excerpt": "This is exactly what the Speceterati want. Use your instincts and do the opposite of what they want.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/this-is-exactly-what-the-speceterati-want.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/This-is-exactly-what-the-Speceterati-want-Use-your-instincts-and-do-the-opposite-of-what-they-want-And-now-with-TI-Sk",
+      "originalDate": "2025-12-31",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -5466,6 +12876,63 @@ export const ARTICLES: ArticleMeta[] = [
     "featured": true,
     "teaser": "The knowledge base for Charging The Future and the Skills Economy: what the app is, how each service works, and where everything lives. The app is vetted, built for survivors to live, work, and rebuild with safety, dignity, and privacy. Start here if you are new.",
     "number": 182
+  },
+  {
+    "slug": "farah-brunache/jack-e-may-i-welcome-you-to-the-ti",
+    "title": "Jack E. may I welcome you to the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-30",
+    "excerpt": "Jack E. may I welcome you to the TI Skills Economy? It is a network of TIs that exchange skills with each other so we can thrive.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/jack-e-may-i-welcome-you-to-the-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Jack-E-https-www-quora-com-profile-Jack-E-145-may-I-welcome-you-to-the-TI-Skills-Economy-It-is-a-network-of-TIs",
+      "originalDate": "2025-12-30",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/one-of-the-features-of-workforce-recruiter-is-that",
+    "title": "One of the features of Workforce Recruiter is that a member can list their skills, and…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-30",
+    "excerpt": "One of the features of Workforce Recruiter is that a member can list their skills, and the built-in algorithm will infer what occupations match those skills.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/one-of-the-features-of-workforce-recruiter-is-that.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Inferring-occupations-from-skills",
+      "originalDate": "2025-12-30",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/that-girl-may-i-welcome-you-to-the-ti",
+    "title": "That Girl may I welcome you to the TI economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-30",
+    "excerpt": "That Girl may I welcome you to the TI economy? With an estimated 5 million TIs globally, I believe we can exit the psyop by exchanging our skills, goods, and…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/that-girl-may-i-welcome-you-to-the-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/That-Girl-https-www-quora-com-profile-That-Girl-975-may-I-welcome-you-to-the-TI-economy-With-an-estimated-5-mill",
+      "originalDate": "2025-12-30",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "insights/insights",
@@ -5561,6 +13028,120 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 179
   },
   {
+    "slug": "farah-brunache/perps-are-impersonating-quora-profiles-when-signing-up-for",
+    "title": "Perps are impersonating Quora profiles when signing up for the TI Skills Economy.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-29",
+    "excerpt": "Perps are impersonating Quora profiles when signing up for the TI Skills Economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/perps-are-impersonating-quora-profiles-when-signing-up-for.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Perps-are-impersonating-Quora-profiles-when-signing-up-for-the-TI-Skills-Economy-Specifically-profiles-that-have-not-j",
+      "originalDate": "2025-12-29",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-discourse-blog-i-created-at-was-closed-on",
+    "title": "The Discourse blog I created at was closed on December 23, 2025.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-29",
+    "excerpt": "The Discourse blog I created at was closed on December 23, 2025.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-discourse-blog-i-created-at-was-closed-on.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-Discourse-blog-I-created-at-https-chargingthefuture-discourse-group-was-closed-on-December-23-2025-I-have-export",
+      "originalDate": "2025-12-29",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/for-survivors-the-ti-skills-economy-is-here-to",
+    "title": "For Survivors: The TI Skills Economy is here to facilitate our exit from the psyop.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-28",
+    "excerpt": "For Survivors: The TI Skills Economy is here to facilitate our exit from the psyop.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/for-survivors-the-ti-skills-economy-is-here-to.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/For-Survivors-The-TI-Skills-Economy-is-here-to-facilitate-our-exit-from-the-psyop-Join-today-to-achieve-autonomy-and-t",
+      "originalDate": "2025-12-28",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-have-listed-with-the-help-of-nat-morris",
+    "title": "I have listed, with the help of Nat Morris ( ) 50 things the Speceterati do as part of…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-28",
+    "excerpt": "I have listed, with the help of Nat Morris ( ) 50 things the Speceterati do as part of their torturing of humanity.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-have-listed-with-the-help-of-nat-morris.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-have-listed-with-the-help-of-Nat-Morris-https-www-quora-com-profile-Nat-Morris-12-https-app-chargingthefut",
+      "originalDate": "2025-12-28",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/julie-may-i-welcome-you-to-the-ti-skills",
+    "title": "🤍Julie🤍 may I welcome you to the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-28",
+    "excerpt": "🤍Julie🤍 may I welcome you to the TI Skills Economy? We are a group of TIs exiting the psyop.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/julie-may-i-welcome-you-to-the-ti-skills.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Julie-https-www-quora-com-profile-Julie-6645-may-I-welcome-you-to-the-TI-Skills-Economy-We-are-a-group-of-TIs",
+      "originalDate": "2025-12-28",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/use-cases-of-the-ti-skills-economy-the-only",
+    "title": "Use Cases of the TI Skills Economy: the only way to exit the psyop The goal of the TI…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-28",
+    "excerpt": "Use Cases of the TI Skills Economy: the only way to exit the psyop The goal of the TI Skills Economy is to unite the ~5 million TIs.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/use-cases-of-the-ti-skills-economy-the-only.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Use-Cases-of-the-TI-Skills-Economy-the-only-way-to-exit-the-psyop-The-goal-of-the-TI-Skills-Economy-is-to-unite-the-5",
+      "originalDate": "2025-12-28",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "insights/#49-of-how-TI-Skills-Network-helps-you-exit-the-psyop",
     "title": "#49 of how TI Skills Network helps you exit the psyop",
     "repo": "chargingthefuture/chargingthefuture",
@@ -5639,6 +13220,120 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 174
   },
   {
+    "slug": "farah-brunache/david-stevens-may-i-welcome-you-to-the-ti",
+    "title": "David Stevens may I welcome you to the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-27",
+    "excerpt": "David Stevens may I welcome you to the TI Skills Economy? David Stevens If you create an account using the same link above, you can edit your profile anytime.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/david-stevens-may-i-welcome-you-to-the-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/David-Stevens-https-www-quora-com-profile-David-Stevens-151-may-I-welcome-you-to-the-TI-Skills-Economy-https-w",
+      "originalDate": "2025-12-27",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/marketing-page-of-the-chyme-room-i-created-for",
+    "title": "Marketing page of the Chyme room I created for today’s Town Hall: All members of the TI…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-27",
+    "excerpt": "Marketing page of the Chyme room I created for today’s Town Hall: All members of the TI Skills Economy have access to this dedicated product/app.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/marketing-page-of-the-chyme-room-i-created-for.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Marketing-page-of-the-Chyme-room-I-created-for-today-s-Town-Hall-https-app-chargingthefuture-com-apps-chyme-room-43d",
+      "originalDate": "2025-12-27",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/sofia-popescu-may-i-welcome-you-to-the-ti",
+    "title": "Sofia Popescu may I welcome you to the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-27",
+    "excerpt": "Sofia Popescu may I welcome you to the TI Skills Economy? Our goal is to exit the psyop.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/sofia-popescu-may-i-welcome-you-to-the-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Sofia-Popescu-https-www-quora-com-profile-Sofia-Popescu-6-may-I-welcome-you-to-the-TI-Skills-Economy-https-app",
+      "originalDate": "2025-12-27",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-weekly-town-hall-recaps-can-now-be-found",
+    "title": "The Weekly Town Hall recaps can now be found here: I discontinued using Discourse for the…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-27",
+    "excerpt": "The Weekly Town Hall recaps can now be found here: I discontinued using Discourse for the blog/Town Hall recaps.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-weekly-town-hall-recaps-can-now-be-found.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-Weekly-Town-Hall-recaps-can-now-be-found-here-https-github-com-chargingthefuture-mono-wiki-Weekly-State-of-the-T",
+      "originalDate": "2025-12-27",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/there-are-some-directory-profiles-that-i-add-myself",
+    "title": "There are some Directory profiles that I add myself of people I think are likely TIs.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-27",
+    "excerpt": "There are some Directory profiles that I add myself of people I think are likely TIs.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/there-are-some-directory-profiles-that-i-add-myself.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/There-are-some-Directory-profiles-that-I-add-myself-of-people-I-think-are-likely-TIs-However-if-anyone-I-have-added-yo",
+      "originalDate": "2025-12-27",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/today-is-the-all-day-ti-skills-economy-town",
+    "title": "Today is the all-day TI Skills Economy Town Hall.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-27",
+    "excerpt": "Today is the all-day TI Skills Economy Town Hall. It will be happening across two channels: Signal and our own social audio Android app: - Signal: - Android…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/today-is-the-all-day-ti-skills-economy-town.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Today-is-the-all-day-TI-Skills-Economy-Town-Hall-It-will-be-happening-across-two-channels-Signal-and-our-own-social-au",
+      "originalDate": "2025-12-27",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "guides/chyme/Chyme:-TI-social-audio-app",
     "title": "TI Skills Economy Town Hall Room",
     "repo": "chargingthefuture/chargingthefuture",
@@ -5648,6 +13343,405 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "guides",
     "path": "guides/chyme/Chyme:-TI-social-audio-app.md",
     "number": 173
+  },
+  {
+    "slug": "farah-brunache/cherylee-materi-may-i-welcome-you-to-the-ti",
+    "title": "Cherylee Materi may I welcome you to the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-26",
+    "excerpt": "Cherylee Materi may I welcome you to the TI Skills Economy? Use the same link above to create an account and update your profile.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/cherylee-materi-may-i-welcome-you-to-the-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Cherylee-Materi-https-www-quora-com-profile-Cherylee-Materi-may-I-welcome-you-to-the-TI-Skills-Economy-https-a",
+      "originalDate": "2025-12-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/miraclis-johnson-miraclis-johnson-will-you-join-us",
+    "title": "Miraclis Johnson / Miraclis Johnson will you join us?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-26",
+    "excerpt": "Miraclis Johnson / Miraclis Johnson will you join us? We are a group of TIs ready to exit the psyop.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/miraclis-johnson-miraclis-johnson-will-you-join-us.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Miraclis-Johnson-Miraclis-Johnson-https-www-quora-com-profile-Miraclis-Johnson-Miraclis-Johnson-will-you-join-us",
+      "originalDate": "2025-12-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/nat-morris-did-a-great-write-up-that-lists",
+    "title": "Nat Morris did a great write-up that lists the most common things the Specterati do to…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-26",
+    "excerpt": "Nat Morris did a great write-up that lists the most common things the Specterati do to Targets.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/nat-morris-did-a-great-write-up-that-lists.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Nat-Morris-https-www-quora-com-profile-Nat-Morris-12-did-a-great-write-up-that-lists-the-most-common-things-the-Sp",
+      "originalDate": "2025-12-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/offline-listening-of-mediations-the-gentlepulse-mini-app-within",
+    "title": "Offline Listening of Mediations The GentlePulse mini-app within the TI Skills Economy…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-26",
+    "excerpt": "Offline Listening of Mediations The GentlePulse mini-app within the TI Skills Economy provides links to stream meditations.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/offline-listening-of-mediations-the-gentlepulse-mini-app-within.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Offline-Listening-of-Mediations-The-GentlePulse-mini-app-within-the-TI-Skills-Economy-provides-links-to-stream-meditati",
+      "originalDate": "2025-12-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/sherri-jenkins-may-i-welcome-you-to-the-ti",
+    "title": "Sherri Jenkins may I welcome you to the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-26",
+    "excerpt": "Sherri Jenkins may I welcome you to the TI Skills Economy? Use the same link above to create an account and update your profile anytime.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/sherri-jenkins-may-i-welcome-you-to-the-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Sherri-Jenkins-https-www-quora-com-profile-Sherri-Jenkins-12-may-I-welcome-you-to-the-TI-Skills-Economy-https",
+      "originalDate": "2025-12-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/with-an-estimated-5-million-tis-globally-we-can",
+    "title": "With an estimated 5 million TIs globally, we can significantly reduce, if not eliminate…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-26",
+    "excerpt": "With an estimated 5 million TIs globally, we can significantly reduce, if not eliminate, our exploitation!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/with-an-estimated-5-million-tis-globally-we-can.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/With-an-estimated-5-million-TIs-globally-we-can-significantly-reduce-if-not-eliminate-our-exploitation-How-There",
+      "originalDate": "2025-12-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/entrance-to-understanding-may-i-welcome-you-to-the",
+    "title": "Entrance to Understanding may I welcome you to the TI economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-25",
+    "excerpt": "Entrance to Understanding may I welcome you to the TI economy?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/entrance-to-understanding-may-i-welcome-you-to-the.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Entrance-to-Understanding-https-www-quora-com-profile-Entrance-to-Understanding-may-I-welcome-you-to-the-TI-econom",
+      "originalDate": "2025-12-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/aaron-rasco-may-i-welcome-you-to-the-ti",
+    "title": "Aaron Rasco may I welcome you to the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-24",
+    "excerpt": "Aaron Rasco may I welcome you to the TI Skills Economy? Here is your profile which if you create an account, takes less than 5 minutes you can edit at anytime.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/aaron-rasco-may-i-welcome-you-to-the-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Aaron-Rasco-https-www-quora-com-profile-Aaron-Rasco-5-may-I-welcome-you-to-the-TI-Skills-Economy-Here-is-your-pro",
+      "originalDate": "2025-12-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/affectedbyignorance-will-you-consider-joining-the-ti-skills-economy",
+    "title": "AffectedByIgnorance, will you consider joining the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-24",
+    "excerpt": "AffectedByIgnorance, will you consider joining the TI Skills Economy?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/affectedbyignorance-will-you-consider-joining-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/AffectedByIgnorance-https-www-quora-com-profile-AffectedByIgnorance-will-you-consider-joining-the-TI-Skills-Econo",
+      "originalDate": "2025-12-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/andrea-r-may-i-welcome-you-to-the-ti",
+    "title": "Andrea R, may I welcome you to the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-24",
+    "excerpt": "Andrea R, may I welcome you to the TI Skills Economy? Here is your profile: We are a group of TIs IRL and online that trade our skills, goods, and services…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/andrea-r-may-i-welcome-you-to-the-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Andrea-R-https-www-quora-com-profile-Andrea-R-453-may-I-welcome-you-to-the-TI-Skills-Economy-Here-is-your-profi",
+      "originalDate": "2025-12-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/ciara-tavares-reyes-will-you-join-our-community-effort",
+    "title": "Ciara Tavares-Reyes will you join our community effort in TIs trading skills with each…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-24",
+    "excerpt": "Ciara Tavares-Reyes will you join our community effort in TIs trading skills with each other?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/ciara-tavares-reyes-will-you-join-our-community-effort.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Ciara-Tavares-Reyes-https-www-quora-com-profile-Ciara-Tavares-Reyes-1-will-you-join-our-community-effort-in-TIs-tr",
+      "originalDate": "2025-12-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/do-not-sleep-on-workforce-recruiter",
+    "title": "Do not sleep on Workforce Recruiter!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-24",
+    "excerpt": "Do not sleep on Workforce Recruiter! A mini-app found at psyop-free - Live, Work, Prevail.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/do-not-sleep-on-workforce-recruiter.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Do-not-sleep-on-Workforce-Recruiter-A-mini-app-found-at-psyop-free-Live-Work-Prevail-https-app-chargingthefutur",
+      "originalDate": "2025-12-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/exit-the-psyop-tour-i-created-an-ugly-but",
+    "title": "EXIT THE PSYOP TOUR I created (an ugly, but useable, lol) version of Clubhouse for TIs to…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-24",
+    "excerpt": "EXIT THE PSYOP TOUR I created (an ugly, but useable, lol) version of Clubhouse for TIs to use.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/exit-the-psyop-tour-i-created-an-ugly-but.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/EXIT-THE-PSYOP-TOUR-I-created-an-ugly-but-useable-lol-version-of-Clubhouse-http-clubhouse-com-for-TIs-to-use",
+      "originalDate": "2025-12-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-believe-i-fixed-all-the-issues-with-the",
+    "title": "I believe I fixed all the issues with the weekly app performance metrics.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-24",
+    "excerpt": "I believe I fixed all the issues with the weekly app performance metrics.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-believe-i-fixed-all-the-issues-with-the.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-believe-I-fixed-all-the-issues-with-the-weekly-app-performance-metrics-Here-is-the-latest-data-Every-Saturday-I-sh",
+      "originalDate": "2025-12-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/is-there-any-hope-for-targeted-individuals",
+    "title": "Is there any hope for targeted individuals?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-24",
+    "excerpt": "Is there any hope for targeted individuals? Asked by Unidentifiable.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/is-there-any-hope-for-targeted-individuals.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Is-there-any-hope-for-targeted-individuals-Asked-by-Unidentifiable-https-www-quora-com-profile-Unidentifiable-20",
+      "originalDate": "2025-12-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/lg-gettingbetter-are-you-still-around",
+    "title": "LG GettingBetter are you still around?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-24",
+    "excerpt": "LG GettingBetter are you still around? The latest posts on your account are from 4 years ago.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/lg-gettingbetter-are-you-still-around.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/LG-GettingBetter-https-www-quora-com-profile-LG-GettingBetter-are-you-still-around-The-latest-posts-on-your-accou",
+      "originalDate": "2025-12-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/nat-morris-may-i-welcome-you-to-the-ti",
+    "title": "Nat Morris may I welcome you to the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-24",
+    "excerpt": "Nat Morris may I welcome you to the TI Skills Economy? Here is your profile: If you create an account at psyop-free - Live, Work, Prevail you can update it as…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/nat-morris-may-i-welcome-you-to-the-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Nat-Morris-https-www-quora-com-profile-Nat-Morris-12-may-I-welcome-you-to-the-TI-Skills-Economy-Here-is-your-pro",
+      "originalDate": "2025-12-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/oksana-vk-may-i-welcome-you-to-the-ti",
+    "title": "Oksana VK may I welcome you to the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-24",
+    "excerpt": "Oksana VK may I welcome you to the TI Skills Economy? It is an IRL and online collection of TIs exchanging housing, rides, goods, services, and more with each…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/oksana-vk-may-i-welcome-you-to-the-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Oksana-VK-https-www-quora-com-profile-Oksana-VK-1-may-I-welcome-you-to-the-TI-Skills-Economy-It-is-an-IRL-and-on",
+      "originalDate": "2025-12-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/shout-out-to-nat-morris-nat-morriss-answer-to",
+    "title": "Shout out to Nat Morris Nat Morris's answer to How do you know if you are a targeted…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-24",
+    "excerpt": "Shout out to Nat Morris Nat Morris's answer to How do you know if you are a targeted individual?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/shout-out-to-nat-morris-nat-morriss-answer-to.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Shout-out-to-Nat-Morris-https-www-quora-com-profile-Nat-Morris-12-https-www-quora-com-How-do-you-know-if-you-ar",
+      "originalDate": "2025-12-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/syah-neal-adoretm-are-you-still-around",
+    "title": "Syah Neal AdoreTM are you still around?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-24",
+    "excerpt": "Syah Neal AdoreTM are you still around? I do clinical trials for work.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/syah-neal-adoretm-are-you-still-around.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Syah-Neal-AdoreTM-https-www-quora-com-profile-Syah-Neal-AdoreTM-are-you-still-around-I-do-clinical-trials-for-wo",
+      "originalDate": "2025-12-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/tis-with-android-phones-please-join-me-on-chyme",
+    "title": "TIs with Android phones, please join me on Chyme.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-24",
+    "excerpt": "TIs with Android phones, please join me on Chyme. It is a social audio app for us to have live conversations with each other.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/tis-with-android-phones-please-join-me-on-chyme.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/TIs-with-Android-phones-please-join-me-on-Chyme-https-app-chargingthefuture-com-apps-socketrelay-public-a39b8c72-c6",
+      "originalDate": "2025-12-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/if-i-discovered-the-sim-card-in-my-cell-phone-isn-t-the-same-one-i-put",
@@ -5760,6 +13854,82 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/i-have-never-formally-done-a-new-years-resolution",
+    "title": "I have never formally done a “New Year's Resolution,” however, here are my goals for the…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-21",
+    "excerpt": "I have never formally done a “New Year's Resolution,” however, here are my goals for the TI Skills Economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-have-never-formally-done-a-new-years-resolution.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-have-never-formally-done-a-New-Years-Resolution-however-here-are-my-goals-for-the-TI-Skills-Economy-May-I-ask-yo",
+      "originalDate": "2025-12-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-have-people-who-signed-up-for-the-app",
+    "title": "I have people who signed up for the app: psyop-free - Live, Work, Prevail — but didn't…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-21",
+    "excerpt": "I have people who signed up for the app: psyop-free - Live, Work, Prevail — but didn't share what their Quora profile URL is.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-have-people-who-signed-up-for-the-app.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-have-people-who-signed-up-for-the-app-psyop-free-Live-Work-Prevail-https-app-chargingthefuture-com-but-di",
+      "originalDate": "2025-12-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/looking-for-a-writer",
+    "title": "Looking for a Writer?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-21",
+    "excerpt": "Looking for a Writer? Highlighting C..Elizabeth..P.P. of the TI Skills Economy, a professional writer!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/looking-for-a-writer.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Looking-for-a-Writer-Highlighting-C-Elizabeth-P-P-https-www-quora-com-profile-C-Elizabeth-P-P-of-the-TI-Skill",
+      "originalDate": "2025-12-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/two-heads-are-better-than-one",
+    "title": "Two heads are better than one.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-21",
+    "excerpt": "Two heads are better than one. To all TIs, please, please please reach out to me before you contact clinical trial companies.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/two-heads-are-better-than-one.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Two-heads-are-better-than-one-To-all-TIs-please-please-please-reach-out-to-me-before-you-contact-clinical-trial-comp",
+      "originalDate": "2025-12-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "What-is-the-TI-Skills-Economy-app?",
     "title": "What is the TI Skills Economy app?",
     "repo": "chargingthefuture/chargingthefuture",
@@ -5770,6 +13940,120 @@ export const ARTICLES: ArticleMeta[] = [
     "path": "posts/What-is-the-TI-Skills-Economy-app.md",
     "teaser": "A vetted super app built exclusively for survivors of human trafficking: housing, transportation, work, support, and community — 12+ services through a single account. Trauma-informed design, WCAG AAA accessibility, complete privacy control including full account deletion. Built by and for survivors.",
     "number": 171
+  },
+  {
+    "slug": "farah-brunache/i-am-interested-in-traveling-with-tis-to-do",
+    "title": "I am interested in traveling with TIs to do Healthy Volunteer Clinical Trials.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-20",
+    "excerpt": "I am interested in traveling with TIs to do Healthy Volunteer Clinical Trials.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-am-interested-in-traveling-with-tis-to-do.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-am-interested-in-traveling-with-TIs-to-do-Healthy-Volunteer-Clinical-Trials-The-most-I-have-seen-is-45-000-for-one-m",
+      "originalDate": "2025-12-20",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-firmly-believe-it-does-not-have-to-be",
+    "title": "I firmly believe it does not have to be this way.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-20",
+    "excerpt": "I firmly believe it does not have to be this way. It will take a lot of work but with so many of us we could all work together as TIs rather than be isolated.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-firmly-believe-it-does-not-have-to-be.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-firmly-believe-it-does-not-have-to-be-this-way-It-will-take-a-lot-of-work-but-with-so-many-of-us-we-could-all-work-to",
+      "originalDate": "2025-12-20",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/serious-inquiries-only-perp-responses-will-be-deleted",
+    "title": "Serious Inquiries only (perp responses will be deleted)!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-20",
+    "excerpt": "Serious Inquiries only (perp responses will be deleted)! I am interested in traveling with another TI to do Healthy Volunteer Clinical Trials.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/serious-inquiries-only-perp-responses-will-be-deleted.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Serious-Inquiries-only-perp-responses-will-be-deleted-I-am-interested-in-traveling-with-another-TI-to-do-Healthy-Vol",
+      "originalDate": "2025-12-20",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/town-hall-12-20-2025-every-saturday-i-go",
+    "title": "Town Hall 12.20.2025 Every Saturday, I go live to do an interactive session where TIs can…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-20",
+    "excerpt": "Town Hall 12.20.2025 Every Saturday, I go live to do an interactive session where TIs can ask questions or listen to updates of the week about the TI Skills…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/town-hall-12-20-2025-every-saturday-i-go.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Town-Hall-12-20-2025-Every-Saturday-I-go-live-to-do-an-interactive-session-where-TIs-can-ask-questions-or-listen-to-up",
+      "originalDate": "2025-12-20",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/updates-today-will-be-the-last-day-i-go",
+    "title": "Updates - Today will be the last day I go live on Twitch under the handle “the1690s”…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-20",
+    "excerpt": "Updates - Today will be the last day I go live on Twitch under the handle “the1690s”: Twitch .",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/updates-today-will-be-the-last-day-i-go.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Updates-Today-will-be-the-last-day-I-go-live-on-Twitch-under-the-handle-the1690s-Twitch-https-twitch-tv-the16",
+      "originalDate": "2025-12-20",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/welcoming-kevin-butler-a-sound-engineer",
+    "title": "Welcoming Kevin Butler a Sound Engineer.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-20",
+    "excerpt": "Welcoming Kevin Butler a Sound Engineer. Kevin, your TI Skills profile is here: You can edit it anytime.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/welcoming-kevin-butler-a-sound-engineer.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Welcoming-Kevin-Butler-https-www-quora-com-profile-Kevin-Butler-305-a-Sound-Engineer-Kevin-your-TI-Skills-profi",
+      "originalDate": "2025-12-20",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/any-people-in-the-ohio-area-being-gangstalked-who-want-to-team-up-with",
@@ -5831,6 +14115,139 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/update-that-profile-is-a-perp",
+    "title": "UPDATE: that profile is a perp.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-19",
+    "excerpt": "UPDATE: that profile is a perp. Luke: Luke I got your contributor request message to this space, but I do not understand it.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/update-that-profile-is-a-perp.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/UPDATE-that-profile-is-a-perp-Luke-https-www-quora-com-profile-Luke-4882-I-got-your-contributor-request-message-t",
+      "originalDate": "2025-12-19",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/urgent-anyone-with-an-android-device-available-to-go",
+    "title": "Urgent, anyone with an Android device available to go live with me on Chyme?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-19",
+    "excerpt": "Urgent, anyone with an Android device available to go live with me on Chyme?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/urgent-anyone-with-an-android-device-available-to-go.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Urgent-anyone-with-an-Android-device-available-to-go-live-with-me-on-Chyme-I-want-to-test-it-works-before-tomorrow-Sa",
+      "originalDate": "2025-12-19",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/are-there-any-tis-open-to-housing-other-tis",
+    "title": "Are there any TIs open to housing other TIs?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-18",
+    "excerpt": "Are there any TIs open to housing other TIs? We have two TIs looking for housing.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/are-there-any-tis-open-to-housing-other-tis.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Are-there-any-TIs-open-to-housing-other-TIs-We-have-two-TIs-looking-for-housing-TI-Skills-Network-launched-LightHouse",
+      "originalDate": "2025-12-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/highlighting-david-m",
+    "title": "Highlighting David M!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-18",
+    "excerpt": "Highlighting David M! David, I created a profile for you on the TI Skills Economy Directory: Why?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/highlighting-david-m.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Highlighting-David-M-https-www-quora-com-profile-David-M-2300-David-I-created-a-profile-for-you-on-the-TI-Skill",
+      "originalDate": "2025-12-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/shoutout-to-t-love1995",
+    "title": "Shoutout to T-Love1995!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-18",
+    "excerpt": "Shoutout to T-Love1995! Looking for a marketing expert? She is your go-to.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/shoutout-to-t-love1995.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Shoutout-to-T-Love1995-https-www-quora-com-profile-T-Love1995-Looking-for-a-marketing-expert-She-is-your-go-to",
+      "originalDate": "2025-12-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/showcasing-tara-experienced-in-public-policy",
+    "title": "Showcasing Tara experienced in Public Policy.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-18",
+    "excerpt": "Showcasing Tara experienced in Public Policy. Tara, I have added you to the TI Skills Economy Directory: Sign up for an account at psyop-free - Live, Work,…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/showcasing-tara-experienced-in-public-policy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Showcasing-Tara-https-www-quora-com-profile-Tara-6189-experienced-in-Public-Policy-Tara-I-have-added-you-to-the",
+      "originalDate": "2025-12-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/welcome-to-indiko-to-the-ti-skills-economy",
+    "title": "Welcome to Indiko to The TI Skills Economy!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-18",
+    "excerpt": "Welcome to Indiko to The TI Skills Economy! Indiko If you would like to be highlighted, let me know.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/welcome-to-indiko-to-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Welcome-to-Indiko-https-www-quora-com-profile-Indiko-1-to-The-TI-Skills-Economy-https-www-quora-com-profile-In",
+      "originalDate": "2025-12-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/being-a-targeted-individual-i-got-locked-up-in-a-mental-institution-th",
     "title": "Being a targeted individual I got locked up in a mental institution They used gas and chemical smell…",
     "repo": "chargingthefuture/wiki-site",
@@ -5888,6 +14305,25 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/i-do-not-care-for-the-term-gang-stalking",
+    "title": "I do not care for the term gang stalking but more reason for all of us to drop using it.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-17",
+    "excerpt": "I do not care for the term gang stalking but more reason for all of us to drop using it. Quora is marking our posts automatically as conspiracy theories.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-do-not-care-for-the-term-gang-stalking.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-do-not-care-for-the-term-gang-stalking-but-more-reason-for-all-of-us-to-drop-using-it-Quora-is-marking-our-posts-auto",
+      "originalDate": "2025-12-17",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/if-you-are-gangstalked-and-living-in-california-will-all-of-california",
     "title": "If you are gangstalked and living in California will all of California get an alert about you and everyone…",
     "repo": "chargingthefuture/wiki-site",
@@ -5908,6 +14344,63 @@ export const ARTICLES: ArticleMeta[] = [
       "sharedTo": [
         "Zersetzung - Decomposition Psychology"
       ]
+    }
+  },
+  {
+    "slug": "farah-brunache/highligthing-carolina-her-skill-teaching",
+    "title": "Highligthing Carolina, her skill — teaching!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-16",
+    "excerpt": "Highligthing Carolina, her skill — teaching! I am showcasing the talents of TIs because I believe our success is in collaborating and exchanging our skills,…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/highligthing-carolina-her-skill-teaching.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Highligthing-Carolina-https-www-quora-com-profile-Carolina-2856-her-skill-teaching-I-am-showcasing-the-talent",
+      "originalDate": "2025-12-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/showcasing-john-ti-with-a-ba-in-political-science",
+    "title": "Showcasing JOHN TI, with a BA in Political Science.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-16",
+    "excerpt": "Showcasing JOHN TI, with a BA in Political Science. Based on John’s profile, I created a TI Skills Economy Directory with their inferred skills.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/showcasing-john-ti-with-a-ba-in-political-science.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Showcasing-JOHN-TI-https-www-quora-com-profile-JOHN-TI-16-with-a-BA-in-Political-Science-Based-on-John-s-profile",
+      "originalDate": "2025-12-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/social-audio-for-tis-talk-live-with-tis-around",
+    "title": "Social audio for TIs, talk live with TIs around the world TLDR; Saturday TI Skills…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-16",
+    "excerpt": "Social audio for TIs, talk live with TIs around the world TLDR; Saturday TI Skills Economy Town Halls are moving to an Android social audio called Chyme…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/social-audio-for-tis-talk-live-with-tis-around.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Social-audio-for-TIs-talk-live-with-TIs-around-the-world-TLDR-Saturday-TI-Skills-Economy-Town-Halls-are-moving-to-an",
+      "originalDate": "2025-12-16",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -5943,6 +14436,63 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 169
+  },
+  {
+    "slug": "farah-brunache/point-of-this-post-is-to-say-i-am",
+    "title": "Point of this post is to say I am no different than any other TI and each day I think of…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-15",
+    "excerpt": "Point of this post is to say I am no different than any other TI and each day I think of all you.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/point-of-this-post-is-to-say-i-am.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Point-of-this-post-is-to-say-I-am-no-different-than-any-other-TI-and-each-day-I-think-of-all-you-I-have-survived-over-1",
+      "originalDate": "2025-12-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/some-have-mentioned-they-have-issues-creating-an-account",
+    "title": "Some have mentioned they have issues creating an account/signing up.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-15",
+    "excerpt": "Some have mentioned they have issues creating an account/signing up.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/some-have-mentioned-they-have-issues-creating-an-account.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Some-have-mentioned-they-have-issues-creating-an-account-signing-up-If-you-do-let-me-know-and-I-will-manually-create",
+      "originalDate": "2025-12-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/welcome-giovanna-mezzanotte-one-of-the-first-10-people",
+    "title": "Welcome Giovanna Mezzanotte one of the first 10 people to sign up for the TI Skills…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-15",
+    "excerpt": "Welcome Giovanna Mezzanotte one of the first 10 people to sign up for the TI Skills Economy app!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/welcome-giovanna-mezzanotte-one-of-the-first-10-people.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Welcome-Giovanna-Mezzanotte-https-www-quora-com-profile-Giovanna-Mezzanotte-2-one-of-the-first-10-people-to-sign-u",
+      "originalDate": "2025-12-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/did-my-gang-stalking-start-13-years-ago-when-i-ordered-drugs-off-the-d",
@@ -6022,6 +14572,44 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "answer",
       "question": "Why do gangstalkers recruit their own children to molest strangers? Don't they have any protective instinct?"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-am-re-watching-the-tv-show-the-good",
+    "title": "I am re-watching the TV show The Good Place.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-13",
+    "excerpt": "I am re-watching the TV show The Good Place. This space is exclusively for Targeted Individuals.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-am-re-watching-the-tv-show-the-good.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-am-re-watching-the-TV-show-The-Good-Place-This-space-is-exclusively-for-Targeted-Individuals-However-if-there-is-a",
+      "originalDate": "2025-12-13",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/town-hall-recap-12-13-2025-todays-town-hall",
+    "title": "Town Hall Recap 12.13.2025 Today’s Town Hall was held again on Twitch: Twitch.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-13",
+    "excerpt": "Town Hall Recap 12.13.2025 Today’s Town Hall was held again on Twitch: Twitch.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/town-hall-recap-12-13-2025-todays-town-hall.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Town-Hall-Recap-12-13-2025-Today-s-Town-Hall-was-held-again-on-Twitch-Twitch-https-twitch-tv-the1690s-The-repl",
+      "originalDate": "2025-12-13",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -6138,6 +14726,25 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 168
+  },
+  {
+    "slug": "farah-brunache/how-many-people-do-we-need-in-the-directory",
+    "title": "How many people do we need in the Directory?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-12",
+    "excerpt": "How many people do we need in the Directory? In order to get a true representation of the skills distribution in the TI economy my guess is we need 384…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/how-many-people-do-we-need-in-the-directory.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/How-many-people-do-we-need-in-the-Directory-In-order-to-get-a-true-representation-of-the-skills-distribution-in-the-TI",
+      "originalDate": "2025-12-12",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/hello-im-a-ti-since-2002-03-im-62-live-in-florida-also-glad-to-find-th",
@@ -6267,6 +14874,177 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 161
   },
   {
+    "slug": "farah-brunache/highlighting-baba-yaga",
+    "title": "Highlighting Baba Yaga!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-11",
+    "excerpt": "Highlighting Baba Yaga! Background in criminology and business management.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/highlighting-baba-yaga.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Highlighting-Baba-Yaga-https-www-quora-com-profile-Baba-Yaga-643-Background-in-criminology-and-business-managemen",
+      "originalDate": "2025-12-11",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/highlighting-stalking-americans-hollys-directory-profile-the-goal-of",
+    "title": "Highlighting Stalking Americans Holly’s Directory profile: The goal of highlighting other…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-11",
+    "excerpt": "Highlighting Stalking Americans Holly’s Directory profile: The goal of highlighting other TIs is to trade our skills and knowledge with each other rather than…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/highlighting-stalking-americans-hollys-directory-profile-the-goal-of.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Highlighting-Stalking-Americans-https-www-quora-com-profile-Stalking-Americans-Holly-s-Directory-profile-https",
+      "originalDate": "2025-12-11",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/shout-out-to-lisa-jaramillo-a-talented-musician-and",
+    "title": "Shout out to Lisa Jaramillo a talented musician and photographer.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-11",
+    "excerpt": "Shout out to Lisa Jaramillo a talented musician and photographer.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/shout-out-to-lisa-jaramillo-a-talented-musician-and.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Shout-out-to-Lisa-Jaramillo-https-www-quora-com-profile-Lisa-Jaramillo-33-a-talented-musician-and-photographer-It",
+      "originalDate": "2025-12-11",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/showcasing-altehexer-a-cybersecurity-expert",
+    "title": "Showcasing AlteHexer, a cybersecurity expert.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-11",
+    "excerpt": "Showcasing AlteHexer, a cybersecurity expert. Why? The more we talk about our skills, the more we can interact with each other and exit the psyop.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/showcasing-altehexer-a-cybersecurity-expert.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Showcasing-AlteHexer-https-www-quora-com-profile-AlteHexer-a-cybersecurity-expert-Why-The-more-we-talk-about-ou",
+      "originalDate": "2025-12-11",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/special-shoutout-to-cheryl-j-williams-ti-skills-network",
+    "title": "Special shoutout to Cheryl J WILLIAMS TI Skills Network profile: Cheryl is an amazing…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-11",
+    "excerpt": "Special shoutout to Cheryl J WILLIAMS TI Skills Network profile: Cheryl is an amazing supporter of TI Skills Network and I am grateful for her participation.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/special-shoutout-to-cheryl-j-williams-ti-skills-network.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Special-shoutout-to-Cheryl-J-WILLIAMS-https-www-quora-com-profile-Cheryl-J-WILLIAMS-3-TI-Skills-Network-profile",
+      "originalDate": "2025-12-11",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/were-there-any-tis-that-doubted-me",
+    "title": "Were there any TIs that doubted me :).",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-11",
+    "excerpt": "Were there any TIs that doubted me :). With just 15 Directory profiles, Workforce Recruiter shows almost an equal spread across all economic sectors!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/were-there-any-tis-that-doubted-me.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Were-there-any-TIs-that-doubted-me-With-just-15-Directory-profiles-Workforce-Recruiter-shows-almost-an-equal-sprea",
+      "originalDate": "2025-12-11",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/how-does-one-maintain-employment-as-a-targeted-individual",
+    "title": "How does one maintain employment as a Targeted Individual?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-10",
+    "excerpt": "How does one maintain employment as a Targeted Individual? Consider healthy volunteer clinical trials.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/how-does-one-maintain-employment-as-a-targeted-individual.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/How-does-one-maintain-employment-as-a-Targeted-Individual-Consider-healthy-volunteer-clinical-trials-The-most-I-have",
+      "originalDate": "2025-12-10",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/one-of-the-clinical-trials-i-completed-did-not",
+    "title": "One of the clinical trials I completed did not involve medication.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-10",
+    "excerpt": "One of the clinical trials I completed did not involve medication.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/one-of-the-clinical-trials-i-completed-did-not.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/One-of-the-clinical-trials-I-completed-did-not-involve-medication-I-exercised-and-took-breaks-and-my-vitals-were-taken",
+      "originalDate": "2025-12-10",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/one-of-the-clinical-trials-i-completed-did-not-2",
+    "title": "One of the clinical trials I completed did not involve medication.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-10",
+    "excerpt": "One of the clinical trials I completed did not involve medication.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/one-of-the-clinical-trials-i-completed-did-not-2.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/One-of-the-clinical-trials-I-completed-did-not-involve-medication-I-exercised-and-took-breaks-and-my-vitals-were-taken-1",
+      "originalDate": "2025-12-10",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/i-have-a-nonverbal-low-functioning-autistic-son-that-is-being-messed-w",
     "title": "I HAVE A NONVERBAL LOW FUNCTIONING AUTISTIC SON THAT IS BEING MESSED WITH ALONG WITH ME MY MOM HUSBAND THIS…",
     "repo": "chargingthefuture/wiki-site",
@@ -6322,6 +15100,158 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 160
   },
   {
+    "slug": "farah-brunache/i-am-looking-for-a-seamstress-work-can-be",
+    "title": "I am looking for a seamstress, work can be remote.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-09",
+    "excerpt": "I am looking for a seamstress, work can be remote. I send you the materials, and you complete the work and send it back to me.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-am-looking-for-a-seamstress-work-can-be.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-am-looking-for-a-seamstress-work-can-be-remote-I-send-you-the-materials-and-you-complete-the-work-and-send-it-back",
+      "originalDate": "2025-12-09",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-announced-last-week-the-workforce-recruiter-app-workforce",
+    "title": "I announced last week the Workforce Recruiter app: Workforce Meetups - #2 by farah.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-09",
+    "excerpt": "I announced last week the Workforce Recruiter app: Workforce Meetups - #2 by farah.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-announced-last-week-the-workforce-recruiter-app-workforce.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-announced-last-week-the-Workforce-Recruiter-app-Workforce-Meetups-2-by-farah-https-chargingthefuture-discourse",
+      "originalDate": "2025-12-09",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-facilitate-what-i-name-the-ti-skills-economy",
+    "title": "I facilitate what I name the TI Skills Economy via - You need an email to sign up - To…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-09",
+    "excerpt": "I facilitate what I name the TI Skills Economy via - You need an email to sign up - To get approved, I ask for your Quora Profile URL.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-facilitate-what-i-name-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-facilitate-what-I-name-the-TI-Skills-Economy-via-https-app-chargingthefuture-com-You-need-an-email-to-sign-up",
+      "originalDate": "2025-12-09",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/kellie-barragan-i-saw-your-question",
+    "title": "Kellie Barragan I saw your question.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-09",
+    "excerpt": "Kellie Barragan I saw your question. Let us brainstorm how the TI Skills Economy can help!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/kellie-barragan-i-saw-your-question.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Kellie-Barragan-https-www-quora-com-profile-Kellie-Barragan-2-I-saw-your-question-Let-us-brainstorm-how-the-TI-Sk",
+      "originalDate": "2025-12-09",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/marco-martin-asked-is-there-any-gang-stalking-support",
+    "title": "Marco Martin asked: Is there any gang stalking support in Bedford Indiana?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-09",
+    "excerpt": "Marco Martin asked: Is there any gang stalking support in Bedford Indiana?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/marco-martin-asked-is-there-any-gang-stalking-support.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Marco-Martin-https-www-quora-com-profile-Marco-Martin-98-asked-Is-there-any-gang-stalking-support-in-Bedford-Ind",
+      "originalDate": "2025-12-09",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/marco-martin-asked-is-there-any-gang-stalking-support-2",
+    "title": "Marco Martin asked: Is there any gang stalking support in Bedford, Indiana?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-09",
+    "excerpt": "Marco Martin asked: Is there any gang stalking support in Bedford, Indiana?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/marco-martin-asked-is-there-any-gang-stalking-support-2.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Marco-Martin-https-www-quora-com-profile-Marco-Martin-98-asked-Is-there-any-gang-stalking-support-in-Bedford-In",
+      "originalDate": "2025-12-09",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-specterati-will-say-whatever-to-manipulate-targets-and",
+    "title": "The Specterati will say whatever to manipulate Targets and even their own operatives.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-09",
+    "excerpt": "The Specterati will say whatever to manipulate Targets and even their own operatives.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-specterati-will-say-whatever-to-manipulate-targets-and.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-Specterati-will-say-whatever-to-manipulate-Targets-and-even-their-own-operatives-Their-lies-are-a-distraction-It",
+      "originalDate": "2025-12-09",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-ti-skills-economy-has-grown-66-since-last",
+    "title": "The TI Skills Economy has grown 66% since last week, which is the biggest increase yet.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-09",
+    "excerpt": "The TI Skills Economy has grown 66% since last week, which is the biggest increase yet.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-ti-skills-economy-has-grown-66-since-last.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-TI-Skills-Economy-has-grown-66-since-last-week-which-is-the-biggest-increase-yet-Thank-you-and-welcome-to-the-ne",
+      "originalDate": "2025-12-09",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "meetup-with-me-to-discuss-the-ti-skills-economy",
     "title": "Meetup with me to discuss the TI Skills Economy",
     "repo": "chargingthefuture/chargingthefuture",
@@ -6354,6 +15284,120 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 158
+  },
+  {
+    "slug": "farah-brunache/here-is-my-thought-process",
+    "title": "Here is my thought process.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-08",
+    "excerpt": "Here is my thought process. - Crime is under-reported by 50% - Supposedly, 2 million cumulative self-reports received by the United Nations - Rounded, there…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/here-is-my-thought-process.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Here-is-my-thought-process-Crime-is-under-reported-by-50-Supposedly-2-million-cumulative-self-reports-received",
+      "originalDate": "2025-12-08",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/matthew-cappadocia-aka-the-wizard-of-oz-i-find",
+    "title": "Matthew Cappadocia (aka The Wizard of Oz), I find your posts helpful and wanted to…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-08",
+    "excerpt": "Matthew Cappadocia (aka The Wizard of Oz), I find your posts helpful and wanted to highlight you in our TI Directory.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/matthew-cappadocia-aka-the-wizard-of-oz-i-find.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Matthew-Cappadocia-aka-The-Wizard-of-Oz-https-www-quora-com-profile-Matthew-Cappadocia-aka-The-Wizard-of-Oz-I-f",
+      "originalDate": "2025-12-08",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/use-workforce-recruiter-to-identify-skills-present-within-the",
+    "title": "Use Workforce Recruiter to identify skills present within the global TI community and…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-08",
+    "excerpt": "Use Workforce Recruiter to identify skills present within the global TI community and recognize gaps that need to be filled.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/use-workforce-recruiter-to-identify-skills-present-within-the.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Use-Workforce-Recruiter-to-identify-skills-present-within-the-global-TI-community-and-recognize-gaps-that-need-to-be-fil",
+      "originalDate": "2025-12-08",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/we-have-3-community-members-looking-for-housing",
+    "title": "We have 3 community members looking for housing.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-08",
+    "excerpt": "We have 3 community members looking for housing. If you can host, please create an account.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/we-have-3-community-members-looking-for-housing.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/We-have-3-community-members-looking-for-housing-If-you-can-host-please-create-an-account-It-only-takes-2-minutes-H",
+      "originalDate": "2025-12-08",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/welcome-to-the-individuals-who-signed-up-for-the",
+    "title": "Welcome to the individuals who signed up for the TI Skills Economy app: psyop-free…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-08",
+    "excerpt": "Welcome to the individuals who signed up for the TI Skills Economy app: psyop-free - Live, Work, Prevail.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/welcome-to-the-individuals-who-signed-up-for-the.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Welcome-to-the-individuals-who-signed-up-for-the-TI-Skills-Economy-app-psyop-free-Live-Work-Prevail-https-app-c",
+      "originalDate": "2025-12-08",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/workforce-recruiter-is-slowly-but-surely-getting-there",
+    "title": "Workforce Recruiter is slowly but surely getting there.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-08",
+    "excerpt": "Workforce Recruiter is slowly but surely getting there. So far, most TIs fall into the category of “Intermediate” skill levels.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/workforce-recruiter-is-slowly-but-surely-getting-there.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Workforce-Recruiter-is-slowly-but-surely-getting-there-So-far-most-TIs-fall-into-the-category-of-Intermediate-skill",
+      "originalDate": "2025-12-08",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/keep-a-diary-days-time-whatever-they-r-doing-if-u-have-close-friend-st",
@@ -6392,6 +15436,63 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 157
   },
   {
+    "slug": "farah-brunache/i-am-no-longer-entertaining-any-perp-or-alleged",
+    "title": "I am no longer entertaining any perp or alleged TI that conveniently says the same script…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-07",
+    "excerpt": "I am no longer entertaining any perp or alleged TI that conveniently says the same script that perps tell me or say about me.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-am-no-longer-entertaining-any-perp-or-alleged.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-am-no-longer-entertaining-any-perp-or-alleged-TI-that-conveniently-says-the-same-script-that-perps-tell-me-or-say-abou",
+      "originalDate": "2025-12-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/services-of-the-ti-economy",
+    "title": "Services of the TI economy.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-07",
+    "excerpt": "Services of the TI economy. I periodically update this blog post with what is currently offered. At this time there are 12 mini-apps providing services.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/services-of-the-ti-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Services-of-the-TI-economy-I-periodically-update-this-blog-post-with-what-is-currently-offered-At-this-time-there-are",
+      "originalDate": "2025-12-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/welcome-user-13782260873104769457-and-more",
+    "title": "Welcome User-13782260873104769457 and more!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-07",
+    "excerpt": "Welcome User-13782260873104769457 and more! Friendly reminder, and optional, after you join the app.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/welcome-user-13782260873104769457-and-more.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Welcome-User-13782260873104769457-https-www-quora-com-profile-User-13782260873104769457-and-more-Friendly-remind",
+      "originalDate": "2025-12-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "new-website-provide-your-feedback",
     "title": "New website, provide your feedback!",
     "repo": "chargingthefuture/chargingthefuture",
@@ -6426,6 +15527,44 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 155
   },
   {
+    "slug": "farah-brunache/i-did-a-live-stream-yesterday",
+    "title": "I did a live stream yesterday.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-06",
+    "excerpt": "I did a live stream yesterday. Replay on Twitch same place as the livestreams. Going live now as it is Town Hall Saturday!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-did-a-live-stream-yesterday.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-did-a-live-stream-yesterday-Replay-on-Twitch-https-Twitch-tv-the1690s-same-place-as-the-livestreams-Going-liv",
+      "originalDate": "2025-12-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/todays-town-hall-recap-i-will-add-the-video",
+    "title": "Today’s Town Hall Recap: I will add the video replays to the link above.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-06",
+    "excerpt": "Today’s Town Hall Recap: I will add the video replays to the link above.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/todays-town-hall-recap-i-will-add-the-video.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Today-s-Town-Hall-Recap-https-chargingthefuture-discourse-group-t-weekly-state-of-the-ti-economy-town-halls-136-11-u",
+      "originalDate": "2025-12-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "member of the day/member-of-the-day-krissyy",
     "title": "Member of the Day: Krissyy",
     "repo": "chargingthefuture/chargingthefuture",
@@ -6435,6 +15574,44 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "member-of-the-day",
     "path": "member-of-the-day/member-of-the-day-krissyy.md",
     "number": 154
+  },
+  {
+    "slug": "farah-brunache/member-of-the-day-krissyy-hello-krissyy-giving-you",
+    "title": "Member of the Day: Krissyy Hello Krissyy, giving you a shout out as you were part of the…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-05",
+    "excerpt": "Member of the Day: Krissyy Hello Krissyy, giving you a shout out as you were part of the first group of TIs to respond to early posts of mine about the TI…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/member-of-the-day-krissyy-hello-krissyy-giving-you.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Member-of-the-Day-Krissyy-https-www-quora-com-profile-Krissyy-2-Hello-Krissyy-giving-you-a-shout-out-as-you-wer",
+      "originalDate": "2025-12-05",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/opt-out-opt-out-opt-out-latest-cars-yes",
+    "title": "Opt out, opt out, opt out Latest cars, yes, I do not understand modern housing.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-05",
+    "excerpt": "Opt out, opt out, opt out Latest cars, yes, I do not understand modern housing.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/opt-out-opt-out-opt-out-latest-cars-yes.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Opt-out-opt-out-opt-out-Latest-cars-yes-I-do-not-understand-modern-housing-Regardless-we-ourselves-are-the-soluti",
+      "originalDate": "2025-12-05",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "socketrelay-for-creating-your-own-luck",
@@ -6452,6 +15629,158 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 153
+  },
+  {
+    "slug": "farah-brunache/do-not-forget-about-socketrelay",
+    "title": "Do not forget about SocketRelay!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-04",
+    "excerpt": "Do not forget about SocketRelay! Request anything from the TI Skills Network.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/do-not-forget-about-socketrelay.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Do-not-forget-about-SocketRelay-Request-anything-from-the-TI-Skills-Network-In-140-characters-make-your-post-and-an",
+      "originalDate": "2025-12-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/glass-half-full-perspective",
+    "title": "Glass half full perspective 🙃.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-04",
+    "excerpt": "Glass half full perspective 🙃. I accept human trafficking is a universal, humanity life-long challenge.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/glass-half-full-perspective.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Glass-half-full-perspective-I-accept-human-trafficking-is-a-universal-humanity-life-long-challenge-I-am-either-goi",
+      "originalDate": "2025-12-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-hesitate-to-offer-this",
+    "title": "I hesitate to offer this.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-04",
+    "excerpt": "I hesitate to offer this. However, if you are a “Verified” TI and would like an app built for you to service your customers, I am available.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-hesitate-to-offer-this.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-hesitate-to-offer-this-However-if-you-are-a-Verified-TI-and-would-like-an-app-built-for-you-to-service-your-custom",
+      "originalDate": "2025-12-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/organized-crime-does-not-go-by-morality-or-laws",
+    "title": "Organized crime does not go by morality or laws.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-04",
+    "excerpt": "Organized crime does not go by morality or laws. Wasted energy and the Specterati’s desire for you to fixate on them as they fixate on you.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/organized-crime-does-not-go-by-morality-or-laws.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Organized-crime-does-not-go-by-morality-or-laws-Wasted-energy-and-the-Specterati-s-desire-for-you-to-fixate-on-them-as",
+      "originalDate": "2025-12-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/overview-of-the-workforce-recruiter-tracker-app-since-starting",
+    "title": "Overview of the Workforce Recruiter Tracker App Since starting TI Skills Network, I have…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-04",
+    "excerpt": "Overview of the Workforce Recruiter Tracker App Since starting TI Skills Network, I have been thinking through how to coordinate as efficiently as possible.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/overview-of-the-workforce-recruiter-tracker-app-since-starting.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Introducing-Workforce-Recruiter-the-new-mini-app-to-chart-the-progress-of-the-TI-economy",
+      "originalDate": "2025-12-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-specterati-once-claimed-they-are-the-illuminati",
+    "title": "The Specterati once claimed they are the Illuminati 🙄.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-04",
+    "excerpt": "The Specterati once claimed they are the Illuminati 🙄. They also said they are the New World Order, but that seems more like trolling.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-specterati-once-claimed-they-are-the-illuminati.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-Specterati-once-claimed-they-are-the-Illuminati-They-also-said-they-are-the-New-World-Order-but-that-seems-more",
+      "originalDate": "2025-12-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-ti-skills-economy-is-a-way-to-connect",
+    "title": "The TI Skills Economy is a way to connect the estimated 5 million TIs globally so they…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-04",
+    "excerpt": "The TI Skills Economy is a way to connect the estimated 5 million TIs globally so they can get access to the resources they need and want.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-ti-skills-economy-is-a-way-to-connect.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-TI-Skills-Economy-is-a-way-to-connect-the-estimated-5-million-TIs-globally-so-they-can-get-access-to-the-resources-t",
+      "originalDate": "2025-12-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/want-to-go-beyond-a-peer-to-peer-skills",
+    "title": "Want to go beyond a peer-to-peer skills exchange and build a small business as a TI.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-04",
+    "excerpt": "Want to go beyond a peer-to-peer skills exchange and build a small business as a TI.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/want-to-go-beyond-a-peer-to-peer-skills.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Want-to-go-beyond-a-peer-to-peer-skills-exchange-and-build-a-small-business-as-a-TI-It-is-possible-Hear-me-out-Em",
+      "originalDate": "2025-12-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/can-spreading-positivity-and-maintaining-a-strong-moral-stance-genuine",
@@ -6508,6 +15837,25 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 151
   },
   {
+    "slug": "farah-brunache/i-cannot-do-this-without-your-participation",
+    "title": "I cannot do this without your participation.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-03",
+    "excerpt": "I cannot do this without your participation. Welcoming Carrie Wingo (Tired of Being a TI) to the TI Skills Economy!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-cannot-do-this-without-your-participation.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-cannot-do-this-without-your-participation-Welcoming-Carrie-Wingo-Tired-of-Being-a-TI-https-www-quora-com-profil",
+      "originalDate": "2025-12-03",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "member of the day/welcome-newcomers",
     "title": "Welcome newcomers",
     "repo": "chargingthefuture/chargingthefuture",
@@ -6536,6 +15884,158 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 149
   },
   {
+    "slug": "farah-brunache/as-mentioned-in-last-weeks-town-hall-i-have",
+    "title": "As mentioned in last week’s Town Hall, I have removed SleepStories as a separate mini-app…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-29",
+    "excerpt": "As mentioned in last week’s Town Hall, I have removed SleepStories as a separate mini-app and created GentlePulse, which will have all meditations.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/as-mentioned-in-last-weeks-town-hall-i-have.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/As-mentioned-in-last-week-s-Town-Hall-I-have-removed-SleepStories-as-a-separate-mini-app-and-created-GentlePulse-which",
+      "originalDate": "2025-11-29",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/aside-from-gift-cards-money-laundering-is-how-they",
+    "title": "Aside from gift cards, “money laundering” is how they get paid.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-29",
+    "excerpt": "Aside from gift cards, “money laundering” is how they get paid.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/aside-from-gift-cards-money-laundering-is-how-they.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Aside-from-gift-cards-money-laundering-is-how-they-get-paid-https-chargingthefuture-discourse-group-t-the-gstalke",
+      "originalDate": "2025-11-29",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-previously-posted-about-a-member-jason-singletons-and",
+    "title": "I previously posted about a member Jason Singletons and since I created a profile for him…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-29",
+    "excerpt": "I previously posted about a member Jason Singletons and since I created a profile for him in our network.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-previously-posted-about-a-member-jason-singletons-and.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-previously-posted-about-a-member-Jason-Singletons-https-www-quora-com-profile-Jason-Singletons-and-since-I-creat",
+      "originalDate": "2025-11-29",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/it-is-town-hall-saturday",
+    "title": "It is Town Hall Saturday!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-29",
+    "excerpt": "It is Town Hall Saturday! Town Hall Recap 11.29.2025 To join the Town Halls live, go to: I go live throughout the day every Saturday to provide the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/it-is-town-hall-saturday.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/It-is-Town-Hall-Saturday-Town-Hall-Recap-11-29-2025-To-join-the-Town-Halls-live-go-to-https-twitch-tv-the1690s-I",
+      "originalDate": "2025-11-29",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/member-of-the-day-espada-a-special-shout-out",
+    "title": "Member of the Day: ESPADA A special shout-out to Espada.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-29",
+    "excerpt": "Member of the Day: ESPADA A special shout-out to Espada. He is one of the first people to join the community and offer his skills.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/member-of-the-day-espada-a-special-shout-out.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Member-of-the-Day-ESPADA-https-www-quora-com-profile-ESPADA-18-A-special-shout-out-to-Espada-He-is-one-of-the-f",
+      "originalDate": "2025-11-29",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/please-tis-if-you-need-a-service-or-good",
+    "title": "Please TIs, if you need a service or good visit here first to do business with another…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-29",
+    "excerpt": "Please TIs, if you need a service or good visit here first to do business with another TI: Also add yourself to the Directory.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/please-tis-if-you-need-a-service-or-good.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Please-TIs-if-you-need-a-service-or-good-visit-here-first-to-do-business-with-another-TI-https-app-chargingthefutur",
+      "originalDate": "2025-11-29",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/there-are-two-people-waiting-to-be-approved-on",
+    "title": "There are two people waiting to be approved on the app.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-29",
+    "excerpt": "There are two people waiting to be approved on the app. This is because the name they used to sign up for the app does not match anything I have seen…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/there-are-two-people-waiting-to-be-approved-on.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/There-are-two-people-waiting-to-be-approved-on-the-app-This-is-because-the-name-they-used-to-sign-up-for-the-app-does-n",
+      "originalDate": "2025-11-29",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/titanium-silhouette-thank-you-for-joining",
+    "title": "Titanium Silhouette thank you for joining!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-29",
+    "excerpt": "Titanium Silhouette thank you for joining! Everyone please check out our newest member!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/titanium-silhouette-thank-you-for-joining.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Titanium-Silhouette-https-www-quora-com-profile-Titanium-Silhouette-thank-you-for-joining-Everyone-please-check-o",
+      "originalDate": "2025-11-29",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "gentlepulse-meditation-app-is-ready",
     "title": "GentlePulse - Meditation app is ready!",
     "repo": "chargingthefuture/chargingthefuture",
@@ -6562,6 +16062,177 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "member-of-the-day",
     "path": "member-of-the-day/member-of-the-day-espada.md",
     "number": 147
+  },
+  {
+    "slug": "farah-brunache/quora-deleted-my-account-within-minutes-of-me-announcing",
+    "title": "Quora deleted my account within minutes of me announcing a dedicated app for Targeted…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-28",
+    "excerpt": "Quora deleted my account within minutes of me announcing a dedicated app for Targeted Individuals.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/quora-deleted-my-account-within-minutes-of-me-announcing.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Quora-deleted-my-account-within-minutes-of-me-announcing-a-dedicated-app-for-Targeted-Individuals-And-so-I-lost-some-in",
+      "originalDate": "2025-11-28",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/here-is-another-example",
+    "title": "Here is another example.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-27",
+    "excerpt": "Here is another example. A before and after, my metro card used to say Trip Payment and now it has been replaced with Debt Collection.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/here-is-another-example.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Here-is-another-example-A-before-and-after-my-metro-card-used-to-say-Trip-Payment-and-now-it-has-been-replaced-with-De",
+      "originalDate": "2025-11-27",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/someone-commented-on-my-answer-that-perps-are-being",
+    "title": "Someone commented on my answer that perps are being threatened to be murdered and that is…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-27",
+    "excerpt": "Someone commented on my answer that perps are being threatened to be murdered and that is why they join the Specterati.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/someone-commented-on-my-answer-that-perps-are-being.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Someone-commented-on-my-answer-that-perps-are-being-threatened-to-be-murdered-and-that-is-why-they-join-the-Specterati",
+      "originalDate": "2025-11-27",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/if-anyone-is-having-technical-difficulties-signing-into-twitch",
+    "title": "If anyone is having technical difficulties signing into Twitch to chat in real time…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-26",
+    "excerpt": "If anyone is having technical difficulties signing into Twitch to chat in real time during the Town Halls or anytime I go live, my suggestion is to join the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/if-anyone-is-having-technical-difficulties-signing-into-twitch.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/If-anyone-is-having-technical-difficulties-signing-into-Twitch-to-chat-in-real-time-during-the-Town-Halls-or-anytime-I-g",
+      "originalDate": "2025-11-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/individuals-are-joining-the-app-and-signal-group-but",
+    "title": "Individuals are joining the app and Signal group, but their handles/names do not match…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-26",
+    "excerpt": "Individuals are joining the app and Signal group, but their handles/names do not match anyone who has recently interacted with this Quora space.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/individuals-are-joining-the-app-and-signal-group-but.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Individuals-are-joining-the-app-and-Signal-group-but-their-handles-names-do-not-match-anyone-who-has-recently-interacte",
+      "originalDate": "2025-11-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-answer-below-is-sufficient",
+    "title": "The answer below is sufficient.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-26",
+    "excerpt": "The answer below is sufficient. So I will not add an answer.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-answer-below-is-sufficient.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-answer-below-is-sufficient-So-I-will-not-add-an-answer-Not-a-critique-of-the-person-who-asked-the-question-But-I",
+      "originalDate": "2025-11-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/this-is-a-good-answer",
+    "title": "This is a good answer.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-26",
+    "excerpt": "This is a good answer. Underground to me means they simply adjust tactics.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/this-is-a-good-answer.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/This-is-a-good-answer-Underground-to-me-means-they-simply-adjust-tactics-The-Specterati-are-human-traffickers-Rather",
+      "originalDate": "2025-11-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-review-the-ti-economy-metrics-every-day",
+    "title": "I review the TI economy metrics every day.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-24",
+    "excerpt": "I review the TI economy metrics every day. And created a weekly metrics dashboard.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-review-the-ti-economy-metrics-every-day.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-review-the-TI-economy-metrics-every-day-And-created-a-weekly-metrics-dashboard-Here-are-the-metrics-for-the-week-end",
+      "originalDate": "2025-11-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/user-13782260873104769457-please-consider-joining-my-mail-tampering-log",
+    "title": "User-13782260873104769457 please consider joining my mail tampering log called LostMail.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-24",
+    "excerpt": "User-13782260873104769457 please consider joining my mail tampering log called LostMail.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/user-13782260873104769457-please-consider-joining-my-mail-tampering-log.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/User-13782260873104769457-https-www-quora-com-profile-User-13782260873104769457-please-consider-joining-my-mail-ta",
+      "originalDate": "2025-11-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "uber-for-tis-trusttransport-mini-app-launch",
@@ -6615,6 +16286,139 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 144
   },
   {
+    "slug": "farah-brunache/as-announced-in-yesterdays-town-hall-trusttransport-is-available",
+    "title": "As announced in yesterday’s Town Hall, TrustTransport is available for use.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-23",
+    "excerpt": "As announced in yesterday’s Town Hall, TrustTransport is available for use.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/as-announced-in-yesterdays-town-hall-trusttransport-is-available.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/As-announced-in-yesterday-s-Town-Hall-https-chargingthefuture-discourse-group-t-weekly-state-of-the-ti-economy-townh",
+      "originalDate": "2025-11-23",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/as-announced-yesterday-at-the-town-hall-this-week",
+    "title": "As announced yesterday at the Town Hall ( ), this week I added a “Verified” badge to the…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-23",
+    "excerpt": "As announced yesterday at the Town Hall ( ), this week I added a “Verified” badge to the Directory profiles.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/as-announced-yesterday-at-the-town-hall-this-week.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/As-announced-yesterday-at-the-Town-Hall-https-chargingthefuture-discourse-group-t-weekly-state-of-the-ti-economy-to",
+      "originalDate": "2025-11-23",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/as-of-yesterday-i-removed-invite-codes",
+    "title": "As of yesterday, I removed invite codes.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-23",
+    "excerpt": "As of yesterday, I removed invite codes. Instead directly sign up: psyop-free - Safe, Secure, Empowering and send a message in the group chat with your Quora…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/as-of-yesterday-i-removed-invite-codes.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/As-of-yesterday-I-removed-invite-codes-Instead-directly-sign-up-psyop-free-Safe-Secure-Empowering-http-app-ch",
+      "originalDate": "2025-11-23",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-have-updated-the-mission-commitment-and-purpose-please",
+    "title": "I have updated the Mission, Commitment, and Purpose: Please provide feedback, if any.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-23",
+    "excerpt": "I have updated the Mission, Commitment, and Purpose: Please provide feedback, if any.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-have-updated-the-mission-commitment-and-purpose-please.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-have-updated-the-Mission-Commitment-and-Purpose-https-chargingthefuture-com-Please-provide-feedback-if-any-CH",
+      "originalDate": "2025-11-23",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-like-melissa-jean-hayes-comment-about-less-is",
+    "title": "I like Melissa Jean Hayes comment about less is more in Targeted life.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-23",
+    "excerpt": "I like Melissa Jean Hayes comment about less is more in Targeted life.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-like-melissa-jean-hayes-comment-about-less-is.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-like-Melissa-Jean-Hayes-https-www-quora-com-profile-Melissa-Jean-Hayes-comment-about-less-is-more-in-Targeted-li",
+      "originalDate": "2025-11-23",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-updated-the-skills-field-in-the-app",
+    "title": "I updated the skills field in the app.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-23",
+    "excerpt": "I updated the skills field in the app. It now has a variety of more options.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-updated-the-skills-field-in-the-app.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-updated-the-skills-field-in-the-app-It-now-has-a-variety-of-more-options-This-is-part-of-the-Directory-feature-Wher",
+      "originalDate": "2025-11-23",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-app-is-available-on-mobile-or-laptop-computer",
+    "title": "The app is available on mobile or laptop/computer.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-23",
+    "excerpt": "The app is available on mobile or laptop/computer. If you need assistance, leave a comment on Quora or send a message in the group chat:",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-app-is-available-on-mobile-or-laptop-computer.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-app-is-available-on-mobile-or-laptop-computer-If-you-need-assistance-leave-a-comment-on-Quora-or-send-a-message-in",
+      "originalDate": "2025-11-23",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "discourse-migrate/directory-mini-app-updated-more-skills-added",
     "title": "Directory mini-app, updated - more skills added",
     "repo": "chargingthefuture/chargingthefuture",
@@ -6647,6 +16451,158 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 142
+  },
+  {
+    "slug": "farah-brunache/i-will-continue-to-feature-tis",
+    "title": "I will continue to feature TIs.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-22",
+    "excerpt": "I will continue to feature TIs. If you do not want to be featured let me know.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-will-continue-to-feature-tis.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-will-continue-to-feature-TIs-If-you-do-not-want-to-be-featured-let-me-know-BRadhd-https-www-quora-com-profile-B",
+      "originalDate": "2025-11-22",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/todays-town-hall-was-janky",
+    "title": "Today’s Town Hall was janky!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-22",
+    "excerpt": "Today’s Town Hall was janky! Here is the replay: I have not figured out how to correctly do a screenshare broadcast.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/todays-town-hall-was-janky.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Today-s-Town-Hall-was-janky-Here-is-the-replay-https-www-twitch-tv-videos-2625294036-I-have-not-figured-out-how-to",
+      "originalDate": "2025-11-22",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/good-news-we-are-at-239-followers-up-until",
+    "title": "Good news we are at 239 followers up until this week TSN had 2 new followers a day.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-21",
+    "excerpt": "Good news we are at 239 followers up until this week TSN had 2 new followers a day.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/good-news-we-are-at-239-followers-up-until.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Good-news-we-are-at-239-followers-up-until-this-week-TSN-had-2-new-followers-a-day-Now-it-is-up-to-3-new-followers-a-da",
+      "originalDate": "2025-11-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/here-is-my-public-profile-page-of-the-ti",
+    "title": "Here is my public profile page of the TI economy app: psyop-free - Safe, Secure…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-21",
+    "excerpt": "Here is my public profile page of the TI economy app: psyop-free - Safe, Secure, Empowering When you join you can choose to keep all your activity and…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/here-is-my-public-profile-page-of-the-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Here-is-my-public-profile-page-of-the-TI-economy-app-psyop-free-Safe-Secure-Empowering-https-app-chargingthefu",
+      "originalDate": "2025-11-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/it-is-saturday-which-means-it-is-all-day",
+    "title": "It is Saturday, which means it is all day Town Hall day!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-21",
+    "excerpt": "It is Saturday, which means it is all day Town Hall day! And I figured out how to livestream on Twitch while sharing my phone screen.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/it-is-saturday-which-means-it-is-all-day.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/It-is-Saturday-which-means-it-is-all-day-Town-Hall-day-And-I-figured-out-how-to-livestream-on-Twitch-while-sharing-my",
+      "originalDate": "2025-11-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/many-have-requested-a-ti-directory-on-quora",
+    "title": "Many have requested a TI directory on Quora.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-21",
+    "excerpt": "Many have requested a TI directory on Quora. So I built one, now if your profile is deleted from Quora or de-platformed anywhere else we can keep in touch.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/many-have-requested-a-ti-directory-on-quora.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Many-have-requested-a-TI-directory-on-Quora-So-I-built-one-now-if-your-profile-is-deleted-from-Quora-or-de-platformed",
+      "originalDate": "2025-11-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/mutual-aid-is-up-and-running",
+    "title": "Mutual aid is up and running.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-21",
+    "excerpt": "Mutual aid is up and running. First payback was completed today.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/mutual-aid-is-up-and-running.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Mutual-aid-is-up-and-running-First-payback-was-completed-today-Mutual-aid-is-very-simple-The-first-interest-free-loan",
+      "originalDate": "2025-11-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/yesterday-i-went-to-a-different-doctor-referenced-above",
+    "title": "Yesterday I went to a different doctor referenced above however received the same…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-20",
+    "excerpt": "Yesterday I went to a different doctor referenced above however received the same Specterati service.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/yesterday-i-went-to-a-different-doctor-referenced-above.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Yesterday-I-went-to-a-different-doctor-referenced-above-however-received-the-same-Specterati-service-Just-as-the-human",
+      "originalDate": "2025-11-20",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/how-do-you-know-ppl-that-are-on-this-page-aren-t-the-gs-instead-of-the",
@@ -6685,6 +16641,63 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-11-19",
       "status": "erased",
       "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/any-tis-with-working-campers-who-want-to-be",
+    "title": "Any TIs with working campers who want to be a part of the TI economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-18",
+    "excerpt": "Any TIs with working campers who want to be a part of the TI economy?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/any-tis-with-working-campers-who-want-to-be.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Any-TIs-with-working-campers-who-want-to-be-a-part-of-the-TI-economy-My-initial-thoughts-are-to-join-to-share-experienc",
+      "originalDate": "2025-11-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/brandy-b-nthepink-any-updates-on-your-non-profit",
+    "title": "Brandy B. NthePink any updates on your non-profit?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-18",
+    "excerpt": "Brandy B. NthePink any updates on your non-profit? Just following up. Since the below post, I created a TI Directory app:",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/brandy-b-nthepink-any-updates-on-your-non-profit.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Brandy-B-NthePink-https-www-quora-com-profile-Brandy-B-NthePink-any-updates-on-your-non-profit-Just-following-up",
+      "originalDate": "2025-11-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/since-the-below-supportmatch-has-been-updated",
+    "title": "Since the below, SupportMatch has been updated.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-18",
+    "excerpt": "Since the below, SupportMatch has been updated. Latest demo: Sign up at:",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/since-the-below-supportmatch-has-been-updated.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Since-the-below-SupportMatch-has-been-updated-Latest-demo-https-chargingthefuture-wistia-com-medias-63xzgmsq5t-Sig",
+      "originalDate": "2025-11-18",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -6773,6 +16786,82 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 137
   },
   {
+    "slug": "farah-brunache/friendly-reminder-that-the-ti-chat-group-is-for",
+    "title": "Friendly reminder that the TI chat group is for active participants in the TI economy.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-17",
+    "excerpt": "Friendly reminder that the TI chat group is for active participants in the TI economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/friendly-reminder-that-the-ti-chat-group-is-for.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Friendly-reminder-that-the-TI-chat-group-is-for-active-participants-in-the-TI-economy-https-signal-group-CjQKILHj70",
+      "originalDate": "2025-11-17",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-use-the-following-site-as-my-personal-blog",
+    "title": "I use the following site as my personal blog: Charging The Future.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-17",
+    "excerpt": "I use the following site as my personal blog: Charging The Future.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-use-the-following-site-as-my-personal-blog.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-use-the-following-site-as-my-personal-blog-Charging-The-Future-https-chargingthefuture-discourse-group-invites-EB",
+      "originalDate": "2025-11-17",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/this-is-a-forwarded-message-of-what-he-offers",
+    "title": "This is a forwarded message of what he offers.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-17",
+    "excerpt": "This is a forwarded message of what he offers. Cybersecurity Experts As a “technical” person I should be able to understand his simplified pitch to what he…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/this-is-a-forwarded-message-of-what-he-offers.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/This-is-a-forwarded-message-of-what-he-offers-Cybersecurity-Experts-https-www-quora-com-profile-Cybersecurity-Expe",
+      "originalDate": "2025-11-17",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/this-is-not-meant-to-shame-anyone-who-has",
+    "title": "This is not meant to shame anyone who has fallen for this or similar scams.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-17",
+    "excerpt": "This is not meant to shame anyone who has fallen for this or similar scams.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/this-is-not-meant-to-shame-anyone-who-has.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/This-is-not-meant-to-shame-anyone-who-has-fallen-for-this-or-similar-scams-I-do-not-blame-anyone-who-seeks-a-magic-bull",
+      "originalDate": "2025-11-17",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "lets-meet-up-ti-economy-collaborations",
     "title": "Let's meet up! TI economy collaborations",
     "repo": "chargingthefuture/chargingthefuture",
@@ -6805,6 +16894,158 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 135
+  },
+  {
+    "slug": "farah-brunache/after-joining-the-signal-group-i-must-go-in",
+    "title": "After joining the Signal group I must go in and approve.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-15",
+    "excerpt": "After joining the Signal group I must go in and approve. This is an attempt to filter out perps.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/after-joining-the-signal-group-i-must-go-in.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/After-joining-the-Signal-group-I-must-go-in-and-approve-This-is-an-attempt-to-filter-out-perps-Not-full-proof-but-it-i",
+      "originalDate": "2025-11-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-do-not-want-the-ti-economy-to-be",
+    "title": "I do not want the TI economy to be the creation of another Quora on a different platform.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-15",
+    "excerpt": "I do not want the TI economy to be the creation of another Quora on a different platform.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-do-not-want-the-ti-economy-to-be.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-do-not-want-the-TI-economy-to-be-the-creation-of-another-Quora-on-a-different-platform-This-is-not-to-disrespect-tra",
+      "originalDate": "2025-11-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/in-an-effort-to-gather-more-tis-in-the",
+    "title": "In an effort to gather more TIs in the TI economy, I would like to organize strategic…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-15",
+    "excerpt": "In an effort to gather more TIs in the TI economy, I would like to organize strategic meetings with other TIs.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/in-an-effort-to-gather-more-tis-in-the.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Let-s-meet-up",
+      "originalDate": "2025-11-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/my-dms-on-quora-and-signal-are-closed-for",
+    "title": "My DMs on Quora and Signal are closed for the foreseeable future.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-15",
+    "excerpt": "My DMs on Quora and Signal are closed for the foreseeable future.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/my-dms-on-quora-and-signal-are-closed-for.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/My-DMs-on-Quora-and-Signal-are-closed-for-the-foreseeable-future-Also-please-do-not-ask-me-for-my-phone-number-To-joi",
+      "originalDate": "2025-11-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/only-one-update-for-this-week-i-am-in",
+    "title": "Only one update for this week, I am in the beginning stages of planning meet ups: Let's…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-15",
+    "excerpt": "Only one update for this week, I am in the beginning stages of planning meet ups: Let's meet up!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/only-one-update-for-this-week-i-am-in.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Townhall-11-15-2025-Recap",
+      "originalDate": "2025-11-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/starting-today-november-15-2025-im-implementing-a-new",
+    "title": "Starting today, November 15, 2025, I'm implementing a new policy regarding my personal…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-15",
+    "excerpt": "Starting today, November 15, 2025, I'm implementing a new policy regarding my personal interactions within the TI economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/starting-today-november-15-2025-im-implementing-a-new.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-do-not-want-to-be-another-Quora-New-DM-Policy-and-Psyop-Awareness",
+      "originalDate": "2025-11-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/steps-to-join-the-ti-economy-hint-there-is",
+    "title": "Steps to join the TI economy, hint, there is only one step.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-15",
+    "excerpt": "Steps to join the TI economy, hint, there is only one step. Quora is a great place to meet new TIs.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/steps-to-join-the-ti-economy-hint-there-is.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Steps-to-join-the-TI-economy-hint-there-is-only-one-step-Quora-is-a-great-place-to-meet-new-TIs-If-you-are-seeing-p",
+      "originalDate": "2025-11-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/ti-economy-townhall-is-today",
+    "title": "TI Economy Townhall is today!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-15",
+    "excerpt": "TI Economy Townhall is today! November 15, 2025 Saturdays is when I go live on Twitch throughout the day.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/ti-economy-townhall-is-today.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/TI-Economy-Townhall-is-today-November-15-2025-Saturdays-is-when-I-go-live-on-Twitch-throughout-the-day-Making-it-the",
+      "originalDate": "2025-11-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/is-gang-stalking-the-end-to-a-target-s-life",
@@ -6847,6 +17088,25 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 134
   },
   {
+    "slug": "farah-brunache/one-solution-to-clothes-theft-unrelated-to-specterati-i",
+    "title": "One solution to clothes theft Unrelated to Specterati I am a minimalist.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-14",
+    "excerpt": "One solution to clothes theft Unrelated to Specterati I am a minimalist.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/one-solution-to-clothes-theft-unrelated-to-specterati-i.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/One-solution-to-clothes-theft-Unrelated-to-Specterati-I-am-a-minimalist-Though-it-was-not-until-the-overt-stalking-beg",
+      "originalDate": "2025-11-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "discourse-migrate/one-solution-to-clothes-theft",
     "title": "One solution to clothes theft",
     "repo": "chargingthefuture/chargingthefuture",
@@ -6862,6 +17122,25 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 133
+  },
+  {
+    "slug": "farah-brunache/damon-mayle-the-human-trafficker-told-me-i-should",
+    "title": "“Damon Mayle” the human trafficker told me I should not do a TI economy and that I am…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-13",
+    "excerpt": "“Damon Mayle” the human trafficker told me I should not do a TI economy and that I am taking on too much of a big task and providing hope for a lot of TIs.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/damon-mayle-the-human-trafficker-told-me-i-should.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Damon-Mayle-the-human-trafficker-told-me-I-should-not-do-a-TI-economy-and-that-I-am-taking-on-too-much-of-a-big-task-a",
+      "originalDate": "2025-11-13",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/do-perps-use-the-same-make-models-and-colors-of-the-vehicles-that-targ",
@@ -6887,6 +17166,44 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/yesterday-november-11-i-met-a-fake-ti-from",
+    "title": "Yesterday November 11, I met a fake TI from Quora.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-12",
+    "excerpt": "Yesterday November 11, I met a fake TI from Quora. This person wanted a spot within a TI gated community that was organized 100% via Quora.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/yesterday-november-11-i-met-a-fake-ti-from.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Yesterday-November-11-I-met-a-fake-TI-from-Quora-This-person-wanted-a-spot-within-a-TI-gated-community-that-was-organi",
+      "originalDate": "2025-11-12",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/anyone-have-interaction-with-this-person",
+    "title": "Anyone have interaction with this person?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-11",
+    "excerpt": "Anyone have interaction with this person? Mute/blocking in 5, 4, 3, 2 … Perp posts in TSN are deleted and blocked.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/anyone-have-interaction-with-this-person.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Anyone-have-interaction-with-this-person-Mute-blocking-in-5-4-3-2-Perp-posts-in-TSN-are-deleted-and-blocked-Ori",
+      "originalDate": "2025-11-11",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/would-your-partner-to-your-kids-join-gang-stalking-to-target-you",
     "title": "Would your partner to your kids join gang stalking to target you?",
     "repo": "chargingthefuture/wiki-site",
@@ -6907,6 +17224,82 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/here-is-todays-townhall-recap",
+    "title": "Here is today’s Townhall recap.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-08",
+    "excerpt": "Here is today’s Townhall recap. I do have audio, but there has not been any interaction with them.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/here-is-todays-townhall-recap.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Here-is-today-s-Townhall-recap-I-do-have-audio-but-there-has-not-been-any-interaction-with-them-Below-the-copy-edited",
+      "originalDate": "2025-11-08",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/it-is-townhall-day",
+    "title": "It is Townhall day!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-08",
+    "excerpt": "It is Townhall day! I will be going live on and off on Twitch: If you are not able to join, you can find the recap in this thread: Every TI is welcome.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/it-is-townhall-day.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/It-is-Townhall-day-I-will-be-going-live-on-and-off-on-Twitch-https-twitch-tv-the1690s-If-you-are-not-able-to-join",
+      "originalDate": "2025-11-08",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-thats-a-nice-california-is-where-i-got",
+    "title": "The “that’s a nice ____.” California is where I got most of the weird looks when I was…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-08",
+    "excerpt": "The “that’s a nice ____.” California is where I got most of the weird looks when I was “nice” to someone.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-thats-a-nice-california-is-where-i-got.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-that-s-a-nice-California-is-where-I-got-most-of-the-weird-looks-when-I-was-nice-to-someone-I-was-offende",
+      "originalDate": "2025-11-08",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/exciting-announcement-mutual-aid-and-community-trust",
+    "title": "Exciting Announcement: Mutual Aid and Community Trust!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-07",
+    "excerpt": "Exciting Announcement: Mutual Aid and Community Trust! I’m thrilled to share some wonderful news today: I am launching Mutual Aid and Community Trust!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/exciting-announcement-mutual-aid-and-community-trust.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Exciting-Announcement-Mutual-Aid-and-Community-Trust-I-m-thrilled-to-share-some-wonderful-news-today-I-am-launching",
+      "originalDate": "2025-11-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "exciting-announcement-mutual-aid-and-community-trust",
     "title": "Exciting Announcement: Mutual Aid and Community Trust!",
     "repo": "chargingthefuture/chargingthefuture",
@@ -6922,6 +17315,63 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 132
+  },
+  {
+    "slug": "farah-brunache/i-have-been-going-live-on-twitch-i-made",
+    "title": "I have been going live on Twitch: I made the assumption it was perps watching as no one…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-06",
+    "excerpt": "I have been going live on Twitch: I made the assumption it was perps watching as no one comments or engages.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-have-been-going-live-on-twitch-i-made.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-have-been-going-live-on-Twitch-https-twitch-tv-the1690s-I-made-the-assumption-it-was-perps-watching-as-no-one-comm",
+      "originalDate": "2025-11-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-have-the-recording-of-the-appointment-let-me",
+    "title": "I have the recording of the appointment, let me know if you would find it valuable and I…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-06",
+    "excerpt": "I have the recording of the appointment, let me know if you would find it valuable and I will post it.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-have-the-recording-of-the-appointment-let-me.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-have-the-recording-of-the-appointment-let-me-know-if-you-would-find-it-valuable-and-I-will-post-it-On-Monday-I-went",
+      "originalDate": "2025-11-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/very-important-do-not-put-any-weight-in-anyone",
+    "title": "Very important do not put any weight in anyone I follow on Quora.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-06",
+    "excerpt": "Very important do not put any weight in anyone I follow on Quora.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/very-important-do-not-put-any-weight-in-anyone.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Very-important-do-not-put-any-weight-in-anyone-I-follow-on-Quora-I-initially-follow-people-because-they-might-be-a-TI",
+      "originalDate": "2025-11-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/hi-im-pat-brownlee-ive-been-stalked-for-over-a-year-now-it-started-in",
@@ -6977,6 +17427,63 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 130
   },
   {
+    "slug": "farah-brunache/i-have-not-found-post-but-i-mentioned-twice",
+    "title": "I have not found post, but I mentioned twice previously that I have significant typos in…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-05",
+    "excerpt": "I have not found post, but I mentioned twice previously that I have significant typos in my posts.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-have-not-found-post-but-i-mentioned-twice.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-have-not-found-post-but-I-mentioned-twice-previously-that-I-have-significant-typos-in-my-posts-And-that-I-am-doublin",
+      "originalDate": "2025-11-05",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-am-in-the-process-of-migrating-the-app",
+    "title": "I am in the process of migrating the app to a different infrastructure.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-04",
+    "excerpt": "I am in the process of migrating the app to a different infrastructure.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-am-in-the-process-of-migrating-the-app.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-am-in-the-process-of-migrating-the-app-to-a-different-infrastructure-During-this-time-the-app-will-be-down-I-apolog",
+      "originalDate": "2025-11-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/my-response-from-a-comment-in-the-post",
+    "title": "My response from a comment in the post.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-03",
+    "excerpt": "My response from a comment in the post. I am not going to say what you stated is not true.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/my-response-from-a-comment-in-the-post.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/My-response-from-a-comment-in-the-post-I-am-not-going-to-say-what-you-stated-is-not-true-However-technology-is-not-n",
+      "originalDate": "2025-11-03",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/i-ve-been-doing-much-better-and-haven-t-seen-as-many-gangstalkers",
     "title": "I’ve been doing much better and haven’t seen as many gangstalkers.",
     "repo": "chargingthefuture/wiki-site",
@@ -7017,6 +17524,63 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 129
   },
   {
+    "slug": "farah-brunache/mini-apps-that-have-been-launched-since-last-weeks",
+    "title": "Mini-apps that have been launched since last week’s Townhall: Chat Groups: list of all…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-01",
+    "excerpt": "Mini-apps that have been launched since last week’s Townhall: Chat Groups: list of all the Signal chats managed by the TI economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/mini-apps-that-have-been-launched-since-last-weeks.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/TI-Economy-Townhall-11-1-2025-Recap",
+      "originalDate": "2025-11-01",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/townhall-11-1-2025-all-day-townhall-is-today",
+    "title": "Townhall 11.1.2025 All-day Townhall is today, Saturday, November 1.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-01",
+    "excerpt": "Townhall 11.1.2025 All-day Townhall is today, Saturday, November 1.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/townhall-11-1-2025-all-day-townhall-is-today.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Townhall-11-1-2025-All-day-Townhall-is-today-Saturday-November-1-I-will-be-available-live-on-Twitch-https-www-tw",
+      "originalDate": "2025-11-01",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/wheres-my-kermie",
+    "title": "Where's my Kermie?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-01",
+    "excerpt": "Where's my Kermie? Gives good advice of being careful who you interact with.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/wheres-my-kermie.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Wheres-my-Kermie-https-www-quora-com-profile-Wheres-my-Kermie-Gives-good-advice-of-being-careful-who-you-interac",
+      "originalDate": "2025-11-01",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/are-county-workers-involved-in-gangstalking",
     "title": "Are county workers involved in gangstalking?",
     "repo": "chargingthefuture/wiki-site",
@@ -7034,6 +17598,139 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "answer",
       "question": "Are county workers involved in gangstalking?"
+    }
+  },
+  {
+    "slug": "farah-brunache/feature-update",
+    "title": "Feature update!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-31",
+    "excerpt": "Feature update! Public shareable links! Demo: SocketRelay Now when making a request you can choose to make it public and you will get a sharable link you can…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/feature-update.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Feature-update-Public-shareable-links-Demo-SocketRelay-https-chargingthefuture-wistia-com-medias-e9j6hli2z4-N",
+      "originalDate": "2025-10-31",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-challenge-us-to-make-our-own-luck",
+    "title": "I challenge us to make our own luck.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-31",
+    "excerpt": "I challenge us to make our own luck. Being targeted by the Specterati is like winning the reverse cash lottery.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-challenge-us-to-make-our-own-luck.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-challenge-us-to-make-our-own-luck-Being-targeted-by-the-Specterati-is-like-winning-the-reverse-cash-lottery-It-i",
+      "originalDate": "2025-10-31",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/not-sure-how-significant-this-is-on-quora",
+    "title": "Not sure how significant this is on Quora.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-31",
+    "excerpt": "Not sure how significant this is on Quora. But we hit 200 followers on Wednesday!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/not-sure-how-significant-this-is-on-quora.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Not-sure-how-significant-this-is-on-Quora-But-we-hit-200-followers-on-Wednesday-Thank-you-for-following-For-the-new",
+      "originalDate": "2025-10-31",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/oksana-and-everyone-what-is-your-preferred-method-of",
+    "title": "Oksana and everyone what is your preferred method of getting updates from me about the TI…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-31",
+    "excerpt": "Oksana and everyone what is your preferred method of getting updates from me about the TI economy?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/oksana-and-everyone-what-is-your-preferred-method-of.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Oksana-https-www-quora-com-profile-Oksana-387-and-everyone-what-is-your-preferred-method-of-getting-updates-from-m",
+      "originalDate": "2025-10-31",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/rnm-and-mkultra-target-how-can-i-help",
+    "title": "RNM and MKultra Target how can I help?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-31",
+    "excerpt": "RNM and MKultra Target how can I help? I cannot do anything about the gstalkers.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/rnm-and-mkultra-target-how-can-i-help.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/RNM-and-MKultra-Target-https-www-quora-com-profile-RNM-and-MKultra-Target-how-can-I-help-I-cannot-do-anything-ab",
+      "originalDate": "2025-10-31",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/shortly-after-making-the-linked-post-i-read-the",
+    "title": "👀 Shortly after making the linked post, I read the following: THE POWER OF ONE …even just…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-31",
+    "excerpt": "👀 Shortly after making the linked post, I read the following: THE POWER OF ONE …even just one close friend, mentor, or teacher has the power to create…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/shortly-after-making-the-linked-post-i-read-the.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Shortly-after-making-the-linked-post-I-read-the-following-THE-POWER-OF-ONE-even-just-one-close-friend-mentor",
+      "originalDate": "2025-10-31",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/specterati-get-paid-through-thousands-of-different-ways-across",
+    "title": "Specterati get paid through thousands of different ways across every sector in the global…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-31",
+    "excerpt": "Specterati get paid through thousands of different ways across every sector in the global economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/specterati-get-paid-through-thousands-of-different-ways-across.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Specterati-get-paid-through-thousands-of-different-ways-across-every-sector-in-the-global-economy-It-is-not-one-specifi",
+      "originalDate": "2025-10-31",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -7101,6 +17798,44 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 126
   },
   {
+    "slug": "farah-brunache/member-of-the-day-alani-skill-manufacturing-first-aid",
+    "title": "Member of the Day: Alani Skill: manufacturing, first-aid & CPR, home improvement…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-30",
+    "excerpt": "Member of the Day: Alani Skill: manufacturing, first-aid & CPR, home improvement, construction & production.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/member-of-the-day-alani-skill-manufacturing-first-aid.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Member-of-the-Day-Alani-https-www-quora-com-profile-Alani-57-Skill-manufacturing-first-aid-CPR-home-improve",
+      "originalDate": "2025-10-30",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/shout-out-to-alani-they-are-the-first-person",
+    "title": "Shout out to Alani, they are the FIRST person to opt in to the Directory!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-30",
+    "excerpt": "Shout out to Alani, they are the FIRST person to opt in to the Directory!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/shout-out-to-alani-they-are-the-first-person.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Shout-out-to-Alani-they-are-the-FIRST-person-to-opt-in-to-the-Directory-This-is-a-running-list-of-TIs-listed-along-si",
+      "originalDate": "2025-10-30",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "what-s-your-skill",
     "title": "What’s your skill?",
     "repo": "chargingthefuture/chargingthefuture",
@@ -7116,6 +17851,196 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 125
+  },
+  {
+    "slug": "farah-brunache/i-randomly-came-across-this-video-on-a-tear",
+    "title": "I randomly came across this video on a tear down of down coat.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-29",
+    "excerpt": "I randomly came across this video on a tear down of down coat.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-randomly-came-across-this-video-on-a-tear.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/What-s-your-skill",
+      "originalDate": "2025-10-29",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/here-is-where-i-will-live-stream-this-will",
+    "title": "Here is where I will live stream: This will be easier.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-28",
+    "excerpt": "Here is where I will live stream: This will be easier. One-click option to view the stream.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/here-is-where-i-will-live-stream-this-will.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Here-is-where-I-will-live-stream-https-www-twitch-tv-the1690s-This-will-be-easier-One-click-option-to-view-the-stre",
+      "originalDate": "2025-10-28",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/bill-gallant-i-would-answer-your-question-but-then",
+    "title": "Bill Gallant I would answer your question, but then it would land in a group of non-TIs…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-27",
+    "excerpt": "Bill Gallant I would answer your question, but then it would land in a group of non-TIs and sound confusing.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/bill-gallant-i-would-answer-your-question-but-then.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Bill-Gallant-https-www-quora-com-profile-Bill-Gallant-18-I-would-answer-your-question-but-then-it-would-land-in-a",
+      "originalDate": "2025-10-27",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/for-the-past-few-days-ive-been-testing-various",
+    "title": "For the past few days, I've been testing various smartwatches that continuously record…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-27",
+    "excerpt": "For the past few days, I've been testing various smartwatches that continuously record your vitals.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/for-the-past-few-days-ive-been-testing-various.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/For-the-past-few-days-Ive-been-testing-various-smartwatches-that-continuously-record-your-vitals-I-did-this-because",
+      "originalDate": "2025-10-27",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/in-my-effort-to-be-inclusive-i-provided-too",
+    "title": "In my effort to be inclusive I provided too many options to connect.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-27",
+    "excerpt": "In my effort to be inclusive I provided too many options to connect.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/in-my-effort-to-be-inclusive-i-provided-too.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/In-my-effort-to-be-inclusive-I-provided-too-many-options-to-connect-I-have-cleaned-up-the-link-in-my-Quora-bio-to-the",
+      "originalDate": "2025-10-27",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/jennifer-lewis-response-is-interesting",
+    "title": "Jennifer Lewis response is interesting.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-27",
+    "excerpt": "Jennifer Lewis response is interesting. The Specterati are aware of their mortality and crimes.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/jennifer-lewis-response-is-interesting.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Jennifer-Lewis-https-www-quora-com-profile-Jennifer-Lewis-1524-response-is-interesting-The-Specterati-are-aware-o",
+      "originalDate": "2025-10-27",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/reason-1-000-797-6778-why-lighthouse-exists",
+    "title": "Reason #1,000,797,6778 😂 why LightHouse exists.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-27",
+    "excerpt": "Reason #1,000,797,6778 😂 why LightHouse exists. Living/renting with other TIs is safer.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/reason-1-000-797-6778-why-lighthouse-exists.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Reason-1-000-797-6778-why-LightHouse-exists-Living-renting-with-other-TIs-is-safer-https-chargingthefuture-wisti",
+      "originalDate": "2025-10-27",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/starting-a-new-book-from-sh-tshow-to-afterglow",
+    "title": "Starting a new book: From sh!tshow to afterglow: putting life back together when it all…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-27",
+    "excerpt": "Starting a new book: From sh!tshow to afterglow: putting life back together when it all falls apart by Ariel Meadow Stallings.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/starting-a-new-book-from-sh-tshow-to-afterglow.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Starting-a-new-book-From-sh-tshow-to-afterglow-putting-life-back-together-when-it-all-falls-apart-by-Ariel-Meadow-Stal",
+      "originalDate": "2025-10-27",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/tara-arrington",
+    "title": "💯 Tara Arrington.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-27",
+    "excerpt": "💯 Tara Arrington. But how can we do this after they bankrupted us?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/tara-arrington.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Tara-Arrington-https-www-quora-com-profile-Tara-Arrington-4-But-how-can-we-do-this-after-they-bankrupted-us-Th",
+      "originalDate": "2025-10-27",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/while-making-this-post-i-was-in-a-food",
+    "title": "While making this post I was in a food pantry line.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-27",
+    "excerpt": "While making this post I was in a food pantry line. And one of the Specterati was in front of me.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/while-making-this-post-i-was-in-a-food.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/While-making-this-post-I-was-in-a-food-pantry-line-And-one-of-the-Specterati-was-in-front-of-me-And-would-periodically",
+      "originalDate": "2025-10-27",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/would-you-like-to-be-matched-with-other-tis-monthly-for-emotional-or-a",
@@ -7172,6 +18097,82 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 123
   },
   {
+    "slug": "farah-brunache/audio-is-15-minutes-and-found-in-the-below",
+    "title": "Audio is 15-minutes and found in the below link.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-26",
+    "excerpt": "Audio is 15-minutes and found in the below link. is the copy edited transcript of the audio.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/audio-is-15-minutes-and-found-in-the-below.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Townhall-recap-10-25-2025",
+      "originalDate": "2025-10-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-specterati-became-overt-on-me-on-january-1",
+    "title": "The Specterati became overt on me on January 1, 2024.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-26",
+    "excerpt": "The Specterati became overt on me on January 1, 2024. And this year is when I decided to work full-time in aiding TIs after they started starving me out.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-specterati-became-overt-on-me-on-january-1.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-Specterati-became-overt-on-me-on-January-1-2024-And-this-year-is-when-I-decided-to-work-full-time-in-aiding-TIs-af",
+      "originalDate": "2025-10-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/tyler-durden-i-think-your-quora-questions-are-about",
+    "title": "Tyler Durden, I think your Quora questions are about V2K.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-26",
+    "excerpt": "Tyler Durden, I think your Quora questions are about V2K. I am crowdsourcing proven ways to block them. Here is what I found so far:",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/tyler-durden-i-think-your-quora-questions-are-about.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Tyler-Durden-https-www-quora-com-profile-Tyler-Durden-1414-I-think-your-Quora-questions-are-about-V2K-I-am-crowd",
+      "originalDate": "2025-10-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/tyler-durden-is-right",
+    "title": "Tyler Durden is right.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-26",
+    "excerpt": "Tyler Durden is right. Ignore them. Serious question, TIs, what do you want out of this life?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/tyler-durden-is-right.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Tyler-Durden-https-www-quora-com-profile-Tyler-Durden-1414-is-right-Ignore-them-Serious-question-TIs-what-do",
+      "originalDate": "2025-10-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "discourse-migrate/at-your-service",
     "title": "At your service",
     "repo": "chargingthefuture/chargingthefuture",
@@ -7187,6 +18188,215 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 122
+  },
+  {
+    "slug": "farah-brunache/fake-news-what-personal-information",
+    "title": "Fake news! What personal information?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-25",
+    "excerpt": "Fake news! What personal information? And why not just say specifics?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/fake-news-what-personal-information.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/https-www-quora-com-profile-Farah-Brunache-Fake-news-What-personal-information-And-why-not-just-say-specifics-I-have-n",
+      "originalDate": "2025-10-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-am-live-now-and-will-be-for-the",
+    "title": "I am live now! And will be for the rest of today.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-25",
+    "excerpt": "I am live now! And will be for the rest of today. This way TIs globally can participate.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-am-live-now-and-will-be-for-the.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-am-live-now-And-will-be-for-the-rest-of-today-This-way-TIs-globally-can-participate-I-would-have-stated-this-earlie",
+      "originalDate": "2025-10-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-just-noticed-that-someone-in-the-drop-in",
+    "title": "I just noticed that someone in the drop-in center I am at stole an item of mine.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-25",
+    "excerpt": "I just noticed that someone in the drop-in center I am at stole an item of mine.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-just-noticed-that-someone-in-the-drop-in.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/https-www-quora-com-profile-Farah-Brunache-I-just-noticed-that-someone-in-the-drop-in-center-I-am-at-stole-an-item-of",
+      "originalDate": "2025-10-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/introducing-socketrelay",
+    "title": "Introducing SocketRelay!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-25",
+    "excerpt": "Introducing SocketRelay! Request goods and services from your TI community!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/introducing-socketrelay.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Introducing-SocketRelay-Request-goods-and-services-from-your-TI-community-You-can-now-make-a-post-within-140-characte",
+      "originalDate": "2025-10-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/it-is-day-two-and-we-now-have-four",
+    "title": "It is day two and we now have four people as part of the first ever TI economy app.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-25",
+    "excerpt": "It is day two and we now have four people as part of the first ever TI economy app.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/it-is-day-two-and-we-now-have-four.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/It-is-day-two-and-we-now-have-four-people-as-part-of-the-first-ever-TI-economy-app-I-am-honored-to-have-you-all-join-me",
+      "originalDate": "2025-10-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/it-started-on-quora-then-migrated-to-our-own",
+    "title": "It started on Quora, then migrated to our own Discourse server.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-25",
+    "excerpt": "It started on Quora, then migrated to our own Discourse server.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/it-started-on-quora-then-migrated-to-our-own.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/It-started-on-Quora-then-migrated-to-our-own-Discourse-server-But-it-is-not-being-used-to-be-fair-this-townsquare-is",
+      "originalDate": "2025-10-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/october-20-2025-member-of-the-day-jason-singletons",
+    "title": "October 20, 2025 Member of the Day Jason Singletons Jason is a programmer who makes it…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-25",
+    "excerpt": "October 20, 2025 Member of the Day Jason Singletons Jason is a programmer who makes it easy to learn if your telecom networks are being spied on by organized…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/october-20-2025-member-of-the-day-jason-singletons.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/October-20-2025-Member-of-the-Day-Jason-Singletons-https-www-quora-com-profile-Jason-Singletons-Jason-is-a-progr",
+      "originalDate": "2025-10-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/thank-you-rose-burns-for-sharing-the-context",
+    "title": "Thank you Rose Burns for sharing the context.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-25",
+    "excerpt": "Thank you Rose Burns for sharing the context. I have said multiple times on Quora posts.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/thank-you-rose-burns-for-sharing-the-context.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Thank-you-Rose-Burns-for-sharing-the-context-I-have-said-multiple-times-on-Quora-posts-We-already-know-what-happens-wh",
+      "originalDate": "2025-10-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/thank-you-rose-burns-for-sharing-the-context-2",
+    "title": "Thank you Rose Burns for sharing the context.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-25",
+    "excerpt": "Thank you Rose Burns for sharing the context. I have said multiple times on Quora posts.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/thank-you-rose-burns-for-sharing-the-context-2.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Thank-you-Rose-Burns-for-sharing-the-context-I-have-said-multiple-times-on-Quora-posts-We-already-know-what-happens-wh-1",
+      "originalDate": "2025-10-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-way-the-app-works-is-that-you-get",
+    "title": "The way the app works is that you get access to ALL psyop-free features.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-25",
+    "excerpt": "The way the app works is that you get access to ALL psyop-free features.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-way-the-app-works-is-that-you-get.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/https-www-quora-com-profile-Farah-Brunache-Unhoused-TIs-I-introduce-to-you-Lighthouse-Think-Airbnb-but-for-TIs-only-Li",
+      "originalDate": "2025-10-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/where-there-is-a-will-there-is-a-way",
+    "title": "Where there is a will, there is a way.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-25",
+    "excerpt": "Where there is a will, there is a way. My suggestion on how to continue Matthew Cappadocia (aka The Wizard of Oz) ‘s work.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/where-there-is-a-will-there-is-a-way.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Where-there-is-a-will-there-is-a-way-My-suggestion-on-how-to-continue-Matthew-Cappadocia-aka-The-Wizard-of-Oz-htt",
+      "originalDate": "2025-10-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/https-targetedindividualssurvey-quora-com-targeted-individuals-survey",
@@ -7293,6 +18503,63 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 117
   },
   {
+    "slug": "farah-brunache/townhall-tomorrow",
+    "title": "Townhall tomorrow!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-24",
+    "excerpt": "Townhall tomorrow! I will go over the app and more. Come with your questions.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/townhall-tomorrow.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Townhall-tomorrow-I-will-go-over-the-app-and-more-Come-with-your-questions-I-will-be-going-live-on-Signal-Link-in-my",
+      "originalDate": "2025-10-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/unhoused-tis-i-introduce-to-you-lighthouse",
+    "title": "Unhoused TIs, I introduce to you Lighthouse!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-24",
+    "excerpt": "Unhoused TIs, I introduce to you Lighthouse! Think Airbnb but for TIs only.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/unhoused-tis-i-introduce-to-you-lighthouse.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Unhoused-TIs-I-introduce-to-you-Lighthouse-Think-Airbnb-but-for-TIs-only-Link-in-bio-You-can-join-as-a-property-ow",
+      "originalDate": "2025-10-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/what-you-can-use-to-your-betterment-at-this",
+    "title": "What you can use to your betterment at this very moment!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-24",
+    "excerpt": "What you can use to your betterment at this very moment! TI Database create a profile and be counted in a running list of TIs, disclose only what you want…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/what-you-can-use-to-your-betterment-at-this.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/What-you-can-use-to-your-betterment-at-this-very-moment-TI-Database-create-a-profile-and-be-counted-in-a-running-list",
+      "originalDate": "2025-10-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "the-app-is-live",
     "title": "The app is live!",
     "repo": "chargingthefuture/chargingthefuture",
@@ -7308,6 +18575,25 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 116
+  },
+  {
+    "slug": "farah-brunache/app-is-live-go-to-my-quora-profile-and",
+    "title": "App is live! Go to my Quora profile and click the only link there.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-23",
+    "excerpt": "App is live! Go to my Quora profile and click the only link there.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/app-is-live-go-to-my-quora-profile-and.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/App-is-live-Go-to-my-Quora-profile-and-click-the-only-link-there-Then-click-the-first-link-listed-titled-Charging-t",
+      "originalDate": "2025-10-23",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/this-is-the-type-of-gangstalker-you-often-encounter-on-the-street-acco-3",
@@ -7345,6 +18631,25 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-10-23",
       "status": "erased",
       "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/nowhere-is-vigilantism-considered-acceptable",
+    "title": "Nowhere is vigilantism considered acceptable.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-22",
+    "excerpt": "Nowhere is vigilantism considered acceptable. There is a difference between receiving slander and believing it vs receiving it believing it and stalking and…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/nowhere-is-vigilantism-considered-acceptable.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Nowhere-is-vigilantism-considered-acceptable-There-is-a-difference-between-receiving-slander-and-believing-it-vs-receiv",
+      "originalDate": "2025-10-22",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -7421,6 +18726,63 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 115
+  },
+  {
+    "slug": "farah-brunache/last-night-i-started-how-are-you-going-to",
+    "title": "Last night I started How Are You Going to Pay For That?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-21",
+    "excerpt": "Last night I started How Are You Going to Pay For That? by Ryan Cooper.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/last-night-i-started-how-are-you-going-to.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Last-night-I-started-How-Are-You-Going-to-Pay-For-That-by-Ryan-Cooper-I-have-been-browsing-the-economics-section-of-t",
+      "originalDate": "2025-10-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/to-join-live-download-signal-messenger-speak-freely-app",
+    "title": "To join live: - Download Signal Messenger: Speak Freely app - Go to the link in my Quora…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-21",
+    "excerpt": "To join live: - Download Signal Messenger: Speak Freely app - Go to the link in my Quora bio and scroll until you see “Join Townhall” link.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/to-join-live-download-signal-messenger-speak-freely-app.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Live-Townhall-sometime-this-Saturday-October-25-2025",
+      "originalDate": "2025-10-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/yesterday-a-real-ti-said-i-lied-about-what",
+    "title": "Yesterday a real TI said I lied about what app the Specterati use on TIs.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-21",
+    "excerpt": "Yesterday a real TI said I lied about what app the Specterati use on TIs.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/yesterday-a-real-ti-said-i-lied-about-what.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Yesterday-a-real-TI-said-I-lied-about-what-app-the-Specterati-use-on-TIs-Same-time-other-TIs-have-confirmed-they-have-s",
+      "originalDate": "2025-10-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "discourse-migrate/book-3-how-are-you-going-to-pay-for-that",
@@ -7566,6 +18928,25 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 110
   },
   {
+    "slug": "farah-brunache/i-am-considering-to-do-a-live-weekly-state",
+    "title": "I am considering to do a live weekly State of the TI Economy address.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-19",
+    "excerpt": "I am considering to do a live weekly State of the TI Economy address.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-am-considering-to-do-a-live-weekly-state.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-am-considering-to-do-a-live-weekly-State-of-the-TI-Economy-address-And-would-record-and-publish-it-Is-this-something",
+      "originalDate": "2025-10-19",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "member of the day/member-of-the-day-jason-singletons",
     "title": "Member of the Day: Jason Singletons",
     "repo": "chargingthefuture/chargingthefuture",
@@ -7611,6 +18992,101 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 107
   },
   {
+    "slug": "farah-brunache/skill-programming-jason-sells-programmed-rayhunters-on-verizon-mobile",
+    "title": "Skill: programming Jason sells programmed Rayhunters on Verizon Mobile Hotspots, the…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-18",
+    "excerpt": "Skill: programming Jason sells programmed Rayhunters on Verizon Mobile Hotspots, the Orbic 400.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/skill-programming-jason-sells-programmed-rayhunters-on-verizon-mobile.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Member-of-the-Day-Jason-Singletons",
+      "originalDate": "2025-10-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-conspiracy-carousel-the-specterati-plays-everyone-on-all",
+    "title": "The Conspiracy Carousel The Specterati plays everyone on all sides.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-18",
+    "excerpt": "The Conspiracy Carousel The Specterati plays everyone on all sides.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-conspiracy-carousel-the-specterati-plays-everyone-on-all.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-Conspiracy-Carousel-The-Specterati-plays-everyone-on-all-sides-One-common-game-is-falsely-labeling-a-Target-with-m",
+      "originalDate": "2025-10-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-mail-mirage-one-of-the-speceratis-common-tactics",
+    "title": "The Mail Mirage One of the Specerati’s common tactics is to never deliver, delay, lose…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-18",
+    "excerpt": "The Mail Mirage One of the Specerati’s common tactics is to never deliver, delay, lose, tamper, open or damage a Target’s mail.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-mail-mirage-one-of-the-speceratis-common-tactics.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-Mail-Mirage-One-of-the-Specerati-s-common-tactics-is-to-never-deliver-delay-lose-tamper-open-or-damage-a-Target",
+      "originalDate": "2025-10-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/to-assist-newbie-tis-i-have-started-a-thread",
+    "title": "To assist newbie TIs I have started a thread to list all of their reindeer games to avoid.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-18",
+    "excerpt": "To assist newbie TIs I have started a thread to list all of their reindeer games to avoid.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/to-assist-newbie-tis-i-have-started-a-thread.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/To-assist-newbie-TIs-I-have-started-a-thread-to-list-all-of-their-reindeer-games-to-avoid-I-have-avoided-the-fake-schi",
+      "originalDate": "2025-10-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/welcome-new-followers-to-ti-skills-network",
+    "title": "Welcome new followers to TI Skills Network!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-18",
+    "excerpt": "Welcome new followers to TI Skills Network! Every day, we get about 1–2 new followers.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/welcome-new-followers-to-ti-skills-network.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Welcome-new-followers-to-TI-Skills-Network-Every-day-we-get-about-1-2-new-followers-I-am-not-sure-how-long-you-have",
+      "originalDate": "2025-10-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "discourse-migrate/book-2-backyard-farming",
     "title": "Book 2: Backyard Farming",
     "repo": "chargingthefuture/chargingthefuture",
@@ -7626,6 +19102,63 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 106
+  },
+  {
+    "slug": "farah-brunache/as-part-of-my-fitness-challenge-fitness-challenge",
+    "title": "As part of my fitness challenge ( Fitness challenge?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-17",
+    "excerpt": "As part of my fitness challenge ( Fitness challenge? ), I got a health tracking watch to measure my vitals 24/7.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/as-part-of-my-fitness-challenge-fitness-challenge.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/As-part-of-my-fitness-challenge-Fitness-challenge-https-chargingthefuture-discourse-group-t-fitness-challenge-12",
+      "originalDate": "2025-10-17",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/our-only-option-is-to-opt-out-of-their",
+    "title": "Our only option is to opt out of their reindeer games.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-17",
+    "excerpt": "Our only option is to opt out of their reindeer games. My response to a TI saying he was told he can pay to be removed from the list.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/our-only-option-is-to-opt-out-of-their.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Our-only-option-is-to-opt-out-of-their-reindeer-games-My-response-to-a-TI-saying-he-was-told-he-can-pay-to-be-removed",
+      "originalDate": "2025-10-17",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/today-i-start-backyard-farming-by-adams-media",
+    "title": "Today I start Backyard Farming by Adams Media.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-17",
+    "excerpt": "Today I start Backyard Farming by Adams Media. This relates to the TI economy initiative of a gated community.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/today-i-start-backyard-farming-by-adams-media.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Today-I-start-Backyard-Farming-by-Adams-Media-This-relates-to-the-TI-economy-initiative-of-a-gated-community-And-relyi",
+      "originalDate": "2025-10-17",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "live-work-conquer-our-mission-commitment-and-purpose",
@@ -7679,6 +19212,44 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 103
   },
   {
+    "slug": "farah-brunache/a-fellow-community-member-is-passing",
+    "title": "A fellow community member is passing.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-16",
+    "excerpt": "A fellow community member is passing. And I definitely feel a way about it.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/a-fellow-community-member-is-passing.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/A-fellow-community-member-is-passing-And-I-definitely-feel-a-way-about-it-That-aside-End-of-Life-planning-is-important",
+      "originalDate": "2025-10-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-asked-in-the-group-chat-why-more-tis",
+    "title": "I asked in the group chat why more TIs are not signing up for the TI economy.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-16",
+    "excerpt": "I asked in the group chat why more TIs are not signing up for the TI economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-asked-in-the-group-chat-why-more-tis.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-asked-in-the-group-chat-why-more-TIs-are-not-signing-up-for-the-TI-economy-And-a-response-I-got-was-TIs-do-not-trust",
+      "originalDate": "2025-10-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "tis-cannot-trust-anyone",
     "title": "TIs cannot trust anyone 🙃",
     "repo": "chargingthefuture/chargingthefuture",
@@ -7711,6 +19282,44 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 101
+  },
+  {
+    "slug": "farah-brunache/fyi-i-added-more-perps-to-the-group-chat",
+    "title": "FYI, I added more perps to the group chat.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-15",
+    "excerpt": "FYI, I added more perps to the group chat. This is relevant to TI Skills Network as it showcases gang stalkers in mental health professions, leading banks, etc.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/fyi-i-added-more-perps-to-the-group-chat.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/FYI-I-added-more-perps-to-the-group-chat-This-is-relevant-to-TI-Skills-Network-as-it-showcases-gang-stalkers-in-mental",
+      "originalDate": "2025-10-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-circle-jerks-a-gangstalkers-economy-is-very-simple",
+    "title": "The Circle Jerks A gangstalkers economy is very simple This a continued thread to make…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-15",
+    "excerpt": "The Circle Jerks A gangstalkers economy is very simple This a continued thread to make posts more digestible.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-circle-jerks-a-gangstalkers-economy-is-very-simple.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-Circle-Jerks-A-gangstalkers-economy-is-very-simple-This-a-continued-thread-to-make-posts-more-digestible-In-the",
+      "originalDate": "2025-10-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "discourse-migrate/book-1-religion-and-the-rise-of-capitalism",
@@ -7764,6 +19373,120 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 98
   },
   {
+    "slug": "farah-brunache/as-stated-i-used-chatgpt-to-suggest-some-names",
+    "title": "As stated I used ChatGPT to suggest some names.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-14",
+    "excerpt": "As stated I used ChatGPT to suggest some names. Which by the way, says gang stalking does not exist.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/as-stated-i-used-chatgpt-to-suggest-some-names.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/As-stated-I-used-ChatGPT-to-suggest-some-names-Which-by-the-way-says-gang-stalking-does-not-exist-Come-to-find-out-th",
+      "originalDate": "2025-10-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/charging-the-future-originally-began-as-ti-skills-network",
+    "title": "Charging The Future originally began as TI Skills Network on Quora.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-14",
+    "excerpt": "Charging The Future originally began as TI Skills Network on Quora.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/charging-the-future-originally-began-as-ti-skills-network.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Charging-The-Future-originally-began-as-TI-Skills-Network-on-Quora-But-the-goals-are-the-same-For-each-TI-to-list-thei",
+      "originalDate": "2025-10-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-am-a-self-published-author-with-one-book",
+    "title": "I am a self-published author, with one book published under my pen name.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-14",
+    "excerpt": "I am a self-published author, with one book published under my pen name.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-am-a-self-published-author-with-one-book.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-am-a-self-published-author-with-one-book-published-under-my-pen-name-I-will-be-doing-a-re-write-of-the-book-Since-b",
+      "originalDate": "2025-10-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-went-to-the-library-today-and-grabbed-a",
+    "title": "I went to the library today and grabbed a bunch of random books in the economics section.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-14",
+    "excerpt": "I went to the library today and grabbed a bunch of random books in the economics section.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-went-to-the-library-today-and-grabbed-a.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-went-to-the-library-today-and-grabbed-a-bunch-of-random-books-in-the-economics-section-Reading-up-on-various-topics-t",
+      "originalDate": "2025-10-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/perp-alert-aaron-andrew-aaron-andrew-i-will-drag",
+    "title": "Perp alert: Aaron Andrew (Aaron Andrew) I will drag each and every one of you.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-14",
+    "excerpt": "Perp alert: Aaron Andrew (Aaron Andrew) I will drag each and every one of you.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/perp-alert-aaron-andrew-aaron-andrew-i-will-drag.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Perp-alert-Aaron-Andrew-Aaron-Andrew-https-www-quora-com-profile-Aaron-Andrew-67-I-will-drag-each-and-every-on",
+      "originalDate": "2025-10-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/perp-alert-aaron-andrew-i-will-drag-each-and",
+    "title": "Perp alert: Aaron Andrew I will drag each and every one of you.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-14",
+    "excerpt": "Perp alert: Aaron Andrew I will drag each and every one of you.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/perp-alert-aaron-andrew-i-will-drag-each-and.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Perp-alert-Aaron-Andrew-https-www-quora-com-profile-Aaron-Andrew-67-I-will-drag-each-and-every-one-of-you-Join",
+      "originalDate": "2025-10-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "discourse-migrate/perp-alert-aaron-andrew",
     "title": "Perp Alert “Aaron Andrew”",
     "repo": "chargingthefuture/chargingthefuture",
@@ -7796,6 +19519,44 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 96
+  },
+  {
+    "slug": "farah-brunache/a-gang-stalker-stole-my-only-jacket-yesterday",
+    "title": "A gang stalker stole my only jacket yesterday.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-12",
+    "excerpt": "A gang stalker stole my only jacket yesterday. I shared this in one of the Signal chat groups in passing.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/a-gang-stalker-stole-my-only-jacket-yesterday.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/A-gang-stalker-stole-my-only-jacket-yesterday-I-shared-this-in-one-of-the-Signal-chat-groups-in-passing-And-another-TI",
+      "originalDate": "2025-10-12",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/many-tis-such-as-myself-experience-dews-direct-energy",
+    "title": "Many TIs, such as myself, experience DEWs (direct energy weapons).",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-12",
+    "excerpt": "Many TIs, such as myself, experience DEWs (direct energy weapons).",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/many-tis-such-as-myself-experience-dews-direct-energy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Many-TIs-such-as-myself-experience-DEWs-direct-energy-weapons-This-thread-is-intended-to-serve-as-a-crowdsourced-re",
+      "originalDate": "2025-10-12",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "discourse-migrate/blocking-radiation-thread",
@@ -8447,6 +20208,25 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/sleep-stories-are-calming-narratives-designed-to-help-listeners",
+    "title": "Sleep stories are calming narratives designed to help listeners unwind and drift off to…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-09",
+    "excerpt": "Sleep stories are calming narratives designed to help listeners unwind and drift off to sleep.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/sleep-stories-are-calming-narratives-designed-to-help-listeners.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Sleep-stories-are-calming-narratives-designed-to-help-listeners-unwind-and-drift-off-to-sleep-Often-featuring-gentle-pl",
+      "originalDate": "2025-10-09",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "discourse-migrate/mental-health-professional-training",
     "title": "Mental Health Professional Training",
     "repo": "chargingthefuture/chargingthefuture",
@@ -8479,6 +20259,63 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 79
+  },
+  {
+    "slug": "farah-brunache/i-had-a-phone-conversation-with-someone-who-i",
+    "title": "I had a phone conversation with someone who I believe is a TI.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-08",
+    "excerpt": "I had a phone conversation with someone who I believe is a TI.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-had-a-phone-conversation-with-someone-who-i.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-had-a-phone-conversation-with-someone-who-I-believe-is-a-TI-And-they-were-crying-on-the-phone-call-the-entire-time-as",
+      "originalDate": "2025-10-08",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/snave-seer-brad-rice-and-everyone",
+    "title": "Snave Seer, Brad Rice and everyone.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-07",
+    "excerpt": "Snave Seer, Brad Rice and everyone. Thank you for the suggestions.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/snave-seer-brad-rice-and-everyone.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Snave-Seer-https-www-quora-com-profile-Snave-Seer-Brad-Rice-https-www-quora-com-profile-Brad-Rice-102-and-e",
+      "originalDate": "2025-10-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-colloquial-name-for-group-vigilanteism-is-gang-stalking",
+    "title": "The colloquial name for group vigilanteism is gang stalking.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-07",
+    "excerpt": "The colloquial name for group vigilanteism is gang stalking.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-colloquial-name-for-group-vigilanteism-is-gang-stalking.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-colloquial-name-for-group-vigilanteism-is-gang-stalking-And-I-am-personally-tired-of-using-it-Recently-a-TI-ment",
+      "originalDate": "2025-10-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/gang-stalkers-have-blocked-me-for-several-months-in-buying-bus-tickets-10",
@@ -8670,6 +20507,101 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 70
+  },
+  {
+    "slug": "farah-brunache/anonymous-poll-also-found-here-each-week-there-are",
+    "title": "Anonymous poll also found here: Each week there are about 20 new accounts that follow…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-06",
+    "excerpt": "Anonymous poll also found here: Each week there are about 20 new accounts that follow this page.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/anonymous-poll-also-found-here-each-week-there-are.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Anonymous-poll-also-found-here-https-strawpoll-com-YVyPvoxeLgN-Each-week-there-are-about-20-new-accounts-that-follow",
+      "originalDate": "2025-10-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/any-ti-lawyers",
+    "title": "Any TI Lawyers?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-06",
+    "excerpt": "Any TI Lawyers? Similar to Telehealth and Mechanics. I would be interested in matching Lawyers.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/any-ti-lawyers.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Any-TI-Lawyers-Similar-to-Telehealth-and-Mechanics-I-would-be-interested-in-matching-Lawyers-https-chargingthefutu",
+      "originalDate": "2025-10-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/if-not-ready-to-sign-up-for-the-below",
+    "title": "If not ready to sign up for the below in order to take the poll.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-06",
+    "excerpt": "If not ready to sign up for the below in order to take the poll. I added a second poll here: is also anonymous.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/if-not-ready-to-sign-up-for-the-below.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/If-not-ready-to-sign-up-for-the-below-in-order-to-take-the-poll-I-added-a-second-poll-here-https-strawpoll-com-YVyP",
+      "originalDate": "2025-10-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/we-have-more-power-than-we-think-which-is",
+    "title": "We have more power than we think which is why I created a TI economy.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-06",
+    "excerpt": "We have more power than we think which is why I created a TI economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/we-have-more-power-than-we-think-which-is.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/We-have-more-power-than-we-think-which-is-why-I-created-a-TI-economy-And-this-is-coming-from-someone-who-is-DEWed-every",
+      "originalDate": "2025-10-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/wow-this-was-august-3-but-it-feels-like",
+    "title": "Wow, this was August 3, but it feels like months ago I was posting and trying to find…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-06",
+    "excerpt": "Wow, this was August 3, but it feels like months ago I was posting and trying to find people to join me: And completely missed a response by two people!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/wow-this-was-august-3-but-it-feels-like.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Wow-this-was-August-3-but-it-feels-like-months-ago-I-was-posting-and-trying-to-find-people-to-join-me-https-qr-ae",
+      "originalDate": "2025-10-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/are-people-who-harass-and-gang-stalk-others-mentally-ill",
@@ -8980,6 +20912,101 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 69
+  },
+  {
+    "slug": "farah-brunache/i-need-to-come-up-with-a-catchy-name",
+    "title": "I need to come up with a catchy name.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-05",
+    "excerpt": "I need to come up with a catchy name. I am open to suggestions.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-need-to-come-up-with-a-catchy-name.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-need-to-come-up-with-a-catchy-name-I-am-open-to-suggestions-I-want-to-put-together-groups-of-people-who-share-a-reso",
+      "originalDate": "2025-10-05",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/lisa-ann-baker-the-attached-is-me",
+    "title": "Lisa Ann Baker, the attached is me.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-05",
+    "excerpt": "Lisa Ann Baker, the attached is me. Quora deleted my account.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/lisa-ann-baker-the-attached-is-me.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Lisa-Ann-Baker-https-www-quora-com-profile-Lisa-Ann-Baker-1-the-attached-is-me-Quora-deleted-my-account-And-I-c",
+      "originalDate": "2025-10-05",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/please-do-not-think-that-joining-tsn-and-commenting",
+    "title": "Please do not think that joining TSN and commenting or posting in this space is not…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-05",
+    "excerpt": "Please do not think that joining TSN and commenting or posting in this space is not helping.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/please-do-not-think-that-joining-tsn-and-commenting.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Please-do-not-think-that-joining-TSN-and-commenting-or-posting-in-this-space-is-not-helping-If-this-weren-t-the-case-m",
+      "originalDate": "2025-10-05",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-ti-craigslist-is-off-to-a-great-start",
+    "title": "The TI Craigslist is off to a great start!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-05",
+    "excerpt": "The TI Craigslist is off to a great start!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-ti-craigslist-is-off-to-a-great-start.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-TI-Craigslist-is-off-to-a-great-start-https-chargingthefuture-discourse-group-t-auction-house-market-86-u-farah",
+      "originalDate": "2025-10-05",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/vote-for-the-name-of-the-next-ti-economy",
+    "title": "Vote for the name of the next TI Economy app:",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-05",
+    "excerpt": "Vote for the name of the next TI Economy app:",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/vote-for-the-name-of-the-next-ti-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Vote-for-the-name-of-the-next-TI-Economy-app-https-chargingthefuture-discourse-group-t-pooling-our-resources-88-u-fa",
+      "originalDate": "2025-10-05",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/can-electronic-harassment-send-specific-dreams-while-you-sleep",
@@ -9429,6 +21456,120 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 45
   },
   {
+    "slug": "farah-brunache/i-created-a-ti-of-the-day-list-view",
+    "title": "I created a “TI of the Day” list view within the forum: This way, if you want to get to…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-02",
+    "excerpt": "I created a “TI of the Day” list view within the forum: This way, if you want to get to know the TI community, e.g., what their top skill is, you can.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-created-a-ti-of-the-day-list-view.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-created-a-TI-of-the-Day-list-view-within-the-forum-https-chargingthefuture-discourse-group-tag-ti-of-the-day-Thi",
+      "originalDate": "2025-10-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/my-first-line-was-about-to-be-cough-cough",
+    "title": "My first line was about to be “cough, cough, that is what TSN is for” 🤦‍♀️.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-02",
+    "excerpt": "My first line was about to be “cough, cough, that is what TSN is for” 🤦‍♀️.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/my-first-line-was-about-to-be-cough-cough.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/My-first-line-was-about-to-be-cough-cough-that-is-what-TSN-is-for-I-am-clearly-desensitized-to-their-coughing",
+      "originalDate": "2025-10-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/please-provide-me-feedback-on-the-worlds-first-ever",
+    "title": "Please provide me feedback on the “world's first-ever TI economy!” You can leave a…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-02",
+    "excerpt": "Please provide me feedback on the “world's first-ever TI economy!” You can leave a comment on this thread, message me privately, or do an anonymous poll -",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/please-provide-me-feedback-on-the-worlds-first-ever.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Please-provide-me-feedback-on-the-worlds-first-ever-TI-economy-You-can-leave-a-comment-on-this-thread-message-me-p",
+      "originalDate": "2025-10-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/rally-for-tammy-walker",
+    "title": "Rally for… Tammy Walker!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-02",
+    "excerpt": "Rally for… Tammy Walker! If you are a TI, you are NOT alone.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/rally-for-tammy-walker.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Rally-for-Tammy-Walker-https-www-quora-com-profile-Tammy-Walker-187-If-you-are-a-TI-you-are-NOT-alone-If-you",
+      "originalDate": "2025-10-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/rally-for-view-list-i-created-a-new-tag",
+    "title": "Rally for… view list I created a new tag in the forum: “Rally for…” Why?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-02",
+    "excerpt": "Rally for… view list I created a new tag in the forum: “Rally for…” Why?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/rally-for-view-list-i-created-a-new-tag.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Rally-for-view-list-I-created-a-new-tag-in-the-forum-Rally-for-Why-I-get-it-we-are-all-TIs-and-the-attacks-are",
+      "originalDate": "2025-10-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/ti-of-the-day-ione-ione-is-a-counselor",
+    "title": "TI of the Day: Ione Ione is a counselor, and as quoted: 'I speak the truth as I know it.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-02",
+    "excerpt": "TI of the Day: Ione Ione is a counselor, and as quoted: 'I speak the truth as I know it.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/ti-of-the-day-ione-ione-is-a-counselor.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/TI-of-the-Day-Ione-https-www-quora-com-profile-Ione-40-Ione-is-a-counselor-and-as-quoted-I-speak-the-truth-a",
+      "originalDate": "2025-10-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/are-gangstalkers-protected-by-real-investigators",
     "title": "Are gangstalkers protected by real investigators?",
     "repo": "chargingthefuture/wiki-site",
@@ -9768,6 +21909,25 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/find-of-the-day-food-pantries-nationwide-within-the",
+    "title": "Find of the day Food Pantries Nationwide within the US Android Apple",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-30",
+    "excerpt": "Find of the day Food Pantries Nationwide within the US Android Apple",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/find-of-the-day-food-pantries-nationwide-within-the.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Find-of-the-day-Food-Pantries-Nationwide-within-the-US-Android-https-play-google-com-store-apps-details-id-com-plen",
+      "originalDate": "2025-09-30",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/given-the-challenge-of-infiltration-what-unique-strategies-do-you-use",
     "title": "Given the challenge of infiltration, what unique strategies do you use to build and maintain trust within the…",
     "repo": "chargingthefuture/wiki-site",
@@ -9788,6 +21948,139 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/i-am-at-a-plasma-donation-center-getting-ready",
+    "title": "I am at a plasma donation center getting ready to donate and they started a DEW attack.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-28",
+    "excerpt": "I am at a plasma donation center getting ready to donate and they started a DEW attack.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-am-at-a-plasma-donation-center-getting-ready.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-am-at-a-plasma-donation-center-getting-ready-to-donate-and-they-started-a-DEW-attack-The-vibrating-to-increase-my-hea",
+      "originalDate": "2025-09-28",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/a-ti-circular-economy-is-a-reasonable-possibility-countries",
+    "title": "A TI Circular economy is a reasonable possibility Countries with populations around 2…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-27",
+    "excerpt": "A TI Circular economy is a reasonable possibility Countries with populations around 2 million residents include: 1.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/a-ti-circular-economy-is-a-reasonable-possibility-countries.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/A-TI-Circular-economy-is-a-reasonable-possibility-Countries-with-populations-around-2-million-residents-include-1-La",
+      "originalDate": "2025-09-27",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/newcomers-please-read-with-quora-banning-my-account-many",
+    "title": "Newcomers Please Read With Quora banning my account, many posts were deleted.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-27",
+    "excerpt": "Newcomers Please Read With Quora banning my account, many posts were deleted.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/newcomers-please-read-with-quora-banning-my-account-many.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Newcomers-Please-Read-With-Quora-banning-my-account-many-posts-were-deleted-https-tiskillsnetwork-quora-com-As-soo",
+      "originalDate": "2025-09-27",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/poll-what-have-gang-stalkers-damaged-in-your-car",
+    "title": "Poll: what have gang stalkers damaged in your car?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-27",
+    "excerpt": "Poll: what have gang stalkers damaged in your car? Twenty five people sign up and there will be a TI traveling mechanic app made.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/poll-what-have-gang-stalkers-damaged-in-your-car.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Poll-what-have-gang-stalkers-damaged-in-your-car-Twenty-five-people-sign-up-and-there-will-be-a-TI-traveling-mechanic",
+      "originalDate": "2025-09-27",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/thread-on-securing-your-phone-and-computer-snave-seer",
+    "title": "Thread on securing your phone and computer Snave Seer presented a great suggestion on…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-27",
+    "excerpt": "Thread on securing your phone and computer Snave Seer presented a great suggestion on providing resources for securing our devices!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/thread-on-securing-your-phone-and-computer-snave-seer.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Thread-on-securing-your-phone-and-computer-Snave-Seer-https-www-quora-com-profile-Snave-Seer-presented-a-great-su",
+      "originalDate": "2025-09-27",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/any-tis-in-new-york-city-that-want-to",
+    "title": "Any TIs in New York City that want to meet up next week?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-26",
+    "excerpt": "Any TIs in New York City that want to meet up next week?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/any-tis-in-new-york-city-that-want-to.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Any-TIs-in-New-York-City-that-want-to-meet-up-next-week",
+      "originalDate": "2025-09-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/tis-you-can-dm-me-if-i-miss-banning",
+    "title": "TIs you can DM me if I miss banning an account like this from the space.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-26",
+    "excerpt": "TIs you can DM me if I miss banning an account like this from the space.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/tis-you-can-dm-me-if-i-miss-banning.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/TIs-you-can-DM-me-if-I-miss-banning-an-account-like-this-from-the-space-I-will-not-delete-the-post-so-we-can-recognize",
+      "originalDate": "2025-09-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "discourse-migrate/off-grid-living-on-the-go",
     "title": "Off grid living on the go",
     "repo": "chargingthefuture/chargingthefuture",
@@ -9803,6 +22096,101 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 44
+  },
+  {
+    "slug": "farah-brunache/honey-pots-and-platonic-honey-pots-my-responses-ended",
+    "title": "Honey pots and platonic honey pots My responses ended up being lengthy.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-25",
+    "excerpt": "Honey pots and platonic honey pots My responses ended up being lengthy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/honey-pots-and-platonic-honey-pots-my-responses-ended.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Honey-pots-and-platonic-honey-pots-My-responses-ended-up-being-lengthy-So-I-decided-to-make-them-an-individual-post",
+      "originalDate": "2025-09-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-used-to-think-there-was-a-people-category",
+    "title": "I used to think there was a people category of “cannot be bought.” My responses ended up…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-25",
+    "excerpt": "I used to think there was a people category of “cannot be bought.” My responses ended up being lengthy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-used-to-think-there-was-a-people-category.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-used-to-think-there-was-a-people-category-of-cannot-be-bought-My-responses-ended-up-being-lengthy-So-I-decided-to",
+      "originalDate": "2025-09-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/member-of-the-day-brad-rice-updated-quora-profile",
+    "title": "Member of the Day: Brad Rice Updated Quora profile: BRadhd Skill: mechanic I think car…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-25",
+    "excerpt": "Member of the Day: Brad Rice Updated Quora profile: BRadhd Skill: mechanic I think car sabotage is in the top three destructive tactics of TIs by the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/member-of-the-day-brad-rice-updated-quora-profile.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Member-of-the-Day-Brad-Rice-https-www-quora-com-profile-Brad-Rice-102-Updated-Quora-profile-https-www-quora",
+      "originalDate": "2025-09-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/off-grid-living-on-the-go-tips-thanks-to",
+    "title": "Off grid living on the go, tips thanks to Snave Seer - Canada you can camp on Crown Land…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-25",
+    "excerpt": "Off grid living on the go, tips thanks to Snave Seer - Canada you can camp on Crown Land for free for 21 days per site.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/off-grid-living-on-the-go-tips-thanks-to.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Off-grid-living-on-the-go-tips-thanks-to-Snave-Seer-https-www-quora-com-profile-Snave-Seer-Canada-you-can-cam",
+      "originalDate": "2025-09-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/when-tis-are-together-it-is-harder-for-gang",
+    "title": "When TIs are together it is harder for gang stalkers to falsely accuse us of disturbing…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-25",
+    "excerpt": "When TIs are together it is harder for gang stalkers to falsely accuse us of disturbing public and private locations.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/when-tis-are-together-it-is-harder-for-gang.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/When-TIs-are-together-it-is-harder-for-gang-stalkers-to-falsely-accuse-us-of-disturbing-public-and-private-locations-As",
+      "originalDate": "2025-09-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "discourse-migrate/farah-s-microblog-september-25-2025",
@@ -9850,6 +22238,44 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 41
   },
   {
+    "slug": "farah-brunache/i-will-die-on-this-hill",
+    "title": "I will die on this hill.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-24",
+    "excerpt": "I will die on this hill. TIs, we need to focus on us and not them.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-will-die-on-this-hill.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-will-die-on-this-hill-TIs-we-need-to-focus-on-us-and-not-them-It-is-why-I-created-a-different-type-of-TI-space-on-Q",
+      "originalDate": "2025-09-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/ti-of-the-day-tommy-gumbert-ti-skills-economy",
+    "title": "TI of the Day, Tommy Gumbert TI Skills Economy profile: Skill: HVAC tech Tommy is a…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-24",
+    "excerpt": "TI of the Day, Tommy Gumbert TI Skills Economy profile: Skill: HVAC tech Tommy is a seasoned tech who is still sharp.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/ti-of-the-day-tommy-gumbert-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/TI-of-the-Day-Tommy-Gumbert-https-www-quora-com-profile-Tommy-Gumbert-TI-Skills-Economy-profile-https-app-c",
+      "originalDate": "2025-09-24",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "the-ti-economy",
     "title": "The TI economy!",
     "repo": "chargingthefuture/chargingthefuture",
@@ -9865,6 +22291,44 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 40
+  },
+  {
+    "slug": "farah-brunache/i-am-creating-a-list-of-ti-car-mechanics",
+    "title": "I am creating a list of TI car mechanics, from what I know HVAC is high demand.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-23",
+    "excerpt": "I am creating a list of TI car mechanics, from what I know HVAC is high demand. A list of TI HVAC techs we can call on might be useful. Anyone else agree?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-am-creating-a-list-of-ti-car-mechanics.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-am-creating-a-list-of-TI-car-mechanics-from-what-I-know-HVAC-is-high-demand-A-list-of-TI-HVAC-techs-we-can-call-on-m",
+      "originalDate": "2025-09-23",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-am-going-to-keep-the-original-post-for",
+    "title": "I am going to keep the original post for prosperity.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-23",
+    "excerpt": "I am going to keep the original post for prosperity. It is beneficial to see the progress of our movement.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-am-going-to-keep-the-original-post-for.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/UPDATE",
+      "originalDate": "2025-09-23",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/this-one-is-a-heads-up-to-all-the-creators-of-pages-dedicated-to-expos-2",
@@ -10026,6 +22490,25 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 35
+  },
+  {
+    "slug": "farah-brunache/tis-already-know-to-always-have-a-camera-on",
+    "title": "TIs already know to always have a camera on you.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-21",
+    "excerpt": "TIs already know to always have a camera on you. As every day they will try some provocation for their slander campaign.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/tis-already-know-to-always-have-a-camera-on.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/TIs-already-know-to-always-have-a-camera-on-you-As-every-day-they-will-try-some-provocation-for-their-slander-campaign",
+      "originalDate": "2025-09-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "farah-brunache/do-gang-stalkers-move-up-in-rank",
@@ -10821,6 +23304,63 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 16
   },
   {
+    "slug": "farah-brunache/circular-economy-activity-is-not-allowed-on-quora-so",
+    "title": "Circular economy activity is not allowed on Quora, so I moved the “Craigslist” feature…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-19",
+    "excerpt": "Circular economy activity is not allowed on Quora, so I moved the “Craigslist” feature here: If you need an invite, let me know.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/circular-economy-activity-is-not-allowed-on-quora-so.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Circular-economy-activity-is-not-allowed-on-Quora-so-I-moved-the-Craigslist-feature-here-https-chargingthefuture",
+      "originalDate": "2025-09-19",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/hello-everyone",
+    "title": "Hello everyone!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-19",
+    "excerpt": "Hello everyone! SupportMatch was released on September 14th, 2025, and we have not reached 25 users yet.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/hello-everyone.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Hello-everyone-SupportMatch-was-released-on-September-14th-2025-and-we-have-not-reached-25-users-yet-Which-is-by-no",
+      "originalDate": "2025-09-19",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/tis-looking-for-work-consider-healthy-volunteer-clinical-trials",
+    "title": "TIs looking for work - consider Healthy Volunteer Clinical Trials and get paid up to $45k.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-19",
+    "excerpt": "TIs looking for work - consider Healthy Volunteer Clinical Trials and get paid up to $45k.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/tis-looking-for-work-consider-healthy-volunteer-clinical-trials.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/TIs-looking-for-work-consider-Healthy-Volunteer-Clinical-Trials-and-get-paid-up-to-45k-For-example-https-www-ico",
+      "originalDate": "2025-09-19",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/are-there-any-targeted-individuals-in-oakland-ca-that-are-currently-be",
     "title": "Are there any targeted individuals in Oakland CA that are currently being stalked and harassed",
     "repo": "chargingthefuture/wiki-site",
@@ -11101,6 +23641,25 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 3
   },
   {
+    "slug": "farah-brunache/ti-skills-network-community-update-3-september-18-2025",
+    "title": "TI Skills Network Community Update #3 - September 18, 2025 Check the link in my bio.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-18",
+    "excerpt": "TI Skills Network Community Update #3 - September 18, 2025 Check the link in my bio.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/ti-skills-network-community-update-3-september-18-2025.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/TI-Skills-Network-Community-Update-3-September-18-2025-Check-the-link-in-my-bio-I-have-a-dedicated-space-now-for-c",
+      "originalDate": "2025-09-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/could-a-targeted-individual-be-also-active-in-gang-stalking",
     "title": "Could a targeted individual be also active in gang stalking?",
     "repo": "chargingthefuture/wiki-site",
@@ -11214,6 +23773,158 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 1
   },
   {
+    "slug": "farah-brunache/any-tis-looking-to-do-a-fitness-challenge",
+    "title": "Any TIs looking to do a fitness challenge?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-17",
+    "excerpt": "Any TIs looking to do a fitness challenge? I started today jump roping.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/any-tis-looking-to-do-a-fitness-challenge.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Any-TIs-looking-to-do-a-fitness-challenge-I-started-today-jump-roping-Specifically-I-got-this-one-https-a-co-d-1P",
+      "originalDate": "2025-09-17",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/first-i-will-keep-this-quora-space-open",
+    "title": "First, I will keep this Quora space open.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-17",
+    "excerpt": "First, I will keep this Quora space open. However, I will start posting on multiple platforms as the gstalkers will continue to try to get us de-platformed…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/first-i-will-keep-this-quora-space-open.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/First-I-will-keep-this-Quora-space-open-However-I-will-start-posting-on-multiple-platforms-as-the-gstalkers-will-con",
+      "originalDate": "2025-09-17",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/friendly-reminder-to-export-your-data-on-all-social",
+    "title": "Friendly reminder to export your data on all social media websites periodically.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-17",
+    "excerpt": "Friendly reminder to export your data on all social media websites periodically. Just in case your account is targeted and deleted without notice.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/friendly-reminder-to-export-your-data-on-all-social.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Friendly-reminder-to-export-your-data-on-all-social-media-websites-periodically-Just-in-case-your-account-is-targeted-a",
+      "originalDate": "2025-09-17",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/hold-on-post-covid-virtual-practice-is-more-accepted",
+    "title": "Hold on, post COVID virtual practice is more accepted.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-17",
+    "excerpt": "Hold on, post COVID virtual practice is more accepted. I can create apps.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/hold-on-post-covid-virtual-practice-is-more-accepted.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Hold-on-post-COVID-virtual-practice-is-more-accepted-I-can-create-apps-And-there-are-two-million-plus-TIs-Just-sayin",
+      "originalDate": "2025-09-17",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/if-you-find-the-video-before-me-please-share",
+    "title": "If you find the video before me, please share.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-17",
+    "excerpt": "If you find the video before me, please share. The brother of a rapper was a TI.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/if-you-find-the-video-before-me-please-share.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/If-you-find-the-video-before-me-please-share-The-brother-of-a-rapper-was-a-TI-There-was-a-documentary-of-some-kind-ab",
+      "originalDate": "2025-09-17",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/nonsensical-transformation-of-public-spaces-like-converting-handicap-parking",
+    "title": "Nonsensical transformation of public spaces - like converting handicap parking spaces…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-17",
+    "excerpt": "Nonsensical transformation of public spaces - like converting handicap parking spaces into smoking stations is a good example of how to tell if you're in an…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/nonsensical-transformation-of-public-spaces-like-converting-handicap-parking.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Nonsensical-transformation-of-public-spaces-like-converting-handicap-parking-spaces-into-smoking-stations-is-a-good-ex-1",
+      "originalDate": "2025-09-17",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/supportmatch-only-filters-by-gender",
+    "title": "SupportMatch only filters by gender.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-17",
+    "excerpt": "SupportMatch only filters by gender. I received feedback about being matched with people globally.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/supportmatch-only-filters-by-gender.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/SupportMatch-only-filters-by-gender-I-received-feedback-about-being-matched-with-people-globally-Are-there-people-inte",
+      "originalDate": "2025-09-17",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/tip-for-those-being-psyoped-on-youtube",
+    "title": "Tip for those being psyop’ed on YouTube.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-17",
+    "excerpt": "Tip for those being psyop’ed on YouTube. You can search videos by date, like this: jump roping before:2024-12-31 I use that date because the overt gang…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/tip-for-those-being-psyoped-on-youtube.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Tip-for-those-being-psyop-ed-on-YouTube-You-can-search-videos-by-date-like-this-jump-roping-before-2024-12-31-I-use",
+      "originalDate": "2025-09-17",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/what-are-some-common-misconceptions-about-gang-stalking-and-why-do-peo",
     "title": "What are some common misconceptions about gang stalking, and why do people often associate it with spiritual…",
     "repo": "chargingthefuture/wiki-site",
@@ -11273,6 +23984,82 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/keeping-costs-down-and-affordable",
+    "title": "Keeping costs down and affordable.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-16",
+    "excerpt": "Keeping costs down and affordable. There are no email notifications in the app(s).",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/keeping-costs-down-and-affordable.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Keeping-costs-down-and-affordable-There-are-no-email-notifications-in-the-app-s-For-one-I-want-to-avoid-any-gstalker",
+      "originalDate": "2025-09-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/support-match-has-in-app-messaging-you-can-message",
+    "title": "Support Match has in-app messaging You can message your matches directly on the platform…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-16",
+    "excerpt": "Support Match has in-app messaging You can message your matches directly on the platform and coordinate how you would like to connect with each other.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/support-match-has-in-app-messaging-you-can-message.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Support-Match-has-in-app-messaging-You-can-message-your-matches-directly-on-the-platform-and-coordinate-how-you-would-l",
+      "originalDate": "2025-09-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/ti-skills-network-community-update-2-september-16-2025",
+    "title": "TI Skills Network Community Update #2 - September 16, 2025 I received an email from Quora…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-16",
+    "excerpt": "TI Skills Network Community Update #2 - September 16, 2025 I received an email from Quora they said how I am using the Quora space is not allowed.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/ti-skills-network-community-update-2-september-16-2025.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/TI-Skills-Network-Community-Update-2-September-16-2025-I-received-an-email-from-Quora-they-said-how-I-am-using-the",
+      "originalDate": "2025-09-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/we-have-people-waiting-in-the-app-to-be",
+    "title": "We have people waiting in the app to be matched, at Support Match.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-16",
+    "excerpt": "We have people waiting in the app to be matched, at Support Match.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/we-have-people-waiting-in-the-app-to-be.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/We-have-people-waiting-in-the-app-to-be-matched-at-Support-Match-Pending-matches-are-because-they-do-not-have-a-gende",
+      "originalDate": "2025-09-16",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/would-gang-stalkers-set-someone-up-to-go-to-prison-2",
     "title": "Would gang stalkers set someone up to go to prison",
     "repo": "chargingthefuture/wiki-site",
@@ -11289,6 +24076,63 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-09-16",
       "status": "erased",
       "kind": "answer-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/as-shown-in-the-video-after-you-sign-up",
+    "title": "As shown in the video after you sign up please go to your Profile and update your gender.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-15",
+    "excerpt": "As shown in the video after you sign up please go to your Profile and update your gender.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/as-shown-in-the-video-after-you-sign-up.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/As-shown-in-the-video-after-you-sign-up-please-go-to-your-Profile-and-update-your-gender-The-only-matching-criteria-at",
+      "originalDate": "2025-09-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/quick-video-demo-preview-of-ti-support-match-app",
+    "title": "Quick video/demo preview of TI Support Match app: SupportMatch v1 Let me know if you want…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-15",
+    "excerpt": "Quick video/demo preview of TI Support Match app: SupportMatch v1 Let me know if you want an invite.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/quick-video-demo-preview-of-ti-support-match-app.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Quick-video-demo-preview-of-TI-Support-Match-app-SupportMatch-v1-https-chargingthefuture-wistia-com-medias-wg3al70",
+      "originalDate": "2025-09-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/ti-skills-network-community-update-1-september-15-2025",
+    "title": "TI Skills Network Community Update #1 - September 15, 2025 On September 14, 2025 TI…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-15",
+    "excerpt": "TI Skills Network Community Update #1 - September 15, 2025 On September 14, 2025 TI Support Match was released!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/ti-skills-network-community-update-1-september-15-2025.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/TI-Skills-Network-Community-Update-1-September-15-2025-On-September-14-2025-TI-Support-Match-was-released-Its-ann",
+      "originalDate": "2025-09-15",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -11365,6 +24209,25 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-09-15",
       "status": "erased",
       "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/as-soon-as-i-posted-the-ti-peer-support",
+    "title": "As soon as I posted the TI Peer Support Group URL, my account was banned: Pedigree101 I…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-14",
+    "excerpt": "As soon as I posted the TI Peer Support Group URL, my account was banned: Pedigree101 I have messaged Quora about lifting the ban.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/as-soon-as-i-posted-the-ti-peer-support.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/As-soon-as-I-posted-the-TI-Peer-Support-Group-URL-my-account-was-banned-https-www-quora-com-profile-Pedigree101-I-h",
+      "originalDate": "2025-09-14",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -13040,6 +25903,25 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/definitely-would-choose-an-rv-over-a-house",
+    "title": "Definitely would choose an RV over a house.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-27",
+    "excerpt": "Definitely would choose an RV over a house. If a house it would need to be with other TIs.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/definitely-would-choose-an-rv-over-a-house.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Definitely-would-choose-an-RV-over-a-house-If-a-house-it-would-need-to-be-with-other-TIs-Preferably-our-own-community",
+      "originalDate": "2025-08-27",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/do-you-agree-with-kayla-davis-comment-i-agree-with-it-houses-are-easy-2",
     "title": "Do you agree with Kayla Davis comment I agree with it Houses are easy now to be used as slow death traps for…",
     "repo": "chargingthefuture/wiki-site",
@@ -13176,6 +26058,120 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/gstalkers-stole-my-headphones-yesterday",
+    "title": "Gstalkers stole my headphones yesterday.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-26",
+    "excerpt": "Gstalkers stole my headphones yesterday. Today they had a police car follow me, while I was on foot!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/gstalkers-stole-my-headphones-yesterday.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Gstalkers-stole-my-headphones-yesterday-Today-they-had-a-police-car-follow-me-while-I-was-on-foot-While-also-texting",
+      "originalDate": "2025-08-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/have-any-other-targeted-individuals-wondered-if-theyre-targeted",
+    "title": "Have any other targeted individuals wondered if they’re targeted for something related to…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-26",
+    "excerpt": "Have any other targeted individuals wondered if they’re targeted for something related to extraterrestrials, in case they have been abducted or have alien…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/have-any-other-targeted-individuals-wondered-if-theyre-targeted.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Have-any-other-targeted-individuals-wondered-if-they-re-targeted-for-something-related-to-extraterrestrials-in-case-the",
+      "originalDate": "2025-08-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-am-willing-to-mentor-tis-only-in-creating",
+    "title": "I am willing to mentor TIs only in creating software products.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-26",
+    "excerpt": "I am willing to mentor TIs only in creating software products.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-am-willing-to-mentor-tis-only-in-creating.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-am-willing-to-mentor-TIs-only-in-creating-software-products-Is-there-anyone-else-who-will-consider-mentoring-taking",
+      "originalDate": "2025-08-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/if-applicable-which-dew-do-you-experience",
+    "title": "If applicable, which DEW do you experience?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-26",
+    "excerpt": "If applicable, which DEW do you experience? I will start with me, shaking/vibrating.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/if-applicable-which-dew-do-you-experience.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/If-applicable-which-DEW-do-you-experience-I-will-start-with-me-shaking-vibrating-Shaking-anything-I-touch-or-on-f",
+      "originalDate": "2025-08-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/my-14-day-ban-was-removed",
+    "title": "My 14 day ban was removed.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-26",
+    "excerpt": "My 14 day ban was removed. During the ban I used Pedigree101.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/my-14-day-ban-was-removed.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/My-14-day-ban-was-removed-During-the-ban-I-used-Pedigree101-https-www-quora-com-profile-Pedigree101-I-am-back-to",
+      "originalDate": "2025-08-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/what-is-a-circular-economy-within-the-context-of",
+    "title": "What is a circular economy, within the context of TSN (TI Skills Network)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-26",
+    "excerpt": "What is a circular economy, within the context of TSN (TI Skills Network)?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/what-is-a-circular-economy-within-the-context-of.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/What-is-a-circular-economy-within-the-context-of-TSN-TI-Skills-Network-I-am-creating-a-circular-economy-specificall",
+      "originalDate": "2025-08-26",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/do-other-ti-s-believe-that-once-their-numbers-are-so-large-that-the-us",
     "title": "Do other TI's believe that, once their numbers are so large, that the US will fall into utter Anarchy?",
     "repo": "chargingthefuture/wiki-site",
@@ -13251,6 +26247,63 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-08-26",
       "status": "erased",
       "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/gamers-any-tis-who-are-gamers",
+    "title": "Gamers Any TIs who are gamers?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-25",
+    "excerpt": "Gamers Any TIs who are gamers? Either play games or programs them?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/gamers-any-tis-who-are-gamers.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Gamers-Any-TIs-who-are-gamers-Either-play-games-or-programs-them",
+      "originalDate": "2025-08-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/reason-657899-on-why-i-am-creating-an-app",
+    "title": "Reason #657899 😂 on why I am creating an app for TIs to house with other TIs.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-25",
+    "excerpt": "Reason #657899 😂 on why I am creating an app for TIs to house with other TIs.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/reason-657899-on-why-i-am-creating-an-app.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Reason-657899-on-why-I-am-creating-an-app-for-TIs-to-house-with-other-TIs-https-www-quora-com-profile-CosmicWande",
+      "originalDate": "2025-08-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/with-a-circular-economy-of-tis-the-below-will",
+    "title": "With a circular economy of TIs the below will slowly no longer matter.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-25",
+    "excerpt": "With a circular economy of TIs the below will slowly no longer matter.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/with-a-circular-economy-of-tis-the-below-will.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/With-a-circular-economy-of-TIs-the-below-will-slowly-no-longer-matter-https-www-quora-com-profile-CosmicWanderer-Has",
+      "originalDate": "2025-08-25",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -15193,66 +28246,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "pedigree101/buying-a-house-with-tis-whats-the-status",
-    "title": "Buying a house with TIs: what's the status?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-06",
-    "excerpt": "Anyone know the status of this? First thought, one house is a start, but a sectioned-off community is needed for more defense.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/buying-a-house-with-tis-whats-the-status.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/Anyone-know-the-status-of-this-First-thought-one-house-is-a-start-but-a-sectioned-off-community-is-needed-for-more-d",
-      "originalDate": "2025-08-06",
-      "status": "erased",
-      "kind": "space-post",
-      "screenshot": "images/william-marcey-2025-08-06-looking-to-purchase-a-house-with-tis.jpg",
-      "screenshotAlt": "William Marcey's post in the Quora space 'Gang Stalking Worldwide' (Victims that have experienced or experiencing gang stalking, 28K followers), posted three years before the capture. The post reads: 'I am looking to purchase a house with TI's. We will come together and use a low down payment loan to purchase a house in the mid west. The house will be decent sized with decent land. Hit me up to discuss further. Men and women welcome. If you're weird or crazy you shall not be allowed in on this. With this plan we will be able to save tremendous amounts of money. We will be able to thwart attempts at harming us by having cohesion and numbers. We will have resources and time at our disposal to grow stronger, healthier and to completely remedy the gangstalking situation. much much more. Comment below. Let me know if private messaging is possible on this platform (I am not that familiar with a Quora). this username is NOT my real name it's an alias.' The post shows 1.6K views, 20 upvotes and 31 comments. Visible replies: B.R. Sycamore, 'Hell yeah. Where do I send the check?'; Mju, 'Yes I'm 100% in. Need to know when where how? I will give my life proudly for this fight so others to be free. I've been a target...'; Misc, 'I need a place where people understand what tf happened to me for the past 7 years'; Eric Kurtz, 'I'm all for it brother just let me know where it's about time we got together'; Heather in Katy, 'I'm interested'.",
-      "screenshotCredit": "William Marcey (https://gangstalkingworldwide.quora.com/I-am-looking-to-purchase-a-house-with-TI-s-We-will-come-together-and-use-a-low-down-payment-loan-to-purchase-a)"
-    }
-  },
-  {
-    "slug": "pedigree101/calling-ti-writers-help-spread-the-word",
-    "title": "Calling TI writers: help spread the word",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-06",
-    "excerpt": "Please let’s bring more awareness to this space. There are a lot of great writers; I am not one of them.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/calling-ti-writers-help-spread-the-word.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/Please-lets-bring-more-awareness-to-this-space-There-are-a-lot-of-great-writers-I-am-not-one-of-them-Which-TIs-are-g",
-      "originalDate": "2025-08-06",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "pedigree101/how-to-tell-if-there-are-tis-near-you",
-    "title": "How to tell if there are TIs near you",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-06",
-    "excerpt": "If you’re looking for a glimpse into whether there are TIs near you, here’s a start.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/how-to-tell-if-there-are-tis-near-you.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/If-you-re-looking-for-a-glimpse-into-if-there-are-TIs-near-you-here-s-a-start-By-the-way-there-are-multiple-TIs-near-y",
-      "originalDate": "2025-08-06",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
     "slug": "pedigree101/initiative-two-host-a-ti",
     "title": "Initiative two: host a TI",
     "repo": "chargingthefuture/wiki-site",
@@ -15408,6 +28401,66 @@ export const ARTICLES: ArticleMeta[] = [
       "screenshot": "images/myr-2025-08-06-lets-do-something-about-this.jpg",
       "screenshotAlt": "MYR's post in the Quora space 'US-PSYOPS-TARGETED-INDIVIDUALS' (Share experience of targeted individuals from all walks of life, 6.2K followers), posted two years before the capture. MYR's own words read: 'Let's do something about this! I'm sick and tired of just sharing and talking.. Please'. The post carries a shared card from r/TargetedEnergyWeapons by u/targetsmilemore, titled 'A video that explains the conspiracy' under the flair 'Directed Energy Weapons', which reads: 'In order to stop this conspiracy against us, we need a large number of people to believe we're right. I think the best way to make that happen is to create an explainer video that goes viral. Does a video like that already exist that I can share with others to convince them? If it doesn't, maybe I could create a documentary that would fulfill that objective. If others here are willing to participate, maybe I could interview some of you to get audiovisual testimony. That would be more convincing than the group of us discussing the problem here on this sub. Let me know what you think of this idea or if you already have a video I could show to people.' The post shows 7.4K views, 232 upvotes, 9 shares and 129 comments. Visible replies include Sheila, Janine Saunders, Tammie Robertson Harvey, OinkOink82, VIC TERAJMEH and Golden Dime Golden Ruler of The Most High.",
       "screenshotCredit": "MYR (https://uspsyopstargetedindividuals.quora.com/Let-s-do-something-about-this-I-m-sick-and-tired-of-just-sharing-and-talking-Please)"
+    }
+  },
+  {
+    "slug": "pedigree101/buying-a-house-with-tis-whats-the-status",
+    "title": "Buying a house with TIs: what's the status?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-06",
+    "excerpt": "Anyone know the status of this? First thought, one house is a start, but a sectioned-off community is needed for more defense.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/buying-a-house-with-tis-whats-the-status.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Anyone-know-the-status-of-this-First-thought-one-house-is-a-start-but-a-sectioned-off-community-is-needed-for-more-d",
+      "originalDate": "2025-08-06",
+      "status": "erased",
+      "kind": "space-post",
+      "screenshot": "images/william-marcey-2025-08-06-looking-to-purchase-a-house-with-tis.jpg",
+      "screenshotAlt": "William Marcey's post in the Quora space 'Gang Stalking Worldwide' (Victims that have experienced or experiencing gang stalking, 28K followers), posted three years before the capture. The post reads: 'I am looking to purchase a house with TI's. We will come together and use a low down payment loan to purchase a house in the mid west. The house will be decent sized with decent land. Hit me up to discuss further. Men and women welcome. If you're weird or crazy you shall not be allowed in on this. With this plan we will be able to save tremendous amounts of money. We will be able to thwart attempts at harming us by having cohesion and numbers. We will have resources and time at our disposal to grow stronger, healthier and to completely remedy the gangstalking situation. much much more. Comment below. Let me know if private messaging is possible on this platform (I am not that familiar with a Quora). this username is NOT my real name it's an alias.' The post shows 1.6K views, 20 upvotes and 31 comments. Visible replies: B.R. Sycamore, 'Hell yeah. Where do I send the check?'; Mju, 'Yes I'm 100% in. Need to know when where how? I will give my life proudly for this fight so others to be free. I've been a target...'; Misc, 'I need a place where people understand what tf happened to me for the past 7 years'; Eric Kurtz, 'I'm all for it brother just let me know where it's about time we got together'; Heather in Katy, 'I'm interested'.",
+      "screenshotCredit": "William Marcey (https://gangstalkingworldwide.quora.com/I-am-looking-to-purchase-a-house-with-TI-s-We-will-come-together-and-use-a-low-down-payment-loan-to-purchase-a)"
+    }
+  },
+  {
+    "slug": "pedigree101/calling-ti-writers-help-spread-the-word",
+    "title": "Calling TI writers: help spread the word",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-06",
+    "excerpt": "Please let’s bring more awareness to this space. There are a lot of great writers; I am not one of them.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/calling-ti-writers-help-spread-the-word.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Please-lets-bring-more-awareness-to-this-space-There-are-a-lot-of-great-writers-I-am-not-one-of-them-Which-TIs-are-g",
+      "originalDate": "2025-08-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/how-to-tell-if-there-are-tis-near-you",
+    "title": "How to tell if there are TIs near you",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-06",
+    "excerpt": "If you’re looking for a glimpse into whether there are TIs near you, here’s a start.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/how-to-tell-if-there-are-tis-near-you.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/If-you-re-looking-for-a-glimpse-into-if-there-are-TIs-near-you-here-s-a-start-By-the-way-there-are-multiple-TIs-near-y",
+      "originalDate": "2025-08-06",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -15618,6 +28671,63 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-08-05",
       "status": "erased",
       "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/this-space-is-only-for-tis",
+    "title": "This space is only for TIs.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-04",
+    "excerpt": "This space is only for TIs. If you’re not a TI or a degenerate gang stalker and would like to help anonymously please donate: Donate to me the space admin:…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/this-space-is-only-for-tis.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/This-space-is-only-for-TIs-If-you-re-not-a-TI-or-a-degenerate-gang-stalker-and-would-like-to-help-anonymously-please-d",
+      "originalDate": "2025-08-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/welcome-to-my-first-quora-space",
+    "title": "Welcome to my first Quora space.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-04",
+    "excerpt": "Welcome to my first Quora space. My gang stalking became extreme in 2024.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/welcome-to-my-first-quora-space.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Welcome-to-my-first-Quora-space-My-gang-stalking-became-extreme-in-2024-The-overt-stalking-started-around-2022-but-20",
+      "originalDate": "2025-08-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/what-this-space-is-about-purpose-of-this-space",
+    "title": "What this space is about: - Purpose of this space: To help TIs survive and eventually…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-04",
+    "excerpt": "What this space is about: - Purpose of this space: To help TIs survive and eventually thrive - Only TIs can be contributors to this space.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/what-this-space-is-about-purpose-of-this-space.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/What-this-space-is-about-Purpose-of-this-space-To-help-TIs-survive-and-eventually-thrive-Only-TIs-can-be-contri",
+      "originalDate": "2025-08-04",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -16131,6 +29241,44 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-08-04",
       "status": "erased",
       "kind": "answer-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-invited-someone-to-this-new-space-i-created",
+    "title": "I invited someone to this new space I created and they interpreted it as me charging TIs…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-03",
+    "excerpt": "I invited someone to this new space I created and they interpreted it as me charging TIs for information and trying to profit off our plight.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-invited-someone-to-this-new-space-i-created.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-invited-someone-to-this-new-space-I-created-and-they-interpreted-it-as-me-charging-TIs-for-information-and-trying-to-p",
+      "originalDate": "2025-08-03",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/to-get-things-started",
+    "title": "To get things started.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-03",
+    "excerpt": "To get things started. List your top three skills or services you can provide.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/to-get-things-started.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/To-get-things-started-List-your-top-three-skills-or-services-you-can-provide-This-way-other-TIs-can-know-if-they-shoul",
+      "originalDate": "2025-08-03",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
