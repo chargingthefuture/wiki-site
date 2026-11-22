@@ -39,6 +39,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "weavers-of-the-commons",
+    "title": "Weavers of the Commons",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-11-22",
+    "excerpt": "Weavers of the Commons is a badge for members who steadily deliver real help to other members. Here is how it is earned, what it opens, and what it never shows.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/weavers-of-the-commons.md",
+    "teaser": "Weavers of the Commons is a badge for members who steadily deliver real help to other members, across the app and over time. It is earned from exchanges that delivered something, such as a ride, a stay, an answered call, or a small task the person who asked said helped. There is no application, no way to buy it, and nobody gets it by hand, the owner included. Once earned it is permanent, and it is removed only for cause. No score is shown anywhere. It shows as a braid on a claimed Directory profile, and it opens pictures and links in posts and the Weavers room.",
+    "topics": [
+      "community",
+      "skills-economy"
+    ],
+    "number": 461
+  },
+  {
     "slug": "one-small-task-on-today",
     "title": "One small task, on Today",
     "repo": "chargingthefuture/wiki-site",

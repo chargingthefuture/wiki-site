@@ -77,7 +77,7 @@ TRACKER: 21 full post, 6 teaser, 7 skipped, 10 to re-record.
 | 2026-08-28 | rfs-teaching-and-childcare | Skipped |  |
 | 2026-08-28 | what-about-school | Teaser | 3:07 (the full post would be about 10:25) |
 
-STILL TO RECORD: 84 posts (10 of them re-recordings).
+STILL TO RECORD: 85 posts (10 of them re-recordings).
 
 ==================== 2026-08-20 · teaser (the full post is 9,071 characters) ====================
 
@@ -2465,3 +2465,38 @@ Writing in a card on Today is open from the day you sign in. After two weeks it 
 Peace Battle 2.
 
 Peace Battle 2 asks you to show up with your percent.
+
+==================== 2026-11-22 ====================
+
+weavers-of-the-commons
+
+Weavers of the Commons.
+
+Weavers of the Commons is a badge for members who steadily deliver real help to other members, across the app and over time. Anyone can earn it.
+
+How it is earned.
+
+From exchanges that delivered something to another member: a ride given, a stay hosted, a request fulfilled, a call answered, a skill taught, a small task done toward somebody's ask that the person who asked said helped. A rare, large thing, like hosting a stay, weighs more than a small, frequent one.
+
+Talk does not count. Neither does agreeing with something somebody else posted.
+
+Three things keep it to steady help rather than one burst of it. The account has to be at least 90 days old. The help has to reach across at least three parts of the app. And it has to reach at least five different people, so two members cannot earn it for each other. Only help given to approved members who are not new themselves counts.
+
+How it is not earned.
+
+There is no application and no way to buy it. Nobody gets it by hand, the owner included.
+
+What it shows.
+
+A braid next to the member's name on their claimed Directory profile. Tapping it says what the badge means and how it is earned.
+
+No score is shown anywhere, to anybody. There are no points, tiers or rankings. A member without the badge sees nothing about it: no locked door, no "not yet".
+
+What it opens.
+
+Pictures and links in posts.
+The Weavers of the Commons room on Today, a private room for badge holders. It opens once enough members hold the badge.
+
+Once earned.
+
+It is permanent. It is removed only for cause, by an admin, with a reason.
