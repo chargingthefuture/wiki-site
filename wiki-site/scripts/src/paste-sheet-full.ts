@@ -84,7 +84,7 @@ function main() {
     const slug = e.meta!.slug || e.file.replace(/\.md$/i, '');
     // A migrated page keeps its original repo namespace in its address (Dictionary lives under
     // chargingthefuture/, not wiki-site/), so the link is built from the registry's repo.
-    const url = `${SITE}/${e.repo}/${encodeURIComponent(slug)}`;
+    const url = `${SITE}/${e.repo}/${encodeURIComponent(slug).replace(/'/g, '%27')}`;
     return [
       '='.repeat(78),
       `${e.meta!.date} · ${e.meta!.title}`,

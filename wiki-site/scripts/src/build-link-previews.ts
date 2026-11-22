@@ -81,7 +81,7 @@ function main(): void {
     // the path Pages looks up for that address.
     write(
       `article/${shortRepo}/${slug}.html`,
-      withAddress(template, `${SITE}/article/${shortRepo}/${encodeURIComponent(slug)}`),
+      withAddress(template, `${SITE}/article/${shortRepo}/${encodeURIComponent(slug).replace(/'/g, '%27')}`),
     );
   }
 

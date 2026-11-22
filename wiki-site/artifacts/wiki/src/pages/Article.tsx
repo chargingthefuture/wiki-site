@@ -201,7 +201,7 @@ export default function Article() {
               </div>
             </div>
 
-            <FiresideConversation repo={repo} slug={slug} title={meta ? meta.title : ""} />
+            <FiresideConversation repo={repo} slug={meta ? meta.slug : slug} title={meta ? meta.title : ""} />
           </motion.article>
         )}
       </div>
