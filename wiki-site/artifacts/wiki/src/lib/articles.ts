@@ -39,6 +39,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "one-small-task-on-today",
+    "title": "One small task, on Today",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-11-22",
+    "excerpt": "The goal board is now asks on Today. Post what you need, break it into small tasks, and anybody can take one from a phone in under half an hour.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/one-small-task-on-today.md",
+    "teaser": "Most of a Targeted Individual's day goes to the attacks and to what they force, and what is left is small. It is enough when it is not all one person's. In the new version of the app, that part of the day goes into asks on Today. You post what you need, break it into small tasks somebody could do from a phone in under half an hour, and anybody can take one. Each ask carries its own conversation, public to start. The person who asked decides whether it helped. Writing in a card is open from the day you sign in.",
+    "topics": [
+      "community",
+      "skills-economy"
+    ],
+    "number": 460
+  },
+  {
     "slug": "what-petitions-do-you-know-of",
     "title": "What petitions do you know of?",
     "repo": "chargingthefuture/wiki-site",
