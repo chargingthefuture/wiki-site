@@ -147,7 +147,7 @@ function collect(): Entry[] {
 /** The article's address, matching getArticleUrl in the generated registry. */
 function articleUrl(repo: string, slug: string): string {
   const shortRepo = repo.split('/')[1] || repo;
-  return `${SITE}/article/${shortRepo}/${encodeURIComponent(slug)}`;
+  return `${SITE}/article/${shortRepo}/${encodeURIComponent(slug).replace(/'/g, '%27')}`;
 }
 
 /**

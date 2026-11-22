@@ -59,7 +59,7 @@ function main() {
         title: page.title,
         date: page.date,
         collection: page.collection as string,
-        url: `${SITE}/${repo}/${encodeURIComponent(page.slug)}`,
+        url: `${SITE}/${repo}/${encodeURIComponent(page.slug).replace(/'/g, '%27')}`,
         teaser: page.teaser || page.excerpt || null,
         text: toPasteable(raw),
       };
