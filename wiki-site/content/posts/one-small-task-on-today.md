@@ -37,7 +37,7 @@ Each ask carries its own conversation about that ask, public to start. A private
 
 ## Who decides it helped
 
-The person who asked. When you post what you found, they mark it: it helped, keep it, or send it back. If it helped, it counts toward the day's 384, the members who delivered something to another member on one day, and toward the helper's Weavers of the Commons badge. Both are on the [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary). Nobody else scores your work, and there is no number on anybody.
+The person who asked. When you post what you found, they mark it: it helped, keep it, or send it back. If it helped, it counts toward the day's 384, the members who delivered something to another member on one day. It also counts toward the helper's Weavers of the Commons badge, which opens the Weavers room on Today to the members who hold it. Both are on the [Dictionary](https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary). Nobody else scores your work, and there is no number on anybody.
 
 ## Before the check
 
