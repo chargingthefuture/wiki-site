@@ -270,12 +270,12 @@ messages:
 
   - id: pp-no-chat
     feature: Today
-    title: No group chat, on purpose
+    title: Each ask carries its own conversation
     link: https://app.lagatos.com/today
     body: |-
-      Group chats for this have been tried three ways and none of them held. Who shows up depends on how hard the day was, so the chat is a different room every time, and it slides from doing into comparing notes about the attacks, which already have most of the day.
+      Each ask on Today carries its own conversation about that ask, public to start, and quick answers in place of most comments: I can help, I know someone, This helped me.
 
-      Today has no group chat and no direct messages. Each ask carries its own conversation about that ask, and quick answers in place of most comments: I can help, I know someone, This helped me.
+      A private conversation opens once both people agree to it. To help, you answer the ask in front of you.
 
   - id: op-figure
     feature: One Percent
