@@ -47,7 +47,7 @@ export const ARTICLES: ArticleMeta[] = [
     "category": "Community",
     "collection": "posts",
     "path": "posts/one-small-task-on-today.md",
-    "teaser": "Most of a Targeted Individual's day goes to the attacks and to what they force, and what is left is small. It is enough when it is not all one person's. In the new version of the app, that part of the day goes into asks on Today. You post what you need, break it into small tasks somebody could do from a phone in under half an hour, and anybody can take one. Each ask carries its own conversation, public to start, and there is no group chat. The person who asked decides whether it helped. Writing in a card is open from the day you sign in.",
+    "teaser": "Most of a Targeted Individual's day goes to the attacks and to what they force, and what is left is small. It is enough when it is not all one person's. In the new version of the app, that part of the day goes into asks on Today. You post what you need, break it into small tasks somebody could do from a phone in under half an hour, and anybody can take one. Each ask carries its own conversation, public to start. The person who asked decides whether it helped. Writing in a card is open from the day you sign in.",
     "topics": [
       "community",
       "skills-economy"

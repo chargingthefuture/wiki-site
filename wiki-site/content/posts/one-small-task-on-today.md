@@ -3,7 +3,7 @@ title: "One small task, on Today"
 date: "2026-11-22"
 excerpt: "The goal board is now asks on Today. Post what you need, break it into small tasks, and anybody can take one from a phone in under half an hour."
 category: "Community"
-teaser: "Most of a Targeted Individual's day goes to the attacks and to what they force, and what is left is small. It is enough when it is not all one person's. In the new version of the app, that part of the day goes into asks on Today. You post what you need, break it into small tasks somebody could do from a phone in under half an hour, and anybody can take one. Each ask carries its own conversation, public to start, and there is no group chat. The person who asked decides whether it helped. Writing in a card is open from the day you sign in."
+teaser: "Most of a Targeted Individual's day goes to the attacks and to what they force, and what is left is small. It is enough when it is not all one person's. In the new version of the app, that part of the day goes into asks on Today. You post what you need, break it into small tasks somebody could do from a phone in under half an hour, and anybody can take one. Each ask carries its own conversation, public to start. The person who asked decides whether it helped. Writing in a card is open from the day you sign in."
 topics:
   - community
   - skills-economy
@@ -33,11 +33,7 @@ A task you took and could not finish goes back by itself after a day, and somebo
 
 If you cannot do a task but know who can, say so. Every ask has two quick answers in place of most comments: I can help, and I know someone.
 
-## No group chat, on purpose
-
-Today has no group chat and no direct messages. Group chats for this have been tried three ways and none of them held: who shows up depends on how hard the day was, so the chat is a different room every time, and it slides from doing into comparing notes about the attacks.
-
-Each ask carries its own conversation about that ask, public to start. A private conversation opens only after both people agree to it. Nobody has to explain their situation, prove anything, or keep up with a thread to help.
+Each ask carries its own conversation about that ask, public to start. A private conversation opens once both people agree to it.
 
 ## Who decides it helped
 

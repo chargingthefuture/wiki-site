@@ -40,11 +40,7 @@ A task you took and could not finish goes back by itself after a day, and somebo
 
 If you cannot do a task but know who can, say so. Every ask has two quick answers in place of most comments: I can help, and I know someone.
 
-No group chat, on purpose
-
-Today has no group chat and no direct messages. Group chats for this have been tried three ways and none of them held: who shows up depends on how hard the day was, so the chat is a different room every time, and it slides from doing into comparing notes about the attacks.
-
-Each ask carries its own conversation about that ask, public to start. A private conversation opens only after both people agree to it. Nobody has to explain their situation, prove anything, or keep up with a thread to help.
+Each ask carries its own conversation about that ask, public to start. A private conversation opens once both people agree to it.
 
 Who decides it helped
 
