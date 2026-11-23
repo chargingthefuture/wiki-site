@@ -4,7 +4,7 @@ import { Link2Off, ShieldOff, Camera, Share2 } from "lucide-react";
 import { Layout } from "@/components/Layout";
 import { ARTICLES, getArticleUrl, type ArticleMeta } from "@/lib/articles";
 import { RECORD_MARKERS } from "@/lib/record-markers";
-import { KIND_LABELS } from "@/lib/archive-kinds";
+import { KIND_LABELS, archiveKindLabel } from "@/lib/archive-kinds";
 import { contentImageUrl } from "@/lib/content";
 import { formatArticleDate } from "@/lib/dates";
 import { filterByQuery } from "@/lib/search";
@@ -393,7 +393,7 @@ export default function Record() {
                         <span className="flex flex-wrap items-center gap-2">
                           {kind && (
                             <span className="px-2 py-0.5 bg-accent text-black font-heading font-bold text-xs uppercase tracking-wider border border-border">
-                              {KIND_LABELS[kind] ?? kind}
+                              {archiveKindLabel(kind, meta?.originalUrl)}
                             </span>
                           )}
                           {meta?.account && (
