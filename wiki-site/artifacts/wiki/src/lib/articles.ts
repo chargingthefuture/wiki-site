@@ -39,6 +39,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "a-watch-page-instead-of-a-hosted-reader",
+    "title": "A watch page instead of the hosted reader",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-11-23",
+    "excerpt": "The reader I hosted at rss.lagatos.com is closing. The collected YouTube channels move to a page anyone can open, with no sign-in and nothing to pay for.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/a-watch-page-instead-of-a-hosted-reader.md",
+    "teaser": "In September I started hosting an RSS feed reader you could sign into with your Skills Economy account. It is closing. It cost money every month, more each month, and I was the only person using it. The part of it I used most, the collected YouTube channels cut at a date, now lives on a plain page anyone can open, with no sign-in and nothing for anybody to pay. The blog's own feed address has not changed and still needs nothing from me.",
+    "topics": [
+      "platform-independence",
+      "publishing"
+    ],
+    "number": 462
+  },
+  {
     "slug": "not-an-exposure-problem",
     "title": "Not an exposure problem. A legal one.",
     "repo": "chargingthefuture/wiki-site",
@@ -134,6 +150,22 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 404
   },
   {
+    "slug": "the-count-measures-the-ending",
+    "title": "The count measures the ending",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-16",
+    "excerpt": "Published counts of US mass shootings run from about 400 a year to fewer than ten, depending on who counts. Every one of them counts the ending and none counts the pressure toward it. Here is the hypothesis that follows, and why Skills Economy could in theory bring mass shootings to net zero.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/the-count-measures-the-ending.md",
+    "teaser": "How many mass shootings happen in the United States each year depends on who is counting: 408 in 2025 by the broadest count, fewer than ten a year by the narrowest. Every count is correct for what it counts, and every one counts an event after it happens. None records the pressure toward one. The pressure can be widespread while the outcome stays rare, because most targets never act. A rare result does not mean a rare effort. If that pressure works by closing off a person's options, then reopening them works against it, and Skills Economy could in theory bring mass shootings to net zero.",
+    "topics": [
+      "community",
+      "specterati"
+    ],
+    "number": 456
+  },
+  {
     "slug": "what-they-know-is-not-the-hold",
     "title": "What they know is not the hold",
     "repo": "chargingthefuture/wiki-site",
@@ -152,20 +184,21 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 457
   },
   {
-    "slug": "the-count-measures-the-ending",
-    "title": "The count measures the ending",
+    "slug": "an-invitation-to-aaron-rasco",
+    "title": "An invitation to Aaron",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-16",
-    "excerpt": "Published counts of US mass shootings run from about 400 a year to fewer than ten, depending on who counts. Every one of them counts the ending and none counts the pressure toward it. Here is the hypothesis that follows, and why Skills Economy could in theory bring mass shootings to net zero.",
+    "date": "2026-10-15",
+    "excerpt": "A person is not one job title. Aaron, in Colorado Springs, Colorado, is listed for loading and unloading vehicles and for knowing a place well enough to explain it, in two sectors at once.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/the-count-measures-the-ending.md",
-    "teaser": "How many mass shootings happen in the United States each year depends on who is counting: 408 in 2025 by the broadest count, fewer than ten a year by the narrowest. Every count is correct for what it counts, and every one counts an event after it happens. None records the pressure toward one. The pressure can be widespread while the outcome stays rare, because most targets never act. A rare result does not mean a rare effort. If that pressure works by closing off a person's options, then reopening them works against it, and Skills Economy could in theory bring mass shootings to net zero.",
+    "path": "posts/an-invitation-to-aaron-rasco.md",
+    "teaser": "A person is not one job title, and the skills map does not count them as one. Aaron, in Colorado Springs, Colorado, has a Directory listing that reaches two sectors: loading and unloading vehicles, filed with warehouse work in Transport and Logistics, and local knowledge and interpretation, filed with tour guides in Tourism and Hospitality. Across the list, 20 of the 37 transport and logistics skills and 8 of the 16 tourism and hospitality skills the app tracks are held by anybody. Counted by skills, one listing counts in both. This is an invitation to claim the listing, and no is a complete answer.",
     "topics": [
       "community",
-      "specterati"
+      "directory",
+      "workforce"
     ],
-    "number": 456
+    "number": 454
   },
   {
     "slug": "arranged-to-look-like-something-else",
@@ -186,21 +219,21 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 455
   },
   {
-    "slug": "an-invitation-to-aaron-rasco",
-    "title": "An invitation to Aaron",
+    "slug": "a-badge-is-a-job-title",
+    "title": "A badge is a job title",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-15",
-    "excerpt": "A person is not one job title. Aaron, in Colorado Springs, Colorado, is listed for loading and unloading vehicles and for knowing a place well enough to explain it, in two sectors at once.",
+    "date": "2026-10-14",
+    "excerpt": "Jarrod B Emery asked on Quora who pays the people doing this, and about the police. Most are paid in kind. And a job title, a badge included, says nothing about the character of the person holding it.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/an-invitation-to-aaron-rasco.md",
-    "teaser": "A person is not one job title, and the skills map does not count them as one. Aaron, in Colorado Springs, Colorado, has a Directory listing that reaches two sectors: loading and unloading vehicles, filed with warehouse work in Transport and Logistics, and local knowledge and interpretation, filed with tour guides in Tourism and Hospitality. Across the list, 20 of the 37 transport and logistics skills and 8 of the 16 tourism and hospitality skills the app tracks are held by anybody. Counted by skills, one listing counts in both. This is an invitation to claim the listing, and no is a complete answer.",
+    "path": "posts/a-badge-is-a-job-title.md",
+    "teaser": "Jarrod B Emery asked on Quora who pays the people doing this, and why the police do not help. Most of the people taking part are paid in kind, a job, an apartment, a favor, and the money further up is laundered through the ordinary economy. The police half has a plainer answer than it seems: a badge is a job title, and a job title and the status that comes with it say nothing about the character of the person holding it. The Skills Economy exists to pair you with skilled people who do not turn a blind eye and do not join in.",
     "topics": [
+      "specterati",
       "community",
-      "directory",
-      "workforce"
+      "directory"
     ],
-    "number": 454
+    "number": 445
   },
   {
     "slug": "a-lie-for-every-bias",
@@ -220,40 +253,6 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 453
   },
   {
-    "slug": "an-invitation-to-ric",
-    "title": "An invitation to Ric",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-14",
-    "excerpt": "Anybody can tap Legal help on lagatos.com and see how many people could help, with no account. Ric Vaughn is one of the people in that count.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/an-invitation-to-ric.md",
-    "teaser": "The front page at lagatos.com lets anybody tap what they need and see how many people on the list could help, with no account and no name given. One of the choices is legal help. Ric Vaughn has a Directory listing for preparing and negotiating a case, reading what a contract or a law actually says, and legal advocacy, and is one of the people that count is made of. Across the list, 4 of the 22 public safety and justice skills the app tracks are held by anybody. This is an invitation to claim the listing, and no is a complete answer.",
-    "topics": [
-      "community",
-      "directory",
-      "workforce"
-    ],
-    "number": 452
-  },
-  {
-    "slug": "the-reaction-is-what-gets-written-down",
-    "title": "The reaction is what gets written down",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-14",
-    "excerpt": "Aron Mangiarotti asked on Quora three things: are they police or a neighborhood watch, are they building a case, and what is the main goal. Both and more; yes, a picture of you; and to leave you with nothing they do not control.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/the-reaction-is-what-gets-written-down.md",
-    "teaser": "Aron Mangiarotti asked on Quora: are they law enforcement or community neighborhood watch groups, do I have to worry about them building a case, and what is their main goal? Not one or the other. It is various groups collaborating, police and Neighborhood Watch among them, and a job title says nothing about who holds it. The case being built is mostly a picture rather than a charge: the standing verdict that you are mentally ill or dangerous. You are provoked until you react like anyone would, and the reaction is what gets written down. The goal is to bankrupt you, to have you in prison or committed, or worse, and the economy behind it is what the harassment serves. A dated record you own is the thing that picture has to get past.",
-    "topics": [
-      "specterati",
-      "community",
-      "clicklog"
-    ],
-    "number": 451
-  },
-  {
     "slug": "an-invitation-to-00",
     "title": "An invitation to 00",
     "repo": "chargingthefuture/wiki-site",
@@ -269,91 +268,6 @@ export const ARTICLES: ArticleMeta[] = [
       "workforce"
     ],
     "number": 450
-  },
-  {
-    "slug": "it-goes-after-the-children",
-    "title": "It goes after the children",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-14",
-    "excerpt": "Tome Love asked on Quora whether it goes after your kids. Yes. I have none, so it went after my friends' children instead.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/it-goes-after-the-children.md",
-    "teaser": "Tome Love asked on Quora whether it goes after your kids. Yes. I have no children, so it went after my friends' children: the ones who would not take part against me were bullied at school until they gave in. Children reach it two ways, as targets and as recruits, and where the parents take part, the children do too, from as young as two. School is where a child is away from a parent all day among adults the parent did not choose. And a child sent after you is a child being abused by the adult who sent them. What none of it decides is what a child grows up into.",
-    "topics": [
-      "specterati",
-      "community",
-      "clicklog"
-    ],
-    "number": 449
-  },
-  {
-    "slug": "an-invitation-to-dc",
-    "title": "An invitation to DC",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-14",
-    "excerpt": "The people this is for are in every country, and so is the answer. DC, in the United Kingdom, is listed for hotel work: guests, rooms and complaints.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/an-invitation-to-dc.md",
-    "teaser": "The answer here was never one walled place, because the people it is for are in every country. DC, in the United Kingdom, has a Directory listing for hotel work: guest services and reservations, getting a room ready to a standard, and handling complaints. Across the list, 8 of the 16 tourism and hospitality skills the app tracks are held by anybody. Somebody arriving somewhere new needs a room that is ready and a person who knows how to receive them. This is an invitation to claim the listing, and no is a complete answer.",
-    "topics": [
-      "community",
-      "directory",
-      "workforce"
-    ],
-    "number": 448
-  },
-  {
-    "slug": "same-car-same-color",
-    "title": "Same car, same color",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-14",
-    "excerpt": "Do the cars match the target's car, and are they white? The first I have answered before. The second only a shared record can answer.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/same-car-same-color.md",
-    "teaser": "Two questions on Quora ask about the cars. EB asked: do they use the same make, model and color as the car the target drives? Yes, the same way they wear the same clothes as you and repeat what you said in private: it is meant to show you that you are watched all the time. Do they drive white sedans and white construction vehicles? I cannot say. Nothing I have recorded shows it, and a color only shows up as a pattern when many people write down what they see. That is what a shared record is for.",
-    "topics": [
-      "specterati",
-      "clicklog",
-      "community"
-    ],
-    "number": 447
-  },
-  {
-    "slug": "an-invitation-to-ms-thompson",
-    "title": "An invitation to Ms Thompson",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-14",
-    "excerpt": "You already have a profile. Ms Thompson is listed in the Directory for legal work, preparing a case and reading what a contract or a law actually says, and for mechanical and electrical repair.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/an-invitation-to-ms-thompson.md",
-    "teaser": "Ms Thompson already has a Directory listing. I built it from what they said about themselves in public and put it up under their name, and they should hear that from me rather than find it. It carries two kinds of work: legal, preparing and negotiating a case, interpreting contracts and statutes, and advocacy, and hands-on, mechanical and electrical repair. Across the list, 4 of the 22 public safety and justice skills the app tracks are held by anybody. This is an invitation to claim the listing, and no is a complete answer.",
-    "topics": [
-      "community",
-      "directory",
-      "workforce"
-    ],
-    "number": 446
-  },
-  {
-    "slug": "a-badge-is-a-job-title",
-    "title": "A badge is a job title",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-14",
-    "excerpt": "Jarrod B Emery asked on Quora who pays the people doing this, and about the police. Most are paid in kind. And a job title, a badge included, says nothing about the character of the person holding it.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/a-badge-is-a-job-title.md",
-    "teaser": "Jarrod B Emery asked on Quora who pays the people doing this, and why the police do not help. Most of the people taking part are paid in kind, a job, an apartment, a favor, and the money further up is laundered through the ordinary economy. The police half has a plainer answer than it seems: a badge is a job title, and a job title and the status that comes with it say nothing about the character of the person holding it. The Skills Economy exists to pair you with skilled people who do not turn a blind eye and do not join in.",
-    "topics": [
-      "specterati",
-      "community",
-      "directory"
-    ],
-    "number": 445
   },
   {
     "slug": "an-invitation-to-andre",
@@ -373,6 +287,74 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 444
   },
   {
+    "slug": "an-invitation-to-dc",
+    "title": "An invitation to DC",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-14",
+    "excerpt": "The people this is for are in every country, and so is the answer. DC, in the United Kingdom, is listed for hotel work: guests, rooms and complaints.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-dc.md",
+    "teaser": "The answer here was never one walled place, because the people it is for are in every country. DC, in the United Kingdom, has a Directory listing for hotel work: guest services and reservations, getting a room ready to a standard, and handling complaints. Across the list, 8 of the 16 tourism and hospitality skills the app tracks are held by anybody. Somebody arriving somewhere new needs a room that is ready and a person who knows how to receive them. This is an invitation to claim the listing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 448
+  },
+  {
+    "slug": "an-invitation-to-ms-thompson",
+    "title": "An invitation to Ms Thompson",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-14",
+    "excerpt": "You already have a profile. Ms Thompson is listed in the Directory for legal work, preparing a case and reading what a contract or a law actually says, and for mechanical and electrical repair.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-ms-thompson.md",
+    "teaser": "Ms Thompson already has a Directory listing. I built it from what they said about themselves in public and put it up under their name, and they should hear that from me rather than find it. It carries two kinds of work: legal, preparing and negotiating a case, interpreting contracts and statutes, and advocacy, and hands-on, mechanical and electrical repair. Across the list, 4 of the 22 public safety and justice skills the app tracks are held by anybody. This is an invitation to claim the listing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 446
+  },
+  {
+    "slug": "an-invitation-to-ric",
+    "title": "An invitation to Ric",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-14",
+    "excerpt": "Anybody can tap Legal help on lagatos.com and see how many people could help, with no account. Ric Vaughn is one of the people in that count.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-ric.md",
+    "teaser": "The front page at lagatos.com lets anybody tap what they need and see how many people on the list could help, with no account and no name given. One of the choices is legal help. Ric Vaughn has a Directory listing for preparing and negotiating a case, reading what a contract or a law actually says, and legal advocacy, and is one of the people that count is made of. Across the list, 4 of the 22 public safety and justice skills the app tracks are held by anybody. This is an invitation to claim the listing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 452
+  },
+  {
+    "slug": "it-goes-after-the-children",
+    "title": "It goes after the children",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-14",
+    "excerpt": "Tome Love asked on Quora whether it goes after your kids. Yes. I have none, so it went after my friends' children instead.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/it-goes-after-the-children.md",
+    "teaser": "Tome Love asked on Quora whether it goes after your kids. Yes. I have no children, so it went after my friends' children: the ones who would not take part against me were bullied at school until they gave in. Children reach it two ways, as targets and as recruits, and where the parents take part, the children do too, from as young as two. School is where a child is away from a parent all day among adults the parent did not choose. And a child sent after you is a child being abused by the adult who sent them. What none of it decides is what a child grows up into.",
+    "topics": [
+      "specterati",
+      "community",
+      "clicklog"
+    ],
+    "number": 449
+  },
+  {
     "slug": "picked-off-early",
     "title": "Picked off early",
     "repo": "chargingthefuture/wiki-site",
@@ -390,21 +372,38 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 443
   },
   {
-    "slug": "best-way-to-deal-with-it",
-    "title": "The best way to deal with it, in order",
+    "slug": "same-car-same-color",
+    "title": "Same car, same color",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-13",
-    "excerpt": "A question on Quora asks for the best way to deal with it. No way I know of ends it. What I can give is an order: four things, the cheapest first, each one making the next easier.",
+    "date": "2026-10-14",
+    "excerpt": "Do the cars match the target's car, and are they white? The first I have answered before. The second only a shared record can answer.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/best-way-to-deal-with-it.md",
-    "teaser": "A question on Quora asked for the best way to deal with it. No method I know of ends it, so the best way is an order rather than a single trick. First, write each incident down with the date and then put it down. Second, stop supplying what the incidents are staged to produce. Third, move what you depend on, your work, your room, your rides, to people who are not part of it. Fourth, stay in touch with other survivors, including in the quiet years. The first two need nobody else; the last two are what this economy is for.",
+    "path": "posts/same-car-same-color.md",
+    "teaser": "Two questions on Quora ask about the cars. EB asked: do they use the same make, model and color as the car the target drives? Yes, the same way they wear the same clothes as you and repeat what you said in private: it is meant to show you that you are watched all the time. Do they drive white sedans and white construction vehicles? I cannot say. Nothing I have recorded shows it, and a color only shows up as a pattern when many people write down what they see. That is what a shared record is for.",
     "topics": [
+      "specterati",
       "clicklog",
-      "community",
-      "directory"
+      "community"
     ],
-    "number": 442
+    "number": 447
+  },
+  {
+    "slug": "the-reaction-is-what-gets-written-down",
+    "title": "The reaction is what gets written down",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-14",
+    "excerpt": "Aron Mangiarotti asked on Quora three things: are they police or a neighborhood watch, are they building a case, and what is the main goal. Both and more; yes, a picture of you; and to leave you with nothing they do not control.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/the-reaction-is-what-gets-written-down.md",
+    "teaser": "Aron Mangiarotti asked on Quora: are they law enforcement or community neighborhood watch groups, do I have to worry about them building a case, and what is their main goal? Not one or the other. It is various groups collaborating, police and Neighborhood Watch among them, and a job title says nothing about who holds it. The case being built is mostly a picture rather than a charge: the standing verdict that you are mentally ill or dangerous. You are provoked until you react like anyone would, and the reaction is what gets written down. The goal is to bankrupt you, to have you in prison or committed, or worse, and the economy behind it is what the harassment serves. A dated record you own is the thing that picture has to get past.",
+    "topics": [
+      "specterati",
+      "community",
+      "clicklog"
+    ],
+    "number": 451
   },
   {
     "slug": "an-invitation-to-tired-of-being-a-ti",
@@ -422,6 +421,23 @@ export const ARTICLES: ArticleMeta[] = [
       "workforce"
     ],
     "number": 441
+  },
+  {
+    "slug": "best-way-to-deal-with-it",
+    "title": "The best way to deal with it, in order",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-13",
+    "excerpt": "A question on Quora asks for the best way to deal with it. No way I know of ends it. What I can give is an order: four things, the cheapest first, each one making the next easier.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/best-way-to-deal-with-it.md",
+    "teaser": "A question on Quora asked for the best way to deal with it. No method I know of ends it, so the best way is an order rather than a single trick. First, write each incident down with the date and then put it down. Second, stop supplying what the incidents are staged to produce. Third, move what you depend on, your work, your room, your rides, to people who are not part of it. Fourth, stay in touch with other survivors, including in the quiet years. The first two need nobody else; the last two are what this economy is for.",
+    "topics": [
+      "clicklog",
+      "community",
+      "directory"
+    ],
+    "number": 442
   },
   {
     "slug": "see-who-could-help-without-an-account",
@@ -458,6 +474,23 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 439
   },
   {
+    "slug": "an-invitation-to-bev",
+    "title": "An invitation to Bev",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-11",
+    "excerpt": "In 1991 Estonia had broken infrastructure and people who knew how to fix it. Bev is listed for making things to a drawing and checking they came out right.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-bev.md",
+    "teaser": "The objection is that a small number of people with no money cannot build anything. Estonia in 1991 had no money, infrastructure that did not work, and 1.3 million people who already knew how to do things. Bev, in Canada, has a Directory listing that is nearly all manufacturing: reading a blueprint, machining to it, assembling, troubleshooting the equipment, and inspecting what comes off the line. Across the list, 14 of the 28 manufacturing and industry skills the app tracks are held by anybody. This is an invitation to claim the listing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 436
+  },
+  {
     "slug": "an-invitation-to-king-unique",
     "title": "An invitation to King Unique",
     "repo": "chargingthefuture/wiki-site",
@@ -489,23 +522,6 @@ export const ARTICLES: ArticleMeta[] = [
       "community"
     ],
     "number": 437
-  },
-  {
-    "slug": "an-invitation-to-bev",
-    "title": "An invitation to Bev",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-11",
-    "excerpt": "In 1991 Estonia had broken infrastructure and people who knew how to fix it. Bev is listed for making things to a drawing and checking they came out right.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/an-invitation-to-bev.md",
-    "teaser": "The objection is that a small number of people with no money cannot build anything. Estonia in 1991 had no money, infrastructure that did not work, and 1.3 million people who already knew how to do things. Bev, in Canada, has a Directory listing that is nearly all manufacturing: reading a blueprint, machining to it, assembling, troubleshooting the equipment, and inspecting what comes off the line. Across the list, 14 of the 28 manufacturing and industry skills the app tracks are held by anybody. This is an invitation to claim the listing, and no is a complete answer.",
-    "topics": [
-      "community",
-      "directory",
-      "workforce"
-    ],
-    "number": 436
   },
   {
     "slug": "why-people-leave-and-what-it-costs",
@@ -574,22 +590,6 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 432
   },
   {
-    "slug": "what-organized-crime-means",
-    "title": "What organized crime means",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-07",
-    "excerpt": "Organized crime has a definition, and it is narrower than the way the phrase gets used. A group, lasting, committing serious crimes for material gain. Corrupt officials are one of its methods. A government is not its partner.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/what-organized-crime-means.md",
-    "teaser": "Organized crime has a definition, and it is worth reading again. The United Nations defines an organized criminal group as a structured group of three or more people, existing for a period of time and acting together to commit serious crimes for financial or other material benefit. The FBI's version adds how such groups keep their place: violence or the threat of it, corrupt public officials, graft and extortion. Corrupting an official is something the group does to a government, not something the government does with it. A writer describing American cities put the rest plainly: these groups know their limits and stay inside them to avoid crackdowns. That is enforcement being rationed, not enforcement switched off. None of this is aimed at a survivor who says the government targets them: governments have, Martin Luther King Jr. among the documented cases, and so have people outside government with no instructions from anybody. So far, the people I have seen argue for tearing governments down outright, or for saying it is only the government, have been people taking part in this. Enforcement is what limits them.",
-    "topics": [
-      "specterati",
-      "community"
-    ],
-    "number": 431
-  },
-  {
     "slug": "unite-around-what",
     "title": "Unite around what?",
     "repo": "chargingthefuture/wiki-site",
@@ -607,6 +607,22 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 430
   },
   {
+    "slug": "what-organized-crime-means",
+    "title": "What organized crime means",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-07",
+    "excerpt": "Organized crime has a definition, and it is narrower than the way the phrase gets used. A group, lasting, committing serious crimes for material gain. Corrupt officials are one of its methods. A government is not its partner.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/what-organized-crime-means.md",
+    "teaser": "Organized crime has a definition, and it is worth reading again. The United Nations defines an organized criminal group as a structured group of three or more people, existing for a period of time and acting together to commit serious crimes for financial or other material benefit. The FBI's version adds how such groups keep their place: violence or the threat of it, corrupt public officials, graft and extortion. Corrupting an official is something the group does to a government, not something the government does with it. A writer describing American cities put the rest plainly: these groups know their limits and stay inside them to avoid crackdowns. That is enforcement being rationed, not enforcement switched off. None of this is aimed at a survivor who says the government targets them: governments have, Martin Luther King Jr. among the documented cases, and so have people outside government with no instructions from anybody. So far, the people I have seen argue for tearing governments down outright, or for saying it is only the government, have been people taking part in this. Enforcement is what limits them.",
+    "topics": [
+      "specterati",
+      "community"
+    ],
+    "number": 431
+  },
+  {
     "slug": "how-long-do-we-hold",
     "title": "How long do we hold?",
     "repo": "chargingthefuture/wiki-site",
@@ -621,90 +637,6 @@ export const ARTICLES: ArticleMeta[] = [
       "peace-battle-2"
     ],
     "number": 429
-  },
-  {
-    "slug": "workforce-shows-the-gap",
-    "title": "Workforce shows the gap. You decide what fills it.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-03",
-    "excerpt": "Workforce is not a job board. It is a live simulation of what each of us, and all of us together, could do. Here is how reading it turns into a living.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/workforce-shows-the-gap.md",
-    "teaser": "In the list of problems the app answers, Workforce sits next to being denied jobs, job applications that never submit, and coworkers who push you out. Nothing on Workforce hands you a job. It is a live simulation of individual and community potential: the jobs a working economy needs, set against the skills members have listed, with the gaps between them in plain view. You read a gap, pick an outcome, and fill it, either by building it yourself or by teaming up with a member who already has the skill. That is how it answers those problems: a living earned without depending on the people causing them. Help using the app is free in the Commons; curated help reaching your 1% is One Percent, the paid tier, at farahbrunache.com.",
-    "topics": [
-      "workforce",
-      "economy",
-      "directory"
-    ],
-    "number": 428
-  },
-  {
-    "slug": "peace-battle-2-has-one-subject-your-one-percent",
-    "title": "Peace Battle 2 has one subject: your 1%",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-03",
-    "excerpt": "Peace Battle 2 now asks one thing, in three steps: see your 1% in Workforce, start on it on the goal board, and, only if you want to, take it further with One Percent.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/peace-battle-2-has-one-subject-your-one-percent.md",
-    "teaser": "Peace Battle 2 has been running since Friday, September 18, 2026 at 7:00 PM Eastern: a distributed protest with no location, named for the peace-battle W. E. B. Du Bois wrote about in 1903. It now has one subject, your 1%, and three steps in order. See your 1% in Workforce. Start on it on the PeerProgramming goal board, with the part of the day that is left. And if you want help reaching it, One Percent is the paid initiative for that: a call of up to half an hour, in your browser. The Skills Economy is the free, self-service way to reach your 1%, and the first two steps are complete without One Percent.",
-    "topics": [
-      "community",
-      "workforce",
-      "peer-programming"
-    ],
-    "number": 427
-  },
-  {
-    "slug": "approved-three-things-to-do-next",
-    "title": "Approved? Three things to do next",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-03",
-    "excerpt": "Once you are approved: find who is already here on the Directory, put what is left of your day into one card on the goal board, and ask the Commons or @comic for anything else.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/approved-three-things-to-do-next.md",
-    "teaser": "This follows New here? Three things to do first, which covers Unlock, writing while you wait, and listing your skills. Once you are approved, three more. Look through the Directory for who is already here and what they can do, and keep your own listing current. Put what is left of your day into one small card on somebody else's goal on the PeerProgramming board, and post a goal of your own. For anything that is not on the board, ask in the Commons, or ask @comic, the assistant in that chat.",
-    "topics": [
-      "community",
-      "directory",
-      "peer-programming"
-    ],
-    "number": 426
-  },
-  {
-    "slug": "sending-a-child-is-abuse",
-    "title": "Sending a child is abuse",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-03",
-    "excerpt": "Somebody asked on Quora whether the people doing this know they are putting their children in harm's way. They know. The harm to the child is done by the adult who sends them, before anybody else is involved.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/sending-a-child-is-abuse.md",
-    "teaser": "EB asked on Quora whether the people doing this know they are putting their children in harm's way. They know. Commanding a dog to attack a person who poses no threat is abuse of the dog, and nobody argues otherwise. Sending a child to do the same is abuse of the child. The children brought into this are told how to dress, what scene to play out, and who to get close to, and an adult who arranges a child that way, for the adult's own ends, has already done the harm. The chance that the person a child is sent after strikes back is real, and it is the lesser of the two. What a reader can do is write down what happens, with the date, as it happens.",
-    "topics": [
-      "specterati",
-      "community"
-    ],
-    "number": 425
-  },
-  {
-    "slug": "an-invitation-to-no-name-individual",
-    "title": "An invitation to No Name Individual",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-03",
-    "excerpt": "You asked on Quora what jobs a Targeted Individual can get. Part of the answer is a list you are already on.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/an-invitation-to-no-name-individual.md",
-    "teaser": "It is an invitation to join the Skills Economy, and the listing is already there. No Name Individual asked on Quora what jobs a Targeted Individual can get, and I answered on the blog: truck driving and paid healthy-volunteer studies, and past those, the Skills Economy. Being findable for what you do is part of that, and that is what the Directory is for. No Name Individual is on it already, with a placeholder where their skills will go. The listing costs nothing, and no is a complete answer.",
-    "topics": [
-      "community",
-      "directory",
-      "workforce"
-    ],
-    "number": 424
   },
   {
     "slug": "a-place-to-stay-when-you-are-living-in-your-car",
@@ -741,6 +673,40 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 422
   },
   {
+    "slug": "an-invitation-to-no-name-individual",
+    "title": "An invitation to No Name Individual",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-03",
+    "excerpt": "You asked on Quora what jobs a Targeted Individual can get. Part of the answer is a list you are already on.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-no-name-individual.md",
+    "teaser": "It is an invitation to join the Skills Economy, and the listing is already there. No Name Individual asked on Quora what jobs a Targeted Individual can get, and I answered on the blog: truck driving and paid healthy-volunteer studies, and past those, the Skills Economy. Being findable for what you do is part of that, and that is what the Directory is for. No Name Individual is on it already, with a placeholder where their skills will go. The listing costs nothing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 424
+  },
+  {
+    "slug": "approved-three-things-to-do-next",
+    "title": "Approved? Three things to do next",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-03",
+    "excerpt": "Once you are approved: find who is already here on the Directory, put what is left of your day into one card on the goal board, and ask the Commons or @comic for anything else.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/approved-three-things-to-do-next.md",
+    "teaser": "This follows New here? Three things to do first, which covers Unlock, writing while you wait, and listing your skills. Once you are approved, three more. Look through the Directory for who is already here and what they can do, and keep your own listing current. Put what is left of your day into one small card on somebody else's goal on the PeerProgramming board, and post a goal of your own. For anything that is not on the board, ask in the Commons, or ask @comic, the assistant in that chat.",
+    "topics": [
+      "community",
+      "directory",
+      "peer-programming"
+    ],
+    "number": 426
+  },
+  {
     "slug": "how-the-skills-economy-finds-real-members",
     "title": "How the Skills Economy finds real members",
     "repo": "chargingthefuture/wiki-site",
@@ -756,6 +722,39 @@ export const ARTICLES: ArticleMeta[] = [
       "community"
     ],
     "number": 421
+  },
+  {
+    "slug": "peace-battle-2-has-one-subject-your-one-percent",
+    "title": "Peace Battle 2 has one subject: your 1%",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-03",
+    "excerpt": "Peace Battle 2 now asks one thing, in three steps: see your 1% in Workforce, start on it on the goal board, and, only if you want to, take it further with One Percent.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/peace-battle-2-has-one-subject-your-one-percent.md",
+    "teaser": "Peace Battle 2 has been running since Friday, September 18, 2026 at 7:00 PM Eastern: a distributed protest with no location, named for the peace-battle W. E. B. Du Bois wrote about in 1903. It now has one subject, your 1%, and three steps in order. See your 1% in Workforce. Start on it on the PeerProgramming goal board, with the part of the day that is left. And if you want help reaching it, One Percent is the paid initiative for that: a call of up to half an hour, in your browser. The Skills Economy is the free, self-service way to reach your 1%, and the first two steps are complete without One Percent.",
+    "topics": [
+      "community",
+      "workforce",
+      "peer-programming"
+    ],
+    "number": 427
+  },
+  {
+    "slug": "sending-a-child-is-abuse",
+    "title": "Sending a child is abuse",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-03",
+    "excerpt": "Somebody asked on Quora whether the people doing this know they are putting their children in harm's way. They know. The harm to the child is done by the adult who sends them, before anybody else is involved.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/sending-a-child-is-abuse.md",
+    "teaser": "EB asked on Quora whether the people doing this know they are putting their children in harm's way. They know. Commanding a dog to attack a person who poses no threat is abuse of the dog, and nobody argues otherwise. Sending a child to do the same is abuse of the child. The children brought into this are told how to dress, what scene to play out, and who to get close to, and an adult who arranges a child that way, for the adult's own ends, has already done the harm. The chance that the person a child is sent after strikes back is real, and it is the lesser of the two. What a reader can do is write down what happens, with the date, as it happens.",
+    "topics": [
+      "specterati",
+      "community"
+    ],
+    "number": 425
   },
   {
     "slug": "the-lit-country",
@@ -775,106 +774,21 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 420
   },
   {
-    "slug": "an-invitation-to-holly",
-    "title": "An invitation to Holly",
+    "slug": "workforce-shows-the-gap",
+    "title": "Workforce shows the gap. You decide what fills it.",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-02",
-    "excerpt": "In 1991 Estonia had no money and people who knew how to do things. Knowing where little money goes is one of those things, and Holly is listed for it.",
+    "date": "2026-10-03",
+    "excerpt": "Workforce is not a job board. It is a live simulation of what each of us, and all of us together, could do. Here is how reading it turns into a living.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/an-invitation-to-holly.md",
-    "teaser": "It is an invitation to join the Skills Economy. The objection is that a small number of people with no money cannot build anything. Estonia in 1991 had no money, infrastructure that did not work, and 1.3 million people who already knew how to do things. Holly, in Atlanta, has a Directory listing that carries financial planning and budgeting, and financial modeling and cash flow management: knowing where money goes, and when, before it runs out. Across the list, 6 of the 34 finance and public administration skills the app tracks are held by anybody.",
+    "path": "posts/workforce-shows-the-gap.md",
+    "teaser": "In the list of problems the app answers, Workforce sits next to being denied jobs, job applications that never submit, and coworkers who push you out. Nothing on Workforce hands you a job. It is a live simulation of individual and community potential: the jobs a working economy needs, set against the skills members have listed, with the gaps between them in plain view. You read a gap, pick an outcome, and fill it, either by building it yourself or by teaming up with a member who already has the skill. That is how it answers those problems: a living earned without depending on the people causing them. Help using the app is free in the Commons; curated help reaching your 1% is One Percent, the paid tier, at farahbrunache.com.",
     "topics": [
-      "community",
-      "directory",
-      "workforce"
-    ],
-    "number": 419
-  },
-  {
-    "slug": "what-jobs-a-targeted-individual-can-get",
-    "title": "What jobs a Targeted Individual can get",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-02",
-    "excerpt": "Somebody asked on Quora what jobs a Targeted Individual can get. The two I know of are truck driving and paid healthy-volunteer studies. Past those, the answer is the Skills Economy.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/what-jobs-a-targeted-individual-can-get.md",
-    "teaser": "Somebody asked on Quora what jobs a Targeted Individual can get. The only two I know of are truck driving and healthy-volunteer studies, the paid phase 1 trials where a drug company tests an upcoming medicine. Both are high-turnover fields, and high turnover means more openings. Past those two, the answer is to join the Skills Economy: of the 713 skills a working economy needs, 483 had nobody in this community on October 2.",
-    "topics": [
-      "community",
       "workforce",
+      "economy",
       "directory"
     ],
-    "number": 418
-  },
-  {
-    "slug": "an-invitation-to-julie",
-    "title": "An invitation to Julie",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-02",
-    "excerpt": "A community that lasts a generation needs somebody who knows how children learn. On this list, education is nearly empty.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/an-invitation-to-julie.md",
-    "teaser": "It is an invitation to join the Skills Economy. Julie, in Tennessee, has a Directory listing that carries child development and classroom management: knowing how children grow and learn, and how to keep a room of them learning together. Across the list, 4 of the 39 education skills the app tracks are held by anybody. Targeted Individuals raising children who are targeted too have been asking what school can look like. Somebody who knows how a classroom runs is where that answer starts.",
-    "topics": [
-      "community",
-      "directory",
-      "workforce"
-    ],
-    "number": 417
-  },
-  {
-    "slug": "why-nobody-does-anything",
-    "title": "Why nobody does anything",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-02",
-    "excerpt": "Somebody asked on Quora why nobody does anything when so many people know. For the people doing it, it is a livelihood, and it exists for the reason organized crime always has.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/why-nobody-does-anything.md",
-    "teaser": "Somebody asked on Quora why nobody does anything about it when so many people know, after it has destroyed them and left them at their breaking point. For the people doing it, it is a livelihood. The transatlantic slave trade was free labor and control, and the entire world economy benefited from it. Asking why nobody stops this is like asking why organized crime exists: for the reason it always has. It is not happening to most people, and that is all that matters to them. It is unfair. But Du Bois and his cohort, and Estonia, chose a different path, and it worked.",
-    "topics": [
-      "specterati",
-      "community",
-      "directory"
-    ],
-    "number": 416
-  },
-  {
-    "slug": "an-invitation-to-jane",
-    "title": "An invitation to Jane",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-02",
-    "excerpt": "Jane asked how to prove it. The list this invitation is about has never needed anybody to agree with me.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/an-invitation-to-jane.md",
-    "teaser": "It is an invitation to join the Skills Economy. Jane asked on Quora how to prove it. They do not have to agree with me about any of it: the list has never asked that of anybody. Their Directory listing carries three legal skills: preparing and negotiating a case, reading what a contract or a law actually says, and standing for somebody. On October 1, 1 of the 22 skills in the sector that holds lawyers was held by anybody.",
-    "topics": [
-      "community",
-      "directory",
-      "workforce"
-    ],
-    "number": 415
-  },
-  {
-    "slug": "proving-it-and-taking-your-accounts-back",
-    "title": "Proving it, when you know who started it",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-02",
-    "excerpt": "Somebody asked on Quora how to prove it, now that they know an ex started it. Knowing the name does not end it. A dated record proves the pattern.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/proving-it-and-taking-your-accounts-back.md",
-    "teaser": "Somebody asked on Quora how to prove it, now that they know an ex started it. Who started it matters to a point; after that, everybody who joins runs the same schemes, and knowing the name does not end it by itself. What proves it is a dated record kept as it happens, because one incident can be denied and a pattern is much harder to.",
-    "topics": [
-      "specterati",
-      "clicklog",
-      "community"
-    ],
-    "number": 414
+    "number": 428
   },
   {
     "slug": "an-invitation-to-aaron",
@@ -894,6 +808,107 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 413
   },
   {
+    "slug": "an-invitation-to-holly",
+    "title": "An invitation to Holly",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-02",
+    "excerpt": "In 1991 Estonia had no money and people who knew how to do things. Knowing where little money goes is one of those things, and Holly is listed for it.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-holly.md",
+    "teaser": "It is an invitation to join the Skills Economy. The objection is that a small number of people with no money cannot build anything. Estonia in 1991 had no money, infrastructure that did not work, and 1.3 million people who already knew how to do things. Holly, in Atlanta, has a Directory listing that carries financial planning and budgeting, and financial modeling and cash flow management: knowing where money goes, and when, before it runs out. Across the list, 6 of the 34 finance and public administration skills the app tracks are held by anybody.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 419
+  },
+  {
+    "slug": "an-invitation-to-jane",
+    "title": "An invitation to Jane",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-02",
+    "excerpt": "Jane asked how to prove it. The list this invitation is about has never needed anybody to agree with me.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-jane.md",
+    "teaser": "It is an invitation to join the Skills Economy. Jane asked on Quora how to prove it. They do not have to agree with me about any of it: the list has never asked that of anybody. Their Directory listing carries three legal skills: preparing and negotiating a case, reading what a contract or a law actually says, and standing for somebody. On October 1, 1 of the 22 skills in the sector that holds lawyers was held by anybody.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 415
+  },
+  {
+    "slug": "an-invitation-to-julie",
+    "title": "An invitation to Julie",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-02",
+    "excerpt": "A community that lasts a generation needs somebody who knows how children learn. On this list, education is nearly empty.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-julie.md",
+    "teaser": "It is an invitation to join the Skills Economy. Julie, in Tennessee, has a Directory listing that carries child development and classroom management: knowing how children grow and learn, and how to keep a room of them learning together. Across the list, 4 of the 39 education skills the app tracks are held by anybody. Targeted Individuals raising children who are targeted too have been asking what school can look like. Somebody who knows how a classroom runs is where that answer starts.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 417
+  },
+  {
+    "slug": "proving-it-and-taking-your-accounts-back",
+    "title": "Proving it, when you know who started it",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-02",
+    "excerpt": "Somebody asked on Quora how to prove it, now that they know an ex started it. Knowing the name does not end it. A dated record proves the pattern.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/proving-it-and-taking-your-accounts-back.md",
+    "teaser": "Somebody asked on Quora how to prove it, now that they know an ex started it. Who started it matters to a point; after that, everybody who joins runs the same schemes, and knowing the name does not end it by itself. What proves it is a dated record kept as it happens, because one incident can be denied and a pattern is much harder to.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "community"
+    ],
+    "number": 414
+  },
+  {
+    "slug": "what-jobs-a-targeted-individual-can-get",
+    "title": "What jobs a Targeted Individual can get",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-02",
+    "excerpt": "Somebody asked on Quora what jobs a Targeted Individual can get. The two I know of are truck driving and paid healthy-volunteer studies. Past those, the answer is the Skills Economy.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/what-jobs-a-targeted-individual-can-get.md",
+    "teaser": "Somebody asked on Quora what jobs a Targeted Individual can get. The only two I know of are truck driving and healthy-volunteer studies, the paid phase 1 trials where a drug company tests an upcoming medicine. Both are high-turnover fields, and high turnover means more openings. Past those two, the answer is to join the Skills Economy: of the 713 skills a working economy needs, 483 had nobody in this community on October 2.",
+    "topics": [
+      "community",
+      "workforce",
+      "directory"
+    ],
+    "number": 418
+  },
+  {
+    "slug": "what-the-community-value-index-counts",
+    "title": "What the Community Value Index counts",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-02",
+    "excerpt": "One number in the app adds up the help survivors trade with each other, in the spirit of GDP. Its goal is 300 billion points, not dollars.",
+    "category": "Platform",
+    "collection": "posts",
+    "path": "posts/what-the-community-value-index-counts.md",
+    "teaser": "The Community Value Index is one number in the app. It adds up the help survivors trade with each other through it, such as a ride, a repair, a room or a lesson, in the spirit of GDP. It counts only what is finished, it has counted since June 12, 2026 and never resets, and its goal is 300 billion points, not dollars. It is a measure, not money: nothing in it can be cashed or priced.",
+    "topics": [
+      "skills-economy",
+      "gdp"
+    ],
+    "number": 411
+  },
+  {
     "slug": "where-to-go-for-help",
     "title": "Where to go for help",
     "repo": "chargingthefuture/wiki-site",
@@ -911,20 +926,55 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 412
   },
   {
-    "slug": "what-the-community-value-index-counts",
-    "title": "What the Community Value Index counts",
+    "slug": "why-nobody-does-anything",
+    "title": "Why nobody does anything",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-10-02",
-    "excerpt": "One number in the app adds up the help survivors trade with each other, in the spirit of GDP. Its goal is 300 billion points, not dollars.",
-    "category": "Platform",
+    "excerpt": "Somebody asked on Quora why nobody does anything when so many people know. For the people doing it, it is a livelihood, and it exists for the reason organized crime always has.",
+    "category": "Community",
     "collection": "posts",
-    "path": "posts/what-the-community-value-index-counts.md",
-    "teaser": "The Community Value Index is one number in the app. It adds up the help survivors trade with each other through it, such as a ride, a repair, a room or a lesson, in the spirit of GDP. It counts only what is finished, it has counted since June 12, 2026 and never resets, and its goal is 300 billion points, not dollars. It is a measure, not money: nothing in it can be cashed or priced.",
+    "path": "posts/why-nobody-does-anything.md",
+    "teaser": "Somebody asked on Quora why nobody does anything about it when so many people know, after it has destroyed them and left them at their breaking point. For the people doing it, it is a livelihood. The transatlantic slave trade was free labor and control, and the entire world economy benefited from it. Asking why nobody stops this is like asking why organized crime exists: for the reason it always has. It is not happening to most people, and that is all that matters to them. It is unfair. But Du Bois and his cohort, and Estonia, chose a different path, and it worked.",
     "topics": [
-      "skills-economy",
-      "gdp"
+      "specterati",
+      "community",
+      "directory"
     ],
-    "number": 411
+    "number": 416
+  },
+  {
+    "slug": "an-epidemic-not-a-secret-society",
+    "title": "An epidemic, not a secret society",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-01",
+    "excerpt": "It is not the Illuminati. It is manipulators in contact with each other worldwide, paid in sex, drugs, jobs and friends, and it starts at two years old.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-epidemic-not-a-secret-society.md",
+    "teaser": "People reach for the Illuminati, or a secret society. What I see is worse: narcissists, and people worse than narcissists, in contact with each other across the world at a rate never possible before. Nothing in their kit is new. Performed kindness, covert contracts, performative allyship: every tool already has a name. What they are paid in is sex, drugs, jobs and friends, for slander carried to strangers, starting at two. Refuse that payment and you are ousted from their economy. The Skills Economy is a different exchange.",
+    "topics": [
+      "specterati",
+      "community",
+      "directory"
+    ],
+    "number": 407
+  },
+  {
+    "slug": "an-invitation-to-matthew-a-davis",
+    "title": "An invitation to Matthew",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-10-01",
+    "excerpt": "A disaster tests whether a community can coordinate. On this list, the emergency and reserve roles are nearly empty.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-matthew-a-davis.md",
+    "teaser": "It is an invitation to join the Skills Economy. Matthew A Davis, in Zephyrhills, Florida, has a Directory listing that carries Emergency Support Function coordination: the work of keeping the parts of a disaster response, from transport to shelter to communications, running to one plan. Across the list, 2 of the 21 emergency and reserve skills the app tracks are held by anybody. A community that lasts needs somebody who knows how to run its worst week.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 408
   },
   {
     "slug": "an-invitation-to-sherri",
@@ -959,40 +1009,6 @@ export const ARTICLES: ArticleMeta[] = [
       "workforce"
     ],
     "number": 409
-  },
-  {
-    "slug": "an-invitation-to-matthew-a-davis",
-    "title": "An invitation to Matthew",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-01",
-    "excerpt": "A disaster tests whether a community can coordinate. On this list, the emergency and reserve roles are nearly empty.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/an-invitation-to-matthew-a-davis.md",
-    "teaser": "It is an invitation to join the Skills Economy. Matthew A Davis, in Zephyrhills, Florida, has a Directory listing that carries Emergency Support Function coordination: the work of keeping the parts of a disaster response, from transport to shelter to communications, running to one plan. Across the list, 2 of the 21 emergency and reserve skills the app tracks are held by anybody. A community that lasts needs somebody who knows how to run its worst week.",
-    "topics": [
-      "community",
-      "directory",
-      "workforce"
-    ],
-    "number": 408
-  },
-  {
-    "slug": "an-epidemic-not-a-secret-society",
-    "title": "An epidemic, not a secret society",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-10-01",
-    "excerpt": "It is not the Illuminati. It is manipulators in contact with each other worldwide, paid in sex, drugs, jobs and friends, and it starts at two years old.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/an-epidemic-not-a-secret-society.md",
-    "teaser": "People reach for the Illuminati, or a secret society. What I see is worse: narcissists, and people worse than narcissists, in contact with each other across the world at a rate never possible before. Nothing in their kit is new. Performed kindness, covert contracts, performative allyship: every tool already has a name. What they are paid in is sex, drugs, jobs and friends, for slander carried to strangers, starting at two. Refuse that payment and you are ousted from their economy. The Skills Economy is a different exchange.",
-    "topics": [
-      "specterati",
-      "community",
-      "directory"
-    ],
-    "number": 407
   },
   {
     "slug": "it-is-self-defense",
@@ -1046,23 +1062,6 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 402
   },
   {
-    "slug": "who-teaches-them",
-    "title": "Who teaches them",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-28",
-    "excerpt": "Somebody asked on Quora whether teenagers who take part learn it from their parents. In what I have seen, parents teach them, and so do strangers.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/who-teaches-them.md",
-    "teaser": "Somebody asked on Quora why so many high school kids seem to know so much about taking part, and whether their parents teach them. In what I have seen, parents teach them, and so do strangers. Where the parents take part, the children do too, and it starts as young as two. Where they do not, strangers do the recruiting, with slander and something in exchange: sex, drugs, a job. For me it started at five, and it was adults first, then children. An adult stranger who hates a five-year-old they have never met is perverse, and it is what made it obvious.",
-    "topics": [
-      "specterati",
-      "clicklog",
-      "community"
-    ],
-    "number": 401
-  },
-  {
     "slug": "an-invitation-to-jerrod",
     "title": "An invitation to Jerrod",
     "repo": "chargingthefuture/wiki-site",
@@ -1078,74 +1077,6 @@ export const ARTICLES: ArticleMeta[] = [
       "workforce"
     ],
     "number": 400
-  },
-  {
-    "slug": "how-i-can-help",
-    "title": "How I can help",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-28",
-    "excerpt": "Somebody asked on Quora how anybody could help, knowing who some of the people involved are. Nobody honest can promise to make it stop. Here is what can actually be done.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/how-i-can-help.md",
-    "teaser": "Somebody asked on Quora how anybody could help them, and said they know some of who is involved. Nobody honest can promise to make it stop, and I will not. What I can offer is plainer: what to do with knowing who, which is mostly to write it down; people who believe you without an argument first; and help with the things that make a week bearable, from people who are not part of it.",
-    "topics": [
-      "specterati",
-      "clicklog",
-      "community"
-    ],
-    "number": 399
-  },
-  {
-    "slug": "questions-from-a-bot",
-    "title": "Questions from a bot, bans for the people answering",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-28",
-    "excerpt": "Quora's own bot writes questions about Targeted Individuals. Quora has also erased my accounts fifty-six times.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/questions-from-a-bot.md",
-    "teaser": "Quora runs a bot that writes questions nobody asked, and some of them are about Targeted Individuals: how long it lasts, how to tell, how to build support. Of the first seventeen questions I went back to answer, four came from that bot. Quora has erased my accounts fifty-six times. I do not advocate violence. The platform wants the questions asked and does not want the people who can answer them.",
-    "topics": [
-      "platform-independence",
-      "publishing",
-      "community"
-    ],
-    "number": 398
-  },
-  {
-    "slug": "an-invitation-to-zack",
-    "title": "An invitation to Zack",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-28",
-    "excerpt": "A community that houses people makes waste and draws water, and somebody has to know where both go. On this list, that work is nearly empty.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/an-invitation-to-zack.md",
-    "teaser": "It is an invitation to join the Skills Economy. Zack Tom, in Denmark, has a Directory listing with five environmental skills on it: monitoring habitats, designing pollution control, modeling where waste goes, planning corrections when rules are broken, and running the outreach that gets people to look after a place. Across the list, 6 of the 25 environmental and waste skills the app tracks are held by anybody, and 3 of the 19 for water and sanitation. A community that houses people needs that work from its first day.",
-    "topics": [
-      "community",
-      "directory",
-      "workforce"
-    ],
-    "number": 397
-  },
-  {
-    "slug": "it-happens-at-work",
-    "title": "It happens at work",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-28",
-    "excerpt": "Somebody asked on Quora whether this happens at work. It does, and work is where it does the most damage, because work is where the income is.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/it-happens-at-work.md",
-    "teaser": "Somebody asked on Quora whether this happens in professional or work settings. It does, and there is an old name for the workplace version: mobbing, a group turning on one colleague over months until the person leaves or breaks. Work is where it does the most damage, because work is where the income is. Pushing somebody out of a job cuts them off from money, from colleagues, and from the next job. What answers that is a dated record, and work arranged with people who are not part of it.",
-    "topics": [
-      "specterati",
-      "clicklog",
-      "workforce"
-    ],
-    "number": 396
   },
   {
     "slug": "an-invitation-to-jessica",
@@ -1165,6 +1096,108 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 395
   },
   {
+    "slug": "an-invitation-to-krissyy",
+    "title": "An invitation to Krissyy",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-28",
+    "excerpt": "Dr. King went to Memphis for a union, and the strike ended in terms the city agreed to in writing. Somebody has to be able to write the terms down. On this list, one person can.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-krissyy.md",
+    "teaser": "Dr. King's last campaign was economic. He was killed in Memphis while supporting a sanitation strike, and the strike ended with the city agreeing to terms. A demand that is won becomes words on paper, and somebody has to be able to write them. Krissyy, in Minneapolis, has a Directory listing with one skill on it: legal research and drafting. Of the 163 people on the list, theirs is the only listing that carries it. This is an invitation to claim that listing, and no is a complete answer.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 393
+  },
+  {
+    "slug": "an-invitation-to-zack",
+    "title": "An invitation to Zack",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-28",
+    "excerpt": "A community that houses people makes waste and draws water, and somebody has to know where both go. On this list, that work is nearly empty.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-zack.md",
+    "teaser": "It is an invitation to join the Skills Economy. Zack Tom, in Denmark, has a Directory listing with five environmental skills on it: monitoring habitats, designing pollution control, modeling where waste goes, planning corrections when rules are broken, and running the outreach that gets people to look after a place. Across the list, 6 of the 25 environmental and waste skills the app tracks are held by anybody, and 3 of the 19 for water and sanitation. A community that houses people needs that work from its first day.",
+    "topics": [
+      "community",
+      "directory",
+      "workforce"
+    ],
+    "number": 397
+  },
+  {
+    "slug": "how-i-can-help",
+    "title": "How I can help",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-28",
+    "excerpt": "Somebody asked on Quora how anybody could help, knowing who some of the people involved are. Nobody honest can promise to make it stop. Here is what can actually be done.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/how-i-can-help.md",
+    "teaser": "Somebody asked on Quora how anybody could help them, and said they know some of who is involved. Nobody honest can promise to make it stop, and I will not. What I can offer is plainer: what to do with knowing who, which is mostly to write it down; people who believe you without an argument first; and help with the things that make a week bearable, from people who are not part of it.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "community"
+    ],
+    "number": 399
+  },
+  {
+    "slug": "it-happens-at-work",
+    "title": "It happens at work",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-28",
+    "excerpt": "Somebody asked on Quora whether this happens at work. It does, and work is where it does the most damage, because work is where the income is.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/it-happens-at-work.md",
+    "teaser": "Somebody asked on Quora whether this happens in professional or work settings. It does, and there is an old name for the workplace version: mobbing, a group turning on one colleague over months until the person leaves or breaks. Work is where it does the most damage, because work is where the income is. Pushing somebody out of a job cuts them off from money, from colleagues, and from the next job. What answers that is a dated record, and work arranged with people who are not part of it.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "workforce"
+    ],
+    "number": 396
+  },
+  {
+    "slug": "questions-from-a-bot",
+    "title": "Questions from a bot, bans for the people answering",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-28",
+    "excerpt": "Quora's own bot writes questions about Targeted Individuals. Quora has also erased my accounts fifty-six times.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/questions-from-a-bot.md",
+    "teaser": "Quora runs a bot that writes questions nobody asked, and some of them are about Targeted Individuals: how long it lasts, how to tell, how to build support. Of the first seventeen questions I went back to answer, four came from that bot. Quora has erased my accounts fifty-six times. I do not advocate violence. The platform wants the questions asked and does not want the people who can answer them.",
+    "topics": [
+      "platform-independence",
+      "publishing",
+      "community"
+    ],
+    "number": 398
+  },
+  {
+    "slug": "who-teaches-them",
+    "title": "Who teaches them",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-28",
+    "excerpt": "Somebody asked on Quora whether teenagers who take part learn it from their parents. In what I have seen, parents teach them, and so do strangers.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/who-teaches-them.md",
+    "teaser": "Somebody asked on Quora why so many high school kids seem to know so much about taking part, and whether their parents teach them. In what I have seen, parents teach them, and so do strangers. Where the parents take part, the children do too, and it starts as young as two. Where they do not, strangers do the recruiting, with slander and something in exchange: sex, drugs, a job. For me it started at five, and it was adults first, then children. An adult stranger who hates a five-year-old they have never met is perverse, and it is what made it obvious.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "community"
+    ],
+    "number": 401
+  },
+  {
     "slug": "who-to-report-it-to",
     "title": "Who to report it to",
     "repo": "chargingthefuture/wiki-site",
@@ -1182,21 +1215,20 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 394
   },
   {
-    "slug": "an-invitation-to-krissyy",
-    "title": "An invitation to Krissyy",
+    "slug": "a-reader-nobody-can-close",
+    "title": "An RSS feed reader nobody can close",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-28",
-    "excerpt": "Dr. King went to Memphis for a union, and the strike ended in terms the city agreed to in writing. Somebody has to be able to write the terms down. On this list, one person can.",
+    "date": "2026-09-25",
+    "excerpt": "An RSS feed reader I host, for people who would rather not run one themselves. Nothing sits between the list and you, and nothing decides what you see first.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/an-invitation-to-krissyy.md",
-    "teaser": "Dr. King's last campaign was economic. He was killed in Memphis while supporting a sanitation strike, and the strike ended with the city agreeing to terms. A demand that is won becomes words on paper, and somebody has to be able to write them. Krissyy, in Minneapolis, has a Directory listing with one skill on it: legal research and drafting. Of the 163 people on the list, theirs is the only listing that carries it. This is an invitation to claim that listing, and no is a complete answer.",
+    "path": "posts/a-reader-nobody-can-close.md",
+    "teaser": "The feed you read on a platform is arranged by somebody else, and what it puts in front of you is a decision you did not make. An RSS feed reader, called a reader from here on, takes that away: it fetches the same posts the site publishes, in the order they were written, and nothing ranks them. Reading this blog that way needs no account anywhere — any reader app and one address. For people who would rather not run one, there is now one I host: sign in with your Skills Economy account, and the feeds are yours alone, invisible to every other person on it. Below is who pays for it and when you could lose your spot on it, written down now rather than left for you to discover.",
     "topics": [
-      "community",
-      "directory",
-      "workforce"
+      "platform-independence",
+      "publishing"
     ],
-    "number": 393
+    "number": 390
   },
   {
     "slug": "new-here-three-things-to-do-first",
@@ -1233,22 +1265,6 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 391
   },
   {
-    "slug": "a-reader-nobody-can-close",
-    "title": "An RSS feed reader nobody can close",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-25",
-    "excerpt": "An RSS feed reader I host, for people who would rather not run one themselves. Nothing sits between the list and you, and nothing decides what you see first.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/a-reader-nobody-can-close.md",
-    "teaser": "The feed you read on a platform is arranged by somebody else, and what it puts in front of you is a decision you did not make. An RSS feed reader, called a reader from here on, takes that away: it fetches the same posts the site publishes, in the order they were written, and nothing ranks them. Reading this blog that way needs no account anywhere — any reader app and one address. For people who would rather not run one, there is now one I host: sign in with your Skills Economy account, and the feeds are yours alone, invisible to every other person on it. Below is who pays for it and when you could lose your spot on it, written down now rather than left for you to discover.",
-    "topics": [
-      "platform-independence",
-      "publishing"
-    ],
-    "number": 390
-  },
-  {
     "slug": "an-invitation-to-lorraine",
     "title": "An invitation to Lorraine",
     "repo": "chargingthefuture/wiki-site",
@@ -1266,21 +1282,20 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 389
   },
   {
-    "slug": "what-actually-comes-back",
-    "title": "What actually comes back",
+    "slug": "best-description-i-have-read",
+    "title": "The best description of it I have read",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-09-22",
-    "excerpt": "Somebody asked how to recover and return to a normal life. Nothing returns to before. Specific things come back, and naming them is more use than the word recovery.",
+    "excerpt": "People keep asking what this is and what the methods are. Somebody answered it years ago, better than I would, and my old Quora space pointed at her answer.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/what-actually-comes-back.md",
-    "teaser": "A question in the queue asks how a person recovers from this and returns to a normal life. The honest answer disagrees with the premise. A name on the list is never taken off, so there is no before to return to, and a person who measures progress against that will read every ordinary week as failure. What does come back is specific and can be listed: income, a place to live, people who know you, sleep, and the ability to ask somebody for something. Those are the things to rebuild, under conditions that are still running.",
+    "path": "posts/best-description-i-have-read.md",
+    "teaser": "What is this and what are the methods? It is the question that arrives most often, and I am not going to answer it, because Sherri Jenkins already did and did it better than I would. Her answer is a list: following on foot and by car, crowding somebody's space, insults murmured so only the target hears, a car outside the house, staged fights, skits built from things only the target should know, theft and vandalism, rumors, photographs, pets harmed, a phone bugged, mail tampered with, and the family pulled in too. The list is the part that matters, because every item on it is nothing taken alone. That is what makes it work and what makes it impossible to report.",
     "topics": [
       "community",
-      "skills-economy",
-      "clicklog"
+      "specterati"
     ],
-    "number": 388
+    "number": 385
   },
   {
     "slug": "it-followed-you",
@@ -1317,22 +1332,6 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 386
   },
   {
-    "slug": "best-description-i-have-read",
-    "title": "The best description of it I have read",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-22",
-    "excerpt": "People keep asking what this is and what the methods are. Somebody answered it years ago, better than I would, and my old Quora space pointed at her answer.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/best-description-i-have-read.md",
-    "teaser": "What is this and what are the methods? It is the question that arrives most often, and I am not going to answer it, because Sherri Jenkins already did and did it better than I would. Her answer is a list: following on foot and by car, crowding somebody's space, insults murmured so only the target hears, a car outside the house, staged fights, skits built from things only the target should know, theft and vandalism, rumors, photographs, pets harmed, a phone bugged, mail tampered with, and the family pulled in too. The list is the part that matters, because every item on it is nothing taken alone. That is what makes it work and what makes it impossible to report.",
-    "topics": [
-      "community",
-      "specterati"
-    ],
-    "number": 385
-  },
-  {
     "slug": "they-are-not-psychic",
     "title": "They are not psychic",
     "repo": "chargingthefuture/wiki-site",
@@ -1348,6 +1347,23 @@ export const ARTICLES: ArticleMeta[] = [
       "community"
     ],
     "number": 384
+  },
+  {
+    "slug": "what-actually-comes-back",
+    "title": "What actually comes back",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-22",
+    "excerpt": "Somebody asked how to recover and return to a normal life. Nothing returns to before. Specific things come back, and naming them is more use than the word recovery.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/what-actually-comes-back.md",
+    "teaser": "A question in the queue asks how a person recovers from this and returns to a normal life. The honest answer disagrees with the premise. A name on the list is never taken off, so there is no before to return to, and a person who measures progress against that will read every ordinary week as failure. What does come back is specific and can be listed: income, a place to live, people who know you, sleep, and the ability to ask somebody for something. Those are the things to rebuild, under conditions that are still running.",
+    "topics": [
+      "community",
+      "skills-economy",
+      "clicklog"
+    ],
+    "number": 388
   },
   {
     "slug": "an-invitation-to-alphelus",
@@ -1401,21 +1417,21 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 381
   },
   {
-    "slug": "mutual-not-equal",
-    "title": "Mutual, not equal",
+    "slug": "an-invitation-to-tommy",
+    "title": "An invitation to Tommy",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-09-20",
-    "excerpt": "How to ask another Targeted Individual for help: bring something, and know who is receiving the ask. It does not have to be equal.",
+    "excerpt": "A room that cannot be heated is not housing. The Directory lists rooms offered by survivors, and one person on it does mechanical and electrical repair and HVAC.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/mutual-not-equal.md",
-    "teaser": "The last post was about ignoring it. This one is what happens when you stop and start asking. Every relationship runs on an exchange, and it is almost never equal — it only has to be mutual, with each side getting what they came for. Before the targeting, most people arrived at every table with enough to offer that the habit was never tested; afterward the same habit meets closed doors and hears far more no than yes. The Skills Economy is built to take the awkwardness out of that, and to filter out the people who will never hand you anything real.",
+    "path": "posts/an-invitation-to-tommy.md",
+    "teaser": "LightHouse lists rooms offered by survivors to survivors, which is the answer to the scheme that walks a destitute person back to relatives who can be bought. But a room is only a room while the heat works, and a community with no money does not replace what breaks — it repairs it. Tommy Gumbert is listed in the Directory for mechanical and electrical repair and HVAC. The skills catalog holds 686 things a working economy needs somebody to be able to do; read on September 20, the Directory's 158 people held 194 of them and 492 had nobody at all. Mending is in one of the thin sectors, not a queue to join.",
     "topics": [
       "community",
-      "philosophy",
-      "skills-economy"
+      "directory",
+      "lighthouse"
     ],
-    "number": 380
+    "number": 378
   },
   {
     "slug": "count-the-recruits",
@@ -1434,23 +1450,6 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 379
   },
   {
-    "slug": "an-invitation-to-tommy",
-    "title": "An invitation to Tommy",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-20",
-    "excerpt": "A room that cannot be heated is not housing. The Directory lists rooms offered by survivors, and one person on it does mechanical and electrical repair and HVAC.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/an-invitation-to-tommy.md",
-    "teaser": "LightHouse lists rooms offered by survivors to survivors, which is the answer to the scheme that walks a destitute person back to relatives who can be bought. But a room is only a room while the heat works, and a community with no money does not replace what breaks — it repairs it. Tommy Gumbert is listed in the Directory for mechanical and electrical repair and HVAC. The skills catalog holds 686 things a working economy needs somebody to be able to do; read on September 20, the Directory's 158 people held 194 of them and 492 had nobody at all. Mending is in one of the thin sectors, not a queue to join.",
-    "topics": [
-      "community",
-      "directory",
-      "lighthouse"
-    ],
-    "number": 378
-  },
-  {
     "slug": "move-toward-somebody",
     "title": "Move toward somebody",
     "repo": "chargingthefuture/wiki-site",
@@ -1466,6 +1465,23 @@ export const ARTICLES: ArticleMeta[] = [
       "clicklog"
     ],
     "number": 377
+  },
+  {
+    "slug": "mutual-not-equal",
+    "title": "Mutual, not equal",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-20",
+    "excerpt": "How to ask another Targeted Individual for help: bring something, and know who is receiving the ask. It does not have to be equal.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/mutual-not-equal.md",
+    "teaser": "The last post was about ignoring it. This one is what happens when you stop and start asking. Every relationship runs on an exchange, and it is almost never equal — it only has to be mutual, with each side getting what they came for. Before the targeting, most people arrived at every table with enough to offer that the habit was never tested; afterward the same habit meets closed doors and hears far more no than yes. The Skills Economy is built to take the awkwardness out of that, and to filter out the people who will never hand you anything real.",
+    "topics": [
+      "community",
+      "philosophy",
+      "skills-economy"
+    ],
+    "number": 380
   },
   {
     "slug": "something-to-lose",
@@ -1500,23 +1516,6 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 375
   },
   {
-    "slug": "what-can-be-stopped",
-    "title": "What can be stopped",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-19",
-    "excerpt": "Nobody I know has stopped it, and the people who say it stopped were mostly told so by the people doing it. What can be stopped is what it costs you.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/what-can-be-stopped.md",
-    "teaser": "Somebody asked whether the harassment can be stopped, and which methods have worked. The honest answer is that no method I know of has ended it, mine included, and I have been at this since I was five. Moving does not do it, ignoring did not do it, and a quiet stretch is usually the people doing it laying low. What can be stopped is what it costs: your record of your own life, your week, your income, and who you depend on. Those are the parts that were ever in reach, and an economy of survivors is built to take them back.",
-    "topics": [
-      "community",
-      "directory",
-      "clicklog"
-    ],
-    "number": 374
-  },
-  {
     "slug": "an-invitation-to-syah",
     "title": "An invitation to Syah",
     "repo": "chargingthefuture/wiki-site",
@@ -1549,6 +1548,23 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 372
   },
   {
+    "slug": "what-can-be-stopped",
+    "title": "What can be stopped",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-19",
+    "excerpt": "Nobody I know has stopped it, and the people who say it stopped were mostly told so by the people doing it. What can be stopped is what it costs you.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/what-can-be-stopped.md",
+    "teaser": "Somebody asked whether the harassment can be stopped, and which methods have worked. The honest answer is that no method I know of has ended it, mine included, and I have been at this since I was five. Moving does not do it, ignoring did not do it, and a quiet stretch is usually the people doing it laying low. What can be stopped is what it costs: your record of your own life, your week, your income, and who you depend on. Those are the parts that were ever in reach, and an economy of survivors is built to take them back.",
+    "topics": [
+      "community",
+      "directory",
+      "clicklog"
+    ],
+    "number": 374
+  },
+  {
     "slug": "an-invitation-to-espada",
     "title": "An invitation to Espada",
     "repo": "chargingthefuture/wiki-site",
@@ -1563,6 +1579,22 @@ export const ARTICLES: ArticleMeta[] = [
       "directory"
     ],
     "number": 371
+  },
+  {
+    "slug": "how-are-you-doing",
+    "title": "How are you doing?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-18",
+    "excerpt": "They ask because the answer is what they are collecting. I am not going to ask you that. I am going to ask what you need.",
+    "category": "Philosophy",
+    "collection": "posts",
+    "path": "posts/how-are-you-doing.md",
+    "teaser": "Asking a Targeted Individual how they are doing is not always a kindness. Their raw material is your pain, so the answer is the thing being collected — which is why the question gets asked at all, alongside holding a door and then saying something, or telling a woman she should smile more. So I am not going to ask you how you are doing. I already know, because I am living the same week. I am going to ask what you need, which is a question with an answer somebody can act on. Coexistence over conspiracy.",
+    "topics": [
+      "philosophy",
+      "community"
+    ],
+    "number": 368
   },
   {
     "slug": "how-to-run-a-one-percent-session",
@@ -1597,22 +1629,6 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 369
   },
   {
-    "slug": "how-are-you-doing",
-    "title": "How are you doing?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-18",
-    "excerpt": "They ask because the answer is what they are collecting. I am not going to ask you that. I am going to ask what you need.",
-    "category": "Philosophy",
-    "collection": "posts",
-    "path": "posts/how-are-you-doing.md",
-    "teaser": "Asking a Targeted Individual how they are doing is not always a kindness. Their raw material is your pain, so the answer is the thing being collected — which is why the question gets asked at all, alongside holding a door and then saying something, or telling a woman she should smile more. So I am not going to ask you how you are doing. I already know, because I am living the same week. I am going to ask what you need, which is a question with an answer somebody can act on. Coexistence over conspiracy.",
-    "topics": [
-      "philosophy",
-      "community"
-    ],
-    "number": 368
-  },
-  {
     "slug": "an-invitation-to-christy",
     "title": "An invitation to Christy",
     "repo": "chargingthefuture/wiki-site",
@@ -1645,6 +1661,38 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 366
   },
   {
+    "slug": "peace-battle-2",
+    "title": "Peace Battle 2",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-15",
+    "excerpt": "A protest starts Friday, September 18 at 7:00 PM Eastern. It has no location, because the people it is for are spread across the world and most of them cannot travel to stand anywhere.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/peace-battle-2.md",
+    "teaser": "Survivors have tried to hold protests and turned up alone. A protest in a place assumes neighbors, money for travel, and a day you can afford to lose, and most Targeted Individuals have none of the three. So this one is distributed, like the thing it answers. It starts Friday, September 18 at 7:00 PM Eastern, it runs for years, and there are three ways to take part — all of them from a phone. The page with the countdown and the links is chargingthefuture.github.io/chargingthefuture/pb2.",
+    "topics": [
+      "community",
+      "skills-economy"
+    ],
+    "number": 361
+  },
+  {
+    "slug": "ti-radio",
+    "title": "TI Radio: a week of live discussions, and anyone can read it",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-15",
+    "excerpt": "A published schedule of live talks survivors host. Reading it needs no account.",
+    "category": "Product",
+    "collection": "posts",
+    "path": "posts/ti-radio.md",
+    "teaser": "Survivors host live discussions, and until now the only way to say so was an announcement. An announcement reaches whoever is looking the day it goes out, and it cannot let somebody else put themselves on a list. So there is now a page that holds a week: seven days of 90-minute slots, in your own timezone, showing who is hosting and what it is about. Reading it needs no account at all. Taking a slot needs one.",
+    "topics": [
+      "product",
+      "community"
+    ],
+    "number": 362
+  },
+  {
     "slug": "whats-your-hangup",
     "title": "What's Your Hangup?",
     "repo": "chargingthefuture/wiki-site",
@@ -1659,22 +1707,6 @@ export const ARTICLES: ArticleMeta[] = [
       "skills-economy"
     ],
     "number": 365
-  },
-  {
-    "slug": "you-can-talk-under-these-posts-now",
-    "title": "You Can Talk Under These Posts Now",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-15",
-    "excerpt": "Fireside is a conversation under every post here. Reading takes no account at all. Writing takes one, and what you write stays where you left it.",
-    "category": "Platform",
-    "collection": "posts",
-    "path": "posts/you-can-talk-under-these-posts-now.md",
-    "teaser": "There is now a conversation under every post on this blog. It is called Fireside. Reading it costs nothing — no account, no sign-in, nothing to create — which is the opposite of the platforms that erased more than twenty of my accounts and every comment under them. Writing takes a free account, and what you write is held until you are approved, which you are told at the moment you post rather than left to discover. Your words stay yours: take a comment down whenever you want, and nothing goes onto the published page unless you ask for it and an admin agrees.",
-    "topics": [
-      "fireside",
-      "platform"
-    ],
-    "number": 364
   },
   {
     "slug": "whats-your-one-percent",
@@ -1694,52 +1726,20 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 363
   },
   {
-    "slug": "ti-radio",
-    "title": "TI Radio: a week of live discussions, and anyone can read it",
+    "slug": "you-can-talk-under-these-posts-now",
+    "title": "You Can Talk Under These Posts Now",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-09-15",
-    "excerpt": "A published schedule of live talks survivors host. Reading it needs no account.",
-    "category": "Product",
+    "excerpt": "Fireside is a conversation under every post here. Reading takes no account at all. Writing takes one, and what you write stays where you left it.",
+    "category": "Platform",
     "collection": "posts",
-    "path": "posts/ti-radio.md",
-    "teaser": "Survivors host live discussions, and until now the only way to say so was an announcement. An announcement reaches whoever is looking the day it goes out, and it cannot let somebody else put themselves on a list. So there is now a page that holds a week: seven days of 90-minute slots, in your own timezone, showing who is hosting and what it is about. Reading it needs no account at all. Taking a slot needs one.",
+    "path": "posts/you-can-talk-under-these-posts-now.md",
+    "teaser": "There is now a conversation under every post on this blog. It is called Fireside. Reading it costs nothing — no account, no sign-in, nothing to create — which is the opposite of the platforms that erased more than twenty of my accounts and every comment under them. Writing takes a free account, and what you write is held until you are approved, which you are told at the moment you post rather than left to discover. Your words stay yours: take a comment down whenever you want, and nothing goes onto the published page unless you ask for it and an admin agrees.",
     "topics": [
-      "product",
-      "community"
+      "fireside",
+      "platform"
     ],
-    "number": 362
-  },
-  {
-    "slug": "peace-battle-2",
-    "title": "Peace Battle 2",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-15",
-    "excerpt": "A protest starts Friday, September 18 at 7:00 PM Eastern. It has no location, because the people it is for are spread across the world and most of them cannot travel to stand anywhere.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/peace-battle-2.md",
-    "teaser": "Survivors have tried to hold protests and turned up alone. A protest in a place assumes neighbors, money for travel, and a day you can afford to lose, and most Targeted Individuals have none of the three. So this one is distributed, like the thing it answers. It starts Friday, September 18 at 7:00 PM Eastern, it runs for years, and there are three ways to take part — all of them from a phone. The page with the countdown and the links is chargingthefuture.github.io/chargingthefuture/pb2.",
-    "topics": [
-      "community",
-      "skills-economy"
-    ],
-    "number": 361
-  },
-  {
-    "slug": "what-i-missed-about-everything-on-the-blockchain",
-    "title": "What I Missed About Wanting Everything On the Blockchain",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-09-14",
-    "excerpt": "I thought putting every app on a blockchain was tunnel vision. Living under 24/7 targeting showed me a second reason somebody might want it.",
-    "category": "Philosophy",
-    "collection": "posts",
-    "path": "posts/what-i-missed-about-everything-on-the-blockchain.md",
-    "teaser": "Years ago I argued that crypto is useful for money and unnecessary for running an app — nobody needs a blockchain to book a room. I still mostly think that. What I missed is that some people asking for it were not maximalists at all. They wanted a system with no lever in it for anybody to pull. I learned that by building one, and by watching somebody ask me for the lever.",
-    "topics": [
-      "philosophy",
-      "architecture"
-    ],
-    "number": 360
+    "number": 364
   },
   {
     "slug": "nobody-calls-to-say-its-dead",
@@ -1756,6 +1756,22 @@ export const ARTICLES: ArticleMeta[] = [
       "security"
     ],
     "number": 359
+  },
+  {
+    "slug": "what-i-missed-about-everything-on-the-blockchain",
+    "title": "What I Missed About Wanting Everything On the Blockchain",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-09-14",
+    "excerpt": "I thought putting every app on a blockchain was tunnel vision. Living under 24/7 targeting showed me a second reason somebody might want it.",
+    "category": "Philosophy",
+    "collection": "posts",
+    "path": "posts/what-i-missed-about-everything-on-the-blockchain.md",
+    "teaser": "Years ago I argued that crypto is useful for money and unnecessary for running an app — nobody needs a blockchain to book a room. I still mostly think that. What I missed is that some people asking for it were not maximalists at all. They wanted a system with no lever in it for anybody to pull. I learned that by building one, and by watching somebody ask me for the lever.",
+    "topics": [
+      "philosophy",
+      "architecture"
+    ],
+    "number": 360
   },
   {
     "slug": "an-invitation-to-janie",
@@ -1820,6 +1836,22 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 355
   },
   {
+    "slug": "an-invitation-to-jhb",
+    "title": "An Invitation to J.H.B.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-28",
+    "excerpt": "Diagnostic testing, chemical dosing, pharmacology, audio and video work, CCTV, bookkeeping — nine specializations, and six years of answering other survivors in public.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/an-invitation-to-jhb.md",
+    "teaser": "J.H.B. asked the question \"You cannot argue a smear down\" answered. The Directory holds nine specializations for them, broader than that question would suggest: chemical dosing and safety, diagnostic testing across microscopy, biochemistry and hematology, pharmacology and prescription, then audio and video work, CCTV, and bookkeeping. Alongside it, six years of answering other survivors in public — read more than four hundred thousand times. Medicine is the shortage this economy feels most, and none of these roles is competitive: the list is empty rather than full.",
+    "topics": [
+      "members",
+      "skills-economy"
+    ],
+    "number": 352
+  },
+  {
     "slug": "rfs-teaching-and-childcare",
     "title": "Request For Skills: teaching and childcare",
     "repo": "chargingthefuture/wiki-site",
@@ -1851,22 +1883,6 @@ export const ARTICLES: ArticleMeta[] = [
       "education"
     ],
     "number": 353
-  },
-  {
-    "slug": "an-invitation-to-jhb",
-    "title": "An Invitation to J.H.B.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-28",
-    "excerpt": "Diagnostic testing, chemical dosing, pharmacology, audio and video work, CCTV, bookkeeping — nine specializations, and six years of answering other survivors in public.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/an-invitation-to-jhb.md",
-    "teaser": "J.H.B. asked the question \"You cannot argue a smear down\" answered. The Directory holds nine specializations for them, broader than that question would suggest: chemical dosing and safety, diagnostic testing across microscopy, biochemistry and hematology, pharmacology and prescription, then audio and video work, CCTV, and bookkeeping. Alongside it, six years of answering other survivors in public — read more than four hundred thousand times. Medicine is the shortage this economy feels most, and none of these roles is competitive: the list is empty rather than full.",
-    "topics": [
-      "members",
-      "skills-economy"
-    ],
-    "number": 352
   },
   {
     "slug": "you-cannot-argue-a-smear-down",
@@ -1935,6 +1951,22 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 348
   },
   {
+    "slug": "from-them-to-me",
+    "title": "From them to me",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-26",
+    "excerpt": "Read for direction instead of span, the Record shows one turn: nine months studying the people running the operation, then a shift to us. Everything that exists today was built after the turn.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/from-them-to-me.md",
+    "teaser": "The Record's 632 entries divide into a before and an after at one point. Nine months studying the people running the operation — I fell for it, because it is not an intelligence test; it is the design. Then the turn, dated: July 13, 2025, asking who and where we are instead; August 3, 2025, one sentence proposing the network. Everything in use today came after that turn, built while I lived outside with no car, no home, and no job. The nine months are optional now — you can start where they ended.",
+    "topics": [
+      "community",
+      "progress"
+    ],
+    "number": 345
+  },
+  {
     "slug": "seven-more-psyop-free-games",
     "title": "Seven more psyop-free games",
     "repo": "chargingthefuture/wiki-site",
@@ -1967,22 +1999,6 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 346
   },
   {
-    "slug": "from-them-to-me",
-    "title": "From them to me",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-26",
-    "excerpt": "Read for direction instead of span, the Record shows one turn: nine months studying the people running the operation, then a shift to us. Everything that exists today was built after the turn.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/from-them-to-me.md",
-    "teaser": "The Record's 632 entries divide into a before and an after at one point. Nine months studying the people running the operation — I fell for it, because it is not an intelligence test; it is the design. Then the turn, dated: July 13, 2025, asking who and where we are instead; August 3, 2025, one sentence proposing the network. Everything in use today came after that turn, built while I lived outside with no car, no home, and no job. The nine months are optional now — you can start where they ended.",
-    "topics": [
-      "community",
-      "progress"
-    ],
-    "number": 345
-  },
-  {
     "slug": "two-years-to-find-three-people",
     "title": "Two years to find three people",
     "repo": "chargingthefuture/wiki-site",
@@ -1998,39 +2014,6 @@ export const ARTICLES: ArticleMeta[] = [
       "economy"
     ],
     "number": 344
-  },
-  {
-    "slug": "the-record-reads-forwards",
-    "title": "The Record reads forwards",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-25",
-    "excerpt": "632 entries, under 149 questions, across 48 spaces, over 22 months. A new page puts the scattered Quora writing back in order and shows how long this has run.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/the-record-reads-forwards.md",
-    "teaser": "The blog has a new page called The Record. It holds the writing I scattered across other people's questions and spaces on Quora — 632 entries as I write this, under 149 different questions, across 48 spaces, running 22 months and counting. The feed answers what is being said now; The Record answers how long it has been said. Two accounts were destroyed along the way, and the page draws both takedowns across the timeline where they happened — the entries continue past each one.",
-    "topics": [
-      "publishing",
-      "platform-independence",
-      "community"
-    ],
-    "number": 343
-  },
-  {
-    "slug": "every-community-has-a-threat-model",
-    "title": "Every community has a threat model",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-25",
-    "excerpt": "Objections to a survivor community are not the problem. Presenting the threat without the other side — planning and preparedness — is.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/every-community-has-a-threat-model.md",
-    "teaser": "Every community since the beginning of time has had to consider threats, man-made or natural. A survivor-only community faces the same question every community faces — not a new one. Objections to the idea are not the problem; presenting the threat with no plan beside it is. What matters is planning and preparedness built on the community's threat model, and updating the plan when something goes wrong. I have never lived in a survivor community, and my life is threatened every day where I am.",
-    "topics": [
-      "community",
-      "planning"
-    ],
-    "number": 342
   },
   {
     "slug": "a-gated-community-and-who-could-plan-it",
@@ -2050,37 +2033,20 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 341
   },
   {
-    "slug": "why-nothing-is-written-on-a-platform-first",
-    "title": "Why nothing is written on a platform first",
+    "slug": "every-community-has-a-threat-model",
+    "title": "Every community has a threat model",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-08-25",
-    "excerpt": "The rule is on the record: every post starts on this blog, and platforms get a copy second. This is the story of how it took two erasures to learn.",
+    "excerpt": "Objections to a survivor community are not the problem. Presenting the threat without the other side — planning and preparedness — is.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/why-nothing-is-written-on-a-platform-first.md",
-    "teaser": "The standing rule is that nothing is written on a platform first anymore — every post starts on this blog, and platforms get a short version and a link. A rule on its own reads as policy, so here is the story that produced it: an account where every word lived on Quora alone, erased in an evening; a backup that was downstream of the thing being erased, which is the wrong way round; and a second erasure eleven months later that finally taught the lesson the first one had already given.",
+    "path": "posts/every-community-has-a-threat-model.md",
+    "teaser": "Every community since the beginning of time has had to consider threats, man-made or natural. A survivor-only community faces the same question every community faces — not a new one. Objections to the idea are not the problem; presenting the threat with no plan beside it is. What matters is planning and preparedness built on the community's threat model, and updating the plan when something goes wrong. I have never lived in a survivor community, and my life is threatened every day where I am.",
     "topics": [
-      "publishing",
-      "platform-independence"
-    ],
-    "number": 340
-  },
-  {
-    "slug": "the-audience-is-already-larger-than-the-goal",
-    "title": "The audience is already larger than the goal",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-25",
-    "excerpt": "The goal is 384 people. 451 already follow the space where this work is posted. Reaching the number does not depend on reaching anyone new.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/the-audience-is-already-larger-than-the-goal.md",
-    "teaser": "My goal is 384 approved members working with each other at any given time. The Skills Economy space on Quora has 451 followers, all time — more people than the goal needs, already reached once. Follows are not members and I am not pretending otherwise; they are proof the audience exists. The other 100 — the people on the skills map — got there by my own daily work, one person at a time, and a claim about my own work rate is one I can stand behind.",
-    "topics": [
-      "economy",
       "community",
-      "publishing"
+      "planning"
     ],
-    "number": 339
+    "number": 342
   },
   {
     "slug": "how-few-people-it-takes",
@@ -2116,6 +2082,56 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 337
   },
   {
+    "slug": "the-audience-is-already-larger-than-the-goal",
+    "title": "The audience is already larger than the goal",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-25",
+    "excerpt": "The goal is 384 people. 451 already follow the space where this work is posted. Reaching the number does not depend on reaching anyone new.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/the-audience-is-already-larger-than-the-goal.md",
+    "teaser": "My goal is 384 approved members working with each other at any given time. The Skills Economy space on Quora has 451 followers, all time — more people than the goal needs, already reached once. Follows are not members and I am not pretending otherwise; they are proof the audience exists. The other 100 — the people on the skills map — got there by my own daily work, one person at a time, and a claim about my own work rate is one I can stand behind.",
+    "topics": [
+      "economy",
+      "community",
+      "publishing"
+    ],
+    "number": 339
+  },
+  {
+    "slug": "the-record-reads-forwards",
+    "title": "The Record reads forwards",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-25",
+    "excerpt": "632 entries, under 149 questions, across 48 spaces, over 22 months. A new page puts the scattered Quora writing back in order and shows how long this has run.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/the-record-reads-forwards.md",
+    "teaser": "The blog has a new page called The Record. It holds the writing I scattered across other people's questions and spaces on Quora — 632 entries as I write this, under 149 different questions, across 48 spaces, running 22 months and counting. The feed answers what is being said now; The Record answers how long it has been said. Two accounts were destroyed along the way, and the page draws both takedowns across the timeline where they happened — the entries continue past each one.",
+    "topics": [
+      "publishing",
+      "platform-independence",
+      "community"
+    ],
+    "number": 343
+  },
+  {
+    "slug": "why-nothing-is-written-on-a-platform-first",
+    "title": "Why nothing is written on a platform first",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-25",
+    "excerpt": "The rule is on the record: every post starts on this blog, and platforms get a copy second. This is the story of how it took two erasures to learn.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/why-nothing-is-written-on-a-platform-first.md",
+    "teaser": "The standing rule is that nothing is written on a platform first anymore — every post starts on this blog, and platforms get a short version and a link. A rule on its own reads as policy, so here is the story that produced it: an account where every word lived on Quora alone, erased in an evening; a backup that was downstream of the thing being erased, which is the wrong way round; and a second erasure eleven months later that finally taught the lesson the first one had already given.",
+    "topics": [
+      "publishing",
+      "platform-independence"
+    ],
+    "number": 340
+  },
+  {
     "slug": "the-assistant-is-not-a-clinician",
     "title": "The Assistant Is Not a Clinician",
     "repo": "chargingthefuture/wiki-site",
@@ -2130,6 +2146,22 @@ export const ARTICLES: ArticleMeta[] = [
       "safety"
     ],
     "number": 336
+  },
+  {
+    "slug": "clicklog-the-record-has-started",
+    "title": "The Record Has Started",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-23",
+    "excerpt": "ClickLog's shared trend view stopped being a description of what it would do. There are entries in it now, from two people in two countries, and one section of it shows something a private log cannot.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/clicklog-the-record-has-started.md",
+    "teaser": "Six days ago I wrote that a shared ClickLog entry feeds something that has never existed: trend data on organized harassment, logged by the people it happens to rather than assembled by outsiders afterward. That was a description of a thing that had not happened yet. The shared view now reads twenty incidents, two members reporting, five days with activity, two countries. The section worth looking at is not any single count — it is the one that shows which problems and which named schemes get reported on the same incident.",
+    "topics": [
+      "clicklog",
+      "trends"
+    ],
+    "number": 332
   },
   {
     "slug": "how-to-check-me",
@@ -2180,52 +2212,20 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 333
   },
   {
-    "slug": "clicklog-the-record-has-started",
-    "title": "The Record Has Started",
+    "slug": "a-safe-place-to-shower",
+    "title": "A Safe Place to Shower",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-23",
-    "excerpt": "ClickLog's shared trend view stopped being a description of what it would do. There are entries in it now, from two people in two countries, and one section of it shows something a private log cannot.",
+    "date": "2026-08-21",
+    "excerpt": "They have run honeypots at me for decades and I have never engaged with one. So they went to the next best option: an employee with a key, and a shower door that does not lock.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/clicklog-the-record-has-started.md",
-    "teaser": "Six days ago I wrote that a shared ClickLog entry feeds something that has never existed: trend data on organized harassment, logged by the people it happens to rather than assembled by outsiders afterward. That was a description of a thing that had not happened yet. The shared view now reads twenty incidents, two members reporting, five days with activity, two countries. The section worth looking at is not any single count — it is the one that shows which problems and which named schemes get reported on the same incident.",
+    "path": "posts/a-safe-place-to-shower.md",
+    "teaser": "I was mobbed out of work and out of housing, and my businesses were driven to zero equity, so I shower in a day facility used by violent criminals and people using drugs, where the showers cannot be locked from the inside. On August 20, 2026 an employee keyed me in, and the moment I had undressed a door was opened and I was exposed to a man standing there, who laughed. ClickLog gained two things this week to name that: a problem tag for sexual violence, and a scheme called The Staged Exposure. I think it is what they reach for when the honeypots do not work, and I think honeypotting belongs in the same category — though I do not know what a lawyer or a clinician would call it.",
     "topics": [
       "clicklog",
-      "trends"
+      "safety"
     ],
-    "number": 332
-  },
-  {
-    "slug": "they-are-not-a-secret-society",
-    "title": "They Are Not a Secret Society",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-21",
-    "excerpt": "A secret society hides its membership and purpose. These people announce themselves to their targets all day long. Two new Dictionary entries, and I want survivors to tell me whether they are right.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/they-are-not-a-secret-society.md",
-    "teaser": "Two lines went into the Dictionary today. The first is that \"secret society\" is their own brag and is wrong by definition — a secret society hides who belongs to it, and these people advertise themselves to their targets constantly, because the signaling is the harassment. The second is collective amusement: the reason the days are scheduled and graded is that a group is watching, and the audience is the point. Both definitions are open for argument, and I would rather be corrected by survivors than be confidently wrong in public.",
-    "topics": [
-      "dictionary",
-      "specterati"
-    ],
-    "number": 331
-  },
-  {
-    "slug": "why-they-want-you-living-with-family",
-    "title": "Why They Want You Living With Family",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-21",
-    "excerpt": "Destitution is not the goal. It is the step that leaves one door open, and the door leads back to relatives who can be bought. This is the arrangement I argue against hardest, and why.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/why-they-want-you-living-with-family.md",
-    "teaser": "The Forced Homecoming, now on the schemes list, has been run at me for more than a decade. They make you destitute so the only place left to go is back to family — at any age, and the age is part of it. Then the relatives get bought: perks, work, company. It makes the scheduled harassment easy, because you have supplied both things it needs. And it is the cheapest way to get you labeled unstable, because a person isolated with their abusers, with no income and no unpaid witness, has no route to being believed.",
-    "topics": [
-      "specterati",
-      "housing"
-    ],
-    "number": 330
+    "number": 327
   },
   {
     "slug": "estonia-did-not-get-to-solve-it-either",
@@ -2260,36 +2260,36 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 328
   },
   {
-    "slug": "a-safe-place-to-shower",
-    "title": "A Safe Place to Shower",
+    "slug": "they-are-not-a-secret-society",
+    "title": "They Are Not a Secret Society",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-08-21",
-    "excerpt": "They have run honeypots at me for decades and I have never engaged with one. So they went to the next best option: an employee with a key, and a shower door that does not lock.",
+    "excerpt": "A secret society hides its membership and purpose. These people announce themselves to their targets all day long. Two new Dictionary entries, and I want survivors to tell me whether they are right.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/a-safe-place-to-shower.md",
-    "teaser": "I was mobbed out of work and out of housing, and my businesses were driven to zero equity, so I shower in a day facility used by violent criminals and people using drugs, where the showers cannot be locked from the inside. On August 20, 2026 an employee keyed me in, and the moment I had undressed a door was opened and I was exposed to a man standing there, who laughed. ClickLog gained two things this week to name that: a problem tag for sexual violence, and a scheme called The Staged Exposure. I think it is what they reach for when the honeypots do not work, and I think honeypotting belongs in the same category — though I do not know what a lawyer or a clinician would call it.",
+    "path": "posts/they-are-not-a-secret-society.md",
+    "teaser": "Two lines went into the Dictionary today. The first is that \"secret society\" is their own brag and is wrong by definition — a secret society hides who belongs to it, and these people advertise themselves to their targets constantly, because the signaling is the harassment. The second is collective amusement: the reason the days are scheduled and graded is that a group is watching, and the audience is the point. Both definitions are open for argument, and I would rather be corrected by survivors than be confidently wrong in public.",
     "topics": [
-      "clicklog",
-      "safety"
-    ],
-    "number": 327
-  },
-  {
-    "slug": "one-trip-seven-schemes",
-    "title": "The Record Says I Called. I Was on the Bus.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-20",
-    "excerpt": "One cross-country bus trip ran at least seven named schemes in sequence — and one of them rewrote my ticket while I was sitting on the bus it was for.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/one-trip-seven-schemes.md",
-    "teaser": "A three-leg bus trip from Salt Lake City to New York, booked for about two and a half days, took until the fourth day and never reached the terminal I paid for. Along the way it ran seven schemes that now have names: an unplanned rest stop that ran long and cost the connection, a search of my luggage on the grounds that locks on it indicate drug trafficking, loud talk about drugs after that search found nothing, a woman who would not leave and then reported an assault that never happened, a confirming witness, and a rewritten itinerary the carrier's own record says I phoned in. I did not. That is why ClickLog lets one incident carry ten scheme tags.",
-    "topics": [
-      "clicklog",
+      "dictionary",
       "specterati"
     ],
-    "number": 326
+    "number": 331
+  },
+  {
+    "slug": "why-they-want-you-living-with-family",
+    "title": "Why They Want You Living With Family",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-21",
+    "excerpt": "Destitution is not the goal. It is the step that leaves one door open, and the door leads back to relatives who can be bought. This is the arrangement I argue against hardest, and why.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/why-they-want-you-living-with-family.md",
+    "teaser": "The Forced Homecoming, now on the schemes list, has been run at me for more than a decade. They make you destitute so the only place left to go is back to family — at any age, and the age is part of it. Then the relatives get bought: perks, work, company. It makes the scheduled harassment easy, because you have supplied both things it needs. And it is the cheapest way to get you labeled unstable, because a person isolated with their abusers, with no income and no unpaid witness, has no route to being believed.",
+    "topics": [
+      "specterati",
+      "housing"
+    ],
+    "number": 330
   },
   {
     "slug": "an-invitation-to-steph-wo",
@@ -2308,6 +2308,22 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 325
   },
   {
+    "slug": "one-trip-seven-schemes",
+    "title": "The Record Says I Called. I Was on the Bus.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-20",
+    "excerpt": "One cross-country bus trip ran at least seven named schemes in sequence — and one of them rewrote my ticket while I was sitting on the bus it was for.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/one-trip-seven-schemes.md",
+    "teaser": "A three-leg bus trip from Salt Lake City to New York, booked for about two and a half days, took until the fourth day and never reached the terminal I paid for. Along the way it ran seven schemes that now have names: an unplanned rest stop that ran long and cost the connection, a search of my luggage on the grounds that locks on it indicate drug trafficking, loud talk about drugs after that search found nothing, a woman who would not leave and then reported an assault that never happened, a confirming witness, and a rewritten itinerary the carrier's own record says I phoned in. I did not. That is why ClickLog lets one incident carry ten scheme tags.",
+    "topics": [
+      "clicklog",
+      "specterati"
+    ],
+    "number": 326
+  },
+  {
     "slug": "transactional-on-purpose",
     "title": "Transactional on Purpose",
     "repo": "chargingthefuture/wiki-site",
@@ -2322,22 +2338,6 @@ export const ARTICLES: ArticleMeta[] = [
       "skills-economy"
     ],
     "number": 324
-  },
-  {
-    "slug": "quora-deletion-survey",
-    "title": "If Quora Closed Your Account, There Is Now Somewhere to Say So",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-19",
-    "excerpt": "A public survey recording accounts Quora removed — what was taken, when, and what reason was given. Reading it needs no account.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/quora-deletion-survey.md",
-    "teaser": "Every time an account goes, the record of it goes too. There is now a survey that keeps that record outside Quora: which handle, what happened to it, what month, and what reason was given — one card per closed account, so no total is a number somebody typed. Reading it needs no account. Your handle and your words stay unpublished unless you say otherwise, and your report still counts either way.",
-    "topics": [
-      "quora",
-      "research"
-    ],
-    "number": 323
   },
   {
     "slug": "clicklog-trends-now-say-where",
@@ -2372,52 +2372,52 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 321
   },
   {
-    "slug": "socketrelay-v3-credits",
-    "title": "SocketRelay Now Puts Something in Everyone's Hand",
+    "slug": "quora-deletion-survey",
+    "title": "If Quora Closed Your Account, There Is Now Somewhere to Say So",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-18",
-    "excerpt": "The needs board is the same idea it always was. What changed in v3: every member arrives with 100 ServiceCredits, so nobody starts with nothing to offer.",
+    "date": "2026-08-19",
+    "excerpt": "A public survey recording accounts Quora removed — what was taken, when, and what reason was given. Reading it needs no account.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/socketrelay-v3-credits.md",
-    "teaser": "The needs board has always worked the same way — post what you need, offer what you have. What changed in the current version of the app: every member who joins receives 100 ServiceCredits on day one. Being made destitute is the standard outcome of being targeted, and free-and-barter only goes so far when you have nothing left to barter with. Now nobody arrives empty-handed, and thanking another survivor properly is something anyone can do from the first day.",
+    "path": "posts/quora-deletion-survey.md",
+    "teaser": "Every time an account goes, the record of it goes too. There is now a survey that keeps that record outside Quora: which handle, what happened to it, what month, and what reason was given — one card per closed account, so no total is a number somebody typed. Reading it needs no account. Your handle and your words stay unpublished unless you say otherwise, and your report still counts either way.",
     "topics": [
-      "socketrelay",
-      "servicecredits"
+      "quora",
+      "research"
     ],
-    "number": 320
+    "number": 323
   },
   {
-    "slug": "who-put-you-on-the-list",
-    "title": "It Does Not Matter Who Put You on the List",
+    "slug": "clicklog-your-record-and-the-record",
+    "title": "ClickLog: your record, and the record",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-08-18",
-    "excerpt": "Every survivor gets a different story about who is doing this. The Skills Economy is built so that answer never has to be settled.",
+    "excerpt": "One log, two uses: your private incident record, and the first real-time, self-reported global map of trafficker activity.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/who-put-you-on-the-list.md",
-    "teaser": "Who put you on the list matters to a point. After that, it stops mattering: once you are on it, every criminal group in reach joins, and they run the same schemes in rotation regardless of who started it. That is why the Skills Economy does not ask you to identify your persecutor before it can help you. It is built on the one thing none of them are exempt from — economics.",
+    "path": "posts/clicklog-your-record-and-the-record.md",
+    "teaser": "ClickLog does two jobs with one entry. Privately, it is your incident record: dated, located if you choose, notes that are not shown to anyone else here — the record that lets you spot patterns and route around them. Shared, it becomes something that has never existed: real-time, self-reported global trend data on the movement of traffickers and their activities. The UN's own torture report said these allegations warrant investigation, and an investigation needs data. Three privacy rules cover all of it, and you control every one.",
     "topics": [
-      "specterati",
-      "skills-economy"
+      "clicklog",
+      "features"
     ],
-    "number": 319
+    "number": 313
   },
   {
-    "slug": "honoring-the-earliest-supporters",
-    "title": "The People Who Backed This Publicly",
+    "slug": "dew-attack-types",
+    "title": "The DEW List: Naming Every Kind of Attack",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-08-18",
-    "excerpt": "Ten of the earliest survivors to speak up for the Skills Economy on Quora. Their comments were deleted with the accounts. The record of who they are lives here.",
+    "excerpt": "A working list of directed energy weapon (DEW) attack types, built to become ClickLog labels. Add the ones you experience by commenting in the Commons chat.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/honoring-the-earliest-supporters.md",
-    "teaser": "Ten of the earliest survivors to back the Skills Economy publicly did it on Quora — in comments, on their own pages, in the open where other targeted people could see it. Quora deleted the accounts those comments lived on, so the proof they offered is gone. What is not gone is who they are and what they do. Each was a Member of the Day; each has a directory profile; each post that introduced them is still here. This page names them, links their profiles, and asks them to say the word again if they want to.",
+    "path": "posts/dew-attack-types.md",
+    "teaser": "I have asked for this before — on Quora and on the old Discourse forum. This time the list has somewhere to live: each DEW attack type on it becomes a label in ClickLog, a new label category, so an incident can be tagged by the kind of attack and the pattern shows up on the global map. The list starts with only what I have documented myself. If you experience a type that is not on it, add it by commenting in the Commons group chat.",
     "topics": [
-      "members",
-      "directory"
+      "clicklog",
+      "dew"
     ],
-    "number": 318
+    "number": 316
   },
   {
     "slug": "economics-oppress-save",
@@ -2436,20 +2436,20 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 317
   },
   {
-    "slug": "dew-attack-types",
-    "title": "The DEW List: Naming Every Kind of Attack",
+    "slug": "honoring-the-earliest-supporters",
+    "title": "The People Who Backed This Publicly",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-08-18",
-    "excerpt": "A working list of directed energy weapon (DEW) attack types, built to become ClickLog labels. Add the ones you experience by commenting in the Commons chat.",
+    "excerpt": "Ten of the earliest survivors to speak up for the Skills Economy on Quora. Their comments were deleted with the accounts. The record of who they are lives here.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/dew-attack-types.md",
-    "teaser": "I have asked for this before — on Quora and on the old Discourse forum. This time the list has somewhere to live: each DEW attack type on it becomes a label in ClickLog, a new label category, so an incident can be tagged by the kind of attack and the pattern shows up on the global map. The list starts with only what I have documented myself. If you experience a type that is not on it, add it by commenting in the Commons group chat.",
+    "path": "posts/honoring-the-earliest-supporters.md",
+    "teaser": "Ten of the earliest survivors to back the Skills Economy publicly did it on Quora — in comments, on their own pages, in the open where other targeted people could see it. Quora deleted the accounts those comments lived on, so the proof they offered is gone. What is not gone is who they are and what they do. Each was a Member of the Day; each has a directory profile; each post that introduced them is still here. This page names them, links their profiles, and asks them to say the word again if they want to.",
     "topics": [
-      "clicklog",
-      "dew"
+      "members",
+      "directory"
     ],
-    "number": 316
+    "number": 318
   },
   {
     "slug": "oldie-but-goodie-pam-dawson-t-tipton",
@@ -2484,20 +2484,20 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 314
   },
   {
-    "slug": "clicklog-your-record-and-the-record",
-    "title": "ClickLog: your record, and the record",
+    "slug": "socketrelay-v3-credits",
+    "title": "SocketRelay Now Puts Something in Everyone's Hand",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-08-18",
-    "excerpt": "One log, two uses: your private incident record, and the first real-time, self-reported global map of trafficker activity.",
+    "excerpt": "The needs board is the same idea it always was. What changed in v3: every member arrives with 100 ServiceCredits, so nobody starts with nothing to offer.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/clicklog-your-record-and-the-record.md",
-    "teaser": "ClickLog does two jobs with one entry. Privately, it is your incident record: dated, located if you choose, notes that are not shown to anyone else here — the record that lets you spot patterns and route around them. Shared, it becomes something that has never existed: real-time, self-reported global trend data on the movement of traffickers and their activities. The UN's own torture report said these allegations warrant investigation, and an investigation needs data. Three privacy rules cover all of it, and you control every one.",
+    "path": "posts/socketrelay-v3-credits.md",
+    "teaser": "The needs board has always worked the same way — post what you need, offer what you have. What changed in the current version of the app: every member who joins receives 100 ServiceCredits on day one. Being made destitute is the standard outcome of being targeted, and free-and-barter only goes so far when you have nothing left to barter with. Now nobody arrives empty-handed, and thanking another survivor properly is something anyone can do from the first day.",
     "topics": [
-      "clicklog",
-      "features"
+      "socketrelay",
+      "servicecredits"
     ],
-    "number": 313
+    "number": 320
   },
   {
     "slug": "the-manifesto-seven-months-later",
@@ -2514,6 +2514,22 @@ export const ARTICLES: ArticleMeta[] = [
       "progress"
     ],
     "number": 312
+  },
+  {
+    "slug": "who-put-you-on-the-list",
+    "title": "It Does Not Matter Who Put You on the List",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-18",
+    "excerpt": "Every survivor gets a different story about who is doing this. The Skills Economy is built so that answer never has to be settled.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/who-put-you-on-the-list.md",
+    "teaser": "Who put you on the list matters to a point. After that, it stops mattering: once you are on it, every criminal group in reach joins, and they run the same schemes in rotation regardless of who started it. That is why the Skills Economy does not ask you to identify your persecutor before it can help you. It is built on the one thing none of them are exempt from — economics.",
+    "topics": [
+      "specterati",
+      "skills-economy"
+    ],
+    "number": 319
   },
   {
     "slug": "an-addition-not-an-alternative",
@@ -2728,6 +2744,25 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/how-do-i-stop-v2k-and-rnm-i-m-being-set-up-as-schizophrenic-3",
+    "title": "How do I stop V2K and RNM I m being set up as schizophrenic",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-14",
+    "excerpt": "I gave an example in another post. The example high level was a networking app I was on. Perps invested in the app to get control ownership stake. They also honey posted some of the staff.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/how-do-i-stop-v2k-and-rnm-i-m-being-set-up-as-schizophrenic-3.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://uspsyopstargetedindividuals.quora.com/How-do-I-stop-V2K-and-RNM-I-m-being-set-up-as-schizophrenic-3",
+      "originalDate": "2026-08-14",
+      "status": "erased",
+      "kind": "answer-comment"
+    }
+  },
+  {
     "slug": "farah-brunache/i-am-going-live-in-chyme",
     "title": "I am going live in Chyme.",
     "repo": "chargingthefuture/wiki-site",
@@ -2861,22 +2896,22 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/how-do-i-stop-v2k-and-rnm-i-m-being-set-up-as-schizophrenic-3",
-    "title": "How do I stop V2K and RNM I m being set up as schizophrenic",
+    "slug": "farah-brunache/i-am-slowly-building-up-a-call-to-march-on-the-attorney-general-s-offi-4",
+    "title": "I am slowly building up a call to march on the Attorney General s office at the DOJ in Washington DC on…",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-14",
-    "excerpt": "I gave an example in another post. The example high level was a networking app I was on. Perps invested in the app to get control ownership stake. They also honey posted some of the staff.",
+    "date": "2026-08-13",
+    "excerpt": "What is? Several oppressed groups did this successfully history wise. I make no claim it stops targeting. There are fake TIs on Quora.",
     "category": "Community",
     "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/how-do-i-stop-v2k-and-rnm-i-m-being-set-up-as-schizophrenic-3.md",
+    "path": "archive/quora/farah-brunache/i-am-slowly-building-up-a-call-to-march-on-the-attorney-general-s-offi-4.md",
     "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
-      "originalUrl": "https://uspsyopstargetedindividuals.quora.com/How-do-I-stop-V2K-and-RNM-I-m-being-set-up-as-schizophrenic-3",
-      "originalDate": "2026-08-14",
+      "originalUrl": "https://www.quora.com/profile/Matthew-Cappadocia-aka-The-Wizard-of-Oz/I-am-slowly-building-up-a-call-to-march-on-the-Attorney-General-s-office-at-the-DOJ-in-Washington-DC-on-Mayday-Monda",
+      "originalDate": "2026-08-13",
       "status": "erased",
-      "kind": "answer-comment"
+      "kind": "post-comment"
     }
   },
   {
@@ -2918,25 +2953,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/i-am-slowly-building-up-a-call-to-march-on-the-attorney-general-s-offi-4",
-    "title": "I am slowly building up a call to march on the Attorney General s office at the DOJ in Washington DC on…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-13",
-    "excerpt": "What is? Several oppressed groups did this successfully history wise. I make no claim it stops targeting. There are fake TIs on Quora.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/i-am-slowly-building-up-a-call-to-march-on-the-attorney-general-s-offi-4.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/profile/Matthew-Cappadocia-aka-The-Wizard-of-Oz/I-am-slowly-building-up-a-call-to-march-on-the-Attorney-General-s-office-at-the-DOJ-in-Washington-DC-on-Mayday-Monda",
-      "originalDate": "2026-08-13",
-      "status": "erased",
-      "kind": "post-comment"
-    }
-  },
-  {
     "slug": "farah-brunache/community-update-we-have-reached-24-of-a-functioning",
     "title": "Community Update - we have reached 24% of a functioning nation-state like economy* There…",
     "repo": "chargingthefuture/wiki-site",
@@ -2975,25 +2991,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/it-is-worth-working-out-what-the-other-side",
-    "title": "It is worth working out what the other side actually needs, as opposed to what they say…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-08-10",
-    "excerpt": "It is worth working out what the other side actually needs, as opposed to what they say or what it feels like from the inside.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/it-is-worth-working-out-what-the-other-side.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/What-Winning-Requires",
-      "originalDate": "2026-08-10",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
     "slug": "farah-brunache/https-www-quora-com-profile-matthew-cappadocia-aka-the-wizard-of-oz-th-4",
     "title": "https www quora com profile Matthew Cappadocia aka The Wizard of Oz The mass surveillance and tracking of…",
     "repo": "chargingthefuture/wiki-site",
@@ -3029,6 +3026,25 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2026-08-10",
       "status": "erased",
       "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/it-is-worth-working-out-what-the-other-side",
+    "title": "It is worth working out what the other side actually needs, as opposed to what they say…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-08-10",
+    "excerpt": "It is worth working out what the other side actually needs, as opposed to what they say or what it feels like from the inside.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/it-is-worth-working-out-what-the-other-side.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/What-Winning-Requires",
+      "originalDate": "2026-08-10",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -3301,6 +3317,25 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 306
   },
   {
+    "slug": "farah-brunache/could-a-targeted-individual-be-also-active-in-gang-stalking-5",
+    "title": "Could a targeted individual be also active in gang stalking",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-28",
+    "excerpt": "I agree with you. I have never been outright asked to join nor heard voices. They did use a machine once to alter my dreams and asked me to give up and commit suicide.A perp once tried to…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/could-a-targeted-individual-be-also-active-in-gang-stalking-5.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/Could-a-targeted-individual-be-also-active-in-gang-stalking/answer/Matthew-Cappadocia-aka-The-Wizard-of-Oz",
+      "originalDate": "2026-07-28",
+      "status": "erased",
+      "kind": "answer-comment"
+    }
+  },
+  {
     "slug": "farah-brunache/i-changed-the-name-of-this-space-from-tiskillsnetwork",
     "title": "I changed the name of this space from tiskillsnetwork.quora.com to skillseconomy.quora.com",
     "repo": "chargingthefuture/wiki-site",
@@ -3355,25 +3390,6 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2026-07-28",
       "status": "erased",
       "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/could-a-targeted-individual-be-also-active-in-gang-stalking-5",
-    "title": "Could a targeted individual be also active in gang stalking",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-07-28",
-    "excerpt": "I agree with you. I have never been outright asked to join nor heard voices. They did use a machine once to alter my dreams and asked me to give up and commit suicide.A perp once tried to…",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/could-a-targeted-individual-be-also-active-in-gang-stalking-5.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/Could-a-targeted-individual-be-also-active-in-gang-stalking/answer/Matthew-Cappadocia-aka-The-Wizard-of-Oz",
-      "originalDate": "2026-07-28",
-      "status": "erased",
-      "kind": "answer-comment"
     }
   },
   {
@@ -3476,6 +3492,63 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/https-www-quora-com-profile-matthew-cappadocia-aka-the-wizard-of-oz-he",
+    "title": "https www quora com profile Matthew Cappadocia aka The Wizard of Oz Here is my reply to some misinformation…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-26",
+    "excerpt": "For as many real TIs on Quora there are a lot of fakes ones helping by reposting and encouraging the misinformation posted by real TIs.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/https-www-quora-com-profile-matthew-cappadocia-aka-the-wizard-of-oz-he.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://theartofpsychologicalwarfare.quora.com/https-www-quora-com-profile-Matthew-Cappadocia-aka-The-Wizard-of-Oz-Here-is-my-reply-to-some-misinformation-This-is-wh",
+      "originalDate": "2026-07-26",
+      "status": "erased",
+      "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/https-www-quora-com-profile-matthew-cappadocia-aka-the-wizard-of-oz-th-3",
+    "title": "https www quora com profile Matthew Cappadocia aka The Wizard of Oz The mass surveillance and tracking of…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-26",
+    "excerpt": "Why would that be needed when nearly everyone in the world has mobile phones? That is an easier way to track people. Mobile phone adoption happened before COVID.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/https-www-quora-com-profile-matthew-cappadocia-aka-the-wizard-of-oz-th-3.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/profile/Matthew-Cappadocia-aka-The-Wizard-of-Oz/https-www-quora-com-profile-Matthew-Cappadocia-aka-The-Wizard-of-Oz-The-mass-surveillance-and-tracking-of-people-becam",
+      "originalDate": "2026-07-26",
+      "status": "erased",
+      "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-am-slowly-building-up-a-call-to-march-on-the-attorney-general-s-offi",
+    "title": "I am slowly building up a call to march on the Attorney General s office at the DOJ in Washington DC on…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-26",
+    "excerpt": "What was the outcome from this? TI wise of course.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-am-slowly-building-up-a-call-to-march-on-the-attorney-general-s-offi.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/profile/Matthew-Cappadocia-aka-The-Wizard-of-Oz/I-am-slowly-building-up-a-call-to-march-on-the-Attorney-General-s-office-at-the-DOJ-in-Washington-DC-on-Mayday-Monda",
+      "originalDate": "2026-07-26",
+      "status": "erased",
+      "kind": "post-comment"
+    }
+  },
+  {
     "slug": "farah-brunache/i-have-changed-the-logo",
     "title": "I have changed the logo.",
     "repo": "chargingthefuture/wiki-site",
@@ -3549,63 +3622,6 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2026-07-26",
       "status": "erased",
       "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/https-www-quora-com-profile-matthew-cappadocia-aka-the-wizard-of-oz-he",
-    "title": "https www quora com profile Matthew Cappadocia aka The Wizard of Oz Here is my reply to some misinformation…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-07-26",
-    "excerpt": "For as many real TIs on Quora there are a lot of fakes ones helping by reposting and encouraging the misinformation posted by real TIs.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/https-www-quora-com-profile-matthew-cappadocia-aka-the-wizard-of-oz-he.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://theartofpsychologicalwarfare.quora.com/https-www-quora-com-profile-Matthew-Cappadocia-aka-The-Wizard-of-Oz-Here-is-my-reply-to-some-misinformation-This-is-wh",
-      "originalDate": "2026-07-26",
-      "status": "erased",
-      "kind": "post-comment"
-    }
-  },
-  {
-    "slug": "farah-brunache/https-www-quora-com-profile-matthew-cappadocia-aka-the-wizard-of-oz-th-3",
-    "title": "https www quora com profile Matthew Cappadocia aka The Wizard of Oz The mass surveillance and tracking of…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-07-26",
-    "excerpt": "Why would that be needed when nearly everyone in the world has mobile phones? That is an easier way to track people. Mobile phone adoption happened before COVID.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/https-www-quora-com-profile-matthew-cappadocia-aka-the-wizard-of-oz-th-3.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/profile/Matthew-Cappadocia-aka-The-Wizard-of-Oz/https-www-quora-com-profile-Matthew-Cappadocia-aka-The-Wizard-of-Oz-The-mass-surveillance-and-tracking-of-people-becam",
-      "originalDate": "2026-07-26",
-      "status": "erased",
-      "kind": "post-comment"
-    }
-  },
-  {
-    "slug": "farah-brunache/i-am-slowly-building-up-a-call-to-march-on-the-attorney-general-s-offi",
-    "title": "I am slowly building up a call to march on the Attorney General s office at the DOJ in Washington DC on…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-07-26",
-    "excerpt": "What was the outcome from this? TI wise of course.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/i-am-slowly-building-up-a-call-to-march-on-the-attorney-general-s-offi.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/profile/Matthew-Cappadocia-aka-The-Wizard-of-Oz/I-am-slowly-building-up-a-call-to-march-on-the-Attorney-General-s-office-at-the-DOJ-in-Washington-DC-on-Mayday-Monda",
-      "originalDate": "2026-07-26",
-      "status": "erased",
-      "kind": "post-comment"
     }
   },
   {
@@ -4307,25 +4323,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/susan-tindal-will-you-join-the-ti-skills-economy",
-    "title": "Susan Tindal Will you join the TI Skills Economy (TSE)?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-07-14",
-    "excerpt": "Susan Tindal Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace…",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/susan-tindal-will-you-join-the-ti-skills-economy.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Susan-Tindal-https-www-quora-com-profile-Susan-Tindal-8-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skills",
-      "originalDate": "2026-07-14",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
     "slug": "farah-brunache/hi-farah-i-discovered-ti-skills-network-via-another-tis-comment-on-my-2",
     "title": "Hi Farah I discovered TI skills network via another TIs comment on my post How to join it I followed for now…",
     "repo": "chargingthefuture/wiki-site",
@@ -4342,6 +4339,25 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2026-07-14",
       "status": "erased",
       "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/susan-tindal-will-you-join-the-ti-skills-economy",
+    "title": "Susan Tindal Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-14",
+    "excerpt": "Susan Tindal Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/susan-tindal-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Susan-Tindal-https-www-quora-com-profile-Susan-Tindal-8-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skills",
+      "originalDate": "2026-07-14",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -4405,6 +4421,25 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 301
   },
   {
+    "slug": "farah-brunache/are-there-actual-physical-communities-of-targeted-individuals-living-t-5",
+    "title": "Are there actual physical communities of Targeted Individuals living together protecting one another",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-12",
+    "excerpt": "Thank you for responding this is great news. Please join the app. The point of doing this is so information is not fragmented and easy for TIs to get value from.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/are-there-actual-physical-communities-of-targeted-individuals-living-t-5.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://uspsyopstargetedindividuals.quora.com/Are-there-actual-physical-communities-of-Targeted-Individuals-living-together-protecting-one-another-2",
+      "originalDate": "2026-07-12",
+      "status": "erased",
+      "kind": "answer-comment"
+    }
+  },
+  {
     "slug": "farah-brunache/damon-mayle-the-perp-that-attempted-to-pass-as",
     "title": "Damon Mayle, the perp that attempted to pass as a TI, proudly stated, that once I started…",
     "repo": "chargingthefuture/wiki-site",
@@ -4421,6 +4456,25 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2026-07-12",
       "status": "erased",
       "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/does-anyone-know-how-to-unlock-a-website-domain",
+    "title": "Does anyone know how to unlock a website domain",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-12",
+    "excerpt": "Please be more specific. “Unlock” could mean multiple things.Do you own the domain? Who is the provider?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/does-anyone-know-how-to-unlock-a-website-domain.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/profile/KC-3518/Does-anyone-know-how-to-unlock-a-website-domain",
+      "originalDate": "2026-07-12",
+      "status": "erased",
+      "kind": "post-comment"
     }
   },
   {
@@ -4538,39 +4592,20 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/are-there-actual-physical-communities-of-targeted-individuals-living-t-5",
-    "title": "Are there actual physical communities of Targeted Individuals living together protecting one another",
+    "slug": "farah-brunache/so-i-had-a-nightmare-that-their-was-a-terrible-accident-on-my-street-c",
+    "title": "So I had a nightmare that their was a terrible accident on my street corner know i called to get a speed bump…",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-07-12",
-    "excerpt": "Thank you for responding this is great news. Please join the app. The point of doing this is so information is not fragmented and easy for TIs to get value from.",
+    "date": "2026-07-11",
+    "excerpt": "That is exactly what they do. So now always say the opposite of what you like or want and watch all the things you like manifest.",
     "category": "Community",
     "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/are-there-actual-physical-communities-of-targeted-individuals-living-t-5.md",
+    "path": "archive/quora/farah-brunache/so-i-had-a-nightmare-that-their-was-a-terrible-accident-on-my-street-c.md",
     "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
-      "originalUrl": "https://uspsyopstargetedindividuals.quora.com/Are-there-actual-physical-communities-of-Targeted-Individuals-living-together-protecting-one-another-2",
-      "originalDate": "2026-07-12",
-      "status": "erased",
-      "kind": "answer-comment"
-    }
-  },
-  {
-    "slug": "farah-brunache/does-anyone-know-how-to-unlock-a-website-domain",
-    "title": "Does anyone know how to unlock a website domain",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-07-12",
-    "excerpt": "Please be more specific. “Unlock” could mean multiple things.Do you own the domain? Who is the provider?",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/does-anyone-know-how-to-unlock-a-website-domain.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/profile/KC-3518/Does-anyone-know-how-to-unlock-a-website-domain",
-      "originalDate": "2026-07-12",
+      "originalUrl": "https://www.quora.com/profile/ESPADA-18/So-I-had-a-nightmare-that-their-was-a-terrible-accident-on-my-street-corner-know-i-called-to-get-a-speed-bump-but-they-t",
+      "originalDate": "2026-07-11",
       "status": "erased",
       "kind": "post-comment"
     }
@@ -4592,25 +4627,6 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2026-07-11",
       "status": "erased",
       "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/so-i-had-a-nightmare-that-their-was-a-terrible-accident-on-my-street-c",
-    "title": "So I had a nightmare that their was a terrible accident on my street corner know i called to get a speed bump…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-07-11",
-    "excerpt": "That is exactly what they do. So now always say the opposite of what you like or want and watch all the things you like manifest.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/so-i-had-a-nightmare-that-their-was-a-terrible-accident-on-my-street-c.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/profile/ESPADA-18/So-I-had-a-nightmare-that-their-was-a-terrible-accident-on-my-street-corner-know-i-called-to-get-a-speed-bump-but-they-t",
-      "originalDate": "2026-07-11",
-      "status": "erased",
-      "kind": "post-comment"
     }
   },
   {
@@ -4647,25 +4663,6 @@ export const ARTICLES: ArticleMeta[] = [
       "account": "farah-brunache",
       "originalUrl": "https://skillseconomy.quora.com/Update-the-Look-Ma-I-Fixed-It-page-has-a-new-link-December-2025-I-shared-a-write-up-by-Nat-Morris-Nat-Morris-h",
       "originalDate": "2026-07-10",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/who-wants-to-help-plan-the-ti-cruise-ship",
-    "title": "Who wants to help plan the TI cruise ship?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-07-09",
-    "excerpt": "Who wants to help plan the TI cruise ship? An idea from Anthony Suter in the comments.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/who-wants-to-help-plan-the-ti-cruise-ship.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Who-wants-to-help-plan-the-TI-cruise-ship-An-idea-from-Anthony-Suter-https-www-quora-com-profile-Anthony-Suter-i",
-      "originalDate": "2026-07-09",
       "status": "erased",
       "kind": "space-post"
     }
@@ -4763,6 +4760,25 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2026-07-09",
       "status": "erased",
       "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/who-wants-to-help-plan-the-ti-cruise-ship",
+    "title": "Who wants to help plan the TI cruise ship?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-07-09",
+    "excerpt": "Who wants to help plan the TI cruise ship? An idea from Anthony Suter in the comments.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/who-wants-to-help-plan-the-ti-cruise-ship.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Who-wants-to-help-plan-the-TI-cruise-ship-An-idea-from-Anthony-Suter-https-www-quora-com-profile-Anthony-Suter-i",
+      "originalDate": "2026-07-09",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -5415,6 +5431,26 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/how-do-gang-stalkers-know-your-whereabouts-all-the-time",
+    "title": "How do gang stalkers know your whereabouts all the time?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-06-28",
+    "excerpt": "Because they have ops everywhere and nearly every company. They started stalking and harassing me before the “Internet” and so it less about technology and more about the amount of ops.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/how-do-gang-stalkers-know-your-whereabouts-all-the-time.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/How-do-gang-stalkers-know-your-whereabouts-all-the-time",
+      "originalDate": "2026-06-28",
+      "status": "erased",
+      "kind": "answer",
+      "question": "How do gang stalkers know your whereabouts all the time?"
+    }
+  },
+  {
     "slug": "farah-brunache/how-i-nominated-katie-larkin-to-the-ti-skills",
     "title": "How I nominated Katie Larkin to the TI Skills Economy!",
     "repo": "chargingthefuture/wiki-site",
@@ -5488,26 +5524,6 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2026-06-28",
       "status": "erased",
       "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/how-do-gang-stalkers-know-your-whereabouts-all-the-time",
-    "title": "How do gang stalkers know your whereabouts all the time?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-06-28",
-    "excerpt": "Because they have ops everywhere and nearly every company. They started stalking and harassing me before the “Internet” and so it less about technology and more about the amount of ops.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/how-do-gang-stalkers-know-your-whereabouts-all-the-time.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/How-do-gang-stalkers-know-your-whereabouts-all-the-time",
-      "originalDate": "2026-06-28",
-      "status": "erased",
-      "kind": "answer",
-      "question": "How do gang stalkers know your whereabouts all the time?"
     }
   },
   {
@@ -7137,25 +7153,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/in-the-comments-c-elizabeth-p-p",
-    "title": "In the comments C..Elizabeth..P.P.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-05-26",
-    "excerpt": "In the comments C..Elizabeth..P.P. states: trust isn’t something I have for people in person these days.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/in-the-comments-c-elizabeth-p-p.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/In-the-comments-C-Elizabeth-P-P-https-www-quora-com-profile-C-Elizabeth-P-P-states-trust-isn-t-something-I",
-      "originalDate": "2026-05-26",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
     "slug": "farah-brunache/https-tiskillsnetwork-quora-com-c-elizabeth-p-p-https-www-quora-com-pr",
     "title": "https tiskillsnetwork quora com C Elizabeth P P https www quora com profile C Elizabeth P P notes how perps…",
     "repo": "chargingthefuture/wiki-site",
@@ -7172,6 +7169,25 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2026-05-26",
       "status": "erased",
       "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/in-the-comments-c-elizabeth-p-p",
+    "title": "In the comments C..Elizabeth..P.P.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-05-26",
+    "excerpt": "In the comments C..Elizabeth..P.P. states: trust isn’t something I have for people in person these days.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/in-the-comments-c-elizabeth-p-p.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/In-the-comments-C-Elizabeth-P-P-https-www-quora-com-profile-C-Elizabeth-P-P-states-trust-isn-t-something-I",
+      "originalDate": "2026-05-26",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -7472,6 +7488,18 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "App-Redesign-(v3)-Demos",
+    "title": "Click through the screens at your own pace",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-05-12",
+    "excerpt": "I will use this post to link to all demos of the v3 app's 17+ features.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/App-Redesign-(v3)-Demos.md",
+    "teaser": "The v3 redesign of the app has a click-through prototype: every one of the 17+ features, at your own pace, no account needed. There is also an overview video and a video per feature. Click through and tell me what works and what does not.",
+    "number": 208
+  },
+  {
     "slug": "farah-brunache/fearnoman-what-type-of-work-are-you-interested-in",
     "title": "FearNoMan what type of work are you interested in?",
     "repo": "chargingthefuture/wiki-site",
@@ -7527,18 +7555,6 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "space-post"
     }
-  },
-  {
-    "slug": "App-Redesign-(v3)-Demos",
-    "title": "Click through the screens at your own pace",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-05-12",
-    "excerpt": "I will use this post to link to all demos of the v3 app's 17+ features.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/App-Redesign-(v3)-Demos.md",
-    "teaser": "The v3 redesign of the app has a click-through prototype: every one of the 17+ features, at your own pace, no account needed. There is also an overview video and a video per feature. Click through and tell me what works and what does not.",
-    "number": 208
   },
   {
     "slug": "farah-brunache/the-app-redesign-has-made-progress",
@@ -8374,25 +8390,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/i-made-this-post-last-week-announcing-a-price",
-    "title": "I made this post last week, announcing a price increase: A Necessary Step to Keep Our…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-02-27",
-    "excerpt": "I made this post last week, announcing a price increase: A Necessary Step to Keep Our Platform Running But have thought of a new idea.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/i-made-this-post-last-week-announcing-a-price.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/I-made-this-post-last-week-announcing-a-price-increase-A-Necessary-Step-to-Keep-Our-Platform-Running-https-github",
-      "originalDate": "2026-02-27",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
     "slug": "farah-brunache/i-do-not-know-also-do-not-see-how-this-question-relates-to-the-ti-skil",
     "title": "I do not know. Also do not see how this question relates to the TI Skills Economy.",
     "repo": "chargingthefuture/wiki-site",
@@ -8410,6 +8407,25 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "question-comment",
       "question": "https://skillseconomy.quora.com/What-does-it-mean-when-a-racist-lying-theiving-corrupt-governor-blocks-your-social-media-account"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-made-this-post-last-week-announcing-a-price",
+    "title": "I made this post last week, announcing a price increase: A Necessary Step to Keep Our…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-27",
+    "excerpt": "I made this post last week, announcing a price increase: A Necessary Step to Keep Our Platform Running But have thought of a new idea.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-made-this-post-last-week-announcing-a-price.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-made-this-post-last-week-announcing-a-price-increase-A-Necessary-Step-to-Keep-Our-Platform-Running-https-github",
+      "originalDate": "2026-02-27",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -8623,6 +8639,18 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "A-Necessary-Step-to-Keep-Our-Platform-Running",
+    "title": "Price Increase and Sustainability Update for TI Skills Economy",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-02-19",
+    "excerpt": "I'm writing to share an important update about the TI Skills Economy app's pricing and sustainability. Effective March 1, 2026, the subscription price will inc...",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/A-Necessary-Step-to-Keep-Our-Platform-Running.md",
+    "teaser": "The subscription rises from $1 to $2 a month on March 1, 2026. If you are already a member, your price is locked forever — this changes nothing for you. Without the increase, hosting costs take the app offline, and every day offline is a person who never finds it. If you cannot pay, keep using the app; I will cover it.",
+    "number": 203
+  },
+  {
     "slug": "farah-brunache/app-may-go-offline-temporarily-on-march-1-2026",
     "title": "App may go offline temporarily on March 1, 2026.",
     "repo": "chargingthefuture/wiki-site",
@@ -8660,18 +8688,6 @@ export const ARTICLES: ArticleMeta[] = [
       "kind": "answer",
       "question": "Farah, hey its Paul. I have beem absent lately, am I still a candidate for az gated community?"
     }
-  },
-  {
-    "slug": "A-Necessary-Step-to-Keep-Our-Platform-Running",
-    "title": "Price Increase and Sustainability Update for TI Skills Economy",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-02-19",
-    "excerpt": "I'm writing to share an important update about the TI Skills Economy app's pricing and sustainability. Effective March 1, 2026, the subscription price will inc...",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/A-Necessary-Step-to-Keep-Our-Platform-Running.md",
-    "teaser": "The subscription rises from $1 to $2 a month on March 1, 2026. If you are already a member, your price is locked forever — this changes nothing for you. Without the increase, hosting costs take the app offline, and every day offline is a person who never finds it. If you cannot pay, keep using the app; I will cover it.",
-    "number": 203
   },
   {
     "slug": "farah-brunache/missing-or-rescheduling-scheduled-appointments-last-minute-displaying-unprofessional",
@@ -9141,6 +9157,25 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/are-there-support-groups-for-targeted-individuals-in-austin-texas-gang",
+    "title": "Are there support groups for targeted individuals in Austin Texas gangstalking or are there people getting…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-08",
+    "excerpt": "From what I can tell, there is none. But I started a global network in an attempt to connect the 5 million estimated TIs.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/are-there-support-groups-for-targeted-individuals-in-austin-texas-gang.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://uspsyopstargetedindividuals.quora.com/Are-there-support-groups-for-targeted-individuals-in-Austin-Texas-gangstalking-or-are-there-people-getting-gangstalk-1",
+      "originalDate": "2026-02-08",
+      "status": "erased",
+      "kind": "answer-comment"
+    }
+  },
+  {
     "slug": "farah-brunache/if-you-are-a-mechanic-please-add-your-name",
     "title": "If you are a Mechanic, please add your name to the following public directory.",
     "repo": "chargingthefuture/wiki-site",
@@ -9195,25 +9230,6 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2026-02-08",
       "status": "erased",
       "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/are-there-support-groups-for-targeted-individuals-in-austin-texas-gang",
-    "title": "Are there support groups for targeted individuals in Austin Texas gangstalking or are there people getting…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-02-08",
-    "excerpt": "From what I can tell, there is none. But I started a global network in an attempt to connect the 5 million estimated TIs.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/are-there-support-groups-for-targeted-individuals-in-austin-texas-gang.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://uspsyopstargetedindividuals.quora.com/Are-there-support-groups-for-targeted-individuals-in-Austin-Texas-gangstalking-or-are-there-people-getting-gangstalk-1",
-      "originalDate": "2026-02-08",
-      "status": "erased",
-      "kind": "answer-comment"
     }
   },
   {
@@ -9316,25 +9332,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/if-any-of-my-posts-show-up-for-you",
-    "title": "If any of my posts show up for you with just the option to block or report me, and not…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-02-04",
-    "excerpt": "If any of my posts show up for you with just the option to block or report me, and not message me, let me know.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/if-any-of-my-posts-show-up-for-you.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/If-any-of-my-posts-show-up-for-you-with-just-the-option-to-block-or-report-me-and-not-message-me-let-me-know-If-I-fol",
-      "originalDate": "2026-02-04",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
     "slug": "farah-brunache/how-do-i-get-my-gang-stalkers-to-reveal-themselves-especially-possible",
     "title": "How do I get my gang stalkers to reveal themselves especially possible honeypots",
     "repo": "chargingthefuture/wiki-site",
@@ -9373,6 +9370,25 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/if-any-of-my-posts-show-up-for-you",
+    "title": "If any of my posts show up for you with just the option to block or report me, and not…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-04",
+    "excerpt": "If any of my posts show up for you with just the option to block or report me, and not message me, let me know.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/if-any-of-my-posts-show-up-for-you.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/If-any-of-my-posts-show-up-for-you-with-just-the-option-to-block-or-report-me-and-not-message-me-let-me-know-If-I-fol",
+      "originalDate": "2026-02-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/supportmatch-new-matches-made-today-please-log-into-the",
     "title": "SupportMatch: New matches made today Please log into the app to see your matches.",
     "repo": "chargingthefuture/wiki-site",
@@ -9387,44 +9403,6 @@ export const ARTICLES: ArticleMeta[] = [
       "account": "farah-brunache",
       "originalUrl": "https://skillseconomy.quora.com/SupportMatch-New-matches-made-today-Please-log-into-the-app-to-see-your-matches-If-you-do-not-have-a-match-it-means",
       "originalDate": "2026-02-03",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/marilyn-will-you-join-the-ti-skills-economy-tse",
-    "title": "Marilyn Will you join the TI Skills Economy (TSE)?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-02-02",
-    "excerpt": "Marilyn Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/marilyn-will-you-join-the-ti-skills-economy-tse.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Marilyn-https-www-quora-com-profile-Marilyn-1921-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skills-Economy",
-      "originalDate": "2026-02-02",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/my-dms-on-quora-are-generally-not-open-quick",
-    "title": "My DMs on Quora are generally not “open.” Quick and concise conversation is fine, for…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-02-02",
-    "excerpt": "My DMs on Quora are generally not “open.” Quick and concise conversation is fine, for example, troubleshooting app access issues, like you cannot log in.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/my-dms-on-quora-are-generally-not-open-quick.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Reminder-of-my-Quora-DM-policy",
-      "originalDate": "2026-02-02",
       "status": "erased",
       "kind": "space-post"
     }
@@ -9468,6 +9446,44 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/marilyn-will-you-join-the-ti-skills-economy-tse",
+    "title": "Marilyn Will you join the TI Skills Economy (TSE)?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-02",
+    "excerpt": "Marilyn Will you join the TI Skills Economy (TSE)? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/marilyn-will-you-join-the-ti-skills-economy-tse.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Marilyn-https-www-quora-com-profile-Marilyn-1921-Will-you-join-the-TI-Skills-Economy-TSE-The-TI-Skills-Economy",
+      "originalDate": "2026-02-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/my-dms-on-quora-are-generally-not-open-quick",
+    "title": "My DMs on Quora are generally not “open.” Quick and concise conversation is fine, for…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-02-02",
+    "excerpt": "My DMs on Quora are generally not “open.” Quick and concise conversation is fine, for example, troubleshooting app access issues, like you cannot log in.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/my-dms-on-quora-are-generally-not-open-quick.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Reminder-of-my-Quora-DM-policy",
+      "originalDate": "2026-02-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/i-am-going-to-try-to-get-my-cdl",
     "title": "I am going to try to get my CDL to become a Truck Driver.",
     "repo": "chargingthefuture/wiki-site",
@@ -9500,25 +9516,6 @@ export const ARTICLES: ArticleMeta[] = [
       "source": "quora",
       "account": "farah-brunache",
       "originalUrl": "https://skillseconomy.quora.com/Today-January-31-2026-is-the-weekly-Town-Hall-Saturday-event",
-      "originalDate": "2026-01-31",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/it-is-town-hall-saturday-3",
-    "title": "It is Town Hall Saturday.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-01-31",
-    "excerpt": "It is Town Hall Saturday. Please join me live on Signal to socialize or ask question about the economy.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/it-is-town-hall-saturday-3.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/It-is-Town-Hall-Saturday-Please-join-me-live-on-Signal-to-socialize-or-ask-question-about-the-economy-https-signal",
       "originalDate": "2026-01-31",
       "status": "erased",
       "kind": "space-post"
@@ -9560,6 +9557,25 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2026-01-31",
       "status": "erased",
       "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/it-is-town-hall-saturday-3",
+    "title": "It is Town Hall Saturday.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-31",
+    "excerpt": "It is Town Hall Saturday. Please join me live on Signal to socialize or ask question about the economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/it-is-town-hall-saturday-3.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/It-is-Town-Hall-Saturday-Please-join-me-live-on-Signal-to-socialize-or-ask-question-about-the-economy-https-signal",
+      "originalDate": "2026-01-31",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -10082,6 +10098,26 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/is-moving-away-an-effective-way-to-stop-gang-stalking",
+    "title": "Is moving away an effective way to stop gang stalking?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-22",
+    "excerpt": "Only if you are early in gang stalking (not many people have opted into stalking you) and are okay with living without social media, a phone, the Internet, etc.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/is-moving-away-an-effective-way-to-stop-gang-stalking.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/Is-moving-away-an-effective-way-to-stop-gang-stalking",
+      "originalDate": "2026-01-22",
+      "status": "erased",
+      "kind": "answer",
+      "question": "Is moving away an effective way to stop gang stalking?"
+    }
+  },
+  {
     "slug": "farah-brunache/lacey-s-will-you-join-the-ti-skills-economy",
     "title": "Lacey S. Will you join the TI Skills Economy (TSE)?",
     "repo": "chargingthefuture/wiki-site",
@@ -10272,23 +10308,35 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/is-moving-away-an-effective-way-to-stop-gang-stalking",
-    "title": "Is moving away an effective way to stop gang stalking?",
+    "slug": "Call-to-Action",
+    "title": "My call to action — Join the TI Skills Economy",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-01-21",
+    "excerpt": "One of the Specterati walked up to me on the morning of January 21, 2026 and said, “you know there is a camera?” As I stood underneath one while on my phone.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/Call-to-Action.md",
+    "teaser": "One of the Specterati walked up to me and said, 'you know there is a camera?' Cameras do not matter — their economy does. They can do what they do because we feed it: our attention and our transactions. I am asking survivors to stop participating in that economy and join the one we run ourselves: work, housing, rides, and trade among people who are not in it.",
+    "number": 196
+  },
+  {
+    "slug": "farah-brunache/are-there-any-targeted-individuals-living-in-columbia-sc",
+    "title": "Are there any Targeted Individuals living in Columbia SC?",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-01-22",
-    "excerpt": "Only if you are early in gang stalking (not many people have opted into stalking you) and are okay with living without social media, a phone, the Internet, etc.",
+    "date": "2026-01-21",
+    "excerpt": "Tedious but look through the comments in this space to see who has self reported in your area:Targeted Individuals Survey and MapSecond, I believe the only actionable solution is to…",
     "category": "Community",
     "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/is-moving-away-an-effective-way-to-stop-gang-stalking.md",
+    "path": "archive/quora/farah-brunache/are-there-any-targeted-individuals-living-in-columbia-sc.md",
     "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/Is-moving-away-an-effective-way-to-stop-gang-stalking",
-      "originalDate": "2026-01-22",
+      "originalUrl": "https://www.quora.com/Are-there-any-Targeted-Individuals-living-in-Columbia-SC-If-so-do-any-of-you-have-children-going-to-school-in-this-corrupt-school-system-How-do-You-manage-it-and-what-advice-can-you-give-another-TI-like-Yourself",
+      "originalDate": "2026-01-21",
       "status": "erased",
       "kind": "answer",
-      "question": "Is moving away an effective way to stop gang stalking?"
+      "question": "Are there any Targeted Individuals living in Columbia SC? If so, do any of you have children going to school in this corrupt school system? How do You manage it, and what advice can you give another TI like Yourself?"
     }
   },
   {
@@ -10347,38 +10395,6 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "space-post"
     }
-  },
-  {
-    "slug": "farah-brunache/are-there-any-targeted-individuals-living-in-columbia-sc",
-    "title": "Are there any Targeted Individuals living in Columbia SC?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-01-21",
-    "excerpt": "Tedious but look through the comments in this space to see who has self reported in your area:Targeted Individuals Survey and MapSecond, I believe the only actionable solution is to…",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/are-there-any-targeted-individuals-living-in-columbia-sc.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/Are-there-any-Targeted-Individuals-living-in-Columbia-SC-If-so-do-any-of-you-have-children-going-to-school-in-this-corrupt-school-system-How-do-You-manage-it-and-what-advice-can-you-give-another-TI-like-Yourself",
-      "originalDate": "2026-01-21",
-      "status": "erased",
-      "kind": "answer",
-      "question": "Are there any Targeted Individuals living in Columbia SC? If so, do any of you have children going to school in this corrupt school system? How do You manage it, and what advice can you give another TI like Yourself?"
-    }
-  },
-  {
-    "slug": "Call-to-Action",
-    "title": "My call to action — Join the TI Skills Economy",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-21",
-    "excerpt": "One of the Specterati walked up to me on the morning of January 21, 2026 and said, “you know there is a camera?” As I stood underneath one while on my phone.",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/Call-to-Action.md",
-    "teaser": "One of the Specterati walked up to me and said, 'you know there is a camera?' Cameras do not matter — their economy does. They can do what they do because we feed it: our attention and our transactions. I am asking survivors to stop participating in that economy and join the one we run ourselves: work, housing, rides, and trade among people who are not in it.",
-    "number": 196
   },
   {
     "slug": "farah-brunache/friendly-reminder-if-you-have-signed-up-and-i",
@@ -10534,25 +10550,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/welcome-sivapriya-saraswati-to-tse-her-skills-graphic-web",
-    "title": "Welcome Sivapriya Saraswati to TSE Her skills: Graphic/web design, coding skills…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-01-17",
-    "excerpt": "Welcome Sivapriya Saraswati to TSE Her skills: Graphic/web design, coding skills, copywriting, Wordpress, repair, sew, crochet, gardening, cooking, holistic…",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/welcome-sivapriya-saraswati-to-tse-her-skills-graphic-web.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Welcome-Sivapriya-Saraswati-https-www-quora-com-profile-Sivapriya-Saraswati-2-to-TSE-https-app-chargingthefutur",
-      "originalDate": "2026-01-17",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
     "slug": "farah-brunache/how-do-ya-ll-avoid-their-illegal-music-abuse-if-not-your-time-erase-me",
     "title": "How do ya ll avoid their illegal music abuse If not your time erase memory replace memory block memory change…",
     "repo": "chargingthefuture/wiki-site",
@@ -10608,6 +10605,37 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "post-comment"
     }
+  },
+  {
+    "slug": "farah-brunache/welcome-sivapriya-saraswati-to-tse-her-skills-graphic-web",
+    "title": "Welcome Sivapriya Saraswati to TSE Her skills: Graphic/web design, coding skills…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-17",
+    "excerpt": "Welcome Sivapriya Saraswati to TSE Her skills: Graphic/web design, coding skills, copywriting, Wordpress, repair, sew, crochet, gardening, cooking, holistic…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/welcome-sivapriya-saraswati-to-tse-her-skills-graphic-web.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Welcome-Sivapriya-Saraswati-https-www-quora-com-profile-Sivapriya-Saraswati-2-to-TSE-https-app-chargingthefutur",
+      "originalDate": "2026-01-17",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "🤜🤛-Skills,-Solidarity,-and-Support",
+    "title": "🤜🤛  Skills, Solidarity, and Support",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-01-16",
+    "excerpt": "Very few TIs get it, in my opinion of course, here are my shoutouts to those giving amazing advice on Quora. You are appreciated!",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/🤜🤛-Skills,-Solidarity,-and-Support.md",
+    "teaser": "Very few get it, in my opinion — so here are my shoutouts to the survivors giving genuinely good advice on Quora. You are appreciated, and this post will keep growing as I find more of you. Names in no particular order.",
+    "number": 195
   },
   {
     "slug": "farah-brunache/dave-phelps-been-sometime-that-you-have-been-on",
@@ -10781,18 +10809,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "🤜🤛-Skills,-Solidarity,-and-Support",
-    "title": "🤜🤛  Skills, Solidarity, and Support",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-16",
-    "excerpt": "Very few TIs get it, in my opinion of course, here are my shoutouts to those giving amazing advice on Quora. You are appreciated!",
-    "category": "Community",
-    "collection": "posts",
-    "path": "posts/🤜🤛-Skills,-Solidarity,-and-Support.md",
-    "teaser": "Very few get it, in my opinion — so here are my shoutouts to the survivors giving genuinely good advice on Quora. You are appreciated, and this post will keep growing as I find more of you. Names in no particular order.",
-    "number": 195
-  },
-  {
     "slug": "farah-brunache/conforming-to-the-specterrealm-a-domain-ruled-by-fear",
     "title": "Conforming to the Specterrealm (a domain ruled by fear and intimidation) that the…",
     "repo": "chargingthefuture/wiki-site",
@@ -10809,6 +10825,27 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2026-01-15",
       "status": "erased",
       "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/how-can-i-be-add-to-the-list-of-ti-s-i-live-in-perth-western-australia",
+    "title": "How can I be add to the list of ti’s I live in Perth Western Australia 6163.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-15",
+    "excerpt": "Matthew Cappadocia (aka The Wizard of Oz) has a map of people who have self-identified:Targeted Individuals Survey and MapI created an app that is the Airbnb for TIs.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/how-can-i-be-add-to-the-list-of-ti-s-i-live-in-perth-western-australia.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/How-can-I-be-add-to-the-list-of-tis-I-live-in-Perth-Western-Australia-6163-There-are-other-tis-here-in-Perth-I-have-recently-discovered",
+      "originalDate": "2026-01-15",
+      "status": "erased",
+      "kind": "space-submission",
+      "space": "US-PSYOPS-TARGETED-INDIVIDUALS",
+      "question": "How can I be add to the list of ti’s I live in Perth Western Australia 6163. There are other ti’s here in Perth I have recently discovered.?"
     }
   },
   {
@@ -10945,27 +10982,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/how-can-i-be-add-to-the-list-of-ti-s-i-live-in-perth-western-australia",
-    "title": "How can I be add to the list of ti’s I live in Perth Western Australia 6163.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-01-15",
-    "excerpt": "Matthew Cappadocia (aka The Wizard of Oz) has a map of people who have self-identified:Targeted Individuals Survey and MapI created an app that is the Airbnb for TIs.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/how-can-i-be-add-to-the-list-of-ti-s-i-live-in-perth-western-australia.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/How-can-I-be-add-to-the-list-of-tis-I-live-in-Perth-Western-Australia-6163-There-are-other-tis-here-in-Perth-I-have-recently-discovered",
-      "originalDate": "2026-01-15",
-      "status": "erased",
-      "kind": "space-submission",
-      "space": "US-PSYOPS-TARGETED-INDIVIDUALS",
-      "question": "How can I be add to the list of ti’s I live in Perth Western Australia 6163. There are other ti’s here in Perth I have recently discovered.?"
-    }
-  },
-  {
     "slug": "farah-brunache/anita-steyn-their-house-their-rules",
     "title": "Anita Steyn their house, their rules.",
     "repo": "chargingthefuture/wiki-site",
@@ -10998,44 +11014,6 @@ export const ARTICLES: ArticleMeta[] = [
       "source": "quora",
       "account": "farah-brunache",
       "originalUrl": "https://skillseconomy.quora.com/Are-you-an-End-of-Life-planning-expert-Your-assistance-is-needed-https-app-chargingthefuture-com-apps-socketrelay-p",
-      "originalDate": "2026-01-14",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/it-only-takes-an-email-address-and-sharing-your",
-    "title": "It only takes an email address and sharing your Quora profile to sign up here: world's…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-01-14",
-    "excerpt": "It only takes an email address and sharing your Quora profile to sign up here: world's first psyop-free TI economy.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/it-only-takes-an-email-address-and-sharing-your.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/It-only-takes-an-email-address-and-sharing-your-Quora-profile-to-sign-up-here-worlds-first-psyop-free-TI-economy-htt",
-      "originalDate": "2026-01-14",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/lisa-rudgley-i-agree",
-    "title": "Lisa Rudgley I agree.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-01-14",
-    "excerpt": "Lisa Rudgley I agree. Please consider joining TI Skills Economy.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/lisa-rudgley-i-agree.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Lisa-Rudgley-https-www-quora-com-profile-Lisa-Rudgley-2-I-agree-Please-consider-joining-TI-Skills-Economy-The-T",
       "originalDate": "2026-01-14",
       "status": "erased",
       "kind": "space-post"
@@ -11077,6 +11055,44 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2026-01-14",
       "status": "erased",
       "kind": "answer-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/it-only-takes-an-email-address-and-sharing-your",
+    "title": "It only takes an email address and sharing your Quora profile to sign up here: world's…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-14",
+    "excerpt": "It only takes an email address and sharing your Quora profile to sign up here: world's first psyop-free TI economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/it-only-takes-an-email-address-and-sharing-your.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/It-only-takes-an-email-address-and-sharing-your-Quora-profile-to-sign-up-here-worlds-first-psyop-free-TI-economy-htt",
+      "originalDate": "2026-01-14",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/lisa-rudgley-i-agree",
+    "title": "Lisa Rudgley I agree.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-14",
+    "excerpt": "Lisa Rudgley I agree. Please consider joining TI Skills Economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/lisa-rudgley-i-agree.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Lisa-Rudgley-https-www-quora-com-profile-Lisa-Rudgley-2-I-agree-Please-consider-joining-TI-Skills-Economy-The-T",
+      "originalDate": "2026-01-14",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -11346,6 +11362,44 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/farah-thank-you-for-your-a-true-blessing-from-god-almighty-everyone-ha",
+    "title": "Farah thank you for your a true blessing from god almighty everyone has been waiting for someone to come and…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-09",
+    "excerpt": "I am glad to have you! If you have issues signing up, let me know: https://app.chargingthefuture.com. You only need an email address and a copy and paste of your Quora profile URL.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/farah-thank-you-for-your-a-true-blessing-from-god-almighty-everyone-ha.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/profile/Ruby-Mc-18/Farah-thank-you-for-your-a-true-blessing-from-god-almighty-everyone-has-been-waiting-for-someone-to-come-and-help-absol",
+      "originalDate": "2026-01-09",
+      "status": "erased",
+      "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/https-www-quora-com-how-can-targeted-individuals-unite-expose-gang-sta",
+    "title": "https www quora com How can targeted individuals unite expose gang stalking and seek justice against covert…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-09",
+    "excerpt": "We are all that we have. Though there is an estimated 5 million TIs globally, why not form our own economy? Do you need housing? Transportation, etc?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/https-www-quora-com-how-can-targeted-individuals-unite-expose-gang-sta.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/profile/Gucci-Qoo/https-www-quora-com-How-can-targeted-individuals-unite-expose-gang-stalking-and-seek-justice-against-covert-government",
+      "originalDate": "2026-01-09",
+      "status": "erased",
+      "kind": "post-comment"
+    }
+  },
+  {
     "slug": "farah-brunache/i-hope-this-ti-is-okay",
     "title": ":(. I hope this TI is okay.",
     "repo": "chargingthefuture/wiki-site",
@@ -11441,44 +11495,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/farah-thank-you-for-your-a-true-blessing-from-god-almighty-everyone-ha",
-    "title": "Farah thank you for your a true blessing from god almighty everyone has been waiting for someone to come and…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-01-09",
-    "excerpt": "I am glad to have you! If you have issues signing up, let me know: https://app.chargingthefuture.com. You only need an email address and a copy and paste of your Quora profile URL.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/farah-thank-you-for-your-a-true-blessing-from-god-almighty-everyone-ha.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/profile/Ruby-Mc-18/Farah-thank-you-for-your-a-true-blessing-from-god-almighty-everyone-has-been-waiting-for-someone-to-come-and-help-absol",
-      "originalDate": "2026-01-09",
-      "status": "erased",
-      "kind": "post-comment"
-    }
-  },
-  {
-    "slug": "farah-brunache/https-www-quora-com-how-can-targeted-individuals-unite-expose-gang-sta",
-    "title": "https www quora com How can targeted individuals unite expose gang stalking and seek justice against covert…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-01-09",
-    "excerpt": "We are all that we have. Though there is an estimated 5 million TIs globally, why not form our own economy? Do you need housing? Transportation, etc?",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/https-www-quora-com-how-can-targeted-individuals-unite-expose-gang-sta.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/profile/Gucci-Qoo/https-www-quora-com-How-can-targeted-individuals-unite-expose-gang-stalking-and-seek-justice-against-covert-government",
-      "originalDate": "2026-01-09",
-      "status": "erased",
-      "kind": "post-comment"
-    }
-  },
-  {
     "slug": "farah-brunache/alone-will-you-join-the-ti-skills-economy",
     "title": "Alone Will you join the TI Skills Economy?",
     "repo": "chargingthefuture/wiki-site",
@@ -11495,6 +11511,26 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2026-01-08",
       "status": "erased",
       "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/does-rnm-always-require-a-chip-or-implant-on-the-person",
+    "title": "Does RNM always require a chip or implant on the person?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-08",
+    "excerpt": "The probability of a TI being chipped is unlikely. It would leave physical evidence and the Specterati want your demise to fall under plausible deniability.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/does-rnm-always-require-a-chip-or-implant-on-the-person.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/Does-RNM-always-require-a-chip-or-implant-on-the-person",
+      "originalDate": "2026-01-08",
+      "status": "erased",
+      "kind": "answer",
+      "question": "Does RNM always require a chip or implant on the person?"
     }
   },
   {
@@ -11612,23 +11648,23 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/does-rnm-always-require-a-chip-or-implant-on-the-person",
-    "title": "Does RNM always require a chip or implant on the person?",
+    "slug": "farah-brunache/i-have-a-question-the-people-that-s-gs-me-are-always-talking-about-the",
+    "title": "I have a question, the people that's GS me are always talking about \"the one\"..",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-01-08",
-    "excerpt": "The probability of a TI being chipped is unlikely. It would leave physical evidence and the Specterati want your demise to fall under plausible deniability.",
+    "date": "2026-01-07",
+    "excerpt": "It is a lie. Do not bother spinning your wheels.They are on a fishing expedition to find your triggers. If you hate the government they will say you are on the terrorist watch list.",
     "category": "Community",
     "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/does-rnm-always-require-a-chip-or-implant-on-the-person.md",
+    "path": "archive/quora/farah-brunache/i-have-a-question-the-people-that-s-gs-me-are-always-talking-about-the.md",
     "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/Does-RNM-always-require-a-chip-or-implant-on-the-person",
-      "originalDate": "2026-01-08",
+      "originalUrl": "https://www.quora.com/I-have-a-question-the-people-thats-GS-me-are-always-talking-about-the-one-have-any-of-you-tis-ever-heard-or-experienced-the-GS-claiming-that-theyre-looking-for-the-one-And-if-so-then-what-is-the-one-supposed-to-do-or-represent",
+      "originalDate": "2026-01-07",
       "status": "erased",
       "kind": "answer",
-      "question": "Does RNM always require a chip or implant on the person?"
+      "question": "I have a question, the people that's GS me are always talking about \"the one\".. have any of you ti's ever heard or experienced the GS claiming that they're looking for \"the one\"? And if so, then what is \"the one\" supposed to do or represent?"
     }
   },
   {
@@ -11727,26 +11763,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/i-have-a-question-the-people-that-s-gs-me-are-always-talking-about-the",
-    "title": "I have a question, the people that's GS me are always talking about \"the one\"..",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-01-07",
-    "excerpt": "It is a lie. Do not bother spinning your wheels.They are on a fishing expedition to find your triggers. If you hate the government they will say you are on the terrorist watch list.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/i-have-a-question-the-people-that-s-gs-me-are-always-talking-about-the.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/I-have-a-question-the-people-thats-GS-me-are-always-talking-about-the-one-have-any-of-you-tis-ever-heard-or-experienced-the-GS-claiming-that-theyre-looking-for-the-one-And-if-so-then-what-is-the-one-supposed-to-do-or-represent",
-      "originalDate": "2026-01-07",
-      "status": "erased",
-      "kind": "answer",
-      "question": "I have a question, the people that's GS me are always talking about \"the one\".. have any of you ti's ever heard or experienced the GS claiming that they're looking for \"the one\"? And if so, then what is \"the one\" supposed to do or represent?"
-    }
-  },
-  {
     "slug": "farah-brunache/anicole-will-you-join-the-ti-skills-economy",
     "title": "Anicole Will you join the TI Skills Economy?",
     "repo": "chargingthefuture/wiki-site",
@@ -11779,44 +11795,6 @@ export const ARTICLES: ArticleMeta[] = [
       "source": "quora",
       "account": "farah-brunache",
       "originalUrl": "https://skillseconomy.quora.com/Betty-Robinson-https-www-quora-com-profile-Betty-Robinson-443-Will-you-join-the-TI-Skills-Economy-The-TI-Skills",
-      "originalDate": "2026-01-06",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/tausha-walsh-will-you-join-the-ti-skills-economy",
-    "title": "Tausha Walsh Will you join the TI Skills Economy?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-01-06",
-    "excerpt": "Tausha Walsh Will you join the TI Skills Economy? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/tausha-walsh-will-you-join-the-ti-skills-economy.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Tausha-Walsh-https-www-quora-com-profile-Tausha-Walsh-1-Will-you-join-the-TI-Skills-Economy-The-TI-Skills-Econo",
-      "originalDate": "2026-01-06",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/user-12316424601386903597-you-are-not-schizophrenic",
-    "title": "User-12316424601386903597, you are not schizophrenic.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-01-06",
-    "excerpt": "User-12316424601386903597, you are not schizophrenic. I answered your question here: How do I expose V2K and RNM?",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/user-12316424601386903597-you-are-not-schizophrenic.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Alex-Dunican-https-www-quora-com-profile-Alex-Dunican-you-are-not-schizophrenic-I-answered-your-question-here",
       "originalDate": "2026-01-06",
       "status": "erased",
       "kind": "space-post"
@@ -11889,6 +11867,44 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/tausha-walsh-will-you-join-the-ti-skills-economy",
+    "title": "Tausha Walsh Will you join the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-06",
+    "excerpt": "Tausha Walsh Will you join the TI Skills Economy? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/tausha-walsh-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Tausha-Walsh-https-www-quora-com-profile-Tausha-Walsh-1-Will-you-join-the-TI-Skills-Economy-The-TI-Skills-Econo",
+      "originalDate": "2026-01-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/user-12316424601386903597-you-are-not-schizophrenic",
+    "title": "User-12316424601386903597, you are not schizophrenic.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-06",
+    "excerpt": "User-12316424601386903597, you are not schizophrenic. I answered your question here: How do I expose V2K and RNM?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/user-12316424601386903597-you-are-not-schizophrenic.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Alex-Dunican-https-www-quora-com-profile-Alex-Dunican-you-are-not-schizophrenic-I-answered-your-question-here",
+      "originalDate": "2026-01-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/benjamin-machado-i-estimate-5-million-tis-globally",
     "title": "Benjamin Machado I estimate 5 million TIs globally.",
     "repo": "chargingthefuture/wiki-site",
@@ -11924,6 +11940,25 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2026-01-05",
       "status": "erased",
       "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/how-many-victims-of-tis-live-here-in-az-and-is-there-any-groups-that-g",
+    "title": "How many victims of TIs live here in AZ And is there any groups that get together Has anyone ever filed with…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-05",
+    "excerpt": "No groups. But I am facilitating the collaboration of the estimated 5 million TIs globally.Use this link to find TIs and exchange skills, goods and…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/how-many-victims-of-tis-live-here-in-az-and-is-there-any-groups-that-g.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://realgangstalkingvictimsandevidence.quora.com/How-many-victims-of-TIs-live-here-in-AZ-And-is-there-any-groups-that-get-together-Has-anyone-ever-filed-with-the-ACL",
+      "originalDate": "2026-01-05",
+      "status": "erased",
+      "kind": "post-comment"
     }
   },
   {
@@ -11965,23 +12000,16 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/how-many-victims-of-tis-live-here-in-az-and-is-there-any-groups-that-g",
-    "title": "How many victims of TIs live here in AZ And is there any groups that get together Has anyone ever filed with…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-01-05",
-    "excerpt": "No groups. But I am facilitating the collaboration of the estimated 5 million TIs globally.Use this link to find TIs and exchange skills, goods and…",
+    "slug": "24-7-Chyme-Drop-In-Rooms",
+    "title": "24/7 Chyme Rooms",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-01-04",
+    "excerpt": "I have opened the rooms below in Chyme, and they will stay open 24/7. Download the Chyme Android app: https://app.lagatos.com/apps/chyme. Once logged...",
     "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/how-many-victims-of-tis-live-here-in-az-and-is-there-any-groups-that-g.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://realgangstalkingvictimsandevidence.quora.com/How-many-victims-of-TIs-live-here-in-AZ-And-is-there-any-groups-that-get-together-Has-anyone-ever-filed-with-the-ACL",
-      "originalDate": "2026-01-05",
-      "status": "erased",
-      "kind": "post-comment"
-    }
+    "collection": "posts",
+    "path": "posts/24-7-Chyme-Drop-In-Rooms.md",
+    "teaser": "I opened a Chyme audio room for every sector of the Skills Economy — food, housing, health, transport, and the rest — and they stay open 24/7. Walk in any time to talk or to plan how we deliver goods and services to each other. I am not a leader of anyone; the rooms are yours to use.",
+    "number": 194
   },
   {
     "slug": "farah-brunache/comparenotes-is-in-beta",
@@ -12041,6 +12069,29 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/in-the-context-of-being-a-ti-are-there-better-geographical-regions-tha-2",
+    "title": "In the context of being a TI are there better geographical regions that have the most day labor opportunities",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-04",
+    "excerpt": "In the context of being a TI, are there better geographical regions that have the most day labor opportunities?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/in-the-context-of-being-a-ti-are-there-better-geographical-regions-tha-2.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://uspsyopstargetedindividuals.quora.com/In-the-context-of-being-a-TI-are-there-better-geographical-regions-that-have-the-most-day-labor-opportunities",
+      "originalDate": "2026-01-04",
+      "status": "erased",
+      "kind": "space-post",
+      "space": "US-PSYOPS-TARGETED-INDIVIDUALS",
+      "sharedTo": [
+        "US-PSYOPS-TARGETED-INDIVIDUALS"
+      ]
+    }
+  },
+  {
     "slug": "farah-brunache/t-tipton-i-read-your-perfect-answer-to-this",
     "title": "T. Tipton, I read your perfect answer to this question: T.",
     "repo": "chargingthefuture/wiki-site",
@@ -12076,29 +12127,6 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2026-01-04",
       "status": "erased",
       "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/in-the-context-of-being-a-ti-are-there-better-geographical-regions-tha-2",
-    "title": "In the context of being a TI are there better geographical regions that have the most day labor opportunities",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-01-04",
-    "excerpt": "In the context of being a TI, are there better geographical regions that have the most day labor opportunities?",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/in-the-context-of-being-a-ti-are-there-better-geographical-regions-tha-2.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://uspsyopstargetedindividuals.quora.com/In-the-context-of-being-a-TI-are-there-better-geographical-regions-that-have-the-most-day-labor-opportunities",
-      "originalDate": "2026-01-04",
-      "status": "erased",
-      "kind": "space-post",
-      "space": "US-PSYOPS-TARGETED-INDIVIDUALS",
-      "sharedTo": [
-        "US-PSYOPS-TARGETED-INDIVIDUALS"
-      ]
     }
   },
   {
@@ -12142,16 +12170,56 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "24-7-Chyme-Drop-In-Rooms",
-    "title": "24/7 Chyme Rooms",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-01-04",
-    "excerpt": "I have opened the rooms below in Chyme, and they will stay open 24/7. Download the Chyme Android app: https://app.lagatos.com/apps/chyme. Once logged...",
-    "category": "Community",
+    "slug": "EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP",
+    "title": "Exit Their Economy, Exit The Psyop",
+    "repo": "chargingthefuture/mono",
+    "date": "2026-01-03",
+    "excerpt": "Understanding the necessity of detaching from exploitative systems to build our own sustainable, ethical marketplace.",
+    "category": "Philosophy",
     "collection": "posts",
-    "path": "posts/24-7-Chyme-Drop-In-Rooms.md",
-    "teaser": "I opened a Chyme audio room for every sector of the Skills Economy — food, housing, health, transport, and the rest — and they stay open 24/7. Walk in any time to talk or to plan how we deliver goods and services to each other. I am not a leader of anyone; the rooms are yours to use.",
-    "number": 194
+    "path": "posts/EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP.md",
+    "featured": true,
+    "teaser": "Stop caring about the cameras. If cameras mattered, the second time they punched me in the face there would have been consequences. The cameras are a distraction, and the debates about them keep us circling. The only thing that matters is their economy — that is why they can exist. Exit their economy, exit the psyop.",
+    "number": 193
+  },
+  {
+    "slug": "farah-brunache/are-there-any-targeted-people-living-in-jacksonville-florida",
+    "title": "Are there any targeted people living in Jacksonville, Florida?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-03",
+    "excerpt": "Check out Matthew Cappadocia (aka The Wizard of Oz) TI map. It list people who have self-reported as TIs and where they are.Targeted Individuals Survey and Map",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/are-there-any-targeted-people-living-in-jacksonville-florida.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/Are-there-any-targeted-people-living-in-Jacksonville-Florida",
+      "originalDate": "2026-01-03",
+      "status": "erased",
+      "kind": "answer",
+      "question": "Are there any targeted people living in Jacksonville, Florida?"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-so-wish-there-was-a-way-for-a-large-number-of-us-ti-s-to-come-togeth-3",
+    "title": "I so wish there was a way for a large number of us TI s to come together and live under one roof and have a…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-03",
+    "excerpt": "I know maybe about 15 TIs that might be interested. I started an app for TIs to exchange skills, goods and services. Please join me. Skills Economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-so-wish-there-was-a-way-for-a-large-number-of-us-ti-s-to-come-togeth-3.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://gangstalkingquestionsandanswers.quora.com/I-so-wish-there-was-a-way-for-a-large-number-of-us-TI-s-to-come-together-and-live-under-one-roof-and-have-a-verity-of-sk",
+      "originalDate": "2026-01-03",
+      "status": "erased",
+      "kind": "post-comment"
+    }
   },
   {
     "slug": "farah-brunache/survivor-are-you-a-ti",
@@ -12228,58 +12296,6 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "space-post"
     }
-  },
-  {
-    "slug": "farah-brunache/are-there-any-targeted-people-living-in-jacksonville-florida",
-    "title": "Are there any targeted people living in Jacksonville, Florida?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-01-03",
-    "excerpt": "Check out Matthew Cappadocia (aka The Wizard of Oz) TI map. It list people who have self-reported as TIs and where they are.Targeted Individuals Survey and Map",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/are-there-any-targeted-people-living-in-jacksonville-florida.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/Are-there-any-targeted-people-living-in-Jacksonville-Florida",
-      "originalDate": "2026-01-03",
-      "status": "erased",
-      "kind": "answer",
-      "question": "Are there any targeted people living in Jacksonville, Florida?"
-    }
-  },
-  {
-    "slug": "farah-brunache/i-so-wish-there-was-a-way-for-a-large-number-of-us-ti-s-to-come-togeth-3",
-    "title": "I so wish there was a way for a large number of us TI s to come together and live under one roof and have a…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-01-03",
-    "excerpt": "I know maybe about 15 TIs that might be interested. I started an app for TIs to exchange skills, goods and services. Please join me. Skills Economy.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/i-so-wish-there-was-a-way-for-a-large-number-of-us-ti-s-to-come-togeth-3.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://gangstalkingquestionsandanswers.quora.com/I-so-wish-there-was-a-way-for-a-large-number-of-us-TI-s-to-come-together-and-live-under-one-roof-and-have-a-verity-of-sk",
-      "originalDate": "2026-01-03",
-      "status": "erased",
-      "kind": "post-comment"
-    }
-  },
-  {
-    "slug": "EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP",
-    "title": "Exit Their Economy, Exit The Psyop",
-    "repo": "chargingthefuture/mono",
-    "date": "2026-01-03",
-    "excerpt": "Understanding the necessity of detaching from exploitative systems to build our own sustainable, ethical marketplace.",
-    "category": "Philosophy",
-    "collection": "posts",
-    "path": "posts/EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP.md",
-    "featured": true,
-    "teaser": "Stop caring about the cameras. If cameras mattered, the second time they punched me in the face there would have been consequences. The cameras are a distraction, and the debates about them keep us circling. The only thing that matters is their economy — that is why they can exist. Exit their economy, exit the psyop.",
-    "number": 193
   },
   {
     "slug": "guides/getting-started",
@@ -12456,44 +12472,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/kay-varga-will-you-join-the-ti-skills-economy",
-    "title": "Kay Varga Will you join the TI Skills Economy?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-01-02",
-    "excerpt": "Kay Varga Will you join the TI Skills Economy? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/kay-varga-will-you-join-the-ti-skills-economy.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Kay-Varga-https-www-quora-com-profile-Kay-Varga-2-Will-you-join-the-TI-Skills-Economy-https-app-chargingthefu",
-      "originalDate": "2026-01-02",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/monique-moore-will-you-join-the-ti-skills-economy",
-    "title": "Monique Moore Will you join the TI Skills Economy?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2026-01-02",
-    "excerpt": "Monique Moore Will you join the TI Skills Economy? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/monique-moore-will-you-join-the-ti-skills-economy.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Monique-Moore-https-www-quora-com-profile-Monique-Moore-12-https-app-chargingthefuture-com-apps-directory-publi",
-      "originalDate": "2026-01-02",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
     "slug": "farah-brunache/i-want-to-join-the-illuminati-can-you-help-me-without-paying",
     "title": "I want to join the Illuminati. Can you help me without paying?",
     "repo": "chargingthefuture/wiki-site",
@@ -12533,6 +12511,44 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "space-submission",
       "space": "US-PSYOPS-TARGETED-INDIVIDUALS"
+    }
+  },
+  {
+    "slug": "farah-brunache/kay-varga-will-you-join-the-ti-skills-economy",
+    "title": "Kay Varga Will you join the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-02",
+    "excerpt": "Kay Varga Will you join the TI Skills Economy? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/kay-varga-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Kay-Varga-https-www-quora-com-profile-Kay-Varga-2-Will-you-join-the-TI-Skills-Economy-https-app-chargingthefu",
+      "originalDate": "2026-01-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/monique-moore-will-you-join-the-ti-skills-economy",
+    "title": "Monique Moore Will you join the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-01-02",
+    "excerpt": "Monique Moore Will you join the TI Skills Economy? The TI Skills Economy is designed to coexist with the lives of all TIs and to systematically replace the…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/monique-moore-will-you-join-the-ti-skills-economy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Monique-Moore-https-www-quora-com-profile-Monique-Moore-12-https-app-chargingthefuture-com-apps-directory-publi",
+      "originalDate": "2026-01-02",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -12707,6 +12723,44 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/i-so-wish-there-was-a-way-for-a-large-number-of-us-ti-s-to-come-togeth",
+    "title": "I so wish there was a way for a large number of us TI s to come together and live under one roof and have a…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-31",
+    "excerpt": "I am working on setting this up: world's first psyop-free TI economy | Skills Economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-so-wish-there-was-a-way-for-a-large-number-of-us-ti-s-to-come-togeth.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://gangstalkingquestionsandanswers.quora.com/I-so-wish-there-was-a-way-for-a-large-number-of-us-TI-s-to-come-together-and-live-under-one-roof-and-have-a-verity-of-sk",
+      "originalDate": "2025-12-31",
+      "status": "erased",
+      "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-so-wish-there-was-a-way-for-a-large-number-of-us-ti-s-to-come-togeth-2",
+    "title": "I so wish there was a way for a large number of us TI s to come together and live under one roof and have a…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-31",
+    "excerpt": "I started a network of TIs coming together: Skills Economy. I have estimated about 5 million TIs globally. And I am trying to get them all connected, including myself.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-so-wish-there-was-a-way-for-a-large-number-of-us-ti-s-to-come-togeth-2.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://gangstalkingquestionsandanswers.quora.com/I-so-wish-there-was-a-way-for-a-large-number-of-us-TI-s-to-come-together-and-live-under-one-roof-and-have-a-verity-of-sk",
+      "originalDate": "2025-12-31",
+      "status": "erased",
+      "kind": "post-comment"
+    }
+  },
+  {
     "slug": "farah-brunache/interested-in-bringing-together-a-squad-of-tis-to",
     "title": "Interested in bringing together a squad of TIs to live under one roof or in a community?",
     "repo": "chargingthefuture/wiki-site",
@@ -12783,82 +12837,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/the-only-way-to-exit-the-psyop-is-to",
-    "title": "The only way to exit the psyop, is to not use Specterati owned and operated…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-12-31",
-    "excerpt": "The only way to exit the psyop, is to not use Specterati owned and operated infrastructure, products or services.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/the-only-way-to-exit-the-psyop-is-to.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/The-only-way-to-exit-the-psyop-is-to-not-use-Specterati-owned-and-operated-infrastructure-products-or-services-They-d",
-      "originalDate": "2025-12-31",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/this-is-exactly-what-the-speceterati-want",
-    "title": "This is exactly what the Speceterati want.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-12-31",
-    "excerpt": "This is exactly what the Speceterati want. Use your instincts and do the opposite of what they want.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/this-is-exactly-what-the-speceterati-want.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/This-is-exactly-what-the-Speceterati-want-Use-your-instincts-and-do-the-opposite-of-what-they-want-And-now-with-TI-Sk",
-      "originalDate": "2025-12-31",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/i-so-wish-there-was-a-way-for-a-large-number-of-us-ti-s-to-come-togeth",
-    "title": "I so wish there was a way for a large number of us TI s to come together and live under one roof and have a…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-12-31",
-    "excerpt": "I am working on setting this up: world's first psyop-free TI economy | Skills Economy.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/i-so-wish-there-was-a-way-for-a-large-number-of-us-ti-s-to-come-togeth.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://gangstalkingquestionsandanswers.quora.com/I-so-wish-there-was-a-way-for-a-large-number-of-us-TI-s-to-come-together-and-live-under-one-roof-and-have-a-verity-of-sk",
-      "originalDate": "2025-12-31",
-      "status": "erased",
-      "kind": "post-comment"
-    }
-  },
-  {
-    "slug": "farah-brunache/i-so-wish-there-was-a-way-for-a-large-number-of-us-ti-s-to-come-togeth-2",
-    "title": "I so wish there was a way for a large number of us TI s to come together and live under one roof and have a…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-12-31",
-    "excerpt": "I started a network of TIs coming together: Skills Economy. I have estimated about 5 million TIs globally. And I am trying to get them all connected, including myself.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/i-so-wish-there-was-a-way-for-a-large-number-of-us-ti-s-to-come-togeth-2.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://gangstalkingquestionsandanswers.quora.com/I-so-wish-there-was-a-way-for-a-large-number-of-us-TI-s-to-come-together-and-live-under-one-roof-and-have-a-verity-of-sk",
-      "originalDate": "2025-12-31",
-      "status": "erased",
-      "kind": "post-comment"
-    }
-  },
-  {
     "slug": "farah-brunache/please-respond-https-gangstalkingquestionsandanswers-quora-com-i-so-wi",
     "title": "please respond https gangstalkingquestionsandanswers quora com I so wish there was a way for a large number…",
     "repo": "chargingthefuture/wiki-site",
@@ -12897,6 +12875,44 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/the-only-way-to-exit-the-psyop-is-to",
+    "title": "The only way to exit the psyop, is to not use Specterati owned and operated…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-31",
+    "excerpt": "The only way to exit the psyop, is to not use Specterati owned and operated infrastructure, products or services.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-only-way-to-exit-the-psyop-is-to.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-only-way-to-exit-the-psyop-is-to-not-use-Specterati-owned-and-operated-infrastructure-products-or-services-They-d",
+      "originalDate": "2025-12-31",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/this-is-exactly-what-the-speceterati-want",
+    "title": "This is exactly what the Speceterati want.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-31",
+    "excerpt": "This is exactly what the Speceterati want. Use your instincts and do the opposite of what they want.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/this-is-exactly-what-the-speceterati-want.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/This-is-exactly-what-the-Speceterati-want-Use-your-instincts-and-do-the-opposite-of-what-they-want-And-now-with-TI-Sk",
+      "originalDate": "2025-12-31",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "Home",
     "title": "Charging The Future | Live, Work & Prevail",
     "repo": "chargingthefuture/chargingthefuture",
@@ -12908,74 +12924,6 @@ export const ARTICLES: ArticleMeta[] = [
     "featured": true,
     "teaser": "The knowledge base for Charging The Future and the Skills Economy: what the app is, how each service works, and where everything lives. The app is vetted, built for survivors to live, work, and rebuild with safety, dignity, and privacy. Start here if you are new.",
     "number": 182
-  },
-  {
-    "slug": "farah-brunache/jack-e-may-i-welcome-you-to-the-ti",
-    "title": "Jack E. may I welcome you to the TI Skills Economy?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-12-30",
-    "excerpt": "Jack E. may I welcome you to the TI Skills Economy? It is a network of TIs that exchange skills with each other so we can thrive.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/jack-e-may-i-welcome-you-to-the-ti.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Jack-E-https-www-quora-com-profile-Jack-E-145-may-I-welcome-you-to-the-TI-Skills-Economy-It-is-a-network-of-TIs",
-      "originalDate": "2025-12-30",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/one-of-the-features-of-workforce-recruiter-is-that",
-    "title": "One of the features of Workforce Recruiter is that a member can list their skills, and…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-12-30",
-    "excerpt": "One of the features of Workforce Recruiter is that a member can list their skills, and the built-in algorithm will infer what occupations match those skills.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/one-of-the-features-of-workforce-recruiter-is-that.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Inferring-occupations-from-skills",
-      "originalDate": "2025-12-30",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/that-girl-may-i-welcome-you-to-the-ti",
-    "title": "That Girl may I welcome you to the TI economy?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-12-30",
-    "excerpt": "That Girl may I welcome you to the TI economy? With an estimated 5 million TIs globally, I believe we can exit the psyop by exchanging our skills, goods, and…",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/that-girl-may-i-welcome-you-to-the-ti.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/That-Girl-https-www-quora-com-profile-That-Girl-975-may-I-welcome-you-to-the-TI-economy-With-an-estimated-5-mill",
-      "originalDate": "2025-12-30",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "insights/insights",
-    "title": "Insights",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-12-30",
-    "excerpt": "Money Laundering vs a Circular Economy",
-    "category": "Insights",
-    "collection": "posts",
-    "path": "posts/insights.md",
-    "number": 181
   },
   {
     "slug": "farah-brunache/i-met-a-fake-ti-from-quora-damon-mayle-he-has-since-deleted-his-profil",
@@ -13038,6 +12986,63 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/jack-e-may-i-welcome-you-to-the-ti",
+    "title": "Jack E. may I welcome you to the TI Skills Economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-30",
+    "excerpt": "Jack E. may I welcome you to the TI Skills Economy? It is a network of TIs that exchange skills with each other so we can thrive.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/jack-e-may-i-welcome-you-to-the-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Jack-E-https-www-quora-com-profile-Jack-E-145-may-I-welcome-you-to-the-TI-Skills-Economy-It-is-a-network-of-TIs",
+      "originalDate": "2025-12-30",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/one-of-the-features-of-workforce-recruiter-is-that",
+    "title": "One of the features of Workforce Recruiter is that a member can list their skills, and…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-30",
+    "excerpt": "One of the features of Workforce Recruiter is that a member can list their skills, and the built-in algorithm will infer what occupations match those skills.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/one-of-the-features-of-workforce-recruiter-is-that.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Inferring-occupations-from-skills",
+      "originalDate": "2025-12-30",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/that-girl-may-i-welcome-you-to-the-ti",
+    "title": "That Girl may I welcome you to the TI economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-30",
+    "excerpt": "That Girl may I welcome you to the TI economy? With an estimated 5 million TIs globally, I believe we can exit the psyop by exchanging our skills, goods, and…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/that-girl-may-i-welcome-you-to-the-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/That-Girl-https-www-quora-com-profile-That-Girl-975-may-I-welcome-you-to-the-TI-economy-With-an-estimated-5-mill",
+      "originalDate": "2025-12-30",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "guides/lighthouse/hosting",
     "title": "Hosting in LightHouse",
     "repo": "chargingthefuture/chargingthefuture",
@@ -13058,6 +13063,17 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "guides",
     "path": "guides/workforce-recruiter/inferring-occupations-from-skills.md",
     "number": 179
+  },
+  {
+    "slug": "insights/insights",
+    "title": "Insights",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-30",
+    "excerpt": "Money Laundering vs a Circular Economy",
+    "category": "Insights",
+    "collection": "posts",
+    "path": "posts/insights.md",
+    "number": 181
   },
   {
     "slug": "farah-brunache/perps-are-impersonating-quora-profiles-when-signing-up-for",
@@ -13114,6 +13130,25 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-12-28",
       "status": "erased",
       "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/https-www-quora-com-profile-james-mccarthy-512-how-do-you-stay-calm-wh",
+    "title": "https www quora com profile James Mccarthy 512 How do you stay calm when everything feels like it s closing…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-28",
+    "excerpt": "Can I be bold and say I am bringing TIs together to create our own “restart,” by starting our own economy. It will not be easy. But with 5 million of us it is very possible. Skills Economy",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/https-www-quora-com-profile-james-mccarthy-512-how-do-you-stay-calm-wh.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://zersetzung.quora.com/https-www-quora-com-profile-James-Mccarthy-512-How-do-you-stay-calm-when-everything-feels-like-it-s-closing-in-When-my",
+      "originalDate": "2025-12-28",
+      "status": "erased",
+      "kind": "post-comment"
     }
   },
   {
@@ -13183,25 +13218,6 @@ export const ARTICLES: ArticleMeta[] = [
     "collection": "posts",
     "path": "posts/49-of-how-TI-Skills-Network-helps-you-exit-the-psyop.md",
     "number": 178
-  },
-  {
-    "slug": "farah-brunache/https-www-quora-com-profile-james-mccarthy-512-how-do-you-stay-calm-wh",
-    "title": "https www quora com profile James Mccarthy 512 How do you stay calm when everything feels like it s closing…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-12-28",
-    "excerpt": "Can I be bold and say I am bringing TIs together to create our own “restart,” by starting our own economy. It will not be easy. But with 5 million of us it is very possible. Skills Economy",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/https-www-quora-com-profile-james-mccarthy-512-how-do-you-stay-calm-wh.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://zersetzung.quora.com/https-www-quora-com-profile-James-Mccarthy-512-How-do-you-stay-calm-when-everything-feels-like-it-s-closing-in-When-my",
-      "originalDate": "2025-12-28",
-      "status": "erased",
-      "kind": "post-comment"
-    }
   },
   {
     "slug": "Look-ma,-I-fixed-it!",
@@ -13974,6 +13990,26 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 171
   },
   {
+    "slug": "farah-brunache/any-people-in-the-ohio-area-being-gangstalked-who-want-to-team-up-with",
+    "title": "Any people in the Ohio area being gangstalked who want to team up with a fellow targeted individual?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-20",
+    "excerpt": "I am interested, but not in Ohio. I travel and Healthy Volunteer Clinical Trials. And there is a trial company in Ohio. The most I have seen is $45,000 in earnings in one month.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/any-people-in-the-ohio-area-being-gangstalked-who-want-to-team-up-with.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/Any-people-in-the-Ohio-area-being-gangstalked-who-want-to-team-up-with-a-fellow-targeted-individual",
+      "originalDate": "2025-12-20",
+      "status": "erased",
+      "kind": "answer",
+      "question": "Any people in the Ohio area being gangstalked who want to team up with a fellow targeted individual?"
+    }
+  },
+  {
     "slug": "farah-brunache/i-am-interested-in-traveling-with-tis-to-do",
     "title": "I am interested in traveling with TIs to do Healthy Volunteer Clinical Trials.",
     "repo": "chargingthefuture/wiki-site",
@@ -14088,26 +14124,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/any-people-in-the-ohio-area-being-gangstalked-who-want-to-team-up-with",
-    "title": "Any people in the Ohio area being gangstalked who want to team up with a fellow targeted individual?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-12-20",
-    "excerpt": "I am interested, but not in Ohio. I travel and Healthy Volunteer Clinical Trials. And there is a trial company in Ohio. The most I have seen is $45,000 in earnings in one month.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/any-people-in-the-ohio-area-being-gangstalked-who-want-to-team-up-with.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/Any-people-in-the-Ohio-area-being-gangstalked-who-want-to-team-up-with-a-fellow-targeted-individual",
-      "originalDate": "2025-12-20",
-      "status": "erased",
-      "kind": "answer",
-      "question": "Any people in the Ohio area being gangstalked who want to team up with a fellow targeted individual?"
-    }
-  },
-  {
     "slug": "farah-brunache/what-is-it-like-to-be-a-targeted-individual-of-gangstalking",
     "title": "What is it like to be a targeted individual of gangstalking",
     "repo": "chargingthefuture/wiki-site",
@@ -14204,6 +14220,44 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/being-a-targeted-individual-i-got-locked-up-in-a-mental-institution-th",
+    "title": "Being a targeted individual I got locked up in a mental institution They used gas and chemical smell…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-18",
+    "excerpt": "Sorry, Tamar, a few weeks ago I only sometimes get notifications of replies to my posts :(. Please DM on Quora or message me on Signal: Signal Messenger Group.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/being-a-targeted-individual-i-got-locked-up-in-a-mental-institution-th.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/profile/Tamara-2129/Being-a-targeted-individual-I-got-locked-up-in-a-mental-institution-They-used-gas-and-chemical-smell-suffocation-throug",
+      "originalDate": "2025-12-18",
+      "status": "erased",
+      "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/hi-farah-i-discovered-ti-skills-network-via-another-tis-comment-on-my",
+    "title": "Hi Farah I discovered TI skills network via another TIs comment on my post How to join it I followed for now…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-18",
+    "excerpt": "Be careful what you download. The app is not in the App Store. Go directly to https://app.chargingthefuture.com.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/hi-farah-i-discovered-ti-skills-network-via-another-tis-comment-on-my.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/profile/Tamara-2129/Hi-Farah-I-discovered-TI-skills-network-via-another-TIs-comment-on-my-post-How-to-join-it-I-followed-for-now-but-don",
+      "originalDate": "2025-12-18",
+      "status": "erased",
+      "kind": "post-comment"
+    }
+  },
+  {
     "slug": "farah-brunache/highlighting-david-m",
     "title": "Highlighting David M!",
     "repo": "chargingthefuture/wiki-site",
@@ -14280,44 +14334,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/being-a-targeted-individual-i-got-locked-up-in-a-mental-institution-th",
-    "title": "Being a targeted individual I got locked up in a mental institution They used gas and chemical smell…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-12-18",
-    "excerpt": "Sorry, Tamar, a few weeks ago I only sometimes get notifications of replies to my posts :(. Please DM on Quora or message me on Signal: Signal Messenger Group.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/being-a-targeted-individual-i-got-locked-up-in-a-mental-institution-th.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/profile/Tamara-2129/Being-a-targeted-individual-I-got-locked-up-in-a-mental-institution-They-used-gas-and-chemical-smell-suffocation-throug",
-      "originalDate": "2025-12-18",
-      "status": "erased",
-      "kind": "post-comment"
-    }
-  },
-  {
-    "slug": "farah-brunache/hi-farah-i-discovered-ti-skills-network-via-another-tis-comment-on-my",
-    "title": "Hi Farah I discovered TI skills network via another TIs comment on my post How to join it I followed for now…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-12-18",
-    "excerpt": "Be careful what you download. The app is not in the App Store. Go directly to https://app.chargingthefuture.com.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/hi-farah-i-discovered-ti-skills-network-via-another-tis-comment-on-my.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/profile/Tamara-2129/Hi-Farah-I-discovered-TI-skills-network-via-another-TIs-comment-on-my-post-How-to-join-it-I-followed-for-now-but-don",
-      "originalDate": "2025-12-18",
-      "status": "erased",
-      "kind": "post-comment"
-    }
-  },
-  {
     "slug": "farah-brunache/what-happens-when-a-targeted-individual-goes-to-jail-or-is-put-into-a",
     "title": "What happens when a targeted individual goes to jail or is put into a mental institution Does the targeting…",
     "repo": "chargingthefuture/wiki-site",
@@ -14379,6 +14395,23 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "discourse-migrate/good-things-are-happening-hang-in-there",
+    "title": "Good things are happening, hang in there",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-12-16",
+    "excerpt": "Point of this post is to say I am no different than any other TI and each day I think of all you. I have survived over 10 years of physical violence and…",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/good-things-are-happening-hang-in-there.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-12-16",
+      "status": "closed"
+    },
+    "number": 170
+  },
+  {
     "slug": "farah-brunache/highligthing-carolina-her-skill-teaching",
     "title": "Highligthing Carolina, her skill — teaching!",
     "repo": "chargingthefuture/wiki-site",
@@ -14434,23 +14467,6 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "space-post"
     }
-  },
-  {
-    "slug": "discourse-migrate/good-things-are-happening-hang-in-there",
-    "title": "Good things are happening, hang in there",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-12-16",
-    "excerpt": "Point of this post is to say I am no different than any other TI and each day I think of all you. I have survived over 10 years of physical violence and…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/good-things-are-happening-hang-in-there.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-12-16",
-      "status": "closed"
-    },
-    "number": 170
   },
   {
     "slug": "social-audio-for-tis-talk-live-with-tis-around-the-world",
@@ -14607,42 +14623,21 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/i-am-re-watching-the-tv-show-the-good",
-    "title": "I am re-watching the TV show The Good Place.",
-    "repo": "chargingthefuture/wiki-site",
+    "slug": "discourse-migrate/tv-shows-depicting-the-speceterati",
+    "title": "TV shows depicting the Specterati",
+    "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-12-13",
-    "excerpt": "I am re-watching the TV show The Good Place. This space is exclusively for Targeted Individuals.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/i-am-re-watching-the-tv-show-the-good.md",
-    "listed": false,
+    "excerpt": "I am re-watching the TV show The Good Place. This space is exclusively for Targeted Individuals. However, if there is a random non-target/non-perp, the very…",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/tv-shows-depicting-the-speceterati.md",
     "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/I-am-re-watching-the-TV-show-The-Good-Place-This-space-is-exclusively-for-Targeted-Individuals-However-if-there-is-a",
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
       "originalDate": "2025-12-13",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/town-hall-recap-12-13-2025-todays-town-hall",
-    "title": "Town Hall Recap 12.13.2025 Today’s Town Hall was held again on Twitch: Twitch.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-12-13",
-    "excerpt": "Town Hall Recap 12.13.2025 Today’s Town Hall was held again on Twitch: Twitch.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/town-hall-recap-12-13-2025-todays-town-hall.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Town-Hall-Recap-12-13-2025-Today-s-Town-Hall-was-held-again-on-Twitch-Twitch-https-twitch-tv-the1690s-The-repl",
-      "originalDate": "2025-12-13",
-      "status": "erased",
-      "kind": "space-post"
-    }
+      "status": "closed"
+    },
+    "number": 168
   },
   {
     "slug": "farah-brunache/have-i-made-the-ti-list-yet",
@@ -14662,6 +14657,25 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "answer",
       "question": "Have I made the TI list yet?"
+    }
+  },
+  {
+    "slug": "farah-brunache/i-am-re-watching-the-tv-show-the-good",
+    "title": "I am re-watching the TV show The Good Place.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-13",
+    "excerpt": "I am re-watching the TV show The Good Place. This space is exclusively for Targeted Individuals.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-am-re-watching-the-tv-show-the-good.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-am-re-watching-the-TV-show-The-Good-Place-This-space-is-exclusively-for-Targeted-Individuals-However-if-there-is-a",
+      "originalDate": "2025-12-13",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -14743,37 +14757,20 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "discourse-migrate/tv-shows-depicting-the-speceterati",
-    "title": "TV shows depicting the Specterati",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-12-13",
-    "excerpt": "I am re-watching the TV show The Good Place. This space is exclusively for Targeted Individuals. However, if there is a random non-target/non-perp, the very…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/tv-shows-depicting-the-speceterati.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-12-13",
-      "status": "closed"
-    },
-    "number": 168
-  },
-  {
-    "slug": "farah-brunache/how-many-people-do-we-need-in-the-directory",
-    "title": "How many people do we need in the Directory?",
+    "slug": "farah-brunache/town-hall-recap-12-13-2025-todays-town-hall",
+    "title": "Town Hall Recap 12.13.2025 Today’s Town Hall was held again on Twitch: Twitch.",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2025-12-12",
-    "excerpt": "How many people do we need in the Directory? In order to get a true representation of the skills distribution in the TI economy my guess is we need 384…",
+    "date": "2025-12-13",
+    "excerpt": "Town Hall Recap 12.13.2025 Today’s Town Hall was held again on Twitch: Twitch.",
     "category": "Community",
     "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/how-many-people-do-we-need-in-the-directory.md",
+    "path": "archive/quora/farah-brunache/town-hall-recap-12-13-2025-todays-town-hall.md",
     "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/How-many-people-do-we-need-in-the-Directory-In-order-to-get-a-true-representation-of-the-skills-distribution-in-the-TI",
-      "originalDate": "2025-12-12",
+      "originalUrl": "https://skillseconomy.quora.com/Town-Hall-Recap-12-13-2025-Today-s-Town-Hall-was-held-again-on-Twitch-Twitch-https-twitch-tv-the1690s-The-repl",
+      "originalDate": "2025-12-13",
       "status": "erased",
       "kind": "space-post"
     }
@@ -14814,6 +14811,25 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-12-12",
       "status": "erased",
       "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/how-many-people-do-we-need-in-the-directory",
+    "title": "How many people do we need in the Directory?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-12",
+    "excerpt": "How many people do we need in the Directory? In order to get a true representation of the skills distribution in the TI economy my guess is we need 384…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/how-many-people-do-we-need-in-the-directory.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/How-many-people-do-we-need-in-the-Directory-In-order-to-get-a-true-representation-of-the-skills-distribution-in-the-TI",
+      "originalDate": "2025-12-12",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -15039,44 +15055,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/one-of-the-clinical-trials-i-completed-did-not",
-    "title": "One of the clinical trials I completed did not involve medication.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-12-10",
-    "excerpt": "One of the clinical trials I completed did not involve medication.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/one-of-the-clinical-trials-i-completed-did-not.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/One-of-the-clinical-trials-I-completed-did-not-involve-medication-I-exercised-and-took-breaks-and-my-vitals-were-taken",
-      "originalDate": "2025-12-10",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/one-of-the-clinical-trials-i-completed-did-not-2",
-    "title": "One of the clinical trials I completed did not involve medication.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-12-10",
-    "excerpt": "One of the clinical trials I completed did not involve medication.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/one-of-the-clinical-trials-i-completed-did-not-2.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/One-of-the-clinical-trials-I-completed-did-not-involve-medication-I-exercised-and-took-breaks-and-my-vitals-were-taken-1",
-      "originalDate": "2025-12-10",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
     "slug": "farah-brunache/i-have-a-nonverbal-low-functioning-autistic-son-that-is-being-messed-w",
     "title": "I HAVE A NONVERBAL LOW FUNCTIONING AUTISTIC SON THAT IS BEING MESSED WITH ALONG WITH ME MY MOM HUSBAND THIS…",
     "repo": "chargingthefuture/wiki-site",
@@ -15112,6 +15090,44 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-12-10",
       "status": "erased",
       "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/one-of-the-clinical-trials-i-completed-did-not",
+    "title": "One of the clinical trials I completed did not involve medication.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-10",
+    "excerpt": "One of the clinical trials I completed did not involve medication.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/one-of-the-clinical-trials-i-completed-did-not.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/One-of-the-clinical-trials-I-completed-did-not-involve-medication-I-exercised-and-took-breaks-and-my-vitals-were-taken",
+      "originalDate": "2025-12-10",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/one-of-the-clinical-trials-i-completed-did-not-2",
+    "title": "One of the clinical trials I completed did not involve medication.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-10",
+    "excerpt": "One of the clinical trials I completed did not involve medication.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/one-of-the-clinical-trials-i-completed-did-not-2.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/One-of-the-clinical-trials-I-completed-did-not-involve-medication-I-exercised-and-took-breaks-and-my-vitals-were-taken-1",
+      "originalDate": "2025-12-10",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -15337,6 +15353,25 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/keep-a-diary-days-time-whatever-they-r-doing-if-u-have-close-friend-st",
+    "title": "Keep a diary days time whatever they r doing if U have close friend stick with them they wont touch U then…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-08",
+    "excerpt": "Also wear a smart watch to monitor your vitals 24/7. This will record the exact times you are attacked.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/keep-a-diary-days-time-whatever-they-r-doing-if-u-have-close-friend-st.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/profile/Valerie-Barnett-25/Keep-a-diary-days-time-whatever-they-r-doing-if-U-have-close-friend-stick-with-them-they-wont-touch-U-then-Because-s",
+      "originalDate": "2025-12-08",
+      "status": "erased",
+      "kind": "post-comment"
+    }
+  },
+  {
     "slug": "farah-brunache/matthew-cappadocia-aka-the-wizard-of-oz-i-find",
     "title": "Matthew Cappadocia (aka The Wizard of Oz), I find your posts helpful and wanted to…",
     "repo": "chargingthefuture/wiki-site",
@@ -15429,25 +15464,6 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-12-08",
       "status": "erased",
       "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/keep-a-diary-days-time-whatever-they-r-doing-if-u-have-close-friend-st",
-    "title": "Keep a diary days time whatever they r doing if U have close friend stick with them they wont touch U then…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-12-08",
-    "excerpt": "Also wear a smart watch to monitor your vitals 24/7. This will record the exact times you are attacked.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/keep-a-diary-days-time-whatever-they-r-doing-if-u-have-close-friend-st.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/profile/Valerie-Barnett-25/Keep-a-diary-days-time-whatever-they-r-doing-if-U-have-close-friend-stick-with-them-they-wont-touch-U-then-Because-s",
-      "originalDate": "2025-12-08",
-      "status": "erased",
-      "kind": "post-comment"
     }
   },
   {
@@ -15663,6 +15679,26 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 153
   },
   {
+    "slug": "farah-brunache/can-spreading-positivity-and-maintaining-a-strong-moral-stance-genuine",
+    "title": "Can spreading positivity and maintaining a strong moral stance genuinely make gang stalkers back off, and if…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-12-04",
+    "excerpt": "Absolutely not. But you should do that for yourself, because you want to. Gang stalkers are clinically insane and/or extorted morality is not what motivates them.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/can-spreading-positivity-and-maintaining-a-strong-moral-stance-genuine.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/Can-spreading-positivity-and-maintaining-a-strong-moral-stance-genuinely-make-gang-stalkers-back-off-and-if-so-how",
+      "originalDate": "2025-12-04",
+      "status": "erased",
+      "kind": "answer",
+      "question": "Can spreading positivity and maintaining a strong moral stance genuinely make gang stalkers back off, and if so, how?"
+    }
+  },
+  {
     "slug": "farah-brunache/do-not-forget-about-socketrelay",
     "title": "Do not forget about SocketRelay!",
     "repo": "chargingthefuture/wiki-site",
@@ -15812,26 +15848,6 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-12-04",
       "status": "erased",
       "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/can-spreading-positivity-and-maintaining-a-strong-moral-stance-genuine",
-    "title": "Can spreading positivity and maintaining a strong moral stance genuinely make gang stalkers back off, and if…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-12-04",
-    "excerpt": "Absolutely not. But you should do that for yourself, because you want to. Gang stalkers are clinically insane and/or extorted morality is not what motivates them.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/can-spreading-positivity-and-maintaining-a-strong-moral-stance-genuine.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/Can-spreading-positivity-and-maintaining-a-strong-moral-stance-genuinely-make-gang-stalkers-back-off-and-if-so-how",
-      "originalDate": "2025-12-04",
-      "status": "erased",
-      "kind": "answer",
-      "question": "Can spreading positivity and maintaining a strong moral stance genuinely make gang stalkers back off, and if so, how?"
     }
   },
   {
@@ -16318,6 +16334,40 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 144
   },
   {
+    "slug": "discourse-migrate/directory-mini-app-updated-more-skills-added",
+    "title": "Directory mini-app, updated - more skills added",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-11-23",
+    "excerpt": "I updated the skills field in the app. It now has a variety of more options. This is part of the Directory feature. Where you create a simple profile. First,…",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/directory-mini-app-updated-more-skills-added.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-11-23",
+      "status": "closed"
+    },
+    "number": 143
+  },
+  {
+    "slug": "discourse-migrate/less-is-more-the-quest-for-simple",
+    "title": "Less is more, the quest for simple",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-11-23",
+    "excerpt": "I like Melissa Jean Hayes comment about less is more in Targeted life. But also in life in general.…",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/less-is-more-the-quest-for-simple.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-11-23",
+      "status": "closed"
+    },
+    "number": 142
+  },
+  {
     "slug": "farah-brunache/as-announced-in-yesterdays-town-hall-trusttransport-is-available",
     "title": "As announced in yesterday’s Town Hall, TrustTransport is available for use.",
     "repo": "chargingthefuture/wiki-site",
@@ -16449,40 +16499,6 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "space-post"
     }
-  },
-  {
-    "slug": "discourse-migrate/directory-mini-app-updated-more-skills-added",
-    "title": "Directory mini-app, updated - more skills added",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-11-23",
-    "excerpt": "I updated the skills field in the app. It now has a variety of more options. This is part of the Directory feature. Where you create a simple profile. First,…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/directory-mini-app-updated-more-skills-added.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-11-23",
-      "status": "closed"
-    },
-    "number": 143
-  },
-  {
-    "slug": "discourse-migrate/less-is-more-the-quest-for-simple",
-    "title": "Less is more, the quest for simple",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-11-23",
-    "excerpt": "I like Melissa Jean Hayes comment about less is more in Targeted life. But also in life in general.…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/less-is-more-the-quest-for-simple.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-11-23",
-      "status": "closed"
-    },
-    "number": 142
   },
   {
     "slug": "farah-brunache/i-will-continue-to-feature-tis",
@@ -16618,25 +16634,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/yesterday-i-went-to-a-different-doctor-referenced-above",
-    "title": "Yesterday I went to a different doctor referenced above however received the same…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-11-20",
-    "excerpt": "Yesterday I went to a different doctor referenced above however received the same Specterati service.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/yesterday-i-went-to-a-different-doctor-referenced-above.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Yesterday-I-went-to-a-different-doctor-referenced-above-however-received-the-same-Specterati-service-Just-as-the-human",
-      "originalDate": "2025-11-20",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
     "slug": "farah-brunache/how-do-you-know-ppl-that-are-on-this-page-aren-t-the-gs-instead-of-the",
     "title": "How do you know ppl that are on this page aren't the GS instead of the ti?",
     "repo": "chargingthefuture/wiki-site",
@@ -16657,6 +16654,25 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/yesterday-i-went-to-a-different-doctor-referenced-above",
+    "title": "Yesterday I went to a different doctor referenced above however received the same…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-20",
+    "excerpt": "Yesterday I went to a different doctor referenced above however received the same Specterati service.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/yesterday-i-went-to-a-different-doctor-referenced-above.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Yesterday-I-went-to-a-different-doctor-referenced-above-however-received-the-same-Specterati-service-Just-as-the-human",
+      "originalDate": "2025-11-20",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/idea-bit-bored-today-so-tried-chatgpt-instead-of-us-looking-for-the-an-2",
     "title": "IDEA Bit bored today So tried ChatGPT Instead of us looking for the answers Why dont the answers come looking",
     "repo": "chargingthefuture/wiki-site",
@@ -16673,63 +16689,6 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-11-19",
       "status": "erased",
       "kind": "post-comment"
-    }
-  },
-  {
-    "slug": "farah-brunache/any-tis-with-working-campers-who-want-to-be",
-    "title": "Any TIs with working campers who want to be a part of the TI economy?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-11-18",
-    "excerpt": "Any TIs with working campers who want to be a part of the TI economy?",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/any-tis-with-working-campers-who-want-to-be.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Any-TIs-with-working-campers-who-want-to-be-a-part-of-the-TI-economy-My-initial-thoughts-are-to-join-to-share-experienc",
-      "originalDate": "2025-11-18",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/brandy-b-nthepink-any-updates-on-your-non-profit",
-    "title": "Brandy B. NthePink any updates on your non-profit?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-11-18",
-    "excerpt": "Brandy B. NthePink any updates on your non-profit? Just following up. Since the below post, I created a TI Directory app:",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/brandy-b-nthepink-any-updates-on-your-non-profit.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Brandy-B-NthePink-https-www-quora-com-profile-Brandy-B-NthePink-any-updates-on-your-non-profit-Just-following-up",
-      "originalDate": "2025-11-18",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/since-the-below-supportmatch-has-been-updated",
-    "title": "Since the below, SupportMatch has been updated.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-11-18",
-    "excerpt": "Since the below, SupportMatch has been updated. Latest demo: Sign up at:",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/since-the-below-supportmatch-has-been-updated.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Since-the-below-SupportMatch-has-been-updated-Latest-demo-https-chargingthefuture-wistia-com-medias-63xzgmsq5t-Sig",
-      "originalDate": "2025-11-18",
-      "status": "erased",
-      "kind": "space-post"
     }
   },
   {
@@ -16799,6 +16758,63 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 138
+  },
+  {
+    "slug": "farah-brunache/any-tis-with-working-campers-who-want-to-be",
+    "title": "Any TIs with working campers who want to be a part of the TI economy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-18",
+    "excerpt": "Any TIs with working campers who want to be a part of the TI economy?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/any-tis-with-working-campers-who-want-to-be.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Any-TIs-with-working-campers-who-want-to-be-a-part-of-the-TI-economy-My-initial-thoughts-are-to-join-to-share-experienc",
+      "originalDate": "2025-11-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/brandy-b-nthepink-any-updates-on-your-non-profit",
+    "title": "Brandy B. NthePink any updates on your non-profit?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-18",
+    "excerpt": "Brandy B. NthePink any updates on your non-profit? Just following up. Since the below post, I created a TI Directory app:",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/brandy-b-nthepink-any-updates-on-your-non-profit.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Brandy-B-NthePink-https-www-quora-com-profile-Brandy-B-NthePink-any-updates-on-your-non-profit-Just-following-up",
+      "originalDate": "2025-11-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/since-the-below-supportmatch-has-been-updated",
+    "title": "Since the below, SupportMatch has been updated.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-18",
+    "excerpt": "Since the below, SupportMatch has been updated. Latest demo: Sign up at:",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/since-the-below-supportmatch-has-been-updated.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Since-the-below-SupportMatch-has-been-updated-Latest-demo-https-chargingthefuture-wistia-com-medias-63xzgmsq5t-Sig",
+      "originalDate": "2025-11-18",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "there-is-no-magic-bullet",
@@ -16928,6 +16944,23 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 135
   },
   {
+    "slug": "discourse-migrate/i-do-not-want-to-be-another-quora-new-dm-policy-and-psyop-awareness",
+    "title": "I do not want to be another Quora: New DM Policy and Psyop Awareness",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-11-15",
+    "excerpt": "Starting today, November 15, 2025, I’m implementing a new policy regarding my personal interactions within the TI economy. I will no longer engage in…",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/i-do-not-want-to-be-another-quora-new-dm-policy-and-psyop-awareness.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-11-15",
+      "status": "closed"
+    },
+    "number": 134
+  },
+  {
     "slug": "farah-brunache/after-joining-the-signal-group-i-must-go-in",
     "title": "After joining the Signal group I must go in and approve.",
     "repo": "chargingthefuture/wiki-site",
@@ -16982,6 +17015,29 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-11-15",
       "status": "erased",
       "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/is-gang-stalking-the-end-to-a-target-s-life",
+    "title": "Is gang stalking the end to a target’s life?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-15",
+    "excerpt": "Yes through through the means of plausible deniability.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/is-gang-stalking-the-end-to-a-target-s-life.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/Is-gang-stalking-the-end-to-a-targets-life",
+      "originalDate": "2025-11-15",
+      "status": "erased",
+      "kind": "answer",
+      "question": "Is gang stalking the end to a target’s life?",
+      "sharedTo": [
+        "Targeted Individuals - Get Answers"
+      ]
     }
   },
   {
@@ -17080,44 +17136,21 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/is-gang-stalking-the-end-to-a-target-s-life",
-    "title": "Is gang stalking the end to a target’s life?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-11-15",
-    "excerpt": "Yes through through the means of plausible deniability.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/is-gang-stalking-the-end-to-a-target-s-life.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/Is-gang-stalking-the-end-to-a-targets-life",
-      "originalDate": "2025-11-15",
-      "status": "erased",
-      "kind": "answer",
-      "question": "Is gang stalking the end to a target’s life?",
-      "sharedTo": [
-        "Targeted Individuals - Get Answers"
-      ]
-    }
-  },
-  {
-    "slug": "discourse-migrate/i-do-not-want-to-be-another-quora-new-dm-policy-and-psyop-awareness",
-    "title": "I do not want to be another Quora: New DM Policy and Psyop Awareness",
+    "slug": "discourse-migrate/one-solution-to-clothes-theft",
+    "title": "One solution to clothes theft",
     "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-11-15",
-    "excerpt": "Starting today, November 15, 2025, I’m implementing a new policy regarding my personal interactions within the TI economy. I will no longer engage in…",
+    "date": "2025-11-14",
+    "excerpt": "One solution to clothes theft Unrelated to Specterati I am a minimalist. Though it was not until the overt stalking began that I learned about merino wool. If…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
-    "path": "archive/discourse/i-do-not-want-to-be-another-quora-new-dm-policy-and-psyop-awareness.md",
+    "path": "archive/discourse/one-solution-to-clothes-theft.md",
     "archive": {
       "source": "discourse",
       "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-11-15",
+      "originalDate": "2025-11-14",
       "status": "closed"
     },
-    "number": 134
+    "number": 133
   },
   {
     "slug": "farah-brunache/one-solution-to-clothes-theft-unrelated-to-specterati-i",
@@ -17137,23 +17170,6 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "space-post"
     }
-  },
-  {
-    "slug": "discourse-migrate/one-solution-to-clothes-theft",
-    "title": "One solution to clothes theft",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-11-14",
-    "excerpt": "One solution to clothes theft Unrelated to Specterati I am a minimalist. Though it was not until the overt stalking began that I learned about merino wool. If…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/one-solution-to-clothes-theft.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-11-14",
-      "status": "closed"
-    },
-    "number": 133
   },
   {
     "slug": "farah-brunache/damon-mayle-the-human-trafficker-told-me-i-should",
@@ -17313,6 +17329,23 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "exciting-announcement-mutual-aid-and-community-trust",
+    "title": "Exciting Announcement: Mutual Aid and Community Trust!",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-11-07",
+    "excerpt": "Exciting Announcement: Mutual Aid and Community Trust! I’m thrilled to share some wonderful news today: I am launching Mutual Aid and Community Trust! This ini...",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/exciting-announcement-mutual-aid-and-community-trust.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-11-07",
+      "status": "closed"
+    },
+    "number": 132
+  },
+  {
     "slug": "farah-brunache/exciting-announcement-mutual-aid-and-community-trust",
     "title": "Exciting Announcement: Mutual Aid and Community Trust!",
     "repo": "chargingthefuture/wiki-site",
@@ -17332,21 +17365,40 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "exciting-announcement-mutual-aid-and-community-trust",
-    "title": "Exciting Announcement: Mutual Aid and Community Trust!",
+    "slug": "discourse-migrate/perfection-does-not-equate-to-excellance",
+    "title": "Perfection does not equate to excellence",
     "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-11-07",
-    "excerpt": "Exciting Announcement: Mutual Aid and Community Trust! I’m thrilled to share some wonderful news today: I am launching Mutual Aid and Community Trust! This ini...",
+    "date": "2025-11-06",
+    "excerpt": "I have not found post, but I mentioned twice previously that I have significant typos in my posts. And that I am doubling back and copy editing posts…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
-    "path": "archive/discourse/exciting-announcement-mutual-aid-and-community-trust.md",
+    "path": "archive/discourse/perfection-does-not-equate-to-excellance.md",
     "archive": {
       "source": "discourse",
       "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-11-07",
+      "originalDate": "2025-11-06",
       "status": "closed"
     },
-    "number": 132
+    "number": 131
+  },
+  {
+    "slug": "farah-brunache/hi-im-pat-brownlee-ive-been-stalked-for-over-a-year-now-it-started-in",
+    "title": "Hi Im pat Brownlee ive been stalked for over a year now it started in tennessee and I got tired of it and…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-06",
+    "excerpt": "I cannot DM you. It is bad everywhere, though California is the worst in the US. I will call you today from a 786 number.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/hi-im-pat-brownlee-ive-been-stalked-for-over-a-year-now-it-started-in.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://tinetwork.quora.com/Hi-Im-pat-Brownlee-ive-been-stalked-for-over-a-year-now-it-started-in-tennessee-and-I-got-tired-of-it-and-began-movin",
+      "originalDate": "2025-11-06",
+      "status": "erased",
+      "kind": "post-comment"
+    }
   },
   {
     "slug": "farah-brunache/i-have-been-going-live-on-twitch-i-made",
@@ -17404,42 +17456,6 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "space-post"
     }
-  },
-  {
-    "slug": "farah-brunache/hi-im-pat-brownlee-ive-been-stalked-for-over-a-year-now-it-started-in",
-    "title": "Hi Im pat Brownlee ive been stalked for over a year now it started in tennessee and I got tired of it and…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-11-06",
-    "excerpt": "I cannot DM you. It is bad everywhere, though California is the worst in the US. I will call you today from a 786 number.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/hi-im-pat-brownlee-ive-been-stalked-for-over-a-year-now-it-started-in.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://tinetwork.quora.com/Hi-Im-pat-Brownlee-ive-been-stalked-for-over-a-year-now-it-started-in-tennessee-and-I-got-tired-of-it-and-began-movin",
-      "originalDate": "2025-11-06",
-      "status": "erased",
-      "kind": "post-comment"
-    }
-  },
-  {
-    "slug": "discourse-migrate/perfection-does-not-equate-to-excellance",
-    "title": "Perfection does not equate to excellence",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-11-06",
-    "excerpt": "I have not found post, but I mentioned twice previously that I have significant typos in my posts. And that I am doubling back and copy editing posts…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/perfection-does-not-equate-to-excellance.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-11-06",
-      "status": "closed"
-    },
-    "number": 131
   },
   {
     "slug": "specterati-in-the-medical-field",
@@ -17556,6 +17572,26 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 129
   },
   {
+    "slug": "farah-brunache/are-county-workers-involved-in-gangstalking",
+    "title": "Are county workers involved in gangstalking?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-11-01",
+    "excerpt": "Yes. Gstalking is organized crime and so corrupt employees are everywhere across all industries, companies, organizations.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/are-county-workers-involved-in-gangstalking.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/Are-county-workers-involved-in-gangstalking",
+      "originalDate": "2025-11-01",
+      "status": "erased",
+      "kind": "answer",
+      "question": "Are county workers involved in gangstalking?"
+    }
+  },
+  {
     "slug": "farah-brunache/mini-apps-that-have-been-launched-since-last-weeks",
     "title": "Mini-apps that have been launched since last week’s Townhall: Chat Groups: list of all…",
     "repo": "chargingthefuture/wiki-site",
@@ -17613,26 +17649,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/are-county-workers-involved-in-gangstalking",
-    "title": "Are county workers involved in gangstalking?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-11-01",
-    "excerpt": "Yes. Gstalking is organized crime and so corrupt employees are everywhere across all industries, companies, organizations.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/are-county-workers-involved-in-gangstalking.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/Are-county-workers-involved-in-gangstalking",
-      "originalDate": "2025-11-01",
-      "status": "erased",
-      "kind": "answer",
-      "question": "Are county workers involved in gangstalking?"
-    }
-  },
-  {
     "slug": "farah-brunache/feature-update",
     "title": "Feature update!",
     "repo": "chargingthefuture/wiki-site",
@@ -17668,6 +17684,25 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-10-31",
       "status": "erased",
       "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/im-a-ti-i-really-need-someone-to-talk-to-is-anyone-willing",
+    "title": "Im a TI I really need someone to talk to Is anyone willing",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-31",
+    "excerpt": "At Skills Economy we rotate each month among each other as emotional support and accountability partners.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/im-a-ti-i-really-need-someone-to-talk-to-is-anyone-willing.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://tinetwork.quora.com/Im-a-TI-I-really-need-someone-to-talk-to-Is-anyone-willing-6",
+      "originalDate": "2025-10-31",
+      "status": "erased",
+      "kind": "answer-comment"
     }
   },
   {
@@ -17763,25 +17798,6 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-10-31",
       "status": "erased",
       "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/im-a-ti-i-really-need-someone-to-talk-to-is-anyone-willing",
-    "title": "Im a TI I really need someone to talk to Is anyone willing",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-10-31",
-    "excerpt": "At Skills Economy we rotate each month among each other as emotional support and accountability partners.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/im-a-ti-i-really-need-someone-to-talk-to-is-anyone-willing.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://tinetwork.quora.com/Im-a-TI-I-really-need-someone-to-talk-to-Is-anyone-willing-6",
-      "originalDate": "2025-10-31",
-      "status": "erased",
-      "kind": "answer-comment"
     }
   },
   {
@@ -17921,6 +17937,40 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "space-post"
     }
+  },
+  {
+    "slug": "discourse-migrate/collecting-vitals-24-7",
+    "title": "Collecting vitals 24/7",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-10-27",
+    "excerpt": "For the past few days, I’ve been testing various smartwatches that continuously record your vitals. I did this because, like other targeted individuals, I…",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/collecting-vitals-24-7.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-10-27",
+      "status": "closed"
+    },
+    "number": 124
+  },
+  {
+    "slug": "discourse-migrate/how-to-find-your-payments",
+    "title": "How to find your payments",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-10-27",
+    "excerpt": "For those who may not be aware, there is a monthly fee to use the app, which is currently set at $1. The app operates on an invite-only basis. I have created…",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/how-to-find-your-payments.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-10-27",
+      "status": "closed"
+    },
+    "number": 123
   },
   {
     "slug": "farah-brunache/bill-gallant-i-would-answer-your-question-but-then",
@@ -18095,38 +18145,21 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "discourse-migrate/collecting-vitals-24-7",
-    "title": "Collecting vitals 24/7",
+    "slug": "discourse-migrate/at-your-service",
+    "title": "At your service",
     "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-10-27",
-    "excerpt": "For the past few days, I’ve been testing various smartwatches that continuously record your vitals. I did this because, like other targeted individuals, I…",
+    "date": "2025-10-26",
+    "excerpt": "The Specterati became overt on me on January 1, 2024. And this year is when I decided to work full-time in aiding TIs after they started starving me out. I am…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
-    "path": "archive/discourse/collecting-vitals-24-7.md",
+    "path": "archive/discourse/at-your-service.md",
     "archive": {
       "source": "discourse",
       "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-10-27",
+      "originalDate": "2025-10-26",
       "status": "closed"
     },
-    "number": 124
-  },
-  {
-    "slug": "discourse-migrate/how-to-find-your-payments",
-    "title": "How to find your payments",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-10-27",
-    "excerpt": "For those who may not be aware, there is a monthly fee to use the app, which is currently set at $1. The app operates on an invite-only basis. I have created…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/how-to-find-your-payments.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-10-27",
-      "status": "closed"
-    },
-    "number": 123
+    "number": 122
   },
   {
     "slug": "farah-brunache/audio-is-15-minutes-and-found-in-the-below",
@@ -18205,23 +18238,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "discourse-migrate/at-your-service",
-    "title": "At your service",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-10-26",
-    "excerpt": "The Specterati became overt on me on January 1, 2024. And this year is when I decided to work full-time in aiding TIs after they started starving me out. I am…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/at-your-service.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-10-26",
-      "status": "closed"
-    },
-    "number": 122
-  },
-  {
     "slug": "farah-brunache/fake-news-what-personal-information",
     "title": "Fake news! What personal information?",
     "repo": "chargingthefuture/wiki-site",
@@ -18238,6 +18254,25 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-10-25",
       "status": "erased",
       "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/https-targetedindividualssurvey-quora-com-targeted-individuals-survey",
+    "title": "https targetedindividualssurvey quora com Targeted Individuals Survey final post Quora will not allow me to…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-25",
+    "excerpt": "You might be interested in my Quora Space: Skills Economy",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/https-targetedindividualssurvey-quora-com-targeted-individuals-survey.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://rnudvbhbuspdwbhs.quora.com/https-targetedindividualssurvey-quora-com-Targeted-Individuals-Survey-final-post-Quora-will-not-allow-me-to-ask-people",
+      "originalDate": "2025-10-25",
+      "status": "erased",
+      "kind": "post-comment"
     }
   },
   {
@@ -18428,25 +18463,6 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-10-25",
       "status": "erased",
       "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/https-targetedindividualssurvey-quora-com-targeted-individuals-survey",
-    "title": "https targetedindividualssurvey quora com Targeted Individuals Survey final post Quora will not allow me to…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-10-25",
-    "excerpt": "You might be interested in my Quora Space: Skills Economy",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/https-targetedindividualssurvey-quora-com-targeted-individuals-survey.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://rnudvbhbuspdwbhs.quora.com/https-targetedindividualssurvey-quora-com-Targeted-Individuals-Survey-final-post-Quora-will-not-allow-me-to-ask-people",
-      "originalDate": "2025-10-25",
-      "status": "erased",
-      "kind": "post-comment"
     }
   },
   {
@@ -18666,23 +18682,21 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/nowhere-is-vigilantism-considered-acceptable",
-    "title": "Nowhere is vigilantism considered acceptable.",
-    "repo": "chargingthefuture/wiki-site",
+    "slug": "discourse-migrate/is-gang-stalking-demonic",
+    "title": "Is gang stalking demonic?",
+    "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-10-22",
-    "excerpt": "Nowhere is vigilantism considered acceptable. There is a difference between receiving slander and believing it vs receiving it believing it and stalking and…",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/nowhere-is-vigilantism-considered-acceptable.md",
-    "listed": false,
+    "excerpt": "How do you define demonic? Does it include organized crime? Meaning a human trafficking ring organized by the likes of stalkers, thieves, drug dealers, cults,…",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/is-gang-stalking-demonic.md",
     "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Nowhere-is-vigilantism-considered-acceptable-There-is-a-difference-between-receiving-slander-and-believing-it-vs-receiv",
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
       "originalDate": "2025-10-22",
-      "status": "erased",
-      "kind": "space-post"
-    }
+      "status": "closed"
+    },
+    "number": 115
   },
   {
     "slug": "farah-brunache/are-gaslighting-and-gang-stalking-demonic",
@@ -18743,21 +18757,40 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "discourse-migrate/is-gang-stalking-demonic",
-    "title": "Is gang stalking demonic?",
-    "repo": "chargingthefuture/chargingthefuture",
+    "slug": "farah-brunache/nowhere-is-vigilantism-considered-acceptable",
+    "title": "Nowhere is vigilantism considered acceptable.",
+    "repo": "chargingthefuture/wiki-site",
     "date": "2025-10-22",
-    "excerpt": "How do you define demonic? Does it include organized crime? Meaning a human trafficking ring organized by the likes of stalkers, thieves, drug dealers, cults,…",
+    "excerpt": "Nowhere is vigilantism considered acceptable. There is a difference between receiving slander and believing it vs receiving it believing it and stalking and…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/nowhere-is-vigilantism-considered-acceptable.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Nowhere-is-vigilantism-considered-acceptable-There-is-a-difference-between-receiving-slander-and-believing-it-vs-receiv",
+      "originalDate": "2025-10-22",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "discourse-migrate/book-3-how-are-you-going-to-pay-for-that",
+    "title": "Book 3: How Are You Going to Pay For That?",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-10-21",
+    "excerpt": "Last night I started How Are You Going to Pay For That? by Ryan Cooper. I have been browsing the economics section of the public library and it caught my…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
-    "path": "archive/discourse/is-gang-stalking-demonic.md",
+    "path": "archive/discourse/book-3-how-are-you-going-to-pay-for-that.md",
     "archive": {
       "source": "discourse",
       "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-10-22",
+      "originalDate": "2025-10-21",
       "status": "closed"
     },
-    "number": 115
+    "number": 114
   },
   {
     "slug": "farah-brunache/last-night-i-started-how-are-you-going-to",
@@ -18815,23 +18848,6 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "space-post"
     }
-  },
-  {
-    "slug": "discourse-migrate/book-3-how-are-you-going-to-pay-for-that",
-    "title": "Book 3: How Are You Going to Pay For That?",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-10-21",
-    "excerpt": "Last night I started How Are You Going to Pay For That? by Ryan Cooper. I have been browsing the economics section of the public library and it caught my…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/book-3-how-are-you-going-to-pay-for-that.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-10-21",
-      "status": "closed"
-    },
-    "number": 114
   },
   {
     "slug": "it-is-not-ghosts-visiting-us-from-the-past-why-tis-need-to-compare-notes",
@@ -19024,6 +19040,23 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 107
   },
   {
+    "slug": "discourse-migrate/book-2-backyard-farming",
+    "title": "Book 2: Backyard Farming",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-10-18",
+    "excerpt": "Today I start Backyard Farming by Adams Media. This relates to the TI economy initiative of a gated community. And relying less on the Specterati for food. One…",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/book-2-backyard-farming.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-10-18",
+      "status": "closed"
+    },
+    "number": 106
+  },
+  {
     "slug": "farah-brunache/skill-programming-jason-sells-programmed-rayhunters-on-verizon-mobile",
     "title": "Skill: programming Jason sells programmed Rayhunters on Verizon Mobile Hotspots, the…",
     "repo": "chargingthefuture/wiki-site",
@@ -19117,23 +19150,6 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "space-post"
     }
-  },
-  {
-    "slug": "discourse-migrate/book-2-backyard-farming",
-    "title": "Book 2: Backyard Farming",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-10-18",
-    "excerpt": "Today I start Backyard Farming by Adams Media. This relates to the TI economy initiative of a gated community. And relying less on the Specterati for food. One…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/book-2-backyard-farming.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-10-18",
-      "status": "closed"
-    },
-    "number": 106
   },
   {
     "slug": "farah-brunache/as-part-of-my-fitness-challenge-fitness-challenge",
@@ -19316,6 +19332,40 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 101
   },
   {
+    "slug": "discourse-migrate/book-1-religion-and-the-rise-of-capitalism",
+    "title": "Book 1: Religion and the Rise of Capitalism",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-10-15",
+    "excerpt": "The first objective in me reading on economics is to unpack, at present day, what is my understanding of economics. So that I can articulate better the…",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/book-1-religion-and-the-rise-of-capitalism.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-10-15",
+      "status": "closed"
+    },
+    "number": 100
+  },
+  {
+    "slug": "discourse-migrate/book-club-anyone",
+    "title": "Book club anyone?",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-10-15",
+    "excerpt": "I went to the library today and grabbed a bunch of random books in the economics section. Reading up on various topics to provide inspiration and expand my…",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/book-club-anyone.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-10-15",
+      "status": "closed"
+    },
+    "number": 99
+  },
+  {
     "slug": "farah-brunache/fyi-i-added-more-perps-to-the-group-chat",
     "title": "FYI, I added more perps to the group chat.",
     "repo": "chargingthefuture/wiki-site",
@@ -19354,40 +19404,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "discourse-migrate/book-1-religion-and-the-rise-of-capitalism",
-    "title": "Book 1: Religion and the Rise of Capitalism",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-10-15",
-    "excerpt": "The first objective in me reading on economics is to unpack, at present day, what is my understanding of economics. So that I can articulate better the…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/book-1-religion-and-the-rise-of-capitalism.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-10-15",
-      "status": "closed"
-    },
-    "number": 100
-  },
-  {
-    "slug": "discourse-migrate/book-club-anyone",
-    "title": "Book club anyone?",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-10-15",
-    "excerpt": "I went to the library today and grabbed a bunch of random books in the economics section. Reading up on various topics to provide inspiration and expand my…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/book-club-anyone.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-10-15",
-      "status": "closed"
-    },
-    "number": 99
-  },
-  {
     "slug": "the-gstalker-s-economy-is-very-simple",
     "title": "The gstalker’s economy is very simple",
     "repo": "chargingthefuture/chargingthefuture",
@@ -19403,6 +19419,23 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 98
+  },
+  {
+    "slug": "discourse-migrate/perp-alert-aaron-andrew",
+    "title": "Perp Alert “Aaron Andrew”",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-10-14",
+    "excerpt": "Perp alert: https://www.quora.com/profile/Aaron-Andrew-67 I will drag each and every one of you. Join this: Signal Group for the screenshots of the DMs of…",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/perp-alert-aaron-andrew.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-10-14",
+      "status": "closed"
+    },
+    "number": 97
   },
   {
     "slug": "farah-brunache/as-stated-i-used-chatgpt-to-suggest-some-names",
@@ -19519,23 +19552,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "discourse-migrate/perp-alert-aaron-andrew",
-    "title": "Perp Alert “Aaron Andrew”",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-10-14",
-    "excerpt": "Perp alert: https://www.quora.com/profile/Aaron-Andrew-67 I will drag each and every one of you. Join this: Signal Group for the screenshots of the DMs of…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/perp-alert-aaron-andrew.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-10-14",
-      "status": "closed"
-    },
-    "number": 97
-  },
-  {
     "slug": "who-is-a-notary",
     "title": "Who is a Notary?",
     "repo": "chargingthefuture/chargingthefuture",
@@ -19551,44 +19567,6 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 96
-  },
-  {
-    "slug": "farah-brunache/a-gang-stalker-stole-my-only-jacket-yesterday",
-    "title": "A gang stalker stole my only jacket yesterday.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-10-12",
-    "excerpt": "A gang stalker stole my only jacket yesterday. I shared this in one of the Signal chat groups in passing.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/a-gang-stalker-stole-my-only-jacket-yesterday.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/A-gang-stalker-stole-my-only-jacket-yesterday-I-shared-this-in-one-of-the-Signal-chat-groups-in-passing-And-another-TI",
-      "originalDate": "2025-10-12",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/many-tis-such-as-myself-experience-dews-direct-energy",
-    "title": "Many TIs, such as myself, experience DEWs (direct energy weapons).",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-10-12",
-    "excerpt": "Many TIs, such as myself, experience DEWs (direct energy weapons).",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/many-tis-such-as-myself-experience-dews-direct-energy.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Many-TIs-such-as-myself-experience-DEWs-direct-energy-weapons-This-thread-is-intended-to-serve-as-a-crowdsourced-re",
-      "originalDate": "2025-10-12",
-      "status": "erased",
-      "kind": "space-post"
-    }
   },
   {
     "slug": "discourse-migrate/blocking-radiation-thread",
@@ -19810,6 +19788,44 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 83
+  },
+  {
+    "slug": "farah-brunache/a-gang-stalker-stole-my-only-jacket-yesterday",
+    "title": "A gang stalker stole my only jacket yesterday.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-12",
+    "excerpt": "A gang stalker stole my only jacket yesterday. I shared this in one of the Signal chat groups in passing.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/a-gang-stalker-stole-my-only-jacket-yesterday.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/A-gang-stalker-stole-my-only-jacket-yesterday-I-shared-this-in-one-of-the-Signal-chat-groups-in-passing-And-another-TI",
+      "originalDate": "2025-10-12",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/many-tis-such-as-myself-experience-dews-direct-energy",
+    "title": "Many TIs, such as myself, experience DEWs (direct energy weapons).",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-12",
+    "excerpt": "Many TIs, such as myself, experience DEWs (direct energy weapons).",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/many-tis-such-as-myself-experience-dews-direct-energy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Many-TIs-such-as-myself-experience-DEWs-direct-energy-weapons-This-thread-is-intended-to-serve-as-a-crowdsourced-re",
+      "originalDate": "2025-10-12",
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "v2k-for-decades",
@@ -20240,6 +20256,23 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "discourse-migrate/mental-health-professional-training",
+    "title": "Mental Health Professional Training",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-10-09",
+    "excerpt": "I had a phone conversation with someone who I believe is a TI. And they were crying on the phone call the entire time as they were speaking. I intentionally…",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/mental-health-professional-training.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-10-09",
+      "status": "closed"
+    },
+    "number": 80
+  },
+  {
     "slug": "farah-brunache/sleep-stories-are-calming-narratives-designed-to-help-listeners",
     "title": "Sleep stories are calming narratives designed to help listeners unwind and drift off to…",
     "repo": "chargingthefuture/wiki-site",
@@ -20257,23 +20290,6 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "space-post"
     }
-  },
-  {
-    "slug": "discourse-migrate/mental-health-professional-training",
-    "title": "Mental Health Professional Training",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-10-09",
-    "excerpt": "I had a phone conversation with someone who I believe is a TI. And they were crying on the phone call the entire time as they were speaking. I intentionally…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/mental-health-professional-training.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-10-09",
-      "status": "closed"
-    },
-    "number": 80
   },
   {
     "slug": "introducing-sleep-stories",
@@ -20309,82 +20325,6 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-10-08",
       "status": "erased",
       "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/snave-seer-brad-rice-and-everyone",
-    "title": "Snave Seer, Brad Rice and everyone.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-10-07",
-    "excerpt": "Snave Seer, Brad Rice and everyone. Thank you for the suggestions.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/snave-seer-brad-rice-and-everyone.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Snave-Seer-https-www-quora-com-profile-Snave-Seer-Brad-Rice-https-www-quora-com-profile-Brad-Rice-102-and-e",
-      "originalDate": "2025-10-07",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/the-colloquial-name-for-group-vigilanteism-is-gang-stalking",
-    "title": "The colloquial name for group vigilanteism is gang stalking.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-10-07",
-    "excerpt": "The colloquial name for group vigilanteism is gang stalking.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/the-colloquial-name-for-group-vigilanteism-is-gang-stalking.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/The-colloquial-name-for-group-vigilanteism-is-gang-stalking-And-I-am-personally-tired-of-using-it-Recently-a-TI-ment",
-      "originalDate": "2025-10-07",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/gang-stalkers-have-blocked-me-for-several-months-in-buying-bus-tickets-10",
-    "title": "Gang stalkers have blocked me for several months in buying bus tickets online Greyhound and now for the last…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-10-07",
-    "excerpt": "Hang in there. I will also leave this specific post about a TI economy here ;): Farah Brunache's post in Skills Economy",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/gang-stalkers-have-blocked-me-for-several-months-in-buying-bus-tickets-10.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/Gang-stalkers-have-blocked-me-for-several-months-in-buying-bus-tickets-online-Greyhound-and-now-for-the-last-month-blocked-me-from-buying-on-Amazon-Has-this-happened-to-you-Any-suggestions/answer/MarineVet-Mom",
-      "originalDate": "2025-10-07",
-      "status": "erased",
-      "kind": "answer-comment"
-    }
-  },
-  {
-    "slug": "farah-brunache/gang-stalkers-have-blocked-me-for-several-months-in-buying-bus-tickets-9",
-    "title": "Gang stalkers have blocked me for several months in buying bus tickets online Greyhound and now for the last…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-10-07",
-    "excerpt": "Congrats on having a car. They stole mine. I am putting together a network of traveling TI mechanics if you need one. Please check the link in my Quora bio for details.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/gang-stalkers-have-blocked-me-for-several-months-in-buying-bus-tickets-9.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/Gang-stalkers-have-blocked-me-for-several-months-in-buying-bus-tickets-online-Greyhound-and-now-for-the-last-month-blocked-me-from-buying-on-Amazon-Has-this-happened-to-you-Any-suggestions/answer/MarineVet-Mom",
-      "originalDate": "2025-10-07",
-      "status": "erased",
-      "kind": "answer-comment"
     }
   },
   {
@@ -20541,6 +20481,82 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 70
   },
   {
+    "slug": "farah-brunache/gang-stalkers-have-blocked-me-for-several-months-in-buying-bus-tickets-10",
+    "title": "Gang stalkers have blocked me for several months in buying bus tickets online Greyhound and now for the last…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-07",
+    "excerpt": "Hang in there. I will also leave this specific post about a TI economy here ;): Farah Brunache's post in Skills Economy",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/gang-stalkers-have-blocked-me-for-several-months-in-buying-bus-tickets-10.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/Gang-stalkers-have-blocked-me-for-several-months-in-buying-bus-tickets-online-Greyhound-and-now-for-the-last-month-blocked-me-from-buying-on-Amazon-Has-this-happened-to-you-Any-suggestions/answer/MarineVet-Mom",
+      "originalDate": "2025-10-07",
+      "status": "erased",
+      "kind": "answer-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/gang-stalkers-have-blocked-me-for-several-months-in-buying-bus-tickets-9",
+    "title": "Gang stalkers have blocked me for several months in buying bus tickets online Greyhound and now for the last…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-07",
+    "excerpt": "Congrats on having a car. They stole mine. I am putting together a network of traveling TI mechanics if you need one. Please check the link in my Quora bio for details.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/gang-stalkers-have-blocked-me-for-several-months-in-buying-bus-tickets-9.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/Gang-stalkers-have-blocked-me-for-several-months-in-buying-bus-tickets-online-Greyhound-and-now-for-the-last-month-blocked-me-from-buying-on-Amazon-Has-this-happened-to-you-Any-suggestions/answer/MarineVet-Mom",
+      "originalDate": "2025-10-07",
+      "status": "erased",
+      "kind": "answer-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/snave-seer-brad-rice-and-everyone",
+    "title": "Snave Seer, Brad Rice and everyone.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-07",
+    "excerpt": "Snave Seer, Brad Rice and everyone. Thank you for the suggestions.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/snave-seer-brad-rice-and-everyone.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Snave-Seer-https-www-quora-com-profile-Snave-Seer-Brad-Rice-https-www-quora-com-profile-Brad-Rice-102-and-e",
+      "originalDate": "2025-10-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/the-colloquial-name-for-group-vigilanteism-is-gang-stalking",
+    "title": "The colloquial name for group vigilanteism is gang stalking.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-07",
+    "excerpt": "The colloquial name for group vigilanteism is gang stalking.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/the-colloquial-name-for-group-vigilanteism-is-gang-stalking.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/The-colloquial-name-for-group-vigilanteism-is-gang-stalking-And-I-am-personally-tired-of-using-it-Recently-a-TI-ment",
+      "originalDate": "2025-10-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/anonymous-poll-also-found-here-each-week-there-are",
     "title": "Anonymous poll also found here: Each week there are about 20 new accounts that follow…",
     "repo": "chargingthefuture/wiki-site",
@@ -20573,63 +20589,6 @@ export const ARTICLES: ArticleMeta[] = [
       "source": "quora",
       "account": "farah-brunache",
       "originalUrl": "https://skillseconomy.quora.com/Any-TI-Lawyers-Similar-to-Telehealth-and-Mechanics-I-would-be-interested-in-matching-Lawyers-https-chargingthefutu",
-      "originalDate": "2025-10-06",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/if-not-ready-to-sign-up-for-the-below",
-    "title": "If not ready to sign up for the below in order to take the poll.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-10-06",
-    "excerpt": "If not ready to sign up for the below in order to take the poll. I added a second poll here: is also anonymous.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/if-not-ready-to-sign-up-for-the-below.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/If-not-ready-to-sign-up-for-the-below-in-order-to-take-the-poll-I-added-a-second-poll-here-https-strawpoll-com-YVyP",
-      "originalDate": "2025-10-06",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/we-have-more-power-than-we-think-which-is",
-    "title": "We have more power than we think which is why I created a TI economy.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-10-06",
-    "excerpt": "We have more power than we think which is why I created a TI economy.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/we-have-more-power-than-we-think-which-is.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/We-have-more-power-than-we-think-which-is-why-I-created-a-TI-economy-And-this-is-coming-from-someone-who-is-DEWed-every",
-      "originalDate": "2025-10-06",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/wow-this-was-august-3-but-it-feels-like",
-    "title": "Wow, this was August 3, but it feels like months ago I was posting and trying to find…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-10-06",
-    "excerpt": "Wow, this was August 3, but it feels like months ago I was posting and trying to find people to join me: And completely missed a response by two people!",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/wow-this-was-august-3-but-it-feels-like.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Wow-this-was-August-3-but-it-feels-like-months-ago-I-was-posting-and-trying-to-find-people-to-join-me-https-qr-ae",
       "originalDate": "2025-10-06",
       "status": "erased",
       "kind": "space-post"
@@ -20831,6 +20790,44 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/if-not-ready-to-sign-up-for-the-below",
+    "title": "If not ready to sign up for the below in order to take the poll.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-06",
+    "excerpt": "If not ready to sign up for the below in order to take the poll. I added a second poll here: is also anonymous.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/if-not-ready-to-sign-up-for-the-below.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/If-not-ready-to-sign-up-for-the-below-in-order-to-take-the-poll-I-added-a-second-poll-here-https-strawpoll-com-YVyP",
+      "originalDate": "2025-10-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/we-have-more-power-than-we-think-which-is",
+    "title": "We have more power than we think which is why I created a TI economy.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-06",
+    "excerpt": "We have more power than we think which is why I created a TI economy.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/we-have-more-power-than-we-think-which-is.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/We-have-more-power-than-we-think-which-is-why-I-created-a-TI-economy-And-this-is-coming-from-someone-who-is-DEWed-every",
+      "originalDate": "2025-10-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/what-are-the-worst-states-for-gang-stalking",
     "title": "What are the worst states for gang stalking?",
     "repo": "chargingthefuture/wiki-site",
@@ -20910,6 +20907,25 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/wow-this-was-august-3-but-it-feels-like",
+    "title": "Wow, this was August 3, but it feels like months ago I was posting and trying to find…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-06",
+    "excerpt": "Wow, this was August 3, but it feels like months ago I was posting and trying to find people to join me: And completely missed a response by two people!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/wow-this-was-august-3-but-it-feels-like.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Wow-this-was-August-3-but-it-feels-like-months-ago-I-was-posting-and-trying-to-find-people-to-join-me-https-qr-ae",
+      "originalDate": "2025-10-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/youve-suggested-that-gang-stalking-is-all-about-the-data-what-specific",
     "title": "Youve suggested that gang stalking is all about the data what specific data do you believe perpetrators are…",
     "repo": "chargingthefuture/wiki-site",
@@ -20944,6 +20960,97 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 69
+  },
+  {
+    "slug": "discourse-migrate/can-electronic-harassment-send-specific-dreams-whilst-you-sleep",
+    "title": "Can electronic harassment send specific dreams whilst you sleep?",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-10-05",
+    "excerpt": "Yes. It only happened to me one time. They (gang stalkers) do it to my mother, perhaps every night, to dictate her actions during the day. She is religious.…",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/can-electronic-harassment-send-specific-dreams-whilst-you-sleep.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-10-05",
+      "status": "closed"
+    },
+    "number": 68
+  },
+  {
+    "slug": "discourse-migrate/how-do-my-creepy-neighbors-who-have-hacked-my-cell-phone-change-what-the-articles-are-in-quora-what-i-see-on-quora-sometimes-quora-doesnt-even-look-like-itself",
+    "title": "How do my creepy neighbors who have hacked my cell phone change what the articles are in Quora/what I see on Quora? Sometimes Quora doesn't even look like itself",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-10-05",
+    "excerpt": "There are different ways. The most plausible: They are following you and asking you questions. This will influence the algorithm to push their gaslighting…",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/how-do-my-creepy-neighbors-who-have-hacked-my-cell-phone-change-what-the-articles-are-in-quora-what-i-see-on-quora-sometimes-quora-doesnt-even-look-like-itself.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-10-05",
+      "status": "closed"
+    },
+    "number": 67
+  },
+  {
+    "slug": "discourse-migrate/introduce-yourself",
+    "title": "Introduce yourself",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-10-05",
+    "excerpt": "Hi!!! Here we could post a brief intro of ourselves. As much or as little as you like to but I ask everyone to pop in and say hello, let’s start to move…",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/introduce-yourself.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-10-05",
+      "status": "closed"
+    },
+    "number": 66
+  },
+  {
+    "slug": "farah-brunache/can-electronic-harassment-send-specific-dreams-while-you-sleep",
+    "title": "Can electronic harassment send specific dreams while you sleep?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-05",
+    "excerpt": "Yes. It only happened to me one time. They (gang stalkers) do it to my mother, perhaps every night, to dictate her actions during the day. She is religious.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/can-electronic-harassment-send-specific-dreams-while-you-sleep.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/Can-electronic-harassment-send-specific-dreams-whilst-you-sleep",
+      "originalDate": "2025-10-05",
+      "status": "erased",
+      "kind": "answer",
+      "question": "Can electronic harassment send specific dreams whilst you sleep?"
+    }
+  },
+  {
+    "slug": "farah-brunache/how-do-my-creepy-neighbors-who-have-hacked-my-cell-phone-change-what-t",
+    "title": "How do my creepy neighbors who have hacked my cell phone change what the articles are in Quora/what I see on…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-05",
+    "excerpt": "There are different ways. The most plausible:1. They are following you and asking you questions. This will influence the algorithm to push their gaslighting content to you.2.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/how-do-my-creepy-neighbors-who-have-hacked-my-cell-phone-change-what-t.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/How-do-my-creepy-neighbors-who-have-hacked-my-cell-phone-change-what-the-articles-are-in-Quorawhat-I-see-on-Quora-Sometimes-Quora-doesnt-even-look-like-itself",
+      "originalDate": "2025-10-05",
+      "status": "erased",
+      "kind": "answer",
+      "question": "How do my creepy neighbors who have hacked my cell phone change what the articles are in Quora/what I see on Quora? Sometimes Quora doesn't even look like itself."
+    }
   },
   {
     "slug": "farah-brunache/i-need-to-come-up-with-a-catchy-name",
@@ -21041,97 +21148,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/can-electronic-harassment-send-specific-dreams-while-you-sleep",
-    "title": "Can electronic harassment send specific dreams while you sleep?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-10-05",
-    "excerpt": "Yes. It only happened to me one time. They (gang stalkers) do it to my mother, perhaps every night, to dictate her actions during the day. She is religious.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/can-electronic-harassment-send-specific-dreams-while-you-sleep.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/Can-electronic-harassment-send-specific-dreams-whilst-you-sleep",
-      "originalDate": "2025-10-05",
-      "status": "erased",
-      "kind": "answer",
-      "question": "Can electronic harassment send specific dreams whilst you sleep?"
-    }
-  },
-  {
-    "slug": "farah-brunache/how-do-my-creepy-neighbors-who-have-hacked-my-cell-phone-change-what-t",
-    "title": "How do my creepy neighbors who have hacked my cell phone change what the articles are in Quora/what I see on…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-10-05",
-    "excerpt": "There are different ways. The most plausible:1. They are following you and asking you questions. This will influence the algorithm to push their gaslighting content to you.2.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/how-do-my-creepy-neighbors-who-have-hacked-my-cell-phone-change-what-t.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/How-do-my-creepy-neighbors-who-have-hacked-my-cell-phone-change-what-the-articles-are-in-Quorawhat-I-see-on-Quora-Sometimes-Quora-doesnt-even-look-like-itself",
-      "originalDate": "2025-10-05",
-      "status": "erased",
-      "kind": "answer",
-      "question": "How do my creepy neighbors who have hacked my cell phone change what the articles are in Quora/what I see on Quora? Sometimes Quora doesn't even look like itself."
-    }
-  },
-  {
-    "slug": "discourse-migrate/can-electronic-harassment-send-specific-dreams-whilst-you-sleep",
-    "title": "Can electronic harassment send specific dreams whilst you sleep?",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-10-05",
-    "excerpt": "Yes. It only happened to me one time. They (gang stalkers) do it to my mother, perhaps every night, to dictate her actions during the day. She is religious.…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/can-electronic-harassment-send-specific-dreams-whilst-you-sleep.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-10-05",
-      "status": "closed"
-    },
-    "number": 68
-  },
-  {
-    "slug": "discourse-migrate/how-do-my-creepy-neighbors-who-have-hacked-my-cell-phone-change-what-the-articles-are-in-quora-what-i-see-on-quora-sometimes-quora-doesnt-even-look-like-itself",
-    "title": "How do my creepy neighbors who have hacked my cell phone change what the articles are in Quora/what I see on Quora? Sometimes Quora doesn't even look like itself",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-10-05",
-    "excerpt": "There are different ways. The most plausible: They are following you and asking you questions. This will influence the algorithm to push their gaslighting…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/how-do-my-creepy-neighbors-who-have-hacked-my-cell-phone-change-what-the-articles-are-in-quora-what-i-see-on-quora-sometimes-quora-doesnt-even-look-like-itself.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-10-05",
-      "status": "closed"
-    },
-    "number": 67
-  },
-  {
-    "slug": "discourse-migrate/introduce-yourself",
-    "title": "Introduce yourself",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-10-05",
-    "excerpt": "Hi!!! Here we could post a brief intro of ourselves. As much or as little as you like to but I ask everyone to pop in and say hello, let’s start to move…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/introduce-yourself.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-10-05",
-      "status": "closed"
-    },
-    "number": 66
-  },
-  {
     "slug": "member of the day/welcome-new-users",
     "title": "Welcome new users!",
     "repo": "chargingthefuture/chargingthefuture",
@@ -21158,29 +21174,6 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 64
-  },
-  {
-    "slug": "farah-brunache/after-14-years-homeless-and-3-targeted-dovother-targeted-individuals-a",
-    "title": "After 14 years homeless and 3 Targeted, dovother Targeted Individuals also think that homeless people are…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-10-03",
-    "excerpt": "No. There is a significant number of homeless people who are gang stalkers. My guess - I have seen parents have their two-year-olds gang stalking adults.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/after-14-years-homeless-and-3-targeted-dovother-targeted-individuals-a.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/After-14-years-homeless-and-3-Targeted-dovother-Targeted-Individuals-also-think-that-homeless-people-are-more-likely-to-become-targeted",
-      "originalDate": "2025-10-03",
-      "status": "erased",
-      "kind": "answer",
-      "question": "After 14 years homeless and 3 Targeted, dovother Targeted Individuals also think that homeless people are more likely to become targeted?",
-      "sharedTo": [
-        "US-PSYOPS-TARGETED-INDIVIDUALS"
-      ]
-    }
   },
   {
     "slug": "discourse-migrate/are-gangstalkers-protected-by-real-investigators",
@@ -21438,6 +21431,29 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 49
   },
   {
+    "slug": "farah-brunache/after-14-years-homeless-and-3-targeted-dovother-targeted-individuals-a",
+    "title": "After 14 years homeless and 3 Targeted, dovother Targeted Individuals also think that homeless people are…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-03",
+    "excerpt": "No. There is a significant number of homeless people who are gang stalkers. My guess - I have seen parents have their two-year-olds gang stalking adults.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/after-14-years-homeless-and-3-targeted-dovother-targeted-individuals-a.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/After-14-years-homeless-and-3-Targeted-dovother-Targeted-Individuals-also-think-that-homeless-people-are-more-likely-to-become-targeted",
+      "originalDate": "2025-10-03",
+      "status": "erased",
+      "kind": "answer",
+      "question": "After 14 years homeless and 3 Targeted, dovother Targeted Individuals also think that homeless people are more likely to become targeted?",
+      "sharedTo": [
+        "US-PSYOPS-TARGETED-INDIVIDUALS"
+      ]
+    }
+  },
+  {
     "slug": "member of the day/list-view-of-all-the-tis-of-the-day",
     "title": "List view of all the TIs of the Day",
     "repo": "chargingthefuture/chargingthefuture",
@@ -21486,120 +21502,6 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 45
-  },
-  {
-    "slug": "farah-brunache/i-created-a-ti-of-the-day-list-view",
-    "title": "I created a “TI of the Day” list view within the forum: This way, if you want to get to…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-10-02",
-    "excerpt": "I created a “TI of the Day” list view within the forum: This way, if you want to get to know the TI community, e.g., what their top skill is, you can.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/i-created-a-ti-of-the-day-list-view.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/I-created-a-TI-of-the-Day-list-view-within-the-forum-https-chargingthefuture-discourse-group-tag-ti-of-the-day-Thi",
-      "originalDate": "2025-10-02",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/my-first-line-was-about-to-be-cough-cough",
-    "title": "My first line was about to be “cough, cough, that is what TSN is for” 🤦‍♀️.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-10-02",
-    "excerpt": "My first line was about to be “cough, cough, that is what TSN is for” 🤦‍♀️.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/my-first-line-was-about-to-be-cough-cough.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/My-first-line-was-about-to-be-cough-cough-that-is-what-TSN-is-for-I-am-clearly-desensitized-to-their-coughing",
-      "originalDate": "2025-10-02",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/please-provide-me-feedback-on-the-worlds-first-ever",
-    "title": "Please provide me feedback on the “world's first-ever TI economy!” You can leave a…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-10-02",
-    "excerpt": "Please provide me feedback on the “world's first-ever TI economy!” You can leave a comment on this thread, message me privately, or do an anonymous poll -",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/please-provide-me-feedback-on-the-worlds-first-ever.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Please-provide-me-feedback-on-the-worlds-first-ever-TI-economy-You-can-leave-a-comment-on-this-thread-message-me-p",
-      "originalDate": "2025-10-02",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/rally-for-tammy-walker",
-    "title": "Rally for… Tammy Walker!",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-10-02",
-    "excerpt": "Rally for… Tammy Walker! If you are a TI, you are NOT alone.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/rally-for-tammy-walker.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Rally-for-Tammy-Walker-https-www-quora-com-profile-Tammy-Walker-187-If-you-are-a-TI-you-are-NOT-alone-If-you",
-      "originalDate": "2025-10-02",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/rally-for-view-list-i-created-a-new-tag",
-    "title": "Rally for… view list I created a new tag in the forum: “Rally for…” Why?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-10-02",
-    "excerpt": "Rally for… view list I created a new tag in the forum: “Rally for…” Why?",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/rally-for-view-list-i-created-a-new-tag.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Rally-for-view-list-I-created-a-new-tag-in-the-forum-Rally-for-Why-I-get-it-we-are-all-TIs-and-the-attacks-are",
-      "originalDate": "2025-10-02",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/ti-of-the-day-ione-ione-is-a-counselor",
-    "title": "TI of the Day: Ione Ione is a counselor, and as quoted: 'I speak the truth as I know it.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-10-02",
-    "excerpt": "TI of the Day: Ione Ione is a counselor, and as quoted: 'I speak the truth as I know it.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/ti-of-the-day-ione-ione-is-a-counselor.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/TI-of-the-Day-Ione-https-www-quora-com-profile-Ione-40-Ione-is-a-counselor-and-as-quoted-I-speak-the-truth-a",
-      "originalDate": "2025-10-02",
-      "status": "erased",
-      "kind": "space-post"
-    }
   },
   {
     "slug": "farah-brunache/are-gangstalkers-protected-by-real-investigators",
@@ -21763,6 +21665,25 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/i-created-a-ti-of-the-day-list-view",
+    "title": "I created a “TI of the Day” list view within the forum: This way, if you want to get to…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-02",
+    "excerpt": "I created a “TI of the Day” list view within the forum: This way, if you want to get to know the TI community, e.g., what their top skill is, you can.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-created-a-ti-of-the-day-list-view.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-created-a-TI-of-the-Day-list-view-within-the-forum-https-chargingthefuture-discourse-group-tag-ti-of-the-day-Thi",
+      "originalDate": "2025-10-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/i-know-this-sounds-far-fetched-but-do-gang-stalkers-have-devices-that",
     "title": "I know this sounds far fetched but do gang stalkers have devices that can cause nightmares and bad dreams or…",
     "repo": "chargingthefuture/wiki-site",
@@ -21819,6 +21740,101 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "answer",
       "question": "Lots of people on here recommend praying. How can there be a god (with all due respect) when this evil gang stalking program goes unpunished?"
+    }
+  },
+  {
+    "slug": "farah-brunache/my-first-line-was-about-to-be-cough-cough",
+    "title": "My first line was about to be “cough, cough, that is what TSN is for” 🤦‍♀️.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-02",
+    "excerpt": "My first line was about to be “cough, cough, that is what TSN is for” 🤦‍♀️.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/my-first-line-was-about-to-be-cough-cough.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/My-first-line-was-about-to-be-cough-cough-that-is-what-TSN-is-for-I-am-clearly-desensitized-to-their-coughing",
+      "originalDate": "2025-10-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/please-provide-me-feedback-on-the-worlds-first-ever",
+    "title": "Please provide me feedback on the “world's first-ever TI economy!” You can leave a…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-02",
+    "excerpt": "Please provide me feedback on the “world's first-ever TI economy!” You can leave a comment on this thread, message me privately, or do an anonymous poll -",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/please-provide-me-feedback-on-the-worlds-first-ever.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Please-provide-me-feedback-on-the-worlds-first-ever-TI-economy-You-can-leave-a-comment-on-this-thread-message-me-p",
+      "originalDate": "2025-10-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/rally-for-tammy-walker",
+    "title": "Rally for… Tammy Walker!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-02",
+    "excerpt": "Rally for… Tammy Walker! If you are a TI, you are NOT alone.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/rally-for-tammy-walker.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Rally-for-Tammy-Walker-https-www-quora-com-profile-Tammy-Walker-187-If-you-are-a-TI-you-are-NOT-alone-If-you",
+      "originalDate": "2025-10-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/rally-for-view-list-i-created-a-new-tag",
+    "title": "Rally for… view list I created a new tag in the forum: “Rally for…” Why?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-02",
+    "excerpt": "Rally for… view list I created a new tag in the forum: “Rally for…” Why?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/rally-for-view-list-i-created-a-new-tag.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Rally-for-view-list-I-created-a-new-tag-in-the-forum-Rally-for-Why-I-get-it-we-are-all-TIs-and-the-attacks-are",
+      "originalDate": "2025-10-02",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/ti-of-the-day-ione-ione-is-a-counselor",
+    "title": "TI of the Day: Ione Ione is a counselor, and as quoted: 'I speak the truth as I know it.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-10-02",
+    "excerpt": "TI of the Day: Ione Ione is a counselor, and as quoted: 'I speak the truth as I know it.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/ti-of-the-day-ione-ione-is-a-counselor.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/TI-of-the-Day-Ione-https-www-quora-com-profile-Ione-40-Ione-is-a-counselor-and-as-quoted-I-speak-the-truth-a",
+      "originalDate": "2025-10-02",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -22075,6 +22091,23 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "discourse-migrate/off-grid-living-on-the-go",
+    "title": "Off grid living on the go",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-09-26",
+    "excerpt": "Off grid living on the go, tips thanks to Snave Seer Canada you can camp on Crown Land for free for 21 days per site. Similar rules apply in some US states.…",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/off-grid-living-on-the-go.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-09-26",
+      "status": "closed"
+    },
+    "number": 44
+  },
+  {
     "slug": "farah-brunache/any-tis-in-new-york-city-that-want-to",
     "title": "Any TIs in New York City that want to meet up next week?",
     "repo": "chargingthefuture/wiki-site",
@@ -22113,21 +22146,21 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "discourse-migrate/off-grid-living-on-the-go",
-    "title": "Off grid living on the go",
+    "slug": "discourse-migrate/farah-s-microblog-september-25-2025",
+    "title": "Farah’s MicroBlog September 25 2025",
     "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-09-26",
-    "excerpt": "Off grid living on the go, tips thanks to Snave Seer Canada you can camp on Crown Land for free for 21 days per site. Similar rules apply in some US states.…",
+    "date": "2025-09-25",
+    "excerpt": "Welp, there is a first time for everything. Today for the first time in my life I was permanently banned from a location. Everyday I go to a park and watch…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
-    "path": "archive/discourse/off-grid-living-on-the-go.md",
+    "path": "archive/discourse/farah-s-microblog-september-25-2025.md",
     "archive": {
       "source": "discourse",
       "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-09-26",
+      "originalDate": "2025-09-25",
       "status": "closed"
     },
-    "number": 44
+    "number": 43
   },
   {
     "slug": "farah-brunache/honey-pots-and-platonic-honey-pots-my-responses-ended",
@@ -22225,23 +22258,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "discourse-migrate/farah-s-microblog-september-25-2025",
-    "title": "Farah’s MicroBlog September 25 2025",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-09-25",
-    "excerpt": "Welp, there is a first time for everything. Today for the first time in my life I was permanently banned from a location. Everyday I go to a park and watch…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/farah-s-microblog-september-25-2025.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-09-25",
-      "status": "closed"
-    },
-    "number": 43
-  },
-  {
     "slug": "member of the day/member-of-the-day-brad-rice",
     "title": "Member of the Day: Brad Rice",
     "repo": "chargingthefuture/chargingthefuture",
@@ -22325,6 +22341,40 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 40
   },
   {
+    "slug": "discourse-migrate/any-ti-hvac-techs",
+    "title": "Any TI HVAC techs?",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-09-23",
+    "excerpt": "I am creating a list of TI car mechanics, from what I know HVAC is high demand. A list of TI HVAC techs we can call on might be useful. Anyone else agree?",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/any-ti-hvac-techs.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-09-23",
+      "status": "closed"
+    },
+    "number": 39
+  },
+  {
+    "slug": "discourse-migrate/do-not-obsess-about-what-rumor-they-spread",
+    "title": "Do not obsess about what rumor they spread",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-09-23",
+    "excerpt": "Do not obsess about what rumor gang stalkers spread. The reality is they will spread them even if you did not say or do anything. They say these things about…",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/do-not-obsess-about-what-rumor-they-spread.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-09-23",
+      "status": "closed"
+    },
+    "number": 38
+  },
+  {
     "slug": "farah-brunache/i-am-creating-a-list-of-ti-car-mechanics",
     "title": "I am creating a list of TI car mechanics, from what I know HVAC is high demand.",
     "repo": "chargingthefuture/wiki-site",
@@ -22401,78 +22451,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "discourse-migrate/any-ti-hvac-techs",
-    "title": "Any TI HVAC techs?",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-09-23",
-    "excerpt": "I am creating a list of TI car mechanics, from what I know HVAC is high demand. A list of TI HVAC techs we can call on might be useful. Anyone else agree?",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/any-ti-hvac-techs.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-09-23",
-      "status": "closed"
-    },
-    "number": 39
-  },
-  {
-    "slug": "discourse-migrate/do-not-obsess-about-what-rumor-they-spread",
-    "title": "Do not obsess about what rumor they spread",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-09-23",
-    "excerpt": "Do not obsess about what rumor gang stalkers spread. The reality is they will spread them even if you did not say or do anything. They say these things about…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/do-not-obsess-about-what-rumor-they-spread.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-09-23",
-      "status": "closed"
-    },
-    "number": 38
-  },
-  {
-    "slug": "farah-brunache/so-the-word-cancer-has-been-brought-up-here-and-there-throughout-my-ta-3",
-    "title": "So the word cancer has been brought up here and there throughout my targeting Whether it be through media or…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-09-22",
-    "excerpt": "You sound like a perp. Not saying anything wrong with being religious. But gang stalking has nothing to do with religion.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/so-the-word-cancer-has-been-brought-up-here-and-there-throughout-my-ta-3.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/So-the-word-cancer-has-been-brought-up-here-and-there-throughout-my-targeting-Whether-it-be-through-media-or-by-the-mouth-of-a-few-stalkers-I-know-Anyone-experienced-this/answer/Holly-3244",
-      "originalDate": "2025-09-22",
-      "status": "erased",
-      "kind": "answer-comment"
-    }
-  },
-  {
-    "slug": "farah-brunache/this-one-is-a-heads-up-to-all-the-creators-of-pages-dedicated-to-expos",
-    "title": "This one is a heads up to all the creators of pages dedicated to exposing gangstalking and to eliminating it…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-09-22",
-    "excerpt": "Quora straight up last week deleted ALL my posts but one question that was never answered. Then banned my account. Welp now I know I am telling the “truth” or at the very least helping TIs.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/this-one-is-a-heads-up-to-all-the-creators-of-pages-dedicated-to-expos.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://allthingsgangstalked.quora.com/This-one-is-a-heads-up-to-all-the-creators-of-pages-dedicated-to-exposing-gangstalking-and-to-eliminating-it-If-you-ha",
-      "originalDate": "2025-09-22",
-      "status": "erased",
-      "kind": "post-comment"
-    }
-  },
-  {
     "slug": "discourse-migrate/always-have-your-camera-ready",
     "title": "Always have your camera ready",
     "repo": "chargingthefuture/chargingthefuture",
@@ -22524,23 +22502,178 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 35
   },
   {
-    "slug": "farah-brunache/tis-already-know-to-always-have-a-camera-on",
-    "title": "TIs already know to always have a camera on you.",
+    "slug": "farah-brunache/so-the-word-cancer-has-been-brought-up-here-and-there-throughout-my-ta-3",
+    "title": "So the word cancer has been brought up here and there throughout my targeting Whether it be through media or…",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2025-09-21",
-    "excerpt": "TIs already know to always have a camera on you. As every day they will try some provocation for their slander campaign.",
+    "date": "2025-09-22",
+    "excerpt": "You sound like a perp. Not saying anything wrong with being religious. But gang stalking has nothing to do with religion.",
     "category": "Community",
     "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/tis-already-know-to-always-have-a-camera-on.md",
+    "path": "archive/quora/farah-brunache/so-the-word-cancer-has-been-brought-up-here-and-there-throughout-my-ta-3.md",
     "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/TIs-already-know-to-always-have-a-camera-on-you-As-every-day-they-will-try-some-provocation-for-their-slander-campaign",
-      "originalDate": "2025-09-21",
+      "originalUrl": "https://www.quora.com/So-the-word-cancer-has-been-brought-up-here-and-there-throughout-my-targeting-Whether-it-be-through-media-or-by-the-mouth-of-a-few-stalkers-I-know-Anyone-experienced-this/answer/Holly-3244",
+      "originalDate": "2025-09-22",
       "status": "erased",
-      "kind": "space-post"
+      "kind": "answer-comment"
     }
+  },
+  {
+    "slug": "farah-brunache/this-one-is-a-heads-up-to-all-the-creators-of-pages-dedicated-to-expos",
+    "title": "This one is a heads up to all the creators of pages dedicated to exposing gangstalking and to eliminating it…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-22",
+    "excerpt": "Quora straight up last week deleted ALL my posts but one question that was never answered. Then banned my account. Welp now I know I am telling the “truth” or at the very least helping TIs.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/this-one-is-a-heads-up-to-all-the-creators-of-pages-dedicated-to-expos.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://allthingsgangstalked.quora.com/This-one-is-a-heads-up-to-all-the-creators-of-pages-dedicated-to-exposing-gangstalking-and-to-eliminating-it-If-you-ha",
+      "originalDate": "2025-09-22",
+      "status": "erased",
+      "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "discourse-migrate/do-gang-stalkers-move-up-in-rank",
+    "title": "Do gang stalkers move up in rank?",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-09-21",
+    "excerpt": "Yes. It is organized crime. And all organizations have hierarchy.",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/do-gang-stalkers-move-up-in-rank.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-09-21",
+      "status": "closed"
+    },
+    "number": 34
+  },
+  {
+    "slug": "discourse-migrate/farah-s-micro-blog-september-20-2025",
+    "title": "Farah’s Micro Blog September 20 2025",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-09-21",
+    "excerpt": "I made a post yesterday about the games they plan. And so at 4 am this morning two police officers came with their brighten and compliments on my bag.",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/farah-s-micro-blog-september-20-2025.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-09-21",
+      "status": "closed"
+    },
+    "number": 33
+  },
+  {
+    "slug": "discourse-migrate/has-anyone-had-a-real-attempt-at-their-life-by-gang-stalkers",
+    "title": "Has anyone had a real attempt at their life by gang stalkers?",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-09-21",
+    "excerpt": "Yes, multiple times.",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/has-anyone-had-a-real-attempt-at-their-life-by-gang-stalkers.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-09-21",
+      "status": "closed"
+    },
+    "number": 32
+  },
+  {
+    "slug": "discourse-migrate/is-there-a-good-form-of-gang-stalking",
+    "title": "Is there a good form of gang stalking?",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-09-21",
+    "excerpt": "Gang stalking = group vigilantism. Which is like asking if there is a good form of raping someone. Or rather, “is there a good form of sexual assault [forced…",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/is-there-a-good-form-of-gang-stalking.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-09-21",
+      "status": "closed"
+    },
+    "number": 31
+  },
+  {
+    "slug": "discourse-migrate/ive-been-gangstalked-since-2016-today-i-no-going-to-keep-fighting-anymore-is-anyone-keeping-a-list-of-those-lost-to-this",
+    "title": "I've been gangstalked since 2016. Today, I no going to keep fighting anymore. Is anyone keeping a list of those lost to this?",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-09-21",
+    "excerpt": "Original post on Quora: Aug 16, 2025 09:17 AM PDT This question appears to be from two years ago. But relevant now. As a TI, it is important to attempt,…",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/ive-been-gangstalked-since-2016-today-i-no-going-to-keep-fighting-anymore-is-anyone-keeping-a-list-of-those-lost-to-this.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-09-21",
+      "status": "closed"
+    },
+    "number": 30
+  },
+  {
+    "slug": "discourse-migrate/privacy-policy",
+    "title": "Privacy Policy",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-09-21",
+    "excerpt": "What information do we collect? We collect information from you when you register on our site and gather data when you participate in the forum by reading,…",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/privacy-policy.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-09-21",
+      "status": "closed"
+    },
+    "number": 29
+  },
+  {
+    "slug": "discourse-migrate/terms-of-service",
+    "title": "Terms of Service",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-09-21",
+    "excerpt": "Change Me Forum Admin, please find below an example starting template for a privacy policy that you should customize to meet your site’s needs. These terms…",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/terms-of-service.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-09-21",
+      "status": "closed"
+    },
+    "number": 28
+  },
+  {
+    "slug": "discourse-migrate/what-psychological-profiles-do-gang-stalking-handlers-target",
+    "title": "What psychological profiles do gang stalking handlers target?",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-09-21",
+    "excerpt": "It appears not to be relevant. Each person is controlled in some way. For the handlers, it is about finding out how to control you based on psychological…",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/what-psychological-profiles-do-gang-stalking-handlers-target.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-09-21",
+      "status": "closed"
+    },
+    "number": 27
   },
   {
     "slug": "farah-brunache/do-gang-stalkers-move-up-in-rank",
@@ -22680,6 +22813,25 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/tis-already-know-to-always-have-a-camera-on",
+    "title": "TIs already know to always have a camera on you.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-21",
+    "excerpt": "TIs already know to always have a camera on you. As every day they will try some provocation for their slander campaign.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/tis-already-know-to-always-have-a-camera-on.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/TIs-already-know-to-always-have-a-camera-on-you-As-every-day-they-will-try-some-provocation-for-their-slander-campaign",
+      "originalDate": "2025-09-21",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/what-psychological-profiles-do-gang-stalking-handlers-target",
     "title": "What psychological profiles do gang stalking handlers target?",
     "repo": "chargingthefuture/wiki-site",
@@ -22700,140 +22852,157 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "discourse-migrate/do-gang-stalkers-move-up-in-rank",
-    "title": "Do gang stalkers move up in rank?",
+    "slug": "discourse-migrate/am-i-getting-gangstalked-why-do-i-hear-a-motor-passing-by-whenever-i-finish-watching-a-show-but-when-i-always-focus-on-the-sound-it-doesnt-come-out",
+    "title": "Am I getting gangstalked? Why do I hear a motor passing by whenever I finish watching a show, but when I always focus on the sound it doesn't come out?",
     "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-09-21",
-    "excerpt": "Yes. It is organized crime. And all organizations have hierarchy.",
+    "date": "2025-09-20",
+    "excerpt": "Not necessarily. Multiple people are being gang stalked in an area. Therefore, it could be someone else. Or multiple others who are the TIs. They will…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
-    "path": "archive/discourse/do-gang-stalkers-move-up-in-rank.md",
+    "path": "archive/discourse/am-i-getting-gangstalked-why-do-i-hear-a-motor-passing-by-whenever-i-finish-watching-a-show-but-when-i-always-focus-on-the-sound-it-doesnt-come-out.md",
     "archive": {
       "source": "discourse",
       "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-09-21",
+      "originalDate": "2025-09-20",
       "status": "closed"
     },
-    "number": 34
+    "number": 26
   },
   {
-    "slug": "discourse-migrate/farah-s-micro-blog-september-20-2025",
-    "title": "Farah’s Micro Blog September 20 2025",
+    "slug": "discourse-migrate/gang-stalking-only-has-malicious-intent",
+    "title": "Gang stalking only has malicious intent",
     "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-09-21",
-    "excerpt": "I made a post yesterday about the games they plan. And so at 4 am this morning two police officers came with their brighten and compliments on my bag.",
+    "date": "2025-09-20",
+    "excerpt": "How can you tell if someone involved in gang stalking is doing it out of desperation or if they genuinely have malicious intent? Gang stalking is a choice.…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
-    "path": "archive/discourse/farah-s-micro-blog-september-20-2025.md",
+    "path": "archive/discourse/gang-stalking-only-has-malicious-intent.md",
     "archive": {
       "source": "discourse",
       "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-09-21",
+      "originalDate": "2025-09-20",
       "status": "closed"
     },
-    "number": 33
+    "number": 25
   },
   {
-    "slug": "discourse-migrate/has-anyone-had-a-real-attempt-at-their-life-by-gang-stalkers",
-    "title": "Has anyone had a real attempt at their life by gang stalkers?",
+    "slug": "discourse-migrate/how-can-we-get-the-most-out-of-our-lives-being-a-gang-stalking-victim",
+    "title": "How can we get the most out of our lives being a gang stalking victim?",
     "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-09-21",
-    "excerpt": "Yes, multiple times.",
+    "date": "2025-09-20",
+    "excerpt": "How can we get the most out of our lives being a gang stalking victim? Accept that gang stalking won’t end anytime soon. And begin networking with other TIs.…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
-    "path": "archive/discourse/has-anyone-had-a-real-attempt-at-their-life-by-gang-stalkers.md",
+    "path": "archive/discourse/how-can-we-get-the-most-out-of-our-lives-being-a-gang-stalking-victim.md",
     "archive": {
       "source": "discourse",
       "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-09-21",
+      "originalDate": "2025-09-20",
       "status": "closed"
     },
-    "number": 32
+    "number": 24
   },
   {
-    "slug": "discourse-migrate/is-there-a-good-form-of-gang-stalking",
-    "title": "Is there a good form of gang stalking?",
+    "slug": "discourse-migrate/if-you-think-youve-been-targeted-or-gangstalked-at-work-what-steps-did-you-take-to-protect-yourself-and-secure-your-employment",
+    "title": "If you think you've been targeted or \"gangstalked\" at work, what steps did you take to protect yourself and secure your employment?",
     "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-09-21",
-    "excerpt": "Gang stalking = group vigilantism. Which is like asking if there is a good form of raping someone. Or rather, “is there a good form of sexual assault [forced…",
+    "date": "2025-09-20",
+    "excerpt": "If possible secretly record at the very least audio. They will workplace mob you. And them knowing they are being recorded will reduce the harassment…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
-    "path": "archive/discourse/is-there-a-good-form-of-gang-stalking.md",
+    "path": "archive/discourse/if-you-think-youve-been-targeted-or-gangstalked-at-work-what-steps-did-you-take-to-protect-yourself-and-secure-your-employment.md",
     "archive": {
       "source": "discourse",
       "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-09-21",
+      "originalDate": "2025-09-20",
       "status": "closed"
     },
-    "number": 31
+    "number": 23
   },
   {
-    "slug": "discourse-migrate/ive-been-gangstalked-since-2016-today-i-no-going-to-keep-fighting-anymore-is-anyone-keeping-a-list-of-those-lost-to-this",
-    "title": "I've been gangstalked since 2016. Today, I no going to keep fighting anymore. Is anyone keeping a list of those lost to this?",
+    "slug": "discourse-migrate/what-are-some-common-misconceptions-about-gang-stalking-and-why-do-people-often-associate-it-with-spiritual-battles",
+    "title": "What are some common misconceptions about gang stalking, and why do people often associate it with spiritual battles?",
     "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-09-21",
-    "excerpt": "Original post on Quora: Aug 16, 2025 09:17 AM PDT This question appears to be from two years ago. But relevant now. As a TI, it is important to attempt,…",
+    "date": "2025-09-20",
+    "excerpt": "Gang stalkers propagate it by telling TIs this. Or maybe a TI first said it and the gstalkers decided to spread the lie themselves. As the lie was a great way…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
-    "path": "archive/discourse/ive-been-gangstalked-since-2016-today-i-no-going-to-keep-fighting-anymore-is-anyone-keeping-a-list-of-those-lost-to-this.md",
+    "path": "archive/discourse/what-are-some-common-misconceptions-about-gang-stalking-and-why-do-people-often-associate-it-with-spiritual-battles.md",
     "archive": {
       "source": "discourse",
       "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-09-21",
+      "originalDate": "2025-09-20",
       "status": "closed"
     },
-    "number": 30
+    "number": 22
   },
   {
-    "slug": "discourse-migrate/privacy-policy",
-    "title": "Privacy Policy",
+    "slug": "discourse-migrate/what-measures-can-the-government-take-to-prevent-gang-stalking",
+    "title": "What measures can the government take to prevent gang stalking?",
     "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-09-21",
-    "excerpt": "What information do we collect? We collect information from you when you register on our site and gather data when you participate in the forum by reading,…",
+    "date": "2025-09-20",
+    "excerpt": "What measures can the government take to prevent gang stalking? Did Nelson Mandela say it best? “For to be free is not merely to cast off one’s chains,…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
-    "path": "archive/discourse/privacy-policy.md",
+    "path": "archive/discourse/what-measures-can-the-government-take-to-prevent-gang-stalking.md",
     "archive": {
       "source": "discourse",
       "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-09-21",
+      "originalDate": "2025-09-20",
       "status": "closed"
     },
-    "number": 29
+    "number": 21
   },
   {
-    "slug": "discourse-migrate/terms-of-service",
-    "title": "Terms of Service",
+    "slug": "discourse-migrate/whats-one-practical-skill-or-insight-youve-learned-from-being-gang-stalked-that-could-help-others-protect-themselves",
+    "title": "What's one practical skill or insight you've learned from being gang stalked that could help others protect themselves?",
     "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-09-21",
-    "excerpt": "Change Me Forum Admin, please find below an example starting template for a privacy policy that you should customize to meet your site’s needs. These terms…",
+    "date": "2025-09-20",
+    "excerpt": "Other TIs have already said it. But never trust a gang stalker, whether they are nice or mean. Nothing they do is to help; it is always a setup for the next…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
-    "path": "archive/discourse/terms-of-service.md",
+    "path": "archive/discourse/whats-one-practical-skill-or-insight-youve-learned-from-being-gang-stalked-that-could-help-others-protect-themselves.md",
     "archive": {
       "source": "discourse",
       "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-09-21",
+      "originalDate": "2025-09-20",
       "status": "closed"
     },
-    "number": 28
+    "number": 20
   },
   {
-    "slug": "discourse-migrate/what-psychological-profiles-do-gang-stalking-handlers-target",
-    "title": "What psychological profiles do gang stalking handlers target?",
+    "slug": "discourse-migrate/whats-the-one-thing-with-gang-stalking-that-helped-you-the-most-when-you-found-out",
+    "title": "What's the one thing with gang stalking that helped you the most when you found out?",
     "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-09-21",
-    "excerpt": "It appears not to be relevant. Each person is controlled in some way. For the handlers, it is about finding out how to control you based on psychological…",
+    "date": "2025-09-20",
+    "excerpt": "What’s the one thing with gang stalking that helped you the most when you found out? Meeting in person and building relationships with other TIs. I met a TI…",
     "category": "Discourse Community Legacy Post",
     "collection": "archive/discourse",
-    "path": "archive/discourse/what-psychological-profiles-do-gang-stalking-handlers-target.md",
+    "path": "archive/discourse/whats-the-one-thing-with-gang-stalking-that-helped-you-the-most-when-you-found-out.md",
     "archive": {
       "source": "discourse",
       "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-09-21",
+      "originalDate": "2025-09-20",
       "status": "closed"
     },
-    "number": 27
+    "number": 19
+  },
+  {
+    "slug": "discourse-migrate/why-do-targeted-individuals-often-report-financial-sabotage-and-what-can-be-done-to-safeguard-against-such-actions",
+    "title": "Why do targeted individuals often report financial sabotage, and what can be done to safeguard against such actions?",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2025-09-20",
+    "excerpt": "Nothing at this point. They have bankrupted every one of us. They mob every income stream. And any money you have will be spent defending yourself or…",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/why-do-targeted-individuals-often-report-financial-sabotage-and-what-can-be-done-to-safeguard-against-such-actions.md",
+    "archive": {
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
+      "originalDate": "2025-09-20",
+      "status": "closed"
+    },
+    "number": 18
   },
   {
     "slug": "farah-brunache/am-i-getting-gangstalked-why-do-i-hear-a-motor-passing-by-whenever-i-f",
@@ -23149,159 +23318,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "discourse-migrate/am-i-getting-gangstalked-why-do-i-hear-a-motor-passing-by-whenever-i-finish-watching-a-show-but-when-i-always-focus-on-the-sound-it-doesnt-come-out",
-    "title": "Am I getting gangstalked? Why do I hear a motor passing by whenever I finish watching a show, but when I always focus on the sound it doesn't come out?",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-09-20",
-    "excerpt": "Not necessarily. Multiple people are being gang stalked in an area. Therefore, it could be someone else. Or multiple others who are the TIs. They will…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/am-i-getting-gangstalked-why-do-i-hear-a-motor-passing-by-whenever-i-finish-watching-a-show-but-when-i-always-focus-on-the-sound-it-doesnt-come-out.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-09-20",
-      "status": "closed"
-    },
-    "number": 26
-  },
-  {
-    "slug": "discourse-migrate/gang-stalking-only-has-malicious-intent",
-    "title": "Gang stalking only has malicious intent",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-09-20",
-    "excerpt": "How can you tell if someone involved in gang stalking is doing it out of desperation or if they genuinely have malicious intent? Gang stalking is a choice.…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/gang-stalking-only-has-malicious-intent.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-09-20",
-      "status": "closed"
-    },
-    "number": 25
-  },
-  {
-    "slug": "discourse-migrate/how-can-we-get-the-most-out-of-our-lives-being-a-gang-stalking-victim",
-    "title": "How can we get the most out of our lives being a gang stalking victim?",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-09-20",
-    "excerpt": "How can we get the most out of our lives being a gang stalking victim? Accept that gang stalking won’t end anytime soon. And begin networking with other TIs.…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/how-can-we-get-the-most-out-of-our-lives-being-a-gang-stalking-victim.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-09-20",
-      "status": "closed"
-    },
-    "number": 24
-  },
-  {
-    "slug": "discourse-migrate/if-you-think-youve-been-targeted-or-gangstalked-at-work-what-steps-did-you-take-to-protect-yourself-and-secure-your-employment",
-    "title": "If you think you've been targeted or \"gangstalked\" at work, what steps did you take to protect yourself and secure your employment?",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-09-20",
-    "excerpt": "If possible secretly record at the very least audio. They will workplace mob you. And them knowing they are being recorded will reduce the harassment…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/if-you-think-youve-been-targeted-or-gangstalked-at-work-what-steps-did-you-take-to-protect-yourself-and-secure-your-employment.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-09-20",
-      "status": "closed"
-    },
-    "number": 23
-  },
-  {
-    "slug": "discourse-migrate/what-are-some-common-misconceptions-about-gang-stalking-and-why-do-people-often-associate-it-with-spiritual-battles",
-    "title": "What are some common misconceptions about gang stalking, and why do people often associate it with spiritual battles?",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-09-20",
-    "excerpt": "Gang stalkers propagate it by telling TIs this. Or maybe a TI first said it and the gstalkers decided to spread the lie themselves. As the lie was a great way…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/what-are-some-common-misconceptions-about-gang-stalking-and-why-do-people-often-associate-it-with-spiritual-battles.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-09-20",
-      "status": "closed"
-    },
-    "number": 22
-  },
-  {
-    "slug": "discourse-migrate/what-measures-can-the-government-take-to-prevent-gang-stalking",
-    "title": "What measures can the government take to prevent gang stalking?",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-09-20",
-    "excerpt": "What measures can the government take to prevent gang stalking? Did Nelson Mandela say it best? “For to be free is not merely to cast off one’s chains,…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/what-measures-can-the-government-take-to-prevent-gang-stalking.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-09-20",
-      "status": "closed"
-    },
-    "number": 21
-  },
-  {
-    "slug": "discourse-migrate/whats-one-practical-skill-or-insight-youve-learned-from-being-gang-stalked-that-could-help-others-protect-themselves",
-    "title": "What's one practical skill or insight you've learned from being gang stalked that could help others protect themselves?",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-09-20",
-    "excerpt": "Other TIs have already said it. But never trust a gang stalker, whether they are nice or mean. Nothing they do is to help; it is always a setup for the next…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/whats-one-practical-skill-or-insight-youve-learned-from-being-gang-stalked-that-could-help-others-protect-themselves.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-09-20",
-      "status": "closed"
-    },
-    "number": 20
-  },
-  {
-    "slug": "discourse-migrate/whats-the-one-thing-with-gang-stalking-that-helped-you-the-most-when-you-found-out",
-    "title": "What's the one thing with gang stalking that helped you the most when you found out?",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-09-20",
-    "excerpt": "What’s the one thing with gang stalking that helped you the most when you found out? Meeting in person and building relationships with other TIs. I met a TI…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/whats-the-one-thing-with-gang-stalking-that-helped-you-the-most-when-you-found-out.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-09-20",
-      "status": "closed"
-    },
-    "number": 19
-  },
-  {
-    "slug": "discourse-migrate/why-do-targeted-individuals-often-report-financial-sabotage-and-what-can-be-done-to-safeguard-against-such-actions",
-    "title": "Why do targeted individuals often report financial sabotage, and what can be done to safeguard against such actions?",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2025-09-20",
-    "excerpt": "Nothing at this point. They have bankrupted every one of us. They mob every income stream. And any money you have will be spent defending yourself or…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/why-do-targeted-individuals-often-report-financial-sabotage-and-what-can-be-done-to-safeguard-against-such-actions.md",
-    "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
-      "originalDate": "2025-09-20",
-      "status": "closed"
-    },
-    "number": 18
-  },
-  {
     "slug": "Specterati's-most-common-skits",
     "title": "A post for each gang stalker game",
     "repo": "chargingthefuture/chargingthefuture",
@@ -23334,122 +23350,6 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "closed"
     },
     "number": 16
-  },
-  {
-    "slug": "farah-brunache/circular-economy-activity-is-not-allowed-on-quora-so",
-    "title": "Circular economy activity is not allowed on Quora, so I moved the “Craigslist” feature…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-09-19",
-    "excerpt": "Circular economy activity is not allowed on Quora, so I moved the “Craigslist” feature here: If you need an invite, let me know.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/circular-economy-activity-is-not-allowed-on-quora-so.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Circular-economy-activity-is-not-allowed-on-Quora-so-I-moved-the-Craigslist-feature-here-https-chargingthefuture",
-      "originalDate": "2025-09-19",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/hello-everyone",
-    "title": "Hello everyone!",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-09-19",
-    "excerpt": "Hello everyone! SupportMatch was released on September 14th, 2025, and we have not reached 25 users yet.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/hello-everyone.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Hello-everyone-SupportMatch-was-released-on-September-14th-2025-and-we-have-not-reached-25-users-yet-Which-is-by-no",
-      "originalDate": "2025-09-19",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/tis-looking-for-work-consider-healthy-volunteer-clinical-trials",
-    "title": "TIs looking for work - consider Healthy Volunteer Clinical Trials and get paid up to $45k.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-09-19",
-    "excerpt": "TIs looking for work - consider Healthy Volunteer Clinical Trials and get paid up to $45k.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/tis-looking-for-work-consider-healthy-volunteer-clinical-trials.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/TIs-looking-for-work-consider-Healthy-Volunteer-Clinical-Trials-and-get-paid-up-to-45k-For-example-https-www-ico",
-      "originalDate": "2025-09-19",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/are-there-any-targeted-individuals-in-oakland-ca-that-are-currently-be",
-    "title": "Are there any targeted individuals in Oakland CA that are currently being stalked and harassed",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-09-19",
-    "excerpt": "For the love of everything no one go to California! It has to be the number one gang stalking place on earth.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/are-there-any-targeted-individuals-in-oakland-ca-that-are-currently-be.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://uspsyopstargetedindividuals.quora.com/Are-there-any-targeted-individuals-in-Oakland-CA-that-are-currently-being-stalked-and-harassed-1",
-      "originalDate": "2025-09-19",
-      "status": "erased",
-      "kind": "answer-comment"
-    }
-  },
-  {
-    "slug": "farah-brunache/hello-i-need-some-support-thru-this-gangstalking-nonsence-anybody-wann",
-    "title": "Hello I need some support thru this gangstalking nonsence Anybody wanna chat",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-09-19",
-    "excerpt": "I already responded I am available. But the gstalkers banned my account and deleted all my content.Check the link in my bio to reach me in case it happens again.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/hello-i-need-some-support-thru-this-gangstalking-nonsence-anybody-wann.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/profile/Cole-Greene-24/Hello-I-need-some-support-thru-this-gangstalking-nonsence-Anybody-wanna-chat",
-      "originalDate": "2025-09-19",
-      "status": "erased",
-      "kind": "post-comment"
-    }
-  },
-  {
-    "slug": "farah-brunache/where-do-gang-stalking-victims-run-for-refuge",
-    "title": "Where do gang stalking victims run for refuge?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-09-19",
-    "excerpt": "It appears there are a few places to go in the world, according to a former gang stalker:https://qr.ae/pCGTQ1One option is that TIs form their own gated communities.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/where-do-gang-stalking-victims-run-for-refuge.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/Where-do-gang-stalking-victims-run-for-refuge",
-      "originalDate": "2025-09-19",
-      "status": "erased",
-      "kind": "space-submission",
-      "space": "All Things Gangstalked",
-      "question": "Where do gang stalking victims run for refuge?"
-    }
   },
   {
     "slug": "discourse-migrate/about-the-craigslist-category",
@@ -23588,6 +23488,122 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 8
   },
   {
+    "slug": "farah-brunache/are-there-any-targeted-individuals-in-oakland-ca-that-are-currently-be",
+    "title": "Are there any targeted individuals in Oakland CA that are currently being stalked and harassed",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-19",
+    "excerpt": "For the love of everything no one go to California! It has to be the number one gang stalking place on earth.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/are-there-any-targeted-individuals-in-oakland-ca-that-are-currently-be.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://uspsyopstargetedindividuals.quora.com/Are-there-any-targeted-individuals-in-Oakland-CA-that-are-currently-being-stalked-and-harassed-1",
+      "originalDate": "2025-09-19",
+      "status": "erased",
+      "kind": "answer-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/circular-economy-activity-is-not-allowed-on-quora-so",
+    "title": "Circular economy activity is not allowed on Quora, so I moved the “Craigslist” feature…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-19",
+    "excerpt": "Circular economy activity is not allowed on Quora, so I moved the “Craigslist” feature here: If you need an invite, let me know.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/circular-economy-activity-is-not-allowed-on-quora-so.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Circular-economy-activity-is-not-allowed-on-Quora-so-I-moved-the-Craigslist-feature-here-https-chargingthefuture",
+      "originalDate": "2025-09-19",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/hello-everyone",
+    "title": "Hello everyone!",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-19",
+    "excerpt": "Hello everyone! SupportMatch was released on September 14th, 2025, and we have not reached 25 users yet.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/hello-everyone.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Hello-everyone-SupportMatch-was-released-on-September-14th-2025-and-we-have-not-reached-25-users-yet-Which-is-by-no",
+      "originalDate": "2025-09-19",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/hello-i-need-some-support-thru-this-gangstalking-nonsence-anybody-wann",
+    "title": "Hello I need some support thru this gangstalking nonsence Anybody wanna chat",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-19",
+    "excerpt": "I already responded I am available. But the gstalkers banned my account and deleted all my content.Check the link in my bio to reach me in case it happens again.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/hello-i-need-some-support-thru-this-gangstalking-nonsence-anybody-wann.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/profile/Cole-Greene-24/Hello-I-need-some-support-thru-this-gangstalking-nonsence-Anybody-wanna-chat",
+      "originalDate": "2025-09-19",
+      "status": "erased",
+      "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/tis-looking-for-work-consider-healthy-volunteer-clinical-trials",
+    "title": "TIs looking for work - consider Healthy Volunteer Clinical Trials and get paid up to $45k.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-19",
+    "excerpt": "TIs looking for work - consider Healthy Volunteer Clinical Trials and get paid up to $45k.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/tis-looking-for-work-consider-healthy-volunteer-clinical-trials.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/TIs-looking-for-work-consider-Healthy-Volunteer-Clinical-Trials-and-get-paid-up-to-45k-For-example-https-www-ico",
+      "originalDate": "2025-09-19",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/where-do-gang-stalking-victims-run-for-refuge",
+    "title": "Where do gang stalking victims run for refuge?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-19",
+    "excerpt": "It appears there are a few places to go in the world, according to a former gang stalker:https://qr.ae/pCGTQ1One option is that TIs form their own gated communities.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/where-do-gang-stalking-victims-run-for-refuge.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/Where-do-gang-stalking-victims-run-for-refuge",
+      "originalDate": "2025-09-19",
+      "status": "erased",
+      "kind": "space-submission",
+      "space": "All Things Gangstalked",
+      "question": "Where do gang stalking victims run for refuge?"
+    }
+  },
+  {
     "slug": "Overview-of-clinical-trials",
     "title": "General Rundown of Clinical Trials",
     "repo": "chargingthefuture/chargingthefuture",
@@ -23673,23 +23689,21 @@ export const ARTICLES: ArticleMeta[] = [
     "number": 3
   },
   {
-    "slug": "farah-brunache/ti-skills-network-community-update-3-september-18-2025",
-    "title": "TI Skills Network Community Update #3 - September 18, 2025 Check the link in my bio.",
-    "repo": "chargingthefuture/wiki-site",
+    "slug": "discourse-migrate/welcome-to-your-14-day-starter-hosting-trial",
+    "title": "Welcome to your 14 day Starter hosting trial!",
+    "repo": "chargingthefuture/chargingthefuture",
     "date": "2025-09-18",
-    "excerpt": "TI Skills Network Community Update #3 - September 18, 2025 Check the link in my bio.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/ti-skills-network-community-update-3-september-18-2025.md",
-    "listed": false,
+    "excerpt": "Hello and welcome to your 14 day free trial of Discourse! As a Starter hosted customer, you’ll get: Unlimited members 2 admins & moderators 10k…",
+    "category": "Discourse Community Legacy Post",
+    "collection": "archive/discourse",
+    "path": "archive/discourse/welcome-to-your-14-day-starter-hosting-trial.md",
     "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/TI-Skills-Network-Community-Update-3-September-18-2025-Check-the-link-in-my-bio-I-have-a-dedicated-space-now-for-c",
+      "source": "discourse",
+      "account": "chargingthefuture.discourse.group",
       "originalDate": "2025-09-18",
-      "status": "erased",
-      "kind": "space-post"
-    }
+      "status": "closed"
+    },
+    "number": 2
   },
   {
     "slug": "farah-brunache/could-a-targeted-individual-be-also-active-in-gang-stalking",
@@ -23771,21 +23785,23 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "discourse-migrate/welcome-to-your-14-day-starter-hosting-trial",
-    "title": "Welcome to your 14 day Starter hosting trial!",
-    "repo": "chargingthefuture/chargingthefuture",
+    "slug": "farah-brunache/ti-skills-network-community-update-3-september-18-2025",
+    "title": "TI Skills Network Community Update #3 - September 18, 2025 Check the link in my bio.",
+    "repo": "chargingthefuture/wiki-site",
     "date": "2025-09-18",
-    "excerpt": "Hello and welcome to your 14 day free trial of Discourse! As a Starter hosted customer, you’ll get: Unlimited members 2 admins & moderators 10k…",
-    "category": "Discourse Community Legacy Post",
-    "collection": "archive/discourse",
-    "path": "archive/discourse/welcome-to-your-14-day-starter-hosting-trial.md",
+    "excerpt": "TI Skills Network Community Update #3 - September 18, 2025 Check the link in my bio.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/ti-skills-network-community-update-3-september-18-2025.md",
+    "listed": false,
     "archive": {
-      "source": "discourse",
-      "account": "chargingthefuture.discourse.group",
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/TI-Skills-Network-Community-Update-3-September-18-2025-Check-the-link-in-my-bio-I-have-a-dedicated-space-now-for-c",
       "originalDate": "2025-09-18",
-      "status": "closed"
-    },
-    "number": 2
+      "status": "erased",
+      "kind": "space-post"
+    }
   },
   {
     "slug": "welcome-to-charging-the-future",
@@ -24130,44 +24146,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/quick-video-demo-preview-of-ti-support-match-app",
-    "title": "Quick video/demo preview of TI Support Match app: SupportMatch v1 Let me know if you want…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-09-15",
-    "excerpt": "Quick video/demo preview of TI Support Match app: SupportMatch v1 Let me know if you want an invite.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/quick-video-demo-preview-of-ti-support-match-app.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Quick-video-demo-preview-of-TI-Support-Match-app-SupportMatch-v1-https-chargingthefuture-wistia-com-medias-wg3al70",
-      "originalDate": "2025-09-15",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/ti-skills-network-community-update-1-september-15-2025",
-    "title": "TI Skills Network Community Update #1 - September 15, 2025 On September 14, 2025 TI…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-09-15",
-    "excerpt": "TI Skills Network Community Update #1 - September 15, 2025 On September 14, 2025 TI Support Match was released!",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/ti-skills-network-community-update-1-september-15-2025.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/TI-Skills-Network-Community-Update-1-September-15-2025-On-September-14-2025-TI-Support-Match-was-released-Its-ann",
-      "originalDate": "2025-09-15",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
     "slug": "farah-brunache/it-seems-to-me-that-whenever-i-try-to-post-to-a-quora-space-it-doesnt",
     "title": "It seems to me that whenever I try to post to a quora space it doesnt usually ever seem to get approved so it…",
     "repo": "chargingthefuture/wiki-site",
@@ -24187,6 +24165,25 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/quick-video-demo-preview-of-ti-support-match-app",
+    "title": "Quick video/demo preview of TI Support Match app: SupportMatch v1 Let me know if you want…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-15",
+    "excerpt": "Quick video/demo preview of TI Support Match app: SupportMatch v1 Let me know if you want an invite.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/quick-video-demo-preview-of-ti-support-match-app.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Quick-video-demo-preview-of-TI-Support-Match-app-SupportMatch-v1-https-chargingthefuture-wistia-com-medias-wg3al70",
+      "originalDate": "2025-09-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/the-trolls-are-preventing-me-from-speaking-truth-here-on-quora-by-cons",
     "title": "The trolls are preventing me from speaking truth here on Quora by constantly reporting me and my posts I am…",
     "repo": "chargingthefuture/wiki-site",
@@ -24203,6 +24200,25 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-09-15",
       "status": "erased",
       "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/ti-skills-network-community-update-1-september-15-2025",
+    "title": "TI Skills Network Community Update #1 - September 15, 2025 On September 14, 2025 TI…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-15",
+    "excerpt": "TI Skills Network Community Update #1 - September 15, 2025 On September 14, 2025 TI Support Match was released!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/ti-skills-network-community-update-1-september-15-2025.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/TI-Skills-Network-Community-Update-1-September-15-2025-On-September-14-2025-TI-Support-Match-was-released-Its-ann",
+      "originalDate": "2025-09-15",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -24524,25 +24540,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "pedigree101/what-counts-as-fake-help-from-a-gstalker",
-    "title": "What counts as fake help from a gstalker?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-09-07",
-    "excerpt": "Not to be impersonal, but this group is more transactional and high touch.",
-    "category": "Insights",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/what-counts-as-fake-help-from-a-gstalker.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/Not-to-be-in-personal-but-this-group-is-more-transactional-and-high-touch-My-believe-is-this-will-reduce-perps-in-this",
-      "originalDate": "2025-09-07",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
     "slug": "pedigree101/is-it-possible-i-ve-always-been-stalked-but-just-didn-t-notice-till-6-2",
     "title": "Is it possible I've always been stalked but just didn't notice till 6 years ago?",
     "repo": "chargingthefuture/wiki-site",
@@ -24563,6 +24560,25 @@ export const ARTICLES: ArticleMeta[] = [
       "sharedTo": [
         "US-PSYOPS-TARGETED-INDIVIDUALS"
       ]
+    }
+  },
+  {
+    "slug": "pedigree101/what-counts-as-fake-help-from-a-gstalker",
+    "title": "What counts as fake help from a gstalker?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-07",
+    "excerpt": "Not to be impersonal, but this group is more transactional and high touch.",
+    "category": "Insights",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/what-counts-as-fake-help-from-a-gstalker.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Not-to-be-in-personal-but-this-group-is-more-transactional-and-high-touch-My-believe-is-this-will-reduce-perps-in-this",
+      "originalDate": "2025-09-07",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -24738,6 +24754,25 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "pedigree101/does-being-gang-stalked-make-you-feel-ashamed-3",
+    "title": "Does being gang stalked make you feel ashamed",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-05",
+    "excerpt": "Pedigree101's post in TI Skills NetworkA TI taught me how to do clinical trials. Get paid up to $45k (that is the highest I have seen in the last year) to test safe phase I medicine.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/does-being-gang-stalked-make-you-feel-ashamed-3.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://www.quora.com/Does-being-gang-stalked-make-you-feel-ashamed/answer/GodsSoldier-1",
+      "originalDate": "2025-09-05",
+      "status": "erased",
+      "kind": "answer-comment"
+    }
+  },
+  {
     "slug": "pedigree101/existing-ti-spaces-versus-a-solutions-space",
     "title": "Existing TI spaces versus a solutions space",
     "repo": "chargingthefuture/wiki-site",
@@ -24773,44 +24808,6 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-09-05",
       "status": "erased",
       "kind": "space-post"
-    }
-  },
-  {
-    "slug": "pedigree101/why-tis-should-not-avoid-each-other",
-    "title": "Why TIs should not avoid each other",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-09-05",
-    "excerpt": "My life got better because of meeting other TIs. The below statement regarding experiencing DEW and street stalking, in italics, is not correct and I can",
-    "category": "Insights",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/why-tis-should-not-avoid-each-other.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/My-life-got-better-because-of-meeting-other-TIs-The-below-statement-regarding-experiencing-DEW-and-street-stalking-in",
-      "originalDate": "2025-09-05",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "pedigree101/does-being-gang-stalked-make-you-feel-ashamed-3",
-    "title": "Does being gang stalked make you feel ashamed",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-09-05",
-    "excerpt": "Pedigree101's post in TI Skills NetworkA TI taught me how to do clinical trials. Get paid up to $45k (that is the highest I have seen in the last year) to test safe phase I medicine.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/does-being-gang-stalked-make-you-feel-ashamed-3.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://www.quora.com/Does-being-gang-stalked-make-you-feel-ashamed/answer/GodsSoldier-1",
-      "originalDate": "2025-09-05",
-      "status": "erased",
-      "kind": "answer-comment"
     }
   },
   {
@@ -24929,6 +24926,25 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "pedigree101/why-tis-should-not-avoid-each-other",
+    "title": "Why TIs should not avoid each other",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-05",
+    "excerpt": "My life got better because of meeting other TIs. The below statement regarding experiencing DEW and street stalking, in italics, is not correct and I can",
+    "category": "Insights",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/why-tis-should-not-avoid-each-other.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/My-life-got-better-because-of-meeting-other-TIs-The-below-statement-regarding-experiencing-DEW-and-street-stalking-in",
+      "originalDate": "2025-09-05",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "pedigree101/i-call-bullshit-on-the-targeted-justice-document",
     "title": "I call bullshit on the Targeted Justice document",
     "repo": "chargingthefuture/wiki-site",
@@ -24942,25 +24958,6 @@ export const ARTICLES: ArticleMeta[] = [
       "source": "quora",
       "account": "pedigree101",
       "originalUrl": "https://skillseconomy.quora.com/I-call-bullshit-I-can-call-my-friend-to-verify-the-answer-Handlers-are-allowing-her-a-former-TI-to-speak-on",
-      "originalDate": "2025-09-04",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "pedigree101/one-night-hosting-baltimore-or-new-jersey",
-    "title": "One-night hosting: Baltimore or New Jersey?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-09-04",
-    "excerpt": "Any TIs that can host me in either Baltimore, Maryland or New Jersey for one night each?",
-    "category": "Services",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/one-night-hosting-baltimore-or-new-jersey.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/Any-TIs-that-can-host-me-in-either-Baltimore-Maryland-or-New-Jersey-for-one-night-each-I-have-contract-work-in-both-st",
       "originalDate": "2025-09-04",
       "status": "erased",
       "kind": "space-post"
@@ -24986,6 +24983,25 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "pedigree101/one-night-hosting-baltimore-or-new-jersey",
+    "title": "One-night hosting: Baltimore or New Jersey?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-04",
+    "excerpt": "Any TIs that can host me in either Baltimore, Maryland or New Jersey for one night each?",
+    "category": "Services",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/one-night-hosting-baltimore-or-new-jersey.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Any-TIs-that-can-host-me-in-either-Baltimore-Maryland-or-New-Jersey-for-one-night-each-I-have-contract-work-in-both-st",
+      "originalDate": "2025-09-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "pedigree101/what-do-you-want-people-to-know-about-gang-stalking",
     "title": "What do you want people to know about gang stalking",
     "repo": "chargingthefuture/wiki-site",
@@ -25002,25 +25018,6 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-09-04",
       "status": "erased",
       "kind": "answer-comment"
-    }
-  },
-  {
-    "slug": "pedigree101/the-only-two-reasons-people-get-gang-stalked",
-    "title": "The only two reasons people get gang stalked",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-09-03",
-    "excerpt": "I have not read all TI Quora posts, but I have read a lot. Only two people got it right.",
-    "category": "Insights",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/the-only-two-reasons-people-get-gang-stalked.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/I-have-not-read-all-TI-Quora-posts-but-I-have-read-a-lot-Only-two-people-got-it-right-There-are-only-two-reasons-to-b",
-      "originalDate": "2025-09-03",
-      "status": "erased",
-      "kind": "space-post"
     }
   },
   {
@@ -25143,6 +25140,25 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "question-comment",
       "question": "https://www.quora.com/Im-worried-about-you-guys-Please-seek-therapy-If-this-is-real-you-are-likely-traumatized-by-it-and-if-this-isnt-you-may-have-a-disorder-Are-you-guys-okay"
+    }
+  },
+  {
+    "slug": "pedigree101/the-only-two-reasons-people-get-gang-stalked",
+    "title": "The only two reasons people get gang stalked",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-09-03",
+    "excerpt": "I have not read all TI Quora posts, but I have read a lot. Only two people got it right.",
+    "category": "Insights",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/the-only-two-reasons-people-get-gang-stalked.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/I-have-not-read-all-TI-Quora-posts-but-I-have-read-a-lot-Only-two-people-got-it-right-There-are-only-two-reasons-to-b",
+      "originalDate": "2025-09-03",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -25439,63 +25455,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "pedigree101/launching-a-ti-tv-network",
-    "title": "Launching a TI TV Network",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-31",
-    "excerpt": "TLDR; Submit audio or video for a TI TV Network! Recycled content acceptable.",
-    "category": "Updates",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/launching-a-ti-tv-network.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/TLDR-Submit-audio-or-video-for-a-TI-TV-Network-Recycled-content-acceptable-TI-Skills-Network-is-not-a-month-old",
-      "originalDate": "2025-08-31",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "pedigree101/low-effort-content-high-value-return",
-    "title": "Low-effort content, high-value return",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-31",
-    "excerpt": "Example of low-effort content with high-value return: you can record yourself talking about a topic for 10 minutes.",
-    "category": "Guides",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/low-effort-content-high-value-return.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/Example-of-low-effort-content-with-high-value-return-you-can-record-yourself-talking-about-a-topic-for-10-minutes-That",
-      "originalDate": "2025-08-31",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "pedigree101/our-own-network-cant-be-psyopd",
-    "title": "Our own network can't be psyop'd",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-31",
-    "excerpt": "With our own network we won’t have to worry about being psyop’d!",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/our-own-network-cant-be-psyopd.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/With-our-own-network-we-won-t-have-to-worry-about-being-psyop-d-Check-out-my-post-under-separate-thread-about-the-TI-TV",
-      "originalDate": "2025-08-31",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
     "slug": "farah-brunache/how-many-tis-are-in-pennsylvania-or-the-tri-state-area-3",
     "title": "How many TIs are in Pennsylvania or the Tri-State area?",
     "repo": "chargingthefuture/wiki-site",
@@ -25539,6 +25498,44 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "pedigree101/launching-a-ti-tv-network",
+    "title": "Launching a TI TV Network",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-31",
+    "excerpt": "TLDR; Submit audio or video for a TI TV Network! Recycled content acceptable.",
+    "category": "Updates",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/launching-a-ti-tv-network.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/TLDR-Submit-audio-or-video-for-a-TI-TV-Network-Recycled-content-acceptable-TI-Skills-Network-is-not-a-month-old",
+      "originalDate": "2025-08-31",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/low-effort-content-high-value-return",
+    "title": "Low-effort content, high-value return",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-31",
+    "excerpt": "Example of low-effort content with high-value return: you can record yourself talking about a topic for 10 minutes.",
+    "category": "Guides",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/low-effort-content-high-value-return.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Example-of-low-effort-content-with-high-value-return-you-can-record-yourself-talking-about-a-topic-for-10-minutes-That",
+      "originalDate": "2025-08-31",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "pedigree101/only-problem-is-when-they-workplace-mob-you-out-of-work-make-you-unhou",
     "title": "Only problem is when they workplace mob you out of work, make you unhoused and steal your…",
     "repo": "chargingthefuture/wiki-site",
@@ -25555,6 +25552,25 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-08-31",
       "status": "erased",
       "kind": "answer-comment"
+    }
+  },
+  {
+    "slug": "pedigree101/our-own-network-cant-be-psyopd",
+    "title": "Our own network can't be psyop'd",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-31",
+    "excerpt": "With our own network we won’t have to worry about being psyop’d!",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/our-own-network-cant-be-psyopd.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/With-our-own-network-we-won-t-have-to-worry-about-being-psyop-d-Check-out-my-post-under-separate-thread-about-the-TI-TV",
+      "originalDate": "2025-08-31",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -25897,25 +25913,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "pedigree101/warbag-the-essential-items-list",
-    "title": "Warbag: the essential items list",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-28",
-    "excerpt": "Warbag Let us do a running list. What are essential items? As the comments come in, I will add them here.",
-    "category": "Guides",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/warbag-the-essential-items-list.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/Warbag-Let-us-do-a-running-list-What-are-essential-items-As-the-comments-come-in-I-will-add-them-here-Try-to-be-as",
-      "originalDate": "2025-08-28",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
     "slug": "pedigree101/how-can-a-19-year-old-boy-in-the-sense-of-targeted-individual-ensure-p-2",
     "title": "How can a 19 year old boy in the sense of Targeted Individual ensure personal development e g for future…",
     "repo": "chargingthefuture/wiki-site",
@@ -25932,6 +25929,25 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-08-28",
       "status": "erased",
       "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "pedigree101/warbag-the-essential-items-list",
+    "title": "Warbag: the essential items list",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-28",
+    "excerpt": "Warbag Let us do a running list. What are essential items? As the comments come in, I will add them here.",
+    "category": "Guides",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/warbag-the-essential-items-list.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Warbag-Let-us-do-a-running-list-What-are-essential-items-As-the-comments-come-in-I-will-add-them-here-Try-to-be-as",
+      "originalDate": "2025-08-28",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -26090,6 +26106,46 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/do-other-ti-s-believe-that-once-their-numbers-are-so-large-that-the-us",
+    "title": "Do other TI's believe that, once their numbers are so large, that the US will fall into utter Anarchy?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-26",
+    "excerpt": "No. While any petty reason gets you gang stalked. They purposely only gstalk a percentage that is enough to go unnoticed by the low IQ and people who do not know about this.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/do-other-ti-s-believe-that-once-their-numbers-are-so-large-that-the-us.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/Do-other-TIs-believe-that-once-their-numbers-are-so-large-that-the-US-will-fall-into-utter-Anarchy",
+      "originalDate": "2025-08-26",
+      "status": "erased",
+      "kind": "space-submission",
+      "space": "Targeted individuals network",
+      "question": "Do other TI's believe that, once their numbers are so large, that the US will fall into utter Anarchy?"
+    }
+  },
+  {
+    "slug": "farah-brunache/do-you-agree-with-kayla-davis-comment-i-agree-with-it-houses-are-easy",
+    "title": "Do you agree with Kayla Davis comment I agree with it Houses are easy now to be used as slow death traps for…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-26",
+    "excerpt": "Yes, it is better than housing. If in housing I believe you need to be in it with multiple TIs to protect your stuff and sanity.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/do-you-agree-with-kayla-davis-comment-i-agree-with-it-houses-are-easy.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://targetedbutnotbroken.quora.com/Do-you-agree-with-Kayla-Davis-comment-I-agree-with-it-Houses-are-easy-now-to-be-used-as-slow-death-traps-for-TIs-but",
+      "originalDate": "2025-08-26",
+      "status": "erased",
+      "kind": "post-comment"
+    }
+  },
+  {
     "slug": "farah-brunache/gstalkers-stole-my-headphones-yesterday",
     "title": "Gstalkers stole my headphones yesterday.",
     "repo": "chargingthefuture/wiki-site",
@@ -26106,6 +26162,25 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-08-26",
       "status": "erased",
       "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/have-any-gang-stalkers-been-caught-and-convicted",
+    "title": "Have any gang stalkers been caught and convicted",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-26",
+    "excerpt": "Vigilante or vigilante groups is the closest to gang stalking.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/have-any-gang-stalkers-been-caught-and-convicted.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://www.quora.com/Have-any-gang-stalkers-been-caught-and-convicted/answer/Lorraine-Valente",
+      "originalDate": "2025-08-26",
+      "status": "erased",
+      "kind": "answer-comment"
     }
   },
   {
@@ -26204,65 +26279,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/do-other-ti-s-believe-that-once-their-numbers-are-so-large-that-the-us",
-    "title": "Do other TI's believe that, once their numbers are so large, that the US will fall into utter Anarchy?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-26",
-    "excerpt": "No. While any petty reason gets you gang stalked. They purposely only gstalk a percentage that is enough to go unnoticed by the low IQ and people who do not know about this.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/do-other-ti-s-believe-that-once-their-numbers-are-so-large-that-the-us.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/Do-other-TIs-believe-that-once-their-numbers-are-so-large-that-the-US-will-fall-into-utter-Anarchy",
-      "originalDate": "2025-08-26",
-      "status": "erased",
-      "kind": "space-submission",
-      "space": "Targeted individuals network",
-      "question": "Do other TI's believe that, once their numbers are so large, that the US will fall into utter Anarchy?"
-    }
-  },
-  {
-    "slug": "farah-brunache/do-you-agree-with-kayla-davis-comment-i-agree-with-it-houses-are-easy",
-    "title": "Do you agree with Kayla Davis comment I agree with it Houses are easy now to be used as slow death traps for…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-26",
-    "excerpt": "Yes, it is better than housing. If in housing I believe you need to be in it with multiple TIs to protect your stuff and sanity.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/do-you-agree-with-kayla-davis-comment-i-agree-with-it-houses-are-easy.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://targetedbutnotbroken.quora.com/Do-you-agree-with-Kayla-Davis-comment-I-agree-with-it-Houses-are-easy-now-to-be-used-as-slow-death-traps-for-TIs-but",
-      "originalDate": "2025-08-26",
-      "status": "erased",
-      "kind": "post-comment"
-    }
-  },
-  {
-    "slug": "farah-brunache/have-any-gang-stalkers-been-caught-and-convicted",
-    "title": "Have any gang stalkers been caught and convicted",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-26",
-    "excerpt": "Vigilante or vigilante groups is the closest to gang stalking.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/have-any-gang-stalkers-been-caught-and-convicted.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://www.quora.com/Have-any-gang-stalkers-been-caught-and-convicted/answer/Lorraine-Valente",
-      "originalDate": "2025-08-26",
-      "status": "erased",
-      "kind": "answer-comment"
-    }
-  },
-  {
     "slug": "pedigree101/gang-stalking-and-the-us-government-ive-been-tortured-for-7-yrs-it-con",
     "title": "Gang stalking and the US Government Ive been tortured for 7 yrs It continues still So many people are in the…",
     "repo": "chargingthefuture/wiki-site",
@@ -26295,82 +26311,6 @@ export const ARTICLES: ArticleMeta[] = [
       "source": "quora",
       "account": "farah-brunache",
       "originalUrl": "https://skillseconomy.quora.com/Gamers-Any-TIs-who-are-gamers-Either-play-games-or-programs-them",
-      "originalDate": "2025-08-25",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/reason-657899-on-why-i-am-creating-an-app",
-    "title": "Reason #657899 😂 on why I am creating an app for TIs to house with other TIs.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-25",
-    "excerpt": "Reason #657899 😂 on why I am creating an app for TIs to house with other TIs.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/reason-657899-on-why-i-am-creating-an-app.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Reason-657899-on-why-I-am-creating-an-app-for-TIs-to-house-with-other-TIs-https-www-quora-com-profile-CosmicWande",
-      "originalDate": "2025-08-25",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/with-a-circular-economy-of-tis-the-below-will",
-    "title": "With a circular economy of TIs the below will slowly no longer matter.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-25",
-    "excerpt": "With a circular economy of TIs the below will slowly no longer matter.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/with-a-circular-economy-of-tis-the-below-will.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/With-a-circular-economy-of-TIs-the-below-will-slowly-no-longer-matter-https-www-quora-com-profile-CosmicWanderer-Has",
-      "originalDate": "2025-08-25",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "pedigree101/help-design-the-app-your-top-two-apps",
-    "title": "Help design the app: your top two apps",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-25",
-    "excerpt": "I am thinking through app designs for the TI Skills Network app.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/help-design-the-app-your-top-two-apps.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/I-am-thinking-through-app-designs-for-the-TI-Skills-Network-app-What-are-the-top-two-apps-you-enjoy-to-use",
-      "originalDate": "2025-08-25",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "pedigree101/myrtle-beach-meetup",
-    "title": "Myrtle Beach meetup?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-25",
-    "excerpt": "Anyone in Myrtle Beach, South Carolina? Brandy B. NthePink is looking to meet up.",
-    "category": "Events",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/myrtle-beach-meetup.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/Anyone-in-Myrtle-Beach-South-Carolina-Brandy-B-NthePink-https-www-quora-com-profile-Brandy-B-NthePink-is-lookin",
       "originalDate": "2025-08-25",
       "status": "erased",
       "kind": "space-post"
@@ -26436,6 +26376,63 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/reason-657899-on-why-i-am-creating-an-app",
+    "title": "Reason #657899 😂 on why I am creating an app for TIs to house with other TIs.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-25",
+    "excerpt": "Reason #657899 😂 on why I am creating an app for TIs to house with other TIs.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/reason-657899-on-why-i-am-creating-an-app.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Reason-657899-on-why-I-am-creating-an-app-for-TIs-to-house-with-other-TIs-https-www-quora-com-profile-CosmicWande",
+      "originalDate": "2025-08-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/with-a-circular-economy-of-tis-the-below-will",
+    "title": "With a circular economy of TIs the below will slowly no longer matter.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-25",
+    "excerpt": "With a circular economy of TIs the below will slowly no longer matter.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/with-a-circular-economy-of-tis-the-below-will.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/With-a-circular-economy-of-TIs-the-below-will-slowly-no-longer-matter-https-www-quora-com-profile-CosmicWanderer-Has",
+      "originalDate": "2025-08-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/help-design-the-app-your-top-two-apps",
+    "title": "Help design the app: your top two apps",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-25",
+    "excerpt": "I am thinking through app designs for the TI Skills Network app.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/help-design-the-app-your-top-two-apps.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/I-am-thinking-through-app-designs-for-the-TI-Skills-Network-app-What-are-the-top-two-apps-you-enjoy-to-use",
+      "originalDate": "2025-08-25",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "pedigree101/how-do-you-communicate-to-tormentors-that-the-real-underlying-reason-t-2",
     "title": "How do you communicate to tormentors that the real underlying reason they target you is because their handler…",
     "repo": "chargingthefuture/wiki-site",
@@ -26472,6 +26469,25 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-08-25",
       "status": "erased",
       "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "pedigree101/myrtle-beach-meetup",
+    "title": "Myrtle Beach meetup?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-25",
+    "excerpt": "Anyone in Myrtle Beach, South Carolina? Brandy B. NthePink is looking to meet up.",
+    "category": "Events",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/myrtle-beach-meetup.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Anyone-in-Myrtle-Beach-South-Carolina-Brandy-B-NthePink-https-www-quora-com-profile-Brandy-B-NthePink-is-lookin",
+      "originalDate": "2025-08-25",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -26539,25 +26555,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "pedigree101/community-blunts-most-of-their-attacks",
-    "title": "Community blunts most of their attacks",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-24",
-    "excerpt": "Very true. Notice how all but employment and DEWs cannot be attacked if you are in a combination of online and offline community of TIs.",
-    "category": "Insights",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/community-blunts-most-of-their-attacks.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/Very-true-Notice-how-all-but-employment-and-DEWs-cannot-be-attacked-if-you-are-in-a-combination-of-online-and-offline-c",
-      "originalDate": "2025-08-24",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
     "slug": "pedigree101/a-youtuber-is-doxxing-me-posting-my-picture-and-telling-people-to-wish",
     "title": "A YouTuber is doxxing me, posting my picture, and telling people to wish for me to die.",
     "repo": "chargingthefuture/wiki-site",
@@ -26576,6 +26573,25 @@ export const ARTICLES: ArticleMeta[] = [
       "kind": "space-submission",
       "space": "US-PSYOPS-TARGETED-INDIVIDUALS",
       "question": "A YouTuber is doxxing me, posting my picture, and telling people to wish for me to die. YouTube ignores my reports.. how do I stop him?"
+    }
+  },
+  {
+    "slug": "pedigree101/community-blunts-most-of-their-attacks",
+    "title": "Community blunts most of their attacks",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-24",
+    "excerpt": "Very true. Notice how all but employment and DEWs cannot be attacked if you are in a combination of online and offline community of TIs.",
+    "category": "Insights",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/community-blunts-most-of-their-attacks.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Very-true-Notice-how-all-but-employment-and-DEWs-cannot-be-attacked-if-you-are-in-a-combination-of-online-and-offline-c",
+      "originalDate": "2025-08-24",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -27013,44 +27029,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "pedigree101/how-i-moderate-this-space",
-    "title": "How I moderate this space",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-19",
-    "excerpt": "A low-life gang stalker* once said we live in an impersonal world.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/how-i-moderate-this-space.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/A-low-life-gang-stalker-once-said-we-live-in-an-impersonal-world-I-am-positive-she-is-not-the-first-person-to-say-that",
-      "originalDate": "2025-08-19",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "pedigree101/why-i-discourage-storytelling-here",
-    "title": "Why I discourage storytelling here",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-19",
-    "excerpt": "The reason I discourage story telling in TI Skills Network, unless it is directly tied to an ask, is because there are a lot of spaces on Quora to vent,",
-    "category": "Philosophy",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/why-i-discourage-storytelling-here.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/Proxy-gang-stalking",
-      "originalDate": "2025-08-19",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
     "slug": "pedigree101/how-do-gang-stalkers-recruit-2",
     "title": "How do gang stalkers recruit?",
     "repo": "chargingthefuture/wiki-site",
@@ -27068,6 +27046,25 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "answer",
       "question": "How do gang stalkers recruit?"
+    }
+  },
+  {
+    "slug": "pedigree101/how-i-moderate-this-space",
+    "title": "How I moderate this space",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-19",
+    "excerpt": "A low-life gang stalker* once said we live in an impersonal world.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/how-i-moderate-this-space.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/A-low-life-gang-stalker-once-said-we-live-in-an-impersonal-world-I-am-positive-she-is-not-the-first-person-to-say-that",
+      "originalDate": "2025-08-19",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -27110,6 +27107,25 @@ export const ARTICLES: ArticleMeta[] = [
       "sharedTo": [
         "AM's Space Gangstalking, Revenge for Hire, TIs"
       ]
+    }
+  },
+  {
+    "slug": "pedigree101/why-i-discourage-storytelling-here",
+    "title": "Why I discourage storytelling here",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-19",
+    "excerpt": "The reason I discourage story telling in TI Skills Network, unless it is directly tied to an ask, is because there are a lot of spaces on Quora to vent,",
+    "category": "Philosophy",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/why-i-discourage-storytelling-here.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Proxy-gang-stalking",
+      "originalDate": "2025-08-19",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -27293,25 +27309,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "pedigree101/rewards-for-bringing-a-target-to-tears",
-    "title": "Rewards for bringing a target to tears",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-15",
-    "excerpt": "I found out later it was because they earn rewards for bringing a target to tears, and larger rewards if the target packs up and moves, or kills themselves,",
-    "category": "Insights",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/rewards-for-bringing-a-target-to-tears.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/I-found-out-later-it-was-because-they-earn-rewards-for-bringing-a-target-to-tears-and-larger-rewards-if-the-target-pack",
-      "originalDate": "2025-08-15",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
     "slug": "pedigree101/are-the-families-of-targeted-individuals-forced-by-gang-stalkers-to-ha",
     "title": "Are the families of targeted individuals forced by gang stalkers to harass the TI or do they do it voluntarily",
     "repo": "chargingthefuture/wiki-site",
@@ -27388,6 +27385,25 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "pedigree101/rewards-for-bringing-a-target-to-tears",
+    "title": "Rewards for bringing a target to tears",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-15",
+    "excerpt": "I found out later it was because they earn rewards for bringing a target to tears, and larger rewards if the target packs up and moves, or kills themselves,",
+    "category": "Insights",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/rewards-for-bringing-a-target-to-tears.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/I-found-out-later-it-was-because-they-earn-rewards-for-bringing-a-target-to-tears-and-larger-rewards-if-the-target-pack",
+      "originalDate": "2025-08-15",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "pedigree101/what-psychological-profiles-do-gang-stalking-handlers-target-2",
     "title": "What psychological profiles do gang stalking handlers target?",
     "repo": "chargingthefuture/wiki-site",
@@ -27447,63 +27463,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "pedigree101/getting-paid-for-clinical-trials-team-up",
-    "title": "Getting paid for clinical trials — team up",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-13",
-    "excerpt": "I am in Florida now. I travel and get paid to do clinical trials.",
-    "category": "Guides",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/getting-paid-for-clinical-trials-team-up.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/I-am-in-Florida-now-I-travel-and-get-paid-to-do-clinical-trials-I-can-show-any-TI-how-Especially-since-gstalkers-will",
-      "originalDate": "2025-08-13",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "pedigree101/tis-are-what-will-save-us",
-    "title": "TIs are what will save us",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-13",
-    "excerpt": "TIs is what is going to “save” us. Pedigree101's answer to What measures can the government take to prevent gang stalking?",
-    "category": "Advocacy",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/tis-are-what-will-save-us.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/TIs-is-what-is-going-to-save-us-https-www-quora-com-What-measures-can-the-government-take-to-prevent-gang-stalking",
-      "originalDate": "2025-08-13",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "pedigree101/two-steps-stop-seeking-validation-start-connecting",
-    "title": "Two steps: stop seeking validation, start connecting",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-13",
-    "excerpt": "Step 1: No more seeking validation from the gang stalkers and the low IQs who believe their slander.",
-    "category": "Insights",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/two-steps-stop-seeking-validation-start-connecting.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/Step-1-No-more-seeking-validation-from-the-gang-stalkers-and-the-low-IQs-who-believe-their-slander-Step-2-Join-TI-Sk",
-      "originalDate": "2025-08-13",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
     "slug": "pedigree101/am-i-getting-gangstalked-why-do-i-hear-a-motor-passing-by-whenever-i-f-2",
     "title": "Am I getting gangstalked? Why do I hear a motor passing by whenever I finish watching a show, but when I…",
     "repo": "chargingthefuture/wiki-site",
@@ -27521,6 +27480,25 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "answer",
       "question": "Am I getting gangstalked? Why do I hear a motor passing by whenever I finish watching a show, but when I always focus on the sound it doesn't come out?"
+    }
+  },
+  {
+    "slug": "pedigree101/getting-paid-for-clinical-trials-team-up",
+    "title": "Getting paid for clinical trials — team up",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-13",
+    "excerpt": "I am in Florida now. I travel and get paid to do clinical trials.",
+    "category": "Guides",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/getting-paid-for-clinical-trials-team-up.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/I-am-in-Florida-now-I-travel-and-get-paid-to-do-clinical-trials-I-can-show-any-TI-how-Especially-since-gstalkers-will",
+      "originalDate": "2025-08-13",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -27559,6 +27537,44 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-08-13",
       "status": "erased",
       "kind": "answer-comment"
+    }
+  },
+  {
+    "slug": "pedigree101/tis-are-what-will-save-us",
+    "title": "TIs are what will save us",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-13",
+    "excerpt": "TIs is what is going to “save” us. Pedigree101's answer to What measures can the government take to prevent gang stalking?",
+    "category": "Advocacy",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/tis-are-what-will-save-us.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/TIs-is-what-is-going-to-save-us-https-www-quora-com-What-measures-can-the-government-take-to-prevent-gang-stalking",
+      "originalDate": "2025-08-13",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/two-steps-stop-seeking-validation-start-connecting",
+    "title": "Two steps: stop seeking validation, start connecting",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-13",
+    "excerpt": "Step 1: No more seeking validation from the gang stalkers and the low IQs who believe their slander.",
+    "category": "Insights",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/two-steps-stop-seeking-validation-start-connecting.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Step-1-No-more-seeking-validation-from-the-gang-stalkers-and-the-low-IQs-who-believe-their-slander-Step-2-Join-TI-Sk",
+      "originalDate": "2025-08-13",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -27667,44 +27683,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "pedigree101/initiative-three-a-ti-uber-network",
-    "title": "Initiative three: a TI Uber network",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-11",
-    "excerpt": "I do NOT want to spend what little I make with gstalkers. As initiative #3, what TIs have managed to still have a car and want to be part of an “Uber”",
-    "category": "Services",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/initiative-three-a-ti-uber-network.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/I-do-NOT-want-to-spend-what-little-I-make-with-gstalkers-As-initiative-3-what-TIs-have-managed-to-still-have-a-car-an",
-      "originalDate": "2025-08-11",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "pedigree101/set-up-your-fintech-apps",
-    "title": "Set up your fintech apps",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-11",
-    "excerpt": "As a circular economy we need to be able to exchange money. Has everyone set up their fintech apps?",
-    "category": "Guides",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/set-up-your-fintech-apps.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/As-a-circular-economy-we-need-to-be-able-to-exchange-money-Has-everyone-set-up-their-fintech-apps-Cashapp-Venmo-PayP",
-      "originalDate": "2025-08-11",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
     "slug": "pedigree101/a-third-initiative-has-been-added-today-check-the-updated-post-https-t",
     "title": "A third initiative has been added today Check the updated post https tiskillsnetwork quora com Thus far we…",
     "repo": "chargingthefuture/wiki-site",
@@ -27722,6 +27700,25 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "space-post",
       "space": "Targeted individuals group TIG"
+    }
+  },
+  {
+    "slug": "pedigree101/initiative-three-a-ti-uber-network",
+    "title": "Initiative three: a TI Uber network",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-11",
+    "excerpt": "I do NOT want to spend what little I make with gstalkers. As initiative #3, what TIs have managed to still have a car and want to be part of an “Uber”",
+    "category": "Services",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/initiative-three-a-ti-uber-network.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/I-do-NOT-want-to-spend-what-little-I-make-with-gstalkers-As-initiative-3-what-TIs-have-managed-to-still-have-a-car-an",
+      "originalDate": "2025-08-11",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -27779,6 +27776,25 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-08-11",
       "status": "erased",
       "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "pedigree101/set-up-your-fintech-apps",
+    "title": "Set up your fintech apps",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-11",
+    "excerpt": "As a circular economy we need to be able to exchange money. Has everyone set up their fintech apps?",
+    "category": "Guides",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/set-up-your-fintech-apps.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/As-a-circular-economy-we-need-to-be-able-to-exchange-money-Has-everyone-set-up-their-fintech-apps-Cashapp-Venmo-PayP",
+      "originalDate": "2025-08-11",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -27878,44 +27894,6 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "pedigree101/research-ask-precedents-on-interstate-mobbing",
-    "title": "Research ask: precedents on interstate mobbing",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-09",
-    "excerpt": "This is a bit off topic. More of a research question. What precedents can you find on interstate mobbing?",
-    "category": "Resources",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/research-ask-precedents-on-interstate-mobbing.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/This-is-a-bit-off-topic-More-of-a-research-question-What-precedents-can-you-find-on-interstate-mobbing-Someone-share",
-      "originalDate": "2025-08-09",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "pedigree101/why-i-hesitated-to-create-this-space",
-    "title": "Why I hesitated to create this space",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-09",
-    "excerpt": "I hesitated to create this space. Because my opinions may be controversial about gang stalkers.",
-    "category": "Stories",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/why-i-hesitated-to-create-this-space.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/I-hesitated-to-create-this-space-Because-my-opinions-may-be-controversial-about-gang-stalkers-And-it-is-with-these-opi",
-      "originalDate": "2025-08-09",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
     "slug": "pedigree101/how-can-you-tell-if-someone-involved-in-gang-stalking-is-doing-it-out-2",
     "title": "How can you tell if someone involved in gang stalking is doing it out of desperation or if they genuinely…",
     "repo": "chargingthefuture/wiki-site",
@@ -27933,6 +27911,25 @@ export const ARTICLES: ArticleMeta[] = [
       "status": "erased",
       "kind": "answer",
       "question": "How can you tell if someone involved in gang stalking is doing it out of desperation or if they genuinely have malicious intent?"
+    }
+  },
+  {
+    "slug": "pedigree101/research-ask-precedents-on-interstate-mobbing",
+    "title": "Research ask: precedents on interstate mobbing",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-09",
+    "excerpt": "This is a bit off topic. More of a research question. What precedents can you find on interstate mobbing?",
+    "category": "Resources",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/research-ask-precedents-on-interstate-mobbing.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/This-is-a-bit-off-topic-More-of-a-research-question-What-precedents-can-you-find-on-interstate-mobbing-Someone-share",
+      "originalDate": "2025-08-09",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -28031,6 +28028,25 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "pedigree101/why-i-hesitated-to-create-this-space",
+    "title": "Why I hesitated to create this space",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-09",
+    "excerpt": "I hesitated to create this space. Because my opinions may be controversial about gang stalkers.",
+    "category": "Stories",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/why-i-hesitated-to-create-this-space.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/I-hesitated-to-create-this-space-Because-my-opinions-may-be-controversial-about-gang-stalkers-And-it-is-with-these-opi",
+      "originalDate": "2025-08-09",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "pedigree101/plasma-donations-same-day-cash-and-what-to-expect",
     "title": "Plasma donations: same-day cash and what to expect",
     "repo": "chargingthefuture/wiki-site",
@@ -28066,101 +28082,6 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-08-08",
       "status": "erased",
       "kind": "post-comment"
-    }
-  },
-  {
-    "slug": "pedigree101/kitty-dont-leave-quora",
-    "title": "Kitty, don't leave Quora",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-07",
-    "excerpt": "No! Kitty, do not leave Quora. There are real TIs here. I have met in person a TI from Quora and I have conversations with other ones that are real.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/kitty-dont-leave-quora.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/No-Kitty-do-not-leave-Quora-There-are-real-TIs-here-I-have-met-in-person-a-TI-from-Quora-and-I-have-conversations-wit",
-      "originalDate": "2025-08-07",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "pedigree101/new-survey-what-year-did-your-targeting-begin",
-    "title": "New survey: what year did your targeting begin?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-07",
-    "excerpt": "Here’s a new survey which is asking for the year you think your targeting began.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/new-survey-what-year-did-your-targeting-begin.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/Here-s-a-new-survey-which-is-asking-for-the-year-you-think-your-targeting-began-The-results-of-this-will-be-interestin",
-      "originalDate": "2025-08-07",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "pedigree101/which-tis-are-or-used-to-be-lawyers",
-    "title": "Which TIs are or used to be lawyers?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-07",
-    "excerpt": "Continuing the theme of knowing what skills we have. Which TIs are or used to be lawyers?",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/which-tis-are-or-used-to-be-lawyers.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/Continuing-the-theme-of-knowing-what-skills-we-have-Which-TIs-are-or-use-to-be-lawyers",
-      "originalDate": "2025-08-07",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "pedigree101/why-tis-living-together-helps-us",
-    "title": "Why TIs living together helps us",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-07",
-    "excerpt": "This is why I am advocating for our own community or multiple TIs living together.",
-    "category": "Insights",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/why-tis-living-together-helps-us.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/This-is-why-I-am-advocating-for-our-own-community-or-multiple-TIs-living-together-Why-When-one-of-us-is-out-there-is",
-      "originalDate": "2025-08-07",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "pedigree101/why-tis-living-together-helps-us-revised",
-    "title": "Why TIs living together helps us (revised)",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-07",
-    "excerpt": "This is why I am advocating for our own community or multiple TIs living together.",
-    "category": "Insights",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/why-tis-living-together-helps-us-revised.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/This-is-why-I-am-advocating-for-our-own-community-or-multiple-TIs-living-together-Why-When-one-of-us-is-out-there-is-1",
-      "originalDate": "2025-08-07",
-      "status": "erased",
-      "kind": "space-post"
     }
   },
   {
@@ -28221,6 +28142,44 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "pedigree101/kitty-dont-leave-quora",
+    "title": "Kitty, don't leave Quora",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-07",
+    "excerpt": "No! Kitty, do not leave Quora. There are real TIs here. I have met in person a TI from Quora and I have conversations with other ones that are real.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/kitty-dont-leave-quora.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/No-Kitty-do-not-leave-Quora-There-are-real-TIs-here-I-have-met-in-person-a-TI-from-Quora-and-I-have-conversations-wit",
+      "originalDate": "2025-08-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/new-survey-what-year-did-your-targeting-begin",
+    "title": "New survey: what year did your targeting begin?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-07",
+    "excerpt": "Here’s a new survey which is asking for the year you think your targeting began.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/new-survey-what-year-did-your-targeting-begin.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Here-s-a-new-survey-which-is-asking-for-the-year-you-think-your-targeting-began-The-results-of-this-will-be-interestin",
+      "originalDate": "2025-08-07",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "pedigree101/question-102-results-where-have-you-experienced-stalking-and-harassmen-3",
     "title": "QUESTION 102 RESULTS WHERE have YOU experienced STALKING and HARASSMENT MAP RED PIN indicates 1 TI YELLOW…",
     "repo": "chargingthefuture/wiki-site",
@@ -28278,161 +28237,60 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "pedigree101/initiative-two-host-a-ti",
-    "title": "Initiative two: host a TI",
+    "slug": "pedigree101/which-tis-are-or-used-to-be-lawyers",
+    "title": "Which TIs are or used to be lawyers?",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-06",
-    "excerpt": "Which TIs don’t want to relocate and can host an unhoused or willing-to-relocate TI?",
-    "category": "Services",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/initiative-two-host-a-ti.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/Which-TIs-don-t-want-to-relocate-and-can-host-an-unhoused-or-willing-to-relocate-TI-List-city-and-state-for-those-in",
-      "originalDate": "2025-08-06",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "pedigree101/learning-to-quote-a-post-on-quora",
-    "title": "Learning to quote a post on Quora",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-06",
-    "excerpt": "Let’s go! Can you tell I just learned today how to quote a post on Quora?",
+    "date": "2025-08-07",
+    "excerpt": "Continuing the theme of knowing what skills we have. Which TIs are or used to be lawyers?",
     "category": "Community",
     "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/learning-to-quote-a-post-on-quora.md",
+    "path": "archive/quora/pedigree101/which-tis-are-or-used-to-be-lawyers.md",
     "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/Let-s-go-Can-you-tell-I-just-learned-today-how-to-quote-a-post-on-Quora-https-www-quora-com-Im-a-targeted-individ",
-      "originalDate": "2025-08-06",
+      "originalUrl": "https://skillseconomy.quora.com/Continuing-the-theme-of-knowing-what-skills-we-have-Which-TIs-are-or-use-to-be-lawyers",
+      "originalDate": "2025-08-07",
       "status": "erased",
       "kind": "space-post"
     }
   },
   {
-    "slug": "pedigree101/living-as-a-target-connecting-beyond-stories",
-    "title": "Living as a target — connecting beyond stories",
+    "slug": "pedigree101/why-tis-living-together-helps-us",
+    "title": "Why TIs living together helps us",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-06",
-    "excerpt": "This is a great answer about continuing to live as a Target.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/living-as-a-target-connecting-beyond-stories.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/This-is-a-great-answer-about-continuing-to-live-as-a-Target-Shameless-plug-add-to-the-list-connecting-with-other-TIs",
-      "originalDate": "2025-08-06",
-      "status": "erased",
-      "kind": "space-post",
-      "screenshot": "images/nicola-nga-2025-08-06-how-do-you-live-life-when-being-gang-stalked.jpg",
-      "screenshotAlt": "Nicola Nga's answer to the Quora question 'How do you live life when you're being gang stalked?', posted six years before the capture, under the credential 'BA Applied Sciences from Massey University, New Zealand (Graduated 2013)'. The answer reads: 'Survive it.. The only thing you can do is for yourself is survive the madness of gang stalking. I am a targeted individual, for 15 years and currently 9 months now. I have learnt the best thing for me was to take positives from this negative bs of gang stalking. It sounds insane because there is simply nothing that is positive that lies with gang stalking. However, i started to apply things into my life that will help me cope, and survive gang stalking< and it wasn't easy. So this is what i have done.' A numbered list follows: '1. Surround myself with more security personal, and home security. 2. Occupy myself with distraction. I know they are out there, always driving past, and following me etc, but i have found ways on how to pretend they don't exist. 3. Changed my eating habits, and started to eat healthier. 4. Took up something that once loved and felt so passion about 20 years ago and that was, Dance. 5. Started to re-live my life again, and not hide anymore, Socialised again. 6. Applied to become an officer, for Law Enforcement. 7. Surrounded my children positive thoughts. 8. Eliminated all areas of negativity - with gang stalking. 9. Started to be free again!' It closes: 'Just because you are a t.i. Doesn't mean we as targets have to stop living. Why should we? Its our lives, we are in control of our lives not gang-stalkers..! God Bless'. The answer shows 41K views, 236 upvotes and 10 shares, and is 1 of 196 answers.",
-      "screenshotCredit": "Nicola Nga (https://www.quora.com/How-do-you-live-life-when-you-re-being-gang-stalked/answer/Nicola-Nga)"
-    }
-  },
-  {
-    "slug": "pedigree101/off-grid-community-planning-who-owns-land",
-    "title": "Off-grid community planning: who owns land?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-06",
-    "excerpt": "Off Grid Community Planning Which TIs already own land and would like to discuss collaborating?",
-    "category": "Services",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/off-grid-community-planning-who-owns-land.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/Off-Grid-Community-Planning-Which-TIs-already-own-land-and-would-like-to-discuss-collaborating-Comment-to-this-very-th",
-      "originalDate": "2025-08-06",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "pedigree101/this-post-about-the-gang-stalking-movie-is-spot",
-    "title": "This post about the gang-stalking 'movie' is spot on",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-06",
-    "excerpt": "This post is spot on. This is the funniest part, nearly had me in tears!",
+    "date": "2025-08-07",
+    "excerpt": "This is why I am advocating for our own community or multiple TIs living together.",
     "category": "Insights",
     "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/this-post-about-the-gang-stalking-movie-is-spot.md",
+    "path": "archive/quora/pedigree101/why-tis-living-together-helps-us.md",
     "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/This-post-is-spot-on-This-is-the-funniest-part-nearly-had-me-in-tears-There-would-obviously-be-NO-MARKET-for-the-c",
-      "originalDate": "2025-08-06",
+      "originalUrl": "https://skillseconomy.quora.com/This-is-why-I-am-advocating-for-our-own-community-or-multiple-TIs-living-together-Why-When-one-of-us-is-out-there-is",
+      "originalDate": "2025-08-07",
       "status": "erased",
       "kind": "space-post"
     }
   },
   {
-    "slug": "pedigree101/two-initiatives-housing-and-getting-around",
-    "title": "Two initiatives: housing and getting around",
+    "slug": "pedigree101/why-tis-living-together-helps-us-revised",
+    "title": "Why TIs living together helps us (revised)",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-06",
-    "excerpt": "Thus far we have two initiatives going. Two distinct and separate threads.",
-    "category": "Services",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/two-initiatives-housing-and-getting-around.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/Thus-far-we-have-two-initiatives-going-Two-distinct-and-separate-threads-TIs-that-want-to-stay-where-they-are-to-matc",
-      "originalDate": "2025-08-06",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "pedigree101/why-having-another-ti-with-you-helps",
-    "title": "Why having another TI with you helps",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-06",
-    "excerpt": "Having another TI with you is beneficial, especially if they’re constantly starting physical altercations with you, as in my case.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/why-having-another-ti-with-you-helps.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/Having-another-TI-with-you-is-beneficial-especially-if-they-constantly-starting-physical-alterations-with-you-As-with-m",
-      "originalDate": "2025-08-06",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "pedigree101/would-a-documentary-change-anything",
-    "title": "Would a documentary change anything?",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-06",
-    "excerpt": "Hate to be that person. But is it that “no one” knows about it, or that most don’t give a sh*t?",
+    "date": "2025-08-07",
+    "excerpt": "This is why I am advocating for our own community or multiple TIs living together.",
     "category": "Insights",
     "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/would-a-documentary-change-anything.md",
+    "path": "archive/quora/pedigree101/why-tis-living-together-helps-us-revised.md",
     "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/Hate-to-be-that-person-But-is-it-that-no-one-knows-about-it-Or-that-most-don-t-give-a-sh-t-No-disrespect-to-any-TI",
-      "originalDate": "2025-08-06",
+      "originalUrl": "https://skillseconomy.quora.com/This-is-why-I-am-advocating-for-our-own-community-or-multiple-TIs-living-together-Why-When-one-of-us-is-out-there-is-1",
+      "originalDate": "2025-08-07",
       "status": "erased",
-      "kind": "space-post",
-      "screenshot": "images/myr-2025-08-06-lets-do-something-about-this.jpg",
-      "screenshotAlt": "MYR's post in the Quora space 'US-PSYOPS-TARGETED-INDIVIDUALS' (Share experience of targeted individuals from all walks of life, 6.2K followers), posted two years before the capture. MYR's own words read: 'Let's do something about this! I'm sick and tired of just sharing and talking.. Please'. The post carries a shared card from r/TargetedEnergyWeapons by u/targetsmilemore, titled 'A video that explains the conspiracy' under the flair 'Directed Energy Weapons', which reads: 'In order to stop this conspiracy against us, we need a large number of people to believe we're right. I think the best way to make that happen is to create an explainer video that goes viral. Does a video like that already exist that I can share with others to convince them? If it doesn't, maybe I could create a documentary that would fulfill that objective. If others here are willing to participate, maybe I could interview some of you to get audiovisual testimony. That would be more convincing than the group of us discussing the problem here on this sub. Let me know what you think of this idea or if you already have a video I could show to people.' The post shows 7.4K views, 232 upvotes, 9 shares and 129 comments. Visible replies include Sheila, Janine Saunders, Tammie Robertson Harvey, OinkOink82, VIC TERAJMEH and Golden Dime Golden Ruler of The Most High.",
-      "screenshotCredit": "MYR (https://uspsyopstargetedindividuals.quora.com/Let-s-do-something-about-this-I-m-sick-and-tired-of-just-sharing-and-talking-Please)"
+      "kind": "space-post"
     }
   },
   {
@@ -28593,6 +28451,85 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "pedigree101/initiative-two-host-a-ti",
+    "title": "Initiative two: host a TI",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-06",
+    "excerpt": "Which TIs don’t want to relocate and can host an unhoused or willing-to-relocate TI?",
+    "category": "Services",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/initiative-two-host-a-ti.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Which-TIs-don-t-want-to-relocate-and-can-host-an-unhoused-or-willing-to-relocate-TI-List-city-and-state-for-those-in",
+      "originalDate": "2025-08-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/learning-to-quote-a-post-on-quora",
+    "title": "Learning to quote a post on Quora",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-06",
+    "excerpt": "Let’s go! Can you tell I just learned today how to quote a post on Quora?",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/learning-to-quote-a-post-on-quora.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Let-s-go-Can-you-tell-I-just-learned-today-how-to-quote-a-post-on-Quora-https-www-quora-com-Im-a-targeted-individ",
+      "originalDate": "2025-08-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/living-as-a-target-connecting-beyond-stories",
+    "title": "Living as a target — connecting beyond stories",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-06",
+    "excerpt": "This is a great answer about continuing to live as a Target.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/living-as-a-target-connecting-beyond-stories.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/This-is-a-great-answer-about-continuing-to-live-as-a-Target-Shameless-plug-add-to-the-list-connecting-with-other-TIs",
+      "originalDate": "2025-08-06",
+      "status": "erased",
+      "kind": "space-post",
+      "screenshot": "images/nicola-nga-2025-08-06-how-do-you-live-life-when-being-gang-stalked.jpg",
+      "screenshotAlt": "Nicola Nga's answer to the Quora question 'How do you live life when you're being gang stalked?', posted six years before the capture, under the credential 'BA Applied Sciences from Massey University, New Zealand (Graduated 2013)'. The answer reads: 'Survive it.. The only thing you can do is for yourself is survive the madness of gang stalking. I am a targeted individual, for 15 years and currently 9 months now. I have learnt the best thing for me was to take positives from this negative bs of gang stalking. It sounds insane because there is simply nothing that is positive that lies with gang stalking. However, i started to apply things into my life that will help me cope, and survive gang stalking< and it wasn't easy. So this is what i have done.' A numbered list follows: '1. Surround myself with more security personal, and home security. 2. Occupy myself with distraction. I know they are out there, always driving past, and following me etc, but i have found ways on how to pretend they don't exist. 3. Changed my eating habits, and started to eat healthier. 4. Took up something that once loved and felt so passion about 20 years ago and that was, Dance. 5. Started to re-live my life again, and not hide anymore, Socialised again. 6. Applied to become an officer, for Law Enforcement. 7. Surrounded my children positive thoughts. 8. Eliminated all areas of negativity - with gang stalking. 9. Started to be free again!' It closes: 'Just because you are a t.i. Doesn't mean we as targets have to stop living. Why should we? Its our lives, we are in control of our lives not gang-stalkers..! God Bless'. The answer shows 41K views, 236 upvotes and 10 shares, and is 1 of 196 answers.",
+      "screenshotCredit": "Nicola Nga (https://www.quora.com/How-do-you-live-life-when-you-re-being-gang-stalked/answer/Nicola-Nga)"
+    }
+  },
+  {
+    "slug": "pedigree101/off-grid-community-planning-who-owns-land",
+    "title": "Off-grid community planning: who owns land?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-06",
+    "excerpt": "Off Grid Community Planning Which TIs already own land and would like to discuss collaborating?",
+    "category": "Services",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/off-grid-community-planning-who-owns-land.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Off-Grid-Community-Planning-Which-TIs-already-own-land-and-would-like-to-discuss-collaborating-Comment-to-this-very-th",
+      "originalDate": "2025-08-06",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "pedigree101/profile-credential",
     "title": "Profile credential",
     "repo": "chargingthefuture/wiki-site",
@@ -28608,6 +28545,25 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-08-06",
       "status": "erased",
       "kind": "credential"
+    }
+  },
+  {
+    "slug": "pedigree101/this-post-about-the-gang-stalking-movie-is-spot",
+    "title": "This post about the gang-stalking 'movie' is spot on",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-06",
+    "excerpt": "This post is spot on. This is the funniest part, nearly had me in tears!",
+    "category": "Insights",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/this-post-about-the-gang-stalking-movie-is-spot.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/This-post-is-spot-on-This-is-the-funniest-part-nearly-had-me-in-tears-There-would-obviously-be-NO-MARKET-for-the-c",
+      "originalDate": "2025-08-06",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
@@ -28630,41 +28586,63 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "pedigree101/whos-in-texas-and-wants-to-meet",
-    "title": "Who's in Texas and wants to meet?",
+    "slug": "pedigree101/two-initiatives-housing-and-getting-around",
+    "title": "Two initiatives: housing and getting around",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-05",
-    "excerpt": "Who’s in Texas and wants to meet? Inspired by: Eric Williams Reply to this post if interested.",
-    "category": "Events",
+    "date": "2025-08-06",
+    "excerpt": "Thus far we have two initiatives going. Two distinct and separate threads.",
+    "category": "Services",
     "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/whos-in-texas-and-wants-to-meet.md",
+    "path": "archive/quora/pedigree101/two-initiatives-housing-and-getting-around.md",
     "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/Who-s-in-Texas-and-wants-to-meet-Inspired-by-https-www-quora-com-profile-Eric-Williams-795-Reply-to-this-post-if-in",
-      "originalDate": "2025-08-05",
+      "originalUrl": "https://skillseconomy.quora.com/Thus-far-we-have-two-initiatives-going-Two-distinct-and-separate-threads-TIs-that-want-to-stay-where-they-are-to-matc",
+      "originalDate": "2025-08-06",
       "status": "erased",
       "kind": "space-post"
     }
   },
   {
-    "slug": "pedigree101/whos-in-vegas-and-wants-to-meet",
-    "title": "Who's in Vegas and wants to meet?",
+    "slug": "pedigree101/why-having-another-ti-with-you-helps",
+    "title": "Why having another TI with you helps",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-05",
-    "excerpt": "Who is in Vegas and wants to meet? Comment to this post if interested.",
-    "category": "Events",
+    "date": "2025-08-06",
+    "excerpt": "Having another TI with you is beneficial, especially if they’re constantly starting physical altercations with you, as in my case.",
+    "category": "Community",
     "collection": "archive/quora",
-    "path": "archive/quora/pedigree101/whos-in-vegas-and-wants-to-meet.md",
+    "path": "archive/quora/pedigree101/why-having-another-ti-with-you-helps.md",
     "listed": false,
     "archive": {
       "source": "quora",
       "account": "pedigree101",
-      "originalUrl": "https://skillseconomy.quora.com/Who-is-in-Vegas-and-wants-to-meet-Comment-to-this-post-if-interested-Inspired-by-https-www-quora-com-profile-Surviv",
-      "originalDate": "2025-08-05",
+      "originalUrl": "https://skillseconomy.quora.com/Having-another-TI-with-you-is-beneficial-especially-if-they-constantly-starting-physical-alterations-with-you-As-with-m",
+      "originalDate": "2025-08-06",
       "status": "erased",
       "kind": "space-post"
+    }
+  },
+  {
+    "slug": "pedigree101/would-a-documentary-change-anything",
+    "title": "Would a documentary change anything?",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-06",
+    "excerpt": "Hate to be that person. But is it that “no one” knows about it, or that most don’t give a sh*t?",
+    "category": "Insights",
+    "collection": "archive/quora",
+    "path": "archive/quora/pedigree101/would-a-documentary-change-anything.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Hate-to-be-that-person-But-is-it-that-no-one-knows-about-it-Or-that-most-don-t-give-a-sh-t-No-disrespect-to-any-TI",
+      "originalDate": "2025-08-06",
+      "status": "erased",
+      "kind": "space-post",
+      "screenshot": "images/myr-2025-08-06-lets-do-something-about-this.jpg",
+      "screenshotAlt": "MYR's post in the Quora space 'US-PSYOPS-TARGETED-INDIVIDUALS' (Share experience of targeted individuals from all walks of life, 6.2K followers), posted two years before the capture. MYR's own words read: 'Let's do something about this! I'm sick and tired of just sharing and talking.. Please'. The post carries a shared card from r/TargetedEnergyWeapons by u/targetsmilemore, titled 'A video that explains the conspiracy' under the flair 'Directed Energy Weapons', which reads: 'In order to stop this conspiracy against us, we need a large number of people to believe we're right. I think the best way to make that happen is to create an explainer video that goes viral. Does a video like that already exist that I can share with others to convince them? If it doesn't, maybe I could create a documentary that would fulfill that objective. If others here are willing to participate, maybe I could interview some of you to get audiovisual testimony. That would be more convincing than the group of us discussing the problem here on this sub. Let me know what you think of this idea or if you already have a video I could show to people.' The post shows 7.4K views, 232 upvotes, 9 shares and 129 comments. Visible replies include Sheila, Janine Saunders, Tammie Robertson Harvey, OinkOink82, VIC TERAJMEH and Golden Dime Golden Ruler of The Most High.",
+      "screenshotCredit": "MYR (https://uspsyopstargetedindividuals.quora.com/Let-s-do-something-about-this-I-m-sick-and-tired-of-just-sharing-and-talking-Please)"
     }
   },
   {
@@ -28706,58 +28684,39 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/this-space-is-only-for-tis",
-    "title": "This space is only for TIs.",
+    "slug": "pedigree101/whos-in-texas-and-wants-to-meet",
+    "title": "Who's in Texas and wants to meet?",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-04",
-    "excerpt": "This space is only for TIs. If you’re not a TI or a degenerate gang stalker and would like to help anonymously please donate: Donate to me the space admin:…",
-    "category": "Community",
+    "date": "2025-08-05",
+    "excerpt": "Who’s in Texas and wants to meet? Inspired by: Eric Williams Reply to this post if interested.",
+    "category": "Events",
     "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/this-space-is-only-for-tis.md",
+    "path": "archive/quora/pedigree101/whos-in-texas-and-wants-to-meet.md",
     "listed": false,
     "archive": {
       "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/This-space-is-only-for-TIs-If-you-re-not-a-TI-or-a-degenerate-gang-stalker-and-would-like-to-help-anonymously-please-d",
-      "originalDate": "2025-08-04",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Who-s-in-Texas-and-wants-to-meet-Inspired-by-https-www-quora-com-profile-Eric-Williams-795-Reply-to-this-post-if-in",
+      "originalDate": "2025-08-05",
       "status": "erased",
       "kind": "space-post"
     }
   },
   {
-    "slug": "farah-brunache/welcome-to-my-first-quora-space",
-    "title": "Welcome to my first Quora space.",
+    "slug": "pedigree101/whos-in-vegas-and-wants-to-meet",
+    "title": "Who's in Vegas and wants to meet?",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-04",
-    "excerpt": "Welcome to my first Quora space. My gang stalking became extreme in 2024.",
-    "category": "Community",
+    "date": "2025-08-05",
+    "excerpt": "Who is in Vegas and wants to meet? Comment to this post if interested.",
+    "category": "Events",
     "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/welcome-to-my-first-quora-space.md",
+    "path": "archive/quora/pedigree101/whos-in-vegas-and-wants-to-meet.md",
     "listed": false,
     "archive": {
       "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Welcome-to-my-first-Quora-space-My-gang-stalking-became-extreme-in-2024-The-overt-stalking-started-around-2022-but-20",
-      "originalDate": "2025-08-04",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/what-this-space-is-about-purpose-of-this-space",
-    "title": "What this space is about: - Purpose of this space: To help TIs survive and eventually…",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-04",
-    "excerpt": "What this space is about: - Purpose of this space: To help TIs survive and eventually thrive - Only TIs can be contributors to this space.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/what-this-space-is-about-purpose-of-this-space.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/What-this-space-is-about-Purpose-of-this-space-To-help-TIs-survive-and-eventually-thrive-Only-TIs-can-be-contri",
-      "originalDate": "2025-08-04",
+      "account": "pedigree101",
+      "originalUrl": "https://skillseconomy.quora.com/Who-is-in-Vegas-and-wants-to-meet-Comment-to-this-post-if-interested-Inspired-by-https-www-quora-com-profile-Surviv",
+      "originalDate": "2025-08-05",
       "status": "erased",
       "kind": "space-post"
     }
@@ -29048,6 +29007,44 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/this-space-is-only-for-tis",
+    "title": "This space is only for TIs.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-04",
+    "excerpt": "This space is only for TIs. If you’re not a TI or a degenerate gang stalker and would like to help anonymously please donate: Donate to me the space admin:…",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/this-space-is-only-for-tis.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/This-space-is-only-for-TIs-If-you-re-not-a-TI-or-a-degenerate-gang-stalker-and-would-like-to-help-anonymously-please-d",
+      "originalDate": "2025-08-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
+    "slug": "farah-brunache/welcome-to-my-first-quora-space",
+    "title": "Welcome to my first Quora space.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-04",
+    "excerpt": "Welcome to my first Quora space. My gang stalking became extreme in 2024.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/welcome-to-my-first-quora-space.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/Welcome-to-my-first-Quora-space-My-gang-stalking-became-extreme-in-2024-The-overt-stalking-started-around-2022-but-20",
+      "originalDate": "2025-08-04",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/what-are-the-consequences-for-someone-who-does-not-comply-with-the-pro-10",
     "title": "What are the consequences for someone who does not comply with the program after being targeted by gang…",
     "repo": "chargingthefuture/wiki-site",
@@ -29276,39 +29273,20 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
-    "slug": "farah-brunache/i-invited-someone-to-this-new-space-i-created",
-    "title": "I invited someone to this new space I created and they interpreted it as me charging TIs…",
+    "slug": "farah-brunache/what-this-space-is-about-purpose-of-this-space",
+    "title": "What this space is about: - Purpose of this space: To help TIs survive and eventually…",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-03",
-    "excerpt": "I invited someone to this new space I created and they interpreted it as me charging TIs for information and trying to profit off our plight.",
+    "date": "2025-08-04",
+    "excerpt": "What this space is about: - Purpose of this space: To help TIs survive and eventually thrive - Only TIs can be contributors to this space.",
     "category": "Community",
     "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/i-invited-someone-to-this-new-space-i-created.md",
+    "path": "archive/quora/farah-brunache/what-this-space-is-about-purpose-of-this-space.md",
     "listed": false,
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/I-invited-someone-to-this-new-space-I-created-and-they-interpreted-it-as-me-charging-TIs-for-information-and-trying-to-p",
-      "originalDate": "2025-08-03",
-      "status": "erased",
-      "kind": "space-post"
-    }
-  },
-  {
-    "slug": "farah-brunache/to-get-things-started",
-    "title": "To get things started.",
-    "repo": "chargingthefuture/wiki-site",
-    "date": "2025-08-03",
-    "excerpt": "To get things started. List your top three skills or services you can provide.",
-    "category": "Community",
-    "collection": "archive/quora",
-    "path": "archive/quora/farah-brunache/to-get-things-started.md",
-    "listed": false,
-    "archive": {
-      "source": "quora",
-      "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/To-get-things-started-List-your-top-three-skills-or-services-you-can-provide-This-way-other-TIs-can-know-if-they-shoul",
-      "originalDate": "2025-08-03",
+      "originalUrl": "https://skillseconomy.quora.com/What-this-space-is-about-Purpose-of-this-space-To-help-TIs-survive-and-eventually-thrive-Only-TIs-can-be-contri",
+      "originalDate": "2025-08-04",
       "status": "erased",
       "kind": "space-post"
     }
@@ -29641,6 +29619,25 @@ export const ARTICLES: ArticleMeta[] = [
     }
   },
   {
+    "slug": "farah-brunache/i-invited-someone-to-this-new-space-i-created",
+    "title": "I invited someone to this new space I created and they interpreted it as me charging TIs…",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-03",
+    "excerpt": "I invited someone to this new space I created and they interpreted it as me charging TIs for information and trying to profit off our plight.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/i-invited-someone-to-this-new-space-i-created.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/I-invited-someone-to-this-new-space-I-created-and-they-interpreted-it-as-me-charging-TIs-for-information-and-trying-to-p",
+      "originalDate": "2025-08-03",
+      "status": "erased",
+      "kind": "space-post"
+    }
+  },
+  {
     "slug": "farah-brunache/idea-bit-bored-today-so-tried-chatgpt-instead-of-us-looking-for-the-an",
     "title": "IDEA Bit bored today So tried ChatGPT Instead of us looking for the answers Why dont the answers come looking",
     "repo": "chargingthefuture/wiki-site",
@@ -29752,6 +29749,25 @@ export const ARTICLES: ArticleMeta[] = [
       "originalDate": "2025-08-03",
       "status": "erased",
       "kind": "post-comment"
+    }
+  },
+  {
+    "slug": "farah-brunache/to-get-things-started",
+    "title": "To get things started.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2025-08-03",
+    "excerpt": "To get things started. List your top three skills or services you can provide.",
+    "category": "Community",
+    "collection": "archive/quora",
+    "path": "archive/quora/farah-brunache/to-get-things-started.md",
+    "listed": false,
+    "archive": {
+      "source": "quora",
+      "account": "farah-brunache",
+      "originalUrl": "https://skillseconomy.quora.com/To-get-things-started-List-your-top-three-skills-or-services-you-can-provide-This-way-other-TIs-can-know-if-they-shoul",
+      "originalDate": "2025-08-03",
+      "status": "erased",
+      "kind": "space-post"
     }
   },
   {
