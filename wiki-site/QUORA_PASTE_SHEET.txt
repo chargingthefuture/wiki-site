@@ -30,6 +30,20 @@ unverified — but it is still a staging file, and the post remains the record.
 
 
 ==============================================================================
+No. 462 · 2026-11-23 · A watch page instead of the hosted reader
+
+The feed reader I ran at rss.lagatos.com, the one you could sign into with your Skills Economy account, is closing. Last month it cost a little over $7, more than the month before, and the only person signed in was me. Nothing about following the blog changes: its feed address, https://chargingthefuture.github.io/chargingthefuture/feed.xml, works in any reader app and never went through my server. The part I actually used was the collected YouTube channels, each one's upload list gathered once and cut at a date so nothing after it arrives. Those were always published from a separate repository, and now they have a page you open in a browser: https://chargingthefuture.github.io/rss-feeds/read/ lists the channels A to Z, 50 videos a page, with a Watched button, a place kept in each channel, and a way to save a video for later. Nothing loads from YouTube until you press play, so there are no thumbnails and no recommendations. It sits on GitHub's free hosting, so nobody pays for it. There is no sign-in. What you mark lives in the browser you used, does not follow you to another device, and is gone if that browser's data is cleared, so the page tells you up front to download a backup now and then and restore it wherever you want your list. Being listed there says one person watches that channel and nothing more. If you want a channel added or cut at your own date, ask me in the Skills Economy with the channel address and the date.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/a-watch-page-instead-of-a-hosted-reader
+
+==============================================================================
+No. 404 · 2026-08-18 · Dictionary: Skills Economy Terms
+
+One page holds every term this project uses: the product names, the difference between a signed-up member and a recruited one, the Specterati vocabulary, what ServiceCredits are and are not, and the full list of what the app does. It is kept current, and each change is dated at the top.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary
+
+==============================================================================
 No. 461 · 2026-11-22 · Not an exposure problem. A legal one.
 
 Kim Costello answered a Quora question about exposing the people running this with one line worth keeping: it is better to defeat them than to try to expose them. They are ready for exposure. The method has had centuries of money and people behind it, with writing on it as far back as 1609, and one scheme against me has run for more than ten years, so a post naming it was planned for long before it was written. Exposure also tells nobody nearby anything new. Spend a day around a Targeted Individual and you see it. What the people doing it work around is the law, not public opinion, and defeating it means the dependence each scheme feeds on is no longer there.
@@ -63,13 +77,6 @@ No. 458 · 2026-11-03 · Why we count days won
 The new version of Skills Economy opens on a card that says Days the Avenhood has won. Only time members spend with each other goes into it: sitting in a room together, a call, a task somebody helped with and its author confirmed. Time spent alone with the app open adds nothing. It is one shared count for everybody, with no ranking and no personal tally. Each minute in it is a minute the Specterati schemes did not get, and time back for each of us to reach our own idea of happiness. The ask is half an hour a day, given to each other.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/why-we-count-days-won
-
-==============================================================================
-No. 404 · 2026-08-18 · Dictionary: Skills Economy Terms
-
-One page holds every term this project uses: the product names, the difference between a signed-up member and a recruited one, the Specterati vocabulary, what ServiceCredits are and are not, and the full list of what the app does. It is kept current, and each change is dated at the top.
-
-Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary
 
 ==============================================================================
 No. 457 · 2026-10-16 · What they know is not the hold

@@ -35,7 +35,7 @@ https://chargingthefuture.github.io/rss-feeds/read/
 
 Channels A to Z, 50 videos a page, newest or oldest first. Each video has a Watched button, and a channel reopens where you left it. You can save a video to come back to. Nothing loads from YouTube until you press play: no thumbnails, no recommendations, nothing from elsewhere on the site. The page lives on GitHub's free hosting for public pages, so nobody pays for it.
 
-A channel being on that page says one person reads it, and nothing else. The repository has its own note on what a listing there does and does not mean.
+A channel being on that page says one person reads it, and nothing else. The repository has its own note on what a listing there does and does not mean: https://github.com/chargingthefuture/rss-feeds/blob/main/DISCLAIMER.md
 
 ## No sign-in, so keep a backup
 
