@@ -31,6 +31,26 @@ Canonical source: [`chargingthefuture/chargingthefuture` → `.github/instructio
 - Multiple introductory sentences before the actual content.
 - Filler comments or padding.
 
+### No running commentary while working (owner directive, 2026-11-23)
+- Do not narrate work in progress: no text between tool calls announcing what was just found or what comes next. The owner follows the session on a phone, and every such line is output the account pays for.
+- Write text only when the work is done, when it is blocked on something only the owner can decide or do, or when a decision changes what the owner gets (a different approach than asked, something skipped).
+- A tool call's short description field is not commentary and stays.
+
+### Banned pleasantries (enforced by the Stop hook)
+- Never in a reply: thanks / thank you, you're welcome, no problem, my pleasure, glad, happy to, excited, delighted, sorry, any form of apology, cheers, congrats / congratulations, "I appreciate" / "we appreciate", "hope this / that / you / it", feel free, warm / best / kind regards, looking forward.
+- `.claude/hooks/check-no-pleasantries.mjs` blocks a reply that carries one of these or a word in Excluded Vocabulary below, and asks for a plain restatement. The hook is the source of truth; if this list and the hook differ, the hook wins. Keep the two in step. When it blocks, restate once, briefly, then stop.
+
+### Plain language
+- No jargon, acronyms or insider terms in replies, pull requests, commit messages, comments or documentation. Prefer the plain word ("make sure" over "ensure idempotency").
+- If a technical term is genuinely needed, define it in plain words on first use. Code identifiers, file paths, command names and proper nouns are exempt.
+
+### American English (owner directive, 2026-11-23)
+- Replies, pull requests, commit messages, code comments and documentation use American spelling too, not only the posts (see US Spelling below): "color", "behavior", "organize", "center", "license", "canceled", "gray".
+- Code identifiers, paths, quoted text and proper nouns keep their exact spelling.
+
+### No phases
+- Never break work into "Phase 1 / Phase 2" or phased buckets. List tasks one after another in the order they must happen, and name a blocking dependency where order matters ("B is blocked by A").
+
 ### Information Density Priority
 - Max substantive content per message.
 - Min transitional or explanatory language.
@@ -42,9 +62,11 @@ Canonical source: [`chargingthefuture/chargingthefuture` → `.github/instructio
 | Do not use | Use instead | Reason |
 |---|---|---|
 | punch list | list | Jargon; unclear meaning. |
+| flywheel | a plain description of the loop (for example "each answer improves the next") | Jargon. |
+| console | dashboard | Developer jargon for a screen. The code identifiers `console.log`, `console.error` and `console.info` are exempt. |
 | stale | drop the word; if you mean something specific, name it (out-of-date, superseded, no longer current) | "Deprecated" means retired, not out of date. Matches the product repository. |
-| whole | entire, all of, end to end, or drop it | Owner directive, 2026-08-28, widened 2026-09-13 and 2026-09-19: the word itself, in every frame. See below. |
-| point of the thing | end on the fact itself | Owner directive, 2026-08-29. See below. |
+| whole, wholly | entire, all of, end to end, or drop it | Owner directive, 2026-08-28, widened 2026-09-13 and 2026-09-19: the word itself, in every frame. See below. |
+| point of the thing; "that/this/which/it is the point of / here" | end on the fact itself | Owner directive, 2026-08-29. See below. |
 
 Both are one habit: the sentence that arrives after the facts to tell the reader which of them
 mattered. It reads as insistence, and a reader can weigh facts without being told which to weigh.
@@ -827,7 +849,7 @@ word legitimately: the Signal chats, which really are invite-only, and the froze
 
 ## Agent Slash Commands (always apply, every repo)
 
-Owner directives, 2026-08-17, 2026-09-22 and 2026-09-26 (`/bpr` renamed `/br`). Four routines are defined in `.claude/commands/` in the product repo (`chargingthefuture/chargingthefuture`). Each is the standing way to do its kind of work, and the owner does not have to type the slash command for it to apply — the request itself is the trigger. Three of the four apply here, and `/fix` applies here more than anywhere, because this repository is almost entirely writing.
+Owner directives, 2026-08-17, 2026-09-22 and 2026-09-26 (`/bpr` renamed `/br`). These routines are defined in `.claude/commands/` in the product repo (`chargingthefuture/chargingthefuture`) and the `chargingthefuture/agents` baseline. Each is the standing way to do its kind of work, and the owner does not have to type the slash command for it to apply — the request itself is the trigger. This repository carries its own copies of `/br`, `/pr`, `/fix`, `/fl`, `/s` and `/sync` in `.claude/commands/`, adapted to its checks, and `/fix` applies here more than anywhere, because this repository is almost entirely writing.
 
 ### /br — every executed change
 
@@ -881,6 +903,14 @@ Defined here, in `.claude/commands/s.md`, because it is this repository's work. 
 fixes any paste sheet `No. N` the check names, runs the other checks, commits and pushes on a
 branch (never `main`). Use it when a post merged ahead of another and the one behind carries a
 feed number that is now taken. Reply is three lines: branch, numbers changed, PR link.
+
+### /fl — is anything still in flight?
+
+The owner asks this before archiving a chat. It is only about work that exists nowhere but the session: uncommitted changes, unpushed commits, a pushed branch with no PR, a scheduled check-in still armed, and anything asked for and never started. An open PR is not one. Finish what is found, then answer in a few lines.
+
+### /sync — match the agents baseline
+
+Brings this repository's rules, Stop hook and shared commands in line with `chargingthefuture/agents`, keeping everything that belongs to this repository alone, as one PR.
 
 ### /cr — product repo only
 
