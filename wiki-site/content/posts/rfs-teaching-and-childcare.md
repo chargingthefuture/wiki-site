@@ -71,6 +71,6 @@ That is why a request like this matters more than it looks. Nobody is going to b
 - [ServiceCredits](https://app.lagatos.com/apps/service-credits) — [guide](https://app.lagatos.com/guide#service-credits)
 - [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
 - [Skills Taxonomy](https://app.lagatos.com/apps/skills-taxonomy) — [guide](https://app.lagatos.com/guide#skills-taxonomy)
-- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Commons — the group chat](https://app.lagatos.com/commons) — [guide](https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

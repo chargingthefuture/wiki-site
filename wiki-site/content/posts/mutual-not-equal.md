@@ -92,6 +92,6 @@ Come with something, know who you are asking, and stop measuring it against equa
 - [ServiceCredits](https://app.lagatos.com/apps/service-credits) — [guide](https://app.lagatos.com/guide#service-credits)
 - [Recurring Activity](https://app.lagatos.com/apps/recurring-activity) — [guide](https://app.lagatos.com/guide#recurring-activity)
 - [Trust](https://app.lagatos.com/apps/trust) — [guide](https://app.lagatos.com/guide#trust)
-- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Commons — the group chat](https://app.lagatos.com/commons) — [guide](https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
