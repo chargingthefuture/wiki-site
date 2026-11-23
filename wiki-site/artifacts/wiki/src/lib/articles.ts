@@ -39,6 +39,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "not-an-exposure-problem",
+    "title": "Not an exposure problem. A legal one.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-11-22",
+    "excerpt": "Kim Costello answered on Quora that it is better to defeat them than to try to expose them. The people running this are prepared for exposure, and anybody who spends a day near a Targeted Individual can already see it. What they arrange their behavior around is the law.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/not-an-exposure-problem.md",
+    "teaser": "Asked on Quora how to expose the people running this, Kim Costello answered that it is better to defeat them: they are prepared for exposure, and the effort is used to make you look crazy. That is fighting by the method, and it is the ethos of Peace Battle 2. The method is built into the economy and has had centuries of money, people and time put into it; the earliest writing I have found on it dates to 1609. One scheme against me, the Forced Homecoming, has run for more than ten years, and an operation that patient planned for the post that names it. Exposure also answers a question nobody nearby is asking. Anybody who spends a day around a Targeted Individual sees what is happening. Plausible deniability is built for a courtroom, not an audience: they adjust to get around the law, not around public opinion. Defeat is what is left, and it looks like the dependence each scheme needs no longer being there to use.",
+    "topics": [
+      "community",
+      "skills-economy"
+    ],
+    "number": 461
+  },
+  {
     "slug": "one-small-task-on-today",
     "title": "One small task, on Today",
     "repo": "chargingthefuture/wiki-site",
