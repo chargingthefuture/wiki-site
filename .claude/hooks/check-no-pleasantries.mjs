@@ -1,12 +1,12 @@
 #!/usr/bin/env node
-// Stop hook: enforce the plain-voice rule (see AGENTS.md "Voice — no pleasantries, no feelings").
+// Stop hook: enforce the plain-voice rule (see CLAUDE.md "Voice — no pleasantries, no feelings").
 // If the assistant's last reply contains a pleasantry, sign-off, or first-person feeling word, block
 // the stop and ask for a plain restatement. Defensive by design: any error -> allow (never break a
 // session or hard-fail). Loop-safe: if we are already in a stop-hook continuation, do not re-block.
 //
-// This file is the canonical dictionary. AGENTS.md documents the same lists for humans; if the two
-// ever differ, this file wins. Copy this hook into a new repo's .claude/hooks/ and register it as a
-// Stop hook (see agents/README.md and agents/settings.example.json).
+// This file is the canonical dictionary. CLAUDE.md documents the same lists for humans; if the two
+// ever differ, this file wins. Copied from the chargingthefuture/agents baseline; registered as a
+// Stop hook in .claude/settings.json.
 import { readFileSync } from 'node:fs';
 
 // Tight list — clear pleasantries / sign-offs / feeling words. "appreciate" is matched only in the
@@ -34,7 +34,7 @@ const BANNED = [
 
 // Excluded vocabulary — jargon / misused words agents must not use. Each entry pairs the banned
 // term with its plain replacement so the block message can name what to use instead. Edit this list
-// to fit the new repo; keep AGENTS.md's copy in step with it.
+// to fit this repo; keep CLAUDE.md's copy in step with it.
 const VOCABULARY = [
   { re: /\bflywheel\b/i, use: 'a plain description of the loop (e.g. "each answer improves the next")' },
   { re: /\bpunch list\b/i, use: 'list' },
@@ -52,6 +52,8 @@ const VOCABULARY = [
   // as insistence, and a reader can weigh facts without being told which one to weigh.
   { re: /\b(?:that|this|which|it) is the point (?:of|here)\b/i,
     use: 'end on the fact itself -- if a sentence only labels what came before it, delete it' },
+  // Owner directive, 2026-08-29: the same habit in another wording.
+  { re: /\bpoint of the thing\b/i, use: 'end on the fact itself, with no sentence explaining that it mattered' },
 ];
 
 function readStdin() {
