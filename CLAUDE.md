@@ -79,7 +79,7 @@ delighted, sorry, "hope this helps", "I appreciate"). You have no feelings; do n
 No jargon, no buzzwords. State the result or the next step in plain words, then stop.
 
 This is enforced by the Stop hook `.claude/hooks/check-no-pleasantries.mjs`, registered in
-`.claude/settings.json`,, which blocks a reply that
+`.claude/settings.json`, which blocks a reply that
 contains a banned term and asks for a plain restatement.
 
 ### No running commentary while working (owner directive, 2026-11-23)
