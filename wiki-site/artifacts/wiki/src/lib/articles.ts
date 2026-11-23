@@ -4876,7 +4876,7 @@ export const ARTICLES: ArticleMeta[] = [
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Part-of-the-answer-to-the-below-Quora-question-is-to-work-and-live-among-TIs-A-solution-that-was-proven-in-the-early",
+      "originalUrl": "https://skillseconomy.quora.com/Part-of-the-answer-to-the-below-Quora-question-is-to-work-and-live-amongst-TIs-A-solution-that-was-proven-in-the-early",
       "originalDate": "2026-07-06",
       "status": "erased",
       "kind": "space-post"
