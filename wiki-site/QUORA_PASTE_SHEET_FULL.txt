@@ -532,7 +532,7 @@ Capabilities in the app today
 
 Retired capabilities keep their names only in old posts, as historical record: MechanicMatch, CompareNotes, LostMail, GentlePulse, SupportMatch, Feed.
 
-If a term is missing or wrong, say so in the app's Commons chat (https://app.lagatos.com) — this page changes the same day.
+If a term is missing or wrong, say so in the app's Commons chat (https://app.lagatos.com/commons) — this page changes the same day.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary
 
@@ -1380,7 +1380,7 @@ Where to find it in the app
 - Foundation (https://app.lagatos.com/apps/foundation) — guide (https://app.lagatos.com/guide#foundation)
 - LightHouse (https://app.lagatos.com/apps/lighthouse) — guide (https://app.lagatos.com/guide#lighthouse)
 - PeerProgramming (https://app.lagatos.com/apps/peer-programming?tab=goals) — guide (https://app.lagatos.com/guide#peer-programming)
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
@@ -1660,7 +1660,7 @@ And the Commons (https://app.lagatos.com/commons), the group chat in the app, is
 Where to find it in the app
 
 - ClickLog (https://app.lagatos.com/apps/click-log) — guide (https://app.lagatos.com/guide#click-log)
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
@@ -2244,7 +2244,7 @@ Where to find it in the app
 
 - Directory (https://app.lagatos.com/apps/directory) — guide (https://app.lagatos.com/guide#directory)
 - PeerProgramming (https://app.lagatos.com/apps/peer-programming?tab=goals) — guide (https://app.lagatos.com/guide#peer-programming)
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
@@ -2429,7 +2429,7 @@ Where to find it in the app
 
 - Directory (https://app.lagatos.com/apps/directory) — guide (https://app.lagatos.com/guide#directory)
 - Foundation (https://app.lagatos.com/apps/foundation) — guide (https://app.lagatos.com/guide#foundation)
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 - Workforce (https://app.lagatos.com/apps/workforce) — guide (https://app.lagatos.com/guide#workforce)
 - Unlock (https://app.lagatos.com/plugin/unlock) — guide (https://app.lagatos.com/guide#unlock)
 
@@ -2744,7 +2744,7 @@ Most of the damage is material: a job, a home, money that does not stretch. The 
 
 Where to find it in the app
 
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 - Directory (https://app.lagatos.com/apps/directory) — guide (https://app.lagatos.com/guide#directory)
 - Foundation (https://app.lagatos.com/apps/foundation) — guide (https://app.lagatos.com/guide#foundation)
 
@@ -2848,7 +2848,7 @@ The Commons (https://app.lagatos.com/commons) is a group chat of other Targeted 
 Where to find it in the app
 
 - ClickLog (https://app.lagatos.com/apps/click-log) — guide (https://app.lagatos.com/guide#click-log)
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
@@ -2903,7 +2903,7 @@ Sign in to get access to the world's first directory of 300+ self-identified Tar
 
 Where to find it in the app
 
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 - Directory (https://app.lagatos.com/apps/directory) — guide (https://app.lagatos.com/guide#directory)
 - Foundation (https://app.lagatos.com/apps/foundation) — guide (https://app.lagatos.com/guide#foundation)
 - Unlock (https://app.lagatos.com/plugin/unlock) — guide (https://app.lagatos.com/guide#unlock)
@@ -2945,7 +2945,7 @@ How I can help (https://chargingthefuture.github.io/chargingthefuture/article/wi
 
 Where to find it in the app
 
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 - Directory (https://app.lagatos.com/apps/directory) — guide (https://app.lagatos.com/guide#directory)
 - Foundation (https://app.lagatos.com/apps/foundation) — guide (https://app.lagatos.com/guide#foundation)
 - ClickLog (https://app.lagatos.com/apps/click-log) — guide (https://app.lagatos.com/guide#click-log)
@@ -3481,7 +3481,7 @@ Sign in to get access to the world's first directory of 300+ self-identified Tar
 
 Where to find it in the app
 
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 - Directory (https://app.lagatos.com/apps/directory) — guide (https://app.lagatos.com/guide#directory)
 - Foundation (https://app.lagatos.com/apps/foundation) — guide (https://app.lagatos.com/guide#foundation)
 - Unlock (https://app.lagatos.com/plugin/unlock) — guide (https://app.lagatos.com/guide#unlock)
@@ -3526,7 +3526,7 @@ None of that stops it on its own. It does mean not carrying it alone.
 Where to find it in the app
 
 - ClickLog (https://app.lagatos.com/apps/click-log) — guide (https://app.lagatos.com/guide#click-log)
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 - Directory (https://app.lagatos.com/apps/directory) — guide (https://app.lagatos.com/guide#directory)
 - Foundation (https://app.lagatos.com/apps/foundation) — guide (https://app.lagatos.com/guide#foundation)
 
@@ -3749,7 +3749,7 @@ Sign in to get access to the world's first directory of 300+ self-identified Tar
 
 Where to find it in the app
 
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 - ClickLog (https://app.lagatos.com/apps/click-log) — guide (https://app.lagatos.com/guide#click-log)
 - Directory (https://app.lagatos.com/apps/directory) — guide (https://app.lagatos.com/guide#directory)
 - Foundation (https://app.lagatos.com/apps/foundation) — guide (https://app.lagatos.com/guide#foundation)
@@ -3807,7 +3807,7 @@ None of that stops it on its own. It does mean not carrying it alone.
 Where to find it in the app
 
 - ClickLog (https://app.lagatos.com/apps/click-log) — guide (https://app.lagatos.com/guide#click-log)
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 - Directory (https://app.lagatos.com/apps/directory) — guide (https://app.lagatos.com/guide#directory)
 - Foundation (https://app.lagatos.com/apps/foundation) — guide (https://app.lagatos.com/guide#foundation)
 
@@ -4213,7 +4213,7 @@ Where to find it in the app
 - LightHouse (https://app.lagatos.com/apps/lighthouse) — guide (https://app.lagatos.com/guide#lighthouse)
 - SocketRelay (https://app.lagatos.com/apps/socket-relay) — guide (https://app.lagatos.com/guide#socket-relay)
 - ClickLog (https://app.lagatos.com/apps/click-log) — guide (https://app.lagatos.com/guide#click-log)
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
@@ -4342,7 +4342,7 @@ Where to find it in the app
 - SocketRelay (https://app.lagatos.com/apps/socket-relay) — guide (https://app.lagatos.com/guide#socket-relay)
 - LightHouse (https://app.lagatos.com/apps/lighthouse) — guide (https://app.lagatos.com/guide#lighthouse)
 - ServiceCredits (https://app.lagatos.com/apps/service-credits) — guide (https://app.lagatos.com/guide#service-credits)
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
@@ -4427,7 +4427,7 @@ Where to find it in the app
 - ClickLog (https://app.lagatos.com/apps/click-log) — guide (https://app.lagatos.com/guide#click-log)
 - SocketRelay (https://app.lagatos.com/apps/socket-relay) — guide (https://app.lagatos.com/guide#socket-relay)
 - Foundation (https://app.lagatos.com/apps/foundation) — guide (https://app.lagatos.com/guide#foundation)
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
@@ -4512,7 +4512,7 @@ Where to find it in the app
 - Directory (https://app.lagatos.com/apps/directory) — guide (https://app.lagatos.com/guide#directory)
 - SocketRelay (https://app.lagatos.com/apps/socket-relay) — guide (https://app.lagatos.com/guide#socket-relay)
 - Foundation (https://app.lagatos.com/apps/foundation) — guide (https://app.lagatos.com/guide#foundation)
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
@@ -4659,7 +4659,7 @@ What it promises is smaller. That the number of things in your week running thro
 
 Where to find it in the app
 
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 - Fireside (https://app.lagatos.com/apps/fireside) — guide (https://app.lagatos.com/guide#fireside)
 - TI Radio (https://app.lagatos.com/apps/ti-radio) — guide (https://app.lagatos.com/guide#ti-radio)
 - Chyme (https://app.lagatos.com/apps/chyme) — guide (https://app.lagatos.com/guide#chyme)
@@ -4829,7 +4829,7 @@ Where to find it in the app
 - ServiceCredits (https://app.lagatos.com/apps/service-credits) — guide (https://app.lagatos.com/guide#service-credits)
 - Recurring Activity (https://app.lagatos.com/apps/recurring-activity) — guide (https://app.lagatos.com/guide#recurring-activity)
 - Trust (https://app.lagatos.com/apps/trust) — guide (https://app.lagatos.com/guide#trust)
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
@@ -6769,7 +6769,7 @@ They do not have to be a survivor, and they do not have to have an account. Most
 
 If the software is what stops you
 
-If you would run a cohort but the tooling would not carry what you want to do, say so in the Commons group chat (https://app.lagatos.com) and I will build it.
+If you would run a cohort but the tooling would not carry what you want to do, say so in the Commons group chat (https://app.lagatos.com/commons) and I will build it.
 
 Describe what would let you train more people, or train them better, and it gets built.
 
@@ -7026,7 +7026,7 @@ Where to find it in the app
 - ServiceCredits (https://app.lagatos.com/apps/service-credits) — guide (https://app.lagatos.com/guide#service-credits)
 - Foundation (https://app.lagatos.com/apps/foundation) — guide (https://app.lagatos.com/guide#foundation)
 - Skills Taxonomy (https://app.lagatos.com/apps/skills-taxonomy) — guide (https://app.lagatos.com/guide#skills-taxonomy)
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
@@ -7138,7 +7138,7 @@ Where to find it in the app
 - PeerProgramming (https://app.lagatos.com/apps/peer-programming) — guide (https://app.lagatos.com/guide#peer-programming)
 - Skills Taxonomy (https://app.lagatos.com/apps/skills-taxonomy) — guide (https://app.lagatos.com/guide#skills-taxonomy)
 - WhatWorks (https://app.lagatos.com/apps/what-works) — guide (https://app.lagatos.com/guide#what-works)
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
@@ -7201,7 +7201,7 @@ Where to find it in the app
 - Workforce (https://app.lagatos.com/apps/workforce) — guide (https://app.lagatos.com/guide#workforce)
 - Skills Taxonomy (https://app.lagatos.com/apps/skills-taxonomy) — guide (https://app.lagatos.com/guide#skills-taxonomy)
 - SkillsHunt (https://app.lagatos.com/apps/skills-hunt) — guide (https://app.lagatos.com/guide#skills-hunt)
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 - Unlock (https://app.lagatos.com/plugin/unlock) — guide (https://app.lagatos.com/guide#unlock)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
@@ -7699,7 +7699,7 @@ Where to find it in the app
 - Directory (https://app.lagatos.com/apps/directory) — guide (https://app.lagatos.com/guide#directory)
 - ClickLog (https://app.lagatos.com/apps/click-log) — guide (https://app.lagatos.com/guide#click-log)
 - Foundation (https://app.lagatos.com/apps/foundation) — guide (https://app.lagatos.com/guide#foundation)
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
@@ -9129,7 +9129,7 @@ And the list itself grows. When a scheme has no name yet, holders of the Weavers
 Where to find it in the app
 
 - ClickLog (https://app.lagatos.com/apps/click-log) — guide (https://app.lagatos.com/guide#click-log)
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 - Unlock (https://app.lagatos.com/plugin/unlock) — guide (https://app.lagatos.com/guide#unlock)
 
 The problems list is public too, alongside the answer built for each one: lagatos.com/look-ma (https://lagatos.com/look-ma).
@@ -9180,7 +9180,7 @@ Where to find it in the app
 - Directory (https://app.lagatos.com/apps/directory) — guide (https://app.lagatos.com/guide#directory)
 - Workforce (https://app.lagatos.com/apps/workforce) — guide (https://app.lagatos.com/guide#workforce)
 - Skills Taxonomy (https://app.lagatos.com/apps/skills-taxonomy) — guide (https://app.lagatos.com/guide#skills-taxonomy)
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 - Unlock (https://app.lagatos.com/plugin/unlock) — guide (https://app.lagatos.com/guide#unlock)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
@@ -9234,7 +9234,7 @@ The August 20 incident is also the kind of thing ClickLog exists for. A dated en
 
 Where to find it in the app
 
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 - ClickLog (https://app.lagatos.com/apps/click-log) — guide (https://app.lagatos.com/guide#click-log)
 - SocketRelay (https://app.lagatos.com/apps/socket-relay) — guide (https://app.lagatos.com/guide#socket-relay)
 - Foundation (https://app.lagatos.com/apps/foundation) — guide (https://app.lagatos.com/guide#foundation)
@@ -9614,12 +9614,12 @@ That is not the full picture, and I know it. It is the seed.
 
 How to add to it
 
-If you experience a type of attack that is not on this list, comment in the Commons group chat (https://app.lagatos.com) in the app. Describe what it feels like in your own words; a plain name for it gets worked out in the thread. The list grows the way the schemes list grows: from what members actually report, one named entry at a time.
+If you experience a type of attack that is not on this list, comment in the Commons group chat (https://app.lagatos.com/commons) in the app. Describe what it feels like in your own words; a plain name for it gets worked out in the thread. The list grows the way the schemes list grows: from what members actually report, one named entry at a time.
 
 Where to find it in the app
 
 - ClickLog (https://app.lagatos.com/apps/click-log) — guide (https://app.lagatos.com/guide#click-log)
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 
@@ -9924,7 +9924,7 @@ The app is free. If you have a skill, it is one of the 650, and someone here wil
 Where to find it in the app
 
 - Workforce (https://app.lagatos.com/apps/workforce) — guide (https://app.lagatos.com/guide#workforce)
-- Commons — the group chat (https://app.lagatos.com) — guide (https://app.lagatos.com/guide#commons)
+- Commons — the group chat (https://app.lagatos.com/commons) — guide (https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
 

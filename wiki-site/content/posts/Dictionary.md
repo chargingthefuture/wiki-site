@@ -171,4 +171,4 @@ DEW — Directed Energy Weapon.
 
 Retired capabilities keep their names only in old posts, as historical record: MechanicMatch, CompareNotes, LostMail, GentlePulse, SupportMatch, Feed.
 
-If a term is missing or wrong, say so in the app's [Commons chat](https://app.lagatos.com) — this page changes the same day.
+If a term is missing or wrong, say so in the app's [Commons chat](https://app.lagatos.com/commons) — this page changes the same day.
