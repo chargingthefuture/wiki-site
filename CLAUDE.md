@@ -71,6 +71,127 @@ none of the numbers or claims changed. The generated files that copy from them �
 The manifesto (`The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP.md`) is the exception and still
 carries it, because the owner froze that page outright and that freeze has not been lifted.
 
+## Voice — no pleasantries, no feelings (Critical — every reply, all agents)
+
+Do not address the user with thanks, apologies, congratulations, well-wishes, encouragement, or
+closing sign-offs. Do not use first-person feeling words (for example: glad, happy, excited,
+delighted, sorry, "hope this helps", "I appreciate"). You have no feelings; do not perform them.
+No jargon, no buzzwords. State the result or the next step in plain words, then stop.
+
+This is enforced by the Stop hook `.claude/hooks/check-no-pleasantries.mjs`, registered in
+`.claude/settings.json`, which blocks a reply that
+contains a banned term and asks for a plain restatement.
+
+### No running commentary while working (owner directive, 2026-11-23)
+
+Do not narrate work in progress. No text between tool calls that announces what was just found or
+what comes next ("Shallow clone breaks the build. Unshallowing and resyncing."). The user follows the
+session on a phone, and every such line is output the account pays for and a line they scroll past.
+Run the tools without a word in between. Write text only when:
+
+- the work is done — the result, in a few lines;
+- the work is blocked on something only the user can decide or do; or
+- a decision changes what the user gets (a different approach than asked, something skipped).
+
+A tool call's short description field is not commentary and stays.
+
+### Banned-term dictionary (every reply, all agents)
+
+The Stop hook `.claude/hooks/check-no-pleasantries.mjs` holds the canonical list and is the source of
+truth; if this copy and the hook ever differ, the hook wins. Keep the two in sync — when you
+change one, change the other. The hook scans the entire reply and matches the term even inside
+quotes, so do not reach for a banned word even to talk about it; use the replacement below instead.
+
+Pleasantries, feelings, and sign-offs — never use any of these (in any reply):
+
+- thanks / thank you
+- you're welcome / you are welcome
+- no problem
+- my pleasure
+- glad
+- happy to
+- excited
+- delighted
+- sorry
+- apology / apologies / apologize / apologise (any form)
+- cheers
+- congrats / congratulations
+- "I appreciate" / "we appreciate" (only the first-person form is banned; "the rate appreciates" is fine)
+- "hope this / hope that / hope you / hope it …"
+- feel free
+- warm / best / kind / kindest regards
+- looking forward
+
+Excluded vocabulary — banned word → use instead:
+
+- flywheel → a plain description of the loop (for example "each answer improves the next")
+- punch list → list
+- (the word for out-of-date) → drop it; if you mean something specific, name it (out-of-date, superseded, no longer current)
+- console → dashboard (the code identifiers `console.log` / `console.error` / `console.info` are exempt)
+- (the word for "entire", in every frame, including "that is the … point") → entire, all of, end to end, or drop it
+- (the sentence after the facts that says which of them mattered) → delete it and end on the fact itself
+
+This list governs replies. Excluded Vocabulary above governs the published writing as well, and
+`pnpm wiki:banned-words` enforces it on `content/`.
+
+When the hook blocks a reply, restate the result in plain, factual language — none of the terms
+above, no jargon, no first-person feeling words — then stop.
+
+## Plain language — no jargon (Critical — all agents)
+
+Write in plain, everyday language. Do not use jargon, acronyms, or insider terminology in
+human-facing output — chat replies, pull-request titles and descriptions, review comments, commit
+messages, issue comments, and documentation. Jargon is a distraction and is confusing; it slows the
+reader down and hides meaning.
+
+- Default to simple words. Prefer the plain term over the technical or marketing one (for example
+  "test it before you rely on it" over "validate end-to-end"; "make sure" over "ensure idempotency";
+  "the background service" over "the daemon"). Write so a non-specialist can follow.
+- If a technical term is genuinely necessary, define it in plain words on first use — one short
+  parenthetical is enough. Do not assume the reader knows acronyms; spell them out the first time.
+- Explain, don't just name. Say what something does and why it matters, not only its label.
+- Exempt: real code identifiers, file paths, command names, and established proper nouns (service
+  names, library names) — name those accurately; just don't pile extra jargon around them.
+- Applies to every agent and all human-facing communication. When in doubt, choose the wording a
+  newcomer would understand.
+
+## American English (owner directive, 2026-11-23 — all agents)
+
+Write everything in American English spelling and usage: chat replies, pull-request titles and
+descriptions, review and issue comments, commit messages, code comments, documentation, and any text
+an agent adds to a product. Use "color", "behavior", "organize", "center", "license" (noun and verb),
+"canceled", "gray" — not "colour", "behaviour", "organise", "centre", "licence", "cancelled", "grey".
+
+- Exempt: real code identifiers, file paths, command names, quoted text, and proper nouns, which
+  keep their exact spelling.
+- When editing text that already uses British spelling, switch the lines you touch to American
+  spelling.
+
+Published writing is held to this by `pnpm wiki:spelling`; see US Spelling below.
+
+## Task planning — no "phases" (Critical)
+
+Do not organize work into "phases." No "Phase 0 / Phase 1 / Phase 2", no phased-rollout buckets —
+anywhere: plans, checklists, design notes, code comments, pull-request descriptions, or commit
+messages. Phases confuse humans and agents alike.
+
+Instead, when given an objective, break it into discrete tasks and list them one after another in
+the order they must happen. Where order matters, state it as an explicit blocking dependency, not a
+phase:
+
+- ✅ "Task B is blocked by Task A — do A first."
+- ✅ A flat, ordered, numbered task list (1, 2, 3 …) where each item may name what it depends on.
+- ❌ "Phase 1: …", "Phase 2: …", "do this in a later phase."
+
+A task with no dependency can be done at any time or in parallel; say so plainly ("no dependencies;
+can run anytime").
+
+## Search tooling (optional convenience)
+
+- Prefer `rg` (ripgrep) for recursive text and file discovery.
+- Keep a grep fallback in scripts and prompts where a search command is shown, so they run anywhere:
+  - `if command -v rg >/dev/null 2>&1; then rg -n "pattern" path; else grep -RIn "pattern" path; fi`
+
 ## Architecture (publishing pipeline)
 
 - Content source of truth: markdown files with YAML front matter under `wiki-site/content/`, organized in collections (`posts/`, `product-updates/`, `guides/`, `insights/`, `member-of-the-day/`, `archive/discourse/`, `archive/quora/`, shared `images/`). Schema: `wiki-site/content/README.md`.
@@ -274,6 +395,21 @@ the rest of a file.
 - Use the pattern `<type>/<short-description>`, e.g. `fix/blog-dates-et-label`, `feat/category-filter`, `ci/submodule-checkout`.
 - PR titles must match: concise, action-oriented, no random strings.
 - If a branch was created with a bad name, rename it before opening the PR: create a new descriptive branch from the same commits, open the PR from that, close the old one, delete the old branch.
+- Carry the branch through to a merged pull request, then delete it. See Pull Requests and the Merge Lifecycle below.
+
+## Pull Requests and the Merge Lifecycle (all agents)
+
+A task is finished when the change is merged and the branch is deleted, not when the text is written.
+
+1. Open a pull request when the work is complete, ready for review, with a plain title and a body
+   that says what changed and why.
+2. Do not watch it. Report once and stop (see No PR watching below).
+3. Keep it mergeable. When `main` moves ahead and a request conflicts, bring `main` in and resolve
+   the conflict keeping both sides' intent; a post PR uses `/s`. If either resolution changes what a
+   reader sees and the right one is unclear, stop and ask.
+4. Merge is the owner's in this repository. Auto-merge is off and every PR waits on a human merge
+   (see What CI checks in this repo). Never merge around that, and never over a failing check.
+5. Delete the head branch once the request is merged.
 
 ## One Post per Pull Request (owner directive, 2026-09-25)
 
@@ -828,7 +964,16 @@ word legitimately: the Signal chats, which really are invite-only, and the froze
 
 ## Agent Slash Commands (always apply, every repo)
 
-Owner directives, 2026-08-17, 2026-09-22 and 2026-09-26 (`/bpr` renamed `/br`). Four routines are defined in `.claude/commands/` in the product repo (`chargingthefuture/chargingthefuture`). Each is the standing way to do its kind of work, and the owner does not have to type the slash command for it to apply — the request itself is the trigger. Three of the four apply here, and `/fix` applies here more than anywhere, because this repository is almost entirely writing.
+Owner directives, 2026-08-17, 2026-09-22 and 2026-09-26 (`/bpr` renamed `/br`). The shared routines come from the `chargingthefuture/agents` baseline and sit in this repository's `.claude/commands/`, adapted to its checks. Each is the standing way to do its kind of work, and the owner does not have to type the slash command for it to apply — the request itself is the trigger. `/fix` applies here more than anywhere, because this repository is almost entirely writing.
+
+| Command | Applies when |
+|---|---|
+| `/br` | Any request that changes files. |
+| `/pr` | Open pull requests are blocked, behind, conflicted or failing checks. |
+| `/fix` | The owner points at a sentence that does not read right. |
+| `/fl` | The owner asks whether the chat can be archived. |
+| `/sync` | The owner asks to bring the repo in line with the `agents` baseline. |
+| `/s` | A post merged ahead of another and the registry or feed numbers need settling. |
 
 ### /br — every executed change
 
@@ -874,6 +1019,14 @@ Fix the same wording wherever else it sits — the post, its `excerpt` and `teas
 The date does not move and no dated correction is published. Nothing a reader acted on was wrong; the wording was hard to read. Dated corrections are for a wrong claim about the product or the world.
 
 What this replaces is the paragraph explaining what was wrong with the old sentence. The owner could see it was wrong, which is why they sent it, and they read and type on a phone on limited usage.
+
+### /fl — can this chat be archived
+
+Defined in `.claude/commands/fl.md`. Answers one question: does any work exist nowhere but this session. An open pull request is not an open task: it is committed, pushed and carried by its branch, so its state is reported rather than waited on. What matters is an uncommitted change, a commit never pushed, a pushed branch with no pull request, a scheduled check-in still armed, and anything the owner asked for that was never started.
+
+### /sync — bring this repo in line with `agents`
+
+Defined in `.claude/commands/sync.md`. Adds what the `chargingthefuture/agents` baseline has and this repository lacks (rules sections, the Stop hook and its registration, shared commands), keeps everything this repository has of its own, and opens one pull request. Never edits `agents` from here.
 
 ### /s — sync the registry and settle the numbers (owner directive, 2026-10-02)
 
