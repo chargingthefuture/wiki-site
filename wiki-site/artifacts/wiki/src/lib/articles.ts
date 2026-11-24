@@ -39,6 +39,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "what-384-counts",
+    "title": "What 384 counts",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-11-24",
+    "excerpt": "384 is the number of members exchanging with each other on one day. Here is what counts toward it, what does not, and why the number is 384.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/what-384-counts.md",
+    "teaser": "384 is a count of members exchanging with each other on one day. It is counted a day at a time, and the same people do not have to come back tomorrow. It counts exchanges that delivered something: a ride given, a repair done, a skill taught, a task done toward somebody's goal that they said helped. Talk does not count, and neither does signing up. One day at 384 is not the goal reached: it is reached when the typical day across a year sits at or above 384. And 384 is how many people a reading has to cover before it holds for a population of five million.",
+    "topics": [
+      "community",
+      "skills-economy"
+    ],
+    "number": 467
+  },
+  {
     "slug": "weavers-of-the-commons",
     "title": "Weavers of the Commons",
     "repo": "chargingthefuture/wiki-site",
