@@ -86,7 +86,7 @@ async function collect(): Promise<Reading[]> {
       slug,
       title: String(meta.title).trim(),
       date: String(meta.date),
-      postUrl: `${SITE}/article/${shortRepo}/${slug.split('/').map(encodeURIComponent).join('/')}`,
+      postUrl: `${SITE}/article/${shortRepo}/${slug.split('/').map(encodeURIComponent).join('/').replace(/'/g, '%27')}`,
       audioUrl: `${SITE}/audio/${audio.served}`,
       durationSeconds,
     });

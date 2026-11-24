@@ -71,6 +71,169 @@ none of the numbers or claims changed. The generated files that copy from them �
 The manifesto (`The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP.md`) is the exception and still
 carries it, because the owner froze that page outright and that freeze has not been lifted.
 
+## Voice — no pleasantries, no feelings (Critical — every reply, all agents)
+
+Do not address the user with thanks, apologies, congratulations, well-wishes, encouragement, or
+closing sign-offs. Do not use first-person feeling words (for example: glad, happy, excited,
+delighted, sorry, "hope this helps", "I appreciate"). You have no feelings; do not perform them.
+No jargon, no buzzwords. State the result or the next step in plain words, then stop.
+
+This is enforced by the Stop hook `.claude/hooks/check-no-pleasantries.mjs`, registered in
+`.claude/settings.json`, which blocks a reply that
+contains a banned term and asks for a plain restatement.
+
+### No running commentary while working (owner directive, 2026-11-23)
+
+Do not narrate work in progress. No text between tool calls that announces what was just found or
+what comes next ("Shallow clone breaks the build. Unshallowing and resyncing."). The user follows the
+session on a phone, and every such line is output the account pays for and a line they scroll past.
+Run the tools without a word in between. Write text only when:
+
+- the work is done — the result, in a few lines;
+- the work is blocked on something only the user can decide or do; or
+- a decision changes what the user gets (a different approach than asked, something skipped).
+
+A tool call's short description field is not commentary and stays.
+
+### Banned-term dictionary (every reply, all agents)
+
+The Stop hook `.claude/hooks/check-no-pleasantries.mjs` holds the canonical list and is the source of
+truth; if this copy and the hook ever differ, the hook wins. Keep the two in sync — when you
+change one, change the other. The hook scans the entire reply and matches the term even inside
+quotes, so do not reach for a banned word even to talk about it; use the replacement below instead.
+
+Pleasantries, feelings, and sign-offs — never use any of these (in any reply):
+
+- thanks / thank you
+- you're welcome / you are welcome
+- no problem
+- my pleasure
+- glad
+- happy to
+- excited
+- delighted
+- sorry
+- apology / apologies / apologize / apologise (any form)
+- cheers
+- congrats / congratulations
+- "I appreciate" / "we appreciate" (only the first-person form is banned; "the rate appreciates" is fine)
+- "hope this / hope that / hope you / hope it …"
+- feel free
+- warm / best / kind / kindest regards
+- looking forward
+
+Excluded vocabulary — banned word → use instead:
+
+- flywheel → a plain description of the loop (for example "each answer improves the next")
+- punch list → list
+- (the word for out-of-date) → drop it; if you mean something specific, name it (out-of-date, superseded, no longer current)
+- console → dashboard (the code identifiers `console.log` / `console.error` / `console.info` are exempt)
+- (the word for "entire", in every frame, including "that is the … point") → entire, all of, end to end, or drop it
+- (the sentence after the facts that says which of them mattered) → delete it and end on the fact itself
+- point of the thing → end on the fact itself
+
+This list governs replies. Excluded Vocabulary above governs the published writing as well, and
+`pnpm wiki:banned-words` enforces it on `content/`.
+
+When the hook blocks a reply, restate once and briefly in plain, factual language — none of the
+terms above, no jargon, no first-person feeling words — then stop. Do not re-send the blocked
+reply's full content with one word swapped; a repeat of the same update reads as noise. Summarize
+the point in a sentence or two instead.
+
+## Plain language — no jargon (Critical — all agents)
+
+Write in plain, everyday language. Do not use jargon, acronyms, or insider terminology in
+human-facing output — chat replies, pull-request titles and descriptions, review comments, commit
+messages, issue comments, and documentation. Jargon is a distraction and is confusing; it slows the
+reader down and hides meaning.
+
+- Default to simple words. Prefer the plain term over the technical or marketing one (for example
+  "test it before you rely on it" over "validate end-to-end"; "make sure" over "ensure idempotency";
+  "the background service" over "the daemon"). Write so a non-specialist can follow.
+- If a technical term is genuinely necessary, define it in plain words on first use — one short
+  parenthetical is enough. Do not assume the reader knows acronyms; spell them out the first time.
+- Explain, don't just name. Say what something does and why it matters, not only its label.
+- Exempt: real code identifiers, file paths, command names, and established proper nouns (service
+  names, library names) — name those accurately; just don't pile extra jargon around them.
+- Applies to every agent and all human-facing communication. When in doubt, choose the wording a
+  newcomer would understand.
+
+## American English (owner directive, 2026-11-23 — all agents)
+
+Write everything in American English spelling and usage: chat replies, pull-request titles and
+descriptions, review and issue comments, commit messages, code comments, documentation, and any text
+an agent adds to a product. Use "color", "behavior", "organize", "center", "license" (noun and verb),
+"canceled", "gray" — not "colour", "behaviour", "organise", "centre", "licence", "cancelled", "grey".
+
+- Exempt: real code identifiers, file paths, command names, quoted text, and proper nouns, which
+  keep their exact spelling.
+- When editing text that already uses British spelling, switch the lines you touch to American
+  spelling.
+
+Published writing is held to this by `pnpm wiki:spelling`; see US Spelling below.
+
+## Task planning — no "phases" (Critical)
+
+Do not organize work into "phases." No "Phase 0 / Phase 1 / Phase 2", no phased-rollout buckets —
+anywhere: plans, checklists, design notes, code comments, pull-request descriptions, or commit
+messages. Phases confuse humans and agents alike.
+
+Instead, when given an objective, break it into discrete tasks and list them one after another in
+the order they must happen. Where order matters, state it as an explicit blocking dependency, not a
+phase:
+
+- ✅ "Task B is blocked by Task A — do A first."
+- ✅ A flat, ordered, numbered task list (1, 2, 3 …) where each item may name what it depends on.
+- ❌ "Phase 1: …", "Phase 2: …", "do this in a later phase."
+
+A task with no dependency can be done at any time or in parallel; say so plainly ("no dependencies;
+can run anytime").
+
+## Search tooling (optional convenience)
+
+- Prefer `rg` (ripgrep) for recursive text and file discovery.
+- Keep a grep fallback in scripts and prompts where a search command is shown, so they run anywhere:
+  - `if command -v rg >/dev/null 2>&1; then rg -n "pattern" path; else grep -RIn "pattern" path; fi`
+
+## Never quote the owner in repository artifacts (all agents)
+
+Do not quote the owner's messages anywhere the repository can see: not in a commit message, a pull
+request title or body, a change log, a test script, a rule file, or a code comment. A pasted message
+is the owner's prompt published to git history. Write what the code does and why, in your own words.
+`Owner directive: an admin list hides nothing.` is correct; a block quote of the message, however
+short, is not. Quoting the product's own strings (a button label, an error the route returns) is
+fine; that is the artifact under discussion.
+
+## The owner has no terminal (all agents)
+
+The owner works from a phone: no shell, no local checkout. Never end a piece of work with a command
+for the owner to run. When something has to happen outside the repository, deliver it as a screen
+in the app, as text the owner pastes into a web dashboard (the statement itself, with no shell
+wrapper), or as a workflow the owner can run from the GitHub app.
+
+## Remove what nothing uses, in the same change (all agents)
+
+When a change leaves something with no users — a column, a function, a flag, a setting, a screen —
+delete it as part of that change. Do not list it as a follow-up or ask whether to remove it. Verify
+first: search the entire repository for readers and writers, including scripts, migrations and
+generated files. Something already unused before you arrived is different: mention it and leave it
+unless told otherwise.
+
+## One-shot workflows are deleted when they are done (owner directive, 2026-09-23 — all agents)
+
+A workflow written to do something once — create a service, connect two systems, run a backfill — is
+removed once it has done it, along with any script only it used. It is not kept in case it is wanted
+again.
+
+Every entry in the Actions list is something somebody might press. A list that mixes live operations
+with finished one-offs makes the dangerous press and the routine one look alike, and finished ones
+pile up faster than anybody prunes them. Git history keeps the work, and whoever recovers a copy
+reads it in full first.
+
+The sequence: ship the workflow, run it, confirm it did what it was for, then delete it in the same
+piece of work. Say in the workflow's own header that it is temporary. Recurring workflows stay:
+deploys, checks, scheduled jobs, anything with a next run.
+
 ## Architecture (publishing pipeline)
 
 - Content source of truth: markdown files with YAML front matter under `wiki-site/content/`, organized in collections (`posts/`, `product-updates/`, `guides/`, `insights/`, `member-of-the-day/`, `archive/discourse/`, `archive/quora/`, shared `images/`). Schema: `wiki-site/content/README.md`.
@@ -92,8 +255,16 @@ carries it, because the owner froze that page outright and that freeze has not b
   page carries an autodiscovery link in `index.html` so a reader given the site address finds the
   feed without anybody copying an XML address, and a "Follow by RSS" row sits in the footer.
   GitHub Pages answers `/feed` with `feed.xml` when no `feed.html` exists, so a direct visit to
-  the `/feed` page showed the raw RSS file. `wiki:build:pages` copies `index.html` to `feed.html`
-  for that reason; any new route whose name matches a file in `public/` needs the same copy.
+  the `/feed` page showed the raw RSS file. `wiki:build:pages` writes a `feed.html` for that
+  reason (see link previews below); any new route whose name matches a file in `public/` needs one.
+  The feed's channel title is its own address (owner directive, 2026-11-03), for the reason below.
+- Link previews show the page's own address (owner directive, 2026-11-03): every title and `og:`
+  tag a preview reads is the plain address, so a shared link shows where it goes, on every site
+  the project runs. The site is one page filled in by the browser, and Pages answered every post
+  address with `404.html` under one title, so `scripts/src/build-link-previews.ts` runs at the
+  end of `wiki:build:pages` and writes a copy of the built page per address — `index.html`,
+  `<route>.html` for each route in `PAGES`, `article/<repo>/<slug>.html` per registry entry —
+  each with its own address in the title and tags. A new route goes in `PAGES`.
 - Invite cards: the row of cards (`InviteStrip.tsx`) at the top of `/feed` and under the home
   hero reads the app's public feed, `https://app.lagatos.com/api/directory/invites/public`,
   in the browser after the page loads, so nothing is built for it here. It shows the newest ten
@@ -141,7 +312,7 @@ carries it, because the owner froze that page outright and that freeze has not b
   posts in the `pool` of the hand-written `content/pb2-share-messages.yaml`, written by
   `scripts/src/build-pb2-messages.ts` on `wiki:pb2`. Build output like the feed: gitignored, never
   hand-edited — edit the YAML. The pool is three topics for now — Peace Battle 2, One Percent, and
-  the PeerProgramming goal board (owner directive, 2026-10-03, a narrowed marketing plan), fourteen
+  asks on Today, which replaced the PeerProgramming goal board in 3.1 (owner directive, 2026-10-03, a narrowed marketing plan), fourteen
   posts across them, each a different angle, so a reader sees two weeks before a repeat. The
   entries for the other parts of the app stay in the file unoffered: a reader handed twenty-eight
   parts in rotation is handed a catalog, and three topics say one thing. Nothing was deleted; widen the pool only on the
@@ -160,11 +331,23 @@ carries it, because the owner froze that page outright and that freeze has not b
 
 - Posts for the app's Daily Posts screen: `artifacts/wiki/public/posts.json`, written by
   `scripts/src/build-posts-json.ts` on `wiki:posts-json`, which both build scripts run. Every
-  listed post in `posts/` and `archive/quora/` with its `/feed` number, title, address and full
+  listed post in `posts/` and `archive/quora/` with its `/feed` number, title, address, teaser
+  (its front matter `teaser`, or `excerpt` when it has none; the app's story cards show it) and full
   text in the full paste sheet's plain-text form; invite posts are left out. The app's admin
   screen reads it to offer posts in a 30-day rotation and in theme groups (owner request,
   2026-11-02). Nothing on the site links to it. Build output like the feed: gitignored, never
   hand-edited.
+
+- Blurbs and live-stream topics for the same screen: `artifacts/wiki/public/daily-content.json`,
+  written by `scripts/src/build-daily-content.ts` on `wiki:daily-content`, which both build
+  scripts run, from the hand-written `content/daily-content.yaml` (owner request, 2026-11-10).
+  Five lines: Peace Battle 2, the Peace Battle 2 conference, finding skills and One Percent, why
+  the owner is not on Quora, and staying connected. Staying connected looks inward, at the app and
+  mutual aid (owner directive, 2026-11-10), and was added beside the other four. A blurb is one to three sentences for places a full post does not
+  fit; a live topic is a title, three talking points and a page to send viewers to. No plugin
+  names, and no two blurbs share wording. The screen offers one blurb per line and one live topic
+  a day, so adding an entry to the end of a line changes no earlier day. The build fails on an
+  entry the screen could not use. Build output: gitignored, never hand-edited — edit the YAML.
 
 ## Commands (run from `wiki-site/`)
 
@@ -179,6 +362,7 @@ carries it, because the owner froze that page outright and that freeze has not b
 | `pnpm wiki:paste-tts` | Regenerate the text-to-speech paste sheet `TTS_PASTE_SHEET.txt` |
 | `pnpm wiki:readings` | Regenerate the recorded-readings list at `artifacts/wiki/public/readings.json` (both build scripts run this) |
 | `pnpm wiki:posts-json` | Regenerate the Daily Posts list at `artifacts/wiki/public/posts.json` (both build scripts run this) |
+| `pnpm wiki:daily-content` | Check `content/daily-content.yaml` and write `artifacts/wiki/public/daily-content.json` (both build scripts run this) |
 | `pnpm wiki:pb2` | Regenerate the Peace Battle 2 share messages at `artifacts/wiki/public/pb2-messages.json` (both build scripts run this) |
 | `pnpm wiki:old-links apply --banned TIME` / `--handle URL --opened TIME` | Record a Quora ban and/or a new handle on `old-links-new-links.md`, with its update paste; then `wiki:sync`, `wiki:old-links place`, the full and TTS sheets |
 | `pnpm wiki:sync:dry` | Preview sync changes |
@@ -253,6 +437,21 @@ the rest of a file.
 - Use the pattern `<type>/<short-description>`, e.g. `fix/blog-dates-et-label`, `feat/category-filter`, `ci/submodule-checkout`.
 - PR titles must match: concise, action-oriented, no random strings.
 - If a branch was created with a bad name, rename it before opening the PR: create a new descriptive branch from the same commits, open the PR from that, close the old one, delete the old branch.
+- Carry the branch through to a merged pull request, then delete it. See Pull Requests and the Merge Lifecycle below.
+
+## Pull Requests and the Merge Lifecycle (all agents)
+
+A task is finished when the change is merged and the branch is deleted, not when the text is written.
+
+1. Open a pull request when the work is complete, ready for review, with a plain title and a body
+   that says what changed and why.
+2. Do not watch it. Report once and stop (see No PR watching below).
+3. Keep it mergeable. When `main` moves ahead and a request conflicts, bring `main` in and resolve
+   the conflict keeping both sides' intent; a post PR uses `/s`. If either resolution changes what a
+   reader sees and the right one is unclear, stop and ask.
+4. Merge is the owner's in this repository. Auto-merge is off and every PR waits on a human merge
+   (see What CI checks in this repo). Never merge around that, and never over a failing check.
+5. Delete the head branch once the request is merged.
 
 ## One Post per Pull Request (owner directive, 2026-09-25)
 
@@ -752,13 +951,22 @@ alone on its line so it copies by itself on a phone, and without `.mp3`, which t
 saves; neither is pasted into the tool. Regenerate it whenever a post from 2026-08-16 on is published or
 edited.
 
-## Link the Plugins a Post Names (owner decision, 2026-08-20)
+## No App Footer in New Posts (owner decision, 2026-11-10)
 
-Version 3 of the app launched in June 2026. Any post dated on or after 2026-06-01 that speaks
-about a part of the app must link that part directly, plus its guide section. A post that names a
-capability and makes the reader go find it costs readers — they search, do not find it, and leave.
+The app is on design 3.1, which no longer names its parts: a plugin name is one more thing for a
+newcomer to learn. So a post published from 2026-11-10 on has no "Where to find it in the app"
+section and names no plugin. It says what a reader can do in the Skills Economy (find somebody
+with a skill, keep a record, get a ride or a place to stay, put their 1% toward somebody's goal)
+and links the page that does it where a link helps, with the sign-up block at the end as before.
 
-Every such post ends with this section, placed immediately before the sign-up block:
+Posts published before that day keep their section exactly as it is. Do not remove it, reword
+it, or add one to a post that lacks it: the guide and the 3.0 design both still answer those
+links. The `paste-sheet-tts.ts` and `check-app-address.ts` handling of the section stays for
+those posts.
+
+Earlier rule, kept for reading the older posts (owner decision, 2026-08-20): any post dated
+2026-06-01 to 2026-11-09 that spoke about a part of the app ended with this section, immediately
+before the sign-up block, one item per part in the order the post raised them:
 
 ```
 ## Where to find it in the app
@@ -766,40 +974,20 @@ Every such post ends with this section, placed immediately before the sign-up bl
 - [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
 ```
 
-One list item per part, in the order the post raises them. Link the part even when the post only
-describes it rather than naming it — a post that mentions "a vetted ride" links TrustTransport,
-because that is what the reader will go looking for.
-
-URLs:
+Addresses, for a link in a new post or a fix to an old one:
 
 | Part | Address |
 |---|---|
 | Most plugins | `https://app.lagatos.com/apps/<slug>` |
 | Knowledge Library | `https://app.lagatos.com/knowledge` |
 | Unlock | `https://app.lagatos.com/plugin/unlock` |
-| Commons (the group chat) | `https://app.lagatos.com` |
+| Commons (the group chat) | `https://app.lagatos.com/commons` |
 
 There is no redirect from chargingthefuture.com (owner decision, 2026-11-03): the 3.0 design still
 runs there alongside 3.1 at lagatos.com, so an old link lands a reader in the old design instead of
 failing. Every published post was moved to lagatos.com on 2026-11-03, except `content/archive/`
 and the frozen manifesto, and `pnpm wiki:app-address` fails CI on any app or landing link to
 chargingthefuture.com outside those two. The RSS reader moved too, to rss.lagatos.com; counter. did not move.
-
-Every part has a guide section as of 2026-09-23 — all twenty-eight: beacon, bug-reporting, chyme,
-click-log, commons, contributions, directory, fireside, foundation, gdp, knowledge, skill-up,
-lighthouse, mood, mutual-time, peer-programming, reader, recurring-activity, service-credits,
-skills-hunt, skills-taxonomy, socket-relay, ti-radio, trust, trust-transport, unlock, what-works,
-workforce. The list is
-generated from `ctf/packages/web/app/guide/guide-content.json` in the product repo — check it
-rather than guessing, because a new part arrives before its section does. A part with no section
-gets the plugin link alone; never invent an anchor, since a wrong one lands the reader on the
-guide's top with no explanation.
-
-Snapshot posts get the section too (owner decision, 2026-08-20). Adding links changes none of a
-snapshot's numbers or wording, and its claims are exactly what makes a reader want to go check
-the data — so the links belong there most. A snapshot's date does not move when they are added;
-only living pages bump their date. The one page that stays untouched is the manifesto
-(`The-Answer:-EXIT-THEIR-ECONOMY,-EXIT-THE-PSYOP.md`), which the owner froze outright.
 
 ## Sign-Up Line in Posts (owner decision, 2026-08-18)
 
@@ -818,7 +1006,16 @@ word legitimately: the Signal chats, which really are invite-only, and the froze
 
 ## Agent Slash Commands (always apply, every repo)
 
-Owner directives, 2026-08-17, 2026-09-22 and 2026-09-26 (`/bpr` renamed `/br`). Four routines are defined in `.claude/commands/` in the product repo (`chargingthefuture/chargingthefuture`). Each is the standing way to do its kind of work, and the owner does not have to type the slash command for it to apply — the request itself is the trigger. Three of the four apply here, and `/fix` applies here more than anywhere, because this repository is almost entirely writing.
+Owner directives, 2026-08-17, 2026-09-22 and 2026-09-26 (`/bpr` renamed `/br`). The shared routines come from the `chargingthefuture/agents` baseline and sit in this repository's `.claude/commands/`, adapted to its checks. Each is the standing way to do its kind of work, and the owner does not have to type the slash command for it to apply — the request itself is the trigger. `/fix` applies here more than anywhere, because this repository is almost entirely writing.
+
+| Command | Applies when |
+|---|---|
+| `/br` | Any request that changes files. |
+| `/pr` | Open pull requests are blocked, behind, conflicted or failing checks. |
+| `/fix` | The owner points at a sentence that does not read right. |
+| `/fl` | The owner asks whether the chat can be archived. |
+| `/sync` | The owner asks to bring the repo in line with the `agents` baseline. |
+| `/s` | A post merged ahead of another and the registry or feed numbers need settling. |
 
 ### /br — every executed change
 
@@ -864,6 +1061,14 @@ Fix the same wording wherever else it sits — the post, its `excerpt` and `teas
 The date does not move and no dated correction is published. Nothing a reader acted on was wrong; the wording was hard to read. Dated corrections are for a wrong claim about the product or the world.
 
 What this replaces is the paragraph explaining what was wrong with the old sentence. The owner could see it was wrong, which is why they sent it, and they read and type on a phone on limited usage.
+
+### /fl — can this chat be archived
+
+Defined in `.claude/commands/fl.md`. Answers one question: does any work exist nowhere but this session. An open pull request is not an open task: it is committed, pushed and carried by its branch, so its state is reported rather than waited on. What matters is an uncommitted change, a commit never pushed, a pushed branch with no pull request, a scheduled check-in still armed, and anything the owner asked for that was never started.
+
+### /sync — bring this repo in line with `agents`
+
+Defined in `.claude/commands/sync.md`. Adds what the `chargingthefuture/agents` baseline has and this repository lacks (rules sections, the Stop hook and its registration, shared commands), keeps everything this repository has of its own, and opens one pull request. Never edits `agents` from here.
 
 ### /s — sync the registry and settle the numbers (owner directive, 2026-10-02)
 

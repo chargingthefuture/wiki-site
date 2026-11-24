@@ -95,7 +95,7 @@ It is also possible the need is not schooling at all, but respite — an hour, o
 
 ## Where to send input
 
-The group chat, [Commons](https://app.lagatos.com). What you use now, what you tried that failed, which of the six is worth building, or that none of them are — and which side of the split your answer sits on, because a connecting problem and a delivering problem get solved in different places.
+The group chat, [Commons](https://app.lagatos.com/commons). What you use now, what you tried that failed, which of the six is worth building, or that none of them are — and which side of the split your answer sits on, because a connecting problem and a delivering problem get solved in different places.
 
 If you are already homeschooling, you know more about this than I do. Say what you actually do — that answer counts for more here than anything I worked out from the outside.
 
@@ -112,6 +112,6 @@ The same question applies past schooling. If you are providing anything in this 
 - [PeerProgramming](https://app.lagatos.com/apps/peer-programming) — [guide](https://app.lagatos.com/guide#peer-programming)
 - [Skills Taxonomy](https://app.lagatos.com/apps/skills-taxonomy) — [guide](https://app.lagatos.com/guide#skills-taxonomy)
 - [WhatWorks](https://app.lagatos.com/apps/what-works) — [guide](https://app.lagatos.com/guide#what-works)
-- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Commons — the group chat](https://app.lagatos.com/commons) — [guide](https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

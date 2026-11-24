@@ -66,8 +66,7 @@ Proposed, not settled. Correct them on the first post rather than in the abstrac
 - The queues are the owner's working files, not something a reader knows about. A post never
   refers to this queue, the next question in it, or what a later post will cover (owner directive,
   2026-09-19).
-- Each publish carries the standard tail: the "Where to find it in the app" section for any part
-  the post names, the sign-up block if the post invites participation, a hand-written
+- Each publish carries the standard tail: the sign-up block if the post invites participation, a hand-written
   `QUORA_PASTE_SHEET.txt` entry, and a regenerated `QUORA_PASTE_SHEET_FULL.txt`.
 - Before drafting, grep `QUORA_INSPIRATION_QUEUE.md` for the subject and read what is already
   saved on it, so the post cites the reading rather than starting cold. Tick there whatever the

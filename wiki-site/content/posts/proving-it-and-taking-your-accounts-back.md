@@ -36,11 +36,11 @@ If you are thinking of reporting it, [Who to report it to](https://chargingthefu
 
 ## Not on your own
 
-The [Commons](https://app.lagatos.com) is a group chat of other Targeted Individuals, in the app. Nobody there needs the first hour spent on whether it is happening.
+The [Commons](https://app.lagatos.com/commons) is a group chat of other Targeted Individuals, in the app. Nobody there needs the first hour spent on whether it is happening.
 
 ## Where to find it in the app
 
 - [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
-- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Commons — the group chat](https://app.lagatos.com/commons) — [guide](https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

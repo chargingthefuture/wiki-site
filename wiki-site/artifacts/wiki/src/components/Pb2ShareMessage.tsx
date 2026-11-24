@@ -9,8 +9,8 @@ import { Copy, Check } from "lucide-react";
 // is nothing in them to disagree with and nobody is asked to endorse an opinion to take part.
 //
 // One source, written by the build: pb2-messages.json, the entries content/pb2-share-messages.yaml
-// puts in its pool. The pool is three topics for now — Peace Battle 2, One Percent, PeerProgramming
-// (owner directive, 2026-10-03, a narrowed marketing plan). Nothing here decides that; the YAML does.
+// puts in its pool. The pool is three topics for now — Peace Battle 2, One Percent, and asks on
+// Today (owner directive, 2026-10-03, a narrowed marketing plan; Today replaced the goal board in 3.1). Nothing here decides that; the YAML does.
 //
 // One a day, and a different one per reader. Both halves are there to keep participants out of
 // trouble. If everybody who arrives on a given day sees the same text, Quora sees a row of
@@ -159,8 +159,8 @@ export function Pb2ShareMessage() {
   return (
     <div className="mb-12">
       <p className="font-sans text-lg text-gray-300 mb-2">
-        Copy it, paste it, post it. Each one says what Peace Battle 2, One Percent or the
-        PeerProgramming goal board is, and stops. There is no opinion in them to agree with, and
+        Copy it, paste it, post it. Each one says what Peace Battle 2, One Percent or an ask on
+        Today is, and stops. There is no opinion in them to agree with, and
         none of them speak for you.
       </p>
       <p className="font-sans text-gray-400 mb-6">

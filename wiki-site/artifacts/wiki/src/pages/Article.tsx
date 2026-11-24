@@ -14,7 +14,7 @@ import { useReadCounter } from "@/hooks/use-counter";
 import { findArticle, contentImageUrl, postAudioUrl } from "@/lib/content";
 import { estimateReadTime } from "@/lib/utils";
 import { formatArticleDate } from "@/lib/dates";
-import { KIND_LABELS } from "@/lib/archive-kinds";
+import { archiveKindLabel } from "@/lib/archive-kinds";
 
 export default function Article() {
   const params = useParams();
@@ -133,7 +133,7 @@ export default function Article() {
                   <Archive size={18} className="text-accent shrink-0 mt-0.5" />
                   <span>
                     Historical record.{" "}
-                    {meta.archive.kind ? <>{KIND_LABELS[meta.archive.kind] ?? meta.archive.kind}, posted</> : <>Originally posted</>}
+                    {meta.archive.kind ? <>{archiveKindLabel(meta.archive.kind, meta.archive.originalUrl)}, posted</> : <>Originally posted</>}
                     {" on "}{meta.archive.source === "quora" ? "Quora" : "the Discourse forum"}
                     {meta.archive.account ? <> ({meta.archive.account})</> : null}
                     {meta.archive.originalDate ? <> on {formatArticleDate(meta.archive.originalDate, { month: 'long', day: 'numeric', year: 'numeric' })}</> : null}
@@ -201,7 +201,7 @@ export default function Article() {
               </div>
             </div>
 
-            <FiresideConversation repo={repo} slug={slug} title={meta ? meta.title : ""} />
+            <FiresideConversation repo={repo} slug={meta ? meta.slug : slug} title={meta ? meta.title : ""} />
           </motion.article>
         )}
       </div>

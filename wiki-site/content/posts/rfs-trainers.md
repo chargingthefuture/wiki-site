@@ -51,7 +51,7 @@ They do not have to be a survivor, and they do not have to have an account. Most
 
 ## If the software is what stops you
 
-If you would run a cohort but the tooling would not carry what you want to do, say so in the [Commons group chat](https://app.lagatos.com) and I will build it.
+If you would run a cohort but the tooling would not carry what you want to do, say so in the [Commons group chat](https://app.lagatos.com/commons) and I will build it.
 
 Describe what would let you train more people, or train them better, and it gets built.
 
@@ -61,6 +61,6 @@ Describe what would let you train more people, or train them better, and it gets
 - [ServiceCredits](https://app.lagatos.com/apps/service-credits) — [guide](https://app.lagatos.com/guide#service-credits)
 - [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 - [SkillsHunt](https://app.lagatos.com/apps/skills-hunt) — [guide](https://app.lagatos.com/guide#skills-hunt)
-- [Commons](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Commons](https://app.lagatos.com/commons) — [guide](https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

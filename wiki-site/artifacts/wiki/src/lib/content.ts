@@ -26,9 +26,19 @@ export function stripFrontMatter(markdown: string): string {
   return markdown.replace(FRONT_MATTER_RE, '');
 }
 
+function straightQuotes(text: string): string {
+  return text.replace(/[\u2018\u2019]/g, "'");
+}
+
 export function findArticle(slug: string): ArticleMeta | undefined {
   const exact = ARTICLES.find((a) => a.slug === slug);
   if (exact) return exact;
+  // Editors and phone keyboards turn a straight apostrophe in a pasted link
+  // into a curly one, and the reverse. Match either form when exactly one
+  // article does, so the link still reaches the post.
+  const plain = straightQuotes(slug);
+  const quoted = ARTICLES.filter((a) => straightQuotes(a.slug) === plain);
+  if (quoted.length === 1) return quoted[0];
   // Alias fallback: links in the wild sometimes carry a wrong or outdated
   // folder prefix (e.g. discourse-migrate/v2k-for-decades when the real slug
   // is v2k-for-decades). Resolve by the final path segment when exactly one

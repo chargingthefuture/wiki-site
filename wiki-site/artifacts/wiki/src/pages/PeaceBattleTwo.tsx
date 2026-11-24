@@ -3,6 +3,7 @@ import { Link } from "wouter";
 import { Phone, Target, ArrowRight } from "lucide-react";
 import { Layout } from "@/components/Layout";
 import { Pb2ShareMessage } from "@/components/Pb2ShareMessage";
+import { Pb2ConferenceInvite } from "@/components/Pb2ConferenceInvite";
 
 /**
  * The Peace Battle 2 page: /peace-battle-2, with /pb2 resolving to it.
@@ -29,7 +30,7 @@ const REACHED: number | null = null;
 const APP = "https://app.lagatos.com";
 const LINKS = {
   onePercent: `${APP}/apps/workforce?view=one-percent`,
-  goals: `${APP}/apps/peer-programming?tab=goals`,
+  today: `${APP}/today`,
   workforce: `${APP}/apps/workforce`,
   paidTier: "https://farahbrunache.com",
   game: "https://chargingthefuture.github.io/offline-os/apps/peace-battle-2/",
@@ -211,6 +212,8 @@ export default function PeaceBattleTwo() {
           <Countdown />
         </div>
 
+        <Pb2ConferenceInvite />
+
         <h2 className="font-display text-3xl text-primary mb-4 font-medium">Why it has a name</h2>
         <div className="font-sans text-lg text-gray-300 space-y-4 mb-12">
           <p>
@@ -298,9 +301,9 @@ export default function PeaceBattleTwo() {
           <Step
             n={1}
             icon={<Target size={22} />}
-            title="Start on it in PeerProgramming"
-            href={LINKS.goals}
-            cta="Open the goal board"
+            title="Start on it on Today"
+            href={LINKS.today}
+            cta="Open Today"
           >
             <p>
               Most of a day here goes to the attacks and to what they force, and what is left might
@@ -310,29 +313,16 @@ export default function PeaceBattleTwo() {
               working day.
             </p>
             <p>
-              That is what the goal board runs on. Post a personal goal with a finish line and break
-              it into tasks small enough to do from a phone in under half an hour: find three yards
-              hiring near Dallas, ask one dealer whether they finance with no credit check. Then take
-              any one card from anybody else&rsquo;s goal, do it, and post what you found. A bad day
-              now costs nothing: take a card when you have the half hour, and not when you do not.
+              That is what Today, the app&rsquo;s home page, runs on. Post what you are working toward
+              as an ask, in parts small enough to do from a phone in under half an hour: find three
+              yards hiring near Dallas, ask one dealer whether they finance with no credit check. Then
+              open anybody else&rsquo;s ask, do one part, and post what you found inside it. A bad day
+              now costs nothing: pick up a part when you have the half hour, and not when you do not.
               And others do the same.
             </p>
             <p>
-              The board is in PeerProgramming, alongside an optional chat and calls.{" "}
-              <Link
-                href="/article/wiki-site/show-up-with-your-percent"
-                className="text-primary font-bold hover:text-white"
-              >
-                Show up with your percent
-              </Link>{" "}
-              says how it works and why it is shaped this way.
+              Reading Today needs no account. Signing up is free, and you can post the same day.
             </p>
-            <img
-              src={`${import.meta.env.BASE_URL}images/pb2-goal-board.png`}
-              alt="The PeerProgramming goal board on a phone. 0 cards done in the last 24 hours. Grab any one card, do it from your phone, and post what you found. One card is plenty. Your goal: Get a yard jockey job, 0 of 2 cards done, with buttons Add card, Reached it and Take it down. Up for grabs, 2 cards: Find five places in Houston Texas that have full-time yard jockey roles for recent CDL graduates. Find one TI in Houston Texas to host a room."
-              className="w-full max-w-sm mx-auto border border-border"
-              loading="lazy"
-            />
           </Step>
 
           <Step

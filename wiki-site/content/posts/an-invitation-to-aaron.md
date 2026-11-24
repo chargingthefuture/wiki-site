@@ -30,7 +30,7 @@ Aaron asked on Quora:
 
 > I've been a victim of gang stalking for almost decade…I'm rather clever, smart, observant and highly angry instead of scared. Despite my efforts, the damage/stress and heartache is killing me. I need help desperately. Where to go for help?
 
-I answered it in [Where to go for help](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/where-to-go-for-help). The short version: help comes from people. Other Targeted Individuals who believe you without an argument first, in the [Commons](https://app.lagatos.com). People who can do the things a week runs on. And a dated record that stays yours.
+I answered it in [Where to go for help](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/where-to-go-for-help). The short version: help comes from people. Other Targeted Individuals who believe you without an argument first, in the [Commons](https://app.lagatos.com/commons). People who can do the things a week runs on. And a dated record that stays yours.
 
 ## Where the listing comes in
 
@@ -56,7 +56,7 @@ Sign in to get access to the world's first directory of 300+ self-identified Tar
 
 ## Where to find it in the app
 
-- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Commons — the group chat](https://app.lagatos.com/commons) — [guide](https://app.lagatos.com/guide#commons)
 - [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 - [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
 - [Unlock](https://app.lagatos.com/plugin/unlock) — [guide](https://app.lagatos.com/guide#unlock)

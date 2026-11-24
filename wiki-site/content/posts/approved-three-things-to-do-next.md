@@ -34,7 +34,7 @@ The board works before the marketplace does. "Help me find a room" is a card any
 
 ## 3. Ask the Commons, or @comic
 
-For anything that is not on the board, ask in the [Commons](https://app.lagatos.com), the shared chat you land on when you sign in.
+For anything that is not on the board, ask in the [Commons](https://app.lagatos.com/commons), the shared chat you land on when you sign in.
 
 Or start a message with @comic and ask the assistant in that chat. It answers from the Knowledge Library: my writing on Quora and this blog, and writing other members have added. A person reads every answer before you see it, so the first thing you get is a note that it is being reviewed, and the answer follows once it is approved.
 
@@ -44,6 +44,6 @@ Or start a message with @comic and ask the assistant in that chat. It answers fr
 
 - [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 - [PeerProgramming](https://app.lagatos.com/apps/peer-programming?tab=goals) — [guide](https://app.lagatos.com/guide#peer-programming)
-- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Commons — the group chat](https://app.lagatos.com/commons) — [guide](https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

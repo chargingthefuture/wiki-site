@@ -44,7 +44,7 @@ This is the largest of the four and the slowest, which is why it is third. It is
 
 ## 4. Stay connected, especially when it is quiet
 
-A quiet stretch is when people drift into having nobody, and a name on the list is not taken off. [Commons](https://app.lagatos.com) is the group chat, full of people who do not need it explained. [Where to go for help](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/where-to-go-for-help) lists who helps with what.
+A quiet stretch is when people drift into having nobody, and a name on the list is not taken off. [Commons](https://app.lagatos.com/commons) is the group chat, full of people who do not need it explained. [Where to go for help](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/where-to-go-for-help) lists who helps with what.
 
 ## Why this order
 
@@ -57,6 +57,6 @@ The first two need nobody else's agreement and can start today. The third needs 
 - [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
 - [LightHouse](https://app.lagatos.com/apps/lighthouse) — [guide](https://app.lagatos.com/guide#lighthouse)
 - [PeerProgramming](https://app.lagatos.com/apps/peer-programming?tab=goals) — [guide](https://app.lagatos.com/guide#peer-programming)
-- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Commons — the group chat](https://app.lagatos.com/commons) — [guide](https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

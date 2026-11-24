@@ -43,7 +43,7 @@ And if you forget all of this, the Commons has a chip above the box you type in 
 ## Where to find it in the app
 
 - [Unlock](https://app.lagatos.com/plugin/unlock) — [guide](https://app.lagatos.com/guide#unlock)
-- [Commons](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Commons](https://app.lagatos.com/commons) — [guide](https://app.lagatos.com/guide#commons)
 - [Fireside](https://app.lagatos.com/apps/fireside) — [guide](https://app.lagatos.com/guide#fireside)
 - [Knowledge Library](https://app.lagatos.com/knowledge) — [guide](https://app.lagatos.com/guide#knowledge)
 - [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)

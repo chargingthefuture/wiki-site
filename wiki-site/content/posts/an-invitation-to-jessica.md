@@ -40,7 +40,7 @@ Read together, they ask for three things: somebody to tell, a way to know for su
 
 I answered the first question in [Who to report it to](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/who-to-report-it-to). The short version: I do not know of a local office that takes a report of the entire pattern and acts on it. A police report carries one incident, described as the crime it is. The United Nations collects reports of the pattern, as the human rights violation it is.
 
-The telling that helps most is often not a report. The [Commons](https://app.lagatos.com) is a group chat of other Targeted Individuals, and nobody there needs the first hour of a conversation spent on whether it is happening.
+The telling that helps most is often not a report. The [Commons](https://app.lagatos.com/commons) is a group chat of other Targeted Individuals, and nobody there needs the first hour of a conversation spent on whether it is happening.
 
 ## A way to know
 
@@ -70,7 +70,7 @@ Sign in to get access to the world's first directory of 300+ self-identified Tar
 
 ## Where to find it in the app
 
-- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Commons — the group chat](https://app.lagatos.com/commons) — [guide](https://app.lagatos.com/guide#commons)
 - [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
 - [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 - [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)

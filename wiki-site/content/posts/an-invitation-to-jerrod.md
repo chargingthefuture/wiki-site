@@ -40,7 +40,7 @@ Jerrod has asked for that on Quora more than once, in their own words:
 
 > Can I get a hold of you? This is happening to me.
 
-The [Commons](https://app.lagatos.com) is a group chat of other Targeted Individuals, in the app. It is where that question gets an answer, from people who will not spend the first hour on whether it is happening.
+The [Commons](https://app.lagatos.com/commons) is a group chat of other Targeted Individuals, in the app. It is where that question gets an answer, from people who will not spend the first hour on whether it is happening.
 
 ## Where the listing comes in
 
@@ -66,7 +66,7 @@ Sign in to get access to the world's first directory of 300+ self-identified Tar
 
 ## Where to find it in the app
 
-- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Commons — the group chat](https://app.lagatos.com/commons) — [guide](https://app.lagatos.com/guide#commons)
 - [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 - [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
 - [Unlock](https://app.lagatos.com/plugin/unlock) — [guide](https://app.lagatos.com/guide#unlock)

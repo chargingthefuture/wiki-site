@@ -22,7 +22,7 @@ Anger at what is being done is a sane response to it. Ten years of damage, stres
 
 ## People who believe you
 
-The [Commons](https://app.lagatos.com) is a group chat of other Targeted Individuals, in the app. Nobody there needs the first hour of a conversation spent on whether it is happening, and nobody needs you to be calm before they will listen.
+The [Commons](https://app.lagatos.com/commons) is a group chat of other Targeted Individuals, in the app. Nobody there needs the first hour of a conversation spent on whether it is happening, and nobody needs you to be calm before they will listen.
 
 ## People who can do the things a week runs on
 
@@ -40,7 +40,7 @@ If you are thinking of reporting any of it, [Who to report it to](https://chargi
 
 ## Where to find it in the app
 
-- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Commons — the group chat](https://app.lagatos.com/commons) — [guide](https://app.lagatos.com/guide#commons)
 - [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 - [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
 - [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)

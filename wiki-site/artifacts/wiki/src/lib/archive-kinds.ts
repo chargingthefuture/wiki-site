@@ -12,7 +12,30 @@ export const KIND_LABELS: Record<string, string> = {
   "post-comment": "Comment on a post",
   question: "Question asked",
   "question-comment": "Comment on a question",
-  "space-post": "Post in someone else's space",
+  "space-post": "Post in a space",
   "space-submission": "Submitted to a space",
   "forum-topic": "Forum topic",
 };
+
+/** Quora address of the project's own space. */
+const OWN_SPACE_HOST = "skillseconomy.quora.com";
+
+/**
+ * The label for one entry. A space post in the project's own space reads as
+ * that space; a post anywhere else reads as someone else's space. The filter
+ * chips use KIND_LABELS directly, since one chip covers both.
+ */
+export function archiveKindLabel(kind: string, originalUrl?: string): string {
+  if (kind === "space-post") {
+    let host = "";
+    try {
+      host = originalUrl ? new URL(originalUrl).host : "";
+    } catch {
+      host = "";
+    }
+    return host === OWN_SPACE_HOST
+      ? "Post in the Skills Economy space"
+      : "Post in someone else's space";
+  }
+  return KIND_LABELS[kind] ?? kind;
+}

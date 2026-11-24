@@ -36,7 +36,7 @@ Income. Not the career that was taken — that one usually does not come back th
 
 Housing. [LightHouse](https://app.lagatos.com/apps/lighthouse) is rooms offered by survivors to survivors, which is the answer to the scheme that walks a destitute person back to [relatives who were reached first](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/why-they-want-you-living-with-family).
 
-People who know you. This is the one that changes the most and the fastest. [Being on the Directory](https://app.lagatos.com/apps/directory) is what makes somebody findable, and finding two or three people who understand without being told is not a small recovery, it is most of one. [Commons](https://app.lagatos.com) reads without an account, so it costs nothing to start there.
+People who know you. This is the one that changes the most and the fastest. [Being on the Directory](https://app.lagatos.com/apps/directory) is what makes somebody findable, and finding two or three people who understand without being told is not a small recovery, it is most of one. [Commons](https://app.lagatos.com/commons) reads without an account, so it costs nothing to start there.
 
 The ability to ask. This one is a skill rather than a circumstance, and it comes back with practice. Ask small, bring something, and do not measure it against equal — that is [what a working exchange looks like](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/mutual-not-equal) between two people who both need things.
 
@@ -66,6 +66,6 @@ That is the version of the question I can answer. Not how to get back to normal,
 - [LightHouse](https://app.lagatos.com/apps/lighthouse) — [guide](https://app.lagatos.com/guide#lighthouse)
 - [SocketRelay](https://app.lagatos.com/apps/socket-relay) — [guide](https://app.lagatos.com/guide#socket-relay)
 - [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
-- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Commons — the group chat](https://app.lagatos.com/commons) — [guide](https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.

@@ -8,8 +8,8 @@
  * so there is nothing in them to disagree with.
  *
  * Only the ids in the YAML's `pool` are written, in that order; the other entries stay in the file
- * unoffered. Three topics for now — Peace Battle 2, One Percent, PeerProgramming (owner directive,
- * 2026-10-03); the YAML header says why.
+ * unoffered. Three topics for now — Peace Battle 2, One Percent, and asks on Today (owner directive,
+ * 2026-10-03; Today replaced the goal board in 3.1); the YAML header says why.
  *
  * Source is content/pb2-share-messages.yaml, hand-written. It is not generated from the in-app
  * guide: that text is written for somebody already inside the app, and it reads wrong pasted in

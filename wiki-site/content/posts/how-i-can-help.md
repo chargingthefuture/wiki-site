@@ -32,7 +32,7 @@ If you are thinking of reporting any of it, [Who to report it to](https://chargi
 
 ## Somebody who believes you
 
-The [Commons](https://app.lagatos.com) is a group chat of other Targeted Individuals. Nobody there needs the first hour of a conversation spent on whether it is happening.
+The [Commons](https://app.lagatos.com/commons) is a group chat of other Targeted Individuals. Nobody there needs the first hour of a conversation spent on whether it is happening.
 
 ## Help with the week
 
@@ -43,7 +43,7 @@ None of that stops it on its own. It does mean not carrying it alone.
 ## Where to find it in the app
 
 - [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
-- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Commons — the group chat](https://app.lagatos.com/commons) — [guide](https://app.lagatos.com/guide#commons)
 - [Directory](https://app.lagatos.com/apps/directory) — [guide](https://app.lagatos.com/guide#directory)
 - [Foundation](https://app.lagatos.com/apps/foundation) — [guide](https://app.lagatos.com/guide#foundation)
 
