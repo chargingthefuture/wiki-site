@@ -1,6 +1,6 @@
 ---
 title: "Weavers of the Commons"
-date: "2026-11-22"
+date: "2026-11-24"
 excerpt: "Weavers of the Commons is a badge for members who steadily deliver real help to other members. Here is how it is earned, what it opens, and what it never shows."
 category: "Community"
 teaser: "Weavers of the Commons is a badge for members who steadily deliver real help to other members, across the app and over time. It is earned from exchanges that delivered something, such as a ride, a stay, an answered call, or a small task the person who asked said helped. There is no application, no way to buy it, and nobody gets it by hand, the owner included. Once earned it is permanent, and it is removed only for cause. No score is shown anywhere. It shows as a braid on a claimed Directory profile, and it opens pictures and links in posts and the Weavers room."
