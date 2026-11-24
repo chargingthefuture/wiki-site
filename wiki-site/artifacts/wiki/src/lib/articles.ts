@@ -39,15 +39,112 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
-    "slug": "what-384-counts",
-    "title": "What 384 counts",
+    "slug": "weavers-of-the-commons",
+    "title": "Weavers of the Commons",
     "repo": "chargingthefuture/wiki-site",
-    "date": "2026-11-22",
-    "excerpt": "384 is the number of members exchanging with each other on one day. Here is what counts toward it, what does not, and why the number is 384.",
+    "date": "2026-11-24",
+    "excerpt": "Weavers of the Commons is a badge for members who steadily deliver real help to other members. Here is how it is earned, what it opens, and what it never shows.",
     "category": "Community",
     "collection": "posts",
-    "path": "posts/what-384-counts.md",
-    "teaser": "384 is a count of members exchanging with each other on one day. It is counted a day at a time, and the same people do not have to come back tomorrow. It counts exchanges that delivered something: a ride given, a repair done, a skill taught, a task done toward somebody's goal that they said helped. Talk does not count, and neither does signing up. One day at 384 is not the goal reached: it is reached when the typical day across a year sits at or above 384. And 384 is how many people a reading has to cover before it holds for a population of five million.",
+    "path": "posts/weavers-of-the-commons.md",
+    "teaser": "Weavers of the Commons is a badge for members who steadily deliver real help to other members, across the app and over time. It is earned from exchanges that delivered something, such as a ride, a stay, an answered call, or a small task the person who asked said helped. There is no application, no way to buy it, and nobody gets it by hand, the owner included. Once earned it is permanent, and it is removed only for cause. No score is shown anywhere. It shows as a braid on a claimed Directory profile, and it opens pictures and links in posts and the Weavers room.",
+    "topics": [
+      "community",
+      "skills-economy"
+    ],
+    "number": 466
+  },
+  {
+    "slug": "holiday-tasks-somebody-could-pick-up",
+    "title": "Holiday tasks somebody could pick up",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-11-24",
+    "excerpt": "Holiday season is coming. Forty-seven examples of things somebody would need help with, from groceries and laundry to a quiet place for children to do homework, each one something you can post as an ask on Today for somebody else to take.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/holiday-tasks-somebody-could-pick-up.md",
+    "teaser": "Holiday season is coming, and it is a hard stretch for a lot of people. Here are examples of things somebody would need help with, grouped by kind: food, clothing and warmth, everyday needs, rides and errands, paperwork and access, company, children, and coordinating help. Each one can go up as an ask on Today, where somebody else picks it up and does it. My own example: because of the targeting I have no place to do laundry and no place to receive packages, and I would rather pay a Targeted Individual for both than anybody else.",
+    "topics": [
+      "community",
+      "skills-economy"
+    ],
+    "number": 465
+  },
+  {
+    "slug": "the-hint-is-meant-to-be-noticed",
+    "title": "The hint is meant to be noticed",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-11-24",
+    "excerpt": "A saved Quora question asks how subtle hints are used to control Targeted Individuals and what they do to a life. The hint is built to be noticed, and the control runs through the attention it takes.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/the-hint-is-meant-to-be-noticed.md",
+    "teaser": "A question I saved on Quora asks how subtle hints are used to control Targeted Individuals, and what that does to a life. The hint is not a slip. It is meant to be noticed: the repeated phrase, the borrowed words from a private conversation, a pointed have a good day after a day arranged to go badly. The control runs through what the hint costs to read. Each one hands you a puzzle, and every hour spent on it is an hour of your day spent on them. Over time it sensitizes a person to the smallest things and makes them easy to describe as the problem. Noticing cannot be switched off, but it can be written down and put down.",
+    "topics": [
+      "specterati",
+      "clicklog",
+      "community"
+    ],
+    "number": 464
+  },
+  {
+    "slug": "21-questions-finds-your-buddies",
+    "title": "21 Questions finds your buddies",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-11-23",
+    "excerpt": "One question a day on Today, four answers to pick from. Answer the same way as another member on three or more, and they show up as your buddy, with a conversation inside the card.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/21-questions-finds-your-buddies.md",
+    "teaser": "21 Questions puts one question a day on Today, the same for everyone, with four answers to pick from. The questions are about what you want from life after the targeting: work, income, what to learn, who to meet, what to give back. None asks about home, family, or where you live. When you and another member pick the same answer on three or more questions, they show up as your buddy, and you can talk inside their card. Your buddies together are your buddy network. Reaching out is optional, and so is replying.",
+    "topics": [
+      "community",
+      "skills-economy"
+    ],
+    "number": 463
+  },
+  {
+    "slug": "a-watch-page-instead-of-a-hosted-reader",
+    "title": "A watch page instead of the hosted reader",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-11-23",
+    "excerpt": "The reader I hosted at rss.lagatos.com is closing. In its place is a free reader page with no sign-in: it starts with the blog, the demo videos and the recorded broadcasts, and you add the rest.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/a-watch-page-instead-of-a-hosted-reader.md",
+    "teaser": "In September I started hosting an RSS feed reader you could sign into with your Skills Economy account. It is closing. It cost money every month, more each month, and I was the only person using it. In its place is a plain reader page anyone can open, with no sign-in and nothing for anybody to pay. It starts with the blog, the demo videos and the recorded broadcasts, you add whatever else you read, and a YouTube channel cut at your own date is still a thing you can ask for. The blog's own feed address has not changed and still needs nothing from me.",
+    "topics": [
+      "platform-independence",
+      "publishing"
+    ],
+    "number": 462
+  },
+  {
+    "slug": "Dictionary",
+    "title": "Dictionary: Skills Economy Terms",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-11-23",
+    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
+    "category": "Resources",
+    "collection": "posts",
+    "path": "posts/Dictionary.md",
+    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
+    "topics": [
+      "reference",
+      "terms"
+    ],
+    "number": 404
+  },
+  {
+    "slug": "not-an-exposure-problem",
+    "title": "Not an exposure problem. A legal one.",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-11-22",
+    "excerpt": "Kim Costello answered on Quora that it is better to defeat them than to try to expose them. The people running this are prepared for exposure, and anybody who spends a day near a Targeted Individual can already see it. What they arrange their behavior around is the law.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/not-an-exposure-problem.md",
+    "teaser": "Asked on Quora how to expose the people running this, Kim Costello answered that it is better to defeat them: they are prepared for exposure, and the effort is used to make you look crazy. That is fighting by the method, and it is the ethos of Peace Battle 2. The method is built into the economy and has had centuries of money, people and time put into it; the earliest writing I have found on it dates to 1609. One scheme against me, the Forced Homecoming, has run for more than ten years, and an operation that patient planned for the post that names it. Exposure also answers a question nobody nearby is asking. Anybody who spends a day around a Targeted Individual sees what is happening. Plausible deniability is built for a courtroom, not an audience: they adjust to get around the law, not around public opinion. Defeat is what is left, and it looks like the dependence each scheme needs no longer being there to use.",
     "topics": [
       "community",
       "skills-economy"
@@ -116,22 +213,6 @@ export const ARTICLES: ArticleMeta[] = [
       "skills-economy"
     ],
     "number": 458
-  },
-  {
-    "slug": "Dictionary",
-    "title": "Dictionary: Skills Economy Terms",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-10-27",
-    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
-    "category": "Resources",
-    "collection": "posts",
-    "path": "posts/Dictionary.md",
-    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
-    "topics": [
-      "reference",
-      "terms"
-    ],
-    "number": 404
   },
   {
     "slug": "what-they-know-is-not-the-hold",
@@ -4876,7 +4957,7 @@ export const ARTICLES: ArticleMeta[] = [
     "archive": {
       "source": "quora",
       "account": "farah-brunache",
-      "originalUrl": "https://skillseconomy.quora.com/Part-of-the-answer-to-the-below-Quora-question-is-to-work-and-live-among-TIs-A-solution-that-was-proven-in-the-early",
+      "originalUrl": "https://skillseconomy.quora.com/Part-of-the-answer-to-the-below-Quora-question-is-to-work-and-live-amongst-TIs-A-solution-that-was-proven-in-the-early",
       "originalDate": "2026-07-06",
       "status": "erased",
       "kind": "space-post"

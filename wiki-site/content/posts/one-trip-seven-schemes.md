@@ -85,7 +85,7 @@ And the list itself grows. When a scheme has no name yet, holders of the Weavers
 ## Where to find it in the app
 
 - [ClickLog](https://app.lagatos.com/apps/click-log) — [guide](https://app.lagatos.com/guide#click-log)
-- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Commons — the group chat](https://app.lagatos.com/commons) — [guide](https://app.lagatos.com/guide#commons)
 - [Unlock](https://app.lagatos.com/plugin/unlock) — [guide](https://app.lagatos.com/guide#unlock)
 
 The problems list is public too, alongside the answer built for each one: [lagatos.com/look-ma](https://lagatos.com/look-ma).
