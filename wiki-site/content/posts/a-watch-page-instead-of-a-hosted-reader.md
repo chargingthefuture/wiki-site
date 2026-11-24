@@ -37,8 +37,6 @@ Anything else you read, you add by pasting its address under Add a feed. Anythin
 
 Some sites do not let other web pages read their feed, and those cannot be added there. A reader app can still read them.
 
-Correction, November 24, 2026: this post first said the page lists the collected YouTube channels A to Z. Those are my own reading and now stay on a page of my own. The reader page starts with the three feeds above, and a channel collected for you is added by its address.
-
 ## No sign-in, so keep a backup
 
 The page has no sign-in. Your list of feeds, what you mark watched and what you save are kept in the browser you used, and only there. They do not reach your phone if you marked them on a laptop, and they are gone if that browser's data is cleared.
