@@ -1,6 +1,6 @@
 ---
 title: "Dictionary: Skills Economy Terms"
-date: "2026-10-27"
+date: "2026-11-23"
 excerpt: "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record."
 category: "Resources"
 slug: Dictionary
@@ -14,6 +14,8 @@ topics:
 This is a living page. It is kept current, and its date moves it to the top of the feed whenever it changes. Every change is on the public record in the repository's history.
 
 ## Latest changes
+
+2026-11-23 — Reader removed from the capability table. The hosted feed reader at rss.lagatos.com is closed. The collected YouTube channels have a page of their own with no sign-in, and the blog's feed address works in any reader app, as before.
 
 2026-10-27 — Contributions takes Amazon gift cards only, all year: no drives, no Quora comments or GitHub stars, and the code is entered in the app instead of sent over Signal.
 
@@ -164,7 +166,6 @@ DEW — Directed Energy Weapon.
 | [Contributions](https://app.lagatos.com/apps/contributions) | An Amazon gift card toward hosting, any time of year, with a ServiceCredits thank-you | [guide](https://app.lagatos.com/guide#contributions) |
 | [Recurring Activity](https://app.lagatos.com/apps/recurring-activity) | One-tap acknowledgment of an ongoing tie with another member — never a bill | [guide](https://app.lagatos.com/guide#recurring-activity) |
 | [Fireside](https://app.lagatos.com/apps/fireside) | Threaded conversation under the posts on the blog; read it without an account, write with one | [guide](https://app.lagatos.com/guide#fireside) |
-| [Reader](https://app.lagatos.com/apps/reader) | An RSS feed reader on a server the project pays for; sign in with this account, and your subscriptions are yours alone | [guide](https://app.lagatos.com/guide#reader) |
 | [TI Radio](https://app.lagatos.com/ti-radio) | A published schedule of live discussions members host in Chyme; read it without an account, host with one | [guide](https://app.lagatos.com/guide#ti-radio) |
 | Mutual Time | Find a meeting time everyone can make | [guide](https://app.lagatos.com/guide#mutual-time) |
 | Bug Reporting | In-app problem reports; raw text stays private, a human approves any fix | [guide](https://app.lagatos.com/guide#bug-reporting) |

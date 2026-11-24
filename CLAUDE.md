@@ -130,12 +130,15 @@ Excluded vocabulary — banned word → use instead:
 - console → dashboard (the code identifiers `console.log` / `console.error` / `console.info` are exempt)
 - (the word for "entire", in every frame, including "that is the … point") → entire, all of, end to end, or drop it
 - (the sentence after the facts that says which of them mattered) → delete it and end on the fact itself
+- point of the thing → end on the fact itself
 
 This list governs replies. Excluded Vocabulary above governs the published writing as well, and
 `pnpm wiki:banned-words` enforces it on `content/`.
 
-When the hook blocks a reply, restate the result in plain, factual language — none of the terms
-above, no jargon, no first-person feeling words — then stop.
+When the hook blocks a reply, restate once and briefly in plain, factual language — none of the
+terms above, no jargon, no first-person feeling words — then stop. Do not re-send the blocked
+reply's full content with one word swapped; a repeat of the same update reads as noise. Summarize
+the point in a sentence or two instead.
 
 ## Plain language — no jargon (Critical — all agents)
 
@@ -191,6 +194,45 @@ can run anytime").
 - Prefer `rg` (ripgrep) for recursive text and file discovery.
 - Keep a grep fallback in scripts and prompts where a search command is shown, so they run anywhere:
   - `if command -v rg >/dev/null 2>&1; then rg -n "pattern" path; else grep -RIn "pattern" path; fi`
+
+## Never quote the owner in repository artifacts (all agents)
+
+Do not quote the owner's messages anywhere the repository can see: not in a commit message, a pull
+request title or body, a change log, a test script, a rule file, or a code comment. A pasted message
+is the owner's prompt published to git history. Write what the code does and why, in your own words.
+`Owner directive: an admin list hides nothing.` is correct; a block quote of the message, however
+short, is not. Quoting the product's own strings (a button label, an error the route returns) is
+fine; that is the artifact under discussion.
+
+## The owner has no terminal (all agents)
+
+The owner works from a phone: no shell, no local checkout. Never end a piece of work with a command
+for the owner to run. When something has to happen outside the repository, deliver it as a screen
+in the app, as text the owner pastes into a web dashboard (the statement itself, with no shell
+wrapper), or as a workflow the owner can run from the GitHub app.
+
+## Remove what nothing uses, in the same change (all agents)
+
+When a change leaves something with no users — a column, a function, a flag, a setting, a screen —
+delete it as part of that change. Do not list it as a follow-up or ask whether to remove it. Verify
+first: search the entire repository for readers and writers, including scripts, migrations and
+generated files. Something already unused before you arrived is different: mention it and leave it
+unless told otherwise.
+
+## One-shot workflows are deleted when they are done (owner directive, 2026-09-23 — all agents)
+
+A workflow written to do something once — create a service, connect two systems, run a backfill — is
+removed once it has done it, along with any script only it used. It is not kept in case it is wanted
+again.
+
+Every entry in the Actions list is something somebody might press. A list that mixes live operations
+with finished one-offs makes the dangerous press and the routine one look alike, and finished ones
+pile up faster than anybody prunes them. Git history keeps the work, and whoever recovers a copy
+reads it in full first.
+
+The sequence: ship the workflow, run it, confirm it did what it was for, then delete it in the same
+piece of work. Say in the workflow's own header that it is temporary. Recurring workflows stay:
+deploys, checks, scheduled jobs, anything with a next run.
 
 ## Architecture (publishing pipeline)
 
