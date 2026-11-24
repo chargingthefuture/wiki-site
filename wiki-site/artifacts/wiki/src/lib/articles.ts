@@ -39,6 +39,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "21-questions-finds-your-buddies",
+    "title": "21 Questions finds your buddies",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-11-23",
+    "excerpt": "One question a day on Today, four answers to pick from. Answer the same way as another member on three or more, and they show up as your buddy, with a conversation inside the card.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/21-questions-finds-your-buddies.md",
+    "teaser": "21 Questions puts one question a day on Today, the same for everyone, with four answers to pick from. The questions are about what you want from life after the targeting: work, income, what to learn, who to meet, what to give back. None asks about home, family, or where you live. When you and another member pick the same answer on three or more questions, they show up as your buddy, and you can talk inside their card. Your buddies together are your buddy network. Reaching out is optional, and so is replying.",
+    "topics": [
+      "community",
+      "skills-economy"
+    ],
+    "number": 463
+  },
+  {
     "slug": "a-watch-page-instead-of-a-hosted-reader",
     "title": "A watch page instead of the hosted reader",
     "repo": "chargingthefuture/wiki-site",
