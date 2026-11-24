@@ -39,6 +39,38 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "a-watch-page-instead-of-a-hosted-reader",
+    "title": "A watch page instead of the hosted reader",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-11-23",
+    "excerpt": "The reader I hosted at rss.lagatos.com is closing. The collected YouTube channels move to a page anyone can open, with no sign-in and nothing to pay for.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/a-watch-page-instead-of-a-hosted-reader.md",
+    "teaser": "In September I started hosting an RSS feed reader you could sign into with your Skills Economy account. It is closing. It cost money every month, more each month, and I was the only person using it. The part of it I used most, the collected YouTube channels cut at a date, now lives on a plain page anyone can open, with no sign-in and nothing for anybody to pay. The blog's own feed address has not changed and still needs nothing from me.",
+    "topics": [
+      "platform-independence",
+      "publishing"
+    ],
+    "number": 462
+  },
+  {
+    "slug": "Dictionary",
+    "title": "Dictionary: Skills Economy Terms",
+    "repo": "chargingthefuture/chargingthefuture",
+    "date": "2026-11-23",
+    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
+    "category": "Resources",
+    "collection": "posts",
+    "path": "posts/Dictionary.md",
+    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
+    "topics": [
+      "reference",
+      "terms"
+    ],
+    "number": 404
+  },
+  {
     "slug": "not-an-exposure-problem",
     "title": "Not an exposure problem. A legal one.",
     "repo": "chargingthefuture/wiki-site",
@@ -116,22 +148,6 @@ export const ARTICLES: ArticleMeta[] = [
       "skills-economy"
     ],
     "number": 458
-  },
-  {
-    "slug": "Dictionary",
-    "title": "Dictionary: Skills Economy Terms",
-    "repo": "chargingthefuture/chargingthefuture",
-    "date": "2026-10-27",
-    "excerpt": "The living reference for every term used across the Skills Economy — kept current, with changes dated and on the public record.",
-    "category": "Resources",
-    "collection": "posts",
-    "path": "posts/Dictionary.md",
-    "teaser": "The official terms of the Skills Economy, kept current in one living page: the product names, the member-count vocabulary (signed up is not recruited, and the difference matters here), the Specterati lexicon, what ServiceCredits are and are not, the ClickLog vocabulary, and every capability in the app today. When a term changes, this page changes, and the change is dated at the top.",
-    "topics": [
-      "reference",
-      "terms"
-    ],
-    "number": 404
   },
   {
     "slug": "what-they-know-is-not-the-hold",

@@ -9,6 +9,8 @@ topics:
   - publishing
 ---
 
+Update, November 23, 2026: the hosted reader described below is closing. What replaces it is in [A watch page instead of the hosted reader](https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/a-watch-page-instead-of-a-hosted-reader). This post is kept as it was written.
+
 The feed you read on a platform is arranged by somebody else. Not written by them — arranged. What is at the top, what is buried, what arrives the day it would land hardest. That is a decision, it is made about you, and you did not make it.
 
 An RSS feed reader takes the arranging away. I will call it a reader for the rest of this post. It fetches what a site publishes, in the order it was published, and puts it in a list. Nothing ranks it. Nothing is inserted. Nothing knows what you opened.
