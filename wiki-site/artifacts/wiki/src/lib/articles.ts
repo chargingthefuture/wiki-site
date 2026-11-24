@@ -43,11 +43,11 @@ export const ARTICLES: ArticleMeta[] = [
     "title": "A watch page instead of the hosted reader",
     "repo": "chargingthefuture/wiki-site",
     "date": "2026-11-23",
-    "excerpt": "The reader I hosted at rss.lagatos.com is closing. The collected YouTube channels move to a page anyone can open, with no sign-in and nothing to pay for.",
+    "excerpt": "The reader I hosted at rss.lagatos.com is closing. In its place is a free reader page with no sign-in: it starts with the blog, the demo videos and the recorded broadcasts, and you add the rest.",
     "category": "Community",
     "collection": "posts",
     "path": "posts/a-watch-page-instead-of-a-hosted-reader.md",
-    "teaser": "In September I started hosting an RSS feed reader you could sign into with your Skills Economy account. It is closing. It cost money every month, more each month, and I was the only person using it. The part of it I used most, the collected YouTube channels cut at a date, now lives on a plain page anyone can open, with no sign-in and nothing for anybody to pay. The blog's own feed address has not changed and still needs nothing from me.",
+    "teaser": "In September I started hosting an RSS feed reader you could sign into with your Skills Economy account. It is closing. It cost money every month, more each month, and I was the only person using it. In its place is a plain reader page anyone can open, with no sign-in and nothing for anybody to pay. It starts with the blog, the demo videos and the recorded broadcasts, you add whatever else you read, and a YouTube channel cut at your own date is still a thing you can ask for. The blog's own feed address has not changed and still needs nothing from me.",
     "topics": [
       "platform-independence",
       "publishing"
