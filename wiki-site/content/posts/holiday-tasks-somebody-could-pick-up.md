@@ -1,6 +1,6 @@
 ---
 title: "Holiday tasks somebody could pick up"
-date: "2026-11-23"
+date: "2026-11-24"
 excerpt: "Holiday season is coming. Forty-seven examples of things somebody would need help with, from groceries and laundry to a quiet place for children to do homework, each one something you can post as an ask on Today for somebody else to take."
 category: "Community"
 teaser: "Holiday season is coming, and it is a hard stretch for a lot of people. Here are examples of things somebody would need help with, grouped by kind: food, clothing and warmth, everyday needs, rides and errands, paperwork and access, company, children, and coordinating help. Each one can go up as an ask on Today, where somebody else picks it up and does it. My own example: because of the targeting I have no place to do laundry and no place to receive packages, and I would rather pay a Targeted Individual for both than anybody else."
