@@ -30,6 +30,13 @@ unverified — but it is still a staging file, and the post remains the record.
 
 
 ==============================================================================
+No. 463 · 2026-11-23 · 21 Questions finds your buddies
+
+There is a new question on Today every day, the same one for everybody, with four answers to tap. They ask what you want now: what work, what to learn, who you would like to meet, what you would give back. Nothing about family or where you live. Pick the same answer as someone else on three or more questions and they appear as your buddy, and you can talk to them right in their card. All your buddies together make up your buddy network. Writing to one is up to you, and so is answering. Skip a question that is not for you, and switch the buddy search off any time without losing your answers.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/21-questions-finds-your-buddies
+
+==============================================================================
 No. 462 · 2026-11-23 · A watch page instead of the hosted reader
 
 The feed reader I ran at rss.lagatos.com, the one you could sign into with your Skills Economy account, is closing. Last month it cost a little over $7, more than the month before, and the only person signed in was me. Nothing about following the blog changes: its feed address, https://chargingthefuture.github.io/chargingthefuture/feed.xml, works in any reader app and never went through my server. The part I actually used was the collected YouTube channels, each one's upload list gathered once and cut at a date so nothing after it arrives. Those were always published from a separate repository, and now they have a page you open in a browser: https://chargingthefuture.github.io/rss-feeds/read/ lists the channels A to Z, 50 videos a page, with a Watched button, a place kept in each channel, and a way to save a video for later. Nothing loads from YouTube until you press play, so there are no thumbnails and no recommendations. It sits on GitHub's free hosting, so nobody pays for it. There is no sign-in. What you mark lives in the browser you used, does not follow you to another device, and is gone if that browser's data is cleared, so the page tells you up front to download a backup now and then and restore it wherever you want your list. Being listed there says one person watches that channel and nothing more. If you want a channel added or cut at your own date, ask me in the Skills Economy with the channel address and the date.
