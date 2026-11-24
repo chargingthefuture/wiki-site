@@ -39,6 +39,22 @@ export interface ArticleMeta {
 
 export const ARTICLES: ArticleMeta[] = [
   {
+    "slug": "holiday-tasks-somebody-could-pick-up",
+    "title": "Holiday tasks somebody could pick up",
+    "repo": "chargingthefuture/wiki-site",
+    "date": "2026-11-24",
+    "excerpt": "Holiday season is coming. Forty-seven examples of things somebody would need help with, from groceries and laundry to a quiet place for children to do homework, each one something you can post as an ask on Today for somebody else to take.",
+    "category": "Community",
+    "collection": "posts",
+    "path": "posts/holiday-tasks-somebody-could-pick-up.md",
+    "teaser": "Holiday season is coming, and it is a hard stretch for a lot of people. Here are examples of things somebody would need help with, grouped by kind: food, clothing and warmth, everyday needs, rides and errands, paperwork and access, company, children, and coordinating help. Each one can go up as an ask on Today, where somebody else picks it up and does it. My own example: because of the targeting I have no place to do laundry and no place to receive packages, and I would rather pay a Targeted Individual for both than anybody else.",
+    "topics": [
+      "community",
+      "skills-economy"
+    ],
+    "number": 465
+  },
+  {
     "slug": "the-hint-is-meant-to-be-noticed",
     "title": "The hint is meant to be noticed",
     "repo": "chargingthefuture/wiki-site",
