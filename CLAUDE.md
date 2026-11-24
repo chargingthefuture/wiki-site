@@ -451,6 +451,8 @@ A task is finished when the change is merged and the branch is deleted, not when
    reader sees and the right one is unclear, stop and ask.
 4. Merge is the owner's in this repository. Auto-merge is off and every PR waits on a human merge
    (see What CI checks in this repo). Never merge around that, and never over a failing check.
+   The owner can also merge a post by adding the label `publish` (see Publishing a post from the
+   GitHub app below). That label is the owner's decision; an agent never adds it.
 5. Delete the head branch once the request is merged.
 
 ## One Post per Pull Request (owner directive, 2026-09-25)
@@ -1084,12 +1086,35 @@ Working open code-review findings. The code-review issues and their labels live 
 
 ## What CI checks in this repo, and what it does not
 
-Two workflows run here, and no others:
+Workflows that check or publish:
 
 | Workflow | Runs on | Checks |
 |---|---|---|
 | `wiki-validate.yml` | PRs, and pushes to `main` | Front matter across `content/`, then builds the site. No publish. |
 | `deploy-wiki-gh-pages.yml` | Pushes to `main` touching `wiki-site/**` | Builds, deploys to GitHub Pages, submits changed pages to the Wayback Machine. |
+| `publish-post.yml` | The label `publish` on a PR, pushes to `main`, or a manual run | Syncs each labeled post PR with `main`, runs every check and the build, merges it, starts the deploy. |
+
+## Publishing a post from the GitHub app (owner request, 2026-11-24)
+
+The owner publishes a post PR by adding the label `publish` to it in the GitHub app. No chat
+session is needed. `.github/workflows/publish-post.yml` then does what `/s` does — merge `main`,
+take `main`'s generated files and paste sheet, date the post today (Eastern), sync, put the post's
+paste sheet entry back with its new feed number, regenerate the full and TTS sheets, run every
+check and the build — and merges the PR and starts the deploy. The work is in
+`scripts/settle-post-pr.sh` and `scripts/src/settle-post-pr.ts`.
+
+- Several labeled PRs are a queue: oldest PR number first, one at a time, so each takes the next
+  feed number after the one before it.
+- A PR it cannot publish gets a comment with the reason and loses the label: more than one post
+  on the branch (a stacked PR), no new post, a conflict outside the generated files, or a failed
+  check.
+- If repository settings stop the workflow from merging, it leaves the PR synced with a comment,
+  ready for the merge button, and stops the queue. Merging that PR by hand starts the queue again.
+- Pushes and merges made with the workflow's token start no other workflow, so it runs the checks
+  itself and starts the deploy by hand. When it merges several posts in one run, only the last is
+  sent to the Wayback Machine.
+- An agent writing a post still writes the paste sheet entry by hand. The workflow moves that
+  entry and renumbers it; it does not write one, and it refuses a post that has none.
 
 The product repo's PR conventions are not enforced here. There is no semantic-title check and no parity check. So:
 

@@ -45,6 +45,16 @@ If the live blog does not update (the `GH_PAT` secret is missing in this repo), 
 `Github Pages — Deploy Blog` workflow in the product repo by hand: Actions tab → select the
 workflow → Run workflow.
 
+## Publish a post pull request from your phone
+
+Add the label `publish` to the pull request in the GitHub app (Labels on the pull request page).
+The "Publish a post" workflow brings it up to date with `main`, dates it today, gives it the next
+feed number, runs every check and the build, merges it, and starts the deploy. Label several and
+they are published one after another, oldest pull request first.
+
+If it cannot publish one, it comments on the pull request with the reason and removes the label.
+It can also be started from Actions → Publish a post → Run workflow, with the pull request number.
+
 ## Write and publish a post
 
 1. Create the markdown file in the right collection (usually `content/posts/`), with front
