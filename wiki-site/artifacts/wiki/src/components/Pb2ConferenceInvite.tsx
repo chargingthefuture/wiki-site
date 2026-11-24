@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { Mic, ArrowRight } from "lucide-react";
+import { useCallback, useEffect, useRef, useState, type ReactNode } from "react";
+import { Mic, ArrowRight, ChevronDown } from "lucide-react";
 import {
   Dialog,
   DialogContent,
@@ -44,14 +44,14 @@ function markSeen() {
 
 function InviteBody() {
   return (
-    <div className="font-sans text-base text-gray-300 space-y-4">
+    <div className="font-sans text-sm sm:text-base text-gray-300 space-y-3">
       <p>
         An online conference about how people begin rebuilding their lives through small acts of
         agency, mutual support and belonging. It draws on Estonia's restoration as one example of
         what collective action can rebuild over time, not as a comparison that minimizes anybody
         else's trauma. You don't have to rebuild everything at once, or alone.
       </p>
-      <ul className="list-disc pl-5 space-y-2">
+      <ul className="list-disc pl-5 space-y-1.5">
         <li>A prerecorded talk of 15 minutes or more, as video with audio or audio only.</li>
         <li>
           The talks are published together on this blog as one conference, free to watch at any
@@ -67,6 +67,54 @@ function InviteBody() {
         To offer a talk or send one in, reach me on Discord, WhatsApp or Signal. All three are
         listed on my bio page.
       </p>
+    </div>
+  );
+}
+
+// The text scrolls inside the pop-up while the title, the close control and the two actions stay
+// in place. Some phone browsers hide scroll bars, so while text remains below, the bottom edge
+// fades and a "More below" line shows; both go once the end is reached.
+function ScrollArea({ children }: { children: ReactNode }) {
+  const ref = useRef<HTMLDivElement>(null);
+  const [more, setMore] = useState(false);
+
+  const check = useCallback(() => {
+    const el = ref.current;
+    if (!el) return;
+    setMore(el.scrollHeight - el.scrollTop - el.clientHeight > 8);
+  }, []);
+
+  useEffect(() => {
+    check();
+    const el = ref.current;
+    if (!el || typeof ResizeObserver === "undefined") return;
+    const observer = new ResizeObserver(check);
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [check]);
+
+  return (
+    <div className="relative min-h-0 flex-1 flex flex-col">
+      <div
+        ref={ref}
+        onScroll={check}
+        tabIndex={0}
+        role="region"
+        aria-label="Conference details"
+        className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-5 py-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-inset"
+      >
+        {children}
+      </div>
+      {more && (
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-background via-background/80 to-transparent flex items-end justify-center pb-1.5"
+        >
+          <span className="inline-flex items-center gap-1 font-mono text-xs uppercase tracking-widest text-primary">
+            More below <ChevronDown size={14} />
+          </span>
+        </div>
+      )}
     </div>
   );
 }
@@ -107,28 +155,32 @@ export function Pb2ConferenceInvite() {
       </div>
 
       <Dialog open={open} onOpenChange={onOpenChange}>
-        <DialogContent className="max-h-[90vh] overflow-y-auto w-[calc(100%-2rem)] border-primary">
-          <DialogTitle className="font-display text-2xl text-white font-medium pr-6">
-            Give a talk at the Peace Battle 2 conference
-          </DialogTitle>
-          <DialogDescription className="font-display italic text-base text-gray-300">
-            {THEME}
-          </DialogDescription>
-          <InviteBody />
-          <div className="flex flex-col sm:flex-row gap-3 pt-2">
+        <DialogContent className="flex flex-col gap-0 p-0 max-h-[75vh] sm:max-h-[80vh] max-w-md w-[calc(100%-2rem)] border-primary overflow-hidden">
+          <div className="px-5 pt-5 pb-3 pr-12 border-b border-border">
+            <DialogTitle className="font-display text-xl text-white font-medium">
+              Give a talk at the Peace Battle 2 conference
+            </DialogTitle>
+          </div>
+          <ScrollArea>
+            <DialogDescription className="font-display italic text-base text-gray-300 mb-3">
+              {THEME}
+            </DialogDescription>
+            <InviteBody />
+          </ScrollArea>
+          <div className="flex flex-col sm:flex-row gap-2 px-5 py-4 border-t border-border">
             <a
               href={CONTACT}
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => onOpenChange(false)}
-              className="font-heading font-bold uppercase text-sm bg-primary text-primary-foreground px-5 py-3 inline-flex items-center justify-center gap-2 hover:opacity-90"
+              className="font-heading font-bold uppercase text-sm bg-primary text-primary-foreground px-4 py-2.5 inline-flex items-center justify-center gap-2 hover:opacity-90"
             >
               Discord, WhatsApp or Signal <ArrowRight size={16} aria-hidden="true" />
             </a>
             <button
               type="button"
               onClick={() => onOpenChange(false)}
-              className="font-heading font-bold uppercase text-sm border border-border text-gray-400 px-5 py-3 hover:text-white"
+              className="font-heading font-bold uppercase text-sm border border-border text-gray-400 px-4 py-2.5 hover:text-white"
             >
               Not now
             </button>

@@ -26,15 +26,49 @@ corrected where it had drifted; 70 were rewritten. Entries added after that date
 are written from the post at the time it is published. So the file is no longer
 unverified — but it is still a staging file, and the post remains the record.
 
-461 of 461 written.
+463 of 463 written.
 
 
 ==============================================================================
-No. 461 · 2026-11-22 · Weavers of the Commons
+No. 465 · 2026-11-24 · Holiday tasks somebody could pick up
 
-Weavers of the Commons is a badge anyone in the Skills Economy can earn by delivering real help to other members steadily, over time and across the app: a ride, a stay, an answered call, a skill taught, a small task the person who asked said helped. Talk and agreement do not count. The account has to be at least 90 days old, the help has to reach at least three parts of the app and at least five different people, and only help given to approved members who are not new themselves counts. Nobody can apply, buy it, or be handed it, the owner included. It shows as a braid on a claimed Directory profile, with no score anywhere, and it opens pictures and links in posts and a private room on Today. Once earned, it is removed only for cause.
+The holidays are close, and a lot of what gets people through them is small and practical: groceries brought to the door, a ride to a pharmacy, a coat, a hand with a benefit form, a call to check in, somebody to watch the children for a few hours. I put forty-seven of these into one list, sorted by kind, and any of them can go up as an ask on Today for another member to take on. Mine is laundry and a place to receive packages, which the targeting has taken from me, and I would rather pay a Targeted Individual for both.
 
-Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/weavers-of-the-commons
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/holiday-tasks-somebody-could-pick-up
+
+==============================================================================
+No. 464 · 2026-11-24 · The hint is meant to be noticed
+
+Somebody on Quora asked how subtle hints are used to control Targeted Individuals and what that does to their lives. A hint is not a mistake on their side. It is made to be caught: strangers repeating words from a private conversation, clothes copied, a pointed "have a good day" after a day that was arranged to go badly. Its grip comes from the reading. Each one is a puzzle about who knew and what comes next, and the time spent solving it is time handed over. Over months it trains a person to react to the smallest things, and a reaction that looks too big to somebody who missed the hint becomes the story told about them. You cannot stop noticing, and you should not try. You can log each one with a date in a few seconds and stop holding it.
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/the-hint-is-meant-to-be-noticed
+
+==============================================================================
+No. 463 · 2026-11-23 · 21 Questions finds your buddies
+
+There is a new question on Today every day, the same one for everybody, with four answers to tap. They ask what you want now: what work, what to learn, who you would like to meet, what you would give back. Nothing about family or where you live. Pick the same answer as someone else on three or more questions and they appear as your buddy, and you can talk to them right in their card. All your buddies together make up your buddy network. Writing to one is up to you, and so is answering. Skip a question that is not for you, and switch the buddy search off any time without losing your answers.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/21-questions-finds-your-buddies
+
+==============================================================================
+No. 462 · 2026-11-23 · A watch page instead of the hosted reader
+
+The feed reader I ran at rss.lagatos.com, the one you signed into with your Skills Economy account, is closing: last month it cost a little over $7, more than the month before, and the only person signed in was me. Following the blog does not change. Its feed address, https://chargingthefuture.github.io/chargingthefuture/feed.xml, works in any reader app and never went through my server. In place of the hosted reader there is a page anybody can open with no account: https://chargingthefuture.github.io/rss-feeds/read/ starts with the blog, my demo videos of the app and the recorded broadcasts, the same three a new account used to get. Posts open on the page and recordings play there; paste the address of anything else you read to add it, take off anything you do not want, and a Watched list keeps what you have marked. It sits on GitHub's free hosting, so nobody pays for it. There is no sign-in, so your list lives in the browser you used, does not follow you to another device, and is gone if that browser's data is cleared; the page says up front to download a backup now and then and restore it wherever you want your list. YouTube channels cannot be pasted in, because YouTube does not let other pages read them, so ask me in the Skills Economy with the channel address and a date, and I collect it, cut it at that date and send you its feed address to add.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/a-watch-page-instead-of-a-hosted-reader
+
+==============================================================================
+No. 404 · 2026-08-18 · Dictionary: Skills Economy Terms
+
+One page holds every term this project uses: the product names, the difference between a signed-up member and a recruited one, the Specterati vocabulary, what ServiceCredits are and are not, and the full list of what the app does. It is kept current, and each change is dated at the top.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary
+
+==============================================================================
+No. 461 · 2026-11-22 · Not an exposure problem. A legal one.
+
+Kim Costello answered a Quora question about exposing the people running this with one line worth keeping: it is better to defeat them than to try to expose them. They are ready for exposure. The method has had centuries of money and people behind it, with writing on it as far back as 1609, and one scheme against me has run for more than ten years, so a post naming it was planned for long before it was written. Exposure also tells nobody nearby anything new. Spend a day around a Targeted Individual and you see it. What the people doing it work around is the law, not public opinion, and defeating it means the dependence each scheme feeds on is no longer there.
+
+Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/not-an-exposure-problem
 
 ==============================================================================
 No. 460 · 2026-11-22 · One small task, on Today
@@ -63,13 +97,6 @@ No. 458 · 2026-11-03 · Why we count days won
 The new version of Skills Economy opens on a card that says Days the Avenhood has won. Only time members spend with each other goes into it: sitting in a room together, a call, a task somebody helped with and its author confirmed. Time spent alone with the app open adds nothing. It is one shared count for everybody, with no ranking and no personal tally. Each minute in it is a minute the Specterati schemes did not get, and time back for each of us to reach our own idea of happiness. The ask is half an hour a day, given to each other.
 
 Full post: https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/why-we-count-days-won
-
-==============================================================================
-No. 404 · 2026-08-18 · Dictionary: Skills Economy Terms
-
-One page holds every term this project uses: the product names, the difference between a signed-up member and a recruited one, the Specterati vocabulary, what ServiceCredits are and are not, and the full list of what the app does. It is kept current, and each change is dated at the top.
-
-Full post: https://chargingthefuture.github.io/chargingthefuture/article/chargingthefuture/Dictionary
 
 ==============================================================================
 No. 457 · 2026-10-16 · What they know is not the hold

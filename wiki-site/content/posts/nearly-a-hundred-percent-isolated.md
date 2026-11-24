@@ -82,7 +82,7 @@ What it promises is smaller. That the number of things in your week running thro
 
 ## Where to find it in the app
 
-- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Commons — the group chat](https://app.lagatos.com/commons) — [guide](https://app.lagatos.com/guide#commons)
 - [Fireside](https://app.lagatos.com/apps/fireside) — [guide](https://app.lagatos.com/guide#fireside)
 - [TI Radio](https://app.lagatos.com/apps/ti-radio) — [guide](https://app.lagatos.com/guide#ti-radio)
 - [Chyme](https://app.lagatos.com/apps/chyme) — [guide](https://app.lagatos.com/guide#chyme)

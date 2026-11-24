@@ -112,6 +112,6 @@ The same question applies past schooling. If you are providing anything in this 
 - [PeerProgramming](https://app.lagatos.com/apps/peer-programming) — [guide](https://app.lagatos.com/guide#peer-programming)
 - [Skills Taxonomy](https://app.lagatos.com/apps/skills-taxonomy) — [guide](https://app.lagatos.com/guide#skills-taxonomy)
 - [WhatWorks](https://app.lagatos.com/apps/what-works) — [guide](https://app.lagatos.com/guide#what-works)
-- [Commons — the group chat](https://app.lagatos.com) — [guide](https://app.lagatos.com/guide#commons)
+- [Commons — the group chat](https://app.lagatos.com/commons) — [guide](https://app.lagatos.com/guide#commons)
 
 To sign up: https://lagatos.com. It is free, everyone is let in one at a time after a check, and you can use one part of it and ignore the rest.
